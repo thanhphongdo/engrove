@@ -6,7 +6,7 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import { toast } from "sonner";
-import { usePreferences, setHintToggle } from "@/lib/db/use-preferences";
+import { usePreferences, useSetHintToggle } from "@/lib/db/use-preferences";
 import type { HintToggles } from "@/lib/db/types";
 
 const TOGGLES: Array<{ key: keyof HintToggles; label: string }> = [
@@ -18,6 +18,7 @@ const TOGGLES: Array<{ key: keyof HintToggles; label: string }> = [
 
 export function HintSettingsPopover() {
   const prefs = usePreferences();
+  const setHintToggle = useSetHintToggle();
   return (
     <Popover>
       <PopoverTrigger asChild>

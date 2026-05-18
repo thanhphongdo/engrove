@@ -17,6 +17,7 @@ import { toast } from "sonner";
 import { scoreQuiz } from "@/lib/lessons/score";
 import { saveAttempt, deleteDraft, upsertDraft } from "@/lib/db/queries";
 import { useTimerStore } from "@/stores/timer-store";
+import { useActiveProfileId } from "@/lib/db/use-active-profile";
 import { QuizQuestion } from "./quiz-question";
 import { ReviewSummary } from "./review-summary";
 import type { Lesson } from "@/lib/lessons/types";
@@ -36,21 +37,26 @@ export function Quiz({
   initialDurationMs?: number;
   onAttemptSaved: () => void;
 }) {
+  const profileId = useActiveProfileId();
   const [picks, setPicks] = useState<Picks>(initialPicks);
   const [result, setResult] = useState<ReturnType<typeof scoreQuiz> | null>(null);
   const [finalDurationMs, setFinalDurationMs] = useState(0);
   const stopTimer = useTimerStore((s) => s.stop);
   const resetTimer = useTimerStore((s) => s.reset);
   const hydrate = useTimerStore((s) => s.hydrate);
-  // startedAt is captured once on mount; null until the effect fires.
+  // startedAt is null until the user takes their first action (pick or submit).
   const startedAtRef = useRef<number | null>(null);
+
+  // Lazily capture the attempt start time on first user action.
+  const ensureStartedAt = () => {
+    if (startedAtRef.current === null) startedAtRef.current = Date.now();
+  };
 
   useEffect(() => {
     // Hydrate timer from draft duration on mount (safe — sets external store, not React state).
     if (initialDurationMs > 0) {
       hydrate(initialDurationMs);
     }
-    startedAtRef.current = Date.now();
     // eslint-disable-next-line react-hooks/exhaustive-deps -- intentionally run once on mount
   }, []);
 
@@ -60,42 +66,43 @@ export function Quiz({
     if (debounceRef.current !== null) window.clearTimeout(debounceRef.current);
     debounceRef.current = window.setTimeout(() => {
       upsertDraft({
-        profileId: "default",
+        profileId,
         lessonId: lesson.id,
         answers: picks,
-        durationMs: useTimerStore.getState().accumulatedMs,
+        durationMs: useTimerStore.getState().elapsedAt(Date.now()),
         updatedAt: Date.now(),
       }).catch(() => {});
     }, 1000);
     return () => {
       if (debounceRef.current !== null) window.clearTimeout(debounceRef.current);
     };
-  }, [picks, lesson.id, result]);
+  }, [picks, lesson.id, result, profileId]);
 
   const running = useTimerStore((s) => s.running);
   useEffect(() => {
     if (result || running) return; // only when timer transitions to stopped
     upsertDraft({
-      profileId: "default",
+      profileId,
       lessonId: lesson.id,
       answers: picks,
-      durationMs: useTimerStore.getState().accumulatedMs,
+      durationMs: useTimerStore.getState().elapsedAt(Date.now()),
       updatedAt: Date.now(),
     }).catch(() => {});
-  }, [running, picks, lesson.id, result]);
+  }, [running, picks, lesson.id, result, profileId]);
 
   const answeredCount = useMemo(() => Object.keys(picks).length, [picks]);
   const total = lesson.questions.length;
   const unanswered = total - answeredCount;
 
   async function doSubmit() {
+    ensureStartedAt();
     stopTimer();
     const durationMs = useTimerStore.getState().accumulatedMs;
     setFinalDurationMs(durationMs);
     const r = scoreQuiz(lesson.questions, picks);
     const attempt = {
       id: crypto.randomUUID(),
-      profileId: "default",
+      profileId,
       lessonId: lesson.id,
       startedAt: startedAtRef.current ?? Date.now(),
       completedAt: Date.now(),
@@ -105,7 +112,7 @@ export function Quiz({
       answers: r.answers,
     };
     await saveAttempt(attempt);
-    await deleteDraft("default", lesson.id);
+    await deleteDraft(profileId, lesson.id);
     setResult(r);
     toast.success(`Saved. Score: ${r.score}/${r.total}`);
     onAttemptSaved();
@@ -115,6 +122,7 @@ export function Quiz({
     setPicks({});
     setResult(null);
     setFinalDurationMs(0);
+    startedAtRef.current = null;
     resetTimer();
   }
 
@@ -132,7 +140,10 @@ export function Quiz({
             index={i}
             question={q}
             value={picks[q.id]}
-            onChange={(v) => setPicks((p) => ({ ...p, [q.id]: v }))}
+            onChange={(v) => {
+              ensureStartedAt();
+              setPicks((p) => ({ ...p, [q.id]: v }));
+            }}
             showHint={showHint}
             reviewMode={result !== null}
           />

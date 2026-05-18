@@ -2,10 +2,11 @@
 
 import { Columns2, Rows2 } from "lucide-react";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
-import { usePreferences, setDetailLayout } from "@/lib/db/use-preferences";
+import { usePreferences, useSetDetailLayout } from "@/lib/db/use-preferences";
 
 export function LayoutToggle() {
   const prefs = usePreferences();
+  const setDetailLayout = useSetDetailLayout();
   return (
     <ToggleGroup
       type="single"

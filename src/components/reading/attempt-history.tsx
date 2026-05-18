@@ -2,6 +2,7 @@
 
 import { useLiveQuery } from "dexie-react-hooks";
 import { listAttemptsForLesson } from "@/lib/db/queries";
+import { useActiveProfileId } from "@/lib/db/use-active-profile";
 
 function fmtDate(ms: number) {
   return new Date(ms).toLocaleString();
@@ -13,7 +14,11 @@ function fmtDuration(ms: number) {
 }
 
 export function AttemptHistory({ lessonId }: { lessonId: string }) {
-  const attempts = useLiveQuery(() => listAttemptsForLesson("default", lessonId), [lessonId]);
+  const profileId = useActiveProfileId();
+  const attempts = useLiveQuery(
+    () => listAttemptsForLesson(profileId, lessonId),
+    [profileId, lessonId],
+  );
   if (!attempts || attempts.length === 0) return null;
   return (
     <section className="mt-6 rounded-md border bg-card p-4">

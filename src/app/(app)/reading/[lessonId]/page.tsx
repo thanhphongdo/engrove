@@ -14,6 +14,7 @@ import { Passage } from "@/components/reading/passage";
 import { GrammarNotes } from "@/components/reading/grammar-notes";
 import { HintSettingsPopover } from "@/components/reading/hint-settings-popover";
 import { usePreferences } from "@/lib/db/use-preferences";
+import { useActiveProfileId } from "@/lib/db/use-active-profile";
 import { Quiz } from "@/components/reading/quiz";
 import { ResumeBanner } from "@/components/reading/resume-banner";
 import { LayoutToggle } from "@/components/reading/layout-toggle";
@@ -29,16 +30,20 @@ const LEVEL_CLASS: Record<Lesson["level"], string> = {
 
 export default function LessonDetailPage({ params }: { params: Promise<{ lessonId: string }> }) {
   const { lessonId } = use(params);
+  const profileId = useActiveProfileId();
   const { data: lessons } = useAllReadingLessons();
   const lesson = useMemo(() => lessons?.find((l) => l.id === lessonId), [lessons, lessonId]);
-  const attempts = useLiveQuery(() => listAttemptsForLesson("default", lessonId), [lessonId]);
+  const attempts = useLiveQuery(
+    () => listAttemptsForLesson(profileId, lessonId),
+    [profileId, lessonId],
+  );
   const reset = useTimerStore((s) => s.reset);
   const prefs = usePreferences();
   // draft is undefined while loading, null when confirmed absent, Draft object when present
-  const draft = useLiveQuery(() => getDraft("default", lessonId), [lessonId]);
+  const draft = useLiveQuery(() => getDraft(profileId, lessonId), [profileId, lessonId]);
 
   async function abandonDraft() {
-    await deleteDraft("default", lessonId);
+    await deleteDraft(profileId, lessonId);
     reset();
   }
 

@@ -2,6 +2,7 @@
 
 import { useLiveQuery } from "dexie-react-hooks";
 import { db } from "./client";
+import { useActiveProfileId } from "./use-active-profile";
 import type { Attempt } from "./types";
 
 export function useBestAttempts(profileId: string): Map<string, Attempt> | undefined {
@@ -17,5 +18,6 @@ export function useBestAttempts(profileId: string): Map<string, Attempt> | undef
 }
 
 export function useDefaultBestAttempts() {
-  return useBestAttempts("default");
+  const profileId = useActiveProfileId();
+  return useBestAttempts(profileId);
 }
