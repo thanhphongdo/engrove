@@ -10,6 +10,10 @@ import { LessonTimer } from "@/components/reading/lesson-timer";
 import { useTimerStore } from "@/stores/timer-store";
 import { cn } from "@/lib/utils";
 import type { Lesson } from "@/lib/lessons/types";
+import { Passage } from "@/components/reading/passage";
+import { GrammarNotes } from "@/components/reading/grammar-notes";
+import { HintSettingsPopover } from "@/components/reading/hint-settings-popover";
+import { usePreferences } from "@/lib/db/use-preferences";
 
 const LEVEL_CLASS: Record<Lesson["level"], string> = {
   A1: "bg-level-a1 text-level-a1-foreground",
@@ -25,6 +29,7 @@ export default function LessonDetailPage({ params }: { params: Promise<{ lessonI
   const lesson = useMemo(() => lessons?.find((l) => l.id === lessonId), [lessons, lessonId]);
   const attempts = useLiveQuery(() => listAttemptsForLesson("default", lessonId), [lessonId]);
   const reset = useTimerStore((s) => s.reset);
+  const prefs = usePreferences();
 
   useEffect(() => {
     reset();
@@ -69,6 +74,7 @@ export default function LessonDetailPage({ params }: { params: Promise<{ lessonI
         </div>
         <div className="flex items-center gap-2">
           <LessonTimer />
+          <HintSettingsPopover />
         </div>
       </header>
 
@@ -76,13 +82,18 @@ export default function LessonDetailPage({ params }: { params: Promise<{ lessonI
         <strong className="not-italic">Summary:</strong> {lesson.summary}
       </div>
 
-      <div className="rounded-md border bg-card p-4 text-sm text-muted-foreground">
-        Passage + quiz wired in the next tasks. Sample passage body:
-        <p className="mt-2 whitespace-pre-wrap text-foreground">
-          {typeof lesson.body === "string"
-            ? lesson.body
-            : lesson.body.map((t) => `${t.speaker}: ${t.text}`).join("\n")}
-        </p>
+      <div className="grid grid-cols-1 gap-4 lg:grid-cols-[1.2fr_1fr]">
+        <section className="rounded-md border bg-card p-4">
+          <Passage
+            lesson={lesson}
+            showAnnotations={prefs.hintToggles.vocabVi}
+            showTranslation={prefs.hintToggles.passageTranslation}
+          />
+          {prefs.hintToggles.grammar && <GrammarNotes notes={lesson.grammarNotes} />}
+        </section>
+        <section className="rounded-md border bg-card p-4 text-sm text-muted-foreground">
+          Quiz wired in Task 15.
+        </section>
       </div>
     </div>
   );
