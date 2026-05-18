@@ -16,15 +16,23 @@ export function LessonTimer() {
   const running = useTimerStore((s) => s.running);
   const start = useTimerStore((s) => s.start);
   const stop = useTimerStore((s) => s.stop);
-  const [, force] = useState(0);
+  const accumulatedMs = useTimerStore((s) => s.accumulatedMs);
+  // liveMs is only active when running; updated by an interval callback.
+  const [liveMs, setLiveMs] = useState(0);
 
   useEffect(() => {
     if (!running) return;
-    const id = window.setInterval(() => force((n) => n + 1), 1000);
+    // Update display every 500 ms by reading store state inside the callback
+    // (not during render — no purity violation).
+    const tick = () => {
+      setLiveMs(useTimerStore.getState().elapsedAt(Date.now()));
+    };
+    const id = window.setInterval(tick, 500);
     return () => window.clearInterval(id);
   }, [running]);
 
-  const display = useTimerStore.getState().elapsedAt(Date.now());
+  // When not running, display the frozen accumulated value (pure — no Date.now in render).
+  const display = running ? liveMs : accumulatedMs;
 
   return (
     <div className="flex items-center gap-2">

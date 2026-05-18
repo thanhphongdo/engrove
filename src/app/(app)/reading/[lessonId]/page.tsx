@@ -1,6 +1,6 @@
 "use client";
 
-import { use, useEffect, useMemo, useState } from "react";
+import { use, useMemo } from "react";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { useAllReadingLessons } from "@/lib/lessons/load";
@@ -33,30 +33,13 @@ export default function LessonDetailPage({ params }: { params: Promise<{ lessonI
   const lesson = useMemo(() => lessons?.find((l) => l.id === lessonId), [lessons, lessonId]);
   const attempts = useLiveQuery(() => listAttemptsForLesson("default", lessonId), [lessonId]);
   const reset = useTimerStore((s) => s.reset);
-  const hydrate = useTimerStore((s) => s.hydrate);
   const prefs = usePreferences();
+  // draft is undefined while loading, null when confirmed absent, Draft object when present
   const draft = useLiveQuery(() => getDraft("default", lessonId), [lessonId]);
-  const [initialPicks, setInitialPicks] = useState<Record<string, number>>({});
-  const [resumedKey, setResumedKey] = useState<string | null>(null);
-
-  useEffect(() => {
-    reset();
-    setInitialPicks({});
-    setResumedKey(null);
-  }, [lessonId, reset]);
-
-  useEffect(() => {
-    if (!draft) return;
-    if (resumedKey === lessonId) return;
-    hydrate(draft.durationMs);
-    setInitialPicks(draft.answers);
-    setResumedKey(lessonId);
-  }, [draft, lessonId, hydrate, resumedKey]);
 
   async function abandonDraft() {
     await deleteDraft("default", lessonId);
     reset();
-    setInitialPicks({});
   }
 
   if (!lesson) {
@@ -67,6 +50,9 @@ export default function LessonDetailPage({ params }: { params: Promise<{ lessonI
     (acc, a) => (!acc || a.score > acc.score ? a : acc),
     undefined,
   );
+
+  // draft === undefined means still loading; null means no draft exists
+  const hasDraft = draft != null;
 
   return (
     <div className="mx-auto w-full max-w-6xl px-6 py-6">
@@ -106,7 +92,7 @@ export default function LessonDetailPage({ params }: { params: Promise<{ lessonI
         <strong className="not-italic">Summary:</strong> {lesson.summary}
       </div>
 
-      {draft && resumedKey === lessonId && <ResumeBanner onAbandon={abandonDraft} />}
+      {hasDraft && <ResumeBanner onAbandon={abandonDraft} />}
 
       <div
         className={
@@ -125,10 +111,11 @@ export default function LessonDetailPage({ params }: { params: Promise<{ lessonI
         </section>
         <section className="rounded-md border bg-card p-4">
           <Quiz
-            key={resumedKey ?? "fresh"}
+            key={`${lessonId}-${hasDraft ? "draft" : "fresh"}`}
             lesson={lesson}
             showHint={prefs.hintToggles.perQuestionHint}
-            initialPicks={initialPicks}
+            initialPicks={draft?.answers ?? {}}
+            initialDurationMs={draft?.durationMs ?? 0}
             onAttemptSaved={() => {}}
           />
         </section>

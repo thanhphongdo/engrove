@@ -3,7 +3,6 @@
 import { useTheme } from "next-themes";
 import { Moon, Sun, Monitor } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
 
 const MODES = [
@@ -13,10 +12,9 @@ const MODES = [
 ] as const;
 
 export function ThemeToggle() {
-  const { theme, setTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
-  useEffect(() => setMounted(true), []);
-  if (!mounted) return <div className="h-9" aria-hidden="true" />;
+  const { theme, setTheme, resolvedTheme } = useTheme();
+  // next-themes sets resolvedTheme only after hydration; use it as the mounted guard.
+  if (!resolvedTheme) return <div className="h-9" aria-hidden="true" />;
 
   return (
     <div className="flex gap-1 rounded-md border bg-background p-1" role="radiogroup" aria-label="Theme">

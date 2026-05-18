@@ -27,18 +27,32 @@ export function Quiz({
   lesson,
   showHint,
   initialPicks,
+  initialDurationMs = 0,
   onAttemptSaved,
 }: {
   lesson: Lesson;
   showHint: boolean;
   initialPicks: Picks;
+  initialDurationMs?: number;
   onAttemptSaved: () => void;
 }) {
   const [picks, setPicks] = useState<Picks>(initialPicks);
   const [result, setResult] = useState<ReturnType<typeof scoreQuiz> | null>(null);
+  const [finalDurationMs, setFinalDurationMs] = useState(0);
   const stopTimer = useTimerStore((s) => s.stop);
   const resetTimer = useTimerStore((s) => s.reset);
-  const startedAtRef = useRef(Date.now());
+  const hydrate = useTimerStore((s) => s.hydrate);
+  // startedAt is captured once on mount; null until the effect fires.
+  const startedAtRef = useRef<number | null>(null);
+
+  useEffect(() => {
+    // Hydrate timer from draft duration on mount (safe — sets external store, not React state).
+    if (initialDurationMs > 0) {
+      hydrate(initialDurationMs);
+    }
+    startedAtRef.current = Date.now();
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- intentionally run once on mount
+  }, []);
 
   const debounceRef = useRef<number | null>(null);
   useEffect(() => {
@@ -77,12 +91,13 @@ export function Quiz({
   async function doSubmit() {
     stopTimer();
     const durationMs = useTimerStore.getState().accumulatedMs;
+    setFinalDurationMs(durationMs);
     const r = scoreQuiz(lesson.questions, picks);
     const attempt = {
       id: crypto.randomUUID(),
       profileId: "default",
       lessonId: lesson.id,
-      startedAt: startedAtRef.current,
+      startedAt: startedAtRef.current ?? Date.now(),
       completedAt: Date.now(),
       durationMs,
       score: r.score,
@@ -99,6 +114,7 @@ export function Quiz({
   function retry() {
     setPicks({});
     setResult(null);
+    setFinalDurationMs(0);
     resetTimer();
   }
 
@@ -125,7 +141,7 @@ export function Quiz({
 
       {result ? (
         <>
-          <ReviewSummary score={result.score} total={result.total} durationMs={useTimerStore.getState().accumulatedMs} />
+          <ReviewSummary score={result.score} total={result.total} durationMs={finalDurationMs} />
           <Button type="button" variant="outline" className="w-full" onClick={retry}>
             Retry
           </Button>
