@@ -14,6 +14,7 @@ import { Passage } from "@/components/reading/passage";
 import { GrammarNotes } from "@/components/reading/grammar-notes";
 import { HintSettingsPopover } from "@/components/reading/hint-settings-popover";
 import { usePreferences } from "@/lib/db/use-preferences";
+import { Quiz } from "@/components/reading/quiz";
 
 const LEVEL_CLASS: Record<Lesson["level"], string> = {
   A1: "bg-level-a1 text-level-a1-foreground",
@@ -91,8 +92,13 @@ export default function LessonDetailPage({ params }: { params: Promise<{ lessonI
           />
           {prefs.hintToggles.grammar && <GrammarNotes notes={lesson.grammarNotes} />}
         </section>
-        <section className="rounded-md border bg-card p-4 text-sm text-muted-foreground">
-          Quiz wired in Task 15.
+        <section className="rounded-md border bg-card p-4">
+          <Quiz
+            lesson={lesson}
+            showHint={prefs.hintToggles.perQuestionHint}
+            initialPicks={{}}
+            onAttemptSaved={() => {}}
+          />
         </section>
       </div>
     </div>
