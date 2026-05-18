@@ -16,6 +16,8 @@ export type Preferences = {
   hintToggles: HintToggles;
   detailLayout: DetailLayout;
   activeProfileId: string;
+  /** Content zoom multiplier (1 = browser default). Range 0.9–1.5 in steps of 0.1. */
+  contentZoom: number;
 };
 
 export type Attempt = {
@@ -44,3 +46,8 @@ export const DEFAULT_HINT_TOGGLES: HintToggles = {
   passageTranslation: false,
   perQuestionHint: false,
 };
+
+export const DEFAULT_CONTENT_ZOOM = 1.1;
+export const MIN_CONTENT_ZOOM = 0.9;
+export const MAX_CONTENT_ZOOM = 1.5;
+export const CONTENT_ZOOM_STEP = 0.1;

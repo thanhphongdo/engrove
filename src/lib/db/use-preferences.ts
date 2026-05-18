@@ -6,10 +6,11 @@ import { db } from "./client";
 import {
   setHintToggle as setHintToggleQ,
   setDetailLayout as setDetailLayoutQ,
+  setContentZoom as setContentZoomQ,
 } from "./queries";
 import { useActiveProfileId } from "./use-active-profile";
 import type { HintToggles, DetailLayout, Preferences } from "./types";
-import { DEFAULT_HINT_TOGGLES } from "./types";
+import { DEFAULT_CONTENT_ZOOM, DEFAULT_HINT_TOGGLES } from "./types";
 
 // Used both as a Dexie initial value (must be a defined Preferences) and as a
 // runtime fallback. The literals here are the bootstrap shape of a Preferences
@@ -20,6 +21,7 @@ function makeFallback(profileId: string): Preferences {
     hintToggles: { ...DEFAULT_HINT_TOGGLES },
     detailLayout: "two-column",
     activeProfileId: profileId,
+    contentZoom: DEFAULT_CONTENT_ZOOM,
   };
 }
 
@@ -46,6 +48,16 @@ export function useSetDetailLayout() {
   return useCallback(
     async (layout: DetailLayout) => {
       await setDetailLayoutQ(profileId, layout);
+    },
+    [profileId],
+  );
+}
+
+export function useSetContentZoom() {
+  const profileId = useActiveProfileId();
+  return useCallback(
+    async (zoom: number) => {
+      await setContentZoomQ(profileId, zoom);
     },
     [profileId],
   );

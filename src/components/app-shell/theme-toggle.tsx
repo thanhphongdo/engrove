@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 import { Moon, Sun, Monitor } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -12,9 +13,13 @@ const MODES = [
 ] as const;
 
 export function ThemeToggle() {
-  const { theme, setTheme, resolvedTheme } = useTheme();
-  // next-themes sets resolvedTheme only after hydration; use it as the mounted guard.
-  if (!resolvedTheme) return <div className="h-9" aria-hidden="true" />;
+  const { theme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+  // The server doesn't know the user's stored theme, so we render an inert
+  // placeholder until after hydration to keep SSR and first-client renders identical.
+  // eslint-disable-next-line react-hooks/set-state-in-effect
+  useEffect(() => setMounted(true), []);
+  if (!mounted) return <div className="h-9" aria-hidden="true" />;
 
   return (
     <div className="flex gap-1 rounded-md border bg-background p-1" role="radiogroup" aria-label="Theme">

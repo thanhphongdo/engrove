@@ -1,6 +1,9 @@
 import { db } from "./client";
 import {
+  DEFAULT_CONTENT_ZOOM,
   DEFAULT_HINT_TOGGLES,
+  MAX_CONTENT_ZOOM,
+  MIN_CONTENT_ZOOM,
   type Attempt,
   type DetailLayout,
   type Draft,
@@ -22,6 +25,7 @@ export async function ensureDefaultProfile(): Promise<void> {
       hintToggles: { ...DEFAULT_HINT_TOGGLES },
       detailLayout: "two-column",
       activeProfileId: DEFAULT_PROFILE_ID,
+      contentZoom: DEFAULT_CONTENT_ZOOM,
     });
   });
 }
@@ -54,6 +58,16 @@ export async function setDetailLayout(
   const prefs = await db.preferences.get(profileId);
   if (!prefs) return;
   prefs.detailLayout = layout;
+  await db.preferences.put(prefs);
+}
+
+export async function setContentZoom(
+  profileId: string,
+  zoom: number,
+): Promise<void> {
+  const prefs = await db.preferences.get(profileId);
+  if (!prefs) return;
+  prefs.contentZoom = Math.max(MIN_CONTENT_ZOOM, Math.min(MAX_CONTENT_ZOOM, zoom));
   await db.preferences.put(prefs);
 }
 
