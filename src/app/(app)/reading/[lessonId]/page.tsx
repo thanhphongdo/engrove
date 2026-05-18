@@ -16,6 +16,8 @@ import { HintSettingsPopover } from "@/components/reading/hint-settings-popover"
 import { usePreferences } from "@/lib/db/use-preferences";
 import { Quiz } from "@/components/reading/quiz";
 import { ResumeBanner } from "@/components/reading/resume-banner";
+import { LayoutToggle } from "@/components/reading/layout-toggle";
+import { AttemptHistory } from "@/components/reading/attempt-history";
 
 const LEVEL_CLASS: Record<Lesson["level"], string> = {
   A1: "bg-level-a1 text-level-a1-foreground",
@@ -96,6 +98,7 @@ export default function LessonDetailPage({ params }: { params: Promise<{ lessonI
         <div className="flex items-center gap-2">
           <LessonTimer />
           <HintSettingsPopover />
+          <LayoutToggle />
         </div>
       </header>
 
@@ -105,7 +108,13 @@ export default function LessonDetailPage({ params }: { params: Promise<{ lessonI
 
       {draft && resumedKey === lessonId && <ResumeBanner onAbandon={abandonDraft} />}
 
-      <div className="grid grid-cols-1 gap-4 lg:grid-cols-[1.2fr_1fr]">
+      <div
+        className={
+          prefs.detailLayout === "two-column"
+            ? "grid grid-cols-1 gap-4 lg:grid-cols-[1.2fr_1fr]"
+            : "flex flex-col gap-4"
+        }
+      >
         <section className="rounded-md border bg-card p-4">
           <Passage
             lesson={lesson}
@@ -124,6 +133,7 @@ export default function LessonDetailPage({ params }: { params: Promise<{ lessonI
           />
         </section>
       </div>
+      <AttemptHistory lessonId={lessonId} />
     </div>
   );
 }
