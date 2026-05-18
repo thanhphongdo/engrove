@@ -1,0 +1,37 @@
+[
+  {
+    "id": "reading-a1-001",
+    "level": "A1",
+    "title": "My first day in Paris",
+    "summary": "A tourist arrives in Paris for the first time and describes the sights, sounds, and a small misunderstanding at a café.",
+    "format": "paragraph",
+    "body": "Yesterday I arrived in Paris. The airport was very busy. I took a taxi to my hotel near the river. In the afternoon, I went to a small café. The waiter smiled at me. I tried to order in French but he didn't understand. He laughed and we both used English. At night, I walked along the river. The lights on the bridges were beautiful.",
+    "tags": ["Travel", "City"],
+    "annotations": [
+      { "phrase": "airport", "meaningVi": "sân bay" },
+      { "phrase": "taxi", "meaningVi": "taxi", "pronunciation": "/ˈtæk.si/" },
+      { "phrase": "smiled", "meaningVi": "đã cười" },
+      { "phrase": "café", "meaningVi": "quán cà phê" }
+    ],
+    "grammarNotes": [
+      {
+        "title": "Past simple",
+        "bodyVi": "Dùng 'past simple' cho các hành động đã hoàn thành trong quá khứ tại một thời điểm cụ thể.",
+        "bodyEn": "Use the past simple for completed actions at a specific time in the past. e.g. 'I arrived', 'I took', 'I went'."
+      }
+    ],
+    "translationVi": "Hôm qua tôi đến Paris. Sân bay rất đông. Tôi đi taxi đến khách sạn gần sông. Buổi chiều tôi đến một quán cà phê nhỏ. Người phục vụ mỉm cười. Tôi cố gọi món bằng tiếng Pháp nhưng anh ấy không hiểu. Anh ấy cười và chúng tôi dùng tiếng Anh. Buổi tối tôi đi dạo dọc sông. Đèn trên các cây cầu rất đẹp.",
+    "questions": [
+      { "id": "q1", "prompt": "Where did the writer arrive?", "options": ["Paris", "London", "Rome", "Berlin"], "answerIndex": 0, "explanation": "The first sentence states 'I arrived in Paris.'", "hint": "Look at the first sentence." },
+      { "id": "q2", "prompt": "How did the writer travel to the hotel?", "options": ["Bus", "Taxi", "Train", "Walking"], "answerIndex": 1, "explanation": "'I took a taxi to my hotel.'", "hint": "Re-read the second sentence." },
+      { "id": "q3", "prompt": "Where was the hotel located?", "options": ["Near the airport", "Near a park", "Near the river", "In the city centre"], "answerIndex": 2, "explanation": "'…to my hotel near the river.'", "hint": "Look in sentence 2." },
+      { "id": "q4", "prompt": "What did the waiter do first?", "options": ["Laughed", "Smiled", "Frowned", "Walked away"], "answerIndex": 1, "explanation": "'The waiter smiled at me.'", "hint": "What is the first thing the waiter is described as doing?" },
+      { "id": "q5", "prompt": "Why didn't the order in French work?", "options": ["The writer used the wrong word", "The waiter didn't understand", "The café was closed", "The waiter was busy"], "answerIndex": 1, "explanation": "'…but he didn't understand.'", "hint": "Look at the result of the order." },
+      { "id": "q6", "prompt": "What language did they finally use?", "options": ["French", "English", "Spanish", "German"], "answerIndex": 1, "explanation": "'…we both used English.'", "hint": "What language ended the conversation?" },
+      { "id": "q7", "prompt": "When did the writer walk along the river?", "options": ["Morning", "Afternoon", "Evening", "Night"], "answerIndex": 3, "explanation": "'At night, I walked along the river.'", "hint": "Look for time markers." },
+      { "id": "q8", "prompt": "What did the writer find beautiful?", "options": ["The hotel", "The café", "The lights on the bridges", "The taxi driver"], "answerIndex": 2, "explanation": "'The lights on the bridges were beautiful.'", "hint": "What's the last thing described?" },
+      { "id": "q9", "prompt": "Which tense is mostly used in this passage?", "options": ["Present simple", "Past simple", "Present perfect", "Future"], "answerIndex": 1, "explanation": "Past simple — completed past actions like 'arrived', 'took', 'went'.", "hint": "Check the grammar note." },
+      { "id": "q10", "prompt": "Which best describes the writer's day?", "options": ["Frustrating and bad", "Boring and slow", "A mix of new experiences", "Lonely and sad"], "answerIndex": 2, "explanation": "The passage describes arriving, a friendly mishap at a café, and an enjoyable walk — a mix of new experiences.", "hint": "Think about the overall tone." }
+    ]
+  }
+]
