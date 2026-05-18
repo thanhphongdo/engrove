@@ -1,11 +1,11 @@
 "use client";
 
-import { use, useEffect, useMemo } from "react";
+import { use, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { useAllReadingLessons } from "@/lib/lessons/load";
 import { useLiveQuery } from "dexie-react-hooks";
-import { listAttemptsForLesson } from "@/lib/db/queries";
+import { listAttemptsForLesson, getDraft, deleteDraft } from "@/lib/db/queries";
 import { LessonTimer } from "@/components/reading/lesson-timer";
 import { useTimerStore } from "@/stores/timer-store";
 import { cn } from "@/lib/utils";
@@ -15,6 +15,7 @@ import { GrammarNotes } from "@/components/reading/grammar-notes";
 import { HintSettingsPopover } from "@/components/reading/hint-settings-popover";
 import { usePreferences } from "@/lib/db/use-preferences";
 import { Quiz } from "@/components/reading/quiz";
+import { ResumeBanner } from "@/components/reading/resume-banner";
 
 const LEVEL_CLASS: Record<Lesson["level"], string> = {
   A1: "bg-level-a1 text-level-a1-foreground",
@@ -30,12 +31,31 @@ export default function LessonDetailPage({ params }: { params: Promise<{ lessonI
   const lesson = useMemo(() => lessons?.find((l) => l.id === lessonId), [lessons, lessonId]);
   const attempts = useLiveQuery(() => listAttemptsForLesson("default", lessonId), [lessonId]);
   const reset = useTimerStore((s) => s.reset);
+  const hydrate = useTimerStore((s) => s.hydrate);
   const prefs = usePreferences();
+  const draft = useLiveQuery(() => getDraft("default", lessonId), [lessonId]);
+  const [initialPicks, setInitialPicks] = useState<Record<string, number>>({});
+  const [resumedKey, setResumedKey] = useState<string | null>(null);
 
   useEffect(() => {
     reset();
-    return () => reset();
+    setInitialPicks({});
+    setResumedKey(null);
   }, [lessonId, reset]);
+
+  useEffect(() => {
+    if (!draft) return;
+    if (resumedKey === lessonId) return;
+    hydrate(draft.durationMs);
+    setInitialPicks(draft.answers);
+    setResumedKey(lessonId);
+  }, [draft, lessonId, hydrate, resumedKey]);
+
+  async function abandonDraft() {
+    await deleteDraft("default", lessonId);
+    reset();
+    setInitialPicks({});
+  }
 
   if (!lesson) {
     return <div className="p-8 text-sm text-muted-foreground">Loading…</div>;
@@ -83,6 +103,8 @@ export default function LessonDetailPage({ params }: { params: Promise<{ lessonI
         <strong className="not-italic">Summary:</strong> {lesson.summary}
       </div>
 
+      {draft && resumedKey === lessonId && <ResumeBanner onAbandon={abandonDraft} />}
+
       <div className="grid grid-cols-1 gap-4 lg:grid-cols-[1.2fr_1fr]">
         <section className="rounded-md border bg-card p-4">
           <Passage
@@ -94,9 +116,10 @@ export default function LessonDetailPage({ params }: { params: Promise<{ lessonI
         </section>
         <section className="rounded-md border bg-card p-4">
           <Quiz
+            key={resumedKey ?? "fresh"}
             lesson={lesson}
             showHint={prefs.hintToggles.perQuestionHint}
-            initialPicks={{}}
+            initialPicks={initialPicks}
             onAttemptSaved={() => {}}
           />
         </section>

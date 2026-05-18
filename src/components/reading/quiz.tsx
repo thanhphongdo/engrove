@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import {
   AlertDialog,
@@ -15,7 +15,7 @@ import {
 } from "@/components/ui/alert-dialog";
 import { toast } from "sonner";
 import { scoreQuiz } from "@/lib/lessons/score";
-import { saveAttempt, deleteDraft } from "@/lib/db/queries";
+import { saveAttempt, deleteDraft, upsertDraft } from "@/lib/db/queries";
 import { useTimerStore } from "@/stores/timer-store";
 import { QuizQuestion } from "./quiz-question";
 import { ReviewSummary } from "./review-summary";
@@ -39,6 +39,36 @@ export function Quiz({
   const stopTimer = useTimerStore((s) => s.stop);
   const resetTimer = useTimerStore((s) => s.reset);
   const startedAtRef = useRef(Date.now());
+
+  const debounceRef = useRef<number | null>(null);
+  useEffect(() => {
+    if (result) return; // don't save after submit
+    if (debounceRef.current !== null) window.clearTimeout(debounceRef.current);
+    debounceRef.current = window.setTimeout(() => {
+      upsertDraft({
+        profileId: "default",
+        lessonId: lesson.id,
+        answers: picks,
+        durationMs: useTimerStore.getState().accumulatedMs,
+        updatedAt: Date.now(),
+      }).catch(() => {});
+    }, 1000);
+    return () => {
+      if (debounceRef.current !== null) window.clearTimeout(debounceRef.current);
+    };
+  }, [picks, lesson.id, result]);
+
+  const running = useTimerStore((s) => s.running);
+  useEffect(() => {
+    if (result || running) return; // only when timer transitions to stopped
+    upsertDraft({
+      profileId: "default",
+      lessonId: lesson.id,
+      answers: picks,
+      durationMs: useTimerStore.getState().accumulatedMs,
+      updatedAt: Date.now(),
+    }).catch(() => {});
+  }, [running, picks, lesson.id, result]);
 
   const answeredCount = useMemo(() => Object.keys(picks).length, [picks]);
   const total = lesson.questions.length;
