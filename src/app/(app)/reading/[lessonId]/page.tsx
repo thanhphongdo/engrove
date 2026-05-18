@@ -1,0 +1,89 @@
+"use client";
+
+import { use, useEffect, useMemo } from "react";
+import Link from "next/link";
+import { ArrowLeft } from "lucide-react";
+import { useAllReadingLessons } from "@/lib/lessons/load";
+import { useLiveQuery } from "dexie-react-hooks";
+import { listAttemptsForLesson } from "@/lib/db/queries";
+import { LessonTimer } from "@/components/reading/lesson-timer";
+import { useTimerStore } from "@/stores/timer-store";
+import { cn } from "@/lib/utils";
+import type { Lesson } from "@/lib/lessons/types";
+
+const LEVEL_CLASS: Record<Lesson["level"], string> = {
+  A1: "bg-level-a1 text-level-a1-foreground",
+  A2: "bg-level-a2 text-level-a2-foreground",
+  B1: "bg-level-b1 text-level-b1-foreground",
+  B2: "bg-level-b2 text-level-b2-foreground",
+  C1: "bg-level-c1 text-level-c1-foreground",
+};
+
+export default function LessonDetailPage({ params }: { params: Promise<{ lessonId: string }> }) {
+  const { lessonId } = use(params);
+  const { data: lessons } = useAllReadingLessons();
+  const lesson = useMemo(() => lessons?.find((l) => l.id === lessonId), [lessons, lessonId]);
+  const attempts = useLiveQuery(() => listAttemptsForLesson("default", lessonId), [lessonId]);
+  const reset = useTimerStore((s) => s.reset);
+
+  useEffect(() => {
+    reset();
+    return () => reset();
+  }, [lessonId, reset]);
+
+  if (!lesson) {
+    return <div className="p-8 text-sm text-muted-foreground">Loading…</div>;
+  }
+
+  const best = attempts?.reduce<(typeof attempts)[number] | undefined>(
+    (acc, a) => (!acc || a.score > acc.score ? a : acc),
+    undefined,
+  );
+
+  return (
+    <div className="mx-auto w-full max-w-6xl px-6 py-6">
+      <header className="mb-4 flex flex-wrap items-start justify-between gap-3">
+        <div>
+          <Link
+            href="/reading"
+            className="mb-1 inline-flex items-center gap-1 text-xs text-muted-foreground hover:text-foreground"
+          >
+            <ArrowLeft className="size-3" /> Back to Reading
+          </Link>
+          <h1 className="text-xl font-semibold">{lesson.title}</h1>
+          <div className="mt-1 flex flex-wrap items-center gap-2 text-xs">
+            <span className={cn("rounded px-1.5 py-0.5 font-semibold", LEVEL_CLASS[lesson.level])}>
+              {lesson.level}
+            </span>
+            {lesson.tags.map((t) => (
+              <span key={t} className="text-muted-foreground">
+                #{t}
+              </span>
+            ))}
+            <span className="text-muted-foreground">
+              {best
+                ? `Best ${best.score}/${best.total} · ${attempts?.length} attempts`
+                : "No attempts yet"}
+            </span>
+          </div>
+        </div>
+        <div className="flex items-center gap-2">
+          <LessonTimer />
+        </div>
+      </header>
+
+      <div className="mb-4 rounded-md border bg-muted/40 p-3 text-sm italic">
+        <strong className="not-italic">Summary:</strong> {lesson.summary}
+      </div>
+
+      <div className="rounded-md border bg-card p-4 text-sm text-muted-foreground">
+        Passage + quiz wired in the next tasks. Sample passage body:
+        <p className="mt-2 whitespace-pre-wrap text-foreground">
+          {typeof lesson.body === "string"
+            ? lesson.body
+            : lesson.body.map((t) => `${t.speaker}: ${t.text}`).join("\n")}
+        </p>
+      </div>
+    </div>
+  );
+}
