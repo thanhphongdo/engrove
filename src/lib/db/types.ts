@@ -52,6 +52,32 @@ export type Draft = {
   updatedAt: number;
 };
 
+export type Bookmark = {
+  profileId: string;
+  lessonId: string;
+  createdAt: number;
+};
+
+export type VocabEntry = {
+  id: string;
+  profileId: string;
+  phrase: string;
+  /** Lowercased copy of `phrase`; serves the case-insensitive dedup index. */
+  phraseLower: string;
+  meaningVi: string;
+  pronunciation?: string;
+  exampleEn?: string;
+  sourceLessonId: string;
+  addedAt: number;
+};
+
+export type Note = {
+  profileId: string;
+  lessonId: string;
+  text: string;
+  updatedAt: number;
+};
+
 export const DEFAULT_HINT_TOGGLES: HintToggles = {
   vocabVi: false,
   grammar: false,

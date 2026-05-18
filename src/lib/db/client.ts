@@ -1,5 +1,13 @@
 import Dexie, { type Table } from "dexie";
-import type { Profile, Preferences, Attempt, Draft } from "./types";
+import type {
+  Profile,
+  Preferences,
+  Attempt,
+  Draft,
+  Bookmark,
+  VocabEntry,
+  Note,
+} from "./types";
 import { DEFAULT_CONTENT_ZOOM } from "./types";
 
 class EnglishLearningDB extends Dexie {
@@ -7,6 +15,9 @@ class EnglishLearningDB extends Dexie {
   preferences!: Table<Preferences, string>;
   attempts!: Table<Attempt, string>;
   drafts!: Table<Draft, [string, string]>;
+  bookmarks!: Table<Bookmark, [string, string]>;
+  vocab!: Table<VocabEntry, string>;
+  notes!: Table<Note, [string, string]>;
 
   constructor() {
     super("english-learning");
@@ -61,6 +72,19 @@ class EnglishLearningDB extends Dexie {
             if (d.clozePicks == null) d.clozePicks = {};
           });
       });
+    // v4: additive — three new tables for bookmarks, vocab, and notes.
+    // The `vocab` table carries indexes for dedup ([profileId+phraseLower]) and
+    // common filters ([profileId+sourceLessonId], [profileId+addedAt]).
+    this.version(4).stores({
+      profiles: "id",
+      preferences: "profileId",
+      attempts: "id, [profileId+lessonId], completedAt",
+      drafts: "[profileId+lessonId]",
+      bookmarks: "[profileId+lessonId], profileId",
+      vocab:
+        "id, [profileId+phraseLower], [profileId+sourceLessonId], [profileId+addedAt]",
+      notes: "[profileId+lessonId]",
+    });
   }
 }
 

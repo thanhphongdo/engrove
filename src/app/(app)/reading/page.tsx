@@ -1,12 +1,15 @@
 "use client";
 
 import { Suspense, useMemo } from "react";
+import { Star } from "lucide-react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useAllReadingLessons } from "@/lib/lessons/load";
 import { useDefaultBestAttempts } from "@/lib/db/use-best-attempts";
+import { useBookmarks } from "@/lib/db/use-bookmarks";
 import { FilterChipRow, type ChipOption } from "@/components/reading/filter-chip-row";
 import { LessonCard } from "@/components/reading/lesson-card";
 import { Skeleton } from "@/components/ui/skeleton";
+import { cn } from "@/lib/utils";
 import type { CefrLevel } from "@/lib/lessons/types";
 
 const LEVEL_OPTIONS: ChipOption[] = [
@@ -26,9 +29,11 @@ function ReadingHubContent() {
   const params = useSearchParams();
   const selectedLevels = parseList(params.get("levels"));
   const selectedTags = parseList(params.get("tags"));
+  const favoritesOnly = params.get("favorites") === "1";
 
   const { data: lessons, isLoading } = useAllReadingLessons();
   const bestByLesson = useDefaultBestAttempts();
+  const bookmarks = useBookmarks();
 
   const allTags = useMemo(() => {
     const set = new Set<string>();
@@ -41,9 +46,10 @@ function ReadingHubContent() {
     return lessons.filter((l) => {
       if (selectedLevels.length && !selectedLevels.includes(l.level)) return false;
       if (selectedTags.length && !selectedTags.some((t) => l.tags.includes(t))) return false;
+      if (favoritesOnly && !bookmarks?.has(l.id)) return false;
       return true;
     });
-  }, [lessons, selectedLevels, selectedTags]);
+  }, [lessons, selectedLevels, selectedTags, favoritesOnly, bookmarks]);
 
   const completedCount = useMemo(
     () => (bestByLesson ? bestByLesson.size : 0),
@@ -54,6 +60,13 @@ function ReadingHubContent() {
     const sp = new URLSearchParams(params.toString());
     if (next.length === 0) sp.delete(key);
     else sp.set(key, next.join(","));
+    router.replace(`/reading?${sp.toString()}`);
+  }
+
+  function toggleFavorites() {
+    const sp = new URLSearchParams(params.toString());
+    if (favoritesOnly) sp.delete("favorites");
+    else sp.set("favorites", "1");
     router.replace(`/reading?${sp.toString()}`);
   }
 
@@ -68,13 +81,30 @@ function ReadingHubContent() {
         </p>
       </header>
 
-      <div className="mb-3">
+      <div className="mb-3 flex flex-wrap items-center gap-2">
         <FilterChipRow
           label="Level"
           options={LEVEL_OPTIONS}
           selected={selectedLevels}
           onChange={(next) => setParam("levels", next as CefrLevel[])}
         />
+        <button
+          type="button"
+          onClick={toggleFavorites}
+          aria-pressed={favoritesOnly}
+          className={cn(
+            "inline-flex items-center gap-1 rounded-full border px-2.5 py-0.5 text-xs transition-colors",
+            favoritesOnly
+              ? "border-amber-500/40 bg-amber-500/15 text-amber-700 dark:text-amber-300"
+              : "border-border text-muted-foreground hover:bg-accent",
+          )}
+        >
+          <Star
+            className={cn("size-3", favoritesOnly && "fill-amber-400 stroke-amber-500")}
+            aria-hidden="true"
+          />
+          Favorites
+        </button>
       </div>
       <div className="mb-4 flex items-center gap-3">
         <FilterChipRow
@@ -83,7 +113,7 @@ function ReadingHubContent() {
           selected={selectedTags}
           onChange={(next) => setParam("tags", next)}
         />
-        {(selectedLevels.length > 0 || selectedTags.length > 0) && (
+        {(selectedLevels.length > 0 || selectedTags.length > 0 || favoritesOnly) && (
           <button
             type="button"
             onClick={() => router.replace("/reading")}

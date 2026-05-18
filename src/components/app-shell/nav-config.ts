@@ -1,4 +1,4 @@
-import { BookOpen, PenLine, Headphones, Ruler, Mic } from "lucide-react";
+import { BookOpen, PenLine, Headphones, Ruler, Mic, Sparkles } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
 export type NavItem = {
@@ -14,4 +14,5 @@ export const NAV_ITEMS: NavItem[] = [
   { href: "/listening", label: "Listening", icon: Headphones, comingSoon: true },
   { href: "/grammar",   label: "Grammar",   icon: Ruler,      comingSoon: true },
   { href: "/speaking",  label: "Speaking",  icon: Mic,        comingSoon: true },
+  { href: "/vocab",     label: "Vocab",     icon: Sparkles },
 ];

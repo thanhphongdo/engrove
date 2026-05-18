@@ -4,6 +4,7 @@ import { NAV_ITEMS } from "./nav-config";
 import { SidebarItem } from "./sidebar-item";
 import { ThemeToggle } from "./theme-toggle";
 import { ContentZoomControl } from "./content-zoom-control";
+import { StreakBadge } from "./streak-badge";
 
 export function Sidebar() {
   return (
@@ -21,6 +22,7 @@ export function Sidebar() {
         </ul>
       </nav>
       <div className="shrink-0 space-y-2 border-t px-3 py-3">
+        <StreakBadge />
         <ThemeToggle />
         <ContentZoomControl />
       </div>

@@ -5,11 +5,14 @@ import {
   MAX_CONTENT_ZOOM,
   MIN_CONTENT_ZOOM,
   type Attempt,
+  type Bookmark,
   type DetailLayout,
   type Draft,
   type HintToggles,
+  type Note,
   type Preferences,
   type Profile,
+  type VocabEntry,
 } from "./types";
 
 const DEFAULT_PROFILE_ID = "default";
@@ -113,4 +116,100 @@ export async function deleteDraft(
   lessonId: string,
 ): Promise<void> {
   await db.drafts.delete([profileId, lessonId]);
+}
+
+// ─── Bookmarks ────────────────────────────────────────────────────────────────
+
+export async function listBookmarkedLessonIds(profileId: string): Promise<string[]> {
+  const rows = await db.bookmarks.where("profileId").equals(profileId).toArray();
+  return rows.map((r) => r.lessonId);
+}
+
+export async function isBookmarked(profileId: string, lessonId: string): Promise<boolean> {
+  return (await db.bookmarks.get([profileId, lessonId])) != null;
+}
+
+export async function toggleBookmark(profileId: string, lessonId: string): Promise<boolean> {
+  const existing = await db.bookmarks.get([profileId, lessonId]);
+  if (existing) {
+    await db.bookmarks.delete([profileId, lessonId]);
+    return false;
+  }
+  const row: Bookmark = { profileId, lessonId, createdAt: Date.now() };
+  await db.bookmarks.put(row);
+  return true;
+}
+
+// ─── Vocab ────────────────────────────────────────────────────────────────────
+
+export type SaveVocabInput = {
+  phrase: string;
+  meaningVi: string;
+  pronunciation?: string;
+  exampleEn?: string;
+  sourceLessonId: string;
+};
+
+export async function saveVocab(
+  profileId: string,
+  input: SaveVocabInput,
+): Promise<{ saved: boolean; reason?: "duplicate" }> {
+  const phraseLower = input.phrase.trim().toLowerCase();
+  const dup = await db.vocab
+    .where("[profileId+phraseLower]")
+    .equals([profileId, phraseLower])
+    .first();
+  if (dup) return { saved: false, reason: "duplicate" };
+
+  const entry: VocabEntry = {
+    id: crypto.randomUUID(),
+    profileId,
+    phrase: input.phrase,
+    phraseLower,
+    meaningVi: input.meaningVi,
+    pronunciation: input.pronunciation,
+    exampleEn: input.exampleEn,
+    sourceLessonId: input.sourceLessonId,
+    addedAt: Date.now(),
+  };
+  await db.vocab.put(entry);
+  return { saved: true };
+}
+
+/** Re-insert a previously-deleted entry exactly as it was (for undo). */
+export async function restoreVocab(entry: VocabEntry): Promise<void> {
+  await db.vocab.put(entry);
+}
+
+export async function listVocab(profileId: string): Promise<VocabEntry[]> {
+  return db.vocab.where("[profileId+addedAt]").between([profileId, -Infinity], [profileId, Infinity]).toArray();
+}
+
+export async function deleteVocab(id: string): Promise<VocabEntry | undefined> {
+  const row = await db.vocab.get(id);
+  if (!row) return undefined;
+  await db.vocab.delete(id);
+  return row;
+}
+
+// ─── Notes ────────────────────────────────────────────────────────────────────
+
+export async function getNote(
+  profileId: string,
+  lessonId: string,
+): Promise<Note | undefined> {
+  return db.notes.get([profileId, lessonId]);
+}
+
+export async function setNote(
+  profileId: string,
+  lessonId: string,
+  text: string,
+): Promise<void> {
+  if (text.trim().length === 0) {
+    await db.notes.delete([profileId, lessonId]);
+    return;
+  }
+  const row: Note = { profileId, lessonId, text, updatedAt: Date.now() };
+  await db.notes.put(row);
 }

@@ -23,6 +23,8 @@ import { QuizFooter } from "@/components/reading/quiz-footer";
 import { ResumeBanner } from "@/components/reading/resume-banner";
 import { LayoutToggle } from "@/components/reading/layout-toggle";
 import { AttemptHistory } from "@/components/reading/attempt-history";
+import { BookmarkButton } from "@/components/reading/bookmark-button";
+import { LessonNotes } from "@/components/reading/lesson-notes";
 
 const LEVEL_CLASS: Record<Lesson["level"], string> = {
   A1: "bg-level-a1 text-level-a1-foreground",
@@ -89,6 +91,7 @@ export default function LessonDetailPage({ params }: { params: Promise<{ lessonI
           </div>
         </div>
         <div className="flex items-center gap-2">
+          <BookmarkButton lessonId={lessonId} variant="inline" />
           <LessonTimer />
           <HintSettingsPopover />
           <LayoutToggle />
@@ -140,6 +143,7 @@ export default function LessonDetailPage({ params }: { params: Promise<{ lessonI
       </QuizSection>
 
       <AttemptHistory lessonId={lessonId} />
+      <LessonNotes lessonId={lessonId} />
     </div>
   );
 }

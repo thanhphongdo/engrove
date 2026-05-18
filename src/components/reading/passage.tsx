@@ -39,7 +39,12 @@ export function Passage({
                 seg.kind === "text" ? (
                   <span key={idx}>{seg.text}</span>
                 ) : (
-                  <PassageAnnotation key={idx} text={seg.text} annotation={seg.annotation} />
+                  <PassageAnnotation
+                    key={idx}
+                    text={seg.text}
+                    annotation={seg.annotation}
+                    sourceLessonId={lesson.id}
+                  />
                 ),
               )}
             </p>
