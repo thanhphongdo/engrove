@@ -6,16 +6,16 @@ import { ThemeToggle } from "./theme-toggle";
 import { ContentZoomControl } from "./content-zoom-control";
 import { StreakBadge } from "./streak-badge";
 
-export function Sidebar() {
+export function SidebarContent({ onNavigate }: { onNavigate?: () => void }) {
   return (
-    <aside className="flex h-full w-56 shrink-0 flex-col border-r bg-sidebar text-sidebar-foreground">
+    <>
       <div className="flex items-center px-4 py-4">
         <span className="text-sm font-semibold tracking-tight">English Learning</span>
       </div>
       <nav className="min-h-0 flex-1 overflow-y-auto px-2">
         <ul className="space-y-1">
           {NAV_ITEMS.map((item) => (
-            <li key={item.href}>
+            <li key={item.href} onClick={onNavigate}>
               <SidebarItem item={item} />
             </li>
           ))}
@@ -26,6 +26,14 @@ export function Sidebar() {
         <ThemeToggle />
         <ContentZoomControl />
       </div>
+    </>
+  );
+}
+
+export function Sidebar() {
+  return (
+    <aside className="hidden h-full w-56 shrink-0 flex-col border-r bg-sidebar text-sidebar-foreground md:flex">
+      <SidebarContent />
     </aside>
   );
 }

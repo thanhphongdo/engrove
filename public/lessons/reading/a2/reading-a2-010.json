@@ -1,0 +1,75 @@
+{
+  "id": "reading-a2-010",
+  "level": "A2",
+  "title": "The rice in the wedding pocket",
+  "summary": "A girl asks her aunt about a small wedding custom — rice in the bride's pocket — and learns the quiet rules that go with it.",
+  "format": "dialogue",
+  "body": [
+    { "speaker": "Lien", "text": "Auntie, why do we put rice in the bride's pocket at weddings?" },
+    { "speaker": "Auntie Hong", "text": "It is an old custom from the north. The rice is for the new family. It is small, but it has meaning." },
+    { "speaker": "Lien", "text": "Did you do it at your wedding?" },
+    { "speaker": "Auntie Hong", "text": "Yes. My mother put it there. I did not know until that day." },
+    { "speaker": "Lien", "text": "Was it strange?" },
+    { "speaker": "Auntie Hong", "text": "A little. The rice was hot. The pocket was small. I kept it for a year, in a jar." },
+    { "speaker": "Lien", "text": "A whole year? Why?" },
+    { "speaker": "Auntie Hong", "text": "My grandmother told me to. She said, 'Eat one grain on each anniversary. When the jar is empty, you have been married long enough to keep it that way.'" },
+    { "speaker": "Lien", "text": "Did you eat them all?" },
+    { "speaker": "Auntie Hong", "text": "I ate twenty-eight. I had no more anniversaries with him." },
+    { "speaker": "Lien", "text": "Oh. I am sorry." },
+    { "speaker": "Auntie Hong", "text": "Do not be sorry, Lien. He was a good man. We had twenty-eight years." },
+    { "speaker": "Lien", "text": "Did you ever finish the jar another way?" },
+    { "speaker": "Auntie Hong", "text": "I gave the rest to my daughter. She put it in her own pocket on her wedding day." },
+    { "speaker": "Lien", "text": "Has she eaten any?" },
+    { "speaker": "Auntie Hong", "text": "Two grains. She has only been married for two years." },
+    { "speaker": "Lien", "text": "And when she finishes them?" },
+    { "speaker": "Auntie Hong", "text": "She will put new rice in the jar. The old grains go. The new grains start. The jar stays." },
+    { "speaker": "Lien", "text": "That is beautiful." },
+    { "speaker": "Auntie Hong", "text": "It is also rice. Do not make it more than it is. But also do not make it less." }
+  ],
+  "tags": ["Tradition", "Family", "Marriage"],
+  "annotations": [
+    { "phrase": "custom", "meaningVi": "phong tục" },
+    { "phrase": "anniversary", "meaningVi": "ngày kỷ niệm (đặc biệt là kỷ niệm ngày cưới)", "pronunciation": "/ˌæn.ɪˈvɜː.sər.i/" },
+    { "phrase": "grain", "meaningVi": "hạt (gạo)" },
+    { "phrase": "jar", "meaningVi": "lọ, hũ" },
+    { "phrase": "daughter", "meaningVi": "con gái" }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Talking about duration: 'for + period'",
+      "bodyVi": "Dùng 'for + khoảng thời gian' để nói một việc kéo dài bao lâu. Trong bài: 'I kept it for a year.' (Tôi đã giữ nó một năm.) / 'We had twenty-eight years.' / 'She has only been married for two years.' Có thể dùng với hiện tại hoàn thành (have/has been... for) hoặc quá khứ đơn (kept... for).",
+      "bodyEn": "Use 'for + period' to say how long something lasted. From the dialogue: 'I kept it for a year.' / 'We had twenty-eight years.' / 'She has only been married for two years.' Can be used with present perfect (has been… for) or past simple (kept… for)."
+    }
+  ],
+  "cloze": {
+    "template": "Lien: Auntie, why do we put {{b1}} in the bride's pocket at weddings?\nAuntie Hong: It is an old custom from the {{b2}}. The rice is for the new family. It is small, but it has meaning.\nLien: Did you do it at your {{b3}}?\nAuntie Hong: Yes. My mother put it there. I did not know until that day.\nLien: Was it strange?\nAuntie Hong: A little. The rice was hot. The pocket was small. I kept it for a year, in a {{b4}}.\nLien: A whole year? Why?\nAuntie Hong: My grandmother told me to. She said, 'Eat one {{b5}} on each {{b6}}. When the jar is empty, you have been married long enough to keep it that way.'\nLien: Did you eat them all?\nAuntie Hong: I ate {{b7}}. I had no more anniversaries with him.\nLien: Oh. I am sorry.\nAuntie Hong: Do not be sorry, Lien. He was a {{b8}} man. We had twenty-eight years.\nLien: Did you ever finish the jar another way?\nAuntie Hong: I gave the rest to my {{b9}}. She put it in her own pocket on her wedding day.\nLien: Has she eaten any?\nAuntie Hong: {{b10}} grains. She has only been married for two years.\nLien: And when she finishes them?\nAuntie Hong: She will put new rice in the jar. The old {{b11}} go. The new grains start. The jar stays.\nLien: That is {{b12}}.\nAuntie Hong: It is also rice. Do not make it more than it is. But also do not make it less.",
+    "blanks": [
+      { "id": "b1", "options": ["rice", "salt", "money", "sand"], "answerIndex": 0, "explanation": "Rice goes in the bride's pocket — the heart of the custom." },
+      { "id": "b2", "options": ["north", "south", "east", "west"], "answerIndex": 0, "explanation": "It is an old custom from the north." },
+      { "id": "b3", "options": ["wedding", "school", "party", "house"], "answerIndex": 0, "explanation": "Lien asks if Auntie did it at her own wedding." },
+      { "id": "b4", "options": ["jar", "bag", "cup", "shoe"], "answerIndex": 0, "explanation": "She kept the rice in a jar for a year." },
+      { "id": "b5", "options": ["bag", "grain", "spoon", "letter"], "answerIndex": 1, "explanation": "'Eat one grain on each anniversary.'" },
+      { "id": "b6", "options": ["holiday", "anniversary", "birthday", "Sunday"], "answerIndex": 1, "explanation": "On each anniversary — the date of the wedding each year." },
+      { "id": "b7", "options": ["eight", "twenty-eight", "eighty-eight", "two hundred"], "answerIndex": 1, "explanation": "She ate twenty-eight grains — one for each anniversary." },
+      { "id": "b8", "options": ["loud", "rich", "good", "tall"], "answerIndex": 2, "explanation": "'He was a good man. We had twenty-eight years.'" },
+      { "id": "b9", "options": ["sister", "daughter", "mother", "niece"], "answerIndex": 1, "explanation": "She gave the rest to her daughter, who put it in her own pocket on her wedding day." },
+      { "id": "b10", "options": ["Zero", "Two", "Ten", "Twenty-eight"], "answerIndex": 1, "explanation": "The daughter has eaten two grains — she has been married for two years." },
+      { "id": "b11", "options": ["doors", "stories", "grains", "letters"], "answerIndex": 2, "explanation": "The old grains go; the new grains start. The jar stays." },
+      { "id": "b12", "options": ["beautiful", "useless", "cheap", "loud"], "answerIndex": 0, "explanation": "Lien says, 'That is beautiful.' Auntie's reply pulls her back a little: it is also just rice." }
+    ]
+  },
+  "translationVi": "Liên: Cô ơi, sao đám cưới mình lại bỏ gạo vào túi cô dâu vậy?\nCô Hồng: Đó là phong tục cũ ngoài bắc. Gạo là cho gia đình mới. Chuyện nhỏ, nhưng có ý nghĩa.\nLiên: Đám cưới cô có làm vậy không?\nCô Hồng: Có. Mẹ cô bỏ gạo vào đó. Đến ngày cưới cô mới biết.\nLiên: Cảm giác lạ không cô?\nCô Hồng: Cũng hơi. Gạo nóng. Túi bé. Cô đã giữ nó một năm, trong một cái hũ.\nLiên: Cả một năm cơ ạ? Sao thế cô?\nCô Hồng: Bà cô bảo cô làm vậy. Bà nói: 'Mỗi ngày cưới ăn một hạt. Khi cái hũ rỗng, là cháu đã cưới đủ lâu để giữ nguyên cuộc hôn nhân.'\nLiên: Cô ăn hết rồi à?\nCô Hồng: Cô ăn hai mươi tám hạt. Sau đó cô không còn dịp kỷ niệm nào với ông ấy nữa.\nLiên: Ôi. Cháu xin lỗi.\nCô Hồng: Đừng xin lỗi, Liên. Ông ấy là người tốt. Bọn cô có hai mươi tám năm.\nLiên: Cô có hết cái hũ theo cách nào khác không?\nCô Hồng: Phần còn lại cô cho con gái cô. Con bé bỏ vào túi mình hôm cưới.\nLiên: Cô ấy đã ăn hạt nào chưa ạ?\nCô Hồng: Hai hạt. Con bé mới cưới hai năm thôi.\nLiên: Rồi khi con gái cô ăn hết thì sao?\nCô Hồng: Nó sẽ bỏ gạo mới vào hũ. Hạt cũ đi. Hạt mới bắt đầu. Cái hũ ở lại.\nLiên: Nghe đẹp quá cô.\nCô Hồng: Cũng là gạo thôi. Đừng làm cho nó lớn hơn nó vốn là. Nhưng cũng đừng làm cho nó nhỏ hơn.",
+  "questions": [
+    { "id": "q1", "prompt": "What does Lien ask about at the start?", "options": ["A wedding dress", "Rice in the bride's pocket at weddings", "Wedding food", "Wedding gifts"], "answerIndex": 1, "explanation": "'Why do we put rice in the bride's pocket at weddings?'", "hint": "Look at Lien's first turn." },
+    { "id": "q2", "prompt": "Where does the custom come from?", "options": ["The south", "The north", "Abroad", "Hue"], "answerIndex": 1, "explanation": "'It is an old custom from the north.'", "hint": "Look at Auntie's first answer." },
+    { "id": "q3", "prompt": "Where did Auntie Hong keep the rice for a year?", "options": ["In her shoe", "In a jar", "In her hat", "In a bag of clothes"], "answerIndex": 1, "explanation": "'I kept it for a year, in a jar.'", "hint": "Look at Auntie's third turn." },
+    { "id": "q4", "prompt": "Why did her grandmother tell her to eat one grain a year?", "options": ["For luck", "Because empty jar = married long enough to keep the marriage", "Because rice goes bad", "Because the jar was full"], "answerIndex": 1, "explanation": "'When the jar is empty, you have been married long enough to keep it that way.'", "hint": "Look at the grandmother's words." },
+    { "id": "q5", "prompt": "How many grains did Auntie Hong eat in total?", "options": ["Eight", "Twenty-eight", "Eighty-eight", "Twenty"], "answerIndex": 1, "explanation": "'I ate twenty-eight. I had no more anniversaries with him.'", "hint": "Look at Auntie's reply about how many she ate." },
+    { "id": "q6", "prompt": "Why didn't she finish the jar?", "options": ["She did not like rice", "Her husband passed away after twenty-eight years", "Her grandmother told her to stop", "The rice went bad"], "answerIndex": 1, "explanation": "'I had no more anniversaries with him.' — He had died, after twenty-eight years of marriage.", "hint": "Look at the implication of 'no more anniversaries with him'." },
+    { "id": "q7", "prompt": "What did Auntie do with the rice that was left in the jar?", "options": ["She threw it away", "She gave it to her daughter, who put it in her own pocket at her wedding", "She kept it forever", "She cooked it"], "answerIndex": 1, "explanation": "'I gave the rest to my daughter. She put it in her own pocket on her wedding day.'", "hint": "Look at Auntie's turn about her daughter." },
+    { "id": "q8", "prompt": "How long has the daughter been married?", "options": ["Two months", "Two years", "Ten years", "Twenty years"], "answerIndex": 1, "explanation": "'She has only been married for two years.'", "hint": "Look at the answer about the daughter's grains." },
+    { "id": "q9", "prompt": "What will happen when the daughter eventually finishes the rice?", "options": ["She will put new rice in the jar — the old grains go, the new grains start, but the jar stays", "She will buy a new jar", "She will end the custom", "She will return the jar to her mother"], "answerIndex": 0, "explanation": "'The old grains go. The new grains start. The jar stays.'", "hint": "Look at Auntie's turn about new rice." },
+    { "id": "q10", "prompt": "What does Auntie Hong say at the very end?", "options": ["The rice is magic", "It is also rice — do not make it more than it is, but also not less", "She regrets the custom", "She wants to stop the tradition"], "answerIndex": 1, "explanation": "Her closing balances Lien's word 'beautiful' with the plain truth that the rice is also just rice.", "hint": "Look at the final turn." }
+  ],
+  "criticalThinkingQuestion": "Auntie Hong says, 'Do not make it more than it is. But also do not make it less.' Think of a small ritual in your family or your culture. What does it mean if you take it too seriously, and what does it mean if you treat it as nothing at all?"
+}

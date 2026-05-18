@@ -1,8 +1,13 @@
 "use client";
 
-import { Check, X } from "lucide-react";
+import { Check, Lightbulb, X } from "lucide-react";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 import { cn } from "@/lib/utils";
 import type { Question } from "@/lib/lessons/types";
 
@@ -19,13 +24,15 @@ export function QuizQuestion({ index, question, value, onChange, showHint, revie
   return (
     <div
       className={cn(
-        "space-y-2 rounded-md border p-3",
+        "space-y-1.5 py-2.5 sm:space-y-2 sm:py-3",
         reviewMode &&
           value !== undefined &&
           (value === question.answerIndex
-            ? "border-green-500/50 bg-green-500/5"
-            : "border-red-500/50 bg-red-500/5"),
-        reviewMode && value === undefined && "border-red-500/50 bg-red-500/5",
+            ? "border-l-2 border-green-500/60 bg-green-500/5 pl-2"
+            : "border-l-2 border-red-500/60 bg-red-500/5 pl-2"),
+        reviewMode &&
+          value === undefined &&
+          "border-l-2 border-red-500/60 bg-red-500/5 pl-2",
       )}
     >
       <div className="flex items-start justify-between gap-2">
@@ -33,17 +40,27 @@ export function QuizQuestion({ index, question, value, onChange, showHint, revie
           {index + 1}. {question.prompt}
         </p>
         {showHint && !reviewMode && (
-          <details className="text-xs text-muted-foreground">
-            <summary className="cursor-pointer">💡 Hint</summary>
-            <p className="mt-1 text-xs italic">{question.hint}</p>
-          </details>
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <button
+                type="button"
+                aria-label="Show hint"
+                className="inline-flex size-7 shrink-0 items-center justify-center rounded-md text-muted-foreground hover:bg-accent hover:text-foreground"
+              >
+                <Lightbulb className="size-4" aria-hidden="true" />
+              </button>
+            </TooltipTrigger>
+            <TooltipContent side="left" className="max-w-xs text-xs italic">
+              {question.hint}
+            </TooltipContent>
+          </Tooltip>
         )}
       </div>
       <RadioGroup
         value={value === undefined ? "" : String(value)}
         onValueChange={(v) => onChange(Number(v))}
         disabled={reviewMode}
-        className="space-y-1"
+        className="gap-1! sm:gap-1.5!"
       >
         {question.options.map((opt, i) => {
           const id = `${question.id}-${i}`;
@@ -53,7 +70,7 @@ export function QuizQuestion({ index, question, value, onChange, showHint, revie
             <div
               key={id}
               className={cn(
-                "flex items-center gap-2 rounded px-2 py-1",
+                "flex items-center gap-2 rounded px-2 py-0.5 sm:py-1",
                 isCorrect && "bg-green-500/10",
                 isWrongPick && "bg-red-500/10",
               )}

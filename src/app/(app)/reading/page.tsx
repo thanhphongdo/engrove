@@ -7,6 +7,7 @@ import { useReadingLessonsIndex } from "@/lib/lessons/load";
 import { useDefaultBestAttempts } from "@/lib/db/use-best-attempts";
 import { useBookmarks } from "@/lib/db/use-bookmarks";
 import { FilterChipRow, type ChipOption } from "@/components/reading/filter-chip-row";
+import { TagFilterRow } from "@/components/reading/tag-filter-row";
 import { LessonCard } from "@/components/reading/lesson-card";
 import { Skeleton } from "@/components/ui/skeleton";
 import { cn } from "@/lib/utils";
@@ -35,10 +36,12 @@ function ReadingHubContent() {
   const bestByLesson = useDefaultBestAttempts();
   const bookmarks = useBookmarks();
 
-  const allTags = useMemo(() => {
-    const set = new Set<string>();
-    lessons?.forEach((l) => l.tags.forEach((t) => set.add(t)));
-    return Array.from(set).sort();
+  const tagCounts = useMemo(() => {
+    const counts = new Map<string, number>();
+    lessons?.forEach((l) =>
+      l.tags.forEach((t) => counts.set(t, (counts.get(t) ?? 0) + 1)),
+    );
+    return counts;
   }, [lessons]);
 
   const filtered = useMemo(() => {
@@ -70,12 +73,10 @@ function ReadingHubContent() {
     router.replace(`/reading?${sp.toString()}`);
   }
 
-  const tagOptions: ChipOption[] = allTags.map((t) => ({ value: t, label: t }));
-
   return (
-    <div className="mx-auto w-full max-w-6xl px-6 py-6">
-      <header className="mb-4 flex items-baseline justify-between">
-        <h1 className="text-xl font-semibold">Reading lessons</h1>
+    <div className="mx-auto w-full max-w-6xl px-4 py-4 sm:px-6 sm:py-6">
+      <header className="mb-4 flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
+        <h1 className="text-lg font-semibold sm:text-xl">Reading lessons</h1>
         <p className="text-xs text-muted-foreground">
           {completedCount} / {lessons?.length ?? 0} completed
         </p>
@@ -106,18 +107,19 @@ function ReadingHubContent() {
           Favorites
         </button>
       </div>
-      <div className="mb-4 flex items-center gap-3">
-        <FilterChipRow
-          label="Tags"
-          options={tagOptions}
-          selected={selectedTags}
-          onChange={(next) => setParam("tags", next)}
-        />
+      <div className="mb-4 flex items-start gap-3">
+        <div className="flex-1">
+          <TagFilterRow
+            tagCounts={tagCounts}
+            selected={selectedTags}
+            onChange={(next) => setParam("tags", next)}
+          />
+        </div>
         {(selectedLevels.length > 0 || selectedTags.length > 0 || favoritesOnly) && (
           <button
             type="button"
             onClick={() => router.replace("/reading")}
-            className="ml-auto text-xs text-muted-foreground underline-offset-2 hover:underline"
+            className="shrink-0 text-xs text-muted-foreground underline-offset-2 hover:underline"
           >
             Clear filters
           </button>

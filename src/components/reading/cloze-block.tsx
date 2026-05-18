@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo } from "react";
+import { useMemo, Fragment, type ReactNode } from "react";
 import { Check, X } from "lucide-react";
 import {
   Select,
@@ -13,6 +13,33 @@ import { cn } from "@/lib/utils";
 import { parseTemplate } from "@/lib/lessons/cloze-template";
 import { useQuiz } from "./quiz-section";
 import type { ClozeBlank } from "@/lib/lessons/types";
+
+function renderDialogueText(text: string, atLineStart: boolean, keyBase: string): ReactNode {
+  const pieces = text.split("\n");
+  return (
+    <>
+      {pieces.map((piece, pi) => {
+        const lineStart = pi === 0 ? atLineStart : true;
+        const speakerMatch = lineStart ? piece.match(/^([^:\n]{1,40}):\s/) : null;
+        return (
+          <Fragment key={`${keyBase}-${pi}`}>
+            {pi > 0 && "\n"}
+            {speakerMatch ? (
+              <>
+                <span className="font-semibold text-foreground">
+                  {speakerMatch[1]}:
+                </span>
+                {piece.slice(speakerMatch[1].length + 1)}
+              </>
+            ) : (
+              piece
+            )}
+          </Fragment>
+        );
+      })}
+    </>
+  );
+}
 
 function BlankSelect({ blank }: { blank: ClozeBlank }) {
   const { clozePicks, setClozePick, reviewMode } = useQuiz();
@@ -76,18 +103,31 @@ export function ClozeBlock() {
   if (!lesson.cloze) return null;
 
   const blankCount = lesson.cloze.blanks.length;
+  const isDialogue = lesson.format === "dialogue";
+
+  const nodes: ReactNode[] = [];
+  let atLineStart = true;
+  segments.forEach((seg, i) => {
+    if (seg.kind === "blank") {
+      nodes.push(<BlankSelect key={`b${i}`} blank={seg.blank} />);
+      atLineStart = false;
+      return;
+    }
+    nodes.push(
+      <Fragment key={`t${i}`}>
+        {isDialogue
+          ? renderDialogueText(seg.text, atLineStart, `t${i}`)
+          : seg.text}
+      </Fragment>,
+    );
+    atLineStart = seg.text.endsWith("\n");
+  });
 
   return (
-    <div className="space-y-3">
+    <div className="space-y-2 sm:space-y-3">
       <p className="text-sm font-semibold">Fill in the blanks · {blankCount}</p>
-      <div className="whitespace-pre-line rounded-md border bg-card p-4 text-sm leading-loose">
-        {segments.map((seg, i) =>
-          seg.kind === "text" ? (
-            <span key={i}>{seg.text}</span>
-          ) : (
-            <BlankSelect key={i} blank={seg.blank} />
-          ),
-        )}
+      <div className="whitespace-pre-line text-sm leading-[2.5]">
+        {nodes}
       </div>
     </div>
   );

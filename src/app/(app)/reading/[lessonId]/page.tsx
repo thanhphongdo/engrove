@@ -63,16 +63,16 @@ export default function LessonDetailPage({ params }: { params: Promise<{ lessonI
   const hasDraft = draft != null;
 
   return (
-    <div className="mx-auto w-full max-w-6xl px-6 py-6">
-      <header className="mb-4 flex flex-wrap items-start justify-between gap-3">
-        <div>
+    <div className="mx-auto w-full max-w-6xl px-4 py-4 sm:px-6 sm:py-6">
+      <header className="mb-4 flex flex-wrap items-start justify-between gap-x-3 gap-y-2">
+        <div className="min-w-0 flex-1">
           <Link
             href="/reading"
             className="mb-1 inline-flex items-center gap-1 text-xs text-muted-foreground hover:text-foreground"
           >
             <ArrowLeft className="size-3" /> Back to Reading
           </Link>
-          <h1 className="text-xl font-semibold">{lesson.title}</h1>
+          <h1 className="text-lg font-semibold leading-tight sm:text-xl">{lesson.title}</h1>
           <div className="mt-1 flex flex-wrap items-center gap-2 text-xs">
             <span className={cn("rounded px-1.5 py-0.5 font-semibold", LEVEL_CLASS[lesson.level])}>
               {lesson.level}
@@ -89,7 +89,7 @@ export default function LessonDetailPage({ params }: { params: Promise<{ lessonI
             </span>
           </div>
         </div>
-        <div className="flex items-center gap-2">
+        <div className="flex flex-wrap items-center gap-2">
           <BookmarkButton lessonId={lessonId} variant="inline" />
           <LessonTimer />
           <HintSettingsPopover />
@@ -114,11 +114,11 @@ export default function LessonDetailPage({ params }: { params: Promise<{ lessonI
         <div
           className={
             prefs.detailLayout === "two-column"
-              ? "grid grid-cols-1 gap-4 lg:grid-cols-[1.2fr_1fr]"
-              : "flex flex-col gap-4"
+              ? "grid grid-cols-1 gap-3 sm:gap-4 lg:grid-cols-[1.2fr_1fr]"
+              : "flex flex-col gap-3 sm:gap-4"
           }
         >
-          <section className="rounded-md border bg-card p-4">
+          <section className="rounded-md border bg-card p-3 sm:p-4">
             <Passage
               lesson={lesson}
               showAnnotations={prefs.hintToggles.vocabVi}
@@ -126,13 +126,13 @@ export default function LessonDetailPage({ params }: { params: Promise<{ lessonI
             />
             {prefs.hintToggles.grammar && <GrammarNotes notes={lesson.grammarNotes} />}
           </section>
-          <section className="rounded-md border bg-card p-4">
+          <section className="rounded-md border bg-card p-3 sm:p-4">
             <MCQuestions showHint={prefs.hintToggles.perQuestionHint} />
           </section>
         </div>
 
         {lesson.cloze && (
-          <section className="mt-4 rounded-md border bg-card p-4">
+          <section className="mt-3 rounded-md sm:mt-4 border bg-card p-3 sm:p-4">
             <ClozeBlock />
             <ClozeReview />
           </section>
@@ -142,7 +142,7 @@ export default function LessonDetailPage({ params }: { params: Promise<{ lessonI
       </QuizSection>
 
       {lesson.criticalThinkingQuestion && (
-        <section className="mt-4 rounded-md border-l-4 border-primary bg-muted/40 p-4">
+        <section className="mt-3 rounded-md sm:mt-4 border-l-4 border-primary bg-muted/40 p-3 sm:p-4">
           <h2 className="mb-1 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
             Critical thinking
           </h2>

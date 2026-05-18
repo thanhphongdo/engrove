@@ -21,7 +21,7 @@ export function FilterChipRow({
 
   return (
     <div className="flex flex-wrap items-center gap-2">
-      <span className="text-xs font-medium uppercase tracking-wide text-muted-foreground">{label}</span>
+      <span className="text-xs font-bold uppercase tracking-wide text-foreground">{label}</span>
       {options.map((opt) => {
         const active = selected.includes(opt.value);
         return (

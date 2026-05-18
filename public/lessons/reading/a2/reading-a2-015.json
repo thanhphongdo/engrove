@@ -1,0 +1,75 @@
+{
+  "id": "reading-a2-015",
+  "level": "A2",
+  "title": "A jar of salt, or a list of neighbours",
+  "summary": "A daughter is leaving for university in three days. Her mother tells the story of the jar of salt her own mother gave her — and then offers something different.",
+  "format": "dialogue",
+  "body": [
+    { "speaker": "Mother", "text": "When do you leave for university?" },
+    { "speaker": "Daughter", "text": "Tuesday. Three days from now." },
+    { "speaker": "Mother", "text": "Three days. Have you packed?" },
+    { "speaker": "Daughter", "text": "Most things. I am leaving some clothes here." },
+    { "speaker": "Mother", "text": "Take them. The dormitory will be cold in winter." },
+    { "speaker": "Daughter", "text": "I am only going for one term, Mum. I will come home for Tet." },
+    { "speaker": "Mother", "text": "That is three months. Three months is a long time. Three months is also nothing." },
+    { "speaker": "Daughter", "text": "I know." },
+    { "speaker": "Mother", "text": "When I was your age, I went to university. My mother gave me a small jar of salt." },
+    { "speaker": "Daughter", "text": "Salt?" },
+    { "speaker": "Mother", "text": "She said, 'If you forget what home tastes like, put a small amount on your food.'" },
+    { "speaker": "Daughter", "text": "Did you use it?" },
+    { "speaker": "Mother", "text": "Yes. The cafeteria food was strange. One night I put a little salt on my rice. I cried. I called her the next day." },
+    { "speaker": "Daughter", "text": "I do not want a jar of salt, Mum." },
+    { "speaker": "Mother", "text": "I have prepared something else. I have written down the names of every neighbour on our street and what each one does. So when you call, you can ask, 'Has Mrs Phong sold her noodles today? Is Mr Tien's dog still walking himself?'" },
+    { "speaker": "Daughter", "text": "That is strange, Mum." },
+    { "speaker": "Mother", "text": "It is. But it gives me five minutes more on the phone with you. I will need those minutes." },
+    { "speaker": "Daughter", "text": "Okay. Give me the list." },
+    { "speaker": "Mother", "text": "And — Lien. Your bed will stay made. Whenever you come back, it will be ready." },
+    { "speaker": "Daughter", "text": "Thank you, Mum." }
+  ],
+  "tags": ["Family", "Leaving home", "Generation"],
+  "annotations": [
+    { "phrase": "dormitory", "meaningVi": "ký túc xá", "pronunciation": "/ˈdɔː.mɪ.tri/" },
+    { "phrase": "term", "meaningVi": "học kỳ" },
+    { "phrase": "Tet", "meaningVi": "Tết Nguyên Đán" },
+    { "phrase": "cafeteria", "meaningVi": "nhà ăn (trường, công ty)" },
+    { "phrase": "list", "meaningVi": "danh sách" }
+  ],
+  "grammarNotes": [
+    {
+      "title": "'Will' and 'be going to' for the future",
+      "bodyVi": "Dùng 'will + V' cho lời hứa, quyết định ngay tại chỗ, hoặc dự đoán: 'I will come home for Tet.' / 'It will be cold in winter.' Dùng 'am/is/are + going to + V' khi đã có kế hoạch sẵn: 'I am only going for one term.' Lưu ý: 'I am only going' ở đây cũng có thể là present continuous diễn tả kế hoạch trong tương lai gần.",
+      "bodyEn": "Use 'will + verb' for promises, on-the-spot decisions, or predictions: 'I will come home for Tet.' / 'It will be cold in winter.' Use 'am/is/are + going to + verb' for plans already decided. Note: 'I am only going for one term' is the present continuous used for a near-future plan."
+    }
+  ],
+  "cloze": {
+    "template": "Mother: When do you leave for university?\nDaughter: {{b1}}. Three days from now.\nMother: Three days. Have you {{b2}}?\nDaughter: Most things. I am leaving some clothes here.\nMother: Take them. The {{b3}} will be cold in winter.\nDaughter: I am only going for one term, Mum. I will come home for {{b4}}.\nMother: That is three {{b5}}. Three months is a long time. Three months is also nothing.\nDaughter: I know.\nMother: When I was your age, I went to university. My mother gave me a small jar of {{b6}}.\nDaughter: Salt?\nMother: She said, 'If you forget what {{b7}} tastes like, put a small amount on your food.'\nDaughter: Did you use it?\nMother: Yes. The {{b8}} food was strange. One night I put a little salt on my rice. I {{b9}}. I called her the next day.\nDaughter: I do not want a jar of salt, Mum.\nMother: I have prepared something else. I have written down the {{b10}} of every neighbour on our street and what each one does. So when you call, you can ask, 'Has Mrs Phong sold her {{b11}} today? Is Mr Tien's dog still walking himself?'\nDaughter: That is strange, Mum.\nMother: It is. But it gives me five minutes more on the phone with you. I will need those minutes.\nDaughter: Okay. Give me the list.\nMother: And — Lien. Your {{b12}} will stay made. Whenever you come back, it will be ready.\nDaughter: Thank you, Mum.",
+    "blanks": [
+      { "id": "b1", "options": ["Monday", "Tuesday", "Friday", "Sunday"], "answerIndex": 1, "explanation": "She leaves on Tuesday." },
+      { "id": "b2", "options": ["packed", "left", "called", "studied"], "answerIndex": 0, "explanation": "Have you packed (your things) yet?" },
+      { "id": "b3", "options": ["library", "dormitory", "shop", "kitchen"], "answerIndex": 1, "explanation": "The dormitory — student housing — will be cold in winter." },
+      { "id": "b4", "options": ["lunch", "Tet", "noon", "Sunday"], "answerIndex": 1, "explanation": "She will come home for Tet — the lunar new year holiday." },
+      { "id": "b5", "options": ["weeks", "months", "years", "minutes"], "answerIndex": 1, "explanation": "Three months — between now and Tet." },
+      { "id": "b6", "options": ["rice", "salt", "sugar", "tea"], "answerIndex": 1, "explanation": "Her own mother gave her a small jar of salt." },
+      { "id": "b7", "options": ["school", "home", "rice", "soup"], "answerIndex": 1, "explanation": "'If you forget what home tastes like.'" },
+      { "id": "b8", "options": ["family", "cafeteria", "village", "hospital"], "answerIndex": 1, "explanation": "The cafeteria — the university canteen — had food that tasted strange to her." },
+      { "id": "b9", "options": ["laughed", "cried", "slept", "shouted"], "answerIndex": 1, "explanation": "She cried — the salt brought home back, all at once." },
+      { "id": "b10", "options": ["names", "ages", "prices", "phone numbers"], "answerIndex": 0, "explanation": "She has written down the names of every neighbour on the street." },
+      { "id": "b11", "options": ["car", "noodles", "fish", "fruit"], "answerIndex": 1, "explanation": "Has Mrs Phong sold her noodles today? — a sample question to use on the phone." },
+      { "id": "b12", "options": ["chair", "bed", "table", "shelf"], "answerIndex": 1, "explanation": "Her bed will stay made — ready for whenever she comes home." }
+    ]
+  },
+  "translationVi": "Mẹ: Bao giờ con đi học?\nCon gái: Thứ Ba. Còn ba ngày nữa.\nMẹ: Ba ngày. Con đã xếp đồ chưa?\nCon gái: Phần lớn rồi. Con để lại đây mấy bộ.\nMẹ: Mang đi. Ký túc xá mùa đông sẽ lạnh.\nCon gái: Con chỉ đi một học kỳ thôi mà mẹ. Tết con sẽ về.\nMẹ: Tết là ba tháng. Ba tháng dài. Ba tháng cũng chẳng là gì.\nCon gái: Con biết.\nMẹ: Hồi mẹ bằng tuổi con, mẹ cũng đi học. Bà ngoại đưa cho mẹ một lọ muối nhỏ.\nCon gái: Muối á?\nMẹ: Bà nói: 'Nếu quên vị nhà thế nào, rắc một ít lên cơm.'\nCon gái: Rồi mẹ có dùng không?\nMẹ: Có. Cơm canh tin có lạ miệng. Một đêm mẹ rắc một ít muối lên cơm. Mẹ khóc. Hôm sau mẹ gọi cho bà.\nCon gái: Con không muốn lọ muối đâu mẹ.\nMẹ: Mẹ đã chuẩn bị thứ khác. Mẹ viết ra tên tất cả những người hàng xóm trong phố và họ làm gì. Để khi con gọi, con có thể hỏi: 'Hôm nay bà Phong bán hết phở chưa? Con chó nhà ông Tiến vẫn tự đi dạo không?'\nCon gái: Lạ quá mẹ ơi.\nMẹ: Lạ thật. Nhưng nó cho mẹ thêm năm phút trên điện thoại với con. Mẹ sẽ cần năm phút đó.\nCon gái: Được. Mẹ đưa danh sách cho con.\nMẹ: Và — Liên. Giường con vẫn được dọn sẵn. Lúc nào con về, nó cũng sẵn sàng.\nCon gái: Cảm ơn mẹ.",
+  "questions": [
+    { "id": "q1", "prompt": "When does the daughter leave?", "options": ["Tomorrow", "On Tuesday, three days away", "Next week", "Next month"], "answerIndex": 1, "explanation": "'Tuesday. Three days from now.'", "hint": "Look at the daughter's first reply." },
+    { "id": "q2", "prompt": "Why does the mother say 'three months is a long time. Three months is also nothing'?", "options": ["She is confused", "She is feeling both sides of her daughter leaving — long when waiting, short in retrospect", "She is teaching maths", "Three months equals one term"], "answerIndex": 1, "explanation": "Mothers often feel both at once — the absence is long, but it ends.", "hint": "Look at the line right after the daughter says she will come home for Tet." },
+    { "id": "q3", "prompt": "What did the mother's own mother give her when she left for university?", "options": ["A book", "A small jar of salt", "Money", "A photo album"], "answerIndex": 1, "explanation": "'My mother gave me a small jar of salt.'", "hint": "Look at the story-within-the-story." },
+    { "id": "q4", "prompt": "What was the salt for?", "options": ["Cooking class", "If she forgot what home tasted like, she could put a small amount on her food", "Salt prices were high", "It was the law"], "answerIndex": 1, "explanation": "'If you forget what home tastes like, put a small amount on your food.'", "hint": "Look at the grandmother's words." },
+    { "id": "q5", "prompt": "Did the mother use the salt?", "options": ["No", "Yes — one night she put a little on her rice, cried, and called her mother the next day", "Only once a year", "She lost it"], "answerIndex": 1, "explanation": "'One night I put a little salt on my rice. I cried.'", "hint": "Look at the mother's reply." },
+    { "id": "q6", "prompt": "Does the daughter want a jar of salt too?", "options": ["Yes", "No — she says so directly", "Only at Tet", "She does not say"], "answerIndex": 1, "explanation": "'I do not want a jar of salt, Mum.'", "hint": "Look at the daughter's reply after the salt story." },
+    { "id": "q7", "prompt": "What has the mother prepared instead?", "options": ["A new bed", "A written list of every neighbour and what each one does", "Money for travel", "A photo album"], "answerIndex": 1, "explanation": "'I have written down the names of every neighbour on our street and what each one does.'", "hint": "Look at the mother's reply." },
+    { "id": "q8", "prompt": "Why has she made this list?", "options": ["To gossip", "So her daughter can ask specific local questions on the phone — and the call lasts five minutes longer", "To prove she has friends", "For the council"], "answerIndex": 1, "explanation": "'It gives me five minutes more on the phone with you. I will need those minutes.'", "hint": "Look at the mother's explanation." },
+    { "id": "q9", "prompt": "What is the daughter's response?", "options": ["She refuses the list", "'Okay. Give me the list.'", "She laughs and walks away", "She asks for the salt instead"], "answerIndex": 1, "explanation": "'Okay. Give me the list.'", "hint": "Look at her short reply." },
+    { "id": "q10", "prompt": "What promise does the mother end with?", "options": ["She will move with her", "Her bed will stay made — whenever she comes back, it will be ready", "She will visit every weekend", "She will call her every night"], "answerIndex": 1, "explanation": "'Your bed will stay made. Whenever you come back, it will be ready.'", "hint": "Look at the second-to-last turn." }
+  ],
+  "criticalThinkingQuestion": "The mother offers a list of neighbours instead of a jar of salt — a small, modern way of staying close. Think of someone you might be apart from for a while. What small list or routine could you set up that would give your conversations five extra minutes?"
+}

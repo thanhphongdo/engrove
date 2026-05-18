@@ -1,0 +1,73 @@
+{
+  "id": "reading-a2-013",
+  "level": "A2",
+  "title": "Why is the bowl ninety now?",
+  "summary": "A regular customer asks the pho chef why the bowl is suddenly twenty thousand more. The chef sits down and walks through the numbers.",
+  "format": "dialogue",
+  "body": [
+    { "speaker": "Customer", "text": "Excuse me. Why is the bowl of pho now ninety thousand? Last month it was seventy." },
+    { "speaker": "Chef", "text": "Yes. I raised the price two weeks ago." },
+    { "speaker": "Customer", "text": "Twenty thousand more. That is a big jump." },
+    { "speaker": "Chef", "text": "I know. Can I sit with you for a minute? I want to explain." },
+    { "speaker": "Customer", "text": "Please." },
+    { "speaker": "Chef", "text": "Beef. My beef costs twice as much this year. The farmer who used to supply me retired. The new supplier is twenty per cent more expensive." },
+    { "speaker": "Customer", "text": "Could you find another?" },
+    { "speaker": "Chef", "text": "I tried five. Three were cheaper, but the meat was not the same. Two were the same quality but more expensive. I chose what tastes best." },
+    { "speaker": "Customer", "text": "And vegetables?" },
+    { "speaker": "Chef", "text": "Vegetables are slightly more. Rice noodles, the same as last year." },
+    { "speaker": "Customer", "text": "So it is the beef." },
+    { "speaker": "Chef", "text": "Mostly. Also the gas. The kitchen used to cost me two million a month. Now it is two and a half." },
+    { "speaker": "Customer", "text": "Why did you not raise the price earlier?" },
+    { "speaker": "Chef", "text": "I waited. I did not want to. Last week I added the numbers honestly. I lost money for six months. I cannot lose money any longer." },
+    { "speaker": "Customer", "text": "That is fair." },
+    { "speaker": "Chef", "text": "Some customers will not come back. I understand. The bowl is still the same bowl. I do not want to make it smaller. I do not want to use cheaper beef. So the price goes up." },
+    { "speaker": "Customer", "text": "I will keep coming." },
+    { "speaker": "Chef", "text": "Thank you. Sit. Your bowl is on me today." }
+  ],
+  "tags": ["Food", "Work", "Money"],
+  "annotations": [
+    { "phrase": "raised", "meaningVi": "đã tăng (giá)" },
+    { "phrase": "supplier", "meaningVi": "nhà cung cấp" },
+    { "phrase": "quality", "meaningVi": "chất lượng" },
+    { "phrase": "honestly", "meaningVi": "một cách thành thật" },
+    { "phrase": "fair", "meaningVi": "công bằng, hợp lý" }
+  ],
+  "grammarNotes": [
+    {
+      "title": "'Used to' for a past habit or state that has ended",
+      "bodyVi": "Dùng 'used to + động từ nguyên thể' để nói về một thói quen hoặc trạng thái trong quá khứ mà nay không còn. Trong bài: 'The farmer who used to supply me retired.' (Người nông dân từng cung cấp cho tôi đã nghỉ hưu.) / 'The kitchen used to cost me two million a month.' Hàm ý: bây giờ không còn vậy nữa.",
+      "bodyEn": "Use 'used to + base verb' for a past habit or state that no longer happens. From the dialogue: 'The farmer who used to supply me retired.' / 'The kitchen used to cost me two million a month.' The form implies that the situation has now changed."
+    }
+  ],
+  "cloze": {
+    "template": "Customer: Excuse me. Why is the bowl of pho now {{b1}} thousand? Last month it was {{b2}}.\nChef: Yes. I {{b3}} the price two weeks ago.\nCustomer: Twenty thousand more. That is a big jump.\nChef: I know. Can I sit with you for a minute? I want to {{b4}}.\nCustomer: Please.\nChef: {{b5}}. My beef costs twice as much this year. The farmer who used to supply me {{b6}}. The new supplier is twenty per cent more expensive.\nCustomer: Could you find another?\nChef: I tried {{b7}}. Three were cheaper, but the meat was not the same. Two were the same quality but more expensive. I chose what tastes best.\nCustomer: And {{b8}}?\nChef: Vegetables are slightly more. Rice {{b9}}, the same as last year.\nCustomer: So it is the beef.\nChef: Mostly. Also the {{b10}}. The kitchen used to cost me two million a month. Now it is two and a half.\nCustomer: Why did you not raise the price earlier?\nChef: I waited. I did not want to. Last week I added the numbers honestly. I {{b11}} money for six months. I cannot lose money any longer.\nCustomer: That is fair.\nChef: Some customers will not come back. I understand. The bowl is still the same bowl. I do not want to make it smaller. I do not want to use {{b12}} beef. So the price goes up.\nCustomer: I will keep coming.\nChef: Thank you. Sit. Your bowl is on me today.",
+    "blanks": [
+      { "id": "b1", "options": ["forty", "ninety", "twenty", "five hundred"], "answerIndex": 1, "explanation": "The bowl is now ninety thousand." },
+      { "id": "b2", "options": ["seventy", "twenty", "fifty", "ninety"], "answerIndex": 0, "explanation": "Last month it was seventy thousand." },
+      { "id": "b3", "options": ["raised", "sold", "lowered", "wrote"], "answerIndex": 0, "explanation": "He raised the price two weeks ago." },
+      { "id": "b4", "options": ["explain", "shout", "leave", "argue"], "answerIndex": 0, "explanation": "He wants to explain — not argue." },
+      { "id": "b5", "options": ["Rice", "Beef", "Tea", "Water"], "answerIndex": 1, "explanation": "Beef is the main cost driver." },
+      { "id": "b6", "options": ["died", "retired", "moved away", "complained"], "answerIndex": 1, "explanation": "The farmer who used to supply him retired." },
+      { "id": "b7", "options": ["two", "five", "ten", "twenty"], "answerIndex": 1, "explanation": "He tried five alternative suppliers." },
+      { "id": "b8", "options": ["bones", "vegetables", "rice", "spices"], "answerIndex": 1, "explanation": "The customer asks about vegetables next." },
+      { "id": "b9", "options": ["noodles", "wine", "bread", "fish"], "answerIndex": 0, "explanation": "Rice noodles — the same price as last year." },
+      { "id": "b10", "options": ["water", "gas", "electricity", "rent"], "answerIndex": 1, "explanation": "Also the gas — the kitchen's monthly cost has gone up." },
+      { "id": "b11", "options": ["earned", "lost", "saved", "borrowed"], "answerIndex": 1, "explanation": "He lost money for six months before raising the price." },
+      { "id": "b12", "options": ["younger", "cheaper", "older", "smaller"], "answerIndex": 1, "explanation": "He does not want to use cheaper beef — that would reduce quality." }
+    ]
+  },
+  "translationVi": "Khách: Anh ơi, sao tô phở giờ chín mươi nghìn ạ? Tháng trước bảy mươi mà.\nĐầu bếp: Đúng rồi. Tôi tăng giá hai tuần trước.\nKhách: Tăng hai mươi nghìn. Nhảy nhiều thế.\nĐầu bếp: Tôi biết. Tôi ngồi cùng chị một phút được không? Tôi muốn giải thích.\nKhách: Anh nói đi.\nĐầu bếp: Là thịt bò. Bò năm nay đắt gấp đôi. Người nông dân từng cung cấp cho tôi đã nghỉ. Nhà cung cấp mới đắt hơn hai mươi phần trăm.\nKhách: Anh không tìm chỗ khác được sao?\nĐầu bếp: Tôi đã thử năm chỗ. Ba chỗ rẻ hơn, nhưng thịt không cùng chất lượng. Hai chỗ cùng chất lượng nhưng đắt hơn. Tôi chọn cái có vị ngon nhất.\nKhách: Còn rau thì sao?\nĐầu bếp: Rau hơi đắt hơn một chút. Bánh phở thì y như năm ngoái.\nKhách: Vậy là do thịt bò.\nĐầu bếp: Phần lớn. Cả gas nữa. Trước bếp tốn của tôi hai triệu một tháng. Giờ là hai triệu rưỡi.\nKhách: Sao anh không tăng sớm hơn?\nĐầu bếp: Tôi cố đợi. Tôi không muốn. Tuần trước tôi cộng các con số một cách thật thà. Tôi đã lỗ trong sáu tháng. Tôi không thể lỗ thêm nữa.\nKhách: Hợp lý mà.\nĐầu bếp: Có khách sẽ không quay lại. Tôi hiểu. Tô vẫn là tô như cũ. Tôi không muốn làm tô nhỏ lại. Tôi không muốn dùng thịt bò rẻ hơn. Nên giá phải lên.\nKhách: Tôi vẫn sẽ tới ăn.\nĐầu bếp: Cảm ơn chị. Mời chị ngồi. Tô của chị hôm nay tôi mời.",
+  "questions": [
+    { "id": "q1", "prompt": "What was the price last month, and what is it now?", "options": ["50 → 60", "70 → 90 thousand", "80 → 100", "90 → 70"], "answerIndex": 1, "explanation": "'Last month it was seventy.' / 'Why is the bowl of pho now ninety thousand?'", "hint": "Look at the first exchange." },
+    { "id": "q2", "prompt": "Why does the chef ask to sit with the customer?", "options": ["To complain", "To explain the price change", "To take her order", "To say goodbye"], "answerIndex": 1, "explanation": "'I want to explain.'", "hint": "Look at the chef's first long turn." },
+    { "id": "q3", "prompt": "What is the main reason for the price rise?", "options": ["Rent", "Beef — costs twice as much; new supplier is 20% more expensive", "Staff", "Tax"], "answerIndex": 1, "explanation": "'My beef costs twice as much this year.'", "hint": "Look at the chef's reply to 'Please'." },
+    { "id": "q4", "prompt": "How many alternative suppliers did the chef try?", "options": ["Two", "Three", "Five", "Ten"], "answerIndex": 2, "explanation": "'I tried five.'", "hint": "Look at the chef's reply about other suppliers." },
+    { "id": "q5", "prompt": "Why didn't he keep one of the cheaper ones?", "options": ["The shop was far", "The meat was not the same — quality was lower", "They were not honest", "He couldn't pay them"], "answerIndex": 1, "explanation": "'Three were cheaper, but the meat was not the same.'", "hint": "Look at the same reply." },
+    { "id": "q6", "prompt": "Apart from beef, what else has gone up?", "options": ["Bones", "Vegetables and gas", "Rice noodles", "Salt"], "answerIndex": 1, "explanation": "'Vegetables are slightly more.' / 'Also the gas. The kitchen used to cost me two million a month. Now it is two and a half.'", "hint": "Look at the chef's later replies." },
+    { "id": "q7", "prompt": "Why didn't the chef raise the price earlier?", "options": ["He forgot", "He waited; he did not want to", "His staff stopped him", "He thought beef would get cheaper"], "answerIndex": 1, "explanation": "'I waited. I did not want to.'", "hint": "Look at the chef's reply about the timing." },
+    { "id": "q8", "prompt": "How long had he been losing money?", "options": ["One month", "Six months", "A year", "Two years"], "answerIndex": 1, "explanation": "'I lost money for six months.'", "hint": "Look at the same reply." },
+    { "id": "q9", "prompt": "What does the chef refuse to do, even at a higher cost?", "options": ["Stay open late", "Make the bowl smaller or use cheaper beef", "Hire new staff", "Change the recipe"], "answerIndex": 1, "explanation": "'I do not want to make it smaller. I do not want to use cheaper beef.'", "hint": "Look at his explanation near the end." },
+    { "id": "q10", "prompt": "How does the conversation end?", "options": ["The customer leaves angrily", "The customer says she will keep coming; the chef offers her today's bowl on the house", "The chef refuses to talk", "They argue about the price"], "answerIndex": 1, "explanation": "'I will keep coming.' / 'Sit. Your bowl is on me today.'", "hint": "Look at the last two turns." }
+  ],
+  "criticalThinkingQuestion": "The chef says, 'The bowl is still the same bowl.' Think of a small thing you buy regularly. If its price went up, would you rather have a smaller version at the old price, or the same thing at the higher price? Why?"
+}

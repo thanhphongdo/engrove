@@ -14,16 +14,27 @@ export function Passage({
   showAnnotations: boolean;
   showTranslation: boolean;
 }) {
-  const lines = useMemo<{ original: string; key: string }[]>(() => {
+  const lines = useMemo<{ speaker?: string; text: string; key: string }[]>(() => {
     if (lesson.format === "paragraph") {
       return (lesson.body as string)
         .split(/\n+/)
-        .map((line, i) => ({ original: line, key: `p${i}` }));
+        .map((line, i) => ({ text: line, key: `p${i}` }));
     }
     return (lesson.body as { speaker: string; text: string }[]).map((t, i) => ({
-      original: `${t.speaker}: ${t.text}`,
+      speaker: t.speaker,
+      text: t.text,
       key: `t${i}`,
     }));
+  }, [lesson]);
+
+  const translationLines = useMemo(() => {
+    return lesson.translationVi.split(/\n+/).map((line, i) => {
+      if (lesson.format === "dialogue") {
+        const match = line.match(/^([^:]+):\s(.*)$/);
+        if (match) return { speaker: match[1], text: match[2], key: `tr${i}` };
+      }
+      return { text: line, key: `tr${i}` };
+    });
   }, [lesson]);
 
   return (
@@ -31,10 +42,13 @@ export function Passage({
       <article className="space-y-3 text-sm leading-relaxed">
         {lines.map((line) => {
           const segments = showAnnotations
-            ? splitWithAnnotations(line.original, lesson.annotations)
-            : [{ kind: "text" as const, text: line.original }];
+            ? splitWithAnnotations(line.text, lesson.annotations)
+            : [{ kind: "text" as const, text: line.text }];
           return (
             <p key={line.key}>
+              {line.speaker && (
+                <span className="font-semibold text-foreground">{line.speaker}: </span>
+              )}
               {segments.map((seg, idx) =>
                 seg.kind === "text" ? (
                   <span key={idx}>{seg.text}</span>
@@ -53,8 +67,13 @@ export function Passage({
       </article>
       {showTranslation && (
         <aside className="space-y-3 rounded-md bg-muted/40 p-3 text-sm leading-relaxed text-muted-foreground">
-          {lesson.translationVi.split(/\n+/).map((line, i) => (
-            <p key={i}>{line}</p>
+          {translationLines.map((line) => (
+            <p key={line.key}>
+              {line.speaker && (
+                <span className="font-semibold text-foreground">{line.speaker}: </span>
+              )}
+              {line.text}
+            </p>
           ))}
         </aside>
       )}

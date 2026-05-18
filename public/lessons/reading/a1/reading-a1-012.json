@@ -1,0 +1,80 @@
+{
+  "id": "reading-a1-012",
+  "level": "A1",
+  "title": "Two hours, zero fish",
+  "summary": "An eight-year-old boy and his uncle have been fishing for two hours and caught nothing. The uncle says they have caught something else.",
+  "format": "dialogue",
+  "body": [
+    { "speaker": "Uncle", "text": "Be quiet, Kien. Fish hear everything." },
+    { "speaker": "Kien", "text": "Uncle, fish do not have ears." },
+    { "speaker": "Uncle", "text": "They have a small thing like an ear. They feel the water move. Be quiet." },
+    { "speaker": "Kien", "text": "How long have we sat here?" },
+    { "speaker": "Uncle", "text": "Two hours." },
+    { "speaker": "Kien", "text": "And we have caught zero fish." },
+    { "speaker": "Uncle", "text": "We have caught one thing. We do not see it yet." },
+    { "speaker": "Kien", "text": "What is the thing?" },
+    { "speaker": "Uncle", "text": "Patience." },
+    { "speaker": "Kien", "text": "I am hungry." },
+    { "speaker": "Uncle", "text": "Eat the rice. It is in the bag." },
+    { "speaker": "Kien", "text": "I want fish, not rice." },
+    { "speaker": "Uncle", "text": "Then we will sit longer." },
+    { "speaker": "Kien", "text": "Uncle, you are not angry?" },
+    { "speaker": "Uncle", "text": "No. When I was small, I asked my father the same question. He told me to be quiet too." },
+    { "speaker": "Kien", "text": "Did you catch a fish?" },
+    { "speaker": "Uncle", "text": "Yes. After four hours. I was eight. I still remember the fish." },
+    { "speaker": "Kien", "text": "I am eight too." },
+    { "speaker": "Uncle", "text": "Then you have two hours left." },
+    { "speaker": "Kien", "text": "And if no fish comes?" },
+    { "speaker": "Uncle", "text": "Then we go home with the same fish I went home with the day before I caught one." },
+    { "speaker": "Kien", "text": "Which is zero?" },
+    { "speaker": "Uncle", "text": "Which is the lesson. Bring it home. It is still in your bag." },
+    { "speaker": "Kien", "text": "Okay. I am quiet now." },
+    { "speaker": "Uncle", "text": "Good. Look at the water. It is telling us something." }
+  ],
+  "tags": ["Family", "Fishing", "Patience"],
+  "annotations": [
+    { "phrase": "patience", "meaningVi": "sự kiên nhẫn", "pronunciation": "/ˈpeɪ.ʃəns/" },
+    { "phrase": "hungry", "meaningVi": "đói" },
+    { "phrase": "remember", "meaningVi": "nhớ" },
+    { "phrase": "lesson", "meaningVi": "bài học" },
+    { "phrase": "quiet", "meaningVi": "yên lặng" }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Present perfect: 'have/has + past participle'",
+      "bodyVi": "Dùng thì hiện tại hoàn thành (have/has + V3) để nói về việc đã xảy ra tính đến hiện tại. Trong bài: 'How long have we sat here?' / 'We have caught zero fish.' Công thức: chủ ngữ + have/has + động từ dạng quá khứ phân từ (sit → sat, catch → caught).",
+      "bodyEn": "Use the present perfect (have/has + past participle) for actions that happened up to now. From the dialogue: 'How long have we sat here?' / 'We have caught zero fish.' Form: subject + have/has + past participle (sit → sat, catch → caught)."
+    }
+  ],
+  "cloze": {
+    "template": "Uncle: Be quiet, Kien. Fish hear everything.\nKien: Uncle, fish do not have {{b1}}.\nUncle: They have a small thing like an ear. They feel the {{b2}} move. Be quiet.\nKien: How long have we sat here?\nUncle: {{b3}} hours.\nKien: And we have caught {{b4}} fish.\nUncle: We have caught one thing. We do not see it yet.\nKien: What is the thing?\nUncle: {{b5}}.\nKien: I am {{b6}}.\nUncle: Eat the {{b7}}. It is in the bag.\nKien: I want fish, not rice.\nUncle: Then we will sit longer.\nKien: Uncle, you are not angry?\nUncle: No. When I was small, I asked my {{b8}} the same question. He told me to be quiet too.\nKien: Did you catch a fish?\nUncle: Yes. After {{b9}} hours. I was {{b10}}. I still remember the fish.\nKien: I am eight too.\nUncle: Then you have two hours left.\nKien: And if no fish comes?\nUncle: Then we go home with the same fish I went home with the day before I caught one.\nKien: Which is zero?\nUncle: Which is the lesson. Bring it home. It is still in your bag.\nKien: Okay. I am {{b11}} now.\nUncle: Good. Look at the water. It is {{b12}} us something.",
+    "blanks": [
+      { "id": "b1", "options": ["eyes", "ears", "mouths", "tails"], "answerIndex": 1, "explanation": "Kien protests that fish do not have ears — though the uncle replies they have something like one." },
+      { "id": "b2", "options": ["water", "wind", "ground", "tree"], "answerIndex": 0, "explanation": "Fish 'feel the water move' — that is how they sense sound." },
+      { "id": "b3", "options": ["Two", "Six", "Ten", "Twenty"], "answerIndex": 0, "explanation": "'Two hours' — how long they have been sitting." },
+      { "id": "b4", "options": ["one", "two", "zero", "ten"], "answerIndex": 2, "explanation": "'We have caught zero fish.'" },
+      { "id": "b5", "options": ["Money", "Patience", "Wind", "Lunch"], "answerIndex": 1, "explanation": "The uncle's answer: they have caught patience, even if no fish." },
+      { "id": "b6", "options": ["hungry", "happy", "tall", "rich"], "answerIndex": 0, "explanation": "Kien is hungry — a normal A1 child's complaint." },
+      { "id": "b7", "options": ["bread", "rice", "fruit", "noodles"], "answerIndex": 1, "explanation": "Eat the rice — what is in the bag." },
+      { "id": "b8", "options": ["mother", "father", "teacher", "brother"], "answerIndex": 1, "explanation": "When the uncle was small, he asked his father the same question." },
+      { "id": "b9", "options": ["two", "three", "four", "six"], "answerIndex": 2, "explanation": "'After four hours' — that was how long the uncle had to wait." },
+      { "id": "b10", "options": ["five", "six", "eight", "ten"], "answerIndex": 2, "explanation": "'I was eight' — the same age as Kien now." },
+      { "id": "b11", "options": ["happy", "tired", "quiet", "sad"], "answerIndex": 2, "explanation": "Kien decides to be quiet — finally agreeing with his uncle's first instruction." },
+      { "id": "b12", "options": ["selling", "telling", "buying", "drinking"], "answerIndex": 1, "explanation": "'The water is telling us something' — the uncle's final image." }
+    ]
+  },
+  "translationVi": "Chú: Yên lặng, Kiên. Cá nghe được hết đấy.\nKiên: Chú ơi, cá làm gì có tai.\nChú: Cá có một bộ phận giống tai. Chúng cảm nhận nước chuyển động. Yên đi.\nKiên: Mình ngồi đây bao lâu rồi chú?\nChú: Hai tiếng.\nKiên: Và mình bắt được không con cá nào.\nChú: Mình bắt được một thứ. Chỉ là chưa thấy thôi.\nKiên: Thứ gì hả chú?\nChú: Sự kiên nhẫn.\nKiên: Cháu đói.\nChú: Ăn cơm đi. Cơm trong túi đấy.\nKiên: Cháu muốn cá, không phải cơm.\nChú: Thế mình ngồi lâu hơn nữa.\nKiên: Chú không bực hả chú?\nChú: Không. Hồi nhỏ, chú cũng hỏi bố chú đúng câu đó. Bố chú cũng bảo chú yên lặng.\nKiên: Rồi chú có bắt được cá không?\nChú: Có. Sau bốn tiếng. Chú lúc đó tám tuổi. Đến giờ vẫn còn nhớ con cá đó.\nKiên: Cháu cũng tám tuổi.\nChú: Vậy cháu còn hai tiếng nữa.\nKiên: Còn nếu không có cá thì sao?\nChú: Thì mình về nhà với con cá y như cái ngày trước khi chú bắt được con cá đầu tiên.\nKiên: Tức là không có cá?\nChú: Tức là bài học. Đem nó về. Nó vẫn ở trong túi cháu.\nKiên: Được rồi. Cháu im rồi đây.\nChú: Tốt. Nhìn xuống nước đi. Nó đang nói với mình một điều gì đó.",
+  "questions": [
+    { "id": "q1", "prompt": "Where are Kien and his uncle?", "options": ["At a market", "Fishing — sitting near water", "On a bus", "At home"], "answerIndex": 1, "explanation": "The whole conversation is about catching fish and listening to the water.", "hint": "Look at what they keep talking about." },
+    { "id": "q2", "prompt": "How long have they been sitting there?", "options": ["One hour", "Two hours", "Four hours", "Eight hours"], "answerIndex": 1, "explanation": "'Two hours.'", "hint": "Look at the uncle's short reply." },
+    { "id": "q3", "prompt": "How many fish have they caught?", "options": ["One", "Two", "Zero", "Three"], "answerIndex": 2, "explanation": "'We have caught zero fish.'", "hint": "Look at Kien's complaint." },
+    { "id": "q4", "prompt": "What does the uncle say they have caught instead?", "options": ["A cold", "Patience", "A friend", "Wind"], "answerIndex": 1, "explanation": "'Patience.'", "hint": "Look at the uncle's short answer." },
+    { "id": "q5", "prompt": "What does Kien want when he is hungry?", "options": ["Rice", "Fish — not the rice in the bag", "Bread", "Fruit"], "answerIndex": 1, "explanation": "'I want fish, not rice.'", "hint": "Look at Kien's complaint after his uncle offers rice." },
+    { "id": "q6", "prompt": "How long did the uncle have to wait, when he was a boy, for his first fish?", "options": ["One hour", "Two hours", "Four hours", "Eight hours"], "answerIndex": 2, "explanation": "'After four hours.'", "hint": "Look at the uncle's story about his own childhood." },
+    { "id": "q7", "prompt": "How old was the uncle when he caught his first fish?", "options": ["Six", "Eight", "Twelve", "Twenty"], "answerIndex": 1, "explanation": "'I was eight.'", "hint": "Same turn as the previous question." },
+    { "id": "q8", "prompt": "Why does the uncle say Kien has 'two hours left'?", "options": ["Then they have to leave the river", "Because Kien is eight and the uncle waited four hours at that age — two more hours to match", "Because dinner is in two hours", "Because of a curfew"], "answerIndex": 1, "explanation": "The uncle waited four hours; they have already sat for two; so Kien has two hours to match.", "hint": "Look at the numbers in the uncle's story." },
+    { "id": "q9", "prompt": "What does the uncle mean by 'It is still in your bag'?", "options": ["The fish is in the bag", "The lesson (patience, even if no fish) is still with you", "There is more rice in the bag", "The bag is heavy"], "answerIndex": 1, "explanation": "Even without a fish, they take home a lesson — and that is the point.", "hint": "Look at what 'the lesson' refers to." },
+    { "id": "q10", "prompt": "What is the tone of the conversation?", "options": ["Angry", "Cold and silent", "Warm and patient — the uncle teaches Kien without scolding, and Kien finally agrees to be quiet", "Boring"], "answerIndex": 2, "explanation": "The uncle is not angry; he tells his own childhood story. Kien ends by saying 'I am quiet now.'", "hint": "Notice how the uncle answers each complaint." }
+  ],
+  "criticalThinkingQuestion": "The uncle says they have caught 'patience', even though they caught no fish. Think of a time you did something but felt you 'got nothing'. What other thing might you have got that you didn't notice at the time?"
+}

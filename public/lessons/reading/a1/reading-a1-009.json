@@ -1,0 +1,77 @@
+{
+  "id": "reading-a1-009",
+  "level": "A1",
+  "title": "Mrs Mai, you are not old",
+  "summary": "A girl asks her seventy-year-old neighbour, a tailor, why she still works. The tailor gives a short answer — and offers the girl a sewing lesson.",
+  "format": "dialogue",
+  "body": [
+    { "speaker": "Linh", "text": "Mrs Mai, you are old. Why do you still work?" },
+    { "speaker": "Mrs Mai", "text": "I am seventy. I am not old." },
+    { "speaker": "Linh", "text": "My grandmother is seventy. She does not work." },
+    { "speaker": "Mrs Mai", "text": "Every person is different, Linh. I like my work." },
+    { "speaker": "Linh", "text": "What do you like?" },
+    { "speaker": "Mrs Mai", "text": "I like the cloth. I like the colours. I like to make a shirt that fits. People come back to me. That is a good feeling." },
+    { "speaker": "Linh", "text": "Are you tired?" },
+    { "speaker": "Mrs Mai", "text": "Yes, sometimes. But I am happy." },
+    { "speaker": "Linh", "text": "When will you stop?" },
+    { "speaker": "Mrs Mai", "text": "I will stop when my hands cannot work." },
+    { "speaker": "Linh", "text": "And then what?" },
+    { "speaker": "Mrs Mai", "text": "Then I will sit at this window. I will watch the new tailor work. I will say, 'That line is too long.' She will smile and fix it." },
+    { "speaker": "Linh", "text": "Will she be your daughter?" },
+    { "speaker": "Mrs Mai", "text": "No, she will be a girl I taught. Maybe she will be you." },
+    { "speaker": "Linh", "text": "Me? I do not know how to sew." },
+    { "speaker": "Mrs Mai", "text": "I will teach you. Come on Saturday. Bring a small piece of cloth and a needle. The first lesson is free." },
+    { "speaker": "Linh", "text": "And the second lesson?" },
+    { "speaker": "Mrs Mai", "text": "The second is free too. The third costs one sentence." },
+    { "speaker": "Linh", "text": "What sentence?" },
+    { "speaker": "Mrs Mai", "text": "'Mrs Mai, you are not old.'" },
+    { "speaker": "Linh", "text": "I can say that now!" },
+    { "speaker": "Mrs Mai", "text": "Then I am paid. Come on Saturday." }
+  ],
+  "tags": ["Work", "Generation", "Craft"],
+  "annotations": [
+    { "phrase": "cloth", "meaningVi": "vải" },
+    { "phrase": "fits", "meaningVi": "vừa (quần áo)" },
+    { "phrase": "tired", "meaningVi": "mệt" },
+    { "phrase": "needle", "meaningVi": "kim (khâu vá)" },
+    { "phrase": "sew", "meaningVi": "khâu, may", "pronunciation": "/səʊ/" }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Future with 'will'",
+      "bodyVi": "Dùng 'will + V' để nói về tương lai. Trong bài: 'I will stop when my hands cannot work.' (Tôi sẽ nghỉ khi tay tôi không thể làm việc nữa.) / 'I will teach you.' / 'She will be a girl I taught.' Công thức: chủ ngữ + will + động từ nguyên thể.",
+      "bodyEn": "Use 'will + verb' to talk about the future. From the dialogue: 'I will stop when my hands cannot work.' / 'I will teach you.' / 'She will be a girl I taught.' Form: subject + will + base verb."
+    }
+  ],
+  "cloze": {
+    "template": "Linh: Mrs Mai, you are old. Why do you still work?\nMrs Mai: I am {{b1}}. I am not old.\nLinh: My {{b2}} is seventy. She does not work.\nMrs Mai: Every person is different, Linh. I like my work.\nLinh: What do you like?\nMrs Mai: I like the {{b3}}. I like the colours. I like to make a {{b4}} that fits. People come back to me. That is a good feeling.\nLinh: Are you tired?\nMrs Mai: Yes, sometimes. But I am {{b5}}.\nLinh: When will you {{b6}}?\nMrs Mai: I will stop when my {{b7}} cannot work.\nLinh: And then what?\nMrs Mai: Then I will sit at this {{b8}}. I will watch the new tailor work. I will say, 'That line is too long.' She will smile and fix it.\nLinh: Will she be your {{b9}}?\nMrs Mai: No, she will be a girl I taught. Maybe she will be you.\nLinh: Me? I do not know how to sew.\nMrs Mai: I will teach you. Come on {{b10}}. Bring a small piece of cloth and a {{b11}}. The first lesson is {{b12}}.\nLinh: And the second lesson?\nMrs Mai: The second is free too. The third costs one sentence.\nLinh: What sentence?\nMrs Mai: 'Mrs Mai, you are not old.'\nLinh: I can say that now!\nMrs Mai: Then I am paid. Come on Saturday.",
+    "blanks": [
+      { "id": "b1", "options": ["seven", "seventy", "twenty", "ninety"], "answerIndex": 1, "explanation": "'I am seventy.'" },
+      { "id": "b2", "options": ["mother", "grandmother", "sister", "aunt"], "answerIndex": 1, "explanation": "'My grandmother is seventy.'" },
+      { "id": "b3", "options": ["cloth", "food", "music", "weather"], "answerIndex": 0, "explanation": "'I like the cloth.'" },
+      { "id": "b4", "options": ["song", "shirt", "cup", "house"], "answerIndex": 1, "explanation": "She likes to make a shirt that fits." },
+      { "id": "b5", "options": ["rich", "young", "happy", "loud"], "answerIndex": 2, "explanation": "'Yes, sometimes. But I am happy.'" },
+      { "id": "b6", "options": ["sell", "stop", "shout", "leave"], "answerIndex": 1, "explanation": "'When will you stop?'" },
+      { "id": "b7", "options": ["eyes", "feet", "hands", "ears"], "answerIndex": 2, "explanation": "She will stop when her hands cannot work — the tools of her job." },
+      { "id": "b8", "options": ["bed", "window", "table", "car"], "answerIndex": 1, "explanation": "She will sit at the window to watch." },
+      { "id": "b9", "options": ["mother", "daughter", "sister", "boss"], "answerIndex": 1, "explanation": "Linh asks if the new tailor will be Mrs Mai's daughter." },
+      { "id": "b10", "options": ["Monday", "Saturday", "Wednesday", "Friday"], "answerIndex": 1, "explanation": "'Come on Saturday.'" },
+      { "id": "b11", "options": ["needle", "spoon", "key", "pen"], "answerIndex": 0, "explanation": "She will need cloth and a needle to sew." },
+      { "id": "b12", "options": ["cheap", "free", "long", "easy"], "answerIndex": 1, "explanation": "'The first lesson is free.'" }
+    ]
+  },
+  "translationVi": "Linh: Bà Mai ơi, bà già rồi mà. Sao bà vẫn làm việc?\nBà Mai: Bà bảy mươi. Bà không già đâu.\nLinh: Bà nội cháu cũng bảy mươi. Bà ấy không làm việc.\nBà Mai: Mỗi người mỗi khác, Linh. Bà thích công việc của mình.\nLinh: Bà thích gì ạ?\nBà Mai: Bà thích vải. Bà thích các màu. Bà thích may một cái áo vừa người. Khách quay lại tìm bà. Cảm giác đó tốt.\nLinh: Bà có mệt không ạ?\nBà Mai: Có, đôi khi. Nhưng bà vui.\nLinh: Khi nào bà sẽ nghỉ ạ?\nBà Mai: Bà sẽ nghỉ khi đôi tay bà không làm việc được nữa.\nLinh: Rồi sau đó thì sao ạ?\nBà Mai: Rồi bà sẽ ngồi ở cái cửa sổ này. Bà sẽ nhìn người thợ may mới làm. Bà sẽ nói: 'Đường đó dài quá.' Cô ấy sẽ mỉm cười và sửa lại.\nLinh: Cô ấy sẽ là con gái bà ạ?\nBà Mai: Không, cô ấy sẽ là một cô gái mà bà đã dạy. Có khi sẽ là cháu.\nLinh: Cháu á? Cháu đâu biết khâu.\nBà Mai: Bà sẽ dạy cháu. Thứ Bảy này đến đi. Mang một mảnh vải nhỏ và một cây kim. Buổi học đầu tiên miễn phí.\nLinh: Còn buổi thứ hai ạ?\nBà Mai: Buổi thứ hai cũng miễn phí. Buổi thứ ba thì tốn một câu.\nLinh: Câu gì ạ?\nBà Mai: 'Bà Mai ơi, bà không già đâu.'\nLinh: Cháu nói được câu đó ngay bây giờ!\nBà Mai: Vậy là bà được trả công rồi. Thứ Bảy này nhé.",
+  "questions": [
+    { "id": "q1", "prompt": "How old is Mrs Mai?", "options": ["Seven", "Seventeen", "Seventy", "Ninety"], "answerIndex": 2, "explanation": "'I am seventy.'", "hint": "Look at her first reply." },
+    { "id": "q2", "prompt": "What does Mrs Mai do for work?", "options": ["She is a cook", "She makes shirts and works with cloth — she is a tailor", "She is a doctor", "She drives a bus"], "answerIndex": 1, "explanation": "'I like the cloth… I like to make a shirt that fits.'", "hint": "Look at what she likes about her work." },
+    { "id": "q3", "prompt": "Why does Mrs Mai still work?", "options": ["She needs money", "She likes the cloth and the colours, and people come back to her", "Her family makes her", "She has no choice"], "answerIndex": 1, "explanation": "'I like the cloth. I like the colours. I like to make a shirt that fits. People come back to me.'", "hint": "Look at her long reply about what she likes." },
+    { "id": "q4", "prompt": "Is Mrs Mai sometimes tired?", "options": ["No, never", "Yes, sometimes — but she is happy", "Yes, every day", "She does not say"], "answerIndex": 1, "explanation": "'Yes, sometimes. But I am happy.'", "hint": "Look at her reply about being tired." },
+    { "id": "q5", "prompt": "When will Mrs Mai stop working?", "options": ["Next year", "When her hands cannot work", "When she is eighty", "She will never stop"], "answerIndex": 1, "explanation": "'I will stop when my hands cannot work.'", "hint": "Look at her answer about stopping." },
+    { "id": "q6", "prompt": "What will Mrs Mai do after she stops?", "options": ["Travel the country", "Sit at the window and watch the new tailor work", "Sleep all day", "Start a new job"], "answerIndex": 1, "explanation": "'Then I will sit at this window. I will watch the new tailor work.'", "hint": "Look at her answer about what comes after stopping." },
+    { "id": "q7", "prompt": "Who might be the new tailor one day?", "options": ["Mrs Mai's daughter", "A girl Mrs Mai taught — maybe even Linh", "Mrs Mai's husband", "Nobody"], "answerIndex": 1, "explanation": "'She will be a girl I taught. Maybe she will be you.'", "hint": "Look at Mrs Mai's reply to 'Will she be your daughter?'" },
+    { "id": "q8", "prompt": "What should Linh bring on Saturday?", "options": ["Money", "A small piece of cloth and a needle", "Lunch", "Her grandmother"], "answerIndex": 1, "explanation": "'Bring a small piece of cloth and a needle.'", "hint": "Look at Mrs Mai's invitation." },
+    { "id": "q9", "prompt": "What 'costs one sentence' as payment?", "options": ["The first lesson", "The second lesson", "The third lesson — 'Mrs Mai, you are not old.'", "Every lesson"], "answerIndex": 2, "explanation": "'The third costs one sentence.'", "hint": "Look near the end of the conversation." },
+    { "id": "q10", "prompt": "What is the tone of the conversation?", "options": ["Sad", "Warm and a little teasing — Mrs Mai is happy with her work and gently invites Linh into it", "Angry", "Quiet and cold"], "answerIndex": 1, "explanation": "Mrs Mai turns the conversation into a joke and an invitation; Linh ends by saying she can say the sentence right now.", "hint": "Notice how they end — laughing and arranging Saturday." }
+  ],
+  "criticalThinkingQuestion": "Mrs Mai says she will stop when her hands cannot work — and then she will watch a new tailor. Think of someone you know who is older than you. What is something they could teach you so they could watch you do it later?"
+}

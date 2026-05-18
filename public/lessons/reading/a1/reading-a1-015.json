@@ -1,0 +1,80 @@
+{
+  "id": "reading-a1-015",
+  "level": "A1",
+  "title": "Past the river",
+  "summary": "Yen has had three small bad things in one day. Bao takes her home a longer way — past the river — where they look and do not talk.",
+  "format": "dialogue",
+  "body": [
+    { "speaker": "Bao", "text": "Yen, are you sad today?" },
+    { "speaker": "Yen", "text": "A little." },
+    { "speaker": "Bao", "text": "Why?" },
+    { "speaker": "Yen", "text": "I do not know. The sky is grey. The bell was loud. My pencil broke." },
+    { "speaker": "Bao", "text": "Three small things." },
+    { "speaker": "Yen", "text": "Yes. But together they are big." },
+    { "speaker": "Bao", "text": "Walk home with me." },
+    { "speaker": "Yen", "text": "I walk home with you every day." },
+    { "speaker": "Bao", "text": "Today, we will walk a different way. Past the river." },
+    { "speaker": "Yen", "text": "It is longer." },
+    { "speaker": "Bao", "text": "Yes." },
+    { "speaker": "Yen", "text": "And then?" },
+    { "speaker": "Bao", "text": "Then we look at the river. We do not talk." },
+    { "speaker": "Yen", "text": "We do not talk?" },
+    { "speaker": "Bao", "text": "No. We look. For five minutes." },
+    { "speaker": "Yen", "text": "Why?" },
+    { "speaker": "Bao", "text": "When I am sad, my father takes me to the river. He says the water carries the sadness." },
+    { "speaker": "Yen", "text": "Does it?" },
+    { "speaker": "Bao", "text": "Sometimes. Sometimes it does not. But you cannot be sad and look at the river at the same time." },
+    { "speaker": "Yen", "text": "Why not?" },
+    { "speaker": "Bao", "text": "Because the river is busy. It does not wait for you. If you are not looking, you miss it." },
+    { "speaker": "Yen", "text": "Okay. Let's go." },
+    { "speaker": "Bao", "text": "And Yen — I will buy you a new pencil tomorrow." },
+    { "speaker": "Yen", "text": "Why?" },
+    { "speaker": "Bao", "text": "Because that is one of your three small things. I can fix one." }
+  ],
+  "tags": ["Friendship", "Childhood", "Feelings"],
+  "annotations": [
+    { "phrase": "sad", "meaningVi": "buồn" },
+    { "phrase": "grey", "meaningVi": "xám" },
+    { "phrase": "carries", "meaningVi": "mang đi" },
+    { "phrase": "busy", "meaningVi": "bận, tấp nập, không ngừng" },
+    { "phrase": "pencil", "meaningVi": "bút chì" }
+  ],
+  "grammarNotes": [
+    {
+      "title": "'Let's + verb' for a suggestion",
+      "bodyVi": "Dùng 'Let's + động từ nguyên thể' để gợi ý làm điều gì đó cùng nhau. Trong bài: 'Okay. Let's go.' (Được. Mình đi nào.) 'Let's' là dạng rút gọn của 'Let us'.",
+      "bodyEn": "Use 'Let's + base verb' to suggest doing something together. From the dialogue: 'Okay. Let's go.' 'Let's' is short for 'Let us'."
+    }
+  ],
+  "cloze": {
+    "template": "Bao: Yen, are you {{b1}} today?\nYen: A little.\nBao: Why?\nYen: I do not know. The sky is {{b2}}. The bell was {{b3}}. My pencil {{b4}}.\nBao: Three small things.\nYen: Yes. But together they are big.\nBao: Walk home with me.\nYen: I walk home with you every day.\nBao: Today, we will walk a {{b5}} way. Past the {{b6}}.\nYen: It is {{b7}}.\nBao: Yes.\nYen: And then?\nBao: Then we look at the river. We do not talk.\nYen: We do not talk?\nBao: No. We look. For {{b8}} minutes.\nYen: Why?\nBao: When I am sad, my {{b9}} takes me to the river. He says the water {{b10}} the sadness.\nYen: Does it?\nBao: Sometimes. Sometimes it does not. But you cannot be sad and look at the river at the same time.\nYen: Why not?\nBao: Because the river is {{b11}}. It does not wait for you. If you are not looking, you miss it.\nYen: Okay. Let's go.\nBao: And Yen — I will buy you a new {{b12}} tomorrow.\nYen: Why?\nBao: Because that is one of your three small things. I can fix one.",
+    "blanks": [
+      { "id": "b1", "options": ["sad", "happy", "hungry", "rich"], "answerIndex": 0, "explanation": "Bao asks if Yen is sad — and she says 'a little'." },
+      { "id": "b2", "options": ["blue", "grey", "red", "yellow"], "answerIndex": 1, "explanation": "Yen lists 'the sky is grey' as one of her three small things." },
+      { "id": "b3", "options": ["short", "loud", "soft", "small"], "answerIndex": 1, "explanation": "The school bell was loud — the second small thing." },
+      { "id": "b4", "options": ["sang", "broke", "shone", "ran"], "answerIndex": 1, "explanation": "Her pencil broke — the third small thing." },
+      { "id": "b5", "options": ["different", "same", "wrong", "old"], "answerIndex": 0, "explanation": "Today they walk a different way — not the usual route." },
+      { "id": "b6", "options": ["river", "school", "shop", "field"], "answerIndex": 0, "explanation": "Past the river — Bao's plan." },
+      { "id": "b7", "options": ["longer", "shorter", "easier", "louder"], "answerIndex": 0, "explanation": "Yen notes the way past the river is longer." },
+      { "id": "b8", "options": ["two", "five", "ten", "twenty"], "answerIndex": 1, "explanation": "They will look for five minutes without talking." },
+      { "id": "b9", "options": ["sister", "father", "uncle", "teacher"], "answerIndex": 1, "explanation": "Bao's father takes him to the river when he is sad." },
+      { "id": "b10", "options": ["counts", "carries", "buys", "writes"], "answerIndex": 1, "explanation": "The water 'carries the sadness' — takes it away." },
+      { "id": "b11", "options": ["empty", "quiet", "busy", "broken"], "answerIndex": 2, "explanation": "The river is busy — always moving, full of motion." },
+      { "id": "b12", "options": ["bag", "pencil", "umbrella", "phone"], "answerIndex": 1, "explanation": "Bao will buy Yen a new pencil — replacing the broken one." }
+    ]
+  },
+  "translationVi": "Bảo: Yến, hôm nay cậu buồn à?\nYến: Một chút.\nBảo: Vì sao thế?\nYến: Tớ không biết. Trời xám. Chuông trường to. Bút chì của tớ gãy.\nBảo: Ba chuyện nhỏ.\nYến: Ừ. Nhưng gộp lại thì lớn.\nBảo: Đi về cùng tớ.\nYến: Ngày nào tớ chẳng đi về cùng cậu.\nBảo: Hôm nay mình đi đường khác. Đi qua sông.\nYến: Đường đó xa hơn mà.\nBảo: Đúng.\nYến: Rồi sao nữa?\nBảo: Rồi mình nhìn sông. Mình không nói.\nYến: Không nói à?\nBảo: Không. Mình nhìn. Trong năm phút.\nYến: Để làm gì?\nBảo: Khi tớ buồn, bố tớ dẫn tớ ra sông. Bố nói nước cuốn nỗi buồn đi.\nYến: Có thật vậy không?\nBảo: Đôi khi có. Đôi khi không. Nhưng cậu không thể vừa buồn vừa nhìn sông cùng lúc.\nYến: Sao không?\nBảo: Vì sông bận. Nó không chờ cậu. Nếu cậu không nhìn, cậu sẽ lỡ mất.\nYến: Được. Mình đi nào.\nBảo: Còn nữa — mai tớ mua cho cậu cây bút chì mới.\nYến: Sao thế?\nBảo: Vì đó là một trong ba chuyện nhỏ của cậu. Tớ sửa được một cái.",
+  "questions": [
+    { "id": "q1", "prompt": "How does Yen feel today?", "options": ["Very happy", "A little sad", "Very angry", "Confused"], "answerIndex": 1, "explanation": "Yen says she is 'a little' sad.", "hint": "Look at the start." },
+    { "id": "q2", "prompt": "What are Yen's 'three small things'?", "options": ["A test, a friend, a teacher", "The grey sky, the loud bell, her broken pencil", "Her bag, her shoes, her book", "Hunger, thirst, sleep"], "answerIndex": 1, "explanation": "Yen lists them in turn 4.", "hint": "Yen lists three short sentences." },
+    { "id": "q3", "prompt": "What does Bao suggest they do?", "options": ["Eat ice cream", "Walk home a different way — past the river", "Run home", "Stay at school"], "answerIndex": 1, "explanation": "'Today, we will walk a different way. Past the river.'", "hint": "Look at Bao's suggestion." },
+    { "id": "q4", "prompt": "What will they do when they reach the river?", "options": ["Swim", "Look at the river — without talking — for five minutes", "Throw stones", "Walk over a bridge"], "answerIndex": 1, "explanation": "'Then we look at the river. We do not talk.' / 'For five minutes.'", "hint": "Look at Bao's plan." },
+    { "id": "q5", "prompt": "Who taught Bao this habit?", "options": ["His mother", "His father", "His teacher", "His friend"], "answerIndex": 1, "explanation": "'When I am sad, my father takes me to the river.'", "hint": "Look at Bao's explanation." },
+    { "id": "q6", "prompt": "What does Bao's father say the water does?", "options": ["It makes you wet", "It carries the sadness", "It sings", "It cleans the road"], "answerIndex": 1, "explanation": "'He says the water carries the sadness.'", "hint": "Look at Bao's same explanation." },
+    { "id": "q7", "prompt": "Does Bao say the river always takes sadness away?", "options": ["Yes, every time", "No — sometimes it does, sometimes it does not", "Yes, but only at night", "He does not say"], "answerIndex": 1, "explanation": "'Sometimes. Sometimes it does not.'", "hint": "Look at Bao's honest answer." },
+    { "id": "q8", "prompt": "Why does Bao say you cannot be sad and look at the river at the same time?", "options": ["The river is too far", "Because the river is busy and does not wait — if you are not looking, you miss it", "Because it is dangerous", "Because it is illegal"], "answerIndex": 1, "explanation": "'The river is busy. It does not wait for you.'", "hint": "Look at Bao's reply to 'Why not?'" },
+    { "id": "q9", "prompt": "What does Bao promise Yen at the end?", "options": ["A new bag", "A new pencil tomorrow", "Lunch", "A trip to the cinema"], "answerIndex": 1, "explanation": "'I will buy you a new pencil tomorrow.'", "hint": "Look at the second-to-last turn." },
+    { "id": "q10", "prompt": "Why does Bao buy the pencil?", "options": ["Because it is Yen's birthday", "Because the broken pencil was one of Yen's three small things — and Bao can fix one of them", "Because his father said so", "Because Yen asked"], "answerIndex": 1, "explanation": "'That is one of your three small things. I can fix one.'", "hint": "Look at the very last line." }
+  ],
+  "criticalThinkingQuestion": "Bao says the river 'is busy. It does not wait for you. If you are not looking, you miss it.' Think of one small busy thing in your life — clouds, a flock of birds, traffic, the leaves. What changes if you look at it for five quiet minutes?"
+}

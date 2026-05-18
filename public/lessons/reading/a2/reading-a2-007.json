@@ -1,0 +1,75 @@
+{
+  "id": "reading-a2-007",
+  "level": "A2",
+  "title": "A seat on the train to Hue",
+  "summary": "A young engineer finds a seat on a long train. The retired teacher next to him guesses his job from his shoes.",
+  "format": "dialogue",
+  "body": [
+    { "speaker": "Engineer", "text": "Excuse me. Is this seat free?" },
+    { "speaker": "Teacher", "text": "Yes. Please sit down." },
+    { "speaker": "Engineer", "text": "Thank you. I have been standing for an hour." },
+    { "speaker": "Teacher", "text": "An hour? Where did you get on?" },
+    { "speaker": "Engineer", "text": "Vinh. I am going to Saigon for a meeting. You?" },
+    { "speaker": "Teacher", "text": "I am going home. Hue. I have lived there for forty years." },
+    { "speaker": "Engineer", "text": "You have been to Saigon, then?" },
+    { "speaker": "Teacher", "text": "Many times. I used to teach there. Now I am retired." },
+    { "speaker": "Engineer", "text": "What did you teach?" },
+    { "speaker": "Teacher", "text": "Reading. I taught children how to read. For thirty years." },
+    { "speaker": "Engineer", "text": "That is a long time with one subject." },
+    { "speaker": "Teacher", "text": "Reading is never the same thing twice. A child who learns 'cat' is different from a child who learns 'enough'. The road from 'cat' to 'enough' takes seven years." },
+    { "speaker": "Engineer", "text": "Do you miss it?" },
+    { "speaker": "Teacher", "text": "Some days. Most days, no. I read for myself now." },
+    { "speaker": "Engineer", "text": "What are you reading?" },
+    { "speaker": "Teacher", "text": "A book about old bridges. Are you an engineer?" },
+    { "speaker": "Engineer", "text": "How did you know?" },
+    { "speaker": "Teacher", "text": "Your shoes. They are clean, but the soles are worn at strange places. Engineers walk over things, not on roads. Am I right?" },
+    { "speaker": "Engineer", "text": "You are right." },
+    { "speaker": "Teacher", "text": "I am still a teacher. I cannot help it." }
+  ],
+  "tags": ["Travel", "Work", "Observation"],
+  "annotations": [
+    { "phrase": "retired", "meaningVi": "đã nghỉ hưu" },
+    { "phrase": "subject", "meaningVi": "môn học" },
+    { "phrase": "miss", "meaningVi": "nhớ (cái gì đó đã qua)" },
+    { "phrase": "soles", "meaningVi": "đế giày" },
+    { "phrase": "worn", "meaningVi": "bị mòn" }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Present perfect continuous: 'have been + V-ing'",
+      "bodyVi": "Dùng thì hiện tại hoàn thành tiếp diễn (have/has been + V-ing) cho một hành động bắt đầu trong quá khứ và vẫn đang tiếp diễn đến hiện tại. Trong bài: 'I have been standing for an hour.' (Tôi đã đứng được một tiếng đồng hồ.) So sánh với hiện tại hoàn thành đơn 'I have lived there for forty years.' — cũng bắt đầu trong quá khứ và còn tiếp tục.",
+      "bodyEn": "Use the present perfect continuous (have/has been + V-ing) for an action that started in the past and is still happening. From the dialogue: 'I have been standing for an hour.' Compare with the simple present perfect: 'I have lived there for forty years.'"
+    }
+  ],
+  "cloze": {
+    "template": "Engineer: Excuse me. Is this seat free?\nTeacher: Yes. Please sit down.\nEngineer: Thank you. I have been {{b1}} for an hour.\nTeacher: An hour? Where did you get on?\nEngineer: {{b2}}. I am going to {{b3}} for a meeting. You?\nTeacher: I am going home. {{b4}}. I have lived there for {{b5}} years.\nEngineer: You have been to Saigon, then?\nTeacher: Many times. I used to teach there. Now I am {{b6}}.\nEngineer: What did you teach?\nTeacher: {{b7}}. I taught children how to read. For {{b8}} years.\nEngineer: That is a long time with one subject.\nTeacher: Reading is never the same thing twice. A child who learns 'cat' is different from a child who learns 'enough'. The road from 'cat' to 'enough' takes {{b9}} years.\nEngineer: Do you miss it?\nTeacher: Some days. Most days, no. I read for myself now.\nEngineer: What are you reading?\nTeacher: A book about old {{b10}}. Are you an {{b11}}?\nEngineer: How did you know?\nTeacher: Your {{b12}}. They are clean, but the soles are worn at strange places. Engineers walk over things, not on roads. Am I right?\nEngineer: You are right.\nTeacher: I am still a teacher. I cannot help it.",
+    "blanks": [
+      { "id": "b1", "options": ["sitting", "sleeping", "standing", "running"], "answerIndex": 2, "explanation": "He has been standing for an hour — that is why he wants the seat." },
+      { "id": "b2", "options": ["Hanoi", "Vinh", "Da Nang", "Hue"], "answerIndex": 1, "explanation": "The engineer got on at Vinh." },
+      { "id": "b3", "options": ["Saigon", "Hanoi", "Vinh", "Hue"], "answerIndex": 0, "explanation": "He is going to Saigon for a meeting." },
+      { "id": "b4", "options": ["Hue", "Vinh", "Hanoi", "Saigon"], "answerIndex": 0, "explanation": "The teacher is going home to Hue." },
+      { "id": "b5", "options": ["four", "fourteen", "forty", "four hundred"], "answerIndex": 2, "explanation": "She has lived in Hue for forty years." },
+      { "id": "b6", "options": ["retired", "tired", "lost", "promoted"], "answerIndex": 0, "explanation": "She used to teach; now she is retired." },
+      { "id": "b7", "options": ["Reading", "Music", "Maths", "Driving"], "answerIndex": 0, "explanation": "She taught reading — for thirty years." },
+      { "id": "b8", "options": ["three", "thirteen", "thirty", "three hundred"], "answerIndex": 2, "explanation": "For thirty years." },
+      { "id": "b9", "options": ["two", "seven", "twenty", "seventy"], "answerIndex": 1, "explanation": "The road from 'cat' to 'enough' takes seven years — how a child grows as a reader." },
+      { "id": "b10", "options": ["bridges", "houses", "trains", "rivers"], "answerIndex": 0, "explanation": "She is reading a book about old bridges." },
+      { "id": "b11", "options": ["actor", "engineer", "doctor", "farmer"], "answerIndex": 1, "explanation": "She guesses he is an engineer — from his shoes." },
+      { "id": "b12", "options": ["bag", "hat", "shoes", "watch"], "answerIndex": 2, "explanation": "His shoes give him away — soles worn at strange places." }
+    ]
+  },
+  "translationVi": "Kỹ sư: Xin lỗi. Ghế này còn trống không ạ?\nGiáo viên: Còn. Mời cậu ngồi.\nKỹ sư: Cảm ơn. Cháu đã đứng được một tiếng rồi.\nGiáo viên: Một tiếng cơ à? Cậu lên ở đâu?\nKỹ sư: Vinh. Cháu đang đi Sài Gòn để họp. Cô thì sao ạ?\nGiáo viên: Cô đang đi về nhà. Huế. Cô đã sống ở đó bốn mươi năm.\nKỹ sư: Vậy cô đã đến Sài Gòn nhiều lần rồi ạ?\nGiáo viên: Nhiều lần. Trước cô từng dạy ở đó. Bây giờ cô nghỉ hưu rồi.\nKỹ sư: Cô dạy môn gì ạ?\nGiáo viên: Tập đọc. Cô dạy trẻ con đọc. Suốt ba mươi năm.\nKỹ sư: Một môn học mà ba mươi năm thì dài thật.\nGiáo viên: Đọc không bao giờ là cùng một thứ hai lần. Một đứa trẻ học từ 'cat' khác một đứa trẻ học từ 'enough'. Con đường từ 'cat' đến 'enough' mất bảy năm.\nKỹ sư: Cô có nhớ nghề không ạ?\nGiáo viên: Có những ngày có. Phần lớn các ngày thì không. Bây giờ cô đọc cho chính mình.\nKỹ sư: Cô đang đọc gì ạ?\nGiáo viên: Một cuốn sách về những cây cầu cũ. Cậu là kỹ sư phải không?\nKỹ sư: Sao cô biết ạ?\nGiáo viên: Đôi giày của cậu. Sạch, nhưng đế mòn ở những chỗ kỳ lạ. Kỹ sư đi trên các vật, không phải trên đường. Cô đúng không?\nKỹ sư: Cô đúng ạ.\nGiáo viên: Cô vẫn là giáo viên mà. Cô không nhịn được.",
+  "questions": [
+    { "id": "q1", "prompt": "How long has the engineer been standing?", "options": ["Five minutes", "Half an hour", "An hour", "Three hours"], "answerIndex": 2, "explanation": "'I have been standing for an hour.'", "hint": "Look at the engineer's third turn." },
+    { "id": "q2", "prompt": "Where is the engineer going?", "options": ["Vinh", "Saigon, for a meeting", "Hue", "Hanoi"], "answerIndex": 1, "explanation": "'I am going to Saigon for a meeting.'", "hint": "Look at the engineer's fifth turn." },
+    { "id": "q3", "prompt": "Where does the teacher live?", "options": ["Saigon", "Vinh", "Hue", "Hanoi"], "answerIndex": 2, "explanation": "'I am going home. Hue. I have lived there for forty years.'", "hint": "Look at the teacher's third turn." },
+    { "id": "q4", "prompt": "What did the teacher teach?", "options": ["Maths", "Music", "Reading, for thirty years", "Science"], "answerIndex": 2, "explanation": "'Reading. I taught children how to read. For thirty years.'", "hint": "Look at the teacher's fifth turn." },
+    { "id": "q5", "prompt": "What does the teacher mean by 'Reading is never the same thing twice'?", "options": ["Each child reading is a different kind of reader", "Books change", "She forgets books", "Reading is hard"], "answerIndex": 0, "explanation": "'A child who learns \"cat\" is different from a child who learns \"enough\".'", "hint": "Look at the teacher's long answer about cat and enough." },
+    { "id": "q6", "prompt": "How many years does the teacher say it takes a child to go from 'cat' to 'enough'?", "options": ["Two", "Seven", "Twenty", "Forty"], "answerIndex": 1, "explanation": "'The road from \"cat\" to \"enough\" takes seven years.'", "hint": "Look at the teacher's answer about the road." },
+    { "id": "q7", "prompt": "Does the teacher miss her job?", "options": ["Yes, very much", "Some days yes, most days no", "Not at all", "She does not say"], "answerIndex": 1, "explanation": "'Some days. Most days, no.'", "hint": "Look at her short reply." },
+    { "id": "q8", "prompt": "What is the teacher reading on the train?", "options": ["A novel", "A book about old bridges", "A newspaper", "A textbook"], "answerIndex": 1, "explanation": "'A book about old bridges.'", "hint": "Look at her reply to 'What are you reading?'" },
+    { "id": "q9", "prompt": "How did the teacher guess that the man was an engineer?", "options": ["He told her", "From his clothes", "From his shoes — the soles are worn at strange places", "From his name tag"], "answerIndex": 2, "explanation": "'Your shoes. They are clean, but the soles are worn at strange places.'", "hint": "Look at the teacher's reply to 'How did you know?'" },
+    { "id": "q10", "prompt": "What is the tone of the conversation?", "options": ["Cold and short", "Warm and curious — strangers becoming briefly acquainted on a long train", "Angry", "Boring"], "answerIndex": 1, "explanation": "Both speakers are polite; the teacher even guesses his job, and admits, 'I am still a teacher. I cannot help it.'", "hint": "Notice the ending." }
+  ],
+  "criticalThinkingQuestion": "The teacher says 'reading is never the same thing twice' — a child who knows the word 'cat' is a different reader from one who knows 'enough'. Think of one skill you have grown in over years. What is the difference between the early version of you with that skill, and the version of you now?"
+}
