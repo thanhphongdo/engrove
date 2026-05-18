@@ -1,0 +1,53 @@
+{
+  "id": "reading-a2-001",
+  "level": "A2",
+  "title": "A letter to the next tenant",
+  "summary": "A man leaves a letter for the unknown person who will rent his flat after he moves out.",
+  "format": "paragraph",
+  "body": "Dear next tenant,\n\nI lived in this flat for six years. I do not know your name. I do not know your face. But I want to tell you some things about this small place.\n\nThe kitchen window is the best window. In the morning, the sun comes through it. If you sit at the table with coffee, you will feel happy for ten minutes. Try it.\n\nThe second door from the door is slow. Do not push it hard. Just wait. It will close.\n\nThe neighbour above is a music teacher. On Sunday afternoons, you can hear the piano. It is not loud. It is very nice. Do not knock on her door. She does not like that.\n\nThe shop on the corner sells old bread on Mondays for half price. The man there is quiet, but he is kind.\n\nI am moving to another city. I am happy and a little sad. The flat is small, but it has good light and good silence. Please be good to it.\n\nWelcome home.",
+  "tags": ["City life", "Letters", "Sociology"],
+  "annotations": [
+    { "phrase": "tenant", "meaningVi": "người thuê nhà" },
+    { "phrase": "neighbour", "meaningVi": "hàng xóm" },
+    { "phrase": "knock on", "meaningVi": "gõ cửa" },
+    { "phrase": "half price", "meaningVi": "nửa giá" },
+    { "phrase": "silence", "meaningVi": "sự yên tĩnh" }
+  ],
+  "grammarNotes": [
+    {
+      "title": "First conditional",
+      "bodyVi": "Câu điều kiện loại 1: 'If you sit at the table…, you will feel happy.' Diễn tả điều có thể xảy ra trong tương lai.",
+      "bodyEn": "First conditional: 'If you sit at the table…, you will feel happy.' Used for likely future situations: if + present simple, will + verb."
+    }
+  ],
+  "translationVi": "Gửi người thuê nhà sau tôi,\n\nTôi đã sống trong căn hộ này sáu năm. Tôi không biết tên bạn. Tôi không biết mặt bạn. Nhưng tôi muốn nói với bạn vài điều về nơi nhỏ bé này.\n\nCửa sổ nhà bếp là cửa sổ đẹp nhất. Vào buổi sáng, ánh nắng lọt qua đó. Nếu bạn ngồi ở bàn với một tách cà phê, bạn sẽ thấy vui trong mười phút. Hãy thử xem.\n\nCánh cửa thứ hai từ cửa chính khá chậm. Đừng đẩy mạnh. Cứ đợi một chút. Nó sẽ tự đóng.\n\nNgười hàng xóm tầng trên là cô giáo dạy nhạc. Chiều Chủ nhật bạn có thể nghe tiếng piano. Không to đâu. Rất dễ chịu. Đừng gõ cửa cô ấy. Cô ấy không thích.\n\nCửa hàng ở góc phố bán bánh mì cũ vào Thứ Hai với nửa giá. Ông chủ ít nói nhưng tốt bụng.\n\nTôi chuyển đến thành phố khác. Tôi vui và hơi buồn. Căn hộ nhỏ nhưng có ánh sáng tốt và sự yên tĩnh tốt. Mong bạn đối xử tốt với nó.\n\nChào mừng về nhà.",
+  "questions": [
+    { "id": "q1", "prompt": "How long did the writer live in the flat?", "options": ["Two years", "Four years", "Six years", "Ten years"], "answerIndex": 2, "explanation": "'I lived in this flat for six years.'", "hint": "Look at the first paragraph." },
+    { "id": "q2", "prompt": "Does the writer know the new tenant?", "options": ["Yes, they are friends", "Yes, a little", "No, not at all", "Yes, it is family"], "answerIndex": 2, "explanation": "'I do not know your name. I do not know your face.'", "hint": "Two short sentences answer this." },
+    { "id": "q3", "prompt": "Which window is the best?", "options": ["The kitchen window", "The bedroom window", "The bathroom window", "There is only one window"], "answerIndex": 0, "explanation": "'The kitchen window is the best window.'", "hint": "The writer is direct about this." },
+    { "id": "q4", "prompt": "What should the new tenant do with the slow door?", "options": ["Push it hard", "Fix it", "Wait — it will close", "Use another door"], "answerIndex": 2, "explanation": "'Do not push it hard. Just wait. It will close.'", "hint": "Look for advice about the door." },
+    { "id": "q5", "prompt": "Who is the neighbour above?", "options": ["A student", "A doctor", "A music teacher", "A cook"], "answerIndex": 2, "explanation": "'The neighbour above is a music teacher.'", "hint": "Look for a job word." },
+    { "id": "q6", "prompt": "When can you hear her piano?", "options": ["Every morning", "On Sunday afternoons", "Only at night", "Never"], "answerIndex": 1, "explanation": "'On Sunday afternoons, you can hear the piano.'", "hint": "Look for a day." },
+    { "id": "q7", "prompt": "What does the corner shop sell at half price?", "options": ["Old bread on Mondays", "Fresh fish on Sundays", "Fruit on Fridays", "Sweets every day"], "answerIndex": 0, "explanation": "'The shop on the corner sells old bread on Mondays for half price.'", "hint": "Look for a day and an item." },
+    { "id": "q8", "prompt": "How does the writer feel about moving?", "options": ["Only happy", "Only sad", "Happy and a little sad", "Angry"], "answerIndex": 2, "explanation": "'I am happy and a little sad.'", "hint": "Two feelings are mentioned together." },
+    { "id": "q9", "prompt": "What two good things does the flat have?", "options": ["Big rooms and new doors", "Good light and good silence", "A balcony and a garden", "Cheap rent and a lift"], "answerIndex": 1, "explanation": "'The flat is small, but it has good light and good silence.'", "hint": "Look near the end." },
+    { "id": "q10", "prompt": "What is the purpose of this letter?", "options": ["To complain", "To welcome a stranger to a small but loved place", "To sell the flat", "To ask for money"], "answerIndex": 1, "explanation": "The writer is welcoming the new tenant kindly.", "hint": "Look at the last line." }
+  ],
+  "cloze": {
+    "template": "Dear next tenant,\n\nI {{b1}} in this flat for six years. I do not know your name. I do not know your face. But I want to tell you some things about this small {{b2}}.\n\nThe kitchen window is the {{b3}} window. In the morning, the sun comes {{b4}} it. If you sit at the table with coffee, you will feel {{b5}} for ten minutes. Try it.\n\nThe second door from the door is slow. Do not push it {{b6}}. Just wait. It will close.\n\nThe neighbour above is a music {{b7}}. On Sunday afternoons, you can hear the piano. It is not loud. It is very nice. Do not {{b8}} on her door. She does not like that.\n\nThe shop on the corner sells old bread on Mondays for half {{b9}}. The man there is quiet, but he is kind.\n\nI am moving to {{b10}} city. I am happy and a little sad. The flat is small, but it has good light and good {{b11}}. Please be good to it.\n\nWelcome home.",
+    "blanks": [
+      { "id": "b1", "options": ["live", "lived", "living", "lives"], "answerIndex": 1, "explanation": "Past simple — 'I lived'." },
+      { "id": "b2", "options": ["city", "place", "country", "shop"], "answerIndex": 1, "explanation": "He calls the flat 'this small place'." },
+      { "id": "b3", "options": ["worst", "smallest", "best", "newest"], "answerIndex": 2, "explanation": "He calls it the best window." },
+      { "id": "b4", "options": ["through", "around", "behind", "under"], "answerIndex": 0, "explanation": "'The sun comes through it.'" },
+      { "id": "b5", "options": ["tired", "happy", "cold", "hungry"], "answerIndex": 1, "explanation": "Sun + coffee in the morning = he says you will feel happy." },
+      { "id": "b6", "options": ["hard", "fast", "soft", "down"], "answerIndex": 0, "explanation": "'Do not push it hard.'" },
+      { "id": "b7", "options": ["student", "teacher", "shop", "doctor"], "answerIndex": 1, "explanation": "She is a music teacher." },
+      { "id": "b8", "options": ["knock", "sit", "buy", "open"], "answerIndex": 0, "explanation": "'Do not knock on her door.'" },
+      { "id": "b9", "options": ["price", "size", "shop", "year"], "answerIndex": 0, "explanation": "'half price' — half of the normal price." },
+      { "id": "b10", "options": ["the same", "another", "this", "your"], "answerIndex": 1, "explanation": "'I am moving to another city.'" },
+      { "id": "b11", "options": ["food", "noise", "money", "silence"], "answerIndex": 3, "explanation": "'good light and good silence.'" }
+    ]
+  },
+  "criticalThinkingQuestion": "The writer leaves quiet, ordinary tips for a stranger. What does this letter say about loving a place that does not belong to you?"
+}

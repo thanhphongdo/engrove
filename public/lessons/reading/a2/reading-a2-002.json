@@ -1,0 +1,65 @@
+{
+  "id": "reading-a2-002",
+  "level": "A2",
+  "title": "The bird and the neighbours",
+  "summary": "Two neighbours have a small argument about a noisy bird in the morning.",
+  "format": "dialogue",
+  "body": [
+    { "speaker": "Mr Park", "text": "Good morning, Mrs Linh. Can I ask you something?" },
+    { "speaker": "Mrs Linh", "text": "Of course. Is there a problem?" },
+    { "speaker": "Mr Park", "text": "Your bird. It sings every morning at five o'clock. My window is right there." },
+    { "speaker": "Mrs Linh", "text": "Oh. I am sorry. He is a wild bird. He is not mine." },
+    { "speaker": "Mr Park", "text": "But he sits in your tree." },
+    { "speaker": "Mrs Linh", "text": "Yes, but I cannot tell him to leave. He chose the tree before I bought the house." },
+    { "speaker": "Mr Park", "text": "Hmm. So… what can we do?" },
+    { "speaker": "Mrs Linh", "text": "I can cut the tree. But it is a very old tree. The bird and I have lived with it for ten years." },
+    { "speaker": "Mr Park", "text": "Ten years?" },
+    { "speaker": "Mrs Linh", "text": "Yes. The tree was here before the bird. The bird was here before you. I was here before all of you." },
+    { "speaker": "Mr Park", "text": "I see your point. Maybe I will buy thicker curtains." },
+    { "speaker": "Mrs Linh", "text": "That is a kind idea. Thank you, Mr Park." }
+  ],
+  "tags": ["Neighbours", "City life", "Sociology"],
+  "annotations": [
+    { "phrase": "wild bird", "meaningVi": "chim hoang dã" },
+    { "phrase": "chose", "meaningVi": "đã chọn", "pronunciation": "/tʃoʊz/" },
+    { "phrase": "cut the tree", "meaningVi": "chặt cây" },
+    { "phrase": "thicker", "meaningVi": "dày hơn" },
+    { "phrase": "curtains", "meaningVi": "rèm cửa" }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Comparatives",
+      "bodyVi": "Tính từ ngắn thêm '-er' để so sánh hơn: thick → thicker, old → older.",
+      "bodyEn": "Short adjectives add '-er' for comparison: thick → thicker, old → older."
+    }
+  ],
+  "cloze": {
+    "template": "Mr Park: Good {{b1}}, Mrs Linh. Can I ask you something?\nMrs Linh: Of course. Is there a {{b2}}?\nMr Park: Your bird. It {{b3}} every morning at five o'clock. My window is right there.\nMrs Linh: Oh. I am sorry. He is a {{b4}} bird. He is not mine.\nMr Park: But he sits in your {{b5}}.\nMrs Linh: Yes, but I cannot tell him to leave. He {{b6}} the tree before I bought the house.\nMr Park: Hmm. So… what can we do?\nMrs Linh: I can cut the tree. But it is a very {{b7}} tree. The bird and I have lived with it for ten years.\nMr Park: Ten years?\nMrs Linh: Yes. The tree was here {{b8}} the bird. The bird was here before you. I was here before all of you.\nMr Park: I see your point. Maybe I will buy {{b9}} curtains.\nMrs Linh: That is a {{b10}} idea. Thank you, Mr Park.",
+    "blanks": [
+      { "id": "b1", "options": ["night", "morning", "afternoon", "evening"], "answerIndex": 1, "explanation": "'Good morning, Mrs Linh.'" },
+      { "id": "b2", "options": ["problem", "tree", "song", "shop"], "answerIndex": 0, "explanation": "She asks if there is a problem." },
+      { "id": "b3", "options": ["sleeps", "sings", "speaks", "stops"], "answerIndex": 1, "explanation": "The bird sings every morning." },
+      { "id": "b4", "options": ["pet", "wild", "small", "blue"], "answerIndex": 1, "explanation": "'He is a wild bird.'" },
+      { "id": "b5", "options": ["house", "shop", "tree", "garden"], "answerIndex": 2, "explanation": "He sits in her tree." },
+      { "id": "b6", "options": ["wanted", "chose", "ate", "saw"], "answerIndex": 1, "explanation": "Past simple of 'choose'." },
+      { "id": "b7", "options": ["young", "old", "new", "tall"], "answerIndex": 1, "explanation": "'It is a very old tree.'" },
+      { "id": "b8", "options": ["before", "after", "with", "for"], "answerIndex": 0, "explanation": "'The tree was here before the bird.'" },
+      { "id": "b9", "options": ["smaller", "louder", "thicker", "lighter"], "answerIndex": 2, "explanation": "Mr Park will buy thicker curtains." },
+      { "id": "b10", "options": ["bad", "old", "kind", "fast"], "answerIndex": 2, "explanation": "'That is a kind idea.'" }
+    ]
+  },
+  "translationVi": "Ông Park: Chào buổi sáng, bà Linh. Cho tôi hỏi một chút được không?\nBà Linh: Được chứ. Có chuyện gì vậy?\nÔng Park: Con chim của bà. Nó hót mỗi sáng lúc năm giờ. Cửa sổ phòng tôi ngay đó.\nBà Linh: Ồ. Tôi xin lỗi. Nó là chim hoang. Không phải của tôi.\nÔng Park: Nhưng nó đậu trên cây của bà.\nBà Linh: Đúng, nhưng tôi không thể bảo nó rời đi. Nó đã chọn cái cây trước khi tôi mua nhà.\nÔng Park: Hừm. Vậy… ta làm sao đây?\nBà Linh: Tôi có thể chặt cây. Nhưng đó là cây rất già. Con chim và tôi đã sống với cái cây này mười năm rồi.\nÔng Park: Mười năm sao?\nBà Linh: Đúng vậy. Cây có trước con chim. Con chim có trước ông. Tôi thì có trước tất cả.\nÔng Park: Tôi hiểu rồi. Có lẽ tôi sẽ mua rèm cửa dày hơn.\nBà Linh: Đó là một ý hay. Cảm ơn ông Park.",
+  "questions": [
+    { "id": "q1", "prompt": "Who starts the conversation?", "options": ["Mrs Linh", "Mr Park", "The bird", "A child"], "answerIndex": 1, "explanation": "Mr Park speaks first: 'Good morning, Mrs Linh.'", "hint": "Look at the first speaker." },
+    { "id": "q2", "prompt": "What is Mr Park's problem?", "options": ["He cannot sleep", "A bird sings very early", "His tree is broken", "He has no water"], "answerIndex": 1, "explanation": "'Your bird. It sings every morning at five o'clock.'", "hint": "Look at the first complaint." },
+    { "id": "q3", "prompt": "Is the bird Mrs Linh's pet?", "options": ["Yes", "No, he is a wild bird", "Yes, but he is sick", "Yes, but it flies away"], "answerIndex": 1, "explanation": "'He is a wild bird. He is not mine.'", "hint": "Mrs Linh explains who the bird belongs to." },
+    { "id": "q4", "prompt": "Where does the bird sit?", "options": ["On a wire", "On the roof", "In Mrs Linh's tree", "On Mr Park's window"], "answerIndex": 2, "explanation": "'But he sits in your tree.'", "hint": "Mr Park argues about the tree." },
+    { "id": "q5", "prompt": "What does Mrs Linh say about the order of things?", "options": ["The bird was there first", "She was there first, then the bird, then Mr Park", "Mr Park was there first", "The tree came last"], "answerIndex": 1, "explanation": "Her line: tree first, then bird, then Mr Park, but she came before all of them.", "hint": "She gives a clear order in one line." },
+    { "id": "q6", "prompt": "Why doesn't Mrs Linh cut the tree?", "options": ["She cannot find an axe", "It is very old, and they have lived with it for ten years", "The tree is not hers", "The tree is too small"], "answerIndex": 1, "explanation": "'It is a very old tree. The bird and I have lived with it for ten years.'", "hint": "Look for a feeling about the tree." },
+    { "id": "q7", "prompt": "What does Mr Park finally decide?", "options": ["To move house", "To buy thicker curtains", "To cut the tree himself", "To take the bird"], "answerIndex": 1, "explanation": "'Maybe I will buy thicker curtains.'", "hint": "He suggests a small change in his own house." },
+    { "id": "q8", "prompt": "How does Mrs Linh feel about Mr Park's idea?", "options": ["She is angry", "She thinks it is kind", "She does not answer", "She wants to argue more"], "answerIndex": 1, "explanation": "'That is a kind idea.'", "hint": "Her final line shows her feeling." },
+    { "id": "q9", "prompt": "What is the tone at the end?", "options": ["Angry", "Polite and friendly", "Cold", "Sad"], "answerIndex": 1, "explanation": "They thank each other politely.", "hint": "Listen to the last two lines." },
+    { "id": "q10", "prompt": "What is the main idea?", "options": ["Birds are bad", "It is sometimes easier to change yourself than to change a neighbour or nature", "Old trees should be cut", "Neighbours should not talk"], "answerIndex": 1, "explanation": "Mr Park changes his own curtains instead of asking Mrs Linh to remove the bird.", "hint": "What changes in the end — the bird or Mr Park?" }
+  ],
+  "criticalThinkingQuestion": "Mrs Linh says the tree, the bird, and she were there first. When we move to a new place, what 'right' do we have to ask others — even nature — to change for us?"
+}

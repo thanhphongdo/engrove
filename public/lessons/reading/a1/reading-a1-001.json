@@ -1,0 +1,52 @@
+{
+  "id": "reading-a1-001",
+  "level": "A1",
+  "title": "The moon followed me home",
+  "summary": "A child wonders why the moon seems to move with the car on the way home.",
+  "format": "paragraph",
+  "body": "Last night, my dad drove me home. The road was long. I looked out of the window. The moon was big and white. The car went fast, but the moon was always there. I said, 'Dad, the moon is following us!' My dad smiled. He said, 'The moon is very far. It cannot follow a car.' But I was not sure. I watched the moon for a long time. The trees moved past us. The houses moved past us. The moon did not move past us. When we stopped, the moon stopped too. I went into the house. I looked up at the sky. The moon was still there.",
+  "tags": ["Philosophy", "Childhood", "Perception"],
+  "annotations": [
+    { "phrase": "followed", "meaningVi": "đã đi theo" },
+    { "phrase": "far", "meaningVi": "xa", "pronunciation": "/fɑːr/" },
+    { "phrase": "moved past", "meaningVi": "đi qua" },
+    { "phrase": "sure", "meaningVi": "chắc chắn" },
+    { "phrase": "still", "meaningVi": "vẫn (còn)" }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Past simple",
+      "bodyVi": "Dùng 'past simple' cho các hành động đã hoàn thành trong quá khứ: drove, went, said, smiled, watched, stopped.",
+      "bodyEn": "Use the past simple for completed actions in the past: drove, went, said, smiled, watched, stopped."
+    }
+  ],
+  "translationVi": "Đêm qua, bố lái xe chở tôi về nhà. Con đường rất dài. Tôi nhìn ra ngoài cửa sổ. Mặt trăng to và trắng. Xe chạy nhanh, nhưng mặt trăng luôn ở đó. Tôi nói: 'Bố ơi, mặt trăng đang đi theo chúng ta!' Bố mỉm cười. Bố nói: 'Mặt trăng rất xa. Nó không thể đi theo một chiếc xe.' Nhưng tôi không chắc. Tôi nhìn mặt trăng rất lâu. Cây cối đi qua chúng tôi. Những ngôi nhà đi qua chúng tôi. Mặt trăng không đi qua chúng tôi. Khi chúng tôi dừng lại, mặt trăng cũng dừng lại. Tôi vào nhà. Tôi nhìn lên bầu trời. Mặt trăng vẫn ở đó.",
+  "questions": [
+    { "id": "q1", "prompt": "Who drove the child home?", "options": ["The mother", "The father", "A friend", "An uncle"], "answerIndex": 1, "explanation": "'Last night, my dad drove me home.'", "hint": "Look at the first sentence." },
+    { "id": "q2", "prompt": "When did the story happen?", "options": ["This morning", "Yesterday afternoon", "Last night", "Last week"], "answerIndex": 2, "explanation": "'Last night' is the time marker.", "hint": "Look for a time word." },
+    { "id": "q3", "prompt": "What did the child see in the sky?", "options": ["The sun", "Stars", "A plane", "The moon"], "answerIndex": 3, "explanation": "'The moon was big and white.'", "hint": "Look at sentence 4." },
+    { "id": "q4", "prompt": "What did the child think the moon was doing?", "options": ["Falling", "Following them", "Disappearing", "Getting smaller"], "answerIndex": 1, "explanation": "'Dad, the moon is following us!'", "hint": "What did the child say to dad?" },
+    { "id": "q5", "prompt": "What did the dad say about the moon?", "options": ["It is close", "It is dangerous", "It is very far", "It is broken"], "answerIndex": 2, "explanation": "'The moon is very far.'", "hint": "Listen to the father's words." },
+    { "id": "q6", "prompt": "Did the child believe the father?", "options": ["Yes, completely", "No, the child was not sure", "The child stopped looking", "The child laughed"], "answerIndex": 1, "explanation": "'But I was not sure.'", "hint": "Look at the line after the father speaks." },
+    { "id": "q7", "prompt": "What things moved past the car?", "options": ["Trees and houses", "Trains", "Animals", "Mountains"], "answerIndex": 0, "explanation": "'The trees moved past us. The houses moved past us.'", "hint": "Find two nouns in the same sentence pattern." },
+    { "id": "q8", "prompt": "What happened to the moon when the car stopped?", "options": ["It went away", "It moved faster", "It also stopped", "It changed colour"], "answerIndex": 2, "explanation": "'When we stopped, the moon stopped too.'", "hint": "Look near the end of the passage." },
+    { "id": "q9", "prompt": "Where was the moon at the very end?", "options": ["Gone", "Behind a cloud", "Still in the sky", "In the car"], "answerIndex": 2, "explanation": "'The moon was still there.'", "hint": "Look at the last sentence." },
+    { "id": "q10", "prompt": "What is the main idea of the passage?", "options": ["The car broke down", "A child does not yet understand how things look from far away", "The dad does not like driving", "The moon is dangerous"], "answerIndex": 1, "explanation": "The child's confusion is about perception and distance.", "hint": "Why does the moon 'seem' to follow them?" }
+  ],
+  "cloze": {
+    "template": "Last night, my dad {{b1}} me home. The road was long. I looked out of the {{b2}}. The moon was big and {{b3}}. The car went {{b4}}, but the moon was always there. I said, 'Dad, the moon is {{b5}} us!' My dad smiled. He said, 'The moon is very {{b6}}. It cannot follow a car.' But I was not {{b7}}. I watched the moon for a long {{b8}}. The trees moved past us. The houses moved past us. The moon did not move past us. When we {{b9}}, the moon stopped too. I went into the house. I looked up at the {{b10}}. The moon was still there.",
+    "blanks": [
+      { "id": "b1", "options": ["drives", "drove", "driving", "drive"], "answerIndex": 1, "explanation": "Past simple of 'drive' is 'drove'." },
+      { "id": "b2", "options": ["door", "window", "wall", "sky"], "answerIndex": 1, "explanation": "He looked out of the window of the car." },
+      { "id": "b3", "options": ["white", "loud", "wet", "hot"], "answerIndex": 0, "explanation": "The passage says 'big and white'." },
+      { "id": "b4", "options": ["slow", "soft", "fast", "tall"], "answerIndex": 2, "explanation": "'The car went fast'." },
+      { "id": "b5", "options": ["eating", "following", "calling", "selling"], "answerIndex": 1, "explanation": "'…the moon is following us!'" },
+      { "id": "b6", "options": ["close", "small", "far", "old"], "answerIndex": 2, "explanation": "Dad explains that the moon is very far away." },
+      { "id": "b7", "options": ["sure", "tired", "ready", "kind"], "answerIndex": 0, "explanation": "'But I was not sure.'" },
+      { "id": "b8", "options": ["place", "time", "name", "book"], "answerIndex": 1, "explanation": "'…for a long time.'" },
+      { "id": "b9", "options": ["sang", "stopped", "ran", "spoke"], "answerIndex": 1, "explanation": "'When we stopped, the moon stopped too.'" },
+      { "id": "b10", "options": ["floor", "ground", "table", "sky"], "answerIndex": 3, "explanation": "He looked up at the sky." }
+    ]
+  },
+  "criticalThinkingQuestion": "Why does the moon 'seem' to follow the car? What other things in life look one way to a child and a different way to an adult — and which view is more 'true'?"
+}

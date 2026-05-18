@@ -1,9 +1,9 @@
 "use client";
 
-import { use, useMemo } from "react";
+import { use } from "react";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
-import { useAllReadingLessons } from "@/lib/lessons/load";
+import { useReadingLesson } from "@/lib/lessons/load";
 import { useLiveQuery } from "dexie-react-hooks";
 import { listAttemptsForLesson, getDraft, deleteDraft } from "@/lib/db/queries";
 import { LessonTimer } from "@/components/reading/lesson-timer";
@@ -37,8 +37,7 @@ const LEVEL_CLASS: Record<Lesson["level"], string> = {
 export default function LessonDetailPage({ params }: { params: Promise<{ lessonId: string }> }) {
   const { lessonId } = use(params);
   const profileId = useActiveProfileId();
-  const { data: lessons } = useAllReadingLessons();
-  const lesson = useMemo(() => lessons?.find((l) => l.id === lessonId), [lessons, lessonId]);
+  const { data: lesson } = useReadingLesson(lessonId);
   const attempts = useLiveQuery(
     () => listAttemptsForLesson(profileId, lessonId),
     [profileId, lessonId],
@@ -141,6 +140,15 @@ export default function LessonDetailPage({ params }: { params: Promise<{ lessonI
 
         <QuizFooter />
       </QuizSection>
+
+      {lesson.criticalThinkingQuestion && (
+        <section className="mt-4 rounded-md border-l-4 border-primary bg-muted/40 p-4">
+          <h2 className="mb-1 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+            Critical thinking
+          </h2>
+          <p className="text-sm italic leading-relaxed">{lesson.criticalThinkingQuestion}</p>
+        </section>
+      )}
 
       <AttemptHistory lessonId={lessonId} />
       <LessonNotes lessonId={lessonId} />

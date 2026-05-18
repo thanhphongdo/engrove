@@ -80,7 +80,7 @@ export function ClozeBlock() {
   return (
     <div className="space-y-3">
       <p className="text-sm font-semibold">Fill in the blanks · {blankCount}</p>
-      <div className="rounded-md border bg-card p-4 text-sm leading-loose">
+      <div className="whitespace-pre-line rounded-md border bg-card p-4 text-sm leading-loose">
         {segments.map((seg, i) =>
           seg.kind === "text" ? (
             <span key={i}>{seg.text}</span>

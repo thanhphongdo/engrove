@@ -1,0 +1,63 @@
+{
+  "id": "reading-a1-002",
+  "level": "A1",
+  "title": "Grandma and the new phone",
+  "summary": "A young woman gives her old phone to her grandmother, who is not happy about it.",
+  "format": "dialogue",
+  "body": [
+    { "speaker": "Mai", "text": "Grandma, this is for you. It's my old phone. It still works!" },
+    { "speaker": "Grandma", "text": "Oh. Thank you, dear. But I have a phone." },
+    { "speaker": "Mai", "text": "Your phone is very old, Grandma. This one is better. You can see photos. You can call me." },
+    { "speaker": "Grandma", "text": "I call you on the home phone. We talk every Sunday." },
+    { "speaker": "Mai", "text": "Yes, but with this phone, you can call me any day." },
+    { "speaker": "Grandma", "text": "Mai, I don't want to call you any day. I want to call you on Sunday." },
+    { "speaker": "Mai", "text": "Oh. Why?" },
+    { "speaker": "Grandma", "text": "Because on Sunday, I think about you all week. Then I call. Then I am happy. If I call every day, it is not the same." },
+    { "speaker": "Mai", "text": "I see. So… you don't want the phone?" },
+    { "speaker": "Grandma", "text": "I love the phone, dear. But I love Sundays more." }
+  ],
+  "tags": ["Family", "Technology", "Sociology"],
+  "annotations": [
+    { "phrase": "works", "meaningVi": "hoạt động được" },
+    { "phrase": "better", "meaningVi": "tốt hơn" },
+    { "phrase": "every Sunday", "meaningVi": "mỗi Chủ nhật" },
+    { "phrase": "any day", "meaningVi": "bất cứ ngày nào" },
+    { "phrase": "the same", "meaningVi": "giống nhau" }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Present simple",
+      "bodyVi": "Dùng 'present simple' cho thói quen và sự thật: I have, I call, We talk, I want, I love.",
+      "bodyEn": "Use the present simple for habits and facts: I have, I call, We talk, I want, I love."
+    }
+  ],
+  "cloze": {
+    "template": "Mai: Grandma, this is for you. It's my {{b1}} phone. It still {{b2}}!\nGrandma: Oh. {{b3}} you, dear. But I have a phone.\nMai: Your phone is very {{b4}}, Grandma. This one is better. You can {{b5}} photos. You can call me.\nGrandma: I call you on the home phone. We talk every {{b6}}.\nMai: Yes, but with this phone, you can call me {{b7}} day.\nGrandma: Mai, I don't want to call you any day. I want to call you on Sunday.\nMai: Oh. Why?\nGrandma: {{b8}} on Sunday, I think about you all week. Then I call. Then I am happy. If I call every day, it is not the {{b9}}.\nMai: I see. So… you don't want the phone?\nGrandma: I love the phone, dear. But I love Sundays {{b10}}.",
+    "blanks": [
+      { "id": "b1", "options": ["new", "old", "broken", "small"], "answerIndex": 1, "explanation": "Mai is giving her old phone." },
+      { "id": "b2", "options": ["works", "sees", "knows", "speaks"], "answerIndex": 0, "explanation": "'It still works!'" },
+      { "id": "b3", "options": ["See", "Tell", "Thank", "Help"], "answerIndex": 2, "explanation": "'Thank you, dear.'" },
+      { "id": "b4", "options": ["old", "fast", "warm", "tall"], "answerIndex": 0, "explanation": "Mai says the grandma's phone is very old." },
+      { "id": "b5", "options": ["cook", "see", "sing", "drive"], "answerIndex": 1, "explanation": "'You can see photos.'" },
+      { "id": "b6", "options": ["Monday", "Sunday", "morning", "year"], "answerIndex": 1, "explanation": "They talk every Sunday." },
+      { "id": "b7", "options": ["any", "no", "every two", "next"], "answerIndex": 0, "explanation": "'…you can call me any day.'" },
+      { "id": "b8", "options": ["Because", "But", "If", "After"], "answerIndex": 0, "explanation": "She is giving her reason: 'Because on Sunday, I think about you all week.'" },
+      { "id": "b9", "options": ["far", "easy", "same", "long"], "answerIndex": 2, "explanation": "'…it is not the same.'" },
+      { "id": "b10", "options": ["less", "more", "first", "later"], "answerIndex": 1, "explanation": "'I love Sundays more.'" }
+    ]
+  },
+  "translationVi": "Mai: Bà ơi, cái này tặng bà. Đây là điện thoại cũ của cháu. Vẫn dùng được ạ!\nBà: Ồ. Cảm ơn cháu. Nhưng bà đã có điện thoại rồi.\nMai: Điện thoại của bà cũ lắm. Cái này tốt hơn. Bà có thể xem ảnh. Bà có thể gọi cháu.\nBà: Bà gọi cháu bằng điện thoại bàn mà. Tuần nào chúng ta cũng nói chuyện vào Chủ nhật.\nMai: Vâng, nhưng với cái này bà có thể gọi cháu bất cứ ngày nào.\nBà: Mai à, bà không muốn gọi cháu bất cứ ngày nào. Bà muốn gọi cháu vào Chủ nhật.\nMai: Ơ. Sao ạ?\nBà: Vì cả tuần bà nghĩ về cháu. Rồi đến Chủ nhật bà gọi. Rồi bà thấy vui. Nếu gọi mỗi ngày, nó không còn như thế nữa.\nMai: Cháu hiểu rồi. Vậy… bà không cần điện thoại sao?\nBà: Bà rất thích cái điện thoại, cháu yêu. Nhưng bà thích Chủ nhật hơn.",
+  "questions": [
+    { "id": "q1", "prompt": "Who is giving the phone?", "options": ["The grandmother", "Mai", "Mai's mother", "Mai's brother"], "answerIndex": 1, "explanation": "Mai says 'this is for you'.", "hint": "Who speaks first?" },
+    { "id": "q2", "prompt": "Is the phone new?", "options": ["Yes, brand new", "No, it is Mai's old phone", "It is broken", "It is from a shop"], "answerIndex": 1, "explanation": "'It's my old phone.'", "hint": "Look at Mai's first words." },
+    { "id": "q3", "prompt": "Does Grandma have a phone already?", "options": ["No", "Yes", "Only at work", "Only on Sundays"], "answerIndex": 1, "explanation": "'But I have a phone.'", "hint": "Listen to Grandma's first answer." },
+    { "id": "q4", "prompt": "When do they normally talk?", "options": ["Every day", "Every Sunday", "Every Monday", "Once a month"], "answerIndex": 1, "explanation": "'We talk every Sunday.'", "hint": "Look for a day name." },
+    { "id": "q5", "prompt": "Why doesn't Grandma want to call every day?", "options": ["She is busy", "Calling is expensive", "Then Sundays feel less special", "She cannot see the buttons"], "answerIndex": 2, "explanation": "'If I call every day, it is not the same.'", "hint": "What changes if she calls every day?" },
+    { "id": "q6", "prompt": "What does Grandma think about all week?", "options": ["The weather", "Her food", "Mai", "Her flowers"], "answerIndex": 2, "explanation": "'On Sunday, I think about you all week.'", "hint": "Look at the long sentence near the end." },
+    { "id": "q7", "prompt": "Does Grandma like the phone?", "options": ["No, not at all", "Yes, but she likes Sundays more", "Only the colour", "Only on holidays"], "answerIndex": 1, "explanation": "'I love the phone, dear. But I love Sundays more.'", "hint": "What is the very last line?" },
+    { "id": "q8", "prompt": "Who is older in this dialogue?", "options": ["Mai", "Grandma", "They are the same age", "We don't know"], "answerIndex": 1, "explanation": "Grandma is Mai's grandmother.", "hint": "Think about the family relation." },
+    { "id": "q9", "prompt": "What does 'It still works' mean?", "options": ["It is broken", "It is a job", "It is open every day", "It can still be used"], "answerIndex": 3, "explanation": "'Works' here means functions / can be used.", "hint": "Mai is giving Grandma the phone, so the phone must be usable." },
+    { "id": "q10", "prompt": "What is the main idea?", "options": ["New things are always better", "More contact is always more love", "Sometimes waiting makes a thing feel more special", "Old people don't like technology"], "answerIndex": 2, "explanation": "Grandma values the waiting between calls, which makes Sundays feel special.", "hint": "Think about Grandma's reason." }
+  ],
+  "criticalThinkingQuestion": "Grandma chooses to call less often because she values the feeling of waiting. Are there things in your life that lose meaning when they become too easy or too frequent?"
+}

@@ -39,4 +39,13 @@ export type Lesson = {
   translationVi: string;
   questions: Question[];
   cloze?: ClozeQuiz;
+  criticalThinkingQuestion?: string;
+};
+
+export type LessonMeta = {
+  id: string;
+  level: CefrLevel;
+  title: string;
+  summary: string;
+  tags: string[];
 };

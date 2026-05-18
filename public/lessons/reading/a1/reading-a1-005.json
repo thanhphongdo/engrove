@@ -1,0 +1,52 @@
+{
+  "id": "reading-a1-005",
+  "level": "A1",
+  "title": "I plant a tree",
+  "summary": "An old man plants a small tree he knows he will not see grow tall.",
+  "format": "paragraph",
+  "body": "I am old now. My back hurts. My eyes are not strong. But today, I planted a tree in my garden. It is a small oak. It is not taller than my knee. People in my family ask me, 'Why? You will not see it grow tall.' I smile. I do not answer fast. The tree is for my grandchildren. The tree is also for the birds. Birds do not know my name. They will sit on the tree one day. They will sing. I will not hear them. But the tree will be there. The sun is warm now. I drink some water. I look at the small oak. I think, 'You will be a big tree. I will be a small memory. That is good.'",
+  "tags": ["Legacy", "Old age", "Hope"],
+  "annotations": [
+    { "phrase": "hurts", "meaningVi": "đau", "pronunciation": "/hɜːrts/" },
+    { "phrase": "oak", "meaningVi": "cây sồi" },
+    { "phrase": "knee", "meaningVi": "đầu gối" },
+    { "phrase": "grandchildren", "meaningVi": "các cháu" },
+    { "phrase": "memory", "meaningVi": "kỷ niệm / ký ức" }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Future with 'will'",
+      "bodyVi": "Dùng 'will' để nói về điều sẽ xảy ra trong tương lai: 'They will sit', 'I will not hear', 'You will be a big tree'.",
+      "bodyEn": "Use 'will' for the future: 'They will sit', 'I will not hear them', 'You will be a big tree'."
+    }
+  ],
+  "cloze": {
+    "template": "I am {{b1}} now. My back hurts. My eyes are not strong. But today, I {{b2}} a tree in my garden. It is a small {{b3}}. It is not taller than my {{b4}}. People in my family ask me, '{{b5}}? You will not see it grow tall.' I smile. I do not answer fast. The tree is {{b6}} my grandchildren. The tree is also for the birds. Birds do not know my {{b7}}. They will sit on the tree one day. They will sing. I will not {{b8}} them. But the tree will be there. The sun is warm now. I {{b9}} some water. I look at the small oak. I think, 'You will be a big tree. I will be a small {{b10}}. That is good.'",
+    "blanks": [
+      { "id": "b1", "options": ["young", "old", "tall", "happy"], "answerIndex": 1, "explanation": "'I am old now.'" },
+      { "id": "b2", "options": ["plant", "planted", "planting", "plants"], "answerIndex": 1, "explanation": "Past simple of 'plant' is 'planted'." },
+      { "id": "b3", "options": ["dog", "stone", "oak", "flag"], "answerIndex": 2, "explanation": "He planted a small oak." },
+      { "id": "b4", "options": ["hand", "knee", "head", "foot"], "answerIndex": 1, "explanation": "'not taller than my knee.'" },
+      { "id": "b5", "options": ["Why", "When", "What", "Who"], "answerIndex": 0, "explanation": "The family asks 'Why?'" },
+      { "id": "b6", "options": ["from", "after", "for", "of"], "answerIndex": 2, "explanation": "'The tree is for my grandchildren.'" },
+      { "id": "b7", "options": ["face", "name", "house", "size"], "answerIndex": 1, "explanation": "'Birds do not know my name.'" },
+      { "id": "b8", "options": ["see", "feed", "hear", "find"], "answerIndex": 2, "explanation": "'I will not hear them.'" },
+      { "id": "b9", "options": ["take", "drink", "cook", "buy"], "answerIndex": 1, "explanation": "'I drink some water.'" },
+      { "id": "b10", "options": ["mountain", "city", "memory", "river"], "answerIndex": 2, "explanation": "'I will be a small memory.'" }
+    ]
+  },
+  "translationVi": "Tôi giờ đã già. Lưng tôi đau. Mắt tôi không còn tinh. Nhưng hôm nay, tôi đã trồng một cái cây trong vườn. Đó là một cây sồi nhỏ. Nó chưa cao bằng đầu gối tôi. Người trong nhà hỏi tôi: 'Sao thế? Ông sẽ không nhìn thấy nó lớn đâu.' Tôi mỉm cười. Tôi không trả lời ngay. Cái cây này là dành cho các cháu của tôi. Cái cây cũng dành cho lũ chim. Lũ chim không biết tên tôi. Một ngày nào đó chúng sẽ đậu trên cành. Chúng sẽ hót. Tôi sẽ không nghe được. Nhưng cái cây sẽ vẫn còn ở đó. Mặt trời ấm áp. Tôi uống một ngụm nước. Tôi nhìn cây sồi nhỏ. Tôi nghĩ: 'Mày sẽ thành một cây to. Tao sẽ thành một ký ức nhỏ. Như thế là tốt rồi.'",
+  "questions": [
+    { "id": "q1", "prompt": "How old is the writer?", "options": ["A child", "A young man", "An old man", "We do not know"], "answerIndex": 2, "explanation": "'I am old now.'", "hint": "Look at the first sentence." },
+    { "id": "q2", "prompt": "What did the writer plant?", "options": ["A flower", "An oak tree", "A vegetable", "A rose"], "answerIndex": 1, "explanation": "'It is a small oak.'", "hint": "Look for the kind of tree." },
+    { "id": "q3", "prompt": "How tall is the tree now?", "options": ["Taller than the writer", "Taller than the house", "Smaller than his knee", "We don't know"], "answerIndex": 2, "explanation": "'It is not taller than my knee.'", "hint": "Find a body word." },
+    { "id": "q4", "prompt": "What do people in the family ask?", "options": ["Where is the water?", "Why? You will not see it grow tall.", "Is it expensive?", "Can we cut it?"], "answerIndex": 1, "explanation": "Family members ask why he plants a tree he won't see grow.", "hint": "Look for a question in the passage." },
+    { "id": "q5", "prompt": "Who is the tree for?", "options": ["The writer only", "His wife", "His grandchildren and the birds", "His neighbours"], "answerIndex": 2, "explanation": "'The tree is for my grandchildren. The tree is also for the birds.'", "hint": "Two groups are mentioned." },
+    { "id": "q6", "prompt": "Do the birds know him?", "options": ["Yes", "No, they don't know his name", "Only some of them", "He has no birds"], "answerIndex": 1, "explanation": "'Birds do not know my name.'", "hint": "What does it say about names?" },
+    { "id": "q7", "prompt": "Will the writer hear the birds sing on his tree?", "options": ["Yes, every morning", "No, he will not hear them", "Only at night", "Only in winter"], "answerIndex": 1, "explanation": "'I will not hear them.'", "hint": "Look for 'will not'." },
+    { "id": "q8", "prompt": "How does the writer feel about being a 'small memory'?", "options": ["Sad", "Angry", "He thinks it is good", "Worried"], "answerIndex": 2, "explanation": "'That is good.'", "hint": "Look at the very last words." },
+    { "id": "q9", "prompt": "What is the weather like in the story?", "options": ["Cold and dark", "Rainy", "The sun is warm", "Very windy"], "answerIndex": 2, "explanation": "'The sun is warm now.'", "hint": "Look near the end." },
+    { "id": "q10", "prompt": "What is the main message?", "options": ["Old people should rest", "Trees grow slowly", "Doing something good for the future is enough, even if you do not see it", "Birds are noisy"], "answerIndex": 2, "explanation": "He plants for a future he will not see, and is content with that.", "hint": "Why is he happy to plant a tree he won't see grow?" }
+  ],
+  "criticalThinkingQuestion": "The old man does something good for people he will never meet. Have you ever received a gift from someone you never met — and could you give one in return to a stranger in the future?"
+}

@@ -102,6 +102,7 @@ export const lessonSchema = z.discriminatedUnion("format", [
     translationVi: z.string(),
     questions: z.array(question).min(1),
     cloze: cloze.optional(),
+    criticalThinkingQuestion: z.string().optional(),
   }),
   z.object({
     id: z.string().min(1),
@@ -116,7 +117,16 @@ export const lessonSchema = z.discriminatedUnion("format", [
     translationVi: z.string(),
     questions: z.array(question).min(1),
     cloze: cloze.optional(),
+    criticalThinkingQuestion: z.string().optional(),
   }),
 ]);
 
-export const lessonsFileSchema = z.array(lessonSchema);
+export const lessonMetaSchema = z.object({
+  id: z.string().min(1),
+  level: cefrLevel,
+  title: z.string().min(1),
+  summary: z.string(),
+  tags: z.array(z.string()),
+});
+
+export const lessonsIndexSchema = z.array(lessonMetaSchema);

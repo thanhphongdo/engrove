@@ -3,7 +3,7 @@
 import { Suspense, useMemo } from "react";
 import { Star } from "lucide-react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { useAllReadingLessons } from "@/lib/lessons/load";
+import { useReadingLessonsIndex } from "@/lib/lessons/load";
 import { useDefaultBestAttempts } from "@/lib/db/use-best-attempts";
 import { useBookmarks } from "@/lib/db/use-bookmarks";
 import { FilterChipRow, type ChipOption } from "@/components/reading/filter-chip-row";
@@ -31,7 +31,7 @@ function ReadingHubContent() {
   const selectedTags = parseList(params.get("tags"));
   const favoritesOnly = params.get("favorites") === "1";
 
-  const { data: lessons, isLoading } = useAllReadingLessons();
+  const { data: lessons, isLoading } = useReadingLessonsIndex();
   const bestByLesson = useDefaultBestAttempts();
   const bookmarks = useBookmarks();
 

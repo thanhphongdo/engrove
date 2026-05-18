@@ -1,0 +1,64 @@
+{
+  "id": "reading-a1-004",
+  "level": "A1",
+  "title": "Two friends, one painting",
+  "summary": "Two friends visit a museum. One loves a painting. The other doesn't understand it.",
+  "format": "dialogue",
+  "body": [
+    { "speaker": "Lan", "text": "Look, Tom. This painting is amazing." },
+    { "speaker": "Tom", "text": "Really? It's just a blue square. My little sister can do that." },
+    { "speaker": "Lan", "text": "But look at the blue. It's not one blue. It's many blues." },
+    { "speaker": "Tom", "text": "Blue is blue, Lan. I don't see it." },
+    { "speaker": "Lan", "text": "Come closer. Look here. And here. Do you see now?" },
+    { "speaker": "Tom", "text": "Hmm. Maybe. A little. But it's still a square." },
+    { "speaker": "Lan", "text": "Yes. But how does it make you feel?" },
+    { "speaker": "Tom", "text": "Feel? It's a painting. I don't feel anything." },
+    { "speaker": "Lan", "text": "When I look at it, I feel quiet. Like the sea at night." },
+    { "speaker": "Tom", "text": "Oh. I don't feel that. I feel… nothing." },
+    { "speaker": "Lan", "text": "That's okay. Maybe we are not looking at the same painting." }
+  ],
+  "tags": ["Art", "Philosophy", "Friendship"],
+  "annotations": [
+    { "phrase": "amazing", "meaningVi": "tuyệt vời" },
+    { "phrase": "square", "meaningVi": "hình vuông" },
+    { "phrase": "closer", "meaningVi": "gần hơn" },
+    { "phrase": "feel", "meaningVi": "cảm thấy" },
+    { "phrase": "quiet", "meaningVi": "yên tĩnh" }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Imperatives",
+      "bodyVi": "Câu mệnh lệnh ngắn: 'Look', 'Come closer'. Dùng động từ nguyên thể ở đầu câu.",
+      "bodyEn": "Short commands use the bare verb: 'Look', 'Come closer'. They are common in spoken English."
+    }
+  ],
+  "cloze": {
+    "template": "Lan: Look, Tom. This painting is {{b1}}.\nTom: Really? It's just a blue {{b2}}. My little sister can do that.\nLan: But look at the blue. It's not one blue. It's {{b3}} blues.\nTom: Blue is blue, Lan. I don't {{b4}} it.\nLan: Come {{b5}}. Look here. And here. Do you see now?\nTom: Hmm. Maybe. A little. But it's still a square.\nLan: Yes. But how does it {{b6}} you feel?\nTom: Feel? It's a painting. I don't {{b7}} anything.\nLan: When I look at it, I feel {{b8}}. Like the sea at {{b9}}.\nTom: Oh. I don't feel that. I feel… nothing.\nLan: That's okay. Maybe we are not looking at the {{b10}} painting.",
+    "blanks": [
+      { "id": "b1", "options": ["amazing", "small", "wet", "loud"], "answerIndex": 0, "explanation": "Lan says the painting is amazing." },
+      { "id": "b2", "options": ["circle", "square", "line", "star"], "answerIndex": 1, "explanation": "Tom says it's a blue square." },
+      { "id": "b3", "options": ["one", "two", "many", "no"], "answerIndex": 2, "explanation": "'It's many blues.'" },
+      { "id": "b4", "options": ["see", "buy", "open", "hear"], "answerIndex": 0, "explanation": "'I don't see it.'" },
+      { "id": "b5", "options": ["after", "back", "closer", "alone"], "answerIndex": 2, "explanation": "'Come closer.'" },
+      { "id": "b6", "options": ["make", "want", "ask", "show"], "answerIndex": 0, "explanation": "'how does it make you feel?'" },
+      { "id": "b7", "options": ["feel", "have", "go", "sit"], "answerIndex": 0, "explanation": "'I don't feel anything.'" },
+      { "id": "b8", "options": ["loud", "quiet", "tired", "cold"], "answerIndex": 1, "explanation": "'I feel quiet.'" },
+      { "id": "b9", "options": ["work", "school", "noon", "night"], "answerIndex": 3, "explanation": "'Like the sea at night.'" },
+      { "id": "b10", "options": ["same", "new", "old", "dark"], "answerIndex": 0, "explanation": "Lan suggests they are not looking at the same painting." }
+    ]
+  },
+  "translationVi": "Lan: Nhìn này, Tom. Bức tranh này thật tuyệt.\nTom: Thật á? Chỉ là một hình vuông màu xanh. Em gái nhỏ của tớ cũng vẽ được mà.\nLan: Nhưng hãy nhìn màu xanh đi. Không phải một sắc xanh. Là nhiều sắc xanh.\nTom: Xanh là xanh thôi, Lan. Tớ không thấy gì cả.\nLan: Lại gần hơn xem. Nhìn chỗ này. Và chỗ này. Cậu thấy chưa?\nTom: Hmm. Có lẽ. Một chút. Nhưng nó vẫn là hình vuông.\nLan: Đúng vậy. Nhưng nó làm cậu cảm thấy thế nào?\nTom: Cảm thấy á? Là một bức tranh thôi. Tớ chẳng cảm thấy gì.\nLan: Khi tớ nhìn nó, tớ thấy yên bình. Như biển vào ban đêm.\nTom: Ồ. Tớ không cảm thấy thế. Tớ cảm thấy… không gì cả.\nLan: Không sao đâu. Có lẽ chúng ta không nhìn cùng một bức tranh.",
+  "questions": [
+    { "id": "q1", "prompt": "Where are Lan and Tom?", "options": ["At school", "Looking at a painting", "At the park", "In a shop"], "answerIndex": 1, "explanation": "They talk about a painting in front of them.", "hint": "What are they looking at?" },
+    { "id": "q2", "prompt": "Who likes the painting?", "options": ["Tom", "Lan", "Both", "Neither"], "answerIndex": 1, "explanation": "'This painting is amazing.'", "hint": "Who speaks first and is positive?" },
+    { "id": "q3", "prompt": "What does Tom say about the painting?", "options": ["It is too small", "His sister can do that", "It is too dark", "It is too old"], "answerIndex": 1, "explanation": "'My little sister can do that.'", "hint": "Look at Tom's first reply." },
+    { "id": "q4", "prompt": "What does Lan see in the colour blue?", "options": ["One blue", "Many blues", "No blue", "Only dark blue"], "answerIndex": 1, "explanation": "'It's not one blue. It's many blues.'", "hint": "Lan corrects Tom about the colour." },
+    { "id": "q5", "prompt": "Does Tom feel something when he looks at it?", "options": ["Yes, joy", "Yes, sadness", "No, nothing", "Yes, fear"], "answerIndex": 2, "explanation": "'I feel… nothing.'", "hint": "Look at Tom's later answer about feeling." },
+    { "id": "q6", "prompt": "What does Lan feel when she looks at the painting?", "options": ["Angry", "Quiet, like the sea at night", "Hungry", "Tired"], "answerIndex": 1, "explanation": "'I feel quiet. Like the sea at night.'", "hint": "Look for a comparison with the sea." },
+    { "id": "q7", "prompt": "What does Lan ask Tom to do?", "options": ["Leave", "Come closer", "Buy the painting", "Be quiet"], "answerIndex": 1, "explanation": "'Come closer.'", "hint": "Look for a short command." },
+    { "id": "q8", "prompt": "Does Tom change his mind about the painting?", "options": ["Yes, completely", "A little — he says 'maybe'", "No, he hates it more", "He leaves the room"], "answerIndex": 1, "explanation": "'Hmm. Maybe. A little.'", "hint": "Listen to Tom's reaction after he looks closer." },
+    { "id": "q9", "prompt": "What does Lan finally say?", "options": ["Tom is wrong", "Tom is right", "They may not be seeing the same painting", "They should leave"], "answerIndex": 2, "explanation": "'Maybe we are not looking at the same painting.'", "hint": "Look at the last line." },
+    { "id": "q10", "prompt": "What is the main idea?", "options": ["Modern art is bad", "Two people can look at the same thing and see something different", "Tom doesn't like Lan", "Museums are boring"], "answerIndex": 1, "explanation": "Lan and Tom see the same painting in very different ways.", "hint": "Think about what is shared and what is not." }
+  ],
+  "criticalThinkingQuestion": "Lan says 'Maybe we are not looking at the same painting.' What does she really mean? Is it about the painting, or about Lan and Tom?"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "reading-a1-003",
+  "level": "A1",
+  "title": "I found a coin",
+  "summary": "A boy finds a coin on the street and doesn't know what to do with it.",
+  "format": "paragraph",
+  "body": "Yesterday, I walked to school. I looked down at the street. I saw a coin. It was a one-euro coin. I picked it up. It was cold and a little wet. I looked around. No people were near me. I thought, 'This is my coin now.' Then I saw a little hole in the bag of an old man. He was in front of me. He walked slowly. I ran to him. I said, 'Excuse me, sir. Is this your coin?' He looked in his bag. He looked at me. He said, 'Yes, thank you. It is mine.' He smiled. He gave me one euro. I said, 'No, no!' But he said, 'Please. You are a good boy.' I went to school. The coin in my pocket was warm now.",
+  "tags": ["Morality", "City life", "Choice"],
+  "annotations": [
+    { "phrase": "coin", "meaningVi": "đồng xu" },
+    { "phrase": "picked it up", "meaningVi": "nhặt lên" },
+    { "phrase": "hole", "meaningVi": "lỗ" },
+    { "phrase": "in front of", "meaningVi": "phía trước" },
+    { "phrase": "pocket", "meaningVi": "túi áo / túi quần" }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Past simple — irregular verbs",
+      "bodyVi": "Nhiều động từ trong bài không thêm '-ed': saw, picked, ran, said, gave, went. Một số là bất quy tắc.",
+      "bodyEn": "Many verbs here are in the past simple. Some are irregular: saw, ran, said, gave, went. Some are regular: picked, walked, looked, smiled."
+    }
+  ],
+  "translationVi": "Hôm qua, tôi đi bộ đến trường. Tôi nhìn xuống đường. Tôi thấy một đồng xu. Đó là đồng một euro. Tôi nhặt nó lên. Đồng xu lạnh và hơi ướt. Tôi nhìn xung quanh. Không có ai gần tôi. Tôi nghĩ: 'Đây là đồng xu của mình rồi.' Rồi tôi thấy một cái lỗ nhỏ trên túi của một ông cụ. Ông đi phía trước tôi. Ông đi chậm. Tôi chạy theo ông. Tôi nói: 'Cháu xin lỗi, đây có phải đồng xu của ông không ạ?' Ông nhìn vào túi. Ông nhìn tôi. Ông nói: 'Phải, cảm ơn cháu. Đó là của ông.' Ông mỉm cười. Ông đưa tôi một euro. Tôi nói: 'Không, không ạ!' Nhưng ông nói: 'Cứ cầm đi. Cháu là một cậu bé tốt.' Tôi đến trường. Đồng xu trong túi tôi giờ đã ấm.",
+  "questions": [
+    { "id": "q1", "prompt": "What did the boy find?", "options": ["A pen", "A coin", "A book", "A key"], "answerIndex": 1, "explanation": "'I saw a coin.'", "hint": "Look at sentence 3." },
+    { "id": "q2", "prompt": "What kind of coin was it?", "options": ["A one-dollar coin", "A one-euro coin", "A one-yen coin", "A two-euro coin"], "answerIndex": 1, "explanation": "'It was a one-euro coin.'", "hint": "Look at the next sentence." },
+    { "id": "q3", "prompt": "How did the coin feel at first?", "options": ["Hot and dry", "Cold and a little wet", "Heavy", "Soft"], "answerIndex": 1, "explanation": "'It was cold and a little wet.'", "hint": "Look for sense words." },
+    { "id": "q4", "prompt": "What did the boy first think?", "options": ["He should call his mother", "The coin was his now", "The coin was old", "He should go home"], "answerIndex": 1, "explanation": "'This is my coin now.'", "hint": "Look at the thought in quotes." },
+    { "id": "q5", "prompt": "Who else was on the street?", "options": ["A police officer", "An old man", "A baby", "A child"], "answerIndex": 1, "explanation": "'An old man… was in front of me.'", "hint": "Look near the middle." },
+    { "id": "q6", "prompt": "Why did the boy think the coin came from the old man?", "options": ["The man told him", "The man was sad", "There was a hole in the man's bag", "The man dropped his keys"], "answerIndex": 2, "explanation": "'I saw a little hole in the bag of an old man.'", "hint": "Look for the word 'hole'." },
+    { "id": "q7", "prompt": "What did the old man do after the boy spoke to him?", "options": ["He shouted", "He looked in his bag and then said yes", "He walked away", "He gave the boy his bag"], "answerIndex": 1, "explanation": "'He looked in his bag.' Then 'Yes, thank you. It is mine.'", "hint": "Look at what happens after the boy speaks." },
+    { "id": "q8", "prompt": "What did the old man give the boy?", "options": ["A hug", "A book", "One euro", "Nothing"], "answerIndex": 2, "explanation": "'He gave me one euro.'", "hint": "Look near the end." },
+    { "id": "q9", "prompt": "Why was the coin 'warm' at the end?", "options": ["The sun was hot", "It had been in his pocket", "He cooked it", "He was sick"], "answerIndex": 1, "explanation": "Coins warm up in a pocket.", "hint": "Where was the coin at the end?" },
+    { "id": "q10", "prompt": "What is the main lesson?", "options": ["Money is dangerous", "It feels different to receive a gift than to keep what is not yours", "Always run to school", "Old men have holes in bags"], "answerIndex": 1, "explanation": "The coin was 'cold' when found and 'warm' when given — the feeling changed because the way he got it changed.", "hint": "Compare the two times the coin is described." }
+  ],
+  "cloze": {
+    "template": "Yesterday, I {{b1}} to school. I looked down at the street. I saw a {{b2}}. It was a one-euro coin. I {{b3}} it up. It was cold and a little wet. I looked {{b4}}. No people were near me. I thought, 'This is my coin {{b5}}.' Then I saw a little {{b6}} in the bag of an old man. He was in {{b7}} of me. I ran to him. I said, 'Excuse me, sir. Is this your coin?' He looked in his bag. He said, 'Yes, thank you. It is {{b8}}.' He smiled. He gave me one euro. I said, 'No, no!' But he said, 'Please. You are a {{b9}} boy.' I went to school. The coin in my {{b10}} was warm now.",
+    "blanks": [
+      { "id": "b1", "options": ["walks", "walked", "walking", "walk"], "answerIndex": 1, "explanation": "Past simple of 'walk'." },
+      { "id": "b2", "options": ["dog", "book", "coin", "tree"], "answerIndex": 2, "explanation": "He found a coin." },
+      { "id": "b3", "options": ["sang", "picked", "put", "ate"], "answerIndex": 1, "explanation": "'I picked it up.'" },
+      { "id": "b4", "options": ["around", "down", "in", "under"], "answerIndex": 0, "explanation": "'I looked around.'" },
+      { "id": "b5", "options": ["yesterday", "soon", "now", "later"], "answerIndex": 2, "explanation": "'This is my coin now.'" },
+      { "id": "b6", "options": ["song", "hole", "shoe", "pen"], "answerIndex": 1, "explanation": "There was a small hole in the man's bag." },
+      { "id": "b7", "options": ["back", "side", "front", "top"], "answerIndex": 2, "explanation": "'He was in front of me.'" },
+      { "id": "b8", "options": ["yours", "ours", "his", "mine"], "answerIndex": 3, "explanation": "The old man says 'It is mine.'" },
+      { "id": "b9", "options": ["good", "small", "tall", "fast"], "answerIndex": 0, "explanation": "'You are a good boy.'" },
+      { "id": "b10", "options": ["pocket", "hat", "shoe", "hand"], "answerIndex": 0, "explanation": "The coin was in his pocket." }
+    ]
+  },
+  "criticalThinkingQuestion": "The story says the coin was 'cold' at the start and 'warm' at the end. What is the writer trying to tell us about honesty without using that word?"
+}

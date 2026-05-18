@@ -1,0 +1,70 @@
+{
+  "id": "reading-b1-003",
+  "level": "B1",
+  "title": "The books that don't leave the library",
+  "summary": "A young reader asks a librarian why some books cannot be borrowed, and gets an unexpected answer.",
+  "format": "dialogue",
+  "body": [
+    { "speaker": "Reader", "text": "Excuse me. I would like to borrow this book, please." },
+    { "speaker": "Librarian", "text": "Oh — let me see. Ah, no. I am sorry. This one is from the reference collection. It cannot leave the library." },
+    { "speaker": "Reader", "text": "Why not? It is not even very old." },
+    { "speaker": "Librarian", "text": "True, the print itself is from 1962. But it is the only Vietnamese translation of a Russian poet who never wrote anything else. We have one copy. There are six in the country." },
+    { "speaker": "Reader", "text": "Six in the whole country? That seems… too few." },
+    { "speaker": "Librarian", "text": "Yes. And books, you know, are easy to lose. They fall behind a sofa. They get lent to a friend and never come back. They get water on them. They go on holiday and don't return." },
+    { "speaker": "Reader", "text": "So you keep the only copies here, where readers cannot really read them." },
+    { "speaker": "Librarian", "text": "Where readers can read them, but only inside this room. You may sit at any table for as long as you like." },
+    { "speaker": "Reader", "text": "But isn't that strange? A library is supposed to share books. Aren't you, in a way, hiding them?" },
+    { "speaker": "Librarian", "text": "I understand that feeling. But think of it this way. If we lent every book out, in ten years some titles would simply disappear. Someone in 2040 might want this poet and find nothing at all. By keeping the book here, we are lending it not to one person, but to the future." },
+    { "speaker": "Reader", "text": "Hmm. That is a strong argument. But it still feels unfair to me, today." },
+    { "speaker": "Librarian", "text": "Yes. It is a quiet trade. Your inconvenience now in exchange for someone else's possibility later. The library does not pretend otherwise." },
+    { "speaker": "Reader", "text": "Okay. I'll read it here. Where can I sit?" },
+    { "speaker": "Librarian", "text": "Anywhere. Take the table by the window. The light is best there at this time of day." }
+  ],
+  "tags": ["Libraries", "Ethics", "Time"],
+  "annotations": [
+    { "phrase": "reference collection", "meaningVi": "kho sách tham khảo (chỉ đọc tại chỗ)" },
+    { "phrase": "translation", "meaningVi": "bản dịch" },
+    { "phrase": "lent", "meaningVi": "đã cho mượn" },
+    { "phrase": "trade", "meaningVi": "sự đánh đổi" },
+    { "phrase": "inconvenience", "meaningVi": "sự bất tiện" }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Second conditional",
+      "bodyVi": "Câu điều kiện loại 2 (giả định hiện tại/tương lai không thực): 'If we lent every book out, in ten years some titles would simply disappear.' (If + past simple, would + V.)",
+      "bodyEn": "Second conditional describes an unreal or unlikely situation: 'If we lent every book out, some titles would simply disappear.' Form: if + past simple, would + base verb."
+    }
+  ],
+  "cloze": {
+    "template": "Reader: Excuse me. I would like to {{b1}} this book, please.\nLibrarian: Oh — let me see. Ah, no. I am sorry. This one is from the reference {{b2}}. It cannot leave the library.\nReader: Why not? It is not even very old.\nLibrarian: True, the print itself is from 1962. But it is the only Vietnamese {{b3}} of a Russian poet who never wrote anything else. We have one {{b4}}. There are six in the country.\nReader: Six in the whole country? That seems… too {{b5}}.\nLibrarian: Yes. And books, you know, are easy to {{b6}}. They fall behind a sofa. They get lent to a friend and never come back.\nReader: So you keep the only copies here, where readers cannot really read them.\nLibrarian: Where readers can read them, but only {{b7}} this room. You may sit at any table for as long as you like.\nReader: But isn't that strange? A library is supposed to {{b8}} books. Aren't you, in a way, hiding them?\nLibrarian: I understand that feeling. But think of it this way. If we lent every book out, in ten years some titles would simply {{b9}}. Someone in 2040 might want this poet and find nothing at all. By keeping the book here, we are lending it not to one person, but to the {{b10}}.\nReader: Hmm. That is a strong argument. But it still feels {{b11}} to me, today.\nLibrarian: Yes. It is a quiet {{b12}}. Your inconvenience now in exchange for someone else's possibility later.\nReader: Okay. I'll read it here. Where can I {{b13}}?\nLibrarian: Anywhere. Take the table by the window. The light is best there at this time of day.",
+    "blanks": [
+      { "id": "b1", "options": ["borrow", "buy", "burn", "build"], "answerIndex": 0, "explanation": "He wants to borrow the book." },
+      { "id": "b2", "options": ["machine", "collection", "officer", "river"], "answerIndex": 1, "explanation": "It is from the reference collection." },
+      { "id": "b3", "options": ["song", "city", "translation", "edition"], "answerIndex": 2, "explanation": "The only Vietnamese translation." },
+      { "id": "b4", "options": ["page", "copy", "writer", "shelf"], "answerIndex": 1, "explanation": "They have one copy." },
+      { "id": "b5", "options": ["many", "few", "old", "fast"], "answerIndex": 1, "explanation": "Too few — only six in the country." },
+      { "id": "b6", "options": ["read", "find", "lose", "write"], "answerIndex": 2, "explanation": "Books are easy to lose." },
+      { "id": "b7", "options": ["outside", "above", "inside", "before"], "answerIndex": 2, "explanation": "Readers can read them only inside this room." },
+      { "id": "b8", "options": ["sell", "hide", "share", "test"], "answerIndex": 2, "explanation": "A library is supposed to share books." },
+      { "id": "b9", "options": ["return", "appear", "disappear", "improve"], "answerIndex": 2, "explanation": "Some titles would disappear." },
+      { "id": "b10", "options": ["past", "future", "library", "country"], "answerIndex": 1, "explanation": "Lending the book to the future, not to one person." },
+      { "id": "b11", "options": ["safe", "useful", "unfair", "fast"], "answerIndex": 2, "explanation": "It still feels unfair to him today." },
+      { "id": "b12", "options": ["song", "trade", "lock", "war"], "answerIndex": 1, "explanation": "'A quiet trade' — your inconvenience for someone else's possibility." },
+      { "id": "b13", "options": ["sit", "leave", "buy", "talk"], "answerIndex": 0, "explanation": "He asks where he can sit." }
+    ]
+  },
+  "translationVi": "Người đọc: Xin lỗi. Cháu muốn mượn cuốn sách này ạ.\nThủ thư: Ồ — để tôi xem. À, không. Tôi xin lỗi. Cuốn này thuộc kho sách tham khảo. Không được mang ra khỏi thư viện.\nNgười đọc: Sao lại không ạ? Nó cũng đâu có cũ lắm.\nThủ thư: Đúng, bản in từ năm 1962. Nhưng đây là bản dịch tiếng Việt duy nhất của một nhà thơ Nga không viết gì khác. Chúng tôi có một bản. Cả nước có sáu bản.\nNgười đọc: Cả nước chỉ có sáu? Có vẻ… ít quá.\nThủ thư: Đúng vậy. Mà sách thì dễ mất lắm. Chúng rơi sau ghế sofa. Cho bạn mượn rồi không thấy về. Bị dính nước. Đi 'nghỉ mát' rồi không quay lại.\nNgười đọc: Vậy là cô giữ bản duy nhất ở đây, nơi mà người đọc không thực sự đọc được.\nThủ thư: Nơi mà người đọc có thể đọc, nhưng chỉ trong phòng này. Cháu cứ ngồi bàn nào bao lâu cũng được.\nNgười đọc: Nhưng có lạ không ạ? Thư viện là để chia sẻ sách. Như vậy cô không phải đang… giấu chúng đi sao?\nThủ thư: Tôi hiểu cảm giác đó. Nhưng nghĩ thế này. Nếu cho mượn tất cả ra ngoài, trong mười năm một số đầu sách sẽ biến mất. Năm 2040 có ai đó muốn tìm nhà thơ này thì không còn gì cả. Bằng cách giữ ở đây, chúng tôi không cho một người mượn — chúng tôi cho tương lai mượn.\nNgười đọc: Hừm. Lập luận khá mạnh. Nhưng với cháu hôm nay, vẫn cảm thấy hơi bất công.\nThủ thư: Đúng vậy. Đó là một sự đánh đổi lặng lẽ. Sự bất tiện của cháu hôm nay đổi lấy khả năng đọc của người khác sau này. Thư viện không giấu giếm chuyện đó.\nNgười đọc: Vâng. Cháu sẽ đọc tại đây. Cháu ngồi đâu được ạ?\nThủ thư: Đâu cũng được. Cháu lấy bàn cạnh cửa sổ đi. Lúc này trong ngày, chỗ đó có ánh sáng đẹp nhất.",
+  "questions": [
+    { "id": "q1", "prompt": "What does the reader want to do?", "options": ["Buy a book", "Borrow a book and take it home", "Sell a book", "Return a book"], "answerIndex": 1, "explanation": "'I would like to borrow this book, please.'", "hint": "Look at the first line." },
+    { "id": "q2", "prompt": "Why can't the book leave the library?", "options": ["It is too heavy", "It is in the reference collection", "It is in the wrong language", "It is reserved for a teacher"], "answerIndex": 1, "explanation": "'This one is from the reference collection. It cannot leave the library.'", "hint": "Look at the librarian's first answer." },
+    { "id": "q3", "prompt": "How many copies of the book exist in the country?", "options": ["One", "Six", "Sixty", "Many"], "answerIndex": 1, "explanation": "'There are six in the country.'", "hint": "Look for a number." },
+    { "id": "q4", "prompt": "Why is this book special?", "options": ["The author also painted", "It is the only Vietnamese translation of a Russian poet who never wrote anything else", "It is signed", "It is gold-plated"], "answerIndex": 1, "explanation": "It's the unique Vietnamese translation of a small body of work.", "hint": "Look near the start." },
+    { "id": "q5", "prompt": "How does the librarian describe what can happen to books?", "options": ["They are eaten by mice", "They fall behind sofas, get lent, get water on them — they disappear", "Children draw on them", "Schools take them"], "answerIndex": 1, "explanation": "Several casual ways books are lost are listed.", "hint": "Look for a list of small accidents." },
+    { "id": "q6", "prompt": "Why does the reader feel uncomfortable?", "options": ["He doesn't trust the librarian", "Keeping the book inside feels like 'hiding' it", "He is in a hurry", "The library is too cold"], "answerIndex": 1, "explanation": "'Aren't you, in a way, hiding them?'", "hint": "Look at the reader's argument." },
+    { "id": "q7", "prompt": "What is the librarian's main argument?", "options": ["Books should never be touched", "Keeping a rare book here lends it 'to the future' instead of to one person", "Readers cannot be trusted", "Old books are dangerous"], "answerIndex": 1, "explanation": "'We are lending it not to one person, but to the future.'", "hint": "Look for the most important sentence from the librarian." },
+    { "id": "q8", "prompt": "How does the librarian describe the policy?", "options": ["A perfect solution", "A small lie", "A quiet trade — inconvenience now for someone else's possibility later", "A new rule"], "answerIndex": 2, "explanation": "'It is a quiet trade. Your inconvenience now in exchange for someone else's possibility later.'", "hint": "Look for the phrase 'trade'." },
+    { "id": "q9", "prompt": "Does the reader fully accept the argument?", "options": ["Yes, immediately", "No, he says it is unfair to him today, but agrees to read inside", "He leaves angrily", "He buys his own copy"], "answerIndex": 1, "explanation": "'It still feels unfair to me, today.' Then: 'Okay. I'll read it here.'", "hint": "Look for partial agreement." },
+    { "id": "q10", "prompt": "What is the deeper question of this dialogue?", "options": ["Should libraries be free?", "Whom do public goods really serve — today's readers, or readers we will never meet?", "Should we read poetry?", "Are books too expensive?"], "answerIndex": 1, "explanation": "The conflict is between today's reader and future readers.", "hint": "Both characters care about readers — but which ones?" }
+  ],
+  "criticalThinkingQuestion": "Is it fair to ask one person to be inconvenienced today so that an unknown person in the future can have something? Where else in life do we make this kind of trade?"
+}

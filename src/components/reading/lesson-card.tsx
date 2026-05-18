@@ -1,11 +1,11 @@
 import Link from "next/link";
 import { CheckCircle2 } from "lucide-react";
 import { cn } from "@/lib/utils";
-import type { Lesson } from "@/lib/lessons/types";
+import type { LessonMeta } from "@/lib/lessons/types";
 import type { Attempt } from "@/lib/db/types";
 import { BookmarkButton } from "./bookmark-button";
 
-const LEVEL_CLASS: Record<Lesson["level"], string> = {
+const LEVEL_CLASS: Record<LessonMeta["level"], string> = {
   A1: "bg-level-a1 text-level-a1-foreground",
   A2: "bg-level-a2 text-level-a2-foreground",
   B1: "bg-level-b1 text-level-b1-foreground",
@@ -13,7 +13,7 @@ const LEVEL_CLASS: Record<Lesson["level"], string> = {
   C1: "bg-level-c1 text-level-c1-foreground",
 };
 
-export function LessonCard({ lesson, bestAttempt }: { lesson: Lesson; bestAttempt?: Attempt }) {
+export function LessonCard({ lesson, bestAttempt }: { lesson: LessonMeta; bestAttempt?: Attempt }) {
   return (
     <div className="group relative rounded-lg border bg-card text-card-foreground transition-shadow hover:shadow-md">
       <Link

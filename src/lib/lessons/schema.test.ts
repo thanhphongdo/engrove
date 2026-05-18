@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { lessonSchema, lessonsFileSchema } from "./schema";
+import { lessonSchema, lessonMetaSchema, lessonsIndexSchema } from "./schema";
 
 const valid = {
   id: "reading-a1-001",
@@ -52,9 +52,25 @@ describe("lessonSchema", () => {
   });
 });
 
-describe("lessonsFileSchema", () => {
-  it("accepts an array of lessons", () => {
-    expect(() => lessonsFileSchema.parse([valid])).not.toThrow();
+describe("lessonsIndexSchema", () => {
+  const meta = {
+    id: "reading-a1-001",
+    level: "A1",
+    title: "My first day in Paris",
+    summary: "A tourist arrives in Paris.",
+    tags: ["Travel"],
+  };
+
+  it("accepts a valid metadata entry", () => {
+    expect(() => lessonMetaSchema.parse(meta)).not.toThrow();
+  });
+
+  it("accepts an array of metadata entries", () => {
+    expect(() => lessonsIndexSchema.parse([meta])).not.toThrow();
+  });
+
+  it("rejects metadata with a bad level", () => {
+    expect(() => lessonMetaSchema.parse({ ...meta, level: "D1" })).toThrow();
   });
 });
 
