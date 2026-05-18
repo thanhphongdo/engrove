@@ -46,6 +46,16 @@
   --radius-2xl: calc(var(--radius) * 1.8);
   --radius-3xl: calc(var(--radius) * 2.2);
   --radius-4xl: calc(var(--radius) * 2.6);
+  --color-level-a1: var(--level-a1);
+  --color-level-a1-foreground: var(--level-a1-foreground);
+  --color-level-a2: var(--level-a2);
+  --color-level-a2-foreground: var(--level-a2-foreground);
+  --color-level-b1: var(--level-b1);
+  --color-level-b1-foreground: var(--level-b1-foreground);
+  --color-level-b2: var(--level-b2);
+  --color-level-b2-foreground: var(--level-b2-foreground);
+  --color-level-c1: var(--level-c1);
+  --color-level-c1-foreground: var(--level-c1-foreground);
 }
 
 :root {
@@ -81,6 +91,16 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+  --level-a1: oklch(0.85 0.13 145);          /* green */
+  --level-a1-foreground: oklch(0.30 0.07 145);
+  --level-a2: oklch(0.85 0.10 70);           /* amber */
+  --level-a2-foreground: oklch(0.32 0.07 70);
+  --level-b1: oklch(0.82 0.12 240);          /* blue */
+  --level-b1-foreground: oklch(0.30 0.10 240);
+  --level-b2: oklch(0.80 0.14 30);           /* orange */
+  --level-b2-foreground: oklch(0.32 0.10 30);
+  --level-c1: oklch(0.80 0.13 350);          /* rose */
+  --level-c1-foreground: oklch(0.32 0.10 350);
 }
 
 .dark {
@@ -115,6 +135,16 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
+  --level-a1: oklch(0.30 0.10 145);
+  --level-a1-foreground: oklch(0.90 0.10 145);
+  --level-a2: oklch(0.30 0.08 70);
+  --level-a2-foreground: oklch(0.90 0.08 70);
+  --level-b1: oklch(0.30 0.10 240);
+  --level-b1-foreground: oklch(0.90 0.10 240);
+  --level-b2: oklch(0.30 0.10 30);
+  --level-b2-foreground: oklch(0.90 0.10 30);
+  --level-c1: oklch(0.30 0.10 350);
+  --level-c1-foreground: oklch(0.90 0.10 350);
 }
 
 @layer base {
