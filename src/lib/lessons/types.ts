@@ -15,6 +15,17 @@ export type Question = {
   explanation: string;
   hint: string;
 };
+export type ClozeBlank = {
+  id: string;
+  options: [string, string, string, string];
+  answerIndex: 0 | 1 | 2 | 3;
+  explanation: string;
+};
+export type ClozeQuiz = {
+  /** Paragraph with {{blank-id}} placeholders, e.g. "I {{b1}} to Paris." */
+  template: string;
+  blanks: ClozeBlank[];
+};
 export type Lesson = {
   id: string;
   level: CefrLevel;
@@ -27,4 +38,5 @@ export type Lesson = {
   grammarNotes: GrammarNote[];
   translationVi: string;
   questions: Question[];
+  cloze?: ClozeQuiz;
 };

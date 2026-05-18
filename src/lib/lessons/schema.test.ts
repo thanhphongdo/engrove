@@ -57,3 +57,59 @@ describe("lessonsFileSchema", () => {
     expect(() => lessonsFileSchema.parse([valid])).not.toThrow();
   });
 });
+
+describe("lessonSchema cloze", () => {
+  const withCloze = {
+    ...valid,
+    cloze: {
+      template: "I {{b1}} home.",
+      blanks: [
+        {
+          id: "b1",
+          options: ["went", "go", "going", "gone"],
+          answerIndex: 0,
+          explanation: "Past simple.",
+        },
+      ],
+    },
+  };
+
+  it("accepts a valid cloze", () => {
+    expect(() => lessonSchema.parse(withCloze)).not.toThrow();
+  });
+
+  it("rejects when a placeholder has no matching blank", () => {
+    const bad = {
+      ...withCloze,
+      cloze: { ...withCloze.cloze, template: "I {{missing}} home." },
+    };
+    expect(() => lessonSchema.parse(bad)).toThrow();
+  });
+
+  it("rejects when a blank is not referenced by the template", () => {
+    const bad = {
+      ...withCloze,
+      cloze: {
+        ...withCloze.cloze,
+        blanks: [
+          ...withCloze.cloze.blanks,
+          {
+            id: "b2",
+            options: ["a", "b", "c", "d"] as [string, string, string, string],
+            answerIndex: 0 as 0 | 1 | 2 | 3,
+            explanation: "",
+          },
+        ],
+      },
+    };
+    expect(() => lessonSchema.parse(bad)).toThrow();
+  });
+
+  it("rejects duplicate placeholder ids", () => {
+    const bad = {
+      ...withCloze,
+      cloze: { ...withCloze.cloze, template: "{{b1}} and {{b1}}" },
+    };
+    expect(() => lessonSchema.parse(bad)).toThrow();
+  });
+});

@@ -27,15 +27,27 @@ export type Attempt = {
   startedAt: number;
   completedAt: number;
   durationMs: number;
+  /** Combined score (mcScore + clozeScore). */
   score: number;
+  /** Combined total (mcTotal + clozeTotal). */
   total: number;
+  mcScore: number;
+  mcTotal: number;
+  clozeScore: number;
+  clozeTotal: number;
+  /** MC picks. */
   answers: AnswerRow[];
+  /** Present only when the lesson had a cloze quiz. */
+  clozeAnswers?: AnswerRow[];
 };
 
 export type Draft = {
   profileId: string;
   lessonId: string;
+  /** MC picks keyed by question id. */
   answers: Record<string, number>;
+  /** Cloze picks keyed by blank id. */
+  clozePicks: Record<string, number>;
   durationMs: number;
   updatedAt: number;
 };

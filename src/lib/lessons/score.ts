@@ -1,4 +1,4 @@
-import type { Question } from "./types";
+import type { ClozeBlank, Question } from "./types";
 
 export type AnswerRow = {
   questionId: string;
@@ -27,6 +27,29 @@ export function scoreQuiz(
   return {
     score: answers.filter((a) => a.correct).length,
     total: questions.length,
+    answers,
+  };
+}
+
+/**
+ * Mirrors scoreQuiz for cloze blanks. The shape returned is identical so the
+ * QuizSection can combine MC + cloze results uniformly.
+ */
+export function scoreCloze(
+  blanks: ClozeBlank[],
+  picks: Record<string, number>,
+): ScoreResult {
+  const answers: AnswerRow[] = blanks.map((b) => {
+    const pickedIndex = b.id in picks ? picks[b.id] : null;
+    return {
+      questionId: b.id,
+      pickedIndex,
+      correct: pickedIndex === b.answerIndex,
+    };
+  });
+  return {
+    score: answers.filter((a) => a.correct).length,
+    total: blanks.length,
     answers,
   };
 }

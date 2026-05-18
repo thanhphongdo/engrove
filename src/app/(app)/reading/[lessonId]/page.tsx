@@ -15,7 +15,11 @@ import { GrammarNotes } from "@/components/reading/grammar-notes";
 import { HintSettingsPopover } from "@/components/reading/hint-settings-popover";
 import { usePreferences } from "@/lib/db/use-preferences";
 import { useActiveProfileId } from "@/lib/db/use-active-profile";
-import { Quiz } from "@/components/reading/quiz";
+import { QuizSection } from "@/components/reading/quiz-section";
+import { MCQuestions } from "@/components/reading/mc-questions";
+import { ClozeBlock } from "@/components/reading/cloze-block";
+import { ClozeReview } from "@/components/reading/cloze-review";
+import { QuizFooter } from "@/components/reading/quiz-footer";
 import { ResumeBanner } from "@/components/reading/resume-banner";
 import { LayoutToggle } from "@/components/reading/layout-toggle";
 import { AttemptHistory } from "@/components/reading/attempt-history";
@@ -39,7 +43,6 @@ export default function LessonDetailPage({ params }: { params: Promise<{ lessonI
   );
   const reset = useTimerStore((s) => s.reset);
   const prefs = usePreferences();
-  // draft is undefined while loading, null when confirmed absent, Draft object when present
   const draft = useLiveQuery(() => getDraft(profileId, lessonId), [profileId, lessonId]);
 
   async function abandonDraft() {
@@ -56,7 +59,6 @@ export default function LessonDetailPage({ params }: { params: Promise<{ lessonI
     undefined,
   );
 
-  // draft === undefined means still loading; null means no draft exists
   const hasDraft = draft != null;
 
   return (
@@ -97,34 +99,46 @@ export default function LessonDetailPage({ params }: { params: Promise<{ lessonI
         <strong className="not-italic">Summary:</strong> {lesson.summary}
       </div>
 
-      {hasDraft && <ResumeBanner onAbandon={abandonDraft} />}
-
-      <div
-        className={
-          prefs.detailLayout === "two-column"
-            ? "grid grid-cols-1 gap-4 lg:grid-cols-[1.2fr_1fr]"
-            : "flex flex-col gap-4"
-        }
+      <QuizSection
+        key={`${lessonId}-${hasDraft ? "draft" : "fresh"}`}
+        lesson={lesson}
+        initialPicks={draft?.answers ?? {}}
+        initialClozePicks={draft?.clozePicks ?? {}}
+        initialDurationMs={draft?.durationMs ?? 0}
+        onAttemptSaved={() => {}}
       >
-        <section className="rounded-md border bg-card p-4">
-          <Passage
-            lesson={lesson}
-            showAnnotations={prefs.hintToggles.vocabVi}
-            showTranslation={prefs.hintToggles.passageTranslation}
-          />
-          {prefs.hintToggles.grammar && <GrammarNotes notes={lesson.grammarNotes} />}
-        </section>
-        <section className="rounded-md border bg-card p-4">
-          <Quiz
-            key={`${lessonId}-${hasDraft ? "draft" : "fresh"}`}
-            lesson={lesson}
-            showHint={prefs.hintToggles.perQuestionHint}
-            initialPicks={draft?.answers ?? {}}
-            initialDurationMs={draft?.durationMs ?? 0}
-            onAttemptSaved={() => {}}
-          />
-        </section>
-      </div>
+        {hasDraft && <ResumeBanner onAbandon={abandonDraft} />}
+
+        <div
+          className={
+            prefs.detailLayout === "two-column"
+              ? "grid grid-cols-1 gap-4 lg:grid-cols-[1.2fr_1fr]"
+              : "flex flex-col gap-4"
+          }
+        >
+          <section className="rounded-md border bg-card p-4">
+            <Passage
+              lesson={lesson}
+              showAnnotations={prefs.hintToggles.vocabVi}
+              showTranslation={prefs.hintToggles.passageTranslation}
+            />
+            {prefs.hintToggles.grammar && <GrammarNotes notes={lesson.grammarNotes} />}
+          </section>
+          <section className="rounded-md border bg-card p-4">
+            <MCQuestions showHint={prefs.hintToggles.perQuestionHint} />
+          </section>
+        </div>
+
+        {lesson.cloze && (
+          <section className="mt-4 rounded-md border bg-card p-4">
+            <ClozeBlock />
+            <ClozeReview />
+          </section>
+        )}
+
+        <QuizFooter />
+      </QuizSection>
+
       <AttemptHistory lessonId={lessonId} />
     </div>
   );

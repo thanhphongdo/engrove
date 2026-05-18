@@ -32,6 +32,16 @@
       { "id": "q8", "prompt": "What did the writer find beautiful?", "options": ["The hotel", "The café", "The lights on the bridges", "The taxi driver"], "answerIndex": 2, "explanation": "'The lights on the bridges were beautiful.'", "hint": "What's the last thing described?" },
       { "id": "q9", "prompt": "Which tense is mostly used in this passage?", "options": ["Present simple", "Past simple", "Present perfect", "Future"], "answerIndex": 1, "explanation": "Past simple — completed past actions like 'arrived', 'took', 'went'.", "hint": "Check the grammar note." },
       { "id": "q10", "prompt": "Which best describes the writer's day?", "options": ["Frustrating and bad", "Boring and slow", "A mix of new experiences", "Lonely and sad"], "answerIndex": 2, "explanation": "The passage describes arriving, a friendly mishap at a café, and an enjoyable walk — a mix of new experiences.", "hint": "Think about the overall tone." }
-    ]
+    ],
+    "cloze": {
+      "template": "Yesterday I {{b1}} in Paris. The airport was {{b2}}. I took a {{b3}} to my hotel near the {{b4}}. At night, the lights on the bridges were {{b5}}.",
+      "blanks": [
+        { "id": "b1", "options": ["arrived", "arrive", "arriving", "arrives"], "answerIndex": 0, "explanation": "Past simple for a completed action in the past." },
+        { "id": "b2", "options": ["quiet", "very busy", "empty", "small"], "answerIndex": 1, "explanation": "The passage says the airport was very busy." },
+        { "id": "b3", "options": ["bus", "taxi", "train", "boat"], "answerIndex": 1, "explanation": "The passage says: 'I took a taxi to my hotel.'" },
+        { "id": "b4", "options": ["mountain", "park", "sea", "river"], "answerIndex": 3, "explanation": "The passage says the hotel was near the river." },
+        { "id": "b5", "options": ["dark", "beautiful", "broken", "small"], "answerIndex": 1, "explanation": "The passage says the lights on the bridges were beautiful." }
+      ]
+    }
   }
 ]
