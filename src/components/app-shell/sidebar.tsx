@@ -1,3 +1,5 @@
+"use client";
+
 import { NAV_ITEMS } from "./nav-config";
 import { SidebarItem } from "./sidebar-item";
 import { ThemeToggle } from "./theme-toggle";
