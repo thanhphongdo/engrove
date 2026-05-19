@@ -5,6 +5,8 @@ import {
   sortLessons,
   buildFuse,
   searchLessons,
+  normalizeRanges,
+  buildHighlightMap,
 } from "./search-and-sort";
 import type { LessonMeta, CefrLevel } from "./types";
 
@@ -144,5 +146,126 @@ describe("searchLessons", () => {
     const fuse = buildFuse(lessons);
     const out = searchLessons(lessons, "intervew", fuse); // missing 'i'
     expect(out.map((l) => l.id)).toContain("4");
+  });
+});
+
+describe("searchLessons (tags)", () => {
+  it("matches when the query appears only in a lesson's tags", () => {
+    const lessons: LessonMeta[] = [
+      lesson(
+        "1",
+        "A1",
+        "Quiet evening",
+        "A short text about staying in.",
+        ["coffee", "relaxation"],
+      ),
+      lesson("2", "A1", "Daily walk", "A walk through the park.", ["exercise"]),
+    ];
+    const fuse = buildFuse(lessons);
+    const out = searchLessons(lessons, "coffee", fuse);
+    expect(out.map((l) => l.id)).toContain("1");
+    expect(out.map((l) => l.id)).not.toContain("2");
+  });
+});
+
+describe("normalizeRanges", () => {
+  it("returns [] for an empty input", () => {
+    expect(normalizeRanges([], 10)).toEqual([]);
+  });
+
+  it("passes a single in-bounds range through unchanged", () => {
+    expect(normalizeRanges([[2, 5]], 10)).toEqual([[2, 5]]);
+  });
+
+  it("clamps end past textLength", () => {
+    expect(normalizeRanges([[2, 20]], 10)).toEqual([[2, 10]]);
+  });
+
+  it("drops a range with start < 0", () => {
+    expect(normalizeRanges([[-1, 4]], 10)).toEqual([]);
+  });
+
+  it("drops a range where start >= end after clamping", () => {
+    expect(normalizeRanges([[5, 5]], 10)).toEqual([]);
+    expect(normalizeRanges([[12, 15]], 10)).toEqual([]);
+  });
+
+  it("merges overlapping ranges", () => {
+    expect(normalizeRanges([[2, 6], [4, 8]], 10)).toEqual([[2, 8]]);
+  });
+
+  it("merges adjacent ranges", () => {
+    expect(normalizeRanges([[0, 3], [3, 5]], 10)).toEqual([[0, 5]]);
+  });
+
+  it("sorts unsorted input by start", () => {
+    expect(normalizeRanges([[5, 7], [0, 2]], 10)).toEqual([[0, 2], [5, 7]]);
+  });
+});
+
+describe("buildHighlightMap", () => {
+  const lessons: LessonMeta[] = [
+    lesson(
+      "1",
+      "A1",
+      "Ordering coffee",
+      "A short dialogue at a busy café.",
+      ["coffee", "morning"],
+    ),
+    lesson(
+      "2",
+      "A1",
+      "At the library",
+      "Borrowing books and asking for help.",
+      ["books", "help"],
+    ),
+    lesson(
+      "3",
+      "B1",
+      "Job interview",
+      "Talking about strengths at work.",
+      ["careers"],
+    ),
+  ];
+
+  it("returns an empty map for an empty query", () => {
+    const fuse = buildFuse(lessons);
+    expect(buildHighlightMap(fuse, "").size).toBe(0);
+  });
+
+  it("returns an empty map for a whitespace-only query", () => {
+    const fuse = buildFuse(lessons);
+    expect(buildHighlightMap(fuse, "   ").size).toBe(0);
+  });
+
+  it("omits lessons that did not match", () => {
+    const fuse = buildFuse(lessons);
+    const map = buildHighlightMap(fuse, "library");
+    expect(map.has("2")).toBe(true);
+    expect(map.has("1")).toBe(false);
+    expect(map.has("3")).toBe(false);
+  });
+
+  it("partitions matches into title / summary / tag ranges", () => {
+    const fuse = buildFuse(lessons);
+    const map = buildHighlightMap(fuse, "coffee");
+    const h = map.get("1");
+    expect(h).toBeDefined();
+    expect(h!.titleRanges.length).toBeGreaterThan(0);
+    expect(h!.summaryRanges.length).toBe(0);
+    expect(h!.tagRanges.get("coffee")).toBeDefined();
+    expect(h!.tagRanges.get("coffee")!.length).toBeGreaterThan(0);
+  });
+
+  it("keys tagRanges by the exact tag string and stores ranges within that tag", () => {
+    const fuse = buildFuse(lessons);
+    const map = buildHighlightMap(fuse, "books");
+    const h = map.get("2");
+    expect(h).toBeDefined();
+    expect(h!.tagRanges.has("books")).toBe(true);
+    const ranges = h!.tagRanges.get("books")!;
+    // "books" matched at start of the tag string "books"
+    expect(ranges[0][0]).toBe(0);
+    expect(ranges[0][1]).toBe(5);
   });
 });
