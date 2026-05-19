@@ -43,7 +43,12 @@ export function QuizFooter() {
           clozeTotal={clozeResult?.total ?? null}
           durationMs={finalDurationMs}
         />
-        <Button type="button" variant="outline" className="w-full" onClick={retry}>
+        <Button
+          type="button"
+          variant="outline"
+          className="w-full"
+          onClick={retry}
+        >
           Retry
         </Button>
       </div>
@@ -59,33 +64,39 @@ export function QuizFooter() {
   return (
     <div className="mt-4 space-y-2">
       <p className="text-xs text-muted-foreground">{counterLine}</p>
-      {unanswered > 0 ? (
-        <AlertDialog>
-          <AlertDialogTrigger asChild>
-            <Button type="button" className="w-full">
-              Submit
-            </Button>
-          </AlertDialogTrigger>
-          <AlertDialogContent>
-            <AlertDialogHeader>
-              <AlertDialogTitle>
-                {unanswered} question{unanswered === 1 ? "" : "s"} unanswered
-              </AlertDialogTitle>
-              <AlertDialogDescription>
-                Unanswered questions count as wrong. Submit anyway?
-              </AlertDialogDescription>
-            </AlertDialogHeader>
-            <AlertDialogFooter>
-              <AlertDialogCancel>Cancel</AlertDialogCancel>
-              <AlertDialogAction onClick={submit}>Submit</AlertDialogAction>
-            </AlertDialogFooter>
-          </AlertDialogContent>
-        </AlertDialog>
-      ) : (
-        <Button type="button" className="w-full" onClick={submit}>
-          Submit
-        </Button>
-      )}
+      <div className="flex justify-center">
+        {unanswered > 0 ? (
+          <AlertDialog>
+            <AlertDialogTrigger asChild>
+              <Button type="button" className="w-full sm:w-auto sm:min-w-80">
+                Submit
+              </Button>
+            </AlertDialogTrigger>
+            <AlertDialogContent>
+              <AlertDialogHeader>
+                <AlertDialogTitle>
+                  {unanswered} question{unanswered === 1 ? "" : "s"} unanswered
+                </AlertDialogTitle>
+                <AlertDialogDescription>
+                  Unanswered questions count as wrong. Submit anyway?
+                </AlertDialogDescription>
+              </AlertDialogHeader>
+              <AlertDialogFooter>
+                <AlertDialogCancel>Cancel</AlertDialogCancel>
+                <AlertDialogAction onClick={submit}>Submit</AlertDialogAction>
+              </AlertDialogFooter>
+            </AlertDialogContent>
+          </AlertDialog>
+        ) : (
+          <Button
+            type="button"
+            className="w-full sm:w-auto sm:min-w-80"
+            onClick={submit}
+          >
+            Submit
+          </Button>
+        )}
+      </div>
     </div>
   );
 }

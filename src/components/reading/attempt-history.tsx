@@ -1,8 +1,22 @@
 "use client";
 
 import { useLiveQuery } from "dexie-react-hooks";
-import { listAttemptsForLesson } from "@/lib/db/queries";
+import { RotateCcw } from "lucide-react";
+import { toast } from "sonner";
+import { listAttemptsForLesson, resetLessonProgress } from "@/lib/db/queries";
 import { useActiveProfileId } from "@/lib/db/use-active-profile";
+import { useTimerStore } from "@/stores/timer-store";
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from "@/components/ui/alert-dialog";
 
 function fmtDate(ms: number) {
   return new Date(ms).toLocaleString();
@@ -15,14 +29,51 @@ function fmtDuration(ms: number) {
 
 export function AttemptHistory({ lessonId }: { lessonId: string }) {
   const profileId = useActiveProfileId();
+  const resetTimer = useTimerStore((s) => s.reset);
   const attempts = useLiveQuery(
     () => listAttemptsForLesson(profileId, lessonId),
     [profileId, lessonId],
   );
   if (!attempts || attempts.length === 0) return null;
+
+  async function handleReset() {
+    await resetLessonProgress(profileId, lessonId);
+    resetTimer();
+    toast.success("Lesson progress reset");
+  }
+
   return (
     <section className="mt-6 rounded-md border bg-card p-4 shadow-md dark:shadow-[0_4px_20px_rgba(255,255,255,0.035)]">
-      <h2 className="mb-2 text-sm font-semibold">Attempt history</h2>
+      <div className="mb-2 flex items-center justify-between gap-2">
+        <h2 className="text-sm font-semibold">Attempt history</h2>
+        <AlertDialog>
+          <AlertDialogTrigger asChild>
+            <button
+              type="button"
+              className="inline-flex items-center gap-1 text-xs text-muted-foreground hover:text-destructive"
+            >
+              <RotateCcw className="size-3" aria-hidden="true" />
+              Reset progress
+            </button>
+          </AlertDialogTrigger>
+          <AlertDialogContent>
+            <AlertDialogHeader>
+              <AlertDialogTitle>Reset lesson progress?</AlertDialogTitle>
+              <AlertDialogDescription>
+                This deletes all attempts and any in-progress draft for this
+                lesson, including your best score. Bookmarks, notes, and saved
+                vocab are kept. This cannot be undone.
+              </AlertDialogDescription>
+            </AlertDialogHeader>
+            <AlertDialogFooter>
+              <AlertDialogCancel>Cancel</AlertDialogCancel>
+              <AlertDialogAction onClick={handleReset}>
+                Reset
+              </AlertDialogAction>
+            </AlertDialogFooter>
+          </AlertDialogContent>
+        </AlertDialog>
+      </div>
       <table className="w-full text-xs">
         <thead className="text-muted-foreground">
           <tr>

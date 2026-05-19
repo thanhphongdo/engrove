@@ -41,7 +41,7 @@ function renderDialogueText(text: string, atLineStart: boolean, keyBase: string)
   );
 }
 
-function BlankSelect({ blank }: { blank: ClozeBlank }) {
+function BlankSelect({ blank, index }: { blank: ClozeBlank; index: number }) {
   const { clozePicks, setClozePick, reviewMode } = useQuiz();
   const value = clozePicks[blank.id];
   const correct = value === blank.answerIndex;
@@ -56,6 +56,16 @@ function BlankSelect({ blank }: { blank: ClozeBlank }) {
             : "border-red-500/60 bg-red-500/10 text-red-700 dark:text-red-300",
         )}
       >
+        <span
+          className={cn(
+            "text-[10px] font-semibold tabular-nums",
+            correct
+              ? "text-green-600/80 dark:text-green-400/80"
+              : "text-red-600/80 dark:text-red-400/80",
+          )}
+        >
+          {index}.
+        </span>
         {value === undefined ? "—" : blank.options[value]}
         {correct ? (
           <Check className="size-3" aria-hidden="true" />
@@ -104,12 +114,21 @@ export function ClozeBlock() {
 
   const blankCount = lesson.cloze.blanks.length;
   const isDialogue = lesson.format === "dialogue";
+  const blankIndexById = new Map(
+    lesson.cloze.blanks.map((b, i) => [b.id, i + 1] as const),
+  );
 
   const nodes: ReactNode[] = [];
   let atLineStart = true;
   segments.forEach((seg, i) => {
     if (seg.kind === "blank") {
-      nodes.push(<BlankSelect key={`b${i}`} blank={seg.blank} />);
+      nodes.push(
+        <BlankSelect
+          key={`b${i}`}
+          blank={seg.blank}
+          index={blankIndexById.get(seg.blank.id) ?? 0}
+        />,
+      );
       atLineStart = false;
       return;
     }

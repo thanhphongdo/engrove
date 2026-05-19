@@ -6,6 +6,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { useReadingLessonsIndex } from "@/lib/lessons/load";
 import { useDefaultBestAttempts } from "@/lib/db/use-best-attempts";
 import { useBookmarks } from "@/lib/db/use-bookmarks";
+import { useDrafts } from "@/lib/db/use-drafts";
 import { FilterChipRow, type ChipOption } from "@/components/reading/filter-chip-row";
 import { TagFilterRow } from "@/components/reading/tag-filter-row";
 import { LessonCard } from "@/components/reading/lesson-card";
@@ -33,8 +34,17 @@ const LEVEL_OPTIONS: ChipOption[] = [
 
 const SORT_STORAGE_KEY = "reading:sortBy";
 
+const STATUS_VALUES = ["learning", "learned"] as const;
+type Status = (typeof STATUS_VALUES)[number];
+
 function parseList(value: string | null): string[] {
   return value ? value.split(",").filter(Boolean) : [];
+}
+
+function parseStatus(value: string | null): Status | null {
+  return value && (STATUS_VALUES as readonly string[]).includes(value)
+    ? (value as Status)
+    : null;
 }
 
 function ReadingHubContent() {
@@ -43,10 +53,12 @@ function ReadingHubContent() {
   const selectedLevels = parseList(params.get("levels"));
   const selectedTags = parseList(params.get("tags"));
   const favoritesOnly = params.get("favorites") === "1";
+  const status = parseStatus(params.get("status"));
 
   const { data: lessons, isLoading } = useReadingLessonsIndex();
   const bestByLesson = useDefaultBestAttempts();
   const bookmarks = useBookmarks();
+  const drafts = useDrafts();
 
   const [query, setQuery] = useState("");
   const [sortBy, setSortBy] = useLocalStorageString<SortBy>(
@@ -67,7 +79,7 @@ function ReadingHubContent() {
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setRandomSeed(Math.floor(Math.random() * 0xffffffff));
-  }, [levelsKey, tagsKey, favoritesOnly]);
+  }, [levelsKey, tagsKey, favoritesOnly, status]);
 
   const tagCounts = useMemo(() => {
     const counts = new Map<string, number>();
@@ -83,9 +95,20 @@ function ReadingHubContent() {
       if (selectedLevels.length && !selectedLevels.includes(l.level)) return false;
       if (selectedTags.length && !selectedTags.some((t) => l.tags.includes(t))) return false;
       if (favoritesOnly && !bookmarks?.has(l.id)) return false;
+      if (status === "learned" && !bestByLesson?.has(l.id)) return false;
+      if (status === "learning" && !drafts?.has(l.id)) return false;
       return true;
     });
-  }, [lessons, selectedLevels, selectedTags, favoritesOnly, bookmarks]);
+  }, [
+    lessons,
+    selectedLevels,
+    selectedTags,
+    favoritesOnly,
+    bookmarks,
+    status,
+    bestByLesson,
+    drafts,
+  ]);
 
   const fuse = useMemo(() => buildFuse(filtered), [filtered]);
 
@@ -120,13 +143,24 @@ function ReadingHubContent() {
     router.replace(`/reading?${sp.toString()}`);
   }
 
+  function setStatus(next: Status | null) {
+    const sp = new URLSearchParams(params.toString());
+    if (next === null) sp.delete("status");
+    else sp.set("status", next);
+    router.replace(`/reading?${sp.toString()}`);
+  }
+
   function clearAllFilters() {
     setQuery("");
     router.replace("/reading");
   }
 
   const hasActiveFilters =
-    selectedLevels.length > 0 || selectedTags.length > 0 || favoritesOnly || isSearching;
+    selectedLevels.length > 0 ||
+    selectedTags.length > 0 ||
+    favoritesOnly ||
+    status !== null ||
+    isSearching;
 
   return (
     <div className="mx-auto w-full max-w-6xl px-4 py-4 sm:px-6 sm:py-6">
@@ -164,6 +198,32 @@ function ReadingHubContent() {
             aria-hidden="true"
           />
           Favorites
+        </button>
+        <button
+          type="button"
+          onClick={() => setStatus(status === "learning" ? null : "learning")}
+          aria-pressed={status === "learning"}
+          className={cn(
+            "rounded-full border px-2.5 py-0.5 text-xs transition-colors",
+            status === "learning"
+              ? "border-sky-500/40 bg-sky-500/15 text-sky-700 dark:text-sky-300"
+              : "border-border text-muted-foreground hover:bg-accent",
+          )}
+        >
+          Learning
+        </button>
+        <button
+          type="button"
+          onClick={() => setStatus(status === "learned" ? null : "learned")}
+          aria-pressed={status === "learned"}
+          className={cn(
+            "rounded-full border px-2.5 py-0.5 text-xs transition-colors",
+            status === "learned"
+              ? "border-emerald-500/40 bg-emerald-500/15 text-emerald-700 dark:text-emerald-300"
+              : "border-border text-muted-foreground hover:bg-accent",
+          )}
+        >
+          Learned
         </button>
         <div className="ml-auto">
           <SortSelect value={sortBy} onChange={setSortBy} />

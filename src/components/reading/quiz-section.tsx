@@ -11,10 +11,21 @@ import {
   type ReactNode,
 } from "react";
 import { toast } from "sonner";
+import { Play } from "lucide-react";
 import { scoreCloze, scoreQuiz, type ScoreResult } from "@/lib/lessons/score";
 import { saveAttempt, deleteDraft, upsertDraft } from "@/lib/db/queries";
 import { useTimerStore } from "@/stores/timer-store";
 import { useActiveProfileId } from "@/lib/db/use-active-profile";
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+} from "@/components/ui/alert-dialog";
 import type { Lesson } from "@/lib/lessons/types";
 
 type Picks = Record<string, number>;
@@ -67,10 +78,15 @@ export function QuizSection({
   const [clozeResult, setClozeResult] = useState<ScoreResult | null>(null);
   const [finalDurationMs, setFinalDurationMs] = useState(0);
 
-  const stopTimer = useTimerStore((s) => s.stop);
+  const finishTimer = useTimerStore((s) => s.finish);
   const resetTimer = useTimerStore((s) => s.reset);
   const hydrate = useTimerStore((s) => s.hydrate);
-  const running = useTimerStore((s) => s.running);
+  const beginTimer = useTimerStore((s) => s.begin);
+  const resumeTimer = useTimerStore((s) => s.resume);
+  const status = useTimerStore((s) => s.status);
+  const running = status === "running";
+  const prevStatusRef = useRef(status);
+  const [startPromptOpen, setStartPromptOpen] = useState(false);
 
   const startedAtRef = useRef<number | null>(null);
   const ensureStartedAt = useCallback(() => {
@@ -119,19 +135,33 @@ export function QuizSection({
 
   const setMcPick = useCallback(
     (id: string, index: number) => {
+      if (status !== "running") {
+        setStartPromptOpen(true);
+        return;
+      }
       ensureStartedAt();
       setMcPicks((p) => ({ ...p, [id]: index }));
     },
-    [ensureStartedAt],
+    [ensureStartedAt, status],
   );
 
   const setClozePick = useCallback(
     (id: string, index: number) => {
+      if (status !== "running") {
+        setStartPromptOpen(true);
+        return;
+      }
       ensureStartedAt();
       setClozePicks((p) => ({ ...p, [id]: index }));
     },
-    [ensureStartedAt],
+    [ensureStartedAt, status],
   );
+
+  const handleStartFromPrompt = useCallback(() => {
+    if (status === "paused") resumeTimer();
+    else beginTimer();
+    setStartPromptOpen(false);
+  }, [status, beginTimer, resumeTimer]);
 
   const mcTotal = lesson.questions.length;
   const clozeTotal = lesson.cloze ? lesson.cloze.blanks.length : 0;
@@ -143,7 +173,7 @@ export function QuizSection({
 
   const submit = useCallback(async () => {
     ensureStartedAt();
-    stopTimer();
+    finishTimer();
     const durationMs = useTimerStore.getState().accumulatedMs;
     setFinalDurationMs(durationMs);
 
@@ -177,7 +207,7 @@ export function QuizSection({
     onAttemptSaved();
   }, [
     ensureStartedAt,
-    stopTimer,
+    finishTimer,
     lesson.questions,
     lesson.cloze,
     lesson.id,
@@ -197,6 +227,21 @@ export function QuizSection({
     resetTimer();
   }, [resetTimer]);
 
+  // A stopped → running transition is only reachable via begin() — i.e. the
+  // user wants a fresh attempt. Wipe any prior picks, including review state
+  // left over after a submit.
+  useEffect(() => {
+    const prev = prevStatusRef.current;
+    prevStatusRef.current = status;
+    if (prev !== "stopped" || status !== "running") return;
+    setMcPicks({});
+    setClozePicks({});
+    setMcResult(null);
+    setClozeResult(null);
+    setFinalDurationMs(0);
+    startedAtRef.current = null;
+  }, [status]);
+
   const value: QuizContextValue = {
     lesson,
     mcPicks,
@@ -213,5 +258,32 @@ export function QuizSection({
     retry,
   };
 
-  return <QuizContext.Provider value={value}>{children}</QuizContext.Provider>;
+  return (
+    <QuizContext.Provider value={value}>
+      {children}
+      <AlertDialog open={startPromptOpen} onOpenChange={setStartPromptOpen}>
+        <AlertDialogContent>
+          <AlertDialogHeader>
+            <AlertDialogTitle>
+              {status === "paused"
+                ? "Resume the timer to continue"
+                : "Start the timer to begin"}
+            </AlertDialogTitle>
+            <AlertDialogDescription>
+              {status === "paused"
+                ? "Your attempt is paused. Press Resume to continue answering."
+                : "Press Begin to start answering questions. The timer will start counting."}
+            </AlertDialogDescription>
+          </AlertDialogHeader>
+          <AlertDialogFooter>
+            <AlertDialogCancel>Not now</AlertDialogCancel>
+            <AlertDialogAction onClick={handleStartFromPrompt}>
+              <Play className="mr-1 size-3.5" aria-hidden="true" />
+              {status === "paused" ? "Resume" : "Begin"}
+            </AlertDialogAction>
+          </AlertDialogFooter>
+        </AlertDialogContent>
+      </AlertDialog>
+    </QuizContext.Provider>
+  );
 }

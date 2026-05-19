@@ -34,7 +34,7 @@ export function MobileSidebar() {
         onClick={() => setOpen(true)}
         aria-label="Open navigation menu"
         aria-expanded={open}
-        className="fixed left-3 top-3 z-40 inline-flex size-9 items-center justify-center rounded-md border border-border bg-background/90 text-foreground shadow-sm backdrop-blur transition-colors hover:bg-accent md:hidden"
+        className="fixed right-3 top-3 z-40 inline-flex size-9 items-center justify-center rounded-md bg-transparent text-foreground transition-colors hover:bg-accent/40 md:hidden"
       >
         <Menu className="size-4" aria-hidden="true" />
       </button>

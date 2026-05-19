@@ -8,7 +8,7 @@ export function ClozeReview() {
   if (!reviewMode || !lesson.cloze) return null;
 
   return (
-    <div className="mt-3 space-y-2 rounded-md border bg-muted/30 p-3 text-xs">
+    <div className="mt-4 space-y-2 border-t pt-3 text-xs">
       <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
         Cloze answers
       </p>

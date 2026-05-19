@@ -1,10 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { Check, Plus } from "lucide-react";
+import { Check, Plus, Volume2 } from "lucide-react";
 import { toast } from "sonner";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { useSaveVocab } from "@/lib/db/use-vocab";
+import { useSpeak } from "@/lib/use-speak";
 import type { Annotation } from "@/lib/lessons/types";
 
 export function PassageAnnotation({
@@ -17,6 +18,7 @@ export function PassageAnnotation({
   sourceLessonId: string;
 }) {
   const saveVocab = useSaveVocab();
+  const { speak, state: speakState, supported: speakSupported } = useSpeak();
   const [saveState, setSaveState] = useState<"idle" | "saved" | "duplicate">("idle");
 
   async function handleSave() {
@@ -47,14 +49,27 @@ export function PassageAnnotation({
         </button>
       </PopoverTrigger>
       <PopoverContent className="w-64 text-sm">
-        <p className="font-semibold">
-          {annotation.phrase}
-          {annotation.pronunciation && (
-            <span className="ml-2 font-normal text-muted-foreground">
-              {annotation.pronunciation}
-            </span>
+        <div className="flex items-center gap-2">
+          <p className="font-semibold">
+            {annotation.phrase}
+            {annotation.pronunciation && (
+              <span className="ml-2 font-normal text-muted-foreground">
+                {annotation.pronunciation}
+              </span>
+            )}
+          </p>
+          {speakSupported && (
+            <button
+              type="button"
+              onClick={() => speak(annotation.phrase)}
+              aria-label={`Listen to "${annotation.phrase}"`}
+              className="inline-flex size-6 shrink-0 items-center justify-center rounded text-muted-foreground hover:bg-muted hover:text-foreground disabled:opacity-50"
+              disabled={speakState === "speaking"}
+            >
+              <Volume2 className="size-3.5" aria-hidden="true" />
+            </button>
           )}
-        </p>
+        </div>
         <p className="mt-1 text-sm">{annotation.meaningVi}</p>
         {annotation.exampleEn && (
           <p className="mt-1 text-xs italic text-muted-foreground">{annotation.exampleEn}</p>

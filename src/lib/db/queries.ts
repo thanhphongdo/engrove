@@ -118,6 +118,22 @@ export async function deleteDraft(
   await db.drafts.delete([profileId, lessonId]);
 }
 
+export async function resetLessonProgress(
+  profileId: string,
+  lessonId: string,
+): Promise<void> {
+  await db.transaction("rw", db.attempts, db.drafts, async () => {
+    const keys = await db.attempts
+      .where("[profileId+lessonId]")
+      .equals([profileId, lessonId])
+      .primaryKeys();
+    if (keys.length > 0) {
+      await db.attempts.bulkDelete(keys as string[]);
+    }
+    await db.drafts.delete([profileId, lessonId]);
+  });
+}
+
 // ─── Bookmarks ────────────────────────────────────────────────────────────────
 
 export async function listBookmarkedLessonIds(profileId: string): Promise<string[]> {

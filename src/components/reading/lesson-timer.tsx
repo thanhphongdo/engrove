@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Play, Pause } from "lucide-react";
+import { Play, Pause, Square } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTimerStore } from "@/stores/timer-store";
 
@@ -13,17 +13,18 @@ function format(ms: number): string {
 }
 
 export function LessonTimer() {
-  const running = useTimerStore((s) => s.running);
-  const start = useTimerStore((s) => s.start);
-  const stop = useTimerStore((s) => s.stop);
+  const status = useTimerStore((s) => s.status);
+  const begin = useTimerStore((s) => s.begin);
+  const pause = useTimerStore((s) => s.pause);
+  const resume = useTimerStore((s) => s.resume);
+  const finish = useTimerStore((s) => s.finish);
   const accumulatedMs = useTimerStore((s) => s.accumulatedMs);
-  // liveMs is only active when running; updated by an interval callback.
   const [liveMs, setLiveMs] = useState(0);
+
+  const running = status === "running";
 
   useEffect(() => {
     if (!running) return;
-    // Update display every 500 ms by reading store state inside the callback
-    // (not during render — no purity violation).
     const tick = () => {
       setLiveMs(useTimerStore.getState().elapsedAt(Date.now()));
     };
@@ -31,7 +32,6 @@ export function LessonTimer() {
     return () => window.clearInterval(id);
   }, [running]);
 
-  // When not running, display the frozen accumulated value (pure — no Date.now in render).
   const display = running ? liveMs : accumulatedMs;
 
   return (
@@ -39,15 +39,51 @@ export function LessonTimer() {
       <span className="rounded bg-muted px-2 py-1 font-mono text-sm tabular-nums">
         {format(display)}
       </span>
-      <Button
-        type="button"
-        size="sm"
-        variant={running ? "secondary" : "default"}
-        onClick={() => (running ? stop() : start())}
-      >
-        {running ? <Pause className="mr-1 size-3.5" /> : <Play className="mr-1 size-3.5" />}
-        {running ? "Stop" : "Start"}
-      </Button>
+      {status === "stopped" && (
+        <Button type="button" size="sm" onClick={() => begin()}>
+          <Play className="mr-1 size-3.5" />
+          Begin
+        </Button>
+      )}
+      {status === "running" && (
+        <>
+          <Button
+            type="button"
+            size="sm"
+            variant="secondary"
+            onClick={() => pause()}
+          >
+            <Pause className="mr-1 size-3.5" />
+            Pause
+          </Button>
+          <Button
+            type="button"
+            size="sm"
+            variant="outline"
+            onClick={() => finish()}
+          >
+            <Square className="mr-1 size-3.5" />
+            Finish
+          </Button>
+        </>
+      )}
+      {status === "paused" && (
+        <>
+          <Button type="button" size="sm" onClick={() => resume()}>
+            <Play className="mr-1 size-3.5" />
+            Resume
+          </Button>
+          <Button
+            type="button"
+            size="sm"
+            variant="outline"
+            onClick={() => finish()}
+          >
+            <Square className="mr-1 size-3.5" />
+            Finish
+          </Button>
+        </>
+      )}
     </div>
   );
 }

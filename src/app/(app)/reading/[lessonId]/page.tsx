@@ -1,6 +1,6 @@
 "use client";
 
-import { use } from "react";
+import { use, useState } from "react";
 import Link from "next/link";
 import { ArrowLeft, Pin, PinOff } from "lucide-react";
 import { useLocalStorageBoolean } from "@/lib/use-local-storage";
@@ -61,10 +61,14 @@ export default function LessonDetailPage({
   const [contentPinned, setContentPinned] = useLocalStorageBoolean(
     "reading.lessonContentPinned",
   );
+  // Forces QuizSection to remount only on explicit abandon — never on
+  // automatic draft transitions (e.g. submit deletes the draft).
+  const [sessionEpoch, setSessionEpoch] = useState(0);
 
   async function abandonDraft() {
     await deleteDraft(profileId, lessonId);
     reset();
+    setSessionEpoch((s) => s + 1);
   }
 
   if (!lesson) {
@@ -80,7 +84,7 @@ export default function LessonDetailPage({
 
   return (
     <div className="mx-auto w-full max-w-6xl px-4 py-4 sm:px-6 sm:py-6">
-      <header className="sticky top-0 z-30 -mx-4 mb-4 flex flex-wrap items-start justify-between gap-x-3 gap-y-2 border-b bg-background/90 pl-14 pr-4 py-3 backdrop-blur supports-backdrop-filter:bg-background/80 sm:-mx-6 sm:pl-14 sm:pr-6 sm:py-4 md:px-6">
+      <header className="sticky top-0 z-30 -mx-4 mb-4 flex flex-wrap items-start justify-between gap-x-3 gap-y-2 bg-background/90 px-4 py-3 backdrop-blur supports-backdrop-filter:bg-background/80 sm:-mx-6 sm:px-6 sm:py-4">
         <div className="min-w-0 flex-1">
           <Link
             href="/reading"
@@ -125,7 +129,7 @@ export default function LessonDetailPage({
       </div>
 
       <QuizSection
-        key={`${lessonId}-${hasDraft ? "draft" : "fresh"}`}
+        key={`${lessonId}-${sessionEpoch}`}
         lesson={lesson}
         initialPicks={draft?.answers ?? {}}
         initialClozePicks={draft?.clozePicks ?? {}}
@@ -146,9 +150,12 @@ export default function LessonDetailPage({
             className={cn(
               "relative rounded-md border bg-card p-3 sm:p-4 shadow-md dark:shadow-[0_4px_20px_rgba(255,255,255,0.035)]",
               prefs.detailLayout === "two-column" &&
-                "lg:col-start-1 lg:row-start-1",
+                "lg:col-start-1 lg:row-start-1 lg:row-end-3",
               contentPinned &&
-                "sticky top-40 z-20 max-h-[60vh] overflow-y-auto md:top-26",
+                "sticky top-40 z-20 max-h-[60vh] overflow-y-auto md:top-[6.5625rem]",
+              contentPinned &&
+                prefs.detailLayout === "two-column" &&
+                "lg:max-h-[calc(100vh-7rem)]",
             )}
           >
             <Tooltip>
@@ -163,7 +170,7 @@ export default function LessonDetailPage({
                       : "Pin lesson content"
                   }
                   className={cn(
-                    "absolute right-1.5 top-1.5 z-10 inline-flex size-7 items-center justify-center rounded-md bg-card/80 text-muted-foreground backdrop-blur transition-colors hover:bg-accent hover:text-foreground sm:right-2 sm:top-2",
+                    "cursor-pointer absolute right-1 top-1 z-10 text-muted-foreground transition-colors hover:text-foreground",
                     contentPinned && "text-primary",
                   )}
                 >
@@ -190,7 +197,7 @@ export default function LessonDetailPage({
             <div
               className={cn(
                 prefs.detailLayout === "two-column" &&
-                  "lg:col-start-1 lg:row-start-2",
+                  "lg:col-start-2 lg:row-start-1",
               )}
             >
               <GrammarNotes notes={lesson.grammarNotes} />
@@ -200,7 +207,7 @@ export default function LessonDetailPage({
             className={cn(
               "rounded-md border bg-card p-3 sm:p-4 shadow-md dark:shadow-[0_4px_20px_rgba(255,255,255,0.035)]",
               prefs.detailLayout === "two-column" &&
-                "lg:col-start-2 lg:row-start-1 lg:row-end-3",
+                "lg:col-start-2 lg:row-start-2",
             )}
           >
             <MCQuestions showHint={prefs.hintToggles.perQuestionHint} />
