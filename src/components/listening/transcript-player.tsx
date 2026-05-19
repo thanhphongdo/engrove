@@ -14,6 +14,24 @@ export function TranscriptPlayer() {
   const setStatus = useListeningAudioStore((s) => s.setStatus);
   const advanceOnEnded = useListeningAudioStore((s) => s.advanceOnEnded);
 
+  // Eagerly preload all sentence MP3s when the lesson is first set up so that
+  // playback starts instantly instead of waiting for network on first press.
+  useEffect(() => {
+    if (!sentences.length || !cdnBase) return;
+    const preloaders = sentences.map((s) => {
+      const a = new Audio();
+      a.preload = "auto";
+      a.src = `${cdnBase}/${s.id}.mp3?v=${manifestVersion}`;
+      return a;
+    });
+    return () => {
+      preloaders.forEach((a) => {
+        a.src = "";
+        a.load();
+      });
+    };
+  }, [sentences, cdnBase, manifestVersion]);
+
   // load & play when entering "loading"
   useEffect(() => {
     const el = audioRef.current;
