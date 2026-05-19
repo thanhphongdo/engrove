@@ -158,7 +158,10 @@ export function PlaybackTimeline({ sentences }: { sentences: Sentence[] }) {
           />
         </div>
         <div
-          className="pointer-events-none absolute top-1/2 size-4 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-primary bg-background shadow"
+          className={cn(
+            "pointer-events-none absolute top-1/2 size-4 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-primary bg-background shadow",
+            !isDragging && "transition-[left] duration-100 ease-linear",
+          )}
           style={{ left: `${progressPct}%` }}
         />
       </div>
