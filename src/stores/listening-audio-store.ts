@@ -15,6 +15,7 @@ type State = {
   audioEl: HTMLAudioElement | null;
   pendingSeekMs: number | null; // non-null = seek to this offset (ms) within currentIndex after load
 
+  load: (lessonId: string, cdnBase: string, sentences: Sentence[], manifestVersion?: number) => void;
   playSingle: (lessonId: string, cdnBase: string, sentences: Sentence[], index: number, manifestVersion?: number) => void;
   playAll: (lessonId: string, cdnBase: string, sentences: Sentence[], fromIndex?: number, manifestVersion?: number) => void;
   pause: () => void;
@@ -37,6 +38,13 @@ export const useListeningAudioStore = create<State>((set, get) => ({
   manifestVersion: 1,
   audioEl: null,
   pendingSeekMs: null,
+
+  load(lessonId, cdnBase, sentences, manifestVersion = 1) {
+    // Populate audio metadata without starting playback so TranscriptPlayer
+    // can begin preloading as soon as the detail page mounts.
+    if (get().lessonId === lessonId) return; // already loaded (may be playing)
+    set({ lessonId, cdnBase, sentences, manifestVersion });
+  },
 
   playSingle(lessonId, cdnBase, sentences, index, manifestVersion = 1) {
     if (index < 0 || index >= sentences.length) return;

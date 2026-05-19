@@ -71,7 +71,13 @@ export default function ListeningLessonDetailPage({
     "listening.lessonContentPinned",
   );
   const [sessionEpoch, setSessionEpoch] = useState(0);
+  const loadAudio = useListeningAudioStore((s) => s.load);
   const stopAudio = useListeningAudioStore((s) => s.stop);
+
+  useEffect(() => {
+    if (!lesson) return;
+    loadAudio(lesson.id, lesson.audio.cdnBase, lesson.sentences, lesson.audio.manifestVersion);
+  }, [lesson, loadAudio]);
 
   useEffect(() => {
     return () => {
