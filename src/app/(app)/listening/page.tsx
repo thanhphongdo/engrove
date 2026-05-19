@@ -7,7 +7,10 @@ import { useListeningLessonsIndex } from "@/lib/lessons/load";
 import { useDefaultBestAttempts } from "@/lib/db/use-best-attempts";
 import { useBookmarks } from "@/lib/db/use-bookmarks";
 import { useDrafts } from "@/lib/db/use-drafts";
-import { FilterChipRow, type ChipOption } from "@/components/reading/filter-chip-row";
+import {
+  FilterChipRow,
+  type ChipOption,
+} from "@/components/reading/filter-chip-row";
 import { TagFilterRow } from "@/components/reading/tag-filter-row";
 import { ListeningLessonCard } from "@/components/listening/lesson-card";
 import { LessonSearch } from "@/components/reading/lesson-search";
@@ -22,14 +25,38 @@ import {
   type SortBy,
 } from "@/lib/lessons/search-and-sort";
 import { cn } from "@/lib/utils";
-import type { CefrLevel, LessonMeta, ListeningLessonMeta } from "@/lib/lessons/types";
+import type {
+  CefrLevel,
+  LessonMeta,
+  ListeningLessonMeta,
+} from "@/lib/lessons/types";
 
 const LEVEL_OPTIONS: ChipOption[] = [
-  { value: "A1", label: "A1", className: "bg-level-a1 text-level-a1-foreground" },
-  { value: "A2", label: "A2", className: "bg-level-a2 text-level-a2-foreground" },
-  { value: "B1", label: "B1", className: "bg-level-b1 text-level-b1-foreground" },
-  { value: "B2", label: "B2", className: "bg-level-b2 text-level-b2-foreground" },
-  { value: "C1", label: "C1", className: "bg-level-c1 text-level-c1-foreground" },
+  {
+    value: "A1",
+    label: "A1",
+    className: "bg-level-a1 text-level-a1-foreground",
+  },
+  {
+    value: "A2",
+    label: "A2",
+    className: "bg-level-a2 text-level-a2-foreground",
+  },
+  {
+    value: "B1",
+    label: "B1",
+    className: "bg-level-b1 text-level-b1-foreground",
+  },
+  {
+    value: "B2",
+    label: "B2",
+    className: "bg-level-b2 text-level-b2-foreground",
+  },
+  {
+    value: "C1",
+    label: "C1",
+    className: "bg-level-c1 text-level-c1-foreground",
+  },
 ];
 
 const SORT_STORAGE_KEY = "listening:sortBy";
@@ -89,16 +116,24 @@ function ListeningHubContent() {
   const filtered = useMemo(() => {
     if (!lessons) return [];
     return lessons.filter((l) => {
-      if (selectedLevels.length && !selectedLevels.includes(l.level)) return false;
-      if (selectedTags.length && !selectedTags.some((t) => l.tags.includes(t))) return false;
+      if (selectedLevels.length && !selectedLevels.includes(l.level))
+        return false;
+      if (selectedTags.length && !selectedTags.some((t) => l.tags.includes(t)))
+        return false;
       if (favoritesOnly && !bookmarks?.has(l.id)) return false;
       if (status === "learned" && !bestByLesson?.has(l.id)) return false;
       if (status === "learning" && !drafts?.has(l.id)) return false;
       return true;
     });
   }, [
-    lessons, selectedLevels, selectedTags, favoritesOnly,
-    bookmarks, status, bestByLesson, drafts,
+    lessons,
+    selectedLevels,
+    selectedTags,
+    favoritesOnly,
+    bookmarks,
+    status,
+    bestByLesson,
+    drafts,
   ]);
 
   // Cast to LessonMeta[] for shared search/sort utilities (ListeningLessonMeta extends LessonMeta)
@@ -110,9 +145,10 @@ function ListeningHubContent() {
   );
   const isSearching = query.trim().length > 0;
   const display = useMemo(() => {
-    const sorted = isSearching && sortBy === "random"
-      ? searchedMeta
-      : sortLessons(searchedMeta, sortBy, randomSeed);
+    const sorted =
+      isSearching && sortBy === "random"
+        ? searchedMeta
+        : sortLessons(searchedMeta, sortBy, randomSeed);
     return sorted as ListeningLessonMeta[];
   }, [searchedMeta, sortBy, randomSeed, isSearching]);
 
@@ -181,7 +217,10 @@ function ListeningHubContent() {
           )}
         >
           <Star
-            className={cn("size-3", favoritesOnly && "fill-amber-400 stroke-amber-500")}
+            className={cn(
+              "size-3",
+              favoritesOnly && "fill-amber-400 stroke-amber-500",
+            )}
             aria-hidden="true"
           />
           Favorites
@@ -246,7 +285,7 @@ function ListeningHubContent() {
             ? "No lessons match your search."
             : hasActiveFilters
               ? "No lessons match these filters."
-              : "No listening lessons yet — run /generate-listening-lesson to add some."}
+              : "No listening lessons yet"}
         </div>
       ) : (
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
