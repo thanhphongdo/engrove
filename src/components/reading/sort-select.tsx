@@ -1,6 +1,5 @@
 "use client";
 
-import { ArrowUpDown } from "lucide-react";
 import {
   Select,
   SelectContent,
@@ -30,7 +29,6 @@ export function SortSelect({
         aria-label="Sort lessons"
         className="rounded-full px-2.5 text-xs"
       >
-        <ArrowUpDown className="size-3 text-muted-foreground" aria-hidden="true" />
         <SelectValue>Sort: {LABELS[value]}</SelectValue>
       </SelectTrigger>
       <SelectContent align="end">
