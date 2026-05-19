@@ -1,5 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { lessonSchema, lessonMetaSchema, lessonsIndexSchema } from "./schema";
+import { listeningLessonSchema, listeningLessonMetaSchema, listeningLessonsIndexSchema } from "./schema";
 
 const valid = {
   id: "reading-a1-001",
@@ -127,5 +128,75 @@ describe("lessonSchema cloze", () => {
       cloze: { ...withCloze.cloze, template: "{{b1}} and {{b1}}" },
     };
     expect(() => lessonSchema.parse(bad)).toThrow();
+  });
+});
+
+const validListening = {
+  id: "listening-a1-001",
+  level: "A1",
+  title: "Quiet street",
+  summary: "A morning walk.",
+  format: "paragraph",
+  body: "I walked down the street. It was quiet.",
+  tags: ["City life"],
+  annotations: [{ phrase: "quiet", meaningVi: "yên tĩnh" }],
+  grammarNotes: [],
+  translationVi: "Tôi đi xuống đường. Trời yên tĩnh.",
+  questions: [
+    {
+      id: "q1",
+      prompt: "What was the street like?",
+      options: ["Loud", "Quiet", "Busy", "Empty"],
+      answerIndex: 1,
+      explanation: "It was quiet.",
+      hint: "Last sentence.",
+    },
+  ],
+  accents: ["en-US"],
+  voices: {
+    Narrator: { sex: "female", age: "adult", accent: "en-US", edgeVoice: "en-US-AriaNeural" },
+  },
+  sentences: [
+    { id: "s1", speaker: "Narrator", text: "I walked down the street." },
+    { id: "s2", speaker: "Narrator", text: "It was quiet." },
+  ],
+  audio: {
+    cdnBase: "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/listening-a1-001",
+    manifestVersion: 1,
+  },
+};
+
+describe("listeningLessonSchema base", () => {
+  it("accepts a valid listening lesson", () => {
+    expect(() => listeningLessonSchema.parse(validListening)).not.toThrow();
+  });
+  it("rejects when voices is missing", () => {
+    const { voices: _v, ...bad } = validListening;
+    expect(() => listeningLessonSchema.parse(bad)).toThrow();
+  });
+  it("rejects when sentences is empty", () => {
+    expect(() => listeningLessonSchema.parse({ ...validListening, sentences: [] })).toThrow();
+  });
+  it("rejects when accents contains an unknown locale", () => {
+    expect(() => listeningLessonSchema.parse({ ...validListening, accents: ["en-IE"] })).toThrow();
+  });
+});
+
+describe("listeningLessonMetaSchema", () => {
+  const meta = {
+    id: "listening-a1-001",
+    level: "A1",
+    title: "Quiet street",
+    summary: "A morning walk.",
+    tags: ["City life"],
+    accents: ["en-US"],
+    totalDurationMs: 4200,
+    sentenceCount: 2,
+  };
+  it("accepts a valid metadata entry", () => {
+    expect(() => listeningLessonMetaSchema.parse(meta)).not.toThrow();
+  });
+  it("accepts an array of metadata entries", () => {
+    expect(() => listeningLessonsIndexSchema.parse([meta])).not.toThrow();
   });
 });
