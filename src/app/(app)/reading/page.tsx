@@ -75,7 +75,7 @@ function ReadingHubContent() {
 
   return (
     <div className="mx-auto w-full max-w-6xl px-4 py-4 sm:px-6 sm:py-6">
-      <header className="mb-4 flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
+      <header className="mb-4 flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1 pl-12 md:pl-0">
         <h1 className="text-lg font-semibold sm:text-xl">Reading lessons</h1>
         <p className="text-xs text-muted-foreground">
           {completedCount} / {lessons?.length ?? 0} completed

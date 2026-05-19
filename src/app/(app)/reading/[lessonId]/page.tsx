@@ -2,7 +2,13 @@
 
 import { use } from "react";
 import Link from "next/link";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, Pin, PinOff } from "lucide-react";
+import { useLocalStorageBoolean } from "@/lib/use-local-storage";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 import { useReadingLesson } from "@/lib/lessons/load";
 import { useLiveQuery } from "dexie-react-hooks";
 import { listAttemptsForLesson, getDraft, deleteDraft } from "@/lib/db/queries";
@@ -34,7 +40,11 @@ const LEVEL_CLASS: Record<Lesson["level"], string> = {
   C1: "bg-level-c1 text-level-c1-foreground",
 };
 
-export default function LessonDetailPage({ params }: { params: Promise<{ lessonId: string }> }) {
+export default function LessonDetailPage({
+  params,
+}: {
+  params: Promise<{ lessonId: string }>;
+}) {
   const { lessonId } = use(params);
   const profileId = useActiveProfileId();
   const { data: lesson } = useReadingLesson(lessonId);
@@ -44,7 +54,13 @@ export default function LessonDetailPage({ params }: { params: Promise<{ lessonI
   );
   const reset = useTimerStore((s) => s.reset);
   const prefs = usePreferences();
-  const draft = useLiveQuery(() => getDraft(profileId, lessonId), [profileId, lessonId]);
+  const draft = useLiveQuery(
+    () => getDraft(profileId, lessonId),
+    [profileId, lessonId],
+  );
+  const [contentPinned, setContentPinned] = useLocalStorageBoolean(
+    "reading.lessonContentPinned",
+  );
 
   async function abandonDraft() {
     await deleteDraft(profileId, lessonId);
@@ -64,7 +80,7 @@ export default function LessonDetailPage({ params }: { params: Promise<{ lessonI
 
   return (
     <div className="mx-auto w-full max-w-6xl px-4 py-4 sm:px-6 sm:py-6">
-      <header className="mb-4 flex flex-wrap items-start justify-between gap-x-3 gap-y-2">
+      <header className="sticky top-0 z-30 -mx-4 mb-4 flex flex-wrap items-start justify-between gap-x-3 gap-y-2 border-b bg-background/90 pl-14 pr-4 py-3 backdrop-blur supports-backdrop-filter:bg-background/80 sm:-mx-6 sm:pl-14 sm:pr-6 sm:py-4 md:px-6">
         <div className="min-w-0 flex-1">
           <Link
             href="/reading"
@@ -72,9 +88,16 @@ export default function LessonDetailPage({ params }: { params: Promise<{ lessonI
           >
             <ArrowLeft className="size-3" /> Back to Reading
           </Link>
-          <h1 className="text-lg font-semibold leading-tight sm:text-xl">{lesson.title}</h1>
+          <h1 className="text-lg font-semibold leading-tight sm:text-xl">
+            {lesson.title}
+          </h1>
           <div className="mt-1 flex flex-wrap items-center gap-2 text-xs">
-            <span className={cn("rounded px-1.5 py-0.5 font-semibold", LEVEL_CLASS[lesson.level])}>
+            <span
+              className={cn(
+                "rounded px-1.5 py-0.5 font-semibold",
+                LEVEL_CLASS[lesson.level],
+              )}
+            >
               {lesson.level}
             </span>
             {lesson.tags.map((t) => (
@@ -97,7 +120,7 @@ export default function LessonDetailPage({ params }: { params: Promise<{ lessonI
         </div>
       </header>
 
-      <div className="mb-4 rounded-md border bg-muted/40 p-3 text-sm italic">
+      <div className="mb-4 rounded-md border bg-muted/40 p-3 text-sm italic shadow-md">
         <strong className="not-italic">Summary:</strong> {lesson.summary}
       </div>
 
@@ -112,27 +135,80 @@ export default function LessonDetailPage({ params }: { params: Promise<{ lessonI
         {hasDraft && <ResumeBanner onAbandon={abandonDraft} />}
 
         <div
-          className={
+          className={cn(
+            "gap-3 sm:gap-4",
             prefs.detailLayout === "two-column"
-              ? "grid grid-cols-1 gap-3 sm:gap-4 lg:grid-cols-[1.2fr_1fr]"
-              : "flex flex-col gap-3 sm:gap-4"
-          }
+              ? "grid grid-cols-1 lg:grid-cols-[1.2fr_1fr] lg:grid-rows-[auto_1fr]"
+              : "flex flex-col",
+          )}
         >
-          <section className="rounded-md border bg-card p-3 sm:p-4">
+          <section
+            className={cn(
+              "relative rounded-md border bg-card p-3 sm:p-4 shadow-md",
+              prefs.detailLayout === "two-column" &&
+                "lg:col-start-1 lg:row-start-1",
+              contentPinned &&
+                "sticky top-40 z-20 max-h-[60vh] overflow-y-auto md:top-26",
+            )}
+          >
+            <Tooltip>
+              <TooltipTrigger asChild>
+                <button
+                  type="button"
+                  onClick={() => setContentPinned(!contentPinned)}
+                  aria-pressed={contentPinned}
+                  aria-label={
+                    contentPinned
+                      ? "Unpin lesson content"
+                      : "Pin lesson content"
+                  }
+                  className={cn(
+                    "absolute right-1.5 top-1.5 z-10 inline-flex size-7 items-center justify-center rounded-md bg-card/80 text-muted-foreground backdrop-blur transition-colors hover:bg-accent hover:text-foreground sm:right-2 sm:top-2",
+                    contentPinned && "text-primary",
+                  )}
+                >
+                  {contentPinned ? (
+                    <PinOff className="size-4" aria-hidden="true" />
+                  ) : (
+                    <Pin className="size-4" aria-hidden="true" />
+                  )}
+                </button>
+              </TooltipTrigger>
+              <TooltipContent side="left" className="text-xs">
+                {contentPinned
+                  ? "Unpin lesson content"
+                  : "Pin lesson content while scrolling"}
+              </TooltipContent>
+            </Tooltip>
             <Passage
               lesson={lesson}
               showAnnotations={prefs.hintToggles.vocabVi}
               showTranslation={prefs.hintToggles.passageTranslation}
             />
-            {prefs.hintToggles.grammar && <GrammarNotes notes={lesson.grammarNotes} />}
           </section>
-          <section className="rounded-md border bg-card p-3 sm:p-4">
+          {prefs.hintToggles.grammar && (
+            <div
+              className={cn(
+                prefs.detailLayout === "two-column" &&
+                  "lg:col-start-1 lg:row-start-2",
+              )}
+            >
+              <GrammarNotes notes={lesson.grammarNotes} />
+            </div>
+          )}
+          <section
+            className={cn(
+              "rounded-md border bg-card p-3 sm:p-4 shadow-md",
+              prefs.detailLayout === "two-column" &&
+                "lg:col-start-2 lg:row-start-1 lg:row-end-3",
+            )}
+          >
             <MCQuestions showHint={prefs.hintToggles.perQuestionHint} />
           </section>
         </div>
 
         {lesson.cloze && (
-          <section className="mt-3 rounded-md sm:mt-4 border bg-card p-3 sm:p-4">
+          <section className="mt-3 rounded-md sm:mt-4 border bg-card p-3 sm:p-4 shadow-md">
             <ClozeBlock />
             <ClozeReview />
           </section>
@@ -142,11 +218,13 @@ export default function LessonDetailPage({ params }: { params: Promise<{ lessonI
       </QuizSection>
 
       {lesson.criticalThinkingQuestion && (
-        <section className="mt-3 rounded-md sm:mt-4 border-l-4 border-primary bg-muted/40 p-3 sm:p-4">
+        <section className="mt-3 rounded-md sm:mt-4 border-l-4 border-primary bg-muted/40 p-3 sm:p-4 shadow-md">
           <h2 className="mb-1 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
             Critical thinking
           </h2>
-          <p className="text-sm italic leading-relaxed">{lesson.criticalThinkingQuestion}</p>
+          <p className="text-sm italic leading-relaxed">
+            {lesson.criticalThinkingQuestion}
+          </p>
         </section>
       )}
 
