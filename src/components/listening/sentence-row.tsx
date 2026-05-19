@@ -1,9 +1,7 @@
 "use client";
 
-import { useEffect, useRef } from "react";
 import { Pause, Play, Volume2 } from "lucide-react";
 import { useListeningAudioStore } from "@/stores/listening-audio-store";
-import { useLocalStorageBoolean } from "@/lib/use-local-storage";
 import { splitWithAnnotations } from "@/lib/lessons/annotate";
 import { PassageAnnotation } from "@/components/reading/passage-annotation";
 import { cn } from "@/lib/utils";
@@ -30,9 +28,6 @@ export function SentenceRow({
   manifestVersion: number;
   allSentences: Sentence[];
 }) {
-  const rowRef = useRef<HTMLParagraphElement>(null);
-  const [contentPinned] = useLocalStorageBoolean("listening.lessonContentPinned");
-
   const currentIndex = useListeningAudioStore((s) => s.currentIndex);
   const currentLessonId = useListeningAudioStore((s) => s.lessonId);
   const status = useListeningAudioStore((s) => s.status);
@@ -49,12 +44,6 @@ export function SentenceRow({
   // In single mode only
   const isPlaying = isActive && !isPlayAll && status === "playing";
   const isLoading = isActive && !isPlayAll && status === "loading";
-
-  useEffect(() => {
-    if (isActive && isPlayAll && contentPinned) {
-      rowRef.current?.scrollIntoView({ behavior: "smooth", block: "nearest" });
-    }
-  }, [isActive, isPlayAll, contentPinned]);
 
   function handleClick() {
     if (isPlayAll) {
@@ -78,7 +67,6 @@ export function SentenceRow({
 
   return (
     <p
-      ref={rowRef}
       className={cn(
         "rounded-md px-2 py-1.5 transition-colors",
         isActive && "bg-amber-100/60 dark:bg-amber-900/30",
