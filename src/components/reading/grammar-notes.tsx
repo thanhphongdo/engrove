@@ -5,7 +5,7 @@ import type { GrammarNote } from "@/lib/lessons/types";
 export function GrammarNotes({ notes }: { notes: GrammarNote[] }) {
   if (notes.length === 0) return null;
   return (
-    <section className="rounded-md border-l-4 border-primary bg-muted/40 p-3 sm:p-4">
+    <section className="rounded-md border-l-4 border-primary bg-muted/40 p-3 sm:p-4 shadow-md">
       <h2 className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
         Grammar notes
       </h2>
