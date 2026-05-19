@@ -20,15 +20,22 @@ export function TranscriptPlayer() {
     if (!el || status !== "loading" || currentIndex < 0 || !cdnBase) return;
     const s = sentences[currentIndex];
     if (!s) return;
+    let cancelled = false;
     el.src = `${cdnBase}/${s.id}.mp3?v=${manifestVersion}`;
     el.play().then(
-      () => setStatus("playing"),
+      () => { if (!cancelled) setStatus("playing"); },
       (err) => {
-        console.error("audio play failed", err);
-        toast.error("Audio playback failed");
-        setStatus("error");
+        if (cancelled) return;
+        // Only show the play-rejection toast when onError didn't already fire.
+        // (onError fires first for network failures; this path catches other errors.)
+        if (el.error === null) {
+          console.error("audio play failed", err);
+          toast.error("Audio playback failed");
+          setStatus("error");
+        }
       },
     );
+    return () => { cancelled = true; };
   }, [status, currentIndex, sentences, cdnBase, manifestVersion, setStatus]);
 
   // pause/resume

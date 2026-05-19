@@ -291,7 +291,6 @@ def main() -> int:
         return 0
 
     token = os.environ.get("GITHUB_TOKEN")
-    audio_repo = os.environ.get("AUDIO_REPO", "thanhphongdo/english-learning-audio")
     branch = os.environ.get("AUDIO_REPO_BRANCH", "main")
     if not token:
         sys.exit("GITHUB_TOKEN missing — copy scripts/.env.example to scripts/.env and fill it in")
