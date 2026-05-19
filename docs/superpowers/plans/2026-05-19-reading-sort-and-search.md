@@ -49,10 +49,12 @@ Expected: `package.json` and `package-lock.json` updated; new entry under `depen
 Run:
 
 ```bash
-node -e "console.log(require('fuse.js').default ? 'ok' : 'missing')"
+node -e "const F = require('fuse.js'); console.log(typeof F === 'function' ? 'ok' : 'missing')"
 ```
 
 Expected output: `ok`
+
+(Fuse v7's CommonJS export is the class itself, not a `.default` namespace.)
 
 - [ ] **Step 3: Commit**
 
