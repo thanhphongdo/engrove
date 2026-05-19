@@ -8,7 +8,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import type { SortBy } from "@/lib/lessons/search-and-sort";
+import { SORT_OPTIONS, type SortBy } from "@/lib/lessons/search-and-sort";
 
 const LABELS: Record<SortBy, string> = {
   name: "Name",
@@ -34,9 +34,11 @@ export function SortSelect({
         <SelectValue>Sort: {LABELS[value]}</SelectValue>
       </SelectTrigger>
       <SelectContent align="end">
-        <SelectItem value="name">Name</SelectItem>
-        <SelectItem value="level">Level</SelectItem>
-        <SelectItem value="random">Random</SelectItem>
+        {SORT_OPTIONS.map((option) => (
+          <SelectItem key={option} value={option}>
+            {LABELS[option]}
+          </SelectItem>
+        ))}
       </SelectContent>
     </Select>
   );
