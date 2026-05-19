@@ -61,7 +61,11 @@ function ReadingHubContent() {
   const levelsKey = selectedLevels.join(",");
   const tagsKey = selectedTags.join(",");
 
+  // Re-roll the shuffle seed whenever filters change. setState-in-effect is
+  // intentional here: useMemo's cache is documented as best-effort and can be
+  // dropped by React, which would silently reshuffle at unwanted moments.
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setRandomSeed(Math.floor(Math.random() * 0xffffffff));
   }, [levelsKey, tagsKey, favoritesOnly]);
 
