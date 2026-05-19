@@ -4,7 +4,14 @@ import { useEffect, useRef } from "react";
 import { toast } from "sonner";
 import { useListeningAudioStore } from "@/stores/listening-audio-store";
 
-const PRELOAD_AHEAD = 5;
+const IMMEDIATE_COUNT = 10;
+const IDLE_BATCH = 5;
+
+// requestIdleCallback is not available in all environments (e.g. SSR, some browsers).
+const rIC: (cb: () => void) => void =
+  typeof window !== "undefined" && "requestIdleCallback" in window
+    ? (cb) => (window as Window & typeof globalThis).requestIdleCallback(cb)
+    : (cb) => setTimeout(cb, 50);
 
 export function TranscriptPlayer() {
   const audioRef = useRef<HTMLAudioElement | null>(null);
@@ -19,40 +26,58 @@ export function TranscriptPlayer() {
   const advanceOnEnded = useListeningAudioStore((s) => s.advanceOnEnded);
   const setAudioEl = useListeningAudioStore((s) => s.setAudioEl);
   const clearPendingSeek = useListeningAudioStore((s) => s.clearPendingSeek);
+  const markReady = useListeningAudioStore((s) => s.markReady);
+  const clearReady = useListeningAudioStore((s) => s.clearReady);
 
-  // Register the audio element in the store so PlaybackTimeline can read currentTime.
+  // Register audio element in store so PlaybackTimeline can read currentTime.
   useEffect(() => {
     setAudioEl(audioRef.current);
     return () => setAudioEl(null);
   }, [setAudioEl]);
 
-  // Clear the preload cache whenever the lesson changes.
+  // Clear preload cache + readySet on lesson change.
   useEffect(() => {
     const cache = preloadCache.current;
+    clearReady();
     cache.forEach((a) => { a.src = ""; a.load(); });
     cache.clear();
     return () => {
+      clearReady();
       cache.forEach((a) => { a.src = ""; a.load(); });
       cache.clear();
     };
-  }, [sentences, cdnBase, manifestVersion]);
+  }, [sentences, cdnBase, manifestVersion, clearReady]);
 
-  // Extend the preload window as playback advances (batch of PRELOAD_AHEAD).
+  // Eager preload: first IMMEDIATE_COUNT sentences now, rest via requestIdleCallback batches.
   useEffect(() => {
     if (!sentences.length || !cdnBase) return;
-    const start = Math.max(0, currentIndex < 0 ? 0 : currentIndex);
-    const end = Math.min(sentences.length, start + PRELOAD_AHEAD);
-    for (let i = start; i < end; i++) {
+
+    function loadOne(i: number) {
       const s = sentences[i];
       const key = `${s.id}@${manifestVersion}`;
-      if (!preloadCache.current.has(key)) {
-        const a = new Audio();
-        a.preload = "auto";
-        a.src = `${cdnBase}/${s.id}.mp3?v=${manifestVersion}`;
-        preloadCache.current.set(key, a);
-      }
+      if (preloadCache.current.has(key)) return;
+      const a = new Audio();
+      a.preload = "auto";
+      a.src = `${cdnBase}/${s.id}.mp3?v=${manifestVersion}`;
+      a.oncanplaythrough = () => markReady(i);
+      // Already in browser cache — mark ready synchronously.
+      if (a.readyState >= HTMLMediaElement.HAVE_ENOUGH_DATA) markReady(i);
+      preloadCache.current.set(key, a);
     }
-  }, [sentences, cdnBase, manifestVersion, currentIndex]);
+
+    const immediate = Math.min(IMMEDIATE_COUNT, sentences.length);
+    for (let i = 0; i < immediate; i++) loadOne(i);
+
+    let next = immediate;
+    function idleLoad() {
+      if (!cdnBase || next >= sentences.length) return;
+      const end = Math.min(sentences.length, next + IDLE_BATCH);
+      for (let i = next; i < end; i++) loadOne(i);
+      next = end;
+      if (next < sentences.length) rIC(idleLoad);
+    }
+    if (next < sentences.length) rIC(idleLoad);
+  }, [sentences, cdnBase, manifestVersion, markReady]);
 
   // Load & play when entering "loading"; apply pending seek offset after play starts.
   useEffect(() => {
