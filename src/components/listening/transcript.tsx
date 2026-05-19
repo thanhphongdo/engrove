@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { ChevronDown, ChevronUp, Headphones } from "lucide-react";
 import { SentenceRow } from "./sentence-row";
-import { PlayAllButton } from "./play-all-button";
+import { InlinePlaybackBar } from "./inline-playback-bar";
 import type { ListeningLesson } from "@/lib/lessons/types";
 
 export function Transcript({
@@ -17,13 +17,12 @@ export function Transcript({
 }) {
   const [shown, setShown] = useState(false);
   const showSpeaker = lesson.format === "dialogue";
-
   const translationLines = lesson.translationVi.split(/\n+/);
 
   return (
     <div className="space-y-3">
-      <div className="flex flex-wrap items-center justify-between gap-2">
-        <PlayAllButton
+      <div className="flex flex-wrap items-center gap-2">
+        <InlinePlaybackBar
           lessonId={lesson.id}
           cdnBase={lesson.audio.cdnBase}
           manifestVersion={lesson.audio.manifestVersion}
@@ -33,7 +32,7 @@ export function Transcript({
         <button
           type="button"
           onClick={() => setShown((v) => !v)}
-          className="inline-flex items-center gap-1 text-xs text-muted-foreground hover:text-foreground"
+          className="inline-flex shrink-0 items-center gap-1 text-xs text-muted-foreground hover:text-foreground"
         >
           {shown ? (
             <>
@@ -52,11 +51,7 @@ export function Transcript({
           <Headphones className="size-4" /> Listen first, then reveal the transcript.
         </div>
       ) : (
-        <div
-          className={
-            showTranslation ? "grid grid-cols-1 gap-3 lg:grid-cols-2" : ""
-          }
-        >
+        <div className={showTranslation ? "grid grid-cols-1 gap-3 lg:grid-cols-2" : ""}>
           <article className="space-y-0 text-sm leading-relaxed">
             {lesson.sentences.map((s, i) => (
               <SentenceRow
