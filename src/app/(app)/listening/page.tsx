@@ -244,7 +244,9 @@ function ListeningHubContent() {
         <div className="rounded-md border border-dashed p-6 text-center text-sm text-muted-foreground">
           {isSearching
             ? "No lessons match your search."
-            : "No listening lessons yet — run /generate-listening-lesson to add some."}
+            : hasActiveFilters
+              ? "No lessons match these filters."
+              : "No listening lessons yet — run /generate-listening-lesson to add some."}
         </div>
       ) : (
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
