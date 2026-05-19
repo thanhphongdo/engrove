@@ -94,17 +94,10 @@ export function SentenceRow({
             ? `Pause sentence ${index + 1}`
             : `Play sentence ${index + 1}`
         }
-        className={cn(
-          "mr-2 inline-flex size-6 shrink-0 items-center justify-center rounded text-muted-foreground hover:bg-muted hover:text-foreground",
-          isPlayAll && !isActive && "opacity-40",
-        )}
+        className="mr-2 inline-flex size-6 shrink-0 items-center justify-center rounded text-muted-foreground hover:bg-muted hover:text-foreground"
       >
         {isPlayAll ? (
-          isActive ? (
-            <Volume2 className="size-3.5 animate-pulse text-primary" aria-hidden="true" />
-          ) : (
-            <Play className="size-3.5" aria-hidden="true" />
-          )
+          <Play className="size-3.5" aria-hidden="true" />
         ) : isPlaying ? (
           <Pause className="size-3.5" aria-hidden="true" />
         ) : isLoading ? (

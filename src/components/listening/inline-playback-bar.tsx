@@ -53,7 +53,8 @@ export function InlinePlaybackBar({
 
   const isOurLesson = currentLessonId === lessonId;
   const isActive = isOurLesson && mode === "playAll" && status !== "idle";
-  const isPlaying = isActive && status === "playing";
+  // Treat "loading" (sentence transition) as playing so the button never flickers.
+  const isPlaying = isActive && status !== "paused";
 
   // Report visibility to store — bottom PlaybackTimeline shows when this is false.
   useEffect(() => {
@@ -87,10 +88,7 @@ export function InlinePlaybackBar({
 
   // RAF loop — keep scrub position in sync with live audio element.
   useEffect(() => {
-    if (!isActive) {
-      setCurrentMs(0);
-      return;
-    }
+    if (!isActive) return;
     function tick() {
       if (audioEl && currentIndex >= 0) {
         setCurrentMs((offsets[currentIndex] ?? 0) + audioEl.currentTime * 1000);
@@ -139,7 +137,7 @@ export function InlinePlaybackBar({
     seekToGlobalMs(ms);
   }
 
-  const displayMs = isDragging ? dragMs : currentMs;
+  const displayMs = isDragging ? dragMs : (isActive ? currentMs : 0);
   const progressPct = totalMs > 0 ? Math.min(100, (displayMs / totalMs) * 100) : 0;
   const bufferedPct = totalMs > 0 ? Math.min(100, (bufferedMs / totalMs) * 100) : 0;
   const audioPending = totalDurationMs === undefined;

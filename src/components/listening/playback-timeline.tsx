@@ -55,10 +55,7 @@ export function PlaybackTimeline({ sentences }: { sentences: Sentence[] }) {
   }, [sentences, readySet]);
 
   useEffect(() => {
-    if (status === "idle") {
-      setCurrentMs(0);
-      return;
-    }
+    if (status === "idle") return;
     function tick() {
       if (audioEl && currentIndex >= 0) {
         setCurrentMs((offsets[currentIndex] ?? 0) + audioEl.currentTime * 1000);
@@ -98,7 +95,7 @@ export function PlaybackTimeline({ sentences }: { sentences: Sentence[] }) {
     seekToGlobalMs(ms);
   }
 
-  const displayMs = isDragging ? dragMs : currentMs;
+  const displayMs = isDragging ? dragMs : (status === "idle" ? 0 : currentMs);
   const progressPct = totalMs > 0 ? Math.min(100, (displayMs / totalMs) * 100) : 0;
   const bufferedPct = totalMs > 0 ? Math.min(100, (bufferedMs / totalMs) * 100) : 0;
 
