@@ -120,7 +120,7 @@ export default function LessonDetailPage({
         </div>
       </header>
 
-      <div className="mb-4 rounded-md border bg-muted/40 p-3 text-sm italic shadow-md">
+      <div className="mb-4 rounded-md border bg-muted/40 p-3 text-sm italic shadow-md dark:shadow-[0_4px_20px_rgba(255,255,255,0.035)]">
         <strong className="not-italic">Summary:</strong> {lesson.summary}
       </div>
 
@@ -144,7 +144,7 @@ export default function LessonDetailPage({
         >
           <section
             className={cn(
-              "relative rounded-md border bg-card p-3 sm:p-4 shadow-md",
+              "relative rounded-md border bg-card p-3 sm:p-4 shadow-md dark:shadow-[0_4px_20px_rgba(255,255,255,0.035)]",
               prefs.detailLayout === "two-column" &&
                 "lg:col-start-1 lg:row-start-1",
               contentPinned &&
@@ -198,7 +198,7 @@ export default function LessonDetailPage({
           )}
           <section
             className={cn(
-              "rounded-md border bg-card p-3 sm:p-4 shadow-md",
+              "rounded-md border bg-card p-3 sm:p-4 shadow-md dark:shadow-[0_4px_20px_rgba(255,255,255,0.035)]",
               prefs.detailLayout === "two-column" &&
                 "lg:col-start-2 lg:row-start-1 lg:row-end-3",
             )}
@@ -208,7 +208,7 @@ export default function LessonDetailPage({
         </div>
 
         {lesson.cloze && (
-          <section className="mt-3 rounded-md sm:mt-4 border bg-card p-3 sm:p-4 shadow-md">
+          <section className="mt-3 rounded-md sm:mt-4 border bg-card p-3 sm:p-4 shadow-md dark:shadow-[0_4px_20px_rgba(255,255,255,0.035)]">
             <ClozeBlock />
             <ClozeReview />
           </section>
@@ -218,7 +218,7 @@ export default function LessonDetailPage({
       </QuizSection>
 
       {lesson.criticalThinkingQuestion && (
-        <section className="mt-3 rounded-md sm:mt-4 border-l-4 border-primary bg-muted/40 p-3 sm:p-4 shadow-md">
+        <section className="mt-3 rounded-md sm:mt-4 border-l-4 border-primary bg-muted/40 p-3 sm:p-4 shadow-md dark:shadow-[0_4px_20px_rgba(255,255,255,0.035)]">
           <h2 className="mb-1 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
             Critical thinking
           </h2>

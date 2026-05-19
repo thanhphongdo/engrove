@@ -1,0 +1,180 @@
+{
+  "id": "reading-a1-023",
+  "level": "A1",
+  "title": "Tell me when to stop",
+  "summary": "An old barber and his longest customer. The customer cannot see the mirror anymore. He still comes every month.",
+  "format": "dialogue",
+  "body": [
+    { "speaker": "Mr Hai", "text": "Good morning, Bác Tâm. Same chair?" },
+    { "speaker": "Bác Tâm", "text": "Same chair. Same haircut." },
+    { "speaker": "Mr Hai", "text": "Sit down. How are you today?" },
+    { "speaker": "Bác Tâm", "text": "My eyes are worse. I cannot see the mirror anymore." },
+    { "speaker": "Mr Hai", "text": "Then I will tell you what I see." },
+    { "speaker": "Bác Tâm", "text": "Thank you. Tell me when to stop talking, too." },
+    { "speaker": "Mr Hai", "text": "You never talk too much. Now — short on the sides?" },
+    { "speaker": "Bác Tâm", "text": "Short on the sides. A little longer on top." },
+    { "speaker": "Mr Hai", "text": "Like always." },
+    { "speaker": "Bác Tâm", "text": "How many years have I come here?" },
+    { "speaker": "Mr Hai", "text": "Thirty-one." },
+    { "speaker": "Bác Tâm", "text": "Thirty-one years. And you remember my haircut?" },
+    { "speaker": "Mr Hai", "text": "I remember everything." },
+    { "speaker": "Bác Tâm", "text": "Mr Hai, may I ask a small question?" },
+    { "speaker": "Mr Hai", "text": "Please." },
+    { "speaker": "Bác Tâm", "text": "Do I look the same?" },
+    { "speaker": "Mr Hai", "text": "Your hair is white now. It was black when you first came. Your face is the same. Your eyes are kind. Your smile is the same too." },
+    { "speaker": "Bác Tâm", "text": "And the mirror?" },
+    { "speaker": "Mr Hai", "text": "The mirror shows a man with white hair, a kind face, and a good shirt today." },
+    { "speaker": "Bác Tâm", "text": "Good. Thank you." },
+    { "speaker": "Mr Hai", "text": "Done. Tell me when to stop." },
+    { "speaker": "Bác Tâm", "text": "Stop. It is perfect." }
+  ],
+  "tags": ["Friendship", "Ageing", "Daily life"],
+  "annotations": [
+    { "phrase": "haircut", "meaningVi": "kiểu tóc / việc cắt tóc" },
+    { "phrase": "mirror", "meaningVi": "gương" },
+    { "phrase": "remember", "meaningVi": "nhớ" },
+    { "phrase": "kind", "meaningVi": "tử tế / hiền" },
+    { "phrase": "perfect", "meaningVi": "hoàn hảo" }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Imperative and 'Tell me' requests",
+      "bodyVi": "Câu mệnh lệnh dùng động từ nguyên thể ở đầu câu để yêu cầu lịch sự một việc làm. 'Tell me when to stop.' = 'Hãy nói cho tôi biết khi nào dừng.' 'Sit down.' = 'Ngồi xuống.' Câu hỏi lịch sự 'May I ask...?' = 'Cho phép tôi hỏi...?'",
+      "bodyEn": "An imperative starts with the base form of the verb. 'Sit down.' 'Tell me when to stop.' Add 'please' to make it gentler, or use 'May I…?' for a polite question: 'May I ask a small question?'"
+    }
+  ],
+  "translationVi": "Ông Hai: Chào bác Tâm. Vẫn ghế cũ nhé?\nBác Tâm: Vẫn ghế cũ. Vẫn kiểu tóc cũ.\nÔng Hai: Mời ngồi. Hôm nay bác khỏe không?\nBác Tâm: Mắt tôi yếu hơn. Tôi không nhìn thấy gương nữa.\nÔng Hai: Vậy để tôi tả lại cho bác xem.\nBác Tâm: Cảm ơn. Khi nào tôi nói nhiều quá, ông cũng bảo tôi dừng nhé.\nÔng Hai: Bác có nói nhiều bao giờ đâu. Nào — cắt ngắn hai bên?\nBác Tâm: Ngắn hai bên. Trên đầu để dài hơn một chút.\nÔng Hai: Như mọi khi.\nBác Tâm: Tôi đến đây bao nhiêu năm rồi nhỉ?\nÔng Hai: Ba mươi mốt năm.\nBác Tâm: Ba mươi mốt năm. Mà ông nhớ kiểu tóc của tôi?\nÔng Hai: Tôi nhớ tất cả.\nBác Tâm: Ông Hai ơi, cho tôi hỏi một câu nhỏ nhé.\nÔng Hai: Bác cứ hỏi.\nBác Tâm: Tôi có còn giống như trước không?\nÔng Hai: Tóc bác giờ bạc rồi. Lần đầu bác đến tóc còn đen. Khuôn mặt vẫn vậy. Đôi mắt hiền. Nụ cười cũng vậy.\nBác Tâm: Còn trong gương thì sao?\nÔng Hai: Trong gương là một người đàn ông tóc bạc, khuôn mặt hiền, hôm nay mặc cái áo đẹp.\nBác Tâm: Tốt. Cảm ơn ông.\nÔng Hai: Xong rồi. Bác bảo tôi dừng khi nào nhé.\nBác Tâm: Dừng. Hoàn hảo lắm.",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Who works in the shop?",
+      "options": ["Bác Tâm", "Mr Hai", "Both of them", "A new barber"],
+      "answerIndex": 1,
+      "explanation": "Mr Hai is the barber; Bác Tâm is the customer.",
+      "hint": "Look at who says 'Sit down. How are you today?'"
+    },
+    {
+      "id": "q2",
+      "prompt": "Why can't Bác Tâm see the mirror anymore?",
+      "options": [
+        "The mirror is broken.",
+        "His eyes are worse.",
+        "The light is off.",
+        "Mr Hai took the mirror away."
+      ],
+      "answerIndex": 1,
+      "explanation": "'My eyes are worse. I cannot see the mirror anymore.'",
+      "hint": "Bác Tâm's second turn."
+    },
+    {
+      "id": "q3",
+      "prompt": "What does Mr Hai offer to do for Bác Tâm?",
+      "options": [
+        "To tell him what he sees.",
+        "To buy him new glasses.",
+        "To take him home.",
+        "To give him a different haircut."
+      ],
+      "answerIndex": 0,
+      "explanation": "'Then I will tell you what I see.'",
+      "hint": "Mr Hai's reply about the mirror."
+    },
+    {
+      "id": "q4",
+      "prompt": "What haircut does Bác Tâm want?",
+      "options": [
+        "Short on the sides, a little longer on top",
+        "Long everywhere",
+        "Very short everywhere",
+        "He cannot decide"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Short on the sides. A little longer on top.'",
+      "hint": "Bác Tâm describes his usual cut."
+    },
+    {
+      "id": "q5",
+      "prompt": "How many years has Bác Tâm been coming to this barber?",
+      "options": ["Ten", "Twenty", "Thirty-one", "Forty"],
+      "answerIndex": 2,
+      "explanation": "'Thirty-one.'",
+      "hint": "Mr Hai gives the exact number."
+    },
+    {
+      "id": "q6",
+      "prompt": "What was Bác Tâm's hair colour before?",
+      "options": ["Brown", "Black", "Grey", "Red"],
+      "answerIndex": 1,
+      "explanation": "'Your hair is white now. It was black.'",
+      "hint": "Mr Hai compares now and before."
+    },
+    {
+      "id": "q7",
+      "prompt": "What does Mr Hai say about Bác Tâm's eyes?",
+      "options": [
+        "They are tired.",
+        "They are kind.",
+        "They are blue.",
+        "They are small."
+      ],
+      "answerIndex": 1,
+      "explanation": "'Your eyes are kind.'",
+      "hint": "Mr Hai describes him."
+    },
+    {
+      "id": "q8",
+      "prompt": "What does 'Tell me when to stop' mean at the end?",
+      "options": [
+        "'Tell me when the haircut is finished enough.'",
+        "'Tell me to stop talking.'",
+        "'Tell me when to go home.'",
+        "'Tell me when to close the shop.'"
+      ],
+      "answerIndex": 0,
+      "explanation": "Bác Tâm cannot see the mirror, so Mr Hai asks him to say when the cut is right.",
+      "hint": "Mr Hai says it just before Bác Tâm says 'Stop. It is perfect.'"
+    },
+    {
+      "id": "q9",
+      "prompt": "How do the two men feel about each other?",
+      "options": [
+        "They are close — a long friendship inside small monthly visits.",
+        "They are angry.",
+        "They have just met.",
+        "They are family."
+      ],
+      "answerIndex": 0,
+      "explanation": "Thirty-one years of haircuts, and Mr Hai 'remembers everything.'",
+      "hint": "Look at how long Bác Tâm has been coming."
+    },
+    {
+      "id": "q10",
+      "prompt": "What is the main idea of the conversation?",
+      "options": [
+        "Long, small habits can hold a quiet kind of care.",
+        "Old people should not cut their hair.",
+        "Mirrors are dangerous.",
+        "Barbers should not talk to customers."
+      ],
+      "answerIndex": 0,
+      "explanation": "A monthly haircut and a careful description of a face become a kind of friendship.",
+      "hint": "Think about the long routine they share."
+    }
+  ],
+  "cloze": {
+    "template": "Mr Hai: Good morning, Bác Tâm. Same {{b1}}?\nBác Tâm: Same chair. Same haircut.\nMr Hai: Sit down. How are you today?\nBác Tâm: My eyes are worse. I cannot see the {{b2}} anymore.\nMr Hai: Then I will {{b3}} you what I see.\nBác Tâm: Thank you. Tell me when to stop talking, too.\nMr Hai: You never talk too much. Now — short on the {{b4}}?\nBác Tâm: Short on the sides. A little longer on top.\nMr Hai: Like always.\nBác Tâm: How many years have I come here?\nMr Hai: {{b5}}.\nBác Tâm: Thirty-one years. And you remember my haircut?\nMr Hai: I remember {{b6}}.\nBác Tâm: Mr Hai, may I ask a small question?\nMr Hai: Please.\nBác Tâm: Do I look the same?\nMr Hai: Your hair is {{b7}} now. It was black when you first came. Your face is the same. Your eyes are {{b8}}. Your smile is the same too.\nBác Tâm: And the mirror?\nMr Hai: The mirror shows a man with white hair, a kind face, and a good {{b9}} today.\nBác Tâm: Good. Thank you.\nMr Hai: Done. Tell me when to stop.\nBác Tâm: Stop. It is {{b10}}.",
+    "blanks": [
+      { "id": "b1", "options": ["chair", "shop", "shirt", "name"], "answerIndex": 0, "explanation": "Bác Tâm always sits in the same chair." },
+      { "id": "b2", "options": ["door", "mirror", "clock", "lamp"], "answerIndex": 1, "explanation": "He can no longer see the mirror." },
+      { "id": "b3", "options": ["tell", "buy", "sell", "ask"], "answerIndex": 0, "explanation": "Mr Hai will tell him what he sees." },
+      { "id": "b4", "options": ["top", "sides", "back", "front"], "answerIndex": 1, "explanation": "Short on the sides — Bác Tâm's usual cut." },
+      { "id": "b5", "options": ["Twenty", "Thirty-one", "Forty-two", "Ten"], "answerIndex": 1, "explanation": "Thirty-one years." },
+      { "id": "b6", "options": ["nothing", "everything", "something", "anything"], "answerIndex": 1, "explanation": "Mr Hai remembers everything about him." },
+      { "id": "b7", "options": ["white", "black", "red", "brown"], "answerIndex": 0, "explanation": "His hair is white now (it was black)." },
+      { "id": "b8", "options": ["kind", "tired", "blue", "wet"], "answerIndex": 0, "explanation": "His eyes are kind." },
+      { "id": "b9", "options": ["shop", "shirt", "tree", "song"], "answerIndex": 1, "explanation": "He is wearing a good shirt today." },
+      { "id": "b10", "options": ["perfect", "wrong", "long", "short"], "answerIndex": 0, "explanation": "Bác Tâm says it is perfect." }
+    ]
+  },
+  "criticalThinkingQuestion": "Mr Hai becomes Bác Tâm's eyes — describing the mirror he can no longer see. Is there a small task someone has quietly done for you over many years that you only noticed recently? What did you do, or could you do, when you noticed?"
+}

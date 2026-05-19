@@ -1,0 +1,80 @@
+{
+  "id": "reading-a1-017",
+  "level": "A1",
+  "title": "Vu's first haircut",
+  "summary": "A six-year-old boy has his first haircut. His mother is at the hospital with his new baby sister. The barber tells him how the cutting will work — and shares a small story of his own.",
+  "format": "dialogue",
+  "body": [
+    { "speaker": "Mr Tu", "text": "Sit, please. What is your name?" },
+    { "speaker": "Vu", "text": "Vu." },
+    { "speaker": "Mr Tu", "text": "How old are you, Vu?" },
+    { "speaker": "Vu", "text": "Six. This is my first haircut." },
+    { "speaker": "Mr Tu", "text": "Your first? At my shop?" },
+    { "speaker": "Vu", "text": "Anywhere. My mother cut my hair before. She is not here today." },
+    { "speaker": "Mr Tu", "text": "Why?" },
+    { "speaker": "Vu", "text": "She is at the hospital. My new sister came yesterday." },
+    { "speaker": "Mr Tu", "text": "Ah. Then today is a big day." },
+    { "speaker": "Vu", "text": "Yes." },
+    { "speaker": "Mr Tu", "text": "Are you afraid?" },
+    { "speaker": "Vu", "text": "A little." },
+    { "speaker": "Mr Tu", "text": "I will tell you what I do. I take a small piece of hair. I cut it. I show you the hair. You say yes or no. Then we do another piece. Is that good?" },
+    { "speaker": "Vu", "text": "Yes." },
+    { "speaker": "Mr Tu", "text": "Good. Sit still. Look at the mirror. Tell me about your sister." },
+    { "speaker": "Vu", "text": "I have not seen her yet. My father said she has small hands." },
+    { "speaker": "Mr Tu", "text": "She does. Everyone has small hands when they are one day old." },
+    { "speaker": "Vu", "text": "Mr Tu, do you have a sister?" },
+    { "speaker": "Mr Tu", "text": "I had a sister. She is not here anymore." },
+    { "speaker": "Vu", "text": "I am sorry." },
+    { "speaker": "Mr Tu", "text": "Do not be sorry. She was my sister for sixty years. That is a long time." },
+    { "speaker": "Vu", "text": "Will you cut her hair if you see her again?" },
+    { "speaker": "Mr Tu", "text": "I would love to." },
+    { "speaker": "Vu", "text": "Then I will tell my sister about you. So when she meets you, you can cut her hair too." },
+    { "speaker": "Mr Tu", "text": "Yes. Tell her. Now turn your head a little." }
+  ],
+  "tags": ["Family", "First time", "Conversation"],
+  "annotations": [
+    { "phrase": "haircut", "meaningVi": "việc cắt tóc" },
+    { "phrase": "mirror", "meaningVi": "gương" },
+    { "phrase": "afraid", "meaningVi": "sợ" },
+    { "phrase": "hands", "meaningVi": "(các) bàn tay" },
+    { "phrase": "love", "meaningVi": "yêu; thích nhiều" }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Asking yes/no questions: 'Are you…?' / 'Do you…?'",
+      "bodyVi": "Để hỏi câu yes/no với động từ 'be', đảo từ 'be' lên đầu: 'Are you afraid?' (Cháu có sợ không?). Với các động từ khác, dùng do/does: 'Do you have a sister?' (Bác có em gái không?). Trả lời ngắn: Yes, I am. / No, I do not.",
+      "bodyEn": "For yes/no questions with 'be', invert the verb: 'Are you afraid?' For other verbs, use do/does: 'Do you have a sister?' Short answers: Yes, I am. / No, I do not."
+    }
+  ],
+  "cloze": {
+    "template": "Mr Tu: Sit, please. What is your {{b1}}?\nVu: Vu.\nMr Tu: How old are you, Vu?\nVu: {{b2}}. This is my first {{b3}}.\nMr Tu: Your first? At my shop?\nVu: Anywhere. My {{b4}} cut my hair before. She is not here today.\nMr Tu: Why?\nVu: She is at the {{b5}}. My new sister came yesterday.\nMr Tu: Ah. Then today is a big day.\nVu: Yes.\nMr Tu: Are you {{b6}}?\nVu: A little.\nMr Tu: I will tell you what I do. I take a small piece of hair. I cut it. I show you the hair. You say yes or no. Then we do another piece. Is that good?\nVu: Yes.\nMr Tu: Good. Sit {{b7}}. Look at the {{b8}}. Tell me about your sister.\nVu: I have not seen her yet. My father said she has {{b9}} hands.\nMr Tu: She does. Everyone has small hands when they are one day old.\nVu: Mr Tu, do you have a sister?\nMr Tu: I had a sister. She is not here anymore.\nVu: I am sorry.\nMr Tu: Do not be sorry. She was my sister for {{b10}} years. That is a long time.\nVu: Will you cut her hair if you see her again?\nMr Tu: I would {{b11}} to.\nVu: Then I will tell my sister about you. So when she meets you, you can cut her hair too.\nMr Tu: Yes. Tell her. Now turn your {{b12}} a little.",
+    "blanks": [
+      { "id": "b1", "options": ["name", "age", "shop", "sister"], "answerIndex": 0, "explanation": "Mr Tu asks the boy's name first." },
+      { "id": "b2", "options": ["One", "Six", "Sixteen", "Sixty"], "answerIndex": 1, "explanation": "'Six. This is my first haircut.'" },
+      { "id": "b3", "options": ["lesson", "haircut", "day", "story"], "answerIndex": 1, "explanation": "His first haircut — anywhere." },
+      { "id": "b4", "options": ["father", "mother", "aunt", "brother"], "answerIndex": 1, "explanation": "His mother used to cut his hair." },
+      { "id": "b5", "options": ["shop", "hospital", "garden", "school"], "answerIndex": 1, "explanation": "She is at the hospital — for the new baby." },
+      { "id": "b6", "options": ["happy", "rich", "afraid", "old"], "answerIndex": 2, "explanation": "Mr Tu asks if Vu is afraid; Vu says 'a little'." },
+      { "id": "b7", "options": ["down", "still", "happy", "loud"], "answerIndex": 1, "explanation": "'Sit still.' — stay without moving." },
+      { "id": "b8", "options": ["window", "mirror", "door", "garden"], "answerIndex": 1, "explanation": "Look at the mirror — to see the cut as it happens." },
+      { "id": "b9", "options": ["large", "small", "loud", "rich"], "answerIndex": 1, "explanation": "His father said she has small hands." },
+      { "id": "b10", "options": ["six", "sixteen", "sixty", "ninety"], "answerIndex": 2, "explanation": "She was his sister for sixty years." },
+      { "id": "b11", "options": ["refuse", "love", "forget", "leave"], "answerIndex": 1, "explanation": "'I would love to.' — he would happily cut her hair." },
+      { "id": "b12", "options": ["head", "foot", "hand", "shop"], "answerIndex": 0, "explanation": "'Turn your head a little.' — to finish the cut." }
+    ]
+  },
+  "translationVi": "Bác Tú: Mời cháu ngồi. Cháu tên gì?\nVũ: Vũ.\nBác Tú: Cháu mấy tuổi, Vũ?\nVũ: Sáu. Đây là lần cắt tóc đầu tiên của cháu.\nBác Tú: Lần đầu á? Ở tiệm bác?\nVũ: Lần đầu hẳn luôn ấy. Trước mẹ cắt tóc cho cháu. Hôm nay mẹ không có nhà.\nBác Tú: Sao thế?\nVũ: Mẹ đang ở bệnh viện. Hôm qua em gái cháu sinh.\nBác Tú: À. Vậy hôm nay là một ngày lớn nhỉ.\nVũ: Vâng ạ.\nBác Tú: Cháu có sợ không?\nVũ: Một chút ạ.\nBác Tú: Để bác nói cho cháu biết bác sẽ làm gì. Bác lấy một mớ tóc nhỏ. Bác cắt. Bác cho cháu xem mớ tóc đó. Cháu nói có hay không. Rồi mình làm mớ tiếp theo. Vậy được không?\nVũ: Vâng ạ.\nBác Tú: Tốt. Cháu ngồi yên. Nhìn vào gương. Kể bác nghe về em gái cháu.\nVũ: Cháu chưa gặp em ạ. Bố cháu nói em có bàn tay nhỏ lắm.\nBác Tú: Đúng là vậy. Ai cũng có bàn tay nhỏ khi mới được một ngày tuổi.\nVũ: Bác Tú ơi, bác có em gái không?\nBác Tú: Bác từng có. Em bác không còn ở đây nữa.\nVũ: Cháu xin lỗi ạ.\nBác Tú: Cháu không phải xin lỗi. Em ấy là em bác suốt sáu mươi năm. Đó là một quãng dài.\nVũ: Nếu gặp lại, bác có cắt tóc cho em bác không?\nBác Tú: Bác rất muốn.\nVũ: Vậy cháu sẽ kể cho em gái cháu nghe về bác. Để khi em gặp bác, bác cắt tóc cho em cháu luôn.\nBác Tú: Ừ. Cháu kể đi. Giờ nghiêng đầu một chút nào.",
+  "questions": [
+    { "id": "q1", "prompt": "How old is Vu?", "options": ["Three", "Six", "Sixteen", "Sixty"], "answerIndex": 1, "explanation": "'Six. This is my first haircut.'", "hint": "Look at Vu's second reply." },
+    { "id": "q2", "prompt": "Why is this his first haircut at a shop?", "options": ["He hates shops", "His mother always cut his hair before — but today she is not home", "He has no money", "He just moved here"], "answerIndex": 1, "explanation": "'My mother cut my hair before. She is not here today.'", "hint": "Look at Vu's third reply." },
+    { "id": "q3", "prompt": "Where is Vu's mother?", "options": ["At work", "At the hospital — his new sister came yesterday", "At a friend's house", "On a trip"], "answerIndex": 1, "explanation": "'She is at the hospital. My new sister came yesterday.'", "hint": "Look at Vu's reply to 'Why?'" },
+    { "id": "q4", "prompt": "Is Vu afraid?", "options": ["Not at all", "A little", "Very afraid", "He doesn't say"], "answerIndex": 1, "explanation": "'A little.'", "hint": "Look at Vu's short reply about being afraid." },
+    { "id": "q5", "prompt": "How does Mr Tu plan to cut Vu's hair?", "options": ["He will cut everything at once", "Small piece, then show Vu, then Vu says yes or no, then next piece", "He will let Vu cut it himself", "He will use a machine"], "answerIndex": 1, "explanation": "Mr Tu describes this method to make Vu less afraid.", "hint": "Look at Mr Tu's first long turn." },
+    { "id": "q6", "prompt": "What does Mr Tu say about everyone's hands at one day old?", "options": ["They are loud", "They are small", "They are wet", "They are warm"], "answerIndex": 1, "explanation": "'Everyone has small hands when they are one day old.'", "hint": "Look at Mr Tu's reply after Vu's father's quote." },
+    { "id": "q7", "prompt": "Does Mr Tu have a sister?", "options": ["Yes, she is at home", "He had a sister; she is not here anymore", "He has two sisters", "He has no sisters"], "answerIndex": 1, "explanation": "'I had a sister. She is not here anymore.'", "hint": "Look at Mr Tu's reply to Vu's question." },
+    { "id": "q8", "prompt": "For how long was she his sister?", "options": ["A few years", "Sixty years", "Six years", "His whole life"], "answerIndex": 1, "explanation": "'She was my sister for sixty years.'", "hint": "Look at Mr Tu's reply to 'I am sorry'." },
+    { "id": "q9", "prompt": "What does Vu promise to tell his new sister?", "options": ["About school", "About Mr Tu, so when she meets him, he can cut her hair too", "About the hospital", "About the mirror"], "answerIndex": 1, "explanation": "'Then I will tell my sister about you. So when she meets you, you can cut her hair too.'", "hint": "Look at Vu's last long turn." },
+    { "id": "q10", "prompt": "What is the tone of the conversation?", "options": ["Cold and rushed", "Warm and patient — a big day handled gently between a child and an older man", "Angry", "Joking and silly"], "answerIndex": 1, "explanation": "Mr Tu explains his method, listens, and shares his own loss with care; Vu responds kindly.", "hint": "Notice how each speaker responds to the other." }
+  ],
+  "criticalThinkingQuestion": "Mr Tu says his sister 'was my sister for sixty years. That is a long time.' Think of someone you have known for a while. How does the length of time you have known them change what the time is worth?"
+}

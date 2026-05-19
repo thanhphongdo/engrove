@@ -1,0 +1,85 @@
+{
+  "id": "reading-a2-019",
+  "level": "A2",
+  "title": "Fix it for now",
+  "summary": "A woman brings her father's broken watch to an old clockmaker. He can fix it two ways. She has to choose.",
+  "format": "dialogue",
+  "body": [
+    { "speaker": "Mai", "text": "Excuse me. Can you fix this?" },
+    { "speaker": "Bác Thanh", "text": "Let me see. Ah. A watch. May I sit it on the cloth?" },
+    { "speaker": "Mai", "text": "Please." },
+    { "speaker": "Bác Thanh", "text": "It is old. From the seventies, I would say." },
+    { "speaker": "Mai", "text": "My father's. He gave it to me when I was twelve." },
+    { "speaker": "Bác Thanh", "text": "How old are you now?" },
+    { "speaker": "Mai", "text": "Forty-one." },
+    { "speaker": "Bác Thanh", "text": "So you have worn it for twenty-nine years." },
+    { "speaker": "Mai", "text": "Yes." },
+    { "speaker": "Bác Thanh", "text": "When did it stop?" },
+    { "speaker": "Mai", "text": "Six months ago." },
+    { "speaker": "Bác Thanh", "text": "And you have walked around with a broken watch for six months?" },
+    { "speaker": "Mai", "text": "Yes." },
+    { "speaker": "Bác Thanh", "text": "Why?" },
+    { "speaker": "Mai", "text": "Because I knew you would ask difficult questions." },
+    { "speaker": "Bác Thanh", "text": "I would not have asked any. But now I will. Did your father stop wearing it because it broke, or did it break because he stopped wearing it?" },
+    { "speaker": "Mai", "text": "He stopped wearing it because he died." },
+    { "speaker": "Bác Thanh", "text": "Ah." },
+    { "speaker": "Mai", "text": "Six years ago. I have worn it since then. Six months ago it stopped. I think it was tired." },
+    { "speaker": "Bác Thanh", "text": "Watches do not get tired. But the people inside the watches sometimes do." },
+    { "speaker": "Mai", "text": "Can you fix it?" },
+    { "speaker": "Bác Thanh", "text": "I can. It is a simple problem. A small part needs to be cleaned. I can do it in two days." },
+    { "speaker": "Mai", "text": "Thank you." },
+    { "speaker": "Bác Thanh", "text": "One more question?" },
+    { "speaker": "Mai", "text": "Yes." },
+    { "speaker": "Bác Thanh", "text": "Do you want me to fix it so it runs forever, or so it runs for now?" },
+    { "speaker": "Mai", "text": "What is the difference?" },
+    { "speaker": "Bác Thanh", "text": "If forever, I replace the small part with a new one. The watch is no longer fully your father's. If for now, I clean the old part. It will run for a year or two, then stop again." },
+    { "speaker": "Mai", "text": "Clean the old part." },
+    { "speaker": "Bác Thanh", "text": "I thought so." }
+  ],
+  "tags": ["Repair", "Family", "Memory"],
+  "annotations": [
+    { "phrase": "watch", "meaningVi": "đồng hồ đeo tay" },
+    { "phrase": "stopped", "meaningVi": "đã dừng / đã ngưng" },
+    { "phrase": "tired", "meaningVi": "mệt" },
+    { "phrase": "replace", "meaningVi": "thay thế" },
+    { "phrase": "forever", "meaningVi": "mãi mãi" }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Present perfect with 'for' and 'since'",
+      "bodyVi": "Dùng 'have/has + V3' với 'for + khoảng thời gian' hoặc 'since + mốc thời gian'. Trong bài: 'You have worn it for twenty-nine years.' (Bạn đã đeo nó được hai mươi chín năm.) / 'I have worn it since then.' (Tôi đã đeo từ đó.) / 'You have walked around with a broken watch for six months?'",
+      "bodyEn": "Use 'have/has + past participle' with 'for + period' or 'since + point'. From the dialogue: 'You have worn it for twenty-nine years.' / 'I have worn it since then.' / 'You have walked around with a broken watch for six months?'"
+    }
+  ],
+  "cloze": {
+    "template": "Mai: Excuse me. Can you fix this?\nBác Thanh: Let me see. Ah. A {{b1}}. May I sit it on the cloth?\nMai: Please.\nBác Thanh: It is old. From the {{b2}}, I would say.\nMai: My {{b3}}. He gave it to me when I was {{b4}}.\nBác Thanh: How old are you now?\nMai: {{b5}}.\nBác Thanh: So you have worn it for {{b6}} years.\nMai: Yes.\nBác Thanh: When did it stop?\nMai: Six months ago.\nBác Thanh: And you have walked around with a {{b7}} watch for six months?\nMai: Yes.\nBác Thanh: Why?\nMai: Because I knew you would ask difficult questions.\nBác Thanh: I would not have asked any. But now I will. Did your father stop wearing it because it broke, or did it break because he stopped wearing it?\nMai: He stopped wearing it because he {{b8}}.\nBác Thanh: Ah.\nMai: Six years ago. I have worn it since then. Six months ago it stopped. I think it was {{b9}}.\nBác Thanh: Watches do not get tired. But the people inside the watches sometimes do.\nMai: Can you fix it?\nBác Thanh: I can. It is a simple problem. A small part needs to be cleaned. I can do it in {{b10}} days.\nMai: Thank you.\nBác Thanh: One more question?\nMai: Yes.\nBác Thanh: Do you want me to fix it so it runs {{b11}}, or so it runs for now?\nMai: What is the difference?\nBác Thanh: If forever, I replace the small part with a new one. The watch is no longer fully your father's. If for now, I clean the old part. It will run for a year or two, then stop again.\nMai: {{b12}} the old part.\nBác Thanh: I thought so.",
+    "blanks": [
+      { "id": "b1", "options": ["watch", "ring", "necklace", "pen"], "answerIndex": 0, "explanation": "Bác Thanh identifies the object: 'Ah. A watch.'" },
+      { "id": "b2", "options": ["fifties", "seventies", "nineties", "two-thousands"], "answerIndex": 1, "explanation": "He estimates the watch is from the seventies." },
+      { "id": "b3", "options": ["father's", "mother's", "uncle's", "brother's"], "answerIndex": 0, "explanation": "It was her father's watch." },
+      { "id": "b4", "options": ["two", "twelve", "twenty", "forty"], "answerIndex": 1, "explanation": "He gave it to her when she was twelve." },
+      { "id": "b5", "options": ["fourteen", "twenty-one", "forty-one", "ninety-one"], "answerIndex": 2, "explanation": "She is forty-one now — twenty-nine years after age twelve." },
+      { "id": "b6", "options": ["two", "nine", "twenty-nine", "fifty-nine"], "answerIndex": 2, "explanation": "Twenty-nine years of wearing the watch." },
+      { "id": "b7", "options": ["broken", "shiny", "loud", "tiny"], "answerIndex": 0, "explanation": "She walked around with a broken watch for six months." },
+      { "id": "b8", "options": ["moved", "died", "complained", "retired"], "answerIndex": 1, "explanation": "He stopped wearing it because he died — the painful answer Mai gives." },
+      { "id": "b9", "options": ["new", "tired", "happy", "broken"], "answerIndex": 1, "explanation": "She thinks the watch was tired — Bác Thanh gently corrects this." },
+      { "id": "b10", "options": ["one", "two", "ten", "twenty"], "answerIndex": 1, "explanation": "Two days to clean the part." },
+      { "id": "b11", "options": ["badly", "forever", "secretly", "softly"], "answerIndex": 1, "explanation": "Run forever (replace the part) versus run for now (clean the old part)." },
+      { "id": "b12", "options": ["Burn", "Clean", "Replace", "Throw"], "answerIndex": 1, "explanation": "Mai chooses: 'Clean the old part.' — she wants it to keep being her father's." }
+    ]
+  },
+  "translationVi": "Mai: Xin chào. Bác sửa được cái này không?\nBác Thanh: Để bác xem. Ô. Một chiếc đồng hồ. Cho bác đặt nó lên miếng vải nhé?\nMai: Vâng ạ.\nBác Thanh: Cũ rồi. Từ thập niên bảy mươi thì phải.\nMai: Của bố cháu. Bố tặng cháu hồi cháu mười hai tuổi.\nBác Thanh: Giờ cháu bao nhiêu tuổi?\nMai: Bốn mươi mốt.\nBác Thanh: Vậy cháu đã đeo nó hai mươi chín năm.\nMai: Vâng.\nBác Thanh: Nó dừng khi nào?\nMai: Sáu tháng trước.\nBác Thanh: Và cháu đi lại với một chiếc đồng hồ hỏng suốt sáu tháng?\nMai: Vâng.\nBác Thanh: Sao thế?\nMai: Vì cháu biết bác sẽ hỏi những câu khó.\nBác Thanh: Bác sẽ không hỏi gì cả. Nhưng giờ bác sẽ hỏi. Bố cháu dừng đeo nó vì nó hỏng, hay nó hỏng vì bố cháu dừng đeo?\nMai: Bố cháu dừng đeo vì bố mất.\nBác Thanh: À.\nMai: Sáu năm trước. Từ đó cháu đeo. Sáu tháng trước nó dừng. Cháu nghĩ nó mệt.\nBác Thanh: Đồng hồ không biết mệt. Nhưng người bên trong đồng hồ thì đôi khi có.\nMai: Bác sửa được không ạ?\nBác Thanh: Sửa được. Vấn đề đơn giản. Một bộ phận nhỏ cần được lau sạch. Hai ngày là xong.\nMai: Cảm ơn bác.\nBác Thanh: Nhưng — bác hỏi thêm một câu nữa được không?\nMai: Vâng ạ.\nBác Thanh: Cháu muốn bác sửa để nó chạy mãi mãi, hay để nó chạy lúc này thôi?\nMai: Khác nhau thế nào ạ?\nBác Thanh: Nếu mãi mãi, bác thay bộ phận nhỏ đó bằng cái mới. Đồng hồ không còn hoàn toàn là của bố cháu nữa. Nếu chạy lúc này thôi, bác lau bộ phận cũ. Nó sẽ chạy một hai năm, rồi lại dừng.\nMai: Bác lau bộ phận cũ giúp cháu.\nBác Thanh: Bác nghĩ vậy.",
+  "questions": [
+    { "id": "q1", "prompt": "What does Mai bring to Bác Thanh?", "options": ["A radio", "Her father's old watch from the seventies", "A clock", "A photograph"], "answerIndex": 1, "explanation": "'A watch.' / 'From the seventies.'", "hint": "Look at the first few exchanges." },
+    { "id": "q2", "prompt": "How old was Mai when she received the watch?", "options": ["Twelve", "Twenty", "Forty-one", "Two"], "answerIndex": 0, "explanation": "'He gave it to me when I was twelve.'", "hint": "Look at Mai's reply about her father." },
+    { "id": "q3", "prompt": "How long has Mai been wearing the watch?", "options": ["Nine years", "Twenty-nine years", "Six years", "Six months"], "answerIndex": 1, "explanation": "'You have worn it for twenty-nine years.' — twelve to forty-one.", "hint": "Look at Bác Thanh's arithmetic." },
+    { "id": "q4", "prompt": "When did the watch stop?", "options": ["This morning", "Six months ago", "Six years ago", "Twenty-nine years ago"], "answerIndex": 1, "explanation": "'Six months ago.'", "hint": "Look at Mai's reply about when it stopped." },
+    { "id": "q5", "prompt": "Why didn't Mai bring it sooner?", "options": ["She had no time", "Because she knew he would ask difficult questions", "She did not know where the shop was", "It cost too much"], "answerIndex": 1, "explanation": "'Because I knew you would ask difficult questions.'", "hint": "Look at Mai's reply to 'Why?'" },
+    { "id": "q6", "prompt": "Why did Mai's father stop wearing the watch?", "options": ["It was broken", "He died — six years ago", "He gave it to her", "He bought a new one"], "answerIndex": 1, "explanation": "'He stopped wearing it because he died.'", "hint": "Look at Mai's answer to Bác Thanh's harder question." },
+    { "id": "q7", "prompt": "What does Bác Thanh say about Mai's idea that the watch was 'tired'?", "options": ["He agrees", "He gently disagrees: watches do not get tired; but the people inside the watches sometimes do", "He laughs", "He says the watch is dead"], "answerIndex": 1, "explanation": "'Watches do not get tired. But the people inside the watches sometimes do.'", "hint": "Look at Bác Thanh's reply after Mai says 'tired'." },
+    { "id": "q8", "prompt": "What are the two options he offers?", "options": ["Cheap repair or expensive repair", "Fix it so it runs forever (replace the small part) — or so it runs for now (clean the old part)", "Fix it or sell it", "Fix it today or next week"], "answerIndex": 1, "explanation": "Detailed in Bác Thanh's two-part question.", "hint": "Look at his two options." },
+    { "id": "q9", "prompt": "What is the trade-off Bác Thanh explains?", "options": ["Forever is cheap; for now is expensive", "Forever replaces the part — the watch is no longer fully her father's; for now keeps the old part but the watch will stop again in a year or two", "Forever is illegal", "There is no real difference"], "answerIndex": 1, "explanation": "'If forever, I replace the small part with a new one. The watch is no longer fully your father's.'", "hint": "Look at Bác Thanh's long answer." },
+    { "id": "q10", "prompt": "Which option does Mai choose, and what is Bác Thanh's reaction?", "options": ["Forever; he is surprised", "Clean the old part; he says 'I thought so'", "She leaves without deciding", "She wants both"], "answerIndex": 1, "explanation": "'Clean the old part.' / 'I thought so.'", "hint": "Look at the last two turns." }
+  ],
+  "criticalThinkingQuestion": "Mai chooses to keep her father's part, even knowing the watch will stop again. Think of something in your life that you could 'fix forever' by replacing — but choose not to. What does keeping the original cost you, and what does it give you?"
+}

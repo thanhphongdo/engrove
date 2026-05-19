@@ -120,6 +120,18 @@ viewpoints** that each acknowledge something true. Avoid "X says yes, Y says
 no". Better: "X focuses on individuals, Y focuses on systems; both are
 partly right."
 
+## Cultural and Setting Guidelines (Global Perspective)
+
+To ensure students are exposed to authentic, diverse global settings and characters, follow these rules for names, places, and cultural contexts:
+
+1. **Predominantly Global Setting**:
+   - Focus on cultures, locations, and names from **outside of Vietnam**. Choose diverse international settings (e.g., a small bookstore in Paris, a community garden in Berlin, a traditional paper maker in Kyoto, public spaces in New York, or historical canals in Amsterdam).
+   - Use culturally appropriate international names for these settings (e.g., Clara, Matteo, Mei, Hiro, Elena, Arthur, Chloe).
+2. **Vietnamese Topics from an External Lens**:
+   - You **may** occasionally write about Vietnam, but it **must be framed from a foreigner's perspective looking in**.
+   - Examples of this perspective: a foreign travel writer describing the sensory experience of Hanoi's train street, a foreign architect analyzing the structural elegance of traditional wooden houses in Central Vietnam, or an expatriate adapting to the unique rhythm of Saigon's morning coffee culture.
+   - Do **not** write from a purely native/domestic perspective (e.g., local families celebrating traditional holidays, domestic school memories), as the goal is to practice English through global or outsider viewpoints.
+
 ## Anti-AI-ism filter
 
 Before writing, internalise the bans:
@@ -239,7 +251,7 @@ distractors are grammatically possible but only one is contextually right.
 - `explanation` should ideally include a short quoted phrase from the
   passage so the student can verify.
 - `hint` directs the student to a region of the passage (e.g. "Paragraph
-  3" or "Look at Khoa's last line"), not the answer itself.
+  3" or "Look at Clara's last line"), not the answer itself.
 
 ## Annotations
 
@@ -276,7 +288,7 @@ One per lesson. Open-ended. Should:
 - Not have a "right" answer.
 
 Bad: "Do you agree?" — too thin.
-Good: "Mrs Linh says the tree, the bird, and she were there first. When we
+Good: "Mrs Eleanor says the tree, the bird, and she were there first. When we
 move to a new place, what 'right' do we have to ask others — even nature
 — to change for us?"
 

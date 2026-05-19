@@ -1,0 +1,86 @@
+{
+  "id": "reading-a1-019",
+  "level": "A1",
+  "title": "Sixty-five years ago",
+  "summary": "Two old men play chess in the park. One of them remembers a small thing about the other from when they were ten — and the other learns who his friend has been all along.",
+  "format": "dialogue",
+  "body": [
+    { "speaker": "Mr Bao", "text": "Your turn." },
+    { "speaker": "Mr Quy", "text": "I know." },
+    { "speaker": "Mr Bao", "text": "It is your turn for ten minutes now." },
+    { "speaker": "Mr Quy", "text": "I am thinking." },
+    { "speaker": "Mr Bao", "text": "You are thinking, or you are sleeping with your eyes open?" },
+    { "speaker": "Mr Quy", "text": "Both." },
+    { "speaker": "Mr Bao", "text": "If you move that horse, I take it." },
+    { "speaker": "Mr Quy", "text": "I will not move that horse." },
+    { "speaker": "Mr Bao", "text": "Then move something." },
+    { "speaker": "Mr Quy", "text": "Mr Bao, do you remember when we were ten?" },
+    { "speaker": "Mr Bao", "text": "What kind of question is that during a chess game?" },
+    { "speaker": "Mr Quy", "text": "A real question. When we were ten. In school." },
+    { "speaker": "Mr Bao", "text": "We are playing chess. Move." },
+    { "speaker": "Mr Quy", "text": "You sat behind me in class. You copied my answers." },
+    { "speaker": "Mr Bao", "text": "I did not copy. I looked. Looking is not copying." },
+    { "speaker": "Mr Quy", "text": "I let you look. You always thanked me with a piece of fruit. Sometimes a banana. Once a mango." },
+    { "speaker": "Mr Bao", "text": "Sixty-five years ago." },
+    { "speaker": "Mr Quy", "text": "Yes." },
+    { "speaker": "Mr Bao", "text": "Why do you bring it up today?" },
+    { "speaker": "Mr Quy", "text": "Because I cannot move my horse, and I am thinking about other things." },
+    { "speaker": "Mr Bao", "text": "I cannot move. It is your turn." },
+    { "speaker": "Mr Quy", "text": "Oh. Yes. Sorry." },
+    { "speaker": "Mr Bao", "text": "Mr Quy?" },
+    { "speaker": "Mr Quy", "text": "Yes?" },
+    { "speaker": "Mr Bao", "text": "When we were ten, I did not know you were my friend." },
+    { "speaker": "Mr Quy", "text": "I knew." },
+    { "speaker": "Mr Bao", "text": "How?" },
+    { "speaker": "Mr Quy", "text": "Friends share fruit. People who are not friends do not." },
+    { "speaker": "Mr Bao", "text": "Move." },
+    { "speaker": "Mr Quy", "text": "Yes. Here. I move the small one in front. Not the horse." },
+    { "speaker": "Mr Bao", "text": "Good." }
+  ],
+  "tags": ["Friendship", "Memory", "Old age"],
+  "annotations": [
+    { "phrase": "horse", "meaningVi": "quân mã (trong cờ)" },
+    { "phrase": "copied", "meaningVi": "chép (bài)" },
+    { "phrase": "fruit", "meaningVi": "trái cây" },
+    { "phrase": "thanked", "meaningVi": "đã cảm ơn" },
+    { "phrase": "share", "meaningVi": "chia sẻ" }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Talking about a past time: 'when we were ten'",
+      "bodyVi": "Để đặt khung thời gian trong quá khứ, dùng 'when + chủ ngữ + động từ quá khứ'. Trong bài: 'When we were ten, I did not know you were my friend.' (Khi chúng ta mười tuổi, tôi không biết anh là bạn tôi.) Mệnh đề chính cũng ở quá khứ.",
+      "bodyEn": "To set a past time frame, use 'when + subject + past verb'. From the dialogue: 'When we were ten, I did not know you were my friend.' The main clause is also in the past."
+    }
+  ],
+  "cloze": {
+    "template": "Mr Bao: Your {{b1}}.\nMr Quy: I know.\nMr Bao: It is your turn for {{b2}} minutes now.\nMr Quy: I am {{b3}}.\nMr Bao: You are thinking, or you are sleeping with your eyes open?\nMr Quy: Both.\nMr Bao: If you move that {{b4}}, I take it.\nMr Quy: I will not move that horse.\nMr Bao: Then move something.\nMr Quy: Mr Bao, do you {{b5}} when we were ten?\nMr Bao: What kind of question is that during a chess game?\nMr Quy: A real question. When we were ten. In {{b6}}.\nMr Bao: We are playing chess. Move.\nMr Quy: You sat {{b7}} me in class. You {{b8}} my answers.\nMr Bao: I did not copy. I looked. Looking is not copying.\nMr Quy: I let you look. You always thanked me with a piece of {{b9}}. Sometimes a banana. Once a mango.\nMr Bao: {{b10}} years ago.\nMr Quy: Yes.\nMr Bao: Why do you bring it up today?\nMr Quy: Because I cannot move my horse, and I am thinking about other things.\nMr Bao: I cannot move. It is your turn.\nMr Quy: Oh. Yes. Sorry.\nMr Bao: Mr Quy?\nMr Quy: Yes?\nMr Bao: When we were ten, I did not know you were my {{b11}}.\nMr Quy: I knew.\nMr Bao: How?\nMr Quy: Friends {{b12}} fruit. People who are not friends do not.\nMr Bao: Move.\nMr Quy: Yes. Here. I move the small one in front. Not the horse.\nMr Bao: Good.",
+    "blanks": [
+      { "id": "b1", "options": ["turn", "shop", "name", "fruit"], "answerIndex": 0, "explanation": "'Your turn.' — Mr Bao is reminding him to move." },
+      { "id": "b2", "options": ["two", "ten", "twenty", "sixty"], "answerIndex": 1, "explanation": "'It is your turn for ten minutes now.'" },
+      { "id": "b3", "options": ["thinking", "sleeping", "leaving", "winning"], "answerIndex": 0, "explanation": "Mr Quy says he is thinking — even if Mr Bao suspects he is sleeping." },
+      { "id": "b4", "options": ["horse", "boat", "tree", "letter"], "answerIndex": 0, "explanation": "Move that horse — a chess piece." },
+      { "id": "b5", "options": ["sell", "remember", "buy", "forget"], "answerIndex": 1, "explanation": "'Do you remember when we were ten?'" },
+      { "id": "b6", "options": ["school", "shop", "park", "house"], "answerIndex": 0, "explanation": "When we were ten. In school." },
+      { "id": "b7", "options": ["in front of", "next to", "behind", "above"], "answerIndex": 2, "explanation": "'You sat behind me in class.'" },
+      { "id": "b8", "options": ["copied", "burned", "stole", "wrote"], "answerIndex": 0, "explanation": "Mr Quy says Mr Bao copied his answers." },
+      { "id": "b9", "options": ["fruit", "money", "paper", "rice"], "answerIndex": 0, "explanation": "Mr Bao thanked him with a piece of fruit." },
+      { "id": "b10", "options": ["Sixty-five", "Six", "Fifteen", "A hundred"], "answerIndex": 0, "explanation": "Sixty-five years ago — they were ten then, they are seventy-five now." },
+      { "id": "b11", "options": ["enemy", "friend", "teacher", "father"], "answerIndex": 1, "explanation": "'I did not know you were my friend.'" },
+      { "id": "b12", "options": ["share", "throw", "buy", "hide"], "answerIndex": 0, "explanation": "'Friends share fruit. People who are not friends do not.'" }
+    ]
+  },
+  "translationVi": "Bác Bảo: Đến lượt anh.\nBác Quý: Tôi biết.\nBác Bảo: Đã đến lượt anh suốt mười phút rồi đấy.\nBác Quý: Tôi đang nghĩ.\nBác Bảo: Anh đang nghĩ, hay anh đang ngủ mở mắt?\nBác Quý: Cả hai.\nBác Bảo: Nếu anh đi con mã đó, tôi ăn ngay.\nBác Quý: Tôi không đi con mã đó.\nBác Bảo: Vậy đi cái gì đi.\nBác Quý: Bác Bảo, bác có nhớ hồi chúng ta mười tuổi không?\nBác Bảo: Câu hỏi gì thế giữa ván cờ?\nBác Quý: Câu hỏi thật. Hồi chúng ta mười tuổi. Trong trường.\nBác Bảo: Mình đang chơi cờ. Đi đi.\nBác Quý: Anh ngồi sau tôi trong lớp. Anh chép bài tôi.\nBác Bảo: Tôi không chép. Tôi nhìn. Nhìn không phải là chép.\nBác Quý: Tôi cho anh nhìn. Anh lúc nào cũng cảm ơn tôi bằng một miếng trái cây. Có khi một quả chuối. Một lần một quả xoài.\nBác Bảo: Sáu mươi lăm năm trước rồi.\nBác Quý: Vâng.\nBác Bảo: Sao hôm nay anh lại nhắc lại?\nBác Quý: Vì tôi không đi được con mã, và tôi đang nghĩ chuyện khác.\nBác Bảo: Tôi không đi được. Đến lượt anh mà.\nBác Quý: Ờ. Phải. Xin lỗi.\nBác Bảo: Bác Quý này?\nBác Quý: Sao?\nBác Bảo: Hồi mười tuổi, tôi không biết anh là bạn tôi.\nBác Quý: Tôi biết.\nBác Bảo: Sao biết?\nBác Quý: Bạn thì chia trái cây. Người không phải bạn thì không.\nBác Bảo: Đi đi.\nBác Quý: Vâng. Đây. Tôi đi quân nhỏ phía trước. Không phải con mã.\nBác Bảo: Tốt.",
+  "questions": [
+    { "id": "q1", "prompt": "What are the two men doing?", "options": ["Eating fruit", "Playing chess in the park", "Walking home", "Cleaning the house"], "answerIndex": 1, "explanation": "The whole conversation happens during a chess game.", "hint": "Look at the early turns." },
+    { "id": "q2", "prompt": "How long has it been Mr Quy's turn?", "options": ["One minute", "Ten minutes", "Twenty minutes", "An hour"], "answerIndex": 1, "explanation": "'It is your turn for ten minutes now.'", "hint": "Look at Mr Bao's third turn." },
+    { "id": "q3", "prompt": "Where does Mr Quy say they sat in school?", "options": ["Next to each other", "Mr Bao sat behind Mr Quy in class", "Across the room", "At the front"], "answerIndex": 1, "explanation": "'You sat behind me in class.'", "hint": "Look at Mr Quy's turn about school." },
+    { "id": "q4", "prompt": "How does Mr Bao describe what he did with Mr Quy's answers?", "options": ["He stole them", "He looked — and says looking is not copying", "He erased them", "He laughed at them"], "answerIndex": 1, "explanation": "'I did not copy. I looked. Looking is not copying.'", "hint": "Look at Mr Bao's defence." },
+    { "id": "q5", "prompt": "What did Mr Bao always do as a thank you?", "options": ["Said sorry", "Gave Mr Quy a piece of fruit — sometimes a banana, once a mango", "Wrote a letter", "Bought a book"], "answerIndex": 1, "explanation": "'You always thanked me with a piece of fruit. Sometimes a banana. Once a mango.'", "hint": "Look at Mr Quy's turn about the fruit." },
+    { "id": "q6", "prompt": "How long ago was that?", "options": ["Six years", "Sixteen years", "Sixty-five years", "A hundred years"], "answerIndex": 2, "explanation": "'Sixty-five years ago.'", "hint": "Look at Mr Bao's short reply about time." },
+    { "id": "q7", "prompt": "Why does Mr Quy bring this up today?", "options": ["He wants to apologise", "He cannot move his horse, so he is thinking about other things", "He is angry", "He is leaving the city"], "answerIndex": 1, "explanation": "'Because I cannot move my horse, and I am thinking about other things.'", "hint": "Look at Mr Quy's reply about why." },
+    { "id": "q8", "prompt": "What does Mr Bao admit, after a pause?", "options": ["He cheated at chess", "When they were ten, he did not know Mr Quy was his friend", "He never copied", "He hated school"], "answerIndex": 1, "explanation": "'When we were ten, I did not know you were my friend.'", "hint": "Look at Mr Bao's turn after 'Sorry'." },
+    { "id": "q9", "prompt": "How did Mr Quy know they were friends?", "options": ["Mr Bao told him", "Friends share fruit; people who are not friends do not", "The teacher said so", "He guessed"], "answerIndex": 1, "explanation": "'Friends share fruit. People who are not friends do not.'", "hint": "Look at Mr Quy's reply to 'How?'" },
+    { "id": "q10", "prompt": "What is the tone of the conversation?", "options": ["Angry — they are arguing", "Warm and a bit teasing — old friends with a long memory", "Cold and silent", "Joking and silly"], "answerIndex": 1, "explanation": "The chess game frames a small, late-life recognition between two old friends.", "hint": "Notice how each speaker handles the other." }
+  ],
+  "criticalThinkingQuestion": "Mr Quy says he knew they were friends because 'friends share fruit'. Think of a small action by someone in your life that quietly told you they were on your side. Did you know it at the time, or only later?"
+}

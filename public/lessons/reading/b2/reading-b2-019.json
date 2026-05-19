@@ -1,0 +1,85 @@
+{
+  "id": "reading-b2-019",
+  "level": "B2",
+  "title": "The mouth of the kitchen",
+  "summary": "Forty minutes before lunch service, a head chef tells his sous-chef something he has hidden for eight months — and gives her a new role she did not ask for.",
+  "format": "dialogue",
+  "body": [
+    { "speaker": "Lien", "text": "Chef, the lunch service starts in forty minutes. The new soup — I made it the way you taught me. Will you taste it?" },
+    { "speaker": "Chef Quan", "text": "Lien. We have not talked about this. I will not taste it. Not because I am being difficult. Because I cannot." },
+    { "speaker": "Lien", "text": "Cannot?" },
+    { "speaker": "Chef Quan", "text": "I lost my sense of taste eight months ago. After my illness. It did not come back." },
+    { "speaker": "Lien", "text": "Eight months ago. You have been cooking for eight months without tasting." },
+    { "speaker": "Chef Quan", "text": "Yes. With your help, though you did not know you were helping." },
+    { "speaker": "Lien", "text": "Why did you not tell me?" },
+    { "speaker": "Chef Quan", "text": "Because if I had told you, you would have started cooking for me. I needed you to keep cooking for the customer. The two are different." },
+    { "speaker": "Lien", "text": "Chef. How have you been making decisions?" },
+    { "speaker": "Chef Quan", "text": "From memory. I know what salt should look like in a pot. I know what fish smells like at three minutes versus four. I know what the colour of brown butter is when it is right and when it is wrong. I cook by sight, smell, sound, and memory. Taste was always only one of the five." },
+    { "speaker": "Lien", "text": "But the customers." },
+    { "speaker": "Chef Quan", "text": "Have not complained. Look at the reviews. They are the same as before. Slightly better, in fact, because I now plate more carefully." },
+    { "speaker": "Lien", "text": "Why are you telling me now?" },
+    { "speaker": "Chef Quan", "text": "Because I will need you to help me, soon, more honestly. I want you to taste every dish before it goes out. Not as a check on my memory. As a check on the dish itself. You will be the mouth of the kitchen." },
+    { "speaker": "Lien", "text": "Chef, that is a lot of responsibility." },
+    { "speaker": "Chef Quan", "text": "It is. You are ready. I have watched you for three years." },
+    { "speaker": "Lien", "text": "What if I disagree with you about a dish?" },
+    { "speaker": "Chef Quan", "text": "Then you will be right, and I will change the dish. I have been wrong before. I am sixty-three. I will be wrong again." },
+    { "speaker": "Lien", "text": "Will you eat it yourself, at home?" },
+    { "speaker": "Chef Quan", "text": "No. I do not eat much anymore. Food is now mostly something I make for other people. That is a smaller life than I used to have. But it is still a life. And I want this kitchen to keep being a place where people eat well." },
+    { "speaker": "Lien", "text": "Yes, Chef." }
+  ],
+  "tags": ["Work", "Loss", "Trust"],
+  "annotations": [
+    { "phrase": "service", "meaningVi": "ca phục vụ (nhà hàng)" },
+    { "phrase": "illness", "meaningVi": "bệnh" },
+    { "phrase": "reviews", "meaningVi": "bài đánh giá" },
+    { "phrase": "responsibility", "meaningVi": "trách nhiệm" },
+    { "phrase": "carefully", "meaningVi": "cẩn thận" }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Third conditional: 'If X had…, Y would have…'",
+      "bodyVi": "Câu điều kiện loại 3 (if + past perfect, would + have + V3) nói về một việc đáng lẽ xảy ra trong quá khứ nhưng không xảy ra. Trong bài: 'If I had told you, you would have started cooking for me.' (Nếu tôi đã nói với cô, cô đã bắt đầu nấu cho tôi.) Ông đã không nói, nên cô đã không làm vậy.",
+      "bodyEn": "Third conditional (if + past perfect, would + have + past participle) describes a past event that did not happen. From the dialogue: 'If I had told you, you would have started cooking for me.' He did not tell her, so she did not."
+    }
+  ],
+  "cloze": {
+    "template": "Lien: Chef, the lunch service starts in {{b1}} minutes. The new soup — I made it the way you taught me. Will you taste it?\nChef Quan: Lien. We have not talked about this. I will not {{b2}} it. Not because I am being difficult. Because I cannot.\nLien: Cannot?\nChef Quan: I lost my sense of taste {{b3}} months ago. After my {{b4}}. It did not come back.\nLien: Eight months ago. You have been cooking for eight months without tasting.\nChef Quan: Yes. With your help, though you did not know you were helping.\nLien: Why did you not tell me?\nChef Quan: Because if I had told you, you would have started cooking for me. I needed you to keep cooking for the {{b5}}. The two are different.\nLien: Chef. How have you been making decisions?\nChef Quan: From {{b6}}. I know what {{b7}} should look like in a pot. I know what fish smells like at three minutes versus four. I know what the colour of {{b8}} butter is when it is right and when it is wrong. I cook by sight, smell, sound, and memory. Taste was always only one of the five.\nLien: But the customers.\nChef Quan: Have not {{b9}}. Look at the {{b10}}. They are the same as before. Slightly better, in fact, because I now plate more carefully.\nLien: Why are you telling me now?\nChef Quan: Because I will need you to help me, soon, more {{b11}}. I want you to taste every dish before it goes out. Not as a check on my memory. As a check on the dish itself. You will be the {{b12}} of the kitchen.\nLien: Chef, that is a lot of responsibility.\nChef Quan: It is. You are ready. I have watched you for {{b13}} years.\nLien: What if I disagree with you about a dish?\nChef Quan: Then you will be right, and I will change the dish. I have been wrong before. I am {{b14}}. I will be wrong again.\nLien: Will you eat it yourself, at home?\nChef Quan: No. I do not eat much anymore. Food is now mostly something I make for other people. That is a {{b15}} life than I used to have. But it is still a life. And I want this kitchen to keep being a place where people eat {{b16}}.\nLien: Yes, Chef.",
+    "blanks": [
+      { "id": "b1", "options": ["four", "fourteen", "forty", "ninety"], "answerIndex": 2, "explanation": "Forty minutes before lunch service." },
+      { "id": "b2", "options": ["touch", "taste", "see", "sell"], "answerIndex": 1, "explanation": "He will not taste it — because he cannot." },
+      { "id": "b3", "options": ["two", "eight", "eighteen", "eighty"], "answerIndex": 1, "explanation": "He lost taste eight months ago." },
+      { "id": "b4", "options": ["holiday", "illness", "promotion", "argument"], "answerIndex": 1, "explanation": "After his illness — taste did not come back." },
+      { "id": "b5", "options": ["customer", "owner", "supplier", "newspaper"], "answerIndex": 0, "explanation": "He needed her to keep cooking for the customer, not for him." },
+      { "id": "b6", "options": ["habit", "luck", "memory", "anger"], "answerIndex": 2, "explanation": "He makes decisions from memory." },
+      { "id": "b7", "options": ["salt", "rice", "sugar", "wine"], "answerIndex": 0, "explanation": "He knows what salt should look like in a pot." },
+      { "id": "b8", "options": ["white", "black", "brown", "green"], "answerIndex": 2, "explanation": "Brown butter — the colour gives the right point." },
+      { "id": "b9", "options": ["arrived", "complained", "ordered", "left"], "answerIndex": 1, "explanation": "Customers have not complained." },
+      { "id": "b10", "options": ["reviews", "menus", "tickets", "songs"], "answerIndex": 0, "explanation": "Look at the reviews — same as before." },
+      { "id": "b11", "options": ["loudly", "honestly", "happily", "secretly"], "answerIndex": 1, "explanation": "He will need her to help him more honestly from now on." },
+      { "id": "b12", "options": ["mouth", "wallet", "phone", "shadow"], "answerIndex": 0, "explanation": "She will be the mouth of the kitchen — tasting for everyone." },
+      { "id": "b13", "options": ["three", "thirteen", "thirty", "fifty"], "answerIndex": 0, "explanation": "He has watched her for three years and judges her ready." },
+      { "id": "b14", "options": ["sixteen", "sixty-three", "thirty-six", "ninety"], "answerIndex": 1, "explanation": "He is sixty-three — old enough to expect future wrongness." },
+      { "id": "b15", "options": ["bigger", "smaller", "richer", "fancier"], "answerIndex": 1, "explanation": "A smaller life than he used to have — but still a life." },
+      { "id": "b16", "options": ["well", "loudly", "fast", "alone"], "answerIndex": 0, "explanation": "He wants the kitchen to keep being a place where people eat well." }
+    ]
+  },
+  "translationVi": "Liên: Bếp trưởng, ca trưa bắt đầu trong bốn mươi phút nữa. Món súp mới — em làm theo cách thầy dạy. Thầy nếm thử nhé?\nBếp trưởng Quân: Liên. Chúng ta chưa nói chuyện này. Tôi sẽ không nếm. Không phải vì tôi khó tính. Vì tôi không thể.\nLiên: Không thể?\nBếp trưởng Quân: Tôi mất vị giác tám tháng trước. Sau khi tôi bị bệnh. Nó không trở lại.\nLiên: Tám tháng trước. Thầy nấu suốt tám tháng mà không nếm.\nBếp trưởng Quân: Đúng. Có em giúp, dù em không biết là em đang giúp.\nLiên: Sao thầy không nói cho em?\nBếp trưởng Quân: Vì nếu tôi đã nói, em sẽ bắt đầu nấu cho tôi. Tôi cần em tiếp tục nấu cho khách. Hai cái khác nhau.\nLiên: Vậy thầy ra quyết định bằng cách nào?\nBếp trưởng Quân: Bằng trí nhớ. Tôi biết muối trong nồi trông thế nào là đúng. Tôi biết cá ngửi như thế nào ở phút thứ ba so với phút thứ tư. Tôi biết màu của bơ rán đến vàng nâu lúc nào đúng, lúc nào sai. Tôi nấu bằng mắt, mùi, âm thanh, và trí nhớ. Vị giác luôn chỉ là một trong năm.\nLiên: Còn khách thì sao ạ?\nBếp trưởng Quân: Khách không phàn nàn. Em nhìn các đánh giá đi. Cũng như trước. Có khi còn hơi tốt hơn, vì tôi giờ bày đĩa kỹ hơn.\nLiên: Sao thầy nói cho em bây giờ?\nBếp trưởng Quân: Vì tôi sẽ cần em giúp tôi, sắp tới, một cách thành thật hơn. Tôi muốn em nếm từng món trước khi món ra. Không phải để kiểm tra trí nhớ tôi. Mà để kiểm tra chính món ăn. Em sẽ là cái 'miệng' của căn bếp.\nLiên: Thầy, đó là một trách nhiệm lớn.\nBếp trưởng Quân: Đúng. Em đã sẵn sàng. Tôi đã quan sát em ba năm.\nLiên: Lỡ em không đồng ý với thầy về một món thì sao?\nBếp trưởng Quân: Thì em sẽ đúng, và tôi sẽ đổi món. Tôi đã sai trước đây. Tôi sáu mươi ba tuổi. Tôi sẽ còn sai.\nLiên: Ở nhà thầy có ăn không ạ?\nBếp trưởng Quân: Không. Tôi không ăn nhiều nữa. Thức ăn giờ chủ yếu là cái tôi làm cho người khác. Đó là một cuộc đời nhỏ hơn cuộc đời tôi từng có. Nhưng vẫn là một cuộc đời. Và tôi muốn căn bếp này tiếp tục là nơi người ta ăn ngon.\nLiên: Vâng, thưa thầy.",
+  "questions": [
+    { "id": "q1", "prompt": "What does Lien ask Chef Quan at the start?", "options": ["For a raise", "Will he taste the new soup before lunch service?", "Will he hire a new sous-chef?", "Where the salt is"], "answerIndex": 1, "explanation": "'Will you taste it?'", "hint": "Look at Lien's first turn." },
+    { "id": "q2", "prompt": "Why does Chef Quan refuse?", "options": ["The soup is bad", "He cannot — he lost his sense of taste eight months ago, after an illness", "He is in a hurry", "He hates her soup"], "answerIndex": 1, "explanation": "'I lost my sense of taste eight months ago. After my illness.'", "hint": "Look at Chef Quan's second turn." },
+    { "id": "q3", "prompt": "Why didn't he tell Lien earlier?", "options": ["He forgot", "If he had told her, she would have started cooking for him; he needed her to keep cooking for the customer", "He distrusted her", "She is new"], "answerIndex": 1, "explanation": "'If I had told you, you would have started cooking for me.'", "hint": "Look at his reply to 'Why did you not tell me?'" },
+    { "id": "q4", "prompt": "How has he been making decisions without taste?", "options": ["He guesses", "From memory — sight, smell, sound, and memory; taste was only one of the five senses", "By asking customers", "By tasting on the side"], "answerIndex": 1, "explanation": "He lists the four senses he still uses.", "hint": "Look at his long answer about decisions." },
+    { "id": "q5", "prompt": "What does he know about salt, fish, and butter from memory?", "options": ["Their prices", "Their sound", "What salt should look like in a pot; how fish smells at three vs four minutes; the colour of brown butter when right and when wrong", "Their nutritional value"], "answerIndex": 2, "explanation": "Each is listed in his long turn.", "hint": "Look at the same turn." },
+    { "id": "q6", "prompt": "What has happened to customer reviews in eight months?", "options": ["Many complaints", "They are the same as before — slightly better, in fact, because he now plates more carefully", "He has been fired", "The restaurant closed"], "answerIndex": 1, "explanation": "'They are the same as before. Slightly better, in fact, because I now plate more carefully.'", "hint": "Look at his reply about customers." },
+    { "id": "q7", "prompt": "Why is he telling Lien now?", "options": ["He is retiring", "He will need her to taste every dish before it goes out — as a check on the dish itself, not on his memory", "She has been gossiping", "Someone forced him"], "answerIndex": 1, "explanation": "'I want you to taste every dish before it goes out.'", "hint": "Look at his reply to 'Why now?'" },
+    { "id": "q8", "prompt": "What does he call this new role?", "options": ["A judge", "The mouth of the kitchen", "A spy", "An assistant"], "answerIndex": 1, "explanation": "'You will be the mouth of the kitchen.'", "hint": "Look at his definition of the new role." },
+    { "id": "q9", "prompt": "How long has he watched her, and what is his judgement?", "options": ["A few months — not ready", "Three years — she is ready", "Ten years — she is too senior", "He has not been watching"], "answerIndex": 1, "explanation": "'You are ready. I have watched you for three years.'", "hint": "Look at his reply to 'a lot of responsibility'." },
+    { "id": "q10", "prompt": "What will he do if Lien disagrees with him about a dish?", "options": ["Fire her", "Concede — 'you will be right, and I will change the dish'", "Outvote her", "Leave the kitchen"], "answerIndex": 1, "explanation": "'You will be right, and I will change the dish.'", "hint": "Look at his reply to 'What if I disagree?'" },
+    { "id": "q11", "prompt": "Why does he say he will be wrong again?", "options": ["He is careless", "He is sixty-three; he has been wrong before; this is normal", "Lien is too strict", "He is tired"], "answerIndex": 1, "explanation": "'I have been wrong before. I am sixty-three. I will be wrong again.'", "hint": "Same turn." },
+    { "id": "q12", "prompt": "Does Chef Quan eat much at home?", "options": ["Yes — a lot", "No — food is now mostly something he makes for other people", "Only fruit", "Only at restaurants"], "answerIndex": 1, "explanation": "'No. I do not eat much anymore. Food is now mostly something I make for other people.'", "hint": "Look at his reply to 'Will you eat it yourself, at home?'" },
+    { "id": "q13", "prompt": "How does he describe his life now?", "options": ["The same as before", "A smaller life than he used to have — but still a life — and he wants the kitchen to keep being a place where people eat well", "Worse than death", "A celebration"], "answerIndex": 1, "explanation": "'That is a smaller life than I used to have. But it is still a life.'", "hint": "Look at the same turn." },
+    { "id": "q14", "prompt": "Which paraphrase is closer to the dialogue's central move?", "options": ["A boss reveals a weakness and offloads work.", "An older chef who can no longer taste hands over the sensory authority of the kitchen to a younger colleague he has been quietly preparing, and asks for honest disagreement.", "A mentor hides a secret to protect his image.", "A junior employee threatens her boss."], "answerIndex": 1, "explanation": "He explains the strategy and explicitly asks her to disagree when she should.", "hint": "Look at the offered role and the way disagreements are framed." },
+    { "id": "q15", "prompt": "What is the tone of the conversation?", "options": ["Cold and corporate", "Honest and dignified — neither performs the loss; the focus is on the next thing the kitchen needs", "Sentimental and tearful", "Joking and casual"], "answerIndex": 1, "explanation": "He names the loss, sets a practical plan, ends with Lien's simple acceptance.", "hint": "Notice how each speaker handles the news and the request." }
+  ],
+  "criticalThinkingQuestion": "Chef Quan says, 'I cook by sight, smell, sound, and memory. Taste was always only one of the five.' Think of a skill of yours that depends on multiple senses or kinds of attention. If you lost one of them, which of the others would have to carry the weight — and would the work still be the same work?"
+}
