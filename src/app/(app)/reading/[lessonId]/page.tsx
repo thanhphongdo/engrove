@@ -1,6 +1,6 @@
 "use client";
 
-import { use, useState } from "react";
+import { Suspense, use, useState } from "react";
 import Link from "next/link";
 import { ArrowLeft, Pin, PinOff } from "lucide-react";
 import { useLocalStorageBoolean } from "@/lib/use-local-storage";
@@ -40,7 +40,7 @@ const LEVEL_CLASS: Record<Lesson["level"], string> = {
   C1: "bg-level-c1 text-level-c1-foreground",
 };
 
-export default function LessonDetailPage({
+function LessonDetailContent({
   params,
 }: {
   params: Promise<{ lessonId: string }>;
@@ -238,5 +238,17 @@ export default function LessonDetailPage({
       <AttemptHistory lessonId={lessonId} />
       <LessonNotes lessonId={lessonId} />
     </div>
+  );
+}
+
+export default function LessonDetailPage({
+  params,
+}: {
+  params: Promise<{ lessonId: string }>;
+}) {
+  return (
+    <Suspense fallback={<div className="p-8 text-sm text-muted-foreground">Loading…</div>}>
+      <LessonDetailContent params={params} />
+    </Suspense>
   );
 }

@@ -1,6 +1,6 @@
 "use client";
 
-import { use, useEffect, useState } from "react";
+import { Suspense, use, useEffect, useState } from "react";
 import Link from "next/link";
 import { ArrowLeft, Pin, PinOff } from "lucide-react";
 import { useLocalStorageBoolean } from "@/lib/use-local-storage";
@@ -49,7 +49,7 @@ function fmtDuration(ms: number | undefined): string {
   return m > 0 ? `${m}m ${s}s` : `${s}s`;
 }
 
-export default function ListeningLessonDetailPage({
+function ListeningLessonDetailContent({
   params,
 }: {
   params: Promise<{ lessonId: string }>;
@@ -252,5 +252,17 @@ export default function ListeningLessonDetailPage({
       <AttemptHistory lessonId={lessonId} />
       <LessonNotes lessonId={lessonId} />
     </div>
+  );
+}
+
+export default function ListeningLessonDetailPage({
+  params,
+}: {
+  params: Promise<{ lessonId: string }>;
+}) {
+  return (
+    <Suspense fallback={<div className="p-8 text-sm text-muted-foreground">Loading…</div>}>
+      <ListeningLessonDetailContent params={params} />
+    </Suspense>
   );
 }
