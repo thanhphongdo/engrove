@@ -74,3 +74,52 @@ describe("useListeningAudioStore", () => {
     expect(s.lessonId).toBeNull();
   });
 });
+
+describe("readySet", () => {
+  beforeEach(() => {
+    useListeningAudioStore.getState().stop();
+    useListeningAudioStore.getState().clearReady();
+  });
+
+  it("starts empty", () => {
+    expect(useListeningAudioStore.getState().readySet.size).toBe(0);
+  });
+
+  it("markReady adds an index", () => {
+    useListeningAudioStore.getState().markReady(2);
+    expect(useListeningAudioStore.getState().readySet.has(2)).toBe(true);
+  });
+
+  it("markReady is idempotent — same Set reference on duplicate call", () => {
+    useListeningAudioStore.getState().markReady(0);
+    const ref = useListeningAudioStore.getState().readySet;
+    useListeningAudioStore.getState().markReady(0);
+    expect(useListeningAudioStore.getState().readySet).toBe(ref);
+  });
+
+  it("clearReady empties the set", () => {
+    useListeningAudioStore.getState().markReady(0);
+    useListeningAudioStore.getState().markReady(1);
+    useListeningAudioStore.getState().clearReady();
+    expect(useListeningAudioStore.getState().readySet.size).toBe(0);
+  });
+
+  it("stop() resets readySet", () => {
+    useListeningAudioStore.getState().markReady(0);
+    useListeningAudioStore.getState().stop();
+    expect(useListeningAudioStore.getState().readySet.size).toBe(0);
+  });
+});
+
+describe("inlineBarVisible", () => {
+  it("starts true", () => {
+    expect(useListeningAudioStore.getState().inlineBarVisible).toBe(true);
+  });
+
+  it("setInlineBarVisible updates the field", () => {
+    useListeningAudioStore.getState().setInlineBarVisible(false);
+    expect(useListeningAudioStore.getState().inlineBarVisible).toBe(false);
+    useListeningAudioStore.getState().setInlineBarVisible(true);
+    expect(useListeningAudioStore.getState().inlineBarVisible).toBe(true);
+  });
+});

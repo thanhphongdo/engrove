@@ -13,7 +13,9 @@ type State = {
   mode: PlayMode | null;
   manifestVersion: number;
   audioEl: HTMLAudioElement | null;
-  pendingSeekMs: number | null; // non-null = seek to this offset (ms) within currentIndex after load
+  pendingSeekMs: number | null;
+  readySet: ReadonlySet<number>;
+  inlineBarVisible: boolean;
 
   load: (lessonId: string, cdnBase: string, sentences: Sentence[], manifestVersion?: number) => void;
   playSingle: (lessonId: string, cdnBase: string, sentences: Sentence[], index: number, manifestVersion?: number) => void;
@@ -26,6 +28,9 @@ type State = {
   setAudioEl: (el: HTMLAudioElement | null) => void;
   clearPendingSeek: () => void;
   seekToGlobalMs: (globalMs: number) => void;
+  markReady: (index: number) => void;
+  clearReady: () => void;
+  setInlineBarVisible: (v: boolean) => void;
 };
 
 export const useListeningAudioStore = create<State>((set, get) => ({
@@ -38,12 +43,12 @@ export const useListeningAudioStore = create<State>((set, get) => ({
   manifestVersion: 1,
   audioEl: null,
   pendingSeekMs: null,
+  readySet: new Set<number>() as ReadonlySet<number>,
+  inlineBarVisible: true,
 
   load(lessonId, cdnBase, sentences, manifestVersion = 1) {
-    // Populate audio metadata without starting playback so TranscriptPlayer
-    // can begin preloading as soon as the detail page mounts.
-    if (get().lessonId === lessonId) return; // already loaded (may be playing)
-    set({ lessonId, cdnBase, sentences, manifestVersion });
+    if (get().lessonId === lessonId) return;
+    set({ lessonId, cdnBase, sentences, manifestVersion, readySet: new Set() });
   },
 
   playSingle(lessonId, cdnBase, sentences, index, manifestVersion = 1) {
@@ -109,6 +114,7 @@ export const useListeningAudioStore = create<State>((set, get) => ({
       status: "idle",
       mode: null,
       pendingSeekMs: null,
+      readySet: new Set(),
     });
   },
 
@@ -136,11 +142,9 @@ export const useListeningAudioStore = create<State>((set, get) => ({
   seekToGlobalMs(globalMs: number) {
     const { sentences, mode } = get();
     if (!sentences.length) return;
-
     let accumulated = 0;
     let targetIdx = 0;
     let offsetMs = 0;
-
     for (let i = 0; i < sentences.length; i++) {
       const dur = sentences[i].durationMs ?? 0;
       if (accumulated + dur > globalMs || i === sentences.length - 1) {
@@ -150,12 +154,25 @@ export const useListeningAudioStore = create<State>((set, get) => ({
       }
       accumulated += dur;
     }
-
     set({
       currentIndex: targetIdx,
       status: "loading",
       mode: mode === "playAll" ? "playAll" : "single",
       pendingSeekMs: offsetMs,
     });
+  },
+
+  markReady(index) {
+    const prev = get().readySet;
+    if (prev.has(index)) return;
+    set({ readySet: new Set([...prev, index]) });
+  },
+
+  clearReady() {
+    set({ readySet: new Set() });
+  },
+
+  setInlineBarVisible(v) {
+    set({ inlineBarVisible: v });
   },
 }));
