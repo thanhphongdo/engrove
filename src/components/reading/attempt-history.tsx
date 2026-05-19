@@ -21,7 +21,7 @@ export function AttemptHistory({ lessonId }: { lessonId: string }) {
   );
   if (!attempts || attempts.length === 0) return null;
   return (
-    <section className="mt-6 rounded-md border bg-card p-4">
+    <section className="mt-6 rounded-md border bg-card p-4 shadow-md">
       <h2 className="mb-2 text-sm font-semibold">Attempt history</h2>
       <table className="w-full text-xs">
         <thead className="text-muted-foreground">
