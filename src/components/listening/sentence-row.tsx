@@ -40,21 +40,36 @@ export function SentenceRow({
   const playSingle = useListeningAudioStore((s) => s.playSingle);
   const pause = useListeningAudioStore((s) => s.pause);
   const resume = useListeningAudioStore((s) => s.resume);
+  const seekToGlobalMs = useListeningAudioStore((s) => s.seekToGlobalMs);
 
-  const isActive = currentLessonId === lessonId && currentIndex === index;
-  const isPlaying = isActive && status === "playing";
-  const isLoading = isActive && status === "loading";
+  const isOurLesson = currentLessonId === lessonId;
+  const isActive = isOurLesson && currentIndex === index;
+  const isPlayAll = isOurLesson && mode === "playAll";
+
+  // In single mode only
+  const isPlaying = isActive && !isPlayAll && status === "playing";
+  const isLoading = isActive && !isPlayAll && status === "loading";
 
   useEffect(() => {
-    if (isActive && mode === "playAll" && contentPinned) {
+    if (isActive && isPlayAll && contentPinned) {
       rowRef.current?.scrollIntoView({ behavior: "smooth", block: "nearest" });
     }
-  }, [isActive, mode, contentPinned]);
+  }, [isActive, isPlayAll, contentPinned]);
 
   function handleClick() {
-    if (isPlaying) pause();
-    else if (isActive && status === "paused") resume();
-    else playSingle(lessonId, cdnBase, allSentences, index, manifestVersion);
+    if (isPlayAll) {
+      // Seek to the start of this sentence and continue playing all.
+      const globalMs = allSentences
+        .slice(0, index)
+        .reduce((acc, s) => acc + (s.durationMs ?? 0), 0);
+      seekToGlobalMs(globalMs);
+    } else if (isPlaying) {
+      pause();
+    } else if (isActive && status === "paused") {
+      resume();
+    } else {
+      playSingle(lessonId, cdnBase, allSentences, index, manifestVersion);
+    }
   }
 
   const segments = showAnnotations
@@ -72,10 +87,25 @@ export function SentenceRow({
       <button
         type="button"
         onClick={handleClick}
-        aria-label={isPlaying ? `Pause sentence ${index + 1}` : `Play sentence ${index + 1}`}
-        className="mr-2 inline-flex size-6 shrink-0 items-center justify-center rounded text-muted-foreground hover:bg-muted hover:text-foreground"
+        aria-label={
+          isPlayAll
+            ? `Jump to sentence ${index + 1}`
+            : isPlaying
+            ? `Pause sentence ${index + 1}`
+            : `Play sentence ${index + 1}`
+        }
+        className={cn(
+          "mr-2 inline-flex size-6 shrink-0 items-center justify-center rounded text-muted-foreground hover:bg-muted hover:text-foreground",
+          isPlayAll && !isActive && "opacity-40",
+        )}
       >
-        {isPlaying ? (
+        {isPlayAll ? (
+          isActive ? (
+            <Volume2 className="size-3.5 animate-pulse text-primary" aria-hidden="true" />
+          ) : (
+            <Play className="size-3.5" aria-hidden="true" />
+          )
+        ) : isPlaying ? (
           <Pause className="size-3.5" aria-hidden="true" />
         ) : isLoading ? (
           <Volume2 className="size-3.5 animate-pulse" aria-hidden="true" />
