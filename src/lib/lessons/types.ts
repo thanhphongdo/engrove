@@ -49,3 +49,33 @@ export type LessonMeta = {
   summary: string;
   tags: string[];
 };
+
+export type Accent = "en-US" | "en-GB" | "en-AU";
+
+export type VoiceProfile = {
+  sex: "female" | "male";
+  age: "child" | "teen" | "adult" | "senior";
+  accent: Accent;
+  edgeVoice: string;
+};
+
+export type Sentence = {
+  id: string;
+  speaker: string;
+  text: string;
+  durationMs?: number;
+};
+
+export type ListeningLesson = Lesson & {
+  accents: Accent[];
+  totalDurationMs?: number;
+  voices: Record<string, VoiceProfile>;
+  sentences: Sentence[];
+  audio: { cdnBase: string; manifestVersion: number };
+};
+
+export type ListeningLessonMeta = LessonMeta & {
+  accents: Accent[];
+  totalDurationMs?: number;
+  sentenceCount: number;
+};
