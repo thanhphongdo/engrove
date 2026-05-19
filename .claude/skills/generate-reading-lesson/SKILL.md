@@ -63,13 +63,13 @@ ls public/lessons/reading/a1/ | sort | tail -3   # find highest existing
 
 ## Per-level constraints (hard requirements)
 
-| Level | Body word count | MC questions | Cloze blanks |
-|---|---|---|---|
-| A1 | 150–250 | ≥10 | ≥10 |
-| A2 | 150–250 | ≥10 | ≥10 |
-| B1 | 350–500 | ≥10 | ≥10 |
-| B2 | 350–500 | ≥15 | ≥15 |
-| C1 | 600–800 | ≥15 | ≥15 |
+| Level | Body word count | MC questions | Cloze blanks | Annotations |
+|---|---|---|---|---|
+| A1 | 150–250 | ≥10 | ≥10 | ≥10 |
+| A2 | 150–250 | ≥10 | ≥10 | ≥10 |
+| B1 | 350–500 | ≥10 | ≥10 | ≥15 |
+| B2 | 350–500 | ≥15 | ≥15 | ≥20 |
+| C1 | 600–800 | ≥15 | ≥15 | ≥20 |
 
 Linguistic register must match the level. Use CEFR descriptors as your check:
 - A1/A2 — present and past simple, common vocab, short sentences, concrete topics expressed simply
@@ -255,7 +255,14 @@ distractors are grammatically possible but only one is contextually right.
 
 ## Annotations
 
-5 phrases is the comfortable number for A1-B1; B2/C1 can go to 5-7.
+Minimum counts per level (see the constraints table above):
+- A1, A2: **≥10 annotations**
+- B1: **≥15 annotations**
+- B2, C1: **≥20 annotations**
+
+Pick the phrases learners are most likely to look up — uncommon vocabulary,
+fixed expressions, collocations, idioms, and any word whose form, pronunciation,
+or meaning is non-obvious from spelling. Don't pad with trivially-easy items.
 
 - The `phrase` must appear **verbatim** in the body (case-insensitive). Don't
   annotate a phrase that isn't in the passage.
