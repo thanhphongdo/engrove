@@ -3,7 +3,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Pause, Play } from "lucide-react";
 import { useListeningAudioStore } from "@/stores/listening-audio-store";
-import { cn } from "@/lib/utils";
 import type { Sentence } from "@/lib/lessons/types";
 
 function fmtMs(ms: number): string {
@@ -150,18 +149,12 @@ export function PlaybackTimeline({ sentences }: { sentences: Sentence[] }) {
             style={{ width: `${bufferedPct}%` }}
           />
           <div
-            className={cn(
-              "absolute inset-y-0 left-0 rounded-full bg-primary",
-              !isDragging && "transition-[width] duration-100 ease-linear",
-            )}
+            className="absolute inset-y-0 left-0 rounded-full bg-primary"
             style={{ width: `${progressPct}%` }}
           />
         </div>
         <div
-          className={cn(
-            "pointer-events-none absolute top-1/2 size-4 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-primary bg-background shadow",
-            !isDragging && "transition-[left] duration-100 ease-linear",
-          )}
+          className="pointer-events-none absolute top-1/2 size-4 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-primary bg-background shadow"
           style={{ left: `${progressPct}%` }}
         />
       </div>

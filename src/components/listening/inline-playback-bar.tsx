@@ -200,19 +200,13 @@ export function InlinePlaybackBar({
               />
               {/* Played region */}
               <div
-                className={cn(
-                  "absolute inset-y-0 left-0 rounded-full bg-primary",
-                  !isDragging && "transition-[width] duration-100 ease-linear",
-                )}
+                className="absolute inset-y-0 left-0 rounded-full bg-primary"
                 style={{ width: `${progressPct}%` }}
               />
             </div>
             {/* Drag handle */}
             <div
-              className={cn(
-                "pointer-events-none absolute top-1/2 size-3.5 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-primary bg-background shadow",
-                !isDragging && "transition-[left] duration-100 ease-linear",
-              )}
+              className="pointer-events-none absolute top-1/2 size-3.5 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-primary bg-background shadow"
               style={{ left: `${progressPct}%` }}
             />
           </div>
