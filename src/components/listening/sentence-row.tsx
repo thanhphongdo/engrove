@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 import { Pause, Play, Volume2 } from "lucide-react";
 import { useListeningAudioStore } from "@/stores/listening-audio-store";
+import { useLocalStorageBoolean } from "@/lib/use-local-storage";
 import { splitWithAnnotations } from "@/lib/lessons/annotate";
 import { PassageAnnotation } from "@/components/reading/passage-annotation";
 import { cn } from "@/lib/utils";
@@ -30,6 +31,7 @@ export function SentenceRow({
   allSentences: Sentence[];
 }) {
   const rowRef = useRef<HTMLParagraphElement>(null);
+  const [contentPinned] = useLocalStorageBoolean("listening.lessonContentPinned");
 
   const currentIndex = useListeningAudioStore((s) => s.currentIndex);
   const currentLessonId = useListeningAudioStore((s) => s.lessonId);
@@ -44,10 +46,10 @@ export function SentenceRow({
   const isLoading = isActive && status === "loading";
 
   useEffect(() => {
-    if (isActive && mode === "playAll") {
+    if (isActive && mode === "playAll" && contentPinned) {
       rowRef.current?.scrollIntoView({ behavior: "smooth", block: "nearest" });
     }
-  }, [isActive, mode]);
+  }, [isActive, mode, contentPinned]);
 
   function handleClick() {
     if (isPlaying) pause();
