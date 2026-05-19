@@ -182,6 +182,89 @@ describe("listeningLessonSchema base", () => {
   });
 });
 
+describe("listeningLessonSchema cross-refinements", () => {
+  const base = validListening;
+
+  it("rejects when a sentence speaker is not in voices", () => {
+    const bad = {
+      ...base,
+      sentences: [
+        ...base.sentences,
+        { id: "s3", speaker: "Ghost", text: "Oo." },
+      ],
+    };
+    expect(() => listeningLessonSchema.parse(bad)).toThrow(/speaker.*Ghost.*voices/i);
+  });
+
+  it("rejects when sentence ids are not contiguous s1..sN", () => {
+    const bad = {
+      ...base,
+      sentences: [
+        { id: "s1", speaker: "Narrator", text: "I walked down the street." },
+        { id: "s3", speaker: "Narrator", text: "It was quiet." },
+      ],
+    };
+    expect(() => listeningLessonSchema.parse(bad)).toThrow(/contiguous/i);
+  });
+
+  it("rejects when paragraph sentences do not concatenate back to body", () => {
+    const bad = {
+      ...base,
+      sentences: [
+        { id: "s1", speaker: "Narrator", text: "I walked down the street." },
+        { id: "s2", speaker: "Narrator", text: "Something else entirely." },
+      ],
+    };
+    expect(() => listeningLessonSchema.parse(bad)).toThrow(/concatenat/i);
+  });
+
+  it("rejects when dialogue sentence groups do not reproduce turn texts", () => {
+    const dialogue = {
+      ...base,
+      format: "dialogue" as const,
+      body: [
+        { speaker: "Anna", text: "Hello there." },
+        { speaker: "Ben", text: "Hi Anna." },
+      ],
+      voices: {
+        Anna: { sex: "female", age: "adult", accent: "en-US", edgeVoice: "en-US-AriaNeural" },
+        Ben:  { sex: "male",   age: "adult", accent: "en-US", edgeVoice: "en-US-GuyNeural"  },
+      },
+      sentences: [
+        { id: "s1", speaker: "Anna", text: "Hello there." },
+        { id: "s2", speaker: "Ben",  text: "Goodbye Anna." },
+      ],
+    };
+    expect(() => listeningLessonSchema.parse(dialogue)).toThrow(/dialogue.*turn/i);
+  });
+
+  it("rejects when accents does not equal the unique union of voices", () => {
+    const bad = { ...base, accents: ["en-US", "en-GB"] as const };
+    expect(() => listeningLessonSchema.parse(bad)).toThrow(/accents.*union/i);
+  });
+
+  it("accepts dialogue where same speaker has multiple consecutive sentences for one turn", () => {
+    const dialogue = {
+      ...base,
+      format: "dialogue" as const,
+      body: [
+        { speaker: "Anna", text: "Hello there. How are you?" },
+        { speaker: "Ben", text: "Hi Anna." },
+      ],
+      voices: {
+        Anna: { sex: "female", age: "adult", accent: "en-US", edgeVoice: "en-US-AriaNeural" },
+        Ben:  { sex: "male",   age: "adult", accent: "en-US", edgeVoice: "en-US-GuyNeural"  },
+      },
+      sentences: [
+        { id: "s1", speaker: "Anna", text: "Hello there." },
+        { id: "s2", speaker: "Anna", text: "How are you?" },
+        { id: "s3", speaker: "Ben",  text: "Hi Anna." },
+      ],
+    };
+    expect(() => listeningLessonSchema.parse(dialogue)).not.toThrow();
+  });
+});
+
 describe("listeningLessonMetaSchema", () => {
   const meta = {
     id: "listening-a1-001",
