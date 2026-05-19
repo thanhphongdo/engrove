@@ -59,7 +59,7 @@ function NotesEditor({
   }
 
   return (
-    <section className="mt-6 rounded-md border bg-card shadow-md">
+    <section className="mt-6 rounded-md border bg-card shadow-md dark:shadow-[0_4px_20px_rgba(255,255,255,0.035)]">
       <button
         type="button"
         onClick={() => setExpanded((e) => !e)}
