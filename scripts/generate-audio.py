@@ -1,7 +1,7 @@
 #!/usr/bin/env -S uv run --script
 # /// script
 # requires-python = ">=3.11"
-# dependencies = ["edge-tts>=6.1", "mutagen>=1.47", "python-dotenv>=1.0"]
+# dependencies = ["edge-tts>=6.1", "mutagen>=1.47", "python-dotenv>=1.0", "certifi>=2024.0"]
 # ///
 """Generate per-sentence MP3s for listening lessons and publish to the audio repo."""
 
@@ -12,6 +12,7 @@ import asyncio
 import hashlib
 import json
 import os
+import ssl
 import subprocess
 import sys
 import time
@@ -20,9 +21,12 @@ import urllib.request
 from dataclasses import dataclass
 from pathlib import Path
 
+import certifi
 import edge_tts
 from dotenv import load_dotenv
 from mutagen.mp3 import MP3
+
+_SSL_CTX = ssl.create_default_context(cafile=certifi.where())
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 LESSONS_DIR = REPO_ROOT / "public" / "lessons" / "listening"
@@ -160,7 +164,7 @@ def github_api(method: str, path: str, token: str, body: dict | None = None) -> 
         data=(json.dumps(body).encode("utf-8") if body is not None else None),
     )
     try:
-        with urllib.request.urlopen(req) as resp:
+        with urllib.request.urlopen(req, context=_SSL_CTX) as resp:
             payload = resp.read().decode("utf-8")
             return resp.status, (json.loads(payload) if payload else None)
     except urllib.error.HTTPError as e:
@@ -194,16 +198,42 @@ def run(cmd: list[str], cwd: Path) -> str:
     return r.stdout.strip()
 
 
+# Git commands that touch the network embed the token in the URL. macOS keychain
+# can override those credentials; disable it for network-bound git operations.
+_GIT_NO_CRED = {"GIT_TERMINAL_PROMPT": "0"}
+
+
+def git_net(cmd: list[str], cwd: Path) -> str:
+    """Run a git+network command with the system credential helper disabled."""
+    assert cmd[0] == "git"
+    full_cmd = ["git", "-c", "credential.helper="] + cmd[1:]
+    r = subprocess.run(
+        full_cmd, cwd=cwd, check=True, text=True, capture_output=True,
+        env={**os.environ, **_GIT_NO_CRED},
+    )
+    return r.stdout.strip()
+
+
 def ensure_clone(audio_root: Path, audio_repo: str, branch: str, token: str) -> None:
     if (audio_root / ".git").exists():
-        run(["git", "fetch", "origin", branch], cwd=audio_root)
+        git_net(["git", "fetch", "origin", branch], cwd=audio_root)
         run(["git", "reset", "--hard", f"origin/{branch}"], cwd=audio_root)
         return
     audio_root.parent.mkdir(parents=True, exist_ok=True)
     if audio_root.exists():
         run(["rm", "-rf", str(audio_root)], cwd=audio_root.parent)
     auth_url = f"https://x-access-token:{token}@github.com/{audio_repo}.git"
-    run(["git", "clone", "--branch", branch, auth_url, str(audio_root)], cwd=audio_root.parent)
+    # Try cloning with the target branch; if the repo is empty, fall back to init.
+    r = subprocess.run(
+        ["git", "-c", "credential.helper=", "clone", "--branch", branch, auth_url, str(audio_root)],
+        cwd=audio_root.parent, text=True, capture_output=True,
+        env={**os.environ, **_GIT_NO_CRED},
+    )
+    if r.returncode != 0:
+        # Empty repo — init locally and set the remote.
+        audio_root.mkdir(parents=True, exist_ok=True)
+        run(["git", "init", "-b", branch], cwd=audio_root)
+        run(["git", "remote", "add", "origin", auth_url], cwd=audio_root)
     name = os.environ.get("GIT_AUTHOR_NAME", "english-learning audio bot")
     email = os.environ.get("GIT_AUTHOR_EMAIL", "audio-bot@english-learning.local")
     run(["git", "config", "user.name", name], cwd=audio_root)
@@ -218,7 +248,7 @@ def ensure_clone(audio_root: Path, audio_repo: str, branch: str, token: str) -> 
         )
         run(["git", "add", "README.md"], cwd=audio_root)
         run(["git", "commit", "-m", "init: README"], cwd=audio_root)
-        run(["git", "push"], cwd=audio_root)
+        git_net(["git", "push", "--set-upstream", "origin", branch], cwd=audio_root)
 
 
 def commit_and_push(audio_root: Path, lesson_id: str, n_changed: int, n_total: int, branch: str) -> None:
@@ -228,7 +258,7 @@ def commit_and_push(audio_root: Path, lesson_id: str, n_changed: int, n_total: i
         return
     msg = f"audio: regen {lesson_id} ({n_changed} of {n_total} changed)"
     run(["git", "commit", "-m", msg], cwd=audio_root)
-    run(["git", "push", "origin", branch], cwd=audio_root)
+    git_net(["git", "push", "origin", branch], cwd=audio_root)
 
 
 def main() -> int:
