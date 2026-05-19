@@ -3,7 +3,9 @@ import { CheckCircle2 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import type { LessonMeta } from "@/lib/lessons/types";
 import type { Attempt } from "@/lib/db/types";
+import type { LessonHighlight } from "@/lib/lessons/search-and-sort";
 import { BookmarkButton } from "./bookmark-button";
+import { HighlightedText } from "./highlighted-text";
 
 const LEVEL_CLASS: Record<LessonMeta["level"], string> = {
   A1: "bg-level-a1 text-level-a1-foreground",
@@ -13,7 +15,32 @@ const LEVEL_CLASS: Record<LessonMeta["level"], string> = {
   C1: "bg-level-c1 text-level-c1-foreground",
 };
 
-export function LessonCard({ lesson, bestAttempt }: { lesson: LessonMeta; bestAttempt?: Attempt }) {
+function orderTags(
+  tags: readonly string[],
+  highlight: LessonHighlight | undefined,
+): string[] {
+  if (!highlight || highlight.tagRanges.size === 0) return tags.slice();
+  const matched: string[] = [];
+  const unmatched: string[] = [];
+  for (const t of tags) {
+    if (highlight.tagRanges.has(t)) matched.push(t);
+    else unmatched.push(t);
+  }
+  return [...matched, ...unmatched];
+}
+
+export function LessonCard({
+  lesson,
+  bestAttempt,
+  highlight,
+}: {
+  lesson: LessonMeta;
+  bestAttempt?: Attempt;
+  highlight?: LessonHighlight;
+}) {
+  const orderedTags = orderTags(lesson.tags, highlight);
+  const visibleTags = orderedTags.slice(0, 3);
+  const overflow = orderedTags.length - visibleTags.length;
   return (
     <div className="group relative rounded-lg border bg-card text-card-foreground transition-shadow hover:shadow-md">
       <Link
@@ -21,7 +48,9 @@ export function LessonCard({ lesson, bestAttempt }: { lesson: LessonMeta; bestAt
         className="block rounded-lg p-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
       >
         <div className="flex items-start justify-between gap-2 pr-8">
-          <h3 className="line-clamp-2 text-sm font-semibold leading-snug">{lesson.title}</h3>
+          <h3 className="line-clamp-2 text-sm font-semibold leading-snug">
+            <HighlightedText text={lesson.title} ranges={highlight?.titleRanges} />
+          </h3>
           <span
             className={cn(
               "shrink-0 rounded px-1.5 py-0.5 text-[0.7rem] font-semibold",
@@ -31,13 +60,17 @@ export function LessonCard({ lesson, bestAttempt }: { lesson: LessonMeta; bestAt
             {lesson.level}
           </span>
         </div>
-        <p className="mt-2 line-clamp-2 text-xs text-muted-foreground">{lesson.summary}</p>
+        <p className="mt-2 line-clamp-2 text-xs text-muted-foreground">
+          <HighlightedText text={lesson.summary} ranges={highlight?.summaryRanges} />
+        </p>
         <div className="mt-3 flex items-center justify-between gap-2 text-xs">
           <div className="flex flex-wrap gap-1 text-muted-foreground">
-            {lesson.tags.slice(0, 3).map((t) => (
-              <span key={t}>#{t}</span>
+            {visibleTags.map((t) => (
+              <span key={t}>
+                #<HighlightedText text={t} ranges={highlight?.tagRanges.get(t)} />
+              </span>
             ))}
-            {lesson.tags.length > 3 && <span>+{lesson.tags.length - 3}</span>}
+            {overflow > 0 && <span>+{overflow}</span>}
           </div>
           {bestAttempt ? (
             <span className="inline-flex items-center gap-1 rounded bg-secondary px-1.5 py-0.5 font-medium text-secondary-foreground">
