@@ -1,6 +1,6 @@
 "use client";
 
-import { Suspense, useMemo } from "react";
+import { Suspense, useEffect, useMemo, useState } from "react";
 import { Star } from "lucide-react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useReadingLessonsIndex } from "@/lib/lessons/load";
@@ -9,7 +9,17 @@ import { useBookmarks } from "@/lib/db/use-bookmarks";
 import { FilterChipRow, type ChipOption } from "@/components/reading/filter-chip-row";
 import { TagFilterRow } from "@/components/reading/tag-filter-row";
 import { LessonCard } from "@/components/reading/lesson-card";
+import { LessonSearch } from "@/components/reading/lesson-search";
+import { SortSelect } from "@/components/reading/sort-select";
 import { Skeleton } from "@/components/ui/skeleton";
+import { useLocalStorageString } from "@/lib/use-local-storage";
+import {
+  buildFuse,
+  searchLessons,
+  sortLessons,
+  SORT_OPTIONS,
+  type SortBy,
+} from "@/lib/lessons/search-and-sort";
 import { cn } from "@/lib/utils";
 import type { CefrLevel } from "@/lib/lessons/types";
 
@@ -20,6 +30,8 @@ const LEVEL_OPTIONS: ChipOption[] = [
   { value: "B2", label: "B2", className: "bg-level-b2 text-level-b2-foreground" },
   { value: "C1", label: "C1", className: "bg-level-c1 text-level-c1-foreground" },
 ];
+
+const SORT_STORAGE_KEY = "reading:sortBy";
 
 function parseList(value: string | null): string[] {
   return value ? value.split(",").filter(Boolean) : [];
@@ -35,6 +47,23 @@ function ReadingHubContent() {
   const { data: lessons, isLoading } = useReadingLessonsIndex();
   const bestByLesson = useDefaultBestAttempts();
   const bookmarks = useBookmarks();
+
+  const [query, setQuery] = useState("");
+  const [sortBy, setSortBy] = useLocalStorageString<SortBy>(
+    SORT_STORAGE_KEY,
+    "name",
+    SORT_OPTIONS,
+  );
+  const [randomSeed, setRandomSeed] = useState<number>(() =>
+    Math.floor(Math.random() * 0xffffffff),
+  );
+
+  const levelsKey = selectedLevels.join(",");
+  const tagsKey = selectedTags.join(",");
+
+  useEffect(() => {
+    setRandomSeed(Math.floor(Math.random() * 0xffffffff));
+  }, [levelsKey, tagsKey, favoritesOnly]);
 
   const tagCounts = useMemo(() => {
     const counts = new Map<string, number>();
@@ -53,6 +82,20 @@ function ReadingHubContent() {
       return true;
     });
   }, [lessons, selectedLevels, selectedTags, favoritesOnly, bookmarks]);
+
+  const fuse = useMemo(() => buildFuse(filtered), [filtered]);
+
+  const searched = useMemo(
+    () => searchLessons(filtered, query, fuse),
+    [filtered, query, fuse],
+  );
+
+  const isSearching = query.trim().length > 0;
+
+  const display = useMemo(() => {
+    if (isSearching && sortBy === "random") return searched;
+    return sortLessons(searched, sortBy, randomSeed);
+  }, [searched, sortBy, randomSeed, isSearching]);
 
   const completedCount = useMemo(
     () => (bestByLesson ? bestByLesson.size : 0),
@@ -73,6 +116,14 @@ function ReadingHubContent() {
     router.replace(`/reading?${sp.toString()}`);
   }
 
+  function clearAllFilters() {
+    setQuery("");
+    router.replace("/reading");
+  }
+
+  const hasActiveFilters =
+    selectedLevels.length > 0 || selectedTags.length > 0 || favoritesOnly || isSearching;
+
   return (
     <div className="mx-auto w-full max-w-6xl px-4 py-4 sm:px-6 sm:py-6">
       <header className="mb-4 flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1 pl-12 md:pl-0">
@@ -81,6 +132,10 @@ function ReadingHubContent() {
           {completedCount} / {lessons?.length ?? 0} completed
         </p>
       </header>
+
+      <div className="mb-3">
+        <LessonSearch value={query} onChange={setQuery} />
+      </div>
 
       <div className="mb-3 flex flex-wrap items-center gap-2">
         <FilterChipRow
@@ -106,6 +161,9 @@ function ReadingHubContent() {
           />
           Favorites
         </button>
+        <div className="ml-auto">
+          <SortSelect value={sortBy} onChange={setSortBy} />
+        </div>
       </div>
       <div className="mb-4 flex items-start gap-3">
         <div className="flex-1">
@@ -115,10 +173,10 @@ function ReadingHubContent() {
             onChange={(next) => setParam("tags", next)}
           />
         </div>
-        {(selectedLevels.length > 0 || selectedTags.length > 0 || favoritesOnly) && (
+        {hasActiveFilters && (
           <button
             type="button"
-            onClick={() => router.replace("/reading")}
+            onClick={clearAllFilters}
             className="shrink-0 text-xs text-muted-foreground underline-offset-2 hover:underline"
           >
             Clear filters
@@ -132,13 +190,15 @@ function ReadingHubContent() {
             <Skeleton key={i} className="h-32 w-full" />
           ))}
         </div>
-      ) : filtered.length === 0 ? (
+      ) : display.length === 0 ? (
         <div className="rounded-md border border-dashed p-6 text-center text-sm text-muted-foreground">
-          No lessons match these filters.
+          {isSearching
+            ? "No lessons match your search."
+            : "No lessons match these filters."}
         </div>
       ) : (
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {filtered.map((lesson) => (
+          {display.map((lesson) => (
             <LessonCard
               key={lesson.id}
               lesson={lesson}
