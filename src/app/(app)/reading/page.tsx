@@ -15,6 +15,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { useLocalStorageString } from "@/lib/use-local-storage";
 import {
   buildFuse,
+  buildHighlightMap,
   searchLessons,
   sortLessons,
   SORT_OPTIONS,
@@ -88,6 +89,8 @@ function ReadingHubContent() {
   }, [lessons, selectedLevels, selectedTags, favoritesOnly, bookmarks]);
 
   const fuse = useMemo(() => buildFuse(filtered), [filtered]);
+
+  const highlights = useMemo(() => buildHighlightMap(fuse, query), [fuse, query]);
 
   const searched = useMemo(
     () => searchLessons(filtered, query, fuse),
@@ -207,6 +210,7 @@ function ReadingHubContent() {
               key={lesson.id}
               lesson={lesson}
               bestAttempt={bestByLesson?.get(lesson.id)}
+              highlight={highlights.get(lesson.id)}
             />
           ))}
         </div>
