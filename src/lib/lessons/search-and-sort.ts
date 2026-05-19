@@ -91,12 +91,10 @@ export type LessonHighlight = {
   tagRanges: ReadonlyMap<string, ReadonlyArray<readonly [number, number]>>;
 };
 
-export function buildHighlightMap(
-  fuse: Fuse<LessonMeta>,
-  query: string,
+function projectHighlights(
+  results: readonly FuseResult<LessonMeta>[],
 ): Map<string, LessonHighlight> {
   const map = new Map<string, LessonHighlight>();
-  const results = runSearch(fuse, query);
   for (const r of results) {
     const titleRanges: Array<readonly [number, number]> = [];
     const summaryRanges: Array<readonly [number, number]> = [];
@@ -118,6 +116,28 @@ export function buildHighlightMap(
     map.set(r.item.id, { titleRanges, summaryRanges, tagRanges });
   }
   return map;
+}
+
+export function buildHighlightMap(
+  fuse: Fuse<LessonMeta>,
+  query: string,
+): Map<string, LessonHighlight> {
+  return projectHighlights(runSearch(fuse, query));
+}
+
+export function searchWithHighlights(
+  lessons: readonly LessonMeta[],
+  query: string,
+  fuse: Fuse<LessonMeta>,
+): { items: LessonMeta[]; highlights: Map<string, LessonHighlight> } {
+  if (query.trim() === "") {
+    return { items: lessons as LessonMeta[], highlights: new Map() };
+  }
+  const results = runSearch(fuse, query);
+  return {
+    items: results.map((r) => r.item),
+    highlights: projectHighlights(results),
+  };
 }
 
 export function normalizeRanges(
