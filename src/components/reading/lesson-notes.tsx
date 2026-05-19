@@ -59,7 +59,7 @@ function NotesEditor({
   }
 
   return (
-    <section className="mt-6 rounded-md border bg-card">
+    <section className="mt-6 rounded-md border bg-card shadow-md">
       <button
         type="button"
         onClick={() => setExpanded((e) => !e)}
