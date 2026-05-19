@@ -315,22 +315,7 @@ move to a new place, what 'right' do we have to ask others — even nature
    `Speaker: text\n…` rendering with placeholders).
 5. **Rebuild the index.** Do not edit `index.json` by hand. Run:
    ```bash
-   node -e '
-     const fs = require("fs"), path = require("path");
-     const base = "public/lessons/reading";
-     const levels = ["a1","a2","b1","b2","c1"];
-     const out = [];
-     for (const lvl of levels) {
-       const dir = path.join(base, lvl);
-       const files = fs.readdirSync(dir).filter(f => f.endsWith(".json")).sort();
-       for (const f of files) {
-         const j = JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"));
-         out.push({ id: j.id, level: j.level, title: j.title, summary: j.summary, tags: j.tags });
-       }
-     }
-     fs.writeFileSync(path.join(base, "index.json"), JSON.stringify(out, null, 2));
-     console.log("wrote", out.length, "entries");
-   '
+   node scripts/rebuild-indexes.mjs
    ```
 6. **Validate.** `npx tsx scripts/validate-lessons.mjs` must print
    `✓ N lessons + index validated`. If it errors, the message points you at
