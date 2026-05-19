@@ -25,7 +25,7 @@ export function LessonSearch({
         onChange={(e) => onChange(e.target.value)}
         placeholder="Search lessons by name or summary…"
         aria-label="Search lessons"
-        className="pl-8 pr-8"
+        className="pl-8 pr-8 [&::-webkit-search-cancel-button]:appearance-none [&::-webkit-search-decoration]:appearance-none"
       />
       {value.length > 0 && (
         <button
