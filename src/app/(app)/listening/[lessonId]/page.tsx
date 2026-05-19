@@ -30,6 +30,7 @@ import { BookmarkButton } from "@/components/reading/bookmark-button";
 import { LessonNotes } from "@/components/reading/lesson-notes";
 import { AccentFlag } from "@/components/ui/accent-flag";
 import { useListeningAudioStore } from "@/stores/listening-audio-store";
+import { PlaybackTimeline } from "@/components/listening/playback-timeline";
 import type { Lesson } from "@/lib/lessons/types";
 
 const LEVEL_CLASS: Record<ListeningLesson["level"], string> = {
@@ -95,8 +96,9 @@ export default function ListeningLessonDetailPage({
   const hasDraft = draft != null;
 
   return (
-    <div className="mx-auto w-full max-w-6xl px-4 py-4 sm:px-6 sm:py-6">
+    <div className="mx-auto w-full max-w-6xl px-4 py-4 pb-20 sm:px-6 sm:py-6">
       <TranscriptPlayer />
+      <PlaybackTimeline sentences={lesson.sentences} />
 
       <header className="sticky top-0 z-30 -mx-4 mb-4 flex flex-wrap items-start justify-between gap-x-3 gap-y-2 bg-background/90 px-4 py-3 backdrop-blur supports-backdrop-filter:bg-background/80 sm:-mx-6 sm:px-6 sm:py-4">
         <div className="min-w-0 flex-1">
