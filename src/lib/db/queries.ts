@@ -13,6 +13,8 @@ import {
   type Preferences,
   type Profile,
   type VocabEntry,
+  type WritingAttempt,
+  type WritingDraft,
 } from "./types";
 
 const DEFAULT_PROFILE_ID = "default";
@@ -228,4 +230,73 @@ export async function setNote(
   }
   const row: Note = { profileId, lessonId, text, updatedAt: Date.now() };
   await db.notes.put(row);
+}
+
+// ─── Writing drafts & attempts ────────────────────────────────────────────────
+
+export async function upsertWritingDraft(draft: WritingDraft): Promise<void> {
+  await db.writingDrafts.put(draft);
+}
+
+export async function getWritingDraft(
+  profileId: string,
+  lessonId: string,
+): Promise<WritingDraft | undefined> {
+  return db.writingDrafts.get([profileId, lessonId]);
+}
+
+export async function deleteWritingDraft(
+  profileId: string,
+  lessonId: string,
+): Promise<void> {
+  await db.writingDrafts.delete([profileId, lessonId]);
+}
+
+export async function saveWritingAttempt(attempt: WritingAttempt): Promise<void> {
+  await db.writingAttempts.put(attempt);
+}
+
+export async function listWritingAttemptsForLesson(
+  profileId: string,
+  lessonId: string,
+): Promise<WritingAttempt[]> {
+  return db.writingAttempts
+    .where("[profileId+lessonId]")
+    .equals([profileId, lessonId])
+    .sortBy("completedAt");
+}
+
+export async function bestWritingAttemptByLesson(
+  profileId: string,
+): Promise<Map<string, WritingAttempt>> {
+  const all = await db.writingAttempts.where({ profileId }).toArray();
+  const best = new Map<string, WritingAttempt>();
+  for (const a of all) {
+    const prev = best.get(a.lessonId);
+    const prevOverall = prev?.llmResult?.scores.overall ?? -1;
+    const curOverall = a.llmResult?.scores.overall ?? -1;
+    if (!prev || curOverall > prevOverall) best.set(a.lessonId, a);
+  }
+  return best;
+}
+
+export async function resetWritingProgress(
+  profileId: string,
+  lessonId: string,
+): Promise<void> {
+  await db.transaction(
+    "rw",
+    db.writingAttempts,
+    db.writingDrafts,
+    async () => {
+      const keys = await db.writingAttempts
+        .where("[profileId+lessonId]")
+        .equals([profileId, lessonId])
+        .primaryKeys();
+      if (keys.length > 0) {
+        await db.writingAttempts.bulkDelete(keys as string[]);
+      }
+      await db.writingDrafts.delete([profileId, lessonId]);
+    },
+  );
 }
