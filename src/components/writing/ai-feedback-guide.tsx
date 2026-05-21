@@ -53,39 +53,35 @@ function IllustrationWrite() {
 
 function IllustrationButton() {
   return (
-    <div className="flex w-full flex-col items-center gap-2">
-      <div className="w-full rounded border border-dashed border-muted p-2 text-center text-[9px] text-muted-foreground">
+    <div className="flex w-full flex-col items-stretch gap-1.5">
+      <div className="w-full rounded border border-dashed border-muted p-1.5 text-center text-[9px] text-muted-foreground">
         ···  writing area  ···
       </div>
-      <div
-        className="text-primary"
-        style={{ animation: "slide-right 1.2s ease-in-out infinite" }}
-      >
-        <ArrowRight className="size-5 rotate-90" />
-      </div>
-      <div className="w-full rounded-md border-2 border-primary/40 bg-primary/5 p-2.5 dark:bg-primary/10">
+      <div className="rounded-md border-2 border-primary/40 bg-primary/5 p-2 dark:bg-primary/10">
         <div className="mb-1.5 flex items-center gap-1.5">
           <Sparkles className="size-3 text-primary" />
           <span className="text-[11px] font-semibold">
             Get AI feedback on your writing
           </span>
         </div>
-        <p className="mb-2 text-[9px] text-muted-foreground">
-          Done writing? Copy the prompt, paste into ChatGPT or Gemini…
-        </p>
-        <div className="flex flex-wrap items-center gap-2">
-          <div className="relative inline-flex">
-            <span className="inline-flex items-center gap-1 rounded-md bg-primary px-2.5 py-1 text-[11px] font-medium text-primary-foreground">
-              <Sparkles className="size-3" />
-              Get AI feedback
-            </span>
-            <span className="absolute -inset-0.5 animate-ping rounded-md bg-primary opacity-25" />
-          </div>
-          <span className="inline-flex items-center gap-1 rounded-md border px-2.5 py-1 text-[11px] font-medium text-muted-foreground">
-            <Wand2 className="size-3" />
-            Copy paste-back prompt
+        <div className="relative inline-flex">
+          <span className="inline-flex items-center gap-1 rounded-md bg-primary px-2 py-1 text-[10px] font-medium text-primary-foreground">
+            <Copy className="size-2.5" />
+            Copy prompt for ChatGPT / Gemini
           </span>
+          <span className="absolute -inset-0.5 animate-ping rounded-md bg-primary opacity-25" />
         </div>
+        <div className="my-1.5 flex items-center gap-1.5">
+          <div className="h-px flex-1 bg-border" />
+          <span className="text-[8px] uppercase tracking-wide text-muted-foreground">
+            or skip the copy/paste
+          </span>
+          <div className="h-px flex-1 bg-border" />
+        </div>
+        <span className="inline-flex items-center gap-1 rounded-md border bg-background/60 px-2 py-1 text-[10px] font-medium text-foreground">
+          <Wand2 className="size-2.5 text-primary" />
+          Get feedback directly
+        </span>
       </div>
     </div>
   );
@@ -204,23 +200,23 @@ const STEPS = [
   },
   {
     label: "Get feedback",
-    title: 'Click "Get AI feedback"',
+    title: "Pick how to get AI feedback",
     description:
-      'When you\'re done, click the highlighted button right below the editor. It copies a ready-made prompt — with your writing included — to your clipboard.',
+      "Two paths below the editor. Recommended: “Copy prompt for ChatGPT / Gemini” — uses your own AI tab, best quality especially for B2–C1. Or one-click: “Get feedback directly” — instant, no setup, great for A1–B1.",
     illustration: <IllustrationButton />,
   },
   {
     label: "Paste",
-    title: "Paste into ChatGPT or Gemini",
+    title: "If you copied — paste into ChatGPT or Gemini",
     description:
-      "Open ChatGPT or Gemini in any tab, paste the prompt (Ctrl+V / Cmd+V), and hit Send. No extra setup needed.",
+      "Open ChatGPT or Gemini in any tab, paste the prompt (Ctrl+V / Cmd+V), and hit Send. Feedback returns here automatically — you don't have to paste anything back. (Skip this step if you used “Get feedback directly”.)",
     illustration: <IllustrationPaste />,
   },
   {
     label: "Done!",
-    title: "Feedback arrives automatically",
+    title: "Scores arrive — and your attempt is saved",
     description:
-      "As soon as the AI replies, your scores, corrections, and suggestions appear here — no need to copy anything back.",
+      "Scores, corrections, and suggestions appear here as soon as the AI replies. Every attempt is saved on this device, so you can revisit and compare past tries in the history below.",
     illustration: <IllustrationResult />,
   },
 ] as const;
@@ -229,7 +225,7 @@ const STEPS = [
 
 export function AiFeedbackGuide() {
   const [dismissed, setDismissed] = useLocalStorageBoolean(
-    "writing-ai-guide-v1",
+    "writing-ai-guide-v2",
     false,
   );
   const [sessionSkipped, setSessionSkipped] = useState(false);

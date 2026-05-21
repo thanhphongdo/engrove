@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, JetBrains_Mono, Cormorant_Garamond } from "next/font/google";
+import { Inter, JetBrains_Mono, Cormorant_Garamond, Space_Grotesk, Fraunces } from "next/font/google";
 import { Providers } from "@/components/providers";
 import "./globals.css";
 
@@ -22,9 +22,22 @@ const cormorant = Cormorant_Garamond({
   display: "swap",
 });
 
+const spaceGrotesk = Space_Grotesk({
+  variable: "--font-space-grotesk",
+  subsets: ["latin"],
+  display: "swap",
+});
+
+const fraunces = Fraunces({
+  variable: "--font-fraunces",
+  subsets: ["latin"],
+  axes: ["SOFT", "WONK", "opsz"],
+  display: "swap",
+});
+
 export const metadata: Metadata = {
-  title: "English Learning",
-  description: "English learning app",
+  title: "Engrove - Khu vườn tiếng Anh",
+  description: "Engrove - App học tiếng Anh giúp bạn khắc sâu kiến thức.",
 };
 
 export default function RootLayout({
@@ -36,7 +49,7 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={`${inter.variable} ${jetbrainsMono.variable} ${cormorant.variable} h-full antialiased`}
+      className={`${inter.variable} ${jetbrainsMono.variable} ${cormorant.variable} ${spaceGrotesk.variable} ${fraunces.variable} h-full antialiased`}
     >
       <body className="h-full flex flex-col">
         <Providers>{children}</Providers>
