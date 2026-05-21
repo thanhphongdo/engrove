@@ -119,6 +119,15 @@ export function WritingSessionProvider({
     const CLIENT_TIMEOUT_MS = 5 * 60 * 1000;
     const startedPollingAt = Date.now();
 
+    function resetToIdle(message?: string) {
+      if (cancelled) return;
+      setSessionToken(null);
+      setCallbackUrl(null);
+      setPhase("idle");
+      setExpired(true);
+      if (message) toast.info(message);
+    }
+
     async function poll() {
       if (cancelled) return;
       try {
@@ -127,7 +136,7 @@ export function WritingSessionProvider({
         });
 
         if (res.status === 404) {
-          if (!cancelled) setExpired(true);
+          resetToIdle("Session expired — please copy the prompt again.");
           return;
         }
 
@@ -169,7 +178,7 @@ export function WritingSessionProvider({
             return;
           }
           if (data.expiresAt != null && Date.now() > data.expiresAt) {
-            if (!cancelled) setExpired(true);
+            resetToIdle("Session expired — please copy the prompt again.");
             return;
           }
         }
@@ -180,7 +189,7 @@ export function WritingSessionProvider({
       }
 
       if (Date.now() - startedPollingAt > CLIENT_TIMEOUT_MS) {
-        if (!cancelled) setExpired(true);
+        resetToIdle("No feedback received after 5 minutes. Please try again.");
         return;
       }
 

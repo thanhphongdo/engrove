@@ -150,7 +150,7 @@ function IllustrationResult() {
         <CheckCircle2 className="size-4 text-emerald-500" />
         <span className="text-[11px] font-semibold">AI feedback</span>
         <span className="ml-auto rounded-full bg-emerald-500/15 px-1.5 py-0.5 text-[9px] font-medium text-emerald-700 dark:text-emerald-300">
-          Auto-received ✓
+          Saved ✓
         </span>
       </div>
       <div className="mb-2 flex flex-wrap gap-1">
@@ -206,17 +206,17 @@ const STEPS = [
     illustration: <IllustrationButton />,
   },
   {
-    label: "Paste",
-    title: "If you copied — paste into ChatGPT or Gemini",
+    label: "Paste prompt",
+    title: "If you copied: paste into ChatGPT or Gemini",
     description:
-      "Open ChatGPT or Gemini in any tab, paste the prompt (Ctrl+V / Cmd+V), and hit Send. Feedback returns here automatically — you don't have to paste anything back. (Skip this step if you used “Get feedback directly”.)",
+      "Open ChatGPT or Gemini in any tab, paste the prompt (Ctrl+V / Cmd+V), and hit Send. The AI replies with a JSON block — copy that JSON. (Skip this step if you used “Get feedback directly”.)",
     illustration: <IllustrationPaste />,
   },
   {
-    label: "Done!",
-    title: "Scores arrive — and your attempt is saved",
+    label: "Paste back",
+    title: "Paste the JSON back — see your scores",
     description:
-      "Scores, corrections, and suggestions appear here as soon as the AI replies. Every attempt is saved on this device, so you can revisit and compare past tries in the history below.",
+      "Paste the AI's JSON into the panel below the copy button, then click Submit. Scores, corrections, and suggestions appear instantly. Every attempt is saved on this device, so you can compare past tries in the history below.",
     illustration: <IllustrationResult />,
   },
 ] as const;
@@ -225,7 +225,7 @@ const STEPS = [
 
 export function AiFeedbackGuide() {
   const [dismissed, setDismissed] = useLocalStorageBoolean(
-    "writing-ai-guide-v2",
+    "writing-ai-guide-v3",
     false,
   );
   const [sessionSkipped, setSessionSkipped] = useState(false);

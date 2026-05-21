@@ -2,20 +2,13 @@ import { NextResponse } from "next/server";
 import { z } from "zod";
 import { writingLLMResultSchema } from "@/lib/writing/result-schema";
 
-const rateLimitMap = new Map<string, number>();
-const RATE_LIMIT_MS = 60_000;
-const IS_PROD = process.env.NODE_ENV === "production";
+const GROQ_API_KEY = process.env.GROQ_API_KEY ?? "";
+const GROQ_MODEL = process.env.GROQ_MODEL ?? "qwen/qwen3-32b";
 
 const bodySchema = z.object({
   prompt: z.string().min(1),
   provider: z.enum(["gemini", "chatgpt", "groq"]).default("groq"),
 });
-
-function getIp(req: Request): string {
-  const fwd = req.headers.get("x-forwarded-for");
-  if (fwd) return fwd.split(",")[0].trim();
-  return "unknown";
-}
 
 function isReasoningModel(model: string): boolean {
   return /r1|qwq|deepseek-r|qwen3/i.test(model);
@@ -91,10 +84,7 @@ async function callOpenAICompat(
 }
 
 export async function POST(req: Request) {
-  const appKey = process.env.GROQ_API_KEY;
-  const groqModel = process.env.GROQ_MODEL ?? "llama-3.3-70b-versatile";
-
-  const userKey = req.headers.get("x-ai-key") || null;
+  const userKey = req.headers.get("x-ai-key");
 
   let body: z.infer<typeof bodySchema>;
   try {
@@ -105,23 +95,12 @@ export async function POST(req: Request) {
 
   const { prompt, provider } = body;
 
-  // User key takes priority; app key only available for groq provider
-  const effectiveKey = userKey ?? (provider === "groq" ? appKey : null);
+  // Fallback to env-configured Groq key when user hasn't added their own;
+  // other providers always require a user key.
+  const effectiveKey =
+    userKey ?? (provider === "groq" && GROQ_API_KEY ? GROQ_API_KEY : null);
   if (!effectiveKey) {
-    return NextResponse.json({ error: "not_configured" }, { status: 503 });
-  }
-
-  // Rate limit: only when using app key AND in production
-  const ip = (!userKey && IS_PROD) ? getIp(req) : null;
-  const prevTimestamp = ip ? (rateLimitMap.get(ip) ?? 0) : 0;
-
-  if (ip) {
-    const now = Date.now();
-    if (now - prevTimestamp < RATE_LIMIT_MS) {
-      const retryAfter = Math.ceil((RATE_LIMIT_MS - (now - prevTimestamp)) / 1000);
-      return NextResponse.json({ error: "rate_limited", retryAfter }, { status: 429 });
-    }
-    rateLimitMap.set(ip, now);
+    return NextResponse.json({ error: "no_key" }, { status: 401 });
   }
 
   let apiResult: ApiResult;
@@ -139,12 +118,11 @@ export async function POST(req: Request) {
       apiResult = await callOpenAICompat(
         "https://api.groq.com/openai/v1",
         effectiveKey,
-        groqModel,
+        GROQ_MODEL,
         prompt,
       );
     }
   } catch (err) {
-    if (ip) rateLimitMap.set(ip, prevTimestamp);
     const statusCode = (err as ApiError).statusCode ?? 500;
     if (statusCode === 401 || statusCode === 403 || statusCode === 400) {
       return NextResponse.json({ error: "invalid_key" }, { status: 401 });
