@@ -301,3 +301,34 @@ export const listeningLessonMetaSchema = z.object({
 });
 
 export const listeningLessonsIndexSchema = z.array(listeningLessonMetaSchema);
+
+export const writingLessonSchema = z.object({
+  id: z.string().min(1),
+  level: cefrLevel,
+  title: z.string().min(1),
+  summary: z.string(),
+  tags: z.array(z.string()),
+  topic: z.string().min(1),
+  prompt: z.string().min(1),
+  minWords: z.number().int().positive().optional(),
+  maxWords: z.number().int().positive().optional(),
+  hintStarters: z.array(z.string().min(1)),
+  hintVocab: z.array(annotation),
+  sampleText: z.string().min(1),
+  sampleAnnotations: z.array(annotation),
+  sampleGrammarNotes: z.array(grammarNote),
+  sampleTranslationVi: z.string(),
+  mcQuestions: z.array(question).min(1),
+  criticalThinkingQuestion: z.string().optional(),
+});
+
+export const writingLessonMetaSchema = z.object({
+  id: z.string().min(1),
+  level: cefrLevel,
+  title: z.string().min(1),
+  summary: z.string(),
+  tags: z.array(z.string()),
+  topic: z.string().min(1),
+});
+
+export const writingLessonsIndexSchema = z.array(writingLessonMetaSchema);
