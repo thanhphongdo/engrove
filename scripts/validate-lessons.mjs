@@ -1,4 +1,4 @@
-// Validates every reading and listening lesson + their indexes.
+// Validates every reading, listening, and writing lesson + their indexes.
 import { readFileSync, readdirSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import {
@@ -6,6 +6,8 @@ import {
   lessonsIndexSchema,
   listeningLessonSchema,
   listeningLessonsIndexSchema,
+  writingLessonSchema,
+  writingLessonsIndexSchema,
 } from "../src/lib/lessons/schema.ts";
 
 const levels = ["a1", "a2", "b1", "b2", "c1"];
@@ -13,10 +15,23 @@ let errors = 0;
 let warnings = 0;
 let readingCount = 0;
 let listeningCount = 0;
+let writingCount = 0;
+
+function schemaFor(kind) {
+  if (kind === "reading") return lessonSchema;
+  if (kind === "listening") return listeningLessonSchema;
+  return writingLessonSchema;
+}
+
+function indexSchemaFor(kind) {
+  if (kind === "reading") return lessonsIndexSchema;
+  if (kind === "listening") return listeningLessonsIndexSchema;
+  return writingLessonsIndexSchema;
+}
 
 function validateOne(kind, lvl, file, lessonsBase) {
   const raw = JSON.parse(readFileSync(join(lessonsBase, lvl, file), "utf8"));
-  const schema = kind === "reading" ? lessonSchema : listeningLessonSchema;
+  const schema = schemaFor(kind);
   const parsed = schema.safeParse(raw);
   if (!parsed.success) {
     errors++;
@@ -39,7 +54,7 @@ function validateOne(kind, lvl, file, lessonsBase) {
   return true;
 }
 
-for (const kind of ["reading", "listening"]) {
+for (const kind of ["reading", "listening", "writing"]) {
   const base = `public/lessons/${kind}`;
   if (!existsSync(base)) continue;
   for (const lvl of levels) {
@@ -49,15 +64,15 @@ for (const kind of ["reading", "listening"]) {
     for (const f of files) {
       if (validateOne(kind, lvl, f, base)) {
         if (kind === "reading") readingCount++;
-        else listeningCount++;
+        else if (kind === "listening") listeningCount++;
+        else writingCount++;
       }
     }
   }
   const indexPath = join(base, "index.json");
   if (existsSync(indexPath)) {
     const indexRaw = JSON.parse(readFileSync(indexPath, "utf8"));
-    const indexSchema = kind === "reading" ? lessonsIndexSchema : listeningLessonsIndexSchema;
-    const indexParsed = indexSchema.safeParse(indexRaw);
+    const indexParsed = indexSchemaFor(kind).safeParse(indexRaw);
     if (!indexParsed.success) {
       errors++;
       console.error(`❌ ${kind}/index.json`);
@@ -70,7 +85,9 @@ for (const kind of ["reading", "listening"]) {
 
 if (errors === 0) {
   const w = warnings > 0 ? ` (${warnings} audio-pending warning${warnings === 1 ? "" : "s"})` : "";
-  console.log(`✓ ${readingCount} reading + ${listeningCount} listening lessons validated${w}`);
+  console.log(
+    `✓ ${readingCount} reading + ${listeningCount} listening + ${writingCount} writing lessons validated${w}`,
+  );
 } else {
   console.error(`\n${errors} validation error(s)`);
   process.exit(1);
