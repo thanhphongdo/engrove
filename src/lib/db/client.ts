@@ -9,6 +9,7 @@ import type {
   Note,
 } from "./types";
 import { DEFAULT_CONTENT_ZOOM } from "./types";
+import type { WritingDraft, WritingAttempt } from "./types";
 
 class EnglishLearningDB extends Dexie {
   profiles!: Table<Profile, string>;
@@ -18,6 +19,8 @@ class EnglishLearningDB extends Dexie {
   bookmarks!: Table<Bookmark, [string, string]>;
   vocab!: Table<VocabEntry, string>;
   notes!: Table<Note, [string, string]>;
+  writingDrafts!: Table<WritingDraft, [string, string]>;
+  writingAttempts!: Table<WritingAttempt, string>;
 
   constructor() {
     super("english-learning");
@@ -84,6 +87,20 @@ class EnglishLearningDB extends Dexie {
       vocab:
         "id, [profileId+phraseLower], [profileId+sourceLessonId], [profileId+addedAt]",
       notes: "[profileId+lessonId]",
+    });
+    // v5: additive — two new tables for writing drafts and writing attempts.
+    // Bookmarks/notes are reused across reading + writing (lessonId-keyed).
+    this.version(5).stores({
+      profiles: "id",
+      preferences: "profileId",
+      attempts: "id, [profileId+lessonId], completedAt",
+      drafts: "[profileId+lessonId]",
+      bookmarks: "[profileId+lessonId], profileId",
+      vocab:
+        "id, [profileId+phraseLower], [profileId+sourceLessonId], [profileId+addedAt]",
+      notes: "[profileId+lessonId]",
+      writingDrafts: "[profileId+lessonId]",
+      writingAttempts: "id, [profileId+lessonId], completedAt",
     });
   }
 }
