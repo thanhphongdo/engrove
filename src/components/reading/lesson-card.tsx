@@ -29,22 +29,36 @@ function orderTags(
   return [...matched, ...unmatched];
 }
 
+function routeForLesson(id: string): string {
+  if (id.startsWith("writing-")) return `/writing/${id}`;
+  if (id.startsWith("listening-")) return `/listening/${id}`;
+  return `/reading/${id}`;
+}
+
 export function LessonCard({
   lesson,
   bestAttempt,
+  bestLabel,
   highlight,
 }: {
   lesson: LessonMeta;
   bestAttempt?: Attempt;
+  /** Optional explicit best-label override (used by /writing). */
+  bestLabel?: string;
   highlight?: LessonHighlight;
 }) {
   const orderedTags = orderTags(lesson.tags, highlight);
   const visibleTags = orderedTags.slice(0, 3);
   const overflow = orderedTags.length - visibleTags.length;
+
+  const computedLabel =
+    bestLabel ??
+    (bestAttempt ? `Best ${bestAttempt.score}/${bestAttempt.total}` : null);
+
   return (
     <div className="group relative rounded-lg border bg-card text-card-foreground transition-shadow hover:shadow-md">
       <Link
-        href={`/reading/${lesson.id}`}
+        href={routeForLesson(lesson.id)}
         className="block rounded-lg p-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
       >
         <div className="flex items-start justify-between gap-2 pr-8">
@@ -72,10 +86,10 @@ export function LessonCard({
             ))}
             {overflow > 0 && <span>+{overflow}</span>}
           </div>
-          {bestAttempt ? (
+          {computedLabel ? (
             <span className="inline-flex items-center gap-1 rounded bg-secondary px-1.5 py-0.5 font-medium text-secondary-foreground">
               <CheckCircle2 className="size-3" aria-hidden="true" />
-              Best {bestAttempt.score}/{bestAttempt.total}
+              {computedLabel}
             </span>
           ) : (
             <span className="text-muted-foreground">Not started</span>
