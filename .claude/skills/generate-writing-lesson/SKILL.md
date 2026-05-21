@@ -72,17 +72,21 @@ ls public/lessons/writing/a1/ 2>/dev/null | sort | tail -3   # find highest exis
 
 ## Per-level constraints (hard requirements)
 
-| Level | Sample-answer word count | Word target (min/max) | MC questions | Hint starters | Hint vocab | Sample annotations |
-|---|---|---|---|---|---|---|
-| A1 | 60–110 | 40–120 | ≥3 | ≥3 | ≥5 | ≥3 |
-| A2 | 80–130 | 50–140 | ≥3 | ≥3 | ≥5 | ≥4 |
-| B1 | 140–200 | 100–220 | ≥4 | ≥3 | ≥6 | ≥5 |
-| B2 | 200–280 | 150–300 | ≥5 | ≥3 | ≥7 | ≥6 |
-| C1 | 280–360 | 220–400 | ≥5 | ≥3 | ≥8 | ≥6 |
+Counts mirror the reading skill so the two lesson types feel matched in
+depth. `hintStarters` is writing-specific (≥3 at every level).
 
-`minWords`/`maxWords` on the lesson are guidance shown in the editor — set
-them to the "Word target" range. The `sampleText` must itself fall inside
-that range (or comfortably near the middle of it).
+| Level | Sample-answer word count | MC questions | Hint vocab | Sample annotations | Hint starters |
+|---|---|---|---|---|---|
+| A1 | 150–250 | ≥10 | ≥10 | ≥10 | ≥3 |
+| A2 | 150–250 | ≥10 | ≥10 | ≥10 | ≥3 |
+| B1 | 350–500 | ≥10 | ≥15 | ≥15 | ≥3 |
+| B2 | 350–500 | ≥15 | ≥20 | ≥20 | ≥3 |
+| C1 | 600–800 | ≥15 | ≥20 | ≥20 | ≥3 |
+
+`minWords` / `maxWords` on the lesson are guidance shown in the editor.
+Set them equal to the "Sample-answer word count" range above — the
+learner's target matches the model answer's range. The `sampleText` must
+fall inside that range (preferably near the middle of it).
 
 Linguistic register must match the level:
 - A1/A2 — present and past simple, adverbs of frequency, simple linkers
@@ -191,7 +195,7 @@ shape you need to fill in.
       "explanation": "Short reason — point at the grammar/vocab/style feature.",
       "hint": "What feature to look for (not the answer itself)."
     }
-    // … ≥3 (A1/A2/B1) or ≥5 (B2/C1) total
+    // … ≥10 (A1–B1) or ≥15 (B2/C1) total
   ],
   "criticalThinkingQuestion": "One open-ended reflective question (optional)."
 }
@@ -279,11 +283,13 @@ that's correct, natural, AND on-topic for this lesson.
 
 ### Quality bar by level
 
-- **A1/A2** — 3+ questions. Focus on basic word order, present simple,
+- **A1/A2** — ≥10 questions. Focus on basic word order, present simple,
   adverbs of frequency, simple connectors.
-- **B1** — 4+ questions. Mix tense choice, prepositions, articles, modals.
-- **B2/C1** — 5+ questions. Include subtle register / cohesion choices, not
-  just grammar errors.
+- **B1** — ≥10 questions. Mix tense choice, prepositions, articles, modals.
+- **B2/C1** — ≥15 questions. Include subtle register / cohesion choices,
+  not just grammar errors. For C1, add questions that ask which of two
+  near-paraphrases is closer to the topic, or which option uses the
+  best cohesion device.
 
 ## Critical thinking question (optional)
 

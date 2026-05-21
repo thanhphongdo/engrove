@@ -1,0 +1,101 @@
+{
+  "id": "writing-a2-001",
+  "level": "A2",
+  "title": "A meal I cooked for someone else",
+  "summary": "Tell the story of one meal you cooked for another person.",
+  "tags": ["Story", "Food", "Past simple"],
+  "topic": "A meal I cooked for someone else",
+  "prompt": "Write 6–9 sentences telling the story of one time you cooked or prepared food for another person. Use past simple. Include one detail about the kitchen or about what the other person said.",
+  "minWords": 50,
+  "maxWords": 140,
+  "hintStarters": [
+    "Last winter, my friend…",
+    "I wanted to do something nice because…",
+    "While we ate, she told me…",
+    "It was nothing special, but…"
+  ],
+  "hintVocab": [
+    { "phrase": "tired", "meaningVi": "mệt" },
+    { "phrase": "ginger", "meaningVi": "gừng", "pronunciation": "/ˈdʒɪndʒər/" },
+    { "phrase": "soup", "meaningVi": "súp / canh" },
+    { "phrase": "steam", "meaningVi": "hơi nước" },
+    { "phrase": "share a meal", "meaningVi": "chia sẻ bữa ăn" },
+    { "phrase": "smell warm", "meaningVi": "có mùi ấm áp" }
+  ],
+  "sampleText": "Last winter, my friend Mei came home from a long trip. She was tired and her flat was cold. I wanted to do something nice for her. I went to the small shop on her street and bought eggs, rice, and a piece of ginger. I cooked a simple soup. It was nothing special, but the kitchen smelled warm and the windows were full of steam. While we ate, she told me about the night train she missed and the strangers who shared their dinner with her. She finished two bowls and smiled.",
+  "sampleAnnotations": [
+    { "phrase": "came home", "meaningVi": "trở về nhà" },
+    { "phrase": "tired", "meaningVi": "mệt" },
+    { "phrase": "smelled warm", "meaningVi": "có mùi ấm áp" },
+    { "phrase": "finished two bowls", "meaningVi": "ăn hết hai bát" },
+    { "phrase": "strangers", "meaningVi": "những người lạ" }
+  ],
+  "sampleGrammarNotes": [
+    {
+      "title": "Past simple for a finished event",
+      "bodyVi": "Dùng quá khứ đơn (came, was, went, bought, cooked, told) cho một sự việc đã hoàn thành.",
+      "bodyEn": "Use the past simple (came, was, went, bought, cooked, told) for a finished event."
+    },
+    {
+      "title": "'While' to connect two actions",
+      "bodyVi": "'While we ate, she told me…' nối hai hành động xảy ra cùng một lúc trong quá khứ.",
+      "bodyEn": "'While we ate, she told me…' connects two actions happening at the same time in the past."
+    }
+  ],
+  "sampleTranslationVi": "Mùa đông năm ngoái, người bạn của tôi là Mei trở về nhà sau một chuyến đi dài. Cô ấy mệt và căn hộ của cô lạnh. Tôi muốn làm điều gì đó tốt cho cô ấy. Tôi đi đến cửa hàng nhỏ trên con phố của cô và mua trứng, gạo, và một miếng gừng. Tôi nấu một nồi súp đơn giản. Không có gì đặc biệt, nhưng căn bếp có mùi ấm áp và những ô cửa sổ đầy hơi nước. Trong khi chúng tôi ăn, cô ấy kể cho tôi nghe về chuyến tàu đêm cô đã lỡ và những người lạ đã chia sẻ bữa tối với cô. Cô ấy ăn hết hai bát và mỉm cười.",
+  "mcQuestions": [
+    {
+      "id": "q1",
+      "prompt": "Which sentence is the most natural opening for a past story?",
+      "options": [
+        "Last winter, my friend Mei is coming home.",
+        "Last winter, my friend Mei came home from a long trip.",
+        "Last winter, my friend Mei come home from a long trip.",
+        "Last winter, my friend Mei has come home from a long trip."
+      ],
+      "answerIndex": 1,
+      "explanation": "'Last winter' is a finished time, so past simple ('came') is correct.",
+      "hint": "Which tense matches 'last winter'?"
+    },
+    {
+      "id": "q2",
+      "prompt": "Choose the sentence that best joins two past actions happening at the same time.",
+      "options": [
+        "While we ate, she told me about the trip.",
+        "We ate, she told me about the trip while.",
+        "We ate while she will tell me about the trip.",
+        "During we eat, she tell me about the trip."
+      ],
+      "answerIndex": 0,
+      "explanation": "'While' + past simple, comma, then main clause in past simple is the standard pattern.",
+      "hint": "Look for 'while' at the start of one clause, with both verbs in the past."
+    },
+    {
+      "id": "q3",
+      "prompt": "Which sentence uses the most natural vocabulary to describe the kitchen?",
+      "options": [
+        "The kitchen smelled warm and the windows were full of steam.",
+        "The kitchen had hot air and the glass was wet.",
+        "The kitchen was warm-smelling and the windows had water.",
+        "The kitchen smell warm and windows full steam."
+      ],
+      "answerIndex": 0,
+      "explanation": "'Smelled warm' and 'full of steam' are natural collocations; the others are either awkward or ungrammatical.",
+      "hint": "Which option sounds like something a native speaker would write?"
+    },
+    {
+      "id": "q4",
+      "prompt": "Pick the sentence that fits best at the end of the story.",
+      "options": [
+        "She finished two bowls and smiled.",
+        "She is finishing two bowls and smiles.",
+        "Two bowls she finished, and smiled.",
+        "She has been finishing two bowls and smiles."
+      ],
+      "answerIndex": 0,
+      "explanation": "Past simple for two finished actions matches the rest of the story.",
+      "hint": "Match the tense to the rest of the past-simple story."
+    }
+  ],
+  "criticalThinkingQuestion": "When was the last time someone cooked for you, not because they had to, but because they wanted to? What did it feel like?"
+}

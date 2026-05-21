@@ -1,0 +1,87 @@
+{
+  "id": "writing-a1-002",
+  "level": "A1",
+  "title": "A small market near my home",
+  "summary": "Describe a market you visit and the people you see there.",
+  "tags": ["Place", "Daily life"],
+  "topic": "A small market near my home",
+  "prompt": "Write 5–8 short sentences describing a small market or shop near your home. Use present simple. Include at least one sentence about a person who works there.",
+  "minWords": 40,
+  "maxWords": 120,
+  "hintStarters": [
+    "There is a small market near…",
+    "Every morning, I…",
+    "The woman who sells fish…",
+    "I like this place because…"
+  ],
+  "hintVocab": [
+    { "phrase": "fresh", "meaningVi": "tươi" },
+    { "phrase": "vegetables", "meaningVi": "rau củ", "pronunciation": "/ˈvedʒtəbəlz/" },
+    { "phrase": "noise", "meaningVi": "tiếng ồn" },
+    { "phrase": "corner shop", "meaningVi": "cửa hàng ở góc phố" },
+    { "phrase": "smile", "meaningVi": "nụ cười" },
+    { "phrase": "buy", "meaningVi": "mua" }
+  ],
+  "sampleText": "There is a small market near my home. It opens every morning. I usually go there on Saturday. The fish lady knows my name. She always gives me a smile. I buy vegetables, fruit, and sometimes flowers. The bread from the corner shop is very fresh. I like the noise of the market. People talk and laugh together. It is not a big place, but I feel happy when I walk home with my bag full of food.",
+  "sampleAnnotations": [
+    { "phrase": "every morning", "meaningVi": "mỗi sáng" },
+    { "phrase": "fresh", "meaningVi": "tươi" },
+    { "phrase": "noise", "meaningVi": "tiếng ồn" },
+    { "phrase": "bag full of food", "meaningVi": "túi đầy đồ ăn" }
+  ],
+  "sampleGrammarNotes": [
+    {
+      "title": "Present simple to describe a place",
+      "bodyVi": "Dùng thì hiện tại đơn (opens, knows, gives, buy) khi mô tả những điều luôn đúng về một nơi.",
+      "bodyEn": "Use the present simple (opens, knows, gives, buy) for things that are always true about a place."
+    },
+    {
+      "title": "Adverbs of frequency: usually, always, sometimes",
+      "bodyVi": "Các trạng từ tần suất đứng trước động từ chính: 'I usually go', 'She always gives'.",
+      "bodyEn": "Adverbs of frequency go before the main verb: 'I usually go', 'She always gives'."
+    }
+  ],
+  "sampleTranslationVi": "Có một khu chợ nhỏ gần nhà tôi. Chợ mở cửa mỗi sáng. Tôi thường đi đến đó vào thứ Bảy. Cô bán cá biết tên tôi. Cô luôn nở nụ cười với tôi. Tôi mua rau, trái cây, và thỉnh thoảng là hoa. Bánh mì ở cửa hàng đầu góc phố rất tươi. Tôi thích tiếng ồn của khu chợ. Mọi người nói chuyện và cười đùa với nhau. Đây không phải là một nơi to lớn, nhưng tôi cảm thấy vui khi đi bộ về nhà với chiếc túi đầy đồ ăn.",
+  "mcQuestions": [
+    {
+      "id": "q1",
+      "prompt": "Which sentence best describes the market as a place that is always open in the morning?",
+      "options": [
+        "The market is open every morning.",
+        "The market opened yesterday morning.",
+        "Market every morning open is.",
+        "The market will be open tomorrow."
+      ],
+      "answerIndex": 0,
+      "explanation": "Present simple + 'every morning' shows a regular, always-true habit of the place.",
+      "hint": "You need present simple with a time expression that means 'always'."
+    },
+    {
+      "id": "q2",
+      "prompt": "Which sentence sounds most natural when describing a friendly shopkeeper?",
+      "options": [
+        "She is always give me a smile.",
+        "Always she me smiles.",
+        "She always gives me a smile.",
+        "She is good with smiles always."
+      ],
+      "answerIndex": 2,
+      "explanation": "Subject + adverb of frequency + main verb is the correct word order.",
+      "hint": "Where does 'always' go in the sentence?"
+    },
+    {
+      "id": "q3",
+      "prompt": "Choose the sentence with the most natural vocabulary for describing food at a market.",
+      "options": [
+        "The bread is very new.",
+        "The bread is very fresh.",
+        "The bread is very young.",
+        "The bread is very modern."
+      ],
+      "answerIndex": 1,
+      "explanation": "'Fresh' is the natural collocation with food; the others are wrong word choices.",
+      "hint": "Which adjective do English speakers actually use with bread, fruit, and vegetables?"
+    }
+  ],
+  "criticalThinkingQuestion": "Is there a small place near your home that would be missed if it closed? Why?"
+}

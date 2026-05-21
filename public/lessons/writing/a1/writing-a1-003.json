@@ -1,0 +1,87 @@
+{
+  "id": "writing-a1-003",
+  "level": "A1",
+  "title": "My first day in a new city",
+  "summary": "Tell the short story of your first day in a place that was new to you.",
+  "tags": ["Story", "Past simple"],
+  "topic": "My first day in a new city",
+  "prompt": "Write 5–7 sentences telling the story of your first day in a city, town, or neighborhood that was new to you. Use past simple. Try to include one small detail you still remember (a smell, a sound, an object).",
+  "minWords": 40,
+  "maxWords": 120,
+  "hintStarters": [
+    "Last summer, I…",
+    "On my first day, I was…",
+    "I walked from…",
+    "I still remember…"
+  ],
+  "hintVocab": [
+    { "phrase": "nervous", "meaningVi": "lo lắng", "pronunciation": "/ˈnɜːrvəs/" },
+    { "phrase": "street", "meaningVi": "đường phố" },
+    { "phrase": "waitress", "meaningVi": "nữ phục vụ", "pronunciation": "/ˈweɪtrəs/" },
+    { "phrase": "napkin", "meaningVi": "khăn giấy", "pronunciation": "/ˈnæpkɪn/" },
+    { "phrase": "moved to", "meaningVi": "chuyển đến" },
+    { "phrase": "alone", "meaningVi": "một mình" }
+  ],
+  "sampleText": "Last summer, I moved to a new city for work. On my first day, I was nervous. I did not know the streets. I walked from my small apartment to a coffee shop. The waitress asked me where I was from. We talked for a few minutes. She drew a simple map on a paper napkin. I still have that napkin in my drawer. It was a small thing, but on that day, it made me feel less alone.",
+  "sampleAnnotations": [
+    { "phrase": "moved to", "meaningVi": "chuyển đến" },
+    { "phrase": "nervous", "meaningVi": "lo lắng" },
+    { "phrase": "drew a simple map", "meaningVi": "vẽ một tấm bản đồ đơn giản" },
+    { "phrase": "less alone", "meaningVi": "bớt cô đơn hơn" }
+  ],
+  "sampleGrammarNotes": [
+    {
+      "title": "Past simple for a finished story",
+      "bodyVi": "Dùng quá khứ đơn (moved, walked, asked, talked, drew) cho các hành động đã hoàn thành trong quá khứ.",
+      "bodyEn": "Use the past simple (moved, walked, asked, talked, drew) for finished actions in the past."
+    },
+    {
+      "title": "Time phrases at the start",
+      "bodyVi": "'Last summer' và 'On my first day' đặt ở đầu câu để mở đầu câu chuyện.",
+      "bodyEn": "Time phrases like 'Last summer' and 'On my first day' come at the start of the sentence to open a story."
+    }
+  ],
+  "sampleTranslationVi": "Mùa hè năm ngoái, tôi chuyển đến một thành phố mới để làm việc. Ngày đầu tiên, tôi rất lo lắng. Tôi không biết đường. Tôi đi bộ từ căn hộ nhỏ của mình đến một quán cà phê. Cô phục vụ hỏi tôi đến từ đâu. Chúng tôi nói chuyện vài phút. Cô ấy vẽ một tấm bản đồ đơn giản trên một tờ khăn giấy. Tôi vẫn giữ tờ khăn giấy ấy trong ngăn kéo. Đó là một điều nhỏ, nhưng vào ngày hôm đó, nó khiến tôi cảm thấy bớt cô đơn hơn.",
+  "mcQuestions": [
+    {
+      "id": "q1",
+      "prompt": "Which sentence correctly tells the start of a story about last summer?",
+      "options": [
+        "Last summer, I am moved to a new city.",
+        "Last summer, I moved to a new city.",
+        "Last summer, I moving to a new city.",
+        "Last summer, I will move to a new city."
+      ],
+      "answerIndex": 1,
+      "explanation": "Past simple of 'move' is 'moved'. 'Last summer' is a finished time, so present and future are wrong.",
+      "hint": "What past simple form goes with 'last summer'?"
+    },
+    {
+      "id": "q2",
+      "prompt": "Choose the sentence that sounds most natural for a first-day feeling.",
+      "options": [
+        "On my first day, I am nervous very.",
+        "First day on my, very I was nervous.",
+        "On my first day, I was nervous.",
+        "I were nervous my first day on."
+      ],
+      "answerIndex": 2,
+      "explanation": "Time phrase at the start + subject + 'was' + adjective is the natural order.",
+      "hint": "Where does the time phrase usually go in an English sentence?"
+    },
+    {
+      "id": "q3",
+      "prompt": "Which sentence keeps the story focused on one small detail?",
+      "options": [
+        "I still have that napkin in my drawer.",
+        "I have many friends in my city.",
+        "Coffee is my favorite drink in the world.",
+        "Cities are very big and very busy."
+      ],
+      "answerIndex": 0,
+      "explanation": "The other options are off-topic; only A connects to the small detail (the napkin) the story is about.",
+      "hint": "Which sentence is about the small thing from the day, not a general idea?"
+    }
+  ],
+  "criticalThinkingQuestion": "Is there one small object from a hard day in your past that you still keep? What does it mean to you now?"
+}
