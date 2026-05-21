@@ -18,10 +18,18 @@ function makeToken(): string {
   return out;
 }
 
-function callbackUrlFor(token: string): string {
-  const origin = process.env.NEXT_PUBLIC_APP_ORIGIN;
-  if (!origin) throw new Error("NEXT_PUBLIC_APP_ORIGIN is not set");
+function callbackUrlFor(token: string, req: Request): string {
+  const envOrigin = process.env.NEXT_PUBLIC_APP_ORIGIN;
+  const origin = envOrigin ?? deriveOriginFromRequest(req);
   return `${origin.replace(/\/$/, "")}/api/writing/result/${token}`;
+}
+
+function deriveOriginFromRequest(req: Request): string {
+  const host = req.headers.get("x-forwarded-host") ?? req.headers.get("host");
+  if (!host) throw new Error("cannot derive origin: missing host header");
+  const fallbackProto = /^(localhost|127\.|\[::1\])/.test(host) ? "http" : "https";
+  const proto = req.headers.get("x-forwarded-proto") ?? fallbackProto;
+  return `${proto}://${host}`;
 }
 
 export async function POST(req: Request) {
@@ -53,7 +61,7 @@ export async function POST(req: Request) {
 
   return NextResponse.json({
     token,
-    callbackUrl: callbackUrlFor(token),
+    callbackUrl: callbackUrlFor(token, req),
     expiresAt: session.expiresAt,
   });
 }
