@@ -6,6 +6,8 @@ import {
   lessonsIndexSchema,
   listeningLessonSchema,
   listeningLessonsIndexSchema,
+  writingLessonSchema,
+  writingLessonsIndexSchema,
 } from "./schema";
 import type {
   CefrLevel,
@@ -13,12 +15,14 @@ import type {
   LessonMeta,
   ListeningLesson,
   ListeningLessonMeta,
+  WritingLesson,
+  WritingLessonMeta,
 } from "./types";
 
-type LessonKind = "reading" | "listening";
+type LessonKind = "reading" | "listening" | "writing";
 
 function parseKindAndLevel(lessonId: string): { kind: LessonKind; level: CefrLevel } {
-  const match = lessonId.match(/^(reading|listening)-(a1|a2|b1|b2|c1)-/i);
+  const match = lessonId.match(/^(reading|listening|writing)-(a1|a2|b1|b2|c1)-/i);
   if (!match) throw new Error(`Cannot derive kind/level from lesson id: ${lessonId}`);
   return {
     kind: match[1].toLowerCase() as LessonKind,
@@ -52,6 +56,19 @@ async function fetchListeningLesson(lessonId: string): Promise<ListeningLesson> 
   return listeningLessonSchema.parse(await res.json());
 }
 
+async function fetchWritingIndex(): Promise<WritingLessonMeta[]> {
+  const res = await fetch("/lessons/writing/index.json");
+  if (!res.ok) throw new Error("Failed to load writing lessons index");
+  return writingLessonsIndexSchema.parse(await res.json());
+}
+
+async function fetchWritingLesson(lessonId: string): Promise<WritingLesson> {
+  const { level } = parseKindAndLevel(lessonId);
+  const res = await fetch(`/lessons/writing/${level.toLowerCase()}/${lessonId}.json`);
+  if (!res.ok) throw new Error(`Failed to load lesson ${lessonId}`);
+  return writingLessonSchema.parse(await res.json());
+}
+
 export function useReadingLessonsIndex() {
   return useQuery({
     queryKey: ["lessons", "reading", "index"],
@@ -81,6 +98,23 @@ export function useListeningLesson(lessonId: string | undefined) {
   return useQuery({
     queryKey: ["lessons", "listening", "lesson", lessonId],
     queryFn: () => fetchListeningLesson(lessonId as string),
+    staleTime: Infinity,
+    enabled: Boolean(lessonId),
+  });
+}
+
+export function useWritingLessonsIndex() {
+  return useQuery({
+    queryKey: ["lessons", "writing", "index"],
+    queryFn: fetchWritingIndex,
+    staleTime: Infinity,
+  });
+}
+
+export function useWritingLesson(lessonId: string | undefined) {
+  return useQuery({
+    queryKey: ["lessons", "writing", "lesson", lessonId],
+    queryFn: () => fetchWritingLesson(lessonId as string),
     staleTime: Infinity,
     enabled: Boolean(lessonId),
   });
