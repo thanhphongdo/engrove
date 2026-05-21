@@ -28,6 +28,7 @@ import { PromptCopyPanel } from "@/components/writing/prompt-copy-panel";
 import { WritingResultWaiting } from "@/components/writing/writing-result-waiting";
 import { WritingResultPanel } from "@/components/writing/writing-result-panel";
 import { WritingAttemptHistory } from "@/components/writing/writing-attempt-history";
+import { AiFeedbackGuide } from "@/components/writing/ai-feedback-guide";
 
 const LEVEL_CLASS: Record<WritingLesson["level"], string> = {
   A1: "bg-level-a1 text-level-a1-foreground",
@@ -55,6 +56,9 @@ function MainArea() {
         <div className="space-y-3">
           <WritingEditor />
           <SampleAnswerReveal />
+          <PromptCopyPanel />
+          {phase === "waiting" && <WritingResultWaiting />}
+          {phase === "ready" && llmResult && <WritingResultPanel result={llmResult} />}
         </div>
         <div className="space-y-3">
           <HintPanel lesson={lesson} />
@@ -70,12 +74,6 @@ function MainArea() {
           label="Sentence-choice quiz"
         />
       </section>
-
-      <div className="mt-3 sm:mt-4 space-y-3">
-        <PromptCopyPanel />
-        {phase === "waiting" && <WritingResultWaiting />}
-        {phase === "ready" && llmResult && <WritingResultPanel result={llmResult} />}
-      </div>
 
       {lesson.criticalThinkingQuestion && (
         <section className="mt-3 rounded-md sm:mt-4 border-l-4 border-primary bg-muted/40 p-3 sm:p-4 shadow-md dark:shadow-[0_4px_20px_rgba(255,255,255,0.035)]">
@@ -144,6 +142,7 @@ function LessonDetailContent({
       </header>
 
       <WritingSessionProvider lesson={lesson} initialDraft={draft}>
+        <AiFeedbackGuide />
         <MainArea />
       </WritingSessionProvider>
     </div>

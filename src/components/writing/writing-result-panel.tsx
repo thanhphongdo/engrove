@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { ChevronDown, ChevronUp } from "lucide-react";
 import { cn } from "@/lib/utils";
 import type { WritingLLMResult } from "@/lib/db/types";
@@ -11,8 +11,21 @@ function scoreColor(v: number): string {
   return "bg-rose-500/15 text-rose-700 dark:text-rose-300";
 }
 
-export function WritingResultPanel({ result }: { result: WritingLLMResult }) {
+interface Props {
+  result: WritingLLMResult;
+  variant?: "full" | "inline";
+}
+
+export function WritingResultPanel({ result, variant = "full" }: Props) {
   const [showRewritten, setShowRewritten] = useState(false);
+  const ref = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    if (variant === "full") {
+      ref.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }, [variant]);
+
   const s = result.scores;
   const entries: [string, number][] = [
     ["Overall", s.overall],
@@ -22,9 +35,18 @@ export function WritingResultPanel({ result }: { result: WritingLLMResult }) {
     ["Coherence", s.coherence],
   ];
 
+  const isInline = variant === "inline";
+
   return (
-    <section className="space-y-3 rounded-md border bg-card p-3 sm:p-4 shadow-md dark:shadow-[0_4px_20px_rgba(255,255,255,0.035)]">
-      <h2 className="text-sm font-semibold">AI feedback</h2>
+    <section
+      ref={ref}
+      className={cn(
+        "space-y-3",
+        !isInline && "rounded-md border bg-card p-3 sm:p-4 shadow-md dark:shadow-[0_4px_20px_rgba(255,255,255,0.035)]",
+      )}
+    >
+      {!isInline && <h2 className="text-sm font-semibold">AI feedback</h2>}
+
       <div className="flex flex-wrap gap-1.5">
         {entries.map(([k, v]) => (
           <span
@@ -42,23 +64,32 @@ export function WritingResultPanel({ result }: { result: WritingLLMResult }) {
 
       {result.corrections.length > 0 && (
         <div>
-          <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+          <p className="mb-1.5 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
             Corrections
           </p>
-          <ul className="space-y-2">
+          <ul className="space-y-1.5">
             {result.corrections.map((c, i) => (
-              <li key={i} className="rounded border p-2 text-sm">
-                <p>
-                  <span className="text-rose-700 line-through dark:text-rose-300">
-                    {c.original}
-                  </span>{" "}
-                  →{" "}
-                  <span className="text-emerald-700 dark:text-emerald-300">
-                    {c.fixed}
+              <li key={i} className={cn("text-sm", isInline ? "pl-0" : "rounded border p-2")}>
+                {isInline ? (
+                  <span>
+                    <span className="text-rose-700 line-through dark:text-rose-300">{c.original}</span>
+                    {" → "}
+                    <span className="text-emerald-700 dark:text-emerald-300">{c.fixed}</span>
+                    {c.explanation && (
+                      <span className="ml-1 text-xs text-muted-foreground">— {c.explanation}</span>
+                    )}
                   </span>
-                </p>
-                {c.explanation && (
-                  <p className="mt-1 text-xs text-muted-foreground">{c.explanation}</p>
+                ) : (
+                  <>
+                    <p>
+                      <span className="text-rose-700 line-through dark:text-rose-300">{c.original}</span>
+                      {" → "}
+                      <span className="text-emerald-700 dark:text-emerald-300">{c.fixed}</span>
+                    </p>
+                    {c.explanation && (
+                      <p className="mt-1 text-xs text-muted-foreground">{c.explanation}</p>
+                    )}
+                  </>
                 )}
               </li>
             ))}
@@ -100,7 +131,7 @@ export function WritingResultPanel({ result }: { result: WritingLLMResult }) {
         )}
       </div>
 
-      {result.model && (
+      {!isInline && result.model && (
         <p className="text-[0.7rem] text-muted-foreground">Model: {result.model}</p>
       )}
     </section>

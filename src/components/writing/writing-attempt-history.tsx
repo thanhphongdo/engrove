@@ -20,9 +20,18 @@ import {
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
 import { WritingResultPanel } from "./writing-result-panel";
+import { cn } from "@/lib/utils";
+
+function scoreColor(v: number): string {
+  if (v >= 8) return "bg-emerald-500/15 text-emerald-700 dark:text-emerald-300";
+  if (v >= 5) return "bg-amber-500/15 text-amber-700 dark:text-amber-300";
+  return "bg-rose-500/15 text-rose-700 dark:text-rose-300";
+}
 
 function fmtDate(ms: number) {
-  return new Date(ms).toLocaleString();
+  return new Date(ms).toLocaleDateString(undefined, {
+    month: "short", day: "numeric", hour: "2-digit", minute: "2-digit",
+  });
 }
 
 export function WritingAttemptHistory({ lessonId }: { lessonId: string }) {
@@ -38,10 +47,15 @@ export function WritingAttemptHistory({ lessonId }: { lessonId: string }) {
     toast.success("Writing progress reset");
   }
 
+  const sorted = [...attempts].reverse();
+
   return (
-    <section className="mt-6 rounded-md border bg-card p-4 shadow-md dark:shadow-[0_4px_20px_rgba(255,255,255,0.035)]">
+    <section className="mt-6">
       <div className="mb-2 flex items-center justify-between gap-2">
-        <h2 className="text-sm font-semibold">Past attempts</h2>
+        <h2 className="text-sm font-semibold text-muted-foreground">
+          Past attempts
+          <span className="ml-1.5 text-xs font-normal">({attempts.length})</span>
+        </h2>
         <AlertDialog>
           <AlertDialogTrigger asChild>
             <button
@@ -49,7 +63,7 @@ export function WritingAttemptHistory({ lessonId }: { lessonId: string }) {
               className="inline-flex items-center gap-1 text-xs text-muted-foreground hover:text-destructive"
             >
               <RotateCcw className="size-3" aria-hidden="true" />
-              Reset progress
+              Reset
             </button>
           </AlertDialogTrigger>
           <AlertDialogContent>
@@ -67,24 +81,37 @@ export function WritingAttemptHistory({ lessonId }: { lessonId: string }) {
           </AlertDialogContent>
         </AlertDialog>
       </div>
-      <ul className="space-y-3">
-        {[...attempts].reverse().map((a) => (
-          <li key={a.id} className="rounded border p-3">
-            <p className="text-xs text-muted-foreground">
-              {fmtDate(a.completedAt)}
-              {a.sampleRevealed && " · sample viewed"}
-              {" · MC "}
-              {a.mcScore}/{a.mcTotal}
-            </p>
-            <details className="mt-2">
-              <summary className="cursor-pointer text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-                Show my text + feedback
+
+      <ul className="divide-y rounded-md border">
+        {sorted.map((a, idx) => (
+          <li key={a.id}>
+            <details>
+              <summary className="flex cursor-pointer list-none items-center gap-2 px-3 py-2.5 hover:bg-muted/40">
+                <span className="text-xs text-muted-foreground tabular-nums">{fmtDate(a.completedAt)}</span>
+                {a.llmResult && (
+                  <span className={cn(
+                    "rounded-full px-1.5 py-0.5 text-[10px] font-semibold",
+                    scoreColor(a.llmResult.scores.overall),
+                  )}>
+                    {a.llmResult.scores.overall.toFixed(1)}/10
+                  </span>
+                )}
+                <span className="text-[10px] text-muted-foreground">
+                  MC {a.mcScore}/{a.mcTotal}
+                </span>
+                {a.sampleRevealed && (
+                  <span className="text-[10px] text-muted-foreground">· sample</span>
+                )}
+                <span className="ml-auto text-[10px] text-muted-foreground select-none">
+                  {idx === 0 ? "latest" : `#${sorted.length - idx}`}
+                </span>
               </summary>
-              <div className="mt-2 space-y-2">
-                <p className="whitespace-pre-wrap rounded bg-muted/40 p-2 text-sm">
+
+              <div className="border-t px-3 py-3 space-y-3">
+                <p className="whitespace-pre-wrap rounded bg-muted/40 px-3 py-2 text-sm leading-relaxed">
                   {a.text}
                 </p>
-                {a.llmResult && <WritingResultPanel result={a.llmResult} />}
+                {a.llmResult && <WritingResultPanel result={a.llmResult} variant="inline" />}
               </div>
             </details>
           </li>

@@ -1,0 +1,352 @@
+"use client";
+
+import { useState } from "react";
+import {
+  ArrowRight,
+  CheckCircle2,
+  ChevronLeft,
+  ChevronRight,
+  Copy,
+  MessageSquare,
+  Sparkles,
+  Wand2,
+} from "lucide-react";
+import { Dialog, DialogContent } from "@/components/ui/dialog";
+import { Button } from "@/components/ui/button";
+import { useLocalStorageBoolean } from "@/lib/use-local-storage";
+import { cn } from "@/lib/utils";
+
+/* ─── Mini illustrations ─────────────────────────────────────── */
+
+function IllustrationWrite() {
+  return (
+    <div className="w-full rounded-lg border bg-card p-3 shadow-sm">
+      <div className="mb-1.5 flex items-center justify-between">
+        <span className="text-[11px] font-semibold">Your writing</span>
+        <span className="rounded border px-1.5 py-0.5 text-[9px] text-muted-foreground">
+          Copy text
+        </span>
+      </div>
+      <div className="min-h-[72px] rounded border bg-background p-2 text-[11px] leading-relaxed text-muted-foreground">
+        <span className="text-foreground">
+          Climate change poses significant challenges to modern societies.
+          Governments must act swiftly
+        </span>
+        <span
+          className="ml-0.5 inline-block h-3.5 w-0.5 translate-y-[1px] bg-primary"
+          style={{ animation: "cursor-blink 1s step-end infinite" }}
+        />
+      </div>
+      <div className="mt-1.5 flex items-center justify-between">
+        <span className="text-[9px] text-muted-foreground">
+          14 words · target 220–400
+        </span>
+        <span className="text-[9px] text-muted-foreground">
+          Done?{" "}
+          <span className="font-semibold text-foreground">Get AI feedback</span>{" "}
+          below ↓
+        </span>
+      </div>
+    </div>
+  );
+}
+
+function IllustrationButton() {
+  return (
+    <div className="flex w-full flex-col items-center gap-2">
+      <div className="w-full rounded border border-dashed border-muted p-2 text-center text-[9px] text-muted-foreground">
+        ···  writing area  ···
+      </div>
+      <div
+        className="text-primary"
+        style={{ animation: "slide-right 1.2s ease-in-out infinite" }}
+      >
+        <ArrowRight className="size-5 rotate-90" />
+      </div>
+      <div className="w-full rounded-md border-2 border-primary/40 bg-primary/5 p-2.5 dark:bg-primary/10">
+        <div className="mb-1.5 flex items-center gap-1.5">
+          <Sparkles className="size-3 text-primary" />
+          <span className="text-[11px] font-semibold">
+            Get AI feedback on your writing
+          </span>
+        </div>
+        <p className="mb-2 text-[9px] text-muted-foreground">
+          Done writing? Copy the prompt, paste into ChatGPT or Gemini…
+        </p>
+        <div className="flex flex-wrap items-center gap-2">
+          <div className="relative inline-flex">
+            <span className="inline-flex items-center gap-1 rounded-md bg-primary px-2.5 py-1 text-[11px] font-medium text-primary-foreground">
+              <Sparkles className="size-3" />
+              Get AI feedback
+            </span>
+            <span className="absolute -inset-0.5 animate-ping rounded-md bg-primary opacity-25" />
+          </div>
+          <span className="inline-flex items-center gap-1 rounded-md border px-2.5 py-1 text-[11px] font-medium text-muted-foreground">
+            <Wand2 className="size-3" />
+            Copy paste-back prompt
+          </span>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function IllustrationPaste() {
+  return (
+    <div className="flex w-full items-center gap-3">
+      <div className="flex flex-1 flex-col items-center gap-1 rounded-lg border bg-card p-3 shadow-sm">
+        <div className="flex size-9 items-center justify-center rounded-full bg-primary/10">
+          <Copy className="size-4 text-primary" />
+        </div>
+        <p className="text-[11px] font-semibold">Prompt copied</p>
+        <p className="text-[9px] text-muted-foreground">to clipboard</p>
+      </div>
+
+      <div className="flex flex-col items-center gap-0.5">
+        <div style={{ animation: "slide-right 1s ease-in-out infinite" }}>
+          <ArrowRight className="size-5 text-primary" />
+        </div>
+        <span className="text-[9px] text-muted-foreground">Ctrl+V</span>
+      </div>
+
+      <div className="flex flex-1 flex-col items-center gap-1 rounded-lg border bg-card p-3 shadow-sm">
+        <div className="flex size-9 items-center justify-center rounded-full bg-emerald-500/10">
+          <MessageSquare className="size-4 text-emerald-600 dark:text-emerald-400" />
+        </div>
+        <p className="text-[11px] font-semibold">ChatGPT / Gemini</p>
+        <p className="text-[9px] text-muted-foreground">Paste → Send</p>
+      </div>
+    </div>
+  );
+}
+
+function IllustrationResult() {
+  const badges = [
+    {
+      label: "Overall",
+      score: "8.5",
+      cls: "bg-emerald-500/15 text-emerald-700 dark:text-emerald-300",
+      delay: "0ms",
+    },
+    {
+      label: "Grammar",
+      score: "9.0",
+      cls: "bg-emerald-500/15 text-emerald-700 dark:text-emerald-300",
+      delay: "120ms",
+    },
+    {
+      label: "Vocabulary",
+      score: "7.5",
+      cls: "bg-amber-500/15 text-amber-700 dark:text-amber-300",
+      delay: "240ms",
+    },
+    {
+      label: "Coherence",
+      score: "8.0",
+      cls: "bg-emerald-500/15 text-emerald-700 dark:text-emerald-300",
+      delay: "360ms",
+    },
+  ];
+
+  return (
+    <div className="w-full rounded-lg border bg-card p-3 shadow-sm">
+      <div className="mb-2 flex items-center gap-1.5">
+        <CheckCircle2 className="size-4 text-emerald-500" />
+        <span className="text-[11px] font-semibold">AI feedback</span>
+        <span className="ml-auto rounded-full bg-emerald-500/15 px-1.5 py-0.5 text-[9px] font-medium text-emerald-700 dark:text-emerald-300">
+          Auto-received ✓
+        </span>
+      </div>
+      <div className="mb-2 flex flex-wrap gap-1">
+        {badges.map((b) => (
+          <span
+            key={b.label}
+            className={cn(
+              "inline-flex items-baseline gap-0.5 rounded-full px-2 py-0.5 text-[10px] font-medium",
+              b.cls,
+            )}
+            style={{
+              animation: `badge-pop 0.4s ease forwards`,
+              animationDelay: b.delay,
+              opacity: 0,
+            }}
+          >
+            <span className="font-semibold">{b.label}</span>
+            <span>{b.score}/10</span>
+          </span>
+        ))}
+      </div>
+      <div className="rounded border p-1.5 text-[10px]">
+        <span className="text-rose-600 line-through dark:text-rose-400">
+          Climate change are
+        </span>{" "}
+        →{" "}
+        <span className="text-emerald-700 dark:text-emerald-300">
+          Climate change is
+        </span>
+        <p className="mt-0.5 text-[9px] text-muted-foreground">
+          Subject-verb agreement
+        </p>
+      </div>
+    </div>
+  );
+}
+
+/* ─── Step definitions ───────────────────────────────────────── */
+
+const STEPS = [
+  {
+    label: "Write",
+    title: "Write your response",
+    description:
+      "Use the writing area to craft your answer. The word count updates as you type — aim for the target range shown below the editor.",
+    illustration: <IllustrationWrite />,
+  },
+  {
+    label: "Get feedback",
+    title: 'Click "Get AI feedback"',
+    description:
+      'When you\'re done, click the highlighted button right below the editor. It copies a ready-made prompt — with your writing included — to your clipboard.',
+    illustration: <IllustrationButton />,
+  },
+  {
+    label: "Paste",
+    title: "Paste into ChatGPT or Gemini",
+    description:
+      "Open ChatGPT or Gemini in any tab, paste the prompt (Ctrl+V / Cmd+V), and hit Send. No extra setup needed.",
+    illustration: <IllustrationPaste />,
+  },
+  {
+    label: "Done!",
+    title: "Feedback arrives automatically",
+    description:
+      "As soon as the AI replies, your scores, corrections, and suggestions appear here — no need to copy anything back.",
+    illustration: <IllustrationResult />,
+  },
+] as const;
+
+/* ─── Main component ─────────────────────────────────────────── */
+
+export function AiFeedbackGuide() {
+  const [dismissed, setDismissed] = useLocalStorageBoolean(
+    "writing-ai-guide-v1",
+    false,
+  );
+  const [sessionSkipped, setSessionSkipped] = useState(false);
+  const [step, setStep] = useState(0);
+
+  const open = !dismissed && !sessionSkipped;
+  const isFirst = step === 0;
+  const isLast = step === STEPS.length - 1;
+  const current = STEPS[step];
+
+  function handleNext() {
+    if (isLast) {
+      setDismissed(true);
+    } else {
+      setStep((s) => s + 1);
+    }
+  }
+
+  function handleOpenChange(v: boolean) {
+    if (!v) setSessionSkipped(true);
+  }
+
+  return (
+    <Dialog open={open} onOpenChange={handleOpenChange}>
+      <DialogContent
+        className="max-w-sm gap-0 overflow-hidden p-0 sm:max-w-md"
+        onInteractOutside={(e) => e.preventDefault()}
+      >
+        {/* Header */}
+        <div className="flex items-center gap-2 border-b px-4 py-3 pr-10">
+          <Sparkles className="size-4 text-primary" />
+          <span className="text-sm font-semibold">How to use AI Feedback</span>
+        </div>
+
+        {/* Step indicator */}
+        <div className="flex items-center justify-center gap-1.5 px-4 pt-3">
+          {STEPS.map((s, i) => (
+            <button
+              key={s.label}
+              type="button"
+              onClick={() => setStep(i)}
+              className={cn(
+                "h-1.5 rounded-full transition-all duration-300",
+                i === step
+                  ? "w-6 bg-primary"
+                  : i < step
+                    ? "w-1.5 bg-primary/40"
+                    : "w-1.5 bg-muted-foreground/25",
+              )}
+              aria-label={`Step ${i + 1}: ${s.label}`}
+            />
+          ))}
+        </div>
+
+        {/* Illustration — fixed height so dialog never resizes */}
+        <div className="mx-4 mt-4 h-[180px] overflow-hidden">
+          <div
+            key={step}
+            className="animate-in fade-in slide-in-from-right-4 duration-300 flex h-full items-center justify-center"
+          >
+            {current.illustration}
+          </div>
+        </div>
+
+        {/* Text — fixed height so dialog never resizes */}
+        <div className="h-[110px] overflow-hidden px-4 pt-3">
+          <div
+            key={`text-${step}`}
+            className="animate-in fade-in slide-in-from-right-4 duration-300 space-y-1"
+          >
+            <p className="text-[10px] font-semibold uppercase tracking-wide text-muted-foreground">
+              Step {step + 1} of {STEPS.length}
+            </p>
+            <h3 className="text-base font-semibold leading-snug">{current.title}</h3>
+            <p className="text-sm text-muted-foreground leading-relaxed">
+              {current.description}
+            </p>
+          </div>
+        </div>
+
+        {/* Footer */}
+        <div className="flex items-center justify-between px-4 pb-4 pt-3">
+          <button
+            type="button"
+            onClick={() => setDismissed(true)}
+            className="text-xs text-muted-foreground underline-offset-2 hover:text-foreground hover:underline"
+          >
+            Don&apos;t show again
+          </button>
+          <div className="flex items-center gap-2">
+            {!isFirst && (
+              <Button
+                type="button"
+                size="sm"
+                variant="outline"
+                onClick={() => setStep((s) => s - 1)}
+              >
+                <ChevronLeft className="size-3.5" />
+                Back
+              </Button>
+            )}
+            <Button type="button" size="sm" onClick={handleNext}>
+              {isLast ? (
+                <>
+                  <CheckCircle2 className="mr-1 size-3.5" />
+                  Got it!
+                </>
+              ) : (
+                <>
+                  Next
+                  <ChevronRight className="ml-1 size-3.5" />
+                </>
+              )}
+            </Button>
+          </div>
+        </div>
+      </DialogContent>
+    </Dialog>
+  );
+}

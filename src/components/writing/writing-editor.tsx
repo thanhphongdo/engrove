@@ -44,19 +44,24 @@ export function WritingEditor() {
         value={text}
         onChange={(e) => setText(e.target.value)}
         placeholder="Write your response here…"
-        className="min-h-[10rem] w-full resize-y rounded border bg-background p-2 text-sm leading-relaxed outline-none focus:ring-1 focus:ring-ring"
+        className="min-h-[20rem] w-full resize-y rounded border bg-background p-2 text-sm leading-relaxed outline-none focus:ring-1 focus:ring-ring"
       />
-      <p
-        className={cn(
-          "mt-1 text-xs",
-          tooShort || tooLong ? "text-amber-600 dark:text-amber-400" : "text-muted-foreground",
-        )}
-      >
-        {words} word{words === 1 ? "" : "s"}
-        {min != null || max != null
-          ? ` · target ${min ?? "?"}–${max ?? "?"}`
-          : ""}
-      </p>
+      <div className="mt-1 flex flex-wrap items-center justify-between gap-x-4 gap-y-0.5">
+        <p
+          className={cn(
+            "text-xs",
+            tooShort || tooLong ? "text-amber-600 dark:text-amber-400" : "text-muted-foreground",
+          )}
+        >
+          {words} word{words === 1 ? "" : "s"}
+          {min != null || max != null
+            ? ` · target ${min ?? "?"}–${max ?? "?"}`
+            : ""}
+        </p>
+        <p className="text-xs text-muted-foreground">
+          Done? Use <span className="font-medium text-foreground">Get AI feedback</span> below ↓
+        </p>
+      </div>
     </section>
   );
 }

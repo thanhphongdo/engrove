@@ -1,0 +1,101 @@
+{
+  "id": "writing-b1-003",
+  "level": "B1",
+  "title": "A place that looks ordinary but matters to you",
+  "summary": "Describe a small public place that strangers walk past, and explain why it matters to you.",
+  "tags": ["Place", "Memory", "Opinion"],
+  "topic": "A place that looks ordinary but matters to you",
+  "prompt": "Write 3 short paragraphs (150–200 words total) about one ordinary public place (a bench, a corner, a step) that matters to you. Describe it, tell the story of how it became important, and end with one sentence that ties it back to today. Use past simple for the story and present simple for what is true now.",
+  "minWords": 100,
+  "maxWords": 220,
+  "hintStarters": [
+    "There is a small bench outside…",
+    "When I was sixteen, my parents…",
+    "The librarian never said anything…",
+    "I have never told the city how much…"
+  ],
+  "hintVocab": [
+    { "phrase": "ordinary", "meaningVi": "bình thường", "pronunciation": "/ˈɔːrdəneri/" },
+    { "phrase": "rusty", "meaningVi": "han gỉ" },
+    { "phrase": "streetlight", "meaningVi": "đèn đường" },
+    { "phrase": "dramatic", "meaningVi": "kịch tính" },
+    { "phrase": "by accident", "meaningVi": "tình cờ" },
+    { "phrase": "repaint", "meaningVi": "sơn lại" }
+  ],
+  "sampleText": "There is a small bench outside the public library in my city. From the street, it looks like nothing — just three wooden planks and one rusty leg. Most people walk past it without stopping. For me, however, that bench is one of the most important places in the world.\n\nWhen I was sixteen, my parents were arguing every night. I did not want to go home after school, so I read on that bench until the streetlights came on. The librarian noticed me. She never said anything dramatic; she only brought me a glass of water and sometimes a new book. After a few weeks, I started doing my homework there. My grades improved. My mother thanked the librarian by accident, years later, in a market.\n\nI have never told the city how much that bench did for me. They have repainted it twice. Each time, I worry they will replace it with a metal one.",
+  "sampleAnnotations": [
+    { "phrase": "wooden planks", "meaningVi": "tấm ván gỗ" },
+    { "phrase": "without stopping", "meaningVi": "không dừng lại" },
+    { "phrase": "by accident", "meaningVi": "tình cờ" },
+    { "phrase": "repainted it twice", "meaningVi": "đã sơn lại nó hai lần" },
+    { "phrase": "replace it with", "meaningVi": "thay nó bằng" }
+  ],
+  "sampleGrammarNotes": [
+    {
+      "title": "Past continuous for background",
+      "bodyVi": "'my parents were arguing every night' dùng quá khứ tiếp diễn cho hoàn cảnh kéo dài trong quá khứ.",
+      "bodyEn": "'my parents were arguing every night' uses the past continuous for an ongoing background situation in the past."
+    },
+    {
+      "title": "Present perfect for changes up to now",
+      "bodyVi": "'They have repainted it twice' diễn tả sự thay đổi đã xảy ra trong khoảng thời gian đến hiện tại.",
+      "bodyEn": "'They have repainted it twice' expresses a change that has happened up to now."
+    }
+  ],
+  "sampleTranslationVi": "Có một chiếc ghế nhỏ ở ngoài thư viện công cộng trong thành phố tôi. Nhìn từ đường, nó chẳng giống gì cả — chỉ là ba miếng ván gỗ và một cái chân đã han gỉ. Hầu hết mọi người đi ngang qua mà không dừng lại. Nhưng với tôi, chiếc ghế ấy là một trong những nơi quan trọng nhất trên đời.\n\nKhi tôi mười sáu tuổi, bố mẹ tôi cãi nhau mỗi tối. Tôi không muốn về nhà sau giờ học, nên tôi ngồi đọc sách trên chiếc ghế ấy đến khi đèn đường bật lên. Người thủ thư đã chú ý đến tôi. Cô chưa bao giờ nói gì kịch tính; cô chỉ mang cho tôi một ly nước và đôi khi là một cuốn sách mới. Sau vài tuần, tôi bắt đầu làm bài tập ở đó. Điểm số của tôi tốt lên. Mẹ tôi đã cảm ơn cô thủ thư một cách tình cờ, nhiều năm sau, ở chợ.\n\nTôi chưa bao giờ kể với thành phố này rằng chiếc ghế ấy đã làm gì cho tôi. Họ đã sơn lại nó hai lần. Mỗi lần, tôi lại lo họ sẽ thay nó bằng một chiếc bằng kim loại.",
+  "mcQuestions": [
+    {
+      "id": "q1",
+      "prompt": "Which sentence uses past continuous correctly for a long background situation?",
+      "options": [
+        "When I was sixteen, my parents argue every night.",
+        "When I was sixteen, my parents were arguing every night.",
+        "When I am sixteen, my parents have been arguing every night.",
+        "When I was sixteen, my parents had arguing every night."
+      ],
+      "answerIndex": 1,
+      "explanation": "'were arguing' = past continuous for a situation that lasted across many nights.",
+      "hint": "Which tense shows a long, ongoing background in the past?"
+    },
+    {
+      "id": "q2",
+      "prompt": "Which sentence uses present perfect for a change that is still true now?",
+      "options": [
+        "They have repainted it twice.",
+        "They are repainting it twice.",
+        "They repaint it twice.",
+        "They had repainted it twice ago."
+      ],
+      "answerIndex": 0,
+      "explanation": "Present perfect with a frequency ('twice') reports a count up to now.",
+      "hint": "Look for the tense that counts events from the past up to today."
+    },
+    {
+      "id": "q3",
+      "prompt": "Which option sounds most natural to start the final, reflective paragraph?",
+      "options": [
+        "In conclusion, public benches are very important in cities.",
+        "I have never told the city how much that bench did for me.",
+        "Now I think of all the benches I have seen in my life.",
+        "Today's modern world is full of forgotten places."
+      ],
+      "answerIndex": 1,
+      "explanation": "Only B stays with the specific bench in this specific city. The others slide into generic conclusions.",
+      "hint": "Choose the option that still talks about *this* bench, not benches in general."
+    },
+    {
+      "id": "q4",
+      "prompt": "Choose the most natural sentence to describe the librarian's quiet kindness.",
+      "options": [
+        "She had said dramatic things to me always.",
+        "She never said anything dramatic; she only brought me a glass of water.",
+        "Dramatic things, she never said. Water, she only brought.",
+        "She was bringing always dramatic glasses of water."
+      ],
+      "answerIndex": 1,
+      "explanation": "Past simple + 'never' + 'anything dramatic', with a semicolon, gives a calm, controlled tone.",
+      "hint": "Which option pairs quiet vocabulary with a calm sentence structure?"
+    }
+  ],
+  "criticalThinkingQuestion": "If a place that mattered to you was replaced by something newer and shinier, would you fight to keep it, or accept the change? Why?"
+}
