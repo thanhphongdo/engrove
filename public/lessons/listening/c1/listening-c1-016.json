@@ -1,0 +1,915 @@
+{
+  "id": "listening-c1-016",
+  "level": "C1",
+  "title": "Gene Editing: A Medical Ethics Discussion",
+  "summary": "A bioethicist and a philosopher discuss the ethical implications of CRISPR gene editing technology — exploring the distinctions between somatic and germline editing, therapeutic versus enhancement applications, consent, equity, and the governance of a technology that could alter human heredity.",
+  "format": "dialogue",
+  "body": [
+    {
+      "speaker": "Dr Chen",
+      "text": "Thank you for joining me today. I want to start with what seems like a basic question but turns out to be enormously complex: what's the ethical difference between treating a genetic disease and enhancing a genetic trait?"
+    },
+    {
+      "speaker": "Prof Williams",
+      "text": "The distinction seems intuitive — treatment is about restoring normal function, enhancement is about exceeding it. But under scrutiny, the line dissolves. What counts as normal? Is correcting a gene variant that increases disease risk treatment or prevention? Is adding a variant that confers resistance to a common pathogen treatment or enhancement?"
+    },
+    {
+      "speaker": "Dr Chen",
+      "text": "So you're suggesting the treatment-enhancement distinction isn't doing the moral work we want it to do?"
+    },
+    {
+      "speaker": "Prof Williams",
+      "text": "Precisely. It borrows its moral force from the concept of species-typical functioning, but that concept is deeply contested. Species-typical functioning varies continuously across populations, changes over evolutionary time, and differs according to environment. Anchoring an ethics of genetic intervention in it turns out to be shakier than it first appears."
+    },
+    {
+      "speaker": "Dr Chen",
+      "text": "Let's move to the germline question. Somatic editing affects only the individual patient. Germline editing passes changes to future generations. Why does that difference matter so much ethically?"
+    },
+    {
+      "speaker": "Prof Williams",
+      "text": "Several reasons. First, consent: future generations cannot consent to heritable changes made on their behalf. Second, irreversibility: a germline edit propagates through a lineage, potentially for centuries. Third, and most profoundly, it introduces a new form of intentionality into evolution — not the blind variation of natural selection, but designed change made by current humans for reasons that may be parochial, culturally contingent, or simply mistaken."
+    },
+    {
+      "speaker": "Dr Chen",
+      "text": "Some scientists argue that germline editing for serious diseases is justified precisely because the affected child would otherwise have faced severe suffering. What's your response to that argument?"
+    },
+    {
+      "speaker": "Prof Williams",
+      "text": "It has genuine force in severe cases. If a couple carries two copies of a gene that causes a fatal childhood condition, editing the germline to prevent transmission appears straightforwardly humane. The difficulty arises when this logic is extended step by step — first severe fatal conditions, then serious chronic conditions, then conditions with variable expression, then predispositions, then traits."
+    },
+    {
+      "speaker": "Dr Chen",
+      "text": "The slippery slope."
+    },
+    {
+      "speaker": "Prof Williams",
+      "text": "Yes, though I'd call it the logic of incremental extension rather than a slope — it's not irrational, it's a series of individually reasonable steps that collectively traverse a very significant moral boundary. What makes this particularly hard to handle is that each individual step in the extension appears defensible on grounds that were previously accepted."
+    },
+    {
+      "speaker": "Dr Chen",
+      "text": "What about the equity dimension? Gene editing technologies are expensive to develop and will initially be accessible only to wealthy individuals and wealthy nations. Doesn't that concern you enormously?"
+    },
+    {
+      "speaker": "Prof Williams",
+      "text": "It concerns me enormously — and not just because of justice in distribution. If genetic enhancements are commercially available to those who can afford them, we risk creating heritable biological inequalities that compound existing socioeconomic ones across generations. Unlike educational or economic advantages, heritable genetic advantages cannot be corrected by social policy once they are propagated through populations."
+    },
+    {
+      "speaker": "Dr Chen",
+      "text": "That's a genuinely novel form of inequality — one that has a biological substrate that social institutions cannot readily redress."
+    },
+    {
+      "speaker": "Prof Williams",
+      "text": "Exactly. And there's a further concern. Disability rights advocates have argued that the very project of editing out genetic variants associated with disability implies a judgement about the worth of people living with those conditions. The philosopher Elizabeth Barnes has argued that many disability conditions are mere differences, not deficits — and that treating them as targets for elimination reflects and reinforces ableist assumptions rather than neutral medical judgment."
+    },
+    {
+      "speaker": "Dr Chen",
+      "text": "How should governance frameworks respond to all of this? We have an international moratorium on clinical germline editing at present, but that's only as robust as the number of jurisdictions observing it."
+    },
+    {
+      "speaker": "Prof Williams",
+      "text": "The governance problem is real and genuinely difficult. What we need is not a permanent ban but a framework that permits carefully regulated research, requires transparent international reporting, builds in mandatory review at each extension of application, and creates meaningful mechanisms for global equity — including technology transfer to lower-income countries and representation of diverse populations in governance bodies."
+    },
+    {
+      "speaker": "Dr Chen",
+      "text": "One final question: are you optimistic?"
+    },
+    {
+      "speaker": "Prof Williams",
+      "text": "I'm cautiously hopeful, which is different from optimistic. The science is moving faster than our governance capacity, but the ethical conversation is more sophisticated than it was even ten years ago. What concerns me most is not the technology itself but the political economy surrounding it — the pressure of commercial interests, the competitive dynamics between research programmes in different countries, and the temptation of individual scientists to move faster than the collective ethical framework has sanctioned."
+    }
+  ],
+  "tags": [
+    "bioethics",
+    "genetics",
+    "CRISPR",
+    "medical ethics",
+    "technology governance"
+  ],
+  "annotations": [
+    {
+      "phrase": "somatic editing",
+      "meaningVi": "chỉnh sửa soma — chỉnh sửa gen trong tế bào cơ thể, không truyền cho thế hệ sau",
+      "pronunciation": "/səˈmætɪk ˈedɪtɪŋ/",
+      "exampleEn": "Somatic editing treats the individual patient without affecting their descendants."
+    },
+    {
+      "phrase": "germline editing",
+      "meaningVi": "chỉnh sửa dòng mầm — chỉnh sửa gen trong tế bào sinh dục, được truyền cho thế hệ sau",
+      "pronunciation": "/ˈdʒɜːmlaɪn ˈedɪtɪŋ/",
+      "exampleEn": "Germline editing is irreversible at the population level once the altered genes spread."
+    },
+    {
+      "phrase": "species-typical functioning",
+      "meaningVi": "chức năng điển hình của loài — mức độ hoạt động được coi là bình thường cho loài người",
+      "pronunciation": "/ˈspiːʃiːz ˈtɪpɪkəl ˈfʌŋkʃənɪŋ/",
+      "exampleEn": "Bioethicists debate whether restoring species-typical functioning is a meaningful standard for genetic intervention."
+    },
+    {
+      "phrase": "heritable changes",
+      "meaningVi": "các thay đổi di truyền được — thay đổi có thể truyền lại cho thế hệ sau",
+      "pronunciation": "/ˈherɪtəbəl ˈtʃeɪndʒɪz/",
+      "exampleEn": "Once heritable changes enter a population, they cannot be recalled."
+    },
+    {
+      "phrase": "parochial",
+      "meaningVi": "mang tính địa phương hẹp hòi, bị giới hạn bởi quan điểm hạn chế của một thời kỳ hoặc cộng đồng",
+      "pronunciation": "/pəˈrəʊkiəl/",
+      "exampleEn": "Decisions that seem rational today may prove parochial from the perspective of future generations."
+    },
+    {
+      "phrase": "culturally contingent",
+      "meaningVi": "phụ thuộc vào văn hóa — chỉ có giá trị hoặc ý nghĩa trong một bối cảnh văn hóa cụ thể",
+      "pronunciation": "/ˈkʌltʃərəli kənˈtɪndʒənt/",
+      "exampleEn": "What counts as a desirable trait is culturally contingent and changes across time."
+    },
+    {
+      "phrase": "incremental extension",
+      "meaningVi": "mở rộng từng bước — việc tiến dần qua các bước nhỏ đến một ranh giới đạo đức quan trọng",
+      "pronunciation": "/ˌɪŋkrɪˈmentəl ɪkˈstenʃən/",
+      "exampleEn": "The ethics committee warned against the logic of incremental extension in approving new applications."
+    },
+    {
+      "phrase": "variable expression",
+      "meaningVi": "biểu hiện biến đổi — đặc điểm của gen chỉ biểu hiện ở một số cá nhân mang gen đó",
+      "pronunciation": "/ˈveəriəbəl ɪkˈspreʃən/",
+      "exampleEn": "Genes with variable expression present particular challenges for predictive genetic counselling."
+    },
+    {
+      "phrase": "heritable biological inequalities",
+      "meaningVi": "bất bình đẳng sinh học di truyền — bất lợi hoặc lợi thế sinh học được truyền qua các thế hệ",
+      "pronunciation": "/ˈherɪtəbəl ˌbaɪəˈlɒdʒɪkəl ˌɪnɪˈkwɒlɪtiz/",
+      "exampleEn": "Heritable biological inequalities could compound socioeconomic disadvantage across multiple generations."
+    },
+    {
+      "phrase": "disability rights advocates",
+      "meaningVi": "những người vận động cho quyền của người khuyết tật",
+      "pronunciation": "/dɪsˈæbɪlɪti raɪts ˈædvəkɪts/",
+      "exampleEn": "Disability rights advocates challenged the framing of genetic conditions as problems requiring elimination."
+    },
+    {
+      "phrase": "ableist assumptions",
+      "meaningVi": "giả định phân biệt người khuyết tật — quan điểm coi người không khuyết tật là tiêu chuẩn ưu việt",
+      "pronunciation": "/ˈeɪbəlɪst əˈsʌmpʃənz/",
+      "exampleEn": "The research programme was criticised for embedding ableist assumptions about which traits should be edited."
+    },
+    {
+      "phrase": "moratorium",
+      "meaningVi": "lệnh tạm ngừng, dừng hoạt động nhất định trong một thời gian",
+      "pronunciation": "/ˌmɒrəˈtɔːriəm/",
+      "exampleEn": "An international moratorium on germline editing was called for following the He Jiankui affair."
+    },
+    {
+      "phrase": "political economy",
+      "meaningVi": "kinh tế chính trị — sự tương tác giữa quyền lực chính trị và lợi ích kinh tế",
+      "pronunciation": "/pəˈlɪtɪkəl ɪˈkɒnəmi/",
+      "exampleEn": "The political economy of pharmaceutical development shapes which diseases receive research funding."
+    },
+    {
+      "phrase": "competitive dynamics",
+      "meaningVi": "động lực cạnh tranh — các lực lượng cạnh tranh định hình hành vi của các chủ thể trong một lĩnh vực",
+      "pronunciation": "/kəmˈpetɪtɪv daɪˈnæmɪks/",
+      "exampleEn": "Competitive dynamics between national research programmes may undermine international governance agreements."
+    },
+    {
+      "phrase": "technology transfer",
+      "meaningVi": "chuyển giao công nghệ — quá trình chia sẻ kiến thức và công nghệ với các nước đang phát triển",
+      "pronunciation": "/tekˈnɒlədʒi ˈtrænsfɜː/",
+      "exampleEn": "Technology transfer provisions are central to making global health innovations equitable."
+    },
+    {
+      "phrase": "mere differences",
+      "meaningVi": "sự khác biệt đơn thuần — theo Elizabeth Barnes, nhiều tình trạng khuyết tật chỉ là khác biệt không phải là thiếu hụt",
+      "pronunciation": "/mɪə ˈdɪfrənsɪz/",
+      "exampleEn": "Characterising deafness as a mere difference challenges the assumption that cochlear implants are straightforwardly beneficial."
+    },
+    {
+      "phrase": "intentionality into evolution",
+      "meaningVi": "đưa tính chủ đích vào tiến hóa — thay thế chọn lọc tự nhiên ngẫu nhiên bằng thiết kế có chủ đích của con người",
+      "pronunciation": "/ˌɪntenʃəˈnælɪti ˈɪntə ˌiːvəˈluːʃən/",
+      "exampleEn": "Germline editing introduces intentionality into evolution for the first time in history."
+    },
+    {
+      "phrase": "collective ethical framework",
+      "meaningVi": "khuôn khổ đạo đức tập thể — sự đồng thuận về tiêu chuẩn đạo đức được chia sẻ bởi cộng đồng rộng lớn hơn",
+      "pronunciation": "/kəˈlektɪv ˈeθɪkəl ˈfreɪmwɜːk/",
+      "exampleEn": "Individual scientists who move faster than the collective ethical framework allow undermine its authority."
+    },
+    {
+      "phrase": "cautiously hopeful",
+      "meaningVi": "hy vọng thận trọng — lạc quan nhưng nhận thức được những rủi ro và thách thức",
+      "pronunciation": "/ˈkɔːʃəsli ˈhəʊpfəl/",
+      "exampleEn": "The committee was cautiously hopeful that the new protocols would improve research transparency."
+    },
+    {
+      "phrase": "biological substrate",
+      "meaningVi": "nền tảng sinh học — cơ sở vật chất sinh học của một tình trạng hoặc khả năng",
+      "pronunciation": "/ˌbaɪəˈlɒdʒɪkəl ˈsʌbstreɪt/",
+      "exampleEn": "Heritable advantages have a biological substrate that is harder to address than social disadvantages."
+    },
+    {
+      "phrase": "equity in distribution",
+      "meaningVi": "công bằng trong phân phối — đảm bảo lợi ích của công nghệ được phân phối công bằng",
+      "pronunciation": "/ˈekwɪti ɪn ˌdɪstrɪˈbjuːʃən/",
+      "exampleEn": "Equity in distribution requires that not only wealthy nations benefit from medical breakthroughs."
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Hypothetical conditionals and graduated concession in ethical argument",
+      "bodyVi": "Trong lập luận đạo đức học thuật, điều kiện giả thuyết (hypothetical conditionals) được dùng để thám hiểm hệ quả của các nguyên tắc: 'If genetic enhancements are commercially available… we risk creating heritable biological inequalities'. Dạng này ('if X, [then] Y') ở thì hiện tại đơn diễn đạt kết quả hợp lý, không phải sự kiện thực tế. Bên cạnh đó, cấu trúc nhượng bộ có mức độ (graduated concession) được dùng: 'It has genuine force in severe cases… The difficulty arises when this logic is extended…' — thừa nhận sức mạnh một phần trước khi chỉ ra giới hạn. Kỹ thuật này thể hiện sự công bằng tri thức và đặc biệt hữu ích trong thảo luận đạo đức.",
+      "bodyEn": "Hypothetical conditionals ('if X, we risk Y') project logical consequences from premises without asserting they have occurred — essential in ethics when exploring implications of principles. Graduated concession ('It has genuine force in severe cases… The difficulty arises when…') acknowledges the strongest form of an opposing argument before limiting its scope. This is more persuasive than dismissing the opposing view because it demonstrates that the speaker understands and respects the best version of the argument they are qualifying. Mastering graduated concession is a hallmark of C1+ ethical and philosophical writing."
+    },
+    {
+      "title": "Appositive and parenthetical clauses for technical specification",
+      "bodyVi": "Mệnh đề đồng vị và ngoặc đơn cho phép người nói/viết nhúng định nghĩa kỹ thuật vào câu chính mà không làm gián đoạn luận điểm. Ví dụ: 'Somatic editing affects only the individual patient. Germline editing passes changes to future generations.' — hai câu ngắn mỗi câu định nghĩa một thuật ngữ kỹ thuật trước khi câu sau dùng các thuật ngữ đó để xây dựng lập luận. Cấu trúc khác: 'the concept of species-typical functioning, but that concept is deeply contested' — mệnh đề 'but that concept is deeply contested' bác bỏ trực tiếp tiền đề ngay sau khi nêu ra.",
+      "bodyEn": "Technical terms in academic dialogue are often introduced in the object position and then immediately problematised: 'the concept of species-typical functioning, but that concept is deeply contested.' This two-step move — introduce term, then contest it — is a hallmark of philosophical precision. Note also the dense nominalization: 'the logic of incremental extension', 'competitive dynamics between research programmes', 'the political economy surrounding it'. Each of these phrases packages a complex process as a single noun that can then serve as subject or object of further claims."
+    }
+  ],
+  "translationVi": "Tiến sĩ Chen: Cảm ơn đã tham gia cùng tôi hôm nay. Tôi muốn bắt đầu với điều có vẻ là câu hỏi cơ bản nhưng hóa ra vô cùng phức tạp: sự khác biệt đạo đức giữa điều trị bệnh di truyền và tăng cường đặc điểm di truyền là gì?\n\nGS Williams: Sự phân biệt có vẻ trực quan — điều trị là về khôi phục chức năng bình thường, tăng cường là về việc vượt qua nó. Nhưng khi xem xét kỹ, ranh giới biến mất. Bình thường là gì? Sửa chữa một biến thể gen làm tăng nguy cơ bệnh là điều trị hay phòng ngừa? Thêm một biến thể mang lại khả năng kháng một mầm bệnh phổ biến là điều trị hay tăng cường?\n\nTS Chen: Vậy bạn đề xuất rằng sự phân biệt điều trị-tăng cường không thực hiện được công việc đạo đức mà chúng ta muốn nó làm?\n\nGS Williams: Chính xác. Nó mượn sức mạnh đạo đức từ khái niệm chức năng điển hình của loài, nhưng khái niệm đó bị tranh luận sâu sắc. Chức năng điển hình của loài thay đổi liên tục qua các quần thể, thay đổi theo thời gian tiến hóa, và khác nhau tùy theo môi trường. Việc gắn kết đạo đức của can thiệp di truyền vào nó hóa ra không vững chắc hơn những gì ban đầu có vẻ.\n\nTS Chen: Hãy chuyển sang câu hỏi về dòng mầm. Chỉnh sửa soma chỉ ảnh hưởng đến bệnh nhân cá nhân. Chỉnh sửa dòng mầm truyền các thay đổi cho các thế hệ tương lai. Tại sao sự khác biệt đó lại quan trọng về mặt đạo đức đến vậy?\n\nGS Williams: Một số lý do. Thứ nhất, sự đồng ý: các thế hệ tương lai không thể đồng ý với các thay đổi di truyền được thực hiện thay mặt họ. Thứ hai, tính không thể đảo ngược: một chỉnh sửa dòng mầm lan truyền qua một dòng dõi, có thể trong nhiều thế kỷ. Thứ ba, và sâu sắc nhất, nó đưa một hình thức chủ đích mới vào tiến hóa — không phải sự biến đổi mù quáng của chọn lọc tự nhiên, mà là thay đổi được thiết kế bởi con người hiện tại vì những lý do có thể mang tính địa phương hẹp hòi, phụ thuộc văn hóa, hoặc đơn giản là sai lầm.\n\nTS Chen: Một số nhà khoa học lập luận rằng chỉnh sửa dòng mầm cho các bệnh nghiêm trọng được biện hộ chính xác vì đứa trẻ bị ảnh hưởng nếu không sẽ phải đối mặt với đau khổ nghiêm trọng. Phản hồi của bạn với lập luận đó là gì?\n\nGS Williams: Nó có sức thuyết phục thực sự trong các trường hợp nghiêm trọng. Nếu một cặp vợ chồng mang hai bản sao của gen gây ra tình trạng nguy hiểm đến tính mạng ở trẻ em, chỉnh sửa dòng mầm để ngăn chặn sự lây truyền có vẻ hoàn toàn nhân đạo. Khó khăn phát sinh khi logic này được mở rộng từng bước — đầu tiên là các tình trạng gây tử vong nghiêm trọng, sau đó là các tình trạng mãn tính nghiêm trọng, rồi các tình trạng có biểu hiện biến đổi, rồi khuynh hướng, rồi các đặc điểm.\n\nTS Chen: Dốc trơn trợt.\n\nGS Williams: Đúng, mặc dù tôi sẽ gọi nó là logic mở rộng từng bước hơn là một dốc — nó không phải là phi lý, mà là một loạt các bước cá nhân hợp lý mà tập thể vượt qua một ranh giới đạo đức rất quan trọng. Điều làm cho điều này đặc biệt khó xử lý là mỗi bước riêng lẻ trong việc mở rộng có vẻ có thể bảo vệ được trên cơ sở đã được chấp nhận trước đó.\n\nTS Chen: Còn chiều cạnh công bằng thì sao? Các công nghệ chỉnh sửa gen rất tốn kém để phát triển và ban đầu sẽ chỉ có thể tiếp cận bởi các cá nhân và quốc gia giàu có. Điều đó không làm bạn lo lắng rất nhiều sao?\n\nGS Williams: Nó làm tôi lo lắng rất nhiều — và không chỉ vì công bằng trong phân phối. Nếu các tăng cường di truyền có sẵn trên thị trường cho những người đủ khả năng chi trả, chúng ta có nguy cơ tạo ra các bất bình đẳng sinh học di truyền làm trầm trọng thêm các bất bình đẳng kinh tế xã hội hiện có qua các thế hệ. Không giống như lợi thế giáo dục hay kinh tế, lợi thế di truyền không thể được sửa chữa bởi chính sách xã hội một khi chúng đã lan truyền qua các quần thể.\n\nTS Chen: Đó là một hình thức bất bình đẳng thực sự mới — một hình thức có nền tảng sinh học mà các thể chế xã hội không thể dễ dàng khắc phục.\n\nGS Williams: Chính xác. Và còn một mối lo ngại nữa. Những người vận động quyền khuyết tật đã lập luận rằng chính dự án chỉnh sửa các biến thể gen liên quan đến khuyết tật ngụ ý một phán xét về giá trị của những người sống với những tình trạng đó. Triết gia Elizabeth Barnes đã lập luận rằng nhiều tình trạng khuyết tật chỉ là sự khác biệt, không phải thiếu hụt — và rằng việc coi chúng là mục tiêu để loại bỏ phản ánh và củng cố các giả định phân biệt người khuyết tật hơn là phán xét y tế trung tính.\n\nTS Chen: Các khuôn khổ quản trị nên phản hồi với tất cả những điều này như thế nào? Chúng ta hiện có lệnh tạm ngừng quốc tế về chỉnh sửa dòng mầm lâm sàng, nhưng điều đó chỉ mạnh mẽ bằng số lượng các khu vực pháp lý tuân thủ nó.\n\nGS Williams: Vấn đề quản trị là có thực và thực sự khó khăn. Những gì chúng ta cần không phải là lệnh cấm vĩnh viễn mà là một khuôn khổ cho phép nghiên cứu được quy định cẩn thận, yêu cầu báo cáo quốc tế minh bạch, xây dựng sự xem xét bắt buộc ở mỗi lần mở rộng ứng dụng, và tạo ra các cơ chế có ý nghĩa về công bằng toàn cầu — bao gồm chuyển giao công nghệ cho các quốc gia thu nhập thấp hơn và đại diện của các quần thể đa dạng trong các cơ quan quản trị.\n\nTS Chen: Câu hỏi cuối cùng: bạn có lạc quan không?\n\nGS Williams: Tôi hy vọng thận trọng, khác với lạc quan. Khoa học đang di chuyển nhanh hơn khả năng quản trị của chúng ta, nhưng cuộc trò chuyện về đạo đức tinh vi hơn so với thậm chí mười năm trước. Điều lo ngại nhất đối với tôi không phải là bản thân công nghệ mà là kinh tế chính trị xung quanh nó — áp lực của lợi ích thương mại, động lực cạnh tranh giữa các chương trình nghiên cứu ở các quốc gia khác nhau, và sự cám dỗ của các nhà khoa học cá nhân tiến nhanh hơn khuôn khổ đạo đức tập thể đã cho phép.",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Why does Prof Williams argue that the treatment-enhancement distinction is not morally reliable?",
+      "options": [
+        "Because all genetic interventions are morally equivalent and none should be permitted",
+        "Because the concept of species-typical functioning on which it relies is deeply contested and varies across populations and time",
+        "Because the distinction is legally irrelevant in most jurisdictions that regulate gene editing",
+        "Because the technology cannot distinguish between treatment and enhancement at the molecular level"
+      ],
+      "answerIndex": 1,
+      "explanation": "Prof Williams argues the distinction 'borrows its moral force from the concept of species-typical functioning, but that concept is deeply contested' and 'varies continuously across populations'.",
+      "hint": "What concept does the treatment-enhancement distinction rely on, and what problem does Prof Williams identify with it?"
+    },
+    {
+      "id": "q2",
+      "prompt": "What three reasons does Prof Williams give for why germline editing raises distinct ethical concerns?",
+      "options": [
+        "Cost, irreversibility, and lack of regulatory oversight",
+        "Consent, irreversibility, and the introduction of intentionality into evolution",
+        "Consent, technical difficulty, and the risk of unintended mutations",
+        "Commercial exploitation, irreversibility, and the difficulty of peer review"
+      ],
+      "answerIndex": 1,
+      "explanation": "Prof Williams lists: 'First, consent: future generations cannot consent… Second, irreversibility: a germline edit propagates through a lineage… Third, it introduces a new form of intentionality into evolution'.",
+      "hint": "Prof Williams explicitly numbers the three reasons in his answer."
+    },
+    {
+      "id": "q3",
+      "prompt": "What does Prof Williams mean by 'the logic of incremental extension'?",
+      "options": [
+        "A scientific method for testing genetic interventions step by step before clinical application",
+        "A regulatory framework that incrementally expands the permitted scope of genetic research",
+        "A series of individually reasonable steps that collectively traverse a significant moral boundary by extending accepted logic progressively",
+        "The gradual acceleration of the pace of gene editing research over time"
+      ],
+      "answerIndex": 2,
+      "explanation": "Prof Williams describes it as 'a series of individually reasonable steps that collectively traverse a very significant moral boundary', where each step is defensible on previously accepted grounds.",
+      "hint": "The key is the tension between individual steps appearing reasonable and the collective journey crossing a significant line."
+    },
+    {
+      "id": "q4",
+      "prompt": "What specific concern does Prof Williams raise about equity in gene editing beyond unfair distribution?",
+      "options": [
+        "That wealthy countries will patent gene editing technology, preventing lower-income countries from developing it",
+        "That heritable genetic enhancements could create biological inequalities that compound socioeconomic ones across generations and cannot be corrected by social policy",
+        "That high costs will mean only the private sector funds gene editing research, removing public oversight",
+        "That wealthy nations will use gene editing to enhance military capability, creating geopolitical imbalance"
+      ],
+      "answerIndex": 1,
+      "explanation": "Prof Williams warns of 'heritable biological inequalities that compound existing socioeconomic ones across generations' and notes unlike educational advantages, 'heritable genetic advantages cannot be corrected by social policy once they are propagated'.",
+      "hint": "What makes heritable genetic advantages uniquely difficult to address compared to other forms of advantage?"
+    },
+    {
+      "id": "q5",
+      "prompt": "What is Elizabeth Barnes's argument about disability and gene editing?",
+      "options": [
+        "That gene editing should be mandatory for all heritable conditions associated with disability",
+        "That many disability conditions are mere differences rather than deficits, and editing them out reflects ableist assumptions",
+        "That disability conditions are always caused by genetic factors and therefore always susceptible to gene editing",
+        "That the disability community should have veto power over all gene editing research programmes"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text states Barnes argued 'many disability conditions are mere differences, not deficits — and that treating them as targets for elimination reflects and reinforces ableist assumptions rather than neutral medical judgment'.",
+      "hint": "Barnes distinguishes between 'differences' and 'deficits' — what is the significance of this distinction?"
+    },
+    {
+      "id": "q6",
+      "prompt": "Why does Prof Williams describe the current international moratorium as only as 'robust as the number of jurisdictions observing it'?",
+      "options": [
+        "Because the moratorium lacks a scientific basis and may be overturned by peer review",
+        "Because a voluntary international agreement is meaningless if some countries proceed regardless",
+        "Because the moratorium only covers somatic editing, not germline editing",
+        "Because the technology is advancing so rapidly that the moratorium is already obsolete"
+      ],
+      "answerIndex": 1,
+      "explanation": "A moratorium without universal compliance is fragile — if some countries ignore it and proceed with clinical germline editing, the agreement cannot prevent harm.",
+      "hint": "Think about what a moratorium is and why its effectiveness depends on universal compliance."
+    },
+    {
+      "id": "q7",
+      "prompt": "What governance framework does Prof Williams advocate for germline editing?",
+      "options": [
+        "A permanent global ban enforced by international treaty",
+        "Complete deregulation to allow science to advance without political interference",
+        "A framework permitting regulated research with transparent reporting, mandatory review at each extension, and mechanisms for global equity",
+        "A national approach where each country sets its own standards independently"
+      ],
+      "answerIndex": 2,
+      "explanation": "Prof Williams calls for 'carefully regulated research, transparent international reporting, mandatory review at each extension of application, and meaningful mechanisms for global equity — including technology transfer'.",
+      "hint": "Prof Williams describes what he wants in a list — identify each element."
+    },
+    {
+      "id": "q8",
+      "prompt": "What distinction does Prof Williams make between being 'cautiously hopeful' and being 'optimistic'?",
+      "options": [
+        "Optimism is based on evidence while hope is based on personal preference",
+        "Cautious hope acknowledges real risks and concerns while maintaining a positive expectation — it is more epistemically honest than optimism",
+        "Cautious hope means expecting a negative outcome while preparing for a positive one",
+        "The two terms are equivalent and Prof Williams is simply being modest"
+      ],
+      "answerIndex": 1,
+      "explanation": "Prof Williams says he's 'cautiously hopeful, which is different from optimistic', then immediately identifies serious concerns — suggesting cautious hope holds both the positive expectation and the acknowledgement of real dangers simultaneously.",
+      "hint": "Prof Williams immediately qualifies his hope with specific concerns — what does that tell us about the difference?"
+    },
+    {
+      "id": "q9",
+      "prompt": "What does Prof Williams identify as his greatest concern about the future of gene editing governance?",
+      "options": [
+        "The technology itself, which may develop unintended capabilities beyond current understanding",
+        "The lack of scientific expertise within regulatory bodies",
+        "The political economy surrounding the technology: commercial pressures, national competition, and individual scientists moving faster than collective ethical frameworks",
+        "Public opposition to gene editing that may prevent beneficial applications"
+      ],
+      "answerIndex": 2,
+      "explanation": "Prof Williams states: 'What concerns me most is not the technology itself but the political economy surrounding it — the pressure of commercial interests, the competitive dynamics between research programmes in different countries, and the temptation of individual scientists to move faster than the collective ethical framework has sanctioned.'",
+      "hint": "Prof Williams explicitly says what concerns him MOST — and it is NOT the technology itself."
+    },
+    {
+      "id": "q10",
+      "prompt": "Why does the text describe heritable genetic advantages as creating 'a genuinely novel form of inequality'?",
+      "options": [
+        "Because they are invisible to the naked eye and therefore harder to measure than economic inequality",
+        "Because they operate at the molecular level, making legal prohibition technically impossible",
+        "Because they have a biological substrate that social institutions cannot readily redress, unlike educational or economic advantages",
+        "Because they affect future generations who are not yet born and therefore have no legal standing"
+      ],
+      "answerIndex": 2,
+      "explanation": "Dr Chen calls it 'a genuinely novel form of inequality — one that has a biological substrate that social institutions cannot readily redress', contrasting it with economic or educational advantages that social policy can address.",
+      "hint": "What is unique about a biological advantage compared to a social or economic one?"
+    },
+    {
+      "id": "q11",
+      "prompt": "The text says germline editing 'introduces a new form of intentionality into evolution'. What does this mean?",
+      "options": [
+        "That scientists intend to cause harm when they perform germline editing",
+        "That for the first time, humans would be directing evolutionary change by design rather than leaving it to blind natural variation",
+        "That governments intend to use gene editing as a form of social engineering",
+        "That the technology requires intentional effort from the patient, unlike passive treatments"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text contrasts 'the blind variation of natural selection' with 'designed change made by current humans' — germline editing replaces undirected evolution with purposeful human design.",
+      "hint": "Natural selection is 'blind' — what is the opposite of blind variation?"
+    },
+    {
+      "id": "q12",
+      "prompt": "What problem does the text identify with extending the logic that justifies germline editing for fatal childhood conditions?",
+      "options": [
+        "That the science is not sufficiently advanced to reliably edit genes causing fatal conditions",
+        "That fatal conditions are rare and do not justify the development of costly technology",
+        "That each extension appears defensible by the same logic, but the steps collectively traverse a very significant moral boundary",
+        "That families affected by fatal conditions are not adequately represented in governance discussions"
+      ],
+      "answerIndex": 2,
+      "explanation": "Prof Williams describes 'a series of individually reasonable steps that collectively traverse a very significant moral boundary' — the logic that justifies the first application becomes the basis for each subsequent extension.",
+      "hint": "What happens when you apply the same logic repeatedly to increasingly less severe conditions?"
+    },
+    {
+      "id": "q13",
+      "prompt": "How does the dialogue illustrate the difference between a 'slippery slope' argument and what Prof Williams calls 'the logic of incremental extension'?",
+      "options": [
+        "A slippery slope implies irrational descent; incremental extension is a series of individually rational steps that collectively produce a problematic outcome",
+        "A slippery slope is an informal fallacy while incremental extension is a legitimate legal concept",
+        "Prof Williams uses both terms synonymously to describe the same logical structure",
+        "A slippery slope is empirically observable while incremental extension is merely speculative"
+      ],
+      "answerIndex": 0,
+      "explanation": "Prof Williams says he'd use 'the logic of incremental extension' rather than 'slippery slope' because the extension 'is not irrational, it's a series of individually reasonable steps' — the concern is not irrationality but the cumulative moral journey.",
+      "hint": "Prof Williams explicitly corrects Dr Chen's use of 'slippery slope' — what is his reason for preferring a different term?"
+    },
+    {
+      "id": "q14",
+      "prompt": "What does Prof Williams mean by the observation that each extension of gene editing logic 'appears defensible on grounds that were previously accepted'?",
+      "options": [
+        "That legal precedent automatically justifies further applications",
+        "That the same moral argument that justified one step is available to justify the next, making it very hard to draw a principled line once the first step is taken",
+        "That scientific consensus validates each new application before it proceeds",
+        "That regulatory bodies have already accepted all the applications that are currently under discussion"
+      ],
+      "answerIndex": 1,
+      "explanation": "If we accept the argument 'severe suffering justifies intervention' for fatal conditions, the same argument is available for the next category. The accepted logic of the previous step becomes the available justification for the next.",
+      "hint": "If the grounds for step 1 justify step 2, what does that mean for the ability to stop at step 1?"
+    },
+    {
+      "id": "q15",
+      "prompt": "Dr Chen characterises the conversation as having grown 'more sophisticated' over the past ten years. What evidence within the dialogue supports this claim?",
+      "options": [
+        "The participants use more complex scientific terminology than earlier bioethics discussions",
+        "The dialogue engages with multiple philosophical frameworks, disability theory, social justice, consent theory, and governance simultaneously",
+        "The dialogue reaches a clear and agreed-upon conclusion that earlier discussions failed to reach",
+        "The participants have published more academic papers on gene editing than previous generations of bioethicists"
+      ],
+      "answerIndex": 1,
+      "explanation": "The dialogue ranges across: treatment-enhancement distinction, species-typical functioning, consent and irreversibility, slippery slope logic, distributive justice, heritable inequality, disability theory (Barnes), moratorium governance, and political economy — showing multi-framework sophistication.",
+      "hint": "Consider how many different ethical frameworks and perspectives the dialogue incorporates."
+    }
+  ],
+  "cloze": {
+    "template": "The treatment-enhancement distinction in gene editing appears intuitive but is undermined by the contested concept of {{b1}} functioning, which varies across populations and time. Somatic editing affects only the individual; {{b2}} editing passes changes to future generations, raising questions of {{b3}}, irreversibility, and the introduction of intentionality into evolution. The argument for editing fatal childhood conditions has genuine force, but the danger lies in what Prof Williams calls the logic of {{b4}} extension — a series of individually reasonable steps that collectively traverse a significant moral {{b5}}. On equity, heritable genetic {{b6}} available only to the wealthy risk creating biological inequalities that {{b7}} existing socioeconomic ones across generations. Unlike educational advantages, these cannot be corrected by social {{b8}} once they propagate through populations. Disability rights advocates, drawing on philosopher Elizabeth Barnes, argue that many disability conditions are mere {{b9}}, not deficits, and that editing them out reflects {{b10}} assumptions rather than neutral medical judgment. The current international {{b11}} on clinical germline editing is only as strong as the number of jurisdictions observing it. A robust governance framework should permit carefully {{b12}} research, require transparent international reporting, and build in mandatory {{b13}} at each extension of application. It should also create mechanisms for global {{b14}}, including {{b15}} transfer to lower-income countries. Prof Williams is cautiously hopeful but most concerned about the {{b16}} economy surrounding the technology — commercial pressures, national competition, and individual scientists moving faster than the collective ethical framework has sanctioned.",
+    "blanks": [
+      {
+        "id": "b1",
+        "options": [
+          "biological",
+          "species-typical",
+          "normal",
+          "healthy"
+        ],
+        "answerIndex": 1,
+        "explanation": "The treatment-enhancement distinction relies on 'the concept of species-typical functioning'."
+      },
+      {
+        "id": "b2",
+        "options": [
+          "somatic",
+          "therapeutic",
+          "germline",
+          "cellular"
+        ],
+        "answerIndex": 2,
+        "explanation": "The text contrasts somatic editing with 'germline editing', which passes changes to future generations."
+      },
+      {
+        "id": "b3",
+        "options": [
+          "autonomy",
+          "consent",
+          "safety",
+          "privacy"
+        ],
+        "answerIndex": 1,
+        "explanation": "Prof Williams first lists 'consent: future generations cannot consent to heritable changes'."
+      },
+      {
+        "id": "b4",
+        "options": [
+          "step-by-step",
+          "gradual",
+          "incremental",
+          "progressive"
+        ],
+        "answerIndex": 2,
+        "explanation": "Prof Williams uses the term 'incremental extension' rather than 'slippery slope'."
+      },
+      {
+        "id": "b5",
+        "options": [
+          "line",
+          "limit",
+          "threshold",
+          "boundary"
+        ],
+        "answerIndex": 3,
+        "explanation": "The text refers to 'a very significant moral boundary' that the series of steps traverses."
+      },
+      {
+        "id": "b6",
+        "options": [
+          "therapies",
+          "modifications",
+          "enhancements",
+          "advantages"
+        ],
+        "answerIndex": 2,
+        "explanation": "The text discusses 'genetic enhancements' being commercially available to the wealthy."
+      },
+      {
+        "id": "b7",
+        "options": [
+          "worsen",
+          "increase",
+          "compound",
+          "reinforce"
+        ],
+        "answerIndex": 2,
+        "explanation": "The text warns of heritable biological inequalities that 'compound existing socioeconomic ones across generations'."
+      },
+      {
+        "id": "b8",
+        "options": [
+          "legislation",
+          "reform",
+          "intervention",
+          "policy"
+        ],
+        "answerIndex": 3,
+        "explanation": "The text says heritable genetic advantages 'cannot be corrected by social policy once they are propagated'."
+      },
+      {
+        "id": "b9",
+        "options": [
+          "conditions",
+          "variations",
+          "differences",
+          "traits"
+        ],
+        "answerIndex": 2,
+        "explanation": "Elizabeth Barnes argues that many disability conditions are 'mere differences, not deficits'."
+      },
+      {
+        "id": "b10",
+        "options": [
+          "medical",
+          "scientific",
+          "discriminatory",
+          "ableist"
+        ],
+        "answerIndex": 3,
+        "explanation": "The text says editing out disability reflects 'ableist assumptions rather than neutral medical judgment'."
+      },
+      {
+        "id": "b11",
+        "options": [
+          "ban",
+          "treaty",
+          "moratorium",
+          "agreement"
+        ],
+        "answerIndex": 2,
+        "explanation": "The text refers to 'an international moratorium on clinical germline editing'."
+      },
+      {
+        "id": "b12",
+        "options": [
+          "supervised",
+          "controlled",
+          "monitored",
+          "regulated"
+        ],
+        "answerIndex": 3,
+        "explanation": "Prof Williams calls for 'carefully regulated research'."
+      },
+      {
+        "id": "b13",
+        "options": [
+          "evaluation",
+          "assessment",
+          "review",
+          "oversight"
+        ],
+        "answerIndex": 2,
+        "explanation": "The framework should 'build in mandatory review at each extension of application'."
+      },
+      {
+        "id": "b14",
+        "options": [
+          "access",
+          "distribution",
+          "equity",
+          "justice"
+        ],
+        "answerIndex": 2,
+        "explanation": "Prof Williams calls for 'meaningful mechanisms for global equity'."
+      },
+      {
+        "id": "b15",
+        "options": [
+          "knowledge",
+          "research",
+          "technology",
+          "capability"
+        ],
+        "answerIndex": 2,
+        "explanation": "The text mentions 'technology transfer to lower-income countries' as part of equity mechanisms."
+      },
+      {
+        "id": "b16",
+        "options": [
+          "social",
+          "commercial",
+          "political",
+          "research"
+        ],
+        "answerIndex": 2,
+        "explanation": "Prof Williams says 'What concerns me most is… the political economy surrounding it'."
+      }
+    ]
+  },
+  "criticalThinkingQuestion": "Prof Williams argues that germline editing is ethically distinct because it introduces 'intentionality into evolution' — replacing blind natural selection with designed change made by people living now. Does the fact that natural selection has no intention or morality make it a better guide for the genetic future of humanity than deliberate human choice? Or is the real concern not intentionality per se, but the partiality and fallibility of the humans who would exercise that intentionality? And if so, what institutional arrangements, if any, could make intentional evolutionary design sufficiently trustworthy?",
+  "accents": [
+    "en-US",
+    "en-GB"
+  ],
+  "voices": {
+    "Dr Chen": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-AvaNeural"
+    },
+    "Prof Williams": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-GB",
+      "edgeVoice": "en-GB-RyanNeural"
+    }
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Dr Chen",
+      "text": "Thank you for joining me today.",
+      "durationMs": 1872
+    },
+    {
+      "id": "s2",
+      "speaker": "Dr Chen",
+      "text": "I want to start with what seems like a basic question but turns out to be enormously complex: what's the ethical difference between treating a genetic disease and enhancing a genetic trait?",
+      "durationMs": 11256
+    },
+    {
+      "id": "s3",
+      "speaker": "Prof Williams",
+      "text": "The distinction seems intuitive — treatment is about restoring normal function, enhancement is about exceeding it.",
+      "durationMs": 6912
+    },
+    {
+      "id": "s4",
+      "speaker": "Prof Williams",
+      "text": "But under scrutiny, the line dissolves.",
+      "durationMs": 3168
+    },
+    {
+      "id": "s5",
+      "speaker": "Prof Williams",
+      "text": "What counts as normal?",
+      "durationMs": 2136
+    },
+    {
+      "id": "s6",
+      "speaker": "Prof Williams",
+      "text": "Is correcting a gene variant that increases disease risk treatment or prevention?",
+      "durationMs": 5112
+    },
+    {
+      "id": "s7",
+      "speaker": "Prof Williams",
+      "text": "Is adding a variant that confers resistance to a common pathogen treatment or enhancement?",
+      "durationMs": 5448
+    },
+    {
+      "id": "s8",
+      "speaker": "Dr Chen",
+      "text": "So you're suggesting the treatment-enhancement distinction isn't doing the moral work we want it to do?",
+      "durationMs": 5256
+    },
+    {
+      "id": "s9",
+      "speaker": "Prof Williams",
+      "text": "Precisely.",
+      "durationMs": 1776
+    },
+    {
+      "id": "s10",
+      "speaker": "Prof Williams",
+      "text": "It borrows its moral force from the concept of species-typical functioning, but that concept is deeply contested.",
+      "durationMs": 6984
+    },
+    {
+      "id": "s11",
+      "speaker": "Prof Williams",
+      "text": "Species-typical functioning varies continuously across populations, changes over evolutionary time, and differs according to environment.",
+      "durationMs": 8808
+    },
+    {
+      "id": "s12",
+      "speaker": "Prof Williams",
+      "text": "Anchoring an ethics of genetic intervention in it turns out to be shakier than it first appears.",
+      "durationMs": 5640
+    },
+    {
+      "id": "s13",
+      "speaker": "Dr Chen",
+      "text": "Let's move to the germline question.",
+      "durationMs": 2232
+    },
+    {
+      "id": "s14",
+      "speaker": "Dr Chen",
+      "text": "Somatic editing affects only the individual patient.",
+      "durationMs": 3984
+    },
+    {
+      "id": "s15",
+      "speaker": "Dr Chen",
+      "text": "Germline editing passes changes to future generations.",
+      "durationMs": 4032
+    },
+    {
+      "id": "s16",
+      "speaker": "Dr Chen",
+      "text": "Why does that difference matter so much ethically?",
+      "durationMs": 3024
+    },
+    {
+      "id": "s17",
+      "speaker": "Prof Williams",
+      "text": "Several reasons.",
+      "durationMs": 2184
+    },
+    {
+      "id": "s18",
+      "speaker": "Prof Williams",
+      "text": "First, consent: future generations cannot consent to heritable changes made on their behalf.",
+      "durationMs": 6432
+    },
+    {
+      "id": "s19",
+      "speaker": "Prof Williams",
+      "text": "Second, irreversibility: a germline edit propagates through a lineage, potentially for centuries.",
+      "durationMs": 6600
+    },
+    {
+      "id": "s20",
+      "speaker": "Prof Williams",
+      "text": "Third, and most profoundly, it introduces a new form of intentionality into evolution — not the blind variation of natural selection, but designed change made by current humans for reasons that may be parochial, culturally contingent, or simply mistaken.",
+      "durationMs": 15408
+    },
+    {
+      "id": "s21",
+      "speaker": "Dr Chen",
+      "text": "Some scientists argue that germline editing for serious diseases is justified precisely because the affected child would otherwise have faced severe suffering.",
+      "durationMs": 9960
+    },
+    {
+      "id": "s22",
+      "speaker": "Dr Chen",
+      "text": "What's your response to that argument?",
+      "durationMs": 2184
+    },
+    {
+      "id": "s23",
+      "speaker": "Prof Williams",
+      "text": "It has genuine force in severe cases.",
+      "durationMs": 3384
+    },
+    {
+      "id": "s24",
+      "speaker": "Prof Williams",
+      "text": "If a couple carries two copies of a gene that causes a fatal childhood condition, editing the germline to prevent transmission appears straightforwardly humane.",
+      "durationMs": 8832
+    },
+    {
+      "id": "s25",
+      "speaker": "Prof Williams",
+      "text": "The difficulty arises when this logic is extended step by step — first severe fatal conditions, then serious chronic conditions, then conditions with variable expression, then predispositions, then traits.",
+      "durationMs": 12912
+    },
+    {
+      "id": "s26",
+      "speaker": "Dr Chen",
+      "text": "The slippery slope.",
+      "durationMs": 1704
+    },
+    {
+      "id": "s27",
+      "speaker": "Prof Williams",
+      "text": "Yes, though I'd call it the logic of incremental extension rather than a slope — it's not irrational, it's a series of individually reasonable steps that collectively traverse a very significant moral boundary.",
+      "durationMs": 11376
+    },
+    {
+      "id": "s28",
+      "speaker": "Prof Williams",
+      "text": "What makes this particularly hard to handle is that each individual step in the extension appears defensible on grounds that were previously accepted.",
+      "durationMs": 8184
+    },
+    {
+      "id": "s29",
+      "speaker": "Dr Chen",
+      "text": "What about the equity dimension?",
+      "durationMs": 2064
+    },
+    {
+      "id": "s30",
+      "speaker": "Dr Chen",
+      "text": "Gene editing technologies are expensive to develop and will initially be accessible only to wealthy individuals and wealthy nations.",
+      "durationMs": 8016
+    },
+    {
+      "id": "s31",
+      "speaker": "Dr Chen",
+      "text": "Doesn't that concern you enormously?",
+      "durationMs": 2136
+    },
+    {
+      "id": "s32",
+      "speaker": "Prof Williams",
+      "text": "It concerns me enormously — and not just because of justice in distribution.",
+      "durationMs": 4992
+    },
+    {
+      "id": "s33",
+      "speaker": "Prof Williams",
+      "text": "If genetic enhancements are commercially available to those who can afford them, we risk creating heritable biological inequalities that compound existing socioeconomic ones across generations.",
+      "durationMs": 11376
+    },
+    {
+      "id": "s34",
+      "speaker": "Prof Williams",
+      "text": "Unlike educational or economic advantages, heritable genetic advantages cannot be corrected by social policy once they are propagated through populations.",
+      "durationMs": 9576
+    },
+    {
+      "id": "s35",
+      "speaker": "Dr Chen",
+      "text": "That's a genuinely novel form of inequality — one that has a biological substrate that social institutions cannot readily redress.",
+      "durationMs": 8448
+    },
+    {
+      "id": "s36",
+      "speaker": "Prof Williams",
+      "text": "Exactly.",
+      "durationMs": 1704
+    },
+    {
+      "id": "s37",
+      "speaker": "Prof Williams",
+      "text": "And there's a further concern.",
+      "durationMs": 2448
+    },
+    {
+      "id": "s38",
+      "speaker": "Prof Williams",
+      "text": "Disability rights advocates have argued that the very project of editing out genetic variants associated with disability implies a judgement about the worth of people living with those conditions.",
+      "durationMs": 10248
+    },
+    {
+      "id": "s39",
+      "speaker": "Prof Williams",
+      "text": "The philosopher Elizabeth Barnes has argued that many disability conditions are mere differences, not deficits — and that treating them as targets for elimination reflects and reinforces ableist assumptions rather than neutral medical judgment.",
+      "durationMs": 13272
+    },
+    {
+      "id": "s40",
+      "speaker": "Dr Chen",
+      "text": "How should governance frameworks respond to all of this?",
+      "durationMs": 3360
+    },
+    {
+      "id": "s41",
+      "speaker": "Dr Chen",
+      "text": "We have an international moratorium on clinical germline editing at present, but that's only as robust as the number of jurisdictions observing it.",
+      "durationMs": 8832
+    },
+    {
+      "id": "s42",
+      "speaker": "Prof Williams",
+      "text": "The governance problem is real and genuinely difficult.",
+      "durationMs": 3720
+    },
+    {
+      "id": "s43",
+      "speaker": "Prof Williams",
+      "text": "What we need is not a permanent ban but a framework that permits carefully regulated research, requires transparent international reporting, builds in mandatory review at each extension of application, and creates meaningful mechanisms for global equity — including technology transfer to lower-income countries and representation of diverse populations in governance bodies.",
+      "durationMs": 20712
+    },
+    {
+      "id": "s44",
+      "speaker": "Dr Chen",
+      "text": "One final question: are you optimistic?",
+      "durationMs": 2880
+    },
+    {
+      "id": "s45",
+      "speaker": "Prof Williams",
+      "text": "I'm cautiously hopeful, which is different from optimistic.",
+      "durationMs": 4008
+    },
+    {
+      "id": "s46",
+      "speaker": "Prof Williams",
+      "text": "The science is moving faster than our governance capacity, but the ethical conversation is more sophisticated than it was even ten years ago.",
+      "durationMs": 8184
+    },
+    {
+      "id": "s47",
+      "speaker": "Prof Williams",
+      "text": "What concerns me most is not the technology itself but the political economy surrounding it — the pressure of commercial interests, the competitive dynamics between research programmes in different countries, and the temptation of individual scientists to move faster than the collective ethical framework has sanctioned.",
+      "durationMs": 16800
+    }
+  ],
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/listening-c1-016",
+    "manifestVersion": 1
+  },
+  "totalDurationMs": 309576
+}

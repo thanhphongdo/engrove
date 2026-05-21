@@ -206,7 +206,7 @@ _GIT_NO_CRED = {"GIT_TERMINAL_PROMPT": "0"}
 def git_net(cmd: list[str], cwd: Path) -> str:
     """Run a git+network command with the system credential helper disabled."""
     assert cmd[0] == "git"
-    full_cmd = ["git", "-c", "credential.helper="] + cmd[1:]
+    full_cmd = ["git", "-c", "credential.helper=", "-c", "http.postBuffer=524288000"] + cmd[1:]
     r = subprocess.run(
         full_cmd, cwd=cwd, check=True, text=True, capture_output=True,
         env={**os.environ, **_GIT_NO_CRED},

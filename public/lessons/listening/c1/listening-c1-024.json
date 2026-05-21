@@ -1,0 +1,878 @@
+{
+  "id": "listening-c1-024",
+  "level": "C1",
+  "title": "Digital Privacy: A Legal Seminar",
+  "summary": "A law professor and a student discuss the legal frameworks governing digital privacy, examining the tensions between surveillance capitalism, data protection regulation, and fundamental rights in the digital age.",
+  "format": "dialogue",
+  "body": [
+    {
+      "speaker": "Professor",
+      "text": "I want to begin by challenging something most people take for granted. When we speak of digital privacy as a legal right, we are implicitly claiming that individuals have a cognisable interest in controlling information about themselves — but why should law protect that interest rather than leaving it to markets?"
+    },
+    {
+      "speaker": "Student",
+      "text": "I suppose the market argument would be that users can consent to data collection in exchange for free services, and that competition between platforms creates pressure to offer better privacy terms. But the problem is that this model assumes genuinely informed consent, and the evidence suggests people don't actually read privacy policies or understand what they're agreeing to."
+    },
+    {
+      "speaker": "Professor",
+      "text": "Exactly right. The consent framework collapses under scrutiny because consent to a 200-page terms-of-service document is not meaningfully voluntary. This was one of the motivating insights behind the GDPR — the General Data Protection Regulation — which attempted to operationalise consent as something that must be freely given, specific, informed, and unambiguous. The key innovation was reversing the default: instead of users having to opt out of data collection, controllers must obtain affirmative opt-in consent."
+    },
+    {
+      "speaker": "Student",
+      "text": "The GDPR also introduced the right to erasure — sometimes called the right to be forgotten. That seems philosophically significant. It recognises that people have an ongoing interest in controlling their digital footprint, not just at the moment of initial disclosure."
+    },
+    {
+      "speaker": "Professor",
+      "text": "It does, and it also generates significant tensions. The right to erasure conflicts with the public's legitimate interest in accessing accurate historical information. The seminal case here is Google Spain v AEPD, decided by the Court of Justice of the European Union in 2014, in which the court held that individuals can request search engines to delist links to information about them even if that information was originally published lawfully. Critics argued this created a mechanism for rewriting history; defenders responded that individuals should not be permanently defined by their past."
+    },
+    {
+      "speaker": "Student",
+      "text": "How does the GDPR compare with the US approach? My understanding is that the United States lacks a comprehensive federal privacy law and relies instead on a sectoral model."
+    },
+    {
+      "speaker": "Professor",
+      "text": "That is correct, and the divergence is quite striking. The US framework is fragmented: HIPAA covers health data, FERPA covers educational records, the CCPA operates at state level in California. What is absent is a unified baseline establishing that individuals have a fundamental right to privacy in their data. The US approach reflects a constitutional tradition that treats privacy primarily as a right against government intrusion — the Fourth Amendment prohibits unreasonable searches — but offers little protection against private actors, who are largely regulated by contract and tort law."
+    },
+    {
+      "speaker": "Student",
+      "text": "So the difference is really a philosophical one about the source of the threat to privacy. In the European framework, both state and corporate actors are potential threats. In the US model, the primary threat is conceived as governmental."
+    },
+    {
+      "speaker": "Professor",
+      "text": "That is a perceptive observation, and it maps onto a deeper political philosophy distinction. The European approach draws on continental traditions — Kantian dignity, the German Basic Law's protection of informational self-determination articulated in the 1983 Census Case — that treat privacy as constitutive of personhood rather than merely instrumental to it. On this view, to subject a person to pervasive surveillance is to treat them as an object of administration rather than a subject of rights, regardless of whether the information is ever used against them."
+    },
+    {
+      "speaker": "Student",
+      "text": "That connects to the chilling effect argument. Even if surveillance data is never actually deployed, the mere knowledge that one is being observed changes behaviour — people self-censor, avoid controversial associations, and conform to perceived norms."
+    },
+    {
+      "speaker": "Professor",
+      "text": "Precisely. And this is where surveillance capitalism, as Shoshana Zuboff has theorised it, becomes directly relevant to legal analysis. Zuboff argues that behavioural modification — not merely data collection — is the actual product of the digital economy. Platforms are not simply monetising your data; they are engineering your choices and desires through micro-targeted nudges. If that account is accurate, then the harm is not just informational but volitional: it undermines the autonomy that makes genuine consent possible in the first place."
+    },
+    {
+      "speaker": "Student",
+      "text": "Which creates a rather vicious circle for consent-based frameworks. The very mechanisms that require consent also systematically erode the capacity for autonomous choice on which consent depends."
+    },
+    {
+      "speaker": "Professor",
+      "text": "Precisely. Which is why some theorists argue for moving beyond consent altogether — toward structural regulation that prohibits certain data practices regardless of consent, much as employment law prohibits certain contractual terms even when both parties agree. The question is whether we have the political will and regulatory capacity to implement such an approach at the speed required to keep pace with technological change."
+    },
+    {
+      "speaker": "Student",
+      "text": "Given the global nature of data flows, isn't there also a problem of regulatory arbitrage? Companies can route data through jurisdictions with weaker protections."
+    },
+    {
+      "speaker": "Professor",
+      "text": "That is the central enforcement challenge, and it has led to what scholars call the Brussels Effect: the tendency for GDPR standards to become de facto global standards because multinational companies find it operationally simpler to apply the strictest regime everywhere rather than maintaining jurisdiction-specific systems. Whether that constitutes a genuine export of European values or merely a compliance shortcut is a contested question. But it illustrates a broader truth: in a world of borderless data flows, privacy law cannot be purely domestic. The next frontier is international treaty frameworks — and we are only at the beginning of that process."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Professor",
+      "text": "I want to begin by challenging something most people take for granted.",
+      "durationMs": 4368
+    },
+    {
+      "id": "s2",
+      "speaker": "Professor",
+      "text": "When we speak of digital privacy as a legal right, we are implicitly claiming that individuals have a cognisable interest in controlling information about themselves — but why should law protect that interest rather than leaving it to markets?",
+      "durationMs": 13560
+    },
+    {
+      "id": "s3",
+      "speaker": "Student",
+      "text": "I suppose the market argument would be that users can consent to data collection in exchange for free services, and that competition between platforms creates pressure to offer better privacy terms.",
+      "durationMs": 10992
+    },
+    {
+      "id": "s4",
+      "speaker": "Student",
+      "text": "But the problem is that this model assumes genuinely informed consent, and the evidence suggests people don't actually read privacy policies or understand what they're agreeing to.",
+      "durationMs": 9888
+    },
+    {
+      "id": "s5",
+      "speaker": "Professor",
+      "text": "Exactly right. The consent framework collapses under scrutiny because consent to a 200-page terms-of-service document is not meaningfully voluntary.",
+      "durationMs": 10104
+    },
+    {
+      "id": "s6",
+      "speaker": "Professor",
+      "text": "This was one of the motivating insights behind the GDPR — the General Data Protection Regulation — which attempted to operationalise consent as something that must be freely given, specific, informed, and unambiguous.",
+      "durationMs": 13656
+    },
+    {
+      "id": "s7",
+      "speaker": "Professor",
+      "text": "The key innovation was reversing the default: instead of users having to opt out of data collection, controllers must obtain affirmative opt-in consent.",
+      "durationMs": 9144
+    },
+    {
+      "id": "s8",
+      "speaker": "Student",
+      "text": "The GDPR also introduced the right to erasure — sometimes called the right to be forgotten.",
+      "durationMs": 6024
+    },
+    {
+      "id": "s9",
+      "speaker": "Student",
+      "text": "That seems philosophically significant. It recognises that people have an ongoing interest in controlling their digital footprint, not just at the moment of initial disclosure.",
+      "durationMs": 10608
+    },
+    {
+      "id": "s10",
+      "speaker": "Professor",
+      "text": "It does, and it also generates significant tensions. The right to erasure conflicts with the public's legitimate interest in accessing accurate historical information.",
+      "durationMs": 11088
+    },
+    {
+      "id": "s11",
+      "speaker": "Professor",
+      "text": "The seminal case here is Google Spain v AEPD, decided by the Court of Justice of the European Union in 2014, in which the court held that individuals can request search engines to delist links to information about them even if that information was originally published lawfully.",
+      "durationMs": 16920
+    },
+    {
+      "id": "s12",
+      "speaker": "Professor",
+      "text": "Critics argued this created a mechanism for rewriting history; defenders responded that individuals should not be permanently defined by their past.",
+      "durationMs": 9024
+    },
+    {
+      "id": "s13",
+      "speaker": "Student",
+      "text": "How does the GDPR compare with the US approach?",
+      "durationMs": 3816
+    },
+    {
+      "id": "s14",
+      "speaker": "Student",
+      "text": "My understanding is that the United States lacks a comprehensive federal privacy law and relies instead on a sectoral model.",
+      "durationMs": 7320
+    },
+    {
+      "id": "s15",
+      "speaker": "Professor",
+      "text": "That is correct, and the divergence is quite striking.",
+      "durationMs": 3912
+    },
+    {
+      "id": "s16",
+      "speaker": "Professor",
+      "text": "The US framework is fragmented: HIPAA covers health data, FERPA covers educational records, the CCPA operates at state level in California.",
+      "durationMs": 9576
+    },
+    {
+      "id": "s17",
+      "speaker": "Professor",
+      "text": "What is absent is a unified baseline establishing that individuals have a fundamental right to privacy in their data.",
+      "durationMs": 7032
+    },
+    {
+      "id": "s18",
+      "speaker": "Professor",
+      "text": "The US approach reflects a constitutional tradition that treats privacy primarily as a right against government intrusion — the Fourth Amendment prohibits unreasonable searches — but offers little protection against private actors, who are largely regulated by contract and tort law.",
+      "durationMs": 16536
+    },
+    {
+      "id": "s19",
+      "speaker": "Student",
+      "text": "So the difference is really a philosophical one about the source of the threat to privacy.",
+      "durationMs": 5016
+    },
+    {
+      "id": "s20",
+      "speaker": "Student",
+      "text": "In the European framework, both state and corporate actors are potential threats. In the US model, the primary threat is conceived as governmental.",
+      "durationMs": 9744
+    },
+    {
+      "id": "s21",
+      "speaker": "Professor",
+      "text": "That is a perceptive observation, and it maps onto a deeper political philosophy distinction.",
+      "durationMs": 6024
+    },
+    {
+      "id": "s22",
+      "speaker": "Professor",
+      "text": "The European approach draws on continental traditions — Kantian dignity, the German Basic Law's protection of informational self-determination articulated in the 1983 Census Case — that treat privacy as constitutive of personhood rather than merely instrumental to it.",
+      "durationMs": 17016
+    },
+    {
+      "id": "s23",
+      "speaker": "Professor",
+      "text": "On this view, to subject a person to pervasive surveillance is to treat them as an object of administration rather than a subject of rights, regardless of whether the information is ever used against them.",
+      "durationMs": 11928
+    },
+    {
+      "id": "s24",
+      "speaker": "Student",
+      "text": "That connects to the chilling effect argument.",
+      "durationMs": 3000
+    },
+    {
+      "id": "s25",
+      "speaker": "Student",
+      "text": "Even if surveillance data is never actually deployed, the mere knowledge that one is being observed changes behaviour — people self-censor, avoid controversial associations, and conform to perceived norms.",
+      "durationMs": 12336
+    },
+    {
+      "id": "s26",
+      "speaker": "Professor",
+      "text": "Precisely. And this is where surveillance capitalism, as Shoshana Zuboff has theorised it, becomes directly relevant to legal analysis.",
+      "durationMs": 9720
+    },
+    {
+      "id": "s27",
+      "speaker": "Professor",
+      "text": "Zuboff argues that behavioural modification — not merely data collection — is the actual product of the digital economy.",
+      "durationMs": 7776
+    },
+    {
+      "id": "s28",
+      "speaker": "Professor",
+      "text": "Platforms are not simply monetising your data; they are engineering your choices and desires through micro-targeted nudges.",
+      "durationMs": 7392
+    },
+    {
+      "id": "s29",
+      "speaker": "Professor",
+      "text": "If that account is accurate, then the harm is not just informational but volitional: it undermines the autonomy that makes genuine consent possible in the first place.",
+      "durationMs": 9864
+    },
+    {
+      "id": "s30",
+      "speaker": "Student",
+      "text": "Which creates a rather vicious circle for consent-based frameworks.",
+      "durationMs": 4440
+    },
+    {
+      "id": "s31",
+      "speaker": "Student",
+      "text": "The very mechanisms that require consent also systematically erode the capacity for autonomous choice on which consent depends.",
+      "durationMs": 7488
+    },
+    {
+      "id": "s32",
+      "speaker": "Professor",
+      "text": "Precisely. Which is why some theorists argue for moving beyond consent altogether — toward structural regulation that prohibits certain data practices regardless of consent, much as employment law prohibits certain contractual terms even when both parties agree.",
+      "durationMs": 16176
+    },
+    {
+      "id": "s33",
+      "speaker": "Professor",
+      "text": "The question is whether we have the political will and regulatory capacity to implement such an approach at the speed required to keep pace with technological change.",
+      "durationMs": 9408
+    },
+    {
+      "id": "s34",
+      "speaker": "Student",
+      "text": "Given the global nature of data flows, isn't there also a problem of regulatory arbitrage? Companies can route data through jurisdictions with weaker protections.",
+      "durationMs": 10536
+    },
+    {
+      "id": "s35",
+      "speaker": "Professor",
+      "text": "That is the central enforcement challenge, and it has led to what scholars call the Brussels Effect: the tendency for GDPR standards to become de facto global standards because multinational companies find it operationally simpler to apply the strictest regime everywhere rather than maintaining jurisdiction-specific systems.",
+      "durationMs": 18312
+    },
+    {
+      "id": "s36",
+      "speaker": "Professor",
+      "text": "Whether that constitutes a genuine export of European values or merely a compliance shortcut is a contested question.",
+      "durationMs": 7392
+    },
+    {
+      "id": "s37",
+      "speaker": "Professor",
+      "text": "But it illustrates a broader truth: in a world of borderless data flows, privacy law cannot be purely domestic.",
+      "durationMs": 7416
+    },
+    {
+      "id": "s38",
+      "speaker": "Professor",
+      "text": "The next frontier is international treaty frameworks — and we are only at the beginning of that process.",
+      "durationMs": 6432
+    }
+  ],
+  "voices": {
+    "Professor": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-JennyNeural"
+    },
+    "Student": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-GB",
+      "edgeVoice": "en-GB-ThomasNeural"
+    }
+  },
+  "accents": [
+    "en-US",
+    "en-GB"
+  ],
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/listening-c1-024",
+    "manifestVersion": 1
+  },
+  "tags": [
+    "digital privacy",
+    "law",
+    "GDPR",
+    "data protection",
+    "surveillance capitalism",
+    "legal seminar"
+  ],
+  "annotations": [
+    {
+      "phrase": "cognisable interest",
+      "meaningVi": "lợi ích được pháp luật công nhận",
+      "pronunciation": "/ˈkɒɡnɪzəbl ˈɪntrəst/",
+      "exampleEn": "The court recognised a cognisable interest in the confidentiality of medical records."
+    },
+    {
+      "phrase": "consent framework",
+      "meaningVi": "khung pháp lý dựa trên sự đồng ý",
+      "pronunciation": "/kənˈsent ˈfreɪmwɜːk/",
+      "exampleEn": "Critics argue that the consent framework fails when power imbalances make refusal impossible."
+    },
+    {
+      "phrase": "GDPR",
+      "meaningVi": "Quy định Bảo vệ Dữ liệu Chung của Liên minh Châu Âu",
+      "pronunciation": "/ˌdʒiː diː piː ˈɑːr/",
+      "exampleEn": "Under the GDPR, companies must disclose their data retention policies clearly."
+    },
+    {
+      "phrase": "operationalise",
+      "meaningVi": "đưa vào thực tiễn, biến thành quy trình hoạt động cụ thể",
+      "pronunciation": "/ˌɒpəˈreɪʃnəlaɪz/",
+      "exampleEn": "The challenge is to operationalise abstract principles of fairness in concrete legal rules."
+    },
+    {
+      "phrase": "affirmative opt-in consent",
+      "meaningVi": "sự đồng ý chủ động tham gia",
+      "pronunciation": "/əˈfɜːmətɪv ɒpt ɪn kənˈsent/",
+      "exampleEn": "The regulation requires affirmative opt-in consent before any personal data is processed."
+    },
+    {
+      "phrase": "right to erasure",
+      "meaningVi": "quyền xóa dữ liệu cá nhân",
+      "pronunciation": "/raɪt tuː ɪˈreɪʒə/",
+      "exampleEn": "She exercised her right to erasure to remove outdated medical information from online databases."
+    },
+    {
+      "phrase": "digital footprint",
+      "meaningVi": "dấu chân kỹ thuật số, dữ liệu hoạt động trực tuyến",
+      "pronunciation": "/ˈdɪdʒɪtl ˈfʊtprɪnt/",
+      "exampleEn": "Every search query and social media post adds to your digital footprint."
+    },
+    {
+      "phrase": "delist",
+      "meaningVi": "xóa khỏi danh sách, gỡ khỏi kết quả tìm kiếm",
+      "pronunciation": "/diːˈlɪst/",
+      "exampleEn": "The court ordered the search engine to delist links to the outdated news article."
+    },
+    {
+      "phrase": "sectoral model",
+      "meaningVi": "mô hình theo ngành, quy định riêng từng lĩnh vực",
+      "pronunciation": "/ˈsektərəl ˈmɒdl/",
+      "exampleEn": "The US sectoral model regulates health data, financial data, and children's data under separate statutes."
+    },
+    {
+      "phrase": "Fourth Amendment",
+      "meaningVi": "Tu chính án thứ Tư (Hiến pháp Mỹ, bảo vệ khỏi khám xét vô lý)",
+      "pronunciation": "/fɔːrθ əˈmendmənt/",
+      "exampleEn": "The Fourth Amendment protects citizens from unreasonable searches and seizures by the government."
+    },
+    {
+      "phrase": "informational self-determination",
+      "meaningVi": "quyền tự quyết về thông tin cá nhân",
+      "pronunciation": "/ˌɪnfəˈmeɪʃnl self dɪˌtɜːmɪˈneɪʃn/",
+      "exampleEn": "Informational self-determination is recognised as a fundamental right in German constitutional law."
+    },
+    {
+      "phrase": "chilling effect",
+      "meaningVi": "hiệu ứng răn đe, làm hạn chế tự do hành động",
+      "pronunciation": "/ˈtʃɪlɪŋ ɪˈfekt/",
+      "exampleEn": "Broad surveillance powers can have a chilling effect on freedom of expression and association."
+    },
+    {
+      "phrase": "surveillance capitalism",
+      "meaningVi": "chủ nghĩa tư bản giám sát",
+      "pronunciation": "/səˈveɪləns ˈkæpɪtəlɪzəm/",
+      "exampleEn": "Zuboff's analysis of surveillance capitalism examines how tech companies profit from behavioural prediction."
+    },
+    {
+      "phrase": "volitional",
+      "meaningVi": "thuộc về ý chí, ý muốn",
+      "pronunciation": "/vəˈlɪʃənl/",
+      "exampleEn": "The harm is not merely financial but volitional — it undermines the capacity for free choice."
+    },
+    {
+      "phrase": "regulatory arbitrage",
+      "meaningVi": "lợi dụng sự khác biệt quy định giữa các quốc gia",
+      "pronunciation": "/ˈreɡjələtəri ˈɑːbɪtrɑːʒ/",
+      "exampleEn": "Multinational corporations engage in regulatory arbitrage by locating data centres in permissive jurisdictions."
+    },
+    {
+      "phrase": "Brussels Effect",
+      "meaningVi": "Hiệu ứng Brussels (tiêu chuẩn châu Âu lan rộng toàn cầu)",
+      "pronunciation": "/ˈbrʌslz ɪˈfekt/",
+      "exampleEn": "The Brussels Effect means that GDPR has raised privacy standards even in countries outside the EU."
+    },
+    {
+      "phrase": "de facto",
+      "meaningVi": "trên thực tế (dù không được quy định chính thức)",
+      "pronunciation": "/deɪ ˈfæktəʊ/",
+      "exampleEn": "The company's data practices became de facto industry standards through its market dominance."
+    },
+    {
+      "phrase": "micro-targeted nudges",
+      "meaningVi": "các tác động nhỏ nhắm vào cá nhân cụ thể",
+      "pronunciation": "/ˈmaɪkrəʊ ˈtɑːɡɪtɪd ˈnʌdʒɪz/",
+      "exampleEn": "Advertisers use micro-targeted nudges to influence purchasing decisions without users' awareness."
+    },
+    {
+      "phrase": "structural regulation",
+      "meaningVi": "quy định cấu trúc (cấm hành vi bất kể sự đồng ý)",
+      "pronunciation": "/ˈstrʌktʃərəl ˌreɡjʊˈleɪʃn/",
+      "exampleEn": "Structural regulation bans certain practices outright rather than relying on disclosure or consent."
+    },
+    {
+      "phrase": "tort law",
+      "meaningVi": "luật bồi thường thiệt hại dân sự",
+      "pronunciation": "/tɔːt lɔː/",
+      "exampleEn": "Privacy breaches by private companies may give rise to claims under tort law for negligence."
+    },
+    {
+      "phrase": "seminal case",
+      "meaningVi": "án lệ có tính nền tảng, mang tính tiên phong",
+      "pronunciation": "/ˈsemɪnl keɪs/",
+      "exampleEn": "Brown v Board of Education is a seminal case in US civil rights law."
+    },
+    {
+      "phrase": "vicious circle",
+      "meaningVi": "vòng luẩn quẩn",
+      "pronunciation": "/ˈvɪʃəs ˈsɜːkl/",
+      "exampleEn": "Poverty and poor health form a vicious circle that is difficult to break."
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Advanced Passive Constructions in Legal and Academic Discourse",
+      "bodyVi": "Trong văn phong pháp lý và học thuật, thể bị động (passive voice) được dùng nhiều để tập trung vào hành động và đối tượng bị ảnh hưởng hơn là chủ thể thực hiện. Ví dụ trong bài: 'What is absent is a unified baseline' (đảo ngữ bị động), 'the threat is conceived as governmental' (bị động trạng thái), 'privacy is constituted as a right'. Đặc biệt, cấu trúc 'What + be + past participle' ('What is absent', 'What is required') kết hợp mệnh đề quan hệ với bị động để tạo nhấn mạnh.",
+      "bodyEn": "Advanced passive constructions in legal English often combine inversion, cleft structure, and passive voice: 'What is absent is a unified baseline…' This wh-cleft passive places the missing element in focus. Similarly, 'the primary threat is conceived as governmental' uses a passive of cognition to represent a widespread belief without attributing it to a specific source. These constructions signal formal, objective register appropriate to legal analysis."
+    },
+    {
+      "title": "Cleft Sentences with 'What' for Academic Argumentation",
+      "bodyVi": "Cấu trúc tách câu với 'what' ('what-cleft') được dùng để nhấn mạnh một phần cụ thể của mệnh đề. Ví dụ: 'What is absent is a unified baseline' (nhấn mạnh điều còn thiếu), 'What Zuboff argues is that behavioural modification is the actual product' (nhấn mạnh lập luận của Zuboff). Cấu trúc này đặc biệt hiệu quả khi muốn phân biệt giữa cái hiển nhiên và cái thực sự được tranh luận. So sánh: 'Zuboff argues that X' vs 'What Zuboff argues is X' — câu sau nhấn mạnh rằng đây chính là điểm cốt lõi.",
+      "bodyEn": "Wh-cleft sentences ('What X is Y') foreground the predicate as the new, significant information. In academic dialogue: 'What is absent is a unified baseline' — the cleft isolates the absence as the key analytical point. This structure is productive for disagreement ('What the GDPR does is reverse the default, not merely codify existing practice') and for drawing distinctions ('What matters is not the volume of data but the purpose for which it is used')."
+    }
+  ],
+  "translationVi": "Giáo sư bắt đầu bằng cách đặt câu hỏi tại sao luật pháp nên bảo vệ quyền riêng tư kỹ thuật số thay vì để thị trường quyết định. Sinh viên chỉ ra vấn đề của mô hình đồng ý dựa trên thị trường: mọi người không thực sự đọc chính sách bảo mật. Giáo sư giải thích cách GDPR cách mạng hóa điều này bằng cách yêu cầu sự đồng ý chủ động, cụ thể, có thông tin và rõ ràng. Họ thảo luận về quyền xóa dữ liệu và vụ kiện Google Spain năm 2014 — căng thẳng giữa quyền riêng tư cá nhân và lợi ích thông tin công cộng. Mô hình theo ngành của Mỹ (HIPAA, FERPA, CCPA) được đặt tương phản với cách tiếp cận châu Âu dựa trên nhân phẩm Kantian và quyền tự quyết về thông tin theo phán quyết Điều tra Dân số năm 1983 của Đức. Giáo sư giới thiệu lý thuyết chủ nghĩa tư bản giám sát của Zuboff, lập luận rằng thiệt hại không chỉ là thông tin mà còn là volitional — phá hoại tính tự chủ vốn làm cho sự đồng ý thực sự trở nên khả thi. Cuối cùng họ thảo luận về trọng tài pháp lý và Hiệu ứng Brussels — xu hướng các tiêu chuẩn GDPR trở thành tiêu chuẩn toàn cầu thực tế.",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What is the fundamental problem with applying a market-based consent framework to digital privacy, according to the student?",
+      "options": [
+        "Markets always prioritise profit over user welfare",
+        "Competition between platforms actually reduces privacy standards",
+        "The model assumes genuinely informed consent, but people do not read or understand privacy policies",
+        "Free services are inherently incompatible with any form of data protection"
+      ],
+      "answerIndex": 2,
+      "explanation": "'The problem is that this model assumes genuinely informed consent, and the evidence suggests people don't actually read privacy policies or understand what they're agreeing to.'",
+      "hint": "The issue is about the quality of consent, not the existence of markets."
+    },
+    {
+      "id": "q2",
+      "prompt": "What was the 'key innovation' of the GDPR regarding consent, as described by the professor?",
+      "options": [
+        "Requiring all privacy policies to be written in plain language under 500 words",
+        "Reversing the default so that controllers must obtain affirmative opt-in consent",
+        "Allowing users to sell their data directly to companies",
+        "Creating a uniform global privacy standard applicable outside the EU"
+      ],
+      "answerIndex": 1,
+      "explanation": "'The key innovation was reversing the default: instead of users having to opt out of data collection, controllers must obtain affirmative opt-in consent.'",
+      "hint": "Think about the direction of the default — who must act first?"
+    },
+    {
+      "id": "q3",
+      "prompt": "What legal tension does the right to erasure create, according to the professor?",
+      "options": [
+        "It conflicts with government surveillance powers under national security law",
+        "It conflicts with the public's legitimate interest in accessing accurate historical information",
+        "It is incompatible with the freedom of contract guaranteed by commercial law",
+        "It undermines the ability of law enforcement to investigate past crimes"
+      ],
+      "answerIndex": 1,
+      "explanation": "'The right to erasure conflicts with the public's legitimate interest in accessing accurate historical information.'",
+      "hint": "The tension involves two legitimate interests on opposite sides."
+    },
+    {
+      "id": "q4",
+      "prompt": "What did the Court of Justice of the EU rule in Google Spain v AEPD (2014)?",
+      "options": [
+        "Search engines are not liable for third-party content they index",
+        "Individuals can request search engines to delist links even if the information was originally published lawfully",
+        "The right to be forgotten applies only to information published after the GDPR came into force",
+        "Only governments, not private companies, are bound by privacy obligations under EU law"
+      ],
+      "answerIndex": 1,
+      "explanation": "'The court held that individuals can request search engines to delist links to information about them even if that information was originally published lawfully.'",
+      "hint": "The key word is 'even if'."
+    },
+    {
+      "id": "q5",
+      "prompt": "How does the US approach to privacy protection differ most fundamentally from the European approach?",
+      "options": [
+        "The US has stricter penalties for data breaches than the EU",
+        "The US treats privacy primarily as protection against government intrusion with little protection against private actors",
+        "The US has a single comprehensive federal privacy statute covering all sectors",
+        "The US approach is based on Kantian dignity rather than constitutional rights"
+      ],
+      "answerIndex": 1,
+      "explanation": "'The US approach reflects a constitutional tradition that treats privacy primarily as a right against government intrusion… but offers little protection against private actors.'",
+      "hint": "Consider who the primary 'threat' to privacy is conceived to be."
+    },
+    {
+      "id": "q6",
+      "prompt": "What is the German constitutional concept of 'informational self-determination' and how does the professor use it?",
+      "options": [
+        "The right of corporations to control information about their products",
+        "A right articulated in the 1983 Census Case treating privacy as constitutive of personhood",
+        "The principle that governments may collect census data without individual consent",
+        "A concept requiring all digital data to be stored within national borders"
+      ],
+      "answerIndex": 1,
+      "explanation": "'The European approach draws on… the German Basic Law's protection of informational self-determination articulated in the 1983 Census Case — that treat privacy as constitutive of personhood rather than merely instrumental to it.'",
+      "hint": "The professor uses this to contrast European and US philosophical foundations."
+    },
+    {
+      "id": "q7",
+      "prompt": "What is the 'chilling effect' argument as described in the dialogue?",
+      "options": [
+        "Surveillance technology literally slows down internet connections",
+        "Cold weather reduces online activity and therefore data collection",
+        "The knowledge that one is being observed changes behaviour — people self-censor and conform",
+        "Legal threats from tech companies discourage privacy advocates from speaking publicly"
+      ],
+      "answerIndex": 2,
+      "explanation": "'Even if surveillance data is never actually deployed, the mere knowledge that one is being observed changes behaviour — people self-censor, avoid controversial associations, and conform to perceived norms.'",
+      "hint": "The effect does not require the data to be used — it operates through awareness."
+    },
+    {
+      "id": "q8",
+      "prompt": "According to Zuboff's theory of surveillance capitalism, what is the 'actual product' of the digital economy?",
+      "options": [
+        "Personal data sold to advertisers",
+        "Free digital services subsidised by advertising revenue",
+        "Behavioural modification through micro-targeted nudges",
+        "Computational infrastructure rented to governments and corporations"
+      ],
+      "answerIndex": 2,
+      "explanation": "'Zuboff argues that behavioural modification — not merely data collection — is the actual product of the digital economy.'",
+      "hint": "The professor distinguishes between what most people think the product is and what Zuboff claims."
+    },
+    {
+      "id": "q9",
+      "prompt": "Why does the student describe consent-based frameworks as creating a 'vicious circle'?",
+      "options": [
+        "Obtaining consent is too expensive for small companies to afford",
+        "The mechanisms that require consent also erode the autonomous capacity on which genuine consent depends",
+        "Consent requirements encourage users to share more data than they would otherwise",
+        "Regulators cannot verify whether consent was actually given freely"
+      ],
+      "answerIndex": 1,
+      "explanation": "'The very mechanisms that require consent also systematically erode the capacity for autonomous choice on which consent depends.'",
+      "hint": "The circle involves the relationship between the consent requirement and the condition for genuine consent."
+    },
+    {
+      "id": "q10",
+      "prompt": "What alternative to consent-based frameworks does the professor describe?",
+      "options": [
+        "Allowing individuals to monetise their own data directly",
+        "Structural regulation that prohibits certain data practices regardless of consent",
+        "Voluntary industry codes enforced through reputational mechanisms",
+        "Mandatory privacy impact assessments for all digital services"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Some theorists argue for moving beyond consent altogether — toward structural regulation that prohibits certain data practices regardless of consent, much as employment law prohibits certain contractual terms even when both parties agree.'",
+      "hint": "The professor draws an analogy to employment law."
+    },
+    {
+      "id": "q11",
+      "prompt": "What is 'regulatory arbitrage' in the context of digital privacy, as raised by the student?",
+      "options": [
+        "Governments competing to attract tech companies through lower corporate tax rates",
+        "Companies routing data through jurisdictions with weaker protections to avoid stricter regulations",
+        "International arbitration panels resolving disputes between privacy regulators",
+        "Users choosing platforms based on the strength of privacy protections offered"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Companies can route data through jurisdictions with weaker protections' — this is the regulatory arbitrage problem.",
+      "hint": "Arbitrage generally involves exploiting differences between systems."
+    },
+    {
+      "id": "q12",
+      "prompt": "What is the 'Brussels Effect' as described by the professor?",
+      "options": [
+        "The tendency of EU member states to lobby against stricter privacy regulation",
+        "GDPR standards becoming de facto global standards because multinationals apply the strictest regime everywhere",
+        "The EU's failure to enforce GDPR against major US technology companies",
+        "Brussels-based lobbying that shaped GDPR to favour large corporations"
+      ],
+      "answerIndex": 1,
+      "explanation": "'The Brussels Effect: the tendency for GDPR standards to become de facto global standards because multinational companies find it operationally simpler to apply the strictest regime everywhere.'",
+      "hint": "The effect operates through corporate compliance decisions, not government mandate."
+    },
+    {
+      "id": "q13",
+      "prompt": "According to the professor, what philosophical view underpins the European approach to privacy — treating it as constitutive of personhood?",
+      "options": [
+        "Utilitarian calculation that privacy maximises aggregate social welfare",
+        "A Kantian dignity tradition in which surveillance treats persons as objects of administration rather than subjects of rights",
+        "A libertarian tradition that opposes all government and corporate intervention in individual affairs",
+        "A communitarian view that privacy must be balanced against collective security needs"
+      ],
+      "answerIndex": 1,
+      "explanation": "'To subject a person to pervasive surveillance is to treat them as an object of administration rather than a subject of rights' — this Kantian framing treats privacy as constitutive of personhood.",
+      "hint": "The key distinction is between person-as-subject and person-as-object."
+    },
+    {
+      "id": "q14",
+      "prompt": "What does the professor identify as the key unresolved challenge for structural privacy regulation?",
+      "options": [
+        "The lack of technical standards for measuring privacy violations",
+        "Public indifference to privacy issues despite widespread surveillance",
+        "Whether there is political will and regulatory capacity to implement it at the speed of technological change",
+        "The impossibility of enforcing data protection rights across international borders"
+      ],
+      "answerIndex": 2,
+      "explanation": "'The question is whether we have the political will and regulatory capacity to implement such an approach at the speed required to keep pace with technological change.'",
+      "hint": "Two factors are identified — will and capacity."
+    },
+    {
+      "id": "q15",
+      "prompt": "What does the professor say is the 'next frontier' for privacy law?",
+      "options": [
+        "Artificial intelligence regulation within the EU single market",
+        "International treaty frameworks for borderless data flows",
+        "The expansion of the GDPR to cover algorithmic decision-making",
+        "Consumer class action lawsuits against data brokers"
+      ],
+      "answerIndex": 1,
+      "explanation": "'The next frontier is international treaty frameworks — and we are only at the beginning of that process.'",
+      "hint": "The professor notes that borderless data flows require a non-domestic response."
+    }
+  ],
+  "cloze": {
+    "template": "When we speak of digital privacy as a legal right, we claim individuals have a {{b1}} interest in controlling information about themselves. The {{b2}} framework collapses because consent to a 200-page terms-of-service document is not meaningfully {{b3}}. The GDPR's key innovation was reversing the {{b4}}: controllers must obtain {{b5}} opt-in consent. The right to {{b6}} — sometimes called the right to be forgotten — creates tensions with the public's interest in accurate historical information. The {{b7}} case is Google Spain v AEPD, in which individuals can request search engines to {{b8}} links about them. The US relies on a {{b9}} model, with HIPAA covering health data and FERPA covering educational records. The European approach draws on {{b10}} dignity and the German concept of informational {{b11}}. Pervasive surveillance treats persons as objects of {{b12}} rather than subjects of rights. The {{b13}} effect shows how the mere knowledge of being watched changes behaviour and causes people to {{b14}}. Zuboff argues that {{b15}} modification — not data collection — is the actual product of the digital economy. This creates a {{b16}} circle: the mechanisms requiring consent erode the {{b17}} that makes genuine consent possible. The Brussels {{b18}} describes how GDPR standards become de facto global standards.",
+    "blanks": [
+      {
+        "id": "b1",
+        "options": [
+          "cognisable",
+          "commercial",
+          "political",
+          "personal"
+        ],
+        "answerIndex": 0,
+        "explanation": "'A cognisable interest' is one recognised and protectable by law."
+      },
+      {
+        "id": "b2",
+        "options": [
+          "consent",
+          "market",
+          "legal",
+          "sectoral"
+        ],
+        "answerIndex": 0,
+        "explanation": "'The consent framework collapses under scrutiny' — it cannot bear the weight placed on it."
+      },
+      {
+        "id": "b3",
+        "options": [
+          "voluntary",
+          "informed",
+          "specific",
+          "meaningful"
+        ],
+        "answerIndex": 0,
+        "explanation": "'Not meaningfully voluntary' — the economic and informational imbalances make refusal practically impossible."
+      },
+      {
+        "id": "b4",
+        "options": [
+          "default",
+          "framework",
+          "standard",
+          "process"
+        ],
+        "answerIndex": 0,
+        "explanation": "'Reversing the default' — changing what happens if no explicit choice is made."
+      },
+      {
+        "id": "b5",
+        "options": [
+          "affirmative",
+          "explicit",
+          "voluntary",
+          "written"
+        ],
+        "answerIndex": 0,
+        "explanation": "'Affirmative opt-in consent' requires a positive act, not passive non-objection."
+      },
+      {
+        "id": "b6",
+        "options": [
+          "erasure",
+          "access",
+          "portability",
+          "rectification"
+        ],
+        "answerIndex": 0,
+        "explanation": "'The right to erasure' — to have personal data deleted from systems."
+      },
+      {
+        "id": "b7",
+        "options": [
+          "seminal",
+          "landmark",
+          "foundational",
+          "influential"
+        ],
+        "answerIndex": 0,
+        "explanation": "'The seminal case' — the foundational precedent that established key principles."
+      },
+      {
+        "id": "b8",
+        "options": [
+          "delist",
+          "remove",
+          "suppress",
+          "delete"
+        ],
+        "answerIndex": 0,
+        "explanation": "'Delist links' — remove URLs from search results without deleting the original content."
+      },
+      {
+        "id": "b9",
+        "options": [
+          "sectoral",
+          "fragmented",
+          "federal",
+          "constitutional"
+        ],
+        "answerIndex": 0,
+        "explanation": "'A sectoral model' regulates different industries under separate, sector-specific statutes."
+      },
+      {
+        "id": "b10",
+        "options": [
+          "Kantian",
+          "Hegelian",
+          "Utilitarian",
+          "Liberal"
+        ],
+        "answerIndex": 0,
+        "explanation": "'Kantian dignity' — Immanuel Kant's principle that persons must be treated as ends in themselves."
+      },
+      {
+        "id": "b11",
+        "options": [
+          "self-determination",
+          "autonomy",
+          "sovereignty",
+          "independence"
+        ],
+        "answerIndex": 0,
+        "explanation": "'Informational self-determination' — the right to control how information about oneself is used."
+      },
+      {
+        "id": "b12",
+        "options": [
+          "administration",
+          "surveillance",
+          "control",
+          "regulation"
+        ],
+        "answerIndex": 0,
+        "explanation": "'Objects of administration' — managed and processed rather than respected as autonomous agents."
+      },
+      {
+        "id": "b13",
+        "options": [
+          "chilling",
+          "deterrent",
+          "panopticon",
+          "surveillance"
+        ],
+        "answerIndex": 0,
+        "explanation": "'The chilling effect' — the suppression of lawful behaviour caused by the awareness of surveillance."
+      },
+      {
+        "id": "b14",
+        "options": [
+          "self-censor",
+          "conform",
+          "withdraw",
+          "comply"
+        ],
+        "answerIndex": 0,
+        "explanation": "'People self-censor' — they modify their expression not because of direct punishment but anticipated scrutiny."
+      },
+      {
+        "id": "b15",
+        "options": [
+          "behavioural",
+          "data",
+          "social",
+          "cognitive"
+        ],
+        "answerIndex": 0,
+        "explanation": "'Behavioural modification' is Zuboff's key term for what surveillance capitalism actually produces."
+      },
+      {
+        "id": "b16",
+        "options": [
+          "vicious",
+          "feedback",
+          "regulatory",
+          "paradoxical"
+        ],
+        "answerIndex": 0,
+        "explanation": "'A vicious circle' — each element worsens the other in a self-reinforcing loop."
+      },
+      {
+        "id": "b17",
+        "options": [
+          "autonomy",
+          "capacity",
+          "freedom",
+          "rationality"
+        ],
+        "answerIndex": 0,
+        "explanation": "'The autonomy that makes genuine consent possible' — without autonomous choice, consent is meaningless."
+      },
+      {
+        "id": "b18",
+        "options": [
+          "Effect",
+          "Standard",
+          "Model",
+          "Approach"
+        ],
+        "answerIndex": 0,
+        "explanation": "'The Brussels Effect' — the global spread of EU regulatory standards through multinational corporate compliance."
+      }
+    ]
+  },
+  "criticalThinkingQuestion": "The professor suggests moving 'beyond consent' toward structural regulation that bans certain data practices regardless of individual agreement — analogous to how employment law prohibits certain contractual terms even when both parties consent. Critically evaluate this analogy: in what ways does it hold, and in what ways does it break down? What are the strongest arguments for and against replacing consent-based privacy frameworks with prohibition-based ones, and what risks does each approach carry for individual freedom and democratic governance?",
+  "totalDurationMs": 360984
+}

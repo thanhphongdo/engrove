@@ -5,7 +5,11 @@
   "summary": "A student describes his daily bus ride to school — the familiar faces he sees, the sounds around him, and how the journey makes him feel each morning.",
   "format": "paragraph",
   "body": "Every morning, I walk to the bus stop at the end of my street. The bus comes at seven forty-five. I always stand near the shelter so I can stay dry when it rains. When the bus arrives, I get on and find a seat by the window. I like the window seat because I can watch the town go by. The driver is a friendly man who always says good morning to everyone. The bus is usually quite busy. There are students from my school and some adults going to work. An old man always sits in the front row with a newspaper. Two girls from my class always sit together and chat quietly. I usually listen to music on my phone. The ride is about twenty minutes long. When we get close to school, I put my phone away and get ready. Sometimes I feel a little nervous about the day. But when I see my friends at the school gate, I always feel better. The bus ride is my favourite part of the morning.",
-  "tags": ["school", "transport", "daily life"],
+  "tags": [
+    "school",
+    "transport",
+    "daily life"
+  ],
   "annotations": [
     {
       "phrase": "bus stop",
@@ -97,7 +101,12 @@
     {
       "id": "q1",
       "prompt": "What time does the bus arrive?",
-      "options": ["7:15", "7:30", "7:45", "8:00"],
+      "options": [
+        "7:15",
+        "7:30",
+        "7:45",
+        "8:00"
+      ],
       "answerIndex": 2,
       "explanation": "The story says 'The bus comes at seven forty-five.'",
       "hint": "Look for the specific time mentioned in the story."
@@ -105,7 +114,12 @@
     {
       "id": "q2",
       "prompt": "Why does the student stand near the shelter?",
-      "options": ["To see the bus coming", "To stay dry when it rains", "To talk to other students", "To save a seat"],
+      "options": [
+        "To see the bus coming",
+        "To stay dry when it rains",
+        "To talk to other students",
+        "To save a seat"
+      ],
       "answerIndex": 1,
       "explanation": "The story says 'I always stand near the shelter so I can stay dry when it rains.'",
       "hint": "What happens at the bus stop when it rains?"
@@ -113,7 +127,12 @@
     {
       "id": "q3",
       "prompt": "Why does the student prefer a window seat?",
-      "options": ["It is more comfortable", "He can see his friends outside", "He can watch the town go by", "It is closer to the door"],
+      "options": [
+        "It is more comfortable",
+        "He can see his friends outside",
+        "He can watch the town go by",
+        "It is closer to the door"
+      ],
       "answerIndex": 2,
       "explanation": "The story says 'I like the window seat because I can watch the town go by.'",
       "hint": "What does the student enjoy seeing through the window?"
@@ -121,7 +140,12 @@
     {
       "id": "q4",
       "prompt": "What does the bus driver do every morning?",
-      "options": ["He plays music", "He offers newspapers", "He says good morning to everyone", "He tells people where to sit"],
+      "options": [
+        "He plays music",
+        "He offers newspapers",
+        "He says good morning to everyone",
+        "He tells people where to sit"
+      ],
       "answerIndex": 2,
       "explanation": "The story says 'The driver is a friendly man who always says good morning to everyone.'",
       "hint": "How does the driver greet passengers?"
@@ -129,7 +153,12 @@
     {
       "id": "q5",
       "prompt": "Who sits in the front row?",
-      "options": ["Two students from school", "The student's friends", "An old man with a newspaper", "An old woman with a book"],
+      "options": [
+        "Two students from school",
+        "The student's friends",
+        "An old man with a newspaper",
+        "An old woman with a book"
+      ],
       "answerIndex": 2,
       "explanation": "The story says 'An old man always sits in the front row with a newspaper.'",
       "hint": "Who is the regular front-row passenger?"
@@ -137,7 +166,12 @@
     {
       "id": "q6",
       "prompt": "What do the two girls from his class do on the bus?",
-      "options": ["Listen to music", "Read books", "Sleep", "Chat quietly"],
+      "options": [
+        "Listen to music",
+        "Read books",
+        "Sleep",
+        "Chat quietly"
+      ],
       "answerIndex": 3,
       "explanation": "The story says 'Two girls from my class always sit together and chat quietly.'",
       "hint": "What do the two classmates do during the ride?"
@@ -145,7 +179,12 @@
     {
       "id": "q7",
       "prompt": "What does the student do during the bus ride?",
-      "options": ["Read a book", "Do his homework", "Listen to music on his phone", "Talk to friends"],
+      "options": [
+        "Read a book",
+        "Do his homework",
+        "Listen to music on his phone",
+        "Talk to friends"
+      ],
       "answerIndex": 2,
       "explanation": "The story says 'I usually listen to music on my phone.'",
       "hint": "How does the student pass the time on the bus?"
@@ -153,7 +192,12 @@
     {
       "id": "q8",
       "prompt": "How long is the bus ride?",
-      "options": ["Ten minutes", "Fifteen minutes", "Twenty minutes", "Thirty minutes"],
+      "options": [
+        "Ten minutes",
+        "Fifteen minutes",
+        "Twenty minutes",
+        "Thirty minutes"
+      ],
       "answerIndex": 2,
       "explanation": "The story says 'The ride is about twenty minutes long.'",
       "hint": "How many minutes is the journey?"
@@ -161,7 +205,12 @@
     {
       "id": "q9",
       "prompt": "How does the student sometimes feel before arriving at school?",
-      "options": ["Excited", "Tired", "Nervous", "Bored"],
+      "options": [
+        "Excited",
+        "Tired",
+        "Nervous",
+        "Bored"
+      ],
       "answerIndex": 2,
       "explanation": "The story says 'Sometimes I feel a little nervous about the day.'",
       "hint": "What emotion does the student occasionally feel near school?"
@@ -169,7 +218,12 @@
     {
       "id": "q10",
       "prompt": "What makes the student feel better when he arrives?",
-      "options": ["Seeing his teacher", "Hearing the school bell", "Seeing his friends at the school gate", "Finding his classroom"],
+      "options": [
+        "Seeing his teacher",
+        "Hearing the school bell",
+        "Seeing his friends at the school gate",
+        "Finding his classroom"
+      ],
       "answerIndex": 2,
       "explanation": "The story says 'when I see my friends at the school gate, I always feel better.'",
       "hint": "Who or what cheers the student up at the end of the journey?"
@@ -177,7 +231,12 @@
     {
       "id": "q11",
       "prompt": "Which part of the morning does the student like most?",
-      "options": ["Waking up", "Eating breakfast", "The bus ride", "Arriving at school"],
+      "options": [
+        "Waking up",
+        "Eating breakfast",
+        "The bus ride",
+        "Arriving at school"
+      ],
       "answerIndex": 2,
       "explanation": "The story says 'The bus ride is my favourite part of the morning.'",
       "hint": "What does the student call his 'favourite' part?"
@@ -188,96 +247,229 @@
     "blanks": [
       {
         "id": "b1",
-        "options": ["gate", "shelter", "corner", "wall"],
+        "options": [
+          "gate",
+          "shelter",
+          "corner",
+          "wall"
+        ],
         "answerIndex": 1,
         "explanation": "A bus stop 'shelter' is the covered area that protects people from rain."
       },
       {
         "id": "b2",
-        "options": ["door", "aisle", "window", "exit"],
+        "options": [
+          "door",
+          "aisle",
+          "window",
+          "exit"
+        ],
         "answerIndex": 2,
         "explanation": "A 'window seat' is a seat next to the window — great for watching outside."
       },
       {
         "id": "b3",
-        "options": ["quiet", "strict", "tall", "friendly"],
+        "options": [
+          "quiet",
+          "strict",
+          "tall",
+          "friendly"
+        ],
         "answerIndex": 3,
         "explanation": "The driver is described as 'friendly' because he greets everyone warmly."
       },
       {
         "id": "b4",
-        "options": ["empty", "quiet", "loud", "busy"],
+        "options": [
+          "empty",
+          "quiet",
+          "loud",
+          "busy"
+        ],
         "answerIndex": 3,
         "explanation": "'Quite busy' means there are a lot of people on the bus."
       },
       {
         "id": "b5",
-        "options": ["book", "bag", "tablet", "newspaper"],
+        "options": [
+          "book",
+          "bag",
+          "tablet",
+          "newspaper"
+        ],
         "answerIndex": 3,
         "explanation": "The old man reads a 'newspaper' — a printed daily news publication."
       },
       {
         "id": "b6",
-        "options": ["argue", "chat", "study", "sleep"],
+        "options": [
+          "argue",
+          "chat",
+          "study",
+          "sleep"
+        ],
         "answerIndex": 1,
         "explanation": "'Chat' means to have a friendly, informal conversation."
       },
       {
         "id": "b7",
-        "options": ["podcasts", "music", "videos", "news"],
+        "options": [
+          "podcasts",
+          "music",
+          "videos",
+          "news"
+        ],
         "answerIndex": 1,
         "explanation": "The story says the student 'listens to music on his phone' during the ride."
       },
       {
         "id": "b8",
-        "options": ["excited", "happy", "nervous", "angry"],
+        "options": [
+          "excited",
+          "happy",
+          "nervous",
+          "angry"
+        ],
         "answerIndex": 2,
         "explanation": "'Nervous' means slightly anxious or worried — often felt before something new."
       },
       {
         "id": "b9",
-        "options": ["door", "yard", "garden", "gate"],
+        "options": [
+          "door",
+          "yard",
+          "garden",
+          "gate"
+        ],
         "answerIndex": 3,
         "explanation": "The 'school gate' is the entrance to the school — a familiar meeting point."
       },
       {
         "id": "b10",
-        "options": ["longest", "hardest", "favourite", "busiest"],
+        "options": [
+          "longest",
+          "hardest",
+          "favourite",
+          "busiest"
+        ],
         "answerIndex": 2,
         "explanation": "'Favourite' means the thing you like the most — here the bus ride is the best part of his morning."
       }
     ]
   },
   "criticalThinkingQuestion": "The student says the bus ride is his favourite part of the morning, even though he sometimes feels nervous about the day. Why might a journey — not the destination — be the best part of someone's day? Have you ever felt this way?",
-  "accents": ["en-US"],
+  "accents": [
+    "en-US"
+  ],
   "voices": {
     "Narrator": {
       "sex": "male",
       "age": "adult",
       "accent": "en-US",
-      "edgeVoice": "en-US-TonyNeural"
+      "edgeVoice": "en-US-EricNeural"
     }
   },
   "sentences": [
-    {"id": "s1", "speaker": "Narrator", "text": "Every morning, I walk to the bus stop at the end of my street."},
-    {"id": "s2", "speaker": "Narrator", "text": "The bus comes at seven forty-five."},
-    {"id": "s3", "speaker": "Narrator", "text": "I always stand near the shelter so I can stay dry when it rains."},
-    {"id": "s4", "speaker": "Narrator", "text": "When the bus arrives, I get on and find a seat by the window."},
-    {"id": "s5", "speaker": "Narrator", "text": "I like the window seat because I can watch the town go by."},
-    {"id": "s6", "speaker": "Narrator", "text": "The driver is a friendly man who always says good morning to everyone."},
-    {"id": "s7", "speaker": "Narrator", "text": "The bus is usually quite busy."},
-    {"id": "s8", "speaker": "Narrator", "text": "There are students from my school and some adults going to work."},
-    {"id": "s9", "speaker": "Narrator", "text": "An old man always sits in the front row with a newspaper."},
-    {"id": "s10", "speaker": "Narrator", "text": "Two girls from my class always sit together and chat quietly."},
-    {"id": "s11", "speaker": "Narrator", "text": "I usually listen to music on my phone."},
-    {"id": "s12", "speaker": "Narrator", "text": "The ride is about twenty minutes long."},
-    {"id": "s13", "speaker": "Narrator", "text": "When we get close to school, I put my phone away and get ready."},
-    {"id": "s14", "speaker": "Narrator", "text": "Sometimes I feel a little nervous about the day."},
-    {"id": "s15", "speaker": "Narrator", "text": "But when I see my friends at the school gate, I always feel better."},
-    {"id": "s16", "speaker": "Narrator", "text": "The bus ride is my favourite part of the morning."}
+    {
+      "id": "s1",
+      "speaker": "Narrator",
+      "text": "Every morning, I walk to the bus stop at the end of my street.",
+      "durationMs": 4296
+    },
+    {
+      "id": "s2",
+      "speaker": "Narrator",
+      "text": "The bus comes at seven forty-five.",
+      "durationMs": 3096
+    },
+    {
+      "id": "s3",
+      "speaker": "Narrator",
+      "text": "I always stand near the shelter so I can stay dry when it rains.",
+      "durationMs": 4656
+    },
+    {
+      "id": "s4",
+      "speaker": "Narrator",
+      "text": "When the bus arrives, I get on and find a seat by the window.",
+      "durationMs": 4584
+    },
+    {
+      "id": "s5",
+      "speaker": "Narrator",
+      "text": "I like the window seat because I can watch the town go by.",
+      "durationMs": 4128
+    },
+    {
+      "id": "s6",
+      "speaker": "Narrator",
+      "text": "The driver is a friendly man who always says good morning to everyone.",
+      "durationMs": 4632
+    },
+    {
+      "id": "s7",
+      "speaker": "Narrator",
+      "text": "The bus is usually quite busy.",
+      "durationMs": 2856
+    },
+    {
+      "id": "s8",
+      "speaker": "Narrator",
+      "text": "There are students from my school and some adults going to work.",
+      "durationMs": 4008
+    },
+    {
+      "id": "s9",
+      "speaker": "Narrator",
+      "text": "An old man always sits in the front row with a newspaper.",
+      "durationMs": 4104
+    },
+    {
+      "id": "s10",
+      "speaker": "Narrator",
+      "text": "Two girls from my class always sit together and chat quietly.",
+      "durationMs": 4416
+    },
+    {
+      "id": "s11",
+      "speaker": "Narrator",
+      "text": "I usually listen to music on my phone.",
+      "durationMs": 3216
+    },
+    {
+      "id": "s12",
+      "speaker": "Narrator",
+      "text": "The ride is about twenty minutes long.",
+      "durationMs": 3048
+    },
+    {
+      "id": "s13",
+      "speaker": "Narrator",
+      "text": "When we get close to school, I put my phone away and get ready.",
+      "durationMs": 4416
+    },
+    {
+      "id": "s14",
+      "speaker": "Narrator",
+      "text": "Sometimes I feel a little nervous about the day.",
+      "durationMs": 3504
+    },
+    {
+      "id": "s15",
+      "speaker": "Narrator",
+      "text": "But when I see my friends at the school gate, I always feel better.",
+      "durationMs": 4464
+    },
+    {
+      "id": "s16",
+      "speaker": "Narrator",
+      "text": "The bus ride is my favourite part of the morning.",
+      "durationMs": 3408
+    }
   ],
   "audio": {
     "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/listening-a1-006",
     "manifestVersion": 1
-  }
+  },
+  "totalDurationMs": 62832
 }

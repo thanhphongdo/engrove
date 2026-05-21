@@ -5,25 +5,80 @@
   "summary": "A patient calls a doctor's clinic to book an appointment. The receptionist asks about her symptoms and availability and finds a suitable time for her to come in.",
   "format": "dialogue",
   "body": [
-    {"speaker": "Receptionist", "text": "Good morning, Greenwood Medical Centre. How can I help you?"},
-    {"speaker": "Patient", "text": "Hello, I'd like to make an appointment to see a doctor, please."},
-    {"speaker": "Receptionist", "text": "Of course. Are you a registered patient with us?"},
-    {"speaker": "Patient", "text": "Yes, I am. My name is Sarah Browne. B-R-O-W-N-E."},
-    {"speaker": "Receptionist", "text": "Thank you, I can see your details here. Can I ask what the appointment is for?"},
-    {"speaker": "Patient", "text": "I've had a sore throat and a headache for the past three days. I'm also feeling quite tired."},
-    {"speaker": "Receptionist", "text": "I'm sorry to hear that. Is this urgent, or would a routine appointment be fine?"},
-    {"speaker": "Patient", "text": "It's not an emergency, but I'd rather not wait too long."},
-    {"speaker": "Receptionist", "text": "Understood. We have an available slot tomorrow at ten fifteen in the morning. Would that work for you?"},
-    {"speaker": "Patient", "text": "Tomorrow morning is perfect. Which doctor will I be seeing?"},
-    {"speaker": "Receptionist", "text": "You'll be seeing Dr Patel. She's very good."},
-    {"speaker": "Patient", "text": "That's fine. Is there anything I should bring with me?"},
-    {"speaker": "Receptionist", "text": "Just your patient ID card if you have it. If not, we can look you up on the system."},
-    {"speaker": "Patient", "text": "Great, I'll bring it. And where exactly is the clinic? I've never been before."},
-    {"speaker": "Receptionist", "text": "We're at fourteen Oak Road, just opposite the post office."},
-    {"speaker": "Patient", "text": "Perfect. Thank you so much for your help."},
-    {"speaker": "Receptionist", "text": "You're welcome. I hope you feel better soon. See you tomorrow at ten fifteen."}
+    {
+      "speaker": "Receptionist",
+      "text": "Good morning, Greenwood Medical Centre. How can I help you?"
+    },
+    {
+      "speaker": "Patient",
+      "text": "Hello, I'd like to make an appointment to see a doctor, please."
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "Of course. Are you a registered patient with us?"
+    },
+    {
+      "speaker": "Patient",
+      "text": "Yes, I am. My name is Sarah Browne. B-R-O-W-N-E."
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "Thank you, I can see your details here. Can I ask what the appointment is for?"
+    },
+    {
+      "speaker": "Patient",
+      "text": "I've had a sore throat and a headache for the past three days. I'm also feeling quite tired."
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "I'm sorry to hear that. Is this urgent, or would a routine appointment be fine?"
+    },
+    {
+      "speaker": "Patient",
+      "text": "It's not an emergency, but I'd rather not wait too long."
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "Understood. We have an available slot tomorrow at ten fifteen in the morning. Would that work for you?"
+    },
+    {
+      "speaker": "Patient",
+      "text": "Tomorrow morning is perfect. Which doctor will I be seeing?"
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "You'll be seeing Dr Patel. She's very good."
+    },
+    {
+      "speaker": "Patient",
+      "text": "That's fine. Is there anything I should bring with me?"
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "Just your patient ID card if you have it. If not, we can look you up on the system."
+    },
+    {
+      "speaker": "Patient",
+      "text": "Great, I'll bring it. And where exactly is the clinic? I've never been before."
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "We're at fourteen Oak Road, just opposite the post office."
+    },
+    {
+      "speaker": "Patient",
+      "text": "Perfect. Thank you so much for your help."
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "You're welcome. I hope you feel better soon. See you tomorrow at ten fifteen."
+    }
   ],
-  "tags": ["health", "doctor", "everyday life"],
+  "tags": [
+    "health",
+    "doctor",
+    "everyday life"
+  ],
   "annotations": [
     {
       "phrase": "registered patient",
@@ -115,7 +170,12 @@
     {
       "id": "q1",
       "prompt": "What is the name of the medical centre?",
-      "options": ["Riverside Medical Centre", "Oak Road Clinic", "Greenwood Medical Centre", "City Health Centre"],
+      "options": [
+        "Riverside Medical Centre",
+        "Oak Road Clinic",
+        "Greenwood Medical Centre",
+        "City Health Centre"
+      ],
       "answerIndex": 2,
       "explanation": "The receptionist answers: 'Good morning, Greenwood Medical Centre.'",
       "hint": "The receptionist says it in her opening greeting."
@@ -123,7 +183,12 @@
     {
       "id": "q2",
       "prompt": "What is the patient's name?",
-      "options": ["Sarah Barnes", "Sandra Brown", "Sarah Browne", "Sharon Burns"],
+      "options": [
+        "Sarah Barnes",
+        "Sandra Brown",
+        "Sarah Browne",
+        "Sharon Burns"
+      ],
       "answerIndex": 2,
       "explanation": "The patient says 'My name is Sarah Browne. B-R-O-W-N-E.'",
       "hint": "She spells out her surname carefully."
@@ -131,7 +196,12 @@
     {
       "id": "q3",
       "prompt": "What symptoms does the patient have?",
-      "options": ["A cough, a fever, and a rash", "A sore throat, a headache, and tiredness", "Back pain and dizziness", "A blocked nose and earache"],
+      "options": [
+        "A cough, a fever, and a rash",
+        "A sore throat, a headache, and tiredness",
+        "Back pain and dizziness",
+        "A blocked nose and earache"
+      ],
       "answerIndex": 1,
       "explanation": "She says 'I've had a sore throat and a headache for the past three days. I'm also feeling quite tired.'",
       "hint": "Three symptoms are listed."
@@ -139,7 +209,12 @@
     {
       "id": "q4",
       "prompt": "How long has she had these symptoms?",
-      "options": ["One day", "Two days", "Three days", "A week"],
+      "options": [
+        "One day",
+        "Two days",
+        "Three days",
+        "A week"
+      ],
       "answerIndex": 2,
       "explanation": "'I've had a sore throat and a headache for the past three days.'",
       "hint": "The duration is mentioned directly after the symptoms."
@@ -147,7 +222,12 @@
     {
       "id": "q5",
       "prompt": "Is the patient's situation an emergency?",
-      "options": ["Yes, she needs to be seen immediately", "No, but she would rather not wait too long", "Yes, she has a high fever", "No, she is happy to wait a week"],
+      "options": [
+        "Yes, she needs to be seen immediately",
+        "No, but she would rather not wait too long",
+        "Yes, she has a high fever",
+        "No, she is happy to wait a week"
+      ],
       "answerIndex": 1,
       "explanation": "She says 'It's not an emergency, but I'd rather not wait too long.'",
       "hint": "She describes it as not an emergency but still somewhat urgent."
@@ -155,7 +235,12 @@
     {
       "id": "q6",
       "prompt": "What time is the available appointment slot?",
-      "options": ["Ten o'clock", "Ten fifteen", "Ten thirty", "Eleven o'clock"],
+      "options": [
+        "Ten o'clock",
+        "Ten fifteen",
+        "Ten thirty",
+        "Eleven o'clock"
+      ],
       "answerIndex": 1,
       "explanation": "The receptionist says 'tomorrow at ten fifteen in the morning.'",
       "hint": "The time is given precisely — it is not on the hour."
@@ -163,7 +248,12 @@
     {
       "id": "q7",
       "prompt": "Which doctor will the patient see?",
-      "options": ["Dr Brown", "Dr Green", "Dr Smith", "Dr Patel"],
+      "options": [
+        "Dr Brown",
+        "Dr Green",
+        "Dr Smith",
+        "Dr Patel"
+      ],
       "answerIndex": 3,
       "explanation": "'You'll be seeing Dr Patel.'",
       "hint": "The receptionist names the doctor and gives a brief positive comment."
@@ -171,7 +261,12 @@
     {
       "id": "q8",
       "prompt": "What does the receptionist tell the patient to bring?",
-      "options": ["A list of her medications", "Her insurance card", "Her patient ID card", "A photo ID such as a passport"],
+      "options": [
+        "A list of her medications",
+        "Her insurance card",
+        "Her patient ID card",
+        "A photo ID such as a passport"
+      ],
       "answerIndex": 2,
       "explanation": "'Just your patient ID card if you have it.'",
       "hint": "It is something specifically for the clinic."
@@ -179,7 +274,12 @@
     {
       "id": "q9",
       "prompt": "What happens if the patient doesn't have her ID card?",
-      "options": ["She cannot be seen", "She must book a new appointment", "She will be asked to pay a fee", "They can look her up on the system"],
+      "options": [
+        "She cannot be seen",
+        "She must book a new appointment",
+        "She will be asked to pay a fee",
+        "They can look her up on the system"
+      ],
       "answerIndex": 3,
       "explanation": "'If not, we can look you up on the system.'",
       "hint": "The receptionist offers a flexible alternative."
@@ -187,7 +287,12 @@
     {
       "id": "q10",
       "prompt": "What is the clinic's address?",
-      "options": ["4 Oak Road", "14 Oak Road", "40 Oak Road", "41 Oak Road"],
+      "options": [
+        "4 Oak Road",
+        "14 Oak Road",
+        "40 Oak Road",
+        "41 Oak Road"
+      ],
       "answerIndex": 1,
       "explanation": "'We're at fourteen Oak Road.'",
       "hint": "A number and a road name are given."
@@ -195,7 +300,12 @@
     {
       "id": "q11",
       "prompt": "What landmark is the clinic near?",
-      "options": ["A supermarket", "A school", "The post office", "The railway station"],
+      "options": [
+        "A supermarket",
+        "A school",
+        "The post office",
+        "The railway station"
+      ],
       "answerIndex": 2,
       "explanation": "The clinic is 'just opposite the post office.'",
       "hint": "It is a public building directly across the road."
@@ -206,74 +316,131 @@
     "blanks": [
       {
         "id": "b1",
-        "options": ["booking", "appointment", "visit", "meeting"],
+        "options": [
+          "booking",
+          "appointment",
+          "visit",
+          "meeting"
+        ],
         "answerIndex": 1,
         "explanation": "'appointment' — a scheduled time to see a doctor is called an appointment."
       },
       {
         "id": "b2",
-        "options": ["member", "client", "patient", "user"],
+        "options": [
+          "member",
+          "client",
+          "patient",
+          "user"
+        ],
         "answerIndex": 2,
         "explanation": "'patient' — someone who receives medical care is a patient."
       },
       {
         "id": "b3",
-        "options": ["dry", "sore", "scratchy", "tight"],
+        "options": [
+          "dry",
+          "sore",
+          "scratchy",
+          "tight"
+        ],
         "answerIndex": 1,
         "explanation": "'sore' — a sore throat is a painful or irritated throat."
       },
       {
         "id": "b4",
-        "options": ["serious", "urgent", "important", "critical"],
+        "options": [
+          "serious",
+          "urgent",
+          "important",
+          "critical"
+        ],
         "answerIndex": 1,
         "explanation": "'urgent' — the receptionist asks if the appointment is urgent, meaning whether it needs to happen immediately."
       },
       {
         "id": "b5",
-        "options": ["time", "space", "slot", "gap"],
+        "options": [
+          "time",
+          "space",
+          "slot",
+          "gap"
+        ],
         "answerIndex": 2,
         "explanation": "'slot' — an available slot is an open time for an appointment."
       },
       {
         "id": "b6",
-        "options": ["Harris", "Smith", "Green", "Patel"],
+        "options": [
+          "Harris",
+          "Smith",
+          "Green",
+          "Patel"
+        ],
         "answerIndex": 3,
         "explanation": "'Patel' — the receptionist tells the patient she will see Dr Patel."
       },
       {
         "id": "b7",
-        "options": ["number", "card", "letter", "form"],
+        "options": [
+          "number",
+          "card",
+          "letter",
+          "form"
+        ],
         "answerIndex": 1,
         "explanation": "'card' — a patient ID card is used to confirm identity at the clinic."
       },
       {
         "id": "b8",
-        "options": ["behind", "beside", "above", "opposite"],
+        "options": [
+          "behind",
+          "beside",
+          "above",
+          "opposite"
+        ],
         "answerIndex": 3,
         "explanation": "'opposite' — 'just opposite' means directly facing or across the road from."
       },
       {
         "id": "b9",
-        "options": ["time", "effort", "help", "patience"],
+        "options": [
+          "time",
+          "effort",
+          "help",
+          "patience"
+        ],
         "answerIndex": 2,
         "explanation": "'help' — 'thank you for your help' is a standard polite expression."
       },
       {
         "id": "b10",
-        "options": ["well", "better", "healthy", "good"],
+        "options": [
+          "well",
+          "better",
+          "healthy",
+          "good"
+        ],
         "answerIndex": 1,
         "explanation": "'better' — 'feel better' is the standard expression used when someone is unwell."
       },
       {
         "id": "b11",
-        "options": ["o'clock", "sharp", "thirty", "fifteen"],
+        "options": [
+          "o'clock",
+          "sharp",
+          "thirty",
+          "fifteen"
+        ],
         "answerIndex": 3,
         "explanation": "'fifteen' — the appointment is at ten fifteen (10:15)."
       }
     ]
   },
   "criticalThinkingQuestion": "In this conversation, the patient is able to book an appointment the next day. In some countries, people wait weeks or even months to see a doctor. Do you think healthcare should be free and available to everyone equally, or is it acceptable for people to pay for faster or better care? What are the advantages and disadvantages of each system?",
-  "accents": ["en-GB"],
+  "accents": [
+    "en-GB"
+  ],
   "voices": {
     "Patient": {
       "sex": "female",
@@ -289,44 +456,220 @@
     }
   },
   "sentences": [
-    {"id": "s1", "speaker": "Receptionist", "text": "Good morning, Greenwood Medical Centre."},
-    {"id": "s2", "speaker": "Receptionist", "text": "How can I help you?"},
-    {"id": "s3", "speaker": "Patient", "text": "Hello, I'd like to make an appointment to see a doctor, please."},
-    {"id": "s4", "speaker": "Receptionist", "text": "Of course."},
-    {"id": "s5", "speaker": "Receptionist", "text": "Are you a registered patient with us?"},
-    {"id": "s6", "speaker": "Patient", "text": "Yes, I am."},
-    {"id": "s7", "speaker": "Patient", "text": "My name is Sarah Browne."},
-    {"id": "s8", "speaker": "Patient", "text": "B-R-O-W-N-E."},
-    {"id": "s9", "speaker": "Receptionist", "text": "Thank you, I can see your details here."},
-    {"id": "s10", "speaker": "Receptionist", "text": "Can I ask what the appointment is for?"},
-    {"id": "s11", "speaker": "Patient", "text": "I've had a sore throat and a headache for the past three days."},
-    {"id": "s12", "speaker": "Patient", "text": "I'm also feeling quite tired."},
-    {"id": "s13", "speaker": "Receptionist", "text": "I'm sorry to hear that."},
-    {"id": "s14", "speaker": "Receptionist", "text": "Is this urgent, or would a routine appointment be fine?"},
-    {"id": "s15", "speaker": "Patient", "text": "It's not an emergency, but I'd rather not wait too long."},
-    {"id": "s16", "speaker": "Receptionist", "text": "Understood."},
-    {"id": "s17", "speaker": "Receptionist", "text": "We have an available slot tomorrow at ten fifteen in the morning."},
-    {"id": "s18", "speaker": "Receptionist", "text": "Would that work for you?"},
-    {"id": "s19", "speaker": "Patient", "text": "Tomorrow morning is perfect."},
-    {"id": "s20", "speaker": "Patient", "text": "Which doctor will I be seeing?"},
-    {"id": "s21", "speaker": "Receptionist", "text": "You'll be seeing Dr Patel."},
-    {"id": "s22", "speaker": "Receptionist", "text": "She's very good."},
-    {"id": "s23", "speaker": "Patient", "text": "That's fine."},
-    {"id": "s24", "speaker": "Patient", "text": "Is there anything I should bring with me?"},
-    {"id": "s25", "speaker": "Receptionist", "text": "Just your patient ID card if you have it."},
-    {"id": "s26", "speaker": "Receptionist", "text": "If not, we can look you up on the system."},
-    {"id": "s27", "speaker": "Patient", "text": "Great, I'll bring it."},
-    {"id": "s28", "speaker": "Patient", "text": "And where exactly is the clinic?"},
-    {"id": "s29", "speaker": "Patient", "text": "I've never been before."},
-    {"id": "s30", "speaker": "Receptionist", "text": "We're at fourteen Oak Road, just opposite the post office."},
-    {"id": "s31", "speaker": "Patient", "text": "Perfect."},
-    {"id": "s32", "speaker": "Patient", "text": "Thank you so much for your help."},
-    {"id": "s33", "speaker": "Receptionist", "text": "You're welcome."},
-    {"id": "s34", "speaker": "Receptionist", "text": "I hope you feel better soon."},
-    {"id": "s35", "speaker": "Receptionist", "text": "See you tomorrow at ten fifteen."}
+    {
+      "id": "s1",
+      "speaker": "Receptionist",
+      "text": "Good morning, Greenwood Medical Centre.",
+      "durationMs": 3264
+    },
+    {
+      "id": "s2",
+      "speaker": "Receptionist",
+      "text": "How can I help you?",
+      "durationMs": 1992
+    },
+    {
+      "id": "s3",
+      "speaker": "Patient",
+      "text": "Hello, I'd like to make an appointment to see a doctor, please.",
+      "durationMs": 4368
+    },
+    {
+      "id": "s4",
+      "speaker": "Receptionist",
+      "text": "Of course.",
+      "durationMs": 1776
+    },
+    {
+      "id": "s5",
+      "speaker": "Receptionist",
+      "text": "Are you a registered patient with us?",
+      "durationMs": 2592
+    },
+    {
+      "id": "s6",
+      "speaker": "Patient",
+      "text": "Yes, I am.",
+      "durationMs": 1680
+    },
+    {
+      "id": "s7",
+      "speaker": "Patient",
+      "text": "My name is Sarah Browne.",
+      "durationMs": 2136
+    },
+    {
+      "id": "s8",
+      "speaker": "Patient",
+      "text": "B-R-O-W-N-E.",
+      "durationMs": 2280
+    },
+    {
+      "id": "s9",
+      "speaker": "Receptionist",
+      "text": "Thank you, I can see your details here.",
+      "durationMs": 3432
+    },
+    {
+      "id": "s10",
+      "speaker": "Receptionist",
+      "text": "Can I ask what the appointment is for?",
+      "durationMs": 2880
+    },
+    {
+      "id": "s11",
+      "speaker": "Patient",
+      "text": "I've had a sore throat and a headache for the past three days.",
+      "durationMs": 3792
+    },
+    {
+      "id": "s12",
+      "speaker": "Patient",
+      "text": "I'm also feeling quite tired.",
+      "durationMs": 2352
+    },
+    {
+      "id": "s13",
+      "speaker": "Receptionist",
+      "text": "I'm sorry to hear that.",
+      "durationMs": 2280
+    },
+    {
+      "id": "s14",
+      "speaker": "Receptionist",
+      "text": "Is this urgent, or would a routine appointment be fine?",
+      "durationMs": 3792
+    },
+    {
+      "id": "s15",
+      "speaker": "Patient",
+      "text": "It's not an emergency, but I'd rather not wait too long.",
+      "durationMs": 3936
+    },
+    {
+      "id": "s16",
+      "speaker": "Receptionist",
+      "text": "Understood.",
+      "durationMs": 1680
+    },
+    {
+      "id": "s17",
+      "speaker": "Receptionist",
+      "text": "We have an available slot tomorrow at ten fifteen in the morning.",
+      "durationMs": 4344
+    },
+    {
+      "id": "s18",
+      "speaker": "Receptionist",
+      "text": "Would that work for you?",
+      "durationMs": 2040
+    },
+    {
+      "id": "s19",
+      "speaker": "Patient",
+      "text": "Tomorrow morning is perfect.",
+      "durationMs": 2304
+    },
+    {
+      "id": "s20",
+      "speaker": "Patient",
+      "text": "Which doctor will I be seeing?",
+      "durationMs": 2232
+    },
+    {
+      "id": "s21",
+      "speaker": "Receptionist",
+      "text": "You'll be seeing Dr Patel.",
+      "durationMs": 2544
+    },
+    {
+      "id": "s22",
+      "speaker": "Receptionist",
+      "text": "She's very good.",
+      "durationMs": 2040
+    },
+    {
+      "id": "s23",
+      "speaker": "Patient",
+      "text": "That's fine.",
+      "durationMs": 1320
+    },
+    {
+      "id": "s24",
+      "speaker": "Patient",
+      "text": "Is there anything I should bring with me?",
+      "durationMs": 2472
+    },
+    {
+      "id": "s25",
+      "speaker": "Receptionist",
+      "text": "Just your patient ID card if you have it.",
+      "durationMs": 3144
+    },
+    {
+      "id": "s26",
+      "speaker": "Receptionist",
+      "text": "If not, we can look you up on the system.",
+      "durationMs": 3120
+    },
+    {
+      "id": "s27",
+      "speaker": "Patient",
+      "text": "Great, I'll bring it.",
+      "durationMs": 1968
+    },
+    {
+      "id": "s28",
+      "speaker": "Patient",
+      "text": "And where exactly is the clinic?",
+      "durationMs": 2448
+    },
+    {
+      "id": "s29",
+      "speaker": "Patient",
+      "text": "I've never been before.",
+      "durationMs": 1824
+    },
+    {
+      "id": "s30",
+      "speaker": "Receptionist",
+      "text": "We're at fourteen Oak Road, just opposite the post office.",
+      "durationMs": 4200
+    },
+    {
+      "id": "s31",
+      "speaker": "Patient",
+      "text": "Perfect.",
+      "durationMs": 1296
+    },
+    {
+      "id": "s32",
+      "speaker": "Patient",
+      "text": "Thank you so much for your help.",
+      "durationMs": 2280
+    },
+    {
+      "id": "s33",
+      "speaker": "Receptionist",
+      "text": "You're welcome.",
+      "durationMs": 1800
+    },
+    {
+      "id": "s34",
+      "speaker": "Receptionist",
+      "text": "I hope you feel better soon.",
+      "durationMs": 2496
+    },
+    {
+      "id": "s35",
+      "speaker": "Receptionist",
+      "text": "See you tomorrow at ten fifteen.",
+      "durationMs": 2928
+    }
   ],
   "audio": {
     "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/listening-a2-013",
     "manifestVersion": 1
-  }
+  },
+  "totalDurationMs": 91032
 }

@@ -5,36 +5,124 @@
   "summary": "A driving instructor guides a nervous learner through her very first lesson — adjusting the seat, checking mirrors, and carefully pulling out of a car park for the first time.",
   "format": "dialogue",
   "body": [
-    {"speaker": "Instructor", "text": "Good morning, Claire. Welcome to your first lesson. How are you feeling?"},
-    {"speaker": "Learner", "text": "Nervous, honestly. I've never actually sat in the driver's seat before."},
-    {"speaker": "Instructor", "text": "That's completely normal. Most people feel exactly the same on their first lesson. We'll take it very slowly, and I want you to know that I have dual controls on my side, so I can brake or steer at any time if I need to. You're completely safe."},
-    {"speaker": "Learner", "text": "That's reassuring. Thank you."},
-    {"speaker": "Instructor", "text": "Right. Before we do anything else, let's make sure you're comfortable. Adjust your seat so that your foot can press the clutch pedal all the way down without fully stretching your leg. Give it a try."},
-    {"speaker": "Learner", "text": "Like this? I think I need to move it forward a little."},
-    {"speaker": "Instructor", "text": "Exactly right. Pull the lever underneath — there you go. That looks much better. Now adjust the steering wheel height so it's not in the way of your view of the dashboard."},
-    {"speaker": "Learner", "text": "Okay, done. This feels more natural now."},
-    {"speaker": "Instructor", "text": "Good. Now mirrors. This is really important. Before you ever move the car, you need to know exactly what's around you. Start with the interior mirror — that one in the middle."},
-    {"speaker": "Learner", "text": "I can see the back window through it now."},
-    {"speaker": "Instructor", "text": "Perfect. Now the left wing mirror — you want to see a thin strip of the car on one side and the full view of the road behind."},
-    {"speaker": "Learner", "text": "Okay. And the right one as well?"},
-    {"speaker": "Instructor", "text": "Yes, the same on the right. Good. Now we're going to talk through the cockpit drill. That means checking everything inside the car before moving. Doors closed?"},
-    {"speaker": "Learner", "text": "Yes, mine is."},
-    {"speaker": "Instructor", "text": "Seatbelt on?"},
-    {"speaker": "Learner", "text": "Yes."},
-    {"speaker": "Instructor", "text": "Good. Now, when you're ready, put your left foot on the clutch and press it all the way down. Then start the engine with the key."},
-    {"speaker": "Learner", "text": "Okay... it's on. The car is running. That's a strange feeling."},
-    {"speaker": "Instructor", "text": "You'll get used to it quickly. Now, we're going to pull out of this car park very slowly. I want you to find the biting point — that's the point where the clutch begins to engage the engine. You'll feel the car shudder slightly. Can you find it?"},
-    {"speaker": "Learner", "text": "I think so... yes! I can feel it. It's trembling a little."},
-    {"speaker": "Instructor", "text": "That's it. Now check your mirrors again — interior, right, left — then look over your right shoulder for a blind spot check. Take your time."},
-    {"speaker": "Learner", "text": "All clear. No other cars nearby."},
-    {"speaker": "Instructor", "text": "Excellent. Now very gently release the handbrake with your right hand and let the clutch up just a little bit more. Don't rush it."},
-    {"speaker": "Learner", "text": "We're moving! Oh — that surprised me."},
-    {"speaker": "Instructor", "text": "That's great! You're doing really well. Keep your speed very low. This car park is perfect for practising because there's nobody else here. Just let the car roll forward slowly. Steer very gently if you need to."},
-    {"speaker": "Learner", "text": "I'm steering! This is incredible. It's much harder to steer than I expected."},
-    {"speaker": "Instructor", "text": "That's because the car is moving slowly. Steering is lighter at higher speeds, but we're not going there today. You're doing brilliantly for a first lesson, Claire. Really."},
-    {"speaker": "Learner", "text": "Thank you. I still feel nervous, but it's getting easier every minute."}
+    {
+      "speaker": "Instructor",
+      "text": "Good morning, Claire. Welcome to your first lesson. How are you feeling?"
+    },
+    {
+      "speaker": "Learner",
+      "text": "Nervous, honestly. I've never actually sat in the driver's seat before."
+    },
+    {
+      "speaker": "Instructor",
+      "text": "That's completely normal. Most people feel exactly the same on their first lesson. We'll take it very slowly, and I want you to know that I have dual controls on my side, so I can brake or steer at any time if I need to. You're completely safe."
+    },
+    {
+      "speaker": "Learner",
+      "text": "That's reassuring. Thank you."
+    },
+    {
+      "speaker": "Instructor",
+      "text": "Right. Before we do anything else, let's make sure you're comfortable. Adjust your seat so that your foot can press the clutch pedal all the way down without fully stretching your leg. Give it a try."
+    },
+    {
+      "speaker": "Learner",
+      "text": "Like this? I think I need to move it forward a little."
+    },
+    {
+      "speaker": "Instructor",
+      "text": "Exactly right. Pull the lever underneath — there you go. That looks much better. Now adjust the steering wheel height so it's not in the way of your view of the dashboard."
+    },
+    {
+      "speaker": "Learner",
+      "text": "Okay, done. This feels more natural now."
+    },
+    {
+      "speaker": "Instructor",
+      "text": "Good. Now mirrors. This is really important. Before you ever move the car, you need to know exactly what's around you. Start with the interior mirror — that one in the middle."
+    },
+    {
+      "speaker": "Learner",
+      "text": "I can see the back window through it now."
+    },
+    {
+      "speaker": "Instructor",
+      "text": "Perfect. Now the left wing mirror — you want to see a thin strip of the car on one side and the full view of the road behind."
+    },
+    {
+      "speaker": "Learner",
+      "text": "Okay. And the right one as well?"
+    },
+    {
+      "speaker": "Instructor",
+      "text": "Yes, the same on the right. Good. Now we're going to talk through the cockpit drill. That means checking everything inside the car before moving. Doors closed?"
+    },
+    {
+      "speaker": "Learner",
+      "text": "Yes, mine is."
+    },
+    {
+      "speaker": "Instructor",
+      "text": "Seatbelt on?"
+    },
+    {
+      "speaker": "Learner",
+      "text": "Yes."
+    },
+    {
+      "speaker": "Instructor",
+      "text": "Good. Now, when you're ready, put your left foot on the clutch and press it all the way down. Then start the engine with the key."
+    },
+    {
+      "speaker": "Learner",
+      "text": "Okay... it's on. The car is running. That's a strange feeling."
+    },
+    {
+      "speaker": "Instructor",
+      "text": "You'll get used to it quickly. Now, we're going to pull out of this car park very slowly. I want you to find the biting point — that's the point where the clutch begins to engage the engine. You'll feel the car shudder slightly. Can you find it?"
+    },
+    {
+      "speaker": "Learner",
+      "text": "I think so... yes! I can feel it. It's trembling a little."
+    },
+    {
+      "speaker": "Instructor",
+      "text": "That's it. Now check your mirrors again — interior, right, left — then look over your right shoulder for a blind spot check. Take your time."
+    },
+    {
+      "speaker": "Learner",
+      "text": "All clear. No other cars nearby."
+    },
+    {
+      "speaker": "Instructor",
+      "text": "Excellent. Now very gently release the handbrake with your right hand and let the clutch up just a little bit more. Don't rush it."
+    },
+    {
+      "speaker": "Learner",
+      "text": "We're moving! Oh — that surprised me."
+    },
+    {
+      "speaker": "Instructor",
+      "text": "That's great! You're doing really well. Keep your speed very low. This car park is perfect for practising because there's nobody else here. Just let the car roll forward slowly. Steer very gently if you need to."
+    },
+    {
+      "speaker": "Learner",
+      "text": "I'm steering! This is incredible. It's much harder to steer than I expected."
+    },
+    {
+      "speaker": "Instructor",
+      "text": "That's because the car is moving slowly. Steering is lighter at higher speeds, but we're not going there today. You're doing brilliantly for a first lesson, Claire. Really."
+    },
+    {
+      "speaker": "Learner",
+      "text": "Thank you. I still feel nervous, but it's getting easier every minute."
+    }
   ],
-  "tags": ["driving", "learning", "everyday life"],
+  "tags": [
+    "driving",
+    "learning",
+    "everyday life"
+  ],
   "annotations": [
     {
       "phrase": "dual controls",
@@ -283,68 +371,120 @@
     "blanks": [
       {
         "id": "b1",
-        "options": ["dual controls", "a brake pedal", "an extra mirror", "a safety switch"],
+        "options": [
+          "dual controls",
+          "a brake pedal",
+          "an extra mirror",
+          "a safety switch"
+        ],
         "answerIndex": 0,
         "explanation": "'Dual controls' means the instructor's side of the car also has a clutch and brake, allowing them to control the car if necessary."
       },
       {
         "id": "b2",
-        "options": ["reassuring", "surprising", "encouraging", "calming"],
+        "options": [
+          "reassuring",
+          "surprising",
+          "encouraging",
+          "calming"
+        ],
         "answerIndex": 0,
         "explanation": "'Reassuring' means making someone feel less worried or afraid — Claire uses it to say the information makes her feel safer."
       },
       {
         "id": "b3",
-        "options": ["clutch pedal", "brake pedal", "accelerator", "footrest"],
+        "options": [
+          "clutch pedal",
+          "brake pedal",
+          "accelerator",
+          "footrest"
+        ],
         "answerIndex": 0,
         "explanation": "The instructor refers to the 'clutch pedal' — the pedal used to disengage and engage the gears in a manual car."
       },
       {
         "id": "b4",
-        "options": ["cockpit drill", "safety check", "mirror routine", "starting procedure"],
+        "options": [
+          "cockpit drill",
+          "safety check",
+          "mirror routine",
+          "starting procedure"
+        ],
         "answerIndex": 0,
         "explanation": "The 'cockpit drill' is a standard UK driving lesson term for the pre-drive check of all controls and settings inside the car."
       },
       {
         "id": "b5",
-        "options": ["biting point", "starting point", "balance point", "neutral position"],
+        "options": [
+          "biting point",
+          "starting point",
+          "balance point",
+          "neutral position"
+        ],
         "answerIndex": 0,
         "explanation": "The 'biting point' is the precise position of the clutch pedal where the engine and gearbox begin to connect, making the car want to move."
       },
       {
         "id": "b6",
-        "options": ["engage", "connect", "power", "activate"],
+        "options": [
+          "engage",
+          "connect",
+          "power",
+          "activate"
+        ],
         "answerIndex": 0,
         "explanation": "'Engage the engine' is the mechanical term used — it describes the clutch mechanically linking with the engine."
       },
       {
         "id": "b7",
-        "options": ["blind spot", "safety", "mirror", "shoulder"],
+        "options": [
+          "blind spot",
+          "safety",
+          "mirror",
+          "shoulder"
+        ],
         "answerIndex": 0,
         "explanation": "A 'blind spot' is an area around the vehicle that cannot be seen in the mirrors — hence the over-the-shoulder check."
       },
       {
         "id": "b8",
-        "options": ["handbrake", "footbrake", "gear lever", "clutch"],
+        "options": [
+          "handbrake",
+          "footbrake",
+          "gear lever",
+          "clutch"
+        ],
         "answerIndex": 0,
         "explanation": "The 'handbrake' (also called the parking brake or emergency brake) is operated by hand and keeps the car stationary."
       },
       {
         "id": "b9",
-        "options": ["roll", "move", "slide", "drift"],
+        "options": [
+          "roll",
+          "move",
+          "slide",
+          "drift"
+        ],
         "answerIndex": 0,
         "explanation": "'Roll forward' means to move gently forward without pressing the accelerator — the car moves under its own momentum."
       },
       {
         "id": "b10",
-        "options": ["brilliantly", "well", "excellently", "perfectly"],
+        "options": [
+          "brilliantly",
+          "well",
+          "excellently",
+          "perfectly"
+        ],
         "answerIndex": 0,
         "explanation": "'Doing brilliantly' is a British English expression meaning doing extremely well — a strong word of encouragement."
       }
     ]
   },
   "criticalThinkingQuestion": "Learning to drive is one of the most anxiety-inducing experiences for many adults, yet it is also one of the most empowering. What makes learning a complex physical skill so emotionally challenging? How does having a patient and structured teacher change the experience — and what can this tell us about how people learn best in any context?",
-  "accents": ["en-GB"],
+  "accents": [
+    "en-GB"
+  ],
   "voices": {
     "Instructor": {
       "sex": "male",
@@ -360,89 +500,490 @@
     }
   },
   "sentences": [
-    {"id": "s1", "speaker": "Instructor", "text": "Good morning, Claire."},
-    {"id": "s2", "speaker": "Instructor", "text": "Welcome to your first lesson."},
-    {"id": "s3", "speaker": "Instructor", "text": "How are you feeling?"},
-    {"id": "s4", "speaker": "Learner", "text": "Nervous, honestly."},
-    {"id": "s5", "speaker": "Learner", "text": "I've never actually sat in the driver's seat before."},
-    {"id": "s6", "speaker": "Instructor", "text": "That's completely normal."},
-    {"id": "s7", "speaker": "Instructor", "text": "Most people feel exactly the same on their first lesson."},
-    {"id": "s8", "speaker": "Instructor", "text": "We'll take it very slowly, and I want you to know that I have dual controls on my side, so I can brake or steer at any time if I need to."},
-    {"id": "s9", "speaker": "Instructor", "text": "You're completely safe."},
-    {"id": "s10", "speaker": "Learner", "text": "That's reassuring."},
-    {"id": "s11", "speaker": "Learner", "text": "Thank you."},
-    {"id": "s12", "speaker": "Instructor", "text": "Right."},
-    {"id": "s13", "speaker": "Instructor", "text": "Before we do anything else, let's make sure you're comfortable."},
-    {"id": "s14", "speaker": "Instructor", "text": "Adjust your seat so that your foot can press the clutch pedal all the way down without fully stretching your leg."},
-    {"id": "s15", "speaker": "Instructor", "text": "Give it a try."},
-    {"id": "s16", "speaker": "Learner", "text": "Like this?"},
-    {"id": "s17", "speaker": "Learner", "text": "I think I need to move it forward a little."},
-    {"id": "s18", "speaker": "Instructor", "text": "Exactly right."},
-    {"id": "s19", "speaker": "Instructor", "text": "Pull the lever underneath — there you go."},
-    {"id": "s20", "speaker": "Instructor", "text": "That looks much better."},
-    {"id": "s21", "speaker": "Instructor", "text": "Now adjust the steering wheel height so it's not in the way of your view of the dashboard."},
-    {"id": "s22", "speaker": "Learner", "text": "Okay, done."},
-    {"id": "s23", "speaker": "Learner", "text": "This feels more natural now."},
-    {"id": "s24", "speaker": "Instructor", "text": "Good."},
-    {"id": "s25", "speaker": "Instructor", "text": "Now mirrors."},
-    {"id": "s26", "speaker": "Instructor", "text": "This is really important."},
-    {"id": "s27", "speaker": "Instructor", "text": "Before you ever move the car, you need to know exactly what's around you."},
-    {"id": "s28", "speaker": "Instructor", "text": "Start with the interior mirror — that one in the middle."},
-    {"id": "s29", "speaker": "Learner", "text": "I can see the back window through it now."},
-    {"id": "s30", "speaker": "Instructor", "text": "Perfect."},
-    {"id": "s31", "speaker": "Instructor", "text": "Now the left wing mirror — you want to see a thin strip of the car on one side and the full view of the road behind."},
-    {"id": "s32", "speaker": "Learner", "text": "Okay."},
-    {"id": "s33", "speaker": "Learner", "text": "And the right one as well?"},
-    {"id": "s34", "speaker": "Instructor", "text": "Yes, the same on the right."},
-    {"id": "s35", "speaker": "Instructor", "text": "Good."},
-    {"id": "s36", "speaker": "Instructor", "text": "Now we're going to talk through the cockpit drill."},
-    {"id": "s37", "speaker": "Instructor", "text": "That means checking everything inside the car before moving."},
-    {"id": "s38", "speaker": "Instructor", "text": "Doors closed?"},
-    {"id": "s39", "speaker": "Learner", "text": "Yes, mine is."},
-    {"id": "s40", "speaker": "Instructor", "text": "Seatbelt on?"},
-    {"id": "s41", "speaker": "Learner", "text": "Yes."},
-    {"id": "s42", "speaker": "Instructor", "text": "Good."},
-    {"id": "s43", "speaker": "Instructor", "text": "Now, when you're ready, put your left foot on the clutch and press it all the way down."},
-    {"id": "s44", "speaker": "Instructor", "text": "Then start the engine with the key."},
-    {"id": "s45", "speaker": "Learner", "text": "Okay... it's on."},
-    {"id": "s46", "speaker": "Learner", "text": "The car is running."},
-    {"id": "s47", "speaker": "Learner", "text": "That's a strange feeling."},
-    {"id": "s48", "speaker": "Instructor", "text": "You'll get used to it quickly."},
-    {"id": "s49", "speaker": "Instructor", "text": "Now, we're going to pull out of this car park very slowly."},
-    {"id": "s50", "speaker": "Instructor", "text": "I want you to find the biting point — that's the point where the clutch begins to engage the engine."},
-    {"id": "s51", "speaker": "Instructor", "text": "You'll feel the car shudder slightly."},
-    {"id": "s52", "speaker": "Instructor", "text": "Can you find it?"},
-    {"id": "s53", "speaker": "Learner", "text": "I think so... yes!"},
-    {"id": "s54", "speaker": "Learner", "text": "I can feel it."},
-    {"id": "s55", "speaker": "Learner", "text": "It's trembling a little."},
-    {"id": "s56", "speaker": "Instructor", "text": "That's it."},
-    {"id": "s57", "speaker": "Instructor", "text": "Now check your mirrors again — interior, right, left — then look over your right shoulder for a blind spot check."},
-    {"id": "s58", "speaker": "Instructor", "text": "Take your time."},
-    {"id": "s59", "speaker": "Learner", "text": "All clear."},
-    {"id": "s60", "speaker": "Learner", "text": "No other cars nearby."},
-    {"id": "s61", "speaker": "Instructor", "text": "Excellent."},
-    {"id": "s62", "speaker": "Instructor", "text": "Now very gently release the handbrake with your right hand and let the clutch up just a little bit more."},
-    {"id": "s63", "speaker": "Instructor", "text": "Don't rush it."},
-    {"id": "s64", "speaker": "Learner", "text": "We're moving!"},
-    {"id": "s65", "speaker": "Learner", "text": "Oh — that surprised me."},
-    {"id": "s66", "speaker": "Instructor", "text": "That's great!"},
-    {"id": "s67", "speaker": "Instructor", "text": "You're doing really well."},
-    {"id": "s68", "speaker": "Instructor", "text": "Keep your speed very low."},
-    {"id": "s69", "speaker": "Instructor", "text": "This car park is perfect for practising because there's nobody else here."},
-    {"id": "s70", "speaker": "Instructor", "text": "Just let the car roll forward slowly."},
-    {"id": "s71", "speaker": "Instructor", "text": "Steer very gently if you need to."},
-    {"id": "s72", "speaker": "Learner", "text": "I'm steering!"},
-    {"id": "s73", "speaker": "Learner", "text": "This is incredible."},
-    {"id": "s74", "speaker": "Learner", "text": "It's much harder to steer than I expected."},
-    {"id": "s75", "speaker": "Instructor", "text": "That's because the car is moving slowly."},
-    {"id": "s76", "speaker": "Instructor", "text": "Steering is lighter at higher speeds, but we're not going there today."},
-    {"id": "s77", "speaker": "Instructor", "text": "You're doing brilliantly for a first lesson, Claire."},
-    {"id": "s78", "speaker": "Instructor", "text": "Really."},
-    {"id": "s79", "speaker": "Learner", "text": "Thank you."},
-    {"id": "s80", "speaker": "Learner", "text": "I still feel nervous, but it's getting easier every minute."}
+    {
+      "id": "s1",
+      "speaker": "Instructor",
+      "text": "Good morning, Claire.",
+      "durationMs": 2328
+    },
+    {
+      "id": "s2",
+      "speaker": "Instructor",
+      "text": "Welcome to your first lesson.",
+      "durationMs": 2496
+    },
+    {
+      "id": "s3",
+      "speaker": "Instructor",
+      "text": "How are you feeling?",
+      "durationMs": 1968
+    },
+    {
+      "id": "s4",
+      "speaker": "Learner",
+      "text": "Nervous, honestly.",
+      "durationMs": 2352
+    },
+    {
+      "id": "s5",
+      "speaker": "Learner",
+      "text": "I've never actually sat in the driver's seat before.",
+      "durationMs": 3984
+    },
+    {
+      "id": "s6",
+      "speaker": "Instructor",
+      "text": "That's completely normal.",
+      "durationMs": 2280
+    },
+    {
+      "id": "s7",
+      "speaker": "Instructor",
+      "text": "Most people feel exactly the same on their first lesson.",
+      "durationMs": 3912
+    },
+    {
+      "id": "s8",
+      "speaker": "Instructor",
+      "text": "We'll take it very slowly, and I want you to know that I have dual controls on my side, so I can brake or steer at any time if I need to.",
+      "durationMs": 8256
+    },
+    {
+      "id": "s9",
+      "speaker": "Instructor",
+      "text": "You're completely safe.",
+      "durationMs": 2232
+    },
+    {
+      "id": "s10",
+      "speaker": "Learner",
+      "text": "That's reassuring.",
+      "durationMs": 2232
+    },
+    {
+      "id": "s11",
+      "speaker": "Learner",
+      "text": "Thank you.",
+      "durationMs": 1656
+    },
+    {
+      "id": "s12",
+      "speaker": "Instructor",
+      "text": "Right.",
+      "durationMs": 1536
+    },
+    {
+      "id": "s13",
+      "speaker": "Instructor",
+      "text": "Before we do anything else, let's make sure you're comfortable.",
+      "durationMs": 4056
+    },
+    {
+      "id": "s14",
+      "speaker": "Instructor",
+      "text": "Adjust your seat so that your foot can press the clutch pedal all the way down without fully stretching your leg.",
+      "durationMs": 5904
+    },
+    {
+      "id": "s15",
+      "speaker": "Instructor",
+      "text": "Give it a try.",
+      "durationMs": 1848
+    },
+    {
+      "id": "s16",
+      "speaker": "Learner",
+      "text": "Like this?",
+      "durationMs": 1656
+    },
+    {
+      "id": "s17",
+      "speaker": "Learner",
+      "text": "I think I need to move it forward a little.",
+      "durationMs": 3240
+    },
+    {
+      "id": "s18",
+      "speaker": "Instructor",
+      "text": "Exactly right.",
+      "durationMs": 2040
+    },
+    {
+      "id": "s19",
+      "speaker": "Instructor",
+      "text": "Pull the lever underneath — there you go.",
+      "durationMs": 3312
+    },
+    {
+      "id": "s20",
+      "speaker": "Instructor",
+      "text": "That looks much better.",
+      "durationMs": 2112
+    },
+    {
+      "id": "s21",
+      "speaker": "Instructor",
+      "text": "Now adjust the steering wheel height so it's not in the way of your view of the dashboard.",
+      "durationMs": 5088
+    },
+    {
+      "id": "s22",
+      "speaker": "Learner",
+      "text": "Okay, done.",
+      "durationMs": 2280
+    },
+    {
+      "id": "s23",
+      "speaker": "Learner",
+      "text": "This feels more natural now.",
+      "durationMs": 2832
+    },
+    {
+      "id": "s24",
+      "speaker": "Instructor",
+      "text": "Good.",
+      "durationMs": 1416
+    },
+    {
+      "id": "s25",
+      "speaker": "Instructor",
+      "text": "Now mirrors.",
+      "durationMs": 1800
+    },
+    {
+      "id": "s26",
+      "speaker": "Instructor",
+      "text": "This is really important.",
+      "durationMs": 2472
+    },
+    {
+      "id": "s27",
+      "speaker": "Instructor",
+      "text": "Before you ever move the car, you need to know exactly what's around you.",
+      "durationMs": 4632
+    },
+    {
+      "id": "s28",
+      "speaker": "Instructor",
+      "text": "Start with the interior mirror — that one in the middle.",
+      "durationMs": 3792
+    },
+    {
+      "id": "s29",
+      "speaker": "Learner",
+      "text": "I can see the back window through it now.",
+      "durationMs": 3240
+    },
+    {
+      "id": "s30",
+      "speaker": "Instructor",
+      "text": "Perfect.",
+      "durationMs": 1680
+    },
+    {
+      "id": "s31",
+      "speaker": "Instructor",
+      "text": "Now the left wing mirror — you want to see a thin strip of the car on one side and the full view of the road behind.",
+      "durationMs": 7032
+    },
+    {
+      "id": "s32",
+      "speaker": "Learner",
+      "text": "Okay.",
+      "durationMs": 1608
+    },
+    {
+      "id": "s33",
+      "speaker": "Learner",
+      "text": "And the right one as well?",
+      "durationMs": 2400
+    },
+    {
+      "id": "s34",
+      "speaker": "Instructor",
+      "text": "Yes, the same on the right.",
+      "durationMs": 2568
+    },
+    {
+      "id": "s35",
+      "speaker": "Instructor",
+      "text": "Good.",
+      "durationMs": 1416
+    },
+    {
+      "id": "s36",
+      "speaker": "Instructor",
+      "text": "Now we're going to talk through the cockpit drill.",
+      "durationMs": 3192
+    },
+    {
+      "id": "s37",
+      "speaker": "Instructor",
+      "text": "That means checking everything inside the car before moving.",
+      "durationMs": 4032
+    },
+    {
+      "id": "s38",
+      "speaker": "Instructor",
+      "text": "Doors closed?",
+      "durationMs": 1896
+    },
+    {
+      "id": "s39",
+      "speaker": "Learner",
+      "text": "Yes, mine is.",
+      "durationMs": 2328
+    },
+    {
+      "id": "s40",
+      "speaker": "Instructor",
+      "text": "Seatbelt on?",
+      "durationMs": 1896
+    },
+    {
+      "id": "s41",
+      "speaker": "Learner",
+      "text": "Yes.",
+      "durationMs": 1488
+    },
+    {
+      "id": "s42",
+      "speaker": "Instructor",
+      "text": "Good.",
+      "durationMs": 1416
+    },
+    {
+      "id": "s43",
+      "speaker": "Instructor",
+      "text": "Now, when you're ready, put your left foot on the clutch and press it all the way down.",
+      "durationMs": 5304
+    },
+    {
+      "id": "s44",
+      "speaker": "Instructor",
+      "text": "Then start the engine with the key.",
+      "durationMs": 2664
+    },
+    {
+      "id": "s45",
+      "speaker": "Learner",
+      "text": "Okay... it's on.",
+      "durationMs": 2232
+    },
+    {
+      "id": "s46",
+      "speaker": "Learner",
+      "text": "The car is running.",
+      "durationMs": 2256
+    },
+    {
+      "id": "s47",
+      "speaker": "Learner",
+      "text": "That's a strange feeling.",
+      "durationMs": 2400
+    },
+    {
+      "id": "s48",
+      "speaker": "Instructor",
+      "text": "You'll get used to it quickly.",
+      "durationMs": 2328
+    },
+    {
+      "id": "s49",
+      "speaker": "Instructor",
+      "text": "Now, we're going to pull out of this car park very slowly.",
+      "durationMs": 4152
+    },
+    {
+      "id": "s50",
+      "speaker": "Instructor",
+      "text": "I want you to find the biting point — that's the point where the clutch begins to engage the engine.",
+      "durationMs": 5544
+    },
+    {
+      "id": "s51",
+      "speaker": "Instructor",
+      "text": "You'll feel the car shudder slightly.",
+      "durationMs": 2784
+    },
+    {
+      "id": "s52",
+      "speaker": "Instructor",
+      "text": "Can you find it?",
+      "durationMs": 1800
+    },
+    {
+      "id": "s53",
+      "speaker": "Learner",
+      "text": "I think so... yes!",
+      "durationMs": 2352
+    },
+    {
+      "id": "s54",
+      "speaker": "Learner",
+      "text": "I can feel it.",
+      "durationMs": 1968
+    },
+    {
+      "id": "s55",
+      "speaker": "Learner",
+      "text": "It's trembling a little.",
+      "durationMs": 2304
+    },
+    {
+      "id": "s56",
+      "speaker": "Instructor",
+      "text": "That's it.",
+      "durationMs": 1464
+    },
+    {
+      "id": "s57",
+      "speaker": "Instructor",
+      "text": "Now check your mirrors again — interior, right, left — then look over your right shoulder for a blind spot check.",
+      "durationMs": 7608
+    },
+    {
+      "id": "s58",
+      "speaker": "Instructor",
+      "text": "Take your time.",
+      "durationMs": 1992
+    },
+    {
+      "id": "s59",
+      "speaker": "Learner",
+      "text": "All clear.",
+      "durationMs": 1800
+    },
+    {
+      "id": "s60",
+      "speaker": "Learner",
+      "text": "No other cars nearby.",
+      "durationMs": 2736
+    },
+    {
+      "id": "s61",
+      "speaker": "Instructor",
+      "text": "Excellent.",
+      "durationMs": 1680
+    },
+    {
+      "id": "s62",
+      "speaker": "Instructor",
+      "text": "Now very gently release the handbrake with your right hand and let the clutch up just a little bit more.",
+      "durationMs": 5712
+    },
+    {
+      "id": "s63",
+      "speaker": "Instructor",
+      "text": "Don't rush it.",
+      "durationMs": 1752
+    },
+    {
+      "id": "s64",
+      "speaker": "Learner",
+      "text": "We're moving!",
+      "durationMs": 1848
+    },
+    {
+      "id": "s65",
+      "speaker": "Learner",
+      "text": "Oh — that surprised me.",
+      "durationMs": 2472
+    },
+    {
+      "id": "s66",
+      "speaker": "Instructor",
+      "text": "That's great!",
+      "durationMs": 1824
+    },
+    {
+      "id": "s67",
+      "speaker": "Instructor",
+      "text": "You're doing really well.",
+      "durationMs": 2304
+    },
+    {
+      "id": "s68",
+      "speaker": "Instructor",
+      "text": "Keep your speed very low.",
+      "durationMs": 2376
+    },
+    {
+      "id": "s69",
+      "speaker": "Instructor",
+      "text": "This car park is perfect for practising because there's nobody else here.",
+      "durationMs": 4752
+    },
+    {
+      "id": "s70",
+      "speaker": "Instructor",
+      "text": "Just let the car roll forward slowly.",
+      "durationMs": 2904
+    },
+    {
+      "id": "s71",
+      "speaker": "Instructor",
+      "text": "Steer very gently if you need to.",
+      "durationMs": 2808
+    },
+    {
+      "id": "s72",
+      "speaker": "Learner",
+      "text": "I'm steering!",
+      "durationMs": 1848
+    },
+    {
+      "id": "s73",
+      "speaker": "Learner",
+      "text": "This is incredible.",
+      "durationMs": 2184
+    },
+    {
+      "id": "s74",
+      "speaker": "Learner",
+      "text": "It's much harder to steer than I expected.",
+      "durationMs": 3432
+    },
+    {
+      "id": "s75",
+      "speaker": "Instructor",
+      "text": "That's because the car is moving slowly.",
+      "durationMs": 3072
+    },
+    {
+      "id": "s76",
+      "speaker": "Instructor",
+      "text": "Steering is lighter at higher speeds, but we're not going there today.",
+      "durationMs": 4704
+    },
+    {
+      "id": "s77",
+      "speaker": "Instructor",
+      "text": "You're doing brilliantly for a first lesson, Claire.",
+      "durationMs": 3600
+    },
+    {
+      "id": "s78",
+      "speaker": "Instructor",
+      "text": "Really.",
+      "durationMs": 1584
+    },
+    {
+      "id": "s79",
+      "speaker": "Learner",
+      "text": "Thank you.",
+      "durationMs": 1656
+    },
+    {
+      "id": "s80",
+      "speaker": "Learner",
+      "text": "I still feel nervous, but it's getting easier every minute.",
+      "durationMs": 4512
+    }
   ],
   "audio": {
     "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/listening-b1-004",
     "manifestVersion": 1
-  }
+  },
+  "totalDurationMs": 230616
 }

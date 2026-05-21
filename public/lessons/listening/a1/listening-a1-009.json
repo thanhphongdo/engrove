@@ -5,24 +5,76 @@
   "summary": "A young girl calls her grandmother on the phone for the very first time by herself. They talk about her day, grandma's garden, and exciting plans to visit soon.",
   "format": "dialogue",
   "body": [
-    {"speaker": "Emma", "text": "Hello? Grandma, it's me — Emma!"},
-    {"speaker": "Grandma", "text": "Emma! Oh, how lovely! Did you call me all by yourself?"},
-    {"speaker": "Emma", "text": "Yes! Mum showed me how to find your number. I wanted to talk to you."},
-    {"speaker": "Grandma", "text": "I'm so happy you called, sweetheart. How was your day?"},
-    {"speaker": "Emma", "text": "It was really good! We painted pictures at school today. I painted a rainbow."},
-    {"speaker": "Grandma", "text": "A rainbow! That sounds beautiful. What colours did you use?"},
-    {"speaker": "Emma", "text": "Red, orange, yellow, green, blue, and purple! My teacher put it on the wall."},
-    {"speaker": "Grandma", "text": "Well done! I'm very proud of you. How is your little brother?"},
-    {"speaker": "Emma", "text": "He's okay. He has a cold. Grandma, what did you do today?"},
-    {"speaker": "Grandma", "text": "I was in the garden this morning. My roses are blooming and they smell wonderful."},
-    {"speaker": "Emma", "text": "I love your garden! Grandma, can we come and visit you soon?"},
-    {"speaker": "Grandma", "text": "Of course! I would love that. Maybe next weekend — if the weather is nice."},
-    {"speaker": "Emma", "text": "Yes please! I can help you in the garden. I know how to water the plants now."},
-    {"speaker": "Grandma", "text": "Then I will save some watering for you! I can't wait to see you, darling."},
-    {"speaker": "Emma", "text": "Me too, Grandma. I love you. Bye bye!"},
-    {"speaker": "Grandma", "text": "Love you too, my darling. Bye bye!"}
+    {
+      "speaker": "Emma",
+      "text": "Hello? Grandma, it's me — Emma!"
+    },
+    {
+      "speaker": "Grandma",
+      "text": "Emma! Oh, how lovely! Did you call me all by yourself?"
+    },
+    {
+      "speaker": "Emma",
+      "text": "Yes! Mum showed me how to find your number. I wanted to talk to you."
+    },
+    {
+      "speaker": "Grandma",
+      "text": "I'm so happy you called, sweetheart. How was your day?"
+    },
+    {
+      "speaker": "Emma",
+      "text": "It was really good! We painted pictures at school today. I painted a rainbow."
+    },
+    {
+      "speaker": "Grandma",
+      "text": "A rainbow! That sounds beautiful. What colours did you use?"
+    },
+    {
+      "speaker": "Emma",
+      "text": "Red, orange, yellow, green, blue, and purple! My teacher put it on the wall."
+    },
+    {
+      "speaker": "Grandma",
+      "text": "Well done! I'm very proud of you. How is your little brother?"
+    },
+    {
+      "speaker": "Emma",
+      "text": "He's okay. He has a cold. Grandma, what did you do today?"
+    },
+    {
+      "speaker": "Grandma",
+      "text": "I was in the garden this morning. My roses are blooming and they smell wonderful."
+    },
+    {
+      "speaker": "Emma",
+      "text": "I love your garden! Grandma, can we come and visit you soon?"
+    },
+    {
+      "speaker": "Grandma",
+      "text": "Of course! I would love that. Maybe next weekend — if the weather is nice."
+    },
+    {
+      "speaker": "Emma",
+      "text": "Yes please! I can help you in the garden. I know how to water the plants now."
+    },
+    {
+      "speaker": "Grandma",
+      "text": "Then I will save some watering for you! I can't wait to see you, darling."
+    },
+    {
+      "speaker": "Emma",
+      "text": "Me too, Grandma. I love you. Bye bye!"
+    },
+    {
+      "speaker": "Grandma",
+      "text": "Love you too, my darling. Bye bye!"
+    }
   ],
-  "tags": ["family", "phone", "daily life"],
+  "tags": [
+    "family",
+    "phone",
+    "daily life"
+  ],
   "annotations": [
     {
       "phrase": "all by yourself",
@@ -114,7 +166,12 @@
     {
       "id": "q1",
       "prompt": "Who taught Emma how to find her grandmother's number?",
-      "options": ["Her dad", "Her teacher", "Her mum", "Her brother"],
+      "options": [
+        "Her dad",
+        "Her teacher",
+        "Her mum",
+        "Her brother"
+      ],
       "answerIndex": 2,
       "explanation": "Emma says 'Mum showed me how to find your number.'",
       "hint": "Who helped Emma make the call?"
@@ -122,7 +179,12 @@
     {
       "id": "q2",
       "prompt": "What did Emma paint at school?",
-      "options": ["A flower", "A butterfly", "A rainbow", "A house"],
+      "options": [
+        "A flower",
+        "A butterfly",
+        "A rainbow",
+        "A house"
+      ],
       "answerIndex": 2,
       "explanation": "Emma says 'I painted a rainbow.'",
       "hint": "What colourful subject did Emma choose for her picture?"
@@ -130,7 +192,12 @@
     {
       "id": "q3",
       "prompt": "How many colours did Emma use in her painting?",
-      "options": ["Four", "Five", "Six", "Seven"],
+      "options": [
+        "Four",
+        "Five",
+        "Six",
+        "Seven"
+      ],
       "answerIndex": 2,
       "explanation": "Emma lists: red, orange, yellow, green, blue, and purple — that is six colours.",
       "hint": "Count the colours Emma names."
@@ -138,7 +205,12 @@
     {
       "id": "q4",
       "prompt": "What did the teacher do with Emma's painting?",
-      "options": ["Gave it back to Emma", "Sent it home", "Put it on the wall", "Put it in a folder"],
+      "options": [
+        "Gave it back to Emma",
+        "Sent it home",
+        "Put it on the wall",
+        "Put it in a folder"
+      ],
       "answerIndex": 2,
       "explanation": "Emma says 'My teacher put it on the wall.'",
       "hint": "Where did the teacher display Emma's work?"
@@ -146,7 +218,12 @@
     {
       "id": "q5",
       "prompt": "How is Emma's little brother?",
-      "options": ["Fine and happy", "He has a cold", "He hurt his leg", "He is at school"],
+      "options": [
+        "Fine and happy",
+        "He has a cold",
+        "He hurt his leg",
+        "He is at school"
+      ],
       "answerIndex": 1,
       "explanation": "Emma says 'He's okay. He has a cold.'",
       "hint": "What does Emma say about her brother's health?"
@@ -154,7 +231,12 @@
     {
       "id": "q6",
       "prompt": "What was Grandma doing this morning?",
-      "options": ["Cooking breakfast", "Watching television", "Visiting a friend", "Working in the garden"],
+      "options": [
+        "Cooking breakfast",
+        "Watching television",
+        "Visiting a friend",
+        "Working in the garden"
+      ],
       "answerIndex": 3,
       "explanation": "Grandma says 'I was in the garden this morning.'",
       "hint": "Where was Grandma spending her morning?"
@@ -162,7 +244,12 @@
     {
       "id": "q7",
       "prompt": "What does Grandma say about her roses?",
-      "options": ["They need more water", "They are blooming and smell wonderful", "They are very small this year", "They have not grown yet"],
+      "options": [
+        "They need more water",
+        "They are blooming and smell wonderful",
+        "They are very small this year",
+        "They have not grown yet"
+      ],
       "answerIndex": 1,
       "explanation": "Grandma says 'My roses are blooming and they smell wonderful.'",
       "hint": "What two things does Grandma say about her roses?"
@@ -170,7 +257,12 @@
     {
       "id": "q8",
       "prompt": "When does Grandma suggest they visit?",
-      "options": ["This weekend", "Next weekend", "Next month", "During the holidays"],
+      "options": [
+        "This weekend",
+        "Next weekend",
+        "Next month",
+        "During the holidays"
+      ],
       "answerIndex": 1,
       "explanation": "Grandma says 'Maybe next weekend — if the weather is nice.'",
       "hint": "What time does Grandma suggest for the visit?"
@@ -178,7 +270,12 @@
     {
       "id": "q9",
       "prompt": "What condition does Grandma add to the visit plan?",
-      "options": ["If Emma's brother is better", "If Emma finishes her homework", "If the weather is nice", "If Mum can drive"],
+      "options": [
+        "If Emma's brother is better",
+        "If Emma finishes her homework",
+        "If the weather is nice",
+        "If Mum can drive"
+      ],
       "answerIndex": 2,
       "explanation": "Grandma says 'Maybe next weekend — if the weather is nice.'",
       "hint": "What does Grandma say needs to be good for the visit to happen?"
@@ -186,7 +283,12 @@
     {
       "id": "q10",
       "prompt": "How does Emma say she can help Grandma in the garden?",
-      "options": ["By planting seeds", "By watering the plants", "By cutting the roses", "By raking the leaves"],
+      "options": [
+        "By planting seeds",
+        "By watering the plants",
+        "By cutting the roses",
+        "By raking the leaves"
+      ],
       "answerIndex": 1,
       "explanation": "Emma says 'I know how to water the plants now.'",
       "hint": "What garden skill has Emma recently learned?"
@@ -194,7 +296,12 @@
     {
       "id": "q11",
       "prompt": "This is a special call for Emma because she:",
-      "options": ["Called from school", "Spoke to Grandma in another language", "Made the call all by herself for the first time", "Used a new phone"],
+      "options": [
+        "Called from school",
+        "Spoke to Grandma in another language",
+        "Made the call all by herself for the first time",
+        "Used a new phone"
+      ],
       "answerIndex": 2,
       "explanation": "Grandma asks 'Did you call me all by yourself?' and Emma confirms she did.",
       "hint": "Why is this phone call an achievement for Emma?"
@@ -205,68 +312,120 @@
     "blanks": [
       {
         "id": "b1",
-        "options": ["herself", "alone", "herself", "her own"],
+        "options": [
+          "herself",
+          "alone",
+          "herself",
+          "her own"
+        ],
         "answerIndex": 0,
         "explanation": "'All by yourself' means without anyone's help — a phrase showing independence."
       },
       {
         "id": "b2",
-        "options": ["week", "morning", "lesson", "day"],
+        "options": [
+          "week",
+          "morning",
+          "lesson",
+          "day"
+        ],
         "answerIndex": 3,
         "explanation": "'How was your day?' is the most natural way to ask someone what happened today."
       },
       {
         "id": "b3",
-        "options": ["flower", "rainbow", "sunset", "butterfly"],
+        "options": [
+          "flower",
+          "rainbow",
+          "sunset",
+          "butterfly"
+        ],
         "answerIndex": 1,
         "explanation": "Emma painted 'a rainbow' — a colourful arc seen in the sky after rain."
       },
       {
         "id": "b4",
-        "options": ["board", "table", "ceiling", "wall"],
+        "options": [
+          "board",
+          "table",
+          "ceiling",
+          "wall"
+        ],
         "answerIndex": 3,
         "explanation": "Teachers often display good artwork by putting it on the classroom 'wall'."
       },
       {
         "id": "b5",
-        "options": ["happy", "fond", "proud", "glad"],
+        "options": [
+          "happy",
+          "fond",
+          "proud",
+          "glad"
+        ],
         "answerIndex": 2,
         "explanation": "'Proud of you' means feeling great respect and admiration for what someone has done."
       },
       {
         "id": "b6",
-        "options": ["cold", "fever", "cough", "headache"],
+        "options": [
+          "cold",
+          "fever",
+          "cough",
+          "headache"
+        ],
         "answerIndex": 0,
         "explanation": "'Has a cold' is a common phrase meaning suffering from a minor illness with a runny nose."
       },
       {
         "id": "b7",
-        "options": ["growing", "fading", "blooming", "wilting"],
+        "options": [
+          "growing",
+          "fading",
+          "blooming",
+          "wilting"
+        ],
         "answerIndex": 2,
         "explanation": "'Blooming' means the flowers are fully open and at their most beautiful."
       },
       {
         "id": "b8",
-        "options": ["later", "eventually", "someday", "soon"],
+        "options": [
+          "later",
+          "eventually",
+          "someday",
+          "soon"
+        ],
         "answerIndex": 3,
         "explanation": "'Visit you soon' means she wants to come in the near future — not a distant promise."
       },
       {
         "id": "b9",
-        "options": ["road", "time", "weather", "family"],
+        "options": [
+          "road",
+          "time",
+          "weather",
+          "family"
+        ],
         "answerIndex": 2,
         "explanation": "'If the weather is nice' — a common condition for outdoor plans in countries with variable weather."
       },
       {
         "id": "b10",
-        "options": ["feed", "grow", "water", "plant"],
+        "options": [
+          "feed",
+          "grow",
+          "water",
+          "plant"
+        ],
         "answerIndex": 2,
         "explanation": "'Water the plants' means to give plants water so they can grow."
       }
     ]
   },
   "criticalThinkingQuestion": "Emma calls her grandmother by herself for the first time, and they have a warm, happy conversation. In a world of texting and video calls, do you think phone calls are still important? What is special about hearing someone's voice rather than reading their words?",
-  "accents": ["en-US"],
+  "accents": [
+    "en-US"
+  ],
   "voices": {
     "Emma": {
       "sex": "female",
@@ -278,29 +437,110 @@
       "sex": "female",
       "age": "senior",
       "accent": "en-US",
-      "edgeVoice": "en-US-NancyNeural"
+      "edgeVoice": "en-US-MichelleNeural"
     }
   },
   "sentences": [
-    {"id": "s1", "speaker": "Emma", "text": "Hello? Grandma, it's me — Emma!"},
-    {"id": "s2", "speaker": "Grandma", "text": "Emma! Oh, how lovely! Did you call me all by yourself?"},
-    {"id": "s3", "speaker": "Emma", "text": "Yes! Mum showed me how to find your number. I wanted to talk to you."},
-    {"id": "s4", "speaker": "Grandma", "text": "I'm so happy you called, sweetheart. How was your day?"},
-    {"id": "s5", "speaker": "Emma", "text": "It was really good! We painted pictures at school today. I painted a rainbow."},
-    {"id": "s6", "speaker": "Grandma", "text": "A rainbow! That sounds beautiful. What colours did you use?"},
-    {"id": "s7", "speaker": "Emma", "text": "Red, orange, yellow, green, blue, and purple! My teacher put it on the wall."},
-    {"id": "s8", "speaker": "Grandma", "text": "Well done! I'm very proud of you. How is your little brother?"},
-    {"id": "s9", "speaker": "Emma", "text": "He's okay. He has a cold. Grandma, what did you do today?"},
-    {"id": "s10", "speaker": "Grandma", "text": "I was in the garden this morning. My roses are blooming and they smell wonderful."},
-    {"id": "s11", "speaker": "Emma", "text": "I love your garden! Grandma, can we come and visit you soon?"},
-    {"id": "s12", "speaker": "Grandma", "text": "Of course! I would love that. Maybe next weekend — if the weather is nice."},
-    {"id": "s13", "speaker": "Emma", "text": "Yes please! I can help you in the garden. I know how to water the plants now."},
-    {"id": "s14", "speaker": "Grandma", "text": "Then I will save some watering for you! I can't wait to see you, darling."},
-    {"id": "s15", "speaker": "Emma", "text": "Me too, Grandma. I love you. Bye bye!"},
-    {"id": "s16", "speaker": "Grandma", "text": "Love you too, my darling. Bye bye!"}
+    {
+      "id": "s1",
+      "speaker": "Emma",
+      "text": "Hello? Grandma, it's me — Emma!",
+      "durationMs": 4080
+    },
+    {
+      "id": "s2",
+      "speaker": "Grandma",
+      "text": "Emma! Oh, how lovely! Did you call me all by yourself?",
+      "durationMs": 6408
+    },
+    {
+      "id": "s3",
+      "speaker": "Emma",
+      "text": "Yes! Mum showed me how to find your number. I wanted to talk to you.",
+      "durationMs": 6528
+    },
+    {
+      "id": "s4",
+      "speaker": "Grandma",
+      "text": "I'm so happy you called, sweetheart. How was your day?",
+      "durationMs": 5232
+    },
+    {
+      "id": "s5",
+      "speaker": "Emma",
+      "text": "It was really good! We painted pictures at school today. I painted a rainbow.",
+      "durationMs": 7032
+    },
+    {
+      "id": "s6",
+      "speaker": "Grandma",
+      "text": "A rainbow! That sounds beautiful. What colours did you use?",
+      "durationMs": 6384
+    },
+    {
+      "id": "s7",
+      "speaker": "Emma",
+      "text": "Red, orange, yellow, green, blue, and purple! My teacher put it on the wall.",
+      "durationMs": 6840
+    },
+    {
+      "id": "s8",
+      "speaker": "Grandma",
+      "text": "Well done! I'm very proud of you. How is your little brother?",
+      "durationMs": 6120
+    },
+    {
+      "id": "s9",
+      "speaker": "Emma",
+      "text": "He's okay. He has a cold. Grandma, what did you do today?",
+      "durationMs": 6288
+    },
+    {
+      "id": "s10",
+      "speaker": "Grandma",
+      "text": "I was in the garden this morning. My roses are blooming and they smell wonderful.",
+      "durationMs": 6024
+    },
+    {
+      "id": "s11",
+      "speaker": "Emma",
+      "text": "I love your garden! Grandma, can we come and visit you soon?",
+      "durationMs": 5160
+    },
+    {
+      "id": "s12",
+      "speaker": "Grandma",
+      "text": "Of course! I would love that. Maybe next weekend — if the weather is nice.",
+      "durationMs": 7392
+    },
+    {
+      "id": "s13",
+      "speaker": "Emma",
+      "text": "Yes please! I can help you in the garden. I know how to water the plants now.",
+      "durationMs": 6864
+    },
+    {
+      "id": "s14",
+      "speaker": "Grandma",
+      "text": "Then I will save some watering for you! I can't wait to see you, darling.",
+      "durationMs": 6000
+    },
+    {
+      "id": "s15",
+      "speaker": "Emma",
+      "text": "Me too, Grandma. I love you. Bye bye!",
+      "durationMs": 5496
+    },
+    {
+      "id": "s16",
+      "speaker": "Grandma",
+      "text": "Love you too, my darling. Bye bye!",
+      "durationMs": 4368
+    }
   ],
   "audio": {
     "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/listening-a1-009",
     "manifestVersion": 1
-  }
+  },
+  "totalDurationMs": 96216
 }

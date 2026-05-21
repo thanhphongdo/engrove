@@ -1,0 +1,595 @@
+{
+  "id": "listening-a1-032",
+  "level": "A1",
+  "title": "Buying a Train Ticket",
+  "summary": "A passenger buys a train ticket to London at the station counter and asks about the departure time.",
+  "format": "dialogue",
+  "body": [
+    {
+      "speaker": "Passenger",
+      "text": "Hello. I would like to buy a ticket to London, please."
+    },
+    {
+      "speaker": "Agent",
+      "text": "Of course. Would you like a single or a return ticket?"
+    },
+    {
+      "speaker": "Passenger",
+      "text": "A return ticket, please. I am going today and coming back tomorrow."
+    },
+    {
+      "speaker": "Agent",
+      "text": "Okay. Would you like standard class or first class?"
+    },
+    {
+      "speaker": "Passenger",
+      "text": "Standard class, please. How much is it?"
+    },
+    {
+      "speaker": "Agent",
+      "text": "A standard return ticket to London is forty-five pounds."
+    },
+    {
+      "speaker": "Passenger",
+      "text": "That is fine. What time does the next train leave?"
+    },
+    {
+      "speaker": "Agent",
+      "text": "The next train leaves at two fifteen. Platform three."
+    },
+    {
+      "speaker": "Passenger",
+      "text": "How long does the journey take?"
+    },
+    {
+      "speaker": "Agent",
+      "text": "It takes about one hour and twenty minutes."
+    },
+    {
+      "speaker": "Passenger",
+      "text": "Perfect. Here is fifty pounds."
+    },
+    {
+      "speaker": "Agent",
+      "text": "Thank you. Here is your ticket and five pounds change."
+    },
+    {
+      "speaker": "Passenger",
+      "text": "Thank you very much. Which platform is it again?"
+    },
+    {
+      "speaker": "Agent",
+      "text": "Platform three. Have a good journey!"
+    },
+    {
+      "speaker": "Passenger",
+      "text": "Thank you. Goodbye!"
+    }
+  ],
+  "tags": [
+    "Travel",
+    "Train",
+    "Shopping",
+    "Conversation"
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Passenger",
+      "text": "Hello. I would like to buy a ticket to London, please.",
+      "durationMs": 4200
+    },
+    {
+      "id": "s2",
+      "speaker": "Agent",
+      "text": "Of course. Would you like a single or a return ticket?",
+      "durationMs": 4824
+    },
+    {
+      "id": "s3",
+      "speaker": "Passenger",
+      "text": "A return ticket, please. I am going today and coming back tomorrow.",
+      "durationMs": 5256
+    },
+    {
+      "id": "s4",
+      "speaker": "Agent",
+      "text": "Okay. Would you like standard class or first class?",
+      "durationMs": 4848
+    },
+    {
+      "id": "s5",
+      "speaker": "Passenger",
+      "text": "Standard class, please. How much is it?",
+      "durationMs": 3720
+    },
+    {
+      "id": "s6",
+      "speaker": "Agent",
+      "text": "A standard return ticket to London is forty-five pounds.",
+      "durationMs": 4056
+    },
+    {
+      "id": "s7",
+      "speaker": "Passenger",
+      "text": "That is fine. What time does the next train leave?",
+      "durationMs": 3840
+    },
+    {
+      "id": "s8",
+      "speaker": "Agent",
+      "text": "The next train leaves at two fifteen. Platform three.",
+      "durationMs": 4944
+    },
+    {
+      "id": "s9",
+      "speaker": "Passenger",
+      "text": "How long does the journey take?",
+      "durationMs": 2328
+    },
+    {
+      "id": "s10",
+      "speaker": "Agent",
+      "text": "It takes about one hour and twenty minutes.",
+      "durationMs": 3192
+    },
+    {
+      "id": "s11",
+      "speaker": "Passenger",
+      "text": "Perfect. Here is fifty pounds.",
+      "durationMs": 3192
+    },
+    {
+      "id": "s12",
+      "speaker": "Agent",
+      "text": "Thank you. Here is your ticket and five pounds change.",
+      "durationMs": 4656
+    },
+    {
+      "id": "s13",
+      "speaker": "Passenger",
+      "text": "Thank you very much. Which platform is it again?",
+      "durationMs": 3864
+    },
+    {
+      "id": "s14",
+      "speaker": "Agent",
+      "text": "Platform three. Have a good journey!",
+      "durationMs": 3936
+    },
+    {
+      "id": "s15",
+      "speaker": "Passenger",
+      "text": "Thank you. Goodbye!",
+      "durationMs": 2064
+    }
+  ],
+  "voices": {
+    "Passenger": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-GB",
+      "edgeVoice": "en-GB-SoniaNeural"
+    },
+    "Agent": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-GuyNeural"
+    }
+  },
+  "accents": [
+    "en-GB",
+    "en-US"
+  ],
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/listening-a1-032",
+    "manifestVersion": 1
+  },
+  "annotations": [
+    {
+      "phrase": "single ticket",
+      "meaningVi": "vé một chiều",
+      "pronunciation": "/ˈsɪŋɡl ˈtɪkɪt/",
+      "exampleEn": "I need a single ticket to Manchester."
+    },
+    {
+      "phrase": "return ticket",
+      "meaningVi": "vé khứ hồi",
+      "pronunciation": "/rɪˈtɜːrn ˈtɪkɪt/",
+      "exampleEn": "A return ticket is cheaper than two singles."
+    },
+    {
+      "phrase": "standard class",
+      "meaningVi": "hạng phổ thông",
+      "pronunciation": "/ˈstændərd klɑːs/",
+      "exampleEn": "Standard class seats are comfortable enough for a short trip."
+    },
+    {
+      "phrase": "first class",
+      "meaningVi": "hạng nhất",
+      "pronunciation": "/fɜːrst klɑːs/",
+      "exampleEn": "First class tickets are more expensive but very comfortable."
+    },
+    {
+      "phrase": "platform",
+      "meaningVi": "sân ga / ke ga",
+      "pronunciation": "/ˈplætfɔːrm/",
+      "exampleEn": "The train to Edinburgh leaves from platform five."
+    },
+    {
+      "phrase": "journey",
+      "meaningVi": "chuyến đi",
+      "pronunciation": "/ˈdʒɜːrni/",
+      "exampleEn": "The journey from here to Paris takes three hours."
+    },
+    {
+      "phrase": "leave",
+      "meaningVi": "khởi hành / rời đi",
+      "pronunciation": "/liːv/",
+      "exampleEn": "What time does the bus leave?"
+    },
+    {
+      "phrase": "change",
+      "meaningVi": "tiền thối lại",
+      "pronunciation": "/tʃeɪndʒ/",
+      "exampleEn": "Here is your change — two dollars."
+    },
+    {
+      "phrase": "coming back",
+      "meaningVi": "quay trở lại",
+      "pronunciation": "/ˈkʌmɪŋ bæk/",
+      "exampleEn": "I am going on Friday and coming back on Sunday."
+    },
+    {
+      "phrase": "How long does it take?",
+      "meaningVi": "Mất bao lâu?",
+      "pronunciation": "/haʊ lɒŋ dʌz ɪt teɪk/",
+      "exampleEn": "How long does it take to walk to the station?"
+    },
+    {
+      "phrase": "Have a good journey",
+      "meaningVi": "Chúc chuyến đi vui vẻ",
+      "pronunciation": "/hæv ə ɡʊd ˈdʒɜːrni/",
+      "exampleEn": "The driver smiled and said, 'Have a good journey!'"
+    },
+    {
+      "phrase": "about",
+      "meaningVi": "khoảng / xấp xỉ",
+      "pronunciation": "/əˈbaʊt/",
+      "exampleEn": "The trip takes about two hours."
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Would like to for polite requests",
+      "bodyVi": "'Would like to + verb' là cách yêu cầu lịch sự, thường dùng khi mua hàng hoặc xin dịch vụ: 'I would like to buy a ticket.' Nó lịch sự hơn 'I want to buy a ticket.' rất nhiều.",
+      "bodyEn": "'Would like to + verb' is the polite way to make requests, commonly used when shopping or asking for services: 'I would like to buy a ticket.' It is much more polite than saying 'I want to buy a ticket.'"
+    },
+    {
+      "title": "How long does it take? — asking about duration",
+      "bodyVi": "Dùng 'How long does it take?' để hỏi về thời gian của một hoạt động. Trả lời dùng 'It takes + khoảng thời gian': 'It takes about one hour and twenty minutes.' Cấu trúc này dùng thì hiện tại đơn vì đây là thông tin cố định.",
+      "bodyEn": "Use 'How long does it take?' to ask about the duration of an activity. Answer with 'It takes + time expression': 'It takes about one hour and twenty minutes.' The simple present is used here because it describes a fixed timetable fact."
+    }
+  ],
+  "translationVi": "Hành khách: Xin chào. Tôi muốn mua một vé đến London, làm ơn. Nhân viên: Tất nhiên. Bạn muốn vé một chiều hay vé khứ hồi? Hành khách: Vé khứ hồi, làm ơn. Tôi đi hôm nay và quay lại vào ngày mai. Nhân viên: Được rồi. Bạn muốn hạng phổ thông hay hạng nhất? Hành khách: Hạng phổ thông, làm ơn. Bao nhiêu tiền vậy? Nhân viên: Vé khứ hồi hạng phổ thông đến London là bốn mươi lăm bảng. Hành khách: Ổn thôi. Chuyến tàu tiếp theo khởi hành lúc mấy giờ? Nhân viên: Chuyến tàu tiếp theo khởi hành lúc hai giờ mười lăm. Ke số ba. Hành khách: Chuyến đi mất bao lâu? Nhân viên: Mất khoảng một tiếng hai mươi phút. Hành khách: Tuyệt. Đây là năm mươi bảng. Nhân viên: Cảm ơn. Đây là vé của bạn và năm bảng tiền thối. Hành khách: Cảm ơn rất nhiều. Cho tôi hỏi lại ke số mấy vậy? Nhân viên: Ke số ba. Chúc chuyến đi vui vẻ! Hành khách: Cảm ơn. Tạm biệt!",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "Where does the passenger want to go?",
+      "options": [
+        "Manchester",
+        "Edinburgh",
+        "London",
+        "Oxford"
+      ],
+      "answerIndex": 2,
+      "explanation": "'I would like to buy a ticket to London, please.'",
+      "hint": "Look at the passenger's first line."
+    },
+    {
+      "id": "q2",
+      "prompt": "What type of ticket does the passenger buy?",
+      "options": [
+        "A single ticket",
+        "A return ticket",
+        "A group ticket",
+        "A season ticket"
+      ],
+      "answerIndex": 1,
+      "explanation": "'A return ticket, please.'",
+      "hint": "Listen for the type of ticket she chooses."
+    },
+    {
+      "id": "q3",
+      "prompt": "When is the passenger coming back?",
+      "options": [
+        "Today",
+        "Tomorrow",
+        "Next week",
+        "In two days"
+      ],
+      "answerIndex": 1,
+      "explanation": "'I am going today and coming back tomorrow.'",
+      "hint": "Find the sentence about her travel plans."
+    },
+    {
+      "id": "q4",
+      "prompt": "Which class does the passenger choose?",
+      "options": [
+        "First class",
+        "Business class",
+        "Standard class",
+        "Economy class"
+      ],
+      "answerIndex": 2,
+      "explanation": "'Standard class, please.'",
+      "hint": "Listen for the class she selects."
+    },
+    {
+      "id": "q5",
+      "prompt": "How much does the ticket cost?",
+      "options": [
+        "Thirty pounds",
+        "Forty pounds",
+        "Forty-five pounds",
+        "Fifty pounds"
+      ],
+      "answerIndex": 2,
+      "explanation": "'A standard return ticket to London is forty-five pounds.'",
+      "hint": "Find the agent's sentence about the price."
+    },
+    {
+      "id": "q6",
+      "prompt": "What time does the next train leave?",
+      "options": [
+        "Two o'clock",
+        "Two fifteen",
+        "Two thirty",
+        "Two forty-five"
+      ],
+      "answerIndex": 1,
+      "explanation": "'The next train leaves at two fifteen.'",
+      "hint": "Find the agent's sentence about departure time."
+    },
+    {
+      "id": "q7",
+      "prompt": "Which platform does the train leave from?",
+      "options": [
+        "Platform one",
+        "Platform two",
+        "Platform three",
+        "Platform four"
+      ],
+      "answerIndex": 2,
+      "explanation": "'Platform three.'",
+      "hint": "Listen for the platform number."
+    },
+    {
+      "id": "q8",
+      "prompt": "How long does the journey to London take?",
+      "options": [
+        "About thirty minutes",
+        "About one hour",
+        "About one hour and twenty minutes",
+        "About two hours"
+      ],
+      "answerIndex": 2,
+      "explanation": "'It takes about one hour and twenty minutes.'",
+      "hint": "Find the agent's answer about duration."
+    },
+    {
+      "id": "q9",
+      "prompt": "How much money does the passenger give the agent?",
+      "options": [
+        "Forty pounds",
+        "Forty-five pounds",
+        "Fifty pounds",
+        "Sixty pounds"
+      ],
+      "answerIndex": 2,
+      "explanation": "'Here is fifty pounds.'",
+      "hint": "Find the sentence about payment."
+    },
+    {
+      "id": "q10",
+      "prompt": "How much change does the passenger receive?",
+      "options": [
+        "Three pounds",
+        "Four pounds",
+        "Five pounds",
+        "Six pounds"
+      ],
+      "answerIndex": 2,
+      "explanation": "'Here is your ticket and five pounds change.'",
+      "hint": "Find the sentence about change."
+    },
+    {
+      "id": "q11",
+      "prompt": "What does the agent say at the end?",
+      "options": [
+        "Have a nice day!",
+        "See you tomorrow!",
+        "Have a good journey!",
+        "Good luck!"
+      ],
+      "answerIndex": 2,
+      "explanation": "'Have a good journey!'",
+      "hint": "Listen to the agent's last full sentence."
+    },
+    {
+      "id": "q12",
+      "prompt": "What does the passenger ask the agent a second time?",
+      "options": [
+        "The ticket price",
+        "The departure time",
+        "The platform number",
+        "The journey time"
+      ],
+      "answerIndex": 2,
+      "explanation": "'Which platform is it again?'",
+      "hint": "Look for the passenger's question near the end."
+    }
+  ],
+  "cloze": {
+    "template": "Passenger: Hello. I would like to {{b1}} a ticket to London, please. Agent: Would you like a {{b2}} or a return ticket? Passenger: A return ticket, please. I am going today and coming back {{b3}}. Agent: Would you like {{b4}} class or first class? Passenger: Standard class, please. How {{b5}} is it? Agent: A standard return ticket to London is {{b6}} pounds. Passenger: What time does the next train {{b7}}? Agent: The next train leaves at two fifteen. {{b8}} three. Passenger: How long does the {{b9}} take? Agent: It takes about one hour and twenty {{b10}}. Passenger: Perfect. Here is fifty {{b11}}. Agent: Here is your {{b12}} and five pounds {{b13}}. Passenger: Which platform is it {{b14}}?",
+    "blanks": [
+      {
+        "id": "b1",
+        "options": [
+          "get",
+          "take",
+          "buy",
+          "find"
+        ],
+        "answerIndex": 2,
+        "explanation": "'I would like to buy a ticket to London.'"
+      },
+      {
+        "id": "b2",
+        "options": [
+          "one-way",
+          "day",
+          "single",
+          "cheap"
+        ],
+        "answerIndex": 2,
+        "explanation": "'Would you like a single or a return ticket?'"
+      },
+      {
+        "id": "b3",
+        "options": [
+          "today",
+          "tonight",
+          "tomorrow",
+          "next week"
+        ],
+        "answerIndex": 2,
+        "explanation": "'I am going today and coming back tomorrow.'"
+      },
+      {
+        "id": "b4",
+        "options": [
+          "economy",
+          "business",
+          "standard",
+          "premium"
+        ],
+        "answerIndex": 2,
+        "explanation": "'Would you like standard class or first class?'"
+      },
+      {
+        "id": "b5",
+        "options": [
+          "big",
+          "much",
+          "far",
+          "fast"
+        ],
+        "answerIndex": 1,
+        "explanation": "'How much is it?'"
+      },
+      {
+        "id": "b6",
+        "options": [
+          "thirty-five",
+          "forty",
+          "forty-five",
+          "fifty"
+        ],
+        "answerIndex": 2,
+        "explanation": "'A standard return ticket to London is forty-five pounds.'"
+      },
+      {
+        "id": "b7",
+        "options": [
+          "arrive",
+          "go",
+          "leave",
+          "stop"
+        ],
+        "answerIndex": 2,
+        "explanation": "'What time does the next train leave?'"
+      },
+      {
+        "id": "b8",
+        "options": [
+          "Gate",
+          "Track",
+          "Platform",
+          "Door"
+        ],
+        "answerIndex": 2,
+        "explanation": "'Platform three.'"
+      },
+      {
+        "id": "b9",
+        "options": [
+          "trip",
+          "journey",
+          "ride",
+          "walk"
+        ],
+        "answerIndex": 1,
+        "explanation": "'How long does the journey take?'"
+      },
+      {
+        "id": "b10",
+        "options": [
+          "hours",
+          "seconds",
+          "days",
+          "minutes"
+        ],
+        "answerIndex": 3,
+        "explanation": "'It takes about one hour and twenty minutes.'"
+      },
+      {
+        "id": "b11",
+        "options": [
+          "euros",
+          "dollars",
+          "pounds",
+          "pence"
+        ],
+        "answerIndex": 2,
+        "explanation": "'Here is fifty pounds.'"
+      },
+      {
+        "id": "b12",
+        "options": [
+          "receipt",
+          "ticket",
+          "pass",
+          "card"
+        ],
+        "answerIndex": 1,
+        "explanation": "'Here is your ticket and five pounds change.'"
+      },
+      {
+        "id": "b13",
+        "options": [
+          "refund",
+          "discount",
+          "change",
+          "extra"
+        ],
+        "answerIndex": 2,
+        "explanation": "'Here is your ticket and five pounds change.'"
+      },
+      {
+        "id": "b14",
+        "options": [
+          "please",
+          "again",
+          "now",
+          "exactly"
+        ],
+        "answerIndex": 1,
+        "explanation": "'Which platform is it again?'"
+      }
+    ]
+  },
+  "criticalThinkingQuestion": "The passenger chose a return ticket instead of two single tickets. Why do you think return tickets are often cheaper than buying two single tickets separately?",
+  "totalDurationMs": 58920
+}

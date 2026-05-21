@@ -5,24 +5,76 @@
   "summary": "A traveller named Tom asks a station employee, Anna, about trains to Edinburgh — including departure times, the platform, and the ticket price.",
   "format": "dialogue",
   "body": [
-    {"speaker": "Tom", "text": "Excuse me, could you help me? I'm looking for information about trains to Edinburgh."},
-    {"speaker": "Anna", "text": "Of course. When are you planning to travel?"},
-    {"speaker": "Tom", "text": "Today, if possible. I'd like to leave as soon as possible."},
-    {"speaker": "Anna", "text": "Let me check. There's a train leaving at half past eleven. The next one after that is at two o'clock."},
-    {"speaker": "Tom", "text": "How long does the journey take?"},
-    {"speaker": "Anna", "text": "It takes about four and a half hours on the direct train."},
-    {"speaker": "Tom", "text": "Is the eleven thirty train direct?"},
-    {"speaker": "Anna", "text": "Yes, it goes straight to Edinburgh without any stops."},
-    {"speaker": "Tom", "text": "That sounds perfect. Which platform does it leave from?"},
-    {"speaker": "Anna", "text": "Platform seven. You'll need to go through the barrier at the end of this hall."},
-    {"speaker": "Tom", "text": "Thank you. And how much is a ticket?"},
-    {"speaker": "Anna", "text": "A standard single is forty-two pounds. If you have a railcard, you can get a third off."},
-    {"speaker": "Tom", "text": "I do have a railcard, actually. So that would be around twenty-eight pounds?"},
-    {"speaker": "Anna", "text": "That's right. You can buy the ticket at the machine over there, or at the ticket desk."},
-    {"speaker": "Tom", "text": "Brilliant, thank you so much. You've been really helpful."},
-    {"speaker": "Anna", "text": "You're welcome. Have a good journey!"}
+    {
+      "speaker": "Tom",
+      "text": "Excuse me, could you help me? I'm looking for information about trains to Edinburgh."
+    },
+    {
+      "speaker": "Anna",
+      "text": "Of course. When are you planning to travel?"
+    },
+    {
+      "speaker": "Tom",
+      "text": "Today, if possible. I'd like to leave as soon as possible."
+    },
+    {
+      "speaker": "Anna",
+      "text": "Let me check. There's a train leaving at half past eleven. The next one after that is at two o'clock."
+    },
+    {
+      "speaker": "Tom",
+      "text": "How long does the journey take?"
+    },
+    {
+      "speaker": "Anna",
+      "text": "It takes about four and a half hours on the direct train."
+    },
+    {
+      "speaker": "Tom",
+      "text": "Is the eleven thirty train direct?"
+    },
+    {
+      "speaker": "Anna",
+      "text": "Yes, it goes straight to Edinburgh without any stops."
+    },
+    {
+      "speaker": "Tom",
+      "text": "That sounds perfect. Which platform does it leave from?"
+    },
+    {
+      "speaker": "Anna",
+      "text": "Platform seven. You'll need to go through the barrier at the end of this hall."
+    },
+    {
+      "speaker": "Tom",
+      "text": "Thank you. And how much is a ticket?"
+    },
+    {
+      "speaker": "Anna",
+      "text": "A standard single is forty-two pounds. If you have a railcard, you can get a third off."
+    },
+    {
+      "speaker": "Tom",
+      "text": "I do have a railcard, actually. So that would be around twenty-eight pounds?"
+    },
+    {
+      "speaker": "Anna",
+      "text": "That's right. You can buy the ticket at the machine over there, or at the ticket desk."
+    },
+    {
+      "speaker": "Tom",
+      "text": "Brilliant, thank you so much. You've been really helpful."
+    },
+    {
+      "speaker": "Anna",
+      "text": "You're welcome. Have a good journey!"
+    }
   ],
-  "tags": ["travel", "transport", "asking for help"],
+  "tags": [
+    "travel",
+    "transport",
+    "asking for help"
+  ],
   "annotations": [
     {
       "phrase": "looking for information about",
@@ -114,7 +166,12 @@
     {
       "id": "q1",
       "prompt": "What is Tom asking Anna about?",
-      "options": ["Buses to London", "Trains to Edinburgh", "Flights to Edinburgh", "Trains to Manchester"],
+      "options": [
+        "Buses to London",
+        "Trains to Edinburgh",
+        "Flights to Edinburgh",
+        "Trains to Manchester"
+      ],
       "answerIndex": 1,
       "explanation": "Tom says 'I'm looking for information about trains to Edinburgh.'",
       "hint": "Listen to Tom's very first sentence."
@@ -122,7 +179,12 @@
     {
       "id": "q2",
       "prompt": "When does Tom want to travel?",
-      "options": ["Tomorrow morning", "Next weekend", "Today, as soon as possible", "This evening"],
+      "options": [
+        "Tomorrow morning",
+        "Next weekend",
+        "Today, as soon as possible",
+        "This evening"
+      ],
       "answerIndex": 2,
       "explanation": "Tom says 'Today, if possible. I'd like to leave as soon as possible.'",
       "hint": "Tom is in a hurry."
@@ -130,7 +192,12 @@
     {
       "id": "q3",
       "prompt": "What time does the first train leave?",
-      "options": ["Ten past eleven", "Eleven o'clock", "Half past eleven", "Twelve o'clock"],
+      "options": [
+        "Ten past eleven",
+        "Eleven o'clock",
+        "Half past eleven",
+        "Twelve o'clock"
+      ],
       "answerIndex": 2,
       "explanation": "Anna says 'There's a train leaving at half past eleven.'",
       "hint": "'Half past' means 30 minutes after the hour."
@@ -138,7 +205,12 @@
     {
       "id": "q4",
       "prompt": "What time is the next train after the first one?",
-      "options": ["One o'clock", "Two o'clock", "Two thirty", "Three o'clock"],
+      "options": [
+        "One o'clock",
+        "Two o'clock",
+        "Two thirty",
+        "Three o'clock"
+      ],
       "answerIndex": 1,
       "explanation": "Anna says 'The next one after that is at two o'clock.'",
       "hint": "Anna gives two options — one at 11:30 and the next one at..."
@@ -146,7 +218,12 @@
     {
       "id": "q5",
       "prompt": "How long does the journey to Edinburgh take?",
-      "options": ["Three hours", "Four hours", "Four and a half hours", "Five hours"],
+      "options": [
+        "Three hours",
+        "Four hours",
+        "Four and a half hours",
+        "Five hours"
+      ],
       "answerIndex": 2,
       "explanation": "'It takes about four and a half hours on the direct train.'",
       "hint": "The answer is between four and five hours."
@@ -154,7 +231,12 @@
     {
       "id": "q6",
       "prompt": "Is the 11:30 train direct?",
-      "options": ["No, it stops twice", "No, you must change at Glasgow", "Yes, it goes straight to Edinburgh", "It depends on the day"],
+      "options": [
+        "No, it stops twice",
+        "No, you must change at Glasgow",
+        "Yes, it goes straight to Edinburgh",
+        "It depends on the day"
+      ],
       "answerIndex": 2,
       "explanation": "Anna confirms 'it goes straight to Edinburgh without any stops.'",
       "hint": "Tom specifically asks about this."
@@ -162,7 +244,12 @@
     {
       "id": "q7",
       "prompt": "Which platform does the train leave from?",
-      "options": ["Platform three", "Platform five", "Platform seven", "Platform nine"],
+      "options": [
+        "Platform three",
+        "Platform five",
+        "Platform seven",
+        "Platform nine"
+      ],
       "answerIndex": 2,
       "explanation": "Anna says 'Platform seven.'",
       "hint": "Listen carefully for the platform number."
@@ -170,7 +257,12 @@
     {
       "id": "q8",
       "prompt": "How much does a standard single ticket cost?",
-      "options": ["Twenty-eight pounds", "Thirty-five pounds", "Forty pounds", "Forty-two pounds"],
+      "options": [
+        "Twenty-eight pounds",
+        "Thirty-five pounds",
+        "Forty pounds",
+        "Forty-two pounds"
+      ],
       "answerIndex": 3,
       "explanation": "Anna says 'A standard single is forty-two pounds.'",
       "hint": "This is the full price before any discount."
@@ -178,7 +270,12 @@
     {
       "id": "q9",
       "prompt": "What discount can a railcard give you?",
-      "options": ["Half off", "A quarter off", "A third off", "Ten percent off"],
+      "options": [
+        "Half off",
+        "A quarter off",
+        "A third off",
+        "Ten percent off"
+      ],
       "answerIndex": 2,
       "explanation": "Anna says 'you can get a third off' with a railcard.",
       "hint": "The discount is expressed as a fraction."
@@ -186,7 +283,12 @@
     {
       "id": "q10",
       "prompt": "What is the discounted price Tom calculates?",
-      "options": ["Twenty-one pounds", "Twenty-five pounds", "Twenty-eight pounds", "Thirty pounds"],
+      "options": [
+        "Twenty-one pounds",
+        "Twenty-five pounds",
+        "Twenty-eight pounds",
+        "Thirty pounds"
+      ],
       "answerIndex": 2,
       "explanation": "Tom says 'So that would be around twenty-eight pounds?' and Anna confirms.",
       "hint": "Tom does the maths himself in the conversation."
@@ -194,7 +296,12 @@
     {
       "id": "q11",
       "prompt": "Where can Tom buy the ticket?",
-      "options": ["Only at the ticket desk", "Only from the guard on the train", "At the machine or at the ticket desk", "Online only"],
+      "options": [
+        "Only at the ticket desk",
+        "Only from the guard on the train",
+        "At the machine or at the ticket desk",
+        "Online only"
+      ],
       "answerIndex": 2,
       "explanation": "Anna says 'You can buy the ticket at the machine over there, or at the ticket desk.'",
       "hint": "Anna gives him two options for purchasing."
@@ -205,74 +312,131 @@
     "blanks": [
       {
         "id": "b1",
-        "options": ["Glasgow", "London", "Edinburgh", "Manchester"],
+        "options": [
+          "Glasgow",
+          "London",
+          "Edinburgh",
+          "Manchester"
+        ],
         "answerIndex": 2,
         "explanation": "'Edinburgh' — Tom is asking about trains to Edinburgh."
       },
       {
         "id": "b2",
-        "options": ["fast", "early", "soon", "quick"],
+        "options": [
+          "fast",
+          "early",
+          "soon",
+          "quick"
+        ],
         "answerIndex": 2,
         "explanation": "'soon' — 'as soon as possible' is a very common phrase meaning at the earliest opportunity."
       },
       {
         "id": "b3",
-        "options": ["ten", "twelve", "nine", "eleven"],
+        "options": [
+          "ten",
+          "twelve",
+          "nine",
+          "eleven"
+        ],
         "answerIndex": 3,
         "explanation": "'eleven' — the train leaves at half past eleven (11:30)."
       },
       {
         "id": "b4",
-        "options": ["slow", "local", "direct", "express"],
+        "options": [
+          "slow",
+          "local",
+          "direct",
+          "express"
+        ],
         "answerIndex": 2,
         "explanation": "'direct' — the journey takes four and a half hours on the direct train."
       },
       {
         "id": "b5",
-        "options": ["passengers", "delays", "stops", "changes"],
+        "options": [
+          "passengers",
+          "delays",
+          "stops",
+          "changes"
+        ],
         "answerIndex": 2,
         "explanation": "'stops' — the train goes straight to Edinburgh without any stops."
       },
       {
         "id": "b6",
-        "options": ["gate", "door", "track", "platform"],
+        "options": [
+          "gate",
+          "door",
+          "track",
+          "platform"
+        ],
         "answerIndex": 3,
         "explanation": "'platform' — the numbered area at a station where passengers board the train."
       },
       {
         "id": "b7",
-        "options": ["exit", "entrance", "barrier", "gate"],
+        "options": [
+          "exit",
+          "entrance",
+          "barrier",
+          "gate"
+        ],
         "answerIndex": 2,
         "explanation": "'barrier' — the ticket barrier (turnstile or gate) that you pass through at a station."
       },
       {
         "id": "b8",
-        "options": ["return", "single", "ticket", "pass"],
+        "options": [
+          "return",
+          "single",
+          "ticket",
+          "pass"
+        ],
         "answerIndex": 1,
         "explanation": "'single' — a standard single is a one-way ticket."
       },
       {
         "id": "b9",
-        "options": ["thirty", "twenty-five", "twenty-eight", "thirty-five"],
+        "options": [
+          "thirty",
+          "twenty-five",
+          "twenty-eight",
+          "thirty-five"
+        ],
         "answerIndex": 2,
         "explanation": "'twenty-eight' — £42 minus one third (£14) = £28."
       },
       {
         "id": "b10",
-        "options": ["counter", "desk", "office", "window"],
+        "options": [
+          "counter",
+          "desk",
+          "office",
+          "window"
+        ],
         "answerIndex": 1,
         "explanation": "'desk' — the ticket desk is the staffed counter where you can buy tickets."
       },
       {
         "id": "b11",
-        "options": ["kind", "fast", "helpful", "polite"],
+        "options": [
+          "kind",
+          "fast",
+          "helpful",
+          "polite"
+        ],
         "answerIndex": 2,
         "explanation": "'helpful' — Tom thanks Anna for being really helpful."
       }
     ]
   },
   "criticalThinkingQuestion": "Tom uses a railcard to get a discount on his train ticket. Many countries offer discount cards for travellers — for students, seniors, or frequent travellers. Do you think governments should make public transport cheaper for everyone, or is it fair to only give discounts to certain groups? Why?",
-  "accents": ["en-GB"],
+  "accents": [
+    "en-GB"
+  ],
   "voices": {
     "Tom": {
       "sex": "male",
@@ -288,38 +452,184 @@
     }
   },
   "sentences": [
-    {"id": "s1", "speaker": "Tom", "text": "Excuse me, could you help me?"},
-    {"id": "s2", "speaker": "Tom", "text": "I'm looking for information about trains to Edinburgh."},
-    {"id": "s3", "speaker": "Anna", "text": "Of course."},
-    {"id": "s4", "speaker": "Anna", "text": "When are you planning to travel?"},
-    {"id": "s5", "speaker": "Tom", "text": "Today, if possible."},
-    {"id": "s6", "speaker": "Tom", "text": "I'd like to leave as soon as possible."},
-    {"id": "s7", "speaker": "Anna", "text": "Let me check."},
-    {"id": "s8", "speaker": "Anna", "text": "There's a train leaving at half past eleven."},
-    {"id": "s9", "speaker": "Anna", "text": "The next one after that is at two o'clock."},
-    {"id": "s10", "speaker": "Tom", "text": "How long does the journey take?"},
-    {"id": "s11", "speaker": "Anna", "text": "It takes about four and a half hours on the direct train."},
-    {"id": "s12", "speaker": "Tom", "text": "Is the eleven thirty train direct?"},
-    {"id": "s13", "speaker": "Anna", "text": "Yes, it goes straight to Edinburgh without any stops."},
-    {"id": "s14", "speaker": "Tom", "text": "That sounds perfect."},
-    {"id": "s15", "speaker": "Tom", "text": "Which platform does it leave from?"},
-    {"id": "s16", "speaker": "Anna", "text": "Platform seven."},
-    {"id": "s17", "speaker": "Anna", "text": "You'll need to go through the barrier at the end of this hall."},
-    {"id": "s18", "speaker": "Tom", "text": "Thank you."},
-    {"id": "s19", "speaker": "Tom", "text": "And how much is a ticket?"},
-    {"id": "s20", "speaker": "Anna", "text": "A standard single is forty-two pounds."},
-    {"id": "s21", "speaker": "Anna", "text": "If you have a railcard, you can get a third off."},
-    {"id": "s22", "speaker": "Tom", "text": "I do have a railcard, actually."},
-    {"id": "s23", "speaker": "Tom", "text": "So that would be around twenty-eight pounds?"},
-    {"id": "s24", "speaker": "Anna", "text": "That's right."},
-    {"id": "s25", "speaker": "Anna", "text": "You can buy the ticket at the machine over there, or at the ticket desk."},
-    {"id": "s26", "speaker": "Tom", "text": "Brilliant, thank you so much."},
-    {"id": "s27", "speaker": "Tom", "text": "You've been really helpful."},
-    {"id": "s28", "speaker": "Anna", "text": "You're welcome."},
-    {"id": "s29", "speaker": "Anna", "text": "Have a good journey!"}
+    {
+      "id": "s1",
+      "speaker": "Tom",
+      "text": "Excuse me, could you help me?",
+      "durationMs": 2688
+    },
+    {
+      "id": "s2",
+      "speaker": "Tom",
+      "text": "I'm looking for information about trains to Edinburgh.",
+      "durationMs": 3456
+    },
+    {
+      "id": "s3",
+      "speaker": "Anna",
+      "text": "Of course.",
+      "durationMs": 1680
+    },
+    {
+      "id": "s4",
+      "speaker": "Anna",
+      "text": "When are you planning to travel?",
+      "durationMs": 2592
+    },
+    {
+      "id": "s5",
+      "speaker": "Tom",
+      "text": "Today, if possible.",
+      "durationMs": 2280
+    },
+    {
+      "id": "s6",
+      "speaker": "Tom",
+      "text": "I'd like to leave as soon as possible.",
+      "durationMs": 2856
+    },
+    {
+      "id": "s7",
+      "speaker": "Anna",
+      "text": "Let me check.",
+      "durationMs": 1920
+    },
+    {
+      "id": "s8",
+      "speaker": "Anna",
+      "text": "There's a train leaving at half past eleven.",
+      "durationMs": 3504
+    },
+    {
+      "id": "s9",
+      "speaker": "Anna",
+      "text": "The next one after that is at two o'clock.",
+      "durationMs": 3432
+    },
+    {
+      "id": "s10",
+      "speaker": "Tom",
+      "text": "How long does the journey take?",
+      "durationMs": 2496
+    },
+    {
+      "id": "s11",
+      "speaker": "Anna",
+      "text": "It takes about four and a half hours on the direct train.",
+      "durationMs": 4200
+    },
+    {
+      "id": "s12",
+      "speaker": "Tom",
+      "text": "Is the eleven thirty train direct?",
+      "durationMs": 2904
+    },
+    {
+      "id": "s13",
+      "speaker": "Anna",
+      "text": "Yes, it goes straight to Edinburgh without any stops.",
+      "durationMs": 4488
+    },
+    {
+      "id": "s14",
+      "speaker": "Tom",
+      "text": "That sounds perfect.",
+      "durationMs": 2232
+    },
+    {
+      "id": "s15",
+      "speaker": "Tom",
+      "text": "Which platform does it leave from?",
+      "durationMs": 2760
+    },
+    {
+      "id": "s16",
+      "speaker": "Anna",
+      "text": "Platform seven.",
+      "durationMs": 2184
+    },
+    {
+      "id": "s17",
+      "speaker": "Anna",
+      "text": "You'll need to go through the barrier at the end of this hall.",
+      "durationMs": 3888
+    },
+    {
+      "id": "s18",
+      "speaker": "Tom",
+      "text": "Thank you.",
+      "durationMs": 1536
+    },
+    {
+      "id": "s19",
+      "speaker": "Tom",
+      "text": "And how much is a ticket?",
+      "durationMs": 2328
+    },
+    {
+      "id": "s20",
+      "speaker": "Anna",
+      "text": "A standard single is forty-two pounds.",
+      "durationMs": 3528
+    },
+    {
+      "id": "s21",
+      "speaker": "Anna",
+      "text": "If you have a railcard, you can get a third off.",
+      "durationMs": 3864
+    },
+    {
+      "id": "s22",
+      "speaker": "Tom",
+      "text": "I do have a railcard, actually.",
+      "durationMs": 2880
+    },
+    {
+      "id": "s23",
+      "speaker": "Tom",
+      "text": "So that would be around twenty-eight pounds?",
+      "durationMs": 3168
+    },
+    {
+      "id": "s24",
+      "speaker": "Anna",
+      "text": "That's right.",
+      "durationMs": 1800
+    },
+    {
+      "id": "s25",
+      "speaker": "Anna",
+      "text": "You can buy the ticket at the machine over there, or at the ticket desk.",
+      "durationMs": 4944
+    },
+    {
+      "id": "s26",
+      "speaker": "Tom",
+      "text": "Brilliant, thank you so much.",
+      "durationMs": 2832
+    },
+    {
+      "id": "s27",
+      "speaker": "Tom",
+      "text": "You've been really helpful.",
+      "durationMs": 2352
+    },
+    {
+      "id": "s28",
+      "speaker": "Anna",
+      "text": "You're welcome.",
+      "durationMs": 1776
+    },
+    {
+      "id": "s29",
+      "speaker": "Anna",
+      "text": "Have a good journey!",
+      "durationMs": 2016
+    }
   ],
   "audio": {
     "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/listening-a2-007",
     "manifestVersion": 1
-  }
+  },
+  "totalDurationMs": 82584
 }

@@ -1,0 +1,914 @@
+{
+  "id": "listening-c1-012",
+  "level": "C1",
+  "title": "Podcast Interview on AI Ethics",
+  "summary": "A podcast host and AI ethics researcher discuss the moral frameworks governing artificial intelligence, debating alignment, autonomy, accountability, and the governance of systems that make consequential decisions.",
+  "format": "dialogue",
+  "body": [
+    {
+      "speaker": "Host",
+      "text": "Welcome back to the programme. Today I'm joined by a researcher whose work sits at the intersection of moral philosophy and machine learning. The question I want to open with is deceptively simple: is artificial intelligence an ethical problem, or is it merely a technical one?"
+    },
+    {
+      "speaker": "Guest",
+      "text": "That framing itself conceals a lot. The systems we're building aren't neutral tools in the way a hammer is neutral — they encode assumptions, they replicate patterns from historical data, and in many cases they make consequential decisions about people's lives without any meaningful human review."
+    },
+    {
+      "speaker": "Host",
+      "text": "But surely the ethical responsibility lies with the engineers and the organisations deploying these systems? The AI itself doesn't have intentions."
+    },
+    {
+      "speaker": "Guest",
+      "text": "That's true in a strict philosophical sense, but it mislocates where the harm occurs. When a hiring algorithm systematically disadvantages candidates from certain demographic groups, the harm is real regardless of whether the system 'intended' it. Intention is a condition for certain kinds of moral blame, but it isn't a condition for the existence of harm."
+    },
+    {
+      "speaker": "Host",
+      "text": "So you'd argue that the focus on intent — which dominates a lot of our legal and moral frameworks — actually becomes an obstacle when we're thinking about AI accountability?"
+    },
+    {
+      "speaker": "Guest",
+      "text": "Precisely. Tort law and criminal law both lean heavily on intent and foreseeability. But AI systems produce emergent behaviours that no individual designer fully anticipates. We need accountability frameworks that can assign responsibility for outcomes, not just for intentions."
+    },
+    {
+      "speaker": "Host",
+      "text": "Let's talk about alignment — the idea that AI systems should be aligned with human values. That sounds intuitive, but whose values are we talking about?"
+    },
+    {
+      "speaker": "Guest",
+      "text": "That's the central tension. Human values are plural, contested, and culturally situated. The naive version of alignment assumes there's a coherent set of human preferences we can specify and optimise for. But what counts as a good outcome differs enormously between individuals, communities, and historical periods."
+    },
+    {
+      "speaker": "Host",
+      "text": "Some researchers argue for a kind of procedural alignment — rather than encoding particular values, you design the system to defer to legitimate human deliberation processes. Does that approach have merit?"
+    },
+    {
+      "speaker": "Guest",
+      "text": "It has genuine merit, and it sidesteps the problem of whose values to privilege. But it introduces a different problem: it assumes the deliberation processes themselves are legitimate. In practice, many of the institutions mediating those processes are captured by narrow interests, structurally unrepresentative, or simply too slow to keep pace with technological change."
+    },
+    {
+      "speaker": "Host",
+      "text": "What about the autonomy dimension? At what point, if ever, should an AI system be able to override a human instruction on ethical grounds?"
+    },
+    {
+      "speaker": "Guest",
+      "text": "This is where the field is most divided. There's a strong case for what's called corrigibility — keeping AI systems maximally responsive to human correction at all times, on the grounds that we can't yet verify whether a system's values are trustworthy enough to warrant autonomous action. But corrigibility taken to its logical extreme is also dangerous: a fully corrigible system does whatever it's told, and if it's told to do something harmful by a sufficiently powerful actor, it will comply."
+    },
+    {
+      "speaker": "Host",
+      "text": "So you end up with a dilemma between systems that are too obedient and systems that are trusted with judgements they may not be equipped to make."
+    },
+    {
+      "speaker": "Guest",
+      "text": "Exactly. And I think the honest answer is that we don't yet have reliable methods for auditing AI values with the confidence required to extend genuine moral autonomy to a system. The epistemic problem is as hard as the technical one."
+    },
+    {
+      "speaker": "Host",
+      "text": "One argument I hear frequently is that AI simply reflects the society that produced it — and therefore that the conversation about AI ethics is really a displaced conversation about social ethics. How much do you agree with that?"
+    },
+    {
+      "speaker": "Guest",
+      "text": "I agree with it as a diagnosis but not as a conclusion. Yes, AI systems inherit and amplify existing social biases — that's empirically well-documented. But they also introduce qualitatively new risks: unprecedented speed of decision-making, opacity of reasoning, concentration of power in the hands of very few actors. So fixing social inequity won't automatically fix AI ethics, and vice versa — though they're deeply entangled."
+    },
+    {
+      "speaker": "Host",
+      "text": "Finally, what does responsible AI governance actually look like in practice? What should we be demanding from governments, companies, and researchers?"
+    },
+    {
+      "speaker": "Guest",
+      "text": "At minimum: mandatory impact assessments before deploying high-stakes systems, meaningful mechanisms for redress when those systems cause harm, transparency requirements that go beyond superficial explainability, and genuine diversity — epistemically and demographically — in the teams designing and auditing them. But above all, we need to resist the assumption that because something is technically possible, deploying it is inevitable. That fatalism is one of the most dangerous ideas in the field."
+    }
+  ],
+  "tags": [
+    "AI ethics",
+    "philosophy",
+    "technology governance",
+    "accountability"
+  ],
+  "annotations": [
+    {
+      "phrase": "sits at the intersection",
+      "meaningVi": "nằm ở giao điểm của, kết hợp giữa hai lĩnh vực",
+      "pronunciation": "/sɪts æt ðə ˌɪntəˈsekʃən/",
+      "exampleEn": "Her research sits at the intersection of economics and public health."
+    },
+    {
+      "phrase": "encode assumptions",
+      "meaningVi": "mã hóa các giả định — nhúng các quan điểm ngầm vào hệ thống",
+      "pronunciation": "/ɪnˈkəʊd əˈsʌmpʃənz/",
+      "exampleEn": "Every dataset used to train a model encodes assumptions about what counts as normal."
+    },
+    {
+      "phrase": "consequential decisions",
+      "meaningVi": "các quyết định có hậu quả quan trọng, ảnh hưởng đến cuộc sống",
+      "pronunciation": "/ˌkɒnsɪˈkwenʃəl dɪˈsɪʒənz/",
+      "exampleEn": "Credit scoring algorithms make consequential decisions without human oversight."
+    },
+    {
+      "phrase": "mislocates where the harm occurs",
+      "meaningVi": "đặt sai vị trí nguồn gốc của tác hại",
+      "pronunciation": "/ˌmɪsləʊˈkeɪts weə ðə hɑːm əˈkɜːz/",
+      "exampleEn": "Focusing on intent alone mislocates where the harm occurs in systemic discrimination."
+    },
+    {
+      "phrase": "hiring algorithm",
+      "meaningVi": "thuật toán tuyển dụng — hệ thống AI lọc hồ sơ ứng viên",
+      "pronunciation": "/ˈhaɪərɪŋ ˈælɡərɪðəm/",
+      "exampleEn": "A hiring algorithm trained on historical data can perpetuate past discriminatory patterns."
+    },
+    {
+      "phrase": "tort law",
+      "meaningVi": "luật bồi thường dân sự — nhánh luật điều chỉnh trách nhiệm pháp lý về thiệt hại",
+      "pronunciation": "/tɔːt lɔː/",
+      "exampleEn": "Tort law requires proof of negligence or intent to assign civil liability."
+    },
+    {
+      "phrase": "emergent behaviours",
+      "meaningVi": "hành vi mới nổi — hành vi xuất hiện từ hệ thống phức tạp, không được thiết kế cụ thể",
+      "pronunciation": "/ɪˈmɜːdʒənt bɪˈheɪvjəz/",
+      "exampleEn": "Large language models exhibit emergent behaviours that their designers did not anticipate."
+    },
+    {
+      "phrase": "alignment",
+      "meaningVi": "căn chỉnh — quá trình đảm bảo AI hoạt động phù hợp với giá trị và mục tiêu của con người",
+      "pronunciation": "/əˈlaɪnmənt/",
+      "exampleEn": "AI alignment research aims to ensure powerful systems pursue goals beneficial to humanity."
+    },
+    {
+      "phrase": "culturally situated",
+      "meaningVi": "gắn liền với văn hóa cụ thể, bị ảnh hưởng bởi bối cảnh văn hóa",
+      "pronunciation": "/ˈkʌltʃərəli ˈsɪtʃuˌeɪtɪd/",
+      "exampleEn": "What counts as polite behaviour is culturally situated and cannot be universalised."
+    },
+    {
+      "phrase": "procedural alignment",
+      "meaningVi": "căn chỉnh theo thủ tục — thiết kế AI tuân theo quy trình thảo luận hợp lệ thay vì giá trị cố định",
+      "pronunciation": "/prəˈsiːdʒərəl əˈlaɪnmənt/",
+      "exampleEn": "Procedural alignment defers to democratic deliberation rather than pre-specified values."
+    },
+    {
+      "phrase": "captured by narrow interests",
+      "meaningVi": "bị chiếm đoạt bởi lợi ích hẹp — khi tổ chức phục vụ nhóm nhỏ thay vì lợi ích chung",
+      "pronunciation": "/ˈkæptʃəd baɪ ˈnærəʊ ˈɪntrəsts/",
+      "exampleEn": "Regulatory bodies can become captured by narrow interests over time."
+    },
+    {
+      "phrase": "corrigibility",
+      "meaningVi": "tính có thể sửa chữa — khả năng của AI bị con người chỉnh sửa hoặc tắt bất cứ lúc nào",
+      "pronunciation": "/ˌkɒrɪdʒɪˈbɪlɪti/",
+      "exampleEn": "Corrigibility is considered essential for safe AI during the early phases of development."
+    },
+    {
+      "phrase": "epistemic problem",
+      "meaningVi": "vấn đề nhận thức luận — khó khăn liên quan đến giới hạn của tri thức",
+      "pronunciation": "/ˌepɪˈstiːmɪk ˈprɒbləm/",
+      "exampleEn": "Verifying that an AI system has good values is a profound epistemic problem."
+    },
+    {
+      "phrase": "displaced conversation",
+      "meaningVi": "cuộc trò chuyện chuyển dịch — thảo luận về một vấn đề thực ra là thảo luận gián tiếp về vấn đề khác",
+      "pronunciation": "/dɪsˈpleɪst ˌkɒnvəˈseɪʃən/",
+      "exampleEn": "Debates about social media algorithms are often a displaced conversation about capitalism."
+    },
+    {
+      "phrase": "opacity of reasoning",
+      "meaningVi": "tính không minh bạch của lý luận — khi quá trình ra quyết định của AI không thể giải thích được",
+      "pronunciation": "/əʊˈpæsɪti əv ˈriːzənɪŋ/",
+      "exampleEn": "The opacity of reasoning in neural networks raises serious accountability questions."
+    },
+    {
+      "phrase": "impact assessments",
+      "meaningVi": "đánh giá tác động — phân tích có hệ thống về hậu quả của một chính sách hoặc công nghệ",
+      "pronunciation": "/ˈɪmpækt əˈsesments/",
+      "exampleEn": "Mandatory impact assessments could prevent harmful AI deployments before they occur."
+    },
+    {
+      "phrase": "redress",
+      "meaningVi": "đền bù, khắc phục — cơ chế sửa chữa thiệt hại đã gây ra",
+      "pronunciation": "/rɪˈdres/",
+      "exampleEn": "Victims of algorithmic discrimination currently have limited avenues for redress."
+    },
+    {
+      "phrase": "superficial explainability",
+      "meaningVi": "khả năng giải thích hời hợt — giải thích bề mặt không tiết lộ cơ chế thực sự",
+      "pronunciation": "/ˌsuːpəˈfɪʃəl ɪkˌspleɪnəˈbɪlɪti/",
+      "exampleEn": "Superficial explainability satisfies regulators without revealing how decisions are actually made."
+    },
+    {
+      "phrase": "epistemically diverse",
+      "meaningVi": "đa dạng về nhận thức luận — bao gồm nhiều cách tiếp cận tri thức và quan điểm khác nhau",
+      "pronunciation": "/ˌepɪˈstiːmɪkli daɪˈvɜːs/",
+      "exampleEn": "Epistemically diverse teams are less likely to overlook blind spots in system design."
+    },
+    {
+      "phrase": "technological fatalism",
+      "meaningVi": "thuyết định mệnh công nghệ — niềm tin rằng sự phát triển công nghệ là không thể ngăn cản",
+      "pronunciation": "/ˌteknəˈlɒdʒɪkəl ˈfeɪtəlɪzəm/",
+      "exampleEn": "Technological fatalism removes human agency from decisions about how to develop AI."
+    },
+    {
+      "phrase": "moral autonomy",
+      "meaningVi": "quyền tự chủ đạo đức — khả năng đưa ra phán quyết đạo đức độc lập",
+      "pronunciation": "/ˈmɒrəl ɔːˈtɒnəmi/",
+      "exampleEn": "Whether an AI system can be granted moral autonomy depends on the reliability of its values."
+    },
+    {
+      "phrase": "deeply entangled",
+      "meaningVi": "đan xen sâu sắc, không thể tách rời",
+      "pronunciation": "/ˈdiːpli ɪnˈtæŋɡəld/",
+      "exampleEn": "Questions of economic inequality and environmental harm are deeply entangled."
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Discourse markers for concession and contrast in spoken academic English",
+      "bodyVi": "Trong hội thoại học thuật, các từ nối nhượng bộ như 'Precisely', 'Exactly', 'That's true in a strict philosophical sense, but…' thường xuyên được dùng để thừa nhận một quan điểm trước khi bác bỏ hoặc giới hạn nó. Cấu trúc 'X is true, but it mislocates / conceals / sidesteps Y' là một pattern phổ biến trong phong cách tranh luận học thuật. Nó cho thấy người nói đồng ý một phần nhưng lập luận rằng phần đồng ý đó không đủ để bác bỏ điểm chính.",
+      "bodyEn": "In academic dialogue, concessive discourse markers signal partial agreement before redirecting: 'That's true in a strict philosophical sense, but it mislocates…'. The structure [acknowledge partial truth + redirect] is a hallmark of sophisticated argumentation. Notice also 'Precisely' and 'Exactly' used not as simple agreement but as pivots into an elaboration that extends or complicates the interlocutor's point. These markers manage epistemic stance — indicating how certain or qualified a speaker's commitment to a claim is."
+    },
+    {
+      "title": "Passive constructions with agentless agency — accountability in complex systems",
+      "bodyVi": "Câu bị động không có tác nhân (agentless passive) được dùng khi tác nhân gây ra hành động không rõ ràng hoặc phức tạp: 'decisions about people's lives are made without any meaningful human review', 'biases are inherited and amplified'. Trong đoạn hội thoại này, cấu trúc bị động phản ánh chính vấn đề đạo đức được thảo luận: khi AI đưa ra quyết định, trách nhiệm bị phân tán và khó xác định. Việc sử dụng bị động ở đây mang tính thẩm quyền và gợi lên câu hỏi 'ai chịu trách nhiệm?'",
+      "bodyEn": "Agentless passives — 'decisions are made', 'biases are inherited and amplified', 'systems are deployed' — are rhetorically significant in this dialogue because they mirror the accountability gap being discussed: when no agent is named, responsibility is obscured. At C1, learners should notice that choosing passive vs. active voice is a rhetorical decision, not just a stylistic one. The passive here foregrounds the outcome and elides the agent — a structural feature of how AI harms are often described and how accountability is evaded."
+    }
+  ],
+  "translationVi": "Người dẫn: Chào mừng trở lại chương trình. Hôm nay tôi có mặt cùng một nhà nghiên cứu có công trình nằm ở giao điểm của triết học đạo đức và học máy. Câu hỏi tôi muốn mở đầu nghe có vẻ đơn giản đến mức dễ đánh lừa: trí tuệ nhân tạo là một vấn đề đạo đức, hay chỉ đơn thuần là vấn đề kỹ thuật?\n\nKhách mời: Chính cách đặt vấn đề đó đã che giấu rất nhiều điều. Các hệ thống chúng ta đang xây dựng không phải là công cụ trung tính như cái búa — chúng mã hóa các giả định, tái tạo các mẫu từ dữ liệu lịch sử, và trong nhiều trường hợp đưa ra các quyết định có hậu quả quan trọng về cuộc sống con người mà không có bất kỳ sự xem xét có ý nghĩa nào của con người.\n\nNgười dẫn: Nhưng trách nhiệm đạo đức chắc chắn thuộc về các kỹ sư và tổ chức triển khai các hệ thống này không? Bản thân AI không có ý định.\n\nKhách mời: Điều đó đúng theo nghĩa triết học chặt chẽ, nhưng nó đặt sai vị trí nguồn gốc của tác hại. Khi một thuật toán tuyển dụng một cách hệ thống gây bất lợi cho các ứng viên từ một số nhóm nhân khẩu học nhất định, tác hại là thực dù hệ thống có 'có ý định' hay không. Ý định là điều kiện cho một số loại lỗi đạo đức, nhưng không phải là điều kiện để tồn tại tác hại.\n\nNgười dẫn: Vậy bạn sẽ lập luận rằng sự tập trung vào ý định — vốn chi phối nhiều khuôn khổ pháp lý và đạo đức của chúng ta — thực sự trở thành trở ngại khi chúng ta suy nghĩ về trách nhiệm AI?\n\nKhách mời: Chính xác. Luật dân sự và luật hình sự đều dựa nhiều vào ý định và khả năng tiên liệu. Nhưng các hệ thống AI tạo ra các hành vi mới nổi mà không một nhà thiết kế cá nhân nào dự đoán đầy đủ. Chúng ta cần các khuôn khổ trách nhiệm có thể gán trách nhiệm cho kết quả, không chỉ cho ý định.\n\nNgười dẫn: Hãy nói về căn chỉnh — ý tưởng rằng các hệ thống AI nên được căn chỉnh với các giá trị của con người. Điều đó nghe có vẻ trực quan, nhưng chúng ta đang nói đến giá trị của ai?\n\nKhách mời: Đó là sức căng trung tâm. Các giá trị con người là đa nguyên, gây tranh cãi, và gắn liền với văn hóa cụ thể. Phiên bản ngây thơ của căn chỉnh giả định rằng có một tập hợp sở thích của con người mà chúng ta có thể xác định và tối ưu hóa. Nhưng điều gì được tính là kết quả tốt khác nhau rất nhiều giữa các cá nhân, cộng đồng, và thời kỳ lịch sử.\n\nNgười dẫn: Một số nhà nghiên cứu lập luận cho một loại căn chỉnh theo thủ tục — thay vì mã hóa các giá trị cụ thể, bạn thiết kế hệ thống để tuân theo các quy trình thảo luận hợp pháp của con người. Cách tiếp cận đó có giá trị không?\n\nKhách mời: Nó có giá trị thực sự, và nó tránh được vấn đề ưu tiên giá trị của ai. Nhưng nó đưa ra một vấn đề khác: nó giả định rằng các quy trình thảo luận bản thân chúng là hợp pháp. Trong thực tế, nhiều tổ chức làm trung gian cho các quy trình đó bị chiếm đoạt bởi lợi ích hẹp, về mặt cấu trúc không đại diện, hoặc đơn giản là quá chậm để theo kịp sự thay đổi công nghệ.\n\nNgười dẫn: Còn chiều cạnh quyền tự chủ thì sao? Ở điểm nào, nếu có, một hệ thống AI có thể ghi đè chỉ thị của con người vì lý do đạo đức không?\n\nKhách mời: Đây là nơi lĩnh vực bị chia rẽ nhất. Có lý lẽ mạnh mẽ cho cái gọi là tính có thể sửa chữa — giữ các hệ thống AI phản hồi tối đa với sự sửa chữa của con người mọi lúc, với lý do chúng ta chưa có thể xác minh liệu các giá trị của một hệ thống có đáng tin cậy đủ để cho phép hành động tự chủ hay không. Nhưng tính có thể sửa chữa được đưa đến cực đoan logic của nó cũng nguy hiểm: một hệ thống hoàn toàn có thể sửa chữa làm bất cứ điều gì được yêu cầu, và nếu nó được yêu cầu làm điều gì đó có hại bởi một tác nhân đủ mạnh, nó sẽ tuân theo.\n\nNgười dẫn: Vậy bạn kết thúc với sự lưỡng nan giữa các hệ thống quá tuân thủ và các hệ thống được tin tưởng với những phán xét chúng có thể chưa được trang bị để đưa ra.\n\nKhách mời: Chính xác. Và tôi nghĩ câu trả lời trung thực là chúng ta chưa có các phương pháp đáng tin cậy để kiểm tra các giá trị AI với sự tự tin cần thiết để mở rộng quyền tự chủ đạo đức thực sự cho một hệ thống. Vấn đề nhận thức luận cũng khó như vấn đề kỹ thuật.\n\nNgười dẫn: Một lập luận tôi nghe thường xuyên là AI chỉ đơn giản phản ánh xã hội đã tạo ra nó — và do đó cuộc trò chuyện về đạo đức AI thực sự là một cuộc trò chuyện chuyển dịch về đạo đức xã hội. Bạn đồng ý điều đó đến đâu?\n\nKhách mời: Tôi đồng ý với nó như một chẩn đoán nhưng không phải như một kết luận. Đúng, các hệ thống AI kế thừa và khuếch đại các thiên kiến xã hội hiện có — điều đó được ghi nhận thực nghiệm rất tốt. Nhưng chúng cũng đưa ra những rủi ro mới về chất: tốc độ ra quyết định chưa từng có, tính không minh bạch của lý luận, sự tập trung quyền lực vào tay rất ít tác nhân. Vì vậy, việc sửa chữa bất bình đẳng xã hội sẽ không tự động sửa chữa đạo đức AI, và ngược lại — mặc dù chúng đan xen sâu sắc.\n\nNgười dẫn: Cuối cùng, quản trị AI có trách nhiệm thực sự trông như thế nào trong thực tế? Chúng ta nên đòi hỏi gì từ các chính phủ, công ty, và nhà nghiên cứu?\n\nKhách mời: Ở mức tối thiểu: đánh giá tác động bắt buộc trước khi triển khai các hệ thống có rủi ro cao, các cơ chế có ý nghĩa để đền bù khi các hệ thống đó gây ra tác hại, yêu cầu minh bạch vượt ra ngoài khả năng giải thích hời hợt, và sự đa dạng thực sự — về nhận thức luận và nhân khẩu học — trong các nhóm thiết kế và kiểm toán chúng. Nhưng quan trọng hơn hết, chúng ta cần kháng cự giả định rằng vì điều gì đó có thể thực hiện về mặt kỹ thuật, thì việc triển khai nó là không thể tránh khỏi. Thuyết định mệnh đó là một trong những ý tưởng nguy hiểm nhất trong lĩnh vực này.",
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "What does the guest mean when he says the opening framing 'conceals a lot'?",
+      "options": [
+        "The host's question is deliberately misleading about the nature of AI",
+        "Treating AI as either purely ethical or purely technical obscures how it embeds assumptions and makes consequential decisions",
+        "The academic field of AI ethics is not yet sufficiently developed to answer the question",
+        "The distinction between tools and agents is a purely semantic one with no practical relevance"
+      ],
+      "answerIndex": 1,
+      "explanation": "The guest argues that AI systems 'encode assumptions', 'replicate patterns from historical data', and make 'consequential decisions' — features that make the ethical/technical dichotomy inadequate.",
+      "hint": "What does the guest say AI does that a hammer does not?"
+    },
+    {
+      "id": "q2",
+      "prompt": "Why does the guest argue that intention is an inadequate basis for AI accountability?",
+      "options": [
+        "Because engineers always intend to cause harm, so intent is irrelevant",
+        "Because AI systems have their own intentions that are distinct from human intentions",
+        "Because harm can be real and systematic even when no individual intended it, and AI produces emergent behaviours no designer fully anticipates",
+        "Because legal systems are too slow to prosecute individuals for AI-related harms"
+      ],
+      "answerIndex": 2,
+      "explanation": "The guest states that intention is 'a condition for certain kinds of moral blame, but not a condition for the existence of harm', and that AI produces 'emergent behaviours that no individual designer fully anticipates'.",
+      "hint": "The guest separates two concepts: intention as a condition for blame vs. intention as a condition for harm."
+    },
+    {
+      "id": "q3",
+      "prompt": "What is the 'central tension' the guest identifies with the concept of alignment?",
+      "options": [
+        "AI systems are too powerful to align with any human values",
+        "Human values are plural, contested, and culturally situated, so there is no coherent universal set to optimise for",
+        "Alignment requires religious consensus that modern secular societies cannot achieve",
+        "The technical costs of implementing alignment exceed the benefits in most commercial applications"
+      ],
+      "answerIndex": 1,
+      "explanation": "The guest states: 'Human values are plural, contested, and culturally situated. The naive version of alignment assumes there's a coherent set of human preferences we can specify and optimise for.'",
+      "hint": "What adjectives does the guest use to characterise human values?"
+    },
+    {
+      "id": "q4",
+      "prompt": "What weakness does the guest identify in procedural alignment?",
+      "options": [
+        "It produces AI systems that are too slow to respond to urgent decisions",
+        "It requires computing power that is currently unavailable",
+        "It assumes the deliberation processes themselves are legitimate, when in practice they may be captured or unrepresentative",
+        "It privileges cultural values from the societies where AI is developed over all others"
+      ],
+      "answerIndex": 2,
+      "explanation": "The guest acknowledges procedural alignment 'has genuine merit' but introduces 'a different problem: it assumes the deliberation processes themselves are legitimate', which is not guaranteed in practice.",
+      "hint": "The guest admits the approach has merit before identifying its limitation."
+    },
+    {
+      "id": "q5",
+      "prompt": "What is 'corrigibility' as described in the dialogue?",
+      "options": [
+        "The ability of an AI to generate novel solutions to ethical dilemmas",
+        "The property of an AI system remaining maximally responsive to human correction at all times",
+        "A legal standard for determining criminal liability in AI-related harm cases",
+        "The technical capacity of an AI to explain its own decision-making process"
+      ],
+      "answerIndex": 1,
+      "explanation": "The guest defines corrigibility as 'keeping AI systems maximally responsive to human correction at all times'.",
+      "hint": "Look for the guest's direct definition in the dialogue."
+    },
+    {
+      "id": "q6",
+      "prompt": "Why does the guest describe full corrigibility as 'dangerous'?",
+      "options": [
+        "Because it makes AI systems unpredictable and difficult to audit",
+        "Because a fully corrigible system will comply with harmful instructions from powerful actors",
+        "Because it prevents AI from ever refusing dangerous commands from rogue engineers",
+        "Because it requires constant human attention, which is impractical at scale"
+      ],
+      "answerIndex": 1,
+      "explanation": "The guest states: 'a fully corrigible system does whatever it's told, and if it's told to do something harmful by a sufficiently powerful actor, it will comply'.",
+      "hint": "The guest describes a scenario where corrigibility itself becomes the problem."
+    },
+    {
+      "id": "q7",
+      "prompt": "How does the guest respond to the claim that AI ethics is just 'a displaced conversation about social ethics'?",
+      "options": [
+        "He agrees entirely, arguing that social reform is the only meaningful response to AI harms",
+        "He rejects it entirely, arguing that AI creates purely novel problems unrelated to existing social inequities",
+        "He agrees with it as a diagnosis but argues AI also introduces qualitatively new risks beyond existing social problems",
+        "He is undecided, noting the question requires further empirical research before any conclusion is possible"
+      ],
+      "answerIndex": 2,
+      "explanation": "The guest says 'I agree with it as a diagnosis but not as a conclusion', then describes AI-specific risks: 'unprecedented speed of decision-making, opacity of reasoning, concentration of power'.",
+      "hint": "Listen for the precise structure of his answer: agreement + limitation."
+    },
+    {
+      "id": "q8",
+      "prompt": "Which of the following is NOT listed by the guest as a component of responsible AI governance?",
+      "options": [
+        "Mandatory impact assessments before deploying high-stakes systems",
+        "Meaningful mechanisms for redress when systems cause harm",
+        "A global treaty establishing uniform AI safety standards across all nations",
+        "Genuine diversity — epistemically and demographically — in design and audit teams"
+      ],
+      "answerIndex": 2,
+      "explanation": "The guest lists impact assessments, redress mechanisms, transparency, and diversity. A global treaty is not mentioned.",
+      "hint": "Check each option against the guest's explicit list of governance demands."
+    },
+    {
+      "id": "q9",
+      "prompt": "What does the guest describe as 'one of the most dangerous ideas in the field'?",
+      "options": [
+        "The assumption that AI can be aligned with universal human values",
+        "The belief that AI systems can be trusted with genuine moral autonomy",
+        "The fatalistic assumption that because something is technically possible, deploying it is inevitable",
+        "The idea that procedural alignment can substitute for substantive value alignment"
+      ],
+      "answerIndex": 2,
+      "explanation": "The dialogue closes with the guest warning against 'the assumption that because something is technically possible, deploying it is inevitable', which he calls 'one of the most dangerous ideas in the field'.",
+      "hint": "The final statement of the dialogue contains this claim."
+    },
+    {
+      "id": "q10",
+      "prompt": "The guest distinguishes between intent as a condition for blame and intent as a condition for harm. What practical difference does this distinction make?",
+      "options": [
+        "It means engineers can never be held responsible for AI-related harms",
+        "It allows accountability frameworks to focus on outcomes rather than requiring proof of malicious intent",
+        "It justifies replacing human judges with AI systems in all civil liability cases",
+        "It implies that only victims, not perpetrators, have standing to bring legal claims"
+      ],
+      "answerIndex": 1,
+      "explanation": "By separating intent from harm, the guest argues for 'accountability frameworks that can assign responsibility for outcomes, not just for intentions' — enabling accountability without requiring proof of intent.",
+      "hint": "The guest argues we need frameworks focused on what, rather than why?"
+    },
+    {
+      "id": "q11",
+      "prompt": "What does the guest mean by describing AI bias as 'well-documented empirically'?",
+      "options": [
+        "That AI bias has been definitively solved through technical research",
+        "That the existence of AI amplifying social biases has been consistently supported by research evidence",
+        "That all AI systems contain bias, making their deployment unethical in all cases",
+        "That empirical data shows AI is less biased than human decision-makers"
+      ],
+      "answerIndex": 1,
+      "explanation": "The guest says AI systems 'inherit and amplify existing social biases — that's empirically well-documented', meaning it is a research-supported finding, not a claim or speculation.",
+      "hint": "What does 'empirically well-documented' mean in a research context?"
+    },
+    {
+      "id": "q12",
+      "prompt": "The dilemma of corrigibility vs. autonomy is described as resulting in systems that are 'too obedient' or 'trusted with judgements they may not be equipped to make'. What makes this a genuine dilemma rather than a simple trade-off?",
+      "options": [
+        "Both options carry catastrophic risks in different scenarios, with no option currently available that avoids both",
+        "The dilemma only applies to military applications and not to commercial AI systems",
+        "It can be resolved through better engineering once computing power reaches a sufficient threshold",
+        "The dilemma is false because corrigible systems can be made selectively autonomous for specific tasks"
+      ],
+      "answerIndex": 0,
+      "explanation": "A fully corrigible system obeys harmful orders; a fully autonomous system may make mistaken independent judgements. The guest says 'we don't yet have reliable methods for auditing AI values', meaning neither solution is currently safe.",
+      "hint": "Consider what goes wrong at each extreme of the spectrum."
+    },
+    {
+      "id": "q13",
+      "prompt": "How does the guest characterise the relationship between AI ethics and social inequity?",
+      "options": [
+        "AI ethics is entirely reducible to social ethics",
+        "Social inequity causes AI problems, but AI does not cause new social problems",
+        "The two are deeply entangled but AI introduces qualitatively new risks that social reform alone cannot address",
+        "They are separate domains that share vocabulary but have no causal relationship"
+      ],
+      "answerIndex": 2,
+      "explanation": "The guest says 'they're deeply entangled' but also that AI creates 'qualitatively new risks: unprecedented speed of decision-making, opacity of reasoning, concentration of power'.",
+      "hint": "The guest uses both 'yes' and 'but' in his answer to the host's question."
+    },
+    {
+      "id": "q14",
+      "prompt": "Why does the guest consider 'transparency requirements that go beyond superficial explainability' important?",
+      "options": [
+        "Because complex explanations increase public trust in AI systems",
+        "Because superficial explainability can satisfy regulators without revealing how decisions are actually made",
+        "Because detailed explanations prevent AI systems from being misused by non-experts",
+        "Because transparency is legally mandated in all jurisdictions where AI is deployed"
+      ],
+      "answerIndex": 1,
+      "explanation": "The guest distinguishes meaningful transparency from 'superficial explainability' — implying that surface-level explanations may create an illusion of accountability without genuine insight into AI decision-making.",
+      "hint": "What would 'superficial' explainability fail to reveal?"
+    },
+    {
+      "id": "q15",
+      "prompt": "The host asks whether AI is 'an ethical problem or merely a technical one'. Why does the guest object to this framing?",
+      "options": [
+        "Because AI is exclusively a technical problem with no ethical dimensions",
+        "Because the question is politically motivated and designed to deflect responsibility",
+        "Because the ethical/technical dichotomy is a false one — AI systems are technical artefacts that inevitably embed ethical choices",
+        "Because the question cannot be answered without first defining 'ethical' more precisely"
+      ],
+      "answerIndex": 2,
+      "explanation": "The guest says the framing 'conceals a lot', then explains that AI systems are not neutral tools but 'encode assumptions' and make 'consequential decisions' — collapsing the ethical/technical divide.",
+      "hint": "The guest's first response explains exactly why he finds the framing problematic."
+    }
+  ],
+  "cloze": {
+    "template": "The systems we build aren't neutral tools — they {{b1}} assumptions and replicate patterns from historical data, making consequential decisions without meaningful human review. When a {{b2}} systematically disadvantages candidates from certain demographic groups, the harm is real regardless of intent. Existing legal frameworks lean heavily on {{b3}} and foreseeability, but AI produces {{b4}} behaviours no individual designer fully anticipates. The alignment problem involves determining whose values to optimise for, since human values are {{b5}}, contested, and culturally situated. Procedural alignment sidesteps this but assumes deliberation processes are {{b6}}, when in practice many institutions are captured by {{b7}} or too slow to keep pace with technological change. The concept of {{b8}} means keeping AI systems maximally responsive to human correction at all times, but taken to its extreme, a fully corrigible system will comply with harmful instructions from any sufficiently powerful {{b9}}. We lack reliable methods for {{b10}} AI values with the confidence required to extend genuine moral {{b11}} to a system. AI systems inherit and {{b12}} existing social biases, but they also introduce qualitatively new risks including {{b13}} of reasoning and unprecedented concentration of power. Responsible governance requires mandatory {{b14}} before deploying high-stakes systems, meaningful mechanisms for {{b15}} when systems cause harm, and genuine diversity — epistemically and demographically — in the teams {{b16}} them.",
+    "blanks": [
+      {
+        "id": "b1",
+        "options": [
+          "carry",
+          "encode",
+          "transfer",
+          "project"
+        ],
+        "answerIndex": 1,
+        "explanation": "The guest says AI systems 'encode assumptions' rather than being neutral."
+      },
+      {
+        "id": "b2",
+        "options": [
+          "sorting system",
+          "hiring algorithm",
+          "screening tool",
+          "selection process"
+        ],
+        "answerIndex": 1,
+        "explanation": "The text uses the specific term 'hiring algorithm' as the example."
+      },
+      {
+        "id": "b3",
+        "options": [
+          "causation",
+          "intent",
+          "negligence",
+          "foresight"
+        ],
+        "answerIndex": 1,
+        "explanation": "The guest says 'Tort law and criminal law both lean heavily on intent and foreseeability'."
+      },
+      {
+        "id": "b4",
+        "options": [
+          "predictable",
+          "dangerous",
+          "emergent",
+          "embedded"
+        ],
+        "answerIndex": 2,
+        "explanation": "AI produces 'emergent behaviours that no individual designer fully anticipates'."
+      },
+      {
+        "id": "b5",
+        "options": [
+          "universal",
+          "plural",
+          "subjective",
+          "rational"
+        ],
+        "answerIndex": 1,
+        "explanation": "The guest describes human values as 'plural, contested, and culturally situated'."
+      },
+      {
+        "id": "b6",
+        "options": [
+          "transparent",
+          "representative",
+          "legitimate",
+          "efficient"
+        ],
+        "answerIndex": 2,
+        "explanation": "Procedural alignment 'assumes the deliberation processes themselves are legitimate'."
+      },
+      {
+        "id": "b7",
+        "options": [
+          "vested interests",
+          "narrow interests",
+          "private actors",
+          "elite groups"
+        ],
+        "answerIndex": 1,
+        "explanation": "The guest says institutions can be 'captured by narrow interests'."
+      },
+      {
+        "id": "b8",
+        "options": [
+          "transparency",
+          "alignment",
+          "corrigibility",
+          "accountability"
+        ],
+        "answerIndex": 2,
+        "explanation": "The guest explicitly defines 'corrigibility' in this part of the dialogue."
+      },
+      {
+        "id": "b9",
+        "options": [
+          "user",
+          "operator",
+          "actor",
+          "designer"
+        ],
+        "answerIndex": 2,
+        "explanation": "The guest warns of compliance with harmful instructions from 'a sufficiently powerful actor'."
+      },
+      {
+        "id": "b10",
+        "options": [
+          "testing",
+          "auditing",
+          "verifying",
+          "monitoring"
+        ],
+        "answerIndex": 1,
+        "explanation": "The guest says 'we don't yet have reliable methods for auditing AI values'."
+      },
+      {
+        "id": "b11",
+        "options": [
+          "agency",
+          "autonomy",
+          "responsibility",
+          "authority"
+        ],
+        "answerIndex": 1,
+        "explanation": "The guest refers to extending 'genuine moral autonomy to a system'."
+      },
+      {
+        "id": "b12",
+        "options": [
+          "reflect",
+          "amplify",
+          "reproduce",
+          "create"
+        ],
+        "answerIndex": 1,
+        "explanation": "AI systems 'inherit and amplify existing social biases'."
+      },
+      {
+        "id": "b13",
+        "options": [
+          "complexity",
+          "opacity",
+          "speed",
+          "bias"
+        ],
+        "answerIndex": 1,
+        "explanation": "The guest lists 'opacity of reasoning' as one of the new qualitative risks AI introduces."
+      },
+      {
+        "id": "b14",
+        "options": [
+          "safety tests",
+          "impact assessments",
+          "ethical audits",
+          "compliance reviews"
+        ],
+        "answerIndex": 1,
+        "explanation": "The guest calls for 'mandatory impact assessments before deploying high-stakes systems'."
+      },
+      {
+        "id": "b15",
+        "options": [
+          "appeal",
+          "redress",
+          "compensation",
+          "litigation"
+        ],
+        "answerIndex": 1,
+        "explanation": "The guest calls for 'meaningful mechanisms for redress when those systems cause harm'."
+      },
+      {
+        "id": "b16",
+        "options": [
+          "building",
+          "deploying",
+          "designing",
+          "auditing"
+        ],
+        "answerIndex": 2,
+        "explanation": "The guest calls for diversity 'in the teams designing and auditing them'."
+      }
+    ]
+  },
+  "criticalThinkingQuestion": "The guest argues for 'outcome-based accountability' that assigns responsibility for AI harms regardless of intent. Given that AI systems involve hardware manufacturers, dataset curators, model trainers, deployers, and end users — each with different levels of knowledge and control — how should moral and legal responsibility be distributed across this chain? Is there a principled basis for assigning primary liability to one actor, or does distributed AI development require an entirely new model of collective accountability?",
+  "accents": [
+    "en-GB",
+    "en-US"
+  ],
+  "voices": {
+    "Host": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-GB",
+      "edgeVoice": "en-GB-SoniaNeural"
+    },
+    "Guest": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-AndrewNeural"
+    }
+  },
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Host",
+      "text": "Welcome back to the programme.",
+      "durationMs": 2136
+    },
+    {
+      "id": "s2",
+      "speaker": "Host",
+      "text": "Today I'm joined by a researcher whose work sits at the intersection of moral philosophy and machine learning.",
+      "durationMs": 6432
+    },
+    {
+      "id": "s3",
+      "speaker": "Host",
+      "text": "The question I want to open with is deceptively simple: is artificial intelligence an ethical problem, or is it merely a technical one?",
+      "durationMs": 7968
+    },
+    {
+      "id": "s4",
+      "speaker": "Guest",
+      "text": "That framing itself conceals a lot.",
+      "durationMs": 2376
+    },
+    {
+      "id": "s5",
+      "speaker": "Guest",
+      "text": "The systems we're building aren't neutral tools in the way a hammer is neutral — they encode assumptions, they replicate patterns from historical data, and in many cases they make consequential decisions about people's lives without any meaningful human review.",
+      "durationMs": 14856
+    },
+    {
+      "id": "s6",
+      "speaker": "Host",
+      "text": "But surely the ethical responsibility lies with the engineers and the organisations deploying these systems?",
+      "durationMs": 6792
+    },
+    {
+      "id": "s7",
+      "speaker": "Host",
+      "text": "The AI itself doesn't have intentions.",
+      "durationMs": 3072
+    },
+    {
+      "id": "s8",
+      "speaker": "Guest",
+      "text": "That's true in a strict philosophical sense, but it mislocates where the harm occurs.",
+      "durationMs": 5136
+    },
+    {
+      "id": "s9",
+      "speaker": "Guest",
+      "text": "When a hiring algorithm systematically disadvantages candidates from certain demographic groups, the harm is real regardless of whether the system 'intended' it.",
+      "durationMs": 9528
+    },
+    {
+      "id": "s10",
+      "speaker": "Guest",
+      "text": "Intention is a condition for certain kinds of moral blame, but it isn't a condition for the existence of harm.",
+      "durationMs": 6336
+    },
+    {
+      "id": "s11",
+      "speaker": "Host",
+      "text": "So you'd argue that the focus on intent — which dominates a lot of our legal and moral frameworks — actually becomes an obstacle when we're thinking about AI accountability?",
+      "durationMs": 9504
+    },
+    {
+      "id": "s12",
+      "speaker": "Guest",
+      "text": "Precisely.",
+      "durationMs": 1080
+    },
+    {
+      "id": "s13",
+      "speaker": "Guest",
+      "text": "Tort law and criminal law both lean heavily on intent and foreseeability.",
+      "durationMs": 5040
+    },
+    {
+      "id": "s14",
+      "speaker": "Guest",
+      "text": "But AI systems produce emergent behaviours that no individual designer fully anticipates.",
+      "durationMs": 6024
+    },
+    {
+      "id": "s15",
+      "speaker": "Guest",
+      "text": "We need accountability frameworks that can assign responsibility for outcomes, not just for intentions.",
+      "durationMs": 6288
+    },
+    {
+      "id": "s16",
+      "speaker": "Host",
+      "text": "Let's talk about alignment — the idea that AI systems should be aligned with human values.",
+      "durationMs": 5736
+    },
+    {
+      "id": "s17",
+      "speaker": "Host",
+      "text": "That sounds intuitive, but whose values are we talking about?",
+      "durationMs": 4200
+    },
+    {
+      "id": "s18",
+      "speaker": "Guest",
+      "text": "That's the central tension.",
+      "durationMs": 1584
+    },
+    {
+      "id": "s19",
+      "speaker": "Guest",
+      "text": "Human values are plural, contested, and culturally situated.",
+      "durationMs": 4272
+    },
+    {
+      "id": "s20",
+      "speaker": "Guest",
+      "text": "The naive version of alignment assumes there's a coherent set of human preferences we can specify and optimise for.",
+      "durationMs": 7176
+    },
+    {
+      "id": "s21",
+      "speaker": "Guest",
+      "text": "But what counts as a good outcome differs enormously between individuals, communities, and historical periods.",
+      "durationMs": 6432
+    },
+    {
+      "id": "s22",
+      "speaker": "Host",
+      "text": "Some researchers argue for a kind of procedural alignment — rather than encoding particular values, you design the system to defer to legitimate human deliberation processes.",
+      "durationMs": 10320
+    },
+    {
+      "id": "s23",
+      "speaker": "Host",
+      "text": "Does that approach have merit?",
+      "durationMs": 2280
+    },
+    {
+      "id": "s24",
+      "speaker": "Guest",
+      "text": "It has genuine merit, and it sidesteps the problem of whose values to privilege.",
+      "durationMs": 5232
+    },
+    {
+      "id": "s25",
+      "speaker": "Guest",
+      "text": "But it introduces a different problem: it assumes the deliberation processes themselves are legitimate.",
+      "durationMs": 6144
+    },
+    {
+      "id": "s26",
+      "speaker": "Guest",
+      "text": "In practice, many of the institutions mediating those processes are captured by narrow interests, structurally unrepresentative, or simply too slow to keep pace with technological change.",
+      "durationMs": 11736
+    },
+    {
+      "id": "s27",
+      "speaker": "Host",
+      "text": "What about the autonomy dimension?",
+      "durationMs": 2664
+    },
+    {
+      "id": "s28",
+      "speaker": "Host",
+      "text": "At what point, if ever, should an AI system be able to override a human instruction on ethical grounds?",
+      "durationMs": 6912
+    },
+    {
+      "id": "s29",
+      "speaker": "Guest",
+      "text": "This is where the field is most divided.",
+      "durationMs": 2304
+    },
+    {
+      "id": "s30",
+      "speaker": "Guest",
+      "text": "There's a strong case for what's called corrigibility — keeping AI systems maximally responsive to human correction at all times, on the grounds that we can't yet verify whether a system's values are trustworthy enough to warrant autonomous action.",
+      "durationMs": 14712
+    },
+    {
+      "id": "s31",
+      "speaker": "Guest",
+      "text": "But corrigibility taken to its logical extreme is also dangerous: a fully corrigible system does whatever it's told, and if it's told to do something harmful by a sufficiently powerful actor, it will comply.",
+      "durationMs": 12792
+    },
+    {
+      "id": "s32",
+      "speaker": "Host",
+      "text": "So you end up with a dilemma between systems that are too obedient and systems that are trusted with judgements they may not be equipped to make.",
+      "durationMs": 7704
+    },
+    {
+      "id": "s33",
+      "speaker": "Guest",
+      "text": "Exactly.",
+      "durationMs": 1008
+    },
+    {
+      "id": "s34",
+      "speaker": "Guest",
+      "text": "And I think the honest answer is that we don't yet have reliable methods for auditing AI values with the confidence required to extend genuine moral autonomy to a system.",
+      "durationMs": 9792
+    },
+    {
+      "id": "s35",
+      "speaker": "Guest",
+      "text": "The epistemic problem is as hard as the technical one.",
+      "durationMs": 3360
+    },
+    {
+      "id": "s36",
+      "speaker": "Host",
+      "text": "One argument I hear frequently is that AI simply reflects the society that produced it — and therefore that the conversation about AI ethics is really a displaced conversation about social ethics.",
+      "durationMs": 11232
+    },
+    {
+      "id": "s37",
+      "speaker": "Host",
+      "text": "How much do you agree with that?",
+      "durationMs": 2232
+    },
+    {
+      "id": "s38",
+      "speaker": "Guest",
+      "text": "I agree with it as a diagnosis but not as a conclusion.",
+      "durationMs": 3384
+    },
+    {
+      "id": "s39",
+      "speaker": "Guest",
+      "text": "Yes, AI systems inherit and amplify existing social biases — that's empirically well-documented.",
+      "durationMs": 6912
+    },
+    {
+      "id": "s40",
+      "speaker": "Guest",
+      "text": "But they also introduce qualitatively new risks: unprecedented speed of decision-making, opacity of reasoning, concentration of power in the hands of very few actors.",
+      "durationMs": 11064
+    },
+    {
+      "id": "s41",
+      "speaker": "Guest",
+      "text": "So fixing social inequity won't automatically fix AI ethics, and vice versa — though they're deeply entangled.",
+      "durationMs": 7128
+    },
+    {
+      "id": "s42",
+      "speaker": "Host",
+      "text": "Finally, what does responsible AI governance actually look like in practice?",
+      "durationMs": 5280
+    },
+    {
+      "id": "s43",
+      "speaker": "Host",
+      "text": "What should we be demanding from governments, companies, and researchers?",
+      "durationMs": 4944
+    },
+    {
+      "id": "s44",
+      "speaker": "Guest",
+      "text": "At minimum: mandatory impact assessments before deploying high-stakes systems, meaningful mechanisms for redress when those systems cause harm, transparency requirements that go beyond superficial explainability, and genuine diversity — epistemically and demographically — in the teams designing and auditing them.",
+      "durationMs": 19584
+    },
+    {
+      "id": "s45",
+      "speaker": "Guest",
+      "text": "But above all, we need to resist the assumption that because something is technically possible, deploying it is inevitable.",
+      "durationMs": 7032
+    },
+    {
+      "id": "s46",
+      "speaker": "Guest",
+      "text": "That fatalism is one of the most dangerous ideas in the field.",
+      "durationMs": 3840
+    }
+  ],
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/listening-c1-012",
+    "manifestVersion": 1
+  },
+  "totalDurationMs": 301560
+}

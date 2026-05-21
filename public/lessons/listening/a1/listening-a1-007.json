@@ -5,22 +5,68 @@
   "summary": "A mum and her young daughter rush to get ready on a school morning — picking clothes, eating breakfast, and hunting for the missing school bag.",
   "format": "dialogue",
   "body": [
-    {"speaker": "Mum", "text": "Ella, it's time to wake up! It's half past seven."},
-    {"speaker": "Child", "text": "Already? I'm so tired, Mum."},
-    {"speaker": "Mum", "text": "Come on, love. You don't want to be late. What do you want to wear today?"},
-    {"speaker": "Child", "text": "Can I wear my red jumper? It's my favourite."},
-    {"speaker": "Mum", "text": "Of course! It's clean and on your chair. Now go and wash your face."},
-    {"speaker": "Child", "text": "Okay. Mum, what's for breakfast?"},
-    {"speaker": "Mum", "text": "I made porridge. It will keep you warm. Your bowl is on the table."},
-    {"speaker": "Child", "text": "Can I have some honey in it, please?"},
-    {"speaker": "Mum", "text": "Yes, it's on the shelf. Eat quickly though — the bus comes in fifteen minutes."},
-    {"speaker": "Child", "text": "Mum! I can't find my school bag!"},
-    {"speaker": "Mum", "text": "Did you check behind the front door? That's where you left it yesterday."},
-    {"speaker": "Child", "text": "Oh! Yes, here it is. I found it!"},
-    {"speaker": "Mum", "text": "Good. Coat on, and let's go. We don't want to miss the bus."},
-    {"speaker": "Child", "text": "Ready! Bye, house! Let's go, Mum!"}
+    {
+      "speaker": "Mum",
+      "text": "Ella, it's time to wake up! It's half past seven."
+    },
+    {
+      "speaker": "Child",
+      "text": "Already? I'm so tired, Mum."
+    },
+    {
+      "speaker": "Mum",
+      "text": "Come on, love. You don't want to be late. What do you want to wear today?"
+    },
+    {
+      "speaker": "Child",
+      "text": "Can I wear my red jumper? It's my favourite."
+    },
+    {
+      "speaker": "Mum",
+      "text": "Of course! It's clean and on your chair. Now go and wash your face."
+    },
+    {
+      "speaker": "Child",
+      "text": "Okay. Mum, what's for breakfast?"
+    },
+    {
+      "speaker": "Mum",
+      "text": "I made porridge. It will keep you warm. Your bowl is on the table."
+    },
+    {
+      "speaker": "Child",
+      "text": "Can I have some honey in it, please?"
+    },
+    {
+      "speaker": "Mum",
+      "text": "Yes, it's on the shelf. Eat quickly though — the bus comes in fifteen minutes."
+    },
+    {
+      "speaker": "Child",
+      "text": "Mum! I can't find my school bag!"
+    },
+    {
+      "speaker": "Mum",
+      "text": "Did you check behind the front door? That's where you left it yesterday."
+    },
+    {
+      "speaker": "Child",
+      "text": "Oh! Yes, here it is. I found it!"
+    },
+    {
+      "speaker": "Mum",
+      "text": "Good. Coat on, and let's go. We don't want to miss the bus."
+    },
+    {
+      "speaker": "Child",
+      "text": "Ready! Bye, house! Let's go, Mum!"
+    }
   ],
-  "tags": ["morning routine", "family", "school"],
+  "tags": [
+    "morning routine",
+    "family",
+    "school"
+  ],
   "annotations": [
     {
       "phrase": "half past seven",
@@ -112,7 +158,12 @@
     {
       "id": "q1",
       "prompt": "What time does Mum wake Ella up?",
-      "options": ["Six thirty", "Seven o'clock", "Half past seven", "Eight o'clock"],
+      "options": [
+        "Six thirty",
+        "Seven o'clock",
+        "Half past seven",
+        "Eight o'clock"
+      ],
       "answerIndex": 2,
       "explanation": "Mum says 'It's half past seven' — that is 7:30.",
       "hint": "Listen to the exact time Mum says."
@@ -120,7 +171,12 @@
     {
       "id": "q2",
       "prompt": "What does Ella want to wear?",
-      "options": ["Her blue skirt", "Her green coat", "Her red jumper", "Her white shirt"],
+      "options": [
+        "Her blue skirt",
+        "Her green coat",
+        "Her red jumper",
+        "Her white shirt"
+      ],
       "answerIndex": 2,
       "explanation": "Ella says 'Can I wear my red jumper? It's my favourite.'",
       "hint": "What colour and type of clothing does Ella ask for?"
@@ -128,7 +184,12 @@
     {
       "id": "q3",
       "prompt": "Where is the jumper?",
-      "options": ["In the wardrobe", "On the bed", "On her chair", "In the laundry"],
+      "options": [
+        "In the wardrobe",
+        "On the bed",
+        "On her chair",
+        "In the laundry"
+      ],
       "answerIndex": 2,
       "explanation": "Mum says 'It's clean and on your chair.'",
       "hint": "Where did Mum say the jumper was?"
@@ -136,7 +197,12 @@
     {
       "id": "q4",
       "prompt": "What does Mum make for breakfast?",
-      "options": ["Toast and eggs", "Cereal", "Porridge", "Pancakes"],
+      "options": [
+        "Toast and eggs",
+        "Cereal",
+        "Porridge",
+        "Pancakes"
+      ],
       "answerIndex": 2,
       "explanation": "Mum says 'I made porridge.'",
       "hint": "What warm breakfast food does Mum mention?"
@@ -144,7 +210,12 @@
     {
       "id": "q5",
       "prompt": "Why does Mum say porridge is a good breakfast?",
-      "options": ["It is very sweet", "It will keep Ella warm", "It is very quick to make", "It is Ella's favourite"],
+      "options": [
+        "It is very sweet",
+        "It will keep Ella warm",
+        "It is very quick to make",
+        "It is Ella's favourite"
+      ],
       "answerIndex": 1,
       "explanation": "Mum says 'It will keep you warm.'",
       "hint": "What reason does Mum give for making porridge?"
@@ -152,7 +223,12 @@
     {
       "id": "q6",
       "prompt": "What does Ella want to add to her porridge?",
-      "options": ["Sugar", "Milk", "Fruit", "Honey"],
+      "options": [
+        "Sugar",
+        "Milk",
+        "Fruit",
+        "Honey"
+      ],
       "answerIndex": 3,
       "explanation": "Ella asks 'Can I have some honey in it, please?'",
       "hint": "What sweet topping does Ella request?"
@@ -160,7 +236,12 @@
     {
       "id": "q7",
       "prompt": "How long until the bus comes?",
-      "options": ["Five minutes", "Ten minutes", "Fifteen minutes", "Twenty minutes"],
+      "options": [
+        "Five minutes",
+        "Ten minutes",
+        "Fifteen minutes",
+        "Twenty minutes"
+      ],
       "answerIndex": 2,
       "explanation": "Mum says 'the bus comes in fifteen minutes.'",
       "hint": "How many minutes does Ella have left before the bus?"
@@ -168,7 +249,12 @@
     {
       "id": "q8",
       "prompt": "Where was the missing school bag?",
-      "options": ["In the kitchen", "Under the bed", "Behind the front door", "In the garden"],
+      "options": [
+        "In the kitchen",
+        "Under the bed",
+        "Behind the front door",
+        "In the garden"
+      ],
       "answerIndex": 2,
       "explanation": "Mum suggests 'Did you check behind the front door?' and Ella finds it there.",
       "hint": "Where does Mum think Ella left it the day before?"
@@ -176,7 +262,12 @@
     {
       "id": "q9",
       "prompt": "When did Ella leave the bag behind the door?",
-      "options": ["This morning", "Last week", "Yesterday", "Two days ago"],
+      "options": [
+        "This morning",
+        "Last week",
+        "Yesterday",
+        "Two days ago"
+      ],
       "answerIndex": 2,
       "explanation": "Mum says 'That's where you left it yesterday.'",
       "hint": "What time does Mum say Ella left the bag there?"
@@ -184,7 +275,12 @@
     {
       "id": "q10",
       "prompt": "What does Mum remind Ella to put on before they leave?",
-      "options": ["Her shoes", "Her hat", "Her scarf", "Her coat"],
+      "options": [
+        "Her shoes",
+        "Her hat",
+        "Her scarf",
+        "Her coat"
+      ],
       "answerIndex": 3,
       "explanation": "Mum says 'Coat on, and let's go.'",
       "hint": "What item of clothing does Mum tell Ella to put on?"
@@ -192,7 +288,12 @@
     {
       "id": "q11",
       "prompt": "What does Ella say as she leaves the house?",
-      "options": ["'See you later, house!'", "'Bye, house! Let's go, Mum!'", "'I'm ready, Mum!'", "'Come on, Mum!'"],
+      "options": [
+        "'See you later, house!'",
+        "'Bye, house! Let's go, Mum!'",
+        "'I'm ready, Mum!'",
+        "'Come on, Mum!'"
+      ],
       "answerIndex": 1,
       "explanation": "Ella says 'Bye, house! Let's go, Mum!' — a playful farewell.",
       "hint": "What are Ella's exact words as she heads out?"
@@ -203,68 +304,120 @@
     "blanks": [
       {
         "id": "b1",
-        "options": ["six", "eight", "seven", "nine"],
+        "options": [
+          "six",
+          "eight",
+          "seven",
+          "nine"
+        ],
         "answerIndex": 2,
         "explanation": "Mum says 'half past seven' — meaning 7:30 in the morning."
       },
       {
         "id": "b2",
-        "options": ["eat", "buy", "pack", "wear"],
+        "options": [
+          "eat",
+          "buy",
+          "pack",
+          "wear"
+        ],
         "answerIndex": 3,
         "explanation": "'What do you want to wear?' means what clothes does she want to put on."
       },
       {
         "id": "b3",
-        "options": ["skirt", "jumper", "dress", "jacket"],
+        "options": [
+          "skirt",
+          "jumper",
+          "dress",
+          "jacket"
+        ],
         "answerIndex": 1,
         "explanation": "A 'jumper' is a knitted pullover sweater (British English)."
       },
       {
         "id": "b4",
-        "options": ["lunch", "breakfast", "dinner", "supper"],
+        "options": [
+          "lunch",
+          "breakfast",
+          "dinner",
+          "supper"
+        ],
         "answerIndex": 1,
         "explanation": "This is a morning scene, so Ella is asking about 'breakfast'."
       },
       {
         "id": "b5",
-        "options": ["toast", "eggs", "cereal", "porridge"],
+        "options": [
+          "toast",
+          "eggs",
+          "cereal",
+          "porridge"
+        ],
         "answerIndex": 3,
         "explanation": "'Porridge' is a warm oat-based breakfast — common in the UK, especially in winter."
       },
       {
         "id": "b6",
-        "options": ["sugar", "jam", "butter", "honey"],
+        "options": [
+          "sugar",
+          "jam",
+          "butter",
+          "honey"
+        ],
         "answerIndex": 3,
         "explanation": "Ella asks for 'honey' — a sweet liquid made by bees — to add flavour to her porridge."
       },
       {
         "id": "b7",
-        "options": ["five", "ten", "fifteen", "twenty"],
+        "options": [
+          "five",
+          "ten",
+          "fifteen",
+          "twenty"
+        ],
         "answerIndex": 2,
         "explanation": "Mum says 'the bus comes in fifteen minutes' — so they must hurry."
       },
       {
         "id": "b8",
-        "options": ["lunch", "shoes", "book", "bag"],
+        "options": [
+          "lunch",
+          "shoes",
+          "book",
+          "bag"
+        ],
         "answerIndex": 3,
         "explanation": "A 'school bag' is the bag children carry to school with their books and supplies."
       },
       {
         "id": "b9",
-        "options": ["today", "last week", "this morning", "yesterday"],
+        "options": [
+          "today",
+          "last week",
+          "this morning",
+          "yesterday"
+        ],
         "answerIndex": 3,
         "explanation": "Mum says 'That's where you left it yesterday' — the day before today."
       },
       {
         "id": "b10",
-        "options": ["see", "catch", "find", "miss"],
+        "options": [
+          "see",
+          "catch",
+          "find",
+          "miss"
+        ],
         "answerIndex": 3,
         "explanation": "'Miss the bus' means to arrive too late and not be able to get on it."
       }
     ]
   },
   "criticalThinkingQuestion": "Ella nearly missed the bus because she couldn't find her school bag. Do you think it is a good idea to prepare your school bag the night before? What habits could help children like Ella have a less stressful morning?",
-  "accents": ["en-GB"],
+  "accents": [
+    "en-GB"
+  ],
   "voices": {
     "Mum": {
       "sex": "female",
@@ -280,23 +433,94 @@
     }
   },
   "sentences": [
-    {"id": "s1", "speaker": "Mum", "text": "Ella, it's time to wake up! It's half past seven."},
-    {"id": "s2", "speaker": "Child", "text": "Already? I'm so tired, Mum."},
-    {"id": "s3", "speaker": "Mum", "text": "Come on, love. You don't want to be late. What do you want to wear today?"},
-    {"id": "s4", "speaker": "Child", "text": "Can I wear my red jumper? It's my favourite."},
-    {"id": "s5", "speaker": "Mum", "text": "Of course! It's clean and on your chair. Now go and wash your face."},
-    {"id": "s6", "speaker": "Child", "text": "Okay. Mum, what's for breakfast?"},
-    {"id": "s7", "speaker": "Mum", "text": "I made porridge. It will keep you warm. Your bowl is on the table."},
-    {"id": "s8", "speaker": "Child", "text": "Can I have some honey in it, please?"},
-    {"id": "s9", "speaker": "Mum", "text": "Yes, it's on the shelf. Eat quickly though — the bus comes in fifteen minutes."},
-    {"id": "s10", "speaker": "Child", "text": "Mum! I can't find my school bag!"},
-    {"id": "s11", "speaker": "Mum", "text": "Did you check behind the front door? That's where you left it yesterday."},
-    {"id": "s12", "speaker": "Child", "text": "Oh! Yes, here it is. I found it!"},
-    {"id": "s13", "speaker": "Mum", "text": "Good. Coat on, and let's go. We don't want to miss the bus."},
-    {"id": "s14", "speaker": "Child", "text": "Ready! Bye, house! Let's go, Mum!"}
+    {
+      "id": "s1",
+      "speaker": "Mum",
+      "text": "Ella, it's time to wake up! It's half past seven.",
+      "durationMs": 4176
+    },
+    {
+      "id": "s2",
+      "speaker": "Child",
+      "text": "Already? I'm so tired, Mum.",
+      "durationMs": 4080
+    },
+    {
+      "id": "s3",
+      "speaker": "Mum",
+      "text": "Come on, love. You don't want to be late. What do you want to wear today?",
+      "durationMs": 5520
+    },
+    {
+      "id": "s4",
+      "speaker": "Child",
+      "text": "Can I wear my red jumper? It's my favourite.",
+      "durationMs": 4488
+    },
+    {
+      "id": "s5",
+      "speaker": "Mum",
+      "text": "Of course! It's clean and on your chair. Now go and wash your face.",
+      "durationMs": 5064
+    },
+    {
+      "id": "s6",
+      "speaker": "Child",
+      "text": "Okay. Mum, what's for breakfast?",
+      "durationMs": 4056
+    },
+    {
+      "id": "s7",
+      "speaker": "Mum",
+      "text": "I made porridge. It will keep you warm. Your bowl is on the table.",
+      "durationMs": 5232
+    },
+    {
+      "id": "s8",
+      "speaker": "Child",
+      "text": "Can I have some honey in it, please?",
+      "durationMs": 3144
+    },
+    {
+      "id": "s9",
+      "speaker": "Mum",
+      "text": "Yes, it's on the shelf. Eat quickly though — the bus comes in fifteen minutes.",
+      "durationMs": 5640
+    },
+    {
+      "id": "s10",
+      "speaker": "Child",
+      "text": "Mum! I can't find my school bag!",
+      "durationMs": 4104
+    },
+    {
+      "id": "s11",
+      "speaker": "Mum",
+      "text": "Did you check behind the front door? That's where you left it yesterday.",
+      "durationMs": 4656
+    },
+    {
+      "id": "s12",
+      "speaker": "Child",
+      "text": "Oh! Yes, here it is. I found it!",
+      "durationMs": 5232
+    },
+    {
+      "id": "s13",
+      "speaker": "Mum",
+      "text": "Good. Coat on, and let's go. We don't want to miss the bus.",
+      "durationMs": 5064
+    },
+    {
+      "id": "s14",
+      "speaker": "Child",
+      "text": "Ready! Bye, house! Let's go, Mum!",
+      "durationMs": 5496
+    }
   ],
   "audio": {
     "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/listening-a1-007",
     "manifestVersion": 1
-  }
+  },
+  "totalDurationMs": 65952
 }

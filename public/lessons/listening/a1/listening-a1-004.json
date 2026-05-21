@@ -5,20 +5,60 @@
   "summary": "A customer visits a small bakery and orders bread and pastries. She chats with the friendly baker while choosing what to buy.",
   "format": "dialogue",
   "body": [
-    {"speaker": "Customer", "text": "Good morning! Something smells amazing in here."},
-    {"speaker": "Baker", "text": "Good morning! Everything is fresh from the oven this morning. What can I get for you?"},
-    {"speaker": "Customer", "text": "I'd like a loaf of white bread, please. Do you have any left?"},
-    {"speaker": "Baker", "text": "Yes, we have plenty. Would you like the small loaf or the large one?"},
-    {"speaker": "Customer", "text": "The large one, please. And I can see some croissants over there. Are they butter croissants?"},
-    {"speaker": "Baker", "text": "They are! We bake them fresh every morning. They're still warm."},
-    {"speaker": "Customer", "text": "Oh, wonderful! I'll take two, please. What are those little round cakes on the top shelf?"},
-    {"speaker": "Baker", "text": "Those are blueberry muffins. They're very popular. Would you like to try one?"},
-    {"speaker": "Customer", "text": "Yes, I'll have one muffin too, please. How much is everything?"},
-    {"speaker": "Baker", "text": "That's one large loaf, two croissants, and one muffin. That comes to seven dollars and fifty cents."},
-    {"speaker": "Customer", "text": "Here you are. Thank you so much. Everything looks delicious!"},
-    {"speaker": "Baker", "text": "Thank you! Enjoy your breakfast. Have a lovely day!"}
+    {
+      "speaker": "Customer",
+      "text": "Good morning! Something smells amazing in here."
+    },
+    {
+      "speaker": "Baker",
+      "text": "Good morning! Everything is fresh from the oven this morning. What can I get for you?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "I'd like a loaf of white bread, please. Do you have any left?"
+    },
+    {
+      "speaker": "Baker",
+      "text": "Yes, we have plenty. Would you like the small loaf or the large one?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "The large one, please. And I can see some croissants over there. Are they butter croissants?"
+    },
+    {
+      "speaker": "Baker",
+      "text": "They are! We bake them fresh every morning. They're still warm."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Oh, wonderful! I'll take two, please. What are those little round cakes on the top shelf?"
+    },
+    {
+      "speaker": "Baker",
+      "text": "Those are blueberry muffins. They're very popular. Would you like to try one?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Yes, I'll have one muffin too, please. How much is everything?"
+    },
+    {
+      "speaker": "Baker",
+      "text": "That's one large loaf, two croissants, and one muffin. That comes to seven dollars and fifty cents."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Here you are. Thank you so much. Everything looks delicious!"
+    },
+    {
+      "speaker": "Baker",
+      "text": "Thank you! Enjoy your breakfast. Have a lovely day!"
+    }
   ],
-  "tags": ["shopping", "food", "bakery"],
+  "tags": [
+    "shopping",
+    "food",
+    "bakery"
+  ],
   "annotations": [
     {
       "phrase": "fresh from the oven",
@@ -110,7 +150,12 @@
     {
       "id": "q1",
       "prompt": "What time of day does this conversation take place?",
-      "options": ["Lunchtime", "Evening", "Morning", "Afternoon"],
+      "options": [
+        "Lunchtime",
+        "Evening",
+        "Morning",
+        "Afternoon"
+      ],
       "answerIndex": 2,
       "explanation": "The conversation begins with 'Good morning!' and the baker says everything is 'fresh from the oven this morning.'",
       "hint": "Listen to the greeting they use."
@@ -118,7 +163,12 @@
     {
       "id": "q2",
       "prompt": "What size of bread loaf does the customer choose?",
-      "options": ["Extra large", "Medium", "Small", "Large"],
+      "options": [
+        "Extra large",
+        "Medium",
+        "Small",
+        "Large"
+      ],
       "answerIndex": 3,
       "explanation": "The customer says 'The large one, please.'",
       "hint": "The baker offered two options — which did the customer pick?"
@@ -126,7 +176,12 @@
     {
       "id": "q3",
       "prompt": "What type of croissants does the bakery sell?",
-      "options": ["Chocolate croissants", "Almond croissants", "Butter croissants", "Cheese croissants"],
+      "options": [
+        "Chocolate croissants",
+        "Almond croissants",
+        "Butter croissants",
+        "Cheese croissants"
+      ],
       "answerIndex": 2,
       "explanation": "The customer asks 'Are they butter croissants?' and the baker confirms 'They are!'",
       "hint": "What question did the customer ask about the croissants?"
@@ -134,7 +189,12 @@
     {
       "id": "q4",
       "prompt": "How many croissants does the customer buy?",
-      "options": ["One", "Two", "Three", "Four"],
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
       "answerIndex": 1,
       "explanation": "The customer says 'I'll take two, please.'",
       "hint": "Count the number she ordered."
@@ -142,7 +202,12 @@
     {
       "id": "q5",
       "prompt": "Where are the muffins displayed in the bakery?",
-      "options": ["On the counter", "In the window", "On the top shelf", "Next to the bread"],
+      "options": [
+        "On the counter",
+        "In the window",
+        "On the top shelf",
+        "Next to the bread"
+      ],
       "answerIndex": 2,
       "explanation": "The customer asks 'What are those little round cakes on the top shelf?'",
       "hint": "Where did the customer notice the muffins?"
@@ -150,7 +215,12 @@
     {
       "id": "q6",
       "prompt": "What flavour are the muffins?",
-      "options": ["Chocolate", "Lemon", "Blueberry", "Vanilla"],
+      "options": [
+        "Chocolate",
+        "Lemon",
+        "Blueberry",
+        "Vanilla"
+      ],
       "answerIndex": 2,
       "explanation": "The baker says 'Those are blueberry muffins.'",
       "hint": "What fruit did the baker mention?"
@@ -158,7 +228,12 @@
     {
       "id": "q7",
       "prompt": "How does the baker describe the muffins?",
-      "options": ["Very sweet", "Very popular", "Very large", "Very cheap"],
+      "options": [
+        "Very sweet",
+        "Very popular",
+        "Very large",
+        "Very cheap"
+      ],
       "answerIndex": 1,
       "explanation": "The baker says 'They're very popular.'",
       "hint": "What word did the baker use to describe how much people like the muffins?"
@@ -166,7 +241,12 @@
     {
       "id": "q8",
       "prompt": "How much does the customer pay in total?",
-      "options": ["Five dollars", "Six dollars fifty", "Seven dollars fifty", "Ten dollars"],
+      "options": [
+        "Five dollars",
+        "Six dollars fifty",
+        "Seven dollars fifty",
+        "Ten dollars"
+      ],
       "answerIndex": 2,
       "explanation": "The baker says 'That comes to seven dollars and fifty cents.'",
       "hint": "Listen for the total amount the baker calculates."
@@ -174,7 +254,12 @@
     {
       "id": "q9",
       "prompt": "How does the baker describe the croissants?",
-      "options": ["Cold and crispy", "Old but tasty", "Still warm", "Freshly iced"],
+      "options": [
+        "Cold and crispy",
+        "Old but tasty",
+        "Still warm",
+        "Freshly iced"
+      ],
       "answerIndex": 2,
       "explanation": "The baker says 'They're still warm.'",
       "hint": "What temperature were the croissants?"
@@ -182,7 +267,12 @@
     {
       "id": "q10",
       "prompt": "What does the baker wish the customer at the end?",
-      "options": ["Safe travels", "A lovely day", "Good luck", "Sweet dreams"],
+      "options": [
+        "Safe travels",
+        "A lovely day",
+        "Good luck",
+        "Sweet dreams"
+      ],
       "answerIndex": 1,
       "explanation": "The baker says 'Have a lovely day!'",
       "hint": "What was the baker's final farewell?"
@@ -190,7 +280,12 @@
     {
       "id": "q11",
       "prompt": "What does the customer say she notices when she first walks in?",
-      "options": ["The colourful cakes", "The long queue", "The amazing smell", "The low prices"],
+      "options": [
+        "The colourful cakes",
+        "The long queue",
+        "The amazing smell",
+        "The low prices"
+      ],
       "answerIndex": 2,
       "explanation": "The customer says 'Something smells amazing in here.'",
       "hint": "What sense did the customer use first?"
@@ -201,68 +296,120 @@
     "blanks": [
       {
         "id": "b1",
-        "options": ["strange", "awful", "amazing", "different"],
+        "options": [
+          "strange",
+          "awful",
+          "amazing",
+          "different"
+        ],
         "answerIndex": 2,
         "explanation": "The customer says 'Something smells amazing' — a positive way to describe a wonderful smell."
       },
       {
         "id": "b2",
-        "options": ["fridge", "shop", "oven", "kitchen"],
+        "options": [
+          "fridge",
+          "shop",
+          "oven",
+          "kitchen"
+        ],
         "answerIndex": 2,
         "explanation": "'Fresh from the oven' is a fixed phrase meaning baked very recently."
       },
       {
         "id": "b3",
-        "options": ["piece", "bag", "slice", "loaf"],
+        "options": [
+          "piece",
+          "bag",
+          "slice",
+          "loaf"
+        ],
         "answerIndex": 3,
         "explanation": "Bread is counted in 'loaves' (singular: loaf). A loaf is a whole unsliced bread."
       },
       {
         "id": "b4",
-        "options": ["some left", "a little", "plenty", "just one"],
+        "options": [
+          "some left",
+          "a little",
+          "plenty",
+          "just one"
+        ],
         "answerIndex": 2,
         "explanation": "'We have plenty' means there is a lot available — no need to worry about running out."
       },
       {
         "id": "b5",
-        "options": ["chocolate", "almond", "cheese", "butter"],
+        "options": [
+          "chocolate",
+          "almond",
+          "cheese",
+          "butter"
+        ],
         "answerIndex": 3,
         "explanation": "The customer confirms they are 'butter croissants' — made with a lot of butter."
       },
       {
         "id": "b6",
-        "options": ["make", "cook", "bake", "prepare"],
+        "options": [
+          "make",
+          "cook",
+          "bake",
+          "prepare"
+        ],
         "answerIndex": 2,
         "explanation": "'Bake' is the specific verb for cooking bread, cakes, and pastries in an oven."
       },
       {
         "id": "b7",
-        "options": ["rack", "counter", "shelf", "row"],
+        "options": [
+          "rack",
+          "counter",
+          "shelf",
+          "row"
+        ],
         "answerIndex": 2,
         "explanation": "'Top shelf' means the highest level of a shelving unit in the store."
       },
       {
         "id": "b8",
-        "options": ["cakes", "muffins", "cookies", "rolls"],
+        "options": [
+          "cakes",
+          "muffins",
+          "cookies",
+          "rolls"
+        ],
         "answerIndex": 1,
         "explanation": "The baker says 'Those are blueberry muffins' — small round baked goods."
       },
       {
         "id": "b9",
-        "options": ["adds", "amounts", "comes", "totals"],
+        "options": [
+          "adds",
+          "amounts",
+          "comes",
+          "totals"
+        ],
         "answerIndex": 2,
         "explanation": "'That comes to...' is a natural phrase used when telling someone a price total."
       },
       {
         "id": "b10",
-        "options": ["cheap", "big", "delicious", "fresh"],
+        "options": [
+          "cheap",
+          "big",
+          "delicious",
+          "fresh"
+        ],
         "answerIndex": 2,
         "explanation": "'Everything looks delicious' means the food looks very tasty and appealing."
       }
     ]
   },
   "criticalThinkingQuestion": "The baker bakes everything fresh every morning. This probably means some food goes unsold at the end of the day. Do you think it is better to bake fresh every day even if food is wasted, or to bake less and risk running out? What would you do if you ran the bakery?",
-  "accents": ["en-US"],
+  "accents": [
+    "en-US"
+  ],
   "voices": {
     "Customer": {
       "sex": "female",
@@ -278,35 +425,166 @@
     }
   },
   "sentences": [
-    {"id": "s1", "speaker": "Customer", "text": "Good morning! Something smells amazing in here."},
-    {"id": "s2", "speaker": "Baker", "text": "Good morning! Everything is fresh from the oven this morning."},
-    {"id": "s3", "speaker": "Baker", "text": "What can I get for you?"},
-    {"id": "s4", "speaker": "Customer", "text": "I'd like a loaf of white bread, please."},
-    {"id": "s5", "speaker": "Customer", "text": "Do you have any left?"},
-    {"id": "s6", "speaker": "Baker", "text": "Yes, we have plenty."},
-    {"id": "s7", "speaker": "Baker", "text": "Would you like the small loaf or the large one?"},
-    {"id": "s8", "speaker": "Customer", "text": "The large one, please."},
-    {"id": "s9", "speaker": "Customer", "text": "And I can see some croissants over there."},
-    {"id": "s10", "speaker": "Customer", "text": "Are they butter croissants?"},
-    {"id": "s11", "speaker": "Baker", "text": "They are! We bake them fresh every morning."},
-    {"id": "s12", "speaker": "Baker", "text": "They're still warm."},
-    {"id": "s13", "speaker": "Customer", "text": "Oh, wonderful! I'll take two, please."},
-    {"id": "s14", "speaker": "Customer", "text": "What are those little round cakes on the top shelf?"},
-    {"id": "s15", "speaker": "Baker", "text": "Those are blueberry muffins."},
-    {"id": "s16", "speaker": "Baker", "text": "They're very popular."},
-    {"id": "s17", "speaker": "Baker", "text": "Would you like to try one?"},
-    {"id": "s18", "speaker": "Customer", "text": "Yes, I'll have one muffin too, please."},
-    {"id": "s19", "speaker": "Customer", "text": "How much is everything?"},
-    {"id": "s20", "speaker": "Baker", "text": "That's one large loaf, two croissants, and one muffin."},
-    {"id": "s21", "speaker": "Baker", "text": "That comes to seven dollars and fifty cents."},
-    {"id": "s22", "speaker": "Customer", "text": "Here you are."},
-    {"id": "s23", "speaker": "Customer", "text": "Thank you so much."},
-    {"id": "s24", "speaker": "Customer", "text": "Everything looks delicious!"},
-    {"id": "s25", "speaker": "Baker", "text": "Thank you! Enjoy your breakfast."},
-    {"id": "s26", "speaker": "Baker", "text": "Have a lovely day!"}
+    {
+      "id": "s1",
+      "speaker": "Customer",
+      "text": "Good morning! Something smells amazing in here.",
+      "durationMs": 4320
+    },
+    {
+      "id": "s2",
+      "speaker": "Baker",
+      "text": "Good morning! Everything is fresh from the oven this morning.",
+      "durationMs": 4824
+    },
+    {
+      "id": "s3",
+      "speaker": "Baker",
+      "text": "What can I get for you?",
+      "durationMs": 2136
+    },
+    {
+      "id": "s4",
+      "speaker": "Customer",
+      "text": "I'd like a loaf of white bread, please.",
+      "durationMs": 3192
+    },
+    {
+      "id": "s5",
+      "speaker": "Customer",
+      "text": "Do you have any left?",
+      "durationMs": 2064
+    },
+    {
+      "id": "s6",
+      "speaker": "Baker",
+      "text": "Yes, we have plenty.",
+      "durationMs": 2448
+    },
+    {
+      "id": "s7",
+      "speaker": "Baker",
+      "text": "Would you like the small loaf or the large one?",
+      "durationMs": 3216
+    },
+    {
+      "id": "s8",
+      "speaker": "Customer",
+      "text": "The large one, please.",
+      "durationMs": 2520
+    },
+    {
+      "id": "s9",
+      "speaker": "Customer",
+      "text": "And I can see some croissants over there.",
+      "durationMs": 3000
+    },
+    {
+      "id": "s10",
+      "speaker": "Customer",
+      "text": "Are they butter croissants?",
+      "durationMs": 2376
+    },
+    {
+      "id": "s11",
+      "speaker": "Baker",
+      "text": "They are! We bake them fresh every morning.",
+      "durationMs": 4272
+    },
+    {
+      "id": "s12",
+      "speaker": "Baker",
+      "text": "They're still warm.",
+      "durationMs": 2016
+    },
+    {
+      "id": "s13",
+      "speaker": "Customer",
+      "text": "Oh, wonderful! I'll take two, please.",
+      "durationMs": 4632
+    },
+    {
+      "id": "s14",
+      "speaker": "Customer",
+      "text": "What are those little round cakes on the top shelf?",
+      "durationMs": 3288
+    },
+    {
+      "id": "s15",
+      "speaker": "Baker",
+      "text": "Those are blueberry muffins.",
+      "durationMs": 2520
+    },
+    {
+      "id": "s16",
+      "speaker": "Baker",
+      "text": "They're very popular.",
+      "durationMs": 2232
+    },
+    {
+      "id": "s17",
+      "speaker": "Baker",
+      "text": "Would you like to try one?",
+      "durationMs": 2256
+    },
+    {
+      "id": "s18",
+      "speaker": "Customer",
+      "text": "Yes, I'll have one muffin too, please.",
+      "durationMs": 3552
+    },
+    {
+      "id": "s19",
+      "speaker": "Customer",
+      "text": "How much is everything?",
+      "durationMs": 2160
+    },
+    {
+      "id": "s20",
+      "speaker": "Baker",
+      "text": "That's one large loaf, two croissants, and one muffin.",
+      "durationMs": 3936
+    },
+    {
+      "id": "s21",
+      "speaker": "Baker",
+      "text": "That comes to seven dollars and fifty cents.",
+      "durationMs": 3480
+    },
+    {
+      "id": "s22",
+      "speaker": "Customer",
+      "text": "Here you are.",
+      "durationMs": 1824
+    },
+    {
+      "id": "s23",
+      "speaker": "Customer",
+      "text": "Thank you so much.",
+      "durationMs": 2112
+    },
+    {
+      "id": "s24",
+      "speaker": "Customer",
+      "text": "Everything looks delicious!",
+      "durationMs": 2448
+    },
+    {
+      "id": "s25",
+      "speaker": "Baker",
+      "text": "Thank you! Enjoy your breakfast.",
+      "durationMs": 3744
+    },
+    {
+      "id": "s26",
+      "speaker": "Baker",
+      "text": "Have a lovely day!",
+      "durationMs": 2064
+    }
   ],
   "audio": {
     "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/listening-a1-004",
     "manifestVersion": 1
-  }
+  },
+  "totalDurationMs": 76632
 }
