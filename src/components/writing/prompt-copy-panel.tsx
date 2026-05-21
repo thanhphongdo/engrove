@@ -149,7 +149,7 @@ export function PromptCopyPanel() {
       )}
       <details className="mt-3 text-xs">
         <summary className="cursor-pointer text-muted-foreground">
-          Or paste the AI's JSON response here
+          Or paste the AI&apos;s JSON response here
         </summary>
         <textarea
           value={pasteBack}

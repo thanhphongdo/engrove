@@ -80,7 +80,7 @@ export function WritingSessionProvider({
   );
   const [expired, setExpired] = useState(false);
   const [llmResult, setLlmResult] = useState<WritingLLMResult | null>(null);
-  const startedAtRef = useRef<number>(Date.now());
+  const [startedAt] = useState<number>(() => Date.now());
 
   // Debounced draft save
   const draftSaveRef = useRef<number | null>(null);
@@ -95,7 +95,7 @@ export function WritingSessionProvider({
         sessionToken,
         sampleRevealed,
         updatedAt: Date.now(),
-        durationMs: Date.now() - startedAtRef.current,
+        durationMs: Date.now() - startedAt,
       }).catch(() => {});
     }, 600);
     return () => {
@@ -129,9 +129,9 @@ export function WritingSessionProvider({
             id,
             profileId,
             lessonId: lesson.id,
-            startedAt: startedAtRef.current,
+            startedAt: startedAt,
             completedAt: Date.now(),
-            durationMs: Date.now() - startedAtRef.current,
+            durationMs: Date.now() - startedAt,
             text,
             mcScore: mcResult.score,
             mcTotal: mcResult.total,
