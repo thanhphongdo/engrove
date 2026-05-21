@@ -79,3 +79,32 @@ export type ListeningLessonMeta = LessonMeta & {
   totalDurationMs?: number;
   sentenceCount: number;
 };
+
+export type WritingLesson = {
+  id: string;
+  level: CefrLevel;
+  title: string;
+  summary: string;
+  tags: string[];
+  topic: string;
+  prompt: string;
+  minWords?: number;
+  maxWords?: number;
+  hintStarters: string[];
+  hintVocab: Annotation[];
+  sampleText: string;
+  sampleAnnotations: Annotation[];
+  sampleGrammarNotes: GrammarNote[];
+  sampleTranslationVi: string;
+  mcQuestions: Question[];
+  criticalThinkingQuestion?: string;
+};
+
+export type WritingLessonMeta = {
+  id: string;
+  level: CefrLevel;
+  title: string;
+  summary: string;
+  tags: string[];
+  topic: string;
+};
