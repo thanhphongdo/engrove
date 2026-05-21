@@ -89,3 +89,43 @@ export const DEFAULT_CONTENT_ZOOM = 1.1;
 export const MIN_CONTENT_ZOOM = 0.9;
 export const MAX_CONTENT_ZOOM = 1.5;
 export const CONTENT_ZOOM_STEP = 0.1;
+
+export type WritingLLMResult = {
+  scores: {
+    task: number;
+    grammar: number;
+    vocabulary: number;
+    coherence: number;
+    overall: number;
+  };
+  corrections: { original: string; fixed: string; explanation: string }[];
+  suggestions: string[];
+  rewritten: string;
+  model?: string;
+};
+
+export type WritingDraft = {
+  profileId: string;
+  lessonId: string;
+  text: string;
+  mcPicks: Record<string, number>;
+  sessionToken: string | null;
+  sampleRevealed: boolean;
+  updatedAt: number;
+  durationMs: number;
+};
+
+export type WritingAttempt = {
+  id: string;
+  profileId: string;
+  lessonId: string;
+  startedAt: number;
+  completedAt: number;
+  durationMs: number;
+  text: string;
+  mcScore: number;
+  mcTotal: number;
+  mcPicks: Record<string, number>;
+  llmResult: WritingLLMResult | null;
+  sampleRevealed: boolean;
+};
