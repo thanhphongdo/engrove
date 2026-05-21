@@ -15,7 +15,6 @@ describe("writing tables (DB v5)", () => {
       lessonId: "writing-a1-001",
       text: "I usually relax.",
       mcPicks: { q1: 1 },
-      sessionToken: null,
       sampleRevealed: false,
       updatedAt: Date.now(),
       durationMs: 12_000,

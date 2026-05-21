@@ -14,6 +14,18 @@ import { LayoutToggle } from "@/components/reading/layout-toggle";
 import { BookmarkButton } from "@/components/reading/bookmark-button";
 import { LessonNotes } from "@/components/reading/lesson-notes";
 import { MCQuestions } from "@/components/reading/mc-questions";
+import { Button } from "@/components/ui/button";
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from "@/components/ui/alert-dialog";
 import { cn } from "@/lib/utils";
 import type { WritingLesson } from "@/lib/lessons/types";
 import {
@@ -25,7 +37,6 @@ import { HintPanel } from "@/components/writing/hint-panel";
 import { WritingEditor } from "@/components/writing/writing-editor";
 import { SampleAnswerReveal } from "@/components/writing/sample-answer-reveal";
 import { PromptCopyPanel } from "@/components/writing/prompt-copy-panel";
-import { WritingResultWaiting } from "@/components/writing/writing-result-waiting";
 import { WritingResultPanel } from "@/components/writing/writing-result-panel";
 import { WritingAttemptHistory } from "@/components/writing/writing-attempt-history";
 import { AiFeedbackGuide } from "@/components/writing/ai-feedback-guide";
@@ -38,8 +49,78 @@ const LEVEL_CLASS: Record<WritingLesson["level"], string> = {
   C1: "bg-level-c1 text-level-c1-foreground",
 };
 
+function McQuizSection() {
+  const { lesson, mcPicks, setMcPick, mcResult, reviewMode, submitMc, retryMc } =
+    useWritingSession();
+  const prefs = usePreferences();
+  const answered = Object.keys(mcPicks).length;
+  const total = lesson.mcQuestions.length;
+  const unanswered = total - answered;
+
+  return (
+    <section className="mt-3 rounded-md sm:mt-4 border bg-card p-3 sm:p-4 shadow-md dark:shadow-[0_4px_20px_rgba(255,255,255,0.035)]">
+      <MCQuestions
+        showHint={prefs.hintToggles.perQuestionHint}
+        questions={lesson.mcQuestions}
+        picks={mcPicks}
+        onPick={setMcPick}
+        reviewMode={reviewMode}
+        label="Sentence-choice quiz"
+      />
+      {reviewMode && mcResult ? (
+        <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-t pt-3">
+          <p className="text-sm font-semibold">
+            Score: {mcResult.score}/{mcResult.total}
+          </p>
+          <Button type="button" variant="outline" size="sm" onClick={retryMc}>
+            Retry
+          </Button>
+        </div>
+      ) : (
+        <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-t pt-3">
+          <p className="text-xs text-muted-foreground">
+            {answered} / {total} answered
+          </p>
+          {unanswered > 0 ? (
+            <AlertDialog>
+              <AlertDialogTrigger asChild>
+                <Button type="button" size="sm" className="sm:min-w-40">
+                  Submit
+                </Button>
+              </AlertDialogTrigger>
+              <AlertDialogContent>
+                <AlertDialogHeader>
+                  <AlertDialogTitle>
+                    {unanswered} question{unanswered === 1 ? "" : "s"} unanswered
+                  </AlertDialogTitle>
+                  <AlertDialogDescription>
+                    Unanswered questions count as wrong. Submit anyway?
+                  </AlertDialogDescription>
+                </AlertDialogHeader>
+                <AlertDialogFooter>
+                  <AlertDialogCancel>Cancel</AlertDialogCancel>
+                  <AlertDialogAction onClick={submitMc}>Submit</AlertDialogAction>
+                </AlertDialogFooter>
+              </AlertDialogContent>
+            </AlertDialog>
+          ) : (
+            <Button
+              type="button"
+              size="sm"
+              className="sm:min-w-40"
+              onClick={submitMc}
+            >
+              Submit
+            </Button>
+          )}
+        </div>
+      )}
+    </section>
+  );
+}
+
 function MainArea() {
-  const { lesson, mcPicks, setMcPick, phase, llmResult } = useWritingSession();
+  const { lesson, phase, llmResult } = useWritingSession();
   const prefs = usePreferences();
   return (
     <>
@@ -57,7 +138,6 @@ function MainArea() {
           <WritingEditor />
           <SampleAnswerReveal />
           <PromptCopyPanel />
-          {phase === "waiting" && <WritingResultWaiting />}
           {phase === "ready" && llmResult && <WritingResultPanel result={llmResult} />}
         </div>
         <div className="space-y-3">
@@ -65,15 +145,8 @@ function MainArea() {
         </div>
       </div>
 
-      <section className="mt-3 rounded-md sm:mt-4 border bg-card p-3 sm:p-4 shadow-md dark:shadow-[0_4px_20px_rgba(255,255,255,0.035)]">
-        <MCQuestions
-          showHint={prefs.hintToggles.perQuestionHint}
-          questions={lesson.mcQuestions}
-          picks={mcPicks}
-          onPick={setMcPick}
-          label="Sentence-choice quiz"
-        />
-      </section>
+      <McQuizSection />
+
 
       {lesson.criticalThinkingQuestion && (
         <section className="mt-3 rounded-md sm:mt-4 border-l-4 border-primary bg-muted/40 p-3 sm:p-4 shadow-md dark:shadow-[0_4px_20px_rgba(255,255,255,0.035)]">

@@ -1,11 +1,5 @@
 import type { CefrLevel } from "@/lib/lessons/types";
 
-type PromptInput = {
-  lesson: { level: CefrLevel; topic: string; prompt: string };
-  userText: string;
-  callbackUrl: string;
-};
-
 const RESULT_SHAPE = `{
   "scores": { "task": 0-10, "grammar": 0-10, "vocabulary": 0-10, "coherence": 0-10, "overall": 0-10 },
   "corrections": [ { "original": "exact phrase from text", "fixed": "corrected version", "explanation": "why" } ],
@@ -37,27 +31,6 @@ A typical A2 learner's text should score 4–6. A 7+ means genuinely strong Engl
 const INSTRUCTIONS = `CORRECTIONS: List only REAL errors — grammar mistakes, genuinely unnatural phrasing, wrong word choices. Do NOT invent corrections to fill space: if the text has no errors, return an empty array. Do NOT flag style choices as errors, do NOT suggest synonyms unless the original word is wrong, do NOT flag British vs American English differences.
 SUGGESTIONS: Give 3–5 specific, actionable suggestions calibrated to the learner's CEFR level. Read the text carefully — do not suggest something the learner already does well.
 REWRITTEN: Fix only real errors while preserving the learner's style, voice, and vocabulary level.`;
-
-export function buildLLMPrompt({ lesson, userText, callbackUrl }: PromptInput): string {
-  return `You are an experienced English examiner scoring a CEFR ${lesson.level} learner's writing.
-
-Topic: ${lesson.topic}
-Task: ${lesson.prompt}
-
-${SCORING_RUBRIC}
-
-${INSTRUCTIONS}
-
-Respond by calling this HTTP endpoint exactly once:
-POST ${callbackUrl}
-Content-Type: application/json
-Body (JSON):
-${RESULT_SHAPE}
-
-<text>
-${userText}
-</text>`;
-}
 
 export function buildPasteBackPrompt({
   lesson,

@@ -10,19 +10,26 @@ import {
   useState,
   type ReactNode,
 } from "react";
-import { toast } from "sonner";
-import { useActiveProfileId } from "@/lib/db/use-active-profile";
+import { Play } from "lucide-react";
 import {
-  deleteWritingDraft,
-  saveWritingAttempt,
-  upsertWritingDraft,
-} from "@/lib/db/queries";
-import { scoreQuiz } from "@/lib/lessons/score";
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+} from "@/components/ui/alert-dialog";
+import { useActiveProfileId } from "@/lib/db/use-active-profile";
+import { upsertWritingDraft } from "@/lib/db/queries";
+import { scoreQuiz, type ScoreResult } from "@/lib/lessons/score";
+import { useTimerStore } from "@/stores/timer-store";
 import type { WritingLesson } from "@/lib/lessons/types";
 import type { WritingDraft, WritingLLMResult } from "@/lib/db/types";
 
 type Picks = Record<string, number>;
-type Phase = "idle" | "waiting" | "ready";
+type Phase = "idle" | "ready";
 
 type ContextValue = {
   lesson: WritingLesson;
@@ -32,16 +39,15 @@ type ContextValue = {
   setMcPick: (id: string, index: number) => void;
   sampleRevealed: boolean;
   revealSample: () => void;
-  callbackUrl: string | null;
-  sessionToken: string | null;
+  /** MC quiz scoring + review state — matches the reading lesson pattern. */
+  mcResult: ScoreResult | null;
+  reviewMode: boolean;
+  submitMc: () => void;
+  retryMc: () => void;
+  /** LLM (AI feedback) state. */
   phase: Phase;
-  expired: boolean;
   llmResult: WritingLLMResult | null;
-  /** Creates a session token and shows the prompt-copy panel. Returns the callbackUrl on success, null on failure. */
-  startSession: () => Promise<string | null>;
-  /** Cancels the current session and clears local state. */
-  cancelSession: () => Promise<void>;
-  /** Used by the paste-back flow to render the result without a relay round-trip. */
+  /** Called by paste-back / direct-API flows to render an LLM result. */
   applyResult: (result: WritingLLMResult) => void;
 };
 
@@ -69,18 +75,26 @@ export function WritingSessionProvider({
   const [sampleRevealed, setSampleRevealed] = useState<boolean>(
     initialDraft?.sampleRevealed ?? false,
   );
-  const [sessionToken, setSessionToken] = useState<string | null>(
-    initialDraft?.sessionToken ?? null,
-  );
-  const [callbackUrl, setCallbackUrl] = useState<string | null>(null);
-  const [phase, setPhase] = useState<Phase>(
-    initialDraft?.sessionToken ? "waiting" : "idle",
-  );
-  const [expired, setExpired] = useState(false);
+  const [mcResult, setMcResult] = useState<ScoreResult | null>(null);
+  const [phase, setPhase] = useState<Phase>("idle");
   const [llmResult, setLlmResult] = useState<WritingLLMResult | null>(null);
-  const [startedAt] = useState<number>(() => Date.now());
+  const [startPromptOpen, setStartPromptOpen] = useState(false);
 
-  // Debounced draft save
+  const status = useTimerStore((s) => s.status);
+  const hydrate = useTimerStore((s) => s.hydrate);
+  const beginTimer = useTimerStore((s) => s.begin);
+  const resumeTimer = useTimerStore((s) => s.resume);
+  const finishTimer = useTimerStore((s) => s.finish);
+  const resetTimer = useTimerStore((s) => s.reset);
+  const prevStatusRef = useRef(status);
+
+  // Restore timer from saved draft duration on mount
+  useEffect(() => {
+    if ((initialDraft?.durationMs ?? 0) > 0) hydrate(initialDraft!.durationMs);
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- run once on mount
+  }, []);
+
+  // Debounced draft save — duration comes from the live timer
   const draftSaveRef = useRef<number | null>(null);
   useEffect(() => {
     if (draftSaveRef.current !== null) window.clearTimeout(draftSaveRef.current);
@@ -90,164 +104,65 @@ export function WritingSessionProvider({
         lessonId: lesson.id,
         text,
         mcPicks,
-        sessionToken,
         sampleRevealed,
         updatedAt: Date.now(),
-        durationMs: Date.now() - startedAt,
+        durationMs: useTimerStore.getState().elapsedAt(Date.now()),
       }).catch(() => {});
     }, 600);
     return () => {
       if (draftSaveRef.current !== null) window.clearTimeout(draftSaveRef.current);
     };
-  }, [profileId, lesson.id, text, mcPicks, sessionToken, sampleRevealed]);
+  }, [profileId, lesson.id, text, mcPicks, sampleRevealed]);
 
-  // Poll the relay endpoint while a session token is set.
-  //
-  // Resilient to server redeploys: each poll is a stateless HTTP request, so
-  // a redeploy mid-flight at worst causes one failed request — the next
-  // interval retries against the new deploy. Session state lives in Vercel KV
-  // (external), so a redeploy never loses a pending or ready session.
-  //
-  // Hard guards:
-  //   - 404 from the server (KV TTL expired or session deleted) → expired
-  //   - 5+ minutes of no resolution → soft expired, user can retry
-  //   - network errors → swallowed, retried on next interval
+  // Fresh attempt (stopped → running via begin()) wipes MC state
   useEffect(() => {
-    if (!sessionToken) return;
-    let cancelled = false;
-    const POLL_INTERVAL_MS = 2000;
-    const CLIENT_TIMEOUT_MS = 5 * 60 * 1000;
-    const startedPollingAt = Date.now();
+    const prev = prevStatusRef.current;
+    prevStatusRef.current = status;
+    if (prev !== "stopped" || status !== "running") return;
+    setMcPicks({});
+    setMcResult(null);
+  }, [status]);
 
-    function resetToIdle(message?: string) {
-      if (cancelled) return;
-      setSessionToken(null);
-      setCallbackUrl(null);
-      setPhase("idle");
-      setExpired(true);
-      if (message) toast.info(message);
-    }
-
-    async function poll() {
-      if (cancelled) return;
-      try {
-        const res = await fetch(`/api/writing/result/${sessionToken}`, {
-          cache: "no-store",
-        });
-
-        if (res.status === 404) {
-          resetToIdle("Session expired — please copy the prompt again.");
-          return;
-        }
-
-        if (res.ok) {
-          const data = (await res.json()) as {
-            status: "pending" | "ready";
-            result: WritingLLMResult | null;
-            expiresAt?: number;
-          };
-          if (data.status === "ready" && data.result) {
-            if (cancelled) return;
-            const result = data.result;
-            setLlmResult(result);
-            setPhase("ready");
-            const mcResult = scoreQuiz(lesson.mcQuestions, mcPicks);
-            const id =
-              globalThis.crypto?.randomUUID?.() ??
-              `att-${Math.random().toString(36).slice(2)}`;
-            saveWritingAttempt({
-              id,
-              profileId,
-              lessonId: lesson.id,
-              startedAt,
-              completedAt: Date.now(),
-              durationMs: Date.now() - startedAt,
-              text,
-              mcScore: mcResult.score,
-              mcTotal: mcResult.total,
-              mcPicks,
-              llmResult: result,
-              sampleRevealed,
-            })
-              .then(() => deleteWritingDraft(profileId, lesson.id))
-              .then(() => {
-                toast.success("Feedback received");
-              })
-              .catch(() => {});
-            setSessionToken(null);
-            return;
-          }
-          if (data.expiresAt != null && Date.now() > data.expiresAt) {
-            resetToIdle("Session expired — please copy the prompt again.");
-            return;
-          }
-        }
-        // res !res.ok and not 404 (e.g. 5xx during a redeploy): fall through,
-        // retry on the next interval.
-      } catch {
-        // Network blip — fall through to retry.
-      }
-
-      if (Date.now() - startedPollingAt > CLIENT_TIMEOUT_MS) {
-        resetToIdle("No feedback received after 5 minutes. Please try again.");
+  const setMcPick = useCallback(
+    (id: string, index: number) => {
+      if (status !== "running") {
+        setStartPromptOpen(true);
         return;
       }
-
-      if (!cancelled) {
-        window.setTimeout(poll, POLL_INTERVAL_MS);
-      }
-    }
-
-    poll();
-    return () => {
-      cancelled = true;
-    };
-    // text / mcPicks are intentionally captured at the time the ready response
-    // arrives — re-running the effect on every keystroke would reset polling.
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [sessionToken, lesson.id, lesson.mcQuestions, profileId, sampleRevealed, startedAt]);
-
-  const setMcPick = useCallback((id: string, index: number) => {
-    setMcPicks((p) => ({ ...p, [id]: index }));
-  }, []);
+      if (mcResult !== null) return;
+      setMcPicks((p) => ({ ...p, [id]: index }));
+    },
+    [status, mcResult],
+  );
 
   const revealSample = useCallback(() => {
     setSampleRevealed(true);
   }, []);
 
-  const startSession = useCallback(async (): Promise<string | null> => {
-    setLlmResult(null);
-    setExpired(false);
-    setPhase("waiting");
-    const res = await fetch("/api/writing/session", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ lessonId: lesson.id, profileId }),
-    });
-    if (!res.ok) {
-      setPhase("idle");
-      return null;
-    }
-    const data = (await res.json()) as { token: string; callbackUrl: string };
-    setSessionToken(data.token);
-    setCallbackUrl(data.callbackUrl);
-    return data.callbackUrl;
-  }, [lesson.id, profileId]);
+  const submitMc = useCallback(() => {
+    if (mcResult !== null) return;
+    finishTimer();
+    setMcResult(scoreQuiz(lesson.mcQuestions, mcPicks));
+  }, [mcResult, lesson.mcQuestions, mcPicks, finishTimer]);
 
-  const cancelSession = useCallback(async () => {
-    setSessionToken(null);
-    setCallbackUrl(null);
-    setPhase("idle");
-    setExpired(false);
-    setLlmResult(null);
-  }, []);
+  const retryMc = useCallback(() => {
+    setMcPicks({});
+    setMcResult(null);
+    resetTimer();
+  }, [resetTimer]);
+
+  const handleStartFromPrompt = useCallback(() => {
+    if (status === "paused") resumeTimer();
+    else beginTimer();
+    setStartPromptOpen(false);
+  }, [status, beginTimer, resumeTimer]);
 
   const applyResult = useCallback((result: WritingLLMResult) => {
     setLlmResult(result);
     setPhase("ready");
-    setSessionToken(null);
-    setCallbackUrl(null);
   }, []);
+
+  const reviewMode = mcResult !== null;
 
   const value = useMemo<ContextValue>(
     () => ({
@@ -258,13 +173,12 @@ export function WritingSessionProvider({
       setMcPick,
       sampleRevealed,
       revealSample,
-      callbackUrl,
-      sessionToken,
+      mcResult,
+      reviewMode,
+      submitMc,
+      retryMc,
       phase,
-      expired,
       llmResult,
-      startSession,
-      cancelSession,
       applyResult,
     }),
     [
@@ -274,13 +188,12 @@ export function WritingSessionProvider({
       setMcPick,
       sampleRevealed,
       revealSample,
-      callbackUrl,
-      sessionToken,
+      mcResult,
+      reviewMode,
+      submitMc,
+      retryMc,
       phase,
-      expired,
       llmResult,
-      startSession,
-      cancelSession,
       applyResult,
     ],
   );
@@ -288,6 +201,29 @@ export function WritingSessionProvider({
   return (
     <WritingSessionContext.Provider value={value}>
       {children}
+      <AlertDialog open={startPromptOpen} onOpenChange={setStartPromptOpen}>
+        <AlertDialogContent>
+          <AlertDialogHeader>
+            <AlertDialogTitle>
+              {status === "paused"
+                ? "Resume the timer to continue"
+                : "Start the timer to begin"}
+            </AlertDialogTitle>
+            <AlertDialogDescription>
+              {status === "paused"
+                ? "Your attempt is paused. Press Resume to continue answering."
+                : "Press Begin to start answering questions. The timer will start counting."}
+            </AlertDialogDescription>
+          </AlertDialogHeader>
+          <AlertDialogFooter>
+            <AlertDialogCancel>Not now</AlertDialogCancel>
+            <AlertDialogAction onClick={handleStartFromPrompt}>
+              <Play className="mr-1 size-3.5" aria-hidden="true" />
+              {status === "paused" ? "Resume" : "Begin"}
+            </AlertDialogAction>
+          </AlertDialogFooter>
+        </AlertDialogContent>
+      </AlertDialog>
     </WritingSessionContext.Provider>
   );
 }

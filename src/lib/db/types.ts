@@ -109,7 +109,6 @@ export type WritingDraft = {
   lessonId: string;
   text: string;
   mcPicks: Record<string, number>;
-  sessionToken: string | null;
   sampleRevealed: boolean;
   updatedAt: number;
   durationMs: number;
