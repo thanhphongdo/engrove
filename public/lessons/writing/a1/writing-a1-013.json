@@ -1,0 +1,190 @@
+{
+  "id": "writing-a1-013",
+  "level": "A1",
+  "title": "The bus I take to work",
+  "summary": "Describe the bus you take and what you notice on the way.",
+  "tags": ["Daily life", "Travel"],
+  "topic": "The bus I take to work",
+  "prompt": "Write 6–8 short sentences about the bus you take to work. Use present simple and 'There is / There are'.",
+  "minWords": 150,
+  "maxWords": 250,
+  "hintStarters": [
+    "I take bus number…",
+    "The bus stops at…",
+    "There are usually…",
+    "I notice…"
+  ],
+  "hintVocab": [
+    { "phrase": "bus stop", "meaningVi": "trạm xe buýt" },
+    { "phrase": "passenger", "meaningVi": "hành khách", "pronunciation": "/ˈpæsɪndʒər/" },
+    { "phrase": "driver", "meaningVi": "tài xế" },
+    { "phrase": "seat", "meaningVi": "ghế" },
+    { "phrase": "ticket", "meaningVi": "vé" },
+    { "phrase": "morning", "meaningVi": "buổi sáng" },
+    { "phrase": "crowded", "meaningVi": "đông đúc", "pronunciation": "/ˈkraʊdɪd/" },
+    { "phrase": "stop", "meaningVi": "dừng" },
+    { "phrase": "window seat", "meaningVi": "ghế gần cửa sổ" },
+    { "phrase": "traffic", "meaningVi": "giao thông" },
+    { "phrase": "arrive", "meaningVi": "đến", "pronunciation": "/əˈraɪv/" }
+  ],
+  "sampleText": "I take bus number 27 from my street in Cape Town to my office near the harbor. The bus stop is two minutes from my flat. The first bus arrives at seven fifteen, but I usually wait for the seven thirty bus because it is less crowded. The driver is a kind woman called Thandi, and she always says good morning. I sit in a window seat on the right side. There are usually ten or twelve passengers in the morning. A school boy stands near the door with a heavy bag, and an old man reads the newspaper. I see the same coffee shop on the corner of Long Street, and the smell comes through the open window. The bus stops six times, and the ride takes about twenty-five minutes. When traffic is heavy, the bus is slow, but I do not mind. I listen to the radio softly and I watch the city wake up. I always arrive at work a little calmer because of this short morning bus ride.",
+  "sampleAnnotations": [
+    { "phrase": "bus number 27", "meaningVi": "xe buýt số 27" },
+    { "phrase": "bus stop", "meaningVi": "trạm xe buýt" },
+    { "phrase": "less crowded", "meaningVi": "ít đông hơn" },
+    { "phrase": "window seat", "meaningVi": "ghế cạnh cửa sổ" },
+    { "phrase": "ten or twelve passengers", "meaningVi": "mười hoặc mười hai hành khách" },
+    { "phrase": "old man", "meaningVi": "ông cụ" },
+    { "phrase": "the newspaper", "meaningVi": "tờ báo" },
+    { "phrase": "open window", "meaningVi": "cửa sổ mở" },
+    { "phrase": "traffic is heavy", "meaningVi": "giao thông đông" },
+    { "phrase": "I do not mind", "meaningVi": "tôi không phiền" },
+    { "phrase": "short morning bus ride", "meaningVi": "chuyến xe buýt buổi sáng ngắn" }
+  ],
+  "sampleGrammarNotes": [
+    {
+      "title": "There is / there are",
+      "bodyVi": "'There are' với số nhiều, 'There is' với số ít.",
+      "bodyEn": "Use 'There are' with plural and 'There is' with singular, like 'There are usually ten or twelve passengers'."
+    },
+    {
+      "title": "Present simple for routine",
+      "bodyVi": "Dùng hiện tại đơn cho lộ trình hằng ngày: 'I take', 'I sit', 'I listen'.",
+      "bodyEn": "Use the present simple for routine, as in 'I take bus number 27' and 'I sit in a window seat'."
+    }
+  ],
+  "sampleTranslationVi": "Tôi đi xe buýt số 27 từ đường nhà ở Cape Town đến văn phòng gần cảng. Trạm xe buýt cách căn hộ của tôi hai phút. Chuyến đầu đến lúc bảy giờ mười lăm, nhưng tôi thường đợi chuyến bảy giờ ba mươi vì ít đông hơn. Tài xế là một phụ nữ tốt bụng tên Thandi, và chị ấy luôn chào buổi sáng. Tôi ngồi ở ghế cạnh cửa sổ bên phải. Buổi sáng thường có mười hoặc mười hai hành khách. Một cậu học sinh đứng gần cửa với chiếc cặp nặng, và một ông cụ đọc báo. Tôi thấy quán cà phê quen trên góc đường Long, và mùi cà phê bay vào qua cửa sổ mở. Xe buýt dừng sáu lần, và chuyến đi mất khoảng hai mươi lăm phút. Khi đường đông, xe đi chậm, nhưng tôi không phiền. Tôi nghe radio nhẹ và quan sát thành phố thức dậy. Tôi luôn đến chỗ làm với cảm giác bình tĩnh hơn nhờ chuyến xe buýt sáng ngắn này.",
+  "mcQuestions": [
+    {
+      "id": "q1",
+      "prompt": "Which sentence is grammatically correct?",
+      "options": [
+        "There is twelve passengers.",
+        "There are twelve passengers.",
+        "There has twelve passengers.",
+        "There be twelve passengers."
+      ],
+      "answerIndex": 1,
+      "explanation": "'passengers' is plural, use 'there are'.",
+      "hint": "Match plural noun with 'are'."
+    },
+    {
+      "id": "q2",
+      "prompt": "Which sentence uses present simple correctly?",
+      "options": [
+        "I take bus number 27 every morning.",
+        "I taking bus 27.",
+        "I took bus 27 every morning.",
+        "I to take bus 27."
+      ],
+      "answerIndex": 0,
+      "explanation": "Present simple for daily routine.",
+      "hint": "Habit + present simple."
+    },
+    {
+      "id": "q3",
+      "prompt": "Which sentence sounds most natural?",
+      "options": [
+        "The bus stops six times.",
+        "Six the bus times stops.",
+        "Stops bus the six times.",
+        "Times six bus stops."
+      ],
+      "answerIndex": 0,
+      "explanation": "Subject + verb + object structure.",
+      "hint": "Look for normal word order."
+    },
+    {
+      "id": "q4",
+      "prompt": "Which sentence best fits 'a bus ride'?",
+      "options": [
+        "I sit in a window seat on the right side.",
+        "I climb a mountain every day.",
+        "I cook fish for dinner.",
+        "I write a novel at midnight."
+      ],
+      "answerIndex": 0,
+      "explanation": "Sitting in a seat fits a bus topic.",
+      "hint": "Choose the sentence about the bus."
+    },
+    {
+      "id": "q5",
+      "prompt": "Which sentence is grammatically correct?",
+      "options": [
+        "The driver say good morning.",
+        "The driver says good morning.",
+        "The driver saying good morning.",
+        "The driver is say good morning."
+      ],
+      "answerIndex": 1,
+      "explanation": "Third person singular: 'says'.",
+      "hint": "Add -s to the verb."
+    },
+    {
+      "id": "q6",
+      "prompt": "Which sentence uses 'because' correctly?",
+      "options": [
+        "I wait for the next bus because it is less crowded.",
+        "Because next bus crowded I.",
+        "I because wait bus less.",
+        "Crowded because bus less wait."
+      ],
+      "answerIndex": 0,
+      "explanation": "'because' introduces a clear reason.",
+      "hint": "Look for a full reason clause."
+    },
+    {
+      "id": "q7",
+      "prompt": "Which word fits: 'The bus is ___ at eight o'clock.'",
+      "options": [
+        "crowded",
+        "tall",
+        "fresh",
+        "sweet"
+      ],
+      "answerIndex": 0,
+      "explanation": "'crowded' describes a busy bus.",
+      "hint": "Choose a word about a busy bus."
+    },
+    {
+      "id": "q8",
+      "prompt": "Which sentence uses adverb of frequency correctly?",
+      "options": [
+        "I always arrive at work calmer.",
+        "Always I work arrive calmer.",
+        "Arrive I always calmer work.",
+        "I arrive calmer always."
+      ],
+      "answerIndex": 0,
+      "explanation": "'always' before the main verb.",
+      "hint": "Adverb position before the verb."
+    },
+    {
+      "id": "q9",
+      "prompt": "Which sentence is grammatically correct?",
+      "options": [
+        "When traffic is heavy, the bus is slow.",
+        "Heavy when traffic bus slow.",
+        "Traffic when heavy bus slow.",
+        "Slow bus when heavy traffic."
+      ],
+      "answerIndex": 0,
+      "explanation": "'When' clause + main clause.",
+      "hint": "Time clause first, then main clause."
+    },
+    {
+      "id": "q10",
+      "prompt": "Which sentence fits the bus topic best?",
+      "options": [
+        "The driver is a kind woman called Thandi.",
+        "The chef cooks pasta at noon.",
+        "The flowers are blue in summer.",
+        "The museum closes at six."
+      ],
+      "answerIndex": 0,
+      "explanation": "The driver fits a bus description.",
+      "hint": "Pick the bus-related person."
+    }
+  ],
+  "criticalThinkingQuestion": "What can a short daily commute teach us about a city that we cannot learn from a map?"
+}

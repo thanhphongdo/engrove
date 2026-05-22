@@ -3,99 +3,195 @@
   "level": "A2",
   "title": "A small thing I do to feel calm",
   "summary": "Describe one small habit that helps you feel calm during a busy day.",
-  "tags": ["Habits", "Daily life"],
+  "tags": ["Habits", "Daily life", "Present simple"],
   "topic": "A small thing I do to feel calm",
-  "prompt": "Write 6–9 sentences about one small thing you do (not exercise, not sleep) when the day feels too busy. Use present simple. Explain why this habit helps you, using 'because'.",
-  "minWords": 50,
-  "maxWords": 140,
+  "prompt": "Write 8–10 sentences about one small thing you do to feel calm. Describe when and where. Use present simple and adverbs of frequency.",
+  "minWords": 150,
+  "maxWords": 250,
   "hintStarters": [
-    "When the day feels too…",
-    "I sit by…",
-    "I try not to…",
-    "It is not a big thing, but…"
+    "Whenever I feel overwhelmed, I always…",
+    "I usually do this in the morning, before…",
+    "It never takes long, but it always…"
   ],
   "hintVocab": [
-    { "phrase": "noisy", "meaningVi": "ồn ào", "pronunciation": "/ˈnɔɪzi/" },
-    { "phrase": "handle", "meaningVi": "cái tay cầm" },
-    { "phrase": "shoulders", "meaningVi": "vai", "pronunciation": "/ˈʃoʊldərz/" },
-    { "phrase": "calm", "meaningVi": "bình tĩnh", "pronunciation": "/kɑːm/" },
-    { "phrase": "habit", "meaningVi": "thói quen" },
-    { "phrase": "by the window", "meaningVi": "bên cửa sổ" }
+    { "phrase": "overwhelmed", "meaningVi": "choáng ngợp, bị áp lực quá mức", "pronunciation": "/ˌoʊvərˈwelmd/" },
+    { "phrase": "focus", "meaningVi": "tập trung", "pronunciation": "/ˈfoʊkəs/" },
+    { "phrase": "breathe slowly", "meaningVi": "thở chậm" },
+    { "phrase": "routine", "meaningVi": "thói quen hàng ngày, quy trình", "pronunciation": "/ruːˈtiːn/" },
+    { "phrase": "on purpose", "meaningVi": "có chủ ý, cố tình" },
+    { "phrase": "notice", "meaningVi": "để ý, nhận ra", "pronunciation": "/ˈnoʊtɪs/" },
+    { "phrase": "set aside", "meaningVi": "dành riêng ra" },
+    { "phrase": "distraction", "meaningVi": "sự phân tâm", "pronunciation": "/dɪˈstrækʃən/" },
+    { "phrase": "tidy", "meaningVi": "gọn gàng, ngăn nắp", "pronunciation": "/ˈtaɪdi/" },
+    { "phrase": "ordinary", "meaningVi": "bình thường, không có gì đặc biệt", "pronunciation": "/ˈɔːrdɪneri/" },
+    { "phrase": "interrupt", "meaningVi": "gián đoạn, làm gián đoạn", "pronunciation": "/ˌɪntəˈrʌpt/" }
   ],
-  "sampleText": "When the day feels too noisy, I make tea. I do not use a cup; I use a small glass with no handle. I hold it with both hands because the heat is part of the feeling. I sit by the window and watch the people in the street below. I try not to think about my phone. After two or three minutes, my shoulders go down on their own. It is not a big thing, but it is mine. I learned it from my grandmother, who said you cannot fix a busy heart with a busy plan.",
+  "sampleText": "Whenever I feel overwhelmed by my day, I always do one small thing: I sharpen my pencils. I live in a small flat in Kraków, and I keep a tin of pencils on my desk by the window. Every time the day gets too loud in my head, I take the tin down and start sharpening them one by one. I do this slowly and on purpose, and I usually spend about five minutes on it. I notice the sound the sharpener makes, and the smell of the fresh wood. I rarely think about emails or meetings while I am doing it. After I finish, I line the pencils up in the tin by colour, from dark to light. It is completely ordinary, but it makes me feel tidy on the inside as well as on the outside. I sometimes do it in the morning before I open my laptop, and I sometimes do it at night before I go to bed. I never let anything interrupt those five minutes. A small box of sharpened pencils is not important to most people, but for me it is always a quiet way back to myself.",
   "sampleAnnotations": [
-    { "phrase": "noisy", "meaningVi": "ồn ào" },
-    { "phrase": "with both hands", "meaningVi": "bằng cả hai tay" },
-    { "phrase": "shoulders go down", "meaningVi": "vai thả lỏng xuống" },
-    { "phrase": "on their own", "meaningVi": "tự nó" },
-    { "phrase": "a busy heart", "meaningVi": "một trái tim bận rộn" }
+    { "phrase": "Whenever I feel overwhelmed", "meaningVi": "Bất cứ khi nào tôi cảm thấy choáng ngợp" },
+    { "phrase": "slowly and on purpose", "meaningVi": "chậm rãi và có chủ ý" },
+    { "phrase": "I notice the sound", "meaningVi": "Tôi để ý đến âm thanh" },
+    { "phrase": "I rarely think about emails", "meaningVi": "Tôi hiếm khi nghĩ về email" },
+    { "phrase": "line the pencils up in the tin", "meaningVi": "xếp những cây bút chì thành hàng trong hộp" },
+    { "phrase": "from dark to light", "meaningVi": "từ tối đến sáng" },
+    { "phrase": "completely ordinary", "meaningVi": "hoàn toàn bình thường" },
+    { "phrase": "tidy on the inside", "meaningVi": "gọn gàng bên trong (nội tâm)" },
+    { "phrase": "I sometimes do it in the morning", "meaningVi": "Đôi khi tôi làm điều đó vào buổi sáng" },
+    { "phrase": "I never let anything interrupt", "meaningVi": "Tôi không bao giờ để bất cứ điều gì gián đoạn" },
+    { "phrase": "a quiet way back to myself", "meaningVi": "một cách yên tĩnh để trở lại với chính mình" }
   ],
   "sampleGrammarNotes": [
     {
-      "title": "Present simple for habits and general truths",
-      "bodyVi": "'I make tea', 'I sit', 'I try' là hiện tại đơn dùng cho thói quen.",
-      "bodyEn": "'I make tea', 'I sit', 'I try' use the present simple for a habit."
-    },
-    {
-      "title": "'because' to give a reason",
-      "bodyVi": "'I hold it with both hands because the heat is part of the feeling.' 'because' nối lý do với hành động.",
-      "bodyEn": "'I hold it with both hands because the heat is part of the feeling.' 'because' connects a reason to an action."
+      "title": "Adverbs of frequency with present simple",
+      "bodyVi": "Các trạng từ tần suất như 'always', 'usually', 'sometimes', 'rarely', 'never' đứng trước động từ chính ('I always do', 'I rarely think') nhưng sau động từ 'to be'.",
+      "bodyEn": "Adverbs of frequency ('always', 'usually', 'sometimes', 'rarely', 'never') go before the main verb ('I always do', 'I rarely think') but after the verb 'to be'."
     }
   ],
-  "sampleTranslationVi": "Khi một ngày trở nên quá ồn ào, tôi pha trà. Tôi không dùng tách; tôi dùng một ly thuỷ tinh nhỏ không có quai. Tôi cầm nó bằng cả hai tay vì hơi ấm là một phần của cảm giác đó. Tôi ngồi bên cửa sổ và nhìn những người dưới phố. Tôi cố gắng không nghĩ về điện thoại. Sau hai hay ba phút, vai tôi tự thả lỏng xuống. Đó không phải là điều to lớn, nhưng nó là của tôi. Tôi học được điều này từ bà tôi, người đã nói rằng bạn không thể chữa một trái tim bận rộn bằng một kế hoạch bận rộn.",
+  "sampleTranslationVi": "Bất cứ khi nào tôi cảm thấy choáng ngợp với ngày làm việc, tôi luôn làm một việc nhỏ: tôi gọt bút chì. Tôi sống trong một căn hộ nhỏ ở Kraków, và tôi để một hộp bút chì trên bàn làm việc cạnh cửa sổ. Mỗi khi ngày làm việc trở nên quá ồn ào trong đầu, tôi lấy hộp xuống và bắt đầu gọt từng cây một. Tôi làm điều này chậm rãi và có chủ ý, và thường mất khoảng năm phút. Tôi để ý đến âm thanh mà chiếc gọt bút chì tạo ra, và mùi của gỗ tươi. Tôi hiếm khi nghĩ đến email hay cuộc họp trong lúc làm điều đó. Sau khi xong, tôi xếp những cây bút chì thành hàng trong hộp theo màu sắc, từ tối đến sáng. Điều đó hoàn toàn bình thường, nhưng nó khiến tôi cảm thấy gọn gàng bên trong cũng như bên ngoài. Đôi khi tôi làm vào buổi sáng trước khi mở máy tính xách tay, và đôi khi vào buổi tối trước khi đi ngủ. Tôi không bao giờ để bất cứ điều gì gián đoạn năm phút đó. Một hộp nhỏ bút chì đã gọt sẵn không quan trọng với hầu hết mọi người, nhưng với tôi, đó luôn là một cách yên tĩnh để trở lại với chính mình.",
   "mcQuestions": [
     {
       "id": "q1",
-      "prompt": "Which sentence sounds most natural for describing a habit?",
+      "prompt": "Choose the sentence where an adverb of frequency is placed correctly.",
       "options": [
-        "When the day is being noisy too, I am making tea.",
-        "When the day feels too noisy, I make tea.",
-        "When the day feel too noisy, I make a tea.",
-        "When too noisy day feels, tea I make."
+        "I do always this slowly and on purpose.",
+        "I always do this slowly and on purpose.",
+        "Always I do this slowly and on purpose.",
+        "I do this always slowly and on purpose."
       ],
       "answerIndex": 1,
-      "explanation": "Both clauses use the present simple. 'Feels' agrees with 'the day'. 'Make tea' (no article) is the normal collocation.",
-      "hint": "Look for two present-simple verbs and the correct article use."
+      "explanation": "Adverbs of frequency go before the main verb: 'I always do', not after it or at the start of the sentence.",
+      "hint": "Where does 'always' go relative to the main verb?"
     },
     {
       "id": "q2",
-      "prompt": "Which sentence uses 'because' correctly to give a reason?",
+      "prompt": "Which sentence uses 'whenever' correctly?",
       "options": [
-        "I hold it with both hands, because of the heat is part of the feeling.",
-        "Because the heat, I hold it with both hands.",
-        "I hold it with both hands because the heat is part of the feeling.",
-        "I hold it with both hands because to the heat."
+        "Whenever I feel overwhelmed, I sharpen my pencils.",
+        "Whenever I feel overwhelmed but I sharpen my pencils.",
+        "Whenever I am feel overwhelmed, I sharpen my pencils.",
+        "Whenever do I feel overwhelmed, I sharpen my pencils."
       ],
-      "answerIndex": 2,
-      "explanation": "'because' + subject + verb. 'because of' is followed by a noun phrase, not a full clause.",
-      "hint": "After 'because' you need a full clause (subject + verb)."
+      "answerIndex": 0,
+      "explanation": "'Whenever' starts a time clause (subject + verb), followed by a comma, then the main clause.",
+      "hint": "'Whenever' + subject + verb, comma, then the main clause."
     },
     {
       "id": "q3",
-      "prompt": "Choose the sentence with the most natural meaning of relaxing without effort.",
+      "prompt": "Which word means doing something slowly and with clear intention?",
       "options": [
-        "My shoulders go down on their own.",
-        "My shoulders are go down by themselves.",
-        "My shoulders alone go down.",
-        "My shoulders are happy down."
+        "accidentally",
+        "on purpose",
+        "at random",
+        "in a rush"
       ],
-      "answerIndex": 0,
-      "explanation": "'On their own' is the natural way to say 'without effort, by themselves'.",
-      "hint": "Which option uses a fixed expression a native speaker would use?"
+      "answerIndex": 1,
+      "explanation": "'On purpose' means you do something deliberately, with intention.",
+      "hint": "Which phrase means 'with intention, not by accident'?"
     },
     {
       "id": "q4",
-      "prompt": "Which sentence fits the topic best as a closing line?",
+      "prompt": "Pick the adverb that means 'almost never'.",
       "options": [
-        "Tea has many health benefits and contains antioxidants.",
-        "It is not a big thing, but it is mine.",
-        "Tea is sold in supermarkets all over the world.",
-        "Coffee is more popular than tea in many countries."
+        "always",
+        "usually",
+        "sometimes",
+        "rarely"
+      ],
+      "answerIndex": 3,
+      "explanation": "'Rarely' means almost never — it is near the bottom of the frequency scale.",
+      "hint": "Which adverb of frequency is closest to 'never' in meaning?"
+    },
+    {
+      "id": "q5",
+      "prompt": "Choose the sentence that best describes a short, deliberate pause in a busy day.",
+      "options": [
+        "I set aside five minutes every day to do one small thing.",
+        "I am setting aside five minutes every day to do one small thing.",
+        "I was setting aside five minutes every day to do one small thing.",
+        "I have been setting aside five minutes every day to do one small thing."
+      ],
+      "answerIndex": 0,
+      "explanation": "Present simple describes a regular habit. 'Set aside' is the correct phrasal verb.",
+      "hint": "Which tense describes a habit that happens every day?"
+    },
+    {
+      "id": "q6",
+      "prompt": "Which phrase means to pay attention to something small around you?",
+      "options": [
+        "ignore the sound",
+        "notice the sound",
+        "forget the sound",
+        "miss the sound"
       ],
       "answerIndex": 1,
-      "explanation": "Only B stays on the topic of a personal small habit; the others drift into general facts.",
-      "hint": "Which option still talks about *your* small habit?"
+      "explanation": "'Notice' means to become aware of something, often a small detail.",
+      "hint": "Which verb means 'to become aware of something small'?"
+    },
+    {
+      "id": "q7",
+      "prompt": "Select the sentence that correctly uses 'tidy' as an adjective.",
+      "options": [
+        "It makes me feel tidy on the inside.",
+        "It makes me feel tidily on the inside.",
+        "It makes me tidy feel on the inside.",
+        "It makes me feel tidied on the inside."
+      ],
+      "answerIndex": 0,
+      "explanation": "'Feel + adjective' is the correct structure. 'Tidy' is the adjective form; 'tidily' is an adverb.",
+      "hint": "After 'feel', do you use an adjective or an adverb?"
+    },
+    {
+      "id": "q8",
+      "prompt": "Which sentence correctly uses 'but' to show that something simple is still valuable?",
+      "options": [
+        "It is completely ordinary, but it makes me feel good.",
+        "It is completely ordinary, so it makes me feel good.",
+        "It is completely ordinary because it makes me feel good.",
+        "It is completely ordinary, although makes me feel good."
+      ],
+      "answerIndex": 0,
+      "explanation": "'But' introduces a contrast: the habit is simple, yet it has a real effect.",
+      "hint": "Which linker shows contrast between being ordinary and being valuable?"
+    },
+    {
+      "id": "q9",
+      "prompt": "Choose the correct word meaning something that takes your attention away.",
+      "options": [
+        "routine",
+        "focus",
+        "distraction",
+        "ordinary"
+      ],
+      "answerIndex": 2,
+      "explanation": "'Distraction' means something that pulls your attention away from what you are doing.",
+      "hint": "Which word means 'something that stops you from focusing'?"
+    },
+    {
+      "id": "q10",
+      "prompt": "Which sentence shows how often the writer does the habit using two different adverbs?",
+      "options": [
+        "I sometimes do it in the morning and I sometimes do it at night.",
+        "I always do it in the morning and I always do it at night.",
+        "I never do it in the morning and I never do it at night.",
+        "I rarely do it in the morning and I usually do it at night."
+      ],
+      "answerIndex": 0,
+      "explanation": "Using 'sometimes' twice shows the habit happens at flexible times, not always the same.",
+      "hint": "Which option shows the habit happens at different times without a fixed pattern?"
+    },
+    {
+      "id": "q11",
+      "prompt": "Which phrase means to not allow something to happen?",
+      "options": [
+        "I let anything interrupt those five minutes.",
+        "I never let anything interrupt those five minutes.",
+        "I never let nothing interrupt those five minutes.",
+        "I never let anything interrupting those five minutes."
+      ],
+      "answerIndex": 1,
+      "explanation": "'Never let anything interrupt' is correct. Double negatives ('never let nothing') are incorrect in English.",
+      "hint": "Use 'never' with 'anything' — not with 'nothing'."
     }
   ],
-  "criticalThinkingQuestion": "Why do you think small habits like this often work better than big plans for changing how you feel?"
+  "criticalThinkingQuestion": "Why do you think small, repeated habits can help us feel calmer than big changes? Is there a small thing you already do without realising it helps you?"
 }

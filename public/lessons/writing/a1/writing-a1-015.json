@@ -1,0 +1,190 @@
+{
+  "id": "writing-a1-015",
+  "level": "A1",
+  "title": "My favorite weather",
+  "summary": "Describe a kind of weather you love and what you do in it.",
+  "tags": ["Daily life", "Places"],
+  "topic": "My favorite weather",
+  "prompt": "Write 6–8 short sentences about your favorite weather. Use present simple, 'when' clauses, and weather vocabulary.",
+  "minWords": 150,
+  "maxWords": 250,
+  "hintStarters": [
+    "My favorite weather is…",
+    "When it is …, I feel…",
+    "On a day like this, I usually…",
+    "I like this weather because…"
+  ],
+  "hintVocab": [
+    { "phrase": "sunny", "meaningVi": "nắng" },
+    { "phrase": "cloudy", "meaningVi": "có mây" },
+    { "phrase": "rainy", "meaningVi": "mưa" },
+    { "phrase": "windy", "meaningVi": "có gió" },
+    { "phrase": "cool", "meaningVi": "mát" },
+    { "phrase": "warm", "meaningVi": "ấm" },
+    { "phrase": "fog", "meaningVi": "sương mù" },
+    { "phrase": "umbrella", "meaningVi": "ô, dù" },
+    { "phrase": "jacket", "meaningVi": "áo khoác" },
+    { "phrase": "tea", "meaningVi": "trà" },
+    { "phrase": "blanket", "meaningVi": "chăn, mền" }
+  ],
+  "sampleText": "My favorite weather is a cool, rainy autumn day. I live in Seoul, and autumn rain is gentle, not heavy. The sky is grey, the air is fresh, and the streets smell clean. I do not need a big umbrella, only a small jacket. When the rain starts, I usually go to a small coffee shop near my apartment. The shop has warm yellow lights and one large window. I sit by the window with a hot cup of black tea. I open my notebook and I write small lists. Sometimes I do not write anything. I just look at the people walking with colored umbrellas. When I go home, I make a quick noodle soup and I sit on the sofa with a soft blanket. I do not watch TV. I open the window a little and I listen to the rain on the metal roof. I feel calm and slow on this kind of day. I never feel sad in autumn rain, only quiet inside.",
+  "sampleAnnotations": [
+    { "phrase": "cool, rainy autumn day", "meaningVi": "ngày thu mát và mưa" },
+    { "phrase": "autumn rain", "meaningVi": "mưa thu" },
+    { "phrase": "small umbrella", "meaningVi": "ô nhỏ" },
+    { "phrase": "small jacket", "meaningVi": "áo khoác nhỏ" },
+    { "phrase": "small coffee shop", "meaningVi": "quán cà phê nhỏ" },
+    { "phrase": "warm yellow lights", "meaningVi": "ánh đèn vàng ấm" },
+    { "phrase": "large window", "meaningVi": "cửa sổ lớn" },
+    { "phrase": "black tea", "meaningVi": "trà đen" },
+    { "phrase": "noodle soup", "meaningVi": "súp mì" },
+    { "phrase": "soft blanket", "meaningVi": "chăn mềm" },
+    { "phrase": "metal roof", "meaningVi": "mái kim loại" }
+  ],
+  "sampleGrammarNotes": [
+    {
+      "title": "'When' clauses",
+      "bodyVi": "Dùng 'When + S + V' để miêu tả lúc nào điều gì xảy ra: 'When the rain starts, I…'",
+      "bodyEn": "Use 'When + subject + verb' for time clauses, like 'When the rain starts, I usually go to a small coffee shop'."
+    },
+    {
+      "title": "Adjective + noun order",
+      "bodyVi": "Tính từ đứng trước danh từ: 'cool autumn day', 'small jacket'.",
+      "bodyEn": "Adjectives come before nouns, as in 'cool, rainy autumn day' and 'small jacket'."
+    }
+  ],
+  "sampleTranslationVi": "Thời tiết tôi yêu thích là một ngày thu mát, có mưa. Tôi sống ở Seoul, và mưa thu thường nhẹ, không nặng hạt. Trời xám, không khí trong lành, phố thơm sạch. Tôi không cần ô lớn, chỉ cần áo khoác nhỏ. Khi mưa bắt đầu, tôi thường tới quán cà phê nhỏ gần căn hộ. Quán có ánh đèn vàng ấm và một cửa sổ lớn. Tôi ngồi bên cửa sổ với một tách trà đen nóng. Tôi mở sổ tay và viết những danh sách nhỏ. Đôi khi tôi không viết gì cả. Tôi chỉ nhìn người ta đi dạo với những chiếc ô đầy màu. Khi về nhà, tôi nấu một tô mì nhanh và ngồi trên sofa với chăn mềm. Tôi không xem ti vi. Tôi mở cửa sổ một chút và nghe mưa rơi trên mái kim loại. Tôi thấy bình yên và chậm rãi trong ngày như vậy. Tôi không bao giờ buồn khi có mưa thu, chỉ thấy yên tĩnh bên trong.",
+  "mcQuestions": [
+    {
+      "id": "q1",
+      "prompt": "Which sentence uses a 'when' clause correctly?",
+      "options": [
+        "When the rain starts, I go to a coffee shop.",
+        "When start rain I go coffee shop.",
+        "Rain when shop I go coffee.",
+        "I when go coffee rain start."
+      ],
+      "answerIndex": 0,
+      "explanation": "'When + subject + verb' + main clause.",
+      "hint": "Time clause first, then main clause."
+    },
+    {
+      "id": "q2",
+      "prompt": "Which sentence uses present simple correctly?",
+      "options": [
+        "I sit by the window.",
+        "I sitting by the window.",
+        "I sit at by window the.",
+        "I to sit window."
+      ],
+      "answerIndex": 0,
+      "explanation": "Subject + base verb + prepositional phrase.",
+      "hint": "Choose the natural present simple."
+    },
+    {
+      "id": "q3",
+      "prompt": "Which sentence sounds most natural?",
+      "options": [
+        "The sky is grey, and the air is fresh.",
+        "Grey is sky fresh air the and.",
+        "Sky air the grey fresh.",
+        "Fresh grey and is air sky."
+      ],
+      "answerIndex": 0,
+      "explanation": "Subject + verb + adjective, joined by 'and'.",
+      "hint": "Look for parallel structure."
+    },
+    {
+      "id": "q4",
+      "prompt": "Which word fits: 'The day is cool and ___.'",
+      "options": [
+        "rainy",
+        "tall",
+        "loud",
+        "expensive"
+      ],
+      "answerIndex": 0,
+      "explanation": "'rainy' is a weather word.",
+      "hint": "Pick the weather word."
+    },
+    {
+      "id": "q5",
+      "prompt": "Which sentence is grammatically correct?",
+      "options": [
+        "She likes rainy days.",
+        "She like rainy days.",
+        "She liking rainy days.",
+        "She is like rainy days."
+      ],
+      "answerIndex": 0,
+      "explanation": "Third person singular: 'likes'.",
+      "hint": "Add -s for 'she'."
+    },
+    {
+      "id": "q6",
+      "prompt": "Which sentence best fits 'favorite weather'?",
+      "options": [
+        "I feel calm and slow on this kind of day.",
+        "I run a busy office downtown.",
+        "I fly a small plane on weekends.",
+        "I write code at midnight at work."
+      ],
+      "answerIndex": 0,
+      "explanation": "Calm feelings fit weather mood.",
+      "hint": "Pick the mood sentence."
+    },
+    {
+      "id": "q7",
+      "prompt": "Which sentence uses 'because' correctly?",
+      "options": [
+        "I like the rain because it makes the city quiet.",
+        "Rain because quiet city I.",
+        "I like because city quiet.",
+        "Quiet because I rain like."
+      ],
+      "answerIndex": 0,
+      "explanation": "'because' gives a clear reason.",
+      "hint": "Look for a full reason clause."
+    },
+    {
+      "id": "q8",
+      "prompt": "Which sentence uses adverb of frequency correctly?",
+      "options": [
+        "I usually go to a small coffee shop.",
+        "Usually I shop coffee small go.",
+        "I shop usually go coffee small.",
+        "Coffee usually shop I go."
+      ],
+      "answerIndex": 0,
+      "explanation": "'usually' before the main verb.",
+      "hint": "Adverb position."
+    },
+    {
+      "id": "q9",
+      "prompt": "Which sentence is grammatically correct?",
+      "options": [
+        "I open the window a little.",
+        "Open I little window a.",
+        "Window a little I open.",
+        "I a little open window."
+      ],
+      "answerIndex": 0,
+      "explanation": "Subject + verb + object + adverb.",
+      "hint": "Adverb 'a little' goes at the end."
+    },
+    {
+      "id": "q10",
+      "prompt": "Which sentence fits the weather topic?",
+      "options": [
+        "The sky is grey and the streets smell clean.",
+        "The plane lands at the airport.",
+        "The bus has new tires.",
+        "The chef cooks rice."
+      ],
+      "answerIndex": 0,
+      "explanation": "Sky and street smell are weather details.",
+      "hint": "Look for the weather scene."
+    }
+  ],
+  "criticalThinkingQuestion": "Why do some people love rainy weather while others find it depressing?"
+}

@@ -2,116 +2,286 @@
   "id": "writing-c1-002",
   "level": "C1",
   "title": "On preserving what is dying: when is letting go the more honest choice?",
-  "summary": "Distinguish preservation that serves the thing preserved from preservation that mainly serves the preserver.",
+  "summary": "Argue that letting go can be more honest than preserving — that some acts of preservation serve the preserver rather than the thing preserved — using two contrasting examples and a careful concession.",
   "tags": ["Argument", "Ethics", "Culture"],
   "topic": "When letting go is more honest than preserving",
-  "prompt": "Write a 280–360-word argumentative essay drawing a careful line between preservation that genuinely serves what is dying and preservation that mainly flatters those preserving it. Use hedging, at least one concession ('I want to be careful here'), and a closing question that reframes the issue.",
-  "minWords": 220,
-  "maxWords": 400,
+  "prompt": "Write a 600–800-word essay arguing when letting go is more honest than preserving. Use two contrasting examples. Use cleft sentences, modal nuance, and parenthetical asides.",
+  "minWords": 600,
+  "maxWords": 800,
   "hintStarters": [
-    "There is a kind of attention to vanishing things that…",
-    "I want to be careful here. Some preservation is…",
-    "But not everything we mourn deserves to be insured.",
-    "The line I would draw between rescue and theatre is uncomfortable but useful:…"
+    "Not every act of preservation serves the thing being preserved — some serve, above all, the preservers themselves…",
+    "What the language of cultural rescue so often conceals is the extent to which the dying thing has already…",
+    "Admittedly, there are cases where preservation is unambiguously the right choice. Yet even here…"
   ],
   "hintVocab": [
-    { "phrase": "vanishing", "meaningVi": "đang biến mất" },
-    { "phrase": "lavish funding on", "meaningVi": "đổ tiền vào" },
-    { "phrase": "kinship", "meaningVi": "huyết thống / quan hệ thân tộc" },
-    { "phrase": "seed bank", "meaningVi": "ngân hàng hạt giống" },
-    { "phrase": "to mourn", "meaningVi": "thương tiếc", "pronunciation": "/mɔːrn/" },
-    { "phrase": "insurance", "meaningVi": "bảo hiểm" },
-    { "phrase": "to perform", "meaningVi": "trình diễn" },
-    { "phrase": "basket-weaver", "meaningVi": "thợ đan giỏ" }
+    {"phrase": "preservation", "meaningVi": "sự bảo tồn, giữ gìn nguyên trạng", "pronunciation": "/ˌprezəˈveɪʃən/"},
+    {"phrase": "letting go", "meaningVi": "buông bỏ, chấp nhận để một thứ kết thúc"},
+    {"phrase": "elegiac impulse", "meaningVi": "xung động bi ai, xu hướng thương tiếc những thứ đang mất đi", "pronunciation": "/ˌelɪˈdʒiːɪk/"},
+    {"phrase": "cultural custodian", "meaningVi": "người giám hộ văn hoá, người được giao gìn giữ di sản"},
+    {"phrase": "heritage apparatus", "meaningVi": "bộ máy di sản, hệ thống tổ chức bảo tồn di sản"},
+    {"phrase": "viability", "meaningVi": "tính khả thi, khả năng tồn tại bền vững", "pronunciation": "/ˌvaɪəˈbɪlɪti/"},
+    {"phrase": "performed authenticity", "meaningVi": "tính xác thực được trình diễn, giả vờ chân thực"},
+    {"phrase": "living tradition", "meaningVi": "truyền thống sống, tập quán còn thực sự được thực hành"},
+    {"phrase": "museum-piece logic", "meaningVi": "logic hiện vật bảo tàng, coi thứ sống như đồ vật cần trưng bày"},
+    {"phrase": "honest obsolescence", "meaningVi": "sự lỗi thời trung thực, chấp nhận khi một thứ hết vai trò"},
+    {"phrase": "residual practice", "meaningVi": "tập quán còn sót lại, thứ vẫn tồn tại nhưng đã mất chức năng"},
+    {"phrase": "instrumental value", "meaningVi": "giá trị công cụ, giá trị vì tác dụng chứ không phải bản thân nó"},
+    {"phrase": "intrinsic worth", "meaningVi": "giá trị nội tại, giá trị tự thân không phụ thuộc vào tác dụng"},
+    {"phrase": "dignified ending", "meaningVi": "kết thúc trang trọng, cách kết thúc xứng đáng với phẩm giá"},
+    {"phrase": "donor fatigue", "meaningVi": "sự mệt mỏi của người tài trợ, khi người ủng hộ kiệt sức"},
+    {"phrase": "nostalgic funding", "meaningVi": "tài trợ vì hoài niệm, không vì giá trị thực của thứ được hỗ trợ"},
+    {"phrase": "terminal phase", "meaningVi": "giai đoạn cuối, thời kỳ không thể đảo ngược"},
+    {"phrase": "archival honesty", "meaningVi": "sự trung thực lưu trữ, ghi nhận chân thực thay vì bóp méo"},
+    {"phrase": "grief displacement", "meaningVi": "sự chuyển dời nỗi đau, dùng bảo tồn để tránh đối mặt với mất mát"},
+    {"phrase": "symbolic violence", "meaningVi": "bạo lực biểu tượng, ép buộc ai đó trình diễn bản sắc vì người ngoài", "pronunciation": "/ˈsɪmbɒlɪk ˈvaɪələns/"},
+    {"phrase": "modal nuance", "meaningVi": "sắc thái tình thái, dùng từ như 'might', 'could', 'ought' để điều chỉnh độ chắc chắn"}
   ],
-  "sampleText": "There is a kind of attention to vanishing things that flatters the attender more than it serves the thing. We are familiar with its visible forms — the documentary photographer who tracks the last speaker of a language, the ministry that lavishes funding on a craft whose last apprentice retired before any new one began. The motive is generally good. The result is sometimes a museum, and sometimes something quieter and more troubling: a long, well-photographed dying.\n\nI want to be careful here. Some preservation is unambiguously right. A language carries a way of organising memory, kinship, and humour that, once gone, cannot be reconstructed from its grammars. A growing seed bank may, in a century we cannot yet picture, feed people who would otherwise starve. The case for keeping these is not nostalgia; it is insurance, and the premiums are low.\n\nBut not everything we mourn deserves to be insured. Some practices die because the world that needed them is gone, and the kindest thing we can do is to record them carefully, name what they were for, and let those who once held them stop being asked to perform their disappearance. There is a violence in refusing to let a thing be over. The basket-weaver whose work no one can afford does not need to be photographed one more time; she needs a different question asked of her old age.\n\nThe line I would draw between rescue and theatre is uncomfortable but useful: is the practice still doing work in the lives of those who hold it, or is it doing work only in the lives of those who watch? An answer of the latter is not, by itself, a reason to stop. It is a reason to be honest about whose grief we are really attending to.",
+  "sampleText": "Not every act of preservation serves the thing being preserved. Some serve, above all, the preservers themselves — their guilt, their nostalgia, or their professional need to have a project. This is an uncomfortable observation, and it becomes more uncomfortable the more carefully one looks at the cases where letting go might have been the more honest, even the more respectful, choice.\n\nConsider the fate of numerous indigenous craft traditions across Southeast Asia and parts of West Africa — weaving practices, dyeing techniques, oral performance forms — that have been sustained for decades through what might charitably be called heritage apparatus: government grants, NGO documentation projects, cultural tourism circuits. The practitioners (often elderly, often the last of their lineage) continue to work. But it is worth asking, with some care, what exactly they are working for. In many cases — not all, but many — the craft no longer circulates within its original community as a living utility or a social bond. It circulates, instead, as a spectacle for outsiders. What has been preserved is the surface of a practice, severed from the conditions that gave it meaning. The thing being maintained is, in the most honest accounting, a residual performance: technically accomplished, culturally emptied, and sustained chiefly by the elegiac impulse of those watching it disappear.\n\nContrast this with what happened to the handloom textile cooperatives in parts of rural Japan during the 1970s and 1980s. Faced with industrial competition and a shrinking base of practitioners, several communities made a decision that, at the time, looked like defeat: they allowed certain patterns and techniques to lapse, recorded them in detail, and concentrated their remaining energy on the forms that still had genuine viability — that were still chosen, still worn, still embedded in local occasions. The decision involved real loss. It also produced something worth having: a tradition that remained alive because it was honestly reduced rather than artificially extended. The grief of letting some things go was not displaced onto the practitioners; it was acknowledged and absorbed.\n\nAdmittedly, there are cases where external support for a dying practice is unambiguously justified. A language, once gone, takes with it an entire architecture of perception — ways of encoding kinship, landscape, and time that cannot be reconstructed from grammars and word-lists. The moral case for language revitalisation is not sentiment but irreversibility: what is lost cannot, in any meaningful sense, be recovered. Yet even this strongest case does not simply collapse the harder question. It is possible to support a language while asking honestly whether the specific revival mechanisms chosen (immersion schools, media broadcasts, institutional quotas) are working for the speakers or primarily reassuring the supporters.\n\nThe harder truth — one that heritage institutions rarely formulate clearly — is that preservation and honesty are not the same thing. Preservation asks: can we keep this going? Honesty asks: ought we to, and for whom? It is precisely this second question that museum-piece logic tends to suppress, because answering it sometimes requires acknowledging that the continued existence of a practice has come to serve the observer's need for cultural continuity more than the practitioner's sense of a life well-lived.\n\nLetting go, when it is the right choice, does not mean abandoning the thing or the people who hold it. It means accompanying the ending with clarity — recording what was, naming what it was for, and releasing the practitioners from the obligation to perform their own disappearance for an audience that mistakes witnessing for rescue. That — the dignified ending freely chosen over the prolonged exhibition — may, in some cases, be the most honest form of respect available.",
   "sampleAnnotations": [
-    { "phrase": "vanishing things", "meaningVi": "những điều đang biến mất" },
-    { "phrase": "the attender", "meaningVi": "người chú ý đến" },
-    { "phrase": "well-photographed dying", "meaningVi": "cái chết được chụp ảnh kỹ càng" },
-    { "phrase": "the premiums are low", "meaningVi": "phí bảo hiểm thấp" },
-    { "phrase": "perform their disappearance", "meaningVi": "trình diễn sự biến mất của họ" },
-    { "phrase": "whose grief we are really attending to", "meaningVi": "nỗi đau của ai mà ta thực sự đang chăm sóc" }
+    {"phrase": "Not every act of preservation serves the thing being preserved", "meaningVi": "Không phải mọi hành động bảo tồn đều phục vụ thứ đang được bảo tồn"},
+    {"phrase": "Some serve, above all, the preservers themselves — their guilt, their nostalgia, or their professional need to have a project", "meaningVi": "Một số phục vụ, trước hết, chính những người bảo tồn — nỗi tội lỗi của họ, sự hoài niệm của họ, hay nhu cầu nghề nghiệp để có một dự án"},
+    {"phrase": "what might charitably be called heritage apparatus", "meaningVi": "điều có thể được gọi một cách khoan dung là bộ máy di sản"},
+    {"phrase": "it is worth asking, with some care, what exactly they are working for", "meaningVi": "đáng để hỏi, một cách cẩn thận, rằng chính xác họ đang làm việc vì điều gì"},
+    {"phrase": "the craft no longer circulates within its original community as a living utility or a social bond", "meaningVi": "nghề thủ công không còn lưu thông trong cộng đồng gốc của nó như một tiện ích sống động hay một mối liên kết xã hội"},
+    {"phrase": "a residual performance: technically accomplished, culturally emptied", "meaningVi": "một màn trình diễn còn sót lại: hoàn thành về mặt kỹ thuật, trống rỗng về mặt văn hoá"},
+    {"phrase": "sustained chiefly by the elegiac impulse of those watching it disappear", "meaningVi": "được duy trì chủ yếu bởi xung động bi ai của những người đang chứng kiến nó biến mất"},
+    {"phrase": "they allowed certain patterns and techniques to lapse", "meaningVi": "họ cho phép một số mẫu hoa văn và kỹ thuật nhất định lụi tàn"},
+    {"phrase": "a tradition that remained alive because it was honestly reduced rather than artificially extended", "meaningVi": "một truyền thống vẫn còn sống vì nó được thu hẹp một cách trung thực thay vì được mở rộng một cách giả tạo"},
+    {"phrase": "The grief of letting some things go was not displaced onto the practitioners; it was acknowledged and absorbed", "meaningVi": "Nỗi đau của việc buông bỏ một số thứ không được chuyển dời lên những người thực hành; nó được thừa nhận và tiếp thu"},
+    {"phrase": "ways of encoding kinship, landscape, and time that cannot be reconstructed from grammars and word-lists", "meaningVi": "những cách mã hoá quan hệ thân tộc, cảnh quan, và thời gian không thể tái dựng từ ngữ pháp và danh sách từ"},
+    {"phrase": "The moral case for language revitalisation is not sentiment but irreversibility", "meaningVi": "Lý do đạo đức cho việc hồi sinh ngôn ngữ không phải là tình cảm mà là tính không thể đảo ngược"},
+    {"phrase": "It is possible to support a language while asking honestly whether the specific revival mechanisms chosen (immersion schools, media broadcasts, institutional quotas) are working for the speakers or primarily reassuring the supporters", "meaningVi": "Có thể hỗ trợ một ngôn ngữ trong khi hỏi thành thật liệu các cơ chế hồi sinh cụ thể được chọn (trường học ngôn ngữ chuyên sâu, truyền thông, hạn ngạch thể chế) có đang hoạt động vì người nói hay chủ yếu là để trấn an những người ủng hộ"},
+    {"phrase": "preservation and honesty are not the same thing", "meaningVi": "bảo tồn và trung thực không phải là một điều"},
+    {"phrase": "Preservation asks: can we keep this going? Honesty asks: ought we to, and for whom?", "meaningVi": "Bảo tồn hỏi: chúng ta có thể tiếp tục điều này không? Trung thực hỏi: chúng ta có nên không, và vì ai?"},
+    {"phrase": "museum-piece logic tends to suppress", "meaningVi": "logic hiện vật bảo tàng có xu hướng đàn áp"},
+    {"phrase": "the continued existence of a practice has come to serve the observer's need for cultural continuity more than the practitioner's sense of a life well-lived", "meaningVi": "sự tồn tại tiếp diễn của một tập quán đã đến lúc phục vụ nhu cầu của người quan sát về sự liên tục văn hoá nhiều hơn là cảm giác của người thực hành về một cuộc sống được sống tốt"},
+    {"phrase": "releasing the practitioners from the obligation to perform their own disappearance for an audience", "meaningVi": "giải phóng những người thực hành khỏi nghĩa vụ trình diễn sự biến mất của họ trước khán giả"},
+    {"phrase": "mistakes witnessing for rescue", "meaningVi": "nhầm lẫn việc chứng kiến với việc giải cứu"},
+    {"phrase": "the dignified ending freely chosen over the prolonged exhibition", "meaningVi": "kết thúc trang trọng được chọn tự do thay vì cuộc triển lãm kéo dài"},
+    {"phrase": "the most honest form of respect available", "meaningVi": "hình thức tôn trọng trung thực nhất có sẵn"}
   ],
   "sampleGrammarNotes": [
     {
-      "title": "Concession before main argument",
-      "bodyVi": "'I want to be careful here. Some preservation is unambiguously right.' Thừa nhận phần đúng của phía bên kia trước khi đưa ra phần phản biện riêng.",
-      "bodyEn": "'I want to be careful here. Some preservation is unambiguously right.' Acknowledge what is right on the other side before making your own counter-claim."
+      "title": "Cleft sentence to isolate and emphasise a contrast",
+      "bodyVi": "Câu 'It is precisely this second question that museum-piece logic tends to suppress' dùng cấu trúc chẻ 'It is X that…' để tách câu hỏi thứ hai ra khỏi câu trước và đặt nó làm trọng tâm của lập luận. Cấu trúc chẻ ở mức C1 thường đi kèm trạng từ tăng cường ('precisely') để làm cho sự tương phản thêm sắc nét.",
+      "bodyEn": "The sentence 'It is precisely this second question that museum-piece logic tends to suppress' uses the cleft structure 'It is X that…' to isolate the second question from the preceding pair and make it the focal point of the argument. At C1 level, cleft sentences often carry an intensifier ('precisely') to sharpen the contrast."
     },
     {
-      "title": "Reframing with a closing question",
-      "bodyVi": "'is the practice still doing work in the lives of those who hold it, or is it doing work only in the lives of those who watch?' Câu hỏi đôi này tái khung vấn đề thay vì kết luận thẳng.",
-      "bodyEn": "'is the practice still doing work in the lives of those who hold it, or is it doing work only in the lives of those who watch?' This double question reframes the issue rather than ending with a verdict."
+      "title": "Modal nuance with 'might' and 'ought'",
+      "bodyVi": "Câu 'letting go might have been the more honest, even the more respectful, choice' dùng 'might have been' (không phải 'was') để tránh tuyên bố tuyệt đối — người viết giữ sự dè dặt cần thiết cho lập luận nhạy cảm. Tương tự, 'ought we to, and for whom?' dùng 'ought' (không phải 'should') để gợi nghĩa vụ đạo đức sâu hơn, phù hợp với văn phong học thuật C1.",
+      "bodyEn": "The phrase 'letting go might have been the more honest, even the more respectful, choice' uses 'might have been' (not 'was') to avoid an absolute claim — the writer preserves the tentativeness appropriate to a sensitive argument. Similarly, 'ought we to, and for whom?' uses 'ought' (not 'should') to imply a deeper moral obligation, fitting C1 academic register."
     }
   ],
-  "sampleTranslationVi": "Có một dạng chú ý dành cho những điều đang biến mất mà tâng bốc người chú ý hơn là phục vụ chính cái điều ấy. Ta quen với hình thức dễ thấy của nó — nhiếp ảnh gia tài liệu lần theo người cuối cùng nói một ngôn ngữ, bộ ngành rót kinh phí cho một nghề mà người học việc cuối cùng đã nghỉ hưu trước khi có người mới bắt đầu. Động cơ thường là tốt. Kết quả đôi khi là một viện bảo tàng, và đôi khi là điều âm thầm hơn, đáng băn khoăn hơn: một cái chết kéo dài, được chụp ảnh kỹ.\n\nTôi muốn cẩn trọng ở đây. Một số sự bảo tồn rõ ràng là đúng. Một ngôn ngữ mang theo cách tổ chức trí nhớ, quan hệ thân tộc và sự hài hước mà, một khi mất đi, không thể tái dựng từ các sách ngữ pháp của nó. Một ngân hàng hạt giống có thể, ở một thế kỷ ta chưa hình dung ra, nuôi sống những người lẽ ra sẽ đói. Lý do giữ những điều này không phải là hoài niệm; đó là bảo hiểm, và phí thì thấp.\n\nNhưng không phải mọi thứ ta thương tiếc đều xứng đáng được bảo hiểm. Một số tập quán chết đi vì thế giới cần đến chúng đã không còn, và điều tử tế nhất ta có thể làm là ghi lại cẩn thận, gọi tên xem chúng từng dùng để làm gì, và để những người từng giữ chúng thôi bị yêu cầu trình diễn sự biến mất của mình. Có một loại bạo lực trong việc khước từ cho một điều được kết thúc. Người thợ đan giỏ mà không ai mua nổi sản phẩm không cần bị chụp ảnh thêm một lần nữa; bà cần một câu hỏi khác được hỏi về tuổi già của mình.\n\nRanh giới tôi vạch giữa cứu rỗi và sân khấu thì không dễ chịu nhưng hữu ích: liệu tập quán ấy còn đang làm điều gì đó trong đời sống của những người gìn giữ nó, hay nó chỉ đang làm điều gì đó trong đời sống của những người quan sát? Một câu trả lời thuộc vế sau, tự nó, không phải là lý do để dừng lại. Nó là lý do để thành thật về việc ta thực sự đang chăm sóc nỗi đau của ai.",
+  "sampleTranslationVi": "Không phải mọi hành động bảo tồn đều phục vụ thứ đang được bảo tồn. Một số phục vụ, trước hết, chính những người bảo tồn — nỗi tội lỗi của họ, sự hoài niệm của họ, hay nhu cầu nghề nghiệp để có một dự án. Đây là một quan sát không thoải mái, và nó càng không thoải mái hơn khi ta nhìn kỹ hơn vào các trường hợp mà việc buông bỏ có thể là lựa chọn trung thực hơn, thậm chí tôn trọng hơn.\n\nHãy xem xét số phận của nhiều truyền thống thủ công bản địa khắp Đông Nam Á và một số vùng Tây Phi — nghề dệt, kỹ thuật nhuộm, hình thức biểu diễn truyền miệng — đã được duy trì trong nhiều thập kỷ qua điều có thể được gọi một cách khoan dung là bộ máy di sản: tài trợ chính phủ, dự án tài liệu hoá của NGO, các mạch du lịch văn hoá. Những người thực hành (thường là người cao tuổi, thường là người cuối cùng trong dòng dõi của họ) tiếp tục làm việc. Nhưng đáng để hỏi, một cách cẩn thận, rằng chính xác họ đang làm việc vì điều gì. Trong nhiều trường hợp — không phải tất cả, nhưng nhiều — nghề thủ công không còn lưu thông trong cộng đồng gốc của nó như một tiện ích sống động hay một mối liên kết xã hội. Thay vào đó, nó lưu thông như một cảnh tượng cho người ngoài. Những gì đã được bảo tồn là bề mặt của một tập quán, bị cắt đứt khỏi những điều kiện đã tạo ra ý nghĩa cho nó. Thứ đang được duy trì là, theo cách tính trung thực nhất, một màn trình diễn còn sót lại: hoàn thành về mặt kỹ thuật, trống rỗng về mặt văn hoá, và được duy trì chủ yếu bởi xung động bi ai của những người đang chứng kiến nó biến mất.\n\nHãy đối chiếu điều này với những gì đã xảy ra với các hợp tác xã dệt thủ công ở một số vùng nông thôn Nhật Bản trong những năm 1970 và 1980. Đối mặt với cạnh tranh công nghiệp và cơ sở người thực hành đang thu hẹp, một số cộng đồng đã đưa ra quyết định mà vào thời điểm đó trông giống như thất bại: họ cho phép một số mẫu hoa văn và kỹ thuật nhất định lụi tàn, ghi lại chúng một cách chi tiết, và tập trung năng lượng còn lại vào các hình thức vẫn còn tính khả thi thực sự — vẫn được chọn, vẫn được mặc, vẫn gắn liền với các dịp địa phương. Quyết định đó kéo theo mất mát thực sự. Nó cũng tạo ra thứ đáng để có: một truyền thống vẫn còn sống vì nó được thu hẹp một cách trung thực thay vì được mở rộng một cách giả tạo. Nỗi đau của việc buông bỏ một số thứ không được chuyển dời lên những người thực hành; nó được thừa nhận và tiếp thu.\n\nCần thừa nhận rằng, có những trường hợp hỗ trợ bên ngoài cho một tập quán đang hấp hối là hoàn toàn chính đáng. Một ngôn ngữ, một khi mất đi, mang theo cả một kiến trúc nhận thức — những cách mã hoá quan hệ thân tộc, cảnh quan, và thời gian không thể tái dựng từ ngữ pháp và danh sách từ. Lý do đạo đức cho việc hồi sinh ngôn ngữ không phải là tình cảm mà là tính không thể đảo ngược: những gì bị mất không thể, theo bất kỳ nghĩa nào có ý nghĩa, được lấy lại. Thế nhưng ngay cả trường hợp mạnh nhất này cũng không đơn giản giải quyết câu hỏi khó hơn. Có thể hỗ trợ một ngôn ngữ trong khi hỏi thành thật liệu các cơ chế hồi sinh cụ thể được chọn có đang hoạt động vì người nói hay chủ yếu là để trấn an những người ủng hộ.\n\nSự thật khó hơn — điều mà các tổ chức di sản hiếm khi trình bày rõ ràng — là bảo tồn và trung thực không phải là một điều. Bảo tồn hỏi: chúng ta có thể tiếp tục điều này không? Trung thực hỏi: chúng ta có nên không, và vì ai? Chính câu hỏi thứ hai này mà logic hiện vật bảo tàng có xu hướng đàn áp, bởi vì trả lời nó đôi khi đòi hỏi thừa nhận rằng sự tồn tại tiếp diễn của một tập quán đã đến lúc phục vụ nhu cầu của người quan sát về sự liên tục văn hoá nhiều hơn là cảm giác của người thực hành về một cuộc sống được sống tốt.\n\nBuông bỏ, khi đó là lựa chọn đúng, không có nghĩa là từ bỏ thứ đó hay những người gìn giữ nó. Nó có nghĩa là đồng hành với sự kết thúc bằng sự rõ ràng — ghi lại những gì đã là, gọi tên nó để làm gì, và giải phóng những người thực hành khỏi nghĩa vụ trình diễn sự biến mất của họ trước khán giả nhầm lẫn việc chứng kiến với việc giải cứu. Điều đó — kết thúc trang trọng được chọn tự do thay vì cuộc triển lãm kéo dài — có thể, trong một số trường hợp, là hình thức tôn trọng trung thực nhất có sẵn.",
   "mcQuestions": [
     {
       "id": "q1",
-      "prompt": "Which sentence uses a careful concession before a counter-argument?",
+      "prompt": "What is the essay's central argument?",
       "options": [
-        "I want to be careful here. Some preservation is unambiguously right.",
-        "I will not be careful. All preservation is wrong always.",
-        "Careful here be I want, right preservation is.",
-        "Always anyway, preservation is just fine in every case."
+        "All preservation is a form of selfishness and should be abandoned.",
+        "Some acts of preservation serve the needs of observers and preservers more than the thing or people being preserved, and letting go can be the more honest choice.",
+        "Letting go is always more honest than preserving, in every case.",
+        "Heritage funding is wasteful and should be redirected to practical uses."
       ],
-      "answerIndex": 0,
-      "explanation": "A acknowledges the legitimate part of the other side before introducing the writer's qualification.",
-      "hint": "A concession admits what is right before saying what is missing."
+      "answerIndex": 1,
+      "explanation": "The essay carefully argues not that preservation is always wrong, but that it must be interrogated — and that in some cases, honest reduction or ending is more respectful than artificial extension.",
+      "hint": "Look for the nuanced claim, not the absolute one."
     },
     {
       "id": "q2",
-      "prompt": "Which option uses 'whose' correctly in a relative clause at C1 level?",
+      "prompt": "Which sentence uses a cleft structure correctly?",
       "options": [
-        "The basket-weaver whose work no one can afford does not need to be photographed one more time.",
-        "The basket-weaver who work afford no one is photographed.",
-        "Basket-weaver, what her work no one afford, does not photograph again.",
-        "The basket-weaver whom work nobody buys is again photographed."
+        "The museum-piece logic is suppressing precisely this second question.",
+        "It is precisely this second question that museum-piece logic tends to suppress.",
+        "This second question precisely, it is museum-piece logic that suppresses.",
+        "Precisely this second question suppresses museum-piece logic."
       ],
-      "answerIndex": 0,
-      "explanation": "'whose' shows possession ('whose work') and cleanly modifies 'basket-weaver'.",
-      "hint": "Find the option where the possessive relative pronoun fits."
+      "answerIndex": 1,
+      "explanation": "'It is X that…' is the standard cleft structure; 'precisely' intensifies the contrast at C1 level.",
+      "hint": "A cleft uses 'It is … that' to bring X into focus."
     },
     {
       "id": "q3",
-      "prompt": "Which sentence uses a 'cannot be reconstructed' passive correctly to signal an irreversible loss?",
+      "prompt": "What does 'a residual performance: technically accomplished, culturally emptied' mean?",
       "options": [
-        "A language carries a way of organising memory, kinship, and humour that, once gone, cannot be reconstructed from its grammars.",
-        "A language reconstructs not the grammars from kinship and humour cannot.",
-        "Cannot reconstruct grammars language a way humour kinship.",
-        "A language is reconstructed not from grammars whenever it once gone."
+        "A performance that uses old technology but modern themes.",
+        "A craft that is still executed with skill but has been severed from the communal meaning that originally gave it purpose.",
+        "A musical performance preserved as a museum recording.",
+        "An art form that only appeals to highly educated audiences."
       ],
-      "answerIndex": 0,
-      "explanation": "'cannot be reconstructed' is the natural modal-passive form, embedded inside a relative clause modifying 'a way'.",
-      "hint": "Find the option where the modal passive is correctly placed inside the relative clause."
+      "answerIndex": 1,
+      "explanation": "The essay argues that some preserved crafts retain technical form while losing the living social function — skilled in execution but hollow in meaning.",
+      "hint": "'Culturally emptied' is the key — the content is gone even if the form remains."
     },
     {
       "id": "q4",
-      "prompt": "Which closing reframes the issue as a question instead of moralising?",
+      "prompt": "What was the key decision made by the Japanese textile cooperatives in the essay?",
       "options": [
-        "is the practice still doing work in the lives of those who hold it, or is it doing work only in the lives of those who watch?",
-        "we must remember to honour every dying tradition equally.",
-        "in conclusion, preservation is the duty of every responsible citizen.",
-        "throughout history, humans have always struggled to let things go."
+        "They refused all outside funding and preserved every technique equally.",
+        "They allowed some techniques to lapse and concentrated energy on the forms that still had genuine viability.",
+        "They lobbied the government for cultural heritage status.",
+        "They converted their products for export to international markets."
       ],
-      "answerIndex": 0,
-      "explanation": "A reframes by asking a question that does the work the moral conclusion would have done — without preaching.",
-      "hint": "Reframe, don't moralise."
+      "answerIndex": 1,
+      "explanation": "The essay praises the cooperatives for making a painful but honest choice — honest reduction — which kept the remaining tradition alive because it was still genuinely used.",
+      "hint": "The essay calls this 'honestly reduced rather than artificially extended'."
     },
     {
       "id": "q5",
-      "prompt": "Which sentence uses parallel structure in a list of small actions?",
+      "prompt": "What does the essay say distinguishes the Japanese cooperatives' approach from the Southeast Asian/West African cases?",
       "options": [
-        "to record them carefully, name what they were for, and let those who once held them stop being asked to perform their disappearance.",
-        "we record them, and to naming was for, and letting those holding stop be asked perform.",
-        "record them carefully, what naming were for, and stop holding the disappearance.",
-        "they record, naming, and let what they were stop holding asking."
+        "The Japanese government provided more funding.",
+        "The Japanese cooperatives had more skilled practitioners.",
+        "In Japan, grief was acknowledged and absorbed rather than displaced onto practitioners; the remaining tradition was still genuinely used.",
+        "The Japanese traditions were more commercially valuable."
       ],
-      "answerIndex": 0,
-      "explanation": "Three base-verb infinitive phrases in parallel ('to record …, name …, and let …') give the sentence rhythmic weight.",
-      "hint": "Look for three verb phrases in the same base form."
+      "answerIndex": 2,
+      "explanation": "The contrast is between 'grief displaced onto practitioners' (Southeast Asian/West African cases) and 'grief acknowledged and absorbed' (Japanese case), and between spectacle-for-outsiders and genuine local viability.",
+      "hint": "Look for the phrase 'not displaced onto the practitioners; it was acknowledged and absorbed'."
+    },
+    {
+      "id": "q6",
+      "prompt": "Why does the essay say language loss is a special case that justifies preservation?",
+      "options": [
+        "Because languages are easier to revive than craft traditions.",
+        "Because a language encodes ways of perceiving kinship, landscape, and time that cannot be reconstructed once gone — making the loss irreversible.",
+        "Because governments are legally obligated to preserve minority languages.",
+        "Because language death always leads to cultural violence."
+      ],
+      "answerIndex": 1,
+      "explanation": "The essay's distinction is that language loss is irreversible in a unique way — the architecture of perception it carries cannot be rebuilt from grammars — which is a practical, not sentimental, argument.",
+      "hint": "The essay contrasts 'sentiment' with 'irreversibility'."
+    },
+    {
+      "id": "q7",
+      "prompt": "Which sentence uses modal nuance most effectively to hedge a claim?",
+      "options": [
+        "Letting go is definitely the more honest, more respectful choice.",
+        "Letting go might have been the more honest, even the more respectful, choice.",
+        "Letting go should always be the choice when things are dying.",
+        "Letting go was clearly the right thing."
+      ],
+      "answerIndex": 1,
+      "explanation": "'Might have been' signals a tentative, case-dependent assessment rather than a universal rule — appropriate C1 modal nuance for a sensitive argument.",
+      "hint": "'Might have been' expresses possibility and tentativeness; 'was clearly' or 'is definitely' makes an absolute claim."
+    },
+    {
+      "id": "q8",
+      "prompt": "What does 'museum-piece logic' mean in the essay?",
+      "options": [
+        "The belief that museums are the best places to preserve culture.",
+        "The tendency to treat living practices as static objects to be displayed, prioritising their survival as spectacle over the needs of those who hold them.",
+        "A bureaucratic rule requiring all heritage items to be catalogued.",
+        "The argument that only material objects, not practices, can be preserved."
+      ],
+      "answerIndex": 1,
+      "explanation": "'Museum-piece logic' is the essay's term for the mindset that treats a practice as an exhibit — something to be kept on display regardless of whether it still has living relevance.",
+      "hint": "Think about what makes a museum piece different from a living object."
+    },
+    {
+      "id": "q9",
+      "prompt": "What does the phrase 'sustained chiefly by the elegiac impulse of those watching it disappear' imply?",
+      "options": [
+        "The tradition is kept alive by the practitioners who mourn what it once was.",
+        "The survival of the tradition is driven primarily by outsiders' desire to witness and grieve its passing, not by its own internal vitality.",
+        "The tradition has elegiac themes that make it worth preserving.",
+        "The audience for the tradition is growing rapidly despite its decline."
+      ],
+      "answerIndex": 1,
+      "explanation": "'Elegiac' means mournful, relating to loss; 'of those watching it disappear' locates this impulse in outsiders, not practitioners — the tradition persists because observers need it to, not because it still serves practitioners.",
+      "hint": "'Elegiac impulse' belongs to those watching, not those doing."
+    },
+    {
+      "id": "q10",
+      "prompt": "What is the difference the essay draws between 'Preservation' and 'Honesty' as questions?",
+      "options": [
+        "Preservation is a practical question; honesty is a personal quality.",
+        "Preservation asks whether a practice can continue; honesty asks whether it ought to, and for whose benefit.",
+        "Preservation is about objects; honesty is about people.",
+        "Preservation requires funding; honesty requires courage."
+      ],
+      "answerIndex": 1,
+      "explanation": "The essay explicitly contrasts the two: 'Preservation asks: can we keep this going? Honesty asks: ought we to, and for whom?' — the second question is ethical, the first is merely practical.",
+      "hint": "Look for the exact question pair in the essay."
+    },
+    {
+      "id": "q11",
+      "prompt": "Which sentence uses a parenthetical aside correctly at C1 level?",
+      "options": [
+        "The practitioners, often elderly often the last of their lineage, continue to work.",
+        "The practitioners (often elderly, often the last of their lineage) continue to work.",
+        "The practitioners: often elderly often last of their lineage, continuing to work.",
+        "Often elderly, the practitioners the last of their lineage, continue their work."
+      ],
+      "answerIndex": 1,
+      "explanation": "Parenthetical asides use brackets or dashes to insert supplementary information without breaking the main clause; option B is grammatically and stylistically correct.",
+      "hint": "A parenthetical aside can use brackets, dashes, or commas — but the main clause must be complete without it."
+    },
+    {
+      "id": "q12",
+      "prompt": "What does 'performed authenticity' mean in the context of the essay?",
+      "options": [
+        "An actor pretending to be authentic in a stage performance.",
+        "Authenticity that is genuine and unforced.",
+        "The appearance of cultural genuineness staged for outside observers, without the living social conditions that originally created it.",
+        "A certificate of cultural authenticity awarded by heritage bodies."
+      ],
+      "answerIndex": 2,
+      "explanation": "'Performed authenticity' describes the situation where the outward form of a tradition is maintained — for an audience — while the inner social reality that made it authentic has vanished.",
+      "hint": "'Performed' implies doing something for an audience rather than for its own sake."
+    },
+    {
+      "id": "q13",
+      "prompt": "What does the essay say is wrong with asking practitioners to 'perform their own disappearance'?",
+      "options": [
+        "It is insulting to ask elderly people to work in public.",
+        "It forces practitioners to embody and display their own cultural decline as a spectacle for others who mistake witnessing for rescue.",
+        "It is technically difficult and requires special training.",
+        "It makes heritage documentation inaccurate."
+      ],
+      "answerIndex": 1,
+      "explanation": "The essay frames this as a form of symbolic violence — practitioners are required to stage their own ending for observers who feel they are helping by watching.",
+      "hint": "Look for the phrase 'mistakes witnessing for rescue'."
+    },
+    {
+      "id": "q14",
+      "prompt": "The essay concedes that language revitalisation may be justified. What qualification does it immediately add?",
+      "options": [
+        "It argues this only applies to European languages.",
+        "It argues that even the strongest case for preservation does not settle the question of whether specific revival mechanisms are working for speakers or primarily reassuring supporters.",
+        "It argues that language revival is too expensive to justify.",
+        "It argues that language loss is actually natural and acceptable."
+      ],
+      "answerIndex": 1,
+      "explanation": "The essay's concession is genuine but narrow — it grants that language loss is a special case, while insisting that this does not automatically validate every mechanism chosen for revival.",
+      "hint": "The essay distinguishes 'the case for preservation' from 'the case for any specific mechanism'."
+    },
+    {
+      "id": "q15",
+      "prompt": "What does the essay mean by 'honest reduction' as opposed to 'artificial extension'?",
+      "options": [
+        "Using fewer resources to fund a tradition.",
+        "Cutting a tradition down to only its commercially viable elements.",
+        "Allowing a tradition to become smaller or simpler while retaining what is genuinely alive, rather than sustaining it in a preserved but lifeless form.",
+        "Reducing the number of practitioners to save costs."
+      ],
+      "answerIndex": 2,
+      "explanation": "The Japanese cooperatives' example is the model: they let some things go honestly, kept what was still living, and the result was a smaller but genuine tradition rather than a large but hollow one.",
+      "hint": "'Honestly reduced' means made smaller in accordance with real vitality; 'artificially extended' means kept going beyond its natural life."
+    },
+    {
+      "id": "q16",
+      "prompt": "What is the 'dignified ending freely chosen' that the essay proposes as an alternative to prolonged exhibition?",
+      "options": [
+        "A formal funeral ceremony for a dying craft.",
+        "A legal process to deregister a heritage practice.",
+        "Allowing a tradition or practice to end on its own terms — accompanied by honest documentation and release of practitioners from performative obligation.",
+        "A vote by practitioners to stop working immediately."
+      ],
+      "answerIndex": 2,
+      "explanation": "The essay's closing argument is that the most respectful response to a dying practice may be to accompany its ending with clarity and honesty — recording it, naming it, and freeing practitioners from spectacle.",
+      "hint": "The key contrast is 'freely chosen ending' vs 'prolonged exhibition'."
     }
   ],
-  "criticalThinkingQuestion": "Is there a practice in your own family or community that, on reflection, you think has been kept alive more for the watchers than for those who hold it? What would honest 'letting go' look like?"
+  "criticalThinkingQuestion": "Is there a practice in your own family or community that, on reflection, you think has been kept alive more for the watchers than for those who hold it? What would honest 'letting go' look like, and what would be lost — and for whom?"
 }

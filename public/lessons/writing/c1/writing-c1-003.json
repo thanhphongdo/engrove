@@ -2,116 +2,286 @@
   "id": "writing-c1-003",
   "level": "C1",
   "title": "The quiet violence of being unrecognised at work",
-  "summary": "Name a harm workplaces inflict without breaking any rule, and ask what real recognition would actually require.",
+  "summary": "Argue the harm of being chronically unrecognised at work, show it through two concrete cases, and propose what an honest remedy would actually require — including what it would cost those in power to provide it.",
   "tags": ["Argument", "Work", "Ethics"],
   "topic": "Being unrecognised at work — the harm and the remedy",
-  "prompt": "Write a 280–360-word argumentative essay naming the harm of being chronically unrecognised at work, explaining why our vocabulary fails to name it, and proposing what real recognition would actually look like. Use hedging and nuanced register. End on a sentence that names the cost of changing this, not just the benefit.",
-  "minWords": 220,
-  "maxWords": 400,
+  "prompt": "Write a 600–800-word essay arguing the harm of being unrecognised at work and what an honest remedy looks like. Use two concrete cases. Use inversion, hedging, complex concession, and cohesion devices.",
+  "minWords": 600,
+  "maxWords": 800,
   "hintStarters": [
-    "There is a particular kind of harm that workplaces inflict without…",
-    "We are not very good at naming this harm, because…",
-    "What might recognition look like, if it were taken seriously as…",
-    "These are not large changes. The reason they are rare is not that…"
+    "Not until a person has spent years being passed over does the full weight of such erasure…",
+    "What the conventional language of workplace wellbeing so often obscures is that recognition is not a gift…",
+    "Admittedly, no institution can guarantee that every contribution will receive its due weight. Yet the systematic…"
   ],
   "hintVocab": [
-    { "phrase": "to inflict", "meaningVi": "gây ra", "pronunciation": "/ɪnˈflɪkt/" },
-    { "phrase": "footnote", "meaningVi": "chú thích" },
-    { "phrase": "tinnitus", "meaningVi": "chứng ù tai", "pronunciation": "/ˈtɪnɪtəs/" },
-    { "phrase": "harassment", "meaningVi": "quấy rối" },
-    { "phrase": "police report", "meaningVi": "bản báo cáo cảnh sát" },
-    { "phrase": "appropriation", "meaningVi": "sự chiếm đoạt" },
-    { "phrase": "to surrender", "meaningVi": "từ bỏ, giao nộp" },
-    { "phrase": "credited", "meaningVi": "được ghi công" }
+    {"phrase": "unrecognised", "meaningVi": "không được công nhận, bị bỏ qua", "pronunciation": "/ˌʌnˈrekəɡnaɪzd/"},
+    {"phrase": "erasure", "meaningVi": "sự xoá bỏ, tẩy sạch sự tồn tại hoặc đóng góp", "pronunciation": "/ɪˈreɪʒər/"},
+    {"phrase": "testimonial injustice", "meaningVi": "bất công chứng nhân, khi lời nói hoặc đóng góp bị xem nhẹ do định kiến"},
+    {"phrase": "epistemic cowardice", "meaningVi": "sự hèn nhát nhận thức, tránh nói thật để giữ sự thoải mái"},
+    {"phrase": "attribution error", "meaningVi": "lỗi quy kết, gán sai công lao cho người không đáng"},
+    {"phrase": "structural invisibility", "meaningVi": "sự vô hình mang tính cơ cấu, được tạo ra bởi hệ thống chứ không phải cá nhân"},
+    {"phrase": "moral residue", "meaningVi": "dư âm đạo đức, hậu quả đạo đức kéo dài sau sự kiện"},
+    {"phrase": "cognitive dissonance", "meaningVi": "bất hoà nhận thức, trạng thái giữ hai niềm tin mâu thuẫn", "pronunciation": "/ˈkɒɡnɪtɪv ˈdɪsənəns/"},
+    {"phrase": "soft harm", "meaningVi": "tổn hại mềm, loại tổn thương không để lại dấu vết hữu hình"},
+    {"phrase": "tacit curriculum", "meaningVi": "giáo trình ngầm, những gì được truyền đạt không qua lời nói"},
+    {"phrase": "cumulative injury", "meaningVi": "tổn thương tích luỹ, hậu quả của nhiều sự kiện nhỏ cộng lại"},
+    {"phrase": "institutional complicity", "meaningVi": "sự đồng loã thể chế, khi tổ chức cho phép tổn hại xảy ra"},
+    {"phrase": "remedial honesty", "meaningVi": "sự trung thực khắc phục, thành thật để sửa chữa sai lầm"},
+    {"phrase": "performative recognition", "meaningVi": "sự công nhận mang tính biểu diễn, công nhận bề ngoài không có thực chất"},
+    {"phrase": "structural remedy", "meaningVi": "biện pháp khắc phục mang tính cơ cấu, thay đổi hệ thống chứ không chỉ hành vi cá nhân"},
+    {"phrase": "crediting", "meaningVi": "ghi công, quy kết đúng công lao cho đúng người"},
+    {"phrase": "chronic invisibility", "meaningVi": "sự vô hình mãn tính, bị bỏ qua liên tục và kéo dài"},
+    {"phrase": "dignity at work", "meaningVi": "phẩm giá nơi làm việc, quyền được đối xử với sự tôn trọng"},
+    {"phrase": "privilege of the floor", "meaningVi": "đặc quyền phát biểu, quyền được lắng nghe trong cuộc họp"},
+    {"phrase": "appropriation of credit", "meaningVi": "sự chiếm đoạt công lao, nhận công lao của người khác", "pronunciation": "/əˌprəʊpriˈeɪʃən/"},
+    {"phrase": "managerial indifference", "meaningVi": "sự thờ ơ của quản lý, khi người có quyền lực không buồn chú ý"},
+    {"phrase": "zero-sum recognition", "meaningVi": "sự công nhận tổng bằng không, khi công nhận người này có nghĩa là bớt công nhận người kia"}
   ],
-  "sampleText": "There is a particular kind of harm that workplaces inflict without any rule being broken, any voice being raised, or any single moment that could later be pointed at. It is the harm of being present in a room for years and never quite being noticed in it. The accountant whose suggestions are repeated, two minutes later, by a more senior colleague and treated as fresh. The cleaner whose name no one asks. The junior researcher whose footnote becomes the headline of someone else's paper. None of these are scandals, individually. Each is a small inaudible click that, when accumulated over a career, becomes a kind of low-grade tinnitus the body never forgets.\n\nWe are not very good at naming this harm, because our vocabulary of workplace injury was built around louder events: harassment, fraud, dismissal. The quiet kind has no police report attached to it. It is also disturbingly easy for the people doing the unrecognising to feel that nothing has happened — and, in their universe, nothing has. The injury exists only in the universe of the unrecognised, who, after enough of it, often stop describing it even to themselves.\n\nWhat might recognition look like, if it were taken seriously as an obligation rather than a personality trait? It would, I think, look less like grand performance and more like minor and stubborn precision. The right person credited in the right meeting, not afterwards. A second sentence after \"thank you\" that names what was thanked. A promotion process that requires evidence of who was first, not merely who spoke last.\n\nThese are not large changes. The reason they are rare is not that they are difficult. It is that they require giving up something — the comfortable warmth of mild, lifelong appropriation — that very few institutions have ever been asked to surrender.",
+  "sampleText": "Not until a person has spent years being passed over does the full weight of such erasure become articulable — and even then, only with difficulty. The harm of being chronically unrecognised at work is not the harm of a single insult, which can be named and addressed. It is the harm of accumulation: of contributions absorbed without acknowledgement, of ideas resurfacing through other mouths, of presence registered without ever quite being registered. This is a form of soft harm, and soft harms are the hardest to defend against, because institutions were not built to see them.\n\nConsider a case from the technology sector, where structural invisibility has been extensively documented. A software engineer — one of very few women in a senior team in a Nairobi-based firm in the early 2010s — described a pattern familiar to many: her architectural suggestions were routinely taken up after a delay of several meetings, once a male colleague had restated them with minor variations. The credit went to the restater. No one lied. No one conspired. What operated instead was a kind of unconscious attribution error, compounded by the fact that, in that particular organisational culture, credibility was calibrated to volume and seniority rather than to the quality of the idea. Over three years, she stopped proposing. The appropriation of credit had not been malicious; it had been structural, and its moral residue was the same.\n\nThe second case is different in register but not in logic. In a secondary school in Buenos Aires, a teaching assistant — employed on a casual contract, conducting most of the small-group work that drove measurable learning gains — was never named in the school's annual report, never consulted about curriculum changes that directly affected her sessions, and was replaced without notice at the end of term. The harm here was not dramatic. It was the cumulative injury of someone being made, through consistent managerial indifference, to understand that their work did not rise to the level of the noticeable. The tacit curriculum delivered to her — and, notably, to every newer employee watching — was that certain forms of labour are expected without being counted.\n\nAdmittedly, no institution can guarantee that every contribution will receive its due weight; organisations are imperfect, attentional resources are finite, and the line between oversight and negligence is not always clear. Yet this objection, however reasonable as a general description of institutional life, loses much of its force when applied to patterns that are systematic, directional, and correlated with existing hierarchies of gender, contract type, and seniority. The problem is not that recognition is imperfect. It is that its imperfections are not evenly distributed.\n\nWhat, then, would an honest remedy look like? Not, I would suggest, a recognition programme — that peculiarly corporate genre of performative acknowledgement that hands someone a certificate in front of colleagues who watched them be overlooked for years. A structural remedy would be quieter and more costly. It would require, first, that credit attribution become a legible process: that meetings have records of who proposed what, and that those records inform subsequent decisions about ownership and promotion. It would require, second, that the people doing invisible labour be named in the documents that depend on their work — not thanked in a footnote, but listed as contributors. And it would require, third, that those with the privilege of the floor develop the habit of directing attention — explicitly, in the meeting itself — to the person whose idea they are endorsing.\n\nNone of these changes is technically difficult. What makes them rare is that they redistribute something: the credit, the visibility, the weight of being heard. Rarely do those who have long benefited from an unequal distribution of recognition — even inadvertently — welcome the redistribution. That is the honest account of why the remedy is available but seldom taken, and why the harm continues to accumulate in the bodies and the careers of those least positioned to name it.",
   "sampleAnnotations": [
-    { "phrase": "low-grade tinnitus", "meaningVi": "chứng ù tai mức nhẹ" },
-    { "phrase": "harassment, fraud, dismissal", "meaningVi": "quấy rối, gian lận, sa thải" },
-    { "phrase": "the unrecognising", "meaningVi": "những người đang không công nhận" },
-    { "phrase": "the unrecognised", "meaningVi": "những người không được công nhận" },
-    { "phrase": "minor and stubborn precision", "meaningVi": "sự chính xác nhỏ nhưng bền bỉ" },
-    { "phrase": "mild, lifelong appropriation", "meaningVi": "sự chiếm đoạt nhẹ nhàng và kéo dài cả đời" }
+    {"phrase": "Not until a person has spent years being passed over does the full weight of such erasure become articulable", "meaningVi": "Chỉ khi một người đã trải qua nhiều năm bị bỏ qua, toàn bộ sức nặng của sự xoá bỏ đó mới có thể được diễn đạt rõ ràng"},
+    {"phrase": "The harm of being chronically unrecognised at work is not the harm of a single insult, which can be named and addressed", "meaningVi": "Tổn hại của việc bị coi thường mãn tính tại nơi làm việc không phải là tổn hại của một lần xúc phạm duy nhất, thứ có thể được gọi tên và giải quyết"},
+    {"phrase": "contributions absorbed without acknowledgement", "meaningVi": "những đóng góp được tiếp nhận mà không có sự thừa nhận"},
+    {"phrase": "This is a form of soft harm, and soft harms are the hardest to defend against, because institutions were not built to see them", "meaningVi": "Đây là một dạng tổn hại mềm, và tổn hại mềm là khó bảo vệ nhất, vì các tổ chức không được xây dựng để nhìn thấy chúng"},
+    {"phrase": "structural invisibility has been extensively documented", "meaningVi": "sự vô hình mang tính cơ cấu đã được ghi nhận rộng rãi"},
+    {"phrase": "credibility was calibrated to volume and seniority rather than to the quality of the idea", "meaningVi": "độ tín nhiệm được hiệu chỉnh theo âm lượng và thâm niên hơn là theo chất lượng của ý tưởng"},
+    {"phrase": "The appropriation of credit had not been malicious; it had been structural, and its moral residue was the same", "meaningVi": "Sự chiếm đoạt công lao không phải là ác ý; nó mang tính cơ cấu, và dư âm đạo đức của nó là như nhau"},
+    {"phrase": "cumulative injury of someone being made, through consistent managerial indifference, to understand that their work did not rise to the level of the noticeable", "meaningVi": "tổn thương tích luỹ của việc một người bị buộc, qua sự thờ ơ nhất quán của quản lý, phải hiểu rằng công việc của họ không đạt đến mức đáng chú ý"},
+    {"phrase": "The tacit curriculum delivered to her", "meaningVi": "Giáo trình ngầm được truyền đạt đến cô ấy"},
+    {"phrase": "certain forms of labour are expected without being counted", "meaningVi": "một số hình thức lao động được kỳ vọng mà không được tính đến"},
+    {"phrase": "Admittedly, no institution can guarantee that every contribution will receive its due weight", "meaningVi": "Cần thừa nhận rằng, không tổ chức nào có thể đảm bảo rằng mọi đóng góp sẽ nhận được trọng lượng xứng đáng của nó"},
+    {"phrase": "this objection, however reasonable as a general description of institutional life, loses much of its force when applied to patterns that are systematic, directional, and correlated with existing hierarchies", "meaningVi": "sự phản đối này, dù hợp lý như một mô tả chung về đời sống tổ chức, mất nhiều sức mạnh khi áp dụng cho các mô hình có hệ thống, định hướng và tương quan với các hệ thống phân cấp hiện có"},
+    {"phrase": "its imperfections are not evenly distributed", "meaningVi": "sự không hoàn hảo của nó không được phân phối đều"},
+    {"phrase": "that peculiarly corporate genre of performative acknowledgement", "meaningVi": "thể loại thừa nhận biểu diễn đặc biệt của doanh nghiệp"},
+    {"phrase": "credit attribution become a legible process", "meaningVi": "việc quy kết công lao trở thành một quy trình có thể đọc được"},
+    {"phrase": "the people doing invisible labour be named in the documents that depend on their work", "meaningVi": "những người thực hiện lao động vô hình được gọi tên trong các tài liệu phụ thuộc vào công việc của họ"},
+    {"phrase": "those with the privilege of the floor develop the habit of directing attention", "meaningVi": "những người có đặc quyền phát biểu phát triển thói quen hướng sự chú ý"},
+    {"phrase": "they redistribute something: the credit, the visibility, the weight of being heard", "meaningVi": "chúng phân phối lại điều gì đó: công lao, sự hiện diện, trọng lượng của việc được lắng nghe"},
+    {"phrase": "Rarely do those who have long benefited from an unequal distribution of recognition — even inadvertently — welcome the redistribution", "meaningVi": "Hiếm khi những người đã hưởng lợi lâu dài từ việc phân phối sự công nhận không đều — dù vô tình — chào đón việc phân phối lại"},
+    {"phrase": "the harm continues to accumulate in the bodies and the careers of those least positioned to name it", "meaningVi": "tổn hại tiếp tục tích lũy trong cơ thể và sự nghiệp của những người ít có vị trí nhất để gọi tên nó"}
   ],
   "sampleGrammarNotes": [
     {
-      "title": "Hypothetical 'if it were' for proposals",
-      "bodyVi": "'What might recognition look like, if it were taken seriously as an obligation…' dùng cấu trúc giả định để đề xuất một khả năng nghiêm túc.",
-      "bodyEn": "'What might recognition look like, if it were taken seriously as an obligation…' uses a hypothetical structure to propose a serious possibility."
+      "title": "Inversion after a negative temporal adverbial",
+      "bodyVi": "Câu 'Not until a person has spent years being passed over does the full weight of such erasure become articulable' đảo ngữ trợ động từ 'does' lên trước chủ ngữ 'the full weight' vì cụm phủ định 'Not until…' đứng đầu câu. Câu kết 'Rarely do those who have long benefited…' lặp lại cùng cấu trúc. Đây là đặc trưng của văn xuôi học thuật C1 — tạo sức nặng và nhấn mạnh.",
+      "bodyEn": "The sentence 'Not until a person has spent years being passed over does the full weight of such erasure become articulable' inverts the auxiliary 'does' before the subject 'the full weight' because the negative temporal phrase 'Not until…' fronts the clause. The closing sentence 'Rarely do those who have long benefited…' repeats this structure. Both are hallmarks of C1 formal inversion — adding weight and emphasis."
     },
     {
-      "title": "Cleft sentence to name a hidden cost",
-      "bodyVi": "'The reason they are rare is not that they are difficult. It is that they require giving up something…' dùng cấu trúc chẻ để bộc lộ điều thực sự khó: phải từ bỏ một đặc quyền.",
-      "bodyEn": "'The reason they are rare is not that they are difficult. It is that they require giving up something…' uses a cleft to expose the real difficulty: surrendering a privilege."
+      "title": "Complex concession with embedded qualification",
+      "bodyVi": "Cấu trúc 'Admittedly, no institution can guarantee… Yet this objection, however reasonable as a general description of institutional life, loses much of its force when applied to patterns that are systematic, directional, and correlated with existing hierarchies' là ví dụ điển hình của nhượng bộ phức tạp C1. Phần nhượng bộ ('Admittedly…') được chấp nhận đầy đủ; phần phản bác ('Yet…') bao gồm cụm nhượng bộ lồng ghép ('however reasonable as a general description') để thu hẹp phạm vi phản đối trước khi bác bỏ nó.",
+      "bodyEn": "The structure 'Admittedly, no institution can guarantee… Yet this objection, however reasonable as a general description of institutional life, loses much of its force when applied to patterns that are systematic, directional, and correlated with existing hierarchies' is a textbook example of C1 complex concession. The concession ('Admittedly…') is granted fully; the counter-move ('Yet…') embeds a nested concessive ('however reasonable as a general description') to narrow the objection before dismissing it."
     }
   ],
-  "sampleTranslationVi": "Có một dạng tổn thương mà nơi làm việc gây ra mà không phá vỡ quy tắc nào, không có tiếng la nào, không có khoảnh khắc đơn nhất nào có thể chỉ ra sau này. Đó là nỗi đau của việc có mặt trong một căn phòng suốt nhiều năm mà chưa bao giờ thật sự được nhận ra trong nó. Người kế toán có những đề xuất được lặp lại, hai phút sau, bởi một đồng nghiệp cấp cao hơn và được coi như mới. Người lao công không ai hỏi tên. Nghiên cứu sinh trẻ có chú thích trở thành tựa đề bài báo của người khác. Từng việc một không phải là vụ bê bối. Mỗi việc là một tiếng tách rất nhỏ, khi tích tụ qua một sự nghiệp, trở thành một dạng ù tai nhẹ mà cơ thể không bao giờ quên.\n\nChúng ta không giỏi gọi tên dạng tổn thương này, vì vốn từ về thương tích nơi công sở được xây quanh những sự việc ồn ào hơn: quấy rối, gian lận, sa thải. Dạng âm thầm không kèm bản báo cáo cảnh sát nào. Nó cũng dễ một cách đáng lo ngại để những người đang không công nhận cảm thấy rằng không có gì xảy ra — và, trong vũ trụ của họ, không có gì xảy ra thật. Tổn thương chỉ tồn tại trong vũ trụ của những người không được công nhận, những người, sau đủ lâu, thường ngừng mô tả nó ngay cả với chính mình.\n\nSự công nhận sẽ trông ra sao, nếu được xem nghiêm túc như một nghĩa vụ chứ không phải một đức tính cá nhân? Nó, tôi nghĩ, sẽ ít giống biểu diễn long trọng và giống nhiều hơn với sự chính xác nhỏ nhưng bền bỉ. Đúng người được ghi công trong đúng cuộc họp, không phải sau đó. Một câu thứ hai sau \"cảm ơn\" gọi tên điều được cảm ơn. Một quy trình thăng chức đòi hỏi bằng chứng về ai là người đầu tiên, không phải ai là người nói cuối.\n\nĐây không phải những thay đổi lớn. Lý do chúng hiếm gặp không phải vì chúng khó. Mà vì chúng đòi hỏi từ bỏ một thứ — sự ấm áp dễ chịu của một sự chiếm đoạt nhẹ và kéo dài cả đời — mà rất ít tổ chức từng được yêu cầu phải nhường lại.",
+  "sampleTranslationVi": "Chỉ khi một người đã trải qua nhiều năm bị bỏ qua, toàn bộ sức nặng của sự xoá bỏ đó mới có thể được diễn đạt rõ ràng — và ngay cả khi đó, cũng chỉ với khó khăn. Tổn hại của việc bị coi thường mãn tính tại nơi làm việc không phải là tổn hại của một lần xúc phạm duy nhất, thứ có thể được gọi tên và giải quyết. Đó là tổn hại của sự tích luỹ: những đóng góp được tiếp nhận mà không có sự thừa nhận, những ý tưởng được hồi sinh qua miệng người khác, sự hiện diện được ghi nhận nhưng không bao giờ thực sự được ghi nhận. Đây là một dạng tổn hại mềm, và tổn hại mềm là khó bảo vệ nhất, vì các tổ chức không được xây dựng để nhìn thấy chúng.\n\nHãy xem xét một trường hợp từ lĩnh vực công nghệ, nơi sự vô hình mang tính cơ cấu đã được ghi nhận rộng rãi. Một kỹ sư phần mềm — một trong số rất ít phụ nữ trong một nhóm cấp cao tại một công ty có trụ sở ở Nairobi vào đầu những năm 2010 — mô tả một mô hình quen thuộc với nhiều người: các đề xuất kiến trúc của cô thường xuyên được chấp nhận sau độ trễ của vài cuộc họp, một khi một đồng nghiệp nam đã diễn đạt lại chúng với những biến thể nhỏ. Công lao thuộc về người diễn đạt lại. Không ai nói dối. Không ai âm mưu. Thay vào đó là một loại lỗi quy kết vô thức, được khuếch đại bởi thực tế là, trong văn hoá tổ chức cụ thể đó, độ tín nhiệm được hiệu chỉnh theo âm lượng và thâm niên hơn là theo chất lượng của ý tưởng. Sau ba năm, cô ngừng đề xuất. Sự chiếm đoạt công lao không phải là ác ý; nó mang tính cơ cấu, và dư âm đạo đức của nó là như nhau.\n\nTrường hợp thứ hai khác về mức độ nhưng không khác về logic. Tại một trường trung học ở Buenos Aires, một trợ giảng — được tuyển dụng theo hợp đồng tạm thời, thực hiện hầu hết công việc nhóm nhỏ thúc đẩy kết quả học tập có thể đo lường — không bao giờ được nêu tên trong báo cáo thường niên của trường, không bao giờ được hỏi ý kiến về những thay đổi chương trình ảnh hưởng trực tiếp đến các buổi học của cô, và bị thay thế mà không có thông báo vào cuối học kỳ. Tổn hại ở đây không kịch tính. Đó là tổn thương tích luỹ của việc một người bị buộc, qua sự thờ ơ nhất quán của quản lý, phải hiểu rằng công việc của họ không đạt đến mức đáng chú ý. Giáo trình ngầm được truyền đạt đến cô — và, đáng chú ý, đến mọi nhân viên mới đang quan sát — là một số hình thức lao động được kỳ vọng mà không được tính đến.\n\nCần thừa nhận rằng, không tổ chức nào có thể đảm bảo rằng mọi đóng góp sẽ nhận được trọng lượng xứng đáng của nó; các tổ chức không hoàn hảo, nguồn lực chú ý có hạn, và ranh giới giữa sơ suất và cẩu thả không phải lúc nào cũng rõ ràng. Thế nhưng sự phản đối này, dù hợp lý như một mô tả chung về đời sống tổ chức, mất nhiều sức mạnh khi áp dụng cho các mô hình có hệ thống, định hướng và tương quan với các hệ thống phân cấp hiện có về giới tính, loại hợp đồng, và thâm niên. Vấn đề không phải là sự công nhận không hoàn hảo. Mà là sự không hoàn hảo của nó không được phân phối đều.\n\nVậy thì, một biện pháp khắc phục trung thực sẽ trông như thế nào? Không phải, tôi muốn đề xuất, một chương trình công nhận — thể loại thừa nhận biểu diễn đặc biệt của doanh nghiệp trao cho ai đó một chứng nhận trước những đồng nghiệp đã chứng kiến họ bị bỏ qua trong nhiều năm. Một biện pháp khắc phục mang tính cơ cấu sẽ yên lặng hơn và tốn kém hơn. Nó sẽ đòi hỏi, thứ nhất, rằng việc quy kết công lao trở thành một quy trình có thể đọc được. Thứ hai, những người thực hiện lao động vô hình được gọi tên trong các tài liệu phụ thuộc vào công việc của họ. Và thứ ba, những người có đặc quyền phát biểu phát triển thói quen hướng sự chú ý đến người mà ý tưởng họ đang ủng hộ.\n\nKhông có thay đổi nào trong số này khó về mặt kỹ thuật. Điều khiến chúng hiếm là chúng phân phối lại điều gì đó: công lao, sự hiện diện, trọng lượng của việc được lắng nghe. Hiếm khi những người đã hưởng lợi lâu dài từ việc phân phối sự công nhận không đều — dù vô tình — chào đón việc phân phối lại. Đó là cách giải thích trung thực về lý do tại sao biện pháp khắc phục có sẵn nhưng hiếm khi được thực hiện, và tại sao tổn hại tiếp tục tích lũy trong cơ thể và sự nghiệp của những người ít có vị trí nhất để gọi tên nó.",
   "mcQuestions": [
     {
       "id": "q1",
-      "prompt": "Which sentence uses a hypothetical 'if it were' construction correctly at C1?",
+      "prompt": "Which sentence demonstrates correct inversion after a negative temporal adverbial?",
       "options": [
-        "What might recognition look like, if it were taken seriously as an obligation rather than a personality trait?",
-        "What recognition look like, if it taken serious as obligation, not personality?",
-        "What recognition is being like, if it was taking serious obligation?",
-        "Recognition look serious how, was if it taken obligation rather trait."
+        "Not until a person has spent years being passed over the full weight of such erasure becomes articulable.",
+        "Not until a person has spent years being passed over does the full weight of such erasure become articulable.",
+        "Not until a person spent years being passed over did the full weight become articulable.",
+        "Until a person has not spent years, does the full weight of erasure become articulable."
       ],
-      "answerIndex": 0,
-      "explanation": "'if it were taken seriously' = hypothetical past subjunctive in a passive construction, paired with 'might'.",
-      "hint": "Look for 'might + verb' paired with 'if it were + past participle'."
+      "answerIndex": 1,
+      "explanation": "After 'Not until…', the auxiliary 'does' must precede the subject 'the full weight' — standard C1 negative inversion.",
+      "hint": "Negative fronting requires subject-auxiliary inversion."
     },
     {
       "id": "q2",
-      "prompt": "Which sentence uses a cleft to expose the real cause of inaction?",
+      "prompt": "What does the essay mean by 'soft harm'?",
       "options": [
-        "The reason they are rare is not that they are difficult. It is that they require giving up something.",
-        "They are rare and difficult, but giving up is not it.",
-        "Difficult they are not, give up they are it real reason.",
-        "Reason them rare hard not — surrender something is."
+        "A harm that is gentle and does not cause suffering.",
+        "A harm that is mild enough to be acceptable in professional settings.",
+        "A harm that leaves no easily visible trace and is therefore difficult for institutions to detect or address.",
+        "A harm caused by soft words rather than physical actions."
       ],
-      "answerIndex": 0,
-      "explanation": "'The reason X is not Y. It is Z' is a paired cleft that delays and reveals the real cause.",
-      "hint": "Look for the 'It is X that/because' pattern used as a reveal."
+      "answerIndex": 2,
+      "explanation": "The essay contrasts 'soft harm' — accumulative, invisible, structural — with a 'single insult, which can be named and addressed'. Soft harms are hard to defend against precisely because they are not built into institutional detection systems.",
+      "hint": "The key phrase is 'institutions were not built to see them'."
     },
     {
       "id": "q3",
-      "prompt": "Which option uses three parallel relative clauses to give weight to a list?",
+      "prompt": "In the Nairobi software engineer case, what was the mechanism of harm?",
       "options": [
-        "The accountant whose suggestions are repeated by a senior colleague. The cleaner whose name no one asks. The junior researcher whose footnote becomes the headline of someone else's paper.",
-        "Accountant their suggestions someone takes. Cleaner name no asking. Junior footnote becomes paper headline.",
-        "Senior colleague repeats accountant. No asks cleaner name. Junior footnote that paper.",
-        "Whose accountant suggestions, whose cleaner name, whose junior footnote — these are."
+        "A manager deliberately stole her ideas and took credit publicly.",
+        "An unconscious attribution error in which credibility was calibrated to volume and seniority, causing a male colleague to receive credit for ideas she had proposed.",
+        "She was paid less than male colleagues for the same work.",
+        "She was excluded from meetings where her architectural proposals would be discussed."
       ],
-      "answerIndex": 0,
-      "explanation": "Three full noun-phrase fragments, each opened with 'whose + noun', create rhetorical weight without becoming a list.",
-      "hint": "Three sentences in a row, each opening with 'The [role] whose …', is the standard parallel pattern."
+      "answerIndex": 1,
+      "explanation": "The essay specifies that 'no one lied, no one conspired' — the harm was structural, not deliberate: an attribution error compounded by a culture that weighted credibility to volume and seniority rather than idea quality.",
+      "hint": "Look for the phrase 'unconscious attribution error'."
     },
     {
       "id": "q4",
-      "prompt": "Which closing sentence names what changing this would cost, instead of just promising a benefit?",
+      "prompt": "What does the essay say about the 'moral residue' of the Nairobi case?",
       "options": [
-        "These changes would make everyone happier and more productive at work.",
-        "In conclusion, recognition is something every workplace should provide.",
-        "It is that they require giving up something — the comfortable warmth of mild, lifelong appropriation — that very few institutions have ever been asked to surrender.",
-        "Throughout history, recognition has always been important to humans."
+        "The moral residue was small because the harm was unintentional.",
+        "The moral residue was zero because no rules were broken.",
+        "The appropriation of credit was structural rather than malicious, but its moral residue was the same regardless of intent.",
+        "The moral residue was resolved when the engineer stopped proposing."
       ],
       "answerIndex": 2,
-      "explanation": "C names the structural privilege institutions would have to give up — a real cost, not a vague promise.",
-      "hint": "A serious closing names what must be *surrendered*, not just gained."
+      "explanation": "The essay argues that structural harm leaves the same moral residue as deliberate harm — the outcome (the engineer stopped proposing) is the same regardless of whether anyone intended it.",
+      "hint": "Look for 'The appropriation of credit had not been malicious; it had been structural, and its moral residue was the same'."
     },
     {
       "id": "q5",
-      "prompt": "Which option uses the most controlled C1 register, neither slangy nor stiff?",
+      "prompt": "What was the 'tacit curriculum' delivered in the Buenos Aires school case?",
       "options": [
-        "It is also disturbingly easy for the people doing the unrecognising to feel that nothing has happened — and, in their universe, nothing has.",
-        "It's super easy for these unrecognising guys to feel like nothing happened.",
-        "It is, accordingly and notwithstanding, easy for unrecognisers feeling nothing.",
-        "These people feel nothing because they unrecognise so much."
+        "The teaching assistant learned Spanish more quickly than expected.",
+        "Other employees observed that certain forms of labour are expected without being counted.",
+        "The school delivered unofficial lessons in classroom management.",
+        "The teaching assistant was given informal feedback about her performance."
       ],
-      "answerIndex": 0,
-      "explanation": "A keeps a controlled, slightly literary register with one strong adverb ('disturbingly') and an embedded clause; the others are too casual, too jargony, or too plain.",
-      "hint": "C1 register is precise without being slangy or pompous."
+      "answerIndex": 1,
+      "explanation": "The essay uses 'tacit curriculum' to describe what the organisational behaviour taught — not through words, but through example — to everyone watching: that invisible labour does not count.",
+      "hint": "'Tacit curriculum' is what is learned implicitly, not what is said explicitly."
+    },
+    {
+      "id": "q6",
+      "prompt": "Which sentence is the best example of a complex concession?",
+      "options": [
+        "Although no institution can guarantee recognition, it should try.",
+        "Admittedly, no institution can guarantee that every contribution will receive its due weight; the demand would be unreasonable. Yet the argument remains valid.",
+        "Admittedly, no institution can guarantee that every contribution will receive its due weight; organisations are imperfect, attentional resources are finite, and the line between oversight and negligence is not always clear. Yet this objection, however reasonable as a general description of institutional life, loses much of its force when applied to patterns that are systematic, directional, and correlated with existing hierarchies.",
+        "No institution can guarantee recognition, which is why it does not matter."
+      ],
+      "answerIndex": 2,
+      "explanation": "Option C uses 'Admittedly…' to grant the objection fully and in detail, then 'Yet…' with an embedded concessive ('however reasonable as a general description') to narrow the scope before dismissing the objection — the hallmark of C1 complex concession.",
+      "hint": "Look for the full grant followed by an embedded qualification and then a counter-move."
+    },
+    {
+      "id": "q7",
+      "prompt": "What does the essay say is wrong with recognition programmes?",
+      "options": [
+        "They cost too much money to implement effectively.",
+        "They are a form of performative acknowledgement that stages recognition for an audience of colleagues who watched the person be overlooked for years.",
+        "They favour extroverted employees over quiet contributors.",
+        "They require extensive data collection that violates privacy."
+      ],
+      "answerIndex": 1,
+      "explanation": "The essay calls recognition programmes 'that peculiarly corporate genre of performative acknowledgement' — the irony is that they acknowledge someone in front of witnesses to their earlier neglect, which makes the acknowledgement theatrical rather than structural.",
+      "hint": "Look for the phrase 'performative acknowledgement'."
+    },
+    {
+      "id": "q8",
+      "prompt": "What three structural changes does the essay propose as a remedy?",
+      "options": [
+        "Higher pay, flexible hours, and named offices.",
+        "Regular one-to-one meetings, annual performance reviews, and written contracts.",
+        "Legible credit attribution processes, naming invisible labour contributors in documents, and the habit of directing attention to the idea-originator in meetings.",
+        "Diversity training, unconscious bias workshops, and anonymous feedback systems."
+      ],
+      "answerIndex": 2,
+      "explanation": "The essay lists three specific structural changes: (1) credit attribution as a legible process, (2) naming those doing invisible labour in documents, (3) directing attention to the original proposer in meetings.",
+      "hint": "Look for the three 'It would require…' sentences."
+    },
+    {
+      "id": "q9",
+      "prompt": "What does 'privilege of the floor' mean in the essay?",
+      "options": [
+        "The physical advantage of having a ground-floor office.",
+        "The right to have one's speech heard and credited in a meeting.",
+        "A formal parliamentary procedure for requesting to speak.",
+        "The seniority that comes with many years at a company."
+      ],
+      "answerIndex": 1,
+      "explanation": "'The floor' is a parliamentary metaphor for the right to speak and be heard; those with 'the privilege of the floor' are the people whose contributions are naturally registered and credited in meetings.",
+      "hint": "'The floor' in formal settings refers to the right to speak."
+    },
+    {
+      "id": "q10",
+      "prompt": "Why does the essay say structural remedies are rare, even though they are not technically difficult?",
+      "options": [
+        "Because institutions lack the technology to implement them.",
+        "Because managers are too busy to think about recognition.",
+        "Because they require redistributing credit, visibility, and weight — something those who have long benefited from unequal recognition are unlikely to welcome.",
+        "Because employees in many countries are legally prohibited from claiming credit."
+      ],
+      "answerIndex": 2,
+      "explanation": "The essay's closing argument is that the real barrier is not difficulty but interest: structural remedies redistribute something valuable, and those holding it have little incentive to give it up.",
+      "hint": "Look for 'they redistribute something: the credit, the visibility, the weight of being heard'."
+    },
+    {
+      "id": "q11",
+      "prompt": "What is the effect of the closing inversion 'Rarely do those who have long benefited… welcome the redistribution'?",
+      "options": [
+        "It introduces a hopeful note, suggesting change is becoming more common.",
+        "It echoes the opening inversion, creating a formal circular structure that closes the essay with a frank, unsentimental statement about who resists change.",
+        "It weakens the essay's argument by admitting the remedy will fail.",
+        "It is a stylistic error that undermines the formal register."
+      ],
+      "answerIndex": 1,
+      "explanation": "The closing 'Rarely do…' inversion mirrors 'Not until…' in the opening — creating structural symmetry and ending on a candid note about the political economy of recognition, rather than a false optimism.",
+      "hint": "Inversions at the opening and close create a rhetorical frame."
+    },
+    {
+      "id": "q12",
+      "prompt": "What does the phrase 'its imperfections are not evenly distributed' mean?",
+      "options": [
+        "Some organisations are more imperfect than others.",
+        "Recognition errors happen randomly and cannot be predicted.",
+        "The failures of recognition fall disproportionately on those who are already disadvantaged by gender, contract type, and seniority — not randomly across all employees.",
+        "Some imperfections in recognition are more serious than others."
+      ],
+      "answerIndex": 2,
+      "explanation": "The essay argues that the problem is not imperfection per se but directionality — recognition fails systematically for specific groups, which makes it a structural issue rather than a statistical inevitability.",
+      "hint": "Look at what is correlated with recognition failures: gender, contract type, seniority."
+    },
+    {
+      "id": "q13",
+      "prompt": "What does 'cumulative injury' refer to in the Buenos Aires case?",
+      "options": [
+        "The total number of hours the teaching assistant worked without a break.",
+        "The combined financial cost of repeated casual contracts.",
+        "The harm produced by the accumulation of many small, individually dismissible acts of being overlooked — never named in reports, never consulted, replaced without notice.",
+        "A formal legal term for repeated workplace violations."
+      ],
+      "answerIndex": 2,
+      "explanation": "'Cumulative injury' is the essay's term for harm that is not produced by one act but by the accumulation of many — no single act is dramatic, but together they constitute a sustained message about someone's worth.",
+      "hint": "Think about what 'cumulative' adds to 'injury' — the harm builds up."
+    },
+    {
+      "id": "q14",
+      "prompt": "What cohesion device does the essay use to link the two case studies?",
+      "options": [
+        "A repeated phrase — 'It is therefore clear that…' — at the start of each case.",
+        "A transitional sentence: 'The second case is different in register but not in logic.'",
+        "A bullet list summarising the similarities between the two cases.",
+        "A direct comparison table showing parallel outcomes."
+      ],
+      "answerIndex": 1,
+      "explanation": "The sentence 'The second case is different in register but not in logic' is a classic cohesion device — it signals a transition while asserting the structural relationship between the two examples.",
+      "hint": "A good cohesion device both signals a transition and tells the reader how the new section relates to the previous one."
+    },
+    {
+      "id": "q15",
+      "prompt": "What does 'performative recognition' mean in the essay?",
+      "options": [
+        "Recognition that is performance-based and tied to KPIs.",
+        "An acknowledgement that is staged for an audience rather than structurally changing the conditions that produced the invisibility.",
+        "Recognition of artistic or creative performance in the workplace.",
+        "A form of recognition that requires the recipient to perform a speech."
+      ],
+      "answerIndex": 1,
+      "explanation": "The essay contrasts 'performative acknowledgement' (a certificate, a public moment) with structural remedy — the former is visible but does not change the underlying patterns that caused the harm.",
+      "hint": "'Performative' here means staged for appearance, not substantive."
+    },
+    {
+      "id": "q16",
+      "prompt": "The essay says 'no one lied, no one conspired' in the Nairobi case. What is the purpose of this statement?",
+      "options": [
+        "To excuse the behaviour of the male colleague and the organisation.",
+        "To demonstrate that structural harm does not require individual malice — the pattern operates through unconscious assumptions and institutional culture rather than deliberate wrongdoing.",
+        "To suggest that the engineer should not have felt harmed.",
+        "To argue that only deliberate discrimination is worth addressing."
+      ],
+      "answerIndex": 1,
+      "explanation": "The phrase establishes a key distinction: structural harm is real even without identifiable villains. The argument is that institutions can cause serious harm through culture and design, without anyone intending to.",
+      "hint": "The essay is making a structural argument, not a moral-blame argument."
     }
   ],
-  "criticalThinkingQuestion": "Think of one person at your workplace who is often unrecognised. What is one small, structural change (not a thank-you note) that would actually shift their experience?"
+  "criticalThinkingQuestion": "Think of one person in your workplace or study environment whose contributions are systematically under-credited. Is the cause individual oversight or structural? What would a structural remedy look like — and what would those with more visibility have to give up?"
 }

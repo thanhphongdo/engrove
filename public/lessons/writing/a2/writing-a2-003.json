@@ -5,97 +5,198 @@
   "summary": "Describe one neighbor from your past and why you still remember them.",
   "tags": ["People", "Past simple", "Memory"],
   "topic": "A neighbor I'll never forget",
-  "prompt": "Write 7–10 sentences about one neighbor (from any city or country) who you still remember. Use past simple. Use linking adverbs like 'at first', 'later', 'however' to organise the story.",
-  "minWords": 50,
-  "maxWords": 140,
+  "prompt": "Write 8–10 sentences about a neighbor you'll never forget. Describe who they were and one memory. Use past simple.",
+  "minWords": 150,
+  "maxWords": 250,
   "hintStarters": [
-    "When I was twelve…",
-    "At first, I thought…",
-    "Later, I learned…",
-    "However, I still remember…"
+    "When I was about ten years old, a woman named…",
+    "She lived just across the hall, and she always…",
+    "I never forgot the day when she…"
   ],
   "hintVocab": [
-    { "phrase": "neighbor", "meaningVi": "hàng xóm", "pronunciation": "/ˈneɪbər/" },
     { "phrase": "retired", "meaningVi": "đã nghỉ hưu", "pronunciation": "/rɪˈtaɪərd/" },
-    { "phrase": "stairs", "meaningVi": "cầu thang" },
-    { "phrase": "however", "meaningVi": "tuy nhiên" },
-    { "phrase": "moved away", "meaningVi": "đã chuyển đi" },
-    { "phrase": "share", "meaningVi": "chia sẻ" }
+    { "phrase": "widow", "meaningVi": "góa phụ", "pronunciation": "/ˈwɪdoʊ/" },
+    { "phrase": "lend", "meaningVi": "cho mượn", "pronunciation": "/lend/" },
+    { "phrase": "patient", "meaningVi": "kiên nhẫn", "pronunciation": "/ˈpeɪʃənt/" },
+    { "phrase": "curious", "meaningVi": "tò mò", "pronunciation": "/ˈkjʊəriəs/" },
+    { "phrase": "knock on the door", "meaningVi": "gõ cửa" },
+    { "phrase": "moved away", "meaningVi": "chuyển đi nơi khác" },
+    { "phrase": "leave behind", "meaningVi": "để lại, bỏ lại" },
+    { "phrase": "landlord", "meaningVi": "chủ nhà", "pronunciation": "/ˈlændlɔːrd/" },
+    { "phrase": "block of flats", "meaningVi": "khu chung cư", "pronunciation": "/blɒk əv flæts/" },
+    { "phrase": "ordinary", "meaningVi": "bình thường, không có gì đặc biệt", "pronunciation": "/ˈɔːrdɪneri/" }
   ],
-  "sampleText": "When I was twelve, an old man named Mr. Suresh lived in the flat above us. He worked at a railway station for forty years before he retired. Every Sunday morning, he sat on the stairs with a small radio and listened to football news. At first, I thought he was strange because he wore the same brown jacket all year. Later, I learned he gave the money for new jackets to his sister, who was sick. After he moved away, I did not see him again. However, I still remember the sound of his radio, and the smell of the toast he sometimes shared with me.",
+  "sampleText": "When I was about nine years old, my family lived in a block of flats in Thessaloniki, in Greece. Our neighbor across the hall was a retired schoolteacher named Mrs. Papadaki. She was a small, quiet woman who lived alone after her husband died. Every afternoon, she sat in her doorway and read thick paperback books with her glasses on the end of her nose. At first, I thought she was unfriendly because she never smiled when she passed us in the corridor. One afternoon, I knocked on her door because I needed a pencil for my homework. She opened the door, looked at me for a long moment, and then walked back inside without a word. I thought she was going to close the door. Instead, she came back with three pencils, a small notebook, and a piece of chocolate. She put them all in my hand and said, 'A student always needs a notebook.' After that day, I knocked on her door every few weeks, and she always answered. She lent me my first English dictionary when I was eleven. My family moved away two years later, and I left the dictionary behind by mistake. I still think about that book sometimes.",
   "sampleAnnotations": [
-    { "phrase": "lived in the flat above us", "meaningVi": "sống trong căn hộ phía trên chúng tôi" },
-    { "phrase": "retired", "meaningVi": "đã nghỉ hưu" },
-    { "phrase": "at first", "meaningVi": "ban đầu" },
-    { "phrase": "moved away", "meaningVi": "đã chuyển đi" },
-    { "phrase": "however", "meaningVi": "tuy nhiên" }
+    { "phrase": "a block of flats", "meaningVi": "khu chung cư" },
+    { "phrase": "retired schoolteacher", "meaningVi": "giáo viên đã nghỉ hưu" },
+    { "phrase": "lived alone after her husband died", "meaningVi": "sống một mình sau khi chồng qua đời" },
+    { "phrase": "sat in her doorway", "meaningVi": "ngồi ở cửa nhà" },
+    { "phrase": "At first, I thought she was unfriendly", "meaningVi": "Ban đầu, tôi nghĩ bà ấy không thân thiện" },
+    { "phrase": "knocked on her door", "meaningVi": "gõ cửa nhà bà ấy" },
+    { "phrase": "without a word", "meaningVi": "không nói một lời" },
+    { "phrase": "Instead, she came back with", "meaningVi": "Thay vào đó, bà ấy quay lại với" },
+    { "phrase": "A student always needs a notebook", "meaningVi": "Một học sinh luôn cần một quyển vở" },
+    { "phrase": "left the dictionary behind by mistake", "meaningVi": "để quên quyển từ điển lại do nhầm lẫn" },
+    { "phrase": "I still think about that book sometimes", "meaningVi": "Đôi khi tôi vẫn nghĩ về quyển sách đó" }
   ],
   "sampleGrammarNotes": [
     {
-      "title": "Past simple for a complete story",
-      "bodyVi": "Tất cả các động từ chính (lived, worked, sat, wore, gave, moved) đều ở quá khứ đơn vì câu chuyện đã kết thúc.",
-      "bodyEn": "All the main verbs (lived, worked, sat, wore, gave, moved) are in the past simple because the story is finished."
+      "title": "Past simple for a complete story from the past",
+      "bodyVi": "Tất cả các động từ chính trong câu chuyện (lived, sat, knocked, opened, came, put, said, lent, moved, left) đều dùng quá khứ đơn vì các sự việc đã kết thúc hoàn toàn.",
+      "bodyEn": "All main verbs in the story (lived, sat, knocked, opened, came, put, said, lent, moved, left) use past simple because every event is finished."
     },
     {
-      "title": "Linking adverbs: at first / later / however",
-      "bodyVi": "'At first…', 'Later…', 'However…' giúp tổ chức câu chuyện theo thứ tự cảm xúc và thời gian.",
-      "bodyEn": "'At first…', 'Later…', 'However…' help organise the story by emotion and time."
+      "title": "'At first' and 'Instead' to show a change",
+      "bodyVi": "'At first, I thought…' giới thiệu ấn tượng ban đầu. 'Instead' cho thấy điều ngược lại hoặc bất ngờ xảy ra. Hai từ này cùng nhau tạo nên bước ngoặt trong câu chuyện.",
+      "bodyEn": "'At first, I thought…' introduces the first impression. 'Instead' shows that the opposite or something unexpected happened. Together, they create the turning point of the story."
     }
   ],
-  "sampleTranslationVi": "Khi tôi mười hai tuổi, một ông cụ tên là Mr. Suresh sống trong căn hộ phía trên chúng tôi. Ông đã làm việc ở một ga xe lửa trong bốn mươi năm trước khi nghỉ hưu. Mỗi sáng Chủ nhật, ông ngồi trên cầu thang với một chiếc radio nhỏ và nghe tin tức bóng đá. Lúc đầu, tôi nghĩ ông kỳ lạ vì ông mặc cùng một chiếc áo khoác màu nâu suốt cả năm. Sau này, tôi biết được rằng ông đã đưa tiền mua áo khoác mới cho người chị bị bệnh của mình. Sau khi ông chuyển đi, tôi không gặp lại ông nữa. Tuy nhiên, tôi vẫn nhớ âm thanh chiếc radio của ông, và mùi của miếng bánh mì nướng mà thỉnh thoảng ông chia cho tôi.",
+  "sampleTranslationVi": "Khi tôi khoảng chín tuổi, gia đình tôi sống trong một khu chung cư ở Thessaloniki, Hy Lạp. Người hàng xóm đối diện chúng tôi là một giáo viên đã nghỉ hưu tên là bà Papadaki. Bà là một người phụ nữ nhỏ bé, điềm tĩnh, sống một mình sau khi chồng qua đời. Mỗi buổi chiều, bà ngồi ở cửa nhà và đọc những cuốn sách bìa mềm dày với kính đeo trên đầu mũi. Ban đầu, tôi nghĩ bà không thân thiện vì bà không bao giờ mỉm cười khi đi qua chúng tôi trong hành lang. Một buổi chiều, tôi gõ cửa nhà bà vì cần một cây bút chì để làm bài tập về nhà. Bà mở cửa, nhìn tôi một lúc lâu, rồi quay vào trong mà không nói một lời. Tôi nghĩ bà sắp đóng cửa lại. Thay vào đó, bà quay lại với ba cây bút chì, một quyển vở nhỏ, và một miếng sô-cô-la. Bà đặt tất cả vào tay tôi và nói, 'Một học sinh luôn cần một quyển vở.' Sau ngày đó, tôi gõ cửa nhà bà vài tuần một lần, và bà luôn trả lời. Bà cho tôi mượn quyển từ điển tiếng Anh đầu tiên của tôi khi tôi mười một tuổi. Gia đình tôi chuyển đi hai năm sau, và tôi đã vô tình để quên quyển từ điển lại. Đôi khi tôi vẫn nghĩ về quyển sách đó.",
   "mcQuestions": [
     {
       "id": "q1",
-      "prompt": "Which sentence is the most natural opening for a memory from your childhood?",
+      "prompt": "Choose the most natural opening sentence for a childhood memory.",
       "options": [
-        "When I am twelve, an old man lived above us.",
-        "When I was twelve, an old man lived in the flat above us.",
-        "When was I twelve, an old man living above.",
-        "When I will be twelve, an old man lived above us."
+        "When I am about nine years old, my family lives in a block of flats.",
+        "When I was about nine years old, my family lived in a block of flats.",
+        "When I was about nine years old, my family is living in a block of flats.",
+        "When I was about nine years old, my family have lived in a block of flats."
       ],
       "answerIndex": 1,
-      "explanation": "Past simple in both clauses ('was', 'lived') fits a memory.",
-      "hint": "Both verbs should be in the past simple."
+      "explanation": "Past simple in both the time clause ('was') and the main clause ('lived') is correct for a finished past situation.",
+      "hint": "Both verbs in a past-time clause should be past simple."
     },
     {
       "id": "q2",
-      "prompt": "Choose the sentence that uses 'at first' / 'later' correctly.",
+      "prompt": "Which phrase correctly means that she lived alone because her husband was dead?",
       "options": [
-        "At first, I thought he was strange. Later, I learned he gave the money to his sister.",
-        "At first I am thinking he strange. Later I learn he give money.",
-        "First at, I thought he strange. After later, I learned.",
-        "Later, I thought he strange. At first, I learned."
+        "She lived alone after her husband died.",
+        "She lived alone after her husband was dying.",
+        "She lived alone after her husband has died.",
+        "She lived alone after her husband is dead."
       ],
       "answerIndex": 0,
-      "explanation": "Linking adverbs at the start of each sentence + past simple verbs is the natural pattern.",
-      "hint": "Look for 'At first' and 'Later' at the start of each sentence with past tense verbs."
+      "explanation": "'After her husband died' uses past simple in the time clause, matching the past simple in the main clause.",
+      "hint": "Past simple follows 'after' in a finished past situation."
     },
     {
       "id": "q3",
-      "prompt": "Which option uses 'however' correctly?",
+      "prompt": "Pick the sentence that shows the narrator's first (wrong) impression.",
       "options": [
-        "However I did not see him again, I still remember his radio.",
-        "I did not see him again. However, I still remember the sound of his radio.",
-        "I did not see him however again the radio.",
-        "However however I still remember his radio."
+        "At first, I thought she was unfriendly.",
+        "At first, I think she is unfriendly.",
+        "At first, I am thinking she was unfriendly.",
+        "At first, I thought she is unfriendly."
       ],
-      "answerIndex": 1,
-      "explanation": "'However' connects two ideas that contrast, with a comma after it at the start of a new sentence.",
-      "hint": "How does 'However' usually start a sentence in English?"
+      "answerIndex": 0,
+      "explanation": "'At first, I thought she was unfriendly' uses past simple for both verbs — the thinking and the quality observed.",
+      "hint": "Past simple in both verbs — the opinion and the quality."
     },
     {
       "id": "q4",
-      "prompt": "Which sentence keeps the focus on a small, concrete memory?",
+      "prompt": "Choose the correct use of 'Instead' to show the opposite happened.",
       "options": [
-        "I still remember the sound of his radio and the smell of his toast.",
-        "Old people are important in every culture and society.",
-        "Football news on the radio is very popular in Europe.",
-        "I have many neighbors and I like all of them very much."
+        "I thought she was going to close the door. Instead, she came back with pencils.",
+        "I thought she was going to close the door. Instead she come back with pencils.",
+        "I thought she was going to close the door, instead she came back with pencils.",
+        "Instead I thought she was going to close the door, she came back with pencils."
       ],
       "answerIndex": 0,
-      "explanation": "Only A is a small, concrete sensory memory of this one neighbor.",
-      "hint": "Which option mentions a specific sound or smell from the story?"
+      "explanation": "'Instead' starts a new sentence with a comma after it. It shows that the opposite or something unexpected happened.",
+      "hint": "'Instead,' at the start of a new sentence + comma shows a contrast."
+    },
+    {
+      "id": "q5",
+      "prompt": "Which word means 'to allow someone to use something and then return it'?",
+      "options": [
+        "borrow",
+        "lend",
+        "give",
+        "leave behind"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Lend' means to give something to someone for a period of time. 'Borrow' is the action from the receiver's point of view.",
+      "hint": "If I give you my book for a week, I ___ it to you."
+    },
+    {
+      "id": "q6",
+      "prompt": "Select the sentence where 'without a word' is used correctly.",
+      "options": [
+        "She walked back inside without a word.",
+        "She walked back inside without words.",
+        "She walked back inside without any word.",
+        "She walked back inside with no any word."
+      ],
+      "answerIndex": 0,
+      "explanation": "'Without a word' is the fixed expression meaning 'saying nothing'. It uses the singular 'a word'.",
+      "hint": "Which option is the fixed phrase for 'saying nothing at all'?"
+    },
+    {
+      "id": "q7",
+      "prompt": "Which sentence describes a building with many flats in it?",
+      "options": [
+        "a block of flats",
+        "a row of houses",
+        "a row of flats",
+        "a block of houses"
+      ],
+      "answerIndex": 0,
+      "explanation": "'A block of flats' is the standard British English term for a building that contains many individual apartments.",
+      "hint": "Which phrase means a large building with many apartments?"
+    },
+    {
+      "id": "q8",
+      "prompt": "Pick the sentence that correctly says the narrator forgot to take the dictionary.",
+      "options": [
+        "I left the dictionary behind by mistake.",
+        "I left behind the dictionary by mistake.",
+        "I leave the dictionary behind by mistake.",
+        "I left the dictionary behind on purpose."
+      ],
+      "answerIndex": 0,
+      "explanation": "'Left the dictionary behind' means forgot to take it. 'By mistake' shows it was accidental, not deliberate.",
+      "hint": "Which sentence uses past simple and 'by mistake' to show it was accidental?"
+    },
+    {
+      "id": "q9",
+      "prompt": "Choose the sentence that uses 'knocked on' correctly.",
+      "options": [
+        "I knocked on her door because I needed a pencil.",
+        "I knocked her door because I needed a pencil.",
+        "I knock on her door because I need a pencil.",
+        "I was knocked on her door because I needed a pencil."
+      ],
+      "answerIndex": 0,
+      "explanation": "'Knock on the door' is the correct collocation. Past simple 'knocked' fits the finished past event.",
+      "hint": "The verb is 'knock on', not 'knock'. Which tense fits?"
+    },
+    {
+      "id": "q10",
+      "prompt": "Which sentence best describes the neighbor's final impression on the narrator?",
+      "options": [
+        "I still think about that book sometimes.",
+        "I always think about that book every day.",
+        "I never thought about that book again.",
+        "I sometimes am thinking about that book."
+      ],
+      "answerIndex": 0,
+      "explanation": "'I still think about that book sometimes' uses present simple + 'still' and 'sometimes', showing an ongoing occasional memory.",
+      "hint": "Which option uses present simple and 'still' to show a lasting memory?"
+    },
+    {
+      "id": "q11",
+      "prompt": "Which phrase means a person who has stopped working because of their age?",
+      "options": [
+        "curious",
+        "ordinary",
+        "retired",
+        "patient"
+      ],
+      "answerIndex": 2,
+      "explanation": "'Retired' describes someone who has stopped working, usually at an older age.",
+      "hint": "Which word describes someone who no longer works because they are old enough to stop?"
     }
   ],
-  "criticalThinkingQuestion": "Was there a person in your past you misunderstood at first? What changed your mind?"
+  "criticalThinkingQuestion": "Have you ever misjudged someone when you first met them, only to discover they were very different from what you expected? What changed your mind?"
 }

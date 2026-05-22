@@ -11,6 +11,21 @@ function scoreColor(v: number): string {
   return "bg-rose-500/15 text-rose-700 dark:text-rose-300";
 }
 
+/**
+ * Strip surrounding punctuation/whitespace and lowercase so corrections
+ * that only differ in trailing/leading punctuation compare equal. Some
+ * models (e.g. Qwen3-32B) occasionally return "corrections" where the
+ * `original` and `fixed` strings are effectively identical — we drop
+ * those before rendering.
+ */
+function normalizeForCompare(s: string): string {
+  return s
+    .normalize("NFC")
+    .replace(/^[\s\p{P}]+|[\s\p{P}]+$/gu, "")
+    .replace(/\s+/g, " ")
+    .toLowerCase();
+}
+
 interface Props {
   result: WritingLLMResult;
   variant?: "full" | "inline";
@@ -34,6 +49,10 @@ export function WritingResultPanel({ result, variant = "full" }: Props) {
     ["Vocabulary", s.vocabulary],
     ["Coherence", s.coherence],
   ];
+
+  const corrections = result.corrections.filter(
+    (c) => normalizeForCompare(c.original) !== normalizeForCompare(c.fixed),
+  );
 
   const isInline = variant === "inline";
 
@@ -62,13 +81,13 @@ export function WritingResultPanel({ result, variant = "full" }: Props) {
         ))}
       </div>
 
-      {result.corrections.length > 0 && (
+      {corrections.length > 0 && (
         <div>
           <p className="mb-1.5 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
             Corrections
           </p>
           <ul className="space-y-1.5">
-            {result.corrections.map((c, i) => (
+            {corrections.map((c, i) => (
               <li key={i} className={cn("text-sm", isInline ? "pl-0" : "rounded border p-2")}>
                 {isInline ? (
                   <span>

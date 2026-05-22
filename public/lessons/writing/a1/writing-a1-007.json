@@ -1,0 +1,190 @@
+{
+  "id": "writing-a1-007",
+  "level": "A1",
+  "title": "My favorite room in my house",
+  "summary": "Describe one room you love and what is inside it.",
+  "tags": ["Home", "Places"],
+  "topic": "My favorite room in my house",
+  "prompt": "Write 6–8 short sentences about your favorite room. Use 'there is / there are' and prepositions of place (in, on, next to, near).",
+  "minWords": 150,
+  "maxWords": 250,
+  "hintStarters": [
+    "My favorite room is…",
+    "There is a … in the corner.",
+    "Next to the window, there are…",
+    "I like this room because…"
+  ],
+  "hintVocab": [
+    { "phrase": "living room", "meaningVi": "phòng khách" },
+    { "phrase": "bedroom", "meaningVi": "phòng ngủ" },
+    { "phrase": "kitchen", "meaningVi": "nhà bếp" },
+    { "phrase": "corner", "meaningVi": "góc" },
+    { "phrase": "shelf", "meaningVi": "kệ", "pronunciation": "/ʃelf/" },
+    { "phrase": "curtain", "meaningVi": "rèm cửa" },
+    { "phrase": "rug", "meaningVi": "tấm thảm" },
+    { "phrase": "next to", "meaningVi": "kế bên" },
+    { "phrase": "in the middle", "meaningVi": "ở giữa" },
+    { "phrase": "above", "meaningVi": "phía trên" },
+    { "phrase": "comfortable", "meaningVi": "thoải mái", "pronunciation": "/ˈkʌmftəbl/" }
+  ],
+  "sampleText": "My favorite room is the small living room in my flat in Berlin. It is not big, but it is bright. There is one large window next to the sofa. The curtains are light yellow, and they move when the wind comes in. In the corner near the door, there is a tall green plant from my mother. Above the sofa, there are three small photos of my friends. In the middle of the room, there is a wooden table with two cups and a book. On the floor, there is a soft red rug. I sit on the rug when I read at night. My old radio is on the shelf, and it plays jazz on Sunday morning. The room is quiet because my neighbor is also quiet. I like this room because it is comfortable and warm in winter. I drink tea here, I write letters here, and I sometimes sleep on the sofa. This small room feels like home to me.",
+  "sampleAnnotations": [
+    { "phrase": "small living room", "meaningVi": "phòng khách nhỏ" },
+    { "phrase": "large window", "meaningVi": "cửa sổ lớn" },
+    { "phrase": "next to the sofa", "meaningVi": "kế bên ghế sofa" },
+    { "phrase": "tall green plant", "meaningVi": "cây xanh cao" },
+    { "phrase": "Above the sofa", "meaningVi": "Phía trên ghế sofa" },
+    { "phrase": "In the middle of the room", "meaningVi": "Ở giữa phòng" },
+    { "phrase": "wooden table", "meaningVi": "bàn gỗ" },
+    { "phrase": "soft red rug", "meaningVi": "tấm thảm đỏ mềm" },
+    { "phrase": "on the shelf", "meaningVi": "trên kệ" },
+    { "phrase": "comfortable and warm", "meaningVi": "thoải mái và ấm áp" },
+    { "phrase": "feels like home", "meaningVi": "có cảm giác như nhà" }
+  ],
+  "sampleGrammarNotes": [
+    {
+      "title": "There is / there are",
+      "bodyVi": "Dùng 'There is' cho danh từ số ít, 'There are' cho số nhiều khi mô tả đồ vật trong phòng.",
+      "bodyEn": "Use 'There is' for singular and 'There are' for plural, like 'there is a tall green plant' and 'there are three small photos'."
+    },
+    {
+      "title": "Prepositions of place",
+      "bodyVi": "'in', 'on', 'next to', 'above', 'in the middle of' chỉ vị trí đồ vật.",
+      "bodyEn": "Use 'in', 'on', 'next to', 'above', 'in the middle of' to show where things are."
+    }
+  ],
+  "sampleTranslationVi": "Căn phòng yêu thích của tôi là phòng khách nhỏ trong căn hộ ở Berlin. Phòng không lớn, nhưng sáng. Có một cửa sổ lớn ngay cạnh ghế sofa. Rèm cửa màu vàng nhạt và bay nhẹ khi có gió. Ở góc gần cửa, có một cây xanh cao do mẹ tôi tặng. Phía trên ghế sofa là ba bức ảnh nhỏ của bạn bè tôi. Ở giữa phòng có một chiếc bàn gỗ với hai cái cốc và một cuốn sách. Trên sàn có một tấm thảm đỏ mềm. Tôi ngồi trên thảm khi đọc sách vào buổi tối. Chiếc đài cũ của tôi đặt trên kệ, và nó phát nhạc jazz vào sáng Chủ nhật. Phòng rất yên tĩnh vì hàng xóm của tôi cũng yên tĩnh. Tôi thích căn phòng này vì nó thoải mái và ấm áp vào mùa đông. Tôi uống trà ở đây, viết thư ở đây, và đôi khi ngủ trên sofa. Căn phòng nhỏ này khiến tôi cảm giác như đang ở nhà.",
+  "mcQuestions": [
+    {
+      "id": "q1",
+      "prompt": "Which sentence is grammatically correct?",
+      "options": [
+        "There is three small photos.",
+        "There are three small photos.",
+        "There are a tall plant.",
+        "There is photos."
+      ],
+      "answerIndex": 1,
+      "explanation": "'photos' is plural, so 'there are' is correct.",
+      "hint": "Look at the noun: singular or plural?"
+    },
+    {
+      "id": "q2",
+      "prompt": "Which preposition fits: 'The book is ___ the table.'",
+      "options": [
+        "in",
+        "on",
+        "between",
+        "under the on"
+      ],
+      "answerIndex": 1,
+      "explanation": "We use 'on' for a surface like a table.",
+      "hint": "Think about touching a flat surface."
+    },
+    {
+      "id": "q3",
+      "prompt": "Which sentence best fits the topic?",
+      "options": [
+        "The bus comes every ten minutes.",
+        "In the corner, there is a tall plant.",
+        "I write code at the office.",
+        "The chef cooks fish on the grill."
+      ],
+      "answerIndex": 1,
+      "explanation": "It describes an item in a room.",
+      "hint": "Choose the sentence about a room."
+    },
+    {
+      "id": "q4",
+      "prompt": "Which sentence uses prepositions correctly?",
+      "options": [
+        "Next to the sofa is at window.",
+        "There is a window next to the sofa.",
+        "The window is between of the sofa.",
+        "On the sofa next."
+      ],
+      "answerIndex": 1,
+      "explanation": "'next to' is a clear preposition of place.",
+      "hint": "Find the natural 'next to' phrase."
+    },
+    {
+      "id": "q5",
+      "prompt": "Which sentence sounds most natural?",
+      "options": [
+        "The room is comfortable.",
+        "The room comfort.",
+        "Room is comfortable a lot.",
+        "Comfortable a room very."
+      ],
+      "answerIndex": 0,
+      "explanation": "Subject + verb + adjective is the natural pattern.",
+      "hint": "Look for a normal subject-verb-adjective order."
+    },
+    {
+      "id": "q6",
+      "prompt": "Which sentence is grammatically correct?",
+      "options": [
+        "I like this room because it is warm.",
+        "I like this room because.",
+        "Because warm room I like.",
+        "I like because this room warm is."
+      ],
+      "answerIndex": 0,
+      "explanation": "'because' joins a main clause and a reason.",
+      "hint": "Reason clause must be a full clause."
+    },
+    {
+      "id": "q7",
+      "prompt": "Which word means 'phía trên'?",
+      "options": [
+        "below",
+        "above",
+        "behind",
+        "beside"
+      ],
+      "answerIndex": 1,
+      "explanation": "'above' means 'phía trên'.",
+      "hint": "Think about direction up."
+    },
+    {
+      "id": "q8",
+      "prompt": "Which sentence uses 'and' / 'but' correctly?",
+      "options": [
+        "The room is small, but it is bright.",
+        "Small the room, bright is but.",
+        "But the room is small and bright not.",
+        "And but small bright."
+      ],
+      "answerIndex": 0,
+      "explanation": "'but' shows contrast between two clauses.",
+      "hint": "Look for contrast linker."
+    },
+    {
+      "id": "q9",
+      "prompt": "Which sentence has correct verb form?",
+      "options": [
+        "The radio play jazz.",
+        "The radio plays jazz.",
+        "The radio playing jazz.",
+        "The radio is play jazz."
+      ],
+      "answerIndex": 1,
+      "explanation": "Third person singular: 'plays'.",
+      "hint": "Check the subject."
+    },
+    {
+      "id": "q10",
+      "prompt": "Which sentence fits 'description of a room' best?",
+      "options": [
+        "The curtains are light yellow.",
+        "The taxi is fast.",
+        "My boss writes emails.",
+        "The plane lands at noon."
+      ],
+      "answerIndex": 0,
+      "explanation": "Curtains belong to a room description.",
+      "hint": "Choose an item you find in a room."
+    }
+  ],
+  "criticalThinkingQuestion": "Why do many people have one favorite room in their home, even if other rooms are bigger or newer?"
+}

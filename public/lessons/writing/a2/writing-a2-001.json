@@ -3,99 +3,200 @@
   "level": "A2",
   "title": "A meal I cooked for someone else",
   "summary": "Tell the story of one meal you cooked for another person.",
-  "tags": ["Story", "Food", "Past simple"],
+  "tags": ["Story", "Food", "Past simple", "Past continuous"],
   "topic": "A meal I cooked for someone else",
-  "prompt": "Write 6–9 sentences telling the story of one time you cooked or prepared food for another person. Use past simple. Include one detail about the kitchen or about what the other person said.",
-  "minWords": 50,
-  "maxWords": 140,
+  "prompt": "Write 8–10 sentences about a meal you cooked for someone else. Say what you made, for whom, and how it went. Use past simple and past continuous.",
+  "minWords": 150,
+  "maxWords": 250,
   "hintStarters": [
-    "Last winter, my friend…",
-    "I wanted to do something nice because…",
-    "While we ate, she told me…",
-    "It was nothing special, but…"
+    "Two years ago, I decided to cook a proper meal for…",
+    "I had never made this dish before, so I…",
+    "While the onions were frying, I realised that…"
   ],
   "hintVocab": [
-    { "phrase": "tired", "meaningVi": "mệt" },
-    { "phrase": "ginger", "meaningVi": "gừng", "pronunciation": "/ˈdʒɪndʒər/" },
-    { "phrase": "soup", "meaningVi": "súp / canh" },
-    { "phrase": "steam", "meaningVi": "hơi nước" },
-    { "phrase": "share a meal", "meaningVi": "chia sẻ bữa ăn" },
-    { "phrase": "smell warm", "meaningVi": "có mùi ấm áp" }
+    { "phrase": "chop", "meaningVi": "thái, băm nhỏ", "pronunciation": "/tʃɒp/" },
+    { "phrase": "stir", "meaningVi": "khuấy", "pronunciation": "/stɜːr/" },
+    { "phrase": "simmer", "meaningVi": "đun nhỏ lửa", "pronunciation": "/ˈsɪmər/" },
+    { "phrase": "season", "meaningVi": "nêm gia vị", "pronunciation": "/ˈsiːzən/" },
+    { "phrase": "set the table", "meaningVi": "dọn bàn ăn" },
+    { "phrase": "burn", "meaningVi": "cháy, bị cháy", "pronunciation": "/bɜːrn/" },
+    { "phrase": "taste", "meaningVi": "nếm thử / mùi vị", "pronunciation": "/teɪst/" },
+    { "phrase": "effort", "meaningVi": "sự cố gắng", "pronunciation": "/ˈefərt/" },
+    { "phrase": "grateful", "meaningVi": "biết ơn", "pronunciation": "/ˈɡreɪtfəl/" },
+    { "phrase": "recipe", "meaningVi": "công thức nấu ăn", "pronunciation": "/ˈresɪpi/" },
+    { "phrase": "leftovers", "meaningVi": "đồ ăn thừa", "pronunciation": "/ˈleftˌoʊvərz/" }
   ],
-  "sampleText": "Last winter, my friend Mei came home from a long trip. She was tired and her flat was cold. I wanted to do something nice for her. I went to the small shop on her street and bought eggs, rice, and a piece of ginger. I cooked a simple soup. It was nothing special, but the kitchen smelled warm and the windows were full of steam. While we ate, she told me about the night train she missed and the strangers who shared their dinner with her. She finished two bowls and smiled.",
+  "sampleText": "Two years ago, I decided to cook a proper birthday dinner for my flatmate, Daniela, in our small apartment in Porto. She was working long hours that week, so I wanted to do something that showed I was thinking of her. I chose a Spanish tomato and chickpea stew because she once told me she loved it as a child. I went to the market on Saturday morning and bought fresh tomatoes, two onions, garlic, and a tin of chickpeas. Back in the kitchen, I chopped the onions and fried them slowly in olive oil. While the onions were frying, I found her old handwritten recipe card inside a cookbook on the shelf. That felt like a lucky sign. I added the tomatoes and let everything simmer for forty minutes. The kitchen filled with a warm, deep smell. When Daniela came home, she stopped at the door and said, 'That smells exactly like my mother's kitchen.' We ate at the small table by the window with a candle between us. She told me it was the best birthday gift she received that year. I did not say anything, but I felt very proud of that simple pot of stew.",
   "sampleAnnotations": [
-    { "phrase": "came home", "meaningVi": "trở về nhà" },
-    { "phrase": "tired", "meaningVi": "mệt" },
-    { "phrase": "smelled warm", "meaningVi": "có mùi ấm áp" },
-    { "phrase": "finished two bowls", "meaningVi": "ăn hết hai bát" },
-    { "phrase": "strangers", "meaningVi": "những người lạ" }
+    { "phrase": "a proper birthday dinner", "meaningVi": "một bữa tối sinh nhật thực sự đàng hoàng" },
+    { "phrase": "showed I was thinking of her", "meaningVi": "cho thấy tôi đang nghĩ đến cô ấy" },
+    { "phrase": "she once told me she loved it", "meaningVi": "cô ấy đã từng nói với tôi rằng cô ấy thích món đó" },
+    { "phrase": "chopped the onions", "meaningVi": "thái hành tây" },
+    { "phrase": "fried them slowly in olive oil", "meaningVi": "xào chúng chậm trong dầu ô liu" },
+    { "phrase": "While the onions were frying", "meaningVi": "Trong khi hành tây đang được xào" },
+    { "phrase": "handwritten recipe card", "meaningVi": "tấm thẻ công thức nấu ăn viết tay" },
+    { "phrase": "let everything simmer", "meaningVi": "để mọi thứ đun nhỏ lửa" },
+    { "phrase": "The kitchen filled with", "meaningVi": "Căn bếp ngập tràn" },
+    { "phrase": "That smells exactly like", "meaningVi": "Mùi đó giống hệt như" },
+    { "phrase": "felt very proud of", "meaningVi": "cảm thấy rất tự hào về" }
   ],
   "sampleGrammarNotes": [
     {
-      "title": "Past simple for a finished event",
-      "bodyVi": "Dùng quá khứ đơn (came, was, went, bought, cooked, told) cho một sự việc đã hoàn thành.",
-      "bodyEn": "Use the past simple (came, was, went, bought, cooked, told) for a finished event."
+      "title": "Past continuous for background action",
+      "bodyVi": "Dùng past continuous ('were frying', 'was working') để mô tả hành động đang diễn ra trong nền, trong khi past simple ('found', 'added') dùng cho các sự kiện cụ thể xảy ra vào lúc đó.",
+      "bodyEn": "Use past continuous ('were frying', 'was working') for an ongoing background action, while past simple ('found', 'added') marks the specific event that happened at that moment."
     },
     {
-      "title": "'While' to connect two actions",
-      "bodyVi": "'While we ate, she told me…' nối hai hành động xảy ra cùng một lúc trong quá khứ.",
-      "bodyEn": "'While we ate, she told me…' connects two actions happening at the same time in the past."
+      "title": "Reported speech with 'told me'",
+      "bodyVi": "'She once told me she loved it' dùng past simple trong mệnh đề phụ vì thời gian đã lùi về quá khứ (backshift).",
+      "bodyEn": "'She once told me she loved it' uses past simple in the reported clause because the tense shifts back (backshift) when reporting someone's past words."
     }
   ],
-  "sampleTranslationVi": "Mùa đông năm ngoái, người bạn của tôi là Mei trở về nhà sau một chuyến đi dài. Cô ấy mệt và căn hộ của cô lạnh. Tôi muốn làm điều gì đó tốt cho cô ấy. Tôi đi đến cửa hàng nhỏ trên con phố của cô và mua trứng, gạo, và một miếng gừng. Tôi nấu một nồi súp đơn giản. Không có gì đặc biệt, nhưng căn bếp có mùi ấm áp và những ô cửa sổ đầy hơi nước. Trong khi chúng tôi ăn, cô ấy kể cho tôi nghe về chuyến tàu đêm cô đã lỡ và những người lạ đã chia sẻ bữa tối với cô. Cô ấy ăn hết hai bát và mỉm cười.",
+  "sampleTranslationVi": "Hai năm trước, tôi quyết định nấu một bữa tối sinh nhật thực sự đàng hoàng cho người bạn cùng phòng, Daniela, trong căn hộ nhỏ của chúng tôi ở Porto. Cô ấy đang làm việc nhiều giờ trong tuần đó, nên tôi muốn làm điều gì đó cho thấy tôi đang nghĩ đến cô ấy. Tôi chọn món hầm cà chua và đậu gà kiểu Tây Ban Nha vì cô ấy đã từng nói với tôi rằng cô ấy thích món đó hồi còn nhỏ. Tôi đi chợ vào sáng thứ Bảy và mua cà chua tươi, hai củ hành tây, tỏi, và một hộp đậu gà. Về đến bếp, tôi thái hành tây và xào chậm trong dầu ô liu. Trong khi hành tây đang được xào, tôi tìm thấy tấm thẻ công thức nấu ăn viết tay cũ của cô ấy bên trong một cuốn sách nấu ăn trên kệ. Điều đó như một dấu hiệu may mắn. Tôi thêm cà chua vào và để mọi thứ đun nhỏ lửa trong bốn mươi phút. Căn bếp ngập tràn một mùi thơm ấm áp, đậm đà. Khi Daniela về nhà, cô ấy dừng lại ở cửa và nói, 'Mùi này giống hệt bếp của mẹ mình.' Chúng tôi ăn ở chiếc bàn nhỏ cạnh cửa sổ với một ngọn nến ở giữa. Cô ấy nói với tôi đó là món quà sinh nhật tốt nhất cô ấy nhận được trong năm đó. Tôi không nói gì, nhưng tôi cảm thấy rất tự hào về nồi hầm đơn giản đó.",
   "mcQuestions": [
     {
       "id": "q1",
-      "prompt": "Which sentence is the most natural opening for a past story?",
+      "prompt": "Choose the most natural opening for a past cooking story.",
       "options": [
-        "Last winter, my friend Mei is coming home.",
-        "Last winter, my friend Mei came home from a long trip.",
-        "Last winter, my friend Mei come home from a long trip.",
-        "Last winter, my friend Mei has come home from a long trip."
+        "Two years ago, I decide to cook a birthday dinner for my flatmate.",
+        "Two years ago, I decided to cook a proper birthday dinner for my flatmate.",
+        "Two years ago, I am deciding to cook a birthday dinner for my flatmate.",
+        "Two years ago, I have decided to cook a birthday dinner for my flatmate."
       ],
       "answerIndex": 1,
-      "explanation": "'Last winter' is a finished time, so past simple ('came') is correct.",
-      "hint": "Which tense matches 'last winter'?"
+      "explanation": "'Two years ago' requires past simple. 'Decided' is correct; 'decide', 'am deciding', and 'have decided' don't fit past finished time.",
+      "hint": "Which tense goes with 'two years ago'?"
     },
     {
       "id": "q2",
-      "prompt": "Choose the sentence that best joins two past actions happening at the same time.",
+      "prompt": "Which sentence correctly uses past continuous for a background action?",
       "options": [
-        "While we ate, she told me about the trip.",
-        "We ate, she told me about the trip while.",
-        "We ate while she will tell me about the trip.",
-        "During we eat, she tell me about the trip."
+        "While the onions fried, I found the recipe card.",
+        "While the onions were frying, I found the recipe card.",
+        "While the onions were frying, I was finding the recipe card.",
+        "While the onions are frying, I found the recipe card."
       ],
-      "answerIndex": 0,
-      "explanation": "'While' + past simple, comma, then main clause in past simple is the standard pattern.",
-      "hint": "Look for 'while' at the start of one clause, with both verbs in the past."
+      "answerIndex": 1,
+      "explanation": "Past continuous sets the ongoing background ('were frying'); past simple marks the specific event ('found').",
+      "hint": "Background = past continuous. Specific event = past simple."
     },
     {
       "id": "q3",
-      "prompt": "Which sentence uses the most natural vocabulary to describe the kitchen?",
+      "prompt": "Pick the correct verb for cooking food slowly over low heat.",
       "options": [
-        "The kitchen smelled warm and the windows were full of steam.",
-        "The kitchen had hot air and the glass was wet.",
-        "The kitchen was warm-smelling and the windows had water.",
-        "The kitchen smell warm and windows full steam."
+        "boil",
+        "fry",
+        "simmer",
+        "bake"
       ],
-      "answerIndex": 0,
-      "explanation": "'Smelled warm' and 'full of steam' are natural collocations; the others are either awkward or ungrammatical.",
-      "hint": "Which option sounds like something a native speaker would write?"
+      "answerIndex": 2,
+      "explanation": "'Simmer' means to cook liquid gently just below the boiling point. The others describe different cooking methods.",
+      "hint": "Which word means 'cook gently at low heat in liquid'?"
     },
     {
       "id": "q4",
-      "prompt": "Pick the sentence that fits best at the end of the story.",
+      "prompt": "Choose the sentence that correctly reports what Daniela said.",
       "options": [
-        "She finished two bowls and smiled.",
-        "She is finishing two bowls and smiles.",
-        "Two bowls she finished, and smiled.",
-        "She has been finishing two bowls and smiles."
+        "She told me it was the best birthday gift she received that year.",
+        "She told me it is the best birthday gift she receives that year.",
+        "She said me it was the best birthday gift she received that year.",
+        "She told to me it was the best birthday gift she received that year."
       ],
       "answerIndex": 0,
-      "explanation": "Past simple for two finished actions matches the rest of the story.",
-      "hint": "Match the tense to the rest of the past-simple story."
+      "explanation": "'Tell someone' (not 'tell to someone' or 'say someone') + reported clause in past simple is the correct pattern.",
+      "hint": "What follows 'told'? What tense goes in the reported clause?"
+    },
+    {
+      "id": "q5",
+      "prompt": "Which phrase describes cutting an onion into small pieces?",
+      "options": [
+        "stirred the onion",
+        "simmered the onion",
+        "chopped the onion",
+        "seasoned the onion"
+      ],
+      "answerIndex": 2,
+      "explanation": "'Chopped' means cut into small pieces with a knife.",
+      "hint": "Which verb means 'to cut into small pieces with a knife'?"
+    },
+    {
+      "id": "q6",
+      "prompt": "Choose the sentence where 'because' is used correctly.",
+      "options": [
+        "I chose the stew because of she loved it as a child.",
+        "I chose the stew because she once told me she loved it as a child.",
+        "I chose the stew because she once told me she loves it as a child.",
+        "I chose the stew because she once tells me she loved it as a child."
+      ],
+      "answerIndex": 1,
+      "explanation": "'Because' is followed by a full clause (subject + verb). 'She once told me' is past simple, correct with the main past-simple verb.",
+      "hint": "'Because' needs subject + verb after it, not 'because of'."
+    },
+    {
+      "id": "q7",
+      "prompt": "Which sentence shows contrast between effort and a simple result?",
+      "options": [
+        "I felt very proud of that simple pot of stew.",
+        "I felt very proud of the complicated sauce.",
+        "The stew was complicated and took many steps.",
+        "Simple food is always worse than elaborate food."
+      ],
+      "answerIndex": 0,
+      "explanation": "The writer is proud of something 'simple', which shows that effort matters more than complexity.",
+      "hint": "Which option shows pride in something ordinary?"
+    },
+    {
+      "id": "q8",
+      "prompt": "Select the phrase that describes food-smell filling a room.",
+      "options": [
+        "The kitchen emptied with a warm smell.",
+        "The kitchen filled with a warm, deep smell.",
+        "The kitchen was filling to a warm smell.",
+        "The kitchen full with a warm smell."
+      ],
+      "answerIndex": 1,
+      "explanation": "'Filled with' is the correct collocation: the room becomes full of something.",
+      "hint": "Which phrase uses the correct verb and preposition?"
+    },
+    {
+      "id": "q9",
+      "prompt": "Which sentence best expresses why the writer cooked the meal?",
+      "options": [
+        "I wanted to do something that showed I was thinking of her.",
+        "I wanted to do something that shows I think of her.",
+        "I wanted to do something that show I was thinking of her.",
+        "I want to do something that showed I was thinking of her."
+      ],
+      "answerIndex": 0,
+      "explanation": "Past simple 'wanted' + past continuous 'was thinking' fits a finished past event.",
+      "hint": "Match all verb tenses to the past context."
+    },
+    {
+      "id": "q10",
+      "prompt": "Pick the sentence that uses 'grateful' correctly.",
+      "options": [
+        "She was grateful that I cooked for her.",
+        "She was grateful for I cooked for her.",
+        "She was grateful to I cooked for her.",
+        "She was grateful because of I cooked for her."
+      ],
+      "answerIndex": 0,
+      "explanation": "'Grateful that + clause' is the natural structure. 'Grateful for' is followed by a noun, not a full clause.",
+      "hint": "'Grateful' + 'that' + subject + verb."
+    },
+    {
+      "id": "q11",
+      "prompt": "Choose the word that means food left over after a meal.",
+      "options": [
+        "recipe",
+        "effort",
+        "leftovers",
+        "portions"
+      ],
+      "answerIndex": 2,
+      "explanation": "'Leftovers' are the food that remains after everyone has eaten.",
+      "hint": "Which word means 'food that remains after the meal'?"
     }
   ],
-  "criticalThinkingQuestion": "When was the last time someone cooked for you, not because they had to, but because they wanted to? What did it feel like?"
+  "criticalThinkingQuestion": "Have you ever cooked for someone to show care rather than just to feed them? How is cooking for others different from cooking for yourself?"
 }

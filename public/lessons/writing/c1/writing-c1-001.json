@@ -2,116 +2,288 @@
   "id": "writing-c1-001",
   "level": "C1",
   "title": "Attention as a moral resource",
-  "summary": "Argue that attention is closer to a moral resource than to a currency, and ask whose attention deserves yours.",
-  "tags": ["Argument", "Philosophy", "Ethics"],
+  "summary": "Argue that attention — what we choose to notice, sustain, and offer to others — is not merely a cognitive capacity but a moral one, with ethical stakes comparable to time or money.",
+  "tags": ["Argument", "Ethics", "Society"],
   "topic": "Attention as a moral resource",
-  "prompt": "Write a 280–360-word argumentative essay reframing 'attention' from currency to moral resource. Take a clear position. Use hedging ('What I want to suggest, tentatively…'), at least one cleft, and a paragraph that distinguishes three features of the thing you are defining. Avoid AI-style filler.",
-  "minWords": 220,
-  "maxWords": 400,
+  "prompt": "Write a 600–800-word essay arguing that attention should be treated as a moral resource — not just a cognitive one. Use two concrete cases and one counter-objection. Use inversion, nominalization, and complex concession.",
+  "minWords": 600,
+  "maxWords": 800,
   "hintStarters": [
-    "There is something faintly humiliating about…",
-    "What I want to suggest, tentatively, is…",
-    "Once attention is seen this way,…",
-    "Some people, some platforms, some causes have done very well from…"
+    "Rarely do we pause to ask what the sustained direction of our gaze costs those who never receive it…",
+    "What the language of productivity obscures is the extent to which attention is not merely about the one who gives it…",
+    "Admittedly, one cannot owe sustained attention to every person who crosses one's path. Yet the systematic…"
   ],
   "hintVocab": [
-    { "phrase": "humiliating", "meaningVi": "đáng xấu hổ", "pronunciation": "/hjuːˈmɪlieɪtɪŋ/" },
-    { "phrase": "metaphor", "meaningVi": "phép ẩn dụ", "pronunciation": "/ˈmetəfɔːr/" },
-    { "phrase": "refundable", "meaningVi": "có thể hoàn trả" },
-    { "phrase": "divisible", "meaningVi": "có thể chia được" },
-    { "phrase": "consequential", "meaningVi": "có hệ quả lớn" },
-    { "phrase": "to hedge", "meaningVi": "nói rào trước" },
-    { "phrase": "self-improvement frame", "meaningVi": "khung tự cải thiện bản thân" },
-    { "phrase": "purchasable", "meaningVi": "có thể mua được" }
+    {"phrase": "moral resource", "meaningVi": "nguồn lực đạo đức, thứ có giá trị cần phân bổ có trách nhiệm"},
+    {"phrase": "sustained attention", "meaningVi": "sự chú ý liên tục, duy trì tập trung lâu dài", "pronunciation": "/səˈsteɪnd əˈtenʃən/"},
+    {"phrase": "scarcity", "meaningVi": "sự khan hiếm, tình trạng thiếu hụt", "pronunciation": "/ˈskeəsɪti/"},
+    {"phrase": "allocation", "meaningVi": "sự phân bổ, phân phối có chủ đích", "pronunciation": "/ˌæləˈkeɪʃən/"},
+    {"phrase": "epistemic injustice", "meaningVi": "bất công nhận thức — khi lời nói của ai đó bị xem nhẹ vô lý"},
+    {"phrase": "recognition", "meaningVi": "sự công nhận, thừa nhận sự tồn tại và giá trị của người khác", "pronunciation": "/ˌrekəɡˈnɪʃən/"},
+    {"phrase": "inattention", "meaningVi": "sự thiếu chú ý, thờ ơ có hại", "pronunciation": "/ˌɪnəˈtenʃən/"},
+    {"phrase": "wilful neglect", "meaningVi": "sự thờ ơ cố ý, từ chối chú ý một cách có chủ tâm"},
+    {"phrase": "commodification", "meaningVi": "sự hàng hoá hoá, biến thứ gì đó thành hàng hoá", "pronunciation": "/kəˌmɒdɪfɪˈkeɪʃən/"},
+    {"phrase": "attentional economy", "meaningVi": "nền kinh tế chú ý, hệ thống cạnh tranh để chiếm lấy sự chú ý"},
+    {"phrase": "structural inattention", "meaningVi": "sự thờ ơ mang tính cơ cấu, được nhúng vào hệ thống"},
+    {"phrase": "moral weight", "meaningVi": "trọng lượng đạo đức, mức độ quan trọng về mặt đạo đức"},
+    {"phrase": "testimonial injustice", "meaningVi": "bất công chứng nhân, khi lời kể bị bác bỏ do định kiến", "pronunciation": "/ˌtestɪˈməʊniəl ɪnˈdʒʌstɪs/"},
+    {"phrase": "diffusion of responsibility", "meaningVi": "sự phân tán trách nhiệm, không ai cảm thấy có trách nhiệm"},
+    {"phrase": "deliberate withdrawal", "meaningVi": "sự rút lui có chủ tâm, từ chối tham gia một cách cố ý"},
+    {"phrase": "ethical obligation", "meaningVi": "nghĩa vụ đạo đức, điều đúng đắn phải làm", "pronunciation": "/ˌeθɪkəl ˌɒblɪˈɡeɪʃən/"},
+    {"phrase": "cognitive load", "meaningVi": "tải nhận thức, lượng thông tin não cần xử lý", "pronunciation": "/ˈkɒɡnɪtɪv ləʊd/"},
+    {"phrase": "invisible labour", "meaningVi": "lao động vô hình, công việc không được nhận ra hay trả công"},
+    {"phrase": "moral complicity", "meaningVi": "sự đồng loã đạo đức, gián tiếp chịu trách nhiệm", "pronunciation": "/ˈmɒrəl kəmˈplɪsɪti/"},
+    {"phrase": "interpersonal texture", "meaningVi": "kết cấu liên cá nhân, chất lượng tổng thể của mối quan hệ"},
+    {"phrase": "attenuated presence", "meaningVi": "sự hiện diện suy yếu, có mặt nhưng không thực sự ở đó"},
+    {"phrase": "fiduciary duty", "meaningVi": "nghĩa vụ uỷ thác, trách nhiệm đặt lợi ích người khác lên trên"}
   ],
-  "sampleText": "There is something faintly humiliating about the language we have inherited for talking about attention. We speak of paying it, spending it, capturing it — as if it were money in a wallet, or, more recently, as if it were a small animal that platforms compete to trap. The metaphor is not idle. It shapes what we feel obliged to do with our minds. If attention is currency, then giving it away is generosity; withholding it begins to feel mean. The problem is that the metaphor is wrong.\n\nWhat I want to suggest, tentatively, is that attention is more usefully understood as a moral resource — closer in nature to time spent with the sick or words spoken in private about a friend than to anything purchasable. Three features distinguish it. It cannot be recovered: an hour given to a stranger's outrage is not refundable from the hour you might have given to a parent. It is not divisible without loss: the half-attention we offer during a phone scroll is not half a gift; in many cases it is worse than no gift at all. And, crucially, it is consequential for the dignity of the one who receives it. To be attended to with care is to be told, without words, that one is real.\n\nOnce attention is seen this way, the ethical question shifts. The right question is not \"how do I focus more?\" — a self-improvement frame that conveniently keeps the agenda inside the individual skull. The better question, harder to ask, is whose attention deserves yours. Some people, some platforms, some causes have done very well from never being asked that question. They will not enjoy it being asked now. That is, perhaps, the clearest sign that it is the right one.",
+  "sampleText": "Rarely do we pause to ask what the sustained direction of our gaze costs those who never receive it. We treat attention as a private cognitive resource — something to be managed, conserved, or surrendered to whichever stimulus is most insistent. Yet this framing, comfortable as it is, conceals a more uncomfortable fact: the withdrawal of attention from another person is not a neutral act. It is a choice, and like all choices made consistently and at scale, it carries moral weight.\n\nConsider what happens in a public hospital ward when a nurse is stretched across too many patients. The scarcity of medical attention is typically understood in clinical terms — delayed observation of a deteriorating vital sign, a missed complaint about pain. But the harm runs deeper. Patients who are rarely looked at, rarely asked a second question, rarely have their eyes met during a consultation, report feeling less than fully real. The philosopher Simone Weil argued that attention is the purest form of generosity — a form that cannot be faked, because the person receiving it always knows when the other is truly present. What the ward illustrates is not merely a logistics failure but a moral one: the systematic allocation of inattention to certain patients — often older, often without articulate advocates — constitutes a kind of invisible harm that aggregate statistics on treatment outcomes cannot capture.\n\nThe second case is less dramatic but, because it is so ordinary, more pervasive. In workplaces across many countries, the contributions of junior or marginalised employees are routinely overlooked — not through active suppression but through structural inattention. Ideas proposed in meetings are heard without being listened to; a suggestion offered quietly is credited, minutes later, to whoever repeats it more loudly. This pattern has a name in the philosophical literature: testimonial injustice. What it describes is the tendency to weight the testimony of some voices less than others, not because the content differs but because of assumptions attached to the speaker. The accumulation of such inattention — meeting by meeting, year by year — constitutes what one might call the slow erosion of a person's confidence in the value of their own perception.\n\nAdmittedly, one cannot owe sustained attention to every person who crosses one's path; the demand would be psychologically impossible and ethically incoherent. Yet this objection, however reasonable in the abstract, becomes less persuasive when directed at systemic patterns rather than individual encounters. The moral claim is not that every moment of distraction is a wrong. It is that deliberate withdrawal — the habitual direction of attention away from certain categories of people — functions as a form of wilful neglect that accumulates real consequences for real individuals.\n\nWhat changes if we accept that attention is a moral resource? Two things, at minimum. First, the commodification of attention — the design of platforms engineered to extract it for profit — becomes not merely a productivity concern but an ethical one. To build systems that colonise the attention of millions, redirecting it away from the people physically present in favour of algorithmic stimulation, is to participate in the impoverishment of the interpersonal texture on which moral life depends. Second, institutions that distribute attention unequally — clinics, classrooms, workplaces — can no longer treat that inequality as an unfortunate side-effect of resource constraints. The allocation of attention is itself a policy, and policies carry accountability.\n\nNone of this requires that we treat every lapse of focus as a moral failure. The argument is narrower: that attention, like time and money, is finite, consequential, and unequally distributed in ways that track existing inequalities of power. To ignore that fact — to insist that what we notice is a purely private matter — is to mistake an ethical question for a technical one. Rarely does such a mistake come without cost, and it is, as always, those with the least power who bear the greater share of it.",
   "sampleAnnotations": [
-    { "phrase": "faintly humiliating", "meaningVi": "hơi đáng xấu hổ" },
-    { "phrase": "the metaphor is not idle", "meaningVi": "phép ẩn dụ đó không vô hại" },
-    { "phrase": "refundable", "meaningVi": "có thể hoàn lại" },
-    { "phrase": "consequential", "meaningVi": "có hệ quả lớn" },
-    { "phrase": "self-improvement frame", "meaningVi": "khung tự cải thiện bản thân" },
-    { "phrase": "the individual skull", "meaningVi": "trong hộp sọ cá nhân" }
+    {"phrase": "Rarely do we pause to ask what the sustained direction of our gaze costs those who never receive it", "meaningVi": "Hiếm khi chúng ta dừng lại để hỏi rằng việc duy trì hướng nhìn của chúng ta tốn kém gì đối với những người không bao giờ nhận được nó"},
+    {"phrase": "the withdrawal of attention from another person is not a neutral act", "meaningVi": "việc rút lại sự chú ý khỏi người khác không phải là một hành động trung lập"},
+    {"phrase": "like all choices made consistently and at scale, it carries moral weight", "meaningVi": "giống như mọi lựa chọn được thực hiện nhất quán và ở quy mô lớn, nó mang trọng lượng đạo đức"},
+    {"phrase": "The scarcity of medical attention is typically understood in clinical terms", "meaningVi": "Sự khan hiếm sự chú ý y tế thường được hiểu theo thuật ngữ lâm sàng"},
+    {"phrase": "feeling less than fully real", "meaningVi": "cảm thấy kém thực hơn, như thể sự tồn tại của mình không được công nhận đầy đủ"},
+    {"phrase": "attention is the purest form of generosity", "meaningVi": "sự chú ý là hình thức寛大 thuần khiết nhất"},
+    {"phrase": "the systematic allocation of inattention", "meaningVi": "sự phân bổ có hệ thống của sự thờ ơ"},
+    {"phrase": "a kind of invisible harm that aggregate statistics on treatment outcomes cannot capture", "meaningVi": "một loại tổn hại vô hình mà số liệu thống kê tổng hợp về kết quả điều trị không thể nắm bắt"},
+    {"phrase": "structural inattention", "meaningVi": "sự thờ ơ mang tính cơ cấu, được nhúng vào hệ thống tổ chức"},
+    {"phrase": "Ideas proposed in meetings are heard without being listened to", "meaningVi": "Những ý tưởng được đề xuất trong các cuộc họp được nghe nhưng không được lắng nghe"},
+    {"phrase": "a suggestion offered quietly is credited, minutes later, to whoever repeats it more loudly", "meaningVi": "một gợi ý được đưa ra một cách lặng lẽ được ghi công, vài phút sau, cho bất kỳ ai lặp lại nó to hơn"},
+    {"phrase": "testimonial injustice", "meaningVi": "bất công chứng nhân, khi lời kể bị xem nhẹ do định kiến về người nói"},
+    {"phrase": "the slow erosion of a person's confidence in the value of their own perception", "meaningVi": "sự xói mòn chậm chạp của niềm tin của một người vào giá trị của nhận thức bản thân"},
+    {"phrase": "Admittedly, one cannot owe sustained attention to every person who crosses one's path", "meaningVi": "Cần thừa nhận rằng, người ta không thể nợ sự chú ý liên tục với mọi người đi qua cuộc sống của mình"},
+    {"phrase": "this objection, however reasonable in the abstract, becomes less persuasive when directed at systemic patterns", "meaningVi": "sự phản đối này, dù hợp lý về mặt trừu tượng, trở nên ít thuyết phục hơn khi hướng đến các mô hình có hệ thống"},
+    {"phrase": "deliberate withdrawal — the habitual direction of attention away from certain categories of people", "meaningVi": "sự rút lui có chủ tâm — thói quen hướng sự chú ý ra khỏi những nhóm người nhất định"},
+    {"phrase": "the commodification of attention", "meaningVi": "sự hàng hoá hoá sự chú ý"},
+    {"phrase": "colonise the attention of millions", "meaningVi": "thuộc địa hoá sự chú ý của hàng triệu người"},
+    {"phrase": "the impoverishment of the interpersonal texture on which moral life depends", "meaningVi": "sự suy nghèo của kết cấu liên cá nhân mà đời sống đạo đức phụ thuộc vào"},
+    {"phrase": "The allocation of attention is itself a policy, and policies carry accountability", "meaningVi": "Việc phân bổ sự chú ý bản thân là một chính sách, và các chính sách mang theo trách nhiệm giải trình"},
+    {"phrase": "attention, like time and money, is finite, consequential, and unequally distributed in ways that track existing inequalities of power", "meaningVi": "sự chú ý, giống như thời gian và tiền bạc, là hữu hạn, có hậu quả, và được phân phối không đều theo cách phản ánh bất bình đẳng quyền lực hiện có"},
+    {"phrase": "Rarely does such a mistake come without cost", "meaningVi": "Hiếm khi sai lầm như vậy không có chi phí"}
   ],
   "sampleGrammarNotes": [
     {
-      "title": "Hedging at C1",
-      "bodyVi": "'What I want to suggest, tentatively, is…' và 'is, perhaps, the clearest sign' dùng các từ như 'tentatively', 'perhaps' để làm dịu nhận định mà không yếu đi.",
-      "bodyEn": "'What I want to suggest, tentatively, is…' and 'is, perhaps, the clearest sign' use 'tentatively' and 'perhaps' to soften the claim without weakening it."
+      "title": "Inversion after a negative adverb",
+      "bodyVi": "Câu 'Rarely do we pause to ask…' đảo ngữ trợ động từ 'do' lên trước chủ ngữ 'we' vì trạng từ phủ định 'Rarely' đứng đầu câu. Câu kết 'Rarely does such a mistake come without cost' lặp lại cấu trúc này. Đây là đặc trưng của văn xuôi học thuật C1 — tạo tính trang trọng và nhấn mạnh.",
+      "bodyEn": "The sentence 'Rarely do we pause to ask…' inverts the auxiliary 'do' before the subject 'we' because the negative adverb 'Rarely' fronts the clause. The closing sentence 'Rarely does such a mistake come without cost' repeats this structure. This inversion is a hallmark of C1 formal prose — adding solemnity and emphasis."
     },
     {
-      "title": "Three-feature definition pattern",
-      "bodyVi": "'Three features distinguish it. It cannot be recovered… It is not divisible without loss… And, crucially, it is consequential…' là cấu trúc chuẩn để định nghĩa một khái niệm trong văn nghị luận.",
-      "bodyEn": "'Three features distinguish it. It cannot be recovered… It is not divisible without loss… And, crucially, it is consequential…' is a standard pattern for defining a concept in argumentative writing."
+      "title": "Nominalization to elevate register",
+      "bodyVi": "Cụm 'the commodification of attention' biến động từ 'commodify' thành danh từ 'commodification', cho phép quá trình này trở thành chủ thể có thể lập luận trực tiếp. Tương tự, 'the withdrawal of attention' (từ 'withdraw') và 'the impoverishment of the interpersonal texture' (từ 'impoverish') đều là các ví dụ về danh hoá — đặc trưng của văn phong học thuật C1.",
+      "bodyEn": "The phrase 'the commodification of attention' converts the verb 'commodify' into the noun 'commodification', turning a process into something that can be argued about directly. Similarly, 'the withdrawal of attention' and 'the impoverishment of the interpersonal texture' are nominalizations — a defining feature of C1 academic style."
     }
   ],
-  "sampleTranslationVi": "Có điều gì đó hơi đáng xấu hổ trong cách ngôn ngữ ta thừa hưởng để nói về sự chú ý. Ta nói trả nó, tiêu nó, bắt giữ nó — như thể nó là tiền trong ví, hoặc, gần đây hơn, như thể nó là một con vật nhỏ mà các nền tảng đua nhau bẫy. Phép ẩn dụ ấy không vô hại. Nó định hình điều ta cảm thấy có nghĩa vụ làm với tâm trí mình. Nếu sự chú ý là tiền, thì cho nó đi là hào phóng; giữ lại bắt đầu thấy có vẻ keo kiệt. Vấn đề là phép ẩn dụ đó sai.\n\nĐiều tôi muốn đề xuất, một cách dè dặt, là sự chú ý nên được hiểu rõ hơn như một nguồn lực đạo đức — gần với thời gian ngồi cạnh người bệnh hay những lời nói riêng tư về một người bạn, hơn là với bất cứ thứ gì có thể mua được. Có ba đặc điểm phân biệt nó. Nó không thể lấy lại: một giờ dành cho cơn giận của người lạ không hoàn trả được từ một giờ ta có thể dành cho cha mẹ. Nó không thể chia mà không mất giá: nửa-chú-ý mà ta đưa ra khi lướt điện thoại không phải là nửa món quà; trong nhiều trường hợp nó còn tệ hơn không có quà nào. Và, quan trọng nhất, nó có hệ quả đối với phẩm giá của người nhận. Được chú ý với sự ân cần là được nói, không bằng lời, rằng mình là thật.\n\nKhi sự chú ý được nhìn theo cách đó, câu hỏi đạo đức chuyển hướng. Câu hỏi đúng không phải là \"làm sao để tập trung hơn?\" — một khung tự cải thiện bản thân tiện lợi giữ toàn bộ vấn đề bên trong cái hộp sọ cá nhân. Câu hỏi tốt hơn, khó hỏi hơn, là: sự chú ý của bạn xứng đáng với ai? Một số người, một số nền tảng, một số mục tiêu đã sống rất khoẻ vì chưa bao giờ bị hỏi câu ấy. Họ sẽ không thích nó được hỏi bây giờ. Đó, có lẽ, là dấu hiệu rõ nhất rằng nó là câu hỏi đúng.",
+  "sampleTranslationVi": "Hiếm khi chúng ta dừng lại để hỏi rằng việc duy trì hướng nhìn của chúng ta tốn kém gì đối với những người không bao giờ nhận được nó. Chúng ta coi sự chú ý là một nguồn lực nhận thức riêng tư — thứ cần được quản lý, bảo tồn, hoặc nhượng lại cho bất kỳ kích thích nào cấp bách nhất. Thế nhưng cách đóng khung này, dù thoải mái, che giấu một sự thật khó chịu hơn: việc rút lại sự chú ý khỏi người khác không phải là một hành động trung lập. Đó là một lựa chọn, và giống như mọi lựa chọn được thực hiện nhất quán và ở quy mô lớn, nó mang trọng lượng đạo đức.\n\nHãy xem xét điều gì xảy ra trong một phòng bệnh viện công khi một y tá phải chăm sóc quá nhiều bệnh nhân. Sự khan hiếm sự chú ý y tế thường được hiểu theo thuật ngữ lâm sàng — chậm trễ quan sát dấu hiệu sinh tồn xấu đi, bỏ sót lời phàn nàn về đau đớn. Nhưng tổn hại còn sâu hơn. Các bệnh nhân ít được nhìn vào mắt, ít được hỏi câu hỏi thứ hai, báo cáo cảm thấy kém thực hơn. Nhà triết học Simone Weil lập luận rằng sự chú ý là hình thức寛大 thuần khiết nhất — một hình thức không thể giả mạo. Điều mà phòng bệnh viện minh hoạ không chỉ là thất bại về hậu cần mà là đạo đức: sự phân bổ có hệ thống của sự thờ ơ đối với một số bệnh nhân tạo nên một loại tổn hại vô hình mà số liệu thống kê tổng hợp không thể nắm bắt.\n\nTrường hợp thứ hai ít kịch tính hơn nhưng, vì rất thông thường, lại phổ biến hơn. Trong các nơi làm việc trên nhiều quốc gia, đóng góp của nhân viên cấp thấp thường xuyên bị bỏ qua — không phải qua việc đàn áp tích cực mà qua sự thờ ơ mang tính cơ cấu. Những ý tưởng được đề xuất trong các cuộc họp được nghe nhưng không được lắng nghe; một gợi ý được đưa ra một cách lặng lẽ được ghi công, vài phút sau, cho bất kỳ ai lặp lại nó to hơn. Mô hình này có một tên trong tài liệu triết học: bất công chứng nhân. Sự tích lũy của sự thờ ơ như vậy tạo thành sự xói mòn chậm chạp của niềm tin của một người vào giá trị của nhận thức bản thân.\n\nCần thừa nhận rằng, người ta không thể nợ sự chú ý liên tục với mọi người đi qua cuộc sống của mình. Thế nhưng sự phản đối này, dù hợp lý về mặt trừu tượng, trở nên ít thuyết phục hơn khi hướng đến các mô hình có hệ thống chứ không phải các cuộc gặp gỡ cá nhân. Yêu cầu đạo đức không phải là mọi khoảnh khắc mất tập trung đều là sai lầm. Đó là sự rút lui có chủ tâm — thói quen hướng sự chú ý ra khỏi những nhóm người nhất định — hoạt động như một hình thức thờ ơ cố ý tích lũy hậu quả thực sự.\n\nĐiều gì thay đổi nếu chúng ta chấp nhận rằng sự chú ý là nguồn lực đạo đức? Hai điều, tối thiểu. Thứ nhất, sự hàng hoá hoá sự chú ý — thiết kế các nền tảng để chiết xuất nó vì lợi nhuận — trở thành không chỉ là mối lo ngại về năng suất mà là đạo đức. Thứ hai, các tổ chức phân phối sự chú ý không đều không còn có thể coi bất bình đẳng đó là tác dụng phụ đáng tiếc. Việc phân bổ sự chú ý bản thân là một chính sách, và các chính sách mang theo trách nhiệm giải trình.\n\nKhông có gì ở đây đòi hỏi chúng ta coi mọi sự thiếu tập trung là thất bại đạo đức. Lập luận hẹp hơn: rằng sự chú ý, giống như thời gian và tiền bạc, là hữu hạn, có hậu quả, và được phân phối không đều theo cách phản ánh bất bình đẳng quyền lực hiện có. Hiếm khi sai lầm như vậy không có chi phí, và như thường lệ, những người có ít quyền lực nhất phải gánh chịu phần lớn hơn.",
   "mcQuestions": [
     {
       "id": "q1",
-      "prompt": "Which sentence hedges most appropriately at C1 level without sounding weak?",
+      "prompt": "Which sentence demonstrates correct inversion after a negative adverb?",
       "options": [
-        "I am not sure but maybe possibly attention could be a resource of some kind.",
-        "What I want to suggest, tentatively, is that attention is more usefully understood as a moral resource.",
-        "Attention is, definitely, one hundred percent a moral resource and nothing else.",
-        "Attention may or may not be a kind of resource or not."
+        "Rarely we pause to ask what the sustained direction of our gaze costs others.",
+        "Rarely do we pause to ask what the sustained direction of our gaze costs those who never receive it.",
+        "Rarely did we pause to ask what the sustained direction of our gaze had cost others.",
+        "Rarely have we to pause to ask what our gaze costs."
       ],
       "answerIndex": 1,
-      "explanation": "'tentatively' inside the cleft signals careful claim-making without retreating from the position.",
-      "hint": "C1 hedging adds one careful adverb, not a pile of qualifiers."
+      "explanation": "'Rarely' at the clause-front triggers subject-auxiliary inversion: 'do we' not 'we do'.",
+      "hint": "Negative adverb at the front — flip subject and auxiliary."
     },
     {
       "id": "q2",
-      "prompt": "Which option uses a cleft sentence to focus attention on the key idea?",
+      "prompt": "According to the essay, why is the withdrawal of attention 'not a neutral act'?",
       "options": [
-        "It is whose attention deserves yours that is the better question, harder to ask.",
-        "Whose attention deserves yours, it is the better question.",
-        "The better question, the harder to ask, whose attention deserves yours.",
-        "Better question that whose deserves yours your attention."
+        "Because it reduces cognitive efficiency in the person withdrawing attention.",
+        "Because it constitutes a choice with moral consequences for the person not attended to.",
+        "Because it is always deliberate and therefore always blameworthy.",
+        "Because attention is a finite neurological resource that depletes permanently."
       ],
-      "answerIndex": 0,
-      "explanation": "'It is X that…' is a classic cleft for focusing on X (the key question).",
-      "hint": "A cleft pushes the key noun phrase to the front using 'It is … that …'."
+      "answerIndex": 1,
+      "explanation": "The essay argues that consistent withdrawal of attention is a choice that, made at scale, carries moral weight — not merely a private cognitive management decision.",
+      "hint": "The essay distinguishes 'neutral' from 'consequential'."
     },
     {
       "id": "q3",
-      "prompt": "Choose the sentence that draws a sharp distinction between two framings, in C1 register.",
+      "prompt": "What does 'the systematic allocation of inattention' mean in the hospital example?",
       "options": [
-        "The right question is not 'how do I focus more?' — a self-improvement frame that conveniently keeps the agenda inside the individual skull. The better question, harder to ask, is whose attention deserves yours.",
-        "Focus more is not the right question. Whose attention is also a question.",
-        "Right question I focus more no, who attention deserves your is better.",
-        "Focusing improvement self is best for attention questions today."
+        "A clinical scheduling system that assigns nurses to patients randomly.",
+        "A pattern in which certain patients — often older, often without advocates — routinely receive less attentive care.",
+        "The deliberate decision by hospital management to ignore patient complaints.",
+        "A statistical model for measuring nursing efficiency."
       ],
-      "answerIndex": 0,
-      "explanation": "A juxtaposes the wrong question and the right question with parallel structure and an em-dashed gloss.",
-      "hint": "Look for a sentence that uses parallel structure and an em-dashed clarification."
+      "answerIndex": 1,
+      "explanation": "The essay describes how inattention is not random but tracks social characteristics — age, articulateness, advocacy — making it systemic rather than incidental.",
+      "hint": "Look at which patients receive less attention and why."
     },
     {
       "id": "q4",
-      "prompt": "Which sentence uses parallel three-part listing most effectively?",
+      "prompt": "What does Simone Weil's argument add to the hospital case?",
       "options": [
-        "Some people, some platforms, some causes have done very well from never being asked that question.",
-        "Some people and platforms and also causes did well never asked that.",
-        "People some, platforms some, causes some — well doing without question asking.",
-        "Many people platforms causes asking never that question well."
+        "She proves that nurses in her era were morally superior to modern ones.",
+        "She establishes that genuine attention cannot be faked, because its absence is always felt by the recipient.",
+        "She argues that medical training should include philosophy.",
+        "She claims that attention is a supernatural gift rather than a skill."
       ],
-      "answerIndex": 0,
-      "explanation": "'Some X, some Y, some Z' is the parallel listing pattern; it gives the sentence rhetorical weight.",
-      "hint": "Look for three noun phrases starting with the same word."
+      "answerIndex": 1,
+      "explanation": "Weil's claim is that attention is the 'purest form of generosity' that 'cannot be faked' — the receiver always knows whether the other is truly present, which is why its withdrawal causes real harm.",
+      "hint": "The key phrase is 'cannot be faked'."
     },
     {
       "id": "q5",
-      "prompt": "Which closing sentence avoids AI-style filler and lands the argument?",
+      "prompt": "What is 'testimonial injustice' as described in the essay?",
       "options": [
-        "In conclusion, attention is one of the most important resources of modern life.",
-        "Throughout history, humans have always struggled with where to look.",
-        "That is, perhaps, the clearest sign that it is the right one.",
-        "It is important to note that focusing well is a personal skill."
+        "Lying under oath in a court of law.",
+        "The tendency to weight some people's contributions less than others based on assumptions about the speaker rather than the content.",
+        "A legal concept about witness credibility.",
+        "The practice of crediting ideas to the wrong person deliberately."
+      ],
+      "answerIndex": 1,
+      "explanation": "The essay defines it as the pattern of hearing a suggestion without registering it — and crediting it to whoever repeats it more loudly — driven by assumptions about the speaker's status.",
+      "hint": "'Testimonial' relates to giving testimony; 'injustice' suggests unfair weighting."
+    },
+    {
+      "id": "q6",
+      "prompt": "Which phrase is a nominalization in the essay?",
+      "options": [
+        "moral weight",
+        "the commodification of attention",
+        "fully real",
+        "truly present"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Commodification' converts the verb 'commodify' into a noun, allowing it to serve as the subject of an argument — a typical C1 nominalization.",
+      "hint": "Look for a '-tion' form derived from a verb."
+    },
+    {
+      "id": "q7",
+      "prompt": "The essay concedes that 'one cannot owe sustained attention to every person who crosses one's path.' What does it say this concession does NOT undermine?",
+      "options": [
+        "The idea that lapsing in focus is always a moral failure.",
+        "The moral claim against systemic, habitual patterns of directing attention away from certain groups.",
+        "The argument that hospital staffing ratios should be reduced.",
+        "The view that all platforms designed to capture attention are ethically neutral."
+      ],
+      "answerIndex": 1,
+      "explanation": "The essay carefully limits its concession to individual encounters, while insisting that systemic patterns of inattention retain their moral character.",
+      "hint": "The essay distinguishes 'individual lapse' from 'systemic pattern'."
+    },
+    {
+      "id": "q8",
+      "prompt": "What is the essay's first implication of treating attention as a moral resource?",
+      "options": [
+        "Smartphones should be banned from workplaces.",
+        "The design of platforms engineered to capture attention becomes not just a productivity concern but an ethical one.",
+        "Employers must pay workers for the attention they give colleagues.",
+        "Hospitals should install attention-monitoring cameras."
+      ],
+      "answerIndex": 1,
+      "explanation": "The essay argues that if attention is moral, 'colonising' millions of people's attention for profit participates in impoverishing the interpersonal texture of moral life.",
+      "hint": "Think about what 'commodification' means in this context."
+    },
+    {
+      "id": "q9",
+      "prompt": "What does 'colonise the attention of millions' mean in context?",
+      "options": [
+        "To educate large populations through media campaigns.",
+        "To design platforms that extract and redirect people's attention toward algorithmic content at the expense of real human interaction.",
+        "To spread cultural influence through television and film.",
+        "To monitor employees' attention spans using surveillance software."
+      ],
+      "answerIndex": 1,
+      "explanation": "The essay uses 'colonise' to convey that platform design is predatory — it occupies attentional territory that would otherwise go to the people physically present.",
+      "hint": "Colonise implies domination and extraction — applied here to attention rather than land."
+    },
+    {
+      "id": "q10",
+      "prompt": "What does 'the impoverishment of the interpersonal texture' refer to?",
+      "options": [
+        "The decline in the quality of physical environments where people meet.",
+        "The degradation of the relational quality of human interaction when attention is systematically redirected.",
+        "The economic poverty that results from distracted workers.",
+        "A literary metaphor for poor-quality dialogue in fiction."
+      ],
+      "answerIndex": 1,
+      "explanation": "'Interpersonal texture' refers to the felt quality of relationships; 'impoverishment' means it is made thinner and less sustaining when attention is captured by devices.",
+      "hint": "'Texture' here is metaphorical — the richness of how people relate."
+    },
+    {
+      "id": "q11",
+      "prompt": "The essay says 'The allocation of attention is itself a policy.' What follows from this?",
+      "options": [
+        "Individuals are entirely responsible for how institutions distribute attention.",
+        "Institutions that distribute attention unequally must be held accountable, since it is a deliberate choice, not an inevitable side-effect.",
+        "Governments should legislate how much attention employers give employees.",
+        "Policy-makers should replace nurses with robots to standardise attention."
+      ],
+      "answerIndex": 1,
+      "explanation": "If allocation is a policy, institutions cannot hide behind 'resource constraints' — the choice of how attention is distributed carries accountability.",
+      "hint": "'Policy' implies deliberate choice, which implies accountability."
+    },
+    {
+      "id": "q12",
+      "prompt": "Why does the essay say the counter-objection 'becomes less persuasive when directed at systemic patterns'?",
+      "options": [
+        "Because individual encounters happen too rarely to matter.",
+        "Because the objection applies to one-off lapses of focus, not to habitual, large-scale patterns of inattention that track power.",
+        "Because philosophers have already disproved the objection formally.",
+        "Because systemic patterns are more visible and therefore easier to judge."
+      ],
+      "answerIndex": 1,
+      "explanation": "The essay's concession is that no one can attend to everyone always — but this does not excuse organised, habitual inattention directed at certain groups.",
+      "hint": "The essay distinguishes 'every lapse' from 'deliberate withdrawal'."
+    },
+    {
+      "id": "q13",
+      "prompt": "Which sentence best illustrates a complex concession?",
+      "options": [
+        "Attention is a moral resource because it can be given and withheld.",
+        "Although attention matters, nobody has time to give it to everyone.",
+        "Admittedly, one cannot owe sustained attention to every person who crosses one's path; the demand would be psychologically impossible and ethically incoherent. Yet this objection, however reasonable in the abstract, becomes less persuasive when directed at systemic patterns rather than individual encounters.",
+        "Attention is finite, so it cannot be a moral resource."
       ],
       "answerIndex": 2,
-      "explanation": "C completes the rhetorical setup of the paragraph — a hedged, controlled landing. The others are banned filler.",
-      "hint": "Avoid 'in conclusion', 'throughout history', 'it is important to note'."
+      "explanation": "Option C uses 'Admittedly…' to grant the objection fully, then 'Yet…' plus a subordinate concessive ('however reasonable in the abstract') to restrict its scope — the hallmark of complex C1 concession.",
+      "hint": "Look for the full grant followed by a narrowing counter-move."
+    },
+    {
+      "id": "q14",
+      "prompt": "What does 'attentional economy' mean?",
+      "options": [
+        "A system in which people are paid wages for their concentration.",
+        "The competitive ecosystem in which companies and stimuli vie for limited human attention as a scarce commodity.",
+        "A branch of economics studying productivity and focus.",
+        "A theory that attention should be distributed equally in democratic societies."
+      ],
+      "answerIndex": 1,
+      "explanation": "'Attentional economy' describes the environment where platforms and media compete to capture human attention — treating it as the scarce resource underlying all digital business models.",
+      "hint": "Think of 'economy' as the system governing scarce resources."
+    },
+    {
+      "id": "q15",
+      "prompt": "What does the phrase 'in ways that track existing inequalities of power' imply?",
+      "options": [
+        "Attention is distributed according to each person's natural intelligence.",
+        "Inattention falls most heavily on those who already have least power — mirroring and reinforcing existing social hierarchies.",
+        "Powerful people are too distracted to give attention to anyone.",
+        "Inequality of attention is inevitable in any social system."
+      ],
+      "answerIndex": 1,
+      "explanation": "The essay argues that inattention is not random — it follows the contours of existing power structures, which means it compounds rather than counteracts inequality.",
+      "hint": "'Track' here means 'mirror' or 'follow the pattern of'."
+    },
+    {
+      "id": "q16",
+      "prompt": "The closing sentence repeats the structure 'Rarely does…'. What is its rhetorical effect?",
+      "options": [
+        "It introduces a new argument that contradicts the opening.",
+        "It creates a circular structure — echoing the opening inversion to give the essay a formal sense of closure and finality.",
+        "It signals that the essay is unfinished and invites the reader to continue.",
+        "It weakens the argument by admitting mistakes are rare."
+      ],
+      "answerIndex": 1,
+      "explanation": "Repeating the 'Rarely does…' inversion from the opening sentence creates a rhetorical frame — the essay ends where it began, giving a sense of deliberate, formal closure.",
+      "hint": "Think about what repeating a distinctive structure at the end signals to the reader."
     }
   ],
-  "criticalThinkingQuestion": "Name one person or platform that has had a great deal of your attention this week without earning it. What would change in your life if you stopped giving it?"
+  "criticalThinkingQuestion": "Think of a time when someone's full attention — or its conspicuous absence — changed how you felt about an interaction. Would you describe that experience in moral terms, or purely in emotional ones? What is the difference?"
 }

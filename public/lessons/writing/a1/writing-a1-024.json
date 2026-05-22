@@ -1,0 +1,190 @@
+{
+  "id": "writing-a1-024",
+  "level": "A1",
+  "title": "A pet or an animal I see often",
+  "summary": "Describe a pet or an animal you see often and what you do together.",
+  "tags": ["Animals", "Daily Life", "Description"],
+  "topic": "A pet or an animal I see often",
+  "prompt": "Write 6–8 short sentences about a pet or an animal you see often. Describe the animal and what you do together. Use present simple.",
+  "minWords": 150,
+  "maxWords": 250,
+  "hintStarters": [
+    "There is a cat / dog / parrot that…",
+    "I see this animal every day when…",
+    "The animal is…",
+    "We usually…"
+  ],
+  "hintVocab": [
+    { "phrase": "tabby cat", "meaningVi": "mèo kẻ sọc", "pronunciation": "/ˈtæbi kæt/" },
+    { "phrase": "courtyard", "meaningVi": "sân trong", "pronunciation": "/ˈkɔːrtjɑːrd/" },
+    { "phrase": "fur", "meaningVi": "lông (thú)" },
+    { "phrase": "scratch", "meaningVi": "cào, gãi" },
+    { "phrase": "feed", "meaningVi": "cho ăn" },
+    { "phrase": "follow", "meaningVi": "đi theo" },
+    { "phrase": "stray", "meaningVi": "lang thang (không có nhà)" },
+    { "phrase": "neighbours", "meaningVi": "hàng xóm" },
+    { "phrase": "friendly", "meaningVi": "thân thiện" },
+    { "phrase": "whiskers", "meaningVi": "râu (mèo)", "pronunciation": "/ˈwɪskərz/" },
+    { "phrase": "purr", "meaningVi": "tiếng gừ gừ của mèo", "pronunciation": "/pɜːr/" }
+  ],
+  "sampleText": "There is a tabby cat in the courtyard of my building in Lisbon. His name is Ruivo, which means 'ginger' in Portuguese. He has orange and white fur and long whiskers. I see him every morning when I go outside. He always runs to me and rubs his head on my leg. I give him a small piece of bread or sometimes a bit of fish. He eats quickly and then he sits next to me. I stroke his fur and he makes a soft purring sound. Ruivo is friendly with everyone in the building. The old lady upstairs also feeds him every evening. He is not my cat, but he feels like a neighbour. He sleeps under the stairs when it is cold. I always feel calm when I sit with him in the sunny courtyard. He is a small animal, but he makes the mornings better.",
+  "sampleAnnotations": [
+    { "phrase": "tabby cat", "meaningVi": "mèo kẻ sọc" },
+    { "phrase": "courtyard", "meaningVi": "sân trong" },
+    { "phrase": "orange and white fur", "meaningVi": "bộ lông cam và trắng" },
+    { "phrase": "long whiskers", "meaningVi": "bộ râu dài" },
+    { "phrase": "runs to me", "meaningVi": "chạy đến chỗ tôi" },
+    { "phrase": "rubs his head on my leg", "meaningVi": "dụi đầu vào chân tôi" },
+    { "phrase": "stroke his fur", "meaningVi": "vuốt lông của anh ta" },
+    { "phrase": "soft purring sound", "meaningVi": "tiếng gừ gừ nhẹ nhàng" },
+    { "phrase": "feels like a neighbour", "meaningVi": "cảm giác như hàng xóm" },
+    { "phrase": "sleeps under the stairs", "meaningVi": "ngủ dưới cầu thang" },
+    { "phrase": "sunny courtyard", "meaningVi": "sân trong đầy nắng" }
+  ],
+  "sampleGrammarNotes": [
+    {
+      "title": "Present simple for descriptions and habits",
+      "bodyVi": "Dùng thì hiện tại đơn để mô tả đặc điểm và thói quen: 'He has orange fur', 'I see him every morning', 'He always runs to me'.",
+      "bodyEn": "Use the present simple to describe characteristics and habits, as in 'He has orange fur' and 'I see him every morning'."
+    },
+    {
+      "title": "Adverbs of frequency",
+      "bodyVi": "'always' đặt trước động từ chính: 'He always runs to me', 'I always feel calm'. Khi động từ là 'be', đặt adverb sau: 'He is not my cat'.",
+      "bodyEn": "'always' goes before the main verb: 'He always runs to me'. With the verb 'be', place the adverb after it: 'He is always friendly'."
+    }
+  ],
+  "sampleTranslationVi": "Có một con mèo kẻ sọc trong sân trong của tòa nhà tôi ở Lisbon. Tên nó là Ruivo, có nghĩa là 'gừng' trong tiếng Bồ Đào Nha. Nó có bộ lông cam và trắng và bộ râu dài. Tôi thấy nó mỗi sáng khi ra ngoài. Nó luôn chạy đến và dụi đầu vào chân tôi. Tôi cho nó một miếng bánh mì nhỏ hoặc đôi khi một ít cá. Nó ăn nhanh rồi ngồi cạnh tôi. Tôi vuốt lông và nó phát ra tiếng gừ gừ nhẹ nhàng. Ruivo thân thiện với tất cả mọi người trong tòa nhà. Bà cụ tầng trên cũng cho nó ăn mỗi buổi tối. Nó không phải mèo của tôi, nhưng cảm giác như hàng xóm. Nó ngủ dưới cầu thang khi trời lạnh. Tôi luôn cảm thấy bình yên khi ngồi với nó trong sân đầy nắng. Nó là một con vật nhỏ, nhưng khiến buổi sáng trở nên tốt hơn.",
+  "mcQuestions": [
+    {
+      "id": "q1",
+      "prompt": "Which sentence correctly describes an animal's appearance?",
+      "options": [
+        "He having orange and white fur.",
+        "He has orange and white fur.",
+        "He have orange and white fur.",
+        "He is have orange and white fur."
+      ],
+      "answerIndex": 1,
+      "explanation": "'Has' is the correct third-person singular form of 'have' in the present simple.",
+      "hint": "Use 'has' with he/she/it."
+    },
+    {
+      "id": "q2",
+      "prompt": "Which adverb fits: 'He ___ runs to me when I go outside.'",
+      "options": [
+        "never",
+        "rarely",
+        "always",
+        "sometimes never"
+      ],
+      "answerIndex": 2,
+      "explanation": "The context shows a regular, expected habit — 'always' is the best fit.",
+      "hint": "Choose the adverb that shows this happens every time."
+    },
+    {
+      "id": "q3",
+      "prompt": "Which sentence uses present simple correctly?",
+      "options": [
+        "The cat is sleeping every morning under the stairs.",
+        "The cat sleeps under the stairs when it is cold.",
+        "The cat sleeping under the stairs.",
+        "The cat slept under the stairs every day."
+      ],
+      "answerIndex": 1,
+      "explanation": "Present simple 'sleeps' is correct for a regular habit.",
+      "hint": "Look for the simple form without -ing or -ed."
+    },
+    {
+      "id": "q4",
+      "prompt": "What does 'purr' mean?",
+      "options": [
+        "A dog's bark",
+        "A bird's song",
+        "A cat's soft rumbling sound",
+        "A cat's loud cry"
+      ],
+      "answerIndex": 2,
+      "explanation": "'Purr' is the quiet, vibrating sound a cat makes when it is happy.",
+      "hint": "Think of the sound a happy cat makes."
+    },
+    {
+      "id": "q5",
+      "prompt": "Which sentence describes what someone does with an animal?",
+      "options": [
+        "I stroke his fur and he purrs.",
+        "I stroke his fur and he is purring always.",
+        "I stroking his fur and he purr.",
+        "I stroked his fur every morning yesterday."
+      ],
+      "answerIndex": 0,
+      "explanation": "Both verbs are in the present simple, which is correct for a regular activity.",
+      "hint": "Both verbs should be in the present simple."
+    },
+    {
+      "id": "q6",
+      "prompt": "Which preposition fits: 'He sleeps ___ the stairs.'",
+      "options": [
+        "on",
+        "over",
+        "under",
+        "behind of"
+      ],
+      "answerIndex": 2,
+      "explanation": "'Under' means below a surface; it fits a cat sheltering beneath stairs.",
+      "hint": "Think about a lower position, below something."
+    },
+    {
+      "id": "q7",
+      "prompt": "Which sentence uses 'every' correctly?",
+      "options": [
+        "I see him every of the mornings.",
+        "I see him every morning.",
+        "I see him every mornings.",
+        "I see him each every morning."
+      ],
+      "answerIndex": 1,
+      "explanation": "'Every' is followed by a singular noun: 'every morning'.",
+      "hint": "Use a singular noun after 'every'."
+    },
+    {
+      "id": "q8",
+      "prompt": "Which sentence gives a simple description of an animal's character?",
+      "options": [
+        "He is friendly with everyone.",
+        "He being very friendly.",
+        "He is friendly everyone.",
+        "He friendly is with everyone."
+      ],
+      "answerIndex": 0,
+      "explanation": "'He is friendly with everyone' uses the verb 'be' and the correct preposition 'with'.",
+      "hint": "Use 'is' and check the preposition."
+    },
+    {
+      "id": "q9",
+      "prompt": "Which linker fits best: 'He is not my cat, ___ he feels like a neighbour.'",
+      "options": [
+        "so",
+        "because",
+        "but",
+        "and"
+      ],
+      "answerIndex": 2,
+      "explanation": "'But' shows a contrast between the two ideas.",
+      "hint": "Choose the linker that shows an unexpected difference."
+    },
+    {
+      "id": "q10",
+      "prompt": "Which sentence fits the topic 'an animal I see often' best?",
+      "options": [
+        "I once saw a lion at the zoo.",
+        "I see a tabby cat in the courtyard every morning.",
+        "Animals are interesting to study.",
+        "My favourite animal is an elephant."
+      ],
+      "answerIndex": 1,
+      "explanation": "It uses 'see', a frequency phrase, and a specific location — fitting the topic exactly.",
+      "hint": "Look for a regular action with a specific animal and place."
+    }
+  ],
+  "criticalThinkingQuestion": "How can animals like stray cats or street dogs become part of a neighbourhood community?"
+}
