@@ -1,0 +1,189 @@
+{
+  "id": "writing-a1-050",
+  "level": "A1",
+  "title": "The tailor near the station",
+  "summary": "Describe a tailor who works in a small shop near the train station.",
+  "tags": ["Work", "Crafts", "People"],
+  "topic": "The tailor near the station",
+  "prompt": "Write 6–8 short sentences about a tailor in your city. Describe the shop, what she does, and how she helps people. Use present simple.",
+  "minWords": 150,
+  "maxWords": 250,
+  "hintStarters": [
+    "Near the train station, there is a small tailor shop where…",
+    "The tailor is a woman who…",
+    "I take my clothes to her when…"
+  ],
+  "hintVocab": [
+    { "phrase": "tailor", "meaningVi": "thợ may", "pronunciation": "/ˈteɪlər/" },
+    { "phrase": "sewing machine", "meaningVi": "máy may" },
+    { "phrase": "thread", "meaningVi": "chỉ", "pronunciation": "/θred/" },
+    { "phrase": "needle", "meaningVi": "kim" },
+    { "phrase": "shorten trousers", "meaningVi": "cắt ngắn quần" },
+    { "phrase": "old shirt", "meaningVi": "áo cũ" },
+    { "phrase": "small price", "meaningVi": "giá nhỏ" },
+    { "phrase": "wooden chair", "meaningVi": "ghế gỗ" },
+    { "phrase": "long table", "meaningVi": "bàn dài" },
+    { "phrase": "ready in two days", "meaningVi": "xong trong hai ngày" },
+    { "phrase": "polite smile", "meaningVi": "nụ cười lịch sự" }
+  ],
+  "sampleText": "Near the train station in Naples, there is a small tailor shop. The shop has only one room. The tailor is a woman called Signora Lucia. She is about fifty years old. She sits at a long table with her sewing machine. Behind her there are many spools of thread in every colour. She can shorten trousers, fix an old shirt, or change the buttons on a jacket. Many people in the neighborhood come to her. I take my clothes to her when something is too long or too tight. She measures me with a soft tape, and she makes a small mark with chalk. The work is usually ready in two days. The small price is fair, because the work is good. She gives me a polite smile when I pay. I like her shop because it is quiet and full of fabric. People like Signora Lucia keep our old clothes alive.",
+  "sampleAnnotations": [
+    { "phrase": "small tailor shop", "meaningVi": "tiệm may nhỏ" },
+    { "phrase": "long table", "meaningVi": "bàn dài" },
+    { "phrase": "sewing machine", "meaningVi": "máy may" },
+    { "phrase": "spools of thread", "meaningVi": "những cuộn chỉ" },
+    { "phrase": "shorten trousers", "meaningVi": "cắt ngắn quần" },
+    { "phrase": "fix an old shirt", "meaningVi": "sửa áo cũ" },
+    { "phrase": "change the buttons", "meaningVi": "thay nút áo" },
+    { "phrase": "soft tape", "meaningVi": "thước dây mềm" },
+    { "phrase": "small mark with chalk", "meaningVi": "dấu nhỏ bằng phấn" },
+    { "phrase": "ready in two days", "meaningVi": "xong trong hai ngày" },
+    { "phrase": "polite smile", "meaningVi": "nụ cười lịch sự" }
+  ],
+  "sampleGrammarNotes": [
+    {
+      "title": "'or' to give options",
+      "bodyVi": "Dùng 'or' khi liệt kê nhiều lựa chọn cùng một dạng: 'She can shorten trousers, fix an old shirt, or change the buttons on a jacket'.",
+      "bodyEn": "Use 'or' to list options of the same kind: 'She can shorten trousers, fix an old shirt, or change the buttons on a jacket'."
+    },
+    {
+      "title": "'too' before adjectives",
+      "bodyVi": "'too' trước tính từ nghĩa là 'quá', 'nhiều hơn cần thiết': 'too long', 'too tight'. Đừng nhầm với 'very' (rất).",
+      "bodyEn": "'too' before an adjective means 'more than needed': 'too long', 'too tight'. Don't mix it up with 'very' (very strong, but not negative)."
+    }
+  ],
+  "sampleTranslationVi": "Gần ga tàu ở Naples, có một tiệm may nhỏ. Tiệm chỉ có một phòng. Người thợ may là một phụ nữ tên Signora Lucia. Bà khoảng năm mươi tuổi. Bà ngồi tại một cái bàn dài cùng máy may. Phía sau bà có nhiều cuộn chỉ đủ mọi màu sắc. Bà có thể cắt ngắn quần, sửa một chiếc áo cũ, hoặc thay nút áo khoác. Nhiều người trong khu phố đến với bà. Tôi mang quần áo đến bà khi có gì đó quá dài hoặc quá chật. Bà đo cho tôi bằng một cái thước dây mềm, và bà đánh một dấu nhỏ bằng phấn. Việc thường xong trong hai ngày. Giá nhỏ là hợp lý, vì công việc tốt. Bà mỉm cười lịch sự khi tôi trả tiền. Tôi thích tiệm của bà vì nó yên tĩnh và đầy vải. Những người như Signora Lucia giữ cho quần áo cũ của chúng ta sống lại.",
+  "mcQuestions": [
+    {
+      "id": "q1",
+      "prompt": "Where is the tailor shop?",
+      "options": [
+        "Near a school",
+        "Near the train station",
+        "Near a hospital",
+        "Near a park"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text says 'Near the train station in Naples, there is a small tailor shop'.",
+      "hint": "Look at the first sentence."
+    },
+    {
+      "id": "q2",
+      "prompt": "How many rooms does the shop have?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "answerIndex": 0,
+      "explanation": "The text says 'The shop has only one room'.",
+      "hint": "Find the number of rooms."
+    },
+    {
+      "id": "q3",
+      "prompt": "What is on the long table?",
+      "options": [
+        "A computer",
+        "A sewing machine",
+        "A telephone",
+        "Bread"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text says 'She sits at a long table with her sewing machine'.",
+      "hint": "Find the tool the tailor sits with."
+    },
+    {
+      "id": "q4",
+      "prompt": "Which sentence uses 'or' correctly?",
+      "options": [
+        "She can shorten trousers, fix shirt, change buttons.",
+        "She can shorten trousers, fix an old shirt, or change the buttons.",
+        "She can shorten trousers or fix a old shirt or to change buttons.",
+        "She shortens trousers or she fix an old shirt or she change buttons."
+      ],
+      "answerIndex": 1,
+      "explanation": "Use 'or' before the last item in a list of options.",
+      "hint": "Look for the cleanest list with 'or' before the last item."
+    },
+    {
+      "id": "q5",
+      "prompt": "What does the tailor use to mark the cloth?",
+      "options": [
+        "A pen",
+        "A pencil",
+        "Chalk",
+        "Tape"
+      ],
+      "answerIndex": 2,
+      "explanation": "The text says 'she makes a small mark with chalk'.",
+      "hint": "Find the marking tool."
+    },
+    {
+      "id": "q6",
+      "prompt": "How long does the work usually take?",
+      "options": [
+        "One day",
+        "Two days",
+        "One week",
+        "Two weeks"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text says 'The work is usually ready in two days'.",
+      "hint": "Look for the time the work takes."
+    },
+    {
+      "id": "q7",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "She is fifty years old about.",
+        "She is about fifty years old.",
+        "She has about fifty years.",
+        "She is about fifty years olds."
+      ],
+      "answerIndex": 1,
+      "explanation": "Correct order: 'She is about fifty years old'. 'years' is plural, 'old' has no -s.",
+      "hint": "Use 'is' for age in English, not 'has'."
+    },
+    {
+      "id": "q8",
+      "prompt": "Which word means 'more than needed'?",
+      "options": [
+        "very",
+        "too",
+        "much",
+        "more"
+      ],
+      "answerIndex": 1,
+      "explanation": "'too' before an adjective means 'more than needed': 'too long', 'too tight'.",
+      "hint": "It is a small word that often shows a problem."
+    },
+    {
+      "id": "q9",
+      "prompt": "What is behind the tailor?",
+      "options": [
+        "A long mirror",
+        "Many spools of thread in every colour",
+        "A row of dresses",
+        "A small TV"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text says 'Behind her there are many spools of thread in every colour'.",
+      "hint": "Find what is described as being behind her."
+    },
+    {
+      "id": "q10",
+      "prompt": "Why does the writer like the shop?",
+      "options": [
+        "Because it is large",
+        "Because it is quiet and full of fabric",
+        "Because it is cheap and fast",
+        "Because it sells coffee"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text says 'I like her shop because it is quiet and full of fabric'.",
+      "hint": "Look at the reason given after 'because'."
+    }
+  ],
+  "criticalThinkingQuestion": "Why do many cities have fewer tailors and repair shops today than in the past? What happens to a neighborhood when these skills disappear?"
+}

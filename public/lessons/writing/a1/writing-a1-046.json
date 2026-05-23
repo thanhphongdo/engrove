@@ -1,0 +1,189 @@
+{
+  "id": "writing-a1-046",
+  "level": "A1",
+  "title": "The night bus driver",
+  "summary": "Describe a night bus driver and the people who ride at late hours.",
+  "tags": ["Work", "City", "People"],
+  "topic": "The night bus driver",
+  "prompt": "Write 6–8 short sentences about a night bus driver in your city. Describe his work, the bus, and the people on it. Use present simple.",
+  "minWords": 150,
+  "maxWords": 250,
+  "hintStarters": [
+    "The night bus in my city starts at…",
+    "The driver is a man who…",
+    "Most of the passengers are tired because…"
+  ],
+  "hintVocab": [
+    { "phrase": "bus driver", "meaningVi": "tài xế xe buýt" },
+    { "phrase": "night shift", "meaningVi": "ca đêm" },
+    { "phrase": "empty seats", "meaningVi": "ghế trống" },
+    { "phrase": "uniform", "meaningVi": "đồng phục", "pronunciation": "/ˈjuːnɪfɔːrm/" },
+    { "phrase": "ticket", "meaningVi": "vé" },
+    { "phrase": "stop", "meaningVi": "trạm dừng" },
+    { "phrase": "passenger", "meaningVi": "hành khách", "pronunciation": "/ˈpæsɪndʒər/" },
+    { "phrase": "quiet street", "meaningVi": "con phố yên tĩnh" },
+    { "phrase": "say good night", "meaningVi": "chúc ngủ ngon" },
+    { "phrase": "tired worker", "meaningVi": "người lao động mệt mỏi" },
+    { "phrase": "yellow lights", "meaningVi": "ánh đèn vàng" }
+  ],
+  "sampleText": "The night bus in Istanbul starts at eleven o'clock and runs until five in the morning. The driver is a man called Hakan. He wears a blue uniform and he sits very straight in his seat. He works the night shift four nights a week. The bus is old and yellow. It has many empty seats at this hour. The streets are quiet, and the yellow lights from the shops shine on the wet road. Most of the passengers are tired workers who go home from late jobs. Some people sleep against the window. Hakan stops at every stop, even when there is no passenger. He always says good night when people get off. I take this bus when I work late at the office. I pay with a card, and I sit near the front. I like the night bus because it is calm and the city looks different. Hakan does an important job for the people who work at strange hours.",
+  "sampleAnnotations": [
+    { "phrase": "night shift", "meaningVi": "ca đêm" },
+    { "phrase": "blue uniform", "meaningVi": "đồng phục màu xanh" },
+    { "phrase": "sits very straight", "meaningVi": "ngồi rất thẳng" },
+    { "phrase": "empty seats", "meaningVi": "những ghế trống" },
+    { "phrase": "yellow lights", "meaningVi": "những ánh đèn vàng" },
+    { "phrase": "wet road", "meaningVi": "con đường ướt" },
+    { "phrase": "tired workers", "meaningVi": "những người lao động mệt mỏi" },
+    { "phrase": "sleep against the window", "meaningVi": "ngủ tựa vào cửa sổ" },
+    { "phrase": "says good night", "meaningVi": "chúc ngủ ngon" },
+    { "phrase": "city looks different", "meaningVi": "thành phố trông khác lạ" },
+    { "phrase": "strange hours", "meaningVi": "giờ giấc lạ" }
+  ],
+  "sampleGrammarNotes": [
+    {
+      "title": "Using 'who' to describe people",
+      "bodyVi": "Dùng 'who' để thêm thông tin về một người: 'tired workers who go home from late jobs'. 'who' thay cho 'they' hoặc 'he/she'.",
+      "bodyEn": "Use 'who' to add information about a person: 'tired workers who go home from late jobs'. 'who' replaces 'they' or 'he/she'."
+    },
+    {
+      "title": "Time phrases at the start",
+      "bodyVi": "Câu thường bắt đầu bằng cụm thời gian như 'at eleven o'clock', 'in the morning', 'at this hour' để cho biết khi nào hành động xảy ra.",
+      "bodyEn": "Sentences often begin with time phrases like 'at eleven o'clock', 'in the morning', 'at this hour' to show when the action happens."
+    }
+  ],
+  "sampleTranslationVi": "Xe buýt đêm ở Istanbul bắt đầu chạy lúc mười một giờ và chạy đến năm giờ sáng. Người tài xế là một người đàn ông tên Hakan. Ông mặc đồng phục màu xanh và ngồi rất thẳng trên ghế. Ông làm ca đêm bốn đêm một tuần. Chiếc xe buýt cũ và màu vàng. Vào giờ này có rất nhiều ghế trống. Các con phố yên tĩnh, và ánh đèn vàng từ các cửa hàng chiếu xuống mặt đường ướt. Phần lớn hành khách là những người lao động mệt mỏi đi về nhà sau ca làm muộn. Vài người ngủ tựa vào cửa sổ. Hakan dừng ở mọi trạm, ngay cả khi không có hành khách nào. Ông luôn chúc ngủ ngon khi mọi người xuống xe. Tôi đi chuyến xe buýt này khi làm việc muộn ở văn phòng. Tôi trả tiền bằng thẻ và ngồi gần phía trước. Tôi thích xe buýt đêm vì nó yên tĩnh và thành phố trông khác lạ. Hakan làm một công việc quan trọng cho những người làm việc vào giờ giấc lạ.",
+  "mcQuestions": [
+    {
+      "id": "q1",
+      "prompt": "What time does the night bus start?",
+      "options": [
+        "At ten o'clock",
+        "At eleven o'clock",
+        "At twelve o'clock",
+        "At nine o'clock"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text says 'The night bus in Istanbul starts at eleven o'clock'.",
+      "hint": "Look for the time the bus begins running."
+    },
+    {
+      "id": "q2",
+      "prompt": "What colour is the driver's uniform?",
+      "options": [
+        "Black",
+        "Blue",
+        "Grey",
+        "Yellow"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text says 'He wears a blue uniform'.",
+      "hint": "Don't confuse the uniform colour with the bus colour."
+    },
+    {
+      "id": "q3",
+      "prompt": "How many nights a week does Hakan work?",
+      "options": [
+        "Three",
+        "Four",
+        "Five",
+        "Six"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text says 'He works the night shift four nights a week'.",
+      "hint": "Find the number that goes with 'nights a week'."
+    },
+    {
+      "id": "q4",
+      "prompt": "Who rides the bus at this hour?",
+      "options": [
+        "Children going to school",
+        "Tourists with cameras",
+        "Tired workers going home from late jobs",
+        "Athletes training for races"
+      ],
+      "answerIndex": 2,
+      "explanation": "The text says 'Most of the passengers are tired workers who go home from late jobs'.",
+      "hint": "Look at the description of the typical passenger."
+    },
+    {
+      "id": "q5",
+      "prompt": "What does Hakan do at every stop?",
+      "options": [
+        "He skips it when no one is there",
+        "He stops, even when there is no passenger",
+        "He waits for ten minutes",
+        "He turns off the engine"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text says 'Hakan stops at every stop, even when there is no passenger'.",
+      "hint": "Look for what he does whether or not someone is waiting."
+    },
+    {
+      "id": "q6",
+      "prompt": "Which sentence uses 'who' correctly?",
+      "options": [
+        "People who works late take this bus.",
+        "People who work late take this bus.",
+        "People which work late take this bus.",
+        "People work late who take this bus."
+      ],
+      "answerIndex": 1,
+      "explanation": "'who' is followed by a verb that agrees with the plural 'people': 'people who work'.",
+      "hint": "Check both the relative pronoun and the verb form."
+    },
+    {
+      "id": "q7",
+      "prompt": "Where does the writer sit on the bus?",
+      "options": [
+        "At the back",
+        "In the middle",
+        "Near the front",
+        "Near the door"
+      ],
+      "answerIndex": 2,
+      "explanation": "The text says 'I sit near the front'.",
+      "hint": "Find the writer's seat position."
+    },
+    {
+      "id": "q8",
+      "prompt": "What does Hakan say to people when they leave?",
+      "options": [
+        "Hello",
+        "Good morning",
+        "Good night",
+        "See you tomorrow"
+      ],
+      "answerIndex": 2,
+      "explanation": "The text says 'He always says good night when people get off'.",
+      "hint": "Look for what he says when passengers get off."
+    },
+    {
+      "id": "q9",
+      "prompt": "Why does the writer like the night bus?",
+      "options": [
+        "Because it is fast",
+        "Because it is calm and the city looks different",
+        "Because it is cheap",
+        "Because it is always full"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text says 'I like the night bus because it is calm and the city looks different'.",
+      "hint": "Find the reason after 'because'."
+    },
+    {
+      "id": "q10",
+      "prompt": "Choose the best present simple sentence about the bus.",
+      "options": [
+        "The bus is run until five in the morning.",
+        "The bus running until five in the morning.",
+        "The bus runs until five in the morning.",
+        "The bus run until five in the morning."
+      ],
+      "answerIndex": 2,
+      "explanation": "Third person singular: 'the bus runs'.",
+      "hint": "Add -s to the verb after a singular subject."
+    }
+  ],
+  "criticalThinkingQuestion": "Why is night work important for a city, and why are people who do it often invisible to the rest of us?"
+}

@@ -1,0 +1,189 @@
+{
+  "id": "writing-a1-055",
+  "level": "A1",
+  "title": "A street cat I see every day",
+  "summary": "Describe a street cat that lives near your home and visits you.",
+  "tags": ["Animal", "Street", "Habit"],
+  "topic": "A street cat I see every day",
+  "prompt": "Write 6–8 short sentences about a street cat near your home. Describe what it looks like, when you see it, and what you do for it. Use present simple.",
+  "minWords": 150,
+  "maxWords": 250,
+  "hintStarters": [
+    "There is a street cat near my building. It is…",
+    "Every morning the cat comes to…",
+    "I give the cat water because…"
+  ],
+  "hintVocab": [
+    { "phrase": "street cat", "meaningVi": "mèo hoang" },
+    { "phrase": "grey fur", "meaningVi": "lông xám" },
+    { "phrase": "green eyes", "meaningVi": "đôi mắt xanh lá" },
+    { "phrase": "thin tail", "meaningVi": "cái đuôi gầy" },
+    { "phrase": "doorstep", "meaningVi": "bậc cửa" },
+    { "phrase": "small plate", "meaningVi": "đĩa nhỏ" },
+    { "phrase": "water bowl", "meaningVi": "bát nước" },
+    { "phrase": "tuna fish", "meaningVi": "cá ngừ" },
+    { "phrase": "afraid of cars", "meaningVi": "sợ xe" },
+    { "phrase": "sleep in the sun", "meaningVi": "ngủ dưới nắng" },
+    { "phrase": "name the cat", "meaningVi": "đặt tên cho mèo" }
+  ],
+  "sampleText": "There is a street cat near my building in Tbilisi. The cat has grey fur with white feet and bright green eyes. Its tail is thin and a little crooked. I call the cat Misha, but I do not know if it has a real owner. Every morning the cat waits on my doorstep. I open the door and Misha looks at me with calm eyes. I put a small plate of food and a water bowl on the step. Misha likes tuna fish and warm milk in winter. The cat is quiet and slow. It is not afraid of people but it is afraid of cars. During the day, Misha sleeps in the sun on a stone wall across the street. In the evening, the cat comes back to my doorstep. I do not let the cat into my flat, but I think we are friends. A street cat needs only a little food and one kind person.",
+  "sampleAnnotations": [
+    { "phrase": "street cat", "meaningVi": "mèo hoang" },
+    { "phrase": "grey fur", "meaningVi": "lông xám" },
+    { "phrase": "bright green eyes", "meaningVi": "đôi mắt xanh sáng" },
+    { "phrase": "thin and a little crooked", "meaningVi": "gầy và hơi cong" },
+    { "phrase": "doorstep", "meaningVi": "bậc cửa" },
+    { "phrase": "small plate of food", "meaningVi": "đĩa thức ăn nhỏ" },
+    { "phrase": "water bowl", "meaningVi": "bát nước" },
+    { "phrase": "tuna fish", "meaningVi": "cá ngừ" },
+    { "phrase": "afraid of cars", "meaningVi": "sợ xe" },
+    { "phrase": "sleeps in the sun", "meaningVi": "ngủ dưới nắng" },
+    { "phrase": "one kind person", "meaningVi": "một người tốt bụng" }
+  ],
+  "sampleGrammarNotes": [
+    {
+      "title": "Using 'it' for animals",
+      "bodyVi": "Khi không biết giới tính của con vật, dùng 'it': 'The cat has grey fur', 'It is not afraid of people'. Đại từ sở hữu là 'its' (không có dấu phẩy trên): 'its tail'.",
+      "bodyEn": "When you don't know an animal's sex, use 'it': 'The cat has grey fur', 'It is not afraid of people'. The possessive is 'its' (no apostrophe): 'its tail'."
+    },
+    {
+      "title": "'but' for contrast",
+      "bodyVi": "'but' nối hai ý trái ngược: 'It is not afraid of people but it is afraid of cars', 'I do not let the cat into my flat, but I think we are friends'.",
+      "bodyEn": "'but' joins two contrasting ideas: 'It is not afraid of people but it is afraid of cars', 'I do not let the cat into my flat, but I think we are friends'."
+    }
+  ],
+  "sampleTranslationVi": "Có một con mèo hoang gần tòa nhà của tôi ở Tbilisi. Con mèo có lông xám với bàn chân trắng và đôi mắt xanh sáng. Đuôi nó gầy và hơi cong. Tôi gọi con mèo là Misha, nhưng tôi không biết nó có chủ thật sự không. Mỗi sáng con mèo chờ trên bậc cửa nhà tôi. Tôi mở cửa và Misha nhìn tôi với đôi mắt bình thản. Tôi đặt một đĩa thức ăn nhỏ và một bát nước trên bậc cửa. Misha thích cá ngừ và sữa ấm vào mùa đông. Con mèo yên tĩnh và chậm rãi. Nó không sợ người nhưng nó sợ xe. Ban ngày, Misha ngủ dưới nắng trên một bức tường đá đối diện. Buổi tối, con mèo trở lại bậc cửa. Tôi không cho con mèo vào căn hộ, nhưng tôi nghĩ chúng tôi là bạn. Một con mèo hoang chỉ cần một ít thức ăn và một người tốt bụng.",
+  "mcQuestions": [
+    {
+      "id": "q1",
+      "prompt": "What colour is the cat's fur?",
+      "options": [
+        "Black",
+        "Grey with white feet",
+        "Brown",
+        "Orange"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text says 'The cat has grey fur with white feet'.",
+      "hint": "Look for the colour and any extra detail."
+    },
+    {
+      "id": "q2",
+      "prompt": "What colour are the cat's eyes?",
+      "options": [
+        "Yellow",
+        "Bright green",
+        "Blue",
+        "Black"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text says 'bright green eyes'.",
+      "hint": "Find the colour of the eyes."
+    },
+    {
+      "id": "q3",
+      "prompt": "What is the cat's name?",
+      "options": [
+        "Mira",
+        "Misha",
+        "Mona",
+        "Luna"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text says 'I call the cat Misha'.",
+      "hint": "Look at the name the writer gives the cat."
+    },
+    {
+      "id": "q4",
+      "prompt": "Which sentence uses 'its' correctly?",
+      "options": [
+        "It's tail is thin and crooked.",
+        "Its tail is thin and crooked.",
+        "Its' tail is thin and crooked.",
+        "Is tail thin and crooked."
+      ],
+      "answerIndex": 1,
+      "explanation": "'its' (no apostrophe) is the possessive form: 'Its tail is thin'.",
+      "hint": "'its' without an apostrophe shows ownership."
+    },
+    {
+      "id": "q5",
+      "prompt": "What does Misha like to eat?",
+      "options": [
+        "Chicken and bread",
+        "Tuna fish and warm milk in winter",
+        "Rice and beans",
+        "Cheese and eggs"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text says 'Misha likes tuna fish and warm milk in winter'.",
+      "hint": "Find the food preferences."
+    },
+    {
+      "id": "q6",
+      "prompt": "What is the cat afraid of?",
+      "options": [
+        "Dogs",
+        "Cars",
+        "Children",
+        "Rain"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text says 'it is afraid of cars'.",
+      "hint": "Look at what the cat fears."
+    },
+    {
+      "id": "q7",
+      "prompt": "Where does Misha sleep during the day?",
+      "options": [
+        "On the writer's bed",
+        "Under a car",
+        "In the sun on a stone wall across the street",
+        "Inside a shop"
+      ],
+      "answerIndex": 2,
+      "explanation": "The text says 'Misha sleeps in the sun on a stone wall across the street'.",
+      "hint": "Find the daytime sleeping place."
+    },
+    {
+      "id": "q8",
+      "prompt": "Which sentence shows contrast correctly?",
+      "options": [
+        "It is not afraid of people and it is afraid of cars.",
+        "It is not afraid of people because it is afraid of cars.",
+        "It is not afraid of people but it is afraid of cars.",
+        "It is not afraid of people so it is afraid of cars."
+      ],
+      "answerIndex": 2,
+      "explanation": "'but' joins two contrasting facts about fear.",
+      "hint": "Look for the contrast linker."
+    },
+    {
+      "id": "q9",
+      "prompt": "Does the writer let Misha into the flat?",
+      "options": [
+        "Yes, every night",
+        "Yes, only in winter",
+        "No, but they are friends",
+        "No, and the cat is angry"
+      ],
+      "answerIndex": 2,
+      "explanation": "The text says 'I do not let the cat into my flat, but I think we are friends'.",
+      "hint": "Look at the sentence with 'into my flat'."
+    },
+    {
+      "id": "q10",
+      "prompt": "What does the writer think a street cat needs?",
+      "options": [
+        "A warm house and many toys",
+        "Only a little food and one kind person",
+        "A vet visit every week",
+        "A long sleep in the cold"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text says 'A street cat needs only a little food and one kind person'.",
+      "hint": "Look at the last sentence."
+    }
+  ],
+  "criticalThinkingQuestion": "What is the difference between owning an animal and looking after one? Can a street animal still have a home with people?"
+}

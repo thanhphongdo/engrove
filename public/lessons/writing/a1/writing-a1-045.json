@@ -1,0 +1,189 @@
+{
+  "id": "writing-a1-045",
+  "level": "A1",
+  "title": "The baker on my street",
+  "summary": "Describe a baker who works on your street and what he does each morning.",
+  "tags": ["People", "Work", "Neighborhood"],
+  "topic": "The baker on my street",
+  "prompt": "Write 6–8 short sentences about a baker who works near your home. Describe what he looks like, when he works, and what he sells. Use present simple.",
+  "minWords": 150,
+  "maxWords": 250,
+  "hintStarters": [
+    "There is a baker on my street. His name is…",
+    "He opens the shop very early because…",
+    "I always buy bread from him when…"
+  ],
+  "hintVocab": [
+    { "phrase": "baker", "meaningVi": "thợ làm bánh", "pronunciation": "/ˈbeɪkər/" },
+    { "phrase": "small bakery", "meaningVi": "tiệm bánh nhỏ" },
+    { "phrase": "fresh bread", "meaningVi": "bánh mì mới ra lò" },
+    { "phrase": "open early", "meaningVi": "mở cửa sớm" },
+    { "phrase": "flour on his hands", "meaningVi": "bột bám trên tay" },
+    { "phrase": "warm smell", "meaningVi": "mùi thơm ấm" },
+    { "phrase": "wooden shelf", "meaningVi": "kệ gỗ" },
+    { "phrase": "customer", "meaningVi": "khách hàng", "pronunciation": "/ˈkʌstəmər/" },
+    { "phrase": "smile at people", "meaningVi": "mỉm cười với mọi người" },
+    { "phrase": "carry a loaf", "meaningVi": "cầm một ổ bánh mì" },
+    { "phrase": "very kind man", "meaningVi": "một người đàn ông rất tử tế" }
+  ],
+  "sampleText": "There is a small bakery on my street in Lisbon. The baker is an old man with white hair and flour on his hands. His name is Senhor Mario. He opens the shop very early, at five o'clock in the morning, because he wants fresh bread for the people on the way to work. The bakery is small and warm. It smells of bread and butter. There is a wooden shelf behind the counter, and he puts the new loaves on it every hour. I usually buy a small loaf and two pastries when I walk to the bus stop. Senhor Mario always smiles at me and asks about my day. He knows my name and the names of many people on the street. Sometimes he gives a piece of bread to a child for free. He is a very kind man. He works six days a week and rests only on Sunday. I think his bread is the best in the neighborhood, and I am happy he is here.",
+  "sampleAnnotations": [
+    { "phrase": "small bakery", "meaningVi": "tiệm bánh nhỏ" },
+    { "phrase": "flour on his hands", "meaningVi": "bột bám trên tay ông ấy" },
+    { "phrase": "opens the shop very early", "meaningVi": "mở cửa rất sớm" },
+    { "phrase": "fresh bread", "meaningVi": "bánh mì mới ra lò" },
+    { "phrase": "wooden shelf", "meaningVi": "kệ gỗ" },
+    { "phrase": "new loaves", "meaningVi": "những ổ bánh mới" },
+    { "phrase": "small loaf", "meaningVi": "ổ bánh nhỏ" },
+    { "phrase": "smiles at me", "meaningVi": "mỉm cười với tôi" },
+    { "phrase": "knows my name", "meaningVi": "biết tên tôi" },
+    { "phrase": "very kind man", "meaningVi": "một người đàn ông rất tử tế" },
+    { "phrase": "best in the neighborhood", "meaningVi": "ngon nhất trong khu phố" }
+  ],
+  "sampleGrammarNotes": [
+    {
+      "title": "Third person singular -s",
+      "bodyVi": "Khi chủ ngữ là 'he', 'she' hoặc 'it' ở thì hiện tại đơn, động từ thêm -s hoặc -es: 'he opens', 'he smiles', 'he knows'.",
+      "bodyEn": "When the subject is 'he', 'she', or 'it' in the present simple, the verb takes -s or -es: 'he opens', 'he smiles', 'he knows'."
+    },
+    {
+      "title": "Using 'because' to give a reason",
+      "bodyVi": "Dùng 'because' để giải thích lý do: 'He opens the shop very early because he wants fresh bread for the people'.",
+      "bodyEn": "Use 'because' to give a reason: 'He opens the shop very early because he wants fresh bread for the people'."
+    }
+  ],
+  "sampleTranslationVi": "Có một tiệm bánh nhỏ trên con phố của tôi ở Lisbon. Người thợ làm bánh là một ông già với mái tóc trắng và bột bám trên tay. Ông tên là Senhor Mario. Ông mở tiệm rất sớm, lúc năm giờ sáng, vì ông muốn có bánh mì tươi cho những người đi làm. Tiệm bánh nhỏ và ấm áp. Nó thơm mùi bánh mì và bơ. Có một cái kệ gỗ phía sau quầy, và mỗi giờ ông đặt những ổ bánh mới lên đó. Tôi thường mua một ổ bánh nhỏ và hai cái bánh ngọt khi đi đến trạm xe buýt. Senhor Mario luôn mỉm cười với tôi và hỏi thăm ngày của tôi. Ông biết tên tôi và tên của nhiều người trên phố. Đôi khi ông cho một đứa trẻ miếng bánh mì miễn phí. Ông là một người đàn ông rất tử tế. Ông làm việc sáu ngày một tuần và chỉ nghỉ Chủ Nhật. Tôi nghĩ bánh của ông ngon nhất trong khu phố, và tôi rất vui vì ông có ở đây.",
+  "mcQuestions": [
+    {
+      "id": "q1",
+      "prompt": "What time does the baker open the shop?",
+      "options": [
+        "At six o'clock",
+        "At seven o'clock",
+        "At five o'clock",
+        "At eight o'clock"
+      ],
+      "answerIndex": 2,
+      "explanation": "The text says 'He opens the shop very early, at five o'clock in the morning'.",
+      "hint": "Look for the exact time mentioned in the morning."
+    },
+    {
+      "id": "q2",
+      "prompt": "Why does the baker open the shop so early?",
+      "options": [
+        "Because he cannot sleep",
+        "Because he wants fresh bread for people on the way to work",
+        "Because the shop is small",
+        "Because his children wake him up"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text gives the reason: 'because he wants fresh bread for the people on the way to work'.",
+      "hint": "Find the clause after 'because'."
+    },
+    {
+      "id": "q3",
+      "prompt": "Which sentence uses the verb correctly?",
+      "options": [
+        "He open the shop very early.",
+        "He opens the shop very early.",
+        "He opening the shop very early.",
+        "He opened the shop today every day."
+      ],
+      "answerIndex": 1,
+      "explanation": "With 'he' in the present simple, the verb takes -s: 'He opens'.",
+      "hint": "Check the verb ending for third person singular."
+    },
+    {
+      "id": "q4",
+      "prompt": "What does the bakery smell like?",
+      "options": [
+        "Coffee and cake",
+        "Bread and butter",
+        "Fruit and sugar",
+        "Cheese and milk"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text says 'It smells of bread and butter'.",
+      "hint": "Look for the two smells mentioned in the same sentence."
+    },
+    {
+      "id": "q5",
+      "prompt": "Where does the baker put the new loaves?",
+      "options": [
+        "On the floor",
+        "In a paper bag",
+        "On a wooden shelf",
+        "On the counter"
+      ],
+      "answerIndex": 2,
+      "explanation": "The text says 'There is a wooden shelf behind the counter, and he puts the new loaves on it'.",
+      "hint": "Find the surface where the bread goes."
+    },
+    {
+      "id": "q6",
+      "prompt": "How many pastries does the writer usually buy?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text says 'I usually buy a small loaf and two pastries'.",
+      "hint": "Find the number near the word 'pastries'."
+    },
+    {
+      "id": "q7",
+      "prompt": "Which sentence is in correct present simple form?",
+      "options": [
+        "Senhor Mario smile at me every morning.",
+        "Senhor Mario smiles at me every morning.",
+        "Senhor Mario smiling at me every morning.",
+        "Senhor Mario is smile at me every morning."
+      ],
+      "answerIndex": 1,
+      "explanation": "Third person singular adds -s: 'smiles'.",
+      "hint": "Match the verb ending with the subject."
+    },
+    {
+      "id": "q8",
+      "prompt": "What does the baker sometimes give to a child for free?",
+      "options": [
+        "A pastry",
+        "A piece of bread",
+        "A cake",
+        "A drink"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text says 'Sometimes he gives a piece of bread to a child for free'.",
+      "hint": "Look for what the baker gives without charging money."
+    },
+    {
+      "id": "q9",
+      "prompt": "How many days a week does the baker work?",
+      "options": [
+        "Five",
+        "Six",
+        "Seven",
+        "Four"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text says 'He works six days a week and rests only on Sunday'.",
+      "hint": "Find the number of working days, not rest days."
+    },
+    {
+      "id": "q10",
+      "prompt": "Which linker correctly joins the two ideas? 'He works six days a week ___ rests only on Sunday.'",
+      "options": [
+        "because",
+        "but",
+        "so",
+        "and"
+      ],
+      "answerIndex": 3,
+      "explanation": "'and' joins two simple actions of equal weight.",
+      "hint": "We want a neutral linker that just adds the second fact."
+    }
+  ],
+  "criticalThinkingQuestion": "Why is it valuable to know the people who work near your home, like a baker or a shopkeeper? How does it change the way you feel about your neighborhood?"
+}
