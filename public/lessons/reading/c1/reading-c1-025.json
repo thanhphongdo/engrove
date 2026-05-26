@@ -5,63 +5,254 @@
   "summary": "A corporate lawyer privately consults an ethicist about a supplier substitution she has tried — twice — to escalate inside her company. The conversation does not deliver advice so much as a careful map of the choice she is going to have to make.",
   "format": "dialogue",
   "body": [
-    { "speaker": "Maria", "text": "Thank you for meeting outside the office." },
-    { "speaker": "Peters", "text": "You wanted to make sure no one could subpoena the venue. Understandable." },
-    { "speaker": "Maria", "text": "I am the senior in-house counsel at a chemicals company. We make a coating compound used in food packaging. I have reason to believe that one of our suppliers in Bavaria has, for at least four years, been substituting a banned plasticiser in shipments that nominally meet the European specification. We do not test every shipment. We test about twelve per cent. The substitution is real. I have run the numbers." },
-    { "speaker": "Peters", "text": "How real?" },
-    { "speaker": "Maria", "text": "Statistically real. About two in every nine batches we receive will have failed if we had tested them. We pass them to clients. The clients put the coating on yoghurt pots, on infant formula, on apple-juice cartons." },
-    { "speaker": "Peters", "text": "Have you raised this internally?" },
-    { "speaker": "Maria", "text": "Twice. The first time, last year, my report was 'noted.' The second time, six weeks ago, I was told that the matter is now being handled by the COO and that I do not need to draft anything further. I have not been disciplined. I have been quietly removed from the working group." },
-    { "speaker": "Peters", "text": "I see." },
-    { "speaker": "Maria", "text": "I am here because I am a lawyer. I know the rules of professional conduct. I know I have duties to my employer, including a duty of confidentiality. I know my employer also has duties — to its clients, to children who eat yoghurt. I cannot, in good conscience, resolve those duties privately. I need somebody who is not paid by my company to think alongside me." },
-    { "speaker": "Peters", "text": "First, let me be careful. I am not your lawyer. I am an ethicist. I can describe distinctions to you. I cannot tell you what to do." },
-    { "speaker": "Maria", "text": "I understand." },
-    { "speaker": "Peters", "text": "Then let me describe the distinctions. The traditional case for whistleblowing rests on a clear public harm. Yours qualifies — by your account. But the traditional case also assumes that internal channels have been exhausted. By your account they have. Where the traditional case becomes more careful is on the question of personal motive. You will be asked, repeatedly, why you, and why now. Have you been passed over for promotion?" },
-    { "speaker": "Maria", "text": "No." },
-    { "speaker": "Peters", "text": "Are you in a dispute with the COO about anything else?" },
-    { "speaker": "Maria", "text": "No." },
-    { "speaker": "Peters", "text": "Are you in a relationship with anyone who would benefit from the company's exposure?" },
-    { "speaker": "Maria", "text": "No." },
-    { "speaker": "Peters", "text": "Then you have, at least, a clean motive bench. That matters less than it should. But it does matter." },
-    { "speaker": "Maria", "text": "What else?" },
-    { "speaker": "Peters", "text": "There is a question I have to ask, knowing you will not like it. Have you given the COO enough time?" },
-    { "speaker": "Maria", "text": "I do not know what 'enough' means here." },
-    { "speaker": "Peters", "text": "Six weeks is short. It is also long enough for a third batch of contaminated packaging to reach a yoghurt pot held by a one-year-old. Both are true. The traditional answer is that you should give your employer 'reasonable opportunity to remedy.' The honest version of that answer is that 'reasonable' is measured in lives. You are the person who has to draw that line. I cannot draw it for you." },
-    { "speaker": "Maria", "text": "What would you draw, hypothetically." },
-    { "speaker": "Peters", "text": "For me, six weeks against a continuous food-contact exposure of small children is at the upper end. I would not wait three months. I would also, very firmly, document a third internal warning and a deadline, in writing, before going external. I would do this because the regulator and any subsequent court will want to see exactly what you tried first." },
-    { "speaker": "Maria", "text": "How does one go external?" },
-    { "speaker": "Peters", "text": "There is a German federal whistleblower-protection law, the Hinweisgeberschutzgesetz, that came into force in 2023. It establishes an external channel at the BAFA. You do not contact a newspaper. You contact the BAFA. The protections you receive depend on the order of those steps." },
-    { "speaker": "Maria", "text": "And my career?" },
-    { "speaker": "Peters", "text": "I cannot promise you a career. Statutory protection is real but partial. People who use it, even successfully, often do not work in the same industry for some years. Some return; many do not. This is not because the law is weak. It is because the industry remembers." },
-    { "speaker": "Maria", "text": "That is the answer I was afraid you would give." },
-    { "speaker": "Peters", "text": "It is the answer I was afraid you would have to hear." }
+    {
+      "speaker": "Maria",
+      "text": "Thank you for meeting outside the office."
+    },
+    {
+      "speaker": "Peters",
+      "text": "You wanted to make sure no one could subpoena the venue. Understandable."
+    },
+    {
+      "speaker": "Maria",
+      "text": "I am the senior in-house counsel at a chemicals company. We make a coating compound used in food packaging. I have reason to believe that one of our suppliers in Bavaria has, for at least four years, been substituting a banned plasticiser in shipments that nominally meet the European specification. We do not test every shipment. We test about twelve per cent. The substitution is real. I have run the numbers."
+    },
+    {
+      "speaker": "Peters",
+      "text": "How real?"
+    },
+    {
+      "speaker": "Maria",
+      "text": "Statistically real. About two in every nine batches we receive will have failed if we had tested them. We pass them to clients. The clients put the coating on yoghurt pots, on infant formula, on apple-juice cartons."
+    },
+    {
+      "speaker": "Peters",
+      "text": "Have you raised this internally?"
+    },
+    {
+      "speaker": "Maria",
+      "text": "Twice. The first time, last year, my report was 'noted.' The second time, six weeks ago, I was told that the matter is now being handled by the COO and that I do not need to draft anything further. I have not been disciplined. I have been quietly removed from the working group."
+    },
+    {
+      "speaker": "Peters",
+      "text": "I see."
+    },
+    {
+      "speaker": "Maria",
+      "text": "I am here because I am a lawyer. I know the rules of professional conduct. I know I have duties to my employer, including a duty of confidentiality. I know my employer also has duties — to its clients, to children who eat yoghurt. I cannot, in good conscience, resolve those duties privately. I need somebody who is not paid by my company to think alongside me."
+    },
+    {
+      "speaker": "Peters",
+      "text": "First, let me be careful. I am not your lawyer. I am an ethicist. I can describe distinctions to you. I cannot tell you what to do."
+    },
+    {
+      "speaker": "Maria",
+      "text": "I understand."
+    },
+    {
+      "speaker": "Peters",
+      "text": "Then let me describe the distinctions. The traditional case for whistleblowing rests on a clear public harm. Yours qualifies — by your account. But the traditional case also assumes that internal channels have been exhausted. By your account they have. Where the traditional case becomes more careful is on the question of personal motive. You will be asked, repeatedly, why you, and why now. Have you been passed over for promotion?"
+    },
+    {
+      "speaker": "Maria",
+      "text": "No."
+    },
+    {
+      "speaker": "Peters",
+      "text": "Are you in a dispute with the COO about anything else?"
+    },
+    {
+      "speaker": "Maria",
+      "text": "No."
+    },
+    {
+      "speaker": "Peters",
+      "text": "Are you in a relationship with anyone who would benefit from the company's exposure?"
+    },
+    {
+      "speaker": "Maria",
+      "text": "No."
+    },
+    {
+      "speaker": "Peters",
+      "text": "Then you have, at least, a clean motive bench. That matters less than it should. But it does matter."
+    },
+    {
+      "speaker": "Maria",
+      "text": "What else?"
+    },
+    {
+      "speaker": "Peters",
+      "text": "There is a question I have to ask, knowing you will not like it. Have you given the COO enough time?"
+    },
+    {
+      "speaker": "Maria",
+      "text": "I do not know what 'enough' means here."
+    },
+    {
+      "speaker": "Peters",
+      "text": "Six weeks is short. It is also long enough for a third batch of contaminated packaging to reach a yoghurt pot held by a one-year-old. Both are true. The traditional answer is that you should give your employer 'reasonable opportunity to remedy.' The honest version of that answer is that 'reasonable' is measured in lives. You are the person who has to draw that line. I cannot draw it for you."
+    },
+    {
+      "speaker": "Maria",
+      "text": "What would you draw, hypothetically."
+    },
+    {
+      "speaker": "Peters",
+      "text": "For me, six weeks against a continuous food-contact exposure of small children is at the upper end. I would not wait three months. I would also, very firmly, document a third internal warning and a deadline, in writing, before going external. I would do this because the regulator and any subsequent court will want to see exactly what you tried first."
+    },
+    {
+      "speaker": "Maria",
+      "text": "How does one go external?"
+    },
+    {
+      "speaker": "Peters",
+      "text": "There is a German federal whistleblower-protection law, the Hinweisgeberschutzgesetz, that came into force in 2023. It establishes an external channel at the BAFA. You do not contact a newspaper. You contact the BAFA. The protections you receive depend on the order of those steps."
+    },
+    {
+      "speaker": "Maria",
+      "text": "And my career?"
+    },
+    {
+      "speaker": "Peters",
+      "text": "I cannot promise you a career. Statutory protection is real but partial. People who use it, even successfully, often do not work in the same industry for some years. Some return; many do not. This is not because the law is weak. It is because the industry remembers."
+    },
+    {
+      "speaker": "Maria",
+      "text": "That is the answer I was afraid you would give."
+    },
+    {
+      "speaker": "Peters",
+      "text": "It is the answer I was afraid you would have to hear."
+    }
   ],
-  "tags": ["Ethics", "Law", "Work"],
+  "tags": [
+    "Ethics",
+    "Law",
+    "Work"
+  ],
   "annotations": [
-    { "phrase": "subpoena", "meaningVi": "trát triệu tập (lệnh pháp lý yêu cầu cung cấp tài liệu hoặc ra làm chứng)", "pronunciation": "/səˈpiː.nə/" },
-    { "phrase": "in-house counsel", "meaningVi": "luật sư nội bộ (làm việc trong chính công ty)" },
-    { "phrase": "plasticiser", "meaningVi": "chất hoá dẻo (thêm vào nhựa để mềm hơn)" },
-    { "phrase": "COO", "meaningVi": "Giám đốc Vận hành (Chief Operating Officer)" },
-    { "phrase": "whistleblowing", "meaningVi": "tố giác sai phạm trong tổ chức (nội bộ ra ngoài)" },
-    { "phrase": "BAFA", "meaningVi": "cơ quan liên bang Đức tiếp nhận tố giác (Bundesamt für Wirtschaft und Ausfuhrkontrolle)" },
-    { "phrase": "statutory protection", "meaningVi": "sự bảo vệ theo luật định (do luật pháp quy định)" },
-    { "phrase": "coating compound", "meaningVi": "hợp chất phủ bề mặt (vật liệu được dùng để tráng lên bề mặt khác)" },
-    { "phrase": "nominally meet", "meaningVi": "đáp ứng trên danh nghĩa (trên giấy tờ thì đạt, nhưng thực chất có thể không)" },
-    { "phrase": "I have run the numbers", "meaningVi": "tôi đã chạy các con số / phân tích số liệu (thành ngữ nghề nghiệp: đã tính toán, kiểm chứng bằng dữ liệu)" },
-    { "phrase": "rules of professional conduct", "meaningVi": "quy tắc đạo đức nghề nghiệp (bộ tiêu chuẩn hành vi ràng buộc các thành viên của một ngành chuyên môn)" },
-    { "phrase": "duty of confidentiality", "meaningVi": "nghĩa vụ bảo mật (nghĩa vụ pháp lý và đạo đức không tiết lộ thông tin của khách hàng hoặc chủ)" },
-    { "phrase": "in good conscience", "meaningVi": "một cách lương tâm / theo lương tâm (cụm trạng ngữ trang trọng: không vi phạm đạo đức cá nhân)" },
-    { "phrase": "think alongside me", "meaningVi": "cùng suy nghĩ với tôi (cụm động từ tinh tế: tham vấn theo kiểu đồng hành, không áp đặt)" },
-    { "phrase": "internal channels have been exhausted", "meaningVi": "các kênh nội bộ đã được tận dụng hết (thành ngữ pháp lý-hành chính: đã dùng hết mọi biện pháp khiếu nại nội bộ)" },
-    { "phrase": "passed over for promotion", "meaningVi": "bị bỏ qua khi xét thăng chức (thành ngữ nghề nghiệp: không được thăng chức dù xứng đáng)" },
-    { "phrase": "clean motive bench", "meaningVi": "hồ sơ động cơ trong sạch (ẩn dụ pháp lý: không có động cơ cá nhân đáng ngờ nào có thể bị đối phương khai thác)" },
-    { "phrase": "reasonable opportunity to remedy", "meaningVi": "cơ hội hợp lý để khắc phục (thuật ngữ pháp luật: thời gian và điều kiện đủ để bên vi phạm tự sửa chữa)" },
-    { "phrase": "draw that line", "meaningVi": "vạch ranh giới đó (thành ngữ: xác định giới hạn đạo đức hoặc pháp lý mà một người sẵn sàng tuân theo)" },
-    { "phrase": "food-contact exposure", "meaningVi": "phơi nhiễm qua tiếp xúc thực phẩm (thuật ngữ kỹ thuật: nguy cơ nhiễm độc do vật liệu chứa đựng tiếp xúc trực tiếp với thực phẩm)" },
-    { "phrase": "at the upper end", "meaningVi": "ở mức cao nhất / ngưỡng trên (cụm trạng ngữ trang trọng: ở phía cực đại của một thang đo hoặc phạm vi)" },
-    { "phrase": "going external", "meaningVi": "đi ra ngoài / tố cáo ra bên ngoài (thành ngữ nghề nghiệp: báo cáo sự việc lên cơ quan hoặc bên thứ ba bên ngoài tổ chức)" },
-    { "phrase": "came into force", "meaningVi": "có hiệu lực (cụm động từ pháp lý trang trọng: luật hoặc quy định bắt đầu được thi hành)" },
-    { "phrase": "the industry remembers", "meaningVi": "ngành nhớ lâu (ẩn dụ cảnh báo: tập thể chuyên ngành có xu hướng tẩy chay những người đã tố giác, ngay cả khi luật bảo vệ họ)" }
+    {
+      "phrase": "subpoena",
+      "meaningVi": "trát triệu tập (lệnh pháp lý yêu cầu cung cấp tài liệu hoặc ra làm chứng)",
+      "pronunciation": "/səˈpiː.nə/"
+    },
+    {
+      "phrase": "in-house counsel",
+      "meaningVi": "luật sư nội bộ (làm việc trong chính công ty)"
+    },
+    {
+      "phrase": "plasticiser",
+      "meaningVi": "chất hoá dẻo (thêm vào nhựa để mềm hơn)"
+    },
+    {
+      "phrase": "COO",
+      "meaningVi": "Giám đốc Vận hành (Chief Operating Officer)"
+    },
+    {
+      "phrase": "whistleblowing",
+      "meaningVi": "tố giác sai phạm trong tổ chức (nội bộ ra ngoài)"
+    },
+    {
+      "phrase": "BAFA",
+      "meaningVi": "cơ quan liên bang Đức tiếp nhận tố giác (Bundesamt für Wirtschaft und Ausfuhrkontrolle)"
+    },
+    {
+      "phrase": "statutory protection",
+      "meaningVi": "sự bảo vệ theo luật định (do luật pháp quy định)"
+    },
+    {
+      "phrase": "coating compound",
+      "meaningVi": "hợp chất phủ bề mặt (vật liệu được dùng để tráng lên bề mặt khác)"
+    },
+    {
+      "phrase": "nominally meet",
+      "meaningVi": "đáp ứng trên danh nghĩa (trên giấy tờ thì đạt, nhưng thực chất có thể không)"
+    },
+    {
+      "phrase": "I have run the numbers",
+      "meaningVi": "tôi đã chạy các con số / phân tích số liệu (thành ngữ nghề nghiệp: đã tính toán, kiểm chứng bằng dữ liệu)"
+    },
+    {
+      "phrase": "rules of professional conduct",
+      "meaningVi": "quy tắc đạo đức nghề nghiệp (bộ tiêu chuẩn hành vi ràng buộc các thành viên của một ngành chuyên môn)"
+    },
+    {
+      "phrase": "duty of confidentiality",
+      "meaningVi": "nghĩa vụ bảo mật (nghĩa vụ pháp lý và đạo đức không tiết lộ thông tin của khách hàng hoặc chủ)"
+    },
+    {
+      "phrase": "in good conscience",
+      "meaningVi": "một cách lương tâm / theo lương tâm (cụm trạng ngữ trang trọng: không vi phạm đạo đức cá nhân)"
+    },
+    {
+      "phrase": "think alongside me",
+      "meaningVi": "cùng suy nghĩ với tôi (cụm động từ tinh tế: tham vấn theo kiểu đồng hành, không áp đặt)"
+    },
+    {
+      "phrase": "internal channels have been exhausted",
+      "meaningVi": "các kênh nội bộ đã được tận dụng hết (thành ngữ pháp lý-hành chính: đã dùng hết mọi biện pháp khiếu nại nội bộ)"
+    },
+    {
+      "phrase": "passed over for promotion",
+      "meaningVi": "bị bỏ qua khi xét thăng chức (thành ngữ nghề nghiệp: không được thăng chức dù xứng đáng)"
+    },
+    {
+      "phrase": "clean motive bench",
+      "meaningVi": "hồ sơ động cơ trong sạch (ẩn dụ pháp lý: không có động cơ cá nhân đáng ngờ nào có thể bị đối phương khai thác)"
+    },
+    {
+      "phrase": "reasonable opportunity to remedy",
+      "meaningVi": "cơ hội hợp lý để khắc phục (thuật ngữ pháp luật: thời gian và điều kiện đủ để bên vi phạm tự sửa chữa)"
+    },
+    {
+      "phrase": "draw that line",
+      "meaningVi": "vạch ranh giới đó (thành ngữ: xác định giới hạn đạo đức hoặc pháp lý mà một người sẵn sàng tuân theo)"
+    },
+    {
+      "phrase": "food-contact exposure",
+      "meaningVi": "phơi nhiễm qua tiếp xúc thực phẩm (thuật ngữ kỹ thuật: nguy cơ nhiễm độc do vật liệu chứa đựng tiếp xúc trực tiếp với thực phẩm)"
+    },
+    {
+      "phrase": "at the upper end",
+      "meaningVi": "ở mức cao nhất / ngưỡng trên (cụm trạng ngữ trang trọng: ở phía cực đại của một thang đo hoặc phạm vi)"
+    },
+    {
+      "phrase": "going external",
+      "meaningVi": "đi ra ngoài / tố cáo ra bên ngoài (thành ngữ nghề nghiệp: báo cáo sự việc lên cơ quan hoặc bên thứ ba bên ngoài tổ chức)"
+    },
+    {
+      "phrase": "came into force",
+      "meaningVi": "có hiệu lực (cụm động từ pháp lý trang trọng: luật hoặc quy định bắt đầu được thi hành)"
+    },
+    {
+      "phrase": "the industry remembers",
+      "meaningVi": "ngành nhớ lâu (ẩn dụ cảnh báo: tập thể chuyên ngành có xu hướng tẩy chay những người đã tố giác, ngay cả khi luật bảo vệ họ)"
+    },
+    {
+      "phrase": "quietly removed from the working group",
+      "meaningVi": "bị lặng lẽ loại khỏi nhóm làm việc"
+    },
+    {
+      "phrase": "Statistically real",
+      "meaningVi": "có thật về mặt thống kê"
+    },
+    {
+      "phrase": "the company's exposure",
+      "meaningVi": "mức độ rủi ro pháp lý của công ty"
+    },
+    {
+      "phrase": "motive bench",
+      "meaningVi": "bàn cân xét động cơ"
+    },
+    {
+      "phrase": "continuous food-contact exposure",
+      "meaningVi": "tiếp xúc liên tục với thực phẩm"
+    },
+    {
+      "phrase": "I cannot draw it for you",
+      "meaningVi": "Tôi không thể vẽ ra cho bạn thấy"
+    }
   ],
   "grammarNotes": [
     {
@@ -271,21 +462,171 @@
   "cloze": {
     "template": "Maria: Thank you for meeting outside the office.\nPeters: You wanted to make sure no one could {{b1}} the venue. Understandable.\nMaria: I am the senior in-house counsel at a chemicals company. We make a coating compound used in food packaging. I have reason to believe that one of our suppliers in Bavaria has, for at least four years, been substituting a banned {{b2}} in shipments that nominally meet the European specification. We do not test every shipment. We test about twelve per cent. The substitution is real. I have run the numbers.\nPeters: How real?\nMaria: Statistically real. About two in every {{b3}} batches we receive will have failed if we had tested them. We pass them to clients. The clients put the coating on yoghurt pots, on infant formula, on apple-juice cartons.\nPeters: Have you raised this internally?\nMaria: Twice. The first time, last year, my report was '{{b4}}.' The second time, six weeks ago, I was told that the matter is now being handled by the COO and that I do not need to draft anything further. I have not been disciplined. I have been quietly removed from the working {{b5}}.\nPeters: I see.\nMaria: I am here because I am a lawyer. I know the rules of professional conduct. I know I have duties to my employer, including a duty of {{b6}}. I know my employer also has duties — to its clients, to children who eat yoghurt. I cannot, in good conscience, resolve those duties privately. I need somebody who is not paid by my company to think alongside me.\nPeters: First, let me be careful. I am not your lawyer. I am an {{b7}}. I can describe distinctions to you. I cannot tell you what to do.\nMaria: I understand.\nPeters: Then let me describe the distinctions. The traditional case for whistleblowing rests on a clear public {{b8}}. Yours qualifies — by your account. But the traditional case also assumes that internal channels have been exhausted. By your account they have. Where the traditional case becomes more careful is on the question of personal {{b9}}. You will be asked, repeatedly, why you, and why now. Have you been passed over for promotion?\nMaria: No.\nPeters: Are you in a dispute with the COO about anything else?\nMaria: No.\nPeters: Are you in a relationship with anyone who would benefit from the company's exposure?\nMaria: No.\nPeters: Then you have, at least, a clean motive bench. That matters less than it should. But it does matter.\nMaria: What else?\nPeters: There is a question I have to ask, knowing you will not like it. Have you given the COO enough {{b10}}?\nMaria: I do not know what 'enough' means here.\nPeters: Six weeks is short. It is also long enough for a third batch of contaminated packaging to reach a yoghurt pot held by a one-year-old. Both are true. The traditional answer is that you should give your employer 'reasonable opportunity to remedy.' The honest version of that answer is that 'reasonable' is measured in {{b11}}. You are the person who has to draw that line. I cannot draw it for you.\nMaria: What would you draw, hypothetically.\nPeters: For me, six weeks against a continuous food-contact exposure of small children is at the upper end. I would not wait three months. I would also, very firmly, document a third internal warning and a {{b12}}, in writing, before going external. I would do this because the regulator and any subsequent court will want to see exactly what you tried first.\nMaria: How does one go external?\nPeters: There is a German federal whistleblower-protection law, the Hinweisgeberschutzgesetz, that came into force in 2023. It establishes an external channel at the {{b13}}. You do not contact a newspaper. You contact the BAFA. The protections you receive depend on the order of those steps.\nMaria: And my career?\nPeters: I cannot promise you a career. Statutory protection is real but {{b14}}. People who use it, even successfully, often do not work in the same industry for some years. Some return; many do not. This is not because the law is weak. It is because the industry {{b15}}.\nMaria: That is the answer I was afraid you would give.\nPeters: It is the answer I was afraid you would have to hear.",
     "blanks": [
-      { "id": "b1", "options": ["subpoena", "celebrate", "sell", "destroy"], "answerIndex": 0, "explanation": "Subpoena the venue." },
-      { "id": "b2", "options": ["plasticiser", "sugar", "salt", "song"], "answerIndex": 0, "explanation": "A banned plasticiser." },
-      { "id": "b3", "options": ["nine", "two", "five", "twenty"], "answerIndex": 0, "explanation": "Two in every nine batches." },
-      { "id": "b4", "options": ["noted", "celebrated", "destroyed", "translated"], "answerIndex": 0, "explanation": "The report was 'noted.'" },
-      { "id": "b5", "options": ["group", "lobby", "country", "shop"], "answerIndex": 0, "explanation": "Removed from the working group." },
-      { "id": "b6", "options": ["confidentiality", "loyalty", "celebrity", "translation"], "answerIndex": 0, "explanation": "Duty of confidentiality." },
-      { "id": "b7", "options": ["ethicist", "lawyer", "judge", "auditor"], "answerIndex": 0, "explanation": "He is an ethicist." },
-      { "id": "b8", "options": ["harm", "song", "shop", "festival"], "answerIndex": 0, "explanation": "A clear public harm." },
-      { "id": "b9", "options": ["motive", "song", "passport", "name"], "answerIndex": 0, "explanation": "Personal motive." },
-      { "id": "b10", "options": ["time", "money", "advice", "evidence"], "answerIndex": 0, "explanation": "Given the COO enough time." },
-      { "id": "b11", "options": ["lives", "minutes", "shops", "songs"], "answerIndex": 0, "explanation": "Measured in lives." },
-      { "id": "b12", "options": ["deadline", "song", "letter", "menu"], "answerIndex": 0, "explanation": "A deadline in writing." },
-      { "id": "b13", "options": ["BAFA", "EU", "UN", "WHO"], "answerIndex": 0, "explanation": "External channel at the BAFA." },
-      { "id": "b14", "options": ["partial", "complete", "rare", "loud"], "answerIndex": 0, "explanation": "Real but partial." },
-      { "id": "b15", "options": ["remembers", "forgets", "celebrates", "sleeps"], "answerIndex": 0, "explanation": "The industry remembers." }
+      {
+        "id": "b1",
+        "options": [
+          "subpoena",
+          "celebrate",
+          "sell",
+          "destroy"
+        ],
+        "answerIndex": 0,
+        "explanation": "Subpoena the venue."
+      },
+      {
+        "id": "b2",
+        "options": [
+          "plasticiser",
+          "sugar",
+          "salt",
+          "song"
+        ],
+        "answerIndex": 0,
+        "explanation": "A banned plasticiser."
+      },
+      {
+        "id": "b3",
+        "options": [
+          "nine",
+          "two",
+          "five",
+          "twenty"
+        ],
+        "answerIndex": 0,
+        "explanation": "Two in every nine batches."
+      },
+      {
+        "id": "b4",
+        "options": [
+          "noted",
+          "celebrated",
+          "destroyed",
+          "translated"
+        ],
+        "answerIndex": 0,
+        "explanation": "The report was 'noted.'"
+      },
+      {
+        "id": "b5",
+        "options": [
+          "group",
+          "lobby",
+          "country",
+          "shop"
+        ],
+        "answerIndex": 0,
+        "explanation": "Removed from the working group."
+      },
+      {
+        "id": "b6",
+        "options": [
+          "confidentiality",
+          "loyalty",
+          "celebrity",
+          "translation"
+        ],
+        "answerIndex": 0,
+        "explanation": "Duty of confidentiality."
+      },
+      {
+        "id": "b7",
+        "options": [
+          "ethicist",
+          "lawyer",
+          "judge",
+          "auditor"
+        ],
+        "answerIndex": 0,
+        "explanation": "He is an ethicist."
+      },
+      {
+        "id": "b8",
+        "options": [
+          "harm",
+          "song",
+          "shop",
+          "festival"
+        ],
+        "answerIndex": 0,
+        "explanation": "A clear public harm."
+      },
+      {
+        "id": "b9",
+        "options": [
+          "motive",
+          "song",
+          "passport",
+          "name"
+        ],
+        "answerIndex": 0,
+        "explanation": "Personal motive."
+      },
+      {
+        "id": "b10",
+        "options": [
+          "time",
+          "money",
+          "advice",
+          "evidence"
+        ],
+        "answerIndex": 0,
+        "explanation": "Given the COO enough time."
+      },
+      {
+        "id": "b11",
+        "options": [
+          "lives",
+          "minutes",
+          "shops",
+          "songs"
+        ],
+        "answerIndex": 0,
+        "explanation": "Measured in lives."
+      },
+      {
+        "id": "b12",
+        "options": [
+          "deadline",
+          "song",
+          "letter",
+          "menu"
+        ],
+        "answerIndex": 0,
+        "explanation": "A deadline in writing."
+      },
+      {
+        "id": "b13",
+        "options": [
+          "BAFA",
+          "EU",
+          "UN",
+          "WHO"
+        ],
+        "answerIndex": 0,
+        "explanation": "External channel at the BAFA."
+      },
+      {
+        "id": "b14",
+        "options": [
+          "partial",
+          "complete",
+          "rare",
+          "loud"
+        ],
+        "answerIndex": 0,
+        "explanation": "Real but partial."
+      },
+      {
+        "id": "b15",
+        "options": [
+          "remembers",
+          "forgets",
+          "celebrates",
+          "sleeps"
+        ],
+        "answerIndex": 0,
+        "explanation": "The industry remembers."
+      }
     ]
   },
   "criticalThinkingQuestion": "Peters tells Maria the line between 'reasonable opportunity to remedy' and 'too long' is one she has to draw herself, measured in lives. Is there a decision in your own professional or personal life where you have used 'reasonable time' or 'fair chance' as a placeholder for a line you have not yet drawn? What unit are you actually measuring 'reasonable' in — and would you say so out loud?"

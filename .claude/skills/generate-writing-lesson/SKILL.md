@@ -78,10 +78,10 @@ depth. `hintStarters` is writing-specific (≥3 at every level).
 | Level | Sample-answer word count | MC questions | Hint vocab | Sample annotations | Hint starters |
 |---|---|---|---|---|---|
 | A1 | 150–250 | ≥10 | ≥10 | ≥10 | ≥3 |
-| A2 | 150–250 | ≥10 | ≥10 | ≥10 | ≥3 |
-| B1 | 350–500 | ≥10 | ≥15 | ≥15 | ≥3 |
-| B2 | 350–500 | ≥15 | ≥20 | ≥20 | ≥3 |
-| C1 | 600–800 | ≥15 | ≥20 | ≥20 | ≥3 |
+| A2 | 200–300 | ≥10 | ≥15 | ≥15 | ≥3 |
+| B1 | 400–500 | ≥10 | ≥20 | ≥20 | ≥3 |
+| B2 | 450–600 | ≥15 | ≥25 | ≥25 | ≥3 |
+| C1 | 600–800 | ≥15 | ≥30 | ≥30 | ≥3 |
 
 `minWords` / `maxWords` on the lesson are guidance shown in the editor.
 Set them equal to the "Sample-answer word count" range above — the

@@ -65,10 +65,10 @@ Same per-level minimums as reading (carry over from
 | Level | Body words | MC ≥ | Cloze ≥ | Annotations ≥ |
 |---|---|---|---|---|
 | A1 | 150–250 | 10 | 10 | 10 |
-| A2 | 150–250 | 10 | 10 | 10 |
-| B1 | 350–500 | 10 | 10 | 15 |
-| B2 | 350–500 | 15 | 15 | 20 |
-| C1 | 600–800 | 15 | 15 | 20 |
+| A2 | 200–300 | 10 | 10 | 15 |
+| B1 | 400–500 | 10 | 10 | 20 |
+| B2 | 450–600 | 15 | 15 | 25 |
+| C1 | 600–800 | 15 | 15 | 30 |
 
 Sentence count emerges from word count: ~10–15 for A1/A2, ~20–25 for B1/B2,
 ~30+ for C1.

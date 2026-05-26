@@ -5,63 +5,258 @@
   "summary": "An oncologist tells a patient's daughter that her father has refused to be told his prognosis — and has asked the doctor to tell her instead. The daughter must decide what to carry, and how.",
   "format": "dialogue",
   "body": [
-    { "speaker": "Dr Tran", "text": "Mai, sit down. Your father asked me, this morning, not to tell him his prognosis. He asked me to tell you instead. He said you would decide what to do with the information." },
-    { "speaker": "Mai", "text": "He asked you not to know?" },
-    { "speaker": "Dr Tran", "text": "He asked me not to tell him. He may already know, in the way patients sometimes already know. But he has explicitly chosen not to be given the words. He wants to live the next months without them in his head." },
-    { "speaker": "Mai", "text": "Is that allowed?" },
-    { "speaker": "Dr Tran", "text": "It is his decision, yes. In our country and most others, a competent adult has the right to refuse information about their own diagnosis. It is the principle of informed consent in reverse: they have to consent to being informed." },
-    { "speaker": "Mai", "text": "And he has refused." },
-    { "speaker": "Dr Tran", "text": "He has. I want to ask you whether you, also, want to be told." },
-    { "speaker": "Mai", "text": "Tell me." },
-    { "speaker": "Dr Tran", "text": "About three months." },
-    { "speaker": "Mai", "text": "Three months." },
-    { "speaker": "Dr Tran", "text": "I am sorry. Take a moment." },
-    { "speaker": "Mai", "text": "I have known longer than my father." },
-    { "speaker": "Dr Tran", "text": "I am sorry?" },
-    { "speaker": "Mai", "text": "He told me last year that if it came to this, he would not want to know. I have known he would refuse for a year. So I have been thinking about what I would do with the information for that whole year." },
-    { "speaker": "Dr Tran", "text": "And what have you decided?" },
-    { "speaker": "Mai", "text": "I am not sure yet. May I ask — does refusing to be told usually shorten or lengthen what time is left?" },
-    { "speaker": "Dr Tran", "text": "There is some evidence in both directions. Patients who do not know often retain more energy for a while; some sleep better. They may also miss the chance to make decisions they would have wanted to make consciously. Overall, the effect on length of life is small. The effect on quality of life depends entirely on what the patient would have done with the knowledge." },
-    { "speaker": "Mai", "text": "He would have spent it organising. He is a man who organises. Lists, instructions, distributions of his small possessions. If he had been told, he would have done that, and the last three months would have been a project." },
-    { "speaker": "Dr Tran", "text": "And without the words?" },
-    { "speaker": "Mai", "text": "Without the words, he will do small things. Cook for my mother. Sit on the balcony in the evening. Walk to the river. He may not even know it is the last time. He will not be performing his death. He will be living." },
-    { "speaker": "Dr Tran", "text": "It sounds like he chose well." },
-    { "speaker": "Mai", "text": "I think he did. The harder question is what I do." },
-    { "speaker": "Dr Tran", "text": "What are your choices?" },
-    { "speaker": "Mai", "text": "I could tell him. He would forgive me. He would probably even understand. But I would have taken from him the gift he asked for. I do not think I have the right." },
-    { "speaker": "Dr Tran", "text": "And not telling him?" },
-    { "speaker": "Mai", "text": "Means I carry it alone. Or with my husband, or with you. It means I do not get to have my regular last conversations with my father. I have to perform a slightly different daughter for three months. That is heavy. But it is mine to carry, and it is also lighter than what he would have carried." },
-    { "speaker": "Dr Tran", "text": "There is a third option. You could tell him you also do not want to know — even though you do. Then you and he are in the same room, with the same blindfold. It is not honest, exactly. But it is a kind of fairness." },
-    { "speaker": "Mai", "text": "I had not thought of that." },
-    { "speaker": "Mai", "text": "It sounds dishonest at first. But maybe what he refused was the words, not my company. If I pretend I do not know, I am not lying about facts — I am refusing to use them between us." },
-    { "speaker": "Dr Tran", "text": "That is one way to read it. The risk is that you carry the deception for the rest of your life, not just for three months. You will be the daughter who knew and pretended. Some people can live with that. Others cannot." },
-    { "speaker": "Dr Tran", "text": "Take a few days. Whatever you decide, you can come back to me. I will respect either choice." }
+    {
+      "speaker": "Dr Tran",
+      "text": "Mai, sit down. Your father asked me, this morning, not to tell him his prognosis. He asked me to tell you instead. He said you would decide what to do with the information."
+    },
+    {
+      "speaker": "Mai",
+      "text": "He asked you not to know?"
+    },
+    {
+      "speaker": "Dr Tran",
+      "text": "He asked me not to tell him. He may already know, in the way patients sometimes already know. But he has explicitly chosen not to be given the words. He wants to live the next months without them in his head."
+    },
+    {
+      "speaker": "Mai",
+      "text": "Is that allowed?"
+    },
+    {
+      "speaker": "Dr Tran",
+      "text": "It is his decision, yes. In our country and most others, a competent adult has the right to refuse information about their own diagnosis. It is the principle of informed consent in reverse: they have to consent to being informed."
+    },
+    {
+      "speaker": "Mai",
+      "text": "And he has refused."
+    },
+    {
+      "speaker": "Dr Tran",
+      "text": "He has. I want to ask you whether you, also, want to be told."
+    },
+    {
+      "speaker": "Mai",
+      "text": "Tell me."
+    },
+    {
+      "speaker": "Dr Tran",
+      "text": "About three months."
+    },
+    {
+      "speaker": "Mai",
+      "text": "Three months."
+    },
+    {
+      "speaker": "Dr Tran",
+      "text": "I am sorry. Take a moment."
+    },
+    {
+      "speaker": "Mai",
+      "text": "I have known longer than my father."
+    },
+    {
+      "speaker": "Dr Tran",
+      "text": "I am sorry?"
+    },
+    {
+      "speaker": "Mai",
+      "text": "He told me last year that if it came to this, he would not want to know. I have known he would refuse for a year. So I have been thinking about what I would do with the information for that whole year."
+    },
+    {
+      "speaker": "Dr Tran",
+      "text": "And what have you decided?"
+    },
+    {
+      "speaker": "Mai",
+      "text": "I am not sure yet. May I ask — does refusing to be told usually shorten or lengthen what time is left?"
+    },
+    {
+      "speaker": "Dr Tran",
+      "text": "There is some evidence in both directions. Patients who do not know often retain more energy for a while; some sleep better. They may also miss the chance to make decisions they would have wanted to make consciously. Overall, the effect on length of life is small. The effect on quality of life depends entirely on what the patient would have done with the knowledge."
+    },
+    {
+      "speaker": "Mai",
+      "text": "He would have spent it organising. He is a man who organises. Lists, instructions, distributions of his small possessions. If he had been told, he would have done that, and the last three months would have been a project."
+    },
+    {
+      "speaker": "Dr Tran",
+      "text": "And without the words?"
+    },
+    {
+      "speaker": "Mai",
+      "text": "Without the words, he will do small things. Cook for my mother. Sit on the balcony in the evening. Walk to the river. He may not even know it is the last time. He will not be performing his death. He will be living."
+    },
+    {
+      "speaker": "Dr Tran",
+      "text": "It sounds like he chose well."
+    },
+    {
+      "speaker": "Mai",
+      "text": "I think he did. The harder question is what I do."
+    },
+    {
+      "speaker": "Dr Tran",
+      "text": "What are your choices?"
+    },
+    {
+      "speaker": "Mai",
+      "text": "I could tell him. He would forgive me. He would probably even understand. But I would have taken from him the gift he asked for. I do not think I have the right."
+    },
+    {
+      "speaker": "Dr Tran",
+      "text": "And not telling him?"
+    },
+    {
+      "speaker": "Mai",
+      "text": "Means I carry it alone. Or with my husband, or with you. It means I do not get to have my regular last conversations with my father. I have to perform a slightly different daughter for three months. That is heavy. But it is mine to carry, and it is also lighter than what he would have carried."
+    },
+    {
+      "speaker": "Dr Tran",
+      "text": "There is a third option. You could tell him you also do not want to know — even though you do. Then you and he are in the same room, with the same blindfold. It is not honest, exactly. But it is a kind of fairness."
+    },
+    {
+      "speaker": "Mai",
+      "text": "I had not thought of that."
+    },
+    {
+      "speaker": "Mai",
+      "text": "It sounds dishonest at first. But maybe what he refused was the words, not my company. If I pretend I do not know, I am not lying about facts — I am refusing to use them between us."
+    },
+    {
+      "speaker": "Dr Tran",
+      "text": "That is one way to read it. The risk is that you carry the deception for the rest of your life, not just for three months. You will be the daughter who knew and pretended. Some people can live with that. Others cannot."
+    },
+    {
+      "speaker": "Dr Tran",
+      "text": "Take a few days. Whatever you decide, you can come back to me. I will respect either choice."
+    }
   ],
-  "tags": ["Medicine", "Ethics", "Family"],
+  "tags": [
+    "Medicine",
+    "Ethics",
+    "Family"
+  ],
   "annotations": [
-    { "phrase": "prognosis", "meaningVi": "tiên lượng (y học)", "pronunciation": "/prɒɡˈnəʊ.sɪs/" },
-    { "phrase": "informed consent", "meaningVi": "sự đồng thuận có thông tin (nguyên tắc y khoa)" },
-    { "phrase": "competent", "meaningVi": "có đủ năng lực (pháp lý)" },
-    { "phrase": "performing", "meaningVi": "diễn / phô bày" },
-    { "phrase": "blindfold", "meaningVi": "miếng bịt mắt" },
-    { "phrase": "fairness", "meaningVi": "sự công bằng" },
-    { "phrase": "explicitly chosen", "meaningVi": "đã chủ động / rõ ràng lựa chọn — nhấn mạnh ý chí có chủ đích, không phải ngẫu nhiên" },
-    { "phrase": "in the way patients sometimes already know", "meaningVi": "theo cái cách mà bệnh nhân đôi khi đã biết — diễn đạt ẩn ý về trực giác bệnh nhân mà không cần xác nhận y tế" },
-    { "phrase": "in reverse", "meaningVi": "theo chiều ngược lại — thành ngữ học thuật dùng để đảo chiều một khái niệm hay nguyên tắc đã biết" },
-    { "phrase": "they have to consent to being informed", "meaningVi": "họ phải đồng ý mới được cung cấp thông tin — cấu trúc đảo ngữ nhấn mạnh quyền tự quyết y tế" },
-    { "phrase": "in both directions", "meaningVi": "theo cả hai chiều — cách diễn đạt học thuật dùng khi bằng chứng chưa nghiêng hẳn về phía nào" },
-    { "phrase": "retain more energy", "meaningVi": "duy trì / giữ được nhiều năng lượng hơn — cụm từ y khoa–tâm lý học nói về sức sống còn lại của bệnh nhân" },
-    { "phrase": "make decisions they would have wanted to make consciously", "meaningVi": "đưa ra những quyết định mà họ đáng lẽ muốn đưa ra một cách có ý thức — cấu trúc giả định quá khứ hàm ý mất đi quyền tự chủ" },
-    { "phrase": "depends entirely on", "meaningVi": "phụ thuộc hoàn toàn vào — cụm liên kết học thuật nhấn mạnh tính quyết định của một biến số duy nhất" },
-    { "phrase": "distributions of his small possessions", "meaningVi": "việc phân chia các đồ vật nhỏ — cụm danh từ trang trọng hàm ý di chúc / sắp xếp hậu sự" },
-    { "phrase": "the last three months would have been a project", "meaningVi": "ba tháng cuối sẽ đã trở thành một dự án — hình ảnh ẩn dụ sắc sảo: biến giai đoạn cuối đời thành công việc có kế hoạch, thay vì sống thực sự" },
-    { "phrase": "I have to perform a slightly different daughter", "meaningVi": "tôi phải đóng vai một người con gái hơi khác — cách dùng 'perform' theo nghĩa Goffman: trình diễn bản sắc xã hội trong hoàn cảnh đặc biệt" },
-    { "phrase": "mine to carry", "meaningVi": "gánh nặng thuộc về tôi — cấu trúc sở hữu nhấn mạnh trách nhiệm cá nhân; ngầm dùng ẩn dụ 'gánh' như một lựa chọn chủ động" },
-    { "phrase": "lighter than what he would have carried", "meaningVi": "nhẹ hơn so với điều mà ông đáng lẽ phải gánh — so sánh giả định hàm ý sự hy sinh thầm lặng và lòng trắc ẩn" },
-    { "phrase": "the deception", "meaningVi": "sự che giấu / dối trá — danh từ trừu tượng ở đây chỉ hành động giả vờ không biết, được nhìn nhận như một gánh nặng đạo đức kéo dài" },
-    { "phrase": "I will respect either choice", "meaningVi": "tôi sẽ tôn trọng cả hai lựa chọn — công thức ngôn ngữ y đức dùng để trao trả quyết định về cho bệnh nhân / gia đình mà không phán xét" },
-    { "phrase": "what he refused was the words, not my company", "meaningVi": "điều bố từ chối là các từ ngữ, không phải sự đồng hành của tôi — phân biệt vi tế giữa từ chối thông tin và từ chối kết nối cảm xúc; lập luận C1 đặc trưng" },
-    { "phrase": "refusing to use them between us", "meaningVi": "từ chối dùng chúng giữa hai bố con — cách diễn đạt gợi ý rằng sự thật có thể tồn tại mà không cần được phát ngôn, một quan điểm triết học về ngôn ngữ và quan hệ" }
+    {
+      "phrase": "prognosis",
+      "meaningVi": "tiên lượng (y học)",
+      "pronunciation": "/prɒɡˈnəʊ.sɪs/"
+    },
+    {
+      "phrase": "informed consent",
+      "meaningVi": "sự đồng thuận có thông tin (nguyên tắc y khoa)"
+    },
+    {
+      "phrase": "competent",
+      "meaningVi": "có đủ năng lực (pháp lý)"
+    },
+    {
+      "phrase": "performing",
+      "meaningVi": "diễn / phô bày"
+    },
+    {
+      "phrase": "blindfold",
+      "meaningVi": "miếng bịt mắt"
+    },
+    {
+      "phrase": "fairness",
+      "meaningVi": "sự công bằng"
+    },
+    {
+      "phrase": "explicitly chosen",
+      "meaningVi": "đã chủ động / rõ ràng lựa chọn — nhấn mạnh ý chí có chủ đích, không phải ngẫu nhiên"
+    },
+    {
+      "phrase": "in the way patients sometimes already know",
+      "meaningVi": "theo cái cách mà bệnh nhân đôi khi đã biết — diễn đạt ẩn ý về trực giác bệnh nhân mà không cần xác nhận y tế"
+    },
+    {
+      "phrase": "in reverse",
+      "meaningVi": "theo chiều ngược lại — thành ngữ học thuật dùng để đảo chiều một khái niệm hay nguyên tắc đã biết"
+    },
+    {
+      "phrase": "they have to consent to being informed",
+      "meaningVi": "họ phải đồng ý mới được cung cấp thông tin — cấu trúc đảo ngữ nhấn mạnh quyền tự quyết y tế"
+    },
+    {
+      "phrase": "in both directions",
+      "meaningVi": "theo cả hai chiều — cách diễn đạt học thuật dùng khi bằng chứng chưa nghiêng hẳn về phía nào"
+    },
+    {
+      "phrase": "retain more energy",
+      "meaningVi": "duy trì / giữ được nhiều năng lượng hơn — cụm từ y khoa–tâm lý học nói về sức sống còn lại của bệnh nhân"
+    },
+    {
+      "phrase": "make decisions they would have wanted to make consciously",
+      "meaningVi": "đưa ra những quyết định mà họ đáng lẽ muốn đưa ra một cách có ý thức — cấu trúc giả định quá khứ hàm ý mất đi quyền tự chủ"
+    },
+    {
+      "phrase": "depends entirely on",
+      "meaningVi": "phụ thuộc hoàn toàn vào — cụm liên kết học thuật nhấn mạnh tính quyết định của một biến số duy nhất"
+    },
+    {
+      "phrase": "distributions of his small possessions",
+      "meaningVi": "việc phân chia các đồ vật nhỏ — cụm danh từ trang trọng hàm ý di chúc / sắp xếp hậu sự"
+    },
+    {
+      "phrase": "the last three months would have been a project",
+      "meaningVi": "ba tháng cuối sẽ đã trở thành một dự án — hình ảnh ẩn dụ sắc sảo: biến giai đoạn cuối đời thành công việc có kế hoạch, thay vì sống thực sự"
+    },
+    {
+      "phrase": "I have to perform a slightly different daughter",
+      "meaningVi": "tôi phải đóng vai một người con gái hơi khác — cách dùng 'perform' theo nghĩa Goffman: trình diễn bản sắc xã hội trong hoàn cảnh đặc biệt"
+    },
+    {
+      "phrase": "mine to carry",
+      "meaningVi": "gánh nặng thuộc về tôi — cấu trúc sở hữu nhấn mạnh trách nhiệm cá nhân; ngầm dùng ẩn dụ 'gánh' như một lựa chọn chủ động"
+    },
+    {
+      "phrase": "lighter than what he would have carried",
+      "meaningVi": "nhẹ hơn so với điều mà ông đáng lẽ phải gánh — so sánh giả định hàm ý sự hy sinh thầm lặng và lòng trắc ẩn"
+    },
+    {
+      "phrase": "the deception",
+      "meaningVi": "sự che giấu / dối trá — danh từ trừu tượng ở đây chỉ hành động giả vờ không biết, được nhìn nhận như một gánh nặng đạo đức kéo dài"
+    },
+    {
+      "phrase": "I will respect either choice",
+      "meaningVi": "tôi sẽ tôn trọng cả hai lựa chọn — công thức ngôn ngữ y đức dùng để trao trả quyết định về cho bệnh nhân / gia đình mà không phán xét"
+    },
+    {
+      "phrase": "what he refused was the words, not my company",
+      "meaningVi": "điều bố từ chối là các từ ngữ, không phải sự đồng hành của tôi — phân biệt vi tế giữa từ chối thông tin và từ chối kết nối cảm xúc; lập luận C1 đặc trưng"
+    },
+    {
+      "phrase": "refusing to use them between us",
+      "meaningVi": "từ chối dùng chúng giữa hai bố con — cách diễn đạt gợi ý rằng sự thật có thể tồn tại mà không cần được phát ngôn, một quan điểm triết học về ngôn ngữ và quan hệ"
+    },
+    {
+      "phrase": "performing his death",
+      "meaningVi": "diễn xuất cái chết của mình"
+    },
+    {
+      "phrase": "what he refused was the words",
+      "meaningVi": "điều ông từ chối chính là những từ ngữ"
+    },
+    {
+      "phrase": "lighter",
+      "meaningVi": "nhẹ nhàng hơn"
+    },
+    {
+      "phrase": "distributions of his",
+      "meaningVi": "việc phân chia của ông"
+    },
+    {
+      "phrase": "refused",
+      "meaningVi": "từ chối"
+    },
+    {
+      "phrase": "cook for my mother",
+      "meaningVi": "nấu ăn cho mẹ tôi"
+    },
+    {
+      "phrase": "walk to the river",
+      "meaningVi": "đi bộ ra sông"
+    }
   ],
   "grammarNotes": [
     {
@@ -73,43 +268,405 @@
   "cloze": {
     "template": "Dr Tran: Mai, sit down. Your father asked me, this morning, not to tell him his {{b1}}. He asked me to tell you instead. He said you would decide what to do with the information.\nMai: He asked you not to know?\nDr Tran: He asked me not to tell him. He may already know, in the way patients sometimes already know. But he has {{b2}} chosen not to be given the words. He wants to live the next months without them in his head.\nMai: Is that allowed?\nDr Tran: It is his decision, yes. In our country and most others, a {{b3}} adult has the right to refuse information about their own diagnosis. It is the principle of {{b4}} consent in reverse: they have to consent to being informed.\nMai: And he has refused.\nDr Tran: He has. I want to ask you whether you, also, want to be told.\nMai: Tell me.\nDr Tran: About {{b5}} months.\nMai: Three months.\nDr Tran: I am sorry. Take a moment.\nMai: I have known longer than my father.\nDr Tran: I am sorry?\nMai: He told me last year that if it came to this, he would not want to know. I have known he would {{b6}} for a year. So I have been thinking about what I would do with the information for that whole year.\nDr Tran: And what have you decided?\nMai: I am not sure yet. May I ask — does refusing to be told usually shorten or lengthen what time is left?\nDr Tran: There is some evidence in both directions. Patients who do not know often retain more {{b7}} for a while; some sleep better. They may also miss the chance to make decisions they would have wanted to make {{b8}}. Overall, the effect on length of life is small. The effect on quality of life depends entirely on what the patient would have done with the knowledge.\nMai: He would have spent it organising. He is a man who {{b9}}. Lists, instructions, distributions of his small possessions. If he had been told, he would have done that, and the last three months would have been a project.\nDr Tran: And without the words?\nMai: Without the words, he will do small things. Cook for my mother. Sit on the {{b10}} in the evening. Walk to the river. He may not even know it is the last time. He will not be {{b11}} his death. He will be living.\nDr Tran: It sounds like he chose well.\nMai: I think he did. The harder question is what I do.\nDr Tran: What are your choices?\nMai: I could tell him. He would {{b12}} me. He would probably even understand. But I would have taken from him the gift he asked for. I do not think I have the right.\nDr Tran: And not telling him?\nMai: Means I carry it alone. Or with my husband, or with you. It means I do not get to have my regular last conversations with my father. I have to perform a slightly different daughter for three months. That is heavy. But it is mine to carry, and it is also lighter than what he would have carried.\nDr Tran: There is a third option. You could tell him you also do not want to know — even though you do. Then you and he are in the same room, with the same {{b13}}. It is not honest, exactly. But it is a kind of {{b14}}.\nMai: I had not thought of that.\nMai: It sounds dishonest at first. But maybe what he refused was the words, not my company. If I pretend I do not know, I am not lying about facts — I am refusing to use them between us.\nDr Tran: That is one way to read it. The risk is that you carry the {{b15a}} for the rest of your life, not just for three months. You will be the daughter who knew and pretended. Some people can live with that. Others cannot.\nDr Tran: Take a few days. Whatever you {{b15}}, you can come back to me. I will {{b16}} either choice.",
     "blanks": [
-      { "id": "b1", "options": ["prognosis", "speech", "address", "salary"], "answerIndex": 0, "explanation": "Her father refused to be told his prognosis." },
-      { "id": "b2", "options": ["explicitly", "secretly", "loudly", "carelessly"], "answerIndex": 0, "explanation": "He has explicitly chosen not to be given the words." },
-      { "id": "b3", "options": ["young", "competent", "famous", "rich"], "answerIndex": 1, "explanation": "A competent adult has the right to refuse information." },
-      { "id": "b4", "options": ["informed", "verbal", "religious", "musical"], "answerIndex": 0, "explanation": "Informed consent — in reverse, in this case." },
-      { "id": "b5", "options": ["three", "thirteen", "thirty", "ninety"], "answerIndex": 0, "explanation": "About three months." },
-      { "id": "b6", "options": ["refuse", "agree", "shout", "die"], "answerIndex": 0, "explanation": "She has known he would refuse for a year." },
-      { "id": "b7", "options": ["energy", "money", "memory", "fame"], "answerIndex": 0, "explanation": "Patients who do not know often retain more energy for a while." },
-      { "id": "b8", "options": ["consciously", "secretly", "religiously", "publicly"], "answerIndex": 0, "explanation": "They may miss decisions they would have wanted to make consciously." },
-      { "id": "b9", "options": ["organises", "complains", "sleeps", "travels"], "answerIndex": 0, "explanation": "He is a man who organises." },
-      { "id": "b10", "options": ["balcony", "kitchen", "office", "river"], "answerIndex": 0, "explanation": "Sit on the balcony in the evening." },
-      { "id": "b11", "options": ["performing", "celebrating", "writing", "rehearsing"], "answerIndex": 0, "explanation": "He will not be performing his death." },
-      { "id": "b12", "options": ["forgive", "fight", "ignore", "fire"], "answerIndex": 0, "explanation": "He would forgive her if she told him." },
-      { "id": "b13", "options": ["secret", "blindfold", "memory", "song"], "answerIndex": 1, "explanation": "The same blindfold — the doctor's third option." },
-      { "id": "b14", "options": ["fairness", "honesty", "victory", "celebration"], "answerIndex": 0, "explanation": "It is a kind of fairness — not honesty exactly." },
-      { "id": "b15a", "options": ["deception", "diagnosis", "promotion", "argument"], "answerIndex": 0, "explanation": "The risk Dr Tran names is carrying the 'deception' (the hidden knowledge) for the rest of one's life." },
-      { "id": "b15", "options": ["sell", "decide", "celebrate", "leave"], "answerIndex": 1, "explanation": "Whatever you decide, you can come back to me." },
-      { "id": "b16", "options": ["respect", "punish", "celebrate", "share"], "answerIndex": 0, "explanation": "'I will respect either choice.'" }
+      {
+        "id": "b1",
+        "options": [
+          "prognosis",
+          "speech",
+          "address",
+          "salary"
+        ],
+        "answerIndex": 0,
+        "explanation": "Her father refused to be told his prognosis."
+      },
+      {
+        "id": "b2",
+        "options": [
+          "explicitly",
+          "secretly",
+          "loudly",
+          "carelessly"
+        ],
+        "answerIndex": 0,
+        "explanation": "He has explicitly chosen not to be given the words."
+      },
+      {
+        "id": "b3",
+        "options": [
+          "young",
+          "competent",
+          "famous",
+          "rich"
+        ],
+        "answerIndex": 1,
+        "explanation": "A competent adult has the right to refuse information."
+      },
+      {
+        "id": "b4",
+        "options": [
+          "informed",
+          "verbal",
+          "religious",
+          "musical"
+        ],
+        "answerIndex": 0,
+        "explanation": "Informed consent — in reverse, in this case."
+      },
+      {
+        "id": "b5",
+        "options": [
+          "three",
+          "thirteen",
+          "thirty",
+          "ninety"
+        ],
+        "answerIndex": 0,
+        "explanation": "About three months."
+      },
+      {
+        "id": "b6",
+        "options": [
+          "refuse",
+          "agree",
+          "shout",
+          "die"
+        ],
+        "answerIndex": 0,
+        "explanation": "She has known he would refuse for a year."
+      },
+      {
+        "id": "b7",
+        "options": [
+          "energy",
+          "money",
+          "memory",
+          "fame"
+        ],
+        "answerIndex": 0,
+        "explanation": "Patients who do not know often retain more energy for a while."
+      },
+      {
+        "id": "b8",
+        "options": [
+          "consciously",
+          "secretly",
+          "religiously",
+          "publicly"
+        ],
+        "answerIndex": 0,
+        "explanation": "They may miss decisions they would have wanted to make consciously."
+      },
+      {
+        "id": "b9",
+        "options": [
+          "organises",
+          "complains",
+          "sleeps",
+          "travels"
+        ],
+        "answerIndex": 0,
+        "explanation": "He is a man who organises."
+      },
+      {
+        "id": "b10",
+        "options": [
+          "balcony",
+          "kitchen",
+          "office",
+          "river"
+        ],
+        "answerIndex": 0,
+        "explanation": "Sit on the balcony in the evening."
+      },
+      {
+        "id": "b11",
+        "options": [
+          "performing",
+          "celebrating",
+          "writing",
+          "rehearsing"
+        ],
+        "answerIndex": 0,
+        "explanation": "He will not be performing his death."
+      },
+      {
+        "id": "b12",
+        "options": [
+          "forgive",
+          "fight",
+          "ignore",
+          "fire"
+        ],
+        "answerIndex": 0,
+        "explanation": "He would forgive her if she told him."
+      },
+      {
+        "id": "b13",
+        "options": [
+          "secret",
+          "blindfold",
+          "memory",
+          "song"
+        ],
+        "answerIndex": 1,
+        "explanation": "The same blindfold — the doctor's third option."
+      },
+      {
+        "id": "b14",
+        "options": [
+          "fairness",
+          "honesty",
+          "victory",
+          "celebration"
+        ],
+        "answerIndex": 0,
+        "explanation": "It is a kind of fairness — not honesty exactly."
+      },
+      {
+        "id": "b15a",
+        "options": [
+          "deception",
+          "diagnosis",
+          "promotion",
+          "argument"
+        ],
+        "answerIndex": 0,
+        "explanation": "The risk Dr Tran names is carrying the 'deception' (the hidden knowledge) for the rest of one's life."
+      },
+      {
+        "id": "b15",
+        "options": [
+          "sell",
+          "decide",
+          "celebrate",
+          "leave"
+        ],
+        "answerIndex": 1,
+        "explanation": "Whatever you decide, you can come back to me."
+      },
+      {
+        "id": "b16",
+        "options": [
+          "respect",
+          "punish",
+          "celebrate",
+          "share"
+        ],
+        "answerIndex": 0,
+        "explanation": "'I will respect either choice.'"
+      }
     ]
   },
   "translationVi": "BS Trần: Mai, ngồi đi. Bố cô sáng nay đã đề nghị tôi không nói cho ông tiên lượng. Ông bảo tôi nói với cô thay vào đó. Ông nói cô sẽ quyết định làm gì với thông tin đó.\nMai: Bố tôi xin bác sĩ không nói cho ông biết?\nBS Trần: Ông xin tôi không nói cho ông biết. Có thể ông đã biết, theo cái cách bệnh nhân đôi khi đã biết. Nhưng ông đã chủ động chọn không được nghe các từ đó. Ông muốn sống những tháng tới mà không có chúng trong đầu.\nMai: Vậy có được phép không?\nBS Trần: Đó là quyết định của ông, vâng. Ở nước ta và ở hầu hết các nước, một người trưởng thành có năng lực có quyền từ chối thông tin về chẩn đoán của chính mình. Đây là nguyên tắc 'đồng thuận có thông tin' theo chiều ngược: họ phải đồng ý mới được cung cấp thông tin.\nMai: Và bố tôi đã từ chối.\nBS Trần: Đúng vậy. Tôi muốn hỏi cô, bản thân cô có muốn được nói không.\nMai: Bác sĩ nói đi.\nBS Trần: Khoảng ba tháng.\nMai: Ba tháng.\nBS Trần: Tôi rất tiếc. Cô nghỉ một chút.\nMai: Tôi đã biết lâu hơn bố tôi.\nBS Trần: Tôi xin lỗi?\nMai: Năm ngoái bố nói với tôi, nếu mọi việc đến nông nỗi này, bố sẽ không muốn biết. Tôi đã biết suốt một năm rằng bố sẽ từ chối. Vì vậy tôi đã suy nghĩ về việc tôi sẽ làm gì với thông tin đó trong suốt năm đó.\nBS Trần: Và cô đã quyết định gì?\nMai: Tôi chưa chắc. Tôi xin hỏi — từ chối nghe có làm thời gian còn lại ngắn đi hay dài ra không?\nBS Trần: Có bằng chứng theo cả hai chiều. Bệnh nhân không biết thường giữ được nhiều năng lượng hơn một thời gian; một số ngủ ngon hơn. Họ cũng có thể bỏ lỡ cơ hội đưa ra những quyết định mà họ muốn đưa ra một cách có ý thức. Nhìn chung, ảnh hưởng tới độ dài cuộc sống là nhỏ. Ảnh hưởng tới chất lượng cuộc sống phụ thuộc hoàn toàn vào việc bệnh nhân sẽ làm gì với thông tin đó.\nMai: Bố sẽ dùng thời gian đó để sắp xếp. Bố là người sắp xếp. Danh sách, hướng dẫn, phân chia các đồ nhỏ. Nếu được nói, bố sẽ làm vậy, và ba tháng cuối sẽ là một dự án.\nBS Trần: Còn không có lời?\nMai: Không có lời, bố sẽ làm những việc nhỏ. Nấu cơm cho mẹ. Ngồi ngoài ban công buổi tối. Đi bộ ra sông. Có thể bố sẽ không biết đó là lần cuối. Bố sẽ không 'diễn' cái chết của mình. Bố sẽ sống.\nBS Trần: Nghe có vẻ ông đã chọn đúng.\nMai: Tôi nghĩ vậy. Câu hỏi khó hơn là tôi sẽ làm gì.\nBS Trần: Cô có những lựa chọn nào?\nMai: Tôi có thể nói cho bố. Bố sẽ tha thứ. Có lẽ thậm chí bố sẽ hiểu. Nhưng tôi đã lấy đi của bố món quà mà bố xin. Tôi nghĩ tôi không có quyền đó.\nBS Trần: Và nếu không nói?\nMai: Nghĩa là tôi mang nó một mình. Hoặc cùng chồng tôi, hoặc cùng bác sĩ. Nghĩa là tôi không có những cuộc trò chuyện cuối bình thường với bố. Tôi phải đóng vai một cô con gái hơi khác trong ba tháng. Nặng. Nhưng đó là của tôi để gánh, và nhẹ hơn cái mà bố sẽ phải gánh.\nBS Trần: Có một lựa chọn thứ ba. Cô có thể nói với bố rằng cô cũng không muốn biết — dù cô có biết. Khi đó cô và ông ở cùng một căn phòng, cùng một miếng bịt mắt. Không hẳn là trung thực. Nhưng là một dạng công bằng.\nMai: Tôi chưa nghĩ đến điều đó.\nMai: Thoạt nghe có vẻ không trung thực. Nhưng có lẽ cái bố từ chối là các từ ngữ, không phải sự đồng hành của tôi. Nếu tôi giả vờ không biết, tôi không nói dối về sự thật — tôi từ chối dùng nó giữa hai bố con.\nBS Trần: Đó là một cách đọc. Rủi ro là cô mang sự che giấu này suốt phần đời còn lại, không chỉ ba tháng. Cô sẽ là người con gái đã biết và đã giả vờ. Có người sống được với điều đó. Có người không.\nBS Trần: Cô cứ nghĩ vài ngày. Cô quyết thế nào, cô có thể quay lại với tôi. Tôi sẽ tôn trọng cả hai lựa chọn.",
   "questions": [
-    { "id": "q1", "prompt": "What has Mai's father asked the doctor to do?", "options": ["Tell him everything", "Not to tell him his prognosis — to tell Mai instead", "Transfer him to another hospital", "Discharge him"], "answerIndex": 1, "explanation": "'Your father asked me, this morning, not to tell him his prognosis. He asked me to tell you instead.'", "hint": "Look at Dr Tran's first turn." },
-    { "id": "q2", "prompt": "What legal principle does Dr Tran cite?", "options": ["The death penalty", "Informed consent in reverse — a competent adult must consent to being informed", "Doctor-patient confidentiality", "The Hippocratic oath"], "answerIndex": 1, "explanation": "'It is the principle of informed consent in reverse: they have to consent to being informed.'", "hint": "Look at Dr Tran's reply about whether it is allowed." },
-    { "id": "q3", "prompt": "What is the prognosis?", "options": ["A year", "About three months", "Three weeks", "Indefinite"], "answerIndex": 1, "explanation": "'About three months.'", "hint": "Look at Dr Tran's short reply." },
-    { "id": "q4", "prompt": "How long has Mai already known her father would refuse?", "options": ["A day", "A year — he told her last year that if it came to this, he would not want to know", "A week", "Just now"], "answerIndex": 1, "explanation": "'He told me last year… I have known he would refuse for a year.'", "hint": "Look at Mai's turn after she hears 'three months'." },
-    { "id": "q5", "prompt": "Does refusing to be told usually shorten or lengthen life, according to Dr Tran?", "options": ["Shortens by half", "Overall effect on length is small — energy may be retained for a while, but the patient may miss conscious decisions; quality depends on what they would have done with the knowledge", "Lengthens significantly", "Has no effect at all"], "answerIndex": 1, "explanation": "Detailed in Dr Tran's longer reply about evidence.", "hint": "Look at Dr Tran's reply about evidence." },
-    { "id": "q6", "prompt": "What does Mai say her father would have done if told?", "options": ["Travelled", "Spent the time organising — lists, instructions, distributions of his small possessions; the last three months would have been 'a project'", "Cried for weeks", "Withdrawn from the family"], "answerIndex": 1, "explanation": "'He would have spent it organising… If he had been told, he would have done that, and the last three months would have been a project.'", "hint": "Look at Mai's reply about what he would have done." },
-    { "id": "q7", "prompt": "And what does she think he will do without the words?", "options": ["Argue with the family", "Cook for her mother, sit on the balcony in the evening, walk to the river — live, not perform his death", "Stay in bed", "Travel abroad"], "answerIndex": 1, "explanation": "'Cook for my mother. Sit on the balcony in the evening. Walk to the river… He will be living.'", "hint": "Look at Mai's reply about 'without the words'." },
-    { "id": "q8", "prompt": "What does Mai mean by 'he will not be performing his death'?", "options": ["He cannot act", "Without the words, he will not turn his last months into a self-conscious final performance", "He cannot speak", "He hates theatre"], "answerIndex": 1, "explanation": "She contrasts the 'project' version with the 'living' version.", "hint": "Look at the contrast between the two options in Mai's two long turns." },
-    { "id": "q9", "prompt": "What is Mai's first option for herself?", "options": ["Tell her father — he would forgive her, probably understand — but she would have taken from him the gift he asked for; she does not think she has the right", "Run away", "Lie about a different illness", "Stop seeing him"], "answerIndex": 0, "explanation": "Detailed in her turn after 'What are your choices?'", "hint": "Look at her first option." },
-    { "id": "q10", "prompt": "What is her second option?", "options": ["Not telling him — but she carries it alone, performs a slightly different daughter for three months; heavy but lighter than what he would have carried", "Telling her mother", "Calling other relatives", "Filing a complaint"], "answerIndex": 0, "explanation": "Her second long turn about choices.", "hint": "Look at her second option." },
-    { "id": "q11", "prompt": "What is the third option Dr Tran offers?", "options": ["Tell him over the phone", "Tell her father she also does not want to know — even though she does; they would share the same blindfold; not quite honest, but 'a kind of fairness'", "Bring in a counsellor", "Withdraw treatment"], "answerIndex": 1, "explanation": "'You could tell him you also do not want to know — even though you do.'", "hint": "Look at Dr Tran's late suggestion." },
-    { "id": "q12", "prompt": "How does Dr Tran characterise the third option morally?", "options": ["Fully honest", "Not honest, exactly — but a kind of fairness", "Illegal", "The only right choice"], "answerIndex": 1, "explanation": "'It is not honest, exactly. But it is a kind of fairness.'", "hint": "Same turn." },
-    { "id": "q13", "prompt": "What does Dr Tran tell Mai at the end?", "options": ["Decide now", "Take a few days; whatever she decides, she can come back; he will respect either choice", "Get a second opinion", "Pay first"], "answerIndex": 1, "explanation": "'Take a few days. Whatever you decide, you can come back to me. I will respect either choice.'", "hint": "Look at the very last turn." },
-    { "id": "q14", "prompt": "Which paraphrase is closer to the central ethical move of the dialogue?", "options": ["Patients should always be told their prognosis without question.", "A competent adult's choice not to know is a real choice deserving respect; what becomes harder is the choice of those around them about how to live alongside that decision.", "Family members should always lie to dying patients.", "Doctors should not be involved in family decisions."], "answerIndex": 1, "explanation": "The whole dialogue turns on respecting the father's choice and then working through what Mai herself must do.", "hint": "Look at how Dr Tran frames the right to refuse, and how Mai weighs her options." },
-    { "id": "q15", "prompt": "Which of these is the dialogue NOT claiming?", "options": ["That a competent adult has the right to refuse information about their own diagnosis", "That patients who do not know may sometimes retain more energy for a while", "That the family should automatically tell the patient the truth, regardless of his wishes", "That telling a different lie ('I also don't want to know') can be a form of fairness, not honesty"], "answerIndex": 2, "explanation": "Mai explicitly says, 'I do not think I have the right' to take the gift away.", "hint": "Look at Mai's reply about telling him." },
-    { "id": "q16", "prompt": "What is the tone of the consultation?", "options": ["Cold and clinical", "Patient, careful, and morally serious — the doctor names options, names trade-offs, and explicitly hands the decision back to Mai", "Sentimental and tearful", "Bureaucratic"], "answerIndex": 1, "explanation": "He waits before delivering the number, names the third option as a 'fairness' rather than a lie, and refuses to decide for her.", "hint": "Notice how he pauses, qualifies, and ends." }
+    {
+      "id": "q1",
+      "prompt": "What has Mai's father asked the doctor to do?",
+      "options": [
+        "Tell him everything",
+        "Not to tell him his prognosis — to tell Mai instead",
+        "Transfer him to another hospital",
+        "Discharge him"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Your father asked me, this morning, not to tell him his prognosis. He asked me to tell you instead.'",
+      "hint": "Look at Dr Tran's first turn."
+    },
+    {
+      "id": "q2",
+      "prompt": "What legal principle does Dr Tran cite?",
+      "options": [
+        "The death penalty",
+        "Informed consent in reverse — a competent adult must consent to being informed",
+        "Doctor-patient confidentiality",
+        "The Hippocratic oath"
+      ],
+      "answerIndex": 1,
+      "explanation": "'It is the principle of informed consent in reverse: they have to consent to being informed.'",
+      "hint": "Look at Dr Tran's reply about whether it is allowed."
+    },
+    {
+      "id": "q3",
+      "prompt": "What is the prognosis?",
+      "options": [
+        "A year",
+        "About three months",
+        "Three weeks",
+        "Indefinite"
+      ],
+      "answerIndex": 1,
+      "explanation": "'About three months.'",
+      "hint": "Look at Dr Tran's short reply."
+    },
+    {
+      "id": "q4",
+      "prompt": "How long has Mai already known her father would refuse?",
+      "options": [
+        "A day",
+        "A year — he told her last year that if it came to this, he would not want to know",
+        "A week",
+        "Just now"
+      ],
+      "answerIndex": 1,
+      "explanation": "'He told me last year… I have known he would refuse for a year.'",
+      "hint": "Look at Mai's turn after she hears 'three months'."
+    },
+    {
+      "id": "q5",
+      "prompt": "Does refusing to be told usually shorten or lengthen life, according to Dr Tran?",
+      "options": [
+        "Shortens by half",
+        "Overall effect on length is small — energy may be retained for a while, but the patient may miss conscious decisions; quality depends on what they would have done with the knowledge",
+        "Lengthens significantly",
+        "Has no effect at all"
+      ],
+      "answerIndex": 1,
+      "explanation": "Detailed in Dr Tran's longer reply about evidence.",
+      "hint": "Look at Dr Tran's reply about evidence."
+    },
+    {
+      "id": "q6",
+      "prompt": "What does Mai say her father would have done if told?",
+      "options": [
+        "Travelled",
+        "Spent the time organising — lists, instructions, distributions of his small possessions; the last three months would have been 'a project'",
+        "Cried for weeks",
+        "Withdrawn from the family"
+      ],
+      "answerIndex": 1,
+      "explanation": "'He would have spent it organising… If he had been told, he would have done that, and the last three months would have been a project.'",
+      "hint": "Look at Mai's reply about what he would have done."
+    },
+    {
+      "id": "q7",
+      "prompt": "And what does she think he will do without the words?",
+      "options": [
+        "Argue with the family",
+        "Cook for her mother, sit on the balcony in the evening, walk to the river — live, not perform his death",
+        "Stay in bed",
+        "Travel abroad"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Cook for my mother. Sit on the balcony in the evening. Walk to the river… He will be living.'",
+      "hint": "Look at Mai's reply about 'without the words'."
+    },
+    {
+      "id": "q8",
+      "prompt": "What does Mai mean by 'he will not be performing his death'?",
+      "options": [
+        "He cannot act",
+        "Without the words, he will not turn his last months into a self-conscious final performance",
+        "He cannot speak",
+        "He hates theatre"
+      ],
+      "answerIndex": 1,
+      "explanation": "She contrasts the 'project' version with the 'living' version.",
+      "hint": "Look at the contrast between the two options in Mai's two long turns."
+    },
+    {
+      "id": "q9",
+      "prompt": "What is Mai's first option for herself?",
+      "options": [
+        "Tell her father — he would forgive her, probably understand — but she would have taken from him the gift he asked for; she does not think she has the right",
+        "Run away",
+        "Lie about a different illness",
+        "Stop seeing him"
+      ],
+      "answerIndex": 0,
+      "explanation": "Detailed in her turn after 'What are your choices?'",
+      "hint": "Look at her first option."
+    },
+    {
+      "id": "q10",
+      "prompt": "What is her second option?",
+      "options": [
+        "Not telling him — but she carries it alone, performs a slightly different daughter for three months; heavy but lighter than what he would have carried",
+        "Telling her mother",
+        "Calling other relatives",
+        "Filing a complaint"
+      ],
+      "answerIndex": 0,
+      "explanation": "Her second long turn about choices.",
+      "hint": "Look at her second option."
+    },
+    {
+      "id": "q11",
+      "prompt": "What is the third option Dr Tran offers?",
+      "options": [
+        "Tell him over the phone",
+        "Tell her father she also does not want to know — even though she does; they would share the same blindfold; not quite honest, but 'a kind of fairness'",
+        "Bring in a counsellor",
+        "Withdraw treatment"
+      ],
+      "answerIndex": 1,
+      "explanation": "'You could tell him you also do not want to know — even though you do.'",
+      "hint": "Look at Dr Tran's late suggestion."
+    },
+    {
+      "id": "q12",
+      "prompt": "How does Dr Tran characterise the third option morally?",
+      "options": [
+        "Fully honest",
+        "Not honest, exactly — but a kind of fairness",
+        "Illegal",
+        "The only right choice"
+      ],
+      "answerIndex": 1,
+      "explanation": "'It is not honest, exactly. But it is a kind of fairness.'",
+      "hint": "Same turn."
+    },
+    {
+      "id": "q13",
+      "prompt": "What does Dr Tran tell Mai at the end?",
+      "options": [
+        "Decide now",
+        "Take a few days; whatever she decides, she can come back; he will respect either choice",
+        "Get a second opinion",
+        "Pay first"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Take a few days. Whatever you decide, you can come back to me. I will respect either choice.'",
+      "hint": "Look at the very last turn."
+    },
+    {
+      "id": "q14",
+      "prompt": "Which paraphrase is closer to the central ethical move of the dialogue?",
+      "options": [
+        "Patients should always be told their prognosis without question.",
+        "A competent adult's choice not to know is a real choice deserving respect; what becomes harder is the choice of those around them about how to live alongside that decision.",
+        "Family members should always lie to dying patients.",
+        "Doctors should not be involved in family decisions."
+      ],
+      "answerIndex": 1,
+      "explanation": "The whole dialogue turns on respecting the father's choice and then working through what Mai herself must do.",
+      "hint": "Look at how Dr Tran frames the right to refuse, and how Mai weighs her options."
+    },
+    {
+      "id": "q15",
+      "prompt": "Which of these is the dialogue NOT claiming?",
+      "options": [
+        "That a competent adult has the right to refuse information about their own diagnosis",
+        "That patients who do not know may sometimes retain more energy for a while",
+        "That the family should automatically tell the patient the truth, regardless of his wishes",
+        "That telling a different lie ('I also don't want to know') can be a form of fairness, not honesty"
+      ],
+      "answerIndex": 2,
+      "explanation": "Mai explicitly says, 'I do not think I have the right' to take the gift away.",
+      "hint": "Look at Mai's reply about telling him."
+    },
+    {
+      "id": "q16",
+      "prompt": "What is the tone of the consultation?",
+      "options": [
+        "Cold and clinical",
+        "Patient, careful, and morally serious — the doctor names options, names trade-offs, and explicitly hands the decision back to Mai",
+        "Sentimental and tearful",
+        "Bureaucratic"
+      ],
+      "answerIndex": 1,
+      "explanation": "He waits before delivering the number, names the third option as a 'fairness' rather than a lie, and refuses to decide for her.",
+      "hint": "Notice how he pauses, qualifies, and ends."
+    }
   ],
   "criticalThinkingQuestion": "Mai says, 'I would have taken from him the gift he asked for. I do not think I have the right.' Think of a time someone close to you chose not to know something. Was their choice fully theirs, or did it become yours by default? What did you owe them in either direction?"
 }

@@ -5,63 +5,260 @@
   "summary": "A translator brings a stuck poem to the poet who wrote it. He surprises her by telling her to break it — and by explaining, gently, what an honest translation actually is.",
   "format": "dialogue",
   "body": [
-    { "speaker": "Linh", "text": "Bác Hải, I am rendering your poem 'October Doorway' into English. I have a problem I would like to ask you about — but I am embarrassed to." },
-    { "speaker": "Bác Hai", "text": "Embarrassed? Why?" },
-    { "speaker": "Linh", "text": "Because I think part of your poem cannot be translated, and I do not know what to do with it." },
-    { "speaker": "Bác Hai", "text": "Sit down. We have an hour. Show me the part." },
-    { "speaker": "Linh", "text": "The third stanza. The lines about the doorway in October. In Vietnamese, there is a single word — 'hanh' — which carries the cool late-autumn northern wind, the smell of dry leaves, the feeling of needing a thin scarf but not a coat. I have tried for two days. I have written 'crisp', 'brisk', 'autumnal'. None of them work." },
-    { "speaker": "Bác Hai", "text": "None of them will work." },
-    { "speaker": "Linh", "text": "I was afraid of that." },
-    { "speaker": "Bác Hai", "text": "Don't be afraid. It is what it is. English does not have hanh, just as Vietnamese does not have 'wistful'. We exchange one set of holes for another. The Russians lose all their cases coming into English. The Germans lose half their compound structure. The English lose, going into Vietnamese, the strange pleasure of stacking three modal verbs in a row. Every direction loses something. The pretence that translation is a transfer without loss is the first lie of the trade." },
-    { "speaker": "Linh", "text": "But the poem turns on that word. If I lose hanh, I lose the doorway." },
-    { "speaker": "Bác Hai", "text": "Then lose the doorway." },
-    { "speaker": "Linh", "text": "I cannot lose the doorway. The whole poem is the doorway." },
-    { "speaker": "Bác Hai", "text": "Then change the poem." },
-    { "speaker": "Linh", "text": "Bác. You are asking me to write a different poem under your name." },
-    { "speaker": "Bác Hai", "text": "I am asking you to write the English poem that the Vietnamese poem would have been if I had been born in Northumberland in 1955. That is the only honest translation. The pretence that the English-speaker can have my poem without writing a new poem with me is what cheapens translation everywhere." },
-    { "speaker": "Linh", "text": "Then what are you, in the new poem?" },
-    { "speaker": "Bác Hai", "text": "A ghost the translator borrows from." },
-    { "speaker": "Linh", "text": "That is a generous way of putting it." },
-    { "speaker": "Bác Hai", "text": "It is also the truth. Now — what English word do you have for late October that is local enough to mean something? Not 'crisp'. Crisp is dead. Words die when they get tired. They get tired when too many writers use them lazily, for too many decades, until the inside of the word is hollowed out and only the shape remains. What do English-speaking northern people actually feel in October?" },
-    { "speaker": "Linh", "text": "They talk about 'first proper coat' weather. The week when you put on the coat for the first time and feel grown-up again." },
-    { "speaker": "Bác Hai", "text": "There. Use that. Build the doorway out of the first-coat morning, not out of hanh. You are not lying to the English reader. You are telling them where the doorway is, in a city they can find." },
-    { "speaker": "Linh", "text": "And the Vietnamese reader who reads my translation back into Vietnamese — what do they get?" },
-    { "speaker": "Bác Hai", "text": "A different poem. They should read the original. The translation is for the people who cannot." },
-    { "speaker": "Linh", "text": "I never thought of it that way." },
-    { "speaker": "Bác Hai", "text": "Most translators do not, and we punish them by giving them prizes for fidelity to the wrong thing. They are faithful to the dictionary. They are unfaithful to the doorway." },
-    { "speaker": "Linh", "text": "What do I do with the title?" },
-    { "speaker": "Bác Hai", "text": "Keep the title. Titles can travel. Doorways are doorways everywhere. The trouble is always in the third stanza." },
-    { "speaker": "Linh", "text": "Thank you. I have one more question, if I may." },
-    { "speaker": "Bác Hai", "text": "Always." },
-    { "speaker": "Linh", "text": "When I do this — when I rewrite the poem so it can live in English — am I a translator at all? Or am I a co-author who is being too modest about it?" },
-    { "speaker": "Bác Hai", "text": "You are a translator. A co-author who is being too modest is what an honest translator is." }
+    {
+      "speaker": "Linh",
+      "text": "Bác Hải, I am rendering your poem 'October Doorway' into English. I have a problem I would like to ask you about — but I am embarrassed to."
+    },
+    {
+      "speaker": "Bác Hai",
+      "text": "Embarrassed? Why?"
+    },
+    {
+      "speaker": "Linh",
+      "text": "Because I think part of your poem cannot be translated, and I do not know what to do with it."
+    },
+    {
+      "speaker": "Bác Hai",
+      "text": "Sit down. We have an hour. Show me the part."
+    },
+    {
+      "speaker": "Linh",
+      "text": "The third stanza. The lines about the doorway in October. In Vietnamese, there is a single word — 'hanh' — which carries the cool late-autumn northern wind, the smell of dry leaves, the feeling of needing a thin scarf but not a coat. I have tried for two days. I have written 'crisp', 'brisk', 'autumnal'. None of them work."
+    },
+    {
+      "speaker": "Bác Hai",
+      "text": "None of them will work."
+    },
+    {
+      "speaker": "Linh",
+      "text": "I was afraid of that."
+    },
+    {
+      "speaker": "Bác Hai",
+      "text": "Don't be afraid. It is what it is. English does not have hanh, just as Vietnamese does not have 'wistful'. We exchange one set of holes for another. The Russians lose all their cases coming into English. The Germans lose half their compound structure. The English lose, going into Vietnamese, the strange pleasure of stacking three modal verbs in a row. Every direction loses something. The pretence that translation is a transfer without loss is the first lie of the trade."
+    },
+    {
+      "speaker": "Linh",
+      "text": "But the poem turns on that word. If I lose hanh, I lose the doorway."
+    },
+    {
+      "speaker": "Bác Hai",
+      "text": "Then lose the doorway."
+    },
+    {
+      "speaker": "Linh",
+      "text": "I cannot lose the doorway. The whole poem is the doorway."
+    },
+    {
+      "speaker": "Bác Hai",
+      "text": "Then change the poem."
+    },
+    {
+      "speaker": "Linh",
+      "text": "Bác. You are asking me to write a different poem under your name."
+    },
+    {
+      "speaker": "Bác Hai",
+      "text": "I am asking you to write the English poem that the Vietnamese poem would have been if I had been born in Northumberland in 1955. That is the only honest translation. The pretence that the English-speaker can have my poem without writing a new poem with me is what cheapens translation everywhere."
+    },
+    {
+      "speaker": "Linh",
+      "text": "Then what are you, in the new poem?"
+    },
+    {
+      "speaker": "Bác Hai",
+      "text": "A ghost the translator borrows from."
+    },
+    {
+      "speaker": "Linh",
+      "text": "That is a generous way of putting it."
+    },
+    {
+      "speaker": "Bác Hai",
+      "text": "It is also the truth. Now — what English word do you have for late October that is local enough to mean something? Not 'crisp'. Crisp is dead. Words die when they get tired. They get tired when too many writers use them lazily, for too many decades, until the inside of the word is hollowed out and only the shape remains. What do English-speaking northern people actually feel in October?"
+    },
+    {
+      "speaker": "Linh",
+      "text": "They talk about 'first proper coat' weather. The week when you put on the coat for the first time and feel grown-up again."
+    },
+    {
+      "speaker": "Bác Hai",
+      "text": "There. Use that. Build the doorway out of the first-coat morning, not out of hanh. You are not lying to the English reader. You are telling them where the doorway is, in a city they can find."
+    },
+    {
+      "speaker": "Linh",
+      "text": "And the Vietnamese reader who reads my translation back into Vietnamese — what do they get?"
+    },
+    {
+      "speaker": "Bác Hai",
+      "text": "A different poem. They should read the original. The translation is for the people who cannot."
+    },
+    {
+      "speaker": "Linh",
+      "text": "I never thought of it that way."
+    },
+    {
+      "speaker": "Bác Hai",
+      "text": "Most translators do not, and we punish them by giving them prizes for fidelity to the wrong thing. They are faithful to the dictionary. They are unfaithful to the doorway."
+    },
+    {
+      "speaker": "Linh",
+      "text": "What do I do with the title?"
+    },
+    {
+      "speaker": "Bác Hai",
+      "text": "Keep the title. Titles can travel. Doorways are doorways everywhere. The trouble is always in the third stanza."
+    },
+    {
+      "speaker": "Linh",
+      "text": "Thank you. I have one more question, if I may."
+    },
+    {
+      "speaker": "Bác Hai",
+      "text": "Always."
+    },
+    {
+      "speaker": "Linh",
+      "text": "When I do this — when I rewrite the poem so it can live in English — am I a translator at all? Or am I a co-author who is being too modest about it?"
+    },
+    {
+      "speaker": "Bác Hai",
+      "text": "You are a translator. A co-author who is being too modest is what an honest translator is."
+    }
   ],
-  "tags": ["Translation", "Poetry", "Language"],
+  "tags": [
+    "Translation",
+    "Poetry",
+    "Language"
+  ],
   "annotations": [
-    { "phrase": "rendering", "meaningVi": "chuyển ngữ, dịch thuật (đặc biệt trong văn học — nhấn mạnh quá trình tái tạo, không chỉ chuyển đổi ngôn từ)", "pronunciation": "/ˈren.dər.ɪŋ/" },
-    { "phrase": "stanza", "meaningVi": "khổ thơ (đơn vị cấu trúc của bài thơ, tương đương đoạn văn trong văn xuôi)", "pronunciation": "/ˈstæn.zə/" },
-    { "phrase": "scarf", "meaningVi": "khăn quàng cổ" },
-    { "phrase": "fidelity", "meaningVi": "sự trung thành tuyệt đối (với bản gốc, với nguyên tắc); độ chân thực trong dịch thuật", "pronunciation": "/fɪˈdel.ɪ.ti/" },
-    { "phrase": "co-author", "meaningVi": "đồng tác giả (người cùng tạo ra một tác phẩm)", "pronunciation": "/ˌkəʊˈɔː.θər/" },
-    { "phrase": "modest", "meaningVi": "khiêm tốn, không phô trương (về bản thân hay đóng góp của mình)" },
-    { "phrase": "the pretence that", "meaningVi": "sự giả vờ rằng, ảo tưởng rằng (cấu trúc dùng để bác bỏ một giả định sai — văn phong trang trọng, học thuật)" },
-    { "phrase": "a transfer without loss", "meaningVi": "sự chuyển giao không mất mát (hàm ý lý tưởng hóa không thực tế trong dịch thuật)" },
-    { "phrase": "the first lie of the trade", "meaningVi": "lời nói dối đầu tiên của nghề (thành ngữ ngụ ý một ảo tưởng nền tảng trong một lĩnh vực nghề nghiệp)" },
-    { "phrase": "the poem turns on that word", "meaningVi": "bài thơ xoay quanh từ đó, cốt lõi của bài thơ phụ thuộc vào từ đó (to turn on = phụ thuộc then chốt vào)" },
-    { "phrase": "cheapens translation everywhere", "meaningVi": "làm mất giá trị của nghề dịch thuật khắp nơi (to cheapen = hạ thấp giá trị, làm rẻ rúng)" },
-    { "phrase": "hollowed out", "meaningVi": "bị khoét rỗng, mất đi nội dung thực chất bên trong (dùng ẩn dụ để mô tả từ ngữ hay khái niệm đã mất đi sức mạnh nguyên bản)" },
-    { "phrase": "only the shape remains", "meaningVi": "chỉ còn lại hình dạng bên ngoài (ám chỉ sự rỗng tuếch — hình thức giữ nguyên nhưng ý nghĩa/hồn đã mất)" },
-    { "phrase": "local enough to mean something", "meaningVi": "đủ gắn với địa phương để thực sự có ý nghĩa (nhấn mạnh rằng từ ngữ có sức mạnh nhờ tính cụ thể, văn hóa, không phải nghĩa từ điển trung tính)" },
-    { "phrase": "a generous way of putting it", "meaningVi": "một cách diễn đạt rộng lượng (thể hiện sự đánh giá cao cách nói của người khác — lịch sự, tao nhã)" },
-    { "phrase": "faithful to the dictionary", "meaningVi": "trung thành với từ điển (tức là dịch sát nghĩa đen mà bỏ qua tinh thần của văn bản — thường được dùng như một lời phê phán)" },
-    { "phrase": "unfaithful to the doorway", "meaningVi": "phản bội ý tứ cốt lõi của tác phẩm (doorway dùng như ẩn dụ cho tinh thần, chiều sâu, cảm xúc trung tâm của bài thơ)" },
-    { "phrase": "we punish them by giving them prizes", "meaningVi": "chúng ta trừng phạt họ bằng cách trao giải thưởng (nghịch lý tu từ — giải thưởng thực ra là hình phạt vì khuyến khích hành vi sai lầm)" },
-    { "phrase": "wistful", "meaningVi": "buồn man mác, nuối tiếc nhẹ nhàng về điều gì đó đã qua (từ Anh không có tương đương chính xác trong tiếng Việt)", "pronunciation": "/ˈwɪst.fəl/" },
-    { "phrase": "autumnal", "meaningVi": "thuộc về mùa thu, mang hơi thở mùa thu (từ trang trọng, văn phong thơ ca hoặc văn xuôi văn học)", "pronunciation": "/ɔːˈtʌm.nəl/" },
-    { "phrase": "compound structure", "meaningVi": "cấu trúc ghép (trong ngôn ngữ học: từ hoặc câu được tạo thành từ nhiều thành phần, đặc trưng của tiếng Đức)" },
-    { "phrase": "stacking three modal verbs in a row", "meaningVi": "xếp chồng ba động từ khuyết thiếu liên tiếp (đặc điểm cú pháp độc đáo của tiếng Anh không tồn tại trong tiếng Việt)" },
-    { "phrase": "borrows from", "meaningVi": "mượn từ, vay lấy từ (ẩn dụ: người dịch không sở hữu giọng điệu nhà thơ mà chỉ mượn tạm để tạo ra bản dịch)" },
-    { "phrase": "titles can travel", "meaningVi": "tiêu đề có thể vượt biên giới ngôn ngữ (ẩn dụ: một số yếu tố trong văn học dễ dịch hơn vì mang tính phổ quát)" }
+    {
+      "phrase": "rendering",
+      "meaningVi": "chuyển ngữ, dịch thuật (đặc biệt trong văn học — nhấn mạnh quá trình tái tạo, không chỉ chuyển đổi ngôn từ)",
+      "pronunciation": "/ˈren.dər.ɪŋ/"
+    },
+    {
+      "phrase": "stanza",
+      "meaningVi": "khổ thơ (đơn vị cấu trúc của bài thơ, tương đương đoạn văn trong văn xuôi)",
+      "pronunciation": "/ˈstæn.zə/"
+    },
+    {
+      "phrase": "scarf",
+      "meaningVi": "khăn quàng cổ"
+    },
+    {
+      "phrase": "fidelity",
+      "meaningVi": "sự trung thành tuyệt đối (với bản gốc, với nguyên tắc); độ chân thực trong dịch thuật",
+      "pronunciation": "/fɪˈdel.ɪ.ti/"
+    },
+    {
+      "phrase": "co-author",
+      "meaningVi": "đồng tác giả (người cùng tạo ra một tác phẩm)",
+      "pronunciation": "/ˌkəʊˈɔː.θər/"
+    },
+    {
+      "phrase": "modest",
+      "meaningVi": "khiêm tốn, không phô trương (về bản thân hay đóng góp của mình)"
+    },
+    {
+      "phrase": "the pretence that",
+      "meaningVi": "sự giả vờ rằng, ảo tưởng rằng (cấu trúc dùng để bác bỏ một giả định sai — văn phong trang trọng, học thuật)"
+    },
+    {
+      "phrase": "a transfer without loss",
+      "meaningVi": "sự chuyển giao không mất mát (hàm ý lý tưởng hóa không thực tế trong dịch thuật)"
+    },
+    {
+      "phrase": "the first lie of the trade",
+      "meaningVi": "lời nói dối đầu tiên của nghề (thành ngữ ngụ ý một ảo tưởng nền tảng trong một lĩnh vực nghề nghiệp)"
+    },
+    {
+      "phrase": "the poem turns on that word",
+      "meaningVi": "bài thơ xoay quanh từ đó, cốt lõi của bài thơ phụ thuộc vào từ đó (to turn on = phụ thuộc then chốt vào)"
+    },
+    {
+      "phrase": "cheapens translation everywhere",
+      "meaningVi": "làm mất giá trị của nghề dịch thuật khắp nơi (to cheapen = hạ thấp giá trị, làm rẻ rúng)"
+    },
+    {
+      "phrase": "hollowed out",
+      "meaningVi": "bị khoét rỗng, mất đi nội dung thực chất bên trong (dùng ẩn dụ để mô tả từ ngữ hay khái niệm đã mất đi sức mạnh nguyên bản)"
+    },
+    {
+      "phrase": "only the shape remains",
+      "meaningVi": "chỉ còn lại hình dạng bên ngoài (ám chỉ sự rỗng tuếch — hình thức giữ nguyên nhưng ý nghĩa/hồn đã mất)"
+    },
+    {
+      "phrase": "local enough to mean something",
+      "meaningVi": "đủ gắn với địa phương để thực sự có ý nghĩa (nhấn mạnh rằng từ ngữ có sức mạnh nhờ tính cụ thể, văn hóa, không phải nghĩa từ điển trung tính)"
+    },
+    {
+      "phrase": "a generous way of putting it",
+      "meaningVi": "một cách diễn đạt rộng lượng (thể hiện sự đánh giá cao cách nói của người khác — lịch sự, tao nhã)"
+    },
+    {
+      "phrase": "faithful to the dictionary",
+      "meaningVi": "trung thành với từ điển (tức là dịch sát nghĩa đen mà bỏ qua tinh thần của văn bản — thường được dùng như một lời phê phán)"
+    },
+    {
+      "phrase": "unfaithful to the doorway",
+      "meaningVi": "phản bội ý tứ cốt lõi của tác phẩm (doorway dùng như ẩn dụ cho tinh thần, chiều sâu, cảm xúc trung tâm của bài thơ)"
+    },
+    {
+      "phrase": "we punish them by giving them prizes",
+      "meaningVi": "chúng ta trừng phạt họ bằng cách trao giải thưởng (nghịch lý tu từ — giải thưởng thực ra là hình phạt vì khuyến khích hành vi sai lầm)"
+    },
+    {
+      "phrase": "wistful",
+      "meaningVi": "buồn man mác, nuối tiếc nhẹ nhàng về điều gì đó đã qua (từ Anh không có tương đương chính xác trong tiếng Việt)",
+      "pronunciation": "/ˈwɪst.fəl/"
+    },
+    {
+      "phrase": "autumnal",
+      "meaningVi": "thuộc về mùa thu, mang hơi thở mùa thu (từ trang trọng, văn phong thơ ca hoặc văn xuôi văn học)",
+      "pronunciation": "/ɔːˈtʌm.nəl/"
+    },
+    {
+      "phrase": "compound structure",
+      "meaningVi": "cấu trúc ghép (trong ngôn ngữ học: từ hoặc câu được tạo thành từ nhiều thành phần, đặc trưng của tiếng Đức)"
+    },
+    {
+      "phrase": "stacking three modal verbs in a row",
+      "meaningVi": "xếp chồng ba động từ khuyết thiếu liên tiếp (đặc điểm cú pháp độc đáo của tiếng Anh không tồn tại trong tiếng Việt)"
+    },
+    {
+      "phrase": "borrows from",
+      "meaningVi": "mượn từ, vay lấy từ (ẩn dụ: người dịch không sở hữu giọng điệu nhà thơ mà chỉ mượn tạm để tạo ra bản dịch)"
+    },
+    {
+      "phrase": "titles can travel",
+      "meaningVi": "tiêu đề có thể vượt biên giới ngôn ngữ (ẩn dụ: một số yếu tố trong văn học dễ dịch hơn vì mang tính phổ quát)"
+    },
+    {
+      "phrase": "exchange one set of holes",
+      "meaningVi": "đánh đổi một tập hợp lỗ hổng này"
+    },
+    {
+      "phrase": "thin scarf but not a coat",
+      "meaningVi": "khăn quàng mỏng nhưng không phải áo khoác"
+    },
+    {
+      "phrase": "cannot be translated",
+      "meaningVi": "không thể dịch được"
+    },
+    {
+      "phrase": "the third stanza",
+      "meaningVi": "khổ thơ thứ ba"
+    },
+    {
+      "phrase": "hanh",
+      "meaningVi": "hanh (từ tiếng Việt chỉ kiểu lạnh se sẽ, khô ráo)",
+      "pronunciation": "/haɲ/"
+    },
+    {
+      "phrase": "The Russians lose all their cases",
+      "meaningVi": "Người Nga mất toàn bộ các cách chia (trong ngữ pháp)"
+    }
   ],
   "grammarNotes": [
     {
@@ -73,42 +270,394 @@
   "cloze": {
     "template": "Linh: Bác Hải, I am {{b1}} your poem 'October Doorway' into English. I have a problem I would like to ask you about — but I am embarrassed to.\nBác Hai: Embarrassed? Why?\nLinh: Because I think part of your poem cannot be translated, and I do not know what to do with it.\nBác Hai: Sit down. We have an hour. Show me the part.\nLinh: The third {{b2}}. The lines about the doorway in October. In Vietnamese, there is a single word — 'hanh' — which carries the cool late-autumn northern wind, the smell of dry leaves, the feeling of needing a thin {{b3}} but not a coat. I have tried for two days. I have written 'crisp', 'brisk', 'autumnal'. None of them work.\nBác Hai: None of them will work.\nLinh: I was {{b4}} of that.\nBác Hai: Don't be afraid. It is what it is. English does not have hanh, just as Vietnamese does not have 'wistful'. We exchange one set of {{b5}} for another. The Russians lose all their cases coming into English. The Germans lose half their compound structure. The English lose, going into Vietnamese, the strange pleasure of stacking three modal verbs in a row. Every direction loses something. The pretence that translation is a transfer without loss is the first lie of the trade.\nLinh: But the poem turns on that word. If I lose hanh, I lose the {{b6}}.\nBác Hai: Then lose the doorway.\nLinh: I cannot lose the doorway. The whole poem is the doorway.\nBác Hai: Then change the poem.\nLinh: Bác. You are asking me to write a different poem under your name.\nBác Hai: I am asking you to write the English poem that the Vietnamese poem would have been if I had been born in Northumberland in 1955. That is the only honest translation. The pretence that the English-speaker can have my poem without writing a new poem with me is what cheapens translation everywhere.\nLinh: Then what are you, in the new poem?\nBác Hai: A {{b7}} the translator borrows from.\nLinh: That is a generous way of putting it.\nBác Hai: It is also the truth. Now — what English word do you have for late October that is local enough to mean something? Not '{{b8}}'. Crisp is dead. Words die when they get tired. They get tired when too many writers use them lazily, for too many decades, until the inside of the word is hollowed out and only the shape remains. What do English-speaking northern people actually feel in October?\nLinh: They talk about 'first proper {{b9}}' weather. The week when you put on the coat for the first time and feel grown-up again.\nBác Hai: There. Use that. Build the doorway out of the first-coat morning, not out of hanh. You are not {{b10}} to the English reader. You are telling them where the doorway is, in a city they can find.\nLinh: And the Vietnamese reader who reads my translation back into Vietnamese — what do they get?\nBác Hai: A different poem. They should read the {{b11}}. The translation is for the people who cannot.\nLinh: I never thought of it that way.\nBác Hai: Most translators do not, and we punish them by giving them prizes for {{b12}} to the wrong thing. They are faithful to the dictionary. They are unfaithful to the doorway.\nLinh: What do I do with the {{b13}}?\nBác Hai: Keep the title. Titles can {{b14}}. Doorways are doorways everywhere. The trouble is always in the third stanza.\nLinh: Thank you. I have one more question, if I may.\nBác Hai: Always.\nLinh: When I do this — when I rewrite the poem so it can live in English — am I a translator at all? Or am I a {{b15}} who is being too modest about it?\nBác Hai: You are a translator. A co-author who is being too {{b16}} is what an honest translator is.",
     "blanks": [
-      { "id": "b1", "options": ["rendering", "selling", "burning", "writing"], "answerIndex": 0, "explanation": "Rendering — translating (especially of literary work) — into English." },
-      { "id": "b2", "options": ["stanza", "page", "chapter", "verse"], "answerIndex": 0, "explanation": "The third stanza is where the untranslatable word sits." },
-      { "id": "b3", "options": ["coat", "shoe", "scarf", "hat"], "answerIndex": 2, "explanation": "Needing a thin scarf but not a coat — the very specific feel of 'hanh'." },
-      { "id": "b4", "options": ["afraid", "happy", "sure", "tired"], "answerIndex": 0, "explanation": "Linh: 'I was afraid of that.'" },
-      { "id": "b5", "options": ["holes", "doors", "songs", "names"], "answerIndex": 0, "explanation": "'We exchange one set of holes for another.' Every language has gaps; translation moves them around." },
-      { "id": "b6", "options": ["doorway", "key", "ladder", "shadow"], "answerIndex": 0, "explanation": "Without 'hanh', Linh fears she loses the doorway — the poem's central image." },
-      { "id": "b7", "options": ["ghost", "stranger", "saint", "ruler"], "answerIndex": 0, "explanation": "'A ghost the translator borrows from.' The poet becomes a presence the translator works with." },
-      { "id": "b8", "options": ["crisp", "broken", "old", "warm"], "answerIndex": 0, "explanation": "Bác Hai rejects 'crisp' — 'Crisp is dead.' He wants a word that still has local meaning." },
-      { "id": "b9", "options": ["coat", "hat", "shoe", "bag"], "answerIndex": 0, "explanation": "'First proper coat' weather — the English equivalent moment, located in northern speech." },
-      { "id": "b10", "options": ["selling", "shouting", "lying", "praying"], "answerIndex": 2, "explanation": "'You are not lying to the English reader. You are telling them where the doorway is.'" },
-      { "id": "b11", "options": ["copy", "original", "answer", "rule"], "answerIndex": 1, "explanation": "Vietnamese readers should read the original. The translation is for those who cannot." },
-      { "id": "b12", "options": ["fidelity", "speed", "cheapness", "loyalty"], "answerIndex": 0, "explanation": "Prizes are given for fidelity to the wrong thing — the dictionary, not the doorway." },
-      { "id": "b13", "options": ["address", "title", "stamp", "subject"], "answerIndex": 1, "explanation": "Linh asks what to do with the title — 'October Doorway'." },
-      { "id": "b14", "options": ["travel", "die", "argue", "shine"], "answerIndex": 0, "explanation": "'Titles can travel.' Doorways are doorways everywhere — but the third stanza is where the work is." },
-      { "id": "b15", "options": ["co-author", "tourist", "judge", "thief"], "answerIndex": 0, "explanation": "Linh asks if she is really a co-author who is being too modest." },
-      { "id": "b16", "options": ["loud", "famous", "modest", "fast"], "answerIndex": 2, "explanation": "'A co-author who is being too modest is what an honest translator is.'" }
+      {
+        "id": "b1",
+        "options": [
+          "rendering",
+          "selling",
+          "burning",
+          "writing"
+        ],
+        "answerIndex": 0,
+        "explanation": "Rendering — translating (especially of literary work) — into English."
+      },
+      {
+        "id": "b2",
+        "options": [
+          "stanza",
+          "page",
+          "chapter",
+          "verse"
+        ],
+        "answerIndex": 0,
+        "explanation": "The third stanza is where the untranslatable word sits."
+      },
+      {
+        "id": "b3",
+        "options": [
+          "coat",
+          "shoe",
+          "scarf",
+          "hat"
+        ],
+        "answerIndex": 2,
+        "explanation": "Needing a thin scarf but not a coat — the very specific feel of 'hanh'."
+      },
+      {
+        "id": "b4",
+        "options": [
+          "afraid",
+          "happy",
+          "sure",
+          "tired"
+        ],
+        "answerIndex": 0,
+        "explanation": "Linh: 'I was afraid of that.'"
+      },
+      {
+        "id": "b5",
+        "options": [
+          "holes",
+          "doors",
+          "songs",
+          "names"
+        ],
+        "answerIndex": 0,
+        "explanation": "'We exchange one set of holes for another.' Every language has gaps; translation moves them around."
+      },
+      {
+        "id": "b6",
+        "options": [
+          "doorway",
+          "key",
+          "ladder",
+          "shadow"
+        ],
+        "answerIndex": 0,
+        "explanation": "Without 'hanh', Linh fears she loses the doorway — the poem's central image."
+      },
+      {
+        "id": "b7",
+        "options": [
+          "ghost",
+          "stranger",
+          "saint",
+          "ruler"
+        ],
+        "answerIndex": 0,
+        "explanation": "'A ghost the translator borrows from.' The poet becomes a presence the translator works with."
+      },
+      {
+        "id": "b8",
+        "options": [
+          "crisp",
+          "broken",
+          "old",
+          "warm"
+        ],
+        "answerIndex": 0,
+        "explanation": "Bác Hai rejects 'crisp' — 'Crisp is dead.' He wants a word that still has local meaning."
+      },
+      {
+        "id": "b9",
+        "options": [
+          "coat",
+          "hat",
+          "shoe",
+          "bag"
+        ],
+        "answerIndex": 0,
+        "explanation": "'First proper coat' weather — the English equivalent moment, located in northern speech."
+      },
+      {
+        "id": "b10",
+        "options": [
+          "selling",
+          "shouting",
+          "lying",
+          "praying"
+        ],
+        "answerIndex": 2,
+        "explanation": "'You are not lying to the English reader. You are telling them where the doorway is.'"
+      },
+      {
+        "id": "b11",
+        "options": [
+          "copy",
+          "original",
+          "answer",
+          "rule"
+        ],
+        "answerIndex": 1,
+        "explanation": "Vietnamese readers should read the original. The translation is for those who cannot."
+      },
+      {
+        "id": "b12",
+        "options": [
+          "fidelity",
+          "speed",
+          "cheapness",
+          "loyalty"
+        ],
+        "answerIndex": 0,
+        "explanation": "Prizes are given for fidelity to the wrong thing — the dictionary, not the doorway."
+      },
+      {
+        "id": "b13",
+        "options": [
+          "address",
+          "title",
+          "stamp",
+          "subject"
+        ],
+        "answerIndex": 1,
+        "explanation": "Linh asks what to do with the title — 'October Doorway'."
+      },
+      {
+        "id": "b14",
+        "options": [
+          "travel",
+          "die",
+          "argue",
+          "shine"
+        ],
+        "answerIndex": 0,
+        "explanation": "'Titles can travel.' Doorways are doorways everywhere — but the third stanza is where the work is."
+      },
+      {
+        "id": "b15",
+        "options": [
+          "co-author",
+          "tourist",
+          "judge",
+          "thief"
+        ],
+        "answerIndex": 0,
+        "explanation": "Linh asks if she is really a co-author who is being too modest."
+      },
+      {
+        "id": "b16",
+        "options": [
+          "loud",
+          "famous",
+          "modest",
+          "fast"
+        ],
+        "answerIndex": 2,
+        "explanation": "'A co-author who is being too modest is what an honest translator is.'"
+      }
     ]
   },
   "translationVi": "Linh: Bác Hải ơi, cháu đang dịch bài thơ 'Cửa Tháng Mười' của bác sang tiếng Anh. Cháu có một vấn đề muốn hỏi bác — nhưng cháu ngại ạ.\nBác Hai: Ngại? Sao thế?\nLinh: Vì cháu nghĩ một phần bài thơ của bác không thể dịch được, và cháu không biết nên làm gì.\nBác Hai: Ngồi xuống. Mình có một giờ. Đưa bác xem chỗ đó.\nLinh: Khổ thơ thứ ba. Những câu về cánh cửa vào tháng Mười. Trong tiếng Việt có một từ — 'hanh' — chứa cả ngọn gió cuối thu của miền Bắc, mùi của lá khô, cảm giác cần một chiếc khăn mỏng nhưng chưa cần áo khoác. Cháu đã thử suốt hai ngày. Cháu viết 'crisp', 'brisk', 'autumnal'. Không từ nào hợp cả.\nBác Hai: Không từ nào hợp đâu.\nLinh: Cháu sợ là vậy.\nBác Hai: Đừng sợ. Là thế thôi. Tiếng Anh không có 'hanh', cũng như tiếng Việt không có 'wistful'. Chúng ta đổi bộ lỗ này lấy bộ lỗ khác.\nLinh: Nhưng bài thơ xoay quanh từ ấy. Nếu cháu mất 'hanh', cháu mất cánh cửa.\nBác Hai: Vậy thì mất cánh cửa đi.\nLinh: Cháu không thể mất cánh cửa. Cả bài thơ là cánh cửa.\nBác Hai: Vậy thì đổi bài thơ.\nLinh: Bác. Bác đang bảo cháu viết một bài thơ khác dưới tên bác.\nBác Hai: Bác đang bảo cháu viết bài thơ tiếng Anh mà bài thơ tiếng Việt đáng lẽ đã trở thành nếu bác sinh ra ở Northumberland năm 1955. Đó là cách dịch trung thực duy nhất. Sự giả vờ rằng người nói tiếng Anh có thể có bài thơ của bác mà không cần cùng bác viết một bài thơ mới — đó là cái làm rẻ rúng nghề dịch ở khắp mọi nơi.\nLinh: Vậy trong bài thơ mới, bác là gì?\nBác Hai: Một bóng ma mà người dịch mượn lại.\nLinh: Bác nói thế thật rộng lượng.\nBác Hai: Cũng là sự thật. Giờ — cháu có từ tiếng Anh nào cho cuối tháng Mười đủ địa phương để có nghĩa không? Không phải 'crisp'. 'Crisp' chết rồi. Người miền bắc nói tiếng Anh thật sự cảm thấy gì vào tháng Mười?\nLinh: Họ nói về 'first proper coat' weather. Cái tuần mà ta mặc áo khoác lần đầu và lại cảm thấy mình là người lớn.\nBác Hai: Đấy. Dùng cái đó. Dựng cánh cửa từ buổi sáng mặc áo khoác đầu tiên, chứ không phải từ 'hanh'. Cháu không nói dối người đọc tiếng Anh. Cháu chỉ chỉ cho họ cánh cửa nằm ở đâu, trong một thành phố mà họ có thể tìm thấy.\nLinh: Và người đọc tiếng Việt đọc bản dịch của cháu rồi dịch ngược về tiếng Việt — họ nhận được gì?\nBác Hai: Một bài thơ khác. Họ nên đọc nguyên bản. Bản dịch dành cho những người không thể đọc nguyên bản.\nLinh: Cháu chưa bao giờ nghĩ theo cách đó.\nBác Hai: Hầu hết người dịch không nghĩ như vậy, và chúng ta phạt họ bằng cách trao giải cho sự trung thành sai chỗ. Họ trung thành với từ điển. Họ phản bội cánh cửa.\nLinh: Cháu làm gì với tựa đề ạ?\nBác Hai: Giữ tựa đề. Tựa đề có thể đi qua biên giới. Cánh cửa thì ở đâu cũng là cánh cửa. Rắc rối luôn ở khổ thơ thứ ba.\nLinh: Cảm ơn bác. Cháu xin hỏi thêm một câu nữa, nếu được.\nBác Hai: Bất cứ lúc nào.\nLinh: Khi cháu làm việc này — khi cháu viết lại bài thơ để nó có thể sống trong tiếng Anh — cháu có phải là người dịch không? Hay cháu là một đồng tác giả đang quá khiêm tốn về điều đó?\nBác Hai: Cháu là người dịch. Một đồng tác giả đang quá khiêm tốn — đó chính là người dịch trung thực.",
   "questions": [
-    { "id": "q1", "prompt": "What is Linh embarrassed to admit to Bác Hai?", "options": ["She lost the poem", "She believes part of his poem cannot be translated, and she does not know what to do", "She wrote a parody", "She wants to be paid more"], "answerIndex": 1, "explanation": "'I think part of your poem cannot be translated, and I do not know what to do with it.'", "hint": "Look at Linh's first long turn." },
-    { "id": "q2", "prompt": "What is the untranslatable element?", "options": ["The title", "A single Vietnamese word, 'hanh', which carries the late-autumn northern wind, dry leaves, needing a thin scarf but not a coat", "The author's name", "The number of lines"], "answerIndex": 1, "explanation": "Linh describes 'hanh' in her first long turn.", "hint": "Look at Linh's description of the third stanza." },
-    { "id": "q3", "prompt": "What does Bác Hai say about 'crisp', 'brisk', and 'autumnal'?", "options": ["They are perfect", "None of them will work — and that is fine; English does not have hanh, just as Vietnamese does not have 'wistful'", "She should use all three", "They are too modern"], "answerIndex": 1, "explanation": "'None of them will work.' / 'English does not have hanh, just as Vietnamese does not have wistful.'", "hint": "Look at Bác Hai's reply." },
-    { "id": "q4", "prompt": "What metaphor does he use for the gaps between languages?", "options": ["Rivers", "Holes — 'We exchange one set of holes for another'", "Bridges", "Mountains"], "answerIndex": 1, "explanation": "'We exchange one set of holes for another.'", "hint": "Look at the same turn." },
-    { "id": "q5", "prompt": "When Linh says she cannot lose 'the doorway', what does Bác Hai tell her to do?", "options": ["Keep the original word", "Change the poem — write the English poem the Vietnamese poem would have been if he had been born in Northumberland in 1955", "Stop translating", "Add a footnote"], "answerIndex": 1, "explanation": "'I am asking you to write the English poem that the Vietnamese poem would have been if I had been born in Northumberland in 1955.'", "hint": "Look at his longest turn early in the dialogue." },
-    { "id": "q6", "prompt": "How does Bác Hai describe his own role in the translation?", "options": ["The owner", "A ghost the translator borrows from", "A passenger", "A judge"], "answerIndex": 1, "explanation": "'A ghost the translator borrows from.'", "hint": "Look at his reply to 'Then what are you, in the new poem?'" },
-    { "id": "q7", "prompt": "What English phrase does Linh offer as a local equivalent for 'hanh'?", "options": ["'Indian summer'", "'First proper coat' weather", "'Pumpkin spice season'", "'Back-to-school' week"], "answerIndex": 1, "explanation": "'They talk about \"first proper coat\" weather.'", "hint": "Look at Linh's reply about late October." },
-    { "id": "q8", "prompt": "What does Bác Hai say about lying to the English reader by changing the word?", "options": ["She is lying — and should stop translating", "She is not lying — she is telling them where the doorway is, in a city they can find", "It is unavoidable lying", "It depends on the reader"], "answerIndex": 1, "explanation": "'You are not lying to the English reader. You are telling them where the doorway is, in a city they can find.'", "hint": "Look at his turn after Linh's 'first proper coat' phrase." },
-    { "id": "q9", "prompt": "What happens, in Bác Hai's view, if a Vietnamese reader reads the English translation back into Vietnamese?", "options": ["They get the same poem", "They get a different poem — and they should read the original; translation is for people who cannot", "They are cheated", "They become translators"], "answerIndex": 1, "explanation": "'A different poem. They should read the original. The translation is for the people who cannot.'", "hint": "Look at the exchange about the Vietnamese reader." },
-    { "id": "q10", "prompt": "Why does Bác Hai say translators win prizes for the wrong thing?", "options": ["The prizes are corrupt", "They are faithful to the dictionary but unfaithful to the doorway", "Prizes go to the wealthy only", "Nobody really reads them"], "answerIndex": 1, "explanation": "'They are faithful to the dictionary. They are unfaithful to the doorway.'", "hint": "Look at his turn about prizes." },
-    { "id": "q11", "prompt": "What does Bác Hai say about the title 'October Doorway'?", "options": ["Change it completely", "Keep it — 'Titles can travel. Doorways are doorways everywhere. The trouble is always in the third stanza.'", "Use a different word for October", "Drop the title"], "answerIndex": 1, "explanation": "'Keep the title. Titles can travel.'", "hint": "Look at his reply to 'What do I do with the title?'" },
-    { "id": "q12", "prompt": "What is Linh's final question?", "options": ["How much she will be paid", "Whether she is a translator at all, or a co-author who is being too modest", "Whether she can use his pen name", "Whether to use rhyme"], "answerIndex": 1, "explanation": "'Am I a translator at all? Or am I a co-author who is being too modest about it?'", "hint": "Look at the very last question Linh asks." },
-    { "id": "q13", "prompt": "What is Bác Hai's answer to that last question?", "options": ["She is a co-author", "She is a translator — and 'a co-author who is being too modest is what an honest translator is'", "She is a thief", "She is a ghost"], "answerIndex": 1, "explanation": "'You are a translator. A co-author who is being too modest is what an honest translator is.'", "hint": "Look at the very last line." },
-    { "id": "q14", "prompt": "Which paraphrase is closer to Bác Hai's central view?", "options": ["A faithful translation reproduces every word exactly.", "An honest translation rewrites the poem so it can stand in the new language — fidelity to the doorway, not the dictionary.", "Translation is impossible and should not be attempted.", "Only the author should translate their own work."], "answerIndex": 1, "explanation": "His repeated phrase 'fidelity to the doorway' sums this up.", "hint": "Look at his turn about prizes and dictionaries." },
-    { "id": "q15", "prompt": "Which of these is Bác Hai NOT claiming?", "options": ["That every language has gaps the other languages do not have", "That translators are essentially co-authors", "That the original word 'hanh' can be preserved if the translator tries harder", "That titles travel more easily than third stanzas"], "answerIndex": 2, "explanation": "He explicitly says 'None of them will work' — no English word can preserve 'hanh'.", "hint": "Look at his early reply about 'crisp', 'brisk', and 'autumnal'." },
-    { "id": "q16", "prompt": "What is the tone of the conversation?", "options": ["Hostile — Bác Hai attacks Linh", "Light and joking", "Generous and exacting — Bác Hai treats Linh as a peer, gives her permission to break the literal poem, and ends by naming her honestly", "Cold and bureaucratic"], "answerIndex": 2, "explanation": "Bác Hai calls Linh's framing 'a generous way of putting it' and grants her a strong, dignifying role at the end.", "hint": "Notice how he handles her embarrassment and her last, scared question." }
+    {
+      "id": "q1",
+      "prompt": "What is Linh embarrassed to admit to Bác Hai?",
+      "options": [
+        "She lost the poem",
+        "She believes part of his poem cannot be translated, and she does not know what to do",
+        "She wrote a parody",
+        "She wants to be paid more"
+      ],
+      "answerIndex": 1,
+      "explanation": "'I think part of your poem cannot be translated, and I do not know what to do with it.'",
+      "hint": "Look at Linh's first long turn."
+    },
+    {
+      "id": "q2",
+      "prompt": "What is the untranslatable element?",
+      "options": [
+        "The title",
+        "A single Vietnamese word, 'hanh', which carries the late-autumn northern wind, dry leaves, needing a thin scarf but not a coat",
+        "The author's name",
+        "The number of lines"
+      ],
+      "answerIndex": 1,
+      "explanation": "Linh describes 'hanh' in her first long turn.",
+      "hint": "Look at Linh's description of the third stanza."
+    },
+    {
+      "id": "q3",
+      "prompt": "What does Bác Hai say about 'crisp', 'brisk', and 'autumnal'?",
+      "options": [
+        "They are perfect",
+        "None of them will work — and that is fine; English does not have hanh, just as Vietnamese does not have 'wistful'",
+        "She should use all three",
+        "They are too modern"
+      ],
+      "answerIndex": 1,
+      "explanation": "'None of them will work.' / 'English does not have hanh, just as Vietnamese does not have wistful.'",
+      "hint": "Look at Bác Hai's reply."
+    },
+    {
+      "id": "q4",
+      "prompt": "What metaphor does he use for the gaps between languages?",
+      "options": [
+        "Rivers",
+        "Holes — 'We exchange one set of holes for another'",
+        "Bridges",
+        "Mountains"
+      ],
+      "answerIndex": 1,
+      "explanation": "'We exchange one set of holes for another.'",
+      "hint": "Look at the same turn."
+    },
+    {
+      "id": "q5",
+      "prompt": "When Linh says she cannot lose 'the doorway', what does Bác Hai tell her to do?",
+      "options": [
+        "Keep the original word",
+        "Change the poem — write the English poem the Vietnamese poem would have been if he had been born in Northumberland in 1955",
+        "Stop translating",
+        "Add a footnote"
+      ],
+      "answerIndex": 1,
+      "explanation": "'I am asking you to write the English poem that the Vietnamese poem would have been if I had been born in Northumberland in 1955.'",
+      "hint": "Look at his longest turn early in the dialogue."
+    },
+    {
+      "id": "q6",
+      "prompt": "How does Bác Hai describe his own role in the translation?",
+      "options": [
+        "The owner",
+        "A ghost the translator borrows from",
+        "A passenger",
+        "A judge"
+      ],
+      "answerIndex": 1,
+      "explanation": "'A ghost the translator borrows from.'",
+      "hint": "Look at his reply to 'Then what are you, in the new poem?'"
+    },
+    {
+      "id": "q7",
+      "prompt": "What English phrase does Linh offer as a local equivalent for 'hanh'?",
+      "options": [
+        "'Indian summer'",
+        "'First proper coat' weather",
+        "'Pumpkin spice season'",
+        "'Back-to-school' week"
+      ],
+      "answerIndex": 1,
+      "explanation": "'They talk about \"first proper coat\" weather.'",
+      "hint": "Look at Linh's reply about late October."
+    },
+    {
+      "id": "q8",
+      "prompt": "What does Bác Hai say about lying to the English reader by changing the word?",
+      "options": [
+        "She is lying — and should stop translating",
+        "She is not lying — she is telling them where the doorway is, in a city they can find",
+        "It is unavoidable lying",
+        "It depends on the reader"
+      ],
+      "answerIndex": 1,
+      "explanation": "'You are not lying to the English reader. You are telling them where the doorway is, in a city they can find.'",
+      "hint": "Look at his turn after Linh's 'first proper coat' phrase."
+    },
+    {
+      "id": "q9",
+      "prompt": "What happens, in Bác Hai's view, if a Vietnamese reader reads the English translation back into Vietnamese?",
+      "options": [
+        "They get the same poem",
+        "They get a different poem — and they should read the original; translation is for people who cannot",
+        "They are cheated",
+        "They become translators"
+      ],
+      "answerIndex": 1,
+      "explanation": "'A different poem. They should read the original. The translation is for the people who cannot.'",
+      "hint": "Look at the exchange about the Vietnamese reader."
+    },
+    {
+      "id": "q10",
+      "prompt": "Why does Bác Hai say translators win prizes for the wrong thing?",
+      "options": [
+        "The prizes are corrupt",
+        "They are faithful to the dictionary but unfaithful to the doorway",
+        "Prizes go to the wealthy only",
+        "Nobody really reads them"
+      ],
+      "answerIndex": 1,
+      "explanation": "'They are faithful to the dictionary. They are unfaithful to the doorway.'",
+      "hint": "Look at his turn about prizes."
+    },
+    {
+      "id": "q11",
+      "prompt": "What does Bác Hai say about the title 'October Doorway'?",
+      "options": [
+        "Change it completely",
+        "Keep it — 'Titles can travel. Doorways are doorways everywhere. The trouble is always in the third stanza.'",
+        "Use a different word for October",
+        "Drop the title"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Keep the title. Titles can travel.'",
+      "hint": "Look at his reply to 'What do I do with the title?'"
+    },
+    {
+      "id": "q12",
+      "prompt": "What is Linh's final question?",
+      "options": [
+        "How much she will be paid",
+        "Whether she is a translator at all, or a co-author who is being too modest",
+        "Whether she can use his pen name",
+        "Whether to use rhyme"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Am I a translator at all? Or am I a co-author who is being too modest about it?'",
+      "hint": "Look at the very last question Linh asks."
+    },
+    {
+      "id": "q13",
+      "prompt": "What is Bác Hai's answer to that last question?",
+      "options": [
+        "She is a co-author",
+        "She is a translator — and 'a co-author who is being too modest is what an honest translator is'",
+        "She is a thief",
+        "She is a ghost"
+      ],
+      "answerIndex": 1,
+      "explanation": "'You are a translator. A co-author who is being too modest is what an honest translator is.'",
+      "hint": "Look at the very last line."
+    },
+    {
+      "id": "q14",
+      "prompt": "Which paraphrase is closer to Bác Hai's central view?",
+      "options": [
+        "A faithful translation reproduces every word exactly.",
+        "An honest translation rewrites the poem so it can stand in the new language — fidelity to the doorway, not the dictionary.",
+        "Translation is impossible and should not be attempted.",
+        "Only the author should translate their own work."
+      ],
+      "answerIndex": 1,
+      "explanation": "His repeated phrase 'fidelity to the doorway' sums this up.",
+      "hint": "Look at his turn about prizes and dictionaries."
+    },
+    {
+      "id": "q15",
+      "prompt": "Which of these is Bác Hai NOT claiming?",
+      "options": [
+        "That every language has gaps the other languages do not have",
+        "That translators are essentially co-authors",
+        "That the original word 'hanh' can be preserved if the translator tries harder",
+        "That titles travel more easily than third stanzas"
+      ],
+      "answerIndex": 2,
+      "explanation": "He explicitly says 'None of them will work' — no English word can preserve 'hanh'.",
+      "hint": "Look at his early reply about 'crisp', 'brisk', and 'autumnal'."
+    },
+    {
+      "id": "q16",
+      "prompt": "What is the tone of the conversation?",
+      "options": [
+        "Hostile — Bác Hai attacks Linh",
+        "Light and joking",
+        "Generous and exacting — Bác Hai treats Linh as a peer, gives her permission to break the literal poem, and ends by naming her honestly",
+        "Cold and bureaucratic"
+      ],
+      "answerIndex": 2,
+      "explanation": "Bác Hai calls Linh's framing 'a generous way of putting it' and grants her a strong, dignifying role at the end.",
+      "hint": "Notice how he handles her embarrassment and her last, scared question."
+    }
   ],
   "criticalThinkingQuestion": "Bác Hai says an honest translator is 'a co-author who is being too modest'. Think of a time you carried someone else's meaning across — into another language, another generation, another field. Were you faithful to their words, or to what their words were doing? Did the receiving side gain more from the literal version, or from the version that landed?"
 }

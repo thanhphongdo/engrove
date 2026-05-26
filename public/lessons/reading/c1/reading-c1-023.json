@@ -5,60 +5,250 @@
   "summary": "A forensic accountant has finished her audit of a recently-deceased uncle's estate. The heir wants to know whether the truth in the books should stay in the books.",
   "format": "dialogue",
   "body": [
-    { "speaker": "Bao", "text": "Thank you for coming on a Saturday." },
-    { "speaker": "Linh", "text": "It is the only quiet day. Where would you like to begin?" },
-    { "speaker": "Bao", "text": "With the question that is keeping me up. Is the report ready?" },
-    { "speaker": "Linh", "text": "It is. Three hundred and fourteen pages. You can have it on Monday. Before you do, decide what you want from me." },
-    { "speaker": "Bao", "text": "I want the truth. I am the executor." },
-    { "speaker": "Linh", "text": "You will get the truth either way. There is a version that contains everything I have found, and a version that contains everything I am required by law and by professional standards to disclose. They are not the same document. The difference is what I am asking you about." },
-    { "speaker": "Bao", "text": "Is the difference large?" },
-    { "speaker": "Linh", "text": "It is small in pages and large in consequence. There are four entries, between 1991 and 2003, that suggest your uncle helped a former employee through a financial difficulty in a way the tax authority might still treat as undeclared income. He is dead. He paid tax on most of his life. The total amount is not large. The employee, who is now sixty-eight, lives in the apartment your uncle helped her buy. She raised two children there." },
-    { "speaker": "Bao", "text": "Why do I have to know this?" },
-    { "speaker": "Linh", "text": "Because you are the executor, and because in three months you will be asked, under oath, whether the financial picture I have presented is complete. If the omission stays, you will, in a strict reading, not have answered honestly." },
-    { "speaker": "Bao", "text": "What is the harm if it goes in?" },
-    { "speaker": "Linh", "text": "The estate will probably owe back tax with interest. The woman in the apartment may be subpoenaed to testify about what your uncle paid her and why. Whatever she has built around the apartment becomes part of a public record. Your uncle's name appears in a paragraph that summarises his life as a tax case." },
-    { "speaker": "Bao", "text": "And if it stays out?" },
-    { "speaker": "Linh", "text": "Then you will sign a document that omits something material. The omission is small. The omission is also a lie, in a technical sense. If anyone ever audits the audit, both of our reputations are damaged, and yours legally as well." },
-    { "speaker": "Bao", "text": "What do you usually advise?" },
-    { "speaker": "Linh", "text": "In ninety per cent of cases, I advise full disclosure. It is the cleanest position. The remaining ten per cent are like this one. They are cases where disclosure produces a real harm to a third party that the disclosure itself does not remedy. The state collects back tax that does not bring your uncle back; an old woman loses peace; nobody is repaired." },
-    { "speaker": "Bao", "text": "So you are saying I should bury the four entries." },
-    { "speaker": "Linh", "text": "No. I am saying that whichever choice you make is a moral one, and that the form of the report cannot do that work for you. Most clients in your position want me to make the choice. I do not, on principle. I will not put my name on a sealed version unless you have understood, in writing, what is sealed and what your duties as executor are." },
-    { "speaker": "Bao", "text": "May I ask what you would do, if you were me?" },
-    { "speaker": "Linh", "text": "You may, but I cannot answer cleanly. I will tell you what I have learned. Full disclosure is almost always defensible and almost always proportionate. The harder position is defending non-disclosure when the harm is small, distant, and recoverable, and the third party cannot defend themselves. There is a coherent ethical position for that choice. It is not the one the law assumes you will take. It is the position you have to be ready to defend, by yourself, for the rest of your life, if it is ever opened." },
-    { "speaker": "Bao", "text": "What do most clients choose?" },
-    { "speaker": "Linh", "text": "Full disclosure. Mostly because they want to sleep. A small minority bury, and of those, a smaller minority can defend the choice ten years later. The ones who can defend it later usually insisted, at the time, on understanding exactly what they were burying and whom they were protecting. They did not pretend they had no choice. They chose, and they remembered the choosing." },
-    { "speaker": "Bao", "text": "Linh, I think I want to talk to the woman in the apartment first." },
-    { "speaker": "Linh", "text": "That is a better instinct than either choice. She is in some sense the affected party. She is also the person whose right to know is least often considered." },
-    { "speaker": "Bao", "text": "Will you be at the meeting?" },
-    { "speaker": "Linh", "text": "If you want me there. I will not speak. But I will witness what you tell her and what you ask of her. That keeps me on the right side of the line. And it makes whatever you decide afterwards harder to forget." },
-    { "speaker": "Bao", "text": "Set it up for next week." },
-    { "speaker": "Linh", "text": "I will. One last thing. Whatever you decide, you should decide in the meeting, not before it. People who walk in with a decision usually defend it. People who walk in with a question usually hear the answer." }
+    {
+      "speaker": "Bao",
+      "text": "Thank you for coming on a Saturday."
+    },
+    {
+      "speaker": "Linh",
+      "text": "It is the only quiet day. Where would you like to begin?"
+    },
+    {
+      "speaker": "Bao",
+      "text": "With the question that is keeping me up. Is the report ready?"
+    },
+    {
+      "speaker": "Linh",
+      "text": "It is. Three hundred and fourteen pages. You can have it on Monday. Before you do, decide what you want from me."
+    },
+    {
+      "speaker": "Bao",
+      "text": "I want the truth. I am the executor."
+    },
+    {
+      "speaker": "Linh",
+      "text": "You will get the truth either way. There is a version that contains everything I have found, and a version that contains everything I am required by law and by professional standards to disclose. They are not the same document. The difference is what I am asking you about."
+    },
+    {
+      "speaker": "Bao",
+      "text": "Is the difference large?"
+    },
+    {
+      "speaker": "Linh",
+      "text": "It is small in pages and large in consequence. There are four entries, between 1991 and 2003, that suggest your uncle helped a former employee through a financial difficulty in a way the tax authority might still treat as undeclared income. He is dead. He paid tax on most of his life. The total amount is not large. The employee, who is now sixty-eight, lives in the apartment your uncle helped her buy. She raised two children there."
+    },
+    {
+      "speaker": "Bao",
+      "text": "Why do I have to know this?"
+    },
+    {
+      "speaker": "Linh",
+      "text": "Because you are the executor, and because in three months you will be asked, under oath, whether the financial picture I have presented is complete. If the omission stays, you will, in a strict reading, not have answered honestly."
+    },
+    {
+      "speaker": "Bao",
+      "text": "What is the harm if it goes in?"
+    },
+    {
+      "speaker": "Linh",
+      "text": "The estate will probably owe back tax with interest. The woman in the apartment may be subpoenaed to testify about what your uncle paid her and why. Whatever she has built around the apartment becomes part of a public record. Your uncle's name appears in a paragraph that summarises his life as a tax case."
+    },
+    {
+      "speaker": "Bao",
+      "text": "And if it stays out?"
+    },
+    {
+      "speaker": "Linh",
+      "text": "Then you will sign a document that omits something material. The omission is small. The omission is also a lie, in a technical sense. If anyone ever audits the audit, both of our reputations are damaged, and yours legally as well."
+    },
+    {
+      "speaker": "Bao",
+      "text": "What do you usually advise?"
+    },
+    {
+      "speaker": "Linh",
+      "text": "In ninety per cent of cases, I advise full disclosure. It is the cleanest position. The remaining ten per cent are like this one. They are cases where disclosure produces a real harm to a third party that the disclosure itself does not remedy. The state collects back tax that does not bring your uncle back; an old woman loses peace; nobody is repaired."
+    },
+    {
+      "speaker": "Bao",
+      "text": "So you are saying I should bury the four entries."
+    },
+    {
+      "speaker": "Linh",
+      "text": "No. I am saying that whichever choice you make is a moral one, and that the form of the report cannot do that work for you. Most clients in your position want me to make the choice. I do not, on principle. I will not put my name on a sealed version unless you have understood, in writing, what is sealed and what your duties as executor are."
+    },
+    {
+      "speaker": "Bao",
+      "text": "May I ask what you would do, if you were me?"
+    },
+    {
+      "speaker": "Linh",
+      "text": "You may, but I cannot answer cleanly. I will tell you what I have learned. Full disclosure is almost always defensible and almost always proportionate. The harder position is defending non-disclosure when the harm is small, distant, and recoverable, and the third party cannot defend themselves. There is a coherent ethical position for that choice. It is not the one the law assumes you will take. It is the position you have to be ready to defend, by yourself, for the rest of your life, if it is ever opened."
+    },
+    {
+      "speaker": "Bao",
+      "text": "What do most clients choose?"
+    },
+    {
+      "speaker": "Linh",
+      "text": "Full disclosure. Mostly because they want to sleep. A small minority bury, and of those, a smaller minority can defend the choice ten years later. The ones who can defend it later usually insisted, at the time, on understanding exactly what they were burying and whom they were protecting. They did not pretend they had no choice. They chose, and they remembered the choosing."
+    },
+    {
+      "speaker": "Bao",
+      "text": "Linh, I think I want to talk to the woman in the apartment first."
+    },
+    {
+      "speaker": "Linh",
+      "text": "That is a better instinct than either choice. She is in some sense the affected party. She is also the person whose right to know is least often considered."
+    },
+    {
+      "speaker": "Bao",
+      "text": "Will you be at the meeting?"
+    },
+    {
+      "speaker": "Linh",
+      "text": "If you want me there. I will not speak. But I will witness what you tell her and what you ask of her. That keeps me on the right side of the line. And it makes whatever you decide afterwards harder to forget."
+    },
+    {
+      "speaker": "Bao",
+      "text": "Set it up for next week."
+    },
+    {
+      "speaker": "Linh",
+      "text": "I will. One last thing. Whatever you decide, you should decide in the meeting, not before it. People who walk in with a decision usually defend it. People who walk in with a question usually hear the answer."
+    }
   ],
-  "tags": ["Ethics", "Money", "Inheritance"],
+  "tags": [
+    "Ethics",
+    "Money",
+    "Inheritance"
+  ],
   "annotations": [
-    { "phrase": "executor", "meaningVi": "người thi hành di chúc", "pronunciation": "/ɪɡˈzek.jə.tər/" },
-    { "phrase": "subpoenaed", "meaningVi": "bị triệu tập theo trát toà", "pronunciation": "/səˈpiː.nəd/" },
-    { "phrase": "omits something material", "meaningVi": "bỏ sót một điều có tính trọng yếu về mặt pháp lý" },
-    { "phrase": "full disclosure", "meaningVi": "khai báo / công khai đầy đủ toàn bộ thông tin" },
-    { "phrase": "third party", "meaningVi": "bên thứ ba (người ngoài giao dịch chính)" },
-    { "phrase": "ethical position", "meaningVi": "lập trường đạo đức" },
-    { "phrase": "recoverable", "meaningVi": "có thể khắc phục hoặc thu hồi lại được", "pronunciation": "/rɪˈkʌv.ər.ə.bəl/" },
-    { "phrase": "keeping me up", "meaningVi": "khiến tôi mất ngủ, làm tôi trằn trọc lo âu" },
-    { "phrase": "professional standards", "meaningVi": "tiêu chuẩn hành nghề, quy tắc nghề nghiệp" },
-    { "phrase": "large in consequence", "meaningVi": "lớn về hậu quả / có hệ luỵ đáng kể" },
-    { "phrase": "undeclared income", "meaningVi": "thu nhập chưa khai báo với cơ quan thuế" },
-    { "phrase": "under oath", "meaningVi": "dưới lời tuyên thệ, có tính ràng buộc pháp lý" },
-    { "phrase": "public record", "meaningVi": "hồ sơ công khai, tài liệu lưu trữ của nhà nước" },
-    { "phrase": "in a technical sense", "meaningVi": "theo nghĩa kỹ thuật / theo định nghĩa chặt chẽ" },
-    { "phrase": "in a strict reading", "meaningVi": "theo cách diễn giải nghiêm ngặt nhất" },
-    { "phrase": "on principle", "meaningVi": "vì nguyên tắc, vì lý do thuần tuý về nguyên tắc" },
-    { "phrase": "sealed version", "meaningVi": "phiên bản được niêm phong / giữ kín" },
-    { "phrase": "proportionate", "meaningVi": "tương xứng, cân đối với mức độ sự việc", "pronunciation": "/prəˈpɔː.ʃən.ət/" },
-    { "phrase": "coherent ethical position", "meaningVi": "lập trường đạo đức nhất quán và có thể lập luận được" },
-    { "phrase": "affected party", "meaningVi": "bên bị ảnh hưởng, đương sự chịu tác động" },
-    { "phrase": "right side of the line", "meaningVi": "đúng phía của ranh giới (tuân thủ giới hạn đạo đức / pháp lý)" },
-    { "phrase": "in some sense", "meaningVi": "theo một nghĩa nào đó (hạn từ mềm hoá nhận định)" },
-    { "phrase": "non-disclosure", "meaningVi": "sự không tiết lộ / việc giữ kín thông tin", "pronunciation": "/ˌnɒn.dɪsˈkləʊ.ʒər/" }
+    {
+      "phrase": "executor",
+      "meaningVi": "người thi hành di chúc",
+      "pronunciation": "/ɪɡˈzek.jə.tər/"
+    },
+    {
+      "phrase": "subpoenaed",
+      "meaningVi": "bị triệu tập theo trát toà",
+      "pronunciation": "/səˈpiː.nəd/"
+    },
+    {
+      "phrase": "omits something material",
+      "meaningVi": "bỏ sót một điều có tính trọng yếu về mặt pháp lý"
+    },
+    {
+      "phrase": "full disclosure",
+      "meaningVi": "khai báo / công khai đầy đủ toàn bộ thông tin"
+    },
+    {
+      "phrase": "third party",
+      "meaningVi": "bên thứ ba (người ngoài giao dịch chính)"
+    },
+    {
+      "phrase": "ethical position",
+      "meaningVi": "lập trường đạo đức"
+    },
+    {
+      "phrase": "recoverable",
+      "meaningVi": "có thể khắc phục hoặc thu hồi lại được",
+      "pronunciation": "/rɪˈkʌv.ər.ə.bəl/"
+    },
+    {
+      "phrase": "keeping me up",
+      "meaningVi": "khiến tôi mất ngủ, làm tôi trằn trọc lo âu"
+    },
+    {
+      "phrase": "professional standards",
+      "meaningVi": "tiêu chuẩn hành nghề, quy tắc nghề nghiệp"
+    },
+    {
+      "phrase": "large in consequence",
+      "meaningVi": "lớn về hậu quả / có hệ luỵ đáng kể"
+    },
+    {
+      "phrase": "undeclared income",
+      "meaningVi": "thu nhập chưa khai báo với cơ quan thuế"
+    },
+    {
+      "phrase": "under oath",
+      "meaningVi": "dưới lời tuyên thệ, có tính ràng buộc pháp lý"
+    },
+    {
+      "phrase": "public record",
+      "meaningVi": "hồ sơ công khai, tài liệu lưu trữ của nhà nước"
+    },
+    {
+      "phrase": "in a technical sense",
+      "meaningVi": "theo nghĩa kỹ thuật / theo định nghĩa chặt chẽ"
+    },
+    {
+      "phrase": "in a strict reading",
+      "meaningVi": "theo cách diễn giải nghiêm ngặt nhất"
+    },
+    {
+      "phrase": "on principle",
+      "meaningVi": "vì nguyên tắc, vì lý do thuần tuý về nguyên tắc"
+    },
+    {
+      "phrase": "sealed version",
+      "meaningVi": "phiên bản được niêm phong / giữ kín"
+    },
+    {
+      "phrase": "proportionate",
+      "meaningVi": "tương xứng, cân đối với mức độ sự việc",
+      "pronunciation": "/prəˈpɔː.ʃən.ət/"
+    },
+    {
+      "phrase": "coherent ethical position",
+      "meaningVi": "lập trường đạo đức nhất quán và có thể lập luận được"
+    },
+    {
+      "phrase": "affected party",
+      "meaningVi": "bên bị ảnh hưởng, đương sự chịu tác động"
+    },
+    {
+      "phrase": "right side of the line",
+      "meaningVi": "đúng phía của ranh giới (tuân thủ giới hạn đạo đức / pháp lý)"
+    },
+    {
+      "phrase": "in some sense",
+      "meaningVi": "theo một nghĩa nào đó (hạn từ mềm hoá nhận định)"
+    },
+    {
+      "phrase": "non-disclosure",
+      "meaningVi": "sự không tiết lộ / việc giữ kín thông tin",
+      "pronunciation": "/ˌnɒn.dɪsˈkləʊ.ʒər/"
+    },
+    {
+      "phrase": "harm is small",
+      "meaningVi": "thiệt hại nhỏ"
+    },
+    {
+      "phrase": "harder position",
+      "meaningVi": "lập trường khó bảo vệ hơn"
+    },
+    {
+      "phrase": "ninety per cent",
+      "meaningVi": "chín mươi phần trăm"
+    },
+    {
+      "phrase": "in three months",
+      "meaningVi": "trong ba tháng"
+    },
+    {
+      "phrase": "want me to make the choice",
+      "meaningVi": "muốn tôi đưa ra lựa chọn"
+    },
+    {
+      "phrase": "People who walk in with a question",
+      "meaningVi": "Những người bước vào với một câu hỏi"
+    },
+    {
+      "phrase": "walk in with a decision",
+      "meaningVi": "bước vào với quyết định đã có sẵn"
+    }
   ],
   "grammarNotes": [
     {
@@ -268,22 +458,182 @@
   "cloze": {
     "template": "Bao: Thank you for coming on a Saturday.\nLinh: It is the only quiet day. Where would you like to begin?\nBao: With the question that is keeping me up. Is the {{b1}} ready?\nLinh: It is. Three hundred and fourteen pages. You can have it on Monday. Before you do, decide what you want from me.\nBao: I want the truth. I am the {{b2}}.\nLinh: You will get the truth either way. There is a version that contains everything I have found, and a version that contains everything I am required by law and by professional {{b3}} to disclose. They are not the same document. The difference is what I am asking you about.\nBao: Is the difference large?\nLinh: It is small in pages and large in {{b4}}. There are four entries, between 1991 and 2003, that suggest your uncle helped a former employee through a financial difficulty in a way the tax authority might still treat as undeclared {{b5}}. He is dead. He paid tax on most of his life. The total amount is not large. The employee, who is now sixty-eight, lives in the apartment your uncle helped her buy. She raised two children there.\nBao: Why do I have to know this?\nLinh: Because you are the executor, and because in three months you will be asked, under {{b6}}, whether the financial picture I have presented is complete. If the omission stays, you will, in a strict reading, not have answered honestly.\nBao: What is the harm if it goes in?\nLinh: The estate will probably owe back tax with interest. The woman in the apartment may be {{b7}} to testify about what your uncle paid her and why. Whatever she has built around the apartment becomes part of a public record. Your uncle's name appears in a paragraph that summarises his life as a tax case.\nBao: And if it stays out?\nLinh: Then you will sign a document that omits something {{b8}}. The omission is small. The omission is also a lie, in a technical sense. If anyone ever audits the audit, both of our reputations are damaged, and yours legally as well.\nBao: What do you usually advise?\nLinh: In {{b9}} per cent of cases, I advise full disclosure. It is the cleanest position. The remaining ten per cent are like this one. They are cases where disclosure produces a real harm to a {{b10}} party that the disclosure itself does not remedy. The state collects back tax that does not bring your uncle back; an old woman loses peace; nobody is repaired.\nBao: So you are saying I should bury the four entries.\nLinh: No. I am saying that whichever choice you make is a {{b11}} one, and that the form of the report cannot do that work for you. Most clients in your position want me to make the choice. I do not, on principle. I will not put my name on a sealed version unless you have understood, in writing, what is sealed and what your duties as executor are.\nBao: May I ask what you would do, if you were me?\nLinh: You may, but I cannot answer cleanly. I will tell you what I have learned. Full disclosure is almost always defensible and almost always proportionate. The harder position is defending non-disclosure when the harm is small, distant, and {{b12}}, and the third party cannot defend themselves. There is a coherent ethical position for that choice. It is not the one the law assumes you will take. It is the position you have to be ready to defend, by yourself, for the rest of your life, if it is ever opened.\nBao: What do most clients choose?\nLinh: Full disclosure. Mostly because they want to {{b13}}. A small minority bury, and of those, a smaller minority can defend the choice ten years later. The ones who can defend it later usually insisted, at the time, on understanding exactly what they were burying and whom they were protecting. They did not pretend they had no choice. They chose, and they remembered the choosing.\nBao: Linh, I think I want to talk to the woman in the apartment first.\nLinh: That is a better instinct than either choice. She is in some sense the affected party. She is also the person whose right to {{b14}} is least often considered.\nBao: Will you be at the meeting?\nLinh: If you want me there. I will not speak. But I will witness what you tell her and what you ask of her. That keeps me on the right side of the {{b15}}. And it makes whatever you decide afterwards harder to forget.\nBao: Set it up for next week.\nLinh: I will. One last thing. Whatever you decide, you should decide in the meeting, not {{b16}} it. People who walk in with a decision usually defend it. People who walk in with a question usually hear the answer.",
     "blanks": [
-      { "id": "b1", "options": ["report", "letter", "song", "book"], "answerIndex": 0, "explanation": "Bao asks whether the report is ready." },
-      { "id": "b2", "options": ["executor", "auditor", "judge", "heir"], "answerIndex": 0, "explanation": "He is the executor of the estate." },
-      { "id": "b3", "options": ["standards", "fashion", "memory", "secrets"], "answerIndex": 0, "explanation": "Law and professional standards." },
-      { "id": "b4", "options": ["consequence", "ink", "weather", "fashion"], "answerIndex": 0, "explanation": "Small in pages, large in consequence." },
-      { "id": "b5", "options": ["income", "expense", "tax", "interest"], "answerIndex": 0, "explanation": "Undeclared income." },
-      { "id": "b6", "options": ["oath", "warning", "fee", "lights"], "answerIndex": 0, "explanation": "He will be asked under oath." },
-      { "id": "b7", "options": ["subpoenaed", "celebrated", "translated", "hidden"], "answerIndex": 0, "explanation": "May be subpoenaed to testify." },
-      { "id": "b8", "options": ["material", "decorative", "irrelevant", "secret"], "answerIndex": 0, "explanation": "Omits something material." },
-      { "id": "b9", "options": ["ninety", "fifty", "twenty", "thirty"], "answerIndex": 0, "explanation": "In ninety per cent of cases." },
-      { "id": "b10", "options": ["third", "second", "fourth", "first"], "answerIndex": 0, "explanation": "Harm to a third party." },
-      { "id": "b11", "options": ["moral", "legal", "financial", "personal"], "answerIndex": 0, "explanation": "Whichever choice is a moral one." },
-      { "id": "b12", "options": ["recoverable", "permanent", "obvious", "shouted"], "answerIndex": 0, "explanation": "Small, distant, and recoverable harm." },
-      { "id": "b13", "options": ["sleep", "win", "leave", "forget"], "answerIndex": 0, "explanation": "Mostly because they want to sleep." },
-      { "id": "b14", "options": ["know", "leave", "pay", "win"], "answerIndex": 0, "explanation": "Her right to know." },
-      { "id": "b15", "options": ["line", "river", "wall", "fence"], "answerIndex": 0, "explanation": "On the right side of the line." },
-      { "id": "b16", "options": ["before", "after", "during", "without"], "answerIndex": 0, "explanation": "Decide in the meeting, not before it." }
+      {
+        "id": "b1",
+        "options": [
+          "report",
+          "letter",
+          "song",
+          "book"
+        ],
+        "answerIndex": 0,
+        "explanation": "Bao asks whether the report is ready."
+      },
+      {
+        "id": "b2",
+        "options": [
+          "executor",
+          "auditor",
+          "judge",
+          "heir"
+        ],
+        "answerIndex": 0,
+        "explanation": "He is the executor of the estate."
+      },
+      {
+        "id": "b3",
+        "options": [
+          "standards",
+          "fashion",
+          "memory",
+          "secrets"
+        ],
+        "answerIndex": 0,
+        "explanation": "Law and professional standards."
+      },
+      {
+        "id": "b4",
+        "options": [
+          "consequence",
+          "ink",
+          "weather",
+          "fashion"
+        ],
+        "answerIndex": 0,
+        "explanation": "Small in pages, large in consequence."
+      },
+      {
+        "id": "b5",
+        "options": [
+          "income",
+          "expense",
+          "tax",
+          "interest"
+        ],
+        "answerIndex": 0,
+        "explanation": "Undeclared income."
+      },
+      {
+        "id": "b6",
+        "options": [
+          "oath",
+          "warning",
+          "fee",
+          "lights"
+        ],
+        "answerIndex": 0,
+        "explanation": "He will be asked under oath."
+      },
+      {
+        "id": "b7",
+        "options": [
+          "subpoenaed",
+          "celebrated",
+          "translated",
+          "hidden"
+        ],
+        "answerIndex": 0,
+        "explanation": "May be subpoenaed to testify."
+      },
+      {
+        "id": "b8",
+        "options": [
+          "material",
+          "decorative",
+          "irrelevant",
+          "secret"
+        ],
+        "answerIndex": 0,
+        "explanation": "Omits something material."
+      },
+      {
+        "id": "b9",
+        "options": [
+          "ninety",
+          "fifty",
+          "twenty",
+          "thirty"
+        ],
+        "answerIndex": 0,
+        "explanation": "In ninety per cent of cases."
+      },
+      {
+        "id": "b10",
+        "options": [
+          "third",
+          "second",
+          "fourth",
+          "first"
+        ],
+        "answerIndex": 0,
+        "explanation": "Harm to a third party."
+      },
+      {
+        "id": "b11",
+        "options": [
+          "moral",
+          "legal",
+          "financial",
+          "personal"
+        ],
+        "answerIndex": 0,
+        "explanation": "Whichever choice is a moral one."
+      },
+      {
+        "id": "b12",
+        "options": [
+          "recoverable",
+          "permanent",
+          "obvious",
+          "shouted"
+        ],
+        "answerIndex": 0,
+        "explanation": "Small, distant, and recoverable harm."
+      },
+      {
+        "id": "b13",
+        "options": [
+          "sleep",
+          "win",
+          "leave",
+          "forget"
+        ],
+        "answerIndex": 0,
+        "explanation": "Mostly because they want to sleep."
+      },
+      {
+        "id": "b14",
+        "options": [
+          "know",
+          "leave",
+          "pay",
+          "win"
+        ],
+        "answerIndex": 0,
+        "explanation": "Her right to know."
+      },
+      {
+        "id": "b15",
+        "options": [
+          "line",
+          "river",
+          "wall",
+          "fence"
+        ],
+        "answerIndex": 0,
+        "explanation": "On the right side of the line."
+      },
+      {
+        "id": "b16",
+        "options": [
+          "before",
+          "after",
+          "during",
+          "without"
+        ],
+        "answerIndex": 0,
+        "explanation": "Decide in the meeting, not before it."
+      }
     ]
   },
   "criticalThinkingQuestion": "Linh says that the few people who can defend a 'burial' ten years later are the ones who refused to pretend they had no choice — they chose, and they remembered the choosing. Is there a decision in your own life where you took an easier path while telling yourself you had no choice? What would change if you instead said clearly: 'I had a choice, and this is what I chose, and this is who I was protecting'?"

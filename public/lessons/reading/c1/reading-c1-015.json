@@ -5,62 +5,261 @@
   "summary": "A journalist brings a story to her retired editor. He gives her four questions, then sharpens them — and shows her that the test she is using is not the test she should be using.",
   "format": "dialogue",
   "body": [
-    { "speaker": "Mai", "text": "Bác Linh. Before I file this, I wanted to ask you. It's the kind of thing I would have asked you when you were still my editor." },
-    { "speaker": "Bác Linh", "text": "I'm not your editor any more, Mai. I am tea-drinker on a balcony. Whatever I say is unofficial." },
-    { "speaker": "Mai", "text": "Unofficial is fine. Maybe better." },
-    { "speaker": "Bác Linh", "text": "Show me what you have." },
-    { "speaker": "Mai", "text": "A CEO. Public face for the last three years. Talks publicly about ethics in business. Fifteen years ago, before any of this, he had a brief affair with a junior employee. She was twenty-three. He was thirty-five. He apologised to her at the time. She left the company in good standing. She has, until two weeks ago, said nothing publicly. Now she has spoken to me, on the record. It is messy but defensible." },
-    { "speaker": "Bác Linh", "text": "What is the question you brought up the stairs?" },
-    { "speaker": "Mai", "text": "Whether to publish." },
-    { "speaker": "Bác Linh", "text": "Let me ask you four questions. Each one will tell me something different." },
-    { "speaker": "Mai", "text": "Go." },
-    { "speaker": "Bác Linh", "text": "One. Is the story true, by your reporting standards?" },
-    { "speaker": "Mai", "text": "Yes. Two independent sources. Documentation. Her account is consistent over time and corroborated by the HR record." },
-    { "speaker": "Bác Linh", "text": "Two. Is the story in the public interest, given what he is now publicly saying?" },
-    { "speaker": "Mai", "text": "Yes — narrowly. He has built a brand on workplace ethics. The story is small but it intersects with the brand." },
-    { "speaker": "Bác Linh", "text": "Three. Is the woman herself ready for what publication will do to her?" },
-    { "speaker": "Mai", "text": "She says she is. I have asked her three times in writing. She has a lawyer. She has talked to a counsellor. She wants to speak." },
-    { "speaker": "Bác Linh", "text": "Four. Will the public, if you publish, learn something they cannot learn another way?" },
-    { "speaker": "Mai", "text": "I am not sure. The brand could be punctured by other reporting. The story I have adds a specific human cost that other reporting does not have." },
-    { "speaker": "Bác Linh", "text": "There is your honest answer." },
-    { "speaker": "Mai", "text": "Which is what?" },
-    { "speaker": "Bác Linh", "text": "That you have three strong yeses and one hesitant yes. You do not have a unanimous public-interest case. You have a defensible one." },
-    { "speaker": "Mai", "text": "Should that be enough?" },
-    { "speaker": "Bác Linh", "text": "Twenty years ago I would have said yes. Today I think defensible is not the same as required. Defensible means you can publish without being unethical. Required means the world becomes worse if you do not publish. Most stories I see treat the first as the second. They are not the same. The slip is small, almost invisible. Editors say 'defensible' to lawyers and 'required' to journalists, and the same story exits the building. Over a thousand stories, the trade-off the public was making — the world they were paying for — drifts in a direction they would never have agreed to vote for." },
-    { "speaker": "Mai", "text": "So you would not publish." },
-    { "speaker": "Bác Linh", "text": "I did not say that. I said the test you are using — defensible — is not actually the test you should be using." },
-    { "speaker": "Mai", "text": "What is the test?" },
-    { "speaker": "Bác Linh", "text": "Two questions, sharpened. First: what specifically does this story do that other reporting cannot? Second: what does the woman want from publication, in her own words, and is the want a healthy one?" },
-    { "speaker": "Mai", "text": "On the first I am hesitant. On the second I would have to ask again." },
-    { "speaker": "Bác Linh", "text": "Then file it tomorrow, not tonight. Sleep on the first question. Ask the woman one more time, in her own words, what she wants the story to do. If both answers come back clear, publish. If either remains foggy, do not publish — yet. The story will still be a story in two weeks. The woman will not be retracted in two weeks, but she may be clearer." },
-    { "speaker": "Mai", "text": "Bác. Thank you. I came expecting permission." },
-    { "speaker": "Bác Linh", "text": "I am tea-drinker on a balcony, Mai. I cannot give permission. I can give you the test you are not yet using." }
+    {
+      "speaker": "Mai",
+      "text": "Bác Linh. Before I file this, I wanted to ask you. It's the kind of thing I would have asked you when you were still my editor."
+    },
+    {
+      "speaker": "Bác Linh",
+      "text": "I'm not your editor any more, Mai. I am tea-drinker on a balcony. Whatever I say is unofficial."
+    },
+    {
+      "speaker": "Mai",
+      "text": "Unofficial is fine. Maybe better."
+    },
+    {
+      "speaker": "Bác Linh",
+      "text": "Show me what you have."
+    },
+    {
+      "speaker": "Mai",
+      "text": "A CEO. Public face for the last three years. Talks publicly about ethics in business. Fifteen years ago, before any of this, he had a brief affair with a junior employee. She was twenty-three. He was thirty-five. He apologised to her at the time. She left the company in good standing. She has, until two weeks ago, said nothing publicly. Now she has spoken to me, on the record. It is messy but defensible."
+    },
+    {
+      "speaker": "Bác Linh",
+      "text": "What is the question you brought up the stairs?"
+    },
+    {
+      "speaker": "Mai",
+      "text": "Whether to publish."
+    },
+    {
+      "speaker": "Bác Linh",
+      "text": "Let me ask you four questions. Each one will tell me something different."
+    },
+    {
+      "speaker": "Mai",
+      "text": "Go."
+    },
+    {
+      "speaker": "Bác Linh",
+      "text": "One. Is the story true, by your reporting standards?"
+    },
+    {
+      "speaker": "Mai",
+      "text": "Yes. Two independent sources. Documentation. Her account is consistent over time and corroborated by the HR record."
+    },
+    {
+      "speaker": "Bác Linh",
+      "text": "Two. Is the story in the public interest, given what he is now publicly saying?"
+    },
+    {
+      "speaker": "Mai",
+      "text": "Yes — narrowly. He has built a brand on workplace ethics. The story is small but it intersects with the brand."
+    },
+    {
+      "speaker": "Bác Linh",
+      "text": "Three. Is the woman herself ready for what publication will do to her?"
+    },
+    {
+      "speaker": "Mai",
+      "text": "She says she is. I have asked her three times in writing. She has a lawyer. She has talked to a counsellor. She wants to speak."
+    },
+    {
+      "speaker": "Bác Linh",
+      "text": "Four. Will the public, if you publish, learn something they cannot learn another way?"
+    },
+    {
+      "speaker": "Mai",
+      "text": "I am not sure. The brand could be punctured by other reporting. The story I have adds a specific human cost that other reporting does not have."
+    },
+    {
+      "speaker": "Bác Linh",
+      "text": "There is your honest answer."
+    },
+    {
+      "speaker": "Mai",
+      "text": "Which is what?"
+    },
+    {
+      "speaker": "Bác Linh",
+      "text": "That you have three strong yeses and one hesitant yes. You do not have a unanimous public-interest case. You have a defensible one."
+    },
+    {
+      "speaker": "Mai",
+      "text": "Should that be enough?"
+    },
+    {
+      "speaker": "Bác Linh",
+      "text": "Twenty years ago I would have said yes. Today I think defensible is not the same as required. Defensible means you can publish without being unethical. Required means the world becomes worse if you do not publish. Most stories I see treat the first as the second. They are not the same. The slip is small, almost invisible. Editors say 'defensible' to lawyers and 'required' to journalists, and the same story exits the building. Over a thousand stories, the trade-off the public was making — the world they were paying for — drifts in a direction they would never have agreed to vote for."
+    },
+    {
+      "speaker": "Mai",
+      "text": "So you would not publish."
+    },
+    {
+      "speaker": "Bác Linh",
+      "text": "I did not say that. I said the test you are using — defensible — is not actually the test you should be using."
+    },
+    {
+      "speaker": "Mai",
+      "text": "What is the test?"
+    },
+    {
+      "speaker": "Bác Linh",
+      "text": "Two questions, sharpened. First: what specifically does this story do that other reporting cannot? Second: what does the woman want from publication, in her own words, and is the want a healthy one?"
+    },
+    {
+      "speaker": "Mai",
+      "text": "On the first I am hesitant. On the second I would have to ask again."
+    },
+    {
+      "speaker": "Bác Linh",
+      "text": "Then file it tomorrow, not tonight. Sleep on the first question. Ask the woman one more time, in her own words, what she wants the story to do. If both answers come back clear, publish. If either remains foggy, do not publish — yet. The story will still be a story in two weeks. The woman will not be retracted in two weeks, but she may be clearer."
+    },
+    {
+      "speaker": "Mai",
+      "text": "Bác. Thank you. I came expecting permission."
+    },
+    {
+      "speaker": "Bác Linh",
+      "text": "I am tea-drinker on a balcony, Mai. I cannot give permission. I can give you the test you are not yet using."
+    }
   ],
-  "tags": ["Journalism", "Ethics", "Decision-making"],
+  "tags": [
+    "Journalism",
+    "Ethics",
+    "Decision-making"
+  ],
   "annotations": [
-    { "phrase": "file", "meaningVi": "nộp / gửi bài báo cho biên tập" },
-    { "phrase": "corroborated", "meaningVi": "được chứng thực bằng nguồn khác", "pronunciation": "/kəˈrɒb.ə.reɪ.tɪd/" },
-    { "phrase": "punctured", "meaningVi": "bị đâm thủng (ở đây nghĩa ẩn dụ: bị vạch trần, sụp đổ)", "pronunciation": "/ˈpʌŋk.tʃəd/" },
-    { "phrase": "unanimous", "meaningVi": "nhất trí, đồng thuận tuyệt đối", "pronunciation": "/juːˈnæn.ɪ.məs/" },
-    { "phrase": "defensible", "meaningVi": "có thể bảo vệ / biện hộ về mặt đạo đức hoặc pháp lý", "pronunciation": "/dɪˈfen.sɪ.bəl/" },
-    { "phrase": "retracted", "meaningVi": "bị rút lại, bị thu hồi (tuyên bố hoặc lời khai)", "pronunciation": "/rɪˈtræk.tɪd/" },
-    { "phrase": "on the record", "meaningVi": "có thể trích dẫn công khai; phát ngôn chính thức được phép đăng" },
-    { "phrase": "in good standing", "meaningVi": "trong tư cách tốt, không bị kỷ luật; rời đi một cách đàng hoàng" },
-    { "phrase": "public interest", "meaningVi": "lợi ích công chúng; tiêu chí đạo đức báo chí xác định tính chính đáng của việc đưa tin" },
-    { "phrase": "intersects with", "meaningVi": "giao cắt với, có điểm chung có liên quan đến (hai vấn đề gặp nhau ở một điểm)" },
-    { "phrase": "human cost", "meaningVi": "cái giá con người phải trả; thiệt hại về mặt cảm xúc, danh dự hoặc cuộc sống cá nhân" },
-    { "phrase": "trade-off", "meaningVi": "sự đánh đổi; lựa chọn chấp nhận mất một thứ để đổi lấy thứ khác" },
-    { "phrase": "drifts in a direction", "meaningVi": "trôi dần về một hướng; thay đổi tích luỹ không ai nhận ra cho đến khi đã đi quá xa" },
-    { "phrase": "exits the building", "meaningVi": "(nghĩa ẩn dụ) được phát hành, lọt ra ngoài; câu chuyện đã rời tòa soạn để đến tay công chúng" },
-    { "phrase": "sleep on", "meaningVi": "ngủ một đêm rồi quyết; trì hoãn có chủ ý để suy nghĩ thêm trước khi hành động", "pronunciation": "/sliːp ɒn/" },
-    { "phrase": "sharpened", "meaningVi": "được mài sắc; được tinh chỉnh cho sắc bén và chính xác hơn (về lập luận, câu hỏi)", "pronunciation": "/ˈʃɑː.pənd/" },
-    { "phrase": "foggy", "meaningVi": "mờ nhạt, chưa rõ ràng; (nghĩa bóng) thiếu sự minh bạch hoặc chắc chắn", "pronunciation": "/ˈfɒɡ.i/" },
-    { "phrase": "the slip is small, almost invisible", "meaningVi": "sự trượt ý nghĩa rất nhỏ, gần như không thể nhận ra — mô tả cách hai khái niệm khác nhau bị dùng lẫn lộn mà không ai để ý" },
-    { "phrase": "brief affair", "meaningVi": "mối quan hệ tình cảm ngoài luồng ngắn ngủi; cuộc tình lén lút trong thời gian ngắn" },
-    { "phrase": "reporting standards", "meaningVi": "chuẩn mực nghề báo; bộ tiêu chí chuyên môn xác định tính xác thực của tin tức" },
-    { "phrase": "in her own words", "meaningVi": "bằng chính lời của cô ấy; không bị diễn giải hay lọc qua người khác — nhấn mạnh tính trung thực nguyên gốc" },
-    { "phrase": "junior employee", "meaningVi": "nhân viên cấp dưới, ít kinh nghiệm hơn; hàm ý chênh lệch quyền lực trong mối quan hệ" },
-    { "phrase": "a healthy one", "meaningVi": "(về động cơ) lành mạnh, không bị thúc đẩy bởi tổn thương, trả thù hay áp lực — tiêu chí đạo đức bổ sung" }
+    {
+      "phrase": "file",
+      "meaningVi": "nộp / gửi bài báo cho biên tập"
+    },
+    {
+      "phrase": "corroborated",
+      "meaningVi": "được chứng thực bằng nguồn khác",
+      "pronunciation": "/kəˈrɒb.ə.reɪ.tɪd/"
+    },
+    {
+      "phrase": "punctured",
+      "meaningVi": "bị đâm thủng (ở đây nghĩa ẩn dụ: bị vạch trần, sụp đổ)",
+      "pronunciation": "/ˈpʌŋk.tʃəd/"
+    },
+    {
+      "phrase": "unanimous",
+      "meaningVi": "nhất trí, đồng thuận tuyệt đối",
+      "pronunciation": "/juːˈnæn.ɪ.məs/"
+    },
+    {
+      "phrase": "defensible",
+      "meaningVi": "có thể bảo vệ / biện hộ về mặt đạo đức hoặc pháp lý",
+      "pronunciation": "/dɪˈfen.sɪ.bəl/"
+    },
+    {
+      "phrase": "retracted",
+      "meaningVi": "bị rút lại, bị thu hồi (tuyên bố hoặc lời khai)",
+      "pronunciation": "/rɪˈtræk.tɪd/"
+    },
+    {
+      "phrase": "on the record",
+      "meaningVi": "có thể trích dẫn công khai; phát ngôn chính thức được phép đăng"
+    },
+    {
+      "phrase": "in good standing",
+      "meaningVi": "trong tư cách tốt, không bị kỷ luật; rời đi một cách đàng hoàng"
+    },
+    {
+      "phrase": "public interest",
+      "meaningVi": "lợi ích công chúng; tiêu chí đạo đức báo chí xác định tính chính đáng của việc đưa tin"
+    },
+    {
+      "phrase": "intersects with",
+      "meaningVi": "giao cắt với, có điểm chung có liên quan đến (hai vấn đề gặp nhau ở một điểm)"
+    },
+    {
+      "phrase": "human cost",
+      "meaningVi": "cái giá con người phải trả; thiệt hại về mặt cảm xúc, danh dự hoặc cuộc sống cá nhân"
+    },
+    {
+      "phrase": "trade-off",
+      "meaningVi": "sự đánh đổi; lựa chọn chấp nhận mất một thứ để đổi lấy thứ khác"
+    },
+    {
+      "phrase": "drifts in a direction",
+      "meaningVi": "trôi dần về một hướng; thay đổi tích luỹ không ai nhận ra cho đến khi đã đi quá xa"
+    },
+    {
+      "phrase": "exits the building",
+      "meaningVi": "(nghĩa ẩn dụ) được phát hành, lọt ra ngoài; câu chuyện đã rời tòa soạn để đến tay công chúng"
+    },
+    {
+      "phrase": "sleep on",
+      "meaningVi": "ngủ một đêm rồi quyết; trì hoãn có chủ ý để suy nghĩ thêm trước khi hành động",
+      "pronunciation": "/sliːp ɒn/"
+    },
+    {
+      "phrase": "sharpened",
+      "meaningVi": "được mài sắc; được tinh chỉnh cho sắc bén và chính xác hơn (về lập luận, câu hỏi)",
+      "pronunciation": "/ˈʃɑː.pənd/"
+    },
+    {
+      "phrase": "foggy",
+      "meaningVi": "mờ nhạt, chưa rõ ràng; (nghĩa bóng) thiếu sự minh bạch hoặc chắc chắn",
+      "pronunciation": "/ˈfɒɡ.i/"
+    },
+    {
+      "phrase": "the slip is small, almost invisible",
+      "meaningVi": "sự trượt ý nghĩa rất nhỏ, gần như không thể nhận ra — mô tả cách hai khái niệm khác nhau bị dùng lẫn lộn mà không ai để ý"
+    },
+    {
+      "phrase": "brief affair",
+      "meaningVi": "mối quan hệ tình cảm ngoài luồng ngắn ngủi; cuộc tình lén lút trong thời gian ngắn"
+    },
+    {
+      "phrase": "reporting standards",
+      "meaningVi": "chuẩn mực nghề báo; bộ tiêu chí chuyên môn xác định tính xác thực của tin tức"
+    },
+    {
+      "phrase": "in her own words",
+      "meaningVi": "bằng chính lời của cô ấy; không bị diễn giải hay lọc qua người khác — nhấn mạnh tính trung thực nguyên gốc"
+    },
+    {
+      "phrase": "junior employee",
+      "meaningVi": "nhân viên cấp dưới, ít kinh nghiệm hơn; hàm ý chênh lệch quyền lực trong mối quan hệ"
+    },
+    {
+      "phrase": "a healthy one",
+      "meaningVi": "(về động cơ) lành mạnh, không bị thúc đẩy bởi tổn thương, trả thù hay áp lực — tiêu chí đạo đức bổ sung"
+    },
+    {
+      "phrase": "file this",
+      "meaningVi": "nộp bài này, gửi bài báo này đi đăng"
+    },
+    {
+      "phrase": "three times in writing",
+      "meaningVi": "ba lần bằng văn bản"
+    },
+    {
+      "phrase": "talked to a counsellor",
+      "meaningVi": "đã nói chuyện với chuyên gia tư vấn"
+    },
+    {
+      "phrase": "the slip is small",
+      "meaningVi": "sự trượt dài rất nhỏ, sai lầm nhỏ"
+    },
+    {
+      "phrase": "two independent sources",
+      "meaningVi": "hai nguồn tin độc lập"
+    },
+    {
+      "phrase": "in writing",
+      "meaningVi": "bằng văn bản"
+    },
+    {
+      "phrase": "a brand on workplace ethics",
+      "meaningVi": "một thương hiệu về đạo đức nơi làm việc"
+    }
   ],
   "grammarNotes": [
     {
@@ -72,42 +271,394 @@
   "cloze": {
     "template": "Mai: Bác Linh. Before I {{b1}} this, I wanted to ask you. It's the kind of thing I would have asked you when you were still my editor.\nBác Linh: I'm not your editor any more, Mai. I am tea-drinker on a balcony. Whatever I say is {{b2}}.\nMai: Unofficial is fine. Maybe better.\nBác Linh: Show me what you have.\nMai: A CEO. Public face for the last three years. Talks publicly about {{b3}} in business. Fifteen years ago, before any of this, he had a brief {{b4}} with a {{b5}} employee. She was twenty-three. He was thirty-five. He apologised to her at the time. She left the company in good standing. She has, until two weeks ago, said nothing publicly. Now she has spoken to me, on the record. It is messy but {{b6}}.\nBác Linh: What is the question you brought up the stairs?\nMai: Whether to publish.\nBác Linh: Let me ask you four questions. Each one will tell me something different.\nMai: Go.\nBác Linh: One. Is the story {{b7}}, by your reporting standards?\nMai: Yes. Two independent sources. Documentation. Her account is consistent over time and {{b8}} by the HR record.\nBác Linh: Two. Is the story in the public interest, given what he is now publicly saying?\nMai: Yes — narrowly. He has built a brand on workplace ethics. The story is small but it {{b9}} with the brand.\nBác Linh: Three. Is the woman herself ready for what publication will do to her?\nMai: She says she is. I have asked her three times in writing. She has a lawyer. She has talked to a {{b10}}. She wants to speak.\nBác Linh: Four. Will the public, if you publish, learn something they cannot learn another way?\nMai: I am not sure. The brand could be {{b11}} by other reporting. The story I have adds a specific human cost that other reporting does not have.\nBác Linh: There is your honest answer.\nMai: Which is what?\nBác Linh: That you have three strong yeses and one hesitant yes. You do not have a {{b12}} public-interest case. You have a defensible one.\nMai: Should that be enough?\nBác Linh: Twenty years ago I would have said yes. Today I think defensible is not the same as {{b13}}. Defensible means you can publish without being unethical. Required means the world becomes worse if you do not publish. Most stories I see treat the first as the second. They are not the same. The slip is small, almost invisible. Editors say 'defensible' to lawyers and 'required' to journalists, and the same story exits the building. Over a thousand stories, the trade-off the public was making — the world they were paying for — drifts in a direction they would never have agreed to vote for.\nMai: So you would not publish.\nBác Linh: I did not say that. I said the test you are using — defensible — is not actually the test you should be using.\nMai: What is the test?\nBác Linh: Two questions, {{b14}}. First: what specifically does this story do that other reporting cannot? Second: what does the woman want from publication, in her own words, and is the want a healthy one?\nMai: On the first I am hesitant. On the second I would have to ask again.\nBác Linh: Then file it tomorrow, not tonight. Sleep on the first question. Ask the woman one more time, in her own words, what she wants the story to do. If both answers come back clear, publish. If either remains {{b15}}, do not publish — yet. The story will still be a story in two weeks. The woman will not be {{b16}} in two weeks, but she may be clearer.\nMai: Bác. Thank you. I came expecting permission.\nBác Linh: I am tea-drinker on a balcony, Mai. I cannot give permission. I can give you the test you are not yet using.",
     "blanks": [
-      { "id": "b1", "options": ["file", "burn", "sell", "translate"], "answerIndex": 0, "explanation": "Mai wants to ask Bác Linh before she 'files' — submits — her story." },
-      { "id": "b2", "options": ["unofficial", "official", "secret", "famous"], "answerIndex": 0, "explanation": "He no longer holds the editor's role, so anything he says is unofficial." },
-      { "id": "b3", "options": ["ethics", "fashion", "history", "weather"], "answerIndex": 0, "explanation": "The CEO talks publicly about ethics in business — the brand the story intersects with." },
-      { "id": "b4", "options": ["affair", "lawsuit", "promotion", "lecture"], "answerIndex": 0, "explanation": "Fifteen years ago he had a brief affair with a junior employee." },
-      { "id": "b5", "options": ["junior", "senior", "elderly", "famous"], "answerIndex": 0, "explanation": "A junior employee — the power-imbalance detail." },
-      { "id": "b6", "options": ["defensible", "illegal", "boring", "official"], "answerIndex": 0, "explanation": "Mai's own description: messy but defensible — the very word Bác Linh will scrutinise." },
-      { "id": "b7", "options": ["true", "long", "loud", "famous"], "answerIndex": 0, "explanation": "Question one of four: is the story true by your reporting standards?" },
-      { "id": "b8", "options": ["corroborated", "translated", "destroyed", "celebrated"], "answerIndex": 0, "explanation": "Her account is corroborated by the HR record — confirmed by an independent source." },
-      { "id": "b9", "options": ["intersects", "argues", "stops", "argues"], "answerIndex": 0, "explanation": "The story is small but it intersects with the brand he is selling." },
-      { "id": "b10", "options": ["counsellor", "tourist", "judge", "neighbour"], "answerIndex": 0, "explanation": "She has talked to a counsellor — to be sure she is ready." },
-      { "id": "b11", "options": ["sold", "punctured", "rented", "decorated"], "answerIndex": 1, "explanation": "The brand could be punctured by other reporting — Mai's own honest doubt." },
-      { "id": "b12", "options": ["unanimous", "loud", "modern", "old"], "answerIndex": 0, "explanation": "She does not have a unanimous public-interest case — only a defensible one." },
-      { "id": "b13", "options": ["required", "famous", "modern", "polite"], "answerIndex": 0, "explanation": "Bác Linh's central distinction: defensible is not the same as required." },
-      { "id": "b14", "options": ["sharpened", "deleted", "translated", "shared"], "answerIndex": 0, "explanation": "Two questions, sharpened — the test that should replace 'defensible'." },
-      { "id": "b15", "options": ["foggy", "loud", "famous", "official"], "answerIndex": 0, "explanation": "If either question remains foggy, do not publish — yet." },
-      { "id": "b16", "options": ["retracted", "promoted", "elected", "sold"], "answerIndex": 0, "explanation": "The woman will not be retracted in two weeks — she may be clearer. The story can wait without her being rescinded." }
+      {
+        "id": "b1",
+        "options": [
+          "file",
+          "burn",
+          "sell",
+          "translate"
+        ],
+        "answerIndex": 0,
+        "explanation": "Mai wants to ask Bác Linh before she 'files' — submits — her story."
+      },
+      {
+        "id": "b2",
+        "options": [
+          "unofficial",
+          "official",
+          "secret",
+          "famous"
+        ],
+        "answerIndex": 0,
+        "explanation": "He no longer holds the editor's role, so anything he says is unofficial."
+      },
+      {
+        "id": "b3",
+        "options": [
+          "ethics",
+          "fashion",
+          "history",
+          "weather"
+        ],
+        "answerIndex": 0,
+        "explanation": "The CEO talks publicly about ethics in business — the brand the story intersects with."
+      },
+      {
+        "id": "b4",
+        "options": [
+          "affair",
+          "lawsuit",
+          "promotion",
+          "lecture"
+        ],
+        "answerIndex": 0,
+        "explanation": "Fifteen years ago he had a brief affair with a junior employee."
+      },
+      {
+        "id": "b5",
+        "options": [
+          "junior",
+          "senior",
+          "elderly",
+          "famous"
+        ],
+        "answerIndex": 0,
+        "explanation": "A junior employee — the power-imbalance detail."
+      },
+      {
+        "id": "b6",
+        "options": [
+          "defensible",
+          "illegal",
+          "boring",
+          "official"
+        ],
+        "answerIndex": 0,
+        "explanation": "Mai's own description: messy but defensible — the very word Bác Linh will scrutinise."
+      },
+      {
+        "id": "b7",
+        "options": [
+          "true",
+          "long",
+          "loud",
+          "famous"
+        ],
+        "answerIndex": 0,
+        "explanation": "Question one of four: is the story true by your reporting standards?"
+      },
+      {
+        "id": "b8",
+        "options": [
+          "corroborated",
+          "translated",
+          "destroyed",
+          "celebrated"
+        ],
+        "answerIndex": 0,
+        "explanation": "Her account is corroborated by the HR record — confirmed by an independent source."
+      },
+      {
+        "id": "b9",
+        "options": [
+          "intersects",
+          "argues",
+          "stops",
+          "argues"
+        ],
+        "answerIndex": 0,
+        "explanation": "The story is small but it intersects with the brand he is selling."
+      },
+      {
+        "id": "b10",
+        "options": [
+          "counsellor",
+          "tourist",
+          "judge",
+          "neighbour"
+        ],
+        "answerIndex": 0,
+        "explanation": "She has talked to a counsellor — to be sure she is ready."
+      },
+      {
+        "id": "b11",
+        "options": [
+          "sold",
+          "punctured",
+          "rented",
+          "decorated"
+        ],
+        "answerIndex": 1,
+        "explanation": "The brand could be punctured by other reporting — Mai's own honest doubt."
+      },
+      {
+        "id": "b12",
+        "options": [
+          "unanimous",
+          "loud",
+          "modern",
+          "old"
+        ],
+        "answerIndex": 0,
+        "explanation": "She does not have a unanimous public-interest case — only a defensible one."
+      },
+      {
+        "id": "b13",
+        "options": [
+          "required",
+          "famous",
+          "modern",
+          "polite"
+        ],
+        "answerIndex": 0,
+        "explanation": "Bác Linh's central distinction: defensible is not the same as required."
+      },
+      {
+        "id": "b14",
+        "options": [
+          "sharpened",
+          "deleted",
+          "translated",
+          "shared"
+        ],
+        "answerIndex": 0,
+        "explanation": "Two questions, sharpened — the test that should replace 'defensible'."
+      },
+      {
+        "id": "b15",
+        "options": [
+          "foggy",
+          "loud",
+          "famous",
+          "official"
+        ],
+        "answerIndex": 0,
+        "explanation": "If either question remains foggy, do not publish — yet."
+      },
+      {
+        "id": "b16",
+        "options": [
+          "retracted",
+          "promoted",
+          "elected",
+          "sold"
+        ],
+        "answerIndex": 0,
+        "explanation": "The woman will not be retracted in two weeks — she may be clearer. The story can wait without her being rescinded."
+      }
     ]
   },
   "translationVi": "Mai: Bác Linh. Trước khi cháu nộp bài này, cháu muốn hỏi bác. Là kiểu chuyện cháu sẽ hỏi bác hồi bác còn là biên tập viên của cháu.\nBác Linh: Bác không còn là biên tập viên của cháu nữa, Mai. Bác là người uống trà trên ban công. Bác nói gì cũng không chính thức.\nMai: Không chính thức cũng được. Có khi còn tốt hơn.\nBác Linh: Cho bác xem cháu có gì.\nMai: Một CEO. Mặt công chúng trong ba năm qua. Phát biểu công khai về đạo đức trong kinh doanh. Mười lăm năm trước, trước tất cả những thứ này, ông ấy có một mối quan hệ ngắn với một nhân viên cấp dưới. Cô ấy hai mươi ba tuổi. Ông ba mươi lăm. Ông đã xin lỗi cô lúc đó. Cô rời công ty trong tình trạng tốt. Cho đến hai tuần trước, cô chưa nói gì công khai. Giờ cô đã nói với cháu, có ghi âm. Lộn xộn, nhưng có thể bảo vệ được.\nBác Linh: Câu hỏi cháu mang lên cầu thang là gì?\nMai: Có nên đăng không.\nBác Linh: Bác hỏi cháu bốn câu. Mỗi câu sẽ cho bác biết một điều khác nhau.\nMai: Bác hỏi đi.\nBác Linh: Một. Câu chuyện có đúng sự thật theo chuẩn báo chí của cháu không?\nMai: Có. Hai nguồn độc lập. Có tài liệu. Lời kể của cô ấy nhất quán theo thời gian và được hồ sơ nhân sự xác nhận.\nBác Linh: Hai. Câu chuyện có vì lợi ích công chúng không, xét cái ông ấy đang nói trên truyền thông hiện tại?\nMai: Có — một cách hẹp. Ông ấy đã xây thương hiệu trên đạo đức nơi làm việc. Câu chuyện nhỏ, nhưng giao với thương hiệu ấy.\nBác Linh: Ba. Bản thân người phụ nữ ấy có sẵn sàng cho điều mà việc đăng bài sẽ gây ra cho cô không?\nMai: Cô nói cô sẵn sàng. Cháu đã hỏi cô ba lần bằng văn bản. Cô có luật sư. Cô đã nói chuyện với một chuyên viên tư vấn. Cô muốn lên tiếng.\nBác Linh: Bốn. Công chúng, nếu cháu đăng, sẽ biết được điều gì mà họ không thể biết bằng cách khác?\nMai: Cháu không chắc. Thương hiệu ông ta có thể bị bài báo khác đâm thủng. Bài cháu đang viết thêm một chi phí con người cụ thể mà các bài khác không có.\nBác Linh: Đó là câu trả lời thành thật của cháu.\nMai: Là gì ạ?\nBác Linh: Cháu có ba cái 'có' mạnh và một cái 'có' ngập ngừng. Cháu không có một trường hợp lợi ích công chúng nhất trí. Cháu có một trường hợp có thể biện hộ.\nMai: Vậy có đủ không ạ?\nBác Linh: Hai mươi năm trước, bác sẽ nói có. Hôm nay bác nghĩ 'có thể biện hộ' không giống 'cần thiết'. Có thể biện hộ nghĩa là cháu có thể đăng mà không vi phạm đạo đức. Cần thiết nghĩa là thế giới sẽ tệ hơn nếu cháu không đăng. Hầu hết các bài bác thấy đối xử với cái thứ nhất như cái thứ hai. Không giống nhau đâu.\nMai: Vậy bác sẽ không đăng?\nBác Linh: Bác không nói vậy. Bác nói phép thử mà cháu đang dùng — 'có thể biện hộ' — thực ra không phải phép thử cháu nên dùng.\nMai: Vậy phép thử là gì ạ?\nBác Linh: Hai câu hỏi, được mài sắc. Một: bài này cụ thể làm gì mà bài báo khác không thể làm? Hai: người phụ nữ, bằng chính lời cô, muốn việc đăng bài làm gì, và cái muốn đó có lành mạnh không?\nMai: Câu thứ nhất cháu ngập ngừng. Câu thứ hai cháu phải hỏi cô ấy lại.\nBác Linh: Vậy nộp bài ngày mai, không phải tối nay. Ngủ qua đêm với câu thứ nhất. Hỏi cô ấy thêm một lần nữa, bằng chính lời cô, cô muốn câu chuyện làm gì. Nếu cả hai câu trả lời trở lại rõ ràng, đăng. Nếu một trong hai còn mờ, đừng đăng — chưa thôi. Câu chuyện vẫn sẽ là câu chuyện trong hai tuần nữa. Người phụ nữ sẽ không bị rút lại trong hai tuần, nhưng cô ấy có thể rõ hơn.\nMai: Bác ơi. Cảm ơn bác. Cháu đến đây để xin phép.\nBác Linh: Bác là người uống trà trên ban công thôi, Mai. Bác không thể cho phép. Bác chỉ có thể đưa cho cháu phép thử cháu chưa dùng.",
   "questions": [
-    { "id": "q1", "prompt": "What is Mai asking before she 'files' her story?", "options": ["For a salary raise", "Whether to publish — she would have asked her former editor in the old days", "For a new job", "For a holiday"], "answerIndex": 1, "explanation": "'Before I file this, I wanted to ask you.'", "hint": "Look at her first turn." },
-    { "id": "q2", "prompt": "What is the story about?", "options": ["A bank robbery", "A CEO who built a brand on workplace ethics; fifteen years ago, before any of this, he had a brief affair with a junior employee (twenty-three; he was thirty-five)", "A political scandal", "A health crisis"], "answerIndex": 1, "explanation": "Mai's full description.", "hint": "Look at Mai's first long turn." },
-    { "id": "q3", "prompt": "What four questions does Bác Linh ask in turn?", "options": ["Is the story long? Beautiful? Famous? Local?", "(1) True by your reporting standards? (2) In the public interest, given his public role? (3) Is the woman ready for publication? (4) Will the public learn something they cannot learn another way?", "Will you lose your job? Will he sue? Is it Tuesday? Is it news?", "Who is the editor? Where is the office? When did you write? What was paid?"], "answerIndex": 1, "explanation": "His numbered four-question structure.", "hint": "Look at the four questions he asks one after the other." },
-    { "id": "q4", "prompt": "On which question does Mai hesitate?", "options": ["The first", "The fourth — whether the public would learn something they cannot learn another way", "The second", "The third"], "answerIndex": 1, "explanation": "'I am not sure.' on the fourth question.", "hint": "Look at her answer to question four." },
-    { "id": "q5", "prompt": "What is Bác Linh's diagnosis of Mai's case?", "options": ["A unanimous case", "Three strong yeses and one hesitant yes — a defensible case, not a unanimous public-interest case", "An indefensible case", "A weak case overall"], "answerIndex": 1, "explanation": "'Three strong yeses and one hesitant yes.'", "hint": "Look at his summary after the four questions." },
-    { "id": "q6", "prompt": "What is the central distinction Bác Linh introduces?", "options": ["Old versus new news", "Defensible (you can publish without being unethical) versus required (the world becomes worse if you do not publish)", "Public versus private", "Local versus national"], "answerIndex": 1, "explanation": "'Defensible is not the same as required.'", "hint": "Look at his turn about defensible." },
-    { "id": "q7", "prompt": "What test does Bác Linh think Mai should be using instead?", "options": ["Two sharpened questions: (1) what specifically does this story do that other reporting cannot? (2) what does the woman want from publication, in her own words, and is the want a healthy one?", "A coin flip", "A vote", "An older editor's permission"], "answerIndex": 0, "explanation": "His sharpened replacement test.", "hint": "Look at the two sharpened questions he names." },
-    { "id": "q8", "prompt": "On which of the two new questions is Mai uncertain?", "options": ["Neither", "Both", "She is hesitant on the first; she would need to ask the woman again on the second", "She is hesitant on the first only"], "answerIndex": 2, "explanation": "'On the first I am hesitant. On the second I would have to ask again.'", "hint": "Look at her response to the sharpened questions." },
-    { "id": "q9", "prompt": "What does Bác Linh recommend Mai do?", "options": ["File tonight", "File tomorrow, not tonight; sleep on the first question; ask the woman one more time in her own words", "Withdraw the story permanently", "Hand it to another journalist"], "answerIndex": 1, "explanation": "'File it tomorrow, not tonight.'", "hint": "Look at his practical recommendation." },
-    { "id": "q10", "prompt": "What conditional resolution does Bác Linh give?", "options": ["Publish only if the CEO consents", "If both answers come back clear, publish; if either remains foggy, do not publish — yet", "Never publish about old affairs", "Always publish if the source is willing"], "answerIndex": 1, "explanation": "'If both answers come back clear, publish. If either remains foggy, do not publish — yet.'", "hint": "Look at the paired conditional." },
-    { "id": "q11", "prompt": "Why does Bác Linh say the story will still be a story in two weeks?", "options": ["Because public attention is short", "Because the story is not perishable in the way the woman's clarity is — the woman may be clearer in two weeks; the story will not be retracted", "Because two weeks is the legal limit", "Because the editor needs more time"], "answerIndex": 1, "explanation": "'The story will still be a story in two weeks. The woman will not be retracted in two weeks, but she may be clearer.'", "hint": "Look at the time logic in the final advice." },
-    { "id": "q12", "prompt": "What does Mai say she came expecting?", "options": ["A job", "Permission to publish", "A free coffee", "A book recommendation"], "answerIndex": 1, "explanation": "'I came expecting permission.'", "hint": "Look at her second-to-last turn." },
-    { "id": "q13", "prompt": "What does Bác Linh say he can and cannot give?", "options": ["He can give permission but not advice", "He cannot give permission — he can give the test she is not yet using", "He can give both", "He can give neither"], "answerIndex": 1, "explanation": "'I cannot give permission. I can give you the test you are not yet using.'", "hint": "Look at the very last line." },
-    { "id": "q14", "prompt": "Which paraphrase is closer to Bác Linh's central position?", "options": ["Journalists should never publish about old private affairs.", "Defensible stories are not the same as required stories; the journalist should test 'what only this story can show' and 'what the source wants and whether that want is healthy', not stop at 'I am allowed to publish'.", "Editors should approve all stories.", "Story sources should never be consulted."], "answerIndex": 1, "explanation": "His sharpened test and his distinction between defensible and required.", "hint": "Look at his two key moves: the distinction, and the replacement test." },
-    { "id": "q15", "prompt": "Which of these is Bác Linh NOT claiming?", "options": ["That defensible means 'you can publish without being unethical'", "That required means 'the world becomes worse if you do not publish'", "That Mai must definitely not publish this story", "That Mai should ask the source one more time, in her own words, what she wants the story to do"], "answerIndex": 2, "explanation": "'I did not say that.' He refuses to decide for her.", "hint": "Look at his reply to 'So you would not publish.'" },
-    { "id": "q16", "prompt": "What is the tone of the conversation?", "options": ["Hostile", "Mentoring and exacting — the retired editor refuses to give permission but offers a sharper test than the one she came with", "Sentimental", "Bureaucratic"], "answerIndex": 1, "explanation": "He resists the role of permission-giver while taking the question completely seriously.", "hint": "Notice the line about being a 'tea-drinker on a balcony'." }
+    {
+      "id": "q1",
+      "prompt": "What is Mai asking before she 'files' her story?",
+      "options": [
+        "For a salary raise",
+        "Whether to publish — she would have asked her former editor in the old days",
+        "For a new job",
+        "For a holiday"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Before I file this, I wanted to ask you.'",
+      "hint": "Look at her first turn."
+    },
+    {
+      "id": "q2",
+      "prompt": "What is the story about?",
+      "options": [
+        "A bank robbery",
+        "A CEO who built a brand on workplace ethics; fifteen years ago, before any of this, he had a brief affair with a junior employee (twenty-three; he was thirty-five)",
+        "A political scandal",
+        "A health crisis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Mai's full description.",
+      "hint": "Look at Mai's first long turn."
+    },
+    {
+      "id": "q3",
+      "prompt": "What four questions does Bác Linh ask in turn?",
+      "options": [
+        "Is the story long? Beautiful? Famous? Local?",
+        "(1) True by your reporting standards? (2) In the public interest, given his public role? (3) Is the woman ready for publication? (4) Will the public learn something they cannot learn another way?",
+        "Will you lose your job? Will he sue? Is it Tuesday? Is it news?",
+        "Who is the editor? Where is the office? When did you write? What was paid?"
+      ],
+      "answerIndex": 1,
+      "explanation": "His numbered four-question structure.",
+      "hint": "Look at the four questions he asks one after the other."
+    },
+    {
+      "id": "q4",
+      "prompt": "On which question does Mai hesitate?",
+      "options": [
+        "The first",
+        "The fourth — whether the public would learn something they cannot learn another way",
+        "The second",
+        "The third"
+      ],
+      "answerIndex": 1,
+      "explanation": "'I am not sure.' on the fourth question.",
+      "hint": "Look at her answer to question four."
+    },
+    {
+      "id": "q5",
+      "prompt": "What is Bác Linh's diagnosis of Mai's case?",
+      "options": [
+        "A unanimous case",
+        "Three strong yeses and one hesitant yes — a defensible case, not a unanimous public-interest case",
+        "An indefensible case",
+        "A weak case overall"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Three strong yeses and one hesitant yes.'",
+      "hint": "Look at his summary after the four questions."
+    },
+    {
+      "id": "q6",
+      "prompt": "What is the central distinction Bác Linh introduces?",
+      "options": [
+        "Old versus new news",
+        "Defensible (you can publish without being unethical) versus required (the world becomes worse if you do not publish)",
+        "Public versus private",
+        "Local versus national"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Defensible is not the same as required.'",
+      "hint": "Look at his turn about defensible."
+    },
+    {
+      "id": "q7",
+      "prompt": "What test does Bác Linh think Mai should be using instead?",
+      "options": [
+        "Two sharpened questions: (1) what specifically does this story do that other reporting cannot? (2) what does the woman want from publication, in her own words, and is the want a healthy one?",
+        "A coin flip",
+        "A vote",
+        "An older editor's permission"
+      ],
+      "answerIndex": 0,
+      "explanation": "His sharpened replacement test.",
+      "hint": "Look at the two sharpened questions he names."
+    },
+    {
+      "id": "q8",
+      "prompt": "On which of the two new questions is Mai uncertain?",
+      "options": [
+        "Neither",
+        "Both",
+        "She is hesitant on the first; she would need to ask the woman again on the second",
+        "She is hesitant on the first only"
+      ],
+      "answerIndex": 2,
+      "explanation": "'On the first I am hesitant. On the second I would have to ask again.'",
+      "hint": "Look at her response to the sharpened questions."
+    },
+    {
+      "id": "q9",
+      "prompt": "What does Bác Linh recommend Mai do?",
+      "options": [
+        "File tonight",
+        "File tomorrow, not tonight; sleep on the first question; ask the woman one more time in her own words",
+        "Withdraw the story permanently",
+        "Hand it to another journalist"
+      ],
+      "answerIndex": 1,
+      "explanation": "'File it tomorrow, not tonight.'",
+      "hint": "Look at his practical recommendation."
+    },
+    {
+      "id": "q10",
+      "prompt": "What conditional resolution does Bác Linh give?",
+      "options": [
+        "Publish only if the CEO consents",
+        "If both answers come back clear, publish; if either remains foggy, do not publish — yet",
+        "Never publish about old affairs",
+        "Always publish if the source is willing"
+      ],
+      "answerIndex": 1,
+      "explanation": "'If both answers come back clear, publish. If either remains foggy, do not publish — yet.'",
+      "hint": "Look at the paired conditional."
+    },
+    {
+      "id": "q11",
+      "prompt": "Why does Bác Linh say the story will still be a story in two weeks?",
+      "options": [
+        "Because public attention is short",
+        "Because the story is not perishable in the way the woman's clarity is — the woman may be clearer in two weeks; the story will not be retracted",
+        "Because two weeks is the legal limit",
+        "Because the editor needs more time"
+      ],
+      "answerIndex": 1,
+      "explanation": "'The story will still be a story in two weeks. The woman will not be retracted in two weeks, but she may be clearer.'",
+      "hint": "Look at the time logic in the final advice."
+    },
+    {
+      "id": "q12",
+      "prompt": "What does Mai say she came expecting?",
+      "options": [
+        "A job",
+        "Permission to publish",
+        "A free coffee",
+        "A book recommendation"
+      ],
+      "answerIndex": 1,
+      "explanation": "'I came expecting permission.'",
+      "hint": "Look at her second-to-last turn."
+    },
+    {
+      "id": "q13",
+      "prompt": "What does Bác Linh say he can and cannot give?",
+      "options": [
+        "He can give permission but not advice",
+        "He cannot give permission — he can give the test she is not yet using",
+        "He can give both",
+        "He can give neither"
+      ],
+      "answerIndex": 1,
+      "explanation": "'I cannot give permission. I can give you the test you are not yet using.'",
+      "hint": "Look at the very last line."
+    },
+    {
+      "id": "q14",
+      "prompt": "Which paraphrase is closer to Bác Linh's central position?",
+      "options": [
+        "Journalists should never publish about old private affairs.",
+        "Defensible stories are not the same as required stories; the journalist should test 'what only this story can show' and 'what the source wants and whether that want is healthy', not stop at 'I am allowed to publish'.",
+        "Editors should approve all stories.",
+        "Story sources should never be consulted."
+      ],
+      "answerIndex": 1,
+      "explanation": "His sharpened test and his distinction between defensible and required.",
+      "hint": "Look at his two key moves: the distinction, and the replacement test."
+    },
+    {
+      "id": "q15",
+      "prompt": "Which of these is Bác Linh NOT claiming?",
+      "options": [
+        "That defensible means 'you can publish without being unethical'",
+        "That required means 'the world becomes worse if you do not publish'",
+        "That Mai must definitely not publish this story",
+        "That Mai should ask the source one more time, in her own words, what she wants the story to do"
+      ],
+      "answerIndex": 2,
+      "explanation": "'I did not say that.' He refuses to decide for her.",
+      "hint": "Look at his reply to 'So you would not publish.'"
+    },
+    {
+      "id": "q16",
+      "prompt": "What is the tone of the conversation?",
+      "options": [
+        "Hostile",
+        "Mentoring and exacting — the retired editor refuses to give permission but offers a sharper test than the one she came with",
+        "Sentimental",
+        "Bureaucratic"
+      ],
+      "answerIndex": 1,
+      "explanation": "He resists the role of permission-giver while taking the question completely seriously.",
+      "hint": "Notice the line about being a 'tea-drinker on a balcony'."
+    }
   ],
   "criticalThinkingQuestion": "Bác Linh distinguishes 'defensible' (allowed) from 'required' (the world is worse if you do not). Think of a recent decision — to publish, to speak, to act — that you justified by 'I am allowed to'. Was the world actually worse if you did not? What does the answer change about whether the decision was the right one?"
 }

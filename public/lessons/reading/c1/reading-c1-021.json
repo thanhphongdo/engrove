@@ -5,61 +5,255 @@
   "summary": "A literary translator and the living author whose book she is translating disagree, carefully, about one sentence — and what it reveals about the whole.",
   "format": "dialogue",
   "body": [
-    { "speaker": "Vera", "text": "I have been working on chapter eleven for three weeks. I owe you a question about one sentence." },
-    { "speaker": "Lars", "text": "Three weeks on a sentence is either an emergency or a compliment. Which is it?" },
-    { "speaker": "Vera", "text": "Both, perhaps. The sentence is the one where the father stops on the bridge. In your Norwegian, the verb 'å vente' carries two readings simultaneously — he is waiting for something, and he is simply being there, present, in the small grammatical sense of waiting that survives in your dialect. English cannot do both." },
-    { "speaker": "Lars", "text": "Pick one." },
-    { "speaker": "Vera", "text": "That is what I have been refusing to do for three weeks. Which one is more important to you?" },
-    { "speaker": "Lars", "text": "Vera, I have to be honest. When I wrote that sentence, I was not consciously balancing the two readings. The verb came to me. I wrote it down. The doubleness is real, but it is not mine. It is the language's." },
-    { "speaker": "Vera", "text": "But the doubleness is what makes the scene." },
-    { "speaker": "Lars", "text": "Possibly. Or the scene survives the loss of it. Translators always think one sentence is the hinge. Sometimes it is. Sometimes it is one of three or four, and removing any of them lightly damages the chapter but does not destroy it." },
-    { "speaker": "Vera", "text": "Then let me ask the question differently. If you were writing the chapter today, in English, knowing what English allows, would you place the weight on waiting-for-something, or on simply-being-there?" },
-    { "speaker": "Lars", "text": "That is a better question. Simply-being-there. The father is not, in his head, waiting for anything specific. He has stopped because he cannot go on. The 'waiting' is closer to a stalled state than to an expectation." },
-    { "speaker": "Vera", "text": "Then I will translate it as standing. Not waiting." },
-    { "speaker": "Lars", "text": "Standing loses the time. Waiting at least implies that he is there over a stretch of minutes, not a snapshot." },
-    { "speaker": "Vera", "text": "Lingering, then." },
-    { "speaker": "Lars", "text": "Lingering is too soft. Lingering is what a tourist does in front of a painting." },
-    { "speaker": "Vera", "text": "Standing for a long time without moving." },
-    { "speaker": "Lars", "text": "Now you are writing prose I would not write." },
-    { "speaker": "Vera", "text": "Yes. I always am. That is the job. The choice is between losing the doubleness — which you say is the language's, not yours — and writing a sentence you would not have written, but that produces, in English, the effect the original produced in Norwegian." },
-    { "speaker": "Lars", "text": "Phrased that way, the choice is obvious. You are not translating my sentences. You are translating my reader's experience of my sentences. They are different objects, and a good translator chooses the second when the two pull in different directions." },
-    { "speaker": "Vera", "text": "That is exactly what I would like you to allow me to do — in writing, signed, in case anyone ever asks. There are reviewers who will weigh single sentences against the original, and I would rather not defend the choice alone." },
-    { "speaker": "Lars", "text": "I will send a note to your publisher tomorrow. I will also send a copy to my editor, who is the person most likely to argue with you in the future." },
-    { "speaker": "Vera", "text": "Thank you. I am sorry to have been pedantic for three weeks." },
-    { "speaker": "Lars", "text": "You have not been pedantic. You have been the only person who has read the chapter that closely since I wrote it." },
-    { "speaker": "Vera", "text": "Then I have a follow-up. There are eleven more sentences in this book where the same problem occurs. Some I have solved. Some I have not. Can we have this conversation eleven more times?" },
-    { "speaker": "Lars", "text": "Yes. But not all at once. I would like to think between them." },
-    { "speaker": "Vera", "text": "That was going to be my next condition." },
-    { "speaker": "Lars", "text": "Vera, may I ask something?" },
-    { "speaker": "Vera", "text": "Please." },
-    { "speaker": "Lars", "text": "Do you think this book is good?" },
-    { "speaker": "Vera", "text": "I would not have spent three weeks on a verb in chapter eleven if I did not." },
-    { "speaker": "Lars", "text": "That is the answer I needed." }
+    {
+      "speaker": "Vera",
+      "text": "I have been working on chapter eleven for three weeks. I owe you a question about one sentence."
+    },
+    {
+      "speaker": "Lars",
+      "text": "Three weeks on a sentence is either an emergency or a compliment. Which is it?"
+    },
+    {
+      "speaker": "Vera",
+      "text": "Both, perhaps. The sentence is the one where the father stops on the bridge. In your Norwegian, the verb 'å vente' carries two readings simultaneously — he is waiting for something, and he is simply being there, present, in the small grammatical sense of waiting that survives in your dialect. English cannot do both."
+    },
+    {
+      "speaker": "Lars",
+      "text": "Pick one."
+    },
+    {
+      "speaker": "Vera",
+      "text": "That is what I have been refusing to do for three weeks. Which one is more important to you?"
+    },
+    {
+      "speaker": "Lars",
+      "text": "Vera, I have to be honest. When I wrote that sentence, I was not consciously balancing the two readings. The verb came to me. I wrote it down. The doubleness is real, but it is not mine. It is the language's."
+    },
+    {
+      "speaker": "Vera",
+      "text": "But the doubleness is what makes the scene."
+    },
+    {
+      "speaker": "Lars",
+      "text": "Possibly. Or the scene survives the loss of it. Translators always think one sentence is the hinge. Sometimes it is. Sometimes it is one of three or four, and removing any of them lightly damages the chapter but does not destroy it."
+    },
+    {
+      "speaker": "Vera",
+      "text": "Then let me ask the question differently. If you were writing the chapter today, in English, knowing what English allows, would you place the weight on waiting-for-something, or on simply-being-there?"
+    },
+    {
+      "speaker": "Lars",
+      "text": "That is a better question. Simply-being-there. The father is not, in his head, waiting for anything specific. He has stopped because he cannot go on. The 'waiting' is closer to a stalled state than to an expectation."
+    },
+    {
+      "speaker": "Vera",
+      "text": "Then I will translate it as standing. Not waiting."
+    },
+    {
+      "speaker": "Lars",
+      "text": "Standing loses the time. Waiting at least implies that he is there over a stretch of minutes, not a snapshot."
+    },
+    {
+      "speaker": "Vera",
+      "text": "Lingering, then."
+    },
+    {
+      "speaker": "Lars",
+      "text": "Lingering is too soft. Lingering is what a tourist does in front of a painting."
+    },
+    {
+      "speaker": "Vera",
+      "text": "Standing for a long time without moving."
+    },
+    {
+      "speaker": "Lars",
+      "text": "Now you are writing prose I would not write."
+    },
+    {
+      "speaker": "Vera",
+      "text": "Yes. I always am. That is the job. The choice is between losing the doubleness — which you say is the language's, not yours — and writing a sentence you would not have written, but that produces, in English, the effect the original produced in Norwegian."
+    },
+    {
+      "speaker": "Lars",
+      "text": "Phrased that way, the choice is obvious. You are not translating my sentences. You are translating my reader's experience of my sentences. They are different objects, and a good translator chooses the second when the two pull in different directions."
+    },
+    {
+      "speaker": "Vera",
+      "text": "That is exactly what I would like you to allow me to do — in writing, signed, in case anyone ever asks. There are reviewers who will weigh single sentences against the original, and I would rather not defend the choice alone."
+    },
+    {
+      "speaker": "Lars",
+      "text": "I will send a note to your publisher tomorrow. I will also send a copy to my editor, who is the person most likely to argue with you in the future."
+    },
+    {
+      "speaker": "Vera",
+      "text": "Thank you. I am sorry to have been pedantic for three weeks."
+    },
+    {
+      "speaker": "Lars",
+      "text": "You have not been pedantic. You have been the only person who has read the chapter that closely since I wrote it."
+    },
+    {
+      "speaker": "Vera",
+      "text": "Then I have a follow-up. There are eleven more sentences in this book where the same problem occurs. Some I have solved. Some I have not. Can we have this conversation eleven more times?"
+    },
+    {
+      "speaker": "Lars",
+      "text": "Yes. But not all at once. I would like to think between them."
+    },
+    {
+      "speaker": "Vera",
+      "text": "That was going to be my next condition."
+    },
+    {
+      "speaker": "Lars",
+      "text": "Vera, may I ask something?"
+    },
+    {
+      "speaker": "Vera",
+      "text": "Please."
+    },
+    {
+      "speaker": "Lars",
+      "text": "Do you think this book is good?"
+    },
+    {
+      "speaker": "Vera",
+      "text": "I would not have spent three weeks on a verb in chapter eleven if I did not."
+    },
+    {
+      "speaker": "Lars",
+      "text": "That is the answer I needed."
+    }
   ],
-  "tags": ["Translation", "Language", "Craft"],
+  "tags": [
+    "Translation",
+    "Language",
+    "Craft"
+  ],
   "annotations": [
-    { "phrase": "doubleness", "meaningVi": "tính song trùng / hai tầng nghĩa cùng lúc" },
-    { "phrase": "the hinge", "meaningVi": "bản lề / mấu chốt — yếu tố then chốt mà mọi thứ xoay quanh" },
-    { "phrase": "stalled state", "meaningVi": "trạng thái đứng khựng / bế tắc (như xe chết máy giữa đường)" },
-    { "phrase": "pedantic", "meaningVi": "câu nệ chi tiết một cách thái quá / tiểu tiết phiền phức", "pronunciation": "/pəˈdæn.tɪk/" },
-    { "phrase": "in writing, signed", "meaningVi": "bằng văn bản có chữ ký — hình thức chính thức, có giá trị pháp lý" },
-    { "phrase": "stretch of minutes", "meaningVi": "khoảng thời gian kéo dài (nhiều phút) — nhấn mạnh tính liên tục" },
-    { "phrase": "carries two readings simultaneously", "meaningVi": "mang đồng thời hai cách diễn giải — nói về từ ngữ hoặc văn bản có tính đa nghĩa" },
-    { "phrase": "I have been refusing to do", "meaningVi": "tôi đã (và vẫn đang) từ chối làm — hiện tại hoàn thành tiếp diễn diễn đạt sự bướng bỉnh có chủ đích kéo dài" },
-    { "phrase": "not consciously balancing", "meaningVi": "không cân nhắc một cách ý thức — phân biệt hành vi bản năng với hành vi có chủ đích" },
-    { "phrase": "let me ask the question differently", "meaningVi": "để tôi đặt câu hỏi theo hướng khác — mệnh đề diễn ngôn tái định khung (reframing) lịch sự" },
-    { "phrase": "place the weight on", "meaningVi": "đặt trọng tâm / nhấn mạnh vào — ẩn dụ trừu tượng về ưu tiên lựa chọn" },
-    { "phrase": "closer to a stalled state than to an expectation", "meaningVi": "gần với trạng thái đứng khựng hơn là sự chờ-mong — cấu trúc so sánh tinh tế để phân biệt sắc thái nghĩa" },
-    { "phrase": "Standing loses the time", "meaningVi": "từ 'đứng' đánh mất chiều thời gian — câu rút gọn mang tính phê bình văn học, chỉ sự mất mát về hàm ý" },
-    { "phrase": "not a snapshot", "meaningVi": "không phải một khoảnh khắc chụp vội — ẩn dụ phủ định nhấn mạnh tính kéo dài chứ không phải tức thời" },
-    { "phrase": "pull in different directions", "meaningVi": "kéo về hai phía khác nhau / mâu thuẫn nhau — thành ngữ diễn tả sự xung đột giữa hai lựa chọn" },
-    { "phrase": "weigh single sentences against the original", "meaningVi": "cân từng câu với nguyên tác — hình ảnh cân đong trong phê bình văn học / dịch thuật học" },
-    { "phrase": "I would rather not defend the choice alone", "meaningVi": "tôi không muốn một mình phải biện hộ cho lựa chọn đó — cấu trúc hedging lịch sự, tránh đối đầu trực tiếp" },
-    { "phrase": "Phrased that way", "meaningVi": "khi diễn đạt theo cách đó — mệnh đề phân từ rút gọn dùng như marker diễn ngôn để thừa nhận sự rõ ràng" },
-    { "phrase": "different objects", "meaningVi": "hai thực thể / đối tượng khác nhau — ngôn ngữ trừu tượng hoá khái niệm để phân biệt rõ ràng" },
-    { "phrase": "in case anyone ever asks", "meaningVi": "phòng khi có ai đó hỏi — mệnh đề điều kiện hedging, chuẩn bị trước cho tình huống có thể xảy ra" },
-    { "phrase": "follow-up", "meaningVi": "câu hỏi / vấn đề tiếp theo — thuật ngữ diễn ngôn chính thức chỉ sự tiếp nối có liên quan" },
-    { "phrase": "survives the loss of it", "meaningVi": "vẫn tồn tại dù mất đi yếu tố đó — cách nói trừu tượng về khả năng chịu đựng sự thiếu hụt" }
+    {
+      "phrase": "doubleness",
+      "meaningVi": "tính song trùng / hai tầng nghĩa cùng lúc"
+    },
+    {
+      "phrase": "the hinge",
+      "meaningVi": "bản lề / mấu chốt — yếu tố then chốt mà mọi thứ xoay quanh"
+    },
+    {
+      "phrase": "stalled state",
+      "meaningVi": "trạng thái đứng khựng / bế tắc (như xe chết máy giữa đường)"
+    },
+    {
+      "phrase": "pedantic",
+      "meaningVi": "câu nệ chi tiết một cách thái quá / tiểu tiết phiền phức",
+      "pronunciation": "/pəˈdæn.tɪk/"
+    },
+    {
+      "phrase": "in writing, signed",
+      "meaningVi": "bằng văn bản có chữ ký — hình thức chính thức, có giá trị pháp lý"
+    },
+    {
+      "phrase": "stretch of minutes",
+      "meaningVi": "khoảng thời gian kéo dài (nhiều phút) — nhấn mạnh tính liên tục"
+    },
+    {
+      "phrase": "carries two readings simultaneously",
+      "meaningVi": "mang đồng thời hai cách diễn giải — nói về từ ngữ hoặc văn bản có tính đa nghĩa"
+    },
+    {
+      "phrase": "I have been refusing to do",
+      "meaningVi": "tôi đã (và vẫn đang) từ chối làm — hiện tại hoàn thành tiếp diễn diễn đạt sự bướng bỉnh có chủ đích kéo dài"
+    },
+    {
+      "phrase": "not consciously balancing",
+      "meaningVi": "không cân nhắc một cách ý thức — phân biệt hành vi bản năng với hành vi có chủ đích"
+    },
+    {
+      "phrase": "let me ask the question differently",
+      "meaningVi": "để tôi đặt câu hỏi theo hướng khác — mệnh đề diễn ngôn tái định khung (reframing) lịch sự"
+    },
+    {
+      "phrase": "place the weight on",
+      "meaningVi": "đặt trọng tâm / nhấn mạnh vào — ẩn dụ trừu tượng về ưu tiên lựa chọn"
+    },
+    {
+      "phrase": "closer to a stalled state than to an expectation",
+      "meaningVi": "gần với trạng thái đứng khựng hơn là sự chờ-mong — cấu trúc so sánh tinh tế để phân biệt sắc thái nghĩa"
+    },
+    {
+      "phrase": "Standing loses the time",
+      "meaningVi": "từ 'đứng' đánh mất chiều thời gian — câu rút gọn mang tính phê bình văn học, chỉ sự mất mát về hàm ý"
+    },
+    {
+      "phrase": "not a snapshot",
+      "meaningVi": "không phải một khoảnh khắc chụp vội — ẩn dụ phủ định nhấn mạnh tính kéo dài chứ không phải tức thời"
+    },
+    {
+      "phrase": "pull in different directions",
+      "meaningVi": "kéo về hai phía khác nhau / mâu thuẫn nhau — thành ngữ diễn tả sự xung đột giữa hai lựa chọn"
+    },
+    {
+      "phrase": "weigh single sentences against the original",
+      "meaningVi": "cân từng câu với nguyên tác — hình ảnh cân đong trong phê bình văn học / dịch thuật học"
+    },
+    {
+      "phrase": "I would rather not defend the choice alone",
+      "meaningVi": "tôi không muốn một mình phải biện hộ cho lựa chọn đó — cấu trúc hedging lịch sự, tránh đối đầu trực tiếp"
+    },
+    {
+      "phrase": "Phrased that way",
+      "meaningVi": "khi diễn đạt theo cách đó — mệnh đề phân từ rút gọn dùng như marker diễn ngôn để thừa nhận sự rõ ràng"
+    },
+    {
+      "phrase": "different objects",
+      "meaningVi": "hai thực thể / đối tượng khác nhau — ngôn ngữ trừu tượng hoá khái niệm để phân biệt rõ ràng"
+    },
+    {
+      "phrase": "in case anyone ever asks",
+      "meaningVi": "phòng khi có ai đó hỏi — mệnh đề điều kiện hedging, chuẩn bị trước cho tình huống có thể xảy ra"
+    },
+    {
+      "phrase": "follow-up",
+      "meaningVi": "câu hỏi / vấn đề tiếp theo — thuật ngữ diễn ngôn chính thức chỉ sự tiếp nối có liên quan"
+    },
+    {
+      "phrase": "survives the loss of it",
+      "meaningVi": "vẫn tồn tại dù mất đi yếu tố đó — cách nói trừu tượng về khả năng chịu đựng sự thiếu hụt"
+    },
+    {
+      "phrase": "three weeks on a sentence",
+      "meaningVi": "ba tuần cho một câu"
+    },
+    {
+      "phrase": "the language's",
+      "meaningVi": "của ngôn ngữ đó"
+    },
+    {
+      "phrase": "å vente",
+      "meaningVi": "å vente (động từ tiếng Na Uy nghĩa là 'chờ đợi')",
+      "pronunciation": "/oː ˈvɛntə/"
+    },
+    {
+      "phrase": "he is simply being there",
+      "meaningVi": "anh ấy đơn giản là đang hiện diện ở đó"
+    },
+    {
+      "phrase": "lingering",
+      "meaningVi": "nán lại, lưu luyến"
+    },
+    {
+      "phrase": "lingering is too soft",
+      "meaningVi": "nán lại là quá nhẹ nhàng"
+    },
+    {
+      "phrase": "waiting for something",
+      "meaningVi": "đang chờ đợi điều gì đó"
+    },
+    {
+      "phrase": "both, perhaps",
+      "meaningVi": "cả hai, có lẽ vậy"
+    }
   ],
   "grammarNotes": [
     {
@@ -73,7 +267,12 @@
     {
       "id": "q1",
       "prompt": "How long has Vera spent on the single sentence?",
-      "options": ["Three days", "Three weeks", "Three months", "Three years"],
+      "options": [
+        "Three days",
+        "Three weeks",
+        "Three months",
+        "Three years"
+      ],
       "answerIndex": 1,
       "explanation": "'I have been working on chapter eleven for three weeks.'",
       "hint": "Vera's opening line."
@@ -211,7 +410,12 @@
     {
       "id": "q12",
       "prompt": "How many more such sentences does Vera report in the book?",
-      "options": ["None", "Three", "Eleven", "Twenty"],
+      "options": [
+        "None",
+        "Three",
+        "Eleven",
+        "Twenty"
+      ],
       "answerIndex": 2,
       "explanation": "'There are eleven more sentences in this book where the same problem occurs.'",
       "hint": "Vera's follow-up about additional sentences."
@@ -259,22 +463,182 @@
   "cloze": {
     "template": "Vera: I have been working on chapter eleven for three {{b1}}. I owe you a question about one sentence.\nLars: Three weeks on a sentence is either an emergency or a {{b2}}. Which is it?\nVera: Both, perhaps. The sentence is the one where the father stops on the bridge. In your Norwegian, the verb 'å vente' carries two readings {{b3}} — he is waiting for something, and he is simply being there, present, in the small grammatical sense of waiting that survives in your dialect. English cannot do both.\nLars: Pick one.\nVera: That is what I have been refusing to do for three weeks. Which one is more important to you?\nLars: Vera, I have to be honest. When I wrote that sentence, I was not consciously {{b4}} the two readings. The verb came to me. I wrote it down. The doubleness is real, but it is not mine. It is the {{b5}}'s.\nVera: But the doubleness is what makes the scene.\nLars: Possibly. Or the scene survives the loss of it. Translators always think one sentence is the {{b6}}. Sometimes it is. Sometimes it is one of three or four, and removing any of them lightly damages the chapter but does not destroy it.\nVera: Then let me ask the question differently. If you were writing the chapter today, in English, knowing what English allows, would you place the weight on waiting-for-something, or on simply-being-{{b7}}?\nLars: That is a better question. Simply-being-there. The father is not, in his head, waiting for anything specific. He has stopped because he cannot go on. The 'waiting' is closer to a stalled {{b8}} than to an expectation.\nVera: Then I will translate it as standing. Not waiting.\nLars: Standing loses the {{b9}}. Waiting at least implies that he is there over a stretch of minutes, not a snapshot.\nVera: Lingering, then.\nLars: Lingering is too {{b10}}. Lingering is what a tourist does in front of a painting.\nVera: Standing for a long time without moving.\nLars: Now you are writing prose I would not write.\nVera: Yes. I always am. That is the job. The choice is between losing the doubleness — which you say is the language's, not yours — and writing a sentence you would not have written, but that produces, in English, the {{b11}} the original produced in Norwegian.\nLars: Phrased that way, the choice is obvious. You are not translating my sentences. You are translating my reader's {{b12}} of my sentences. They are different objects, and a good translator chooses the second when the two pull in different directions.\nVera: That is exactly what I would like you to allow me to do — in writing, {{b13}}, in case anyone ever asks. There are reviewers who will weigh single sentences against the original, and I would rather not defend the choice alone.\nLars: I will send a note to your publisher tomorrow. I will also send a copy to my editor, who is the person most likely to argue with you in the future.\nVera: Thank you. I am sorry to have been pedantic for three weeks.\nLars: You have not been pedantic. You have been the only person who has read the chapter that closely since I wrote it.\nVera: Then I have a follow-up. There are {{b14}} more sentences in this book where the same problem occurs. Some I have solved. Some I have not. Can we have this conversation eleven more times?\nLars: Yes. But not all at once. I would like to {{b15}} between them.\nVera: That was going to be my next condition.\nLars: Vera, may I ask something?\nVera: Please.\nLars: Do you think this book is good?\nVera: I would not have spent three weeks on a {{b16}} in chapter eleven if I did not.\nLars: That is the answer I needed.",
     "blanks": [
-      { "id": "b1", "options": ["weeks", "months", "hours", "years"], "answerIndex": 0, "explanation": "Three weeks on a sentence." },
-      { "id": "b2", "options": ["compliment", "complaint", "joke", "warning"], "answerIndex": 0, "explanation": "Either an emergency or a compliment." },
-      { "id": "b3", "options": ["simultaneously", "rarely", "carelessly", "publicly"], "answerIndex": 0, "explanation": "Two readings simultaneously." },
-      { "id": "b4", "options": ["balancing", "destroying", "translating", "marking"], "answerIndex": 0, "explanation": "He wasn't consciously balancing the two readings." },
-      { "id": "b5", "options": ["language", "publisher", "translator", "reader"], "answerIndex": 0, "explanation": "The doubleness is the language's." },
-      { "id": "b6", "options": ["hinge", "ceiling", "echo", "edge"], "answerIndex": 0, "explanation": "Translators think one sentence is the hinge." },
-      { "id": "b7", "options": ["there", "near", "alive", "ready"], "answerIndex": 0, "explanation": "Simply-being-there." },
-      { "id": "b8", "options": ["state", "song", "table", "wall"], "answerIndex": 0, "explanation": "A stalled state, not an expectation." },
-      { "id": "b9", "options": ["time", "dignity", "rhythm", "weight"], "answerIndex": 0, "explanation": "'Standing' loses the time." },
-      { "id": "b10", "options": ["soft", "loud", "modern", "ancient"], "answerIndex": 0, "explanation": "Lingering is too soft." },
-      { "id": "b11", "options": ["effect", "meaning", "weight", "rhyme"], "answerIndex": 0, "explanation": "The effect the original produced." },
-      { "id": "b12", "options": ["experience", "approval", "voice", "language"], "answerIndex": 0, "explanation": "The reader's experience of his sentences." },
-      { "id": "b13", "options": ["signed", "translated", "published", "remembered"], "answerIndex": 0, "explanation": "In writing, signed." },
-      { "id": "b14", "options": ["eleven", "twelve", "twenty", "thirty"], "answerIndex": 0, "explanation": "Eleven more such sentences." },
-      { "id": "b15", "options": ["think", "speak", "celebrate", "translate"], "answerIndex": 0, "explanation": "He would like to think between conversations." },
-      { "id": "b16", "options": ["verb", "noun", "page", "title"], "answerIndex": 0, "explanation": "Three weeks on a verb." }
+      {
+        "id": "b1",
+        "options": [
+          "weeks",
+          "months",
+          "hours",
+          "years"
+        ],
+        "answerIndex": 0,
+        "explanation": "Three weeks on a sentence."
+      },
+      {
+        "id": "b2",
+        "options": [
+          "compliment",
+          "complaint",
+          "joke",
+          "warning"
+        ],
+        "answerIndex": 0,
+        "explanation": "Either an emergency or a compliment."
+      },
+      {
+        "id": "b3",
+        "options": [
+          "simultaneously",
+          "rarely",
+          "carelessly",
+          "publicly"
+        ],
+        "answerIndex": 0,
+        "explanation": "Two readings simultaneously."
+      },
+      {
+        "id": "b4",
+        "options": [
+          "balancing",
+          "destroying",
+          "translating",
+          "marking"
+        ],
+        "answerIndex": 0,
+        "explanation": "He wasn't consciously balancing the two readings."
+      },
+      {
+        "id": "b5",
+        "options": [
+          "language",
+          "publisher",
+          "translator",
+          "reader"
+        ],
+        "answerIndex": 0,
+        "explanation": "The doubleness is the language's."
+      },
+      {
+        "id": "b6",
+        "options": [
+          "hinge",
+          "ceiling",
+          "echo",
+          "edge"
+        ],
+        "answerIndex": 0,
+        "explanation": "Translators think one sentence is the hinge."
+      },
+      {
+        "id": "b7",
+        "options": [
+          "there",
+          "near",
+          "alive",
+          "ready"
+        ],
+        "answerIndex": 0,
+        "explanation": "Simply-being-there."
+      },
+      {
+        "id": "b8",
+        "options": [
+          "state",
+          "song",
+          "table",
+          "wall"
+        ],
+        "answerIndex": 0,
+        "explanation": "A stalled state, not an expectation."
+      },
+      {
+        "id": "b9",
+        "options": [
+          "time",
+          "dignity",
+          "rhythm",
+          "weight"
+        ],
+        "answerIndex": 0,
+        "explanation": "'Standing' loses the time."
+      },
+      {
+        "id": "b10",
+        "options": [
+          "soft",
+          "loud",
+          "modern",
+          "ancient"
+        ],
+        "answerIndex": 0,
+        "explanation": "Lingering is too soft."
+      },
+      {
+        "id": "b11",
+        "options": [
+          "effect",
+          "meaning",
+          "weight",
+          "rhyme"
+        ],
+        "answerIndex": 0,
+        "explanation": "The effect the original produced."
+      },
+      {
+        "id": "b12",
+        "options": [
+          "experience",
+          "approval",
+          "voice",
+          "language"
+        ],
+        "answerIndex": 0,
+        "explanation": "The reader's experience of his sentences."
+      },
+      {
+        "id": "b13",
+        "options": [
+          "signed",
+          "translated",
+          "published",
+          "remembered"
+        ],
+        "answerIndex": 0,
+        "explanation": "In writing, signed."
+      },
+      {
+        "id": "b14",
+        "options": [
+          "eleven",
+          "twelve",
+          "twenty",
+          "thirty"
+        ],
+        "answerIndex": 0,
+        "explanation": "Eleven more such sentences."
+      },
+      {
+        "id": "b15",
+        "options": [
+          "think",
+          "speak",
+          "celebrate",
+          "translate"
+        ],
+        "answerIndex": 0,
+        "explanation": "He would like to think between conversations."
+      },
+      {
+        "id": "b16",
+        "options": [
+          "verb",
+          "noun",
+          "page",
+          "title"
+        ],
+        "answerIndex": 0,
+        "explanation": "Three weeks on a verb."
+      }
     ]
   },
   "criticalThinkingQuestion": "Lars says 'You are not translating my sentences. You are translating my reader's experience of my sentences.' Is there an act in your own life — explaining a parent's silence to a sibling, recounting a meeting to your boss — where the right unit of fidelity is the listener's experience rather than the literal words? What freedoms does that license, and what dishonesty would it tolerate that ought not to be tolerated?"

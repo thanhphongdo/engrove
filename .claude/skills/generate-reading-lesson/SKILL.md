@@ -66,10 +66,10 @@ ls public/lessons/reading/a1/ | sort | tail -3   # find highest existing
 | Level | Body word count | MC questions | Cloze blanks | Annotations |
 |---|---|---|---|---|
 | A1 | 150–250 | ≥10 | ≥10 | ≥10 |
-| A2 | 150–250 | ≥10 | ≥10 | ≥10 |
-| B1 | 350–500 | ≥10 | ≥10 | ≥15 |
-| B2 | 350–500 | ≥15 | ≥15 | ≥20 |
-| C1 | 600–800 | ≥15 | ≥15 | ≥20 |
+| A2 | 200–300 | ≥10 | ≥10 | ≥15 |
+| B1 | 400–500 | ≥10 | ≥10 | ≥20 |
+| B2 | 450–600 | ≥15 | ≥15 | ≥25 |
+| C1 | 600–800 | ≥15 | ≥15 | ≥30 |
 
 Linguistic register must match the level. Use CEFR descriptors as your check:
 - A1/A2 — present and past simple, common vocab, short sentences, concrete topics expressed simply
@@ -256,9 +256,11 @@ distractors are grammatically possible but only one is contextually right.
 ## Annotations
 
 Minimum counts per level (see the constraints table above):
-- A1, A2: **≥10 annotations**
-- B1: **≥15 annotations**
-- B2, C1: **≥20 annotations**
+- A1: **≥10 annotations**
+- A2: **≥15 annotations**
+- B1: **≥20 annotations**
+- B2: **≥25 annotations**
+- C1: **≥30 annotations**
 
 Pick the phrases learners are most likely to look up — uncommon vocabulary,
 fixed expressions, collocations, idioms, and any word whose form, pronunciation,
