@@ -30,6 +30,7 @@ _SSL_CTX = ssl.create_default_context(cafile=certifi.where())
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 LESSONS_DIR = REPO_ROOT / "public" / "lessons" / "listening"
+SPEAKING_LESSONS_DIR = REPO_ROOT / "public" / "lessons" / "speaking"
 SCRIPTS_DIR = REPO_ROOT / "scripts"
 
 
@@ -134,6 +135,103 @@ def process_lesson(lesson_path: Path, cache_dir: Path, force: bool) -> tuple[int
     return len(changed_ids), len(data["sentences"])
 
 
+def process_speaking_lesson(lesson_path: Path, cache_dir: Path, force: bool) -> tuple[int, int]:
+    """Generate MP3s for sentences, hintVocab, and hintStarters. Returns (n_changed, n_total)."""
+    data = json.loads(lesson_path.read_text(encoding="utf-8"))
+    lesson_id: str = data["id"]
+    lesson_root = cache_dir / lesson_id
+
+    # Determine the narrator voice for vocab/starters (first character's voice)
+    narrator_char = data["characters"][0]
+    narrator_voice = data["voices"][narrator_char]
+    narrator_edge_voice: str = narrator_voice["edgeVoice"]
+    narrator_rate: str = age_to_rate(narrator_voice["age"])
+
+    changed = 0
+
+    # 1. Sentences (same logic as listening, but output goes to sentences/ subfolder)
+    sentences_dir = lesson_root / "sentences"
+    sentences_dir.mkdir(parents=True, exist_ok=True)
+    manifest = {} if force else load_manifest(sentences_dir)
+    new_manifest: dict[str, ManifestEntry] = {}
+
+    for s in data["sentences"]:
+        sid: str = s["id"]
+        speaker: str = s["speaker"]
+        voice = data["voices"][speaker]
+        edge_voice: str = voice["edgeVoice"]
+        rate: str = age_to_rate(voice["age"])
+        h = sentence_hash(s["text"], edge_voice, rate)
+        existing = manifest.get(sid)
+        out_path = sentences_dir / f"{sid}.mp3"
+        if existing and existing.hash == h and out_path.exists() and not force:
+            new_manifest[sid] = existing
+            s["durationMs"] = existing.duration_ms
+            continue
+        print(f"   sentences/{sid}: synth ({edge_voice})")
+        asyncio.run(synth_sentence(s["text"], edge_voice, rate, out_path))
+        duration = measure_duration_ms(out_path)
+        new_manifest[sid] = ManifestEntry(sid, h, edge_voice, duration)
+        s["durationMs"] = duration
+        changed += 1
+
+    save_manifest(sentences_dir, new_manifest)
+    data["totalDurationMs"] = sum(e.duration_ms for e in new_manifest.values())
+
+    # 2. Hint vocab (narrator voice)
+    vocab_dir = lesson_root / "vocab"
+    vocab_dir.mkdir(parents=True, exist_ok=True)
+    vocab_manifest = {} if force else load_manifest(vocab_dir)
+    new_vocab_manifest: dict[str, ManifestEntry] = {}
+
+    for v in data.get("hintVocab", []):
+        vid: str = v["id"]
+        h = sentence_hash(v["phrase"], narrator_edge_voice, narrator_rate)
+        existing = vocab_manifest.get(vid)
+        out_path = vocab_dir / f"{vid}.mp3"
+        if existing and existing.hash == h and out_path.exists() and not force:
+            new_vocab_manifest[vid] = existing
+            continue
+        print(f"   vocab/{vid}: synth ({narrator_edge_voice})")
+        asyncio.run(synth_sentence(v["phrase"], narrator_edge_voice, narrator_rate, out_path))
+        duration = measure_duration_ms(out_path)
+        new_vocab_manifest[vid] = ManifestEntry(vid, h, narrator_edge_voice, duration)
+        changed += 1
+
+    save_manifest(vocab_dir, new_vocab_manifest)
+
+    # 3. Hint starters (narrator voice)
+    starters_dir = lesson_root / "starters"
+    starters_dir.mkdir(parents=True, exist_ok=True)
+    starters_manifest = {} if force else load_manifest(starters_dir)
+    new_starters_manifest: dict[str, ManifestEntry] = {}
+
+    for hs in data.get("hintStarters", []):
+        hid: str = hs["id"]
+        h = sentence_hash(hs["text"], narrator_edge_voice, narrator_rate)
+        existing = starters_manifest.get(hid)
+        out_path = starters_dir / f"{hid}.mp3"
+        if existing and existing.hash == h and out_path.exists() and not force:
+            new_starters_manifest[hid] = existing
+            continue
+        print(f"   starters/{hid}: synth ({narrator_edge_voice})")
+        asyncio.run(synth_sentence(hs["text"], narrator_edge_voice, narrator_rate, out_path))
+        duration = measure_duration_ms(out_path)
+        new_starters_manifest[hid] = ManifestEntry(hid, h, narrator_edge_voice, duration)
+        changed += 1
+
+    save_manifest(starters_dir, new_starters_manifest)
+
+    n_sentences = len(data["sentences"])
+    n_vocab = len(data.get("hintVocab", []))
+    n_starters = len(data.get("hintStarters", []))
+    n_total = n_sentences + n_vocab + n_starters
+
+    lesson_path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    print(f"   ✓ {lesson_id}: {changed} of {n_total} audio files regenerated")
+    return changed, n_total
+
+
 def find_lesson_paths(args: argparse.Namespace) -> list[Path]:
     if args.lesson_id:
         parts = args.lesson_id.split("-")
@@ -148,6 +246,23 @@ def find_lesson_paths(args: argparse.Namespace) -> list[Path]:
         return sorted(d.glob("listening-*.json")) if d.exists() else []
     if args.all:
         return sorted(LESSONS_DIR.glob("*/listening-*.json"))
+    sys.exit("must pass <lesson_id>, --level X, or --all")
+
+
+def find_speaking_lesson_paths(args: argparse.Namespace) -> list[Path]:
+    if args.lesson_id:
+        parts = args.lesson_id.split("-")
+        if len(parts) != 3 or parts[0] != "speaking":
+            sys.exit(f"bad speaking lesson id: {args.lesson_id}")
+        path = SPEAKING_LESSONS_DIR / parts[1].lower() / f"{args.lesson_id}.json"
+        if not path.exists():
+            sys.exit(f"lesson file not found: {path}")
+        return [path]
+    if args.level:
+        d = SPEAKING_LESSONS_DIR / args.level.lower()
+        return sorted(d.glob("speaking-*.json")) if d.exists() else []
+    if args.all:
+        return sorted(SPEAKING_LESSONS_DIR.glob("*/speaking-*.json"))
     sys.exit("must pass <lesson_id>, --level X, or --all")
 
 
@@ -263,15 +378,17 @@ def commit_and_push(audio_root: Path, lesson_id: str, n_changed: int, n_total: i
 
 def main() -> int:
     load_dotenv(SCRIPTS_DIR / ".env")
-    parser = argparse.ArgumentParser(description="Generate listening audio")
+    parser = argparse.ArgumentParser(description="Generate lesson audio")
     parser.add_argument("lesson_id", nargs="?")
+    parser.add_argument("--kind", choices=["listening", "speaking"], default="listening", help="lesson kind")
     parser.add_argument("--level", help="e.g. a2")
     parser.add_argument("--all", action="store_true")
     parser.add_argument("--force", action="store_true")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
-    lessons = find_lesson_paths(args)
+    is_speaking = args.kind == "speaking"
+    lessons = find_speaking_lesson_paths(args) if is_speaking else find_lesson_paths(args)
     if not lessons:
         print("no lessons matched")
         return 0
@@ -284,10 +401,14 @@ def main() -> int:
     if args.dry_run:
         for path in lessons:
             data = json.loads(path.read_text(encoding="utf-8"))
-            print(f"→ {data['id']}: {len(data['sentences'])} sentences across {len(data['voices'])} voice(s)")
-            for s in data["sentences"]:
-                voice = data["voices"][s["speaker"]]["edgeVoice"]
-                print(f"   {s['id']:>4}  {voice:<28}  {s['text'][:60]}{'…' if len(s['text']) > 60 else ''}")
+            n_audio = len(data["sentences"])
+            if is_speaking:
+                n_audio += len(data.get("hintVocab", [])) + len(data.get("hintStarters", []))
+            print(f"→ {data['id']}: {n_audio} audio files across {len(data['voices'])} voice(s)")
+            if not is_speaking:
+                for s in data["sentences"]:
+                    voice = data["voices"][s["speaker"]]["edgeVoice"]
+                    print(f"   {s['id']:>4}  {voice:<28}  {s['text'][:60]}{'…' if len(s['text']) > 60 else ''}")
         return 0
 
     token = os.environ.get("GITHUB_TOKEN")
@@ -300,7 +421,10 @@ def main() -> int:
     for path in lessons:
         data = json.loads(path.read_text(encoding="utf-8"))
         print(f"→ {data['id']}")
-        n_changed, n_total = process_lesson(path, audio_root, args.force)
+        if is_speaking:
+            n_changed, n_total = process_speaking_lesson(path, audio_root, args.force)
+        else:
+            n_changed, n_total = process_lesson(path, audio_root, args.force)
         if n_changed > 0:
             commit_and_push(audio_root, data["id"], n_changed, n_total, branch)
             print(f"   pushed {data['id']}: {n_changed} of {n_total}")
