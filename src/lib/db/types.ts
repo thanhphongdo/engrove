@@ -128,3 +128,22 @@ export type WritingAttempt = {
   llmResult: WritingLLMResult | null;
   sampleRevealed: boolean;
 };
+
+export type SpeakingRecording = {
+  id: string;          // crypto.randomUUID()
+  profileId: string;
+  lessonId: string;
+  role: string;        // character name the user played
+  completedAt: number; // Unix ms
+  durationMs: number;
+  turnCount: number;
+  mp3Blob: Blob;       // stored locally only, never uploaded
+};
+
+export type SpeakingSessionDraft = {
+  profileId: string;
+  lessonId: string;
+  role: string;
+  turnBlobs: Record<number, Blob>; // turnIndex → recorded Blob
+  updatedAt: number;
+};
