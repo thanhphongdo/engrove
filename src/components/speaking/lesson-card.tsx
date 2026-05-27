@@ -68,10 +68,12 @@ export function SpeakingLessonCard({ lesson, isLearned, isLearning, highlight }:
             {lesson.characters.join(" · ")}
           </span>
           <span>·</span>
-          <span className="inline-flex items-center gap-1">
-            <Clock className="size-3 shrink-0" aria-hidden="true" />
-            {fmtDuration(lesson.totalDurationMs)}
-          </span>
+          {lesson.totalDurationMs ? (
+            <span className="inline-flex items-center gap-1">
+              <Clock className="size-3 shrink-0" aria-hidden="true" />
+              {fmtDuration(lesson.totalDurationMs)}
+            </span>
+          ) : null}
           <span>·</span>
           <span>{lesson.turnCount} turns</span>
         </div>
