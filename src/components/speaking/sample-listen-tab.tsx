@@ -30,7 +30,11 @@ export function SampleListenTab({ lesson }: Props) {
       {lesson.translationVi && (
         <details className="rounded-md border">
           <summary className="cursor-pointer px-4 py-2 text-sm font-medium">Vietnamese translation</summary>
-          <p className="px-4 pb-3 pt-1 text-sm text-muted-foreground">{lesson.translationVi}</p>
+          <div className="space-y-1 px-4 pb-3 pt-1 text-sm text-muted-foreground">
+            {lesson.translationVi.split(/\n+/).map((line, i) => (
+              <p key={i}>{line}</p>
+            ))}
+          </div>
         </details>
       )}
       {lesson.grammarNotes.length > 0 && (

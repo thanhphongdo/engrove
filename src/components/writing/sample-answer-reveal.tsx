@@ -37,7 +37,11 @@ export function SampleAnswerReveal() {
             <summary className="cursor-pointer text-xs font-semibold uppercase tracking-wide">
               Vietnamese translation
             </summary>
-            <p className="mt-2 leading-relaxed">{lesson.sampleTranslationVi}</p>
+            <div className="mt-2 space-y-1 leading-relaxed">
+              {lesson.sampleTranslationVi.split(/\n+/).map((line, i) => (
+                <p key={i}>{line}</p>
+              ))}
+            </div>
           </details>
           {lesson.sampleGrammarNotes.length > 0 && (
             <GrammarNotes notes={lesson.sampleGrammarNotes} />
