@@ -1,0 +1,51 @@
+{
+  "id": "speaking-a1-001",
+  "level": "A1",
+  "title": "Ordering coffee",
+  "summary": "A customer orders an iced latte at a busy café.",
+  "topic": "Ordering at a café",
+  "tags": ["Daily life", "Café", "Small talk"],
+  "characters": ["Customer", "Barista"],
+  "voices": {
+    "Customer": { "sex": "female", "age": "adult", "accent": "en-US", "edgeVoice": "en-US-JennyNeural" },
+    "Barista":  { "sex": "male",   "age": "adult", "accent": "en-US", "edgeVoice": "en-US-GuyNeural" }
+  },
+  "body": [
+    { "speaker": "Customer", "text": "Hi, can I get an iced latte, please?" },
+    { "speaker": "Barista",  "text": "Sure. What size?" },
+    { "speaker": "Customer", "text": "Medium, please." },
+    { "speaker": "Barista",  "text": "Coming right up!" }
+  ],
+  "sentences": [
+    { "id": "s1", "speaker": "Customer", "text": "Hi, can I get an iced latte, please?" },
+    { "id": "s2", "speaker": "Barista",  "text": "Sure." },
+    { "id": "s3", "speaker": "Barista",  "text": "What size?" },
+    { "id": "s4", "speaker": "Customer", "text": "Medium, please." },
+    { "id": "s5", "speaker": "Barista",  "text": "Coming right up!" }
+  ],
+  "hintStarters": [
+    { "id": "h1", "text": "Could I have a …, please?" },
+    { "id": "h2", "text": "I'd like it …" }
+  ],
+  "hintVocab": [
+    { "id": "v1", "phrase": "iced latte",      "meaningVi": "cà phê sữa đá kiểu Ý",  "pronunciation": "/aɪst ˈlɑː.teɪ/" },
+    { "id": "v2", "phrase": "coming right up", "meaningVi": "ngay đây ạ",              "pronunciation": "/ˈkʌmɪŋ raɪt ʌp/" }
+  ],
+  "annotations": [
+    { "phrase": "iced latte", "meaningVi": "cà phê sữa đá kiểu Ý", "pronunciation": "/aɪst ˈlɑː.teɪ/" }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Polite requests with 'can I'",
+      "bodyVi": "Dùng 'Can I …, please?' để yêu cầu lịch sự trong tiếng Anh hàng ngày.",
+      "bodyEn": "Use 'Can I …, please?' for polite everyday requests."
+    }
+  ],
+  "translationVi": "Khách: Cho tôi một ly cà phê sữa đá nhé? Nhân viên: Vâng, cỡ nào ạ? Khách: Cỡ vừa ạ. Nhân viên: Ngay đây ạ!",
+  "criticalThinkingQuestion": "Why might tone matter as much as words when ordering at a café?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-a1-001",
+    "manifestVersion": 1
+  },
+  "accents": ["en-US"]
+}

@@ -9,6 +9,10 @@ import {
   writingLessonSchema,
   writingLessonsIndexSchema,
 } from "./schema";
+import {
+  speakingLessonSchema,
+  speakingLessonsIndexSchema,
+} from "./speaking-schema";
 import type {
   CefrLevel,
   Lesson,
@@ -18,11 +22,12 @@ import type {
   WritingLesson,
   WritingLessonMeta,
 } from "./types";
+import type { SpeakingLesson, SpeakingLessonMeta } from "./speaking-schema";
 
-type LessonKind = "reading" | "listening" | "writing";
+type LessonKind = "reading" | "listening" | "writing" | "speaking";
 
 function parseKindAndLevel(lessonId: string): { kind: LessonKind; level: CefrLevel } {
-  const match = lessonId.match(/^(reading|listening|writing)-(a1|a2|b1|b2|c1)-/i);
+  const match = lessonId.match(/^(reading|listening|writing|speaking)-(a1|a2|b1|b2|c1)-/i);
   if (!match) throw new Error(`Cannot derive kind/level from lesson id: ${lessonId}`);
   return {
     kind: match[1].toLowerCase() as LessonKind,
@@ -115,6 +120,36 @@ export function useWritingLesson(lessonId: string | undefined) {
   return useQuery({
     queryKey: ["lessons", "writing", "lesson", lessonId],
     queryFn: () => fetchWritingLesson(lessonId as string),
+    staleTime: Infinity,
+    enabled: Boolean(lessonId),
+  });
+}
+
+async function fetchSpeakingIndex(): Promise<SpeakingLessonMeta[]> {
+  const res = await fetch("/lessons/speaking/index.json");
+  if (!res.ok) throw new Error("Failed to load speaking lessons index");
+  return speakingLessonsIndexSchema.parse(await res.json());
+}
+
+async function fetchSpeakingLesson(lessonId: string): Promise<SpeakingLesson> {
+  const { level } = parseKindAndLevel(lessonId);
+  const res = await fetch(`/lessons/speaking/${level.toLowerCase()}/${lessonId}.json`);
+  if (!res.ok) throw new Error(`Failed to load lesson ${lessonId}`);
+  return speakingLessonSchema.parse(await res.json());
+}
+
+export function useSpeakingLessonsIndex() {
+  return useQuery({
+    queryKey: ["lessons", "speaking", "index"],
+    queryFn: fetchSpeakingIndex,
+    staleTime: Infinity,
+  });
+}
+
+export function useSpeakingLesson(lessonId: string | undefined) {
+  return useQuery({
+    queryKey: ["lessons", "speaking", "lesson", lessonId],
+    queryFn: () => fetchSpeakingLesson(lessonId as string),
     staleTime: Infinity,
     enabled: Boolean(lessonId),
   });
