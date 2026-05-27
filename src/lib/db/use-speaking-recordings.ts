@@ -25,6 +25,7 @@ export function useSpeakingRecordings(lessonId: string): SpeakingRecording[] | u
 export function useSpeakingRecordingsByLesson(): Map<string, SpeakingRecording> | undefined {
   const profileId = useActiveProfileId();
   return useLiveQuery(async () => {
+    // No standalone profileId index on this table — full scan is fine at this scale
     const all = await db.speakingRecordings.toArray();
     const map = new Map<string, SpeakingRecording>();
     for (const row of all.filter((r) => r.profileId === profileId)) {
@@ -45,7 +46,6 @@ export function useSaveSpeakingRecording() {
         ...input,
       };
       await db.speakingRecordings.add(recording);
-      return recording;
     },
     [profileId],
   );
