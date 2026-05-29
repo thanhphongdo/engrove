@@ -1,0 +1,184 @@
+{
+  "id": "writing-a1-096",
+  "level": "A1",
+  "title": "My favourite park bench",
+  "summary": "Describe a park bench or outdoor spot you visit often, using present simple and simple location phrases.",
+  "tags": ["Places", "Nature", "Leisure"],
+  "topic": "A park bench or outdoor spot you visit often",
+  "prompt": "Write 6–8 short sentences about a bench or outdoor spot you like. Describe where it is, what you see from it, and what you do there. Use present simple and words for location (near, next to, in front of, behind).",
+  "minWords": 150,
+  "maxWords": 250,
+  "hintStarters": [
+    "There is a bench near…",
+    "I usually sit there when…",
+    "From the bench, I can see…"
+  ],
+  "hintVocab": [
+    { "phrase": "bench", "meaningVi": "ghế dài" },
+    { "phrase": "shade", "meaningVi": "bóng mát", "pronunciation": "/ʃeɪd/" },
+    { "phrase": "tree", "meaningVi": "cái cây" },
+    { "phrase": "path", "meaningVi": "con đường nhỏ" },
+    { "phrase": "sit down", "meaningVi": "ngồi xuống" },
+    { "phrase": "look at", "meaningVi": "nhìn vào" },
+    { "phrase": "pigeons", "meaningVi": "chim bồ câu", "pronunciation": "/ˈpɪdʒɪnz/" },
+    { "phrase": "peaceful", "meaningVi": "yên bình" },
+    { "phrase": "in front of", "meaningVi": "ở phía trước" },
+    { "phrase": "next to", "meaningVi": "bên cạnh" },
+    { "phrase": "read a book", "meaningVi": "đọc sách" }
+  ],
+  "sampleText": "There is a wooden bench in the small park next to my street in Hanoi. It is under a big tree, so there is always shade. I usually go there in the late afternoon, after work. I sit down and I look at the people who walk on the path. There are always children with their parents. Sometimes there is a man who sells ice cream near the gate. I sometimes buy one and I eat it slowly on the bench. In front of the bench, there are flowers. They are orange and yellow. Behind the bench, there is a small pond with fish. I never use my phone when I sit there. I usually just watch the water and listen to the birds. It is very peaceful. Sometimes I read a book. The bench is old and the paint is a little bit broken, but I like it very much. I sit there for about thirty minutes every day. It is my favorite place in the neighborhood.",
+  "sampleAnnotations": [
+    { "phrase": "wooden bench", "meaningVi": "ghế gỗ dài" },
+    { "phrase": "next to my street", "meaningVi": "bên cạnh đường phố tôi ở" },
+    { "phrase": "under a big tree", "meaningVi": "dưới một cây to" },
+    { "phrase": "in the late afternoon", "meaningVi": "vào buổi chiều muộn" },
+    { "phrase": "walk on the path", "meaningVi": "đi bộ trên con đường nhỏ" },
+    { "phrase": "near the gate", "meaningVi": "gần cổng" },
+    { "phrase": "In front of the bench", "meaningVi": "Ở phía trước ghế" },
+    { "phrase": "small pond with fish", "meaningVi": "cái ao nhỏ có cá" },
+    { "phrase": "watch the water", "meaningVi": "nhìn mặt nước" },
+    { "phrase": "very peaceful", "meaningVi": "rất yên bình" },
+    { "phrase": "my favorite place in the neighborhood", "meaningVi": "nơi yêu thích của tôi trong khu phố" }
+  ],
+  "sampleGrammarNotes": [
+    {
+      "title": "Location phrases with 'next to', 'in front of', 'behind', 'under'",
+      "bodyVi": "Dùng các cụm giới từ để nói vị trí: 'next to my street' (bên cạnh đường), 'in front of the bench' (trước ghế), 'behind the bench' (sau ghế), 'under a big tree' (dưới cây).",
+      "bodyEn": "Use preposition phrases to describe location: 'next to my street', 'in front of the bench', 'behind the bench', 'under a big tree'. Each phrase answers the question 'where?'"
+    }
+  ],
+  "sampleTranslationVi": "Có một chiếc ghế gỗ trong công viên nhỏ bên cạnh đường phố tôi ở tại Hà Nội. Ghế ở dưới một cây to, vì vậy lúc nào cũng có bóng mát. Tôi thường đến đó vào buổi chiều muộn, sau giờ làm việc. Tôi ngồi xuống và nhìn những người đi bộ trên con đường nhỏ. Luôn có trẻ em cùng cha mẹ. Đôi khi có một người bán kem gần cổng. Tôi đôi khi mua một cái và ăn chậm rãi trên ghế. Trước mặt ghế có những bông hoa. Chúng màu cam và vàng. Phía sau ghế có một cái ao nhỏ có cá. Tôi không bao giờ dùng điện thoại khi ngồi đó. Tôi thường chỉ nhìn mặt nước và lắng nghe tiếng chim. Rất yên bình. Đôi khi tôi đọc sách. Cái ghế đã cũ và sơn hơi bong tróc, nhưng tôi rất thích nó. Tôi ngồi đó khoảng ba mươi phút mỗi ngày. Đây là nơi yêu thích của tôi trong khu phố.",
+  "mcQuestions": [
+    {
+      "id": "q1",
+      "prompt": "Which sentence uses a location phrase correctly?",
+      "options": [
+        "The bench is next to the tree big.",
+        "The bench is next to the big tree.",
+        "The bench is next big tree the.",
+        "Next to the bench is tree big a."
+      ],
+      "answerIndex": 1,
+      "explanation": "Adjective comes before noun: 'the big tree', and the phrase is 'next to + noun phrase'.",
+      "hint": "Check the order of adjective and noun after 'next to'."
+    },
+    {
+      "id": "q2",
+      "prompt": "Which sentence correctly uses 'there is' to describe one thing in the park?",
+      "options": [
+        "There is a small pond behind the bench.",
+        "There are a small pond behind the bench.",
+        "There is small pond behind the bench.",
+        "Is there a pond small behind bench."
+      ],
+      "answerIndex": 0,
+      "explanation": "'There is' is used for one singular noun: 'a small pond'.",
+      "hint": "Is the noun singular or plural?"
+    },
+    {
+      "id": "q3",
+      "prompt": "Which sentence correctly says what you never do?",
+      "options": [
+        "I never not use my phone there.",
+        "I never use my phone there.",
+        "I use never my phone there.",
+        "I do never use my phone there."
+      ],
+      "answerIndex": 1,
+      "explanation": "'I never use' is the correct structure — 'never' before the main verb, no extra negation.",
+      "hint": "You only need one negative word with 'never'."
+    },
+    {
+      "id": "q4",
+      "prompt": "Choose the sentence that best describes a peaceful outdoor place.",
+      "options": [
+        "It is very peaceful and I like to sit here.",
+        "It is very peacefully and I like sitting.",
+        "It peacefully is very and sitting like I.",
+        "I am like sitting peaceful very it is."
+      ],
+      "answerIndex": 0,
+      "explanation": "'peaceful' is an adjective after 'is'; 'I like to sit here' is correct infinitive use.",
+      "hint": "After 'is', use an adjective — not an adverb."
+    },
+    {
+      "id": "q5",
+      "prompt": "Which sentence uses 'in front of' correctly?",
+      "options": [
+        "In front the bench, there are flowers.",
+        "In front of the bench, there are flowers.",
+        "In front of bench, there flowers are.",
+        "There are flowers in front bench."
+      ],
+      "answerIndex": 1,
+      "explanation": "The fixed phrase is 'in front of' — it always needs 'of' before the noun phrase.",
+      "hint": "Is the preposition phrase complete? Check every word."
+    },
+    {
+      "id": "q6",
+      "prompt": "Which sentence correctly uses 'and' to describe two things you do on the bench?",
+      "options": [
+        "I sit and I watch the water.",
+        "I sit and watching the water.",
+        "I sit and the water watch.",
+        "Sitting and water watching bench I."
+      ],
+      "answerIndex": 0,
+      "explanation": "'I sit and I watch' — both clauses share the same structure: subject + verb.",
+      "hint": "Both parts joined by 'and' should have the same form."
+    },
+    {
+      "id": "q7",
+      "prompt": "Which sentence uses 'sometimes' correctly to describe something that does not always happen?",
+      "options": [
+        "I sometimes read a book on the bench.",
+        "I sometimes reads a book on the bench.",
+        "I read sometimes always a book bench.",
+        "Sometimes book reading bench I."
+      ],
+      "answerIndex": 0,
+      "explanation": "'Sometimes' before the main verb with 'I' — no -s on the verb.",
+      "hint": "Watch the verb ending: 'I' never takes -s in the present simple."
+    },
+    {
+      "id": "q8",
+      "prompt": "Which sentence gives the best reason for liking an old bench?",
+      "options": [
+        "I like the bench because it is old and broken.",
+        "I like it even when the paint is a little broken.",
+        "I like old bench because old paint broken.",
+        "The bench I like because old is very much."
+      ],
+      "answerIndex": 1,
+      "explanation": "'even when' shows the speaker likes the bench despite its condition — natural spoken English.",
+      "hint": "Which option sounds like something a real person would say?"
+    },
+    {
+      "id": "q9",
+      "prompt": "Choose the correct present simple form: 'She ___ there every afternoon.'",
+      "options": [
+        "sit",
+        "siting",
+        "sits",
+        "sat"
+      ],
+      "answerIndex": 2,
+      "explanation": "Third-person singular (she) takes -s: 'she sits'.",
+      "hint": "Think about what ending 'she' needs on the verb."
+    },
+    {
+      "id": "q10",
+      "prompt": "Which option best says how long you stay at the bench each day?",
+      "options": [
+        "I sit there for about thirty minutes every day.",
+        "I sit there about thirty minutes for the day.",
+        "I sitting there thirty minutes each every day.",
+        "For thirty minutes I sits there daily every."
+      ],
+      "answerIndex": 0,
+      "explanation": "'for + time' with 'every day' at the end is the natural order.",
+      "hint": "Which preposition goes with a duration of time?"
+    }
+  ],
+  "criticalThinkingQuestion": "Is there a place outside your home where you feel calm? What is one thing about that place that makes you want to go back?"
+}

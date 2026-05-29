@@ -1,0 +1,309 @@
+{
+  "id": "writing-c1-085",
+  "level": "C1",
+  "title": "The library that could not throw anything away",
+  "summary": "Argue that the dream of keeping everything is not generosity toward the future but a quiet burden — that an archive which refuses to forget anything eventually forgets how to mean anything, and that selection, not accumulation, is the real work of preservation.",
+  "tags": ["Argument", "Memory", "Preservation"],
+  "topic": "Preserving everything can be a way of preserving nothing",
+  "prompt": "Write a 600–800-word essay arguing that the attempt to keep a complete record of everything can undermine, rather than serve, the act of remembering. Ground the argument in two concrete cases and grant one serious counter-argument before limiting it. Use nominalization, hedged claims (it may be that…, what tends to happen…), and at least one fronted concessive clause.",
+  "minWords": 600,
+  "maxWords": 800,
+  "hintStarters": [
+    "The instinct to keep everything wears the costume of generosity, yet what it often conceals is…",
+    "It would be ungracious to mock the archivist who saves the discarded ticket stub, and yet the harder question is…",
+    "We tell ourselves that more is safer, that nothing kept can ever be regretted; the trouble is that…"
+  ],
+  "hintVocab": [
+    {"phrase": "an archive", "meaningVi": "kho lưu trữ tư liệu", "pronunciation": "/ˈɑːkaɪv/"},
+    {"phrase": "preservation", "meaningVi": "sự bảo tồn, lưu giữ", "pronunciation": "/ˌprezəˈveɪʃən/"},
+    {"phrase": "accumulation", "meaningVi": "sự tích luỹ, gom góp", "pronunciation": "/əˌkjuːmjəˈleɪʃən/"},
+    {"phrase": "to discard", "meaningVi": "vứt bỏ, loại đi", "pronunciation": "/dɪˈskɑːd/"},
+    {"phrase": "selection", "meaningVi": "sự chọn lọc, tuyển chọn"},
+    {"phrase": "to curate", "meaningVi": "tuyển chọn và sắp đặt có chủ ý", "pronunciation": "/kjʊˈreɪt/"},
+    {"phrase": "redundancy", "meaningVi": "sự dư thừa, trùng lặp", "pronunciation": "/rɪˈdʌndənsi/"},
+    {"phrase": "the haystack problem", "meaningVi": "vấn đề đống cỏ khô (quá nhiều dữ liệu khiến không tìm được thứ cần)"},
+    {"phrase": "to sift", "meaningVi": "sàng lọc, lọc lấy thứ quan trọng", "pronunciation": "/sɪft/"},
+    {"phrase": "retrieval", "meaningVi": "sự truy hồi, tìm lại được", "pronunciation": "/rɪˈtriːvəl/"},
+    {"phrase": "signal and noise", "meaningVi": "tín hiệu và nhiễu (cái có ý nghĩa và cái vô nghĩa)"},
+    {"phrase": "obsolescence", "meaningVi": "sự lỗi thời, không còn dùng được", "pronunciation": "/ˌɒbsəˈlesəns/"},
+    {"phrase": "bit rot", "meaningVi": "sự mục nát của dữ liệu số theo thời gian"},
+    {"phrase": "stewardship", "meaningVi": "trách nhiệm trông coi, gìn giữ", "pronunciation": "/ˈstjuːədʃɪp/"},
+    {"phrase": "to weed out", "meaningVi": "loại bỏ thứ thừa, làm cỏ dữ liệu"},
+    {"phrase": "deaccessioning", "meaningVi": "việc thanh lý, loại bỏ hiện vật khỏi bộ sưu tập"},
+    {"phrase": "the hoarder", "meaningVi": "người tích trữ, không nỡ vứt gì", "pronunciation": "/ˈhɔːdə/"},
+    {"phrase": "context", "meaningVi": "bối cảnh, ngữ cảnh"},
+    {"phrase": "legibility", "meaningVi": "tính dễ đọc, dễ hiểu được", "pronunciation": "/ˌledʒəˈbɪləti/"},
+    {"phrase": "to triage", "meaningVi": "phân loại theo mức ưu tiên", "pronunciation": "/ˈtriːɑːʒ/"},
+    {"phrase": "completeness", "meaningVi": "tính đầy đủ, trọn vẹn"},
+    {"phrase": "indiscriminate", "meaningVi": "không phân biệt, vơ đũa cả nắm", "pronunciation": "/ˌɪndɪˈskrɪmɪnət/"},
+    {"phrase": "to outlive its usefulness", "meaningVi": "tồn tại lâu hơn cả công dụng của nó"},
+    {"phrase": "a backlog", "meaningVi": "khối lượng việc tồn đọng", "pronunciation": "/ˈbæklɒɡ/"},
+    {"phrase": "maintenance burden", "meaningVi": "gánh nặng bảo trì"},
+    {"phrase": "to defer the decision", "meaningVi": "trì hoãn quyết định"},
+    {"phrase": "meaningful loss", "meaningVi": "sự mất mát có ý nghĩa, sự buông bỏ có chủ đích"},
+    {"phrase": "to compound", "meaningVi": "tích tụ thêm, làm trầm trọng dần", "pronunciation": "/kəmˈpaʊnd/"},
+    {"phrase": "ephemera", "meaningVi": "những vật chóng tàn, tư liệu vụn vặt", "pronunciation": "/ɪˈfemərə/"},
+    {"phrase": "to constitute", "meaningVi": "tạo thành, cấu thành", "pronunciation": "/ˈkɒnstɪtjuːt/"},
+    {"phrase": "a custodian", "meaningVi": "người trông giữ, người bảo quản", "pronunciation": "/kʌˈstəʊdiən/"},
+    {"phrase": "to relinquish", "meaningVi": "từ bỏ, buông ra", "pronunciation": "/rɪˈlɪŋkwɪʃ/"}
+  ],
+  "sampleText": "The instinct to keep everything wears the costume of generosity, yet what it often conceals is a refusal to choose. We imagine the complete archive as a gift to the future: spare nothing, discard nothing, and let our descendants decide what matters. It sounds humble. In practice, what tends to happen is the opposite of stewardship — the burden of judgement is simply postponed and multiplied, handed down to people who will have even less context than we do.\n\nConsider the family hard drive. A parent photographs a child's birthday and comes away not with the twelve images that hold the day but with four hundred near-identical frames, none deleted, all saved \"just in case.\" Twenty years on, the child inherits the folder. To find the one photograph that matters — the grandmother laughing, caught between candles — she must scroll through hundreds of blurred, redundant copies of the same three seconds. The completeness that felt like care has produced a haystack, and somewhere inside it the needle has quietly lost its value. It may be that the picture worth keeping was rendered unfindable by the four hundred that were kept alongside it.\n\nThe institutional version of this is worse, because it is funded. Many municipal archives now operate a policy of near-total digital capture: every email, every draft, every routine form scanned and stored against the day it might be wanted. The intention is accountability, and the intention is good. But an archive is not a warehouse; it is a system for making the past legible, and legibility depends on selection. When everything is retained, retrieval collapses under its own weight. Archivists speak of the haystack problem precisely because a record nobody can locate is, functionally, a record that was never kept. Worse still, indiscriminate retention carries a maintenance burden that compounds year on year — migration, backup, format obsolescence, the slow bit rot of formats no one can open — so that the cost of keeping the trivial steadily erodes the budget for protecting the irreplaceable.\n\nGranted, the argument has a powerful objection, and it deserves to be met squarely. We are notoriously bad at predicting what the future will value. The discarded receipt, the throwaway memo, the ephemera no curator thought worth a shelf — these are often exactly what later historians prize, because they reveal the texture of ordinary life that official records suppress. Whole fields rest on what someone failed to throw away. To champion deletion, then, can sound like vandalism dressed as efficiency, and any honest case must concede that selection is risky and that some of what we discard we will wish we had not.\n\nYet the objection proves less than it appears. That we cannot perfectly predict value does not mean all retention is equal; it means selection must be intelligent rather than absent. The historian who treasures a stray receipt is helped by the fact that it survived among a manageable few, legible against its context — not buried in a digital landfill of ten million identical receipts where no pattern can be read at all. Indiscriminate keeping does not preserve the surprising detail; it drowns it. What the future actually needs is not everything but a selection made with enough humility to keep more than seems necessary and enough courage to keep less than is possible.\n\nThis is why deaccessioning — the deliberate, documented removal of material — is not the enemy of an archive but part of its craft. To weed out is not to despise the past; it is to take responsibility for which parts of it will remain reachable. A custodian who never relinquishes anything has not preserved the collection so much as abandoned it to entropy, leaving the real choosing to time, accident, and the failure of obsolete drives.\n\nThe deeper point is that meaning is made by loss as much as by retention. A photograph means something partly because the ten thousand seconds around it were let go. A diary matters because it is not a transcript of every waking thought. To preserve well is to accept that the act of keeping and the act of releasing are not opposites but partners, and that the courage to let things go is, more often than we admit, the truest form of care for what remains. The archive that cannot throw anything away has not conquered forgetting. It has only changed its name."
+,
+  "sampleAnnotations": [
+    {"phrase": "The instinct to keep everything wears the costume of generosity", "meaningVi": "Bản năng giữ lại tất cả khoác lên mình bộ trang phục của lòng hào phóng"},
+    {"phrase": "what it often conceals is a refusal to choose", "meaningVi": "thứ nó thường che giấu là sự khước từ việc lựa chọn"},
+    {"phrase": "the complete archive as a gift to the future", "meaningVi": "kho lưu trữ trọn vẹn như một món quà cho tương lai"},
+    {"phrase": "what tends to happen is the opposite of stewardship", "meaningVi": "điều thường xảy ra lại trái ngược với sự trông coi có trách nhiệm"},
+    {"phrase": "the burden of judgement is simply postponed and multiplied", "meaningVi": "gánh nặng phán xét chỉ đơn giản bị hoãn lại và nhân lên"},
+    {"phrase": "four hundred near-identical frames, none deleted, all saved", "meaningVi": "bốn trăm khung hình gần như giống hệt nhau, không xoá tấm nào, lưu lại tất cả"},
+    {"phrase": "The completeness that felt like care has produced a haystack", "meaningVi": "Sự đầy đủ tưởng như là sự quan tâm lại tạo ra một đống cỏ khô"},
+    {"phrase": "It may be that the picture worth keeping was rendered unfindable", "meaningVi": "Có thể bức ảnh đáng giữ đã bị biến thành không thể tìm thấy"},
+    {"phrase": "an archive is not a warehouse; it is a system for making the past legible", "meaningVi": "kho lưu trữ không phải nhà kho; nó là hệ thống làm cho quá khứ trở nên dễ đọc hiểu"},
+    {"phrase": "legibility depends on selection", "meaningVi": "tính dễ đọc hiểu phụ thuộc vào sự chọn lọc"},
+    {"phrase": "retrieval collapses under its own weight", "meaningVi": "việc truy hồi sụp đổ dưới chính sức nặng của nó"},
+    {"phrase": "a record nobody can locate is, functionally, a record that was never kept", "meaningVi": "một hồ sơ không ai tìm được, về mặt chức năng, là hồ sơ chưa từng được giữ"},
+    {"phrase": "a maintenance burden that compounds year on year", "meaningVi": "một gánh nặng bảo trì cứ tích tụ thêm qua từng năm"},
+    {"phrase": "the slow bit rot of formats no one can open", "meaningVi": "sự mục nát chậm rãi của những định dạng không ai mở được"},
+    {"phrase": "the argument has a powerful objection, and it deserves to be met squarely", "meaningVi": "lập luận này có một phản biện mạnh, và nó xứng đáng được đối diện thẳng thắn"},
+    {"phrase": "We are notoriously bad at predicting what the future will value", "meaningVi": "Chúng ta nổi tiếng là kém trong việc dự đoán tương lai sẽ coi trọng điều gì"},
+    {"phrase": "the texture of ordinary life that official records suppress", "meaningVi": "kết cấu của đời sống thường nhật mà hồ sơ chính thức che lấp"},
+    {"phrase": "to champion deletion, then, can sound like vandalism dressed as efficiency", "meaningVi": "vậy nên cổ vũ cho việc xoá bỏ có thể nghe như sự phá hoại khoác áo hiệu quả"},
+    {"phrase": "selection must be intelligent rather than absent", "meaningVi": "sự chọn lọc phải thông minh chứ không phải vắng mặt"},
+    {"phrase": "buried in a digital landfill of ten million identical receipts", "meaningVi": "bị chôn trong một bãi rác kỹ thuật số gồm mười triệu hoá đơn giống hệt nhau"},
+    {"phrase": "Indiscriminate keeping does not preserve the surprising detail; it drowns it", "meaningVi": "Việc giữ lại không phân biệt không bảo tồn chi tiết bất ngờ; nó nhấn chìm chi tiết ấy"},
+    {"phrase": "enough humility to keep more than seems necessary and enough courage to keep less than is possible", "meaningVi": "đủ khiêm tốn để giữ nhiều hơn mức tưởng là cần và đủ can đảm để giữ ít hơn mức có thể"},
+    {"phrase": "deaccessioning — the deliberate, documented removal of material", "meaningVi": "việc thanh lý — sự loại bỏ tư liệu một cách có chủ đích và có ghi chép"},
+    {"phrase": "To weed out is not to despise the past", "meaningVi": "Loại bỏ thứ thừa không phải là khinh rẻ quá khứ"},
+    {"phrase": "abandoned it to entropy", "meaningVi": "bỏ mặc nó cho sự hỗn loạn và tan rã"},
+    {"phrase": "meaning is made by loss as much as by retention", "meaningVi": "ý nghĩa được tạo ra bởi sự mất mát ngang với sự giữ lại"},
+    {"phrase": "the ten thousand seconds around it were let go", "meaningVi": "mười nghìn giây xung quanh nó đã được buông bỏ"},
+    {"phrase": "the act of keeping and the act of releasing are not opposites but partners", "meaningVi": "việc giữ lại và việc buông bỏ không phải đối lập mà là bạn đồng hành"},
+    {"phrase": "the truest form of care for what remains", "meaningVi": "hình thức quan tâm chân thật nhất dành cho những gì còn lại"},
+    {"phrase": "The archive that cannot throw anything away has not conquered forgetting", "meaningVi": "Kho lưu trữ không thể vứt đi bất cứ thứ gì thì không hề chiến thắng sự lãng quên"},
+    {"phrase": "It has only changed its name", "meaningVi": "Nó chỉ đơn thuần đổi tên gọi của sự lãng quên mà thôi"}
+  ],
+  "sampleGrammarNotes": [
+    {
+      "title": "Nominalization to make processes the subject of argument",
+      "bodyVi": "Bài viết biến động từ thành danh từ trừu tượng để chúng có thể làm chủ ngữ của lập luận: 'preservation', 'selection', 'retrieval collapses under its own weight', 'Indiscriminate keeping does not preserve…'. Cách danh từ hoá này cho phép thảo luận về bản thân quá trình thay vì về một người cụ thể — dấu hiệu văn phong học thuật C1.",
+      "bodyEn": "The essay turns verbs into abstract nouns so they can head the argument: 'preservation', 'selection', 'retrieval collapses under its own weight', 'Indiscriminate keeping does not preserve…'. This nominalization lets the writer argue about the process itself rather than about a particular person — a marker of academic C1 register."
+    },
+    {
+      "title": "Conceding then limiting (the grant-then-narrow move)",
+      "bodyVi": "Lập luận C1 mạnh không né tránh phản biện. Đoạn 'Granted, the argument has a powerful objection…' thừa nhận đầy đủ phản biện, rồi đoạn sau mở bằng 'Yet the objection proves less than it appears' để thu hẹp lại. Cấu trúc nhượng bộ rồi giới hạn này giúp lập luận vừa công bằng vừa giữ được lập trường.",
+      "bodyEn": "A strong C1 argument does not dodge counter-arguments. The paragraph 'Granted, the argument has a powerful objection…' fully concedes it, and the next opens with 'Yet the objection proves less than it appears' to narrow it down. This grant-then-narrow structure keeps the argument fair while holding its position."
+    }
+  ],
+  "sampleTranslationVi": "Bản năng giữ lại tất cả khoác lên mình bộ trang phục của lòng hào phóng, thế nhưng thứ nó thường che giấu là sự khước từ việc lựa chọn. Ta hình dung kho lưu trữ trọn vẹn như một món quà cho tương lai: đừng buông gì, đừng vứt gì, và để hậu thế quyết định cái gì quan trọng. Nghe có vẻ khiêm tốn. Trên thực tế, điều thường xảy ra lại trái ngược với sự trông coi có trách nhiệm — gánh nặng phán xét chỉ đơn giản bị hoãn lại và nhân lên, trao xuống cho những người sẽ có còn ít bối cảnh hơn cả chúng ta.\n\nHãy xét ổ cứng gia đình. Một người cha mẹ chụp ảnh sinh nhật con và ra về không phải với mười hai bức ảnh chứa đựng cả ngày hôm đó mà với bốn trăm khung hình gần như giống hệt nhau, không xoá tấm nào, lưu lại tất cả \"đề phòng\". Hai mươi năm sau, đứa con thừa kế thư mục ấy. Để tìm tấm ảnh duy nhất có ý nghĩa — người bà cười, lọt giữa những ngọn nến — cô phải lướt qua hàng trăm bản sao mờ nhoè, trùng lặp của cùng ba giây ấy. Sự đầy đủ tưởng như là sự quan tâm lại tạo ra một đống cỏ khô, và đâu đó bên trong nó cây kim đã lặng lẽ mất đi giá trị. Có thể bức ảnh đáng giữ đã bị biến thành không thể tìm thấy bởi chính bốn trăm tấm được giữ cùng nó.\n\nPhiên bản ở cấp thể chế còn tệ hơn, vì nó được cấp ngân sách. Nhiều kho lưu trữ thành phố nay áp dụng chính sách thu giữ kỹ thuật số gần như toàn bộ: mọi email, mọi bản nháp, mọi biểu mẫu thường lệ đều được quét và lưu để phòng ngày nó có thể cần đến. Ý định là trách nhiệm giải trình, và ý định ấy là tốt. Nhưng kho lưu trữ không phải nhà kho; nó là hệ thống làm cho quá khứ trở nên dễ đọc hiểu, và tính dễ đọc hiểu phụ thuộc vào sự chọn lọc. Khi mọi thứ đều được giữ, việc truy hồi sụp đổ dưới chính sức nặng của nó. Các nhà lưu trữ nói đến vấn đề đống cỏ khô chính vì một hồ sơ không ai tìm được, về mặt chức năng, là hồ sơ chưa từng được giữ. Tệ hơn, việc giữ lại không phân biệt mang theo một gánh nặng bảo trì cứ tích tụ thêm qua từng năm — chuyển đổi, sao lưu, sự lỗi thời của định dạng, sự mục nát chậm rãi của những định dạng không ai mở được — đến mức chi phí giữ lại thứ tầm thường dần bào mòn ngân sách bảo vệ thứ không thể thay thế.\n\nThừa nhận rằng lập luận này có một phản biện mạnh, và nó xứng đáng được đối diện thẳng thắn. Chúng ta nổi tiếng là kém trong việc dự đoán tương lai sẽ coi trọng điều gì. Tấm hoá đơn bị vứt, mẩu ghi nhớ tiện tay, những vật vụn vặt mà không người tuyển chọn nào nghĩ đáng để lên kệ — đó thường lại chính là thứ các sử gia về sau trân quý, vì chúng phơi bày kết cấu của đời sống thường nhật mà hồ sơ chính thức che lấp. Cả những lĩnh vực nghiên cứu dựa trên thứ mà ai đó đã quên vứt đi. Vậy nên cổ vũ cho việc xoá bỏ có thể nghe như sự phá hoại khoác áo hiệu quả, và bất kỳ lập luận trung thực nào cũng phải thừa nhận rằng chọn lọc là điều rủi ro và một phần những gì ta vứt đi rồi ta sẽ ước gì đã không.\n\nThế nhưng phản biện này chứng minh được ít hơn vẻ ngoài của nó. Việc ta không thể dự đoán hoàn hảo giá trị không có nghĩa là mọi sự giữ lại đều như nhau; nó có nghĩa là sự chọn lọc phải thông minh chứ không phải vắng mặt. Sử gia trân quý một tấm hoá đơn vô tình được giúp đỡ bởi việc nó sống sót giữa một số ít có thể quản lý được, dễ đọc trong bối cảnh của nó — chứ không phải bị chôn trong một bãi rác kỹ thuật số gồm mười triệu hoá đơn giống hệt nhau nơi không thể đọc ra được quy luật nào. Việc giữ lại không phân biệt không bảo tồn chi tiết bất ngờ; nó nhấn chìm chi tiết ấy. Cái tương lai thực sự cần không phải tất cả mà là một sự chọn lọc được làm với đủ khiêm tốn để giữ nhiều hơn mức tưởng là cần và đủ can đảm để giữ ít hơn mức có thể.\n\nĐó là lý do việc thanh lý — sự loại bỏ tư liệu một cách có chủ đích và có ghi chép — không phải kẻ thù của kho lưu trữ mà là một phần nghề của nó. Loại bỏ thứ thừa không phải là khinh rẻ quá khứ; đó là gánh lấy trách nhiệm về việc phần nào của quá khứ sẽ còn với tới được. Một người trông giữ không bao giờ buông bỏ bất cứ gì thì không hẳn đã bảo tồn bộ sưu tập mà là bỏ mặc nó cho sự hỗn loạn và tan rã, để việc lựa chọn thật sự lại cho thời gian, tai nạn, và sự hỏng hóc của những ổ đĩa lỗi thời.\n\nĐiểm sâu xa hơn là ý nghĩa được tạo ra bởi sự mất mát ngang với sự giữ lại. Một bức ảnh có ý nghĩa một phần vì mười nghìn giây xung quanh nó đã được buông bỏ. Một cuốn nhật ký có giá trị vì nó không phải bản ghi lại mọi ý nghĩ thức giấc. Bảo tồn cho tốt là chấp nhận rằng việc giữ lại và việc buông bỏ không phải đối lập mà là bạn đồng hành, và rằng sự can đảm để buông tay, thường xuyên hơn ta thừa nhận, là hình thức quan tâm chân thật nhất dành cho những gì còn lại. Kho lưu trữ không thể vứt đi bất cứ thứ gì thì không hề chiến thắng sự lãng quên. Nó chỉ đơn thuần đổi tên gọi của sự lãng quên mà thôi.",
+  "mcQuestions": [
+    {
+      "id": "q1",
+      "prompt": "Which sentence uses a correctly fronted concessive clause for a formal essay?",
+      "options": [
+        "Although we cannot predict the future, but selection is still necessary.",
+        "Granted that we cannot predict what the future will value, selection must still be intelligent.",
+        "Despite we cannot predict the future, selection is necessary.",
+        "Even we cannot predict the future, selection is necessary anyway."
+      ],
+      "answerIndex": 1,
+      "explanation": "'Granted that…' is a clean fronted concessive that does not double the contrast; the others misuse 'Although…but', 'Despite + clause', and 'Even + clause'.",
+      "hint": "A concessive opener should not be paired with a second contrast word, and 'despite' takes a noun, not a clause."
+    },
+    {
+      "id": "q2",
+      "prompt": "What is the essay's central claim?",
+      "options": [
+        "Archives should be funded more generously by governments.",
+        "Trying to keep a complete record of everything can undermine remembering, because legibility depends on selection.",
+        "Digital storage is more reliable than paper.",
+        "Historians should be the only people allowed to decide what is kept."
+      ],
+      "answerIndex": 1,
+      "explanation": "The thesis is that indiscriminate retention defeats meaning; selection, not accumulation, is the real work of preservation.",
+      "hint": "Look for the paradox stated in the title and the first paragraph."
+    },
+    {
+      "id": "q3",
+      "prompt": "What does 'the haystack problem' refer to in the essay?",
+      "options": [
+        "The cost of building physical storage facilities.",
+        "The fact that a record nobody can locate is functionally a record that was never kept.",
+        "The danger of fire in old paper archives.",
+        "The difficulty of digitising fragile documents."
+      ],
+      "answerIndex": 1,
+      "explanation": "Total retention buries the valuable item; if it cannot be retrieved, keeping it achieved nothing — the needle is lost in the haystack.",
+      "hint": "It is about findability, not about physical storage or fire."
+    },
+    {
+      "id": "q4",
+      "prompt": "Which option best expresses the essay's view with appropriate C1 hedging?",
+      "options": [
+        "Keeping everything always destroys all meaning permanently.",
+        "It may be that the picture worth keeping is rendered unfindable by the hundreds kept alongside it.",
+        "People who save photos are lazy and irresponsible.",
+        "Deletion is scientifically proven to improve all memory."
+      ],
+      "answerIndex": 1,
+      "explanation": "Option B uses 'It may be that' and a qualified claim; the others overstate absolutely or moralise.",
+      "hint": "Find the tentative, qualified version rather than the absolute or judgemental one."
+    },
+    {
+      "id": "q5",
+      "prompt": "How does the essay handle the counter-argument that we cannot predict future value?",
+      "options": [
+        "It ignores the counter-argument completely.",
+        "It grants the point, then limits it: unpredictability calls for intelligent selection, not the absence of selection.",
+        "It claims the future always values exactly what we expect.",
+        "It says historians are usually wrong about value."
+      ],
+      "answerIndex": 1,
+      "explanation": "The essay concedes our poor predictive record, then narrows: that argues for smarter selection, not for indiscriminate keeping.",
+      "hint": "Notice the full concession followed by 'Yet the objection proves less than it appears.'"
+    },
+    {
+      "id": "q6",
+      "prompt": "Which phrase is a nominalization?",
+      "options": [
+        "to throw away",
+        "the deliberate removal of material",
+        "saved just in case",
+        "scroll through"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Removal' is a noun built from the verb 'remove', letting the process act as a noun phrase — a C1 device used throughout the essay.",
+      "hint": "Look for a noun derived from a verb that names a process."
+    },
+    {
+      "id": "q7",
+      "prompt": "Which sentence best continues a paragraph that has just argued total retention buries valuable detail, keeping the same focus and register?",
+      "options": [
+        "Anyway, cloud storage has become remarkably cheap these days.",
+        "Indiscriminate keeping does not preserve the surprising detail; it drowns it.",
+        "Most people prefer printed photos to digital ones, of course.",
+        "You really should back up your files at least twice a week."
+      ],
+      "answerIndex": 1,
+      "explanation": "Option B sustains the argument about selection versus volume; the others drift to pricing, personal preference, or practical advice.",
+      "hint": "Which option keeps arguing the same point rather than changing subject?"
+    },
+    {
+      "id": "q8",
+      "prompt": "What does 'meaning is made by loss as much as by retention' suggest?",
+      "options": [
+        "Forgetting is always tragic and should be resisted.",
+        "What we keep gains significance partly because so much surrounding it was let go.",
+        "Losing data is the same as deleting it on purpose.",
+        "Retention and loss are unrelated to meaning."
+      ],
+      "answerIndex": 1,
+      "explanation": "A kept photograph means something because the ten thousand seconds around it were released; selection creates significance.",
+      "hint": "Think about why a single saved item stands out against what was discarded."
+    },
+    {
+      "id": "q9",
+      "prompt": "Which option uses the most natural collocation?",
+      "options": [
+        "to take responsibility for which parts will remain reachable",
+        "to make responsibility for which parts will remain reachable",
+        "to do responsibility for which parts will remain reachable",
+        "to put responsibility on which parts will remain reachable"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Take responsibility for' is the natural collocation; 'make/do/put responsibility' are non-native pairings.",
+      "hint": "Which verb genuinely partners with 'responsibility' here?"
+    },
+    {
+      "id": "q10",
+      "prompt": "Which sentence is grammatical but wrong in register for this formal essay?",
+      "options": [
+        "An archive is not a warehouse; it is a system for making the past legible.",
+        "Honestly, hoarding a zillion blurry pics is just a hot mess nobody can deal with.",
+        "Indiscriminate retention carries a maintenance burden that compounds year on year.",
+        "Selection must be intelligent rather than absent."
+      ],
+      "answerIndex": 1,
+      "explanation": "'A zillion', 'pics', and 'hot mess' are casual slang that clash with the essay's formal register, though the sentence is grammatical.",
+      "hint": "Find the colloquial slang that breaks the formal tone."
+    },
+    {
+      "id": "q11",
+      "prompt": "What is the rhetorical effect of the final line 'It has only changed its name'?",
+      "options": [
+        "It introduces a brand-new unrelated argument.",
+        "It delivers a compressed paradox: total retention does not defeat forgetting, only disguises it as keeping.",
+        "It admits the writer has no conclusion.",
+        "It softens the whole argument into uncertainty."
+      ],
+      "answerIndex": 1,
+      "explanation": "The closing turns the title's paradox into a sharp final claim — the unsearchable archive forgets under a new label.",
+      "hint": "Connect the last line back to the title's paradox."
+    },
+    {
+      "id": "q12",
+      "prompt": "Which sentence contains a grammar error?",
+      "options": [
+        "The completeness that felt like care has produced a haystack.",
+        "An archive is a system for making the past legible.",
+        "When everything are retained, retrieval collapses under its own weight.",
+        "Deaccessioning is part of an archive's craft, not its enemy."
+      ],
+      "answerIndex": 2,
+      "explanation": "'Everything are retained' is a subject-verb agreement error; 'everything' is singular, so it should be 'everything is retained'.",
+      "hint": "Check the verb agreement with the indefinite subject."
+    },
+    {
+      "id": "q13",
+      "prompt": "Which option is closest to the essay's idea of 'stewardship'?",
+      "options": [
+        "Buying ever-larger hard drives so nothing must be deleted.",
+        "Taking responsibility for which parts of the past stay reachable, including by choosing what to release.",
+        "Letting time and broken drives decide what survives.",
+        "Scanning every document automatically without review."
+      ],
+      "answerIndex": 1,
+      "explanation": "The essay frames stewardship as active, responsible selection — keeping the reachable, releasing the rest — not passive accumulation.",
+      "hint": "Stewardship in the essay involves active choosing, not just keeping more."
+    },
+    {
+      "id": "q14",
+      "prompt": "Which sentence uses the best cohesion to concede then restrict, as the essay does?",
+      "options": [
+        "Old receipts are valuable. They are also worthless.",
+        "Stray receipts can be precious; yet they help only when they survive among a legible few, not in a digital landfill.",
+        "Stray receipts are valuable and also they are buried too.",
+        "Because stray receipts are valuable, keeping everything is wise."
+      ],
+      "answerIndex": 1,
+      "explanation": "Option B grants the value, then restricts it with 'yet… only when…', the concessive move the essay relies on.",
+      "hint": "Look for the grant-then-narrow pattern with a clear contrastive linker."
+    },
+    {
+      "id": "q15",
+      "prompt": "What does the essay propose the future actually needs?",
+      "options": [
+        "A complete copy of every record ever produced.",
+        "A selection made with enough humility to keep more than seems necessary and enough courage to keep less than is possible.",
+        "Faster computers to search through everything.",
+        "Stricter laws forcing institutions to keep all data forever."
+      ],
+      "answerIndex": 1,
+      "explanation": "The essay's prescription is intelligent selection balancing humility and courage, not totality.",
+      "hint": "The answer balances keeping more and keeping less at the same time."
+    },
+    {
+      "id": "q16",
+      "prompt": "Which option best paraphrases 'a record nobody can locate is, functionally, a record that was never kept'?",
+      "options": [
+        "Unfindable records are still useful because they exist somewhere.",
+        "If you cannot retrieve something, storing it has achieved the same outcome as never having kept it.",
+        "Records should be destroyed if they are hard to find.",
+        "Everything that exists must be findable by law."
+      ],
+      "answerIndex": 1,
+      "explanation": "The point is that storage without retrieval is functionally equivalent to non-preservation.",
+      "hint": "'Functionally' tells you to judge by the practical outcome, not by whether the file technically exists."
+    }
+  ],
+  "criticalThinkingQuestion": "Think of one collection you keep — photos, messages, notes, objects — that you never prune. If you had to halve it tomorrow, what would you keep, and does the difficulty of that choice reveal that you were preserving the things or only avoiding the decision?"
+}

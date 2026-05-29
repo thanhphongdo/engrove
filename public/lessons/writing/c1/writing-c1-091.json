@@ -1,0 +1,309 @@
+{
+  "id": "writing-c1-091",
+  "level": "C1",
+  "title": "The tyranny of the timestamp",
+  "summary": "Critique the way our lives have been quietly wrapped in metadata — the read receipt, the last-seen, the delivery clock — and ask what it does to ordinary patience when every silence is now measured, dated, and held against us.",
+  "tags": ["Critique", "Time", "Technology"],
+  "topic": "What the timestamp does to how we relate to one another",
+  "prompt": "Write a 600–800-word critical essay about how timestamps and read receipts reshape human relationships and patience, distinguishing a real harm from mere nostalgia. Ground the critique in two concrete situations and address one serious defence of the technology before limiting it. Use inversion, nominalization, and hedged claims (it may be that…, what tends to happen…).",
+  "minWords": 600,
+  "maxWords": 800,
+  "hintStarters": [
+    "Never before has a silence carried a precise duration, and the change is easy to miss because it arrived disguised as a convenience…",
+    "What the read receipt offers is the comfort of certainty; what it tends to install is a low, continuous accounting of other people's…",
+    "It would be sentimental to mourn the unanswered letter as if patience were a lost virtue. Even so, something specific has shifted in the way we now read…"
+  ],
+  "hintVocab": [
+    {"phrase": "the timestamp", "meaningVi": "dấu thời gian (giờ/ngày gắn vào dữ liệu)"},
+    {"phrase": "metadata", "meaningVi": "siêu dữ liệu, dữ liệu mô tả về dữ liệu khác", "pronunciation": "/ˈmetədeɪtə/"},
+    {"phrase": "the read receipt", "meaningVi": "thông báo đã đọc tin nhắn"},
+    {"phrase": "last seen", "meaningVi": "trạng thái 'hoạt động lần cuối'"},
+    {"phrase": "to quantify", "meaningVi": "định lượng, đo thành con số", "pronunciation": "/ˈkwɒntɪfaɪ/"},
+    {"phrase": "latency", "meaningVi": "độ trễ, khoảng chờ", "pronunciation": "/ˈleɪtənsi/"},
+    {"phrase": "to hold against someone", "meaningVi": "quy trách, để bụng ai vì điều gì"},
+    {"phrase": "to surveil", "meaningVi": "giám sát, theo dõi", "pronunciation": "/səˈveɪl/"},
+    {"phrase": "ambient", "meaningVi": "phủ khắp, có mặt ở khắp xung quanh", "pronunciation": "/ˈæmbiənt/"},
+    {"phrase": "an audit trail", "meaningVi": "dấu vết kiểm tra, lịch sử lưu lại mọi thao tác"},
+    {"phrase": "accountability", "meaningVi": "trách nhiệm giải trình", "pronunciation": "/əˌkaʊntəˈbɪləti/"},
+    {"phrase": "to interrogate", "meaningVi": "tra hỏi, soi xét gắt gao", "pronunciation": "/ɪnˈterəɡeɪt/"},
+    {"phrase": "a grace period", "meaningVi": "khoảng thời gian gia hạn, được phép chậm trễ"},
+    {"phrase": "deniability", "meaningVi": "khả năng chối, thế phủ nhận được"},
+    {"phrase": "to infer", "meaningVi": "suy ra, suy diễn", "pronunciation": "/ɪnˈfɜː/"},
+    {"phrase": "innocuous", "meaningVi": "vô hại, không gây hại", "pronunciation": "/ɪˈnɒkjuəs/"},
+    {"phrase": "to weaponise", "meaningVi": "biến thành vũ khí, dùng để công kích", "pronunciation": "/ˈwepənaɪz/"},
+    {"phrase": "vigilance", "meaningVi": "sự cảnh giác, canh chừng", "pronunciation": "/ˈvɪdʒɪləns/"},
+    {"phrase": "to erode", "meaningVi": "bào mòn, làm xói mòn dần", "pronunciation": "/ɪˈrəʊd/"},
+    {"phrase": "patience", "meaningVi": "sự kiên nhẫn", "pronunciation": "/ˈpeɪʃəns/"},
+    {"phrase": "the benefit of the doubt", "meaningVi": "sự suy đoán có lợi, tin người ta khi chưa rõ"},
+    {"phrase": "to second-guess", "meaningVi": "đoán già đoán non, nghi ngờ lại quyết định/ý của ai"},
+    {"phrase": "asynchronous", "meaningVi": "không đồng bộ thời gian, mỗi người đáp lúc khác nhau", "pronunciation": "/eɪˈsɪŋkrənəs/"},
+    {"phrase": "to ruminate", "meaningVi": "nghiền ngẫm, day dứt suy nghĩ mãi", "pronunciation": "/ˈruːmɪneɪt/"},
+    {"phrase": "the ledger", "meaningVi": "sổ cái, sổ ghi nợ có sòng phẳng", "pronunciation": "/ˈledʒə/"},
+    {"phrase": "reciprocity", "meaningVi": "sự có đi có lại", "pronunciation": "/ˌresɪˈprɒsəti/"},
+    {"phrase": "opacity", "meaningVi": "sự mờ đục, không nhìn rõ vào trong", "pronunciation": "/əʊˈpæsəti/"},
+    {"phrase": "to legislate", "meaningVi": "đặt ra luật lệ, quy định cứng", "pronunciation": "/ˈledʒɪsleɪt/"},
+    {"phrase": "a default setting", "meaningVi": "thiết lập mặc định"},
+    {"phrase": "to disclose", "meaningVi": "tiết lộ, để lộ ra", "pronunciation": "/dɪsˈkləʊz/"},
+    {"phrase": "involuntary", "meaningVi": "không tự nguyện, ngoài ý muốn", "pronunciation": "/ɪnˈvɒləntəri/"},
+    {"phrase": "to recalibrate", "meaningVi": "hiệu chỉnh lại, điều chỉnh lại thước đo", "pronunciation": "/ˌriːˈkælɪbreɪt/"}
+  ],
+  "sampleText": "Never before has a silence carried a precise duration, and the change is easy to miss because it arrived disguised as a convenience. A message is read at 9.14; the reply does not come until the following afternoon; and somewhere between those two timestamps a small machinery of inference begins to turn. The gap, once private and forgivable, is now a fact on the record — measured to the minute, visible to the sender, and available to be interpreted. What the timestamp has done is not add information so much as remove the shelter that vagueness used to provide. We have lost the right to be quietly slow.\n\nConsider the read receipt. Two blue ticks announce that a message has been seen, and in that small disclosure a whole social grammar is rewritten. Before, a friend who did not reply might have been busy, asleep, or simply thinking; the ambiguity was a kindness, and we extended the benefit of the doubt almost without noticing. Now the receipt forecloses those excuses. The message was read; the reply was withheld; the only remaining variable is the silence, and the silence acquires a meaning it never asked for. What tends to happen is a slow erosion of trust into accounting: each exchange becomes a ledger, the unanswered message a small unpaid debt, and the relationship is quietly recast as a sequence of response times.\n\nThe second case is the workplace, where the timestamp has hardened into a tool of surveillance that no one quite admits to wielding. An email sent at 11.47 at night, even when no reply is expected, is a fact that lingers; the colleague who sees the hour reads it as devotion, or as reproach, or as a quiet challenge to keep pace. The clock has become a manager that never sleeps. It may be that the worst of this is not the long hours it encourages but the vigilance it installs — the habit of timing oneself against an invisible standard, of composing a reply not when one is ready but when the delay would begin to look like neglect. The metadata does not merely record the work; it disciplines the worker.\n\nThere is a serious defence of all this, and it should be heard in full. Timestamps create accountability, and accountability protects the vulnerable. The contractor who is paid by the hour, the patient awaiting a result, the citizen tracking a complaint — all are better served by a record than by a vague promise that something was handled. Opacity is not innocent; it has always favoured whoever holds the power to forget. To strip the timestamp away entirely would be to return to a world where the slow and the unaccountable could hide behind a shrug, and many people have good reason to prefer the receipt to the shrug.\n\nYet the defence proves less than it claims. Accountability is valuable precisely where power is unequal and the record protects the weaker party; it is corrosive when imported, by default, into relationships that were never meant to be audited. A friendship is not a service contract, and a late reply to someone you love is not a breach to be logged. The mistake is not the timestamp itself but its universal application — the quiet decision, made by an engineer rather than by us, that every human exchange should leave the same forensic trail as a financial transaction. What protects a patient corrodes a friend, and we were never asked which we were having.\n\nWhat follows is not a call to abolish the clock but to recover some control over its reach. The defaults can be changed; the receipt can be turned off; the colleague's midnight email can be answered, deliberately, in the morning. More than that, the discipline is internal: to notice when one is reading a delay as data, and to choose, against the grain of the interface, to extend the benefit of the doubt the timestamp has made so easy to withhold. Never before has patience required such conscious defence, and that, more than any single late reply, is the cost we have not yet learned to name."
+,
+  "sampleAnnotations": [
+    {"phrase": "Never before has a silence carried a precise duration", "meaningVi": "Chưa bao giờ trước đây một sự im lặng lại mang một khoảng thời gian chính xác"},
+    {"phrase": "it arrived disguised as a convenience", "meaningVi": "nó đến trong lốt một sự tiện lợi"},
+    {"phrase": "a small machinery of inference begins to turn", "meaningVi": "một bộ máy suy diễn nhỏ bắt đầu vận hành"},
+    {"phrase": "now a fact on the record", "meaningVi": "giờ là một sự thật được ghi vào hồ sơ"},
+    {"phrase": "remove the shelter that vagueness used to provide", "meaningVi": "xoá đi chỗ trú ẩn mà sự mơ hồ từng cung cấp"},
+    {"phrase": "We have lost the right to be quietly slow", "meaningVi": "Ta đã mất đi quyền được chậm rãi một cách lặng lẽ"},
+    {"phrase": "in that small disclosure a whole social grammar is rewritten", "meaningVi": "trong sự để lộ nhỏ ấy, cả một ngữ pháp ứng xử xã hội bị viết lại"},
+    {"phrase": "the ambiguity was a kindness", "meaningVi": "sự mơ hồ vốn là một lòng tốt"},
+    {"phrase": "we extended the benefit of the doubt almost without noticing", "meaningVi": "ta dành cho nhau sự suy đoán có lợi gần như không hề để ý"},
+    {"phrase": "the receipt forecloses those excuses", "meaningVi": "thông báo đã đọc chặn đứng những lý do biện minh đó"},
+    {"phrase": "the silence acquires a meaning it never asked for", "meaningVi": "sự im lặng mang lấy một ý nghĩa mà nó chưa bao giờ đòi hỏi"},
+    {"phrase": "a slow erosion of trust into accounting", "meaningVi": "một sự bào mòn chậm rãi biến lòng tin thành chuyện tính toán sổ sách"},
+    {"phrase": "each exchange becomes a ledger, the unanswered message a small unpaid debt", "meaningVi": "mỗi lần trao đổi thành một cuốn sổ nợ, tin nhắn chưa trả lời thành một món nợ nhỏ chưa thanh toán"},
+    {"phrase": "a tool of surveillance that no one quite admits to wielding", "meaningVi": "một công cụ giám sát mà chẳng ai thực sự thừa nhận là mình đang dùng"},
+    {"phrase": "The clock has become a manager that never sleeps", "meaningVi": "Chiếc đồng hồ đã trở thành một người quản lý không bao giờ ngủ"},
+    {"phrase": "the vigilance it installs", "meaningVi": "sự cảnh giác mà nó cài đặt vào ta"},
+    {"phrase": "composing a reply not when one is ready but when the delay would begin to look like neglect", "meaningVi": "soạn câu trả lời không phải khi mình sẵn sàng mà khi sự trì hoãn bắt đầu trông giống như bỏ bê"},
+    {"phrase": "The metadata does not merely record the work; it disciplines the worker", "meaningVi": "Siêu dữ liệu không chỉ ghi lại công việc; nó kỷ luật người làm việc"},
+    {"phrase": "Timestamps create accountability, and accountability protects the vulnerable", "meaningVi": "Dấu thời gian tạo ra trách nhiệm giải trình, và trách nhiệm giải trình bảo vệ kẻ yếu thế"},
+    {"phrase": "Opacity is not innocent; it has always favoured whoever holds the power to forget", "meaningVi": "Sự mờ đục không vô tội; nó luôn ưu ái kẻ nắm quyền được phép quên"},
+    {"phrase": "many people have good reason to prefer the receipt to the shrug", "meaningVi": "nhiều người có lý do chính đáng để thích cái thông báo đã đọc hơn cái nhún vai cho qua"},
+    {"phrase": "it is corrosive when imported, by default, into relationships that were never meant to be audited", "meaningVi": "nó trở nên ăn mòn khi bị đưa, theo mặc định, vào những mối quan hệ vốn không bao giờ định để bị kiểm toán"},
+    {"phrase": "A friendship is not a service contract", "meaningVi": "Một tình bạn không phải một hợp đồng dịch vụ"},
+    {"phrase": "the same forensic trail as a financial transaction", "meaningVi": "cùng một dấu vết pháp y như một giao dịch tài chính"},
+    {"phrase": "What protects a patient corrodes a friend, and we were never asked which we were having", "meaningVi": "Cái bảo vệ một bệnh nhân lại ăn mòn một người bạn, và ta chưa bao giờ được hỏi mình đang có loại quan hệ nào"},
+    {"phrase": "to recover some control over its reach", "meaningVi": "giành lại một chút quyền kiểm soát đối với phạm vi vươn tới của nó"},
+    {"phrase": "to notice when one is reading a delay as data", "meaningVi": "để ý khi ta đang đọc một sự trì hoãn như thể nó là dữ liệu"},
+    {"phrase": "against the grain of the interface", "meaningVi": "ngược lại chiều mà giao diện đẩy ta đi"},
+    {"phrase": "extend the benefit of the doubt the timestamp has made so easy to withhold", "meaningVi": "dành sự suy đoán có lợi mà dấu thời gian đã khiến quá dễ để giữ lại không cho"},
+    {"phrase": "Never before has patience required such conscious defence", "meaningVi": "Chưa bao giờ trước đây sự kiên nhẫn lại đòi hỏi một sự bảo vệ có ý thức đến vậy"},
+    {"phrase": "the cost we have not yet learned to name", "meaningVi": "cái giá mà ta chưa học được cách gọi tên"}
+  ],
+  "sampleGrammarNotes": [
+    {
+      "title": "Inversion after 'Never before'",
+      "bodyVi": "Câu mở đầu 'Never before has a silence carried a precise duration' đảo trợ động từ 'has' lên trước chủ ngữ 'a silence' vì cụm phủ định 'Never before' đứng đầu câu. Câu áp chót 'Never before has patience required such conscious defence' lặp lại cấu trúc để đóng khung bài viết. Đây là cấu trúc đảo ngữ trang trọng đặc trưng C1.",
+      "bodyEn": "The opening 'Never before has a silence carried a precise duration' inverts 'has' before the subject 'a silence' because the negative phrase 'Never before' fronts the clause. The penultimate 'Never before has patience required such conscious defence' repeats it to frame the essay — a hallmark of formal C1 inversion."
+    },
+    {
+      "title": "Hedging a critique so it stays defensible",
+      "bodyVi": "Bài viết không kết tội tuyệt đối mà rào đón: 'It may be that the worst of this is not the long hours it encourages but the vigilance it installs' và 'What tends to happen is a slow erosion of trust into accounting'. Cách nói dè dặt này giúp lời phê bình giữ sắc thái và khó bị bác bằng một ngoại lệ — kỹ năng cốt lõi ở C1.",
+      "bodyEn": "The essay avoids absolute condemnation by hedging: 'It may be that the worst of this is not the long hours it encourages but the vigilance it installs' and 'What tends to happen is a slow erosion of trust into accounting'. This tentative phrasing keeps the critique nuanced and hard to defeat with one exception — a core C1 skill."
+    }
+  ],
+  "sampleTranslationVi": "Chưa bao giờ trước đây một sự im lặng lại mang một khoảng thời gian chính xác, và sự thay đổi ấy dễ bị bỏ sót vì nó đến trong lốt một sự tiện lợi. Một tin nhắn được đọc lúc 9 giờ 14; câu trả lời mãi chiều hôm sau mới tới; và đâu đó giữa hai dấu thời gian ấy, một bộ máy suy diễn nhỏ bắt đầu vận hành. Khoảng trống ấy, vốn riêng tư và có thể tha thứ, giờ là một sự thật được ghi vào hồ sơ — đo đến từng phút, hiển hiện với người gửi, và sẵn sàng để bị diễn giải. Điều mà dấu thời gian làm không hẳn là thêm thông tin mà là xoá đi chỗ trú ẩn mà sự mơ hồ từng cung cấp. Ta đã mất đi quyền được chậm rãi một cách lặng lẽ.\n\nHãy xét cái thông báo đã đọc. Hai dấu tích xanh báo rằng một tin nhắn đã được xem, và trong sự để lộ nhỏ ấy, cả một ngữ pháp ứng xử xã hội bị viết lại. Trước kia, một người bạn không trả lời có thể là đang bận, đang ngủ, hoặc đơn giản đang suy nghĩ; sự mơ hồ vốn là một lòng tốt, và ta dành cho nhau sự suy đoán có lợi gần như không hề để ý. Giờ thì cái thông báo đã đọc chặn đứng những lý do biện minh đó. Tin nhắn đã được đọc; câu trả lời bị giữ lại; biến số duy nhất còn lại là sự im lặng, và sự im lặng mang lấy một ý nghĩa mà nó chưa bao giờ đòi hỏi. Điều thường xảy ra là một sự bào mòn chậm rãi biến lòng tin thành chuyện tính toán sổ sách: mỗi lần trao đổi thành một cuốn sổ nợ, tin nhắn chưa trả lời thành một món nợ nhỏ chưa thanh toán, và mối quan hệ bị lặng lẽ đúc lại thành một chuỗi các khoảng thời gian đáp lời.\n\nTrường hợp thứ hai là chốn công sở, nơi dấu thời gian đã cứng lại thành một công cụ giám sát mà chẳng ai thực sự thừa nhận là mình đang dùng. Một email gửi lúc 11 giờ 47 đêm, ngay cả khi không ai mong một câu trả lời, vẫn là một sự thật còn vương lại; người đồng nghiệp thấy cái giờ đó sẽ đọc nó như sự tận tuỵ, hoặc như một lời trách, hoặc như một lời thách thức ngầm buộc phải theo kịp. Chiếc đồng hồ đã trở thành một người quản lý không bao giờ ngủ. Có thể điều tệ nhất ở đây không phải những giờ làm dài mà nó khuyến khích, mà là sự cảnh giác mà nó cài đặt vào ta — cái thói quen tự bấm giờ chính mình theo một chuẩn mực vô hình, soạn câu trả lời không phải khi mình sẵn sàng mà khi sự trì hoãn bắt đầu trông giống như bỏ bê. Siêu dữ liệu không chỉ ghi lại công việc; nó kỷ luật người làm việc.\n\nCó một lời biện hộ nghiêm túc cho tất cả những điều này, và nó nên được lắng nghe đầy đủ. Dấu thời gian tạo ra trách nhiệm giải trình, và trách nhiệm giải trình bảo vệ kẻ yếu thế. Người thợ được trả công theo giờ, người bệnh đang chờ kết quả, người công dân đang theo dõi một khiếu nại — tất cả đều được phục vụ tốt hơn bằng một bản ghi hơn là bằng một lời hứa mơ hồ rằng việc đã được lo. Sự mờ đục không vô tội; nó luôn ưu ái kẻ nắm quyền được phép quên. Tước bỏ hoàn toàn dấu thời gian sẽ là quay về một thế giới nơi kẻ chậm chạp và vô trách nhiệm có thể nấp sau một cái nhún vai, và nhiều người có lý do chính đáng để thích cái thông báo đã đọc hơn cái nhún vai cho qua.\n\nThế nhưng lời biện hộ đó chứng minh được ít hơn nó tuyên bố. Trách nhiệm giải trình có giá trị đúng ở chỗ quyền lực không cân bằng và bản ghi bảo vệ bên yếu hơn; nó trở nên ăn mòn khi bị đưa, theo mặc định, vào những mối quan hệ vốn không bao giờ định để bị kiểm toán. Một tình bạn không phải một hợp đồng dịch vụ, và một câu trả lời muộn cho người mình yêu không phải một vi phạm cần ghi sổ. Sai lầm không phải bản thân dấu thời gian mà là việc áp dụng nó một cách phổ quát — cái quyết định lặng lẽ, do một kỹ sư chứ không phải do ta đưa ra, rằng mọi cuộc trao đổi của con người đều nên để lại cùng một dấu vết pháp y như một giao dịch tài chính. Cái bảo vệ một bệnh nhân lại ăn mòn một người bạn, và ta chưa bao giờ được hỏi mình đang có loại quan hệ nào.\n\nĐiều rút ra không phải một lời kêu gọi xoá bỏ chiếc đồng hồ mà là giành lại một chút quyền kiểm soát đối với phạm vi vươn tới của nó. Các thiết lập mặc định có thể đổi; cái thông báo đã đọc có thể tắt đi; cái email nửa đêm của đồng nghiệp có thể được trả lời, một cách có chủ ý, vào buổi sáng. Hơn thế, kỷ luật ấy nằm bên trong: để ý khi ta đang đọc một sự trì hoãn như thể nó là dữ liệu, và chọn, ngược lại chiều mà giao diện đẩy ta đi, dành sự suy đoán có lợi mà dấu thời gian đã khiến quá dễ để giữ lại không cho. Chưa bao giờ trước đây sự kiên nhẫn lại đòi hỏi một sự bảo vệ có ý thức đến vậy, và đó, hơn bất kỳ một câu trả lời muộn nào, mới là cái giá mà ta chưa học được cách gọi tên.",
+  "mcQuestions": [
+    {
+      "id": "q1",
+      "prompt": "Which sentence demonstrates correct inversion after 'Never before'?",
+      "options": [
+        "Never before a silence has carried a precise duration.",
+        "Never before has a silence carried a precise duration.",
+        "Never before a silence carried has a precise duration.",
+        "Never before carrying a silence a precise duration has."
+      ],
+      "answerIndex": 1,
+      "explanation": "'Never before' fronts the clause and triggers subject-auxiliary inversion: 'has a silence carried', not 'a silence has carried'.",
+      "hint": "Negative phrase at the front — flip the subject and the auxiliary."
+    },
+    {
+      "id": "q2",
+      "prompt": "According to the essay, what has the timestamp mainly done?",
+      "options": [
+        "Added useful new information to every message.",
+        "Removed the shelter that vagueness used to provide, so silences can now be measured and interpreted.",
+        "Made replies arrive faster than before.",
+        "Encrypted messages so they are more secure."
+      ],
+      "answerIndex": 1,
+      "explanation": "The essay argues the timestamp 'remove[s] the shelter that vagueness used to provide' rather than adding information — we lose the right to be quietly slow.",
+      "hint": "Reread the line about what the timestamp removes rather than adds."
+    },
+    {
+      "id": "q3",
+      "prompt": "What happens to a relationship under the read receipt, in the essay's terms?",
+      "options": [
+        "It becomes warmer because both people feel connected.",
+        "It is recast as a ledger, with the unanswered message a small unpaid debt.",
+        "It ends immediately the first time someone is slow.",
+        "It improves because misunderstandings disappear."
+      ],
+      "answerIndex": 1,
+      "explanation": "Trust erodes 'into accounting': each exchange becomes a ledger and the relationship is recast as a sequence of response times.",
+      "hint": "Look for the financial metaphor the essay uses for the relationship."
+    },
+    {
+      "id": "q4",
+      "prompt": "Which option expresses the essay's claim about the workplace with appropriate C1 hedging?",
+      "options": [
+        "Late-night emails always destroy work-life balance entirely.",
+        "It may be that the worst of this is not the long hours it encourages but the vigilance it installs.",
+        "Anyone who emails at night is a workaholic who needs help.",
+        "Timestamps have been scientifically shown to cause burnout in all workers."
+      ],
+      "answerIndex": 1,
+      "explanation": "Option B uses 'It may be that' and a careful 'not X but Y' structure, matching the essay's hedged claim; the others overstate or moralise.",
+      "hint": "Look for the tentative, qualified phrasing rather than the absolute one."
+    },
+    {
+      "id": "q5",
+      "prompt": "How does the essay treat the defence that timestamps create accountability?",
+      "options": [
+        "It calls the defence dishonest and ignores it.",
+        "It grants the defence in full where power is unequal, then limits it: accountability corrodes relationships that were never meant to be audited.",
+        "It claims accountability is always harmful.",
+        "It says only employers benefit from timestamps."
+      ],
+      "answerIndex": 1,
+      "explanation": "The essay concedes accountability protects the vulnerable, then narrows: it is corrosive when imported by default into friendships.",
+      "hint": "Notice the full grant followed by a narrowing 'Yet…'."
+    },
+    {
+      "id": "q6",
+      "prompt": "Which phrase is a nominalization?",
+      "options": [
+        "to hold against",
+        "the erosion of trust",
+        "read at 9.14",
+        "quietly slow"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Erosion' turns the verb 'erode' into a noun, letting the process act as a grammatical subject — a C1 device used throughout the essay.",
+      "hint": "Look for a noun built from a verb (ending in '-ion')."
+    },
+    {
+      "id": "q7",
+      "prompt": "Which sentence best continues a paragraph that has just described a colleague reading a midnight email as a quiet challenge, keeping the same focus and tone?",
+      "options": [
+        "On a separate note, the company's email server was recently upgraded.",
+        "The clock has become a manager that never sleeps, timing the worker against an invisible standard.",
+        "Most people sleep about seven to eight hours a night anyway.",
+        "You can schedule emails to send later in many modern apps."
+      ],
+      "answerIndex": 1,
+      "explanation": "Option B sustains the argument's focus (surveillance and the internalised standard) and register; the others drift onto IT trivia, sleep facts, or a how-to tip.",
+      "hint": "Which option keeps arguing about the clock as a manager?"
+    },
+    {
+      "id": "q8",
+      "prompt": "What does 'the ambiguity was a kindness' mean in context?",
+      "options": [
+        "People used to lie about why they were late.",
+        "Not knowing whether a message had been read let us forgive the silence and assume the best.",
+        "Vague messages are friendlier than clear ones.",
+        "Kind people send fewer messages."
+      ],
+      "answerIndex": 1,
+      "explanation": "Before read receipts, the uncertainty allowed the benefit of the doubt — the ambiguity protected the relationship.",
+      "hint": "Connect the ambiguity to the benefit of the doubt."
+    },
+    {
+      "id": "q9",
+      "prompt": "Which option uses the most natural collocation for 'choosing to trust someone when the facts are unclear'?",
+      "options": [
+        "to give the doubt's benefit to someone",
+        "to extend the benefit of the doubt to someone",
+        "to make the benefit of doubt for someone",
+        "to put a doubt benefit on someone"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Extend the benefit of the doubt' is the fixed idiom; the others are non-native distortions.",
+      "hint": "Recall the standard fixed expression for assuming the best."
+    },
+    {
+      "id": "q10",
+      "prompt": "Which sentence is grammatical but wrong in register for this formal essay?",
+      "options": [
+        "A friendship is not a service contract, and a late reply is not a breach to be logged.",
+        "Honestly, leaving someone on read is such a savage move, lol.",
+        "Opacity is not innocent; it has always favoured whoever holds the power to forget.",
+        "The metadata does not merely record the work; it disciplines the worker."
+      ],
+      "answerIndex": 1,
+      "explanation": "'Such a savage move' and 'lol' are slang; the sentence is grammatical but clashes with the essay's formal register.",
+      "hint": "Find the colloquial slang that breaks the formal tone."
+    },
+    {
+      "id": "q11",
+      "prompt": "What is the rhetorical effect of repeating 'Never before…' in the closing sentence?",
+      "options": [
+        "It introduces a brand-new, unrelated argument.",
+        "It echoes the opening inversion, framing the essay and giving a sense of formal closure.",
+        "It concedes the writer was wrong throughout.",
+        "It shows the essay has been left unfinished."
+      ],
+      "answerIndex": 1,
+      "explanation": "Returning to the opening 'Never before…' structure creates a deliberate frame, lending the essay closure and formality.",
+      "hint": "Think about what repeating a distinctive opening structure at the end does."
+    },
+    {
+      "id": "q12",
+      "prompt": "Which sentence contains a grammar error?",
+      "options": [
+        "The receipt forecloses those excuses, and the silence acquires a meaning.",
+        "Each exchange becomes a ledger in which a late reply is logged.",
+        "When the colleague see the late hour, she reads it as reproach.",
+        "Accountability protects the vulnerable where power is unequal."
+      ],
+      "answerIndex": 2,
+      "explanation": "'The colleague see' is a subject-verb agreement error; it should be 'the colleague sees'.",
+      "hint": "Check the subject and its verb in each option."
+    },
+    {
+      "id": "q13",
+      "prompt": "Which option is closest to the essay's idea of 'reading a delay as data'?",
+      "options": [
+        "Saving message timestamps to analyse later for fun.",
+        "Treating a slow reply as a measurable signal to be decoded rather than a human pause to be forgiven.",
+        "Checking how much storage your messaging app uses.",
+        "Replying instantly to avoid forgetting."
+      ],
+      "answerIndex": 1,
+      "explanation": "The essay warns against turning a human silence into a data point to interpret, rather than extending the benefit of the doubt.",
+      "hint": "The key contrast is between a measured signal and a human pause."
+    },
+    {
+      "id": "q14",
+      "prompt": "Which sentence uses the best cohesion device to concede then restrict, as the essay does?",
+      "options": [
+        "Accountability protects people. Accountability corrodes friendships.",
+        "Accountability genuinely protects the vulnerable; yet the same record, imported into a friendship, audits a bond that was never a contract.",
+        "Accountability protects people and also it corrodes friendships too.",
+        "Because accountability protects people, it corrodes friendships as well."
+      ],
+      "answerIndex": 1,
+      "explanation": "Option B grants the point ('genuinely protects') then restricts it with 'yet… imported into…', the concessive move the essay relies on.",
+      "hint": "Look for the grant-then-narrow pattern with a clear contrastive linker."
+    },
+    {
+      "id": "q15",
+      "prompt": "What internal discipline does the essay finally recommend?",
+      "options": [
+        "Deleting all messaging apps from your phone.",
+        "Noticing when you are reading a delay as data, and choosing to extend the benefit of the doubt anyway.",
+        "Replying to every message within five minutes.",
+        "Keeping a spreadsheet of everyone's response times."
+      ],
+      "answerIndex": 1,
+      "explanation": "The closing move is internal: to catch oneself reading a delay as data and to forgive the silence against the grain of the interface.",
+      "hint": "The remedy is a change in how you read silences, not a deletion or a faster reply."
+    },
+    {
+      "id": "q16",
+      "prompt": "Which option best paraphrases 'What protects a patient corrodes a friend, and we were never asked which we were having'?",
+      "options": [
+        "Patients and friends should be treated identically.",
+        "A record that helps in a high-stakes, unequal relationship damages an intimate one — yet the same default was applied to both without our consent.",
+        "Doctors are more trustworthy than friends.",
+        "Friendship and medicine are completely unrelated."
+      ],
+      "answerIndex": 1,
+      "explanation": "The line captures the essay's core: the same timestamp default is right for the patient and wrong for the friend, imposed without distinction.",
+      "hint": "Identify the two relationship types and what the same tool does to each."
+    }
+  ],
+  "criticalThinkingQuestion": "Think of the last time a read receipt or a 'last seen' changed how you interpreted someone's silence. Did the timestamp tell you something true, or did it simply make a kinder reading harder — and what would you have to do differently to forgive a delay you can now measure?"
+}
