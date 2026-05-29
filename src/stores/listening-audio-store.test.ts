@@ -49,12 +49,20 @@ describe("useListeningAudioStore", () => {
     expect(useListeningAudioStore.getState().currentIndex).toBe(-1);
   });
 
-  it("advanceOnEnded increments in playAll when not at end", () => {
+  it("advanceOnEnded stops playAll — the concat track plays as one continuous file", () => {
     useListeningAudioStore.getState().playAll("listening-a1-001", "https://cdn/x", sentences);
     useListeningAudioStore.setState({ currentIndex: 0, status: "playing" });
     useListeningAudioStore.getState().advanceOnEnded();
-    expect(useListeningAudioStore.getState().currentIndex).toBe(1);
-    expect(useListeningAudioStore.getState().status).toBe("loading");
+    expect(useListeningAudioStore.getState().status).toBe("idle");
+    expect(useListeningAudioStore.getState().currentIndex).toBe(-1);
+  });
+
+  it("setCurrentIndex updates the highlighted sentence without touching status", () => {
+    useListeningAudioStore.getState().playAll("listening-a1-001", "https://cdn/x", sentences);
+    useListeningAudioStore.setState({ status: "playing" });
+    useListeningAudioStore.getState().setCurrentIndex(2);
+    expect(useListeningAudioStore.getState().currentIndex).toBe(2);
+    expect(useListeningAudioStore.getState().status).toBe("playing");
   });
 
   it("advanceOnEnded stops after one sentence in single mode", () => {

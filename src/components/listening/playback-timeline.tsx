@@ -18,6 +18,8 @@ export function PlaybackTimeline({ sentences }: { sentences: Sentence[] }) {
   const currentIndex = useListeningAudioStore((s) => s.currentIndex);
   const audioEl = useListeningAudioStore((s) => s.audioEl);
   const readySet = useListeningAudioStore((s) => s.readySet);
+  const concatUrl = useListeningAudioStore((s) => s.concatUrl);
+  const concatTotalMs = useListeningAudioStore((s) => s.concatTotalMs);
   const inlineBarVisible = useListeningAudioStore((s) => s.inlineBarVisible);
   const pause = useListeningAudioStore((s) => s.pause);
   const resume = useListeningAudioStore((s) => s.resume);
@@ -28,6 +30,8 @@ export function PlaybackTimeline({ sentences }: { sentences: Sentence[] }) {
   const [dragMs, setDragMs] = useState(0);
   const trackRef = useRef<HTMLDivElement>(null);
   const rafRef = useRef<number | undefined>(undefined);
+
+  const concatActive = !!concatUrl;
 
   const offsets = useMemo(() => {
     const result: number[] = [];
@@ -40,25 +44,35 @@ export function PlaybackTimeline({ sentences }: { sentences: Sentence[] }) {
   }, [sentences]);
 
   const totalMs = useMemo(
-    () => sentences.reduce((acc, s) => acc + (s.durationMs ?? 0), 0),
-    [sentences],
+    () =>
+      concatActive && concatTotalMs
+        ? concatTotalMs
+        : sentences.reduce((acc, s) => acc + (s.durationMs ?? 0), 0),
+    [concatActive, concatTotalMs, sentences],
   );
 
-  // Contiguous buffered duration starting from sentence 0.
+  // Concat track is a fully-local blob → entirely seekable.
   const bufferedMs = useMemo(() => {
+    if (concatActive) return totalMs;
     let ms = 0;
     for (let i = 0; i < sentences.length; i++) {
       if (!readySet.has(i)) break;
       ms += sentences[i].durationMs ?? 0;
     }
     return ms;
-  }, [sentences, readySet]);
+  }, [concatActive, totalMs, sentences, readySet]);
 
   useEffect(() => {
     if (status === "idle") return;
     function tick() {
-      if (audioEl && currentIndex >= 0) {
-        setCurrentMs((offsets[currentIndex] ?? 0) + audioEl.currentTime * 1000);
+      if (audioEl) {
+        setCurrentMs(
+          concatActive
+            ? audioEl.currentTime * 1000
+            : currentIndex >= 0
+              ? (offsets[currentIndex] ?? 0) + audioEl.currentTime * 1000
+              : 0,
+        );
       }
       rafRef.current = requestAnimationFrame(tick);
     }
@@ -66,7 +80,7 @@ export function PlaybackTimeline({ sentences }: { sentences: Sentence[] }) {
     return () => {
       if (rafRef.current !== undefined) cancelAnimationFrame(rafRef.current);
     };
-  }, [status, audioEl, currentIndex, offsets]);
+  }, [status, audioEl, currentIndex, offsets, concatActive]);
 
   function msFromPointer(clientX: number): number {
     const track = trackRef.current;

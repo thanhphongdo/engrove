@@ -147,3 +147,12 @@ export type SpeakingSessionDraft = {
   turnBlobs: Record<number, Blob>; // turnIndex → recorded Blob
   updatedAt: number;
 };
+
+/** Cached single gapless "Play all" track, built once per lesson+manifest. */
+export type AudioConcatCache = {
+  key: string; // `${lessonId}@${manifestVersion}`
+  blob: Blob;
+  offsetsMs: number[];
+  totalMs: number;
+  createdAt: number;
+};
