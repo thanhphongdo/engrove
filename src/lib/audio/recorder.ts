@@ -8,13 +8,28 @@ export interface RecorderHandle {
   onStop?: (blob: Blob) => void;
 }
 
-export function createRecorder(opts: { expectedDurationMs: number }): RecorderHandle {
+// Voice-activity tuning. Hysteresis: starting speech needs a clear jump above the
+// noise floor (ONSET_MULT), but *staying* in speech only needs to clear a much
+// lower release floor — so the naturally-quiet tail of a sentence isn't cut off.
+const CALIB_TICKS = 5;          // 500ms of noise-floor calibration (runs while already recording)
+const ONSET_MULT = 4;           // speech onset ≈ 12 dB above the noise floor
+const MIN_ONSET = 0.015;        // absolute floor so a dead-silent room still needs real speech
+const RELEASE_MULT = 1.8;       // release floor sits just above the noise floor (keeps soft tails)
+const SILENCE_RATIO = 0.08;     // ...or 8% of your peak speech level, whichever is higher
+const SILENCE_TICKS = 10;       // ~1000ms below the release floor → you've stopped
+
+export function createRecorder(opts: {
+  expectedDurationMs: number;
+  /** Reuse an already-open mic stream so capture starts instantly (no per-turn getUserMedia cold start that clips the first words). */
+  stream?: MediaStream;
+}): RecorderHandle {
   const hardCapMs = Math.max(8000, opts.expectedDurationMs * 2.5);
 
   let audioCtx: AudioContext | null = null;
   let analyser: AnalyserNode | null = null;
   let mediaRecorder: MediaRecorder | null = null;
   let stream: MediaStream | null = null;
+  let ownsStream = false;
   let chunks: BlobPart[] = [];
   let rmsLevel = 0;
   let pollTimer: ReturnType<typeof setInterval> | null = null;
@@ -28,26 +43,18 @@ export function createRecorder(opts: { expectedDurationMs: number }): RecorderHa
 
     async start() {
       stopped = false;
-      stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      if (opts.stream) {
+        stream = opts.stream;
+        ownsStream = false;
+      } else {
+        stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+        ownsStream = true;
+      }
       audioCtx = new AudioContext();
       analyser = audioCtx.createAnalyser();
       analyser.fftSize = 256;
       analyser.smoothingTimeConstant = 0.8;
       audioCtx.createMediaStreamSource(stream).connect(analyser);
-
-      // Calibrate noise floor over 500ms (5 × 100ms samples)
-      const noiseSamples: number[] = [];
-      await new Promise<void>((resolve) => {
-        let n = 0;
-        const cal = setInterval(() => {
-          const buf = new Float32Array(analyser!.fftSize);
-          analyser!.getFloatTimeDomainData(buf);
-          noiseSamples.push(Math.sqrt(buf.reduce((s, v) => s + v * v, 0) / buf.length));
-          if (++n >= 5) { clearInterval(cal); resolve(); }
-        }, 100);
-      });
-      const noiseRms = noiseSamples.reduce((s, v) => s + v, 0) / noiseSamples.length;
-      const threshold = noiseRms * 4; // 12 dB ≈ ×4 linear
 
       const mimeType = MediaRecorder.isTypeSupported("audio/webm;codecs=opus")
         ? "audio/webm;codecs=opus"
@@ -59,26 +66,47 @@ export function createRecorder(opts: { expectedDurationMs: number }): RecorderHa
         const blob = new Blob(chunks, { type: mimeType });
         handle.onStop?.(blob);
       };
+      // Capture starts immediately — no 500ms wait — so the first word isn't clipped
+      // and the UI can flip to "recording" right away. Calibration runs in parallel.
       mediaRecorder.start(100);
 
       speechDetected = false;
       silentTicks = 0;
-
       hardCapTimer = setTimeout(() => handle.stop(), hardCapMs);
 
       const buf = new Float32Array(analyser.fftSize);
+      const noiseSamples: number[] = [];
+      let threshold = Infinity; // disables the VAD stop until calibration completes
+      let peakRms = 0;
+
       pollTimer = setInterval(() => {
         if (!analyser) return;
         analyser.getFloatTimeDomainData(buf);
         const rms = Math.sqrt(buf.reduce((s, v) => s + v * v, 0) / buf.length);
-        // Normalize to 0–1 relative to 2× threshold for visualizer
-        rmsLevel = Math.min(1, rms / (threshold * 2 || 0.001));
+        rmsLevel = Math.min(1, rms / 0.15); // 0–1 for the visualizer
 
-        if (rms > threshold) {
-          speechDetected = true;
+        // Rolling 500ms noise-floor calibration before VAD kicks in.
+        if (noiseSamples.length < CALIB_TICKS) {
+          noiseSamples.push(rms);
+          if (noiseSamples.length === CALIB_TICKS) {
+            const noiseRms = noiseSamples.reduce((s, v) => s + v, 0) / noiseSamples.length;
+            threshold = Math.max(noiseRms * ONSET_MULT, MIN_ONSET);
+          }
+          return;
+        }
+
+        if (!speechDetected) {
+          if (rms > threshold) { speechDetected = true; peakRms = rms; silentTicks = 0; }
+          return;
+        }
+        // Track the loudest speech, then treat anything well below it (fan, hum,
+        // keyboard) as silence — not just anything below the static noise floor.
+        if (rms > peakRms) peakRms = rms;
+        const silenceFloor = Math.max(threshold, peakRms * SILENCE_RATIO);
+        if (rms < silenceFloor) {
+          if (++silentTicks >= SILENCE_TICKS) handle.stop();
+        } else {
           silentTicks = 0;
-        } else if (speechDetected) {
-          if (++silentTicks >= 10) handle.stop(); // 10 × 100ms = 1000ms silence
         }
       }, 100);
     },
@@ -95,7 +123,8 @@ export function createRecorder(opts: { expectedDurationMs: number }): RecorderHa
 
     dispose() {
       handle.stop();
-      stream?.getTracks().forEach((t) => t.stop());
+      // Only stop tracks we acquired ourselves; a shared session stream is owned by the caller.
+      if (ownsStream) stream?.getTracks().forEach((t) => t.stop());
       audioCtx?.close();
       audioCtx = null; analyser = null; stream = null; mediaRecorder = null;
     },

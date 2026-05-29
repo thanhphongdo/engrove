@@ -10,7 +10,7 @@ import type {
 } from "./types";
 import { DEFAULT_CONTENT_ZOOM } from "./types";
 import type { WritingDraft, WritingAttempt } from "./types";
-import type { SpeakingRecording, SpeakingSessionDraft } from "./types";
+import type { SpeakingRecording, SpeakingSessionDraft, AudioConcatCache } from "./types";
 
 class EnglishLearningDB extends Dexie {
   profiles!: Table<Profile, string>;
@@ -24,6 +24,7 @@ class EnglishLearningDB extends Dexie {
   writingAttempts!: Table<WritingAttempt, string>;
   speakingRecordings!: Table<SpeakingRecording, string>;
   speakingSessionDrafts!: Table<SpeakingSessionDraft, [string, string]>;
+  audioConcat!: Table<AudioConcatCache, string>;
 
   constructor() {
     super("english-learning");
@@ -118,6 +119,21 @@ class EnglishLearningDB extends Dexie {
       writingAttempts: "id, [profileId+lessonId], completedAt",
       speakingRecordings: "id, [profileId+lessonId], completedAt",
       speakingSessionDrafts: "[profileId+lessonId]",
+    });
+    // v7: additive — cache for the single gapless "Play all" track (lesson-scoped, not per-profile).
+    this.version(7).stores({
+      profiles: "id",
+      preferences: "profileId",
+      attempts: "id, [profileId+lessonId], completedAt",
+      drafts: "[profileId+lessonId]",
+      bookmarks: "[profileId+lessonId], profileId",
+      vocab: "id, [profileId+phraseLower], [profileId+sourceLessonId], [profileId+addedAt]",
+      notes: "[profileId+lessonId]",
+      writingDrafts: "[profileId+lessonId]",
+      writingAttempts: "id, [profileId+lessonId], completedAt",
+      speakingRecordings: "id, [profileId+lessonId], completedAt",
+      speakingSessionDrafts: "[profileId+lessonId]",
+      audioConcat: "key",
     });
   }
 }

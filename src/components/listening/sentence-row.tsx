@@ -32,6 +32,7 @@ export function SentenceRow({
   const currentLessonId = useListeningAudioStore((s) => s.lessonId);
   const status = useListeningAudioStore((s) => s.status);
   const mode = useListeningAudioStore((s) => s.mode);
+  const concatOffsetsMs = useListeningAudioStore((s) => s.concatOffsetsMs);
   const playSingle = useListeningAudioStore((s) => s.playSingle);
   const pause = useListeningAudioStore((s) => s.pause);
   const resume = useListeningAudioStore((s) => s.resume);
@@ -47,10 +48,11 @@ export function SentenceRow({
 
   function handleClick() {
     if (isPlayAll) {
-      // Seek to the start of this sentence and continue playing all.
-      const globalMs = allSentences
-        .slice(0, index)
-        .reduce((acc, s) => acc + (s.durationMs ?? 0), 0);
+      // Seek to the start of this sentence and continue playing all. Prefer the
+      // concat track's exact offset; fall back to summed durations.
+      const globalMs =
+        concatOffsetsMs[index] ??
+        allSentences.slice(0, index).reduce((acc, s) => acc + (s.durationMs ?? 0), 0);
       seekToGlobalMs(globalMs);
     } else if (isPlaying) {
       pause();

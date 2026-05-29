@@ -2,18 +2,26 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { createPortal } from "react-dom";
-import { Mic, RotateCcw } from "lucide-react";
-import { useLocalStorageBoolean } from "@/lib/use-local-storage";
-import { cn } from "@/lib/utils";
+import { Mic, RotateCcw, Settings } from "lucide-react";
+import { useLocalStorageBoolean, useLocalStorageString } from "@/lib/use-local-storage";
 import { TurnRow } from "./turn-row";
 import { MixResultCard } from "./mix-result-card";
 import { ConfirmDialog } from "@/components/ui/confirm-dialog";
+import { PracticeOptionsDialog, type RecordMode } from "./practice-options-dialog";
 import { mixToMp3, type MixChunk } from "@/lib/audio/mixer";
 import { createRecorder, type RecorderHandle } from "@/lib/audio/recorder";
 import { useSaveSpeakingRecording } from "@/lib/db/use-speaking-recordings";
-import { useSaveSpeakingSessionDraft, useDeleteSpeakingSessionDraft, useSpeakingSessionDraft } from "@/lib/db/use-speaking-session-draft";
+import { useSaveSpeakingSessionDraft, useDeleteSpeakingSessionDraft } from "@/lib/db/use-speaking-session-draft";
 import { usePreferences } from "@/lib/db/use-preferences";
 import type { SpeakingLesson, SpeakingSentence } from "@/lib/lessons/speaking-schema";
+
+// localStorage keys (see also page.tsx, which reads PREFERRED_VOICE_SEX for the default role)
+const SKIP_SETUP_KEY = "speaking:skipSetup";
+export const PREFERRED_VOICE_SEX_KEY = "speaking:preferredVoiceSex";
+// In auto mode, how long after the recorder stops before we move to the next turn.
+const AUTO_ADVANCE_MS = 600;
+// Height of the sticky header + actions bar — auto-scroll stops below this.
+const STICKY_OFFSET = 150;
 
 // ── Helpers ────────────────────────────────────────────────────────────────
 
@@ -58,13 +66,14 @@ type Phase = "idle" | "in_session" | "done" | "mixing" | "mixed";
 type Props = {
   lesson: SpeakingLesson;
   role: string;
+  onRoleChange: (role: string) => void;
   controlsContainer?: HTMLElement | null;
   onActiveChange?: (active: boolean) => void;
 };
 
 // ── Component ─────────────────────────────────────────────────────────────
 
-export function PracticeSession({ lesson, role, controlsContainer, onActiveChange }: Props) {
+export function PracticeSession({ lesson, role, onRoleChange, controlsContainer, onActiveChange }: Props) {
   const [phase, setPhase] = useState<Phase>("idle");
   const [turnIndex, setTurnIndex] = useState(0);
   const [turnBlobs, setTurnBlobs] = useState<Map<number, Blob>>(new Map());
@@ -72,16 +81,24 @@ export function PracticeSession({ lesson, role, controlsContainer, onActiveChang
   const [mixedDurationMs, setMixedDurationMs] = useState(0);
   const [mixError, setMixError] = useState<string | null>(null);
   const [rmsLevel, setRmsLevel] = useState(0);
+  const [recordingTurn, setRecordingTurn] = useState<number | null>(null);
   const [autoRecord, setAutoRecord] = useLocalStorageBoolean("speaking:autoRecord");
+  const [skipSetup, setSkipSetup] = useLocalStorageBoolean(SKIP_SETUP_KEY);
+  const [, setPreferredVoiceSex] = useLocalStorageString<"female" | "male">(PREFERRED_VOICE_SEX_KEY, "female");
   const [showRestartConfirm, setShowRestartConfirm] = useState(false);
+  const [showSetup, setShowSetup] = useState(false);
+  const [hasPractisedBefore, setHasPractisedBefore] = useState(false);
 
   const recorderRef = useRef<RecorderHandle | null>(null);
   const autoAdvanceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const prevRoleRef = useRef(role);
+  const micStreamRef = useRef<MediaStream | null>(null);
+  const activeTurnRef = useRef<HTMLDivElement | null>(null);
+  const prevScrollTurnRef = useRef<number | null>(null);
 
   const saveRecording = useSaveSpeakingRecording();
   const saveDraft = useSaveSpeakingSessionDraft();
   const deleteDraft = useDeleteSpeakingSessionDraft();
-  const draft = useSpeakingSessionDraft(lesson.id);
 
   const prefs = usePreferences();
   const showTranslation = prefs.hintToggles.passageTranslation;
@@ -89,10 +106,28 @@ export function PracticeSession({ lesson, role, controlsContainer, onActiveChang
   const turnSentences = useMemo(() => buildTurnSentences(lesson), [lesson]);
   const totalTurns = lesson.body.length;
 
-  // Notify parent when practice becomes active/inactive (to swap transcript ↔ turns)
+  // Notify parent: hide the transcript only while actively recording/reviewing.
+  // After "mixed" (and when idle) the transcript stays visible alongside the result.
   useEffect(() => {
-    onActiveChange?.(phase !== "idle" && phase !== "mixed");
+    onActiveChange?.(phase === "in_session" || phase === "done" || phase === "mixing");
   }, [phase, onActiveChange]);
+
+  // Keep the active turn in view as the session advances. The first turn of a
+  // session is already visible (you just clicked Start at the top), so never
+  // scroll for it — only on forward advances, and only when it's actually
+  // off-screen. `scroll-margin-top/bottom` on the wrapper keeps it clear of the
+  // sticky header (block:"nearest" does the minimal scroll).
+  useEffect(() => {
+    if (phase !== "in_session") { prevScrollTurnRef.current = null; return; }
+    if (prevScrollTurnRef.current === null) { prevScrollTurnRef.current = turnIndex; return; }
+    prevScrollTurnRef.current = turnIndex;
+    const el = activeTurnRef.current;
+    if (!el) return;
+    const rect = el.getBoundingClientRect();
+    if (rect.top < STICKY_OFFSET || rect.bottom > window.innerHeight) {
+      el.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    }
+  }, [phase, turnIndex]);
 
   // Per-turn Vietnamese: concatenate sentence translationVi fields
   const turnTranslationsVi = useMemo(() => {
@@ -105,24 +140,21 @@ export function PracticeSession({ lesson, role, controlsContainer, onActiveChang
     return map;
   }, [lesson.body.length, turnSentences]);
 
-  // Restore from draft on mount
+  // Reloading or re-entering the page is a fresh start — discard any saved draft
+  // instead of resuming the previous in-progress session.
   useEffect(() => {
-    if (draft && phase === "idle") {
-      const restored = new Map(
-        Object.entries(draft.turnBlobs).map(([k, v]) => [Number(k), v]),
-      );
-      setTurnBlobs(restored);
-      const nextTurn = [...restored.keys()].reduce((max, k) => Math.max(max, k), -1) + 1;
-      if (nextTurn >= totalTurns) {
-        setTurnIndex(totalTurns - 1);
-        setPhase("done");
-      } else {
-        setTurnIndex(nextTurn);
-        setPhase("in_session");
-      }
+    deleteDraft(lesson.id);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  // Changing role from outside an idle state invalidates recordings — reset to a clean slate.
+  useEffect(() => {
+    if (prevRoleRef.current !== role) {
+      prevRoleRef.current = role;
+      if (phase !== "idle") resetSession();
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [draft]);
+  }, [role]);
 
   // Persist draft whenever turn blobs change
   useEffect(() => {
@@ -155,49 +187,106 @@ export function PracticeSession({ lesson, role, controlsContainer, onActiveChang
     if (turn.speaker !== role) return;       // system turn
     if (turnBlobs.has(turnIndex)) return;    // already recorded
     if (recorderRef.current) return;         // already recording
-    const t = setTimeout(() => handleRecord(turnIndex), 800);
-    return () => clearTimeout(t);
+    // Start the moment it's your turn — no perceptible delay.
+    handleRecord(turnIndex);
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [phase, turnIndex, autoRecord, role]);
 
+  // Open the mic once per session and reuse it for every turn — re-acquiring it
+  // each turn cold-starts getUserMedia and clips the first words.
+  async function ensureMic(): Promise<MediaStream | null> {
+    if (micStreamRef.current) return micStreamRef.current;
+    try {
+      micStreamRef.current = await navigator.mediaDevices.getUserMedia({ audio: true });
+    } catch (err) {
+      console.error("Mic access failed:", err);
+      micStreamRef.current = null;
+    }
+    return micStreamRef.current;
+  }
+
+  function releaseMic() {
+    micStreamRef.current?.getTracks().forEach((t) => t.stop());
+    micStreamRef.current = null;
+  }
+
+  // Release the shared mic stream when the component unmounts.
+  useEffect(() => () => releaseMic(), []);
+
+  // The mic is only needed while recording turns. Once the session leaves
+  // "in_session" (done / mixing / mixed / idle), release it so the browser's
+  // recording indicator turns off.
+  useEffect(() => {
+    if (phase !== "in_session") releaseMic();
+  }, [phase]);
+
   function advanceTurn() {
     const next = turnIndex + 1;
-    if (next >= totalTurns) {
-      setPhase("done");
-    } else {
-      setTurnIndex(next);
-    }
+    if (next >= totalTurns) setPhase("done");
+    else setTurnIndex(next);
   }
 
-  function startSession() {
-    setTurnIndex(0);
-    setPhase("in_session");
-  }
-
-  function restartSession() {
+  function resetSession() {
     recorderRef.current?.dispose();
     recorderRef.current = null;
     if (autoAdvanceRef.current) clearTimeout(autoAdvanceRef.current);
     setTurnBlobs(new Map());
-    setPhase("idle");
     setTurnIndex(0);
+    setRecordingTurn(null);
     setMixedBlob(null);
+    setMixError(null);
+    releaseMic();
     deleteDraft(lesson.id);
+  }
+
+  /** Begin a fresh session with the given options (from setup dialog or a direct start). */
+  async function beginSession(opts: { role: string; mode: RecordMode }) {
+    resetSession();
+    onRoleChange(opts.role);
+    prevRoleRef.current = opts.role; // avoid the role-change effect wiping this fresh start
+    setAutoRecord(opts.mode === "auto");
+    const sex = lesson.voices[opts.role]?.sex;
+    if (sex) setPreferredVoiceSex(sex);
+    setHasPractisedBefore(true);
+    await ensureMic(); // open the mic before the first turn so nothing is clipped
+    setPhase("in_session");
+  }
+
+  /** "Start practice" button: skip setup if remembered, else open the dialog. */
+  function handleStartClick() {
+    if (skipSetup) void beginSession({ role, mode: autoRecord ? "auto" : "manual" });
+    else setShowSetup(true);
+  }
+
+  function handleSetupStart(opts: { role: string; mode: RecordMode; remember: boolean }) {
+    setSkipSetup(opts.remember);
+    setShowSetup(false);
+    void beginSession({ role: opts.role, mode: opts.mode });
+  }
+
+  function restartSession() {
+    resetSession();
+    setPhase("idle");
   }
 
   function handleRecord(bi: number) {
     const sentences = turnSentences.get(bi) ?? [];
     const dur = expectedMs(sentences);
-    const recorder = createRecorder({ expectedDurationMs: dur });
+    const recorder = createRecorder({ expectedDurationMs: dur, stream: micStreamRef.current ?? undefined });
     recorderRef.current = recorder;
+    setRecordingTurn(bi); // flip the UI to "recording" immediately
     recorder.start().catch((err) => console.error("Recorder start failed:", err));
     // Poll RMS for visualizer
     const poll = setInterval(() => setRmsLevel(recorder.getRmsLevel()), 80);
     recorder.onStop = (blob) => {
       clearInterval(poll);
       setRmsLevel(0);
+      setRecordingTurn(null);
       setTurnBlobs((prev) => new Map(prev).set(bi, blob));
-      autoAdvanceRef.current = setTimeout(() => handleContinue(bi), 2000);
+      // Auto mode flows straight on; manual waits for the user to tap Continue.
+      if (autoRecord) {
+        autoAdvanceRef.current = setTimeout(() => handleContinue(bi), AUTO_ADVANCE_MS);
+      }
     };
   }
 
@@ -215,6 +304,7 @@ export function PracticeSession({ lesson, role, controlsContainer, onActiveChang
     if (autoAdvanceRef.current) { clearTimeout(autoAdvanceRef.current); autoAdvanceRef.current = null; }
     recorderRef.current?.dispose();
     recorderRef.current = null;
+    setRecordingTurn(null);
     const next = bi + 1;
     if (next >= totalTurns) setPhase("done");
     else setTurnIndex(next);
@@ -226,22 +316,40 @@ export function PracticeSession({ lesson, role, controlsContainer, onActiveChang
   }
 
   async function handleMix() {
+    // Stop any in-flight recording first so we mix a clean state.
+    if (autoAdvanceRef.current) { clearTimeout(autoAdvanceRef.current); autoAdvanceRef.current = null; }
+    recorderRef.current?.dispose();
+    recorderRef.current = null;
+    setRecordingTurn(null);
+
+    const resumePhase: Phase = phase === "done" ? "done" : "in_session";
     setPhase("mixing");
     setMixError(null);
     try {
       const chunks: MixChunk[] = [];
+      let mixedTurns = 0;
+      let userTurns = 0;
+      // Mix the recorded prefix: walk turns until the first un-recorded user turn.
+      // System turns (and the clerk's reply after your last line) are included.
       for (let bi = 0; bi < totalTurns; bi++) {
         const sentences = turnSentences.get(bi) ?? [];
         if (lesson.body[bi].speaker === role) {
           const blob = turnBlobs.get(bi);
-          if (!blob) throw new Error(`Missing recording for turn ${bi + 1}. Please re-record that turn.`);
+          if (!blob) break;
           chunks.push({ kind: "user", blob });
+          userTurns++;
         } else {
           for (const s of sentences) {
             const res = await fetch(`${lesson.audio.cdnBase}/sentences/${s.id}.mp3`);
             chunks.push({ kind: "system", blob: await res.blob() });
           }
         }
+        mixedTurns = bi + 1;
+      }
+      if (userTurns === 0) {
+        setMixError("Record at least one turn before saving.");
+        setPhase(resumePhase);
+        return;
       }
       const mp3 = await mixToMp3(chunks);
       // WAV: 44-byte header + 16-bit mono @ 44100 Hz → 88200 bytes/s
@@ -251,7 +359,7 @@ export function PracticeSession({ lesson, role, controlsContainer, onActiveChang
         role,
         completedAt: Date.now(),
         durationMs: durMs,
-        turnCount: totalTurns,
+        turnCount: mixedTurns,
         mp3Blob: mp3,
       });
       await deleteDraft(lesson.id);
@@ -261,40 +369,32 @@ export function PracticeSession({ lesson, role, controlsContainer, onActiveChang
     } catch (err) {
       console.error("Mix failed:", err);
       setMixError(err instanceof Error ? err.message : "Mix failed");
-      setPhase("done");
+      setPhase(resumePhase);
     }
   }
 
   function getTurnState(bi: number) {
     if (phase === "idle") return "upcoming";
-    if (phase === "done" || phase === "mixing" || phase === "mixed") {
-      return "done";
-    }
+    if (phase === "done" || phase === "mixing" || phase === "mixed") return "done";
     if (bi < turnIndex) return "done";
     if (bi > turnIndex) return "upcoming";
     // bi === turnIndex
     const isUser = lesson.body[bi].speaker === role;
     if (!isUser) return "system-playing";
-    if (recorderRef.current && rmsLevel > 0) return "user-recording";
+    if (recordingTurn === bi) return "user-recording"; // flips instantly, no rms wait
     if (turnBlobs.has(bi)) return "user-recorded";
     return "user-idle";
   }
 
   // ── Controls (portaled into sticky bar) ──────────────────────────────
 
-  const autoRecordBtn = (
+  const optionsBtn = (
     <button
       type="button"
-      onClick={() => setAutoRecord(!autoRecord)}
-      className={cn(
-        "inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-xs transition-colors",
-        autoRecord
-          ? "border-primary/40 bg-primary/10 text-primary"
-          : "border-border text-muted-foreground hover:bg-accent",
-      )}
+      onClick={() => setShowSetup(true)}
+      className="inline-flex items-center gap-1.5 rounded-md border px-3 py-1.5 text-xs text-muted-foreground hover:bg-accent"
     >
-      <Mic className="size-3" aria-hidden="true" />
-      Auto-record {autoRecord ? "on" : "off"}
+      <Settings className="size-3" aria-hidden="true" /> Options
     </button>
   );
 
@@ -302,31 +402,53 @@ export function PracticeSession({ lesson, role, controlsContainer, onActiveChang
     <>
       {phase === "idle" && (
         <>
-          {autoRecordBtn}
-          <button type="button" onClick={startSession}
-            className="rounded-full bg-primary px-4 py-1.5 text-sm font-medium text-primary-foreground hover:bg-primary/90">
-            Start practice
+          {optionsBtn}
+          <button
+            type="button"
+            onClick={handleStartClick}
+            className="inline-flex items-center gap-1.5 rounded-md bg-primary px-4 py-1.5 text-sm font-semibold text-primary-foreground hover:bg-primary/90"
+          >
+            <Mic className="size-3.5" aria-hidden="true" /> Start practice
           </button>
         </>
       )}
       {(phase === "in_session" || phase === "done") && (
         <>
-          {autoRecordBtn}
-          <button type="button" onClick={() => setShowRestartConfirm(true)}
-            className="inline-flex items-center gap-1.5 rounded-md border px-3 py-1.5 text-xs text-muted-foreground hover:bg-accent">
-            <RotateCcw className="size-3" aria-hidden="true" />
-            Restart
+          <span className="text-xs font-medium text-muted-foreground">
+            {phase === "done"
+              ? `All ${totalTurns} turns recorded · as ${role}`
+              : `Turn ${turnIndex + 1} / ${totalTurns} · as ${role}`}
+          </span>
+          <button
+            type="button"
+            onClick={() => setShowRestartConfirm(true)}
+            className="inline-flex items-center gap-1.5 rounded-md border px-3 py-1.5 text-xs text-muted-foreground hover:bg-accent"
+          >
+            <RotateCcw className="size-3" aria-hidden="true" /> Restart
           </button>
+          {optionsBtn}
+          {turnBlobs.size > 0 && (
+            <button
+              type="button"
+              onClick={handleMix}
+              className="inline-flex items-center gap-1.5 rounded-md bg-emerald-600 px-4 py-1.5 text-sm font-semibold text-white hover:bg-emerald-700"
+            >
+              Mix &amp; Save
+            </button>
+          )}
         </>
-      )}
-      {phase === "done" && (
-        <button type="button" onClick={handleMix}
-          className="rounded-full bg-emerald-600 px-4 py-1.5 text-sm font-semibold text-white hover:bg-emerald-700">
-          Mix & Save
-        </button>
       )}
       {phase === "mixing" && (
         <span className="text-xs text-muted-foreground animate-pulse">Mixing…</span>
+      )}
+      {phase === "mixed" && (
+        <button
+          type="button"
+          onClick={restartSession}
+          className="inline-flex items-center gap-1.5 rounded-md border px-4 py-1.5 text-sm font-semibold hover:bg-accent"
+        >
+          <RotateCcw className="size-3.5" aria-hidden="true" /> Practice again
+        </button>
       )}
     </>
   );
@@ -336,6 +458,18 @@ export function PracticeSession({ lesson, role, controlsContainer, onActiveChang
   return (
     <>
       {controlsContainer && createPortal(controls, controlsContainer)}
+
+      <PracticeOptionsDialog
+        open={showSetup}
+        onOpenChange={setShowSetup}
+        characters={lesson.characters}
+        voices={lesson.voices}
+        initialRole={role}
+        initialMode={autoRecord ? "auto" : "manual"}
+        initialRemember={skipSetup}
+        hadPrevious={hasPractisedBefore}
+        onStart={handleSetupStart}
+      />
 
       <ConfirmDialog
         open={showRestartConfirm}
@@ -350,30 +484,35 @@ export function PracticeSession({ lesson, role, controlsContainer, onActiveChang
         {/* Idle placeholder */}
         {phase === "idle" && (
           <p className="text-sm text-muted-foreground">
-            You'll play <strong>{role}</strong>. Complete all {totalTurns} turns to create your recording.
+            You&apos;ll play <strong>{role}</strong>. Tap <strong>Start practice</strong> to record all {totalTurns} turns.
           </p>
         )}
 
-        {/* Turn list */}
-        {phase !== "idle" && (
+        {/* Turn list — only while practising or reviewing before mixing */}
+        {(phase === "in_session" || phase === "done") && (
           <div className="space-y-3">
             {lesson.body.map((turn, bi) => (
-              <TurnRow
+              <div
                 key={bi}
-                turnIndex={bi}
-                speaker={turn.speaker}
-                text={turn.text}
-                translationVi={showTranslation ? turnTranslationsVi.get(bi) : undefined}
-                isUser={turn.speaker === role}
-                state={getTurnState(bi)}
-                onRecord={() => handleRecord(bi)}
-                onStopRecording={handleStopRecording}
-                onPlayback={() => handlePlayback(bi)}
-                onContinue={() => handleContinue(bi)}
-                onPlayModel={() => handlePlayModel(bi)}
-                getRmsLevel={() => rmsLevel}
-                hasBlob={turnBlobs.has(bi)}
-              />
+                ref={bi === turnIndex ? activeTurnRef : undefined}
+                style={{ scrollMarginTop: STICKY_OFFSET, scrollMarginBottom: 24 }}
+              >
+                <TurnRow
+                  turnIndex={bi}
+                  speaker={turn.speaker}
+                  text={turn.text}
+                  translationVi={showTranslation ? turnTranslationsVi.get(bi) : undefined}
+                  isUser={turn.speaker === role}
+                  state={getTurnState(bi)}
+                  onRecord={() => handleRecord(bi)}
+                  onStopRecording={handleStopRecording}
+                  onPlayback={() => handlePlayback(bi)}
+                  onContinue={() => handleContinue(bi)}
+                  onPlayModel={() => handlePlayModel(bi)}
+                  getRmsLevel={() => rmsLevel}
+                  hasBlob={turnBlobs.has(bi)}
+                />
+              </div>
             ))}
           </div>
         )}
@@ -388,7 +527,7 @@ export function PracticeSession({ lesson, role, controlsContainer, onActiveChang
           </div>
         )}
 
-        {/* Mixed: result card */}
+        {/* Mixed: result card only (transcript stays hidden until "Practice again") */}
         {phase === "mixed" && mixedBlob && (
           <MixResultCard
             mp3Blob={mixedBlob}

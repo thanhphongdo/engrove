@@ -3,7 +3,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Pause, Play } from "lucide-react";
 import { useListeningAudioStore } from "@/stores/listening-audio-store";
-import { cn } from "@/lib/utils";
 import type { Sentence } from "@/lib/lessons/types";
 
 function fmtMs(ms: number): string {
@@ -39,6 +38,8 @@ export function InlinePlaybackBar({
   const currentIndex = useListeningAudioStore((s) => s.currentIndex);
   const audioEl = useListeningAudioStore((s) => s.audioEl);
   const readySet = useListeningAudioStore((s) => s.readySet);
+  const concatUrl = useListeningAudioStore((s) => s.concatUrl);
+  const concatTotalMs = useListeningAudioStore((s) => s.concatTotalMs);
   const playAll = useListeningAudioStore((s) => s.playAll);
   const pause = useListeningAudioStore((s) => s.pause);
   const resume = useListeningAudioStore((s) => s.resume);
@@ -71,6 +72,9 @@ export function InlinePlaybackBar({
     };
   }, [setInlineBarVisible]);
 
+  // The gapless single-track engine drives Play all when its track is ready.
+  const concatActive = !!concatUrl;
+
   const offsets = useMemo(() => {
     const result: number[] = [];
     let acc = 0;
@@ -82,16 +86,27 @@ export function InlinePlaybackBar({
   }, [sentences]);
 
   const totalMs = useMemo(
-    () => sentences.reduce((acc, s) => acc + (s.durationMs ?? 0), 0),
-    [sentences],
+    () =>
+      concatActive && concatTotalMs
+        ? concatTotalMs
+        : sentences.reduce((acc, s) => acc + (s.durationMs ?? 0), 0),
+    [concatActive, concatTotalMs, sentences],
   );
 
-  // RAF loop — keep scrub position in sync with live audio element.
+  // RAF loop — keep scrub position in sync with the live audio element.
+  // Concat track: currentTime is already the global position. Per-sentence
+  // fallback: add the current sentence's start offset.
   useEffect(() => {
     if (!isActive) return;
     function tick() {
-      if (audioEl && currentIndex >= 0) {
-        setCurrentMs((offsets[currentIndex] ?? 0) + audioEl.currentTime * 1000);
+      if (audioEl) {
+        setCurrentMs(
+          concatActive
+            ? audioEl.currentTime * 1000
+            : currentIndex >= 0
+              ? (offsets[currentIndex] ?? 0) + audioEl.currentTime * 1000
+              : 0,
+        );
       }
       rafRef.current = requestAnimationFrame(tick);
     }
@@ -99,17 +114,19 @@ export function InlinePlaybackBar({
     return () => {
       if (rafRef.current !== undefined) cancelAnimationFrame(rafRef.current);
     };
-  }, [isActive, audioEl, currentIndex, offsets]);
+  }, [isActive, audioEl, currentIndex, offsets, concatActive]);
 
-  // Contiguous buffered duration starting from sentence 0.
+  // Concat track is a fully-local blob → entirely seekable. Per-sentence
+  // fallback: contiguous buffered duration from sentence 0.
   const bufferedMs = useMemo(() => {
+    if (concatActive) return totalMs;
     let ms = 0;
     for (let i = 0; i < sentences.length; i++) {
       if (!readySet.has(i)) break;
       ms += sentences[i].durationMs ?? 0;
     }
     return ms;
-  }, [sentences, readySet]);
+  }, [concatActive, totalMs, sentences, readySet]);
 
   function msFromPointer(clientX: number, el: HTMLElement): number {
     const rect = el.getBoundingClientRect();
