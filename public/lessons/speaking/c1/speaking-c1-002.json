@@ -1,0 +1,691 @@
+{
+  "id": "speaking-c1-002",
+  "level": "C1",
+  "title": "Consulting a Lawyer: Contract Dispute",
+  "summary": "A client consults her attorney about a complex commercial contract dispute involving breach of warranty and potential litigation strategy.",
+  "topic": "Legal Consultation",
+  "tags": [
+    "Law",
+    "Business",
+    "Contracts",
+    "Professional"
+  ],
+  "characters": [
+    "Claire",
+    "Marcus"
+  ],
+  "voices": {
+    "Claire": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-JennyNeural"
+    },
+    "Marcus": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-EricNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Claire",
+      "text": "Thank you for seeing me on short notice, Marcus. I've just received a formal letter from Apex Solutions claiming that our company is in material breach of the software licensing agreement we signed last year."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "I've had a chance to review the letter and the underlying contract. Before we discuss strategy, I want to clarify one critical point: do you believe your company has fully performed its obligations under Section 4, the integration milestone clause?"
+    },
+    {
+      "speaker": "Claire",
+      "text": "We delivered the integration module six weeks late due to API changes on their end, which we documented thoroughly. Our position is that their unilateral API modifications constitute a prior breach that excuses our delayed performance."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "That's a viable argument, and it aligns with the doctrine of anticipatory breach. However, the contract contains a cure-period clause — Section 7.2 — which required you to notify them in writing within fourteen days of encountering the obstacle. Did your team send that notification?"
+    },
+    {
+      "speaker": "Claire",
+      "text": "We sent an email at the time, but I'm not certain it was addressed to the designated contract representative as specified in the notice provisions. That may be a procedural gap."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "That's potentially a significant vulnerability. Courts tend to construe notice provisions strictly, particularly in commercial contracts. If the notification wasn't sent to the correct party, Apex may argue it was ineffective, which would undermine your excuse-of-performance defense."
+    },
+    {
+      "speaker": "Claire",
+      "text": "What are our realistic options at this stage? I'd like to avoid full litigation if possible — the cost and reputational exposure aren't worth it for a contract of this value."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "I'd recommend a two-track approach. In the near term, we draft a formal response letter that preserves all your legal rights without escalating the dispute. Simultaneously, we initiate without-prejudice settlement discussions to explore whether a revised payment schedule or scope adjustment could resolve this commercially."
+    },
+    {
+      "speaker": "Claire",
+      "text": "What does 'without prejudice' mean in practical terms? I want to make sure anything we offer in settlement can't be used against us if talks break down."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "Precisely — communications marked 'without prejudice' are generally inadmissible as evidence in subsequent legal proceedings. It creates a protected space for candid negotiation. The key is to ensure all settlement correspondence is clearly labelled and that you don't make any admissions of liability in the main communications channel."
+    },
+    {
+      "speaker": "Claire",
+      "text": "That makes sense. What damages is Apex likely to be seeking, and how credible is that claim?"
+    },
+    {
+      "speaker": "Marcus",
+      "text": "Their letter references consequential losses — specifically, revenue foregone due to delayed product launch. Consequential damages are generally harder to establish because they require foreseeability at the time of contracting and a sufficiently direct causal link. The contract's limitation of liability clause in Section 12 may also cap their recovery at the value of the annual licence fee."
+    },
+    {
+      "speaker": "Claire",
+      "text": "That's reassuring. The annual fee was relatively modest, so if that cap holds, their actual recovery would be limited even if they prevailed."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "Correct. And frankly, when parties understand that the potential recovery is constrained by a contractual cap, it often makes them more amenable to settlement. I'd use that as leverage in the without-prejudice discussions."
+    },
+    {
+      "speaker": "Claire",
+      "text": "What's the realistic timeline if this does proceed to litigation? We need to plan our cash flow and resource allocation accordingly."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "Commercial litigation in this jurisdiction typically runs eighteen to thirty months from filing to judgment at first instance. There's also the possibility of an interim injunction application if Apex seeks to suspend your licence pending resolution, which we'd need to address urgently."
+    },
+    {
+      "speaker": "Claire",
+      "text": "An injunction would be catastrophic for our operations. Is there a way to preemptively protect against that?"
+    },
+    {
+      "speaker": "Marcus",
+      "text": "Yes — we can seek an undertaking from Apex that they won't apply for injunctive relief while settlement discussions are ongoing. If they refuse, that itself becomes a strategic data point. Courts generally look unfavourably on parties who rush to seek injunctions when a commercially reasonable settlement avenue is available."
+    },
+    {
+      "speaker": "Claire",
+      "text": "I'll instruct our operations team to document all ongoing performance under the contract meticulously. If we're maintaining our obligations in good faith, that should strengthen our position."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "Absolutely — contemporaneous documentation is invaluable in contract disputes. Keep records of every deliverable, every communication, and every decision log. If this reaches litigation, that paper trail will be foundational to our defence."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Claire",
+      "text": "Thank you for seeing me on short notice, Marcus.",
+      "durationMs": 3624,
+      "translationVi": "Cảm ơn anh đã gặp tôi với thời gian ngắn như vậy, Marcus."
+    },
+    {
+      "id": "s2",
+      "speaker": "Claire",
+      "text": "I've just received a formal letter from Apex Solutions claiming that our company is in material breach of the software licensing agreement we signed last year.",
+      "durationMs": 8880,
+      "translationVi": "Tôi vừa nhận được một lá thư chính thức từ Apex Solutions tuyên bố rằng công ty chúng tôi đã vi phạm nghiêm trọng thỏa thuận cấp phép phần mềm mà chúng tôi đã ký năm ngoái."
+    },
+    {
+      "id": "s3",
+      "speaker": "Marcus",
+      "text": "I've had a chance to review the letter and the underlying contract.",
+      "durationMs": 4392,
+      "translationVi": "Tôi đã có cơ hội xem xét lá thư và hợp đồng cơ bản."
+    },
+    {
+      "id": "s4",
+      "speaker": "Marcus",
+      "text": "Before we discuss strategy, I want to clarify one critical point: do you believe your company has fully performed its obligations under Section 4, the integration milestone clause?",
+      "durationMs": 11256,
+      "translationVi": "Trước khi chúng ta thảo luận về chiến lược, tôi muốn làm rõ một điểm quan trọng: anh có tin rằng công ty của anh đã thực hiện đầy đủ các nghĩa vụ theo Điều 4, điều khoản về mốc tích hợp không?"
+    },
+    {
+      "id": "s5",
+      "speaker": "Claire",
+      "text": "We delivered the integration module six weeks late due to API changes on their end, which we documented thoroughly.",
+      "durationMs": 7296,
+      "translationVi": "Chúng tôi đã giao mô-đun tích hợp chậm sáu tuần do những thay đổi API từ phía họ, điều mà chúng tôi đã ghi lại đầy đủ."
+    },
+    {
+      "id": "s6",
+      "speaker": "Claire",
+      "text": "Our position is that their unilateral API modifications constitute a prior breach that excuses our delayed performance.",
+      "durationMs": 7656,
+      "translationVi": "Lập trường của chúng tôi là các sửa đổi API đơn phương của họ cấu thành một vi phạm trước hạn miễn trách nhiệm cho sự chậm trễ thực hiện của chúng tôi."
+    },
+    {
+      "id": "s7",
+      "speaker": "Marcus",
+      "text": "That's a viable argument, and it aligns with the doctrine of anticipatory breach.",
+      "durationMs": 5424,
+      "translationVi": "Đó là một lập luận khả thi, và nó phù hợp với học thuyết vi phạm hợp đồng trước hạn."
+    },
+    {
+      "id": "s8",
+      "speaker": "Marcus",
+      "text": "However, the contract contains a cure-period clause — Section 7.2 — which required you to notify them in writing within fourteen days of encountering the obstacle.",
+      "durationMs": 11088,
+      "translationVi": "Tuy nhiên, hợp đồng có một điều khoản thời hạn khắc phục — Điều 7.2 — yêu cầu anh thông báo bằng văn bản trong vòng mười bốn ngày kể từ khi gặp trở ngại."
+    },
+    {
+      "id": "s9",
+      "speaker": "Marcus",
+      "text": "Did your team send that notification?",
+      "durationMs": 2880,
+      "translationVi": "Nhóm của anh có gửi thông báo đó không?"
+    },
+    {
+      "id": "s10",
+      "speaker": "Claire",
+      "text": "We sent an email at the time, but I'm not certain it was addressed to the designated contract representative as specified in the notice provisions.",
+      "durationMs": 8352,
+      "translationVi": "Chúng tôi đã gửi email vào lúc đó, nhưng tôi không chắc nó được gửi đến đúng đại diện hợp đồng được chỉ định theo quy định trong các điều khoản thông báo."
+    },
+    {
+      "id": "s11",
+      "speaker": "Claire",
+      "text": "That may be a procedural gap.",
+      "durationMs": 2568,
+      "translationVi": "Đó có thể là một lỗ hổng thủ tục."
+    },
+    {
+      "id": "s12",
+      "speaker": "Marcus",
+      "text": "That's potentially a significant vulnerability.",
+      "durationMs": 3528,
+      "translationVi": "Đó là một điểm yếu tiềm năng đáng kể."
+    },
+    {
+      "id": "s13",
+      "speaker": "Marcus",
+      "text": "Courts tend to construe notice provisions strictly, particularly in commercial contracts.",
+      "durationMs": 6072,
+      "translationVi": "Tòa án có xu hướng giải thích các điều khoản thông báo theo nghĩa hẹp, đặc biệt trong các hợp đồng thương mại."
+    },
+    {
+      "id": "s14",
+      "speaker": "Marcus",
+      "text": "If the notification wasn't sent to the correct party, Apex may argue it was ineffective, which would undermine your excuse-of-performance defense.",
+      "durationMs": 9120,
+      "translationVi": "Nếu thông báo không được gửi đến đúng bên, Apex có thể lập luận rằng nó không có hiệu lực, điều này sẽ làm suy yếu biện hộ miễn trách nhiệm thực hiện của anh."
+    },
+    {
+      "id": "s15",
+      "speaker": "Claire",
+      "text": "What are our realistic options at this stage?",
+      "durationMs": 3216,
+      "translationVi": "Các lựa chọn thực tế của chúng tôi ở giai đoạn này là gì?"
+    },
+    {
+      "id": "s16",
+      "speaker": "Claire",
+      "text": "I'd like to avoid full litigation if possible — the cost and reputational exposure aren't worth it for a contract of this value.",
+      "durationMs": 8040,
+      "translationVi": "Tôi muốn tránh kiện tụng đầy đủ nếu có thể — chi phí và rủi ro danh tiếng không đáng cho một hợp đồng có giá trị này."
+    },
+    {
+      "id": "s17",
+      "speaker": "Marcus",
+      "text": "I'd recommend a two-track approach.",
+      "durationMs": 2976,
+      "translationVi": "Tôi khuyến nghị cách tiếp cận hai hướng."
+    },
+    {
+      "id": "s18",
+      "speaker": "Marcus",
+      "text": "In the near term, we draft a formal response letter that preserves all your legal rights without escalating the dispute.",
+      "durationMs": 7128,
+      "translationVi": "Trong ngắn hạn, chúng ta soạn một lá thư phản hồi chính thức bảo lưu tất cả các quyền pháp lý của anh mà không leo thang tranh chấp."
+    },
+    {
+      "id": "s19",
+      "speaker": "Marcus",
+      "text": "Simultaneously, we initiate without-prejudice settlement discussions to explore whether a revised payment schedule or scope adjustment could resolve this commercially.",
+      "durationMs": 9888,
+      "translationVi": "Đồng thời, chúng ta khởi động các cuộc thảo luận giải quyết không làm phương hại đến quyền để khám phá xem liệu một lịch thanh toán sửa đổi hay điều chỉnh phạm vi có thể giải quyết vấn đề này về mặt thương mại không."
+    },
+    {
+      "id": "s20",
+      "speaker": "Claire",
+      "text": "What does 'without prejudice' mean in practical terms?",
+      "durationMs": 3912,
+      "translationVi": "'Không làm phương hại đến quyền' có nghĩa là gì trên thực tế?"
+    },
+    {
+      "id": "s21",
+      "speaker": "Claire",
+      "text": "I want to make sure anything we offer in settlement can't be used against us if talks break down.",
+      "durationMs": 5784,
+      "translationVi": "Tôi muốn đảm bảo rằng bất cứ điều gì chúng tôi đề xuất trong quá trình giải quyết không thể bị sử dụng chống lại chúng tôi nếu đàm phán thất bại."
+    },
+    {
+      "id": "s22",
+      "speaker": "Marcus",
+      "text": "Precisely — communications marked 'without prejudice' are generally inadmissible as evidence in subsequent legal proceedings.",
+      "durationMs": 8232,
+      "translationVi": "Chính xác — các thông tin liên lạc được đánh dấu 'không làm phương hại đến quyền' thường không được chấp nhận làm bằng chứng trong các thủ tục pháp lý tiếp theo."
+    },
+    {
+      "id": "s23",
+      "speaker": "Marcus",
+      "text": "It creates a protected space for candid negotiation.",
+      "durationMs": 4056,
+      "translationVi": "Nó tạo ra một không gian được bảo vệ cho việc đàm phán thẳng thắn."
+    },
+    {
+      "id": "s24",
+      "speaker": "Marcus",
+      "text": "The key is to ensure all settlement correspondence is clearly labelled and that you don't make any admissions of liability in the main communications channel.",
+      "durationMs": 8928,
+      "translationVi": "Điều quan trọng là đảm bảo tất cả thư từ giải quyết được dán nhãn rõ ràng và anh không thừa nhận bất kỳ trách nhiệm nào trong kênh liên lạc chính."
+    },
+    {
+      "id": "s25",
+      "speaker": "Claire",
+      "text": "That makes sense.",
+      "durationMs": 2064,
+      "translationVi": "Điều đó có lý."
+    },
+    {
+      "id": "s26",
+      "speaker": "Claire",
+      "text": "What damages is Apex likely to be seeking, and how credible is that claim?",
+      "durationMs": 5184,
+      "translationVi": "Apex có thể đang tìm kiếm những thiệt hại gì, và tuyên bố đó đáng tin cậy đến mức nào?"
+    },
+    {
+      "id": "s27",
+      "speaker": "Marcus",
+      "text": "Their letter references consequential losses — specifically, revenue foregone due to delayed product launch.",
+      "durationMs": 7512,
+      "translationVi": "Lá thư của họ đề cập đến thiệt hại hệ quả — cụ thể là doanh thu bị mất do ra mắt sản phẩm bị chậm trễ."
+    },
+    {
+      "id": "s28",
+      "speaker": "Marcus",
+      "text": "Consequential damages are generally harder to establish because they require foreseeability at the time of contracting and a sufficiently direct causal link.",
+      "durationMs": 9168,
+      "translationVi": "Thiệt hại hệ quả thường khó xác lập hơn vì chúng đòi hỏi tính có thể dự liệu tại thời điểm ký hợp đồng và mối liên hệ nhân quả đủ trực tiếp."
+    },
+    {
+      "id": "s29",
+      "speaker": "Marcus",
+      "text": "The contract's limitation of liability clause in Section 12 may also cap their recovery at the value of the annual licence fee.",
+      "durationMs": 8304,
+      "translationVi": "Điều khoản giới hạn trách nhiệm trong Điều 12 cũng có thể giới hạn khoản bồi thường của họ ở mức giá trị phí cấp phép hàng năm."
+    },
+    {
+      "id": "s30",
+      "speaker": "Claire",
+      "text": "That's reassuring.",
+      "durationMs": 2040,
+      "translationVi": "Điều đó thật đáng mừng."
+    },
+    {
+      "id": "s31",
+      "speaker": "Claire",
+      "text": "The annual fee was relatively modest, so if that cap holds, their actual recovery would be limited even if they prevailed.",
+      "durationMs": 7752,
+      "translationVi": "Phí hàng năm khá khiêm tốn, vì vậy nếu giới hạn đó được duy trì, khoản bồi thường thực tế của họ sẽ bị hạn chế ngay cả khi họ thắng kiện."
+    },
+    {
+      "id": "s32",
+      "speaker": "Marcus",
+      "text": "Correct.",
+      "durationMs": 1608,
+      "translationVi": "Đúng vậy."
+    },
+    {
+      "id": "s33",
+      "speaker": "Marcus",
+      "text": "And frankly, when parties understand that the potential recovery is constrained by a contractual cap, it often makes them more amenable to settlement.",
+      "durationMs": 8952,
+      "translationVi": "Và thành thật mà nói, khi các bên hiểu rằng khoản bồi thường tiềm năng bị giới hạn bởi một điều khoản hợp đồng, điều đó thường khiến họ dễ đàm phán hơn."
+    },
+    {
+      "id": "s34",
+      "speaker": "Marcus",
+      "text": "I'd use that as leverage in the without-prejudice discussions.",
+      "durationMs": 4128,
+      "translationVi": "Tôi sẽ dùng điều đó như đòn bẩy trong các cuộc thảo luận không làm phương hại đến quyền."
+    },
+    {
+      "id": "s35",
+      "speaker": "Claire",
+      "text": "What's the realistic timeline if this does proceed to litigation?",
+      "durationMs": 4176,
+      "translationVi": "Thời gian thực tế là bao lâu nếu vụ việc này tiến hành kiện tụng?"
+    },
+    {
+      "id": "s36",
+      "speaker": "Claire",
+      "text": "We need to plan our cash flow and resource allocation accordingly.",
+      "durationMs": 4488,
+      "translationVi": "Chúng tôi cần lên kế hoạch dòng tiền và phân bổ nguồn lực cho phù hợp."
+    },
+    {
+      "id": "s37",
+      "speaker": "Marcus",
+      "text": "Commercial litigation in this jurisdiction typically runs eighteen to thirty months from filing to judgment at first instance.",
+      "durationMs": 7560,
+      "translationVi": "Kiện tụng thương mại ở quyền hạn này thường kéo dài từ mười tám đến ba mươi tháng từ khi nộp đơn đến khi có phán quyết sơ thẩm."
+    },
+    {
+      "id": "s38",
+      "speaker": "Marcus",
+      "text": "There's also the possibility of an interim injunction application if Apex seeks to suspend your licence pending resolution, which we'd need to address urgently.",
+      "durationMs": 9312,
+      "translationVi": "Cũng có khả năng Apex nộp đơn xin lệnh cấm tạm thời để đình chỉ giấy phép của anh trong khi chờ giải quyết, điều mà chúng ta cần xử lý khẩn cấp."
+    },
+    {
+      "id": "s39",
+      "speaker": "Claire",
+      "text": "An injunction would be catastrophic for our operations.",
+      "durationMs": 3912,
+      "translationVi": "Một lệnh cấm sẽ là thảm họa cho hoạt động của chúng tôi."
+    },
+    {
+      "id": "s40",
+      "speaker": "Claire",
+      "text": "Is there a way to preemptively protect against that?",
+      "durationMs": 3480,
+      "translationVi": "Có cách nào để phòng ngừa trước điều đó không?"
+    },
+    {
+      "id": "s41",
+      "speaker": "Marcus",
+      "text": "Yes — we can seek an undertaking from Apex that they won't apply for injunctive relief while settlement discussions are ongoing.",
+      "durationMs": 7896,
+      "translationVi": "Có — chúng ta có thể yêu cầu cam kết từ Apex rằng họ sẽ không xin lệnh cấm trong khi các cuộc thảo luận giải quyết đang diễn ra."
+    },
+    {
+      "id": "s42",
+      "speaker": "Marcus",
+      "text": "If they refuse, that itself becomes a strategic data point.",
+      "durationMs": 4584,
+      "translationVi": "Nếu họ từ chối, điều đó tự nó trở thành một điểm dữ liệu chiến lược."
+    },
+    {
+      "id": "s43",
+      "speaker": "Marcus",
+      "text": "Courts generally look unfavourably on parties who rush to seek injunctions when a commercially reasonable settlement avenue is available.",
+      "durationMs": 8016,
+      "translationVi": "Tòa án thường nhìn không thiện cảm đối với các bên vội vàng tìm kiếm lệnh cấm khi có một con đường giải quyết hợp lý về mặt thương mại."
+    },
+    {
+      "id": "s44",
+      "speaker": "Claire",
+      "text": "I'll instruct our operations team to document all ongoing performance under the contract meticulously.",
+      "durationMs": 6312,
+      "translationVi": "Tôi sẽ chỉ đạo nhóm vận hành của chúng tôi ghi lại tỉ mỉ tất cả các hoạt động thực hiện đang diễn ra theo hợp đồng."
+    },
+    {
+      "id": "s45",
+      "speaker": "Claire",
+      "text": "If we're maintaining our obligations in good faith, that should strengthen our position.",
+      "durationMs": 5256,
+      "translationVi": "Nếu chúng tôi đang duy trì nghĩa vụ của mình với thiện chí, điều đó sẽ củng cố vị thế của chúng tôi."
+    },
+    {
+      "id": "s46",
+      "speaker": "Marcus",
+      "text": "Absolutely — contemporaneous documentation is invaluable in contract disputes.",
+      "durationMs": 6072,
+      "translationVi": "Hoàn toàn đúng — tài liệu ghi chép cùng thời điểm là vô giá trong các tranh chấp hợp đồng."
+    },
+    {
+      "id": "s47",
+      "speaker": "Marcus",
+      "text": "Keep records of every deliverable, every communication, and every decision log.",
+      "durationMs": 5568,
+      "translationVi": "Lưu giữ hồ sơ của mỗi sản phẩm bàn giao, mỗi thông tin liên lạc và mỗi nhật ký quyết định."
+    },
+    {
+      "id": "s48",
+      "speaker": "Marcus",
+      "text": "If this reaches litigation, that paper trail will be foundational to our defence.",
+      "durationMs": 5640,
+      "translationVi": "Nếu vụ việc đến tòa, dấu vết văn bản đó sẽ là nền tảng cho lập luận bào chữa của chúng ta."
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "Our position is that …"
+    },
+    {
+      "id": "h2",
+      "text": "I'd like to understand the implications of …"
+    },
+    {
+      "id": "h3",
+      "text": "What would you recommend in terms of …"
+    },
+    {
+      "id": "h4",
+      "text": "Could you clarify how … affects our legal standing?"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "material breach",
+      "meaningVi": "vi phạm hợp đồng nghiêm trọng",
+      "pronunciation": "/məˈtɪəriəl briːtʃ/"
+    },
+    {
+      "id": "v2",
+      "phrase": "anticipatory breach",
+      "meaningVi": "vi phạm hợp đồng trước hạn",
+      "pronunciation": "/ænˈtɪsɪpətɔːri briːtʃ/"
+    },
+    {
+      "id": "v3",
+      "phrase": "without prejudice",
+      "meaningVi": "không làm phương hại (thuật ngữ pháp lý bảo vệ thương lượng)",
+      "pronunciation": "/wɪˈðaʊt ˈprɛdʒʊdɪs/"
+    },
+    {
+      "id": "v4",
+      "phrase": "limitation of liability",
+      "meaningVi": "giới hạn trách nhiệm pháp lý",
+      "pronunciation": "/ˌlɪmɪˈteɪʃən əv ˌlaɪəˈbɪlɪti/"
+    },
+    {
+      "id": "v5",
+      "phrase": "consequential damages",
+      "meaningVi": "thiệt hại gián tiếp/hệ quả",
+      "pronunciation": "/ˌkɒnsɪˈkwɛnʃəl ˈdæmɪdʒɪz/"
+    },
+    {
+      "id": "v6",
+      "phrase": "injunctive relief",
+      "meaningVi": "lệnh cấm/biện pháp khẩn cấp tạm thời từ tòa",
+      "pronunciation": "/ɪnˈdʒʌŋktɪv rɪˈliːf/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "cure-period clause",
+      "meaningVi": "điều khoản thời hạn khắc phục vi phạm",
+      "pronunciation": "/kjʊər ˈpɪəriəd klɔːz/"
+    },
+    {
+      "phrase": "construe strictly",
+      "meaningVi": "giải thích theo nghĩa hẹp/chặt chẽ",
+      "pronunciation": "/kənˈstruː ˈstrɪktli/"
+    },
+    {
+      "phrase": "excuse of performance",
+      "meaningVi": "biện hộ miễn trách nhiệm thực hiện hợp đồng",
+      "pronunciation": "/ɪkˈskjuːs əv pəˈfɔːrməns/"
+    },
+    {
+      "phrase": "contemporaneous documentation",
+      "meaningVi": "tài liệu ghi chép cùng thời điểm xảy ra sự kiện",
+      "pronunciation": "/kənˌtɛmpəˈreɪniəs ˌdɒkjʊmɛnˈteɪʃən/"
+    },
+    {
+      "phrase": "paper trail",
+      "meaningVi": "dấu vết bằng văn bản/tài liệu chứng minh",
+      "pronunciation": "/ˈpeɪpər treɪl/"
+    },
+    {
+      "phrase": "material breach",
+      "meaningVi": "vi phạm hợp đồng nghiêm trọng (pháp lý)",
+      "pronunciation": "/məˈtɪəriəl briːtʃ/"
+    },
+    {
+      "phrase": "anticipatory breach",
+      "meaningVi": "vi phạm hợp đồng trước thời hạn (pháp lý)",
+      "pronunciation": "/ænˈtɪsɪpətɔːri briːtʃ/"
+    },
+    {
+      "phrase": "notice provisions",
+      "meaningVi": "điều khoản thông báo (pháp lý)",
+      "pronunciation": "/ˈnoʊtɪs prəˈvɪʒənz/"
+    },
+    {
+      "phrase": "without-prejudice settlement discussions",
+      "meaningVi": "đàm phán hòa giải không tiền lệ (không được dùng làm bằng chứng)",
+      "pronunciation": "/wɪˈðaʊt ˈprɛdʒʊdɪs ˈsɛtlmənt dɪˈskʌʃənz/"
+    },
+    {
+      "phrase": "admissions of liability",
+      "meaningVi": "thừa nhận trách nhiệm pháp lý",
+      "pronunciation": "/ədˈmɪʃənz əv ˌlaɪəˈbɪlɪti/"
+    },
+    {
+      "phrase": "consequential losses",
+      "meaningVi": "tổn thất gián tiếp/hậu quả (pháp lý)",
+      "pronunciation": "/ˌkɒnsɪˈkwɛnʃəl ˈlɒsɪz/"
+    },
+    {
+      "phrase": "limitation of liability clause",
+      "meaningVi": "điều khoản giới hạn trách nhiệm pháp lý",
+      "pronunciation": "/ˌlɪmɪˈteɪʃən əv ˌlaɪəˈbɪlɪti klɔːz/"
+    },
+    {
+      "phrase": "amenable to settlement",
+      "meaningVi": "sẵn sàng chấp nhận hòa giải (trang trọng pháp lý)",
+      "pronunciation": "/əˈmiːnəbl tuː ˈsɛtlmənt/"
+    },
+    {
+      "phrase": "injunctive relief",
+      "meaningVi": "lệnh cấm/ngăn chặn của tòa án (pháp lý)",
+      "pronunciation": "/ɪnˈdʒʌŋktɪv rɪˈliːf/"
+    },
+    {
+      "phrase": "good faith",
+      "meaningVi": "thiện chí (nguyên tắc pháp lý và kinh doanh)",
+      "pronunciation": "/ɡʊd feɪθ/"
+    },
+    {
+      "phrase": "procedural gap",
+      "meaningVi": "lỗ hổng về thủ tục (pháp lý)",
+      "pronunciation": "/prəˈsiːdʒərəl ɡæp/"
+    },
+    {
+      "phrase": "two-track approach",
+      "meaningVi": "cách tiếp cận song song (pháp lý/kinh doanh)",
+      "pronunciation": "/tuː træk əˈproʊtʃ/"
+    },
+    {
+      "phrase": "commercial litigation",
+      "meaningVi": "kiện tụng thương mại (pháp lý)",
+      "pronunciation": "/kəˈmɜːrʃəl ˌlɪtɪˈɡeɪʃən/"
+    },
+    {
+      "phrase": "reputational exposure",
+      "meaningVi": "rủi ro về uy tín",
+      "pronunciation": "/ˌrɛpjuˈteɪʃənl ɪkˈspoʊʒər/"
+    },
+    {
+      "phrase": "causal link",
+      "meaningVi": "mối liên hệ nhân quả (pháp lý)",
+      "pronunciation": "/ˈkɔːzəl lɪŋk/"
+    },
+    {
+      "phrase": "preserve all your legal rights",
+      "meaningVi": "bảo lưu toàn bộ quyền lợi pháp lý",
+      "pronunciation": "/prɪˈzɜːrv ɔːl jɔːr ˈliːɡəl raɪts/"
+    },
+    {
+      "phrase": "foreseeability at the time of contracting",
+      "meaningVi": "khả năng dự đoán tại thời điểm ký hợp đồng (tiêu chí pháp lý)",
+      "pronunciation": "/fɔːrˌsiːəˈbɪlɪti æt ðə taɪm əv ˈkɒntræktɪŋ/"
+    },
+    {
+      "phrase": "scope adjustment",
+      "meaningVi": "điều chỉnh phạm vi (hợp đồng)",
+      "pronunciation": "/skoʊp əˈdʒʌstmənt/"
+    },
+    {
+      "phrase": "interim injunction application",
+      "meaningVi": "đơn xin lệnh tạm thời của tòa (pháp lý khẩn)",
+      "pronunciation": "/ˈɪntərɪm ɪnˈdʒʌŋkʃən ˌæplɪˈkeɪʃən/"
+    },
+    {
+      "phrase": "resource allocation",
+      "meaningVi": "phân bổ nguồn lực",
+      "pronunciation": "/rɪˈsɔːrs ˌæləˈkeɪʃən/"
+    },
+    {
+      "phrase": "commercially reasonable",
+      "meaningVi": "hợp lý về mặt thương mại (tiêu chuẩn pháp lý)",
+      "pronunciation": "/kəˈmɜːrʃəli ˈriːzənəbl/"
+    },
+    {
+      "phrase": "strategic data point",
+      "meaningVi": "dữ kiện chiến lược (trong đàm phán)",
+      "pronunciation": "/strəˈtiːdʒɪk ˈdeɪtə pɔɪnt/"
+    },
+    {
+      "phrase": "foundational to our defence",
+      "meaningVi": "nền tảng cho lập luận bào chữa của chúng ta",
+      "pronunciation": "/faʊnˈdeɪʃənl tuː aʊər dɪˈfɛns/"
+    },
+    {
+      "phrase": "construe notice provisions strictly",
+      "meaningVi": "giải thích chặt chẽ các điều khoản thông báo",
+      "pronunciation": "/kənˈstruː ˈnoʊtɪs prəˈvɪʒənz ˈstrɪktli/"
+    },
+    {
+      "phrase": "underlying contract",
+      "meaningVi": "hợp đồng cơ bản/nền tảng",
+      "pronunciation": "/ˌʌndərˈlaɪɪŋ ˈkɒntrækt/"
+    },
+    {
+      "phrase": "strategic data point in negotiation",
+      "meaningVi": "điểm dữ liệu chiến lược trong đàm phán",
+      "pronunciation": "/strəˈtiːdʒɪk ˈdeɪtə pɔɪnt ɪn nɪˌɡoʊʃiˈeɪʃən/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Conditional inversion for formal register",
+      "bodyVi": "Trong tiếng Anh trang trọng, đặc biệt trong bối cảnh pháp lý, câu điều kiện loại 2 thường được đảo ngữ: 'Were the notification sent...' thay vì 'If the notification were sent...'. Điều này tạo hiệu ứng trang trọng và chuyên nghiệp.",
+      "bodyEn": "In formal (especially legal) English, conditional clauses can be inverted: 'Were they to seek an injunction...' instead of 'If they were to seek an injunction...'. This inversion is a marker of high register and is common in written legal argument."
+    },
+    {
+      "title": "Nominalization in professional discourse",
+      "bodyVi": "Chuyển động từ thành danh từ (nominalization) là đặc trưng của văn phong pháp lý và kinh doanh. Ví dụ: 'perform' → 'performance', 'limit' → 'limitation'. Điều này tạo ra văn phong chính thức, khách quan hơn.",
+      "bodyEn": "Nominalization (turning verbs into nouns) is a hallmark of legal and professional English: 'limit' → 'limitation of liability', 'breach' → 'material breach'. It makes statements more formal and abstract, which is appropriate in legal consultation."
+    },
+    {
+      "title": "Hedged recommendations with 'I'd recommend'",
+      "bodyVi": "Luật sư và chuyên gia tư vấn thường dùng 'I'd recommend', 'I'd suggest', 'You may want to consider' thay vì mệnh lệnh trực tiếp. Đây là cách đưa ra lời khuyên chuyên nghiệp mà vẫn để khách hàng tự quyết định.",
+      "bodyEn": "Professionals use hedged recommendations ('I'd recommend a two-track approach', 'You may want to consider...') rather than direct imperatives. This respects the client's autonomy while clearly conveying expert guidance — a key feature of C1 professional discourse."
+    }
+  ],
+  "translationVi": "Claire: Cảm ơn anh đã gặp tôi với thời gian ngắn như vậy, Marcus. Tôi vừa nhận được một lá thư chính thức từ Apex Solutions tuyên bố rằng công ty chúng tôi đã vi phạm nghiêm trọng thỏa thuận cấp phép phần mềm mà chúng tôi đã ký năm ngoái.\nMarcus: Tôi đã có cơ hội xem xét lá thư và hợp đồng cơ bản. Trước khi chúng ta thảo luận về chiến lược, tôi muốn làm rõ một điểm quan trọng: bạn có tin rằng công ty của bạn đã thực hiện đầy đủ nghĩa vụ theo Điều 4, điều khoản về mốc tích hợp không?\nClaire: Chúng tôi đã giao mô-đun tích hợp chậm sáu tuần do thay đổi API từ phía họ, điều mà chúng tôi đã ghi lại đầy đủ. Lập trường của chúng tôi là các sửa đổi API đơn phương của họ cấu thành một vi phạm trước đó miễn trách nhiệm cho sự chậm trễ thực hiện của chúng tôi.\nMarcus: Đó là một lập luận khả thi, và nó phù hợp với học thuyết vi phạm hợp đồng trước hạn. Tuy nhiên, hợp đồng có một điều khoản thời hạn khắc phục — Điều 7.2 — yêu cầu bạn thông báo bằng văn bản trong vòng mười bốn ngày kể từ khi gặp trở ngại. Nhóm của bạn có gửi thông báo đó không?\nClaire: Chúng tôi đã gửi email vào lúc đó, nhưng tôi không chắc nó được gửi đến đại diện hợp đồng được chỉ định như quy định trong các điều khoản thông báo. Đó có thể là một lỗ hổng thủ tục.\nMarcus: Đó là một điểm yếu tiềm năng đáng kể. Tòa án có xu hướng diễn giải các điều khoản thông báo một cách chặt chẽ, đặc biệt trong các hợp đồng thương mại. Nếu thông báo không được gửi đến đúng bên, Apex có thể lập luận rằng nó không có hiệu lực, điều này sẽ làm suy yếu biện hộ miễn trách nhiệm thực hiện của bạn.\nClaire: Các lựa chọn thực tế của chúng tôi ở giai đoạn này là gì? Tôi muốn tránh kiện tụng đầy đủ nếu có thể — chi phí và rủi ro danh tiếng không đáng cho một hợp đồng có giá trị này.\nMarcus: Tôi khuyến nghị cách tiếp cận hai hướng. Trong ngắn hạn, chúng ta soạn một lá thư phản hồi chính thức bảo lưu tất cả các quyền pháp lý của bạn mà không leo thang tranh chấp. Đồng thời, chúng ta khởi động các cuộc thảo luận giải quyết không ảnh hưởng đến quyền để khám phá xem liệu một lịch thanh toán sửa đổi hay điều chỉnh phạm vi có thể giải quyết vấn đề này về mặt thương mại không.\nClaire: 'Không ảnh hưởng đến quyền' có nghĩa là gì trên thực tế? Tôi muốn đảm bảo rằng bất cứ điều gì chúng tôi đề xuất trong quá trình giải quyết không thể bị sử dụng chống lại chúng tôi nếu đàm phán thất bại.\nMarcus: Chính xác — các thông tin liên lạc được đánh dấu 'không ảnh hưởng đến quyền' thường không được chấp nhận làm bằng chứng trong các thủ tục pháp lý tiếp theo. Nó tạo ra một không gian được bảo vệ cho việc đàm phán thẳng thắn. Điều quan trọng là đảm bảo tất cả thư từ giải quyết được dán nhãn rõ ràng và bạn không thừa nhận bất kỳ trách nhiệm nào trong kênh liên lạc chính.\nClaire: Điều đó có lý. Apex có thể đang tìm kiếm những thiệt hại gì, và khiếu nại đó đáng tin cậy đến mức nào?\nMarcus: Lá thư của họ đề cập đến thiệt hại hệ quả — cụ thể là doanh thu bị mất do ra mắt sản phẩm bị chậm trễ. Thiệt hại hệ quả thường khó xác lập hơn vì chúng đòi hỏi tính có thể dự liệu tại thời điểm ký hợp đồng và mối liên hệ nhân quả đủ trực tiếp. Điều khoản giới hạn trách nhiệm trong Điều 12 cũng có thể giới hạn khoản bồi thường của họ ở mức giá trị phí cấp phép hàng năm.\nClaire: Điều đó thật đáng mừng. Phí hàng năm khá khiêm tốn, vì vậy nếu giới hạn đó được duy trì, khoản bồi thường thực tế của họ sẽ bị hạn chế ngay cả khi họ thắng kiện.\nMarcus: Đúng vậy. Và thành thật mà nói, khi các bên hiểu rằng khoản bồi thường tiềm năng bị giới hạn bởi một điều khoản hợp đồng, điều đó thường khiến họ dễ đàm phán hơn. Tôi sẽ sử dụng điều đó như đòn bẩy trong các cuộc thảo luận không ảnh hưởng đến quyền.\nClaire: Thời gian thực tế là bao lâu nếu điều này tiến hành kiện tụng? Chúng tôi cần lên kế hoạch dòng tiền và phân bổ nguồn lực cho phù hợp.\nMarcus: Kiện tụng thương mại ở khu vực pháp lý này thường kéo dài từ mười tám đến ba mươi tháng từ khi nộp đơn đến khi có phán quyết sơ thẩm. Cũng có khả năng Apex nộp đơn xin lệnh cấm tạm thời để đình chỉ giấy phép của bạn trong khi chờ giải quyết, điều mà chúng ta cần giải quyết khẩn cấp.\nClaire: Một lệnh cấm sẽ là thảm họa cho hoạt động của chúng tôi. Có cách nào để phòng ngừa trước điều đó không?\nMarcus: Có — chúng ta có thể yêu cầu cam kết từ Apex rằng họ sẽ không xin lệnh cấm trong khi các cuộc thảo luận giải quyết đang diễn ra. Nếu họ từ chối, điều đó tự nó trở thành một điểm dữ liệu chiến lược. Tòa án thường nhìn không thiện cảm đối với các bên vội vàng tìm kiếm lệnh cấm khi có một con đường giải quyết hợp lý về mặt thương mại.\nClaire: Tôi sẽ chỉ đạo nhóm vận hành của chúng tôi ghi lại tỉ mỉ tất cả các hiệu suất đang diễn ra theo hợp đồng. Nếu chúng tôi đang duy trì nghĩa vụ của mình với thiện chí, điều đó sẽ củng cố vị thế của chúng tôi.\nMarcus: Hoàn toàn đúng — tài liệu ghi chép cùng thời điểm là vô giá trong các tranh chấp hợp đồng. Giữ hồ sơ của mỗi sản phẩm bàn giao, mỗi thông tin liên lạc và mỗi nhật ký quyết định. Nếu điều này đến tòa án, dấu vết văn bản đó sẽ là nền tảng cho sự bào chữa của chúng ta.",
+  "criticalThinkingQuestion": "When a commercial contract dispute arises, what factors should a company weigh when deciding between litigation and out-of-court settlement?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-c1-002",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 293280
+}

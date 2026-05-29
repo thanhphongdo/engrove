@@ -1,0 +1,746 @@
+{
+  "id": "speaking-c1-007",
+  "level": "C1",
+  "title": "Complex Medical Consultation",
+  "summary": "A patient consults a neurologist about a complex diagnosis involving an unusual cluster of symptoms, and they navigate uncertainty, treatment options, and the emotional dimensions of serious illness together.",
+  "topic": "Medical Consultation",
+  "tags": [
+    "Medicine",
+    "Healthcare",
+    "Professional",
+    "Communication"
+  ],
+  "characters": [
+    "Dr. Harmon",
+    "Patient"
+  ],
+  "voices": {
+    "Dr. Harmon": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-JennyNeural"
+    },
+    "Patient": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-ChristopherNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Dr. Harmon",
+      "text": "I've now had a chance to review all the imaging, the nerve conduction studies, the lumbar puncture results, and the extensive blood panel we ran. I want to talk you through the picture as I understand it, and I want to give you space to ask anything that comes to mind."
+    },
+    {
+      "speaker": "Patient",
+      "text": "I appreciate that. I'll be honest — I've been doing a lot of reading online, which has probably made me more anxious rather than less. I'd rather hear it directly from you, even if it's complicated."
+    },
+    {
+      "speaker": "Dr. Harmon",
+      "text": "That's completely understandable, and it speaks well of you that you want to engage with the information directly. Let me start with what the evidence does and doesn't tell us. The pattern of your symptoms — the progressive sensory disturbance, the episodic visual changes, the fatigue profile — is consistent with a demyelinating process."
+    },
+    {
+      "speaker": "Patient",
+      "text": "Demyelinating — I've come across that term. Does that mean multiple sclerosis?"
+    },
+    {
+      "speaker": "Dr. Harmon",
+      "text": "It's one of the conditions we're seriously considering, yes. The MRI shows two lesions in the white matter of your brain that have the characteristic distribution associated with early MS. However, I want to be careful not to give you a diagnosis I'm not yet fully confident in, because the picture also has some features that don't fit the typical MS presentation."
+    },
+    {
+      "speaker": "Patient",
+      "text": "What features don't fit? That's actually somewhat reassuring to hear, though I'm not sure it should be."
+    },
+    {
+      "speaker": "Dr. Harmon",
+      "text": "Your CSF analysis — the spinal fluid — showed an unusual inflammatory marker profile that we don't typically see in classic relapsing-remitting MS. It raises the possibility of an autoimmune encephalitis or a related condition, some of which are actually more treatable than MS, though they're rarer."
+    },
+    {
+      "speaker": "Patient",
+      "text": "So we might be looking at something that's better or worse than MS, and you don't know yet. That's a difficult place to be."
+    },
+    {
+      "speaker": "Dr. Harmon",
+      "text": "Yes, and I want to be honest about that uncertainty rather than offering you false reassurance. What I can tell you is that the uncertainty doesn't change our immediate management plan — we're already treating your symptoms, and the diagnostic workup we're doing now is designed to narrow the differential as efficiently as possible."
+    },
+    {
+      "speaker": "Patient",
+      "text": "What does the workup involve from here? I'm trying to understand what the next few months look like."
+    },
+    {
+      "speaker": "Dr. Harmon",
+      "text": "We need to run an additional autoimmune antibody panel — specifically looking for markers associated with neuromyelitis optica spectrum disorder and the anti-NMDA receptor encephalitis family. We'll also do a repeat MRI in three months to assess whether the lesions have evolved. And I want to refer you to a colleague who specialises in autoimmune neurology for a second opinion."
+    },
+    {
+      "speaker": "Patient",
+      "text": "I'm glad you mentioned a second opinion — I was going to ask about that. Does that mean you have doubts, or is this standard practice?"
+    },
+    {
+      "speaker": "Dr. Harmon",
+      "text": "It's both, and there's no shame in either. In cases with diagnostic ambiguity at this level of complexity, a second specialist perspective is genuinely good medicine — it can surface things I might have weighted differently, and it gives you additional confidence in whatever conclusion we reach. I actively encourage it."
+    },
+    {
+      "speaker": "Patient",
+      "text": "What about treatment in the meantime? I've been struggling to work, my concentration is significantly impaired, and the fatigue is really affecting my quality of life."
+    },
+    {
+      "speaker": "Dr. Harmon",
+      "text": "I hear you, and that functional impact is not acceptable to leave unaddressed. Regardless of the underlying diagnosis, we can initiate a short course of intravenous corticosteroids to address the acute inflammatory component, which should produce measurable symptom improvement within two to three weeks. We can also start fatigue management strategies — structured rest protocols, pacing techniques — that are effective across a range of these conditions."
+    },
+    {
+      "speaker": "Patient",
+      "text": "What are the risks of the steroids? I want to understand the trade-offs before we go ahead."
+    },
+    {
+      "speaker": "Dr. Harmon",
+      "text": "The main short-term risks are mood disturbance — some patients experience significant anxiety or irritability — sleep disruption, and transient blood sugar elevation, which is particularly relevant if there's any background risk for diabetes. The course would be three to five days of high-dose IV methylprednisolone, which is a well-established protocol with a manageable risk profile for most patients."
+    },
+    {
+      "speaker": "Patient",
+      "text": "I think I want to proceed. What I find hardest to sit with is the uncertainty — not knowing what I actually have. Is there a realistic timeline for getting to a definitive diagnosis?"
+    },
+    {
+      "speaker": "Dr. Harmon",
+      "text": "Honestly, and I want to manage your expectations carefully here, the antibody panel takes around two weeks to return, and some conditions in this spectrum can take three to six months of clinical observation to confirm or exclude with confidence. I know that's a difficult horizon."
+    },
+    {
+      "speaker": "Patient",
+      "text": "It is. I've been trying not to project too far ahead, but I have a young family, and it's hard not to think about what this might mean long-term."
+    },
+    {
+      "speaker": "Dr. Harmon",
+      "text": "Those concerns are entirely legitimate, and they deserve to be addressed honestly rather than deflected. What I can say is that even in the most concerning diagnostic scenario — which would be a progressive form of MS — the treatment landscape has changed dramatically in the past decade. The disease-modifying therapies available today produce outcomes that were unimaginable even fifteen years ago."
+    },
+    {
+      "speaker": "Patient",
+      "text": "That does help, actually. I think what I needed to hear is that there's an active treatment pathway regardless of what the diagnosis turns out to be."
+    },
+    {
+      "speaker": "Dr. Harmon",
+      "text": "There absolutely is. And I want you to know that navigating this uncertainty is something we're doing together — this isn't a case I'm simply monitoring from a distance. I'll be in contact personally when any new results come in, and you should feel empowered to contact us between appointments if anything changes or you have questions that are keeping you awake at night."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Dr. Harmon",
+      "text": "I've now had a chance to review all the imaging, the nerve conduction studies, the lumbar puncture results, and the extensive blood panel we ran.",
+      "durationMs": 8904,
+      "translationVi": "Tôi đã có cơ hội xem xét tất cả hình ảnh chụp, các nghiên cứu dẫn truyền thần kinh, kết quả chọc dò thắt lưng và bảng xét nghiệm máu mở rộng mà chúng tôi đã thực hiện."
+    },
+    {
+      "id": "s2",
+      "speaker": "Dr. Harmon",
+      "text": "I want to talk you through the picture as I understand it, and I want to give you space to ask anything that comes to mind.",
+      "durationMs": 6744,
+      "translationVi": "Tôi muốn trình bày với anh bức tranh như tôi hiểu nó, và tôi muốn tạo không gian để anh hỏi bất cứ điều gì xuất hiện trong đầu."
+    },
+    {
+      "id": "s3",
+      "speaker": "Patient",
+      "text": "I appreciate that.",
+      "durationMs": 2184,
+      "translationVi": "Tôi đánh giá cao điều đó."
+    },
+    {
+      "id": "s4",
+      "speaker": "Patient",
+      "text": "I'll be honest — I've been doing a lot of reading online, which has probably made me more anxious rather than less.",
+      "durationMs": 6984,
+      "translationVi": "Thành thật mà nói — tôi đã đọc rất nhiều trực tuyến, điều đó có lẽ đã khiến tôi lo lắng hơn chứ không phải ít hơn."
+    },
+    {
+      "id": "s5",
+      "speaker": "Patient",
+      "text": "I'd rather hear it directly from you, even if it's complicated.",
+      "durationMs": 4200,
+      "translationVi": "Tôi muốn nghe trực tiếp từ bác sĩ, ngay cả khi nó phức tạp."
+    },
+    {
+      "id": "s6",
+      "speaker": "Dr. Harmon",
+      "text": "That's completely understandable, and it speaks well of you that you want to engage with the information directly.",
+      "durationMs": 6360,
+      "translationVi": "Điều đó hoàn toàn có thể hiểu được, và điều đó nói lên tốt về anh rằng anh muốn tham gia trực tiếp với thông tin."
+    },
+    {
+      "id": "s7",
+      "speaker": "Dr. Harmon",
+      "text": "Let me start with what the evidence does and doesn't tell us.",
+      "durationMs": 3912,
+      "translationVi": "Hãy để tôi bắt đầu với những gì bằng chứng cho chúng ta biết và không cho biết."
+    },
+    {
+      "id": "s8",
+      "speaker": "Dr. Harmon",
+      "text": "The pattern of your symptoms — the progressive sensory disturbance, the episodic visual changes, the fatigue profile — is consistent with a demyelinating process.",
+      "durationMs": 10296,
+      "translationVi": "Mô hình các triệu chứng của anh — rối loạn cảm giác tiến triển, thay đổi thị giác theo từng đợt, hồ sơ mệt mỏi — phù hợp với một quá trình mất myelin."
+    },
+    {
+      "id": "s9",
+      "speaker": "Patient",
+      "text": "Demyelinating — I've come across that term.",
+      "durationMs": 3504,
+      "translationVi": "Mất myelin — tôi đã gặp thuật ngữ đó."
+    },
+    {
+      "id": "s10",
+      "speaker": "Patient",
+      "text": "Does that mean multiple sclerosis?",
+      "durationMs": 2880,
+      "translationVi": "Điều đó có nghĩa là xơ cứng rải rác không?"
+    },
+    {
+      "id": "s11",
+      "speaker": "Dr. Harmon",
+      "text": "It's one of the conditions we're seriously considering, yes.",
+      "durationMs": 4248,
+      "translationVi": "Đó là một trong những tình trạng chúng tôi đang xem xét nghiêm túc, đúng vậy."
+    },
+    {
+      "id": "s12",
+      "speaker": "Dr. Harmon",
+      "text": "The MRI shows two lesions in the white matter of your brain that have the characteristic distribution associated with early MS.",
+      "durationMs": 7536,
+      "translationVi": "Chụp MRI cho thấy hai tổn thương ở chất trắng của não anh có phân bố đặc trưng liên quan đến xơ cứng rải rác giai đoạn đầu."
+    },
+    {
+      "id": "s13",
+      "speaker": "Dr. Harmon",
+      "text": "However, I want to be careful not to give you a diagnosis I'm not yet fully confident in, because the picture also has some features that don't fit the typical MS presentation.",
+      "durationMs": 10344,
+      "translationVi": "Tuy nhiên, tôi muốn cẩn thận không đưa ra chẩn đoán mà tôi chưa hoàn toàn tự tin, vì bức tranh cũng có một số đặc điểm không phù hợp với hình ảnh xơ cứng rải rác điển hình."
+    },
+    {
+      "id": "s14",
+      "speaker": "Patient",
+      "text": "What features don't fit?",
+      "durationMs": 2280,
+      "translationVi": "Những đặc điểm nào không phù hợp?"
+    },
+    {
+      "id": "s15",
+      "speaker": "Patient",
+      "text": "That's actually somewhat reassuring to hear, though I'm not sure it should be.",
+      "durationMs": 4824,
+      "translationVi": "Nghe điều đó thực sự có phần yên tâm, mặc dù tôi không chắc nó có nên như vậy không."
+    },
+    {
+      "id": "s16",
+      "speaker": "Dr. Harmon",
+      "text": "Your CSF analysis — the spinal fluid — showed an unusual inflammatory marker profile that we don't typically see in classic relapsing-remitting MS.",
+      "durationMs": 9624,
+      "translationVi": "Phân tích CSF của anh — dịch não tủy — cho thấy hồ sơ dấu hiệu viêm bất thường mà chúng tôi thường không thấy trong xơ cứng rải rác tái phát-thuyên giảm cổ điển."
+    },
+    {
+      "id": "s17",
+      "speaker": "Dr. Harmon",
+      "text": "It raises the possibility of an autoimmune encephalitis or a related condition, some of which are actually more treatable than MS, though they're rarer.",
+      "durationMs": 9264,
+      "translationVi": "Nó làm tăng khả năng viêm não tự miễn hoặc một tình trạng liên quan, một số trong đó thực ra có thể điều trị được hơn xơ cứng rải rác, mặc dù chúng ít phổ biến hơn."
+    },
+    {
+      "id": "s18",
+      "speaker": "Patient",
+      "text": "So we might be looking at something that's better or worse than MS, and you don't know yet.",
+      "durationMs": 5400,
+      "translationVi": "Vậy chúng ta có thể đang xem xét điều gì đó tốt hơn hoặc tệ hơn xơ cứng rải rác, và bác sĩ chưa biết."
+    },
+    {
+      "id": "s19",
+      "speaker": "Patient",
+      "text": "That's a difficult place to be.",
+      "durationMs": 2544,
+      "translationVi": "Đó là một nơi khó ở."
+    },
+    {
+      "id": "s20",
+      "speaker": "Dr. Harmon",
+      "text": "Yes, and I want to be honest about that uncertainty rather than offering you false reassurance.",
+      "durationMs": 6024,
+      "translationVi": "Đúng vậy, và tôi muốn trung thực về sự không chắc chắn đó thay vì cung cấp cho anh sự an ủi giả tạo."
+    },
+    {
+      "id": "s21",
+      "speaker": "Dr. Harmon",
+      "text": "What I can tell you is that the uncertainty doesn't change our immediate management plan — we're already treating your symptoms, and the diagnostic workup we're doing now is designed to narrow the differential as efficiently as possible.",
+      "durationMs": 12744,
+      "translationVi": "Điều tôi có thể nói là sự không chắc chắn đó không thay đổi kế hoạch quản lý ngay lập tức của chúng tôi — chúng tôi đã điều trị các triệu chứng của anh, và công việc chẩn đoán chúng tôi đang làm bây giờ được thiết kế để thu hẹp chẩn đoán phân biệt hiệu quả nhất có thể."
+    },
+    {
+      "id": "s22",
+      "speaker": "Patient",
+      "text": "What does the workup involve from here?",
+      "durationMs": 2784,
+      "translationVi": "Công việc tiếp theo liên quan đến những gì?"
+    },
+    {
+      "id": "s23",
+      "speaker": "Patient",
+      "text": "I'm trying to understand what the next few months look like.",
+      "durationMs": 3768,
+      "translationVi": "Tôi đang cố gắng hiểu những tháng tới sẽ trông như thế nào."
+    },
+    {
+      "id": "s24",
+      "speaker": "Dr. Harmon",
+      "text": "We need to run an additional autoimmune antibody panel — specifically looking for markers associated with neuromyelitis optica spectrum disorder and the anti-NMDA receptor encephalitis family.",
+      "durationMs": 11880,
+      "translationVi": "Chúng tôi cần chạy thêm bảng kháng thể tự miễn — cụ thể là tìm kiếm các dấu hiệu liên quan đến rối loạn quang phổ viêm tủy thị thần kinh và họ viêm não thụ thể kháng NMDA."
+    },
+    {
+      "id": "s25",
+      "speaker": "Dr. Harmon",
+      "text": "We'll also do a repeat MRI in three months to assess whether the lesions have evolved.",
+      "durationMs": 5376,
+      "translationVi": "Chúng tôi cũng sẽ thực hiện MRI lặp lại sau ba tháng để đánh giá xem các tổn thương có tiến triển không."
+    },
+    {
+      "id": "s26",
+      "speaker": "Dr. Harmon",
+      "text": "And I want to refer you to a colleague who specialises in autoimmune neurology for a second opinion.",
+      "durationMs": 6096,
+      "translationVi": "Và tôi muốn giới thiệu anh đến một đồng nghiệp chuyên về thần kinh học tự miễn để có ý kiến thứ hai."
+    },
+    {
+      "id": "s27",
+      "speaker": "Patient",
+      "text": "I'm glad you mentioned a second opinion — I was going to ask about that.",
+      "durationMs": 4680,
+      "translationVi": "Tôi vui mừng khi bác sĩ đề cập đến ý kiến thứ hai — tôi cũng đã định hỏi về điều đó."
+    },
+    {
+      "id": "s28",
+      "speaker": "Patient",
+      "text": "Does that mean you have doubts, or is this standard practice?",
+      "durationMs": 4128,
+      "translationVi": "Điều đó có nghĩa là bác sĩ có nghi ngờ, hay đây là thực hành tiêu chuẩn?"
+    },
+    {
+      "id": "s29",
+      "speaker": "Dr. Harmon",
+      "text": "It's both, and there's no shame in either.",
+      "durationMs": 3144,
+      "translationVi": "Đó là cả hai, và không có gì phải xấu hổ trong cả hai trường hợp."
+    },
+    {
+      "id": "s30",
+      "speaker": "Dr. Harmon",
+      "text": "In cases with diagnostic ambiguity at this level of complexity, a second specialist perspective is genuinely good medicine — it can surface things I might have weighted differently, and it gives you additional confidence in whatever conclusion we reach.",
+      "durationMs": 14520,
+      "translationVi": "Trong các trường hợp có sự mơ hồ chẩn đoán ở mức độ phức tạp này, quan điểm chuyên gia thứ hai là y học thực sự tốt — nó có thể đưa ra những điều tôi có thể đã cân nhắc khác đi, và nó cung cấp cho anh thêm sự tự tin trong bất kỳ kết luận nào chúng ta đạt được."
+    },
+    {
+      "id": "s31",
+      "speaker": "Dr. Harmon",
+      "text": "I actively encourage it.",
+      "durationMs": 2448,
+      "translationVi": "Tôi tích cực khuyến khích điều đó."
+    },
+    {
+      "id": "s32",
+      "speaker": "Patient",
+      "text": "What about treatment in the meantime?",
+      "durationMs": 2616,
+      "translationVi": "Còn việc điều trị trong thời gian chờ đợi thì sao?"
+    },
+    {
+      "id": "s33",
+      "speaker": "Patient",
+      "text": "I've been struggling to work, my concentration is significantly impaired, and the fatigue is really affecting my quality of life.",
+      "durationMs": 7896,
+      "translationVi": "Tôi đã gặp khó khăn trong việc làm việc, khả năng tập trung của tôi bị suy giảm đáng kể, và sự mệt mỏi thực sự ảnh hưởng đến chất lượng cuộc sống của tôi."
+    },
+    {
+      "id": "s34",
+      "speaker": "Dr. Harmon",
+      "text": "I hear you, and that functional impact is not acceptable to leave unaddressed.",
+      "durationMs": 5208,
+      "translationVi": "Tôi hiểu anh, và tác động chức năng đó không thể để nguyên không được giải quyết."
+    },
+    {
+      "id": "s35",
+      "speaker": "Dr. Harmon",
+      "text": "Regardless of the underlying diagnosis, we can initiate a short course of intravenous corticosteroids to address the acute inflammatory component, which should produce measurable symptom improvement within two to three weeks.",
+      "durationMs": 12936,
+      "translationVi": "Bất kể chẩn đoán cơ bản là gì, chúng ta có thể bắt đầu một đợt ngắn corticosteroid tiêm tĩnh mạch để giải quyết thành phần viêm cấp tính, điều này sẽ tạo ra sự cải thiện triệu chứng có thể đo lường được trong vòng hai đến ba tuần."
+    },
+    {
+      "id": "s36",
+      "speaker": "Dr. Harmon",
+      "text": "We can also start fatigue management strategies — structured rest protocols, pacing techniques — that are effective across a range of these conditions.",
+      "durationMs": 9288,
+      "translationVi": "Chúng ta cũng có thể bắt đầu các chiến lược quản lý mệt mỏi — giao thức nghỉ ngơi có cấu trúc, kỹ thuật điều tiết năng lượng — hiệu quả trên một loạt các điều kiện này."
+    },
+    {
+      "id": "s37",
+      "speaker": "Patient",
+      "text": "What are the risks of the steroids?",
+      "durationMs": 2712,
+      "translationVi": "Rủi ro của steroids là gì?"
+    },
+    {
+      "id": "s38",
+      "speaker": "Patient",
+      "text": "I want to understand the trade-offs before we go ahead.",
+      "durationMs": 3768,
+      "translationVi": "Tôi muốn hiểu các sự đánh đổi trước khi chúng ta tiến hành."
+    },
+    {
+      "id": "s39",
+      "speaker": "Dr. Harmon",
+      "text": "The main short-term risks are mood disturbance — some patients experience significant anxiety or irritability — sleep disruption, and transient blood sugar elevation, which is particularly relevant if there's any background risk for diabetes.",
+      "durationMs": 14976,
+      "translationVi": "Các rủi ro ngắn hạn chính là rối loạn tâm trạng — một số bệnh nhân trải qua lo lắng hoặc cáu kỉnh đáng kể — rối loạn giấc ngủ và tăng đường huyết tạm thời, điều này đặc biệt liên quan nếu có bất kỳ rủi ro nền nào đối với bệnh tiểu đường."
+    },
+    {
+      "id": "s40",
+      "speaker": "Dr. Harmon",
+      "text": "The course would be three to five days of high-dose IV methylprednisolone, which is a well-established protocol with a manageable risk profile for most patients.",
+      "durationMs": 9288,
+      "translationVi": "Đợt điều trị sẽ là ba đến năm ngày methylprednisolone tiêm tĩnh mạch liều cao, đây là một giao thức được thiết lập tốt với hồ sơ rủi ro có thể quản lý được cho hầu hết bệnh nhân."
+    },
+    {
+      "id": "s41",
+      "speaker": "Patient",
+      "text": "I think I want to proceed.",
+      "durationMs": 2400,
+      "translationVi": "Tôi nghĩ tôi muốn tiến hành."
+    },
+    {
+      "id": "s42",
+      "speaker": "Patient",
+      "text": "What I find hardest to sit with is the uncertainty — not knowing what I actually have.",
+      "durationMs": 5592,
+      "translationVi": "Điều tôi thấy khó chịu nhất là sự không chắc chắn — không biết tôi thực sự mắc phải bệnh gì."
+    },
+    {
+      "id": "s43",
+      "speaker": "Patient",
+      "text": "Is there a realistic timeline for getting to a definitive diagnosis?",
+      "durationMs": 4536,
+      "translationVi": "Có một lịch trình thực tế để đạt được chẩn đoán xác định không?"
+    },
+    {
+      "id": "s44",
+      "speaker": "Dr. Harmon",
+      "text": "Honestly, and I want to manage your expectations carefully here, the antibody panel takes around two weeks to return, and some conditions in this spectrum can take three to six months of clinical observation to confirm or exclude with confidence.",
+      "durationMs": 14640,
+      "translationVi": "Thành thật mà nói, và tôi muốn quản lý kỳ vọng của anh một cách cẩn thận ở đây, bảng kháng thể mất khoảng hai tuần để trả kết quả, và một số tình trạng trong quang phổ này có thể mất ba đến sáu tháng quan sát lâm sàng để xác nhận hoặc loại trừ một cách tự tin."
+    },
+    {
+      "id": "s45",
+      "speaker": "Dr. Harmon",
+      "text": "I know that's a difficult horizon.",
+      "durationMs": 2688,
+      "translationVi": "Tôi biết đó là một tầm nhìn khó khăn."
+    },
+    {
+      "id": "s46",
+      "speaker": "Patient",
+      "text": "It is.",
+      "durationMs": 1656,
+      "translationVi": "Đúng vậy."
+    },
+    {
+      "id": "s47",
+      "speaker": "Patient",
+      "text": "I've been trying not to project too far ahead, but I have a young family, and it's hard not to think about what this might mean long-term.",
+      "durationMs": 7848,
+      "translationVi": "Tôi đã cố gắng không nhìn quá xa về phía trước, nhưng tôi có một gia đình còn trẻ, và thật khó không nghĩ về những gì điều này có thể có nghĩa về lâu dài."
+    },
+    {
+      "id": "s48",
+      "speaker": "Dr. Harmon",
+      "text": "Those concerns are entirely legitimate, and they deserve to be addressed honestly rather than deflected.",
+      "durationMs": 6312,
+      "translationVi": "Những lo ngại đó là hoàn toàn hợp lệ, và chúng xứng đáng được giải quyết một cách trung thực thay vì né tránh."
+    },
+    {
+      "id": "s49",
+      "speaker": "Dr. Harmon",
+      "text": "What I can say is that even in the most concerning diagnostic scenario — which would be a progressive form of MS — the treatment landscape has changed dramatically in the past decade.",
+      "durationMs": 10704,
+      "translationVi": "Những gì tôi có thể nói là ngay cả trong kịch bản chẩn đoán đáng lo ngại nhất — đó sẽ là dạng tiến triển của xơ cứng rải rác — bức tranh điều trị đã thay đổi đáng kể trong thập kỷ qua."
+    },
+    {
+      "id": "s50",
+      "speaker": "Dr. Harmon",
+      "text": "The disease-modifying therapies available today produce outcomes that were unimaginable even fifteen years ago.",
+      "durationMs": 6720,
+      "translationVi": "Các liệu pháp điều chỉnh bệnh có sẵn ngày nay tạo ra kết quả mà thậm chí không thể tưởng tượng được cách đây mười lăm năm."
+    },
+    {
+      "id": "s51",
+      "speaker": "Patient",
+      "text": "That does help, actually.",
+      "durationMs": 2640,
+      "translationVi": "Điều đó thực sự có ích."
+    },
+    {
+      "id": "s52",
+      "speaker": "Patient",
+      "text": "I think what I needed to hear is that there's an active treatment pathway regardless of what the diagnosis turns out to be.",
+      "durationMs": 6768,
+      "translationVi": "Tôi nghĩ những gì tôi cần nghe là có một lộ trình điều trị tích cực bất kể chẩn đoán cuối cùng là gì."
+    },
+    {
+      "id": "s53",
+      "speaker": "Dr. Harmon",
+      "text": "There absolutely is.",
+      "durationMs": 2352,
+      "translationVi": "Hoàn toàn có."
+    },
+    {
+      "id": "s54",
+      "speaker": "Dr. Harmon",
+      "text": "And I want you to know that navigating this uncertainty is something we're doing together — this isn't a case I'm simply monitoring from a distance.",
+      "durationMs": 8184,
+      "translationVi": "Và tôi muốn anh biết rằng việc điều hướng sự không chắc chắn này là điều chúng ta đang làm cùng nhau — đây không phải là trường hợp tôi chỉ đơn giản là theo dõi từ xa."
+    },
+    {
+      "id": "s55",
+      "speaker": "Dr. Harmon",
+      "text": "I'll be in contact personally when any new results come in, and you should feel empowered to contact us between appointments if anything changes or you have questions that are keeping you awake at night.",
+      "durationMs": 10968,
+      "translationVi": "Tôi sẽ liên lạc trực tiếp khi có bất kỳ kết quả mới nào, và anh nên cảm thấy được trao quyền liên hệ với chúng tôi giữa các cuộc hẹn nếu có bất cứ điều gì thay đổi hoặc anh có câu hỏi khiến anh thức đêm."
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "Could you help me understand what … means in practical terms?"
+    },
+    {
+      "id": "h2",
+      "text": "I'd like to understand the trade-offs between …"
+    },
+    {
+      "id": "h3",
+      "text": "What would you recommend given that …"
+    },
+    {
+      "id": "h4",
+      "text": "I'm concerned about … — how significant is that risk?"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "demyelinating process",
+      "meaningVi": "quá trình mất myelin (tổn thương lớp bao bọc dây thần kinh)",
+      "pronunciation": "/diːˈmaɪəlɪneɪtɪŋ ˈprəʊsɛs/"
+    },
+    {
+      "id": "v2",
+      "phrase": "differential diagnosis",
+      "meaningVi": "chẩn đoán phân biệt (xác định bệnh bằng cách loại trừ)",
+      "pronunciation": "/ˌdɪfəˈrɛnʃəl ˌdaɪəɡˈnoʊsɪs/"
+    },
+    {
+      "id": "v3",
+      "phrase": "autoimmune encephalitis",
+      "meaningVi": "viêm não tự miễn (hệ miễn dịch tấn công não)",
+      "pronunciation": "/ˌɔːtəʊɪˈmjuːn ɛnˌsɛfəˈlaɪtɪs/"
+    },
+    {
+      "id": "v4",
+      "phrase": "disease-modifying therapy",
+      "meaningVi": "liệu pháp điều chỉnh quá trình bệnh",
+      "pronunciation": "/dɪˈziːz ˈmɒdɪfaɪɪŋ ˈθɛrəpi/"
+    },
+    {
+      "id": "v5",
+      "phrase": "diagnostic ambiguity",
+      "meaningVi": "sự mơ hồ trong chẩn đoán",
+      "pronunciation": "/ˌdaɪəɡˈnɒstɪk æmˈbɪɡjuɪti/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "CSF analysis",
+      "meaningVi": "phân tích dịch não tủy",
+      "pronunciation": "/siː ɛs ɛf əˈnæləsɪs/"
+    },
+    {
+      "phrase": "white matter lesions",
+      "meaningVi": "tổn thương chất trắng (não)",
+      "pronunciation": "/waɪt ˈmætər ˈliːʒənz/"
+    },
+    {
+      "phrase": "inflammatory marker profile",
+      "meaningVi": "hồ sơ các dấu hiệu viêm",
+      "pronunciation": "/ɪnˈflæmətɔːri ˈmɑːrkər ˈproʊfaɪl/"
+    },
+    {
+      "phrase": "pacing techniques",
+      "meaningVi": "kỹ thuật điều tiết năng lượng (để quản lý mệt mỏi)",
+      "pronunciation": "/ˈpeɪsɪŋ tɛkˈniːks/"
+    },
+    {
+      "phrase": "intravenous corticosteroids",
+      "meaningVi": "corticosteroid truyền tĩnh mạch",
+      "pronunciation": "/ˌɪntrəˈviːnəs ˌkɔːrtɪkoʊˈstɪərɔɪdz/"
+    },
+    {
+      "phrase": "demyelinating process",
+      "meaningVi": "quá trình mất myelin (thần kinh học)",
+      "pronunciation": "/diːˈmaɪəlɪneɪtɪŋ ˈprɒsɛs/"
+    },
+    {
+      "phrase": "relapsing-remitting MS",
+      "meaningVi": "bệnh xơ cứng rải rác tái phát-thuyên giảm (phân loại bệnh)",
+      "pronunciation": "/rɪˈlæpsɪŋ rɪˈmɪtɪŋ ɛm ɛs/"
+    },
+    {
+      "phrase": "differential diagnosis",
+      "meaningVi": "chẩn đoán phân biệt (phương pháp y học)",
+      "pronunciation": "/ˌdɪfəˈrɛnʃəl daɪəɡˈnoʊsɪs/"
+    },
+    {
+      "phrase": "autoimmune encephalitis",
+      "meaningVi": "viêm não tự miễn (bệnh thần kinh hiếm gặp)",
+      "pronunciation": "/ˌɔːtoʊɪˈmjuːn ɛnˌsɛfəˈlaɪtɪs/"
+    },
+    {
+      "phrase": "neuromyelitis optica spectrum disorder",
+      "meaningVi": "rối loạn phổ viêm thị thần kinh tủy sống",
+      "pronunciation": "/ˌnjʊəroʊˌmaɪəˈlaɪtɪs ˈɒptɪkə ˈspɛktrəm dɪsˈɔːrdər/"
+    },
+    {
+      "phrase": "diagnostic ambiguity",
+      "meaningVi": "sự mơ hồ trong chẩn đoán",
+      "pronunciation": "/ˌdaɪəɡˈnɒstɪk æmˈbɪɡjuɪti/"
+    },
+    {
+      "phrase": "disease-modifying therapies",
+      "meaningVi": "các liệu pháp điều chỉnh bệnh (làm chậm tiến triển)",
+      "pronunciation": "/dɪˈziːz ˈmɒdɪfaɪɪŋ ˈθɛrəpiz/"
+    },
+    {
+      "phrase": "acute inflammatory component",
+      "meaningVi": "thành phần viêm cấp tính",
+      "pronunciation": "/əˈkjuːt ɪnˈflæmətɔːri kəmˈpoʊnənt/"
+    },
+    {
+      "phrase": "prognostic uncertainty",
+      "meaningVi": "sự không chắc chắn về tiên lượng bệnh",
+      "pronunciation": "/prɒɡˈnɒstɪk ʌnˈsɜːrtənti/"
+    },
+    {
+      "phrase": "risk-benefit profile",
+      "meaningVi": "hồ sơ rủi ro-lợi ích (y học)",
+      "pronunciation": "/rɪsk ˈbɛnɪfɪt ˈproʊfaɪl/"
+    },
+    {
+      "phrase": "managing your expectations",
+      "meaningVi": "quản lý kỳ vọng của bạn (tránh thất vọng)",
+      "pronunciation": "/ˈmænɪdʒɪŋ jɔːr ˌɛkspɛkˈteɪʃənz/"
+    },
+    {
+      "phrase": "treatment landscape",
+      "meaningVi": "bức tranh toàn cảnh về điều trị (y học)",
+      "pronunciation": "/ˈtriːtmənt ˈlændskeɪp/"
+    },
+    {
+      "phrase": "active treatment pathway",
+      "meaningVi": "lộ trình điều trị tích cực",
+      "pronunciation": "/ˈæktɪv ˈtriːtmənt ˈpæθweɪ/"
+    },
+    {
+      "phrase": "false reassurance",
+      "meaningVi": "sự trấn an giả tạo (không trung thực về y tế)",
+      "pronunciation": "/fɔːls ˌriːəˈʃʊərəns/"
+    },
+    {
+      "phrase": "empowered to contact",
+      "meaningVi": "được trao quyền để liên hệ (bệnh nhân tự chủ)",
+      "pronunciation": "/ɪmˈpaʊərd tuː ˈkɒntækt/"
+    },
+    {
+      "phrase": "IV methylprednisolone",
+      "meaningVi": "methylprednisolone tiêm tĩnh mạch (thuốc corticosteroid)",
+      "pronunciation": "/aɪ viː ˌmɛθɪlprɛdˈnɪsəloʊn/"
+    },
+    {
+      "phrase": "second opinion",
+      "meaningVi": "ý kiến thứ hai (từ chuyên gia khác)",
+      "pronunciation": "/ˈsɛkənd əˈpɪnjən/"
+    },
+    {
+      "phrase": "blood sugar elevation",
+      "meaningVi": "tăng đường huyết",
+      "pronunciation": "/blʌd ˈʃʊɡər ˌɛlɪˈveɪʃən/"
+    },
+    {
+      "phrase": "autoimmune antibody panel",
+      "meaningVi": "bảng kháng thể tự miễn (xét nghiệm chuyên sâu)",
+      "pronunciation": "/ˌɔːtoʊɪˈmjuːn ˈæntɪbɒdi ˈpænəl/"
+    },
+    {
+      "phrase": "sensory disturbance",
+      "meaningVi": "rối loạn cảm giác (triệu chứng thần kinh)",
+      "pronunciation": "/ˈsɛnsəri dɪˈstɜːrbəns/"
+    },
+    {
+      "phrase": "episodic visual changes",
+      "meaningVi": "thay đổi thị giác từng đợt",
+      "pronunciation": "/ˌɛpɪˈsɒdɪk ˈvɪʒuəl ˈtʃeɪndʒɪz/"
+    },
+    {
+      "phrase": "fatigue profile",
+      "meaningVi": "hồ sơ mệt mỏi (mô tả kiểu mệt mỏi của bệnh nhân)",
+      "pronunciation": "/fəˈtiːɡ ˈproʊfaɪl/"
+    },
+    {
+      "phrase": "quality of life",
+      "meaningVi": "chất lượng cuộc sống",
+      "pronunciation": "/ˈkwɒlɪti əv laɪf/"
+    },
+    {
+      "phrase": "repeat MRI",
+      "meaningVi": "chụp MRI lần lại",
+      "pronunciation": "/rɪˈpiːt ɛm ɑːr aɪ/"
+    },
+    {
+      "phrase": "structured rest protocols",
+      "meaningVi": "giao thức nghỉ ngơi có cấu trúc",
+      "pronunciation": "/ˈstrʌktʃərd rɛst ˈproʊtəˌkɒlz/"
+    },
+    {
+      "phrase": "navigating uncertainty",
+      "meaningVi": "điều hướng/vượt qua sự không chắc chắn",
+      "pronunciation": "/ˈnævɪɡeɪtɪŋ ʌnˈsɜːrtənti/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Hedging medical uncertainty: 'consistent with'",
+      "bodyVi": "'Consistent with' là cách bác sĩ nói rằng các triệu chứng/kết quả phù hợp với một chẩn đoán mà không khẳng định chắc chắn. Tương tự: 'suggestive of', 'raises the possibility of'. Đây là ngôn ngữ đặc trưng của y văn tiếng Anh.",
+      "bodyEn": "Medical English uses hedging phrases to communicate probability without certainty: 'consistent with' (compatible with, not confirmed), 'suggestive of' (pointing toward), 'raises the possibility of' (possible but not certain). These phrases are essential in clinical communication to avoid misleading patients."
+    },
+    {
+      "title": "Fronted 'What' clauses to highlight key information",
+      "bodyVi": "Cấu trúc 'What I can tell you is that...' hoặc 'What I find hardest is...' dùng mệnh đề 'What' làm chủ ngữ để nhấn mạnh thông tin quan trọng nhất. Đây là kỹ thuật hiệu quả trong giao tiếp y tế để định hướng sự chú ý của bệnh nhân.",
+      "bodyEn": "'What I can tell you is that...' is a fronted 'What' cleft that foregrounds the most important information. In medical consultations, this structure helps the speaker signal what they are certain about versus what is uncertain, making complex information easier to process."
+    },
+    {
+      "title": "Embedded concession: 'rather than + gerund'",
+      "bodyVi": "Cấu trúc 'rather than + danh động từ' so sánh hai hành động hoặc cách tiếp cận. Ví dụ: 'addressing concerns honestly rather than deflecting' hoặc 'offering false reassurance rather than acknowledging uncertainty'. Đây là cách diễn đạt trang trọng hơn 'instead of'.",
+      "bodyEn": "'Rather than + gerund' is a formal way to contrast two approaches or actions: 'addressed honestly rather than deflected'. It is more formal than 'instead of' and is common in professional and academic English, often appearing in comparisons of recommended vs. discouraged practices."
+    }
+  ],
+  "translationVi": "Bác sĩ Harmon: Tôi đã có cơ hội xem xét tất cả hình ảnh, các nghiên cứu dẫn truyền thần kinh, kết quả chọc dò thắt lưng và bảng xét nghiệm máu mở rộng mà chúng tôi đã thực hiện. Tôi muốn nói chuyện với bạn qua bức tranh theo cách tôi hiểu nó, và tôi muốn cho bạn không gian để hỏi bất cứ điều gì xuất hiện trong đầu.\nBệnh nhân: Tôi đánh giá cao điều đó. Thành thật mà nói — tôi đã đọc rất nhiều trực tuyến, điều đó có lẽ đã khiến tôi lo lắng hơn chứ không phải ít hơn. Tôi muốn nghe trực tiếp từ bạn, ngay cả khi nó phức tạp.\nBác sĩ Harmon: Điều đó hoàn toàn có thể hiểu được, và điều đó nói lên tốt về bạn rằng bạn muốn tham gia trực tiếp với thông tin. Hãy để tôi bắt đầu với những gì bằng chứng có và không cho chúng ta biết. Mô hình các triệu chứng của bạn — rối loạn cảm giác tiến triển, thay đổi thị giác theo từng đợt, hồ sơ mệt mỏi — phù hợp với một quá trình mất myelin.\nBệnh nhân: Mất myelin — tôi đã gặp thuật ngữ đó. Điều đó có nghĩa là xơ cứng rải rác không?\nBác sĩ Harmon: Đó là một trong những tình trạng chúng tôi đang xem xét nghiêm túc, đúng vậy. Chụp MRI cho thấy hai tổn thương ở chất trắng của não bạn có phân bố đặc trưng liên quan đến MS giai đoạn đầu. Tuy nhiên, tôi muốn cẩn thận không đưa ra chẩn đoán mà tôi chưa hoàn toàn tự tin, vì bức tranh cũng có một số đặc điểm không phù hợp với hình ảnh MS điển hình.\nBệnh nhân: Những đặc điểm nào không phù hợp? Nghe điều đó thực sự có phần yên tâm, mặc dù tôi không chắc nó có nên như vậy không.\nBác sĩ Harmon: Phân tích CSF — dịch não tủy — của bạn cho thấy hồ sơ dấu hiệu viêm bất thường mà chúng tôi thường không thấy trong MS tái phát-thuyên giảm cổ điển. Nó làm tăng khả năng viêm não tự miễn hoặc một tình trạng liên quan, một số trong đó thực sự có thể điều trị được hơn MS, mặc dù chúng ít phổ biến hơn.\nBệnh nhân: Vậy chúng ta có thể đang xem xét điều gì đó tốt hơn hoặc tệ hơn MS, và bạn chưa biết. Đó là một nơi khó ở.\nBác sĩ Harmon: Đúng vậy, và tôi muốn trung thực về sự không chắc chắn đó thay vì cung cấp cho bạn sự an ủi giả tạo. Điều tôi có thể nói với bạn là sự không chắc chắn đó không thay đổi kế hoạch quản lý ngay lập tức của chúng tôi — chúng tôi đã điều trị các triệu chứng của bạn, và công việc chẩn đoán chúng tôi đang làm bây giờ được thiết kế để thu hẹp sự phân biệt chẩn đoán hiệu quả nhất có thể.\nBệnh nhân: Công việc tiếp theo liên quan đến những gì? Tôi đang cố gắng hiểu những tháng tới sẽ trông như thế nào.\nBác sĩ Harmon: Chúng tôi cần chạy thêm bảng kháng thể tự miễn — cụ thể là tìm kiếm các dấu hiệu liên quan đến rối loạn quang phổ viêm tủy thị thần kinh và họ viêm não thụ thể kháng NMDA. Chúng tôi cũng sẽ thực hiện MRI lặp lại sau ba tháng để đánh giá xem các tổn thương có tiến triển không. Và tôi muốn giới thiệu bạn đến một đồng nghiệp chuyên về thần kinh học tự miễn để có ý kiến thứ hai.\nBệnh nhân: Tôi vui mừng khi bạn đề cập đến ý kiến thứ hai — tôi cũng đã định hỏi về điều đó. Điều đó có nghĩa là bạn có nghi ngờ, hay đây là thực hành tiêu chuẩn?\nBác sĩ Harmon: Đó là cả hai, và không có gì phải xấu hổ trong cả hai trường hợp. Trong các trường hợp có sự mơ hồ chẩn đoán ở mức độ phức tạp này, quan điểm chuyên gia thứ hai là y học thực sự tốt — nó có thể đưa ra những điều tôi có thể đã cân nhắc khác đi, và nó cung cấp cho bạn thêm sự tự tin trong bất kỳ kết luận nào chúng ta đạt được. Tôi tích cực khuyến khích nó.\nBệnh nhân: Còn việc điều trị trong thời gian chờ đợi thì sao? Tôi đã gặp khó khăn trong việc làm việc, khả năng tập trung của tôi bị suy giảm đáng kể, và sự mệt mỏi thực sự ảnh hưởng đến chất lượng cuộc sống của tôi.\nBác sĩ Harmon: Tôi hiểu bạn, và tác động chức năng đó không thể để nguyên không được giải quyết. Bất kể chẩn đoán cơ bản là gì, chúng ta có thể bắt đầu một đợt ngắn corticosteroid tiêm tĩnh mạch để giải quyết thành phần viêm cấp tính, điều này sẽ tạo ra sự cải thiện triệu chứng có thể đo lường được trong vòng hai đến ba tuần. Chúng ta cũng có thể bắt đầu các chiến lược quản lý mệt mỏi — giao thức nghỉ ngơi có cấu trúc, kỹ thuật điều tiết — hiệu quả trên một loạt các điều kiện này.\nBệnh nhân: Rủi ro của steroids là gì? Tôi muốn hiểu các sự đánh đổi trước khi chúng ta tiến hành.\nBác sĩ Harmon: Các rủi ro ngắn hạn chính là rối loạn tâm trạng — một số bệnh nhân trải qua lo lắng hoặc cáu kỉnh đáng kể — rối loạn giấc ngủ và tăng đường huyết tạm thời, điều này đặc biệt liên quan nếu có bất kỳ rủi ro nền nào đối với bệnh tiểu đường. Đợt điều trị sẽ là ba đến năm ngày methylprednisolone IV liều cao, đây là một giao thức được thiết lập tốt với hồ sơ rủi ro có thể quản lý được cho hầu hết bệnh nhân.\nBệnh nhân: Tôi nghĩ tôi muốn tiến hành. Điều tôi thấy khó chịu nhất là sự không chắc chắn — không biết tôi thực sự mắc phải bệnh gì. Có một lịch trình thực tế để đạt được chẩn đoán xác định không?\nBác sĩ Harmon: Thành thật mà nói, và tôi muốn quản lý kỳ vọng của bạn một cách cẩn thận ở đây, bảng kháng thể mất khoảng hai tuần để trả lời, và một số tình trạng trong quang phổ này có thể mất ba đến sáu tháng quan sát lâm sàng để xác nhận hoặc loại trừ một cách tự tin. Tôi biết đó là một tầm nhìn khó khăn.\nBệnh nhân: Đúng vậy. Tôi đã cố gắng không nhìn quá xa về phía trước, nhưng tôi có một gia đình còn trẻ, và thật khó không nghĩ về những gì điều này có thể có nghĩa về lâu dài.\nBác sĩ Harmon: Những lo ngại đó là hoàn toàn hợp lệ, và chúng xứng đáng được giải quyết một cách trung thực thay vì né tránh. Những gì tôi có thể nói là ngay cả trong kịch bản chẩn đoán đáng lo ngại nhất — đó sẽ là dạng tiến triển của MS — bức tranh điều trị đã thay đổi đáng kể trong thập kỷ qua. Các liệu pháp điều chỉnh bệnh có sẵn ngày nay tạo ra kết quả mà thậm chí không thể tưởng tượng được cách đây mười lăm năm.\nBệnh nhân: Điều đó thực sự có ích. Tôi nghĩ những gì tôi cần nghe là có một lộ trình điều trị tích cực bất kể chẩn đoán là gì.\nBác sĩ Harmon: Hoàn toàn có. Và tôi muốn bạn biết rằng việc điều hướng sự không chắc chắn này là điều chúng ta đang làm cùng nhau — đây không phải là trường hợp tôi chỉ đơn giản là theo dõi từ xa. Tôi sẽ liên lạc trực tiếp khi có bất kỳ kết quả mới nào, và bạn nên cảm thấy được trao quyền liên hệ với chúng tôi giữa các cuộc hẹn nếu có bất cứ điều gì thay đổi hoặc bạn có câu hỏi khiến bạn thức đêm.",
+  "criticalThinkingQuestion": "How should doctors communicate diagnostic uncertainty to patients — and what responsibilities do patients have in managing their own information-seeking during a complex diagnostic process?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-c1-007",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 352320
+}

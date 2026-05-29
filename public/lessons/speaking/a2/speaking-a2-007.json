@@ -1,0 +1,412 @@
+{
+  "id": "speaking-a2-007",
+  "level": "A2",
+  "title": "Airport check-in",
+  "summary": "A traveler checks in for a flight at the airport counter.",
+  "topic": "Airport check-in",
+  "tags": [
+    "Travel",
+    "Airport",
+    "Flying",
+    "Services"
+  ],
+  "characters": [
+    "Traveler",
+    "Agent"
+  ],
+  "voices": {
+    "Traveler": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-AndrewNeural"
+    },
+    "Agent": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-EmmaNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Traveler",
+      "text": "Hi, I'd like to check in for my flight to Chicago, please."
+    },
+    {
+      "speaker": "Agent",
+      "text": "Sure! May I see your passport or ID and your booking confirmation?"
+    },
+    {
+      "speaker": "Traveler",
+      "text": "Here you go. I also have the booking on my phone."
+    },
+    {
+      "speaker": "Agent",
+      "text": "Thank you. How many bags are you checking today?"
+    },
+    {
+      "speaker": "Traveler",
+      "text": "Just one suitcase. And I have a carry-on bag too."
+    },
+    {
+      "speaker": "Agent",
+      "text": "The carry-on is fine. Please place your suitcase on the scale."
+    },
+    {
+      "speaker": "Traveler",
+      "text": "Sure. Is there a weight limit for checked bags?"
+    },
+    {
+      "speaker": "Agent",
+      "text": "Yes, the limit is 23 kilograms. Your bag weighs 20 kilos, so you're good!"
+    },
+    {
+      "speaker": "Traveler",
+      "text": "Great. Can I choose my seat?"
+    },
+    {
+      "speaker": "Agent",
+      "text": "Of course. Would you prefer a window seat or an aisle seat?"
+    },
+    {
+      "speaker": "Traveler",
+      "text": "A window seat, please. And can I sit near the front of the plane?"
+    },
+    {
+      "speaker": "Agent",
+      "text": "I've assigned you seat 8A. Here is your boarding pass. Boarding starts at gate 12 at 2:30 PM."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Traveler",
+      "text": "Hi, I'd like to check in for my flight to Chicago, please.",
+      "durationMs": 3864,
+      "translationVi": "Xin chào, tôi muốn làm thủ tục cho chuyến bay đến Chicago."
+    },
+    {
+      "id": "s2",
+      "speaker": "Agent",
+      "text": "Sure!",
+      "durationMs": 936,
+      "translationVi": "Được!"
+    },
+    {
+      "id": "s3",
+      "speaker": "Agent",
+      "text": "May I see your passport or ID and your booking confirmation?",
+      "durationMs": 4176,
+      "translationVi": "Cho tôi xem hộ chiếu hoặc giấy tờ tùy thân và xác nhận đặt vé của bạn?"
+    },
+    {
+      "id": "s4",
+      "speaker": "Traveler",
+      "text": "Here you go.",
+      "durationMs": 936,
+      "translationVi": "Đây rồi."
+    },
+    {
+      "id": "s5",
+      "speaker": "Traveler",
+      "text": "I also have the booking on my phone.",
+      "durationMs": 1992,
+      "translationVi": "Tôi cũng có thông tin đặt vé trên điện thoại."
+    },
+    {
+      "id": "s6",
+      "speaker": "Agent",
+      "text": "Thank you.",
+      "durationMs": 936,
+      "translationVi": "Cảm ơn."
+    },
+    {
+      "id": "s7",
+      "speaker": "Agent",
+      "text": "How many bags are you checking today?",
+      "durationMs": 2304,
+      "translationVi": "Hôm nay bạn có bao nhiêu túi cần ký gửi?"
+    },
+    {
+      "id": "s8",
+      "speaker": "Traveler",
+      "text": "Just one suitcase.",
+      "durationMs": 1464,
+      "translationVi": "Chỉ một cái vali."
+    },
+    {
+      "id": "s9",
+      "speaker": "Traveler",
+      "text": "And I have a carry-on bag too.",
+      "durationMs": 1776,
+      "translationVi": "Và tôi cũng có một túi xách tay."
+    },
+    {
+      "id": "s10",
+      "speaker": "Agent",
+      "text": "The carry-on is fine.",
+      "durationMs": 1680,
+      "translationVi": "Túi xách tay không sao."
+    },
+    {
+      "id": "s11",
+      "speaker": "Agent",
+      "text": "Please place your suitcase on the scale.",
+      "durationMs": 2544,
+      "translationVi": "Xin đặt vali lên cân."
+    },
+    {
+      "id": "s12",
+      "speaker": "Traveler",
+      "text": "Sure.",
+      "durationMs": 816,
+      "translationVi": "Được."
+    },
+    {
+      "id": "s13",
+      "speaker": "Traveler",
+      "text": "Is there a weight limit for checked bags?",
+      "durationMs": 2232,
+      "translationVi": "Có giới hạn cân nặng cho hành lý ký gửi không?"
+    },
+    {
+      "id": "s14",
+      "speaker": "Agent",
+      "text": "Yes, the limit is 23 kilograms.",
+      "durationMs": 2928,
+      "translationVi": "Có, giới hạn là 23 kilogram."
+    },
+    {
+      "id": "s15",
+      "speaker": "Agent",
+      "text": "Your bag weighs 20 kilos, so you're good!",
+      "durationMs": 2688,
+      "translationVi": "Túi bạn nặng 20 kilo, vậy là ổn!"
+    },
+    {
+      "id": "s16",
+      "speaker": "Traveler",
+      "text": "Great.",
+      "durationMs": 792,
+      "translationVi": "Tuyệt."
+    },
+    {
+      "id": "s17",
+      "speaker": "Traveler",
+      "text": "Can I choose my seat?",
+      "durationMs": 1488,
+      "translationVi": "Tôi có thể chọn ghế không?"
+    },
+    {
+      "id": "s18",
+      "speaker": "Agent",
+      "text": "Of course.",
+      "durationMs": 984,
+      "translationVi": "Tất nhiên."
+    },
+    {
+      "id": "s19",
+      "speaker": "Agent",
+      "text": "Would you prefer a window seat or an aisle seat?",
+      "durationMs": 2880,
+      "translationVi": "Bạn thích ghế cửa sổ hay ghế lối đi?"
+    },
+    {
+      "id": "s20",
+      "speaker": "Traveler",
+      "text": "A window seat, please.",
+      "durationMs": 1728,
+      "translationVi": "Ghế cửa sổ nhé."
+    },
+    {
+      "id": "s21",
+      "speaker": "Traveler",
+      "text": "And can I sit near the front of the plane?",
+      "durationMs": 2088,
+      "translationVi": "Và tôi có thể ngồi gần phía trước máy bay không?"
+    },
+    {
+      "id": "s22",
+      "speaker": "Agent",
+      "text": "I've assigned you seat 8A.",
+      "durationMs": 1800,
+      "translationVi": "Tôi đã sắp xếp cho bạn ghế 8A."
+    },
+    {
+      "id": "s23",
+      "speaker": "Agent",
+      "text": "Here is your boarding pass.",
+      "durationMs": 1824,
+      "translationVi": "Đây là thẻ lên máy bay."
+    },
+    {
+      "id": "s24",
+      "speaker": "Agent",
+      "text": "Boarding starts at gate 12 at 2:30 PM.",
+      "durationMs": 3216,
+      "translationVi": "Lên máy bay bắt đầu từ cổng 12 lúc 2:30 chiều."
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "I'd like to check in for …"
+    },
+    {
+      "id": "h2",
+      "text": "Is there a … limit for …?"
+    },
+    {
+      "id": "h3",
+      "text": "Can I choose …?"
+    },
+    {
+      "id": "h4",
+      "text": "Would you prefer … or …?"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "check in",
+      "meaningVi": "làm thủ tục sân bay",
+      "pronunciation": "/tʃek ɪn/"
+    },
+    {
+      "id": "v2",
+      "phrase": "carry-on bag",
+      "meaningVi": "hành lý xách tay",
+      "pronunciation": "/ˈkær.i.ɒn bæɡ/"
+    },
+    {
+      "id": "v3",
+      "phrase": "boarding pass",
+      "meaningVi": "thẻ lên máy bay",
+      "pronunciation": "/ˈbɔːr.dɪŋ pɑːs/"
+    },
+    {
+      "id": "v4",
+      "phrase": "aisle seat",
+      "meaningVi": "ghế ngồi ở lối đi",
+      "pronunciation": "/aɪl siːt/"
+    },
+    {
+      "id": "v5",
+      "phrase": "weight limit",
+      "meaningVi": "giới hạn cân nặng",
+      "pronunciation": "/weɪt ˈlɪm.ɪt/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "Here you go",
+      "meaningVi": "Đây rồi (khi đưa vật gì cho người khác)",
+      "pronunciation": "/hɪər juː ɡəʊ/"
+    },
+    {
+      "phrase": "you're good",
+      "meaningVi": "Bạn ổn rồi, không có vấn đề gì",
+      "pronunciation": "/jɔːr ɡʊd/"
+    },
+    {
+      "phrase": "I've assigned you",
+      "meaningVi": "Tôi đã sắp xếp cho bạn",
+      "pronunciation": "/aɪv əˈsaɪnd juː/"
+    },
+    {
+      "phrase": "check in for my flight",
+      "meaningVi": "làm thủ tục chuyến bay",
+      "pronunciation": "/tʃek ɪn fər maɪ flaɪt/",
+      "exampleEn": "I'd like to check in for my flight to Chicago."
+    },
+    {
+      "phrase": "booking confirmation",
+      "meaningVi": "xác nhận đặt vé",
+      "pronunciation": "/ˈbʊkɪŋ ˌkɒnfərˈmeɪʃən/",
+      "exampleEn": "May I see your booking confirmation?"
+    },
+    {
+      "phrase": "checking today",
+      "meaningVi": "ký gửi hành lý hôm nay",
+      "pronunciation": "/ˈtʃekɪŋ təˈdeɪ/",
+      "exampleEn": "How many bags are you checking today?"
+    },
+    {
+      "phrase": "carry-on bag",
+      "meaningVi": "hành lý xách tay",
+      "pronunciation": "/ˈkæri ɒn bæɡ/",
+      "exampleEn": "I have a carry-on bag too."
+    },
+    {
+      "phrase": "place your suitcase on the scale",
+      "meaningVi": "đặt vali lên cân",
+      "pronunciation": "/pleɪs jər ˈsuːtkeɪs ɒn ðə skeɪl/",
+      "exampleEn": "Please place your suitcase on the scale."
+    },
+    {
+      "phrase": "weight limit",
+      "meaningVi": "giới hạn cân nặng",
+      "pronunciation": "/weɪt ˈlɪmɪt/",
+      "exampleEn": "Is there a weight limit for checked bags?"
+    },
+    {
+      "phrase": "23 kilograms",
+      "meaningVi": "23 kilogram",
+      "pronunciation": "/ˈtwɛnti θriː ˈkɪləɡræmz/",
+      "exampleEn": "The limit is 23 kilograms."
+    },
+    {
+      "phrase": "window seat",
+      "meaningVi": "ghế cạnh cửa sổ",
+      "pronunciation": "/ˈwɪndoʊ siːt/",
+      "exampleEn": "A window seat, please."
+    },
+    {
+      "phrase": "aisle seat",
+      "meaningVi": "ghế cạnh lối đi",
+      "pronunciation": "/aɪl siːt/",
+      "exampleEn": "Would you prefer a window seat or an aisle seat?"
+    },
+    {
+      "phrase": "near the front",
+      "meaningVi": "gần phía đầu (máy bay)",
+      "pronunciation": "/nɪər ðə frʌnt/",
+      "exampleEn": "Can I sit near the front of the plane?"
+    },
+    {
+      "phrase": "boarding pass",
+      "meaningVi": "thẻ lên máy bay",
+      "pronunciation": "/ˈbɔːrdɪŋ pæs/",
+      "exampleEn": "Here is your boarding pass."
+    },
+    {
+      "phrase": "checked bags",
+      "meaningVi": "hành lý ký gửi",
+      "pronunciation": "/tʃekt bæɡz/",
+      "exampleEn": "Is there a weight limit for checked bags?"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Would you prefer … or …? (offering choices politely)",
+      "bodyVi": "'Would you prefer A or B?' là cách lịch sự để hỏi người khác lựa chọn giữa hai phương án. Lịch sự hơn 'Do you want A or B?'.",
+      "bodyEn": "'Would you prefer A or B?' is a polite way to ask someone to choose between two options. It sounds more formal and courteous than 'Do you want A or B?'."
+    },
+    {
+      "title": "How many … are you + V-ing? (asking about quantities in progress)",
+      "bodyVi": "'How many bags are you checking?' dùng Present Continuous để hỏi về hành động đang diễn ra. Cấu trúc này rất phổ biến trong dịch vụ khách hàng.",
+      "bodyEn": "'How many bags are you checking?' uses Present Continuous to ask about an ongoing action. This structure is very common in customer service situations."
+    }
+  ],
+  "translationVi": "Du khách: Xin chào, tôi muốn làm thủ tục cho chuyến bay đến Chicago. Nhân viên: Được! Cho tôi xem hộ chiếu hoặc giấy tờ tùy thân và xác nhận đặt vé của bạn? Du khách: Đây rồi. Tôi cũng có thông tin đặt vé trên điện thoại. Nhân viên: Cảm ơn. Hôm nay bạn có bao nhiêu túi cần ký gửi? Du khách: Chỉ một vali. Và tôi cũng có một túi xách tay. Nhân viên: Túi xách tay không sao. Xin đặt vali lên cân. Du khách: Được. Có giới hạn cân nặng cho hành lý ký gửi không? Nhân viên: Có, giới hạn là 23 kilogram. Túi bạn nặng 20 kilo, vậy là ổn! Du khách: Tuyệt. Tôi có thể chọn ghế không? Nhân viên: Tất nhiên. Bạn thích ghế cửa sổ hay ghế lối đi? Du khách: Ghế cửa sổ nhé. Và tôi có thể ngồi gần phía trước máy bay không? Nhân viên: Tôi đã sắp xếp cho bạn ghế 8A. Đây là thẻ lên máy bay. Lên máy bay bắt đầu từ cổng 12 lúc 2:30 chiều.",
+  "criticalThinkingQuestion": "Why might airports and airlines have strict rules about baggage weight, and how do these rules affect travelers?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-a2-007",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 48072
+}

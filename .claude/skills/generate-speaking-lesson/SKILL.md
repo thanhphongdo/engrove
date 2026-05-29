@@ -2,7 +2,7 @@
 
 Generate new speaking lessons for the english-learning app. Produces JSON lesson files under `public/lessons/speaking/{level}/`, then rebuilds `public/lessons/speaking/index.json` and runs the Python TTS script to generate + upload per-sentence, per-vocab, and per-starter MP3s to the public audio repo.
 
-Use when asked to "add speaking lessons", "generate more A1/A2/B1/B2/C1 speaking lessons", "scale up speaking content", or `/generate-speaking-lesson`.
+Use when asked to "add speaking lessons", "generate more A1/A2/B1/B2/C1 speaking lessons", "scale up speaking content", `/generate-speaking-lesson`, or to **backfill missing fields** in existing lessons.
 
 ---
 
@@ -10,9 +10,10 @@ Use when asked to "add speaking lessons", "generate more A1/A2/B1/B2/C1 speaking
 
 | Input | Required | Default | Notes |
 |---|---|---|---|
-| `level` | Yes | — | A1 / A2 / B1 / B2 / C1 |
+| `level` | Yes (new) / No (backfill) | — | A1 / A2 / B1 / B2 / C1 |
 | `count` | No | 5 | Number of new lessons to generate |
 | `topics` | No | — | Comma-separated override topics |
+| `backfill` | No | false | If true, patch existing lessons with missing fields instead of generating new ones |
 
 If inputs are ambiguous, ask once. After that, proceed without confirmation.
 
@@ -28,9 +29,16 @@ If inputs are ambiguous, ask once. After that, proceed without confirmation.
 - `hintStarters`: 2–4 entries, ids `h1..hK`, each a sentence-starter template with `…` placeholder.
 - `hintVocab`: 3–6 entries, ids `v1..vM`, each with `phrase`, `meaningVi`, `pronunciation` (IPA for US accent).
 - `criticalThinkingQuestion`: one open-ended question about the dialogue theme.
-- `translationVi`: full Vietnamese translation of the dialogue.
+- `translationVi`: full Vietnamese translation of the dialogue (legacy field, kept for reference).
 - `grammarNotes`: 1–3 entries covering patterns from the dialogue.
-- `annotations`: 3–8 phrases from the dialogue with Vietnamese gloss.
+- `annotations`: Vocabulary phrases from the dialogue worth highlighting. **Each annotation MUST have `pronunciation` (IPA /…/ string).** Format: `{phrase, meaningVi, pronunciation, exampleEn?}`. Minimum counts by level:
+  - A1: **≥10 annotations**
+  - A2: **≥15 annotations**
+  - B1: **≥20 annotations**
+  - B2: **≥25 annotations**
+  - C1: **≥30 annotations**
+  - **`phrase` must appear verbatim in the dialogue body** — only annotate phrases actually present in the sentences.
+- `sentences[].translationVi`: **required** — accurate Vietnamese translation of that specific sentence only (not the whole turn).
 
 ### DO NOT write
 - `durationMs` on individual sentences (written by TTS script).
@@ -51,7 +59,7 @@ Consecutive sentences with the same speaker must concatenate (joined by `" "`) t
 
 ---
 
-## Workflow
+## Workflow — New Lessons
 
 ### Step 1: Resolve inputs
 Confirm `level` and `count`. Pick topics from this list or invent relevant ones:
@@ -81,6 +89,7 @@ For each lesson:
    - Ensure back-and-forth alternation (no 3+ consecutive turns by same speaker unless very natural).
 
 3. **Split into sentences**: each body turn may be split into 1–3 sentences if it contains multiple clauses. The concatenated sentence texts must equal the body turn text exactly (trimmed).
+   - Each sentence **must** include `translationVi`: the Vietnamese translation of that sentence only.
 
 4. **Write the lesson JSON file** to `public/lessons/speaking/{level_lower}/{id}.json`.
 
@@ -124,6 +133,36 @@ node scripts/rebuild-indexes.mjs
 ### Step 8: Report
 
 List each generated lesson: ID, title, turn count, sentence count, and CDN base URL.
+
+---
+
+## Workflow — Backfill Missing Fields
+
+Use when existing lessons are missing `sentences[].translationVi` or `annotations[].pronunciation`.
+
+### Step 1: Run the backfill script
+
+```bash
+uv run scripts/backfill-speaking-translations.py
+```
+
+This script:
+- Scans all `public/lessons/speaking/**/*.json`
+- Skips lessons where every sentence already has `translationVi`
+- For each lesson missing translations: calls Claude API with all sentences in one batch to generate `translationVi` for each sentence
+- Writes the updated JSON in-place
+
+### Step 2: Validate
+
+```bash
+node scripts/validate-lessons.mjs 2>&1 | grep -E "error" | head -20
+```
+
+### Step 3: Rebuild index
+
+```bash
+node scripts/rebuild-indexes.mjs
+```
 
 ---
 

@@ -1,51 +1,74 @@
 export type MixChunk = { kind: "system" | "user"; blob: Blob };
 
+const SAMPLE_RATE = 44100;
+const GAP_SAMPLES = Math.round(0.3 * SAMPLE_RATE); // 300ms silence
+
 export async function mixToMp3(chunks: MixChunk[]): Promise<Blob> {
   if (chunks.length === 0) throw new Error("mixToMp3: no chunks provided");
 
-  // Decode all blobs at 44100 Hz (AudioContext resamples automatically)
-  const ac = new AudioContext({ sampleRate: 44100 });
+  const ac = new AudioContext({ sampleRate: SAMPLE_RATE });
   const buffers: AudioBuffer[] = await Promise.all(
-    chunks.map(async (c) => {
-      const ab = await c.blob.arrayBuffer();
-      return ac.decodeAudioData(ab);
+    chunks.map(async (c, i) => {
+      try {
+        return await ac.decodeAudioData(await c.blob.arrayBuffer());
+      } catch (err) {
+        throw new Error(`Failed to decode ${c.kind} audio chunk ${i}: ${err instanceof Error ? err.message : String(err)}`);
+      }
     }),
   );
   await ac.close();
 
-  const GAP = Math.round(0.3 * 44100); // 300ms silence
-  const totalSamples = buffers.reduce((s, b) => s + b.length, 0) + GAP * (buffers.length - 1);
-  const output = new Float32Array(totalSamples); // zero-filled = silence
+  const totalSamples =
+    buffers.reduce((s, b) => s + b.length, 0) + GAP_SAMPLES * (buffers.length - 1);
+  const pcm = new Float32Array(totalSamples);
 
   let offset = 0;
   for (let i = 0; i < buffers.length; i++) {
     const buf = buffers[i];
-    // Downmix to mono
     const mono = new Float32Array(buf.length);
     for (let ch = 0; ch < buf.numberOfChannels; ch++) {
       const data = buf.getChannelData(ch);
       for (let j = 0; j < data.length; j++) mono[j] += data[j] / buf.numberOfChannels;
     }
-    output.set(mono, offset);
+    pcm.set(mono, offset);
     offset += mono.length;
-    if (i < buffers.length - 1) offset += GAP; // silence gap (already zeroed)
+    if (i < buffers.length - 1) offset += GAP_SAMPLES;
   }
 
-  const mp3Buffer = await encodeWithWorker(output, 44100);
-  return new Blob([mp3Buffer], { type: "audio/mpeg" });
+  // Yield so the "Mixing…" overlay renders before the sync WAV encode blocks.
+  await new Promise((r) => setTimeout(r, 0));
+
+  return new Blob([encodeWav(pcm, SAMPLE_RATE)], { type: "audio/wav" });
 }
 
-function encodeWithWorker(pcm: Float32Array, sampleRate: number): Promise<ArrayBuffer> {
-  return new Promise((resolve, reject) => {
-    const worker = new Worker(new URL("./lame-worker.ts", import.meta.url));
-    worker.onmessage = (e: MessageEvent<{ mp3: Uint8Array }>) => {
-      resolve(e.data.mp3.buffer as ArrayBuffer);
-      worker.terminate();
-    };
-    worker.onerror = (e) => {
-      reject(new Error(e.message ?? "lame-worker error"));
-      worker.terminate();
-    };
-    worker.postMessage({ pcm, sampleRate }, [pcm.buffer]);
-  });
+/** Encode mono Float32 PCM to a 16-bit WAV ArrayBuffer — no dependencies. */
+function encodeWav(pcm: Float32Array, sampleRate: number): ArrayBuffer {
+  const dataBytes = pcm.length * 2; // 16-bit = 2 bytes per sample
+  const buf = new ArrayBuffer(44 + dataBytes);
+  const view = new DataView(buf);
+
+  const str = (off: number, s: string) =>
+    [...s].forEach((c, i) => view.setUint8(off + i, c.charCodeAt(0)));
+
+  str(0, "RIFF");
+  view.setUint32(4, 36 + dataBytes, true);
+  str(8, "WAVE");
+  str(12, "fmt ");
+  view.setUint32(16, 16, true);       // fmt chunk size
+  view.setUint16(20, 1, true);        // PCM
+  view.setUint16(22, 1, true);        // mono
+  view.setUint32(24, sampleRate, true);
+  view.setUint32(28, sampleRate * 2, true); // byteRate = sampleRate × 1ch × 2bytes
+  view.setUint16(32, 2, true);        // blockAlign
+  view.setUint16(34, 16, true);       // bitsPerSample
+  str(36, "data");
+  view.setUint32(40, dataBytes, true);
+
+  let off = 44;
+  for (let i = 0; i < pcm.length; i++) {
+    const s = Math.max(-1, Math.min(1, pcm[i]));
+    view.setInt16(off, s < 0 ? s * 0x8000 : s * 0x7fff, true);
+    off += 2;
+  }
+  return buf;
 }

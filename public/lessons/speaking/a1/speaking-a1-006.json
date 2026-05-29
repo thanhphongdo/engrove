@@ -1,0 +1,291 @@
+{
+  "id": "speaking-a1-006",
+  "level": "A1",
+  "title": "At the bus station",
+  "summary": "A passenger asks about bus times and buys a ticket at the bus station.",
+  "topic": "Transport",
+  "tags": [
+    "Daily life",
+    "Transport",
+    "Travel"
+  ],
+  "characters": [
+    "Passenger",
+    "Agent"
+  ],
+  "voices": {
+    "Passenger": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-AvaNeural"
+    },
+    "Agent": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-SteffanNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Passenger",
+      "text": "Excuse me. When is the next bus to downtown?"
+    },
+    {
+      "speaker": "Agent",
+      "text": "The next bus is at three fifteen."
+    },
+    {
+      "speaker": "Passenger",
+      "text": "How long is the ride?"
+    },
+    {
+      "speaker": "Agent",
+      "text": "It takes about twenty minutes."
+    },
+    {
+      "speaker": "Passenger",
+      "text": "Can I buy a ticket here?"
+    },
+    {
+      "speaker": "Agent",
+      "text": "Yes, of course. One way or return?"
+    },
+    {
+      "speaker": "Passenger",
+      "text": "One way, please. How much is it?"
+    },
+    {
+      "speaker": "Agent",
+      "text": "It's three dollars."
+    },
+    {
+      "speaker": "Passenger",
+      "text": "Here you are."
+    },
+    {
+      "speaker": "Agent",
+      "text": "Thank you. Here is your ticket and your change."
+    },
+    {
+      "speaker": "Passenger",
+      "text": "Which platform does it leave from?"
+    },
+    {
+      "speaker": "Agent",
+      "text": "Platform four. It leaves in ten minutes."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Passenger",
+      "text": "Excuse me. When is the next bus to downtown?",
+      "durationMs": 3480,
+      "translationVi": "Xin lỗi. Chuyến xe buýt tiếp theo đến trung tâm thành phố là mấy giờ?"
+    },
+    {
+      "id": "s2",
+      "speaker": "Agent",
+      "text": "The next bus is at three fifteen.",
+      "durationMs": 2904,
+      "translationVi": "Chuyến tiếp theo lúc ba giờ mười lăm."
+    },
+    {
+      "id": "s3",
+      "speaker": "Passenger",
+      "text": "How long is the ride?",
+      "durationMs": 1584,
+      "translationVi": "Chuyến đi mất bao lâu ạ?"
+    },
+    {
+      "id": "s4",
+      "speaker": "Agent",
+      "text": "It takes about twenty minutes.",
+      "durationMs": 2544,
+      "translationVi": "Khoảng hai mươi phút."
+    },
+    {
+      "id": "s5",
+      "speaker": "Passenger",
+      "text": "Can I buy a ticket here?",
+      "durationMs": 1608,
+      "translationVi": "Tôi có thể mua vé ở đây không?"
+    },
+    {
+      "id": "s6",
+      "speaker": "Agent",
+      "text": "Yes, of course. One way or return?",
+      "durationMs": 3936,
+      "translationVi": "Vâng, được chứ. Một chiều hay khứ hồi?"
+    },
+    {
+      "id": "s7",
+      "speaker": "Passenger",
+      "text": "One way, please. How much is it?",
+      "durationMs": 2856,
+      "translationVi": "Một chiều thôi ạ. Bao nhiêu tiền?"
+    },
+    {
+      "id": "s8",
+      "speaker": "Agent",
+      "text": "It's three dollars.",
+      "durationMs": 2064,
+      "translationVi": "Ba đô la ạ."
+    },
+    {
+      "id": "s9",
+      "speaker": "Passenger",
+      "text": "Here you are.",
+      "durationMs": 1200,
+      "translationVi": "Đây ạ."
+    },
+    {
+      "id": "s10",
+      "speaker": "Agent",
+      "text": "Thank you. Here is your ticket and your change.",
+      "durationMs": 4224,
+      "translationVi": "Cảm ơn. Đây là vé và tiền thối của bạn."
+    },
+    {
+      "id": "s11",
+      "speaker": "Passenger",
+      "text": "Which platform does it leave from?",
+      "durationMs": 2184,
+      "translationVi": "Xe khởi hành ở bến nào ạ?"
+    },
+    {
+      "id": "s12",
+      "speaker": "Agent",
+      "text": "Platform four. It leaves in ten minutes.",
+      "durationMs": 3960,
+      "translationVi": "Bến bốn. Xe xuất phát sau mười phút nữa."
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "When is the next …?"
+    },
+    {
+      "id": "h2",
+      "text": "How long does it take to …?"
+    },
+    {
+      "id": "h3",
+      "text": "Which platform does … leave from?"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "downtown",
+      "meaningVi": "trung tâm thành phố",
+      "pronunciation": "/ˈdaʊntaʊn/"
+    },
+    {
+      "id": "v2",
+      "phrase": "one way",
+      "meaningVi": "một chiều",
+      "pronunciation": "/wʌn weɪ/"
+    },
+    {
+      "id": "v3",
+      "phrase": "return",
+      "meaningVi": "khứ hồi",
+      "pronunciation": "/rɪˈtɜːrn/"
+    },
+    {
+      "id": "v4",
+      "phrase": "platform",
+      "meaningVi": "bến/sân ga",
+      "pronunciation": "/ˈplætfɔːrm/"
+    },
+    {
+      "id": "v5",
+      "phrase": "change",
+      "meaningVi": "tiền thối lại",
+      "pronunciation": "/tʃeɪndʒ/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "the ride",
+      "meaningVi": "chuyến đi (bằng xe)",
+      "pronunciation": "/ðə raɪd/"
+    },
+    {
+      "phrase": "one way",
+      "meaningVi": "một chiều",
+      "pronunciation": "/wʌn weɪ/"
+    },
+    {
+      "phrase": "Here you are",
+      "meaningVi": "Đây ạ (khi đưa thứ gì)",
+      "pronunciation": "/hɪr juː ɑːr/"
+    },
+    {
+      "phrase": "your change",
+      "meaningVi": "tiền thối lại",
+      "pronunciation": "/jər tʃeɪndʒ/"
+    },
+    {
+      "phrase": "leaves from",
+      "meaningVi": "xuất phát từ",
+      "pronunciation": "/liːvz frɒm/"
+    },
+    {
+      "phrase": "When is the next bus",
+      "meaningVi": "Chuyến xe buýt tiếp theo là lúc nào?",
+      "pronunciation": "/wɛn ɪz ðə nɛkst bʌs/",
+      "exampleEn": "When is the next bus to the city center?"
+    },
+    {
+      "phrase": "How long is the ride?",
+      "meaningVi": "Hành trình mất bao lâu?",
+      "pronunciation": "/haʊ lɒŋ ɪz ðə raɪd/",
+      "exampleEn": "How long is the ride from here to downtown?"
+    },
+    {
+      "phrase": "return",
+      "meaningVi": "vé khứ hồi (đi và về)",
+      "pronunciation": "/rɪˈtɜːrn/",
+      "exampleEn": "One way or return ticket?"
+    },
+    {
+      "phrase": "platform",
+      "meaningVi": "sân ga / bến xe (nơi tàu/xe đến)",
+      "pronunciation": "/ˈplætfɔːrm/",
+      "exampleEn": "The bus leaves from platform four."
+    },
+    {
+      "phrase": "It leaves in ten minutes",
+      "meaningVi": "Xe khởi hành trong mười phút nữa",
+      "pronunciation": "/ɪt liːvz ɪn tɛn ˈmɪnɪts/",
+      "exampleEn": "Don't worry, it leaves in ten minutes."
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Asking about time with 'When is …?' and 'How long …?'",
+      "bodyVi": "Dùng 'When is …?' để hỏi thời điểm (ví dụ: 'When is the next bus?'). Dùng 'How long does it take?' để hỏi thời gian di chuyển.",
+      "bodyEn": "Use 'When is …?' to ask about a point in time (e.g. 'When is the next bus?'). Use 'How long does it take?' to ask about travel time."
+    },
+    {
+      "title": "'It takes …' for duration",
+      "bodyVi": "Dùng 'It takes [thời gian]' để nói về thời gian cần thiết. Ví dụ: 'It takes about twenty minutes.'",
+      "bodyEn": "Use 'It takes [time]' to describe how long something takes. Example: 'It takes about twenty minutes.'"
+    }
+  ],
+  "translationVi": "Hành khách: Xin lỗi. Chuyến xe buýt tiếp theo đến trung tâm thành phố là mấy giờ? Nhân viên: Chuyến tiếp theo lúc ba giờ mười lăm. Hành khách: Chuyến đi mất bao lâu? Nhân viên: Khoảng hai mươi phút. Hành khách: Tôi có thể mua vé ở đây không? Nhân viên: Vâng, được chứ. Một chiều hay khứ hồi? Hành khách: Một chiều thôi ạ. Bao nhiêu tiền? Nhân viên: Ba đô la ạ. Hành khách: Đây ạ. Nhân viên: Cảm ơn. Đây là vé và tiền thối của bạn. Hành khách: Xe khởi hành ở bến nào? Nhân viên: Bến bốn. Xe xuất phát sau mười phút nữa.",
+  "criticalThinkingQuestion": "What information is most important to find out when using public transport in an unfamiliar city?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-a1-006",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 32544
+}

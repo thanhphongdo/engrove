@@ -1,0 +1,661 @@
+{
+  "id": "speaking-c1-012",
+  "level": "C1",
+  "title": "Consulting a Specialist on Rare Disease Treatment",
+  "summary": "Dr. Nadia, a rare-disease specialist, consults with patient advocate Raymond about treatment options, clinical trial eligibility, and the ethical complexities surrounding compassionate-use access for a rare metabolic disorder.",
+  "topic": "Medical consultation",
+  "tags": [
+    "Medicine",
+    "Health",
+    "Ethics"
+  ],
+  "characters": [
+    "Nadia",
+    "Raymond"
+  ],
+  "voices": {
+    "Nadia": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-JennyNeural"
+    },
+    "Raymond": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-BrianNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Nadia",
+      "text": "Raymond, I've reviewed the genomic panel and the latest metabolic markers in detail. The diagnosis is consistent with a late-onset variant of the condition we suspected, which has significant implications for how we approach treatment."
+    },
+    {
+      "speaker": "Raymond",
+      "text": "I appreciate the thoroughness. My principal concern at this point is whether the recently published enzyme-replacement therapy data changes our calculus, given that the trial cohort had a very different phenotypic profile."
+    },
+    {
+      "speaker": "Nadia",
+      "text": "That's precisely the tension I was going to raise. The trial data is compelling within its cohort, but the external validity is genuinely questionable when we're dealing with a late-onset variant. The expression profile differs in ways that may attenuate therapeutic response."
+    },
+    {
+      "speaker": "Raymond",
+      "text": "So you'd characterise the evidence base as suggestive rather than conclusive for this presentation?"
+    },
+    {
+      "speaker": "Nadia",
+      "text": "That's a fair characterisation. What I can say is that the mechanistic rationale is sound — the enzyme deficit is demonstrably present and the replacement pathway is viable. The uncertainty lies in the magnitude and durability of response, not the direction."
+    },
+    {
+      "speaker": "Raymond",
+      "text": "Given that uncertainty, how do you weight the risk-benefit profile relative to the natural history of untreated disease? The progression data I've seen suggests a fairly steep functional decline curve over eighteen to twenty-four months."
+    },
+    {
+      "speaker": "Nadia",
+      "text": "That's exactly the right frame. In the context of a condition with that trajectory, even a modestly attenuated response would likely shift the risk-benefit calculus in favour of treatment. The adverse event profile in the trial was manageable, predominantly infusion-related reactions with no serious long-term sequelae reported at the two-year mark."
+    },
+    {
+      "speaker": "Raymond",
+      "text": "What about compassionate-use access? The therapy isn't yet approved in this jurisdiction, and the timeline for regulatory submission looks extended."
+    },
+    {
+      "speaker": "Nadia",
+      "text": "I've already initiated a compassionate-use application with the regulatory authority. The evidentiary threshold for approval is lower than full marketing authorisation — we need to demonstrate unmet medical need, no comparable alternative, and a reasonable safety profile. On all three counts, the case is strong."
+    },
+    {
+      "speaker": "Raymond",
+      "text": "Is there any prospect of enrolling in the expanded access cohort the manufacturer is running? I understand they're actively seeking patients with atypical presentations."
+    },
+    {
+      "speaker": "Nadia",
+      "text": "That's an avenue I've pursued. The inclusion criteria have recently been broadened, and I believe the late-onset profile would now qualify. The practical advantage of the expanded access route is that it's faster and it generates data that could benefit other patients with similar presentations."
+    },
+    {
+      "speaker": "Raymond",
+      "text": "The data-generation aspect is something I'm keenly interested in, but I want to ensure that the monitoring protocol is sufficiently granular to detect differential responses early. What's the biomarker surveillance plan?"
+    },
+    {
+      "speaker": "Nadia",
+      "text": "We'd be looking at a monthly metabolic panel for the first six months, with functional assessments at three-month intervals. If we see a sub-optimal response at the six-month mark — defined as less than a twenty percent improvement in the primary metabolic endpoint — we'd reassess the dosing regimen and consider adjunctive approaches."
+    },
+    {
+      "speaker": "Raymond",
+      "text": "That seems prudent. I'd also want to discuss neuroprotective strategies running in parallel, since the neurological dimension of the disease tends to be inadequately addressed in purely enzyme-focused protocols."
+    },
+    {
+      "speaker": "Nadia",
+      "text": "Agreed entirely. I'd suggest we integrate the neuroprotective component from the outset rather than reactively. There's emerging evidence for a co-administration protocol that has shown additive benefit without pharmacokinetic interference in two small case series."
+    },
+    {
+      "speaker": "Raymond",
+      "text": "The case series data is limited, but given the low risk profile, the precautionary logic seems sound. I'd want to see the full datasets before finalising, but in principle that approach is appealing."
+    },
+    {
+      "speaker": "Nadia",
+      "text": "I'll have the datasets and the full case report documentation on your desk by end of week. My recommendation is that we move forward with the compassionate-use application immediately while we assess expanded access eligibility in parallel."
+    },
+    {
+      "speaker": "Raymond",
+      "text": "That's a sensible dual-track approach. I'll coordinate with the patient's family on informed consent and ensure they understand both the evidentiary limitations and the genuine potential of this pathway."
+    },
+    {
+      "speaker": "Nadia",
+      "text": "I'd suggest we schedule a family meeting with the clinical ethics consultant present, given the complexity of the consent conversation. Transparency about uncertainty is essential, and having ethics support in the room tends to facilitate a more productive discussion."
+    },
+    {
+      "speaker": "Raymond",
+      "text": "I concur. I'll arrange that for early next week. Thank you, Nadia — this has been genuinely clarifying."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Nadia",
+      "text": "Raymond, I've reviewed the genomic panel and the latest metabolic markers in detail.",
+      "durationMs": 5424,
+      "translationVi": "Raymond, tôi đã xem xét kỹ bảng gen và các chỉ số chuyển hóa mới nhất."
+    },
+    {
+      "id": "s2",
+      "speaker": "Nadia",
+      "text": "The diagnosis is consistent with a late-onset variant of the condition we suspected, which has significant implications for how we approach treatment.",
+      "durationMs": 8904,
+      "translationVi": "Chẩn đoán phù hợp với một biến thể khởi phát muộn của tình trạng chúng tôi nghi ngờ, điều này có tác động đáng kể đến cách chúng ta tiếp cận điều trị."
+    },
+    {
+      "id": "s3",
+      "speaker": "Raymond",
+      "text": "I appreciate the thoroughness.",
+      "durationMs": 1992,
+      "translationVi": "Tôi đánh giá cao sự kỹ lưỡng đó."
+    },
+    {
+      "id": "s4",
+      "speaker": "Raymond",
+      "text": "My principal concern at this point is whether the recently published enzyme-replacement therapy data changes our calculus, given that the trial cohort had a very different phenotypic profile.",
+      "durationMs": 10224,
+      "translationVi": "Mối lo chính của tôi lúc này là liệu dữ liệu liệu pháp thay thế enzyme mới được công bố có thay đổi phép tính của chúng ta không, vì nhóm thử nghiệm có hồ sơ kiểu hình rất khác."
+    },
+    {
+      "id": "s5",
+      "speaker": "Nadia",
+      "text": "That's precisely the tension I was going to raise.",
+      "durationMs": 3552,
+      "translationVi": "Đó chính xác là sự căng thẳng mà tôi sắp nêu ra."
+    },
+    {
+      "id": "s6",
+      "speaker": "Nadia",
+      "text": "The trial data is compelling within its cohort, but the external validity is genuinely questionable when we're dealing with a late-onset variant.",
+      "durationMs": 8544,
+      "translationVi": "Dữ liệu thử nghiệm thuyết phục trong nhóm đó, nhưng tính hiệu lực bên ngoài thực sự đáng ngờ khi chúng ta đang xử lý biến thể khởi phát muộn."
+    },
+    {
+      "id": "s7",
+      "speaker": "Nadia",
+      "text": "The expression profile differs in ways that may attenuate therapeutic response.",
+      "durationMs": 5208,
+      "translationVi": "Hồ sơ biểu hiện khác nhau theo những cách có thể làm suy yếu phản ứng điều trị."
+    },
+    {
+      "id": "s8",
+      "speaker": "Raymond",
+      "text": "So you'd characterise the evidence base as suggestive rather than conclusive for this presentation?",
+      "durationMs": 5808,
+      "translationVi": "Vậy bạn sẽ mô tả cơ sở bằng chứng là gợi ý hơn là kết luận cho tình trạng này?"
+    },
+    {
+      "id": "s9",
+      "speaker": "Nadia",
+      "text": "That's a fair characterisation.",
+      "durationMs": 2664,
+      "translationVi": "Đó là một đặc trưng hợp lý."
+    },
+    {
+      "id": "s10",
+      "speaker": "Nadia",
+      "text": "What I can say is that the mechanistic rationale is sound — the enzyme deficit is demonstrably present and the replacement pathway is viable.",
+      "durationMs": 8520,
+      "translationVi": "Điều tôi có thể nói là cơ sở lý luận cơ chế là đúng đắn — sự thiếu hụt enzyme rõ ràng có mặt và con đường thay thế khả thi."
+    },
+    {
+      "id": "s11",
+      "speaker": "Nadia",
+      "text": "The uncertainty lies in the magnitude and durability of response, not the direction.",
+      "durationMs": 5568,
+      "translationVi": "Sự không chắc chắn nằm ở mức độ và độ bền của phản ứng, không phải hướng."
+    },
+    {
+      "id": "s12",
+      "speaker": "Raymond",
+      "text": "Given that uncertainty, how do you weight the risk-benefit profile relative to the natural history of untreated disease?",
+      "durationMs": 7056,
+      "translationVi": "Với sự không chắc chắn đó, bạn đánh giá hồ sơ rủi ro-lợi ích như thế nào so với tiến trình tự nhiên của bệnh không được điều trị?"
+    },
+    {
+      "id": "s13",
+      "speaker": "Raymond",
+      "text": "The progression data I've seen suggests a fairly steep functional decline curve over eighteen to twenty-four months.",
+      "durationMs": 6432,
+      "translationVi": "Dữ liệu tiến triển tôi đã thấy cho thấy đường cong suy giảm chức năng khá dốc trong vòng mười tám đến hai mươi bốn tháng."
+    },
+    {
+      "id": "s14",
+      "speaker": "Nadia",
+      "text": "That's exactly the right frame.",
+      "durationMs": 2616,
+      "translationVi": "Đó chính xác là khung phù hợp."
+    },
+    {
+      "id": "s15",
+      "speaker": "Nadia",
+      "text": "In the context of a condition with that trajectory, even a modestly attenuated response would likely shift the risk-benefit calculus in favour of treatment.",
+      "durationMs": 9504,
+      "translationVi": "Trong bối cảnh một tình trạng có quỹ đạo đó, ngay cả một phản ứng bị suy yếu vừa phải cũng có thể chuyển phép tính rủi ro-lợi ích sang ủng hộ điều trị."
+    },
+    {
+      "id": "s16",
+      "speaker": "Nadia",
+      "text": "The adverse event profile in the trial was manageable, predominantly infusion-related reactions with no serious long-term sequelae reported at the two-year mark.",
+      "durationMs": 9744,
+      "translationVi": "Hồ sơ biến cố bất lợi trong thử nghiệm có thể quản lý được, chủ yếu là phản ứng liên quan đến truyền dịch, không có di chứng nghiêm trọng lâu dài nào được báo cáo ở mốc hai năm."
+    },
+    {
+      "id": "s17",
+      "speaker": "Raymond",
+      "text": "What about compassionate-use access?",
+      "durationMs": 2592,
+      "translationVi": "Còn về quyền tiếp cận theo diện nhân đạo thì sao?"
+    },
+    {
+      "id": "s18",
+      "speaker": "Raymond",
+      "text": "The therapy isn't yet approved in this jurisdiction, and the timeline for regulatory submission looks extended.",
+      "durationMs": 6864,
+      "translationVi": "Liệu pháp này chưa được phê duyệt ở quyền hạn này, và thời gian cho đệ trình quy định có vẻ kéo dài."
+    },
+    {
+      "id": "s19",
+      "speaker": "Nadia",
+      "text": "I've already initiated a compassionate-use application with the regulatory authority.",
+      "durationMs": 5256,
+      "translationVi": "Tôi đã khởi xướng đơn xin tiếp cận nhân đạo với cơ quan quản lý."
+    },
+    {
+      "id": "s20",
+      "speaker": "Nadia",
+      "text": "The evidentiary threshold for approval is lower than full marketing authorisation — we need to demonstrate unmet medical need, no comparable alternative, and a reasonable safety profile.",
+      "durationMs": 11448,
+      "translationVi": "Ngưỡng bằng chứng để được phê duyệt thấp hơn ủy quyền tiếp thị đầy đủ — chúng tôi cần chứng minh nhu cầu y tế chưa được đáp ứng, không có lựa chọn thay thế tương đương, và hồ sơ an toàn hợp lý."
+    },
+    {
+      "id": "s21",
+      "speaker": "Nadia",
+      "text": "On all three counts, the case is strong.",
+      "durationMs": 3264,
+      "translationVi": "Trên cả ba tiêu chí, hồ sơ rất mạnh."
+    },
+    {
+      "id": "s22",
+      "speaker": "Raymond",
+      "text": "Is there any prospect of enrolling in the expanded access cohort the manufacturer is running?",
+      "durationMs": 5688,
+      "translationVi": "Có triển vọng nào tham gia vào nhóm tiếp cận mở rộng mà nhà sản xuất đang điều hành không?"
+    },
+    {
+      "id": "s23",
+      "speaker": "Raymond",
+      "text": "I understand they're actively seeking patients with atypical presentations.",
+      "durationMs": 4872,
+      "translationVi": "Tôi hiểu họ đang tích cực tìm kiếm bệnh nhân có biểu hiện không điển hình."
+    },
+    {
+      "id": "s24",
+      "speaker": "Nadia",
+      "text": "That's an avenue I've pursued.",
+      "durationMs": 2496,
+      "translationVi": "Đó là con đường tôi đã theo đuổi."
+    },
+    {
+      "id": "s25",
+      "speaker": "Nadia",
+      "text": "The inclusion criteria have recently been broadened, and I believe the late-onset profile would now qualify.",
+      "durationMs": 6528,
+      "translationVi": "Tiêu chí bao gồm gần đây đã được mở rộng, và tôi tin rằng hồ sơ khởi phát muộn bây giờ sẽ đủ điều kiện."
+    },
+    {
+      "id": "s26",
+      "speaker": "Nadia",
+      "text": "The practical advantage of the expanded access route is that it's faster and it generates data that could benefit other patients with similar presentations.",
+      "durationMs": 9024,
+      "translationVi": "Lợi thế thực tế của con đường tiếp cận mở rộng là nhanh hơn và tạo ra dữ liệu có thể mang lại lợi ích cho các bệnh nhân khác có biểu hiện tương tự."
+    },
+    {
+      "id": "s27",
+      "speaker": "Raymond",
+      "text": "The data-generation aspect is something I'm keenly interested in, but I want to ensure that the monitoring protocol is sufficiently granular to detect differential responses early.",
+      "durationMs": 9624,
+      "translationVi": "Khía cạnh tạo dữ liệu là điều tôi rất quan tâm, nhưng tôi muốn đảm bảo rằng giao thức giám sát đủ chi tiết để phát hiện sớm các phản ứng khác biệt."
+    },
+    {
+      "id": "s28",
+      "speaker": "Raymond",
+      "text": "What's the biomarker surveillance plan?",
+      "durationMs": 2544,
+      "translationVi": "Kế hoạch giám sát dấu ấn sinh học là gì?"
+    },
+    {
+      "id": "s29",
+      "speaker": "Nadia",
+      "text": "We'd be looking at a monthly metabolic panel for the first six months, with functional assessments at three-month intervals.",
+      "durationMs": 7416,
+      "translationVi": "Chúng tôi sẽ xem xét bảng chuyển hóa hàng tháng trong sáu tháng đầu, với đánh giá chức năng theo khoảng ba tháng."
+    },
+    {
+      "id": "s30",
+      "speaker": "Nadia",
+      "text": "If we see a sub-optimal response at the six-month mark — defined as less than a twenty percent improvement in the primary metabolic endpoint — we'd reassess the dosing regimen and consider adjunctive approaches.",
+      "durationMs": 12240,
+      "translationVi": "Nếu chúng tôi thấy phản ứng dưới mức tối ưu ở mốc sáu tháng — được định nghĩa là cải thiện dưới hai mươi phần trăm ở điểm kết thúc chuyển hóa chính — chúng tôi sẽ đánh giá lại phác đồ liều và xem xét các phương pháp bổ trợ."
+    },
+    {
+      "id": "s31",
+      "speaker": "Raymond",
+      "text": "That seems prudent.",
+      "durationMs": 1536,
+      "translationVi": "Điều đó có vẻ thận trọng."
+    },
+    {
+      "id": "s32",
+      "speaker": "Raymond",
+      "text": "I'd also want to discuss neuroprotective strategies running in parallel, since the neurological dimension of the disease tends to be inadequately addressed in purely enzyme-focused protocols.",
+      "durationMs": 10608,
+      "translationVi": "Tôi cũng muốn thảo luận về các chiến lược bảo vệ thần kinh song song, vì khía cạnh thần kinh của bệnh thường không được giải quyết đầy đủ trong các giao thức tập trung thuần túy vào enzyme."
+    },
+    {
+      "id": "s33",
+      "speaker": "Nadia",
+      "text": "Agreed entirely.",
+      "durationMs": 2136,
+      "translationVi": "Hoàn toàn đồng ý."
+    },
+    {
+      "id": "s34",
+      "speaker": "Nadia",
+      "text": "I'd suggest we integrate the neuroprotective component from the outset rather than reactively.",
+      "durationMs": 5616,
+      "translationVi": "Tôi đề nghị chúng ta tích hợp thành phần bảo vệ thần kinh ngay từ đầu thay vì phản ứng."
+    },
+    {
+      "id": "s35",
+      "speaker": "Nadia",
+      "text": "There's emerging evidence for a co-administration protocol that has shown additive benefit without pharmacokinetic interference in two small case series.",
+      "durationMs": 8760,
+      "translationVi": "Có bằng chứng mới nổi về giao thức đồng quản trị đã cho thấy lợi ích bổ sung mà không có sự cản trở dược động học trong hai loạt trường hợp nhỏ."
+    },
+    {
+      "id": "s36",
+      "speaker": "Raymond",
+      "text": "The case series data is limited, but given the low risk profile, the precautionary logic seems sound.",
+      "durationMs": 6168,
+      "translationVi": "Dữ liệu loạt trường hợp còn hạn chế, nhưng với hồ sơ rủi ro thấp, logic phòng ngừa có vẻ đúng đắn."
+    },
+    {
+      "id": "s37",
+      "speaker": "Raymond",
+      "text": "I'd want to see the full datasets before finalising, but in principle that approach is appealing.",
+      "durationMs": 5976,
+      "translationVi": "Tôi muốn xem toàn bộ dữ liệu trước khi hoàn thiện, nhưng về nguyên tắc cách tiếp cận đó hấp dẫn."
+    },
+    {
+      "id": "s38",
+      "speaker": "Nadia",
+      "text": "I'll have the datasets and the full case report documentation on your desk by end of week.",
+      "durationMs": 5640,
+      "translationVi": "Tôi sẽ có bộ dữ liệu và toàn bộ tài liệu báo cáo trường hợp trên bàn của bạn trước cuối tuần."
+    },
+    {
+      "id": "s39",
+      "speaker": "Nadia",
+      "text": "My recommendation is that we move forward with the compassionate-use application immediately while we assess expanded access eligibility in parallel.",
+      "durationMs": 8856,
+      "translationVi": "Đề xuất của tôi là chúng ta tiến hành đơn xin tiếp cận nhân đạo ngay lập tức trong khi đánh giá tính đủ điều kiện tiếp cận mở rộng song song."
+    },
+    {
+      "id": "s40",
+      "speaker": "Raymond",
+      "text": "That's a sensible dual-track approach.",
+      "durationMs": 2544,
+      "translationVi": "Đó là cách tiếp cận hai hướng hợp lý."
+    },
+    {
+      "id": "s41",
+      "speaker": "Raymond",
+      "text": "I'll coordinate with the patient's family on informed consent and ensure they understand both the evidentiary limitations and the genuine potential of this pathway.",
+      "durationMs": 9096,
+      "translationVi": "Tôi sẽ phối hợp với gia đình bệnh nhân về sự đồng ý có hiểu biết và đảm bảo họ hiểu cả giới hạn bằng chứng và tiềm năng thực sự của con đường này."
+    },
+    {
+      "id": "s42",
+      "speaker": "Nadia",
+      "text": "I'd suggest we schedule a family meeting with the clinical ethics consultant present, given the complexity of the consent conversation.",
+      "durationMs": 8184,
+      "translationVi": "Tôi đề nghị chúng ta lên lịch họp gia đình với chuyên gia tư vấn đạo đức lâm sàng có mặt, vì sự phức tạp của cuộc trò chuyện đồng ý."
+    },
+    {
+      "id": "s43",
+      "speaker": "Nadia",
+      "text": "Transparency about uncertainty is essential, and having ethics support in the room tends to facilitate a more productive discussion.",
+      "durationMs": 7824,
+      "translationVi": "Tính minh bạch về sự không chắc chắn là cần thiết, và có sự hỗ trợ đạo đức trong phòng có xu hướng tạo điều kiện cho cuộc thảo luận hiệu quả hơn."
+    },
+    {
+      "id": "s44",
+      "speaker": "Raymond",
+      "text": "I concur.",
+      "durationMs": 1032,
+      "translationVi": "Tôi đồng ý."
+    },
+    {
+      "id": "s45",
+      "speaker": "Raymond",
+      "text": "I'll arrange that for early next week.",
+      "durationMs": 2544,
+      "translationVi": "Tôi sẽ sắp xếp điều đó cho đầu tuần tới."
+    },
+    {
+      "id": "s46",
+      "speaker": "Raymond",
+      "text": "Thank you, Nadia — this has been genuinely clarifying.",
+      "durationMs": 3576,
+      "translationVi": "Cảm ơn, Nadia — cuộc trò chuyện này thực sự rất sáng tỏ."
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "The uncertainty lies in … not …"
+    },
+    {
+      "id": "h2",
+      "text": "In the context of a condition with that trajectory, …"
+    },
+    {
+      "id": "h3",
+      "text": "I'd suggest we integrate … from the outset rather than …"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "compassionate-use access",
+      "meaningVi": "quyền tiếp cận thuốc theo diện nhân đạo",
+      "pronunciation": "/ˈkæmpæʃənɪt juːs ˈæksɛs/"
+    },
+    {
+      "id": "v2",
+      "phrase": "external validity",
+      "meaningVi": "tính hiệu lực bên ngoài (khả năng tổng quát hóa)",
+      "pronunciation": "/ɪkˈstɜːrnəl vəˈlɪdɪti/"
+    },
+    {
+      "id": "v3",
+      "phrase": "phenotypic profile",
+      "meaningVi": "hồ sơ kiểu hình",
+      "pronunciation": "/ˌfiːnəˈtɪpɪk ˈproʊfaɪl/"
+    },
+    {
+      "id": "v4",
+      "phrase": "sequelae",
+      "meaningVi": "di chứng (hậu quả y tế lâu dài)",
+      "pronunciation": "/sɪˈkwɛliː/"
+    },
+    {
+      "id": "v5",
+      "phrase": "pharmacokinetic interference",
+      "meaningVi": "sự cản trở dược động học",
+      "pronunciation": "/ˌfɑːrməkoʊkɪˈnɛtɪk ˌɪntərˈfɪərəns/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "risk-benefit calculus",
+      "meaningVi": "phép tính cân nhắc rủi ro-lợi ích",
+      "pronunciation": "/rɪsk ˈbɛnɪfɪt ˈkælkjʊləs/"
+    },
+    {
+      "phrase": "attenuate",
+      "meaningVi": "làm giảm nhẹ, làm suy yếu",
+      "pronunciation": "/əˈtɛnjueɪt/"
+    },
+    {
+      "phrase": "unmet medical need",
+      "meaningVi": "nhu cầu y tế chưa được đáp ứng",
+      "pronunciation": "/ˌʌnˈmɛt ˈmɛdɪkəl niːd/"
+    },
+    {
+      "phrase": "adjunctive approaches",
+      "meaningVi": "các phương pháp bổ trợ",
+      "pronunciation": "/əˈdʒʌŋktɪv əˈproʊtʃɪz/"
+    },
+    {
+      "phrase": "informed consent",
+      "meaningVi": "sự đồng ý có hiểu biết (y đức)",
+      "pronunciation": "/ɪnˈfɔːrmd kənˈsɛnt/"
+    },
+    {
+      "phrase": "genomic panel",
+      "meaningVi": "bảng xét nghiệm gen (y học chính xác)",
+      "pronunciation": "/dʒɪˈnoʊmɪk ˈpænəl/"
+    },
+    {
+      "phrase": "late-onset variant",
+      "meaningVi": "biến thể khởi phát muộn (y học)",
+      "pronunciation": "/leɪt ˈɒnsɛt ˈvɛəriənt/"
+    },
+    {
+      "phrase": "enzyme-replacement therapy",
+      "meaningVi": "liệu pháp thay thế enzyme",
+      "pronunciation": "/ˈɛnzaɪm rɪˈpleɪsmənt ˈθɛrəpi/"
+    },
+    {
+      "phrase": "external validity",
+      "meaningVi": "giá trị ngoại suy (phương pháp nghiên cứu)",
+      "pronunciation": "/ɪkˈstɜːrnəl vəˈlɪdɪti/"
+    },
+    {
+      "phrase": "phenotypic profile",
+      "meaningVi": "hồ sơ kiểu hình (y học/di truyền)",
+      "pronunciation": "/ˌfiːnoʊˈtɪpɪk ˈproʊfaɪl/"
+    },
+    {
+      "phrase": "compassionate-use application",
+      "meaningVi": "đơn xin sử dụng thuốc theo chương trình nhân đạo",
+      "pronunciation": "/kəmˈpæʃənɪt juːs ˌæplɪˈkeɪʃən/"
+    },
+    {
+      "phrase": "expanded access cohort",
+      "meaningVi": "nhóm tiếp cận mở rộng (thử nghiệm lâm sàng)",
+      "pronunciation": "/ɪkˈspændɪd ˈæksɛs ˈkoʊhɔːrt/"
+    },
+    {
+      "phrase": "biomarker surveillance plan",
+      "meaningVi": "kế hoạch giám sát chỉ dấu sinh học",
+      "pronunciation": "/ˈbaɪoʊˌmɑːrkər sərˈveɪləns plæn/"
+    },
+    {
+      "phrase": "neuroprotective strategies",
+      "meaningVi": "các chiến lược bảo vệ thần kinh",
+      "pronunciation": "/ˌnjʊəroʊprəˈtɛktɪv ˈstrætɪdʒiz/"
+    },
+    {
+      "phrase": "pharmacokinetic interference",
+      "meaningVi": "tương tác dược động học",
+      "pronunciation": "/ˌfɑːrməkoʊˌkaɪˈnɛtɪk ˌɪntərˈfɪərəns/"
+    },
+    {
+      "phrase": "clinical ethics consultant",
+      "meaningVi": "chuyên gia tư vấn đạo đức lâm sàng",
+      "pronunciation": "/ˈklɪnɪkəl ˈɛθɪks kənˈsʌltənt/"
+    },
+    {
+      "phrase": "evidentiary limitations",
+      "meaningVi": "giới hạn của bằng chứng (y học/pháp lý)",
+      "pronunciation": "/ˌɛvɪˈdɛnʃəri ˌlɪmɪˈteɪʃənz/"
+    },
+    {
+      "phrase": "dual-track approach",
+      "meaningVi": "cách tiếp cận song song hai hướng",
+      "pronunciation": "/djuːəl træk əˈproʊtʃ/"
+    },
+    {
+      "phrase": "mechanistic rationale",
+      "meaningVi": "cơ sở lý luận về cơ chế tác động",
+      "pronunciation": "/ˌmɛkəˈnɪstɪk ˈræʃənəl/"
+    },
+    {
+      "phrase": "expression profile",
+      "meaningVi": "hồ sơ biểu hiện gen",
+      "pronunciation": "/ɪkˈsprɛʃən ˈproʊfaɪl/"
+    },
+    {
+      "phrase": "additive benefit",
+      "meaningVi": "lợi ích cộng thêm (khi dùng phối hợp)",
+      "pronunciation": "/ˈædɪtɪv ˈbɛnɪfɪt/"
+    },
+    {
+      "phrase": "functional decline curve",
+      "meaningVi": "đường cong suy giảm chức năng",
+      "pronunciation": "/ˈfʌŋkʃənl dɪˈklaɪn kɜːrv/"
+    },
+    {
+      "phrase": "sub-optimal response",
+      "meaningVi": "phản ứng dưới mức tối ưu",
+      "pronunciation": "/sʌb ˌɒptɪməl rɪˈspɒns/"
+    },
+    {
+      "phrase": "regulatory submission",
+      "meaningVi": "hồ sơ nộp lên cơ quan quản lý",
+      "pronunciation": "/ˈrɛɡjulətɔːri səbˈmɪʃən/"
+    },
+    {
+      "phrase": "metabolic markers",
+      "meaningVi": "các chỉ dấu chuyển hóa (xét nghiệm)",
+      "pronunciation": "/ˌmɛtəˈbɒlɪk ˈmɑːrkərz/"
+    },
+    {
+      "phrase": "therapeutic response",
+      "meaningVi": "phản ứng điều trị",
+      "pronunciation": "/ˌθɛrəˈpjuːtɪk rɪˈspɒns/"
+    },
+    {
+      "phrase": "evidence base",
+      "meaningVi": "nền tảng bằng chứng (y học dựa trên bằng chứng)",
+      "pronunciation": "/ˈɛvɪdəns beɪs/"
+    },
+    {
+      "phrase": "adverse event profile",
+      "meaningVi": "hồ sơ các sự cố bất lợi (y học)",
+      "pronunciation": "/ˈædvɜːrs ɪˈvɛnt ˈproʊfaɪl/"
+    },
+    {
+      "phrase": "infusion-related reactions",
+      "meaningVi": "phản ứng liên quan đến truyền thuốc",
+      "pronunciation": "/ɪnˈfjuːʒən rɪˈleɪtɪd riˈækʃənz/"
+    },
+    {
+      "phrase": "marketing authorisation",
+      "meaningVi": "giấy phép lưu hành (thuốc)",
+      "pronunciation": "/ˈmɑːrkɪtɪŋ ˌɔːθəraɪˈzeɪʃən/"
+    },
+    {
+      "phrase": "clinical ethics",
+      "meaningVi": "đạo đức lâm sàng",
+      "pronunciation": "/ˈklɪnɪkəl ˈɛθɪks/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Epistemic hedging: 'suggestive rather than conclusive'",
+      "bodyVi": "Trong ngôn ngữ học thuật và y khoa, 'suggestive rather than conclusive' phân biệt bằng chứng gợi ý với bằng chứng xác định. Cấu trúc 'X rather than Y' là cách tinh tế để định vị mức độ chắc chắn.",
+      "bodyEn": "'Suggestive rather than conclusive' distinguishes indicative from definitive evidence. The 'X rather than Y' structure is a precise epistemic hedge that signals the speaker's confidence level without overstating or understating the data."
+    },
+    {
+      "title": "Dual-track framing: 'in parallel' and 'from the outset'",
+      "bodyVi": "'In parallel' (song song) và 'from the outset' (ngay từ đầu) là hai cụm thời gian phổ biến trong văn phong chuyên môn để mô tả cách phối hợp các hành động đồng thời hoặc lập kế hoạch chủ động.",
+      "bodyEn": "'In parallel' and 'from the outset' are professional register time phrases. 'In parallel' signals simultaneous tracks; 'from the outset' emphasizes proactive planning rather than reactive response — both common in medical and strategic discourse."
+    }
+  ],
+  "translationVi": "Nadia: Raymond, tôi đã xem xét kỹ bảng gen và các chỉ số chuyển hóa mới nhất. Chẩn đoán phù hợp với một biến thể khởi phát muộn của tình trạng chúng tôi nghi ngờ, điều này có tác động đáng kể đến cách chúng ta tiếp cận điều trị. Raymond: Tôi đánh giá cao sự kỹ lưỡng đó. Mối lo chính của tôi lúc này là liệu dữ liệu liệu pháp thay thế enzyme mới được công bố có thay đổi phép tính của chúng ta không, vì nhóm thử nghiệm có hồ sơ kiểu hình rất khác. Nadia: Đó chính xác là sự căng thẳng mà tôi sắp nêu ra. Dữ liệu thử nghiệm thuyết phục trong nhóm đó, nhưng tính hiệu lực bên ngoài thực sự đáng ngờ khi chúng ta đang xử lý biến thể khởi phát muộn. Hồ sơ biểu hiện khác nhau theo những cách có thể làm suy yếu phản ứng điều trị. Raymond: Vậy bạn sẽ mô tả cơ sở bằng chứng là gợi ý hơn là kết luận cho tình trạng này? Nadia: Đó là một đặc trưng hợp lý. Điều tôi có thể nói là cơ sở lý luận cơ chế là đúng đắn — sự thiếu hụt enzyme rõ ràng có mặt và con đường thay thế khả thi. Sự không chắc chắn nằm ở mức độ và độ bền của phản ứng, không phải hướng. Raymond: Với sự không chắc chắn đó, bạn đánh giá hồ sơ rủi ro-lợi ích như thế nào so với tiến trình tự nhiên của bệnh không được điều trị? Dữ liệu tiến triển tôi đã thấy cho thấy đường cong suy giảm chức năng khá dốc trong vòng mười tám đến hai mươi bốn tháng. Nadia: Đó chính xác là khung phù hợp. Trong bối cảnh một tình trạng có quỹ đạo đó, ngay cả một phản ứng bị suy yếu vừa phải cũng có thể chuyển phép tính rủi ro-lợi ích sang ủng hộ điều trị. Hồ sơ biến cố bất lợi trong thử nghiệm có thể quản lý được, chủ yếu là phản ứng liên quan đến truyền dịch, không có di chứng nghiêm trọng lâu dài nào được báo cáo ở mốc hai năm. Raymond: Còn về quyền tiếp cận theo diện nhân đạo thì sao? Liệu pháp này chưa được phê duyệt ở quyền hạn này, và thời gian cho đệ trình quy định có vẻ kéo dài. Nadia: Tôi đã khởi xướng đơn xin tiếp cận nhân đạo với cơ quan quản lý. Ngưỡng bằng chứng để được phê duyệt thấp hơn ủy quyền tiếp thị đầy đủ — chúng tôi cần chứng minh nhu cầu y tế chưa được đáp ứng, không có lựa chọn thay thế tương đương, và hồ sơ an toàn hợp lý. Trên cả ba tiêu chí, hồ sơ rất mạnh. Raymond: Có triển vọng nào tham gia vào nhóm tiếp cận mở rộng mà nhà sản xuất đang điều hành không? Tôi hiểu họ đang tích cực tìm kiếm bệnh nhân có biểu hiện không điển hình. Nadia: Đó là con đường tôi đã theo đuổi. Tiêu chí bao gồm gần đây đã được mở rộng, và tôi tin rằng hồ sơ khởi phát muộn bây giờ sẽ đủ điều kiện. Lợi thế thực tế của con đường tiếp cận mở rộng là nhanh hơn và tạo ra dữ liệu có thể mang lại lợi ích cho các bệnh nhân khác có biểu hiện tương tự. Raymond: Khía cạnh tạo dữ liệu là điều tôi rất quan tâm, nhưng tôi muốn đảm bảo rằng giao thức giám sát đủ chi tiết để phát hiện sớm các phản ứng khác biệt. Kế hoạch giám sát dấu ấn sinh học là gì? Nadia: Chúng tôi sẽ xem xét bảng chuyển hóa hàng tháng trong sáu tháng đầu, với đánh giá chức năng theo khoảng ba tháng. Nếu chúng tôi thấy phản ứng dưới mức tối ưu ở mốc sáu tháng — được định nghĩa là cải thiện dưới hai mươi phần trăm ở điểm kết thúc chuyển hóa chính — chúng tôi sẽ đánh giá lại phác đồ liều và xem xét các phương pháp bổ trợ. Raymond: Điều đó có vẻ thận trọng. Tôi cũng muốn thảo luận về các chiến lược bảo vệ thần kinh song song, vì khía cạnh thần kinh của bệnh thường không được giải quyết đầy đủ trong các giao thức tập trung thuần túy vào enzyme. Nadia: Hoàn toàn đồng ý. Tôi đề nghị chúng ta tích hợp thành phần bảo vệ thần kinh ngay từ đầu thay vì phản ứng. Có bằng chứng mới nổi về giao thức đồng quản trị đã cho thấy lợi ích bổ sung mà không có sự cản trở dược động học trong hai loạt trường hợp nhỏ. Raymond: Dữ liệu loạt trường hợp còn hạn chế, nhưng với hồ sơ rủi ro thấp, logic phòng ngừa có vẻ đúng đắn. Tôi muốn xem toàn bộ dữ liệu trước khi hoàn thiện, nhưng về nguyên tắc cách tiếp cận đó hấp dẫn. Nadia: Tôi sẽ có bộ dữ liệu và toàn bộ tài liệu báo cáo trường hợp trên bàn của bạn trước cuối tuần. Đề xuất của tôi là chúng ta tiến hành đơn xin tiếp cận nhân đạo ngay lập tức trong khi đánh giá tính đủ điều kiện tiếp cận mở rộng song song. Raymond: Đó là cách tiếp cận hai hướng hợp lý. Tôi sẽ phối hợp với gia đình bệnh nhân về sự đồng ý có hiểu biết và đảm bảo họ hiểu cả giới hạn bằng chứng và tiềm năng thực sự của con đường này. Nadia: Tôi đề nghị chúng ta lên lịch họp gia đình với chuyên gia tư vấn đạo đức lâm sàng có mặt, vì sự phức tạp của cuộc trò chuyện đồng ý. Tính minh bạch về sự không chắc chắn là cần thiết, và có sự hỗ trợ đạo đức trong phòng có xu hướng tạo điều kiện cho cuộc thảo luận hiệu quả hơn. Raymond: Tôi đồng ý. Tôi sẽ sắp xếp điều đó cho đầu tuần tới. Cảm ơn, Nadia — cuộc trò chuyện này thực sự rất sáng tỏ.",
+  "criticalThinkingQuestion": "When robust trial data is absent for a rare disease presentation, how should clinicians balance the duty to 'do no harm' against the obligation to act in the patient's best interests given a deteriorating natural history?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-c1-012",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 281712
+}

@@ -30,7 +30,7 @@ export function MixResultCard({ mp3Blob, durationMs, lessonTitle, criticalThinki
     if (!url) return;
     const a = document.createElement("a");
     a.href = url;
-    a.download = `${lessonTitle.replace(/\s+/g, "-").toLowerCase()}-practice.mp3`;
+    a.download = `${lessonTitle.replace(/\s+/g, "-").toLowerCase()}-practice.wav`;
     a.click();
   }
 
@@ -54,7 +54,7 @@ export function MixResultCard({ mp3Blob, durationMs, lessonTitle, criticalThinki
         className="inline-flex items-center gap-2 rounded-md border px-3 py-1.5 text-sm hover:bg-accent"
       >
         <Download className="size-4" aria-hidden="true" />
-        Download .mp3
+        Download .wav
       </button>
 
       {criticalThinkingQuestion && (

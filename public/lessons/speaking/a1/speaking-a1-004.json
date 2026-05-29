@@ -1,0 +1,290 @@
+{
+  "id": "speaking-a1-004",
+  "level": "A1",
+  "title": "Asking for directions",
+  "summary": "A tourist asks a local how to get to the train station.",
+  "topic": "Directions",
+  "tags": [
+    "Daily life",
+    "Travel",
+    "City"
+  ],
+  "characters": [
+    "Tourist",
+    "Local"
+  ],
+  "voices": {
+    "Tourist": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-EmmaNeural"
+    },
+    "Local": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-EricNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Tourist",
+      "text": "Excuse me. Is the train station near here?"
+    },
+    {
+      "speaker": "Local",
+      "text": "Yes, it's about ten minutes on foot."
+    },
+    {
+      "speaker": "Tourist",
+      "text": "Can you tell me the way, please?"
+    },
+    {
+      "speaker": "Local",
+      "text": "Sure. Go straight down this street."
+    },
+    {
+      "speaker": "Tourist",
+      "text": "And then?"
+    },
+    {
+      "speaker": "Local",
+      "text": "Turn left at the traffic lights."
+    },
+    {
+      "speaker": "Tourist",
+      "text": "Turn left at the traffic lights. Got it."
+    },
+    {
+      "speaker": "Local",
+      "text": "Then you'll see a big park on your right."
+    },
+    {
+      "speaker": "Tourist",
+      "text": "Is the station next to the park?"
+    },
+    {
+      "speaker": "Local",
+      "text": "Yes, it's right behind the park."
+    },
+    {
+      "speaker": "Tourist",
+      "text": "Thank you so much. You're very kind."
+    },
+    {
+      "speaker": "Local",
+      "text": "No problem. Enjoy your trip!"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Tourist",
+      "text": "Excuse me. Is the train station near here?",
+      "durationMs": 3312,
+      "translationVi": "Xin lỗi. Ga tàu có gần đây không?"
+    },
+    {
+      "id": "s2",
+      "speaker": "Local",
+      "text": "Yes, it's about ten minutes on foot.",
+      "durationMs": 3288,
+      "translationVi": "Vâng, khoảng mười phút đi bộ."
+    },
+    {
+      "id": "s3",
+      "speaker": "Tourist",
+      "text": "Can you tell me the way, please?",
+      "durationMs": 1992,
+      "translationVi": "Bạn có thể chỉ đường cho tôi không?"
+    },
+    {
+      "id": "s4",
+      "speaker": "Local",
+      "text": "Sure. Go straight down this street.",
+      "durationMs": 3888,
+      "translationVi": "Được chứ. Đi thẳng con đường này."
+    },
+    {
+      "id": "s5",
+      "speaker": "Tourist",
+      "text": "And then?",
+      "durationMs": 912,
+      "translationVi": "Rồi sau đó thì sao?"
+    },
+    {
+      "id": "s6",
+      "speaker": "Local",
+      "text": "Turn left at the traffic lights.",
+      "durationMs": 2784,
+      "translationVi": "Rẽ trái ở đèn giao thông."
+    },
+    {
+      "id": "s7",
+      "speaker": "Tourist",
+      "text": "Turn left at the traffic lights. Got it.",
+      "durationMs": 3072,
+      "translationVi": "Rẽ trái ở đèn giao thông. Hiểu rồi."
+    },
+    {
+      "id": "s8",
+      "speaker": "Local",
+      "text": "Then you'll see a big park on your right.",
+      "durationMs": 3024,
+      "translationVi": "Sau đó bạn sẽ thấy một công viên lớn bên phải."
+    },
+    {
+      "id": "s9",
+      "speaker": "Tourist",
+      "text": "Is the station next to the park?",
+      "durationMs": 2160,
+      "translationVi": "Ga có ở cạnh công viên không?"
+    },
+    {
+      "id": "s10",
+      "speaker": "Local",
+      "text": "Yes, it's right behind the park.",
+      "durationMs": 3120,
+      "translationVi": "Vâng, ga ở ngay phía sau công viên."
+    },
+    {
+      "id": "s11",
+      "speaker": "Tourist",
+      "text": "Thank you so much. You're very kind.",
+      "durationMs": 2784,
+      "translationVi": "Cảm ơn rất nhiều. Bạn thật tốt bụng."
+    },
+    {
+      "id": "s12",
+      "speaker": "Local",
+      "text": "No problem. Enjoy your trip!",
+      "durationMs": 3720,
+      "translationVi": "Không có gì. Chúc bạn có chuyến đi vui!"
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "Can you tell me the way to …?"
+    },
+    {
+      "id": "h2",
+      "text": "Is … near here?"
+    },
+    {
+      "id": "h3",
+      "text": "How far is …?"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "on foot",
+      "meaningVi": "đi bộ",
+      "pronunciation": "/ɒn fʊt/"
+    },
+    {
+      "id": "v2",
+      "phrase": "Go straight",
+      "meaningVi": "Đi thẳng",
+      "pronunciation": "/ɡoʊ streɪt/"
+    },
+    {
+      "id": "v3",
+      "phrase": "traffic lights",
+      "meaningVi": "đèn giao thông",
+      "pronunciation": "/ˈtræfɪk laɪts/"
+    },
+    {
+      "id": "v4",
+      "phrase": "on your right",
+      "meaningVi": "bên phải của bạn",
+      "pronunciation": "/ɒn jər raɪt/"
+    },
+    {
+      "id": "v5",
+      "phrase": "right behind",
+      "meaningVi": "ngay phía sau",
+      "pronunciation": "/raɪt bɪˈhaɪnd/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "near here",
+      "meaningVi": "gần đây",
+      "pronunciation": "/nɪr hɪr/"
+    },
+    {
+      "phrase": "Go straight",
+      "meaningVi": "Đi thẳng",
+      "pronunciation": "/ɡoʊ streɪt/"
+    },
+    {
+      "phrase": "Turn left",
+      "meaningVi": "Rẽ trái",
+      "pronunciation": "/tɜːrn lɛft/"
+    },
+    {
+      "phrase": "traffic lights",
+      "meaningVi": "đèn giao thông",
+      "pronunciation": "/ˈtræfɪk laɪts/"
+    },
+    {
+      "phrase": "Got it",
+      "meaningVi": "Hiểu rồi",
+      "pronunciation": "/ɡɒt ɪt/"
+    },
+    {
+      "phrase": "No problem",
+      "meaningVi": "Không có vấn đề gì",
+      "pronunciation": "/noʊ ˈprɒbləm/"
+    },
+    {
+      "phrase": "Excuse me",
+      "meaningVi": "Xin lỗi (để hỏi người lạ)",
+      "pronunciation": "/ɪkˈskjuːz miː/",
+      "exampleEn": "Excuse me, where is the bank?"
+    },
+    {
+      "phrase": "on foot",
+      "meaningVi": "đi bộ",
+      "pronunciation": "/ɒn fʊt/",
+      "exampleEn": "It's ten minutes on foot."
+    },
+    {
+      "phrase": "Can you tell me the way",
+      "meaningVi": "Bạn có thể chỉ đường cho tôi không?",
+      "pronunciation": "/kæn juː tɛl miː ðə weɪ/",
+      "exampleEn": "Can you tell me the way to the station?"
+    },
+    {
+      "phrase": "on your right",
+      "meaningVi": "ở phía bên phải của bạn",
+      "pronunciation": "/ɒn jɔːr raɪt/",
+      "exampleEn": "The park is on your right."
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Imperative for directions",
+      "bodyVi": "Dùng động từ nguyên thể (không có 'to') khi chỉ đường. Ví dụ: 'Go straight.', 'Turn left.', 'Cross the road.'",
+      "bodyEn": "Use the base verb (imperative) when giving directions. Examples: 'Go straight.', 'Turn left.', 'Cross the road.'"
+    },
+    {
+      "title": "Prepositions of place: next to, behind, on the right",
+      "bodyVi": "Dùng 'next to' (cạnh), 'behind' (phía sau), 'on the right/left' (bên phải/trái) để mô tả vị trí.",
+      "bodyEn": "Use 'next to', 'behind', 'on the right/left' to describe where things are."
+    }
+  ],
+  "translationVi": "Khách du lịch: Xin lỗi. Ga tàu có gần đây không? Người dân: Vâng, khoảng mười phút đi bộ. Khách du lịch: Bạn có thể chỉ đường cho tôi không? Người dân: Được chứ. Đi thẳng con đường này. Khách du lịch: Rồi sau đó? Người dân: Rẽ trái ở đèn giao thông. Khách du lịch: Rẽ trái ở đèn giao thông. Hiểu rồi. Người dân: Sau đó bạn sẽ thấy một công viên lớn bên phải. Khách du lịch: Ga có ở cạnh công viên không? Người dân: Vâng, ga ở ngay phía sau công viên. Khách du lịch: Cảm ơn rất nhiều. Bạn thật tốt bụng. Người dân: Không có gì. Chúc bạn có chuyến đi vui!",
+  "criticalThinkingQuestion": "Why is it helpful to repeat directions back to the person who gave them to you?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-a1-004",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 34056
+}

@@ -150,7 +150,7 @@ export function InlinePlaybackBar({
           aria-label={audioPending ? "audio pending" : `Play all ${fmtDuration(totalDurationMs!)}`}
           onClick={() => playAll(lessonId, cdnBase, sentences, undefined, manifestVersion)}
           disabled={audioPending}
-          className="inline-flex items-center gap-1.5 rounded-md border border-input bg-background px-3 py-1.5 text-sm font-medium shadow-sm hover:bg-accent hover:text-accent-foreground disabled:cursor-not-allowed disabled:opacity-50"
+          className="inline-flex items-center gap-1.5 whitespace-nowrap rounded-md border border-input bg-background px-3 py-1.5 text-sm font-medium shadow-sm hover:bg-accent hover:text-accent-foreground disabled:cursor-not-allowed disabled:opacity-50"
         >
           <Play className="size-3.5" />
           {audioPending ? "audio pending" : `Play all (${fmtDuration(totalDurationMs!)})`}

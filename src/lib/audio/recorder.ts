@@ -78,7 +78,7 @@ export function createRecorder(opts: { expectedDurationMs: number }): RecorderHa
           speechDetected = true;
           silentTicks = 0;
         } else if (speechDetected) {
-          if (++silentTicks >= 30) handle.stop(); // 30 × 100ms = 3000ms silence
+          if (++silentTicks >= 10) handle.stop(); // 10 × 100ms = 1000ms silence
         }
       }, 100);
     },

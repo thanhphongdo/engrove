@@ -1,0 +1,672 @@
+{
+  "id": "speaking-c1-022",
+  "level": "C1",
+  "title": "Advanced Legal Counsel on Intellectual Property",
+  "summary": "IP attorney Vivienne advises technology startup founder Nathan on a complex situation involving potential trade secret misappropriation, patent strategy, and the risks of disclosure in competitive markets.",
+  "topic": "Intellectual property law",
+  "tags": [
+    "Law",
+    "Technology",
+    "Business"
+  ],
+  "characters": [
+    "Vivienne",
+    "Nathan"
+  ],
+  "voices": {
+    "Vivienne": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-JennyNeural"
+    },
+    "Nathan": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-SteffanNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Vivienne",
+      "text": "Nathan, I've reviewed the materials you provided, and I want to make sure we're operating from a shared understanding of the legal landscape before we discuss strategy. The situation you're describing engages at least three distinct IP law doctrines simultaneously, and conflating them would lead to poor tactical decisions."
+    },
+    {
+      "speaker": "Nathan",
+      "text": "I appreciate the framing. My primary concern is the former employee — she left six months ago and has joined a direct competitor. We have reason to believe the competitor's recent product release incorporates elements that were developed within our proprietary development environment."
+    },
+    {
+      "speaker": "Vivienne",
+      "text": "Let's start with the trade secret question, because the strength of any misappropriation claim depends heavily on whether you can demonstrate that the information meets the definition of a trade secret and that you took reasonable steps to maintain its secrecy. Walk me through your information governance regime."
+    },
+    {
+      "speaker": "Nathan",
+      "text": "We have NDAs with all employees, restricted access controls for our development repositories, and a documented policy on proprietary information handling. The specific work she was involved in was classified as confidential, and access was limited to the core development team."
+    },
+    {
+      "speaker": "Vivienne",
+      "text": "That's a reasonable foundation, but courts scrutinise 'reasonable steps' quite carefully. Do you have access logs showing who accessed the specific repositories during her tenure? And was there an exit interview protocol that covered her post-employment obligations explicitly?"
+    },
+    {
+      "speaker": "Nathan",
+      "text": "We have the access logs — our system maintains them for twelve months. The exit interview was conducted, but I'm not certain the post-employment obligations were explicitly rehearsed. The NDA itself covers post-employment, but whether the conversation did is another question."
+    },
+    {
+      "speaker": "Vivienne",
+      "text": "The gap in the exit interview process is a vulnerability, but not necessarily fatal to the claim. More significant is the comparative analysis of the competing product. Do you have technical documentation that would allow a forensic comparison between your proprietary system and their release?"
+    },
+    {
+      "speaker": "Nathan",
+      "text": "We have detailed design documentation, version histories, and the source code for the relevant modules. The external product isn't open-source, but we've been able to infer some of the architectural choices from the API surface and performance characteristics."
+    },
+    {
+      "speaker": "Vivienne",
+      "text": "Inference from public-facing characteristics is a starting point, but to establish misappropriation you'd ultimately need access to their implementation — which typically requires litigation to compel discovery. That's a significant resource commitment with uncertain return."
+    },
+    {
+      "speaker": "Nathan",
+      "text": "I understand that. Before we go down the litigation path, I wanted to explore whether there are pre-litigation mechanisms that could either deter them from continuing to use whatever they've taken, or create a record that strengthens our position if we do proceed."
+    },
+    {
+      "speaker": "Vivienne",
+      "text": "A well-crafted cease-and-desist letter serves both functions if executed carefully. It puts the competitor on notice, which eliminates any innocent infringer defence, and creates a documented record of the dispute. However, it also alerts them to shore up their defences and potentially creates litigation posture dynamics that complicate settlement."
+    },
+    {
+      "speaker": "Nathan",
+      "text": "What's the risk profile of sending a cease-and-desist compared to initiating litigation directly or doing nothing for now?"
+    },
+    {
+      "speaker": "Vivienne",
+      "text": "Doing nothing is more costly than it looks — if misappropriation is ongoing, delay can be used to argue that you acquiesced or laches applies. A cease-and-desist without subsequent follow-through can be construed as weakness. Initiating litigation immediately is the most aggressive posture but also the most expensive and the one that most rapidly forecloses settlement options."
+    },
+    {
+      "speaker": "Nathan",
+      "text": "The parallel concern I have is the patent dimension. We have three provisional applications filed in the relevant technology space. If we initiate litigation, does that affect the prosecution strategy for those patents?"
+    },
+    {
+      "speaker": "Vivienne",
+      "text": "The interaction between pending prosecution and active litigation is complex and jurisdiction-specific. In the US system, there's no automatic duty to disclose the litigation to the patent office during prosecution, but the claims in your provisionals should be reviewed now to ensure they're drafted to cover the accused product — if the accused product is publicly available and prior art in the relevant technical space."
+    },
+    {
+      "speaker": "Nathan",
+      "text": "That's the irony of the situation — their product, which may incorporate our technology, could become prior art that affects our own patent claims if we don't move quickly enough to complete prosecution."
+    },
+    {
+      "speaker": "Vivienne",
+      "text": "Exactly, which creates what I'd describe as a prosecution urgency that exists independent of the litigation question. I'd recommend converting the provisionals to full utility applications within the next sixty days, with claims drafted to cover both your original implementation and the variant represented in the accused product."
+    },
+    {
+      "speaker": "Nathan",
+      "text": "That sixty-day timeline is achievable. Coming back to the cease-and-desist question — if we send it and they respond by asserting that their implementation is independent development, what evidentiary weight does that response carry?"
+    },
+    {
+      "speaker": "Vivienne",
+      "text": "An assertion of independent development is a complete defence to misappropriation but it's a factual question that can be tested in discovery. Their response to a cease-and-desist would be an admission in litigation — so if they assert independent development and that claim is subsequently contradicted by discovery, it becomes a credibility problem that often has more impact on settlement dynamics than the underlying claim itself."
+    },
+    {
+      "speaker": "Nathan",
+      "text": "That's useful strategic context. My recommendation to the board would be: initiate patent prosecution urgently, send a precisely scoped cease-and-desist concurrent with or shortly after the provisional conversions, and preserve the litigation option pending their response."
+    },
+    {
+      "speaker": "Vivienne",
+      "text": "That's a defensible sequence. I'd want to be closely involved in drafting the cease-and-desist to ensure the scope of the asserted rights is precisely defined — an overbroad assertion creates vulnerability to a declaratory judgment counterclaim that could put you on the defensive."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Vivienne",
+      "text": "Nathan, I've reviewed the materials you provided, and I want to make sure we're operating from a shared understanding of the legal landscape before we discuss strategy.",
+      "durationMs": 9408,
+      "translationVi": "Nathan, tôi đã xem xét các tài liệu anh cung cấp, và tôi muốn đảm bảo chúng ta đang hoạt động từ sự hiểu biết chung về bối cảnh pháp lý trước khi chúng ta thảo luận về chiến lược."
+    },
+    {
+      "id": "s2",
+      "speaker": "Vivienne",
+      "text": "The situation you're describing engages at least three distinct IP law doctrines simultaneously, and conflating them would lead to poor tactical decisions.",
+      "durationMs": 9456,
+      "translationVi": "Tình huống bạn mô tả liên quan đồng thời đến ít nhất ba học thuyết luật IP riêng biệt, và việc nhầm lẫn chúng sẽ dẫn đến các quyết định chiến thuật kém."
+    },
+    {
+      "id": "s3",
+      "speaker": "Nathan",
+      "text": "I appreciate the framing.",
+      "durationMs": 2304,
+      "translationVi": "Tôi đánh giá cao cách đặt vấn đề đó."
+    },
+    {
+      "id": "s4",
+      "speaker": "Nathan",
+      "text": "My primary concern is the former employee — she left six months ago and has joined a direct competitor.",
+      "durationMs": 7248,
+      "translationVi": "Mối lo ngại chính của tôi là nhân viên cũ — cô ấy đã rời đi sáu tháng trước và đã gia nhập một đối thủ cạnh tranh trực tiếp."
+    },
+    {
+      "id": "s5",
+      "speaker": "Nathan",
+      "text": "We have reason to believe the competitor's recent product release incorporates elements that were developed within our proprietary development environment.",
+      "durationMs": 8880,
+      "translationVi": "Chúng tôi có lý do để tin rằng sản phẩm mới được phát hành gần đây của đối thủ kết hợp các yếu tố được phát triển trong môi trường phát triển độc quyền của chúng tôi."
+    },
+    {
+      "id": "s6",
+      "speaker": "Vivienne",
+      "text": "Let's start with the trade secret question, because the strength of any misappropriation claim depends heavily on whether you can demonstrate that the information meets the definition of a trade secret and that you took reasonable steps to maintain its secrecy.",
+      "durationMs": 13920,
+      "translationVi": "Hãy bắt đầu với câu hỏi về bí mật thương mại, vì sức mạnh của bất kỳ khiếu nại chiếm đoạt nào phụ thuộc nhiều vào việc bạn có thể chứng minh rằng thông tin đáp ứng định nghĩa về bí mật thương mại và bạn đã thực hiện các bước hợp lý để duy trì tính bí mật của nó."
+    },
+    {
+      "id": "s7",
+      "speaker": "Vivienne",
+      "text": "Walk me through your information governance regime.",
+      "durationMs": 3288,
+      "translationVi": "Hãy cho tôi biết về chế độ quản trị thông tin của bạn."
+    },
+    {
+      "id": "s8",
+      "speaker": "Nathan",
+      "text": "We have NDAs with all employees, restricted access controls for our development repositories, and a documented policy on proprietary information handling.",
+      "durationMs": 10656,
+      "translationVi": "Chúng tôi có NDA với tất cả nhân viên, kiểm soát truy cập hạn chế cho kho lưu trữ phát triển của chúng tôi, và chính sách được ghi lại về xử lý thông tin độc quyền."
+    },
+    {
+      "id": "s9",
+      "speaker": "Nathan",
+      "text": "The specific work she was involved in was classified as confidential, and access was limited to the core development team.",
+      "durationMs": 7704,
+      "translationVi": "Công việc cụ thể mà cô ấy tham gia được phân loại là bí mật, và quyền truy cập chỉ giới hạn cho nhóm phát triển cốt lõi."
+    },
+    {
+      "id": "s10",
+      "speaker": "Vivienne",
+      "text": "That's a reasonable foundation, but courts scrutinise 'reasonable steps' quite carefully.",
+      "durationMs": 5664,
+      "translationVi": "Đó là nền tảng hợp lý, nhưng tòa án xem xét 'các bước hợp lý' khá cẩn thận."
+    },
+    {
+      "id": "s11",
+      "speaker": "Vivienne",
+      "text": "Do you have access logs showing who accessed the specific repositories during her tenure?",
+      "durationMs": 5448,
+      "translationVi": "Bạn có nhật ký truy cập cho thấy ai đã truy cập các kho lưu trữ cụ thể trong thời gian làm việc của cô ấy không?"
+    },
+    {
+      "id": "s12",
+      "speaker": "Vivienne",
+      "text": "And was there an exit interview protocol that covered her post-employment obligations explicitly?",
+      "durationMs": 5736,
+      "translationVi": "Và liệu có giao thức phỏng vấn khi nghỉ việc bao gồm rõ ràng các nghĩa vụ sau khi nghỉ việc của cô ấy không?"
+    },
+    {
+      "id": "s13",
+      "speaker": "Nathan",
+      "text": "We have the access logs — our system maintains them for twelve months.",
+      "durationMs": 5184,
+      "translationVi": "Chúng tôi có nhật ký truy cập — hệ thống của chúng tôi duy trì chúng trong mười hai tháng."
+    },
+    {
+      "id": "s14",
+      "speaker": "Nathan",
+      "text": "The exit interview was conducted, but I'm not certain the post-employment obligations were explicitly rehearsed.",
+      "durationMs": 7128,
+      "translationVi": "Phỏng vấn khi nghỉ việc đã được thực hiện, nhưng tôi không chắc các nghĩa vụ sau khi nghỉ việc có được nêu rõ ràng không."
+    },
+    {
+      "id": "s15",
+      "speaker": "Nathan",
+      "text": "The NDA itself covers post-employment, but whether the conversation did is another question.",
+      "durationMs": 6216,
+      "translationVi": "Bản thân NDA bao gồm sau khi nghỉ việc, nhưng liệu cuộc trò chuyện có làm như vậy là một câu hỏi khác."
+    },
+    {
+      "id": "s16",
+      "speaker": "Vivienne",
+      "text": "The gap in the exit interview process is a vulnerability, but not necessarily fatal to the claim.",
+      "durationMs": 6504,
+      "translationVi": "Khoảng cách trong quá trình phỏng vấn khi nghỉ việc là một điểm yếu, nhưng không nhất thiết gây tử vong cho khiếu nại."
+    },
+    {
+      "id": "s17",
+      "speaker": "Vivienne",
+      "text": "More significant is the comparative analysis of the competing product.",
+      "durationMs": 4656,
+      "translationVi": "Quan trọng hơn là phân tích so sánh về sản phẩm cạnh tranh."
+    },
+    {
+      "id": "s18",
+      "speaker": "Vivienne",
+      "text": "Do you have technical documentation that would allow a forensic comparison between your proprietary system and their release?",
+      "durationMs": 7032,
+      "translationVi": "Bạn có tài liệu kỹ thuật cho phép so sánh pháp y giữa hệ thống độc quyền của bạn và bản phát hành của họ không?"
+    },
+    {
+      "id": "s19",
+      "speaker": "Nathan",
+      "text": "We have detailed design documentation, version histories, and the source code for the relevant modules.",
+      "durationMs": 7104,
+      "translationVi": "Chúng tôi có tài liệu thiết kế chi tiết, lịch sử phiên bản và mã nguồn cho các mô-đun liên quan."
+    },
+    {
+      "id": "s20",
+      "speaker": "Nathan",
+      "text": "The external product isn't open-source, but we've been able to infer some of the architectural choices from the API surface and performance characteristics.",
+      "durationMs": 9480,
+      "translationVi": "Sản phẩm bên ngoài không phải là nguồn mở, nhưng chúng tôi đã có thể suy ra một số lựa chọn kiến trúc từ bề mặt API và đặc điểm hiệu suất."
+    },
+    {
+      "id": "s21",
+      "speaker": "Vivienne",
+      "text": "Inference from public-facing characteristics is a starting point, but to establish misappropriation you'd ultimately need access to their implementation — which typically requires litigation to compel discovery.",
+      "durationMs": 12528,
+      "translationVi": "Suy luận từ các đặc điểm đối mặt với công chúng là điểm khởi đầu, nhưng để xác lập sự chiếm đoạt bạn cuối cùng cần quyền truy cập vào việc triển khai của họ — điều này thường đòi hỏi kiện tụng để buộc khám phá."
+    },
+    {
+      "id": "s22",
+      "speaker": "Vivienne",
+      "text": "That's a significant resource commitment with uncertain return.",
+      "durationMs": 4104,
+      "translationVi": "Đó là cam kết nguồn lực đáng kể với lợi nhuận không chắc chắn."
+    },
+    {
+      "id": "s23",
+      "speaker": "Nathan",
+      "text": "I understand that.",
+      "durationMs": 2040,
+      "translationVi": "Tôi hiểu điều đó."
+    },
+    {
+      "id": "s24",
+      "speaker": "Nathan",
+      "text": "Before we go down the litigation path, I wanted to explore whether there are pre-litigation mechanisms that could either deter them from continuing to use whatever they've taken, or create a record that strengthens our position if we do proceed.",
+      "durationMs": 13848,
+      "translationVi": "Trước khi chúng ta đi theo con đường kiện tụng, tôi muốn khám phá liệu có các cơ chế trước kiện tụng có thể ngăn họ tiếp tục sử dụng bất cứ thứ gì họ đã lấy, hoặc tạo ra hồ sơ củng cố vị trí của chúng ta nếu chúng ta tiến hành không."
+    },
+    {
+      "id": "s25",
+      "speaker": "Vivienne",
+      "text": "A well-crafted cease-and-desist letter serves both functions if executed carefully.",
+      "durationMs": 5352,
+      "translationVi": "Một lá thư yêu cầu chấm dứt hành vi được xây dựng tốt phục vụ cả hai chức năng nếu được thực hiện cẩn thận."
+    },
+    {
+      "id": "s26",
+      "speaker": "Vivienne",
+      "text": "It puts the competitor on notice, which eliminates any innocent infringer defence, and creates a documented record of the dispute.",
+      "durationMs": 8040,
+      "translationVi": "Nó thông báo cho đối thủ, điều này loại bỏ bất kỳ biện hộ vi phạm vô ý nào, và tạo ra hồ sơ được ghi lại của tranh chấp."
+    },
+    {
+      "id": "s27",
+      "speaker": "Vivienne",
+      "text": "However, it also alerts them to shore up their defences and potentially creates litigation posture dynamics that complicate settlement.",
+      "durationMs": 8280,
+      "translationVi": "Tuy nhiên, nó cũng cảnh báo họ củng cố biện hộ của mình và có khả năng tạo ra các động lực tư thế kiện tụng làm phức tạp việc giải quyết."
+    },
+    {
+      "id": "s28",
+      "speaker": "Nathan",
+      "text": "What's the risk profile of sending a cease-and-desist compared to initiating litigation directly or doing nothing for now?",
+      "durationMs": 7464,
+      "translationVi": "Hồ sơ rủi ro của việc gửi thư yêu cầu chấm dứt so với khởi kiện trực tiếp hoặc không làm gì hiện tại là gì?"
+    },
+    {
+      "id": "s29",
+      "speaker": "Vivienne",
+      "text": "Doing nothing is more costly than it looks — if misappropriation is ongoing, delay can be used to argue that you acquiesced or laches applies.",
+      "durationMs": 8952,
+      "translationVi": "Không làm gì tốn kém hơn vẻ bề ngoài — nếu sự chiếm đoạt đang diễn ra, sự chậm trễ có thể được sử dụng để lập luận rằng bạn đã chấp thuận hoặc nguyên tắc trễ hạn áp dụng."
+    },
+    {
+      "id": "s30",
+      "speaker": "Vivienne",
+      "text": "A cease-and-desist without subsequent follow-through can be construed as weakness.",
+      "durationMs": 5016,
+      "translationVi": "Thư yêu cầu chấm dứt mà không có hành động tiếp theo có thể được hiểu là yếu đuối."
+    },
+    {
+      "id": "s31",
+      "speaker": "Vivienne",
+      "text": "Initiating litigation immediately is the most aggressive posture but also the most expensive and the one that most rapidly forecloses settlement options.",
+      "durationMs": 9096,
+      "translationVi": "Khởi kiện ngay lập tức là tư thế hung hăng nhất nhưng cũng tốn kém nhất và là tư thế nhanh nhất đóng cửa các tùy chọn giải quyết."
+    },
+    {
+      "id": "s32",
+      "speaker": "Nathan",
+      "text": "The parallel concern I have is the patent dimension.",
+      "durationMs": 3696,
+      "translationVi": "Mối lo ngại song song mà tôi có là chiều kích bằng sáng chế."
+    },
+    {
+      "id": "s33",
+      "speaker": "Nathan",
+      "text": "We have three provisional applications filed in the relevant technology space.",
+      "durationMs": 5136,
+      "translationVi": "Chúng tôi có ba đơn đăng ký tạm thời được nộp trong không gian công nghệ liên quan."
+    },
+    {
+      "id": "s34",
+      "speaker": "Nathan",
+      "text": "If we initiate litigation, does that affect the prosecution strategy for those patents?",
+      "durationMs": 5736,
+      "translationVi": "Nếu chúng ta khởi kiện, điều đó có ảnh hưởng đến chiến lược truy tố cho những bằng sáng chế đó không?"
+    },
+    {
+      "id": "s35",
+      "speaker": "Vivienne",
+      "text": "The interaction between pending prosecution and active litigation is complex and jurisdiction-specific.",
+      "durationMs": 6960,
+      "translationVi": "Sự tương tác giữa truy tố đang chờ xử lý và kiện tụng đang diễn ra phức tạp và đặc thù theo quyền hạn."
+    },
+    {
+      "id": "s36",
+      "speaker": "Vivienne",
+      "text": "In the US system, there's no automatic duty to disclose the litigation to the patent office during prosecution, but the claims in your provisionals should be reviewed now to ensure they're drafted to cover the accused product — if the accused product is publicly available and prior art in the relevant technical space.",
+      "durationMs": 17856,
+      "translationVi": "Trong hệ thống Mỹ, không có nghĩa vụ tự động phải tiết lộ kiện tụng cho văn phòng bằng sáng chế trong quá trình truy tố, nhưng các khiếu nại trong các đơn tạm thời của bạn nên được xem xét ngay bây giờ để đảm bảo chúng được soạn thảo để bao gồm sản phẩm bị buộc tội — nếu sản phẩm bị buộc tội có sẵn công khai và là nghệ thuật trước trong không gian kỹ thuật liên quan."
+    },
+    {
+      "id": "s37",
+      "speaker": "Nathan",
+      "text": "That's the irony of the situation — their product, which may incorporate our technology, could become prior art that affects our own patent claims if we don't move quickly enough to complete prosecution.",
+      "durationMs": 12024,
+      "translationVi": "Đó là sự mỉa mai của tình huống — sản phẩm của họ, có thể kết hợp công nghệ của chúng tôi, có thể trở thành nghệ thuật trước ảnh hưởng đến các khiếu nại bằng sáng chế của chính chúng tôi nếu chúng tôi không chuyển động đủ nhanh để hoàn thành truy tố."
+    },
+    {
+      "id": "s38",
+      "speaker": "Vivienne",
+      "text": "Exactly, which creates what I'd describe as a prosecution urgency that exists independent of the litigation question.",
+      "durationMs": 7416,
+      "translationVi": "Chính xác, điều này tạo ra điều tôi mô tả là tính cấp bách truy tố tồn tại độc lập với câu hỏi kiện tụng."
+    },
+    {
+      "id": "s39",
+      "speaker": "Vivienne",
+      "text": "I'd recommend converting the provisionals to full utility applications within the next sixty days, with claims drafted to cover both your original implementation and the variant represented in the accused product.",
+      "durationMs": 12264,
+      "translationVi": "Tôi sẽ khuyến nghị chuyển đổi các đơn tạm thời thành đơn đăng ký tiện ích đầy đủ trong sáu mươi ngày tới, với các khiếu nại được soạn thảo để bao gồm cả việc triển khai gốc của bạn và biến thể được biểu hiện trong sản phẩm bị buộc tội."
+    },
+    {
+      "id": "s40",
+      "speaker": "Nathan",
+      "text": "That sixty-day timeline is achievable.",
+      "durationMs": 3096,
+      "translationVi": "Thời gian sáu mươi ngày đó có thể đạt được."
+    },
+    {
+      "id": "s41",
+      "speaker": "Nathan",
+      "text": "Coming back to the cease-and-desist question — if we send it and they respond by asserting that their implementation is independent development, what evidentiary weight does that response carry?",
+      "durationMs": 11184,
+      "translationVi": "Trở lại câu hỏi về thư yêu cầu chấm dứt — nếu chúng ta gửi nó và họ phản hồi bằng cách khẳng định rằng việc triển khai của họ là phát triển độc lập, khẳng định đó có trọng lượng chứng cứ như thế nào?"
+    },
+    {
+      "id": "s42",
+      "speaker": "Vivienne",
+      "text": "An assertion of independent development is a complete defence to misappropriation but it's a factual question that can be tested in discovery.",
+      "durationMs": 8184,
+      "translationVi": "Khẳng định về phát triển độc lập là biện hộ hoàn toàn chống lại sự chiếm đoạt nhưng đó là câu hỏi thực tế có thể được kiểm tra trong khám phá."
+    },
+    {
+      "id": "s43",
+      "speaker": "Vivienne",
+      "text": "Their response to a cease-and-desist would be an admission in litigation — so if they assert independent development and that claim is subsequently contradicted by discovery, it becomes a credibility problem that often has more impact on settlement dynamics than the underlying claim itself.",
+      "durationMs": 16152,
+      "translationVi": "Phản hồi của họ với thư yêu cầu chấm dứt sẽ là một thừa nhận trong kiện tụng — vì vậy nếu họ khẳng định phát triển độc lập và tuyên bố đó sau đó bị mâu thuẫn bởi khám phá, nó trở thành vấn đề đáng tin cậy thường có tác động lớn hơn đến động lực giải quyết so với chính khiếu nại cơ bản."
+    },
+    {
+      "id": "s44",
+      "speaker": "Nathan",
+      "text": "That's useful strategic context.",
+      "durationMs": 2952,
+      "translationVi": "Đó là bối cảnh chiến lược hữu ích."
+    },
+    {
+      "id": "s45",
+      "speaker": "Nathan",
+      "text": "My recommendation to the board would be: initiate patent prosecution urgently, send a precisely scoped cease-and-desist concurrent with or shortly after the provisional conversions, and preserve the litigation option pending their response.",
+      "durationMs": 14736,
+      "translationVi": "Khuyến nghị của tôi với hội đồng sẽ là: khởi động truy tố bằng sáng chế khẩn cấp, gửi thư yêu cầu chấm dứt được xác định phạm vi chính xác đồng thời hoặc ngay sau khi chuyển đổi tạm thời, và bảo lưu tùy chọn kiện tụng chờ phản hồi của họ."
+    },
+    {
+      "id": "s46",
+      "speaker": "Vivienne",
+      "text": "That's a defensible sequence.",
+      "durationMs": 2616,
+      "translationVi": "Đó là một trình tự có thể bảo vệ được."
+    },
+    {
+      "id": "s47",
+      "speaker": "Vivienne",
+      "text": "I'd want to be closely involved in drafting the cease-and-desist to ensure the scope of the asserted rights is precisely defined — an overbroad assertion creates vulnerability to a declaratory judgment counterclaim that could put you on the defensive.",
+      "durationMs": 13584,
+      "translationVi": "Tôi muốn tham gia chặt chẽ vào việc soạn thảo thư yêu cầu chấm dứt để đảm bảo phạm vi của các quyền được khẳng định được xác định chính xác — một khẳng định quá rộng tạo ra lỗ hổng cho phản tố phán quyết tuyên bố có thể đặt bạn vào thế phòng thủ."
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "The strength of any … claim depends heavily on whether …"
+    },
+    {
+      "id": "h2",
+      "text": "… is a vulnerability, but not necessarily fatal to the claim."
+    },
+    {
+      "id": "h3",
+      "text": "Doing nothing is more costly than it looks — if … is ongoing, …"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "trade secret misappropriation",
+      "meaningVi": "chiếm đoạt bí mật thương mại",
+      "pronunciation": "/treɪd ˈsiːkrɪt mɪsəˌproʊpriˈeɪʃən/"
+    },
+    {
+      "id": "v2",
+      "phrase": "cease-and-desist letter",
+      "meaningVi": "thư yêu cầu chấm dứt hành vi vi phạm",
+      "pronunciation": "/siːs ænd dɪˈzɪst ˈlɛtər/"
+    },
+    {
+      "id": "v3",
+      "phrase": "compel discovery",
+      "meaningVi": "bắt buộc cung cấp bằng chứng (qua tòa)",
+      "pronunciation": "/kəmˈpɛl dɪˈskʌvəri/"
+    },
+    {
+      "id": "v4",
+      "phrase": "laches",
+      "meaningVi": "nguyên tắc trễ hạn (mất quyền do chậm trễ)",
+      "pronunciation": "/ˈlætʃɪz/"
+    },
+    {
+      "id": "v5",
+      "phrase": "declaratory judgment counterclaim",
+      "meaningVi": "phản tố tuyên bố phán quyết (đề nghị tòa làm rõ quyền)",
+      "pronunciation": "/dɪˈklærətɔːri ˈdʒʌdʒmənt ˈkaʊntərˌkleɪm/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "innocent infringer defence",
+      "meaningVi": "biện hộ vi phạm vô ý (không biết về quyền sở hữu)",
+      "pronunciation": "/ˈɪnəsənt ɪnˈfrɪndʒər dɪˈfɛns/"
+    },
+    {
+      "phrase": "provisional application",
+      "meaningVi": "đơn xin sáng chế tạm thời",
+      "pronunciation": "/prəˈvɪʒənəl ˌæplɪˈkeɪʃən/"
+    },
+    {
+      "phrase": "prior art",
+      "meaningVi": "kỹ thuật hiện có (trước khi sáng chế được nộp đơn)",
+      "pronunciation": "/ˈpraɪər ɑːrt/"
+    },
+    {
+      "phrase": "prosecution urgency",
+      "meaningVi": "sự khẩn cấp trong quá trình xin cấp bằng sáng chế",
+      "pronunciation": "/ˌprɒsɪˈkjuːʃən ˈɜːrdʒənsi/"
+    },
+    {
+      "phrase": "information governance regime",
+      "meaningVi": "chế độ quản lý thông tin",
+      "pronunciation": "/ˌɪnfərˈmeɪʃən ˈɡʌvərnəns rɪˈʒiːm/"
+    },
+    {
+      "phrase": "trade secret",
+      "meaningVi": "bí mật thương mại (pháp lý sở hữu trí tuệ)",
+      "pronunciation": "/treɪd ˈsiːkrɪt/"
+    },
+    {
+      "phrase": "misappropriation claim",
+      "meaningVi": "yêu cầu bồi thường về chiếm đoạt trái phép",
+      "pronunciation": "/ˌmɪsəˌproʊpriˈeɪʃən kleɪm/"
+    },
+    {
+      "phrase": "access logs",
+      "meaningVi": "nhật ký truy cập (hệ thống CNTT)",
+      "pronunciation": "/ˈæksɛs lɒɡz/"
+    },
+    {
+      "phrase": "forensic comparison",
+      "meaningVi": "so sánh pháp y (để tìm bằng chứng)",
+      "pronunciation": "/fəˈrɛnzɪk kəmˈpærɪsən/"
+    },
+    {
+      "phrase": "compel discovery",
+      "meaningVi": "buộc tiết lộ tài liệu (qua kiện tụng)",
+      "pronunciation": "/kəmˈpɛl dɪˈskʌvəri/"
+    },
+    {
+      "phrase": "cease-and-desist letter",
+      "meaningVi": "thư đình chỉ và ngừng vi phạm",
+      "pronunciation": "/siːs ænd dɪˈzɪst ˈlɛtər/"
+    },
+    {
+      "phrase": "laches",
+      "meaningVi": "học thuyết laches — mất quyền do chậm trễ (pháp lý)",
+      "pronunciation": "/ˈlætʃɪz/"
+    },
+    {
+      "phrase": "declaratory judgment counterclaim",
+      "meaningVi": "yêu cầu phán quyết tuyên bố không vi phạm (đối phản tố)",
+      "pronunciation": "/dɪˈklærətɔːri ˈdʒʌdʒmənt ˈkaʊntərˌkleɪm/"
+    },
+    {
+      "phrase": "independent development",
+      "meaningVi": "phát triển độc lập (biện hộ trong tranh chấp IP)",
+      "pronunciation": "/ˌɪndɪˈpɛndənt dɪˈvɛləpmənt/"
+    },
+    {
+      "phrase": "API surface",
+      "meaningVi": "bề mặt giao tiếp lập trình ứng dụng",
+      "pronunciation": "/eɪ piː aɪ ˈsɜːrfɪs/"
+    },
+    {
+      "phrase": "post-employment obligations",
+      "meaningVi": "nghĩa vụ sau khi nghỉ việc",
+      "pronunciation": "/poʊst ɪmˈplɔɪmənt ˌɒblɪˈɡeɪʃənz/"
+    },
+    {
+      "phrase": "settlement dynamics",
+      "meaningVi": "động lực hòa giải/dàn xếp",
+      "pronunciation": "/ˈsɛtlmənt daɪˈnæmɪks/"
+    },
+    {
+      "phrase": "credibility problem",
+      "meaningVi": "vấn đề về tín nhiệm/độ tin cậy",
+      "pronunciation": "/ˌkrɛdɪˈbɪlɪti ˈprɒbləm/"
+    },
+    {
+      "phrase": "pre-litigation mechanisms",
+      "meaningVi": "cơ chế trước kiện tụng",
+      "pronunciation": "/priː ˌlɪtɪˈɡeɪʃən ˈmɛkənɪzəmz/"
+    },
+    {
+      "phrase": "development repositories",
+      "meaningVi": "kho lưu trữ phát triển (phần mềm)",
+      "pronunciation": "/dɪˈvɛləpmənt rɪˈpɒzɪtɔːriz/"
+    },
+    {
+      "phrase": "convert provisionals to full utility applications",
+      "meaningVi": "chuyển đơn tạm thời thành đơn đăng ký sáng chế đầy đủ",
+      "pronunciation": "/kənˈvɜːrt prəˈvɪʒənlz tuː fʊl juːˈtɪlɪti ˌæplɪˈkeɪʃənz/"
+    },
+    {
+      "phrase": "reasonable steps to maintain secrecy",
+      "meaningVi": "các biện pháp hợp lý để bảo vệ bí mật",
+      "pronunciation": "/ˈriːzənəbl stɛps tuː meɪnˈteɪn ˈsiːkrəsi/"
+    },
+    {
+      "phrase": "evidentiary weight",
+      "meaningVi": "trọng lượng chứng cứ",
+      "pronunciation": "/ˌɛvɪˈdɛnʃəri weɪt/"
+    },
+    {
+      "phrase": "strategic data point",
+      "meaningVi": "điểm dữ liệu chiến lược (trong đàm phán)",
+      "pronunciation": "/strəˈtiːdʒɪk ˈdeɪtə pɔɪnt/"
+    },
+    {
+      "phrase": "proprietary development environment",
+      "meaningVi": "môi trường phát triển độc quyền",
+      "pronunciation": "/prəˈpraɪətəri dɪˈvɛləpmənt ɪnˈvaɪrənmənt/"
+    },
+    {
+      "phrase": "trade secret misappropriation",
+      "meaningVi": "chiếm đoạt bí mật thương mại trái phép",
+      "pronunciation": "/treɪd ˈsiːkrɪt ˌmɪsəˌproʊpriˈeɪʃən/"
+    },
+    {
+      "phrase": "version histories",
+      "meaningVi": "lịch sử phiên bản (phần mềm)",
+      "pronunciation": "/ˈvɜːrʒən ˈhɪstəriz/"
+    },
+    {
+      "phrase": "source code",
+      "meaningVi": "mã nguồn (phần mềm)",
+      "pronunciation": "/sɔːrs koʊd/"
+    },
+    {
+      "phrase": "exit interview protocol",
+      "meaningVi": "giao thức phỏng vấn khi nhân viên nghỉ việc",
+      "pronunciation": "/ˈɛɡzɪt ˈɪntəvjuː ˈproʊtəˌkɒl/"
+    },
+    {
+      "phrase": "independent development claim",
+      "meaningVi": "tuyên bố phát triển độc lập",
+      "pronunciation": "/ˌɪndɪˈpɛndənt dɪˈvɛləpmənt kleɪm/"
+    },
+    {
+      "phrase": "competitive sensitivity",
+      "meaningVi": "độ nhạy cạnh tranh (thông tin kinh doanh nhạy cảm)",
+      "pronunciation": "/kəmˈpɛtɪtɪv ˌsɛnsɪˈtɪvɪti/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Structured enumeration in legal advice: 'at least three distinct … simultaneously'",
+      "bodyVi": "'At least three distinct X simultaneously' là cách chuyên gia pháp lý báo hiệu sự phức tạp của vấn đề trước khi phân tích. 'At least' tạo ra không gian cho nhiều vấn đề hơn; 'simultaneously' nhấn mạnh sự phụ thuộc lẫn nhau của chúng.",
+      "bodyEn": "'At least three distinct X simultaneously' signals complexity before unpacking it. 'At least' leaves room for additional issues to emerge; 'simultaneously' emphasizes their interdependence — a framing technique that prepares the client for nuanced, non-sequential advice."
+    },
+    {
+      "title": "Conditional risk framing: 'not necessarily fatal to the claim'",
+      "bodyVi": "'Not necessarily fatal to the claim' là cách đánh giá rủi ro thực dụng tránh cả sự lạc quan và bi quan quá mức. Đây là cách luật sư quản lý kỳ vọng của khách hàng trong khi duy trì độ chính xác đánh giá.",
+      "bodyEn": "'Not necessarily fatal to the claim' offers a calibrated risk assessment that avoids both excessive optimism and pessimism. This hedge acknowledges a weakness while withholding a definitive judgment — characteristic of legal counseling where absolute assessments are rarely possible or appropriate."
+    }
+  ],
+  "translationVi": "Vivienne: Nathan, tôi đã xem xét các tài liệu bạn cung cấp, và tôi muốn đảm bảo chúng ta đang vận hành từ sự hiểu biết chung về cảnh quan pháp lý trước khi thảo luận chiến lược. Tình huống bạn mô tả liên quan đến ít nhất ba học thuyết pháp luật IP riêng biệt đồng thời, và nhầm lẫn chúng sẽ dẫn đến các quyết định chiến thuật kém. Nathan: Tôi đánh giá cao sự đặt vấn đề đó. Mối lo chính của tôi là nhân viên cũ — cô ấy rời đi sáu tháng trước và đã gia nhập một đối thủ cạnh tranh trực tiếp. Chúng tôi có lý do để tin rằng bản phát hành sản phẩm gần đây của đối thủ cạnh tranh kết hợp các yếu tố được phát triển trong môi trường phát triển độc quyền của chúng tôi. Vivienne: Hãy bắt đầu với câu hỏi bí mật thương mại, vì sức mạnh của bất kỳ yêu cầu bồi thường nào về chiếm đoạt phụ thuộc nhiều vào việc bạn có thể chứng minh rằng thông tin đáp ứng định nghĩa của bí mật thương mại và bạn đã thực hiện các bước hợp lý để duy trì bảo mật của nó. Hãy cho tôi biết về chế độ quản lý thông tin của bạn. Nathan: Chúng tôi có NDA với tất cả nhân viên, kiểm soát truy cập hạn chế cho các kho lưu trữ phát triển của chúng tôi, và chính sách được ghi nhận về việc xử lý thông tin độc quyền. Công việc cụ thể mà cô ấy tham gia được phân loại là bảo mật, và quyền truy cập bị giới hạn ở nhóm phát triển cốt lõi. Vivienne: Đó là một nền tảng hợp lý, nhưng tòa án xem xét 'các bước hợp lý' khá cẩn thận. Bạn có nhật ký truy cập cho thấy ai đã truy cập các kho lưu trữ cụ thể trong thời gian làm việc của cô ấy không? Và có giao thức phỏng vấn khi nghỉ việc bao gồm nghĩa vụ sau tuyển dụng của cô ấy một cách rõ ràng không? Nathan: Chúng tôi có nhật ký truy cập — hệ thống của chúng tôi duy trì chúng trong mười hai tháng. Cuộc phỏng vấn khi nghỉ việc đã được thực hiện, nhưng tôi không chắc các nghĩa vụ sau tuyển dụng có được thực hành rõ ràng không. Bản thân NDA bao gồm sau tuyển dụng, nhưng liệu cuộc trò chuyện có không là câu hỏi khác. Vivienne: Khoảng cách trong quy trình phỏng vấn khi nghỉ việc là lỗ hổng, nhưng không nhất thiết gây tử vong cho yêu cầu bồi thường. Quan trọng hơn là phân tích so sánh sản phẩm cạnh tranh. Bạn có tài liệu kỹ thuật cho phép so sánh pháp y giữa hệ thống độc quyền của bạn và bản phát hành của họ không? Nathan: Chúng tôi có tài liệu thiết kế chi tiết, lịch sử phiên bản và mã nguồn cho các mô-đun liên quan. Sản phẩm bên ngoài không phải mã nguồn mở, nhưng chúng tôi đã có thể suy ra một số lựa chọn kiến trúc từ bề mặt API và các đặc điểm hiệu suất. Vivienne: Suy luận từ các đặc điểm hướng đến công chúng là điểm khởi đầu, nhưng để thiết lập chiếm đoạt, cuối cùng bạn cần quyền truy cập vào triển khai của họ — điều thường đòi hỏi kiện tụng để buộc khám phá. Đó là một cam kết tài nguyên đáng kể với lợi nhuận không chắc chắn. Nathan: Tôi hiểu điều đó. Trước khi đi theo con đường kiện tụng, tôi muốn khám phá liệu có các cơ chế trước kiện tụng có thể ngăn chặn họ tiếp tục sử dụng bất cứ thứ gì họ đã lấy, hoặc tạo ra hồ sơ tăng cường vị thế của chúng tôi nếu chúng tôi tiến hành không. Vivienne: Một thư yêu cầu chấm dứt được thiết kế tốt phục vụ cả hai chức năng nếu được thực thi cẩn thận. Nó thông báo cho đối thủ cạnh tranh, loại bỏ bất kỳ biện hộ người vi phạm vô tình nào, và tạo ra hồ sơ tranh chấp được ghi nhận. Tuy nhiên, nó cũng cảnh báo họ củng cố phòng thủ và có thể tạo ra các động lực tư thế kiện tụng làm phức tạp việc dàn xếp. Nathan: Hồ sơ rủi ro của việc gửi thư yêu cầu chấm dứt so với khởi kiện trực tiếp hoặc không làm gì bây giờ là gì? Vivienne: Không làm gì tốn kém hơn trông có vẻ — nếu chiếm đoạt đang diễn ra, sự chậm trễ có thể được sử dụng để lập luận rằng bạn đã chấp nhận hoặc laches áp dụng. Một thư yêu cầu chấm dứt mà không có hành động tiếp theo có thể bị hiểu là yếu đuối. Khởi kiện ngay lập tức là tư thế hung hăng nhất nhưng cũng là tốn kém nhất và là tư thế nhanh nhất đóng cửa các lựa chọn dàn xếp. Nathan: Mối lo song song của tôi là chiều kích bằng sáng chế. Chúng tôi có ba đơn xin sáng chế tạm thời được nộp trong không gian công nghệ liên quan. Nếu chúng tôi khởi kiện, điều đó có ảnh hưởng đến chiến lược truy tố cho những bằng sáng chế đó không? Vivienne: Sự tương tác giữa truy tố đang chờ xử lý và kiện tụng đang hoạt động phức tạp và đặc thù theo quyền hạn. Trong hệ thống Mỹ, không có nghĩa vụ tự động phải tiết lộ kiện tụng cho văn phòng bằng sáng chế trong quá trình truy tố, nhưng các yêu cầu trong các tờ tạm thời của bạn nên được xem xét ngay bây giờ để đảm bảo chúng được soạn thảo để bao gồm sản phẩm bị cáo buộc — nếu sản phẩm bị cáo buộc có sẵn công khai và là kỹ thuật hiện có trong không gian kỹ thuật liên quan. Nathan: Đó là nghịch lý của tình huống — sản phẩm của họ, có thể kết hợp công nghệ của chúng tôi, có thể trở thành kỹ thuật hiện có ảnh hưởng đến các yêu cầu bằng sáng chế của chính chúng tôi nếu chúng tôi không di chuyển đủ nhanh để hoàn thành truy tố. Vivienne: Chính xác, điều tạo ra những gì tôi mô tả là sự khẩn cấp truy tố tồn tại độc lập với câu hỏi kiện tụng. Tôi sẽ khuyến nghị chuyển đổi các tờ tạm thời thành đơn xin sáng chế tiện ích đầy đủ trong sáu mươi ngày tới, với các yêu cầu được soạn thảo để bao gồm cả triển khai gốc của bạn và biến thể được đại diện trong sản phẩm bị cáo buộc. Nathan: Thời gian sáu mươi ngày đó là có thể đạt được. Quay lại câu hỏi thư yêu cầu chấm dứt — nếu chúng tôi gửi nó và họ phản hồi bằng cách khẳng định rằng triển khai của họ là phát triển độc lập, trọng lượng bằng chứng nào mà phản hồi đó mang lại? Vivienne: Một khẳng định về phát triển độc lập là biện hộ hoàn toàn đối với chiếm đoạt nhưng đó là câu hỏi thực tế có thể được kiểm tra trong quá trình khám phá. Phản hồi của họ đối với thư yêu cầu chấm dứt sẽ là sự thừa nhận trong kiện tụng — vì vậy nếu họ khẳng định phát triển độc lập và yêu cầu đó sau đó bị mâu thuẫn bởi quá trình khám phá, nó trở thành vấn đề đáng tin cậy thường có tác động nhiều hơn đến động lực dàn xếp so với yêu cầu bồi thường cơ bản. Nathan: Đó là bối cảnh chiến lược hữu ích. Đề xuất của tôi với hội đồng quản trị sẽ là: khởi động truy tố bằng sáng chế khẩn cấp, gửi thư yêu cầu chấm dứt được xác định phạm vi chính xác đồng thời hoặc ngay sau khi chuyển đổi tờ tạm thời, và bảo tồn tùy chọn kiện tụng chờ phản hồi của họ. Vivienne: Đó là một chuỗi có thể bảo vệ được. Tôi muốn tham gia chặt chẽ vào việc soạn thảo thư yêu cầu chấm dứt để đảm bảo phạm vi của các quyền được khẳng định được định nghĩa chính xác — một khẳng định quá rộng tạo ra lỗ hổng cho phản tố tuyên bố phán quyết có thể đặt bạn vào thế phòng thủ.",
+  "criticalThinkingQuestion": "In a competitive technology sector where former employees inevitably carry tacit knowledge that may inform their subsequent work, at what point does the enforcement of trade secret rights begin to impede rather than protect legitimate innovation, and how should IP law navigate that tension?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-c1-022",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 371328
+}

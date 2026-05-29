@@ -11,6 +11,7 @@ const speakingSentenceSchema = z.object({
   id: z.string(),
   speaker: z.string().min(1),
   text: z.string().min(1),
+  translationVi: z.string().min(1).optional(), // populated by backfill; required for new lessons
   durationMs: z.number().int().positive().optional(),
 });
 
@@ -48,7 +49,7 @@ export const speakingLessonSchema = z
       z.object({
         phrase: z.string().min(1),
         meaningVi: z.string().min(1),
-        pronunciation: z.string().optional(),
+        pronunciation: z.string().min(1),
         exampleEn: z.string().optional(),
       }),
     ),

@@ -1,0 +1,621 @@
+{
+  "id": "speaking-c1-013",
+  "level": "C1",
+  "title": "Complex Contract Negotiation",
+  "summary": "Senior counsel Helena and corporate strategist David navigate a high-stakes licensing agreement, addressing indemnification clauses, liability caps, and governing law disputes with precision and strategic foresight.",
+  "topic": "Legal negotiation",
+  "tags": [
+    "Law",
+    "Business",
+    "Negotiation"
+  ],
+  "characters": [
+    "Helena",
+    "David"
+  ],
+  "voices": {
+    "Helena": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-MichelleNeural"
+    },
+    "David": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-AndrewNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Helena",
+      "text": "David, I want to address the indemnification clause before we move to the liability cap, because the two provisions are structurally interdependent and resolving one without the other will likely create inconsistencies."
+    },
+    {
+      "speaker": "David",
+      "text": "I agree with that sequencing. My client's position on indemnification has hardened since the last draft — they're not prepared to accept a mutual indemnification structure when the risk profile is demonstrably asymmetric."
+    },
+    {
+      "speaker": "Helena",
+      "text": "Walk me through the asymmetry as you see it. Our view is that both parties face meaningful IP infringement exposure under this arrangement, which is precisely why mutual indemnification is appropriate."
+    },
+    {
+      "speaker": "David",
+      "text": "The asymmetry lies in the nature of the deliverables. Your client is licensing pre-existing software with an established IP chain of title. Our client is contributing novel implementations that, by definition, carry a higher profile of innovation-related claim risk."
+    },
+    {
+      "speaker": "Helena",
+      "text": "That's a fair characterisation of the underlying risk profile, but it doesn't follow that mutual indemnification is therefore inappropriate. What you're describing could be addressed through differential indemnification caps rather than abandoning mutuality altogether."
+    },
+    {
+      "speaker": "David",
+      "text": "Differential caps are workable in principle. What magnitude of differential are you envisioning, and against what baseline?"
+    },
+    {
+      "speaker": "Helena",
+      "text": "We'd propose capping our client's indemnification obligation at the aggregate fees paid under the agreement in the preceding twelve months, and your client's obligation at one-and-a-half times that figure, reflecting the asymmetric risk you've described."
+    },
+    {
+      "speaker": "David",
+      "text": "The one-point-five multiplier is acceptable as a starting position, though I'd want the baseline to be calculated on a rolling twelve-month basis rather than a fixed annual period — the fee trajectory under this agreement is expected to be front-loaded."
+    },
+    {
+      "speaker": "Helena",
+      "text": "Rolling twelve-month calculation is fine with us. Now, on the overall liability cap — your current proposal sets it at one times the contract value, which in our view doesn't adequately account for consequential loss exposure in the event of a material breach of the data protection obligations."
+    },
+    {
+      "speaker": "David",
+      "text": "The data protection carve-out is a non-starter for us. A liability regime without a ceiling on data protection claims creates an indeterminate risk profile that no board would ratify."
+    },
+    {
+      "speaker": "Helena",
+      "text": "I understand the governance concern, but consider the context: the data your client is handling under this agreement includes personally identifiable health information. An uncapped indemnification for routine commercial breach is unreasonable; uncapped exposure for a catastrophic privacy breach is a different matter entirely."
+    },
+    {
+      "speaker": "David",
+      "text": "The distinction is fair. We'd be willing to apply a separate, higher cap for data protection breaches — say, three times the aggregate contract value — but that ceiling must be absolute and not subject to override by statutory penalties in the governing jurisdiction."
+    },
+    {
+      "speaker": "Helena",
+      "text": "That's where we hit a structural problem. If the governing law is California, the CCPA penalty regime isn't contractually excludable. You cannot agree in a contract to cap statutory liability that a legislature has made non-waivable."
+    },
+    {
+      "speaker": "David",
+      "text": "Which is precisely why we've been pushing for a New York governing law clause — the regulatory exposure under New York law for this category of data is materially lower, and the contractual framework is more predictable."
+    },
+    {
+      "speaker": "Helena",
+      "text": "My client's operations are headquartered in California, and they have a strong preference for California law on the basis of familiarity and alignment with their compliance infrastructure. Shifting governing law for liability cap purposes creates complexity across their entire contract portfolio."
+    },
+    {
+      "speaker": "David",
+      "text": "I appreciate the operational logic. A possible middle ground is a split governing law clause — California law applies to all provisions except the data protection liability regime, which is governed by New York law, with a choice of New York courts for disputes arising under that specific provision."
+    },
+    {
+      "speaker": "Helena",
+      "text": "Split governing law clauses are notoriously difficult to administer and tend to create interpretive ambiguity rather than eliminate it. I'd prefer we address the CCPA exposure directly through a mutual regulatory change mechanism — if the regulatory landscape shifts materially, either party can trigger a renegotiation of the liability cap within sixty days."
+    },
+    {
+      "speaker": "David",
+      "text": "A regulatory change mechanism is more elegant than a split clause, I'll concede that. The sixty-day trigger would need to be operationally defined — I'd suggest we define 'material change' as any regulatory amendment that increases the aggregate penalty exposure by more than twenty percent."
+    },
+    {
+      "speaker": "Helena",
+      "text": "Twenty percent is a reasonable materiality threshold. Let's agree to that and task our respective drafting teams to develop the trigger language, with a first draft exchanged within five business days."
+    },
+    {
+      "speaker": "David",
+      "text": "Agreed. I think we've reached a workable framework on both indemnification and liability. Governing law remains as California with the regulatory change mechanism as a safety valve — that's a position I can recommend to my client."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Helena",
+      "text": "David, I want to address the indemnification clause before we move to the liability cap, because the two provisions are structurally interdependent and resolving one without the other will likely create inconsistencies.",
+      "durationMs": 11832,
+      "translationVi": "David, tôi muốn giải quyết điều khoản bồi thường trước khi chúng ta chuyển sang giới hạn trách nhiệm, vì hai điều khoản phụ thuộc lẫn nhau về cấu trúc và giải quyết một trong hai mà không có điều kia có thể tạo ra sự không nhất quán."
+    },
+    {
+      "id": "s2",
+      "speaker": "David",
+      "text": "I agree with that sequencing.",
+      "durationMs": 1728,
+      "translationVi": "Tôi đồng ý với thứ tự đó."
+    },
+    {
+      "id": "s3",
+      "speaker": "David",
+      "text": "My client's position on indemnification has hardened since the last draft — they're not prepared to accept a mutual indemnification structure when the risk profile is demonstrably asymmetric.",
+      "durationMs": 10872,
+      "translationVi": "Lập trường của khách hàng tôi về bồi thường đã cứng rắn hơn kể từ bản thảo cuối — họ không sẵn lòng chấp nhận cấu trúc bồi thường tương hỗ khi hồ sơ rủi ro rõ ràng là bất đối xứng."
+    },
+    {
+      "id": "s4",
+      "speaker": "Helena",
+      "text": "Walk me through the asymmetry as you see it.",
+      "durationMs": 3168,
+      "translationVi": "Hãy giải thích cho tôi nghe về sự bất đối xứng theo quan điểm của anh."
+    },
+    {
+      "id": "s5",
+      "speaker": "Helena",
+      "text": "Our view is that both parties face meaningful IP infringement exposure under this arrangement, which is precisely why mutual indemnification is appropriate.",
+      "durationMs": 9192,
+      "translationVi": "Quan điểm của chúng tôi là cả hai bên đều đối mặt với rủi ro vi phạm IP đáng kể theo thỏa thuận này, đó chính xác là lý do tại sao bồi thường tương hỗ là phù hợp."
+    },
+    {
+      "id": "s6",
+      "speaker": "David",
+      "text": "The asymmetry lies in the nature of the deliverables.",
+      "durationMs": 3504,
+      "translationVi": "Sự bất đối xứng nằm ở bản chất của các sản phẩm bàn giao."
+    },
+    {
+      "id": "s7",
+      "speaker": "David",
+      "text": "Your client is licensing pre-existing software with an established IP chain of title.",
+      "durationMs": 5328,
+      "translationVi": "Khách hàng của bạn đang cấp phép phần mềm có sẵn với chuỗi quyền sở hữu IP đã được xác lập."
+    },
+    {
+      "id": "s8",
+      "speaker": "David",
+      "text": "Our client is contributing novel implementations that, by definition, carry a higher profile of innovation-related claim risk.",
+      "durationMs": 8088,
+      "translationVi": "Khách hàng của tôi đang đóng góp các triển khai mới, theo định nghĩa, mang hồ sơ rủi ro yêu cầu liên quan đến đổi mới cao hơn."
+    },
+    {
+      "id": "s9",
+      "speaker": "Helena",
+      "text": "That's a fair characterisation of the underlying risk profile, but it doesn't follow that mutual indemnification is therefore inappropriate.",
+      "durationMs": 7800,
+      "translationVi": "Đó là đặc trưng hợp lý về hồ sơ rủi ro cơ bản, nhưng không có nghĩa là bồi thường tương hỗ do đó không phù hợp."
+    },
+    {
+      "id": "s10",
+      "speaker": "Helena",
+      "text": "What you're describing could be addressed through differential indemnification caps rather than abandoning mutuality altogether.",
+      "durationMs": 6792,
+      "translationVi": "Những gì bạn mô tả có thể được giải quyết thông qua giới hạn bồi thường khác biệt thay vì từ bỏ tính tương hỗ hoàn toàn."
+    },
+    {
+      "id": "s11",
+      "speaker": "David",
+      "text": "Differential caps are workable in principle.",
+      "durationMs": 2760,
+      "translationVi": "Giới hạn khác biệt có thể thực hiện được về nguyên tắc."
+    },
+    {
+      "id": "s12",
+      "speaker": "David",
+      "text": "What magnitude of differential are you envisioning, and against what baseline?",
+      "durationMs": 4392,
+      "translationVi": "Bạn đang hình dung mức độ khác biệt nào, và dựa trên cơ sở nào?"
+    },
+    {
+      "id": "s13",
+      "speaker": "Helena",
+      "text": "We'd propose capping our client's indemnification obligation at the aggregate fees paid under the agreement in the preceding twelve months, and your client's obligation at one-and-a-half times that figure, reflecting the asymmetric risk you've described.",
+      "durationMs": 12816,
+      "translationVi": "Chúng tôi đề xuất giới hạn nghĩa vụ bồi thường của khách hàng chúng tôi ở mức tổng phí đã trả theo thỏa thuận trong mười hai tháng trước, và nghĩa vụ của khách hàng bạn ở mức một rưỡi lần con số đó, phản ánh rủi ro bất đối xứng bạn đã mô tả."
+    },
+    {
+      "id": "s14",
+      "speaker": "David",
+      "text": "The one-point-five multiplier is acceptable as a starting position, though I'd want the baseline to be calculated on a rolling twelve-month basis rather than a fixed annual period — the fee trajectory under this agreement is expected to be front-loaded.",
+      "durationMs": 14064,
+      "translationVi": "Hệ số nhân một rưỡi có thể chấp nhận được như một lập trường khởi đầu, mặc dù tôi muốn cơ sở được tính theo cơ sở mười hai tháng cuộn thay vì kỳ hàng năm cố định — quỹ đạo phí theo thỏa thuận này dự kiến sẽ tập trung vào giai đoạn đầu."
+    },
+    {
+      "id": "s15",
+      "speaker": "Helena",
+      "text": "Rolling twelve-month calculation is fine with us.",
+      "durationMs": 3648,
+      "translationVi": "Tính toán mười hai tháng cuộn ổn với chúng tôi."
+    },
+    {
+      "id": "s16",
+      "speaker": "Helena",
+      "text": "Now, on the overall liability cap — your current proposal sets it at one times the contract value, which in our view doesn't adequately account for consequential loss exposure in the event of a material breach of the data protection obligations.",
+      "durationMs": 13680,
+      "translationVi": "Bây giờ, về giới hạn trách nhiệm tổng thể — đề xuất hiện tại của bạn đặt nó ở một lần giá trị hợp đồng, theo quan điểm của chúng tôi không đủ tính đến rủi ro tổn thất hậu quả trong trường hợp vi phạm nghiêm trọng các nghĩa vụ bảo vệ dữ liệu."
+    },
+    {
+      "id": "s17",
+      "speaker": "David",
+      "text": "The data protection carve-out is a non-starter for us.",
+      "durationMs": 3336,
+      "translationVi": "Điều khoản loại trừ bảo vệ dữ liệu là điều chúng tôi không thể chấp nhận."
+    },
+    {
+      "id": "s18",
+      "speaker": "David",
+      "text": "A liability regime without a ceiling on data protection claims creates an indeterminate risk profile that no board would ratify.",
+      "durationMs": 8232,
+      "translationVi": "Chế độ trách nhiệm mà không có trần đối với các khiếu nại bảo vệ dữ liệu tạo ra hồ sơ rủi ro không xác định mà không hội đồng nào sẽ phê duyệt."
+    },
+    {
+      "id": "s19",
+      "speaker": "Helena",
+      "text": "I understand the governance concern, but consider the context: the data your client is handling under this agreement includes personally identifiable health information.",
+      "durationMs": 9384,
+      "translationVi": "Tôi hiểu mối lo ngại về quản trị, nhưng hãy xem xét bối cảnh: dữ liệu khách hàng của bạn đang xử lý theo thỏa thuận này bao gồm thông tin y tế có thể nhận dạng cá nhân."
+    },
+    {
+      "id": "s20",
+      "speaker": "Helena",
+      "text": "An uncapped indemnification for routine commercial breach is unreasonable; uncapped exposure for a catastrophic privacy breach is a different matter entirely.",
+      "durationMs": 9216,
+      "translationVi": "Bồi thường không giới hạn cho vi phạm thương mại thông thường là không hợp lý; rủi ro không giới hạn cho vi phạm quyền riêng tư thảm khốc là vấn đề hoàn toàn khác."
+    },
+    {
+      "id": "s21",
+      "speaker": "David",
+      "text": "The distinction is fair.",
+      "durationMs": 1656,
+      "translationVi": "Sự phân biệt là công bằng."
+    },
+    {
+      "id": "s22",
+      "speaker": "David",
+      "text": "We'd be willing to apply a separate, higher cap for data protection breaches — say, three times the aggregate contract value — but that ceiling must be absolute and not subject to override by statutory penalties in the governing jurisdiction.",
+      "durationMs": 14616,
+      "translationVi": "Chúng tôi sẵn lòng áp dụng giới hạn riêng, cao hơn cho vi phạm bảo vệ dữ liệu — giả sử ba lần tổng giá trị hợp đồng — nhưng trần đó phải tuyệt đối và không bị vượt qua bởi các hình phạt luật định trong quyền hạn điều chỉnh."
+    },
+    {
+      "id": "s23",
+      "speaker": "Helena",
+      "text": "That's where we hit a structural problem.",
+      "durationMs": 2736,
+      "translationVi": "Đó là nơi chúng ta gặp vấn đề cấu trúc."
+    },
+    {
+      "id": "s24",
+      "speaker": "Helena",
+      "text": "If the governing law is California, the CCPA penalty regime isn't contractually excludable.",
+      "durationMs": 6552,
+      "translationVi": "Nếu luật điều chỉnh là California, chế độ hình phạt CCPA không thể loại trừ theo hợp đồng."
+    },
+    {
+      "id": "s25",
+      "speaker": "Helena",
+      "text": "You cannot agree in a contract to cap statutory liability that a legislature has made non-waivable.",
+      "durationMs": 6264,
+      "translationVi": "Bạn không thể đồng ý trong hợp đồng để giới hạn trách nhiệm luật định mà cơ quan lập pháp đã làm không thể từ bỏ."
+    },
+    {
+      "id": "s26",
+      "speaker": "David",
+      "text": "Which is precisely why we've been pushing for a New York governing law clause — the regulatory exposure under New York law for this category of data is materially lower, and the contractual framework is more predictable.",
+      "durationMs": 12456,
+      "translationVi": "Đó chính xác là lý do tại sao chúng tôi đã thúc đẩy điều khoản luật điều chỉnh New York — rủi ro quy định theo luật New York cho loại dữ liệu này thấp hơn đáng kể về mặt vật chất, và khung hợp đồng có thể dự đoán được hơn."
+    },
+    {
+      "id": "s27",
+      "speaker": "Helena",
+      "text": "My client's operations are headquartered in California, and they have a strong preference for California law on the basis of familiarity and alignment with their compliance infrastructure.",
+      "durationMs": 9888,
+      "translationVi": "Hoạt động của khách hàng tôi có trụ sở tại California, và họ có sở thích mạnh về luật California dựa trên sự quen thuộc và phù hợp với cơ sở hạ tầng tuân thủ của họ."
+    },
+    {
+      "id": "s28",
+      "speaker": "Helena",
+      "text": "Shifting governing law for liability cap purposes creates complexity across their entire contract portfolio.",
+      "durationMs": 6984,
+      "translationVi": "Việc thay đổi luật điều chỉnh vì mục đích giới hạn trách nhiệm tạo ra sự phức tạp trên toàn bộ danh mục hợp đồng của họ."
+    },
+    {
+      "id": "s29",
+      "speaker": "David",
+      "text": "I appreciate the operational logic.",
+      "durationMs": 2304,
+      "translationVi": "Tôi đánh giá cao logic vận hành đó."
+    },
+    {
+      "id": "s30",
+      "speaker": "David",
+      "text": "A possible middle ground is a split governing law clause — California law applies to all provisions except the data protection liability regime, which is governed by New York law, with a choice of New York courts for disputes arising under that specific provision.",
+      "durationMs": 15408,
+      "translationVi": "Một điểm giữa có thể là điều khoản luật điều chỉnh chia tách — luật California áp dụng cho tất cả các điều khoản ngoại trừ chế độ trách nhiệm bảo vệ dữ liệu, được điều chỉnh bởi luật New York, với sự lựa chọn tòa án New York cho các tranh chấp phát sinh theo điều khoản cụ thể đó."
+    },
+    {
+      "id": "s31",
+      "speaker": "Helena",
+      "text": "Split governing law clauses are notoriously difficult to administer and tend to create interpretive ambiguity rather than eliminate it.",
+      "durationMs": 7704,
+      "translationVi": "Các điều khoản luật điều chỉnh chia tách nổi tiếng là khó quản lý và có xu hướng tạo ra sự mơ hồ giải thích hơn là loại bỏ nó."
+    },
+    {
+      "id": "s32",
+      "speaker": "Helena",
+      "text": "I'd prefer we address the CCPA exposure directly through a mutual regulatory change mechanism — if the regulatory landscape shifts materially, either party can trigger a renegotiation of the liability cap within sixty days.",
+      "durationMs": 13536,
+      "translationVi": "Tôi muốn chúng ta giải quyết trực tiếp rủi ro CCPA thông qua cơ chế thay đổi quy định tương hỗ — nếu bối cảnh quy định thay đổi đáng kể, bất kỳ bên nào cũng có thể kích hoạt đàm phán lại giới hạn trách nhiệm trong vòng sáu mươi ngày."
+    },
+    {
+      "id": "s33",
+      "speaker": "David",
+      "text": "A regulatory change mechanism is more elegant than a split clause, I'll concede that.",
+      "durationMs": 5400,
+      "translationVi": "Cơ chế thay đổi quy định thanh lịch hơn điều khoản chia tách, tôi thừa nhận điều đó."
+    },
+    {
+      "id": "s34",
+      "speaker": "David",
+      "text": "The sixty-day trigger would need to be operationally defined — I'd suggest we define 'material change' as any regulatory amendment that increases the aggregate penalty exposure by more than twenty percent.",
+      "durationMs": 12264,
+      "translationVi": "Điều khoản kích hoạt sáu mươi ngày cần được xác định về mặt hoạt động — tôi đề nghị chúng ta định nghĩa 'thay đổi đáng kể' là bất kỳ sửa đổi quy định nào làm tăng tổng rủi ro hình phạt hơn hai mươi phần trăm."
+    },
+    {
+      "id": "s35",
+      "speaker": "Helena",
+      "text": "Twenty percent is a reasonable materiality threshold.",
+      "durationMs": 3864,
+      "translationVi": "Hai mươi phần trăm là ngưỡng trọng yếu hợp lý."
+    },
+    {
+      "id": "s36",
+      "speaker": "Helena",
+      "text": "Let's agree to that and task our respective drafting teams to develop the trigger language, with a first draft exchanged within five business days.",
+      "durationMs": 8544,
+      "translationVi": "Hãy đồng ý với điều đó và giao cho các nhóm soạn thảo của chúng ta phát triển ngôn ngữ kích hoạt, với bản thảo đầu tiên được trao đổi trong vòng năm ngày làm việc."
+    },
+    {
+      "id": "s37",
+      "speaker": "David",
+      "text": "Agreed.",
+      "durationMs": 912,
+      "translationVi": "Đồng ý."
+    },
+    {
+      "id": "s38",
+      "speaker": "David",
+      "text": "I think we've reached a workable framework on both indemnification and liability.",
+      "durationMs": 4992,
+      "translationVi": "Tôi nghĩ chúng ta đã đạt được khung làm việc được về cả bồi thường và trách nhiệm."
+    },
+    {
+      "id": "s39",
+      "speaker": "David",
+      "text": "Governing law remains as California with the regulatory change mechanism as a safety valve — that's a position I can recommend to my client.",
+      "durationMs": 8448,
+      "translationVi": "Luật điều chỉnh vẫn là California với cơ chế thay đổi quy định như một van an toàn — đó là lập trường tôi có thể đề xuất với khách hàng của mình."
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "It doesn't follow that … is therefore inappropriate."
+    },
+    {
+      "id": "h2",
+      "text": "That's where we hit a structural problem …"
+    },
+    {
+      "id": "h3",
+      "text": "A possible middle ground is …"
+    },
+    {
+      "id": "h4",
+      "text": "I'd prefer we address … directly through …"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "indemnification clause",
+      "meaningVi": "điều khoản bồi thường thiệt hại",
+      "pronunciation": "/ɪnˌdɛmnɪfɪˈkeɪʃən klɔːz/"
+    },
+    {
+      "id": "v2",
+      "phrase": "liability cap",
+      "meaningVi": "giới hạn trách nhiệm pháp lý",
+      "pronunciation": "/ˌlaɪəˈbɪlɪti kæp/"
+    },
+    {
+      "id": "v3",
+      "phrase": "chain of title",
+      "meaningVi": "chuỗi quyền sở hữu (lịch sử quyền sở hữu)",
+      "pronunciation": "/tʃeɪn əv ˈtaɪtəl/"
+    },
+    {
+      "id": "v4",
+      "phrase": "non-waivable",
+      "meaningVi": "không thể từ bỏ (theo luật định)",
+      "pronunciation": "/nɒn ˈweɪvəbəl/"
+    },
+    {
+      "id": "v5",
+      "phrase": "materiality threshold",
+      "meaningVi": "ngưỡng trọng yếu (mức đủ để kích hoạt)",
+      "pronunciation": "/məˌtɪəriˈælɪti ˈθrɛʃhoʊld/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "structurally interdependent",
+      "meaningVi": "phụ thuộc lẫn nhau về cấu trúc",
+      "pronunciation": "/ˈstrʌktʃərəli ˌɪntərdɪˈpɛndənt/"
+    },
+    {
+      "phrase": "carve-out",
+      "meaningVi": "điều khoản loại trừ (ngoại lệ)",
+      "pronunciation": "/ˈkɑːrv aʊt/"
+    },
+    {
+      "phrase": "consequential loss",
+      "meaningVi": "tổn thất hậu quả (gián tiếp)",
+      "pronunciation": "/kənˌsɛkwɛnʃəl lɒs/"
+    },
+    {
+      "phrase": "governing law clause",
+      "meaningVi": "điều khoản luật điều chỉnh",
+      "pronunciation": "/ˈɡʌvərnɪŋ lɔː klɔːz/"
+    },
+    {
+      "phrase": "front-loaded",
+      "meaningVi": "tập trung nhiều hơn vào giai đoạn đầu",
+      "pronunciation": "/ˈfrʌnt loʊdɪd/"
+    },
+    {
+      "phrase": "indemnification clause",
+      "meaningVi": "điều khoản bồi thường thiệt hại (pháp lý)",
+      "pronunciation": "/ɪnˌdɛmnɪfɪˈkeɪʃən klɔːz/"
+    },
+    {
+      "phrase": "liability cap",
+      "meaningVi": "giới hạn trách nhiệm pháp lý",
+      "pronunciation": "/ˌlaɪəˈbɪlɪti kæp/"
+    },
+    {
+      "phrase": "asymmetric risk profile",
+      "meaningVi": "hồ sơ rủi ro bất đối xứng",
+      "pronunciation": "/ˌeɪsɪˈmɛtrɪk rɪsk ˈproʊfaɪl/"
+    },
+    {
+      "phrase": "differential indemnification caps",
+      "meaningVi": "giới hạn bồi thường phân biệt (theo mức độ rủi ro)",
+      "pronunciation": "/ˌdɪfəˈrɛnʃəl ɪnˌdɛmnɪfɪˈkeɪʃən kæps/"
+    },
+    {
+      "phrase": "rolling twelve-month basis",
+      "meaningVi": "tính theo mười hai tháng liên tục (cuốn chiếu)",
+      "pronunciation": "/ˈroʊlɪŋ twɛlv mʌnθ ˈbeɪsɪs/"
+    },
+    {
+      "phrase": "catastrophic privacy breach",
+      "meaningVi": "vi phạm quyền riêng tư thảm khốc",
+      "pronunciation": "/ˌkætəˈstrɒfɪk ˈpraɪvəsi briːtʃ/"
+    },
+    {
+      "phrase": "non-waivable",
+      "meaningVi": "không thể từ bỏ/không thể miễn trừ (quyền pháp lý)",
+      "pronunciation": "/nɒn ˈweɪvəbl/"
+    },
+    {
+      "phrase": "split governing law clause",
+      "meaningVi": "điều khoản chọn luật tách biệt",
+      "pronunciation": "/splɪt ˈɡʌvərnɪŋ lɔː klɔːz/"
+    },
+    {
+      "phrase": "interpretive ambiguity",
+      "meaningVi": "sự mơ hồ trong giải thích (pháp lý)",
+      "pronunciation": "/ɪnˈtɜːrprɪtɪv æmˈbɪɡjuɪti/"
+    },
+    {
+      "phrase": "regulatory change mechanism",
+      "meaningVi": "cơ chế điều chỉnh khi quy định thay đổi",
+      "pronunciation": "/ˈrɛɡjulətɔːri tʃeɪndʒ ˈmɛkənɪzəm/"
+    },
+    {
+      "phrase": "materiality threshold",
+      "meaningVi": "ngưỡng trọng yếu (xác định mức độ đáng kể)",
+      "pronunciation": "/məˈtɪəriælɪti ˈθrɛʃoʊld/"
+    },
+    {
+      "phrase": "data protection obligations",
+      "meaningVi": "nghĩa vụ bảo vệ dữ liệu",
+      "pronunciation": "/ˈdeɪtə prəˈtɛkʃən ˌɒblɪˈɡeɪʃənz/"
+    },
+    {
+      "phrase": "IP chain of title",
+      "meaningVi": "chuỗi quyền sở hữu IP (lịch sử quyền sở hữu)",
+      "pronunciation": "/aɪ piː tʃeɪn əv ˈtaɪtl/"
+    },
+    {
+      "phrase": "compliance infrastructure",
+      "meaningVi": "cơ sở hạ tầng tuân thủ pháp lý",
+      "pronunciation": "/kəmˈplaɪəns ˈɪnfrəˌstrʌktʃər/"
+    },
+    {
+      "phrase": "contractual cap",
+      "meaningVi": "giới hạn được quy định trong hợp đồng",
+      "pronunciation": "/kənˈtræktʃuəl kæp/"
+    },
+    {
+      "phrase": "aggregate fees",
+      "meaningVi": "tổng phí (trong hợp đồng)",
+      "pronunciation": "/ˈæɡrɪɡɪt fiːz/"
+    },
+    {
+      "phrase": "statutory penalties",
+      "meaningVi": "hình phạt theo luật định",
+      "pronunciation": "/ˈstætʃutɔːri ˈpɛnəltiz/"
+    },
+    {
+      "phrase": "novel implementations",
+      "meaningVi": "các triển khai/ứng dụng mới",
+      "pronunciation": "/ˈnɒvəl ˌɪmplɪmɛnˈteɪʃənz/"
+    },
+    {
+      "phrase": "confidentiality protections",
+      "meaningVi": "biện pháp bảo vệ tính bảo mật",
+      "pronunciation": "/ˌkɒnfɪˌdɛnʃiˈælɪti prəˈtɛkʃənz/"
+    },
+    {
+      "phrase": "CCPA penalty regime",
+      "meaningVi": "chế độ xử phạt theo Đạo luật Bảo vệ Quyền riêng tư California",
+      "pronunciation": "/siː siː piː eɪ ˈpɛnəlti rɪˈʒiːm/"
+    },
+    {
+      "phrase": "litigation trigger",
+      "meaningVi": "yếu tố kích hoạt kiện tụng",
+      "pronunciation": "/ˌlɪtɪˈɡeɪʃən ˈtrɪɡər/"
+    },
+    {
+      "phrase": "renegotiation",
+      "meaningVi": "đàm phán lại",
+      "pronunciation": "/ˌriːnɪˌɡoʊʃiˈeɪʃən/"
+    },
+    {
+      "phrase": "contractually excludable",
+      "meaningVi": "có thể loại trừ theo hợp đồng",
+      "pronunciation": "/kənˈtræktʃuəli ɪkˈskluːdəbl/"
+    },
+    {
+      "phrase": "drafting teams",
+      "meaningVi": "nhóm soạn thảo (văn bản pháp lý)",
+      "pronunciation": "/ˈdrɑːftɪŋ tiːmz/"
+    },
+    {
+      "phrase": "personally identifiable health information",
+      "meaningVi": "thông tin sức khỏe có thể nhận dạng cá nhân",
+      "pronunciation": "/ˈpɜːrsənəli aɪˈdɛntɪfaɪəbl hɛlθ ˌɪnfərˈmeɪʃən/"
+    },
+    {
+      "phrase": "indeterminate risk",
+      "meaningVi": "rủi ro không xác định",
+      "pronunciation": "/ˌɪndɪˈtɜːrmɪnɪt rɪsk/"
+    },
+    {
+      "phrase": "mutual regulatory change mechanism",
+      "meaningVi": "cơ chế thay đổi quy định qua lại giữa hai bên",
+      "pronunciation": "/ˈmjuːtʃuəl ˈrɛɡjulətɔːri tʃeɪndʒ ˈmɛkənɪzəm/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Logical connectors in formal argument: 'it doesn't follow that'",
+      "bodyVi": "'It doesn't follow that X' là cách bác bỏ một kết luận logic mà không từ chối tiền đề. Trong tranh luận pháp lý, điều này tách biệt việc chấp nhận một sự thật với việc chấp nhận hệ quả được rút ra từ nó.",
+      "bodyEn": "'It doesn't follow that X' rejects a conclusion without rejecting the premise. This logical connector is essential in legal argumentation for conceding facts while disputing the inferences drawn from them."
+    },
+    {
+      "title": "Conditional framing for concessions: 'workable in principle'",
+      "bodyVi": "'Workable in principle' thừa nhận tính khả thi lý thuyết trong khi để ngỏ điều kiện thực tế. Cụm này cho phép đàm phán viên trao đổi mà không cam kết vô điều kiện.",
+      "bodyEn": "'Workable in principle' acknowledges theoretical feasibility while reserving judgment on practical conditions. It creates space for continued negotiation without appearing obstructionist — a key register marker in legal and commercial discourse."
+    }
+  ],
+  "translationVi": "Helena: David, tôi muốn giải quyết điều khoản bồi thường trước khi chúng ta chuyển sang giới hạn trách nhiệm, vì hai điều khoản phụ thuộc lẫn nhau về cấu trúc và giải quyết một trong hai mà không có điều kia có thể tạo ra sự không nhất quán. David: Tôi đồng ý với thứ tự đó. Lập trường của khách hàng tôi về bồi thường đã cứng rắn hơn kể từ bản thảo cuối — họ không sẵn lòng chấp nhận cấu trúc bồi thường tương hỗ khi hồ sơ rủi ro rõ ràng là bất đối xứng. Helena: Hãy giải thích cho tôi nghe về sự bất đối xứng theo quan điểm của bạn. Quan điểm của chúng tôi là cả hai bên đều đối mặt với rủi ro vi phạm IP đáng kể theo thỏa thuận này, đó chính xác là lý do tại sao bồi thường tương hỗ là phù hợp. David: Sự bất đối xứng nằm ở bản chất của các sản phẩm bàn giao. Khách hàng của bạn đang cấp phép phần mềm có sẵn với chuỗi quyền sở hữu IP đã được xác lập. Khách hàng của tôi đang đóng góp các triển khai mới, theo định nghĩa, mang hồ sơ rủi ro yêu cầu liên quan đến đổi mới cao hơn. Helena: Đó là đặc trưng hợp lý về hồ sơ rủi ro cơ bản, nhưng không có nghĩa là bồi thường tương hỗ do đó không phù hợp. Những gì bạn mô tả có thể được giải quyết thông qua giới hạn bồi thường khác biệt thay vì từ bỏ tính tương hỗ hoàn toàn. David: Giới hạn khác biệt có thể thực hiện được về nguyên tắc. Bạn đang hình dung mức độ khác biệt nào, và dựa trên cơ sở nào? Helena: Chúng tôi đề xuất giới hạn nghĩa vụ bồi thường của khách hàng chúng tôi ở mức tổng phí đã trả theo thỏa thuận trong mười hai tháng trước, và nghĩa vụ của khách hàng bạn ở mức một rưỡi lần con số đó, phản ánh rủi ro bất đối xứng bạn đã mô tả. David: Hệ số nhân một rưỡi có thể chấp nhận được như một lập trường khởi đầu, mặc dù tôi muốn cơ sở được tính theo cơ sở mười hai tháng cuộn thay vì kỳ hàng năm cố định — quỹ đạo phí theo thỏa thuận này dự kiến sẽ tập trung vào giai đoạn đầu. Helena: Tính toán mười hai tháng cuộn ổn với chúng tôi. Bây giờ, về giới hạn trách nhiệm tổng thể — đề xuất hiện tại của bạn đặt nó ở một lần giá trị hợp đồng, theo quan điểm của chúng tôi không đủ tính đến rủi ro tổn thất hậu quả trong trường hợp vi phạm nghiêm trọng các nghĩa vụ bảo vệ dữ liệu. David: Điều khoản loại trừ bảo vệ dữ liệu là điều chúng tôi không thể chấp nhận. Chế độ trách nhiệm mà không có trần đối với các khiếu nại bảo vệ dữ liệu tạo ra hồ sơ rủi ro không xác định mà không hội đồng nào sẽ phê duyệt. Helena: Tôi hiểu mối lo ngại về quản trị, nhưng hãy xem xét bối cảnh: dữ liệu khách hàng của bạn đang xử lý theo thỏa thuận này bao gồm thông tin y tế có thể nhận dạng cá nhân. Bồi thường không giới hạn cho vi phạm thương mại thông thường là không hợp lý; rủi ro không giới hạn cho vi phạm quyền riêng tư thảm khốc là vấn đề hoàn toàn khác. David: Sự phân biệt là công bằng. Chúng tôi sẵn lòng áp dụng giới hạn riêng, cao hơn cho vi phạm bảo vệ dữ liệu — giả sử ba lần tổng giá trị hợp đồng — nhưng trần đó phải tuyệt đối và không bị vượt qua bởi các hình phạt luật định trong quyền hạn điều chỉnh. Helena: Đó là nơi chúng ta gặp vấn đề cấu trúc. Nếu luật điều chỉnh là California, chế độ hình phạt CCPA không thể loại trừ theo hợp đồng. Bạn không thể đồng ý trong hợp đồng để giới hạn trách nhiệm luật định mà cơ quan lập pháp đã làm không thể từ bỏ. David: Đó chính xác là lý do tại sao chúng tôi đã thúc đẩy điều khoản luật điều chỉnh New York — rủi ro quy định theo luật New York cho loại dữ liệu này thấp hơn đáng kể về mặt vật chất, và khung hợp đồng có thể dự đoán được hơn. Helena: Hoạt động của khách hàng tôi có trụ sở tại California, và họ có sở thích mạnh về luật California dựa trên sự quen thuộc và phù hợp với cơ sở hạ tầng tuân thủ của họ. Việc thay đổi luật điều chỉnh vì mục đích giới hạn trách nhiệm tạo ra sự phức tạp trên toàn bộ danh mục hợp đồng của họ. David: Tôi đánh giá cao logic vận hành đó. Một điểm giữa có thể là điều khoản luật điều chỉnh chia tách — luật California áp dụng cho tất cả các điều khoản ngoại trừ chế độ trách nhiệm bảo vệ dữ liệu, được điều chỉnh bởi luật New York, với sự lựa chọn tòa án New York cho các tranh chấp phát sinh theo điều khoản cụ thể đó. Helena: Các điều khoản luật điều chỉnh chia tách nổi tiếng là khó quản lý và có xu hướng tạo ra sự mơ hồ giải thích hơn là loại bỏ nó. Tôi muốn chúng ta giải quyết trực tiếp rủi ro CCPA thông qua cơ chế thay đổi quy định tương hỗ — nếu bối cảnh quy định thay đổi đáng kể, bất kỳ bên nào cũng có thể kích hoạt đàm phán lại giới hạn trách nhiệm trong vòng sáu mươi ngày. David: Cơ chế thay đổi quy định thanh lịch hơn điều khoản chia tách, tôi thừa nhận điều đó. Điều khoản kích hoạt sáu mươi ngày cần được xác định về mặt hoạt động — tôi đề nghị chúng ta định nghĩa 'thay đổi đáng kể' là bất kỳ sửa đổi quy định nào làm tăng tổng rủi ro hình phạt hơn hai mươi phần trăm. Helena: Hai mươi phần trăm là ngưỡng trọng yếu hợp lý. Hãy đồng ý với điều đó và giao cho các nhóm soạn thảo của chúng ta phát triển ngôn ngữ kích hoạt, với bản thảo đầu tiên được trao đổi trong vòng năm ngày làm việc. David: Đồng ý. Tôi nghĩ chúng ta đã đạt được khung làm việc được về cả bồi thường và trách nhiệm. Luật điều chỉnh vẫn là California với cơ chế thay đổi quy định như một van an toàn — đó là lập trường tôi có thể đề xuất với khách hàng của mình.",
+  "criticalThinkingQuestion": "When parties to a contract operate under different regulatory regimes, to what extent can contractual provisions meaningfully limit liability, and what are the ethical implications of attempting to do so through choice-of-law engineering?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-c1-013",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 294360
+}

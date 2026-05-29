@@ -1,0 +1,285 @@
+{
+  "id": "speaking-a1-007",
+  "level": "A1",
+  "title": "Asking the teacher",
+  "summary": "A student asks the teacher for help understanding a word and a homework task.",
+  "topic": "In the classroom",
+  "tags": [
+    "School",
+    "Classroom",
+    "Asking for help"
+  ],
+  "characters": [
+    "Student",
+    "Teacher"
+  ],
+  "voices": {
+    "Student": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-JennyNeural"
+    },
+    "Teacher": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-ChristopherNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Student",
+      "text": "Excuse me, teacher. Can I ask you something?"
+    },
+    {
+      "speaker": "Teacher",
+      "text": "Of course. What is your question?"
+    },
+    {
+      "speaker": "Student",
+      "text": "I don't understand this word. What does 'schedule' mean?"
+    },
+    {
+      "speaker": "Teacher",
+      "text": "A schedule is a list of times for things you need to do."
+    },
+    {
+      "speaker": "Student",
+      "text": "Can you give me an example, please?"
+    },
+    {
+      "speaker": "Teacher",
+      "text": "Sure. 'I have a busy schedule this week.' It means you have many things to do."
+    },
+    {
+      "speaker": "Student",
+      "text": "I see. Thank you very much."
+    },
+    {
+      "speaker": "Teacher",
+      "text": "You're welcome. Do you have any other questions?"
+    },
+    {
+      "speaker": "Student",
+      "text": "Yes. Can you explain the homework, please?"
+    },
+    {
+      "speaker": "Teacher",
+      "text": "Sure. Read page fifteen and write five sentences about your daily routine."
+    },
+    {
+      "speaker": "Student",
+      "text": "Is it due tomorrow?"
+    },
+    {
+      "speaker": "Teacher",
+      "text": "Yes, please bring it to class tomorrow morning."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Student",
+      "text": "Excuse me, teacher. Can I ask you something?",
+      "durationMs": 4440,
+      "translationVi": "Thưa thầy, em có thể hỏi thầy điều gì không?"
+    },
+    {
+      "id": "s2",
+      "speaker": "Teacher",
+      "text": "Of course. What is your question?",
+      "durationMs": 3576,
+      "translationVi": "Tất nhiên rồi. Em có câu hỏi gì?"
+    },
+    {
+      "id": "s3",
+      "speaker": "Student",
+      "text": "I don't understand this word. What does 'schedule' mean?",
+      "durationMs": 4344,
+      "translationVi": "Em không hiểu từ này. Từ 'schedule' có nghĩa là gì ạ?"
+    },
+    {
+      "id": "s4",
+      "speaker": "Teacher",
+      "text": "A schedule is a list of times for things you need to do.",
+      "durationMs": 3816,
+      "translationVi": "Schedule là danh sách thời gian cho những việc bạn cần làm."
+    },
+    {
+      "id": "s5",
+      "speaker": "Student",
+      "text": "Can you give me an example, please?",
+      "durationMs": 2928,
+      "translationVi": "Thầy có thể cho em một ví dụ không ạ?"
+    },
+    {
+      "id": "s6",
+      "speaker": "Teacher",
+      "text": "Sure. 'I have a busy schedule this week.' It means you have many things to do.",
+      "durationMs": 6936,
+      "translationVi": "Được chứ. 'I have a busy schedule this week.' Nghĩa là bạn có nhiều việc phải làm."
+    },
+    {
+      "id": "s7",
+      "speaker": "Student",
+      "text": "I see. Thank you very much.",
+      "durationMs": 3672,
+      "translationVi": "Em hiểu rồi. Cảm ơn thầy rất nhiều."
+    },
+    {
+      "id": "s8",
+      "speaker": "Teacher",
+      "text": "You're welcome. Do you have any other questions?",
+      "durationMs": 4128,
+      "translationVi": "Không có gì. Em còn câu hỏi nào khác không?"
+    },
+    {
+      "id": "s9",
+      "speaker": "Student",
+      "text": "Yes. Can you explain the homework, please?",
+      "durationMs": 4392,
+      "translationVi": "Vâng. Thầy có thể giải thích bài tập về nhà không ạ?"
+    },
+    {
+      "id": "s10",
+      "speaker": "Teacher",
+      "text": "Sure. Read page fifteen and write five sentences about your daily routine.",
+      "durationMs": 6336,
+      "translationVi": "Được chứ. Đọc trang mười lăm và viết năm câu về thói quen hàng ngày của em."
+    },
+    {
+      "id": "s11",
+      "speaker": "Student",
+      "text": "Is it due tomorrow?",
+      "durationMs": 1992,
+      "translationVi": "Ngày mai có phải nộp không ạ?"
+    },
+    {
+      "id": "s12",
+      "speaker": "Teacher",
+      "text": "Yes, please bring it to class tomorrow morning.",
+      "durationMs": 3600,
+      "translationVi": "Vâng, hãy mang bài đến lớp vào sáng mai nhé."
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "Can I ask you …?"
+    },
+    {
+      "id": "h2",
+      "text": "What does … mean?"
+    },
+    {
+      "id": "h3",
+      "text": "Can you explain …, please?"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "schedule",
+      "meaningVi": "lịch trình",
+      "pronunciation": "/ˈskɛdʒuːl/"
+    },
+    {
+      "id": "v2",
+      "phrase": "daily routine",
+      "meaningVi": "thói quen hàng ngày",
+      "pronunciation": "/ˈdeɪli ruːˈtiːn/"
+    },
+    {
+      "id": "v3",
+      "phrase": "due",
+      "meaningVi": "đến hạn nộp",
+      "pronunciation": "/djuː/"
+    },
+    {
+      "id": "v4",
+      "phrase": "bring",
+      "meaningVi": "mang theo",
+      "pronunciation": "/brɪŋ/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "Can I ask you something?",
+      "meaningVi": "Tôi có thể hỏi bạn điều gì không?",
+      "pronunciation": "/kæn aɪ æsk juː ˈsʌmθɪŋ/"
+    },
+    {
+      "phrase": "I don't understand",
+      "meaningVi": "Tôi không hiểu",
+      "pronunciation": "/aɪ doʊnt ˌʌndərˈstænd/"
+    },
+    {
+      "phrase": "What does … mean?",
+      "meaningVi": "… có nghĩa là gì?",
+      "pronunciation": "/wɒt dʌz … miːn/"
+    },
+    {
+      "phrase": "I see",
+      "meaningVi": "Tôi hiểu rồi",
+      "pronunciation": "/aɪ siː/"
+    },
+    {
+      "phrase": "Is it due tomorrow?",
+      "meaningVi": "Ngày mai có hạn nộp không?",
+      "pronunciation": "/ɪz ɪt djuː təˈmɒroʊ/"
+    },
+    {
+      "phrase": "Of course",
+      "meaningVi": "Dĩ nhiên / Tất nhiên rồi",
+      "pronunciation": "/əv kɔːrs/",
+      "exampleEn": "Can you help me? Of course!"
+    },
+    {
+      "phrase": "Can you give me an example",
+      "meaningVi": "Bạn có thể cho tôi một ví dụ không?",
+      "pronunciation": "/kæn juː ɡɪv miː ən ɪɡˈzæmpəl/",
+      "exampleEn": "Can you give me an example of how to use this word?"
+    },
+    {
+      "phrase": "busy schedule",
+      "meaningVi": "lịch trình bận rộn",
+      "pronunciation": "/ˈbɪzi ˈskɛdʒuːl/",
+      "exampleEn": "I have a busy schedule this week."
+    },
+    {
+      "phrase": "daily routine",
+      "meaningVi": "thói quen hàng ngày",
+      "pronunciation": "/ˈdeɪli ruːˈtiːn/",
+      "exampleEn": "Write five sentences about your daily routine."
+    },
+    {
+      "phrase": "bring it to class",
+      "meaningVi": "mang nó đến lớp",
+      "pronunciation": "/brɪŋ ɪt tə klæs/",
+      "exampleEn": "Please bring it to class tomorrow."
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Asking for a definition: 'What does … mean?'",
+      "bodyVi": "Dùng 'What does [từ] mean?' để hỏi nghĩa của từ. Ví dụ: 'What does schedule mean?' Đây là cách tự nhiên nhất để hỏi từ điển.",
+      "bodyEn": "Use 'What does [word] mean?' to ask for the meaning of a word. Example: 'What does schedule mean?'"
+    },
+    {
+      "title": "Polite requests in the classroom: 'Can you …, please?'",
+      "bodyVi": "Dùng 'Can you [động từ], please?' để yêu cầu giáo viên giúp đỡ một cách lịch sự. Ví dụ: 'Can you explain the homework, please?'",
+      "bodyEn": "Use 'Can you [verb], please?' for polite classroom requests. Example: 'Can you explain the homework, please?'"
+    }
+  ],
+  "translationVi": "Học sinh: Thưa thầy, em có thể hỏi thầy điều gì không? Giáo viên: Tất nhiên rồi. Em có câu hỏi gì? Học sinh: Em không hiểu từ này. Từ 'schedule' có nghĩa là gì ạ? Giáo viên: Schedule là danh sách thời gian cho những việc bạn cần làm. Học sinh: Thầy có thể cho em một ví dụ không ạ? Giáo viên: Được chứ. 'I have a busy schedule this week.' Nghĩa là bạn có nhiều việc phải làm. Học sinh: Em hiểu rồi. Cảm ơn thầy rất nhiều. Giáo viên: Không có gì. Em còn câu hỏi nào khác không? Học sinh: Vâng. Thầy có thể giải thích bài tập về nhà không ạ? Giáo viên: Được chứ. Đọc trang mười lăm và viết năm câu về thói quen hàng ngày của em. Học sinh: Ngày mai có phải nộp không ạ? Giáo viên: Vâng, hãy mang bài đến lớp vào sáng mai nhé.",
+  "criticalThinkingQuestion": "Why is it important to ask your teacher questions when you do not understand something?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-a1-007",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 50160
+}

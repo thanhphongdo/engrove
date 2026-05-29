@@ -1,0 +1,721 @@
+{
+  "id": "speaking-c1-006",
+  "level": "C1",
+  "title": "Debating AI Ethics and Regulation",
+  "summary": "A technology policy researcher and a software engineer debate the ethical implications of AI systems and the appropriate scope of government regulation.",
+  "topic": "AI Ethics and Regulation",
+  "tags": [
+    "Technology",
+    "Ethics",
+    "Policy",
+    "AI",
+    "Debate"
+  ],
+  "characters": [
+    "Sofia",
+    "Nathan"
+  ],
+  "voices": {
+    "Sofia": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-AriaNeural"
+    },
+    "Nathan": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-SteffanNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Sofia",
+      "text": "I want to start with what I think is the most under-discussed dimension of the AI regulation debate: the question of who bears the burden of proof. Currently, the default assumption is that AI systems are permissible unless proven harmful. I'd argue that assumption should be inverted, at least in high-stakes domains."
+    },
+    {
+      "speaker": "Nathan",
+      "text": "I understand the precautionary instinct, but inverting the burden of proof has serious practical implications. It would require developers to demonstrate safety in advance for systems whose harms are genuinely difficult to specify, measure, or foresee. There's a real risk of regulatory paralysis that disproportionately disadvantages smaller innovators."
+    },
+    {
+      "speaker": "Sofia",
+      "text": "The small-innovator argument is frequently invoked but somewhat misleading. The frontier AI systems raising the most urgent regulatory concerns — large language models, autonomous decision-making systems — are being developed by well-capitalised organisations that are perfectly capable of bearing the costs of pre-deployment safety assessment."
+    },
+    {
+      "speaker": "Nathan",
+      "text": "That's fair for frontier models, but regulation has a tendency to cascade. Compliance frameworks designed with large players in mind often become de facto barriers to entry that entrench the incumbents they were supposed to constrain. We've seen that dynamic in financial services regulation repeatedly."
+    },
+    {
+      "speaker": "Sofia",
+      "text": "The regulatory capture concern is real and I don't dismiss it. But the alternative — essentially unregulated deployment of consequential AI systems — seems to me to carry even greater risks, particularly in contexts like credit scoring, criminal justice, healthcare triage, where algorithmic decisions have profound effects on individuals' life chances."
+    },
+    {
+      "speaker": "Nathan",
+      "text": "But those domains are already governed by sector-specific regulation, and there's a question of whether AI-specific regulation adds value or creates redundancy. If a credit algorithm produces discriminatory outcomes, existing anti-discrimination law already provides a remedy. Why layer additional AI regulation on top?"
+    },
+    {
+      "speaker": "Sofia",
+      "text": "Because existing legal frameworks were designed for human decision-makers and don't map cleanly onto opaque algorithmic systems. The explainability problem is a good example: a person can be required to give reasons for a decision; a complex machine learning model cannot give reasons in any meaningful sense. That creates a fundamental accountability gap that existing law wasn't designed to bridge."
+    },
+    {
+      "speaker": "Nathan",
+      "text": "The explainability requirement is one I actually find deeply problematic — not because transparency is undesirable, but because mandating explainability as a prerequisite for deployment effectively rules out entire classes of architectures that happen to be among our most capable. It creates a trade-off between accuracy and interpretability that may produce worse outcomes for the very people we're trying to protect."
+    },
+    {
+      "speaker": "Sofia",
+      "text": "That trade-off argument always strikes me as a rationalization for maintaining the status quo. If a system's decisions can't be explained or audited, then the people those decisions affect have no meaningful ability to contest them. That's a profound violation of due process norms that no accuracy gain can justify in a democratic society."
+    },
+    {
+      "speaker": "Nathan",
+      "text": "I take the due process concern seriously, but I'd push back on the framing. There are intermediate positions between full explainability and complete opacity — statistical auditing, outcome monitoring, adversarial testing — that can provide meaningful accountability without requiring that individual predictions be interpretable. The regulatory framework needs to be sophisticated enough to accommodate those options."
+    },
+    {
+      "speaker": "Sofia",
+      "text": "Agreed — and I think that's actually a point of convergence between us. The regulatory discussion too often collapses into binary choices: explainability or not, deploy or don't. A sophisticated framework would specify contextually appropriate accountability mechanisms rather than imposing uniform technical requirements."
+    },
+    {
+      "speaker": "Nathan",
+      "text": "On that we're aligned. What I'm more resistant to is the impulse to treat AI as categorically different from other powerful technologies in ways that warrant exceptional regulatory treatment. The concerns you're raising — bias, opacity, concentration of power — apply to algorithmic systems that long predate modern AI."
+    },
+    {
+      "speaker": "Sofia",
+      "text": "The continuity argument has merit, but I think the scale and speed at which contemporary AI systems are being deployed, and the breadth of domains they're entering simultaneously, does create qualitative differences that warrant attention. When the same technology is mediating decisions in healthcare, employment, credit, surveillance, and information access all at once, the systemic risk profile is genuinely novel."
+    },
+    {
+      "speaker": "Nathan",
+      "text": "The systemic risk framing is interesting, but I worry that it can be used to justify very broad regulatory power without precise specification of what harms we're actually trying to prevent. Vague mandates around 'ensuring AI is safe and beneficial' have a way of becoming whatever regulators want them to be."
+    },
+    {
+      "speaker": "Sofia",
+      "text": "That's a legitimate concern about regulatory design, not a reason to avoid regulation altogether. The solution is to insist on precise, rights-based harm specification — the regulation should be tethered to identifiable harms affecting identifiable rights, not to vague notions of safety."
+    },
+    {
+      "speaker": "Nathan",
+      "text": "I could get behind that framing. Rights-based harm specification is both more tractable and more defensible than system-level safety assessments. It also naturally directs regulatory attention toward the deployment context rather than the technology itself, which I think is ultimately the right unit of analysis."
+    },
+    {
+      "speaker": "Sofia",
+      "text": "The deployment context point is crucial. The same large language model could be used for relatively low-risk content summarisation or for high-stakes clinical decision support, and those use cases warrant very different regulatory treatment. Regulating the model rather than the deployment is like regulating the car rather than road use."
+    },
+    {
+      "speaker": "Nathan",
+      "text": "That's a clarifying analogy. And it suggests the regulatory challenge is primarily one of governance architecture — who has authority over which deployment contexts, with what accountability mechanisms, and what enforcement capacity. That's a solvable problem, but it requires institutional investment that most jurisdictions have so far been reluctant to make."
+    },
+    {
+      "speaker": "Sofia",
+      "text": "The institutional investment question is precisely why I think the window for getting this right is narrower than most people appreciate. The systems and deployment patterns being established now are going to shape the governance defaults for the next decade. If we wait until harms are fully manifest before building the institutions to respond to them, we'll have lost the capacity to shape the trajectory."
+    },
+    {
+      "speaker": "Nathan",
+      "text": "I think you've convinced me that proactive institutional investment is warranted — I'd just want it focused on governance architecture and rights-based harm specification rather than prescriptive technical requirements. The goal should be accountability infrastructure, not a technology mandate."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Sofia",
+      "text": "I want to start with what I think is the most under-discussed dimension of the AI regulation debate: the question of who bears the burden of proof.",
+      "durationMs": 8376,
+      "translationVi": "Tôi muốn bắt đầu với điều mà tôi cho là chiều kích ít được thảo luận nhất trong cuộc tranh luận về quy định AI: câu hỏi về ai phải chịu gánh nặng chứng minh."
+    },
+    {
+      "id": "s2",
+      "speaker": "Sofia",
+      "text": "Currently, the default assumption is that AI systems are permissible unless proven harmful.",
+      "durationMs": 6096,
+      "translationVi": "Hiện tại, giả định mặc định là các hệ thống AI được cho phép trừ khi được chứng minh là có hại."
+    },
+    {
+      "id": "s3",
+      "speaker": "Sofia",
+      "text": "I'd argue that assumption should be inverted, at least in high-stakes domains.",
+      "durationMs": 5208,
+      "translationVi": "Tôi sẽ lập luận rằng giả định đó nên được đảo ngược, ít nhất là trong các lĩnh vực có rủi ro cao."
+    },
+    {
+      "id": "s4",
+      "speaker": "Nathan",
+      "text": "I understand the precautionary instinct, but inverting the burden of proof has serious practical implications.",
+      "durationMs": 7224,
+      "translationVi": "Tôi hiểu bản năng phòng ngừa, nhưng đảo ngược gánh nặng chứng minh có những hàm ý thực tế nghiêm trọng."
+    },
+    {
+      "id": "s5",
+      "speaker": "Nathan",
+      "text": "It would require developers to demonstrate safety in advance for systems whose harms are genuinely difficult to specify, measure, or foresee.",
+      "durationMs": 9024,
+      "translationVi": "Nó sẽ yêu cầu các nhà phát triển chứng minh sự an toàn trước khi triển khai đối với các hệ thống mà tác hại của chúng thực sự khó xác định, đo lường hoặc dự đoán."
+    },
+    {
+      "id": "s6",
+      "speaker": "Nathan",
+      "text": "There's a real risk of regulatory paralysis that disproportionately disadvantages smaller innovators.",
+      "durationMs": 6648,
+      "translationVi": "Có một rủi ro thực sự về sự tê liệt quy định gây bất lợi không cân xứng cho các nhà đổi mới nhỏ hơn."
+    },
+    {
+      "id": "s7",
+      "speaker": "Sofia",
+      "text": "The small-innovator argument is frequently invoked but somewhat misleading.",
+      "durationMs": 4968,
+      "translationVi": "Lập luận về nhà đổi mới nhỏ thường xuyên được viện dẫn nhưng có phần gây hiểu lầm."
+    },
+    {
+      "id": "s8",
+      "speaker": "Sofia",
+      "text": "The frontier AI systems raising the most urgent regulatory concerns — large language models, autonomous decision-making systems — are being developed by well-capitalised organisations that are perfectly capable of bearing the costs of pre-deployment safety assessment.",
+      "durationMs": 16296,
+      "translationVi": "Các hệ thống AI tiên phong đặt ra những lo ngại quy định cấp bách nhất — các mô hình ngôn ngữ lớn, các hệ thống ra quyết định tự trị — đang được phát triển bởi các tổ chức có nguồn vốn tốt hoàn toàn có khả năng chịu chi phí đánh giá an toàn trước khi triển khai."
+    },
+    {
+      "id": "s9",
+      "speaker": "Nathan",
+      "text": "That's fair for frontier models, but regulation has a tendency to cascade.",
+      "durationMs": 5400,
+      "translationVi": "Điều đó đúng với các mô hình tiên phong, nhưng quy định có xu hướng lan tỏa."
+    },
+    {
+      "id": "s10",
+      "speaker": "Nathan",
+      "text": "Compliance frameworks designed with large players in mind often become de facto barriers to entry that entrench the incumbents they were supposed to constrain.",
+      "durationMs": 9288,
+      "translationVi": "Các khung tuân thủ được thiết kế cho các công ty lớn thường trở thành rào cản gia nhập thực tế củng cố những người đương nhiệm mà chúng được cho là để hạn chế."
+    },
+    {
+      "id": "s11",
+      "speaker": "Nathan",
+      "text": "We've seen that dynamic in financial services regulation repeatedly.",
+      "durationMs": 4800,
+      "translationVi": "Chúng ta đã thấy động lực đó trong quy định dịch vụ tài chính nhiều lần."
+    },
+    {
+      "id": "s12",
+      "speaker": "Sofia",
+      "text": "The regulatory capture concern is real and I don't dismiss it.",
+      "durationMs": 4584,
+      "translationVi": "Mối lo ngại về việc chiếm đoạt quy định là có thật và tôi không bác bỏ nó."
+    },
+    {
+      "id": "s13",
+      "speaker": "Sofia",
+      "text": "But the alternative — essentially unregulated deployment of consequential AI systems — seems to me to carry even greater risks, particularly in contexts like credit scoring, criminal justice, healthcare triage, where algorithmic decisions have profound effects on individuals' life chances.",
+      "durationMs": 18552,
+      "translationVi": "Nhưng giải pháp thay thế — về cơ bản là triển khai không được kiểm soát các hệ thống AI có hệ quả — dường như mang rủi ro thậm chí còn lớn hơn, đặc biệt trong các bối cảnh như chấm điểm tín dụng, tư pháp hình sự, phân loại y tế, nơi các quyết định thuật toán có tác động sâu sắc đến cơ hội cuộc sống của cá nhân."
+    },
+    {
+      "id": "s14",
+      "speaker": "Nathan",
+      "text": "But those domains are already governed by sector-specific regulation, and there's a question of whether AI-specific regulation adds value or creates redundancy.",
+      "durationMs": 9720,
+      "translationVi": "Nhưng các lĩnh vực đó đã được điều chỉnh bởi quy định theo lĩnh vực cụ thể, và có câu hỏi liệu quy định đặc thù AI có tạo thêm giá trị hay tạo ra sự dư thừa không."
+    },
+    {
+      "id": "s15",
+      "speaker": "Nathan",
+      "text": "If a credit algorithm produces discriminatory outcomes, existing anti-discrimination law already provides a remedy.",
+      "durationMs": 8064,
+      "translationVi": "Nếu một thuật toán tín dụng tạo ra kết quả phân biệt đối xử, luật chống phân biệt đối xử hiện có đã cung cấp biện pháp khắc phục."
+    },
+    {
+      "id": "s16",
+      "speaker": "Nathan",
+      "text": "Why layer additional AI regulation on top?",
+      "durationMs": 3648,
+      "translationVi": "Tại sao phải thêm quy định AI lên trên?"
+    },
+    {
+      "id": "s17",
+      "speaker": "Sofia",
+      "text": "Because existing legal frameworks were designed for human decision-makers and don't map cleanly onto opaque algorithmic systems.",
+      "durationMs": 8064,
+      "translationVi": "Vì các khung pháp lý hiện có được thiết kế cho những người ra quyết định là con người và không ánh xạ sạch sẽ lên các hệ thống thuật toán không minh bạch."
+    },
+    {
+      "id": "s18",
+      "speaker": "Sofia",
+      "text": "The explainability problem is a good example: a person can be required to give reasons for a decision; a complex machine learning model cannot give reasons in any meaningful sense.",
+      "durationMs": 11184,
+      "translationVi": "Vấn đề khả năng giải thích là một ví dụ điển hình: một người có thể được yêu cầu đưa ra lý do cho một quyết định; một mô hình học máy phức tạp không thể đưa ra lý do theo bất kỳ nghĩa có ý nghĩa nào."
+    },
+    {
+      "id": "s19",
+      "speaker": "Sofia",
+      "text": "That creates a fundamental accountability gap that existing law wasn't designed to bridge.",
+      "durationMs": 5952,
+      "translationVi": "Điều đó tạo ra một khoảng cách trách nhiệm giải trình cơ bản mà luật hiện tại không được thiết kế để lấp đầy."
+    },
+    {
+      "id": "s20",
+      "speaker": "Nathan",
+      "text": "The explainability requirement is one I actually find deeply problematic — not because transparency is undesirable, but because mandating explainability as a prerequisite for deployment effectively rules out entire classes of architectures that happen to be among our most capable.",
+      "durationMs": 16968,
+      "translationVi": "Yêu cầu về khả năng giải thích là điều mà tôi thực sự thấy sâu sắc có vấn đề — không phải vì tính minh bạch là không mong muốn, mà vì yêu cầu bắt buộc khả năng giải thích như một điều kiện tiên quyết để triển khai về cơ bản loại trừ toàn bộ các lớp kiến trúc xảy ra là một trong những kiến trúc có khả năng nhất của chúng ta."
+    },
+    {
+      "id": "s21",
+      "speaker": "Nathan",
+      "text": "It creates a trade-off between accuracy and interpretability that may produce worse outcomes for the very people we're trying to protect.",
+      "durationMs": 7992,
+      "translationVi": "Nó tạo ra sự đánh đổi giữa độ chính xác và khả năng diễn giải có thể tạo ra kết quả tệ hơn cho chính những người chúng ta đang cố gắng bảo vệ."
+    },
+    {
+      "id": "s22",
+      "speaker": "Sofia",
+      "text": "That trade-off argument always strikes me as a rationalization for maintaining the status quo.",
+      "durationMs": 6288,
+      "translationVi": "Lập luận về sự đánh đổi đó luôn gây ấn tượng với tôi như là một sự biện hộ cho việc duy trì nguyên trạng."
+    },
+    {
+      "id": "s23",
+      "speaker": "Sofia",
+      "text": "If a system's decisions can't be explained or audited, then the people those decisions affect have no meaningful ability to contest them.",
+      "durationMs": 8256,
+      "translationVi": "Nếu các quyết định của một hệ thống không thể được giải thích hoặc kiểm toán, thì những người mà các quyết định đó ảnh hưởng không có khả năng có ý nghĩa để tranh cãi chúng."
+    },
+    {
+      "id": "s24",
+      "speaker": "Sofia",
+      "text": "That's a profound violation of due process norms that no accuracy gain can justify in a democratic society.",
+      "durationMs": 7632,
+      "translationVi": "Đó là một vi phạm sâu sắc các chuẩn mực về thủ tục tố tụng công bằng mà không có lợi ích độ chính xác nào có thể biện minh trong một xã hội dân chủ."
+    },
+    {
+      "id": "s25",
+      "speaker": "Nathan",
+      "text": "I take the due process concern seriously, but I'd push back on the framing.",
+      "durationMs": 5352,
+      "translationVi": "Tôi coi trọng mối lo ngại về thủ tục tố tụng công bằng, nhưng tôi muốn phản bác cách đặt vấn đề."
+    },
+    {
+      "id": "s26",
+      "speaker": "Nathan",
+      "text": "There are intermediate positions between full explainability and complete opacity — statistical auditing, outcome monitoring, adversarial testing — that can provide meaningful accountability without requiring that individual predictions be interpretable.",
+      "durationMs": 15504,
+      "translationVi": "Có những vị trí trung gian giữa khả năng giải thích đầy đủ và sự mờ đục hoàn toàn — kiểm toán thống kê, giám sát kết quả, kiểm thử đối nghịch — có thể cung cấp trách nhiệm giải trình có ý nghĩa mà không yêu cầu các dự đoán riêng lẻ phải có thể diễn giải."
+    },
+    {
+      "id": "s27",
+      "speaker": "Nathan",
+      "text": "The regulatory framework needs to be sophisticated enough to accommodate those options.",
+      "durationMs": 5664,
+      "translationVi": "Khung quy định cần đủ tinh vi để đáp ứng những lựa chọn đó."
+    },
+    {
+      "id": "s28",
+      "speaker": "Sofia",
+      "text": "Agreed — and I think that's actually a point of convergence between us.",
+      "durationMs": 4632,
+      "translationVi": "Đồng ý — và tôi nghĩ đó thực sự là điểm hội tụ giữa chúng ta."
+    },
+    {
+      "id": "s29",
+      "speaker": "Sofia",
+      "text": "The regulatory discussion too often collapses into binary choices: explainability or not, deploy or don't.",
+      "durationMs": 7920,
+      "translationVi": "Cuộc thảo luận về quy định quá thường xuyên sụp đổ thành các lựa chọn nhị phân: có khả năng giải thích hoặc không, triển khai hoặc không."
+    },
+    {
+      "id": "s30",
+      "speaker": "Sofia",
+      "text": "A sophisticated framework would specify contextually appropriate accountability mechanisms rather than imposing uniform technical requirements.",
+      "durationMs": 9144,
+      "translationVi": "Một khung tinh vi sẽ chỉ định các cơ chế trách nhiệm giải trình phù hợp theo ngữ cảnh thay vì áp đặt các yêu cầu kỹ thuật đồng nhất."
+    },
+    {
+      "id": "s31",
+      "speaker": "Nathan",
+      "text": "On that we're aligned.",
+      "durationMs": 2064,
+      "translationVi": "Về điều đó chúng ta đồng thuận."
+    },
+    {
+      "id": "s32",
+      "speaker": "Nathan",
+      "text": "What I'm more resistant to is the impulse to treat AI as categorically different from other powerful technologies in ways that warrant exceptional regulatory treatment.",
+      "durationMs": 9504,
+      "translationVi": "Điều tôi kháng cự hơn là xung động muốn coi AI khác biệt về phạm trù so với các công nghệ mạnh mẽ khác theo những cách bảo đảm sự đối xử quy định đặc biệt."
+    },
+    {
+      "id": "s33",
+      "speaker": "Nathan",
+      "text": "The concerns you're raising — bias, opacity, concentration of power — apply to algorithmic systems that long predate modern AI.",
+      "durationMs": 9480,
+      "translationVi": "Những lo ngại bạn đang nêu ra — thiên vị, sự mờ đục, sự tập trung quyền lực — áp dụng cho các hệ thống thuật toán từ lâu trước AI hiện đại."
+    },
+    {
+      "id": "s34",
+      "speaker": "Sofia",
+      "text": "The continuity argument has merit, but I think the scale and speed at which contemporary AI systems are being deployed, and the breadth of domains they're entering simultaneously, does create qualitative differences that warrant attention.",
+      "durationMs": 14088,
+      "translationVi": "Lập luận về sự liên tục có giá trị, nhưng tôi nghĩ quy mô và tốc độ mà các hệ thống AI đương đại đang được triển khai, và chiều rộng của các lĩnh vực chúng đang xâm nhập đồng thời, tạo ra những khác biệt về chất lượng đáng chú ý."
+    },
+    {
+      "id": "s35",
+      "speaker": "Sofia",
+      "text": "When the same technology is mediating decisions in healthcare, employment, credit, surveillance, and information access all at once, the systemic risk profile is genuinely novel.",
+      "durationMs": 12192,
+      "translationVi": "Khi cùng một công nghệ đang trung gian các quyết định trong y tế, việc làm, tín dụng, giám sát và truy cập thông tin cùng một lúc, hồ sơ rủi ro hệ thống là hoàn toàn mới lạ."
+    },
+    {
+      "id": "s36",
+      "speaker": "Nathan",
+      "text": "The systemic risk framing is interesting, but I worry that it can be used to justify very broad regulatory power without precise specification of what harms we're actually trying to prevent.",
+      "durationMs": 11568,
+      "translationVi": "Cách đặt vấn đề về rủi ro hệ thống rất thú vị, nhưng tôi lo ngại rằng nó có thể được sử dụng để biện minh cho quyền lực quy định rất rộng mà không cần xác định chính xác những tác hại chúng ta thực sự đang cố gắng ngăn chặn."
+    },
+    {
+      "id": "s37",
+      "speaker": "Nathan",
+      "text": "Vague mandates around 'ensuring AI is safe and beneficial' have a way of becoming whatever regulators want them to be.",
+      "durationMs": 7104,
+      "translationVi": "Các nhiệm vụ mơ hồ xung quanh 'đảm bảo AI an toàn và có lợi' có cách trở thành bất cứ điều gì mà các cơ quan quản lý muốn."
+    },
+    {
+      "id": "s38",
+      "speaker": "Sofia",
+      "text": "That's a legitimate concern about regulatory design, not a reason to avoid regulation altogether.",
+      "durationMs": 6768,
+      "translationVi": "Đó là mối lo ngại chính đáng về thiết kế quy định, không phải là lý do để tránh hoàn toàn quy định."
+    },
+    {
+      "id": "s39",
+      "speaker": "Sofia",
+      "text": "The solution is to insist on precise, rights-based harm specification — the regulation should be tethered to identifiable harms affecting identifiable rights, not to vague notions of safety.",
+      "durationMs": 12216,
+      "translationVi": "Giải pháp là kiên trì yêu cầu xác định tác hại dựa trên quyền, chính xác — quy định nên được buộc vào các tác hại có thể xác định ảnh hưởng đến các quyền có thể xác định, không phải là các khái niệm mơ hồ về an toàn."
+    },
+    {
+      "id": "s40",
+      "speaker": "Nathan",
+      "text": "I could get behind that framing.",
+      "durationMs": 2520,
+      "translationVi": "Tôi có thể đồng ý với cách đặt vấn đề đó."
+    },
+    {
+      "id": "s41",
+      "speaker": "Nathan",
+      "text": "Rights-based harm specification is both more tractable and more defensible than system-level safety assessments.",
+      "durationMs": 7080,
+      "translationVi": "Xác định tác hại dựa trên quyền vừa dễ xử lý hơn vừa dễ bảo vệ hơn so với các đánh giá an toàn ở cấp hệ thống."
+    },
+    {
+      "id": "s42",
+      "speaker": "Nathan",
+      "text": "It also naturally directs regulatory attention toward the deployment context rather than the technology itself, which I think is ultimately the right unit of analysis.",
+      "durationMs": 10368,
+      "translationVi": "Nó cũng tự nhiên hướng sự chú ý quy định đến bối cảnh triển khai chứ không phải bản thân công nghệ, mà tôi nghĩ cuối cùng là đơn vị phân tích đúng đắn."
+    },
+    {
+      "id": "s43",
+      "speaker": "Sofia",
+      "text": "The deployment context point is crucial.",
+      "durationMs": 3264,
+      "translationVi": "Điểm về bối cảnh triển khai là rất quan trọng."
+    },
+    {
+      "id": "s44",
+      "speaker": "Sofia",
+      "text": "The same large language model could be used for relatively low-risk content summarisation or for high-stakes clinical decision support, and those use cases warrant very different regulatory treatment.",
+      "durationMs": 12144,
+      "translationVi": "Mô hình ngôn ngữ lớn tương tự có thể được sử dụng để tóm tắt nội dung rủi ro tương đối thấp hoặc hỗ trợ quyết định lâm sàng có rủi ro cao, và các trường hợp sử dụng đó đảm bảo sự đối xử quy định rất khác nhau."
+    },
+    {
+      "id": "s45",
+      "speaker": "Sofia",
+      "text": "Regulating the model rather than the deployment is like regulating the car rather than road use.",
+      "durationMs": 5904,
+      "translationVi": "Quy định mô hình thay vì triển khai giống như quy định ô tô thay vì sử dụng đường."
+    },
+    {
+      "id": "s46",
+      "speaker": "Nathan",
+      "text": "That's a clarifying analogy.",
+      "durationMs": 2664,
+      "translationVi": "Đó là một phép loại suy làm rõ."
+    },
+    {
+      "id": "s47",
+      "speaker": "Nathan",
+      "text": "And it suggests the regulatory challenge is primarily one of governance architecture — who has authority over which deployment contexts, with what accountability mechanisms, and what enforcement capacity.",
+      "durationMs": 12504,
+      "translationVi": "Và nó gợi ý rằng thách thức quy định chủ yếu là về kiến trúc quản trị — ai có thẩm quyền đối với bối cảnh triển khai nào, với các cơ chế trách nhiệm giải trình nào và năng lực thực thi nào."
+    },
+    {
+      "id": "s48",
+      "speaker": "Nathan",
+      "text": "That's a solvable problem, but it requires institutional investment that most jurisdictions have so far been reluctant to make.",
+      "durationMs": 8280,
+      "translationVi": "Đó là một vấn đề có thể giải quyết được, nhưng nó đòi hỏi đầu tư thể chế mà hầu hết các quyền hạn cho đến nay còn miễn cưỡng thực hiện."
+    },
+    {
+      "id": "s49",
+      "speaker": "Sofia",
+      "text": "The institutional investment question is precisely why I think the window for getting this right is narrower than most people appreciate.",
+      "durationMs": 8280,
+      "translationVi": "Câu hỏi đầu tư thể chế chính xác là lý do tại sao tôi nghĩ cửa sổ để làm đúng việc này hẹp hơn hầu hết mọi người đánh giá."
+    },
+    {
+      "id": "s50",
+      "speaker": "Sofia",
+      "text": "The systems and deployment patterns being established now are going to shape the governance defaults for the next decade.",
+      "durationMs": 7152,
+      "translationVi": "Các hệ thống và mô hình triển khai đang được thiết lập ngay bây giờ sẽ định hình các mặc định quản trị cho thập kỷ tới."
+    },
+    {
+      "id": "s51",
+      "speaker": "Sofia",
+      "text": "If we wait until harms are fully manifest before building the institutions to respond to them, we'll have lost the capacity to shape the trajectory.",
+      "durationMs": 8856,
+      "translationVi": "Nếu chúng ta chờ đợi cho đến khi tác hại được biểu hiện đầy đủ trước khi xây dựng các tổ chức để ứng phó với chúng, chúng ta sẽ mất khả năng định hình quỹ đạo."
+    },
+    {
+      "id": "s52",
+      "speaker": "Nathan",
+      "text": "I think you've convinced me that proactive institutional investment is warranted — I'd just want it focused on governance architecture and rights-based harm specification rather than prescriptive technical requirements.",
+      "durationMs": 12696,
+      "translationVi": "Tôi nghĩ bạn đã thuyết phục tôi rằng đầu tư thể chế chủ động là có lý — tôi chỉ muốn nó tập trung vào kiến trúc quản trị và xác định tác hại dựa trên quyền chứ không phải các yêu cầu kỹ thuật quy định."
+    },
+    {
+      "id": "s53",
+      "speaker": "Nathan",
+      "text": "The goal should be accountability infrastructure, not a technology mandate.",
+      "durationMs": 5136,
+      "translationVi": "Mục tiêu nên là cơ sở hạ tầng trách nhiệm giải trình, không phải một nhiệm vụ công nghệ."
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "From a regulatory standpoint, the key question is …"
+    },
+    {
+      "id": "h2",
+      "text": "The burden of proof argument suggests that …"
+    },
+    {
+      "id": "h3",
+      "text": "One risk of over-regulation is …"
+    },
+    {
+      "id": "h4",
+      "text": "A rights-based framework would require …"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "burden of proof",
+      "meaningVi": "gánh nặng chứng minh",
+      "pronunciation": "/ˈbɜːrdən əv pruːf/"
+    },
+    {
+      "id": "v2",
+      "phrase": "regulatory capture",
+      "meaningVi": "sự chiếm đoạt quy định (khi cơ quan quản lý bị chi phối bởi ngành được quản lý)",
+      "pronunciation": "/ˈreɡjʊlətɔːri ˈkæptʃər/"
+    },
+    {
+      "id": "v3",
+      "phrase": "algorithmic accountability",
+      "meaningVi": "trách nhiệm giải trình của thuật toán",
+      "pronunciation": "/ˌælɡəˈrɪðmɪk əˌkaʊntəˈbɪlɪti/"
+    },
+    {
+      "id": "v4",
+      "phrase": "explainability",
+      "meaningVi": "khả năng giải thích (của mô hình AI)",
+      "pronunciation": "/ɪkˌspleɪnəˈbɪlɪti/"
+    },
+    {
+      "id": "v5",
+      "phrase": "governance architecture",
+      "meaningVi": "kiến trúc quản trị",
+      "pronunciation": "/ˈɡʌvərnəns ˈɑːrkɪtɛktʃər/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "precautionary principle",
+      "meaningVi": "nguyên tắc phòng ngừa (hành động khi chưa có đủ bằng chứng về tác hại)",
+      "pronunciation": "/prɪˈkɔːʃənəri ˈprɪnsɪpl/"
+    },
+    {
+      "phrase": "regulatory paralysis",
+      "meaningVi": "tê liệt quản lý (quá nhiều quy định gây cản trở đổi mới)",
+      "pronunciation": "/ˌreɡjʊlətɔːri pəˈræləsɪs/"
+    },
+    {
+      "phrase": "opaque algorithmic systems",
+      "meaningVi": "các hệ thống thuật toán không minh bạch",
+      "pronunciation": "/oʊˈpeɪk ˌælɡəˈrɪðmɪk ˈsɪstəmz/"
+    },
+    {
+      "phrase": "de facto barriers to entry",
+      "meaningVi": "rào cản gia nhập thị trường trên thực tế",
+      "pronunciation": "/deɪ ˈfæktəʊ ˈbæriərz tuː ˈɛntri/"
+    },
+    {
+      "phrase": "due process norms",
+      "meaningVi": "các chuẩn mực về thủ tục tố tụng công bằng",
+      "pronunciation": "/djuː ˈprəʊsɛs nɔːrmz/"
+    },
+    {
+      "phrase": "adversarial testing",
+      "meaningVi": "kiểm thử đối nghịch (tìm điểm yếu của hệ thống AI)",
+      "pronunciation": "/ˌædvɜːrˈsɛəriəl ˈtɛstɪŋ/"
+    },
+    {
+      "phrase": "burden of proof",
+      "meaningVi": "gánh nặng chứng minh (pháp lý và tranh luận)",
+      "pronunciation": "/ˈbɜːrdən əv pruːf/"
+    },
+    {
+      "phrase": "pre-deployment safety assessment",
+      "meaningVi": "đánh giá an toàn trước khi triển khai",
+      "pronunciation": "/priː dɪˈplɔɪmənt ˈseɪfti əˈsɛsmənt/"
+    },
+    {
+      "phrase": "compliance frameworks",
+      "meaningVi": "khung tuân thủ quy định",
+      "pronunciation": "/kəmˈplaɪəns ˈfreɪmwɜːrks/"
+    },
+    {
+      "phrase": "regulatory capture",
+      "meaningVi": "sự thao túng cơ quan quản lý (bởi ngành bị quản lý)",
+      "pronunciation": "/ˈrɛɡjulətɔːri ˈkæptʃər/"
+    },
+    {
+      "phrase": "explainability requirement",
+      "meaningVi": "yêu cầu về khả năng giải thích (AI)",
+      "pronunciation": "/ɪkˌspleɪnəˈbɪlɪti rɪˈkwaɪərmənt/"
+    },
+    {
+      "phrase": "algorithmic systems",
+      "meaningVi": "các hệ thống thuật toán",
+      "pronunciation": "/ˌælɡəˈrɪðmɪk ˈsɪstəmz/"
+    },
+    {
+      "phrase": "accountability gap",
+      "meaningVi": "khoảng trống trách nhiệm giải trình",
+      "pronunciation": "/əˌkaʊntəˈbɪlɪti ɡæp/"
+    },
+    {
+      "phrase": "accountability infrastructure",
+      "meaningVi": "cơ sở hạ tầng trách nhiệm giải trình",
+      "pronunciation": "/əˌkaʊntəˈbɪlɪti ˈɪnfrəˌstrʌktʃər/"
+    },
+    {
+      "phrase": "statistical auditing",
+      "meaningVi": "kiểm toán thống kê (phương pháp giám sát AI)",
+      "pronunciation": "/stəˈtɪstɪkəl ˈɔːdɪtɪŋ/"
+    },
+    {
+      "phrase": "rights-based harm specification",
+      "meaningVi": "đặc tả thiệt hại dựa trên quyền (phương pháp quản lý AI)",
+      "pronunciation": "/raɪts beɪst hɑːrm ˌspɛsɪfɪˈkeɪʃən/"
+    },
+    {
+      "phrase": "deployment context",
+      "meaningVi": "bối cảnh triển khai (đơn vị phân tích trong quản lý AI)",
+      "pronunciation": "/dɪˈplɔɪmənt ˈkɒntɛkst/"
+    },
+    {
+      "phrase": "governance architecture",
+      "meaningVi": "kiến trúc quản trị (thiết kế thể chế)",
+      "pronunciation": "/ˈɡʌvərnəns ˈɑːrkɪtɛktʃər/"
+    },
+    {
+      "phrase": "proactive institutional investment",
+      "meaningVi": "đầu tư thể chế chủ động (trước khi vấn đề xảy ra)",
+      "pronunciation": "/proʊˈæktɪv ˌɪnstɪˈtuːʃənl ˈɪnvɛstmənt/"
+    },
+    {
+      "phrase": "systemic risk profile",
+      "meaningVi": "hồ sơ rủi ro hệ thống",
+      "pronunciation": "/sɪˈstɛmɪk rɪsk ˈproʊfaɪl/"
+    },
+    {
+      "phrase": "outcome monitoring",
+      "meaningVi": "giám sát kết quả đầu ra",
+      "pronunciation": "/ˈaʊtkʌm ˈmɒnɪtərɪŋ/"
+    },
+    {
+      "phrase": "contextually appropriate accountability mechanisms",
+      "meaningVi": "cơ chế trách nhiệm giải trình phù hợp theo bối cảnh",
+      "pronunciation": "/kənˈtɛkstʃuəli əˈproʊpriɪt əˌkaʊntəˈbɪlɪti ˈmɛkənɪzəmz/"
+    },
+    {
+      "phrase": "small innovators",
+      "meaningVi": "các nhà đổi mới nhỏ (startup, SME)",
+      "pronunciation": "/smɔːl ˈɪnəveɪtərz/"
+    },
+    {
+      "phrase": "life chances",
+      "meaningVi": "cơ hội sống (cơ hội thành công trong cuộc sống)",
+      "pronunciation": "/laɪf tʃɑːnsɪz/"
+    },
+    {
+      "phrase": "well-capitalised organisations",
+      "meaningVi": "các tổ chức có vốn lớn",
+      "pronunciation": "/wɛl ˈkæpɪtəlaɪzd ˌɔːɡənɪˈzeɪʃənz/"
+    },
+    {
+      "phrase": "credit scoring",
+      "meaningVi": "chấm điểm tín dụng",
+      "pronunciation": "/ˈkrɛdɪt ˈskɔːrɪŋ/"
+    },
+    {
+      "phrase": "criminal justice",
+      "meaningVi": "tư pháp hình sự",
+      "pronunciation": "/ˈkrɪmɪnl ˈdʒʌstɪs/"
+    },
+    {
+      "phrase": "healthcare triage",
+      "meaningVi": "phân loại bệnh nhân theo mức độ ưu tiên",
+      "pronunciation": "/ˈhɛlθkɛr ˈtriːɑːʒ/"
+    },
+    {
+      "phrase": "explainability problem",
+      "meaningVi": "vấn đề khả năng giải thích (AI)",
+      "pronunciation": "/ɪkˌspleɪnəˈbɪlɪti ˈprɒbləm/"
+    },
+    {
+      "phrase": "contested evidence",
+      "meaningVi": "bằng chứng còn tranh cãi",
+      "pronunciation": "/kənˈtɛstɪd ˈɛvɪdəns/"
+    },
+    {
+      "phrase": "information access",
+      "meaningVi": "quyền tiếp cận thông tin",
+      "pronunciation": "/ˌɪnfərˈmeɪʃən ˈæksɛs/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Cleft sentences for emphasis",
+      "bodyVi": "Câu chẻ (cleft sentence) như 'It's the deployment context, not the technology, that matters' nhấn mạnh một thành phần cụ thể của câu. Trong tiếng Anh nói trang trọng, đây là kỹ thuật tu từ hiệu quả để làm rõ trọng tâm lập luận.",
+      "bodyEn": "Cleft sentences ('It's X that...', 'What I'm resistant to is...') isolate and emphasise a specific element of the message. They are a key rhetorical device in spoken academic and policy discourse, allowing the speaker to signal precisely what their claim is about."
+    },
+    {
+      "title": "Conceding and reframing: 'X has merit, but Y'",
+      "bodyVi": "Cấu trúc 'The X argument has merit, but...' là cách thừa nhận điểm đúng của đối phương (concession) trước khi phản biện. Điều này thể hiện tư duy phê phán công bằng và làm cho lập luận tiếp theo thuyết phục hơn.",
+      "bodyEn": "'The continuity argument has merit, but...' is a classic concede-and-qualify move. Acknowledging partial validity before introducing a counter-argument demonstrates intellectual fairness and is more persuasive than outright rejection. This is essential in C1 debate and academic discourse."
+    },
+    {
+      "title": "Negative inversion for emphasis: 'Not X, but Y'",
+      "bodyVi": "Cấu trúc 'Not X, but Y' (hoặc 'not...but rather') nhấn mạnh sự phân biệt giữa hai khái niệm. Ví dụ: 'The goal should be accountability infrastructure, not a technology mandate.' Cấu trúc này mạnh hơn 'The goal should be X rather than Y'.",
+      "bodyEn": "'Not X, but Y' structures sharply contrast two alternatives and are more emphatic than 'X rather than Y'. They appear frequently in policy and academic writing as a way to precisely define a position and correct potential misreading of the speaker's intent."
+    }
+  ],
+  "translationVi": "Sofia: Tôi muốn bắt đầu với điều mà tôi nghĩ là chiều kích ít được thảo luận nhất trong cuộc tranh luận về quy định AI: câu hỏi về ai mang gánh nặng chứng minh. Hiện tại, giả định mặc định là các hệ thống AI được cho phép trừ khi được chứng minh là có hại. Tôi lập luận rằng giả định đó nên được đảo ngược, ít nhất là trong các lĩnh vực có rủi ro cao.\nNathan: Tôi hiểu bản năng phòng ngừa, nhưng đảo ngược gánh nặng chứng minh có những hàm ý thực tế nghiêm trọng. Nó sẽ yêu cầu các nhà phát triển chứng minh sự an toàn trước khi triển khai đối với các hệ thống mà tác hại của chúng thực sự khó xác định, đo lường hoặc dự đoán. Có một rủi ro thực sự về sự tê liệt quy định gây bất lợi không cân xứng cho các nhà đổi mới nhỏ hơn.\nSofia: Lập luận về nhà đổi mới nhỏ thường xuyên được viện dẫn nhưng có phần gây hiểu lầm. Các hệ thống AI tiên phong đặt ra những lo ngại quy định cấp bách nhất — các mô hình ngôn ngữ lớn, các hệ thống ra quyết định tự trị — đang được phát triển bởi các tổ chức có nguồn vốn tốt hoàn toàn có khả năng chịu chi phí đánh giá an toàn trước khi triển khai.\nNathan: Điều đó đúng với các mô hình tiên phong, nhưng quy định có xu hướng lan tỏa. Các khung tuân thủ được thiết kế cho các công ty lớn thường trở thành rào cản gia nhập trên thực tế củng cố những người đương nhiệm mà chúng được cho là để hạn chế. Chúng ta đã thấy động lực đó trong quy định dịch vụ tài chính nhiều lần.\nSofia: Mối lo ngại về việc chiếm đoạt quy định là có thật và tôi không bác bỏ nó. Nhưng giải pháp thay thế — về cơ bản là triển khai không được kiểm soát các hệ thống AI có hệ quả — dường như với tôi mang rủi ro thậm chí còn lớn hơn, đặc biệt trong các bối cảnh như chấm điểm tín dụng, tư pháp hình sự, phân loại y tế, nơi các quyết định thuật toán có tác động sâu sắc đến cơ hội cuộc sống của cá nhân.\nNathan: Nhưng các lĩnh vực đó đã được điều chỉnh bởi quy định theo lĩnh vực cụ thể, và có câu hỏi liệu quy định đặc thù AI có tạo thêm giá trị hay tạo ra sự dư thừa không. Nếu một thuật toán tín dụng tạo ra kết quả phân biệt đối xử, luật chống phân biệt đối xử hiện có đã cung cấp biện pháp khắc phục. Tại sao phải thêm quy định AI lên trên?\nSofia: Vì các khung pháp lý hiện có được thiết kế cho những người ra quyết định là con người và không ánh xạ sạch sẽ lên các hệ thống thuật toán không minh bạch. Vấn đề khả năng giải thích là một ví dụ điển hình: một người có thể được yêu cầu đưa ra lý do cho một quyết định; một mô hình học máy phức tạp không thể đưa ra lý do theo bất kỳ nghĩa có ý nghĩa nào. Điều đó tạo ra một khoảng cách trách nhiệm giải trình cơ bản mà luật hiện tại không được thiết kế để lấp đầy.\nNathan: Yêu cầu về khả năng giải thích là điều mà tôi thực sự thấy sâu sắc có vấn đề — không phải vì tính minh bạch là không mong muốn, mà vì yêu cầu bắt buộc khả năng giải thích như một điều kiện tiên quyết để triển khai về cơ bản loại trừ toàn bộ các lớp kiến trúc xảy ra là một trong những kiến trúc có khả năng nhất của chúng ta. Nó tạo ra sự đánh đổi giữa độ chính xác và khả năng diễn giải có thể tạo ra kết quả tệ hơn cho chính những người chúng ta đang cố gắng bảo vệ.\nSofia: Lập luận về sự đánh đổi đó luôn gây ấn tượng với tôi như là một sự biện hộ cho việc duy trì nguyên trạng. Nếu các quyết định của một hệ thống không thể được giải thích hoặc kiểm toán, thì những người mà các quyết định đó ảnh hưởng không có khả năng có ý nghĩa để tranh cãi chúng. Đó là một vi phạm sâu sắc các chuẩn mực về thủ tục tố tụng công bằng mà không có lợi ích độ chính xác nào có thể biện minh trong một xã hội dân chủ.\nNathan: Tôi coi trọng mối lo ngại về thủ tục tố tụng công bằng, nhưng tôi muốn phản bác cách đặt vấn đề. Có những vị trí trung gian giữa khả năng giải thích đầy đủ và sự mờ đục hoàn toàn — kiểm toán thống kê, giám sát kết quả, kiểm thử đối nghịch — có thể cung cấp trách nhiệm giải trình có ý nghĩa mà không yêu cầu các dự đoán riêng lẻ phải có thể diễn giải. Khung quy định cần đủ tinh vi để đáp ứng những lựa chọn đó.\nSofia: Đồng ý — và tôi nghĩ đó thực sự là điểm hội tụ giữa chúng ta. Cuộc thảo luận về quy định quá thường xuyên sụp đổ thành các lựa chọn nhị phân: có khả năng giải thích hoặc không, triển khai hoặc không. Một khung tinh vi sẽ chỉ định các cơ chế trách nhiệm giải trình phù hợp theo ngữ cảnh thay vì áp đặt các yêu cầu kỹ thuật đồng nhất.\nNathan: Về điều đó chúng ta đồng thuận. Điều tôi kháng cự hơn là xung động muốn coi AI khác biệt về phạm trù so với các công nghệ mạnh mẽ khác theo những cách bảo đảm sự đối xử quy định đặc biệt. Những lo ngại bạn đang nêu ra — thiên vị, sự mờ đục, sự tập trung quyền lực — áp dụng cho các hệ thống thuật toán từ lâu trước AI hiện đại.\nSofia: Lập luận về sự liên tục có giá trị, nhưng tôi nghĩ quy mô và tốc độ mà các hệ thống AI đương đại đang được triển khai, và chiều rộng của các lĩnh vực chúng đang xâm nhập đồng thời, tạo ra những khác biệt về chất lượng đáng chú ý. Khi cùng một công nghệ đang trung gian các quyết định trong y tế, việc làm, tín dụng, giám sát và truy cập thông tin cùng một lúc, hồ sơ rủi ro hệ thống là hoàn toàn mới lạ.\nNathan: Cách đặt vấn đề về rủi ro hệ thống rất thú vị, nhưng tôi lo ngại rằng nó có thể được sử dụng để biện minh cho quyền lực quy định rất rộng mà không cần xác định chính xác những tác hại chúng ta thực sự đang cố gắng ngăn chặn. Các nhiệm vụ mơ hồ xung quanh 'đảm bảo AI an toàn và có lợi' có cách trở thành bất cứ điều gì mà các cơ quan quản lý muốn chúng là.\nSofia: Đó là mối lo ngại chính đáng về thiết kế quy định, không phải là lý do để tránh hoàn toàn quy định. Giải pháp là kiên trì yêu cầu xác định tác hại dựa trên quyền, chính xác — quy định nên được buộc vào các tác hại có thể xác định ảnh hưởng đến các quyền có thể xác định, không phải là các khái niệm mơ hồ về an toàn.\nNathan: Tôi có thể đồng ý với cách đặt vấn đề đó. Xác định tác hại dựa trên quyền vừa dễ xử lý hơn vừa dễ bảo vệ hơn so với các đánh giá an toàn ở cấp hệ thống. Nó cũng tự nhiên hướng sự chú ý quy định đến bối cảnh triển khai chứ không phải bản thân công nghệ, mà tôi nghĩ cuối cùng là đơn vị phân tích đúng đắn.\nSofia: Điểm về bối cảnh triển khai là rất quan trọng. Mô hình ngôn ngữ lớn tương tự có thể được sử dụng để tóm tắt nội dung rủi ro tương đối thấp hoặc hỗ trợ quyết định lâm sàng có rủi ro cao, và các trường hợp sử dụng đó đảm bảo sự đối xử quy định rất khác nhau. Quy định mô hình thay vì triển khai giống như quy định ô tô thay vì sử dụng đường.\nNathan: Đó là một phép loại suy làm rõ. Và nó gợi ý rằng thách thức quy định chủ yếu là về kiến trúc quản trị — ai có thẩm quyền đối với bối cảnh triển khai nào, với các cơ chế trách nhiệm giải trình nào và năng lực thực thi nào. Đó là một vấn đề có thể giải quyết được, nhưng nó đòi hỏi đầu tư thể chế mà hầu hết các khu vực pháp lý cho đến nay còn miễn cưỡng thực hiện.\nSofia: Câu hỏi đầu tư thể chế chính xác là lý do tại sao tôi nghĩ cửa sổ để làm đúng việc này hẹp hơn hầu hết mọi người đánh giá. Các hệ thống và mô hình triển khai đang được thiết lập ngay bây giờ sẽ định hình các mặc định quản trị cho thập kỷ tới. Nếu chúng ta chờ đợi cho đến khi tác hại được biểu hiện đầy đủ trước khi xây dựng các tổ chức để ứng phó với chúng, chúng ta sẽ mất khả năng định hình quỹ đạo.\nNathan: Tôi nghĩ bạn đã thuyết phục tôi rằng đầu tư thể chế chủ động là có lý — Tôi chỉ muốn nó tập trung vào kiến trúc quản trị và xác định tác hại dựa trên quyền chứ không phải các yêu cầu kỹ thuật quy định. Mục tiêu nên là cơ sở hạ tầng trách nhiệm giải trình, không phải một nhiệm vụ công nghệ.",
+  "criticalThinkingQuestion": "Should the development of powerful AI systems be treated like the development of other potentially dangerous technologies such as pharmaceuticals or nuclear energy, with strict pre-deployment safety requirements? Why or why not?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-c1-006",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 440280
+}

@@ -1,0 +1,394 @@
+{
+  "id": "speaking-a2-001",
+  "level": "A2",
+  "title": "Booking a hotel room",
+  "summary": "A guest calls a hotel to book a room for the weekend.",
+  "topic": "Hotel booking",
+  "tags": [
+    "Travel",
+    "Hotel",
+    "Booking",
+    "Phone calls"
+  ],
+  "characters": [
+    "Guest",
+    "Receptionist"
+  ],
+  "voices": {
+    "Guest": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-JennyNeural"
+    },
+    "Receptionist": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-GuyNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Guest",
+      "text": "Hello, I'd like to book a room for two nights, please."
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "Of course. What dates are you looking at?"
+    },
+    {
+      "speaker": "Guest",
+      "text": "From Friday the 14th to Sunday the 16th."
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "We have a standard double room available for those dates. It's $95 per night."
+    },
+    {
+      "speaker": "Guest",
+      "text": "That sounds good. Does the room include breakfast?"
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "Yes, breakfast is included. Check-in is at 3 PM and check-out is at 11 AM."
+    },
+    {
+      "speaker": "Guest",
+      "text": "Perfect. Can I also request a quiet room, away from the street?"
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "I'll make a note of that. May I have your name and a phone number?"
+    },
+    {
+      "speaker": "Guest",
+      "text": "Sure. My name is Lisa Turner and my number is 555-0182."
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "Got it, Ms. Turner. I'll send a confirmation email. What's your email address?"
+    },
+    {
+      "speaker": "Guest",
+      "text": "It's lisa.turner@email.com."
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "Thank you. Your reservation is confirmed. We look forward to seeing you on Friday!"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Guest",
+      "text": "Hello, I'd like to book a room for two nights, please.",
+      "durationMs": 4152,
+      "translationVi": "Xin chào, tôi muốn đặt phòng hai đêm."
+    },
+    {
+      "id": "s2",
+      "speaker": "Receptionist",
+      "text": "Of course.",
+      "durationMs": 1728,
+      "translationVi": "Dĩ nhiên."
+    },
+    {
+      "id": "s3",
+      "speaker": "Receptionist",
+      "text": "What dates are you looking at?",
+      "durationMs": 2448,
+      "translationVi": "Bạn muốn đặt vào ngày nào?"
+    },
+    {
+      "id": "s4",
+      "speaker": "Guest",
+      "text": "From Friday the 14th to Sunday the 16th.",
+      "durationMs": 3576,
+      "translationVi": "Từ thứ Sáu ngày 14 đến Chủ Nhật ngày 16."
+    },
+    {
+      "id": "s5",
+      "speaker": "Receptionist",
+      "text": "We have a standard double room available for those dates.",
+      "durationMs": 3816,
+      "translationVi": "Chúng tôi có phòng đôi tiêu chuẩn còn trống cho những ngày đó."
+    },
+    {
+      "id": "s6",
+      "speaker": "Receptionist",
+      "text": "It's $95 per night.",
+      "durationMs": 2880,
+      "translationVi": "Giá 95 đô mỗi đêm."
+    },
+    {
+      "id": "s7",
+      "speaker": "Guest",
+      "text": "That sounds good.",
+      "durationMs": 1992,
+      "translationVi": "Nghe tốt đấy."
+    },
+    {
+      "id": "s8",
+      "speaker": "Guest",
+      "text": "Does the room include breakfast?",
+      "durationMs": 2544,
+      "translationVi": "Phòng có bao gồm bữa sáng không?"
+    },
+    {
+      "id": "s9",
+      "speaker": "Receptionist",
+      "text": "Yes, breakfast is included.",
+      "durationMs": 2856,
+      "translationVi": "Vâng, đã bao gồm bữa sáng."
+    },
+    {
+      "id": "s10",
+      "speaker": "Receptionist",
+      "text": "Check-in is at 3 PM and check-out is at 11 AM.",
+      "durationMs": 3888,
+      "translationVi": "Nhận phòng lúc 3 giờ chiều và trả phòng lúc 11 giờ sáng."
+    },
+    {
+      "id": "s11",
+      "speaker": "Guest",
+      "text": "Perfect.",
+      "durationMs": 1632,
+      "translationVi": "Tuyệt."
+    },
+    {
+      "id": "s12",
+      "speaker": "Guest",
+      "text": "Can I also request a quiet room, away from the street?",
+      "durationMs": 3744,
+      "translationVi": "Tôi có thể yêu cầu phòng yên tĩnh, xa đường phố không?"
+    },
+    {
+      "id": "s13",
+      "speaker": "Receptionist",
+      "text": "I'll make a note of that.",
+      "durationMs": 2184,
+      "translationVi": "Tôi sẽ ghi chú lại điều đó."
+    },
+    {
+      "id": "s14",
+      "speaker": "Receptionist",
+      "text": "May I have your name and a phone number?",
+      "durationMs": 2880,
+      "translationVi": "Cho tôi xin tên và số điện thoại của bạn?"
+    },
+    {
+      "id": "s15",
+      "speaker": "Guest",
+      "text": "Sure.",
+      "durationMs": 1536,
+      "translationVi": "Được."
+    },
+    {
+      "id": "s16",
+      "speaker": "Guest",
+      "text": "My name is Lisa Turner and my number is 555-0182.",
+      "durationMs": 5352,
+      "translationVi": "Tên tôi là Lisa Turner và số của tôi là 555-0182."
+    },
+    {
+      "id": "s17",
+      "speaker": "Receptionist",
+      "text": "Got it, Ms. Turner.",
+      "durationMs": 2328,
+      "translationVi": "Rõ rồi, bà Turner."
+    },
+    {
+      "id": "s18",
+      "speaker": "Receptionist",
+      "text": "I'll send a confirmation email.",
+      "durationMs": 2808,
+      "translationVi": "Tôi sẽ gửi email xác nhận."
+    },
+    {
+      "id": "s19",
+      "speaker": "Receptionist",
+      "text": "What's your email address?",
+      "durationMs": 2376,
+      "translationVi": "Địa chỉ email của bạn là gì?"
+    },
+    {
+      "id": "s20",
+      "speaker": "Guest",
+      "text": "It's lisa.turner@email.com.",
+      "durationMs": 3216,
+      "translationVi": "Là lisa.turner@email.com."
+    },
+    {
+      "id": "s21",
+      "speaker": "Receptionist",
+      "text": "Thank you.",
+      "durationMs": 1608,
+      "translationVi": "Cảm ơn."
+    },
+    {
+      "id": "s22",
+      "speaker": "Receptionist",
+      "text": "Your reservation is confirmed.",
+      "durationMs": 2760,
+      "translationVi": "Đặt phòng của bạn đã được xác nhận."
+    },
+    {
+      "id": "s23",
+      "speaker": "Receptionist",
+      "text": "We look forward to seeing you on Friday!",
+      "durationMs": 3024,
+      "translationVi": "Chúng tôi mong được gặp bạn vào thứ Sáu!"
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "I'd like to book …"
+    },
+    {
+      "id": "h2",
+      "text": "Can I also request …?"
+    },
+    {
+      "id": "h3",
+      "text": "Does the room include …?"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "book a room",
+      "meaningVi": "đặt phòng",
+      "pronunciation": "/bʊk ə ruːm/"
+    },
+    {
+      "id": "v2",
+      "phrase": "check-in",
+      "meaningVi": "nhận phòng",
+      "pronunciation": "/ˈtʃek.ɪn/"
+    },
+    {
+      "id": "v3",
+      "phrase": "check-out",
+      "meaningVi": "trả phòng",
+      "pronunciation": "/ˈtʃek.aʊt/"
+    },
+    {
+      "id": "v4",
+      "phrase": "confirmation email",
+      "meaningVi": "email xác nhận",
+      "pronunciation": "/ˌkɒn.fəˈmeɪ.ʃən ˈiː.meɪl/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "I'd like to",
+      "meaningVi": "Tôi muốn (lịch sự hơn 'I want to')",
+      "pronunciation": "/aɪd laɪk tuː/"
+    },
+    {
+      "phrase": "per night",
+      "meaningVi": "mỗi đêm",
+      "pronunciation": "/pər naɪt/"
+    },
+    {
+      "phrase": "make a note",
+      "meaningVi": "ghi chú lại",
+      "pronunciation": "/meɪk ə nəʊt/"
+    },
+    {
+      "phrase": "look forward to",
+      "meaningVi": "mong đợi, trông chờ",
+      "pronunciation": "/lʊk ˈfɔː.wəd tuː/"
+    },
+    {
+      "phrase": "book a room",
+      "meaningVi": "đặt phòng",
+      "pronunciation": "/bʊk ə ruːm/",
+      "exampleEn": "I'd like to book a room for two nights."
+    },
+    {
+      "phrase": "standard double room",
+      "meaningVi": "phòng đôi tiêu chuẩn",
+      "pronunciation": "/ˈstændərd ˈdʌbəl ruːm/",
+      "exampleEn": "We have a standard double room available."
+    },
+    {
+      "phrase": "include breakfast",
+      "meaningVi": "bao gồm bữa sáng",
+      "pronunciation": "/ɪnˈkluːd ˈbrekfəst/",
+      "exampleEn": "Does the room include breakfast?"
+    },
+    {
+      "phrase": "Check-in",
+      "meaningVi": "giờ nhận phòng",
+      "pronunciation": "/ˈtʃek ɪn/",
+      "exampleEn": "Check-in is at 3 PM."
+    },
+    {
+      "phrase": "check-out",
+      "meaningVi": "giờ trả phòng",
+      "pronunciation": "/ˈtʃek aʊt/",
+      "exampleEn": "Check-out is at 11 AM."
+    },
+    {
+      "phrase": "request a quiet room",
+      "meaningVi": "yêu cầu phòng yên tĩnh",
+      "pronunciation": "/rɪˈkwest ə ˈkwaɪət ruːm/",
+      "exampleEn": "Can I request a quiet room?"
+    },
+    {
+      "phrase": "away from the street",
+      "meaningVi": "tránh xa đường phố (để giảm tiếng ồn)",
+      "pronunciation": "/əˈweɪ frəm ðə striːt/",
+      "exampleEn": "I'd like a room away from the street."
+    },
+    {
+      "phrase": "confirmation email",
+      "meaningVi": "email xác nhận",
+      "pronunciation": "/ˌkɒnfərˈmeɪʃən ˈiːmeɪl/",
+      "exampleEn": "I'll send a confirmation email."
+    },
+    {
+      "phrase": "reservation is confirmed",
+      "meaningVi": "đặt phòng đã được xác nhận",
+      "pronunciation": "/ˌrezərˈveɪʃən ɪz kənˈfɜːrmd/",
+      "exampleEn": "Your reservation is confirmed."
+    },
+    {
+      "phrase": "available for those dates",
+      "meaningVi": "còn trống trong những ngày đó",
+      "pronunciation": "/əˈveɪləbəl fər ðoʊz deɪts/",
+      "exampleEn": "We have a room available for those dates."
+    },
+    {
+      "phrase": "What dates are you looking at",
+      "meaningVi": "Bạn muốn đặt vào ngày nào?",
+      "pronunciation": "/wɒt deɪts ər ju ˈlʊkɪŋ æt/",
+      "exampleEn": "What dates are you looking at?"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "I'd like to + verb (polite requests)",
+      "bodyVi": "'I'd like to' là cách nói lịch sự hơn 'I want to'. Dùng khi đặt dịch vụ hoặc yêu cầu điều gì đó.",
+      "bodyEn": "'I'd like to' is a polite alternative to 'I want to'. Use it when booking services or making requests."
+    },
+    {
+      "title": "Can I + verb (asking for permission)",
+      "bodyVi": "'Can I …?' dùng để hỏi xin phép hoặc yêu cầu điều gì đó một cách tự nhiên trong hội thoại hàng ngày.",
+      "bodyEn": "'Can I …?' is used to ask for permission or make informal requests in everyday conversation."
+    }
+  ],
+  "translationVi": "Khách: Xin chào, tôi muốn đặt phòng hai đêm. Nhân viên: Dĩ nhiên. Bạn muốn đặt ngày nào? Khách: Từ thứ Sáu ngày 14 đến Chủ Nhật ngày 16. Nhân viên: Chúng tôi có phòng đôi tiêu chuẩn cho những ngày đó, giá 95 đô mỗi đêm. Khách: Nghe tốt đấy. Phòng có bao gồm bữa sáng không? Nhân viên: Vâng, đã bao gồm bữa sáng. Nhận phòng lúc 3 giờ chiều và trả phòng lúc 11 giờ sáng. Khách: Tuyệt. Tôi có thể yêu cầu phòng yên tĩnh, xa đường phố không? Nhân viên: Tôi sẽ ghi chú lại. Cho tôi biết tên và số điện thoại của bạn? Khách: Tên tôi là Lisa Turner và số của tôi là 555-0182. Nhân viên: Cảm ơn, bà Turner. Tôi sẽ gửi email xác nhận. Địa chỉ email của bạn là gì? Khách: Là lisa.turner@email.com. Nhân viên: Cảm ơn. Đặt phòng của bạn đã được xác nhận. Chúng tôi mong được gặp bạn vào thứ Sáu!",
+  "criticalThinkingQuestion": "What information is important to confirm when booking a hotel room, and why might it cause problems if you forget to ask?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-a2-001",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 65328
+}

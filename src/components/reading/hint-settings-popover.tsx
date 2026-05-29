@@ -22,8 +22,9 @@ export function HintSettingsPopover() {
   return (
     <Popover>
       <PopoverTrigger asChild>
-        <Button type="button" size="sm" variant="outline">
-          <Lightbulb className="mr-1 size-3.5" /> Hints
+        <Button type="button" size="sm" variant="outline" aria-label="Hints">
+          <Lightbulb className="size-3.5 sm:mr-1" aria-hidden="true" />
+          <span className="hidden sm:inline">Hints</span>
         </Button>
       </PopoverTrigger>
       <PopoverContent className="w-72 space-y-3 p-4 text-sm">

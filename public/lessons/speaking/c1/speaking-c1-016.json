@@ -1,0 +1,636 @@
+{
+  "id": "speaking-c1-016",
+  "level": "C1",
+  "title": "Analyzing Global Supply Chain Disruptions",
+  "summary": "Supply chain strategist Dr. Priya and trade economist Professor Leon examine the structural vulnerabilities exposed by recent global disruptions, debating reshoring, diversification, and the geopolitics of critical supply chains.",
+  "topic": "Global economics",
+  "tags": [
+    "Economics",
+    "Trade",
+    "Geopolitics"
+  ],
+  "characters": [
+    "Priya",
+    "Leon"
+  ],
+  "voices": {
+    "Priya": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-JennyNeural"
+    },
+    "Leon": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-SteffanNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Priya",
+      "text": "Leon, the recurring disruption events of the past several years have exposed a fundamental tension in global supply chain design: the efficiency optimisation that drove decades of offshoring and just-in-time inventory has proven catastrophically fragile under tail-risk conditions."
+    },
+    {
+      "speaker": "Leon",
+      "text": "The fragility argument is compelling, but I'd caution against drawing overly broad policy conclusions from a cluster of extraordinary events. The efficiency gains from global supply chains are well-documented and distributional — the tail risks were priced too low, but the solution is better risk-pricing, not wholesale reshoring."
+    },
+    {
+      "speaker": "Priya",
+      "text": "Better risk-pricing assumes the risks are quantifiable and markets can efficiently aggregate that information. But what we observed was a correlated shock across multiple nodes simultaneously — a scenario that standard supply chain risk models explicitly fail to capture because they're built on independence assumptions."
+    },
+    {
+      "speaker": "Leon",
+      "text": "That's a fair indictment of the modelling paradigm. The independence assumption in single-tier supply chain models is clearly inadequate for a world of concentrated geographic dependencies. But even acknowledging that, the policy response has to be calibrated to the actual nature of the vulnerabilities rather than generic resilience rhetoric."
+    },
+    {
+      "speaker": "Priya",
+      "text": "I agree that specificity matters enormously. The semiconductor case is instructive — the concentration risk was known and documented long before the disruption, and the failure was one of policy will rather than analytical awareness. The question now is whether the policy corrective is proportionate to the strategic importance of the sector."
+    },
+    {
+      "speaker": "Leon",
+      "text": "The semiconductor intervention is an interesting case precisely because it straddles the line between legitimate national security consideration and industrial policy that risks triggering reciprocal protectionism. Once you accept that strategic importance justifies supply chain intervention, you create a framework that any government can deploy for any industry."
+    },
+    {
+      "speaker": "Priya",
+      "text": "That's the slippery slope concern, and it's real. But I'd distinguish between sectors where geographic concentration creates genuine strategic dependency — defence inputs, critical healthcare infrastructure, advanced computing — and ordinary manufactured goods where efficiency arguments still strongly favour globalised production."
+    },
+    {
+      "speaker": "Leon",
+      "text": "The categorisation challenge is thorny because the boundaries of 'strategic' tend to expand under political pressure. What starts as semiconductor policy ends up encompassing batteries, solar panels, rare earth refining, and, if current trends continue, pharmaceutical APIs. Each individual extension is arguable; the cumulative effect is a significant rollback of the liberal trade order."
+    },
+    {
+      "speaker": "Priya",
+      "text": "I don't think that's necessarily dystopian. The post-war liberal trade order was built on geopolitical assumptions — mutual dependence as a deterrent to conflict — that may be less reliable in a world of sharper great-power competition. If the geopolitical premises weaken, some recalibration of the trade architecture seems rational rather than regressive."
+    },
+    {
+      "speaker": "Leon",
+      "text": "That's a fair point about the political economy of trade, but recalibration is doing a lot of work in that sentence. There's a significant difference between strategic decoupling in genuinely security-critical sectors and the broader protectionist impulse that political actors often attach to it."
+    },
+    {
+      "speaker": "Priya",
+      "text": "I'd want to distinguish between reshoring — returning production to the domestic economy — and friend-shoring, which means diversifying across allies. Friend-shoring preserves much of the efficiency gain while substantially reducing concentration risk and maintaining the alliance-based deterrence logic you alluded to."
+    },
+    {
+      "speaker": "Leon",
+      "text": "Friend-shoring is theoretically attractive, but the practical constraints are significant. The countries in the preferred supplier set often don't have the existing industrial capacity, and building it requires substantial long-term investment with uncertain returns — which markets alone won't provide."
+    },
+    {
+      "speaker": "Priya",
+      "text": "Which is precisely where the public investment argument comes in. The market failure here is a classic case of positive externalities that private actors can't internalise — the resilience benefit accrues to society broadly, not just to the individual firm making the investment."
+    },
+    {
+      "speaker": "Leon",
+      "text": "I accept the market failure logic for genuinely strategic sectors. The governance challenge is preventing the rent-seeking that inevitably attaches to subsidised industrial policy — the history of strategic trade policy is littered with high-cost projects that delivered limited strategic value."
+    },
+    {
+      "speaker": "Priya",
+      "text": "The governance concern is legitimate. International coordination mechanisms — something along the lines of a technology security annex to existing trade agreements — could provide both the enabling framework and a check against unilateral rent capture."
+    },
+    {
+      "speaker": "Leon",
+      "text": "That's an interesting institutional design proposal. The difficulty is that the countries most motivated to cooperate on supply chain resilience are simultaneously the ones most engaged in strategic competition with each other. The coordination problem is not simply technical; it's embedded in a geopolitical dynamic that resists multilateral resolution."
+    },
+    {
+      "speaker": "Priya",
+      "text": "I concede that the multilateral path is genuinely difficult. But the bilateral and minilateral alternatives — plurilateral technology partnerships among subsets of like-minded states — may be more tractable and sufficient to address the core concentration risks without requiring universal agreement."
+    },
+    {
+      "speaker": "Leon",
+      "text": "That's probably the realistic near-term trajectory. The risk is that it accelerates the fragmentation of the international trade order into competing blocs, which has long-run costs that outweigh the resilience gains."
+    },
+    {
+      "speaker": "Priya",
+      "text": "Possibly. But the alternative of maintaining a fiction of seamless globalism while strategic competition intensifies underneath it seems even more fragile. At some point, institutional architecture has to be updated to reflect the world as it is rather than as it was hoped to be."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Priya",
+      "text": "Leon, the recurring disruption events of the past several years have exposed a fundamental tension in global supply chain design: the efficiency optimisation that drove decades of offshoring and just-in-time inventory has proven catastrophically fragile under tail-risk conditions.",
+      "durationMs": 16416,
+      "translationVi": "Leon, các sự kiện gián đoạn tái diễn trong vài năm qua đã phơi bày một căng thẳng cơ bản trong thiết kế chuỗi cung ứng toàn cầu: sự tối ưu hóa hiệu quả đã thúc đẩy nhiều thập kỷ gia công và hàng tồn kho đúng lúc đã chứng minh là mong manh thảm khốc trong các điều kiện rủi ro đuôi."
+    },
+    {
+      "id": "s2",
+      "speaker": "Leon",
+      "text": "The fragility argument is compelling, but I'd caution against drawing overly broad policy conclusions from a cluster of extraordinary events.",
+      "durationMs": 8856,
+      "translationVi": "Lập luận về sự mong manh rất thuyết phục, nhưng tôi sẽ cảnh báo không nên rút ra các kết luận chính sách quá rộng từ một cụm các sự kiện phi thường."
+    },
+    {
+      "id": "s3",
+      "speaker": "Leon",
+      "text": "The efficiency gains from global supply chains are well-documented and distributional — the tail risks were priced too low, but the solution is better risk-pricing, not wholesale reshoring.",
+      "durationMs": 11544,
+      "translationVi": "Những lợi ích hiệu quả từ chuỗi cung ứng toàn cầu được ghi nhận tốt và mang tính phân phối — các rủi ro đuôi được định giá quá thấp, nhưng giải pháp là định giá rủi ro tốt hơn, không phải tái bản địa hóa toàn diện."
+    },
+    {
+      "id": "s4",
+      "speaker": "Priya",
+      "text": "Better risk-pricing assumes the risks are quantifiable and markets can efficiently aggregate that information.",
+      "durationMs": 6624,
+      "translationVi": "Định giá rủi ro tốt hơn giả định rằng các rủi ro có thể định lượng và thị trường có thể tổng hợp thông tin đó một cách hiệu quả."
+    },
+    {
+      "id": "s5",
+      "speaker": "Priya",
+      "text": "But what we observed was a correlated shock across multiple nodes simultaneously — a scenario that standard supply chain risk models explicitly fail to capture because they're built on independence assumptions.",
+      "durationMs": 12096,
+      "translationVi": "Nhưng những gì chúng ta quan sát được là một cú sốc tương quan trên nhiều nút đồng thời — một kịch bản mà các mô hình rủi ro chuỗi cung ứng tiêu chuẩn rõ ràng không thể nắm bắt vì chúng được xây dựng trên các giả định độc lập."
+    },
+    {
+      "id": "s6",
+      "speaker": "Leon",
+      "text": "That's a fair indictment of the modelling paradigm.",
+      "durationMs": 3408,
+      "translationVi": "Đó là một cáo buộc công bằng về mô hình lập mô hình."
+    },
+    {
+      "id": "s7",
+      "speaker": "Leon",
+      "text": "The independence assumption in single-tier supply chain models is clearly inadequate for a world of concentrated geographic dependencies.",
+      "durationMs": 8616,
+      "translationVi": "Giả định độc lập trong các mô hình chuỗi cung ứng một tầng rõ ràng là không đủ cho một thế giới có sự phụ thuộc địa lý tập trung."
+    },
+    {
+      "id": "s8",
+      "speaker": "Leon",
+      "text": "But even acknowledging that, the policy response has to be calibrated to the actual nature of the vulnerabilities rather than generic resilience rhetoric.",
+      "durationMs": 9120,
+      "translationVi": "Nhưng ngay cả khi thừa nhận điều đó, phản ứng chính sách phải được hiệu chỉnh theo bản chất thực tế của các lỗ hổng hơn là tu từ về khả năng phục hồi chung."
+    },
+    {
+      "id": "s9",
+      "speaker": "Priya",
+      "text": "I agree that specificity matters enormously.",
+      "durationMs": 3504,
+      "translationVi": "Tôi đồng ý rằng tính cụ thể quan trọng vô cùng."
+    },
+    {
+      "id": "s10",
+      "speaker": "Priya",
+      "text": "The semiconductor case is instructive — the concentration risk was known and documented long before the disruption, and the failure was one of policy will rather than analytical awareness.",
+      "durationMs": 11112,
+      "translationVi": "Trường hợp bán dẫn mang tính giáo dục — rủi ro tập trung đã được biết và ghi nhận từ lâu trước khi gián đoạn, và sự thất bại là về ý chí chính sách hơn là nhận thức phân tích."
+    },
+    {
+      "id": "s11",
+      "speaker": "Priya",
+      "text": "The question now is whether the policy corrective is proportionate to the strategic importance of the sector.",
+      "durationMs": 6384,
+      "translationVi": "Câu hỏi bây giờ là liệu biện pháp khắc phục chính sách có tương xứng với tầm quan trọng chiến lược của lĩnh vực không."
+    },
+    {
+      "id": "s12",
+      "speaker": "Leon",
+      "text": "The semiconductor intervention is an interesting case precisely because it straddles the line between legitimate national security consideration and industrial policy that risks triggering reciprocal protectionism.",
+      "durationMs": 12744,
+      "translationVi": "Can thiệp bán dẫn là một trường hợp thú vị chính xác vì nó đứng ở ranh giới giữa cân nhắc an ninh quốc gia hợp pháp và chính sách công nghiệp có nguy cơ kích động chủ nghĩa bảo hộ có đi có lại."
+    },
+    {
+      "id": "s13",
+      "speaker": "Leon",
+      "text": "Once you accept that strategic importance justifies supply chain intervention, you create a framework that any government can deploy for any industry.",
+      "durationMs": 8808,
+      "translationVi": "Một khi bạn chấp nhận rằng tầm quan trọng chiến lược biện minh cho can thiệp chuỗi cung ứng, bạn tạo ra một khung mà bất kỳ chính phủ nào cũng có thể triển khai cho bất kỳ ngành nào."
+    },
+    {
+      "id": "s14",
+      "speaker": "Priya",
+      "text": "That's the slippery slope concern, and it's real.",
+      "durationMs": 3576,
+      "translationVi": "Đó là mối lo ngại về con dốc trơn, và nó có thực."
+    },
+    {
+      "id": "s15",
+      "speaker": "Priya",
+      "text": "But I'd distinguish between sectors where geographic concentration creates genuine strategic dependency — defence inputs, critical healthcare infrastructure, advanced computing — and ordinary manufactured goods where efficiency arguments still strongly favour globalised production.",
+      "durationMs": 16944,
+      "translationVi": "Nhưng tôi sẽ phân biệt giữa các lĩnh vực mà sự tập trung địa lý tạo ra sự phụ thuộc chiến lược thực sự — đầu vào quốc phòng, cơ sở hạ tầng y tế quan trọng, điện toán tiên tiến — và hàng hóa sản xuất thông thường mà các lập luận về hiệu quả vẫn mạnh mẽ ủng hộ sản xuất toàn cầu hóa."
+    },
+    {
+      "id": "s16",
+      "speaker": "Leon",
+      "text": "The categorisation challenge is thorny because the boundaries of 'strategic' tend to expand under political pressure.",
+      "durationMs": 7224,
+      "translationVi": "Thách thức phân loại là hóc búa vì ranh giới của 'chiến lược' có xu hướng mở rộng dưới áp lực chính trị."
+    },
+    {
+      "id": "s17",
+      "speaker": "Leon",
+      "text": "What starts as semiconductor policy ends up encompassing batteries, solar panels, rare earth refining, and, if current trends continue, pharmaceutical APIs.",
+      "durationMs": 10896,
+      "translationVi": "Điều bắt đầu là chính sách bán dẫn kết thúc bao gồm pin, tấm pin mặt trời, tinh luyện đất hiếm, và, nếu xu hướng hiện tại tiếp tục, API dược phẩm."
+    },
+    {
+      "id": "s18",
+      "speaker": "Leon",
+      "text": "Each individual extension is arguable; the cumulative effect is a significant rollback of the liberal trade order.",
+      "durationMs": 7344,
+      "translationVi": "Mỗi phần mở rộng riêng lẻ là có thể lập luận; tác động tích lũy là một sự đảo ngược đáng kể của trật tự thương mại tự do."
+    },
+    {
+      "id": "s19",
+      "speaker": "Priya",
+      "text": "I don't think that's necessarily dystopian.",
+      "durationMs": 3264,
+      "translationVi": "Tôi không nghĩ điều đó nhất thiết là thảm họa."
+    },
+    {
+      "id": "s20",
+      "speaker": "Priya",
+      "text": "The post-war liberal trade order was built on geopolitical assumptions — mutual dependence as a deterrent to conflict — that may be less reliable in a world of sharper great-power competition.",
+      "durationMs": 11256,
+      "translationVi": "Trật tự thương mại tự do sau chiến tranh được xây dựng trên các giả định địa chính trị — sự phụ thuộc lẫn nhau như là yếu tố ngăn chặn xung đột — có thể ít đáng tin cậy hơn trong một thế giới cạnh tranh quyền lực lớn gay gắt hơn."
+    },
+    {
+      "id": "s21",
+      "speaker": "Priya",
+      "text": "If the geopolitical premises weaken, some recalibration of the trade architecture seems rational rather than regressive.",
+      "durationMs": 7488,
+      "translationVi": "Nếu các tiền đề địa chính trị suy yếu, một số hiệu chỉnh lại kiến trúc thương mại có vẻ hợp lý hơn là thoái lui."
+    },
+    {
+      "id": "s22",
+      "speaker": "Leon",
+      "text": "That's a fair point about the political economy of trade, but recalibration is doing a lot of work in that sentence.",
+      "durationMs": 7488,
+      "translationVi": "Đó là điểm hợp lý về kinh tế chính trị thương mại, nhưng 'hiệu chỉnh lại' đang làm rất nhiều việc trong câu đó."
+    },
+    {
+      "id": "s23",
+      "speaker": "Leon",
+      "text": "There's a significant difference between strategic decoupling in genuinely security-critical sectors and the broader protectionist impulse that political actors often attach to it.",
+      "durationMs": 10296,
+      "translationVi": "Có sự khác biệt đáng kể giữa việc tách rời chiến lược trong các lĩnh vực thực sự quan trọng về an ninh và xu hướng bảo hộ rộng hơn mà các chính trị gia thường gắn với nó."
+    },
+    {
+      "id": "s24",
+      "speaker": "Priya",
+      "text": "I'd want to distinguish between reshoring — returning production to the domestic economy — and friend-shoring, which means diversifying across allies.",
+      "durationMs": 9096,
+      "translationVi": "Tôi muốn phân biệt giữa tái bản địa hóa — đưa sản xuất trở lại nền kinh tế trong nước — và gia công đồng minh, có nghĩa là đa dạng hóa giữa các đồng minh."
+    },
+    {
+      "id": "s25",
+      "speaker": "Priya",
+      "text": "Friend-shoring preserves much of the efficiency gain while substantially reducing concentration risk and maintaining the alliance-based deterrence logic you alluded to.",
+      "durationMs": 9168,
+      "translationVi": "Gia công đồng minh duy trì nhiều lợi ích hiệu quả trong khi giảm đáng kể rủi ro tập trung và duy trì logic ngăn chặn dựa trên liên minh bạn đã đề cập."
+    },
+    {
+      "id": "s26",
+      "speaker": "Leon",
+      "text": "Friend-shoring is theoretically attractive, but the practical constraints are significant.",
+      "durationMs": 5856,
+      "translationVi": "Gia công đồng minh hấp dẫn về mặt lý thuyết, nhưng các ràng buộc thực tế là đáng kể."
+    },
+    {
+      "id": "s27",
+      "speaker": "Leon",
+      "text": "The countries in the preferred supplier set often don't have the existing industrial capacity, and building it requires substantial long-term investment with uncertain returns — which markets alone won't provide.",
+      "durationMs": 13032,
+      "translationVi": "Các quốc gia trong tập hợp nhà cung cấp ưu tiên thường không có năng lực công nghiệp hiện có, và xây dựng nó đòi hỏi đầu tư dài hạn đáng kể với lợi nhuận không chắc chắn — điều mà thị trường một mình không thể cung cấp."
+    },
+    {
+      "id": "s28",
+      "speaker": "Priya",
+      "text": "Which is precisely where the public investment argument comes in.",
+      "durationMs": 4152,
+      "translationVi": "Đó chính xác là nơi lập luận đầu tư công xuất hiện."
+    },
+    {
+      "id": "s29",
+      "speaker": "Priya",
+      "text": "The market failure here is a classic case of positive externalities that private actors can't internalise — the resilience benefit accrues to society broadly, not just to the individual firm making the investment.",
+      "durationMs": 12984,
+      "translationVi": "Thất bại thị trường ở đây là trường hợp điển hình về ngoại tác tích cực mà các chủ thể tư nhân không thể nội hóa — lợi ích phục hồi tích lũy cho xã hội nói chung, không chỉ cho công ty cá nhân đang đầu tư."
+    },
+    {
+      "id": "s30",
+      "speaker": "Leon",
+      "text": "I accept the market failure logic for genuinely strategic sectors.",
+      "durationMs": 4752,
+      "translationVi": "Tôi chấp nhận logic thất bại thị trường cho các lĩnh vực thực sự chiến lược."
+    },
+    {
+      "id": "s31",
+      "speaker": "Leon",
+      "text": "The governance challenge is preventing the rent-seeking that inevitably attaches to subsidised industrial policy — the history of strategic trade policy is littered with high-cost projects that delivered limited strategic value.",
+      "durationMs": 13248,
+      "translationVi": "Thách thức quản trị là ngăn chặn việc tìm kiếm đặc lợi không thể tránh khỏi gắn liền với chính sách công nghiệp được trợ cấp — lịch sử của chính sách thương mại chiến lược đầy những dự án chi phí cao mang lại giá trị chiến lược hạn chế."
+    },
+    {
+      "id": "s32",
+      "speaker": "Priya",
+      "text": "The governance concern is legitimate.",
+      "durationMs": 2952,
+      "translationVi": "Mối lo ngại về quản trị là hợp pháp."
+    },
+    {
+      "id": "s33",
+      "speaker": "Priya",
+      "text": "International coordination mechanisms — something along the lines of a technology security annex to existing trade agreements — could provide both the enabling framework and a check against unilateral rent capture.",
+      "durationMs": 12456,
+      "translationVi": "Các cơ chế phối hợp quốc tế — một cái gì đó theo đường hướng phụ lục bảo mật công nghệ cho các hiệp định thương mại hiện có — có thể cung cấp cả khung điều kiện và kiểm tra đối với việc thu lợi đơn phương."
+    },
+    {
+      "id": "s34",
+      "speaker": "Leon",
+      "text": "That's an interesting institutional design proposal.",
+      "durationMs": 3816,
+      "translationVi": "Đó là đề xuất thiết kế thể chế thú vị."
+    },
+    {
+      "id": "s35",
+      "speaker": "Leon",
+      "text": "The difficulty is that the countries most motivated to cooperate on supply chain resilience are simultaneously the ones most engaged in strategic competition with each other.",
+      "durationMs": 10272,
+      "translationVi": "Khó khăn là các quốc gia có động lực nhất để hợp tác về khả năng phục hồi chuỗi cung ứng đồng thời là những quốc gia tham gia nhiều nhất vào cạnh tranh chiến lược với nhau."
+    },
+    {
+      "id": "s36",
+      "speaker": "Leon",
+      "text": "The coordination problem is not simply technical; it's embedded in a geopolitical dynamic that resists multilateral resolution.",
+      "durationMs": 8352,
+      "translationVi": "Vấn đề phối hợp không đơn thuần là kỹ thuật; nó được nhúng vào một động lực địa chính trị chống lại giải pháp đa phương."
+    },
+    {
+      "id": "s37",
+      "speaker": "Priya",
+      "text": "I concede that the multilateral path is genuinely difficult.",
+      "durationMs": 4224,
+      "translationVi": "Tôi thừa nhận rằng con đường đa phương là thực sự khó khăn."
+    },
+    {
+      "id": "s38",
+      "speaker": "Priya",
+      "text": "But the bilateral and minilateral alternatives — plurilateral technology partnerships among subsets of like-minded states — may be more tractable and sufficient to address the core concentration risks without requiring universal agreement.",
+      "durationMs": 14112,
+      "translationVi": "Nhưng các lựa chọn song phương và đa phương hạn chế — quan hệ đối tác công nghệ đa phương nhỏ giữa các tập con quốc gia cùng chí hướng — có thể dễ thực hiện hơn và đủ để giải quyết các rủi ro tập trung cốt lõi mà không cần thỏa thuận phổ quát."
+    },
+    {
+      "id": "s39",
+      "speaker": "Leon",
+      "text": "That's probably the realistic near-term trajectory.",
+      "durationMs": 3768,
+      "translationVi": "Đó có lẽ là quỹ đạo thực tế ngắn hạn."
+    },
+    {
+      "id": "s40",
+      "speaker": "Leon",
+      "text": "The risk is that it accelerates the fragmentation of the international trade order into competing blocs, which has long-run costs that outweigh the resilience gains.",
+      "durationMs": 9912,
+      "translationVi": "Rủi ro là nó đẩy nhanh sự phân mảnh của trật tự thương mại quốc tế thành các khối cạnh tranh, có chi phí dài hạn vượt qua lợi ích phục hồi."
+    },
+    {
+      "id": "s41",
+      "speaker": "Priya",
+      "text": "Possibly.",
+      "durationMs": 1728,
+      "translationVi": "Có thể."
+    },
+    {
+      "id": "s42",
+      "speaker": "Priya",
+      "text": "But the alternative of maintaining a fiction of seamless globalism while strategic competition intensifies underneath it seems even more fragile.",
+      "durationMs": 8736,
+      "translationVi": "Nhưng lựa chọn thay thế là duy trì một hư cấu về chủ nghĩa toàn cầu liền mạch trong khi cạnh tranh chiến lược leo thang bên dưới nó có vẻ còn mong manh hơn."
+    },
+    {
+      "id": "s43",
+      "speaker": "Priya",
+      "text": "At some point, institutional architecture has to be updated to reflect the world as it is rather than as it was hoped to be.",
+      "durationMs": 7392,
+      "translationVi": "Đến một lúc nào đó, kiến trúc thể chế phải được cập nhật để phản ánh thế giới như nó đang tồn tại hơn là như được hy vọng."
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "I'd caution against drawing overly broad conclusions from …"
+    },
+    {
+      "id": "h2",
+      "text": "I'd distinguish between … and …, which …"
+    },
+    {
+      "id": "h3",
+      "text": "The market failure here is a classic case of …"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "tail-risk conditions",
+      "meaningVi": "điều kiện rủi ro đuôi (sự kiện xác suất thấp, tác động lớn)",
+      "pronunciation": "/teɪl rɪsk kənˈdɪʃənz/"
+    },
+    {
+      "id": "v2",
+      "phrase": "reshoring",
+      "meaningVi": "đưa sản xuất về trong nước",
+      "pronunciation": "/riːˈʃɔːrɪŋ/"
+    },
+    {
+      "id": "v3",
+      "phrase": "friend-shoring",
+      "meaningVi": "đưa sản xuất sang các nước đồng minh",
+      "pronunciation": "/frɛnd ˈʃɔːrɪŋ/"
+    },
+    {
+      "id": "v4",
+      "phrase": "rent-seeking",
+      "meaningVi": "tìm kiếm đặc lợi (lợi dụng chính sách để thu lợi)",
+      "pronunciation": "/rɛnt ˈsiːkɪŋ/"
+    },
+    {
+      "id": "v5",
+      "phrase": "minilateral",
+      "meaningVi": "đa phương hạn chế (nhóm nhỏ các quốc gia)",
+      "pronunciation": "/ˌmɪnɪˈlætərəl/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "correlated shock",
+      "meaningVi": "cú sốc tương quan (xảy ra đồng thời ở nhiều nơi)",
+      "pronunciation": "/ˈkɒrəleɪtɪd ʃɒk/"
+    },
+    {
+      "phrase": "reciprocal protectionism",
+      "meaningVi": "chủ nghĩa bảo hộ có đi có lại",
+      "pronunciation": "/rɪˈsɪprəkəl prəˈtɛkʃənɪzəm/"
+    },
+    {
+      "phrase": "concentration risk",
+      "meaningVi": "rủi ro tập trung (phụ thuộc quá mức vào một nguồn)",
+      "pronunciation": "/ˌkɒnsənˈtreɪʃən rɪsk/"
+    },
+    {
+      "phrase": "positive externalities",
+      "meaningVi": "ngoại tác tích cực (lợi ích cho bên thứ ba)",
+      "pronunciation": "/ˈpɒzɪtɪv ɪkˌstɜːrnəlɪtiz/"
+    },
+    {
+      "phrase": "strategic decoupling",
+      "meaningVi": "tách rời chiến lược (giảm phụ thuộc lẫn nhau có chủ đích)",
+      "pronunciation": "/strəˈtiːdʒɪk diːˈkʌplɪŋ/"
+    },
+    {
+      "phrase": "just-in-time inventory",
+      "meaningVi": "hàng tồn kho đúng thời điểm (chiến lược sản xuất)",
+      "pronunciation": "/dʒʌst ɪn taɪm ˈɪnvənˌtɔːri/"
+    },
+    {
+      "phrase": "tail-risk conditions",
+      "meaningVi": "điều kiện rủi ro đuôi (sự kiện hiếm nhưng thảm họa)",
+      "pronunciation": "/teɪl rɪsk kənˈdɪʃənz/"
+    },
+    {
+      "phrase": "independence assumptions",
+      "meaningVi": "các giả định về tính độc lập (mô hình rủi ro)",
+      "pronunciation": "/ˌɪndɪˈpɛndəns əˈsʌmpʃənz/"
+    },
+    {
+      "phrase": "friend-shoring",
+      "meaningVi": "chuyển sản xuất sang các đồng minh tin cậy",
+      "pronunciation": "/frɛnd ˈʃɔːrɪŋ/"
+    },
+    {
+      "phrase": "rent-seeking",
+      "meaningVi": "tìm kiếm địa tô (thu lợi từ ưu đãi chính trị, không tạo giá trị)",
+      "pronunciation": "/rɛnt ˈsiːkɪŋ/"
+    },
+    {
+      "phrase": "plurilateral technology partnerships",
+      "meaningVi": "đối tác công nghệ đa phương (một số quốc gia)",
+      "pronunciation": "/ˌplʊərɪˈlætərəl tɛkˈnɒlədʒi ˈpɑːrtnərʃɪps/"
+    },
+    {
+      "phrase": "critical healthcare infrastructure",
+      "meaningVi": "cơ sở hạ tầng y tế quan trọng",
+      "pronunciation": "/ˈkrɪtɪkəl ˈhɛlθkɛr ˈɪnfrəˌstrʌktʃər/"
+    },
+    {
+      "phrase": "liberal trade order",
+      "meaningVi": "trật tự thương mại tự do",
+      "pronunciation": "/ˈlɪbərəl treɪd ˈɔːrdər/"
+    },
+    {
+      "phrase": "supply chain resilience",
+      "meaningVi": "khả năng phục hồi của chuỗi cung ứng",
+      "pronunciation": "/səˈplaɪ tʃeɪn rɪˈzɪliəns/"
+    },
+    {
+      "phrase": "great-power competition",
+      "meaningVi": "cạnh tranh giữa các cường quốc",
+      "pronunciation": "/ɡreɪt ˈpaʊər ˌkɒmpɪˈtɪʃən/"
+    },
+    {
+      "phrase": "industrial policy",
+      "meaningVi": "chính sách công nghiệp",
+      "pronunciation": "/ɪnˈdʌstriəl ˈpɒlɪsi/"
+    },
+    {
+      "phrase": "wholesale reshoring",
+      "meaningVi": "đưa toàn bộ sản xuất về nước",
+      "pronunciation": "/ˈhoʊlseɪl ˌriːˈʃɔːrɪŋ/"
+    },
+    {
+      "phrase": "market failure",
+      "meaningVi": "thất bại thị trường (kinh tế học)",
+      "pronunciation": "/ˈmɑːrkɪt ˈfeɪljər/"
+    },
+    {
+      "phrase": "coordination problem",
+      "meaningVi": "vấn đề phối hợp (lý thuyết trò chơi)",
+      "pronunciation": "/koʊˌɔːrdɪˈneɪʃən ˈprɒbləm/"
+    },
+    {
+      "phrase": "geopolitical assumptions",
+      "meaningVi": "các giả định địa chính trị",
+      "pronunciation": "/ˌdʒiːoʊpəˈlɪtɪkəl əˈsʌmpʃənz/"
+    },
+    {
+      "phrase": "political economy of trade",
+      "meaningVi": "kinh tế chính trị của thương mại",
+      "pronunciation": "/pəˈlɪtɪkəl ɪˈkɒnəmi əv treɪd/"
+    },
+    {
+      "phrase": "slippery slope concern",
+      "meaningVi": "lo ngại hiệu ứng dốc trơn (một thay đổi dẫn đến hàng loạt thay đổi)",
+      "pronunciation": "/ˈslɪpəri sloʊp kənˈsɜːrn/"
+    },
+    {
+      "phrase": "distributional gains",
+      "meaningVi": "lợi ích phân phối (trong thương mại toàn cầu)",
+      "pronunciation": "/ˌdɪstrɪˈbjuːʃənl ɡeɪnz/"
+    },
+    {
+      "phrase": "semiconductor intervention",
+      "meaningVi": "can thiệp vào ngành chip bán dẫn",
+      "pronunciation": "/ˌsɛmɪkənˈdʌktər ˌɪntəˈvɛnʃən/"
+    },
+    {
+      "phrase": "geographic dependencies",
+      "meaningVi": "sự phụ thuộc địa lý (chuỗi cung ứng)",
+      "pronunciation": "/ˌdʒiːəˈɡræfɪk dɪˈpɛndənsiz/"
+    },
+    {
+      "phrase": "near-term profitability constraint",
+      "meaningVi": "ràng buộc về lợi nhuận ngắn hạn",
+      "pronunciation": "/nɪər tɜːrm ˌprɒfɪtəˈbɪlɪti kənˈstreɪnt/"
+    },
+    {
+      "phrase": "resilience rhetoric",
+      "meaningVi": "tu từ về khả năng phục hồi",
+      "pronunciation": "/rɪˈzɪliəns ˈrɛtərɪk/"
+    },
+    {
+      "phrase": "analytical awareness",
+      "meaningVi": "nhận thức phân tích",
+      "pronunciation": "/ˌænəˈlɪtɪkəl əˈwɛrnɪs/"
+    },
+    {
+      "phrase": "political will",
+      "meaningVi": "ý chí chính trị",
+      "pronunciation": "/pəˈlɪtɪkəl wɪl/"
+    },
+    {
+      "phrase": "strategic trade policy",
+      "meaningVi": "chính sách thương mại chiến lược",
+      "pronunciation": "/strəˈtiːdʒɪk treɪd ˈpɒlɪsi/"
+    },
+    {
+      "phrase": "universal agreement",
+      "meaningVi": "sự đồng thuận toàn cầu",
+      "pronunciation": "/ˌjuːnɪˈvɜːrsəl əˈɡriːmənt/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Concessive 'even acknowledging that': granting a point without yielding ground",
+      "bodyVi": "'Even acknowledging that X' thừa nhận một điểm phê bình mà không từ bỏ lập trường cốt lõi. Nó tách biệt sự đúng đắn phân tích với hàm ý chính sách — kỹ thuật quan trọng trong tranh luận kinh tế.",
+      "bodyEn": "'Even acknowledging that X' grants an analytical critique without conceding the policy implication. This separates being analytically correct from being policy-correct — essential in economic and policy debates where premises and conclusions can be decoupled."
+    },
+    {
+      "title": "Hedged intensification: 'X is doing a lot of work in that sentence'",
+      "bodyVi": "'X is doing a lot of work in that sentence' là cách chỉ ra rằng một từ hay cụm từ đang che giấu một phức tạp quan trọng. Đây là cách tinh tế để thách thức ngôn ngữ mà không tấn công lập luận trực tiếp.",
+      "bodyEn": "'X is doing a lot of work in that sentence' flags that a word or phrase is concealing significant complexity. This sophisticated rhetorical move challenges the opponent's framing without directly attacking their argument, inviting them to unpack what they mean."
+    }
+  ],
+  "translationVi": "Priya: Leon, các sự kiện gián đoạn tái diễn trong vài năm qua đã phơi bày một căng thẳng cơ bản trong thiết kế chuỗi cung ứng toàn cầu: sự tối ưu hóa hiệu quả đã thúc đẩy nhiều thập kỷ gia công và hàng tồn kho đúng lúc đã chứng minh là mong manh thảm khốc trong các điều kiện rủi ro đuôi. Leon: Lập luận về sự mong manh rất thuyết phục, nhưng tôi sẽ cảnh báo không nên rút ra các kết luận chính sách quá rộng từ một cụm các sự kiện phi thường. Những lợi ích hiệu quả từ chuỗi cung ứng toàn cầu được ghi nhận tốt và mang tính phân phối — các rủi ro đuôi được định giá quá thấp, nhưng giải pháp là định giá rủi ro tốt hơn, không phải tái bản địa hóa toàn diện. Priya: Định giá rủi ro tốt hơn giả định rằng các rủi ro có thể định lượng và thị trường có thể tổng hợp thông tin đó một cách hiệu quả. Nhưng những gì chúng ta quan sát được là một cú sốc tương quan trên nhiều nút đồng thời — một kịch bản mà các mô hình rủi ro chuỗi cung ứng tiêu chuẩn rõ ràng không thể nắm bắt vì chúng được xây dựng trên các giả định độc lập. Leon: Đó là một cáo buộc công bằng về mô hình lập mô hình. Giả định độc lập trong các mô hình chuỗi cung ứng một tầng rõ ràng là không đủ cho một thế giới có sự phụ thuộc địa lý tập trung. Nhưng ngay cả khi thừa nhận điều đó, phản ứng chính sách phải được hiệu chỉnh theo bản chất thực tế của các lỗ hổng hơn là tu từ về khả năng phục hồi chung. Priya: Tôi đồng ý rằng tính cụ thể quan trọng vô cùng. Trường hợp bán dẫn mang tính giáo dục — rủi ro tập trung đã được biết và ghi nhận từ lâu trước khi gián đoạn, và sự thất bại là về ý chí chính sách hơn là nhận thức phân tích. Câu hỏi bây giờ là liệu biện pháp khắc phục chính sách có tương xứng với tầm quan trọng chiến lược của lĩnh vực không. Leon: Can thiệp bán dẫn là một trường hợp thú vị chính xác vì nó đứng ở ranh giới giữa cân nhắc an ninh quốc gia hợp pháp và chính sách công nghiệp có nguy cơ kích động chủ nghĩa bảo hộ có đi có lại. Một khi bạn chấp nhận rằng tầm quan trọng chiến lược biện minh cho can thiệp chuỗi cung ứng, bạn tạo ra một khung mà bất kỳ chính phủ nào cũng có thể triển khai cho bất kỳ ngành nào. Priya: Đó là mối lo ngại về con dốc trơn, và nó có thực. Nhưng tôi sẽ phân biệt giữa các lĩnh vực mà sự tập trung địa lý tạo ra sự phụ thuộc chiến lược thực sự — đầu vào quốc phòng, cơ sở hạ tầng y tế quan trọng, điện toán tiên tiến — và hàng hóa sản xuất thông thường mà các lập luận về hiệu quả vẫn mạnh mẽ ủng hộ sản xuất toàn cầu hóa. Leon: Thách thức phân loại là hóc búa vì ranh giới của 'chiến lược' có xu hướng mở rộng dưới áp lực chính trị. Điều bắt đầu là chính sách bán dẫn kết thúc bao gồm pin, tấm pin mặt trời, tinh luyện đất hiếm, và, nếu xu hướng hiện tại tiếp tục, API dược phẩm. Mỗi phần mở rộng riêng lẻ là có thể lập luận; tác động tích lũy là một sự đảo ngược đáng kể của trật tự thương mại tự do. Priya: Tôi không nghĩ điều đó nhất thiết là thảm họa. Trật tự thương mại tự do sau chiến tranh được xây dựng trên các giả định địa chính trị — sự phụ thuộc lẫn nhau như là yếu tố ngăn chặn xung đột — có thể ít đáng tin cậy hơn trong một thế giới cạnh tranh quyền lực lớn gay gắt hơn. Nếu các tiền đề địa chính trị suy yếu, một số hiệu chỉnh lại kiến trúc thương mại có vẻ hợp lý hơn là thoái lui. Leon: Đó là điểm hợp lý về kinh tế chính trị thương mại, nhưng 'hiệu chỉnh lại' đang làm rất nhiều việc trong câu đó. Có sự khác biệt đáng kể giữa việc tách rời chiến lược trong các lĩnh vực thực sự quan trọng về an ninh và xu hướng bảo hộ rộng hơn mà các chính trị gia thường gắn với nó. Priya: Tôi muốn phân biệt giữa tái bản địa hóa — đưa sản xuất trở lại nền kinh tế trong nước — và gia công đồng minh, có nghĩa là đa dạng hóa giữa các đồng minh. Gia công đồng minh duy trì nhiều lợi ích hiệu quả trong khi giảm đáng kể rủi ro tập trung và duy trì logic ngăn chặn dựa trên liên minh bạn đã đề cập. Leon: Gia công đồng minh hấp dẫn về mặt lý thuyết, nhưng các ràng buộc thực tế là đáng kể. Các quốc gia trong tập hợp nhà cung cấp ưu tiên thường không có năng lực công nghiệp hiện có, và xây dựng nó đòi hỏi đầu tư dài hạn đáng kể với lợi nhuận không chắc chắn — điều mà thị trường một mình không thể cung cấp. Priya: Đó chính xác là nơi lập luận đầu tư công xuất hiện. Thất bại thị trường ở đây là trường hợp điển hình về ngoại tác tích cực mà các chủ thể tư nhân không thể nội hóa — lợi ích phục hồi tích lũy cho xã hội nói chung, không chỉ cho công ty cá nhân đang đầu tư. Leon: Tôi chấp nhận logic thất bại thị trường cho các lĩnh vực thực sự chiến lược. Thách thức quản trị là ngăn chặn việc tìm kiếm đặc lợi không thể tránh khỏi gắn liền với chính sách công nghiệp được trợ cấp — lịch sử của chính sách thương mại chiến lược đầy những dự án chi phí cao mang lại giá trị chiến lược hạn chế. Priya: Mối lo ngại về quản trị là hợp pháp. Các cơ chế phối hợp quốc tế — một cái gì đó theo đường hướng phụ lục bảo mật công nghệ cho các hiệp định thương mại hiện có — có thể cung cấp cả khung điều kiện và kiểm tra đối với việc thu lợi đơn phương. Leon: Đó là đề xuất thiết kế thể chế thú vị. Khó khăn là các quốc gia có động lực nhất để hợp tác về khả năng phục hồi chuỗi cung ứng đồng thời là những quốc gia tham gia nhiều nhất vào cạnh tranh chiến lược với nhau. Vấn đề phối hợp không đơn thuần là kỹ thuật; nó được nhúng vào một động lực địa chính trị chống lại giải pháp đa phương. Priya: Tôi thừa nhận rằng con đường đa phương là thực sự khó khăn. Nhưng các lựa chọn song phương và đa phương hạn chế — quan hệ đối tác công nghệ đa phương nhỏ giữa các tập con quốc gia cùng chí hướng — có thể dễ thực hiện hơn và đủ để giải quyết các rủi ro tập trung cốt lõi mà không cần thỏa thuận phổ quát. Leon: Đó có lẽ là quỹ đạo thực tế ngắn hạn. Rủi ro là nó đẩy nhanh sự phân mảnh của trật tự thương mại quốc tế thành các khối cạnh tranh, có chi phí dài hạn vượt qua lợi ích phục hồi. Priya: Có thể. Nhưng lựa chọn thay thế là duy trì một hư cấu về chủ nghĩa toàn cầu liền mạch trong khi cạnh tranh chiến lược leo thang bên dưới nó có vẻ còn mong manh hơn. Đến một lúc nào đó, kiến trúc thể chế phải được cập nhật để phản ánh thế giới như nó đang tồn tại hơn là như được hy vọng.",
+  "criticalThinkingQuestion": "To what extent is the concept of supply chain resilience a genuinely neutral technical objective, and how does the framing of particular industries as 'strategic' serve or undermine the interests of different actors in the global trading system?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-c1-016",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 365016
+}

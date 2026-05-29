@@ -1,13 +1,18 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { RotateCcw } from "lucide-react";
+import { createPortal } from "react-dom";
+import { Mic, RotateCcw } from "lucide-react";
+import { useLocalStorageBoolean } from "@/lib/use-local-storage";
+import { cn } from "@/lib/utils";
 import { TurnRow } from "./turn-row";
 import { MixResultCard } from "./mix-result-card";
+import { ConfirmDialog } from "@/components/ui/confirm-dialog";
 import { mixToMp3, type MixChunk } from "@/lib/audio/mixer";
 import { createRecorder, type RecorderHandle } from "@/lib/audio/recorder";
 import { useSaveSpeakingRecording } from "@/lib/db/use-speaking-recordings";
 import { useSaveSpeakingSessionDraft, useDeleteSpeakingSessionDraft, useSpeakingSessionDraft } from "@/lib/db/use-speaking-session-draft";
+import { usePreferences } from "@/lib/db/use-preferences";
 import type { SpeakingLesson, SpeakingSentence } from "@/lib/lessons/speaking-schema";
 
 // ── Helpers ────────────────────────────────────────────────────────────────
@@ -36,11 +41,12 @@ function expectedMs(sentences: SpeakingSentence[]): number {
 
 async function playSequential(sentences: SpeakingSentence[], cdnBase: string): Promise<void> {
   for (const s of sentences) {
-    await new Promise<void>((resolve, reject) => {
+    await new Promise<void>((resolve) => {
+      const fallback = () => setTimeout(resolve, s.durationMs ?? 2000);
       const audio = new Audio(`${cdnBase}/sentences/${s.id}.mp3`);
       audio.onended = () => resolve();
-      audio.onerror = () => reject(new Error(`Failed to play ${s.id}`));
-      audio.play().catch(reject);
+      audio.onerror = fallback;
+      audio.play().catch(fallback);
     });
   }
 }
@@ -49,11 +55,16 @@ async function playSequential(sentences: SpeakingSentence[], cdnBase: string): P
 
 type Phase = "idle" | "in_session" | "done" | "mixing" | "mixed";
 
-type Props = { lesson: SpeakingLesson; role: string };
+type Props = {
+  lesson: SpeakingLesson;
+  role: string;
+  controlsContainer?: HTMLElement | null;
+  onActiveChange?: (active: boolean) => void;
+};
 
 // ── Component ─────────────────────────────────────────────────────────────
 
-export function PracticeSession({ lesson, role }: Props) {
+export function PracticeSession({ lesson, role, controlsContainer, onActiveChange }: Props) {
   const [phase, setPhase] = useState<Phase>("idle");
   const [turnIndex, setTurnIndex] = useState(0);
   const [turnBlobs, setTurnBlobs] = useState<Map<number, Blob>>(new Map());
@@ -61,6 +72,8 @@ export function PracticeSession({ lesson, role }: Props) {
   const [mixedDurationMs, setMixedDurationMs] = useState(0);
   const [mixError, setMixError] = useState<string | null>(null);
   const [rmsLevel, setRmsLevel] = useState(0);
+  const [autoRecord, setAutoRecord] = useLocalStorageBoolean("speaking:autoRecord");
+  const [showRestartConfirm, setShowRestartConfirm] = useState(false);
 
   const recorderRef = useRef<RecorderHandle | null>(null);
   const autoAdvanceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -70,8 +83,27 @@ export function PracticeSession({ lesson, role }: Props) {
   const deleteDraft = useDeleteSpeakingSessionDraft();
   const draft = useSpeakingSessionDraft(lesson.id);
 
+  const prefs = usePreferences();
+  const showTranslation = prefs.hintToggles.passageTranslation;
+
   const turnSentences = useMemo(() => buildTurnSentences(lesson), [lesson]);
   const totalTurns = lesson.body.length;
+
+  // Notify parent when practice becomes active/inactive (to swap transcript ↔ turns)
+  useEffect(() => {
+    onActiveChange?.(phase !== "idle" && phase !== "mixed");
+  }, [phase, onActiveChange]);
+
+  // Per-turn Vietnamese: concatenate sentence translationVi fields
+  const turnTranslationsVi = useMemo(() => {
+    const map = new Map<number, string>();
+    for (let bi = 0; bi < lesson.body.length; bi++) {
+      const sentences = turnSentences.get(bi) ?? [];
+      const vi = sentences.map((s) => (s as { translationVi?: string }).translationVi ?? "").filter(Boolean).join(" ");
+      if (vi) map.set(bi, vi);
+    }
+    return map;
+  }, [lesson.body.length, turnSentences]);
 
   // Restore from draft on mount
   useEffect(() => {
@@ -116,6 +148,18 @@ export function PracticeSession({ lesson, role }: Props) {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [phase, turnIndex, role]);
 
+  // Auto-record: start mic automatically when it's the user's turn (opt-in)
+  useEffect(() => {
+    if (phase !== "in_session" || !autoRecord) return;
+    const turn = lesson.body[turnIndex];
+    if (turn.speaker !== role) return;       // system turn
+    if (turnBlobs.has(turnIndex)) return;    // already recorded
+    if (recorderRef.current) return;         // already recording
+    const t = setTimeout(() => handleRecord(turnIndex), 800);
+    return () => clearTimeout(t);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [phase, turnIndex, autoRecord, role]);
+
   function advanceTurn() {
     const next = turnIndex + 1;
     if (next >= totalTurns) {
@@ -131,7 +175,6 @@ export function PracticeSession({ lesson, role }: Props) {
   }
 
   function restartSession() {
-    if (!confirm("Clear all recorded turns and restart?")) return;
     recorderRef.current?.dispose();
     recorderRef.current = null;
     if (autoAdvanceRef.current) clearTimeout(autoAdvanceRef.current);
@@ -191,7 +234,8 @@ export function PracticeSession({ lesson, role }: Props) {
         const sentences = turnSentences.get(bi) ?? [];
         if (lesson.body[bi].speaker === role) {
           const blob = turnBlobs.get(bi);
-          if (blob) chunks.push({ kind: "user", blob });
+          if (!blob) throw new Error(`Missing recording for turn ${bi + 1}. Please re-record that turn.`);
+          chunks.push({ kind: "user", blob });
         } else {
           for (const s of sentences) {
             const res = await fetch(`${lesson.audio.cdnBase}/sentences/${s.id}.mp3`);
@@ -200,7 +244,8 @@ export function PracticeSession({ lesson, role }: Props) {
         }
       }
       const mp3 = await mixToMp3(chunks);
-      const durMs = Math.round(mp3.size / (128 * 1000 / 8) * 1000);
+      // WAV: 44-byte header + 16-bit mono @ 44100 Hz → 88200 bytes/s
+      const durMs = Math.round((mp3.size - 44) / 88200 * 1000);
       await saveRecording({
         lessonId: lesson.id,
         role,
@@ -235,84 +280,124 @@ export function PracticeSession({ lesson, role }: Props) {
     return "user-idle";
   }
 
+  // ── Controls (portaled into sticky bar) ──────────────────────────────
+
+  const autoRecordBtn = (
+    <button
+      type="button"
+      onClick={() => setAutoRecord(!autoRecord)}
+      className={cn(
+        "inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-xs transition-colors",
+        autoRecord
+          ? "border-primary/40 bg-primary/10 text-primary"
+          : "border-border text-muted-foreground hover:bg-accent",
+      )}
+    >
+      <Mic className="size-3" aria-hidden="true" />
+      Auto-record {autoRecord ? "on" : "off"}
+    </button>
+  );
+
+  const controls = (
+    <>
+      {phase === "idle" && (
+        <>
+          {autoRecordBtn}
+          <button type="button" onClick={startSession}
+            className="rounded-full bg-primary px-4 py-1.5 text-sm font-medium text-primary-foreground hover:bg-primary/90">
+            Start practice
+          </button>
+        </>
+      )}
+      {(phase === "in_session" || phase === "done") && (
+        <>
+          {autoRecordBtn}
+          <button type="button" onClick={() => setShowRestartConfirm(true)}
+            className="inline-flex items-center gap-1.5 rounded-md border px-3 py-1.5 text-xs text-muted-foreground hover:bg-accent">
+            <RotateCcw className="size-3" aria-hidden="true" />
+            Restart
+          </button>
+        </>
+      )}
+      {phase === "done" && (
+        <button type="button" onClick={handleMix}
+          className="rounded-full bg-emerald-600 px-4 py-1.5 text-sm font-semibold text-white hover:bg-emerald-700">
+          Mix & Save
+        </button>
+      )}
+      {phase === "mixing" && (
+        <span className="text-xs text-muted-foreground animate-pulse">Mixing…</span>
+      )}
+    </>
+  );
+
   // ── Render ────────────────────────────────────────────────────────────
 
   return (
-    <div className="space-y-4">
-      {/* Restart button (shown during session) */}
-      {(phase === "in_session" || phase === "done") && (
-        <div className="flex justify-end">
-          <button type="button" onClick={restartSession}
-            className="inline-flex items-center gap-1.5 rounded-md border px-3 py-1.5 text-xs text-muted-foreground hover:bg-accent">
-            <RotateCcw className="size-3" aria-hidden="true" />
-            Restart session
-          </button>
-        </div>
-      )}
+    <>
+      {controlsContainer && createPortal(controls, controlsContainer)}
 
-      {/* Idle: show start button */}
-      {phase === "idle" && (
-        <div className="rounded-lg border border-dashed p-6 text-center">
-          <p className="mb-3 text-sm text-muted-foreground">
+      <ConfirmDialog
+        open={showRestartConfirm}
+        onOpenChange={setShowRestartConfirm}
+        title="Restart practice?"
+        description="This will clear all your recorded turns and start over."
+        confirmLabel="Restart"
+        onConfirm={restartSession}
+      />
+
+      <div className="space-y-4">
+        {/* Idle placeholder */}
+        {phase === "idle" && (
+          <p className="text-sm text-muted-foreground">
             You'll play <strong>{role}</strong>. Complete all {totalTurns} turns to create your recording.
           </p>
-          <button type="button" onClick={startSession}
-            className="rounded-full bg-primary px-6 py-2 text-sm font-medium text-primary-foreground hover:bg-primary/90">
-            Start practice
-          </button>
-        </div>
-      )}
+        )}
 
-      {/* Turn list */}
-      {phase !== "idle" && (
-        <div className="space-y-3">
-          {lesson.body.map((turn, bi) => (
-            <TurnRow
-              key={bi}
-              turnIndex={bi}
-              speaker={turn.speaker}
-              text={turn.text}
-              isUser={turn.speaker === role}
-              state={getTurnState(bi)}
-              onRecord={() => handleRecord(bi)}
-              onStopRecording={handleStopRecording}
-              onPlayback={() => handlePlayback(bi)}
-              onContinue={() => handleContinue(bi)}
-              onPlayModel={() => handlePlayModel(bi)}
-              getRmsLevel={() => rmsLevel}
-              hasBlob={turnBlobs.has(bi)}
-            />
-          ))}
-        </div>
-      )}
+        {/* Turn list */}
+        {phase !== "idle" && (
+          <div className="space-y-3">
+            {lesson.body.map((turn, bi) => (
+              <TurnRow
+                key={bi}
+                turnIndex={bi}
+                speaker={turn.speaker}
+                text={turn.text}
+                translationVi={showTranslation ? turnTranslationsVi.get(bi) : undefined}
+                isUser={turn.speaker === role}
+                state={getTurnState(bi)}
+                onRecord={() => handleRecord(bi)}
+                onStopRecording={handleStopRecording}
+                onPlayback={() => handlePlayback(bi)}
+                onContinue={() => handleContinue(bi)}
+                onPlayModel={() => handlePlayModel(bi)}
+                getRmsLevel={() => rmsLevel}
+                hasBlob={turnBlobs.has(bi)}
+              />
+            ))}
+          </div>
+        )}
 
-      {/* Done: Mix & Save */}
-      {phase === "done" && (
-        <div className="text-center pt-2">
-          {mixError && <p className="mb-2 text-sm text-destructive">{mixError}</p>}
-          <button type="button" onClick={handleMix}
-            className="rounded-full bg-emerald-600 px-8 py-2.5 text-sm font-semibold text-white shadow-md hover:bg-emerald-700">
-            Mix & Save
-          </button>
-        </div>
-      )}
+        {/* Mix error */}
+        {mixError && <p className="text-sm text-destructive">{mixError}</p>}
 
-      {/* Mixing */}
-      {phase === "mixing" && (
-        <div className="rounded-lg border p-6 text-center text-sm text-muted-foreground animate-pulse">
-          Mixing your recording…
-        </div>
-      )}
+        {/* Mixing */}
+        {phase === "mixing" && (
+          <div className="rounded-lg border p-6 text-center text-sm text-muted-foreground animate-pulse">
+            Mixing your recording…
+          </div>
+        )}
 
-      {/* Mixed: result card */}
-      {phase === "mixed" && mixedBlob && (
-        <MixResultCard
-          mp3Blob={mixedBlob}
-          durationMs={mixedDurationMs}
-          lessonTitle={lesson.title}
-          criticalThinkingQuestion={lesson.criticalThinkingQuestion}
-        />
-      )}
-    </div>
+        {/* Mixed: result card */}
+        {phase === "mixed" && mixedBlob && (
+          <MixResultCard
+            mp3Blob={mixedBlob}
+            durationMs={mixedDurationMs}
+            lessonTitle={lesson.title}
+            criticalThinkingQuestion={lesson.criticalThinkingQuestion}
+          />
+        )}
+      </div>
+    </>
   );
 }

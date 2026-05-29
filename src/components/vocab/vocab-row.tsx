@@ -25,7 +25,7 @@ export function VocabRow({
       </td>
       <td className="py-2 pr-3 align-top text-xs">
         <Link
-          href={`/reading/${entry.sourceLessonId}`}
+          href={`/${entry.sourceLessonId.startsWith("speaking-") ? "speaking" : "reading"}/${entry.sourceLessonId}`}
           className="text-muted-foreground hover:text-foreground hover:underline"
         >
           {entry.sourceLessonId}

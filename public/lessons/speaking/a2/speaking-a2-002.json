@@ -1,0 +1,394 @@
+{
+  "id": "speaking-a2-002",
+  "level": "A2",
+  "title": "Making a doctor's appointment",
+  "summary": "A patient calls a clinic to schedule a doctor's appointment.",
+  "topic": "Doctor's appointment",
+  "tags": [
+    "Health",
+    "Medical",
+    "Phone calls",
+    "Appointments"
+  ],
+  "characters": [
+    "Patient",
+    "Receptionist"
+  ],
+  "voices": {
+    "Patient": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-AriaNeural"
+    },
+    "Receptionist": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-AndrewNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Patient",
+      "text": "Hello, I'd like to make an appointment with Dr. Williams, please."
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "Of course. Is this your first visit or are you an existing patient?"
+    },
+    {
+      "speaker": "Patient",
+      "text": "I'm an existing patient. My name is Sarah Park."
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "Thank you, Ms. Park. What is the reason for your visit today?"
+    },
+    {
+      "speaker": "Patient",
+      "text": "I've had a sore throat and a mild fever for the past two days."
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "I see. Dr. Williams has an opening tomorrow at 10:30 AM. Does that work for you?"
+    },
+    {
+      "speaker": "Patient",
+      "text": "Yes, that's perfect. How long will the appointment take?"
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "It's usually about 20 to 30 minutes. Please arrive 10 minutes early to fill out a form."
+    },
+    {
+      "speaker": "Patient",
+      "text": "Sure. Should I bring my insurance card?"
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "Yes, please bring your insurance card and a photo ID."
+    },
+    {
+      "speaker": "Patient",
+      "text": "Got it. Is there a parking lot at the clinic?"
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "Yes, there is free parking behind the building. We'll see you tomorrow at 10:30, Ms. Park!"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Patient",
+      "text": "Hello, I'd like to make an appointment with Dr. Williams, please.",
+      "durationMs": 4680,
+      "translationVi": "Xin chào, tôi muốn đặt lịch khám với bác sĩ Williams."
+    },
+    {
+      "id": "s2",
+      "speaker": "Receptionist",
+      "text": "Of course.",
+      "durationMs": 1008,
+      "translationVi": "Dĩ nhiên."
+    },
+    {
+      "id": "s3",
+      "speaker": "Receptionist",
+      "text": "Is this your first visit or are you an existing patient?",
+      "durationMs": 3240,
+      "translationVi": "Đây là lần đầu bạn đến hay bạn đã là bệnh nhân cũ?"
+    },
+    {
+      "id": "s4",
+      "speaker": "Patient",
+      "text": "I'm an existing patient.",
+      "durationMs": 2376,
+      "translationVi": "Tôi là bệnh nhân cũ."
+    },
+    {
+      "id": "s5",
+      "speaker": "Patient",
+      "text": "My name is Sarah Park.",
+      "durationMs": 2400,
+      "translationVi": "Tên tôi là Sarah Park."
+    },
+    {
+      "id": "s6",
+      "speaker": "Receptionist",
+      "text": "Thank you, Ms. Park.",
+      "durationMs": 1392,
+      "translationVi": "Cảm ơn, bà Park."
+    },
+    {
+      "id": "s7",
+      "speaker": "Receptionist",
+      "text": "What is the reason for your visit today?",
+      "durationMs": 2016,
+      "translationVi": "Lý do đến khám hôm nay là gì?"
+    },
+    {
+      "id": "s8",
+      "speaker": "Patient",
+      "text": "I've had a sore throat and a mild fever for the past two days.",
+      "durationMs": 4296,
+      "translationVi": "Tôi đã bị đau họng và sốt nhẹ trong hai ngày qua."
+    },
+    {
+      "id": "s9",
+      "speaker": "Receptionist",
+      "text": "I see.",
+      "durationMs": 888,
+      "translationVi": "Tôi hiểu rồi."
+    },
+    {
+      "id": "s10",
+      "speaker": "Receptionist",
+      "text": "Dr. Williams has an opening tomorrow at 10:30 AM.",
+      "durationMs": 3696,
+      "translationVi": "Bác sĩ Williams có lịch trống vào 10:30 sáng ngày mai."
+    },
+    {
+      "id": "s11",
+      "speaker": "Receptionist",
+      "text": "Does that work for you?",
+      "durationMs": 1224,
+      "translationVi": "Thời gian đó có phù hợp không?"
+    },
+    {
+      "id": "s12",
+      "speaker": "Patient",
+      "text": "Yes, that's perfect.",
+      "durationMs": 2520,
+      "translationVi": "Vâng, hoàn hảo."
+    },
+    {
+      "id": "s13",
+      "speaker": "Patient",
+      "text": "How long will the appointment take?",
+      "durationMs": 2688,
+      "translationVi": "Cuộc hẹn kéo dài bao lâu?"
+    },
+    {
+      "id": "s14",
+      "speaker": "Receptionist",
+      "text": "It's usually about 20 to 30 minutes.",
+      "durationMs": 2544,
+      "translationVi": "Thường khoảng 20 đến 30 phút."
+    },
+    {
+      "id": "s15",
+      "speaker": "Receptionist",
+      "text": "Please arrive 10 minutes early to fill out a form.",
+      "durationMs": 3048,
+      "translationVi": "Xin đến sớm 10 phút để điền vào mẫu đơn."
+    },
+    {
+      "id": "s16",
+      "speaker": "Patient",
+      "text": "Sure.",
+      "durationMs": 1584,
+      "translationVi": "Được."
+    },
+    {
+      "id": "s17",
+      "speaker": "Patient",
+      "text": "Should I bring my insurance card?",
+      "durationMs": 2688,
+      "translationVi": "Tôi có cần mang thẻ bảo hiểm không?"
+    },
+    {
+      "id": "s18",
+      "speaker": "Receptionist",
+      "text": "Yes, please bring your insurance card and a photo ID.",
+      "durationMs": 3624,
+      "translationVi": "Vâng, hãy mang thẻ bảo hiểm và giấy tờ tùy thân có ảnh."
+    },
+    {
+      "id": "s19",
+      "speaker": "Patient",
+      "text": "Got it.",
+      "durationMs": 1560,
+      "translationVi": "Rõ rồi."
+    },
+    {
+      "id": "s20",
+      "speaker": "Patient",
+      "text": "Is there a parking lot at the clinic?",
+      "durationMs": 2832,
+      "translationVi": "Phòng khám có bãi đỗ xe không?"
+    },
+    {
+      "id": "s21",
+      "speaker": "Receptionist",
+      "text": "Yes, there is free parking behind the building.",
+      "durationMs": 2856,
+      "translationVi": "Có, có bãi đỗ xe miễn phí phía sau tòa nhà."
+    },
+    {
+      "id": "s22",
+      "speaker": "Receptionist",
+      "text": "We'll see you tomorrow at 10:30, Ms. Park!",
+      "durationMs": 3024,
+      "translationVi": "Hẹn gặp lại ngày mai lúc 10:30, bà Park!"
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "I'd like to make an appointment …"
+    },
+    {
+      "id": "h2",
+      "text": "I've had … for the past …"
+    },
+    {
+      "id": "h3",
+      "text": "Should I bring …?"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "make an appointment",
+      "meaningVi": "đặt lịch hẹn",
+      "pronunciation": "/meɪk ən əˈpɔɪnt.mənt/"
+    },
+    {
+      "id": "v2",
+      "phrase": "existing patient",
+      "meaningVi": "bệnh nhân cũ",
+      "pronunciation": "/ɪɡˈzɪs.tɪŋ ˈpeɪ.ʃənt/"
+    },
+    {
+      "id": "v3",
+      "phrase": "sore throat",
+      "meaningVi": "đau họng",
+      "pronunciation": "/sɔːr θrəʊt/"
+    },
+    {
+      "id": "v4",
+      "phrase": "mild fever",
+      "meaningVi": "sốt nhẹ",
+      "pronunciation": "/maɪld ˈfiː.vər/"
+    },
+    {
+      "id": "v5",
+      "phrase": "insurance card",
+      "meaningVi": "thẻ bảo hiểm",
+      "pronunciation": "/ɪnˈʃʊə.rəns kɑːrd/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "I've had … for the past",
+      "meaningVi": "Tôi đã bị … trong vòng (thời gian vừa qua) — dùng Present Perfect",
+      "pronunciation": "/aɪv hæd ... fər ðə pɑːst/"
+    },
+    {
+      "phrase": "fill out a form",
+      "meaningVi": "điền vào mẫu đơn",
+      "pronunciation": "/fɪl aʊt ə fɔːrm/"
+    },
+    {
+      "phrase": "photo ID",
+      "meaningVi": "giấy tờ tùy thân có ảnh",
+      "pronunciation": "/ˈfəʊ.tɒ aɪ.diː/"
+    },
+    {
+      "phrase": "make an appointment",
+      "meaningVi": "đặt lịch hẹn",
+      "pronunciation": "/meɪk ən əˈpɔɪntmənt/",
+      "exampleEn": "I'd like to make an appointment with Dr. Williams."
+    },
+    {
+      "phrase": "existing patient",
+      "meaningVi": "bệnh nhân cũ (đã từng khám)",
+      "pronunciation": "/ɪɡˈzɪstɪŋ ˈpeɪʃənt/",
+      "exampleEn": "I'm an existing patient."
+    },
+    {
+      "phrase": "reason for your visit",
+      "meaningVi": "lý do đến khám",
+      "pronunciation": "/ˈriːzən fər jər ˈvɪzɪt/",
+      "exampleEn": "What is the reason for your visit today?"
+    },
+    {
+      "phrase": "sore throat",
+      "meaningVi": "đau họng",
+      "pronunciation": "/sɔːr θroʊt/",
+      "exampleEn": "I've had a sore throat for two days."
+    },
+    {
+      "phrase": "mild fever",
+      "meaningVi": "sốt nhẹ",
+      "pronunciation": "/maɪld ˈfiːvər/",
+      "exampleEn": "She has a mild fever."
+    },
+    {
+      "phrase": "has an opening",
+      "meaningVi": "có slot trống (cho cuộc hẹn)",
+      "pronunciation": "/hæz ən ˈoʊpənɪŋ/",
+      "exampleEn": "Dr. Williams has an opening tomorrow at 10:30 AM."
+    },
+    {
+      "phrase": "Does that work for you",
+      "meaningVi": "Thời gian đó có phù hợp với bạn không?",
+      "pronunciation": "/dʌz ðæt wɜːrk fər juː/",
+      "exampleEn": "Does that work for you?"
+    },
+    {
+      "phrase": "arrive 10 minutes early",
+      "meaningVi": "đến sớm 10 phút",
+      "pronunciation": "/əˈraɪv ˈtɛn ˈmɪnɪts ˈɜːrli/",
+      "exampleEn": "Please arrive 10 minutes early."
+    },
+    {
+      "phrase": "insurance card",
+      "meaningVi": "thẻ bảo hiểm y tế",
+      "pronunciation": "/ɪnˈʃʊərəns kɑːrd/",
+      "exampleEn": "Should I bring my insurance card?"
+    },
+    {
+      "phrase": "first visit",
+      "meaningVi": "lần khám đầu tiên",
+      "pronunciation": "/fɜːrst ˈvɪzɪt/",
+      "exampleEn": "Is this your first visit?"
+    },
+    {
+      "phrase": "an opening tomorrow",
+      "meaningVi": "còn lịch trống vào ngày mai",
+      "pronunciation": "/ən ˈoʊpənɪŋ təˈmɒroʊ/",
+      "exampleEn": "Dr. Williams has an opening tomorrow at 10:30 AM."
+    },
+    {
+      "phrase": "Social Security number",
+      "meaningVi": "số An Sinh Xã Hội (Mỹ)",
+      "pronunciation": "/ˈsoʊʃəl sɪˈkjʊərɪti ˈnʌmbər/",
+      "exampleEn": "You'll need your Social Security number."
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Present Perfect for recent experiences (I've had …)",
+      "bodyVi": "Dùng 'I've had …' để nói về triệu chứng hoặc trạng thái bắt đầu trong quá khứ và vẫn còn tiếp tục đến hiện tại. Ví dụ: 'I've had a headache since this morning.'",
+      "bodyEn": "Use 'I've had …' to describe symptoms or states that started in the past and continue to now. Example: 'I've had a headache since this morning.'"
+    },
+    {
+      "title": "Does that work for you? (checking convenience)",
+      "bodyVi": "'Does that work for you?' là cách lịch sự để hỏi xem thời gian hoặc kế hoạch có phù hợp với người kia không.",
+      "bodyEn": "'Does that work for you?' is a polite way to ask if a time or arrangement suits the other person."
+    }
+  ],
+  "translationVi": "Bệnh nhân: Xin chào, tôi muốn đặt lịch khám với bác sĩ Williams. Nhân viên: Dĩ nhiên. Đây là lần đầu bạn đến hay bạn đã là bệnh nhân cũ? Bệnh nhân: Tôi là bệnh nhân cũ. Tên tôi là Sarah Park. Nhân viên: Cảm ơn, bà Park. Lý do đến khám hôm nay là gì? Bệnh nhân: Tôi đã bị đau họng và sốt nhẹ trong hai ngày qua. Nhân viên: Tôi hiểu. Bác sĩ Williams có lịch trống vào 10:30 sáng ngày mai. Thời gian đó có phù hợp không? Bệnh nhân: Có, hoàn hảo. Cuộc hẹn kéo dài bao lâu? Nhân viên: Thường khoảng 20 đến 30 phút. Xin đến sớm 10 phút để điền mẫu đơn. Bệnh nhân: Được. Tôi có cần mang thẻ bảo hiểm không? Nhân viên: Vâng, mang thẻ bảo hiểm và giấy tờ tùy thân có ảnh. Bệnh nhân: Rõ rồi. Phòng khám có bãi đỗ xe không? Nhân viên: Có, có bãi đỗ xe miễn phí phía sau tòa nhà. Hẹn gặp lại ngày mai lúc 10:30, bà Park!",
+  "criticalThinkingQuestion": "Why is it important to describe your symptoms clearly when making a doctor's appointment?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-a2-002",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 56184
+}

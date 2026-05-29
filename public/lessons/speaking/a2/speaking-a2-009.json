@@ -1,0 +1,394 @@
+{
+  "id": "speaking-a2-009",
+  "level": "A2",
+  "title": "Asking about gym membership",
+  "summary": "A person visits a gym to find out about membership options.",
+  "topic": "Gym membership",
+  "tags": [
+    "Health",
+    "Fitness",
+    "Gym",
+    "Services"
+  ],
+  "characters": [
+    "Visitor",
+    "Staff"
+  ],
+  "voices": {
+    "Visitor": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-BrianNeural"
+    },
+    "Staff": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-MichelleNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Visitor",
+      "text": "Hi, I'm interested in joining this gym. Can you tell me about your membership options?"
+    },
+    {
+      "speaker": "Staff",
+      "text": "Of course! We have three plans: a monthly plan, a three-month plan, and a yearly plan."
+    },
+    {
+      "speaker": "Visitor",
+      "text": "What's the price for the monthly plan?"
+    },
+    {
+      "speaker": "Staff",
+      "text": "The monthly plan is $45. The yearly plan works out to about $30 per month, which is a better deal."
+    },
+    {
+      "speaker": "Visitor",
+      "text": "That's a big difference. What's included in the membership?"
+    },
+    {
+      "speaker": "Staff",
+      "text": "All plans include access to the gym floor, free weights, cardio machines, and group fitness classes."
+    },
+    {
+      "speaker": "Visitor",
+      "text": "Do you have a swimming pool?"
+    },
+    {
+      "speaker": "Staff",
+      "text": "Yes, we do! The pool is available to all members and is open from 6 AM to 10 PM."
+    },
+    {
+      "speaker": "Visitor",
+      "text": "That's great. Can I try the gym before I sign up?"
+    },
+    {
+      "speaker": "Staff",
+      "text": "Absolutely. We offer a free one-day trial pass. You can come in and use all the facilities."
+    },
+    {
+      "speaker": "Visitor",
+      "text": "Perfect. I'd like to try it this week. How do I sign up for the trial?"
+    },
+    {
+      "speaker": "Staff",
+      "text": "Just give me your name and email address, and I'll set it up for you right now."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Visitor",
+      "text": "Hi, I'm interested in joining this gym.",
+      "durationMs": 2976,
+      "translationVi": "Xin chào, tôi muốn tham gia phòng gym này."
+    },
+    {
+      "id": "s2",
+      "speaker": "Visitor",
+      "text": "Can you tell me about your membership options?",
+      "durationMs": 2712,
+      "translationVi": "Bạn có thể cho tôi biết về các gói thành viên không?"
+    },
+    {
+      "id": "s3",
+      "speaker": "Staff",
+      "text": "Of course!",
+      "durationMs": 1752,
+      "translationVi": "Tất nhiên!"
+    },
+    {
+      "id": "s4",
+      "speaker": "Staff",
+      "text": "We have three plans: a monthly plan, a three-month plan, and a yearly plan.",
+      "durationMs": 5904,
+      "translationVi": "Chúng tôi có ba gói: gói hàng tháng, gói ba tháng và gói hàng năm."
+    },
+    {
+      "id": "s5",
+      "speaker": "Visitor",
+      "text": "What's the price for the monthly plan?",
+      "durationMs": 2400,
+      "translationVi": "Gói hàng tháng giá bao nhiêu?"
+    },
+    {
+      "id": "s6",
+      "speaker": "Staff",
+      "text": "The monthly plan is $45.",
+      "durationMs": 3120,
+      "translationVi": "Gói hàng tháng là 45 đô."
+    },
+    {
+      "id": "s7",
+      "speaker": "Staff",
+      "text": "The yearly plan works out to about $30 per month, which is a better deal.",
+      "durationMs": 5112,
+      "translationVi": "Gói hàng năm tính ra khoảng 30 đô mỗi tháng, tiết kiệm hơn."
+    },
+    {
+      "id": "s8",
+      "speaker": "Visitor",
+      "text": "That's a big difference.",
+      "durationMs": 1632,
+      "translationVi": "Chênh lệch nhiều đấy."
+    },
+    {
+      "id": "s9",
+      "speaker": "Visitor",
+      "text": "What's included in the membership?",
+      "durationMs": 2400,
+      "translationVi": "Gói thành viên bao gồm những gì?"
+    },
+    {
+      "id": "s10",
+      "speaker": "Staff",
+      "text": "All plans include access to the gym floor, free weights, cardio machines, and group fitness classes.",
+      "durationMs": 7344,
+      "translationVi": "Tất cả các gói đều bao gồm quyền vào khu vực tập, tạ tự do, máy cardio và các lớp thể dục nhóm."
+    },
+    {
+      "id": "s11",
+      "speaker": "Visitor",
+      "text": "Do you have a swimming pool?",
+      "durationMs": 1680,
+      "translationVi": "Phòng gym có hồ bơi không?"
+    },
+    {
+      "id": "s12",
+      "speaker": "Staff",
+      "text": "Yes, we do!",
+      "durationMs": 2256,
+      "translationVi": "Có!"
+    },
+    {
+      "id": "s13",
+      "speaker": "Staff",
+      "text": "The pool is available to all members and is open from 6 AM to 10 PM.",
+      "durationMs": 5304,
+      "translationVi": "Hồ bơi dành cho tất cả hội viên và mở cửa từ 6 giờ sáng đến 10 giờ tối."
+    },
+    {
+      "id": "s14",
+      "speaker": "Visitor",
+      "text": "That's great.",
+      "durationMs": 1080,
+      "translationVi": "Tuyệt."
+    },
+    {
+      "id": "s15",
+      "speaker": "Visitor",
+      "text": "Can I try the gym before I sign up?",
+      "durationMs": 2568,
+      "translationVi": "Tôi có thể thử trước khi đăng ký không?"
+    },
+    {
+      "id": "s16",
+      "speaker": "Staff",
+      "text": "Absolutely.",
+      "durationMs": 1848,
+      "translationVi": "Tất nhiên."
+    },
+    {
+      "id": "s17",
+      "speaker": "Staff",
+      "text": "We offer a free one-day trial pass.",
+      "durationMs": 3240,
+      "translationVi": "Chúng tôi có vé dùng thử miễn phí một ngày."
+    },
+    {
+      "id": "s18",
+      "speaker": "Staff",
+      "text": "You can come in and use all the facilities.",
+      "durationMs": 3240,
+      "translationVi": "Bạn có thể vào và sử dụng tất cả các tiện ích."
+    },
+    {
+      "id": "s19",
+      "speaker": "Visitor",
+      "text": "Perfect.",
+      "durationMs": 1008,
+      "translationVi": "Hoàn hảo."
+    },
+    {
+      "id": "s20",
+      "speaker": "Visitor",
+      "text": "I'd like to try it this week.",
+      "durationMs": 1968,
+      "translationVi": "Tôi muốn thử vào tuần này."
+    },
+    {
+      "id": "s21",
+      "speaker": "Visitor",
+      "text": "How do I sign up for the trial?",
+      "durationMs": 2136,
+      "translationVi": "Tôi đăng ký dùng thử như thế nào?"
+    },
+    {
+      "id": "s22",
+      "speaker": "Staff",
+      "text": "Just give me your name and email address, and I'll set it up for you right now.",
+      "durationMs": 4680,
+      "translationVi": "Chỉ cần cho tôi tên và địa chỉ email, tôi sẽ thiết lập ngay cho bạn."
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "I'm interested in …ing …"
+    },
+    {
+      "id": "h2",
+      "text": "What's included in …?"
+    },
+    {
+      "id": "h3",
+      "text": "Can I try … before I …?"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "membership",
+      "meaningVi": "thẻ hội viên, tư cách thành viên",
+      "pronunciation": "/ˈmem.bər.ʃɪp/"
+    },
+    {
+      "id": "v2",
+      "phrase": "cardio machines",
+      "meaningVi": "máy tập tim mạch (máy chạy bộ, đạp xe...)",
+      "pronunciation": "/ˈkɑːr.di.oʊ məˈʃiːnz/"
+    },
+    {
+      "id": "v3",
+      "phrase": "trial pass",
+      "meaningVi": "vé dùng thử",
+      "pronunciation": "/ˈtraɪ.əl pɑːs/"
+    },
+    {
+      "id": "v4",
+      "phrase": "sign up",
+      "meaningVi": "đăng ký",
+      "pronunciation": "/saɪn ʌp/"
+    },
+    {
+      "id": "v5",
+      "phrase": "works out to",
+      "meaningVi": "tính ra là, quy ra",
+      "pronunciation": "/wɜːrks aʊt tuː/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "I'm interested in",
+      "meaningVi": "Tôi quan tâm đến (bày tỏ sự quan tâm)",
+      "pronunciation": "/aɪm ˈɪn.trəs.tɪd ɪn/"
+    },
+    {
+      "phrase": "gym floor",
+      "meaningVi": "khu vực tập luyện chính của phòng gym",
+      "pronunciation": "/dʒɪm flɔːr/"
+    },
+    {
+      "phrase": "free weights",
+      "meaningVi": "tạ tự do (tạ đơn, tạ đòn)",
+      "pronunciation": "/friː weɪts/"
+    },
+    {
+      "phrase": "joining this gym",
+      "meaningVi": "gia nhập / đăng ký phòng gym này",
+      "pronunciation": "/ˈdʒɔɪnɪŋ ðɪs dʒɪm/",
+      "exampleEn": "I'm interested in joining this gym."
+    },
+    {
+      "phrase": "membership options",
+      "meaningVi": "các lựa chọn thành viên",
+      "pronunciation": "/ˈmembərʃɪp ˈɒpʃənz/",
+      "exampleEn": "Can you tell me about your membership options?"
+    },
+    {
+      "phrase": "monthly plan",
+      "meaningVi": "gói tháng",
+      "pronunciation": "/ˈmʌnθli plæn/",
+      "exampleEn": "What's the price for the monthly plan?"
+    },
+    {
+      "phrase": "yearly plan",
+      "meaningVi": "gói năm",
+      "pronunciation": "/ˈjɪərli plæn/",
+      "exampleEn": "The yearly plan works out to about $30 per month."
+    },
+    {
+      "phrase": "works out to",
+      "meaningVi": "tính ra bằng / quy ra",
+      "pronunciation": "/wɜːrks aʊt tuː/",
+      "exampleEn": "The yearly plan works out to about $30 per month."
+    },
+    {
+      "phrase": "cardio machines",
+      "meaningVi": "máy tập tim mạch (máy chạy bộ, xe đạp…)",
+      "pronunciation": "/ˈkɑːrdioʊ məˈʃiːnz/",
+      "exampleEn": "All plans include access to cardio machines."
+    },
+    {
+      "phrase": "group fitness classes",
+      "meaningVi": "lớp tập thể dục nhóm",
+      "pronunciation": "/ɡruːp ˈfɪtnəs ˈklæsɪz/",
+      "exampleEn": "Membership includes group fitness classes."
+    },
+    {
+      "phrase": "swimming pool",
+      "meaningVi": "hồ bơi",
+      "pronunciation": "/ˈswɪmɪŋ puːl/",
+      "exampleEn": "Do you have a swimming pool?"
+    },
+    {
+      "phrase": "a better deal",
+      "meaningVi": "ưu đãi tốt hơn / rẻ hơn",
+      "pronunciation": "/ə ˈbetər diːl/",
+      "exampleEn": "The yearly plan is a better deal."
+    },
+    {
+      "phrase": "three-month plan",
+      "meaningVi": "gói ba tháng",
+      "pronunciation": "/θriː mʌnθ plæn/",
+      "exampleEn": "We have a three-month plan as well."
+    },
+    {
+      "phrase": "That's a big difference",
+      "meaningVi": "Đó là sự chênh lệch lớn",
+      "pronunciation": "/ðæts ə bɪɡ ˈdɪfrəns/",
+      "exampleEn": "That's a big difference in price."
+    },
+    {
+      "phrase": "access to the gym floor",
+      "meaningVi": "quyền vào khu tập chính",
+      "pronunciation": "/ˈækses tə ðə dʒɪm flɔːr/",
+      "exampleEn": "All plans include access to the gym floor."
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "I'm interested in + V-ing (expressing interest)",
+      "bodyVi": "Sau 'interested in', ta dùng danh động từ (V-ing), không dùng to + V. Ví dụ: 'I'm interested in joining' (ĐÚNG) — không phải 'interested in to join'.",
+      "bodyEn": "After 'interested in', use a gerund (V-ing), not 'to + verb'. Example: 'I'm interested in joining' (CORRECT) — not 'interested in to join'."
+    },
+    {
+      "title": "works out to (calculating value)",
+      "bodyVi": "'Works out to' có nghĩa là 'tính ra là' hoặc 'bằng' khi nói về con số hoặc kết quả tính toán. Ví dụ: 'That works out to $30 per month.'",
+      "bodyEn": "'Works out to' means 'amounts to' or 'equals' when talking about figures or calculations. Example: 'That works out to $30 per month.'"
+    }
+  ],
+  "translationVi": "Khách thăm: Xin chào, tôi muốn tham gia phòng gym này. Bạn có thể cho tôi biết về các gói thành viên không? Nhân viên: Tất nhiên! Chúng tôi có ba gói: gói hàng tháng, gói ba tháng và gói hàng năm. Khách thăm: Gói hàng tháng giá bao nhiêu? Nhân viên: Gói hàng tháng là 45 đô. Gói hàng năm tính ra khoảng 30 đô mỗi tháng, tiết kiệm hơn. Khách thăm: Chênh lệch nhiều đấy. Gói thành viên bao gồm những gì? Nhân viên: Tất cả các gói đều bao gồm quyền vào khu vực tập, tạ tự do, máy cardio và các lớp thể dục nhóm. Khách thăm: Phòng gym có hồ bơi không? Nhân viên: Có! Hồ bơi dành cho tất cả hội viên và mở cửa từ 6 giờ sáng đến 10 giờ tối. Khách thăm: Tuyệt. Tôi có thể thử trước khi đăng ký không? Nhân viên: Tất nhiên. Chúng tôi có vé dùng thử miễn phí một ngày. Bạn có thể vào và sử dụng tất cả các tiện ích. Khách thăm: Hoàn hảo. Tôi muốn thử vào tuần này. Tôi đăng ký dùng thử như thế nào? Nhân viên: Chỉ cần cho tôi tên và địa chỉ email, tôi sẽ thiết lập ngay cho bạn.",
+  "criticalThinkingQuestion": "What factors should you consider when choosing between a cheap monthly gym plan and a more expensive yearly plan?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-a2-009",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 66360
+}

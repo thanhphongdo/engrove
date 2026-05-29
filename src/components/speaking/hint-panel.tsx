@@ -1,10 +1,75 @@
 "use client";
 
-import { Play } from "lucide-react";
-import type { SpeakingLesson } from "@/lib/lessons/speaking-schema";
+import { useState } from "react";
+import { Check, Play, Plus } from "lucide-react";
+import { toast } from "sonner";
+import { useSaveVocab } from "@/lib/db/use-vocab";
+import type { HintVocab, SpeakingLesson } from "@/lib/lessons/speaking-schema";
 
 function playAudio(url: string) {
   new Audio(url).play().catch(console.error);
+}
+
+type VocabItemProps = { v: HintVocab; lessonId: string; cdnBase: string };
+
+function VocabItem({ v, lessonId, cdnBase }: VocabItemProps) {
+  const saveVocab = useSaveVocab();
+  const [saveState, setSaveState] = useState<"idle" | "saved" | "duplicate">("idle");
+
+  async function handleSave() {
+    const result = await saveVocab({
+      phrase: v.phrase,
+      meaningVi: v.meaningVi,
+      pronunciation: v.pronunciation,
+      sourceLessonId: lessonId,
+    });
+    if (result.saved) {
+      setSaveState("saved");
+      toast.success(`"${v.phrase}" added to vocab`);
+    } else {
+      setSaveState("duplicate");
+      toast.info("Already in your vocab");
+    }
+  }
+
+  return (
+    <li className="rounded-md border bg-card p-2 text-sm">
+      <div className="flex items-center justify-between gap-2">
+        <span className="font-medium">{v.phrase}</span>
+        <div className="flex items-center gap-1">
+          {saveState === "idle" ? (
+            <div className="group relative">
+              <button
+                type="button"
+                onClick={handleSave}
+                className="inline-flex items-center justify-center rounded-full p-1 text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
+              >
+                <Plus className="size-3" aria-hidden="true" />
+              </button>
+              <span className="pointer-events-none absolute right-full top-1/2 mr-1.5 -translate-y-1/2 whitespace-nowrap rounded-full bg-accent px-2 py-0.5 text-xs opacity-0 transition-opacity group-hover:opacity-100">
+                Save to vocab
+              </span>
+            </div>
+          ) : (
+            <span className="inline-flex items-center gap-1 text-xs text-muted-foreground">
+              <Check className="size-3 text-green-600" aria-hidden="true" />
+              {saveState === "saved" ? "Saved" : "Already in vocab"}
+            </span>
+          )}
+          <button
+            type="button"
+            aria-label={`Play ${v.phrase}`}
+            onClick={() => playAudio(`${cdnBase}/vocab/${v.id}.mp3`)}
+            className="shrink-0 rounded-full p-1 transition-colors hover:bg-accent"
+          >
+            <Play className="size-3 fill-current" aria-hidden="true" />
+          </button>
+        </div>
+      </div>
+      {v.pronunciation && <p className="mt-0.5 text-xs text-muted-foreground">{v.pronunciation}</p>}
+      <p className="mt-0.5 text-xs text-muted-foreground">{v.meaningVi}</p>
+    </li>
+  );
 }
 
 type Props = { lesson: SpeakingLesson };
@@ -18,21 +83,7 @@ export function HintPanel({ lesson }: Props) {
           <h3 className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">Vocabulary</h3>
           <ul className="space-y-2">
             {lesson.hintVocab.map((v) => (
-              <li key={v.id} className="rounded-md border bg-card p-2 text-sm">
-                <div className="flex items-center justify-between gap-2">
-                  <span className="font-medium">{v.phrase}</span>
-                  <button
-                    type="button"
-                    aria-label={`Play ${v.phrase}`}
-                    onClick={() => playAudio(`${lesson.audio.cdnBase}/vocab/${v.id}.mp3`)}
-                    className="shrink-0 rounded-full p-1 transition-colors hover:bg-accent"
-                  >
-                    <Play className="size-3 fill-current" aria-hidden="true" />
-                  </button>
-                </div>
-                {v.pronunciation && <p className="mt-0.5 text-xs text-muted-foreground">{v.pronunciation}</p>}
-                <p className="mt-0.5 text-xs text-muted-foreground">{v.meaningVi}</p>
-              </li>
+              <VocabItem key={v.id} v={v} lessonId={lesson.id} cdnBase={lesson.audio.cdnBase} />
             ))}
           </ul>
         </section>

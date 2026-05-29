@@ -49,6 +49,7 @@
   --radius-2xl: calc(var(--radius) * 1.8);
   --radius-3xl: calc(var(--radius) * 2.2);
   --radius-4xl: calc(var(--radius) * 2.6);
+  --animate-audio-bar: audio-bar 0.7s ease-in-out infinite;
   --color-level-a1: var(--level-a1);
   --color-level-a1-foreground: var(--level-a1-foreground);
   --color-level-a2: var(--level-a2);
@@ -59,6 +60,11 @@
   --color-level-b2-foreground: var(--level-b2-foreground);
   --color-level-c1: var(--level-c1);
   --color-level-c1-foreground: var(--level-c1-foreground);
+}
+
+@keyframes audio-bar {
+  0%, 100% { height: 0.25rem; }
+  50% { height: 1rem; }
 }
 
 :root {

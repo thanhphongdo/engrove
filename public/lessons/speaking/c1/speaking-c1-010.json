@@ -1,0 +1,721 @@
+{
+  "id": "speaking-c1-010",
+  "level": "C1",
+  "title": "Negotiating a Complex Business Contract",
+  "summary": "Two senior executives negotiate the key terms of a strategic partnership agreement, including revenue sharing, IP ownership, exclusivity provisions, and termination rights.",
+  "topic": "Business Negotiation",
+  "tags": [
+    "Business",
+    "Negotiation",
+    "Contracts",
+    "Professional"
+  ],
+  "characters": [
+    "Victoria",
+    "Adam"
+  ],
+  "voices": {
+    "Victoria": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-AvaNeural"
+    },
+    "Adam": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-EricNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Victoria",
+      "text": "Adam, I appreciate you making the trip. I'd like to use this session to work through the remaining open items in the term sheet — specifically the revenue share structure, the IP allocation clause, the exclusivity period, and the termination provisions. My preference is to reach a conceptual agreement today, with legal drafting to follow."
+    },
+    {
+      "speaker": "Adam",
+      "text": "That works for us. I'll flag upfront that we've had internal alignment on most of these points, but the IP clause is still sensitive — our board views the jointly-developed technology as potentially transformative, and they're not prepared to enter a structure that leaves us without a credible commercialisation pathway in the event the partnership dissolves."
+    },
+    {
+      "speaker": "Victoria",
+      "text": "I understand the concern, and I want to address it directly. Our position on IP has never been to seek full ownership of jointly-developed assets — we recognise that's commercially unreasonable. What we've been pushing for is a joint ownership structure with a right of first refusal on commercialisation, paired with a perpetual licence to use the technology within our core business verticals."
+    },
+    {
+      "speaker": "Adam",
+      "text": "The right of first refusal mechanism is workable in principle, but the devil is in the valuation methodology. If your right of first refusal is exercisable at a price set by your own appraisal, that effectively gives you a veto on third-party commercialisation without paying fair market value. We'd need an independent valuation process with agreed parameters."
+    },
+    {
+      "speaker": "Victoria",
+      "text": "Agreed — independent valuation is entirely reasonable. We'd propose a process where, if we can't reach agreement within thirty days of triggering the right of first refusal, the parties appoint a mutually agreed independent appraiser, and if they can't agree on the appraiser within a further fifteen days, each party nominates one and the two nominees jointly select a third."
+    },
+    {
+      "speaker": "Adam",
+      "text": "That's a sensible mechanism. The thirty-day window may be tight given the complexity of the assets involved — I'd suggest forty-five days at first instance. The rest of the process as you've described it is acceptable to us."
+    },
+    {
+      "speaker": "Victoria",
+      "text": "Forty-five days works. Now, on revenue sharing — your current proposal has us receiving thirty percent of gross revenues from any commercialised application of the jointly-developed technology. We've analysed that model carefully, and our view is that it doesn't adequately reflect our contribution to the commercial infrastructure, including distribution, go-to-market investment, and customer relationships."
+    },
+    {
+      "speaker": "Adam",
+      "text": "We hear that, and we're not wedded to the gross revenue model if you have a constructive alternative. Our core concern is that any net revenue or profit-based model becomes susceptible to allocation of overhead costs in ways that can effectively hollow out the royalty stream. We've been burned by that in previous partnership structures."
+    },
+    {
+      "speaker": "Victoria",
+      "text": "That's a legitimate concern, and it's one we can address through an agreed cost allocation methodology with audit rights. What if we moved to a net revenue model — defined as gross revenue less clearly enumerated direct costs, with no allocation of general overhead unless specifically pre-approved — and set the revenue share at forty percent net rather than thirty percent gross?"
+    },
+    {
+      "speaker": "Adam",
+      "text": "Forty percent of clearly defined net revenue is potentially more attractive than thirty percent of gross, depending on the margin structure. I'd want our finance teams to model that against the current projections before we commit. Can we flag that as a provisional agreement subject to financial modelling, with a deadline of one week for confirmation?"
+    },
+    {
+      "speaker": "Victoria",
+      "text": "That's fine. Moving to exclusivity — your proposal seeks a five-year exclusive window across all potential application sectors. That's considerably broader than what we think is commercially justified. Our current view is that exclusivity should be sector-limited, applying only to the primary use case for which the technology was jointly developed."
+    },
+    {
+      "speaker": "Adam",
+      "text": "We anticipated that pushback. The rationale for cross-sector exclusivity is that we're taking on significant development risk and market-entry costs, and we need protection against the scenario where the technology is licensed to a competitor in an adjacent sector who then uses it to undercut us in our primary market."
+    },
+    {
+      "speaker": "Victoria",
+      "text": "That's a genuine risk, and I don't dismiss it. But a blanket five-year cross-sector exclusivity effectively forecloses a significant portion of our strategic optionality for an extended period. What if we tiered the exclusivity: full exclusivity in the primary sector for five years, and a narrower restriction in adjacent sectors — say, a non-compete rather than a full exclusivity — for three years, with a right to negotiate commercial terms on a most-favoured-nation basis thereafter?"
+    },
+    {
+      "speaker": "Adam",
+      "text": "The tiered approach is creative and closer to something we could accept. I'd want to tighten the definition of 'adjacent sectors' — that phrase can be interpreted very broadly, and we'd need a positive list of what's in scope rather than leaving it to future interpretation."
+    },
+    {
+      "speaker": "Victoria",
+      "text": "A positive list is entirely manageable. We can agree the list as a schedule to the agreement, with a mechanism for parties to jointly add or remove sectors by mutual agreement during the term. That gives flexibility without leaving the question open-ended."
+    },
+    {
+      "speaker": "Adam",
+      "text": "That works. On termination — the current draft has a mutual termination right for material breach, with a sixty-day cure period. We'd like to add a convenience termination right on eighteen months' notice, primarily to protect against the scenario where the strategic landscape shifts materially and the partnership is no longer commercially rational for either party."
+    },
+    {
+      "speaker": "Victoria",
+      "text": "I have significant reservations about a convenience termination right, particularly at eighteen months' notice. Given the development investment we're both making, an early exit right creates an asymmetry of commitment that could affect how we each resource and prioritise the partnership from day one."
+    },
+    {
+      "speaker": "Adam",
+      "text": "I understand the concern, but I'd frame it differently: the convenience termination right is actually a commitment device rather than an exit door. Parties are more willing to invest ambitiously when they know they're not locked into an arrangement indefinitely. The alternative — an open-ended partnership with no exit mechanism — is precisely what creates underinvestment risk in practice."
+    },
+    {
+      "speaker": "Victoria",
+      "text": "That's an interesting way to reframe it, and there's something to the argument. I'd be willing to consider a convenience termination right but with a longer notice period — twenty-four months — and subject to a financial settlement mechanism that compensates the non-terminating party for unrecovered development costs as of the notice date."
+    },
+    {
+      "speaker": "Adam",
+      "text": "Twenty-four months with a cost recovery settlement is workable, provided the methodology for calculating unrecovered costs is defined in advance and doesn't become a litigation trigger in its own right. Let me propose that we task our legal teams to draft the settlement mechanism in parallel with the rest of the agreement, with a target to align on parameters by the end of next week."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Victoria",
+      "text": "Adam, I appreciate you making the trip.",
+      "durationMs": 2688,
+      "translationVi": "Adam, tôi đánh giá cao việc anh đã đến."
+    },
+    {
+      "id": "s2",
+      "speaker": "Victoria",
+      "text": "I'd like to use this session to work through the remaining open items in the term sheet — specifically the revenue share structure, the IP allocation clause, the exclusivity period, and the termination provisions.",
+      "durationMs": 12504,
+      "translationVi": "Tôi muốn sử dụng buổi này để xem xét các điểm còn mở trong bản tóm tắt điều khoản — cụ thể là cấu trúc chia sẻ doanh thu, điều khoản phân bổ IP, thời gian độc quyền và các điều khoản chấm dứt."
+    },
+    {
+      "id": "s3",
+      "speaker": "Victoria",
+      "text": "My preference is to reach a conceptual agreement today, with legal drafting to follow.",
+      "durationMs": 5208,
+      "translationVi": "Tôi muốn đạt được thỏa thuận khái niệm ngày hôm nay, với việc soạn thảo pháp lý tiếp theo sau."
+    },
+    {
+      "id": "s4",
+      "speaker": "Adam",
+      "text": "That works for us.",
+      "durationMs": 2136,
+      "translationVi": "Điều đó phù hợp với chúng tôi."
+    },
+    {
+      "id": "s5",
+      "speaker": "Adam",
+      "text": "I'll flag upfront that we've had internal alignment on most of these points, but the IP clause is still sensitive — our board views the jointly-developed technology as potentially transformative, and they're not prepared to enter a structure that leaves us without a credible commercialisation pathway in the event the partnership dissolves.",
+      "durationMs": 18096,
+      "translationVi": "Tôi sẽ báo trước rằng chúng tôi đã có sự thống nhất nội bộ về hầu hết các điểm này, nhưng điều khoản IP vẫn còn nhạy cảm — hội đồng của chúng tôi coi công nghệ được phát triển chung là có tiềm năng chuyển đổi, và họ không sẵn lòng tham gia vào một cấu trúc để lại cho chúng tôi mà không có con đường thương mại hóa đáng tin cậy trong trường hợp quan hệ đối tác tan rã."
+    },
+    {
+      "id": "s6",
+      "speaker": "Victoria",
+      "text": "I understand the concern, and I want to address it directly.",
+      "durationMs": 3672,
+      "translationVi": "Tôi hiểu mối lo ngại, và tôi muốn giải quyết trực tiếp."
+    },
+    {
+      "id": "s7",
+      "speaker": "Victoria",
+      "text": "Our position on IP has never been to seek full ownership of jointly-developed assets — we recognise that's commercially unreasonable.",
+      "durationMs": 8616,
+      "translationVi": "Lập trường của chúng tôi về IP chưa bao giờ là tìm kiếm quyền sở hữu đầy đủ đối với các tài sản được phát triển chung — chúng tôi nhận ra điều đó không hợp lý về mặt thương mại."
+    },
+    {
+      "id": "s8",
+      "speaker": "Victoria",
+      "text": "What we've been pushing for is a joint ownership structure with a right of first refusal on commercialisation, paired with a perpetual licence to use the technology within our core business verticals.",
+      "durationMs": 10824,
+      "translationVi": "Những gì chúng tôi đã thúc đẩy là cấu trúc sở hữu chung với quyền ưu tiên mua lại trong thương mại hóa, kết hợp với giấy phép vĩnh viễn để sử dụng công nghệ trong các lĩnh vực kinh doanh cốt lõi của chúng tôi."
+    },
+    {
+      "id": "s9",
+      "speaker": "Adam",
+      "text": "The right of first refusal mechanism is workable in principle, but the devil is in the valuation methodology.",
+      "durationMs": 7056,
+      "translationVi": "Cơ chế quyền ưu tiên mua lại có thể thực hiện được về nguyên tắc, nhưng chi tiết nằm ở phương pháp định giá."
+    },
+    {
+      "id": "s10",
+      "speaker": "Adam",
+      "text": "If your right of first refusal is exercisable at a price set by your own appraisal, that effectively gives you a veto on third-party commercialisation without paying fair market value.",
+      "durationMs": 10920,
+      "translationVi": "Nếu quyền ưu tiên mua lại của bạn có thể thực thi ở mức giá do chính bạn định giá, điều đó thực sự cho bạn quyền phủ quyết đối với thương mại hóa bên thứ ba mà không phải trả giá trị thị trường hợp lý."
+    },
+    {
+      "id": "s11",
+      "speaker": "Adam",
+      "text": "We'd need an independent valuation process with agreed parameters.",
+      "durationMs": 4728,
+      "translationVi": "Chúng tôi sẽ cần một quy trình định giá độc lập với các tham số đã được thống nhất."
+    },
+    {
+      "id": "s12",
+      "speaker": "Victoria",
+      "text": "Agreed — independent valuation is entirely reasonable.",
+      "durationMs": 4176,
+      "translationVi": "Đồng ý — định giá độc lập là hoàn toàn hợp lý."
+    },
+    {
+      "id": "s13",
+      "speaker": "Victoria",
+      "text": "We'd propose a process where, if we can't reach agreement within thirty days of triggering the right of first refusal, the parties appoint a mutually agreed independent appraiser, and if they can't agree on the appraiser within a further fifteen days, each party nominates one and the two nominees jointly select a third.",
+      "durationMs": 18312,
+      "translationVi": "Chúng tôi sẽ đề xuất một quy trình trong đó, nếu chúng tôi không thể đạt được thỏa thuận trong vòng ba mươi ngày kể từ khi kích hoạt quyền ưu tiên mua lại, các bên bổ nhiệm một người định giá độc lập được thỏa thuận chung, và nếu họ không thể đồng ý về người định giá trong mười lăm ngày tiếp theo, mỗi bên đề cử một người và hai người được đề cử cùng nhau chọn người thứ ba."
+    },
+    {
+      "id": "s14",
+      "speaker": "Adam",
+      "text": "That's a sensible mechanism.",
+      "durationMs": 2544,
+      "translationVi": "Đó là một cơ chế hợp lý."
+    },
+    {
+      "id": "s15",
+      "speaker": "Adam",
+      "text": "The thirty-day window may be tight given the complexity of the assets involved — I'd suggest forty-five days at first instance.",
+      "durationMs": 8064,
+      "translationVi": "Cửa sổ ba mươi ngày có thể chật hẹp do tính phức tạp của các tài sản liên quan — tôi sẽ đề xuất bốn mươi lăm ngày trong trường hợp đầu tiên."
+    },
+    {
+      "id": "s16",
+      "speaker": "Adam",
+      "text": "The rest of the process as you've described it is acceptable to us.",
+      "durationMs": 4464,
+      "translationVi": "Phần còn lại của quy trình theo mô tả của bạn có thể chấp nhận được với chúng tôi."
+    },
+    {
+      "id": "s17",
+      "speaker": "Victoria",
+      "text": "Forty-five days works.",
+      "durationMs": 1896,
+      "translationVi": "Bốn mươi lăm ngày được."
+    },
+    {
+      "id": "s18",
+      "speaker": "Victoria",
+      "text": "Now, on revenue sharing — your current proposal has us receiving thirty percent of gross revenues from any commercialised application of the jointly-developed technology.",
+      "durationMs": 10344,
+      "translationVi": "Bây giờ, về chia sẻ doanh thu — đề xuất hiện tại của anh cho chúng tôi nhận được ba mươi phần trăm tổng doanh thu từ bất kỳ ứng dụng thương mại hóa nào của công nghệ được phát triển chung."
+    },
+    {
+      "id": "s19",
+      "speaker": "Victoria",
+      "text": "We've analysed that model carefully, and our view is that it doesn't adequately reflect our contribution to the commercial infrastructure, including distribution, go-to-market investment, and customer relationships.",
+      "durationMs": 13008,
+      "translationVi": "Chúng tôi đã phân tích mô hình đó cẩn thận, và quan điểm của chúng tôi là nó không phản ánh đầy đủ sự đóng góp của chúng tôi vào cơ sở hạ tầng thương mại, bao gồm phân phối, đầu tư đưa ra thị trường và mối quan hệ khách hàng."
+    },
+    {
+      "id": "s20",
+      "speaker": "Adam",
+      "text": "We hear that, and we're not wedded to the gross revenue model if you have a constructive alternative.",
+      "durationMs": 6000,
+      "translationVi": "Chúng tôi hiểu điều đó, và chúng tôi không gắn bó với mô hình tổng doanh thu nếu bạn có một giải pháp thay thế mang tính xây dựng."
+    },
+    {
+      "id": "s21",
+      "speaker": "Adam",
+      "text": "Our core concern is that any net revenue or profit-based model becomes susceptible to allocation of overhead costs in ways that can effectively hollow out the royalty stream.",
+      "durationMs": 10344,
+      "translationVi": "Mối lo ngại cốt lõi của chúng tôi là bất kỳ mô hình doanh thu ròng hoặc dựa trên lợi nhuận nào cũng dễ bị phân bổ chi phí chung theo những cách có thể làm rỗng dòng tiền bản quyền."
+    },
+    {
+      "id": "s22",
+      "speaker": "Adam",
+      "text": "We've been burned by that in previous partnership structures.",
+      "durationMs": 4080,
+      "translationVi": "Chúng tôi đã bị thiệt hại bởi điều đó trong các cấu trúc quan hệ đối tác trước đây."
+    },
+    {
+      "id": "s23",
+      "speaker": "Victoria",
+      "text": "That's a legitimate concern, and it's one we can address through an agreed cost allocation methodology with audit rights.",
+      "durationMs": 7536,
+      "translationVi": "Đó là một mối lo ngại chính đáng, và là điều chúng ta có thể giải quyết thông qua phương pháp phân bổ chi phí đã thống nhất với quyền kiểm toán."
+    },
+    {
+      "id": "s24",
+      "speaker": "Victoria",
+      "text": "What if we moved to a net revenue model — defined as gross revenue less clearly enumerated direct costs, with no allocation of general overhead unless specifically pre-approved — and set the revenue share at forty percent net rather than thirty percent gross?",
+      "durationMs": 16344,
+      "translationVi": "Điều gì nếu chúng ta chuyển sang mô hình doanh thu ròng — được định nghĩa là tổng doanh thu trừ đi các chi phí trực tiếp được liệt kê rõ ràng, không phân bổ chi phí chung trừ khi được phê duyệt trước cụ thể — và đặt tỷ lệ chia sẻ doanh thu ở mức bốn mươi phần trăm ròng thay vì ba mươi phần trăm tổng?"
+    },
+    {
+      "id": "s25",
+      "speaker": "Adam",
+      "text": "Forty percent of clearly defined net revenue is potentially more attractive than thirty percent of gross, depending on the margin structure.",
+      "durationMs": 8448,
+      "translationVi": "Bốn mươi phần trăm doanh thu ròng được xác định rõ ràng có thể hấp dẫn hơn ba mươi phần trăm tổng, tùy thuộc vào cấu trúc biên lợi nhuận."
+    },
+    {
+      "id": "s26",
+      "speaker": "Adam",
+      "text": "I'd want our finance teams to model that against the current projections before we commit.",
+      "durationMs": 5304,
+      "translationVi": "Tôi muốn các nhóm tài chính của chúng tôi mô hình hóa điều đó dựa trên các dự báo hiện tại trước khi chúng ta cam kết."
+    },
+    {
+      "id": "s27",
+      "speaker": "Adam",
+      "text": "Can we flag that as a provisional agreement subject to financial modelling, with a deadline of one week for confirmation?",
+      "durationMs": 7176,
+      "translationVi": "Chúng ta có thể đánh dấu điều đó như là thỏa thuận tạm thời tùy thuộc vào mô hình tài chính, với thời hạn một tuần để xác nhận không?"
+    },
+    {
+      "id": "s28",
+      "speaker": "Victoria",
+      "text": "That's fine.",
+      "durationMs": 1296,
+      "translationVi": "Được rồi."
+    },
+    {
+      "id": "s29",
+      "speaker": "Victoria",
+      "text": "Moving to exclusivity — your proposal seeks a five-year exclusive window across all potential application sectors.",
+      "durationMs": 7128,
+      "translationVi": "Chuyển sang độc quyền — đề xuất của anh tìm kiếm cửa sổ độc quyền năm năm trên tất cả các lĩnh vực ứng dụng tiềm năng."
+    },
+    {
+      "id": "s30",
+      "speaker": "Victoria",
+      "text": "That's considerably broader than what we think is commercially justified.",
+      "durationMs": 4320,
+      "translationVi": "Điều đó rộng hơn đáng kể so với những gì chúng tôi nghĩ là có lý do thương mại."
+    },
+    {
+      "id": "s31",
+      "speaker": "Victoria",
+      "text": "Our current view is that exclusivity should be sector-limited, applying only to the primary use case for which the technology was jointly developed.",
+      "durationMs": 9240,
+      "translationVi": "Quan điểm hiện tại của chúng tôi là độc quyền nên được giới hạn theo lĩnh vực, chỉ áp dụng cho trường hợp sử dụng chính mà công nghệ được phát triển chung."
+    },
+    {
+      "id": "s32",
+      "speaker": "Adam",
+      "text": "We anticipated that pushback.",
+      "durationMs": 2856,
+      "translationVi": "Chúng tôi đã lường trước phản hồi đó."
+    },
+    {
+      "id": "s33",
+      "speaker": "Adam",
+      "text": "The rationale for cross-sector exclusivity is that we're taking on significant development risk and market-entry costs, and we need protection against the scenario where the technology is licensed to a competitor in an adjacent sector who then uses it to undercut us in our primary market.",
+      "durationMs": 15768,
+      "translationVi": "Lý do cho độc quyền liên lĩnh vực là chúng tôi đang chịu rủi ro phát triển đáng kể và chi phí gia nhập thị trường, và chúng tôi cần sự bảo vệ trước kịch bản công nghệ được cấp phép cho đối thủ trong lĩnh vực liền kề, người sau đó sử dụng nó để làm giảm giá của chúng tôi trong thị trường chính."
+    },
+    {
+      "id": "s34",
+      "speaker": "Victoria",
+      "text": "That's a genuine risk, and I don't dismiss it.",
+      "durationMs": 3120,
+      "translationVi": "Đó là một rủi ro thực sự, và tôi không bác bỏ nó."
+    },
+    {
+      "id": "s35",
+      "speaker": "Victoria",
+      "text": "But a blanket five-year cross-sector exclusivity effectively forecloses a significant portion of our strategic optionality for an extended period.",
+      "durationMs": 9096,
+      "translationVi": "Nhưng độc quyền liên lĩnh vực toàn diện năm năm thực sự đóng cửa một phần đáng kể tính linh hoạt chiến lược của chúng tôi trong một thời gian kéo dài."
+    },
+    {
+      "id": "s36",
+      "speaker": "Victoria",
+      "text": "What if we tiered the exclusivity: full exclusivity in the primary sector for five years, and a narrower restriction in adjacent sectors — say, a non-compete rather than a full exclusivity — for three years, with a right to negotiate commercial terms on a most-favoured-nation basis thereafter?",
+      "durationMs": 18576,
+      "translationVi": "Điều gì nếu chúng ta phân cấp độc quyền: độc quyền đầy đủ trong lĩnh vực chính trong năm năm, và hạn chế hẹp hơn trong các lĩnh vực liền kề — chẳng hạn, điều khoản không cạnh tranh thay vì độc quyền đầy đủ — trong ba năm, với quyền đàm phán các điều khoản thương mại trên cơ sở đối xử tối huệ quốc sau đó?"
+    },
+    {
+      "id": "s37",
+      "speaker": "Adam",
+      "text": "The tiered approach is creative and closer to something we could accept.",
+      "durationMs": 4488,
+      "translationVi": "Cách tiếp cận phân cấp rất sáng tạo và gần với điều chúng tôi có thể chấp nhận."
+    },
+    {
+      "id": "s38",
+      "speaker": "Adam",
+      "text": "I'd want to tighten the definition of 'adjacent sectors' — that phrase can be interpreted very broadly, and we'd need a positive list of what's in scope rather than leaving it to future interpretation.",
+      "durationMs": 11328,
+      "translationVi": "Tôi muốn làm chặt chẽ hơn định nghĩa 'các lĩnh vực liền kề' — cụm từ đó có thể được hiểu rất rộng, và chúng tôi cần một danh sách tích cực về những gì trong phạm vi thay vì để ngỏ cho việc giải thích trong tương lai."
+    },
+    {
+      "id": "s39",
+      "speaker": "Victoria",
+      "text": "A positive list is entirely manageable.",
+      "durationMs": 2856,
+      "translationVi": "Một danh sách tích cực hoàn toàn có thể quản lý được."
+    },
+    {
+      "id": "s40",
+      "speaker": "Victoria",
+      "text": "We can agree the list as a schedule to the agreement, with a mechanism for parties to jointly add or remove sectors by mutual agreement during the term.",
+      "durationMs": 8952,
+      "translationVi": "Chúng ta có thể đồng ý danh sách như một lịch trình của thỏa thuận, với cơ chế cho các bên cùng nhau thêm hoặc xóa các lĩnh vực theo thỏa thuận chung trong thời hạn."
+    },
+    {
+      "id": "s41",
+      "speaker": "Victoria",
+      "text": "That gives flexibility without leaving the question open-ended.",
+      "durationMs": 3888,
+      "translationVi": "Điều đó mang lại sự linh hoạt mà không để câu hỏi mở."
+    },
+    {
+      "id": "s42",
+      "speaker": "Adam",
+      "text": "That works.",
+      "durationMs": 1824,
+      "translationVi": "Điều đó ổn."
+    },
+    {
+      "id": "s43",
+      "speaker": "Adam",
+      "text": "On termination — the current draft has a mutual termination right for material breach, with a sixty-day cure period.",
+      "durationMs": 7968,
+      "translationVi": "Về chấm dứt — bản thảo hiện tại có quyền chấm dứt chung về vi phạm nghiêm trọng, với thời gian khắc phục sáu mươi ngày."
+    },
+    {
+      "id": "s44",
+      "speaker": "Adam",
+      "text": "We'd like to add a convenience termination right on eighteen months' notice, primarily to protect against the scenario where the strategic landscape shifts materially and the partnership is no longer commercially rational for either party.",
+      "durationMs": 13008,
+      "translationVi": "Chúng tôi muốn thêm quyền chấm dứt theo ý muốn sau mười tám tháng thông báo, chủ yếu để bảo vệ trước kịch bản bức tranh chiến lược thay đổi đáng kể và quan hệ đối tác không còn hợp lý về mặt thương mại cho cả hai bên."
+    },
+    {
+      "id": "s45",
+      "speaker": "Victoria",
+      "text": "I have significant reservations about a convenience termination right, particularly at eighteen months' notice.",
+      "durationMs": 6888,
+      "translationVi": "Tôi có những dè dặt đáng kể về quyền chấm dứt theo ý muốn, đặc biệt là với mười tám tháng thông báo."
+    },
+    {
+      "id": "s46",
+      "speaker": "Victoria",
+      "text": "Given the development investment we're both making, an early exit right creates an asymmetry of commitment that could affect how we each resource and prioritise the partnership from day one.",
+      "durationMs": 10680,
+      "translationVi": "Với đầu tư phát triển mà cả hai chúng ta đang thực hiện, quyền thoát sớm tạo ra sự bất cân xứng trong cam kết có thể ảnh hưởng đến cách chúng ta cung cấp nguồn lực và ưu tiên quan hệ đối tác từ ngày đầu tiên."
+    },
+    {
+      "id": "s47",
+      "speaker": "Adam",
+      "text": "I understand the concern, but I'd frame it differently: the convenience termination right is actually a commitment device rather than an exit door.",
+      "durationMs": 8712,
+      "translationVi": "Tôi hiểu mối lo ngại, nhưng tôi sẽ đặt nó theo cách khác: quyền chấm dứt theo ý muốn thực sự là một công cụ cam kết chứ không phải cánh cửa thoát."
+    },
+    {
+      "id": "s48",
+      "speaker": "Adam",
+      "text": "Parties are more willing to invest ambitiously when they know they're not locked into an arrangement indefinitely.",
+      "durationMs": 6336,
+      "translationVi": "Các bên sẵn sàng đầu tư tham vọng hơn khi họ biết họ không bị khóa vào một thỏa thuận vô thời hạn."
+    },
+    {
+      "id": "s49",
+      "speaker": "Adam",
+      "text": "The alternative — an open-ended partnership with no exit mechanism — is precisely what creates underinvestment risk in practice.",
+      "durationMs": 8424,
+      "translationVi": "Giải pháp thay thế — quan hệ đối tác mở cửa không có cơ chế thoát — chính xác là điều tạo ra rủi ro đầu tư thiếu trong thực tế."
+    },
+    {
+      "id": "s50",
+      "speaker": "Victoria",
+      "text": "That's an interesting way to reframe it, and there's something to the argument.",
+      "durationMs": 4104,
+      "translationVi": "Đó là một cách thú vị để đặt lại vấn đề, và có điều gì đó trong lập luận."
+    },
+    {
+      "id": "s51",
+      "speaker": "Victoria",
+      "text": "I'd be willing to consider a convenience termination right but with a longer notice period — twenty-four months — and subject to a financial settlement mechanism that compensates the non-terminating party for unrecovered development costs as of the notice date.",
+      "durationMs": 14976,
+      "translationVi": "Tôi sẵn lòng xem xét quyền chấm dứt theo ý muốn nhưng với thời gian thông báo dài hơn — hai mươi bốn tháng — và tùy thuộc vào cơ chế thanh toán tài chính bồi thường cho bên không chấm dứt đối với các chi phí phát triển chưa thu hồi tính đến ngày thông báo."
+    },
+    {
+      "id": "s52",
+      "speaker": "Adam",
+      "text": "Twenty-four months with a cost recovery settlement is workable, provided the methodology for calculating unrecovered costs is defined in advance and doesn't become a litigation trigger in its own right.",
+      "durationMs": 11376,
+      "translationVi": "Hai mươi bốn tháng với thanh toán thu hồi chi phí là có thể thực hiện được, miễn là phương pháp tính chi phí chưa thu hồi được xác định trước và không trở thành tác nhân kiện tụng theo cách riêng của nó."
+    },
+    {
+      "id": "s53",
+      "speaker": "Adam",
+      "text": "Let me propose that we task our legal teams to draft the settlement mechanism in parallel with the rest of the agreement, with a target to align on parameters by the end of next week.",
+      "durationMs": 10296,
+      "translationVi": "Hãy để tôi đề xuất rằng chúng ta giao nhiệm vụ cho các nhóm pháp lý của mình soạn thảo cơ chế thanh toán song song với phần còn lại của thỏa thuận, với mục tiêu thống nhất về các tham số vào cuối tuần tới."
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "Our position on this point is that …"
+    },
+    {
+      "id": "h2",
+      "text": "I understand your concern, and I'd propose addressing it by …"
+    },
+    {
+      "id": "h3",
+      "text": "The issue with that structure is that it creates a risk of …"
+    },
+    {
+      "id": "h4",
+      "text": "What if we tiered the approach so that …"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "right of first refusal",
+      "meaningVi": "quyền ưu tiên mua lại (được đề nghị đầu tiên trước khi bán cho bên khác)",
+      "pronunciation": "/raɪt əv fɜːrst rɪˈfjuːzəl/"
+    },
+    {
+      "id": "v2",
+      "phrase": "revenue share",
+      "meaningVi": "chia sẻ doanh thu",
+      "pronunciation": "/ˈrɛvɪnjuː ʃɛr/"
+    },
+    {
+      "id": "v3",
+      "phrase": "exclusivity provision",
+      "meaningVi": "điều khoản độc quyền",
+      "pronunciation": "/ɪkˌskluːˈsɪvɪti prəˈvɪʒən/"
+    },
+    {
+      "id": "v4",
+      "phrase": "convenience termination",
+      "meaningVi": "chấm dứt hợp đồng theo ý muốn (không cần lý do vi phạm)",
+      "pronunciation": "/kənˈviːniəns ˌtɜːrmɪˈneɪʃən/"
+    },
+    {
+      "id": "v5",
+      "phrase": "most-favoured-nation basis",
+      "meaningVi": "cơ sở đối xử tối huệ quốc (được đối xử bằng hoặc tốt hơn bất kỳ bên nào khác)",
+      "pronunciation": "/məʊst ˈfeɪvərd ˈneɪʃən ˈbeɪsɪs/"
+    },
+    {
+      "id": "v6",
+      "phrase": "hollow out the royalty stream",
+      "meaningVi": "làm rỗng dòng tiền bản quyền (dùng chi phí để giảm khoản phải trả)",
+      "pronunciation": "/ˈhɒloʊ aʊt ðə ˈrɔɪəlti striːm/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "term sheet",
+      "meaningVi": "bản tóm tắt điều khoản (tài liệu sơ bộ trước khi ký hợp đồng chính thức)",
+      "pronunciation": "/tɜːrm ʃiːt/"
+    },
+    {
+      "phrase": "perpetual licence",
+      "meaningVi": "giấy phép vĩnh viễn",
+      "pronunciation": "/pɜːrˈpɛtʃuəl ˈlaɪsəns/"
+    },
+    {
+      "phrase": "the devil is in the details",
+      "meaningVi": "chi tiết mới là phần phức tạp và quan trọng",
+      "pronunciation": "/ðə ˈdɛvəl ɪz ɪn ðə ˈdiːteɪlz/"
+    },
+    {
+      "phrase": "strategic optionality",
+      "meaningVi": "khả năng lựa chọn chiến lược (sự linh hoạt trong ra quyết định tương lai)",
+      "pronunciation": "/strəˈtiːdʒɪk ˌɒpʃəˈnælɪti/"
+    },
+    {
+      "phrase": "asymmetry of commitment",
+      "meaningVi": "sự bất cân xứng trong cam kết",
+      "pronunciation": "/eɪˈsɪmɪtri əv kəˈmɪtmənt/"
+    },
+    {
+      "phrase": "right of first refusal",
+      "meaningVi": "quyền ưu tiên mua (pháp lý)",
+      "pronunciation": "/raɪt əv fɜːrst rɪˈfjuːzəl/"
+    },
+    {
+      "phrase": "joint ownership structure",
+      "meaningVi": "cơ cấu sở hữu chung",
+      "pronunciation": "/dʒɔɪnt ˈoʊnərʃɪp ˈstrʌktʃər/"
+    },
+    {
+      "phrase": "independent valuation process",
+      "meaningVi": "quy trình định giá độc lập",
+      "pronunciation": "/ˌɪndɪˈpɛndənt ˌvæljuˈeɪʃən ˈproʊsɛs/"
+    },
+    {
+      "phrase": "fair market value",
+      "meaningVi": "giá trị thị trường hợp lý",
+      "pronunciation": "/fɛr ˈmɑːrkɪt ˈvæljuː/"
+    },
+    {
+      "phrase": "gross revenue model",
+      "meaningVi": "mô hình doanh thu gộp",
+      "pronunciation": "/ɡroʊs ˈrɛvənjuː ˈmɒdəl/"
+    },
+    {
+      "phrase": "cost allocation methodology",
+      "meaningVi": "phương pháp phân bổ chi phí",
+      "pronunciation": "/kɒst ˌæləˈkeɪʃən mɛˈθɒdɒlədʒi/"
+    },
+    {
+      "phrase": "audit rights",
+      "meaningVi": "quyền kiểm toán (hợp đồng)",
+      "pronunciation": "/ˈɔːdɪt raɪts/"
+    },
+    {
+      "phrase": "exclusivity period",
+      "meaningVi": "thời gian độc quyền",
+      "pronunciation": "/ɪkˌskluːˈsɪvɪti ˈpɪəriəd/"
+    },
+    {
+      "phrase": "most-favoured-nation basis",
+      "meaningVi": "cơ sở tối huệ quốc (điều khoản pháp lý/thương mại)",
+      "pronunciation": "/moʊst ˈfeɪvərd ˈneɪʃən ˈbeɪsɪs/"
+    },
+    {
+      "phrase": "conceptual agreement",
+      "meaningVi": "thỏa thuận về mặt nguyên tắc",
+      "pronunciation": "/kənˈsɛptʃuəl əˈɡriːmənt/"
+    },
+    {
+      "phrase": "convenience termination right",
+      "meaningVi": "quyền chấm dứt hợp đồng vì lý do tiện ích (không cần lý do vi phạm)",
+      "pronunciation": "/kənˈviːniəns ˌtɜːrmɪˈneɪʃən raɪt/"
+    },
+    {
+      "phrase": "unrecovered development costs",
+      "meaningVi": "chi phí phát triển chưa được thu hồi",
+      "pronunciation": "/ˌʌnrɪˈkʌvərd dɪˈvɛləpmənt kɒsts/"
+    },
+    {
+      "phrase": "tiered approach",
+      "meaningVi": "cách tiếp cận phân tầng (nhiều cấp độ)",
+      "pronunciation": "/tɪərd əˈproʊtʃ/"
+    },
+    {
+      "phrase": "non-compete",
+      "meaningVi": "điều khoản không cạnh tranh",
+      "pronunciation": "/nɒn kəmˈpiːt/"
+    },
+    {
+      "phrase": "cure period",
+      "meaningVi": "thời gian khắc phục vi phạm (hợp đồng)",
+      "pronunciation": "/kjʊər ˈpɪəriəd/"
+    },
+    {
+      "phrase": "commercially rational",
+      "meaningVi": "hợp lý về mặt thương mại",
+      "pronunciation": "/kəˈmɜːrʃəli ˈræʃənl/"
+    },
+    {
+      "phrase": "financial settlement mechanism",
+      "meaningVi": "cơ chế thanh toán/bồi thường tài chính",
+      "pronunciation": "/faɪˈnænʃəl ˈsɛtlmənt ˈmɛkənɪzəm/"
+    },
+    {
+      "phrase": "positive list",
+      "meaningVi": "danh sách dương (liệt kê rõ những gì được áp dụng)",
+      "pronunciation": "/ˈpɒzɪtɪv lɪst/"
+    },
+    {
+      "phrase": "open-ended",
+      "meaningVi": "mở/không xác định giới hạn (điều khoản hợp đồng)",
+      "pronunciation": "/ˈoʊpən ˈɛndɪd/"
+    },
+    {
+      "phrase": "IP allocation clause",
+      "meaningVi": "điều khoản phân bổ quyền sở hữu trí tuệ",
+      "pronunciation": "/aɪ piː ˌæləˈkeɪʃən klɔːz/"
+    },
+    {
+      "phrase": "commercialisation pathway",
+      "meaningVi": "con đường thương mại hóa",
+      "pronunciation": "/kəˌmɜːrʃəlaɪˈzeɪʃən ˈpæθweɪ/"
+    },
+    {
+      "phrase": "revenue share structure",
+      "meaningVi": "cơ cấu chia sẻ doanh thu",
+      "pronunciation": "/ˈrɛvənjuː ʃɛr ˈstrʌktʃər/"
+    },
+    {
+      "phrase": "go-to-market investment",
+      "meaningVi": "đầu tư đưa sản phẩm ra thị trường",
+      "pronunciation": "/ɡoʊ tuː ˈmɑːrkɪt ɪnˈvɛstmənt/"
+    },
+    {
+      "phrase": "indeterminate risk profile",
+      "meaningVi": "hồ sơ rủi ro không xác định",
+      "pronunciation": "/ˌɪndɪˈtɜːrmɪnɪt rɪsk ˈproʊfaɪl/"
+    },
+    {
+      "phrase": "termination provisions",
+      "meaningVi": "các điều khoản chấm dứt hợp đồng",
+      "pronunciation": "/ˌtɜːrmɪˈneɪʃən prəˈvɪʒənz/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Provisional agreement language: 'subject to'",
+      "bodyVi": "Trong đàm phán, 'subject to X' có nghĩa là thỏa thuận có điều kiện phụ thuộc vào X. Ví dụ: 'provisional agreement subject to financial modelling'. Đây là cách ghi nhận tiến độ mà không ràng buộc cuối cùng.",
+      "bodyEn": "'Subject to X' in negotiation signals conditional agreement — the deal stands only if condition X is met ('subject to financial modelling', 'subject to board approval'). This language allows parties to record progress without creating binding commitments, which is essential in complex multi-stage negotiations."
+    },
+    {
+      "title": "Conditional framing to introduce alternatives: 'What if we...'",
+      "bodyVi": "'What if we X?' là cách đưa ra đề xuất thay thế không phải là yêu cầu mà là lời mời thảo luận. Trong đàm phán thương mại, đây là cách mềm mỏng hơn so với 'We propose X' và giúp duy trì bầu không khí hợp tác.",
+      "bodyEn": "'What if we X?' frames proposals as tentative possibilities rather than firm demands. In high-stakes negotiation, this softener invites the other party to engage with an alternative without feeling pressured to accept or reject immediately. It creates collaborative problem-solving dynamics rather than adversarial positioning."
+    },
+    {
+      "title": "Reframing: 'I'd frame it differently'",
+      "bodyVi": "'I'd frame it differently' là cách không đồng ý với cách nhìn của đối phương mà không bác bỏ thẳng thắn. Người nói đưa ra một góc nhìn hoàn toàn khác về cùng một sự việc, thường để biến một điều tưởng là bất lợi thành điều có lợi cho mình.",
+      "bodyEn": "'I'd frame it differently' is a rhetorical pivot that acknowledges the other party's concern while proposing an entirely different way of interpreting the issue. In negotiation, reframing can transform a potential deal-breaker into an acceptable provision by changing the narrative frame — a sophisticated C1 persuasion strategy."
+    }
+  ],
+  "translationVi": "Victoria: Adam, tôi đánh giá cao việc bạn đã đến. Tôi muốn sử dụng buổi này để xem xét các điểm còn lại trong bản tóm tắt điều khoản — cụ thể là cấu trúc chia sẻ doanh thu, điều khoản phân bổ IP, thời gian độc quyền và các điều khoản chấm dứt. Tôi muốn đạt được thỏa thuận khái niệm ngày hôm nay, với việc soạn thảo pháp lý tiếp theo sau.\nAdam: Điều đó phù hợp với chúng tôi. Tôi sẽ báo trước rằng chúng tôi đã có sự thống nhất nội bộ về hầu hết các điểm này, nhưng điều khoản IP vẫn còn nhạy cảm — hội đồng của chúng tôi xem công nghệ được phát triển chung như có tiềm năng biến đổi, và họ không sẵn lòng tham gia vào một cấu trúc để lại cho chúng tôi mà không có con đường thương mại hóa đáng tin cậy trong trường hợp quan hệ đối tác tan rã.\nVictoria: Tôi hiểu mối lo ngại, và tôi muốn giải quyết trực tiếp. Lập trường của chúng tôi về IP chưa bao giờ là tìm kiếm quyền sở hữu đầy đủ đối với các tài sản được phát triển chung — chúng tôi nhận ra điều đó không hợp lý về mặt thương mại. Những gì chúng tôi đã thúc đẩy là cấu trúc sở hữu chung với quyền ưu tiên mua lại trong thương mại hóa, kết hợp với giấy phép vĩnh viễn để sử dụng công nghệ trong các lĩnh vực kinh doanh cốt lõi của chúng tôi.\nAdam: Cơ chế quyền ưu tiên mua lại có thể thực hiện được về nguyên tắc, nhưng chi tiết nằm ở phương pháp định giá. Nếu quyền ưu tiên mua lại của bạn có thể thực thi ở mức giá do chính bạn định giá, điều đó thực sự cho bạn quyền phủ quyết đối với thương mại hóa bên thứ ba mà không phải trả giá trị thị trường hợp lý. Chúng tôi sẽ cần một quy trình định giá độc lập với các tham số đã được thống nhất.\nVictoria: Đồng ý — định giá độc lập là hoàn toàn hợp lý. Chúng tôi sẽ đề xuất một quy trình trong đó, nếu chúng tôi không thể đạt được thỏa thuận trong vòng ba mươi ngày kể từ khi kích hoạt quyền ưu tiên mua lại, các bên bổ nhiệm một người định giá độc lập được thỏa thuận chung, và nếu họ không thể đồng ý về người định giá trong mười lăm ngày tiếp theo, mỗi bên đề cử một người và hai người được đề cử cùng nhau chọn người thứ ba.\nAdam: Đó là một cơ chế hợp lý. Cửa sổ ba mươi ngày có thể chật hẹp do tính phức tạp của các tài sản liên quan — tôi sẽ đề xuất bốn mươi lăm ngày trong trường hợp đầu tiên. Phần còn lại của quy trình theo mô tả của bạn có thể chấp nhận được với chúng tôi.\nVictoria: Bốn mươi lăm ngày được. Bây giờ, về chia sẻ doanh thu — đề xuất hiện tại của bạn cho chúng tôi nhận được ba mươi phần trăm tổng doanh thu từ bất kỳ ứng dụng thương mại hóa nào của công nghệ được phát triển chung. Chúng tôi đã phân tích mô hình đó cẩn thận, và quan điểm của chúng tôi là nó không phản ánh đầy đủ sự đóng góp của chúng tôi vào cơ sở hạ tầng thương mại, bao gồm phân phối, đầu tư go-to-market và mối quan hệ khách hàng.\nAdam: Chúng tôi hiểu điều đó, và chúng tôi không gắn bó với mô hình tổng doanh thu nếu bạn có một giải pháp thay thế mang tính xây dựng. Mối lo ngại cốt lõi của chúng tôi là bất kỳ mô hình doanh thu ròng hoặc dựa trên lợi nhuận nào cũng dễ bị phân bổ chi phí chung theo những cách có thể làm rỗng dòng tiền bản quyền. Chúng tôi đã bị thiệt hại bởi điều đó trong các cấu trúc quan hệ đối tác trước đây.\nVictoria: Đó là một mối lo ngại chính đáng, và là điều chúng ta có thể giải quyết thông qua phương pháp phân bổ chi phí đã thống nhất với quyền kiểm toán. Điều gì nếu chúng ta chuyển sang mô hình doanh thu ròng — được định nghĩa là tổng doanh thu trừ đi các chi phí trực tiếp được liệt kê rõ ràng, không phân bổ chi phí chung trừ khi được phê duyệt trước cụ thể — và đặt tỷ lệ chia sẻ doanh thu ở mức bốn mươi phần trăm ròng thay vì ba mươi phần trăm tổng?\nAdam: Bốn mươi phần trăm doanh thu ròng được xác định rõ ràng có thể hấp dẫn hơn ba mươi phần trăm tổng, tùy thuộc vào cấu trúc biên lợi nhuận. Tôi muốn các nhóm tài chính của chúng tôi mô hình hóa điều đó dựa trên các dự báo hiện tại trước khi chúng ta cam kết. Chúng ta có thể đánh dấu điều đó như là thỏa thuận tạm thời tùy thuộc vào mô hình tài chính, với thời hạn một tuần để xác nhận không?\nVictoria: Được rồi. Chuyển sang độc quyền — đề xuất của bạn tìm kiếm cửa sổ độc quyền năm năm trên tất cả các lĩnh vực ứng dụng tiềm năng. Điều đó rộng hơn đáng kể so với những gì chúng tôi nghĩ là có lý do thương mại. Quan điểm hiện tại của chúng tôi là độc quyền nên được giới hạn theo lĩnh vực, chỉ áp dụng cho trường hợp sử dụng chính mà công nghệ được phát triển chung.\nAdam: Chúng tôi đã lường trước phản hồi đó. Lý do cho độc quyền liên lĩnh vực là chúng tôi đang chịu rủi ro phát triển đáng kể và chi phí gia nhập thị trường, và chúng tôi cần sự bảo vệ trước kịch bản công nghệ được cấp phép cho đối thủ trong lĩnh vực liền kề, người sau đó sử dụng nó để làm giảm giá của chúng tôi trong thị trường chính.\nVictoria: Đó là một rủi ro thực sự, và tôi không bác bỏ nó. Nhưng độc quyền liên lĩnh vực toàn diện năm năm thực sự đóng cửa một phần đáng kể tính linh hoạt chiến lược của chúng tôi trong một thời gian kéo dài. Điều gì nếu chúng ta phân cấp độc quyền: độc quyền đầy đủ trong lĩnh vực chính trong năm năm, và hạn chế hẹp hơn trong các lĩnh vực liền kề — chẳng hạn, điều khoản không cạnh tranh thay vì độc quyền đầy đủ — trong ba năm, với quyền đàm phán các điều khoản thương mại trên cơ sở đối xử tối huệ quốc sau đó?\nAdam: Cách tiếp cận phân cấp rất sáng tạo và gần với điều chúng tôi có thể chấp nhận. Tôi muốn làm chặt chẽ hơn định nghĩa 'các lĩnh vực liền kề' — cụm từ đó có thể được hiểu rất rộng, và chúng tôi cần một danh sách tích cực về những gì trong phạm vi thay vì để ngỏ cho việc giải thích trong tương lai.\nVictoria: Một danh sách tích cực hoàn toàn có thể quản lý được. Chúng ta có thể đồng ý danh sách như một lịch trình của thỏa thuận, với cơ chế cho các bên cùng nhau thêm hoặc xóa các lĩnh vực theo thỏa thuận chung trong thời hạn. Điều đó mang lại sự linh hoạt mà không để câu hỏi mở.\nAdam: Điều đó ổn. Về chấm dứt — bản thảo hiện tại có quyền chấm dứt chung về vi phạm nghiêm trọng, với thời gian khắc phục sáu mươi ngày. Chúng tôi muốn thêm quyền chấm dứt theo ý muốn sau mười tám tháng thông báo, chủ yếu để bảo vệ trước kịch bản bức tranh chiến lược thay đổi đáng kể và quan hệ đối tác không còn hợp lý về mặt thương mại cho cả hai bên.\nVictoria: Tôi có những dè dặt đáng kể về quyền chấm dứt theo ý muốn, đặc biệt là với mười tám tháng thông báo. Với đầu tư phát triển mà cả hai chúng ta đang thực hiện, quyền thoát sớm tạo ra sự bất cân xứng trong cam kết có thể ảnh hưởng đến cách chúng ta cung cấp nguồn lực và ưu tiên quan hệ đối tác từ ngày đầu tiên.\nAdam: Tôi hiểu mối lo ngại, nhưng tôi sẽ đặt nó theo cách khác: quyền chấm dứt theo ý muốn thực sự là một công cụ cam kết chứ không phải cánh cửa thoát. Các bên sẵn sàng đầu tư tham vọng hơn khi họ biết họ không bị khóa vào một thỏa thuận vô thời hạn. Giải pháp thay thế — quan hệ đối tác mở cửa không có cơ chế thoát — chính xác là điều tạo ra rủi ro đầu tư thiếu trong thực tế.\nVictoria: Đó là một cách thú vị để đặt lại vấn đề, và có điều gì đó trong lập luận. Tôi sẵn lòng xem xét quyền chấm dứt theo ý muốn nhưng với thời gian thông báo dài hơn — hai mươi bốn tháng — và tùy thuộc vào cơ chế thanh toán tài chính bồi thường cho bên không chấm dứt đối với các chi phí phát triển chưa thu hồi tính đến ngày thông báo.\nAdam: Hai mươi bốn tháng với thanh toán thu hồi chi phí là có thể thực hiện được, miễn là phương pháp luận để tính chi phí chưa thu hồi được xác định trước và không trở thành tác nhân kiện tụng theo cách riêng của nó. Hãy để tôi đề xuất rằng chúng ta giao nhiệm vụ cho các nhóm pháp lý của mình soạn thảo cơ chế thanh toán song song với phần còn lại của thỏa thuận, với mục tiêu thống nhất về các tham số vào cuối tuần tới.",
+  "criticalThinkingQuestion": "In complex business negotiations, how should parties balance asserting their own interests firmly with maintaining a collaborative relationship that supports the long-term success of the partnership?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-c1-010",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 421992
+}

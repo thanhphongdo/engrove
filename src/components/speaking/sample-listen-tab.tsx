@@ -2,7 +2,11 @@
 
 import { useEffect } from "react";
 import { TranscriptPlayer } from "@/components/listening/transcript-player";
+import { PassageAnnotation } from "@/components/reading/passage-annotation";
 import { useListeningAudioStore } from "@/stores/listening-audio-store";
+import { usePreferences } from "@/lib/db/use-preferences";
+import { splitWithAnnotations } from "@/lib/lessons/annotate";
+import { cn } from "@/lib/utils";
 import type { SpeakingLesson } from "@/lib/lessons/speaking-schema";
 
 type Props = { lesson: SpeakingLesson };
@@ -10,35 +14,59 @@ type Props = { lesson: SpeakingLesson };
 export function SampleListenTab({ lesson }: Props) {
   const load = useListeningAudioStore((s) => s.load);
   const stop = useListeningAudioStore((s) => s.stop);
+  const prefs = usePreferences();
+  const showTranslation = prefs.hintToggles.passageTranslation;
+  const showAnnotations = prefs.hintToggles.vocabVi;
+
+  const cdnBase = `${lesson.audio.cdnBase}/sentences`;
 
   useEffect(() => {
-    // Sentence URLs: {cdnBase}/sentences/{sentenceId}.mp3
-    // The store generates: ${cdnBase}/${sentenceId}.mp3
-    // So we pass cdnBase + "/sentences" to get the correct path.
-    load(
-      lesson.id,
-      `${lesson.audio.cdnBase}/sentences`,
-      lesson.sentences,
-      lesson.audio.manifestVersion,
-    );
+    load(lesson.id, cdnBase, lesson.sentences, lesson.audio.manifestVersion);
     return () => stop();
-  }, [lesson.id, lesson.audio.cdnBase, lesson.audio.manifestVersion, load, stop]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [lesson.id, lesson.audio.cdnBase, lesson.audio.manifestVersion]);
 
   return (
     <div className="space-y-4">
       <TranscriptPlayer />
-      {lesson.translationVi && (
-        <details className="rounded-md border">
-          <summary className="cursor-pointer px-4 py-2 text-sm font-medium">Vietnamese translation</summary>
-          <div className="space-y-1 px-4 pb-3 pt-1 text-sm text-muted-foreground">
-            {lesson.translationVi.split(/\n+/).map((line, i) => (
-              <p key={i}>{line}</p>
-            ))}
-          </div>
-        </details>
-      )}
+
+      <div className="space-y-0.5">
+        {lesson.sentences.map((sentence, i) => {
+          const prevSpeaker = i > 0 ? lesson.sentences[i - 1].speaker : null;
+          const speakerChanged = sentence.speaker !== prevSpeaker;
+          const segments = showAnnotations
+            ? splitWithAnnotations(sentence.text, lesson.annotations)
+            : [{ kind: "text" as const, text: sentence.text }];
+
+          return (
+            <div key={sentence.id} className={cn("text-sm", speakerChanged && i > 0 && "mt-3")}>
+              <p className="leading-relaxed">
+                {speakerChanged && (
+                  <span className="font-semibold">{sentence.speaker}: </span>
+                )}
+                {segments.map((seg, j) =>
+                  seg.kind === "text" ? (
+                    <span key={j}>{seg.text}</span>
+                  ) : (
+                    <PassageAnnotation
+                      key={j}
+                      text={seg.text}
+                      annotation={seg.annotation}
+                      sourceLessonId={lesson.id}
+                    />
+                  ),
+                )}
+              </p>
+              {showTranslation && sentence.translationVi && (
+                <p className="mt-0.5 text-xs text-muted-foreground">{sentence.translationVi}</p>
+              )}
+            </div>
+          );
+        })}
+      </div>
+
       {lesson.grammarNotes.length > 0 && (
-        <div className="space-y-2">
+        <div className="space-y-2 pt-2">
           {lesson.grammarNotes.map((note, i) => (
             <details key={i} className="rounded-md border">
               <summary className="cursor-pointer px-4 py-2 text-sm font-medium">{note.title}</summary>

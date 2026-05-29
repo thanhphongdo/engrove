@@ -1,0 +1,285 @@
+{
+  "id": "speaking-a1-003",
+  "level": "A1",
+  "title": "Shopping for groceries",
+  "summary": "A customer asks for help finding items in a grocery store.",
+  "topic": "Shopping",
+  "tags": [
+    "Daily life",
+    "Shopping",
+    "Food"
+  ],
+  "characters": [
+    "Customer",
+    "Staff"
+  ],
+  "voices": {
+    "Customer": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-JennyNeural"
+    },
+    "Staff": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-BrianNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Customer",
+      "text": "Excuse me. Where is the bread?"
+    },
+    {
+      "speaker": "Staff",
+      "text": "It's in aisle three, on the left."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Thank you. Do you have any eggs?"
+    },
+    {
+      "speaker": "Staff",
+      "text": "Yes, the eggs are next to the milk in aisle two."
+    },
+    {
+      "speaker": "Customer",
+      "text": "How much is this orange juice?"
+    },
+    {
+      "speaker": "Staff",
+      "text": "It's two dollars and fifty cents."
+    },
+    {
+      "speaker": "Customer",
+      "text": "That's fine. I'll take it."
+    },
+    {
+      "speaker": "Staff",
+      "text": "Great. Do you need a bag today?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Yes, please. One bag is enough."
+    },
+    {
+      "speaker": "Staff",
+      "text": "Of course. Is there anything else I can help you with?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "No, that's everything. Thank you so much!"
+    },
+    {
+      "speaker": "Staff",
+      "text": "You're welcome. Have a nice day!"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Customer",
+      "text": "Excuse me. Where is the bread?",
+      "durationMs": 3576,
+      "translationVi": "Xin lỗi. Bánh mì ở đâu ạ?"
+    },
+    {
+      "id": "s2",
+      "speaker": "Staff",
+      "text": "It's in aisle three, on the left.",
+      "durationMs": 2184,
+      "translationVi": "Bánh mì ở lối đi số ba, phía bên trái."
+    },
+    {
+      "id": "s3",
+      "speaker": "Customer",
+      "text": "Thank you. Do you have any eggs?",
+      "durationMs": 3552,
+      "translationVi": "Cảm ơn. Anh có trứng không?"
+    },
+    {
+      "id": "s4",
+      "speaker": "Staff",
+      "text": "Yes, the eggs are next to the milk in aisle two.",
+      "durationMs": 3096,
+      "translationVi": "Có ạ, trứng ở cạnh sữa trong lối đi số hai."
+    },
+    {
+      "id": "s5",
+      "speaker": "Customer",
+      "text": "How much is this orange juice?",
+      "durationMs": 2544,
+      "translationVi": "Nước cam này giá bao nhiêu?"
+    },
+    {
+      "id": "s6",
+      "speaker": "Staff",
+      "text": "It's two dollars and fifty cents.",
+      "durationMs": 2208,
+      "translationVi": "Hai đô la rưỡi ạ."
+    },
+    {
+      "id": "s7",
+      "speaker": "Customer",
+      "text": "That's fine. I'll take it.",
+      "durationMs": 3408,
+      "translationVi": "Được rồi. Tôi lấy chai này."
+    },
+    {
+      "id": "s8",
+      "speaker": "Staff",
+      "text": "Great. Do you need a bag today?",
+      "durationMs": 2256,
+      "translationVi": "Tốt ạ. Hôm nay bạn có cần túi không?"
+    },
+    {
+      "id": "s9",
+      "speaker": "Customer",
+      "text": "Yes, please. One bag is enough.",
+      "durationMs": 4320,
+      "translationVi": "Vâng, một túi là đủ rồi."
+    },
+    {
+      "id": "s10",
+      "speaker": "Staff",
+      "text": "Of course. Is there anything else I can help you with?",
+      "durationMs": 3336,
+      "translationVi": "Được chứ. Bạn cần thêm gì không?"
+    },
+    {
+      "id": "s11",
+      "speaker": "Customer",
+      "text": "No, that's everything. Thank you so much!",
+      "durationMs": 4536,
+      "translationVi": "Không, vậy là đủ rồi. Cảm ơn bạn rất nhiều!"
+    },
+    {
+      "id": "s12",
+      "speaker": "Staff",
+      "text": "You're welcome. Have a nice day!",
+      "durationMs": 2400,
+      "translationVi": "Không có gì. Chúc bạn một ngày vui!"
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "Excuse me, where is …?"
+    },
+    {
+      "id": "h2",
+      "text": "How much is …?"
+    },
+    {
+      "id": "h3",
+      "text": "Do you have any …?"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "aisle",
+      "meaningVi": "lối đi giữa các kệ hàng",
+      "pronunciation": "/aɪl/"
+    },
+    {
+      "id": "v2",
+      "phrase": "orange juice",
+      "meaningVi": "nước cam",
+      "pronunciation": "/ˈɔːrɪndʒ dʒuːs/"
+    },
+    {
+      "id": "v3",
+      "phrase": "I'll take it",
+      "meaningVi": "tôi lấy cái này",
+      "pronunciation": "/aɪl teɪk ɪt/"
+    },
+    {
+      "id": "v4",
+      "phrase": "anything else",
+      "meaningVi": "điều gì khác",
+      "pronunciation": "/ˈɛniθɪŋ ɛls/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "Excuse me",
+      "meaningVi": "Xin lỗi, làm phiền",
+      "pronunciation": "/ɪkˈskjuːz miː/"
+    },
+    {
+      "phrase": "aisle three",
+      "meaningVi": "lối đi số ba",
+      "pronunciation": "/aɪl θriː/"
+    },
+    {
+      "phrase": "next to",
+      "meaningVi": "bên cạnh",
+      "pronunciation": "/nɛkst tuː/"
+    },
+    {
+      "phrase": "That's fine",
+      "meaningVi": "Được rồi",
+      "pronunciation": "/ðæts faɪn/"
+    },
+    {
+      "phrase": "You're welcome",
+      "meaningVi": "Không có chi",
+      "pronunciation": "/jʊr ˈwɛlkəm/"
+    },
+    {
+      "phrase": "Do you have",
+      "meaningVi": "Bạn/bên bạn có... không?",
+      "pronunciation": "/duː juː hæv/",
+      "exampleEn": "Do you have any milk?"
+    },
+    {
+      "phrase": "How much is",
+      "meaningVi": "Cái này giá bao nhiêu?",
+      "pronunciation": "/haʊ mʌtʃ ɪz/",
+      "exampleEn": "How much is this jacket?"
+    },
+    {
+      "phrase": "I'll take it",
+      "meaningVi": "Tôi sẽ lấy cái này",
+      "pronunciation": "/aɪl teɪk ɪt/",
+      "exampleEn": "That's a good price. I'll take it."
+    },
+    {
+      "phrase": "One bag is enough",
+      "meaningVi": "Một túi là đủ",
+      "pronunciation": "/wʌn bæɡ ɪz ɪˈnʌf/",
+      "exampleEn": "Just one bag is enough, thank you."
+    },
+    {
+      "phrase": "Is there anything else",
+      "meaningVi": "Còn gì khác không?",
+      "pronunciation": "/ɪz ðɛr ˈɛniθɪŋ ɛls/",
+      "exampleEn": "Is there anything else I can help you with?"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Asking for prices with 'How much is …?'",
+      "bodyVi": "Dùng 'How much is …?' để hỏi giá. Ví dụ: 'How much is this orange juice?' — Nước cam này giá bao nhiêu?",
+      "bodyEn": "Use 'How much is …?' to ask about prices. Example: 'How much is this orange juice?'"
+    },
+    {
+      "title": "Asking for location with 'Where is …?'",
+      "bodyVi": "Dùng 'Where is …?' để hỏi vị trí. Ví dụ: 'Where is the bread?' — Bánh mì ở đâu?",
+      "bodyEn": "Use 'Where is …?' to ask for locations. Example: 'Where is the bread?'"
+    }
+  ],
+  "translationVi": "Khách hàng: Xin lỗi. Bánh mì ở đâu ạ? Nhân viên: Bánh mì ở lối đi số ba, phía bên trái. Khách hàng: Cảm ơn. Anh có trứng không? Nhân viên: Có ạ, trứng ở cạnh sữa trong lối đi số hai. Khách hàng: Nước cam này giá bao nhiêu? Nhân viên: Hai đô la rưỡi ạ. Khách hàng: Được rồi. Tôi lấy chai này. Nhân viên: Được ạ. Hôm nay bạn có cần túi không? Khách hàng: Vâng, cho tôi một túi là đủ. Nhân viên: Được chứ. Bạn cần thêm gì không? Khách hàng: Không, thế là đủ rồi. Cảm ơn bạn rất nhiều! Nhân viên: Không có gì. Chúc bạn một ngày vui!",
+  "criticalThinkingQuestion": "What phrases are most useful to know when shopping in a foreign country?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-a1-003",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 37416
+}

@@ -17,6 +17,7 @@ type Props = {
   turnIndex: number;
   speaker: string;
   text: string;
+  translationVi?: string;
   isUser: boolean;
   state: TurnState;
   onRecord: () => void;
@@ -32,6 +33,7 @@ export function TurnRow({
   turnIndex,
   speaker,
   text,
+  translationVi,
   isUser,
   state,
   onRecord,
@@ -61,7 +63,10 @@ export function TurnRow({
         {isDone && <span className="ml-auto text-xs text-emerald-600 dark:text-emerald-400">✓</span>}
       </div>
 
-      <p className="mb-3 text-sm leading-relaxed">{text}</p>
+      <p className="mb-1 text-sm leading-relaxed">{text}</p>
+      {translationVi && (
+        <p className="mb-3 text-xs text-muted-foreground leading-relaxed">{translationVi}</p>
+      )}
 
       {isActive && (
         <div className="flex flex-wrap items-center gap-2">

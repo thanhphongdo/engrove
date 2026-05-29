@@ -1,51 +1,312 @@
 {
   "id": "speaking-a1-001",
   "level": "A1",
-  "title": "Ordering coffee",
-  "summary": "A customer orders an iced latte at a busy café.",
+  "title": "Ordering at a café",
+  "summary": "A customer orders an iced latte and chats briefly with the barista.",
   "topic": "Ordering at a café",
-  "tags": ["Daily life", "Café", "Small talk"],
-  "characters": ["Customer", "Barista"],
+  "tags": [
+    "Daily life",
+    "Café",
+    "Shopping"
+  ],
+  "characters": [
+    "Customer",
+    "Barista"
+  ],
   "voices": {
-    "Customer": { "sex": "female", "age": "adult", "accent": "en-US", "edgeVoice": "en-US-JennyNeural" },
-    "Barista":  { "sex": "male",   "age": "adult", "accent": "en-US", "edgeVoice": "en-US-GuyNeural" }
+    "Customer": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-JennyNeural"
+    },
+    "Barista": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-GuyNeural"
+    }
   },
   "body": [
-    { "speaker": "Customer", "text": "Hi, can I get an iced latte, please?" },
-    { "speaker": "Barista",  "text": "Sure. What size?" },
-    { "speaker": "Customer", "text": "Medium, please." },
-    { "speaker": "Barista",  "text": "Coming right up!" }
+    {
+      "speaker": "Customer",
+      "text": "Hi! I'd like to order, please."
+    },
+    {
+      "speaker": "Barista",
+      "text": "Of course! What can I get you?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Can I have an iced latte, please?"
+    },
+    {
+      "speaker": "Barista",
+      "text": "What size? Small, medium, or large?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Medium, please."
+    },
+    {
+      "speaker": "Barista",
+      "text": "That's four fifty. Anything else?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "No, that's all. Thank you."
+    },
+    {
+      "speaker": "Barista",
+      "text": "Great! Can I get a name for the order?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Lily."
+    },
+    {
+      "speaker": "Barista",
+      "text": "Thanks, Lily! Your latte will be ready soon."
+    }
   ],
   "sentences": [
-    { "id": "s1", "speaker": "Customer", "text": "Hi, can I get an iced latte, please?" },
-    { "id": "s2", "speaker": "Barista",  "text": "Sure." },
-    { "id": "s3", "speaker": "Barista",  "text": "What size?" },
-    { "id": "s4", "speaker": "Customer", "text": "Medium, please." },
-    { "id": "s5", "speaker": "Barista",  "text": "Coming right up!" }
+    {
+      "id": "s1",
+      "speaker": "Customer",
+      "text": "Hi!",
+      "durationMs": 1392,
+      "translationVi": "Xin chào!"
+    },
+    {
+      "id": "s2",
+      "speaker": "Customer",
+      "text": "I'd like to order, please.",
+      "durationMs": 2616,
+      "translationVi": "Cho tôi gọi đồ nhé."
+    },
+    {
+      "id": "s3",
+      "speaker": "Barista",
+      "text": "Of course!",
+      "durationMs": 1752,
+      "translationVi": "Tất nhiên rồi!"
+    },
+    {
+      "id": "s4",
+      "speaker": "Barista",
+      "text": "What can I get you?",
+      "durationMs": 1944,
+      "translationVi": "Bạn muốn gì ạ?"
+    },
+    {
+      "id": "s5",
+      "speaker": "Customer",
+      "text": "Can I have an iced latte, please?",
+      "durationMs": 2880,
+      "translationVi": "Cho tôi một ly cà phê sữa đá nhé."
+    },
+    {
+      "id": "s6",
+      "speaker": "Barista",
+      "text": "What size?",
+      "durationMs": 1800,
+      "translationVi": "Cỡ nào ạ?"
+    },
+    {
+      "id": "s7",
+      "speaker": "Barista",
+      "text": "Small, medium, or large?",
+      "durationMs": 2856,
+      "translationVi": "Nhỏ, vừa hay lớn ạ?"
+    },
+    {
+      "id": "s8",
+      "speaker": "Customer",
+      "text": "Medium, please.",
+      "durationMs": 2280,
+      "translationVi": "Cỡ vừa nhé."
+    },
+    {
+      "id": "s9",
+      "speaker": "Barista",
+      "text": "That's four fifty.",
+      "durationMs": 2136,
+      "translationVi": "Bốn đô rưỡi ạ."
+    },
+    {
+      "id": "s10",
+      "speaker": "Barista",
+      "text": "Anything else?",
+      "durationMs": 1872,
+      "translationVi": "Còn gì nữa không ạ?"
+    },
+    {
+      "id": "s11",
+      "speaker": "Customer",
+      "text": "No, that's all.",
+      "durationMs": 2256,
+      "translationVi": "Không, vậy thôi."
+    },
+    {
+      "id": "s12",
+      "speaker": "Customer",
+      "text": "Thank you.",
+      "durationMs": 1608,
+      "translationVi": "Cảm ơn."
+    },
+    {
+      "id": "s13",
+      "speaker": "Barista",
+      "text": "Great!",
+      "durationMs": 1560,
+      "translationVi": "Tuyệt!"
+    },
+    {
+      "id": "s14",
+      "speaker": "Barista",
+      "text": "Can I get a name for the order?",
+      "durationMs": 2568,
+      "translationVi": "Cho tôi biết tên để gọi đồ nhé?"
+    },
+    {
+      "id": "s15",
+      "speaker": "Customer",
+      "text": "Lily.",
+      "durationMs": 1536,
+      "translationVi": "Lily."
+    },
+    {
+      "id": "s16",
+      "speaker": "Barista",
+      "text": "Thanks, Lily!",
+      "durationMs": 2064,
+      "translationVi": "Cảm ơn Lily!"
+    },
+    {
+      "id": "s17",
+      "speaker": "Barista",
+      "text": "Your latte will be ready soon.",
+      "durationMs": 2760,
+      "translationVi": "Ly latte của bạn sẽ sẵn sàng ngay thôi."
+    }
   ],
   "hintStarters": [
-    { "id": "h1", "text": "Could I have a …, please?" },
-    { "id": "h2", "text": "I'd like it …" }
+    {
+      "id": "h1",
+      "text": "Could I have a …, please?"
+    },
+    {
+      "id": "h2",
+      "text": "I'd like a …, please."
+    },
+    {
+      "id": "h3",
+      "text": "How much is a …?"
+    }
   ],
   "hintVocab": [
-    { "id": "v1", "phrase": "iced latte",      "meaningVi": "cà phê sữa đá kiểu Ý",  "pronunciation": "/aɪst ˈlɑː.teɪ/" },
-    { "id": "v2", "phrase": "coming right up", "meaningVi": "ngay đây ạ",              "pronunciation": "/ˈkʌmɪŋ raɪt ʌp/" }
+    {
+      "id": "v1",
+      "phrase": "iced latte",
+      "meaningVi": "cà phê sữa đá kiểu Ý",
+      "pronunciation": "/aɪst ˈlɑː.teɪ/"
+    },
+    {
+      "id": "v2",
+      "phrase": "of course",
+      "meaningVi": "tất nhiên rồi / được chứ",
+      "pronunciation": "/əv kɔːrs/"
+    },
+    {
+      "id": "v3",
+      "phrase": "anything else",
+      "meaningVi": "còn gì nữa không",
+      "pronunciation": "/ˈeniθɪŋ els/"
+    },
+    {
+      "id": "v4",
+      "phrase": "ready soon",
+      "meaningVi": "sẵn sàng ngay / sắp xong",
+      "pronunciation": "/ˈredi suːn/"
+    }
   ],
   "annotations": [
-    { "phrase": "iced latte", "meaningVi": "cà phê sữa đá kiểu Ý", "pronunciation": "/aɪst ˈlɑː.teɪ/" }
+    {
+      "phrase": "I'd like",
+      "meaningVi": "Tôi muốn (cách nói lịch sự hơn 'I want')",
+      "pronunciation": "/aɪd laɪk/"
+    },
+    {
+      "phrase": "iced latte",
+      "meaningVi": "cà phê sữa đá kiểu Ý",
+      "pronunciation": "/aɪst ˈlɑː.teɪ/"
+    },
+    {
+      "phrase": "four fifty",
+      "meaningVi": "bốn đô rưỡi (4,50 USD)",
+      "pronunciation": "/fɔːr ˈfɪfti/"
+    },
+    {
+      "phrase": "anything else",
+      "meaningVi": "còn gì nữa không",
+      "pronunciation": "/ˈeniθɪŋ els/"
+    },
+    {
+      "phrase": "a name for the order",
+      "meaningVi": "tên để gọi lấy đồ uống",
+      "pronunciation": "/ə neɪm fɔːr ðə ˈɔːrdər/"
+    },
+    {
+      "phrase": "Can I have",
+      "meaningVi": "Cho tôi... (cách đặt hàng lịch sự)",
+      "pronunciation": "/kæn aɪ hæv/",
+      "exampleEn": "Can I have a coffee, please?"
+    },
+    {
+      "phrase": "please",
+      "meaningVi": "làm ơn (dùng để lịch sự khi yêu cầu)",
+      "pronunciation": "/pliːz/",
+      "exampleEn": "Two coffees, please."
+    },
+    {
+      "phrase": "Medium",
+      "meaningVi": "Cỡ vừa (kích thước)",
+      "pronunciation": "/ˈmiːdiəm/",
+      "exampleEn": "I'd like a medium coffee."
+    },
+    {
+      "phrase": "That's all",
+      "meaningVi": "Vậy thôi / Chỉ vậy thôi",
+      "pronunciation": "/ðæts ɔːl/",
+      "exampleEn": "No, that's all. Thank you."
+    },
+    {
+      "phrase": "ready soon",
+      "meaningVi": "sẽ sẵn sàng sớm (sẽ xong sớm)",
+      "pronunciation": "/ˈrɛdi suːn/",
+      "exampleEn": "Your order will be ready soon."
+    }
   ],
   "grammarNotes": [
     {
-      "title": "Polite requests with 'can I'",
-      "bodyVi": "Dùng 'Can I …, please?' để yêu cầu lịch sự trong tiếng Anh hàng ngày.",
-      "bodyEn": "Use 'Can I …, please?' for polite everyday requests."
+      "title": "Polite requests: 'Can I have…?' vs 'I'd like…'",
+      "bodyVi": "Cả hai đều dùng để đặt hàng lịch sự. 'Can I have an iced latte?' phổ biến hơn trong giao tiếp hàng ngày, còn 'I'd like an iced latte' nghe trang trọng hơn một chút.",
+      "bodyEn": "Both are polite ways to order. 'Can I have…?' is very common in casual speech; 'I'd like…' sounds slightly more formal."
+    },
+    {
+      "title": "Short questions in service situations",
+      "bodyVi": "Người bán thường dùng câu hỏi ngắn như 'What size?' hoặc 'Anything else?' để tiết kiệm thời gian. Bạn có thể trả lời ngắn gọn, ví dụ: 'Medium, please.'",
+      "bodyEn": "Service staff often use short questions like 'What size?' or 'Anything else?' to keep things quick. Short answers like 'Medium, please.' are perfectly natural."
     }
   ],
-  "translationVi": "Khách: Cho tôi một ly cà phê sữa đá nhé? Nhân viên: Vâng, cỡ nào ạ? Khách: Cỡ vừa ạ. Nhân viên: Ngay đây ạ!",
-  "criticalThinkingQuestion": "Why might tone matter as much as words when ordering at a café?",
+  "translationVi": "Khách: Xin chào! Cho tôi gọi đồ nhé. / Nhân viên: Tất nhiên rồi! Bạn muốn gì? / Khách: Cho tôi một ly cà phê sữa đá, làm ơn. / Nhân viên: Cỡ nào? Nhỏ, vừa hay lớn? / Khách: Cỡ vừa nhé. / Nhân viên: Bốn đô rưỡi. Còn gì nữa không? / Khách: Không, vậy thôi. Cảm ơn. / Nhân viên: Tuyệt! Cho tôi biết tên để gọi đồ nhé? / Khách: Lily. / Nhân viên: Cảm ơn Lily! Ly latte của bạn sẽ sẵn sàng ngay thôi.",
+  "criticalThinkingQuestion": "Why is it useful to learn both 'Can I have…?' and 'I'd like…' for ordering, instead of just one phrase?",
   "audio": {
     "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-a1-001",
     "manifestVersion": 1
   },
-  "accents": ["en-US"]
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 35880
 }
