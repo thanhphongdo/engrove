@@ -2,46 +2,36 @@
 
 import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
-import { Moon, Sun, Monitor } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Moon, Sun } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-const MODES = [
-  { value: "light",  icon: Sun,     label: "Light"  },
-  { value: "dark",   icon: Moon,    label: "Dark"   },
-  { value: "system", icon: Monitor, label: "System" },
-] as const;
+const ICON_BUTTON =
+  "grid size-9 place-items-center rounded-lg text-neutral-600 transition-colors hover:bg-neutral-100 dark:text-neutral-300 dark:hover:bg-white/10";
 
-export function ThemeToggle() {
-  const { theme, setTheme } = useTheme();
+/**
+ * Single light/dark toggle for the top app bar. Uses the resolved theme so it
+ * flips correctly even when the user has never made an explicit choice (the app
+ * still defaults to the OS preference on first load via next-themes `enableSystem`).
+ */
+export function ThemeToggle({ className }: { className?: string }) {
+  const { resolvedTheme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
-  // The server doesn't know the user's stored theme, so we render an inert
-  // placeholder until after hydration to keep SSR and first-client renders identical.
+  // Avoid SSR/client mismatch: the server can't know the resolved theme.
   // eslint-disable-next-line react-hooks/set-state-in-effect
   useEffect(() => setMounted(true), []);
-  if (!mounted) return <div className="h-9" aria-hidden="true" />;
+
+  if (!mounted) return <div className="size-9" aria-hidden="true" />;
+
+  const isDark = resolvedTheme === "dark";
 
   return (
-    <div className="flex gap-1 rounded-md border bg-background p-1" role="radiogroup" aria-label="Theme">
-      {MODES.map((m) => {
-        const Icon = m.icon;
-        const active = theme === m.value;
-        return (
-          <Button
-            key={m.value}
-            type="button"
-            variant="ghost"
-            size="sm"
-            role="radio"
-            aria-checked={active}
-            aria-label={m.label}
-            onClick={() => setTheme(m.value)}
-            className={cn("h-7 flex-1 px-2", active && "bg-secondary text-secondary-foreground")}
-          >
-            <Icon className="size-3.5" aria-hidden="true" />
-          </Button>
-        );
-      })}
-    </div>
+    <button
+      type="button"
+      onClick={() => setTheme(isDark ? "light" : "dark")}
+      aria-label={isDark ? "Switch to light mode" : "Switch to dark mode"}
+      className={cn(ICON_BUTTON, className)}
+    >
+      {isDark ? <Sun className="size-4.5" /> : <Moon className="size-4.5" />}
+    </button>
   );
 }

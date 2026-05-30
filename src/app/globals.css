@@ -211,3 +211,26 @@
     letter-spacing: 0.04em;
   }
 }
+
+/* Brand wordmark — emerald→green gradient text used in the top bar and footer.
+   Colors come from Tailwind's theme tokens (no hardcoded hex per project rules). */
+.wordmark {
+  background-image: linear-gradient(135deg, var(--color-emerald-700), var(--color-green-600));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+.dark .wordmark {
+  background-image: linear-gradient(135deg, var(--color-emerald-400), var(--color-green-300));
+}
+
+/* Hide scrollbars on horizontally-scrolling pill/tag rows while keeping them scrollable. */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}

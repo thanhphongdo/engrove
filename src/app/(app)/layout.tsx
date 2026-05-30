@@ -1,14 +1,10 @@
-import { Sidebar } from "@/components/app-shell/sidebar";
-import { MobileSidebar } from "@/components/app-shell/mobile-sidebar";
+import { AppHeader } from "@/components/app-shell/app-header";
 
 export default function AppLayout({ children }: { children: React.ReactNode }) {
-  // h-full + min-h-0 lets the main column scroll internally instead of pushing
-  // the page (and the sidebar's bottom controls) past the viewport.
   return (
-    <div className="flex h-full min-h-0 flex-1">
-      <Sidebar />
-      <MobileSidebar />
-      <main className="flex min-h-0 flex-1 flex-col overflow-auto">{children}</main>
+    <div className="min-h-full bg-neutral-50 text-[0.9375rem] text-neutral-900 dark:bg-neutral-950 dark:text-neutral-100">
+      <AppHeader />
+      {children}
     </div>
   );
 }
