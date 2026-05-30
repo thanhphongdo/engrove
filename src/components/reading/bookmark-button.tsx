@@ -27,7 +27,7 @@ export function BookmarkButton({
 
   const base =
     "inline-flex items-center justify-center rounded transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring";
-  const cardClass = "absolute right-2 top-2 size-7 bg-background/80 backdrop-blur-sm hover:bg-background";
+  const cardClass = "absolute right-2.5 top-2.5 size-7";
   const inlineClass = "size-8 hover:bg-accent";
 
   return (
