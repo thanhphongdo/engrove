@@ -119,17 +119,17 @@ export function PlaybackTimeline({ sentences }: { sentences: Sentence[] }) {
   }
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-50 flex items-center gap-3 border-t bg-background/95 px-4 py-3 backdrop-blur supports-backdrop-filter:bg-background/80">
+    <div className="fixed inset-x-0 bottom-0 z-50 flex items-center gap-3 border-t border-neutral-200 bg-white/95 px-4 py-3 backdrop-blur dark:border-white/10 dark:bg-neutral-900/95">
       <button
         type="button"
         onClick={status === "paused" ? resume : pause}
         aria-label={status === "paused" ? "Resume" : "Pause"}
-        className="flex size-8 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground shadow hover:opacity-90 active:scale-95"
+        className="flex size-8 shrink-0 items-center justify-center rounded-full bg-emerald-600 text-white shadow transition-transform hover:bg-emerald-700 active:scale-95 dark:bg-emerald-500 dark:hover:bg-emerald-400"
       >
         {status === "paused" ? (
-          <Play className="size-4 translate-x-px" aria-hidden="true" />
+          <Play className="size-4 translate-x-px" fill="currentColor" aria-hidden="true" />
         ) : (
-          <Pause className="size-4" aria-hidden="true" />
+          <Pause className="size-4" fill="currentColor" aria-hidden="true" />
         )}
       </button>
 
@@ -154,23 +154,23 @@ export function PlaybackTimeline({ sentences }: { sentences: Sentence[] }) {
             seekToGlobalMs(Math.max(0, currentMs - step));
         }}
       >
-        <div className="relative h-1.5 w-full overflow-hidden rounded-full bg-muted">
+        <div className="relative h-1.5 w-full overflow-hidden rounded-full bg-neutral-200 dark:bg-white/10">
           <div
-            className="absolute inset-y-0 left-0 rounded-full bg-primary/20"
+            className="absolute inset-y-0 left-0 rounded-full bg-emerald-500/30 dark:bg-emerald-400/20"
             style={{ width: `${bufferedPct}%` }}
           />
           <div
-            className="absolute inset-y-0 left-0 rounded-full bg-primary"
+            className="absolute inset-y-0 left-0 rounded-full bg-emerald-500 dark:bg-emerald-400"
             style={{ width: `${progressPct}%` }}
           />
         </div>
         <div
-          className="pointer-events-none absolute top-1/2 size-4 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-primary bg-background shadow"
+          className="pointer-events-none absolute top-1/2 size-4 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-emerald-600 bg-white shadow dark:border-emerald-400 dark:bg-neutral-900"
           style={{ left: `${progressPct}%` }}
         />
       </div>
 
-      <span className="shrink-0 tabular-nums text-xs text-muted-foreground">
+      <span className="shrink-0 font-mono text-xs tabular-nums text-neutral-500 dark:text-neutral-400">
         {fmtMs(displayMs)} / {fmtMs(totalMs)}
       </span>
     </div>

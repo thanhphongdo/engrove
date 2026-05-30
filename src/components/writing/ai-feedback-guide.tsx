@@ -10,8 +10,9 @@ import {
   MessageSquare,
   Sparkles,
   Wand2,
+  X,
 } from "lucide-react";
-import { Dialog, DialogContent } from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { useLocalStorageBoolean } from "@/lib/use-local-storage";
 import { cn } from "@/lib/utils";
@@ -228,10 +229,11 @@ export function AiFeedbackGuide() {
     "writing-ai-guide-v3",
     false,
   );
-  const [sessionSkipped, setSessionSkipped] = useState(false);
+  // The walkthrough auto-opens on first visit; afterwards the banner lets the
+  // learner reopen it on demand. `dismissed` (persisted) hides both for good.
+  const [open, setOpen] = useState(!dismissed);
   const [step, setStep] = useState(0);
 
-  const open = !dismissed && !sessionSkipped;
   const isFirst = step === 0;
   const isLast = step === STEPS.length - 1;
   const current = STEPS[step];
@@ -239,17 +241,46 @@ export function AiFeedbackGuide() {
   function handleNext() {
     if (isLast) {
       setDismissed(true);
+      setOpen(false);
     } else {
       setStep((s) => s + 1);
     }
   }
 
-  function handleOpenChange(v: boolean) {
-    if (!v) setSessionSkipped(true);
+  function openGuide() {
+    setStep(0);
+    setOpen(true);
   }
 
   return (
-    <Dialog open={open} onOpenChange={handleOpenChange}>
+    <>
+      {!dismissed && (
+        <div className="mt-4 flex items-center gap-3 rounded-xl border-l-4 border-emerald-400 bg-neutral-100/60 px-4 py-3 text-sm dark:bg-white/5">
+          <span className="shrink-0 text-emerald-600 dark:text-emerald-400">
+            <Sparkles className="size-4" aria-hidden="true" />
+          </span>
+          <span className="flex-1 text-emerald-800 dark:text-emerald-300">
+            New here? Learn how to use AI feedback to improve your writing faster.
+          </span>
+          <button
+            type="button"
+            onClick={openGuide}
+            className="shrink-0 rounded-lg border border-emerald-300 bg-white px-3 py-1.5 text-xs font-semibold text-emerald-700 hover:bg-emerald-50 dark:border-emerald-500/30 dark:bg-emerald-500/10 dark:text-emerald-300 dark:hover:bg-emerald-500/20"
+          >
+            Show guide
+          </button>
+          <button
+            type="button"
+            onClick={() => setDismissed(true)}
+            aria-label="Dismiss guide"
+            className="grid size-7 shrink-0 place-items-center rounded-lg text-emerald-600 hover:bg-emerald-100 dark:text-emerald-400 dark:hover:bg-emerald-500/20"
+          >
+            <X className="size-3.5" aria-hidden="true" />
+          </button>
+        </div>
+      )}
+
+      <Dialog open={open} onOpenChange={setOpen}>
       <DialogContent
         className="max-w-sm gap-0 overflow-hidden p-0 sm:max-w-md"
         onInteractOutside={(e) => e.preventDefault()}
@@ -257,7 +288,7 @@ export function AiFeedbackGuide() {
         {/* Header */}
         <div className="flex items-center gap-2 border-b px-4 py-3 pr-10">
           <Sparkles className="size-4 text-primary" />
-          <span className="text-sm font-semibold">How to use AI Feedback</span>
+          <DialogTitle className="text-sm font-semibold">How to use AI Feedback</DialogTitle>
         </div>
 
         {/* Step indicator */}
@@ -343,6 +374,7 @@ export function AiFeedbackGuide() {
           </div>
         </div>
       </DialogContent>
-    </Dialog>
+      </Dialog>
+    </>
   );
 }

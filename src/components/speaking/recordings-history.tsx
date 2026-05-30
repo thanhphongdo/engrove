@@ -1,14 +1,18 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { Download, Play, Trash2 } from "lucide-react";
+import { Download, Pause, Play, Trash2 } from "lucide-react";
+import { DetailCard } from "@/components/lesson/detail-card";
 import {
   useSpeakingRecordings,
   useDeleteSpeakingRecording,
 } from "@/lib/db/use-speaking-recordings";
 
-function formatDate(ms: number): string {
-  return new Date(ms).toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
+function formatDateTime(ms: number): string {
+  const d = new Date(ms);
+  const date = d.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
+  const time = d.toLocaleTimeString(undefined, { hour: "2-digit", minute: "2-digit" });
+  return `${date} · ${time}`;
 }
 
 function formatDuration(ms: number): string {
@@ -51,18 +55,37 @@ function RecordingRow({ rec, lessonTitle }: { rec: { id: string; role: string; c
   }
 
   return (
-    <div className="flex items-center gap-3 rounded-md border p-3">
-      <div className="min-w-0 flex-1">
-        <p className="text-sm font-medium truncate">As {rec.role}</p>
-        <p className="text-xs text-muted-foreground">{formatDate(rec.completedAt)} · {formatDuration(rec.durationMs)}</p>
-      </div>
-      <button type="button" onClick={handlePlay} aria-label={playing ? "Pause" : "Play"} className="shrink-0 rounded-full p-1.5 hover:bg-accent">
-        <Play className="size-4 fill-current" aria-hidden="true" />
+    <div className="flex items-center gap-3 py-2.5">
+      <button
+        type="button"
+        onClick={handlePlay}
+        aria-label={playing ? "Pause" : "Play"}
+        className="grid size-8 shrink-0 place-items-center rounded-full bg-neutral-100 text-neutral-700 transition-colors hover:bg-neutral-200 dark:bg-white/10 dark:text-neutral-200 dark:hover:bg-white/20"
+      >
+        {playing ? (
+          <Pause className="size-3.5 fill-current" aria-hidden="true" />
+        ) : (
+          <Play className="size-3.5 fill-current" aria-hidden="true" />
+        )}
       </button>
-      <button type="button" onClick={handleDownload} aria-label="Download" className="shrink-0 rounded-full p-1.5 hover:bg-accent">
+      <div className="min-w-0 flex-1">
+        <p className="font-medium">{formatDateTime(rec.completedAt)}</p>
+        <p className="text-xs text-neutral-400">Role: {rec.role} · {formatDuration(rec.durationMs)}</p>
+      </div>
+      <button
+        type="button"
+        onClick={handleDownload}
+        aria-label="Download"
+        className="shrink-0 text-neutral-400 transition-colors hover:text-neutral-700 dark:hover:text-neutral-200"
+      >
         <Download className="size-4" aria-hidden="true" />
       </button>
-      <button type="button" onClick={() => deleteRecording(rec.id)} aria-label="Delete recording" className="shrink-0 rounded-full p-1.5 text-destructive hover:bg-destructive/10">
+      <button
+        type="button"
+        onClick={() => deleteRecording(rec.id)}
+        aria-label="Delete recording"
+        className="shrink-0 text-neutral-400 transition-colors hover:text-destructive"
+      >
         <Trash2 className="size-4" aria-hidden="true" />
       </button>
     </div>
@@ -77,13 +100,13 @@ export function RecordingsHistory({ lessonId, lessonTitle }: Props) {
   if (!recordings || recordings.length === 0) return null;
 
   return (
-    <section className="mt-8">
-      <h2 className="mb-3 text-base font-semibold">My recordings</h2>
-      <div className="space-y-2">
+    <DetailCard>
+      <h2 className="mb-3 text-sm font-semibold text-neutral-700 dark:text-neutral-200">My recordings</h2>
+      <div className="divide-y divide-neutral-100 text-sm dark:divide-white/5">
         {recordings.map((rec) => (
           <RecordingRow key={rec.id} rec={rec} lessonTitle={lessonTitle} />
         ))}
       </div>
-    </section>
+    </DetailCard>
   );
 }

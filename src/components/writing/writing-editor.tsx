@@ -3,6 +3,7 @@
 import { useMemo } from "react";
 import { Copy } from "lucide-react";
 import { toast } from "sonner";
+import { DetailCard } from "@/components/lesson/detail-card";
 import { useWritingSession } from "./writing-session";
 import { cn } from "@/lib/utils";
 
@@ -28,40 +29,31 @@ export function WritingEditor() {
   }
 
   return (
-    <section className="rounded-md border bg-card p-3 sm:p-4 shadow-md dark:shadow-[0_4px_20px_rgba(255,255,255,0.035)]">
-      <div className="mb-2 flex items-center justify-between gap-2">
-        <h2 className="text-sm font-semibold">Your writing</h2>
-        <button
-          type="button"
-          onClick={copyText}
-          className="inline-flex items-center gap-1 rounded border px-2 py-0.5 text-xs hover:bg-accent"
-        >
-          <Copy className="size-3" aria-hidden="true" />
-          Copy text
-        </button>
-      </div>
+    <DetailCard>
+      <h2 className="mb-3 text-sm font-semibold text-neutral-700 dark:text-neutral-200">
+        Your writing
+      </h2>
       <textarea
         value={text}
         onChange={(e) => setText(e.target.value)}
-        placeholder="Write your response here…"
-        className="min-h-[20rem] w-full resize-y rounded border bg-background p-2 text-sm leading-relaxed outline-none focus:ring-1 focus:ring-ring"
+        rows={7}
+        placeholder="Start writing here…"
+        className="w-full resize-y rounded-lg border border-neutral-200 bg-neutral-50 p-3 text-sm leading-relaxed text-neutral-800 placeholder-neutral-400 focus:border-emerald-400 focus:outline-none focus:ring-2 focus:ring-emerald-200 dark:border-white/10 dark:bg-neutral-800 dark:text-neutral-200 dark:placeholder-neutral-500 dark:focus:border-emerald-500 dark:focus:ring-emerald-500/20"
       />
-      <div className="mt-1 flex flex-wrap items-center justify-between gap-x-4 gap-y-0.5">
-        <p
-          className={cn(
-            "text-xs",
-            tooShort || tooLong ? "text-amber-600 dark:text-amber-400" : "text-muted-foreground",
-          )}
-        >
+      <div className="mt-2 flex items-center justify-between gap-2 text-[0.8rem] text-neutral-500 dark:text-neutral-400">
+        <span className={cn(tooShort || tooLong ? "text-amber-600 dark:text-amber-400" : undefined)}>
           {words} word{words === 1 ? "" : "s"}
-          {min != null || max != null
-            ? ` · target ${min ?? "?"}–${max ?? "?"}`
-            : ""}
-        </p>
-        <p className="text-xs text-muted-foreground">
-          Done? Use <span className="font-medium text-foreground">Get AI feedback</span> below ↓
-        </p>
+          {min != null || max != null ? ` · target ${min ?? "?"}–${max ?? "?"}` : ""}
+        </span>
+        <button
+          type="button"
+          onClick={copyText}
+          className="inline-flex items-center gap-1.5 rounded-lg border border-neutral-200 bg-white px-2.5 py-1.5 text-xs font-medium text-neutral-600 hover:bg-neutral-50 dark:border-white/10 dark:bg-neutral-800 dark:text-neutral-300 dark:hover:bg-white/5"
+        >
+          <Copy className="size-3.5" aria-hidden="true" />
+          Copy text
+        </button>
       </div>
-    </section>
+    </DetailCard>
   );
 }

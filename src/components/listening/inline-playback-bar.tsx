@@ -1,15 +1,14 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { Pause, Play } from "lucide-react";
+import { FileText, Pause, Play } from "lucide-react";
 import { useListeningAudioStore } from "@/stores/listening-audio-store";
+import { formatClock } from "@/lib/format";
+import { cn } from "@/lib/utils";
 import type { Sentence } from "@/lib/lessons/types";
 
 function fmtMs(ms: number): string {
-  const totalSec = Math.floor(ms / 1000);
-  const m = Math.floor(totalSec / 60);
-  const s = totalSec % 60;
-  return `${m}:${String(s).padStart(2, "0")}`;
+  return formatClock(ms);
 }
 
 function fmtDuration(ms: number): string {
@@ -19,19 +18,51 @@ function fmtDuration(ms: number): string {
   return m > 0 ? `${m}m ${s}s` : `${s}s`;
 }
 
+// Deterministic pseudo-random bar heights so the waveform looks organic but
+// stays stable across re-renders (no layout shift while scrubbing).
+const WAVE_COUNT = 44;
+function waveHeights(): number[] {
+  const out: number[] = [];
+  let seed = 1337;
+  for (let i = 0; i < WAVE_COUNT; i++) {
+    seed = (seed * 9301 + 49297) % 233280;
+    out.push(38 + Math.round((seed / 233280) * 57)); // 38–95%
+  }
+  return out;
+}
+
+const SPEEDS = [1, 1.25, 1.5, 0.75] as const;
+
+/**
+ * The "Play all" gapless engine controller. Two visual modes:
+ *
+ * - Default (compact): a borderless inline scrubber — an idle "Play all" button
+ *   that becomes a play/pause + draggable scrubber + time readout. Reused by the
+ *   speaking detail page.
+ * - Player card (listening): pass `onToggleTranscript` to render the large
+ *   round play button, a clickable waveform with a playhead, the time readout, a
+ *   speed pill, and a "Show transcript" toggle.
+ */
 export function InlinePlaybackBar({
   lessonId,
   cdnBase,
   manifestVersion,
   sentences,
   totalDurationMs,
+  transcriptShown,
+  onToggleTranscript,
 }: {
   lessonId: string;
   cdnBase: string;
   manifestVersion: number;
   sentences: Sentence[];
   totalDurationMs: number | undefined;
+  /** When provided, render the listening player-card layout. */
+  transcriptShown?: boolean;
+  onToggleTranscript?: () => void;
 }) {
+  const cardMode = onToggleTranscript !== undefined;
+
   const currentLessonId = useListeningAudioStore((s) => s.lessonId);
   const mode = useListeningAudioStore((s) => s.mode);
   const status = useListeningAudioStore((s) => s.status);
@@ -49,8 +80,10 @@ export function InlinePlaybackBar({
   const [currentMs, setCurrentMs] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
   const [dragMs, setDragMs] = useState(0);
+  const [speedIdx, setSpeedIdx] = useState(0);
   const barRef = useRef<HTMLDivElement>(null);
   const rafRef = useRef<number | undefined>(undefined);
+  const heights = useMemo(() => waveHeights(), []);
 
   const isOurLesson = currentLessonId === lessonId;
   const isActive = isOurLesson && mode === "playAll" && status !== "idle";
@@ -116,6 +149,15 @@ export function InlinePlaybackBar({
     };
   }, [isActive, audioEl, currentIndex, offsets, concatActive]);
 
+  // Apply the chosen playback rate to the live element (card mode only). Read
+  // the element imperatively so we're not mutating a hook-returned binding, and
+  // re-apply when the track swaps (playbackRate resets on src change).
+  useEffect(() => {
+    if (!cardMode) return;
+    const el = useListeningAudioStore.getState().audioEl;
+    if (el) el.playbackRate = SPEEDS[speedIdx];
+  }, [cardMode, speedIdx, status, concatUrl]);
+
   // Concat track is a fully-local blob → entirely seekable. Per-sentence
   // fallback: contiguous buffered duration from sentence 0.
   const bufferedMs = useMemo(() => {
@@ -154,11 +196,117 @@ export function InlinePlaybackBar({
     seekToGlobalMs(ms);
   }
 
-  const displayMs = isDragging ? dragMs : (isActive ? currentMs : 0);
+  const displayMs = isDragging ? dragMs : isActive ? currentMs : 0;
   const progressPct = totalMs > 0 ? Math.min(100, (displayMs / totalMs) * 100) : 0;
   const bufferedPct = totalMs > 0 ? Math.min(100, (bufferedMs / totalMs) * 100) : 0;
   const audioPending = totalDurationMs === undefined;
 
+  // ── Listening player-card layout ──
+  if (cardMode) {
+    function handleMainButton() {
+      if (!isActive) {
+        playAll(lessonId, cdnBase, sentences, undefined, manifestVersion);
+      } else if (isPlaying) {
+        pause();
+      } else {
+        resume();
+      }
+    }
+
+    return (
+      <div className="flex flex-col items-center gap-4 sm:flex-row sm:gap-5">
+        {/* Large play/pause button */}
+        <button
+          type="button"
+          onClick={handleMainButton}
+          disabled={audioPending}
+          aria-label={isPlaying ? "Pause" : "Play all"}
+          className="grid size-16 shrink-0 place-items-center rounded-full bg-emerald-600 text-white shadow-lg transition-transform hover:bg-emerald-700 active:scale-95 disabled:cursor-not-allowed disabled:opacity-50 dark:bg-emerald-500 dark:hover:bg-emerald-400"
+        >
+          {isPlaying ? (
+            <Pause className="size-7" fill="currentColor" aria-hidden="true" />
+          ) : (
+            <Play className="size-7 translate-x-0.5" fill="currentColor" aria-hidden="true" />
+          )}
+        </button>
+
+        <div ref={barRef} className="flex w-full flex-col gap-2">
+          {/* Waveform / progress bar row — tinted track, clickable + draggable */}
+          <div
+            role="slider"
+            aria-valuemin={0}
+            aria-valuemax={totalMs}
+            aria-valuenow={Math.round(displayMs)}
+            aria-label="Playback position"
+            tabIndex={0}
+            onPointerDown={isActive ? handlePointerDown : undefined}
+            onPointerMove={isActive ? handlePointerMove : undefined}
+            onPointerUp={isActive ? handlePointerUp : undefined}
+            onPointerCancel={isActive ? handlePointerUp : undefined}
+            onKeyDown={(e) => {
+              if (!isActive) return;
+              const step = totalMs * 0.02;
+              if (e.key === "ArrowRight") seekToGlobalMs(Math.min(bufferedMs, currentMs + step));
+              if (e.key === "ArrowLeft") seekToGlobalMs(Math.max(0, currentMs - step));
+            }}
+            className={cn(
+              "relative flex h-10 touch-none select-none items-end gap-px overflow-hidden rounded-lg bg-neutral-100/60 px-2 dark:bg-white/5",
+              isActive && "cursor-pointer",
+            )}
+          >
+            {heights.map((h, i) => {
+              const played = totalMs > 0 && (i / heights.length) * 100 <= progressPct;
+              return (
+                <div
+                  key={i}
+                  className={cn(
+                    "w-[3px] rounded-full",
+                    played ? "bg-emerald-600 dark:bg-emerald-400" : "bg-emerald-100 dark:bg-emerald-900",
+                  )}
+                  style={{ height: `${h}%` }}
+                />
+              );
+            })}
+            {/* Playhead marker */}
+            {isActive && (
+              <div className="absolute bottom-0 top-0 flex items-center" style={{ left: `${progressPct}%` }}>
+                <div className="h-full w-0.5 rounded-full bg-emerald-600 dark:bg-emerald-400" />
+              </div>
+            )}
+          </div>
+
+          {/* Time + controls row */}
+          <div className="flex items-center justify-between">
+            <span className="font-mono text-sm tabular-nums text-neutral-500 dark:text-neutral-400">
+              {audioPending ? "audio pending" : `${formatClock(displayMs)} / ${formatClock(totalMs)}`}
+            </span>
+            <div className="flex items-center gap-2">
+              {/* Speed pill */}
+              <button
+                type="button"
+                onClick={() => setSpeedIdx((i) => (i + 1) % SPEEDS.length)}
+                aria-label="Playback speed"
+                className="rounded-full bg-neutral-200/70 px-2.5 py-0.5 text-xs font-semibold text-neutral-600 transition-colors hover:bg-neutral-200 dark:bg-white/10 dark:text-neutral-300 dark:hover:bg-white/15"
+              >
+                {SPEEDS[speedIdx].toFixed(SPEEDS[speedIdx] % 1 === 0 ? 1 : 2)}×
+              </button>
+              {/* Show / hide transcript */}
+              <button
+                type="button"
+                onClick={onToggleTranscript}
+                className="inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-xs font-medium text-neutral-600 transition-colors hover:bg-neutral-200/60 dark:text-neutral-300 dark:hover:bg-white/10"
+              >
+                <FileText className="size-3.5" aria-hidden="true" />
+                {transcriptShown ? "Hide transcript" : "Show transcript"}
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // ── Default compact inline scrubber (speaking) ──
   return (
     <div ref={barRef} className="flex min-w-0 flex-1 items-center gap-2">
       {!isActive ? (
@@ -201,23 +349,15 @@ export function InlinePlaybackBar({
             onPointerCancel={handlePointerUp}
             onKeyDown={(e) => {
               const step = totalMs * 0.02;
-              if (e.key === "ArrowRight")
-                seekToGlobalMs(Math.min(bufferedMs, currentMs + step));
-              if (e.key === "ArrowLeft")
-                seekToGlobalMs(Math.max(0, currentMs - step));
+              if (e.key === "ArrowRight") seekToGlobalMs(Math.min(bufferedMs, currentMs + step));
+              if (e.key === "ArrowLeft") seekToGlobalMs(Math.max(0, currentMs - step));
             }}
           >
             <div className="relative h-1.5 w-full overflow-hidden rounded-full bg-muted">
               {/* Buffered region — lighter tint under the played fill */}
-              <div
-                className="absolute inset-y-0 left-0 rounded-full bg-primary/20"
-                style={{ width: `${bufferedPct}%` }}
-              />
+              <div className="absolute inset-y-0 left-0 rounded-full bg-primary/20" style={{ width: `${bufferedPct}%` }} />
               {/* Played region */}
-              <div
-                className="absolute inset-y-0 left-0 rounded-full bg-primary"
-                style={{ width: `${progressPct}%` }}
-              />
+              <div className="absolute inset-y-0 left-0 rounded-full bg-primary" style={{ width: `${progressPct}%` }} />
             </div>
             {/* Drag handle */}
             <div

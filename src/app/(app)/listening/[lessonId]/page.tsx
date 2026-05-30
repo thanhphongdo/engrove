@@ -1,9 +1,7 @@
 "use client";
 
 import { Suspense, use, useEffect, useState } from "react";
-import { Pin, PinOff } from "lucide-react";
 import { useLocalStorageBoolean } from "@/lib/use-local-storage";
-import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import { useListeningLesson } from "@/lib/lessons/load";
 import { useLiveQuery } from "dexie-react-hooks";
 import { listAttemptsForLesson, getDraft, deleteDraft } from "@/lib/db/queries";
@@ -11,7 +9,8 @@ import { LessonTimer } from "@/components/reading/lesson-timer";
 import { useTimerStore } from "@/stores/timer-store";
 import { cn } from "@/lib/utils";
 import type { Lesson } from "@/lib/lessons/types";
-import { Transcript } from "@/components/listening/transcript";
+import { SentenceTimeline, TranscriptCard } from "@/components/listening/transcript";
+import { InlinePlaybackBar } from "@/components/listening/inline-playback-bar";
 import { TranscriptPlayer } from "@/components/listening/transcript-player";
 import { GrammarNotes } from "@/components/reading/grammar-notes";
 import { HintSettingsPopover } from "@/components/reading/hint-settings-popover";
@@ -45,6 +44,7 @@ function ListeningLessonDetailContent({ params }: { params: Promise<{ lessonId: 
   const draft = useLiveQuery(() => getDraft(profileId, lessonId), [profileId, lessonId]);
   const [contentPinned, setContentPinned] = useLocalStorageBoolean("listening.lessonContentPinned");
   const [sessionEpoch, setSessionEpoch] = useState(0);
+  const [transcriptShown, setTranscriptShown] = useState(false);
   const loadAudio = useListeningAudioStore((s) => s.load);
   const stopAudio = useListeningAudioStore((s) => s.stop);
 
@@ -70,9 +70,10 @@ function ListeningLessonDetailContent({ params }: { params: Promise<{ lessonId: 
     undefined,
   );
   const hasDraft = draft != null;
+  const isTwoColumn = prefs.detailLayout === "two-column";
 
   return (
-    <main className="mx-auto max-w-5xl px-4 pb-16 sm:px-6">
+    <main className="mx-auto max-w-5xl px-4 pb-28 sm:px-6 md:pb-16">
       <TranscriptPlayer />
       <PlaybackTimeline sentences={lesson.sentences} />
 
@@ -84,8 +85,10 @@ function ListeningLessonDetailContent({ params }: { params: Promise<{ lessonId: 
         meta={
           <>
             <AccentFlag accents={lesson.accents} />
-            <span className="text-neutral-500">{lesson.totalDurationMs ? formatDuration(lesson.totalDurationMs) : "audio pending"}</span>
-            <span className="text-neutral-400">·</span>
+            <span className="text-neutral-500">
+              {lesson.totalDurationMs ? formatDuration(lesson.totalDurationMs) : "audio pending"}
+            </span>
+            <span className="text-neutral-300 dark:text-neutral-600">·</span>
             <span className="text-neutral-500">{lesson.sentences.length} sentences</span>
             {lesson.tags.map((t) => (
               <span key={t} className="text-neutral-500">#{t}</span>
@@ -105,10 +108,27 @@ function ListeningLessonDetailContent({ params }: { params: Promise<{ lessonId: 
         }
       />
 
-      <p className="mt-4 rounded-xl bg-neutral-100/60 px-4 py-3 text-sm dark:bg-white/5">
-        <strong className="font-semibold">Summary:</strong>{" "}
-        <span className="italic text-neutral-600 dark:text-neutral-300">{lesson.summary}</span>
-      </p>
+      {/* 1. Audio player card */}
+      <DetailCard className="mt-4">
+        <InlinePlaybackBar
+          lessonId={lesson.id}
+          cdnBase={lesson.audio.cdnBase}
+          manifestVersion={lesson.audio.manifestVersion}
+          sentences={lesson.sentences}
+          totalDurationMs={lesson.totalDurationMs}
+          transcriptShown={transcriptShown}
+          onToggleTranscript={() => setTranscriptShown((v) => !v)}
+        />
+      </DetailCard>
+
+      {/* 2. Sentence timeline */}
+      <SentenceTimeline lesson={lesson} />
+
+      {/* 3. Summary */}
+      <AccentBlock className="mt-6">
+        <strong className="not-italic text-emerald-800 dark:text-emerald-300">Summary:</strong>{" "}
+        <span className="italic text-neutral-700 dark:text-neutral-300">{lesson.summary}</span>
+      </AccentBlock>
 
       <QuizSection
         key={`${lessonId}-${sessionEpoch}`}
@@ -118,87 +138,73 @@ function ListeningLessonDetailContent({ params }: { params: Promise<{ lessonId: 
         initialDurationMs={draft?.durationMs ?? 0}
         onAttemptSaved={() => {}}
       >
+        {/* 4. Resume banner */}
         {hasDraft && (
           <div className="mt-4">
             <ResumeBanner onAbandon={abandonDraft} />
           </div>
         )}
 
+        {/* 5. Two-column: transcript LEFT · grammar + MC RIGHT */}
         <div
           className={cn(
-            "mt-4 gap-4",
-            prefs.detailLayout === "two-column"
-              ? "grid grid-cols-1 lg:grid-cols-[1.2fr_1fr] lg:grid-rows-[auto_1fr]"
-              : "flex flex-col",
+            "mt-6 gap-6",
+            isTwoColumn ? "grid grid-cols-1 lg:grid-cols-[1.2fr_1fr]" : "flex flex-col",
           )}
         >
           <DetailCard
             className={cn(
-              "relative",
-              prefs.detailLayout === "two-column" && "lg:col-start-1 lg:row-start-1 lg:row-end-3",
+              isTwoColumn && "self-start",
               contentPinned && "sticky top-32 z-20 max-h-[60vh] overflow-y-auto",
-              contentPinned && prefs.detailLayout === "two-column" && "lg:max-h-[calc(100vh-9rem)]",
+              contentPinned && isTwoColumn && "lg:max-h-[calc(100vh-9rem)]",
             )}
           >
-            <Tooltip>
-              <TooltipTrigger asChild>
-                <button
-                  type="button"
-                  onClick={() => setContentPinned(!contentPinned)}
-                  aria-pressed={contentPinned}
-                  aria-label={contentPinned ? "Unpin lesson content" : "Pin lesson content"}
-                  className={cn(
-                    "absolute right-2 top-2 z-10 grid size-8 cursor-pointer place-items-center rounded-lg text-neutral-400 transition-colors hover:bg-neutral-100 hover:text-neutral-700 dark:hover:bg-white/10",
-                    contentPinned && "text-emerald-600 dark:text-emerald-400",
-                  )}
-                >
-                  {contentPinned ? <PinOff className="size-4" /> : <Pin className="size-4" />}
-                </button>
-              </TooltipTrigger>
-              <TooltipContent side="left" className="text-xs">
-                {contentPinned ? "Unpin lesson content" : "Pin lesson content while scrolling"}
-              </TooltipContent>
-            </Tooltip>
-            <Transcript
+            <TranscriptCard
               lesson={lesson}
+              shown={transcriptShown}
               showAnnotations={prefs.hintToggles.vocabVi}
               showTranslation={prefs.hintToggles.passageTranslation}
+              pinned={contentPinned}
+              onTogglePin={() => setContentPinned(!contentPinned)}
             />
           </DetailCard>
 
-          {prefs.hintToggles.grammar && (
-            <div className={cn(prefs.detailLayout === "two-column" && "lg:col-start-2 lg:row-start-1")}>
-              <GrammarNotes notes={lesson.grammarNotes} />
-            </div>
-          )}
-
-          <DetailCard className={cn(prefs.detailLayout === "two-column" && "lg:col-start-2 lg:row-start-2")}>
-            <MCQuestions showHint={prefs.hintToggles.perQuestionHint} />
-          </DetailCard>
+          <div className="flex flex-col gap-6">
+            {prefs.hintToggles.grammar && <GrammarNotes notes={lesson.grammarNotes} />}
+            <DetailCard>
+              <MCQuestions showHint={prefs.hintToggles.perQuestionHint} label="Listening questions" />
+            </DetailCard>
+          </div>
         </div>
 
+        {/* 6. Cloze */}
         {lesson.cloze && (
-          <DetailCard className="mt-4">
+          <div className="mt-6">
             <ClozeBlock />
             <ClozeReview />
-          </DetailCard>
+          </div>
         )}
 
+        {/* 7. Quiz footer */}
         <QuizFooter />
       </QuizSection>
 
+      {/* 8. Critical thinking */}
       {lesson.criticalThinkingQuestion && (
-        <AccentBlock className="mt-4" label="Critical thinking">
-          <p className="text-sm italic leading-relaxed text-neutral-700 dark:text-neutral-200">
+        <AccentBlock className="mt-6" label="Critical thinking">
+          <p className="text-sm italic leading-relaxed text-neutral-700 dark:text-neutral-300">
             {lesson.criticalThinkingQuestion}
           </p>
         </AccentBlock>
       )}
 
-      <div className="mt-4">
+      {/* 9. Attempt history */}
+      <div className="mt-6">
         <AttemptHistory lessonId={lessonId} />
       </div>
-      <div className="mt-4">
+
+      {/* 10. My notes */}
+      <div className="mt-6">
         <LessonNotes lessonId={lessonId} />
       </div>
     </main>

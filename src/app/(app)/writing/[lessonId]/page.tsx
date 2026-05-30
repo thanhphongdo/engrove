@@ -12,7 +12,6 @@ import { LayoutToggle } from "@/components/reading/layout-toggle";
 import { BookmarkButton } from "@/components/reading/bookmark-button";
 import { LessonNotes } from "@/components/reading/lesson-notes";
 import { MCQuestions } from "@/components/reading/mc-questions";
-import { Button } from "@/components/ui/button";
 import {
   AlertDialog,
   AlertDialogAction,
@@ -41,6 +40,9 @@ import { LessonDetailHeader } from "@/components/lesson/lesson-detail-header";
 import { DetailCard } from "@/components/lesson/detail-card";
 import { AccentBlock } from "@/components/lesson/accent-block";
 
+const SUBMIT_BTN =
+  "rounded-xl bg-neutral-900 px-5 py-2 text-sm font-semibold text-white transition-colors hover:bg-neutral-800 dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-100";
+
 function McQuizSection() {
   const { lesson, mcPicks, setMcPick, mcResult, reviewMode, submitMc, retryMc } =
     useWritingSession();
@@ -50,7 +52,7 @@ function McQuizSection() {
   const unanswered = total - answered;
 
   return (
-    <DetailCard className="mt-4">
+    <DetailCard>
       <MCQuestions
         showHint={prefs.hintToggles.perQuestionHint}
         questions={lesson.mcQuestions}
@@ -60,25 +62,29 @@ function McQuizSection() {
         label="Sentence-choice quiz"
       />
       {reviewMode && mcResult ? (
-        <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-t pt-3">
-          <p className="text-sm font-semibold">
+        <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
+          <p className="text-sm font-semibold text-neutral-800 dark:text-neutral-200">
             Score: {mcResult.score}/{mcResult.total}
           </p>
-          <Button type="button" variant="outline" size="sm" onClick={retryMc}>
+          <button
+            type="button"
+            onClick={retryMc}
+            className="rounded-xl border border-neutral-200 bg-white px-5 py-2 text-sm font-semibold text-neutral-700 transition-colors hover:bg-neutral-50 dark:border-white/10 dark:bg-neutral-900 dark:text-neutral-200 dark:hover:bg-white/5"
+          >
             Retry
-          </Button>
+          </button>
         </div>
       ) : (
-        <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-t pt-3">
-          <p className="text-xs text-muted-foreground">
-            {answered} / {total} answered
+        <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
+          <p className="text-[0.8rem] text-neutral-500 dark:text-neutral-400">
+            <span className="font-semibold text-neutral-800 dark:text-neutral-200">{answered}</span> / {total} answered
           </p>
           {unanswered > 0 ? (
             <AlertDialog>
               <AlertDialogTrigger asChild>
-                <Button type="button" size="sm" className="sm:min-w-40">
+                <button type="button" className={SUBMIT_BTN}>
                   Submit
-                </Button>
+                </button>
               </AlertDialogTrigger>
               <AlertDialogContent>
                 <AlertDialogHeader>
@@ -96,14 +102,9 @@ function McQuizSection() {
               </AlertDialogContent>
             </AlertDialog>
           ) : (
-            <Button
-              type="button"
-              size="sm"
-              className="sm:min-w-40"
-              onClick={submitMc}
-            >
+            <button type="button" className={SUBMIT_BTN} onClick={submitMc}>
               Submit
-            </Button>
+            </button>
           )}
         </div>
       )}
@@ -114,43 +115,40 @@ function McQuizSection() {
 function MainArea() {
   const { lesson, phase, llmResult } = useWritingSession();
   const prefs = usePreferences();
+  const twoColumn = prefs.detailLayout === "two-column";
+
   return (
     <>
       <WritingPromptCard lesson={lesson} />
 
       <div
         className={cn(
-          "gap-3 sm:gap-4",
-          prefs.detailLayout === "two-column"
-            ? "grid grid-cols-1 lg:grid-cols-[1.2fr_1fr]"
-            : "flex flex-col",
+          "mt-6 gap-4",
+          twoColumn ? "grid grid-cols-1 lg:grid-cols-[1.2fr_1fr]" : "flex flex-col",
         )}
       >
-        <div className="space-y-3">
+        {/* LEFT: editor + sample + AI feedback + result */}
+        <div className="space-y-4">
           <WritingEditor />
           <SampleAnswerReveal />
           <PromptCopyPanel />
           {phase === "ready" && llmResult && <WritingResultPanel result={llmResult} />}
         </div>
-        <div className="space-y-3">
+
+        {/* RIGHT (aside): hints, quiz, critical thinking, history, notes */}
+        <aside className="space-y-4">
           <HintPanel lesson={lesson} />
-        </div>
-      </div>
-
-      <McQuizSection />
-
-
-      {lesson.criticalThinkingQuestion && (
-        <AccentBlock className="mt-4" label="Think about it">
-          <p className="text-sm italic leading-relaxed text-neutral-700 dark:text-neutral-200">
-            {lesson.criticalThinkingQuestion}
-          </p>
-        </AccentBlock>
-      )}
-
-      <div className="mt-4 space-y-4">
-        <WritingAttemptHistory lessonId={lesson.id} />
-        <LessonNotes lessonId={lesson.id} />
+          <McQuizSection />
+          {lesson.criticalThinkingQuestion && (
+            <AccentBlock label="Think about it">
+              <p className="text-sm italic leading-relaxed text-neutral-700 dark:text-neutral-300">
+                {lesson.criticalThinkingQuestion}
+              </p>
+            </AccentBlock>
+          )}
+          <WritingAttemptHistory lessonId={lesson.id} />
+          <LessonNotes lessonId={lesson.id} />
+        </aside>
       </div>
     </>
   );
@@ -173,6 +171,15 @@ function LessonDetailContent({
     return <div className="p-8 text-sm text-muted-foreground">Loading…</div>;
   }
 
+  const wordTarget =
+    lesson.minWords && lesson.maxWords
+      ? `Target ${lesson.minWords}–${lesson.maxWords} words`
+      : lesson.minWords
+        ? `Target ${lesson.minWords}+ words`
+        : lesson.maxWords
+          ? `Target up to ${lesson.maxWords} words`
+          : null;
+
   return (
     <main className="mx-auto max-w-5xl px-4 pb-16 sm:px-6">
       <LessonDetailHeader
@@ -180,9 +187,19 @@ function LessonDetailContent({
         backLabel="Back to Writing"
         level={lesson.level}
         title={lesson.title}
-        meta={lesson.tags.map((t) => (
-          <span key={t} className="text-neutral-500">#{t}</span>
-        ))}
+        meta={
+          <>
+            {lesson.tags.map((t) => (
+              <span key={t} className="text-neutral-500">#{t}</span>
+            ))}
+            {wordTarget && (
+              <>
+                <span className="text-neutral-300 dark:text-neutral-600">·</span>
+                <span className="text-neutral-500">{wordTarget}</span>
+              </>
+            )}
+          </>
+        }
         toolbar={
           <>
             <LessonTimer />
@@ -193,12 +210,10 @@ function LessonDetailContent({
         }
       />
 
-      <div className="mt-4">
-        <WritingSessionProvider lesson={lesson} initialDraft={draft}>
-          <AiFeedbackGuide />
-          <MainArea />
-        </WritingSessionProvider>
-      </div>
+      <WritingSessionProvider lesson={lesson} initialDraft={draft}>
+        <AiFeedbackGuide />
+        <MainArea />
+      </WritingSessionProvider>
     </main>
   );
 }

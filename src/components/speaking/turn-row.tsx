@@ -1,6 +1,6 @@
 "use client";
 
-import { Check, Play } from "lucide-react";
+import { Check, Play, RotateCcw } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { RecorderButton } from "./recorder-button";
 import { VoiceVisualizer } from "./voice-visualizer";
@@ -29,6 +29,43 @@ type Props = {
   hasBlob: boolean;
 };
 
+/** A speech bubble with an approximate tail tucked into its lower corner. */
+function Bubble({
+  isUser,
+  tone,
+  children,
+}: {
+  isUser: boolean;
+  tone: "in" | "out" | "upcoming";
+  children: React.ReactNode;
+}) {
+  return (
+    <div className={cn("flex", isUser ? "justify-end" : "justify-start")}>
+      <div
+        className={cn(
+          "relative max-w-[80%] rounded-2xl px-4 py-2.5 text-sm",
+          tone === "out" && "bg-emerald-600 text-white dark:bg-emerald-600",
+          tone === "in" && "bg-neutral-100 text-neutral-900 dark:bg-neutral-800 dark:text-neutral-100",
+          tone === "upcoming" &&
+            "border border-dashed border-neutral-300 text-neutral-400 dark:border-white/15",
+        )}
+      >
+        {/* Approximate the chat tail with a small rotated square in the lower corner. */}
+        {tone !== "upcoming" && (
+          <span
+            aria-hidden="true"
+            className={cn(
+              "absolute bottom-1 size-3 rotate-45 rounded-xs",
+              tone === "out" ? "-right-1 bg-emerald-600 dark:bg-emerald-600" : "-left-1 bg-neutral-100 dark:bg-neutral-800",
+            )}
+          />
+        )}
+        <span className="relative">{children}</span>
+      </div>
+    </div>
+  );
+}
+
 export function TurnRow({
   speaker,
   text,
@@ -46,112 +83,110 @@ export function TurnRow({
   const isActive = state !== "upcoming" && state !== "done";
   const isDone = state === "done";
   const isRecording = state === "user-recording";
+  const isUpcoming = state === "upcoming";
+
+  const tone: "in" | "out" | "upcoming" = isUpcoming ? "upcoming" : isUser ? "out" : "in";
 
   return (
-    <div
-      className={cn(
-        "flex max-w-[85%] gap-2.5 transition-opacity",
-        isUser ? "ml-auto flex-row-reverse" : "mr-auto",
-        state === "upcoming" && "opacity-40",
-        isDone && !isActive && "opacity-70",
-      )}
-    >
-      {/* Avatar */}
+    <div className={cn(isUpcoming && "opacity-40")}>
+      {/* Role label + completion check */}
       <div
         className={cn(
-          "mt-5 flex size-7 shrink-0 items-center justify-center rounded-full text-sm",
-          isUser ? "bg-primary/15" : "bg-muted",
+          "mb-1 flex items-center gap-1.5",
+          isUser && "justify-end",
         )}
-        aria-hidden="true"
       >
-        {isUser ? "🙋" : "🧑‍💼"}
-      </div>
-
-      <div className={cn("flex min-w-0 flex-col", isUser && "items-end")}>
-        <div className="mb-1 flex items-center gap-1.5">
-          {isActive && isUser && (
-            <span className="text-[10px] font-bold uppercase tracking-wide text-primary">● Your turn</span>
-          )}
-          <span className="text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">
-            {speaker}
+        {isDone && isUser && (
+          <Check className="size-3 text-emerald-500" strokeWidth={3} aria-hidden="true" />
+        )}
+        {isActive && isUser && (
+          <span className="text-[0.625rem] font-bold uppercase tracking-wide text-emerald-600 dark:text-emerald-400">
+            ● Your turn
           </span>
-          {isDone && <Check className="size-3 text-emerald-600 dark:text-emerald-400" aria-hidden="true" />}
-        </div>
-
-        {/* Bubble */}
-        <div
-          className={cn(
-            "rounded-2xl px-3.5 py-2.5 text-sm leading-relaxed",
-            isUser ? "bg-primary/10" : "bg-muted",
-            isActive && "ring-2 ring-primary",
-          )}
-        >
-          {text}
-          {translationVi && (
-            <p className="mt-1 text-xs text-muted-foreground">{translationVi}</p>
-          )}
-        </div>
-
-        {/* Action row */}
-        {isActive && (
-          <div className={cn("mt-2 flex flex-wrap items-center gap-2", isUser && "justify-end")}>
-            {!isUser && state === "system-playing" && (
-              <span className="inline-flex items-center gap-2 text-xs text-muted-foreground">
-                <VoiceVisualizer getRmsLevel={() => 0.5} active />
-                Playing…
-              </span>
-            )}
-
-            {isUser && (
-              <>
-                {!isRecording && (
-                  <button
-                    type="button"
-                    onClick={onPlayModel}
-                    className="inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-xs transition-colors hover:bg-accent"
-                  >
-                    <Play className="size-3 fill-current" aria-hidden="true" />
-                    Play model
-                  </button>
-                )}
-
-                <RecorderButton
-                  state={isRecording ? "recording" : hasBlob ? "recorded" : "idle"}
-                  onRecord={onRecord}
-                  onStop={onStopRecording}
-                />
-
-                {isRecording && (
-                  <>
-                    <VoiceVisualizer getRmsLevel={getRmsLevel} active />
-                    <span className="text-[11px] text-muted-foreground">auto-stops when you pause</span>
-                  </>
-                )}
-
-                {hasBlob && !isRecording && (
-                  <>
-                    <button
-                      type="button"
-                      onClick={onPlayback}
-                      className="inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-xs transition-colors hover:bg-accent"
-                    >
-                      <Play className="size-3 fill-current" aria-hidden="true" />
-                      Play back
-                    </button>
-                    <button
-                      type="button"
-                      onClick={onContinue}
-                      className="rounded-full bg-primary px-4 py-1.5 text-xs font-semibold text-primary-foreground hover:bg-primary/90"
-                    >
-                      Continue →
-                    </button>
-                  </>
-                )}
-              </>
-            )}
-          </div>
+        )}
+        <span className="text-[0.6875rem] font-semibold uppercase tracking-wide text-neutral-400">
+          {speaker}
+        </span>
+        {isDone && !isUser && (
+          <Check className="size-3 text-emerald-500" strokeWidth={3} aria-hidden="true" />
         )}
       </div>
+
+      {/* Bubble */}
+      <Bubble isUser={isUser} tone={tone}>
+        {text}
+        {translationVi && (
+          <span
+            className={cn(
+              "mt-1 block text-xs",
+              tone === "out" ? "text-white/75" : "text-neutral-500 dark:text-neutral-400",
+            )}
+          >
+            {translationVi}
+          </span>
+        )}
+      </Bubble>
+
+      {/* Action row */}
+      {isActive && !isUser && state === "system-playing" && (
+        <div className="mt-2 flex items-center gap-2 text-xs text-neutral-500">
+          <VoiceVisualizer getRmsLevel={() => 0.5} active />
+          Playing…
+        </div>
+      )}
+
+      {isActive && isUser && hasBlob && !isRecording && (
+        <div className="mt-1.5 flex flex-wrap items-center justify-end gap-3 text-xs">
+          <button
+            type="button"
+            onClick={onPlayback}
+            className="inline-flex items-center gap-1 text-neutral-500 hover:text-neutral-800 dark:hover:text-neutral-200"
+          >
+            <Play className="size-3 fill-current" aria-hidden="true" /> Your take
+          </button>
+          <button
+            type="button"
+            onClick={onRecord}
+            className="inline-flex items-center gap-1 text-neutral-500 hover:text-neutral-800 dark:hover:text-neutral-200"
+          >
+            <RotateCcw className="size-3" aria-hidden="true" /> Re-record
+          </button>
+          <button
+            type="button"
+            onClick={onContinue}
+            className="rounded-full bg-emerald-600 px-4 py-1.5 font-semibold text-white hover:bg-emerald-700 dark:bg-emerald-500"
+          >
+            Continue →
+          </button>
+        </div>
+      )}
+
+      {isActive && isUser && !(hasBlob && !isRecording) && (
+        <div className="mt-2 flex flex-wrap items-center justify-end gap-3">
+          {!isRecording && (
+            <button
+              type="button"
+              onClick={onPlayModel}
+              className="inline-flex items-center gap-1 text-xs text-neutral-500 hover:text-neutral-800 dark:hover:text-neutral-200"
+            >
+              <Play className="size-3 fill-current" aria-hidden="true" /> Play model
+            </button>
+          )}
+
+          {isRecording && (
+            <>
+              <VoiceVisualizer getRmsLevel={getRmsLevel} active className="h-4" />
+              <span className="text-[0.6875rem] text-neutral-400">auto-stops when you pause</span>
+            </>
+          )}
+
+          <RecorderButton
+            state={isRecording ? "recording" : "idle"}
+            onRecord={onRecord}
+            onStop={onStopRecording}
+          />
+        </div>
+      )}
     </div>
   );
 }

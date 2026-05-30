@@ -5,11 +5,14 @@ import { ChevronDown, ChevronUp } from "lucide-react";
 import { cn } from "@/lib/utils";
 import type { WritingLLMResult } from "@/lib/db/types";
 
-function scoreColor(v: number): string {
-  if (v >= 8) return "bg-emerald-500/15 text-emerald-700 dark:text-emerald-300";
-  if (v >= 5) return "bg-amber-500/15 text-amber-700 dark:text-amber-300";
-  return "bg-rose-500/15 text-rose-700 dark:text-rose-300";
+function pillColor(v: number): string {
+  if (v >= 8) return "bg-emerald-100 text-emerald-800 dark:bg-emerald-500/20 dark:text-emerald-300";
+  if (v >= 5) return "bg-amber-100 text-amber-800 dark:bg-amber-500/20 dark:text-amber-300";
+  return "bg-rose-100 text-rose-800 dark:bg-rose-500/20 dark:text-rose-300";
 }
+
+/** Sub-score rows turn amber when the score dips below 6. */
+const LOW = 6;
 
 /**
  * Strip surrounding punctuation/whitespace and lowercase so corrections
@@ -42,12 +45,11 @@ export function WritingResultPanel({ result, variant = "full" }: Props) {
   }, [variant]);
 
   const s = result.scores;
-  const entries: [string, number][] = [
-    ["Overall", s.overall],
-    ["Task", s.task],
-    ["Grammar", s.grammar],
-    ["Vocabulary", s.vocabulary],
-    ["Coherence", s.coherence],
+  const subScores: [string, number][] = [
+    ["Task response", s.task],
+    ["Coherence & cohesion", s.coherence],
+    ["Lexical resource", s.vocabulary],
+    ["Grammatical range", s.grammar],
   ];
 
   const corrections = result.corrections.filter(
@@ -60,80 +62,89 @@ export function WritingResultPanel({ result, variant = "full" }: Props) {
     <section
       ref={ref}
       className={cn(
-        "space-y-3",
-        !isInline && "rounded-md border bg-card p-3 sm:p-4 shadow-md dark:shadow-[0_4px_20px_rgba(255,255,255,0.035)]",
+        isInline
+          ? "space-y-3"
+          : "rounded-2xl border border-neutral-200 bg-white p-4 shadow-sm dark:border-white/10 dark:bg-neutral-900",
       )}
     >
-      {!isInline && <h2 className="text-sm font-semibold">AI feedback</h2>}
-
-      <div className="flex flex-wrap gap-1.5">
-        {entries.map(([k, v]) => (
-          <span
-            key={k}
-            className={cn(
-              "inline-flex items-baseline gap-1 rounded-full px-2 py-0.5 text-xs font-medium",
-              scoreColor(v),
-            )}
-          >
-            <span className="font-semibold">{k}</span>
-            <span>{v.toFixed(1)}/10</span>
+      <div className={cn("flex items-center justify-between", isInline ? "mb-2" : "mb-3")}>
+        {!isInline ? (
+          <h2 className="text-sm font-semibold text-neutral-700 dark:text-neutral-200">AI feedback</h2>
+        ) : (
+          <span className="text-xs font-semibold uppercase tracking-wide text-neutral-500 dark:text-neutral-400">
+            AI feedback
           </span>
-        ))}
+        )}
+        <span className={cn("rounded-full px-3 py-1 text-sm font-bold", pillColor(s.overall))}>
+          {s.overall.toFixed(1)}/10
+        </span>
       </div>
 
-      {corrections.length > 0 && (
-        <div>
-          <p className="mb-1.5 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-            Corrections
-          </p>
-          <ul className="space-y-1.5">
-            {corrections.map((c, i) => (
-              <li key={i} className={cn("text-sm", isInline ? "pl-0" : "rounded border p-2")}>
-                {isInline ? (
-                  <span>
-                    <span className="text-rose-700 line-through dark:text-rose-300">{c.original}</span>
-                    {" → "}
-                    <span className="text-emerald-700 dark:text-emerald-300">{c.fixed}</span>
-                    {c.explanation && (
-                      <span className="ml-1 text-xs text-muted-foreground">— {c.explanation}</span>
-                    )}
-                  </span>
-                ) : (
-                  <>
-                    <p>
-                      <span className="text-rose-700 line-through dark:text-rose-300">{c.original}</span>
-                      {" → "}
-                      <span className="text-emerald-700 dark:text-emerald-300">{c.fixed}</span>
-                    </p>
-                    {c.explanation && (
-                      <p className="mt-1 text-xs text-muted-foreground">{c.explanation}</p>
-                    )}
-                  </>
+      {/* Score rows */}
+      <div className="mb-4 space-y-2.5">
+        {subScores.map(([label, v]) => {
+          const low = v < LOW;
+          return (
+            <div key={label}>
+              <div className="mb-1 flex items-center justify-between text-[0.8rem]">
+                <span className="font-medium text-neutral-700 dark:text-neutral-300">{label}</span>
+                <span
+                  className={cn(
+                    "font-semibold",
+                    low
+                      ? "text-amber-600 dark:text-amber-400"
+                      : "text-emerald-700 dark:text-emerald-400",
+                  )}
+                >
+                  {v.toFixed(1)}
+                </span>
+              </div>
+              <div className="h-2 w-full overflow-hidden rounded-full bg-neutral-100 dark:bg-neutral-800">
+                <div
+                  className={cn("h-2 rounded-full", low ? "bg-amber-400" : "bg-emerald-500")}
+                  style={{ width: `${Math.max(0, Math.min(10, v)) * 10}%` }}
+                />
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
+      {/* Feedback bullets */}
+      {(corrections.length > 0 || result.suggestions.length > 0) && (
+        <ul className="space-y-2 text-sm text-neutral-700 dark:text-neutral-300">
+          {result.suggestions.map((sug, i) => (
+            <li key={`s-${i}`} className="flex gap-2">
+              <span className="mt-0.5 shrink-0 text-emerald-500" aria-hidden="true">
+                ✓
+              </span>
+              <span>{sug}</span>
+            </li>
+          ))}
+          {corrections.map((c, i) => (
+            <li key={`c-${i}`} className="flex gap-2">
+              <span className="mt-0.5 shrink-0 text-amber-500" aria-hidden="true">
+                !
+              </span>
+              <span>
+                <span className="text-rose-700 line-through dark:text-rose-300">{c.original}</span>
+                {" → "}
+                <span className="text-emerald-700 dark:text-emerald-300">{c.fixed}</span>
+                {c.explanation && (
+                  <span className="ml-1 text-neutral-500 dark:text-neutral-400">— {c.explanation}</span>
                 )}
-              </li>
-            ))}
-          </ul>
-        </div>
+              </span>
+            </li>
+          ))}
+        </ul>
       )}
 
-      {result.suggestions.length > 0 && (
-        <div>
-          <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-            Suggestions
-          </p>
-          <ul className="list-disc space-y-0.5 pl-5 text-sm">
-            {result.suggestions.map((s, i) => (
-              <li key={i}>{s}</li>
-            ))}
-          </ul>
-        </div>
-      )}
-
-      <div>
+      {/* Polished version */}
+      <div className="mt-3">
         <button
           type="button"
           onClick={() => setShowRewritten((v) => !v)}
-          className="inline-flex items-center gap-1 text-xs font-semibold uppercase tracking-wide text-muted-foreground hover:text-foreground"
+          className="inline-flex items-center gap-1 text-xs font-semibold uppercase tracking-wide text-neutral-500 hover:text-neutral-800 dark:text-neutral-400 dark:hover:text-neutral-200"
           aria-expanded={showRewritten}
         >
           Polished version
@@ -144,14 +155,14 @@ export function WritingResultPanel({ result, variant = "full" }: Props) {
           )}
         </button>
         {showRewritten && (
-          <p className="mt-2 rounded bg-muted/40 p-2 text-sm leading-relaxed">
+          <p className="mt-2 rounded-xl bg-neutral-100/60 p-3 text-sm leading-relaxed text-neutral-700 dark:bg-white/5 dark:text-neutral-300">
             {result.rewritten}
           </p>
         )}
       </div>
 
       {!isInline && result.model && (
-        <p className="text-[0.7rem] text-muted-foreground">Model: {result.model}</p>
+        <p className="mt-3 text-[0.7rem] text-neutral-400 dark:text-neutral-500">Model: {result.model}</p>
       )}
     </section>
   );

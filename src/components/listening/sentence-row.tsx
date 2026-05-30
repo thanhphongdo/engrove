@@ -2,16 +2,22 @@
 
 import { Pause, Play, Volume2 } from "lucide-react";
 import { useListeningAudioStore } from "@/stores/listening-audio-store";
-import { splitWithAnnotations } from "@/lib/lessons/annotate";
-import { PassageAnnotation } from "@/components/reading/passage-annotation";
+import { formatClock } from "@/lib/format";
 import { cn } from "@/lib/utils";
-import type { Annotation, Sentence } from "@/lib/lessons/types";
+import type { Sentence } from "@/lib/lessons/types";
 
+/**
+ * A single row in the sentence timeline: a round play/pause button, the
+ * sentence text (blurred behind a "Tap to reveal" pill while locked), and a
+ * timestamp. Playing a sentence reveals it; tapping a locked sentence reveals
+ * it too.
+ */
 export function SentenceRow({
   index,
   sentence,
-  annotations,
-  showAnnotations,
+  startMs,
+  locked,
+  onReveal,
   showSpeaker,
   lessonId,
   cdnBase,
@@ -20,8 +26,9 @@ export function SentenceRow({
 }: {
   index: number;
   sentence: Sentence;
-  annotations: Annotation[];
-  showAnnotations: boolean;
+  startMs: number;
+  locked: boolean;
+  onReveal: () => void;
   showSpeaker: boolean;
   lessonId: string;
   cdnBase: string;
@@ -46,10 +53,9 @@ export function SentenceRow({
   const isPlaying = isActive && !isPlayAll && status === "playing";
   const isLoading = isActive && !isPlayAll && status === "loading";
 
-  function handleClick() {
+  function handlePlay() {
+    onReveal();
     if (isPlayAll) {
-      // Seek to the start of this sentence and continue playing all. Prefer the
-      // concat track's exact offset; fall back to summed durations.
       const globalMs =
         concatOffsetsMs[index] ??
         allSentences.slice(0, index).reduce((acc, s) => acc + (s.durationMs ?? 0), 0);
@@ -63,54 +69,76 @@ export function SentenceRow({
     }
   }
 
-  const segments = showAnnotations
-    ? splitWithAnnotations(sentence.text, annotations)
-    : [{ kind: "text" as const, text: sentence.text }];
-
   return (
-    <p
+    <div
       className={cn(
-        "rounded-md px-2 py-1.5 transition-colors",
-        isActive && "bg-amber-100/60 dark:bg-amber-900/30",
+        "flex items-start gap-3 rounded-lg px-2 py-2.5 transition-colors hover:bg-neutral-50 dark:hover:bg-white/5",
+        isActive && "bg-amber-50 dark:bg-amber-500/10",
+        locked && "opacity-75",
       )}
     >
       <button
         type="button"
-        onClick={handleClick}
+        onClick={handlePlay}
         aria-label={
           isPlayAll
             ? `Jump to sentence ${index + 1}`
             : isPlaying
-            ? `Pause sentence ${index + 1}`
-            : `Play sentence ${index + 1}`
+              ? `Pause sentence ${index + 1}`
+              : `Play sentence ${index + 1}`
         }
-        className="mr-2 inline-flex size-6 shrink-0 items-center justify-center rounded text-muted-foreground hover:bg-muted hover:text-foreground"
+        className={cn(
+          "mt-0.5 grid size-7 shrink-0 place-items-center rounded-full transition-colors",
+          isActive
+            ? "bg-emerald-600 text-white hover:bg-emerald-700 dark:bg-emerald-500 dark:hover:bg-emerald-400"
+            : "bg-emerald-100 text-emerald-700 hover:bg-emerald-200 dark:bg-emerald-500/20 dark:text-emerald-300 dark:hover:bg-emerald-500/30",
+        )}
       >
-        {isPlayAll ? (
-          <Play className="size-3.5" aria-hidden="true" />
-        ) : isPlaying ? (
-          <Pause className="size-3.5" aria-hidden="true" />
+        {isPlaying ? (
+          <Pause className="size-3" fill="currentColor" aria-hidden="true" />
         ) : isLoading ? (
-          <Volume2 className="size-3.5 animate-pulse" aria-hidden="true" />
+          <Volume2 className="size-3 animate-pulse" aria-hidden="true" />
         ) : (
-          <Play className="size-3.5" aria-hidden="true" />
+          <Play className="size-3 translate-x-px" fill="currentColor" aria-hidden="true" />
         )}
       </button>
-      {showSpeaker && (
-        <span className="mr-1 font-semibold text-foreground">{sentence.speaker}:</span>
+
+      {locked ? (
+        <div className="flex flex-1 items-center gap-2">
+          <button
+            type="button"
+            onClick={onReveal}
+            aria-label={`Reveal sentence ${index + 1}`}
+            className="flex-1 select-none text-left text-sm leading-relaxed text-transparent blur-sm [text-shadow:0_0_8px_var(--color-neutral-400)] dark:[text-shadow:0_0_8px_var(--color-neutral-500)]"
+          >
+            {showSpeaker && sentence.speaker ? `${sentence.speaker}: ` : ""}
+            {sentence.text}
+          </button>
+          <button
+            type="button"
+            onClick={onReveal}
+            className="shrink-0 rounded-full bg-neutral-100 px-2 py-0.5 text-xs text-neutral-500 transition-colors hover:bg-neutral-200 dark:bg-white/10 dark:text-neutral-400 dark:hover:bg-white/15"
+          >
+            Tap to reveal
+          </button>
+        </div>
+      ) : (
+        <p className="flex-1 text-sm leading-relaxed text-neutral-800 dark:text-neutral-200">
+          {showSpeaker && sentence.speaker && (
+            <span className="mr-1 font-semibold text-neutral-900 dark:text-neutral-100">{sentence.speaker}:</span>
+          )}
+          {sentence.text}
+        </p>
       )}
-      {segments.map((seg, i) =>
-        seg.kind === "text" ? (
-          <span key={i}>{seg.text}</span>
-        ) : (
-          <PassageAnnotation
-            key={i}
-            text={seg.text}
-            annotation={seg.annotation}
-            sourceLessonId={lessonId}
-          />
-        ),
-      )}
-    </p>
+
+      <span
+        className={cn(
+          "shrink-0 font-mono text-xs",
+          locked ? "text-neutral-300 dark:text-neutral-600" : "text-neutral-400 dark:text-neutral-500",
+        )}
+      >
+        {formatClock(startMs)}
+      </span>
+    </div>
   );
 }

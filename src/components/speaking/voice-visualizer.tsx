@@ -31,13 +31,13 @@ export function VoiceVisualizer({ getRmsLevel, active, className }: Props) {
   }, [active, getRmsLevel]);
 
   return (
-    <div className={cn("flex items-center gap-[3px]", className)} aria-hidden="true">
+    <div className={cn("flex items-center gap-0.5", className)} aria-hidden="true">
       {Array.from({ length: NUM_BARS }, (_, i) => (
         <div
           key={i}
           ref={(el) => { barsRef.current[i] = el; }}
-          className="w-1 rounded-full bg-primary transition-transform duration-75"
-          style={{ height: "1.5rem", transform: "scaleY(0.15)", transformOrigin: "center" }}
+          className="w-0.5 rounded-full bg-emerald-500 transition-transform duration-75 dark:bg-emerald-400"
+          style={{ height: "1rem", transform: "scaleY(0.15)", transformOrigin: "center" }}
         />
       ))}
     </div>

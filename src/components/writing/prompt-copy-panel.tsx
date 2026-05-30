@@ -1,9 +1,9 @@
 "use client";
 
 import { useRef, useState } from "react";
-import { Copy, KeyRound, Loader2, Sparkles, X } from "lucide-react";
+import { ArrowUpRight, ChevronDown, Copy, Loader2, Sparkles } from "lucide-react";
 import { toast } from "sonner";
-import { Button } from "@/components/ui/button";
+import { DetailCard } from "@/components/lesson/detail-card";
 import { cn } from "@/lib/utils";
 import { writingLLMResultSchema } from "@/lib/writing/result-schema";
 import { buildPasteBackPrompt } from "@/lib/writing/prompt";
@@ -20,6 +20,10 @@ const PROVIDERS: { id: Provider; label: string; placeholder: string; prefix: str
   { id: "chatgpt", label: "ChatGPT", placeholder: "sk-…",  prefix: "sk-",  keyUrl: "https://platform.openai.com/api-keys" },
   { id: "groq",    label: "Groq",    placeholder: "gsk_…", prefix: "gsk_", keyUrl: "https://console.groq.com/keys" },
 ];
+
+/** Solid dark CTA shared with the rest of the lesson UI (matches QuizFooter). */
+const DARK_BTN =
+  "flex w-full items-center justify-center gap-2 rounded-xl bg-neutral-900 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-neutral-800 disabled:opacity-60 dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-100";
 
 function extractJsonBlock(s: string): string | null {
   const fenced = s.match(/```json\s*([\s\S]*?)```/i);
@@ -157,92 +161,82 @@ export function PromptCopyPanel() {
     setTimeout(() => pasteBackRef.current?.scrollIntoView({ behavior: "smooth", block: "nearest" }), 80);
   }
 
+  function toggleKeyInput() {
+    setShowKeyInput((open) => {
+      if (!open) setKeyDraft(userKey);
+      return !open;
+    });
+  }
+
   return (
-    <>
-      <section className="rounded-md border-2 border-primary/40 bg-primary/5 p-3 sm:p-4 shadow-md dark:bg-primary/10 dark:shadow-[0_4px_20px_rgba(255,255,255,0.035)]">
+    <DetailCard>
+      <h2 className="mb-1 text-sm font-semibold text-neutral-700 dark:text-neutral-200">
+        Get AI feedback on your writing
+      </h2>
+      <p className="mb-3 text-[0.8rem] text-neutral-500 dark:text-neutral-400">
+        Copy the prompt, paste it into ChatGPT or Gemini, then paste the JSON response back below.
+      </p>
 
-        {/* Header */}
-        <div className="mb-1 flex items-center gap-2">
-          <Sparkles className="size-4 shrink-0 text-primary" aria-hidden="true" />
-          <h2 className="text-sm font-semibold">Get AI feedback on your writing</h2>
+      {/* PRIMARY copy button */}
+      <button type="button" onClick={copyPrompt} disabled={copying} className={DARK_BTN}>
+        {copying ? <Loader2 className="size-4 animate-spin" aria-hidden="true" /> : <Copy className="size-4" aria-hidden="true" />}
+        {copying ? "Preparing…" : "Copy prompt for ChatGPT / Gemini"}
+      </button>
+
+      {/* Hairline divider */}
+      <div className="my-4 flex items-center gap-3">
+        <div className="h-px flex-1 bg-neutral-100 dark:bg-white/10" />
+        <span className="text-[0.75rem] text-neutral-400 dark:text-neutral-500">— or skip the copy/paste —</span>
+        <div className="h-px flex-1 bg-neutral-100 dark:bg-white/10" />
+      </div>
+
+      {/* Direct API area */}
+      <div className="space-y-3">
+        {/* Provider segmented control */}
+        <div className="flex rounded-lg bg-neutral-100 p-0.5 dark:bg-white/10">
+          {PROVIDERS.map((p) => {
+            const active = provider === p.id;
+            return (
+              <button
+                key={p.id}
+                type="button"
+                onClick={() => { setRawProvider(p.id); setKeyDraft(keyByProvider[p.id]); }}
+                aria-pressed={active}
+                className={cn(
+                  "relative flex-1 rounded-md px-3 py-1.5 text-xs transition-colors",
+                  active
+                    ? "bg-white font-semibold text-neutral-900 shadow-sm dark:bg-neutral-700 dark:text-neutral-100"
+                    : "font-medium text-neutral-500 hover:text-neutral-700 dark:text-neutral-400 dark:hover:text-neutral-200",
+                )}
+              >
+                {p.label}
+                {keyByProvider[p.id] && (
+                  <span className="ml-1 inline-block size-1.5 -translate-y-px rounded-full bg-emerald-500" aria-hidden="true" />
+                )}
+              </button>
+            );
+          })}
         </div>
 
-        {/* ── PRIMARY: copy-paste flow ── */}
-        <p className="mb-3 text-xs text-muted-foreground">
-          Copy the prompt, paste into <strong className="text-foreground">ChatGPT</strong> or <strong className="text-foreground">Gemini</strong>, then paste the JSON response back below.
-        </p>
-
-        <Button onClick={copyPrompt} disabled={copying} className="gap-1.5">
-          {copying ? <Loader2 className="size-4 animate-spin" /> : <Copy className="size-4" />}
-          {copying ? "Preparing…" : "Copy prompt for ChatGPT / Gemini"}
-        </Button>
-
-        {/* ── OR divider ── */}
-        <div className="my-3 flex items-center gap-2">
-          <div className="h-px flex-1 bg-border" />
-          <span className="text-[10px] text-muted-foreground">or skip the copy/paste</span>
-          <div className="h-px flex-1 bg-border" />
-        </div>
-
-        {/* ── SECONDARY: direct API ── */}
-        <div className="flex flex-wrap items-center gap-2">
-          <Button onClick={getAiFeedback} disabled={loading} variant="outline" size="sm" className="gap-1.5">
-            {loading ? <Loader2 className="size-3.5 animate-spin" /> : <Sparkles className="size-3.5" />}
-            {loading ? "Evaluating…" : "Get feedback directly"}
-          </Button>
-          {userKey ? (
-            <span className="flex items-center gap-1 text-[10px] text-emerald-700 dark:text-emerald-300">
-              <KeyRound className="size-2.5" />{config.label}
-            </span>
-          ) : (
-            <span className="text-[10px] text-muted-foreground">uses Qwen3-32b (free, best for A1–B1)</span>
-          )}
-        </div>
-
-        {/* ── Key section ── */}
-        <div className="mt-3">
-          {!showKeyInput && (
-            <button
-              type="button"
-              onClick={() => { setShowKeyInput(true); setKeyDraft(userKey); }}
-              className="inline-flex items-center gap-1 text-xs text-muted-foreground underline-offset-2 hover:text-foreground hover:underline"
-            >
-              <KeyRound className="size-3" />
-              {userKey ? `Change your ${config.label} key` : "Add your own API key (better quality)"}
-            </button>
-          )}
+        {/* API key disclosure */}
+        <div className="border-t border-neutral-100 pt-3 dark:border-white/10">
+          <button
+            type="button"
+            onClick={toggleKeyInput}
+            aria-expanded={showKeyInput}
+            className="flex w-full items-center justify-between text-[0.8rem] font-medium text-neutral-700 dark:text-neutral-300"
+          >
+            <span>{userKey ? `Change your ${config.label} key` : "Add your own API key (better quality)"}</span>
+            <ChevronDown
+              className={cn("size-3.5 shrink-0 transition-transform", showKeyInput && "rotate-180")}
+              aria-hidden="true"
+            />
+          </button>
 
           {showKeyInput && (
-            <div className="mt-2 rounded-md border bg-card p-3 text-xs space-y-2.5">
-              <div className="flex items-center justify-between">
-                <p className="font-semibold">Your API key</p>
-                <button type="button" onClick={() => setShowKeyInput(false)} className="text-muted-foreground hover:text-foreground">
-                  <X className="size-3.5" />
-                </button>
-              </div>
-
-              <div className="flex gap-1">
-                {PROVIDERS.map((p) => (
-                  <button
-                    key={p.id}
-                    type="button"
-                    onClick={() => { setRawProvider(p.id); setKeyDraft(keyByProvider[p.id]); }}
-                    className={cn(
-                      "flex items-center gap-1 rounded px-2 py-0.5 text-xs font-medium transition-colors",
-                      provider === p.id ? "bg-primary text-primary-foreground" : "bg-muted text-muted-foreground hover:text-foreground",
-                    )}
-                  >
-                    {p.label}
-                    {keyByProvider[p.id] && <span className="size-1.5 rounded-full bg-emerald-500" />}
-                  </button>
-                ))}
-              </div>
-
-              <p className="text-muted-foreground">
-                Get a free key at{" "}
-                <a href={config.keyUrl} target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-2">
-                  {config.keyUrl.replace("https://", "")}
-                </a>. Stored only on this device.
+            <div className="mt-3 space-y-2">
+              <p className="text-xs font-semibold uppercase tracking-wide text-neutral-500 dark:text-neutral-400">
+                Your {config.label} API key
               </p>
               <div className="flex gap-2">
                 <input
@@ -251,47 +245,80 @@ export function PromptCopyPanel() {
                   onChange={(e) => setKeyDraft(e.target.value)}
                   onKeyDown={(e) => e.key === "Enter" && saveKey()}
                   placeholder={config.placeholder}
-                  className="flex-1 rounded border bg-background px-2 py-1 font-mono text-xs outline-none focus:ring-1 focus:ring-ring"
+                  className="min-w-0 flex-1 rounded-lg border border-neutral-200 bg-white px-3 py-2 text-sm text-neutral-800 placeholder-neutral-400 focus:border-emerald-400 focus:outline-none focus:ring-2 focus:ring-emerald-200 dark:border-white/10 dark:bg-neutral-800 dark:text-neutral-200 dark:placeholder-neutral-500 dark:focus:border-emerald-500 dark:focus:ring-emerald-500/20"
                 />
-                <Button type="button" size="sm" onClick={saveKey}>Save</Button>
-              </div>
-              {userKey && (
                 <button
                   type="button"
-                  onClick={() => { setActiveKey(""); setKeyDraft(""); setShowKeyInput(false); toast.success("Key removed"); }}
-                  className="text-muted-foreground underline-offset-2 hover:text-foreground hover:underline"
+                  onClick={saveKey}
+                  className="shrink-0 rounded-lg bg-neutral-900 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-neutral-800 dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-100"
                 >
-                  Remove {config.label} key
+                  Save
                 </button>
-              )}
+              </div>
+              <div className="flex items-center justify-between gap-2">
+                <a
+                  href={config.keyUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 text-[0.75rem] text-neutral-500 hover:text-emerald-600 dark:hover:text-emerald-400"
+                >
+                  Get a key
+                  <ArrowUpRight className="size-3" aria-hidden="true" />
+                </a>
+                {userKey && (
+                  <button
+                    type="button"
+                    onClick={() => { setActiveKey(""); setKeyDraft(""); setShowKeyInput(false); toast.success("Key removed"); }}
+                    className="text-[0.75rem] text-neutral-500 underline-offset-2 hover:text-foreground hover:underline dark:text-neutral-400"
+                  >
+                    Remove {config.label} key
+                  </button>
+                )}
+              </div>
+              <p className="text-[0.75rem] text-neutral-400 dark:text-neutral-500">Stored only on this device.</p>
             </div>
           )}
         </div>
 
-        {/* ── Paste-back fallback ── */}
-        <details
-          ref={pasteBackRef}
-          open={pasteBackOpen}
-          onToggle={(e) => setPasteBackOpen(e.currentTarget.open)}
-          className="mt-3 text-xs"
-        >
-          <summary className="cursor-pointer px-2 py-1 text-muted-foreground">
-            Paste AI response manually
-          </summary>
-          <div key={pasteBackAnimKey} className={cn("mt-2 space-y-2 px-2 pb-2", pasteBackAnimKey > 0 && "animate-highlight-pulse")}>
-            <textarea
-              value={pasteBack}
-              onChange={(e) => setPasteBack(e.target.value)}
-              placeholder={'```json\n{ "scores": {...}, ... }\n```'}
-              className="min-h-[6rem] w-full resize-y rounded border bg-background p-2 font-mono outline-none focus:ring-1 focus:ring-ring"
-            />
-            <Button onClick={submitPasteBack} size="sm" variant="outline">
-              Submit pasted feedback
-            </Button>
-          </div>
-        </details>
+        {/* Get feedback now */}
+        <button type="button" onClick={getAiFeedback} disabled={loading} className={DARK_BTN}>
+          {loading ? <Loader2 className="size-4 animate-spin" aria-hidden="true" /> : <Sparkles className="size-4" aria-hidden="true" />}
+          {loading ? "Evaluating…" : "Get feedback now"}
+        </button>
+        {!userKey && provider === "groq" && (
+          <p className="text-center text-[0.75rem] text-neutral-400 dark:text-neutral-500">
+            uses Qwen3-32b (free, best for A1–B1)
+          </p>
+        )}
+      </div>
 
-      </section>
-    </>
+      {/* Paste AI response manually */}
+      <details
+        ref={pasteBackRef}
+        open={pasteBackOpen}
+        onToggle={(e) => setPasteBackOpen(e.currentTarget.open)}
+        className="group mt-4 border-t border-neutral-100 pt-3 dark:border-white/10"
+      >
+        <summary className="flex cursor-pointer list-none items-center justify-between text-[0.8rem] font-medium text-neutral-600 dark:text-neutral-400">
+          <span>Paste AI response manually</span>
+          <ChevronDown className="size-3.5 shrink-0 transition-transform group-open:rotate-180" aria-hidden="true" />
+        </summary>
+        <div
+          key={pasteBackAnimKey}
+          className={cn("mt-2 space-y-2", pasteBackAnimKey > 0 && "animate-highlight-pulse")}
+        >
+          <textarea
+            value={pasteBack}
+            onChange={(e) => setPasteBack(e.target.value)}
+            rows={4}
+            placeholder={'```json\n{ "scores": {...}, ... }\n```'}
+            className="w-full resize-y rounded-lg border border-neutral-200 bg-neutral-50 p-3 font-mono text-[0.75rem] leading-relaxed text-neutral-600 placeholder-neutral-400 focus:border-emerald-400 focus:outline-none focus:ring-2 focus:ring-emerald-200 dark:border-white/10 dark:bg-neutral-800 dark:text-neutral-400 dark:placeholder-neutral-600"
+          />
+          <button type="button" onClick={submitPasteBack} className={DARK_BTN}>
+            Submit pasted feedback
+          </button>
+        </div>
+      </details>
+    </DetailCard>
   );
 }
