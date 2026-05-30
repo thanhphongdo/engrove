@@ -1,0 +1,358 @@
+{
+  "id": "speaking-a2-071",
+  "level": "A2",
+  "title": "Making a Dentist Appointment",
+  "summary": "A patient calls a dental clinic to schedule an appointment for a toothache.",
+  "topic": "Making appointments",
+  "tags": [
+    "Health",
+    "Phone",
+    "Appointments"
+  ],
+  "characters": [
+    "Patient",
+    "Receptionist"
+  ],
+  "voices": {
+    "Patient": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-JennyNeural"
+    },
+    "Receptionist": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-GuyNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Patient",
+      "text": "Hello, I'd like to make an appointment with the dentist."
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "Of course. Can I have your name, please?"
+    },
+    {
+      "speaker": "Patient",
+      "text": "My name is Sarah Miller."
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "Thank you, Sarah. Is this your first visit with us?"
+    },
+    {
+      "speaker": "Patient",
+      "text": "No, I'm an existing patient. I have a bad toothache and I need to see the dentist soon."
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "I'm sorry to hear that. We have an opening on Thursday at two o'clock."
+    },
+    {
+      "speaker": "Patient",
+      "text": "Thursday is fine for me. What is the address of your clinic?"
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "We are at 45 Oak Street, downtown. Please arrive ten minutes early to fill out some forms."
+    },
+    {
+      "speaker": "Patient",
+      "text": "No problem, I will do that. Should I bring my insurance card?"
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "Yes, please bring your insurance card and a photo ID."
+    },
+    {
+      "speaker": "Patient",
+      "text": "Great, thank you very much."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Patient",
+      "text": "Hello, I'd like to make an appointment with the dentist.",
+      "translationVi": "Xin chào, tôi muốn đặt lịch hẹn với nha sĩ.",
+      "durationMs": 3888
+    },
+    {
+      "id": "s2",
+      "speaker": "Receptionist",
+      "text": "Of course.",
+      "translationVi": "Tất nhiên rồi.",
+      "durationMs": 1728
+    },
+    {
+      "id": "s3",
+      "speaker": "Receptionist",
+      "text": "Can I have your name, please?",
+      "translationVi": "Cho tôi biết tên của bạn được không?",
+      "durationMs": 2688
+    },
+    {
+      "id": "s4",
+      "speaker": "Patient",
+      "text": "My name is Sarah Miller.",
+      "translationVi": "Tên tôi là Sarah Miller.",
+      "durationMs": 2256
+    },
+    {
+      "id": "s5",
+      "speaker": "Receptionist",
+      "text": "Thank you, Sarah.",
+      "translationVi": "Cảm ơn bạn, Sarah.",
+      "durationMs": 2184
+    },
+    {
+      "id": "s6",
+      "speaker": "Receptionist",
+      "text": "Is this your first visit with us?",
+      "translationVi": "Đây có phải là lần đầu tiên bạn đến với chúng tôi không?",
+      "durationMs": 2808
+    },
+    {
+      "id": "s7",
+      "speaker": "Patient",
+      "text": "No, I'm an existing patient.",
+      "translationVi": "Không, tôi là bệnh nhân cũ rồi.",
+      "durationMs": 2976
+    },
+    {
+      "id": "s8",
+      "speaker": "Patient",
+      "text": "I have a bad toothache and I need to see the dentist soon.",
+      "translationVi": "Tôi bị đau răng dữ dội và cần gặp nha sĩ sớm.",
+      "durationMs": 3792
+    },
+    {
+      "id": "s9",
+      "speaker": "Receptionist",
+      "text": "I'm sorry to hear that.",
+      "translationVi": "Tôi rất tiếc khi nghe điều đó.",
+      "durationMs": 2208
+    },
+    {
+      "id": "s10",
+      "speaker": "Receptionist",
+      "text": "We have an opening on Thursday at two o'clock.",
+      "translationVi": "Chúng tôi có chỗ trống vào thứ Năm lúc hai giờ.",
+      "durationMs": 3336
+    },
+    {
+      "id": "s11",
+      "speaker": "Patient",
+      "text": "Thursday is fine for me.",
+      "translationVi": "Thứ Năm thì được với tôi.",
+      "durationMs": 2280
+    },
+    {
+      "id": "s12",
+      "speaker": "Patient",
+      "text": "What is the address of your clinic?",
+      "translationVi": "Địa chỉ phòng khám của các bạn là gì?",
+      "durationMs": 2592
+    },
+    {
+      "id": "s13",
+      "speaker": "Receptionist",
+      "text": "We are at 45 Oak Street, downtown.",
+      "translationVi": "Chúng tôi ở số 45 phố Oak, trung tâm thành phố.",
+      "durationMs": 3624
+    },
+    {
+      "id": "s14",
+      "speaker": "Receptionist",
+      "text": "Please arrive ten minutes early to fill out some forms.",
+      "translationVi": "Xin hãy đến sớm mười phút để điền vào một số biểu mẫu.",
+      "durationMs": 3768
+    },
+    {
+      "id": "s15",
+      "speaker": "Patient",
+      "text": "No problem, I will do that.",
+      "translationVi": "Không vấn đề gì, tôi sẽ làm vậy.",
+      "durationMs": 2640
+    },
+    {
+      "id": "s16",
+      "speaker": "Patient",
+      "text": "Should I bring my insurance card?",
+      "translationVi": "Tôi có nên mang thẻ bảo hiểm không?",
+      "durationMs": 2496
+    },
+    {
+      "id": "s17",
+      "speaker": "Receptionist",
+      "text": "Yes, please bring your insurance card and a photo ID.",
+      "translationVi": "Vâng, hãy mang thẻ bảo hiểm và một giấy tờ tùy thân có ảnh.",
+      "durationMs": 4080
+    },
+    {
+      "id": "s18",
+      "speaker": "Patient",
+      "text": "Great, thank you very much.",
+      "translationVi": "Tuyệt vời, cảm ơn bạn rất nhiều.",
+      "durationMs": 2712
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "I'd like to make an appointment for …"
+    },
+    {
+      "id": "h2",
+      "text": "Do you have any openings on …?"
+    },
+    {
+      "id": "h3",
+      "text": "Could I come in on …, please?"
+    },
+    {
+      "id": "h4",
+      "text": "I have a problem with my …"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "toothache",
+      "meaningVi": "đau răng",
+      "pronunciation": "/ˈtuːθeɪk/"
+    },
+    {
+      "id": "v2",
+      "phrase": "existing patient",
+      "meaningVi": "bệnh nhân cũ",
+      "pronunciation": "/ɪɡˈzɪstɪŋ ˈpeɪʃənt/"
+    },
+    {
+      "id": "v3",
+      "phrase": "insurance card",
+      "meaningVi": "thẻ bảo hiểm",
+      "pronunciation": "/ɪnˈʃʊərəns kɑːrd/"
+    },
+    {
+      "id": "v4",
+      "phrase": "opening",
+      "meaningVi": "chỗ trống (lịch)",
+      "pronunciation": "/ˈoʊpənɪŋ/"
+    },
+    {
+      "id": "v5",
+      "phrase": "fill out",
+      "meaningVi": "điền vào (biểu mẫu)",
+      "pronunciation": "/fɪl aʊt/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "I'd like to make an appointment",
+      "meaningVi": "Tôi muốn đặt lịch hẹn",
+      "pronunciation": "/aɪd laɪk tə meɪk ən əˈpɔɪntmənt/"
+    },
+    {
+      "phrase": "Of course",
+      "meaningVi": "Tất nhiên rồi",
+      "pronunciation": "/əv kɔːrs/"
+    },
+    {
+      "phrase": "Can I have your name, please",
+      "meaningVi": "Cho tôi biết tên của bạn được không",
+      "pronunciation": "/kæn aɪ hæv jər neɪm pliːz/"
+    },
+    {
+      "phrase": "first visit",
+      "meaningVi": "lần thăm khám đầu tiên",
+      "pronunciation": "/fɜːrst ˈvɪzɪt/"
+    },
+    {
+      "phrase": "existing patient",
+      "meaningVi": "bệnh nhân cũ",
+      "pronunciation": "/ɪɡˈzɪstɪŋ ˈpeɪʃənt/"
+    },
+    {
+      "phrase": "bad toothache",
+      "meaningVi": "đau răng dữ dội",
+      "pronunciation": "/bæd ˈtuːθeɪk/"
+    },
+    {
+      "phrase": "I'm sorry to hear that",
+      "meaningVi": "Tôi rất tiếc khi nghe điều đó",
+      "pronunciation": "/aɪm ˈsɒri tə hɪr ðæt/"
+    },
+    {
+      "phrase": "opening on Thursday",
+      "meaningVi": "chỗ trống vào thứ Năm",
+      "pronunciation": "/ˈoʊpənɪŋ ɒn ˈθɜːrzdeɪ/"
+    },
+    {
+      "phrase": "is fine for me",
+      "meaningVi": "phù hợp với tôi",
+      "pronunciation": "/ɪz faɪn fər miː/"
+    },
+    {
+      "phrase": "What is the address",
+      "meaningVi": "Địa chỉ là gì",
+      "pronunciation": "/wɒt ɪz ði ˈædrɛs/"
+    },
+    {
+      "phrase": "arrive ten minutes early",
+      "meaningVi": "đến sớm mười phút",
+      "pronunciation": "/əˈraɪv tɛn ˈmɪnɪts ˈɜːrli/"
+    },
+    {
+      "phrase": "fill out some forms",
+      "meaningVi": "điền vào một số biểu mẫu",
+      "pronunciation": "/fɪl aʊt sʌm fɔːrmz/"
+    },
+    {
+      "phrase": "No problem",
+      "meaningVi": "Không vấn đề gì",
+      "pronunciation": "/noʊ ˈprɒbləm/"
+    },
+    {
+      "phrase": "insurance card",
+      "meaningVi": "thẻ bảo hiểm",
+      "pronunciation": "/ɪnˈʃʊərəns kɑːrd/"
+    },
+    {
+      "phrase": "photo ID",
+      "meaningVi": "giấy tờ tùy thân có ảnh",
+      "pronunciation": "/ˈfoʊtoʊ aɪˈdiː/"
+    },
+    {
+      "phrase": "thank you very much",
+      "meaningVi": "cảm ơn rất nhiều",
+      "pronunciation": "/θæŋk juː ˈvɛri mʌtʃ/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "I'd like to + verb",
+      "bodyVi": "'I'd like to' là cách lịch sự để nói bạn muốn làm gì đó, lịch sự hơn 'I want to'. Ví dụ: 'I'd like to make an appointment.'",
+      "bodyEn": "'I'd like to' is a polite way to express a wish or request. It is more formal than 'I want to'. Example: 'I'd like to see the doctor.'"
+    },
+    {
+      "title": "Asking about availability",
+      "bodyVi": "Để hỏi về lịch trống, dùng 'Do you have any openings on [ngày]?' hoặc 'Is [ngày/giờ] available?'. Đây là cách lịch sự và tự nhiên khi đặt lịch hẹn.",
+      "bodyEn": "Use 'Do you have any openings on [day]?' or 'Is [time] available?' to politely ask about available times when scheduling."
+    }
+  ],
+  "translationVi": "Bệnh nhân: Xin chào, tôi muốn đặt lịch hẹn với nha sĩ. / Lễ tân: Tất nhiên rồi. Cho tôi biết tên của bạn được không? / Bệnh nhân: Tên tôi là Sarah Miller. / Lễ tân: Cảm ơn bạn, Sarah. Đây có phải là lần đầu tiên bạn đến với chúng tôi không? / Bệnh nhân: Không, tôi là bệnh nhân cũ rồi. Tôi bị đau răng dữ dội và cần gặp nha sĩ sớm. / Lễ tân: Tôi rất tiếc khi nghe điều đó. Chúng tôi có chỗ trống vào thứ Năm lúc hai giờ. / Bệnh nhân: Thứ Năm thì được với tôi. Địa chỉ phòng khám của các bạn là gì? / Lễ tân: Chúng tôi ở số 45 phố Oak, trung tâm thành phố. Xin hãy đến sớm mười phút để điền vào một số biểu mẫu. / Bệnh nhân: Không vấn đề gì, tôi sẽ làm vậy. Tôi có nên mang thẻ bảo hiểm không? / Lễ tân: Vâng, hãy mang thẻ bảo hiểm và một giấy tờ tùy thân có ảnh. / Bệnh nhân: Tuyệt vời, cảm ơn bạn rất nhiều.",
+  "criticalThinkingQuestion": "Why is it important to describe your symptoms clearly when making a medical or dental appointment?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-a2-071",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 52056
+}

@@ -1,0 +1,362 @@
+{
+  "id": "speaking-a2-072",
+  "level": "A2",
+  "title": "Phoning a Hotel to Book a Room",
+  "summary": "A traveler calls a hotel to check availability and book a room for a weekend stay.",
+  "topic": "Travel and accommodation",
+  "tags": [
+    "Travel",
+    "Phone",
+    "Hotel"
+  ],
+  "characters": [
+    "Traveler",
+    "HotelStaff"
+  ],
+  "voices": {
+    "Traveler": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-AndrewNeural"
+    },
+    "HotelStaff": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-AriaNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Traveler",
+      "text": "Hello, I'd like to book a room for two nights."
+    },
+    {
+      "speaker": "HotelStaff",
+      "text": "Welcome to the Grand Hotel. What dates would you like to stay?"
+    },
+    {
+      "speaker": "Traveler",
+      "text": "I'd like to check in on Friday the 14th and check out on Sunday."
+    },
+    {
+      "speaker": "HotelStaff",
+      "text": "Let me check our availability. We have a standard room available for those dates."
+    },
+    {
+      "speaker": "Traveler",
+      "text": "How much does it cost per night?"
+    },
+    {
+      "speaker": "HotelStaff",
+      "text": "The standard room is one hundred and twenty dollars per night. That includes breakfast."
+    },
+    {
+      "speaker": "Traveler",
+      "text": "That sounds good. Does the room have a double bed?"
+    },
+    {
+      "speaker": "HotelStaff",
+      "text": "Yes, the standard room has a double bed and a private bathroom."
+    },
+    {
+      "speaker": "Traveler",
+      "text": "Great, I'd like to make a reservation."
+    },
+    {
+      "speaker": "HotelStaff",
+      "text": "May I have your full name and a credit card number to hold the room?"
+    },
+    {
+      "speaker": "Traveler",
+      "text": "My name is Daniel Park. I'll give you my card number now."
+    },
+    {
+      "speaker": "HotelStaff",
+      "text": "Perfect, your booking is confirmed. We look forward to seeing you on Friday."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Traveler",
+      "text": "Hello, I'd like to book a room for two nights.",
+      "translationVi": "Xin chào, tôi muốn đặt phòng cho hai đêm.",
+      "durationMs": 2880
+    },
+    {
+      "id": "s2",
+      "speaker": "HotelStaff",
+      "text": "Welcome to the Grand Hotel.",
+      "translationVi": "Chào mừng bạn đến khách sạn Grand.",
+      "durationMs": 2568
+    },
+    {
+      "id": "s3",
+      "speaker": "HotelStaff",
+      "text": "What dates would you like to stay?",
+      "translationVi": "Bạn muốn ở vào những ngày nào?",
+      "durationMs": 2520
+    },
+    {
+      "id": "s4",
+      "speaker": "Traveler",
+      "text": "I'd like to check in on Friday the 14th and check out on Sunday.",
+      "translationVi": "Tôi muốn nhận phòng vào thứ Sáu ngày 14 và trả phòng vào Chủ nhật.",
+      "durationMs": 3600
+    },
+    {
+      "id": "s5",
+      "speaker": "HotelStaff",
+      "text": "Let me check our availability.",
+      "translationVi": "Để tôi kiểm tra tình trạng phòng trống của chúng tôi.",
+      "durationMs": 2592
+    },
+    {
+      "id": "s6",
+      "speaker": "HotelStaff",
+      "text": "We have a standard room available for those dates.",
+      "translationVi": "Chúng tôi có phòng tiêu chuẩn trống trong những ngày đó.",
+      "durationMs": 3528
+    },
+    {
+      "id": "s7",
+      "speaker": "Traveler",
+      "text": "How much does it cost per night?",
+      "translationVi": "Giá mỗi đêm là bao nhiêu?",
+      "durationMs": 1728
+    },
+    {
+      "id": "s8",
+      "speaker": "HotelStaff",
+      "text": "The standard room is one hundred and twenty dollars per night.",
+      "translationVi": "Phòng tiêu chuẩn có giá một trăm hai mươi đô la mỗi đêm.",
+      "durationMs": 3984
+    },
+    {
+      "id": "s9",
+      "speaker": "HotelStaff",
+      "text": "That includes breakfast.",
+      "translationVi": "Giá đó bao gồm bữa sáng.",
+      "durationMs": 2448
+    },
+    {
+      "id": "s10",
+      "speaker": "Traveler",
+      "text": "That sounds good.",
+      "translationVi": "Nghe có vẻ tốt đấy.",
+      "durationMs": 1104
+    },
+    {
+      "id": "s11",
+      "speaker": "Traveler",
+      "text": "Does the room have a double bed?",
+      "translationVi": "Phòng có giường đôi không?",
+      "durationMs": 1656
+    },
+    {
+      "id": "s12",
+      "speaker": "HotelStaff",
+      "text": "Yes, the standard room has a double bed and a private bathroom.",
+      "translationVi": "Vâng, phòng tiêu chuẩn có giường đôi và phòng tắm riêng.",
+      "durationMs": 4632
+    },
+    {
+      "id": "s13",
+      "speaker": "Traveler",
+      "text": "Great, I'd like to make a reservation.",
+      "translationVi": "Tuyệt vời, tôi muốn đặt phòng.",
+      "durationMs": 2400
+    },
+    {
+      "id": "s14",
+      "speaker": "HotelStaff",
+      "text": "May I have your full name and a credit card number to hold the room?",
+      "translationVi": "Cho tôi biết họ tên đầy đủ và số thẻ tín dụng của bạn để giữ phòng được không?",
+      "durationMs": 4176
+    },
+    {
+      "id": "s15",
+      "speaker": "Traveler",
+      "text": "My name is Daniel Park.",
+      "translationVi": "Tên tôi là Daniel Park.",
+      "durationMs": 1608
+    },
+    {
+      "id": "s16",
+      "speaker": "Traveler",
+      "text": "I'll give you my card number now.",
+      "translationVi": "Tôi sẽ đọc số thẻ cho bạn ngay bây giờ.",
+      "durationMs": 1680
+    },
+    {
+      "id": "s17",
+      "speaker": "HotelStaff",
+      "text": "Perfect, your booking is confirmed.",
+      "translationVi": "Hoàn hảo, đặt phòng của bạn đã được xác nhận.",
+      "durationMs": 3120
+    },
+    {
+      "id": "s18",
+      "speaker": "HotelStaff",
+      "text": "We look forward to seeing you on Friday.",
+      "translationVi": "Chúng tôi mong được gặp bạn vào thứ Sáu.",
+      "durationMs": 3000
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "I'd like to book a room for …"
+    },
+    {
+      "id": "h2",
+      "text": "Do you have any rooms available on …?"
+    },
+    {
+      "id": "h3",
+      "text": "How much does a … room cost per night?"
+    },
+    {
+      "id": "h4",
+      "text": "Could I check in on …, please?"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "check in",
+      "meaningVi": "nhận phòng",
+      "pronunciation": "/tʃɛk ɪn/"
+    },
+    {
+      "id": "v2",
+      "phrase": "check out",
+      "meaningVi": "trả phòng",
+      "pronunciation": "/tʃɛk aʊt/"
+    },
+    {
+      "id": "v3",
+      "phrase": "standard room",
+      "meaningVi": "phòng tiêu chuẩn",
+      "pronunciation": "/ˈstændərd ruːm/"
+    },
+    {
+      "id": "v4",
+      "phrase": "double bed",
+      "meaningVi": "giường đôi",
+      "pronunciation": "/ˈdʌbəl bɛd/"
+    },
+    {
+      "id": "v5",
+      "phrase": "reservation",
+      "meaningVi": "đặt chỗ / đặt phòng",
+      "pronunciation": "/ˌrɛzərˈveɪʃən/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "I'd like to book a room",
+      "meaningVi": "Tôi muốn đặt phòng",
+      "pronunciation": "/aɪd laɪk tə bʊk ə ruːm/"
+    },
+    {
+      "phrase": "What dates would you like to stay",
+      "meaningVi": "Bạn muốn ở vào những ngày nào",
+      "pronunciation": "/wɒt deɪts wʊd juː laɪk tə steɪ/"
+    },
+    {
+      "phrase": "check in on Friday",
+      "meaningVi": "nhận phòng vào thứ Sáu",
+      "pronunciation": "/tʃɛk ɪn ɒn ˈfraɪdeɪ/"
+    },
+    {
+      "phrase": "check out on Sunday",
+      "meaningVi": "trả phòng vào Chủ nhật",
+      "pronunciation": "/tʃɛk aʊt ɒn ˈsʌndeɪ/"
+    },
+    {
+      "phrase": "Let me check our availability",
+      "meaningVi": "Để tôi kiểm tra tình trạng phòng trống",
+      "pronunciation": "/lɛt miː tʃɛk aʊər əˌveɪləˈbɪlɪti/"
+    },
+    {
+      "phrase": "standard room available",
+      "meaningVi": "phòng tiêu chuẩn còn trống",
+      "pronunciation": "/ˈstændərd ruːm əˈveɪləbəl/"
+    },
+    {
+      "phrase": "How much does it cost per night",
+      "meaningVi": "Giá mỗi đêm là bao nhiêu",
+      "pronunciation": "/haʊ mʌtʃ dʌz ɪt kɒst pər naɪt/"
+    },
+    {
+      "phrase": "per night",
+      "meaningVi": "mỗi đêm",
+      "pronunciation": "/pər naɪt/"
+    },
+    {
+      "phrase": "includes breakfast",
+      "meaningVi": "bao gồm bữa sáng",
+      "pronunciation": "/ɪnˈkluːdz ˈbrɛkfəst/"
+    },
+    {
+      "phrase": "That sounds good",
+      "meaningVi": "Nghe có vẻ tốt đấy",
+      "pronunciation": "/ðæt saʊndz ɡʊd/"
+    },
+    {
+      "phrase": "double bed",
+      "meaningVi": "giường đôi",
+      "pronunciation": "/ˈdʌbəl bɛd/"
+    },
+    {
+      "phrase": "private bathroom",
+      "meaningVi": "phòng tắm riêng",
+      "pronunciation": "/ˈpraɪvɪt ˈbæθruːm/"
+    },
+    {
+      "phrase": "make a reservation",
+      "meaningVi": "đặt chỗ / đặt phòng",
+      "pronunciation": "/meɪk ə ˌrɛzərˈveɪʃən/"
+    },
+    {
+      "phrase": "credit card number",
+      "meaningVi": "số thẻ tín dụng",
+      "pronunciation": "/ˈkrɛdɪt kɑːrd ˈnʌmbər/"
+    },
+    {
+      "phrase": "your booking is confirmed",
+      "meaningVi": "đặt phòng của bạn đã được xác nhận",
+      "pronunciation": "/jər ˈbʊkɪŋ ɪz kənˈfɜːrmd/"
+    },
+    {
+      "phrase": "We look forward to seeing you",
+      "meaningVi": "Chúng tôi mong được gặp bạn",
+      "pronunciation": "/wiː lʊk ˈfɔːrwərd tə ˈsiːɪŋ juː/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Questions with 'Would you like'",
+      "bodyVi": "'Would you like' dùng để hỏi lịch sự về sở thích hoặc mong muốn. Ví dụ: 'What dates would you like to stay?' Lịch sự hơn 'What dates do you want?'.",
+      "bodyEn": "'Would you like' is a polite way to ask about preferences. 'What dates would you like to stay?' is more courteous than 'What dates do you want?'"
+    },
+    {
+      "title": "Phrasal verbs: check in / check out",
+      "bodyVi": "'Check in' nghĩa là nhận phòng (khi đến khách sạn). 'Check out' nghĩa là trả phòng (khi rời đi). Đây là hai cụm động từ quan trọng trong ngữ cảnh du lịch.",
+      "bodyEn": "'Check in' means to register your arrival at a hotel. 'Check out' means to leave and pay your bill. These phrasal verbs are essential travel vocabulary."
+    }
+  ],
+  "translationVi": "Khách: Xin chào, tôi muốn đặt phòng cho hai đêm. / Nhân viên: Chào mừng bạn đến khách sạn Grand. Bạn muốn ở vào những ngày nào? / Khách: Tôi muốn nhận phòng vào thứ Sáu ngày 14 và trả phòng vào Chủ nhật. / Nhân viên: Để tôi kiểm tra tình trạng phòng trống của chúng tôi. Chúng tôi có phòng tiêu chuẩn trống trong những ngày đó. / Khách: Giá mỗi đêm là bao nhiêu? / Nhân viên: Phòng tiêu chuẩn có giá một trăm hai mươi đô la mỗi đêm. Giá đó bao gồm bữa sáng. / Khách: Nghe có vẻ tốt đấy. Phòng có giường đôi không? / Nhân viên: Vâng, phòng tiêu chuẩn có giường đôi và phòng tắm riêng. / Khách: Tuyệt vời, tôi muốn đặt phòng. / Nhân viên: Cho tôi biết họ tên đầy đủ và số thẻ tín dụng của bạn để giữ phòng được không? / Khách: Tên tôi là Daniel Park. Tôi sẽ đọc số thẻ cho bạn ngay bây giờ. / Nhân viên: Hoàn hảo, đặt phòng của bạn đã được xác nhận. Chúng tôi mong được gặp bạn vào thứ Sáu.",
+  "criticalThinkingQuestion": "What factors would you consider when choosing a hotel for a trip, and how would you compare options?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-a2-072",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 49224
+}

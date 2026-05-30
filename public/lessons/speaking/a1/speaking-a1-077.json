@@ -1,0 +1,305 @@
+{
+  "id": "speaking-a1-077",
+  "level": "A1",
+  "title": "At the Pharmacy",
+  "summary": "A customer visits the pharmacy to buy medicine for a cold.",
+  "topic": "Health",
+  "tags": [
+    "Daily life",
+    "Health",
+    "Pharmacy"
+  ],
+  "characters": [
+    "Customer",
+    "Pharmacist"
+  ],
+  "voices": {
+    "Customer": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-ChristopherNeural"
+    },
+    "Pharmacist": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-JennyNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Customer",
+      "text": "Hello. I need something for a cold."
+    },
+    {
+      "speaker": "Pharmacist",
+      "text": "I'm sorry to hear that. What are your symptoms?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "I have a sore throat and a runny nose."
+    },
+    {
+      "speaker": "Pharmacist",
+      "text": "Do you have a fever?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "No, I don't have a fever."
+    },
+    {
+      "speaker": "Pharmacist",
+      "text": "I recommend this cold medicine. Take one tablet three times a day."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Should I take it with food?"
+    },
+    {
+      "speaker": "Pharmacist",
+      "text": "Yes, take it with food or after a meal."
+    },
+    {
+      "speaker": "Customer",
+      "text": "How much does it cost?"
+    },
+    {
+      "speaker": "Pharmacist",
+      "text": "It's eight dollars."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Thank you for your help."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Customer",
+      "text": "Hello.",
+      "translationVi": "Xin chào.",
+      "durationMs": 1488
+    },
+    {
+      "id": "s2",
+      "speaker": "Customer",
+      "text": "I need something for a cold.",
+      "translationVi": "Tôi cần thứ gì đó trị cảm lạnh.",
+      "durationMs": 2592
+    },
+    {
+      "id": "s3",
+      "speaker": "Pharmacist",
+      "text": "I'm sorry to hear that.",
+      "translationVi": "Tôi tiếc khi nghe điều đó.",
+      "durationMs": 2232
+    },
+    {
+      "id": "s4",
+      "speaker": "Pharmacist",
+      "text": "What are your symptoms?",
+      "translationVi": "Triệu chứng của bạn là gì?",
+      "durationMs": 2112
+    },
+    {
+      "id": "s5",
+      "speaker": "Customer",
+      "text": "I have a sore throat and a runny nose.",
+      "translationVi": "Tôi bị đau họng và chảy nước mũi.",
+      "durationMs": 3192
+    },
+    {
+      "id": "s6",
+      "speaker": "Pharmacist",
+      "text": "Do you have a fever?",
+      "translationVi": "Bạn có sốt không?",
+      "durationMs": 1944
+    },
+    {
+      "id": "s7",
+      "speaker": "Customer",
+      "text": "No, I don't have a fever.",
+      "translationVi": "Không, tôi không bị sốt.",
+      "durationMs": 2712
+    },
+    {
+      "id": "s8",
+      "speaker": "Pharmacist",
+      "text": "I recommend this cold medicine.",
+      "translationVi": "Tôi giới thiệu loại thuốc cảm này.",
+      "durationMs": 2712
+    },
+    {
+      "id": "s9",
+      "speaker": "Pharmacist",
+      "text": "Take one tablet three times a day.",
+      "translationVi": "Uống một viên ba lần một ngày.",
+      "durationMs": 2952
+    },
+    {
+      "id": "s10",
+      "speaker": "Customer",
+      "text": "Should I take it with food?",
+      "translationVi": "Tôi có nên uống cùng với thức ăn không?",
+      "durationMs": 2232
+    },
+    {
+      "id": "s11",
+      "speaker": "Pharmacist",
+      "text": "Yes, take it with food or after a meal.",
+      "translationVi": "Vâng, uống cùng thức ăn hoặc sau bữa ăn.",
+      "durationMs": 3456
+    },
+    {
+      "id": "s12",
+      "speaker": "Customer",
+      "text": "How much does it cost?",
+      "translationVi": "Giá bao nhiêu?",
+      "durationMs": 2280
+    },
+    {
+      "id": "s13",
+      "speaker": "Pharmacist",
+      "text": "It's eight dollars.",
+      "translationVi": "Tám đô la.",
+      "durationMs": 2040
+    },
+    {
+      "id": "s14",
+      "speaker": "Customer",
+      "text": "Thank you for your help.",
+      "translationVi": "Cảm ơn bạn đã giúp đỡ.",
+      "durationMs": 2040
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "I need something for …"
+    },
+    {
+      "id": "h2",
+      "text": "I have a … and a …"
+    },
+    {
+      "id": "h3",
+      "text": "Should I take it with …?"
+    },
+    {
+      "id": "h4",
+      "text": "How much does it cost?"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "cold medicine",
+      "meaningVi": "thuốc cảm",
+      "pronunciation": "/koʊld ˈmɛd.ɪ.sɪn/"
+    },
+    {
+      "id": "v2",
+      "phrase": "sore throat",
+      "meaningVi": "đau họng",
+      "pronunciation": "/sɔːr θroʊt/"
+    },
+    {
+      "id": "v3",
+      "phrase": "runny nose",
+      "meaningVi": "chảy nước mũi",
+      "pronunciation": "/ˈrʌn.i noʊz/"
+    },
+    {
+      "id": "v4",
+      "phrase": "tablet",
+      "meaningVi": "viên thuốc",
+      "pronunciation": "/ˈtæb.lɪt/"
+    },
+    {
+      "id": "v5",
+      "phrase": "fever",
+      "meaningVi": "sốt",
+      "pronunciation": "/ˈfiː.vər/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "I need something for a cold",
+      "meaningVi": "Tôi cần thứ gì đó trị cảm lạnh",
+      "pronunciation": "/aɪ niːd ˈsʌm.θɪŋ fər ə koʊld/"
+    },
+    {
+      "phrase": "I'm sorry to hear that",
+      "meaningVi": "Tôi tiếc khi nghe điều đó",
+      "pronunciation": "/aɪm ˈsɒr.i tə hɪər ðæt/"
+    },
+    {
+      "phrase": "What are your symptoms",
+      "meaningVi": "Triệu chứng của bạn là gì",
+      "pronunciation": "/wɒt ɑːr jʊər ˈsɪmp.təmz/"
+    },
+    {
+      "phrase": "I have a sore throat and a runny nose",
+      "meaningVi": "Tôi bị đau họng và chảy nước mũi",
+      "pronunciation": "/aɪ hæv ə sɔːr θroʊt ænd ə ˈrʌn.i noʊz/"
+    },
+    {
+      "phrase": "Do you have a fever",
+      "meaningVi": "Bạn có sốt không",
+      "pronunciation": "/duː juː hæv ə ˈfiː.vər/"
+    },
+    {
+      "phrase": "I don't have a fever",
+      "meaningVi": "Tôi không bị sốt",
+      "pronunciation": "/aɪ doʊnt hæv ə ˈfiː.vər/"
+    },
+    {
+      "phrase": "I recommend this cold medicine",
+      "meaningVi": "Tôi giới thiệu loại thuốc cảm này",
+      "pronunciation": "/aɪ ˌrɛk.əˈmɛnd ðɪs koʊld ˈmɛd.ɪ.sɪn/"
+    },
+    {
+      "phrase": "Take one tablet three times a day",
+      "meaningVi": "Uống một viên ba lần một ngày",
+      "pronunciation": "/teɪk wʌn ˈtæb.lɪt θriː taɪmz ə deɪ/"
+    },
+    {
+      "phrase": "Should I take it with food",
+      "meaningVi": "Tôi có nên uống cùng với thức ăn không",
+      "pronunciation": "/ʃʊd aɪ teɪk ɪt wɪð fuːd/"
+    },
+    {
+      "phrase": "take it with food or after a meal",
+      "meaningVi": "uống cùng thức ăn hoặc sau bữa ăn",
+      "pronunciation": "/teɪk ɪt wɪð fuːd ɔːr ˈæf.tər ə miːl/"
+    },
+    {
+      "phrase": "How much does it cost",
+      "meaningVi": "Giá bao nhiêu",
+      "pronunciation": "/haʊ mʌtʃ dʌz ɪt kɒst/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "I have a … (describing symptoms)",
+      "bodyVi": "Dùng 'I have a …' để mô tả triệu chứng bệnh: 'I have a cold', 'I have a headache', 'I have a fever'.",
+      "bodyEn": "Use 'I have a …' to describe symptoms: 'I have a cold', 'I have a headache', 'I have a fever'."
+    },
+    {
+      "title": "Times a day (frequency)",
+      "bodyVi": "Để nói về tần suất uống thuốc: 'once a day' (một lần/ngày), 'twice a day' (hai lần/ngày), 'three times a day' (ba lần/ngày).",
+      "bodyEn": "To describe how often to take medicine: 'once a day', 'twice a day', 'three times a day'."
+    }
+  ],
+  "translationVi": "Khách: Xin chào. Tôi cần thứ gì đó trị cảm lạnh. / Dược sĩ: Tôi tiếc khi nghe điều đó. Triệu chứng của bạn là gì? / Khách: Tôi bị đau họng và chảy nước mũi. / Dược sĩ: Bạn có sốt không? / Khách: Không, tôi không bị sốt. / Dược sĩ: Tôi giới thiệu loại thuốc cảm này. Uống một viên ba lần một ngày. / Khách: Tôi có nên uống cùng với thức ăn không? / Dược sĩ: Vâng, uống cùng thức ăn hoặc sau bữa ăn. / Khách: Giá bao nhiêu? / Dược sĩ: Tám đô la. / Khách: Cảm ơn bạn đã giúp đỡ.",
+  "criticalThinkingQuestion": "Why is it important to follow the instructions on medicine carefully?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-a1-077",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 33984
+}

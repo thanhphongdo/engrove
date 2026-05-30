@@ -1,0 +1,297 @@
+{
+  "id": "speaking-a1-072",
+  "level": "A1",
+  "title": "Ordering Food at a Restaurant",
+  "summary": "A customer visits a restaurant and orders a meal from a friendly waiter.",
+  "topic": "Ordering food",
+  "tags": [
+    "Daily life",
+    "Restaurant",
+    "Food"
+  ],
+  "characters": [
+    "Customer",
+    "Waiter"
+  ],
+  "voices": {
+    "Customer": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-JennyNeural"
+    },
+    "Waiter": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-GuyNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Waiter",
+      "text": "Good evening! Welcome to our restaurant."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Thank you. I'd like a table for two, please."
+    },
+    {
+      "speaker": "Waiter",
+      "text": "Of course! Please follow me."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Can I see the menu, please?"
+    },
+    {
+      "speaker": "Waiter",
+      "text": "Here you are."
+    },
+    {
+      "speaker": "Customer",
+      "text": "I'd like the chicken soup. And a glass of water, please."
+    },
+    {
+      "speaker": "Waiter",
+      "text": "Anything else?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "No, that's all. Thank you very much."
+    },
+    {
+      "speaker": "Waiter",
+      "text": "Your order will be ready soon."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Waiter",
+      "text": "Good evening!",
+      "translationVi": "Chào buổi tối!",
+      "durationMs": 1680
+    },
+    {
+      "id": "s2",
+      "speaker": "Waiter",
+      "text": "Welcome to our restaurant.",
+      "translationVi": "Chào mừng bạn đến nhà hàng của chúng tôi.",
+      "durationMs": 2424
+    },
+    {
+      "id": "s3",
+      "speaker": "Customer",
+      "text": "Thank you.",
+      "translationVi": "Cảm ơn bạn.",
+      "durationMs": 1608
+    },
+    {
+      "id": "s4",
+      "speaker": "Customer",
+      "text": "I'd like a table for two, please.",
+      "translationVi": "Cho tôi một bàn cho hai người, làm ơn.",
+      "durationMs": 3096
+    },
+    {
+      "id": "s5",
+      "speaker": "Waiter",
+      "text": "Of course!",
+      "translationVi": "Tất nhiên rồi!",
+      "durationMs": 1752
+    },
+    {
+      "id": "s6",
+      "speaker": "Waiter",
+      "text": "Please follow me.",
+      "translationVi": "Mời bạn theo tôi.",
+      "durationMs": 1848
+    },
+    {
+      "id": "s7",
+      "speaker": "Customer",
+      "text": "Can I see the menu, please?",
+      "translationVi": "Tôi có thể xem thực đơn không?",
+      "durationMs": 2616
+    },
+    {
+      "id": "s8",
+      "speaker": "Waiter",
+      "text": "Here you are.",
+      "translationVi": "Đây bạn.",
+      "durationMs": 1848
+    },
+    {
+      "id": "s9",
+      "speaker": "Customer",
+      "text": "I'd like the chicken soup.",
+      "translationVi": "Cho tôi món súp gà.",
+      "durationMs": 2304
+    },
+    {
+      "id": "s10",
+      "speaker": "Customer",
+      "text": "And a glass of water, please.",
+      "translationVi": "Và một ly nước, làm ơn.",
+      "durationMs": 2832
+    },
+    {
+      "id": "s11",
+      "speaker": "Waiter",
+      "text": "Anything else?",
+      "translationVi": "Bạn cần thêm gì không?",
+      "durationMs": 1872
+    },
+    {
+      "id": "s12",
+      "speaker": "Customer",
+      "text": "No, that's all.",
+      "translationVi": "Không, vậy là đủ rồi.",
+      "durationMs": 2256
+    },
+    {
+      "id": "s13",
+      "speaker": "Customer",
+      "text": "Thank you very much.",
+      "translationVi": "Cảm ơn bạn rất nhiều.",
+      "durationMs": 2136
+    },
+    {
+      "id": "s14",
+      "speaker": "Waiter",
+      "text": "Your order will be ready soon.",
+      "translationVi": "Món của bạn sẽ sớm được phục vụ.",
+      "durationMs": 2736
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "I'd like …, please."
+    },
+    {
+      "id": "h2",
+      "text": "Can I see …, please?"
+    },
+    {
+      "id": "h3",
+      "text": "Could I have …, please?"
+    },
+    {
+      "id": "h4",
+      "text": "And a … , please."
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "chicken soup",
+      "meaningVi": "súp gà",
+      "pronunciation": "/ˈtʃɪk.ɪn suːp/"
+    },
+    {
+      "id": "v2",
+      "phrase": "menu",
+      "meaningVi": "thực đơn",
+      "pronunciation": "/ˈmɛn.juː/"
+    },
+    {
+      "id": "v3",
+      "phrase": "a glass of water",
+      "meaningVi": "một ly nước",
+      "pronunciation": "/ə ɡlæs əv ˈwɔː.tər/"
+    },
+    {
+      "id": "v4",
+      "phrase": "a table for two",
+      "meaningVi": "một bàn cho hai người",
+      "pronunciation": "/ə ˈteɪ.bəl fər tuː/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "Good evening",
+      "meaningVi": "Chào buổi tối",
+      "pronunciation": "/ɡʊd ˈiːv.nɪŋ/"
+    },
+    {
+      "phrase": "Welcome to",
+      "meaningVi": "Chào mừng đến",
+      "pronunciation": "/ˈwɛl.kəm tuː/"
+    },
+    {
+      "phrase": "I'd like a table for two",
+      "meaningVi": "Tôi muốn một bàn cho hai người",
+      "pronunciation": "/aɪd laɪk ə ˈteɪ.bəl fər tuː/"
+    },
+    {
+      "phrase": "Of course",
+      "meaningVi": "Tất nhiên rồi",
+      "pronunciation": "/əv kɔːrs/",
+      "exampleEn": "Of course! Right away."
+    },
+    {
+      "phrase": "Please follow me",
+      "meaningVi": "Mời bạn theo tôi",
+      "pronunciation": "/pliːz ˈfɒl.əʊ miː/"
+    },
+    {
+      "phrase": "Can I see the menu",
+      "meaningVi": "Tôi có thể xem thực đơn không",
+      "pronunciation": "/kæn aɪ siː ðə ˈmɛn.juː/"
+    },
+    {
+      "phrase": "Here you are",
+      "meaningVi": "Đây bạn (khi đưa thứ gì đó)",
+      "pronunciation": "/hɪər juː ɑːr/"
+    },
+    {
+      "phrase": "I'd like the chicken soup",
+      "meaningVi": "Cho tôi món súp gà",
+      "pronunciation": "/aɪd laɪk ðə ˈtʃɪk.ɪn suːp/"
+    },
+    {
+      "phrase": "a glass of water",
+      "meaningVi": "một ly nước",
+      "pronunciation": "/ə ɡlæs əv ˈwɔː.tər/"
+    },
+    {
+      "phrase": "Anything else",
+      "meaningVi": "Còn gì nữa không",
+      "pronunciation": "/ˈɛn.i.θɪŋ ɛls/"
+    },
+    {
+      "phrase": "that's all",
+      "meaningVi": "vậy là đủ rồi",
+      "pronunciation": "/ðæts ɔːl/"
+    },
+    {
+      "phrase": "Thank you very much",
+      "meaningVi": "Cảm ơn bạn rất nhiều",
+      "pronunciation": "/θæŋk juː ˈvɛr.i mʌtʃ/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "I'd like … (polite requests)",
+      "bodyVi": "'I'd like' là cách lịch sự để nói 'I want'. Dùng khi gọi món hoặc yêu cầu điều gì đó.",
+      "bodyEn": "'I'd like' is a polite way to say 'I want'. Use it to order food or make requests."
+    },
+    {
+      "title": "Can I … ? (asking permission)",
+      "bodyVi": "'Can I …?' được dùng để xin phép một cách thân thiện, ví dụ 'Can I see the menu?'",
+      "bodyEn": "'Can I …?' is used to ask for permission in a friendly way, e.g. 'Can I see the menu?'"
+    }
+  ],
+  "translationVi": "Bồi bàn: Chào buổi tối! Chào mừng bạn đến nhà hàng của chúng tôi. / Khách: Cảm ơn bạn. Cho tôi một bàn cho hai người, làm ơn. / Bồi bàn: Tất nhiên rồi! Mời bạn theo tôi. / Khách: Tôi có thể xem thực đơn không? / Bồi bàn: Đây bạn. / Khách: Cho tôi món súp gà. Và một ly nước, làm ơn. / Bồi bàn: Bạn cần thêm gì không? / Khách: Không, vậy là đủ rồi. Cảm ơn bạn rất nhiều. / Bồi bàn: Món của bạn sẽ sớm được phục vụ.",
+  "criticalThinkingQuestion": "Why is it important to be polite when ordering food at a restaurant?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-a1-072",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 31008
+}

@@ -1,0 +1,365 @@
+{
+  "id": "speaking-a2-080",
+  "level": "A2",
+  "title": "Scheduling a Haircut",
+  "summary": "A customer calls a hair salon to book an appointment for a haircut at a convenient time.",
+  "topic": "Making appointments",
+  "tags": [
+    "Daily life",
+    "Appointments",
+    "Services"
+  ],
+  "characters": [
+    "Customer",
+    "Stylist"
+  ],
+  "voices": {
+    "Customer": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-AvaNeural"
+    },
+    "Stylist": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-AndrewNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Customer",
+      "text": "Hello, I'd like to book an appointment for a haircut."
+    },
+    {
+      "speaker": "Stylist",
+      "text": "Hi there! When would you like to come in?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "I'd prefer sometime this week if possible."
+    },
+    {
+      "speaker": "Stylist",
+      "text": "We have a slot open on Wednesday at three o'clock. We also have Thursday morning at ten o'clock."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Wednesday at three works better for me."
+    },
+    {
+      "speaker": "Stylist",
+      "text": "Great, can I get your name?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "My name is Rachel Torres."
+    },
+    {
+      "speaker": "Stylist",
+      "text": "Thank you, Rachel. What kind of haircut are you looking for?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Just a trim, please. I want to keep the same length."
+    },
+    {
+      "speaker": "Stylist",
+      "text": "No problem, a trim takes about twenty minutes."
+    },
+    {
+      "speaker": "Customer",
+      "text": "How much will it cost?"
+    },
+    {
+      "speaker": "Stylist",
+      "text": "A basic trim is fifteen dollars."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Perfect, I'll see you on Wednesday then."
+    },
+    {
+      "speaker": "Stylist",
+      "text": "See you then, have a great day!"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Customer",
+      "text": "Hello, I'd like to book an appointment for a haircut.",
+      "translationVi": "Xin chào, tôi muốn đặt lịch hẹn để cắt tóc.",
+      "durationMs": 3024
+    },
+    {
+      "id": "s2",
+      "speaker": "Stylist",
+      "text": "Hi there!",
+      "translationVi": "Chào bạn!",
+      "durationMs": 864
+    },
+    {
+      "id": "s3",
+      "speaker": "Stylist",
+      "text": "When would you like to come in?",
+      "translationVi": "Bạn muốn đến vào khi nào?",
+      "durationMs": 1392
+    },
+    {
+      "id": "s4",
+      "speaker": "Customer",
+      "text": "I'd prefer sometime this week if possible.",
+      "translationVi": "Tôi muốn vào tuần này nếu có thể.",
+      "durationMs": 2688
+    },
+    {
+      "id": "s5",
+      "speaker": "Stylist",
+      "text": "We have a slot open on Wednesday at three o'clock.",
+      "translationVi": "Chúng tôi có một chỗ trống vào thứ Tư lúc ba giờ.",
+      "durationMs": 2832
+    },
+    {
+      "id": "s6",
+      "speaker": "Stylist",
+      "text": "We also have Thursday morning at ten o'clock.",
+      "translationVi": "Chúng tôi cũng có sáng thứ Năm lúc mười giờ.",
+      "durationMs": 2736
+    },
+    {
+      "id": "s7",
+      "speaker": "Customer",
+      "text": "Wednesday at three works better for me.",
+      "translationVi": "Thứ Tư lúc ba giờ phù hợp hơn với tôi.",
+      "durationMs": 2592
+    },
+    {
+      "id": "s8",
+      "speaker": "Stylist",
+      "text": "Great, can I get your name?",
+      "translationVi": "Tuyệt, cho tôi biết tên bạn được không?",
+      "durationMs": 1728
+    },
+    {
+      "id": "s9",
+      "speaker": "Customer",
+      "text": "My name is Rachel Torres.",
+      "translationVi": "Tên tôi là Rachel Torres.",
+      "durationMs": 2136
+    },
+    {
+      "id": "s10",
+      "speaker": "Stylist",
+      "text": "Thank you, Rachel.",
+      "translationVi": "Cảm ơn bạn, Rachel.",
+      "durationMs": 1176
+    },
+    {
+      "id": "s11",
+      "speaker": "Stylist",
+      "text": "What kind of haircut are you looking for?",
+      "translationVi": "Bạn muốn kiểu tóc cắt như thế nào?",
+      "durationMs": 2016
+    },
+    {
+      "id": "s12",
+      "speaker": "Customer",
+      "text": "Just a trim, please.",
+      "translationVi": "Chỉ cần tỉa gọn thôi, làm ơn.",
+      "durationMs": 1800
+    },
+    {
+      "id": "s13",
+      "speaker": "Customer",
+      "text": "I want to keep the same length.",
+      "translationVi": "Tôi muốn giữ nguyên độ dài.",
+      "durationMs": 2016
+    },
+    {
+      "id": "s14",
+      "speaker": "Stylist",
+      "text": "No problem, a trim takes about twenty minutes.",
+      "translationVi": "Không vấn đề gì, tỉa gọn mất khoảng hai mươi phút.",
+      "durationMs": 3024
+    },
+    {
+      "id": "s15",
+      "speaker": "Customer",
+      "text": "How much will it cost?",
+      "translationVi": "Chi phí là bao nhiêu?",
+      "durationMs": 1728
+    },
+    {
+      "id": "s16",
+      "speaker": "Stylist",
+      "text": "A basic trim is fifteen dollars.",
+      "translationVi": "Tỉa gọn cơ bản là mười lăm đô la.",
+      "durationMs": 2520
+    },
+    {
+      "id": "s17",
+      "speaker": "Customer",
+      "text": "Perfect, I'll see you on Wednesday then.",
+      "translationVi": "Hoàn hảo, vậy hẹn gặp lại vào thứ Tư nhé.",
+      "durationMs": 2664
+    },
+    {
+      "id": "s18",
+      "speaker": "Stylist",
+      "text": "See you then, have a great day!",
+      "translationVi": "Hẹn gặp lại, chúc bạn một ngày tuyệt vời!",
+      "durationMs": 2064
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "I'd like to book an appointment for a …"
+    },
+    {
+      "id": "h2",
+      "text": "I'd prefer … if possible."
+    },
+    {
+      "id": "h3",
+      "text": "What kind of … are you looking for?"
+    },
+    {
+      "id": "h4",
+      "text": "How much will a … cost?"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "book an appointment",
+      "meaningVi": "đặt lịch hẹn",
+      "pronunciation": "/bʊk ən əˈpɔɪntmənt/"
+    },
+    {
+      "id": "v2",
+      "phrase": "haircut",
+      "meaningVi": "cắt tóc",
+      "pronunciation": "/ˈhɛrkʌt/"
+    },
+    {
+      "id": "v3",
+      "phrase": "trim",
+      "meaningVi": "tỉa gọn (tóc)",
+      "pronunciation": "/trɪm/"
+    },
+    {
+      "id": "v4",
+      "phrase": "slot",
+      "meaningVi": "chỗ trống (lịch)",
+      "pronunciation": "/slɒt/"
+    },
+    {
+      "id": "v5",
+      "phrase": "keep the same length",
+      "meaningVi": "giữ nguyên độ dài",
+      "pronunciation": "/kiːp ðə seɪm lɛŋθ/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "I'd like to book an appointment for a haircut",
+      "meaningVi": "Tôi muốn đặt lịch hẹn để cắt tóc",
+      "pronunciation": "/aɪd laɪk tə bʊk ən əˈpɔɪntmənt fər ə ˈhɛrkʌt/"
+    },
+    {
+      "phrase": "When would you like to come in",
+      "meaningVi": "Bạn muốn đến vào khi nào",
+      "pronunciation": "/wɛn wʊd juː laɪk tə kʌm ɪn/"
+    },
+    {
+      "phrase": "I'd prefer sometime this week if possible",
+      "meaningVi": "Tôi muốn vào tuần này nếu có thể",
+      "pronunciation": "/aɪd prɪˈfɜːr ˈsʌmtaɪm ðɪs wiːk ɪf ˈpɒsɪbəl/"
+    },
+    {
+      "phrase": "slot open on Wednesday",
+      "meaningVi": "chỗ trống vào thứ Tư",
+      "pronunciation": "/slɒt ˈoʊpən ɒn ˈwɛnzdeɪ/"
+    },
+    {
+      "phrase": "Wednesday at three works better for me",
+      "meaningVi": "Thứ Tư lúc ba giờ phù hợp hơn với tôi",
+      "pronunciation": "/ˈwɛnzdeɪ æt θriː wɜːrks ˈbɛtər fər miː/"
+    },
+    {
+      "phrase": "can I get your name",
+      "meaningVi": "cho tôi biết tên bạn được không",
+      "pronunciation": "/kæn aɪ ɡɛt jər neɪm/"
+    },
+    {
+      "phrase": "What kind of haircut are you looking for",
+      "meaningVi": "Bạn muốn kiểu tóc cắt như thế nào",
+      "pronunciation": "/wɒt kaɪnd əv ˈhɛrkʌt ɑːr juː ˈlʊkɪŋ fər/"
+    },
+    {
+      "phrase": "Just a trim, please",
+      "meaningVi": "Chỉ cần tỉa gọn thôi, làm ơn",
+      "pronunciation": "/dʒʌst ə trɪm pliːz/"
+    },
+    {
+      "phrase": "keep the same length",
+      "meaningVi": "giữ nguyên độ dài",
+      "pronunciation": "/kiːp ðə seɪm lɛŋθ/"
+    },
+    {
+      "phrase": "a trim takes about twenty minutes",
+      "meaningVi": "tỉa gọn mất khoảng hai mươi phút",
+      "pronunciation": "/ə trɪm teɪks əˈbaʊt ˈtwɛnti ˈmɪnɪts/"
+    },
+    {
+      "phrase": "How much will it cost",
+      "meaningVi": "Chi phí là bao nhiêu",
+      "pronunciation": "/haʊ mʌtʃ wɪl ɪt kɒst/"
+    },
+    {
+      "phrase": "basic trim",
+      "meaningVi": "tỉa gọn cơ bản",
+      "pronunciation": "/ˈbeɪsɪk trɪm/"
+    },
+    {
+      "phrase": "I'll see you on Wednesday",
+      "meaningVi": "hẹn gặp lại vào thứ Tư",
+      "pronunciation": "/aɪl siː juː ɒn ˈwɛnzdeɪ/"
+    },
+    {
+      "phrase": "have a great day",
+      "meaningVi": "chúc một ngày tuyệt vời",
+      "pronunciation": "/hæv ə ɡreɪt deɪ/"
+    },
+    {
+      "phrase": "Thursday morning at ten o'clock",
+      "meaningVi": "sáng thứ Năm lúc mười giờ",
+      "pronunciation": "/ˈθɜːrzdeɪ ˈmɔːrnɪŋ æt tɛn əˈklɒk/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "'I'd prefer' + noun/gerund for preferences",
+      "bodyVi": "'I'd prefer' dùng để diễn đạt sự ưa thích giữa các lựa chọn. Ví dụ: 'I'd prefer sometime this week.' Cũng có thể nói 'I'd prefer Wednesday to Thursday.' (ưa thứ Tư hơn thứ Năm).",
+      "bodyEn": "'I'd prefer' expresses a preference between options. Example: 'I'd prefer sometime this week.' You can also say 'I'd prefer Wednesday to Thursday' to compare two specific choices."
+    },
+    {
+      "title": "Asking about time with 'When would you like to'",
+      "bodyVi": "'When would you like to come in?' là cách lịch sự để hỏi thời gian thuận tiện của khách. Cũng dùng 'What time works best for you?' với nghĩa tương tự.",
+      "bodyEn": "'When would you like to come in?' is a polite way to ask about a customer's preferred time. A similar phrase is 'What time works best for you?'"
+    }
+  ],
+  "translationVi": "Khách: Xin chào, tôi muốn đặt lịch hẹn để cắt tóc. / Thợ cắt tóc: Chào bạn! Bạn muốn đến vào khi nào? / Khách: Tôi muốn vào tuần này nếu có thể. / Thợ cắt tóc: Chúng tôi có một chỗ trống vào thứ Tư lúc ba giờ. Chúng tôi cũng có sáng thứ Năm lúc mười giờ. / Khách: Thứ Tư lúc ba giờ phù hợp hơn với tôi. / Thợ cắt tóc: Tuyệt, cho tôi biết tên bạn được không? / Khách: Tên tôi là Rachel Torres. / Thợ cắt tóc: Cảm ơn bạn, Rachel. Bạn muốn kiểu tóc cắt như thế nào? / Khách: Chỉ cần tỉa gọn thôi, làm ơn. Tôi muốn giữ nguyên độ dài. / Thợ cắt tóc: Không vấn đề gì, tỉa gọn mất khoảng hai mươi phút. / Khách: Chi phí là bao nhiêu? / Thợ cắt tóc: Tỉa gọn cơ bản là mười lăm đô la. / Khách: Hoàn hảo, vậy hẹn gặp lại vào thứ Tư nhé. / Thợ cắt tóc: Hẹn gặp lại, chúc bạn một ngày tuyệt vời!",
+  "criticalThinkingQuestion": "What information is most useful to know before making an appointment at a new hair salon?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-a2-080",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 39000
+}

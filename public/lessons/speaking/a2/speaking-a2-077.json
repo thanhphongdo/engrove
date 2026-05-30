@@ -1,0 +1,354 @@
+{
+  "id": "speaking-a2-077",
+  "level": "A2",
+  "title": "Ordering Takeaway and Reporting a Missing Item",
+  "summary": "A customer orders takeaway food by phone and later calls back to report a missing item from the order.",
+  "topic": "Food and ordering",
+  "tags": [
+    "Food",
+    "Phone",
+    "Customer service"
+  ],
+  "characters": [
+    "Customer",
+    "RestaurantStaff"
+  ],
+  "voices": {
+    "Customer": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-AndrewNeural"
+    },
+    "RestaurantStaff": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-MichelleNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Customer",
+      "text": "Hi, I'd like to place an order for delivery, please."
+    },
+    {
+      "speaker": "RestaurantStaff",
+      "text": "Of course, what would you like to order?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "I'd like one large pizza and two portions of garlic bread."
+    },
+    {
+      "speaker": "RestaurantStaff",
+      "text": "Would you like anything to drink?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Yes, please add one bottle of cola."
+    },
+    {
+      "speaker": "RestaurantStaff",
+      "text": "Your total is twenty-two dollars. Delivery will take about thirty minutes."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Great, thank you. Hello, I'm calling because there is a problem with my order."
+    },
+    {
+      "speaker": "RestaurantStaff",
+      "text": "I'm sorry to hear that. What seems to be the problem?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "The garlic bread was missing from my order."
+    },
+    {
+      "speaker": "RestaurantStaff",
+      "text": "I apologize for that mistake. We will send the garlic bread right away."
+    },
+    {
+      "speaker": "Customer",
+      "text": "How long will it take?"
+    },
+    {
+      "speaker": "RestaurantStaff",
+      "text": "It should arrive within fifteen minutes."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Thank you for fixing the problem so quickly."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Customer",
+      "text": "Hi, I'd like to place an order for delivery, please.",
+      "translationVi": "Xin chào, tôi muốn đặt đơn giao hàng, làm ơn.",
+      "durationMs": 3552
+    },
+    {
+      "id": "s2",
+      "speaker": "RestaurantStaff",
+      "text": "Of course, what would you like to order?",
+      "translationVi": "Tất nhiên rồi, bạn muốn gọi gì?",
+      "durationMs": 2904
+    },
+    {
+      "id": "s3",
+      "speaker": "Customer",
+      "text": "I'd like one large pizza and two portions of garlic bread.",
+      "translationVi": "Tôi muốn một chiếc pizza cỡ lớn và hai phần bánh mì tỏi.",
+      "durationMs": 3576
+    },
+    {
+      "id": "s4",
+      "speaker": "RestaurantStaff",
+      "text": "Would you like anything to drink?",
+      "translationVi": "Bạn có muốn uống gì không?",
+      "durationMs": 2328
+    },
+    {
+      "id": "s5",
+      "speaker": "Customer",
+      "text": "Yes, please add one bottle of cola.",
+      "translationVi": "Vâng, làm ơn thêm một chai cola.",
+      "durationMs": 2568
+    },
+    {
+      "id": "s6",
+      "speaker": "RestaurantStaff",
+      "text": "Your total is twenty-two dollars.",
+      "translationVi": "Tổng cộng là hai mươi hai đô la.",
+      "durationMs": 2808
+    },
+    {
+      "id": "s7",
+      "speaker": "RestaurantStaff",
+      "text": "Delivery will take about thirty minutes.",
+      "translationVi": "Giao hàng sẽ mất khoảng ba mươi phút.",
+      "durationMs": 2928
+    },
+    {
+      "id": "s8",
+      "speaker": "Customer",
+      "text": "Great, thank you.",
+      "translationVi": "Tuyệt, cảm ơn bạn.",
+      "durationMs": 1416
+    },
+    {
+      "id": "s9",
+      "speaker": "Customer",
+      "text": "Hello, I'm calling because there is a problem with my order.",
+      "translationVi": "Xin chào, tôi gọi vì có vấn đề với đơn hàng của tôi.",
+      "durationMs": 3336
+    },
+    {
+      "id": "s10",
+      "speaker": "RestaurantStaff",
+      "text": "I'm sorry to hear that.",
+      "translationVi": "Tôi rất tiếc khi nghe điều đó.",
+      "durationMs": 2208
+    },
+    {
+      "id": "s11",
+      "speaker": "RestaurantStaff",
+      "text": "What seems to be the problem?",
+      "translationVi": "Vấn đề là gì vậy?",
+      "durationMs": 2256
+    },
+    {
+      "id": "s12",
+      "speaker": "Customer",
+      "text": "The garlic bread was missing from my order.",
+      "translationVi": "Bánh mì tỏi bị thiếu trong đơn hàng của tôi.",
+      "durationMs": 2424
+    },
+    {
+      "id": "s13",
+      "speaker": "RestaurantStaff",
+      "text": "I apologize for that mistake.",
+      "translationVi": "Tôi xin lỗi vì sự nhầm lẫn đó.",
+      "durationMs": 2712
+    },
+    {
+      "id": "s14",
+      "speaker": "RestaurantStaff",
+      "text": "We will send the garlic bread right away.",
+      "translationVi": "Chúng tôi sẽ gửi bánh mì tỏi ngay lập tức.",
+      "durationMs": 2928
+    },
+    {
+      "id": "s15",
+      "speaker": "Customer",
+      "text": "How long will it take?",
+      "translationVi": "Sẽ mất bao lâu?",
+      "durationMs": 1416
+    },
+    {
+      "id": "s16",
+      "speaker": "RestaurantStaff",
+      "text": "It should arrive within fifteen minutes.",
+      "translationVi": "Nó sẽ đến trong vòng mười lăm phút.",
+      "durationMs": 3024
+    },
+    {
+      "id": "s17",
+      "speaker": "Customer",
+      "text": "Thank you for fixing the problem so quickly.",
+      "translationVi": "Cảm ơn bạn đã giải quyết vấn đề nhanh chóng.",
+      "durationMs": 2352
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "I'd like to place an order for …"
+    },
+    {
+      "id": "h2",
+      "text": "Please add … to my order."
+    },
+    {
+      "id": "h3",
+      "text": "There is a problem with my …"
+    },
+    {
+      "id": "h4",
+      "text": "The … was missing from my order."
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "place an order",
+      "meaningVi": "đặt đơn hàng",
+      "pronunciation": "/pleɪs ən ˈɔːrdər/"
+    },
+    {
+      "id": "v2",
+      "phrase": "garlic bread",
+      "meaningVi": "bánh mì tỏi",
+      "pronunciation": "/ˈɡɑːrlɪk brɛd/"
+    },
+    {
+      "id": "v3",
+      "phrase": "delivery",
+      "meaningVi": "giao hàng",
+      "pronunciation": "/dɪˈlɪvəri/"
+    },
+    {
+      "id": "v4",
+      "phrase": "missing from",
+      "meaningVi": "bị thiếu khỏi (đơn hàng)",
+      "pronunciation": "/ˈmɪsɪŋ frəm/"
+    },
+    {
+      "id": "v5",
+      "phrase": "right away",
+      "meaningVi": "ngay lập tức",
+      "pronunciation": "/raɪt əˈweɪ/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "I'd like to place an order for delivery",
+      "meaningVi": "Tôi muốn đặt đơn giao hàng",
+      "pronunciation": "/aɪd laɪk tə pleɪs ən ˈɔːrdər fər dɪˈlɪvəri/"
+    },
+    {
+      "phrase": "what would you like to order",
+      "meaningVi": "bạn muốn gọi gì",
+      "pronunciation": "/wɒt wʊd juː laɪk tə ˈɔːrdər/"
+    },
+    {
+      "phrase": "two portions of garlic bread",
+      "meaningVi": "hai phần bánh mì tỏi",
+      "pronunciation": "/tuː ˈpɔːrʃənz əv ˈɡɑːrlɪk brɛd/"
+    },
+    {
+      "phrase": "Would you like anything to drink",
+      "meaningVi": "Bạn có muốn uống gì không",
+      "pronunciation": "/wʊd juː laɪk ˈɛniθɪŋ tə drɪŋk/"
+    },
+    {
+      "phrase": "one bottle of cola",
+      "meaningVi": "một chai cola",
+      "pronunciation": "/wʌn ˈbɒtəl əv ˈkoʊlə/"
+    },
+    {
+      "phrase": "Delivery will take about thirty minutes",
+      "meaningVi": "Giao hàng sẽ mất khoảng ba mươi phút",
+      "pronunciation": "/dɪˈlɪvəri wɪl teɪk əˈbaʊt ˈθɜːrti ˈmɪnɪts/"
+    },
+    {
+      "phrase": "there is a problem with my order",
+      "meaningVi": "có vấn đề với đơn hàng của tôi",
+      "pronunciation": "/ðɛr ɪz ə ˈprɒbləm wɪð maɪ ˈɔːrdər/"
+    },
+    {
+      "phrase": "What seems to be the problem",
+      "meaningVi": "Vấn đề là gì vậy",
+      "pronunciation": "/wɒt siːmz tə biː ðə ˈprɒbləm/"
+    },
+    {
+      "phrase": "garlic bread was missing from my order",
+      "meaningVi": "bánh mì tỏi bị thiếu trong đơn hàng của tôi",
+      "pronunciation": "/ˈɡɑːrlɪk brɛd wɒz ˈmɪsɪŋ frəm maɪ ˈɔːrdər/"
+    },
+    {
+      "phrase": "I apologize for that mistake",
+      "meaningVi": "Tôi xin lỗi vì sự nhầm lẫn đó",
+      "pronunciation": "/aɪ əˈpɒlədʒaɪz fər ðæt mɪˈsteɪk/"
+    },
+    {
+      "phrase": "send the garlic bread right away",
+      "meaningVi": "gửi bánh mì tỏi ngay lập tức",
+      "pronunciation": "/sɛnd ðə ˈɡɑːrlɪk brɛd raɪt əˈweɪ/"
+    },
+    {
+      "phrase": "How long will it take",
+      "meaningVi": "Sẽ mất bao lâu",
+      "pronunciation": "/haʊ lɒŋ wɪl ɪt teɪk/"
+    },
+    {
+      "phrase": "arrive within fifteen minutes",
+      "meaningVi": "đến trong vòng mười lăm phút",
+      "pronunciation": "/əˈraɪv wɪˈðɪn ˌfɪfˈtiːn ˈmɪnɪts/"
+    },
+    {
+      "phrase": "fixing the problem so quickly",
+      "meaningVi": "giải quyết vấn đề nhanh chóng",
+      "pronunciation": "/ˈfɪksɪŋ ðə ˈprɒbləm soʊ ˈkwɪkli/"
+    },
+    {
+      "phrase": "I'm sorry to hear that",
+      "meaningVi": "Tôi rất tiếc khi nghe điều đó",
+      "pronunciation": "/aɪm ˈsɒri tə hɪr ðæt/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "'I'd like to' for polite ordering",
+      "bodyVi": "Khi gọi món hoặc yêu cầu dịch vụ, 'I'd like to' lịch sự hơn 'I want to'. Ví dụ: 'I'd like to place an order.' / 'I'd like one large pizza.'",
+      "bodyEn": "When ordering food or requesting a service, 'I'd like to' or 'I'd like + noun' is more polite than 'I want'. Example: 'I'd like one large pizza.'"
+    },
+    {
+      "title": "Reporting a problem politely",
+      "bodyVi": "Để báo cáo sự cố một cách lịch sự, dùng: 'There is a problem with my order.' hoặc 'Something is missing from my order.' Tránh nói quá thẳng thừng như 'You made a mistake.'",
+      "bodyEn": "To report a problem politely, use: 'There is a problem with my order.' or 'Something is missing from my order.' Avoid blunt phrases like 'You made a mistake.'"
+    }
+  ],
+  "translationVi": "Khách: Xin chào, tôi muốn đặt đơn giao hàng, làm ơn. / Nhân viên: Tất nhiên rồi, bạn muốn gọi gì? / Khách: Tôi muốn một chiếc pizza cỡ lớn và hai phần bánh mì tỏi. / Nhân viên: Bạn có muốn uống gì không? / Khách: Vâng, làm ơn thêm một chai cola. / Nhân viên: Tổng cộng là hai mươi hai đô la. Giao hàng sẽ mất khoảng ba mươi phút. / Khách: Tuyệt, cảm ơn bạn. / [Sau khi nhận hàng] / Khách: Xin chào, tôi gọi vì có vấn đề với đơn hàng của tôi. / Nhân viên: Tôi rất tiếc khi nghe điều đó. Vấn đề là gì vậy? / Khách: Bánh mì tỏi bị thiếu trong đơn hàng của tôi. / Nhân viên: Tôi xin lỗi vì sự nhầm lẫn đó. Chúng tôi sẽ gửi bánh mì tỏi ngay lập tức. / Khách: Sẽ mất bao lâu? / Nhân viên: Nó sẽ đến trong vòng mười lăm phút. / Khách: Cảm ơn bạn đã giải quyết vấn đề nhanh chóng.",
+  "criticalThinkingQuestion": "What should a business do to prevent mistakes when preparing takeaway orders, and how should staff respond when something goes wrong?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-a2-077",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 44736
+}

@@ -1,0 +1,309 @@
+{
+  "id": "speaking-a1-073",
+  "level": "A1",
+  "title": "Buying Bus Tickets",
+  "summary": "A traveler buys bus tickets at the ticket counter.",
+  "topic": "Public transport",
+  "tags": [
+    "Daily life",
+    "Transport",
+    "Travel"
+  ],
+  "characters": [
+    "Traveler",
+    "Clerk"
+  ],
+  "voices": {
+    "Traveler": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-AndrewNeural"
+    },
+    "Clerk": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-AriaNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Traveler",
+      "text": "Hello. I'd like two tickets to Boston, please."
+    },
+    {
+      "speaker": "Clerk",
+      "text": "One way or round trip?"
+    },
+    {
+      "speaker": "Traveler",
+      "text": "One way, please."
+    },
+    {
+      "speaker": "Clerk",
+      "text": "The next bus leaves at two o'clock."
+    },
+    {
+      "speaker": "Traveler",
+      "text": "How much is that?"
+    },
+    {
+      "speaker": "Clerk",
+      "text": "It's fifteen dollars each. That's thirty dollars in total."
+    },
+    {
+      "speaker": "Traveler",
+      "text": "Here is forty dollars."
+    },
+    {
+      "speaker": "Clerk",
+      "text": "And here is your change."
+    },
+    {
+      "speaker": "Traveler",
+      "text": "Which platform is it?"
+    },
+    {
+      "speaker": "Clerk",
+      "text": "Platform three, on your right."
+    },
+    {
+      "speaker": "Traveler",
+      "text": "Thank you so much."
+    },
+    {
+      "speaker": "Clerk",
+      "text": "Have a good trip!"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Traveler",
+      "text": "Hello.",
+      "translationVi": "Xin chào.",
+      "durationMs": 792
+    },
+    {
+      "id": "s2",
+      "speaker": "Traveler",
+      "text": "I'd like two tickets to Boston, please.",
+      "translationVi": "Cho tôi hai vé đến Boston, làm ơn.",
+      "durationMs": 2616
+    },
+    {
+      "id": "s3",
+      "speaker": "Clerk",
+      "text": "One way or round trip?",
+      "translationVi": "Một chiều hay khứ hồi?",
+      "durationMs": 2400
+    },
+    {
+      "id": "s4",
+      "speaker": "Traveler",
+      "text": "One way, please.",
+      "translationVi": "Một chiều, làm ơn.",
+      "durationMs": 1272
+    },
+    {
+      "id": "s5",
+      "speaker": "Clerk",
+      "text": "The next bus leaves at two o'clock.",
+      "translationVi": "Xe buýt tiếp theo khởi hành lúc hai giờ.",
+      "durationMs": 3024
+    },
+    {
+      "id": "s6",
+      "speaker": "Traveler",
+      "text": "How much is that?",
+      "translationVi": "Giá bao nhiêu vậy?",
+      "durationMs": 1152
+    },
+    {
+      "id": "s7",
+      "speaker": "Clerk",
+      "text": "It's fifteen dollars each.",
+      "translationVi": "Mỗi vé mười lăm đô la.",
+      "durationMs": 2568
+    },
+    {
+      "id": "s8",
+      "speaker": "Clerk",
+      "text": "That's thirty dollars in total.",
+      "translationVi": "Tổng cộng là ba mươi đô la.",
+      "durationMs": 2616
+    },
+    {
+      "id": "s9",
+      "speaker": "Traveler",
+      "text": "Here is forty dollars.",
+      "translationVi": "Đây là bốn mươi đô la.",
+      "durationMs": 1536
+    },
+    {
+      "id": "s10",
+      "speaker": "Clerk",
+      "text": "And here is your change.",
+      "translationVi": "Và đây là tiền thừa của bạn.",
+      "durationMs": 2304
+    },
+    {
+      "id": "s11",
+      "speaker": "Traveler",
+      "text": "Which platform is it?",
+      "translationVi": "Xe đứng ở bến mấy?",
+      "durationMs": 1368
+    },
+    {
+      "id": "s12",
+      "speaker": "Clerk",
+      "text": "Platform three, on your right.",
+      "translationVi": "Bến số ba, bên tay phải của bạn.",
+      "durationMs": 2880
+    },
+    {
+      "id": "s13",
+      "speaker": "Traveler",
+      "text": "Thank you so much.",
+      "translationVi": "Cảm ơn bạn rất nhiều.",
+      "durationMs": 1248
+    },
+    {
+      "id": "s14",
+      "speaker": "Clerk",
+      "text": "Have a good trip!",
+      "translationVi": "Chúc bạn có một chuyến đi vui vẻ!",
+      "durationMs": 1992
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "I'd like … tickets to …, please."
+    },
+    {
+      "id": "h2",
+      "text": "How much is …?"
+    },
+    {
+      "id": "h3",
+      "text": "Which platform is …?"
+    },
+    {
+      "id": "h4",
+      "text": "Could I have …, please?"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "one way",
+      "meaningVi": "một chiều",
+      "pronunciation": "/wʌn weɪ/"
+    },
+    {
+      "id": "v2",
+      "phrase": "round trip",
+      "meaningVi": "khứ hồi",
+      "pronunciation": "/raʊnd trɪp/"
+    },
+    {
+      "id": "v3",
+      "phrase": "platform",
+      "meaningVi": "bến (xe buýt/tàu)",
+      "pronunciation": "/ˈplæt.fɔːrm/"
+    },
+    {
+      "id": "v4",
+      "phrase": "change",
+      "meaningVi": "tiền thừa",
+      "pronunciation": "/tʃeɪndʒ/"
+    },
+    {
+      "id": "v5",
+      "phrase": "in total",
+      "meaningVi": "tổng cộng",
+      "pronunciation": "/ɪn ˈtoʊ.t̬əl/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "I'd like two tickets to Boston",
+      "meaningVi": "Tôi muốn mua hai vé đến Boston",
+      "pronunciation": "/aɪd laɪk tuː ˈtɪk.ɪts tə ˈbɒs.tən/"
+    },
+    {
+      "phrase": "One way or round trip",
+      "meaningVi": "Một chiều hay khứ hồi",
+      "pronunciation": "/wʌn weɪ ɔːr raʊnd trɪp/"
+    },
+    {
+      "phrase": "One way",
+      "meaningVi": "Một chiều",
+      "pronunciation": "/wʌn weɪ/"
+    },
+    {
+      "phrase": "The next bus leaves at",
+      "meaningVi": "Xe buýt tiếp theo khởi hành lúc",
+      "pronunciation": "/ðə nɛkst bʌs liːvz æt/"
+    },
+    {
+      "phrase": "How much is that",
+      "meaningVi": "Giá bao nhiêu vậy",
+      "pronunciation": "/haʊ mʌtʃ ɪz ðæt/"
+    },
+    {
+      "phrase": "fifteen dollars each",
+      "meaningVi": "mười lăm đô la mỗi cái",
+      "pronunciation": "/fɪfˈtiːn ˈdɒl.ərz iːtʃ/"
+    },
+    {
+      "phrase": "in total",
+      "meaningVi": "tổng cộng",
+      "pronunciation": "/ɪn ˈtoʊ.t̬əl/"
+    },
+    {
+      "phrase": "here is your change",
+      "meaningVi": "Đây là tiền thừa của bạn",
+      "pronunciation": "/hɪər ɪz jʊər tʃeɪndʒ/"
+    },
+    {
+      "phrase": "Which platform is it",
+      "meaningVi": "Xe đứng ở bến mấy",
+      "pronunciation": "/wɪtʃ ˈplæt.fɔːrm ɪz ɪt/"
+    },
+    {
+      "phrase": "on your right",
+      "meaningVi": "ở bên tay phải của bạn",
+      "pronunciation": "/ɒn jʊər raɪt/"
+    },
+    {
+      "phrase": "Have a good trip",
+      "meaningVi": "Chúc bạn có một chuyến đi vui vẻ",
+      "pronunciation": "/hæv ə ɡʊd trɪp/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "How much is …? (asking about price)",
+      "bodyVi": "Dùng 'How much is …?' để hỏi giá của thứ gì đó. Ví dụ: 'How much is that?'",
+      "bodyEn": "Use 'How much is …?' to ask about the price of something. Example: 'How much is that?'"
+    },
+    {
+      "title": "Numbers and money",
+      "bodyVi": "Khi nói về tiền, người Mỹ thường nói 'dollars' sau số: 'fifteen dollars', 'thirty dollars'.",
+      "bodyEn": "When talking about money, Americans say 'dollars' after the number: 'fifteen dollars', 'thirty dollars'."
+    }
+  ],
+  "translationVi": "Khách: Xin chào. Cho tôi hai vé đến Boston, làm ơn. / Nhân viên: Một chiều hay khứ hồi? / Khách: Một chiều, làm ơn. / Nhân viên: Xe buýt tiếp theo khởi hành lúc hai giờ. / Khách: Giá bao nhiêu vậy? / Nhân viên: Mỗi vé mười lăm đô la. Tổng cộng là ba mươi đô la. / Khách: Đây là bốn mươi đô la. / Nhân viên: Và đây là tiền thừa của bạn. / Khách: Xe đứng ở bến mấy? / Nhân viên: Bến số ba, bên tay phải của bạn. / Khách: Cảm ơn bạn rất nhiều. / Nhân viên: Chúc bạn có một chuyến đi vui vẻ!",
+  "criticalThinkingQuestion": "What information do you need to know before buying a bus ticket?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-a1-073",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 27768
+}

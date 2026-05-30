@@ -1,0 +1,318 @@
+{
+  "id": "speaking-a1-079",
+  "level": "A1",
+  "title": "Ordering Coffee To Go",
+  "summary": "A customer orders a coffee to take away at a busy café counter.",
+  "topic": "Café",
+  "tags": [
+    "Daily life",
+    "Café",
+    "Food"
+  ],
+  "characters": [
+    "Customer",
+    "Barista"
+  ],
+  "voices": {
+    "Customer": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-GuyNeural"
+    },
+    "Barista": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-MichelleNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Customer",
+      "text": "Hi, can I get a coffee, please?"
+    },
+    {
+      "speaker": "Barista",
+      "text": "Sure! What kind of coffee would you like?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "I'd like a medium latte, please."
+    },
+    {
+      "speaker": "Barista",
+      "text": "Hot or iced?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Iced, please."
+    },
+    {
+      "speaker": "Barista",
+      "text": "Any milk options?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Oat milk, please."
+    },
+    {
+      "speaker": "Barista",
+      "text": "Is that for here or to go?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "To go, please."
+    },
+    {
+      "speaker": "Barista",
+      "text": "Can I get your name?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It's James."
+    },
+    {
+      "speaker": "Barista",
+      "text": "That will be five dollars."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Here you go."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Customer",
+      "text": "Hi, can I get a coffee, please?",
+      "translationVi": "Xin chào, cho tôi một ly cà phê được không?",
+      "durationMs": 3096
+    },
+    {
+      "id": "s2",
+      "speaker": "Barista",
+      "text": "Sure!",
+      "translationVi": "Được chứ!",
+      "durationMs": 1608
+    },
+    {
+      "id": "s3",
+      "speaker": "Barista",
+      "text": "What kind of coffee would you like?",
+      "translationVi": "Bạn muốn loại cà phê nào?",
+      "durationMs": 2472
+    },
+    {
+      "id": "s4",
+      "speaker": "Customer",
+      "text": "I'd like a medium latte, please.",
+      "translationVi": "Cho tôi một ly latte cỡ vừa, làm ơn.",
+      "durationMs": 3048
+    },
+    {
+      "id": "s5",
+      "speaker": "Barista",
+      "text": "Hot or iced?",
+      "translationVi": "Nóng hay đá?",
+      "durationMs": 1920
+    },
+    {
+      "id": "s6",
+      "speaker": "Customer",
+      "text": "Iced, please.",
+      "translationVi": "Đá, làm ơn.",
+      "durationMs": 2088
+    },
+    {
+      "id": "s7",
+      "speaker": "Barista",
+      "text": "Any milk options?",
+      "translationVi": "Bạn muốn loại sữa nào?",
+      "durationMs": 2136
+    },
+    {
+      "id": "s8",
+      "speaker": "Customer",
+      "text": "Oat milk, please.",
+      "translationVi": "Sữa yến mạch, làm ơn.",
+      "durationMs": 2328
+    },
+    {
+      "id": "s9",
+      "speaker": "Barista",
+      "text": "Is that for here or to go?",
+      "translationVi": "Bạn dùng tại đây hay mang về?",
+      "durationMs": 2352
+    },
+    {
+      "id": "s10",
+      "speaker": "Customer",
+      "text": "To go, please.",
+      "translationVi": "Mang về, làm ơn.",
+      "durationMs": 2136
+    },
+    {
+      "id": "s11",
+      "speaker": "Barista",
+      "text": "Can I get your name?",
+      "translationVi": "Cho tôi hỏi tên bạn nhé?",
+      "durationMs": 1848
+    },
+    {
+      "id": "s12",
+      "speaker": "Customer",
+      "text": "It's James.",
+      "translationVi": "Là James.",
+      "durationMs": 1920
+    },
+    {
+      "id": "s13",
+      "speaker": "Barista",
+      "text": "That will be five dollars.",
+      "translationVi": "Năm đô la nhé.",
+      "durationMs": 2400
+    },
+    {
+      "id": "s14",
+      "speaker": "Customer",
+      "text": "Here you go.",
+      "translationVi": "Đây.",
+      "durationMs": 1776
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "Can I get …, please?"
+    },
+    {
+      "id": "h2",
+      "text": "I'd like a … latte, please."
+    },
+    {
+      "id": "h3",
+      "text": "Is that for here or …?"
+    },
+    {
+      "id": "h4",
+      "text": "Could I have … milk, please?"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "latte",
+      "meaningVi": "cà phê latte (sữa)",
+      "pronunciation": "/ˈlɑː.teɪ/"
+    },
+    {
+      "id": "v2",
+      "phrase": "iced",
+      "meaningVi": "đá lạnh",
+      "pronunciation": "/aɪst/"
+    },
+    {
+      "id": "v3",
+      "phrase": "oat milk",
+      "meaningVi": "sữa yến mạch",
+      "pronunciation": "/oʊt mɪlk/"
+    },
+    {
+      "id": "v4",
+      "phrase": "to go",
+      "meaningVi": "mang về",
+      "pronunciation": "/tə ɡoʊ/"
+    },
+    {
+      "id": "v5",
+      "phrase": "for here",
+      "meaningVi": "dùng tại đây",
+      "pronunciation": "/fər hɪər/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "can I get a coffee",
+      "meaningVi": "cho tôi một ly cà phê được không",
+      "pronunciation": "/kæn aɪ ɡɛt ə ˈkɒf.i/"
+    },
+    {
+      "phrase": "What kind of coffee would you like",
+      "meaningVi": "Bạn muốn loại cà phê nào",
+      "pronunciation": "/wɒt kaɪnd əv ˈkɒf.i wʊd juː laɪk/"
+    },
+    {
+      "phrase": "I'd like a medium latte",
+      "meaningVi": "Cho tôi một ly latte cỡ vừa",
+      "pronunciation": "/aɪd laɪk ə ˈmiː.di.əm ˈlɑː.teɪ/"
+    },
+    {
+      "phrase": "Hot or iced",
+      "meaningVi": "Nóng hay đá",
+      "pronunciation": "/hɒt ɔːr aɪst/"
+    },
+    {
+      "phrase": "Iced, please",
+      "meaningVi": "Đá, làm ơn",
+      "pronunciation": "/aɪst pliːz/"
+    },
+    {
+      "phrase": "Any milk options",
+      "meaningVi": "Bạn muốn loại sữa nào",
+      "pronunciation": "/ˈɛn.i mɪlk ˈɒp.ʃənz/"
+    },
+    {
+      "phrase": "Oat milk, please",
+      "meaningVi": "Sữa yến mạch, làm ơn",
+      "pronunciation": "/oʊt mɪlk pliːz/"
+    },
+    {
+      "phrase": "Is that for here or to go",
+      "meaningVi": "Bạn dùng tại đây hay mang về",
+      "pronunciation": "/ɪz ðæt fər hɪər ɔːr tə ɡoʊ/"
+    },
+    {
+      "phrase": "To go, please",
+      "meaningVi": "Mang về, làm ơn",
+      "pronunciation": "/tə ɡoʊ pliːz/"
+    },
+    {
+      "phrase": "Can I get your name",
+      "meaningVi": "Cho tôi hỏi tên bạn nhé",
+      "pronunciation": "/kæn aɪ ɡɛt jʊər neɪm/"
+    },
+    {
+      "phrase": "That will be five dollars",
+      "meaningVi": "Năm đô la nhé",
+      "pronunciation": "/ðæt wɪl biː faɪv ˈdɒl.ərz/"
+    },
+    {
+      "phrase": "Here you go",
+      "meaningVi": "Đây (khi đưa thứ gì đó)",
+      "pronunciation": "/hɪər juː ɡoʊ/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Can I get …? vs. I'd like … (ordering)",
+      "bodyVi": "'Can I get …?' là cách thông thường để gọi món ở Mỹ. 'I'd like …' là cách lịch sự hơn. Cả hai đều được dùng.",
+      "bodyEn": "'Can I get …?' is a common casual way to order in the US. 'I'd like …' is more formal. Both are widely used."
+    },
+    {
+      "title": "For here or to go? (café question)",
+      "bodyVi": "Nhân viên quán cà phê thường hỏi 'For here or to go?' để biết bạn uống tại quán hay mang về.",
+      "bodyEn": "Café staff often ask 'For here or to go?' to know if you will drink in the café or take it away."
+    }
+  ],
+  "translationVi": "Khách: Xin chào, cho tôi một ly cà phê được không? / Pha chế: Được chứ! Bạn muốn loại cà phê nào? / Khách: Cho tôi một ly latte cỡ vừa, làm ơn. / Pha chế: Nóng hay đá? / Khách: Đá, làm ơn. / Pha chế: Bạn muốn loại sữa nào? / Khách: Sữa yến mạch, làm ơn. / Pha chế: Bạn dùng tại đây hay mang về? / Khách: Mang về, làm ơn. / Pha chế: Cho tôi hỏi tên bạn nhé? / Khách: Là James. / Pha chế: Năm đô la nhé. / Khách: Đây.",
+  "criticalThinkingQuestion": "How do you think coffee shop culture is different in the United States compared to other countries?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-a1-079",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 31128
+}

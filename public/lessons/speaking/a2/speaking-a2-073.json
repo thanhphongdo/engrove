@@ -1,0 +1,352 @@
+{
+  "id": "speaking-a2-073",
+  "level": "A2",
+  "title": "Returning a Faulty Product",
+  "summary": "A customer returns a broken blender to a shop and asks for a replacement or refund.",
+  "topic": "Shopping and returns",
+  "tags": [
+    "Shopping",
+    "Customer service",
+    "Returns"
+  ],
+  "characters": [
+    "Customer",
+    "ShopAssistant"
+  ],
+  "voices": {
+    "Customer": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-MichelleNeural"
+    },
+    "ShopAssistant": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-BrianNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Customer",
+      "text": "Excuse me, I'd like to return this blender."
+    },
+    {
+      "speaker": "ShopAssistant",
+      "text": "Sure, what seems to be the problem?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It stopped working after just one week. I think it's a faulty product."
+    },
+    {
+      "speaker": "ShopAssistant",
+      "text": "I'm sorry to hear that. Do you have the receipt with you?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Yes, here is my receipt. I bought it three weeks ago."
+    },
+    {
+      "speaker": "ShopAssistant",
+      "text": "That is still within our 30-day return policy. Would you prefer a refund or an exchange?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "I'd prefer an exchange if possible."
+    },
+    {
+      "speaker": "ShopAssistant",
+      "text": "No problem, let me check if we have the same model in stock. Yes, we have one left."
+    },
+    {
+      "speaker": "Customer",
+      "text": "That's great. Is there anything I need to sign?"
+    },
+    {
+      "speaker": "ShopAssistant",
+      "text": "Just this short form, please."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Of course, thank you for your help."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Customer",
+      "text": "Excuse me, I'd like to return this blender.",
+      "translationVi": "Xin lỗi, tôi muốn trả lại cái máy xay sinh tố này.",
+      "durationMs": 3408
+    },
+    {
+      "id": "s2",
+      "speaker": "ShopAssistant",
+      "text": "Sure, what seems to be the problem?",
+      "translationVi": "Được thôi, vấn đề là gì vậy?",
+      "durationMs": 2328
+    },
+    {
+      "id": "s3",
+      "speaker": "Customer",
+      "text": "It stopped working after just one week.",
+      "translationVi": "Nó ngừng hoạt động chỉ sau một tuần.",
+      "durationMs": 3000
+    },
+    {
+      "id": "s4",
+      "speaker": "Customer",
+      "text": "I think it's a faulty product.",
+      "translationVi": "Tôi nghĩ đây là sản phẩm bị lỗi.",
+      "durationMs": 2496
+    },
+    {
+      "id": "s5",
+      "speaker": "ShopAssistant",
+      "text": "I'm sorry to hear that.",
+      "translationVi": "Tôi rất tiếc khi nghe điều đó.",
+      "durationMs": 1584
+    },
+    {
+      "id": "s6",
+      "speaker": "ShopAssistant",
+      "text": "Do you have the receipt with you?",
+      "translationVi": "Bạn có mang theo hóa đơn không?",
+      "durationMs": 1728
+    },
+    {
+      "id": "s7",
+      "speaker": "Customer",
+      "text": "Yes, here is my receipt.",
+      "translationVi": "Vâng, đây là hóa đơn của tôi.",
+      "durationMs": 2712
+    },
+    {
+      "id": "s8",
+      "speaker": "Customer",
+      "text": "I bought it three weeks ago.",
+      "translationVi": "Tôi mua nó ba tuần trước.",
+      "durationMs": 2496
+    },
+    {
+      "id": "s9",
+      "speaker": "ShopAssistant",
+      "text": "That is still within our 30-day return policy.",
+      "translationVi": "Điều đó vẫn còn trong phạm vi chính sách đổi trả 30 ngày của chúng tôi.",
+      "durationMs": 3336
+    },
+    {
+      "id": "s10",
+      "speaker": "ShopAssistant",
+      "text": "Would you prefer a refund or an exchange?",
+      "translationVi": "Bạn muốn hoàn tiền hay đổi hàng?",
+      "durationMs": 2616
+    },
+    {
+      "id": "s11",
+      "speaker": "Customer",
+      "text": "I'd prefer an exchange if possible.",
+      "translationVi": "Tôi muốn đổi hàng nếu có thể.",
+      "durationMs": 2832
+    },
+    {
+      "id": "s12",
+      "speaker": "ShopAssistant",
+      "text": "No problem, let me check if we have the same model in stock.",
+      "translationVi": "Không vấn đề gì, để tôi kiểm tra xem chúng tôi có cùng kiểu máy không.",
+      "durationMs": 3984
+    },
+    {
+      "id": "s13",
+      "speaker": "ShopAssistant",
+      "text": "Yes, we have one left.",
+      "translationVi": "Vâng, chúng tôi còn một cái.",
+      "durationMs": 1824
+    },
+    {
+      "id": "s14",
+      "speaker": "Customer",
+      "text": "That's great.",
+      "translationVi": "Thật tuyệt.",
+      "durationMs": 1728
+    },
+    {
+      "id": "s15",
+      "speaker": "Customer",
+      "text": "Is there anything I need to sign?",
+      "translationVi": "Tôi có cần ký vào giấy tờ gì không?",
+      "durationMs": 2496
+    },
+    {
+      "id": "s16",
+      "speaker": "ShopAssistant",
+      "text": "Just this short form, please.",
+      "translationVi": "Chỉ cần điền vào biểu mẫu ngắn này thôi.",
+      "durationMs": 1992
+    },
+    {
+      "id": "s17",
+      "speaker": "Customer",
+      "text": "Of course, thank you for your help.",
+      "translationVi": "Tất nhiên, cảm ơn bạn đã giúp đỡ.",
+      "durationMs": 2784
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "I'd like to return this …, please."
+    },
+    {
+      "id": "h2",
+      "text": "It stopped working after …"
+    },
+    {
+      "id": "h3",
+      "text": "Do you offer a refund or an …?"
+    },
+    {
+      "id": "h4",
+      "text": "I bought it … ago and I have the receipt."
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "faulty product",
+      "meaningVi": "sản phẩm bị lỗi",
+      "pronunciation": "/ˈfɔːlti ˈprɒdʌkt/"
+    },
+    {
+      "id": "v2",
+      "phrase": "receipt",
+      "meaningVi": "hóa đơn / biên lai",
+      "pronunciation": "/rɪˈsiːt/"
+    },
+    {
+      "id": "v3",
+      "phrase": "return policy",
+      "meaningVi": "chính sách đổi trả",
+      "pronunciation": "/rɪˈtɜːrn ˈpɒlɪsi/"
+    },
+    {
+      "id": "v4",
+      "phrase": "refund",
+      "meaningVi": "hoàn tiền",
+      "pronunciation": "/ˈriːfʌnd/"
+    },
+    {
+      "id": "v5",
+      "phrase": "exchange",
+      "meaningVi": "đổi hàng",
+      "pronunciation": "/ɪksˈtʃeɪndʒ/"
+    },
+    {
+      "id": "v6",
+      "phrase": "in stock",
+      "meaningVi": "còn hàng",
+      "pronunciation": "/ɪn stɒk/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "I'd like to return this blender",
+      "meaningVi": "Tôi muốn trả lại cái máy xay sinh tố này",
+      "pronunciation": "/aɪd laɪk tə rɪˈtɜːrn ðɪs ˈblɛndər/"
+    },
+    {
+      "phrase": "what seems to be the problem",
+      "meaningVi": "vấn đề là gì vậy",
+      "pronunciation": "/wɒt siːmz tə biː ðə ˈprɒbləm/"
+    },
+    {
+      "phrase": "stopped working",
+      "meaningVi": "ngừng hoạt động",
+      "pronunciation": "/stɒpt ˈwɜːrkɪŋ/"
+    },
+    {
+      "phrase": "faulty product",
+      "meaningVi": "sản phẩm bị lỗi",
+      "pronunciation": "/ˈfɔːlti ˈprɒdʌkt/"
+    },
+    {
+      "phrase": "Do you have the receipt with you",
+      "meaningVi": "Bạn có mang theo hóa đơn không",
+      "pronunciation": "/duː juː hæv ðə rɪˈsiːt wɪð juː/"
+    },
+    {
+      "phrase": "here is my receipt",
+      "meaningVi": "đây là hóa đơn của tôi",
+      "pronunciation": "/hɪər ɪz maɪ rɪˈsiːt/"
+    },
+    {
+      "phrase": "three weeks ago",
+      "meaningVi": "ba tuần trước",
+      "pronunciation": "/θriː wiːks əˈɡoʊ/"
+    },
+    {
+      "phrase": "30-day return policy",
+      "meaningVi": "chính sách đổi trả 30 ngày",
+      "pronunciation": "/ˈθɜːrti deɪ rɪˈtɜːrn ˈpɒlɪsi/"
+    },
+    {
+      "phrase": "Would you prefer a refund or an exchange",
+      "meaningVi": "Bạn muốn hoàn tiền hay đổi hàng",
+      "pronunciation": "/wʊd juː prɪˈfɜːr ə ˈriːfʌnd ɔːr ən ɪksˈtʃeɪndʒ/"
+    },
+    {
+      "phrase": "I'd prefer an exchange",
+      "meaningVi": "Tôi muốn đổi hàng",
+      "pronunciation": "/aɪd prɪˈfɜːr ən ɪksˈtʃeɪndʒ/"
+    },
+    {
+      "phrase": "in stock",
+      "meaningVi": "còn hàng",
+      "pronunciation": "/ɪn stɒk/"
+    },
+    {
+      "phrase": "we have one left",
+      "meaningVi": "chúng tôi còn một cái",
+      "pronunciation": "/wiː hæv wʌn lɛft/"
+    },
+    {
+      "phrase": "Is there anything I need to sign",
+      "meaningVi": "Tôi có cần ký vào giấy tờ gì không",
+      "pronunciation": "/ɪz ðɛr ˈɛniθɪŋ aɪ niːd tə saɪn/"
+    },
+    {
+      "phrase": "short form",
+      "meaningVi": "biểu mẫu ngắn",
+      "pronunciation": "/ʃɔːrt fɔːrm/"
+    },
+    {
+      "phrase": "thank you for your help",
+      "meaningVi": "cảm ơn bạn đã giúp đỡ",
+      "pronunciation": "/θæŋk juː fər jər hɛlp/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Expressing preference with 'I'd prefer'",
+      "bodyVi": "'I'd prefer' (= I would prefer) dùng để nói bạn thích lựa chọn nào hơn. Ví dụ: 'I'd prefer an exchange if possible.' Cũng có thể nói 'I'd rather have an exchange.'",
+      "bodyEn": "'I'd prefer' (= I would prefer) expresses a preference between options. Example: 'I'd prefer an exchange if possible.' You can also say 'I'd rather have an exchange.'"
+    },
+    {
+      "title": "Past simple for recent events",
+      "bodyVi": "Dùng thì quá khứ đơn để nói về sự việc đã xảy ra trong quá khứ với khoảng thời gian rõ ràng. Ví dụ: 'I bought it three weeks ago.' / 'It stopped working after one week.'",
+      "bodyEn": "Use the past simple to talk about completed actions with a specific time reference. Example: 'I bought it three weeks ago.' / 'It stopped working after one week.'"
+    }
+  ],
+  "translationVi": "Khách: Xin lỗi, tôi muốn trả lại cái máy xay sinh tố này. / Nhân viên: Được thôi, vấn đề là gì vậy? / Khách: Nó ngừng hoạt động chỉ sau một tuần. Tôi nghĩ đây là sản phẩm bị lỗi. / Nhân viên: Tôi rất tiếc khi nghe điều đó. Bạn có mang theo hóa đơn không? / Khách: Vâng, đây là hóa đơn của tôi. Tôi mua nó ba tuần trước. / Nhân viên: Điều đó vẫn còn trong phạm vi chính sách đổi trả 30 ngày của chúng tôi. Bạn muốn hoàn tiền hay đổi hàng? / Khách: Tôi muốn đổi hàng nếu có thể. / Nhân viên: Không vấn đề gì, để tôi kiểm tra xem chúng tôi có cùng kiểu máy không. Vâng, chúng tôi còn một cái. / Khách: Thật tuyệt. Tôi có cần ký vào giấy tờ gì không? / Nhân viên: Chỉ cần điền vào biểu mẫu ngắn này thôi. / Khách: Tất nhiên, cảm ơn bạn đã giúp đỡ.",
+  "criticalThinkingQuestion": "Why is it important to keep receipts after buying products, and what consumer rights should shoppers know about?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-a2-073",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 43344
+}

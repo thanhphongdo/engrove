@@ -1,0 +1,313 @@
+{
+  "id": "speaking-a1-078",
+  "level": "A1",
+  "title": "Checking into a Hostel",
+  "summary": "A traveler arrives at a hostel and checks in at the front desk.",
+  "topic": "Accommodation",
+  "tags": [
+    "Daily life",
+    "Travel",
+    "Accommodation"
+  ],
+  "characters": [
+    "Traveler",
+    "Receptionist"
+  ],
+  "voices": {
+    "Traveler": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-AriaNeural"
+    },
+    "Receptionist": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-AndrewNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Traveler",
+      "text": "Hi, I have a reservation."
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "Welcome! What is your name?"
+    },
+    {
+      "speaker": "Traveler",
+      "text": "My name is Lisa Green."
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "I can see your booking here. You booked a bed in a four-person dorm."
+    },
+    {
+      "speaker": "Traveler",
+      "text": "Yes, that's correct. How many nights is it?"
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "You are booked for two nights."
+    },
+    {
+      "speaker": "Traveler",
+      "text": "Is breakfast included?"
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "Yes, breakfast is included. It is served from seven to ten in the morning."
+    },
+    {
+      "speaker": "Traveler",
+      "text": "Great, thank you."
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "Here is your key. Your room is on the second floor."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Traveler",
+      "text": "Hi, I have a reservation.",
+      "translationVi": "Xin chào, tôi có đặt phòng trước.",
+      "durationMs": 2808
+    },
+    {
+      "id": "s2",
+      "speaker": "Receptionist",
+      "text": "Welcome!",
+      "translationVi": "Chào mừng!",
+      "durationMs": 792
+    },
+    {
+      "id": "s3",
+      "speaker": "Receptionist",
+      "text": "What is your name?",
+      "translationVi": "Tên bạn là gì?",
+      "durationMs": 1080
+    },
+    {
+      "id": "s4",
+      "speaker": "Traveler",
+      "text": "My name is Lisa Green.",
+      "translationVi": "Tên tôi là Lisa Green.",
+      "durationMs": 2424
+    },
+    {
+      "id": "s5",
+      "speaker": "Receptionist",
+      "text": "I can see your booking here.",
+      "translationVi": "Tôi có thể thấy đặt phòng của bạn ở đây.",
+      "durationMs": 1608
+    },
+    {
+      "id": "s6",
+      "speaker": "Receptionist",
+      "text": "You booked a bed in a four-person dorm.",
+      "translationVi": "Bạn đã đặt một giường trong phòng ngủ tập thể bốn người.",
+      "durationMs": 2424
+    },
+    {
+      "id": "s7",
+      "speaker": "Traveler",
+      "text": "Yes, that's correct.",
+      "translationVi": "Vâng, đúng vậy.",
+      "durationMs": 2424
+    },
+    {
+      "id": "s8",
+      "speaker": "Traveler",
+      "text": "How many nights is it?",
+      "translationVi": "Tôi ở bao nhiêu đêm vậy?",
+      "durationMs": 2184
+    },
+    {
+      "id": "s9",
+      "speaker": "Receptionist",
+      "text": "You are booked for two nights.",
+      "translationVi": "Bạn đã đặt hai đêm.",
+      "durationMs": 1776
+    },
+    {
+      "id": "s10",
+      "speaker": "Traveler",
+      "text": "Is breakfast included?",
+      "translationVi": "Có bao gồm bữa sáng không?",
+      "durationMs": 2280
+    },
+    {
+      "id": "s11",
+      "speaker": "Receptionist",
+      "text": "Yes, breakfast is included.",
+      "translationVi": "Vâng, bữa sáng được bao gồm.",
+      "durationMs": 2184
+    },
+    {
+      "id": "s12",
+      "speaker": "Receptionist",
+      "text": "It is served from seven to ten in the morning.",
+      "translationVi": "Bữa sáng phục vụ từ bảy đến mười giờ sáng.",
+      "durationMs": 2544
+    },
+    {
+      "id": "s13",
+      "speaker": "Traveler",
+      "text": "Great, thank you.",
+      "translationVi": "Tuyệt, cảm ơn bạn.",
+      "durationMs": 2184
+    },
+    {
+      "id": "s14",
+      "speaker": "Receptionist",
+      "text": "Here is your key.",
+      "translationVi": "Đây là chìa khóa của bạn.",
+      "durationMs": 1128
+    },
+    {
+      "id": "s15",
+      "speaker": "Receptionist",
+      "text": "Your room is on the second floor.",
+      "translationVi": "Phòng của bạn ở tầng hai.",
+      "durationMs": 2064
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "I have a reservation …"
+    },
+    {
+      "id": "h2",
+      "text": "Is … included?"
+    },
+    {
+      "id": "h3",
+      "text": "My name is …"
+    },
+    {
+      "id": "h4",
+      "text": "How many nights is it?"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "reservation",
+      "meaningVi": "đặt phòng/chỗ trước",
+      "pronunciation": "/ˌrɛz.əˈveɪ.ʃən/"
+    },
+    {
+      "id": "v2",
+      "phrase": "dorm",
+      "meaningVi": "phòng ngủ tập thể",
+      "pronunciation": "/dɔːrm/"
+    },
+    {
+      "id": "v3",
+      "phrase": "breakfast included",
+      "meaningVi": "bao gồm bữa sáng",
+      "pronunciation": "/ˈbrɛk.fəst ɪnˈkluː.dɪd/"
+    },
+    {
+      "id": "v4",
+      "phrase": "second floor",
+      "meaningVi": "tầng hai",
+      "pronunciation": "/ˈsɛk.ənd flɔːr/"
+    },
+    {
+      "id": "v5",
+      "phrase": "booking",
+      "meaningVi": "đặt chỗ/phòng",
+      "pronunciation": "/ˈbʊk.ɪŋ/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "I have a reservation",
+      "meaningVi": "Tôi có đặt phòng trước",
+      "pronunciation": "/aɪ hæv ə ˌrɛz.əˈveɪ.ʃən/"
+    },
+    {
+      "phrase": "What is your name",
+      "meaningVi": "Tên bạn là gì",
+      "pronunciation": "/wɒt ɪz jʊər neɪm/"
+    },
+    {
+      "phrase": "My name is Lisa Green",
+      "meaningVi": "Tên tôi là Lisa Green",
+      "pronunciation": "/maɪ neɪm ɪz ˈliː.zə ɡriːn/"
+    },
+    {
+      "phrase": "I can see your booking here",
+      "meaningVi": "Tôi có thể thấy đặt phòng của bạn ở đây",
+      "pronunciation": "/aɪ kæn siː jʊər ˈbʊk.ɪŋ hɪər/"
+    },
+    {
+      "phrase": "a bed in a four-person dorm",
+      "meaningVi": "một giường trong phòng ngủ tập thể bốn người",
+      "pronunciation": "/ə bɛd ɪn ə ˈfɔːr.pɜː.sən dɔːrm/"
+    },
+    {
+      "phrase": "that's correct",
+      "meaningVi": "đúng vậy",
+      "pronunciation": "/ðæts kəˈrɛkt/"
+    },
+    {
+      "phrase": "How many nights is it",
+      "meaningVi": "Tôi ở bao nhiêu đêm vậy",
+      "pronunciation": "/haʊ ˈmɛn.i naɪts ɪz ɪt/"
+    },
+    {
+      "phrase": "You are booked for two nights",
+      "meaningVi": "Bạn đã đặt hai đêm",
+      "pronunciation": "/juː ɑːr bʊkt fər tuː naɪts/"
+    },
+    {
+      "phrase": "Is breakfast included",
+      "meaningVi": "Có bao gồm bữa sáng không",
+      "pronunciation": "/ɪz ˈbrɛk.fəst ɪnˈkluː.dɪd/"
+    },
+    {
+      "phrase": "breakfast is included",
+      "meaningVi": "bữa sáng được bao gồm",
+      "pronunciation": "/ˈbrɛk.fəst ɪz ɪnˈkluː.dɪd/"
+    },
+    {
+      "phrase": "Here is your key",
+      "meaningVi": "Đây là chìa khóa của bạn",
+      "pronunciation": "/hɪər ɪz jʊər kiː/"
+    },
+    {
+      "phrase": "Your room is on the second floor",
+      "meaningVi": "Phòng của bạn ở tầng hai",
+      "pronunciation": "/jʊər ruːm ɪz ɒn ðə ˈsɛk.ənd flɔːr/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "I have a reservation (present perfect vs. simple present)",
+      "bodyVi": "Dùng 'I have a reservation' để nói bạn đã đặt trước. Đây là cấu trúc đơn giản và thông dụng khi nhận phòng.",
+      "bodyEn": "Use 'I have a reservation' to say you have booked in advance. This is a simple and common structure when checking in."
+    },
+    {
+      "title": "Is … included? (asking about what's covered)",
+      "bodyVi": "Dùng 'Is … included?' để hỏi xem thứ gì đó có được bao gồm trong giá không. Ví dụ: 'Is breakfast included?'",
+      "bodyEn": "Use 'Is … included?' to ask whether something is covered in the price. Example: 'Is breakfast included?'"
+    }
+  ],
+  "translationVi": "Khách: Xin chào, tôi có đặt phòng trước. / Lễ tân: Chào mừng! Tên bạn là gì? / Khách: Tên tôi là Lisa Green. / Lễ tân: Tôi có thể thấy đặt phòng của bạn ở đây. Bạn đã đặt một giường trong phòng ngủ tập thể bốn người. / Khách: Vâng, đúng vậy. Tôi ở bao nhiêu đêm vậy? / Lễ tân: Bạn đã đặt hai đêm. / Khách: Có bao gồm bữa sáng không? / Lễ tân: Vâng, bữa sáng được bao gồm. Bữa sáng phục vụ từ bảy đến mười giờ sáng. / Khách: Tuyệt, cảm ơn bạn. / Lễ tân: Đây là chìa khóa của bạn. Phòng của bạn ở tầng hai.",
+  "criticalThinkingQuestion": "What are the advantages of staying in a hostel compared to a hotel?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-a1-078",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 29904
+}

@@ -48,17 +48,31 @@ const CONFIG = {
   force: 0.9, // cursor repel strength
 };
 
-/** Resolve Tailwind text-colour classes to concrete RGB triples via the DOM. */
+/** Resolve Tailwind text-colour classes to concrete sRGB triples.
+ *
+ * Each computed colour is painted onto a 1×1 canvas and read back, so whatever
+ * colour space the browser returns — Tailwind v4 hands back `lab()`/`oklch()`,
+ * not `rgb()` — is converted to sRGB for us. (Parsing the string directly is
+ * what the old code did, and it mangled `lab()` into a muddy olive.) */
 function resolvePalette(classNames: string[]): RGB[] {
   const probe = document.createElement("span");
   probe.style.cssText =
     "position:absolute;left:-9999px;top:-9999px;width:0;height:0;";
   document.body.appendChild(probe);
+  const swatch = document.createElement("canvas");
+  swatch.width = swatch.height = 1;
+  const sctx = swatch.getContext("2d");
   const out: RGB[] = [];
-  for (const cls of classNames) {
-    probe.className = cls;
-    const m = getComputedStyle(probe).color.match(/[\d.]+/g);
-    if (m && m.length >= 3) out.push([+m[0], +m[1], +m[2]]);
+  if (sctx) {
+    for (const cls of classNames) {
+      probe.className = cls;
+      sctx.clearRect(0, 0, 1, 1);
+      sctx.fillStyle = "#10b981"; // emerald fallback if the browser rejects the colour
+      sctx.fillStyle = getComputedStyle(probe).color;
+      sctx.fillRect(0, 0, 1, 1);
+      const [r, g, b] = sctx.getImageData(0, 0, 1, 1).data;
+      out.push([r, g, b]);
+    }
   }
   probe.remove();
   return out.length ? out : [[16, 185, 129]];

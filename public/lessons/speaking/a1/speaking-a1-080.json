@@ -1,0 +1,301 @@
+{
+  "id": "speaking-a1-080",
+  "level": "A1",
+  "title": "Asking About Library Hours",
+  "summary": "A student calls the library to ask about its opening hours and card registration.",
+  "topic": "Public services",
+  "tags": [
+    "Daily life",
+    "Education",
+    "Public services"
+  ],
+  "characters": [
+    "Student",
+    "Librarian"
+  ],
+  "voices": {
+    "Student": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-EmmaNeural"
+    },
+    "Librarian": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-EricNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Student",
+      "text": "Hello, is this the city library?"
+    },
+    {
+      "speaker": "Librarian",
+      "text": "Yes, it is. How can I help you?"
+    },
+    {
+      "speaker": "Student",
+      "text": "What are your opening hours?"
+    },
+    {
+      "speaker": "Librarian",
+      "text": "We are open Monday to Friday from nine to seven. On Saturday we close at five."
+    },
+    {
+      "speaker": "Student",
+      "text": "Are you open on Sunday?"
+    },
+    {
+      "speaker": "Librarian",
+      "text": "No, we are closed on Sunday."
+    },
+    {
+      "speaker": "Student",
+      "text": "I see. Can I get a library card today?"
+    },
+    {
+      "speaker": "Librarian",
+      "text": "Yes, you can get a library card at the front desk. Just bring a photo ID."
+    },
+    {
+      "speaker": "Student",
+      "text": "Great, thank you so much!"
+    },
+    {
+      "speaker": "Librarian",
+      "text": "You're welcome."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Student",
+      "text": "Hello, is this the city library?",
+      "translationVi": "Xin chào, đây có phải thư viện thành phố không?",
+      "durationMs": 2232
+    },
+    {
+      "id": "s2",
+      "speaker": "Librarian",
+      "text": "Yes, it is.",
+      "translationVi": "Vâng, đúng vậy.",
+      "durationMs": 2328
+    },
+    {
+      "id": "s3",
+      "speaker": "Librarian",
+      "text": "How can I help you?",
+      "translationVi": "Tôi có thể giúp gì cho bạn?",
+      "durationMs": 1896
+    },
+    {
+      "id": "s4",
+      "speaker": "Student",
+      "text": "What are your opening hours?",
+      "translationVi": "Giờ mở cửa của thư viện là mấy giờ?",
+      "durationMs": 1896
+    },
+    {
+      "id": "s5",
+      "speaker": "Librarian",
+      "text": "We are open Monday to Friday from nine to seven.",
+      "translationVi": "Chúng tôi mở cửa thứ Hai đến thứ Sáu từ chín đến bảy giờ.",
+      "durationMs": 3840
+    },
+    {
+      "id": "s6",
+      "speaker": "Librarian",
+      "text": "On Saturday we close at five.",
+      "translationVi": "Vào thứ Bảy chúng tôi đóng cửa lúc năm giờ.",
+      "durationMs": 3024
+    },
+    {
+      "id": "s7",
+      "speaker": "Student",
+      "text": "Are you open on Sunday?",
+      "translationVi": "Chủ nhật thư viện có mở cửa không?",
+      "durationMs": 1800
+    },
+    {
+      "id": "s8",
+      "speaker": "Librarian",
+      "text": "No, we are closed on Sunday.",
+      "translationVi": "Không, chúng tôi đóng cửa vào Chủ nhật.",
+      "durationMs": 3096
+    },
+    {
+      "id": "s9",
+      "speaker": "Student",
+      "text": "I see.",
+      "translationVi": "Tôi hiểu rồi.",
+      "durationMs": 984
+    },
+    {
+      "id": "s10",
+      "speaker": "Student",
+      "text": "Can I get a library card today?",
+      "translationVi": "Tôi có thể làm thẻ thư viện hôm nay không?",
+      "durationMs": 2160
+    },
+    {
+      "id": "s11",
+      "speaker": "Librarian",
+      "text": "Yes, you can get a library card at the front desk.",
+      "translationVi": "Vâng, bạn có thể làm thẻ thư viện tại bàn lễ tân.",
+      "durationMs": 3984
+    },
+    {
+      "id": "s12",
+      "speaker": "Librarian",
+      "text": "Just bring a photo ID.",
+      "translationVi": "Chỉ cần mang theo giấy tờ có ảnh.",
+      "durationMs": 2592
+    },
+    {
+      "id": "s13",
+      "speaker": "Student",
+      "text": "Great, thank you so much!",
+      "translationVi": "Tuyệt vời, cảm ơn bạn rất nhiều!",
+      "durationMs": 1752
+    },
+    {
+      "id": "s14",
+      "speaker": "Librarian",
+      "text": "You're welcome.",
+      "translationVi": "Không có gì.",
+      "durationMs": 1752
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "What are your opening hours?"
+    },
+    {
+      "id": "h2",
+      "text": "Are you open on …?"
+    },
+    {
+      "id": "h3",
+      "text": "Can I get … today?"
+    },
+    {
+      "id": "h4",
+      "text": "Is the library open on …?"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "opening hours",
+      "meaningVi": "giờ mở cửa",
+      "pronunciation": "/ˈoʊ.pə.nɪŋ aʊərz/"
+    },
+    {
+      "id": "v2",
+      "phrase": "library card",
+      "meaningVi": "thẻ thư viện",
+      "pronunciation": "/ˈlaɪ.brər.i kɑːrd/"
+    },
+    {
+      "id": "v3",
+      "phrase": "front desk",
+      "meaningVi": "bàn lễ tân / quầy tiếp tân",
+      "pronunciation": "/frʌnt dɛsk/"
+    },
+    {
+      "id": "v4",
+      "phrase": "photo ID",
+      "meaningVi": "giấy tờ có ảnh",
+      "pronunciation": "/ˈfoʊ.toʊ aɪ diː/"
+    },
+    {
+      "id": "v5",
+      "phrase": "closed",
+      "meaningVi": "đóng cửa",
+      "pronunciation": "/kloʊzd/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "is this the city library",
+      "meaningVi": "đây có phải thư viện thành phố không",
+      "pronunciation": "/ɪz ðɪs ðə ˈsɪt.i ˈlaɪ.brər.i/"
+    },
+    {
+      "phrase": "How can I help you",
+      "meaningVi": "Tôi có thể giúp gì cho bạn",
+      "pronunciation": "/haʊ kæn aɪ hɛlp juː/"
+    },
+    {
+      "phrase": "What are your opening hours",
+      "meaningVi": "Giờ mở cửa của thư viện là mấy giờ",
+      "pronunciation": "/wɒt ɑːr jʊər ˈoʊ.pə.nɪŋ aʊərz/"
+    },
+    {
+      "phrase": "open Monday to Friday",
+      "meaningVi": "mở cửa thứ Hai đến thứ Sáu",
+      "pronunciation": "/ˈoʊ.pən ˈmʌn.deɪ tə ˈfraɪ.deɪ/"
+    },
+    {
+      "phrase": "we close at five",
+      "meaningVi": "chúng tôi đóng cửa lúc năm giờ",
+      "pronunciation": "/wiː kloʊz æt faɪv/"
+    },
+    {
+      "phrase": "Are you open on Sunday",
+      "meaningVi": "Chủ nhật thư viện có mở cửa không",
+      "pronunciation": "/ɑːr juː ˈoʊ.pən ɒn ˈsʌn.deɪ/"
+    },
+    {
+      "phrase": "we are closed on Sunday",
+      "meaningVi": "chúng tôi đóng cửa vào Chủ nhật",
+      "pronunciation": "/wiː ɑːr kloʊzd ɒn ˈsʌn.deɪ/"
+    },
+    {
+      "phrase": "Can I get a library card today",
+      "meaningVi": "Tôi có thể làm thẻ thư viện hôm nay không",
+      "pronunciation": "/kæn aɪ ɡɛt ə ˈlaɪ.brər.i kɑːrd təˈdeɪ/"
+    },
+    {
+      "phrase": "get a library card at the front desk",
+      "meaningVi": "làm thẻ thư viện tại bàn lễ tân",
+      "pronunciation": "/ɡɛt ə ˈlaɪ.brər.i kɑːrd æt ðə frʌnt dɛsk/"
+    },
+    {
+      "phrase": "Just bring a photo ID",
+      "meaningVi": "Chỉ cần mang theo giấy tờ có ảnh",
+      "pronunciation": "/dʒʌst brɪŋ ə ˈfoʊ.toʊ aɪ diː/"
+    },
+    {
+      "phrase": "You're welcome",
+      "meaningVi": "Không có gì (đáp lại lời cảm ơn)",
+      "pronunciation": "/jʊər ˈwɛl.kəm/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Are you open on …? (asking about schedules)",
+      "bodyVi": "Dùng 'Are you open on [day]?' để hỏi xem một nơi có mở cửa vào ngày đó không.",
+      "bodyEn": "Use 'Are you open on [day]?' to ask whether a place is open on that day."
+    },
+    {
+      "title": "Days of the week",
+      "bodyVi": "Tên các ngày trong tuần luôn được viết hoa: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday.",
+      "bodyEn": "Days of the week are always capitalized: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday."
+    }
+  ],
+  "translationVi": "Sinh viên: Xin chào, đây có phải thư viện thành phố không? / Thủ thư: Vâng, đúng vậy. Tôi có thể giúp gì cho bạn? / Sinh viên: Giờ mở cửa của thư viện là mấy giờ? / Thủ thư: Chúng tôi mở cửa thứ Hai đến thứ Sáu từ chín đến bảy giờ. Vào thứ Bảy chúng tôi đóng cửa lúc năm giờ. / Sinh viên: Chủ nhật thư viện có mở cửa không? / Thủ thư: Không, chúng tôi đóng cửa vào Chủ nhật. / Sinh viên: Tôi hiểu rồi. Tôi có thể làm thẻ thư viện hôm nay không? / Thủ thư: Vâng, bạn có thể làm thẻ thư viện tại bàn lễ tân. Chỉ cần mang theo giấy tờ có ảnh. / Sinh viên: Tuyệt vời, cảm ơn bạn rất nhiều! / Thủ thư: Không có gì.",
+  "criticalThinkingQuestion": "Why do you think public libraries are important for a community?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-a1-080",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 33336
+}

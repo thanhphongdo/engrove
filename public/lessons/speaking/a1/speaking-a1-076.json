@@ -1,0 +1,298 @@
+{
+  "id": "speaking-a1-076",
+  "level": "A1",
+  "title": "Shopping for Clothes",
+  "summary": "A shopper looks for a shirt in the right size at a clothing store.",
+  "topic": "Shopping",
+  "tags": [
+    "Daily life",
+    "Shopping",
+    "Clothes"
+  ],
+  "characters": [
+    "Shopper",
+    "Assistant"
+  ],
+  "voices": {
+    "Shopper": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-AvaNeural"
+    },
+    "Assistant": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-SteffanNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Shopper",
+      "text": "Hello, I'm looking for a shirt."
+    },
+    {
+      "speaker": "Assistant",
+      "text": "Sure, what size do you need?"
+    },
+    {
+      "speaker": "Shopper",
+      "text": "I usually wear a medium."
+    },
+    {
+      "speaker": "Assistant",
+      "text": "We have medium in blue, white, and green."
+    },
+    {
+      "speaker": "Shopper",
+      "text": "Can I try on the blue one?"
+    },
+    {
+      "speaker": "Assistant",
+      "text": "Of course. The fitting rooms are over there."
+    },
+    {
+      "speaker": "Shopper",
+      "text": "Thank you. It fits well, but do you have a large?"
+    },
+    {
+      "speaker": "Assistant",
+      "text": "Yes, here is a large in blue."
+    },
+    {
+      "speaker": "Shopper",
+      "text": "How much is this shirt?"
+    },
+    {
+      "speaker": "Assistant",
+      "text": "It's twenty-five dollars."
+    },
+    {
+      "speaker": "Shopper",
+      "text": "I'll take it."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Shopper",
+      "text": "Hello, I'm looking for a shirt.",
+      "translationVi": "Xin chào, tôi đang tìm một chiếc áo sơ mi.",
+      "durationMs": 2208
+    },
+    {
+      "id": "s2",
+      "speaker": "Assistant",
+      "text": "Sure, what size do you need?",
+      "translationVi": "Được, bạn cần cỡ nào?",
+      "durationMs": 2736
+    },
+    {
+      "id": "s3",
+      "speaker": "Shopper",
+      "text": "I usually wear a medium.",
+      "translationVi": "Tôi thường mặc cỡ vừa.",
+      "durationMs": 1968
+    },
+    {
+      "id": "s4",
+      "speaker": "Assistant",
+      "text": "We have medium in blue, white, and green.",
+      "translationVi": "Chúng tôi có cỡ vừa màu xanh lam, trắng và xanh lá.",
+      "durationMs": 3600
+    },
+    {
+      "id": "s5",
+      "speaker": "Shopper",
+      "text": "Can I try on the blue one?",
+      "translationVi": "Tôi có thể thử chiếc màu xanh lam không?",
+      "durationMs": 1656
+    },
+    {
+      "id": "s6",
+      "speaker": "Assistant",
+      "text": "Of course.",
+      "translationVi": "Tất nhiên.",
+      "durationMs": 1632
+    },
+    {
+      "id": "s7",
+      "speaker": "Assistant",
+      "text": "The fitting rooms are over there.",
+      "translationVi": "Phòng thử đồ ở đằng kia.",
+      "durationMs": 2424
+    },
+    {
+      "id": "s8",
+      "speaker": "Shopper",
+      "text": "Thank you.",
+      "translationVi": "Cảm ơn.",
+      "durationMs": 1128
+    },
+    {
+      "id": "s9",
+      "speaker": "Shopper",
+      "text": "It fits well, but do you have a large?",
+      "translationVi": "Vừa tốt, nhưng bạn có cỡ lớn không?",
+      "durationMs": 2616
+    },
+    {
+      "id": "s10",
+      "speaker": "Assistant",
+      "text": "Yes, here is a large in blue.",
+      "translationVi": "Có, đây là cỡ lớn màu xanh lam.",
+      "durationMs": 2616
+    },
+    {
+      "id": "s11",
+      "speaker": "Shopper",
+      "text": "How much is this shirt?",
+      "translationVi": "Chiếc áo sơ mi này giá bao nhiêu?",
+      "durationMs": 1560
+    },
+    {
+      "id": "s12",
+      "speaker": "Assistant",
+      "text": "It's twenty-five dollars.",
+      "translationVi": "Hai mươi lăm đô la.",
+      "durationMs": 2400
+    },
+    {
+      "id": "s13",
+      "speaker": "Shopper",
+      "text": "I'll take it.",
+      "translationVi": "Tôi sẽ lấy chiếc này.",
+      "durationMs": 1248
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "I'm looking for …"
+    },
+    {
+      "id": "h2",
+      "text": "Can I try on …?"
+    },
+    {
+      "id": "h3",
+      "text": "Do you have … in …?"
+    },
+    {
+      "id": "h4",
+      "text": "How much is …?"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "fitting room",
+      "meaningVi": "phòng thử đồ",
+      "pronunciation": "/ˈfɪt.ɪŋ ruːm/"
+    },
+    {
+      "id": "v2",
+      "phrase": "medium",
+      "meaningVi": "cỡ vừa",
+      "pronunciation": "/ˈmiː.di.əm/"
+    },
+    {
+      "id": "v3",
+      "phrase": "large",
+      "meaningVi": "cỡ lớn",
+      "pronunciation": "/lɑːrdʒ/"
+    },
+    {
+      "id": "v4",
+      "phrase": "try on",
+      "meaningVi": "thử (quần áo)",
+      "pronunciation": "/traɪ ɒn/"
+    },
+    {
+      "id": "v5",
+      "phrase": "I'll take it",
+      "meaningVi": "Tôi sẽ lấy cái này",
+      "pronunciation": "/aɪl teɪk ɪt/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "I'm looking for a shirt",
+      "meaningVi": "Tôi đang tìm một chiếc áo sơ mi",
+      "pronunciation": "/aɪm ˈlʊk.ɪŋ fər ə ʃɜːrt/"
+    },
+    {
+      "phrase": "what size do you need",
+      "meaningVi": "bạn cần cỡ nào",
+      "pronunciation": "/wɒt saɪz duː juː niːd/"
+    },
+    {
+      "phrase": "I usually wear a medium",
+      "meaningVi": "Tôi thường mặc cỡ vừa",
+      "pronunciation": "/aɪ ˈjuː.ʒu.ə.li wɛər ə ˈmiː.di.əm/"
+    },
+    {
+      "phrase": "in blue, white, and green",
+      "meaningVi": "màu xanh lam, trắng và xanh lá",
+      "pronunciation": "/ɪn bluː waɪt ænd ɡriːn/"
+    },
+    {
+      "phrase": "Can I try on the blue one",
+      "meaningVi": "Tôi có thể thử chiếc màu xanh lam không",
+      "pronunciation": "/kæn aɪ traɪ ɒn ðə bluː wʌn/"
+    },
+    {
+      "phrase": "The fitting rooms are over there",
+      "meaningVi": "Phòng thử đồ ở đằng kia",
+      "pronunciation": "/ðə ˈfɪt.ɪŋ ruːmz ɑːr ˈoʊ.vər ðɛər/"
+    },
+    {
+      "phrase": "It fits well",
+      "meaningVi": "Vừa tốt",
+      "pronunciation": "/ɪt fɪts wɛl/"
+    },
+    {
+      "phrase": "do you have a large",
+      "meaningVi": "bạn có cỡ lớn không",
+      "pronunciation": "/duː juː hæv ə lɑːrdʒ/"
+    },
+    {
+      "phrase": "here is a large in blue",
+      "meaningVi": "đây là cỡ lớn màu xanh lam",
+      "pronunciation": "/hɪər ɪz ə lɑːrdʒ ɪn bluː/"
+    },
+    {
+      "phrase": "How much is this shirt",
+      "meaningVi": "Chiếc áo sơ mi này giá bao nhiêu",
+      "pronunciation": "/haʊ mʌtʃ ɪz ðɪs ʃɜːrt/"
+    },
+    {
+      "phrase": "I'll take it",
+      "meaningVi": "Tôi sẽ lấy cái này",
+      "pronunciation": "/aɪl teɪk ɪt/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "I'm looking for … (present continuous for shopping)",
+      "bodyVi": "Dùng 'I'm looking for …' khi bạn đang tìm kiếm thứ gì đó trong cửa hàng.",
+      "bodyEn": "Use 'I'm looking for …' when you are searching for something in a store."
+    },
+    {
+      "title": "Can I try on …? (asking for permission)",
+      "bodyVi": "Dùng 'Can I try on …?' để xin phép thử quần áo. Đây là cụm từ rất thông dụng khi mua sắm.",
+      "bodyEn": "Use 'Can I try on …?' to ask permission to try on clothes. This is a very common phrase when shopping."
+    }
+  ],
+  "translationVi": "Khách: Xin chào, tôi đang tìm một chiếc áo sơ mi. / Nhân viên: Được, bạn cần cỡ nào? / Khách: Tôi thường mặc cỡ vừa. / Nhân viên: Chúng tôi có cỡ vừa màu xanh lam, trắng và xanh lá. / Khách: Tôi có thể thử chiếc màu xanh lam không? / Nhân viên: Tất nhiên. Phòng thử đồ ở đằng kia. / Khách: Cảm ơn. Vừa tốt, nhưng bạn có cỡ lớn không? / Nhân viên: Có, đây là cỡ lớn màu xanh lam. / Khách: Chiếc áo sơ mi này giá bao nhiêu? / Nhân viên: Hai mươi lăm đô la. / Khách: Tôi sẽ lấy chiếc này.",
+  "criticalThinkingQuestion": "What factors do you consider when buying clothes, besides size and color?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-a1-076",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 27792
+}

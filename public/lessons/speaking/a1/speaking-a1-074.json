@@ -1,0 +1,301 @@
+{
+  "id": "speaking-a1-074",
+  "level": "A1",
+  "title": "Asking for Directions to the Station",
+  "summary": "A visitor asks a local resident for directions to the train station.",
+  "topic": "Directions",
+  "tags": [
+    "Daily life",
+    "Directions",
+    "Travel"
+  ],
+  "characters": [
+    "Visitor",
+    "Local"
+  ],
+  "voices": {
+    "Visitor": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-MichelleNeural"
+    },
+    "Local": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-BrianNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Visitor",
+      "text": "Excuse me. Can you help me, please?"
+    },
+    {
+      "speaker": "Local",
+      "text": "Sure, what do you need?"
+    },
+    {
+      "speaker": "Visitor",
+      "text": "How do I get to the train station?"
+    },
+    {
+      "speaker": "Local",
+      "text": "Go straight ahead for two blocks. Then turn left at the traffic light."
+    },
+    {
+      "speaker": "Visitor",
+      "text": "Turn left at the traffic light?"
+    },
+    {
+      "speaker": "Local",
+      "text": "Yes, that's right. The station is on your left."
+    },
+    {
+      "speaker": "Visitor",
+      "text": "Is it far from here?"
+    },
+    {
+      "speaker": "Local",
+      "text": "No, it's about five minutes on foot."
+    },
+    {
+      "speaker": "Visitor",
+      "text": "Thank you so much!"
+    },
+    {
+      "speaker": "Local",
+      "text": "No problem. Have a good day!"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Visitor",
+      "text": "Excuse me.",
+      "translationVi": "Xin lỗi.",
+      "durationMs": 1776
+    },
+    {
+      "id": "s2",
+      "speaker": "Visitor",
+      "text": "Can you help me, please?",
+      "translationVi": "Bạn có thể giúp tôi không?",
+      "durationMs": 2280
+    },
+    {
+      "id": "s3",
+      "speaker": "Local",
+      "text": "Sure, what do you need?",
+      "translationVi": "Được, bạn cần gì?",
+      "durationMs": 1488
+    },
+    {
+      "id": "s4",
+      "speaker": "Visitor",
+      "text": "How do I get to the train station?",
+      "translationVi": "Tôi đến ga tàu bằng cách nào?",
+      "durationMs": 2544
+    },
+    {
+      "id": "s5",
+      "speaker": "Local",
+      "text": "Go straight ahead for two blocks.",
+      "translationVi": "Đi thẳng hai dãy nhà.",
+      "durationMs": 2280
+    },
+    {
+      "id": "s6",
+      "speaker": "Local",
+      "text": "Then turn left at the traffic light.",
+      "translationVi": "Sau đó rẽ trái tại đèn giao thông.",
+      "durationMs": 2496
+    },
+    {
+      "id": "s7",
+      "speaker": "Visitor",
+      "text": "Turn left at the traffic light?",
+      "translationVi": "Rẽ trái tại đèn giao thông à?",
+      "durationMs": 2424
+    },
+    {
+      "id": "s8",
+      "speaker": "Local",
+      "text": "Yes, that's right.",
+      "translationVi": "Đúng vậy.",
+      "durationMs": 1392
+    },
+    {
+      "id": "s9",
+      "speaker": "Local",
+      "text": "The station is on your left.",
+      "translationVi": "Nhà ga ở bên tay trái của bạn.",
+      "durationMs": 2208
+    },
+    {
+      "id": "s10",
+      "speaker": "Visitor",
+      "text": "Is it far from here?",
+      "translationVi": "Có xa từ đây không?",
+      "durationMs": 2064
+    },
+    {
+      "id": "s11",
+      "speaker": "Local",
+      "text": "No, it's about five minutes on foot.",
+      "translationVi": "Không, khoảng năm phút đi bộ.",
+      "durationMs": 2496
+    },
+    {
+      "id": "s12",
+      "speaker": "Visitor",
+      "text": "Thank you so much!",
+      "translationVi": "Cảm ơn bạn rất nhiều!",
+      "durationMs": 2232
+    },
+    {
+      "id": "s13",
+      "speaker": "Local",
+      "text": "No problem.",
+      "translationVi": "Không có gì.",
+      "durationMs": 1176
+    },
+    {
+      "id": "s14",
+      "speaker": "Local",
+      "text": "Have a good day!",
+      "translationVi": "Chúc bạn một ngày tốt lành!",
+      "durationMs": 1296
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "How do I get to …?"
+    },
+    {
+      "id": "h2",
+      "text": "Is … far from here?"
+    },
+    {
+      "id": "h3",
+      "text": "Excuse me, can you …?"
+    },
+    {
+      "id": "h4",
+      "text": "Could you tell me where … is?"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "train station",
+      "meaningVi": "ga tàu",
+      "pronunciation": "/treɪn ˈsteɪ.ʃən/"
+    },
+    {
+      "id": "v2",
+      "phrase": "traffic light",
+      "meaningVi": "đèn giao thông",
+      "pronunciation": "/ˈtræf.ɪk laɪt/"
+    },
+    {
+      "id": "v3",
+      "phrase": "on foot",
+      "meaningVi": "đi bộ",
+      "pronunciation": "/ɒn fʊt/"
+    },
+    {
+      "id": "v4",
+      "phrase": "turn left",
+      "meaningVi": "rẽ trái",
+      "pronunciation": "/tɜːrn lɛft/"
+    },
+    {
+      "id": "v5",
+      "phrase": "straight ahead",
+      "meaningVi": "đi thẳng",
+      "pronunciation": "/streɪt əˈhɛd/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "Excuse me",
+      "meaningVi": "Xin lỗi (để thu hút sự chú ý)",
+      "pronunciation": "/ɪkˈskjuːz miː/"
+    },
+    {
+      "phrase": "Can you help me",
+      "meaningVi": "Bạn có thể giúp tôi không",
+      "pronunciation": "/kæn juː hɛlp miː/"
+    },
+    {
+      "phrase": "How do I get to the train station",
+      "meaningVi": "Tôi đến ga tàu bằng cách nào",
+      "pronunciation": "/haʊ duː aɪ ɡɛt tə ðə treɪn ˈsteɪ.ʃən/"
+    },
+    {
+      "phrase": "Go straight ahead",
+      "meaningVi": "Đi thẳng",
+      "pronunciation": "/ɡoʊ streɪt əˈhɛd/"
+    },
+    {
+      "phrase": "turn left at the traffic light",
+      "meaningVi": "rẽ trái tại đèn giao thông",
+      "pronunciation": "/tɜːrn lɛft æt ðə ˈtræf.ɪk laɪt/"
+    },
+    {
+      "phrase": "that's right",
+      "meaningVi": "đúng vậy",
+      "pronunciation": "/ðæts raɪt/"
+    },
+    {
+      "phrase": "on your left",
+      "meaningVi": "ở bên tay trái của bạn",
+      "pronunciation": "/ɒn jʊər lɛft/"
+    },
+    {
+      "phrase": "Is it far from here",
+      "meaningVi": "Có xa từ đây không",
+      "pronunciation": "/ɪz ɪt fɑːr frəm hɪər/"
+    },
+    {
+      "phrase": "about five minutes on foot",
+      "meaningVi": "khoảng năm phút đi bộ",
+      "pronunciation": "/əˈbaʊt faɪv ˈmɪn.ɪts ɒn fʊt/"
+    },
+    {
+      "phrase": "No problem",
+      "meaningVi": "Không có gì",
+      "pronunciation": "/noʊ ˈprɒb.ləm/"
+    },
+    {
+      "phrase": "Have a good day",
+      "meaningVi": "Chúc bạn một ngày tốt lành",
+      "pronunciation": "/hæv ə ɡʊd deɪ/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "How do I get to …? (asking for directions)",
+      "bodyVi": "Dùng 'How do I get to …?' để hỏi đường đến một nơi nào đó. Đây là cách hỏi đường phổ biến nhất.",
+      "bodyEn": "Use 'How do I get to …?' to ask for directions to a place. It is the most common way to ask for directions."
+    },
+    {
+      "title": "Imperatives for giving directions",
+      "bodyVi": "Khi chỉ đường, người ta dùng câu mệnh lệnh: 'Go straight', 'Turn left', 'Turn right'. Không cần chủ ngữ.",
+      "bodyEn": "When giving directions, use imperative sentences: 'Go straight', 'Turn left', 'Turn right'. No subject is needed."
+    }
+  ],
+  "translationVi": "Khách: Xin lỗi. Bạn có thể giúp tôi không? / Người dân: Được, bạn cần gì? / Khách: Tôi đến ga tàu bằng cách nào? / Người dân: Đi thẳng hai dãy nhà. Sau đó rẽ trái tại đèn giao thông. / Khách: Rẽ trái tại đèn giao thông à? / Người dân: Đúng vậy. Nhà ga ở bên tay trái của bạn. / Khách: Có xa từ đây không? / Người dân: Không, khoảng năm phút đi bộ. / Khách: Cảm ơn bạn rất nhiều! / Người dân: Không có gì. Chúc bạn một ngày tốt lành!",
+  "criticalThinkingQuestion": "What do you think is the most helpful information to give someone who is asking for directions?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-a1-074",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 28152
+}
