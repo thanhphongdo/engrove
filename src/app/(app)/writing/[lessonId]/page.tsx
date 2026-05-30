@@ -1,8 +1,7 @@
 "use client";
 
 import { Suspense, use } from "react";
-import Link from "next/link";
-import { ArrowLeft } from "lucide-react";
+import { Sparkles } from "lucide-react";
 import { useLiveQuery } from "dexie-react-hooks";
 import { useWritingLesson } from "@/lib/lessons/load";
 import { useActiveProfileId } from "@/lib/db/use-active-profile";
@@ -14,7 +13,6 @@ import { LayoutToggle } from "@/components/reading/layout-toggle";
 import { BookmarkButton } from "@/components/reading/bookmark-button";
 import { LessonNotes } from "@/components/reading/lesson-notes";
 import { MCQuestions } from "@/components/reading/mc-questions";
-import { Button } from "@/components/ui/button";
 import {
   AlertDialog,
   AlertDialogAction,
@@ -27,7 +25,6 @@ import {
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
 import { cn } from "@/lib/utils";
-import type { WritingLesson } from "@/lib/lessons/types";
 import {
   WritingSessionProvider,
   useWritingSession,
@@ -40,14 +37,13 @@ import { PromptCopyPanel } from "@/components/writing/prompt-copy-panel";
 import { WritingResultPanel } from "@/components/writing/writing-result-panel";
 import { WritingAttemptHistory } from "@/components/writing/writing-attempt-history";
 import { AiFeedbackGuide } from "@/components/writing/ai-feedback-guide";
+import { LessonDetailHeader, LessonMetaRow } from "@/components/lesson/lesson-detail-header";
+import { LessonTags } from "@/components/lesson/lesson-tags";
+import { DetailCard } from "@/components/lesson/detail-card";
+import { AccentBlock } from "@/components/lesson/accent-block";
 
-const LEVEL_CLASS: Record<WritingLesson["level"], string> = {
-  A1: "bg-level-a1 text-level-a1-foreground",
-  A2: "bg-level-a2 text-level-a2-foreground",
-  B1: "bg-level-b1 text-level-b1-foreground",
-  B2: "bg-level-b2 text-level-b2-foreground",
-  C1: "bg-level-c1 text-level-c1-foreground",
-};
+const SUBMIT_BTN =
+  "rounded-xl bg-neutral-900 px-5 py-2 text-sm font-semibold text-white transition-colors hover:bg-neutral-800 dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-100";
 
 function McQuizSection() {
   const { lesson, mcPicks, setMcPick, mcResult, reviewMode, submitMc, retryMc } =
@@ -58,7 +54,7 @@ function McQuizSection() {
   const unanswered = total - answered;
 
   return (
-    <section className="mt-3 rounded-md sm:mt-4 border bg-card p-3 sm:p-4 shadow-md dark:shadow-[0_4px_20px_rgba(255,255,255,0.035)]">
+    <DetailCard>
       <MCQuestions
         showHint={prefs.hintToggles.perQuestionHint}
         questions={lesson.mcQuestions}
@@ -68,25 +64,29 @@ function McQuizSection() {
         label="Sentence-choice quiz"
       />
       {reviewMode && mcResult ? (
-        <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-t pt-3">
-          <p className="text-sm font-semibold">
+        <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
+          <p className="text-sm font-semibold text-neutral-800 dark:text-neutral-200">
             Score: {mcResult.score}/{mcResult.total}
           </p>
-          <Button type="button" variant="outline" size="sm" onClick={retryMc}>
+          <button
+            type="button"
+            onClick={retryMc}
+            className="rounded-xl border border-neutral-200 bg-white px-5 py-2 text-sm font-semibold text-neutral-700 transition-colors hover:bg-neutral-50 dark:border-white/10 dark:bg-neutral-900 dark:text-neutral-200 dark:hover:bg-white/5"
+          >
             Retry
-          </Button>
+          </button>
         </div>
       ) : (
-        <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-t pt-3">
-          <p className="text-xs text-muted-foreground">
-            {answered} / {total} answered
+        <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
+          <p className="text-[0.8rem] text-neutral-500 dark:text-neutral-400">
+            <span className="font-semibold text-neutral-800 dark:text-neutral-200">{answered}</span> / {total} answered
           </p>
           {unanswered > 0 ? (
             <AlertDialog>
               <AlertDialogTrigger asChild>
-                <Button type="button" size="sm" className="sm:min-w-40">
+                <button type="button" className={SUBMIT_BTN}>
                   Submit
-                </Button>
+                </button>
               </AlertDialogTrigger>
               <AlertDialogContent>
                 <AlertDialogHeader>
@@ -104,63 +104,56 @@ function McQuizSection() {
               </AlertDialogContent>
             </AlertDialog>
           ) : (
-            <Button
-              type="button"
-              size="sm"
-              className="sm:min-w-40"
-              onClick={submitMc}
-            >
+            <button type="button" className={SUBMIT_BTN} onClick={submitMc}>
               Submit
-            </Button>
+            </button>
           )}
         </div>
       )}
-    </section>
+    </DetailCard>
   );
 }
 
 function MainArea() {
   const { lesson, phase, llmResult } = useWritingSession();
   const prefs = usePreferences();
+  const twoColumn = prefs.detailLayout === "two-column";
+
   return (
     <>
       <WritingPromptCard lesson={lesson} />
 
       <div
         className={cn(
-          "gap-3 sm:gap-4",
-          prefs.detailLayout === "two-column"
-            ? "grid grid-cols-1 lg:grid-cols-[1.2fr_1fr]"
-            : "flex flex-col",
+          "mt-6 gap-4",
+          twoColumn ? "grid grid-cols-1 lg:grid-cols-[1.2fr_1fr]" : "flex flex-col",
         )}
       >
-        <div className="space-y-3">
+        {/* LEFT: editor + sample + AI feedback + result */}
+        <div className="space-y-4">
           <WritingEditor />
           <SampleAnswerReveal />
-          <PromptCopyPanel />
-          {phase === "ready" && llmResult && <WritingResultPanel result={llmResult} />}
+          <div id="ai-feedback" className="scroll-mt-28 space-y-4">
+            <PromptCopyPanel />
+            {phase === "ready" && llmResult && <WritingResultPanel result={llmResult} />}
+          </div>
         </div>
-        <div className="space-y-3">
+
+        {/* RIGHT (aside): hints, quiz, critical thinking, history, notes */}
+        <aside className="space-y-4">
           <HintPanel lesson={lesson} />
-        </div>
+          <McQuizSection />
+          {lesson.criticalThinkingQuestion && (
+            <AccentBlock label="Think about it">
+              <p className="text-sm italic leading-relaxed text-neutral-700 dark:text-neutral-300">
+                {lesson.criticalThinkingQuestion}
+              </p>
+            </AccentBlock>
+          )}
+          <WritingAttemptHistory lessonId={lesson.id} />
+          <LessonNotes lessonId={lesson.id} />
+        </aside>
       </div>
-
-      <McQuizSection />
-
-
-      {lesson.criticalThinkingQuestion && (
-        <section className="mt-3 rounded-md sm:mt-4 border-l-4 border-primary bg-muted/40 p-3 sm:p-4 shadow-md dark:shadow-[0_4px_20px_rgba(255,255,255,0.035)]">
-          <h2 className="mb-1 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-            Critical thinking
-          </h2>
-          <p className="text-sm italic leading-relaxed">
-            {lesson.criticalThinkingQuestion}
-          </p>
-        </section>
-      )}
-
-      <WritingAttemptHistory lessonId={lesson.id} />
-      <LessonNotes lessonId={lesson.id} />
     </>
   );
 }
@@ -182,43 +175,58 @@ function LessonDetailContent({
     return <div className="p-8 text-sm text-muted-foreground">Loading…</div>;
   }
 
-  return (
-    <div className="mx-auto w-full max-w-6xl px-4 py-4 sm:px-6 sm:py-6">
-      <header className="sticky top-0 z-30 -mx-4 mb-4 flex flex-wrap items-start justify-between gap-x-3 gap-y-2 bg-background/90 px-4 py-3 backdrop-blur supports-backdrop-filter:bg-background/80 sm:-mx-6 sm:px-6 sm:py-4">
-        <div className="min-w-0 flex-1">
-          <Link
-            href="/writing"
-            className="mb-1 inline-flex items-center gap-1 text-xs text-muted-foreground hover:text-foreground"
-          >
-            <ArrowLeft className="size-3" /> Back to Writing
-          </Link>
-          <h1 className="text-lg font-semibold leading-tight sm:text-xl">
-            {lesson.title}
-          </h1>
-          <div className="mt-1 flex flex-wrap items-center gap-2 text-xs">
-            <span className={cn("rounded px-1.5 py-0.5 font-semibold", LEVEL_CLASS[lesson.level])}>
-              {lesson.level}
-            </span>
-            {lesson.tags.map((t) => (
-              <span key={t} className="text-muted-foreground">
-                #{t}
-              </span>
-            ))}
-          </div>
-        </div>
-        <div className="flex flex-wrap items-center gap-2">
-          <BookmarkButton lessonId={lessonId} variant="inline" />
-          <LessonTimer />
-          <HintSettingsPopover />
-          <LayoutToggle />
-        </div>
-      </header>
+  const wordTarget =
+    lesson.minWords && lesson.maxWords
+      ? `Target ${lesson.minWords}–${lesson.maxWords} words`
+      : lesson.minWords
+        ? `Target ${lesson.minWords}+ words`
+        : lesson.maxWords
+          ? `Target up to ${lesson.maxWords} words`
+          : null;
 
-      <WritingSessionProvider lesson={lesson} initialDraft={draft}>
-        <AiFeedbackGuide />
-        <MainArea />
-      </WritingSessionProvider>
-    </div>
+  return (
+    <main className="mx-auto max-w-5xl px-4 pb-28 sm:px-6 md:pb-12">
+      <LessonDetailHeader
+        backHref="/writing"
+        backLabel="Back to Writing"
+        title={lesson.title}
+        toolbar={
+          <>
+            <LessonTimer />
+            <HintSettingsPopover />
+            <BookmarkButton lessonId={lessonId} variant="inline" />
+            <LayoutToggle />
+          </>
+        }
+      />
+
+      <LessonMetaRow level={lesson.level}>
+        <LessonTags skill="writing" tags={lesson.tags} currentLessonId={lesson.id} />
+        {wordTarget && (
+          <>
+            <span className="text-neutral-300 dark:text-neutral-600">·</span>
+            <span className="text-neutral-500">{wordTarget}</span>
+          </>
+        )}
+      </LessonMetaRow>
+
+      <div className="mt-4">
+        <WritingSessionProvider lesson={lesson} initialDraft={draft}>
+          <AiFeedbackGuide />
+          <MainArea />
+        </WritingSessionProvider>
+      </div>
+
+      {/* Mobile bottom action bar — jumps to the AI-feedback panel */}
+      <div className="fixed inset-x-0 bottom-0 z-40 border-t border-neutral-200 bg-white/95 px-4 py-3 backdrop-blur dark:border-white/10 dark:bg-neutral-900/95 md:hidden">
+        <a
+          href="#ai-feedback"
+          className="flex w-full items-center justify-center gap-2 rounded-xl bg-neutral-900 py-3 text-sm font-semibold text-white dark:bg-white dark:text-neutral-900"
+        >
+          <Sparkles className="size-4" aria-hidden="true" /> Get AI feedback
+        </a>
+      </div>
+    </main>
   );
 }
 

@@ -43,7 +43,7 @@ export function PassageAnnotation({
       <PopoverTrigger asChild>
         <button
           type="button"
-          className="cursor-help rounded bg-yellow-200/60 px-0.5 underline decoration-dotted underline-offset-2 hover:bg-yellow-200 dark:bg-yellow-900/40 dark:hover:bg-yellow-900/70"
+          className="vocab-word cursor-help bg-transparent p-0 align-baseline text-inherit hover:text-emerald-700 dark:hover:text-emerald-300"
         >
           {text}
         </button>

@@ -24,7 +24,7 @@ export function Providers({ children }: { children: React.ReactNode }) {
   useDbInit();
 
   return (
-    <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+    <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
       <QueryClientProvider client={queryClient}>
         <TooltipProvider delayDuration={200}>
           <ContentZoomApplier />

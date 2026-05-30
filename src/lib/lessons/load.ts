@@ -154,3 +154,32 @@ export function useSpeakingLesson(lessonId: string | undefined) {
     enabled: Boolean(lessonId),
   });
 }
+
+/** Common subset every skill's index meta provides — enough to browse by tag. */
+export type TagLessonMeta = { id: string; level: CefrLevel; title: string; tags: string[] };
+
+function fetchIndexBySkill(kind: LessonKind): Promise<TagLessonMeta[]> {
+  switch (kind) {
+    case "reading":
+      return fetchReadingIndex();
+    case "listening":
+      return fetchListeningIndex();
+    case "writing":
+      return fetchWritingIndex();
+    case "speaking":
+      return fetchSpeakingIndex();
+  }
+}
+
+/**
+ * A skill's whole lesson index, shaped for the tag-browse modal. Uses the same
+ * query key as the per-skill index hooks so it shares their cache (no refetch
+ * if the hub already loaded it).
+ */
+export function useLessonsIndexBySkill(skill: LessonKind) {
+  return useQuery({
+    queryKey: ["lessons", skill, "index"],
+    queryFn: () => fetchIndexBySkill(skill),
+    staleTime: Infinity,
+  });
+}

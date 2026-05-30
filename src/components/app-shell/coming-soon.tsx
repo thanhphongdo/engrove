@@ -1,14 +1,13 @@
-import { Card, CardContent } from "@/components/ui/card";
-
 export function ComingSoon({ skill }: { skill: string }) {
   return (
-    <div className="flex h-full items-center justify-center p-8">
-      <Card className="max-w-md">
-        <CardContent className="flex flex-col items-center gap-2 py-8 text-center">
-          <h1 className="text-xl font-semibold">{skill}</h1>
-          <p className="text-sm text-muted-foreground">Coming soon.</p>
-        </CardContent>
-      </Card>
-    </div>
+    <main className="mx-auto max-w-6xl px-4 py-20 sm:px-6">
+      <div className="mx-auto max-w-md rounded-2xl border border-neutral-200 bg-white p-10 text-center shadow-sm dark:border-white/10 dark:bg-neutral-900">
+        <div className="mx-auto grid size-12 place-items-center rounded-xl bg-emerald-50 text-2xl dark:bg-emerald-500/15">
+          🌱
+        </div>
+        <h1 className="mt-4 text-xl font-bold tracking-tight">{skill}</h1>
+        <p className="mt-1 text-sm text-neutral-500">Coming soon — we&apos;re growing this one.</p>
+      </div>
+    </main>
   );
 }

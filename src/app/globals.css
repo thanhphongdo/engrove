@@ -211,3 +211,97 @@
     letter-spacing: 0.04em;
   }
 }
+
+/* Brand wordmark — emerald→green gradient text used in the top bar and footer.
+   Colors come from Tailwind's theme tokens (no hardcoded hex per project rules). */
+.wordmark {
+  background-image: linear-gradient(135deg, var(--color-emerald-700), var(--color-green-600));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+.dark .wordmark {
+  background-image: linear-gradient(135deg, var(--color-emerald-400), var(--color-green-300));
+}
+
+/* Hide scrollbars on horizontally-scrolling pill/tag rows while keeping them scrollable. */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Inline vocabulary annotation in lesson passages — dotted underline + clickable. */
+.vocab-word {
+  border-bottom: 1.5px dotted var(--color-neutral-400);
+  cursor: help;
+}
+.dark .vocab-word {
+  border-bottom-color: var(--color-neutral-500);
+}
+
+/* Scroll/load reveal safety net (see components/landing/reveal.tsx).
+   Reveal elements start hidden and are shown by JS once in view. Force them
+   visible for users who prefer reduced motion, so content is never trapped
+   invisible. */
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
+/* Speaking chat bubbles — iMessage-style tail tucked into the lower corner
+   (ported from the speaking mockup). The tail is two pseudo-elements: `::before`
+   is a rounded blob in the bubble colour overflowing the corner, `::after` is a
+   `--card`-coloured mask that carves the curve. `--card` MUST match the surface
+   the bubble sits on (the white / neutral-900 DetailCard) so the mask blends. */
+.chat {
+  position: relative;
+  --card: var(--color-white);
+}
+.dark .chat {
+  --card: var(--color-neutral-900);
+}
+.chat-out::before,
+.chat-in::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.chat-out::after,
+.chat-in::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 0.75rem;
+  height: 1.25rem;
+  background: var(--card);
+}
+.chat-out::before {
+  right: -0.5rem;
+  background: var(--color-emerald-600);
+  border-bottom-left-radius: 1rem;
+}
+.chat-out::after {
+  right: -0.75rem;
+  border-bottom-left-radius: 0.625rem;
+}
+.chat-in::before {
+  left: -0.5rem;
+  background: var(--color-neutral-100);
+  border-bottom-right-radius: 1rem;
+}
+.chat-in::after {
+  left: -0.75rem;
+  border-bottom-right-radius: 0.625rem;
+}
+.dark .chat-in::before {
+  background: var(--color-neutral-800);
+}

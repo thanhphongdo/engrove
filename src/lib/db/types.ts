@@ -79,9 +79,13 @@ export type Note = {
 };
 
 export const DEFAULT_HINT_TOGGLES: HintToggles = {
-  vocabVi: false,
-  grammar: false,
-  passageTranslation: false,
+  // Content hints default ON so a lesson matches the mockup out of the box
+  // (inline Vietnamese glosses, grammar notes, side translation). Learners can
+  // still turn any of them off via the hint-settings popover.
+  vocabVi: true,
+  grammar: true,
+  passageTranslation: true,
+  // Per-question hint stays off — it's an on-demand crutch, not shown in the mockup.
   perQuestionHint: false,
 };
 

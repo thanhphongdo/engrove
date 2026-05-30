@@ -68,12 +68,16 @@ type Props = {
   role: string;
   onRoleChange: (role: string) => void;
   controlsContainer?: HTMLElement | null;
+  /** Mobile sticky-bar slot for the full-width primary action (md:hidden bar). */
+  mobileControlsContainer?: HTMLElement | null;
+  /** Full-width slot below the two-column grid where the mix result card portals in. */
+  resultContainer?: HTMLElement | null;
   onActiveChange?: (active: boolean) => void;
 };
 
 // ── Component ─────────────────────────────────────────────────────────────
 
-export function PracticeSession({ lesson, role, onRoleChange, controlsContainer, onActiveChange }: Props) {
+export function PracticeSession({ lesson, role, onRoleChange, controlsContainer, mobileControlsContainer, resultContainer, onActiveChange }: Props) {
   const [phase, setPhase] = useState<Phase>("idle");
   const [turnIndex, setTurnIndex] = useState(0);
   const [turnBlobs, setTurnBlobs] = useState<Map<number, Blob>>(new Map());
@@ -392,60 +396,37 @@ export function PracticeSession({ lesson, role, onRoleChange, controlsContainer,
     <button
       type="button"
       onClick={() => setShowSetup(true)}
-      className="inline-flex items-center gap-1.5 rounded-md border px-3 py-1.5 text-xs text-muted-foreground hover:bg-accent"
+      aria-label="Options"
+      className="grid size-9 shrink-0 place-items-center rounded-lg border border-neutral-200 bg-white text-neutral-600 hover:bg-neutral-50 dark:border-white/10 dark:bg-neutral-900 dark:text-neutral-300"
     >
-      <Settings className="size-3" aria-hidden="true" /> Options
+      <Settings className="size-4" aria-hidden="true" />
     </button>
   );
 
+  // Header toolbar controls (portaled), shown on every breakpoint — the primary
+  // practice action lives in the header (like the listening lesson), not a
+  // bottom bar. The in-session status / Restart / Mix & Save stay inline on the
+  // practice card.
   const controls = (
     <>
+      {(phase === "idle" || phase === "in_session" || phase === "done") && optionsBtn}
       {phase === "idle" && (
-        <>
-          {optionsBtn}
-          <button
-            type="button"
-            onClick={handleStartClick}
-            className="inline-flex items-center gap-1.5 rounded-md bg-primary px-4 py-1.5 text-sm font-semibold text-primary-foreground hover:bg-primary/90"
-          >
-            <Mic className="size-3.5" aria-hidden="true" /> Start practice
-          </button>
-        </>
-      )}
-      {(phase === "in_session" || phase === "done") && (
-        <>
-          <span className="text-xs font-medium text-muted-foreground">
-            {phase === "done"
-              ? `All ${totalTurns} turns recorded · as ${role}`
-              : `Turn ${turnIndex + 1} / ${totalTurns} · as ${role}`}
-          </span>
-          <button
-            type="button"
-            onClick={() => setShowRestartConfirm(true)}
-            className="inline-flex items-center gap-1.5 rounded-md border px-3 py-1.5 text-xs text-muted-foreground hover:bg-accent"
-          >
-            <RotateCcw className="size-3" aria-hidden="true" /> Restart
-          </button>
-          {optionsBtn}
-          {turnBlobs.size > 0 && (
-            <button
-              type="button"
-              onClick={handleMix}
-              className="inline-flex items-center gap-1.5 rounded-md bg-emerald-600 px-4 py-1.5 text-sm font-semibold text-white hover:bg-emerald-700"
-            >
-              Mix &amp; Save
-            </button>
-          )}
-        </>
+        <button
+          type="button"
+          onClick={handleStartClick}
+          className="inline-flex shrink-0 items-center gap-1.5 rounded-lg bg-neutral-900 px-4 py-2 text-sm font-semibold text-white hover:bg-neutral-800 dark:bg-white dark:text-neutral-900"
+        >
+          <Mic className="size-3.5" aria-hidden="true" /> Start practice
+        </button>
       )}
       {phase === "mixing" && (
-        <span className="text-xs text-muted-foreground animate-pulse">Mixing…</span>
+        <span className="text-xs text-neutral-500 animate-pulse">Mixing…</span>
       )}
       {phase === "mixed" && (
         <button
           type="button"
           onClick={restartSession}
-          className="inline-flex items-center gap-1.5 rounded-md border px-4 py-1.5 text-sm font-semibold hover:bg-accent"
+          className="inline-flex shrink-0 items-center gap-1.5 rounded-lg border border-neutral-200 bg-white px-4 py-2 text-sm font-semibold text-neutral-700 hover:bg-neutral-50 dark:border-white/10 dark:bg-neutral-900 dark:text-neutral-200"
         >
           <RotateCcw className="size-3.5" aria-hidden="true" /> Practice again
         </button>
@@ -453,11 +434,83 @@ export function PracticeSession({ lesson, role, onRoleChange, controlsContainer,
     </>
   );
 
+  // Mobile sticky-bar primary action (full-width). Same actions as the header
+  // control, mirrored at the bottom of the screen for thumb reach on mobile.
+  const mobileBtnPrimary =
+    "flex flex-1 items-center justify-center gap-2 rounded-xl bg-neutral-900 py-3 text-sm font-semibold text-white hover:bg-neutral-800 dark:bg-white dark:text-neutral-900";
+  const mobileBtnSecondary =
+    "flex flex-1 items-center justify-center gap-2 rounded-xl border border-neutral-200 bg-white py-3 text-sm font-semibold text-neutral-700 hover:bg-neutral-50 dark:border-white/10 dark:bg-neutral-900 dark:text-neutral-200";
+  const mobileControls = (
+    <>
+      {phase === "idle" && (
+        <button type="button" onClick={handleStartClick} className={mobileBtnPrimary}>
+          <Mic className="size-4" aria-hidden="true" /> Start practice
+        </button>
+      )}
+      {(phase === "in_session" || phase === "done") &&
+        (turnBlobs.size > 0 ? (
+          <button type="button" onClick={handleMix} className={mobileBtnPrimary}>
+            Mix &amp; Save
+          </button>
+        ) : (
+          <button type="button" onClick={() => setShowRestartConfirm(true)} className={mobileBtnSecondary}>
+            <RotateCcw className="size-4" aria-hidden="true" /> Restart
+          </button>
+        ))}
+      {phase === "mixing" && (
+        <span className="flex flex-1 items-center justify-center text-sm text-neutral-500 animate-pulse">
+          Mixing…
+        </span>
+      )}
+      {phase === "mixed" && (
+        <button type="button" onClick={restartSession} className={mobileBtnPrimary}>
+          <RotateCcw className="size-4" aria-hidden="true" /> Practice again
+        </button>
+      )}
+    </>
+  );
+
+  // Inline session bar — only while actively practising / reviewing before mix.
+  const sessionBar = (phase === "in_session" || phase === "done") && (
+    <div className="mt-3 flex items-center justify-between gap-2 border-t border-neutral-100 pt-3 dark:border-white/10">
+      <span className="inline-flex shrink-0 items-center gap-1.5 whitespace-nowrap text-sm font-semibold text-emerald-700 dark:text-emerald-300">
+        <span className="size-2 shrink-0 rounded-full bg-emerald-500" aria-hidden="true" />
+        <span className="sm:hidden">
+          {phase === "done" ? `${totalTurns}/${totalTurns}` : `Turn ${turnIndex + 1}/${totalTurns}`}
+        </span>
+        <span className="hidden sm:inline">
+          {phase === "done"
+            ? `All ${totalTurns} turns recorded · as ${role}`
+            : `Practicing · Turn ${turnIndex + 1} of ${totalTurns}`}
+        </span>
+      </span>
+      <div className="flex shrink-0 items-center gap-2 text-sm">
+        <button
+          type="button"
+          onClick={() => setShowRestartConfirm(true)}
+          className="inline-flex items-center gap-1 whitespace-nowrap text-neutral-500 hover:text-neutral-800 dark:hover:text-neutral-200"
+        >
+          <RotateCcw className="size-3.5" aria-hidden="true" /> Restart
+        </button>
+        {turnBlobs.size > 0 && (
+          <button
+            type="button"
+            onClick={handleMix}
+            className="whitespace-nowrap rounded-lg bg-neutral-900 px-3 py-1.5 text-xs font-semibold text-white hover:bg-neutral-800 dark:bg-white dark:text-neutral-900"
+          >
+            Mix &amp; Save
+          </button>
+        )}
+      </div>
+    </div>
+  );
+
   // ── Render ────────────────────────────────────────────────────────────
 
   return (
     <>
       {controlsContainer && createPortal(controls, controlsContainer)}
+      {mobileControlsContainer && createPortal(mobileControls, mobileControlsContainer)}
 
       <PracticeOptionsDialog
         open={showSetup}
@@ -480,63 +533,57 @@ export function PracticeSession({ lesson, role, onRoleChange, controlsContainer,
         onConfirm={restartSession}
       />
 
-      <div className="space-y-4">
-        {/* Idle placeholder */}
-        {phase === "idle" && (
-          <p className="text-sm text-muted-foreground">
-            You&apos;ll play <strong>{role}</strong>. Tap <strong>Start practice</strong> to record all {totalTurns} turns.
-          </p>
-        )}
+      {/* Inline session bar (only while practising / reviewing before mix). */}
+      {sessionBar}
 
-        {/* Turn list — only while practising or reviewing before mixing */}
-        {(phase === "in_session" || phase === "done") && (
-          <div className="space-y-3">
-            {lesson.body.map((turn, bi) => (
-              <div
-                key={bi}
-                ref={bi === turnIndex ? activeTurnRef : undefined}
-                style={{ scrollMarginTop: STICKY_OFFSET, scrollMarginBottom: 24 }}
-              >
-                <TurnRow
-                  turnIndex={bi}
-                  speaker={turn.speaker}
-                  text={turn.text}
-                  translationVi={showTranslation ? turnTranslationsVi.get(bi) : undefined}
-                  isUser={turn.speaker === role}
-                  state={getTurnState(bi)}
-                  onRecord={() => handleRecord(bi)}
-                  onStopRecording={handleStopRecording}
-                  onPlayback={() => handlePlayback(bi)}
-                  onContinue={() => handleContinue(bi)}
-                  onPlayModel={() => handlePlayModel(bi)}
-                  getRmsLevel={() => rmsLevel}
-                  hasBlob={turnBlobs.has(bi)}
-                />
-              </div>
-            ))}
-          </div>
-        )}
+      {/* Turn list — only while practising or reviewing before mixing */}
+      {(phase === "in_session" || phase === "done") && (
+        <div className="mt-4 space-y-5">
+          {lesson.body.map((turn, bi) => (
+            <div
+              key={bi}
+              ref={bi === turnIndex ? activeTurnRef : undefined}
+              style={{ scrollMarginTop: STICKY_OFFSET, scrollMarginBottom: 24 }}
+            >
+              <TurnRow
+                turnIndex={bi}
+                speaker={turn.speaker}
+                text={turn.text}
+                translationVi={showTranslation ? turnTranslationsVi.get(bi) : undefined}
+                isUser={turn.speaker === role}
+                state={getTurnState(bi)}
+                onRecord={() => handleRecord(bi)}
+                onStopRecording={handleStopRecording}
+                onPlayback={() => handlePlayback(bi)}
+                onContinue={() => handleContinue(bi)}
+                onPlayModel={() => handlePlayModel(bi)}
+                getRmsLevel={() => rmsLevel}
+                hasBlob={turnBlobs.has(bi)}
+              />
+            </div>
+          ))}
+        </div>
+      )}
 
-        {/* Mix error */}
-        {mixError && <p className="text-sm text-destructive">{mixError}</p>}
+      {/* Mix error */}
+      {mixError && <p className="mt-3 text-sm text-destructive">{mixError}</p>}
 
-        {/* Mixing */}
-        {phase === "mixing" && (
-          <div className="rounded-lg border p-6 text-center text-sm text-muted-foreground animate-pulse">
-            Mixing your recording…
-          </div>
-        )}
+      {/* Mixing */}
+      {phase === "mixing" && (
+        <p className="mt-4 text-center text-sm text-neutral-500 animate-pulse">Mixing your recording…</p>
+      )}
 
-        {/* Mixed: result card only (transcript stays hidden until "Practice again") */}
-        {phase === "mixed" && mixedBlob && (
+      {/* Mixed: full-width result card portals below the two-column grid. */}
+      {phase === "mixed" && mixedBlob && resultContainer &&
+        createPortal(
           <MixResultCard
             mp3Blob={mixedBlob}
             durationMs={mixedDurationMs}
             lessonTitle={lesson.title}
             criticalThinkingQuestion={lesson.criticalThinkingQuestion}
-          />
+          />,
+          resultContainer,
         )}
-      </div>
     </>
   );
 }

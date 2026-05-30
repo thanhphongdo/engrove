@@ -39,23 +39,21 @@ export function MCQuestions({
       );
     }
     return (
-      <div className="space-y-2 sm:space-y-3">
-        <p className="text-sm font-semibold">
+      <div>
+        <h2 className="mb-3 text-sm font-semibold text-neutral-700 dark:text-neutral-200">
           {label ?? "Questions"} · {questions.length}
-        </p>
-        <div className="divide-y divide-border/60">
-          {questions.map((q, i) => (
-            <QuizQuestion
-              key={q.id}
-              index={i}
-              question={q}
-              value={picks[q.id]}
-              onChange={(v) => onPick(q.id, v)}
-              showHint={showHint}
-              reviewMode={Boolean(reviewMode)}
-            />
-          ))}
-        </div>
+        </h2>
+        {questions.map((q, i) => (
+          <QuizQuestion
+            key={q.id}
+            index={i}
+            question={q}
+            value={picks[q.id]}
+            onChange={(v) => onPick(q.id, v)}
+            showHint={showHint}
+            reviewMode={Boolean(reviewMode)}
+          />
+        ))}
       </div>
     );
   }
@@ -72,23 +70,21 @@ function MCQuestionsFromContext({
 }) {
   const { lesson, mcPicks, setMcPick, reviewMode } = useQuiz();
   return (
-    <div className="space-y-2 sm:space-y-3">
-      <p className="text-sm font-semibold">
+    <div>
+      <h2 className="mb-3 text-sm font-semibold text-neutral-700 dark:text-neutral-200">
         {label ?? "Reading questions"} · {lesson.questions.length}
-      </p>
-      <div className="divide-y divide-border/60">
-        {lesson.questions.map((q, i) => (
-          <QuizQuestion
-            key={q.id}
-            index={i}
-            question={q}
-            value={mcPicks[q.id]}
-            onChange={(v) => setMcPick(q.id, v)}
-            showHint={showHint}
-            reviewMode={reviewMode}
-          />
-        ))}
-      </div>
+      </h2>
+      {lesson.questions.map((q, i) => (
+        <QuizQuestion
+          key={q.id}
+          index={i}
+          question={q}
+          value={mcPicks[q.id]}
+          onChange={(v) => setMcPick(q.id, v)}
+          showHint={showHint}
+          reviewMode={reviewMode}
+        />
+      ))}
     </div>
   );
 }

@@ -16,33 +16,42 @@ export function SampleAnswerReveal() {
   }
 
   return (
-    <section className="rounded-md border bg-card p-3 sm:p-4 shadow-md dark:shadow-[0_4px_20px_rgba(255,255,255,0.035)]">
+    <section className="rounded-2xl border border-neutral-200 bg-white shadow-sm dark:border-white/10 dark:bg-neutral-900">
       <button
         type="button"
         onClick={toggle}
-        className="flex w-full items-center justify-between gap-2 text-sm font-semibold"
         aria-expanded={open}
+        className="flex w-full items-center justify-between gap-2 rounded-2xl px-4 py-3 text-sm font-medium text-neutral-700 hover:bg-neutral-50 dark:text-neutral-300 dark:hover:bg-white/5"
       >
-        <span>Sample answer{sampleRevealed && !open ? " (viewed)" : ""}</span>
+        <span>
+          {open ? "Hide sample answer" : "Show sample answer"}
+          {sampleRevealed && !open ? " (viewed)" : ""}
+        </span>
         {open ? (
-          <ChevronUp className="size-4" aria-hidden="true" />
+          <ChevronUp className="size-4 shrink-0" aria-hidden="true" />
         ) : (
-          <ChevronDown className="size-4" aria-hidden="true" />
+          <ChevronDown className="size-4 shrink-0" aria-hidden="true" />
         )}
       </button>
       {open && (
-        <div className="mt-3 space-y-3">
-          <article className="text-sm leading-relaxed">{lesson.sampleText}</article>
-          <details className="text-sm text-muted-foreground">
-            <summary className="cursor-pointer text-xs font-semibold uppercase tracking-wide">
-              Vietnamese translation
-            </summary>
-            <div className="mt-2 space-y-1 leading-relaxed">
-              {lesson.sampleTranslationVi.split(/\n+/).map((line, i) => (
-                <p key={i}>{line}</p>
-              ))}
-            </div>
-          </details>
+        <div className="space-y-3 px-4 pb-4">
+          {/* Each sample paragraph sits directly above its Vietnamese, rather
+              than hiding the translation in a separate collapsible block. */}
+          <article className="space-y-3 text-sm leading-relaxed text-neutral-800 dark:text-neutral-200">
+            {lesson.sampleText.split(/\n+/).map((para, i) => {
+              const vi = lesson.sampleTranslationVi.split(/\n+/)[i];
+              return (
+                <div key={i} className="space-y-1">
+                  <p>{para}</p>
+                  {vi && (
+                    <p className="text-[0.8125rem] italic leading-relaxed text-neutral-400 dark:text-neutral-500">
+                      {vi}
+                    </p>
+                  )}
+                </div>
+              );
+            })}
+          </article>
           {lesson.sampleGrammarNotes.length > 0 && (
             <GrammarNotes notes={lesson.sampleGrammarNotes} />
           )}
