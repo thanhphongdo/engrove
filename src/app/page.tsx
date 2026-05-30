@@ -15,6 +15,8 @@ import { AppFooter } from "@/components/app-shell/app-footer";
 import { LandingDashboard } from "@/components/landing/landing-dashboard";
 import { SkillCards } from "@/components/landing/skill-cards";
 import { ShareRow } from "@/components/landing/share-row";
+import { ConfettiField } from "@/components/landing/confetti-field";
+import { Reveal } from "@/components/landing/reveal";
 import { LevelBadge } from "@/components/shared/level-badge";
 import { CEFR_LEVELS, LEVEL_DESCRIPTORS } from "@/lib/levels";
 
@@ -37,7 +39,10 @@ const FEATURES = [
 
 export default function LandingPage() {
   return (
-    <div className="min-h-full bg-neutral-50 text-[0.9375rem] text-neutral-900 dark:bg-neutral-950 dark:text-neutral-100">
+    <div className="min-h-full text-[0.9375rem] text-neutral-900 dark:text-neutral-100">
+      {/* Ambient particle field behind everything; carries the page base bg
+          so transparent sections reveal it and opaque bands hide it. */}
+      <ConfettiField />
       <AppHeader variant="landing" />
 
       <main>
@@ -49,47 +54,57 @@ export default function LandingPage() {
           />
           <div className="relative mx-auto grid max-w-6xl items-center gap-10 px-4 py-16 sm:px-6 lg:grid-cols-[1.1fr_0.9fr] lg:py-24">
             <div>
-              <span className="inline-flex items-center gap-1.5 rounded-full bg-emerald-100 px-3 py-1 text-xs font-semibold text-emerald-700 dark:bg-emerald-500/15 dark:text-emerald-300">
-                🌱 Learn English by immersion
-              </span>
-              <h1 className="mt-4 text-4xl font-bold leading-[1.1] tracking-tight sm:text-5xl">
-                English that feels less like studying —{" "}
-                <span className="text-emerald-600 dark:text-emerald-400">more like living in it.</span>
-              </h1>
-              <p className="mt-5 max-w-xl text-lg leading-relaxed text-neutral-600 dark:text-neutral-300">
-                Real stories, conversations and letters, broken into short lessons you can finish in a
-                coffee break. Read them, hear them in native voices, write your own, and say them out
-                loud — with Vietnamese help exactly where you need it.
-              </p>
-              <div className="mt-7 flex flex-wrap items-center gap-3">
-                <Link
-                  href="/reading"
-                  className="inline-flex items-center gap-2 rounded-xl bg-neutral-900 px-6 py-3 text-base font-semibold text-white transition-colors hover:bg-neutral-800 dark:bg-white dark:text-neutral-900"
-                >
-                  Start learning <ArrowRight className="size-4.5" aria-hidden="true" />
-                </Link>
-                <Link
-                  href="/reading"
-                  className="inline-flex items-center gap-2 rounded-xl border border-neutral-300 px-6 py-3 text-base font-semibold text-neutral-700 transition-colors hover:bg-neutral-100 dark:border-white/15 dark:text-neutral-200 dark:hover:bg-white/5"
-                >
-                  Browse lessons
-                </Link>
-              </div>
-              <div className="mt-5 flex flex-wrap items-center gap-2">
-                {FREE_CHIPS.map((label) => (
-                  <span
-                    key={label}
-                    className="inline-flex items-center gap-1.5 rounded-full bg-emerald-50 px-3 py-1.5 text-sm font-semibold text-emerald-700 ring-1 ring-inset ring-emerald-600/15 dark:bg-emerald-500/15 dark:text-emerald-300 dark:ring-emerald-400/20"
+              <Reveal>
+                <span className="inline-flex items-center gap-1.5 rounded-full bg-emerald-100 px-3 py-1 text-xs font-semibold text-emerald-700 dark:bg-emerald-500/15 dark:text-emerald-300">
+                  🌱 Learn English by immersion
+                </span>
+              </Reveal>
+              <Reveal delay={80}>
+                <h1 className="mt-4 text-4xl font-bold leading-[1.1] tracking-tight sm:text-5xl">
+                  English that feels less like studying —{" "}
+                  <span className="text-emerald-600 dark:text-emerald-400">more like living in it.</span>
+                </h1>
+              </Reveal>
+              <Reveal delay={160}>
+                <p className="mt-5 max-w-xl text-lg leading-relaxed text-neutral-600 dark:text-neutral-300">
+                  Real stories, conversations and letters, broken into short lessons you can finish in a
+                  coffee break. Read them, hear them in native voices, write your own, and say them out
+                  loud — with Vietnamese help exactly where you need it.
+                </p>
+              </Reveal>
+              <Reveal delay={240}>
+                <div className="mt-7 flex flex-wrap items-center gap-3">
+                  <Link
+                    href="/reading"
+                    className="inline-flex items-center gap-2 rounded-xl bg-neutral-900 px-6 py-3 text-base font-semibold text-white transition-colors hover:bg-neutral-800 dark:bg-white dark:text-neutral-900"
                   >
-                    <Check className="size-4" strokeWidth={2.5} aria-hidden="true" />
-                    {label}
-                  </span>
-                ))}
-              </div>
+                    Start learning <ArrowRight className="size-4.5" aria-hidden="true" />
+                  </Link>
+                  <Link
+                    href="/reading"
+                    className="inline-flex items-center gap-2 rounded-xl border border-neutral-300 px-6 py-3 text-base font-semibold text-neutral-700 transition-colors hover:bg-neutral-100 dark:border-white/15 dark:text-neutral-200 dark:hover:bg-white/5"
+                  >
+                    Browse lessons
+                  </Link>
+                </div>
+              </Reveal>
+              <Reveal delay={320}>
+                <div className="mt-5 flex flex-wrap items-center gap-2">
+                  {FREE_CHIPS.map((label) => (
+                    <span
+                      key={label}
+                      className="inline-flex items-center gap-1.5 rounded-full bg-emerald-50 px-3 py-1.5 text-sm font-semibold text-emerald-700 ring-1 ring-inset ring-emerald-600/15 dark:bg-emerald-500/15 dark:text-emerald-300 dark:ring-emerald-400/20"
+                    >
+                      <Check className="size-4" strokeWidth={2.5} aria-hidden="true" />
+                      {label}
+                    </span>
+                  ))}
+                </div>
+              </Reveal>
             </div>
 
             {/* hero product preview */}
-            <div className="relative mx-auto w-full max-w-sm lg:mx-0">
+            <Reveal delay={200} className="relative mx-auto w-full max-w-sm lg:mx-0">
               <div className="rotate-1 rounded-2xl border border-neutral-200 bg-white p-5 shadow-xl dark:border-white/10 dark:bg-neutral-900">
                 <div className="flex items-center gap-2 text-[0.8rem]">
                   <LevelBadge level="A1" />
@@ -126,42 +141,52 @@ export default function LandingPage() {
               <div className="absolute -bottom-3 -left-3 -rotate-3 rounded-xl bg-white px-3 py-2 text-sm font-semibold text-emerald-700 shadow-lg ring-1 ring-emerald-600/10 dark:bg-neutral-800 dark:text-emerald-300">
                 ✓ 9/10 Nice reading!
               </div>
-            </div>
+            </Reveal>
           </div>
         </section>
 
         {/* ===== Stats + welcome-back (real data) ===== */}
-        <LandingDashboard />
+        <Reveal>
+          <LandingDashboard />
+        </Reveal>
 
         {/* ===== FOUR SKILLS ===== */}
         <section className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
-          <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">Four skills, one habit</h2>
-          <p className="mt-1 text-neutral-500">Read, listen, speak and write — each as short, finishable lessons.</p>
-          <div className="mt-7">
+          <Reveal>
+            <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">Four skills, one habit</h2>
+            <p className="mt-1 text-neutral-500">Read, listen, speak and write — each as short, finishable lessons.</p>
+          </Reveal>
+          <Reveal delay={120} className="mt-7">
             <SkillCards />
-          </div>
-          <p className="mt-4 text-sm text-neutral-400">Grammar and Vocabulary are on the way.</p>
+          </Reveal>
+          <Reveal delay={200}>
+            <p className="mt-4 text-sm text-neutral-400">Grammar and Vocabulary are on the way.</p>
+          </Reveal>
         </section>
 
         {/* ===== FEATURES ===== */}
         <section className="border-t border-neutral-200 bg-white dark:border-white/10 dark:bg-neutral-900">
           <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
-            <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
-              Built for understanding, not memorising
-            </h2>
+            <Reveal>
+              <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
+                Built for understanding, not memorising
+              </h2>
+            </Reveal>
             <div className="mt-8 grid gap-x-8 gap-y-7 sm:grid-cols-2 lg:grid-cols-3">
-              {FEATURES.map((f) => {
+              {FEATURES.map((f, i) => {
                 const Icon = f.icon;
                 return (
-                  <div key={f.title} className="flex gap-3">
-                    <span className="grid size-9 shrink-0 place-items-center rounded-lg bg-emerald-50 text-emerald-600 dark:bg-emerald-500/15 dark:text-emerald-400">
-                      <Icon className="size-4.5" aria-hidden="true" />
-                    </span>
-                    <div>
-                      <h3 className="font-semibold">{f.title}</h3>
-                      <p className="mt-1 text-sm text-neutral-500">{f.body}</p>
+                  <Reveal key={f.title} delay={(i % 3) * 90}>
+                    <div className="flex gap-3">
+                      <span className="grid size-9 shrink-0 place-items-center rounded-lg bg-emerald-50 text-emerald-600 dark:bg-emerald-500/15 dark:text-emerald-400">
+                        <Icon className="size-4.5" aria-hidden="true" />
+                      </span>
+                      <div>
+                        <h3 className="font-semibold">{f.title}</h3>
+                        <p className="mt-1 text-sm text-neutral-500">{f.body}</p>
+                      </div>
                     </div>
-                  </div>
+                  </Reveal>
                 );
               })}
             </div>
@@ -170,26 +195,29 @@ export default function LandingPage() {
 
         {/* ===== LEVELS ===== */}
         <section className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
-          <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">Start where you are</h2>
-          <p className="mt-1 text-neutral-500">From your first words to confident, nuanced English.</p>
+          <Reveal>
+            <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">Start where you are</h2>
+            <p className="mt-1 text-neutral-500">From your first words to confident, nuanced English.</p>
+          </Reveal>
           <div className="mt-7 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
-            {CEFR_LEVELS.map((level) => (
-              <Link
-                key={level}
-                href={`/reading?levels=${level}`}
-                className="rounded-2xl border border-neutral-200 bg-white p-4 transition-all hover:-translate-y-0.5 dark:border-white/10 dark:bg-neutral-900"
-              >
-                <LevelBadge level={level} />
-                <h3 className="mt-3 font-semibold">{LEVEL_DESCRIPTORS[level].name}</h3>
-                <p className="mt-1 text-sm text-neutral-500">{LEVEL_DESCRIPTORS[level].blurb}</p>
-              </Link>
+            {CEFR_LEVELS.map((level, i) => (
+              <Reveal key={level} delay={i * 70}>
+                <Link
+                  href={`/reading?levels=${level}`}
+                  className="block h-full rounded-2xl border border-neutral-200 bg-white p-4 transition-all hover:-translate-y-0.5 dark:border-white/10 dark:bg-neutral-900"
+                >
+                  <LevelBadge level={level} />
+                  <h3 className="mt-3 font-semibold">{LEVEL_DESCRIPTORS[level].name}</h3>
+                  <p className="mt-1 text-sm text-neutral-500">{LEVEL_DESCRIPTORS[level].blurb}</p>
+                </Link>
+              </Reveal>
             ))}
           </div>
         </section>
 
         {/* ===== SHARE ===== */}
         <section className="mx-auto max-w-6xl px-4 pb-4 sm:px-6">
-          <div className="flex flex-col items-start gap-5 rounded-2xl border border-neutral-200 bg-white p-6 dark:border-white/10 dark:bg-neutral-900 sm:flex-row sm:items-center sm:justify-between">
+          <Reveal className="flex flex-col items-start gap-5 rounded-2xl border border-neutral-200 bg-white p-6 dark:border-white/10 dark:bg-neutral-900 sm:flex-row sm:items-center sm:justify-between">
             <div>
               <h2 className="text-lg font-bold tracking-tight">Know someone learning English? Pass it on.</h2>
               <p className="mt-1 text-sm text-neutral-500">
@@ -197,12 +225,12 @@ export default function LandingPage() {
               </p>
             </div>
             <ShareRow />
-          </div>
+          </Reveal>
         </section>
 
         {/* ===== CLOSING CTA ===== */}
         <section className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
-          <div className="overflow-hidden rounded-3xl bg-linear-to-br from-emerald-600 to-green-600 px-6 py-12 text-center sm:px-12 sm:py-16">
+          <Reveal className="overflow-hidden rounded-3xl bg-linear-to-br from-emerald-600 to-green-600 px-6 py-12 text-center sm:px-12 sm:py-16">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
               Your first lesson is one tap away.
             </h2>
@@ -224,7 +252,7 @@ export default function LandingPage() {
                 Explore all skills
               </Link>
             </div>
-          </div>
+          </Reveal>
         </section>
       </main>
 

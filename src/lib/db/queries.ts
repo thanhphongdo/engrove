@@ -28,7 +28,7 @@ export async function ensureDefaultProfile(): Promise<void> {
     await db.preferences.put({
       profileId: DEFAULT_PROFILE_ID,
       hintToggles: { ...DEFAULT_HINT_TOGGLES },
-      detailLayout: "two-column",
+      detailLayout: "stacked",
       activeProfileId: DEFAULT_PROFILE_ID,
       contentZoom: DEFAULT_CONTENT_ZOOM,
     });

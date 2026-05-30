@@ -164,6 +164,7 @@ function ListeningLessonDetailContent({ params }: { params: Promise<{ lessonId: 
               showAnnotations={prefs.hintToggles.vocabVi}
               showTranslation={prefs.hintToggles.passageTranslation}
               pinned={contentPinned}
+              onToggle={() => setTranscriptShown((v) => !v)}
               onTogglePin={() => setContentPinned(!contentPinned)}
             />
           </DetailCard>

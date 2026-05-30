@@ -243,3 +243,14 @@
 .dark .vocab-word {
   border-bottom-color: var(--color-neutral-500);
 }
+
+/* Scroll/load reveal safety net (see components/landing/reveal.tsx).
+   Reveal elements start hidden and are shown by JS once in view. Force them
+   visible for users who prefer reduced motion, so content is never trapped
+   invisible. */
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}

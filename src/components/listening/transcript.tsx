@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { Pin, PinOff } from "lucide-react";
+import { ChevronDown, Eye, EyeOff, Pin, PinOff } from "lucide-react";
 import { useListeningAudioStore } from "@/stores/listening-audio-store";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import { DetailCard } from "@/components/lesson/detail-card";
@@ -12,8 +12,10 @@ import { cn } from "@/lib/utils";
 import { SentenceRow } from "./sentence-row";
 import type { ListeningLesson } from "@/lib/lessons/types";
 
-/** Number of sentences revealed up-front before the learner listens. */
+/** Sentences revealed up-front before the learner plays or taps to reveal. */
 const INITIAL_REVEALED = 2;
+/** Sentences shown before the learner expands the full list. */
+const COLLAPSED_COUNT = 3;
 
 /** Cumulative start offsets (ms) for each sentence, preferring concat offsets. */
 function useStartOffsets(lesson: ListeningLesson): number[] {
@@ -31,9 +33,11 @@ function useStartOffsets(lesson: ListeningLesson): number[] {
 }
 
 /**
- * Section 2: the sentence timeline. Each row plays its sentence; locked
- * sentences are blurred behind a "Tap to reveal" pill. Sentences unlock as the
- * learner plays through them (or taps to reveal).
+ * Section 2: the sentence timeline. Two independent axes:
+ *  - Reveal (listen-first blur): sentences start blurred behind "Tap to reveal";
+ *    they unblur as the learner plays through, taps a row, or hits "Reveal all".
+ *  - Collapse (row count): the list shows the first few sentences and expands to
+ *    the full set on demand. This has nothing to do with the reveal state.
  */
 export function SentenceTimeline({ lesson }: { lesson: ListeningLesson }) {
   const showSpeaker = lesson.format === "dialogue";
@@ -43,27 +47,45 @@ export function SentenceTimeline({ lesson }: { lesson: ListeningLesson }) {
   const currentIndex = useListeningAudioStore((s) => s.currentIndex);
   const isOurLesson = currentLessonId === lesson.id;
 
-  // Sentences the learner has explicitly tapped to reveal.
+  // Reveal axis — listen-first blur, independent from the collapse below.
   const [tapped, setTapped] = useState<ReadonlySet<number>>(new Set());
-  // Furthest sentence reached by playback (everything up to it is revealed).
-  // Adjusted during render from the external audio store — the documented React
-  // pattern for deriving state from a changing input without an effect.
+  const [revealAll, setRevealAll] = useState(false);
+  // Furthest sentence reached by playback, derived from the store during render.
   const [maxPlayed, setMaxPlayed] = useState(-1);
   if (isOurLesson && currentIndex > maxPlayed) setMaxPlayed(currentIndex);
 
-  function isRevealed(i: number): boolean {
-    return i < INITIAL_REVEALED || i <= maxPlayed || tapped.has(i);
-  }
+  const isRevealed = (i: number) =>
+    revealAll || i < INITIAL_REVEALED || i <= maxPlayed || tapped.has(i);
 
-  const lockedCount = lesson.sentences.reduce((acc, _s, i) => acc + (isRevealed(i) ? 0 : 1), 0);
+  // Collapse axis — how many rows render.
+  const [expanded, setExpanded] = useState(false);
+
+  const total = lesson.sentences.length;
+  const canCollapse = total > COLLAPSED_COUNT;
+  const visible = expanded || !canCollapse ? lesson.sentences : lesson.sentences.slice(0, COLLAPSED_COUNT);
 
   return (
     <DetailCard className="mt-6">
-      <h2 className="mb-3 text-sm font-semibold text-neutral-700 dark:text-neutral-200">
-        Sentences · {lesson.sentences.length}
-      </h2>
+      <div className="mb-3 flex items-center justify-between gap-2">
+        <h2 className="text-sm font-semibold text-neutral-700 dark:text-neutral-200">
+          Sentences · {total}
+        </h2>
+        <button
+          type="button"
+          onClick={() => setRevealAll((v) => !v)}
+          aria-pressed={revealAll}
+          className="inline-flex shrink-0 cursor-pointer items-center gap-1.5 rounded-lg px-2.5 py-1 text-xs font-medium text-neutral-600 transition-colors hover:bg-neutral-100 dark:text-neutral-300 dark:hover:bg-white/10"
+        >
+          {revealAll ? (
+            <EyeOff className="size-3.5" aria-hidden="true" />
+          ) : (
+            <Eye className="size-3.5" aria-hidden="true" />
+          )}
+          {revealAll ? "Hide all" : "Reveal all"}
+        </button>
+      </div>
       <div className="divide-y divide-neutral-100 dark:divide-white/5">
-        {lesson.sentences.map((s, i) => (
+        {visible.map((s, i) => (
           <SentenceRow
             key={s.id}
             index={i}
@@ -78,20 +100,31 @@ export function SentenceTimeline({ lesson }: { lesson: ListeningLesson }) {
             allSentences={lesson.sentences}
           />
         ))}
-        {lockedCount > 0 && (
-          <p className="px-2 pb-1 pt-3 text-center text-xs text-neutral-400 dark:text-neutral-500">
-            … and {lockedCount} more sentence{lockedCount === 1 ? "" : "s"}. Keep listening to unlock them.
-          </p>
-        )}
       </div>
+      {canCollapse && (
+        <div className="mt-1 flex justify-center border-t border-neutral-100 pt-3 dark:border-white/5">
+          <button
+            type="button"
+            onClick={() => setExpanded((v) => !v)}
+            aria-expanded={expanded}
+            className="inline-flex cursor-pointer items-center gap-1.5 rounded-lg px-3 py-1.5 text-xs font-medium text-neutral-600 transition-colors hover:bg-neutral-100 dark:text-neutral-300 dark:hover:bg-white/10"
+          >
+            {expanded ? "Show less" : `Show all ${total} sentences`}
+            <ChevronDown
+              className={cn("size-3.5 transition-transform", expanded && "rotate-180")}
+              aria-hidden="true"
+            />
+          </button>
+        </div>
+      )}
     </DetailCard>
   );
 }
 
 /**
- * Section 5 (left column): the full transcript card. Hidden by default
- * ("Listen first, then reveal") and toggled by the player's "Show transcript"
- * button. Includes inline annotations + an optional Vietnamese translation.
+ * Section 5 (left column): the full transcript card. A plain collapsible
+ * section — open it whenever you like (no "listen first" gate), collapsed by
+ * default. Includes inline annotations + an optional Vietnamese translation.
  */
 export function TranscriptCard({
   lesson,
@@ -99,6 +132,7 @@ export function TranscriptCard({
   showAnnotations,
   showTranslation,
   pinned,
+  onToggle,
   onTogglePin,
 }: {
   lesson: ListeningLesson;
@@ -106,6 +140,7 @@ export function TranscriptCard({
   showAnnotations: boolean;
   showTranslation: boolean;
   pinned: boolean;
+  onToggle: () => void;
   onTogglePin: () => void;
 }) {
   const showSpeaker = lesson.format === "dialogue";
@@ -114,35 +149,44 @@ export function TranscriptCard({
 
   return (
     <>
-      <div className="mb-3 flex items-center justify-between">
-        <h2 className="text-sm font-semibold text-neutral-700 dark:text-neutral-200">Transcript</h2>
-        <Tooltip>
-          <TooltipTrigger asChild>
-            <button
-              type="button"
-              onClick={onTogglePin}
-              aria-pressed={pinned}
-              aria-label={pinned ? "Unpin transcript" : "Pin transcript"}
-              className={cn(
-                "grid size-7 cursor-pointer place-items-center rounded-lg text-neutral-400 transition-colors hover:bg-neutral-100 hover:text-neutral-600 dark:hover:bg-white/10 dark:hover:text-neutral-200",
-                pinned && "text-emerald-600 dark:text-emerald-400",
-              )}
-            >
-              {pinned ? <PinOff className="size-4" aria-hidden="true" /> : <Pin className="size-4" aria-hidden="true" />}
-            </button>
-          </TooltipTrigger>
-          <TooltipContent side="left" className="text-xs">
-            {pinned ? "Unpin transcript" : "Pin transcript while scrolling"}
-          </TooltipContent>
-        </Tooltip>
+      <div className="flex items-center justify-between gap-2">
+        <button
+          type="button"
+          onClick={onToggle}
+          aria-expanded={shown}
+          className="-mx-1 inline-flex flex-1 cursor-pointer items-center gap-1.5 rounded-lg px-1 py-0.5 text-left text-sm font-semibold text-neutral-700 transition-colors hover:text-neutral-900 dark:text-neutral-200 dark:hover:text-white"
+        >
+          Transcript
+          <ChevronDown
+            className={cn("size-4 text-neutral-400 transition-transform", shown && "rotate-180")}
+            aria-hidden="true"
+          />
+        </button>
+        {shown && (
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <button
+                type="button"
+                onClick={onTogglePin}
+                aria-pressed={pinned}
+                aria-label={pinned ? "Unpin transcript" : "Pin transcript"}
+                className={cn(
+                  "grid size-7 cursor-pointer place-items-center rounded-lg text-neutral-400 transition-colors hover:bg-neutral-100 hover:text-neutral-600 dark:hover:bg-white/10 dark:hover:text-neutral-200",
+                  pinned && "text-emerald-600 dark:text-emerald-400",
+                )}
+              >
+                {pinned ? <PinOff className="size-4" aria-hidden="true" /> : <Pin className="size-4" aria-hidden="true" />}
+              </button>
+            </TooltipTrigger>
+            <TooltipContent side="left" className="text-xs">
+              {pinned ? "Unpin transcript" : "Pin transcript while scrolling"}
+            </TooltipContent>
+          </Tooltip>
+        )}
       </div>
 
-      {!shown ? (
-        <p className="text-xs italic text-neutral-400 dark:text-neutral-500">
-          Listen first, then reveal the transcript.
-        </p>
-      ) : (
-        <div className={showTranslation ? "grid grid-cols-1 gap-4 lg:grid-cols-2" : ""}>
+      {shown && (
+        <div className="mt-3 space-y-4">
           <article className="space-y-2.5 text-sm leading-relaxed">
             {lesson.sentences.map((s, i) => {
               const segments = showAnnotations
@@ -173,7 +217,7 @@ export function TranscriptCard({
             })}
           </article>
           {showTranslation && (
-            <aside className="space-y-1.5 border-t border-neutral-100 pt-2.5 text-[0.8125rem] italic leading-relaxed text-neutral-400 dark:border-white/5 dark:text-neutral-500 lg:border-l lg:border-t-0 lg:pl-4 lg:pt-0">
+            <aside className="space-y-1.5 border-t border-neutral-100 pt-3 text-[0.8125rem] italic leading-relaxed text-neutral-500 dark:border-white/5 dark:text-neutral-400">
               {translationLines.map((line, i) => (
                 <p key={i}>{line}</p>
               ))}

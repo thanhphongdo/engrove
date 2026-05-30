@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { Brand } from "./brand";
 import { TopNav } from "./top-nav";
 import { MobileNavDrawer } from "./mobile-nav-drawer";
@@ -10,7 +9,8 @@ import { StreakChip } from "./streak-chip";
  * Sticky top app bar shared across the whole product.
  *
  * - `app` (default): streak pill + theme toggle + "Aa" text-size control.
- * - `landing`: theme toggle + a "Start learning" CTA (no streak / no Aa).
+ * - `landing`: theme toggle only (no streak / no Aa). The page's own hero
+ *   carries the "Start learning" CTA, so the header doesn't repeat it.
  *
  * The desktop nav, mobile hamburger drawer, and brand are identical in both.
  */
@@ -30,15 +30,7 @@ export function AppHeader({ variant = "app" }: { variant?: "app" | "landing" }) 
               <TextSizePopover />
             </>
           ) : (
-            <>
-              <ThemeToggle />
-              <Link
-                href="/reading"
-                className="rounded-lg bg-neutral-900 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-neutral-800 dark:bg-white dark:text-neutral-900"
-              >
-                Start learning
-              </Link>
-            </>
+            <ThemeToggle />
           )}
         </div>
       </div>

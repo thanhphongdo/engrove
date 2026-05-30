@@ -18,13 +18,19 @@ function fmtDuration(ms: number): string {
   return m > 0 ? `${m}m ${s}s` : `${s}s`;
 }
 
+// Waveform bar count is derived from the live container width (see
+// InlinePlaybackBar) so a wide player gets more bars and a narrow one fewer —
+// roughly one bar per WAVE_PITCH_PX, clamped to a sane range.
+const WAVE_PITCH_PX = 6; // target px per bar (≈3px bar + gap) — denser waveform
+const WAVE_MIN = 20;
+const WAVE_MAX = 280;
+
 // Deterministic pseudo-random bar heights so the waveform looks organic but
 // stays stable across re-renders (no layout shift while scrubbing).
-const WAVE_COUNT = 44;
-function waveHeights(): number[] {
+function waveHeights(count: number): number[] {
   const out: number[] = [];
   let seed = 1337;
-  for (let i = 0; i < WAVE_COUNT; i++) {
+  for (let i = 0; i < count; i++) {
     seed = (seed * 9301 + 49297) % 233280;
     out.push(38 + Math.round((seed / 233280) * 57)); // 38–95%
   }
@@ -82,8 +88,38 @@ export function InlinePlaybackBar({
   const [dragMs, setDragMs] = useState(0);
   const [speedIdx, setSpeedIdx] = useState(0);
   const barRef = useRef<HTMLDivElement>(null);
+  const waveTrackRef = useRef<HTMLDivElement>(null);
   const rafRef = useRef<number | undefined>(undefined);
-  const heights = useMemo(() => waveHeights(), []);
+  const [waveWidth, setWaveWidth] = useState(0);
+
+  // Derive bar count from the measured width (560 is a reasonable pre-measure
+  // default so the first paint isn't sparse). Heights are memoised on the count
+  // so the bar elements stay referentially stable across playback frames —
+  // React then bails out of reconciling them, keeping the RAF loop cheap.
+  const waveCount = Math.max(WAVE_MIN, Math.min(WAVE_MAX, Math.round((waveWidth || 560) / WAVE_PITCH_PX)));
+  const heights = useMemo(() => waveHeights(waveCount), [waveCount]);
+  const baseBars = useMemo(
+    () =>
+      heights.map((h, i) => (
+        <div
+          key={i}
+          className="w-[3px] rounded-full bg-emerald-100 dark:bg-emerald-900"
+          style={{ height: `${h}%` }}
+        />
+      )),
+    [heights],
+  );
+  const playedBars = useMemo(
+    () =>
+      heights.map((h, i) => (
+        <div
+          key={i}
+          className="w-[3px] rounded-full bg-emerald-600 dark:bg-emerald-400"
+          style={{ height: `${h}%` }}
+        />
+      )),
+    [heights],
+  );
 
   const isOurLesson = currentLessonId === lessonId;
   const isActive = isOurLesson && mode === "playAll" && status !== "idle";
@@ -104,6 +140,18 @@ export function InlinePlaybackBar({
       setInlineBarVisible(true); // Reset on unmount so the next lesson starts clean.
     };
   }, [setInlineBarVisible]);
+
+  // Track the waveform's width so the bar count adapts to the container.
+  useEffect(() => {
+    const el = waveTrackRef.current;
+    if (!el || typeof ResizeObserver === "undefined") return;
+    const ro = new ResizeObserver((entries) => {
+      const w = entries[0]?.contentRect.width ?? 0;
+      if (w > 0) setWaveWidth(w);
+    });
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
 
   // The gapless single-track engine drives Play all when its track is ready.
   const concatActive = !!concatUrl;
@@ -250,23 +298,24 @@ export function InlinePlaybackBar({
               if (e.key === "ArrowLeft") seekToGlobalMs(Math.max(0, currentMs - step));
             }}
             className={cn(
-              "relative flex h-10 touch-none select-none items-end gap-px overflow-hidden rounded-lg bg-neutral-100/60 px-2 dark:bg-white/5",
+              "relative h-10 touch-none select-none overflow-hidden rounded-lg bg-neutral-100/60 dark:bg-white/5",
               isActive && "cursor-pointer",
             )}
           >
-            {heights.map((h, i) => {
-              const played = totalMs > 0 && (i / heights.length) * 100 <= progressPct;
-              return (
-                <div
-                  key={i}
-                  className={cn(
-                    "w-[3px] rounded-full",
-                    played ? "bg-emerald-600 dark:bg-emerald-400" : "bg-emerald-100 dark:bg-emerald-900",
-                  )}
-                  style={{ height: `${h}%` }}
-                />
-              );
-            })}
+            {/* Base (unplayed) waveform — spans the full width so each bar's
+                position maps directly to its playback position. */}
+            <div ref={waveTrackRef} className="flex h-full items-end justify-between gap-px px-2">
+              {baseBars}
+            </div>
+            {/* Played overlay — identical bars, clipped to the live position so
+                the green fill edge always sits exactly under the playhead. */}
+            <div
+              aria-hidden="true"
+              className="absolute inset-0 flex h-full items-end justify-between gap-px px-2"
+              style={{ clipPath: `inset(0 ${100 - progressPct}% 0 0)` }}
+            >
+              {playedBars}
+            </div>
             {/* Playhead marker */}
             {isActive && (
               <div className="absolute bottom-0 top-0 flex items-center" style={{ left: `${progressPct}%` }}>

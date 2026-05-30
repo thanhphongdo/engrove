@@ -19,7 +19,7 @@ function makeFallback(profileId: string): Preferences {
   return {
     profileId,
     hintToggles: { ...DEFAULT_HINT_TOGGLES },
-    detailLayout: "two-column",
+    detailLayout: "stacked",
     activeProfileId: profileId,
     contentZoom: DEFAULT_CONTENT_ZOOM,
   };

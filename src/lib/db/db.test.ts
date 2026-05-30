@@ -24,8 +24,8 @@ describe("ensureDefaultProfile", () => {
     const profile = await getActiveProfile();
     expect(profile?.id).toBe("default");
     const prefs = await getPreferences("default");
-    expect(prefs?.hintToggles.vocabVi).toBe(false);
-    expect(prefs?.detailLayout).toBe("two-column");
+    expect(prefs?.hintToggles.vocabVi).toBe(true);
+    expect(prefs?.detailLayout).toBe("stacked");
   });
 
   it("is idempotent", async () => {
@@ -42,7 +42,7 @@ describe("preference setters", () => {
     await setHintToggle("default", "vocabVi", true);
     const prefs = await getPreferences("default");
     expect(prefs?.hintToggles.vocabVi).toBe(true);
-    expect(prefs?.hintToggles.grammar).toBe(false);
+    expect(prefs?.hintToggles.grammar).toBe(true);
   });
 
   it("updates detail layout", async () => {
