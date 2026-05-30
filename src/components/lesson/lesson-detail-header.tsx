@@ -24,19 +24,23 @@ export function LessonDetailHeader({
   align?: "start" | "center";
 }) {
   return (
-    <div className="sticky top-14 z-30 -mx-4 border-b border-neutral-200/70 bg-neutral-50/90 px-4 pb-2.5 pt-3 backdrop-blur dark:border-white/5 dark:bg-neutral-950/90 sm:-mx-6 sm:px-6">
-      <Link
-        href={backHref}
-        className="mb-1.5 inline-flex items-center gap-1 text-[0.8rem] text-neutral-500 transition-colors hover:text-neutral-800 dark:hover:text-neutral-200"
-      >
-        <ArrowLeft className="size-3.5" aria-hidden="true" /> {backLabel}
-      </Link>
+    <div className="sticky top-14 z-30 -mx-4 border-b border-neutral-200/70 bg-neutral-50/90 px-4 py-2.5 backdrop-blur dark:border-white/5 dark:bg-neutral-950/90 sm:-mx-6 sm:px-6">
       <div
         className={`flex flex-col gap-2 sm:flex-row sm:justify-between sm:gap-3 ${
           align === "center" ? "sm:items-center" : "sm:items-start"
         }`}
       >
-        <h1 className="min-w-0 text-xl font-bold leading-tight tracking-tight sm:text-2xl">{title}</h1>
+        <div className="flex min-w-0 items-center gap-2">
+          <Link
+            href={backHref}
+            aria-label={backLabel}
+            title={backLabel}
+            className="grid size-8 shrink-0 place-items-center rounded-lg text-neutral-500 transition-colors hover:bg-neutral-100 hover:text-neutral-800 dark:text-neutral-400 dark:hover:bg-white/10 dark:hover:text-neutral-200"
+          >
+            <ArrowLeft className="size-4.5" aria-hidden="true" />
+          </Link>
+          <h1 className="min-w-0 text-xl font-bold leading-tight tracking-tight sm:text-2xl">{title}</h1>
+        </div>
         {toolbar && <div className="flex shrink-0 items-center gap-2 overflow-x-auto no-scrollbar">{toolbar}</div>}
       </div>
     </div>
