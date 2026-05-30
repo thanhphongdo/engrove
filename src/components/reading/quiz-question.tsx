@@ -1,13 +1,7 @@
 "use client";
 
 import { Check, Lightbulb, X } from "lucide-react";
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
-import { Label } from "@/components/ui/label";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipTrigger,
-} from "@/components/ui/tooltip";
+import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import { cn } from "@/lib/utils";
 import type { Question } from "@/lib/lessons/types";
 
@@ -20,32 +14,23 @@ export type QuizQuestionProps = {
   reviewMode: boolean;
 };
 
+const OPTION_BASE =
+  "flex w-full cursor-pointer items-center gap-2.5 rounded-lg px-3 py-2.5 text-left text-sm transition-colors disabled:cursor-default";
+
 export function QuizQuestion({ index, question, value, onChange, showHint, reviewMode }: QuizQuestionProps) {
   return (
-    <div
-      className={cn(
-        "space-y-1.5 py-2.5 sm:space-y-2 sm:py-3",
-        reviewMode &&
-          value !== undefined &&
-          (value === question.answerIndex
-            ? "border-l-2 border-green-500/60 bg-green-500/5 pl-2"
-            : "border-l-2 border-red-500/60 bg-red-500/5 pl-2"),
-        reviewMode &&
-          value === undefined &&
-          "border-l-2 border-red-500/60 bg-red-500/5 pl-2",
-      )}
-    >
-      <div className="flex items-start justify-between gap-2">
-        <p className="text-sm font-medium">
+    <div className="mb-5 last:mb-0">
+      <div className="mb-2.5 flex items-start justify-between gap-2">
+        <p className="text-sm font-semibold text-neutral-900 dark:text-neutral-100">
           {index + 1}. {question.prompt}
         </p>
-        {showHint && !reviewMode && (
+        {showHint && !reviewMode && question.hint && (
           <Tooltip>
             <TooltipTrigger asChild>
               <button
                 type="button"
                 aria-label="Show hint"
-                className="inline-flex size-7 shrink-0 items-center justify-center rounded-md text-muted-foreground hover:bg-accent hover:text-foreground"
+                className="grid size-7 shrink-0 place-items-center rounded-md text-neutral-400 hover:bg-neutral-100 hover:text-neutral-700 dark:hover:bg-white/10"
               >
                 <Lightbulb className="size-4" aria-hidden="true" />
               </button>
@@ -56,37 +41,57 @@ export function QuizQuestion({ index, question, value, onChange, showHint, revie
           </Tooltip>
         )}
       </div>
-      <RadioGroup
-        value={value === undefined ? "" : String(value)}
-        onValueChange={(v) => onChange(Number(v))}
-        disabled={reviewMode}
-        className="gap-1! sm:gap-1.5!"
-      >
+
+      <div role="radiogroup" className="space-y-1">
         {question.options.map((opt, i) => {
-          const id = `${question.id}-${i}`;
+          const selected = value === i;
           const isCorrect = reviewMode && i === question.answerIndex;
           const isWrongPick = reviewMode && value === i && i !== question.answerIndex;
+          const filled = selected || isCorrect || isWrongPick;
+
           return (
-            <div
-              key={id}
+            <button
+              key={i}
+              type="button"
+              role="radio"
+              aria-checked={selected}
+              disabled={reviewMode}
+              onClick={() => onChange(i)}
               className={cn(
-                "flex items-center gap-2 rounded px-2 py-0.5 sm:py-1",
-                isCorrect && "bg-green-500/10",
-                isWrongPick && "bg-red-500/10",
+                OPTION_BASE,
+                isCorrect
+                  ? "bg-emerald-50 font-medium text-emerald-800 ring-1 ring-emerald-300 dark:bg-emerald-500/10 dark:text-emerald-300 dark:ring-emerald-500/30"
+                  : isWrongPick
+                    ? "bg-red-50 font-medium text-red-700 ring-1 ring-red-300 dark:bg-red-500/10 dark:text-red-300 dark:ring-red-500/30"
+                    : selected
+                      ? "bg-emerald-50 font-medium text-emerald-800 ring-1 ring-emerald-300 dark:bg-emerald-500/10 dark:text-emerald-300 dark:ring-emerald-500/30"
+                      : "text-neutral-700 hover:bg-neutral-50 dark:text-neutral-300 dark:hover:bg-white/5",
               )}
             >
-              <RadioGroupItem id={id} value={String(i)} />
-              <Label htmlFor={id} className="cursor-pointer text-sm font-normal">
-                {opt}
-              </Label>
-              {isCorrect && <Check className="ml-auto size-4 text-green-600" />}
-              {isWrongPick && <X className="ml-auto size-4 text-red-600" />}
-            </div>
+              <span
+                className={cn(
+                  "grid size-4 shrink-0 place-items-center rounded-full border-2",
+                  isWrongPick
+                    ? "border-red-400 dark:border-red-400"
+                    : isCorrect || selected
+                      ? "border-emerald-500 dark:border-emerald-400"
+                      : "border-neutral-300 dark:border-neutral-600",
+                )}
+              >
+                {filled && (
+                  <span className={cn("size-2 rounded-full", isWrongPick ? "bg-red-400" : "bg-emerald-500 dark:bg-emerald-400")} />
+                )}
+              </span>
+              <span className="flex-1">{opt}</span>
+              {isCorrect && <Check className="size-4 shrink-0 text-emerald-600 dark:text-emerald-400" aria-hidden="true" />}
+              {isWrongPick && <X className="size-4 shrink-0 text-red-500" aria-hidden="true" />}
+            </button>
           );
         })}
-      </RadioGroup>
+      </div>
+
       {reviewMode && (
-        <p className="text-xs text-muted-foreground">
+        <p className="mt-2 text-xs text-neutral-500 dark:text-neutral-400">
           <span className="font-semibold">Explanation:</span> {question.explanation}
         </p>
       )}

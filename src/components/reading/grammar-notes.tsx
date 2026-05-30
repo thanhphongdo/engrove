@@ -9,15 +9,17 @@ export function GrammarNotes({ notes }: { notes: GrammarNote[] }) {
       <h2 className="mb-3 text-xs font-semibold uppercase tracking-wide text-neutral-500 dark:text-neutral-400">
         Grammar notes
       </h2>
-      <div className="space-y-2">
+      <ul className="space-y-3 text-sm text-neutral-700 dark:text-neutral-300">
         {notes.map((n, i) => (
-          <details key={i} className="group">
-            <summary className="cursor-pointer text-sm font-medium">{n.title}</summary>
-            <p className="mt-1 text-sm leading-relaxed">{n.bodyVi}</p>
-            <p className="mt-1 text-xs italic text-neutral-500">{n.bodyEn}</p>
-          </details>
+          <li key={i} className="flex gap-2.5">
+            <span className="mt-1.25 size-1.5 shrink-0 rounded-full bg-emerald-500 dark:bg-emerald-400" aria-hidden="true" />
+            <span>
+              <strong className="font-semibold text-neutral-900 dark:text-neutral-100">{n.title}</strong> — {n.bodyVi}{" "}
+              <span className="italic text-neutral-500 dark:text-neutral-400">{n.bodyEn}</span>
+            </span>
+          </li>
         ))}
-      </div>
+      </ul>
     </section>
   );
 }

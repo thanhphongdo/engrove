@@ -158,10 +158,10 @@ function LessonDetailContent({ params }: { params: Promise<{ lessonId: string }>
         </div>
 
         {lesson.cloze && (
-          <DetailCard className="mt-4">
+          <div className="mt-6">
             <ClozeBlock />
             <ClozeReview />
-          </DetailCard>
+          </div>
         )}
 
         <QuizFooter />

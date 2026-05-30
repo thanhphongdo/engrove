@@ -234,3 +234,12 @@
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
+/* Inline vocabulary annotation in lesson passages — dotted underline + clickable. */
+.vocab-word {
+  border-bottom: 1.5px dotted var(--color-neutral-400);
+  cursor: help;
+}
+.dark .vocab-word {
+  border-bottom-color: var(--color-neutral-500);
+}

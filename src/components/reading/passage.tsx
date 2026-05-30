@@ -38,8 +38,9 @@ export function Passage({
   }, [lesson]);
 
   return (
-    <div className={showTranslation ? "grid grid-cols-1 gap-3 lg:grid-cols-2" : ""}>
-      <article className="space-y-3 text-sm leading-relaxed">
+    <div>
+      <h2 className="mb-3 text-sm font-semibold text-neutral-700 dark:text-neutral-200">Reading passage</h2>
+      <article className="space-y-3 leading-[1.9] text-neutral-800 dark:text-neutral-200">
         {lines.map((line) => {
           const segments = showAnnotations
             ? splitWithAnnotations(line.text, lesson.annotations)
@@ -47,7 +48,7 @@ export function Passage({
           return (
             <p key={line.key}>
               {line.speaker && (
-                <span className="font-semibold text-foreground">{line.speaker}: </span>
+                <span className="font-semibold text-neutral-900 dark:text-neutral-100">{line.speaker}: </span>
               )}
               {segments.map((seg, idx) =>
                 seg.kind === "text" ? (
@@ -66,16 +67,16 @@ export function Passage({
         })}
       </article>
       {showTranslation && (
-        <aside className="space-y-3 rounded-md bg-muted/40 p-3 text-sm leading-relaxed text-muted-foreground">
+        <div className="mt-3 space-y-1.5 border-t border-neutral-100 pt-2.5 text-[0.8125rem] italic leading-relaxed text-neutral-400 dark:border-white/5 dark:text-neutral-500">
           {translationLines.map((line) => (
             <p key={line.key}>
               {line.speaker && (
-                <span className="font-semibold text-foreground">{line.speaker}: </span>
+                <span className="font-semibold not-italic text-neutral-500 dark:text-neutral-400">{line.speaker}: </span>
               )}
               {line.text}
             </p>
           ))}
-        </aside>
+        </div>
       )}
     </div>
   );
