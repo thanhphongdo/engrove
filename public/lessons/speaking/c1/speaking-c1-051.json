@@ -1,0 +1,899 @@
+{
+  "id": "speaking-c1-051",
+  "level": "C1",
+  "title": "Debating Carbon Pricing Mechanisms",
+  "summary": "Environmental economist Dr. Naomi and climate policy advisor Marcus debate the relative merits of carbon taxes and cap-and-trade systems, the problem of carbon leakage, distributional equity, border adjustments, and how to design a politically durable mechanism.",
+  "topic": "carbon pricing",
+  "tags": [
+    "Economics",
+    "Climate",
+    "Policy"
+  ],
+  "characters": [
+    "Naomi",
+    "Marcus"
+  ],
+  "voices": {
+    "Naomi": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-EmmaNeural"
+    },
+    "Marcus": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-AndrewNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Marcus",
+      "text": "Dr. Naomi, the perennial debate in climate economics comes down to two instruments — a carbon tax that fixes the price and lets emissions adjust, versus cap-and-trade that fixes the quantity and lets the price adjust. If you had to design a mechanism from scratch today, which would you anchor it on, and why?"
+    },
+    {
+      "speaker": "Naomi",
+      "text": "I'd lean toward a carbon tax, primarily for its price predictability. Firms make long-horizon capital decisions — building a plant, retiring a fleet — and they need a stable signal to discount against. Cap-and-trade can deliver wildly volatile permit prices, and that volatility undermines exactly the investment we're trying to incentivise. But I hold that view contingently, because the quantity certainty of a cap is genuinely valuable when you have a hard emissions budget to hit."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "That tension between price certainty and quantity certainty is the crux of it. With a tax, you know the marginal abatement cost but not the environmental outcome; with a cap, you know the emissions ceiling but not what it costs to get there. Given that the atmosphere responds to cumulative quantities, not prices, isn't there a strong climate-science argument for prioritising the cap?"
+    },
+    {
+      "speaker": "Naomi",
+      "text": "There is, and it's the strongest case for cap-and-trade. But the dichotomy is somewhat false in practice. A well-designed tax can incorporate an automatic adjustment — escalating the rate if emissions overshoot a trajectory — and a well-designed cap can incorporate price collars, floors and ceilings, that limit volatility. The two instruments converge once you bolt on enough corrective mechanisms; the interesting question is which architecture is more robust to political tampering."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "Political tampering cuts both ways, though. Caps invite the systematic over-allocation of permits — we saw exactly that in the early phases of the EU Emissions Trading System, where the price collapsed to near zero. But taxes are equally vulnerable; legislatures carve out exemptions for politically connected sectors until the base is riddled with holes."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "Both failure modes are real, and I'd argue they're symptomatic of the same underlying problem: the diffuse benefits of decarbonisation versus the concentrated costs borne by emitting industries. That asymmetry generates relentless lobbying pressure regardless of the instrument. Which is why I increasingly think the durability question matters more than the textbook efficiency comparison."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "Let's press on leakage, because that's where the theoretical elegance tends to unravel. If you price carbon domestically but your trading partners don't, emissions-intensive production simply relocates to unpriced jurisdictions. You've imposed real costs on your own industry without reducing global emissions at all — arguably you've made things worse through inefficient relocation."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "Carbon leakage is the most serious objection to unilateral pricing, and I won't minimise it. But the empirical magnitude is more modest than the rhetoric suggests. Most studies put leakage rates somewhere between five and thirty percent, not the hundred percent the worst-case framing implies. Energy costs are one input among many, and firms don't relocate solely on carbon prices — they weigh labour, logistics, regulatory stability."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "A five-to-thirty percent leakage rate is still a substantial dilution of the policy's effectiveness, and it's concentrated precisely in the trade-exposed, energy-intensive sectors — steel, cement, aluminium, chemicals — that are hardest to decarbonise. Those are the sectors where the political coalition for pricing is most fragile to begin with."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "Which is precisely why border carbon adjustments have moved from the academic fringe to live policy. The logic is straightforward: you levy a charge on imports equivalent to the domestic carbon price, and you rebate exports, so domestic producers aren't disadvantaged in either market. The EU's Carbon Border Adjustment Mechanism is the first serious attempt to operationalise this at scale."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "But border adjustments are administratively fearsome and legally precarious. You have to measure the embedded carbon in every imported good, which is an accounting nightmare for complex supply chains, and you immediately run into the question of whether it's WTO-compatible or just protectionism dressed up in green clothing. Trading partners cry foul, and you risk a retaliatory trade spiral."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "The legal questions are genuine but not insurmountable. The GATT has long recognised exceptions for measures necessary to protect exhaustible natural resources, and a non-discriminatory adjustment applied symmetrically to domestic and foreign producers has a defensible rationale. The administrative burden is real, but you can start with default carbon-intensity values per sector and let importers demonstrate lower intensities to qualify for a lower charge."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "Even granting the border adjustment, we haven't touched the equity dimension, which is where carbon pricing tends to lose at the ballot box. Carbon taxes are regressive on their face — lower-income households spend a larger share of income on energy and fuel, so a flat per-tonne price hits them disproportionately. The gilets jaunes movement in France was a vivid lesson in what happens when you ignore that."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "The regressivity is real before recycling the revenue, but it's almost entirely a function of what you do with the proceeds. If you return the revenue as equal per-capita dividends — a carbon fee-and-dividend — the policy becomes net progressive, because lower-income households consume less carbon in absolute terms and so receive more in dividend than they pay in tax. The distributional outcome is a design choice, not an intrinsic property."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "The fee-and-dividend is elegant, but it surrenders the revenue you might otherwise use to finance the green transition — to subsidise grid infrastructure, retrofits, public transit. There's a genuine trade-off between distributional fairness, achieved through dividends, and accelerating decarbonisation, achieved through targeted public investment. You can't spend the same dollar twice."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "You can't, and that allocation question is where the real political economy lives. My instinct is that the dividend route buys you durability — it creates a constituency of beneficiaries who'll defend the policy — whereas earmarking revenue for investment is more efficient on paper but politically brittle, because the public rarely connects the abstract spending to the tax they're paying. Visibility of the rebate is doing enormous work."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "That points to something underappreciated: salience asymmetry. The cost of a carbon price is concentrated and visible at the pump or on the utility bill, while the benefit is diffuse, delayed, and counterfactual — you never see the warming you avoided. Any durable mechanism has to actively counteract that perceptual imbalance, or it gets repealed at the first economic downturn."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "Exactly, and that's an argument for designing the instrument to be as legible as possible to ordinary citizens. A dividend cheque arriving with your name on it is salient in a way that a marginally cleaner grid two decades hence simply is not. We're not just solving an externality-pricing problem; we're solving a problem of political sustainability under democratic accountability."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "So if I synthesise your position: a carbon tax for price predictability, with an automatic quantity adjustment to address the cumulative-emissions concern, a border adjustment to neutralise leakage, and a per-capita dividend to handle equity and build a durable constituency. That's a coherent package, but it's also a lot of moving parts, each of which is a separate political battle."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "It is, and I'd be the first to concede that the perfect mechanism that never passes is worth less than the imperfect one that does. If the political window only allows a modest cap with generous price collars and free allocation to trade-exposed sectors, I'll take that over a beautifully optimal tax that dies in committee. The art is sequencing — start with something that can survive, then ratchet ambition as the constituency consolidates."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "The ratchet logic is appealing, but it assumes the early, weak version doesn't entrench interests that then block the tightening. Grandfathered free permits, for instance, become a property right that recipients fight ferociously to protect. You can lock in a low-ambition equilibrium that's harder to escape than if you'd started from nothing."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "That's the lock-in risk, and it's why the design of the transition path matters as much as the endpoint. You want sunset clauses on free allocation, pre-legislated tightening schedules, and ideally an independent body insulated from the annual political cycle that adjusts the parameters against a declared trajectory — something analogous to the way independent central banks were given a mandate and then left to pursue it."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "The independent-agency analogy is intriguing, but climate policy has a redistributive heart in a way monetary policy doesn't, which makes delegating it to technocrats democratically fraught. Deciding who bears the cost of decarbonisation is an intrinsically political question, and outsourcing it to an unelected body may not be legitimate in the same way."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "That's a fair and important caveat. I'd distinguish the goal from the instrument: the legislature sets the emissions trajectory and the distributional principle — that's the political, redistributive choice — while the independent body merely calibrates the price or cap to hit that democratically chosen target. Delegating the how while reserving the what to elected representatives preserves legitimacy without surrendering effectiveness to short-term electoral pressure."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "On that distinction I think we can converge — the contested terrain isn't really tax versus cap in the abstract, it's whether any pricing architecture can be insulated enough to be durable while remaining legitimate enough to be democratic. Get that balance wrong and the cleverest instrument in the world is just a policy waiting to be repealed."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Marcus",
+      "text": "Dr. Naomi, the perennial debate in climate economics comes down to two instruments — a carbon tax that fixes the price and lets emissions adjust, versus cap-and-trade that fixes the quantity and lets the price adjust.",
+      "translationVi": "Tiến sĩ Naomi, cuộc tranh luận muôn thuở trong kinh tế học khí hậu quy về hai công cụ — một loại thuế carbon ấn định giá và để cho lượng phát thải điều chỉnh, so với hệ thống giới hạn và mua bán ấn định số lượng và để cho giá điều chỉnh.",
+      "durationMs": 13104
+    },
+    {
+      "id": "s2",
+      "speaker": "Marcus",
+      "text": "If you had to design a mechanism from scratch today, which would you anchor it on, and why?",
+      "translationVi": "Nếu hôm nay bạn phải thiết kế một cơ chế từ đầu, bạn sẽ neo nó vào cái nào, và tại sao?",
+      "durationMs": 4944
+    },
+    {
+      "id": "s3",
+      "speaker": "Naomi",
+      "text": "I'd lean toward a carbon tax, primarily for its price predictability.",
+      "translationVi": "Tôi sẽ nghiêng về thuế carbon, chủ yếu vì khả năng dự đoán giá của nó.",
+      "durationMs": 4608
+    },
+    {
+      "id": "s4",
+      "speaker": "Naomi",
+      "text": "Firms make long-horizon capital decisions — building a plant, retiring a fleet — and they need a stable signal to discount against.",
+      "translationVi": "Các doanh nghiệp đưa ra các quyết định về vốn dài hạn — xây dựng một nhà máy, loại bỏ một đội xe — và họ cần một tín hiệu ổn định để chiết khấu dựa vào đó.",
+      "durationMs": 7632
+    },
+    {
+      "id": "s5",
+      "speaker": "Naomi",
+      "text": "Cap-and-trade can deliver wildly volatile permit prices, and that volatility undermines exactly the investment we're trying to incentivise.",
+      "translationVi": "Hệ thống giới hạn và mua bán có thể tạo ra giá giấy phép biến động dữ dội, và sự biến động đó làm suy yếu chính khoản đầu tư mà chúng ta đang cố gắng khuyến khích.",
+      "durationMs": 8256
+    },
+    {
+      "id": "s6",
+      "speaker": "Naomi",
+      "text": "But I hold that view contingently, because the quantity certainty of a cap is genuinely valuable when you have a hard emissions budget to hit.",
+      "translationVi": "Nhưng tôi giữ quan điểm đó một cách có điều kiện, bởi vì sự chắc chắn về số lượng của một mức giới hạn thực sự có giá trị khi bạn có một ngân sách phát thải cứng nhắc phải đạt.",
+      "durationMs": 7968
+    },
+    {
+      "id": "s7",
+      "speaker": "Marcus",
+      "text": "That tension between price certainty and quantity certainty is the crux of it.",
+      "translationVi": "Sự căng thẳng giữa sự chắc chắn về giá và sự chắc chắn về số lượng đó chính là điểm mấu chốt.",
+      "durationMs": 4800
+    },
+    {
+      "id": "s8",
+      "speaker": "Marcus",
+      "text": "With a tax, you know the marginal abatement cost but not the environmental outcome; with a cap, you know the emissions ceiling but not what it costs to get there.",
+      "translationVi": "Với thuế, bạn biết chi phí giảm thiểu cận biên nhưng không biết kết quả môi trường; với mức giới hạn, bạn biết trần phát thải nhưng không biết chi phí để đạt được điều đó.",
+      "durationMs": 9288
+    },
+    {
+      "id": "s9",
+      "speaker": "Marcus",
+      "text": "Given that the atmosphere responds to cumulative quantities, not prices, isn't there a strong climate-science argument for prioritising the cap?",
+      "translationVi": "Vì bầu khí quyển phản ứng với lượng tích lũy chứ không phải giá cả, chẳng phải có một lập luận khoa học khí hậu mạnh mẽ để ưu tiên mức giới hạn sao?",
+      "durationMs": 8280
+    },
+    {
+      "id": "s10",
+      "speaker": "Naomi",
+      "text": "There is, and it's the strongest case for cap-and-trade.",
+      "translationVi": "Có, và đó là lý lẽ mạnh nhất cho hệ thống giới hạn và mua bán.",
+      "durationMs": 3456
+    },
+    {
+      "id": "s11",
+      "speaker": "Naomi",
+      "text": "But the dichotomy is somewhat false in practice.",
+      "translationVi": "Nhưng sự phân đôi đó phần nào là sai trong thực tế.",
+      "durationMs": 3120
+    },
+    {
+      "id": "s12",
+      "speaker": "Naomi",
+      "text": "A well-designed tax can incorporate an automatic adjustment — escalating the rate if emissions overshoot a trajectory — and a well-designed cap can incorporate price collars, floors and ceilings, that limit volatility.",
+      "translationVi": "Một loại thuế được thiết kế tốt có thể tích hợp một sự điều chỉnh tự động — tăng thuế suất nếu lượng phát thải vượt quá một quỹ đạo — và một mức giới hạn được thiết kế tốt có thể tích hợp các khung giá, sàn và trần, để hạn chế sự biến động.",
+      "durationMs": 13080
+    },
+    {
+      "id": "s13",
+      "speaker": "Naomi",
+      "text": "The two instruments converge once you bolt on enough corrective mechanisms; the interesting question is which architecture is more robust to political tampering.",
+      "translationVi": "Hai công cụ hội tụ một khi bạn gắn thêm đủ các cơ chế điều chỉnh; câu hỏi thú vị là kiến trúc nào bền vững hơn trước sự can thiệp chính trị.",
+      "durationMs": 8736
+    },
+    {
+      "id": "s14",
+      "speaker": "Marcus",
+      "text": "Political tampering cuts both ways, though.",
+      "translationVi": "Tuy nhiên, sự can thiệp chính trị có tác động theo cả hai hướng.",
+      "durationMs": 2904
+    },
+    {
+      "id": "s15",
+      "speaker": "Marcus",
+      "text": "Caps invite the systematic over-allocation of permits — we saw exactly that in the early phases of the EU Emissions Trading System, where the price collapsed to near zero.",
+      "translationVi": "Các mức giới hạn dẫn đến việc phân bổ quá mức giấy phép một cách có hệ thống — chúng ta đã thấy chính xác điều đó trong các giai đoạn đầu của Hệ thống Mua bán Phát thải EU, nơi giá sụp đổ xuống gần như bằng không.",
+      "durationMs": 10392
+    },
+    {
+      "id": "s16",
+      "speaker": "Marcus",
+      "text": "But taxes are equally vulnerable; legislatures carve out exemptions for politically connected sectors until the base is riddled with holes.",
+      "translationVi": "Nhưng thuế cũng dễ bị tổn thương như vậy; các cơ quan lập pháp tạo ra các miễn trừ cho các ngành có liên hệ chính trị cho đến khi cơ sở thuế đầy lỗ hổng.",
+      "durationMs": 8664
+    },
+    {
+      "id": "s17",
+      "speaker": "Naomi",
+      "text": "Both failure modes are real, and I'd argue they're symptomatic of the same underlying problem: the diffuse benefits of decarbonisation versus the concentrated costs borne by emitting industries.",
+      "translationVi": "Cả hai chế độ thất bại đều có thật, và tôi cho rằng chúng là triệu chứng của cùng một vấn đề cốt lõi: lợi ích phân tán của việc khử carbon so với chi phí tập trung mà các ngành phát thải phải gánh chịu.",
+      "durationMs": 11664
+    },
+    {
+      "id": "s18",
+      "speaker": "Naomi",
+      "text": "That asymmetry generates relentless lobbying pressure regardless of the instrument.",
+      "translationVi": "Sự bất đối xứng đó tạo ra áp lực vận động hành lang không ngừng bất kể công cụ nào.",
+      "durationMs": 5088
+    },
+    {
+      "id": "s19",
+      "speaker": "Naomi",
+      "text": "Which is why I increasingly think the durability question matters more than the textbook efficiency comparison.",
+      "translationVi": "Đó là lý do tại sao tôi ngày càng nghĩ rằng câu hỏi về độ bền quan trọng hơn so sánh hiệu quả trong sách giáo khoa.",
+      "durationMs": 6096
+    },
+    {
+      "id": "s20",
+      "speaker": "Marcus",
+      "text": "Let's press on leakage, because that's where the theoretical elegance tends to unravel.",
+      "translationVi": "Hãy nhấn mạnh vào vấn đề rò rỉ, vì đó là nơi sự thanh lịch về mặt lý thuyết có xu hướng sụp đổ.",
+      "durationMs": 5088
+    },
+    {
+      "id": "s21",
+      "speaker": "Marcus",
+      "text": "If you price carbon domestically but your trading partners don't, emissions-intensive production simply relocates to unpriced jurisdictions.",
+      "translationVi": "Nếu bạn định giá carbon trong nước nhưng các đối tác thương mại của bạn không làm vậy, thì sản xuất thâm dụng phát thải chỉ đơn giản là chuyển sang các khu vực tài phán không định giá.",
+      "durationMs": 8664
+    },
+    {
+      "id": "s22",
+      "speaker": "Marcus",
+      "text": "You've imposed real costs on your own industry without reducing global emissions at all — arguably you've made things worse through inefficient relocation.",
+      "translationVi": "Bạn đã áp đặt chi phí thực lên ngành công nghiệp của chính mình mà không giảm phát thải toàn cầu chút nào — có thể nói bạn đã làm cho mọi thứ tồi tệ hơn thông qua việc di dời kém hiệu quả.",
+      "durationMs": 9528
+    },
+    {
+      "id": "s23",
+      "speaker": "Naomi",
+      "text": "Carbon leakage is the most serious objection to unilateral pricing, and I won't minimise it.",
+      "translationVi": "Rò rỉ carbon là phản đối nghiêm trọng nhất đối với việc định giá đơn phương, và tôi sẽ không xem nhẹ nó.",
+      "durationMs": 6000
+    },
+    {
+      "id": "s24",
+      "speaker": "Naomi",
+      "text": "But the empirical magnitude is more modest than the rhetoric suggests.",
+      "translationVi": "Nhưng độ lớn thực nghiệm khiêm tốn hơn những gì lời lẽ hùng biện gợi ý.",
+      "durationMs": 4416
+    },
+    {
+      "id": "s25",
+      "speaker": "Naomi",
+      "text": "Most studies put leakage rates somewhere between five and thirty percent, not the hundred percent the worst-case framing implies.",
+      "translationVi": "Hầu hết các nghiên cứu đặt tỷ lệ rò rỉ ở đâu đó giữa năm và ba mươi phần trăm, không phải một trăm phần trăm như cách đặt vấn đề tệ nhất ngụ ý.",
+      "durationMs": 7104
+    },
+    {
+      "id": "s26",
+      "speaker": "Naomi",
+      "text": "Energy costs are one input among many, and firms don't relocate solely on carbon prices — they weigh labour, logistics, regulatory stability.",
+      "translationVi": "Chi phí năng lượng là một đầu vào trong số nhiều đầu vào, và các doanh nghiệp không di dời chỉ vì giá carbon — họ cân nhắc lao động, hậu cần, sự ổn định pháp lý.",
+      "durationMs": 9576
+    },
+    {
+      "id": "s27",
+      "speaker": "Marcus",
+      "text": "A five-to-thirty percent leakage rate is still a substantial dilution of the policy's effectiveness, and it's concentrated precisely in the trade-exposed, energy-intensive sectors — steel, cement, aluminium, chemicals — that are hardest to decarbonise.",
+      "translationVi": "Tỷ lệ rò rỉ từ năm đến ba mươi phần trăm vẫn là một sự pha loãng đáng kể hiệu quả của chính sách, và nó tập trung chính xác vào các ngành chịu tác động thương mại, thâm dụng năng lượng — thép, xi măng, nhôm, hóa chất — vốn khó khử carbon nhất.",
+      "durationMs": 16104
+    },
+    {
+      "id": "s28",
+      "speaker": "Marcus",
+      "text": "Those are the sectors where the political coalition for pricing is most fragile to begin with.",
+      "translationVi": "Đó là những ngành mà liên minh chính trị ủng hộ việc định giá vốn đã mong manh nhất ngay từ đầu.",
+      "durationMs": 5352
+    },
+    {
+      "id": "s29",
+      "speaker": "Naomi",
+      "text": "Which is precisely why border carbon adjustments have moved from the academic fringe to live policy.",
+      "translationVi": "Đó chính xác là lý do tại sao các điều chỉnh carbon tại biên giới đã chuyển từ vùng ngoại vi học thuật sang chính sách thực tế.",
+      "durationMs": 5880
+    },
+    {
+      "id": "s30",
+      "speaker": "Naomi",
+      "text": "The logic is straightforward: you levy a charge on imports equivalent to the domestic carbon price, and you rebate exports, so domestic producers aren't disadvantaged in either market.",
+      "translationVi": "Logic rất đơn giản: bạn đánh một khoản phí lên hàng nhập khẩu tương đương với giá carbon trong nước, và bạn hoàn lại cho hàng xuất khẩu, để các nhà sản xuất trong nước không bị bất lợi ở cả hai thị trường.",
+      "durationMs": 11208
+    },
+    {
+      "id": "s31",
+      "speaker": "Naomi",
+      "text": "The EU's Carbon Border Adjustment Mechanism is the first serious attempt to operationalise this at scale.",
+      "translationVi": "Cơ chế Điều chỉnh Carbon tại Biên giới của EU là nỗ lực nghiêm túc đầu tiên để vận hành hóa điều này ở quy mô lớn.",
+      "durationMs": 6192
+    },
+    {
+      "id": "s32",
+      "speaker": "Marcus",
+      "text": "But border adjustments are administratively fearsome and legally precarious.",
+      "translationVi": "Nhưng các điều chỉnh tại biên giới đáng sợ về mặt hành chính và bấp bênh về mặt pháp lý.",
+      "durationMs": 4704
+    },
+    {
+      "id": "s33",
+      "speaker": "Marcus",
+      "text": "You have to measure the embedded carbon in every imported good, which is an accounting nightmare for complex supply chains, and you immediately run into the question of whether it's WTO-compatible or just protectionism dressed up in green clothing.",
+      "translationVi": "Bạn phải đo lường lượng carbon hàm chứa trong mọi hàng hóa nhập khẩu, vốn là một cơn ác mộng kế toán đối với các chuỗi cung ứng phức tạp, và bạn ngay lập tức gặp phải câu hỏi liệu nó có tương thích với WTO hay chỉ là chủ nghĩa bảo hộ khoác áo xanh.",
+      "durationMs": 13800
+    },
+    {
+      "id": "s34",
+      "speaker": "Marcus",
+      "text": "Trading partners cry foul, and you risk a retaliatory trade spiral.",
+      "translationVi": "Các đối tác thương mại kêu gào phản đối, và bạn có nguy cơ rơi vào một vòng xoáy thương mại trả đũa.",
+      "durationMs": 4464
+    },
+    {
+      "id": "s35",
+      "speaker": "Naomi",
+      "text": "The legal questions are genuine but not insurmountable.",
+      "translationVi": "Các câu hỏi pháp lý là có thật nhưng không phải là không thể vượt qua.",
+      "durationMs": 3576
+    },
+    {
+      "id": "s36",
+      "speaker": "Naomi",
+      "text": "The GATT has long recognised exceptions for measures necessary to protect exhaustible natural resources, and a non-discriminatory adjustment applied symmetrically to domestic and foreign producers has a defensible rationale.",
+      "translationVi": "GATT từ lâu đã công nhận các ngoại lệ đối với các biện pháp cần thiết để bảo vệ tài nguyên thiên nhiên có thể cạn kiệt, và một sự điều chỉnh không phân biệt đối xử được áp dụng đối xứng cho các nhà sản xuất trong nước và nước ngoài có một cơ sở lý luận có thể bảo vệ được.",
+      "durationMs": 13008
+    },
+    {
+      "id": "s37",
+      "speaker": "Naomi",
+      "text": "The administrative burden is real, but you can start with default carbon-intensity values per sector and let importers demonstrate lower intensities to qualify for a lower charge.",
+      "translationVi": "Gánh nặng hành chính là có thật, nhưng bạn có thể bắt đầu với các giá trị cường độ carbon mặc định theo từng ngành và để các nhà nhập khẩu chứng minh cường độ thấp hơn để đủ điều kiện hưởng mức phí thấp hơn.",
+      "durationMs": 10632
+    },
+    {
+      "id": "s38",
+      "speaker": "Marcus",
+      "text": "Even granting the border adjustment, we haven't touched the equity dimension, which is where carbon pricing tends to lose at the ballot box.",
+      "translationVi": "Ngay cả khi chấp nhận điều chỉnh tại biên giới, chúng ta vẫn chưa đụng đến khía cạnh công bằng, vốn là nơi định giá carbon có xu hướng thua tại hòm phiếu.",
+      "durationMs": 8016
+    },
+    {
+      "id": "s39",
+      "speaker": "Marcus",
+      "text": "Carbon taxes are regressive on their face — lower-income households spend a larger share of income on energy and fuel, so a flat per-tonne price hits them disproportionately.",
+      "translationVi": "Thuế carbon mang tính lũy thoái về bề mặt — các hộ gia đình thu nhập thấp chi một tỷ trọng lớn hơn thu nhập cho năng lượng và nhiên liệu, nên một mức giá đồng đều trên mỗi tấn tác động đến họ một cách không tương xứng.",
+      "durationMs": 10392
+    },
+    {
+      "id": "s40",
+      "speaker": "Marcus",
+      "text": "The gilets jaunes movement in France was a vivid lesson in what happens when you ignore that.",
+      "translationVi": "Phong trào áo vàng ở Pháp là một bài học sống động về những gì xảy ra khi bạn phớt lờ điều đó.",
+      "durationMs": 5256
+    },
+    {
+      "id": "s41",
+      "speaker": "Naomi",
+      "text": "The regressivity is real before recycling the revenue, but it's almost entirely a function of what you do with the proceeds.",
+      "translationVi": "Tính lũy thoái là có thật trước khi tái phân phối nguồn thu, nhưng nó gần như hoàn toàn phụ thuộc vào việc bạn làm gì với khoản tiền thu được.",
+      "durationMs": 6840
+    },
+    {
+      "id": "s42",
+      "speaker": "Naomi",
+      "text": "If you return the revenue as equal per-capita dividends — a carbon fee-and-dividend — the policy becomes net progressive, because lower-income households consume less carbon in absolute terms and so receive more in dividend than they pay in tax.",
+      "translationVi": "Nếu bạn trả lại nguồn thu dưới dạng cổ tức bình quân đầu người bằng nhau — một cơ chế phí carbon và cổ tức — chính sách trở nên lũy tiến ròng, bởi vì các hộ gia đình thu nhập thấp tiêu thụ ít carbon hơn về mặt tuyệt đối nên nhận được nhiều cổ tức hơn số thuế họ trả.",
+      "durationMs": 14040
+    },
+    {
+      "id": "s43",
+      "speaker": "Naomi",
+      "text": "The distributional outcome is a design choice, not an intrinsic property.",
+      "translationVi": "Kết quả phân phối là một lựa chọn thiết kế, không phải một thuộc tính cố hữu.",
+      "durationMs": 4776
+    },
+    {
+      "id": "s44",
+      "speaker": "Marcus",
+      "text": "The fee-and-dividend is elegant, but it surrenders the revenue you might otherwise use to finance the green transition — to subsidise grid infrastructure, retrofits, public transit.",
+      "translationVi": "Cơ chế phí và cổ tức rất thanh lịch, nhưng nó từ bỏ nguồn thu mà lẽ ra bạn có thể dùng để tài trợ cho quá trình chuyển đổi xanh — để trợ cấp cho hạ tầng lưới điện, cải tạo tiết kiệm năng lượng, giao thông công cộng.",
+      "durationMs": 11304
+    },
+    {
+      "id": "s45",
+      "speaker": "Marcus",
+      "text": "There's a genuine trade-off between distributional fairness, achieved through dividends, and accelerating decarbonisation, achieved through targeted public investment.",
+      "translationVi": "Có một sự đánh đổi thực sự giữa công bằng phân phối, đạt được thông qua cổ tức, và đẩy nhanh việc khử carbon, đạt được thông qua đầu tư công có mục tiêu.",
+      "durationMs": 9936
+    },
+    {
+      "id": "s46",
+      "speaker": "Marcus",
+      "text": "You can't spend the same dollar twice.",
+      "translationVi": "Bạn không thể tiêu cùng một đồng đô la hai lần.",
+      "durationMs": 2184
+    },
+    {
+      "id": "s47",
+      "speaker": "Naomi",
+      "text": "You can't, and that allocation question is where the real political economy lives.",
+      "translationVi": "Bạn không thể, và câu hỏi về phân bổ đó là nơi kinh tế chính trị thực sự tồn tại.",
+      "durationMs": 4704
+    },
+    {
+      "id": "s48",
+      "speaker": "Naomi",
+      "text": "My instinct is that the dividend route buys you durability — it creates a constituency of beneficiaries who'll defend the policy — whereas earmarking revenue for investment is more efficient on paper but politically brittle, because the public rarely connects the abstract spending to the tax they're paying.",
+      "translationVi": "Trực giác của tôi là con đường cổ tức mua cho bạn độ bền — nó tạo ra một nhóm cử tri hưởng lợi sẽ bảo vệ chính sách — trong khi việc dành riêng nguồn thu cho đầu tư hiệu quả hơn trên giấy tờ nhưng giòn về mặt chính trị, bởi vì công chúng hiếm khi liên kết khoản chi trừu tượng với khoản thuế họ đang trả.",
+      "durationMs": 16104
+    },
+    {
+      "id": "s49",
+      "speaker": "Naomi",
+      "text": "Visibility of the rebate is doing enormous work.",
+      "translationVi": "Khả năng nhìn thấy được của khoản hoàn tiền đang đóng vai trò to lớn.",
+      "durationMs": 3312
+    },
+    {
+      "id": "s50",
+      "speaker": "Marcus",
+      "text": "That points to something underappreciated: salience asymmetry.",
+      "translationVi": "Điều đó chỉ ra một điều ít được đánh giá đúng mức: sự bất đối xứng về độ nổi bật.",
+      "durationMs": 3936
+    },
+    {
+      "id": "s51",
+      "speaker": "Marcus",
+      "text": "The cost of a carbon price is concentrated and visible at the pump or on the utility bill, while the benefit is diffuse, delayed, and counterfactual — you never see the warming you avoided.",
+      "translationVi": "Chi phí của một mức giá carbon tập trung và hữu hình tại trạm xăng hoặc trên hóa đơn tiện ích, trong khi lợi ích thì phân tán, chậm trễ và phản thực tế — bạn không bao giờ thấy được sự nóng lên mà bạn đã tránh được.",
+      "durationMs": 11640
+    },
+    {
+      "id": "s52",
+      "speaker": "Marcus",
+      "text": "Any durable mechanism has to actively counteract that perceptual imbalance, or it gets repealed at the first economic downturn.",
+      "translationVi": "Bất kỳ cơ chế bền vững nào cũng phải chủ động chống lại sự mất cân bằng nhận thức đó, nếu không nó sẽ bị bãi bỏ ngay khi suy thoái kinh tế đầu tiên xảy ra.",
+      "durationMs": 7992
+    },
+    {
+      "id": "s53",
+      "speaker": "Naomi",
+      "text": "Exactly, and that's an argument for designing the instrument to be as legible as possible to ordinary citizens.",
+      "translationVi": "Chính xác, và đó là lý lẽ để thiết kế công cụ sao cho dễ hiểu nhất có thể đối với người dân thường.",
+      "durationMs": 6936
+    },
+    {
+      "id": "s54",
+      "speaker": "Naomi",
+      "text": "A dividend cheque arriving with your name on it is salient in a way that a marginally cleaner grid two decades hence simply is not.",
+      "translationVi": "Một tờ séc cổ tức gửi đến với tên bạn trên đó thì nổi bật theo một cách mà một lưới điện sạch hơn chút ít sau hai thập kỷ nữa đơn giản là không có được.",
+      "durationMs": 6960
+    },
+    {
+      "id": "s55",
+      "speaker": "Naomi",
+      "text": "We're not just solving an externality-pricing problem; we're solving a problem of political sustainability under democratic accountability.",
+      "translationVi": "Chúng ta không chỉ giải quyết một vấn đề định giá ngoại tác; chúng ta đang giải quyết một vấn đề về tính bền vững chính trị dưới sự giải trình dân chủ.",
+      "durationMs": 8352
+    },
+    {
+      "id": "s56",
+      "speaker": "Marcus",
+      "text": "So if I synthesise your position: a carbon tax for price predictability, with an automatic quantity adjustment to address the cumulative-emissions concern, a border adjustment to neutralise leakage, and a per-capita dividend to handle equity and build a durable constituency.",
+      "translationVi": "Vậy nếu tôi tổng hợp lập trường của bạn: một loại thuế carbon vì khả năng dự đoán giá, với một sự điều chỉnh số lượng tự động để giải quyết mối lo ngại về phát thải tích lũy, một điều chỉnh tại biên giới để trung hòa rò rỉ, và một khoản cổ tức bình quân đầu người để xử lý công bằng và xây dựng một nhóm cử tri bền vững.",
+      "durationMs": 16728
+    },
+    {
+      "id": "s57",
+      "speaker": "Marcus",
+      "text": "That's a coherent package, but it's also a lot of moving parts, each of which is a separate political battle.",
+      "translationVi": "Đó là một gói mạch lạc, nhưng nó cũng có nhiều bộ phận chuyển động, mỗi bộ phận là một cuộc chiến chính trị riêng biệt.",
+      "durationMs": 6456
+    },
+    {
+      "id": "s58",
+      "speaker": "Naomi",
+      "text": "It is, and I'd be the first to concede that the perfect mechanism that never passes is worth less than the imperfect one that does.",
+      "translationVi": "Đúng vậy, và tôi sẽ là người đầu tiên thừa nhận rằng một cơ chế hoàn hảo không bao giờ được thông qua có giá trị thấp hơn một cơ chế không hoàn hảo nhưng được thông qua.",
+      "durationMs": 7224
+    },
+    {
+      "id": "s59",
+      "speaker": "Naomi",
+      "text": "If the political window only allows a modest cap with generous price collars and free allocation to trade-exposed sectors, I'll take that over a beautifully optimal tax that dies in committee.",
+      "translationVi": "Nếu cửa sổ chính trị chỉ cho phép một mức giới hạn khiêm tốn với các khung giá rộng rãi và phân bổ miễn phí cho các ngành chịu tác động thương mại, tôi sẽ chọn điều đó hơn là một loại thuế tối ưu đẹp đẽ nhưng chết tại ủy ban.",
+      "durationMs": 10704
+    },
+    {
+      "id": "s60",
+      "speaker": "Naomi",
+      "text": "The art is sequencing — start with something that can survive, then ratchet ambition as the constituency consolidates.",
+      "translationVi": "Nghệ thuật nằm ở việc sắp xếp thứ tự — bắt đầu với điều gì đó có thể tồn tại, rồi siết chặt tham vọng khi nhóm cử tri được củng cố.",
+      "durationMs": 7224
+    },
+    {
+      "id": "s61",
+      "speaker": "Marcus",
+      "text": "The ratchet logic is appealing, but it assumes the early, weak version doesn't entrench interests that then block the tightening.",
+      "translationVi": "Logic siết chặt từng nấc hấp dẫn, nhưng nó giả định rằng phiên bản yếu ban đầu không củng cố các lợi ích mà sau đó chặn việc thắt chặt.",
+      "durationMs": 7656
+    },
+    {
+      "id": "s62",
+      "speaker": "Marcus",
+      "text": "Grandfathered free permits, for instance, become a property right that recipients fight ferociously to protect.",
+      "translationVi": "Ví dụ, các giấy phép miễn phí được cấp theo cơ chế thừa kế trở thành một quyền tài sản mà người nhận đấu tranh quyết liệt để bảo vệ.",
+      "durationMs": 7608
+    },
+    {
+      "id": "s63",
+      "speaker": "Marcus",
+      "text": "You can lock in a low-ambition equilibrium that's harder to escape than if you'd started from nothing.",
+      "translationVi": "Bạn có thể khóa chặt một trạng thái cân bằng tham vọng thấp khó thoát ra hơn so với khi bạn bắt đầu từ con số không.",
+      "durationMs": 5952
+    },
+    {
+      "id": "s64",
+      "speaker": "Naomi",
+      "text": "That's the lock-in risk, and it's why the design of the transition path matters as much as the endpoint.",
+      "translationVi": "Đó là rủi ro bị khóa chặt, và đó là lý do tại sao thiết kế con đường chuyển tiếp quan trọng không kém điểm đến cuối cùng.",
+      "durationMs": 6240
+    },
+    {
+      "id": "s65",
+      "speaker": "Naomi",
+      "text": "You want sunset clauses on free allocation, pre-legislated tightening schedules, and ideally an independent body insulated from the annual political cycle that adjusts the parameters against a declared trajectory — something analogous to the way independent central banks were given a mandate and then left to pursue it.",
+      "translationVi": "Bạn muốn có các điều khoản hết hiệu lực về phân bổ miễn phí, các lịch trình thắt chặt được lập pháp trước, và lý tưởng nhất là một cơ quan độc lập được tách biệt khỏi chu kỳ chính trị hàng năm điều chỉnh các tham số dựa trên một quỹ đạo đã tuyên bố — điều gì đó tương tự như cách các ngân hàng trung ương độc lập được trao một nhiệm vụ rồi để họ tự theo đuổi.",
+      "durationMs": 17088
+    },
+    {
+      "id": "s66",
+      "speaker": "Marcus",
+      "text": "The independent-agency analogy is intriguing, but climate policy has a redistributive heart in a way monetary policy doesn't, which makes delegating it to technocrats democratically fraught.",
+      "translationVi": "Phép loại suy cơ quan độc lập rất hấp dẫn, nhưng chính sách khí hậu có một trung tâm tái phân phối theo cách mà chính sách tiền tệ không có, điều này làm cho việc ủy thác nó cho các nhà kỹ trị trở nên nan giải về mặt dân chủ.",
+      "durationMs": 11424
+    },
+    {
+      "id": "s67",
+      "speaker": "Marcus",
+      "text": "Deciding who bears the cost of decarbonisation is an intrinsically political question, and outsourcing it to an unelected body may not be legitimate in the same way.",
+      "translationVi": "Quyết định ai gánh chịu chi phí khử carbon là một câu hỏi mang tính chính trị cố hữu, và việc giao nó cho một cơ quan không được bầu cử có thể không chính danh theo cùng một cách.",
+      "durationMs": 9864
+    },
+    {
+      "id": "s68",
+      "speaker": "Naomi",
+      "text": "That's a fair and important caveat.",
+      "translationVi": "Đó là một lưu ý công bằng và quan trọng.",
+      "durationMs": 2400
+    },
+    {
+      "id": "s69",
+      "speaker": "Naomi",
+      "text": "I'd distinguish the goal from the instrument: the legislature sets the emissions trajectory and the distributional principle — that's the political, redistributive choice — while the independent body merely calibrates the price or cap to hit that democratically chosen target.",
+      "translationVi": "Tôi sẽ phân biệt mục tiêu với công cụ: cơ quan lập pháp đặt ra quỹ đạo phát thải và nguyên tắc phân phối — đó là lựa chọn chính trị, tái phân phối — trong khi cơ quan độc lập chỉ hiệu chỉnh mức giá hoặc giới hạn để đạt được mục tiêu được chọn một cách dân chủ đó.",
+      "durationMs": 15432
+    },
+    {
+      "id": "s70",
+      "speaker": "Naomi",
+      "text": "Delegating the how while reserving the what to elected representatives preserves legitimacy without surrendering effectiveness to short-term electoral pressure.",
+      "translationVi": "Ủy thác cái cách trong khi dành cái gì cho các đại diện được bầu giữ gìn tính chính danh mà không hy sinh hiệu quả cho áp lực bầu cử ngắn hạn.",
+      "durationMs": 8928
+    },
+    {
+      "id": "s71",
+      "speaker": "Marcus",
+      "text": "On that distinction I think we can converge — the contested terrain isn't really tax versus cap in the abstract, it's whether any pricing architecture can be insulated enough to be durable while remaining legitimate enough to be democratic.",
+      "translationVi": "Về sự phân biệt đó tôi nghĩ chúng ta có thể hội tụ — địa hình tranh chấp không thực sự là thuế so với mức giới hạn một cách trừu tượng, mà là liệu bất kỳ kiến trúc định giá nào có thể được tách biệt đủ để bền vững trong khi vẫn đủ chính danh để mang tính dân chủ hay không.",
+      "durationMs": 14088
+    },
+    {
+      "id": "s72",
+      "speaker": "Marcus",
+      "text": "Get that balance wrong and the cleverest instrument in the world is just a policy waiting to be repealed.",
+      "translationVi": "Nếu làm sai sự cân bằng đó thì công cụ thông minh nhất trên thế giới cũng chỉ là một chính sách chờ bị bãi bỏ.",
+      "durationMs": 6312
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "I'd lean toward …, primarily for its …, but I hold that view contingently, because …"
+    },
+    {
+      "id": "h2",
+      "text": "… is the most serious objection to …, and I won't minimise it, but the empirical magnitude is more modest than …"
+    },
+    {
+      "id": "h3",
+      "text": "The … outcome is a design choice, not an intrinsic property — if you …, the policy becomes …"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "cap-and-trade",
+      "meaningVi": "giới hạn và mua bán (ấn định tổng lượng phát thải rồi cho phép mua bán giấy phép)",
+      "pronunciation": "/kæp ən treɪd/"
+    },
+    {
+      "id": "v2",
+      "phrase": "carbon leakage",
+      "meaningVi": "rò rỉ carbon (sản xuất phát thải chuyển sang nơi không bị định giá carbon)",
+      "pronunciation": "/ˈkɑːrbən ˈliːkɪdʒ/"
+    },
+    {
+      "id": "v3",
+      "phrase": "border carbon adjustments",
+      "meaningVi": "điều chỉnh carbon tại biên giới (đánh phí carbon lên hàng nhập khẩu)",
+      "pronunciation": "/ˈbɔːrdər ˈkɑːrbən əˈdʒʌstmənts/"
+    },
+    {
+      "id": "v4",
+      "phrase": "fee-and-dividend",
+      "meaningVi": "phí và cổ tức (thu phí carbon rồi hoàn trả đều cho dân chúng)",
+      "pronunciation": "/fiː ən ˈdɪvɪdɛnd/"
+    },
+    {
+      "id": "v5",
+      "phrase": "marginal abatement cost",
+      "meaningVi": "chi phí giảm thiểu cận biên (chi phí để cắt giảm thêm một đơn vị phát thải)",
+      "pronunciation": "/ˈmɑːrdʒɪnəl əˈbeɪtmənt kɒst/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "carbon tax",
+      "meaningVi": "thuế carbon (đặt một mức giá cố định trên mỗi tấn phát thải)",
+      "pronunciation": "/ˈkɑːrbən tæks/"
+    },
+    {
+      "phrase": "cap-and-trade",
+      "meaningVi": "giới hạn và mua bán (ấn định tổng lượng phát thải)",
+      "pronunciation": "/kæp ən treɪd/",
+      "exampleEn": "versus cap-and-trade that fixes the quantity and lets the price adjust"
+    },
+    {
+      "phrase": "price predictability",
+      "meaningVi": "khả năng dự đoán giá",
+      "pronunciation": "/praɪs prɪˌdɪktəˈbɪlɪti/"
+    },
+    {
+      "phrase": "long-horizon capital decisions",
+      "meaningVi": "các quyết định về vốn dài hạn",
+      "pronunciation": "/lɒŋ həˈraɪzən ˈkæpɪtəl dɪˈsɪʒənz/"
+    },
+    {
+      "phrase": "volatile permit prices",
+      "meaningVi": "giá giấy phép biến động",
+      "pronunciation": "/ˈvɒlətaɪl ˈpɜːrmɪt ˈpraɪsɪz/"
+    },
+    {
+      "phrase": "quantity certainty",
+      "meaningVi": "sự chắc chắn về số lượng (phát thải)",
+      "pronunciation": "/ˈkwɒntɪti ˈsɜːrtnti/"
+    },
+    {
+      "phrase": "marginal abatement cost",
+      "meaningVi": "chi phí giảm thiểu cận biên",
+      "pronunciation": "/ˈmɑːrdʒɪnəl əˈbeɪtmənt kɒst/"
+    },
+    {
+      "phrase": "emissions ceiling",
+      "meaningVi": "trần phát thải (giới hạn tối đa)",
+      "pronunciation": "/ɪˈmɪʃənz ˈsiːlɪŋ/"
+    },
+    {
+      "phrase": "cumulative quantities",
+      "meaningVi": "lượng tích lũy (mà bầu khí quyển phản ứng với)",
+      "pronunciation": "/ˈkjuːmjələtɪv ˈkwɒntɪtiz/"
+    },
+    {
+      "phrase": "price collars",
+      "meaningVi": "khung giá (sàn và trần giới hạn biến động giá giấy phép)",
+      "pronunciation": "/praɪs ˈkɒlərz/"
+    },
+    {
+      "phrase": "corrective mechanisms",
+      "meaningVi": "các cơ chế điều chỉnh",
+      "pronunciation": "/kəˈrɛktɪv ˈmɛkənɪzəmz/"
+    },
+    {
+      "phrase": "over-allocation of permits",
+      "meaningVi": "phân bổ quá mức giấy phép",
+      "pronunciation": "/ˈoʊvər ˌæləˈkeɪʃən əv ˈpɜːrmɪts/"
+    },
+    {
+      "phrase": "EU Emissions Trading System",
+      "meaningVi": "Hệ thống Mua bán Phát thải của EU",
+      "pronunciation": "/ˈiːˈjuː ɪˈmɪʃənz ˈtreɪdɪŋ ˈsɪstəm/"
+    },
+    {
+      "phrase": "decarbonisation",
+      "meaningVi": "khử carbon (giảm phát thải khí nhà kính)",
+      "pronunciation": "/diːˌkɑːrbənaɪˈzeɪʃən/"
+    },
+    {
+      "phrase": "concentrated costs",
+      "meaningVi": "chi phí tập trung (dồn vào một số ít ngành)",
+      "pronunciation": "/ˈkɒnsəntreɪtɪd kɒsts/"
+    },
+    {
+      "phrase": "lobbying pressure",
+      "meaningVi": "áp lực vận động hành lang",
+      "pronunciation": "/ˈlɒbiɪŋ ˈprɛʃər/"
+    },
+    {
+      "phrase": "emissions-intensive production",
+      "meaningVi": "sản xuất thâm dụng phát thải",
+      "pronunciation": "/ɪˈmɪʃənz ɪnˈtɛnsɪv prəˈdʌkʃən/"
+    },
+    {
+      "phrase": "unpriced jurisdictions",
+      "meaningVi": "các khu vực tài phán không định giá carbon",
+      "pronunciation": "/ʌnˈpraɪst ˌdʒʊrɪsˈdɪkʃənz/"
+    },
+    {
+      "phrase": "unilateral pricing",
+      "meaningVi": "định giá đơn phương",
+      "pronunciation": "/ˌjuːnɪˈlætərəl ˈpraɪsɪŋ/"
+    },
+    {
+      "phrase": "leakage rates",
+      "meaningVi": "tỷ lệ rò rỉ (carbon)",
+      "pronunciation": "/ˈliːkɪdʒ reɪts/"
+    },
+    {
+      "phrase": "trade-exposed",
+      "meaningVi": "chịu tác động thương mại (cạnh tranh với hàng nhập khẩu/xuất khẩu)",
+      "pronunciation": "/treɪd ɪkˈspoʊzd/"
+    },
+    {
+      "phrase": "embedded carbon",
+      "meaningVi": "carbon hàm chứa (lượng phát thải sinh ra để tạo ra hàng hóa)",
+      "pronunciation": "/ɪmˈbɛdɪd ˈkɑːrbən/"
+    },
+    {
+      "phrase": "WTO-compatible",
+      "meaningVi": "tương thích với WTO (quy tắc của Tổ chức Thương mại Thế giới)",
+      "pronunciation": "/ˈdʌbəljuːˈtiːˈoʊ kəmˈpætɪbəl/"
+    },
+    {
+      "phrase": "retaliatory trade spiral",
+      "meaningVi": "vòng xoáy thương mại trả đũa",
+      "pronunciation": "/rɪˈtæliətɔːri treɪd ˈspaɪrəl/"
+    },
+    {
+      "phrase": "exhaustible natural resources",
+      "meaningVi": "tài nguyên thiên nhiên có thể cạn kiệt",
+      "pronunciation": "/ɪɡˈzɔːstəbəl ˈnætʃərəl rɪˈsɔːrsɪz/"
+    },
+    {
+      "phrase": "carbon-intensity values",
+      "meaningVi": "các giá trị cường độ carbon (mặc định theo ngành)",
+      "pronunciation": "/ˈkɑːrbən ɪnˈtɛnsɪti ˈvæljuːz/"
+    },
+    {
+      "phrase": "regressive",
+      "meaningVi": "lũy thoái (gánh nặng tỷ lệ lớn hơn lên người thu nhập thấp)",
+      "pronunciation": "/rɪˈɡrɛsɪv/"
+    },
+    {
+      "phrase": "per-capita dividends",
+      "meaningVi": "cổ tức bình quân đầu người",
+      "pronunciation": "/pər ˈkæpɪtə ˈdɪvɪdɛndz/"
+    },
+    {
+      "phrase": "net progressive",
+      "meaningVi": "lũy tiến ròng (sau khi hoàn tiền, người nghèo hưởng lợi)",
+      "pronunciation": "/nɛt prəˈɡrɛsɪv/"
+    },
+    {
+      "phrase": "distributional outcome",
+      "meaningVi": "kết quả phân phối (ai được, ai mất)",
+      "pronunciation": "/ˌdɪstrɪˈbjuːʃənl ˈaʊtkʌm/"
+    },
+    {
+      "phrase": "green transition",
+      "meaningVi": "quá trình chuyển đổi xanh",
+      "pronunciation": "/ɡriːn trænˈzɪʃən/"
+    },
+    {
+      "phrase": "targeted public investment",
+      "meaningVi": "đầu tư công có mục tiêu",
+      "pronunciation": "/ˈtɑːrɡɪtɪd ˈpʌblɪk ɪnˈvɛstmənt/"
+    },
+    {
+      "phrase": "salience asymmetry",
+      "meaningVi": "sự bất đối xứng về độ nổi bật (chi phí dễ thấy, lợi ích khó thấy)",
+      "pronunciation": "/ˈseɪliəns eɪˈsɪmɪtri/"
+    },
+    {
+      "phrase": "externality-pricing problem",
+      "meaningVi": "vấn đề định giá ngoại tác",
+      "pronunciation": "/ˌɛkstɜːrˈnælɪti ˈpraɪsɪŋ ˈprɒbləm/"
+    },
+    {
+      "phrase": "democratic accountability",
+      "meaningVi": "sự giải trình dân chủ",
+      "pronunciation": "/ˌdɛməˈkrætɪk əˌkaʊntəˈbɪlɪti/"
+    },
+    {
+      "phrase": "grandfathered free permits",
+      "meaningVi": "giấy phép miễn phí cấp theo cơ chế thừa kế",
+      "pronunciation": "/ˈɡrænfɑːðərd friː ˈpɜːrmɪts/"
+    },
+    {
+      "phrase": "sunset clauses",
+      "meaningVi": "điều khoản hết hiệu lực (tự động chấm dứt sau thời hạn)",
+      "pronunciation": "/ˈsʌnsɛt ˈklɔːzɪz/"
+    },
+    {
+      "phrase": "redistributive heart",
+      "meaningVi": "bản chất tái phân phối (trọng tâm)",
+      "pronunciation": "/ˌriːdɪˈstrɪbjətɪv hɑːrt/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Contingent concession: 'I hold that view contingently, because …'",
+      "bodyVi": "Trong tranh luận học thuật ở trình độ cao, người nói thường nêu một quan điểm nhưng đồng thời tự giới hạn nó để thể hiện sự khiêm tốn về nhận thức. Các cụm như 'I hold that view contingently', 'I won't minimise it', 'that's a fair and important caveat' báo hiệu rằng người nói thừa nhận giá trị của lập luận đối lập trước khi phản bác. Cấu trúc này làm cho lập luận đáng tin cậy hơn vì nó cho thấy người nói đã cân nhắc cả hai phía.",
+      "bodyEn": "Sophisticated debate uses hedged or contingent concessions to signal epistemic humility while still arguing a position. Phrases like 'I hold that view contingently, because …', 'I won't minimise it, but …', and 'that's a fair and important caveat' explicitly grant the opponent's point before pivoting. The pattern is: concede + 'but/while/whereas' + counter. It strengthens credibility because it shows you have engaged the strongest version of the other side rather than a straw man."
+    },
+    {
+      "title": "Distinguishing design choices from intrinsic properties: 'a design choice, not an intrinsic property'",
+      "bodyVi": "Một kỹ thuật lập luận mạnh là phân biệt giữa đặc tính cố hữu (luôn đúng với bản chất của sự vật) và lựa chọn thiết kế (có thể thay đổi tùy cách bố trí). Câu 'The distributional outcome is a design choice, not an intrinsic property' bác bỏ giả định rằng thuế carbon nhất thiết phải lũy thoái, bằng cách chỉ ra rằng kết quả phụ thuộc vào cách thiết kế. Đây là cách hiệu quả để mở ra không gian giải pháp.",
+      "bodyEn": "A powerful move in policy argument is to reframe a supposedly fixed feature as a contingent design choice. Saying 'X is a design choice, not an intrinsic property' rebuts the claim that some undesirable outcome is unavoidable. It shifts the debate from 'should we do this at all?' to 'how should we design it?'. The structure 'is a/an X, not a/an Y' is a crisp way to draw the contrast and redirect the conversation toward solvable parameters."
+    }
+  ],
+  "translationVi": "Marcus: Tiến sĩ Naomi, cuộc tranh luận muôn thuở trong kinh tế học khí hậu quy về hai công cụ — một loại thuế carbon ấn định giá và để cho lượng phát thải điều chỉnh, so với hệ thống giới hạn và mua bán ấn định số lượng và để cho giá điều chỉnh. Nếu hôm nay bạn phải thiết kế một cơ chế từ đầu, bạn sẽ neo nó vào cái nào, và tại sao? Naomi: Tôi sẽ nghiêng về thuế carbon, chủ yếu vì khả năng dự đoán giá của nó. Các doanh nghiệp đưa ra các quyết định về vốn dài hạn — xây dựng một nhà máy, loại bỏ một đội xe — và họ cần một tín hiệu ổn định để chiết khấu dựa vào đó. Hệ thống giới hạn và mua bán có thể tạo ra giá giấy phép biến động dữ dội, và sự biến động đó làm suy yếu chính khoản đầu tư mà chúng ta đang cố gắng khuyến khích. Nhưng tôi giữ quan điểm đó một cách có điều kiện, bởi vì sự chắc chắn về số lượng của một mức giới hạn thực sự có giá trị khi bạn có một ngân sách phát thải cứng nhắc phải đạt. Marcus: Sự căng thẳng giữa sự chắc chắn về giá và sự chắc chắn về số lượng đó chính là điểm mấu chốt. Với thuế, bạn biết chi phí giảm thiểu cận biên nhưng không biết kết quả môi trường; với mức giới hạn, bạn biết trần phát thải nhưng không biết chi phí để đạt được điều đó. Vì bầu khí quyển phản ứng với lượng tích lũy chứ không phải giá cả, chẳng phải có một lập luận khoa học khí hậu mạnh mẽ để ưu tiên mức giới hạn sao? Naomi: Có, và đó là lý lẽ mạnh nhất cho hệ thống giới hạn và mua bán. Nhưng sự phân đôi đó phần nào là sai trong thực tế. Một loại thuế được thiết kế tốt có thể tích hợp một sự điều chỉnh tự động — tăng thuế suất nếu lượng phát thải vượt quá một quỹ đạo — và một mức giới hạn được thiết kế tốt có thể tích hợp các khung giá, sàn và trần, để hạn chế sự biến động. Hai công cụ hội tụ một khi bạn gắn thêm đủ các cơ chế điều chỉnh; câu hỏi thú vị là kiến trúc nào bền vững hơn trước sự can thiệp chính trị. Marcus: Tuy nhiên, sự can thiệp chính trị có tác động theo cả hai hướng. Các mức giới hạn dẫn đến việc phân bổ quá mức giấy phép một cách có hệ thống — chúng ta đã thấy chính xác điều đó trong các giai đoạn đầu của Hệ thống Mua bán Phát thải EU, nơi giá sụp đổ xuống gần như bằng không. Nhưng thuế cũng dễ bị tổn thương như vậy; các cơ quan lập pháp tạo ra các miễn trừ cho các ngành có liên hệ chính trị cho đến khi cơ sở thuế đầy lỗ hổng. Naomi: Cả hai chế độ thất bại đều có thật, và tôi cho rằng chúng là triệu chứng của cùng một vấn đề cốt lõi: lợi ích phân tán của việc khử carbon so với chi phí tập trung mà các ngành phát thải phải gánh chịu. Sự bất đối xứng đó tạo ra áp lực vận động hành lang không ngừng bất kể công cụ nào. Đó là lý do tại sao tôi ngày càng nghĩ rằng câu hỏi về độ bền quan trọng hơn so sánh hiệu quả trong sách giáo khoa. Marcus: Hãy nhấn mạnh vào vấn đề rò rỉ, vì đó là nơi sự thanh lịch về mặt lý thuyết có xu hướng sụp đổ. Nếu bạn định giá carbon trong nước nhưng các đối tác thương mại của bạn không làm vậy, thì sản xuất thâm dụng phát thải chỉ đơn giản là chuyển sang các khu vực tài phán không định giá. Bạn đã áp đặt chi phí thực lên ngành công nghiệp của chính mình mà không giảm phát thải toàn cầu chút nào — có thể nói bạn đã làm cho mọi thứ tồi tệ hơn thông qua việc di dời kém hiệu quả. Naomi: Rò rỉ carbon là phản đối nghiêm trọng nhất đối với việc định giá đơn phương, và tôi sẽ không xem nhẹ nó. Nhưng độ lớn thực nghiệm khiêm tốn hơn những gì lời lẽ hùng biện gợi ý. Hầu hết các nghiên cứu đặt tỷ lệ rò rỉ ở đâu đó giữa năm và ba mươi phần trăm, không phải một trăm phần trăm như cách đặt vấn đề tệ nhất ngụ ý. Chi phí năng lượng là một đầu vào trong số nhiều đầu vào, và các doanh nghiệp không di dời chỉ vì giá carbon — họ cân nhắc lao động, hậu cần, sự ổn định pháp lý. Marcus: Tỷ lệ rò rỉ từ năm đến ba mươi phần trăm vẫn là một sự pha loãng đáng kể hiệu quả của chính sách, và nó tập trung chính xác vào các ngành chịu tác động thương mại, thâm dụng năng lượng — thép, xi măng, nhôm, hóa chất — vốn khó khử carbon nhất. Đó là những ngành mà liên minh chính trị ủng hộ việc định giá vốn đã mong manh nhất ngay từ đầu. Naomi: Đó chính xác là lý do tại sao các điều chỉnh carbon tại biên giới đã chuyển từ vùng ngoại vi học thuật sang chính sách thực tế. Logic rất đơn giản: bạn đánh một khoản phí lên hàng nhập khẩu tương đương với giá carbon trong nước, và bạn hoàn lại cho hàng xuất khẩu, để các nhà sản xuất trong nước không bị bất lợi ở cả hai thị trường. Cơ chế Điều chỉnh Carbon tại Biên giới của EU là nỗ lực nghiêm túc đầu tiên để vận hành hóa điều này ở quy mô lớn. Marcus: Nhưng các điều chỉnh tại biên giới đáng sợ về mặt hành chính và bấp bênh về mặt pháp lý. Bạn phải đo lường lượng carbon hàm chứa trong mọi hàng hóa nhập khẩu, vốn là một cơn ác mộng kế toán đối với các chuỗi cung ứng phức tạp, và bạn ngay lập tức gặp phải câu hỏi liệu nó có tương thích với WTO hay chỉ là chủ nghĩa bảo hộ khoác áo xanh. Các đối tác thương mại kêu gào phản đối, và bạn có nguy cơ rơi vào một vòng xoáy thương mại trả đũa. Naomi: Các câu hỏi pháp lý là có thật nhưng không phải là không thể vượt qua. GATT từ lâu đã công nhận các ngoại lệ đối với các biện pháp cần thiết để bảo vệ tài nguyên thiên nhiên có thể cạn kiệt, và một sự điều chỉnh không phân biệt đối xử được áp dụng đối xứng cho các nhà sản xuất trong nước và nước ngoài có một cơ sở lý luận có thể bảo vệ được. Gánh nặng hành chính là có thật, nhưng bạn có thể bắt đầu với các giá trị cường độ carbon mặc định theo từng ngành và để các nhà nhập khẩu chứng minh cường độ thấp hơn để đủ điều kiện hưởng mức phí thấp hơn. Marcus: Ngay cả khi chấp nhận điều chỉnh tại biên giới, chúng ta vẫn chưa đụng đến khía cạnh công bằng, vốn là nơi định giá carbon có xu hướng thua tại hòm phiếu. Thuế carbon mang tính lũy thoái về bề mặt — các hộ gia đình thu nhập thấp chi một tỷ trọng lớn hơn thu nhập cho năng lượng và nhiên liệu, nên một mức giá đồng đều trên mỗi tấn tác động đến họ một cách không tương xứng. Phong trào áo vàng ở Pháp là một bài học sống động về những gì xảy ra khi bạn phớt lờ điều đó. Naomi: Tính lũy thoái là có thật trước khi tái phân phối nguồn thu, nhưng nó gần như hoàn toàn phụ thuộc vào việc bạn làm gì với khoản tiền thu được. Nếu bạn trả lại nguồn thu dưới dạng cổ tức bình quân đầu người bằng nhau — một cơ chế phí carbon và cổ tức — chính sách trở nên lũy tiến ròng, bởi vì các hộ gia đình thu nhập thấp tiêu thụ ít carbon hơn về mặt tuyệt đối nên nhận được nhiều cổ tức hơn số thuế họ trả. Kết quả phân phối là một lựa chọn thiết kế, không phải một thuộc tính cố hữu. Marcus: Cơ chế phí và cổ tức rất thanh lịch, nhưng nó từ bỏ nguồn thu mà lẽ ra bạn có thể dùng để tài trợ cho quá trình chuyển đổi xanh — để trợ cấp cho hạ tầng lưới điện, cải tạo tiết kiệm năng lượng, giao thông công cộng. Có một sự đánh đổi thực sự giữa công bằng phân phối, đạt được thông qua cổ tức, và đẩy nhanh việc khử carbon, đạt được thông qua đầu tư công có mục tiêu. Bạn không thể tiêu cùng một đồng đô la hai lần. Naomi: Bạn không thể, và câu hỏi về phân bổ đó là nơi kinh tế chính trị thực sự tồn tại. Trực giác của tôi là con đường cổ tức mua cho bạn độ bền — nó tạo ra một nhóm cử tri hưởng lợi sẽ bảo vệ chính sách — trong khi việc dành riêng nguồn thu cho đầu tư hiệu quả hơn trên giấy tờ nhưng giòn về mặt chính trị, bởi vì công chúng hiếm khi liên kết khoản chi trừu tượng với khoản thuế họ đang trả. Khả năng nhìn thấy được của khoản hoàn tiền đang đóng vai trò to lớn. Marcus: Điều đó chỉ ra một điều ít được đánh giá đúng mức: sự bất đối xứng về độ nổi bật. Chi phí của một mức giá carbon tập trung và hữu hình tại trạm xăng hoặc trên hóa đơn tiện ích, trong khi lợi ích thì phân tán, chậm trễ và phản thực tế — bạn không bao giờ thấy được sự nóng lên mà bạn đã tránh được. Bất kỳ cơ chế bền vững nào cũng phải chủ động chống lại sự mất cân bằng nhận thức đó, nếu không nó sẽ bị bãi bỏ ngay khi suy thoái kinh tế đầu tiên xảy ra. Naomi: Chính xác, và đó là lý lẽ để thiết kế công cụ sao cho dễ hiểu nhất có thể đối với người dân thường. Một tờ séc cổ tức gửi đến với tên bạn trên đó thì nổi bật theo một cách mà một lưới điện sạch hơn chút ít sau hai thập kỷ nữa đơn giản là không có được. Chúng ta không chỉ giải quyết một vấn đề định giá ngoại tác; chúng ta đang giải quyết một vấn đề về tính bền vững chính trị dưới sự giải trình dân chủ. Marcus: Vậy nếu tôi tổng hợp lập trường của bạn: một loại thuế carbon vì khả năng dự đoán giá, với một sự điều chỉnh số lượng tự động để giải quyết mối lo ngại về phát thải tích lũy, một điều chỉnh tại biên giới để trung hòa rò rỉ, và một khoản cổ tức bình quân đầu người để xử lý công bằng và xây dựng một nhóm cử tri bền vững. Đó là một gói mạch lạc, nhưng nó cũng có nhiều bộ phận chuyển động, mỗi bộ phận là một cuộc chiến chính trị riêng biệt. Naomi: Đúng vậy, và tôi sẽ là người đầu tiên thừa nhận rằng một cơ chế hoàn hảo không bao giờ được thông qua có giá trị thấp hơn một cơ chế không hoàn hảo nhưng được thông qua. Nếu cửa sổ chính trị chỉ cho phép một mức giới hạn khiêm tốn với các khung giá rộng rãi và phân bổ miễn phí cho các ngành chịu tác động thương mại, tôi sẽ chọn điều đó hơn là một loại thuế tối ưu đẹp đẽ nhưng chết tại ủy ban. Nghệ thuật nằm ở việc sắp xếp thứ tự — bắt đầu với điều gì đó có thể tồn tại, rồi siết chặt tham vọng khi nhóm cử tri được củng cố. Marcus: Logic siết chặt từng nấc hấp dẫn, nhưng nó giả định rằng phiên bản yếu ban đầu không củng cố các lợi ích mà sau đó chặn việc thắt chặt. Ví dụ, các giấy phép miễn phí được cấp theo cơ chế thừa kế trở thành một quyền tài sản mà người nhận đấu tranh quyết liệt để bảo vệ. Bạn có thể khóa chặt một trạng thái cân bằng tham vọng thấp khó thoát ra hơn so với khi bạn bắt đầu từ con số không. Naomi: Đó là rủi ro bị khóa chặt, và đó là lý do tại sao thiết kế con đường chuyển tiếp quan trọng không kém điểm đến cuối cùng. Bạn muốn có các điều khoản hết hiệu lực về phân bổ miễn phí, các lịch trình thắt chặt được lập pháp trước, và lý tưởng nhất là một cơ quan độc lập được tách biệt khỏi chu kỳ chính trị hàng năm điều chỉnh các tham số dựa trên một quỹ đạo đã tuyên bố — điều gì đó tương tự như cách các ngân hàng trung ương độc lập được trao một nhiệm vụ rồi để họ tự theo đuổi. Marcus: Phép loại suy cơ quan độc lập rất hấp dẫn, nhưng chính sách khí hậu có một trung tâm tái phân phối theo cách mà chính sách tiền tệ không có, điều này làm cho việc ủy thác nó cho các nhà kỹ trị trở nên nan giải về mặt dân chủ. Quyết định ai gánh chịu chi phí khử carbon là một câu hỏi mang tính chính trị cố hữu, và việc giao nó cho một cơ quan không được bầu cử có thể không chính danh theo cùng một cách. Naomi: Đó là một lưu ý công bằng và quan trọng. Tôi sẽ phân biệt mục tiêu với công cụ: cơ quan lập pháp đặt ra quỹ đạo phát thải và nguyên tắc phân phối — đó là lựa chọn chính trị, tái phân phối — trong khi cơ quan độc lập chỉ hiệu chỉnh mức giá hoặc giới hạn để đạt được mục tiêu được chọn một cách dân chủ đó. Ủy thác cái cách trong khi dành cái gì cho các đại diện được bầu giữ gìn tính chính danh mà không hy sinh hiệu quả cho áp lực bầu cử ngắn hạn. Marcus: Về sự phân biệt đó tôi nghĩ chúng ta có thể hội tụ — địa hình tranh chấp không thực sự là thuế so với mức giới hạn một cách trừu tượng, mà là liệu bất kỳ kiến trúc định giá nào có thể được tách biệt đủ để bền vững trong khi vẫn đủ chính danh để mang tính dân chủ hay không. Nếu làm sai sự cân bằng đó thì công cụ thông minh nhất trên thế giới cũng chỉ là một chính sách chờ bị bãi bỏ.",
+  "criticalThinkingQuestion": "If a carbon-pricing mechanism's long-run effectiveness depends on surviving electoral cycles, downturns, and concentrated industry lobbying, should designers prioritise the textbook-efficient instrument or the politically durable one — and is a per-capita dividend that builds a defending constituency worth sacrificing the public investment that revenue could otherwise fund?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-c1-051",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 591384
+}

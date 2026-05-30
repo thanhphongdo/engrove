@@ -1,0 +1,524 @@
+{
+  "id": "speaking-b1-064",
+  "level": "B1",
+  "title": "Handling a Hotel Booking Problem",
+  "summary": "A guest named Olivia arrives at a hotel only to find that the receptionist, Marcus, cannot locate her reservation, and together they work to resolve the problem.",
+  "topic": "Travel and dealing with problems",
+  "tags": [
+    "Travel",
+    "Hotels",
+    "Problem Solving"
+  ],
+  "characters": [
+    "Olivia",
+    "Marcus"
+  ],
+  "voices": {
+    "Olivia": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-EmmaNeural"
+    },
+    "Marcus": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-AndrewNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Olivia",
+      "text": "Good evening. I have a reservation under the name Olivia Bennett for two nights."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "Good evening. Let me check that for you. Could you spell the last name, please?"
+    },
+    {
+      "speaker": "Olivia",
+      "text": "Of course. It's B-E-N-N-E-T-T, Bennett."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "Hmm, I'm afraid I can't find a booking under that name in our system."
+    },
+    {
+      "speaker": "Olivia",
+      "text": "That can't be right. I booked it online three weeks ago and received a confirmation email."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "I understand your concern. Would you mind showing me that confirmation?"
+    },
+    {
+      "speaker": "Olivia",
+      "text": "Sure, here it is on my phone. You can see the booking reference at the top."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "Thank you. Ah, I see the problem — this reservation is for our sister hotel across town."
+    },
+    {
+      "speaker": "Olivia",
+      "text": "Oh, you're joking. The websites looked almost identical, so I must have booked the wrong one."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "It happens more often than you'd think. Don't worry, we'll sort this out for you."
+    },
+    {
+      "speaker": "Olivia",
+      "text": "I really appreciate that. I'm exhausted and I'd hate to travel across town now."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "Let me check our availability. Actually, we have a room free at the same rate you paid."
+    },
+    {
+      "speaker": "Olivia",
+      "text": "That's a huge relief. But what about the booking I already paid for at the other hotel?"
+    },
+    {
+      "speaker": "Marcus",
+      "text": "I'll call them now and ask them to cancel it and refund you, since it's clearly a mix-up."
+    },
+    {
+      "speaker": "Olivia",
+      "text": "You've been incredibly helpful. I was expecting this to be a real headache."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "Not at all. Here's your key card, room 304. I hope the rest of your stay is smooth."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Olivia",
+      "text": "Good evening.",
+      "translationVi": "Chào buổi tối.",
+      "durationMs": 1176
+    },
+    {
+      "id": "s2",
+      "speaker": "Olivia",
+      "text": "I have a reservation under the name Olivia Bennett for two nights.",
+      "translationVi": "Tôi có một đặt phòng dưới tên Olivia Bennett cho hai đêm.",
+      "durationMs": 4008
+    },
+    {
+      "id": "s3",
+      "speaker": "Marcus",
+      "text": "Good evening.",
+      "translationVi": "Chào buổi tối.",
+      "durationMs": 936
+    },
+    {
+      "id": "s4",
+      "speaker": "Marcus",
+      "text": "Let me check that for you.",
+      "translationVi": "Để tôi kiểm tra điều đó cho bạn.",
+      "durationMs": 1392
+    },
+    {
+      "id": "s5",
+      "speaker": "Marcus",
+      "text": "Could you spell the last name, please?",
+      "translationVi": "Bạn có thể đánh vần họ giúp tôi được không?",
+      "durationMs": 2280
+    },
+    {
+      "id": "s6",
+      "speaker": "Olivia",
+      "text": "Of course.",
+      "translationVi": "Tất nhiên rồi.",
+      "durationMs": 984
+    },
+    {
+      "id": "s7",
+      "speaker": "Olivia",
+      "text": "It's B-E-N-N-E-T-T, Bennett.",
+      "translationVi": "Là B-E-N-N-E-T-T, Bennett.",
+      "durationMs": 1632
+    },
+    {
+      "id": "s8",
+      "speaker": "Marcus",
+      "text": "Hmm, I'm afraid I can't find a booking under that name in our system.",
+      "translationVi": "Hừm, tôi e rằng tôi không tìm thấy đặt phòng nào dưới tên đó trong hệ thống của chúng tôi.",
+      "durationMs": 3912
+    },
+    {
+      "id": "s9",
+      "speaker": "Olivia",
+      "text": "That can't be right.",
+      "translationVi": "Điều đó không thể đúng được.",
+      "durationMs": 1560
+    },
+    {
+      "id": "s10",
+      "speaker": "Olivia",
+      "text": "I booked it online three weeks ago and received a confirmation email.",
+      "translationVi": "Tôi đã đặt nó trực tuyến cách đây ba tuần và nhận được email xác nhận.",
+      "durationMs": 4152
+    },
+    {
+      "id": "s11",
+      "speaker": "Marcus",
+      "text": "I understand your concern.",
+      "translationVi": "Tôi hiểu mối lo ngại của bạn.",
+      "durationMs": 1680
+    },
+    {
+      "id": "s12",
+      "speaker": "Marcus",
+      "text": "Would you mind showing me that confirmation?",
+      "translationVi": "Bạn có phiền cho tôi xem xác nhận đó không?",
+      "durationMs": 2184
+    },
+    {
+      "id": "s13",
+      "speaker": "Olivia",
+      "text": "Sure, here it is on my phone.",
+      "translationVi": "Chắc chắn rồi, nó ở đây trên điện thoại của tôi.",
+      "durationMs": 2184
+    },
+    {
+      "id": "s14",
+      "speaker": "Olivia",
+      "text": "You can see the booking reference at the top.",
+      "translationVi": "Bạn có thể thấy mã đặt phòng ở phía trên cùng.",
+      "durationMs": 2664
+    },
+    {
+      "id": "s15",
+      "speaker": "Marcus",
+      "text": "Thank you.",
+      "translationVi": "Cảm ơn bạn.",
+      "durationMs": 816
+    },
+    {
+      "id": "s16",
+      "speaker": "Marcus",
+      "text": "Ah, I see the problem — this reservation is for our sister hotel across town.",
+      "translationVi": "À, tôi thấy vấn đề rồi — đặt phòng này là cho khách sạn cùng hệ thống của chúng tôi ở bên kia thành phố.",
+      "durationMs": 4896
+    },
+    {
+      "id": "s17",
+      "speaker": "Olivia",
+      "text": "Oh, you're joking.",
+      "translationVi": "Ôi, bạn đùa à.",
+      "durationMs": 1344
+    },
+    {
+      "id": "s18",
+      "speaker": "Olivia",
+      "text": "The websites looked almost identical, so I must have booked the wrong one.",
+      "translationVi": "Các trang web trông gần như giống hệt nhau, nên chắc hẳn tôi đã đặt nhầm cái.",
+      "durationMs": 4032
+    },
+    {
+      "id": "s19",
+      "speaker": "Marcus",
+      "text": "It happens more often than you'd think.",
+      "translationVi": "Chuyện này xảy ra thường xuyên hơn bạn nghĩ đấy.",
+      "durationMs": 2352
+    },
+    {
+      "id": "s20",
+      "speaker": "Marcus",
+      "text": "Don't worry, we'll sort this out for you.",
+      "translationVi": "Đừng lo, chúng tôi sẽ giải quyết việc này cho bạn.",
+      "durationMs": 2400
+    },
+    {
+      "id": "s21",
+      "speaker": "Olivia",
+      "text": "I really appreciate that.",
+      "translationVi": "Tôi thực sự cảm kích điều đó.",
+      "durationMs": 1848
+    },
+    {
+      "id": "s22",
+      "speaker": "Olivia",
+      "text": "I'm exhausted and I'd hate to travel across town now.",
+      "translationVi": "Tôi kiệt sức rồi và tôi rất ngại phải đi qua bên kia thành phố lúc này.",
+      "durationMs": 3360
+    },
+    {
+      "id": "s23",
+      "speaker": "Marcus",
+      "text": "Let me check our availability.",
+      "translationVi": "Để tôi kiểm tra phòng còn trống của chúng tôi.",
+      "durationMs": 1752
+    },
+    {
+      "id": "s24",
+      "speaker": "Marcus",
+      "text": "Actually, we have a room free at the same rate you paid.",
+      "translationVi": "Thực ra, chúng tôi có một phòng trống với cùng mức giá bạn đã trả.",
+      "durationMs": 3288
+    },
+    {
+      "id": "s25",
+      "speaker": "Olivia",
+      "text": "That's a huge relief.",
+      "translationVi": "Đó là một sự nhẹ nhõm lớn.",
+      "durationMs": 1656
+    },
+    {
+      "id": "s26",
+      "speaker": "Olivia",
+      "text": "But what about the booking I already paid for at the other hotel?",
+      "translationVi": "Nhưng còn đặt phòng mà tôi đã trả tiền ở khách sạn kia thì sao?",
+      "durationMs": 3624
+    },
+    {
+      "id": "s27",
+      "speaker": "Marcus",
+      "text": "I'll call them now and ask them to cancel it and refund you, since it's clearly a mix-up.",
+      "translationVi": "Tôi sẽ gọi cho họ ngay bây giờ và yêu cầu họ hủy nó và hoàn tiền cho bạn, vì rõ ràng đây là một sự nhầm lẫn.",
+      "durationMs": 5280
+    },
+    {
+      "id": "s28",
+      "speaker": "Olivia",
+      "text": "You've been incredibly helpful.",
+      "translationVi": "Bạn đã giúp đỡ vô cùng tận tình.",
+      "durationMs": 2088
+    },
+    {
+      "id": "s29",
+      "speaker": "Olivia",
+      "text": "I was expecting this to be a real headache.",
+      "translationVi": "Tôi đã tưởng việc này sẽ là một chuyện đau đầu thực sự.",
+      "durationMs": 2688
+    },
+    {
+      "id": "s30",
+      "speaker": "Marcus",
+      "text": "Not at all.",
+      "translationVi": "Không có gì đâu.",
+      "durationMs": 936
+    },
+    {
+      "id": "s31",
+      "speaker": "Marcus",
+      "text": "Here's your key card, room 304.",
+      "translationVi": "Đây là thẻ chìa khóa của bạn, phòng 304.",
+      "durationMs": 2808
+    },
+    {
+      "id": "s32",
+      "speaker": "Marcus",
+      "text": "I hope the rest of your stay is smooth.",
+      "translationVi": "Tôi hy vọng phần còn lại của kỳ nghỉ của bạn sẽ suôn sẻ.",
+      "durationMs": 2112
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "I have a reservation under the name … for …"
+    },
+    {
+      "id": "h2",
+      "text": "I'm afraid I can't find a booking under …"
+    },
+    {
+      "id": "h3",
+      "text": "Don't worry, we'll sort this out by …"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "reservation",
+      "meaningVi": "việc đặt chỗ, đặt phòng",
+      "pronunciation": "/ˌrɛzərˈveɪʃən/"
+    },
+    {
+      "id": "v2",
+      "phrase": "confirmation email",
+      "meaningVi": "email xác nhận",
+      "pronunciation": "/ˌkɑːnfərˈmeɪʃən ˈiːmeɪl/"
+    },
+    {
+      "id": "v3",
+      "phrase": "booking reference",
+      "meaningVi": "mã đặt phòng",
+      "pronunciation": "/ˈbʊkɪŋ ˈrɛfrəns/"
+    },
+    {
+      "id": "v4",
+      "phrase": "sort this out",
+      "meaningVi": "giải quyết việc này",
+      "pronunciation": "/sɔːrt ðɪs aʊt/"
+    },
+    {
+      "id": "v5",
+      "phrase": "mix-up",
+      "meaningVi": "sự nhầm lẫn, lộn xộn",
+      "pronunciation": "/ˈmɪks ʌp/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "I have a reservation under the name",
+      "meaningVi": "Tôi có một đặt phòng dưới tên",
+      "pronunciation": "/aɪ hæv ə ˌrɛzərˈveɪʃən ˈʌndər ðə neɪm/",
+      "exampleEn": "I have a reservation under the name Olivia Bennett for two nights."
+    },
+    {
+      "phrase": "Let me check that for you",
+      "meaningVi": "Để tôi kiểm tra điều đó cho bạn",
+      "pronunciation": "/lɛt miː tʃɛk ðæt fɔːr juː/",
+      "exampleEn": "Let me check that for you."
+    },
+    {
+      "phrase": "spell the last name",
+      "meaningVi": "đánh vần họ",
+      "pronunciation": "/spɛl ðə læst neɪm/",
+      "exampleEn": "Could you spell the last name, please?"
+    },
+    {
+      "phrase": "I'm afraid I can't find",
+      "meaningVi": "tôi e rằng tôi không thể tìm thấy",
+      "pronunciation": "/aɪm əˈfreɪd aɪ kænt faɪnd/",
+      "exampleEn": "I'm afraid I can't find a booking under that name in our system."
+    },
+    {
+      "phrase": "in our system",
+      "meaningVi": "trong hệ thống của chúng tôi",
+      "pronunciation": "/ɪn ˈaʊər ˈsɪstəm/",
+      "exampleEn": "I can't find a booking under that name in our system."
+    },
+    {
+      "phrase": "That can't be right",
+      "meaningVi": "Điều đó không thể đúng được",
+      "pronunciation": "/ðæt kænt biː raɪt/",
+      "exampleEn": "That can't be right."
+    },
+    {
+      "phrase": "confirmation email",
+      "meaningVi": "email xác nhận",
+      "pronunciation": "/ˌkɑːnfərˈmeɪʃən ˈiːmeɪl/",
+      "exampleEn": "I booked it online three weeks ago and received a confirmation email."
+    },
+    {
+      "phrase": "I understand your concern",
+      "meaningVi": "Tôi hiểu mối lo ngại của bạn",
+      "pronunciation": "/aɪ ˌʌndərˈstænd jɔːr kənˈsɜːrn/",
+      "exampleEn": "I understand your concern."
+    },
+    {
+      "phrase": "Would you mind showing me",
+      "meaningVi": "Bạn có phiền cho tôi xem",
+      "pronunciation": "/wʊd juː maɪnd ˈʃoʊɪŋ miː/",
+      "exampleEn": "Would you mind showing me that confirmation?"
+    },
+    {
+      "phrase": "booking reference",
+      "meaningVi": "mã đặt phòng",
+      "pronunciation": "/ˈbʊkɪŋ ˈrɛfrəns/",
+      "exampleEn": "You can see the booking reference at the top."
+    },
+    {
+      "phrase": "I see the problem",
+      "meaningVi": "Tôi thấy vấn đề rồi",
+      "pronunciation": "/aɪ siː ðə ˈprɑːbləm/",
+      "exampleEn": "Ah, I see the problem — this reservation is for our sister hotel across town."
+    },
+    {
+      "phrase": "sister hotel",
+      "meaningVi": "khách sạn cùng hệ thống/chuỗi",
+      "pronunciation": "/ˈsɪstər hoʊˈtɛl/",
+      "exampleEn": "This reservation is for our sister hotel across town."
+    },
+    {
+      "phrase": "almost identical",
+      "meaningVi": "gần như giống hệt nhau",
+      "pronunciation": "/ˈɔːlmoʊst aɪˈdɛntɪkəl/",
+      "exampleEn": "The websites looked almost identical, so I must have booked the wrong one."
+    },
+    {
+      "phrase": "I must have booked the wrong one",
+      "meaningVi": "chắc hẳn tôi đã đặt nhầm cái",
+      "pronunciation": "/aɪ mʌst hæv bʊkt ðə rɔːŋ wʌn/",
+      "exampleEn": "I must have booked the wrong one."
+    },
+    {
+      "phrase": "more often than you'd think",
+      "meaningVi": "thường xuyên hơn bạn nghĩ",
+      "pronunciation": "/mɔːr ˈɔːfən ðæn juːd θɪŋk/",
+      "exampleEn": "It happens more often than you'd think."
+    },
+    {
+      "phrase": "sort this out",
+      "meaningVi": "giải quyết việc này",
+      "pronunciation": "/sɔːrt ðɪs aʊt/",
+      "exampleEn": "Don't worry, we'll sort this out for you."
+    },
+    {
+      "phrase": "check our availability",
+      "meaningVi": "kiểm tra phòng còn trống",
+      "pronunciation": "/tʃɛk ˈaʊər əˌveɪləˈbɪləti/",
+      "exampleEn": "Let me check our availability."
+    },
+    {
+      "phrase": "at the same rate",
+      "meaningVi": "với cùng mức giá",
+      "pronunciation": "/æt ðə seɪm reɪt/",
+      "exampleEn": "We have a room free at the same rate you paid."
+    },
+    {
+      "phrase": "a huge relief",
+      "meaningVi": "một sự nhẹ nhõm lớn",
+      "pronunciation": "/ə hjuːdʒ rɪˈliːf/",
+      "exampleEn": "That's a huge relief."
+    },
+    {
+      "phrase": "cancel it and refund you",
+      "meaningVi": "hủy nó và hoàn tiền cho bạn",
+      "pronunciation": "/ˈkænsəl ɪt ænd ˈriːfʌnd juː/",
+      "exampleEn": "I'll ask them to cancel it and refund you, since it's clearly a mix-up."
+    },
+    {
+      "phrase": "a real headache",
+      "meaningVi": "một chuyện đau đầu thực sự, rắc rối lớn",
+      "pronunciation": "/ə riːl ˈhɛdeɪk/",
+      "exampleEn": "I was expecting this to be a real headache."
+    },
+    {
+      "phrase": "key card",
+      "meaningVi": "thẻ chìa khóa phòng",
+      "pronunciation": "/kiː kɑːrd/",
+      "exampleEn": "Here's your key card, room 304."
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Modal of deduction: 'must have + past participle'",
+      "bodyVi": "Dùng 'must have + quá khứ phân từ' để đưa ra suy luận chắc chắn về quá khứ. Ví dụ: 'I must have booked the wrong one' — người nói gần như chắc chắn rằng mình đã đặt nhầm dựa trên bằng chứng.",
+      "bodyEn": "Use 'must have + past participle' to make a confident deduction about the past. Example: 'I must have booked the wrong one' — the speaker is almost certain, based on the evidence, that she booked the wrong hotel."
+    },
+    {
+      "title": "Polite requests: 'Could you …?' and 'Would you mind …?'",
+      "bodyVi": "Dùng 'Could you + động từ nguyên thể' và 'Would you mind + động từ thêm -ing' để yêu cầu một cách lịch sự. Ví dụ: 'Could you spell the last name?' và 'Would you mind showing me that confirmation?'.",
+      "bodyEn": "Use 'Could you + base verb' and 'Would you mind + verb-ing' to make polite requests. Examples: 'Could you spell the last name?' and 'Would you mind showing me that confirmation?'."
+    }
+  ],
+  "translationVi": "Olivia: Chào buổi tối. Tôi có một đặt phòng dưới tên Olivia Bennett cho hai đêm. Marcus: Chào buổi tối. Để tôi kiểm tra điều đó cho bạn. Bạn có thể đánh vần họ giúp tôi được không? Olivia: Tất nhiên rồi. Là B-E-N-N-E-T-T, Bennett. Marcus: Hừm, tôi e rằng tôi không tìm thấy đặt phòng nào dưới tên đó trong hệ thống của chúng tôi. Olivia: Điều đó không thể đúng được. Tôi đã đặt nó trực tuyến cách đây ba tuần và nhận được email xác nhận. Marcus: Tôi hiểu mối lo ngại của bạn. Bạn có phiền cho tôi xem xác nhận đó không? Olivia: Chắc chắn rồi, nó ở đây trên điện thoại của tôi. Bạn có thể thấy mã đặt phòng ở phía trên cùng. Marcus: Cảm ơn bạn. À, tôi thấy vấn đề rồi — đặt phòng này là cho khách sạn cùng hệ thống của chúng tôi ở bên kia thành phố. Olivia: Ôi, bạn đùa à. Các trang web trông gần như giống hệt nhau, nên chắc hẳn tôi đã đặt nhầm cái. Marcus: Chuyện này xảy ra thường xuyên hơn bạn nghĩ đấy. Đừng lo, chúng tôi sẽ giải quyết việc này cho bạn. Olivia: Tôi thực sự cảm kích điều đó. Tôi kiệt sức rồi và tôi rất ngại phải đi qua bên kia thành phố lúc này. Marcus: Để tôi kiểm tra phòng còn trống của chúng tôi. Thực ra, chúng tôi có một phòng trống với cùng mức giá bạn đã trả. Olivia: Đó là một sự nhẹ nhõm lớn. Nhưng còn đặt phòng mà tôi đã trả tiền ở khách sạn kia thì sao? Marcus: Tôi sẽ gọi cho họ ngay bây giờ và yêu cầu họ hủy nó và hoàn tiền cho bạn, vì rõ ràng đây là một sự nhầm lẫn. Olivia: Bạn đã giúp đỡ vô cùng tận tình. Tôi đã tưởng việc này sẽ là một chuyện đau đầu thực sự. Marcus: Không có gì đâu. Đây là thẻ chìa khóa của bạn, phòng 304. Tôi hy vọng phần còn lại của kỳ nghỉ của bạn sẽ suôn sẻ.",
+  "criticalThinkingQuestion": "When something goes wrong while you are travelling, what is the best way to respond so that the problem gets solved quickly without anyone becoming upset?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-b1-064",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 78024
+}

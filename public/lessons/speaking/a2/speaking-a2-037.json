@@ -1,0 +1,424 @@
+{
+  "id": "speaking-a2-037",
+  "level": "A2",
+  "title": "Booking a Taxi",
+  "summary": "Mia phones a taxi company and gives the operator, Lucas, her pickup address, the time, and her destination.",
+  "topic": "Transport and phone calls",
+  "tags": [
+    "Taxi",
+    "Phone call",
+    "Booking"
+  ],
+  "characters": [
+    "Mia",
+    "Lucas"
+  ],
+  "voices": {
+    "Mia": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-MichelleNeural"
+    },
+    "Lucas": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-EricNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Lucas",
+      "text": "City Cabs, good morning. How can I help you?"
+    },
+    {
+      "speaker": "Mia",
+      "text": "Hi, I'd like to book a taxi, please."
+    },
+    {
+      "speaker": "Lucas",
+      "text": "Of course. Where would you like to be picked up?"
+    },
+    {
+      "speaker": "Mia",
+      "text": "From 25 Maple Street, near the train station."
+    },
+    {
+      "speaker": "Lucas",
+      "text": "Got it. And what time do you need the taxi?"
+    },
+    {
+      "speaker": "Mia",
+      "text": "At half past nine this morning, if possible."
+    },
+    {
+      "speaker": "Lucas",
+      "text": "That's fine. Where are you heading to?"
+    },
+    {
+      "speaker": "Mia",
+      "text": "To the airport, Terminal Two."
+    },
+    {
+      "speaker": "Lucas",
+      "text": "No problem. Can I take your name and phone number?"
+    },
+    {
+      "speaker": "Mia",
+      "text": "Sure. It's Mia Carter, and my number is 555 0142."
+    },
+    {
+      "speaker": "Lucas",
+      "text": "Thank you. The driver will be there at nine thirty in a blue sedan."
+    },
+    {
+      "speaker": "Mia",
+      "text": "Perfect. How much will it cost roughly?"
+    },
+    {
+      "speaker": "Lucas",
+      "text": "It's about thirty dollars to the airport. You can pay by card or cash."
+    },
+    {
+      "speaker": "Mia",
+      "text": "Great. Thank you very much for your help."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Lucas",
+      "text": "City Cabs, good morning.",
+      "translationVi": "City Cabs xin chào, chào buổi sáng.",
+      "durationMs": 2832
+    },
+    {
+      "id": "s2",
+      "speaker": "Lucas",
+      "text": "How can I help you?",
+      "translationVi": "Tôi có thể giúp gì cho bạn?",
+      "durationMs": 1896
+    },
+    {
+      "id": "s3",
+      "speaker": "Mia",
+      "text": "Hi, I'd like to book a taxi, please.",
+      "translationVi": "Chào, tôi muốn đặt một chiếc taxi.",
+      "durationMs": 3552
+    },
+    {
+      "id": "s4",
+      "speaker": "Lucas",
+      "text": "Of course.",
+      "translationVi": "Tất nhiên rồi.",
+      "durationMs": 1752
+    },
+    {
+      "id": "s5",
+      "speaker": "Lucas",
+      "text": "Where would you like to be picked up?",
+      "translationVi": "Bạn muốn được đón ở đâu?",
+      "durationMs": 2496
+    },
+    {
+      "id": "s6",
+      "speaker": "Mia",
+      "text": "From 25 Maple Street, near the train station.",
+      "translationVi": "Từ số 25 đường Maple, gần ga tàu.",
+      "durationMs": 4008
+    },
+    {
+      "id": "s7",
+      "speaker": "Lucas",
+      "text": "Got it.",
+      "translationVi": "Hiểu rồi.",
+      "durationMs": 1464
+    },
+    {
+      "id": "s8",
+      "speaker": "Lucas",
+      "text": "And what time do you need the taxi?",
+      "translationVi": "Và bạn cần taxi vào lúc mấy giờ?",
+      "durationMs": 2688
+    },
+    {
+      "id": "s9",
+      "speaker": "Mia",
+      "text": "At half past nine this morning, if possible.",
+      "translationVi": "Vào lúc chín giờ rưỡi sáng nay, nếu được.",
+      "durationMs": 3648
+    },
+    {
+      "id": "s10",
+      "speaker": "Lucas",
+      "text": "That's fine.",
+      "translationVi": "Được thôi.",
+      "durationMs": 1752
+    },
+    {
+      "id": "s11",
+      "speaker": "Lucas",
+      "text": "Where are you heading to?",
+      "translationVi": "Bạn đi đến đâu?",
+      "durationMs": 1968
+    },
+    {
+      "id": "s12",
+      "speaker": "Mia",
+      "text": "To the airport, Terminal Two.",
+      "translationVi": "Đến sân bay, nhà ga số Hai.",
+      "durationMs": 2784
+    },
+    {
+      "id": "s13",
+      "speaker": "Lucas",
+      "text": "No problem.",
+      "translationVi": "Không vấn đề gì.",
+      "durationMs": 1824
+    },
+    {
+      "id": "s14",
+      "speaker": "Lucas",
+      "text": "Can I take your name and phone number?",
+      "translationVi": "Tôi có thể lấy tên và số điện thoại của bạn không?",
+      "durationMs": 2592
+    },
+    {
+      "id": "s15",
+      "speaker": "Mia",
+      "text": "Sure.",
+      "translationVi": "Được chứ.",
+      "durationMs": 1584
+    },
+    {
+      "id": "s16",
+      "speaker": "Mia",
+      "text": "It's Mia Carter, and my number is 555 0142.",
+      "translationVi": "Là Mia Carter, và số của tôi là 555 0142.",
+      "durationMs": 5424
+    },
+    {
+      "id": "s17",
+      "speaker": "Lucas",
+      "text": "Thank you.",
+      "translationVi": "Cảm ơn bạn.",
+      "durationMs": 1584
+    },
+    {
+      "id": "s18",
+      "speaker": "Lucas",
+      "text": "The driver will be there at nine thirty in a blue sedan.",
+      "translationVi": "Tài xế sẽ có mặt lúc chín giờ ba mươi bằng một chiếc sedan màu xanh.",
+      "durationMs": 4008
+    },
+    {
+      "id": "s19",
+      "speaker": "Mia",
+      "text": "Perfect.",
+      "translationVi": "Hoàn hảo.",
+      "durationMs": 1632
+    },
+    {
+      "id": "s20",
+      "speaker": "Mia",
+      "text": "How much will it cost roughly?",
+      "translationVi": "Khoảng bao nhiêu tiền vậy?",
+      "durationMs": 2448
+    },
+    {
+      "id": "s21",
+      "speaker": "Lucas",
+      "text": "It's about thirty dollars to the airport.",
+      "translationVi": "Khoảng ba mươi đô la để đến sân bay.",
+      "durationMs": 3048
+    },
+    {
+      "id": "s22",
+      "speaker": "Lucas",
+      "text": "You can pay by card or cash.",
+      "translationVi": "Bạn có thể trả bằng thẻ hoặc tiền mặt.",
+      "durationMs": 2976
+    },
+    {
+      "id": "s23",
+      "speaker": "Mia",
+      "text": "Great.",
+      "translationVi": "Tuyệt.",
+      "durationMs": 1488
+    },
+    {
+      "id": "s24",
+      "speaker": "Mia",
+      "text": "Thank you very much for your help.",
+      "translationVi": "Cảm ơn bạn rất nhiều vì đã giúp đỡ.",
+      "durationMs": 2400
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "I'd like to book a …"
+    },
+    {
+      "id": "h2",
+      "text": "What time do you need …?"
+    },
+    {
+      "id": "h3",
+      "text": "How much will it cost …?"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "book",
+      "meaningVi": "đặt (chỗ, vé)",
+      "pronunciation": "/bʊk/"
+    },
+    {
+      "id": "v2",
+      "phrase": "pick up",
+      "meaningVi": "đón",
+      "pronunciation": "/pɪk ʌp/"
+    },
+    {
+      "id": "v3",
+      "phrase": "destination",
+      "meaningVi": "điểm đến",
+      "pronunciation": "/ˌdestɪˈneɪʃən/"
+    },
+    {
+      "id": "v4",
+      "phrase": "driver",
+      "meaningVi": "tài xế",
+      "pronunciation": "/ˈdraɪvər/"
+    },
+    {
+      "id": "v5",
+      "phrase": "pay by card",
+      "meaningVi": "trả bằng thẻ",
+      "pronunciation": "/peɪ baɪ kɑːrd/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "How can I help you",
+      "meaningVi": "tôi có thể giúp gì cho bạn",
+      "pronunciation": "/haʊ kæn aɪ help juː/",
+      "exampleEn": "How can I help you?"
+    },
+    {
+      "phrase": "I'd like to book a taxi",
+      "meaningVi": "tôi muốn đặt một chiếc taxi",
+      "pronunciation": "/aɪd laɪk tə bʊk ə ˈtæksi/",
+      "exampleEn": "Hi, I'd like to book a taxi, please."
+    },
+    {
+      "phrase": "to be picked up",
+      "meaningVi": "được đón",
+      "pronunciation": "/tə biː pɪkt ʌp/",
+      "exampleEn": "Where would you like to be picked up?"
+    },
+    {
+      "phrase": "near the train station",
+      "meaningVi": "gần ga tàu",
+      "pronunciation": "/nɪr ðə treɪn ˈsteɪʃən/",
+      "exampleEn": "From 25 Maple Street, near the train station."
+    },
+    {
+      "phrase": "Got it",
+      "meaningVi": "hiểu rồi",
+      "pronunciation": "/ˈɡɒt ɪt/",
+      "exampleEn": "Got it."
+    },
+    {
+      "phrase": "what time do you need",
+      "meaningVi": "bạn cần vào lúc mấy giờ",
+      "pronunciation": "/wɒt taɪm duː juː niːd/",
+      "exampleEn": "And what time do you need the taxi?"
+    },
+    {
+      "phrase": "half past nine",
+      "meaningVi": "chín giờ rưỡi",
+      "pronunciation": "/hɑːf pæst naɪn/",
+      "exampleEn": "At half past nine this morning, if possible."
+    },
+    {
+      "phrase": "if possible",
+      "meaningVi": "nếu có thể",
+      "pronunciation": "/ɪf ˈpɒsəbəl/",
+      "exampleEn": "At half past nine this morning, if possible."
+    },
+    {
+      "phrase": "Where are you heading to",
+      "meaningVi": "bạn đang đi đến đâu",
+      "pronunciation": "/wer ɑːr juː ˈhedɪŋ tuː/",
+      "exampleEn": "Where are you heading to?"
+    },
+    {
+      "phrase": "to the airport",
+      "meaningVi": "đến sân bay",
+      "pronunciation": "/tə ðə ˈerpɔːrt/",
+      "exampleEn": "To the airport, Terminal Two."
+    },
+    {
+      "phrase": "take your name",
+      "meaningVi": "lấy tên của bạn",
+      "pronunciation": "/teɪk jɔːr neɪm/",
+      "exampleEn": "Can I take your name and phone number?"
+    },
+    {
+      "phrase": "The driver will be there",
+      "meaningVi": "tài xế sẽ có mặt ở đó",
+      "pronunciation": "/ðə ˈdraɪvər wɪl biː ðer/",
+      "exampleEn": "The driver will be there at nine thirty in a blue sedan."
+    },
+    {
+      "phrase": "How much will it cost",
+      "meaningVi": "nó sẽ tốn bao nhiêu",
+      "pronunciation": "/haʊ mʌtʃ wɪl ɪt kɒst/",
+      "exampleEn": "How much will it cost roughly?"
+    },
+    {
+      "phrase": "about thirty dollars",
+      "meaningVi": "khoảng ba mươi đô la",
+      "pronunciation": "/əˈbaʊt ˈθɜːrti ˈdɒlərz/",
+      "exampleEn": "It's about thirty dollars to the airport."
+    },
+    {
+      "phrase": "pay by card or cash",
+      "meaningVi": "trả bằng thẻ hoặc tiền mặt",
+      "pronunciation": "/peɪ baɪ kɑːrd ɔːr kæʃ/",
+      "exampleEn": "You can pay by card or cash."
+    },
+    {
+      "phrase": "Thank you very much for your help",
+      "meaningVi": "cảm ơn bạn rất nhiều vì đã giúp",
+      "pronunciation": "/θæŋk juː ˈveri mʌtʃ fɔːr jɔːr help/",
+      "exampleEn": "Thank you very much for your help."
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Polite intentions with 'I'd like to …'",
+      "bodyVi": "Dùng 'I'd like to + động từ' để nói điều bạn muốn một cách lịch sự, thay vì 'I want'. Ví dụ: 'I'd like to book a taxi, please.'",
+      "bodyEn": "Use 'I'd like to + verb' to say what you want politely, instead of 'I want'. Example: 'I'd like to book a taxi, please.'"
+    },
+    {
+      "title": "Asking for permission with 'Can I …?'",
+      "bodyVi": "Dùng 'Can I + động từ?' để xin phép hoặc đề nghị làm điều gì đó. Ví dụ: 'Can I take your name and phone number?'",
+      "bodyEn": "Use 'Can I + verb?' to ask permission or offer to do something. Example: 'Can I take your name and phone number?'"
+    }
+  ],
+  "translationVi": "Lucas: City Cabs xin chào, chào buổi sáng. Tôi có thể giúp gì cho bạn? Mia: Chào, tôi muốn đặt một chiếc taxi. Lucas: Tất nhiên rồi. Bạn muốn được đón ở đâu? Mia: Từ số 25 đường Maple, gần ga tàu. Lucas: Hiểu rồi. Và bạn cần taxi vào lúc mấy giờ? Mia: Vào lúc chín giờ rưỡi sáng nay, nếu được. Lucas: Được thôi. Bạn đi đến đâu? Mia: Đến sân bay, nhà ga số Hai. Lucas: Không vấn đề gì. Tôi có thể lấy tên và số điện thoại của bạn không? Mia: Được chứ. Là Mia Carter, và số của tôi là 555 0142. Lucas: Cảm ơn bạn. Tài xế sẽ có mặt lúc chín giờ ba mươi bằng một chiếc sedan màu xanh. Mia: Hoàn hảo. Khoảng bao nhiêu tiền vậy? Lucas: Khoảng ba mươi đô la để đến sân bay. Bạn có thể trả bằng thẻ hoặc tiền mặt. Mia: Tuyệt. Cảm ơn bạn rất nhiều vì đã giúp đỡ.",
+  "criticalThinkingQuestion": "What information is most important to give clearly when you book a taxi by phone, and why?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-a2-037",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 61848
+}

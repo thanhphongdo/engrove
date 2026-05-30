@@ -1,0 +1,893 @@
+{
+  "id": "speaking-c1-070",
+  "level": "C1",
+  "title": "Regulating Stablecoins and CBDCs",
+  "summary": "Monetary economist Clara and fintech regulator Theo debate how authorities should govern privately issued stablecoins and central bank digital currencies — weighing the implications for monetary sovereignty, the fraught trade-off between transactional privacy and surveillance, and the systemic-stability risks of tokenised money.",
+  "topic": "Stablecoins and CBDCs",
+  "tags": [
+    "Finance",
+    "Economics",
+    "Policy"
+  ],
+  "characters": [
+    "Clara",
+    "Theo"
+  ],
+  "voices": {
+    "Clara": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-AvaNeural"
+    },
+    "Theo": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-BrianNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Theo",
+      "text": "Clara, regulators have spent the last few years oscillating between treating stablecoins as an existential threat to the monetary order and dismissing them as a marginal curiosity. I'd like to cut through that. In your view, what is the genuinely novel risk that a privately issued, dollar-pegged stablecoin poses that we didn't already face with money-market funds or bank deposits?"
+    },
+    {
+      "speaker": "Clara",
+      "text": "It's a sharp question, and I think the honest answer is that the novelty is less in the instrument than in its composability and reach. Economically, a fiat-backed stablecoin is close to a narrow-bank deposit or a money-market share. What's new is that it lives on programmable, permissionless rails, settles globally in seconds, and can be embedded in any application without a banking relationship — which means its monetary footprint can scale far faster than the regulatory perimeter can adapt."
+    },
+    {
+      "speaker": "Theo",
+      "text": "So the disruption is one of velocity and circumvention rather than of fundamental economic substance. The stablecoin is, in a sense, an old liability in a new wrapper that happens to be very good at slipping past the jurisdictional boundaries our regulatory architecture presupposes."
+    },
+    {
+      "speaker": "Clara",
+      "text": "Exactly, and that's precisely why the monetary-sovereignty concern is more serious than the sceptics allow. When citizens of a country with a fragile currency can hold a dollar stablecoin in a phone wallet, you get de facto dollarisation without any of the deliberate policy choices that historically accompanied it. The domestic central bank loses traction over the monetary transmission mechanism, and it loses it gradually, almost invisibly, until the erosion is well advanced."
+    },
+    {
+      "speaker": "Theo",
+      "text": "That's a compelling framing for emerging markets, but I'd resist generalising it to the major reserve-currency issuers. For the United States, a proliferation of dollar stablecoins arguably entrenches dollar hegemony rather than eroding it. The sovereignty anxiety looks very different depending on whether you issue the anchor currency or merely import it."
+    },
+    {
+      "speaker": "Clara",
+      "text": "That asymmetry is real and underappreciated. For the issuer of the anchor currency, private stablecoins can be an instrument of monetary projection — extending the reach of the dollar through private rails the state didn't have to build. But even there it's double-edged, because the issuer cedes a measure of control over how its currency circulates abroad, and it inherits a contingent liability if a systemically significant issuer fails and the political pressure to backstop it becomes irresistible."
+    },
+    {
+      "speaker": "Theo",
+      "text": "Which brings us squarely to financial stability, because that backstop expectation is the crux. A stablecoin promises redemption at par on demand, which is functionally a deposit promise, but in most current designs it's made without deposit insurance, without a lender of last resort, and frequently without transparent, high-quality reserves. That is a textbook recipe for a run."
+    },
+    {
+      "speaker": "Clara",
+      "text": "It is the maturity-transformation problem in modern dress. The issuer promises instant, par-value redemption while holding assets that may be neither instantly liquid nor reliably worth par under stress. We've watched a so-called stablecoin lose its peg and unwind catastrophically; that wasn't an exotic failure, it was a classic run, accelerated by the very speed and transparency of the blockchain that lets everyone see the depeg in real time and rush for the exit simultaneously."
+    },
+    {
+      "speaker": "Theo",
+      "text": "And the transparency cuts in a perverse direction here. In a traditional bank run, opacity and deposit insurance dampen the panic; depositors can't easily observe each other and they believe the state stands behind them. On-chain, the reserve composition and the redemption queue can be globally legible in real time, which can turn a wobble into a stampede in minutes rather than days."
+    },
+    {
+      "speaker": "Clara",
+      "text": "Which is why I'm persuaded that any stablecoin operating at systemic scale should be subject to something close to bank-grade prudential standards — full reserve backing in genuinely high-quality liquid assets, segregation of customer funds from the issuer's balance sheet, audited disclosure, and a clear resolution regime for when an issuer fails. Light-touch registration is simply inadequate for an instrument that aspires to be money."
+    },
+    {
+      "speaker": "Theo",
+      "text": "I broadly agree on the prudential floor, but I'd flag a real tension. If you regulate a stablecoin issuer exactly like a bank, you may extinguish the very innovation that made it interesting, and you'll likely concentrate the market in a handful of incumbents who can afford the compliance burden. The regulatory cure can quietly recreate the too-big-to-fail dynamic we were trying to escape."
+    },
+    {
+      "speaker": "Clara",
+      "text": "That's a fair caution against regulatory capture by scale, and it's why I favour calibrating the intensity of oversight to systemic significance rather than imposing a single uniform regime. A small, fully reserved, narrowly used token need not carry the same burden as one that becomes a payment backbone for millions. The error is to pretend that an instrument promising to be money can occupy a permanent regulatory grey zone."
+    },
+    {
+      "speaker": "Theo",
+      "text": "Let's pivot to the public-sector answer, then, because central banks have read the same signals and concluded that the state should issue its own digital money. A retail CBDC is pitched as offering the convenience of digital payment with the safety of a central-bank liability. To my ear that promise is doing a lot of quiet work — it implies the central bank can outcompete private innovation while sidestepping the run risk. Is that credible?"
+    },
+    {
+      "speaker": "Clara",
+      "text": "Partly, and the part that's credible is genuinely important. A central-bank liability is the safest money there is — it cannot default in its own currency — so a well-designed CBDC removes the run incentive at the root, because there's no issuer solvency to doubt. But the design choices conceal enormous trade-offs, and the one that troubles me most, and that I think troubles citizens most, is privacy."
+    },
+    {
+      "speaker": "Theo",
+      "text": "The privacy objection is the one that resonates loudest in the public debate, and I think rightly so. Physical cash is anonymous by default; a naive account-based CBDC could, in principle, give the central bank or the state a granular, real-time ledger of every transaction a citizen ever makes. That is a surveillance capability of a kind no liberal democracy has ever possessed over its own population's economic life."
+    },
+    {
+      "speaker": "Clara",
+      "text": "And the danger isn't only the dystopian extreme of an authoritarian state weaponising the ledger. It's also the subtler problem of function creep in a well-meaning democracy — payment data initially collected for anti-money-laundering compliance gradually repurposed for tax enforcement, then for behavioural nudging, then for sanctioning disfavoured but legal activity. The infrastructure's mere existence creates a standing temptation that outlasts any particular government's good intentions."
+    },
+    {
+      "speaker": "Theo",
+      "text": "Defenders respond that the architecture can be privacy-preserving by design — intermediated models where commercial banks hold the customer relationship and the central bank sees only aggregates, or cryptographic techniques that permit compliance checks without exposing identities. Do you find those technical mitigations reassuring, or merely a sophisticated form of trust-us?"
+    },
+    {
+      "speaker": "Clara",
+      "text": "I find them necessary but not sufficient, because the binding constraint isn't cryptographic, it's political and institutional. Zero-knowledge proofs and tiered intermediation are real and valuable, but they're policy choices encoded in software that a future legislature can amend. Privacy that depends on the forbearance of whoever controls the protocol is conditional privacy, and conditional privacy is, in the end, surveillance deferred."
+    },
+    {
+      "speaker": "Theo",
+      "text": "That points to a deeper constitutional question that monetary technocrats are poorly equipped to settle alone — how much transactional privacy a society is entitled to as a matter of right, rather than as a revocable administrative concession. We've drifted into treating it as an engineering parameter when it may be closer to a civil liberty."
+    },
+    {
+      "speaker": "Clara",
+      "text": "I'd put it even more strongly: the choice between cash-like anonymity and account-like traceability is one of the most consequential political decisions embedded in CBDC design, and it's being made largely by central banks and payment engineers with limited democratic deliberation. The legitimacy of the eventual settlement depends on that deliberation actually happening, not on the elegance of the cryptography."
+    },
+    {
+      "speaker": "Theo",
+      "text": "There's also a financial-stability dimension to the CBDC that mirrors the stablecoin concern but inverts it. If a central-bank digital currency is too attractive and too freely held, it could disintermediate the commercial banking system — depositors flee to the riskless central-bank liability precisely in a crisis, which is exactly when the banks can least afford the outflow. The safest money could become a structural accelerant of bank runs."
+    },
+    {
+      "speaker": "Clara",
+      "text": "That's the paradox at the heart of retail CBDC design, and it's why most serious proposals contemplate holding caps or tiered, non-remunerated balances to deliberately make the CBDC a worse store of value than a bank deposit. But that's a striking admission — you're engineering the public money to be deliberately less attractive so as not to destabilise the private banks that intermediate credit. It tells you the whole edifice rests on a delicate, somewhat artificial equilibrium."
+    },
+    {
+      "speaker": "Theo",
+      "text": "Stepping back, then, both the private and public answers seem to involve trading one set of risks for another rather than eliminating risk. Stablecoins offer innovation at the price of run risk and sovereignty erosion; CBDCs offer safety at the price of surveillance potential and disintermediation. Is there a coherent way to think about which trade we should prefer?"
+    },
+    {
+      "speaker": "Clara",
+      "text": "I think the framing of an either-or choice is itself part of the trouble. The realistic future is a layered system — regulated private stablecoins for innovation and competition at the edges, a wholesale CBDC to modernise interbank settlement with minimal privacy exposure, and a deliberately constrained retail CBDC or none at all, depending on how a given society resolves the privacy question. The regulator's job isn't to pick a winner but to ensure that whatever circulates as money is safe, contestable, and accountable."
+    },
+    {
+      "speaker": "Theo",
+      "text": "I can sign on to that as a destination, though the sequencing and the international coordination will be brutal — money doesn't respect borders, and a privacy or stability standard is only as strong as the weakest jurisdiction a token can migrate to. Where we land, I suspect, depends less on the technology than on whether democracies can articulate, in advance, what they actually want money to be."
+    },
+    {
+      "speaker": "Clara",
+      "text": "That's exactly the right note to end on, because the technology is forcing a question societies have rarely had to answer explicitly: what is money for, who should be able to see how we use it, and who bears the loss when it fails? The tooling has finally made those latent questions unavoidable, and answering them well is a political and constitutional task at least as much as a monetary one."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Theo",
+      "text": "Clara, regulators have spent the last few years oscillating between treating stablecoins as an existential threat to the monetary order and dismissing them as a marginal curiosity.",
+      "translationVi": "Clara, các nhà quản lý đã dành vài năm qua dao động giữa việc coi stablecoin như một mối đe dọa hiện hữu đối với trật tự tiền tệ và việc gạt bỏ chúng như một thứ tò mò bên lề.",
+      "durationMs": 10608
+    },
+    {
+      "id": "s2",
+      "speaker": "Theo",
+      "text": "I'd like to cut through that.",
+      "translationVi": "Tôi muốn cắt thẳng qua điều đó.",
+      "durationMs": 1752
+    },
+    {
+      "id": "s3",
+      "speaker": "Theo",
+      "text": "In your view, what is the genuinely novel risk that a privately issued, dollar-pegged stablecoin poses that we didn't already face with money-market funds or bank deposits?",
+      "translationVi": "Theo bạn, rủi ro thực sự mới mẻ mà một stablecoin do tư nhân phát hành, neo theo đồng đô la đặt ra mà chúng ta chưa từng đối mặt với các quỹ thị trường tiền tệ hay tiền gửi ngân hàng là gì?",
+      "durationMs": 9672
+    },
+    {
+      "id": "s4",
+      "speaker": "Clara",
+      "text": "It's a sharp question, and I think the honest answer is that the novelty is less in the instrument than in its composability and reach.",
+      "translationVi": "Đó là một câu hỏi sắc bén, và tôi nghĩ câu trả lời trung thực là sự mới mẻ nằm ít ở bản thân công cụ mà nhiều ở khả năng kết hợp và tầm với của nó.",
+      "durationMs": 7776
+    },
+    {
+      "id": "s5",
+      "speaker": "Clara",
+      "text": "Economically, a fiat-backed stablecoin is close to a narrow-bank deposit or a money-market share.",
+      "translationVi": "Về mặt kinh tế, một stablecoin được bảo chứng bằng tiền pháp định gần giống một khoản tiền gửi ngân hàng hẹp hay một cổ phần thị trường tiền tệ.",
+      "durationMs": 6408
+    },
+    {
+      "id": "s6",
+      "speaker": "Clara",
+      "text": "What's new is that it lives on programmable, permissionless rails, settles globally in seconds, and can be embedded in any application without a banking relationship — which means its monetary footprint can scale far faster than the regulatory perimeter can adapt.",
+      "translationVi": "Cái mới là nó sống trên các hạ tầng có thể lập trình, không cần xin phép, thanh toán toàn cầu trong vài giây, và có thể được nhúng vào bất kỳ ứng dụng nào mà không cần quan hệ ngân hàng — điều này nghĩa là dấu chân tiền tệ của nó có thể mở rộng nhanh hơn nhiều so với tốc độ thích ứng của vành đai quản lý.",
+      "durationMs": 16416
+    },
+    {
+      "id": "s7",
+      "speaker": "Theo",
+      "text": "So the disruption is one of velocity and circumvention rather than of fundamental economic substance.",
+      "translationVi": "Vậy sự xáo trộn là về tốc độ và sự lách luật chứ không phải về bản chất kinh tế nền tảng.",
+      "durationMs": 6480
+    },
+    {
+      "id": "s8",
+      "speaker": "Theo",
+      "text": "The stablecoin is, in a sense, an old liability in a new wrapper that happens to be very good at slipping past the jurisdictional boundaries our regulatory architecture presupposes.",
+      "translationVi": "Stablecoin, theo một nghĩa nào đó, là một khoản nợ cũ trong một lớp vỏ mới mà tình cờ rất giỏi luồn lách qua các ranh giới pháp lý mà kiến trúc quản lý của chúng ta mặc định.",
+      "durationMs": 10368
+    },
+    {
+      "id": "s9",
+      "speaker": "Clara",
+      "text": "Exactly, and that's precisely why the monetary-sovereignty concern is more serious than the sceptics allow.",
+      "translationVi": "Chính xác, và đó đúng là lý do mối lo về chủ quyền tiền tệ nghiêm trọng hơn những gì những người hoài nghi thừa nhận.",
+      "durationMs": 7008
+    },
+    {
+      "id": "s10",
+      "speaker": "Clara",
+      "text": "When citizens of a country with a fragile currency can hold a dollar stablecoin in a phone wallet, you get de facto dollarisation without any of the deliberate policy choices that historically accompanied it.",
+      "translationVi": "Khi công dân của một quốc gia có đồng tiền mong manh có thể nắm giữ một stablecoin đô la trong ví điện thoại, bạn có sự đô la hóa trên thực tế mà không có bất kỳ lựa chọn chính sách có chủ ý nào từng đi kèm với nó trong lịch sử.",
+      "durationMs": 11856
+    },
+    {
+      "id": "s11",
+      "speaker": "Clara",
+      "text": "The domestic central bank loses traction over the monetary transmission mechanism, and it loses it gradually, almost invisibly, until the erosion is well advanced.",
+      "translationVi": "Ngân hàng trung ương trong nước mất lực kéo lên cơ chế truyền dẫn tiền tệ, và mất nó một cách dần dần, gần như vô hình, cho đến khi sự xói mòn đã tiến triển sâu.",
+      "durationMs": 10776
+    },
+    {
+      "id": "s12",
+      "speaker": "Theo",
+      "text": "That's a compelling framing for emerging markets, but I'd resist generalising it to the major reserve-currency issuers.",
+      "translationVi": "Đó là một cách đặt vấn đề thuyết phục đối với các thị trường mới nổi, nhưng tôi sẽ chống lại việc khái quát hóa nó cho các nước phát hành đồng tiền dự trữ lớn.",
+      "durationMs": 7296
+    },
+    {
+      "id": "s13",
+      "speaker": "Theo",
+      "text": "For the United States, a proliferation of dollar stablecoins arguably entrenches dollar hegemony rather than eroding it.",
+      "translationVi": "Đối với Hoa Kỳ, sự phổ biến của các stablecoin đô la có thể lập luận là củng cố quyền bá chủ của đồng đô la chứ không phải xói mòn nó.",
+      "durationMs": 7512
+    },
+    {
+      "id": "s14",
+      "speaker": "Theo",
+      "text": "The sovereignty anxiety looks very different depending on whether you issue the anchor currency or merely import it.",
+      "translationVi": "Nỗi lo về chủ quyền trông rất khác nhau tùy thuộc vào việc bạn phát hành đồng tiền neo hay chỉ nhập khẩu nó.",
+      "durationMs": 6336
+    },
+    {
+      "id": "s15",
+      "speaker": "Clara",
+      "text": "That asymmetry is real and underappreciated.",
+      "translationVi": "Sự bất đối xứng đó là có thật và bị đánh giá thấp.",
+      "durationMs": 3744
+    },
+    {
+      "id": "s16",
+      "speaker": "Clara",
+      "text": "For the issuer of the anchor currency, private stablecoins can be an instrument of monetary projection — extending the reach of the dollar through private rails the state didn't have to build.",
+      "translationVi": "Đối với nước phát hành đồng tiền neo, các stablecoin tư nhân có thể là một công cụ phóng chiếu tiền tệ — mở rộng tầm với của đồng đô la qua các hạ tầng tư nhân mà nhà nước không phải tự xây.",
+      "durationMs": 10920
+    },
+    {
+      "id": "s17",
+      "speaker": "Clara",
+      "text": "But even there it's double-edged, because the issuer cedes a measure of control over how its currency circulates abroad, and it inherits a contingent liability if a systemically significant issuer fails and the political pressure to backstop it becomes irresistible.",
+      "translationVi": "Nhưng ngay cả ở đó nó cũng là con dao hai lưỡi, vì nước phát hành nhường đi một phần quyền kiểm soát cách đồng tiền của mình lưu thông ở nước ngoài, và nó thừa hưởng một nghĩa vụ tiềm tàng nếu một tổ chức phát hành quan trọng về mặt hệ thống thất bại và áp lực chính trị buộc phải hỗ trợ nó trở nên không thể cưỡng lại.",
+      "durationMs": 15984
+    },
+    {
+      "id": "s18",
+      "speaker": "Theo",
+      "text": "Which brings us squarely to financial stability, because that backstop expectation is the crux.",
+      "translationVi": "Điều này đưa chúng ta thẳng đến sự ổn định tài chính, vì kỳ vọng được hỗ trợ đó là mấu chốt.",
+      "durationMs": 6240
+    },
+    {
+      "id": "s19",
+      "speaker": "Theo",
+      "text": "A stablecoin promises redemption at par on demand, which is functionally a deposit promise, but in most current designs it's made without deposit insurance, without a lender of last resort, and frequently without transparent, high-quality reserves.",
+      "translationVi": "Một stablecoin hứa hẹn đổi lại theo mệnh giá khi có yêu cầu, về chức năng là một lời hứa tiền gửi, nhưng trong hầu hết các thiết kế hiện tại nó được đưa ra mà không có bảo hiểm tiền gửi, không có người cho vay cuối cùng, và thường không có dự trữ minh bạch, chất lượng cao.",
+      "durationMs": 13632
+    },
+    {
+      "id": "s20",
+      "speaker": "Theo",
+      "text": "That is a textbook recipe for a run.",
+      "translationVi": "Đó là một công thức kinh điển cho một cuộc tháo chạy rút tiền.",
+      "durationMs": 2664
+    },
+    {
+      "id": "s21",
+      "speaker": "Clara",
+      "text": "It is the maturity-transformation problem in modern dress.",
+      "translationVi": "Đó là vấn đề chuyển đổi kỳ hạn trong bộ áo hiện đại.",
+      "durationMs": 3576
+    },
+    {
+      "id": "s22",
+      "speaker": "Clara",
+      "text": "The issuer promises instant, par-value redemption while holding assets that may be neither instantly liquid nor reliably worth par under stress.",
+      "translationVi": "Tổ chức phát hành hứa hẹn đổi lại tức thì theo mệnh giá trong khi nắm giữ các tài sản có thể vừa không thanh khoản tức thì vừa không đáng giá bằng mệnh giá một cách đáng tin cậy khi chịu áp lực.",
+      "durationMs": 8880
+    },
+    {
+      "id": "s23",
+      "speaker": "Clara",
+      "text": "We've watched a so-called stablecoin lose its peg and unwind catastrophically; that wasn't an exotic failure, it was a classic run, accelerated by the very speed and transparency of the blockchain that lets everyone see the depeg in real time and rush for the exit simultaneously.",
+      "translationVi": "Chúng ta đã chứng kiến một cái gọi là stablecoin mất neo và sụp đổ thảm khốc; đó không phải là một thất bại kỳ lạ, đó là một cuộc tháo chạy kinh điển, được tăng tốc bởi chính tốc độ và sự minh bạch của blockchain cho phép mọi người thấy việc mất neo theo thời gian thực và đổ xô ra cửa thoát cùng một lúc.",
+      "durationMs": 17952
+    },
+    {
+      "id": "s24",
+      "speaker": "Theo",
+      "text": "And the transparency cuts in a perverse direction here.",
+      "translationVi": "Và sự minh bạch ở đây lại cắt theo một hướng tai hại.",
+      "durationMs": 3504
+    },
+    {
+      "id": "s25",
+      "speaker": "Theo",
+      "text": "In a traditional bank run, opacity and deposit insurance dampen the panic; depositors can't easily observe each other and they believe the state stands behind them.",
+      "translationVi": "Trong một cuộc tháo chạy ngân hàng truyền thống, sự mờ đục và bảo hiểm tiền gửi làm dịu cơn hoảng loạn; người gửi tiền không dễ quan sát lẫn nhau và họ tin rằng nhà nước đứng sau lưng họ.",
+      "durationMs": 10320
+    },
+    {
+      "id": "s26",
+      "speaker": "Theo",
+      "text": "On-chain, the reserve composition and the redemption queue can be globally legible in real time, which can turn a wobble into a stampede in minutes rather than days.",
+      "translationVi": "Trên chuỗi, thành phần dự trữ và hàng đợi đổi lại có thể đọc được trên toàn cầu theo thời gian thực, điều có thể biến một sự chao đảo thành một cuộc giẫm đạp trong vài phút thay vì vài ngày.",
+      "durationMs": 9048
+    },
+    {
+      "id": "s27",
+      "speaker": "Clara",
+      "text": "Which is why I'm persuaded that any stablecoin operating at systemic scale should be subject to something close to bank-grade prudential standards — full reserve backing in genuinely high-quality liquid assets, segregation of customer funds from the issuer's balance sheet, audited disclosure, and a clear resolution regime for when an issuer fails.",
+      "translationVi": "Đó là lý do tôi bị thuyết phục rằng bất kỳ stablecoin nào hoạt động ở quy mô hệ thống đều nên chịu một thứ gì đó gần với các tiêu chuẩn an toàn cấp ngân hàng — bảo chứng dự trữ đầy đủ bằng các tài sản thanh khoản chất lượng thực sự cao, tách biệt tiền của khách hàng khỏi bảng cân đối của tổ chức phát hành, công bố được kiểm toán, và một cơ chế xử lý rõ ràng cho khi một tổ chức phát hành thất bại.",
+      "durationMs": 20448
+    },
+    {
+      "id": "s28",
+      "speaker": "Clara",
+      "text": "Light-touch registration is simply inadequate for an instrument that aspires to be money.",
+      "translationVi": "Việc đăng ký nhẹ nhàng đơn giản là không đủ cho một công cụ khao khát trở thành tiền tệ.",
+      "durationMs": 5400
+    },
+    {
+      "id": "s29",
+      "speaker": "Theo",
+      "text": "I broadly agree on the prudential floor, but I'd flag a real tension.",
+      "translationVi": "Tôi nhìn chung đồng ý về mức sàn an toàn, nhưng tôi sẽ chỉ ra một sự căng thẳng có thật.",
+      "durationMs": 4824
+    },
+    {
+      "id": "s30",
+      "speaker": "Theo",
+      "text": "If you regulate a stablecoin issuer exactly like a bank, you may extinguish the very innovation that made it interesting, and you'll likely concentrate the market in a handful of incumbents who can afford the compliance burden.",
+      "translationVi": "Nếu bạn quản lý một tổ chức phát hành stablecoin y hệt như một ngân hàng, bạn có thể dập tắt chính sự đổi mới khiến nó thú vị, và bạn có khả năng làm tập trung thị trường vào một nhúm các bên đương nhiệm đủ sức gánh chi phí tuân thủ.",
+      "durationMs": 11784
+    },
+    {
+      "id": "s31",
+      "speaker": "Theo",
+      "text": "The regulatory cure can quietly recreate the too-big-to-fail dynamic we were trying to escape.",
+      "translationVi": "Phương thuốc quản lý có thể lặng lẽ tái tạo cái động lực 'quá lớn để sụp đổ' mà chúng ta đang cố thoát khỏi.",
+      "durationMs": 5808
+    },
+    {
+      "id": "s32",
+      "speaker": "Clara",
+      "text": "That's a fair caution against regulatory capture by scale, and it's why I favour calibrating the intensity of oversight to systemic significance rather than imposing a single uniform regime.",
+      "translationVi": "Đó là một lời cảnh báo hợp lý chống lại sự thâu tóm quản lý bằng quy mô, và đó là lý do tôi nghiêng về việc điều chỉnh cường độ giám sát theo tầm quan trọng hệ thống thay vì áp đặt một chế độ đồng nhất duy nhất.",
+      "durationMs": 11856
+    },
+    {
+      "id": "s33",
+      "speaker": "Clara",
+      "text": "A small, fully reserved, narrowly used token need not carry the same burden as one that becomes a payment backbone for millions.",
+      "translationVi": "Một token nhỏ, được dự trữ đầy đủ, sử dụng hẹp không cần phải mang cùng gánh nặng như một token trở thành xương sống thanh toán cho hàng triệu người.",
+      "durationMs": 8112
+    },
+    {
+      "id": "s34",
+      "speaker": "Clara",
+      "text": "The error is to pretend that an instrument promising to be money can occupy a permanent regulatory grey zone.",
+      "translationVi": "Sai lầm là giả vờ rằng một công cụ hứa hẹn trở thành tiền tệ có thể chiếm giữ một vùng xám quản lý vĩnh viễn.",
+      "durationMs": 6600
+    },
+    {
+      "id": "s35",
+      "speaker": "Theo",
+      "text": "Let's pivot to the public-sector answer, then, because central banks have read the same signals and concluded that the state should issue its own digital money.",
+      "translationVi": "Vậy hãy xoay sang câu trả lời của khu vực công, vì các ngân hàng trung ương đã đọc cùng những tín hiệu đó và kết luận rằng nhà nước nên phát hành đồng tiền số của riêng mình.",
+      "durationMs": 8400
+    },
+    {
+      "id": "s36",
+      "speaker": "Theo",
+      "text": "A retail CBDC is pitched as offering the convenience of digital payment with the safety of a central-bank liability.",
+      "translationVi": "Một CBDC bán lẻ được giới thiệu như là cung cấp sự tiện lợi của thanh toán số với sự an toàn của một khoản nợ ngân hàng trung ương.",
+      "durationMs": 7104
+    },
+    {
+      "id": "s37",
+      "speaker": "Theo",
+      "text": "To my ear that promise is doing a lot of quiet work — it implies the central bank can outcompete private innovation while sidestepping the run risk.",
+      "translationVi": "Với tai tôi, lời hứa đó đang âm thầm gánh rất nhiều việc — nó ngụ ý rằng ngân hàng trung ương có thể cạnh tranh thắng sự đổi mới tư nhân trong khi né tránh rủi ro tháo chạy.",
+      "durationMs": 8448
+    },
+    {
+      "id": "s38",
+      "speaker": "Theo",
+      "text": "Is that credible?",
+      "translationVi": "Điều đó có đáng tin không?",
+      "durationMs": 1488
+    },
+    {
+      "id": "s39",
+      "speaker": "Clara",
+      "text": "Partly, and the part that's credible is genuinely important.",
+      "translationVi": "Một phần, và phần đáng tin là thực sự quan trọng.",
+      "durationMs": 3888
+    },
+    {
+      "id": "s40",
+      "speaker": "Clara",
+      "text": "A central-bank liability is the safest money there is — it cannot default in its own currency — so a well-designed CBDC removes the run incentive at the root, because there's no issuer solvency to doubt.",
+      "translationVi": "Một khoản nợ ngân hàng trung ương là loại tiền an toàn nhất tồn tại — nó không thể vỡ nợ bằng chính đồng tiền của mình — nên một CBDC được thiết kế tốt loại bỏ động cơ tháo chạy từ gốc rễ, vì không có khả năng thanh toán của tổ chức phát hành nào để nghi ngờ.",
+      "durationMs": 12336
+    },
+    {
+      "id": "s41",
+      "speaker": "Clara",
+      "text": "But the design choices conceal enormous trade-offs, and the one that troubles me most, and that I think troubles citizens most, is privacy.",
+      "translationVi": "Nhưng các lựa chọn thiết kế che giấu những sự đánh đổi khổng lồ, và điều khiến tôi lo lắng nhất, và mà tôi nghĩ khiến công dân lo lắng nhất, là quyền riêng tư.",
+      "durationMs": 8640
+    },
+    {
+      "id": "s42",
+      "speaker": "Theo",
+      "text": "The privacy objection is the one that resonates loudest in the public debate, and I think rightly so.",
+      "translationVi": "Phản đối về quyền riêng tư là điều vang vọng lớn nhất trong cuộc tranh luận công khai, và tôi nghĩ đúng là như vậy.",
+      "durationMs": 6216
+    },
+    {
+      "id": "s43",
+      "speaker": "Theo",
+      "text": "Physical cash is anonymous by default; a naive account-based CBDC could, in principle, give the central bank or the state a granular, real-time ledger of every transaction a citizen ever makes.",
+      "translationVi": "Tiền mặt vật lý ẩn danh theo mặc định; một CBDC dựa trên tài khoản ngây thơ, về nguyên tắc, có thể trao cho ngân hàng trung ương hay nhà nước một sổ cái chi tiết, theo thời gian thực về mọi giao dịch mà một công dân từng thực hiện.",
+      "durationMs": 12144
+    },
+    {
+      "id": "s44",
+      "speaker": "Theo",
+      "text": "That is a surveillance capability of a kind no liberal democracy has ever possessed over its own population's economic life.",
+      "translationVi": "Đó là một khả năng giám sát thuộc loại mà chưa một nền dân chủ tự do nào từng sở hữu đối với đời sống kinh tế của chính dân số mình.",
+      "durationMs": 8040
+    },
+    {
+      "id": "s45",
+      "speaker": "Clara",
+      "text": "And the danger isn't only the dystopian extreme of an authoritarian state weaponising the ledger.",
+      "translationVi": "Và mối nguy không chỉ là cực đoan kiểu phản địa đàng của một nhà nước độc tài vũ khí hóa sổ cái.",
+      "durationMs": 5712
+    },
+    {
+      "id": "s46",
+      "speaker": "Clara",
+      "text": "It's also the subtler problem of function creep in a well-meaning democracy — payment data initially collected for anti-money-laundering compliance gradually repurposed for tax enforcement, then for behavioural nudging, then for sanctioning disfavoured but legal activity.",
+      "translationVi": "Nó còn là vấn đề tinh vi hơn của sự lan rộng chức năng trong một nền dân chủ thiện chí — dữ liệu thanh toán ban đầu được thu thập cho việc tuân thủ chống rửa tiền dần dần được tái sử dụng cho việc cưỡng chế thuế, rồi cho việc hích hành vi, rồi cho việc trừng phạt hoạt động bị ghẻ lạnh nhưng hợp pháp.",
+      "durationMs": 16464
+    },
+    {
+      "id": "s47",
+      "speaker": "Clara",
+      "text": "The infrastructure's mere existence creates a standing temptation that outlasts any particular government's good intentions.",
+      "translationVi": "Sự tồn tại đơn thuần của hạ tầng tạo ra một cám dỗ thường trực sống lâu hơn thiện chí của bất kỳ chính phủ cụ thể nào.",
+      "durationMs": 7248
+    },
+    {
+      "id": "s48",
+      "speaker": "Theo",
+      "text": "Defenders respond that the architecture can be privacy-preserving by design — intermediated models where commercial banks hold the customer relationship and the central bank sees only aggregates, or cryptographic techniques that permit compliance checks without exposing identities.",
+      "translationVi": "Những người bênh vực đáp lại rằng kiến trúc có thể bảo vệ quyền riêng tư ngay từ thiết kế — các mô hình trung gian nơi các ngân hàng thương mại nắm quan hệ khách hàng và ngân hàng trung ương chỉ thấy số liệu tổng hợp, hay các kỹ thuật mật mã cho phép kiểm tra tuân thủ mà không phơi bày danh tính.",
+      "durationMs": 14664
+    },
+    {
+      "id": "s49",
+      "speaker": "Theo",
+      "text": "Do you find those technical mitigations reassuring, or merely a sophisticated form of trust-us?",
+      "translationVi": "Bạn thấy những biện pháp giảm thiểu kỹ thuật đó có trấn an không, hay chỉ là một dạng tinh vi của lời 'hãy tin chúng tôi'?",
+      "durationMs": 6384
+    },
+    {
+      "id": "s50",
+      "speaker": "Clara",
+      "text": "I find them necessary but not sufficient, because the binding constraint isn't cryptographic, it's political and institutional.",
+      "translationVi": "Tôi thấy chúng cần thiết nhưng không đủ, vì ràng buộc cốt yếu không phải là mật mã, mà là chính trị và thể chế.",
+      "durationMs": 7704
+    },
+    {
+      "id": "s51",
+      "speaker": "Clara",
+      "text": "Zero-knowledge proofs and tiered intermediation are real and valuable, but they're policy choices encoded in software that a future legislature can amend.",
+      "translationVi": "Các bằng chứng không tiết lộ và sự trung gian phân tầng là có thật và có giá trị, nhưng chúng là các lựa chọn chính sách được mã hóa trong phần mềm mà một cơ quan lập pháp tương lai có thể sửa đổi.",
+      "durationMs": 10152
+    },
+    {
+      "id": "s52",
+      "speaker": "Clara",
+      "text": "Privacy that depends on the forbearance of whoever controls the protocol is conditional privacy, and conditional privacy is, in the end, surveillance deferred.",
+      "translationVi": "Quyền riêng tư phụ thuộc vào sự nhẫn nhịn của bất kỳ ai kiểm soát giao thức là quyền riêng tư có điều kiện, và quyền riêng tư có điều kiện, rốt cuộc, là sự giám sát bị hoãn lại.",
+      "durationMs": 10104
+    },
+    {
+      "id": "s53",
+      "speaker": "Theo",
+      "text": "That points to a deeper constitutional question that monetary technocrats are poorly equipped to settle alone — how much transactional privacy a society is entitled to as a matter of right, rather than as a revocable administrative concession.",
+      "translationVi": "Điều đó chỉ ra một câu hỏi hiến định sâu sắc hơn mà các nhà kỹ trị tiền tệ được trang bị kém để tự mình giải quyết — một xã hội được hưởng bao nhiêu quyền riêng tư giao dịch như một quyền lợi, chứ không phải như một sự nhượng bộ hành chính có thể thu hồi.",
+      "durationMs": 13416
+    },
+    {
+      "id": "s54",
+      "speaker": "Theo",
+      "text": "We've drifted into treating it as an engineering parameter when it may be closer to a civil liberty.",
+      "translationVi": "Chúng ta đã trôi dạt vào việc coi nó như một tham số kỹ thuật trong khi nó có thể gần hơn với một quyền tự do dân sự.",
+      "durationMs": 5784
+    },
+    {
+      "id": "s55",
+      "speaker": "Clara",
+      "text": "I'd put it even more strongly: the choice between cash-like anonymity and account-like traceability is one of the most consequential political decisions embedded in CBDC design, and it's being made largely by central banks and payment engineers with limited democratic deliberation.",
+      "translationVi": "Tôi sẽ nói còn mạnh hơn nữa: lựa chọn giữa sự ẩn danh kiểu tiền mặt và khả năng truy vết kiểu tài khoản là một trong những quyết định chính trị hệ trọng nhất được nhúng trong thiết kế CBDC, và nó đang được thực hiện phần lớn bởi các ngân hàng trung ương và kỹ sư thanh toán với sự thảo luận dân chủ hạn chế.",
+      "durationMs": 18096
+    },
+    {
+      "id": "s56",
+      "speaker": "Clara",
+      "text": "The legitimacy of the eventual settlement depends on that deliberation actually happening, not on the elegance of the cryptography.",
+      "translationVi": "Tính chính danh của sự dàn xếp cuối cùng phụ thuộc vào việc sự thảo luận đó thực sự diễn ra, chứ không phải vào sự thanh lịch của mật mã học.",
+      "durationMs": 7680
+    },
+    {
+      "id": "s57",
+      "speaker": "Theo",
+      "text": "There's also a financial-stability dimension to the CBDC that mirrors the stablecoin concern but inverts it.",
+      "translationVi": "Còn có một chiều cạnh ổn định tài chính của CBDC phản chiếu mối lo về stablecoin nhưng đảo ngược nó.",
+      "durationMs": 6744
+    },
+    {
+      "id": "s58",
+      "speaker": "Theo",
+      "text": "If a central-bank digital currency is too attractive and too freely held, it could disintermediate the commercial banking system — depositors flee to the riskless central-bank liability precisely in a crisis, which is exactly when the banks can least afford the outflow.",
+      "translationVi": "Nếu một đồng tiền số ngân hàng trung ương quá hấp dẫn và được nắm giữ quá tự do, nó có thể loại bỏ vai trò trung gian của hệ thống ngân hàng thương mại — người gửi tiền chạy trốn sang khoản nợ ngân hàng trung ương không rủi ro đúng vào lúc khủng hoảng, chính là lúc các ngân hàng ít có khả năng chịu đựng dòng tiền chảy ra nhất.",
+      "durationMs": 14280
+    },
+    {
+      "id": "s59",
+      "speaker": "Theo",
+      "text": "The safest money could become a structural accelerant of bank runs.",
+      "translationVi": "Loại tiền an toàn nhất có thể trở thành một chất xúc tác mang tính cấu trúc cho các cuộc tháo chạy ngân hàng.",
+      "durationMs": 4392
+    },
+    {
+      "id": "s60",
+      "speaker": "Clara",
+      "text": "That's the paradox at the heart of retail CBDC design, and it's why most serious proposals contemplate holding caps or tiered, non-remunerated balances to deliberately make the CBDC a worse store of value than a bank deposit.",
+      "translationVi": "Đó là nghịch lý nằm ở trung tâm của thiết kế CBDC bán lẻ, và đó là lý do hầu hết các đề xuất nghiêm túc cân nhắc đến hạn mức nắm giữ hay các số dư phân tầng, không trả lãi để cố ý làm cho CBDC trở thành một kho lưu trữ giá trị tệ hơn một khoản tiền gửi ngân hàng.",
+      "durationMs": 14592
+    },
+    {
+      "id": "s61",
+      "speaker": "Clara",
+      "text": "But that's a striking admission — you're engineering the public money to be deliberately less attractive so as not to destabilise the private banks that intermediate credit.",
+      "translationVi": "Nhưng đó là một sự thừa nhận đáng chú ý — bạn đang thiết kế đồng tiền công để cố ý kém hấp dẫn hơn nhằm không làm mất ổn định các ngân hàng tư nhân làm trung gian tín dụng.",
+      "durationMs": 9504
+    },
+    {
+      "id": "s62",
+      "speaker": "Clara",
+      "text": "It tells you the whole edifice rests on a delicate, somewhat artificial equilibrium.",
+      "translationVi": "Nó cho bạn biết rằng toàn bộ công trình dựa trên một thế cân bằng mong manh, có phần nhân tạo.",
+      "durationMs": 5376
+    },
+    {
+      "id": "s63",
+      "speaker": "Theo",
+      "text": "Stepping back, then, both the private and public answers seem to involve trading one set of risks for another rather than eliminating risk.",
+      "translationVi": "Vậy lùi lại một bước, cả câu trả lời của tư nhân lẫn của công đều dường như liên quan đến việc đánh đổi một tập rủi ro này lấy một tập rủi ro khác thay vì loại bỏ rủi ro.",
+      "durationMs": 8472
+    },
+    {
+      "id": "s64",
+      "speaker": "Theo",
+      "text": "Stablecoins offer innovation at the price of run risk and sovereignty erosion; CBDCs offer safety at the price of surveillance potential and disintermediation.",
+      "translationVi": "Stablecoin mang lại sự đổi mới với cái giá là rủi ro tháo chạy và xói mòn chủ quyền; CBDC mang lại sự an toàn với cái giá là tiềm năng giám sát và loại bỏ trung gian.",
+      "durationMs": 10056
+    },
+    {
+      "id": "s65",
+      "speaker": "Theo",
+      "text": "Is there a coherent way to think about which trade we should prefer?",
+      "translationVi": "Có một cách nhất quán nào để suy nghĩ về việc chúng ta nên ưa thích sự đánh đổi nào không?",
+      "durationMs": 4104
+    },
+    {
+      "id": "s66",
+      "speaker": "Clara",
+      "text": "I think the framing of an either-or choice is itself part of the trouble.",
+      "translationVi": "Tôi nghĩ cách đặt vấn đề kiểu lựa chọn một-trong-hai tự nó là một phần của rắc rối.",
+      "durationMs": 4152
+    },
+    {
+      "id": "s67",
+      "speaker": "Clara",
+      "text": "The realistic future is a layered system — regulated private stablecoins for innovation and competition at the edges, a wholesale CBDC to modernise interbank settlement with minimal privacy exposure, and a deliberately constrained retail CBDC or none at all, depending on how a given society resolves the privacy question.",
+      "translationVi": "Tương lai thực tế là một hệ thống phân tầng — các stablecoin tư nhân được quản lý cho sự đổi mới và cạnh tranh ở rìa, một CBDC bán buôn để hiện đại hóa thanh toán liên ngân hàng với mức phơi bày riêng tư tối thiểu, và một CBDC bán lẻ bị ràng buộc có chủ ý hoặc không có gì cả, tùy thuộc vào cách một xã hội nhất định giải quyết câu hỏi về quyền riêng tư.",
+      "durationMs": 21120
+    },
+    {
+      "id": "s68",
+      "speaker": "Clara",
+      "text": "The regulator's job isn't to pick a winner but to ensure that whatever circulates as money is safe, contestable, and accountable.",
+      "translationVi": "Công việc của nhà quản lý không phải là chọn ra người thắng cuộc mà là đảm bảo rằng bất cứ thứ gì lưu thông như tiền tệ đều an toàn, có thể cạnh tranh, và có trách nhiệm giải trình.",
+      "durationMs": 7800
+    },
+    {
+      "id": "s69",
+      "speaker": "Theo",
+      "text": "I can sign on to that as a destination, though the sequencing and the international coordination will be brutal — money doesn't respect borders, and a privacy or stability standard is only as strong as the weakest jurisdiction a token can migrate to.",
+      "translationVi": "Tôi có thể đồng tình với điều đó như một đích đến, dù việc sắp xếp trình tự và phối hợp quốc tế sẽ tàn khốc — tiền tệ không tôn trọng biên giới, và một tiêu chuẩn về quyền riêng tư hay sự ổn định chỉ mạnh bằng đúng khu vực pháp lý yếu nhất mà một token có thể di chuyển đến.",
+      "durationMs": 13080
+    },
+    {
+      "id": "s70",
+      "speaker": "Theo",
+      "text": "Where we land, I suspect, depends less on the technology than on whether democracies can articulate, in advance, what they actually want money to be.",
+      "translationVi": "Nơi chúng ta đáp xuống, tôi ngờ rằng, phụ thuộc ít vào công nghệ hơn là vào việc liệu các nền dân chủ có thể diễn đạt rõ ràng, từ trước, điều họ thực sự muốn tiền tệ trở thành.",
+      "durationMs": 8904
+    },
+    {
+      "id": "s71",
+      "speaker": "Clara",
+      "text": "That's exactly the right note to end on, because the technology is forcing a question societies have rarely had to answer explicitly: what is money for, who should be able to see how we use it, and who bears the loss when it fails?",
+      "translationVi": "Đó chính xác là nốt nhạc đúng để kết thúc, vì công nghệ đang buộc ra một câu hỏi mà các xã hội hiếm khi phải trả lời một cách tường minh: tiền tệ để làm gì, ai nên có thể thấy chúng ta dùng nó ra sao, và ai gánh chịu tổn thất khi nó thất bại?",
+      "durationMs": 13512
+    },
+    {
+      "id": "s72",
+      "speaker": "Clara",
+      "text": "The tooling has finally made those latent questions unavoidable, and answering them well is a political and constitutional task at least as much as a monetary one.",
+      "translationVi": "Công cụ rốt cuộc đã làm cho những câu hỏi tiềm ẩn đó trở nên không thể tránh khỏi, và trả lời chúng cho tốt là một nhiệm vụ chính trị và hiến định ít nhất ngang bằng với một nhiệm vụ tiền tệ.",
+      "durationMs": 10080
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "The honest answer is that the novelty is less in … than in …"
+    },
+    {
+      "id": "h2",
+      "text": "I broadly agree on …, but I'd flag a real tension: if you …, you may …"
+    },
+    {
+      "id": "h3",
+      "text": "I find them necessary but not sufficient, because the binding constraint isn't …, it's …"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "monetary sovereignty",
+      "meaningVi": "chủ quyền tiền tệ (quyền của nhà nước kiểm soát đồng tiền của mình)",
+      "pronunciation": "/ˈmɑːnəteri ˈsɑːvrənti/"
+    },
+    {
+      "id": "v2",
+      "phrase": "lender of last resort",
+      "meaningVi": "người cho vay cuối cùng (ngân hàng trung ương cứu trợ khi khủng hoảng)",
+      "pronunciation": "/ˈlendər əv læst rɪˈzɔːrt/"
+    },
+    {
+      "id": "v3",
+      "phrase": "maturity transformation",
+      "meaningVi": "chuyển đổi kỳ hạn (huy động ngắn hạn để cho vay dài hạn)",
+      "pronunciation": "/məˈtʊrəti ˌtrænsfərˈmeɪʃən/"
+    },
+    {
+      "id": "v4",
+      "phrase": "disintermediate",
+      "meaningVi": "loại bỏ vai trò trung gian (cắt bỏ các ngân hàng khỏi dòng vốn)",
+      "pronunciation": "/ˌdɪsɪntərˈmiːdieɪt/"
+    },
+    {
+      "id": "v5",
+      "phrase": "function creep",
+      "meaningVi": "sự lan rộng chức năng (dữ liệu thu thập cho một mục đích bị dùng cho mục đích khác)",
+      "pronunciation": "/ˈfʌŋkʃən kriːp/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "existential threat to the monetary order",
+      "meaningVi": "mối đe dọa hiện hữu đối với trật tự tiền tệ",
+      "pronunciation": "/ˌeɡzɪˈstenʃəl θret tə ðə ˈmɑːnəteri ˈɔːrdər/",
+      "exampleEn": "Regulators have spent the last few years oscillating between treating stablecoins as an existential threat to the monetary order and dismissing them as a marginal curiosity."
+    },
+    {
+      "phrase": "dollar-pegged stablecoin",
+      "meaningVi": "stablecoin neo theo đồng đô la",
+      "pronunciation": "/ˈdɑːlər peɡd ˈsteɪblkɔɪn/"
+    },
+    {
+      "phrase": "composability and reach",
+      "meaningVi": "khả năng kết hợp và tầm với (của một công cụ tài chính số)",
+      "pronunciation": "/kəmˌpoʊzəˈbɪləti ænd riːtʃ/"
+    },
+    {
+      "phrase": "fiat-backed stablecoin",
+      "meaningVi": "stablecoin được bảo chứng bằng tiền pháp định",
+      "pronunciation": "/ˈfaɪæt bækt ˈsteɪblkɔɪn/"
+    },
+    {
+      "phrase": "programmable, permissionless rails",
+      "meaningVi": "các hạ tầng có thể lập trình, không cần xin phép",
+      "pronunciation": "/ˈproʊɡræməbl pərˈmɪʃənləs reɪlz/"
+    },
+    {
+      "phrase": "regulatory perimeter",
+      "meaningVi": "vành đai quản lý (phạm vi mà quy định bao phủ)",
+      "pronunciation": "/ˈreɡjələtɔːri pəˈrɪmətər/"
+    },
+    {
+      "phrase": "jurisdictional boundaries",
+      "meaningVi": "các ranh giới pháp lý (giữa các thẩm quyền tài phán)",
+      "pronunciation": "/ˌdʒʊrɪsˈdɪkʃənl ˈbaʊndriz/"
+    },
+    {
+      "phrase": "monetary-sovereignty concern",
+      "meaningVi": "mối lo về chủ quyền tiền tệ",
+      "pronunciation": "/ˈmɑːnəteri ˈsɑːvrənti kənˈsɜːrn/"
+    },
+    {
+      "phrase": "de facto dollarisation",
+      "meaningVi": "sự đô la hóa trên thực tế (không qua quyết định chính thức)",
+      "pronunciation": "/deɪ ˈfæktoʊ ˌdɑːlərɪˈzeɪʃən/"
+    },
+    {
+      "phrase": "monetary transmission mechanism",
+      "meaningVi": "cơ chế truyền dẫn tiền tệ (cách chính sách tiền tệ tác động đến nền kinh tế)",
+      "pronunciation": "/ˈmɑːnəteri trænsˈmɪʃən ˈmekənɪzəm/"
+    },
+    {
+      "phrase": "reserve-currency issuers",
+      "meaningVi": "các nước phát hành đồng tiền dự trữ",
+      "pronunciation": "/rɪˈzɜːrv ˈkɜːrənsi ˈɪʃuːərz/"
+    },
+    {
+      "phrase": "entrenches dollar hegemony",
+      "meaningVi": "củng cố quyền bá chủ của đồng đô la",
+      "pronunciation": "/ɪnˈtrentʃɪz ˈdɑːlər hɪˈdʒeməni/"
+    },
+    {
+      "phrase": "instrument of monetary projection",
+      "meaningVi": "công cụ phóng chiếu tiền tệ (mở rộng ảnh hưởng đồng tiền ra nước ngoài)",
+      "pronunciation": "/ˈɪnstrəmənt əv ˈmɑːnəteri prəˈdʒekʃən/"
+    },
+    {
+      "phrase": "contingent liability",
+      "meaningVi": "nghĩa vụ tiềm tàng (chỉ phát sinh khi một điều kiện xảy ra)",
+      "pronunciation": "/kənˈtɪndʒənt ˌlaɪəˈbɪləti/"
+    },
+    {
+      "phrase": "redemption at par on demand",
+      "meaningVi": "đổi lại theo mệnh giá khi có yêu cầu",
+      "pronunciation": "/rɪˈdempʃən ət pɑːr ɑːn dɪˈmænd/"
+    },
+    {
+      "phrase": "deposit insurance",
+      "meaningVi": "bảo hiểm tiền gửi",
+      "pronunciation": "/dɪˈpɑːzɪt ɪnˈʃʊrəns/"
+    },
+    {
+      "phrase": "textbook recipe for a run",
+      "meaningVi": "một công thức kinh điển cho một cuộc tháo chạy rút tiền",
+      "pronunciation": "/ˈtekstbʊk ˈresəpi fɔːr ə rʌn/"
+    },
+    {
+      "phrase": "maturity-transformation problem",
+      "meaningVi": "vấn đề chuyển đổi kỳ hạn",
+      "pronunciation": "/məˈtʊrəti ˌtrænsfərˈmeɪʃən ˈprɑːbləm/"
+    },
+    {
+      "phrase": "lose its peg and unwind catastrophically",
+      "meaningVi": "mất neo và sụp đổ thảm khốc",
+      "pronunciation": "/luːz ɪts peɡ ænd ʌnˈwaɪnd ˌkætəˈstrɑːfɪkli/"
+    },
+    {
+      "phrase": "bank-grade prudential standards",
+      "meaningVi": "các tiêu chuẩn an toàn cấp ngân hàng",
+      "pronunciation": "/bæŋk ɡreɪd pruːˈdenʃəl ˈstændərdz/"
+    },
+    {
+      "phrase": "segregation of customer funds",
+      "meaningVi": "tách biệt tiền của khách hàng (khỏi tài sản của tổ chức phát hành)",
+      "pronunciation": "/ˌseɡrɪˈɡeɪʃən əv ˈkʌstəmər fʌndz/"
+    },
+    {
+      "phrase": "resolution regime",
+      "meaningVi": "cơ chế xử lý (quy trình xử lý một tổ chức tài chính thất bại)",
+      "pronunciation": "/ˌrezəˈluːʃən reɪˈʒiːm/"
+    },
+    {
+      "phrase": "too-big-to-fail dynamic",
+      "meaningVi": "động lực 'quá lớn để sụp đổ'",
+      "pronunciation": "/tuː bɪɡ tə feɪl daɪˈnæmɪk/"
+    },
+    {
+      "phrase": "regulatory capture by scale",
+      "meaningVi": "sự thâu tóm quản lý bằng quy mô",
+      "pronunciation": "/ˈreɡjələtɔːri ˈkæptʃər baɪ skeɪl/"
+    },
+    {
+      "phrase": "regulatory grey zone",
+      "meaningVi": "vùng xám quản lý (khu vực không rõ ràng về pháp lý)",
+      "pronunciation": "/ˈreɡjələtɔːri ɡreɪ zoʊn/"
+    },
+    {
+      "phrase": "central-bank liability",
+      "meaningVi": "khoản nợ ngân hàng trung ương (loại tiền an toàn nhất)",
+      "pronunciation": "/ˈsentrəl bæŋk ˌlaɪəˈbɪləti/"
+    },
+    {
+      "phrase": "function creep",
+      "meaningVi": "sự lan rộng chức năng",
+      "pronunciation": "/ˈfʌŋkʃən kriːp/"
+    },
+    {
+      "phrase": "behavioural nudging",
+      "meaningVi": "hích hành vi (dùng tín hiệu để hướng dẫn hành vi)",
+      "pronunciation": "/bɪˈheɪvjərəl ˈnʌdʒɪŋ/"
+    },
+    {
+      "phrase": "privacy-preserving by design",
+      "meaningVi": "bảo vệ quyền riêng tư ngay từ thiết kế",
+      "pronunciation": "/ˈpraɪvəsi prɪˈzɜːrvɪŋ baɪ dɪˈzaɪn/"
+    },
+    {
+      "phrase": "Zero-knowledge proofs",
+      "meaningVi": "các bằng chứng không tiết lộ (xác minh mà không lộ dữ liệu)",
+      "pronunciation": "/ˈzɪroʊ ˈnɑːlɪdʒ pruːfs/"
+    },
+    {
+      "phrase": "tiered intermediation",
+      "meaningVi": "sự trung gian phân tầng",
+      "pronunciation": "/tɪrd ˌɪntərˌmiːdiˈeɪʃən/"
+    },
+    {
+      "phrase": "surveillance deferred",
+      "meaningVi": "sự giám sát bị hoãn lại (chỉ tạm thời chưa thực hiện)",
+      "pronunciation": "/sərˈveɪləns dɪˈfɜːrd/"
+    },
+    {
+      "phrase": "revocable administrative concession",
+      "meaningVi": "một sự nhượng bộ hành chính có thể thu hồi",
+      "pronunciation": "/ˈrevəkəbl ədˈmɪnɪstreɪtɪv kənˈseʃən/"
+    },
+    {
+      "phrase": "cash-like anonymity",
+      "meaningVi": "sự ẩn danh kiểu tiền mặt",
+      "pronunciation": "/kæʃ laɪk ˌænəˈnɪməti/"
+    },
+    {
+      "phrase": "holding caps",
+      "meaningVi": "hạn mức nắm giữ (giới hạn lượng tiền số một người được giữ)",
+      "pronunciation": "/ˈhoʊldɪŋ kæps/"
+    },
+    {
+      "phrase": "structural accelerant of bank runs",
+      "meaningVi": "một chất xúc tác mang tính cấu trúc cho các cuộc tháo chạy ngân hàng",
+      "pronunciation": "/ˈstrʌktʃərəl əkˈselərənt əv bæŋk rʌnz/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Comparative emphasis: 'less in X than in Y'",
+      "bodyVi": "Cấu trúc 'the novelty is less in X than in Y' là một cách tinh tế để chuyển hướng trọng tâm của một lập luận: bạn không phủ nhận X hoàn toàn, mà nhấn mạnh rằng Y mới là điều quan trọng hơn. Nó mềm mại hơn 'not X but Y' và thường dùng trong văn phong học thuật để tinh chỉnh một nhận định thay vì bác bỏ thẳng thừng. Ví dụ trong bài: 'the novelty is less in the instrument than in its composability and reach.'",
+      "bodyEn": "'The X is less in A than in B' is a refined way to redirect emphasis: you concede A matters somewhat, but insist B matters more. It is gentler and more precise than the blunt 'not A but B', and is favoured in analytical prose for fine-tuning a claim rather than flatly rejecting one. Note the parallel prepositions ('less IN A than IN B') — keeping them parallel is what makes the comparison clean."
+    },
+    {
+      "title": "Hedged concession with conditional 'would': 'I'd resist generalising it'",
+      "bodyVi": "Người nói trình độ cao thường dùng 'I'd' (I would) thay vì 'I' để làm dịu một phát biểu mạnh: 'I'd resist generalising it' nghe hợp tác và bớt đối đầu hơn 'I resist'. Đây là thức điều kiện mang tính lịch sự — diễn đạt một lập trường như thể đó là phản ứng cân nhắc trong tình huống cụ thể, mở đường cho đối thoại. Kết hợp với danh động từ ('generalising', 'treating') sau động từ như 'resist', 'favour', 'contemplate'.",
+      "bodyEn": "Advanced speakers often use 'I'd' (I would) rather than the bare 'I' to soften a strong stance: 'I'd resist generalising it' sounds more collegial and less combative than 'I resist'. This is a politeness conditional — framing a position as a considered response rather than a flat assertion, which keeps the dialogue open. Note it pairs with a gerund ('generalising', 'treating') after verbs like 'resist', 'favour', and 'contemplate'."
+    }
+  ],
+  "translationVi": "Theo: Clara, các nhà quản lý đã dành vài năm qua dao động giữa việc coi stablecoin như một mối đe dọa hiện hữu đối với trật tự tiền tệ và việc gạt bỏ chúng như một thứ tò mò bên lề. Tôi muốn cắt thẳng qua điều đó. Theo bạn, rủi ro thực sự mới mẻ mà một stablecoin do tư nhân phát hành, neo theo đồng đô la đặt ra mà chúng ta chưa từng đối mặt với các quỹ thị trường tiền tệ hay tiền gửi ngân hàng là gì? Clara: Đó là một câu hỏi sắc bén, và tôi nghĩ câu trả lời trung thực là sự mới mẻ nằm ít ở bản thân công cụ mà nhiều ở khả năng kết hợp và tầm với của nó. Về mặt kinh tế, một stablecoin được bảo chứng bằng tiền pháp định gần giống một khoản tiền gửi ngân hàng hẹp hay một cổ phần thị trường tiền tệ. Cái mới là nó sống trên các hạ tầng có thể lập trình, không cần xin phép, thanh toán toàn cầu trong vài giây, và có thể được nhúng vào bất kỳ ứng dụng nào mà không cần quan hệ ngân hàng — điều này nghĩa là dấu chân tiền tệ của nó có thể mở rộng nhanh hơn nhiều so với tốc độ thích ứng của vành đai quản lý. Theo: Vậy sự xáo trộn là về tốc độ và sự lách luật chứ không phải về bản chất kinh tế nền tảng. Stablecoin, theo một nghĩa nào đó, là một khoản nợ cũ trong một lớp vỏ mới mà tình cờ rất giỏi luồn lách qua các ranh giới pháp lý mà kiến trúc quản lý của chúng ta mặc định. Clara: Chính xác, và đó đúng là lý do mối lo về chủ quyền tiền tệ nghiêm trọng hơn những gì những người hoài nghi thừa nhận. Khi công dân của một quốc gia có đồng tiền mong manh có thể nắm giữ một stablecoin đô la trong ví điện thoại, bạn có sự đô la hóa trên thực tế mà không có bất kỳ lựa chọn chính sách có chủ ý nào từng đi kèm với nó trong lịch sử. Ngân hàng trung ương trong nước mất lực kéo lên cơ chế truyền dẫn tiền tệ, và mất nó một cách dần dần, gần như vô hình, cho đến khi sự xói mòn đã tiến triển sâu. Theo: Đó là một cách đặt vấn đề thuyết phục đối với các thị trường mới nổi, nhưng tôi sẽ chống lại việc khái quát hóa nó cho các nước phát hành đồng tiền dự trữ lớn. Đối với Hoa Kỳ, sự phổ biến của các stablecoin đô la có thể lập luận là củng cố quyền bá chủ của đồng đô la chứ không phải xói mòn nó. Nỗi lo về chủ quyền trông rất khác nhau tùy thuộc vào việc bạn phát hành đồng tiền neo hay chỉ nhập khẩu nó. Clara: Sự bất đối xứng đó là có thật và bị đánh giá thấp. Đối với nước phát hành đồng tiền neo, các stablecoin tư nhân có thể là một công cụ phóng chiếu tiền tệ — mở rộng tầm với của đồng đô la qua các hạ tầng tư nhân mà nhà nước không phải tự xây. Nhưng ngay cả ở đó nó cũng là con dao hai lưỡi, vì nước phát hành nhường đi một phần quyền kiểm soát cách đồng tiền của mình lưu thông ở nước ngoài, và nó thừa hưởng một nghĩa vụ tiềm tàng nếu một tổ chức phát hành quan trọng về mặt hệ thống thất bại và áp lực chính trị buộc phải hỗ trợ nó trở nên không thể cưỡng lại. Theo: Điều này đưa chúng ta thẳng đến sự ổn định tài chính, vì kỳ vọng được hỗ trợ đó là mấu chốt. Một stablecoin hứa hẹn đổi lại theo mệnh giá khi có yêu cầu, về chức năng là một lời hứa tiền gửi, nhưng trong hầu hết các thiết kế hiện tại nó được đưa ra mà không có bảo hiểm tiền gửi, không có người cho vay cuối cùng, và thường không có dự trữ minh bạch, chất lượng cao. Đó là một công thức kinh điển cho một cuộc tháo chạy rút tiền. Clara: Đó là vấn đề chuyển đổi kỳ hạn trong bộ áo hiện đại. Tổ chức phát hành hứa hẹn đổi lại tức thì theo mệnh giá trong khi nắm giữ các tài sản có thể vừa không thanh khoản tức thì vừa không đáng giá bằng mệnh giá một cách đáng tin cậy khi chịu áp lực. Chúng ta đã chứng kiến một cái gọi là stablecoin mất neo và sụp đổ thảm khốc; đó không phải là một thất bại kỳ lạ, đó là một cuộc tháo chạy kinh điển, được tăng tốc bởi chính tốc độ và sự minh bạch của blockchain cho phép mọi người thấy việc mất neo theo thời gian thực và đổ xô ra cửa thoát cùng một lúc. Theo: Và sự minh bạch ở đây lại cắt theo một hướng tai hại. Trong một cuộc tháo chạy ngân hàng truyền thống, sự mờ đục và bảo hiểm tiền gửi làm dịu cơn hoảng loạn; người gửi tiền không dễ quan sát lẫn nhau và họ tin rằng nhà nước đứng sau lưng họ. Trên chuỗi, thành phần dự trữ và hàng đợi đổi lại có thể đọc được trên toàn cầu theo thời gian thực, điều có thể biến một sự chao đảo thành một cuộc giẫm đạp trong vài phút thay vì vài ngày. Clara: Đó là lý do tôi bị thuyết phục rằng bất kỳ stablecoin nào hoạt động ở quy mô hệ thống đều nên chịu một thứ gì đó gần với các tiêu chuẩn an toàn cấp ngân hàng — bảo chứng dự trữ đầy đủ bằng các tài sản thanh khoản chất lượng thực sự cao, tách biệt tiền của khách hàng khỏi bảng cân đối của tổ chức phát hành, công bố được kiểm toán, và một cơ chế xử lý rõ ràng cho khi một tổ chức phát hành thất bại. Việc đăng ký nhẹ nhàng đơn giản là không đủ cho một công cụ khao khát trở thành tiền tệ. Theo: Tôi nhìn chung đồng ý về mức sàn an toàn, nhưng tôi sẽ chỉ ra một sự căng thẳng có thật. Nếu bạn quản lý một tổ chức phát hành stablecoin y hệt như một ngân hàng, bạn có thể dập tắt chính sự đổi mới khiến nó thú vị, và bạn có khả năng làm tập trung thị trường vào một nhúm các bên đương nhiệm đủ sức gánh chi phí tuân thủ. Phương thuốc quản lý có thể lặng lẽ tái tạo cái động lực 'quá lớn để sụp đổ' mà chúng ta đang cố thoát khỏi. Clara: Đó là một lời cảnh báo hợp lý chống lại sự thâu tóm quản lý bằng quy mô, và đó là lý do tôi nghiêng về việc điều chỉnh cường độ giám sát theo tầm quan trọng hệ thống thay vì áp đặt một chế độ đồng nhất duy nhất. Một token nhỏ, được dự trữ đầy đủ, sử dụng hẹp không cần phải mang cùng gánh nặng như một token trở thành xương sống thanh toán cho hàng triệu người. Sai lầm là giả vờ rằng một công cụ hứa hẹn trở thành tiền tệ có thể chiếm giữ một vùng xám quản lý vĩnh viễn. Theo: Vậy hãy xoay sang câu trả lời của khu vực công, vì các ngân hàng trung ương đã đọc cùng những tín hiệu đó và kết luận rằng nhà nước nên phát hành đồng tiền số của riêng mình. Một CBDC bán lẻ được giới thiệu như là cung cấp sự tiện lợi của thanh toán số với sự an toàn của một khoản nợ ngân hàng trung ương. Với tai tôi, lời hứa đó đang âm thầm gánh rất nhiều việc — nó ngụ ý rằng ngân hàng trung ương có thể cạnh tranh thắng sự đổi mới tư nhân trong khi né tránh rủi ro tháo chạy. Điều đó có đáng tin không? Clara: Một phần, và phần đáng tin là thực sự quan trọng. Một khoản nợ ngân hàng trung ương là loại tiền an toàn nhất tồn tại — nó không thể vỡ nợ bằng chính đồng tiền của mình — nên một CBDC được thiết kế tốt loại bỏ động cơ tháo chạy từ gốc rễ, vì không có khả năng thanh toán của tổ chức phát hành nào để nghi ngờ. Nhưng các lựa chọn thiết kế che giấu những sự đánh đổi khổng lồ, và điều khiến tôi lo lắng nhất, và mà tôi nghĩ khiến công dân lo lắng nhất, là quyền riêng tư. Theo: Phản đối về quyền riêng tư là điều vang vọng lớn nhất trong cuộc tranh luận công khai, và tôi nghĩ đúng là như vậy. Tiền mặt vật lý ẩn danh theo mặc định; một CBDC dựa trên tài khoản ngây thơ, về nguyên tắc, có thể trao cho ngân hàng trung ương hay nhà nước một sổ cái chi tiết, theo thời gian thực về mọi giao dịch mà một công dân từng thực hiện. Đó là một khả năng giám sát thuộc loại mà chưa một nền dân chủ tự do nào từng sở hữu đối với đời sống kinh tế của chính dân số mình. Clara: Và mối nguy không chỉ là cực đoan kiểu phản địa đàng của một nhà nước độc tài vũ khí hóa sổ cái. Nó còn là vấn đề tinh vi hơn của sự lan rộng chức năng trong một nền dân chủ thiện chí — dữ liệu thanh toán ban đầu được thu thập cho việc tuân thủ chống rửa tiền dần dần được tái sử dụng cho việc cưỡng chế thuế, rồi cho việc hích hành vi, rồi cho việc trừng phạt hoạt động bị ghẻ lạnh nhưng hợp pháp. Sự tồn tại đơn thuần của hạ tầng tạo ra một cám dỗ thường trực sống lâu hơn thiện chí của bất kỳ chính phủ cụ thể nào. Theo: Những người bênh vực đáp lại rằng kiến trúc có thể bảo vệ quyền riêng tư ngay từ thiết kế — các mô hình trung gian nơi các ngân hàng thương mại nắm quan hệ khách hàng và ngân hàng trung ương chỉ thấy số liệu tổng hợp, hay các kỹ thuật mật mã cho phép kiểm tra tuân thủ mà không phơi bày danh tính. Bạn thấy những biện pháp giảm thiểu kỹ thuật đó có trấn an không, hay chỉ là một dạng tinh vi của lời 'hãy tin chúng tôi'? Clara: Tôi thấy chúng cần thiết nhưng không đủ, vì ràng buộc cốt yếu không phải là mật mã, mà là chính trị và thể chế. Các bằng chứng không tiết lộ và sự trung gian phân tầng là có thật và có giá trị, nhưng chúng là các lựa chọn chính sách được mã hóa trong phần mềm mà một cơ quan lập pháp tương lai có thể sửa đổi. Quyền riêng tư phụ thuộc vào sự nhẫn nhịn của bất kỳ ai kiểm soát giao thức là quyền riêng tư có điều kiện, và quyền riêng tư có điều kiện, rốt cuộc, là sự giám sát bị hoãn lại. Theo: Điều đó chỉ ra một câu hỏi hiến định sâu sắc hơn mà các nhà kỹ trị tiền tệ được trang bị kém để tự mình giải quyết — một xã hội được hưởng bao nhiêu quyền riêng tư giao dịch như một quyền lợi, chứ không phải như một sự nhượng bộ hành chính có thể thu hồi. Chúng ta đã trôi dạt vào việc coi nó như một tham số kỹ thuật trong khi nó có thể gần hơn với một quyền tự do dân sự. Clara: Tôi sẽ nói còn mạnh hơn nữa: lựa chọn giữa sự ẩn danh kiểu tiền mặt và khả năng truy vết kiểu tài khoản là một trong những quyết định chính trị hệ trọng nhất được nhúng trong thiết kế CBDC, và nó đang được thực hiện phần lớn bởi các ngân hàng trung ương và kỹ sư thanh toán với sự thảo luận dân chủ hạn chế. Tính chính danh của sự dàn xếp cuối cùng phụ thuộc vào việc sự thảo luận đó thực sự diễn ra, chứ không phải vào sự thanh lịch của mật mã học. Theo: Còn có một chiều cạnh ổn định tài chính của CBDC phản chiếu mối lo về stablecoin nhưng đảo ngược nó. Nếu một đồng tiền số ngân hàng trung ương quá hấp dẫn và được nắm giữ quá tự do, nó có thể loại bỏ vai trò trung gian của hệ thống ngân hàng thương mại — người gửi tiền chạy trốn sang khoản nợ ngân hàng trung ương không rủi ro đúng vào lúc khủng hoảng, chính là lúc các ngân hàng ít có khả năng chịu đựng dòng tiền chảy ra nhất. Loại tiền an toàn nhất có thể trở thành một chất xúc tác mang tính cấu trúc cho các cuộc tháo chạy ngân hàng. Clara: Đó là nghịch lý nằm ở trung tâm của thiết kế CBDC bán lẻ, và đó là lý do hầu hết các đề xuất nghiêm túc cân nhắc đến hạn mức nắm giữ hay các số dư phân tầng, không trả lãi để cố ý làm cho CBDC trở thành một kho lưu trữ giá trị tệ hơn một khoản tiền gửi ngân hàng. Nhưng đó là một sự thừa nhận đáng chú ý — bạn đang thiết kế đồng tiền công để cố ý kém hấp dẫn hơn nhằm không làm mất ổn định các ngân hàng tư nhân làm trung gian tín dụng. Nó cho bạn biết rằng toàn bộ công trình dựa trên một thế cân bằng mong manh, có phần nhân tạo. Theo: Vậy lùi lại một bước, cả câu trả lời của tư nhân lẫn của công đều dường như liên quan đến việc đánh đổi một tập rủi ro này lấy một tập rủi ro khác thay vì loại bỏ rủi ro. Stablecoin mang lại sự đổi mới với cái giá là rủi ro tháo chạy và xói mòn chủ quyền; CBDC mang lại sự an toàn với cái giá là tiềm năng giám sát và loại bỏ trung gian. Có một cách nhất quán nào để suy nghĩ về việc chúng ta nên ưa thích sự đánh đổi nào không? Clara: Tôi nghĩ cách đặt vấn đề kiểu lựa chọn một-trong-hai tự nó là một phần của rắc rối. Tương lai thực tế là một hệ thống phân tầng — các stablecoin tư nhân được quản lý cho sự đổi mới và cạnh tranh ở rìa, một CBDC bán buôn để hiện đại hóa thanh toán liên ngân hàng với mức phơi bày riêng tư tối thiểu, và một CBDC bán lẻ bị ràng buộc có chủ ý hoặc không có gì cả, tùy thuộc vào cách một xã hội nhất định giải quyết câu hỏi về quyền riêng tư. Công việc của nhà quản lý không phải là chọn ra người thắng cuộc mà là đảm bảo rằng bất cứ thứ gì lưu thông như tiền tệ đều an toàn, có thể cạnh tranh, và có trách nhiệm giải trình. Theo: Tôi có thể đồng tình với điều đó như một đích đến, dù việc sắp xếp trình tự và phối hợp quốc tế sẽ tàn khốc — tiền tệ không tôn trọng biên giới, và một tiêu chuẩn về quyền riêng tư hay sự ổn định chỉ mạnh bằng đúng khu vực pháp lý yếu nhất mà một token có thể di chuyển đến. Nơi chúng ta đáp xuống, tôi ngờ rằng, phụ thuộc ít vào công nghệ hơn là vào việc liệu các nền dân chủ có thể diễn đạt rõ ràng, từ trước, điều họ thực sự muốn tiền tệ trở thành. Clara: Đó chính xác là nốt nhạc đúng để kết thúc, vì công nghệ đang buộc ra một câu hỏi mà các xã hội hiếm khi phải trả lời một cách tường minh: tiền tệ để làm gì, ai nên có thể thấy chúng ta dùng nó ra sao, và ai gánh chịu tổn thất khi nó thất bại? Công cụ rốt cuộc đã làm cho những câu hỏi tiềm ẩn đó trở nên không thể tránh khỏi, và trả lời chúng cho tốt là một nhiệm vụ chính trị và hiến định ít nhất ngang bằng với một nhiệm vụ tiền tệ.",
+  "criticalThinkingQuestion": "If both privately issued stablecoins and central bank digital currencies merely trade one cluster of risks for another — run risk and sovereignty erosion on one side, surveillance potential and bank disintermediation on the other — how should a democracy decide, in advance and through genuine public deliberation rather than technocratic default, how much transactional privacy its citizens are entitled to as a matter of right, and who should bear the loss when digital money fails?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-c1-070",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 657840
+}

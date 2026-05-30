@@ -1,0 +1,928 @@
+{
+  "id": "speaking-c1-035",
+  "level": "C1",
+  "title": "Debating Genetic Engineering Ethics",
+  "summary": "Bioethicist Dr. Naomi and geneticist Dr. Theo debate the ethics of human genetic engineering, ranging across CRISPR germline editing, the spectre of designer babies, the impossibility of obtaining consent from future generations, and the equity implications of an emerging genetic divide.",
+  "topic": "genetic engineering ethics",
+  "tags": [
+    "Bioethics",
+    "Science",
+    "CRISPR"
+  ],
+  "characters": [
+    "Naomi",
+    "Theo"
+  ],
+  "voices": {
+    "Naomi": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-EmmaNeural"
+    },
+    "Theo": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-AndrewNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Theo",
+      "text": "Dr. Naomi, now that CRISPR-Cas9 has made germline editing not merely conceivable but technically routine in the laboratory, I'd argue the ethical conversation has lagged badly behind the science. Where do you think the line should fall between therapeutic correction and enhancement?"
+    },
+    {
+      "speaker": "Naomi",
+      "text": "I'd resist the assumption that there's a clean line to be drawn at all. The therapy-enhancement distinction is intuitively appealing, but it tends to collapse under scrutiny. Correcting a mutation that predisposes someone to Huntington's looks unambiguously therapeutic, yet editing the same locus to confer resistance to a disease they don't yet have shades imperceptibly into enhancement."
+    },
+    {
+      "speaker": "Theo",
+      "text": "But surely we can anchor the distinction to a species-typical baseline. Restoring function that falls below the normal range is therapy; pushing above it is enhancement. Clinicians make that kind of judgement every day without paralysing themselves over edge cases."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "The species-typical baseline is doing an enormous amount of moral work in that sentence, and I don't think it can bear the weight. Whose normal? The notion encodes contestable assumptions about what counts as a deficit. Deaf communities, for instance, have argued forcefully that deafness is a cultural identity rather than a pathology to be edited away."
+    },
+    {
+      "speaker": "Theo",
+      "text": "That's a fair caution against medicalising difference. But I'd distinguish the political question of how we treat existing people from the clinical question of what we'd choose for an embryo. When we're deciding what genome to pass on, surely defaulting to a wider range of opportunity is defensible?"
+    },
+    {
+      "speaker": "Naomi",
+      "text": "And there you've put your finger on the deepest problem: the embryo cannot consent. Every ethical framework we have for medical intervention rests on autonomous agreement, yet germline editing imposes irreversible changes on a person who does not yet exist and will never have been consulted."
+    },
+    {
+      "speaker": "Theo",
+      "text": "The consent objection proves too much, though, doesn't it? Parents make irreversible, non-consensual decisions for their children constantly — choice of nutrition, native language, religious upbringing, the very decision to conceive at all. We don't regard those as ethical violations."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "There's a morally relevant asymmetry you're eliding. Those decisions shape the environment a child grows into and can later repudiate or revise. A germline edit is written into every cell and transmitted to all subsequent descendants. You're not making a choice for your child; you're making it for an entire genetic lineage that can never object."
+    },
+    {
+      "speaker": "Theo",
+      "text": "Granted, the heritability raises the stakes. But consider the counterfactual. If I decline to edit out a devastating monogenic disorder that I could have prevented, am I not also making an irreversible, non-consensual decision — condemning that lineage to suffering through my inaction?"
+    },
+    {
+      "speaker": "Naomi",
+      "text": "That's the strongest version of the interventionist case, and I take it seriously. For severe, well-characterised, single-gene disorders, the asymmetry between acting and refraining genuinely narrows. My worry is that we'll smuggle in far more under the banner of preventing suffering than that narrow category licenses."
+    },
+    {
+      "speaker": "Theo",
+      "text": "The slippery-slope worry. I'd push back that slopes can be terraced with regulation. We license fertility clinics, we audit laboratories, we prohibit reproductive cloning outright. Why assume we're incapable of drawing and policing a defensible boundary around permissible edits?"
+    },
+    {
+      "speaker": "Naomi",
+      "text": "Because the boundary won't be policed by a single jurisdiction. We already have reproductive tourism, where prospective parents travel to whichever regime has the most permissive rules. A patchwork of national regulations is no match for a globally mobile clientele and clinics competing for their custom."
+    },
+    {
+      "speaker": "Theo",
+      "text": "That's a regulatory-arbitrage problem, not an argument against the technology as such. The same could be said of any biomedical innovation. Surely the remedy is stronger international coordination rather than a blanket moratorium that simply cedes the field to the least scrupulous actors?"
+    },
+    {
+      "speaker": "Naomi",
+      "text": "I'm not arguing for permanent prohibition. I'm arguing that the equity dimension is doing far too little work in your framing. Suppose the technology matures and is safe. Who pays for it? If enhancement is available only to those who can afford it, we're engineering heritable advantage directly into the gene pool of the wealthy."
+    },
+    {
+      "speaker": "Theo",
+      "text": "That's a distributive-justice concern about access, which is real, but it's an argument for public subsidy, not for prohibition. We don't ban effective medicines because they're initially expensive; we work to bring the cost down and broaden access over time."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "Medicines don't compound across generations. If the affluent can purchase cognitive or physical advantages that are then inherited, the gap doesn't merely persist — it widens with each generation, hardening into something closer to a biological caste system. Social mobility already correlates with inherited wealth; now imagine it correlated with inherited genotype."
+    },
+    {
+      "speaker": "Theo",
+      "text": "That dystopian extrapolation assumes enhancement actually delivers the heritable advantages people imagine, which the polygenic reality makes doubtful. Most of the traits prospective parents covet — intelligence, height, temperament — are influenced by thousands of variants with tiny effect sizes, heavily mediated by environment."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "The polygenic complexity cuts in an uncomfortable direction, though. It means we'll be making probabilistic bets on traits we don't fully understand, with pleiotropic effects we can't foresee. A variant selected for one desirable outcome may carry unanticipated liabilities elsewhere in the system."
+    },
+    {
+      "speaker": "Theo",
+      "text": "Which is precisely why I favour incremental, evidence-based advance over a prohibitionist stance that drives the work underground. The history of in-vitro fertilisation is instructive — denounced as playing God in the seventies, now utterly routine and responsible for millions of wanted children."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "The IVF analogy is double-edged. IVF helps people have a child; it doesn't dictate what that child will be. The moral novelty of germline editing isn't that it's reproductive technology — it's that it makes the constitution of a future person a deliberate object of design and consumer choice."
+    },
+    {
+      "speaker": "Theo",
+      "text": "Is deliberate design intrinsically worse than the genetic lottery, though? We sentimentalise chance, but there's nothing benevolent about a random draw that hands one child a debilitating disease and another robust health. Why should we venerate the tyranny of chance over the responsibility of choice?"
+    },
+    {
+      "speaker": "Naomi",
+      "text": "Because the genetic lottery, for all its cruelty, doesn't express anyone's judgement about who is worth bringing into existence. The moment we design, we encode our present values and biases into the next generation, and history should make us extremely humble about the durability of our values."
+    },
+    {
+      "speaker": "Theo",
+      "text": "That's a genuinely sobering point — that we'd be inscribing the prejudices of our era into the germline. But I'd note that refraining also expresses a value judgement: that the suffering caused by editable conditions is somehow more acceptable than the risks of intervention."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "Agreed, and I don't want to pretend that inaction is a neutral default — it isn't. My position is narrower than abolitionism. I'd permit germline editing for severe monogenic disease under stringent international oversight, while prohibiting enhancement until we have far more robust mechanisms for addressing the equity and consent dimensions."
+    },
+    {
+      "speaker": "Theo",
+      "text": "I can live with a good deal of that as a transitional settlement. The crux of our remaining disagreement is really about the enhancement category — whether it can ever be governed responsibly, or whether it's so vulnerable to the equity and value-imposition concerns that prohibition is the only stable equilibrium."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "That's a fair statement of where we diverge. And I'd add that the honest position acknowledges we're legislating under deep uncertainty — about the science, about future values, about the institutions that would govern any of this. Humility about all three should temper how irreversibly we commit."
+    },
+    {
+      "speaker": "Theo",
+      "text": "On that much we're firmly agreed. The decisions we make in the next decade about germline editing will be among the most consequential and least reversible our species has ever taken — which is all the more reason to make them deliberately, transparently, and with the widest possible democratic deliberation."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Theo",
+      "text": "Dr. Naomi, now that CRISPR-Cas9 has made germline editing not merely conceivable but technically routine in the laboratory, I'd argue the ethical conversation has lagged badly behind the science.",
+      "translationVi": "Tiến sĩ Naomi, giờ đây khi CRISPR-Cas9 đã khiến việc chỉnh sửa dòng mầm không chỉ là điều có thể hình dung mà còn trở thành thường quy về mặt kỹ thuật trong phòng thí nghiệm, tôi cho rằng cuộc thảo luận về đạo đức đã tụt hậu nghiêm trọng so với khoa học.",
+      "durationMs": 12960
+    },
+    {
+      "id": "s2",
+      "speaker": "Theo",
+      "text": "Where do you think the line should fall between therapeutic correction and enhancement?",
+      "translationVi": "Theo bà thì ranh giới nên nằm ở đâu giữa việc chỉnh sửa mang tính trị liệu và việc tăng cường?",
+      "durationMs": 4584
+    },
+    {
+      "id": "s3",
+      "speaker": "Naomi",
+      "text": "I'd resist the assumption that there's a clean line to be drawn at all.",
+      "translationVi": "Tôi sẽ phản đối giả định rằng có một ranh giới rõ ràng nào đó để vạch ra.",
+      "durationMs": 4008
+    },
+    {
+      "id": "s4",
+      "speaker": "Naomi",
+      "text": "The therapy-enhancement distinction is intuitively appealing, but it tends to collapse under scrutiny.",
+      "translationVi": "Sự phân biệt giữa trị liệu và tăng cường nghe có vẻ hấp dẫn về mặt trực giác, nhưng nó có xu hướng sụp đổ khi bị xem xét kỹ.",
+      "durationMs": 6096
+    },
+    {
+      "id": "s5",
+      "speaker": "Naomi",
+      "text": "Correcting a mutation that predisposes someone to Huntington's looks unambiguously therapeutic, yet editing the same locus to confer resistance to a disease they don't yet have shades imperceptibly into enhancement.",
+      "translationVi": "Việc sửa một đột biến khiến ai đó dễ mắc bệnh Huntington trông rõ ràng là mang tính trị liệu, nhưng việc chỉnh sửa cùng vị trí gen đó để tạo ra khả năng đề kháng với một căn bệnh mà họ chưa mắc lại chuyển dần một cách khó nhận thấy sang tăng cường.",
+      "durationMs": 12264
+    },
+    {
+      "id": "s6",
+      "speaker": "Theo",
+      "text": "But surely we can anchor the distinction to a species-typical baseline.",
+      "translationVi": "Nhưng chắc chắn chúng ta có thể neo sự phân biệt đó vào một mức nền điển hình của loài.",
+      "durationMs": 4104
+    },
+    {
+      "id": "s7",
+      "speaker": "Theo",
+      "text": "Restoring function that falls below the normal range is therapy; pushing above it is enhancement.",
+      "translationVi": "Khôi phục chức năng nằm dưới phạm vi bình thường là trị liệu; đẩy nó lên trên mức đó là tăng cường.",
+      "durationMs": 5928
+    },
+    {
+      "id": "s8",
+      "speaker": "Theo",
+      "text": "Clinicians make that kind of judgement every day without paralysing themselves over edge cases.",
+      "translationVi": "Các bác sĩ lâm sàng đưa ra loại phán đoán đó mỗi ngày mà không tự làm tê liệt mình vì những trường hợp ranh giới.",
+      "durationMs": 6000
+    },
+    {
+      "id": "s9",
+      "speaker": "Naomi",
+      "text": "The species-typical baseline is doing an enormous amount of moral work in that sentence, and I don't think it can bear the weight.",
+      "translationVi": "Mức nền điển hình của loài đang đảm nhận một khối lượng công việc đạo đức khổng lồ trong câu nói đó, và tôi không nghĩ nó có thể gánh nổi sức nặng ấy.",
+      "durationMs": 6840
+    },
+    {
+      "id": "s10",
+      "speaker": "Naomi",
+      "text": "Whose normal?",
+      "translationVi": "Bình thường theo tiêu chuẩn của ai?",
+      "durationMs": 1224
+    },
+    {
+      "id": "s11",
+      "speaker": "Naomi",
+      "text": "The notion encodes contestable assumptions about what counts as a deficit.",
+      "translationVi": "Khái niệm đó mã hóa những giả định có thể tranh cãi về điều gì được coi là một khiếm khuyết.",
+      "durationMs": 4536
+    },
+    {
+      "id": "s12",
+      "speaker": "Naomi",
+      "text": "Deaf communities, for instance, have argued forcefully that deafness is a cultural identity rather than a pathology to be edited away.",
+      "translationVi": "Chẳng hạn, các cộng đồng người điếc đã lập luận mạnh mẽ rằng điếc là một bản sắc văn hóa chứ không phải một căn bệnh cần được chỉnh sửa loại bỏ.",
+      "durationMs": 8376
+    },
+    {
+      "id": "s13",
+      "speaker": "Theo",
+      "text": "That's a fair caution against medicalising difference.",
+      "translationVi": "Đó là một lời cảnh báo hợp lý chống lại việc y khoa hóa sự khác biệt.",
+      "durationMs": 3096
+    },
+    {
+      "id": "s14",
+      "speaker": "Theo",
+      "text": "But I'd distinguish the political question of how we treat existing people from the clinical question of what we'd choose for an embryo.",
+      "translationVi": "Nhưng tôi sẽ phân biệt câu hỏi chính trị về việc chúng ta đối xử với những người đang tồn tại như thế nào với câu hỏi lâm sàng về điều chúng ta sẽ chọn cho một phôi thai.",
+      "durationMs": 7440
+    },
+    {
+      "id": "s15",
+      "speaker": "Theo",
+      "text": "When we're deciding what genome to pass on, surely defaulting to a wider range of opportunity is defensible?",
+      "translationVi": "Khi chúng ta quyết định truyền lại bộ gen nào, chắc chắn việc mặc định chọn một phạm vi cơ hội rộng hơn là điều có thể biện hộ được chứ?",
+      "durationMs": 6672
+    },
+    {
+      "id": "s16",
+      "speaker": "Naomi",
+      "text": "And there you've put your finger on the deepest problem: the embryo cannot consent.",
+      "translationVi": "Và đó là lúc ông đã chỉ trúng vấn đề sâu sắc nhất: phôi thai không thể đồng thuận.",
+      "durationMs": 5112
+    },
+    {
+      "id": "s17",
+      "speaker": "Naomi",
+      "text": "Every ethical framework we have for medical intervention rests on autonomous agreement, yet germline editing imposes irreversible changes on a person who does not yet exist and will never have been consulted.",
+      "translationVi": "Mọi khuôn khổ đạo đức mà chúng ta có cho can thiệp y tế đều dựa trên sự đồng thuận tự chủ, nhưng việc chỉnh sửa dòng mầm lại áp đặt những thay đổi không thể đảo ngược lên một con người chưa tồn tại và sẽ không bao giờ được hỏi ý kiến.",
+      "durationMs": 12096
+    },
+    {
+      "id": "s18",
+      "speaker": "Theo",
+      "text": "The consent objection proves too much, though, doesn't it?",
+      "translationVi": "Nhưng lập luận phản đối dựa trên sự đồng thuận chứng minh quá nhiều, phải không?",
+      "durationMs": 3600
+    },
+    {
+      "id": "s19",
+      "speaker": "Theo",
+      "text": "Parents make irreversible, non-consensual decisions for their children constantly — choice of nutrition, native language, religious upbringing, the very decision to conceive at all.",
+      "translationVi": "Cha mẹ liên tục đưa ra những quyết định không thể đảo ngược và không có sự đồng thuận cho con cái họ — lựa chọn dinh dưỡng, tiếng mẹ đẻ, nền giáo dục tôn giáo, thậm chí chính quyết định thụ thai.",
+      "durationMs": 11208
+    },
+    {
+      "id": "s20",
+      "speaker": "Theo",
+      "text": "We don't regard those as ethical violations.",
+      "translationVi": "Chúng ta không coi những điều đó là sự vi phạm đạo đức.",
+      "durationMs": 2832
+    },
+    {
+      "id": "s21",
+      "speaker": "Naomi",
+      "text": "There's a morally relevant asymmetry you're eliding.",
+      "translationVi": "Có một sự bất đối xứng liên quan về mặt đạo đức mà ông đang lờ đi.",
+      "durationMs": 3120
+    },
+    {
+      "id": "s22",
+      "speaker": "Naomi",
+      "text": "Those decisions shape the environment a child grows into and can later repudiate or revise.",
+      "translationVi": "Những quyết định đó định hình môi trường mà một đứa trẻ lớn lên trong đó và sau này có thể chối bỏ hoặc điều chỉnh.",
+      "durationMs": 6024
+    },
+    {
+      "id": "s23",
+      "speaker": "Naomi",
+      "text": "A germline edit is written into every cell and transmitted to all subsequent descendants.",
+      "translationVi": "Một chỉnh sửa dòng mầm được ghi vào từng tế bào và truyền lại cho tất cả các thế hệ con cháu sau này.",
+      "durationMs": 5664
+    },
+    {
+      "id": "s24",
+      "speaker": "Naomi",
+      "text": "You're not making a choice for your child; you're making it for an entire genetic lineage that can never object.",
+      "translationVi": "Ông không đang đưa ra một lựa chọn cho con mình; ông đang đưa ra lựa chọn đó cho cả một dòng dõi di truyền không bao giờ có thể phản đối.",
+      "durationMs": 6552
+    },
+    {
+      "id": "s25",
+      "speaker": "Theo",
+      "text": "Granted, the heritability raises the stakes.",
+      "translationVi": "Phải thừa nhận rằng tính di truyền làm tăng mức độ hệ trọng.",
+      "durationMs": 3216
+    },
+    {
+      "id": "s26",
+      "speaker": "Theo",
+      "text": "But consider the counterfactual.",
+      "translationVi": "Nhưng hãy xem xét tình huống phản thực.",
+      "durationMs": 2040
+    },
+    {
+      "id": "s27",
+      "speaker": "Theo",
+      "text": "If I decline to edit out a devastating monogenic disorder that I could have prevented, am I not also making an irreversible, non-consensual decision — condemning that lineage to suffering through my inaction?",
+      "translationVi": "Nếu tôi từ chối chỉnh sửa loại bỏ một rối loạn đơn gen tàn khốc mà lẽ ra tôi có thể ngăn chặn, chẳng phải tôi cũng đang đưa ra một quyết định không thể đảo ngược và không có sự đồng thuận hay sao — kết án dòng dõi đó phải chịu đau khổ qua sự không hành động của tôi?",
+      "durationMs": 12384
+    },
+    {
+      "id": "s28",
+      "speaker": "Naomi",
+      "text": "That's the strongest version of the interventionist case, and I take it seriously.",
+      "translationVi": "Đó là phiên bản mạnh nhất của lập luận ủng hộ can thiệp, và tôi xem xét nó một cách nghiêm túc.",
+      "durationMs": 4896
+    },
+    {
+      "id": "s29",
+      "speaker": "Naomi",
+      "text": "For severe, well-characterised, single-gene disorders, the asymmetry between acting and refraining genuinely narrows.",
+      "translationVi": "Đối với những rối loạn đơn gen nghiêm trọng, đã được mô tả rõ ràng, sự bất đối xứng giữa hành động và kiềm chế thực sự thu hẹp lại.",
+      "durationMs": 7224
+    },
+    {
+      "id": "s30",
+      "speaker": "Naomi",
+      "text": "My worry is that we'll smuggle in far more under the banner of preventing suffering than that narrow category licenses.",
+      "translationVi": "Mối lo của tôi là chúng ta sẽ lén đưa vào nhiều hơn nhiều dưới danh nghĩa ngăn ngừa đau khổ so với những gì mà phạm trù hẹp đó cho phép.",
+      "durationMs": 6720
+    },
+    {
+      "id": "s31",
+      "speaker": "Theo",
+      "text": "The slippery-slope worry.",
+      "translationVi": "Nỗi lo về con dốc trơn trượt.",
+      "durationMs": 1656
+    },
+    {
+      "id": "s32",
+      "speaker": "Theo",
+      "text": "I'd push back that slopes can be terraced with regulation.",
+      "translationVi": "Tôi sẽ phản bác rằng những con dốc đó có thể được tạo thành bậc thang bằng quy định.",
+      "durationMs": 3288
+    },
+    {
+      "id": "s33",
+      "speaker": "Theo",
+      "text": "We license fertility clinics, we audit laboratories, we prohibit reproductive cloning outright.",
+      "translationVi": "Chúng ta cấp phép cho các phòng khám hỗ trợ sinh sản, chúng ta kiểm toán các phòng thí nghiệm, chúng ta cấm hẳn việc nhân bản sinh sản.",
+      "durationMs": 6216
+    },
+    {
+      "id": "s34",
+      "speaker": "Theo",
+      "text": "Why assume we're incapable of drawing and policing a defensible boundary around permissible edits?",
+      "translationVi": "Tại sao lại giả định rằng chúng ta không có khả năng vạch ra và giám sát một ranh giới có thể biện hộ được quanh những chỉnh sửa được phép?",
+      "durationMs": 6024
+    },
+    {
+      "id": "s35",
+      "speaker": "Naomi",
+      "text": "Because the boundary won't be policed by a single jurisdiction.",
+      "translationVi": "Bởi vì ranh giới đó sẽ không được giám sát bởi một khu vực tài phán duy nhất.",
+      "durationMs": 3792
+    },
+    {
+      "id": "s36",
+      "speaker": "Naomi",
+      "text": "We already have reproductive tourism, where prospective parents travel to whichever regime has the most permissive rules.",
+      "translationVi": "Chúng ta đã có du lịch sinh sản, nơi các bậc cha mẹ tương lai đi đến bất kỳ chế độ nào có những quy định dễ dãi nhất.",
+      "durationMs": 7296
+    },
+    {
+      "id": "s37",
+      "speaker": "Naomi",
+      "text": "A patchwork of national regulations is no match for a globally mobile clientele and clinics competing for their custom.",
+      "translationVi": "Một mớ chắp vá các quy định quốc gia không thể địch lại một tầng lớp khách hàng di động toàn cầu và các phòng khám cạnh tranh để giành lấy họ.",
+      "durationMs": 6912
+    },
+    {
+      "id": "s38",
+      "speaker": "Theo",
+      "text": "That's a regulatory-arbitrage problem, not an argument against the technology as such.",
+      "translationVi": "Đó là vấn đề lợi dụng chênh lệch quy định, chứ không phải một lập luận chống lại bản thân công nghệ.",
+      "durationMs": 5376
+    },
+    {
+      "id": "s39",
+      "speaker": "Theo",
+      "text": "The same could be said of any biomedical innovation.",
+      "translationVi": "Điều tương tự có thể được nói về bất kỳ đổi mới y sinh nào.",
+      "durationMs": 3096
+    },
+    {
+      "id": "s40",
+      "speaker": "Theo",
+      "text": "Surely the remedy is stronger international coordination rather than a blanket moratorium that simply cedes the field to the least scrupulous actors?",
+      "translationVi": "Chắc chắn giải pháp là sự phối hợp quốc tế mạnh mẽ hơn chứ không phải một lệnh đình chỉ toàn diện chỉ đơn thuần nhường sân chơi cho những bên thiếu lương tâm nhất chứ?",
+      "durationMs": 9000
+    },
+    {
+      "id": "s41",
+      "speaker": "Naomi",
+      "text": "I'm not arguing for permanent prohibition.",
+      "translationVi": "Tôi không lập luận cho việc cấm vĩnh viễn.",
+      "durationMs": 2808
+    },
+    {
+      "id": "s42",
+      "speaker": "Naomi",
+      "text": "I'm arguing that the equity dimension is doing far too little work in your framing.",
+      "translationVi": "Tôi đang lập luận rằng khía cạnh công bằng đang đảm nhận quá ít vai trò trong cách đặt vấn đề của ông.",
+      "durationMs": 4608
+    },
+    {
+      "id": "s43",
+      "speaker": "Naomi",
+      "text": "Suppose the technology matures and is safe.",
+      "translationVi": "Giả sử công nghệ trưởng thành và an toàn.",
+      "durationMs": 2928
+    },
+    {
+      "id": "s44",
+      "speaker": "Naomi",
+      "text": "Who pays for it?",
+      "translationVi": "Ai trả tiền cho nó?",
+      "durationMs": 1368
+    },
+    {
+      "id": "s45",
+      "speaker": "Naomi",
+      "text": "If enhancement is available only to those who can afford it, we're engineering heritable advantage directly into the gene pool of the wealthy.",
+      "translationVi": "Nếu việc tăng cường chỉ dành cho những người đủ khả năng chi trả, thì chúng ta đang thiết kế lợi thế di truyền trực tiếp vào vốn gen của giới giàu có.",
+      "durationMs": 7968
+    },
+    {
+      "id": "s46",
+      "speaker": "Theo",
+      "text": "That's a distributive-justice concern about access, which is real, but it's an argument for public subsidy, not for prohibition.",
+      "translationVi": "Đó là một mối quan ngại về công lý phân phối liên quan đến khả năng tiếp cận, điều này có thật, nhưng đó là một lập luận cho trợ cấp công, không phải cho việc cấm đoán.",
+      "durationMs": 7656
+    },
+    {
+      "id": "s47",
+      "speaker": "Theo",
+      "text": "We don't ban effective medicines because they're initially expensive; we work to bring the cost down and broaden access over time.",
+      "translationVi": "Chúng ta không cấm những loại thuốc hiệu quả chỉ vì ban đầu chúng đắt đỏ; chúng ta nỗ lực hạ giá thành và mở rộng khả năng tiếp cận theo thời gian.",
+      "durationMs": 7512
+    },
+    {
+      "id": "s48",
+      "speaker": "Naomi",
+      "text": "Medicines don't compound across generations.",
+      "translationVi": "Thuốc không tích lũy lũy tiến qua các thế hệ.",
+      "durationMs": 3168
+    },
+    {
+      "id": "s49",
+      "speaker": "Naomi",
+      "text": "If the affluent can purchase cognitive or physical advantages that are then inherited, the gap doesn't merely persist — it widens with each generation, hardening into something closer to a biological caste system.",
+      "translationVi": "Nếu giới giàu có thể mua những lợi thế nhận thức hay thể chất rồi được di truyền, khoảng cách không chỉ tồn tại dai dẳng — nó còn nới rộng qua mỗi thế hệ, cứng lại thành thứ gì đó gần với một chế độ đẳng cấp sinh học.",
+      "durationMs": 12864
+    },
+    {
+      "id": "s50",
+      "speaker": "Naomi",
+      "text": "Social mobility already correlates with inherited wealth; now imagine it correlated with inherited genotype.",
+      "translationVi": "Sự dịch chuyển xã hội vốn đã tương quan với của cải thừa kế; giờ hãy tưởng tượng nó tương quan với kiểu gen thừa kế.",
+      "durationMs": 7056
+    },
+    {
+      "id": "s51",
+      "speaker": "Theo",
+      "text": "That dystopian extrapolation assumes enhancement actually delivers the heritable advantages people imagine, which the polygenic reality makes doubtful.",
+      "translationVi": "Sự ngoại suy theo viễn cảnh đen tối đó giả định rằng việc tăng cường thực sự mang lại những lợi thế di truyền mà người ta tưởng tượng, điều mà thực tế đa gen khiến trở nên đáng ngờ.",
+      "durationMs": 9720
+    },
+    {
+      "id": "s52",
+      "speaker": "Theo",
+      "text": "Most of the traits prospective parents covet — intelligence, height, temperament — are influenced by thousands of variants with tiny effect sizes, heavily mediated by environment.",
+      "translationVi": "Hầu hết những đặc điểm mà các bậc cha mẹ tương lai thèm muốn — trí thông minh, chiều cao, tính khí — đều chịu ảnh hưởng của hàng nghìn biến thể với mức độ tác động nhỏ xíu, chịu sự chi phối nặng nề của môi trường.",
+      "durationMs": 11520
+    },
+    {
+      "id": "s53",
+      "speaker": "Naomi",
+      "text": "The polygenic complexity cuts in an uncomfortable direction, though.",
+      "translationVi": "Tuy nhiên, sự phức tạp đa gen lại tác động theo một hướng đầy bất tiện.",
+      "durationMs": 4128
+    },
+    {
+      "id": "s54",
+      "speaker": "Naomi",
+      "text": "It means we'll be making probabilistic bets on traits we don't fully understand, with pleiotropic effects we can't foresee.",
+      "translationVi": "Nó có nghĩa là chúng ta sẽ đặt cược mang tính xác suất vào những đặc điểm mà chúng ta chưa hiểu hết, với những hiệu ứng đa hiệu mà chúng ta không thể lường trước.",
+      "durationMs": 7200
+    },
+    {
+      "id": "s55",
+      "speaker": "Naomi",
+      "text": "A variant selected for one desirable outcome may carry unanticipated liabilities elsewhere in the system.",
+      "translationVi": "Một biến thể được chọn vì một kết quả mong muốn có thể mang theo những bất lợi không lường trước ở nơi khác trong hệ thống.",
+      "durationMs": 6864
+    },
+    {
+      "id": "s56",
+      "speaker": "Theo",
+      "text": "Which is precisely why I favour incremental, evidence-based advance over a prohibitionist stance that drives the work underground.",
+      "translationVi": "Đó chính là lý do tôi ủng hộ sự tiến bộ tiệm tiến, dựa trên bằng chứng hơn là một lập trường cấm đoán đẩy công việc đó vào hoạt động ngầm.",
+      "durationMs": 7992
+    },
+    {
+      "id": "s57",
+      "speaker": "Theo",
+      "text": "The history of in-vitro fertilisation is instructive — denounced as playing God in the seventies, now utterly routine and responsible for millions of wanted children.",
+      "translationVi": "Lịch sử của thụ tinh trong ống nghiệm rất đáng để học hỏi — bị lên án là đóng vai Chúa Trời vào những năm bảy mươi, giờ đây hoàn toàn thường quy và là nguyên nhân cho hàng triệu đứa trẻ được mong đợi.",
+      "durationMs": 10104
+    },
+    {
+      "id": "s58",
+      "speaker": "Naomi",
+      "text": "The IVF analogy is double-edged.",
+      "translationVi": "Phép loại suy về thụ tinh trong ống nghiệm là con dao hai lưỡi.",
+      "durationMs": 2568
+    },
+    {
+      "id": "s59",
+      "speaker": "Naomi",
+      "text": "IVF helps people have a child; it doesn't dictate what that child will be.",
+      "translationVi": "Thụ tinh trong ống nghiệm giúp người ta có một đứa con; nó không quyết định đứa trẻ đó sẽ là người như thế nào.",
+      "durationMs": 4752
+    },
+    {
+      "id": "s60",
+      "speaker": "Naomi",
+      "text": "The moral novelty of germline editing isn't that it's reproductive technology — it's that it makes the constitution of a future person a deliberate object of design and consumer choice.",
+      "translationVi": "Điều mới mẻ về mặt đạo đức của việc chỉnh sửa dòng mầm không phải ở chỗ nó là công nghệ sinh sản — mà ở chỗ nó biến cấu tạo của một con người tương lai thành một đối tượng được thiết kế có chủ đích và một lựa chọn tiêu dùng.",
+      "durationMs": 11184
+    },
+    {
+      "id": "s61",
+      "speaker": "Theo",
+      "text": "Is deliberate design intrinsically worse than the genetic lottery, though?",
+      "translationVi": "Nhưng liệu việc thiết kế có chủ đích có tự bản chất tồi tệ hơn cuộc xổ số di truyền không?",
+      "durationMs": 4416
+    },
+    {
+      "id": "s62",
+      "speaker": "Theo",
+      "text": "We sentimentalise chance, but there's nothing benevolent about a random draw that hands one child a debilitating disease and another robust health.",
+      "translationVi": "Chúng ta lãng mạn hóa sự ngẫu nhiên, nhưng chẳng có gì nhân từ trong một lần bốc thăm ngẫu nhiên trao cho đứa trẻ này một căn bệnh suy nhược và đứa trẻ kia sức khỏe dồi dào.",
+      "durationMs": 8784
+    },
+    {
+      "id": "s63",
+      "speaker": "Theo",
+      "text": "Why should we venerate the tyranny of chance over the responsibility of choice?",
+      "translationVi": "Tại sao chúng ta lại phải tôn sùng sự chuyên chế của ngẫu nhiên hơn là trách nhiệm của lựa chọn?",
+      "durationMs": 4632
+    },
+    {
+      "id": "s64",
+      "speaker": "Naomi",
+      "text": "Because the genetic lottery, for all its cruelty, doesn't express anyone's judgement about who is worth bringing into existence.",
+      "translationVi": "Bởi vì cuộc xổ số di truyền, dù tàn nhẫn đến đâu, không thể hiện phán xét của bất kỳ ai về việc ai đáng được mang vào sự tồn tại.",
+      "durationMs": 7632
+    },
+    {
+      "id": "s65",
+      "speaker": "Naomi",
+      "text": "The moment we design, we encode our present values and biases into the next generation, and history should make us extremely humble about the durability of our values.",
+      "translationVi": "Khoảnh khắc chúng ta thiết kế, chúng ta mã hóa những giá trị và thiên kiến hiện tại của mình vào thế hệ kế tiếp, và lịch sử nên khiến chúng ta cực kỳ khiêm tốn về độ bền vững của các giá trị của mình.",
+      "durationMs": 9408
+    },
+    {
+      "id": "s66",
+      "speaker": "Theo",
+      "text": "That's a genuinely sobering point — that we'd be inscribing the prejudices of our era into the germline.",
+      "translationVi": "Đó là một điểm thực sự đáng suy ngẫm — rằng chúng ta sẽ khắc ghi những định kiến của thời đại mình vào dòng mầm.",
+      "durationMs": 6360
+    },
+    {
+      "id": "s67",
+      "speaker": "Theo",
+      "text": "But I'd note that refraining also expresses a value judgement: that the suffering caused by editable conditions is somehow more acceptable than the risks of intervention.",
+      "translationVi": "Nhưng tôi sẽ lưu ý rằng việc kiềm chế cũng thể hiện một phán xét giá trị: rằng nỗi đau khổ do những tình trạng có thể chỉnh sửa gây ra bằng cách nào đó dễ chấp nhận hơn những rủi ro của can thiệp.",
+      "durationMs": 9936
+    },
+    {
+      "id": "s68",
+      "speaker": "Naomi",
+      "text": "Agreed, and I don't want to pretend that inaction is a neutral default — it isn't.",
+      "translationVi": "Đồng ý, và tôi không muốn giả vờ rằng sự không hành động là một mặc định trung lập — nó không phải vậy.",
+      "durationMs": 4560
+    },
+    {
+      "id": "s69",
+      "speaker": "Naomi",
+      "text": "My position is narrower than abolitionism.",
+      "translationVi": "Lập trường của tôi hẹp hơn chủ nghĩa bãi bỏ hoàn toàn.",
+      "durationMs": 2976
+    },
+    {
+      "id": "s70",
+      "speaker": "Naomi",
+      "text": "I'd permit germline editing for severe monogenic disease under stringent international oversight, while prohibiting enhancement until we have far more robust mechanisms for addressing the equity and consent dimensions.",
+      "translationVi": "Tôi sẽ cho phép chỉnh sửa dòng mầm đối với bệnh đơn gen nghiêm trọng dưới sự giám sát quốc tế nghiêm ngặt, đồng thời cấm việc tăng cường cho đến khi chúng ta có những cơ chế vững chắc hơn nhiều để giải quyết các khía cạnh công bằng và đồng thuận.",
+      "durationMs": 12480
+    },
+    {
+      "id": "s71",
+      "speaker": "Theo",
+      "text": "I can live with a good deal of that as a transitional settlement.",
+      "translationVi": "Tôi có thể chấp nhận phần lớn điều đó như một giải pháp dàn xếp chuyển tiếp.",
+      "durationMs": 3504
+    },
+    {
+      "id": "s72",
+      "speaker": "Theo",
+      "text": "The crux of our remaining disagreement is really about the enhancement category — whether it can ever be governed responsibly, or whether it's so vulnerable to the equity and value-imposition concerns that prohibition is the only stable equilibrium.",
+      "translationVi": "Mấu chốt của bất đồng còn lại giữa chúng ta thực ra nằm ở phạm trù tăng cường — liệu nó có bao giờ được quản trị một cách có trách nhiệm hay không, hay nó dễ tổn thương trước những mối quan ngại về công bằng và áp đặt giá trị đến mức cấm đoán là trạng thái cân bằng ổn định duy nhất.",
+      "durationMs": 14760
+    },
+    {
+      "id": "s73",
+      "speaker": "Naomi",
+      "text": "That's a fair statement of where we diverge.",
+      "translationVi": "Đó là một cách phát biểu công bằng về nơi chúng ta khác biệt.",
+      "durationMs": 2928
+    },
+    {
+      "id": "s74",
+      "speaker": "Naomi",
+      "text": "And I'd add that the honest position acknowledges we're legislating under deep uncertainty — about the science, about future values, about the institutions that would govern any of this.",
+      "translationVi": "Và tôi sẽ bổ sung rằng lập trường trung thực thừa nhận rằng chúng ta đang lập pháp trong sự bất định sâu sắc — về khoa học, về các giá trị tương lai, về những thể chế sẽ quản trị bất kỳ điều gì trong số này.",
+      "durationMs": 10128
+    },
+    {
+      "id": "s75",
+      "speaker": "Naomi",
+      "text": "Humility about all three should temper how irreversibly we commit.",
+      "translationVi": "Sự khiêm tốn về cả ba điều đó nên kiềm chế mức độ không thể đảo ngược mà chúng ta cam kết.",
+      "durationMs": 4128
+    },
+    {
+      "id": "s76",
+      "speaker": "Theo",
+      "text": "On that much we're firmly agreed.",
+      "translationVi": "Về chừng đó thì chúng ta hoàn toàn đồng ý.",
+      "durationMs": 1920
+    },
+    {
+      "id": "s77",
+      "speaker": "Theo",
+      "text": "The decisions we make in the next decade about germline editing will be among the most consequential and least reversible our species has ever taken — which is all the more reason to make them deliberately, transparently, and with the widest possible democratic deliberation.",
+      "translationVi": "Những quyết định chúng ta đưa ra trong thập kỷ tới về chỉnh sửa dòng mầm sẽ nằm trong số những quyết định hệ trọng nhất và ít thể đảo ngược nhất mà loài người từng thực hiện — đó càng là lý do để đưa ra chúng một cách cẩn trọng, minh bạch, và với sự bàn thảo dân chủ rộng rãi nhất có thể.",
+      "durationMs": 15696
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "I'd resist the assumption that there's a clean line to be drawn between … and …, because …"
+    },
+    {
+      "id": "h2",
+      "text": "There's a morally relevant asymmetry you're eliding: …, whereas …"
+    },
+    {
+      "id": "h3",
+      "text": "That's a … concern, which is real, but it's an argument for … rather than …"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "germline editing",
+      "meaningVi": "chỉnh sửa dòng mầm (thay đổi gen được truyền lại cho thế hệ sau)",
+      "pronunciation": "/ˈdʒɜːrmlaɪn ˈɛdɪtɪŋ/"
+    },
+    {
+      "id": "v2",
+      "phrase": "therapy-enhancement distinction",
+      "meaningVi": "sự phân biệt giữa trị liệu và tăng cường (sửa bệnh so với nâng cao năng lực)",
+      "pronunciation": "/ˈθɛrəpi ɪnˈhænsmənt dɪˈstɪŋkʃən/"
+    },
+    {
+      "id": "v3",
+      "phrase": "monogenic disorder",
+      "meaningVi": "rối loạn đơn gen (do một gen duy nhất gây ra)",
+      "pronunciation": "/ˌmɒnoʊˈdʒɛnɪk dɪsˈɔːrdər/"
+    },
+    {
+      "id": "v4",
+      "phrase": "reproductive tourism",
+      "meaningVi": "du lịch sinh sản (đi nước khác để dùng dịch vụ sinh sản dễ dãi hơn)",
+      "pronunciation": "/ˌriːprəˈdʌktɪv ˈtʊrɪzəm/"
+    },
+    {
+      "id": "v5",
+      "phrase": "pleiotropic effects",
+      "meaningVi": "hiệu ứng đa hiệu (một gen ảnh hưởng đến nhiều đặc điểm)",
+      "pronunciation": "/ˌplaɪəˈtrɒpɪk ɪˈfɛkts/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "germline editing",
+      "meaningVi": "chỉnh sửa dòng mầm (di truyền cho thế hệ sau)",
+      "pronunciation": "/ˈdʒɜːrmlaɪn ˈɛdɪtɪŋ/",
+      "exampleEn": "A germline edit is written into every cell and transmitted to all subsequent descendants."
+    },
+    {
+      "phrase": "therapeutic correction",
+      "meaningVi": "chỉnh sửa mang tính trị liệu (sửa khiếm khuyết về sức khỏe)",
+      "pronunciation": "/ˌθɛrəˈpjuːtɪk kəˈrɛkʃən/"
+    },
+    {
+      "phrase": "therapy-enhancement distinction",
+      "meaningVi": "sự phân biệt giữa trị liệu và tăng cường",
+      "pronunciation": "/ˈθɛrəpi ɪnˈhænsmənt dɪˈstɪŋkʃən/"
+    },
+    {
+      "phrase": "species-typical baseline",
+      "meaningVi": "mức nền điển hình của loài (ngưỡng chức năng bình thường)",
+      "pronunciation": "/ˈspiːʃiːz ˈtɪpɪkəl ˈbeɪslaɪn/"
+    },
+    {
+      "phrase": "locus",
+      "meaningVi": "vị trí gen (vị trí của một gen trên nhiễm sắc thể)",
+      "pronunciation": "/ˈloʊkəs/"
+    },
+    {
+      "phrase": "medicalising difference",
+      "meaningVi": "y khoa hóa sự khác biệt (coi khác biệt là bệnh cần chữa)",
+      "pronunciation": "/ˈmɛdɪkəlaɪzɪŋ ˈdɪfrəns/"
+    },
+    {
+      "phrase": "the embryo cannot consent",
+      "meaningVi": "phôi thai không thể đồng thuận",
+      "pronunciation": "/ði ˈɛmbrioʊ ˈkænɒt kənˈsɛnt/",
+      "exampleEn": "And there you've put your finger on the deepest problem: the embryo cannot consent."
+    },
+    {
+      "phrase": "autonomous agreement",
+      "meaningVi": "sự đồng thuận tự chủ (cơ sở của đạo đức y khoa)",
+      "pronunciation": "/ɔːˈtɒnəməs əˈɡriːmənt/"
+    },
+    {
+      "phrase": "irreversible changes",
+      "meaningVi": "những thay đổi không thể đảo ngược",
+      "pronunciation": "/ˌɪrɪˈvɜːrsəbəl ˈtʃeɪndʒɪz/"
+    },
+    {
+      "phrase": "morally relevant asymmetry",
+      "meaningVi": "sự bất đối xứng liên quan về mặt đạo đức",
+      "pronunciation": "/ˈmɔːrəli ˈrɛləvənt eɪˈsɪmɪtri/"
+    },
+    {
+      "phrase": "genetic lineage",
+      "meaningVi": "dòng dõi di truyền (chuỗi thế hệ kế thừa gen)",
+      "pronunciation": "/dʒəˈnɛtɪk ˈlɪniɪdʒ/"
+    },
+    {
+      "phrase": "the counterfactual",
+      "meaningVi": "tình huống phản thực (điều gì sẽ xảy ra nếu khác đi)",
+      "pronunciation": "/ðə ˌkaʊntərˈfæktʃuəl/"
+    },
+    {
+      "phrase": "monogenic disorder",
+      "meaningVi": "rối loạn đơn gen",
+      "pronunciation": "/ˌmɒnoʊˈdʒɛnɪk dɪsˈɔːrdər/"
+    },
+    {
+      "phrase": "the interventionist case",
+      "meaningVi": "lập luận ủng hộ can thiệp",
+      "pronunciation": "/ði ˌɪntərˈvɛnʃənɪst keɪs/"
+    },
+    {
+      "phrase": "slippery-slope worry",
+      "meaningVi": "nỗi lo về con dốc trơn trượt (một nhượng bộ dẫn đến chuỗi hệ quả tệ hơn)",
+      "pronunciation": "/ˈslɪpəri sloʊp ˈwʌri/"
+    },
+    {
+      "phrase": "reproductive cloning",
+      "meaningVi": "nhân bản sinh sản",
+      "pronunciation": "/ˌriːprəˈdʌktɪv ˈkloʊnɪŋ/"
+    },
+    {
+      "phrase": "single jurisdiction",
+      "meaningVi": "một khu vực tài phán duy nhất",
+      "pronunciation": "/ˈsɪŋɡəl ˌdʒʊrɪsˈdɪkʃən/"
+    },
+    {
+      "phrase": "reproductive tourism",
+      "meaningVi": "du lịch sinh sản",
+      "pronunciation": "/ˌriːprəˈdʌktɪv ˈtʊrɪzəm/"
+    },
+    {
+      "phrase": "patchwork of national regulations",
+      "meaningVi": "mớ chắp vá các quy định quốc gia",
+      "pronunciation": "/ˈpætʃwɜːrk əv ˈnæʃənəl ˌrɛɡjuˈleɪʃənz/"
+    },
+    {
+      "phrase": "regulatory-arbitrage problem",
+      "meaningVi": "vấn đề lợi dụng chênh lệch quy định",
+      "pronunciation": "/ˈrɛɡjələtɔːri ˈɑːrbɪtrɑːʒ ˈprɒbləm/"
+    },
+    {
+      "phrase": "blanket moratorium",
+      "meaningVi": "lệnh đình chỉ toàn diện",
+      "pronunciation": "/ˈblæŋkɪt ˌmɒrəˈtɔːriəm/"
+    },
+    {
+      "phrase": "the equity dimension",
+      "meaningVi": "khía cạnh công bằng",
+      "pronunciation": "/ði ˈɛkwɪti dɪˈmɛnʃən/"
+    },
+    {
+      "phrase": "heritable advantage",
+      "meaningVi": "lợi thế di truyền (có thể truyền lại)",
+      "pronunciation": "/ˈhɛrɪtəbəl ədˈvæntɪdʒ/"
+    },
+    {
+      "phrase": "distributive-justice concern",
+      "meaningVi": "mối quan ngại về công lý phân phối",
+      "pronunciation": "/dɪˈstrɪbjətɪv ˈdʒʌstɪs kənˈsɜːrn/"
+    },
+    {
+      "phrase": "biological caste system",
+      "meaningVi": "chế độ đẳng cấp sinh học",
+      "pronunciation": "/ˌbaɪəˈlɒdʒɪkəl kɑːst ˈsɪstəm/"
+    },
+    {
+      "phrase": "social mobility",
+      "meaningVi": "sự dịch chuyển xã hội",
+      "pronunciation": "/ˈsoʊʃəl moʊˈbɪlɪti/"
+    },
+    {
+      "phrase": "polygenic reality",
+      "meaningVi": "thực tế đa gen (nhiều gen cùng quyết định một đặc điểm)",
+      "pronunciation": "/ˌpɒliˈdʒɛnɪk riˈæləti/"
+    },
+    {
+      "phrase": "tiny effect sizes",
+      "meaningVi": "mức độ tác động nhỏ xíu (của từng biến thể gen)",
+      "pronunciation": "/ˈtaɪni ɪˈfɛkt ˈsaɪzɪz/"
+    },
+    {
+      "phrase": "pleiotropic effects",
+      "meaningVi": "hiệu ứng đa hiệu (một gen ảnh hưởng nhiều đặc điểm)",
+      "pronunciation": "/ˌplaɪəˈtrɒpɪk ɪˈfɛkts/"
+    },
+    {
+      "phrase": "unanticipated liabilities",
+      "meaningVi": "những bất lợi không lường trước",
+      "pronunciation": "/ˌʌnænˈtɪsɪpeɪtɪd ˌlaɪəˈbɪlɪtiz/"
+    },
+    {
+      "phrase": "in-vitro fertilisation",
+      "meaningVi": "thụ tinh trong ống nghiệm (IVF)",
+      "pronunciation": "/ɪn ˈviːtroʊ ˌfɜːrtɪlaɪˈzeɪʃən/"
+    },
+    {
+      "phrase": "the genetic lottery",
+      "meaningVi": "cuộc xổ số di truyền (sự phân bổ gen ngẫu nhiên)",
+      "pronunciation": "/ðə dʒəˈnɛtɪk ˈlɒtəri/"
+    },
+    {
+      "phrase": "value judgement",
+      "meaningVi": "phán xét giá trị (dựa trên quan niệm đúng-sai)",
+      "pronunciation": "/ˈvæljuː ˈdʒʌdʒmənt/"
+    },
+    {
+      "phrase": "stringent international oversight",
+      "meaningVi": "sự giám sát quốc tế nghiêm ngặt",
+      "pronunciation": "/ˈstrɪndʒənt ˌɪntərˈnæʃənəl ˈoʊvərsaɪt/"
+    },
+    {
+      "phrase": "stable equilibrium",
+      "meaningVi": "trạng thái cân bằng ổn định",
+      "pronunciation": "/ˈsteɪbəl ˌiːkwɪˈlɪbriəm/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Proving too much: 'the objection proves too much'",
+      "bodyVi": "'Proves too much' là một nước đi phản biện sắc bén: bạn chấp nhận tạm thời nguyên tắc của đối phương rồi chỉ ra rằng nếu áp dụng nhất quán, nó sẽ dẫn đến những kết luận mà chính họ cũng bác bỏ. Vì vậy nguyên tắc đó phải sai hoặc cần được giới hạn. Ví dụ: 'The consent objection proves too much, doesn't it? Parents make non-consensual decisions for their children constantly.'",
+      "bodyEn": "Saying an argument 'proves too much' is a precise rebuttal move: you grant the opponent's principle, then show that consistently applied it would license conclusions they themselves reject — so the principle must be flawed or needs qualification. It shifts the burden back to them to explain why their principle stops where it conveniently does. It is a hallmark of sophisticated, charitable-yet-incisive debate."
+    },
+    {
+      "title": "Hedged concession then pivot: 'Granted, … But …'",
+      "bodyVi": "Trong tranh luận ở trình độ cao, người nói thường nhượng bộ một phần trước khi phản công, dùng các cụm như 'Granted, …', 'Agreed, …', hay 'That's a fair point, but …'. Việc thừa nhận điểm đúng của đối phương khiến lập luận tiếp theo có sức nặng và đáng tin hơn, đồng thời thể hiện sự lắng nghe. Ví dụ: 'Granted, the heritability raises the stakes. But consider the counterfactual.'",
+      "bodyEn": "Skilled debaters concede a point before pivoting, using markers like 'Granted, …', 'Agreed, …', or 'That's a fair point, but …'. Acknowledging the opponent's valid point first signals good faith and makes the subsequent counter more persuasive — it shows you have engaged with the strongest form of their view rather than a straw man. The pivot ('But …') then introduces the limiting consideration that the concession does not actually settle."
+    }
+  ],
+  "translationVi": "Theo: Tiến sĩ Naomi, giờ đây khi CRISPR-Cas9 đã khiến việc chỉnh sửa dòng mầm không chỉ là điều có thể hình dung mà còn trở thành thường quy về mặt kỹ thuật trong phòng thí nghiệm, tôi cho rằng cuộc thảo luận về đạo đức đã tụt hậu nghiêm trọng so với khoa học. Theo bà thì ranh giới nên nằm ở đâu giữa việc chỉnh sửa mang tính trị liệu và việc tăng cường? Naomi: Tôi sẽ phản đối giả định rằng có một ranh giới rõ ràng nào đó để vạch ra. Sự phân biệt giữa trị liệu và tăng cường nghe có vẻ hấp dẫn về mặt trực giác, nhưng nó có xu hướng sụp đổ khi bị xem xét kỹ. Việc sửa một đột biến khiến ai đó dễ mắc bệnh Huntington trông rõ ràng là mang tính trị liệu, nhưng việc chỉnh sửa cùng vị trí gen đó để tạo ra khả năng đề kháng với một căn bệnh mà họ chưa mắc lại chuyển dần một cách khó nhận thấy sang tăng cường. Theo: Nhưng chắc chắn chúng ta có thể neo sự phân biệt đó vào một mức nền điển hình của loài. Khôi phục chức năng nằm dưới phạm vi bình thường là trị liệu; đẩy nó lên trên mức đó là tăng cường. Các bác sĩ lâm sàng đưa ra loại phán đoán đó mỗi ngày mà không tự làm tê liệt mình vì những trường hợp ranh giới. Naomi: Mức nền điển hình của loài đang đảm nhận một khối lượng công việc đạo đức khổng lồ trong câu nói đó, và tôi không nghĩ nó có thể gánh nổi sức nặng ấy. Bình thường theo tiêu chuẩn của ai? Khái niệm đó mã hóa những giả định có thể tranh cãi về điều gì được coi là một khiếm khuyết. Chẳng hạn, các cộng đồng người điếc đã lập luận mạnh mẽ rằng điếc là một bản sắc văn hóa chứ không phải một căn bệnh cần được chỉnh sửa loại bỏ. Theo: Đó là một lời cảnh báo hợp lý chống lại việc y khoa hóa sự khác biệt. Nhưng tôi sẽ phân biệt câu hỏi chính trị về việc chúng ta đối xử với những người đang tồn tại như thế nào với câu hỏi lâm sàng về điều chúng ta sẽ chọn cho một phôi thai. Khi chúng ta quyết định truyền lại bộ gen nào, chắc chắn việc mặc định chọn một phạm vi cơ hội rộng hơn là điều có thể biện hộ được chứ? Naomi: Và đó là lúc ông đã chỉ trúng vấn đề sâu sắc nhất: phôi thai không thể đồng thuận. Mọi khuôn khổ đạo đức mà chúng ta có cho can thiệp y tế đều dựa trên sự đồng thuận tự chủ, nhưng việc chỉnh sửa dòng mầm lại áp đặt những thay đổi không thể đảo ngược lên một con người chưa tồn tại và sẽ không bao giờ được hỏi ý kiến. Theo: Nhưng lập luận phản đối dựa trên sự đồng thuận chứng minh quá nhiều, phải không? Cha mẹ liên tục đưa ra những quyết định không thể đảo ngược và không có sự đồng thuận cho con cái họ — lựa chọn dinh dưỡng, tiếng mẹ đẻ, nền giáo dục tôn giáo, thậm chí chính quyết định thụ thai. Chúng ta không coi những điều đó là sự vi phạm đạo đức. Naomi: Có một sự bất đối xứng liên quan về mặt đạo đức mà ông đang lờ đi. Những quyết định đó định hình môi trường mà một đứa trẻ lớn lên trong đó và sau này có thể chối bỏ hoặc điều chỉnh. Một chỉnh sửa dòng mầm được ghi vào từng tế bào và truyền lại cho tất cả các thế hệ con cháu sau này. Ông không đang đưa ra một lựa chọn cho con mình; ông đang đưa ra lựa chọn đó cho cả một dòng dõi di truyền không bao giờ có thể phản đối. Theo: Phải thừa nhận rằng tính di truyền làm tăng mức độ hệ trọng. Nhưng hãy xem xét tình huống phản thực. Nếu tôi từ chối chỉnh sửa loại bỏ một rối loạn đơn gen tàn khốc mà lẽ ra tôi có thể ngăn chặn, chẳng phải tôi cũng đang đưa ra một quyết định không thể đảo ngược và không có sự đồng thuận hay sao — kết án dòng dõi đó phải chịu đau khổ qua sự không hành động của tôi? Naomi: Đó là phiên bản mạnh nhất của lập luận ủng hộ can thiệp, và tôi xem xét nó một cách nghiêm túc. Đối với những rối loạn đơn gen nghiêm trọng, đã được mô tả rõ ràng, sự bất đối xứng giữa hành động và kiềm chế thực sự thu hẹp lại. Mối lo của tôi là chúng ta sẽ lén đưa vào nhiều hơn nhiều dưới danh nghĩa ngăn ngừa đau khổ so với những gì mà phạm trù hẹp đó cho phép. Theo: Nỗi lo về con dốc trơn trượt. Tôi sẽ phản bác rằng những con dốc đó có thể được tạo thành bậc thang bằng quy định. Chúng ta cấp phép cho các phòng khám hỗ trợ sinh sản, chúng ta kiểm toán các phòng thí nghiệm, chúng ta cấm hẳn việc nhân bản sinh sản. Tại sao lại giả định rằng chúng ta không có khả năng vạch ra và giám sát một ranh giới có thể biện hộ được quanh những chỉnh sửa được phép? Naomi: Bởi vì ranh giới đó sẽ không được giám sát bởi một khu vực tài phán duy nhất. Chúng ta đã có du lịch sinh sản, nơi các bậc cha mẹ tương lai đi đến bất kỳ chế độ nào có những quy định dễ dãi nhất. Một mớ chắp vá các quy định quốc gia không thể địch lại một tầng lớp khách hàng di động toàn cầu và các phòng khám cạnh tranh để giành lấy họ. Theo: Đó là vấn đề lợi dụng chênh lệch quy định, chứ không phải một lập luận chống lại bản thân công nghệ. Điều tương tự có thể được nói về bất kỳ đổi mới y sinh nào. Chắc chắn giải pháp là sự phối hợp quốc tế mạnh mẽ hơn chứ không phải một lệnh đình chỉ toàn diện chỉ đơn thuần nhường sân chơi cho những bên thiếu lương tâm nhất chứ? Naomi: Tôi không lập luận cho việc cấm vĩnh viễn. Tôi đang lập luận rằng khía cạnh công bằng đang đảm nhận quá ít vai trò trong cách đặt vấn đề của ông. Giả sử công nghệ trưởng thành và an toàn. Ai trả tiền cho nó? Nếu việc tăng cường chỉ dành cho những người đủ khả năng chi trả, thì chúng ta đang thiết kế lợi thế di truyền trực tiếp vào vốn gen của giới giàu có. Theo: Đó là một mối quan ngại về công lý phân phối liên quan đến khả năng tiếp cận, điều này có thật, nhưng đó là một lập luận cho trợ cấp công, không phải cho việc cấm đoán. Chúng ta không cấm những loại thuốc hiệu quả chỉ vì ban đầu chúng đắt đỏ; chúng ta nỗ lực hạ giá thành và mở rộng khả năng tiếp cận theo thời gian. Naomi: Thuốc không tích lũy lũy tiến qua các thế hệ. Nếu giới giàu có thể mua những lợi thế nhận thức hay thể chất rồi được di truyền, khoảng cách không chỉ tồn tại dai dẳng — nó còn nới rộng qua mỗi thế hệ, cứng lại thành thứ gì đó gần với một chế độ đẳng cấp sinh học. Sự dịch chuyển xã hội vốn đã tương quan với của cải thừa kế; giờ hãy tưởng tượng nó tương quan với kiểu gen thừa kế. Theo: Sự ngoại suy theo viễn cảnh đen tối đó giả định rằng việc tăng cường thực sự mang lại những lợi thế di truyền mà người ta tưởng tượng, điều mà thực tế đa gen khiến trở nên đáng ngờ. Hầu hết những đặc điểm mà các bậc cha mẹ tương lai thèm muốn — trí thông minh, chiều cao, tính khí — đều chịu ảnh hưởng của hàng nghìn biến thể với mức độ tác động nhỏ xíu, chịu sự chi phối nặng nề của môi trường. Naomi: Tuy nhiên, sự phức tạp đa gen lại tác động theo một hướng đầy bất tiện. Nó có nghĩa là chúng ta sẽ đặt cược mang tính xác suất vào những đặc điểm mà chúng ta chưa hiểu hết, với những hiệu ứng đa hiệu mà chúng ta không thể lường trước. Một biến thể được chọn vì một kết quả mong muốn có thể mang theo những bất lợi không lường trước ở nơi khác trong hệ thống. Theo: Đó chính là lý do tôi ủng hộ sự tiến bộ tiệm tiến, dựa trên bằng chứng hơn là một lập trường cấm đoán đẩy công việc đó vào hoạt động ngầm. Lịch sử của thụ tinh trong ống nghiệm rất đáng để học hỏi — bị lên án là đóng vai Chúa Trời vào những năm bảy mươi, giờ đây hoàn toàn thường quy và là nguyên nhân cho hàng triệu đứa trẻ được mong đợi. Naomi: Phép loại suy về thụ tinh trong ống nghiệm là con dao hai lưỡi. Thụ tinh trong ống nghiệm giúp người ta có một đứa con; nó không quyết định đứa trẻ đó sẽ là người như thế nào. Điều mới mẻ về mặt đạo đức của việc chỉnh sửa dòng mầm không phải ở chỗ nó là công nghệ sinh sản — mà ở chỗ nó biến cấu tạo của một con người tương lai thành một đối tượng được thiết kế có chủ đích và một lựa chọn tiêu dùng. Theo: Nhưng liệu việc thiết kế có chủ đích có tự bản chất tồi tệ hơn cuộc xổ số di truyền không? Chúng ta lãng mạn hóa sự ngẫu nhiên, nhưng chẳng có gì nhân từ trong một lần bốc thăm ngẫu nhiên trao cho đứa trẻ này một căn bệnh suy nhược và đứa trẻ kia sức khỏe dồi dào. Tại sao chúng ta lại phải tôn sùng sự chuyên chế của ngẫu nhiên hơn là trách nhiệm của lựa chọn? Naomi: Bởi vì cuộc xổ số di truyền, dù tàn nhẫn đến đâu, không thể hiện phán xét của bất kỳ ai về việc ai đáng được mang vào sự tồn tại. Khoảnh khắc chúng ta thiết kế, chúng ta mã hóa những giá trị và thiên kiến hiện tại của mình vào thế hệ kế tiếp, và lịch sử nên khiến chúng ta cực kỳ khiêm tốn về độ bền vững của các giá trị của mình. Theo: Đó là một điểm thực sự đáng suy ngẫm — rằng chúng ta sẽ khắc ghi những định kiến của thời đại mình vào dòng mầm. Nhưng tôi sẽ lưu ý rằng việc kiềm chế cũng thể hiện một phán xét giá trị: rằng nỗi đau khổ do những tình trạng có thể chỉnh sửa gây ra bằng cách nào đó dễ chấp nhận hơn những rủi ro của can thiệp. Naomi: Đồng ý, và tôi không muốn giả vờ rằng sự không hành động là một mặc định trung lập — nó không phải vậy. Lập trường của tôi hẹp hơn chủ nghĩa bãi bỏ hoàn toàn. Tôi sẽ cho phép chỉnh sửa dòng mầm đối với bệnh đơn gen nghiêm trọng dưới sự giám sát quốc tế nghiêm ngặt, đồng thời cấm việc tăng cường cho đến khi chúng ta có những cơ chế vững chắc hơn nhiều để giải quyết các khía cạnh công bằng và đồng thuận. Theo: Tôi có thể chấp nhận phần lớn điều đó như một giải pháp dàn xếp chuyển tiếp. Mấu chốt của bất đồng còn lại giữa chúng ta thực ra nằm ở phạm trù tăng cường — liệu nó có bao giờ được quản trị một cách có trách nhiệm hay không, hay nó dễ tổn thương trước những mối quan ngại về công bằng và áp đặt giá trị đến mức cấm đoán là trạng thái cân bằng ổn định duy nhất. Naomi: Đó là một cách phát biểu công bằng về nơi chúng ta khác biệt. Và tôi sẽ bổ sung rằng lập trường trung thực thừa nhận rằng chúng ta đang lập pháp trong sự bất định sâu sắc — về khoa học, về các giá trị tương lai, về những thể chế sẽ quản trị bất kỳ điều gì trong số này. Sự khiêm tốn về cả ba điều đó nên kiềm chế mức độ không thể đảo ngược mà chúng ta cam kết. Theo: Về chừng đó thì chúng ta hoàn toàn đồng ý. Những quyết định chúng ta đưa ra trong thập kỷ tới về chỉnh sửa dòng mầm sẽ nằm trong số những quyết định hệ trọng nhất và ít thể đảo ngược nhất mà loài người từng thực hiện — đó càng là lý do để đưa ra chúng một cách cẩn trọng, minh bạch, và với sự bàn thảo dân chủ rộng rãi nhất có thể.",
+  "criticalThinkingQuestion": "If germline editing for severe monogenic disease is permitted while enhancement is prohibited, but the therapy-enhancement boundary cannot be cleanly drawn and regulation is unenforceable across jurisdictions, what institutional and ethical safeguards — addressing consent of future generations, the risk of a heritable genetic divide, and the imposition of present-day values on descendants — could make such a regime both stable and just?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-c1-035",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 497688
+}

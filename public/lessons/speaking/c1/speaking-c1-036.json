@@ -1,0 +1,965 @@
+{
+  "id": "speaking-c1-036",
+  "level": "C1",
+  "title": "Monetary Policy and Inflation",
+  "summary": "Central bank economist Dr. Iris and macro-strategist Marcus debate the conduct of monetary policy in the wake of an inflation surge, ranging across the calibration of interest rates, the credibility of central-bank inflation targets, the lags through which policy transmits, and the unavoidable trade-offs between price stability and employment.",
+  "topic": "monetary policy",
+  "tags": [
+    "Economics",
+    "Finance",
+    "Policy"
+  ],
+  "characters": [
+    "Iris",
+    "Marcus"
+  ],
+  "voices": {
+    "Iris": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-AvaNeural"
+    },
+    "Marcus": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-EricNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Marcus",
+      "text": "Dr. Iris, with hindsight the central-bank consensus that the post-pandemic inflation would prove transitory looks like one of the more consequential forecasting errors in recent memory. How much does that misjudgement undermine the credibility on which the entire inflation-targeting framework depends?"
+    },
+    {
+      "speaker": "Iris",
+      "text": "It's a fair charge, and I won't minimise it. The transitory narrative reflected a genuine analytical failure to appreciate how supply-side shocks and pent-up demand would interact. That said, I'd distinguish a forecasting error from a framework failure. The framework ultimately did its job — once the misdiagnosis became apparent, the policy response was forceful and inflation expectations remained broadly anchored."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "But the anchoring of expectations is precisely what's at stake. If the public internalises the lesson that the central bank will systematically lag the curve, the self-fulfilling dynamics that make inflation targeting work begin to erode. Credibility, once spent, is extraordinarily expensive to rebuild — Volcker had to engineer a brutal recession to do it."
+    },
+    {
+      "speaker": "Iris",
+      "text": "The Volcker comparison is instructive but I'd resist the implication that we were anywhere near that regime. Long-term expectations, as measured by both surveys and market-based breakevens, never de-anchored in the way they did in the late seventies. The rapid, front-loaded tightening cycle was partly designed to demonstrate resolve precisely so we wouldn't have to pay the Volcker price."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "Front-loaded, yes, but the calibration still strikes me as having been driven more by a desire to signal resolve than by a clear-eyed reading of the transmission lags. Monetary policy works with long and variable lags — the textbook figure is twelve to eighteen months. By tightening aggressively into an economy where prior hikes hadn't yet fully bitten, didn't you risk overshooting?"
+    },
+    {
+      "speaker": "Iris",
+      "text": "That's the perennial dilemma, and there's no costless answer. The lags cut both ways. Yes, acting on policy that hasn't fully transmitted risks overshooting; but waiting for confirmation that you've done enough risks letting inflation become entrenched, at which point the eventual tightening has to be far more severe. We were navigating genuine uncertainty about where neutral actually sat."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "And the neutral rate is itself unobservable — you're steering by reference to a star you can't actually see. R-star estimates carry enormous confidence intervals. Doesn't that fundamental unobservability argue for a more rules-based approach, something like a Taylor rule, rather than the discretion that produced the transitory misjudgement in the first place?"
+    },
+    {
+      "speaker": "Iris",
+      "text": "I'm sympathetic to the discipline that rules impose, but I think the rules-versus-discretion dichotomy is overdrawn. A mechanical Taylor rule would have called for negative rates during parts of the last cycle and would have whipsawed the economy through the supply shocks. Rules are a useful cross-check and a communication device, but no rule survives contact with a genuinely novel shock."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "The supply-shock point is the crux, isn't it? Conventional monetary policy is a demand-management tool. When inflation originates on the supply side — energy, shipping, semiconductors — raising rates does nothing to unblock a port or drill a well. You're suppressing demand to offset a supply problem, which means deliberately destroying output and employment that didn't cause the inflation."
+    },
+    {
+      "speaker": "Iris",
+      "text": "You've put your finger on the most uncomfortable trade-off in the whole exercise. You're right that we can't reopen a semiconductor fab by raising rates. But the central bank's mandate isn't to address the proximate cause of every price increase — it's to prevent a relative-price shock from morphing into a generalised, self-perpetuating wage-price spiral. That second-round risk is the one monetary policy genuinely can address."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "Granted that the second-round dynamics are the legitimate target. But the wage-price-spiral framing has been criticised as resting on a model of labour bargaining power that simply doesn't reflect contemporary labour markets, where union density has collapsed and workers have limited ability to claw back real wages. Were you fighting a spiral that the underlying structure of the economy made unlikely?"
+    },
+    {
+      "speaker": "Iris",
+      "text": "That's a serious empirical question and I'd concede the evidence is mixed. The classic spiral of the seventies may well be less likely in today's structure. But 'less likely' is not 'impossible', and a central bank that waits for definitive proof that expectations have de-anchored before responding has, by construction, already failed at its core task. We're in the business of managing tail risks under uncertainty."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "Managing tail risks is reasonable framing, but it tends to be asymmetric in practice. The institutional incentives push central bankers to weight the inflation tail far more heavily than the unemployment tail, because an inflation overshoot is laid directly at your door whereas the unemployment cost is diffuse and easily attributed to other forces. That asymmetry has real distributional consequences."
+    },
+    {
+      "speaker": "Iris",
+      "text": "The distributional point deserves more attention than it usually gets, and I won't pretend the burden of disinflation falls evenly. The people who lose jobs in a tightening cycle are disproportionately at the margin of the labour market — younger, lower-wage, less secure. But I'd push back on the framing that inflation itself is distributionally neutral. Unanticipated inflation is a regressive tax that hits precisely those same people through eroded cash savings and fixed nominal incomes."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "That's the strongest version of the price-stability-as-social-protection argument, and I take it. Still, it presumes the cure is gentler than the disease, which is exactly what's contested. A deliberate increase in unemployment to bring inflation down trades a diffuse, partially self-correcting harm for a concentrated, scarring one — and the scarring effects of long-term unemployment are well documented."
+    },
+    {
+      "speaker": "Iris",
+      "text": "I accept that scarring is real and that it weighs on the side of caution about over-tightening. Where I'd resist is the implication that inflation is meaningfully self-correcting. Absent a credible policy anchor, there's no mechanism that returns inflation to target on its own — expectations don't mean-revert by magic. The self-correction you're invoking is, in fact, the policy response we're debating."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "That's a fair rejoinder — the anchor doesn't maintain itself. Let me press on the tooling instead. The blunt instrument of the policy rate transmits through interest-sensitive sectors first: housing, durable goods, business investment. So the pain is concentrated in particular sectors and regions long before aggregate inflation responds. Is a single national instrument even the right tool for what are often quite localised imbalances?"
+    },
+    {
+      "speaker": "Iris",
+      "text": "It's a blunt instrument, no question, and the uneven sectoral incidence is a genuine cost. But the alternative — sector-specific or regionally differentiated monetary policy — runs into both practical and political-economy problems that are, in my view, disqualifying. Once you start deciding which sectors deserve cheaper credit, you've politicised the central bank in a way that ultimately destroys the independence on which its anti-inflation credibility rests."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "Which brings us to independence, the doctrine underpinning the whole edifice. That independence was justified historically by the time-inconsistency problem — politicians' temptation to engineer pre-election booms. But in an era of large fiscal deficits and quantitative easing that blurs the monetary-fiscal boundary, hasn't the clean separation that justified independence become something of a polite fiction?"
+    },
+    {
+      "speaker": "Iris",
+      "text": "The boundary has certainly become blurrier, and the era of large central-bank balance sheets has created genuine entanglement with fiscal policy that we're still learning to manage. But I'd argue the time-inconsistency logic is more relevant now, not less. Precisely because deficits are large and the temptation to inflate away debt is real, a credibly independent central bank is the institutional firewall that keeps that temptation in check."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "I find that persuasive as far as it goes, though it does place an enormous amount of weight on an unelected institution making decisions with profound distributional consequences. Where, in your view, should the line sit between the technocratic insulation that protects credibility and the democratic accountability that legitimacy ultimately requires?"
+    },
+    {
+      "speaker": "Iris",
+      "text": "That's the question I think the profession has been too slow to confront honestly. My own view is that independence should be strictly instrumental, not goal-setting. The elected legislature sets the mandate — the inflation target, the weight on employment — and the central bank is then insulated only in its choice of instruments to pursue it. Independence over goals would indeed be democratically illegitimate; independence over means is what makes the commitment credible."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "That instrumental-versus-goal distinction is a clarifying place to land, and I suspect it's where much of the live disagreement actually concentrates — not on whether central banks should be independent, but on how much latitude 'choice of instruments' quietly smuggles in genuine goal-setting through the back door."
+    },
+    {
+      "speaker": "Iris",
+      "text": "That's a fair and uncomfortable characterisation, and I'd concede the line is blurrier in practice than in theory. The honest position is that monetary policy operates in a space where the trade-offs are real, the lags are long, the key variables are unobservable, and reasonable people weighing the same evidence will land differently. Humility about all of that is, I think, the beginning of doing the job well."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "On that note of earned humility we can certainly agree. The temptation in this field is always to mistake a confident model for genuine knowledge — and the cost of that overconfidence, as the transitory episode reminded us, is borne by people who never sat in the room where the decision was made."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Marcus",
+      "text": "Dr. Iris, with hindsight the central-bank consensus that the post-pandemic inflation would prove transitory looks like one of the more consequential forecasting errors in recent memory.",
+      "translationVi": "Tiến sĩ Iris, nhìn lại thì sự đồng thuận của các ngân hàng trung ương rằng lạm phát hậu đại dịch sẽ chỉ là nhất thời trông giống như một trong những sai lầm dự báo có hệ quả lớn nhất trong ký ức gần đây.",
+      "durationMs": 10656
+    },
+    {
+      "id": "s2",
+      "speaker": "Marcus",
+      "text": "How much does that misjudgement undermine the credibility on which the entire inflation-targeting framework depends?",
+      "translationVi": "Sai lầm trong phán đoán đó làm xói mòn đến mức nào uy tín mà toàn bộ khuôn khổ nhắm mục tiêu lạm phát phụ thuộc vào?",
+      "durationMs": 7032
+    },
+    {
+      "id": "s3",
+      "speaker": "Iris",
+      "text": "It's a fair charge, and I won't minimise it.",
+      "translationVi": "Đó là một lời cáo buộc xác đáng, và tôi sẽ không xem nhẹ nó.",
+      "durationMs": 3096
+    },
+    {
+      "id": "s4",
+      "speaker": "Iris",
+      "text": "The transitory narrative reflected a genuine analytical failure to appreciate how supply-side shocks and pent-up demand would interact.",
+      "translationVi": "Câu chuyện về tính nhất thời phản ánh một thất bại phân tích thực sự trong việc nhận ra cú sốc phía cung và nhu cầu bị dồn nén sẽ tương tác với nhau ra sao.",
+      "durationMs": 8472
+    },
+    {
+      "id": "s5",
+      "speaker": "Iris",
+      "text": "That said, I'd distinguish a forecasting error from a framework failure.",
+      "translationVi": "Dù vậy, tôi sẽ phân biệt một sai lầm dự báo với một thất bại của khuôn khổ.",
+      "durationMs": 4800
+    },
+    {
+      "id": "s6",
+      "speaker": "Iris",
+      "text": "The framework ultimately did its job — once the misdiagnosis became apparent, the policy response was forceful and inflation expectations remained broadly anchored.",
+      "translationVi": "Khuôn khổ cuối cùng đã làm tròn nhiệm vụ của nó — một khi chẩn đoán sai trở nên rõ ràng, phản ứng chính sách đã mạnh mẽ và kỳ vọng lạm phát vẫn được neo giữ về cơ bản.",
+      "durationMs": 10944
+    },
+    {
+      "id": "s7",
+      "speaker": "Marcus",
+      "text": "But the anchoring of expectations is precisely what's at stake.",
+      "translationVi": "Nhưng việc neo giữ kỳ vọng lại chính là điều đang bị đe dọa.",
+      "durationMs": 4392
+    },
+    {
+      "id": "s8",
+      "speaker": "Marcus",
+      "text": "If the public internalises the lesson that the central bank will systematically lag the curve, the self-fulfilling dynamics that make inflation targeting work begin to erode.",
+      "translationVi": "Nếu công chúng tiếp thu bài học rằng ngân hàng trung ương sẽ luôn phản ứng chậm trễ một cách hệ thống, thì những động lực tự ứng nghiệm khiến việc nhắm mục tiêu lạm phát hoạt động bắt đầu bị bào mòn.",
+      "durationMs": 10320
+    },
+    {
+      "id": "s9",
+      "speaker": "Marcus",
+      "text": "Credibility, once spent, is extraordinarily expensive to rebuild — Volcker had to engineer a brutal recession to do it.",
+      "translationVi": "Uy tín, một khi đã đánh mất, cực kỳ đắt đỏ để xây dựng lại — Volcker đã phải tạo ra một cuộc suy thoái tàn khốc để làm điều đó.",
+      "durationMs": 8160
+    },
+    {
+      "id": "s10",
+      "speaker": "Iris",
+      "text": "The Volcker comparison is instructive but I'd resist the implication that we were anywhere near that regime.",
+      "translationVi": "Phép so sánh với Volcker rất đáng để học hỏi nhưng tôi sẽ phản đối hàm ý rằng chúng ta đã ở bất cứ đâu gần với chế độ đó.",
+      "durationMs": 6648
+    },
+    {
+      "id": "s11",
+      "speaker": "Iris",
+      "text": "Long-term expectations, as measured by both surveys and market-based breakevens, never de-anchored in the way they did in the late seventies.",
+      "translationVi": "Kỳ vọng dài hạn, được đo lường bằng cả khảo sát lẫn các mức hòa vốn dựa trên thị trường, chưa bao giờ bị tháo neo theo cách chúng đã xảy ra vào cuối những năm bảy mươi.",
+      "durationMs": 9024
+    },
+    {
+      "id": "s12",
+      "speaker": "Iris",
+      "text": "The rapid, front-loaded tightening cycle was partly designed to demonstrate resolve precisely so we wouldn't have to pay the Volcker price.",
+      "translationVi": "Chu kỳ thắt chặt nhanh chóng, dồn về phía trước một phần được thiết kế để chứng minh quyết tâm chính là để chúng ta không phải trả cái giá của Volcker.",
+      "durationMs": 8040
+    },
+    {
+      "id": "s13",
+      "speaker": "Marcus",
+      "text": "Front-loaded, yes, but the calibration still strikes me as having been driven more by a desire to signal resolve than by a clear-eyed reading of the transmission lags.",
+      "translationVi": "Dồn về phía trước, đúng vậy, nhưng cách hiệu chỉnh vẫn khiến tôi cảm thấy bị thúc đẩy bởi mong muốn phát tín hiệu quyết tâm hơn là một sự đọc hiểu tỉnh táo về độ trễ truyền dẫn.",
+      "durationMs": 10008
+    },
+    {
+      "id": "s14",
+      "speaker": "Marcus",
+      "text": "Monetary policy works with long and variable lags — the textbook figure is twelve to eighteen months.",
+      "translationVi": "Chính sách tiền tệ vận hành với những độ trễ dài và biến thiên — con số trong sách giáo khoa là mười hai đến mười tám tháng.",
+      "durationMs": 7152
+    },
+    {
+      "id": "s15",
+      "speaker": "Marcus",
+      "text": "By tightening aggressively into an economy where prior hikes hadn't yet fully bitten, didn't you risk overshooting?",
+      "translationVi": "Bằng cách thắt chặt quyết liệt vào một nền kinh tế nơi những lần tăng lãi suất trước đó còn chưa thấm hết, chẳng phải các vị đã liều lĩnh đi quá đà hay sao?",
+      "durationMs": 6984
+    },
+    {
+      "id": "s16",
+      "speaker": "Iris",
+      "text": "That's the perennial dilemma, and there's no costless answer.",
+      "translationVi": "Đó là tình thế tiến thoái lưỡng nan muôn thuở, và không có câu trả lời nào mà không phải trả giá.",
+      "durationMs": 3984
+    },
+    {
+      "id": "s17",
+      "speaker": "Iris",
+      "text": "The lags cut both ways.",
+      "translationVi": "Độ trễ tác động theo cả hai hướng.",
+      "durationMs": 2232
+    },
+    {
+      "id": "s18",
+      "speaker": "Iris",
+      "text": "Yes, acting on policy that hasn't fully transmitted risks overshooting; but waiting for confirmation that you've done enough risks letting inflation become entrenched, at which point the eventual tightening has to be far more severe.",
+      "translationVi": "Đúng, hành động dựa trên chính sách chưa truyền dẫn đầy đủ có nguy cơ đi quá đà; nhưng chờ đợi sự xác nhận rằng mình đã làm đủ lại có nguy cơ để lạm phát ăn sâu, đến lúc đó việc thắt chặt cuối cùng buộc phải khắc nghiệt hơn nhiều.",
+      "durationMs": 13992
+    },
+    {
+      "id": "s19",
+      "speaker": "Iris",
+      "text": "We were navigating genuine uncertainty about where neutral actually sat.",
+      "translationVi": "Chúng tôi đang dò dẫm trong sự bất định thực sự về việc mức trung lập thực ra nằm ở đâu.",
+      "durationMs": 4776
+    },
+    {
+      "id": "s20",
+      "speaker": "Marcus",
+      "text": "And the neutral rate is itself unobservable — you're steering by reference to a star you can't actually see.",
+      "translationVi": "Mà bản thân lãi suất trung lập lại không thể quan sát được — các vị đang lái theo một ngôi sao mà các vị thực ra không thể nhìn thấy.",
+      "durationMs": 6864
+    },
+    {
+      "id": "s21",
+      "speaker": "Marcus",
+      "text": "R-star estimates carry enormous confidence intervals.",
+      "translationVi": "Các ước lượng về R-star mang theo những khoảng tin cậy khổng lồ.",
+      "durationMs": 4224
+    },
+    {
+      "id": "s22",
+      "speaker": "Marcus",
+      "text": "Doesn't that fundamental unobservability argue for a more rules-based approach, something like a Taylor rule, rather than the discretion that produced the transitory misjudgement in the first place?",
+      "translationVi": "Chẳng phải sự không thể quan sát mang tính căn bản đó lập luận cho một cách tiếp cận dựa trên quy tắc hơn, kiểu như quy tắc Taylor, thay vì sự tùy nghi đã tạo ra phán đoán sai về tính nhất thời ngay từ đầu hay sao?",
+      "durationMs": 10920
+    },
+    {
+      "id": "s23",
+      "speaker": "Iris",
+      "text": "I'm sympathetic to the discipline that rules impose, but I think the rules-versus-discretion dichotomy is overdrawn.",
+      "translationVi": "Tôi đồng cảm với tính kỷ luật mà các quy tắc áp đặt, nhưng tôi cho rằng sự lưỡng phân giữa quy tắc và tùy nghi đã bị phóng đại.",
+      "durationMs": 7344
+    },
+    {
+      "id": "s24",
+      "speaker": "Iris",
+      "text": "A mechanical Taylor rule would have called for negative rates during parts of the last cycle and would have whipsawed the economy through the supply shocks.",
+      "translationVi": "Một quy tắc Taylor máy móc hẳn đã đòi hỏi lãi suất âm trong một số giai đoạn của chu kỳ vừa qua và hẳn đã khiến nền kinh tế giật cục qua các cú sốc cung.",
+      "durationMs": 7872
+    },
+    {
+      "id": "s25",
+      "speaker": "Iris",
+      "text": "Rules are a useful cross-check and a communication device, but no rule survives contact with a genuinely novel shock.",
+      "translationVi": "Các quy tắc là một công cụ đối chiếu chéo hữu ích và một phương tiện truyền thông, nhưng không quy tắc nào sống sót khi va chạm với một cú sốc thực sự mới mẻ.",
+      "durationMs": 7248
+    },
+    {
+      "id": "s26",
+      "speaker": "Marcus",
+      "text": "The supply-shock point is the crux, isn't it?",
+      "translationVi": "Điểm về cú sốc cung chính là mấu chốt, phải không?",
+      "durationMs": 3600
+    },
+    {
+      "id": "s27",
+      "speaker": "Marcus",
+      "text": "Conventional monetary policy is a demand-management tool.",
+      "translationVi": "Chính sách tiền tệ thông thường là một công cụ quản lý nhu cầu.",
+      "durationMs": 4368
+    },
+    {
+      "id": "s28",
+      "speaker": "Marcus",
+      "text": "When inflation originates on the supply side — energy, shipping, semiconductors — raising rates does nothing to unblock a port or drill a well.",
+      "translationVi": "Khi lạm phát bắt nguồn từ phía cung — năng lượng, vận tải biển, chất bán dẫn — việc tăng lãi suất chẳng làm được gì để khai thông một bến cảng hay khoan một giếng dầu.",
+      "durationMs": 9744
+    },
+    {
+      "id": "s29",
+      "speaker": "Marcus",
+      "text": "You're suppressing demand to offset a supply problem, which means deliberately destroying output and employment that didn't cause the inflation.",
+      "translationVi": "Các vị đang kìm hãm nhu cầu để bù đắp cho một vấn đề phía cung, điều đó có nghĩa là cố ý phá hủy sản lượng và việc làm vốn không gây ra lạm phát.",
+      "durationMs": 8208
+    },
+    {
+      "id": "s30",
+      "speaker": "Iris",
+      "text": "You've put your finger on the most uncomfortable trade-off in the whole exercise.",
+      "translationVi": "Ông đã chỉ trúng sự đánh đổi khó chịu nhất trong toàn bộ công việc này.",
+      "durationMs": 4344
+    },
+    {
+      "id": "s31",
+      "speaker": "Iris",
+      "text": "You're right that we can't reopen a semiconductor fab by raising rates.",
+      "translationVi": "Ông nói đúng rằng chúng tôi không thể mở lại một nhà máy bán dẫn bằng cách tăng lãi suất.",
+      "durationMs": 4248
+    },
+    {
+      "id": "s32",
+      "speaker": "Iris",
+      "text": "But the central bank's mandate isn't to address the proximate cause of every price increase — it's to prevent a relative-price shock from morphing into a generalised, self-perpetuating wage-price spiral.",
+      "translationVi": "Nhưng nhiệm vụ của ngân hàng trung ương không phải là xử lý nguyên nhân trực tiếp của mọi đợt tăng giá — mà là ngăn một cú sốc giá tương đối biến thành một vòng xoáy lương-giá tự duy trì, lan rộng.",
+      "durationMs": 11808
+    },
+    {
+      "id": "s33",
+      "speaker": "Iris",
+      "text": "That second-round risk is the one monetary policy genuinely can address.",
+      "translationVi": "Rủi ro vòng hai đó mới là điều mà chính sách tiền tệ thực sự có thể xử lý.",
+      "durationMs": 4752
+    },
+    {
+      "id": "s34",
+      "speaker": "Marcus",
+      "text": "Granted that the second-round dynamics are the legitimate target.",
+      "translationVi": "Phải thừa nhận rằng các động lực vòng hai là mục tiêu chính đáng.",
+      "durationMs": 4176
+    },
+    {
+      "id": "s35",
+      "speaker": "Marcus",
+      "text": "But the wage-price-spiral framing has been criticised as resting on a model of labour bargaining power that simply doesn't reflect contemporary labour markets, where union density has collapsed and workers have limited ability to claw back real wages.",
+      "translationVi": "Nhưng cách đặt vấn đề về vòng xoáy lương-giá đã bị phê phán là dựa trên một mô hình về quyền thương lượng của người lao động vốn đơn giản là không phản ánh các thị trường lao động đương đại, nơi mật độ công đoàn đã sụp đổ và người lao động có khả năng hạn chế trong việc đòi lại tiền lương thực.",
+      "durationMs": 14208
+    },
+    {
+      "id": "s36",
+      "speaker": "Marcus",
+      "text": "Were you fighting a spiral that the underlying structure of the economy made unlikely?",
+      "translationVi": "Có phải các vị đang chiến đấu với một vòng xoáy mà cấu trúc nền tảng của nền kinh tế khiến nó khó xảy ra?",
+      "durationMs": 5232
+    },
+    {
+      "id": "s37",
+      "speaker": "Iris",
+      "text": "That's a serious empirical question and I'd concede the evidence is mixed.",
+      "translationVi": "Đó là một câu hỏi thực nghiệm nghiêm túc và tôi xin thừa nhận bằng chứng còn lẫn lộn.",
+      "durationMs": 5040
+    },
+    {
+      "id": "s38",
+      "speaker": "Iris",
+      "text": "The classic spiral of the seventies may well be less likely in today's structure.",
+      "translationVi": "Vòng xoáy kinh điển của những năm bảy mươi rất có thể ít khả năng xảy ra hơn trong cấu trúc ngày nay.",
+      "durationMs": 4704
+    },
+    {
+      "id": "s39",
+      "speaker": "Iris",
+      "text": "But 'less likely' is not 'impossible', and a central bank that waits for definitive proof that expectations have de-anchored before responding has, by construction, already failed at its core task.",
+      "translationVi": "Nhưng 'ít khả năng hơn' không phải là 'bất khả thi', và một ngân hàng trung ương chờ đợi bằng chứng dứt khoát rằng kỳ vọng đã bị tháo neo trước khi phản ứng thì, về bản chất cấu trúc, đã thất bại ở nhiệm vụ cốt lõi của mình.",
+      "durationMs": 12360
+    },
+    {
+      "id": "s40",
+      "speaker": "Iris",
+      "text": "We're in the business of managing tail risks under uncertainty.",
+      "translationVi": "Công việc của chúng tôi là quản lý các rủi ro đuôi trong điều kiện bất định.",
+      "durationMs": 3984
+    },
+    {
+      "id": "s41",
+      "speaker": "Marcus",
+      "text": "Managing tail risks is reasonable framing, but it tends to be asymmetric in practice.",
+      "translationVi": "Quản lý rủi ro đuôi là một cách đặt vấn đề hợp lý, nhưng trên thực tế nó có xu hướng bất đối xứng.",
+      "durationMs": 6048
+    },
+    {
+      "id": "s42",
+      "speaker": "Marcus",
+      "text": "The institutional incentives push central bankers to weight the inflation tail far more heavily than the unemployment tail, because an inflation overshoot is laid directly at your door whereas the unemployment cost is diffuse and easily attributed to other forces.",
+      "translationVi": "Các động cơ thể chế thúc đẩy các nhà ngân hàng trung ương đặt trọng số cho đuôi lạm phát nặng hơn nhiều so với đuôi thất nghiệp, bởi vì một đợt vượt mục tiêu lạm phát bị đổ thẳng lên đầu các vị trong khi chi phí thất nghiệp thì lan tỏa và dễ bị quy cho các lực lượng khác.",
+      "durationMs": 14760
+    },
+    {
+      "id": "s43",
+      "speaker": "Marcus",
+      "text": "That asymmetry has real distributional consequences.",
+      "translationVi": "Sự bất đối xứng đó có những hệ quả phân phối có thật.",
+      "durationMs": 4224
+    },
+    {
+      "id": "s44",
+      "speaker": "Iris",
+      "text": "The distributional point deserves more attention than it usually gets, and I won't pretend the burden of disinflation falls evenly.",
+      "translationVi": "Vấn đề phân phối xứng đáng được chú ý nhiều hơn mức thường có, và tôi sẽ không giả vờ rằng gánh nặng của việc giảm lạm phát rơi xuống một cách đồng đều.",
+      "durationMs": 7440
+    },
+    {
+      "id": "s45",
+      "speaker": "Iris",
+      "text": "The people who lose jobs in a tightening cycle are disproportionately at the margin of the labour market — younger, lower-wage, less secure.",
+      "translationVi": "Những người mất việc trong một chu kỳ thắt chặt thường ở rìa của thị trường lao động một cách không cân xứng — trẻ hơn, lương thấp hơn, kém an toàn hơn.",
+      "durationMs": 8232
+    },
+    {
+      "id": "s46",
+      "speaker": "Iris",
+      "text": "But I'd push back on the framing that inflation itself is distributionally neutral.",
+      "translationVi": "Nhưng tôi sẽ phản bác cách đặt vấn đề rằng bản thân lạm phát là trung lập về mặt phân phối.",
+      "durationMs": 5256
+    },
+    {
+      "id": "s47",
+      "speaker": "Iris",
+      "text": "Unanticipated inflation is a regressive tax that hits precisely those same people through eroded cash savings and fixed nominal incomes.",
+      "translationVi": "Lạm phát không lường trước là một loại thuế lũy thoái giáng đúng vào chính những người đó thông qua khoản tiết kiệm tiền mặt bị bào mòn và thu nhập danh nghĩa cố định.",
+      "durationMs": 8856
+    },
+    {
+      "id": "s48",
+      "speaker": "Marcus",
+      "text": "That's the strongest version of the price-stability-as-social-protection argument, and I take it.",
+      "translationVi": "Đó là phiên bản mạnh nhất của lập luận coi ổn định giá cả là sự bảo trợ xã hội, và tôi tiếp thu nó.",
+      "durationMs": 5880
+    },
+    {
+      "id": "s49",
+      "speaker": "Marcus",
+      "text": "Still, it presumes the cure is gentler than the disease, which is exactly what's contested.",
+      "translationVi": "Tuy vậy, nó giả định rằng phương thuốc nhẹ nhàng hơn căn bệnh, mà đó lại chính là điều đang bị tranh cãi.",
+      "durationMs": 6312
+    },
+    {
+      "id": "s50",
+      "speaker": "Marcus",
+      "text": "A deliberate increase in unemployment to bring inflation down trades a diffuse, partially self-correcting harm for a concentrated, scarring one — and the scarring effects of long-term unemployment are well documented.",
+      "translationVi": "Việc cố ý làm tăng thất nghiệp để kéo lạm phát xuống đánh đổi một tổn hại lan tỏa, tự điều chỉnh một phần để lấy một tổn hại tập trung, để lại sẹo — và các tác động để lại sẹo của thất nghiệp dài hạn đã được ghi nhận đầy đủ.",
+      "durationMs": 12912
+    },
+    {
+      "id": "s51",
+      "speaker": "Iris",
+      "text": "I accept that scarring is real and that it weighs on the side of caution about over-tightening.",
+      "translationVi": "Tôi chấp nhận rằng việc để lại sẹo là có thật và rằng nó nghiêng về phía thận trọng với việc thắt chặt quá mức.",
+      "durationMs": 5208
+    },
+    {
+      "id": "s52",
+      "speaker": "Iris",
+      "text": "Where I'd resist is the implication that inflation is meaningfully self-correcting.",
+      "translationVi": "Điều tôi sẽ phản đối là hàm ý rằng lạm phát tự điều chỉnh một cách đáng kể.",
+      "durationMs": 5400
+    },
+    {
+      "id": "s53",
+      "speaker": "Iris",
+      "text": "Absent a credible policy anchor, there's no mechanism that returns inflation to target on its own — expectations don't mean-revert by magic.",
+      "translationVi": "Khi thiếu một mỏ neo chính sách đáng tin cậy, không có cơ chế nào tự đưa lạm phát về mục tiêu — kỳ vọng không tự quay về mức trung bình một cách thần kỳ.",
+      "durationMs": 9120
+    },
+    {
+      "id": "s54",
+      "speaker": "Iris",
+      "text": "The self-correction you're invoking is, in fact, the policy response we're debating.",
+      "translationVi": "Sự tự điều chỉnh mà ông đang viện dẫn, trên thực tế, chính là phản ứng chính sách mà chúng ta đang tranh luận.",
+      "durationMs": 5496
+    },
+    {
+      "id": "s55",
+      "speaker": "Marcus",
+      "text": "That's a fair rejoinder — the anchor doesn't maintain itself.",
+      "translationVi": "Đó là một lời đáp trả xác đáng — mỏ neo không tự duy trì chính nó.",
+      "durationMs": 4368
+    },
+    {
+      "id": "s56",
+      "speaker": "Marcus",
+      "text": "Let me press on the tooling instead.",
+      "translationVi": "Để tôi gây áp lực vào bộ công cụ thay vào đó.",
+      "durationMs": 2856
+    },
+    {
+      "id": "s57",
+      "speaker": "Marcus",
+      "text": "The blunt instrument of the policy rate transmits through interest-sensitive sectors first: housing, durable goods, business investment.",
+      "translationVi": "Công cụ thô của lãi suất chính sách truyền dẫn qua các khu vực nhạy cảm với lãi suất trước tiên: nhà ở, hàng hóa bền, đầu tư doanh nghiệp.",
+      "durationMs": 8712
+    },
+    {
+      "id": "s58",
+      "speaker": "Marcus",
+      "text": "So the pain is concentrated in particular sectors and regions long before aggregate inflation responds.",
+      "translationVi": "Vì vậy nỗi đau tập trung ở những khu vực và vùng miền cụ thể từ rất lâu trước khi lạm phát tổng thể phản ứng.",
+      "durationMs": 6792
+    },
+    {
+      "id": "s59",
+      "speaker": "Marcus",
+      "text": "Is a single national instrument even the right tool for what are often quite localised imbalances?",
+      "translationVi": "Liệu một công cụ quốc gia duy nhất có thực sự là công cụ phù hợp cho những mất cân bằng vốn thường khá mang tính địa phương hay không?",
+      "durationMs": 6168
+    },
+    {
+      "id": "s60",
+      "speaker": "Iris",
+      "text": "It's a blunt instrument, no question, and the uneven sectoral incidence is a genuine cost.",
+      "translationVi": "Đó là một công cụ thô, không nghi ngờ gì, và sự phân bổ tác động không đều giữa các ngành là một chi phí thực sự.",
+      "durationMs": 5976
+    },
+    {
+      "id": "s61",
+      "speaker": "Iris",
+      "text": "But the alternative — sector-specific or regionally differentiated monetary policy — runs into both practical and political-economy problems that are, in my view, disqualifying.",
+      "translationVi": "Nhưng giải pháp thay thế — chính sách tiền tệ riêng theo ngành hoặc phân biệt theo vùng — vấp phải cả những vấn đề thực tiễn lẫn kinh tế chính trị mà theo tôi là loại bỏ hẳn lựa chọn đó.",
+      "durationMs": 11904
+    },
+    {
+      "id": "s62",
+      "speaker": "Iris",
+      "text": "Once you start deciding which sectors deserve cheaper credit, you've politicised the central bank in a way that ultimately destroys the independence on which its anti-inflation credibility rests.",
+      "translationVi": "Một khi bạn bắt đầu quyết định ngành nào xứng đáng được tín dụng rẻ hơn, bạn đã chính trị hóa ngân hàng trung ương theo cách mà rốt cuộc phá hủy sự độc lập mà uy tín chống lạm phát của nó dựa vào.",
+      "durationMs": 11040
+    },
+    {
+      "id": "s63",
+      "speaker": "Marcus",
+      "text": "Which brings us to independence, the doctrine underpinning the whole edifice.",
+      "translationVi": "Điều đó đưa chúng ta đến với sự độc lập, học thuyết làm nền tảng cho toàn bộ công trình.",
+      "durationMs": 5064
+    },
+    {
+      "id": "s64",
+      "speaker": "Marcus",
+      "text": "That independence was justified historically by the time-inconsistency problem — politicians' temptation to engineer pre-election booms.",
+      "translationVi": "Sự độc lập đó về mặt lịch sử được biện minh bằng vấn đề bất nhất theo thời gian — cám dỗ của các chính trị gia trong việc tạo ra các đợt bùng nổ trước bầu cử.",
+      "durationMs": 8832
+    },
+    {
+      "id": "s65",
+      "speaker": "Marcus",
+      "text": "But in an era of large fiscal deficits and quantitative easing that blurs the monetary-fiscal boundary, hasn't the clean separation that justified independence become something of a polite fiction?",
+      "translationVi": "Nhưng trong một thời đại của thâm hụt ngân sách lớn và nới lỏng định lượng làm mờ ranh giới tiền tệ - tài khóa, chẳng phải sự phân tách rạch ròi vốn biện minh cho tính độc lập đã trở thành một thứ hư cấu lịch sự hay sao?",
+      "durationMs": 11424
+    },
+    {
+      "id": "s66",
+      "speaker": "Iris",
+      "text": "The boundary has certainly become blurrier, and the era of large central-bank balance sheets has created genuine entanglement with fiscal policy that we're still learning to manage.",
+      "translationVi": "Ranh giới chắc chắn đã trở nên mờ nhạt hơn, và thời đại của các bảng cân đối kế toán khổng lồ của ngân hàng trung ương đã tạo ra sự vướng víu thực sự với chính sách tài khóa mà chúng tôi vẫn đang học cách quản lý.",
+      "durationMs": 11352
+    },
+    {
+      "id": "s67",
+      "speaker": "Iris",
+      "text": "But I'd argue the time-inconsistency logic is more relevant now, not less.",
+      "translationVi": "Nhưng tôi sẽ lập luận rằng logic bất nhất theo thời gian giờ đây càng liên quan hơn, chứ không kém đi.",
+      "durationMs": 5016
+    },
+    {
+      "id": "s68",
+      "speaker": "Iris",
+      "text": "Precisely because deficits are large and the temptation to inflate away debt is real, a credibly independent central bank is the institutional firewall that keeps that temptation in check.",
+      "translationVi": "Chính bởi vì thâm hụt lớn và cám dỗ làm xói mòn nợ bằng lạm phát là có thật, một ngân hàng trung ương độc lập một cách đáng tin chính là bức tường lửa thể chế giữ cho cám dỗ đó được kiểm soát.",
+      "durationMs": 11376
+    },
+    {
+      "id": "s69",
+      "speaker": "Marcus",
+      "text": "I find that persuasive as far as it goes, though it does place an enormous amount of weight on an unelected institution making decisions with profound distributional consequences.",
+      "translationVi": "Tôi thấy điều đó có sức thuyết phục trong chừng mực của nó, mặc dù nó đặt một sức nặng khổng lồ lên một thể chế không qua bầu cử đưa ra những quyết định với hệ quả phân phối sâu sắc.",
+      "durationMs": 10344
+    },
+    {
+      "id": "s70",
+      "speaker": "Marcus",
+      "text": "Where, in your view, should the line sit between the technocratic insulation that protects credibility and the democratic accountability that legitimacy ultimately requires?",
+      "translationVi": "Theo bà, ranh giới nên nằm ở đâu giữa sự cách ly mang tính kỹ trị bảo vệ uy tín và trách nhiệm giải trình dân chủ mà tính chính danh rốt cuộc đòi hỏi?",
+      "durationMs": 10200
+    },
+    {
+      "id": "s71",
+      "speaker": "Iris",
+      "text": "That's the question I think the profession has been too slow to confront honestly.",
+      "translationVi": "Đó là câu hỏi mà tôi nghĩ giới chuyên môn đã quá chậm trễ trong việc đối mặt một cách trung thực.",
+      "durationMs": 4584
+    },
+    {
+      "id": "s72",
+      "speaker": "Iris",
+      "text": "My own view is that independence should be strictly instrumental, not goal-setting.",
+      "translationVi": "Quan điểm riêng của tôi là sự độc lập nên hoàn toàn mang tính công cụ, chứ không phải thiết lập mục tiêu.",
+      "durationMs": 5256
+    },
+    {
+      "id": "s73",
+      "speaker": "Iris",
+      "text": "The elected legislature sets the mandate — the inflation target, the weight on employment — and the central bank is then insulated only in its choice of instruments to pursue it.",
+      "translationVi": "Cơ quan lập pháp được bầu cử thiết lập nhiệm vụ — mục tiêu lạm phát, trọng số dành cho việc làm — và ngân hàng trung ương sau đó chỉ được cách ly trong việc lựa chọn các công cụ để theo đuổi nó.",
+      "durationMs": 10800
+    },
+    {
+      "id": "s74",
+      "speaker": "Iris",
+      "text": "Independence over goals would indeed be democratically illegitimate; independence over means is what makes the commitment credible.",
+      "translationVi": "Sự độc lập đối với mục tiêu quả thực sẽ là phi chính danh về mặt dân chủ; sự độc lập đối với phương tiện mới là điều khiến cam kết trở nên đáng tin.",
+      "durationMs": 7704
+    },
+    {
+      "id": "s75",
+      "speaker": "Marcus",
+      "text": "That instrumental-versus-goal distinction is a clarifying place to land, and I suspect it's where much of the live disagreement actually concentrates — not on whether central banks should be independent, but on how much latitude 'choice of instruments' quietly smuggles in genuine goal-setting through the back door.",
+      "translationVi": "Sự phân biệt giữa công cụ và mục tiêu đó là một điểm dừng làm sáng tỏ vấn đề, và tôi ngờ rằng đó là nơi phần lớn những bất đồng thực sự tập trung — không phải ở chỗ ngân hàng trung ương có nên độc lập hay không, mà ở chỗ 'việc lựa chọn công cụ' lén lút đưa vào bao nhiêu việc thiết lập mục tiêu thực sự qua cửa sau.",
+      "durationMs": 17088
+    },
+    {
+      "id": "s76",
+      "speaker": "Iris",
+      "text": "That's a fair and uncomfortable characterisation, and I'd concede the line is blurrier in practice than in theory.",
+      "translationVi": "Đó là một sự mô tả xác đáng và khó chịu, và tôi xin thừa nhận ranh giới đó trên thực tế mờ nhạt hơn so với trong lý thuyết.",
+      "durationMs": 7416
+    },
+    {
+      "id": "s77",
+      "speaker": "Iris",
+      "text": "The honest position is that monetary policy operates in a space where the trade-offs are real, the lags are long, the key variables are unobservable, and reasonable people weighing the same evidence will land differently.",
+      "translationVi": "Lập trường trung thực là chính sách tiền tệ vận hành trong một không gian nơi những sự đánh đổi là có thật, độ trễ thì dài, các biến số then chốt không thể quan sát được, và những người có lý trí cân nhắc cùng một bằng chứng sẽ đi đến những kết luận khác nhau.",
+      "durationMs": 13128
+    },
+    {
+      "id": "s78",
+      "speaker": "Iris",
+      "text": "Humility about all of that is, I think, the beginning of doing the job well.",
+      "translationVi": "Sự khiêm tốn về tất cả những điều đó, theo tôi, là khởi đầu của việc làm tốt công việc này.",
+      "durationMs": 4920
+    },
+    {
+      "id": "s79",
+      "speaker": "Marcus",
+      "text": "On that note of earned humility we can certainly agree.",
+      "translationVi": "Về cái ý về sự khiêm tốn xứng đáng đó thì chúng ta chắc chắn có thể đồng ý.",
+      "durationMs": 3816
+    },
+    {
+      "id": "s80",
+      "speaker": "Marcus",
+      "text": "The temptation in this field is always to mistake a confident model for genuine knowledge — and the cost of that overconfidence, as the transitory episode reminded us, is borne by people who never sat in the room where the decision was made.",
+      "translationVi": "Cám dỗ trong lĩnh vực này luôn là nhầm lẫn một mô hình tự tin với tri thức thực sự — và cái giá của sự tự tin thái quá đó, như giai đoạn 'nhất thời' đã nhắc nhở chúng ta, lại do những người chưa bao giờ ngồi trong căn phòng nơi quyết định được đưa ra gánh chịu.",
+      "durationMs": 13848
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "It's a fair charge, and I won't minimise it — but I'd distinguish … from …"
+    },
+    {
+      "id": "h2",
+      "text": "That's the strongest version of the … argument, and I take it; still, it presumes …"
+    },
+    {
+      "id": "h3",
+      "text": "I'm sympathetic to …, but I think the … dichotomy is overdrawn, because …"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "inflation-targeting framework",
+      "meaningVi": "khuôn khổ nhắm mục tiêu lạm phát (chính sách hướng tới một tỷ lệ lạm phát cụ thể)",
+      "pronunciation": "/ɪnˈfleɪʃən ˈtɑːrɡɪtɪŋ ˈfreɪmwɜːrk/"
+    },
+    {
+      "id": "v2",
+      "phrase": "transmission lags",
+      "meaningVi": "độ trễ truyền dẫn (thời gian để chính sách tiền tệ tác động đến nền kinh tế)",
+      "pronunciation": "/trænzˈmɪʃən læɡz/"
+    },
+    {
+      "id": "v3",
+      "phrase": "neutral rate",
+      "meaningVi": "lãi suất trung lập (mức không kích thích cũng không kìm hãm nền kinh tế)",
+      "pronunciation": "/ˈnjuːtrəl reɪt/"
+    },
+    {
+      "id": "v4",
+      "phrase": "wage-price spiral",
+      "meaningVi": "vòng xoáy lương-giá (lương và giá cùng đẩy nhau lên)",
+      "pronunciation": "/weɪdʒ praɪs ˈspaɪrəl/"
+    },
+    {
+      "id": "v5",
+      "phrase": "time-inconsistency problem",
+      "meaningVi": "vấn đề bất nhất theo thời gian (cám dỗ đi chệch cam kết về sau)",
+      "pronunciation": "/taɪm ˌɪnkənˈsɪstənsi ˈprɒbləm/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "inflation-targeting framework",
+      "meaningVi": "khuôn khổ nhắm mục tiêu lạm phát",
+      "pronunciation": "/ɪnˈfleɪʃən ˈtɑːrɡɪtɪŋ ˈfreɪmwɜːrk/",
+      "exampleEn": "How much does that misjudgement undermine the credibility on which the entire inflation-targeting framework depends?"
+    },
+    {
+      "phrase": "forecasting errors",
+      "meaningVi": "các sai lầm dự báo",
+      "pronunciation": "/ˈfɔːrkæstɪŋ ˈɛrərz/"
+    },
+    {
+      "phrase": "transitory",
+      "meaningVi": "nhất thời (chỉ tồn tại tạm thời)",
+      "pronunciation": "/ˈtrænzɪtɔːri/"
+    },
+    {
+      "phrase": "supply-side shocks",
+      "meaningVi": "các cú sốc phía cung (gián đoạn nguồn cung làm tăng giá)",
+      "pronunciation": "/səˈplaɪ saɪd ʃɒks/"
+    },
+    {
+      "phrase": "pent-up demand",
+      "meaningVi": "nhu cầu bị dồn nén (tích tụ do hạn chế trước đó)",
+      "pronunciation": "/ˌpɛnt ʌp dɪˈmɑːnd/"
+    },
+    {
+      "phrase": "inflation expectations remained broadly anchored",
+      "meaningVi": "kỳ vọng lạm phát vẫn được neo giữ về cơ bản",
+      "pronunciation": "/ɪnˈfleɪʃən ˌɛkspɛkˈteɪʃənz rɪˈmeɪnd ˈbrɔːdli ˈæŋkərd/"
+    },
+    {
+      "phrase": "anchoring of expectations",
+      "meaningVi": "việc neo giữ kỳ vọng (giữ kỳ vọng lạm phát ổn định)",
+      "pronunciation": "/ˈæŋkərɪŋ əv ˌɛkspɛkˈteɪʃənz/"
+    },
+    {
+      "phrase": "lag the curve",
+      "meaningVi": "phản ứng chậm trễ so với diễn biến (đi sau đường cong)",
+      "pronunciation": "/læɡ ðə kɜːrv/"
+    },
+    {
+      "phrase": "self-fulfilling dynamics",
+      "meaningVi": "động lực tự ứng nghiệm (kỳ vọng tự làm cho điều mình lo sợ xảy ra)",
+      "pronunciation": "/ˌsɛlf fʊlˈfɪlɪŋ daɪˈnæmɪks/"
+    },
+    {
+      "phrase": "front-loaded tightening cycle",
+      "meaningVi": "chu kỳ thắt chặt dồn về phía trước (tăng lãi suất mạnh ngay từ đầu)",
+      "pronunciation": "/frʌnt ˈloʊdɪd ˈtaɪtnɪŋ ˈsaɪkəl/"
+    },
+    {
+      "phrase": "market-based breakevens",
+      "meaningVi": "các mức hòa vốn dựa trên thị trường (kỳ vọng lạm phát suy ra từ giá trái phiếu)",
+      "pronunciation": "/ˈmɑːrkɪt beɪst ˈbreɪkˌiːvənz/"
+    },
+    {
+      "phrase": "de-anchored",
+      "meaningVi": "bị tháo neo (kỳ vọng lạm phát mất ổn định)",
+      "pronunciation": "/diː ˈæŋkərd/"
+    },
+    {
+      "phrase": "overshooting",
+      "meaningVi": "đi quá đà (thắt chặt nhiều hơn mức cần thiết)",
+      "pronunciation": "/ˌoʊvərˈʃuːtɪŋ/"
+    },
+    {
+      "phrase": "perennial dilemma",
+      "meaningVi": "tình thế tiến thoái lưỡng nan muôn thuở",
+      "pronunciation": "/pəˈrɛniəl dɪˈlɛmə/"
+    },
+    {
+      "phrase": "become entrenched",
+      "meaningVi": "ăn sâu, cố thủ (lạm phát trở nên khó loại bỏ)",
+      "pronunciation": "/bɪˈkʌm ɪnˈtrɛntʃt/"
+    },
+    {
+      "phrase": "R-star estimates",
+      "meaningVi": "các ước lượng về R-star (lãi suất thực trung lập)",
+      "pronunciation": "/ɑːr stɑːr ˈɛstɪmɪts/"
+    },
+    {
+      "phrase": "confidence intervals",
+      "meaningVi": "các khoảng tin cậy (phạm vi không chắc chắn của ước lượng)",
+      "pronunciation": "/ˈkɒnfɪdəns ˈɪntərvəlz/"
+    },
+    {
+      "phrase": "rules-based approach",
+      "meaningVi": "cách tiếp cận dựa trên quy tắc",
+      "pronunciation": "/ruːlz beɪst əˈproʊtʃ/"
+    },
+    {
+      "phrase": "Taylor rule",
+      "meaningVi": "quy tắc Taylor (công thức ấn định lãi suất theo lạm phát và sản lượng)",
+      "pronunciation": "/ˈteɪlər ruːl/"
+    },
+    {
+      "phrase": "discretion",
+      "meaningVi": "sự tùy nghi (quyền tự quyết định của ngân hàng trung ương)",
+      "pronunciation": "/dɪˈskrɛʃən/"
+    },
+    {
+      "phrase": "demand-management tool",
+      "meaningVi": "công cụ quản lý nhu cầu (điều tiết tổng cầu)",
+      "pronunciation": "/dɪˈmɑːnd ˈmænɪdʒmənt tuːl/"
+    },
+    {
+      "phrase": "relative-price shock",
+      "meaningVi": "cú sốc giá tương đối (giá một số mặt hàng tăng so với mặt hàng khác)",
+      "pronunciation": "/ˈrɛlətɪv praɪs ʃɒk/"
+    },
+    {
+      "phrase": "wage-price spiral",
+      "meaningVi": "vòng xoáy lương-giá",
+      "pronunciation": "/weɪdʒ praɪs ˈspaɪrəl/"
+    },
+    {
+      "phrase": "second-round risk",
+      "meaningVi": "rủi ro vòng hai (lạm phát lan rộng sau cú sốc ban đầu)",
+      "pronunciation": "/ˈsɛkənd raʊnd rɪsk/"
+    },
+    {
+      "phrase": "labour bargaining power",
+      "meaningVi": "quyền thương lượng của người lao động",
+      "pronunciation": "/ˈleɪbər ˈbɑːrɡɪnɪŋ ˈpaʊər/"
+    },
+    {
+      "phrase": "union density",
+      "meaningVi": "mật độ công đoàn (tỷ lệ người lao động tham gia công đoàn)",
+      "pronunciation": "/ˈjuːniən ˈdɛnsɪti/"
+    },
+    {
+      "phrase": "managing tail risks",
+      "meaningVi": "quản lý các rủi ro đuôi (các sự kiện hiếm nhưng cực đoan)",
+      "pronunciation": "/ˈmænɪdʒɪŋ teɪl rɪsks/"
+    },
+    {
+      "phrase": "distributional consequences",
+      "meaningVi": "các hệ quả phân phối (ai được lợi, ai chịu thiệt)",
+      "pronunciation": "/ˌdɪstrɪˈbjuːʃənəl ˈkɒnsɪkwənsɪz/"
+    },
+    {
+      "phrase": "burden of disinflation",
+      "meaningVi": "gánh nặng của việc giảm lạm phát",
+      "pronunciation": "/ˈbɜːrdən əv ˌdɪsɪnˈfleɪʃən/"
+    },
+    {
+      "phrase": "regressive tax",
+      "meaningVi": "thuế lũy thoái (gây thiệt hại tương đối nhiều hơn cho người nghèo)",
+      "pronunciation": "/rɪˈɡrɛsɪv tæks/"
+    },
+    {
+      "phrase": "fixed nominal incomes",
+      "meaningVi": "thu nhập danh nghĩa cố định (không điều chỉnh theo lạm phát)",
+      "pronunciation": "/fɪkst ˈnɒmɪnəl ˈɪnkʌmz/"
+    },
+    {
+      "phrase": "scarring effects of long-term unemployment",
+      "meaningVi": "các tác động để lại sẹo của thất nghiệp dài hạn",
+      "pronunciation": "/ˈskɑːrɪŋ ɪˈfɛkts əv lɒŋ tɜːrm ˌʌnɪmˈplɔɪmənt/"
+    },
+    {
+      "phrase": "credible policy anchor",
+      "meaningVi": "mỏ neo chính sách đáng tin cậy",
+      "pronunciation": "/ˈkrɛdɪbəl ˈpɒlɪsi ˈæŋkər/"
+    },
+    {
+      "phrase": "blunt instrument",
+      "meaningVi": "công cụ thô (thiếu độ chính xác, tác động lan tỏa)",
+      "pronunciation": "/blʌnt ˈɪnstrəmənt/"
+    },
+    {
+      "phrase": "interest-sensitive sectors",
+      "meaningVi": "các khu vực nhạy cảm với lãi suất",
+      "pronunciation": "/ˈɪntrəst ˈsɛnsɪtɪv ˈsɛktərz/"
+    },
+    {
+      "phrase": "quantitative easing",
+      "meaningVi": "nới lỏng định lượng (ngân hàng trung ương mua tài sản để bơm tiền)",
+      "pronunciation": "/ˈkwɒntɪteɪtɪv ˈiːzɪŋ/"
+    },
+    {
+      "phrase": "time-inconsistency problem",
+      "meaningVi": "vấn đề bất nhất theo thời gian",
+      "pronunciation": "/taɪm ˌɪnkənˈsɪstənsi ˈprɒbləm/"
+    },
+    {
+      "phrase": "inflate away debt",
+      "meaningVi": "làm xói mòn nợ bằng lạm phát (giảm giá trị thực của khoản nợ)",
+      "pronunciation": "/ɪnˈfleɪt əˈweɪ dɛt/"
+    },
+    {
+      "phrase": "technocratic insulation",
+      "meaningVi": "sự cách ly mang tính kỹ trị (tách khỏi áp lực chính trị)",
+      "pronunciation": "/ˌtɛknəˈkrætɪk ˌɪnsjʊˈleɪʃən/"
+    },
+    {
+      "phrase": "democratic accountability",
+      "meaningVi": "trách nhiệm giải trình dân chủ",
+      "pronunciation": "/ˌdɛməˈkrætɪk əˌkaʊntəˈbɪlɪti/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Symmetric trade-off framing: 'the lags cut both ways'",
+      "bodyVi": "Khi muốn nhấn mạnh một sự đánh đổi đối xứng — cùng một yếu tố vừa có lợi vừa có hại tùy hoàn cảnh — người nói dùng các cụm như 'cut both ways', 'a double-edged sword', hay 'trades A for B'. Đây là cách thừa nhận rằng không có lựa chọn nào hoàn toàn ưu việt. Ví dụ: 'The lags cut both ways — acting early risks overshooting, but waiting risks letting inflation become entrenched.'",
+      "bodyEn": "To stress a symmetric trade-off — where the same factor helps in one respect and hurts in another — speakers use phrases like 'cut both ways', 'a double-edged sword', or 'trades A for B'. It signals analytical even-handedness: you are not pretending one side of the ledger doesn't exist. In policy debate it is a mark of credibility, because it shows you have weighed the cost of your own preferred option rather than only the cost of the alternative."
+    },
+    {
+      "title": "Conceding then qualifying: 'I'd concede X, but \"less likely\" is not \"impossible\"'",
+      "bodyVi": "Một kỹ thuật lập luận cao cấp là nhượng bộ bằng chứng của đối phương rồi siết lại bằng một phân biệt sắc bén về mức độ hoặc phạm vi — ví dụ giữa 'ít khả năng' và 'bất khả thi', hay giữa 'mục tiêu' và 'phương tiện'. Việc nhượng bộ khiến bạn đáng tin, còn sự phân biệt giữ vững lập trường. Ví dụ: 'I'd concede the evidence is mixed, but \"less likely\" is not \"impossible\".'",
+      "bodyEn": "A sophisticated move is to concede the opponent's evidence and then re-tighten with a sharp distinction of degree or scope — e.g. between 'less likely' and 'impossible', or between 'goals' and 'means'. The concession buys credibility (you are not denying the data), while the distinction preserves your position (the data don't actually settle the matter). This concede-then-qualify rhythm is characteristic of high-register analytical argument and lets you engage the strongest form of the other view without surrendering."
+    }
+  ],
+  "translationVi": "Marcus: Tiến sĩ Iris, nhìn lại thì sự đồng thuận của các ngân hàng trung ương rằng lạm phát hậu đại dịch sẽ chỉ là nhất thời trông giống như một trong những sai lầm dự báo có hệ quả lớn nhất trong ký ức gần đây. Sai lầm trong phán đoán đó làm xói mòn đến mức nào uy tín mà toàn bộ khuôn khổ nhắm mục tiêu lạm phát phụ thuộc vào? Iris: Đó là một lời cáo buộc xác đáng, và tôi sẽ không xem nhẹ nó. Câu chuyện về tính nhất thời phản ánh một thất bại phân tích thực sự trong việc nhận ra cú sốc phía cung và nhu cầu bị dồn nén sẽ tương tác với nhau ra sao. Dù vậy, tôi sẽ phân biệt một sai lầm dự báo với một thất bại của khuôn khổ. Khuôn khổ cuối cùng đã làm tròn nhiệm vụ của nó — một khi chẩn đoán sai trở nên rõ ràng, phản ứng chính sách đã mạnh mẽ và kỳ vọng lạm phát vẫn được neo giữ về cơ bản. Marcus: Nhưng việc neo giữ kỳ vọng lại chính là điều đang bị đe dọa. Nếu công chúng tiếp thu bài học rằng ngân hàng trung ương sẽ luôn phản ứng chậm trễ một cách hệ thống, thì những động lực tự ứng nghiệm khiến việc nhắm mục tiêu lạm phát hoạt động bắt đầu bị bào mòn. Uy tín, một khi đã đánh mất, cực kỳ đắt đỏ để xây dựng lại — Volcker đã phải tạo ra một cuộc suy thoái tàn khốc để làm điều đó. Iris: Phép so sánh với Volcker rất đáng để học hỏi nhưng tôi sẽ phản đối hàm ý rằng chúng ta đã ở bất cứ đâu gần với chế độ đó. Kỳ vọng dài hạn, được đo lường bằng cả khảo sát lẫn các mức hòa vốn dựa trên thị trường, chưa bao giờ bị tháo neo theo cách chúng đã xảy ra vào cuối những năm bảy mươi. Chu kỳ thắt chặt nhanh chóng, dồn về phía trước một phần được thiết kế để chứng minh quyết tâm chính là để chúng ta không phải trả cái giá của Volcker. Marcus: Dồn về phía trước, đúng vậy, nhưng cách hiệu chỉnh vẫn khiến tôi cảm thấy bị thúc đẩy bởi mong muốn phát tín hiệu quyết tâm hơn là một sự đọc hiểu tỉnh táo về độ trễ truyền dẫn. Chính sách tiền tệ vận hành với những độ trễ dài và biến thiên — con số trong sách giáo khoa là mười hai đến mười tám tháng. Bằng cách thắt chặt quyết liệt vào một nền kinh tế nơi những lần tăng lãi suất trước đó còn chưa thấm hết, chẳng phải các vị đã liều lĩnh đi quá đà hay sao? Iris: Đó là tình thế tiến thoái lưỡng nan muôn thuở, và không có câu trả lời nào mà không phải trả giá. Độ trễ tác động theo cả hai hướng. Đúng, hành động dựa trên chính sách chưa truyền dẫn đầy đủ có nguy cơ đi quá đà; nhưng chờ đợi sự xác nhận rằng mình đã làm đủ lại có nguy cơ để lạm phát ăn sâu, đến lúc đó việc thắt chặt cuối cùng buộc phải khắc nghiệt hơn nhiều. Chúng tôi đang dò dẫm trong sự bất định thực sự về việc mức trung lập thực ra nằm ở đâu. Marcus: Mà bản thân lãi suất trung lập lại không thể quan sát được — các vị đang lái theo một ngôi sao mà các vị thực ra không thể nhìn thấy. Các ước lượng về R-star mang theo những khoảng tin cậy khổng lồ. Chẳng phải sự không thể quan sát mang tính căn bản đó lập luận cho một cách tiếp cận dựa trên quy tắc hơn, kiểu như quy tắc Taylor, thay vì sự tùy nghi đã tạo ra phán đoán sai về tính nhất thời ngay từ đầu hay sao? Iris: Tôi đồng cảm với tính kỷ luật mà các quy tắc áp đặt, nhưng tôi cho rằng sự lưỡng phân giữa quy tắc và tùy nghi đã bị phóng đại. Một quy tắc Taylor máy móc hẳn đã đòi hỏi lãi suất âm trong một số giai đoạn của chu kỳ vừa qua và hẳn đã khiến nền kinh tế giật cục qua các cú sốc cung. Các quy tắc là một công cụ đối chiếu chéo hữu ích và một phương tiện truyền thông, nhưng không quy tắc nào sống sót khi va chạm với một cú sốc thực sự mới mẻ. Marcus: Điểm về cú sốc cung chính là mấu chốt, phải không? Chính sách tiền tệ thông thường là một công cụ quản lý nhu cầu. Khi lạm phát bắt nguồn từ phía cung — năng lượng, vận tải biển, chất bán dẫn — việc tăng lãi suất chẳng làm được gì để khai thông một bến cảng hay khoan một giếng dầu. Các vị đang kìm hãm nhu cầu để bù đắp cho một vấn đề phía cung, điều đó có nghĩa là cố ý phá hủy sản lượng và việc làm vốn không gây ra lạm phát. Iris: Ông đã chỉ trúng sự đánh đổi khó chịu nhất trong toàn bộ công việc này. Ông nói đúng rằng chúng tôi không thể mở lại một nhà máy bán dẫn bằng cách tăng lãi suất. Nhưng nhiệm vụ của ngân hàng trung ương không phải là xử lý nguyên nhân trực tiếp của mọi đợt tăng giá — mà là ngăn một cú sốc giá tương đối biến thành một vòng xoáy lương-giá tự duy trì, lan rộng. Rủi ro vòng hai đó mới là điều mà chính sách tiền tệ thực sự có thể xử lý. Marcus: Phải thừa nhận rằng các động lực vòng hai là mục tiêu chính đáng. Nhưng cách đặt vấn đề về vòng xoáy lương-giá đã bị phê phán là dựa trên một mô hình về quyền thương lượng của người lao động vốn đơn giản là không phản ánh các thị trường lao động đương đại, nơi mật độ công đoàn đã sụp đổ và người lao động có khả năng hạn chế trong việc đòi lại tiền lương thực. Có phải các vị đang chiến đấu với một vòng xoáy mà cấu trúc nền tảng của nền kinh tế khiến nó khó xảy ra? Iris: Đó là một câu hỏi thực nghiệm nghiêm túc và tôi xin thừa nhận bằng chứng còn lẫn lộn. Vòng xoáy kinh điển của những năm bảy mươi rất có thể ít khả năng xảy ra hơn trong cấu trúc ngày nay. Nhưng 'ít khả năng hơn' không phải là 'bất khả thi', và một ngân hàng trung ương chờ đợi bằng chứng dứt khoát rằng kỳ vọng đã bị tháo neo trước khi phản ứng thì, về bản chất cấu trúc, đã thất bại ở nhiệm vụ cốt lõi của mình. Công việc của chúng tôi là quản lý các rủi ro đuôi trong điều kiện bất định. Marcus: Quản lý rủi ro đuôi là một cách đặt vấn đề hợp lý, nhưng trên thực tế nó có xu hướng bất đối xứng. Các động cơ thể chế thúc đẩy các nhà ngân hàng trung ương đặt trọng số cho đuôi lạm phát nặng hơn nhiều so với đuôi thất nghiệp, bởi vì một đợt vượt mục tiêu lạm phát bị đổ thẳng lên đầu các vị trong khi chi phí thất nghiệp thì lan tỏa và dễ bị quy cho các lực lượng khác. Sự bất đối xứng đó có những hệ quả phân phối có thật. Iris: Vấn đề phân phối xứng đáng được chú ý nhiều hơn mức thường có, và tôi sẽ không giả vờ rằng gánh nặng của việc giảm lạm phát rơi xuống một cách đồng đều. Những người mất việc trong một chu kỳ thắt chặt thường ở rìa của thị trường lao động một cách không cân xứng — trẻ hơn, lương thấp hơn, kém an toàn hơn. Nhưng tôi sẽ phản bác cách đặt vấn đề rằng bản thân lạm phát là trung lập về mặt phân phối. Lạm phát không lường trước là một loại thuế lũy thoái giáng đúng vào chính những người đó thông qua khoản tiết kiệm tiền mặt bị bào mòn và thu nhập danh nghĩa cố định. Marcus: Đó là phiên bản mạnh nhất của lập luận coi ổn định giá cả là sự bảo trợ xã hội, và tôi tiếp thu nó. Tuy vậy, nó giả định rằng phương thuốc nhẹ nhàng hơn căn bệnh, mà đó lại chính là điều đang bị tranh cãi. Việc cố ý làm tăng thất nghiệp để kéo lạm phát xuống đánh đổi một tổn hại lan tỏa, tự điều chỉnh một phần để lấy một tổn hại tập trung, để lại sẹo — và các tác động để lại sẹo của thất nghiệp dài hạn đã được ghi nhận đầy đủ. Iris: Tôi chấp nhận rằng việc để lại sẹo là có thật và rằng nó nghiêng về phía thận trọng với việc thắt chặt quá mức. Điều tôi sẽ phản đối là hàm ý rằng lạm phát tự điều chỉnh một cách đáng kể. Khi thiếu một mỏ neo chính sách đáng tin cậy, không có cơ chế nào tự đưa lạm phát về mục tiêu — kỳ vọng không tự quay về mức trung bình một cách thần kỳ. Sự tự điều chỉnh mà ông đang viện dẫn, trên thực tế, chính là phản ứng chính sách mà chúng ta đang tranh luận. Marcus: Đó là một lời đáp trả xác đáng — mỏ neo không tự duy trì chính nó. Để tôi gây áp lực vào bộ công cụ thay vào đó. Công cụ thô của lãi suất chính sách truyền dẫn qua các khu vực nhạy cảm với lãi suất trước tiên: nhà ở, hàng hóa bền, đầu tư doanh nghiệp. Vì vậy nỗi đau tập trung ở những khu vực và vùng miền cụ thể từ rất lâu trước khi lạm phát tổng thể phản ứng. Liệu một công cụ quốc gia duy nhất có thực sự là công cụ phù hợp cho những mất cân bằng vốn thường khá mang tính địa phương hay không? Iris: Đó là một công cụ thô, không nghi ngờ gì, và sự phân bổ tác động không đều giữa các ngành là một chi phí thực sự. Nhưng giải pháp thay thế — chính sách tiền tệ riêng theo ngành hoặc phân biệt theo vùng — vấp phải cả những vấn đề thực tiễn lẫn kinh tế chính trị mà theo tôi là loại bỏ hẳn lựa chọn đó. Một khi bạn bắt đầu quyết định ngành nào xứng đáng được tín dụng rẻ hơn, bạn đã chính trị hóa ngân hàng trung ương theo cách mà rốt cuộc phá hủy sự độc lập mà uy tín chống lạm phát của nó dựa vào. Marcus: Điều đó đưa chúng ta đến với sự độc lập, học thuyết làm nền tảng cho toàn bộ công trình. Sự độc lập đó về mặt lịch sử được biện minh bằng vấn đề bất nhất theo thời gian — cám dỗ của các chính trị gia trong việc tạo ra các đợt bùng nổ trước bầu cử. Nhưng trong một thời đại của thâm hụt ngân sách lớn và nới lỏng định lượng làm mờ ranh giới tiền tệ - tài khóa, chẳng phải sự phân tách rạch ròi vốn biện minh cho tính độc lập đã trở thành một thứ hư cấu lịch sự hay sao? Iris: Ranh giới chắc chắn đã trở nên mờ nhạt hơn, và thời đại của các bảng cân đối kế toán khổng lồ của ngân hàng trung ương đã tạo ra sự vướng víu thực sự với chính sách tài khóa mà chúng tôi vẫn đang học cách quản lý. Nhưng tôi sẽ lập luận rằng logic bất nhất theo thời gian giờ đây càng liên quan hơn, chứ không kém đi. Chính bởi vì thâm hụt lớn và cám dỗ làm xói mòn nợ bằng lạm phát là có thật, một ngân hàng trung ương độc lập một cách đáng tin chính là bức tường lửa thể chế giữ cho cám dỗ đó được kiểm soát. Marcus: Tôi thấy điều đó có sức thuyết phục trong chừng mực của nó, mặc dù nó đặt một sức nặng khổng lồ lên một thể chế không qua bầu cử đưa ra những quyết định với hệ quả phân phối sâu sắc. Theo bà, ranh giới nên nằm ở đâu giữa sự cách ly mang tính kỹ trị bảo vệ uy tín và trách nhiệm giải trình dân chủ mà tính chính danh rốt cuộc đòi hỏi? Iris: Đó là câu hỏi mà tôi nghĩ giới chuyên môn đã quá chậm trễ trong việc đối mặt một cách trung thực. Quan điểm riêng của tôi là sự độc lập nên hoàn toàn mang tính công cụ, chứ không phải thiết lập mục tiêu. Cơ quan lập pháp được bầu cử thiết lập nhiệm vụ — mục tiêu lạm phát, trọng số dành cho việc làm — và ngân hàng trung ương sau đó chỉ được cách ly trong việc lựa chọn các công cụ để theo đuổi nó. Sự độc lập đối với mục tiêu quả thực sẽ là phi chính danh về mặt dân chủ; sự độc lập đối với phương tiện mới là điều khiến cam kết trở nên đáng tin. Marcus: Sự phân biệt giữa công cụ và mục tiêu đó là một điểm dừng làm sáng tỏ vấn đề, và tôi ngờ rằng đó là nơi phần lớn những bất đồng thực sự tập trung — không phải ở chỗ ngân hàng trung ương có nên độc lập hay không, mà ở chỗ 'việc lựa chọn công cụ' lén lút đưa vào bao nhiêu việc thiết lập mục tiêu thực sự qua cửa sau. Iris: Đó là một sự mô tả xác đáng và khó chịu, và tôi xin thừa nhận ranh giới đó trên thực tế mờ nhạt hơn so với trong lý thuyết. Lập trường trung thực là chính sách tiền tệ vận hành trong một không gian nơi những sự đánh đổi là có thật, độ trễ thì dài, các biến số then chốt không thể quan sát được, và những người có lý trí cân nhắc cùng một bằng chứng sẽ đi đến những kết luận khác nhau. Sự khiêm tốn về tất cả những điều đó, theo tôi, là khởi đầu của việc làm tốt công việc này. Marcus: Về cái ý về sự khiêm tốn xứng đáng đó thì chúng ta chắc chắn có thể đồng ý. Cám dỗ trong lĩnh vực này luôn là nhầm lẫn một mô hình tự tin với tri thức thực sự — và cái giá của sự tự tin thái quá đó, như giai đoạn 'nhất thời' đã nhắc nhở chúng ta, lại do những người chưa bao giờ ngồi trong căn phòng nơi quyết định được đưa ra gánh chịu.",
+  "criticalThinkingQuestion": "When inflation originates on the supply side and the only tool a central bank wields is a blunt, lagged interest rate that suppresses demand and concentrates the cost on the most vulnerable workers, how should an unelected but independent central bank weigh price stability against employment — and what institutional reforms to its mandate, accountability, or toolkit could make those unavoidable trade-offs both more effective and more democratically legitimate?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-c1-036",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 611088
+}

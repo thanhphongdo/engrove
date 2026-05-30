@@ -1,0 +1,860 @@
+{
+  "id": "speaking-c1-065",
+  "level": "C1",
+  "title": "Licensing Patents in a Tech Alliance",
+  "summary": "Patent counsel Vivian and standards strategist Marcus negotiate the licensing architecture of a multi-company technology alliance, debating FRAND commitments, the merits and pitfalls of cross-licensing, royalty base calculation, and how to keep essential patents accessible without inviting holdup or royalty stacking.",
+  "topic": "patent licensing",
+  "tags": [
+    "Business",
+    "Law",
+    "Technology"
+  ],
+  "characters": [
+    "Vivian",
+    "Marcus"
+  ],
+  "voices": {
+    "Vivian": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-EmmaNeural"
+    },
+    "Marcus": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-AndrewNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Marcus",
+      "text": "Vivian, before we draft the licensing annex for the alliance, I want to be sure we're aligned on the FRAND commitment. Every member is contributing standard-essential patents, and if we don't pin down what 'fair, reasonable, and non-discriminatory' actually means in operational terms, we'll be relitigating it for the next decade."
+    },
+    {
+      "speaker": "Vivian",
+      "text": "I share that concern entirely. FRAND is notoriously underspecified — courts in different jurisdictions have reached strikingly different conclusions about what a reasonable royalty is for the same portfolio. My preference is that we define a methodology in the bylaws rather than a number, because a number will be obsolete the moment the technology moves, whereas a transparent methodology survives."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "A methodology I can defend. But methodologies invite gaming. If we anchor royalties to the smallest salable patent-practicing unit, the implementers will argue for the narrowest possible component, and the patent holders will insist on the end-product price as the royalty base. That gap is where deals go to die."
+    },
+    {
+      "speaker": "Vivian",
+      "text": "It is, and I don't think we can fully eliminate the tension — but we can structure it. I'd propose that the royalty base default to the smallest salable patent-practicing unit, with an explicit carve-out allowing apportionment to the end product only where a member can demonstrate that the patented feature drives consumer demand. That puts the evidentiary burden where it belongs."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "That's a defensible default, and it tracks where the case law has been trending. My worry is royalty stacking. If twelve members each hold essential patents and each extracts a 'reasonable' rate in isolation, the cumulative burden on an implementer can exceed the entire margin on the product. Reasonable in the singular becomes ruinous in the aggregate."
+    },
+    {
+      "speaker": "Vivian",
+      "text": "Which is exactly why I favor a pooled cross-licensing structure over a web of bilateral deals. If the members cross-license their essential portfolios into a common pool with a single aggregate cap on the total royalty, no individual holder can hold the others hostage, and implementers get the predictability they're paying for. The cap disciplines the stacking problem at the source."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "Cross-licensing is elegant when contributions are roughly symmetric. The difficulty is asymmetry. We have two members with deep, foundational portfolios and four with thin, peripheral ones. A naive cross-license effectively transfers value from the heavy contributors to the light ones, and the heavy contributors will simply refuse to sign."
+    },
+    {
+      "speaker": "Vivian",
+      "text": "Agreed — flat cross-licensing would be a non-starter for them, and rightly so. The standard fix is to weight contributions, typically by counting the patents a neutral evaluator certifies as genuinely essential, not merely declared essential. Self-declaration is notoriously inflated; firms over-declare to inflate their share of the pool. An independent essentiality check is the only credible currency."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "Independent essentiality assessment is sound in principle, but it's slow and expensive, and members will dispute the evaluator's findings the moment the results don't favor them. Who bears the cost, and what's the appeal mechanism when a member insists its patent was wrongly excluded from the essential count?"
+    },
+    {
+      "speaker": "Vivian",
+      "text": "I'd have the pool itself fund the baseline assessment as a shared administrative cost, since everyone benefits from a credible count. For disputes, I'd build in a tiered process: a first-level review by the evaluator, then binding expert determination by a jointly appointed technical panel — deliberately not full arbitration, which is too slow for something that has to recalibrate as portfolios evolve."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "Expert determination over arbitration makes sense for speed. Now, the non-discriminatory prong is the one that keeps me up at night. If a member is itself an implementer — and most of ours are vertically integrated — it has every incentive to license outsiders at a higher effective rate than it charges its own downstream division. Non-discrimination on paper, discrimination in substance."
+    },
+    {
+      "speaker": "Vivian",
+      "text": "That's the most subtle abuse in the whole architecture. The defense is a most-favored-licensee clause coupled with mandatory rate transparency within the pool — every license the pool grants is benchmarked against a published schedule, and any bespoke discount automatically extends to comparable licensees. Sunlight is the only real disinfectant for discriminatory pricing."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "Transparency I'm comfortable with, though some members will resent publishing rates they regard as commercially sensitive. There's also the holdup-versus-holdout dynamic. We've talked about patent holders holding implementers up after lock-in, but implementers can hold out too — refusing to take a license while infringing, betting the patent holder won't pursue costly litigation. FRAND can't be a one-way leash."
+    },
+    {
+      "speaker": "Vivian",
+      "text": "You're right that the obligation has to run both ways. The cleanest formulation is the one the courts have gravitated toward: the patent holder must make a FRAND offer, and the implementer must respond as a willing licensee, engaging constructively rather than stalling. If the implementer won't negotiate in good faith, it forfeits the FRAND shield and exposes itself to an injunction. That symmetry is what makes the bargain self-enforcing."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "And injunctions are the nuclear option that gives the whole framework teeth. But we have to be careful — an injunction available too readily reintroduces exactly the holdup leverage FRAND is meant to neutralize. I'd want injunctive relief reserved for the genuinely unwilling licensee, not deployed as a routine bargaining cudgel against one that's merely contesting the rate."
+    },
+    {
+      "speaker": "Vivian",
+      "text": "Precisely calibrated. So the licensing annex effectively has four load-bearing pillars: a methodology-based royalty base anchored to the smallest salable unit, a weighted pool with an aggregate cap, independent essentiality checks with fast expert determination, and a reciprocal good-faith obligation backstopped by narrowly available injunctions. Get those four right and the rest is drafting."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "I'd add a fifth, less glamorous one: an explicit successor-and-transfer clause. Patents get sold, portfolios get spun out to assertion entities, and a FRAND commitment that doesn't bind downstream acquirers is worthless. The encumbrance has to travel with the patent, or a member could launder its way out of the whole regime by selling to a non-signatory."
+    },
+    {
+      "speaker": "Vivian",
+      "text": "That's an essential catch, and it's exactly the kind of thing that looks like boilerplate until it detonates. We'll make the FRAND encumbrance run with the patent and bind all successors as a condition of any transfer, with the pool retaining a right to enjoin transfers that attempt to strip the commitment. If the obligation is truly in rem, the assertion-entity escape hatch closes."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "Then I think we have the architecture. It won't make everyone equally happy, which is probably the surest sign it's balanced. Shall I circulate a term sheet capturing the five pillars before we put the lawyers to work on the full annex?"
+    },
+    {
+      "speaker": "Vivian",
+      "text": "Please do, and flag the aggregate cap and the essentiality methodology as the two provisions most likely to draw fire in the member review. Those are where the real money sits, and I'd rather surface the disagreement now than discover it buried in a markup three rounds from signing."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Marcus",
+      "text": "Vivian, before we draft the licensing annex for the alliance, I want to be sure we're aligned on the FRAND commitment.",
+      "translationVi": "Vivian, trước khi chúng ta soạn phụ lục cấp phép cho liên minh, tôi muốn chắc chắn rằng chúng ta thống nhất về cam kết FRAND.",
+      "durationMs": 6552
+    },
+    {
+      "id": "s2",
+      "speaker": "Marcus",
+      "text": "Every member is contributing standard-essential patents, and if we don't pin down what 'fair, reasonable, and non-discriminatory' actually means in operational terms, we'll be relitigating it for the next decade.",
+      "translationVi": "Mỗi thành viên đều đóng góp các bằng sáng chế thiết yếu cho tiêu chuẩn, và nếu chúng ta không xác định rõ 'công bằng, hợp lý và không phân biệt đối xử' thực sự có nghĩa gì về mặt vận hành, chúng ta sẽ phải tranh tụng lại nó trong suốt thập kỷ tới.",
+      "durationMs": 12648
+    },
+    {
+      "id": "s3",
+      "speaker": "Vivian",
+      "text": "I share that concern entirely.",
+      "translationVi": "Tôi hoàn toàn chia sẻ mối lo ngại đó.",
+      "durationMs": 2184
+    },
+    {
+      "id": "s4",
+      "speaker": "Vivian",
+      "text": "FRAND is notoriously underspecified — courts in different jurisdictions have reached strikingly different conclusions about what a reasonable royalty is for the same portfolio.",
+      "translationVi": "FRAND nổi tiếng là được quy định thiếu rõ ràng — tòa án ở các khu vực tài phán khác nhau đã đưa ra những kết luận khác biệt rõ rệt về mức tiền bản quyền hợp lý cho cùng một danh mục bằng sáng chế.",
+      "durationMs": 10128
+    },
+    {
+      "id": "s5",
+      "speaker": "Vivian",
+      "text": "My preference is that we define a methodology in the bylaws rather than a number, because a number will be obsolete the moment the technology moves, whereas a transparent methodology survives.",
+      "translationVi": "Tôi thiên về việc chúng ta định nghĩa một phương pháp luận trong điều lệ thay vì một con số, vì một con số sẽ lỗi thời ngay khi công nghệ thay đổi, trong khi một phương pháp luận minh bạch thì tồn tại lâu dài.",
+      "durationMs": 10512
+    },
+    {
+      "id": "s6",
+      "speaker": "Marcus",
+      "text": "A methodology I can defend.",
+      "translationVi": "Một phương pháp luận thì tôi có thể bảo vệ được.",
+      "durationMs": 1920
+    },
+    {
+      "id": "s7",
+      "speaker": "Marcus",
+      "text": "But methodologies invite gaming.",
+      "translationVi": "Nhưng các phương pháp luận lại mời gọi sự lách luật.",
+      "durationMs": 2040
+    },
+    {
+      "id": "s8",
+      "speaker": "Marcus",
+      "text": "If we anchor royalties to the smallest salable patent-practicing unit, the implementers will argue for the narrowest possible component, and the patent holders will insist on the end-product price as the royalty base.",
+      "translationVi": "Nếu chúng ta neo tiền bản quyền vào đơn vị nhỏ nhất có thể bán được áp dụng bằng sáng chế, các bên triển khai sẽ lập luận cho linh kiện hẹp nhất có thể, còn các chủ sở hữu bằng sáng chế sẽ khăng khăng đòi lấy giá thành phẩm làm cơ sở tính tiền bản quyền.",
+      "durationMs": 12552
+    },
+    {
+      "id": "s9",
+      "speaker": "Marcus",
+      "text": "That gap is where deals go to die.",
+      "translationVi": "Khoảng cách đó là nơi các thỏa thuận đi đến chỗ tan vỡ.",
+      "durationMs": 2184
+    },
+    {
+      "id": "s10",
+      "speaker": "Vivian",
+      "text": "It is, and I don't think we can fully eliminate the tension — but we can structure it.",
+      "translationVi": "Đúng vậy, và tôi không nghĩ chúng ta có thể loại bỏ hoàn toàn căng thẳng đó — nhưng chúng ta có thể cấu trúc nó.",
+      "durationMs": 4584
+    },
+    {
+      "id": "s11",
+      "speaker": "Vivian",
+      "text": "I'd propose that the royalty base default to the smallest salable patent-practicing unit, with an explicit carve-out allowing apportionment to the end product only where a member can demonstrate that the patented feature drives consumer demand.",
+      "translationVi": "Tôi sẽ đề xuất rằng cơ sở tính tiền bản quyền mặc định là đơn vị nhỏ nhất có thể bán được áp dụng bằng sáng chế, với một ngoại lệ rõ ràng cho phép phân bổ theo thành phẩm chỉ khi một thành viên có thể chứng minh rằng tính năng được cấp bằng sáng chế là yếu tố thúc đẩy nhu cầu của người tiêu dùng.",
+      "durationMs": 13032
+    },
+    {
+      "id": "s12",
+      "speaker": "Vivian",
+      "text": "That puts the evidentiary burden where it belongs.",
+      "translationVi": "Điều đó đặt gánh nặng chứng cứ vào đúng chỗ của nó.",
+      "durationMs": 3432
+    },
+    {
+      "id": "s13",
+      "speaker": "Marcus",
+      "text": "That's a defensible default, and it tracks where the case law has been trending.",
+      "translationVi": "Đó là một mặc định có thể bảo vệ được, và nó bám theo xu hướng mà án lệ đang đi tới.",
+      "durationMs": 4416
+    },
+    {
+      "id": "s14",
+      "speaker": "Marcus",
+      "text": "My worry is royalty stacking.",
+      "translationVi": "Điều tôi lo lắng là sự chồng chất tiền bản quyền.",
+      "durationMs": 2136
+    },
+    {
+      "id": "s15",
+      "speaker": "Marcus",
+      "text": "If twelve members each hold essential patents and each extracts a 'reasonable' rate in isolation, the cumulative burden on an implementer can exceed the entire margin on the product.",
+      "translationVi": "Nếu mười hai thành viên mỗi bên đều nắm giữ các bằng sáng chế thiết yếu và mỗi bên đều rút ra một mức 'hợp lý' một cách riêng lẻ, gánh nặng tích lũy đối với bên triển khai có thể vượt quá toàn bộ biên lợi nhuận của sản phẩm.",
+      "durationMs": 11712
+    },
+    {
+      "id": "s16",
+      "speaker": "Marcus",
+      "text": "Reasonable in the singular becomes ruinous in the aggregate.",
+      "translationVi": "Hợp lý khi đứng riêng lẻ lại trở nên tàn khốc khi cộng gộp lại.",
+      "durationMs": 3792
+    },
+    {
+      "id": "s17",
+      "speaker": "Vivian",
+      "text": "Which is exactly why I favor a pooled cross-licensing structure over a web of bilateral deals.",
+      "translationVi": "Đó chính xác là lý do tôi ủng hộ cấu trúc cấp phép chéo gộp chung hơn là một mạng lưới các thỏa thuận song phương.",
+      "durationMs": 5880
+    },
+    {
+      "id": "s18",
+      "speaker": "Vivian",
+      "text": "If the members cross-license their essential portfolios into a common pool with a single aggregate cap on the total royalty, no individual holder can hold the others hostage, and implementers get the predictability they're paying for.",
+      "translationVi": "Nếu các thành viên cấp phép chéo các danh mục thiết yếu của họ vào một quỹ chung với một mức trần tổng hợp duy nhất cho tổng tiền bản quyền, không một chủ sở hữu riêng lẻ nào có thể bắt giữ những bên còn lại làm con tin, và các bên triển khai có được sự dự đoán được mà họ đang trả tiền cho.",
+      "durationMs": 13152
+    },
+    {
+      "id": "s19",
+      "speaker": "Vivian",
+      "text": "The cap disciplines the stacking problem at the source.",
+      "translationVi": "Mức trần kỷ luật vấn đề chồng chất ngay tại nguồn.",
+      "durationMs": 3312
+    },
+    {
+      "id": "s20",
+      "speaker": "Marcus",
+      "text": "Cross-licensing is elegant when contributions are roughly symmetric.",
+      "translationVi": "Cấp phép chéo thanh lịch khi các đóng góp tương đối cân xứng.",
+      "durationMs": 4536
+    },
+    {
+      "id": "s21",
+      "speaker": "Marcus",
+      "text": "The difficulty is asymmetry.",
+      "translationVi": "Khó khăn nằm ở sự bất đối xứng.",
+      "durationMs": 2280
+    },
+    {
+      "id": "s22",
+      "speaker": "Marcus",
+      "text": "We have two members with deep, foundational portfolios and four with thin, peripheral ones.",
+      "translationVi": "Chúng ta có hai thành viên với danh mục sâu, nền tảng và bốn thành viên với danh mục mỏng, ngoại vi.",
+      "durationMs": 6144
+    },
+    {
+      "id": "s23",
+      "speaker": "Marcus",
+      "text": "A naive cross-license effectively transfers value from the heavy contributors to the light ones, and the heavy contributors will simply refuse to sign.",
+      "translationVi": "Một thỏa thuận cấp phép chéo ngây thơ thực chất chuyển giá trị từ những bên đóng góp nhiều sang những bên đóng góp ít, và những bên đóng góp nhiều sẽ đơn giản là từ chối ký.",
+      "durationMs": 9216
+    },
+    {
+      "id": "s24",
+      "speaker": "Vivian",
+      "text": "Agreed — flat cross-licensing would be a non-starter for them, and rightly so.",
+      "translationVi": "Đồng ý — cấp phép chéo đồng đều sẽ là điều không thể chấp nhận đối với họ, và điều đó là chính đáng.",
+      "durationMs": 5040
+    },
+    {
+      "id": "s25",
+      "speaker": "Vivian",
+      "text": "The standard fix is to weight contributions, typically by counting the patents a neutral evaluator certifies as genuinely essential, not merely declared essential.",
+      "translationVi": "Cách khắc phục tiêu chuẩn là đánh trọng số các đóng góp, thường bằng cách đếm số bằng sáng chế mà một bên đánh giá trung lập chứng nhận là thực sự thiết yếu, chứ không chỉ được khai báo là thiết yếu.",
+      "durationMs": 9864
+    },
+    {
+      "id": "s26",
+      "speaker": "Vivian",
+      "text": "Self-declaration is notoriously inflated; firms over-declare to inflate their share of the pool.",
+      "translationVi": "Việc tự khai báo nổi tiếng là bị thổi phồng; các công ty khai báo quá mức để thổi phồng phần của họ trong quỹ chung.",
+      "durationMs": 6408
+    },
+    {
+      "id": "s27",
+      "speaker": "Vivian",
+      "text": "An independent essentiality check is the only credible currency.",
+      "translationVi": "Một cuộc kiểm tra tính thiết yếu độc lập là đồng tiền đáng tin cậy duy nhất.",
+      "durationMs": 4176
+    },
+    {
+      "id": "s28",
+      "speaker": "Marcus",
+      "text": "Independent essentiality assessment is sound in principle, but it's slow and expensive, and members will dispute the evaluator's findings the moment the results don't favor them.",
+      "translationVi": "Đánh giá tính thiết yếu độc lập là hợp lý về nguyên tắc, nhưng nó chậm và tốn kém, và các thành viên sẽ tranh chấp kết luận của bên đánh giá ngay khi kết quả không có lợi cho họ.",
+      "durationMs": 10632
+    },
+    {
+      "id": "s29",
+      "speaker": "Marcus",
+      "text": "Who bears the cost, and what's the appeal mechanism when a member insists its patent was wrongly excluded from the essential count?",
+      "translationVi": "Ai gánh chịu chi phí, và cơ chế kháng nghị là gì khi một thành viên khăng khăng rằng bằng sáng chế của họ đã bị loại trừ sai khỏi danh sách thiết yếu?",
+      "durationMs": 7632
+    },
+    {
+      "id": "s30",
+      "speaker": "Vivian",
+      "text": "I'd have the pool itself fund the baseline assessment as a shared administrative cost, since everyone benefits from a credible count.",
+      "translationVi": "Tôi sẽ để chính quỹ chung tài trợ cho việc đánh giá cơ sở như một chi phí hành chính chung, vì mọi người đều hưởng lợi từ một danh sách đáng tin cậy.",
+      "durationMs": 7824
+    },
+    {
+      "id": "s31",
+      "speaker": "Vivian",
+      "text": "For disputes, I'd build in a tiered process: a first-level review by the evaluator, then binding expert determination by a jointly appointed technical panel — deliberately not full arbitration, which is too slow for something that has to recalibrate as portfolios evolve.",
+      "translationVi": "Đối với các tranh chấp, tôi sẽ xây dựng một quy trình phân tầng: cấp xem xét đầu tiên do bên đánh giá thực hiện, rồi đến phán định chuyên gia có tính ràng buộc bởi một hội đồng kỹ thuật được bổ nhiệm chung — cố ý không phải là trọng tài đầy đủ, vốn quá chậm đối với một thứ phải được hiệu chỉnh lại khi các danh mục tiến triển.",
+      "durationMs": 16128
+    },
+    {
+      "id": "s32",
+      "speaker": "Marcus",
+      "text": "Expert determination over arbitration makes sense for speed.",
+      "translationVi": "Phán định chuyên gia thay vì trọng tài là hợp lý về mặt tốc độ.",
+      "durationMs": 4104
+    },
+    {
+      "id": "s33",
+      "speaker": "Marcus",
+      "text": "Now, the non-discriminatory prong is the one that keeps me up at night.",
+      "translationVi": "Giờ thì, nhánh không phân biệt đối xử là điều khiến tôi thức trắng đêm.",
+      "durationMs": 4344
+    },
+    {
+      "id": "s34",
+      "speaker": "Marcus",
+      "text": "If a member is itself an implementer — and most of ours are vertically integrated — it has every incentive to license outsiders at a higher effective rate than it charges its own downstream division.",
+      "translationVi": "Nếu một thành viên tự bản thân nó cũng là một bên triển khai — và phần lớn thành viên của chúng ta đều tích hợp theo chiều dọc — thì nó có mọi động cơ để cấp phép cho người ngoài ở mức thực tế cao hơn so với mức nó tính cho bộ phận hạ nguồn của chính mình.",
+      "durationMs": 11976
+    },
+    {
+      "id": "s35",
+      "speaker": "Marcus",
+      "text": "Non-discrimination on paper, discrimination in substance.",
+      "translationVi": "Không phân biệt đối xử trên giấy tờ, nhưng phân biệt đối xử về bản chất.",
+      "durationMs": 3816
+    },
+    {
+      "id": "s36",
+      "speaker": "Vivian",
+      "text": "That's the most subtle abuse in the whole architecture.",
+      "translationVi": "Đó là sự lạm dụng tinh vi nhất trong toàn bộ kiến trúc này.",
+      "durationMs": 3216
+    },
+    {
+      "id": "s37",
+      "speaker": "Vivian",
+      "text": "The defense is a most-favored-licensee clause coupled with mandatory rate transparency within the pool — every license the pool grants is benchmarked against a published schedule, and any bespoke discount automatically extends to comparable licensees.",
+      "translationVi": "Biện pháp phòng vệ là một điều khoản bên được cấp phép ưu đãi nhất kết hợp với tính minh bạch về mức phí bắt buộc trong quỹ chung — mọi giấy phép mà quỹ cấp đều được đối chiếu với một biểu giá công bố, và bất kỳ khoản chiết khấu riêng nào cũng tự động được mở rộng cho các bên được cấp phép tương đương.",
+      "durationMs": 14592
+    },
+    {
+      "id": "s38",
+      "speaker": "Vivian",
+      "text": "Sunlight is the only real disinfectant for discriminatory pricing.",
+      "translationVi": "Ánh sáng mặt trời là chất khử trùng thực sự duy nhất cho việc định giá phân biệt đối xử.",
+      "durationMs": 4320
+    },
+    {
+      "id": "s39",
+      "speaker": "Marcus",
+      "text": "Transparency I'm comfortable with, though some members will resent publishing rates they regard as commercially sensitive.",
+      "translationVi": "Tôi thấy thoải mái với tính minh bạch, mặc dù một số thành viên sẽ bực bội khi phải công bố các mức giá mà họ coi là nhạy cảm về mặt thương mại.",
+      "durationMs": 7032
+    },
+    {
+      "id": "s40",
+      "speaker": "Marcus",
+      "text": "There's also the holdup-versus-holdout dynamic.",
+      "translationVi": "Còn có cả động lực giữa việc bắt chẹt và việc cố thủ nữa.",
+      "durationMs": 2952
+    },
+    {
+      "id": "s41",
+      "speaker": "Marcus",
+      "text": "We've talked about patent holders holding implementers up after lock-in, but implementers can hold out too — refusing to take a license while infringing, betting the patent holder won't pursue costly litigation.",
+      "translationVi": "Chúng ta đã nói về việc các chủ sở hữu bằng sáng chế bắt chẹt các bên triển khai sau khi đã bị khóa chặt, nhưng các bên triển khai cũng có thể cố thủ — từ chối lấy giấy phép trong khi vẫn vi phạm, đánh cược rằng chủ sở hữu bằng sáng chế sẽ không theo đuổi vụ kiện tốn kém.",
+      "durationMs": 12144
+    },
+    {
+      "id": "s42",
+      "speaker": "Marcus",
+      "text": "FRAND can't be a one-way leash.",
+      "translationVi": "FRAND không thể là một sợi dây xích chỉ trói một chiều.",
+      "durationMs": 2136
+    },
+    {
+      "id": "s43",
+      "speaker": "Vivian",
+      "text": "You're right that the obligation has to run both ways.",
+      "translationVi": "Bạn nói đúng rằng nghĩa vụ phải có hiệu lực theo cả hai chiều.",
+      "durationMs": 3264
+    },
+    {
+      "id": "s44",
+      "speaker": "Vivian",
+      "text": "The cleanest formulation is the one the courts have gravitated toward: the patent holder must make a FRAND offer, and the implementer must respond as a willing licensee, engaging constructively rather than stalling.",
+      "translationVi": "Cách diễn đạt gọn gàng nhất là cách mà các tòa án đã nghiêng về: chủ sở hữu bằng sáng chế phải đưa ra một lời chào FRAND, và bên triển khai phải đáp lại như một bên được cấp phép thiện chí, tham gia một cách xây dựng thay vì kéo dài câu giờ.",
+      "durationMs": 12840
+    },
+    {
+      "id": "s45",
+      "speaker": "Vivian",
+      "text": "If the implementer won't negotiate in good faith, it forfeits the FRAND shield and exposes itself to an injunction.",
+      "translationVi": "Nếu bên triển khai không đàm phán một cách thiện chí, nó sẽ mất đi tấm khiên FRAND và tự đặt mình trước nguy cơ bị một lệnh cấm.",
+      "durationMs": 6864
+    },
+    {
+      "id": "s46",
+      "speaker": "Vivian",
+      "text": "That symmetry is what makes the bargain self-enforcing.",
+      "translationVi": "Sự đối xứng đó là điều khiến thỏa thuận tự thực thi được.",
+      "durationMs": 3384
+    },
+    {
+      "id": "s47",
+      "speaker": "Marcus",
+      "text": "And injunctions are the nuclear option that gives the whole framework teeth.",
+      "translationVi": "Và các lệnh cấm là lựa chọn hạt nhân mang lại sức mạnh răn đe cho toàn bộ khuôn khổ này.",
+      "durationMs": 4296
+    },
+    {
+      "id": "s48",
+      "speaker": "Marcus",
+      "text": "But we have to be careful — an injunction available too readily reintroduces exactly the holdup leverage FRAND is meant to neutralize.",
+      "translationVi": "Nhưng chúng ta phải cẩn thận — một lệnh cấm dễ dàng có được sẽ tái lập đúng cái đòn bẩy bắt chẹt mà FRAND vốn nhằm vô hiệu hóa.",
+      "durationMs": 8688
+    },
+    {
+      "id": "s49",
+      "speaker": "Marcus",
+      "text": "I'd want injunctive relief reserved for the genuinely unwilling licensee, not deployed as a routine bargaining cudgel against one that's merely contesting the rate.",
+      "translationVi": "Tôi muốn biện pháp cứu trợ bằng lệnh cấm được dành riêng cho bên được cấp phép thực sự không thiện chí, chứ không phải được triển khai như một cây gậy mặc cả thường lệ chống lại một bên chỉ đang tranh chấp về mức phí.",
+      "durationMs": 10056
+    },
+    {
+      "id": "s50",
+      "speaker": "Vivian",
+      "text": "Precisely calibrated.",
+      "translationVi": "Được hiệu chỉnh một cách chính xác.",
+      "durationMs": 1824
+    },
+    {
+      "id": "s51",
+      "speaker": "Vivian",
+      "text": "So the licensing annex effectively has four load-bearing pillars: a methodology-based royalty base anchored to the smallest salable unit, a weighted pool with an aggregate cap, independent essentiality checks with fast expert determination, and a reciprocal good-faith obligation backstopped by narrowly available injunctions.",
+      "translationVi": "Vậy nên phụ lục cấp phép thực chất có bốn trụ cột chịu lực: một cơ sở tính tiền bản quyền dựa trên phương pháp luận neo vào đơn vị nhỏ nhất có thể bán được, một quỹ có trọng số với mức trần tổng hợp, các cuộc kiểm tra tính thiết yếu độc lập với phán định chuyên gia nhanh chóng, và một nghĩa vụ thiện chí có đi có lại được hậu thuẫn bởi các lệnh cấm chỉ sẵn có một cách hạn hẹp.",
+      "durationMs": 19008
+    },
+    {
+      "id": "s52",
+      "speaker": "Vivian",
+      "text": "Get those four right and the rest is drafting.",
+      "translationVi": "Làm đúng bốn điều đó thì phần còn lại chỉ là việc soạn thảo.",
+      "durationMs": 2856
+    },
+    {
+      "id": "s53",
+      "speaker": "Marcus",
+      "text": "I'd add a fifth, less glamorous one: an explicit successor-and-transfer clause.",
+      "translationVi": "Tôi sẽ thêm một điều thứ năm, kém hào nhoáng hơn: một điều khoản rõ ràng về bên kế nhiệm và chuyển nhượng.",
+      "durationMs": 5304
+    },
+    {
+      "id": "s54",
+      "speaker": "Marcus",
+      "text": "Patents get sold, portfolios get spun out to assertion entities, and a FRAND commitment that doesn't bind downstream acquirers is worthless.",
+      "translationVi": "Các bằng sáng chế bị bán đi, các danh mục bị tách ra cho các thực thể chuyên đi kiện đòi bản quyền, và một cam kết FRAND mà không ràng buộc được những bên mua lại ở hạ nguồn thì vô giá trị.",
+      "durationMs": 8952
+    },
+    {
+      "id": "s55",
+      "speaker": "Marcus",
+      "text": "The encumbrance has to travel with the patent, or a member could launder its way out of the whole regime by selling to a non-signatory.",
+      "translationVi": "Ràng buộc phải đi kèm theo bằng sáng chế, nếu không một thành viên có thể tẩy rửa lối thoát của mình ra khỏi toàn bộ chế độ này bằng cách bán cho một bên không ký kết.",
+      "durationMs": 7368
+    },
+    {
+      "id": "s56",
+      "speaker": "Vivian",
+      "text": "That's an essential catch, and it's exactly the kind of thing that looks like boilerplate until it detonates.",
+      "translationVi": "Đó là một điểm bắt lỗi thiết yếu, và nó chính xác là loại điều khoản trông như văn bản mẫu rập khuôn cho đến khi nó phát nổ.",
+      "durationMs": 5616
+    },
+    {
+      "id": "s57",
+      "speaker": "Vivian",
+      "text": "We'll make the FRAND encumbrance run with the patent and bind all successors as a condition of any transfer, with the pool retaining a right to enjoin transfers that attempt to strip the commitment.",
+      "translationVi": "Chúng ta sẽ làm cho ràng buộc FRAND đi kèm theo bằng sáng chế và ràng buộc tất cả các bên kế nhiệm như một điều kiện của bất kỳ việc chuyển nhượng nào, với việc quỹ giữ lại quyền ngăn cấm các việc chuyển nhượng nhằm tước bỏ cam kết đó.",
+      "durationMs": 10296
+    },
+    {
+      "id": "s58",
+      "speaker": "Vivian",
+      "text": "If the obligation is truly in rem, the assertion-entity escape hatch closes.",
+      "translationVi": "Nếu nghĩa vụ thực sự là quyền đối vật, thì cánh cửa thoát hiểm dành cho thực thể chuyên đi kiện sẽ đóng lại.",
+      "durationMs": 5040
+    },
+    {
+      "id": "s59",
+      "speaker": "Marcus",
+      "text": "Then I think we have the architecture.",
+      "translationVi": "Vậy thì tôi nghĩ chúng ta đã có được kiến trúc rồi.",
+      "durationMs": 1968
+    },
+    {
+      "id": "s60",
+      "speaker": "Marcus",
+      "text": "It won't make everyone equally happy, which is probably the surest sign it's balanced.",
+      "translationVi": "Nó sẽ không làm mọi người hài lòng như nhau, mà đó có lẽ là dấu hiệu chắc chắn nhất cho thấy nó cân bằng.",
+      "durationMs": 5112
+    },
+    {
+      "id": "s61",
+      "speaker": "Marcus",
+      "text": "Shall I circulate a term sheet capturing the five pillars before we put the lawyers to work on the full annex?",
+      "translationVi": "Tôi có nên lưu hành một bản điều khoản tóm tắt năm trụ cột trước khi chúng ta giao cho các luật sư bắt tay vào toàn bộ phụ lục không?",
+      "durationMs": 6240
+    },
+    {
+      "id": "s62",
+      "speaker": "Vivian",
+      "text": "Please do, and flag the aggregate cap and the essentiality methodology as the two provisions most likely to draw fire in the member review.",
+      "translationVi": "Hãy làm vậy, và đánh dấu mức trần tổng hợp và phương pháp luận tính thiết yếu là hai điều khoản dễ bị công kích nhất trong đợt rà soát của các thành viên.",
+      "durationMs": 8280
+    },
+    {
+      "id": "s63",
+      "speaker": "Vivian",
+      "text": "Those are where the real money sits, and I'd rather surface the disagreement now than discover it buried in a markup three rounds from signing.",
+      "translationVi": "Đó là nơi tiền thật nằm ở đó, và tôi thà phơi bày sự bất đồng ngay bây giờ còn hơn là phát hiện ra nó bị chôn vùi trong một bản chỉnh sửa cách thời điểm ký kết ba vòng đàm phán.",
+      "durationMs": 7920
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "My preference is that we define a methodology rather than a number, because …"
+    },
+    {
+      "id": "h2",
+      "text": "I don't think we can fully eliminate the tension — but we can structure it by …"
+    },
+    {
+      "id": "h3",
+      "text": "The standard fix is to weight contributions, typically by …"
+    },
+    {
+      "id": "h4",
+      "text": "You're right that the obligation has to run both ways — the cleanest formulation is …"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "standard-essential patents",
+      "meaningVi": "các bằng sáng chế thiết yếu cho tiêu chuẩn (bắt buộc phải dùng để tuân thủ một tiêu chuẩn kỹ thuật)",
+      "pronunciation": "/ˈstændərd ɪˈsɛnʃəl ˈpætənts/"
+    },
+    {
+      "id": "v2",
+      "phrase": "royalty stacking",
+      "meaningVi": "sự chồng chất tiền bản quyền (nhiều khoản phí cộng dồn vượt quá lợi nhuận)",
+      "pronunciation": "/ˈrɔɪəlti ˈstækɪŋ/"
+    },
+    {
+      "id": "v3",
+      "phrase": "cross-licensing",
+      "meaningVi": "cấp phép chéo (các bên trao đổi quyền sử dụng bằng sáng chế của nhau)",
+      "pronunciation": "/krɔs ˈlaɪsənsɪŋ/"
+    },
+    {
+      "id": "v4",
+      "phrase": "smallest salable patent-practicing unit",
+      "meaningVi": "đơn vị nhỏ nhất có thể bán được áp dụng bằng sáng chế (cơ sở tính tiền bản quyền)",
+      "pronunciation": "/ˈsmɔːlɪst ˈseɪləbəl ˈpætənt ˈpræktɪsɪŋ ˈjuːnɪt/"
+    },
+    {
+      "id": "v5",
+      "phrase": "willing licensee",
+      "meaningVi": "bên được cấp phép thiện chí (sẵn sàng đàm phán nghiêm túc)",
+      "pronunciation": "/ˈwɪlɪŋ ˌlaɪsənˈsiː/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "FRAND commitment",
+      "meaningVi": "cam kết FRAND (công bằng, hợp lý và không phân biệt đối xử)",
+      "pronunciation": "/frænd kəˈmɪtmənt/",
+      "exampleEn": "I want to be sure we're aligned on the FRAND commitment."
+    },
+    {
+      "phrase": "standard-essential patents",
+      "meaningVi": "các bằng sáng chế thiết yếu cho tiêu chuẩn",
+      "pronunciation": "/ˈstændərd ɪˈsɛnʃəl ˈpætənts/"
+    },
+    {
+      "phrase": "fair, reasonable, and non-discriminatory",
+      "meaningVi": "công bằng, hợp lý và không phân biệt đối xử (nội dung của FRAND)",
+      "pronunciation": "/fɛr ˈriːzənəbəl ænd ˌnɒn dɪˈskrɪmɪnətɔːri/"
+    },
+    {
+      "phrase": "underspecified",
+      "meaningVi": "được quy định thiếu rõ ràng (không đủ chi tiết)",
+      "pronunciation": "/ˌʌndərˈspɛsɪfaɪd/"
+    },
+    {
+      "phrase": "jurisdictions",
+      "meaningVi": "các khu vực tài phán (phạm vi quyền lực của một tòa án)",
+      "pronunciation": "/ˌdʒʊrɪsˈdɪkʃənz/"
+    },
+    {
+      "phrase": "reasonable royalty",
+      "meaningVi": "tiền bản quyền hợp lý",
+      "pronunciation": "/ˈriːzənəbəl ˈrɔɪəlti/"
+    },
+    {
+      "phrase": "methodology",
+      "meaningVi": "phương pháp luận (cách tính có hệ thống)",
+      "pronunciation": "/ˌmɛθəˈdɒlədʒi/"
+    },
+    {
+      "phrase": "invite gaming",
+      "meaningVi": "mời gọi sự lách luật (tạo kẽ hở để lợi dụng)",
+      "pronunciation": "/ɪnˈvaɪt ˈɡeɪmɪŋ/"
+    },
+    {
+      "phrase": "smallest salable patent-practicing unit",
+      "meaningVi": "đơn vị nhỏ nhất có thể bán được áp dụng bằng sáng chế",
+      "pronunciation": "/ˈsmɔːlɪst ˈseɪləbəl ˈpætənt ˈpræktɪsɪŋ ˈjuːnɪt/"
+    },
+    {
+      "phrase": "royalty base",
+      "meaningVi": "cơ sở tính tiền bản quyền (giá trị dùng để nhân với tỷ lệ phí)",
+      "pronunciation": "/ˈrɔɪəlti beɪs/"
+    },
+    {
+      "phrase": "apportionment",
+      "meaningVi": "sự phân bổ (chia tỷ lệ giá trị tương ứng với phần đóng góp)",
+      "pronunciation": "/əˈpɔːrʃənmənt/"
+    },
+    {
+      "phrase": "drives consumer demand",
+      "meaningVi": "thúc đẩy nhu cầu của người tiêu dùng",
+      "pronunciation": "/draɪvz kənˈsuːmər dɪˈmænd/"
+    },
+    {
+      "phrase": "evidentiary burden",
+      "meaningVi": "gánh nặng chứng cứ (nghĩa vụ phải chứng minh)",
+      "pronunciation": "/ˌɛvɪˈdɛnʃəri ˈbɜːrdən/"
+    },
+    {
+      "phrase": "case law",
+      "meaningVi": "án lệ (luật hình thành từ các phán quyết của tòa)",
+      "pronunciation": "/keɪs lɔː/"
+    },
+    {
+      "phrase": "royalty stacking",
+      "meaningVi": "sự chồng chất tiền bản quyền",
+      "pronunciation": "/ˈrɔɪəlti ˈstækɪŋ/"
+    },
+    {
+      "phrase": "cumulative burden",
+      "meaningVi": "gánh nặng tích lũy",
+      "pronunciation": "/ˈkjuːmjələtɪv ˈbɜːrdən/"
+    },
+    {
+      "phrase": "pooled cross-licensing structure",
+      "meaningVi": "cấu trúc cấp phép chéo gộp chung (quỹ bằng sáng chế chung)",
+      "pronunciation": "/puːld krɔs ˈlaɪsənsɪŋ ˈstrʌktʃər/"
+    },
+    {
+      "phrase": "bilateral deals",
+      "meaningVi": "các thỏa thuận song phương (giữa hai bên)",
+      "pronunciation": "/baɪˈlætərəl diːlz/"
+    },
+    {
+      "phrase": "aggregate cap",
+      "meaningVi": "mức trần tổng hợp (giới hạn tổng tiền bản quyền)",
+      "pronunciation": "/ˈæɡrɪɡət kæp/"
+    },
+    {
+      "phrase": "hold the others hostage",
+      "meaningVi": "bắt giữ những bên còn lại làm con tin (ép buộc bằng vị thế độc quyền)",
+      "pronunciation": "/hoʊld ðə ˈʌðərz ˈhɒstɪdʒ/"
+    },
+    {
+      "phrase": "asymmetry",
+      "meaningVi": "sự bất đối xứng (mức đóng góp không cân bằng)",
+      "pronunciation": "/eɪˈsɪmətri/"
+    },
+    {
+      "phrase": "foundational portfolios",
+      "meaningVi": "các danh mục nền tảng (bằng sáng chế cốt lõi, quan trọng)",
+      "pronunciation": "/faʊnˈdeɪʃənəl pɔːrtˈfoʊlioʊz/"
+    },
+    {
+      "phrase": "weight contributions",
+      "meaningVi": "đánh trọng số các đóng góp (định giá theo tầm quan trọng)",
+      "pronunciation": "/weɪt ˌkɒntrɪˈbjuːʃənz/"
+    },
+    {
+      "phrase": "neutral evaluator",
+      "meaningVi": "bên đánh giá trung lập (độc lập, không thiên vị)",
+      "pronunciation": "/ˈnuːtrəl ɪˈvæljueɪtər/"
+    },
+    {
+      "phrase": "self-declaration",
+      "meaningVi": "việc tự khai báo (do chính chủ sở hữu công bố)",
+      "pronunciation": "/sɛlf ˌdɛkləˈreɪʃən/"
+    },
+    {
+      "phrase": "independent essentiality check",
+      "meaningVi": "cuộc kiểm tra tính thiết yếu độc lập",
+      "pronunciation": "/ˌɪndɪˈpɛndənt ɪˌsɛnʃiˈælɪti tʃɛk/"
+    },
+    {
+      "phrase": "binding expert determination",
+      "meaningVi": "phán định chuyên gia có tính ràng buộc",
+      "pronunciation": "/ˈbaɪndɪŋ ˈɛkspɜːrt dɪˌtɜːrmɪˈneɪʃən/"
+    },
+    {
+      "phrase": "non-discriminatory prong",
+      "meaningVi": "nhánh không phân biệt đối xử (một thành tố của FRAND)",
+      "pronunciation": "/ˌnɒn dɪˈskrɪmɪnətɔːri prɒŋ/"
+    },
+    {
+      "phrase": "vertically integrated",
+      "meaningVi": "tích hợp theo chiều dọc (sở hữu nhiều khâu trong chuỗi sản xuất)",
+      "pronunciation": "/ˈvɜːrtɪkli ˈɪntɪɡreɪtɪd/"
+    },
+    {
+      "phrase": "downstream division",
+      "meaningVi": "bộ phận hạ nguồn (khâu sau trong chuỗi giá trị)",
+      "pronunciation": "/ˈdaʊnstriːm dɪˈvɪʒən/"
+    },
+    {
+      "phrase": "most-favored-licensee clause",
+      "meaningVi": "điều khoản bên được cấp phép ưu đãi nhất (đảm bảo mức tốt nhất cho mọi bên)",
+      "pronunciation": "/moʊst ˈfeɪvərd ˌlaɪsənˈsiː klɔːz/"
+    },
+    {
+      "phrase": "rate transparency",
+      "meaningVi": "tính minh bạch về mức phí",
+      "pronunciation": "/reɪt trænsˈpærənsi/"
+    },
+    {
+      "phrase": "holdup-versus-holdout dynamic",
+      "meaningVi": "động lực giữa bắt chẹt và cố thủ (hai dạng lợi dụng đối lập)",
+      "pronunciation": "/ˈhoʊldʌp ˈvɜːrsəs ˈhoʊldaʊt daɪˈnæmɪk/"
+    },
+    {
+      "phrase": "lock-in",
+      "meaningVi": "khóa chặt (bị phụ thuộc, khó chuyển sang lựa chọn khác)",
+      "pronunciation": "/ˈlɒk ɪn/"
+    },
+    {
+      "phrase": "good faith",
+      "meaningVi": "thiện chí (đàm phán trung thực, nghiêm túc)",
+      "pronunciation": "/ɡʊd feɪθ/"
+    },
+    {
+      "phrase": "FRAND shield",
+      "meaningVi": "tấm khiên FRAND (sự bảo vệ pháp lý khi tuân thủ FRAND)",
+      "pronunciation": "/frænd ʃiːld/"
+    },
+    {
+      "phrase": "injunction",
+      "meaningVi": "lệnh cấm (lệnh của tòa buộc ngừng hành vi vi phạm)",
+      "pronunciation": "/ɪnˈdʒʌŋkʃən/"
+    },
+    {
+      "phrase": "injunctive relief",
+      "meaningVi": "biện pháp cứu trợ bằng lệnh cấm",
+      "pronunciation": "/ɪnˈdʒʌŋktɪv rɪˈliːf/"
+    },
+    {
+      "phrase": "bargaining cudgel",
+      "meaningVi": "cây gậy mặc cả (công cụ gây áp lực trong đàm phán)",
+      "pronunciation": "/ˈbɑːrɡənɪŋ ˈkʌdʒəl/"
+    },
+    {
+      "phrase": "load-bearing pillars",
+      "meaningVi": "các trụ cột chịu lực (những thành tố cốt lõi)",
+      "pronunciation": "/loʊd ˈbɛrɪŋ ˈpɪlərz/"
+    },
+    {
+      "phrase": "successor-and-transfer clause",
+      "meaningVi": "điều khoản về bên kế nhiệm và chuyển nhượng",
+      "pronunciation": "/səkˈsɛsər ænd ˈtrænsfɜːr klɔːz/"
+    },
+    {
+      "phrase": "assertion entities",
+      "meaningVi": "các thực thể chuyên đi kiện đòi bản quyền (mua bằng sáng chế để kiện)",
+      "pronunciation": "/əˈsɜːrʃən ˈɛntɪtiz/"
+    },
+    {
+      "phrase": "encumbrance",
+      "meaningVi": "ràng buộc (nghĩa vụ gắn liền với tài sản)",
+      "pronunciation": "/ɪnˈkʌmbrəns/"
+    },
+    {
+      "phrase": "non-signatory",
+      "meaningVi": "bên không ký kết (không tham gia thỏa thuận)",
+      "pronunciation": "/ˌnɒn ˈsɪɡnətɔːri/"
+    },
+    {
+      "phrase": "in rem",
+      "meaningVi": "đối vật (quyền gắn với tài sản, ràng buộc mọi người)",
+      "pronunciation": "/ɪn rɛm/"
+    },
+    {
+      "phrase": "term sheet",
+      "meaningVi": "bản điều khoản tóm tắt (tóm lược các điểm chính của thỏa thuận)",
+      "pronunciation": "/tɜːrm ʃiːt/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Hedged proposals: 'I'd propose / I'd have / I'd want'",
+      "bodyVi": "Trong đàm phán cấp cao, người nói thường dùng 'I'd' (I would) + động từ để đưa ra đề xuất một cách lịch sự và bớt áp đặt: 'I'd propose that the royalty base default to…', 'I'd have the pool itself fund…', 'I'd want injunctive relief reserved for…'. Cách dùng điều kiện này biến một mệnh lệnh thành một gợi ý có thể thương lượng, giữ cho cuộc đối thoại mang tính hợp tác thay vì đối đầu.",
+      "bodyEn": "In high-level negotiation, speakers soften proposals with 'I'd' (I would) + verb: 'I'd propose that…', 'I'd have the pool fund…', 'I'd want injunctive relief reserved for…'. This conditional framing turns a directive into a negotiable suggestion. It signals that the speaker holds a clear position while leaving room for the counterparty to respond, keeping the register collaborative rather than confrontational."
+    },
+    {
+      "title": "Antithesis for emphasis: 'X in the singular becomes Y in the aggregate'",
+      "bodyVi": "Phép đối lập (antithesis) đặt hai ý tương phản cạnh nhau để làm nổi bật một nghịch lý: 'Reasonable in the singular becomes ruinous in the aggregate' (Hợp lý khi riêng lẻ trở thành tàn khốc khi cộng gộp), 'Non-discrimination on paper, discrimination in substance' (Không phân biệt trên giấy, phân biệt về bản chất). Cấu trúc song song và sự tương phản về nghĩa làm cho lập luận đáng nhớ và có sức thuyết phục.",
+      "bodyEn": "Antithesis places two contrasting ideas in parallel structure to spotlight a paradox: 'Reasonable in the singular becomes ruinous in the aggregate'; 'Non-discrimination on paper, discrimination in substance.' The parallel grammar plus the semantic contrast makes the point memorable and rhetorically forceful — a hallmark of sophisticated persuasive speech."
+    }
+  ],
+  "translationVi": "Marcus: Vivian, trước khi chúng ta soạn phụ lục cấp phép cho liên minh, tôi muốn chắc chắn rằng chúng ta thống nhất về cam kết FRAND. Mỗi thành viên đều đóng góp các bằng sáng chế thiết yếu cho tiêu chuẩn, và nếu chúng ta không xác định rõ 'công bằng, hợp lý và không phân biệt đối xử' thực sự có nghĩa gì về mặt vận hành, chúng ta sẽ phải tranh tụng lại nó trong suốt thập kỷ tới. Vivian: Tôi hoàn toàn chia sẻ mối lo ngại đó. FRAND nổi tiếng là được quy định thiếu rõ ràng — tòa án ở các khu vực tài phán khác nhau đã đưa ra những kết luận khác biệt rõ rệt về mức tiền bản quyền hợp lý cho cùng một danh mục bằng sáng chế. Tôi thiên về việc chúng ta định nghĩa một phương pháp luận trong điều lệ thay vì một con số, vì một con số sẽ lỗi thời ngay khi công nghệ thay đổi, trong khi một phương pháp luận minh bạch thì tồn tại lâu dài. Marcus: Một phương pháp luận thì tôi có thể bảo vệ được. Nhưng các phương pháp luận lại mời gọi sự lách luật. Nếu chúng ta neo tiền bản quyền vào đơn vị nhỏ nhất có thể bán được áp dụng bằng sáng chế, các bên triển khai sẽ lập luận cho linh kiện hẹp nhất có thể, còn các chủ sở hữu bằng sáng chế sẽ khăng khăng đòi lấy giá thành phẩm làm cơ sở tính tiền bản quyền. Khoảng cách đó là nơi các thỏa thuận đi đến chỗ tan vỡ. Vivian: Đúng vậy, và tôi không nghĩ chúng ta có thể loại bỏ hoàn toàn căng thẳng đó — nhưng chúng ta có thể cấu trúc nó. Tôi sẽ đề xuất rằng cơ sở tính tiền bản quyền mặc định là đơn vị nhỏ nhất có thể bán được áp dụng bằng sáng chế, với một ngoại lệ rõ ràng cho phép phân bổ theo thành phẩm chỉ khi một thành viên có thể chứng minh rằng tính năng được cấp bằng sáng chế là yếu tố thúc đẩy nhu cầu của người tiêu dùng. Điều đó đặt gánh nặng chứng cứ vào đúng chỗ của nó. Marcus: Đó là một mặc định có thể bảo vệ được, và nó bám theo xu hướng mà án lệ đang đi tới. Điều tôi lo lắng là sự chồng chất tiền bản quyền. Nếu mười hai thành viên mỗi bên đều nắm giữ các bằng sáng chế thiết yếu và mỗi bên đều rút ra một mức 'hợp lý' một cách riêng lẻ, gánh nặng tích lũy đối với bên triển khai có thể vượt quá toàn bộ biên lợi nhuận của sản phẩm. Hợp lý khi đứng riêng lẻ lại trở nên tàn khốc khi cộng gộp lại. Vivian: Đó chính xác là lý do tôi ủng hộ cấu trúc cấp phép chéo gộp chung hơn là một mạng lưới các thỏa thuận song phương. Nếu các thành viên cấp phép chéo các danh mục thiết yếu của họ vào một quỹ chung với một mức trần tổng hợp duy nhất cho tổng tiền bản quyền, không một chủ sở hữu riêng lẻ nào có thể bắt giữ những bên còn lại làm con tin, và các bên triển khai có được sự dự đoán được mà họ đang trả tiền cho. Mức trần kỷ luật vấn đề chồng chất ngay tại nguồn. Marcus: Cấp phép chéo thanh lịch khi các đóng góp tương đối cân xứng. Khó khăn nằm ở sự bất đối xứng. Chúng ta có hai thành viên với danh mục sâu, nền tảng và bốn thành viên với danh mục mỏng, ngoại vi. Một thỏa thuận cấp phép chéo ngây thơ thực chất chuyển giá trị từ những bên đóng góp nhiều sang những bên đóng góp ít, và những bên đóng góp nhiều sẽ đơn giản là từ chối ký. Vivian: Đồng ý — cấp phép chéo đồng đều sẽ là điều không thể chấp nhận đối với họ, và điều đó là chính đáng. Cách khắc phục tiêu chuẩn là đánh trọng số các đóng góp, thường bằng cách đếm số bằng sáng chế mà một bên đánh giá trung lập chứng nhận là thực sự thiết yếu, chứ không chỉ được khai báo là thiết yếu. Việc tự khai báo nổi tiếng là bị thổi phồng; các công ty khai báo quá mức để thổi phồng phần của họ trong quỹ chung. Một cuộc kiểm tra tính thiết yếu độc lập là đồng tiền đáng tin cậy duy nhất. Marcus: Đánh giá tính thiết yếu độc lập là hợp lý về nguyên tắc, nhưng nó chậm và tốn kém, và các thành viên sẽ tranh chấp kết luận của bên đánh giá ngay khi kết quả không có lợi cho họ. Ai gánh chịu chi phí, và cơ chế kháng nghị là gì khi một thành viên khăng khăng rằng bằng sáng chế của họ đã bị loại trừ sai khỏi danh sách thiết yếu? Vivian: Tôi sẽ để chính quỹ chung tài trợ cho việc đánh giá cơ sở như một chi phí hành chính chung, vì mọi người đều hưởng lợi từ một danh sách đáng tin cậy. Đối với các tranh chấp, tôi sẽ xây dựng một quy trình phân tầng: cấp xem xét đầu tiên do bên đánh giá thực hiện, rồi đến phán định chuyên gia có tính ràng buộc bởi một hội đồng kỹ thuật được bổ nhiệm chung — cố ý không phải là trọng tài đầy đủ, vốn quá chậm đối với một thứ phải được hiệu chỉnh lại khi các danh mục tiến triển. Marcus: Phán định chuyên gia thay vì trọng tài là hợp lý về mặt tốc độ. Giờ thì, nhánh không phân biệt đối xử là điều khiến tôi thức trắng đêm. Nếu một thành viên tự bản thân nó cũng là một bên triển khai — và phần lớn thành viên của chúng ta đều tích hợp theo chiều dọc — thì nó có mọi động cơ để cấp phép cho người ngoài ở mức thực tế cao hơn so với mức nó tính cho bộ phận hạ nguồn của chính mình. Không phân biệt đối xử trên giấy tờ, nhưng phân biệt đối xử về bản chất. Vivian: Đó là sự lạm dụng tinh vi nhất trong toàn bộ kiến trúc này. Biện pháp phòng vệ là một điều khoản bên được cấp phép ưu đãi nhất kết hợp với tính minh bạch về mức phí bắt buộc trong quỹ chung — mọi giấy phép mà quỹ cấp đều được đối chiếu với một biểu giá công bố, và bất kỳ khoản chiết khấu riêng nào cũng tự động được mở rộng cho các bên được cấp phép tương đương. Ánh sáng mặt trời là chất khử trùng thực sự duy nhất cho việc định giá phân biệt đối xử. Marcus: Tôi thấy thoải mái với tính minh bạch, mặc dù một số thành viên sẽ bực bội khi phải công bố các mức giá mà họ coi là nhạy cảm về mặt thương mại. Còn có cả động lực giữa việc bắt chẹt và việc cố thủ nữa. Chúng ta đã nói về việc các chủ sở hữu bằng sáng chế bắt chẹt các bên triển khai sau khi đã bị khóa chặt, nhưng các bên triển khai cũng có thể cố thủ — từ chối lấy giấy phép trong khi vẫn vi phạm, đánh cược rằng chủ sở hữu bằng sáng chế sẽ không theo đuổi vụ kiện tốn kém. FRAND không thể là một sợi dây xích chỉ trói một chiều. Vivian: Bạn nói đúng rằng nghĩa vụ phải có hiệu lực theo cả hai chiều. Cách diễn đạt gọn gàng nhất là cách mà các tòa án đã nghiêng về: chủ sở hữu bằng sáng chế phải đưa ra một lời chào FRAND, và bên triển khai phải đáp lại như một bên được cấp phép thiện chí, tham gia một cách xây dựng thay vì kéo dài câu giờ. Nếu bên triển khai không đàm phán một cách thiện chí, nó sẽ mất đi tấm khiên FRAND và tự đặt mình trước nguy cơ bị một lệnh cấm. Sự đối xứng đó là điều khiến thỏa thuận tự thực thi được. Marcus: Và các lệnh cấm là lựa chọn hạt nhân mang lại sức mạnh răn đe cho toàn bộ khuôn khổ này. Nhưng chúng ta phải cẩn thận — một lệnh cấm dễ dàng có được sẽ tái lập đúng cái đòn bẩy bắt chẹt mà FRAND vốn nhằm vô hiệu hóa. Tôi muốn biện pháp cứu trợ bằng lệnh cấm được dành riêng cho bên được cấp phép thực sự không thiện chí, chứ không phải được triển khai như một cây gậy mặc cả thường lệ chống lại một bên chỉ đang tranh chấp về mức phí. Vivian: Được hiệu chỉnh một cách chính xác. Vậy nên phụ lục cấp phép thực chất có bốn trụ cột chịu lực: một cơ sở tính tiền bản quyền dựa trên phương pháp luận neo vào đơn vị nhỏ nhất có thể bán được, một quỹ có trọng số với mức trần tổng hợp, các cuộc kiểm tra tính thiết yếu độc lập với phán định chuyên gia nhanh chóng, và một nghĩa vụ thiện chí có đi có lại được hậu thuẫn bởi các lệnh cấm chỉ sẵn có một cách hạn hẹp. Làm đúng bốn điều đó thì phần còn lại chỉ là việc soạn thảo. Marcus: Tôi sẽ thêm một điều thứ năm, kém hào nhoáng hơn: một điều khoản rõ ràng về bên kế nhiệm và chuyển nhượng. Các bằng sáng chế bị bán đi, các danh mục bị tách ra cho các thực thể chuyên đi kiện đòi bản quyền, và một cam kết FRAND mà không ràng buộc được những bên mua lại ở hạ nguồn thì vô giá trị. Ràng buộc phải đi kèm theo bằng sáng chế, nếu không một thành viên có thể tẩy rửa lối thoát của mình ra khỏi toàn bộ chế độ này bằng cách bán cho một bên không ký kết. Vivian: Đó là một điểm bắt lỗi thiết yếu, và nó chính xác là loại điều khoản trông như văn bản mẫu rập khuôn cho đến khi nó phát nổ. Chúng ta sẽ làm cho ràng buộc FRAND đi kèm theo bằng sáng chế và ràng buộc tất cả các bên kế nhiệm như một điều kiện của bất kỳ việc chuyển nhượng nào, với việc quỹ giữ lại quyền ngăn cấm các việc chuyển nhượng nhằm tước bỏ cam kết đó. Nếu nghĩa vụ thực sự là quyền đối vật, thì cánh cửa thoát hiểm dành cho thực thể chuyên đi kiện sẽ đóng lại. Marcus: Vậy thì tôi nghĩ chúng ta đã có được kiến trúc rồi. Nó sẽ không làm mọi người hài lòng như nhau, mà đó có lẽ là dấu hiệu chắc chắn nhất cho thấy nó cân bằng. Tôi có nên lưu hành một bản điều khoản tóm tắt năm trụ cột trước khi chúng ta giao cho các luật sư bắt tay vào toàn bộ phụ lục không? Vivian: Hãy làm vậy, và đánh dấu mức trần tổng hợp và phương pháp luận tính thiết yếu là hai điều khoản dễ bị công kích nhất trong đợt rà soát của các thành viên. Đó là nơi tiền thật nằm ở đó, và tôi thà phơi bày sự bất đồng ngay bây giờ còn hơn là phát hiện ra nó bị chôn vùi trong một bản chỉnh sửa cách thời điểm ký kết ba vòng đàm phán.",
+  "criticalThinkingQuestion": "Given that standard-essential patents create lock-in that can be exploited as either holdup by patent holders or holdout by implementers, and that a pooled cross-licensing structure with an aggregate cap solves royalty stacking only if contributions are credibly weighted, what governance mechanisms would most reliably keep a technology alliance's FRAND commitments meaningful as portfolios are bought, sold, and spun out to assertion entities over time?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-c1-065",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 431856
+}

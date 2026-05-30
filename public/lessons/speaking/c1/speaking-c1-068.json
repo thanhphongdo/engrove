@@ -1,0 +1,834 @@
+{
+  "id": "speaking-c1-068",
+  "level": "C1",
+  "title": "Weighing a First-in-Human Drug Trial",
+  "summary": "Clinical pharmacologist Helena and bioethicist Theo deliberate over whether to authorise a first-in-human trial of a novel compound, weighing the science of dose escalation against the ethics of informed consent, clinical equipoise, the therapeutic misconception, and the structures of independent oversight.",
+  "topic": "clinical trial ethics",
+  "tags": [
+    "Medicine",
+    "Ethics",
+    "Science"
+  ],
+  "characters": [
+    "Helena",
+    "Theo"
+  ],
+  "voices": {
+    "Helena": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-MichelleNeural"
+    },
+    "Theo": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-BrianNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Theo",
+      "text": "Helena, you're chairing the committee deciding whether this compound proceeds to a first-in-human trial. Before we get into the protocol, I want to ask the foundational question: what threshold of preclinical evidence do you actually consider sufficient to justify dosing the first healthy volunteer?"
+    },
+    {
+      "speaker": "Helena",
+      "text": "There's no single bright line, and anyone who claims otherwise is overselling the science. What I look for is convergent evidence: a plausible mechanism, dose-response data across at least two animal species, and pharmacokinetic modelling that lets us extrapolate a defensible starting dose with a substantial safety margin. The point isn't to eliminate uncertainty — that's impossible at this stage — but to characterise it well enough that the residual risk is reasonable in relation to the anticipated knowledge gained."
+    },
+    {
+      "speaker": "Theo",
+      "text": "That phrase — 'reasonable in relation to the knowledge gained' — is doing an enormous amount of work, though. In a phase one trial of a compound with no therapeutic intent for the participants, the volunteers stand to gain essentially nothing medically. So the risk is borne by one group and the benefit accrues to future patients and, let's be honest, the sponsor's shareholders."
+    },
+    {
+      "speaker": "Helena",
+      "text": "You're right that the benefit is overwhelmingly societal rather than personal, and that asymmetry is precisely why the consent process has to be so rigorous. But I'd resist the implication that this makes the arrangement inherently exploitative. We accept analogous asymmetries throughout society — we rely on volunteers for all sorts of socially valuable but personally risky undertakings. The ethical question is not whether risk and benefit fall on the same person, but whether the participant understands the arrangement and has genuinely chosen it."
+    },
+    {
+      "speaker": "Theo",
+      "text": "And that's exactly where I get nervous, because the evidence on the quality of informed consent is sobering. Study after study shows that participants routinely harbour what's called the therapeutic misconception — they believe, despite explicit disclosure, that the trial is designed to benefit them personally. If they fundamentally misunderstand the nature of what they're agreeing to, in what sense is the consent meaningful?"
+    },
+    {
+      "speaker": "Helena",
+      "text": "The therapeutic misconception is real and well documented, and it haunts me more than almost anything else in this work. But I'd push back on the inference that it renders consent meaningless across the board. The appropriate response is not to abandon consent as a fiction; it's to invest far more seriously in the comprehension process — teach-back methods, independent consent monitors, cooling-off periods. We can degrade the misconception substantially even if we can't eliminate it entirely."
+    },
+    {
+      "speaker": "Theo",
+      "text": "Let me grant you that consent can be improved. There's a structural worry that improvement alone doesn't touch: the participants in early-phase trials are disproportionately drawn from economically precarious populations. When the financial inducement is what's actually motivating enrolment, can we coherently describe that choice as voluntary in any robust sense?"
+    },
+    {
+      "speaker": "Helena",
+      "text": "This is the undue inducement debate, and I think the standard framing of it is muddled. The worry is supposedly that payment is coercive, but payment is the opposite of coercion — coercion narrows your options through threat, whereas an offer of money expands them. What payment can genuinely do is cloud judgement about risk, which is a real concern. So the right safeguard is not to suppress compensation to the point of exploitation, but to decouple the risk assessment from the financial decision and ensure independent scrutiny of whether the risk itself is acceptable, regardless of the payment."
+    },
+    {
+      "speaker": "Theo",
+      "text": "That's a sharper distinction than the way it's usually argued, and I'll concede the conceptual point about coercion. Let me move to the principle that's supposed to govern this whole enterprise — clinical equipoise. The classic justification for a trial is that the expert community is in a state of genuine uncertainty about whether the intervention is superior. But in a first-in-human safety study, there's no comparison being made and no therapeutic claim at stake, so does equipoise even apply here?"
+    },
+    {
+      "speaker": "Helena",
+      "text": "You've identified a genuine conceptual mismatch, and it's one the field doesn't always acknowledge cleanly. Equipoise in its strict sense governs the ethics of randomisation in comparative trials — it tells you when it's permissible to assign a patient to one arm rather than another. A phase one safety study isn't a comparative trial in that sense, so the governing principle there isn't equipoise but a straightforward favourable risk-knowledge balance under the standards I described. Conflating the two is a common error, and it muddies otherwise sound debates."
+    },
+    {
+      "speaker": "Theo",
+      "text": "Suppose the balance looks favourable on paper. The history of catastrophic trials — the TGN1412 disaster comes to mind, where six healthy men suffered multi-organ failure within hours — suggests that our models of how a novel compound will behave in humans can fail spectacularly and without warning. How much weight can a committee responsibly place on preclinical extrapolation that has demonstrably betrayed us before?"
+    },
+    {
+      "speaker": "Helena",
+      "text": "TGN1412 is the case that should be tattooed on the inside of every reviewer's eyelids, frankly. The lessons it taught were absorbed into practice: sentinel dosing, where you dose one participant and wait before proceeding, far more conservative starting doses for compounds acting on the immune system, and staggered administration rather than dosing the whole cohort at once. None of that makes catastrophe impossible. It does mean that a recurrence would more likely reflect a failure to apply known safeguards than an irreducible limit of the science."
+    },
+    {
+      "speaker": "Theo",
+      "text": "That reassures me about procedure, but it raises a question about who is actually applying these safeguards. The committee reviewing this protocol — is it genuinely independent of the sponsor, or are there financial entanglements, institutional pressures, and reputational incentives that quietly tilt the deliberation toward approval?"
+    },
+    {
+      "speaker": "Helena",
+      "text": "You're pointing at the structural vulnerability that worries me most, more than any individual protocol's risk profile. The institutional review board sits within an ecosystem where the institution benefits from the research income, the investigators' careers depend on enrolment, and commercial review boards compete for sponsors' business — which creates an obvious incentive to be accommodating. Disclosure of conflicts is necessary but laughably insufficient on its own. We need structural firewalls: reviewers with no financial stake, decisions insulated from the institution's revenue, and meaningful accountability when oversight fails."
+    },
+    {
+      "speaker": "Theo",
+      "text": "Let me probe the limits of process, then. Even a perfectly independent board with flawless procedures is making a judgement under deep uncertainty. At some point a human being signs off and a needle goes into an arm. Is there a category of risk — some ceiling of potential harm to a healthy volunteer — that no favourable calculation should be permitted to override?"
+    },
+    {
+      "speaker": "Helena",
+      "text": "I believe there is, and I'd state it as a constraint rather than something to be traded off. There are harms so severe and irreversible — a substantial risk of death or permanent grave disability — that no quantity of anticipated social benefit should license imposing them on a healthy volunteer who cannot themselves benefit. That's a deontological side-constraint on an otherwise consequentialist calculus, and I think any defensible research ethics has to contain one. The whole apparatus of consent and oversight operates beneath that ceiling, not in place of it."
+    },
+    {
+      "speaker": "Theo",
+      "text": "So your final position is a kind of layered safeguard: a hard ceiling on intolerable risk, a favourable risk-knowledge balance beneath it, genuinely informed consent, and structurally independent oversight — all four required, none of them sufficient alone."
+    },
+    {
+      "speaker": "Helena",
+      "text": "That's a fair distillation, and I'd only add the dimension that's easiest to neglect: transparency after the fact. Pre-registration of the protocol, publication of results regardless of how unflattering they are, and honest reporting of adverse events. A system that lets sponsors bury inconvenient findings corrupts every future risk assessment, because the next committee deliberates on a literature that has been silently censored. Accountability doesn't end when the trial does."
+    },
+    {
+      "speaker": "Theo",
+      "text": "That last point may be the most underappreciated of all — the ethics of a single trial are ultimately inseparable from the integrity of the evidence base it feeds. Which means the question we started with, about what justifies dosing the first volunteer, can't really be answered by looking at one protocol in isolation."
+    },
+    {
+      "speaker": "Helena",
+      "text": "Exactly. The first volunteer is dosed on the strength of everything every previous trial honestly reported, and they in turn become part of the foundation on which the next compound is judged. That web of mutual reliance is the real ethical object here — not the isolated decision, but the trustworthiness of the entire enterprise that the decision is embedded in."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Theo",
+      "text": "Helena, you're chairing the committee deciding whether this compound proceeds to a first-in-human trial.",
+      "translationVi": "Helena, bạn đang chủ trì ủy ban quyết định liệu hợp chất này có được tiến hành đến một thử nghiệm lần đầu tiên trên người hay không.",
+      "durationMs": 5856
+    },
+    {
+      "id": "s2",
+      "speaker": "Theo",
+      "text": "Before we get into the protocol, I want to ask the foundational question: what threshold of preclinical evidence do you actually consider sufficient to justify dosing the first healthy volunteer?",
+      "translationVi": "Trước khi đi vào đề cương nghiên cứu, tôi muốn hỏi một câu hỏi nền tảng: ngưỡng bằng chứng tiền lâm sàng nào mà bạn thực sự coi là đủ để biện minh cho việc cho người tình nguyện khỏe mạnh đầu tiên dùng liều thuốc?",
+      "durationMs": 10392
+    },
+    {
+      "id": "s3",
+      "speaker": "Helena",
+      "text": "There's no single bright line, and anyone who claims otherwise is overselling the science.",
+      "translationVi": "Không có một ranh giới rõ ràng duy nhất nào, và bất kỳ ai tuyên bố ngược lại đều đang thổi phồng khoa học.",
+      "durationMs": 5616
+    },
+    {
+      "id": "s4",
+      "speaker": "Helena",
+      "text": "What I look for is convergent evidence: a plausible mechanism, dose-response data across at least two animal species, and pharmacokinetic modelling that lets us extrapolate a defensible starting dose with a substantial safety margin.",
+      "translationVi": "Điều tôi tìm kiếm là bằng chứng hội tụ: một cơ chế hợp lý, dữ liệu đáp ứng theo liều trên ít nhất hai loài động vật, và mô hình hóa dược động học cho phép chúng ta ngoại suy một liều khởi đầu có thể bảo vệ được với biên độ an toàn đáng kể.",
+      "durationMs": 13152
+    },
+    {
+      "id": "s5",
+      "speaker": "Helena",
+      "text": "The point isn't to eliminate uncertainty — that's impossible at this stage — but to characterise it well enough that the residual risk is reasonable in relation to the anticipated knowledge gained.",
+      "translationVi": "Mục đích không phải là loại bỏ sự không chắc chắn — điều đó là không thể ở giai đoạn này — mà là mô tả nó đủ rõ để rủi ro còn lại là hợp lý trong tương quan với kiến thức dự kiến thu được.",
+      "durationMs": 10584
+    },
+    {
+      "id": "s6",
+      "speaker": "Theo",
+      "text": "That phrase — 'reasonable in relation to the knowledge gained' — is doing an enormous amount of work, though.",
+      "translationVi": "Tuy nhiên, cụm từ đó — 'hợp lý trong tương quan với kiến thức thu được' — đang đảm nhận một khối lượng công việc khổng lồ.",
+      "durationMs": 6720
+    },
+    {
+      "id": "s7",
+      "speaker": "Theo",
+      "text": "In a phase one trial of a compound with no therapeutic intent for the participants, the volunteers stand to gain essentially nothing medically.",
+      "translationVi": "Trong một thử nghiệm pha một của một hợp chất không có ý định điều trị cho người tham gia, các tình nguyện viên về cơ bản chẳng thu được gì về mặt y khoa.",
+      "durationMs": 8160
+    },
+    {
+      "id": "s8",
+      "speaker": "Theo",
+      "text": "So the risk is borne by one group and the benefit accrues to future patients and, let's be honest, the sponsor's shareholders.",
+      "translationVi": "Vì vậy rủi ro do một nhóm gánh chịu còn lợi ích lại dồn về các bệnh nhân tương lai và, nói thật, các cổ đông của nhà tài trợ.",
+      "durationMs": 7704
+    },
+    {
+      "id": "s9",
+      "speaker": "Helena",
+      "text": "You're right that the benefit is overwhelmingly societal rather than personal, and that asymmetry is precisely why the consent process has to be so rigorous.",
+      "translationVi": "Bạn đúng khi nói lợi ích chủ yếu mang tính xã hội hơn là cá nhân, và chính sự bất đối xứng đó là lý do tại sao quá trình đồng thuận phải nghiêm ngặt đến vậy.",
+      "durationMs": 8952
+    },
+    {
+      "id": "s10",
+      "speaker": "Helena",
+      "text": "But I'd resist the implication that this makes the arrangement inherently exploitative.",
+      "translationVi": "Nhưng tôi sẽ phản đối hàm ý rằng điều này khiến cho sự sắp xếp đó vốn dĩ mang tính bóc lột.",
+      "durationMs": 4968
+    },
+    {
+      "id": "s11",
+      "speaker": "Helena",
+      "text": "We accept analogous asymmetries throughout society — we rely on volunteers for all sorts of socially valuable but personally risky undertakings.",
+      "translationVi": "Chúng ta chấp nhận những sự bất đối xứng tương tự trong khắp xã hội — chúng ta dựa vào các tình nguyện viên cho đủ loại công việc có giá trị xã hội nhưng rủi ro cho cá nhân.",
+      "durationMs": 9096
+    },
+    {
+      "id": "s12",
+      "speaker": "Helena",
+      "text": "The ethical question is not whether risk and benefit fall on the same person, but whether the participant understands the arrangement and has genuinely chosen it.",
+      "translationVi": "Câu hỏi đạo đức không phải là liệu rủi ro và lợi ích có rơi vào cùng một người hay không, mà là liệu người tham gia có hiểu sự sắp xếp đó và đã thực sự lựa chọn nó hay không.",
+      "durationMs": 8592
+    },
+    {
+      "id": "s13",
+      "speaker": "Theo",
+      "text": "And that's exactly where I get nervous, because the evidence on the quality of informed consent is sobering.",
+      "translationVi": "Và đó chính là chỗ khiến tôi lo lắng, bởi vì bằng chứng về chất lượng của sự đồng thuận có hiểu biết là đáng báo động.",
+      "durationMs": 5832
+    },
+    {
+      "id": "s14",
+      "speaker": "Theo",
+      "text": "Study after study shows that participants routinely harbour what's called the therapeutic misconception — they believe, despite explicit disclosure, that the trial is designed to benefit them personally.",
+      "translationVi": "Nghiên cứu này nối tiếp nghiên cứu khác cho thấy người tham gia thường nuôi dưỡng cái gọi là ngộ nhận điều trị — họ tin rằng, bất chấp việc đã được giải thích rõ ràng, thử nghiệm được thiết kế để mang lại lợi ích cho cá nhân họ.",
+      "durationMs": 11376
+    },
+    {
+      "id": "s15",
+      "speaker": "Theo",
+      "text": "If they fundamentally misunderstand the nature of what they're agreeing to, in what sense is the consent meaningful?",
+      "translationVi": "Nếu họ hiểu sai về cơ bản bản chất của những gì họ đang đồng ý, thì sự đồng thuận có ý nghĩa theo nghĩa nào?",
+      "durationMs": 6576
+    },
+    {
+      "id": "s16",
+      "speaker": "Helena",
+      "text": "The therapeutic misconception is real and well documented, and it haunts me more than almost anything else in this work.",
+      "translationVi": "Ngộ nhận điều trị là có thật và được ghi nhận rõ ràng, và nó ám ảnh tôi hơn hầu hết bất cứ điều gì khác trong công việc này.",
+      "durationMs": 6816
+    },
+    {
+      "id": "s17",
+      "speaker": "Helena",
+      "text": "But I'd push back on the inference that it renders consent meaningless across the board.",
+      "translationVi": "Nhưng tôi sẽ phản bác suy luận rằng nó làm cho sự đồng thuận trở nên vô nghĩa trên toàn bộ.",
+      "durationMs": 4872
+    },
+    {
+      "id": "s18",
+      "speaker": "Helena",
+      "text": "The appropriate response is not to abandon consent as a fiction; it's to invest far more seriously in the comprehension process — teach-back methods, independent consent monitors, cooling-off periods.",
+      "translationVi": "Phản ứng thích hợp không phải là từ bỏ sự đồng thuận như một điều hư cấu; mà là đầu tư nghiêm túc hơn nhiều vào quá trình thấu hiểu — các phương pháp yêu cầu nhắc lại, các giám sát viên đồng thuận độc lập, các giai đoạn cân nhắc lại.",
+      "durationMs": 11616
+    },
+    {
+      "id": "s19",
+      "speaker": "Helena",
+      "text": "We can degrade the misconception substantially even if we can't eliminate it entirely.",
+      "translationVi": "Chúng ta có thể làm giảm sự ngộ nhận một cách đáng kể ngay cả khi chúng ta không thể loại bỏ nó hoàn toàn.",
+      "durationMs": 5256
+    },
+    {
+      "id": "s20",
+      "speaker": "Theo",
+      "text": "Let me grant you that consent can be improved.",
+      "translationVi": "Để tôi thừa nhận với bạn rằng sự đồng thuận có thể được cải thiện.",
+      "durationMs": 3144
+    },
+    {
+      "id": "s21",
+      "speaker": "Theo",
+      "text": "There's a structural worry that improvement alone doesn't touch: the participants in early-phase trials are disproportionately drawn from economically precarious populations.",
+      "translationVi": "Có một mối lo mang tính cấu trúc mà chỉ riêng việc cải thiện không chạm tới được: những người tham gia các thử nghiệm giai đoạn đầu được lấy một cách không cân xứng từ các nhóm dân cư bấp bênh về kinh tế.",
+      "durationMs": 9816
+    },
+    {
+      "id": "s22",
+      "speaker": "Theo",
+      "text": "When the financial inducement is what's actually motivating enrolment, can we coherently describe that choice as voluntary in any robust sense?",
+      "translationVi": "Khi sự dụ dỗ tài chính mới chính là thứ thực sự thúc đẩy việc ghi danh, liệu chúng ta có thể mô tả lựa chọn đó là tự nguyện theo bất kỳ nghĩa vững chắc nào một cách nhất quán không?",
+      "durationMs": 8232
+    },
+    {
+      "id": "s23",
+      "speaker": "Helena",
+      "text": "This is the undue inducement debate, and I think the standard framing of it is muddled.",
+      "translationVi": "Đây là cuộc tranh luận về sự dụ dỗ quá mức, và tôi nghĩ cách đặt vấn đề tiêu chuẩn của nó là lộn xộn.",
+      "durationMs": 5304
+    },
+    {
+      "id": "s24",
+      "speaker": "Helena",
+      "text": "The worry is supposedly that payment is coercive, but payment is the opposite of coercion — coercion narrows your options through threat, whereas an offer of money expands them.",
+      "translationVi": "Mối lo được cho là tiền chi trả mang tính cưỡng ép, nhưng tiền chi trả lại ngược với sự cưỡng ép — sự cưỡng ép thu hẹp các lựa chọn của bạn thông qua đe dọa, trong khi một lời đề nghị tiền bạc lại mở rộng chúng.",
+      "durationMs": 10248
+    },
+    {
+      "id": "s25",
+      "speaker": "Helena",
+      "text": "What payment can genuinely do is cloud judgement about risk, which is a real concern.",
+      "translationVi": "Điều mà tiền chi trả thực sự có thể làm là làm mờ phán đoán về rủi ro, vốn là một mối quan ngại có thật.",
+      "durationMs": 5520
+    },
+    {
+      "id": "s26",
+      "speaker": "Helena",
+      "text": "So the right safeguard is not to suppress compensation to the point of exploitation, but to decouple the risk assessment from the financial decision and ensure independent scrutiny of whether the risk itself is acceptable, regardless of the payment.",
+      "translationVi": "Vì vậy biện pháp bảo vệ đúng đắn không phải là kìm nén tiền thù lao đến mức bóc lột, mà là tách rời việc đánh giá rủi ro khỏi quyết định tài chính và bảo đảm sự xem xét độc lập về việc liệu bản thân rủi ro có chấp nhận được hay không, bất kể khoản tiền chi trả là bao nhiêu.",
+      "durationMs": 12648
+    },
+    {
+      "id": "s27",
+      "speaker": "Theo",
+      "text": "That's a sharper distinction than the way it's usually argued, and I'll concede the conceptual point about coercion.",
+      "translationVi": "Đó là một sự phân biệt sắc bén hơn cách người ta thường lập luận, và tôi sẽ thừa nhận điểm về mặt khái niệm liên quan đến sự cưỡng ép.",
+      "durationMs": 6576
+    },
+    {
+      "id": "s28",
+      "speaker": "Theo",
+      "text": "Let me move to the principle that's supposed to govern this whole enterprise — clinical equipoise.",
+      "translationVi": "Để tôi chuyển sang nguyên tắc được cho là chi phối toàn bộ công cuộc này — trạng thái cân bằng lâm sàng.",
+      "durationMs": 5520
+    },
+    {
+      "id": "s29",
+      "speaker": "Theo",
+      "text": "The classic justification for a trial is that the expert community is in a state of genuine uncertainty about whether the intervention is superior.",
+      "translationVi": "Sự biện minh kinh điển cho một thử nghiệm là cộng đồng chuyên gia đang ở trong một trạng thái không chắc chắn thực sự về việc liệu can thiệp đó có vượt trội hay không.",
+      "durationMs": 8328
+    },
+    {
+      "id": "s30",
+      "speaker": "Theo",
+      "text": "But in a first-in-human safety study, there's no comparison being made and no therapeutic claim at stake, so does equipoise even apply here?",
+      "translationVi": "Nhưng trong một nghiên cứu an toàn lần đầu trên người, không có sự so sánh nào được thực hiện và không có tuyên bố điều trị nào bị đặt cược, vậy thì trạng thái cân bằng có áp dụng ở đây không?",
+      "durationMs": 8112
+    },
+    {
+      "id": "s31",
+      "speaker": "Helena",
+      "text": "You've identified a genuine conceptual mismatch, and it's one the field doesn't always acknowledge cleanly.",
+      "translationVi": "Bạn đã xác định một sự không khớp về mặt khái niệm thực sự, và đó là điều mà lĩnh vực này không phải lúc nào cũng thừa nhận một cách rõ ràng.",
+      "durationMs": 6336
+    },
+    {
+      "id": "s32",
+      "speaker": "Helena",
+      "text": "Equipoise in its strict sense governs the ethics of randomisation in comparative trials — it tells you when it's permissible to assign a patient to one arm rather than another.",
+      "translationVi": "Trạng thái cân bằng theo nghĩa nghiêm ngặt chi phối đạo đức của việc phân ngẫu nhiên trong các thử nghiệm so sánh — nó cho bạn biết khi nào được phép phân một bệnh nhân vào nhánh này thay vì nhánh khác.",
+      "durationMs": 9336
+    },
+    {
+      "id": "s33",
+      "speaker": "Helena",
+      "text": "A phase one safety study isn't a comparative trial in that sense, so the governing principle there isn't equipoise but a straightforward favourable risk-knowledge balance under the standards I described.",
+      "translationVi": "Một nghiên cứu an toàn pha một không phải là một thử nghiệm so sánh theo nghĩa đó, vì vậy nguyên tắc chi phối ở đó không phải là trạng thái cân bằng mà là một sự cân bằng thuận lợi giữa rủi ro và kiến thức một cách thẳng thắn theo các tiêu chuẩn tôi đã mô tả.",
+      "durationMs": 10608
+    },
+    {
+      "id": "s34",
+      "speaker": "Helena",
+      "text": "Conflating the two is a common error, and it muddies otherwise sound debates.",
+      "translationVi": "Trộn lẫn hai điều này là một sai lầm phổ biến, và nó làm vẩn đục những cuộc tranh luận lẽ ra là vững chắc.",
+      "durationMs": 4968
+    },
+    {
+      "id": "s35",
+      "speaker": "Theo",
+      "text": "Suppose the balance looks favourable on paper.",
+      "translationVi": "Giả sử sự cân bằng trông có vẻ thuận lợi trên giấy tờ.",
+      "durationMs": 3096
+    },
+    {
+      "id": "s36",
+      "speaker": "Theo",
+      "text": "The history of catastrophic trials — the TGN1412 disaster comes to mind, where six healthy men suffered multi-organ failure within hours — suggests that our models of how a novel compound will behave in humans can fail spectacularly and without warning.",
+      "translationVi": "Lịch sử của các thử nghiệm thảm khốc — thảm họa TGN1412 hiện lên trong đầu, nơi sáu người đàn ông khỏe mạnh bị suy đa cơ quan trong vòng vài giờ — gợi ý rằng các mô hình của chúng ta về cách một hợp chất mới sẽ hành xử ở người có thể thất bại một cách ngoạn mục và không hề báo trước.",
+      "durationMs": 14280
+    },
+    {
+      "id": "s37",
+      "speaker": "Theo",
+      "text": "How much weight can a committee responsibly place on preclinical extrapolation that has demonstrably betrayed us before?",
+      "translationVi": "Một ủy ban có thể đặt bao nhiêu trọng lượng một cách có trách nhiệm lên việc ngoại suy tiền lâm sàng vốn đã rõ ràng phản bội chúng ta trước đây?",
+      "durationMs": 7176
+    },
+    {
+      "id": "s38",
+      "speaker": "Helena",
+      "text": "TGN1412 is the case that should be tattooed on the inside of every reviewer's eyelids, frankly.",
+      "translationVi": "TGN1412 là trường hợp mà thành thật mà nói nên được xăm vào mặt trong mí mắt của mọi người thẩm định.",
+      "durationMs": 6840
+    },
+    {
+      "id": "s39",
+      "speaker": "Helena",
+      "text": "The lessons it taught were absorbed into practice: sentinel dosing, where you dose one participant and wait before proceeding, far more conservative starting doses for compounds acting on the immune system, and staggered administration rather than dosing the whole cohort at once.",
+      "translationVi": "Những bài học nó dạy đã được hấp thụ vào thực hành: dùng liều canh gác, trong đó bạn cho một người tham gia dùng liều rồi chờ đợi trước khi tiếp tục, các liều khởi đầu thận trọng hơn nhiều đối với các hợp chất tác động lên hệ miễn dịch, và việc cho dùng thuốc theo trình tự xen kẽ thay vì cho cả nhóm dùng liều cùng một lúc.",
+      "durationMs": 14808
+    },
+    {
+      "id": "s40",
+      "speaker": "Helena",
+      "text": "None of that makes catastrophe impossible.",
+      "translationVi": "Không điều nào trong số đó khiến cho thảm họa trở nên bất khả thi.",
+      "durationMs": 3192
+    },
+    {
+      "id": "s41",
+      "speaker": "Helena",
+      "text": "It does mean that a recurrence would more likely reflect a failure to apply known safeguards than an irreducible limit of the science.",
+      "translationVi": "Nó có nghĩa là một sự tái diễn sẽ có nhiều khả năng phản ánh một sự thất bại trong việc áp dụng các biện pháp bảo vệ đã biết hơn là một giới hạn không thể giản lược của khoa học.",
+      "durationMs": 7272
+    },
+    {
+      "id": "s42",
+      "speaker": "Theo",
+      "text": "That reassures me about procedure, but it raises a question about who is actually applying these safeguards.",
+      "translationVi": "Điều đó trấn an tôi về quy trình, nhưng nó làm nảy sinh một câu hỏi về việc ai mới thực sự đang áp dụng các biện pháp bảo vệ này.",
+      "durationMs": 6408
+    },
+    {
+      "id": "s43",
+      "speaker": "Theo",
+      "text": "The committee reviewing this protocol — is it genuinely independent of the sponsor, or are there financial entanglements, institutional pressures, and reputational incentives that quietly tilt the deliberation toward approval?",
+      "translationVi": "Ủy ban thẩm định đề cương này — liệu nó có thực sự độc lập với nhà tài trợ không, hay có những ràng buộc tài chính, áp lực thể chế, và các động cơ về danh tiếng âm thầm nghiêng cuộc cân nhắc về phía phê duyệt?",
+      "durationMs": 12576
+    },
+    {
+      "id": "s44",
+      "speaker": "Helena",
+      "text": "You're pointing at the structural vulnerability that worries me most, more than any individual protocol's risk profile.",
+      "translationVi": "Bạn đang chỉ vào sự dễ tổn thương mang tính cấu trúc khiến tôi lo lắng nhất, hơn cả hồ sơ rủi ro của bất kỳ đề cương riêng lẻ nào.",
+      "durationMs": 7008
+    },
+    {
+      "id": "s45",
+      "speaker": "Helena",
+      "text": "The institutional review board sits within an ecosystem where the institution benefits from the research income, the investigators' careers depend on enrolment, and commercial review boards compete for sponsors' business — which creates an obvious incentive to be accommodating.",
+      "translationVi": "Hội đồng thẩm định của cơ sở nằm trong một hệ sinh thái nơi cơ sở đó hưởng lợi từ thu nhập nghiên cứu, sự nghiệp của các nghiên cứu viên phụ thuộc vào việc ghi danh, và các hội đồng thẩm định thương mại cạnh tranh để giành công việc của các nhà tài trợ — điều tạo ra một động cơ rõ ràng để tỏ ra dễ dãi.",
+      "durationMs": 14616
+    },
+    {
+      "id": "s46",
+      "speaker": "Helena",
+      "text": "Disclosure of conflicts is necessary but laughably insufficient on its own.",
+      "translationVi": "Việc công khai các xung đột là cần thiết nhưng tự nó thì không đủ đến mức buồn cười.",
+      "durationMs": 4944
+    },
+    {
+      "id": "s47",
+      "speaker": "Helena",
+      "text": "We need structural firewalls: reviewers with no financial stake, decisions insulated from the institution's revenue, and meaningful accountability when oversight fails.",
+      "translationVi": "Chúng ta cần các bức tường lửa mang tính cấu trúc: những người thẩm định không có lợi ích tài chính, các quyết định được cách ly khỏi doanh thu của cơ sở, và trách nhiệm giải trình có ý nghĩa khi việc giám sát thất bại.",
+      "durationMs": 10344
+    },
+    {
+      "id": "s48",
+      "speaker": "Theo",
+      "text": "Let me probe the limits of process, then.",
+      "translationVi": "Vậy thì để tôi thăm dò các giới hạn của quy trình.",
+      "durationMs": 2880
+    },
+    {
+      "id": "s49",
+      "speaker": "Theo",
+      "text": "Even a perfectly independent board with flawless procedures is making a judgement under deep uncertainty.",
+      "translationVi": "Ngay cả một hội đồng hoàn toàn độc lập với các quy trình hoàn hảo cũng đang đưa ra một phán đoán trong điều kiện không chắc chắn sâu sắc.",
+      "durationMs": 6480
+    },
+    {
+      "id": "s50",
+      "speaker": "Theo",
+      "text": "At some point a human being signs off and a needle goes into an arm.",
+      "translationVi": "Đến một thời điểm nào đó một con người ký duyệt và một mũi kim đi vào cánh tay.",
+      "durationMs": 4320
+    },
+    {
+      "id": "s51",
+      "speaker": "Theo",
+      "text": "Is there a category of risk — some ceiling of potential harm to a healthy volunteer — that no favourable calculation should be permitted to override?",
+      "translationVi": "Liệu có một loại rủi ro — một mức trần nào đó về tổn hại tiềm tàng đối với một người tình nguyện khỏe mạnh — mà không một phép tính thuận lợi nào được phép vượt qua không?",
+      "durationMs": 8832
+    },
+    {
+      "id": "s52",
+      "speaker": "Helena",
+      "text": "I believe there is, and I'd state it as a constraint rather than something to be traded off.",
+      "translationVi": "Tôi tin là có, và tôi sẽ nêu nó như một ràng buộc chứ không phải một thứ để đánh đổi.",
+      "durationMs": 5592
+    },
+    {
+      "id": "s53",
+      "speaker": "Helena",
+      "text": "There are harms so severe and irreversible — a substantial risk of death or permanent grave disability — that no quantity of anticipated social benefit should license imposing them on a healthy volunteer who cannot themselves benefit.",
+      "translationVi": "Có những tổn hại nghiêm trọng và không thể đảo ngược đến mức — một rủi ro đáng kể về tử vong hoặc tàn tật nghiêm trọng vĩnh viễn — mà không một lượng lợi ích xã hội dự kiến nào được phép cho phép áp đặt chúng lên một người tình nguyện khỏe mạnh vốn không thể tự mình hưởng lợi.",
+      "durationMs": 13056
+    },
+    {
+      "id": "s54",
+      "speaker": "Helena",
+      "text": "That's a deontological side-constraint on an otherwise consequentialist calculus, and I think any defensible research ethics has to contain one.",
+      "translationVi": "Đó là một ràng buộc phụ mang tính nghĩa vụ luận đặt lên một phép tính vốn dĩ mang tính hệ quả luận, và tôi nghĩ bất kỳ nền đạo đức nghiên cứu nào có thể bảo vệ được đều phải chứa đựng một ràng buộc như vậy.",
+      "durationMs": 8304
+    },
+    {
+      "id": "s55",
+      "speaker": "Helena",
+      "text": "The whole apparatus of consent and oversight operates beneath that ceiling, not in place of it.",
+      "translationVi": "Toàn bộ bộ máy của sự đồng thuận và giám sát vận hành bên dưới mức trần đó, chứ không phải thay thế cho nó.",
+      "durationMs": 5904
+    },
+    {
+      "id": "s56",
+      "speaker": "Theo",
+      "text": "So your final position is a kind of layered safeguard: a hard ceiling on intolerable risk, a favourable risk-knowledge balance beneath it, genuinely informed consent, and structurally independent oversight — all four required, none of them sufficient alone.",
+      "translationVi": "Vậy lập trường cuối cùng của bạn là một kiểu bảo vệ nhiều tầng: một mức trần cứng đối với rủi ro không thể chấp nhận, một sự cân bằng rủi ro-kiến thức thuận lợi bên dưới nó, sự đồng thuận thực sự có hiểu biết, và sự giám sát độc lập về mặt cấu trúc — cả bốn đều bắt buộc, không cái nào tự nó là đủ.",
+      "durationMs": 14640
+    },
+    {
+      "id": "s57",
+      "speaker": "Helena",
+      "text": "That's a fair distillation, and I'd only add the dimension that's easiest to neglect: transparency after the fact.",
+      "translationVi": "Đó là một sự chắt lọc công bằng, và tôi chỉ xin bổ sung khía cạnh dễ bị bỏ quên nhất: sự minh bạch sau khi sự việc đã xảy ra.",
+      "durationMs": 6936
+    },
+    {
+      "id": "s58",
+      "speaker": "Helena",
+      "text": "Pre-registration of the protocol, publication of results regardless of how unflattering they are, and honest reporting of adverse events.",
+      "translationVi": "Đăng ký trước đề cương nghiên cứu, công bố kết quả bất kể chúng có bất lợi đến đâu, và báo cáo trung thực các biến cố bất lợi.",
+      "durationMs": 8112
+    },
+    {
+      "id": "s59",
+      "speaker": "Helena",
+      "text": "A system that lets sponsors bury inconvenient findings corrupts every future risk assessment, because the next committee deliberates on a literature that has been silently censored.",
+      "translationVi": "Một hệ thống cho phép các nhà tài trợ chôn vùi những phát hiện bất tiện sẽ làm hỏng mọi đánh giá rủi ro trong tương lai, bởi vì ủy ban tiếp theo cân nhắc dựa trên một kho tài liệu đã bị kiểm duyệt một cách âm thầm.",
+      "durationMs": 9552
+    },
+    {
+      "id": "s60",
+      "speaker": "Helena",
+      "text": "Accountability doesn't end when the trial does.",
+      "translationVi": "Trách nhiệm giải trình không kết thúc khi thử nghiệm kết thúc.",
+      "durationMs": 3504
+    },
+    {
+      "id": "s61",
+      "speaker": "Theo",
+      "text": "That last point may be the most underappreciated of all — the ethics of a single trial are ultimately inseparable from the integrity of the evidence base it feeds.",
+      "translationVi": "Điểm cuối cùng đó có lẽ là điểm ít được đánh giá đúng mức nhất trong tất cả — đạo đức của một thử nghiệm đơn lẻ rốt cuộc không thể tách rời khỏi tính toàn vẹn của kho bằng chứng mà nó đóng góp vào.",
+      "durationMs": 9120
+    },
+    {
+      "id": "s62",
+      "speaker": "Theo",
+      "text": "Which means the question we started with, about what justifies dosing the first volunteer, can't really be answered by looking at one protocol in isolation.",
+      "translationVi": "Điều đó có nghĩa là câu hỏi mà chúng ta bắt đầu, về việc điều gì biện minh cho việc cho người tình nguyện đầu tiên dùng liều, thực sự không thể được trả lời bằng cách nhìn vào một đề cương đơn lẻ một cách tách biệt.",
+      "durationMs": 9336
+    },
+    {
+      "id": "s63",
+      "speaker": "Helena",
+      "text": "Exactly.",
+      "translationVi": "Chính xác.",
+      "durationMs": 1776
+    },
+    {
+      "id": "s64",
+      "speaker": "Helena",
+      "text": "The first volunteer is dosed on the strength of everything every previous trial honestly reported, and they in turn become part of the foundation on which the next compound is judged.",
+      "translationVi": "Người tình nguyện đầu tiên được cho dùng liều dựa trên sức mạnh của tất cả những gì mỗi thử nghiệm trước đó đã báo cáo một cách trung thực, và đến lượt mình họ trở thành một phần của nền tảng mà trên đó hợp chất tiếp theo được đánh giá.",
+      "durationMs": 9648
+    },
+    {
+      "id": "s65",
+      "speaker": "Helena",
+      "text": "That web of mutual reliance is the real ethical object here — not the isolated decision, but the trustworthiness of the entire enterprise that the decision is embedded in.",
+      "translationVi": "Mạng lưới phụ thuộc lẫn nhau đó mới là đối tượng đạo đức thực sự ở đây — không phải là quyết định đơn lẻ, mà là sự đáng tin cậy của toàn bộ công cuộc mà quyết định đó được gắn vào.",
+      "durationMs": 9792
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "There's no single bright line, and anyone who claims otherwise is …"
+    },
+    {
+      "id": "h2",
+      "text": "The therapeutic misconception is real, but I'd push back on the inference that …"
+    },
+    {
+      "id": "h3",
+      "text": "I'd state it as a constraint rather than something to be traded off: there are harms so … that no … should license …"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "first-in-human trial",
+      "meaningVi": "thử nghiệm lần đầu tiên trên người (giai đoạn đầu tiên dùng thuốc cho người)",
+      "pronunciation": "/ˈfɜːrst ɪn ˈhjuːmən ˈtraɪəl/"
+    },
+    {
+      "id": "v2",
+      "phrase": "informed consent",
+      "meaningVi": "sự đồng thuận có hiểu biết (đồng ý sau khi đã hiểu đầy đủ rủi ro)",
+      "pronunciation": "/ɪnˈfɔːrmd kənˈsɛnt/"
+    },
+    {
+      "id": "v3",
+      "phrase": "clinical equipoise",
+      "meaningVi": "trạng thái cân bằng lâm sàng (sự không chắc chắn thực sự về phương pháp nào tốt hơn)",
+      "pronunciation": "/ˈklɪnɪkl ˈɛkwɪpɔɪz/"
+    },
+    {
+      "id": "v4",
+      "phrase": "the therapeutic misconception",
+      "meaningVi": "ngộ nhận điều trị (tưởng lầm rằng thử nghiệm nhằm chữa bệnh cho mình)",
+      "pronunciation": "/ðə ˌθɛrəˈpjuːtɪk ˌmɪskənˈsɛpʃən/"
+    },
+    {
+      "id": "v5",
+      "phrase": "adverse events",
+      "meaningVi": "các biến cố bất lợi (tác dụng phụ có hại trong thử nghiệm)",
+      "pronunciation": "/ˈædvɜːrs ɪˈvɛnts/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "chairing the committee",
+      "meaningVi": "chủ trì ủy ban",
+      "pronunciation": "/ˈtʃɛərɪŋ ðə kəˈmɪti/"
+    },
+    {
+      "phrase": "this compound",
+      "meaningVi": "hợp chất này (thuốc thử nghiệm)",
+      "pronunciation": "/ðɪs ˈkɒmpaʊnd/"
+    },
+    {
+      "phrase": "threshold of preclinical evidence",
+      "meaningVi": "ngưỡng bằng chứng tiền lâm sàng",
+      "pronunciation": "/ˈθrɛʃhoʊld əv ˌpriːˈklɪnɪkl ˈɛvɪdəns/"
+    },
+    {
+      "phrase": "healthy volunteer",
+      "meaningVi": "người tình nguyện khỏe mạnh",
+      "pronunciation": "/ˈhɛlθi ˌvɒlənˈtɪər/"
+    },
+    {
+      "phrase": "no single bright line",
+      "meaningVi": "không có một ranh giới rõ ràng duy nhất",
+      "pronunciation": "/noʊ ˈsɪŋɡl braɪt laɪn/"
+    },
+    {
+      "phrase": "convergent evidence",
+      "meaningVi": "bằng chứng hội tụ (nhiều nguồn cùng chỉ về một kết luận)",
+      "pronunciation": "/kənˈvɜːrdʒənt ˈɛvɪdəns/"
+    },
+    {
+      "phrase": "dose-response data",
+      "meaningVi": "dữ liệu đáp ứng theo liều",
+      "pronunciation": "/doʊs rɪˈspɒns ˈdeɪtə/"
+    },
+    {
+      "phrase": "pharmacokinetic modelling",
+      "meaningVi": "mô hình hóa dược động học (cách thuốc di chuyển trong cơ thể)",
+      "pronunciation": "/ˌfɑːrməkoʊkɪˈnɛtɪk ˈmɒdəlɪŋ/"
+    },
+    {
+      "phrase": "a defensible starting dose",
+      "meaningVi": "một liều khởi đầu có thể bảo vệ được",
+      "pronunciation": "/ə dɪˈfɛnsəbl ˈstɑːrtɪŋ doʊs/"
+    },
+    {
+      "phrase": "a substantial safety margin",
+      "meaningVi": "một biên độ an toàn đáng kể",
+      "pronunciation": "/ə səbˈstænʃəl ˈseɪfti ˈmɑːrdʒɪn/"
+    },
+    {
+      "phrase": "residual risk",
+      "meaningVi": "rủi ro còn lại (sau khi đã có các biện pháp phòng ngừa)",
+      "pronunciation": "/rɪˈzɪdjuəl rɪsk/"
+    },
+    {
+      "phrase": "no therapeutic intent",
+      "meaningVi": "không có ý định điều trị",
+      "pronunciation": "/noʊ ˌθɛrəˈpjuːtɪk ɪnˈtɛnt/"
+    },
+    {
+      "phrase": "the benefit accrues to future patients",
+      "meaningVi": "lợi ích dồn về các bệnh nhân tương lai",
+      "pronunciation": "/ðə ˈbɛnɪfɪt əˈkruːz tə ˈfjuːtʃər ˈpeɪʃənts/"
+    },
+    {
+      "phrase": "asymmetry",
+      "meaningVi": "sự bất đối xứng (rủi ro và lợi ích không rơi vào cùng một bên)",
+      "pronunciation": "/eɪˈsɪmətri/"
+    },
+    {
+      "phrase": "inherently exploitative",
+      "meaningVi": "vốn dĩ mang tính bóc lột",
+      "pronunciation": "/ɪnˈhɪərəntli ɪkˈsplɔɪtətɪv/"
+    },
+    {
+      "phrase": "harbour the therapeutic misconception",
+      "meaningVi": "nuôi dưỡng sự ngộ nhận điều trị",
+      "pronunciation": "/ˈhɑːrbər ðə ˌθɛrəˈpjuːtɪk ˌmɪskənˈsɛpʃən/"
+    },
+    {
+      "phrase": "explicit disclosure",
+      "meaningVi": "sự giải thích/công khai rõ ràng",
+      "pronunciation": "/ɪkˈsplɪsɪt dɪsˈkloʊʒər/"
+    },
+    {
+      "phrase": "teach-back methods",
+      "meaningVi": "phương pháp yêu cầu nhắc lại (để kiểm tra mức độ thấu hiểu)",
+      "pronunciation": "/ˈtiːtʃ bæk ˈmɛθədz/"
+    },
+    {
+      "phrase": "cooling-off periods",
+      "meaningVi": "các giai đoạn cân nhắc lại (thời gian để suy nghĩ trước khi quyết định)",
+      "pronunciation": "/ˈkuːlɪŋ ɒf ˈpɪəriədz/"
+    },
+    {
+      "phrase": "economically precarious populations",
+      "meaningVi": "các nhóm dân cư bấp bênh về kinh tế",
+      "pronunciation": "/ˌiːkəˈnɒmɪkli prɪˈkɛəriəs ˌpɒpjʊˈleɪʃənz/"
+    },
+    {
+      "phrase": "financial inducement",
+      "meaningVi": "sự dụ dỗ tài chính (khoản tiền khuyến khích tham gia)",
+      "pronunciation": "/faɪˈnænʃəl ɪnˈdjuːsmənt/"
+    },
+    {
+      "phrase": "undue inducement",
+      "meaningVi": "sự dụ dỗ quá mức",
+      "pronunciation": "/ˌʌnˈdjuː ɪnˈdjuːsmənt/"
+    },
+    {
+      "phrase": "coercion narrows your options",
+      "meaningVi": "sự cưỡng ép thu hẹp các lựa chọn của bạn",
+      "pronunciation": "/koʊˈɜːrʒən ˈnæroʊz jɔːr ˈɒpʃənz/"
+    },
+    {
+      "phrase": "decouple the risk assessment",
+      "meaningVi": "tách rời việc đánh giá rủi ro",
+      "pronunciation": "/diːˈkʌpl ðə rɪsk əˈsɛsmənt/"
+    },
+    {
+      "phrase": "the ethics of randomisation",
+      "meaningVi": "đạo đức của việc phân ngẫu nhiên",
+      "pronunciation": "/ði ˈɛθɪks əv ˌrændəmaɪˈzeɪʃən/"
+    },
+    {
+      "phrase": "risk-knowledge balance",
+      "meaningVi": "sự cân bằng giữa rủi ro và kiến thức thu được",
+      "pronunciation": "/rɪsk ˈnɒlɪdʒ ˈbæləns/"
+    },
+    {
+      "phrase": "multi-organ failure",
+      "meaningVi": "suy đa cơ quan",
+      "pronunciation": "/ˈmʌlti ˈɔːrɡən ˈfeɪljər/"
+    },
+    {
+      "phrase": "preclinical extrapolation",
+      "meaningVi": "ngoại suy tiền lâm sàng (suy từ động vật ra người)",
+      "pronunciation": "/ˌpriːˈklɪnɪkl ɪkˌstræpəˈleɪʃən/"
+    },
+    {
+      "phrase": "sentinel dosing",
+      "meaningVi": "dùng liều canh gác (cho một người dùng trước rồi quan sát)",
+      "pronunciation": "/ˈsɛntɪnl ˈdoʊsɪŋ/"
+    },
+    {
+      "phrase": "staggered administration",
+      "meaningVi": "cho dùng thuốc theo trình tự xen kẽ (không đồng loạt)",
+      "pronunciation": "/ˈstæɡərd ədˌmɪnɪˈstreɪʃən/"
+    },
+    {
+      "phrase": "financial entanglements",
+      "meaningVi": "các ràng buộc tài chính",
+      "pronunciation": "/faɪˈnænʃəl ɪnˈtæŋɡlmənts/"
+    },
+    {
+      "phrase": "the institutional review board",
+      "meaningVi": "hội đồng thẩm định của cơ sở (cơ quan duyệt đạo đức nghiên cứu)",
+      "pronunciation": "/ðə ˌɪnstɪˈtuːʃənl rɪˈvjuː bɔːrd/"
+    },
+    {
+      "phrase": "structural firewalls",
+      "meaningVi": "các bức tường lửa mang tính cấu trúc (rào cản chống xung đột lợi ích)",
+      "pronunciation": "/ˈstrʌktʃərəl ˈfaɪərwɔːlz/"
+    },
+    {
+      "phrase": "a deontological side-constraint",
+      "meaningVi": "một ràng buộc phụ mang tính nghĩa vụ luận (giới hạn tuyệt đối không được vượt qua)",
+      "pronunciation": "/ə ˌdiːɒntəˈlɒdʒɪkl ˈsaɪd kənˌstreɪnt/"
+    },
+    {
+      "phrase": "consequentialist calculus",
+      "meaningVi": "phép tính theo thuyết hệ quả (cân nhắc lợi ích và tác hại tổng thể)",
+      "pronunciation": "/ˌkɒnsɪˈkwɛnʃəlɪst ˈkælkjʊləs/"
+    },
+    {
+      "phrase": "pre-registration of the protocol",
+      "meaningVi": "đăng ký trước đề cương nghiên cứu",
+      "pronunciation": "/ˌpriː rɛdʒɪˈstreɪʃən əv ðə ˈproʊtəkɒl/"
+    },
+    {
+      "phrase": "silently censored",
+      "meaningVi": "bị kiểm duyệt một cách âm thầm",
+      "pronunciation": "/ˈsaɪləntli ˈsɛnsərd/"
+    },
+    {
+      "phrase": "the integrity of the evidence base",
+      "meaningVi": "tính toàn vẹn của kho bằng chứng",
+      "pronunciation": "/ði ɪnˈtɛɡrɪti əv ði ˈɛvɪdəns beɪs/"
+    },
+    {
+      "phrase": "a web of mutual reliance",
+      "meaningVi": "một mạng lưới phụ thuộc lẫn nhau",
+      "pronunciation": "/ə wɛb əv ˈmjuːtʃuəl rɪˈlaɪəns/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Reframing a debate with 'not X, but Y'",
+      "bodyVi": "Một kỹ thuật lập luận mạnh là định khung lại vấn đề: bác bỏ cách đặt câu hỏi của đối phương rồi thay bằng cách đặt đúng hơn. Cấu trúc: 'The ethical question is not whether X, but whether Y.' Ví dụ trong bài: 'The ethical question is not whether risk and benefit fall on the same person, but whether the participant understands the arrangement.' và 'the right safeguard is not to suppress compensation… but to decouple the risk assessment…'. Phần 'not' loại bỏ khung sai, phần 'but' đưa ra khung đúng.",
+      "bodyEn": "A powerful move in debate is reframing: you reject your interlocutor's framing of the question and substitute a more precise one. The structure is 'The question is not whether X, but whether Y' (or 'the answer is not to X, but to Y'). Helena uses it repeatedly — 'not whether risk and benefit fall on the same person, but whether the participant understands' and 'not to suppress compensation… but to decouple the risk assessment'. It lets you concede that the topic matters while denying that your opponent has identified the real crux."
+    },
+    {
+      "title": "Conceding ground then narrowing: 'Let me grant you X… There's a worry Y that…'",
+      "bodyVi": "Trong tranh luận trình độ cao, người nói thường nhượng bộ một điểm trước khi nêu ra một điểm mới mà sự nhượng bộ đó không giải quyết được. Cấu trúc: 'Let me grant you that X. There's a worry that improvement alone doesn't touch: Y.' Việc nhượng bộ làm cho lập luận đáng tin hơn, đồng thời thu hẹp tranh luận vào đúng điểm còn bất đồng. Để ý cả 'I'll concede the conceptual point about coercion' và 'That reassures me about procedure, but it raises a question about…'.",
+      "bodyEn": "Sophisticated argument often concedes a point and then immediately pivots to a fresh objection the concession does not touch. Theo's pattern is 'Let me grant you that consent can be improved. There's a structural worry that improvement alone doesn't touch…' and 'That reassures me about procedure, but it raises a question about who is actually applying these safeguards.' Conceding what is true makes the speaker credible and keeps the disagreement focused on the genuine point of contention rather than on settled ground."
+    }
+  ],
+  "translationVi": "Theo: Helena, bạn đang chủ trì ủy ban quyết định liệu hợp chất này có được tiến hành đến một thử nghiệm lần đầu tiên trên người hay không. Trước khi đi vào đề cương nghiên cứu, tôi muốn hỏi một câu hỏi nền tảng: ngưỡng bằng chứng tiền lâm sàng nào mà bạn thực sự coi là đủ để biện minh cho việc cho người tình nguyện khỏe mạnh đầu tiên dùng liều thuốc? Helena: Không có một ranh giới rõ ràng duy nhất nào, và bất kỳ ai tuyên bố ngược lại đều đang thổi phồng khoa học. Điều tôi tìm kiếm là bằng chứng hội tụ: một cơ chế hợp lý, dữ liệu đáp ứng theo liều trên ít nhất hai loài động vật, và mô hình hóa dược động học cho phép chúng ta ngoại suy một liều khởi đầu có thể bảo vệ được với biên độ an toàn đáng kể. Mục đích không phải là loại bỏ sự không chắc chắn — điều đó là không thể ở giai đoạn này — mà là mô tả nó đủ rõ để rủi ro còn lại là hợp lý trong tương quan với kiến thức dự kiến thu được. Theo: Tuy nhiên, cụm từ đó — 'hợp lý trong tương quan với kiến thức thu được' — đang đảm nhận một khối lượng công việc khổng lồ. Trong một thử nghiệm pha một của một hợp chất không có ý định điều trị cho người tham gia, các tình nguyện viên về cơ bản chẳng thu được gì về mặt y khoa. Vì vậy rủi ro do một nhóm gánh chịu còn lợi ích lại dồn về các bệnh nhân tương lai và, nói thật, các cổ đông của nhà tài trợ. Helena: Bạn đúng khi nói lợi ích chủ yếu mang tính xã hội hơn là cá nhân, và chính sự bất đối xứng đó là lý do tại sao quá trình đồng thuận phải nghiêm ngặt đến vậy. Nhưng tôi sẽ phản đối hàm ý rằng điều này khiến cho sự sắp xếp đó vốn dĩ mang tính bóc lột. Chúng ta chấp nhận những sự bất đối xứng tương tự trong khắp xã hội — chúng ta dựa vào các tình nguyện viên cho đủ loại công việc có giá trị xã hội nhưng rủi ro cho cá nhân. Câu hỏi đạo đức không phải là liệu rủi ro và lợi ích có rơi vào cùng một người hay không, mà là liệu người tham gia có hiểu sự sắp xếp đó và đã thực sự lựa chọn nó hay không. Theo: Và đó chính là chỗ khiến tôi lo lắng, bởi vì bằng chứng về chất lượng của sự đồng thuận có hiểu biết là đáng báo động. Nghiên cứu này nối tiếp nghiên cứu khác cho thấy người tham gia thường nuôi dưỡng cái gọi là ngộ nhận điều trị — họ tin rằng, bất chấp việc đã được giải thích rõ ràng, thử nghiệm được thiết kế để mang lại lợi ích cho cá nhân họ. Nếu họ hiểu sai về cơ bản bản chất của những gì họ đang đồng ý, thì sự đồng thuận có ý nghĩa theo nghĩa nào? Helena: Ngộ nhận điều trị là có thật và được ghi nhận rõ ràng, và nó ám ảnh tôi hơn hầu hết bất cứ điều gì khác trong công việc này. Nhưng tôi sẽ phản bác suy luận rằng nó làm cho sự đồng thuận trở nên vô nghĩa trên toàn bộ. Phản ứng thích hợp không phải là từ bỏ sự đồng thuận như một điều hư cấu; mà là đầu tư nghiêm túc hơn nhiều vào quá trình thấu hiểu — các phương pháp yêu cầu nhắc lại, các giám sát viên đồng thuận độc lập, các giai đoạn cân nhắc lại. Chúng ta có thể làm giảm sự ngộ nhận một cách đáng kể ngay cả khi chúng ta không thể loại bỏ nó hoàn toàn. Theo: Để tôi thừa nhận với bạn rằng sự đồng thuận có thể được cải thiện. Có một mối lo mang tính cấu trúc mà chỉ riêng việc cải thiện không chạm tới được: những người tham gia các thử nghiệm giai đoạn đầu được lấy một cách không cân xứng từ các nhóm dân cư bấp bênh về kinh tế. Khi sự dụ dỗ tài chính mới chính là thứ thực sự thúc đẩy việc ghi danh, liệu chúng ta có thể mô tả lựa chọn đó là tự nguyện theo bất kỳ nghĩa vững chắc nào một cách nhất quán không? Helena: Đây là cuộc tranh luận về sự dụ dỗ quá mức, và tôi nghĩ cách đặt vấn đề tiêu chuẩn của nó là lộn xộn. Mối lo được cho là tiền chi trả mang tính cưỡng ép, nhưng tiền chi trả lại ngược với sự cưỡng ép — sự cưỡng ép thu hẹp các lựa chọn của bạn thông qua đe dọa, trong khi một lời đề nghị tiền bạc lại mở rộng chúng. Điều mà tiền chi trả thực sự có thể làm là làm mờ phán đoán về rủi ro, vốn là một mối quan ngại có thật. Vì vậy biện pháp bảo vệ đúng đắn không phải là kìm nén tiền thù lao đến mức bóc lột, mà là tách rời việc đánh giá rủi ro khỏi quyết định tài chính và bảo đảm sự xem xét độc lập về việc liệu bản thân rủi ro có chấp nhận được hay không, bất kể khoản tiền chi trả là bao nhiêu. Theo: Đó là một sự phân biệt sắc bén hơn cách người ta thường lập luận, và tôi sẽ thừa nhận điểm về mặt khái niệm liên quan đến sự cưỡng ép. Để tôi chuyển sang nguyên tắc được cho là chi phối toàn bộ công cuộc này — trạng thái cân bằng lâm sàng. Sự biện minh kinh điển cho một thử nghiệm là cộng đồng chuyên gia đang ở trong một trạng thái không chắc chắn thực sự về việc liệu can thiệp đó có vượt trội hay không. Nhưng trong một nghiên cứu an toàn lần đầu trên người, không có sự so sánh nào được thực hiện và không có tuyên bố điều trị nào bị đặt cược, vậy thì trạng thái cân bằng có áp dụng ở đây không? Helena: Bạn đã xác định một sự không khớp về mặt khái niệm thực sự, và đó là điều mà lĩnh vực này không phải lúc nào cũng thừa nhận một cách rõ ràng. Trạng thái cân bằng theo nghĩa nghiêm ngặt chi phối đạo đức của việc phân ngẫu nhiên trong các thử nghiệm so sánh — nó cho bạn biết khi nào được phép phân một bệnh nhân vào nhánh này thay vì nhánh khác. Một nghiên cứu an toàn pha một không phải là một thử nghiệm so sánh theo nghĩa đó, vì vậy nguyên tắc chi phối ở đó không phải là trạng thái cân bằng mà là một sự cân bằng thuận lợi giữa rủi ro và kiến thức một cách thẳng thắn theo các tiêu chuẩn tôi đã mô tả. Trộn lẫn hai điều này là một sai lầm phổ biến, và nó làm vẩn đục những cuộc tranh luận lẽ ra là vững chắc. Theo: Giả sử sự cân bằng trông có vẻ thuận lợi trên giấy tờ. Lịch sử của các thử nghiệm thảm khốc — thảm họa TGN1412 hiện lên trong đầu, nơi sáu người đàn ông khỏe mạnh bị suy đa cơ quan trong vòng vài giờ — gợi ý rằng các mô hình của chúng ta về cách một hợp chất mới sẽ hành xử ở người có thể thất bại một cách ngoạn mục và không hề báo trước. Một ủy ban có thể đặt bao nhiêu trọng lượng một cách có trách nhiệm lên việc ngoại suy tiền lâm sàng vốn đã rõ ràng phản bội chúng ta trước đây? Helena: TGN1412 là trường hợp mà thành thật mà nói nên được xăm vào mặt trong mí mắt của mọi người thẩm định. Những bài học nó dạy đã được hấp thụ vào thực hành: dùng liều canh gác, trong đó bạn cho một người tham gia dùng liều rồi chờ đợi trước khi tiếp tục, các liều khởi đầu thận trọng hơn nhiều đối với các hợp chất tác động lên hệ miễn dịch, và việc cho dùng thuốc theo trình tự xen kẽ thay vì cho cả nhóm dùng liều cùng một lúc. Không điều nào trong số đó khiến cho thảm họa trở nên bất khả thi. Nó có nghĩa là một sự tái diễn sẽ có nhiều khả năng phản ánh một sự thất bại trong việc áp dụng các biện pháp bảo vệ đã biết hơn là một giới hạn không thể giản lược của khoa học. Theo: Điều đó trấn an tôi về quy trình, nhưng nó làm nảy sinh một câu hỏi về việc ai mới thực sự đang áp dụng các biện pháp bảo vệ này. Ủy ban thẩm định đề cương này — liệu nó có thực sự độc lập với nhà tài trợ không, hay có những ràng buộc tài chính, áp lực thể chế, và các động cơ về danh tiếng âm thầm nghiêng cuộc cân nhắc về phía phê duyệt? Helena: Bạn đang chỉ vào sự dễ tổn thương mang tính cấu trúc khiến tôi lo lắng nhất, hơn cả hồ sơ rủi ro của bất kỳ đề cương riêng lẻ nào. Hội đồng thẩm định của cơ sở nằm trong một hệ sinh thái nơi cơ sở đó hưởng lợi từ thu nhập nghiên cứu, sự nghiệp của các nghiên cứu viên phụ thuộc vào việc ghi danh, và các hội đồng thẩm định thương mại cạnh tranh để giành công việc của các nhà tài trợ — điều tạo ra một động cơ rõ ràng để tỏ ra dễ dãi. Việc công khai các xung đột là cần thiết nhưng tự nó thì không đủ đến mức buồn cười. Chúng ta cần các bức tường lửa mang tính cấu trúc: những người thẩm định không có lợi ích tài chính, các quyết định được cách ly khỏi doanh thu của cơ sở, và trách nhiệm giải trình có ý nghĩa khi việc giám sát thất bại. Theo: Vậy thì để tôi thăm dò các giới hạn của quy trình. Ngay cả một hội đồng hoàn toàn độc lập với các quy trình hoàn hảo cũng đang đưa ra một phán đoán trong điều kiện không chắc chắn sâu sắc. Đến một thời điểm nào đó một con người ký duyệt và một mũi kim đi vào cánh tay. Liệu có một loại rủi ro — một mức trần nào đó về tổn hại tiềm tàng đối với một người tình nguyện khỏe mạnh — mà không một phép tính thuận lợi nào được phép vượt qua không? Helena: Tôi tin là có, và tôi sẽ nêu nó như một ràng buộc chứ không phải một thứ để đánh đổi. Có những tổn hại nghiêm trọng và không thể đảo ngược đến mức — một rủi ro đáng kể về tử vong hoặc tàn tật nghiêm trọng vĩnh viễn — mà không một lượng lợi ích xã hội dự kiến nào được phép cho phép áp đặt chúng lên một người tình nguyện khỏe mạnh vốn không thể tự mình hưởng lợi. Đó là một ràng buộc phụ mang tính nghĩa vụ luận đặt lên một phép tính vốn dĩ mang tính hệ quả luận, và tôi nghĩ bất kỳ nền đạo đức nghiên cứu nào có thể bảo vệ được đều phải chứa đựng một ràng buộc như vậy. Toàn bộ bộ máy của sự đồng thuận và giám sát vận hành bên dưới mức trần đó, chứ không phải thay thế cho nó. Theo: Vậy lập trường cuối cùng của bạn là một kiểu bảo vệ nhiều tầng: một mức trần cứng đối với rủi ro không thể chấp nhận, một sự cân bằng rủi ro-kiến thức thuận lợi bên dưới nó, sự đồng thuận thực sự có hiểu biết, và sự giám sát độc lập về mặt cấu trúc — cả bốn đều bắt buộc, không cái nào tự nó là đủ. Helena: Đó là một sự chắt lọc công bằng, và tôi chỉ xin bổ sung khía cạnh dễ bị bỏ quên nhất: sự minh bạch sau khi sự việc đã xảy ra. Đăng ký trước đề cương nghiên cứu, công bố kết quả bất kể chúng có bất lợi đến đâu, và báo cáo trung thực các biến cố bất lợi. Một hệ thống cho phép các nhà tài trợ chôn vùi những phát hiện bất tiện sẽ làm hỏng mọi đánh giá rủi ro trong tương lai, bởi vì ủy ban tiếp theo cân nhắc dựa trên một kho tài liệu đã bị kiểm duyệt một cách âm thầm. Trách nhiệm giải trình không kết thúc khi thử nghiệm kết thúc. Theo: Điểm cuối cùng đó có lẽ là điểm ít được đánh giá đúng mức nhất trong tất cả — đạo đức của một thử nghiệm đơn lẻ rốt cuộc không thể tách rời khỏi tính toàn vẹn của kho bằng chứng mà nó đóng góp vào. Điều đó có nghĩa là câu hỏi mà chúng ta bắt đầu, về việc điều gì biện minh cho việc cho người tình nguyện đầu tiên dùng liều, thực sự không thể được trả lời bằng cách nhìn vào một đề cương đơn lẻ một cách tách biệt. Helena: Chính xác. Người tình nguyện đầu tiên được cho dùng liều dựa trên sức mạnh của tất cả những gì mỗi thử nghiệm trước đó đã báo cáo một cách trung thực, và đến lượt mình họ trở thành một phần của nền tảng mà trên đó hợp chất tiếp theo được đánh giá. Mạng lưới phụ thuộc lẫn nhau đó mới là đối tượng đạo đức thực sự ở đây — không phải là quyết định đơn lẻ, mà là sự đáng tin cậy của toàn bộ công cuộc mà quyết định đó được gắn vào.",
+  "criticalThinkingQuestion": "If a first-in-human trial offers no medical benefit to its healthy volunteers and the gains flow almost entirely to future patients and the sponsor, what — beyond a signature on a consent form — would have to be true for us to regard the participants as genuinely free and adequately protected rather than merely as a means to a socially useful end?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-c1-068",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 517176
+}

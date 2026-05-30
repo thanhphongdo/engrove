@@ -1,0 +1,637 @@
+{
+  "id": "speaking-b2-032",
+  "level": "B2",
+  "title": "The Ethics of AI in Hiring",
+  "summary": "HR director Daniel and data ethicist Naomi debate whether algorithmic recruiting reduces bias or quietly amplifies it, and who is accountable when it fails.",
+  "topic": "Technology",
+  "tags": [
+    "Technology",
+    "Ethics",
+    "Workplace",
+    "AI"
+  ],
+  "characters": [
+    "Daniel",
+    "Naomi"
+  ],
+  "voices": {
+    "Daniel": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-BrianNeural"
+    },
+    "Naomi": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-AriaNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Daniel",
+      "text": "Naomi, we're about to roll out an AI screening tool that ranks applicants automatically. The vendor claims it removes human bias from the process. Honestly, that's the part that sold leadership."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "I'd be cautious about that claim. The idea that an algorithm is neutral because it isn't human is one of the most persistent misconceptions in this field."
+    },
+    {
+      "speaker": "Daniel",
+      "text": "But surely a model that only looks at skills and experience can't be prejudiced the way a tired recruiter skimming résumés at five o'clock might be."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "It depends entirely on what the model learned from. If it was trained on a decade of your past hires, it has absorbed every pattern in those decisions, including the biased ones you'd rather not repeat."
+    },
+    {
+      "speaker": "Daniel",
+      "text": "So you're saying it could be laundering our historical bias and dressing it up as objective data."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "That's exactly the risk. There was a well-known case where a hiring model taught itself to penalize résumés that mentioned women's colleges, simply because the historical data skewed male."
+    },
+    {
+      "speaker": "Daniel",
+      "text": "I remember that one. But couldn't we just strip out gender and ethnicity from the inputs and call it fair?"
+    },
+    {
+      "speaker": "Naomi",
+      "text": "If only it were that simple. Models reconstruct protected attributes from proxies, things like postal codes, hobbies, or the gaps in someone's employment history. Removing the label doesn't remove the signal."
+    },
+    {
+      "speaker": "Daniel",
+      "text": "Alright, I'll grant that the bias problem is thornier than the vendor lets on. But the efficiency gains are undeniable. We get thousands of applications and simply can't review them all by hand."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "The efficiency is genuine, and I won't pretend otherwise. My question is whether speed at scale is worth deploying a system that can reject a qualified candidate for reasons nobody can fully explain."
+    },
+    {
+      "speaker": "Daniel",
+      "text": "That cuts to the heart of it, doesn't it? If a candidate is rejected and asks why, I'm not sure I could give them an honest answer about how the model reached that decision."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "And that's the accountability gap. When a human makes a bad call, there's a person to hold responsible. With an opaque model, responsibility gets diffused until nobody really owns the outcome."
+    },
+    {
+      "speaker": "Daniel",
+      "text": "The vendor would say the model is more consistent than any human panel, though. It applies the same criteria to everyone, every time, without a bad mood or a long lunch."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "Consistency isn't the same as fairness. A model can be perfectly consistent and consistently wrong. If the criteria themselves are flawed, consistency just means you're systematically excluding the same people."
+    },
+    {
+      "speaker": "Daniel",
+      "text": "Point taken. So where does that leave us? Are you arguing we should abandon the tool altogether?"
+    },
+    {
+      "speaker": "Naomi",
+      "text": "Not at all. I'm arguing for keeping a human meaningfully in the loop, auditing the outputs regularly, and demanding that the vendor explain how the model actually scores people."
+    },
+    {
+      "speaker": "Daniel",
+      "text": "So the tool screens, but a person still owns the final judgment and can override it when something looks off."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "Right. Use it to surface candidates, not to silently discard them. And test it on your own data for disparate impact before you ever trust a single ranking it produces."
+    },
+    {
+      "speaker": "Daniel",
+      "text": "That's a far more demanding standard than what the vendor pitched, but I can see why it matters. Convenience shouldn't come at the price of fairness we can't defend."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "Exactly. The technology can genuinely help, but only if we treat it as a tool that needs oversight, not an oracle that absolves us of the responsibility to be fair."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Daniel",
+      "text": "Naomi, we're about to roll out an AI screening tool that ranks applicants automatically.",
+      "translationVi": "Naomi, chúng ta sắp triển khai một công cụ sàng lọc bằng AI tự động xếp hạng ứng viên.",
+      "durationMs": 5136
+    },
+    {
+      "id": "s2",
+      "speaker": "Daniel",
+      "text": "The vendor claims it removes human bias from the process.",
+      "translationVi": "Nhà cung cấp tuyên bố rằng nó loại bỏ thiên kiến của con người khỏi quy trình.",
+      "durationMs": 3960
+    },
+    {
+      "id": "s3",
+      "speaker": "Daniel",
+      "text": "Honestly, that's the part that sold leadership.",
+      "translationVi": "Thành thật mà nói, đó là phần đã thuyết phục ban lãnh đạo.",
+      "durationMs": 3096
+    },
+    {
+      "id": "s4",
+      "speaker": "Naomi",
+      "text": "I'd be cautious about that claim.",
+      "translationVi": "Tôi sẽ thận trọng với tuyên bố đó.",
+      "durationMs": 2664
+    },
+    {
+      "id": "s5",
+      "speaker": "Naomi",
+      "text": "The idea that an algorithm is neutral because it isn't human is one of the most persistent misconceptions in this field.",
+      "translationVi": "Quan niệm rằng một thuật toán là trung lập chỉ vì nó không phải con người là một trong những hiểu lầm dai dẳng nhất trong lĩnh vực này.",
+      "durationMs": 7224
+    },
+    {
+      "id": "s6",
+      "speaker": "Daniel",
+      "text": "But surely a model that only looks at skills and experience can't be prejudiced the way a tired recruiter skimming résumés at five o'clock might be.",
+      "translationVi": "Nhưng chắc chắn một mô hình chỉ nhìn vào kỹ năng và kinh nghiệm không thể định kiến theo cách mà một nhà tuyển dụng mệt mỏi lướt qua hồ sơ lúc năm giờ chiều có thể.",
+      "durationMs": 8304
+    },
+    {
+      "id": "s7",
+      "speaker": "Naomi",
+      "text": "It depends entirely on what the model learned from.",
+      "translationVi": "Điều đó hoàn toàn phụ thuộc vào việc mô hình đã học từ cái gì.",
+      "durationMs": 3624
+    },
+    {
+      "id": "s8",
+      "speaker": "Naomi",
+      "text": "If it was trained on a decade of your past hires, it has absorbed every pattern in those decisions, including the biased ones you'd rather not repeat.",
+      "translationVi": "Nếu nó được huấn luyện trên một thập kỷ các quyết định tuyển dụng trước đây của bạn, nó đã hấp thụ mọi mẫu hình trong các quyết định đó, kể cả những mẫu thiên kiến mà bạn không muốn lặp lại.",
+      "durationMs": 9216
+    },
+    {
+      "id": "s9",
+      "speaker": "Daniel",
+      "text": "So you're saying it could be laundering our historical bias and dressing it up as objective data.",
+      "translationVi": "Vậy ý cô là nó có thể đang tẩy rửa thiên kiến lịch sử của chúng ta và khoác cho nó vẻ ngoài là dữ liệu khách quan.",
+      "durationMs": 5424
+    },
+    {
+      "id": "s10",
+      "speaker": "Naomi",
+      "text": "That's exactly the risk.",
+      "translationVi": "Đó chính xác là rủi ro.",
+      "durationMs": 2448
+    },
+    {
+      "id": "s11",
+      "speaker": "Naomi",
+      "text": "There was a well-known case where a hiring model taught itself to penalize résumés that mentioned women's colleges, simply because the historical data skewed male.",
+      "translationVi": "Có một trường hợp nổi tiếng khi một mô hình tuyển dụng tự dạy mình phạt những hồ sơ đề cập đến các trường nữ sinh, đơn giản vì dữ liệu lịch sử nghiêng về nam giới.",
+      "durationMs": 9792
+    },
+    {
+      "id": "s12",
+      "speaker": "Daniel",
+      "text": "I remember that one.",
+      "translationVi": "Tôi nhớ vụ đó.",
+      "durationMs": 1608
+    },
+    {
+      "id": "s13",
+      "speaker": "Daniel",
+      "text": "But couldn't we just strip out gender and ethnicity from the inputs and call it fair?",
+      "translationVi": "Nhưng chẳng phải chúng ta có thể chỉ cần loại bỏ giới tính và sắc tộc khỏi dữ liệu đầu vào rồi gọi là công bằng sao?",
+      "durationMs": 4992
+    },
+    {
+      "id": "s14",
+      "speaker": "Naomi",
+      "text": "If only it were that simple.",
+      "translationVi": "Giá mà nó đơn giản đến vậy.",
+      "durationMs": 2520
+    },
+    {
+      "id": "s15",
+      "speaker": "Naomi",
+      "text": "Models reconstruct protected attributes from proxies, things like postal codes, hobbies, or the gaps in someone's employment history.",
+      "translationVi": "Các mô hình tái tạo lại những thuộc tính được bảo vệ từ các biến đại diện, những thứ như mã bưu chính, sở thích, hoặc những khoảng trống trong lịch sử việc làm của một người.",
+      "durationMs": 8952
+    },
+    {
+      "id": "s16",
+      "speaker": "Naomi",
+      "text": "Removing the label doesn't remove the signal.",
+      "translationVi": "Loại bỏ nhãn không loại bỏ tín hiệu.",
+      "durationMs": 3264
+    },
+    {
+      "id": "s17",
+      "speaker": "Daniel",
+      "text": "Alright, I'll grant that the bias problem is thornier than the vendor lets on.",
+      "translationVi": "Được rồi, tôi thừa nhận rằng vấn đề thiên kiến gai góc hơn những gì nhà cung cấp tiết lộ.",
+      "durationMs": 5016
+    },
+    {
+      "id": "s18",
+      "speaker": "Daniel",
+      "text": "But the efficiency gains are undeniable.",
+      "translationVi": "Nhưng lợi ích về hiệu quả là không thể phủ nhận.",
+      "durationMs": 2952
+    },
+    {
+      "id": "s19",
+      "speaker": "Daniel",
+      "text": "We get thousands of applications and simply can't review them all by hand.",
+      "translationVi": "Chúng ta nhận hàng nghìn đơn ứng tuyển và đơn giản là không thể xem xét tất cả bằng tay.",
+      "durationMs": 4464
+    },
+    {
+      "id": "s20",
+      "speaker": "Naomi",
+      "text": "The efficiency is genuine, and I won't pretend otherwise.",
+      "translationVi": "Hiệu quả là có thật, và tôi sẽ không giả vờ ngược lại.",
+      "durationMs": 4248
+    },
+    {
+      "id": "s21",
+      "speaker": "Naomi",
+      "text": "My question is whether speed at scale is worth deploying a system that can reject a qualified candidate for reasons nobody can fully explain.",
+      "translationVi": "Câu hỏi của tôi là liệu tốc độ ở quy mô lớn có đáng để triển khai một hệ thống có thể loại một ứng viên đủ tiêu chuẩn vì những lý do mà không ai có thể giải thích đầy đủ hay không.",
+      "durationMs": 8544
+    },
+    {
+      "id": "s22",
+      "speaker": "Daniel",
+      "text": "That cuts to the heart of it, doesn't it?",
+      "translationVi": "Điều đó chạm vào cốt lõi của vấn đề, phải không?",
+      "durationMs": 2976
+    },
+    {
+      "id": "s23",
+      "speaker": "Daniel",
+      "text": "If a candidate is rejected and asks why, I'm not sure I could give them an honest answer about how the model reached that decision.",
+      "translationVi": "Nếu một ứng viên bị từ chối và hỏi tại sao, tôi không chắc mình có thể cho họ một câu trả lời trung thực về cách mô hình đi đến quyết định đó.",
+      "durationMs": 7248
+    },
+    {
+      "id": "s24",
+      "speaker": "Naomi",
+      "text": "And that's the accountability gap.",
+      "translationVi": "Và đó chính là khoảng trống về trách nhiệm giải trình.",
+      "durationMs": 2808
+    },
+    {
+      "id": "s25",
+      "speaker": "Naomi",
+      "text": "When a human makes a bad call, there's a person to hold responsible.",
+      "translationVi": "Khi một con người đưa ra quyết định sai, có một người để quy trách nhiệm.",
+      "durationMs": 4656
+    },
+    {
+      "id": "s26",
+      "speaker": "Naomi",
+      "text": "With an opaque model, responsibility gets diffused until nobody really owns the outcome.",
+      "translationVi": "Với một mô hình mờ ám, trách nhiệm bị phân tán cho đến khi không ai thực sự sở hữu kết quả.",
+      "durationMs": 6000
+    },
+    {
+      "id": "s27",
+      "speaker": "Daniel",
+      "text": "The vendor would say the model is more consistent than any human panel, though.",
+      "translationVi": "Tuy nhiên, nhà cung cấp sẽ nói rằng mô hình nhất quán hơn bất kỳ hội đồng con người nào.",
+      "durationMs": 4608
+    },
+    {
+      "id": "s28",
+      "speaker": "Daniel",
+      "text": "It applies the same criteria to everyone, every time, without a bad mood or a long lunch.",
+      "translationVi": "Nó áp dụng cùng những tiêu chí cho mọi người, mọi lúc, không có tâm trạng xấu hay một bữa trưa kéo dài.",
+      "durationMs": 6000
+    },
+    {
+      "id": "s29",
+      "speaker": "Naomi",
+      "text": "Consistency isn't the same as fairness.",
+      "translationVi": "Sự nhất quán không giống với sự công bằng.",
+      "durationMs": 3240
+    },
+    {
+      "id": "s30",
+      "speaker": "Naomi",
+      "text": "A model can be perfectly consistent and consistently wrong.",
+      "translationVi": "Một mô hình có thể hoàn toàn nhất quán và nhất quán sai.",
+      "durationMs": 4248
+    },
+    {
+      "id": "s31",
+      "speaker": "Naomi",
+      "text": "If the criteria themselves are flawed, consistency just means you're systematically excluding the same people.",
+      "translationVi": "Nếu bản thân các tiêu chí có sai sót, sự nhất quán chỉ có nghĩa là bạn đang loại trừ một cách có hệ thống cùng những người đó.",
+      "durationMs": 7056
+    },
+    {
+      "id": "s32",
+      "speaker": "Daniel",
+      "text": "Point taken.",
+      "translationVi": "Tôi tiếp thu ý kiến đó.",
+      "durationMs": 1200
+    },
+    {
+      "id": "s33",
+      "speaker": "Daniel",
+      "text": "So where does that leave us?",
+      "translationVi": "Vậy điều đó để chúng ta ở đâu?",
+      "durationMs": 1920
+    },
+    {
+      "id": "s34",
+      "speaker": "Daniel",
+      "text": "Are you arguing we should abandon the tool altogether?",
+      "translationVi": "Có phải cô đang lập luận rằng chúng ta nên từ bỏ hoàn toàn công cụ này?",
+      "durationMs": 3504
+    },
+    {
+      "id": "s35",
+      "speaker": "Naomi",
+      "text": "Not at all.",
+      "translationVi": "Hoàn toàn không.",
+      "durationMs": 1776
+    },
+    {
+      "id": "s36",
+      "speaker": "Naomi",
+      "text": "I'm arguing for keeping a human meaningfully in the loop, auditing the outputs regularly, and demanding that the vendor explain how the model actually scores people.",
+      "translationVi": "Tôi đang lập luận cho việc giữ một con người tham gia một cách có ý nghĩa vào quy trình, kiểm toán kết quả đầu ra thường xuyên, và yêu cầu nhà cung cấp giải thích cách mô hình thực sự chấm điểm con người.",
+      "durationMs": 9960
+    },
+    {
+      "id": "s37",
+      "speaker": "Daniel",
+      "text": "So the tool screens, but a person still owns the final judgment and can override it when something looks off.",
+      "translationVi": "Vậy công cụ sàng lọc, nhưng một con người vẫn nắm quyền phán quyết cuối cùng và có thể bác bỏ nó khi có điều gì đó trông không ổn.",
+      "durationMs": 6048
+    },
+    {
+      "id": "s38",
+      "speaker": "Naomi",
+      "text": "Right.",
+      "translationVi": "Đúng vậy.",
+      "durationMs": 1536
+    },
+    {
+      "id": "s39",
+      "speaker": "Naomi",
+      "text": "Use it to surface candidates, not to silently discard them.",
+      "translationVi": "Dùng nó để làm nổi bật các ứng viên, chứ không phải để âm thầm loại bỏ họ.",
+      "durationMs": 4368
+    },
+    {
+      "id": "s40",
+      "speaker": "Naomi",
+      "text": "And test it on your own data for disparate impact before you ever trust a single ranking it produces.",
+      "translationVi": "Và hãy kiểm tra nó trên dữ liệu của chính bạn để phát hiện tác động chênh lệch trước khi bạn tin tưởng bất kỳ bảng xếp hạng nào nó tạo ra.",
+      "durationMs": 6528
+    },
+    {
+      "id": "s41",
+      "speaker": "Daniel",
+      "text": "That's a far more demanding standard than what the vendor pitched, but I can see why it matters.",
+      "translationVi": "Đó là một tiêu chuẩn khắt khe hơn nhiều so với những gì nhà cung cấp chào hàng, nhưng tôi hiểu vì sao nó quan trọng.",
+      "durationMs": 5520
+    },
+    {
+      "id": "s42",
+      "speaker": "Daniel",
+      "text": "Convenience shouldn't come at the price of fairness we can't defend.",
+      "translationVi": "Sự tiện lợi không nên phải trả bằng cái giá của sự công bằng mà chúng ta không thể bảo vệ.",
+      "durationMs": 4248
+    },
+    {
+      "id": "s43",
+      "speaker": "Naomi",
+      "text": "Exactly.",
+      "translationVi": "Chính xác.",
+      "durationMs": 1848
+    },
+    {
+      "id": "s44",
+      "speaker": "Naomi",
+      "text": "The technology can genuinely help, but only if we treat it as a tool that needs oversight, not an oracle that absolves us of the responsibility to be fair.",
+      "translationVi": "Công nghệ thực sự có thể giúp ích, nhưng chỉ khi chúng ta coi nó là một công cụ cần được giám sát, chứ không phải một nhà tiên tri giải thoát chúng ta khỏi trách nhiệm phải công bằng.",
+      "durationMs": 9576
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "The idea that … is neutral because … is one of the most persistent misconceptions …"
+    },
+    {
+      "id": "h2",
+      "text": "I'll grant that … is thornier than … lets on, but …"
+    },
+    {
+      "id": "h3",
+      "text": "Consistency isn't the same as fairness; a model can be … and consistently wrong."
+    },
+    {
+      "id": "h4",
+      "text": "Convenience shouldn't come at the price of … we can't defend."
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "human bias",
+      "meaningVi": "thiên kiến của con người",
+      "pronunciation": "/ˈhjuːmən ˈbaɪəs/"
+    },
+    {
+      "id": "v2",
+      "phrase": "accountability gap",
+      "meaningVi": "khoảng trống về trách nhiệm giải trình",
+      "pronunciation": "/əˌkaʊntəˈbɪləti ɡæp/"
+    },
+    {
+      "id": "v3",
+      "phrase": "proxies",
+      "meaningVi": "biến đại diện (thay thế cho thuộc tính khác)",
+      "pronunciation": "/ˈprɒksiz/"
+    },
+    {
+      "id": "v4",
+      "phrase": "disparate impact",
+      "meaningVi": "tác động chênh lệch (lên các nhóm khác nhau)",
+      "pronunciation": "/ˈdɪspərət ˈɪmpækt/"
+    },
+    {
+      "id": "v5",
+      "phrase": "in the loop",
+      "meaningVi": "tham gia/được tham vấn trong quy trình",
+      "pronunciation": "/ɪn ðə luːp/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "roll out an AI screening tool",
+      "meaningVi": "triển khai một công cụ sàng lọc bằng AI",
+      "pronunciation": "/roʊl aʊt ən ˌeɪ ˈaɪ ˈskriːnɪŋ tuːl/"
+    },
+    {
+      "phrase": "ranks applicants automatically",
+      "meaningVi": "tự động xếp hạng ứng viên",
+      "pronunciation": "/ræŋks ˈæplɪkənts ˌɔːtəˈmætɪkli/"
+    },
+    {
+      "phrase": "removes human bias",
+      "meaningVi": "loại bỏ thiên kiến của con người",
+      "pronunciation": "/rɪˈmuːvz ˈhjuːmən ˈbaɪəs/"
+    },
+    {
+      "phrase": "sold leadership",
+      "meaningVi": "đã thuyết phục được ban lãnh đạo",
+      "pronunciation": "/soʊld ˈliːdərʃɪp/"
+    },
+    {
+      "phrase": "I'd be cautious about that claim",
+      "meaningVi": "tôi sẽ thận trọng với tuyên bố đó",
+      "pronunciation": "/aɪd bi ˈkɔːʃəs əˈbaʊt ðæt kleɪm/"
+    },
+    {
+      "phrase": "persistent misconceptions",
+      "meaningVi": "những hiểu lầm dai dẳng",
+      "pronunciation": "/pərˈsɪstənt ˌmɪskənˈsepʃənz/"
+    },
+    {
+      "phrase": "skimming résumés",
+      "meaningVi": "lướt qua hồ sơ xin việc",
+      "pronunciation": "/ˈskɪmɪŋ ˈrezʊmeɪz/"
+    },
+    {
+      "phrase": "absorbed every pattern",
+      "meaningVi": "đã hấp thụ mọi mẫu hình",
+      "pronunciation": "/əbˈzɔːrbd ˈevri ˈpætərn/"
+    },
+    {
+      "phrase": "laundering our historical bias",
+      "meaningVi": "tẩy rửa thiên kiến lịch sử của chúng ta",
+      "pronunciation": "/ˈlɔːndərɪŋ aʊər hɪˈstɒrɪkl ˈbaɪəs/"
+    },
+    {
+      "phrase": "dressing it up as objective data",
+      "meaningVi": "khoác cho nó vẻ ngoài là dữ liệu khách quan",
+      "pronunciation": "/ˈdresɪŋ ɪt ʌp əz əbˈdʒektɪv ˈdeɪtə/"
+    },
+    {
+      "phrase": "the historical data skewed male",
+      "meaningVi": "dữ liệu lịch sử nghiêng về nam giới",
+      "pronunciation": "/ðə hɪˈstɒrɪkl ˈdeɪtə skjuːd meɪl/"
+    },
+    {
+      "phrase": "strip out gender and ethnicity",
+      "meaningVi": "loại bỏ giới tính và sắc tộc",
+      "pronunciation": "/strɪp aʊt ˈdʒendər ənd eθˈnɪsəti/"
+    },
+    {
+      "phrase": "reconstruct protected attributes from proxies",
+      "meaningVi": "tái tạo các thuộc tính được bảo vệ từ biến đại diện",
+      "pronunciation": "/ˌriːkənˈstrʌkt prəˈtektɪd ˈætrɪbjuːts frəm ˈprɒksiz/"
+    },
+    {
+      "phrase": "removing the label doesn't remove the signal",
+      "meaningVi": "loại bỏ nhãn không loại bỏ tín hiệu",
+      "pronunciation": "/rɪˈmuːvɪŋ ðə ˈleɪbl ˈdʌzənt rɪˈmuːv ðə ˈsɪɡnəl/"
+    },
+    {
+      "phrase": "thornier than the vendor lets on",
+      "meaningVi": "gai góc hơn những gì nhà cung cấp tiết lộ",
+      "pronunciation": "/ˈθɔːrniər ðən ðə ˈvendər lets ɒn/"
+    },
+    {
+      "phrase": "the efficiency gains are undeniable",
+      "meaningVi": "lợi ích về hiệu quả là không thể phủ nhận",
+      "pronunciation": "/ði ɪˈfɪʃənsi ɡeɪnz ɑːr ˌʌndɪˈnaɪəbl/"
+    },
+    {
+      "phrase": "speed at scale",
+      "meaningVi": "tốc độ ở quy mô lớn",
+      "pronunciation": "/spiːd ət skeɪl/"
+    },
+    {
+      "phrase": "cuts to the heart of it",
+      "meaningVi": "chạm vào cốt lõi của vấn đề",
+      "pronunciation": "/kʌts tə ðə hɑːrt əv ɪt/"
+    },
+    {
+      "phrase": "responsibility gets diffused",
+      "meaningVi": "trách nhiệm bị phân tán",
+      "pronunciation": "/rɪˌspɒnsəˈbɪləti ɡets dɪˈfjuːzd/"
+    },
+    {
+      "phrase": "an opaque model",
+      "meaningVi": "một mô hình mờ ám, thiếu minh bạch",
+      "pronunciation": "/ən oʊˈpeɪk ˈmɒdl/"
+    },
+    {
+      "phrase": "consistently wrong",
+      "meaningVi": "nhất quán sai",
+      "pronunciation": "/kənˈsɪstəntli rɒŋ/"
+    },
+    {
+      "phrase": "systematically excluding the same people",
+      "meaningVi": "loại trừ một cách có hệ thống cùng những người đó",
+      "pronunciation": "/ˌsɪstəˈmætɪkli ɪkˈskluːdɪŋ ðə seɪm ˈpiːpl/"
+    },
+    {
+      "phrase": "keeping a human meaningfully in the loop",
+      "meaningVi": "giữ một con người tham gia có ý nghĩa vào quy trình",
+      "pronunciation": "/ˈkiːpɪŋ ə ˈhjuːmən ˈmiːnɪŋfəli ɪn ðə luːp/"
+    },
+    {
+      "phrase": "auditing the outputs",
+      "meaningVi": "kiểm toán/rà soát kết quả đầu ra",
+      "pronunciation": "/ˈɔːdɪtɪŋ ði ˈaʊtpʊts/"
+    },
+    {
+      "phrase": "override it when something looks off",
+      "meaningVi": "bác bỏ nó khi có điều gì đó trông không ổn",
+      "pronunciation": "/ˌoʊvərˈraɪd ɪt wen ˈsʌmθɪŋ lʊks ɔːf/"
+    },
+    {
+      "phrase": "test it for disparate impact",
+      "meaningVi": "kiểm tra nó về tác động chênh lệch",
+      "pronunciation": "/test ɪt fɔːr ˈdɪspərət ˈɪmpækt/"
+    },
+    {
+      "phrase": "an oracle that absolves us",
+      "meaningVi": "một nhà tiên tri giải thoát chúng ta (khỏi trách nhiệm)",
+      "pronunciation": "/ən ˈɔːrəkl ðæt əbˈzɒlvz əs/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Concession with 'I'll grant that …, but …'",
+      "bodyVi": "Để tranh luận một cách có sức nặng, ta thừa nhận một phần lập luận của đối phương bằng 'I'll grant that…' rồi đưa ra phản đề bằng 'but…'. 'I'll grant that the bias problem is thornier… but the efficiency gains are undeniable.'",
+      "bodyEn": "To argue persuasively, you concede part of the other side's point with 'I'll grant that…' and then introduce a counterpoint with 'but…'. 'I'll grant that the bias problem is thornier… but the efficiency gains are undeniable.'"
+    },
+    {
+      "title": "'If only it were …': counterfactual wish",
+      "bodyVi": "'If only + past subjunctive (were)' diễn tả một mong ước trái với thực tế. 'If only it were that simple' ngụ ý rằng thực tế KHÔNG đơn giản như vậy. Dùng 'were' cho mọi ngôi trong văn phong trang trọng.",
+      "bodyEn": "'If only + past subjunctive (were)' expresses a wish contrary to fact. 'If only it were that simple' implies that reality is NOT that simple. Use 'were' for all persons in formal register."
+    },
+    {
+      "title": "Contrasting near-synonyms: 'X isn't the same as Y'",
+      "bodyVi": "Cấu trúc 'X isn't the same as Y' dùng để bác bỏ việc đánh đồng hai khái niệm gần giống nhau. 'Consistency isn't the same as fairness' — nhấn mạnh rằng nhất quán và công bằng là hai điều khác nhau.",
+      "bodyEn": "The structure 'X isn't the same as Y' is used to reject conflating two similar-sounding concepts. 'Consistency isn't the same as fairness' — stressing that consistency and fairness are two different things."
+    }
+  ],
+  "translationVi": "Daniel: Naomi, chúng ta sắp triển khai một công cụ sàng lọc bằng AI tự động xếp hạng ứng viên. Nhà cung cấp tuyên bố rằng nó loại bỏ thiên kiến của con người khỏi quy trình. Thành thật mà nói, đó là phần đã thuyết phục ban lãnh đạo. Naomi: Tôi sẽ thận trọng với tuyên bố đó. Quan niệm rằng một thuật toán là trung lập chỉ vì nó không phải con người là một trong những hiểu lầm dai dẳng nhất trong lĩnh vực này. Daniel: Nhưng chắc chắn một mô hình chỉ nhìn vào kỹ năng và kinh nghiệm không thể định kiến theo cách mà một nhà tuyển dụng mệt mỏi lướt qua hồ sơ lúc năm giờ chiều có thể. Naomi: Điều đó hoàn toàn phụ thuộc vào việc mô hình đã học từ cái gì. Nếu nó được huấn luyện trên một thập kỷ các quyết định tuyển dụng trước đây của bạn, nó đã hấp thụ mọi mẫu hình trong các quyết định đó, kể cả những mẫu thiên kiến mà bạn không muốn lặp lại. Daniel: Vậy ý cô là nó có thể đang tẩy rửa thiên kiến lịch sử của chúng ta và khoác cho nó vẻ ngoài là dữ liệu khách quan. Naomi: Đó chính xác là rủi ro. Có một trường hợp nổi tiếng khi một mô hình tuyển dụng tự dạy mình phạt những hồ sơ đề cập đến các trường nữ sinh, đơn giản vì dữ liệu lịch sử nghiêng về nam giới. Daniel: Tôi nhớ vụ đó. Nhưng chẳng phải chúng ta có thể chỉ cần loại bỏ giới tính và sắc tộc khỏi dữ liệu đầu vào rồi gọi là công bằng sao? Naomi: Giá mà nó đơn giản đến vậy. Các mô hình tái tạo lại những thuộc tính được bảo vệ từ các biến đại diện, những thứ như mã bưu chính, sở thích, hoặc những khoảng trống trong lịch sử việc làm của một người. Loại bỏ nhãn không loại bỏ tín hiệu. Daniel: Được rồi, tôi thừa nhận rằng vấn đề thiên kiến gai góc hơn những gì nhà cung cấp tiết lộ. Nhưng lợi ích về hiệu quả là không thể phủ nhận. Chúng ta nhận hàng nghìn đơn ứng tuyển và đơn giản là không thể xem xét tất cả bằng tay. Naomi: Hiệu quả là có thật, và tôi sẽ không giả vờ ngược lại. Câu hỏi của tôi là liệu tốc độ ở quy mô lớn có đáng để triển khai một hệ thống có thể loại một ứng viên đủ tiêu chuẩn vì những lý do mà không ai có thể giải thích đầy đủ hay không. Daniel: Điều đó chạm vào cốt lõi của vấn đề, phải không? Nếu một ứng viên bị từ chối và hỏi tại sao, tôi không chắc mình có thể cho họ một câu trả lời trung thực về cách mô hình đi đến quyết định đó. Naomi: Và đó chính là khoảng trống về trách nhiệm giải trình. Khi một con người đưa ra quyết định sai, có một người để quy trách nhiệm. Với một mô hình mờ ám, trách nhiệm bị phân tán cho đến khi không ai thực sự sở hữu kết quả. Daniel: Tuy nhiên, nhà cung cấp sẽ nói rằng mô hình nhất quán hơn bất kỳ hội đồng con người nào. Nó áp dụng cùng những tiêu chí cho mọi người, mọi lúc, không có tâm trạng xấu hay một bữa trưa kéo dài. Naomi: Sự nhất quán không giống với sự công bằng. Một mô hình có thể hoàn toàn nhất quán và nhất quán sai. Nếu bản thân các tiêu chí có sai sót, sự nhất quán chỉ có nghĩa là bạn đang loại trừ một cách có hệ thống cùng những người đó. Daniel: Tôi tiếp thu ý kiến đó. Vậy điều đó để chúng ta ở đâu? Có phải cô đang lập luận rằng chúng ta nên từ bỏ hoàn toàn công cụ này? Naomi: Hoàn toàn không. Tôi đang lập luận cho việc giữ một con người tham gia một cách có ý nghĩa vào quy trình, kiểm toán kết quả đầu ra thường xuyên, và yêu cầu nhà cung cấp giải thích cách mô hình thực sự chấm điểm con người. Daniel: Vậy công cụ sàng lọc, nhưng một con người vẫn nắm quyền phán quyết cuối cùng và có thể bác bỏ nó khi có điều gì đó trông không ổn. Naomi: Đúng vậy. Dùng nó để làm nổi bật các ứng viên, chứ không phải để âm thầm loại bỏ họ. Và hãy kiểm tra nó trên dữ liệu của chính bạn để phát hiện tác động chênh lệch trước khi bạn tin tưởng bất kỳ bảng xếp hạng nào nó tạo ra. Daniel: Đó là một tiêu chuẩn khắt khe hơn nhiều so với những gì nhà cung cấp chào hàng, nhưng tôi hiểu vì sao nó quan trọng. Sự tiện lợi không nên phải trả bằng cái giá của sự công bằng mà chúng ta không thể bảo vệ. Naomi: Chính xác. Công nghệ thực sự có thể giúp ích, nhưng chỉ khi chúng ta coi nó là một công cụ cần được giám sát, chứ không phải một nhà tiên tri giải thoát chúng ta khỏi trách nhiệm phải công bằng.",
+  "criticalThinkingQuestion": "If an algorithm is more consistent than human recruiters but its decisions can't be fully explained, is that trade-off ever acceptable, and what safeguards would make it so?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-b2-032",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 214320
+}

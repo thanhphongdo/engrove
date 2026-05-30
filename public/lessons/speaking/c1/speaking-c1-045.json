@@ -1,0 +1,908 @@
+{
+  "id": "speaking-c1-045",
+  "level": "C1",
+  "title": "Negotiating Intellectual Property in a Joint Venture",
+  "summary": "General counsel Emma and licensing strategist Andrew negotiate the intellectual property terms of a proposed joint venture, working through ownership of foreground IP, cross-licensing of background patents, royalty structures, field-of-use restrictions, and exit provisions.",
+  "topic": "intellectual property negotiation",
+  "tags": [
+    "Business",
+    "Law",
+    "Intellectual Property"
+  ],
+  "characters": [
+    "Emma",
+    "Andrew"
+  ],
+  "voices": {
+    "Emma": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-EmmaNeural"
+    },
+    "Andrew": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-AndrewNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Andrew",
+      "text": "Emma, before we get into royalty mechanics, I'd like to settle the threshold question that tends to derail these negotiations later: who owns the foreground IP — the inventions the joint venture itself generates. Your draft assigns ownership to the JV entity, but my principals would prefer a joint ownership model with each parent free to exploit."
+    },
+    {
+      "speaker": "Emma",
+      "text": "I understand the instinct, but joint ownership of patents is notoriously messy in practice. Under US law, each co-owner can license the patent independently without accounting to the other, which means your principals could license our shared invention to a direct competitor of ours without our consent. Vesting foreground IP in the JV entity, with carefully scoped licences back to each parent, gives us a cleaner governance structure."
+    },
+    {
+      "speaker": "Andrew",
+      "text": "That's a fair concern, but it cuts both ways. If everything vests in the JV, then the value we've each contributed becomes hostage to the JV's governance — and if the venture dissolves acrimoniously, we're left litigating over who gets what. At least with defined co-ownership the default entitlements are predictable."
+    },
+    {
+      "speaker": "Emma",
+      "text": "Predictable but suboptimal. I'd propose a middle path: foreground IP vests in the JV, but the shareholders' agreement specifies field-of-use licences back to each parent — exclusive within your respective core markets, non-exclusive elsewhere. That way neither parent can undercut the other in the field that matters most to them, and the JV retains a coherent portfolio it can defend against third parties."
+    },
+    {
+      "speaker": "Andrew",
+      "text": "Field-of-use carve-outs are workable in principle, but the boundaries have to be drawn with surgical precision, or we'll be back here in two years arguing about whether a particular application falls inside or outside the field. Who bears the drafting risk if a new product line straddles the boundary?"
+    },
+    {
+      "speaker": "Emma",
+      "text": "We'd define the fields by reference to a schedule that can be amended only by mutual consent, and we'd include a good-faith negotiation clause for genuinely novel applications that neither of us anticipated. It's not airtight — nothing is — but it converts a winner-take-all fight into a structured conversation."
+    },
+    {
+      "speaker": "Andrew",
+      "text": "Let's set foreground aside for a moment and talk about background IP, because that's where the real value asymmetry lies. We're contributing a substantial patent portfolio that took fifteen years and considerable capital to build. Your contribution is weighted more toward know-how and market access. A naive cross-licence on equal terms would systematically undervalue what we bring."
+    },
+    {
+      "speaker": "Emma",
+      "text": "I'd contest the premise that know-how is the junior contribution. Your patents are worthless to the JV without our regulatory clearances, distribution channels, and the tacit manufacturing expertise that doesn't appear on any patent register. But I take the point that the cross-licence shouldn't be reflexively symmetrical — we should value each contribution on its merits and let the royalty structure reflect any genuine imbalance."
+    },
+    {
+      "speaker": "Andrew",
+      "text": "On royalties, then. My preference is a running royalty on net sales — it aligns our interests with the venture's commercial success and avoids a large upfront payment that strains the JV's cash position in its formative years. But I'd want the rate to step down once cumulative volumes cross agreed thresholds, to reward scale."
+    },
+    {
+      "speaker": "Emma",
+      "text": "A running royalty is acceptable in principle, though I'd resist defining the base as net sales without tightly specifying the permitted deductions. 'Net sales' is one of the most litigated phrases in licensing — every rebate, return, and freight allowance becomes a battleground. I'd rather anchor the royalty to a clearly defined gross figure with a closed list of deductions."
+    },
+    {
+      "speaker": "Andrew",
+      "text": "A closed list of deductions is reasonable, provided it's genuinely comprehensive. What I won't accept is a definition so narrow that we end up paying royalties on revenue we never actually realised — uncollectable receivables, for instance. There has to be symmetry between what counts as a sale and what we can recover."
+    },
+    {
+      "speaker": "Emma",
+      "text": "Agreed, and we can carve out bad debt with an appropriate true-up mechanism. The more contentious lever, I suspect, will be the audit rights. I'll want the right to audit your royalty calculations annually, with the cost shifting to you if an audit reveals an underpayment beyond a materiality threshold — say, five percent."
+    },
+    {
+      "speaker": "Andrew",
+      "text": "Audit rights I can live with, but the materiality threshold should be reciprocal and the audit confined to the relevant records, conducted by an independent accountant bound by confidentiality. I'm not going to expose our entire cost base to a competitor's forensic team under the guise of a royalty audit."
+    },
+    {
+      "speaker": "Emma",
+      "text": "That's eminently fair. Let me raise something thornier: improvements. When the JV improves on your background patents, who owns the improvement, and on what terms does it flow back to you? This is where joint ventures most often founder, because improvements blur the line between background and foreground."
+    },
+    {
+      "speaker": "Andrew",
+      "text": "My position is that improvements to our background IP should be owned by the JV but licensed back to us royalty-free, on the theory that we enabled them. I anticipate you'll say the reverse for improvements to your know-how, and frankly I think a reciprocal grant-back is the only stable equilibrium here."
+    },
+    {
+      "speaker": "Emma",
+      "text": "A reciprocal, non-exclusive, royalty-free grant-back of improvements within each party's original field is exactly the symmetrical structure I'd advocate. The one refinement I'd add is that grant-backs should survive termination of the JV, so that neither parent is suddenly enjoined from using improvements it has built its own product roadmap around."
+    },
+    {
+      "speaker": "Andrew",
+      "text": "Survival of licences post-termination is precisely the issue I was building toward. The whole arrangement is only as good as its exit provisions. If the JV unwinds, I need certainty that we retain a perpetual licence to the foreground IP within our field — otherwise the dissolution clause becomes a weapon one side can use to strand the other."
+    },
+    {
+      "speaker": "Emma",
+      "text": "I'd accept perpetual, non-exclusive licences surviving an ordinary dissolution. Where I'd want a different rule is termination for cause — if one party is wound out for a material breach or, worse, for misappropriating the other's trade secrets, its surviving licences should be suspended or terminated. Otherwise the breaching party profits from its own wrong."
+    },
+    {
+      "speaker": "Andrew",
+      "text": "I accept that bad actors shouldn't walk away with the crown jewels, but 'material breach' is a category that swallows a lot of ordinary commercial friction. I'd want any forfeiture of licence rights gated behind a determination by a neutral arbitrator, not a self-help remedy one party invokes unilaterally the moment a dispute arises."
+    },
+    {
+      "speaker": "Emma",
+      "text": "Routing forfeiture through arbitration is sensible, and it dovetails with the dispute-resolution architecture I had in mind — expedited arbitration seated in a neutral jurisdiction, with interim injunctive relief available from the courts to prevent irreparable harm to the IP pending the award. Trade-secret leakage is the one harm you genuinely cannot unwind after the fact."
+    },
+    {
+      "speaker": "Andrew",
+      "text": "On trade secrets we're entirely aligned — speed of relief matters more than the eventual quantum of damages. Let me table one final structural question. Are we contemplating any obligation on the JV to prosecute and defend the foreground patents, and who funds that litigation? Patents you don't enforce are patents you effectively abandon."
+    },
+    {
+      "speaker": "Emma",
+      "text": "The JV should bear primary responsibility for prosecution and maintenance, funded from its own budget. For enforcement litigation, I'd give the JV the first right to sue, and if it declines, a step-in right for whichever parent's field is most affected, with any recovery shared according to a formula that reimburses litigation costs before splitting the surplus."
+    },
+    {
+      "speaker": "Andrew",
+      "text": "A step-in right with cost-priority recovery is a clean solution — it ensures the patents are actually defended without letting an under-motivated JV board sit on its hands. I think we have the architecture of a deal. The remaining work is drafting precision, which, as you rightly keep insisting, is where these arrangements live or die."
+    },
+    {
+      "speaker": "Emma",
+      "text": "Precisely. We've agreed the load-bearing principles — vesting, field-of-use, royalty base, grant-backs, survival, and enforcement — and now the value migrates into the definitions schedule. I'll have a revised term sheet to you by Friday, and I'd suggest we reconvene with the patent counsel from both sides before we let the draftspeople loose on the long-form agreement."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Andrew",
+      "text": "Emma, before we get into royalty mechanics, I'd like to settle the threshold question that tends to derail these negotiations later: who owns the foreground IP — the inventions the joint venture itself generates.",
+      "translationVi": "Emma, trước khi đi vào cơ chế tiền bản quyền, tôi muốn giải quyết câu hỏi ngưỡng thường làm trật bánh các cuộc đàm phán này về sau: ai sở hữu IP tiền cảnh — các phát minh mà chính liên doanh tạo ra.",
+      "durationMs": 12792
+    },
+    {
+      "id": "s2",
+      "speaker": "Andrew",
+      "text": "Your draft assigns ownership to the JV entity, but my principals would prefer a joint ownership model with each parent free to exploit.",
+      "translationVi": "Bản thảo của bạn giao quyền sở hữu cho pháp nhân liên doanh, nhưng các thân chủ của tôi muốn một mô hình đồng sở hữu trong đó mỗi công ty mẹ được tự do khai thác.",
+      "durationMs": 8592
+    },
+    {
+      "id": "s3",
+      "speaker": "Emma",
+      "text": "I understand the instinct, but joint ownership of patents is notoriously messy in practice.",
+      "translationVi": "Tôi hiểu bản năng đó, nhưng đồng sở hữu bằng sáng chế nổi tiếng là rắc rối trong thực tế.",
+      "durationMs": 5328
+    },
+    {
+      "id": "s4",
+      "speaker": "Emma",
+      "text": "Under US law, each co-owner can license the patent independently without accounting to the other, which means your principals could license our shared invention to a direct competitor of ours without our consent.",
+      "translationVi": "Theo luật Mỹ, mỗi đồng sở hữu có thể cấp phép bằng sáng chế một cách độc lập mà không phải hạch toán với bên kia, nghĩa là các thân chủ của bạn có thể cấp phép phát minh chung của chúng ta cho một đối thủ cạnh tranh trực tiếp của chúng tôi mà không cần sự đồng ý của chúng tôi.",
+      "durationMs": 12048
+    },
+    {
+      "id": "s5",
+      "speaker": "Emma",
+      "text": "Vesting foreground IP in the JV entity, with carefully scoped licences back to each parent, gives us a cleaner governance structure.",
+      "translationVi": "Việc trao quyền IP tiền cảnh cho pháp nhân liên doanh, kèm các giấy phép được giới hạn phạm vi cẩn thận cấp lại cho mỗi công ty mẹ, mang lại cho chúng ta một cấu trúc quản trị gọn gàng hơn.",
+      "durationMs": 7920
+    },
+    {
+      "id": "s6",
+      "speaker": "Andrew",
+      "text": "That's a fair concern, but it cuts both ways.",
+      "translationVi": "Đó là một lo ngại hợp lý, nhưng nó có hai mặt.",
+      "durationMs": 3000
+    },
+    {
+      "id": "s7",
+      "speaker": "Andrew",
+      "text": "If everything vests in the JV, then the value we've each contributed becomes hostage to the JV's governance — and if the venture dissolves acrimoniously, we're left litigating over who gets what.",
+      "translationVi": "Nếu mọi thứ được trao cho liên doanh, thì giá trị mà mỗi bên đã đóng góp trở thành con tin của bộ máy quản trị liên doanh — và nếu liên doanh tan rã trong cay đắng, chúng ta sẽ phải kiện tụng về việc ai được cái gì.",
+      "durationMs": 12240
+    },
+    {
+      "id": "s8",
+      "speaker": "Andrew",
+      "text": "At least with defined co-ownership the default entitlements are predictable.",
+      "translationVi": "Ít nhất với đồng sở hữu được xác định rõ, các quyền lợi mặc định là có thể dự đoán được.",
+      "durationMs": 4392
+    },
+    {
+      "id": "s9",
+      "speaker": "Emma",
+      "text": "Predictable but suboptimal.",
+      "translationVi": "Dự đoán được nhưng không tối ưu.",
+      "durationMs": 2112
+    },
+    {
+      "id": "s10",
+      "speaker": "Emma",
+      "text": "I'd propose a middle path: foreground IP vests in the JV, but the shareholders' agreement specifies field-of-use licences back to each parent — exclusive within your respective core markets, non-exclusive elsewhere.",
+      "translationVi": "Tôi sẽ đề xuất một con đường trung dung: IP tiền cảnh thuộc về liên doanh, nhưng thỏa thuận cổ đông quy định các giấy phép theo phạm vi sử dụng cấp lại cho mỗi công ty mẹ — độc quyền trong thị trường cốt lõi tương ứng của các bạn, không độc quyền ở nơi khác.",
+      "durationMs": 13488
+    },
+    {
+      "id": "s11",
+      "speaker": "Emma",
+      "text": "That way neither parent can undercut the other in the field that matters most to them, and the JV retains a coherent portfolio it can defend against third parties.",
+      "translationVi": "Bằng cách đó không công ty mẹ nào có thể chèn ép bên kia trong lĩnh vực quan trọng nhất với họ, và liên doanh giữ được một danh mục mạch lạc mà nó có thể bảo vệ trước các bên thứ ba.",
+      "durationMs": 9096
+    },
+    {
+      "id": "s12",
+      "speaker": "Andrew",
+      "text": "Field-of-use carve-outs are workable in principle, but the boundaries have to be drawn with surgical precision, or we'll be back here in two years arguing about whether a particular application falls inside or outside the field.",
+      "translationVi": "Các ngoại lệ theo phạm vi sử dụng về nguyên tắc là khả thi, nhưng ranh giới phải được vạch ra với độ chính xác như phẫu thuật, nếu không hai năm nữa chúng ta sẽ lại ngồi đây tranh cãi liệu một ứng dụng cụ thể nằm trong hay ngoài lĩnh vực đó.",
+      "durationMs": 13176
+    },
+    {
+      "id": "s13",
+      "speaker": "Andrew",
+      "text": "Who bears the drafting risk if a new product line straddles the boundary?",
+      "translationVi": "Ai gánh chịu rủi ro soạn thảo nếu một dòng sản phẩm mới nằm vắt qua ranh giới?",
+      "durationMs": 4320
+    },
+    {
+      "id": "s14",
+      "speaker": "Emma",
+      "text": "We'd define the fields by reference to a schedule that can be amended only by mutual consent, and we'd include a good-faith negotiation clause for genuinely novel applications that neither of us anticipated.",
+      "translationVi": "Chúng ta sẽ định nghĩa các lĩnh vực bằng cách dẫn chiếu đến một phụ lục chỉ có thể được sửa đổi với sự đồng thuận của cả hai bên, và chúng ta sẽ đưa vào một điều khoản đàm phán thiện chí cho những ứng dụng thực sự mới mẻ mà không bên nào lường trước được.",
+      "durationMs": 11712
+    },
+    {
+      "id": "s15",
+      "speaker": "Emma",
+      "text": "It's not airtight — nothing is — but it converts a winner-take-all fight into a structured conversation.",
+      "translationVi": "Nó không kín kẽ tuyệt đối — không gì là vậy — nhưng nó biến một cuộc tranh giành kẻ thắng-ăn-cả thành một cuộc trao đổi có cấu trúc.",
+      "durationMs": 6264
+    },
+    {
+      "id": "s16",
+      "speaker": "Andrew",
+      "text": "Let's set foreground aside for a moment and talk about background IP, because that's where the real value asymmetry lies.",
+      "translationVi": "Hãy gác IP tiền cảnh sang một bên một lát và nói về IP nền tảng, vì đó là nơi có sự bất đối xứng giá trị thực sự.",
+      "durationMs": 7320
+    },
+    {
+      "id": "s17",
+      "speaker": "Andrew",
+      "text": "We're contributing a substantial patent portfolio that took fifteen years and considerable capital to build.",
+      "translationVi": "Chúng tôi đang đóng góp một danh mục bằng sáng chế đáng kể, mất mười lăm năm và một lượng vốn không nhỏ để xây dựng.",
+      "durationMs": 6384
+    },
+    {
+      "id": "s18",
+      "speaker": "Andrew",
+      "text": "Your contribution is weighted more toward know-how and market access.",
+      "translationVi": "Đóng góp của bạn nghiêng nhiều hơn về bí quyết và khả năng tiếp cận thị trường.",
+      "durationMs": 4608
+    },
+    {
+      "id": "s19",
+      "speaker": "Andrew",
+      "text": "A naive cross-licence on equal terms would systematically undervalue what we bring.",
+      "translationVi": "Một thỏa thuận cấp phép chéo ngây thơ với điều khoản ngang nhau sẽ định giá thấp một cách có hệ thống những gì chúng tôi mang lại.",
+      "durationMs": 4968
+    },
+    {
+      "id": "s20",
+      "speaker": "Emma",
+      "text": "I'd contest the premise that know-how is the junior contribution.",
+      "translationVi": "Tôi sẽ phản bác tiền đề rằng bí quyết là đóng góp thứ yếu.",
+      "durationMs": 3888
+    },
+    {
+      "id": "s21",
+      "speaker": "Emma",
+      "text": "Your patents are worthless to the JV without our regulatory clearances, distribution channels, and the tacit manufacturing expertise that doesn't appear on any patent register.",
+      "translationVi": "Bằng sáng chế của các bạn vô giá trị đối với liên doanh nếu không có các giấy phép pháp lý, kênh phân phối, và chuyên môn sản xuất ngầm của chúng tôi — thứ không xuất hiện trên bất kỳ sổ đăng ký bằng sáng chế nào.",
+      "durationMs": 10512
+    },
+    {
+      "id": "s22",
+      "speaker": "Emma",
+      "text": "But I take the point that the cross-licence shouldn't be reflexively symmetrical — we should value each contribution on its merits and let the royalty structure reflect any genuine imbalance.",
+      "translationVi": "Nhưng tôi đồng ý với quan điểm rằng việc cấp phép chéo không nên đối xứng một cách máy móc — chúng ta nên định giá mỗi đóng góp theo giá trị riêng của nó và để cấu trúc tiền bản quyền phản ánh bất kỳ sự mất cân bằng thực sự nào.",
+      "durationMs": 11112
+    },
+    {
+      "id": "s23",
+      "speaker": "Andrew",
+      "text": "On royalties, then.",
+      "translationVi": "Vậy thì, về tiền bản quyền.",
+      "durationMs": 1728
+    },
+    {
+      "id": "s24",
+      "speaker": "Andrew",
+      "text": "My preference is a running royalty on net sales — it aligns our interests with the venture's commercial success and avoids a large upfront payment that strains the JV's cash position in its formative years.",
+      "translationVi": "Tôi thiên về tiền bản quyền theo doanh thu thuần — nó gắn lợi ích của chúng ta với thành công thương mại của liên doanh và tránh một khoản thanh toán trả trước lớn gây căng thẳng cho dòng tiền của liên doanh trong những năm đầu hình thành.",
+      "durationMs": 12432
+    },
+    {
+      "id": "s25",
+      "speaker": "Andrew",
+      "text": "But I'd want the rate to step down once cumulative volumes cross agreed thresholds, to reward scale.",
+      "translationVi": "Nhưng tôi muốn tỷ lệ giảm dần một khi sản lượng tích lũy vượt các ngưỡng đã thỏa thuận, để tưởng thưởng cho quy mô.",
+      "durationMs": 6144
+    },
+    {
+      "id": "s26",
+      "speaker": "Emma",
+      "text": "A running royalty is acceptable in principle, though I'd resist defining the base as net sales without tightly specifying the permitted deductions.",
+      "translationVi": "Tiền bản quyền theo doanh thu về nguyên tắc là chấp nhận được, dù tôi sẽ không muốn định nghĩa cơ sở là doanh thu thuần mà không quy định chặt chẽ các khoản khấu trừ được phép.",
+      "durationMs": 8400
+    },
+    {
+      "id": "s27",
+      "speaker": "Emma",
+      "text": "'Net sales' is one of the most litigated phrases in licensing — every rebate, return, and freight allowance becomes a battleground.",
+      "translationVi": "'Doanh thu thuần' là một trong những cụm từ bị kiện tụng nhiều nhất trong cấp phép — mỗi khoản chiết khấu, trả hàng, và phụ phí vận chuyển đều trở thành một bãi chiến trường.",
+      "durationMs": 7992
+    },
+    {
+      "id": "s28",
+      "speaker": "Emma",
+      "text": "I'd rather anchor the royalty to a clearly defined gross figure with a closed list of deductions.",
+      "translationVi": "Tôi thà neo tiền bản quyền vào một con số tổng được định nghĩa rõ ràng với một danh sách khấu trừ đóng.",
+      "durationMs": 5784
+    },
+    {
+      "id": "s29",
+      "speaker": "Andrew",
+      "text": "A closed list of deductions is reasonable, provided it's genuinely comprehensive.",
+      "translationVi": "Một danh sách khấu trừ đóng là hợp lý, miễn là nó thực sự đầy đủ.",
+      "durationMs": 5112
+    },
+    {
+      "id": "s30",
+      "speaker": "Andrew",
+      "text": "What I won't accept is a definition so narrow that we end up paying royalties on revenue we never actually realised — uncollectable receivables, for instance.",
+      "translationVi": "Điều tôi sẽ không chấp nhận là một định nghĩa hẹp đến mức chúng tôi rốt cuộc phải trả tiền bản quyền trên doanh thu chúng tôi chưa bao giờ thực sự thu được — chẳng hạn các khoản phải thu không thể đòi.",
+      "durationMs": 9600
+    },
+    {
+      "id": "s31",
+      "speaker": "Andrew",
+      "text": "There has to be symmetry between what counts as a sale and what we can recover.",
+      "translationVi": "Phải có sự đối xứng giữa cái được tính là một giao dịch bán và cái mà chúng tôi có thể thu hồi.",
+      "durationMs": 4680
+    },
+    {
+      "id": "s32",
+      "speaker": "Emma",
+      "text": "Agreed, and we can carve out bad debt with an appropriate true-up mechanism.",
+      "translationVi": "Đồng ý, và chúng ta có thể loại trừ nợ khó đòi bằng một cơ chế điều chỉnh bù trừ thích hợp.",
+      "durationMs": 4488
+    },
+    {
+      "id": "s33",
+      "speaker": "Emma",
+      "text": "The more contentious lever, I suspect, will be the audit rights.",
+      "translationVi": "Đòn bẩy gây tranh cãi hơn, tôi ngờ rằng, sẽ là các quyền kiểm toán.",
+      "durationMs": 3792
+    },
+    {
+      "id": "s34",
+      "speaker": "Emma",
+      "text": "I'll want the right to audit your royalty calculations annually, with the cost shifting to you if an audit reveals an underpayment beyond a materiality threshold — say, five percent.",
+      "translationVi": "Tôi sẽ muốn quyền kiểm toán các tính toán tiền bản quyền của bạn hằng năm, với chi phí chuyển sang cho bạn nếu một cuộc kiểm toán phát hiện việc trả thiếu vượt quá ngưỡng trọng yếu — chẳng hạn năm phần trăm.",
+      "durationMs": 10656
+    },
+    {
+      "id": "s35",
+      "speaker": "Andrew",
+      "text": "Audit rights I can live with, but the materiality threshold should be reciprocal and the audit confined to the relevant records, conducted by an independent accountant bound by confidentiality.",
+      "translationVi": "Quyền kiểm toán tôi có thể chấp nhận, nhưng ngưỡng trọng yếu phải có đi có lại và cuộc kiểm toán giới hạn ở các hồ sơ liên quan, do một kế toán độc lập bị ràng buộc bởi nghĩa vụ bảo mật tiến hành.",
+      "durationMs": 11184
+    },
+    {
+      "id": "s36",
+      "speaker": "Andrew",
+      "text": "I'm not going to expose our entire cost base to a competitor's forensic team under the guise of a royalty audit.",
+      "translationVi": "Tôi sẽ không phơi bày toàn bộ cơ cấu chi phí của chúng tôi cho đội điều tra của một đối thủ cạnh tranh dưới chiêu bài một cuộc kiểm toán tiền bản quyền.",
+      "durationMs": 6648
+    },
+    {
+      "id": "s37",
+      "speaker": "Emma",
+      "text": "That's eminently fair.",
+      "translationVi": "Điều đó hoàn toàn công bằng.",
+      "durationMs": 1752
+    },
+    {
+      "id": "s38",
+      "speaker": "Emma",
+      "text": "Let me raise something thornier: improvements.",
+      "translationVi": "Để tôi nêu một điều gai góc hơn: các cải tiến.",
+      "durationMs": 3336
+    },
+    {
+      "id": "s39",
+      "speaker": "Emma",
+      "text": "When the JV improves on your background patents, who owns the improvement, and on what terms does it flow back to you?",
+      "translationVi": "Khi liên doanh cải tiến trên các bằng sáng chế nền tảng của bạn, ai sở hữu cải tiến đó, và nó được chuyển trở lại cho bạn theo những điều khoản nào?",
+      "durationMs": 6360
+    },
+    {
+      "id": "s40",
+      "speaker": "Emma",
+      "text": "This is where joint ventures most often founder, because improvements blur the line between background and foreground.",
+      "translationVi": "Đây là nơi các liên doanh thường thất bại nhất, vì các cải tiến làm mờ ranh giới giữa nền tảng và tiền cảnh.",
+      "durationMs": 6816
+    },
+    {
+      "id": "s41",
+      "speaker": "Andrew",
+      "text": "My position is that improvements to our background IP should be owned by the JV but licensed back to us royalty-free, on the theory that we enabled them.",
+      "translationVi": "Lập trường của tôi là các cải tiến đối với IP nền tảng của chúng tôi nên thuộc sở hữu của liên doanh nhưng được cấp phép trở lại cho chúng tôi miễn phí bản quyền, theo lý lẽ rằng chính chúng tôi đã tạo điều kiện cho chúng.",
+      "durationMs": 8904
+    },
+    {
+      "id": "s42",
+      "speaker": "Andrew",
+      "text": "I anticipate you'll say the reverse for improvements to your know-how, and frankly I think a reciprocal grant-back is the only stable equilibrium here.",
+      "translationVi": "Tôi đoán bạn sẽ nói điều ngược lại đối với các cải tiến cho bí quyết của bạn, và thành thật mà nói tôi nghĩ một sự cấp phép lại có đi có lại là điểm cân bằng ổn định duy nhất ở đây.",
+      "durationMs": 9168
+    },
+    {
+      "id": "s43",
+      "speaker": "Emma",
+      "text": "A reciprocal, non-exclusive, royalty-free grant-back of improvements within each party's original field is exactly the symmetrical structure I'd advocate.",
+      "translationVi": "Một sự cấp phép lại các cải tiến, có đi có lại, không độc quyền, miễn phí bản quyền, trong phạm vi lĩnh vực ban đầu của mỗi bên, chính là cấu trúc đối xứng mà tôi ủng hộ.",
+      "durationMs": 9480
+    },
+    {
+      "id": "s44",
+      "speaker": "Emma",
+      "text": "The one refinement I'd add is that grant-backs should survive termination of the JV, so that neither parent is suddenly enjoined from using improvements it has built its own product roadmap around.",
+      "translationVi": "Điểm tinh chỉnh duy nhất tôi sẽ thêm là các sự cấp phép lại nên tồn tại sau khi liên doanh chấm dứt, để không công ty mẹ nào đột nhiên bị cấm sử dụng các cải tiến mà nó đã xây dựng lộ trình sản phẩm của riêng mình xung quanh đó.",
+      "durationMs": 10680
+    },
+    {
+      "id": "s45",
+      "speaker": "Andrew",
+      "text": "Survival of licences post-termination is precisely the issue I was building toward.",
+      "translationVi": "Sự tồn tại của các giấy phép sau khi chấm dứt chính là vấn đề mà tôi đang hướng tới.",
+      "durationMs": 5400
+    },
+    {
+      "id": "s46",
+      "speaker": "Andrew",
+      "text": "The whole arrangement is only as good as its exit provisions.",
+      "translationVi": "Toàn bộ thỏa thuận chỉ tốt ngang với các điều khoản thoái lui của nó.",
+      "durationMs": 4128
+    },
+    {
+      "id": "s47",
+      "speaker": "Andrew",
+      "text": "If the JV unwinds, I need certainty that we retain a perpetual licence to the foreground IP within our field — otherwise the dissolution clause becomes a weapon one side can use to strand the other.",
+      "translationVi": "Nếu liên doanh giải thể, tôi cần sự chắc chắn rằng chúng tôi giữ được một giấy phép vĩnh viễn đối với IP tiền cảnh trong lĩnh vực của mình — nếu không điều khoản giải thể sẽ trở thành một vũ khí mà một bên có thể dùng để bỏ rơi bên kia.",
+      "durationMs": 12528
+    },
+    {
+      "id": "s48",
+      "speaker": "Emma",
+      "text": "I'd accept perpetual, non-exclusive licences surviving an ordinary dissolution.",
+      "translationVi": "Tôi sẽ chấp nhận các giấy phép vĩnh viễn, không độc quyền, tồn tại sau một sự giải thể thông thường.",
+      "durationMs": 5664
+    },
+    {
+      "id": "s49",
+      "speaker": "Emma",
+      "text": "Where I'd want a different rule is termination for cause — if one party is wound out for a material breach or, worse, for misappropriating the other's trade secrets, its surviving licences should be suspended or terminated.",
+      "translationVi": "Nơi tôi muốn một quy tắc khác là chấm dứt vì lý do chính đáng — nếu một bên bị loại ra vì vi phạm trọng yếu hoặc, tệ hơn, vì chiếm dụng bí mật thương mại của bên kia, các giấy phép còn tồn tại của bên đó nên bị đình chỉ hoặc chấm dứt.",
+      "durationMs": 12840
+    },
+    {
+      "id": "s50",
+      "speaker": "Emma",
+      "text": "Otherwise the breaching party profits from its own wrong.",
+      "translationVi": "Nếu không bên vi phạm sẽ trục lợi từ chính hành vi sai trái của mình.",
+      "durationMs": 3600
+    },
+    {
+      "id": "s51",
+      "speaker": "Andrew",
+      "text": "I accept that bad actors shouldn't walk away with the crown jewels, but 'material breach' is a category that swallows a lot of ordinary commercial friction.",
+      "translationVi": "Tôi chấp nhận rằng những kẻ xấu không nên ôm trọn của báu mà bỏ đi, nhưng 'vi phạm trọng yếu' là một phạm trù nuốt chửng rất nhiều va chạm thương mại thông thường.",
+      "durationMs": 9024
+    },
+    {
+      "id": "s52",
+      "speaker": "Andrew",
+      "text": "I'd want any forfeiture of licence rights gated behind a determination by a neutral arbitrator, not a self-help remedy one party invokes unilaterally the moment a dispute arises.",
+      "translationVi": "Tôi muốn bất kỳ sự tước bỏ quyền cấp phép nào cũng phải qua một phán quyết của một trọng tài viên trung lập, chứ không phải một biện pháp tự cứu mà một bên viện dẫn đơn phương ngay khi tranh chấp nảy sinh.",
+      "durationMs": 10992
+    },
+    {
+      "id": "s53",
+      "speaker": "Emma",
+      "text": "Routing forfeiture through arbitration is sensible, and it dovetails with the dispute-resolution architecture I had in mind — expedited arbitration seated in a neutral jurisdiction, with interim injunctive relief available from the courts to prevent irreparable harm to the IP pending the award.",
+      "translationVi": "Đưa việc tước bỏ qua trọng tài là hợp lý, và nó ăn khớp với kiến trúc giải quyết tranh chấp mà tôi đã hình dung — trọng tài cấp tốc đặt tại một khu vực tài phán trung lập, với biện pháp khẩn cấp tạm thời có thể xin từ tòa án để ngăn thiệt hại không thể khắc phục đối với IP trong khi chờ phán quyết.",
+      "durationMs": 16920
+    },
+    {
+      "id": "s54",
+      "speaker": "Emma",
+      "text": "Trade-secret leakage is the one harm you genuinely cannot unwind after the fact.",
+      "translationVi": "Rò rỉ bí mật thương mại là loại thiệt hại duy nhất mà bạn thực sự không thể đảo ngược sau khi sự việc xảy ra.",
+      "durationMs": 4992
+    },
+    {
+      "id": "s55",
+      "speaker": "Andrew",
+      "text": "On trade secrets we're entirely aligned — speed of relief matters more than the eventual quantum of damages.",
+      "translationVi": "Về bí mật thương mại chúng ta hoàn toàn đồng quan điểm — tốc độ của biện pháp khắc phục quan trọng hơn khoản bồi thường thiệt hại cuối cùng.",
+      "durationMs": 6600
+    },
+    {
+      "id": "s56",
+      "speaker": "Andrew",
+      "text": "Let me table one final structural question.",
+      "translationVi": "Để tôi đưa ra một câu hỏi cấu trúc cuối cùng.",
+      "durationMs": 2616
+    },
+    {
+      "id": "s57",
+      "speaker": "Andrew",
+      "text": "Are we contemplating any obligation on the JV to prosecute and defend the foreground patents, and who funds that litigation?",
+      "translationVi": "Chúng ta có dự liệu nghĩa vụ nào đối với liên doanh trong việc theo đuổi đăng ký và bảo vệ các bằng sáng chế tiền cảnh không, và ai tài trợ cho việc kiện tụng đó?",
+      "durationMs": 7704
+    },
+    {
+      "id": "s58",
+      "speaker": "Andrew",
+      "text": "Patents you don't enforce are patents you effectively abandon.",
+      "translationVi": "Những bằng sáng chế mà bạn không thực thi là những bằng sáng chế mà trên thực tế bạn đã từ bỏ.",
+      "durationMs": 3504
+    },
+    {
+      "id": "s59",
+      "speaker": "Emma",
+      "text": "The JV should bear primary responsibility for prosecution and maintenance, funded from its own budget.",
+      "translationVi": "Liên doanh nên chịu trách nhiệm chính cho việc theo đuổi đăng ký và duy trì, được tài trợ từ ngân sách riêng của nó.",
+      "durationMs": 6504
+    },
+    {
+      "id": "s60",
+      "speaker": "Emma",
+      "text": "For enforcement litigation, I'd give the JV the first right to sue, and if it declines, a step-in right for whichever parent's field is most affected, with any recovery shared according to a formula that reimburses litigation costs before splitting the surplus.",
+      "translationVi": "Đối với kiện tụng thực thi, tôi sẽ trao cho liên doanh quyền khởi kiện đầu tiên, và nếu nó từ chối, một quyền tiếp quản cho công ty mẹ nào có lĩnh vực bị ảnh hưởng nhiều nhất, với mọi khoản thu hồi được chia theo một công thức hoàn lại chi phí kiện tụng trước khi chia phần dư.",
+      "durationMs": 14808
+    },
+    {
+      "id": "s61",
+      "speaker": "Andrew",
+      "text": "A step-in right with cost-priority recovery is a clean solution — it ensures the patents are actually defended without letting an under-motivated JV board sit on its hands.",
+      "translationVi": "Một quyền tiếp quản với việc thu hồi ưu tiên chi phí là một giải pháp gọn gàng — nó đảm bảo các bằng sáng chế thực sự được bảo vệ mà không để một hội đồng liên doanh thiếu động lực khoanh tay ngồi nhìn.",
+      "durationMs": 10584
+    },
+    {
+      "id": "s62",
+      "speaker": "Andrew",
+      "text": "I think we have the architecture of a deal.",
+      "translationVi": "Tôi nghĩ chúng ta đã có kiến trúc của một thỏa thuận.",
+      "durationMs": 2352
+    },
+    {
+      "id": "s63",
+      "speaker": "Andrew",
+      "text": "The remaining work is drafting precision, which, as you rightly keep insisting, is where these arrangements live or die.",
+      "translationVi": "Phần việc còn lại là độ chính xác trong soạn thảo, mà, như bạn cứ nhấn mạnh một cách đúng đắn, là nơi các thỏa thuận này sống hay chết.",
+      "durationMs": 8016
+    },
+    {
+      "id": "s64",
+      "speaker": "Emma",
+      "text": "Precisely.",
+      "translationVi": "Chính xác.",
+      "durationMs": 1248
+    },
+    {
+      "id": "s65",
+      "speaker": "Emma",
+      "text": "We've agreed the load-bearing principles — vesting, field-of-use, royalty base, grant-backs, survival, and enforcement — and now the value migrates into the definitions schedule.",
+      "translationVi": "Chúng ta đã nhất trí về các nguyên tắc chịu lực — trao quyền sở hữu, phạm vi sử dụng, cơ sở tiền bản quyền, cấp phép lại, sự tồn tại, và thực thi — và bây giờ giá trị chuyển sang phụ lục định nghĩa.",
+      "durationMs": 10656
+    },
+    {
+      "id": "s66",
+      "speaker": "Emma",
+      "text": "I'll have a revised term sheet to you by Friday, and I'd suggest we reconvene with the patent counsel from both sides before we let the draftspeople loose on the long-form agreement.",
+      "translationVi": "Tôi sẽ gửi cho bạn một bản điều khoản chính sửa đổi trước thứ Sáu, và tôi đề nghị chúng ta họp lại với luật sư bằng sáng chế của cả hai bên trước khi để các chuyên viên soạn thảo bắt tay vào bản thỏa thuận dài đầy đủ.",
+      "durationMs": 10008
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "I understand the instinct, but … is notoriously messy in practice because …"
+    },
+    {
+      "id": "h2",
+      "text": "I'd contest the premise that … is the junior contribution, because …"
+    },
+    {
+      "id": "h3",
+      "text": "I'd accept … surviving an ordinary dissolution, but where I'd want a different rule is …"
+    },
+    {
+      "id": "h4",
+      "text": "That's a fair concern, but it cuts both ways — if …, then …"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "foreground IP",
+      "meaningVi": "IP tiền cảnh (tài sản trí tuệ do chính liên doanh tạo ra trong quá trình hoạt động)",
+      "pronunciation": "/ˈfɔːrɡraʊnd aɪ ˈpiː/"
+    },
+    {
+      "id": "v2",
+      "phrase": "background IP",
+      "meaningVi": "IP nền tảng (tài sản trí tuệ mỗi bên đã có sẵn và đóng góp vào liên doanh)",
+      "pronunciation": "/ˈbækɡraʊnd aɪ ˈpiː/"
+    },
+    {
+      "id": "v3",
+      "phrase": "running royalty",
+      "meaningVi": "tiền bản quyền theo doanh thu (trả định kỳ dựa trên doanh số bán)",
+      "pronunciation": "/ˈrʌnɪŋ ˈrɔɪəlti/"
+    },
+    {
+      "id": "v4",
+      "phrase": "field-of-use licences",
+      "meaningVi": "giấy phép theo phạm vi sử dụng (giới hạn quyền sử dụng trong một lĩnh vực nhất định)",
+      "pronunciation": "/ˈfiːld əv juːs ˈlaɪsənsɪz/"
+    },
+    {
+      "id": "v5",
+      "phrase": "grant-back",
+      "meaningVi": "cấp phép lại (bên được cấp phép trao lại quyền với các cải tiến cho bên kia)",
+      "pronunciation": "/ˈɡrænt bæk/"
+    },
+    {
+      "id": "v6",
+      "phrase": "materiality threshold",
+      "meaningVi": "ngưỡng trọng yếu (mức tối thiểu để một sai lệch được coi là đáng kể)",
+      "pronunciation": "/məˌtɪriˈæləti ˈθrɛʃhoʊld/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "threshold question",
+      "meaningVi": "câu hỏi ngưỡng (vấn đề cốt yếu phải giải quyết trước khi xét các vấn đề khác)",
+      "pronunciation": "/ˈθrɛʃhoʊld ˈkwɛstʃən/",
+      "exampleEn": "I'd like to settle the threshold question that tends to derail these negotiations later."
+    },
+    {
+      "phrase": "foreground IP",
+      "meaningVi": "IP tiền cảnh (tài sản trí tuệ do chính liên doanh tạo ra)",
+      "pronunciation": "/ˈfɔːrɡraʊnd aɪ ˈpiː/"
+    },
+    {
+      "phrase": "joint ownership model",
+      "meaningVi": "mô hình đồng sở hữu",
+      "pronunciation": "/dʒɔɪnt ˈoʊnərʃɪp ˈmɒdl/"
+    },
+    {
+      "phrase": "co-owner",
+      "meaningVi": "đồng sở hữu",
+      "pronunciation": "/ˌkoʊˈoʊnər/"
+    },
+    {
+      "phrase": "license the patent independently",
+      "meaningVi": "cấp phép bằng sáng chế một cách độc lập",
+      "pronunciation": "/ˈlaɪsəns ðə ˈpætnt ˌɪndɪˈpɛndəntli/"
+    },
+    {
+      "phrase": "carefully scoped licences",
+      "meaningVi": "giấy phép được giới hạn phạm vi cẩn thận",
+      "pronunciation": "/ˈkɛrfəli skoʊpt ˈlaɪsənsɪz/"
+    },
+    {
+      "phrase": "governance structure",
+      "meaningVi": "cấu trúc quản trị",
+      "pronunciation": "/ˈɡʌvərnəns ˈstrʌktʃər/"
+    },
+    {
+      "phrase": "it cuts both ways",
+      "meaningVi": "nó có hai mặt (lập luận đó áp dụng cho cả hai bên)",
+      "pronunciation": "/ɪt kʌts boʊθ weɪz/"
+    },
+    {
+      "phrase": "dissolves acrimoniously",
+      "meaningVi": "tan rã trong cay đắng/thù địch",
+      "pronunciation": "/dɪˈzɒlvz ˌækrɪˈmoʊniəsli/"
+    },
+    {
+      "phrase": "default entitlements",
+      "meaningVi": "các quyền lợi mặc định",
+      "pronunciation": "/dɪˈfɔːlt ɪnˈtaɪtlmənts/"
+    },
+    {
+      "phrase": "field-of-use licences",
+      "meaningVi": "giấy phép theo phạm vi sử dụng",
+      "pronunciation": "/ˈfiːld əv juːs ˈlaɪsənsɪz/"
+    },
+    {
+      "phrase": "field-of-use carve-outs",
+      "meaningVi": "các ngoại lệ theo phạm vi sử dụng",
+      "pronunciation": "/ˈfiːld əv juːs ˈkɑːrv aʊts/"
+    },
+    {
+      "phrase": "surgical precision",
+      "meaningVi": "độ chính xác như phẫu thuật (cực kỳ tỉ mỉ)",
+      "pronunciation": "/ˈsɜːrdʒɪkl prɪˈsɪʒən/"
+    },
+    {
+      "phrase": "drafting risk",
+      "meaningVi": "rủi ro soạn thảo (rủi ro từ cách diễn đạt mơ hồ trong văn bản)",
+      "pronunciation": "/ˈdræftɪŋ rɪsk/"
+    },
+    {
+      "phrase": "good-faith negotiation clause",
+      "meaningVi": "điều khoản đàm phán thiện chí",
+      "pronunciation": "/ɡʊd feɪθ nɪˌɡoʊʃiˈeɪʃən klɔːz/"
+    },
+    {
+      "phrase": "winner-take-all fight",
+      "meaningVi": "cuộc tranh giành kẻ thắng-ăn-cả",
+      "pronunciation": "/ˈwɪnər teɪk ɔːl faɪt/"
+    },
+    {
+      "phrase": "value asymmetry",
+      "meaningVi": "sự bất đối xứng về giá trị",
+      "pronunciation": "/ˈvæljuː ˌeɪˈsɪmətri/"
+    },
+    {
+      "phrase": "patent portfolio",
+      "meaningVi": "danh mục bằng sáng chế",
+      "pronunciation": "/ˈpætnt pɔːrtˈfoʊlioʊ/"
+    },
+    {
+      "phrase": "know-how",
+      "meaningVi": "bí quyết (kiến thức kỹ thuật, kinh nghiệm thực tiễn)",
+      "pronunciation": "/ˈnoʊ haʊ/"
+    },
+    {
+      "phrase": "cross-licence",
+      "meaningVi": "cấp phép chéo (hai bên cấp phép cho nhau)",
+      "pronunciation": "/ˈkrɔːs ˈlaɪsəns/"
+    },
+    {
+      "phrase": "tacit manufacturing expertise",
+      "meaningVi": "chuyên môn sản xuất ngầm (kiến thức khó ghi chép thành văn bản)",
+      "pronunciation": "/ˈtæsɪt ˌmænjuˈfæktʃərɪŋ ˌɛkspɜːrˈtiːz/"
+    },
+    {
+      "phrase": "running royalty on net sales",
+      "meaningVi": "tiền bản quyền theo doanh thu thuần",
+      "pronunciation": "/ˈrʌnɪŋ ˈrɔɪəlti ɒn nɛt seɪlz/"
+    },
+    {
+      "phrase": "permitted deductions",
+      "meaningVi": "các khoản khấu trừ được phép",
+      "pronunciation": "/pərˈmɪtɪd dɪˈdʌkʃənz/"
+    },
+    {
+      "phrase": "closed list of deductions",
+      "meaningVi": "danh sách khấu trừ đóng (liệt kê đầy đủ, không mở rộng)",
+      "pronunciation": "/kloʊzd lɪst əv dɪˈdʌkʃənz/"
+    },
+    {
+      "phrase": "uncollectable receivables",
+      "meaningVi": "các khoản phải thu không thể đòi",
+      "pronunciation": "/ˌʌnkəˈlɛktəbl rɪˈsiːvəblz/"
+    },
+    {
+      "phrase": "true-up mechanism",
+      "meaningVi": "cơ chế điều chỉnh bù trừ",
+      "pronunciation": "/ˈtruː ʌp ˈmɛkənɪzəm/"
+    },
+    {
+      "phrase": "audit rights",
+      "meaningVi": "các quyền kiểm toán",
+      "pronunciation": "/ˈɔːdɪt raɪts/"
+    },
+    {
+      "phrase": "materiality threshold",
+      "meaningVi": "ngưỡng trọng yếu",
+      "pronunciation": "/məˌtɪriˈæləti ˈθrɛʃhoʊld/"
+    },
+    {
+      "phrase": "forensic team",
+      "meaningVi": "đội điều tra/giám định",
+      "pronunciation": "/fəˈrɛnsɪk tiːm/"
+    },
+    {
+      "phrase": "royalty-free",
+      "meaningVi": "miễn phí bản quyền",
+      "pronunciation": "/ˈrɔɪəlti friː/"
+    },
+    {
+      "phrase": "reciprocal grant-back",
+      "meaningVi": "cấp phép lại có đi có lại",
+      "pronunciation": "/rɪˈsɪprəkl ˈɡrænt bæk/"
+    },
+    {
+      "phrase": "stable equilibrium",
+      "meaningVi": "điểm cân bằng ổn định",
+      "pronunciation": "/ˈsteɪbl ˌiːkwɪˈlɪbriəm/"
+    },
+    {
+      "phrase": "survival of licences post-termination",
+      "meaningVi": "sự tồn tại của giấy phép sau khi chấm dứt",
+      "pronunciation": "/sərˈvaɪvl əv ˈlaɪsənsɪz poʊst ˌtɜːrmɪˈneɪʃən/"
+    },
+    {
+      "phrase": "exit provisions",
+      "meaningVi": "các điều khoản thoái lui",
+      "pronunciation": "/ˈɛksɪt prəˈvɪʒənz/"
+    },
+    {
+      "phrase": "perpetual licence",
+      "meaningVi": "giấy phép vĩnh viễn",
+      "pronunciation": "/pərˈpɛtʃuəl ˈlaɪsəns/"
+    },
+    {
+      "phrase": "termination for cause",
+      "meaningVi": "chấm dứt vì lý do chính đáng",
+      "pronunciation": "/ˌtɜːrmɪˈneɪʃən fɔːr kɔːz/"
+    },
+    {
+      "phrase": "misappropriating the other's trade secrets",
+      "meaningVi": "chiếm dụng bí mật thương mại của bên kia",
+      "pronunciation": "/ˌmɪsəˈproʊprieɪtɪŋ ðə ˈʌðərz treɪd ˈsiːkrɪts/"
+    },
+    {
+      "phrase": "material breach",
+      "meaningVi": "vi phạm trọng yếu",
+      "pronunciation": "/məˈtɪriəl briːtʃ/"
+    },
+    {
+      "phrase": "neutral arbitrator",
+      "meaningVi": "trọng tài viên trung lập",
+      "pronunciation": "/ˈnuːtrəl ˈɑːrbɪtreɪtər/"
+    },
+    {
+      "phrase": "self-help remedy",
+      "meaningVi": "biện pháp tự cứu (bên tự thực thi mà không qua cơ quan tài phán)",
+      "pronunciation": "/ˌsɛlf hɛlp ˈrɛmədi/"
+    },
+    {
+      "phrase": "interim injunctive relief",
+      "meaningVi": "biện pháp khẩn cấp tạm thời (lệnh của tòa ngăn chặn hành vi)",
+      "pronunciation": "/ˈɪntərɪm ɪnˈdʒʌŋktɪv rɪˈliːf/"
+    },
+    {
+      "phrase": "irreparable harm",
+      "meaningVi": "thiệt hại không thể khắc phục",
+      "pronunciation": "/ɪˈrɛpərəbl hɑːrm/"
+    },
+    {
+      "phrase": "quantum of damages",
+      "meaningVi": "khoản/mức bồi thường thiệt hại",
+      "pronunciation": "/ˈkwɒntəm əv ˈdæmɪdʒɪz/"
+    },
+    {
+      "phrase": "prosecute and defend the foreground patents",
+      "meaningVi": "theo đuổi đăng ký và bảo vệ các bằng sáng chế tiền cảnh",
+      "pronunciation": "/ˈprɒsɪkjuːt ænd dɪˈfɛnd ðə ˈfɔːrɡraʊnd ˈpætnts/"
+    },
+    {
+      "phrase": "step-in right",
+      "meaningVi": "quyền tiếp quản (quyền thay thế bên kia thực hiện một hành động)",
+      "pronunciation": "/ˈstɛp ɪn raɪt/"
+    },
+    {
+      "phrase": "load-bearing principles",
+      "meaningVi": "các nguyên tắc chịu lực (các nguyên tắc cốt lõi giữ cho thỏa thuận đứng vững)",
+      "pronunciation": "/ˈloʊd ˈbɛrɪŋ ˈprɪnsəplz/"
+    },
+    {
+      "phrase": "definitions schedule",
+      "meaningVi": "phụ lục định nghĩa",
+      "pronunciation": "/ˌdɛfɪˈnɪʃənz ˈskɛdʒuːl/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Conceding then countering: 'That's a fair concern, but it cuts both ways'",
+      "bodyVi": "Trong đàm phán cấp cao, bạn thường thừa nhận giá trị quan điểm của đối phương trước khi phản bác, để tỏ ra hợp lý và giữ thiện chí. Cấu trúc điển hình: 'That's a fair concern/point, but…' theo sau là một sự đảo ngược lập luận, ví dụ 'it cuts both ways' (lập luận đó áp dụng cho cả hai bên). Cách này giúp giảm tính đối đầu trong khi vẫn giữ vững lập trường.",
+      "bodyEn": "Skilled negotiators concede before they counter: 'That's a fair concern, but…' acknowledges the other side's point, then pivots. The idiom 'it cuts both ways' is a compact way of saying the same argument can be turned against the speaker. This concede-then-counter move keeps the tone collaborative while still resisting — it signals you've genuinely considered their position rather than dismissing it."
+    },
+    {
+      "title": "Hedged proposals with 'I'd' (would) for diplomatic distance",
+      "bodyVi": "Việc dùng 'I'd propose…', 'I'd resist…', 'I'd accept…' (dạng rút gọn của 'I would') làm cho đề xuất nghe có điều kiện và lịch sự hơn 'I propose'. Nó tạo khoảng cách ngoại giao: bạn đang nêu một lập trường để thương lượng, không ra tối hậu thư. Ngược lại, dùng 'I won't accept' (hiện tại) báo hiệu một lằn ranh đỏ cứng rắn.",
+      "bodyEn": "Using the conditional 'I'd' (I would) — 'I'd propose', 'I'd resist', 'I'd accept' — softens a proposal into a negotiating position rather than a demand. It creates diplomatic distance. Note the deliberate switch to the firmer present tense at red lines: 'What I won't accept is…' signals a non-negotiable, contrasting sharply with the hedged conditionals elsewhere."
+    }
+  ],
+  "translationVi": "Andrew: Emma, trước khi đi vào cơ chế tiền bản quyền, tôi muốn giải quyết câu hỏi ngưỡng thường làm trật bánh các cuộc đàm phán này về sau: ai sở hữu IP tiền cảnh — các phát minh mà chính liên doanh tạo ra. Bản thảo của bạn giao quyền sở hữu cho pháp nhân liên doanh, nhưng các thân chủ của tôi muốn một mô hình đồng sở hữu trong đó mỗi công ty mẹ được tự do khai thác. Emma: Tôi hiểu bản năng đó, nhưng đồng sở hữu bằng sáng chế nổi tiếng là rắc rối trong thực tế. Theo luật Mỹ, mỗi đồng sở hữu có thể cấp phép bằng sáng chế một cách độc lập mà không phải hạch toán với bên kia, nghĩa là các thân chủ của bạn có thể cấp phép phát minh chung của chúng ta cho một đối thủ cạnh tranh trực tiếp của chúng tôi mà không cần sự đồng ý của chúng tôi. Việc trao quyền IP tiền cảnh cho pháp nhân liên doanh, kèm các giấy phép được giới hạn phạm vi cẩn thận cấp lại cho mỗi công ty mẹ, mang lại cho chúng ta một cấu trúc quản trị gọn gàng hơn. Andrew: Đó là một lo ngại hợp lý, nhưng nó có hai mặt. Nếu mọi thứ được trao cho liên doanh, thì giá trị mà mỗi bên đã đóng góp trở thành con tin của bộ máy quản trị liên doanh — và nếu liên doanh tan rã trong cay đắng, chúng ta sẽ phải kiện tụng về việc ai được cái gì. Ít nhất với đồng sở hữu được xác định rõ, các quyền lợi mặc định là có thể dự đoán được. Emma: Dự đoán được nhưng không tối ưu. Tôi sẽ đề xuất một con đường trung dung: IP tiền cảnh thuộc về liên doanh, nhưng thỏa thuận cổ đông quy định các giấy phép theo phạm vi sử dụng cấp lại cho mỗi công ty mẹ — độc quyền trong thị trường cốt lõi tương ứng của các bạn, không độc quyền ở nơi khác. Bằng cách đó không công ty mẹ nào có thể chèn ép bên kia trong lĩnh vực quan trọng nhất với họ, và liên doanh giữ được một danh mục mạch lạc mà nó có thể bảo vệ trước các bên thứ ba. Andrew: Các ngoại lệ theo phạm vi sử dụng về nguyên tắc là khả thi, nhưng ranh giới phải được vạch ra với độ chính xác như phẫu thuật, nếu không hai năm nữa chúng ta sẽ lại ngồi đây tranh cãi liệu một ứng dụng cụ thể nằm trong hay ngoài lĩnh vực đó. Ai gánh chịu rủi ro soạn thảo nếu một dòng sản phẩm mới nằm vắt qua ranh giới? Emma: Chúng ta sẽ định nghĩa các lĩnh vực bằng cách dẫn chiếu đến một phụ lục chỉ có thể được sửa đổi với sự đồng thuận của cả hai bên, và chúng ta sẽ đưa vào một điều khoản đàm phán thiện chí cho những ứng dụng thực sự mới mẻ mà không bên nào lường trước được. Nó không kín kẽ tuyệt đối — không gì là vậy — nhưng nó biến một cuộc tranh giành kẻ thắng-ăn-cả thành một cuộc trao đổi có cấu trúc. Andrew: Hãy gác IP tiền cảnh sang một bên một lát và nói về IP nền tảng, vì đó là nơi có sự bất đối xứng giá trị thực sự. Chúng tôi đang đóng góp một danh mục bằng sáng chế đáng kể, mất mười lăm năm và một lượng vốn không nhỏ để xây dựng. Đóng góp của bạn nghiêng nhiều hơn về bí quyết và khả năng tiếp cận thị trường. Một thỏa thuận cấp phép chéo ngây thơ với điều khoản ngang nhau sẽ định giá thấp một cách có hệ thống những gì chúng tôi mang lại. Emma: Tôi sẽ phản bác tiền đề rằng bí quyết là đóng góp thứ yếu. Bằng sáng chế của các bạn vô giá trị đối với liên doanh nếu không có các giấy phép pháp lý, kênh phân phối, và chuyên môn sản xuất ngầm của chúng tôi — thứ không xuất hiện trên bất kỳ sổ đăng ký bằng sáng chế nào. Nhưng tôi đồng ý với quan điểm rằng việc cấp phép chéo không nên đối xứng một cách máy móc — chúng ta nên định giá mỗi đóng góp theo giá trị riêng của nó và để cấu trúc tiền bản quyền phản ánh bất kỳ sự mất cân bằng thực sự nào. Andrew: Vậy thì, về tiền bản quyền. Tôi thiên về tiền bản quyền theo doanh thu thuần — nó gắn lợi ích của chúng ta với thành công thương mại của liên doanh và tránh một khoản thanh toán trả trước lớn gây căng thẳng cho dòng tiền của liên doanh trong những năm đầu hình thành. Nhưng tôi muốn tỷ lệ giảm dần một khi sản lượng tích lũy vượt các ngưỡng đã thỏa thuận, để tưởng thưởng cho quy mô. Emma: Tiền bản quyền theo doanh thu về nguyên tắc là chấp nhận được, dù tôi sẽ không muốn định nghĩa cơ sở là doanh thu thuần mà không quy định chặt chẽ các khoản khấu trừ được phép. 'Doanh thu thuần' là một trong những cụm từ bị kiện tụng nhiều nhất trong cấp phép — mỗi khoản chiết khấu, trả hàng, và phụ phí vận chuyển đều trở thành một bãi chiến trường. Tôi thà neo tiền bản quyền vào một con số tổng được định nghĩa rõ ràng với một danh sách khấu trừ đóng. Andrew: Một danh sách khấu trừ đóng là hợp lý, miễn là nó thực sự đầy đủ. Điều tôi sẽ không chấp nhận là một định nghĩa hẹp đến mức chúng tôi rốt cuộc phải trả tiền bản quyền trên doanh thu chúng tôi chưa bao giờ thực sự thu được — chẳng hạn các khoản phải thu không thể đòi. Phải có sự đối xứng giữa cái được tính là một giao dịch bán và cái mà chúng tôi có thể thu hồi. Emma: Đồng ý, và chúng ta có thể loại trừ nợ khó đòi bằng một cơ chế điều chỉnh bù trừ thích hợp. Đòn bẩy gây tranh cãi hơn, tôi ngờ rằng, sẽ là các quyền kiểm toán. Tôi sẽ muốn quyền kiểm toán các tính toán tiền bản quyền của bạn hằng năm, với chi phí chuyển sang cho bạn nếu một cuộc kiểm toán phát hiện việc trả thiếu vượt quá ngưỡng trọng yếu — chẳng hạn năm phần trăm. Andrew: Quyền kiểm toán tôi có thể chấp nhận, nhưng ngưỡng trọng yếu phải có đi có lại và cuộc kiểm toán giới hạn ở các hồ sơ liên quan, do một kế toán độc lập bị ràng buộc bởi nghĩa vụ bảo mật tiến hành. Tôi sẽ không phơi bày toàn bộ cơ cấu chi phí của chúng tôi cho đội điều tra của một đối thủ cạnh tranh dưới chiêu bài một cuộc kiểm toán tiền bản quyền. Emma: Điều đó hoàn toàn công bằng. Để tôi nêu một điều gai góc hơn: các cải tiến. Khi liên doanh cải tiến trên các bằng sáng chế nền tảng của bạn, ai sở hữu cải tiến đó, và nó được chuyển trở lại cho bạn theo những điều khoản nào? Đây là nơi các liên doanh thường thất bại nhất, vì các cải tiến làm mờ ranh giới giữa nền tảng và tiền cảnh. Andrew: Lập trường của tôi là các cải tiến đối với IP nền tảng của chúng tôi nên thuộc sở hữu của liên doanh nhưng được cấp phép trở lại cho chúng tôi miễn phí bản quyền, theo lý lẽ rằng chính chúng tôi đã tạo điều kiện cho chúng. Tôi đoán bạn sẽ nói điều ngược lại đối với các cải tiến cho bí quyết của bạn, và thành thật mà nói tôi nghĩ một sự cấp phép lại có đi có lại là điểm cân bằng ổn định duy nhất ở đây. Emma: Một sự cấp phép lại các cải tiến, có đi có lại, không độc quyền, miễn phí bản quyền, trong phạm vi lĩnh vực ban đầu của mỗi bên, chính là cấu trúc đối xứng mà tôi ủng hộ. Điểm tinh chỉnh duy nhất tôi sẽ thêm là các sự cấp phép lại nên tồn tại sau khi liên doanh chấm dứt, để không công ty mẹ nào đột nhiên bị cấm sử dụng các cải tiến mà nó đã xây dựng lộ trình sản phẩm của riêng mình xung quanh đó. Andrew: Sự tồn tại của các giấy phép sau khi chấm dứt chính là vấn đề mà tôi đang hướng tới. Toàn bộ thỏa thuận chỉ tốt ngang với các điều khoản thoái lui của nó. Nếu liên doanh giải thể, tôi cần sự chắc chắn rằng chúng tôi giữ được một giấy phép vĩnh viễn đối với IP tiền cảnh trong lĩnh vực của mình — nếu không điều khoản giải thể sẽ trở thành một vũ khí mà một bên có thể dùng để bỏ rơi bên kia. Emma: Tôi sẽ chấp nhận các giấy phép vĩnh viễn, không độc quyền, tồn tại sau một sự giải thể thông thường. Nơi tôi muốn một quy tắc khác là chấm dứt vì lý do chính đáng — nếu một bên bị loại ra vì vi phạm trọng yếu hoặc, tệ hơn, vì chiếm dụng bí mật thương mại của bên kia, các giấy phép còn tồn tại của bên đó nên bị đình chỉ hoặc chấm dứt. Nếu không bên vi phạm sẽ trục lợi từ chính hành vi sai trái của mình. Andrew: Tôi chấp nhận rằng những kẻ xấu không nên ôm trọn của báu mà bỏ đi, nhưng 'vi phạm trọng yếu' là một phạm trù nuốt chửng rất nhiều va chạm thương mại thông thường. Tôi muốn bất kỳ sự tước bỏ quyền cấp phép nào cũng phải qua một phán quyết của một trọng tài viên trung lập, chứ không phải một biện pháp tự cứu mà một bên viện dẫn đơn phương ngay khi tranh chấp nảy sinh. Emma: Đưa việc tước bỏ qua trọng tài là hợp lý, và nó ăn khớp với kiến trúc giải quyết tranh chấp mà tôi đã hình dung — trọng tài cấp tốc đặt tại một khu vực tài phán trung lập, với biện pháp khẩn cấp tạm thời có thể xin từ tòa án để ngăn thiệt hại không thể khắc phục đối với IP trong khi chờ phán quyết. Rò rỉ bí mật thương mại là loại thiệt hại duy nhất mà bạn thực sự không thể đảo ngược sau khi sự việc xảy ra. Andrew: Về bí mật thương mại chúng ta hoàn toàn đồng quan điểm — tốc độ của biện pháp khắc phục quan trọng hơn khoản bồi thường thiệt hại cuối cùng. Để tôi đưa ra một câu hỏi cấu trúc cuối cùng. Chúng ta có dự liệu nghĩa vụ nào đối với liên doanh trong việc theo đuổi đăng ký và bảo vệ các bằng sáng chế tiền cảnh không, và ai tài trợ cho việc kiện tụng đó? Những bằng sáng chế mà bạn không thực thi là những bằng sáng chế mà trên thực tế bạn đã từ bỏ. Emma: Liên doanh nên chịu trách nhiệm chính cho việc theo đuổi đăng ký và duy trì, được tài trợ từ ngân sách riêng của nó. Đối với kiện tụng thực thi, tôi sẽ trao cho liên doanh quyền khởi kiện đầu tiên, và nếu nó từ chối, một quyền tiếp quản cho công ty mẹ nào có lĩnh vực bị ảnh hưởng nhiều nhất, với mọi khoản thu hồi được chia theo một công thức hoàn lại chi phí kiện tụng trước khi chia phần dư. Andrew: Một quyền tiếp quản với việc thu hồi ưu tiên chi phí là một giải pháp gọn gàng — nó đảm bảo các bằng sáng chế thực sự được bảo vệ mà không để một hội đồng liên doanh thiếu động lực khoanh tay ngồi nhìn. Tôi nghĩ chúng ta đã có kiến trúc của một thỏa thuận. Phần việc còn lại là độ chính xác trong soạn thảo, mà, như bạn cứ nhấn mạnh một cách đúng đắn, là nơi các thỏa thuận này sống hay chết. Emma: Chính xác. Chúng ta đã nhất trí về các nguyên tắc chịu lực — trao quyền sở hữu, phạm vi sử dụng, cơ sở tiền bản quyền, cấp phép lại, sự tồn tại, và thực thi — và bây giờ giá trị chuyển sang phụ lục định nghĩa. Tôi sẽ gửi cho bạn một bản điều khoản chính sửa đổi trước thứ Sáu, và tôi đề nghị chúng ta họp lại với luật sư bằng sáng chế của cả hai bên trước khi để các chuyên viên soạn thảo bắt tay vào bản thỏa thuận dài đầy đủ.",
+  "criticalThinkingQuestion": "When two parties bring asymmetric contributions to a joint venture — one a mature patent portfolio, the other tacit know-how and market access — how should the deal allocate ownership of jointly created innovation and structure the exit so that neither party can weaponise the dissolution clause to strand the other?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-c1-045",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 501096
+}

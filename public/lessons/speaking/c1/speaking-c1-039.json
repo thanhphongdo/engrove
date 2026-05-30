@@ -1,0 +1,800 @@
+{
+  "id": "speaking-c1-039",
+  "level": "C1",
+  "title": "Consulting on a Constitutional Law Question",
+  "summary": "Constitutional litigator Marian advises junior associate Theo on a pending challenge, working through standing, the standard of review, the doctrine of precedent and stare decisis, and the institutional limits of judicial review.",
+  "topic": "constitutional law",
+  "tags": [
+    "Law",
+    "Government",
+    "Rights"
+  ],
+  "characters": [
+    "Marian",
+    "Theo"
+  ],
+  "voices": {
+    "Marian": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-EmmaNeural"
+    },
+    "Theo": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-AndrewNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Theo",
+      "text": "Marian, I've been asked to draft the threshold section of our brief, and I want to make sure I'm framing the constitutional question correctly before I commit anything to paper. My instinct is to lead with the substantive rights argument, but something tells me I'm getting ahead of myself."
+    },
+    {
+      "speaker": "Marian",
+      "text": "Your instinct to pause is sound. Before a court will entertain the merits of any rights claim, it has to be satisfied that the matter is justiciable — that our client has standing, that the dispute is ripe, and that we're not asking the bench to issue what amounts to an advisory opinion. Lead with the merits and you invite the other side to have the whole thing dismissed on threshold grounds."
+    },
+    {
+      "speaker": "Theo",
+      "text": "So standing comes first. Our client was directly subject to the regulation, suffered a concrete and particularised injury, and the relief we're seeking would redress it. I'd have thought that's about as clean a standing case as one could hope for."
+    },
+    {
+      "speaker": "Marian",
+      "text": "It's strong, but don't let its apparent cleanliness make you complacent. The element opposing counsel will probe is redressability — whether a favourable ruling would actually remedy the injury, given that the regulation is administered by an agency that isn't even a party. If the chain of causation is too attenuated, a court may find the injury is not fairly traceable to the defendant before us."
+    },
+    {
+      "speaker": "Theo",
+      "text": "That's a fair point. Assuming we clear the justiciability hurdles, the next question is the standard of review. The statute burdens what we're characterising as a fundamental right, so we'll be arguing for strict scrutiny — the government must show a compelling interest and narrow tailoring."
+    },
+    {
+      "speaker": "Marian",
+      "text": "And the entire case may turn on whether you can persuade the court to apply that tier rather than rational-basis review. The government will argue that the right in question is not deeply rooted in the nation's history and tradition, which is the framing the court has used to police the boundaries of substantive due process. Characterise the right too broadly and you hand them the argument that no such fundamental right exists."
+    },
+    {
+      "speaker": "Theo",
+      "text": "So I should define the asserted right with some precision — narrowly enough that it maps onto an established line of authority, but not so narrowly that it looks invented for the occasion."
+    },
+    {
+      "speaker": "Marian",
+      "text": "Exactly. The level of generality at which you describe the right is doing enormous analytical work, and judges know it. Frame it well and the precedent does the heavy lifting for you; frame it poorly and you're litigating uphill against the presumption of constitutionality that attaches to duly enacted legislation."
+    },
+    {
+      "speaker": "Theo",
+      "text": "Which brings me to the precedent itself. There's a controlling decision squarely on point, but it's nearly forty years old and the court's composition and doctrinal commitments have shifted considerably since then. Can we rely on it, or should I be hedging?"
+    },
+    {
+      "speaker": "Marian",
+      "text": "You rely on it — vigorously — because stare decisis is presumptively binding, and it's not our burden to defend the precedent; it's the other side's burden to justify overruling it. The doctrine of stare decisis isn't an inexorable command, but the court has articulated factors that govern when departure is warranted, and you want to argue that none of them is satisfied here."
+    },
+    {
+      "speaker": "Theo",
+      "text": "Those would be the workability of the rule, the reliance interests that have built up around it, whether the doctrinal foundations have eroded, and whether the facts have changed so much that the old rule no longer fits."
+    },
+    {
+      "speaker": "Marian",
+      "text": "Precisely those. And of the four, the reliance interest is often the most rhetorically powerful, because it lets you argue that institutions, markets, and ordinary citizens have ordered their affairs in dependence on the settled rule. Overruling it would unsettle expectations that the rule of law exists to protect."
+    },
+    {
+      "speaker": "Theo",
+      "text": "But I have to be honest with myself about the weaknesses. If the doctrinal underpinnings of that precedent have genuinely been hollowed out by later cases, a reliance argument starts to look like special pleading — like we're asking the court to preserve a rule it no longer believes in simply because overruling it is inconvenient."
+    },
+    {
+      "speaker": "Marian",
+      "text": "That's the candour I want in the brief. Concede that the doctrinal landscape has shifted, then argue that the core holding remains sound and severable from whatever reasoning has fallen out of favour. Courts are far more comfortable narrowing a precedent than overruling it outright, so give them an off-ramp that lets them rule for us without disturbing the broader doctrine."
+    },
+    {
+      "speaker": "Theo",
+      "text": "There's also the separation-of-powers dimension. Part of me worries that the relief we're requesting effectively asks the court to rewrite the statute rather than strike it, and that pushes us into territory where a judge starts invoking institutional restraint and deference to the legislature."
+    },
+    {
+      "speaker": "Marian",
+      "text": "You've put your finger on the most delicate point in the case. Judicial review is at its most legitimate when the court is policing constitutional boundaries, and at its most contested when it appears to be substituting its own policy judgement for the legislature's. Frame our request as severance of an unconstitutional provision, not as judicial redrafting, and you keep the court within its comfortable institutional role."
+    },
+    {
+      "speaker": "Theo",
+      "text": "So I should include a severability analysis showing that the offending provision can be excised cleanly, leaving the rest of the statutory scheme functional and consistent with what the legislature would have intended."
+    },
+    {
+      "speaker": "Marian",
+      "text": "Yes, and tie it explicitly to legislative intent, because the severability inquiry ultimately asks a counterfactual question: would the legislature have enacted the remainder of the statute had it known the provision was invalid? Answer that persuasively and you've defused the deference argument before opposing counsel can deploy it."
+    },
+    {
+      "speaker": "Theo",
+      "text": "What about the remedy itself? Are we asking for facial invalidation, or are we better off arguing that the statute is unconstitutional only as applied to our client's particular circumstances?"
+    },
+    {
+      "speaker": "Marian",
+      "text": "That's a strategic choice with real consequences, and reasonable litigators disagree about it. A facial challenge is more ambitious and harder to win, because you must show the law is unconstitutional in all or nearly all of its applications; an as-applied challenge is narrower but more likely to succeed and easier for a cautious court to grant. Given the institutional reticence we just discussed, I'd lead with the as-applied theory and plead the facial challenge in the alternative."
+    },
+    {
+      "speaker": "Theo",
+      "text": "That framing also lowers the temperature, doesn't it? It signals to the court that we're seeking the narrowest ruling that vindicates our client's rights, which is exactly the kind of judicial minimalism that an institutionally cautious bench tends to reward."
+    },
+    {
+      "speaker": "Marian",
+      "text": "It does, and minimalism is frequently the surest path to a durable victory. A sweeping ruling invites en banc reconsideration or reversal on appeal; a narrow, fact-bound holding is far more likely to stick. We're not just trying to win this round — we're trying to win in a way that survives every subsequent stage of review."
+    },
+    {
+      "speaker": "Theo",
+      "text": "Then let me restructure the brief accordingly: justiciability first, then the standard of review with the right framed at the proper level of generality, then the precedent argument anchored in stare decisis, and finally the remedy, leading with as-applied relief and a clean severability analysis."
+    },
+    {
+      "speaker": "Marian",
+      "text": "That's the right architecture. And remember that a constitutional brief is as much an exercise in institutional persuasion as in doctrinal argument — you're asking judges to exercise a counter-majoritarian power, so you must constantly reassure them that doing so is consistent with their proper role. Get the tone of judicial humility right, and the doctrine will carry the rest."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Theo",
+      "text": "Marian, I've been asked to draft the threshold section of our brief, and I want to make sure I'm framing the constitutional question correctly before I commit anything to paper.",
+      "translationVi": "Marian, tôi được giao soạn phần điều kiện tiên quyết trong bản tóm tắt pháp lý của chúng ta, và tôi muốn chắc chắn rằng mình đang đặt vấn đề hiến pháp đúng cách trước khi viết bất cứ điều gì ra giấy.",
+      "durationMs": 9744
+    },
+    {
+      "id": "s2",
+      "speaker": "Theo",
+      "text": "My instinct is to lead with the substantive rights argument, but something tells me I'm getting ahead of myself.",
+      "translationVi": "Bản năng của tôi là mở đầu bằng lập luận về quyền nội dung, nhưng có điều gì đó mách bảo rằng tôi đang vượt quá bước cần thiết.",
+      "durationMs": 6168
+    },
+    {
+      "id": "s3",
+      "speaker": "Marian",
+      "text": "Your instinct to pause is sound.",
+      "translationVi": "Bản năng dừng lại của anh là hợp lý.",
+      "durationMs": 2208
+    },
+    {
+      "id": "s4",
+      "speaker": "Marian",
+      "text": "Before a court will entertain the merits of any rights claim, it has to be satisfied that the matter is justiciable — that our client has standing, that the dispute is ripe, and that we're not asking the bench to issue what amounts to an advisory opinion.",
+      "translationVi": "Trước khi một tòa án xem xét nội dung thực chất của bất kỳ yêu cầu về quyền nào, tòa phải được thuyết phục rằng vụ việc có thể xét xử được — rằng thân chủ của chúng ta có tư cách khởi kiện, rằng tranh chấp đã chín muồi, và rằng chúng ta không yêu cầu hội đồng xét xử đưa ra cái mà thực chất là một ý kiến tư vấn.",
+      "durationMs": 13800
+    },
+    {
+      "id": "s5",
+      "speaker": "Marian",
+      "text": "Lead with the merits and you invite the other side to have the whole thing dismissed on threshold grounds.",
+      "translationVi": "Mở đầu bằng nội dung thực chất thì anh đang mời bên kia bác bỏ toàn bộ vụ việc dựa trên các căn cứ về điều kiện tiên quyết.",
+      "durationMs": 5544
+    },
+    {
+      "id": "s6",
+      "speaker": "Theo",
+      "text": "So standing comes first.",
+      "translationVi": "Vậy tư cách khởi kiện là điều đến trước.",
+      "durationMs": 1752
+    },
+    {
+      "id": "s7",
+      "speaker": "Theo",
+      "text": "Our client was directly subject to the regulation, suffered a concrete and particularised injury, and the relief we're seeking would redress it.",
+      "translationVi": "Thân chủ của chúng ta chịu tác động trực tiếp của quy định, gánh chịu một thiệt hại cụ thể và riêng biệt, và biện pháp khắc phục mà chúng ta tìm kiếm sẽ bù đắp cho thiệt hại đó.",
+      "durationMs": 8688
+    },
+    {
+      "id": "s8",
+      "speaker": "Theo",
+      "text": "I'd have thought that's about as clean a standing case as one could hope for.",
+      "translationVi": "Tôi cứ tưởng đó gần như là một vụ tư cách khởi kiện rõ ràng nhất mà người ta có thể mong đợi.",
+      "durationMs": 3936
+    },
+    {
+      "id": "s9",
+      "speaker": "Marian",
+      "text": "It's strong, but don't let its apparent cleanliness make you complacent.",
+      "translationVi": "Nó mạnh đấy, nhưng đừng để sự rõ ràng bề ngoài của nó khiến anh tự mãn.",
+      "durationMs": 4224
+    },
+    {
+      "id": "s10",
+      "speaker": "Marian",
+      "text": "The element opposing counsel will probe is redressability — whether a favourable ruling would actually remedy the injury, given that the regulation is administered by an agency that isn't even a party.",
+      "translationVi": "Yếu tố mà luật sư đối phương sẽ dò xét là khả năng khắc phục — liệu một phán quyết có lợi có thực sự khắc phục được thiệt hại hay không, xét rằng quy định đó do một cơ quan thậm chí không phải là một bên trong vụ kiện quản lý.",
+      "durationMs": 11400
+    },
+    {
+      "id": "s11",
+      "speaker": "Marian",
+      "text": "If the chain of causation is too attenuated, a court may find the injury is not fairly traceable to the defendant before us.",
+      "translationVi": "Nếu chuỗi nhân quả quá mong manh, tòa án có thể phán rằng thiệt hại không thể truy ngược một cách hợp lý đến bị đơn trước mặt chúng ta.",
+      "durationMs": 7680
+    },
+    {
+      "id": "s12",
+      "speaker": "Theo",
+      "text": "That's a fair point.",
+      "translationVi": "Đó là một ý kiến xác đáng.",
+      "durationMs": 1248
+    },
+    {
+      "id": "s13",
+      "speaker": "Theo",
+      "text": "Assuming we clear the justiciability hurdles, the next question is the standard of review.",
+      "translationVi": "Giả sử chúng ta vượt qua các rào cản về khả năng xét xử, câu hỏi tiếp theo là chuẩn mực thẩm tra.",
+      "durationMs": 5544
+    },
+    {
+      "id": "s14",
+      "speaker": "Theo",
+      "text": "The statute burdens what we're characterising as a fundamental right, so we'll be arguing for strict scrutiny — the government must show a compelling interest and narrow tailoring.",
+      "translationVi": "Đạo luật đặt gánh nặng lên cái mà chúng ta mô tả là một quyền cơ bản, nên chúng ta sẽ lập luận đòi áp dụng chuẩn thẩm tra nghiêm ngặt — chính phủ phải chứng minh một lợi ích cấp thiết và sự điều chỉnh hẹp.",
+      "durationMs": 10008
+    },
+    {
+      "id": "s15",
+      "speaker": "Marian",
+      "text": "And the entire case may turn on whether you can persuade the court to apply that tier rather than rational-basis review.",
+      "translationVi": "Và toàn bộ vụ kiện có thể xoay quanh việc liệu anh có thuyết phục được tòa áp dụng cấp độ đó thay vì chuẩn thẩm tra trên cơ sở hợp lý hay không.",
+      "durationMs": 6528
+    },
+    {
+      "id": "s16",
+      "speaker": "Marian",
+      "text": "The government will argue that the right in question is not deeply rooted in the nation's history and tradition, which is the framing the court has used to police the boundaries of substantive due process.",
+      "translationVi": "Chính phủ sẽ lập luận rằng quyền đang được bàn đến không bắt rễ sâu trong lịch sử và truyền thống của quốc gia, đó là cách diễn giải mà tòa đã dùng để giám sát ranh giới của thủ tục công bằng về nội dung.",
+      "durationMs": 10536
+    },
+    {
+      "id": "s17",
+      "speaker": "Marian",
+      "text": "Characterise the right too broadly and you hand them the argument that no such fundamental right exists.",
+      "translationVi": "Mô tả quyền đó quá rộng thì anh trao cho họ lập luận rằng không tồn tại một quyền cơ bản nào như vậy.",
+      "durationMs": 5832
+    },
+    {
+      "id": "s18",
+      "speaker": "Theo",
+      "text": "So I should define the asserted right with some precision — narrowly enough that it maps onto an established line of authority, but not so narrowly that it looks invented for the occasion.",
+      "translationVi": "Vậy tôi nên định nghĩa quyền được khẳng định một cách chính xác — đủ hẹp để nó khớp với một dòng án lệ đã được thiết lập, nhưng không quá hẹp đến mức trông như được bịa ra cho dịp này.",
+      "durationMs": 10824
+    },
+    {
+      "id": "s19",
+      "speaker": "Marian",
+      "text": "Exactly.",
+      "translationVi": "Chính xác.",
+      "durationMs": 1200
+    },
+    {
+      "id": "s20",
+      "speaker": "Marian",
+      "text": "The level of generality at which you describe the right is doing enormous analytical work, and judges know it.",
+      "translationVi": "Mức độ khái quát mà anh dùng để mô tả quyền đó đang thực hiện một công việc phân tích khổng lồ, và các thẩm phán biết điều đó.",
+      "durationMs": 6408
+    },
+    {
+      "id": "s21",
+      "speaker": "Marian",
+      "text": "Frame it well and the precedent does the heavy lifting for you; frame it poorly and you're litigating uphill against the presumption of constitutionality that attaches to duly enacted legislation.",
+      "translationVi": "Diễn giải khéo thì án lệ sẽ gánh phần nặng nhọc thay anh; diễn giải vụng thì anh phải tranh tụng ngược dốc trước giả định hợp hiến gắn liền với pháp luật được ban hành đúng thủ tục.",
+      "durationMs": 10752
+    },
+    {
+      "id": "s22",
+      "speaker": "Theo",
+      "text": "Which brings me to the precedent itself.",
+      "translationVi": "Điều đó đưa tôi đến chính bản thân án lệ.",
+      "durationMs": 2208
+    },
+    {
+      "id": "s23",
+      "speaker": "Theo",
+      "text": "There's a controlling decision squarely on point, but it's nearly forty years old and the court's composition and doctrinal commitments have shifted considerably since then.",
+      "translationVi": "Có một phán quyết có tính ràng buộc trực tiếp đúng vào vấn đề, nhưng nó đã gần bốn mươi năm tuổi và thành phần cùng các cam kết về học thuyết của tòa đã thay đổi đáng kể kể từ đó.",
+      "durationMs": 9816
+    },
+    {
+      "id": "s24",
+      "speaker": "Theo",
+      "text": "Can we rely on it, or should I be hedging?",
+      "translationVi": "Chúng ta có thể dựa vào nó không, hay tôi nên dự phòng?",
+      "durationMs": 2616
+    },
+    {
+      "id": "s25",
+      "speaker": "Marian",
+      "text": "You rely on it — vigorously — because stare decisis is presumptively binding, and it's not our burden to defend the precedent; it's the other side's burden to justify overruling it.",
+      "translationVi": "Anh dựa vào nó — một cách mạnh mẽ — vì nguyên tắc tôn trọng án lệ về mặc định là có tính ràng buộc, và không phải nghĩa vụ của chúng ta là bảo vệ án lệ đó; mà là nghĩa vụ của bên kia phải biện minh cho việc lật ngược nó.",
+      "durationMs": 10920
+    },
+    {
+      "id": "s26",
+      "speaker": "Marian",
+      "text": "The doctrine of stare decisis isn't an inexorable command, but the court has articulated factors that govern when departure is warranted, and you want to argue that none of them is satisfied here.",
+      "translationVi": "Học thuyết tôn trọng án lệ không phải là một mệnh lệnh không thể lay chuyển, nhưng tòa đã nêu rõ các yếu tố chi phối khi nào việc rời bỏ án lệ là chính đáng, và anh nên lập luận rằng không yếu tố nào trong số đó được thỏa mãn ở đây.",
+      "durationMs": 11352
+    },
+    {
+      "id": "s27",
+      "speaker": "Theo",
+      "text": "Those would be the workability of the rule, the reliance interests that have built up around it, whether the doctrinal foundations have eroded, and whether the facts have changed so much that the old rule no longer fits.",
+      "translationVi": "Đó sẽ là tính khả thi của quy tắc, các lợi ích dựa trên sự tin cậy đã hình thành xung quanh nó, liệu các nền tảng học thuyết đã bị xói mòn hay chưa, và liệu các sự kiện đã thay đổi nhiều đến mức quy tắc cũ không còn phù hợp nữa hay không.",
+      "durationMs": 12384
+    },
+    {
+      "id": "s28",
+      "speaker": "Marian",
+      "text": "Precisely those.",
+      "translationVi": "Đúng những yếu tố đó.",
+      "durationMs": 1536
+    },
+    {
+      "id": "s29",
+      "speaker": "Marian",
+      "text": "And of the four, the reliance interest is often the most rhetorically powerful, because it lets you argue that institutions, markets, and ordinary citizens have ordered their affairs in dependence on the settled rule.",
+      "translationVi": "Và trong bốn yếu tố đó, lợi ích dựa trên sự tin cậy thường có sức thuyết phục về mặt lập luận mạnh nhất, vì nó cho phép anh lập luận rằng các thể chế, thị trường và công dân bình thường đã sắp xếp công việc của họ dựa vào quy tắc đã được định hình.",
+      "durationMs": 11880
+    },
+    {
+      "id": "s30",
+      "speaker": "Marian",
+      "text": "Overruling it would unsettle expectations that the rule of law exists to protect.",
+      "translationVi": "Lật ngược nó sẽ làm xáo trộn những kỳ vọng mà chính nguyên tắc pháp quyền tồn tại để bảo vệ.",
+      "durationMs": 5040
+    },
+    {
+      "id": "s31",
+      "speaker": "Theo",
+      "text": "But I have to be honest with myself about the weaknesses.",
+      "translationVi": "Nhưng tôi phải thành thật với chính mình về các điểm yếu.",
+      "durationMs": 3048
+    },
+    {
+      "id": "s32",
+      "speaker": "Theo",
+      "text": "If the doctrinal underpinnings of that precedent have genuinely been hollowed out by later cases, a reliance argument starts to look like special pleading — like we're asking the court to preserve a rule it no longer believes in simply because overruling it is inconvenient.",
+      "translationVi": "Nếu các nền tảng học thuyết của án lệ đó đã thực sự bị các vụ án sau làm rỗng ruột, thì lập luận về sự tin cậy bắt đầu trông giống như biện hộ thiên vị — như thể chúng ta đang yêu cầu tòa giữ lại một quy tắc mà chính tòa không còn tin tưởng nữa chỉ vì việc lật ngược nó là bất tiện.",
+      "durationMs": 15408
+    },
+    {
+      "id": "s33",
+      "speaker": "Marian",
+      "text": "That's the candour I want in the brief.",
+      "translationVi": "Đó chính là sự thẳng thắn mà tôi muốn có trong bản tóm tắt.",
+      "durationMs": 2472
+    },
+    {
+      "id": "s34",
+      "speaker": "Marian",
+      "text": "Concede that the doctrinal landscape has shifted, then argue that the core holding remains sound and severable from whatever reasoning has fallen out of favour.",
+      "translationVi": "Hãy thừa nhận rằng bối cảnh học thuyết đã thay đổi, rồi lập luận rằng phán quyết cốt lõi vẫn vững chắc và có thể tách rời khỏi bất kỳ lý lẽ nào đã không còn được ưa chuộng.",
+      "durationMs": 8712
+    },
+    {
+      "id": "s35",
+      "speaker": "Marian",
+      "text": "Courts are far more comfortable narrowing a precedent than overruling it outright, so give them an off-ramp that lets them rule for us without disturbing the broader doctrine.",
+      "translationVi": "Các tòa thoải mái hơn nhiều khi thu hẹp một án lệ so với việc lật ngược hẳn nó, vậy nên hãy cho họ một lối thoát cho phép họ phán quyết có lợi cho chúng ta mà không làm xáo trộn học thuyết rộng hơn.",
+      "durationMs": 8952
+    },
+    {
+      "id": "s36",
+      "speaker": "Theo",
+      "text": "There's also the separation-of-powers dimension.",
+      "translationVi": "Còn có cả khía cạnh phân quyền nữa.",
+      "durationMs": 2832
+    },
+    {
+      "id": "s37",
+      "speaker": "Theo",
+      "text": "Part of me worries that the relief we're requesting effectively asks the court to rewrite the statute rather than strike it, and that pushes us into territory where a judge starts invoking institutional restraint and deference to the legislature.",
+      "translationVi": "Một phần trong tôi lo rằng biện pháp khắc phục mà chúng ta yêu cầu thực chất là đề nghị tòa viết lại đạo luật thay vì hủy bỏ nó, và điều đó đẩy chúng ta vào địa hạt nơi một thẩm phán bắt đầu viện đến sự kiềm chế thể chế và sự tôn trọng đối với cơ quan lập pháp.",
+      "durationMs": 14304
+    },
+    {
+      "id": "s38",
+      "speaker": "Marian",
+      "text": "You've put your finger on the most delicate point in the case.",
+      "translationVi": "Anh đã chỉ đúng vào điểm tế nhị nhất của vụ kiện.",
+      "durationMs": 3432
+    },
+    {
+      "id": "s39",
+      "speaker": "Marian",
+      "text": "Judicial review is at its most legitimate when the court is policing constitutional boundaries, and at its most contested when it appears to be substituting its own policy judgement for the legislature's.",
+      "translationVi": "Việc thẩm tra tư pháp chính đáng nhất khi tòa đang giám sát các ranh giới hiến pháp, và bị tranh cãi nhiều nhất khi tòa có vẻ đang thay thế phán đoán chính sách của chính mình cho phán đoán của cơ quan lập pháp.",
+      "durationMs": 11352
+    },
+    {
+      "id": "s40",
+      "speaker": "Marian",
+      "text": "Frame our request as severance of an unconstitutional provision, not as judicial redrafting, and you keep the court within its comfortable institutional role.",
+      "translationVi": "Hãy diễn giải yêu cầu của chúng ta là việc tách bỏ một điều khoản vi hiến, chứ không phải việc tòa soạn thảo lại luật, và như thế anh giữ tòa nằm trong vai trò thể chế thoải mái của nó.",
+      "durationMs": 9624
+    },
+    {
+      "id": "s41",
+      "speaker": "Theo",
+      "text": "So I should include a severability analysis showing that the offending provision can be excised cleanly, leaving the rest of the statutory scheme functional and consistent with what the legislature would have intended.",
+      "translationVi": "Vậy tôi nên đưa vào một phân tích về khả năng tách rời cho thấy điều khoản vi phạm có thể được cắt bỏ gọn gàng, để phần còn lại của hệ thống pháp luật vẫn vận hành được và nhất quán với điều mà cơ quan lập pháp hẳn đã dự định.",
+      "durationMs": 11952
+    },
+    {
+      "id": "s42",
+      "speaker": "Marian",
+      "text": "Yes, and tie it explicitly to legislative intent, because the severability inquiry ultimately asks a counterfactual question: would the legislature have enacted the remainder of the statute had it known the provision was invalid?",
+      "translationVi": "Đúng, và hãy gắn nó rõ ràng với ý định lập pháp, vì việc xem xét khả năng tách rời rốt cuộc đặt ra một câu hỏi giả định: liệu cơ quan lập pháp có ban hành phần còn lại của đạo luật hay không nếu đã biết điều khoản đó vô hiệu?",
+      "durationMs": 13032
+    },
+    {
+      "id": "s43",
+      "speaker": "Marian",
+      "text": "Answer that persuasively and you've defused the deference argument before opposing counsel can deploy it.",
+      "translationVi": "Trả lời điều đó một cách thuyết phục thì anh đã vô hiệu hóa lập luận về sự tôn trọng trước khi luật sư đối phương kịp triển khai nó.",
+      "durationMs": 6000
+    },
+    {
+      "id": "s44",
+      "speaker": "Theo",
+      "text": "What about the remedy itself?",
+      "translationVi": "Thế còn chính biện pháp khắc phục thì sao?",
+      "durationMs": 1800
+    },
+    {
+      "id": "s45",
+      "speaker": "Theo",
+      "text": "Are we asking for facial invalidation, or are we better off arguing that the statute is unconstitutional only as applied to our client's particular circumstances?",
+      "translationVi": "Chúng ta đang yêu cầu tuyên vô hiệu toàn diện, hay tốt hơn là lập luận rằng đạo luật chỉ vi hiến khi áp dụng vào hoàn cảnh cụ thể của thân chủ chúng ta?",
+      "durationMs": 9984
+    },
+    {
+      "id": "s46",
+      "speaker": "Marian",
+      "text": "That's a strategic choice with real consequences, and reasonable litigators disagree about it.",
+      "translationVi": "Đó là một lựa chọn chiến lược có hậu quả thực sự, và những luật sư tranh tụng có lý lẽ vẫn bất đồng về nó.",
+      "durationMs": 5808
+    },
+    {
+      "id": "s47",
+      "speaker": "Marian",
+      "text": "A facial challenge is more ambitious and harder to win, because you must show the law is unconstitutional in all or nearly all of its applications; an as-applied challenge is narrower but more likely to succeed and easier for a cautious court to grant.",
+      "translationVi": "Một thách thức toàn diện thì tham vọng hơn và khó thắng hơn, vì anh phải chứng minh rằng luật đó vi hiến trong toàn bộ hoặc gần như toàn bộ các trường hợp áp dụng; một thách thức theo cách áp dụng thì hẹp hơn nhưng dễ thành công hơn và dễ để một tòa thận trọng chấp nhận hơn.",
+      "durationMs": 13800
+    },
+    {
+      "id": "s48",
+      "speaker": "Marian",
+      "text": "Given the institutional reticence we just discussed, I'd lead with the as-applied theory and plead the facial challenge in the alternative.",
+      "translationVi": "Xét đến sự dè dặt thể chế mà chúng ta vừa bàn, tôi sẽ mở đầu bằng lý thuyết áp dụng cụ thể và đưa thách thức toàn diện ra như một phương án thay thế.",
+      "durationMs": 7920
+    },
+    {
+      "id": "s49",
+      "speaker": "Theo",
+      "text": "That framing also lowers the temperature, doesn't it?",
+      "translationVi": "Cách diễn giải đó cũng làm hạ nhiệt căng thẳng, đúng không?",
+      "durationMs": 3048
+    },
+    {
+      "id": "s50",
+      "speaker": "Theo",
+      "text": "It signals to the court that we're seeking the narrowest ruling that vindicates our client's rights, which is exactly the kind of judicial minimalism that an institutionally cautious bench tends to reward.",
+      "translationVi": "Nó báo hiệu cho tòa rằng chúng ta đang tìm kiếm phán quyết hẹp nhất có thể bảo vệ quyền của thân chủ, đó đúng là kiểu chủ nghĩa tối giản tư pháp mà một hội đồng xét xử thận trọng về thể chế thường tưởng thưởng.",
+      "durationMs": 11904
+    },
+    {
+      "id": "s51",
+      "speaker": "Marian",
+      "text": "It does, and minimalism is frequently the surest path to a durable victory.",
+      "translationVi": "Đúng vậy, và chủ nghĩa tối giản thường là con đường chắc chắn nhất dẫn đến một chiến thắng bền vững.",
+      "durationMs": 4632
+    },
+    {
+      "id": "s52",
+      "speaker": "Marian",
+      "text": "A sweeping ruling invites en banc reconsideration or reversal on appeal; a narrow, fact-bound holding is far more likely to stick.",
+      "translationVi": "Một phán quyết bao quát sẽ mời gọi việc xem xét lại bởi toàn thể hội đồng hoặc bị đảo ngược khi kháng cáo; một phán quyết hẹp, ràng buộc vào sự kiện thì có nhiều khả năng đứng vững hơn.",
+      "durationMs": 8136
+    },
+    {
+      "id": "s53",
+      "speaker": "Marian",
+      "text": "We're not just trying to win this round — we're trying to win in a way that survives every subsequent stage of review.",
+      "translationVi": "Chúng ta không chỉ cố thắng vòng này — chúng ta đang cố thắng theo cách trụ vững qua mọi giai đoạn thẩm tra tiếp theo.",
+      "durationMs": 6360
+    },
+    {
+      "id": "s54",
+      "speaker": "Theo",
+      "text": "Then let me restructure the brief accordingly: justiciability first, then the standard of review with the right framed at the proper level of generality, then the precedent argument anchored in stare decisis, and finally the remedy, leading with as-applied relief and a clean severability analysis.",
+      "translationVi": "Vậy để tôi tái cấu trúc bản tóm tắt cho phù hợp: khả năng xét xử trước, rồi đến chuẩn thẩm tra với quyền được diễn giải ở mức độ khái quát phù hợp, rồi lập luận án lệ neo vào nguyên tắc tôn trọng án lệ, và cuối cùng là biện pháp khắc phục, mở đầu bằng cứu trợ theo cách áp dụng cụ thể và một phân tích khả năng tách rời gọn gàng.",
+      "durationMs": 17784
+    },
+    {
+      "id": "s55",
+      "speaker": "Marian",
+      "text": "That's the right architecture.",
+      "translationVi": "Đó là cấu trúc đúng đắn.",
+      "durationMs": 1992
+    },
+    {
+      "id": "s56",
+      "speaker": "Marian",
+      "text": "And remember that a constitutional brief is as much an exercise in institutional persuasion as in doctrinal argument — you're asking judges to exercise a counter-majoritarian power, so you must constantly reassure them that doing so is consistent with their proper role.",
+      "translationVi": "Và hãy nhớ rằng một bản tóm tắt về hiến pháp vừa là bài tập thuyết phục về thể chế ngang với lập luận về học thuyết — anh đang yêu cầu các thẩm phán thực thi một quyền lực phản đa số, nên anh phải liên tục trấn an họ rằng làm như vậy là nhất quán với vai trò đúng đắn của họ.",
+      "durationMs": 15288
+    },
+    {
+      "id": "s57",
+      "speaker": "Marian",
+      "text": "Get the tone of judicial humility right, and the doctrine will carry the rest.",
+      "translationVi": "Hãy giữ đúng giọng điệu khiêm tốn tư pháp, và học thuyết sẽ gánh phần còn lại.",
+      "durationMs": 4944
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "Before a court will entertain the merits, it has to be satisfied that …"
+    },
+    {
+      "id": "h2",
+      "text": "It's not our burden to defend the precedent; it's the other side's burden to …"
+    },
+    {
+      "id": "h3",
+      "text": "Frame our request as … rather than …, and you keep the court within its comfortable institutional role."
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "standing",
+      "meaningVi": "tư cách khởi kiện (điều kiện để một bên có quyền đưa vụ việc ra tòa)",
+      "pronunciation": "/ˈstændɪŋ/"
+    },
+    {
+      "id": "v2",
+      "phrase": "strict scrutiny",
+      "meaningVi": "chuẩn thẩm tra nghiêm ngặt (mức thẩm tra cao nhất đối với luật xâm phạm quyền cơ bản)",
+      "pronunciation": "/strɪkt ˈskruːtəni/"
+    },
+    {
+      "id": "v3",
+      "phrase": "stare decisis",
+      "meaningVi": "nguyên tắc tôn trọng án lệ (tuân theo các phán quyết trước đó)",
+      "pronunciation": "/ˌsteəri dɪˈsaɪsɪs/"
+    },
+    {
+      "id": "v4",
+      "phrase": "judicial review",
+      "meaningVi": "thẩm tra tư pháp (quyền của tòa xem xét tính hợp hiến của luật)",
+      "pronunciation": "/dʒuˈdɪʃəl rɪˈvjuː/"
+    },
+    {
+      "id": "v5",
+      "phrase": "as-applied challenge",
+      "meaningVi": "thách thức theo cách áp dụng (chỉ phản đối luật khi áp dụng vào hoàn cảnh cụ thể)",
+      "pronunciation": "/æz əˈplaɪd ˈtʃælɪndʒ/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "the constitutional question",
+      "meaningVi": "vấn đề hiến pháp cần tòa giải quyết",
+      "pronunciation": "/ðə ˌkɒnstɪˈtjuːʃənl ˈkwestʃən/"
+    },
+    {
+      "phrase": "the substantive rights argument",
+      "meaningVi": "lập luận về quyền nội dung (bản chất của quyền, không phải thủ tục)",
+      "pronunciation": "/ðə ˈsʌbstəntɪv raɪts ˈɑːrɡjumənt/"
+    },
+    {
+      "phrase": "the matter is justiciable",
+      "meaningVi": "vụ việc có thể được tòa xét xử",
+      "pronunciation": "/ðə ˈmætər ɪz dʒʌˈstɪʃiəbl/",
+      "exampleEn": "Before a court will entertain the merits of any rights claim, it has to be satisfied that the matter is justiciable."
+    },
+    {
+      "phrase": "the dispute is ripe",
+      "meaningVi": "tranh chấp đã chín muồi để xét xử",
+      "pronunciation": "/ðə dɪˈspjuːt ɪz raɪp/"
+    },
+    {
+      "phrase": "an advisory opinion",
+      "meaningVi": "ý kiến tư vấn (tòa thường không đưa ra khi chưa có tranh chấp thực)",
+      "pronunciation": "/ən ədˈvaɪzəri əˈpɪnjən/"
+    },
+    {
+      "phrase": "threshold grounds",
+      "meaningVi": "các căn cứ về điều kiện tiên quyết (để bác bỏ trước khi xét nội dung)",
+      "pronunciation": "/ˈθreʃhoʊld ɡraʊndz/"
+    },
+    {
+      "phrase": "a concrete and particularised injury",
+      "meaningVi": "một thiệt hại cụ thể và riêng biệt",
+      "pronunciation": "/ə ˈkɒnkriːt ænd pəˈtɪkjələraɪzd ˈɪndʒəri/"
+    },
+    {
+      "phrase": "the relief we're seeking would redress it",
+      "meaningVi": "biện pháp khắc phục chúng ta tìm kiếm sẽ bù đắp thiệt hại đó",
+      "pronunciation": "/ðə rɪˈliːf wɪr ˈsiːkɪŋ wʊd rɪˈdres ɪt/"
+    },
+    {
+      "phrase": "redressability",
+      "meaningVi": "khả năng khắc phục (yếu tố của tư cách khởi kiện)",
+      "pronunciation": "/rɪˌdresəˈbɪlɪti/"
+    },
+    {
+      "phrase": "the chain of causation is too attenuated",
+      "meaningVi": "chuỗi nhân quả quá mong manh",
+      "pronunciation": "/ðə tʃeɪn əv kɔːˈzeɪʃən ɪz tuː əˈtenjueɪtɪd/"
+    },
+    {
+      "phrase": "fairly traceable to the defendant",
+      "meaningVi": "có thể truy ngược một cách hợp lý đến bị đơn",
+      "pronunciation": "/ˈfeərli ˈtreɪsəbl tə ðə dɪˈfendənt/"
+    },
+    {
+      "phrase": "the standard of review",
+      "meaningVi": "chuẩn mực thẩm tra mà tòa áp dụng",
+      "pronunciation": "/ðə ˈstændərd əv rɪˈvjuː/"
+    },
+    {
+      "phrase": "a fundamental right",
+      "meaningVi": "một quyền cơ bản (được hiến pháp bảo vệ mạnh mẽ)",
+      "pronunciation": "/ə ˌfʌndəˈmentl raɪt/"
+    },
+    {
+      "phrase": "a compelling interest and narrow tailoring",
+      "meaningVi": "một lợi ích cấp thiết và sự điều chỉnh hẹp (yêu cầu của chuẩn nghiêm ngặt)",
+      "pronunciation": "/ə kəmˈpelɪŋ ˈɪntrəst ænd ˈnæroʊ ˈteɪlərɪŋ/"
+    },
+    {
+      "phrase": "rational-basis review",
+      "meaningVi": "chuẩn thẩm tra trên cơ sở hợp lý (mức thẩm tra thấp nhất)",
+      "pronunciation": "/ˈræʃənl ˈbeɪsɪs rɪˈvjuː/"
+    },
+    {
+      "phrase": "deeply rooted in the nation's history and tradition",
+      "meaningVi": "bắt rễ sâu trong lịch sử và truyền thống của quốc gia",
+      "pronunciation": "/ˈdiːpli ˈruːtɪd ɪn ðə ˈneɪʃənz ˈhɪstri ænd trəˈdɪʃən/"
+    },
+    {
+      "phrase": "substantive due process",
+      "meaningVi": "thủ tục công bằng về nội dung",
+      "pronunciation": "/ˈsʌbstəntɪv djuː ˈprɒses/"
+    },
+    {
+      "phrase": "the level of generality",
+      "meaningVi": "mức độ khái quát (khi mô tả một quyền)",
+      "pronunciation": "/ðə ˈlevl əv ˌdʒenəˈrælɪti/"
+    },
+    {
+      "phrase": "the presumption of constitutionality",
+      "meaningVi": "giả định hợp hiến (luật được coi là hợp hiến cho đến khi chứng minh ngược lại)",
+      "pronunciation": "/ðə prɪˈzʌmpʃən əv ˌkɒnstɪˌtjuːʃəˈnælɪti/"
+    },
+    {
+      "phrase": "duly enacted legislation",
+      "meaningVi": "pháp luật được ban hành đúng thủ tục",
+      "pronunciation": "/ˈdjuːli ɪˈnæktɪd ˌledʒɪsˈleɪʃən/"
+    },
+    {
+      "phrase": "a controlling decision squarely on point",
+      "meaningVi": "một phán quyết có tính ràng buộc đúng vào vấn đề",
+      "pronunciation": "/ə kənˈtroʊlɪŋ dɪˈsɪʒən ˈskweəli ɒn pɔɪnt/"
+    },
+    {
+      "phrase": "presumptively binding",
+      "meaningVi": "về mặc định là có tính ràng buộc",
+      "pronunciation": "/prɪˈzʌmptɪvli ˈbaɪndɪŋ/"
+    },
+    {
+      "phrase": "justify overruling it",
+      "meaningVi": "biện minh cho việc lật ngược nó (án lệ)",
+      "pronunciation": "/ˈdʒʌstɪfaɪ ˌoʊvərˈruːlɪŋ ɪt/"
+    },
+    {
+      "phrase": "an inexorable command",
+      "meaningVi": "một mệnh lệnh không thể lay chuyển",
+      "pronunciation": "/ən ɪnˈeksərəbl kəˈmɑːnd/"
+    },
+    {
+      "phrase": "the reliance interests",
+      "meaningVi": "các lợi ích dựa trên sự tin cậy (vào một quy tắc đã định)",
+      "pronunciation": "/ðə rɪˈlaɪəns ˈɪntrəsts/"
+    },
+    {
+      "phrase": "the doctrinal foundations have eroded",
+      "meaningVi": "các nền tảng học thuyết đã bị xói mòn",
+      "pronunciation": "/ðə dɒkˈtraɪnl faʊnˈdeɪʃənz hæv ɪˈroʊdɪd/"
+    },
+    {
+      "phrase": "the rule of law",
+      "meaningVi": "nguyên tắc pháp quyền",
+      "pronunciation": "/ðə ruːl əv lɔː/"
+    },
+    {
+      "phrase": "special pleading",
+      "meaningVi": "biện hộ thiên vị (đòi hỏi ngoại lệ không có lý do chính đáng)",
+      "pronunciation": "/ˈspeʃəl ˈpliːdɪŋ/"
+    },
+    {
+      "phrase": "the core holding remains sound and severable",
+      "meaningVi": "phán quyết cốt lõi vẫn vững chắc và có thể tách rời",
+      "pronunciation": "/ðə kɔːr ˈhoʊldɪŋ rɪˈmeɪnz saʊnd ænd ˈsevərəbl/"
+    },
+    {
+      "phrase": "the separation-of-powers dimension",
+      "meaningVi": "khía cạnh phân quyền",
+      "pronunciation": "/ðə ˌsepəˈreɪʃən əv ˈpaʊərz dɪˈmenʃən/"
+    },
+    {
+      "phrase": "institutional restraint and deference to the legislature",
+      "meaningVi": "sự kiềm chế thể chế và tôn trọng đối với cơ quan lập pháp",
+      "pronunciation": "/ˌɪnstɪˈtjuːʃənl rɪˈstreɪnt ænd ˈdefərəns tə ðə ˈledʒɪsleɪtʃər/"
+    },
+    {
+      "phrase": "severance of an unconstitutional provision",
+      "meaningVi": "việc tách bỏ một điều khoản vi hiến",
+      "pronunciation": "/ˈsevərəns əv ən ˌʌnkɒnstɪˈtjuːʃənl prəˈvɪʒən/"
+    },
+    {
+      "phrase": "a severability analysis",
+      "meaningVi": "một phân tích về khả năng tách rời",
+      "pronunciation": "/ə sɪˌverəˈbɪlɪti əˈnæləsɪs/"
+    },
+    {
+      "phrase": "legislative intent",
+      "meaningVi": "ý định lập pháp",
+      "pronunciation": "/ˈledʒɪslətɪv ɪnˈtent/"
+    },
+    {
+      "phrase": "facial invalidation",
+      "meaningVi": "tuyên vô hiệu toàn diện (luật vô hiệu trong mọi trường hợp)",
+      "pronunciation": "/ˈfeɪʃəl ɪnˌvælɪˈdeɪʃən/"
+    },
+    {
+      "phrase": "a facial challenge",
+      "meaningVi": "một thách thức toàn diện (đối với toàn bộ luật)",
+      "pronunciation": "/ə ˈfeɪʃəl ˈtʃælɪndʒ/"
+    },
+    {
+      "phrase": "judicial minimalism",
+      "meaningVi": "chủ nghĩa tối giản tư pháp (phán quyết hẹp nhất có thể)",
+      "pronunciation": "/dʒuˈdɪʃəl ˈmɪnɪməlɪzəm/"
+    },
+    {
+      "phrase": "en banc reconsideration",
+      "meaningVi": "việc xem xét lại bởi toàn thể hội đồng thẩm phán",
+      "pronunciation": "/ɒn ˈbɒŋk ˌriːkənˌsɪdəˈreɪʃən/"
+    },
+    {
+      "phrase": "a counter-majoritarian power",
+      "meaningVi": "một quyền lực phản đa số (tòa có thể bác ý chí của đa số)",
+      "pronunciation": "/ə ˈkaʊntər məˌdʒɒrɪˈteəriən ˈpaʊər/"
+    },
+    {
+      "phrase": "the tone of judicial humility",
+      "meaningVi": "giọng điệu khiêm tốn tư pháp",
+      "pronunciation": "/ðə toʊn əv dʒuˈdɪʃəl hjuːˈmɪlɪti/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Imperative + 'and' as a conditional consequence: 'Lead with the merits and you invite …'",
+      "bodyVi": "Trong tiếng Anh trang trọng và tu từ, một mệnh lệnh nối với 'and' + mệnh đề chính có thể diễn đạt một điều kiện ngầm, tương đương với 'If you do X, then Y.' Ví dụ: 'Frame it well and the precedent does the heavy lifting for you' nghĩa là 'Nếu anh diễn giải khéo thì án lệ sẽ gánh phần nặng nhọc.' Cấu trúc này súc tích và mạnh mẽ hơn câu điều kiện đầy đủ.",
+      "bodyEn": "An imperative joined to a clause by 'and' (or 'or') expresses a conditional: 'Lead with the merits and you invite dismissal' = 'If you lead with the merits, you will invite dismissal.' It is more forceful and economical than a full 'if'-clause, which is why it is common in advocacy and persuasive writing. The 'or' version threatens a negative consequence: 'Frame it well, or you'll be litigating uphill.'"
+    },
+    {
+      "title": "Nominalisation for analytical precision: 'redressability', 'severability', 'justiciability'",
+      "bodyVi": "Tiếng Anh pháp lý và học thuật thường biến động từ hoặc tính từ thành danh từ trừu tượng (nominalisation) để gọi tên một khái niệm hoặc tiêu chí phân tích: redress → redressability ('khả năng khắc phục'), severable → severability ('khả năng tách rời'), justiciable → justiciability. Việc danh từ hóa cho phép người nói coi một thuộc tính như một thực thể có thể bàn luận và lập luận xoay quanh.",
+      "bodyEn": "Legal and academic English frequently turns verbs/adjectives into abstract nouns (nominalisation) to name a concept or test: redress → redressability, severable → severability, justiciable → justiciability. This lets the speaker treat a property as a thing that can be analysed, satisfied, or argued about ('the redressability prong', 'a severability analysis'). Used well it is precise; overused it makes prose dense, so deploy it where it names a genuine doctrinal category."
+    }
+  ],
+  "translationVi": "Theo: Marian, tôi được giao soạn phần điều kiện tiên quyết trong bản tóm tắt pháp lý của chúng ta, và tôi muốn chắc chắn rằng mình đang đặt vấn đề hiến pháp đúng cách trước khi viết bất cứ điều gì ra giấy. Bản năng của tôi là mở đầu bằng lập luận về quyền nội dung, nhưng có điều gì đó mách bảo rằng tôi đang vượt quá bước cần thiết. Marian: Bản năng dừng lại của anh là hợp lý. Trước khi một tòa án xem xét nội dung thực chất của bất kỳ yêu cầu về quyền nào, tòa phải được thuyết phục rằng vụ việc có thể xét xử được — rằng thân chủ của chúng ta có tư cách khởi kiện, rằng tranh chấp đã chín muồi, và rằng chúng ta không yêu cầu hội đồng xét xử đưa ra cái mà thực chất là một ý kiến tư vấn. Mở đầu bằng nội dung thực chất thì anh đang mời bên kia bác bỏ toàn bộ vụ việc dựa trên các căn cứ về điều kiện tiên quyết. Theo: Vậy tư cách khởi kiện là điều đến trước. Thân chủ của chúng ta chịu tác động trực tiếp của quy định, gánh chịu một thiệt hại cụ thể và riêng biệt, và biện pháp khắc phục mà chúng ta tìm kiếm sẽ bù đắp cho thiệt hại đó. Tôi cứ tưởng đó gần như là một vụ tư cách khởi kiện rõ ràng nhất mà người ta có thể mong đợi. Marian: Nó mạnh đấy, nhưng đừng để sự rõ ràng bề ngoài của nó khiến anh tự mãn. Yếu tố mà luật sư đối phương sẽ dò xét là khả năng khắc phục — liệu một phán quyết có lợi có thực sự khắc phục được thiệt hại hay không, xét rằng quy định đó do một cơ quan thậm chí không phải là một bên trong vụ kiện quản lý. Nếu chuỗi nhân quả quá mong manh, tòa án có thể phán rằng thiệt hại không thể truy ngược một cách hợp lý đến bị đơn trước mặt chúng ta. Theo: Đó là một ý kiến xác đáng. Giả sử chúng ta vượt qua các rào cản về khả năng xét xử, câu hỏi tiếp theo là chuẩn mực thẩm tra. Đạo luật đặt gánh nặng lên cái mà chúng ta mô tả là một quyền cơ bản, nên chúng ta sẽ lập luận đòi áp dụng chuẩn thẩm tra nghiêm ngặt — chính phủ phải chứng minh một lợi ích cấp thiết và sự điều chỉnh hẹp. Marian: Và toàn bộ vụ kiện có thể xoay quanh việc liệu anh có thuyết phục được tòa áp dụng cấp độ đó thay vì chuẩn thẩm tra trên cơ sở hợp lý hay không. Chính phủ sẽ lập luận rằng quyền đang được bàn đến không bắt rễ sâu trong lịch sử và truyền thống của quốc gia, đó là cách diễn giải mà tòa đã dùng để giám sát ranh giới của thủ tục công bằng về nội dung. Mô tả quyền đó quá rộng thì anh trao cho họ lập luận rằng không tồn tại một quyền cơ bản nào như vậy. Theo: Vậy tôi nên định nghĩa quyền được khẳng định một cách chính xác — đủ hẹp để nó khớp với một dòng án lệ đã được thiết lập, nhưng không quá hẹp đến mức trông như được bịa ra cho dịp này. Marian: Chính xác. Mức độ khái quát mà anh dùng để mô tả quyền đó đang thực hiện một công việc phân tích khổng lồ, và các thẩm phán biết điều đó. Diễn giải khéo thì án lệ sẽ gánh phần nặng nhọc thay anh; diễn giải vụng thì anh phải tranh tụng ngược dốc trước giả định hợp hiến gắn liền với pháp luật được ban hành đúng thủ tục. Theo: Điều đó đưa tôi đến chính bản thân án lệ. Có một phán quyết có tính ràng buộc trực tiếp đúng vào vấn đề, nhưng nó đã gần bốn mươi năm tuổi và thành phần cùng các cam kết về học thuyết của tòa đã thay đổi đáng kể kể từ đó. Chúng ta có thể dựa vào nó không, hay tôi nên dự phòng? Marian: Anh dựa vào nó — một cách mạnh mẽ — vì nguyên tắc tôn trọng án lệ về mặc định là có tính ràng buộc, và không phải nghĩa vụ của chúng ta là bảo vệ án lệ đó; mà là nghĩa vụ của bên kia phải biện minh cho việc lật ngược nó. Học thuyết tôn trọng án lệ không phải là một mệnh lệnh không thể lay chuyển, nhưng tòa đã nêu rõ các yếu tố chi phối khi nào việc rời bỏ án lệ là chính đáng, và anh nên lập luận rằng không yếu tố nào trong số đó được thỏa mãn ở đây. Theo: Đó sẽ là tính khả thi của quy tắc, các lợi ích dựa trên sự tin cậy đã hình thành xung quanh nó, liệu các nền tảng học thuyết đã bị xói mòn hay chưa, và liệu các sự kiện đã thay đổi nhiều đến mức quy tắc cũ không còn phù hợp nữa hay không. Marian: Đúng những yếu tố đó. Và trong bốn yếu tố đó, lợi ích dựa trên sự tin cậy thường có sức thuyết phục về mặt lập luận mạnh nhất, vì nó cho phép anh lập luận rằng các thể chế, thị trường và công dân bình thường đã sắp xếp công việc của họ dựa vào quy tắc đã được định hình. Lật ngược nó sẽ làm xáo trộn những kỳ vọng mà chính nguyên tắc pháp quyền tồn tại để bảo vệ. Theo: Nhưng tôi phải thành thật với chính mình về các điểm yếu. Nếu các nền tảng học thuyết của án lệ đó đã thực sự bị các vụ án sau làm rỗng ruột, thì lập luận về sự tin cậy bắt đầu trông giống như biện hộ thiên vị — như thể chúng ta đang yêu cầu tòa giữ lại một quy tắc mà chính tòa không còn tin tưởng nữa chỉ vì việc lật ngược nó là bất tiện. Marian: Đó chính là sự thẳng thắn mà tôi muốn có trong bản tóm tắt. Hãy thừa nhận rằng bối cảnh học thuyết đã thay đổi, rồi lập luận rằng phán quyết cốt lõi vẫn vững chắc và có thể tách rời khỏi bất kỳ lý lẽ nào đã không còn được ưa chuộng. Các tòa thoải mái hơn nhiều khi thu hẹp một án lệ so với việc lật ngược hẳn nó, vậy nên hãy cho họ một lối thoát cho phép họ phán quyết có lợi cho chúng ta mà không làm xáo trộn học thuyết rộng hơn. Theo: Còn có cả khía cạnh phân quyền nữa. Một phần trong tôi lo rằng biện pháp khắc phục mà chúng ta yêu cầu thực chất là đề nghị tòa viết lại đạo luật thay vì hủy bỏ nó, và điều đó đẩy chúng ta vào địa hạt nơi một thẩm phán bắt đầu viện đến sự kiềm chế thể chế và sự tôn trọng đối với cơ quan lập pháp. Marian: Anh đã chỉ đúng vào điểm tế nhị nhất của vụ kiện. Việc thẩm tra tư pháp chính đáng nhất khi tòa đang giám sát các ranh giới hiến pháp, và bị tranh cãi nhiều nhất khi tòa có vẻ đang thay thế phán đoán chính sách của chính mình cho phán đoán của cơ quan lập pháp. Hãy diễn giải yêu cầu của chúng ta là việc tách bỏ một điều khoản vi hiến, chứ không phải việc tòa soạn thảo lại luật, và như thế anh giữ tòa nằm trong vai trò thể chế thoải mái của nó. Theo: Vậy tôi nên đưa vào một phân tích về khả năng tách rời cho thấy điều khoản vi phạm có thể được cắt bỏ gọn gàng, để phần còn lại của hệ thống pháp luật vẫn vận hành được và nhất quán với điều mà cơ quan lập pháp hẳn đã dự định. Marian: Đúng, và hãy gắn nó rõ ràng với ý định lập pháp, vì việc xem xét khả năng tách rời rốt cuộc đặt ra một câu hỏi giả định: liệu cơ quan lập pháp có ban hành phần còn lại của đạo luật hay không nếu đã biết điều khoản đó vô hiệu? Trả lời điều đó một cách thuyết phục thì anh đã vô hiệu hóa lập luận về sự tôn trọng trước khi luật sư đối phương kịp triển khai nó. Theo: Thế còn chính biện pháp khắc phục thì sao? Chúng ta đang yêu cầu tuyên vô hiệu toàn diện, hay tốt hơn là lập luận rằng đạo luật chỉ vi hiến khi áp dụng vào hoàn cảnh cụ thể của thân chủ chúng ta? Marian: Đó là một lựa chọn chiến lược có hậu quả thực sự, và những luật sư tranh tụng có lý lẽ vẫn bất đồng về nó. Một thách thức toàn diện thì tham vọng hơn và khó thắng hơn, vì anh phải chứng minh rằng luật đó vi hiến trong toàn bộ hoặc gần như toàn bộ các trường hợp áp dụng; một thách thức theo cách áp dụng thì hẹp hơn nhưng dễ thành công hơn và dễ để một tòa thận trọng chấp nhận hơn. Xét đến sự dè dặt thể chế mà chúng ta vừa bàn, tôi sẽ mở đầu bằng lý thuyết áp dụng cụ thể và đưa thách thức toàn diện ra như một phương án thay thế. Theo: Cách diễn giải đó cũng làm hạ nhiệt căng thẳng, đúng không? Nó báo hiệu cho tòa rằng chúng ta đang tìm kiếm phán quyết hẹp nhất có thể bảo vệ quyền của thân chủ, đó đúng là kiểu chủ nghĩa tối giản tư pháp mà một hội đồng xét xử thận trọng về thể chế thường tưởng thưởng. Marian: Đúng vậy, và chủ nghĩa tối giản thường là con đường chắc chắn nhất dẫn đến một chiến thắng bền vững. Một phán quyết bao quát sẽ mời gọi việc xem xét lại bởi toàn thể hội đồng hoặc bị đảo ngược khi kháng cáo; một phán quyết hẹp, ràng buộc vào sự kiện thì có nhiều khả năng đứng vững hơn. Chúng ta không chỉ cố thắng vòng này — chúng ta đang cố thắng theo cách trụ vững qua mọi giai đoạn thẩm tra tiếp theo. Theo: Vậy để tôi tái cấu trúc bản tóm tắt cho phù hợp: khả năng xét xử trước, rồi đến chuẩn thẩm tra với quyền được diễn giải ở mức độ khái quát phù hợp, rồi lập luận án lệ neo vào nguyên tắc tôn trọng án lệ, và cuối cùng là biện pháp khắc phục, mở đầu bằng cứu trợ theo cách áp dụng cụ thể và một phân tích khả năng tách rời gọn gàng. Marian: Đó là cấu trúc đúng đắn. Và hãy nhớ rằng một bản tóm tắt về hiến pháp vừa là bài tập thuyết phục về thể chế ngang với lập luận về học thuyết — anh đang yêu cầu các thẩm phán thực thi một quyền lực phản đa số, nên anh phải liên tục trấn an họ rằng làm như vậy là nhất quán với vai trò đúng đắn của họ. Hãy giữ đúng giọng điệu khiêm tốn tư pháp, và học thuyết sẽ gánh phần còn lại.",
+  "criticalThinkingQuestion": "When a long-standing precedent has had its doctrinal foundations eroded by later cases yet still protects significant reliance interests, should a court give greater weight to doctrinal consistency or to the stability of settled expectations — and what does that choice reveal about the proper role of judicial review in a constitutional democracy?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-c1-039",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 436296
+}

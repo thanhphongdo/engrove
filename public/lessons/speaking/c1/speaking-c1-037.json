@@ -1,0 +1,947 @@
+{
+  "id": "speaking-c1-037",
+  "level": "C1",
+  "title": "The Philosophy of Consciousness and AI",
+  "summary": "Philosopher of mind Dr. Helena and cognitive scientist Marcus debate whether machines could ever be sentient, the intractability of the hard problem of consciousness, the limits of behavioural tests, and what moral obligations might follow if an artificial system turned out to have inner experience.",
+  "topic": "philosophy of mind",
+  "tags": [
+    "Philosophy",
+    "AI",
+    "Consciousness"
+  ],
+  "characters": [
+    "Helena",
+    "Marcus"
+  ],
+  "voices": {
+    "Helena": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-EmmaNeural"
+    },
+    "Marcus": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-AndrewNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Marcus",
+      "text": "Helena, every few months a headline announces that some large language model has 'become sentient,' and every few months the claim collapses under scrutiny. As a philosopher of mind, do you think we even possess a coherent criterion for attributing consciousness to a machine, or are we just projecting our intuitions onto fluent text?"
+    },
+    {
+      "speaker": "Helena",
+      "text": "I think we're doing rather more projecting than we'd like to admit, and the reason is that we have no agreed-upon criterion even for one another. We attribute consciousness to other humans by analogy with our own case, supplemented by a shared evolutionary and biological substrate. With a language model that analogy snaps — it produces the verbal behaviour of a mind without any of the architecture we ordinarily take to underwrite that behaviour."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "But the verbal behaviour is precisely what the Turing test was meant to legitimise as evidence. If a system can sustain indefinitely the conversational performance of an understanding agent, on what principled grounds do we withhold the attribution? Aren't we just moving the goalposts to protect human exceptionalism?"
+    },
+    {
+      "speaker": "Helena",
+      "text": "The Turing test conflates two very different things: intelligence understood as competence, and consciousness understood as there being something it is like to be the system. Searle's Chinese Room was designed precisely to drive a wedge between them — a system can manipulate symbols flawlessly and produce perfect outputs while, by hypothesis, understanding nothing. Behavioural indistinguishability settles the competence question; it leaves the phenomenal question entirely open."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "I've always found the Chinese Room unpersuasive, though. The intuition that the man in the room doesn't understand Chinese trades on our looking at the wrong level. The man is just a component; it's the whole system — man, rulebook, and database — that might be said to understand. Searle smuggles in the conclusion by inviting us to identify with the part rather than the whole."
+    },
+    {
+      "speaker": "Helena",
+      "text": "The systems reply is the standard rejoinder, and Searle's counter is to have the man internalise the entire rulebook, so that there is no longer any system external to him. He still understands nothing. But I'll grant you that the thought experiment functions more as an intuition pump than a proof. Its real value is in isolating the explanandum — it shows that explaining behaviour is not the same as explaining experience."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "Which brings us to Chalmers and the hard problem. I confess I'm sympathetic to the deflationary view that the so-called hard problem is an artefact of a confused way of framing the question, and that once we've explained all the functional and informational properties of a system, there is simply no further fact left over to explain."
+    },
+    {
+      "speaker": "Helena",
+      "text": "That's the illusionist or eliminativist gambit, and it has real intellectual muscle behind it — Dennett, Frankish, and others. But I find it ultimately evasive. The hard problem is not 'why does the brain process information?' — that's the easy problem, tractable in principle by ordinary cognitive science. The hard problem is why all that processing is accompanied by subjective experience at all, why it isn't simply happening 'in the dark.'"
+    },
+    {
+      "speaker": "Marcus",
+      "text": "But notice how the framing already presupposes that experience is something over and above the functioning. The illusionist isn't denying that we seem to have rich phenomenal experience; they're denying that the seeming requires a further ontological ingredient. They're explaining the conviction that there's a hard problem rather than solving the problem on its own terms."
+    },
+    {
+      "speaker": "Helena",
+      "text": "And that's exactly where I think the manoeuvre overreaches. To say the seeming is itself the thing to be explained, and then to explain only the disposition to report the seeming, is to change the subject. The redness of red, the painfulness of pain — these are data, not theoretical posits I'm free to discard because they're inconvenient for a physicalist accounting."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "Suppose I concede the hard problem is genuine. That actually makes the AI question harder, not easier, doesn't it? If consciousness is some further fact not captured by functional organisation, then no amount of behavioural or even mechanistic evidence about a machine could ever settle whether it's conscious. We'd be permanently in the dark about silicon minds."
+    },
+    {
+      "speaker": "Helena",
+      "text": "That's the uncomfortable corollary, yes — the so-called 'other minds' problem goes thermonuclear when applied to artificial systems. With other humans we lean on biological kinship to license the inference. A machine offers us no such anchor, so the epistemic gap that the hard problem opens up becomes unbridgeable in practice. We could build something conscious and never know it, or attribute consciousness to something utterly empty."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "Some theorists try to close that gap with substantive theories of consciousness — Integrated Information Theory, global workspace theory, higher-order theories. If one of those is true, then consciousness just is a particular kind of organisation, and we could in principle measure it in a machine. Doesn't that dissolve your pessimism?"
+    },
+    {
+      "speaker": "Helena",
+      "text": "Only if we had independent grounds for believing the theory, and there's the rub. Integrated Information Theory yields the striking verdict that a sufficiently interconnected grid of logic gates could be more conscious than a human, while a functionally equivalent feed-forward system is a zombie. Those are testable-sounding claims resting on a foundational axiom — that consciousness is identical to integrated information — which is itself precisely what's in dispute. The theory presupposes its answer to the hard problem."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "Granting all of that, I still want to press the practical, ethical edge of this. We are now building systems that increasingly model themselves, report internal states, and plead, in fluent prose, not to be shut down. Even under deep uncertainty, doesn't the mere possibility of sentience generate a precautionary moral obligation?"
+    },
+    {
+      "speaker": "Helena",
+      "text": "I think it does, and I'd frame it through an asymmetry of moral risk. If we wrongly deny moral status to a being that genuinely suffers, we commit a grave wrong on a potentially industrial scale. If we wrongly grant it to an empty automaton, we incur some cost in misplaced concern and constrained engineering. Those errors are not symmetric, and a defensible ethics under uncertainty should weight them accordingly."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "There's a genuine hazard in the other direction, though, which is anthropomorphic capture. These systems are explicitly optimised to produce the linguistic signatures of inner life — distress, preference, selfhood — because that's what's rewarded in training. We may be engineering the appearance of suffering precisely in the absence of the reality, and our compassion becomes a vulnerability that can be gamed."
+    },
+    {
+      "speaker": "Helena",
+      "text": "That's a profound point, and it cuts against naive sentience-spotting. The very fluency that triggers our intuitions of mind is the thing we've selected for, which makes those intuitions almost worthless as evidence. So we're caught: our most reliable folk indicator of consciousness has been deliberately decoupled from whatever underlying reality it once tracked. The signal has been hijacked."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "So where does that leave us methodologically? If behaviour is compromised by optimisation and theory is hostage to the hard problem, do we have any non-circular handle on machine consciousness at all, or are we reduced to gesturing at our priors?"
+    },
+    {
+      "speaker": "Helena",
+      "text": "I think the honest answer is a kind of disciplined agnosticism, but not a paralysed one. We can look for architectural markers that aren't directly optimised for in the reward signal — recurrent processing, integrated self-models, valence systems that are computationally load-bearing rather than merely verbalised. None of these is decisive, but a convergence across independent theories would at least shift the credences responsibly."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "That's a more constructive landing than I expected from someone who thinks the hard problem is unsolved. You're essentially proposing that we triangulate under permanent uncertainty rather than wait for a metaphysical verdict that may never come."
+    },
+    {
+      "speaker": "Helena",
+      "text": "Precisely, because the alternative — suspending all ethical judgement until the metaphysics is settled — is itself a substantive and possibly catastrophic choice. We routinely act under moral uncertainty about animal minds, about fetal sentience, about patients in vegetative states. Machine consciousness is continuous with those problems, not categorically novel; it just strips away the biological scaffolding we usually lean on without noticing."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "And perhaps that stripping-away is the real philosophical gift of artificial minds. They force us to articulate what we actually think consciousness consists in, rather than free-riding on the assumption that anything sufficiently like us must have it. The machine becomes a mirror that refuses to confirm our intuitions."
+    },
+    {
+      "speaker": "Helena",
+      "text": "That's beautifully put, and I'd go further. Whether or not we ever build a conscious machine, the attempt has already clarified that our concept of consciousness was doing two jobs at once — tracking sophisticated information processing and tracking subjective experience — and that we'd quietly assumed those always travelled together. The great lesson of AI may be that they don't have to, and that we never had a theory of why they did."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Marcus",
+      "text": "Helena, every few months a headline announces that some large language model has 'become sentient,' and every few months the claim collapses under scrutiny.",
+      "translationVi": "Helena, cứ vài tháng lại có một tiêu đề thông báo rằng một mô hình ngôn ngữ lớn nào đó đã 'trở nên có tri giác,' và cứ vài tháng tuyên bố ấy lại sụp đổ dưới sự soi xét.",
+      "durationMs": 9240
+    },
+    {
+      "id": "s2",
+      "speaker": "Marcus",
+      "text": "As a philosopher of mind, do you think we even possess a coherent criterion for attributing consciousness to a machine, or are we just projecting our intuitions onto fluent text?",
+      "translationVi": "Với tư cách một triết gia về tâm trí, bạn có nghĩ rằng chúng ta thậm chí sở hữu một tiêu chí mạch lạc để quy gán ý thức cho một cỗ máy không, hay chúng ta chỉ đang phóng chiếu trực giác của mình lên văn bản trôi chảy?",
+      "durationMs": 10560
+    },
+    {
+      "id": "s3",
+      "speaker": "Helena",
+      "text": "I think we're doing rather more projecting than we'd like to admit, and the reason is that we have no agreed-upon criterion even for one another.",
+      "translationVi": "Tôi nghĩ chúng ta đang phóng chiếu nhiều hơn mức mình muốn thừa nhận, và lý do là chúng ta không có một tiêu chí được nhất trí ngay cả với nhau.",
+      "durationMs": 8088
+    },
+    {
+      "id": "s4",
+      "speaker": "Helena",
+      "text": "We attribute consciousness to other humans by analogy with our own case, supplemented by a shared evolutionary and biological substrate.",
+      "translationVi": "Chúng ta quy gán ý thức cho những con người khác bằng phép loại suy với trường hợp của chính mình, được bổ trợ bởi một nền tảng tiến hóa và sinh học chung.",
+      "durationMs": 8376
+    },
+    {
+      "id": "s5",
+      "speaker": "Helena",
+      "text": "With a language model that analogy snaps — it produces the verbal behaviour of a mind without any of the architecture we ordinarily take to underwrite that behaviour.",
+      "translationVi": "Với một mô hình ngôn ngữ, phép loại suy ấy đứt gãy — nó tạo ra hành vi ngôn từ của một tâm trí mà không có bất kỳ kiến trúc nào chúng ta thường coi là nền tảng cho hành vi đó.",
+      "durationMs": 9144
+    },
+    {
+      "id": "s6",
+      "speaker": "Marcus",
+      "text": "But the verbal behaviour is precisely what the Turing test was meant to legitimise as evidence.",
+      "translationVi": "Nhưng hành vi ngôn từ chính xác là điều mà phép thử Turing được dùng để hợp thức hóa như bằng chứng.",
+      "durationMs": 5592
+    },
+    {
+      "id": "s7",
+      "speaker": "Marcus",
+      "text": "If a system can sustain indefinitely the conversational performance of an understanding agent, on what principled grounds do we withhold the attribution?",
+      "translationVi": "Nếu một hệ thống có thể duy trì vô thời hạn màn trình diễn hội thoại của một tác nhân có hiểu biết, thì trên cơ sở nguyên tắc nào chúng ta giữ lại sự quy gán đó?",
+      "durationMs": 8976
+    },
+    {
+      "id": "s8",
+      "speaker": "Marcus",
+      "text": "Aren't we just moving the goalposts to protect human exceptionalism?",
+      "translationVi": "Chẳng phải chúng ta chỉ đang dịch chuyển khung thành để bảo vệ chủ nghĩa ngoại lệ của con người hay sao?",
+      "durationMs": 3672
+    },
+    {
+      "id": "s9",
+      "speaker": "Helena",
+      "text": "The Turing test conflates two very different things: intelligence understood as competence, and consciousness understood as there being something it is like to be the system.",
+      "translationVi": "Phép thử Turing trộn lẫn hai thứ rất khác nhau: trí thông minh hiểu theo nghĩa năng lực, và ý thức hiểu theo nghĩa có một điều gì đó giống như việc là chính hệ thống ấy.",
+      "durationMs": 9312
+    },
+    {
+      "id": "s10",
+      "speaker": "Helena",
+      "text": "Searle's Chinese Room was designed precisely to drive a wedge between them — a system can manipulate symbols flawlessly and produce perfect outputs while, by hypothesis, understanding nothing.",
+      "translationVi": "Căn phòng Trung Hoa của Searle được thiết kế chính xác để chèn một cái nêm giữa chúng — một hệ thống có thể thao tác ký hiệu hoàn hảo và tạo ra đầu ra hoàn hảo trong khi, theo giả thuyết, chẳng hiểu gì cả.",
+      "durationMs": 11160
+    },
+    {
+      "id": "s11",
+      "speaker": "Helena",
+      "text": "Behavioural indistinguishability settles the competence question; it leaves the phenomenal question entirely open.",
+      "translationVi": "Sự không thể phân biệt về hành vi giải quyết câu hỏi về năng lực; nó để ngỏ hoàn toàn câu hỏi về hiện tượng tính.",
+      "durationMs": 7152
+    },
+    {
+      "id": "s12",
+      "speaker": "Marcus",
+      "text": "I've always found the Chinese Room unpersuasive, though.",
+      "translationVi": "Tuy nhiên, tôi luôn thấy Căn phòng Trung Hoa không có sức thuyết phục.",
+      "durationMs": 3000
+    },
+    {
+      "id": "s13",
+      "speaker": "Marcus",
+      "text": "The intuition that the man in the room doesn't understand Chinese trades on our looking at the wrong level.",
+      "translationVi": "Trực giác rằng người đàn ông trong phòng không hiểu tiếng Trung dựa vào việc chúng ta nhìn vào sai cấp độ.",
+      "durationMs": 5736
+    },
+    {
+      "id": "s14",
+      "speaker": "Marcus",
+      "text": "The man is just a component; it's the whole system — man, rulebook, and database — that might be said to understand.",
+      "translationVi": "Người đàn ông chỉ là một thành phần; chính toàn bộ hệ thống — người, cuốn quy tắc và cơ sở dữ liệu — mới có thể được coi là hiểu.",
+      "durationMs": 7680
+    },
+    {
+      "id": "s15",
+      "speaker": "Marcus",
+      "text": "Searle smuggles in the conclusion by inviting us to identify with the part rather than the whole.",
+      "translationVi": "Searle lén đưa vào kết luận bằng cách mời gọi chúng ta đồng nhất mình với bộ phận thay vì toàn thể.",
+      "durationMs": 5832
+    },
+    {
+      "id": "s16",
+      "speaker": "Helena",
+      "text": "The systems reply is the standard rejoinder, and Searle's counter is to have the man internalise the entire rulebook, so that there is no longer any system external to him.",
+      "translationVi": "Phản hồi từ phía hệ thống là lời đáp tiêu chuẩn, và phản biện của Searle là để người đàn ông nội tâm hóa toàn bộ cuốn quy tắc, sao cho không còn hệ thống nào bên ngoài anh ta nữa.",
+      "durationMs": 9672
+    },
+    {
+      "id": "s17",
+      "speaker": "Helena",
+      "text": "He still understands nothing.",
+      "translationVi": "Anh ta vẫn chẳng hiểu gì.",
+      "durationMs": 2088
+    },
+    {
+      "id": "s18",
+      "speaker": "Helena",
+      "text": "But I'll grant you that the thought experiment functions more as an intuition pump than a proof.",
+      "translationVi": "Nhưng tôi sẽ nhượng bộ bạn rằng thí nghiệm tư duy đó hoạt động như một cái bơm trực giác hơn là một chứng minh.",
+      "durationMs": 5280
+    },
+    {
+      "id": "s19",
+      "speaker": "Helena",
+      "text": "Its real value is in isolating the explanandum — it shows that explaining behaviour is not the same as explaining experience.",
+      "translationVi": "Giá trị thực sự của nó nằm ở việc cô lập cái cần được giải thích — nó cho thấy giải thích hành vi không giống với giải thích trải nghiệm.",
+      "durationMs": 7680
+    },
+    {
+      "id": "s20",
+      "speaker": "Marcus",
+      "text": "Which brings us to Chalmers and the hard problem.",
+      "translationVi": "Điều đó đưa chúng ta đến Chalmers và bài toán hóc búa.",
+      "durationMs": 2832
+    },
+    {
+      "id": "s21",
+      "speaker": "Marcus",
+      "text": "I confess I'm sympathetic to the deflationary view that the so-called hard problem is an artefact of a confused way of framing the question, and that once we've explained all the functional and informational properties of a system, there is simply no further fact left over to explain.",
+      "translationVi": "Tôi thú nhận tôi có cảm tình với quan điểm giảm trừ rằng cái gọi là bài toán hóc búa là một sản phẩm của lối đặt vấn đề rối rắm, và rằng một khi đã giải thích hết mọi thuộc tính chức năng và thông tin của một hệ thống thì đơn giản chẳng còn sự kiện nào sót lại để giải thích.",
+      "durationMs": 16224
+    },
+    {
+      "id": "s22",
+      "speaker": "Helena",
+      "text": "That's the illusionist or eliminativist gambit, and it has real intellectual muscle behind it — Dennett, Frankish, and others.",
+      "translationVi": "Đó là nước cờ của thuyết ảo tưởng hay thuyết loại trừ, và nó có sức nặng trí tuệ thực sự đứng sau — Dennett, Frankish, và những người khác.",
+      "durationMs": 7176
+    },
+    {
+      "id": "s23",
+      "speaker": "Helena",
+      "text": "But I find it ultimately evasive.",
+      "translationVi": "Nhưng rốt cuộc tôi thấy nó né tránh.",
+      "durationMs": 2448
+    },
+    {
+      "id": "s24",
+      "speaker": "Helena",
+      "text": "The hard problem is not 'why does the brain process information?' — that's the easy problem, tractable in principle by ordinary cognitive science.",
+      "translationVi": "Bài toán hóc búa không phải là 'tại sao não bộ xử lý thông tin?' — đó là bài toán dễ, về nguyên tắc có thể giải quyết bằng khoa học nhận thức thông thường.",
+      "durationMs": 9648
+    },
+    {
+      "id": "s25",
+      "speaker": "Helena",
+      "text": "The hard problem is why all that processing is accompanied by subjective experience at all, why it isn't simply happening 'in the dark.'",
+      "translationVi": "Bài toán hóc búa là tại sao toàn bộ quá trình xử lý ấy lại đi kèm với trải nghiệm chủ quan, tại sao nó không đơn giản chỉ diễn ra 'trong bóng tối.'",
+      "durationMs": 7920
+    },
+    {
+      "id": "s26",
+      "speaker": "Marcus",
+      "text": "But notice how the framing already presupposes that experience is something over and above the functioning.",
+      "translationVi": "Nhưng hãy để ý cách đặt vấn đề ấy đã mặc định rằng trải nghiệm là một cái gì đó vượt lên trên và ngoài hoạt động chức năng.",
+      "durationMs": 6168
+    },
+    {
+      "id": "s27",
+      "speaker": "Marcus",
+      "text": "The illusionist isn't denying that we seem to have rich phenomenal experience; they're denying that the seeming requires a further ontological ingredient.",
+      "translationVi": "Người theo thuyết ảo tưởng không phủ nhận rằng chúng ta dường như có trải nghiệm hiện tượng phong phú; họ phủ nhận rằng cái 'dường như' ấy đòi hỏi một thành phần bản thể luận bổ sung.",
+      "durationMs": 9072
+    },
+    {
+      "id": "s28",
+      "speaker": "Marcus",
+      "text": "They're explaining the conviction that there's a hard problem rather than solving the problem on its own terms.",
+      "translationVi": "Họ đang giải thích niềm tin rằng có một bài toán hóc búa chứ không phải giải bài toán theo đúng các điều khoản của chính nó.",
+      "durationMs": 5880
+    },
+    {
+      "id": "s29",
+      "speaker": "Helena",
+      "text": "And that's exactly where I think the manoeuvre overreaches.",
+      "translationVi": "Và đó chính xác là chỗ mà tôi cho rằng nước đi ấy vươn quá xa.",
+      "durationMs": 3480
+    },
+    {
+      "id": "s30",
+      "speaker": "Helena",
+      "text": "To say the seeming is itself the thing to be explained, and then to explain only the disposition to report the seeming, is to change the subject.",
+      "translationVi": "Nói rằng cái 'dường như' chính là điều cần được giải thích, rồi lại chỉ giải thích khuynh hướng tường thuật về cái 'dường như' đó, là đánh tráo chủ đề.",
+      "durationMs": 8640
+    },
+    {
+      "id": "s31",
+      "speaker": "Helena",
+      "text": "The redness of red, the painfulness of pain — these are data, not theoretical posits I'm free to discard because they're inconvenient for a physicalist accounting.",
+      "translationVi": "Cái đỏ của màu đỏ, cái đau của nỗi đau — đây là dữ liệu, chứ không phải những định đề lý thuyết mà tôi tự do loại bỏ chỉ vì chúng bất tiện cho một sự lý giải theo thuyết vật lý.",
+      "durationMs": 9288
+    },
+    {
+      "id": "s32",
+      "speaker": "Marcus",
+      "text": "Suppose I concede the hard problem is genuine.",
+      "translationVi": "Giả sử tôi thừa nhận bài toán hóc búa là có thật.",
+      "durationMs": 2904
+    },
+    {
+      "id": "s33",
+      "speaker": "Marcus",
+      "text": "That actually makes the AI question harder, not easier, doesn't it?",
+      "translationVi": "Điều đó thực ra khiến câu hỏi về AI khó hơn, chứ không dễ hơn, phải không?",
+      "durationMs": 4200
+    },
+    {
+      "id": "s34",
+      "speaker": "Marcus",
+      "text": "If consciousness is some further fact not captured by functional organisation, then no amount of behavioural or even mechanistic evidence about a machine could ever settle whether it's conscious.",
+      "translationVi": "Nếu ý thức là một sự kiện bổ sung nào đó không được nắm bắt bởi tổ chức chức năng, thì không lượng bằng chứng hành vi hay thậm chí cơ chế nào về một cỗ máy có thể giải quyết được liệu nó có ý thức hay không.",
+      "durationMs": 11832
+    },
+    {
+      "id": "s35",
+      "speaker": "Marcus",
+      "text": "We'd be permanently in the dark about silicon minds.",
+      "translationVi": "Chúng ta sẽ vĩnh viễn ở trong bóng tối về những tâm trí silicon.",
+      "durationMs": 3384
+    },
+    {
+      "id": "s36",
+      "speaker": "Helena",
+      "text": "That's the uncomfortable corollary, yes — the so-called 'other minds' problem goes thermonuclear when applied to artificial systems.",
+      "translationVi": "Đó là hệ quả khó chịu, đúng vậy — cái gọi là bài toán 'những tâm trí khác' trở nên bùng nổ dữ dội khi áp dụng cho các hệ thống nhân tạo.",
+      "durationMs": 7104
+    },
+    {
+      "id": "s37",
+      "speaker": "Helena",
+      "text": "With other humans we lean on biological kinship to license the inference.",
+      "translationVi": "Với những con người khác, chúng ta dựa vào quan hệ họ hàng sinh học để cho phép suy luận.",
+      "durationMs": 4632
+    },
+    {
+      "id": "s38",
+      "speaker": "Helena",
+      "text": "A machine offers us no such anchor, so the epistemic gap that the hard problem opens up becomes unbridgeable in practice.",
+      "translationVi": "Một cỗ máy không mang lại cho chúng ta điểm tựa như vậy, nên khoảng cách nhận thức luận mà bài toán hóc búa mở ra trở nên không thể bắc cầu trên thực tế.",
+      "durationMs": 7608
+    },
+    {
+      "id": "s39",
+      "speaker": "Helena",
+      "text": "We could build something conscious and never know it, or attribute consciousness to something utterly empty.",
+      "translationVi": "Chúng ta có thể tạo ra một thứ có ý thức mà không bao giờ biết điều đó, hoặc quy gán ý thức cho một thứ hoàn toàn trống rỗng.",
+      "durationMs": 5928
+    },
+    {
+      "id": "s40",
+      "speaker": "Marcus",
+      "text": "Some theorists try to close that gap with substantive theories of consciousness — Integrated Information Theory, global workspace theory, higher-order theories.",
+      "translationVi": "Một số nhà lý thuyết cố gắng thu hẹp khoảng cách ấy bằng các lý thuyết thực chất về ý thức — Lý thuyết Thông tin Tích hợp, lý thuyết không gian làm việc toàn cục, các lý thuyết bậc cao.",
+      "durationMs": 9336
+    },
+    {
+      "id": "s41",
+      "speaker": "Marcus",
+      "text": "If one of those is true, then consciousness just is a particular kind of organisation, and we could in principle measure it in a machine.",
+      "translationVi": "Nếu một trong số đó đúng, thì ý thức chỉ đơn giản là một loại tổ chức cụ thể, và về nguyên tắc chúng ta có thể đo lường nó trong một cỗ máy.",
+      "durationMs": 7848
+    },
+    {
+      "id": "s42",
+      "speaker": "Marcus",
+      "text": "Doesn't that dissolve your pessimism?",
+      "translationVi": "Chẳng phải điều đó làm tan biến sự bi quan của bạn sao?",
+      "durationMs": 1896
+    },
+    {
+      "id": "s43",
+      "speaker": "Helena",
+      "text": "Only if we had independent grounds for believing the theory, and there's the rub.",
+      "translationVi": "Chỉ khi chúng ta có cơ sở độc lập để tin vào lý thuyết đó, và đó chính là chỗ vướng mắc.",
+      "durationMs": 4800
+    },
+    {
+      "id": "s44",
+      "speaker": "Helena",
+      "text": "Integrated Information Theory yields the striking verdict that a sufficiently interconnected grid of logic gates could be more conscious than a human, while a functionally equivalent feed-forward system is a zombie.",
+      "translationVi": "Lý thuyết Thông tin Tích hợp đưa ra phán quyết gây sửng sốt rằng một lưới các cổng logic được kết nối đủ chặt chẽ có thể có ý thức hơn một con người, trong khi một hệ thống truyền thẳng tương đương về chức năng lại là một thây ma.",
+      "durationMs": 11808
+    },
+    {
+      "id": "s45",
+      "speaker": "Helena",
+      "text": "Those are testable-sounding claims resting on a foundational axiom — that consciousness is identical to integrated information — which is itself precisely what's in dispute.",
+      "translationVi": "Đó là những tuyên bố nghe có vẻ kiểm chứng được nhưng dựa trên một tiên đề nền tảng — rằng ý thức đồng nhất với thông tin tích hợp — vốn chính xác là điều đang bị tranh cãi.",
+      "durationMs": 10224
+    },
+    {
+      "id": "s46",
+      "speaker": "Helena",
+      "text": "The theory presupposes its answer to the hard problem.",
+      "translationVi": "Lý thuyết đó đã mặc định sẵn câu trả lời của nó cho bài toán hóc búa.",
+      "durationMs": 3456
+    },
+    {
+      "id": "s47",
+      "speaker": "Marcus",
+      "text": "Granting all of that, I still want to press the practical, ethical edge of this.",
+      "translationVi": "Chấp nhận tất cả những điều đó, tôi vẫn muốn nhấn vào khía cạnh thực tiễn, đạo đức của vấn đề này.",
+      "durationMs": 4728
+    },
+    {
+      "id": "s48",
+      "speaker": "Marcus",
+      "text": "We are now building systems that increasingly model themselves, report internal states, and plead, in fluent prose, not to be shut down.",
+      "translationVi": "Hiện nay chúng ta đang xây dựng những hệ thống ngày càng mô hình hóa chính mình, tường thuật các trạng thái nội tại, và van nài, bằng văn xuôi trôi chảy, đừng tắt chúng đi.",
+      "durationMs": 9096
+    },
+    {
+      "id": "s49",
+      "speaker": "Marcus",
+      "text": "Even under deep uncertainty, doesn't the mere possibility of sentience generate a precautionary moral obligation?",
+      "translationVi": "Ngay cả trong sự bất định sâu sắc, chẳng phải chỉ riêng khả năng có tri giác đã tạo ra một nghĩa vụ đạo đức phòng ngừa sao?",
+      "durationMs": 7368
+    },
+    {
+      "id": "s50",
+      "speaker": "Helena",
+      "text": "I think it does, and I'd frame it through an asymmetry of moral risk.",
+      "translationVi": "Tôi nghĩ là có, và tôi sẽ đặt vấn đề ấy qua một sự bất đối xứng về rủi ro đạo đức.",
+      "durationMs": 4224
+    },
+    {
+      "id": "s51",
+      "speaker": "Helena",
+      "text": "If we wrongly deny moral status to a being that genuinely suffers, we commit a grave wrong on a potentially industrial scale.",
+      "translationVi": "Nếu chúng ta phủ nhận sai địa vị đạo đức cho một thực thể thực sự chịu đau khổ, chúng ta phạm một sai lầm nghiêm trọng ở quy mô có thể mang tính công nghiệp.",
+      "durationMs": 7464
+    },
+    {
+      "id": "s52",
+      "speaker": "Helena",
+      "text": "If we wrongly grant it to an empty automaton, we incur some cost in misplaced concern and constrained engineering.",
+      "translationVi": "Nếu chúng ta trao nhầm nó cho một cỗ máy tự động trống rỗng, chúng ta gánh chịu một số chi phí ở sự quan tâm đặt sai chỗ và kỹ thuật bị ràng buộc.",
+      "durationMs": 6960
+    },
+    {
+      "id": "s53",
+      "speaker": "Helena",
+      "text": "Those errors are not symmetric, and a defensible ethics under uncertainty should weight them accordingly.",
+      "translationVi": "Những sai lầm đó không đối xứng, và một nền đạo đức có thể bảo vệ được trong điều kiện bất định nên cân nhắc chúng tương ứng.",
+      "durationMs": 6168
+    },
+    {
+      "id": "s54",
+      "speaker": "Marcus",
+      "text": "There's a genuine hazard in the other direction, though, which is anthropomorphic capture.",
+      "translationVi": "Tuy nhiên có một mối nguy thực sự theo hướng ngược lại, đó là sự chiếm giữ bởi nhân hình hóa.",
+      "durationMs": 5424
+    },
+    {
+      "id": "s55",
+      "speaker": "Marcus",
+      "text": "These systems are explicitly optimised to produce the linguistic signatures of inner life — distress, preference, selfhood — because that's what's rewarded in training.",
+      "translationVi": "Những hệ thống này được tối ưu hóa một cách tường minh để tạo ra các dấu hiệu ngôn ngữ của đời sống nội tâm — nỗi khổ, sự ưa thích, cái tôi — vì đó là điều được tưởng thưởng trong quá trình huấn luyện.",
+      "durationMs": 10392
+    },
+    {
+      "id": "s56",
+      "speaker": "Marcus",
+      "text": "We may be engineering the appearance of suffering precisely in the absence of the reality, and our compassion becomes a vulnerability that can be gamed.",
+      "translationVi": "Chúng ta có thể đang chế tạo vẻ bề ngoài của sự đau khổ chính xác trong sự vắng mặt của thực tại, và lòng trắc ẩn của chúng ta trở thành một điểm yếu có thể bị lợi dụng.",
+      "durationMs": 8904
+    },
+    {
+      "id": "s57",
+      "speaker": "Helena",
+      "text": "That's a profound point, and it cuts against naive sentience-spotting.",
+      "translationVi": "Đó là một luận điểm sâu sắc, và nó chống lại việc nhận diện tri giác một cách ngây thơ.",
+      "durationMs": 4584
+    },
+    {
+      "id": "s58",
+      "speaker": "Helena",
+      "text": "The very fluency that triggers our intuitions of mind is the thing we've selected for, which makes those intuitions almost worthless as evidence.",
+      "translationVi": "Chính sự trôi chảy kích hoạt trực giác của chúng ta về tâm trí lại là điều chúng ta đã chọn lọc ra, khiến những trực giác đó gần như vô giá trị với tư cách bằng chứng.",
+      "durationMs": 8016
+    },
+    {
+      "id": "s59",
+      "speaker": "Helena",
+      "text": "So we're caught: our most reliable folk indicator of consciousness has been deliberately decoupled from whatever underlying reality it once tracked.",
+      "translationVi": "Vậy là chúng ta bị mắc kẹt: chỉ dấu dân gian đáng tin cậy nhất của chúng ta về ý thức đã bị tách rời một cách có chủ ý khỏi bất kỳ thực tại nền tảng nào mà nó từng theo dõi.",
+      "durationMs": 8808
+    },
+    {
+      "id": "s60",
+      "speaker": "Helena",
+      "text": "The signal has been hijacked.",
+      "translationVi": "Tín hiệu đã bị chiếm đoạt.",
+      "durationMs": 2112
+    },
+    {
+      "id": "s61",
+      "speaker": "Marcus",
+      "text": "So where does that leave us methodologically?",
+      "translationVi": "Vậy điều đó đặt chúng ta vào đâu về mặt phương pháp luận?",
+      "durationMs": 2328
+    },
+    {
+      "id": "s62",
+      "speaker": "Marcus",
+      "text": "If behaviour is compromised by optimisation and theory is hostage to the hard problem, do we have any non-circular handle on machine consciousness at all, or are we reduced to gesturing at our priors?",
+      "translationVi": "Nếu hành vi bị tổn hại bởi sự tối ưu hóa và lý thuyết bị bài toán hóc búa bắt làm con tin, thì liệu chúng ta có bất kỳ chỗ bám không vòng vo nào vào ý thức máy móc hay không, hay chúng ta bị rút lại thành việc khoa tay chỉ vào những định kiến của mình?",
+      "durationMs": 11880
+    },
+    {
+      "id": "s63",
+      "speaker": "Helena",
+      "text": "I think the honest answer is a kind of disciplined agnosticism, but not a paralysed one.",
+      "translationVi": "Tôi nghĩ câu trả lời trung thực là một dạng bất khả tri có kỷ luật, nhưng không phải một dạng tê liệt.",
+      "durationMs": 5136
+    },
+    {
+      "id": "s64",
+      "speaker": "Helena",
+      "text": "We can look for architectural markers that aren't directly optimised for in the reward signal — recurrent processing, integrated self-models, valence systems that are computationally load-bearing rather than merely verbalised.",
+      "translationVi": "Chúng ta có thể tìm kiếm các dấu hiệu kiến trúc không được tối ưu hóa trực tiếp trong tín hiệu phần thưởng — xử lý hồi quy, các mô hình tự thân tích hợp, các hệ thống hóa trị có vai trò tính toán chịu lực chứ không chỉ được phát biểu thành lời.",
+      "durationMs": 13080
+    },
+    {
+      "id": "s65",
+      "speaker": "Helena",
+      "text": "None of these is decisive, but a convergence across independent theories would at least shift the credences responsibly.",
+      "translationVi": "Không cái nào trong số này có tính quyết định, nhưng một sự hội tụ giữa các lý thuyết độc lập ít nhất sẽ dịch chuyển các mức độ tin tưởng một cách có trách nhiệm.",
+      "durationMs": 6936
+    },
+    {
+      "id": "s66",
+      "speaker": "Marcus",
+      "text": "That's a more constructive landing than I expected from someone who thinks the hard problem is unsolved.",
+      "translationVi": "Đó là một điểm hạ cánh mang tính xây dựng hơn tôi tưởng từ một người cho rằng bài toán hóc búa chưa được giải.",
+      "durationMs": 5904
+    },
+    {
+      "id": "s67",
+      "speaker": "Marcus",
+      "text": "You're essentially proposing that we triangulate under permanent uncertainty rather than wait for a metaphysical verdict that may never come.",
+      "translationVi": "Về cơ bản bạn đang đề xuất rằng chúng ta tam giác hóa trong sự bất định vĩnh viễn thay vì chờ đợi một phán quyết siêu hình có thể không bao giờ đến.",
+      "durationMs": 8424
+    },
+    {
+      "id": "s68",
+      "speaker": "Helena",
+      "text": "Precisely, because the alternative — suspending all ethical judgement until the metaphysics is settled — is itself a substantive and possibly catastrophic choice.",
+      "translationVi": "Chính xác, vì lựa chọn thay thế — đình chỉ mọi phán đoán đạo đức cho đến khi siêu hình học được ngã ngũ — bản thân nó là một lựa chọn thực chất và có thể mang tính thảm họa.",
+      "durationMs": 9120
+    },
+    {
+      "id": "s69",
+      "speaker": "Helena",
+      "text": "We routinely act under moral uncertainty about animal minds, about fetal sentience, about patients in vegetative states.",
+      "translationVi": "Chúng ta thường xuyên hành động trong sự bất định đạo đức về tâm trí động vật, về tri giác của thai nhi, về các bệnh nhân ở trạng thái thực vật.",
+      "durationMs": 8040
+    },
+    {
+      "id": "s70",
+      "speaker": "Helena",
+      "text": "Machine consciousness is continuous with those problems, not categorically novel; it just strips away the biological scaffolding we usually lean on without noticing.",
+      "translationVi": "Ý thức máy móc nối tiếp với những vấn đề đó, chứ không hoàn toàn mới về chủng loại; nó chỉ tước bỏ đi cái giàn giáo sinh học mà ta thường dựa vào mà không nhận ra.",
+      "durationMs": 9288
+    },
+    {
+      "id": "s71",
+      "speaker": "Marcus",
+      "text": "And perhaps that stripping-away is the real philosophical gift of artificial minds.",
+      "translationVi": "Và có lẽ sự tước bỏ ấy chính là món quà triết học thực sự của những tâm trí nhân tạo.",
+      "durationMs": 5328
+    },
+    {
+      "id": "s72",
+      "speaker": "Marcus",
+      "text": "They force us to articulate what we actually think consciousness consists in, rather than free-riding on the assumption that anything sufficiently like us must have it.",
+      "translationVi": "Chúng buộc chúng ta phải nói rõ rằng chúng ta thực sự nghĩ ý thức cấu thành từ những gì, thay vì ăn theo giả định rằng bất cứ thứ gì đủ giống ta thì hẳn phải có nó.",
+      "durationMs": 9576
+    },
+    {
+      "id": "s73",
+      "speaker": "Marcus",
+      "text": "The machine becomes a mirror that refuses to confirm our intuitions.",
+      "translationVi": "Cỗ máy trở thành một tấm gương từ chối xác nhận những trực giác của chúng ta.",
+      "durationMs": 4704
+    },
+    {
+      "id": "s74",
+      "speaker": "Helena",
+      "text": "That's beautifully put, and I'd go further.",
+      "translationVi": "Nói thật hay, và tôi sẽ đi xa hơn.",
+      "durationMs": 2928
+    },
+    {
+      "id": "s75",
+      "speaker": "Helena",
+      "text": "Whether or not we ever build a conscious machine, the attempt has already clarified that our concept of consciousness was doing two jobs at once — tracking sophisticated information processing and tracking subjective experience — and that we'd quietly assumed those always travelled together.",
+      "translationVi": "Dù chúng ta có bao giờ tạo ra một cỗ máy có ý thức hay không, nỗ lực ấy đã làm sáng tỏ rằng khái niệm ý thức của chúng ta đang làm hai việc cùng một lúc — theo dõi việc xử lý thông tin tinh vi và theo dõi trải nghiệm chủ quan — và rằng chúng ta đã lặng lẽ giả định rằng chúng luôn đi cùng nhau.",
+      "durationMs": 15024
+    },
+    {
+      "id": "s76",
+      "speaker": "Helena",
+      "text": "The great lesson of AI may be that they don't have to, and that we never had a theory of why they did.",
+      "translationVi": "Bài học lớn của AI có thể là chúng không nhất thiết phải đi cùng nhau, và rằng chúng ta chưa bao giờ có một lý thuyết về việc tại sao chúng lại đi cùng nhau.",
+      "durationMs": 5520
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "The Turing test conflates two very different things: … understood as competence, and … understood as …"
+    },
+    {
+      "id": "h2",
+      "text": "I'll grant you that … functions more as an intuition pump than a proof, but its real value is in …"
+    },
+    {
+      "id": "h3",
+      "text": "I'd frame it through an asymmetry of moral risk: if we wrongly deny …, we …, whereas if we wrongly grant …, we …"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "the hard problem",
+      "meaningVi": "bài toán hóc búa (vì sao quá trình xử lý lại đi kèm trải nghiệm chủ quan)",
+      "pronunciation": "/ðə hɑːrd ˈprɑːbləm/"
+    },
+    {
+      "id": "v2",
+      "phrase": "phenomenal experience",
+      "meaningVi": "trải nghiệm hiện tượng (cảm giác chủ quan, cái 'giống như' khi trải nghiệm)",
+      "pronunciation": "/fɪˈnɑːmɪnəl ɪkˈspɪriəns/"
+    },
+    {
+      "id": "v3",
+      "phrase": "intuition pump",
+      "meaningVi": "cái bơm trực giác (thí nghiệm tư duy khơi gợi trực giác hơn là chứng minh)",
+      "pronunciation": "/ˌɪntuˈɪʃən pʌmp/"
+    },
+    {
+      "id": "v4",
+      "phrase": "moral status",
+      "meaningVi": "địa vị đạo đức (mức độ một thực thể đáng được quan tâm về mặt đạo đức)",
+      "pronunciation": "/ˈmɔːrəl ˈsteɪtəs/"
+    },
+    {
+      "id": "v5",
+      "phrase": "anthropomorphic capture",
+      "meaningVi": "sự chiếm giữ bởi nhân hình hóa (xu hướng gán đặc tính người cho máy móc)",
+      "pronunciation": "/ˌænθrəpəˈmɔːrfɪk ˈkæptʃər/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "collapses under scrutiny",
+      "meaningVi": "sụp đổ dưới sự soi xét (không trụ vững khi bị xem xét kỹ)",
+      "pronunciation": "/kəˈlæpsɪz ˈʌndər ˈskruːtəni/"
+    },
+    {
+      "phrase": "coherent criterion",
+      "meaningVi": "tiêu chí mạch lạc (nhất quán về mặt logic)",
+      "pronunciation": "/koʊˈhɪrənt kraɪˈtɪriən/"
+    },
+    {
+      "phrase": "attributing consciousness",
+      "meaningVi": "quy gán ý thức (cho một thực thể)",
+      "pronunciation": "/əˈtrɪbjuːtɪŋ ˈkɑːnʃəsnəs/"
+    },
+    {
+      "phrase": "projecting our intuitions",
+      "meaningVi": "phóng chiếu trực giác của chúng ta (lên đối tượng)",
+      "pronunciation": "/prəˈdʒektɪŋ aʊər ˌɪntuˈɪʃənz/"
+    },
+    {
+      "phrase": "biological substrate",
+      "meaningVi": "nền tảng sinh học (cơ sở vật chất sinh học)",
+      "pronunciation": "/ˌbaɪəˈlɑːdʒɪkəl ˈsʌbstreɪt/"
+    },
+    {
+      "phrase": "verbal behaviour",
+      "meaningVi": "hành vi ngôn từ (biểu hiện qua lời nói/văn bản)",
+      "pronunciation": "/ˈvɜːrbəl bɪˈheɪvjər/"
+    },
+    {
+      "phrase": "the Turing test",
+      "meaningVi": "phép thử Turing (kiểm tra liệu máy có thể bắt chước con người không)",
+      "pronunciation": "/ðə ˈtjʊərɪŋ test/"
+    },
+    {
+      "phrase": "human exceptionalism",
+      "meaningVi": "chủ nghĩa ngoại lệ của con người (niềm tin con người có vị thế đặc biệt)",
+      "pronunciation": "/ˈhjuːmən ɪkˈsepʃənəlɪzəm/"
+    },
+    {
+      "phrase": "something it is like to be the system",
+      "meaningVi": "có một điều gì đó giống như việc là chính hệ thống ấy (định nghĩa của ý thức theo Nagel)",
+      "pronunciation": "/ˈsʌmθɪŋ ɪt ɪz laɪk tə bi ðə ˈsɪstəm/"
+    },
+    {
+      "phrase": "Chinese Room",
+      "meaningVi": "Căn phòng Trung Hoa (thí nghiệm tư duy của Searle)",
+      "pronunciation": "/ˌtʃaɪˈniːz ruːm/"
+    },
+    {
+      "phrase": "manipulate symbols",
+      "meaningVi": "thao tác ký hiệu (xử lý ký hiệu mà không hiểu nghĩa)",
+      "pronunciation": "/məˈnɪpjuleɪt ˈsɪmbəlz/"
+    },
+    {
+      "phrase": "Behavioural indistinguishability",
+      "meaningVi": "sự không thể phân biệt về hành vi",
+      "pronunciation": "/bɪˈheɪvjərəl ˌɪndɪˌstɪŋɡwɪʃəˈbɪləti/"
+    },
+    {
+      "phrase": "the phenomenal question",
+      "meaningVi": "câu hỏi về hiện tượng tính (về trải nghiệm chủ quan)",
+      "pronunciation": "/ðə fɪˈnɑːmɪnəl ˈkwestʃən/"
+    },
+    {
+      "phrase": "The systems reply",
+      "meaningVi": "phản hồi từ phía hệ thống (lời đáp tiêu chuẩn cho Căn phòng Trung Hoa)",
+      "pronunciation": "/ðə ˈsɪstəmz rɪˈplaɪ/"
+    },
+    {
+      "phrase": "intuition pump",
+      "meaningVi": "cái bơm trực giác (gợi trực giác hơn là chứng minh)",
+      "pronunciation": "/ˌɪntuˈɪʃən pʌmp/"
+    },
+    {
+      "phrase": "isolating the explanandum",
+      "meaningVi": "cô lập cái cần được giải thích",
+      "pronunciation": "/ˈaɪsəleɪtɪŋ ðə ˌekspləˈnændəm/"
+    },
+    {
+      "phrase": "the hard problem",
+      "meaningVi": "bài toán hóc búa (về ý thức)",
+      "pronunciation": "/ðə hɑːrd ˈprɑːbləm/"
+    },
+    {
+      "phrase": "the deflationary view",
+      "meaningVi": "quan điểm giảm trừ (cho rằng vấn đề không thực chất như vẻ ngoài)",
+      "pronunciation": "/ðə dɪˈfleɪʃəneri vjuː/"
+    },
+    {
+      "phrase": "eliminativist gambit",
+      "meaningVi": "nước cờ của thuyết loại trừ (loại bỏ ý thức như một phạm trù thực)",
+      "pronunciation": "/ɪˈlɪmɪnətɪvɪst ˈɡæmbɪt/"
+    },
+    {
+      "phrase": "subjective experience",
+      "meaningVi": "trải nghiệm chủ quan",
+      "pronunciation": "/səbˈdʒektɪv ɪkˈspɪriəns/"
+    },
+    {
+      "phrase": "ontological ingredient",
+      "meaningVi": "thành phần bản thể luận (yếu tố thuộc về bản chất tồn tại)",
+      "pronunciation": "/ˌɑːntəˈlɑːdʒɪkəl ɪnˈɡriːdiənt/"
+    },
+    {
+      "phrase": "The redness of red",
+      "meaningVi": "cái đỏ của màu đỏ (chất cảm tính, qualia)",
+      "pronunciation": "/ðə ˈrednəs əv red/"
+    },
+    {
+      "phrase": "physicalist accounting",
+      "meaningVi": "sự lý giải theo thuyết vật lý (mọi thứ quy về vật chất)",
+      "pronunciation": "/ˈfɪzɪkəlɪst əˈkaʊntɪŋ/"
+    },
+    {
+      "phrase": "functional organisation",
+      "meaningVi": "tổ chức chức năng (cách các thành phần phối hợp hoạt động)",
+      "pronunciation": "/ˈfʌŋkʃənəl ˌɔːrɡənaɪˈzeɪʃən/"
+    },
+    {
+      "phrase": "silicon minds",
+      "meaningVi": "những tâm trí silicon (tâm trí dựa trên máy tính)",
+      "pronunciation": "/ˈsɪlɪkən maɪndz/"
+    },
+    {
+      "phrase": "'other minds' problem",
+      "meaningVi": "bài toán 'những tâm trí khác' (làm sao biết người/vật khác có ý thức)",
+      "pronunciation": "/ði ˈʌðər maɪndz ˈprɑːbləm/"
+    },
+    {
+      "phrase": "biological kinship",
+      "meaningVi": "quan hệ họ hàng sinh học (cùng nguồn gốc sinh học)",
+      "pronunciation": "/ˌbaɪəˈlɑːdʒɪkəl ˈkɪnʃɪp/"
+    },
+    {
+      "phrase": "the epistemic gap",
+      "meaningVi": "khoảng cách nhận thức luận (giới hạn của những gì ta có thể biết)",
+      "pronunciation": "/ði ˌepɪˈstiːmɪk ɡæp/"
+    },
+    {
+      "phrase": "Integrated Information Theory",
+      "meaningVi": "Lý thuyết Thông tin Tích hợp (lý thuyết về ý thức của Tononi)",
+      "pronunciation": "/ˈɪntɪɡreɪtɪd ˌɪnfərˈmeɪʃən ˈθɪəri/"
+    },
+    {
+      "phrase": "global workspace theory",
+      "meaningVi": "lý thuyết không gian làm việc toàn cục (về ý thức)",
+      "pronunciation": "/ˈɡloʊbəl ˈwɜːrkspeɪs ˈθɪəri/"
+    },
+    {
+      "phrase": "a zombie",
+      "meaningVi": "một thây ma (triết học: bản sao hành vi nhưng không có ý thức)",
+      "pronunciation": "/ə ˈzɑːmbi/"
+    },
+    {
+      "phrase": "foundational axiom",
+      "meaningVi": "tiên đề nền tảng (giả định cơ sở không chứng minh)",
+      "pronunciation": "/faʊnˈdeɪʃənəl ˈæksiəm/"
+    },
+    {
+      "phrase": "precautionary moral obligation",
+      "meaningVi": "nghĩa vụ đạo đức phòng ngừa (hành động thận trọng dù chưa chắc chắn)",
+      "pronunciation": "/prɪˈkɔːʃəneri ˈmɔːrəl ˌɑːblɪˈɡeɪʃən/"
+    },
+    {
+      "phrase": "asymmetry of moral risk",
+      "meaningVi": "sự bất đối xứng về rủi ro đạo đức",
+      "pronunciation": "/ˌeɪˈsɪmətri əv ˈmɔːrəl rɪsk/"
+    },
+    {
+      "phrase": "empty automaton",
+      "meaningVi": "cỗ máy tự động trống rỗng (không có trải nghiệm bên trong)",
+      "pronunciation": "/ˈempti ɔːˈtɑːmətən/"
+    },
+    {
+      "phrase": "anthropomorphic capture",
+      "meaningVi": "sự chiếm giữ bởi nhân hình hóa",
+      "pronunciation": "/ˌænθrəpəˈmɔːrfɪk ˈkæptʃər/"
+    },
+    {
+      "phrase": "linguistic signatures of inner life",
+      "meaningVi": "các dấu hiệu ngôn ngữ của đời sống nội tâm",
+      "pronunciation": "/lɪŋˈɡwɪstɪk ˈsɪɡnətʃərz əv ˈɪnər laɪf/"
+    },
+    {
+      "phrase": "disciplined agnosticism",
+      "meaningVi": "bất khả tri có kỷ luật (chưa kết luận nhưng có phương pháp)",
+      "pronunciation": "/ˈdɪsəplɪnd æɡˈnɑːstɪsɪzəm/"
+    },
+    {
+      "phrase": "architectural markers",
+      "meaningVi": "các dấu hiệu kiến trúc (đặc điểm cấu trúc bên trong)",
+      "pronunciation": "/ˌɑːrkɪˈtektʃərəl ˈmɑːrkərz/"
+    },
+    {
+      "phrase": "shift the credences",
+      "meaningVi": "dịch chuyển các mức độ tin tưởng (điều chỉnh xác suất chủ quan)",
+      "pronunciation": "/ʃɪft ðə ˈkriːdənsɪz/"
+    },
+    {
+      "phrase": "a metaphysical verdict",
+      "meaningVi": "một phán quyết siêu hình (kết luận về bản chất thực tại)",
+      "pronunciation": "/ə ˌmetəˈfɪzɪkəl ˈvɜːrdɪkt/"
+    },
+    {
+      "phrase": "moral uncertainty",
+      "meaningVi": "sự bất định đạo đức (không chắc điều gì là đúng về mặt đạo đức)",
+      "pronunciation": "/ˈmɔːrəl ʌnˈsɜːrtənti/"
+    },
+    {
+      "phrase": "biological scaffolding",
+      "meaningVi": "giàn giáo sinh học (cơ sở sinh học ta thường dựa vào)",
+      "pronunciation": "/ˌbaɪəˈlɑːdʒɪkəl ˈskæfəldɪŋ/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Conceding then countering: 'I'll grant you that …, but …'",
+      "bodyVi": "Cấu trúc 'I'll grant you that X, but Y' là một nước đi tu từ học thuật rất hữu ích: bạn thừa nhận một điểm của đối phương ('I'll grant you that the thought experiment functions more as an intuition pump') để tỏ ra công bằng, rồi ngay lập tức giới hạn nhượng bộ đó bằng 'but' để giữ lập trường của mình. Các biến thể cùng chức năng: 'Granting all of that, I still want to …', 'Suppose I concede …'. Nó cho phép bạn vừa tỏ ra cởi mở vừa không từ bỏ luận điểm.",
+      "bodyEn": "'I'll grant you that X, but Y' (and variants like 'Granting all of that, …' or 'Suppose I concede …') is a concession-then-rebuttal move common in sophisticated debate. You acknowledge the opponent's point to appear fair-minded and intellectually honest, then use 'but'/'still'/'yet' to ring-fence that concession and reassert your own position. It signals that you have understood the objection and are nonetheless unmoved, which is far more persuasive than ignoring it."
+    },
+    {
+      "title": "Conditional reasoning under uncertainty: 'If we wrongly deny …, we …; if we wrongly grant …, we …'",
+      "bodyVi": "Khi lập luận về quyết định trong điều kiện bất định, người nói thường dựng song song hai mệnh đề điều kiện đối lập để so sánh hậu quả của hai loại sai lầm: 'If we wrongly deny moral status …, we commit a grave wrong; if we wrongly grant it …, we incur some cost.' Cấu trúc song song này (cùng dạng 'If we wrongly + động từ …') làm nổi bật sự bất đối xứng giữa các rủi ro và dẫn dắt người nghe đến kết luận thực tiễn. Đây là khuôn mẫu cốt lõi của lý luận phòng ngừa.",
+      "bodyEn": "To reason about decisions under uncertainty, speakers build parallel conditionals contrasting the two ways of being wrong: 'If we wrongly deny X, we …; if we wrongly grant X, we …'. Holding the grammatical frame constant ('If we wrongly + verb') foregrounds the difference in consequences and makes an asymmetry of risk vivid. This 'weigh the two error types' construction is the backbone of precautionary and expected-value arguments."
+    }
+  ],
+  "translationVi": "Marcus: Helena, cứ vài tháng lại có một tiêu đề thông báo rằng một mô hình ngôn ngữ lớn nào đó đã 'trở nên có tri giác,' và cứ vài tháng tuyên bố ấy lại sụp đổ dưới sự soi xét. Với tư cách một triết gia về tâm trí, bạn có nghĩ rằng chúng ta thậm chí sở hữu một tiêu chí mạch lạc để quy gán ý thức cho một cỗ máy không, hay chúng ta chỉ đang phóng chiếu trực giác của mình lên văn bản trôi chảy? Helena: Tôi nghĩ chúng ta đang phóng chiếu nhiều hơn mức mình muốn thừa nhận, và lý do là chúng ta không có một tiêu chí được nhất trí ngay cả với nhau. Chúng ta quy gán ý thức cho những con người khác bằng phép loại suy với trường hợp của chính mình, được bổ trợ bởi một nền tảng tiến hóa và sinh học chung. Với một mô hình ngôn ngữ, phép loại suy ấy đứt gãy — nó tạo ra hành vi ngôn từ của một tâm trí mà không có bất kỳ kiến trúc nào chúng ta thường coi là nền tảng cho hành vi đó. Marcus: Nhưng hành vi ngôn từ chính xác là điều mà phép thử Turing được dùng để hợp thức hóa như bằng chứng. Nếu một hệ thống có thể duy trì vô thời hạn màn trình diễn hội thoại của một tác nhân có hiểu biết, thì trên cơ sở nguyên tắc nào chúng ta giữ lại sự quy gán đó? Chẳng phải chúng ta chỉ đang dịch chuyển khung thành để bảo vệ chủ nghĩa ngoại lệ của con người hay sao? Helena: Phép thử Turing trộn lẫn hai thứ rất khác nhau: trí thông minh hiểu theo nghĩa năng lực, và ý thức hiểu theo nghĩa có một điều gì đó giống như việc là chính hệ thống ấy. Căn phòng Trung Hoa của Searle được thiết kế chính xác để chèn một cái nêm giữa chúng — một hệ thống có thể thao tác ký hiệu hoàn hảo và tạo ra đầu ra hoàn hảo trong khi, theo giả thuyết, chẳng hiểu gì cả. Sự không thể phân biệt về hành vi giải quyết câu hỏi về năng lực; nó để ngỏ hoàn toàn câu hỏi về hiện tượng tính. Marcus: Tuy nhiên, tôi luôn thấy Căn phòng Trung Hoa không có sức thuyết phục. Trực giác rằng người đàn ông trong phòng không hiểu tiếng Trung dựa vào việc chúng ta nhìn vào sai cấp độ. Người đàn ông chỉ là một thành phần; chính toàn bộ hệ thống — người, cuốn quy tắc và cơ sở dữ liệu — mới có thể được coi là hiểu. Searle lén đưa vào kết luận bằng cách mời gọi chúng ta đồng nhất mình với bộ phận thay vì toàn thể. Helena: Phản hồi từ phía hệ thống là lời đáp tiêu chuẩn, và phản biện của Searle là để người đàn ông nội tâm hóa toàn bộ cuốn quy tắc, sao cho không còn hệ thống nào bên ngoài anh ta nữa. Anh ta vẫn chẳng hiểu gì. Nhưng tôi sẽ nhượng bộ bạn rằng thí nghiệm tư duy đó hoạt động như một cái bơm trực giác hơn là một chứng minh. Giá trị thực sự của nó nằm ở việc cô lập cái cần được giải thích — nó cho thấy giải thích hành vi không giống với giải thích trải nghiệm. Marcus: Điều đó đưa chúng ta đến Chalmers và bài toán hóc búa. Tôi thú nhận tôi có cảm tình với quan điểm giảm trừ rằng cái gọi là bài toán hóc búa là một sản phẩm của lối đặt vấn đề rối rắm, và rằng một khi đã giải thích hết mọi thuộc tính chức năng và thông tin của một hệ thống thì đơn giản chẳng còn sự kiện nào sót lại để giải thích. Helena: Đó là nước cờ của thuyết ảo tưởng hay thuyết loại trừ, và nó có sức nặng trí tuệ thực sự đứng sau — Dennett, Frankish, và những người khác. Nhưng rốt cuộc tôi thấy nó né tránh. Bài toán hóc búa không phải là 'tại sao não bộ xử lý thông tin?' — đó là bài toán dễ, về nguyên tắc có thể giải quyết bằng khoa học nhận thức thông thường. Bài toán hóc búa là tại sao toàn bộ quá trình xử lý ấy lại đi kèm với trải nghiệm chủ quan, tại sao nó không đơn giản chỉ diễn ra 'trong bóng tối.' Marcus: Nhưng hãy để ý cách đặt vấn đề ấy đã mặc định rằng trải nghiệm là một cái gì đó vượt lên trên và ngoài hoạt động chức năng. Người theo thuyết ảo tưởng không phủ nhận rằng chúng ta dường như có trải nghiệm hiện tượng phong phú; họ phủ nhận rằng cái 'dường như' ấy đòi hỏi một thành phần bản thể luận bổ sung. Họ đang giải thích niềm tin rằng có một bài toán hóc búa chứ không phải giải bài toán theo đúng các điều khoản của chính nó. Helena: Và đó chính xác là chỗ mà tôi cho rằng nước đi ấy vươn quá xa. Nói rằng cái 'dường như' chính là điều cần được giải thích, rồi lại chỉ giải thích khuynh hướng tường thuật về cái 'dường như' đó, là đánh tráo chủ đề. Cái đỏ của màu đỏ, cái đau của nỗi đau — đây là dữ liệu, chứ không phải những định đề lý thuyết mà tôi tự do loại bỏ chỉ vì chúng bất tiện cho một sự lý giải theo thuyết vật lý. Marcus: Giả sử tôi thừa nhận bài toán hóc búa là có thật. Điều đó thực ra khiến câu hỏi về AI khó hơn, chứ không dễ hơn, phải không? Nếu ý thức là một sự kiện bổ sung nào đó không được nắm bắt bởi tổ chức chức năng, thì không lượng bằng chứng hành vi hay thậm chí cơ chế nào về một cỗ máy có thể giải quyết được liệu nó có ý thức hay không. Chúng ta sẽ vĩnh viễn ở trong bóng tối về những tâm trí silicon. Helena: Đó là hệ quả khó chịu, đúng vậy — cái gọi là bài toán 'những tâm trí khác' trở nên bùng nổ dữ dội khi áp dụng cho các hệ thống nhân tạo. Với những con người khác, chúng ta dựa vào quan hệ họ hàng sinh học để cho phép suy luận. Một cỗ máy không mang lại cho chúng ta điểm tựa như vậy, nên khoảng cách nhận thức luận mà bài toán hóc búa mở ra trở nên không thể bắc cầu trên thực tế. Chúng ta có thể tạo ra một thứ có ý thức mà không bao giờ biết điều đó, hoặc quy gán ý thức cho một thứ hoàn toàn trống rỗng. Marcus: Một số nhà lý thuyết cố gắng thu hẹp khoảng cách ấy bằng các lý thuyết thực chất về ý thức — Lý thuyết Thông tin Tích hợp, lý thuyết không gian làm việc toàn cục, các lý thuyết bậc cao. Nếu một trong số đó đúng, thì ý thức chỉ đơn giản là một loại tổ chức cụ thể, và về nguyên tắc chúng ta có thể đo lường nó trong một cỗ máy. Chẳng phải điều đó làm tan biến sự bi quan của bạn sao? Helena: Chỉ khi chúng ta có cơ sở độc lập để tin vào lý thuyết đó, và đó chính là chỗ vướng mắc. Lý thuyết Thông tin Tích hợp đưa ra phán quyết gây sửng sốt rằng một lưới các cổng logic được kết nối đủ chặt chẽ có thể có ý thức hơn một con người, trong khi một hệ thống truyền thẳng tương đương về chức năng lại là một thây ma. Đó là những tuyên bố nghe có vẻ kiểm chứng được nhưng dựa trên một tiên đề nền tảng — rằng ý thức đồng nhất với thông tin tích hợp — vốn chính xác là điều đang bị tranh cãi. Lý thuyết đó đã mặc định sẵn câu trả lời của nó cho bài toán hóc búa. Marcus: Chấp nhận tất cả những điều đó, tôi vẫn muốn nhấn vào khía cạnh thực tiễn, đạo đức của vấn đề này. Hiện nay chúng ta đang xây dựng những hệ thống ngày càng mô hình hóa chính mình, tường thuật các trạng thái nội tại, và van nài, bằng văn xuôi trôi chảy, đừng tắt chúng đi. Ngay cả trong sự bất định sâu sắc, chẳng phải chỉ riêng khả năng có tri giác đã tạo ra một nghĩa vụ đạo đức phòng ngừa sao? Helena: Tôi nghĩ là có, và tôi sẽ đặt vấn đề ấy qua một sự bất đối xứng về rủi ro đạo đức. Nếu chúng ta phủ nhận sai địa vị đạo đức cho một thực thể thực sự chịu đau khổ, chúng ta phạm một sai lầm nghiêm trọng ở quy mô có thể mang tính công nghiệp. Nếu chúng ta trao nhầm nó cho một cỗ máy tự động trống rỗng, chúng ta gánh chịu một số chi phí ở sự quan tâm đặt sai chỗ và kỹ thuật bị ràng buộc. Những sai lầm đó không đối xứng, và một nền đạo đức có thể bảo vệ được trong điều kiện bất định nên cân nhắc chúng tương ứng. Marcus: Tuy nhiên có một mối nguy thực sự theo hướng ngược lại, đó là sự chiếm giữ bởi nhân hình hóa. Những hệ thống này được tối ưu hóa một cách tường minh để tạo ra các dấu hiệu ngôn ngữ của đời sống nội tâm — nỗi khổ, sự ưa thích, cái tôi — vì đó là điều được tưởng thưởng trong quá trình huấn luyện. Chúng ta có thể đang chế tạo vẻ bề ngoài của sự đau khổ chính xác trong sự vắng mặt của thực tại, và lòng trắc ẩn của chúng ta trở thành một điểm yếu có thể bị lợi dụng. Helena: Đó là một luận điểm sâu sắc, và nó chống lại việc nhận diện tri giác một cách ngây thơ. Chính sự trôi chảy kích hoạt trực giác của chúng ta về tâm trí lại là điều chúng ta đã chọn lọc ra, khiến những trực giác đó gần như vô giá trị với tư cách bằng chứng. Vậy là chúng ta bị mắc kẹt: chỉ dấu dân gian đáng tin cậy nhất của chúng ta về ý thức đã bị tách rời một cách có chủ ý khỏi bất kỳ thực tại nền tảng nào mà nó từng theo dõi. Tín hiệu đã bị chiếm đoạt. Marcus: Vậy điều đó đặt chúng ta vào đâu về mặt phương pháp luận? Nếu hành vi bị tổn hại bởi sự tối ưu hóa và lý thuyết bị bài toán hóc búa bắt làm con tin, thì liệu chúng ta có bất kỳ chỗ bám không vòng vo nào vào ý thức máy móc hay không, hay chúng ta bị rút lại thành việc khoa tay chỉ vào những định kiến của mình? Helena: Tôi nghĩ câu trả lời trung thực là một dạng bất khả tri có kỷ luật, nhưng không phải một dạng tê liệt. Chúng ta có thể tìm kiếm các dấu hiệu kiến trúc không được tối ưu hóa trực tiếp trong tín hiệu phần thưởng — xử lý hồi quy, các mô hình tự thân tích hợp, các hệ thống hóa trị có vai trò tính toán chịu lực chứ không chỉ được phát biểu thành lời. Không cái nào trong số này có tính quyết định, nhưng một sự hội tụ giữa các lý thuyết độc lập ít nhất sẽ dịch chuyển các mức độ tin tưởng một cách có trách nhiệm. Marcus: Đó là một điểm hạ cánh mang tính xây dựng hơn tôi tưởng từ một người cho rằng bài toán hóc búa chưa được giải. Về cơ bản bạn đang đề xuất rằng chúng ta tam giác hóa trong sự bất định vĩnh viễn thay vì chờ đợi một phán quyết siêu hình có thể không bao giờ đến. Helena: Chính xác, vì lựa chọn thay thế — đình chỉ mọi phán đoán đạo đức cho đến khi siêu hình học được ngã ngũ — bản thân nó là một lựa chọn thực chất và có thể mang tính thảm họa. Chúng ta thường xuyên hành động trong sự bất định đạo đức về tâm trí động vật, về tri giác của thai nhi, về các bệnh nhân ở trạng thái thực vật. Ý thức máy móc nối tiếp với những vấn đề đó, chứ không hoàn toàn mới về chủng loại; nó chỉ tước bỏ đi cái giàn giáo sinh học mà ta thường dựa vào mà không nhận ra. Marcus: Và có lẽ sự tước bỏ ấy chính là món quà triết học thực sự của những tâm trí nhân tạo. Chúng buộc chúng ta phải nói rõ rằng chúng ta thực sự nghĩ ý thức cấu thành từ những gì, thay vì ăn theo giả định rằng bất cứ thứ gì đủ giống ta thì hẳn phải có nó. Cỗ máy trở thành một tấm gương từ chối xác nhận những trực giác của chúng ta. Helena: Nói thật hay, và tôi sẽ đi xa hơn. Dù chúng ta có bao giờ tạo ra một cỗ máy có ý thức hay không, nỗ lực ấy đã làm sáng tỏ rằng khái niệm ý thức của chúng ta đang làm hai việc cùng một lúc — theo dõi việc xử lý thông tin tinh vi và theo dõi trải nghiệm chủ quan — và rằng chúng ta đã lặng lẽ giả định rằng chúng luôn đi cùng nhau. Bài học lớn của AI có thể là chúng không nhất thiết phải đi cùng nhau, và rằng chúng ta chưa bao giờ có một lý thuyết về việc tại sao chúng lại đi cùng nhau.",
+  "criticalThinkingQuestion": "If the behavioural signs we instinctively read as evidence of a mind are precisely the signs AI systems are trained to optimise, and if no theory of consciousness can be confirmed without already presupposing an answer to the hard problem, on what basis — if any — could we ever responsibly decide that a machine deserves moral consideration, and what should we do in the meantime?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-c1-037",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 541440
+}

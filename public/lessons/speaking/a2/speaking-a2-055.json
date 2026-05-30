@@ -1,0 +1,465 @@
+{
+  "id": "speaking-a2-055",
+  "level": "A2",
+  "title": "Reporting a Noisy Hotel Room",
+  "summary": "A hotel guest calls the front desk to report a noisy room and asks the receptionist to change it.",
+  "topic": "Hotels and accommodation",
+  "tags": [
+    "Hotel",
+    "Front desk",
+    "Complaints"
+  ],
+  "characters": [
+    "Olivia",
+    "Daniel"
+  ],
+  "voices": {
+    "Olivia": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-AriaNeural"
+    },
+    "Daniel": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-AndrewNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Olivia",
+      "text": "Good evening. This is room 412. I'm sorry, but my room is really noisy."
+    },
+    {
+      "speaker": "Daniel",
+      "text": "I'm sorry to hear that. Can you tell me what the problem is?"
+    },
+    {
+      "speaker": "Olivia",
+      "text": "There's loud music coming from the room next door. I can't sleep at all."
+    },
+    {
+      "speaker": "Daniel",
+      "text": "I apologize for the trouble. Would you like me to ask them to turn it down?"
+    },
+    {
+      "speaker": "Olivia",
+      "text": "I'd really prefer to change rooms, if that's possible."
+    },
+    {
+      "speaker": "Daniel",
+      "text": "Of course. Let me check what rooms are available right now."
+    },
+    {
+      "speaker": "Olivia",
+      "text": "Thank you. I'd like a quiet room, away from the elevator if you can."
+    },
+    {
+      "speaker": "Daniel",
+      "text": "We have a room on the eighth floor. It's very quiet and faces the garden."
+    },
+    {
+      "speaker": "Olivia",
+      "text": "That sounds perfect. Is there any extra charge for the new room?"
+    },
+    {
+      "speaker": "Daniel",
+      "text": "No, there's no extra charge. It's the same room type as yours."
+    },
+    {
+      "speaker": "Olivia",
+      "text": "Great. How soon can I move?"
+    },
+    {
+      "speaker": "Daniel",
+      "text": "Right away. I'll send a porter to help you with your bags."
+    },
+    {
+      "speaker": "Olivia",
+      "text": "Thank you so much for your help. I really appreciate it."
+    },
+    {
+      "speaker": "Daniel",
+      "text": "You're welcome. I'm sorry again for the inconvenience. Enjoy your stay."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Olivia",
+      "text": "Good evening.",
+      "translationVi": "Chào buổi tối.",
+      "durationMs": 1728
+    },
+    {
+      "id": "s2",
+      "speaker": "Olivia",
+      "text": "This is room 412.",
+      "translationVi": "Đây là phòng 412.",
+      "durationMs": 2784
+    },
+    {
+      "id": "s3",
+      "speaker": "Olivia",
+      "text": "I'm sorry, but my room is really noisy.",
+      "translationVi": "Tôi xin lỗi, nhưng phòng của tôi rất ồn.",
+      "durationMs": 3384
+    },
+    {
+      "id": "s4",
+      "speaker": "Daniel",
+      "text": "I'm sorry to hear that.",
+      "translationVi": "Tôi rất tiếc khi nghe điều đó.",
+      "durationMs": 1464
+    },
+    {
+      "id": "s5",
+      "speaker": "Daniel",
+      "text": "Can you tell me what the problem is?",
+      "translationVi": "Bạn có thể cho tôi biết vấn đề là gì không?",
+      "durationMs": 1848
+    },
+    {
+      "id": "s6",
+      "speaker": "Olivia",
+      "text": "There's loud music coming from the room next door.",
+      "translationVi": "Có tiếng nhạc lớn phát ra từ phòng bên cạnh.",
+      "durationMs": 3576
+    },
+    {
+      "id": "s7",
+      "speaker": "Olivia",
+      "text": "I can't sleep at all.",
+      "translationVi": "Tôi không thể ngủ được chút nào.",
+      "durationMs": 2208
+    },
+    {
+      "id": "s8",
+      "speaker": "Daniel",
+      "text": "I apologize for the trouble.",
+      "translationVi": "Tôi xin lỗi vì sự phiền toái này.",
+      "durationMs": 1752
+    },
+    {
+      "id": "s9",
+      "speaker": "Daniel",
+      "text": "Would you like me to ask them to turn it down?",
+      "translationVi": "Bạn có muốn tôi yêu cầu họ vặn nhỏ lại không?",
+      "durationMs": 2112
+    },
+    {
+      "id": "s10",
+      "speaker": "Olivia",
+      "text": "I'd really prefer to change rooms, if that's possible.",
+      "translationVi": "Tôi thực sự muốn đổi phòng hơn, nếu có thể.",
+      "durationMs": 3912
+    },
+    {
+      "id": "s11",
+      "speaker": "Daniel",
+      "text": "Of course.",
+      "translationVi": "Tất nhiên rồi.",
+      "durationMs": 1008
+    },
+    {
+      "id": "s12",
+      "speaker": "Daniel",
+      "text": "Let me check what rooms are available right now.",
+      "translationVi": "Để tôi kiểm tra xem hiện có những phòng nào còn trống.",
+      "durationMs": 2424
+    },
+    {
+      "id": "s13",
+      "speaker": "Olivia",
+      "text": "Thank you.",
+      "translationVi": "Cảm ơn bạn.",
+      "durationMs": 1656
+    },
+    {
+      "id": "s14",
+      "speaker": "Olivia",
+      "text": "I'd like a quiet room, away from the elevator if you can.",
+      "translationVi": "Tôi muốn một phòng yên tĩnh, xa thang máy nếu được.",
+      "durationMs": 4104
+    },
+    {
+      "id": "s15",
+      "speaker": "Daniel",
+      "text": "We have a room on the eighth floor.",
+      "translationVi": "Chúng tôi có một phòng ở tầng tám.",
+      "durationMs": 1920
+    },
+    {
+      "id": "s16",
+      "speaker": "Daniel",
+      "text": "It's very quiet and faces the garden.",
+      "translationVi": "Phòng rất yên tĩnh và nhìn ra khu vườn.",
+      "durationMs": 2616
+    },
+    {
+      "id": "s17",
+      "speaker": "Olivia",
+      "text": "That sounds perfect.",
+      "translationVi": "Nghe thật tuyệt.",
+      "durationMs": 2256
+    },
+    {
+      "id": "s18",
+      "speaker": "Olivia",
+      "text": "Is there any extra charge for the new room?",
+      "translationVi": "Phòng mới có phụ phí nào không?",
+      "durationMs": 3192
+    },
+    {
+      "id": "s19",
+      "speaker": "Daniel",
+      "text": "No, there's no extra charge.",
+      "translationVi": "Không, không có phụ phí nào cả.",
+      "durationMs": 2256
+    },
+    {
+      "id": "s20",
+      "speaker": "Daniel",
+      "text": "It's the same room type as yours.",
+      "translationVi": "Nó cùng loại phòng với phòng của bạn.",
+      "durationMs": 1992
+    },
+    {
+      "id": "s21",
+      "speaker": "Olivia",
+      "text": "Great.",
+      "translationVi": "Tuyệt.",
+      "durationMs": 1536
+    },
+    {
+      "id": "s22",
+      "speaker": "Olivia",
+      "text": "How soon can I move?",
+      "translationVi": "Tôi có thể chuyển sớm đến mức nào?",
+      "durationMs": 2256
+    },
+    {
+      "id": "s23",
+      "speaker": "Daniel",
+      "text": "Right away.",
+      "translationVi": "Ngay bây giờ.",
+      "durationMs": 912
+    },
+    {
+      "id": "s24",
+      "speaker": "Daniel",
+      "text": "I'll send a porter to help you with your bags.",
+      "translationVi": "Tôi sẽ cử một nhân viên hành lý đến giúp bạn mang đồ.",
+      "durationMs": 2352
+    },
+    {
+      "id": "s25",
+      "speaker": "Olivia",
+      "text": "Thank you so much for your help.",
+      "translationVi": "Cảm ơn bạn rất nhiều vì đã giúp đỡ.",
+      "durationMs": 2664
+    },
+    {
+      "id": "s26",
+      "speaker": "Olivia",
+      "text": "I really appreciate it.",
+      "translationVi": "Tôi thực sự rất cảm kích.",
+      "durationMs": 2472
+    },
+    {
+      "id": "s27",
+      "speaker": "Daniel",
+      "text": "You're welcome.",
+      "translationVi": "Không có gì.",
+      "durationMs": 936
+    },
+    {
+      "id": "s28",
+      "speaker": "Daniel",
+      "text": "I'm sorry again for the inconvenience.",
+      "translationVi": "Tôi xin lỗi lần nữa vì sự bất tiện này.",
+      "durationMs": 2352
+    },
+    {
+      "id": "s29",
+      "speaker": "Daniel",
+      "text": "Enjoy your stay.",
+      "translationVi": "Chúc bạn có kỳ nghỉ vui vẻ.",
+      "durationMs": 1176
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "I'm sorry, but my room is …"
+    },
+    {
+      "id": "h2",
+      "text": "I'd really prefer to … if that's possible."
+    },
+    {
+      "id": "h3",
+      "text": "Is there any extra charge for …?"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "noisy",
+      "meaningVi": "ồn ào",
+      "pronunciation": "/ˈnɔɪzi/"
+    },
+    {
+      "id": "v2",
+      "phrase": "front desk",
+      "meaningVi": "quầy lễ tân",
+      "pronunciation": "/frʌnt dɛsk/"
+    },
+    {
+      "id": "v3",
+      "phrase": "change rooms",
+      "meaningVi": "đổi phòng",
+      "pronunciation": "/tʃeɪndʒ ruːmz/"
+    },
+    {
+      "id": "v4",
+      "phrase": "available",
+      "meaningVi": "còn trống, có sẵn",
+      "pronunciation": "/əˈveɪləbəl/"
+    },
+    {
+      "id": "v5",
+      "phrase": "inconvenience",
+      "meaningVi": "sự bất tiện",
+      "pronunciation": "/ˌɪnkənˈviːniəns/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "I'm sorry to hear that",
+      "meaningVi": "Tôi rất tiếc khi nghe điều đó",
+      "pronunciation": "/aɪm ˈsɑːri tə hɪr ðæt/",
+      "exampleEn": "I'm sorry to hear that."
+    },
+    {
+      "phrase": "what the problem is",
+      "meaningVi": "vấn đề là gì",
+      "pronunciation": "/wʌt ðə ˈprɑːbləm ɪz/",
+      "exampleEn": "Can you tell me what the problem is?"
+    },
+    {
+      "phrase": "loud music",
+      "meaningVi": "nhạc to",
+      "pronunciation": "/laʊd ˈmjuːzɪk/",
+      "exampleEn": "There's loud music coming from the room next door."
+    },
+    {
+      "phrase": "the room next door",
+      "meaningVi": "phòng bên cạnh",
+      "pronunciation": "/ðə ruːm nɛkst dɔːr/",
+      "exampleEn": "There's loud music coming from the room next door."
+    },
+    {
+      "phrase": "I can't sleep at all",
+      "meaningVi": "tôi không thể ngủ được chút nào",
+      "pronunciation": "/aɪ kænt sliːp æt ɔːl/",
+      "exampleEn": "I can't sleep at all."
+    },
+    {
+      "phrase": "I apologize for the trouble",
+      "meaningVi": "tôi xin lỗi vì sự phiền toái",
+      "pronunciation": "/aɪ əˈpɑːlədʒaɪz fər ðə ˈtrʌbəl/",
+      "exampleEn": "I apologize for the trouble."
+    },
+    {
+      "phrase": "turn it down",
+      "meaningVi": "vặn nhỏ lại (âm lượng)",
+      "pronunciation": "/tɜːrn ɪt daʊn/",
+      "exampleEn": "Would you like me to ask them to turn it down?"
+    },
+    {
+      "phrase": "I'd really prefer to change rooms",
+      "meaningVi": "tôi thực sự muốn đổi phòng hơn",
+      "pronunciation": "/aɪd ˈrɪli prɪˈfɜːr tə tʃeɪndʒ ruːmz/",
+      "exampleEn": "I'd really prefer to change rooms, if that's possible."
+    },
+    {
+      "phrase": "rooms are available",
+      "meaningVi": "các phòng còn trống",
+      "pronunciation": "/ruːmz ər əˈveɪləbəl/",
+      "exampleEn": "Let me check what rooms are available right now."
+    },
+    {
+      "phrase": "a quiet room",
+      "meaningVi": "một phòng yên tĩnh",
+      "pronunciation": "/ə ˈkwaɪət ruːm/",
+      "exampleEn": "I'd like a quiet room, away from the elevator if you can."
+    },
+    {
+      "phrase": "away from the elevator",
+      "meaningVi": "xa thang máy",
+      "pronunciation": "/əˈweɪ frəm ði ˈɛlɪveɪtər/",
+      "exampleEn": "I'd like a quiet room, away from the elevator if you can."
+    },
+    {
+      "phrase": "faces the garden",
+      "meaningVi": "nhìn ra khu vườn",
+      "pronunciation": "/ˈfeɪsɪz ðə ˈɡɑːrdən/",
+      "exampleEn": "It's very quiet and faces the garden."
+    },
+    {
+      "phrase": "extra charge",
+      "meaningVi": "phụ phí",
+      "pronunciation": "/ˈɛkstrə tʃɑːrdʒ/",
+      "exampleEn": "Is there any extra charge for the new room?"
+    },
+    {
+      "phrase": "the same room type",
+      "meaningVi": "cùng loại phòng",
+      "pronunciation": "/ðə seɪm ruːm taɪp/",
+      "exampleEn": "It's the same room type as yours."
+    },
+    {
+      "phrase": "right away",
+      "meaningVi": "ngay lập tức",
+      "pronunciation": "/raɪt əˈweɪ/",
+      "exampleEn": "Right away."
+    },
+    {
+      "phrase": "I really appreciate it",
+      "meaningVi": "tôi thực sự rất cảm kích",
+      "pronunciation": "/aɪ ˈrɪli əˈpriːʃieɪt ɪt/",
+      "exampleEn": "I really appreciate it."
+    },
+    {
+      "phrase": "for the inconvenience",
+      "meaningVi": "vì sự bất tiện",
+      "pronunciation": "/fər ði ˌɪnkənˈviːniəns/",
+      "exampleEn": "I'm sorry again for the inconvenience."
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Polite requests with 'Would you like me to …?'",
+      "bodyVi": "Dùng 'Would you like me to + động từ nguyên thể' để lịch sự đề nghị làm việc gì cho người khác. Ví dụ: 'Would you like me to ask them to turn it down?'",
+      "bodyEn": "Use 'Would you like me to + base verb' to politely offer to do something for someone. Example: 'Would you like me to ask them to turn it down?'"
+    },
+    {
+      "title": "Softening preferences with 'I'd prefer to …'",
+      "bodyVi": "Dùng 'I'd prefer to + động từ' (rút gọn của 'I would prefer to') để nói lịch sự về điều bạn muốn hơn. Ví dụ: 'I'd really prefer to change rooms.'",
+      "bodyEn": "Use 'I'd prefer to + verb' (short for 'I would prefer to') to politely state what you want more. Example: 'I'd really prefer to change rooms.'"
+    }
+  ],
+  "translationVi": "Olivia: Chào buổi tối. Đây là phòng 412. Tôi xin lỗi, nhưng phòng của tôi rất ồn. Daniel: Tôi rất tiếc khi nghe điều đó. Bạn có thể cho tôi biết vấn đề là gì không? Olivia: Có tiếng nhạc lớn phát ra từ phòng bên cạnh. Tôi không thể ngủ được chút nào. Daniel: Tôi xin lỗi vì sự phiền toái này. Bạn có muốn tôi yêu cầu họ vặn nhỏ lại không? Olivia: Tôi thực sự muốn đổi phòng hơn, nếu có thể. Daniel: Tất nhiên rồi. Để tôi kiểm tra xem hiện có những phòng nào còn trống. Olivia: Cảm ơn bạn. Tôi muốn một phòng yên tĩnh, xa thang máy nếu được. Daniel: Chúng tôi có một phòng ở tầng tám. Phòng rất yên tĩnh và nhìn ra khu vườn. Olivia: Nghe thật tuyệt. Phòng mới có phụ phí nào không? Daniel: Không, không có phụ phí nào cả. Nó cùng loại phòng với phòng của bạn. Olivia: Tuyệt. Tôi có thể chuyển sớm đến mức nào? Daniel: Ngay bây giờ. Tôi sẽ cử một nhân viên hành lý đến giúp bạn mang đồ. Olivia: Cảm ơn bạn rất nhiều vì đã giúp đỡ. Tôi thực sự rất cảm kích. Daniel: Không có gì. Tôi xin lỗi lần nữa vì sự bất tiện này. Chúc bạn có kỳ nghỉ vui vẻ.",
+  "criticalThinkingQuestion": "When something goes wrong during a trip, do you think it's better to ask staff to fix the problem or to ask for a different option? Why?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-a2-055",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 64848
+}

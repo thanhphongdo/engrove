@@ -1,0 +1,270 @@
+{
+  "id": "speaking-a1-054",
+  "level": "A1",
+  "title": "Asking About Cinema Showtimes",
+  "summary": "Olivia asks a ticket seller what time a movie starts and buys two tickets.",
+  "topic": "At the cinema",
+  "tags": [
+    "Entertainment",
+    "Cinema",
+    "Time",
+    "Tickets"
+  ],
+  "characters": [
+    "Olivia",
+    "Clerk"
+  ],
+  "voices": {
+    "Olivia": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-MichelleNeural"
+    },
+    "Clerk": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-BrianNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Olivia",
+      "text": "Hi. What time does the new movie start?"
+    },
+    {
+      "speaker": "Clerk",
+      "text": "It starts at seven o'clock tonight."
+    },
+    {
+      "speaker": "Olivia",
+      "text": "Is there a later show?"
+    },
+    {
+      "speaker": "Clerk",
+      "text": "Yes. There is another show at nine o'clock."
+    },
+    {
+      "speaker": "Olivia",
+      "text": "The seven o'clock show is good. I want two tickets."
+    },
+    {
+      "speaker": "Clerk",
+      "text": "Okay. Two tickets are twenty dollars."
+    },
+    {
+      "speaker": "Olivia",
+      "text": "Where do we sit?"
+    },
+    {
+      "speaker": "Clerk",
+      "text": "You have seats in row F. Here are your tickets."
+    },
+    {
+      "speaker": "Olivia",
+      "text": "Thank you. How long is the movie?"
+    },
+    {
+      "speaker": "Clerk",
+      "text": "It is about two hours. Enjoy the film!"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Olivia",
+      "text": "Hi. What time does the new movie start?",
+      "translationVi": "Chào. Bộ phim mới chiếu lúc mấy giờ vậy?",
+      "durationMs": 3936
+    },
+    {
+      "id": "s2",
+      "speaker": "Clerk",
+      "text": "It starts at seven o'clock tonight.",
+      "translationVi": "Phim bắt đầu lúc bảy giờ tối nay.",
+      "durationMs": 2448
+    },
+    {
+      "id": "s3",
+      "speaker": "Olivia",
+      "text": "Is there a later show?",
+      "translationVi": "Có suất chiếu muộn hơn không?",
+      "durationMs": 2112
+    },
+    {
+      "id": "s4",
+      "speaker": "Clerk",
+      "text": "Yes. There is another show at nine o'clock.",
+      "translationVi": "Có. Có một suất chiếu khác lúc chín giờ.",
+      "durationMs": 3216
+    },
+    {
+      "id": "s5",
+      "speaker": "Olivia",
+      "text": "The seven o'clock show is good. I want two tickets.",
+      "translationVi": "Suất bảy giờ thì hay. Tôi muốn mua hai vé.",
+      "durationMs": 4752
+    },
+    {
+      "id": "s6",
+      "speaker": "Clerk",
+      "text": "Okay. Two tickets are twenty dollars.",
+      "translationVi": "Được rồi. Hai vé là hai mươi đô la.",
+      "durationMs": 2904
+    },
+    {
+      "id": "s7",
+      "speaker": "Olivia",
+      "text": "Where do we sit?",
+      "translationVi": "Chúng tôi ngồi ở đâu?",
+      "durationMs": 1776
+    },
+    {
+      "id": "s8",
+      "speaker": "Clerk",
+      "text": "You have seats in row F. Here are your tickets.",
+      "translationVi": "Bạn có ghế ở hàng F. Đây là vé của bạn.",
+      "durationMs": 3456
+    },
+    {
+      "id": "s9",
+      "speaker": "Olivia",
+      "text": "Thank you. How long is the movie?",
+      "translationVi": "Cảm ơn. Bộ phim dài bao lâu?",
+      "durationMs": 3600
+    },
+    {
+      "id": "s10",
+      "speaker": "Clerk",
+      "text": "It is about two hours. Enjoy the film!",
+      "translationVi": "Khoảng hai tiếng. Chúc xem phim vui vẻ!",
+      "durationMs": 3216
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "What time does … start?"
+    },
+    {
+      "id": "h2",
+      "text": "I want two tickets for …"
+    },
+    {
+      "id": "h3",
+      "text": "How long is …?"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "showtime",
+      "meaningVi": "giờ chiếu / suất chiếu",
+      "pronunciation": "/ˈʃoʊtaɪm/"
+    },
+    {
+      "id": "v2",
+      "phrase": "ticket",
+      "meaningVi": "vé",
+      "pronunciation": "/ˈtɪkɪt/"
+    },
+    {
+      "id": "v3",
+      "phrase": "seat",
+      "meaningVi": "ghế ngồi",
+      "pronunciation": "/siːt/"
+    },
+    {
+      "id": "v4",
+      "phrase": "row",
+      "meaningVi": "hàng (ghế)",
+      "pronunciation": "/roʊ/"
+    },
+    {
+      "id": "v5",
+      "phrase": "film",
+      "meaningVi": "bộ phim",
+      "pronunciation": "/fɪlm/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "What time does the new movie start?",
+      "meaningVi": "Bộ phim mới chiếu lúc mấy giờ?",
+      "pronunciation": "/wɒt taɪm dʌz ðə njuː ˈmuːvi stɑːrt/"
+    },
+    {
+      "phrase": "It starts at seven o'clock",
+      "meaningVi": "Phim bắt đầu lúc bảy giờ",
+      "pronunciation": "/ɪt stɑːrts æt ˈsɛvən əˈklɒk/"
+    },
+    {
+      "phrase": "Is there a later show?",
+      "meaningVi": "Có suất chiếu muộn hơn không?",
+      "pronunciation": "/ɪz ðɛr ə ˈleɪtər ʃoʊ/"
+    },
+    {
+      "phrase": "another show at nine o'clock",
+      "meaningVi": "một suất chiếu khác lúc chín giờ",
+      "pronunciation": "/əˈnʌðər ʃoʊ æt naɪn əˈklɒk/"
+    },
+    {
+      "phrase": "I want two tickets",
+      "meaningVi": "Tôi muốn mua hai vé",
+      "pronunciation": "/aɪ wɒnt tuː ˈtɪkɪts/"
+    },
+    {
+      "phrase": "Two tickets are twenty dollars",
+      "meaningVi": "Hai vé là hai mươi đô la",
+      "pronunciation": "/tuː ˈtɪkɪts ɑːr ˈtwɛnti ˈdɒlərz/"
+    },
+    {
+      "phrase": "Where do we sit?",
+      "meaningVi": "Chúng tôi ngồi ở đâu?",
+      "pronunciation": "/wɛr duː wiː sɪt/"
+    },
+    {
+      "phrase": "seats in row F",
+      "meaningVi": "ghế ở hàng F",
+      "pronunciation": "/siːts ɪn roʊ ɛf/"
+    },
+    {
+      "phrase": "How long is the movie?",
+      "meaningVi": "Bộ phim dài bao lâu?",
+      "pronunciation": "/haʊ lɒŋ ɪz ðə ˈmuːvi/"
+    },
+    {
+      "phrase": "about two hours",
+      "meaningVi": "khoảng hai tiếng",
+      "pronunciation": "/əˈbaʊt tuː ˈaʊərz/"
+    },
+    {
+      "phrase": "Enjoy the film!",
+      "meaningVi": "Chúc xem phim vui vẻ!",
+      "pronunciation": "/ɪnˈdʒɔɪ ðə fɪlm/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Asking about time: 'What time does … start?'",
+      "bodyVi": "Dùng 'What time does + chủ ngữ số ít + động từ nguyên thể?' để hỏi giờ: 'What time does the movie start?' Trợ động từ 'does' đi với chủ ngữ số ít, động từ chính giữ nguyên thể.",
+      "bodyEn": "Use 'What time does + singular subject + base verb?' to ask about time: 'What time does the movie start?' The auxiliary 'does' goes with a singular subject, and the main verb stays in its base form."
+    },
+    {
+      "title": "Telling time: 'at … o'clock'",
+      "bodyVi": "Dùng 'at + giờ + o'clock' để nói giờ chẵn: 'at seven o'clock', 'at nine o'clock'. Giới từ 'at' luôn đi trước giờ cụ thể.",
+      "bodyEn": "Use 'at + hour + o'clock' for a whole hour: 'at seven o'clock', 'at nine o'clock'. The preposition 'at' always comes before a specific clock time."
+    }
+  ],
+  "translationVi": "Olivia: Chào. Bộ phim mới chiếu lúc mấy giờ vậy? Nhân viên: Phim bắt đầu lúc bảy giờ tối nay. Olivia: Có suất chiếu muộn hơn không? Nhân viên: Có. Có một suất chiếu khác lúc chín giờ. Olivia: Suất bảy giờ thì hay. Tôi muốn mua hai vé. Nhân viên: Được rồi. Hai vé là hai mươi đô la. Olivia: Chúng tôi ngồi ở đâu? Nhân viên: Bạn có ghế ở hàng F. Đây là vé của bạn. Olivia: Cảm ơn. Bộ phim dài bao lâu? Nhân viên: Khoảng hai tiếng. Chúc xem phim vui vẻ!",
+  "criticalThinkingQuestion": "Do you prefer watching a movie at the cinema or at home? Why?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-a1-054",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 31416
+}

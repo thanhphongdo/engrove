@@ -1,0 +1,799 @@
+{
+  "id": "speaking-c1-042",
+  "level": "C1",
+  "title": "The Ethics of Surveillance Capitalism",
+  "summary": "Privacy scholar Naomi and behavioural economist Marcus debate surveillance capitalism: whether the extraction of behavioural data, the fiction of meaningful consent, the concentration of predictive power, and the commodification of human futures constitute a genuine assault on autonomy or a manageable feature of the digital economy.",
+  "topic": "data ethics",
+  "tags": [
+    "Ethics",
+    "Technology",
+    "Privacy"
+  ],
+  "characters": [
+    "Naomi",
+    "Marcus"
+  ],
+  "voices": {
+    "Naomi": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-MichelleNeural"
+    },
+    "Marcus": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-BrianNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Naomi",
+      "text": "Marcus, I want to start with the framing itself, because the term surveillance capitalism is doing analytical work that I think the industry would rather obscure. The claim is not merely that companies collect data, but that they have discovered a new economic logic — one that treats human experience as free raw material for extraction, prediction, and behavioural modification. Do you accept that there is something qualitatively novel here, or do you see it as continuous with ordinary advertising and market research?"
+    },
+    {
+      "speaker": "Marcus",
+      "text": "I accept that the scale is unprecedented, but I'm sceptical of the rupture narrative. Merchants have studied customers, and advertisers have manipulated desire, for as long as commerce has existed. What changed is the granularity and the feedback loop — the ability to observe behaviour, infer preferences, and adjust the environment in close to real time. That's a difference of degree so extreme it may shade into a difference in kind, but I'd want to establish that empirically rather than assume it."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "The difference in kind is precisely the point I'd defend. A grocer who notices you buy more when the bread is by the door is operating within a relationship you can perceive and contest. A system that builds a predictive model of your psychological vulnerabilities from millions of behavioural traces, then sells the capacity to nudge you at a moment of measured weakness, is operating in an asymmetry of knowledge and power that no ordinary market participant has ever enjoyed."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "The asymmetry is real, and I won't trivialise it. But asymmetries of information pervade the economy — your doctor, your lawyer, your mechanic all know things you don't and could exploit that. We don't abolish those relationships; we regulate them through professional duties and liability. The interesting question is why we've failed to construct an analogous fiduciary architecture for the people who hold our behavioural data."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "Because the business model is structurally adverse to such a duty, which is the crux of my concern. A fiduciary is bound to act in your interest. A surveillance platform's revenue depends on acting on behalf of whoever is paying to influence you — the advertiser, the campaign, the actor seeking your attention. You cannot graft a duty of loyalty onto an enterprise whose entire margin comes from a structural disloyalty to the user."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "That's a powerful framing, though I'd note it proves slightly less than you want. Plenty of intermediaries serve two masters and we manage the conflict — a real estate agent, a stockbroker. The conflict is disclosed and bounded. What's distinctive about behavioural platforms isn't the dual loyalty as such; it's that the conflict is hidden inside an interface engineered to feel like a neutral service, so the user never experiences themselves as a party to a transaction at all."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "And that concealment is exactly why the consent framework is a fiction. We are told that by clicking through a privacy policy nobody reads, written in language nobody could parse, the user has freely agreed to the extraction. But consent that is mandatory, uninformed, and bundled into access to essential infrastructure is not consent in any morally serious sense. It's the legal form of consent emptied of its ethical substance."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "Here I think your critique is strongest, and I'd largely join you. The notice-and-consent regime is theatre. But I'd push the analysis one step further than the privacy literature usually does — the problem isn't only that consent is uninformed; it's that the relevant harms are often collective rather than individual. Even a perfectly informed user can't consent on behalf of the social fabric that's reshaped when prediction products are deployed at population scale."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "That's an important amplification, and it exposes the inadequacy of treating privacy as a purely individual property right. When a platform infers, from your data, facts about people who never used the service — your relatives, your neighbours, the demographic you resemble — your individual consent was never the right unit of analysis. The harm is informational pollution that spills across the whole population, much like an environmental externality."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "The externality analogy is the most fruitful one in this debate, and it's where my training pulls me. If behavioural data extraction imposes diffuse costs on third parties that the extracting firm doesn't bear, then we have a textbook market failure, and the remedies are familiar — tax the externality, cap the activity, or assign and enforce property rights. I'm more optimistic than you that those instruments can be made to bite."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "I'd welcome those instruments, but I worry the externality frame domesticates something more troubling. Pollution doesn't try to change your beliefs. The distinctive product here is the prediction and modification of behaviour itself — the capacity to shift what people do, believe, and want at scale. Once a firm can reliably move behaviour, it isn't merely imposing a cost on a bystander; it's quietly reallocating the autonomy of the population it acts upon."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "I take the autonomy point seriously, but I want to be careful not to overstate the efficacy. The industry sells advertisers a story of near-omniscient prediction, and the privacy critique sometimes accepts that story uncritically in order to dramatise the threat. The empirical literature on how much behaviour these systems actually move is far messier — a lot of targeting is mediocre, and a lot of the predictive power is overclaimed to justify the price."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "That's a fair caution, and I'd accept that the marketing of prediction outruns its present reality. But I'd make two replies. First, the trajectory matters more than the snapshot — capability is improving, and policy built around current mediocrity will be obsolete fast. Second, even imperfect prediction, deployed across billions of interactions, produces real aggregate steering. You don't need to move every individual reliably to move an electorate or a market measurably."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "The aggregate-steering point is well taken, and it reframes the question from individual manipulation to systemic influence over collective choice. That's genuinely where I think the gravest risk lies — not that an ad makes you buy a particular shoe, but that the architecture of attention, optimised for engagement, systematically privileges the inflammatory over the considered and thereby corrodes the conditions for democratic deliberation. That's a power question, not a privacy question."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "And reframing it as a power question is, to my mind, the necessary move. The concentration of predictive capacity in a handful of firms is a concentration of power over the informational environment in which people form beliefs, make choices, and govern themselves. We have spent two centuries building doctrines to constrain concentrated power — antitrust, the separation of powers, a free press — and we've barely begun to ask which of those doctrines apply to entities that know us better than we know ourselves."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "On the prescription, then, where do you come down? Because diagnosing a power asymmetry is easier than designing the institution that corrects it without either ossifying the technology or simply handing the surveillance apparatus to the state instead of the market."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "I'd resist a single silver bullet and argue for a layered response. Structurally, I'd ban certain practices outright — behavioural data should not be a freely tradeable commodity, full stop, much as we've ruled some things outside the market. Beyond that, I'd impose genuine fiduciary duties on data holders, fund the public-interest alternatives that the advertising model has starved, and treat the largest predictive systems as the concentrations of power they are. The point is not to perfect consent but to shrink the domain in which consent is even being asked."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "That's a more coherent programme than the field usually offers, and I find myself agreeing with more of it than I expected to when we began. My residual worry is one of governance, not principle — every instrument you name concentrates discretionary power somewhere, in a regulator or a court, and that power is itself susceptible to capture. But that's an argument for designing the institutions carefully, not for leaving the extraction unchallenged. On the central claim — that treating human futures as raw material is a line a decent society should be willing to draw — I think you've persuaded me the burden of proof now lies with those who'd leave it undrawn."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Naomi",
+      "text": "Marcus, I want to start with the framing itself, because the term surveillance capitalism is doing analytical work that I think the industry would rather obscure.",
+      "translationVi": "Marcus, tôi muốn bắt đầu từ chính cách đặt vấn đề, vì thuật ngữ chủ nghĩa tư bản giám sát đang làm một công việc phân tích mà tôi nghĩ ngành công nghiệp muốn che giấu hơn.",
+      "durationMs": 8952
+    },
+    {
+      "id": "s2",
+      "speaker": "Naomi",
+      "text": "The claim is not merely that companies collect data, but that they have discovered a new economic logic — one that treats human experience as free raw material for extraction, prediction, and behavioural modification.",
+      "translationVi": "Luận điểm không chỉ đơn thuần là các công ty thu thập dữ liệu, mà là họ đã phát hiện ra một logic kinh tế mới — một logic coi trải nghiệm của con người như nguyên liệu thô miễn phí để khai thác, dự đoán, và chỉnh sửa hành vi.",
+      "durationMs": 11808
+    },
+    {
+      "id": "s3",
+      "speaker": "Naomi",
+      "text": "Do you accept that there is something qualitatively novel here, or do you see it as continuous with ordinary advertising and market research?",
+      "translationVi": "Bạn có chấp nhận rằng có điều gì đó mới mẻ về mặt chất lượng ở đây không, hay bạn xem nó là sự tiếp nối của quảng cáo và nghiên cứu thị trường thông thường?",
+      "durationMs": 7728
+    },
+    {
+      "id": "s4",
+      "speaker": "Marcus",
+      "text": "I accept that the scale is unprecedented, but I'm sceptical of the rupture narrative.",
+      "translationVi": "Tôi chấp nhận rằng quy mô là chưa từng có, nhưng tôi hoài nghi về câu chuyện đứt gãy.",
+      "durationMs": 5640
+    },
+    {
+      "id": "s5",
+      "speaker": "Marcus",
+      "text": "Merchants have studied customers, and advertisers have manipulated desire, for as long as commerce has existed.",
+      "translationVi": "Các thương nhân đã nghiên cứu khách hàng, và các nhà quảng cáo đã thao túng ham muốn, kể từ khi thương mại tồn tại.",
+      "durationMs": 7800
+    },
+    {
+      "id": "s6",
+      "speaker": "Marcus",
+      "text": "What changed is the granularity and the feedback loop — the ability to observe behaviour, infer preferences, and adjust the environment in close to real time.",
+      "translationVi": "Điều đã thay đổi là độ chi tiết và vòng phản hồi — khả năng quan sát hành vi, suy ra sở thích, và điều chỉnh môi trường gần như theo thời gian thực.",
+      "durationMs": 8904
+    },
+    {
+      "id": "s7",
+      "speaker": "Marcus",
+      "text": "That's a difference of degree so extreme it may shade into a difference in kind, but I'd want to establish that empirically rather than assume it.",
+      "translationVi": "Đó là một sự khác biệt về mức độ cực đoan đến nỗi nó có thể chuyển dần thành một sự khác biệt về bản chất, nhưng tôi muốn xác lập điều đó bằng thực nghiệm thay vì mặc định nó.",
+      "durationMs": 8232
+    },
+    {
+      "id": "s8",
+      "speaker": "Naomi",
+      "text": "The difference in kind is precisely the point I'd defend.",
+      "translationVi": "Sự khác biệt về bản chất chính xác là điểm tôi sẽ bảo vệ.",
+      "durationMs": 3768
+    },
+    {
+      "id": "s9",
+      "speaker": "Naomi",
+      "text": "A grocer who notices you buy more when the bread is by the door is operating within a relationship you can perceive and contest.",
+      "translationVi": "Một người bán tạp hóa nhận thấy bạn mua nhiều hơn khi bánh mì đặt cạnh cửa đang hoạt động trong một mối quan hệ mà bạn có thể nhận thức và phản đối.",
+      "durationMs": 7080
+    },
+    {
+      "id": "s10",
+      "speaker": "Naomi",
+      "text": "A system that builds a predictive model of your psychological vulnerabilities from millions of behavioural traces, then sells the capacity to nudge you at a moment of measured weakness, is operating in an asymmetry of knowledge and power that no ordinary market participant has ever enjoyed.",
+      "translationVi": "Một hệ thống xây dựng mô hình dự đoán về các điểm yếu tâm lý của bạn từ hàng triệu dấu vết hành vi, rồi bán đi khả năng thúc đẩy bạn vào một khoảnh khắc yếu đuối đã được đo lường, đang hoạt động trong một sự bất đối xứng về tri thức và quyền lực mà chưa một thành phần thị trường thông thường nào từng được hưởng.",
+      "durationMs": 15216
+    },
+    {
+      "id": "s11",
+      "speaker": "Marcus",
+      "text": "The asymmetry is real, and I won't trivialise it.",
+      "translationVi": "Sự bất đối xứng là có thật, và tôi sẽ không xem nhẹ nó.",
+      "durationMs": 3648
+    },
+    {
+      "id": "s12",
+      "speaker": "Marcus",
+      "text": "But asymmetries of information pervade the economy — your doctor, your lawyer, your mechanic all know things you don't and could exploit that.",
+      "translationVi": "Nhưng các bất đối xứng thông tin tràn ngập nền kinh tế — bác sĩ, luật sư, thợ sửa xe của bạn đều biết những điều bạn không biết và có thể lợi dụng điều đó.",
+      "durationMs": 7296
+    },
+    {
+      "id": "s13",
+      "speaker": "Marcus",
+      "text": "We don't abolish those relationships; we regulate them through professional duties and liability.",
+      "translationVi": "Chúng ta không xóa bỏ những mối quan hệ đó; chúng ta điều tiết chúng thông qua nghĩa vụ nghề nghiệp và trách nhiệm pháp lý.",
+      "durationMs": 6120
+    },
+    {
+      "id": "s14",
+      "speaker": "Marcus",
+      "text": "The interesting question is why we've failed to construct an analogous fiduciary architecture for the people who hold our behavioural data.",
+      "translationVi": "Câu hỏi thú vị là tại sao chúng ta đã thất bại trong việc xây dựng một kiến trúc ủy thác tương tự cho những người nắm giữ dữ liệu hành vi của chúng ta.",
+      "durationMs": 7392
+    },
+    {
+      "id": "s15",
+      "speaker": "Naomi",
+      "text": "Because the business model is structurally adverse to such a duty, which is the crux of my concern.",
+      "translationVi": "Bởi vì mô hình kinh doanh về mặt cấu trúc đối nghịch với một nghĩa vụ như vậy, đó là điểm cốt lõi trong mối quan ngại của tôi.",
+      "durationMs": 5832
+    },
+    {
+      "id": "s16",
+      "speaker": "Naomi",
+      "text": "A fiduciary is bound to act in your interest.",
+      "translationVi": "Một bên được ủy thác bị ràng buộc phải hành động vì lợi ích của bạn.",
+      "durationMs": 3504
+    },
+    {
+      "id": "s17",
+      "speaker": "Naomi",
+      "text": "A surveillance platform's revenue depends on acting on behalf of whoever is paying to influence you — the advertiser, the campaign, the actor seeking your attention.",
+      "translationVi": "Doanh thu của một nền tảng giám sát phụ thuộc vào việc hành động thay mặt cho bất kỳ ai đang trả tiền để gây ảnh hưởng đến bạn — nhà quảng cáo, chiến dịch, kẻ đang tìm kiếm sự chú ý của bạn.",
+      "durationMs": 9528
+    },
+    {
+      "id": "s18",
+      "speaker": "Naomi",
+      "text": "You cannot graft a duty of loyalty onto an enterprise whose entire margin comes from a structural disloyalty to the user.",
+      "translationVi": "Bạn không thể ghép một nghĩa vụ trung thành vào một doanh nghiệp mà toàn bộ lợi nhuận của nó đến từ sự bất trung mang tính cấu trúc đối với người dùng.",
+      "durationMs": 7296
+    },
+    {
+      "id": "s19",
+      "speaker": "Marcus",
+      "text": "That's a powerful framing, though I'd note it proves slightly less than you want.",
+      "translationVi": "Đó là một cách đặt vấn đề mạnh mẽ, mặc dù tôi xin lưu ý rằng nó chứng minh ít hơn một chút so với những gì bạn muốn.",
+      "durationMs": 4320
+    },
+    {
+      "id": "s20",
+      "speaker": "Marcus",
+      "text": "Plenty of intermediaries serve two masters and we manage the conflict — a real estate agent, a stockbroker.",
+      "translationVi": "Vô số trung gian phục vụ hai chủ và chúng ta vẫn quản lý được xung đột đó — một môi giới bất động sản, một nhà môi giới chứng khoán.",
+      "durationMs": 6552
+    },
+    {
+      "id": "s21",
+      "speaker": "Marcus",
+      "text": "The conflict is disclosed and bounded.",
+      "translationVi": "Xung đột được công khai và được giới hạn.",
+      "durationMs": 2904
+    },
+    {
+      "id": "s22",
+      "speaker": "Marcus",
+      "text": "What's distinctive about behavioural platforms isn't the dual loyalty as such; it's that the conflict is hidden inside an interface engineered to feel like a neutral service, so the user never experiences themselves as a party to a transaction at all.",
+      "translationVi": "Điều đặc biệt ở các nền tảng hành vi không phải là sự trung thành kép như vậy; mà là xung đột bị giấu bên trong một giao diện được thiết kế để cảm thấy như một dịch vụ trung lập, nên người dùng không bao giờ trải nghiệm bản thân như một bên trong một giao dịch.",
+      "durationMs": 14352
+    },
+    {
+      "id": "s23",
+      "speaker": "Naomi",
+      "text": "And that concealment is exactly why the consent framework is a fiction.",
+      "translationVi": "Và sự che giấu đó chính xác là lý do tại sao khuôn khổ đồng thuận là một điều hư cấu.",
+      "durationMs": 4488
+    },
+    {
+      "id": "s24",
+      "speaker": "Naomi",
+      "text": "We are told that by clicking through a privacy policy nobody reads, written in language nobody could parse, the user has freely agreed to the extraction.",
+      "translationVi": "Chúng ta được bảo rằng bằng cách bấm qua một chính sách bảo mật mà không ai đọc, được viết bằng thứ ngôn ngữ mà không ai có thể phân tích, người dùng đã tự do đồng ý với việc khai thác.",
+      "durationMs": 8736
+    },
+    {
+      "id": "s25",
+      "speaker": "Naomi",
+      "text": "But consent that is mandatory, uninformed, and bundled into access to essential infrastructure is not consent in any morally serious sense.",
+      "translationVi": "Nhưng sự đồng thuận mang tính bắt buộc, thiếu thông tin, và bị gói chung vào quyền truy cập vào hạ tầng thiết yếu không phải là sự đồng thuận theo bất kỳ nghĩa đạo đức nghiêm túc nào.",
+      "durationMs": 8832
+    },
+    {
+      "id": "s26",
+      "speaker": "Naomi",
+      "text": "It's the legal form of consent emptied of its ethical substance.",
+      "translationVi": "Đó là hình thức pháp lý của sự đồng thuận bị rút cạn nội dung đạo đức của nó.",
+      "durationMs": 4200
+    },
+    {
+      "id": "s27",
+      "speaker": "Marcus",
+      "text": "Here I think your critique is strongest, and I'd largely join you.",
+      "translationVi": "Ở đây tôi nghĩ sự phê bình của bạn là mạnh nhất, và tôi phần lớn sẽ đồng tình với bạn.",
+      "durationMs": 3864
+    },
+    {
+      "id": "s28",
+      "speaker": "Marcus",
+      "text": "The notice-and-consent regime is theatre.",
+      "translationVi": "Chế độ thông báo-và-đồng thuận là một màn kịch.",
+      "durationMs": 2880
+    },
+    {
+      "id": "s29",
+      "speaker": "Marcus",
+      "text": "But I'd push the analysis one step further than the privacy literature usually does — the problem isn't only that consent is uninformed; it's that the relevant harms are often collective rather than individual.",
+      "translationVi": "Nhưng tôi sẽ đẩy phân tích đi xa hơn một bước so với các tài liệu về quyền riêng tư thường làm — vấn đề không chỉ là sự đồng thuận thiếu thông tin; mà là những tổn hại liên quan thường mang tính tập thể chứ không phải cá nhân.",
+      "durationMs": 11424
+    },
+    {
+      "id": "s30",
+      "speaker": "Marcus",
+      "text": "Even a perfectly informed user can't consent on behalf of the social fabric that's reshaped when prediction products are deployed at population scale.",
+      "translationVi": "Ngay cả một người dùng được thông tin đầy đủ cũng không thể đồng thuận thay mặt cho cấu trúc xã hội bị tái định hình khi các sản phẩm dự đoán được triển khai ở quy mô dân số.",
+      "durationMs": 8448
+    },
+    {
+      "id": "s31",
+      "speaker": "Naomi",
+      "text": "That's an important amplification, and it exposes the inadequacy of treating privacy as a purely individual property right.",
+      "translationVi": "Đó là một sự khuếch đại quan trọng, và nó phơi bày sự bất cập của việc đối xử với quyền riêng tư như một quyền sở hữu thuần túy cá nhân.",
+      "durationMs": 7344
+    },
+    {
+      "id": "s32",
+      "speaker": "Naomi",
+      "text": "When a platform infers, from your data, facts about people who never used the service — your relatives, your neighbours, the demographic you resemble — your individual consent was never the right unit of analysis.",
+      "translationVi": "Khi một nền tảng suy ra, từ dữ liệu của bạn, những sự thật về những người chưa bao giờ dùng dịch vụ — họ hàng của bạn, hàng xóm của bạn, nhóm nhân khẩu mà bạn giống — thì sự đồng thuận cá nhân của bạn chưa bao giờ là đơn vị phân tích đúng.",
+      "durationMs": 12480
+    },
+    {
+      "id": "s33",
+      "speaker": "Naomi",
+      "text": "The harm is informational pollution that spills across the whole population, much like an environmental externality.",
+      "translationVi": "Tổn hại là sự ô nhiễm thông tin tràn ra khắp toàn bộ dân số, rất giống một ngoại tác môi trường.",
+      "durationMs": 6576
+    },
+    {
+      "id": "s34",
+      "speaker": "Marcus",
+      "text": "The externality analogy is the most fruitful one in this debate, and it's where my training pulls me.",
+      "translationVi": "Phép loại suy về ngoại tác là phép loại suy hiệu quả nhất trong cuộc tranh luận này, và đó là nơi chuyên môn đào tạo kéo tôi về.",
+      "durationMs": 6144
+    },
+    {
+      "id": "s35",
+      "speaker": "Marcus",
+      "text": "If behavioural data extraction imposes diffuse costs on third parties that the extracting firm doesn't bear, then we have a textbook market failure, and the remedies are familiar — tax the externality, cap the activity, or assign and enforce property rights.",
+      "translationVi": "Nếu việc khai thác dữ liệu hành vi áp đặt những chi phí lan tỏa lên các bên thứ ba mà công ty khai thác không phải gánh chịu, thì chúng ta có một thất bại thị trường kinh điển, và các biện pháp khắc phục thì quen thuộc — đánh thuế ngoại tác, giới hạn hoạt động, hoặc gán và thực thi các quyền sở hữu.",
+      "durationMs": 14088
+    },
+    {
+      "id": "s36",
+      "speaker": "Marcus",
+      "text": "I'm more optimistic than you that those instruments can be made to bite.",
+      "translationVi": "Tôi lạc quan hơn bạn rằng những công cụ đó có thể được làm cho có hiệu lực thực sự.",
+      "durationMs": 4440
+    },
+    {
+      "id": "s37",
+      "speaker": "Naomi",
+      "text": "I'd welcome those instruments, but I worry the externality frame domesticates something more troubling.",
+      "translationVi": "Tôi sẽ hoan nghênh những công cụ đó, nhưng tôi lo rằng khung ngoại tác đang thuần hóa một điều gì đó đáng lo ngại hơn.",
+      "durationMs": 5856
+    },
+    {
+      "id": "s38",
+      "speaker": "Naomi",
+      "text": "Pollution doesn't try to change your beliefs.",
+      "translationVi": "Ô nhiễm không cố gắng thay đổi niềm tin của bạn.",
+      "durationMs": 3048
+    },
+    {
+      "id": "s39",
+      "speaker": "Naomi",
+      "text": "The distinctive product here is the prediction and modification of behaviour itself — the capacity to shift what people do, believe, and want at scale.",
+      "translationVi": "Sản phẩm đặc trưng ở đây là việc dự đoán và chỉnh sửa chính hành vi — khả năng dịch chuyển những gì con người làm, tin, và muốn ở quy mô lớn.",
+      "durationMs": 9024
+    },
+    {
+      "id": "s40",
+      "speaker": "Naomi",
+      "text": "Once a firm can reliably move behaviour, it isn't merely imposing a cost on a bystander; it's quietly reallocating the autonomy of the population it acts upon.",
+      "translationVi": "Một khi một công ty có thể dịch chuyển hành vi một cách đáng tin cậy, nó không chỉ đơn thuần áp đặt một chi phí lên người ngoài cuộc; nó đang lặng lẽ phân bổ lại quyền tự chủ của dân số mà nó tác động lên.",
+      "durationMs": 9912
+    },
+    {
+      "id": "s41",
+      "speaker": "Marcus",
+      "text": "I take the autonomy point seriously, but I want to be careful not to overstate the efficacy.",
+      "translationVi": "Tôi xem trọng luận điểm về quyền tự chủ, nhưng tôi muốn cẩn thận để không phóng đại hiệu quả.",
+      "durationMs": 5688
+    },
+    {
+      "id": "s42",
+      "speaker": "Marcus",
+      "text": "The industry sells advertisers a story of near-omniscient prediction, and the privacy critique sometimes accepts that story uncritically in order to dramatise the threat.",
+      "translationVi": "Ngành công nghiệp bán cho các nhà quảng cáo một câu chuyện về sự dự đoán gần như toàn tri, và sự phê bình quyền riêng tư đôi khi chấp nhận câu chuyện đó một cách thiếu phê phán để kịch tính hóa mối đe dọa.",
+      "durationMs": 9912
+    },
+    {
+      "id": "s43",
+      "speaker": "Marcus",
+      "text": "The empirical literature on how much behaviour these systems actually move is far messier — a lot of targeting is mediocre, and a lot of the predictive power is overclaimed to justify the price.",
+      "translationVi": "Tài liệu thực nghiệm về việc những hệ thống này thực sự dịch chuyển hành vi bao nhiêu thì lộn xộn hơn nhiều — phần lớn việc nhắm mục tiêu là tầm thường, và phần lớn năng lực dự đoán bị thổi phồng để biện minh cho mức giá.",
+      "durationMs": 10752
+    },
+    {
+      "id": "s44",
+      "speaker": "Naomi",
+      "text": "That's a fair caution, and I'd accept that the marketing of prediction outruns its present reality.",
+      "translationVi": "Đó là một lời cảnh báo công bằng, và tôi chấp nhận rằng việc tiếp thị về dự đoán vượt xa thực tế hiện tại của nó.",
+      "durationMs": 5592
+    },
+    {
+      "id": "s45",
+      "speaker": "Naomi",
+      "text": "But I'd make two replies.",
+      "translationVi": "Nhưng tôi sẽ đưa ra hai phản hồi.",
+      "durationMs": 2568
+    },
+    {
+      "id": "s46",
+      "speaker": "Naomi",
+      "text": "First, the trajectory matters more than the snapshot — capability is improving, and policy built around current mediocrity will be obsolete fast.",
+      "translationVi": "Thứ nhất, quỹ đạo quan trọng hơn ảnh chụp tức thời — năng lực đang được cải thiện, và chính sách xây dựng quanh sự tầm thường hiện tại sẽ nhanh chóng lỗi thời.",
+      "durationMs": 9360
+    },
+    {
+      "id": "s47",
+      "speaker": "Naomi",
+      "text": "Second, even imperfect prediction, deployed across billions of interactions, produces real aggregate steering.",
+      "translationVi": "Thứ hai, ngay cả sự dự đoán không hoàn hảo, được triển khai trên hàng tỷ tương tác, cũng tạo ra sự lèo lái tổng hợp thực sự.",
+      "durationMs": 7344
+    },
+    {
+      "id": "s48",
+      "speaker": "Naomi",
+      "text": "You don't need to move every individual reliably to move an electorate or a market measurably.",
+      "translationVi": "Bạn không cần dịch chuyển mọi cá nhân một cách đáng tin cậy để dịch chuyển một cử tri đoàn hay một thị trường một cách đo lường được.",
+      "durationMs": 5400
+    },
+    {
+      "id": "s49",
+      "speaker": "Marcus",
+      "text": "The aggregate-steering point is well taken, and it reframes the question from individual manipulation to systemic influence over collective choice.",
+      "translationVi": "Luận điểm về sự lèo lái tổng hợp được tiếp nhận tốt, và nó đặt lại câu hỏi từ sự thao túng cá nhân sang ảnh hưởng mang tính hệ thống lên lựa chọn tập thể.",
+      "durationMs": 8592
+    },
+    {
+      "id": "s50",
+      "speaker": "Marcus",
+      "text": "That's genuinely where I think the gravest risk lies — not that an ad makes you buy a particular shoe, but that the architecture of attention, optimised for engagement, systematically privileges the inflammatory over the considered and thereby corrodes the conditions for democratic deliberation.",
+      "translationVi": "Đó thực sự là nơi tôi nghĩ rủi ro nghiêm trọng nhất nằm ở — không phải việc một quảng cáo khiến bạn mua một đôi giày cụ thể, mà là kiến trúc của sự chú ý, được tối ưu cho mức độ tương tác, đã ưu ái một cách có hệ thống cái kích động hơn cái được cân nhắc và do đó ăn mòn các điều kiện cho sự thảo luận dân chủ.",
+      "durationMs": 15480
+    },
+    {
+      "id": "s51",
+      "speaker": "Marcus",
+      "text": "That's a power question, not a privacy question.",
+      "translationVi": "Đó là một câu hỏi về quyền lực, không phải một câu hỏi về quyền riêng tư.",
+      "durationMs": 3480
+    },
+    {
+      "id": "s52",
+      "speaker": "Naomi",
+      "text": "And reframing it as a power question is, to my mind, the necessary move.",
+      "translationVi": "Và việc đặt lại nó như một câu hỏi về quyền lực, theo tôi, là một bước đi cần thiết.",
+      "durationMs": 5400
+    },
+    {
+      "id": "s53",
+      "speaker": "Naomi",
+      "text": "The concentration of predictive capacity in a handful of firms is a concentration of power over the informational environment in which people form beliefs, make choices, and govern themselves.",
+      "translationVi": "Sự tập trung năng lực dự đoán vào một số ít công ty là một sự tập trung quyền lực lên môi trường thông tin nơi con người hình thành niềm tin, đưa ra lựa chọn, và tự quản trị bản thân.",
+      "durationMs": 10800
+    },
+    {
+      "id": "s54",
+      "speaker": "Naomi",
+      "text": "We have spent two centuries building doctrines to constrain concentrated power — antitrust, the separation of powers, a free press — and we've barely begun to ask which of those doctrines apply to entities that know us better than we know ourselves.",
+      "translationVi": "Chúng ta đã dành hai thế kỷ để xây dựng các học thuyết nhằm kiềm chế quyền lực tập trung — chống độc quyền, tam quyền phân lập, một nền báo chí tự do — và chúng ta hầu như mới chỉ bắt đầu hỏi xem học thuyết nào trong số đó áp dụng cho các thực thể hiểu chúng ta hơn cả chúng ta hiểu chính mình.",
+      "durationMs": 13824
+    },
+    {
+      "id": "s55",
+      "speaker": "Marcus",
+      "text": "On the prescription, then, where do you come down?",
+      "translationVi": "Vậy về phương thuốc, bạn nghiêng về đâu?",
+      "durationMs": 3168
+    },
+    {
+      "id": "s56",
+      "speaker": "Marcus",
+      "text": "Because diagnosing a power asymmetry is easier than designing the institution that corrects it without either ossifying the technology or simply handing the surveillance apparatus to the state instead of the market.",
+      "translationVi": "Bởi vì chẩn đoán một sự bất đối xứng quyền lực thì dễ hơn là thiết kế thể chế sửa chữa nó mà không làm xơ cứng công nghệ hoặc đơn giản là trao bộ máy giám sát cho nhà nước thay vì thị trường.",
+      "durationMs": 11112
+    },
+    {
+      "id": "s57",
+      "speaker": "Naomi",
+      "text": "I'd resist a single silver bullet and argue for a layered response.",
+      "translationVi": "Tôi sẽ chống lại một viên đạn bạc duy nhất và lập luận cho một phản ứng nhiều tầng.",
+      "durationMs": 4728
+    },
+    {
+      "id": "s58",
+      "speaker": "Naomi",
+      "text": "Structurally, I'd ban certain practices outright — behavioural data should not be a freely tradeable commodity, full stop, much as we've ruled some things outside the market.",
+      "translationVi": "Về mặt cấu trúc, tôi sẽ cấm hẳn một số thực hành nhất định — dữ liệu hành vi không nên là một hàng hóa được giao dịch tự do, chấm hết, giống như chúng ta đã đặt một số thứ ra ngoài thị trường.",
+      "durationMs": 10344
+    },
+    {
+      "id": "s59",
+      "speaker": "Naomi",
+      "text": "Beyond that, I'd impose genuine fiduciary duties on data holders, fund the public-interest alternatives that the advertising model has starved, and treat the largest predictive systems as the concentrations of power they are.",
+      "translationVi": "Ngoài ra, tôi sẽ áp đặt những nghĩa vụ ủy thác thực sự lên những bên nắm giữ dữ liệu, tài trợ cho các giải pháp thay thế vì lợi ích công mà mô hình quảng cáo đã bỏ đói, và đối xử với những hệ thống dự đoán lớn nhất như những sự tập trung quyền lực đúng như bản chất của chúng.",
+      "durationMs": 12696
+    },
+    {
+      "id": "s60",
+      "speaker": "Naomi",
+      "text": "The point is not to perfect consent but to shrink the domain in which consent is even being asked.",
+      "translationVi": "Mục đích không phải là hoàn thiện sự đồng thuận mà là thu hẹp lĩnh vực trong đó sự đồng thuận thậm chí còn được hỏi đến.",
+      "durationMs": 5832
+    },
+    {
+      "id": "s61",
+      "speaker": "Marcus",
+      "text": "That's a more coherent programme than the field usually offers, and I find myself agreeing with more of it than I expected to when we began.",
+      "translationVi": "Đó là một chương trình mạch lạc hơn so với những gì lĩnh vực này thường đưa ra, và tôi nhận thấy mình đồng ý với nó nhiều hơn so với những gì tôi dự liệu khi chúng ta bắt đầu.",
+      "durationMs": 7968
+    },
+    {
+      "id": "s62",
+      "speaker": "Marcus",
+      "text": "My residual worry is one of governance, not principle — every instrument you name concentrates discretionary power somewhere, in a regulator or a court, and that power is itself susceptible to capture.",
+      "translationVi": "Mối lo còn lại của tôi là về quản trị, không phải về nguyên tắc — mọi công cụ bạn nêu ra đều tập trung quyền quyết định ở đâu đó, ở một cơ quan quản lý hoặc một tòa án, và bản thân quyền lực đó dễ bị thâu tóm.",
+      "durationMs": 11112
+    },
+    {
+      "id": "s63",
+      "speaker": "Marcus",
+      "text": "But that's an argument for designing the institutions carefully, not for leaving the extraction unchallenged.",
+      "translationVi": "Nhưng đó là một lập luận cho việc thiết kế các thể chế một cách cẩn thận, chứ không phải cho việc để mặc việc khai thác không bị thách thức.",
+      "durationMs": 6432
+    },
+    {
+      "id": "s64",
+      "speaker": "Marcus",
+      "text": "On the central claim — that treating human futures as raw material is a line a decent society should be willing to draw — I think you've persuaded me the burden of proof now lies with those who'd leave it undrawn.",
+      "translationVi": "Về luận điểm trung tâm — rằng việc đối xử với tương lai của con người như nguyên liệu thô là một ranh giới mà một xã hội tử tế nên sẵn sàng vạch ra — tôi nghĩ bạn đã thuyết phục được tôi rằng gánh nặng chứng minh giờ đây thuộc về những người muốn để nó không được vạch ra.",
+      "durationMs": 10944
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "I accept that … is unprecedented, but I'm sceptical of the rupture narrative, because …"
+    },
+    {
+      "id": "h2",
+      "text": "Here I think your critique is strongest, and I'd largely join you — but I'd push the analysis one step further: …"
+    },
+    {
+      "id": "h3",
+      "text": "On the central claim — that … is a line a decent society should be willing to draw — I think the burden of proof now lies with those who'd …"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "surveillance capitalism",
+      "meaningVi": "chủ nghĩa tư bản giám sát (mô hình kinh tế khai thác dữ liệu hành vi để dự đoán và tác động lên con người)",
+      "pronunciation": "/sərˈveɪləns ˈkæpɪtəlɪzəm/"
+    },
+    {
+      "id": "v2",
+      "phrase": "behavioural data extraction",
+      "meaningVi": "khai thác dữ liệu hành vi (thu thập dấu vết hành động của người dùng làm nguyên liệu)",
+      "pronunciation": "/bɪˈheɪvjərəl ˈdeɪtə ɪkˈstrækʃən/"
+    },
+    {
+      "id": "v3",
+      "phrase": "the consent framework",
+      "meaningVi": "khuôn khổ đồng thuận (cơ chế xin phép người dùng trước khi dùng dữ liệu của họ)",
+      "pronunciation": "/ðə kənˈsɛnt ˈfreɪmwɜːrk/"
+    },
+    {
+      "id": "v4",
+      "phrase": "fiduciary duty",
+      "meaningVi": "nghĩa vụ ủy thác (bổn phận pháp lý phải hành động vì lợi ích của bên kia)",
+      "pronunciation": "/fɪˈduːʃiˌɛri ˈduːti/"
+    },
+    {
+      "id": "v5",
+      "phrase": "an environmental externality",
+      "meaningVi": "một ngoại tác môi trường (chi phí mà hoạt động kinh tế áp lên bên thứ ba không liên quan)",
+      "pronunciation": "/ən ɪnˌvaɪrənˈmɛntl ˌɛkstərˈnæləti/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "surveillance capitalism",
+      "meaningVi": "chủ nghĩa tư bản giám sát (khai thác trải nghiệm con người làm nguyên liệu)",
+      "pronunciation": "/sərˈveɪləns ˈkæpɪtəlɪzəm/"
+    },
+    {
+      "phrase": "free raw material for extraction",
+      "meaningVi": "nguyên liệu thô miễn phí để khai thác (cách hệ thống coi dữ liệu người dùng)",
+      "pronunciation": "/friː rɔː məˈtɪriəl fɔːr ɪkˈstrækʃən/"
+    },
+    {
+      "phrase": "behavioural modification",
+      "meaningVi": "sự chỉnh sửa hành vi (tác động để thay đổi hành động của người dùng)",
+      "pronunciation": "/bɪˈheɪvjərəl ˌmɑːdəfɪˈkeɪʃən/"
+    },
+    {
+      "phrase": "qualitatively novel",
+      "meaningVi": "mới mẻ về mặt chất lượng (khác biệt về bản chất, không chỉ về mức độ)",
+      "pronunciation": "/ˈkwɑːlɪteɪtɪvli ˈnɑːvəl/"
+    },
+    {
+      "phrase": "the rupture narrative",
+      "meaningVi": "câu chuyện đứt gãy (luận điểm cho rằng đây là một sự cắt đứt hoàn toàn với quá khứ)",
+      "pronunciation": "/ðə ˈrʌptʃər ˈnærətɪv/"
+    },
+    {
+      "phrase": "the granularity and the feedback loop",
+      "meaningVi": "độ chi tiết và vòng phản hồi (mức độ tỉ mỉ của dữ liệu và chu trình điều chỉnh tức thời)",
+      "pronunciation": "/ðə ˌɡrænjəˈlærəti ænd ðə ˈfiːdbæk luːp/"
+    },
+    {
+      "phrase": "a difference of degree",
+      "meaningVi": "một sự khác biệt về mức độ (khác nhau về lượng chứ chưa hẳn về chất)",
+      "pronunciation": "/ə ˈdɪfərəns əv dɪˈɡriː/"
+    },
+    {
+      "phrase": "a difference in kind",
+      "meaningVi": "một sự khác biệt về bản chất (khác nhau về loại, về chất)",
+      "pronunciation": "/ə ˈdɪfərəns ɪn kaɪnd/"
+    },
+    {
+      "phrase": "predictive model of your psychological vulnerabilities",
+      "meaningVi": "mô hình dự đoán về các điểm yếu tâm lý của bạn",
+      "pronunciation": "/prɪˈdɪktɪv ˈmɑːdl əv jɔːr ˌsaɪkəˈlɑːdʒɪkəl ˌvʌlnərəˈbɪlətiz/"
+    },
+    {
+      "phrase": "behavioural traces",
+      "meaningVi": "các dấu vết hành vi (vết tích để lại từ hành động trực tuyến)",
+      "pronunciation": "/bɪˈheɪvjərəl ˈtreɪsɪz/"
+    },
+    {
+      "phrase": "asymmetry of knowledge and power",
+      "meaningVi": "sự bất đối xứng về tri thức và quyền lực (một bên biết và kiểm soát nhiều hơn hẳn)",
+      "pronunciation": "/ˌeɪˈsɪmətri əv ˈnɑːlɪdʒ ænd ˈpaʊər/"
+    },
+    {
+      "phrase": "asymmetries of information",
+      "meaningVi": "các bất đối xứng thông tin (một bên có thông tin mà bên kia không có)",
+      "pronunciation": "/ˌeɪˈsɪmətriz əv ˌɪnfərˈmeɪʃən/"
+    },
+    {
+      "phrase": "professional duties and liability",
+      "meaningVi": "nghĩa vụ nghề nghiệp và trách nhiệm pháp lý",
+      "pronunciation": "/prəˈfɛʃənl ˈduːtiz ænd ˌlaɪəˈbɪləti/"
+    },
+    {
+      "phrase": "fiduciary architecture",
+      "meaningVi": "kiến trúc ủy thác (hệ thống các nghĩa vụ buộc bên giữ dữ liệu phục vụ lợi ích người dùng)",
+      "pronunciation": "/fɪˈduːʃiˌɛri ˈɑːrkɪtɛktʃər/"
+    },
+    {
+      "phrase": "structurally adverse",
+      "meaningVi": "đối nghịch về mặt cấu trúc (mâu thuẫn nằm ngay trong bản chất mô hình)",
+      "pronunciation": "/ˈstrʌktʃərəli ædˈvɜːrs/"
+    },
+    {
+      "phrase": "a duty of loyalty",
+      "meaningVi": "một nghĩa vụ trung thành (bổn phận đặt lợi ích của người dùng lên trên)",
+      "pronunciation": "/ə ˈduːti əv ˈlɔɪəlti/"
+    },
+    {
+      "phrase": "structural disloyalty to the user",
+      "meaningVi": "sự bất trung mang tính cấu trúc đối với người dùng",
+      "pronunciation": "/ˈstrʌktʃərəl dɪsˈlɔɪəlti tə ðə ˈjuːzər/"
+    },
+    {
+      "phrase": "a party to a transaction",
+      "meaningVi": "một bên trong một giao dịch (người tham gia có quyền và nghĩa vụ)",
+      "pronunciation": "/ə ˈpɑːrti tə ə trænˈzækʃən/"
+    },
+    {
+      "phrase": "the consent framework is a fiction",
+      "meaningVi": "khuôn khổ đồng thuận là một điều hư cấu (sự đồng ý chỉ tồn tại trên hình thức)",
+      "pronunciation": "/ðə kənˈsɛnt ˈfreɪmwɜːrk ɪz ə ˈfɪkʃən/"
+    },
+    {
+      "phrase": "bundled into access to essential infrastructure",
+      "meaningVi": "bị gói chung vào quyền truy cập hạ tầng thiết yếu (buộc đồng ý để dùng dịch vụ cần thiết)",
+      "pronunciation": "/ˈbʌndld ˈɪntə ˈæksɛs tə ɪˈsɛnʃəl ˌɪnfrəˈstrʌktʃər/"
+    },
+    {
+      "phrase": "the notice-and-consent regime",
+      "meaningVi": "chế độ thông báo-và-đồng thuận (mô hình pháp lý hiện hành về quyền riêng tư)",
+      "pronunciation": "/ðə ˈnoʊtɪs ænd kənˈsɛnt reɪˈʒiːm/"
+    },
+    {
+      "phrase": "collective rather than individual",
+      "meaningVi": "mang tính tập thể hơn là cá nhân (tổn hại lan ra cả cộng đồng)",
+      "pronunciation": "/kəˈlɛktɪv ˈrɑːðər ðæn ˌɪndɪˈvɪdʒuəl/"
+    },
+    {
+      "phrase": "the social fabric",
+      "meaningVi": "cấu trúc xã hội (mạng lưới quan hệ và chuẩn mực gắn kết cộng đồng)",
+      "pronunciation": "/ðə ˈsoʊʃəl ˈfæbrɪk/"
+    },
+    {
+      "phrase": "informational pollution",
+      "meaningVi": "sự ô nhiễm thông tin (tác hại lan tỏa của dữ liệu suy luận ra ngoài người dùng gốc)",
+      "pronunciation": "/ˌɪnfərˈmeɪʃənl pəˈluːʃən/"
+    },
+    {
+      "phrase": "a textbook market failure",
+      "meaningVi": "một thất bại thị trường kinh điển (trường hợp thị trường không tự phân bổ hiệu quả)",
+      "pronunciation": "/ə ˈtɛkstbʊk ˈmɑːrkɪt ˈfeɪljər/"
+    },
+    {
+      "phrase": "near-omniscient prediction",
+      "meaningVi": "sự dự đoán gần như toàn tri (tuyên bố biết gần như mọi thứ về người dùng)",
+      "pronunciation": "/nɪr ɑːmˈnɪʃənt prɪˈdɪkʃən/"
+    },
+    {
+      "phrase": "aggregate steering",
+      "meaningVi": "sự lèo lái tổng hợp (dịch chuyển hành vi của cả một nhóm dù từng cá nhân khó đoán)",
+      "pronunciation": "/ˈæɡrɪɡət ˈstɪərɪŋ/"
+    },
+    {
+      "phrase": "the architecture of attention",
+      "meaningVi": "kiến trúc của sự chú ý (cách nền tảng được thiết kế để chiếm giữ và định hướng chú ý)",
+      "pronunciation": "/ðə ˈɑːrkɪtɛktʃər əv əˈtɛnʃən/"
+    },
+    {
+      "phrase": "the conditions for democratic deliberation",
+      "meaningVi": "các điều kiện cho sự thảo luận dân chủ (môi trường để công dân bàn bạc và ra quyết định chung)",
+      "pronunciation": "/ðə kənˈdɪʃənz fɔːr ˌdɛməˈkrætɪk dɪˌlɪbəˈreɪʃən/"
+    },
+    {
+      "phrase": "the concentration of predictive capacity",
+      "meaningVi": "sự tập trung năng lực dự đoán (quyền dự báo hành vi nằm trong tay một số ít hãng)",
+      "pronunciation": "/ðə ˌkɑːnsənˈtreɪʃən əv prɪˈdɪktɪv kəˈpæsəti/"
+    },
+    {
+      "phrase": "the separation of powers",
+      "meaningVi": "tam quyền phân lập (nguyên tắc chia tách quyền lập pháp, hành pháp, tư pháp)",
+      "pronunciation": "/ðə ˌsɛpəˈreɪʃən əv ˈpaʊərz/"
+    },
+    {
+      "phrase": "a single silver bullet",
+      "meaningVi": "một viên đạn bạc duy nhất (một giải pháp đơn lẻ giải quyết mọi vấn đề)",
+      "pronunciation": "/ə ˈsɪŋɡl ˈsɪlvər ˈbʊlɪt/"
+    },
+    {
+      "phrase": "a freely tradeable commodity",
+      "meaningVi": "một hàng hóa được giao dịch tự do (thứ có thể mua bán không hạn chế trên thị trường)",
+      "pronunciation": "/ə ˈfriːli ˈtreɪdəbl kəˈmɑːdəti/"
+    },
+    {
+      "phrase": "susceptible to capture",
+      "meaningVi": "dễ bị thâu tóm (thể chế bị các lợi ích mạnh chi phối, lệch khỏi mục đích công)",
+      "pronunciation": "/səˈsɛptəbl tə ˈkæptʃər/"
+    },
+    {
+      "phrase": "the burden of proof",
+      "meaningVi": "gánh nặng chứng minh (trách nhiệm phải đưa ra bằng chứng để bảo vệ một lập luận)",
+      "pronunciation": "/ðə ˈbɜːrdn əv pruːf/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Difference of degree vs difference in kind",
+      "bodyVi": "Cặp đối lập 'a difference of degree' (khác biệt về mức độ — chỉ là nhiều hơn hay ít hơn) và 'a difference in kind' (khác biệt về bản chất — thuộc loại khác hẳn) là một công cụ tư duy phê phán cốt lõi trong tranh luận triết học và chính sách. Người nói thường lập luận rằng một sự khác biệt về mức độ, khi đủ cực đoan, 'may shade into' (chuyển dần thành) một sự khác biệt về bản chất. Nắm vững cặp này giúp bạn xác định liệu một hiện tượng mới chỉ là sự nối dài của cái cũ hay thực sự là điều chưa từng có.",
+      "bodyEn": "The contrast between 'a difference of degree' (merely more or less of the same thing) and 'a difference in kind' (a categorically distinct thing) is a staple analytical move in philosophy and policy debate. A sophisticated speaker often argues that a difference of degree, once extreme enough, 'may shade into' a difference in kind — i.e. quantitative change crosses a threshold and becomes qualitative. Deploying this distinction lets you adjudicate whether a novel phenomenon is continuous with the past or genuinely unprecedented."
+    },
+    {
+      "title": "Conceding ground while shifting the burden of proof",
+      "bodyVi": "Trong tranh luận trình độ cao, một nước đi thuyết phục là vừa nhượng bộ luận điểm của đối phương vừa chuyển 'the burden of proof' (gánh nặng chứng minh) sang phía họ. Câu kết của Marcus minh họa điều này: 'I think you've persuaded me the burden of proof now lies with those who'd leave it undrawn.' Thay vì khẳng định mình đúng tuyệt đối, người nói lập luận rằng mặc định hợp lý giờ đây nghiêng về phía mình, và bên kia mới là bên phải biện minh.",
+      "bodyEn": "An advanced rhetorical move is to concede a point while simultaneously shifting 'the burden of proof' onto the other side. Marcus's closing line models it: 'you've persuaded me the burden of proof now lies with those who'd leave it undrawn.' Rather than claiming outright victory, the speaker argues that the reasonable default has flipped — the position is now presumptively correct, and it is the opponent who must justify departing from it. This is a hallmark of intellectually honest persuasion."
+    }
+  ],
+  "translationVi": "Naomi: Marcus, tôi muốn bắt đầu từ chính cách đặt vấn đề, vì thuật ngữ chủ nghĩa tư bản giám sát đang làm một công việc phân tích mà tôi nghĩ ngành công nghiệp muốn che giấu hơn. Luận điểm không chỉ đơn thuần là các công ty thu thập dữ liệu, mà là họ đã phát hiện ra một logic kinh tế mới — một logic coi trải nghiệm của con người như nguyên liệu thô miễn phí để khai thác, dự đoán, và chỉnh sửa hành vi. Bạn có chấp nhận rằng có điều gì đó mới mẻ về mặt chất lượng ở đây không, hay bạn xem nó là sự tiếp nối của quảng cáo và nghiên cứu thị trường thông thường? Marcus: Tôi chấp nhận rằng quy mô là chưa từng có, nhưng tôi hoài nghi về câu chuyện đứt gãy. Các thương nhân đã nghiên cứu khách hàng, và các nhà quảng cáo đã thao túng ham muốn, kể từ khi thương mại tồn tại. Điều đã thay đổi là độ chi tiết và vòng phản hồi — khả năng quan sát hành vi, suy ra sở thích, và điều chỉnh môi trường gần như theo thời gian thực. Đó là một sự khác biệt về mức độ cực đoan đến nỗi nó có thể chuyển dần thành một sự khác biệt về bản chất, nhưng tôi muốn xác lập điều đó bằng thực nghiệm thay vì mặc định nó. Naomi: Sự khác biệt về bản chất chính xác là điểm tôi sẽ bảo vệ. Một người bán tạp hóa nhận thấy bạn mua nhiều hơn khi bánh mì đặt cạnh cửa đang hoạt động trong một mối quan hệ mà bạn có thể nhận thức và phản đối. Một hệ thống xây dựng mô hình dự đoán về các điểm yếu tâm lý của bạn từ hàng triệu dấu vết hành vi, rồi bán đi khả năng thúc đẩy bạn vào một khoảnh khắc yếu đuối đã được đo lường, đang hoạt động trong một sự bất đối xứng về tri thức và quyền lực mà chưa một thành phần thị trường thông thường nào từng được hưởng. Marcus: Sự bất đối xứng là có thật, và tôi sẽ không xem nhẹ nó. Nhưng các bất đối xứng thông tin tràn ngập nền kinh tế — bác sĩ, luật sư, thợ sửa xe của bạn đều biết những điều bạn không biết và có thể lợi dụng điều đó. Chúng ta không xóa bỏ những mối quan hệ đó; chúng ta điều tiết chúng thông qua nghĩa vụ nghề nghiệp và trách nhiệm pháp lý. Câu hỏi thú vị là tại sao chúng ta đã thất bại trong việc xây dựng một kiến trúc ủy thác tương tự cho những người nắm giữ dữ liệu hành vi của chúng ta. Naomi: Bởi vì mô hình kinh doanh về mặt cấu trúc đối nghịch với một nghĩa vụ như vậy, đó là điểm cốt lõi trong mối quan ngại của tôi. Một bên được ủy thác bị ràng buộc phải hành động vì lợi ích của bạn. Doanh thu của một nền tảng giám sát phụ thuộc vào việc hành động thay mặt cho bất kỳ ai đang trả tiền để gây ảnh hưởng đến bạn — nhà quảng cáo, chiến dịch, kẻ đang tìm kiếm sự chú ý của bạn. Bạn không thể ghép một nghĩa vụ trung thành vào một doanh nghiệp mà toàn bộ lợi nhuận của nó đến từ sự bất trung mang tính cấu trúc đối với người dùng. Marcus: Đó là một cách đặt vấn đề mạnh mẽ, mặc dù tôi xin lưu ý rằng nó chứng minh ít hơn một chút so với những gì bạn muốn. Vô số trung gian phục vụ hai chủ và chúng ta vẫn quản lý được xung đột đó — một môi giới bất động sản, một nhà môi giới chứng khoán. Xung đột được công khai và được giới hạn. Điều đặc biệt ở các nền tảng hành vi không phải là sự trung thành kép như vậy; mà là xung đột bị giấu bên trong một giao diện được thiết kế để cảm thấy như một dịch vụ trung lập, nên người dùng không bao giờ trải nghiệm bản thân như một bên trong một giao dịch. Naomi: Và sự che giấu đó chính xác là lý do tại sao khuôn khổ đồng thuận là một điều hư cấu. Chúng ta được bảo rằng bằng cách bấm qua một chính sách bảo mật mà không ai đọc, được viết bằng thứ ngôn ngữ mà không ai có thể phân tích, người dùng đã tự do đồng ý với việc khai thác. Nhưng sự đồng thuận mang tính bắt buộc, thiếu thông tin, và bị gói chung vào quyền truy cập vào hạ tầng thiết yếu không phải là sự đồng thuận theo bất kỳ nghĩa đạo đức nghiêm túc nào. Đó là hình thức pháp lý của sự đồng thuận bị rút cạn nội dung đạo đức của nó. Marcus: Ở đây tôi nghĩ sự phê bình của bạn là mạnh nhất, và tôi phần lớn sẽ đồng tình với bạn. Chế độ thông báo-và-đồng thuận là một màn kịch. Nhưng tôi sẽ đẩy phân tích đi xa hơn một bước so với các tài liệu về quyền riêng tư thường làm — vấn đề không chỉ là sự đồng thuận thiếu thông tin; mà là những tổn hại liên quan thường mang tính tập thể chứ không phải cá nhân. Ngay cả một người dùng được thông tin đầy đủ cũng không thể đồng thuận thay mặt cho cấu trúc xã hội bị tái định hình khi các sản phẩm dự đoán được triển khai ở quy mô dân số. Naomi: Đó là một sự khuếch đại quan trọng, và nó phơi bày sự bất cập của việc đối xử với quyền riêng tư như một quyền sở hữu thuần túy cá nhân. Khi một nền tảng suy ra, từ dữ liệu của bạn, những sự thật về những người chưa bao giờ dùng dịch vụ — họ hàng của bạn, hàng xóm của bạn, nhóm nhân khẩu mà bạn giống — thì sự đồng thuận cá nhân của bạn chưa bao giờ là đơn vị phân tích đúng. Tổn hại là sự ô nhiễm thông tin tràn ra khắp toàn bộ dân số, rất giống một ngoại tác môi trường. Marcus: Phép loại suy về ngoại tác là phép loại suy hiệu quả nhất trong cuộc tranh luận này, và đó là nơi chuyên môn đào tạo kéo tôi về. Nếu việc khai thác dữ liệu hành vi áp đặt những chi phí lan tỏa lên các bên thứ ba mà công ty khai thác không phải gánh chịu, thì chúng ta có một thất bại thị trường kinh điển, và các biện pháp khắc phục thì quen thuộc — đánh thuế ngoại tác, giới hạn hoạt động, hoặc gán và thực thi các quyền sở hữu. Tôi lạc quan hơn bạn rằng những công cụ đó có thể được làm cho có hiệu lực thực sự. Naomi: Tôi sẽ hoan nghênh những công cụ đó, nhưng tôi lo rằng khung ngoại tác đang thuần hóa một điều gì đó đáng lo ngại hơn. Ô nhiễm không cố gắng thay đổi niềm tin của bạn. Sản phẩm đặc trưng ở đây là việc dự đoán và chỉnh sửa chính hành vi — khả năng dịch chuyển những gì con người làm, tin, và muốn ở quy mô lớn. Một khi một công ty có thể dịch chuyển hành vi một cách đáng tin cậy, nó không chỉ đơn thuần áp đặt một chi phí lên người ngoài cuộc; nó đang lặng lẽ phân bổ lại quyền tự chủ của dân số mà nó tác động lên. Marcus: Tôi xem trọng luận điểm về quyền tự chủ, nhưng tôi muốn cẩn thận để không phóng đại hiệu quả. Ngành công nghiệp bán cho các nhà quảng cáo một câu chuyện về sự dự đoán gần như toàn tri, và sự phê bình quyền riêng tư đôi khi chấp nhận câu chuyện đó một cách thiếu phê phán để kịch tính hóa mối đe dọa. Tài liệu thực nghiệm về việc những hệ thống này thực sự dịch chuyển hành vi bao nhiêu thì lộn xộn hơn nhiều — phần lớn việc nhắm mục tiêu là tầm thường, và phần lớn năng lực dự đoán bị thổi phồng để biện minh cho mức giá. Naomi: Đó là một lời cảnh báo công bằng, và tôi chấp nhận rằng việc tiếp thị về dự đoán vượt xa thực tế hiện tại của nó. Nhưng tôi sẽ đưa ra hai phản hồi. Thứ nhất, quỹ đạo quan trọng hơn ảnh chụp tức thời — năng lực đang được cải thiện, và chính sách xây dựng quanh sự tầm thường hiện tại sẽ nhanh chóng lỗi thời. Thứ hai, ngay cả sự dự đoán không hoàn hảo, được triển khai trên hàng tỷ tương tác, cũng tạo ra sự lèo lái tổng hợp thực sự. Bạn không cần dịch chuyển mọi cá nhân một cách đáng tin cậy để dịch chuyển một cử tri đoàn hay một thị trường một cách đo lường được. Marcus: Luận điểm về sự lèo lái tổng hợp được tiếp nhận tốt, và nó đặt lại câu hỏi từ sự thao túng cá nhân sang ảnh hưởng mang tính hệ thống lên lựa chọn tập thể. Đó thực sự là nơi tôi nghĩ rủi ro nghiêm trọng nhất nằm ở — không phải việc một quảng cáo khiến bạn mua một đôi giày cụ thể, mà là kiến trúc của sự chú ý, được tối ưu cho mức độ tương tác, đã ưu ái một cách có hệ thống cái kích động hơn cái được cân nhắc và do đó ăn mòn các điều kiện cho sự thảo luận dân chủ. Đó là một câu hỏi về quyền lực, không phải một câu hỏi về quyền riêng tư. Naomi: Và việc đặt lại nó như một câu hỏi về quyền lực, theo tôi, là một bước đi cần thiết. Sự tập trung năng lực dự đoán vào một số ít công ty là một sự tập trung quyền lực lên môi trường thông tin nơi con người hình thành niềm tin, đưa ra lựa chọn, và tự quản trị bản thân. Chúng ta đã dành hai thế kỷ để xây dựng các học thuyết nhằm kiềm chế quyền lực tập trung — chống độc quyền, tam quyền phân lập, một nền báo chí tự do — và chúng ta hầu như mới chỉ bắt đầu hỏi xem học thuyết nào trong số đó áp dụng cho các thực thể hiểu chúng ta hơn cả chúng ta hiểu chính mình. Marcus: Vậy về phương thuốc, bạn nghiêng về đâu? Bởi vì chẩn đoán một sự bất đối xứng quyền lực thì dễ hơn là thiết kế thể chế sửa chữa nó mà không làm xơ cứng công nghệ hoặc đơn giản là trao bộ máy giám sát cho nhà nước thay vì thị trường. Naomi: Tôi sẽ chống lại một viên đạn bạc duy nhất và lập luận cho một phản ứng nhiều tầng. Về mặt cấu trúc, tôi sẽ cấm hẳn một số thực hành nhất định — dữ liệu hành vi không nên là một hàng hóa được giao dịch tự do, chấm hết, giống như chúng ta đã đặt một số thứ ra ngoài thị trường. Ngoài ra, tôi sẽ áp đặt những nghĩa vụ ủy thác thực sự lên những bên nắm giữ dữ liệu, tài trợ cho các giải pháp thay thế vì lợi ích công mà mô hình quảng cáo đã bỏ đói, và đối xử với những hệ thống dự đoán lớn nhất như những sự tập trung quyền lực đúng như bản chất của chúng. Mục đích không phải là hoàn thiện sự đồng thuận mà là thu hẹp lĩnh vực trong đó sự đồng thuận thậm chí còn được hỏi đến. Marcus: Đó là một chương trình mạch lạc hơn so với những gì lĩnh vực này thường đưa ra, và tôi nhận thấy mình đồng ý với nó nhiều hơn so với những gì tôi dự liệu khi chúng ta bắt đầu. Mối lo còn lại của tôi là về quản trị, không phải về nguyên tắc — mọi công cụ bạn nêu ra đều tập trung quyền quyết định ở đâu đó, ở một cơ quan quản lý hoặc một tòa án, và bản thân quyền lực đó dễ bị thâu tóm. Nhưng đó là một lập luận cho việc thiết kế các thể chế một cách cẩn thận, chứ không phải cho việc để mặc việc khai thác không bị thách thức. Về luận điểm trung tâm — rằng việc đối xử với tương lai của con người như nguyên liệu thô là một ranh giới mà một xã hội tử tế nên sẵn sàng vạch ra — tôi nghĩ bạn đã thuyết phục được tôi rằng gánh nặng chứng minh giờ đây thuộc về những người muốn để nó không được vạch ra.",
+  "criticalThinkingQuestion": "If the gravest harm of surveillance capitalism is not the violation of any individual's privacy but the aggregate, collective reshaping of belief and the corrosion of democratic deliberation, then can a consent-based, individual-rights framework ever be adequate — and what would it mean, institutionally and ethically, to place some categories of behavioural data outside the market altogether?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-c1-042",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 494184
+}
