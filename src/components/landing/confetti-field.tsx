@@ -5,44 +5,45 @@ import { useEffect, useRef } from "react";
 /**
  * Ambient "antigravity" particle field for the landing page.
  *
- * Ported from the standalone confetti.js into a self-contained React layer:
- * a fixed, full-viewport canvas that sits behind all page content (the page's
- * own base background colour lives on this layer, so sections with a
- * transparent background reveal the particles while opaque white bands hide
- * them — giving the field a calm, layered rhythm down the page).
+ * Ported from the standalone confetti.js into two self-contained fixed layers:
+ *  - a base tint behind all content (carries the page's own background colour);
+ *  - the particle canvas as a top-most overlay that floats above everything.
+ *    It's `pointer-events-none`, so it never intercepts clicks/hover — the page
+ *    underneath stays fully interactive.
  *
  * Colours are pulled from the live Tailwind theme rather than hard-coded, so
  * the field matches the app's emerald brand and re-tints automatically when
  * the user toggles dark mode. Honors `prefers-reduced-motion` (renders only
- * the static background, no canvas, no animation).
+ * the static background, no particles, no animation).
  */
 
 type RGB = [number, number, number];
 
 // Brand palette expressed as Tailwind text-colour utilities so the actual
-// resolved values come from the theme — never hard-coded hex. Emerald is
-// weighted heavily (it's the brand accent); a muted neutral adds depth.
+// resolved values come from the theme — never hard-coded hex. All emerald/green
+// (the app's primary accent), with a deliberate light/dark split: deep, rich
+// emeralds in light mode; brighter, more vivid ones in dark mode.
 const PALETTE_LIGHT = [
   "text-emerald-600",
   "text-emerald-600",
-  "text-emerald-500",
-  "text-green-500",
   "text-emerald-700",
-  "text-neutral-400",
+  "text-emerald-500",
+  "text-green-600",
+  "text-emerald-500",
 ];
 const PALETTE_DARK = [
   "text-emerald-400",
   "text-emerald-400",
   "text-emerald-300",
-  "text-green-400",
   "text-emerald-500",
-  "text-neutral-500",
+  "text-green-400",
+  "text-emerald-300",
 ];
 
 const CONFIG = {
-  density: 9000, // px² of viewport per particle
-  min: 36,
-  max: 140,
+  density: 10000, // px² of viewport per particle (~30% fewer than before)
+  min: 25,
+  max: 98,
   repel: 130, // cursor repel radius (px)
   force: 0.9, // cursor repel strength
 };
@@ -50,7 +51,8 @@ const CONFIG = {
 /** Resolve Tailwind text-colour classes to concrete RGB triples via the DOM. */
 function resolvePalette(classNames: string[]): RGB[] {
   const probe = document.createElement("span");
-  probe.style.cssText = "position:absolute;left:-9999px;top:-9999px;width:0;height:0;";
+  probe.style.cssText =
+    "position:absolute;left:-9999px;top:-9999px;width:0;height:0;";
   document.body.appendChild(probe);
   const out: RGB[] = [];
   for (const cls of classNames) {
@@ -95,9 +97,12 @@ export function ConfettiField() {
 
     function readPalette() {
       palette = resolvePalette(
-        document.documentElement.classList.contains("dark") ? PALETTE_DARK : PALETTE_LIGHT,
+        document.documentElement.classList.contains("dark")
+          ? PALETTE_DARK
+          : PALETTE_LIGHT,
       );
-      for (const p of particles) p.color = palette[(Math.random() * palette.length) | 0];
+      for (const p of particles)
+        p.color = palette[(Math.random() * palette.length) | 0];
     }
 
     function makeParticle(): Particle {
@@ -113,7 +118,7 @@ export function ConfettiField() {
         angle: Math.random() * Math.PI,
         spin: (Math.random() - 0.5) * 0.04,
         len: 5 + Math.random() * 9,
-        alpha: 0.22 + Math.random() * 0.36,
+        alpha: 0.15 + Math.random() * 0.26,
         color: palette[(Math.random() * palette.length) | 0] ?? [16, 185, 129],
       };
     }
@@ -126,7 +131,10 @@ export function ConfettiField() {
       canvas!.height = H * dpr;
       ctx!.setTransform(1, 0, 0, 1, 0, 0);
       ctx!.scale(dpr, dpr);
-      const target = Math.min(CONFIG.max, Math.max(CONFIG.min, Math.round((W * H) / CONFIG.density)));
+      const target = Math.min(
+        CONFIG.max,
+        Math.max(CONFIG.min, Math.round((W * H) / CONFIG.density)),
+      );
       if (particles.length < target) {
         while (particles.length < target) particles.push(makeParticle());
       } else if (particles.length > target) {
@@ -210,11 +218,19 @@ export function ConfettiField() {
   }, []);
 
   return (
-    <div
-      aria-hidden="true"
-      className="pointer-events-none fixed inset-0 -z-10 bg-neutral-50 dark:bg-neutral-950"
-    >
-      <canvas ref={canvasRef} className="h-full w-full" />
-    </div>
+    <>
+      {/* Base page tint, behind all content. */}
+      <div
+        aria-hidden="true"
+        className="pointer-events-none fixed inset-0 -z-10 bg-neutral-50 dark:bg-neutral-950"
+      />
+      {/* Particles as the top-most layer — over everything, but click-through. */}
+      <div
+        aria-hidden="true"
+        className="pointer-events-none fixed inset-0 z-100"
+      >
+        <canvas ref={canvasRef} className="h-full w-full" />
+      </div>
+    </>
   );
 }

@@ -1,17 +1,20 @@
 import Link from "next/link";
 import { Brand } from "./brand";
+import { FooterWave } from "./footer-wave";
 
 const SOCIAL_BUTTON =
   "grid size-9 place-items-center rounded-full border border-neutral-200 text-neutral-500 transition-colors dark:border-white/10 dark:text-neutral-400";
 
-const LEARN = [
+type FooterLink = { label: string; href?: string };
+
+const LEARN: FooterLink[] = [
   { label: "Reading", href: "/reading" },
   { label: "Listening", href: "/listening" },
   { label: "Speaking", href: "/speaking" },
   { label: "Writing", href: "/writing" },
 ];
 
-const LEVELS = [
+const LEVELS: FooterLink[] = [
   { label: "A1 · Beginner", href: "/reading?levels=A1" },
   { label: "A2 · Elementary", href: "/reading?levels=A2" },
   { label: "B1 · Intermediate", href: "/reading?levels=B1" },
@@ -19,14 +22,28 @@ const LEVELS = [
   { label: "C1 · Advanced", href: "/reading?levels=C1" },
 ];
 
-/** Landing-only footer: brand + social icons, Learn / Levels / About columns. */
+const ABOUT: FooterLink[] = [
+  { label: "How it works" },
+  { label: "Privacy — your data stays local" },
+];
+
+/** Landing-only footer: brand + social icons, Learn / Levels / About columns.
+ *
+ * Layout: brand block stacked on top, link groups in their own responsive grid
+ * (2 columns on phones, 3 on tablet+) so the groups never collapse into one
+ * long sparse list. On desktop the brand floats left of the columns. */
 export function AppFooter() {
   return (
     <footer className="border-t border-neutral-200 bg-white dark:border-white/10 dark:bg-neutral-900">
-      <div className="mx-auto grid max-w-6xl gap-8 px-4 py-12 sm:grid-cols-2 sm:px-6 lg:grid-cols-4">
-        <div>
+      {/* Ambient ASCII-dot wave sits behind the brand + link columns only —
+          never behind the legal bar below. */}
+      <div className="relative overflow-hidden">
+        <FooterWave />
+        <div className="relative z-10 mx-auto flex max-w-6xl flex-col gap-10 px-4 py-12 sm:px-6 lg:flex-row lg:justify-between lg:gap-16">
+        {/* Brand */}
+        <div className="lg:max-w-xs">
           <Brand />
-          <p className="mt-3 max-w-xs text-sm text-neutral-500">
+          <p className="mt-3 max-w-xs text-sm leading-relaxed text-neutral-500">
             Learn English by living in it — real stories, native voices, and gentle Vietnamese support.
           </p>
           <div className="mt-4 flex items-center gap-2">
@@ -51,34 +68,44 @@ export function AppFooter() {
           </div>
         </div>
 
-        <FooterColumn title="Learn" links={LEARN} />
-        <FooterColumn title="Levels" links={LEVELS} />
-
-        <div>
-          <h4 className="text-xs font-semibold uppercase tracking-wide text-neutral-500 dark:text-neutral-400">About</h4>
-          <ul className="mt-3 space-y-2 text-sm text-neutral-600 dark:text-neutral-300">
-            <li><span className="text-neutral-500">How it works</span></li>
-            <li><span className="text-neutral-500">Privacy — your data stays local</span></li>
-          </ul>
+        {/* Link groups — own grid so they stay tidy on every width. */}
+        <nav className="grid grid-cols-2 gap-x-8 gap-y-10 sm:grid-cols-3 sm:gap-x-12 lg:gap-x-16">
+          <FooterColumn title="Learn" links={LEARN} />
+          <FooterColumn title="Levels" links={LEVELS} />
+          {/* About spans the full row on phones so its longer label never gets squeezed. */}
+          <FooterColumn title="About" links={ABOUT} className="col-span-2 sm:col-span-1" />
+        </nav>
         </div>
       </div>
-      <div className="border-t border-neutral-100 py-5 text-center text-xs text-neutral-400 dark:border-white/5">
+      <div className="border-t border-neutral-100 px-4 py-5 text-center text-xs text-neutral-400 dark:border-white/5">
         100% free · No ads · Works offline · No account · A non-profit project for the community.
       </div>
     </footer>
   );
 }
 
-function FooterColumn({ title, links }: { title: string; links: { label: string; href: string }[] }) {
+function FooterColumn({
+  title,
+  links,
+  className,
+}: {
+  title: string;
+  links: FooterLink[];
+  className?: string;
+}) {
   return (
-    <div>
+    <div className={className}>
       <h4 className="text-xs font-semibold uppercase tracking-wide text-neutral-500 dark:text-neutral-400">{title}</h4>
-      <ul className="mt-3 space-y-2 text-sm text-neutral-600 dark:text-neutral-300">
+      <ul className="mt-3 space-y-2.5 text-sm text-neutral-600 dark:text-neutral-300">
         {links.map((l) => (
           <li key={l.label}>
-            <Link href={l.href} className="transition-colors hover:text-neutral-900 dark:hover:text-white">
-              {l.label}
-            </Link>
+            {l.href ? (
+              <Link href={l.href} className="transition-colors hover:text-neutral-900 dark:hover:text-white">
+                {l.label}
+              </Link>
+            ) : (
+              <span className="text-neutral-500">{l.label}</span>
+            )}
           </li>
         ))}
       </ul>

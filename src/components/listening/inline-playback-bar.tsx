@@ -48,6 +48,9 @@ const SPEEDS = [1, 1.25, 1.5, 0.75] as const;
  * - Player card (listening): pass `onToggleTranscript` to render the large
  *   round play button, a clickable waveform with a playhead, the time readout, a
  *   speed pill, and a "Show transcript" toggle.
+ * - Compact card (speaking): pass `compact` to render the same clickable
+ *   waveform + playhead in a smaller "Play all · m:ss / m:ss" row, with a speed
+ *   pill but no transcript toggle.
  */
 export function InlinePlaybackBar({
   lessonId,
@@ -57,6 +60,7 @@ export function InlinePlaybackBar({
   totalDurationMs,
   transcriptShown,
   onToggleTranscript,
+  compact = false,
 }: {
   lessonId: string;
   cdnBase: string;
@@ -66,8 +70,10 @@ export function InlinePlaybackBar({
   /** When provided, render the listening player-card layout. */
   transcriptShown?: boolean;
   onToggleTranscript?: () => void;
+  /** Render the compact waveform card (speaking play-all) — no transcript toggle. */
+  compact?: boolean;
 }) {
-  const cardMode = onToggleTranscript !== undefined;
+  const cardMode = onToggleTranscript !== undefined || compact;
 
   const currentLessonId = useListeningAudioStore((s) => s.lessonId);
   const mode = useListeningAudioStore((s) => s.mode);
@@ -262,23 +268,36 @@ export function InlinePlaybackBar({
     }
 
     return (
-      <div className="flex flex-col items-center gap-4 sm:flex-row sm:gap-5">
-        {/* Large play/pause button */}
+      <div
+        className={cn(
+          compact
+            ? "flex w-full items-center gap-3"
+            : "flex flex-col items-center gap-4 sm:flex-row sm:gap-5",
+        )}
+      >
+        {/* Play/pause button — smaller in the compact (speaking) variant */}
         <button
           type="button"
           onClick={handleMainButton}
           disabled={audioPending}
           aria-label={isPlaying ? "Pause" : "Play all"}
-          className="grid size-16 shrink-0 place-items-center rounded-full bg-emerald-600 text-white shadow-lg transition-transform hover:bg-emerald-700 active:scale-95 disabled:cursor-not-allowed disabled:opacity-50 dark:bg-emerald-500 dark:hover:bg-emerald-400"
+          className={cn(
+            "grid shrink-0 place-items-center rounded-full bg-emerald-600 text-white shadow transition-transform hover:bg-emerald-700 active:scale-95 disabled:cursor-not-allowed disabled:opacity-50 dark:bg-emerald-500 dark:hover:bg-emerald-400",
+            compact ? "size-10" : "size-16 shadow-lg",
+          )}
         >
           {isPlaying ? (
-            <Pause className="size-7" fill="currentColor" aria-hidden="true" />
+            <Pause className={compact ? "size-4" : "size-7"} fill="currentColor" aria-hidden="true" />
           ) : (
-            <Play className="size-7 translate-x-0.5" fill="currentColor" aria-hidden="true" />
+            <Play
+              className={cn("translate-x-0.5", compact ? "size-4" : "size-7")}
+              fill="currentColor"
+              aria-hidden="true"
+            />
           )}
         </button>
 
-        <div ref={barRef} className="flex w-full flex-col gap-2">
+        <div ref={barRef} className={cn("flex flex-col", compact ? "min-w-0 flex-1 gap-1" : "w-full gap-2")}>
           {/* Waveform / progress bar row — tinted track, clickable + draggable */}
           <div
             role="slider"
@@ -298,7 +317,8 @@ export function InlinePlaybackBar({
               if (e.key === "ArrowLeft") seekToGlobalMs(Math.max(0, currentMs - step));
             }}
             className={cn(
-              "relative h-10 touch-none select-none overflow-hidden rounded-lg bg-neutral-100/60 dark:bg-white/5",
+              "relative touch-none select-none overflow-hidden rounded-lg bg-neutral-100/60 dark:bg-white/5",
+              compact ? "h-7 bg-transparent dark:bg-transparent" : "h-10",
               isActive && "cursor-pointer",
             )}
           >
@@ -326,8 +346,15 @@ export function InlinePlaybackBar({
 
           {/* Time + controls row */}
           <div className="flex items-center justify-between">
-            <span className="font-mono text-sm tabular-nums text-neutral-500 dark:text-neutral-400">
-              {audioPending ? "audio pending" : `${formatClock(displayMs)} / ${formatClock(totalMs)}`}
+            <span
+              className={cn(
+                "font-mono tabular-nums text-neutral-500 dark:text-neutral-400",
+                compact ? "text-xs" : "text-sm",
+              )}
+            >
+              {audioPending
+                ? "audio pending"
+                : `${compact ? "Play all · " : ""}${formatClock(displayMs)} / ${formatClock(totalMs)}`}
             </span>
             <div className="flex items-center gap-2">
               {/* Speed pill */}
@@ -339,15 +366,17 @@ export function InlinePlaybackBar({
               >
                 {SPEEDS[speedIdx].toFixed(SPEEDS[speedIdx] % 1 === 0 ? 1 : 2)}×
               </button>
-              {/* Show / hide transcript */}
-              <button
-                type="button"
-                onClick={onToggleTranscript}
-                className="inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-xs font-medium text-neutral-600 transition-colors hover:bg-neutral-200/60 dark:text-neutral-300 dark:hover:bg-white/10"
-              >
-                <FileText className="size-3.5" aria-hidden="true" />
-                {transcriptShown ? "Hide transcript" : "Show transcript"}
-              </button>
+              {/* Show / hide transcript (listening only) */}
+              {onToggleTranscript && (
+                <button
+                  type="button"
+                  onClick={onToggleTranscript}
+                  className="inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-xs font-medium text-neutral-600 transition-colors hover:bg-neutral-200/60 dark:text-neutral-300 dark:hover:bg-white/10"
+                >
+                  <FileText className="size-3.5" aria-hidden="true" />
+                  {transcriptShown ? "Hide transcript" : "Show transcript"}
+                </button>
+              )}
             </div>
           </div>
         </div>

@@ -22,6 +22,7 @@ function DetailContent() {
 
   const [role, setRole] = useState<string>("");
   const [controlsContainer, setControlsContainer] = useState<HTMLElement | null>(null);
+  const [mobileControlsContainer, setMobileControlsContainer] = useState<HTMLElement | null>(null);
   const [resultContainer, setResultContainer] = useState<HTMLElement | null>(null);
   const [practiceActive, setPracticeActive] = useState(false);
   const [preferredVoiceSex] = useLocalStorageString<"female" | "male">(PREFERRED_VOICE_SEX_KEY, "female");
@@ -54,13 +55,16 @@ function DetailContent() {
   }
 
   return (
-    <main className="mx-auto max-w-5xl px-4 pb-16 sm:px-6">
+    <main className="mx-auto max-w-5xl px-4 pb-28 sm:px-6 md:pb-12">
       <LessonDetailHeader
         backHref="/speaking"
         backLabel="Back to Speaking"
         title={lesson.title}
         align="center"
         toolbar={
+          // Shown on every breakpoint (like the listening lesson). On mobile the
+          // primary "Start practice" itself hides here and moves to the sticky
+          // bottom bar; Hints + Options stay.
           <>
             <HintSettingsPopover />
             {/* Practice controls (Start practice / Options / Practice again) portal in here. */}
@@ -84,6 +88,7 @@ function DetailContent() {
               manifestVersion={lesson.audio.manifestVersion}
               sentences={lesson.sentences}
               totalDurationMs={lesson.totalDurationMs}
+              compact
             />
           </div>
 
@@ -95,6 +100,7 @@ function DetailContent() {
               role={role}
               onRoleChange={setRole}
               controlsContainer={controlsContainer}
+              mobileControlsContainer={mobileControlsContainer}
               resultContainer={resultContainer}
               onActiveChange={setPracticeActive}
             />
@@ -111,6 +117,12 @@ function DetailContent() {
 
       <div className="mt-4">
         <RecordingsHistory lessonId={lesson.id} lessonTitle={lesson.title} />
+      </div>
+
+      {/* Mobile sticky action bar — full-width primary action, mirrored from the
+          header so it's reachable by thumb. Hints + Options stay in the header. */}
+      <div className="fixed inset-x-0 bottom-0 z-40 flex items-center border-t border-neutral-200 bg-white/95 px-4 py-3 backdrop-blur dark:border-white/10 dark:bg-neutral-900/95 md:hidden">
+        <div ref={(el) => setMobileControlsContainer(el)} className="flex flex-1" />
       </div>
     </main>
   );

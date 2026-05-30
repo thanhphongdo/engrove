@@ -1,7 +1,6 @@
 "use client";
 
 import { Suspense, use, useEffect, useState } from "react";
-import { useLocalStorageBoolean } from "@/lib/use-local-storage";
 import { useListeningLesson } from "@/lib/lessons/load";
 import { useLiveQuery } from "dexie-react-hooks";
 import { listAttemptsForLesson, getDraft, deleteDraft } from "@/lib/db/queries";
@@ -44,7 +43,6 @@ function ListeningLessonDetailContent({ params }: { params: Promise<{ lessonId: 
   const reset = useTimerStore((s) => s.reset);
   const prefs = usePreferences();
   const draft = useLiveQuery(() => getDraft(profileId, lessonId), [profileId, lessonId]);
-  const [contentPinned, setContentPinned] = useLocalStorageBoolean("listening.lessonContentPinned");
   const [sessionEpoch, setSessionEpoch] = useState(0);
   const [transcriptShown, setTranscriptShown] = useState(false);
   const loadAudio = useListeningAudioStore((s) => s.load);
@@ -151,21 +149,13 @@ function ListeningLessonDetailContent({ params }: { params: Promise<{ lessonId: 
             isTwoColumn ? "grid grid-cols-1 lg:grid-cols-[1.2fr_1fr]" : "flex flex-col",
           )}
         >
-          <DetailCard
-            className={cn(
-              isTwoColumn && "self-start",
-              contentPinned && "sticky top-32 z-20 max-h-[60vh] overflow-y-auto",
-              contentPinned && isTwoColumn && "lg:max-h-[calc(100vh-9rem)]",
-            )}
-          >
+          <DetailCard className={cn(isTwoColumn && "self-start")}>
             <TranscriptCard
               lesson={lesson}
               shown={transcriptShown}
               showAnnotations={prefs.hintToggles.vocabVi}
               showTranslation={prefs.hintToggles.passageTranslation}
-              pinned={contentPinned}
               onToggle={() => setTranscriptShown((v) => !v)}
-              onTogglePin={() => setContentPinned(!contentPinned)}
             />
           </DetailCard>
 

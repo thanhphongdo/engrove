@@ -46,9 +46,6 @@ export function PassageAnnotation({
           className="vocab-word cursor-help bg-transparent p-0 align-baseline text-inherit hover:text-emerald-700 dark:hover:text-emerald-300"
         >
           {text}
-          <sup className="ml-0.5 text-[0.6875rem] font-normal not-italic text-neutral-400 dark:text-neutral-500">
-            ({annotation.meaningVi})
-          </sup>
         </button>
       </PopoverTrigger>
       <PopoverContent className="w-64 text-sm">

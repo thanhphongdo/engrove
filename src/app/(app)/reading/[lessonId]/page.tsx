@@ -1,9 +1,6 @@
 "use client";
 
 import { Suspense, use, useState } from "react";
-import { Pin, PinOff } from "lucide-react";
-import { useLocalStorageBoolean } from "@/lib/use-local-storage";
-import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import { useReadingLesson } from "@/lib/lessons/load";
 import { useLiveQuery } from "dexie-react-hooks";
 import { listAttemptsForLesson, getDraft, deleteDraft } from "@/lib/db/queries";
@@ -39,7 +36,6 @@ function LessonDetailContent({ params }: { params: Promise<{ lessonId: string }>
   const reset = useTimerStore((s) => s.reset);
   const prefs = usePreferences();
   const draft = useLiveQuery(() => getDraft(profileId, lessonId), [profileId, lessonId]);
-  const [contentPinned, setContentPinned] = useLocalStorageBoolean("reading.lessonContentPinned");
   // Forces QuizSection to remount only on explicit abandon — never on automatic
   // draft transitions (e.g. submit deletes the draft).
   const [sessionEpoch, setSessionEpoch] = useState(0);
@@ -115,31 +111,7 @@ function LessonDetailContent({ params }: { params: Promise<{ lessonId: string }>
               : "flex flex-col",
           )}
         >
-          <DetailCard
-            className={cn(
-              "relative",
-              contentPinned && "lg:sticky lg:top-32 lg:z-20 lg:max-h-[calc(100vh-9rem)] lg:overflow-y-auto",
-            )}
-          >
-            <Tooltip>
-              <TooltipTrigger asChild>
-                <button
-                  type="button"
-                  onClick={() => setContentPinned(!contentPinned)}
-                  aria-pressed={contentPinned}
-                  aria-label={contentPinned ? "Unpin lesson content" : "Pin lesson content"}
-                  className={cn(
-                    "absolute right-2 top-2 z-10 grid size-8 cursor-pointer place-items-center rounded-lg text-neutral-400 transition-colors hover:bg-neutral-100 hover:text-neutral-700 dark:hover:bg-white/10",
-                    contentPinned && "text-emerald-600 dark:text-emerald-400",
-                  )}
-                >
-                  {contentPinned ? <PinOff className="size-4" aria-hidden="true" /> : <Pin className="size-4" aria-hidden="true" />}
-                </button>
-              </TooltipTrigger>
-              <TooltipContent side="left" className="text-xs">
-                {contentPinned ? "Unpin lesson content" : "Pin lesson content while scrolling"}
-              </TooltipContent>
-            </Tooltip>
+          <DetailCard>
             <Passage
               lesson={lesson}
               showAnnotations={prefs.hintToggles.vocabVi}

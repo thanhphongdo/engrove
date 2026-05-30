@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
@@ -16,7 +17,15 @@ import { ContentZoomControl } from "./content-zoom-control";
  */
 export function MobileNavDrawer() {
   const [open, setOpen] = useState(false);
+  // Portal target is only available after mount (client). Rendering the overlay
+  // into document.body keeps its `fixed` positioning relative to the viewport —
+  // inside the header, the header's backdrop-filter becomes the containing block
+  // and traps the drawer to the 56px bar.
+  const [mounted, setMounted] = useState(false);
   const pathname = usePathname();
+
+  // eslint-disable-next-line react-hooks/set-state-in-effect
+  useEffect(() => setMounted(true), []);
 
   // eslint-disable-next-line react-hooks/set-state-in-effect
   useEffect(() => setOpen(false), [pathname]);
@@ -46,14 +55,17 @@ export function MobileNavDrawer() {
         <Menu className="size-5" aria-hidden="true" />
       </button>
 
-      <div
-        aria-hidden={!open}
-        onClick={() => setOpen(false)}
-        className={cn(
-          "fixed inset-0 z-50 bg-black/40 backdrop-blur-sm transition-opacity duration-150 md:hidden",
-          open ? "pointer-events-auto opacity-100" : "pointer-events-none opacity-0",
-        )}
-      />
+      {mounted &&
+        createPortal(
+          <>
+            <div
+              aria-hidden={!open}
+              onClick={() => setOpen(false)}
+              className={cn(
+                "fixed inset-0 z-50 bg-black/40 backdrop-blur-sm transition-opacity duration-150 md:hidden",
+                open ? "pointer-events-auto opacity-100" : "pointer-events-none opacity-0",
+              )}
+            />
 
       <aside
         role="dialog"
@@ -111,6 +123,9 @@ export function MobileNavDrawer() {
           <ContentZoomControl />
         </div>
       </aside>
+          </>,
+          document.body,
+        )}
     </>
   );
 }

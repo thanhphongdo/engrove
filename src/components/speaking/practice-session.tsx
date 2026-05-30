@@ -68,6 +68,8 @@ type Props = {
   role: string;
   onRoleChange: (role: string) => void;
   controlsContainer?: HTMLElement | null;
+  /** Mobile sticky-bar slot for the full-width primary action (md:hidden bar). */
+  mobileControlsContainer?: HTMLElement | null;
   /** Full-width slot below the two-column grid where the mix result card portals in. */
   resultContainer?: HTMLElement | null;
   onActiveChange?: (active: boolean) => void;
@@ -75,7 +77,7 @@ type Props = {
 
 // ── Component ─────────────────────────────────────────────────────────────
 
-export function PracticeSession({ lesson, role, onRoleChange, controlsContainer, resultContainer, onActiveChange }: Props) {
+export function PracticeSession({ lesson, role, onRoleChange, controlsContainer, mobileControlsContainer, resultContainer, onActiveChange }: Props) {
   const [phase, setPhase] = useState<Phase>("idle");
   const [turnIndex, setTurnIndex] = useState(0);
   const [turnBlobs, setTurnBlobs] = useState<Map<number, Blob>>(new Map());
@@ -401,8 +403,10 @@ export function PracticeSession({ lesson, role, onRoleChange, controlsContainer,
     </button>
   );
 
-  // Header toolbar controls (portaled). The in-session status / Restart / Mix &
-  // Save live inline on the practice card; the toolbar keeps the primary action.
+  // Header toolbar controls (portaled), shown on every breakpoint — the primary
+  // practice action lives in the header (like the listening lesson), not a
+  // bottom bar. The in-session status / Restart / Mix & Save stay inline on the
+  // practice card.
   const controls = (
     <>
       {(phase === "idle" || phase === "in_session" || phase === "done") && optionsBtn}
@@ -425,6 +429,42 @@ export function PracticeSession({ lesson, role, onRoleChange, controlsContainer,
           className="inline-flex shrink-0 items-center gap-1.5 rounded-lg border border-neutral-200 bg-white px-4 py-2 text-sm font-semibold text-neutral-700 hover:bg-neutral-50 dark:border-white/10 dark:bg-neutral-900 dark:text-neutral-200"
         >
           <RotateCcw className="size-3.5" aria-hidden="true" /> Practice again
+        </button>
+      )}
+    </>
+  );
+
+  // Mobile sticky-bar primary action (full-width). Same actions as the header
+  // control, mirrored at the bottom of the screen for thumb reach on mobile.
+  const mobileBtnPrimary =
+    "flex flex-1 items-center justify-center gap-2 rounded-xl bg-neutral-900 py-3 text-sm font-semibold text-white hover:bg-neutral-800 dark:bg-white dark:text-neutral-900";
+  const mobileBtnSecondary =
+    "flex flex-1 items-center justify-center gap-2 rounded-xl border border-neutral-200 bg-white py-3 text-sm font-semibold text-neutral-700 hover:bg-neutral-50 dark:border-white/10 dark:bg-neutral-900 dark:text-neutral-200";
+  const mobileControls = (
+    <>
+      {phase === "idle" && (
+        <button type="button" onClick={handleStartClick} className={mobileBtnPrimary}>
+          <Mic className="size-4" aria-hidden="true" /> Start practice
+        </button>
+      )}
+      {(phase === "in_session" || phase === "done") &&
+        (turnBlobs.size > 0 ? (
+          <button type="button" onClick={handleMix} className={mobileBtnPrimary}>
+            Mix &amp; Save
+          </button>
+        ) : (
+          <button type="button" onClick={() => setShowRestartConfirm(true)} className={mobileBtnSecondary}>
+            <RotateCcw className="size-4" aria-hidden="true" /> Restart
+          </button>
+        ))}
+      {phase === "mixing" && (
+        <span className="flex flex-1 items-center justify-center text-sm text-neutral-500 animate-pulse">
+          Mixing…
+        </span>
+      )}
+      {phase === "mixed" && (
+        <button type="button" onClick={restartSession} className={mobileBtnPrimary}>
+          <RotateCcw className="size-4" aria-hidden="true" /> Practice again
         </button>
       )}
     </>
@@ -470,6 +510,7 @@ export function PracticeSession({ lesson, role, onRoleChange, controlsContainer,
   return (
     <>
       {controlsContainer && createPortal(controls, controlsContainer)}
+      {mobileControlsContainer && createPortal(mobileControls, mobileControlsContainer)}
 
       <PracticeOptionsDialog
         open={showSetup}

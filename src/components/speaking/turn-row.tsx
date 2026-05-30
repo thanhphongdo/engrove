@@ -43,24 +43,17 @@ function Bubble({
     <div className={cn("flex", isUser ? "justify-end" : "justify-start")}>
       <div
         className={cn(
-          "relative max-w-[80%] rounded-2xl px-4 py-2.5 text-sm",
-          tone === "out" && "bg-emerald-600 text-white dark:bg-emerald-600",
-          tone === "in" && "bg-neutral-100 text-neutral-900 dark:bg-neutral-800 dark:text-neutral-100",
-          tone === "upcoming" &&
-            "border border-dashed border-neutral-300 text-neutral-400 dark:border-white/15",
+          "max-w-[80%] px-4 py-2.5 text-sm",
+          // Real chat tail (see .chat / .chat-out / .chat-in in globals.css);
+          // upcoming turns are a dashed placeholder with no tail.
+          tone === "upcoming"
+            ? "rounded-2xl border border-dashed border-neutral-300 text-neutral-400 dark:border-white/15"
+            : "chat rounded-[1.25rem]",
+          tone === "out" && "chat-out bg-emerald-600 text-white",
+          tone === "in" && "chat-in bg-neutral-100 text-neutral-900 dark:bg-neutral-800 dark:text-neutral-100",
         )}
       >
-        {/* Approximate the chat tail with a small rotated square in the lower corner. */}
-        {tone !== "upcoming" && (
-          <span
-            aria-hidden="true"
-            className={cn(
-              "absolute bottom-1 size-3 rotate-45 rounded-xs",
-              tone === "out" ? "-right-1 bg-emerald-600 dark:bg-emerald-600" : "-left-1 bg-neutral-100 dark:bg-neutral-800",
-            )}
-          />
-        )}
-        <span className="relative">{children}</span>
+        {children}
       </div>
     </div>
   );

@@ -35,19 +35,23 @@ export function SampleAnswerReveal() {
       </button>
       {open && (
         <div className="space-y-3 px-4 pb-4">
-          <article className="text-sm leading-relaxed text-neutral-800 dark:text-neutral-200">
-            {lesson.sampleText}
+          {/* Each sample paragraph sits directly above its Vietnamese, rather
+              than hiding the translation in a separate collapsible block. */}
+          <article className="space-y-3 text-sm leading-relaxed text-neutral-800 dark:text-neutral-200">
+            {lesson.sampleText.split(/\n+/).map((para, i) => {
+              const vi = lesson.sampleTranslationVi.split(/\n+/)[i];
+              return (
+                <div key={i} className="space-y-1">
+                  <p>{para}</p>
+                  {vi && (
+                    <p className="text-[0.8125rem] italic leading-relaxed text-neutral-400 dark:text-neutral-500">
+                      {vi}
+                    </p>
+                  )}
+                </div>
+              );
+            })}
           </article>
-          <details className="text-sm text-neutral-600 dark:text-neutral-400">
-            <summary className="cursor-pointer text-xs font-semibold uppercase tracking-wide text-neutral-500 dark:text-neutral-400">
-              Vietnamese translation
-            </summary>
-            <div className="mt-2 space-y-1 leading-relaxed">
-              {lesson.sampleTranslationVi.split(/\n+/).map((line, i) => (
-                <p key={i}>{line}</p>
-              ))}
-            </div>
-          </details>
           {lesson.sampleGrammarNotes.length > 0 && (
             <GrammarNotes notes={lesson.sampleGrammarNotes} />
           )}

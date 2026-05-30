@@ -254,3 +254,54 @@
     transform: none !important;
   }
 }
+
+/* Speaking chat bubbles — iMessage-style tail tucked into the lower corner
+   (ported from the speaking mockup). The tail is two pseudo-elements: `::before`
+   is a rounded blob in the bubble colour overflowing the corner, `::after` is a
+   `--card`-coloured mask that carves the curve. `--card` MUST match the surface
+   the bubble sits on (the white / neutral-900 DetailCard) so the mask blends. */
+.chat {
+  position: relative;
+  --card: var(--color-white);
+}
+.dark .chat {
+  --card: var(--color-neutral-900);
+}
+.chat-out::before,
+.chat-in::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.chat-out::after,
+.chat-in::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 0.75rem;
+  height: 1.25rem;
+  background: var(--card);
+}
+.chat-out::before {
+  right: -0.5rem;
+  background: var(--color-emerald-600);
+  border-bottom-left-radius: 1rem;
+}
+.chat-out::after {
+  right: -0.75rem;
+  border-bottom-left-radius: 0.625rem;
+}
+.chat-in::before {
+  left: -0.5rem;
+  background: var(--color-neutral-100);
+  border-bottom-right-radius: 1rem;
+}
+.chat-in::after {
+  left: -0.75rem;
+  border-bottom-right-radius: 0.625rem;
+}
+.dark .chat-in::before {
+  background: var(--color-neutral-800);
+}

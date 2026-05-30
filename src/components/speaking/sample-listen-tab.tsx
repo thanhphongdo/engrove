@@ -136,21 +136,13 @@ export function SampleListenTab({ lesson, role }: Props) {
             <div className={cn("flex", isUser ? "justify-end" : "justify-start")}>
               <div
                 className={cn(
-                  "relative flex max-w-[80%] items-start gap-2 rounded-2xl px-4 py-2.5 text-sm leading-relaxed transition-shadow",
+                  "chat flex max-w-[80%] items-start gap-2 rounded-[1.25rem] px-4 py-2.5 text-sm leading-relaxed transition-shadow",
                   isUser
-                    ? "bg-emerald-600 text-white dark:bg-emerald-600"
-                    : "bg-neutral-100 text-neutral-900 dark:bg-neutral-800 dark:text-neutral-100",
+                    ? "chat-out bg-emerald-600 text-white"
+                    : "chat-in bg-neutral-100 text-neutral-900 dark:bg-neutral-800 dark:text-neutral-100",
                   isPlaying && "ring-2 ring-emerald-500",
                 )}
               >
-                {/* Approximate chat tail in the lower corner. */}
-                <span
-                  aria-hidden="true"
-                  className={cn(
-                    "absolute bottom-1 size-3 rotate-45 rounded-xs",
-                    isUser ? "-right-1 bg-emerald-600 dark:bg-emerald-600" : "-left-1 bg-neutral-100 dark:bg-neutral-800",
-                  )}
-                />
                 {!isUser && (
                   <button
                     type="button"
