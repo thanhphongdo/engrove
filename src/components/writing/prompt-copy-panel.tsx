@@ -23,7 +23,7 @@ const PROVIDERS: { id: Provider; label: string; placeholder: string; prefix: str
 
 /** Solid dark CTA shared with the rest of the lesson UI (matches QuizFooter). */
 const DARK_BTN =
-  "flex w-full items-center justify-center gap-2 rounded-xl bg-neutral-900 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-neutral-800 disabled:opacity-60 dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-100";
+  "flex w-full items-center justify-center gap-2 whitespace-nowrap rounded-xl bg-neutral-900 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-neutral-800 disabled:opacity-60 dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-100";
 
 function extractJsonBlock(s: string): string | null {
   const fenced = s.match(/```json\s*([\s\S]*?)```/i);
@@ -180,7 +180,13 @@ export function PromptCopyPanel() {
       {/* PRIMARY copy button */}
       <button type="button" onClick={copyPrompt} disabled={copying} className={DARK_BTN}>
         {copying ? <Loader2 className="size-4 animate-spin" aria-hidden="true" /> : <Copy className="size-4" aria-hidden="true" />}
-        {copying ? "Preparing…" : "Copy prompt for ChatGPT / Gemini"}
+        {copying ? (
+          "Preparing…"
+        ) : (
+          <span>
+            Copy prompt<span className="hidden sm:inline"> for ChatGPT / Gemini</span>
+          </span>
+        )}
       </button>
 
       {/* Hairline divider */}
