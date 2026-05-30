@@ -5,24 +5,21 @@ import { LevelBadge } from "@/components/shared/level-badge";
 import type { CefrLevel } from "@/lib/lessons/types";
 
 /**
- * Sticky lesson-detail header shared by all four skill detail pages: a back
- * link, the title, a level badge + meta strip, and a toolbar slot on the right.
- * Sticks just below the 56px top app bar (top-14).
+ * Sticky lesson-detail header: back link + title + toolbar slot only. The
+ * tags/meta strip is intentionally NOT part of this (it lives in
+ * <LessonMetaRow/> below the header so it scrolls away to save space — matching
+ * the mockup). Sticks just below the 56px top app bar (top-14).
  */
 export function LessonDetailHeader({
   backHref,
   backLabel,
-  level,
   title,
-  meta,
   toolbar,
   align = "start",
 }: {
   backHref: string;
   backLabel: string;
-  level: CefrLevel;
   title: string;
-  meta?: ReactNode;
   toolbar?: ReactNode;
   align?: "start" | "center";
 }) {
@@ -39,17 +36,22 @@ export function LessonDetailHeader({
           align === "center" ? "sm:items-center" : "sm:items-start"
         }`}
       >
-        <div className="min-w-0">
-          <h1 className="min-w-0 text-xl font-bold leading-tight tracking-tight sm:text-2xl">{title}</h1>
-          {meta != null && (
-            <div className="mt-1.5 flex flex-wrap items-center gap-x-2 gap-y-1 text-[0.8rem]">
-              <LevelBadge level={level} />
-              {meta}
-            </div>
-          )}
-        </div>
+        <h1 className="min-w-0 text-xl font-bold leading-tight tracking-tight sm:text-2xl">{title}</h1>
         {toolbar && <div className="flex shrink-0 items-center gap-2 overflow-x-auto no-scrollbar">{toolbar}</div>}
       </div>
+    </div>
+  );
+}
+
+/**
+ * Non-sticky tags/meta strip rendered just below <LessonDetailHeader/>:
+ * level badge + tags + per-skill meta. Scrolls away with the content.
+ */
+export function LessonMetaRow({ level, children }: { level: CefrLevel; children?: ReactNode }) {
+  return (
+    <div className="mt-3 flex flex-wrap items-center gap-x-2 gap-y-1 text-[0.8125rem]">
+      <LevelBadge level={level} />
+      {children}
     </div>
   );
 }

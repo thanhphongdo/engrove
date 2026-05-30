@@ -13,7 +13,7 @@ import { InlinePlaybackBar } from "@/components/listening/inline-playback-bar";
 import { DetailCard } from "@/components/lesson/detail-card";
 import { Skeleton } from "@/components/ui/skeleton";
 import { useLocalStorageString } from "@/lib/use-local-storage";
-import { LessonDetailHeader } from "@/components/lesson/lesson-detail-header";
+import { LessonDetailHeader, LessonMetaRow } from "@/components/lesson/lesson-detail-header";
 
 function DetailContent() {
   const { lessonId } = useParams<{ lessonId: string }>();
@@ -57,12 +57,8 @@ function DetailContent() {
       <LessonDetailHeader
         backHref="/speaking"
         backLabel="Back to Speaking"
-        level={lesson.level}
         title={lesson.title}
         align="center"
-        meta={lesson.tags.map((t) => (
-          <span key={t} className="text-neutral-500">#{t}</span>
-        ))}
         toolbar={
           <>
             <HintSettingsPopover />
@@ -71,6 +67,12 @@ function DetailContent() {
           </>
         }
       />
+
+      <LessonMetaRow level={lesson.level}>
+        {lesson.tags.map((t) => (
+          <span key={t} className="text-neutral-500">#{t}</span>
+        ))}
+      </LessonMetaRow>
 
       {/* Two-column layout: practice/transcript card | hint aside */}
       <div className="mt-4 grid gap-4 lg:grid-cols-[1.3fr_1fr]">

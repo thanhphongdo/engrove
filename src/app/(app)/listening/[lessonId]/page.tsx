@@ -29,7 +29,7 @@ import { LessonNotes } from "@/components/reading/lesson-notes";
 import { AccentFlag } from "@/components/ui/accent-flag";
 import { useListeningAudioStore } from "@/stores/listening-audio-store";
 import { PlaybackTimeline } from "@/components/listening/playback-timeline";
-import { LessonDetailHeader } from "@/components/lesson/lesson-detail-header";
+import { LessonDetailHeader, LessonMetaRow } from "@/components/lesson/lesson-detail-header";
 import { DetailCard } from "@/components/lesson/detail-card";
 import { AccentBlock } from "@/components/lesson/accent-block";
 import { formatDuration } from "@/lib/format";
@@ -80,25 +80,7 @@ function ListeningLessonDetailContent({ params }: { params: Promise<{ lessonId: 
       <LessonDetailHeader
         backHref="/listening"
         backLabel="Back to Listening"
-        level={lesson.level}
         title={lesson.title}
-        meta={
-          <>
-            <AccentFlag accents={lesson.accents} />
-            <span className="text-neutral-500">
-              {lesson.totalDurationMs ? formatDuration(lesson.totalDurationMs) : "audio pending"}
-            </span>
-            <span className="text-neutral-300 dark:text-neutral-600">·</span>
-            <span className="text-neutral-500">{lesson.sentences.length} sentences</span>
-            {lesson.tags.map((t) => (
-              <span key={t} className="text-neutral-500">#{t}</span>
-            ))}
-            <span className="text-neutral-300 dark:text-neutral-600">·</span>
-            <span className="text-neutral-500">
-              {best ? `Best ${best.score}/${best.total} · ${attempts?.length} attempts` : "No attempts yet"}
-            </span>
-          </>
-        }
         toolbar={
           <>
             <LessonTimer />
@@ -108,6 +90,22 @@ function ListeningLessonDetailContent({ params }: { params: Promise<{ lessonId: 
           </>
         }
       />
+
+      <LessonMetaRow level={lesson.level}>
+        <AccentFlag accents={lesson.accents} />
+        <span className="text-neutral-500">
+          {lesson.totalDurationMs ? formatDuration(lesson.totalDurationMs) : "audio pending"}
+        </span>
+        <span className="text-neutral-300 dark:text-neutral-600">·</span>
+        <span className="text-neutral-500">{lesson.sentences.length} sentences</span>
+        {lesson.tags.map((t) => (
+          <span key={t} className="text-neutral-500">#{t}</span>
+        ))}
+        <span className="text-neutral-300 dark:text-neutral-600">·</span>
+        <span className="text-neutral-500">
+          {best ? `Best ${best.score}/${best.total} · ${attempts?.length} attempts` : "No attempts yet"}
+        </span>
+      </LessonMetaRow>
 
       {/* 1. Audio player card */}
       <DetailCard className="mt-4">

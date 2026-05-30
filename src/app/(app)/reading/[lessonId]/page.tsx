@@ -25,7 +25,7 @@ import { LayoutToggle } from "@/components/reading/layout-toggle";
 import { AttemptHistory } from "@/components/reading/attempt-history";
 import { BookmarkButton } from "@/components/reading/bookmark-button";
 import { LessonNotes } from "@/components/reading/lesson-notes";
-import { LessonDetailHeader } from "@/components/lesson/lesson-detail-header";
+import { LessonDetailHeader, LessonMetaRow } from "@/components/lesson/lesson-detail-header";
 import { DetailCard } from "@/components/lesson/detail-card";
 import { AccentBlock } from "@/components/lesson/accent-block";
 import { LessonMobileBar } from "@/components/lesson/lesson-mobile-bar";
@@ -68,19 +68,7 @@ function LessonDetailContent({ params }: { params: Promise<{ lessonId: string }>
       <LessonDetailHeader
         backHref="/reading"
         backLabel="Back to Reading"
-        level={lesson.level}
         title={lesson.title}
-        meta={
-          <>
-            {lesson.tags.map((t) => (
-              <span key={t} className="text-neutral-500">#{t}</span>
-            ))}
-            <span className="text-neutral-300 dark:text-neutral-600">·</span>
-            <span className="text-neutral-500">
-              {best ? `Best ${best.score}/${best.total} · ${attempts?.length} attempts` : "No attempts yet"}
-            </span>
-          </>
-        }
         toolbar={
           <>
             <LessonTimer compactOnMobile />
@@ -91,7 +79,23 @@ function LessonDetailContent({ params }: { params: Promise<{ lessonId: string }>
         }
       />
 
-      <p className="mt-4 rounded-xl bg-neutral-100/60 px-4 py-3 text-sm dark:bg-white/5">
+      <LessonMetaRow level={lesson.level}>
+        {lesson.tags.map((t) => (
+          <span key={t} className="text-neutral-500">#{t}</span>
+        ))}
+        <span className="text-neutral-300 dark:text-neutral-600">·</span>
+        <span className="text-neutral-500">
+          {best ? `Best ${best.score}/${best.total} · ${attempts?.length} attempts` : "No attempts yet"}
+        </span>
+      </LessonMetaRow>
+
+      {hasDraft && (
+        <div className="mt-4">
+          <ResumeBanner onAbandon={abandonDraft} answered={draftAnswered} total={totalQuestions} />
+        </div>
+      )}
+
+      <p className="mt-3 rounded-xl bg-neutral-100/60 px-4 py-3 text-sm dark:bg-white/5">
         <strong className="font-semibold">Summary:</strong>{" "}
         <span className="italic text-neutral-600 dark:text-neutral-300">{lesson.summary}</span>
       </p>
@@ -104,12 +108,6 @@ function LessonDetailContent({ params }: { params: Promise<{ lessonId: string }>
         initialDurationMs={draft?.durationMs ?? 0}
         onAttemptSaved={() => {}}
       >
-        {hasDraft && (
-          <div className="mt-4">
-            <ResumeBanner onAbandon={abandonDraft} answered={draftAnswered} total={totalQuestions} />
-          </div>
-        )}
-
         <div
           className={cn(
             "mt-4 gap-4",

@@ -36,7 +36,7 @@ import { PromptCopyPanel } from "@/components/writing/prompt-copy-panel";
 import { WritingResultPanel } from "@/components/writing/writing-result-panel";
 import { WritingAttemptHistory } from "@/components/writing/writing-attempt-history";
 import { AiFeedbackGuide } from "@/components/writing/ai-feedback-guide";
-import { LessonDetailHeader } from "@/components/lesson/lesson-detail-header";
+import { LessonDetailHeader, LessonMetaRow } from "@/components/lesson/lesson-detail-header";
 import { DetailCard } from "@/components/lesson/detail-card";
 import { AccentBlock } from "@/components/lesson/accent-block";
 
@@ -185,21 +185,7 @@ function LessonDetailContent({
       <LessonDetailHeader
         backHref="/writing"
         backLabel="Back to Writing"
-        level={lesson.level}
         title={lesson.title}
-        meta={
-          <>
-            {lesson.tags.map((t) => (
-              <span key={t} className="text-neutral-500">#{t}</span>
-            ))}
-            {wordTarget && (
-              <>
-                <span className="text-neutral-300 dark:text-neutral-600">·</span>
-                <span className="text-neutral-500">{wordTarget}</span>
-              </>
-            )}
-          </>
-        }
         toolbar={
           <>
             <LessonTimer />
@@ -210,10 +196,24 @@ function LessonDetailContent({
         }
       />
 
-      <WritingSessionProvider lesson={lesson} initialDraft={draft}>
-        <AiFeedbackGuide />
-        <MainArea />
-      </WritingSessionProvider>
+      <LessonMetaRow level={lesson.level}>
+        {lesson.tags.map((t) => (
+          <span key={t} className="text-neutral-500">#{t}</span>
+        ))}
+        {wordTarget && (
+          <>
+            <span className="text-neutral-300 dark:text-neutral-600">·</span>
+            <span className="text-neutral-500">{wordTarget}</span>
+          </>
+        )}
+      </LessonMetaRow>
+
+      <div className="mt-4">
+        <WritingSessionProvider lesson={lesson} initialDraft={draft}>
+          <AiFeedbackGuide />
+          <MainArea />
+        </WritingSessionProvider>
+      </div>
     </main>
   );
 }
