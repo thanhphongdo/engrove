@@ -43,7 +43,7 @@ export function AttemptHistory({ lessonId }: { lessonId: string }) {
   }
 
   return (
-    <section className="mt-6 rounded-md border bg-card p-4 shadow-md dark:shadow-[0_4px_20px_rgba(255,255,255,0.035)]">
+    <section className="rounded-2xl border border-neutral-200 bg-white p-4 shadow-sm dark:border-white/10 dark:bg-neutral-900">
       <div className="mb-2 flex items-center justify-between gap-2">
         <h2 className="text-sm font-semibold">Attempt history</h2>
         <AlertDialog>

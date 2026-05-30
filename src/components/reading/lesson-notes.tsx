@@ -59,11 +59,11 @@ function NotesEditor({
   }
 
   return (
-    <section className="mt-6 rounded-md border bg-card shadow-md dark:shadow-[0_4px_20px_rgba(255,255,255,0.035)]">
+    <section className="rounded-2xl border border-neutral-200 bg-white shadow-sm dark:border-white/10 dark:bg-neutral-900">
       <button
         type="button"
         onClick={() => setExpanded((e) => !e)}
-        className="flex w-full items-center gap-2 px-4 py-3 text-left text-sm font-semibold hover:bg-accent/40"
+        className="flex w-full items-center gap-2 rounded-2xl px-4 py-3 text-left text-sm font-semibold hover:bg-neutral-50 dark:hover:bg-white/5"
         aria-expanded={expanded}
       >
         {expanded ? (

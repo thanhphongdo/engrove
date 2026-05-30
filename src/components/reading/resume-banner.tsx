@@ -1,14 +1,21 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
+import { Clock } from "lucide-react";
 
 export function ResumeBanner({ onAbandon }: { onAbandon: () => void }) {
   return (
-    <div className="mb-3 flex items-center justify-between rounded-md border bg-secondary/40 px-3 py-2 text-sm">
-      <span>Resumed your in-progress attempt.</span>
-      <Button type="button" variant="ghost" size="sm" onClick={onAbandon}>
+    <div className="flex flex-wrap items-center justify-between gap-2 rounded-xl border-l-4 border-amber-400 bg-neutral-100/60 px-4 py-3 text-sm dark:bg-white/5">
+      <span className="inline-flex items-center gap-2 text-amber-700 dark:text-amber-300">
+        <Clock className="size-4 shrink-0" aria-hidden="true" />
+        Resumed your in-progress attempt.
+      </span>
+      <button
+        type="button"
+        onClick={onAbandon}
+        className="rounded-lg border border-amber-300 px-3 py-1.5 text-xs font-medium text-amber-700 transition-colors hover:bg-amber-100/60 dark:border-amber-500/40 dark:text-amber-300 dark:hover:bg-amber-500/10"
+      >
         Abandon and start over
-      </Button>
+      </button>
     </div>
   );
 }

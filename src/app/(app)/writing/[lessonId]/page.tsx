@@ -1,8 +1,6 @@
 "use client";
 
 import { Suspense, use } from "react";
-import Link from "next/link";
-import { ArrowLeft } from "lucide-react";
 import { useLiveQuery } from "dexie-react-hooks";
 import { useWritingLesson } from "@/lib/lessons/load";
 import { useActiveProfileId } from "@/lib/db/use-active-profile";
@@ -27,7 +25,6 @@ import {
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
 import { cn } from "@/lib/utils";
-import type { WritingLesson } from "@/lib/lessons/types";
 import {
   WritingSessionProvider,
   useWritingSession,
@@ -40,14 +37,9 @@ import { PromptCopyPanel } from "@/components/writing/prompt-copy-panel";
 import { WritingResultPanel } from "@/components/writing/writing-result-panel";
 import { WritingAttemptHistory } from "@/components/writing/writing-attempt-history";
 import { AiFeedbackGuide } from "@/components/writing/ai-feedback-guide";
-
-const LEVEL_CLASS: Record<WritingLesson["level"], string> = {
-  A1: "bg-level-a1 text-level-a1-foreground",
-  A2: "bg-level-a2 text-level-a2-foreground",
-  B1: "bg-level-b1 text-level-b1-foreground",
-  B2: "bg-level-b2 text-level-b2-foreground",
-  C1: "bg-level-c1 text-level-c1-foreground",
-};
+import { LessonDetailHeader } from "@/components/lesson/lesson-detail-header";
+import { DetailCard } from "@/components/lesson/detail-card";
+import { AccentBlock } from "@/components/lesson/accent-block";
 
 function McQuizSection() {
   const { lesson, mcPicks, setMcPick, mcResult, reviewMode, submitMc, retryMc } =
@@ -58,7 +50,7 @@ function McQuizSection() {
   const unanswered = total - answered;
 
   return (
-    <section className="mt-3 rounded-md sm:mt-4 border bg-card p-3 sm:p-4 shadow-md dark:shadow-[0_4px_20px_rgba(255,255,255,0.035)]">
+    <DetailCard className="mt-4">
       <MCQuestions
         showHint={prefs.hintToggles.perQuestionHint}
         questions={lesson.mcQuestions}
@@ -115,7 +107,7 @@ function McQuizSection() {
           )}
         </div>
       )}
-    </section>
+    </DetailCard>
   );
 }
 
@@ -149,18 +141,17 @@ function MainArea() {
 
 
       {lesson.criticalThinkingQuestion && (
-        <section className="mt-3 rounded-md sm:mt-4 border-l-4 border-primary bg-muted/40 p-3 sm:p-4 shadow-md dark:shadow-[0_4px_20px_rgba(255,255,255,0.035)]">
-          <h2 className="mb-1 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-            Critical thinking
-          </h2>
-          <p className="text-sm italic leading-relaxed">
+        <AccentBlock className="mt-4" label="Think about it">
+          <p className="text-sm italic leading-relaxed text-neutral-700 dark:text-neutral-200">
             {lesson.criticalThinkingQuestion}
           </p>
-        </section>
+        </AccentBlock>
       )}
 
-      <WritingAttemptHistory lessonId={lesson.id} />
-      <LessonNotes lessonId={lesson.id} />
+      <div className="mt-4 space-y-4">
+        <WritingAttemptHistory lessonId={lesson.id} />
+        <LessonNotes lessonId={lesson.id} />
+      </div>
     </>
   );
 }
@@ -183,42 +174,32 @@ function LessonDetailContent({
   }
 
   return (
-    <div className="mx-auto w-full max-w-6xl px-4 py-4 sm:px-6 sm:py-6">
-      <header className="sticky top-0 z-30 -mx-4 mb-4 flex flex-wrap items-start justify-between gap-x-3 gap-y-2 bg-background/90 px-4 py-3 backdrop-blur supports-backdrop-filter:bg-background/80 sm:-mx-6 sm:px-6 sm:py-4">
-        <div className="min-w-0 flex-1">
-          <Link
-            href="/writing"
-            className="mb-1 inline-flex items-center gap-1 text-xs text-muted-foreground hover:text-foreground"
-          >
-            <ArrowLeft className="size-3" /> Back to Writing
-          </Link>
-          <h1 className="text-lg font-semibold leading-tight sm:text-xl">
-            {lesson.title}
-          </h1>
-          <div className="mt-1 flex flex-wrap items-center gap-2 text-xs">
-            <span className={cn("rounded px-1.5 py-0.5 font-semibold", LEVEL_CLASS[lesson.level])}>
-              {lesson.level}
-            </span>
-            {lesson.tags.map((t) => (
-              <span key={t} className="text-muted-foreground">
-                #{t}
-              </span>
-            ))}
-          </div>
-        </div>
-        <div className="flex flex-wrap items-center gap-2">
-          <BookmarkButton lessonId={lessonId} variant="inline" />
-          <LessonTimer />
-          <HintSettingsPopover />
-          <LayoutToggle />
-        </div>
-      </header>
+    <main className="mx-auto max-w-5xl px-4 pb-16 sm:px-6">
+      <LessonDetailHeader
+        backHref="/writing"
+        backLabel="Back to Writing"
+        level={lesson.level}
+        title={lesson.title}
+        meta={lesson.tags.map((t) => (
+          <span key={t} className="text-neutral-500">#{t}</span>
+        ))}
+        toolbar={
+          <>
+            <LessonTimer />
+            <HintSettingsPopover />
+            <BookmarkButton lessonId={lessonId} variant="inline" />
+            <LayoutToggle />
+          </>
+        }
+      />
 
-      <WritingSessionProvider lesson={lesson} initialDraft={draft}>
-        <AiFeedbackGuide />
-        <MainArea />
-      </WritingSessionProvider>
-    </div>
+      <div className="mt-4">
+        <WritingSessionProvider lesson={lesson} initialDraft={draft}>
+          <AiFeedbackGuide />
+          <MainArea />
+        </WritingSessionProvider>
+      </div>
+    </main>
   );
 }
 
