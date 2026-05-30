@@ -37,6 +37,7 @@ import { WritingResultPanel } from "@/components/writing/writing-result-panel";
 import { WritingAttemptHistory } from "@/components/writing/writing-attempt-history";
 import { AiFeedbackGuide } from "@/components/writing/ai-feedback-guide";
 import { LessonDetailHeader, LessonMetaRow } from "@/components/lesson/lesson-detail-header";
+import { LessonTags } from "@/components/lesson/lesson-tags";
 import { DetailCard } from "@/components/lesson/detail-card";
 import { AccentBlock } from "@/components/lesson/accent-block";
 
@@ -197,9 +198,7 @@ function LessonDetailContent({
       />
 
       <LessonMetaRow level={lesson.level}>
-        {lesson.tags.map((t) => (
-          <span key={t} className="text-neutral-500">#{t}</span>
-        ))}
+        <LessonTags skill="writing" tags={lesson.tags} currentLessonId={lesson.id} />
         {wordTarget && (
           <>
             <span className="text-neutral-300 dark:text-neutral-600">·</span>

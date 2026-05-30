@@ -30,6 +30,7 @@ import { AccentFlag } from "@/components/ui/accent-flag";
 import { useListeningAudioStore } from "@/stores/listening-audio-store";
 import { PlaybackTimeline } from "@/components/listening/playback-timeline";
 import { LessonDetailHeader, LessonMetaRow } from "@/components/lesson/lesson-detail-header";
+import { LessonTags } from "@/components/lesson/lesson-tags";
 import { DetailCard } from "@/components/lesson/detail-card";
 import { AccentBlock } from "@/components/lesson/accent-block";
 import { formatDuration } from "@/lib/format";
@@ -98,9 +99,7 @@ function ListeningLessonDetailContent({ params }: { params: Promise<{ lessonId: 
         </span>
         <span className="text-neutral-300 dark:text-neutral-600">·</span>
         <span className="text-neutral-500">{lesson.sentences.length} sentences</span>
-        {lesson.tags.map((t) => (
-          <span key={t} className="text-neutral-500">#{t}</span>
-        ))}
+        <LessonTags skill="listening" tags={lesson.tags} currentLessonId={lesson.id} />
         <span className="text-neutral-300 dark:text-neutral-600">·</span>
         <span className="text-neutral-500">
           {best ? `Best ${best.score}/${best.total} · ${attempts?.length} attempts` : "No attempts yet"}

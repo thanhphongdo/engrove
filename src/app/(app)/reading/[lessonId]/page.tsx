@@ -26,6 +26,7 @@ import { AttemptHistory } from "@/components/reading/attempt-history";
 import { BookmarkButton } from "@/components/reading/bookmark-button";
 import { LessonNotes } from "@/components/reading/lesson-notes";
 import { LessonDetailHeader, LessonMetaRow } from "@/components/lesson/lesson-detail-header";
+import { LessonTags } from "@/components/lesson/lesson-tags";
 import { DetailCard } from "@/components/lesson/detail-card";
 import { AccentBlock } from "@/components/lesson/accent-block";
 import { LessonMobileBar } from "@/components/lesson/lesson-mobile-bar";
@@ -80,9 +81,7 @@ function LessonDetailContent({ params }: { params: Promise<{ lessonId: string }>
       />
 
       <LessonMetaRow level={lesson.level}>
-        {lesson.tags.map((t) => (
-          <span key={t} className="text-neutral-500">#{t}</span>
-        ))}
+        <LessonTags skill="reading" tags={lesson.tags} currentLessonId={lesson.id} />
         <span className="text-neutral-300 dark:text-neutral-600">·</span>
         <span className="text-neutral-500">
           {best ? `Best ${best.score}/${best.total} · ${attempts?.length} attempts` : "No attempts yet"}

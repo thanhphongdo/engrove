@@ -14,6 +14,7 @@ import { DetailCard } from "@/components/lesson/detail-card";
 import { Skeleton } from "@/components/ui/skeleton";
 import { useLocalStorageString } from "@/lib/use-local-storage";
 import { LessonDetailHeader, LessonMetaRow } from "@/components/lesson/lesson-detail-header";
+import { LessonTags } from "@/components/lesson/lesson-tags";
 
 function DetailContent() {
   const { lessonId } = useParams<{ lessonId: string }>();
@@ -69,9 +70,7 @@ function DetailContent() {
       />
 
       <LessonMetaRow level={lesson.level}>
-        {lesson.tags.map((t) => (
-          <span key={t} className="text-neutral-500">#{t}</span>
-        ))}
+        <LessonTags skill="speaking" tags={lesson.tags} currentLessonId={lesson.id} />
       </LessonMetaRow>
 
       {/* Two-column layout: practice/transcript card | hint aside */}
