@@ -81,7 +81,7 @@ function IllustrationButton() {
         </div>
         <span className="inline-flex items-center gap-1 rounded-md border bg-background/60 px-2 py-1 text-[10px] font-medium text-foreground">
           <Wand2 className="size-2.5 text-primary" />
-          Get feedback directly
+          Get feedback now
         </span>
       </div>
     </div>
@@ -203,7 +203,7 @@ const STEPS = [
     label: "Get feedback",
     title: "Pick how to get AI feedback",
     description:
-      "Two paths below the editor. Recommended: “Copy prompt for ChatGPT / Gemini” — uses your own AI tab, best quality especially for B2–C1. Or one-click: “Get feedback directly” — instant, no setup, great for A1–B1.",
+      "Two paths below the editor. Recommended: “Copy prompt for ChatGPT / Gemini” — uses your own AI tab, best quality especially for B2–C1. Or one-click: “Get feedback now” — instant, no setup, great for A1–B1.",
     illustration: <IllustrationButton />,
   },
   {
@@ -256,27 +256,36 @@ export function AiFeedbackGuide() {
   return (
     <>
       {!dismissed && (
-        <div className="mt-4 flex items-center gap-3 rounded-xl border-l-4 border-emerald-400 bg-neutral-100/60 px-4 py-3 text-sm dark:bg-white/5">
-          <span className="shrink-0 text-emerald-600 dark:text-emerald-400">
-            <Sparkles className="size-4" aria-hidden="true" />
-          </span>
-          <span className="flex-1 text-emerald-800 dark:text-emerald-300">
-            New here? Learn how to use AI feedback to improve your writing faster.
-          </span>
+        <div className="mt-4 rounded-xl border-l-4 border-emerald-400 bg-neutral-100/60 px-4 py-3 text-sm dark:bg-white/5">
+          <div className="flex items-start gap-3 sm:items-center">
+            <Sparkles className="mt-0.5 size-4 shrink-0 text-emerald-600 dark:text-emerald-400 sm:mt-0" aria-hidden="true" />
+            <span className="flex-1 text-emerald-800 dark:text-emerald-300">
+              New here? Learn how to use AI feedback to improve your writing faster.
+            </span>
+            {/* Show guide — inline on desktop only */}
+            <button
+              type="button"
+              onClick={openGuide}
+              className="hidden shrink-0 rounded-lg border border-emerald-300 bg-white px-3 py-1.5 text-xs font-semibold text-emerald-700 hover:bg-emerald-50 dark:border-emerald-500/30 dark:bg-emerald-500/10 dark:text-emerald-300 dark:hover:bg-emerald-500/20 sm:inline-flex"
+            >
+              Show guide
+            </button>
+            <button
+              type="button"
+              onClick={() => setDismissed(true)}
+              aria-label="Dismiss guide"
+              className="-mr-1 grid size-7 shrink-0 place-items-center rounded-lg text-emerald-600 hover:bg-emerald-100 dark:text-emerald-400 dark:hover:bg-emerald-500/20"
+            >
+              <X className="size-3.5" aria-hidden="true" />
+            </button>
+          </div>
+          {/* Show guide — full-width on mobile (keeps the banner balanced) */}
           <button
             type="button"
             onClick={openGuide}
-            className="shrink-0 rounded-lg border border-emerald-300 bg-white px-3 py-1.5 text-xs font-semibold text-emerald-700 hover:bg-emerald-50 dark:border-emerald-500/30 dark:bg-emerald-500/10 dark:text-emerald-300 dark:hover:bg-emerald-500/20"
+            className="mt-3 w-full rounded-lg border border-emerald-300 bg-white px-3 py-2 text-xs font-semibold text-emerald-700 hover:bg-emerald-50 dark:border-emerald-500/30 dark:bg-emerald-500/10 dark:text-emerald-300 dark:hover:bg-emerald-500/20 sm:hidden"
           >
             Show guide
-          </button>
-          <button
-            type="button"
-            onClick={() => setDismissed(true)}
-            aria-label="Dismiss guide"
-            className="grid size-7 shrink-0 place-items-center rounded-lg text-emerald-600 hover:bg-emerald-100 dark:text-emerald-400 dark:hover:bg-emerald-500/20"
-          >
-            <X className="size-3.5" aria-hidden="true" />
           </button>
         </div>
       )}
