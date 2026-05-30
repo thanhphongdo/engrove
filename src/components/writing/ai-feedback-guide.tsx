@@ -229,9 +229,10 @@ export function AiFeedbackGuide() {
     "writing-ai-guide-v3",
     false,
   );
-  // The walkthrough auto-opens on first visit; afterwards the banner lets the
-  // learner reopen it on demand. `dismissed` (persisted) hides both for good.
-  const [open, setOpen] = useState(!dismissed);
+  // The dismissible banner is the persistent entry point (matching the mockup);
+  // the walkthrough modal opens only when the learner clicks "Show guide". It
+  // never auto-opens. `dismissed` (persisted) hides the banner for good.
+  const [open, setOpen] = useState(false);
   const [step, setStep] = useState(0);
 
   const isFirst = step === 0;

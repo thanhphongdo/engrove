@@ -1,6 +1,7 @@
 "use client";
 
 import { Suspense, use } from "react";
+import { Sparkles } from "lucide-react";
 import { useLiveQuery } from "dexie-react-hooks";
 import { useWritingLesson } from "@/lib/lessons/load";
 import { useActiveProfileId } from "@/lib/db/use-active-profile";
@@ -132,8 +133,10 @@ function MainArea() {
         <div className="space-y-4">
           <WritingEditor />
           <SampleAnswerReveal />
-          <PromptCopyPanel />
-          {phase === "ready" && llmResult && <WritingResultPanel result={llmResult} />}
+          <div id="ai-feedback" className="scroll-mt-28 space-y-4">
+            <PromptCopyPanel />
+            {phase === "ready" && llmResult && <WritingResultPanel result={llmResult} />}
+          </div>
         </div>
 
         {/* RIGHT (aside): hints, quiz, critical thinking, history, notes */}
@@ -182,7 +185,7 @@ function LessonDetailContent({
           : null;
 
   return (
-    <main className="mx-auto max-w-5xl px-4 pb-16 sm:px-6">
+    <main className="mx-auto max-w-5xl px-4 pb-28 sm:px-6 md:pb-12">
       <LessonDetailHeader
         backHref="/writing"
         backLabel="Back to Writing"
@@ -212,6 +215,16 @@ function LessonDetailContent({
           <AiFeedbackGuide />
           <MainArea />
         </WritingSessionProvider>
+      </div>
+
+      {/* Mobile bottom action bar — jumps to the AI-feedback panel */}
+      <div className="fixed inset-x-0 bottom-0 z-40 border-t border-neutral-200 bg-white/95 px-4 py-3 backdrop-blur dark:border-white/10 dark:bg-neutral-900/95 md:hidden">
+        <a
+          href="#ai-feedback"
+          className="flex w-full items-center justify-center gap-2 rounded-xl bg-neutral-900 py-3 text-sm font-semibold text-white dark:bg-white dark:text-neutral-900"
+        >
+          <Sparkles className="size-4" aria-hidden="true" /> Get AI feedback
+        </a>
       </div>
     </main>
   );
