@@ -75,6 +75,7 @@ function LessonDetailContent({ params }: { params: Promise<{ lessonId: string }>
             {lesson.tags.map((t) => (
               <span key={t} className="text-neutral-500">#{t}</span>
             ))}
+            <span className="text-neutral-300 dark:text-neutral-600">·</span>
             <span className="text-neutral-500">
               {best ? `Best ${best.score}/${best.total} · ${attempts?.length} attempts` : "No attempts yet"}
             </span>
