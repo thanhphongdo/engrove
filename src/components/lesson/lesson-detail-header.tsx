@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowLeft } from "lucide-react";
+import { ChevronLeft } from "lucide-react";
 import type { ReactNode } from "react";
 import { LevelBadge } from "@/components/shared/level-badge";
 import type { CefrLevel } from "@/lib/lessons/types";
@@ -30,14 +30,14 @@ export function LessonDetailHeader({
           align === "center" ? "sm:items-center" : "sm:items-start"
         }`}
       >
-        <div className="flex min-w-0 items-center gap-2">
+        <div className="flex min-w-0 items-center gap-1">
           <Link
             href={backHref}
             aria-label={backLabel}
             title={backLabel}
-            className="grid size-8 shrink-0 place-items-center rounded-lg text-neutral-500 transition-colors hover:bg-neutral-100 hover:text-neutral-800 dark:text-neutral-400 dark:hover:bg-white/10 dark:hover:text-neutral-200"
+            className="-ml-1.5 grid size-7 shrink-0 place-items-center rounded-md text-neutral-500 transition-colors hover:bg-neutral-100 hover:text-neutral-800 dark:text-neutral-400 dark:hover:bg-white/10 dark:hover:text-neutral-200"
           >
-            <ArrowLeft className="size-4.5" aria-hidden="true" />
+            <ChevronLeft className="size-5" aria-hidden="true" />
           </Link>
           <h1 className="min-w-0 text-xl font-bold leading-tight tracking-tight sm:text-2xl">{title}</h1>
         </div>
