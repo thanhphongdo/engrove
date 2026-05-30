@@ -30,6 +30,7 @@ import { AccentFlag } from "@/components/ui/accent-flag";
 import { useListeningAudioStore } from "@/stores/listening-audio-store";
 import { PlaybackTimeline } from "@/components/listening/playback-timeline";
 import { LessonDetailHeader, LessonMetaRow } from "@/components/lesson/lesson-detail-header";
+import { LessonMobileBar } from "@/components/lesson/lesson-mobile-bar";
 import { LessonTags } from "@/components/lesson/lesson-tags";
 import { DetailCard } from "@/components/lesson/detail-card";
 import { AccentBlock } from "@/components/lesson/accent-block";
@@ -74,7 +75,7 @@ function ListeningLessonDetailContent({ params }: { params: Promise<{ lessonId: 
   const isTwoColumn = prefs.detailLayout === "two-column";
 
   return (
-    <main className="mx-auto max-w-5xl px-4 pb-28 sm:px-6 md:pb-16">
+    <main className="mx-auto max-w-5xl px-4 pb-28 sm:px-6 md:pb-12">
       <TranscriptPlayer />
       <PlaybackTimeline sentences={lesson.sentences} />
 
@@ -84,7 +85,7 @@ function ListeningLessonDetailContent({ params }: { params: Promise<{ lessonId: 
         title={lesson.title}
         toolbar={
           <>
-            <LessonTimer />
+            <LessonTimer compactOnMobile />
             <HintSettingsPopover />
             <BookmarkButton lessonId={lessonId} variant="inline" />
             <LayoutToggle />
@@ -184,7 +185,7 @@ function ListeningLessonDetailContent({ params }: { params: Promise<{ lessonId: 
         )}
 
         {/* 7. Quiz footer */}
-        <QuizFooter />
+        <QuizFooter showProgress />
       </QuizSection>
 
       {/* 8. Critical thinking */}
@@ -205,6 +206,8 @@ function ListeningLessonDetailContent({ params }: { params: Promise<{ lessonId: 
       <div className="mt-6">
         <LessonNotes lessonId={lessonId} />
       </div>
+
+      <LessonMobileBar />
     </main>
   );
 }
