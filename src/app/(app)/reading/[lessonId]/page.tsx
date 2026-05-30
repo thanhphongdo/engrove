@@ -28,6 +28,7 @@ import { LessonNotes } from "@/components/reading/lesson-notes";
 import { LessonDetailHeader } from "@/components/lesson/lesson-detail-header";
 import { DetailCard } from "@/components/lesson/detail-card";
 import { AccentBlock } from "@/components/lesson/accent-block";
+import { LessonMobileBar } from "@/components/lesson/lesson-mobile-bar";
 
 function LessonDetailContent({ params }: { params: Promise<{ lessonId: string }> }) {
   const { lessonId } = use(params);
@@ -57,9 +58,13 @@ function LessonDetailContent({ params }: { params: Promise<{ lessonId: string }>
     undefined,
   );
   const hasDraft = draft != null;
+  const totalQuestions = lesson.questions.length + (lesson.cloze?.blanks.length ?? 0);
+  const draftAnswered = draft
+    ? Object.keys(draft.answers ?? {}).length + Object.keys(draft.clozePicks ?? {}).length
+    : 0;
 
   return (
-    <main className="mx-auto max-w-5xl px-4 pb-16 sm:px-6">
+    <main className="mx-auto max-w-5xl px-4 pb-28 sm:px-6 md:pb-12">
       <LessonDetailHeader
         backHref="/reading"
         backLabel="Back to Reading"
@@ -77,7 +82,7 @@ function LessonDetailContent({ params }: { params: Promise<{ lessonId: string }>
         }
         toolbar={
           <>
-            <LessonTimer />
+            <LessonTimer compactOnMobile />
             <HintSettingsPopover />
             <BookmarkButton lessonId={lessonId} variant="inline" />
             <LayoutToggle />
@@ -100,7 +105,7 @@ function LessonDetailContent({ params }: { params: Promise<{ lessonId: string }>
       >
         {hasDraft && (
           <div className="mt-4">
-            <ResumeBanner onAbandon={abandonDraft} />
+            <ResumeBanner onAbandon={abandonDraft} answered={draftAnswered} total={totalQuestions} />
           </div>
         )}
 
@@ -108,16 +113,14 @@ function LessonDetailContent({ params }: { params: Promise<{ lessonId: string }>
           className={cn(
             "mt-4 gap-4",
             prefs.detailLayout === "two-column"
-              ? "grid grid-cols-1 lg:grid-cols-[1.2fr_1fr] lg:grid-rows-[auto_1fr]"
+              ? "grid grid-cols-1 lg:grid-cols-[1.2fr_1fr] lg:items-start"
               : "flex flex-col",
           )}
         >
           <DetailCard
             className={cn(
               "relative",
-              prefs.detailLayout === "two-column" && "lg:col-start-1 lg:row-start-1 lg:row-end-3",
-              contentPinned && "sticky top-32 z-20 max-h-[60vh] overflow-y-auto",
-              contentPinned && prefs.detailLayout === "two-column" && "lg:max-h-[calc(100vh-9rem)]",
+              contentPinned && "lg:sticky lg:top-32 lg:z-20 lg:max-h-[calc(100vh-9rem)] lg:overflow-y-auto",
             )}
           >
             <Tooltip>
@@ -146,15 +149,12 @@ function LessonDetailContent({ params }: { params: Promise<{ lessonId: string }>
             />
           </DetailCard>
 
-          {prefs.hintToggles.grammar && (
-            <div className={cn(prefs.detailLayout === "two-column" && "lg:col-start-2 lg:row-start-1")}>
-              <GrammarNotes notes={lesson.grammarNotes} />
-            </div>
-          )}
-
-          <DetailCard className={cn(prefs.detailLayout === "two-column" && "lg:col-start-2 lg:row-start-2")}>
-            <MCQuestions showHint={prefs.hintToggles.perQuestionHint} />
-          </DetailCard>
+          <div className="flex flex-col gap-4">
+            {prefs.hintToggles.grammar && <GrammarNotes notes={lesson.grammarNotes} />}
+            <DetailCard>
+              <MCQuestions showHint={prefs.hintToggles.perQuestionHint} />
+            </DetailCard>
+          </div>
         </div>
 
         {lesson.cloze && (
@@ -181,6 +181,8 @@ function LessonDetailContent({ params }: { params: Promise<{ lessonId: string }>
       <div className="mt-4">
         <LessonNotes lessonId={lessonId} />
       </div>
+
+      <LessonMobileBar />
     </main>
   );
 }
