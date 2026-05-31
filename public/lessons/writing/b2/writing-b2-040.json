@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "Whether streetlights should respect darkness",
   "summary": "Argue whether communities have a responsibility to limit artificial light at night, or whether safety and productivity must take priority.",
-  "tags": ["Environment", "Urbanism", "Science", "Society"],
+  "tags": [
+    "Environment",
+    "Urbanism",
+    "Science",
+    "Society"
+  ],
   "topic": "Whether streetlights should respect darkness",
   "prompt": "Write an argumentative essay (350–500 words) exploring whether towns and cities should significantly reduce artificial lighting at night — to protect wildlife, human health, and the night sky — or whether the safety and economic arguments for keeping streets well-lit are too strong to compromise. Use a cleft sentence, a concession ('Granted, …' or 'Admittedly, …'), at least one passive construction, and a participle clause. Include at least one concrete example (a town, a country, a policy, or a scientific study). Take a clear position.",
   "minWords": 350,
@@ -14,50 +19,177 @@
     "Deprived of natural darkness cycles, migratory birds across East Asia and Europe have been shown to…"
   ],
   "hintVocab": [
-    { "phrase": "light pollution", "meaningVi": "ô nhiễm ánh sáng" },
-    { "phrase": "artificial illumination", "meaningVi": "chiếu sáng nhân tạo" },
-    { "phrase": "dark-sky reserve", "meaningVi": "khu bảo tồn bầu trời tối" },
-    { "phrase": "circadian rhythm", "meaningVi": "nhịp sinh học theo chu kỳ ngày đêm", "pronunciation": "/ˌsɜː.keɪ.di.ən/" },
-    { "phrase": "to disrupt nocturnal wildlife", "meaningVi": "làm gián đoạn cuộc sống của động vật hoạt động ban đêm" },
-    { "phrase": "skyglow", "meaningVi": "vầng sáng trên bầu trời đêm do ánh đèn đô thị" },
-    { "phrase": "melatonin suppression", "meaningVi": "sự ức chế melatonin (hormone giúp ngủ)", "pronunciation": "/ˌmel.əˈtəʊ.nɪn/" },
-    { "phrase": "adaptive LED technology", "meaningVi": "công nghệ đèn LED thích ứng" },
-    { "phrase": "to dim on a schedule", "meaningVi": "giảm độ sáng theo lịch trình" },
-    { "phrase": "crime deterrence", "meaningVi": "ngăn chặn tội phạm" },
-    { "phrase": "to be ecologically sensitive", "meaningVi": "nhạy cảm về mặt sinh thái" },
-    { "phrase": "carbon footprint", "meaningVi": "dấu chân carbon / lượng khí thải carbon" },
-    { "phrase": "to retrofit", "meaningVi": "cải tạo / lắp đặt thiết bị mới vào hệ thống cũ", "pronunciation": "/ˈret.rəʊ.fɪt/" },
-    { "phrase": "ambient light", "meaningVi": "ánh sáng xung quanh" },
-    { "phrase": "the night economy", "meaningVi": "kinh tế ban đêm (các hoạt động kinh tế diễn ra về đêm)" },
-    { "phrase": "biorhythm", "meaningVi": "nhịp sinh học", "pronunciation": "/ˈbaɪ.əʊ.rɪð.əm/" },
-    { "phrase": "a managed dimming policy", "meaningVi": "chính sách giảm chiếu sáng có quản lý" },
-    { "phrase": "astronomical observation", "meaningVi": "quan sát thiên văn" },
-    { "phrase": "to migrate on cue from darkness", "meaningVi": "di cư theo tín hiệu từ bóng tối" },
-    { "phrase": "ecological corridor", "meaningVi": "hành lang sinh thái" },
-    { "phrase": "wasted energy expenditure", "meaningVi": "lãng phí năng lượng không cần thiết" }
+    {
+      "phrase": "light pollution",
+      "meaningVi": "ô nhiễm ánh sáng"
+    },
+    {
+      "phrase": "artificial illumination",
+      "meaningVi": "chiếu sáng nhân tạo"
+    },
+    {
+      "phrase": "dark-sky reserve",
+      "meaningVi": "khu bảo tồn bầu trời tối"
+    },
+    {
+      "phrase": "circadian rhythm",
+      "meaningVi": "nhịp sinh học theo chu kỳ ngày đêm",
+      "pronunciation": "/ˌsɜː.keɪ.di.ən/"
+    },
+    {
+      "phrase": "to disrupt nocturnal wildlife",
+      "meaningVi": "làm gián đoạn cuộc sống của động vật hoạt động ban đêm"
+    },
+    {
+      "phrase": "skyglow",
+      "meaningVi": "vầng sáng trên bầu trời đêm do ánh đèn đô thị"
+    },
+    {
+      "phrase": "melatonin suppression",
+      "meaningVi": "sự ức chế melatonin (hormone giúp ngủ)",
+      "pronunciation": "/ˌmel.əˈtəʊ.nɪn/"
+    },
+    {
+      "phrase": "adaptive LED technology",
+      "meaningVi": "công nghệ đèn LED thích ứng"
+    },
+    {
+      "phrase": "to dim on a schedule",
+      "meaningVi": "giảm độ sáng theo lịch trình"
+    },
+    {
+      "phrase": "crime deterrence",
+      "meaningVi": "ngăn chặn tội phạm"
+    },
+    {
+      "phrase": "to be ecologically sensitive",
+      "meaningVi": "nhạy cảm về mặt sinh thái"
+    },
+    {
+      "phrase": "carbon footprint",
+      "meaningVi": "dấu chân carbon / lượng khí thải carbon"
+    },
+    {
+      "phrase": "to retrofit",
+      "meaningVi": "cải tạo / lắp đặt thiết bị mới vào hệ thống cũ",
+      "pronunciation": "/ˈret.rəʊ.fɪt/"
+    },
+    {
+      "phrase": "ambient light",
+      "meaningVi": "ánh sáng xung quanh"
+    },
+    {
+      "phrase": "the night economy",
+      "meaningVi": "kinh tế ban đêm (các hoạt động kinh tế diễn ra về đêm)"
+    },
+    {
+      "phrase": "biorhythm",
+      "meaningVi": "nhịp sinh học",
+      "pronunciation": "/ˈbaɪ.əʊ.rɪð.əm/"
+    },
+    {
+      "phrase": "a managed dimming policy",
+      "meaningVi": "chính sách giảm chiếu sáng có quản lý"
+    },
+    {
+      "phrase": "astronomical observation",
+      "meaningVi": "quan sát thiên văn"
+    },
+    {
+      "phrase": "to migrate on cue from darkness",
+      "meaningVi": "di cư theo tín hiệu từ bóng tối"
+    },
+    {
+      "phrase": "ecological corridor",
+      "meaningVi": "hành lang sinh thái"
+    },
+    {
+      "phrase": "wasted energy expenditure",
+      "meaningVi": "lãng phí năng lượng không cần thiết"
+    }
   ],
   "sampleText": "For most of human history, the night was dark. Stars were navigational tools, darkness was a signal to sleep, and the creatures that depended on lunar rhythms governed their lives accordingly. Today, the night sky above most cities is a uniform amber wash, and the idea that a street could be too bright is one that many planners have never been required to consider.\n\nThe ecological case for reducing artificial light is well-documented. Migratory birds navigating between West Africa and Northern Europe rely on star patterns that skyglow renders illegible; disoriented, they circle lit towers until exhaustion. Sea turtle hatchlings on beaches in Florida and Queensland are lured away from the ocean by hotel lighting, and never reach the water. These are not marginal concerns. Globally, light pollution is now recognised as one of the fastest-growing threats to nocturnal ecosystems, and its expansion has been measured at roughly two per cent annually across the past two decades.\n\nAdmittedly, the safety argument for bright streets is not easily dismissed. Women walking home alone, elderly residents navigating uneven pavements, cyclists sharing roads with faster traffic: all have a legitimate interest in adequate illumination. Any policy that simply switches off streetlights at midnight without considering who uses those streets at that hour is not ecologically sensitive — it is negligent.\n\nEven so, the binary of bright or dark is a false one. What adaptive LED systems now make possible is a graduated response: lights that dim between, say, midnight and four in the morning, brighten when a sensor detects movement, and shut down in genuinely deserted areas. Dorset, in southern England, became one of the first county councils to trial managed dimming across rural roads, reporting both measurable reductions in insect mortality and no recorded increase in road traffic accidents. This is not a romantic experiment; it is an engineering solution.\n\nGranted, retrofitting an entire city's lighting infrastructure carries costs that not every municipality can absorb immediately. The argument cannot be that all cities should go dark next year. It is, rather, that darkness should be treated as a resource — finite, valuable, and increasingly rare — and that the default assumption of more light equalling more safety should be interrogated rather than inherited.\n\nBeing permanently illuminated has come to feel like a condition of modern life. The question worth asking is whether we adopted it by choice, or simply because no one ever proposed the alternative.",
   "sampleAnnotations": [
-    { "phrase": "the night sky above most cities is a uniform amber wash", "meaningVi": "bầu trời đêm phía trên hầu hết các thành phố là một màu hổ phách đồng nhất" },
-    { "phrase": "the idea that a street could be too bright is one that many planners have never been required to consider", "meaningVi": "ý tưởng rằng một con phố có thể quá sáng là điều mà nhiều nhà quy hoạch chưa bao giờ phải xem xét" },
-    { "phrase": "star patterns that skyglow renders illegible", "meaningVi": "các hình dạng ngôi sao mà ánh sáng đô thị làm cho không thể đọc được" },
-    { "phrase": "disoriented, they circle lit towers until exhaustion", "meaningVi": "mất phương hướng, chúng bay vòng quanh các tháp được chiếu sáng cho đến kiệt sức" },
-    { "phrase": "Sea turtle hatchlings on beaches in Florida and Queensland are lured away from the ocean by hotel lighting", "meaningVi": "Rùa biển con trên các bãi biển ở Florida và Queensland bị thu hút ra khỏi đại dương bởi ánh đèn khách sạn" },
-    { "phrase": "light pollution is now recognised as one of the fastest-growing threats to nocturnal ecosystems", "meaningVi": "ô nhiễm ánh sáng hiện được công nhận là một trong những mối đe dọa phát triển nhanh nhất đối với các hệ sinh thái ban đêm" },
-    { "phrase": "Admittedly, the safety argument for bright streets is not easily dismissed", "meaningVi": "Thừa nhận rằng, lý lẽ an toàn cho những con phố sáng đèn không dễ bác bỏ" },
-    { "phrase": "all have a legitimate interest in adequate illumination", "meaningVi": "tất cả đều có lợi ích chính đáng trong việc được chiếu sáng đầy đủ" },
-    { "phrase": "it is negligent", "meaningVi": "đó là sự cẩu thả / sự thiếu trách nhiệm" },
-    { "phrase": "the binary of bright or dark is a false one", "meaningVi": "sự lựa chọn nhị phân giữa sáng và tối là một sự lựa chọn sai" },
-    { "phrase": "What adaptive LED systems now make possible is a graduated response", "meaningVi": "Điều mà các hệ thống đèn LED thích ứng hiện nay có thể thực hiện là một phản hồi theo từng mức độ" },
-    { "phrase": "lights that dim between midnight and four in the morning, brighten when a sensor detects movement", "meaningVi": "đèn giảm độ sáng từ nửa đêm đến bốn giờ sáng, sáng hơn khi cảm biến phát hiện chuyển động" },
-    { "phrase": "Dorset, in southern England, became one of the first county councils to trial managed dimming", "meaningVi": "Dorset, ở miền nam nước Anh, trở thành một trong những hội đồng quận đầu tiên thử nghiệm việc giảm chiếu sáng có quản lý" },
-    { "phrase": "measurable reductions in insect mortality", "meaningVi": "sự giảm tỷ lệ tử vong của côn trùng có thể đo lường được" },
-    { "phrase": "no recorded increase in road traffic accidents", "meaningVi": "không có sự gia tăng tai nạn giao thông đường bộ nào được ghi nhận" },
-    { "phrase": "This is not a romantic experiment; it is an engineering solution", "meaningVi": "Đây không phải là một thí nghiệm lãng mạn; đó là một giải pháp kỹ thuật" },
-    { "phrase": "retrofitting an entire city's lighting infrastructure carries costs", "meaningVi": "việc cải tạo toàn bộ cơ sở hạ tầng chiếu sáng của một thành phố mang lại chi phí" },
-    { "phrase": "darkness should be treated as a resource — finite, valuable, and increasingly rare", "meaningVi": "bóng tối nên được coi là một nguồn tài nguyên — hữu hạn, có giá trị, và ngày càng khan hiếm" },
-    { "phrase": "the default assumption of more light equalling more safety should be interrogated", "meaningVi": "giả định mặc định rằng nhiều ánh sáng hơn đồng nghĩa với an toàn hơn cần được đặt câu hỏi" },
-    { "phrase": "Being permanently illuminated has come to feel like a condition of modern life", "meaningVi": "Việc được chiếu sáng liên tục đã trở thành cảm giác như một điều kiện của cuộc sống hiện đại" }
+    {
+      "phrase": "the night sky above most cities is a uniform amber wash",
+      "meaningVi": "bầu trời đêm phía trên hầu hết các thành phố là một màu hổ phách đồng nhất"
+    },
+    {
+      "phrase": "the idea that a street could be too bright is one that many planners have never been required to consider",
+      "meaningVi": "ý tưởng rằng một con phố có thể quá sáng là điều mà nhiều nhà quy hoạch chưa bao giờ phải xem xét"
+    },
+    {
+      "phrase": "star patterns that skyglow renders illegible",
+      "meaningVi": "các hình dạng ngôi sao mà ánh sáng đô thị làm cho không thể đọc được"
+    },
+    {
+      "phrase": "disoriented, they circle lit towers until exhaustion",
+      "meaningVi": "mất phương hướng, chúng bay vòng quanh các tháp được chiếu sáng cho đến kiệt sức"
+    },
+    {
+      "phrase": "Sea turtle hatchlings on beaches in Florida and Queensland are lured away from the ocean by hotel lighting",
+      "meaningVi": "Rùa biển con trên các bãi biển ở Florida và Queensland bị thu hút ra khỏi đại dương bởi ánh đèn khách sạn"
+    },
+    {
+      "phrase": "light pollution is now recognised as one of the fastest-growing threats to nocturnal ecosystems",
+      "meaningVi": "ô nhiễm ánh sáng hiện được công nhận là một trong những mối đe dọa phát triển nhanh nhất đối với các hệ sinh thái ban đêm"
+    },
+    {
+      "phrase": "Admittedly, the safety argument for bright streets is not easily dismissed",
+      "meaningVi": "Thừa nhận rằng, lý lẽ an toàn cho những con phố sáng đèn không dễ bác bỏ"
+    },
+    {
+      "phrase": "all have a legitimate interest in adequate illumination",
+      "meaningVi": "tất cả đều có lợi ích chính đáng trong việc được chiếu sáng đầy đủ"
+    },
+    {
+      "phrase": "it is negligent",
+      "meaningVi": "đó là sự cẩu thả / sự thiếu trách nhiệm"
+    },
+    {
+      "phrase": "the binary of bright or dark is a false one",
+      "meaningVi": "sự lựa chọn nhị phân giữa sáng và tối là một sự lựa chọn sai"
+    },
+    {
+      "phrase": "What adaptive LED systems now make possible is a graduated response",
+      "meaningVi": "Điều mà các hệ thống đèn LED thích ứng hiện nay có thể thực hiện là một phản hồi theo từng mức độ"
+    },
+    {
+      "phrase": "midnight and four in the morning, brighten when a sensor detects movement",
+      "meaningVi": "đèn giảm độ sáng từ nửa đêm đến bốn giờ sáng, sáng hơn khi cảm biến phát hiện chuyển động"
+    },
+    {
+      "phrase": "Dorset, in southern England, became one of the first county councils to trial managed dimming",
+      "meaningVi": "Dorset, ở miền nam nước Anh, trở thành một trong những hội đồng quận đầu tiên thử nghiệm việc giảm chiếu sáng có quản lý"
+    },
+    {
+      "phrase": "measurable reductions in insect mortality",
+      "meaningVi": "sự giảm tỷ lệ tử vong của côn trùng có thể đo lường được"
+    },
+    {
+      "phrase": "no recorded increase in road traffic accidents",
+      "meaningVi": "không có sự gia tăng tai nạn giao thông đường bộ nào được ghi nhận"
+    },
+    {
+      "phrase": "This is not a romantic experiment; it is an engineering solution",
+      "meaningVi": "Đây không phải là một thí nghiệm lãng mạn; đó là một giải pháp kỹ thuật"
+    },
+    {
+      "phrase": "retrofitting an entire city's lighting infrastructure carries costs",
+      "meaningVi": "việc cải tạo toàn bộ cơ sở hạ tầng chiếu sáng của một thành phố mang lại chi phí"
+    },
+    {
+      "phrase": "darkness should be treated as a resource — finite, valuable, and increasingly rare",
+      "meaningVi": "bóng tối nên được coi là một nguồn tài nguyên — hữu hạn, có giá trị, và ngày càng khan hiếm"
+    },
+    {
+      "phrase": "the default assumption of more light equalling more safety should be interrogated",
+      "meaningVi": "giả định mặc định rằng nhiều ánh sáng hơn đồng nghĩa với an toàn hơn cần được đặt câu hỏi"
+    },
+    {
+      "phrase": "Being permanently illuminated has come to feel like a condition of modern life",
+      "meaningVi": "Việc được chiếu sáng liên tục đã trở thành cảm giác như một điều kiện của cuộc sống hiện đại"
+    }
   ],
   "sampleGrammarNotes": [
     {

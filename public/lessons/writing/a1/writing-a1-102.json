@@ -3,7 +3,11 @@
   "level": "A1",
   "title": "Helping my grandfather with his phone",
   "summary": "Narrate a time you helped an older relative with technology, using past simple to tell what happened step by step.",
-  "tags": ["Family", "Relationships", "Technology"],
+  "tags": [
+    "Family",
+    "Relationships",
+    "Technology"
+  ],
   "topic": "A time you helped an older relative use technology",
   "prompt": "Write 6–8 short sentences about a time you helped a grandparent or older relative use a phone, computer, or other device. Use past simple to say what happened. Use 'and', 'but', and 'because'.",
   "minWords": 150,
@@ -14,31 +18,97 @@
     "He tried but at first he…"
   ],
   "hintVocab": [
-    { "phrase": "video call", "meaningVi": "gọi điện video" },
-    { "phrase": "press", "meaningVi": "nhấn" },
-    { "phrase": "screen", "meaningVi": "màn hình" },
-    { "phrase": "tap", "meaningVi": "chạm vào" },
-    { "phrase": "confused", "meaningVi": "bối rối" },
-    { "phrase": "patient", "meaningVi": "kiên nhẫn" },
-    { "phrase": "slowly", "meaningVi": "từ từ" },
-    { "phrase": "button", "meaningVi": "nút" },
-    { "phrase": "connection", "meaningVi": "kết nối" },
-    { "phrase": "face on the screen", "meaningVi": "khuôn mặt trên màn hình" },
-    { "phrase": "laugh", "meaningVi": "cười" }
+    {
+      "phrase": "video call",
+      "meaningVi": "gọi điện video"
+    },
+    {
+      "phrase": "press",
+      "meaningVi": "nhấn"
+    },
+    {
+      "phrase": "screen",
+      "meaningVi": "màn hình"
+    },
+    {
+      "phrase": "tap",
+      "meaningVi": "chạm vào"
+    },
+    {
+      "phrase": "confused",
+      "meaningVi": "bối rối"
+    },
+    {
+      "phrase": "patient",
+      "meaningVi": "kiên nhẫn"
+    },
+    {
+      "phrase": "slowly",
+      "meaningVi": "từ từ"
+    },
+    {
+      "phrase": "button",
+      "meaningVi": "nút"
+    },
+    {
+      "phrase": "connection",
+      "meaningVi": "kết nối"
+    },
+    {
+      "phrase": "face on the screen",
+      "meaningVi": "khuôn mặt trên màn hình"
+    },
+    {
+      "phrase": "laugh",
+      "meaningVi": "cười"
+    }
   ],
   "sampleText": "Last Sunday, my grandfather asked me to help him make a video call to my uncle in Canada. My grandfather is seventy-four years old and he never used a smartphone before. I sat next to him and I showed him how to open the app. First, I pointed at the button on the screen and I told him to press it. He pressed the wrong button because his fingers are big and the buttons are small. He looked confused and a little worried. I told him it was okay and I showed him again, slowly. The second time, he pressed the right button. The phone rang and then my uncle's face appeared on the screen. My grandfather laughed and he said hello in a very loud voice. He was so happy. After the call, he held the phone and looked at it for a long time. He said he wanted to call my uncle every week. I felt very good because I helped him.",
   "sampleAnnotations": [
-    { "phrase": "make a video call", "meaningVi": "thực hiện cuộc gọi video" },
-    { "phrase": "never used a smartphone before", "meaningVi": "chưa bao giờ dùng điện thoại thông minh trước đây" },
-    { "phrase": "pointed at the button", "meaningVi": "chỉ vào nút" },
-    { "phrase": "on the screen", "meaningVi": "trên màn hình" },
-    { "phrase": "pressed the wrong button", "meaningVi": "nhấn nhầm nút" },
-    { "phrase": "looked confused", "meaningVi": "trông có vẻ bối rối" },
-    { "phrase": "The second time", "meaningVi": "Lần thứ hai" },
-    { "phrase": "pressed the right button", "meaningVi": "nhấn đúng nút" },
-    { "phrase": "appeared on the screen", "meaningVi": "xuất hiện trên màn hình" },
-    { "phrase": "in a very loud voice", "meaningVi": "bằng giọng rất to" },
-    { "phrase": "felt very good", "meaningVi": "cảm thấy rất vui" }
+    {
+      "phrase": "make a video call",
+      "meaningVi": "thực hiện cuộc gọi video"
+    },
+    {
+      "phrase": "never used a smartphone before",
+      "meaningVi": "chưa bao giờ dùng điện thoại thông minh trước đây"
+    },
+    {
+      "phrase": "pointed at the button",
+      "meaningVi": "chỉ vào nút"
+    },
+    {
+      "phrase": "on the screen",
+      "meaningVi": "trên màn hình"
+    },
+    {
+      "phrase": "pressed the wrong button",
+      "meaningVi": "nhấn nhầm nút"
+    },
+    {
+      "phrase": "looked confused",
+      "meaningVi": "trông có vẻ bối rối"
+    },
+    {
+      "phrase": "The second time",
+      "meaningVi": "Lần thứ hai"
+    },
+    {
+      "phrase": "pressed the right button",
+      "meaningVi": "nhấn đúng nút"
+    },
+    {
+      "phrase": "appeared on the screen",
+      "meaningVi": "xuất hiện trên màn hình"
+    },
+    {
+      "phrase": "in a very loud voice",
+      "meaningVi": "bằng giọng rất to"
+    },
+    {
+      "phrase": "felt very good",
+      "meaningVi": "cảm thấy rất vui"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -55,10 +125,10 @@
       "options": [
         "say",
         "sayed",
-        "said",
-        "says"
+        "says",
+        "said"
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "explanation": "'say' is irregular: past simple is 'said'.",
       "hint": "Is 'say' a regular or irregular verb?"
     },
@@ -79,12 +149,12 @@
       "id": "q3",
       "prompt": "Which sentence correctly narrates a sequence in the past?",
       "options": [
-        "The phone rang and my uncle's face appeared.",
         "The phone rung and my uncle's face appears.",
+        "The phone rang and my uncle's face appeared.",
         "The phone rang and my uncle face appeared.",
         "The phone ringed and my uncle's face appear."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'rang' is the past of 'ring'; 'appeared' is the past of 'appear'. Both are past simple.",
       "hint": "Check the past form of 'ring' — is it regular?"
     },
@@ -92,12 +162,12 @@
       "id": "q4",
       "prompt": "Which sentence uses 'but' to show that someone tried and failed at first?",
       "options": [
-        "He tried but he pressed the wrong button.",
         "He tried but pressing the wrong button.",
         "He tried and but wrong button pressed.",
+        "He tried but he pressed the wrong button.",
         "But he tried wrong button he pressed."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'He tried but he pressed the wrong button' — two past simple clauses joined by 'but'.",
       "hint": "Both clauses need a subject and a past simple verb."
     },
@@ -106,11 +176,11 @@
       "prompt": "Choose the correct past simple: 'I ___ next to him and showed him.'",
       "options": [
         "sitting",
-        "sat",
         "sit",
-        "sitted"
+        "sitted",
+        "sat"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'sit' is irregular: past simple is 'sat'.",
       "hint": "Is 'sit' a regular or irregular verb?"
     },
@@ -131,12 +201,12 @@
       "id": "q7",
       "prompt": "Which sentence correctly says you felt happy after helping someone?",
       "options": [
-        "I felt very good because I helped him.",
         "I feeled very good because I helped him.",
+        "I felt very good because I helped him.",
         "I felt very well because I helped him.",
         "I felt very good because I help him."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'felt' is the irregular past of 'feel'; 'good' (adjective) is correct after 'felt'.",
       "hint": "Is 'feel' regular? And do you use 'good' or 'well' to describe how you felt?"
     },
@@ -144,12 +214,12 @@
       "id": "q8",
       "prompt": "Which sentence correctly says someone wanted to do something in the future after a past event?",
       "options": [
-        "He said he wanted to call my uncle every week.",
         "He said he wants to call my uncle every week.",
         "He said he want calling my uncle every week.",
+        "He said he wanted to call my uncle every week.",
         "He said wanting to call uncle every week."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'said + he wanted' — past tense in the main clause pulls the reported clause into past too.",
       "hint": "When the main verb is 'said', what tense should the following verb be?"
     },
@@ -157,12 +227,12 @@
       "id": "q9",
       "prompt": "Which sentence correctly uses 'and' to describe two things that happened together?",
       "options": [
-        "My grandfather laughed and he said hello.",
         "My grandfather laughed and saying hello.",
         "My grandfather laugh and said hello.",
-        "Laughed my grandfather and hello said."
+        "Laughed my grandfather and hello said.",
+        "My grandfather laughed and he said hello."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "Both verbs in past simple: 'laughed and said'. Both clauses have a subject.",
       "hint": "Both verbs after 'and' should be in the past simple."
     },

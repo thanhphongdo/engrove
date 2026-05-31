@@ -3,7 +3,12 @@
   "level": "A2",
   "title": "Waiting at the dentist in Vilnius",
   "summary": "A short story about a long wait at a clinic abroad and what you noticed in the room.",
-  "tags": ["Narration", "Past simple", "Observation", "Healthcare"],
+  "tags": [
+    "Narration",
+    "Past simple",
+    "Observation",
+    "Healthcare"
+  ],
   "topic": "Waiting at the dentist in Vilnius",
   "prompt": "Write 8–10 sentences (150–250 words) about a long wait at a clinic, doctor's office, or pharmacy abroad. Describe what you saw and heard while you waited. Use past simple and past continuous.",
   "minWords": 150,
@@ -14,31 +19,107 @@
     "While I was waiting, a little girl on the bench opposite me…"
   ],
   "hintVocab": [
-    { "phrase": "dentist", "meaningVi": "nha sĩ", "pronunciation": "/ˈdentɪst/" },
-    { "phrase": "waiting room", "meaningVi": "phòng chờ" },
-    { "phrase": "appointment", "meaningVi": "cuộc hẹn", "pronunciation": "/əˈpɔɪntmənt/" },
-    { "phrase": "nervous", "meaningVi": "lo lắng, hồi hộp", "pronunciation": "/ˈnɜːrvəs/" },
-    { "phrase": "magazine", "meaningVi": "tạp chí", "pronunciation": "/ˌmæɡəˈziːn/" },
-    { "phrase": "receptionist", "meaningVi": "lễ tân", "pronunciation": "/rɪˈsepʃənɪst/" },
-    { "phrase": "ceiling", "meaningVi": "trần nhà", "pronunciation": "/ˈsiːlɪŋ/" },
-    { "phrase": "clock", "meaningVi": "đồng hồ", "pronunciation": "/klɒk/" },
-    { "phrase": "tick", "meaningVi": "tiếng tích tắc", "pronunciation": "/tɪk/" },
-    { "phrase": "translate", "meaningVi": "dịch", "pronunciation": "/trænsˈleɪt/" },
-    { "phrase": "kind", "meaningVi": "tử tế", "pronunciation": "/kaɪnd/" }
+    {
+      "phrase": "dentist",
+      "meaningVi": "nha sĩ",
+      "pronunciation": "/ˈdentɪst/"
+    },
+    {
+      "phrase": "waiting room",
+      "meaningVi": "phòng chờ"
+    },
+    {
+      "phrase": "appointment",
+      "meaningVi": "cuộc hẹn",
+      "pronunciation": "/əˈpɔɪntmənt/"
+    },
+    {
+      "phrase": "nervous",
+      "meaningVi": "lo lắng, hồi hộp",
+      "pronunciation": "/ˈnɜːrvəs/"
+    },
+    {
+      "phrase": "magazine",
+      "meaningVi": "tạp chí",
+      "pronunciation": "/ˌmæɡəˈziːn/"
+    },
+    {
+      "phrase": "receptionist",
+      "meaningVi": "lễ tân",
+      "pronunciation": "/rɪˈsepʃənɪst/"
+    },
+    {
+      "phrase": "ceiling",
+      "meaningVi": "trần nhà",
+      "pronunciation": "/ˈsiːlɪŋ/"
+    },
+    {
+      "phrase": "clock",
+      "meaningVi": "đồng hồ",
+      "pronunciation": "/klɒk/"
+    },
+    {
+      "phrase": "tick",
+      "meaningVi": "tiếng tích tắc",
+      "pronunciation": "/tɪk/"
+    },
+    {
+      "phrase": "translate",
+      "meaningVi": "dịch",
+      "pronunciation": "/trænsˈleɪt/"
+    },
+    {
+      "phrase": "kind",
+      "meaningVi": "tử tế",
+      "pronunciation": "/kaɪnd/"
+    }
   ],
   "sampleText": "Last winter in Vilnius, I had a small problem with one tooth, so a colleague booked an appointment for me at a dental clinic on Pylimo street. I arrived twenty minutes early because I was nervous and could not sit still in my flat. The waiting room was small and warm, with three wooden chairs, a low table covered in old magazines I could not read, and a large round clock above the door. While I was waiting, a little girl on the bench opposite me kept watching me out of the corner of her eye. Her mother was reading a newspaper and pretending not to notice. After about ten minutes, the girl walked across the room, put a small green sweet on my knee, and ran back to her mother. I tried to thank her in Lithuanian, but I only knew two words. The receptionist looked up from her computer, smiled, and translated for me in soft English. When the dentist finally called my name, the wait had felt much shorter than I expected. I left with a clean filling, a green sweet wrapper in my pocket, and a small new respect for the patience of children in waiting rooms.",
   "sampleAnnotations": [
-    { "phrase": "I had a small problem with one tooth", "meaningVi": "Tôi có một vấn đề nhỏ với một chiếc răng" },
-    { "phrase": "a colleague booked an appointment for me", "meaningVi": "một đồng nghiệp đặt lịch hẹn cho tôi" },
-    { "phrase": "I arrived twenty minutes early because I was nervous", "meaningVi": "Tôi đến sớm hai mươi phút vì tôi lo" },
-    { "phrase": "a low table covered in old magazines I could not read", "meaningVi": "một chiếc bàn thấp phủ tạp chí cũ mà tôi không thể đọc" },
-    { "phrase": "a large round clock above the door", "meaningVi": "một chiếc đồng hồ tròn lớn phía trên cửa" },
-    { "phrase": "kept watching me out of the corner of her eye", "meaningVi": "cứ quan sát tôi bằng khóe mắt" },
-    { "phrase": "pretending not to notice", "meaningVi": "giả vờ không để ý" },
-    { "phrase": "put a small green sweet on my knee", "meaningVi": "đặt một viên kẹo xanh nhỏ lên đầu gối tôi" },
-    { "phrase": "translated for me in soft English", "meaningVi": "dịch giúp tôi bằng tiếng Anh nhẹ nhàng" },
-    { "phrase": "the wait had felt much shorter than I expected", "meaningVi": "cuộc chờ đã cảm thấy ngắn hơn nhiều so với tôi tưởng" },
-    { "phrase": "a small new respect for the patience of children", "meaningVi": "một sự tôn trọng nhỏ mới với sự kiên nhẫn của trẻ con" }
+    {
+      "phrase": "I had a small problem with one tooth",
+      "meaningVi": "Tôi có một vấn đề nhỏ với một chiếc răng"
+    },
+    {
+      "phrase": "a colleague booked an appointment for me",
+      "meaningVi": "một đồng nghiệp đặt lịch hẹn cho tôi"
+    },
+    {
+      "phrase": "I arrived twenty minutes early because I was nervous",
+      "meaningVi": "Tôi đến sớm hai mươi phút vì tôi lo"
+    },
+    {
+      "phrase": "a low table covered in old magazines I could not read",
+      "meaningVi": "một chiếc bàn thấp phủ tạp chí cũ mà tôi không thể đọc"
+    },
+    {
+      "phrase": "a large round clock above the door",
+      "meaningVi": "một chiếc đồng hồ tròn lớn phía trên cửa"
+    },
+    {
+      "phrase": "kept watching me out of the corner of her eye",
+      "meaningVi": "cứ quan sát tôi bằng khóe mắt"
+    },
+    {
+      "phrase": "pretending not to notice",
+      "meaningVi": "giả vờ không để ý"
+    },
+    {
+      "phrase": "put a small green sweet on my knee",
+      "meaningVi": "đặt một viên kẹo xanh nhỏ lên đầu gối tôi"
+    },
+    {
+      "phrase": "translated for me in soft English",
+      "meaningVi": "dịch giúp tôi bằng tiếng Anh nhẹ nhàng"
+    },
+    {
+      "phrase": "the wait had felt much shorter than I expected",
+      "meaningVi": "cuộc chờ đã cảm thấy ngắn hơn nhiều so với tôi tưởng"
+    },
+    {
+      "phrase": "a small new respect for the patience of children",
+      "meaningVi": "một sự tôn trọng nhỏ mới với sự kiên nhẫn của trẻ con"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -58,12 +139,12 @@
       "id": "q1",
       "prompt": "Choose the correct past simple opening.",
       "options": [
-        "Last winter in Vilnius, I had a small problem with one tooth.",
         "Last winter in Vilnius, I have a small problem with one tooth.",
         "Last winter in Vilnius, I am having a small problem with one tooth.",
+        "Last winter in Vilnius, I had a small problem with one tooth.",
         "Last winter in Vilnius, I had had a small problem with one tooth."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "Past simple 'had' for a finished past situation with a definite time.",
       "hint": "Past simple of 'have'."
     },
@@ -71,12 +152,12 @@
       "id": "q2",
       "prompt": "Pick the correct sentence about being early.",
       "options": [
-        "I arrived twenty minutes early because I was nervous.",
         "I arrived twenty minutes earlier because I was nervous.",
         "I arrived twenty minutes early because I am nervous.",
-        "I am arrived twenty minutes early because I was nervous."
+        "I am arrived twenty minutes early because I was nervous.",
+        "I arrived twenty minutes early because I was nervous."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'Early' here is an adverb of time; past simple 'was' in the reason clause.",
       "hint": "Early + past simple 'was'."
     },
@@ -98,11 +179,11 @@
       "prompt": "Choose the correct 'while' + past continuous sentence.",
       "options": [
         "While I was waiting, a little girl kept watching me out of the corner of her eye.",
-        "While I waited, a little girl kept watching me out of the corner of her eye.",
         "Both A and B are acceptable.",
+        "While I waited, a little girl kept watching me out of the corner of her eye.",
         "While I am waiting, a little girl kept watching me."
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "explanation": "Both past continuous and past simple can occur with 'while' — past continuous is more vivid; past simple is also grammatically fine.",
       "hint": "Both work."
     },
@@ -110,12 +191,12 @@
       "id": "q5",
       "prompt": "Pick the correct sentence with 'pretend + to + infinitive'.",
       "options": [
-        "Her mother was reading a newspaper and pretending not to notice.",
         "Her mother was reading a newspaper and pretending no to notice.",
         "Her mother was reading a newspaper and pretending to not noticed.",
+        "Her mother was reading a newspaper and pretending not to notice.",
         "Her mother was reading a newspaper and pretending no notice."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Pretend + (not) + to + base verb' is the standard pattern.",
       "hint": "Pretend + (not) to + base."
     },
@@ -123,12 +204,12 @@
       "id": "q6",
       "prompt": "What does 'out of the corner of her eye' mean?",
       "options": [
-        "looking at something secretly, without turning the head",
         "with both eyes closed",
         "with very bright eyes",
-        "while crying"
+        "while crying",
+        "looking at something secretly, without turning the head"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'Out of the corner of one's eye' = peripheral, secretive glance.",
       "hint": "Side glance."
     },
@@ -149,12 +230,12 @@
       "id": "q8",
       "prompt": "Pick the correct sentence with 'try + to + infinitive'.",
       "options": [
-        "I tried to thank her in Lithuanian.",
         "I tried thank her in Lithuanian.",
+        "I tried to thank her in Lithuanian.",
         "I tried thanking her in Lithuanian.",
         "I tried for thank her in Lithuanian."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'Try + to + base verb' = make an attempt.",
       "hint": "Try + to + base."
     },
@@ -162,12 +243,12 @@
       "id": "q9",
       "prompt": "What does 'translate' mean?",
       "options": [
-        "to express something said in one language using another language",
         "to repeat the same word twice",
         "to write in capital letters",
+        "to express something said in one language using another language",
         "to speak more loudly"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Translate' = render meaning into another language.",
       "hint": "Move meaning between languages."
     },
@@ -175,12 +256,12 @@
       "id": "q10",
       "prompt": "Choose the correct past perfect comparative sentence.",
       "options": [
-        "The wait had felt much shorter than I expected.",
         "The wait have felt much shorter than I expected.",
         "The wait was felt much shorter than I expected.",
-        "The wait had feel much shorter than I expected."
+        "The wait had feel much shorter than I expected.",
+        "The wait had felt much shorter than I expected."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "Past perfect 'had felt' for retrospective evaluation; comparative 'shorter'.",
       "hint": "Had + past participle of 'feel'."
     },

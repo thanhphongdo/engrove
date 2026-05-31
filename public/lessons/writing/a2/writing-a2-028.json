@@ -3,7 +3,11 @@
   "level": "A2",
   "title": "The cleanest room I've ever seen",
   "summary": "Describe the cleanest or most organised room you have ever been in and explain where it was.",
-  "tags": ["Description", "Comparatives", "Places"],
+  "tags": [
+    "Description",
+    "Comparatives",
+    "Places"
+  ],
   "topic": "The cleanest room I've ever seen",
   "prompt": "Write 8–10 sentences (150–250 words) about the cleanest or most organised room you have ever seen. Describe where the room was and what it looked like. Use present and past simple. Include comparatives (cleaner than, more organised than). Explain why it made an impression on you.",
   "minWords": 150,
@@ -14,31 +18,99 @@
     "Compared to my own room, it looked…"
   ],
   "hintVocab": [
-    { "phrase": "spotless", "meaningVi": "sạch bóng, không một vết bẩn", "pronunciation": "/ˈspɒtləs/" },
-    { "phrase": "neatly arranged", "meaningVi": "được sắp xếp gọn gàng" },
-    { "phrase": "clutter", "meaningVi": "đồ đạc bừa bộn" },
-    { "phrase": "polished", "meaningVi": "được đánh bóng" },
-    { "phrase": "symmetrical", "meaningVi": "đối xứng" },
-    { "phrase": "dust-free", "meaningVi": "không có bụi" },
-    { "phrase": "folded perfectly", "meaningVi": "gấp hoàn hảo" },
-    { "phrase": "bare", "meaningVi": "trơ, không có gì", "pronunciation": "/beər/" },
-    { "phrase": "in order", "meaningVi": "theo thứ tự, ngăn nắp" },
-    { "phrase": "impressed", "meaningVi": "ấn tượng" },
-    { "phrase": "floor-to-ceiling", "meaningVi": "từ sàn lên trần nhà" }
+    {
+      "phrase": "spotless",
+      "meaningVi": "sạch bóng, không một vết bẩn",
+      "pronunciation": "/ˈspɒtləs/"
+    },
+    {
+      "phrase": "neatly arranged",
+      "meaningVi": "được sắp xếp gọn gàng"
+    },
+    {
+      "phrase": "clutter",
+      "meaningVi": "đồ đạc bừa bộn"
+    },
+    {
+      "phrase": "polished",
+      "meaningVi": "được đánh bóng"
+    },
+    {
+      "phrase": "symmetrical",
+      "meaningVi": "đối xứng"
+    },
+    {
+      "phrase": "dust-free",
+      "meaningVi": "không có bụi"
+    },
+    {
+      "phrase": "folded perfectly",
+      "meaningVi": "gấp hoàn hảo"
+    },
+    {
+      "phrase": "bare",
+      "meaningVi": "trơ, không có gì",
+      "pronunciation": "/beər/"
+    },
+    {
+      "phrase": "in order",
+      "meaningVi": "theo thứ tự, ngăn nắp"
+    },
+    {
+      "phrase": "impressed",
+      "meaningVi": "ấn tượng"
+    },
+    {
+      "phrase": "floor-to-ceiling",
+      "meaningVi": "từ sàn lên trần nhà"
+    }
   ],
   "sampleText": "The cleanest room I have ever seen was in my uncle's house in Zurich, Switzerland, when I visited him five years ago. He had a home office on the second floor that looked more like a display room in a furniture shop than an actual working space. There was a large wooden desk in the centre with nothing on it except a single notebook and a pen. The bookshelves on the wall held books that were sorted by size and colour, and every spine was perfectly straight. The floor was bare wood and completely polished, with no dust anywhere. There was no clutter at all — no loose papers, no cables, no cups. The room smelled faintly of wood and something clean, like fresh air. I stood in the doorway for a moment because I was almost afraid to walk in. My uncle laughed and said he spent fifteen minutes each morning tidying the room before he started work. He believed that a clean space helped him think more clearly. I thought about my own bedroom back home, which was much messier and full of things I never used. That room in Zurich made me want to organise my own space differently, though I have to say I never quite managed it.",
   "sampleAnnotations": [
-    { "phrase": "more like a display room in a furniture shop", "meaningVi": "giống phòng trưng bày trong cửa hàng nội thất hơn" },
-    { "phrase": "nothing on it except a single notebook and a pen", "meaningVi": "không có gì trên đó ngoài một cuốn sổ và một cây bút" },
-    { "phrase": "sorted by size and colour", "meaningVi": "được sắp xếp theo kích thước và màu sắc" },
-    { "phrase": "perfectly straight", "meaningVi": "hoàn toàn thẳng" },
-    { "phrase": "completely polished", "meaningVi": "được đánh bóng hoàn toàn" },
-    { "phrase": "no clutter at all", "meaningVi": "hoàn toàn không có đồ đạc bừa bộn" },
-    { "phrase": "smelled faintly of wood", "meaningVi": "thoảng mùi gỗ" },
-    { "phrase": "almost afraid to walk in", "meaningVi": "gần như sợ bước vào" },
-    { "phrase": "spent fifteen minutes each morning tidying", "meaningVi": "dành mười lăm phút mỗi sáng để dọn dẹp" },
-    { "phrase": "much messier", "meaningVi": "bừa bộn hơn nhiều" },
-    { "phrase": "I never quite managed it", "meaningVi": "Tôi chưa bao giờ thực sự làm được điều đó" }
+    {
+      "phrase": "more like a display room in a furniture shop",
+      "meaningVi": "giống phòng trưng bày trong cửa hàng nội thất hơn"
+    },
+    {
+      "phrase": "nothing on it except a single notebook and a pen",
+      "meaningVi": "không có gì trên đó ngoài một cuốn sổ và một cây bút"
+    },
+    {
+      "phrase": "sorted by size and colour",
+      "meaningVi": "được sắp xếp theo kích thước và màu sắc"
+    },
+    {
+      "phrase": "perfectly straight",
+      "meaningVi": "hoàn toàn thẳng"
+    },
+    {
+      "phrase": "completely polished",
+      "meaningVi": "được đánh bóng hoàn toàn"
+    },
+    {
+      "phrase": "no clutter at all",
+      "meaningVi": "hoàn toàn không có đồ đạc bừa bộn"
+    },
+    {
+      "phrase": "smelled faintly of wood",
+      "meaningVi": "thoảng mùi gỗ"
+    },
+    {
+      "phrase": "almost afraid to walk in",
+      "meaningVi": "gần như sợ bước vào"
+    },
+    {
+      "phrase": "spent fifteen minutes each morning tidying",
+      "meaningVi": "dành mười lăm phút mỗi sáng để dọn dẹp"
+    },
+    {
+      "phrase": "much messier",
+      "meaningVi": "bừa bộn hơn nhiều"
+    },
+    {
+      "phrase": "I never quite managed it",
+      "meaningVi": "Tôi chưa bao giờ thực sự làm được điều đó"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -53,12 +125,12 @@
       "id": "q1",
       "prompt": "Where was the cleanest room the writer saw?",
       "options": [
-        "In the writer's uncle's house in Zurich",
         "In a hotel in Switzerland",
         "In a furniture shop",
-        "In the writer's school"
+        "In the writer's school",
+        "In the writer's uncle's house in Zurich"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "The room was in the writer's uncle's house in Zurich, Switzerland.",
       "hint": "Re-read the first sentence."
     },
@@ -79,12 +151,12 @@
       "id": "q3",
       "prompt": "How were the books on the shelves arranged?",
       "options": [
-        "By size and colour",
         "By topic",
+        "By size and colour",
         "By author's name",
         "By year of publication"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "The books were sorted by size and colour, with every spine perfectly straight.",
       "hint": "Look for the sentence about the bookshelves."
     },
@@ -92,12 +164,12 @@
       "id": "q4",
       "prompt": "Which sentence uses a comparative correctly?",
       "options": [
-        "My bedroom was much messier than his room.",
         "My bedroom was more messier than his room.",
         "My bedroom was most messy than his room.",
+        "My bedroom was much messier than his room.",
         "My bedroom was much more messy of his room."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Messier' is the correct comparative form of 'messy'; 'much' adds emphasis.",
       "hint": "One-syllable and two-syllable adjectives ending in -y form comparatives with '-er'."
     },
@@ -105,12 +177,12 @@
       "id": "q5",
       "prompt": "What does 'clutter' mean?",
       "options": [
-        "A lot of untidy things in a space",
         "Dust on furniture",
         "A type of shelf",
-        "A bad smell in a room"
+        "A bad smell in a room",
+        "A lot of untidy things in a space"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'Clutter' refers to a collection of things that are untidily spread around.",
       "hint": "Think about the opposite of a tidy, organised room."
     },
@@ -131,12 +203,12 @@
       "id": "q7",
       "prompt": "How long did the uncle spend tidying each morning?",
       "options": [
-        "Fifteen minutes",
         "One hour",
+        "Fifteen minutes",
         "Thirty minutes",
         "Five minutes"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "The uncle spent fifteen minutes each morning tidying the room.",
       "hint": "Look for the sentence about the uncle's morning routine."
     },
@@ -144,12 +216,12 @@
       "id": "q8",
       "prompt": "What does 'spotless' mean?",
       "options": [
-        "Completely clean with no marks or dirt",
         "Mostly clean",
         "Very organised",
+        "Completely clean with no marks or dirt",
         "Bright and colourful"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Spotless' means perfectly clean — no spots or marks at all.",
       "hint": "Think of 'no spots' — what does that mean about cleanliness?"
     },
@@ -157,12 +229,12 @@
       "id": "q9",
       "prompt": "Choose the correct comparison structure: 'The office looked ___ a display room than a workspace.'",
       "options": [
-        "more like",
         "most like",
         "liker than",
-        "alike"
+        "alike",
+        "more like"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'More like ... than ...' is the correct structure to compare two descriptions.",
       "hint": "To compare two nouns, use 'more like ... than ...'."
     },
@@ -183,12 +255,12 @@
       "id": "q11",
       "prompt": "What does 'bare' mean in 'The floor was bare wood'?",
       "options": [
-        "Plain, with no covering",
         "Very dirty",
+        "Plain, with no covering",
         "Very old",
         "Very smooth"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'Bare' means not covered or decorated — just plain wood with nothing on top.",
       "hint": "'Bare' means empty of any covering or decoration."
     }

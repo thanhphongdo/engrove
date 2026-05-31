@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "The man whose success leaves no mark",
   "summary": "Reflect on work whose only evidence is the disaster that did not happen — the canal lock-keeper, the dyke inspector — and the paradox that the better such a person does the job, the more invisible and expendable it appears.",
-  "tags": ["Reflection", "Work", "Attention"],
+  "tags": [
+    "Reflection",
+    "Work",
+    "Attention"
+  ],
   "topic": "Work whose success is measured only by the absence of catastrophe",
   "prompt": "Write a 600–800-word reflective essay on the kind of labour whose success is invisible because it consists of preventing things that then never happen. Anchor it in one concrete role and place. Explore the paradox that competence here erases its own evidence, and resist resolving it into a simple call to 'appreciate' such workers. Use hedging, nominalization, and at least one complex concession.",
   "minWords": 600,
@@ -14,73 +18,279 @@
     "I am wary of the easy lesson here — that we should simply notice such people more — because…"
   ],
   "hintVocab": [
-    {"phrase": "preventive labour", "meaningVi": "lao động mang tính phòng ngừa"},
-    {"phrase": "maintenance", "meaningVi": "việc bảo trì, giữ cho vận hành", "pronunciation": "/ˈmeɪntənəns/"},
-    {"phrase": "vigilance", "meaningVi": "sự cảnh giác, canh chừng thường trực", "pronunciation": "/ˈvɪdʒɪləns/"},
-    {"phrase": "to avert", "meaningVi": "ngăn chặn, làm cho không xảy ra", "pronunciation": "/əˈvɜːt/"},
-    {"phrase": "counterfactual", "meaningVi": "phản thực, điều lẽ ra đã xảy ra nếu không can thiệp", "pronunciation": "/ˌkaʊntəˈfæktʃuəl/"},
-    {"phrase": "the absence of disaster", "meaningVi": "sự vắng mặt của tai hoạ"},
-    {"phrase": "to go unnoticed", "meaningVi": "trôi qua không ai để ý"},
-    {"phrase": "expendable", "meaningVi": "có thể bỏ đi, không thiết yếu", "pronunciation": "/ɪkˈspendəbl/"},
-    {"phrase": "redundant", "meaningVi": "thừa thãi, bị coi là không cần thiết", "pronunciation": "/rɪˈdʌndənt/"},
-    {"phrase": "to forestall", "meaningVi": "đón đầu, chặn trước khi xảy ra", "pronunciation": "/fɔːˈstɔːl/"},
-    {"phrase": "uneventful", "meaningVi": "êm đềm, không có biến cố"},
-    {"phrase": "negative evidence", "meaningVi": "bằng chứng kiểu phủ định, bằng việc không có gì xảy ra"},
-    {"phrase": "to take for granted", "meaningVi": "coi là chuyện đương nhiên"},
-    {"phrase": "infrastructure", "meaningVi": "hạ tầng", "pronunciation": "/ˈɪnfrəstrʌktʃə/"},
-    {"phrase": "to erode", "meaningVi": "bào mòn dần", "pronunciation": "/ɪˈrəʊd/"},
-    {"phrase": "slack", "meaningVi": "phần dự phòng, độ chùng để chịu lỗi"},
-    {"phrase": "margin of safety", "meaningVi": "biên độ an toàn"},
-    {"phrase": "to attend to", "meaningVi": "trông nom, chăm lo cho"},
-    {"phrase": "watchfulness", "meaningVi": "sự để mắt canh chừng"},
-    {"phrase": "the unremarkable", "meaningVi": "cái bình thường, không đáng chú ý"},
-    {"phrase": "to undervalue", "meaningVi": "đánh giá thấp"},
-    {"phrase": "to dramatise", "meaningVi": "kịch tính hoá, biến thành sự kiện nổi bật", "pronunciation": "/ˈdræmətaɪz/"},
-    {"phrase": "perverse incentive", "meaningVi": "động cơ lệch lạc, khuyến khích ngược"},
-    {"phrase": "to be vindicated", "meaningVi": "được chứng minh là đúng (thường sau khi xảy ra biến cố)", "pronunciation": "/ˈvɪndɪkeɪtɪd/"},
-    {"phrase": "thankless", "meaningVi": "bạc bẽo, không được ai cảm kích"},
-    {"phrase": "tacit", "meaningVi": "ngầm, không nói ra", "pronunciation": "/ˈtæsɪt/"},
-    {"phrase": "stewardship", "meaningVi": "sự trông coi, gìn giữ có trách nhiệm"},
-    {"phrase": "to romanticise", "meaningVi": "lãng mạn hoá", "pronunciation": "/rəʊˈmæntɪsaɪz/"},
-    {"phrase": "complacency", "meaningVi": "sự tự mãn, lơ là vì thấy yên ổn", "pronunciation": "/kəmˈpleɪsnsi/"},
-    {"phrase": "the routine", "meaningVi": "cái thường nhật, công việc lặp lại"},
-    {"phrase": "to budget for", "meaningVi": "dành ngân sách cho"},
-    {"phrase": "to register", "meaningVi": "ghi nhận, để tâm tới"}
+    {
+      "phrase": "preventive labour",
+      "meaningVi": "lao động mang tính phòng ngừa"
+    },
+    {
+      "phrase": "maintenance",
+      "meaningVi": "việc bảo trì, giữ cho vận hành",
+      "pronunciation": "/ˈmeɪntənəns/"
+    },
+    {
+      "phrase": "vigilance",
+      "meaningVi": "sự cảnh giác, canh chừng thường trực",
+      "pronunciation": "/ˈvɪdʒɪləns/"
+    },
+    {
+      "phrase": "to avert",
+      "meaningVi": "ngăn chặn, làm cho không xảy ra",
+      "pronunciation": "/əˈvɜːt/"
+    },
+    {
+      "phrase": "counterfactual",
+      "meaningVi": "phản thực, điều lẽ ra đã xảy ra nếu không can thiệp",
+      "pronunciation": "/ˌkaʊntəˈfæktʃuəl/"
+    },
+    {
+      "phrase": "the absence of disaster",
+      "meaningVi": "sự vắng mặt của tai hoạ"
+    },
+    {
+      "phrase": "to go unnoticed",
+      "meaningVi": "trôi qua không ai để ý"
+    },
+    {
+      "phrase": "expendable",
+      "meaningVi": "có thể bỏ đi, không thiết yếu",
+      "pronunciation": "/ɪkˈspendəbl/"
+    },
+    {
+      "phrase": "redundant",
+      "meaningVi": "thừa thãi, bị coi là không cần thiết",
+      "pronunciation": "/rɪˈdʌndənt/"
+    },
+    {
+      "phrase": "to forestall",
+      "meaningVi": "đón đầu, chặn trước khi xảy ra",
+      "pronunciation": "/fɔːˈstɔːl/"
+    },
+    {
+      "phrase": "uneventful",
+      "meaningVi": "êm đềm, không có biến cố"
+    },
+    {
+      "phrase": "negative evidence",
+      "meaningVi": "bằng chứng kiểu phủ định, bằng việc không có gì xảy ra"
+    },
+    {
+      "phrase": "to take for granted",
+      "meaningVi": "coi là chuyện đương nhiên"
+    },
+    {
+      "phrase": "infrastructure",
+      "meaningVi": "hạ tầng",
+      "pronunciation": "/ˈɪnfrəstrʌktʃə/"
+    },
+    {
+      "phrase": "to erode",
+      "meaningVi": "bào mòn dần",
+      "pronunciation": "/ɪˈrəʊd/"
+    },
+    {
+      "phrase": "slack",
+      "meaningVi": "phần dự phòng, độ chùng để chịu lỗi"
+    },
+    {
+      "phrase": "margin of safety",
+      "meaningVi": "biên độ an toàn"
+    },
+    {
+      "phrase": "to attend to",
+      "meaningVi": "trông nom, chăm lo cho"
+    },
+    {
+      "phrase": "watchfulness",
+      "meaningVi": "sự để mắt canh chừng"
+    },
+    {
+      "phrase": "the unremarkable",
+      "meaningVi": "cái bình thường, không đáng chú ý"
+    },
+    {
+      "phrase": "to undervalue",
+      "meaningVi": "đánh giá thấp"
+    },
+    {
+      "phrase": "to dramatise",
+      "meaningVi": "kịch tính hoá, biến thành sự kiện nổi bật",
+      "pronunciation": "/ˈdræmətaɪz/"
+    },
+    {
+      "phrase": "perverse incentive",
+      "meaningVi": "động cơ lệch lạc, khuyến khích ngược"
+    },
+    {
+      "phrase": "to be vindicated",
+      "meaningVi": "được chứng minh là đúng (thường sau khi xảy ra biến cố)",
+      "pronunciation": "/ˈvɪndɪkeɪtɪd/"
+    },
+    {
+      "phrase": "thankless",
+      "meaningVi": "bạc bẽo, không được ai cảm kích"
+    },
+    {
+      "phrase": "tacit",
+      "meaningVi": "ngầm, không nói ra",
+      "pronunciation": "/ˈtæsɪt/"
+    },
+    {
+      "phrase": "stewardship",
+      "meaningVi": "sự trông coi, gìn giữ có trách nhiệm"
+    },
+    {
+      "phrase": "to romanticise",
+      "meaningVi": "lãng mạn hoá",
+      "pronunciation": "/rəʊˈmæntɪsaɪz/"
+    },
+    {
+      "phrase": "complacency",
+      "meaningVi": "sự tự mãn, lơ là vì thấy yên ổn",
+      "pronunciation": "/kəmˈpleɪsnsi/"
+    },
+    {
+      "phrase": "the routine",
+      "meaningVi": "cái thường nhật, công việc lặp lại"
+    },
+    {
+      "phrase": "to budget for",
+      "meaningVi": "dành ngân sách cho"
+    },
+    {
+      "phrase": "to register",
+      "meaningVi": "ghi nhận, để tâm tới"
+    }
   ],
   "sampleText": "There is a man I think about more than the brevity of our acquaintance can really justify. He kept a flood lock on a slow brown river in the Norfolk fens, where the land sits below the water and has done for centuries, held there by an arrangement of gates and ditches that most people who live behind it have never once looked at. I met him on a grey afternoon when nothing was happening, which, I came to understand, was the entire point. His job, stripped to its essence, was to make sure that a particular Tuesday would be exactly like the Tuesday before it.\n\nIt occurs to me only now, years after watching him, that the whole of his skill was directed at producing nothing — at making sure the water stayed where water was supposed to stay. He walked the bank twice a day reading the level against a painted gauge, cleared weed before it could choke a culvert, noticed a seep in the embankment while it was still a damp patch and not yet a breach. None of these acts had a visible result. The result was the village behind him going about its ordinary business, dry, unaware, taking the dryness for the natural condition of the world rather than the daily achievement of one watchful person.\n\nWe have no vocabulary for praising an averted disaster, which is perhaps why work like his slides so easily out of view. We can point to a thing built, a deal closed, a patient cured. We cannot point to a flood that did not occur, because there is nothing there to point at — only a counterfactual, a catastrophe that exists in no one's experience precisely because the job was done well. And here is the cruelty folded into the arrangement: the better he did it, the more invisible it became, and the more invisible it became, the more reasonable it looked, to someone far away with a spreadsheet, to ask whether the post was needed at all. Competence of this kind erodes the very evidence that would justify it. Success is indistinguishable, from the outside, from there having been no problem in the first place.\n\nThis is the part where I am supposed to tell you to appreciate such people, and I am wary of the easy lesson, because I do not think appreciation is what is actually at stake. Noticing him more warmly would not have changed the budget logic that eventually replaced his daily round with a remote sensor and a quarterly contractor. The deeper issue is structural, not emotional: our instruments for judging worth are built to register events, and his entire value lay in the non-occurrence of an event. You cannot put an absence on a balance sheet. The post was not cut because anyone failed to feel grateful; it was cut because gratitude is not the unit institutions count in, and there was no event in the column to defend.\n\nI want to grant the strongest version of the case against him. Perhaps the sensor really is enough; perhaps a man walking a bank twice a day was a sentimental inefficiency, and the same safety can be had for less. I am genuinely unsure, and I distrust my own nostalgia here. But the sensor and the man are not measuring the same thing. The sensor records the level it was told to record. The man also registered the things no one had thought to specify — the smell of the water after heavy rain, the year the moles arrived and started weakening the bank from inside, the particular way one gate stuck in cold weather. That surplus of unspecified attention is exactly what cannot be written into a contract, and so exactly what gets lost when the role is rationalised, quietly, into its measurable parts.\n\nWhat I am left with is not a moral but a discomfort I cannot tidy away. We will keep undervaluing this kind of work, not out of ingratitude but because the structure of our attention is event-shaped, and prevention is the deliberate manufacture of non-events. The flood that comes one winter after the post is gone will, of course, vindicate him, and there will be an inquiry, and someone will note that a person used to walk the bank. By then the knowledge in his feet will have gone the way of all unrecorded things. I do not have a fix for this. I only know that somewhere a Tuesday is being kept identical to the Tuesday before it by someone we are already, even now, in the slow process of deciding we can do without.",
   "sampleAnnotations": [
-    {"phrase": "the brevity of our acquaintance can really justify", "meaningVi": "sự ngắn ngủi của lần quen biết giữa chúng tôi thực sự biện minh được"},
-    {"phrase": "where the land sits below the water and has done for centuries", "meaningVi": "nơi đất nằm thấp hơn mực nước và đã như vậy suốt nhiều thế kỷ"},
-    {"phrase": "nothing was happening, which, I came to understand, was the entire point", "meaningVi": "chẳng có gì xảy ra cả, mà rồi tôi hiểu ra, đó lại chính là toàn bộ ý nghĩa"},
-    {"phrase": "to make sure that a particular Tuesday would be exactly like the Tuesday before it", "meaningVi": "để bảo đảm rằng một ngày thứ Ba cụ thể sẽ giống hệt ngày thứ Ba trước đó"},
-    {"phrase": "the whole of his skill was directed at producing nothing", "meaningVi": "toàn bộ kỹ năng của ông hướng tới việc tạo ra hư không"},
-    {"phrase": "noticed a seep in the embankment while it was still a damp patch and not yet a breach", "meaningVi": "phát hiện một chỗ rỉ nước trong bờ đắp khi nó còn là một vệt ẩm chứ chưa thành một vết vỡ"},
-    {"phrase": "None of these acts had a visible result", "meaningVi": "Không hành động nào trong số đó có một kết quả nhìn thấy được"},
-    {"phrase": "taking the dryness for the natural condition of the world rather than the daily achievement of one watchful person", "meaningVi": "coi sự khô ráo là trạng thái tự nhiên của thế giới chứ không phải thành quả hằng ngày của một con người luôn để mắt canh chừng"},
-    {"phrase": "We have no vocabulary for praising an averted disaster", "meaningVi": "Ta không có từ ngữ nào để ngợi khen một tai hoạ đã được ngăn chặn"},
-    {"phrase": "work like his slides so easily out of view", "meaningVi": "công việc như của ông trượt ra khỏi tầm nhìn quá dễ dàng"},
-    {"phrase": "only a counterfactual, a catastrophe that exists in no one's experience", "meaningVi": "chỉ là một điều phản thực, một thảm hoạ không tồn tại trong trải nghiệm của bất kỳ ai"},
-    {"phrase": "the cruelty folded into the arrangement", "meaningVi": "sự tàn nhẫn gấp ẩn trong chính cách sắp đặt đó"},
-    {"phrase": "Competence of this kind erodes the very evidence that would justify it", "meaningVi": "Năng lực kiểu này bào mòn chính bằng chứng đáng lẽ sẽ biện minh cho nó"},
-    {"phrase": "Success is indistinguishable, from the outside, from there having been no problem in the first place", "meaningVi": "Nhìn từ bên ngoài, thành công không thể phân biệt được với việc vốn dĩ chưa từng có vấn đề nào"},
-    {"phrase": "This is the part where I am supposed to tell you to appreciate such people", "meaningVi": "Đây là đoạn mà lẽ ra tôi phải bảo bạn hãy biết trân trọng những con người như vậy"},
-    {"phrase": "I am wary of the easy lesson", "meaningVi": "Tôi dè chừng cái bài học dễ dãi đó"},
-    {"phrase": "replaced his daily round with a remote sensor and a quarterly contractor", "meaningVi": "thay vòng đi tuần hằng ngày của ông bằng một cảm biến từ xa và một nhà thầu mỗi quý một lần"},
-    {"phrase": "The deeper issue is structural, not emotional", "meaningVi": "Vấn đề sâu xa hơn mang tính cấu trúc, không phải cảm xúc"},
-    {"phrase": "You cannot put an absence on a balance sheet", "meaningVi": "Bạn không thể đưa một sự vắng mặt vào bảng cân đối kế toán"},
-    {"phrase": "gratitude is not the unit institutions count in", "meaningVi": "lòng biết ơn không phải là đơn vị mà các định chế dùng để đo đếm"},
-    {"phrase": "I want to grant the strongest version of the case against him", "meaningVi": "Tôi muốn nhượng bộ phiên bản mạnh nhất của lập luận chống lại ông"},
-    {"phrase": "a sentimental inefficiency", "meaningVi": "một sự kém hiệu quả do cảm tính"},
-    {"phrase": "I distrust my own nostalgia here", "meaningVi": "Tôi không tin nổi chính nỗi hoài niệm của mình ở đây"},
-    {"phrase": "the sensor and the man are not measuring the same thing", "meaningVi": "cảm biến và con người không đo lường cùng một thứ"},
-    {"phrase": "the things no one had thought to specify", "meaningVi": "những điều chẳng ai nghĩ đến mà nêu rõ ra"},
-    {"phrase": "That surplus of unspecified attention", "meaningVi": "Cái phần dư của sự chú tâm không được ghi rõ đó"},
-    {"phrase": "exactly what gets lost when the role is rationalised, quietly, into its measurable parts", "meaningVi": "đúng là thứ bị đánh mất khi vai trò đó bị tinh giản, một cách lặng lẽ, thành những phần đo đếm được"},
-    {"phrase": "What I am left with is not a moral but a discomfort I cannot tidy away", "meaningVi": "Cái tôi còn lại không phải một bài học đạo đức mà là một nỗi khó chịu tôi không sao gọn gàng hoá được"},
-    {"phrase": "the structure of our attention is event-shaped", "meaningVi": "cấu trúc của sự chú ý nơi ta có hình dạng của các sự kiện"},
-    {"phrase": "prevention is the deliberate manufacture of non-events", "meaningVi": "phòng ngừa là sự chế tạo có chủ đích những phi-sự-kiện"},
-    {"phrase": "the knowledge in his feet will have gone the way of all unrecorded things", "meaningVi": "tri thức nằm trong đôi chân ông sẽ đi theo con đường của mọi thứ không được ghi lại"},
-    {"phrase": "in the slow process of deciding we can do without", "meaningVi": "đang trong quá trình chậm rãi quyết định rằng ta có thể thiếu họ"}
+    {
+      "phrase": "the brevity of our acquaintance can really justify",
+      "meaningVi": "sự ngắn ngủi của lần quen biết giữa chúng tôi thực sự biện minh được"
+    },
+    {
+      "phrase": "where the land sits below the water and has done for centuries",
+      "meaningVi": "nơi đất nằm thấp hơn mực nước và đã như vậy suốt nhiều thế kỷ"
+    },
+    {
+      "phrase": "nothing was happening, which, I came to understand, was the entire point",
+      "meaningVi": "chẳng có gì xảy ra cả, mà rồi tôi hiểu ra, đó lại chính là toàn bộ ý nghĩa"
+    },
+    {
+      "phrase": "to make sure that a particular Tuesday would be exactly like the Tuesday before it",
+      "meaningVi": "để bảo đảm rằng một ngày thứ Ba cụ thể sẽ giống hệt ngày thứ Ba trước đó"
+    },
+    {
+      "phrase": "the whole of his skill was directed at producing nothing",
+      "meaningVi": "toàn bộ kỹ năng của ông hướng tới việc tạo ra hư không"
+    },
+    {
+      "phrase": "noticed a seep in the embankment while it was still a damp patch and not yet a breach",
+      "meaningVi": "phát hiện một chỗ rỉ nước trong bờ đắp khi nó còn là một vệt ẩm chứ chưa thành một vết vỡ"
+    },
+    {
+      "phrase": "None of these acts had a visible result",
+      "meaningVi": "Không hành động nào trong số đó có một kết quả nhìn thấy được"
+    },
+    {
+      "phrase": "taking the dryness for the natural condition of the world rather than the daily achievement of one watchful person",
+      "meaningVi": "coi sự khô ráo là trạng thái tự nhiên của thế giới chứ không phải thành quả hằng ngày của một con người luôn để mắt canh chừng"
+    },
+    {
+      "phrase": "We have no vocabulary for praising an averted disaster",
+      "meaningVi": "Ta không có từ ngữ nào để ngợi khen một tai hoạ đã được ngăn chặn"
+    },
+    {
+      "phrase": "work like his slides so easily out of view",
+      "meaningVi": "công việc như của ông trượt ra khỏi tầm nhìn quá dễ dàng"
+    },
+    {
+      "phrase": "only a counterfactual, a catastrophe that exists in no one's experience",
+      "meaningVi": "chỉ là một điều phản thực, một thảm hoạ không tồn tại trong trải nghiệm của bất kỳ ai"
+    },
+    {
+      "phrase": "the cruelty folded into the arrangement",
+      "meaningVi": "sự tàn nhẫn gấp ẩn trong chính cách sắp đặt đó"
+    },
+    {
+      "phrase": "Competence of this kind erodes the very evidence that would justify it",
+      "meaningVi": "Năng lực kiểu này bào mòn chính bằng chứng đáng lẽ sẽ biện minh cho nó"
+    },
+    {
+      "phrase": "Success is indistinguishable, from the outside, from there having been no problem in the first place",
+      "meaningVi": "Nhìn từ bên ngoài, thành công không thể phân biệt được với việc vốn dĩ chưa từng có vấn đề nào"
+    },
+    {
+      "phrase": "This is the part where I am supposed to tell you to appreciate such people",
+      "meaningVi": "Đây là đoạn mà lẽ ra tôi phải bảo bạn hãy biết trân trọng những con người như vậy"
+    },
+    {
+      "phrase": "I am wary of the easy lesson",
+      "meaningVi": "Tôi dè chừng cái bài học dễ dãi đó"
+    },
+    {
+      "phrase": "replaced his daily round with a remote sensor and a quarterly contractor",
+      "meaningVi": "thay vòng đi tuần hằng ngày của ông bằng một cảm biến từ xa và một nhà thầu mỗi quý một lần"
+    },
+    {
+      "phrase": "The deeper issue is structural, not emotional",
+      "meaningVi": "Vấn đề sâu xa hơn mang tính cấu trúc, không phải cảm xúc"
+    },
+    {
+      "phrase": "You cannot put an absence on a balance sheet",
+      "meaningVi": "Bạn không thể đưa một sự vắng mặt vào bảng cân đối kế toán"
+    },
+    {
+      "phrase": "gratitude is not the unit institutions count in",
+      "meaningVi": "lòng biết ơn không phải là đơn vị mà các định chế dùng để đo đếm"
+    },
+    {
+      "phrase": "I want to grant the strongest version of the case against him",
+      "meaningVi": "Tôi muốn nhượng bộ phiên bản mạnh nhất của lập luận chống lại ông"
+    },
+    {
+      "phrase": "a sentimental inefficiency",
+      "meaningVi": "một sự kém hiệu quả do cảm tính"
+    },
+    {
+      "phrase": "I distrust my own nostalgia here",
+      "meaningVi": "Tôi không tin nổi chính nỗi hoài niệm của mình ở đây"
+    },
+    {
+      "phrase": "the sensor and the man are not measuring the same thing",
+      "meaningVi": "cảm biến và con người không đo lường cùng một thứ"
+    },
+    {
+      "phrase": "the things no one had thought to specify",
+      "meaningVi": "những điều chẳng ai nghĩ đến mà nêu rõ ra"
+    },
+    {
+      "phrase": "That surplus of unspecified attention",
+      "meaningVi": "Cái phần dư của sự chú tâm không được ghi rõ đó"
+    },
+    {
+      "phrase": "exactly what gets lost when the role is rationalised, quietly, into its measurable parts",
+      "meaningVi": "đúng là thứ bị đánh mất khi vai trò đó bị tinh giản, một cách lặng lẽ, thành những phần đo đếm được"
+    },
+    {
+      "phrase": "What I am left with is not a moral but a discomfort I cannot tidy away",
+      "meaningVi": "Cái tôi còn lại không phải một bài học đạo đức mà là một nỗi khó chịu tôi không sao gọn gàng hoá được"
+    },
+    {
+      "phrase": "the structure of our attention is event-shaped",
+      "meaningVi": "cấu trúc của sự chú ý nơi ta có hình dạng của các sự kiện"
+    },
+    {
+      "phrase": "prevention is the deliberate manufacture of non-events",
+      "meaningVi": "phòng ngừa là sự chế tạo có chủ đích những phi-sự-kiện"
+    },
+    {
+      "phrase": "the knowledge in his feet will have gone the way of all unrecorded things",
+      "meaningVi": "tri thức nằm trong đôi chân ông sẽ đi theo con đường của mọi thứ không được ghi lại"
+    },
+    {
+      "phrase": "in the slow process of deciding we can do without",
+      "meaningVi": "đang trong quá trình chậm rãi quyết định rằng ta có thể thiếu họ"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -114,11 +324,11 @@
       "prompt": "Why does the essay say 'We have no vocabulary for praising an averted disaster'?",
       "options": [
         "Because disasters are too frightening to talk about.",
-        "Because an averted disaster is only a counterfactual — there is nothing visible to point at, unlike a thing built or a deal closed.",
         "Because lock-keepers refuse to talk about their work.",
+        "Because an averted disaster is only a counterfactual — there is nothing visible to point at, unlike a thing built or a deal closed.",
         "Because the English language lacks technical flood terms."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The third paragraph contrasts pointable achievements with a flood that did not happen, which exists in no one's experience.",
       "hint": "What is missing that we could otherwise point to?"
     },
@@ -127,11 +337,11 @@
       "prompt": "Why does the essay refuse the 'easy lesson' of simply appreciating such workers?",
       "options": [
         "Because the workers do not want appreciation.",
-        "Because the problem is structural, not emotional — our worth-measuring instruments register events, and his value lay in a non-event, so warmth would not have saved the post.",
         "Because appreciation is impossible to feel for strangers.",
-        "Because the lock-keeper was not actually skilled."
+        "Because the lock-keeper was not actually skilled.",
+        "Because the problem is structural, not emotional — our worth-measuring instruments register events, and his value lay in a non-event, so warmth would not have saved the post."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The fourth paragraph: 'The deeper issue is structural, not emotional… gratitude is not the unit institutions count in.'",
       "hint": "Look at what the writer says is 'not the unit institutions count in'."
     },
@@ -139,12 +349,12 @@
       "id": "q4",
       "prompt": "Which option demonstrates the complex concession the prompt requires?",
       "options": [
+        "I want to grant the strongest version of the case against him … Perhaps the sensor really is enough … But the sensor and the man are not measuring the same thing.",
         "The sensor is obviously useless and the man was always better.",
         "There are good and bad points to both the sensor and the man.",
-        "I want to grant the strongest version of the case against him … Perhaps the sensor really is enough … But the sensor and the man are not measuring the same thing.",
         "We should always keep human workers no matter the cost."
       ],
-      "answerIndex": 2,
+      "answerIndex": 0,
       "explanation": "Option C grants the opposing case fully (the sensor may suffice), then narrows with 'But…' to a precise distinction — a genuine complex concession.",
       "hint": "Look for a full grant of the other side followed by a restricting turn."
     },
@@ -166,11 +376,11 @@
       "prompt": "Which option uses the best cohesion to follow 'Success is indistinguishable, from the outside, from there having been no problem in the first place'?",
       "options": [
         "Problems are difficult things that everyone wants to avoid.",
-        "This is the part where I am supposed to tell you to appreciate such people, and I am wary of the easy lesson.",
         "By the way, the river was a slow brown one in Norfolk.",
+        "This is the part where I am supposed to tell you to appreciate such people, and I am wary of the easy lesson.",
         "In conclusion, we must always thank our hidden workers."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "Option B pivots the argument forward and pre-empts the cliché; A is definitional, C is off-topic, D is a banned TED-style cliché.",
       "hint": "Which option advances the argument and signals the writer's resistance to a cliché?"
     },
@@ -179,11 +389,11 @@
       "prompt": "Which sentence uses the 'the + comparative … the + comparative' chaining for a vicious circle?",
       "options": [
         "He did the job well and the village stayed dry.",
-        "The better he did it, the more invisible it became, and the more invisible it became, the more reasonable it looked to ask whether the post was needed.",
         "Although he worked hard, no one noticed his efforts.",
-        "Because of the sensor, the role was eventually cut."
+        "Because of the sensor, the role was eventually cut.",
+        "The better he did it, the more invisible it became, and the more invisible it became, the more reasonable it looked to ask whether the post was needed."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "Option B chains correlative comparatives to express the self-defeating loop the essay describes.",
       "hint": "Look for repeated 'the more…' clauses forming a loop."
     },
@@ -191,12 +401,12 @@
       "id": "q8",
       "prompt": "Which sentence matches the essay's hedged, reflective register?",
       "options": [
-        "Cutting his job was a complete and obvious crime against the village.",
         "I am genuinely unsure, and I distrust my own nostalgia here.",
+        "Cutting his job was a complete and obvious crime against the village.",
         "Bureaucrats are all idiots who understand nothing about rivers.",
         "Insofar as fiscal optimisation dictates, the role is hereby deprecated."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Option B hedges honestly and admits self-doubt; A and C are absolute/insulting, D is bureaucratic jargon.",
       "hint": "Look for honest uncertainty rather than certainty or jargon."
     },
@@ -218,11 +428,11 @@
       "prompt": "What is the rhetorical function of the final sentence about a Tuesday being kept identical?",
       "options": [
         "It offers a policy to permanently fund lock-keepers.",
-        "It refuses resolution, leaving the reader with the ongoing, unresolved erasure of preventive work rather than a tidy moral.",
         "It blames the village for ingratitude.",
+        "It refuses resolution, leaving the reader with the ongoing, unresolved erasure of preventive work rather than a tidy moral.",
         "It celebrates the efficiency of modern sensors."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The ending deliberately offers 'not a moral but a discomfort', keeping the paradox open as the prompt requires.",
       "hint": "The writer said they have 'no fix' — what does the ending leave you with?"
     },
@@ -231,11 +441,11 @@
       "prompt": "Which option is grammatical, on-topic, and matches the essay's tone?",
       "options": [
         "The dude basically just stared at a river all day, easy money.",
-        "He noticed a seep in the embankment while it was still a damp patch and not yet a breach.",
         "The hydraulic asset custodian performed routine perimeter surveillance ops.",
-        "Everyone knows rivers always flood eventually no matter what."
+        "Everyone knows rivers always flood eventually no matter what.",
+        "He noticed a seep in the embankment while it was still a damp patch and not yet a breach."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "Option B is concrete and reflective; A is dismissive slang, C is jargon, D is a sweeping unsupported claim.",
       "hint": "Match the precise, thoughtful, first-person voice."
     },
@@ -243,12 +453,12 @@
       "id": "q12",
       "prompt": "What does 'prevention is the deliberate manufacture of non-events' mean?",
       "options": [
-        "Prevention is a waste of effort because nothing comes of it.",
         "Preventive work's whole product is the things it stops from happening, so it intentionally produces 'nothing' visible.",
+        "Prevention is a waste of effort because nothing comes of it.",
         "Manufacturing always creates events, never prevents them.",
         "Non-events are the same as accidents."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The phrase reframes prevention as the intentional production of absences — its success is invisible by design.",
       "hint": "Notice the paradox of 'manufacturing' a 'non-event'."
     },
@@ -270,11 +480,11 @@
       "prompt": "Which sentence correctly uses inversion/fronting for C1 emphasis?",
       "options": [
         "Only when the flood comes people will remember him.",
-        "Only when the flood comes will people remember him.",
         "Never the village noticed how dry it was kept.",
+        "Only when the flood comes will people remember him.",
         "So invisible his work was that the post was cut."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "After fronted 'Only when…', the auxiliary inverts: 'will people remember'; the other options mis-form the inversion.",
       "hint": "After a fronted 'Only when…', invert the auxiliary and subject."
     },
@@ -283,11 +493,11 @@
       "prompt": "Which option preserves the essay's hedge rather than overstating?",
       "options": [
         "Sensors are always worse than humans in every possible way.",
-        "Perhaps the sensor really is enough, and the same safety can be had for less.",
         "Replacing the man was definitely the worst decision ever made.",
-        "Human workers are obviously superior to all technology forever."
+        "Human workers are obviously superior to all technology forever.",
+        "Perhaps the sensor really is enough, and the same safety can be had for less."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'Perhaps' hedges and even concedes ground; the alternatives are absolute, breaking the careful register.",
       "hint": "Look for the option that concedes a possibility rather than asserting an absolute."
     },
@@ -295,12 +505,12 @@
       "id": "q16",
       "prompt": "Which paraphrase is closest to 'Competence of this kind erodes the very evidence that would justify it'?",
       "options": [
-        "Skilled workers are always rewarded for their competence.",
         "Doing this job well removes the visible proof that the job is necessary, undermining the case for keeping it.",
+        "Skilled workers are always rewarded for their competence.",
         "Competence is a kind of evidence that never changes.",
         "Erosion damages riverbanks over time."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The line states the self-undermining nature of preventive competence; B captures it, the others miss or literalise it.",
       "hint": "What does success here do to the proof that the role matters?"
     }

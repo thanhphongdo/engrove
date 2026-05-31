@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "On the strange honesty of public failure",
   "summary": "Argue that public failure, precisely because it cannot be managed or reframed in the moment, produces a kind of disclosure that success and curated vulnerability rarely achieve.",
-  "tags": ["Argument", "Ethics", "Culture"],
+  "tags": [
+    "Argument",
+    "Ethics",
+    "Culture"
+  ],
   "topic": "Whether public failure is a more honest form of self-disclosure than managed success or performed vulnerability",
   "prompt": "Write a 600–800-word argumentative essay exploring why public failure — the kind that cannot be spun, edited, or reframed in real time — carries a distinctive honesty that neither success narratives nor curated vulnerability can replicate. Consider cases from sport, politics, and professional life. Use inversion at least once, at least one nominalization, and the concessive pair 'one might well argue… but…'. Avoid bullet lists, self-help clichés, and TED-Talk openers.",
   "minWords": 600,
@@ -14,49 +18,183 @@
     "One might well argue that success also reveals character. But…"
   ],
   "hintVocab": [
-    {"phrase": "irreversible", "meaningVi": "không thể đảo ngược, đã xảy ra không thể sửa lại", "pronunciation": "/ˌɪrɪˈvɜːsɪbəl/"},
-    {"phrase": "curated vulnerability", "meaningVi": "sự dễ tổn thương được dàn dựng có chọn lọc"},
-    {"phrase": "disclosure", "meaningVi": "sự tiết lộ, phơi bày thông tin về bản thân", "pronunciation": "/dɪˈskləʊʒər/"},
-    {"phrase": "unspun", "meaningVi": "không được bào chữa hoặc tô đẹp", "pronunciation": "/ˌʌnˈspʌn/"},
-    {"phrase": "composure", "meaningVi": "sự điềm tĩnh, bình thản khi đối mặt với áp lực", "pronunciation": "/kəmˈpəʊʒər/"},
-    {"phrase": "reputational calculus", "meaningVi": "phép tính về danh tiếng, cân nhắc thiệt hơn cho hình ảnh cá nhân"},
-    {"phrase": "spin", "meaningVi": "xoay chuyển thông tin theo hướng có lợi", "pronunciation": "/spɪn/"},
-    {"phrase": "involuntary", "meaningVi": "không chủ ý, ngoài ý muốn", "pronunciation": "/ɪnˈvɒləntri/"},
-    {"phrase": "gracelessness", "meaningVi": "sự thiếu duyên dáng, không khéo léo trong ứng xử"},
-    {"phrase": "exposure", "meaningVi": "sự phơi bày, bộc lộ bản thân trước công chúng", "pronunciation": "/ɪkˈspəʊʒər/"},
-    {"phrase": "dignity-preserving", "meaningVi": "giữ gìn phẩm giá, bảo vệ danh dự"},
-    {"phrase": "artifice", "meaningVi": "sự xảo trá, kỹ thuật giả tạo", "pronunciation": "/ˈɑːtɪfɪs/"},
-    {"phrase": "recuperate", "meaningVi": "phục hồi lại, tái chiếm ý nghĩa theo hướng có lợi", "pronunciation": "/rɪˈkuːpəreɪt/"},
-    {"phrase": "veracity", "meaningVi": "tính trung thực, xác thực", "pronunciation": "/vəˈræsɪti/"},
-    {"phrase": "unmediated", "meaningVi": "không qua trung gian, trực tiếp không được lọc qua", "pronunciation": "/ˌʌnˈmiːdieɪtɪd/"},
-    {"phrase": "self-mythologising", "meaningVi": "tự tạo huyền thoại về bản thân"},
-    {"phrase": "fallibility", "meaningVi": "khả năng mắc sai lầm, tính không hoàn hảo", "pronunciation": "/ˌfæləˈbɪlɪti/"},
-    {"phrase": "contingency", "meaningVi": "tình trạng phụ thuộc vào hoàn cảnh, sự không chắc chắn", "pronunciation": "/kənˈtɪndʒənsi/"},
-    {"phrase": "rhetorical management", "meaningVi": "quản lý bằng ngôn từ, kiểm soát cách người khác hiểu mình"},
-    {"phrase": "undisguised", "meaningVi": "không che giấu, không nguỵ trang", "pronunciation": "/ˌʌndɪsˈɡaɪzd/"}
+    {
+      "phrase": "irreversible",
+      "meaningVi": "không thể đảo ngược, đã xảy ra không thể sửa lại",
+      "pronunciation": "/ˌɪrɪˈvɜːsɪbəl/"
+    },
+    {
+      "phrase": "curated vulnerability",
+      "meaningVi": "sự dễ tổn thương được dàn dựng có chọn lọc"
+    },
+    {
+      "phrase": "disclosure",
+      "meaningVi": "sự tiết lộ, phơi bày thông tin về bản thân",
+      "pronunciation": "/dɪˈskləʊʒər/"
+    },
+    {
+      "phrase": "unspun",
+      "meaningVi": "không được bào chữa hoặc tô đẹp",
+      "pronunciation": "/ˌʌnˈspʌn/"
+    },
+    {
+      "phrase": "composure",
+      "meaningVi": "sự điềm tĩnh, bình thản khi đối mặt với áp lực",
+      "pronunciation": "/kəmˈpəʊʒər/"
+    },
+    {
+      "phrase": "reputational calculus",
+      "meaningVi": "phép tính về danh tiếng, cân nhắc thiệt hơn cho hình ảnh cá nhân"
+    },
+    {
+      "phrase": "spin",
+      "meaningVi": "xoay chuyển thông tin theo hướng có lợi",
+      "pronunciation": "/spɪn/"
+    },
+    {
+      "phrase": "involuntary",
+      "meaningVi": "không chủ ý, ngoài ý muốn",
+      "pronunciation": "/ɪnˈvɒləntri/"
+    },
+    {
+      "phrase": "gracelessness",
+      "meaningVi": "sự thiếu duyên dáng, không khéo léo trong ứng xử"
+    },
+    {
+      "phrase": "exposure",
+      "meaningVi": "sự phơi bày, bộc lộ bản thân trước công chúng",
+      "pronunciation": "/ɪkˈspəʊʒər/"
+    },
+    {
+      "phrase": "dignity-preserving",
+      "meaningVi": "giữ gìn phẩm giá, bảo vệ danh dự"
+    },
+    {
+      "phrase": "artifice",
+      "meaningVi": "sự xảo trá, kỹ thuật giả tạo",
+      "pronunciation": "/ˈɑːtɪfɪs/"
+    },
+    {
+      "phrase": "recuperate",
+      "meaningVi": "phục hồi lại, tái chiếm ý nghĩa theo hướng có lợi",
+      "pronunciation": "/rɪˈkuːpəreɪt/"
+    },
+    {
+      "phrase": "veracity",
+      "meaningVi": "tính trung thực, xác thực",
+      "pronunciation": "/vəˈræsɪti/"
+    },
+    {
+      "phrase": "unmediated",
+      "meaningVi": "không qua trung gian, trực tiếp không được lọc qua",
+      "pronunciation": "/ˌʌnˈmiːdieɪtɪd/"
+    },
+    {
+      "phrase": "self-mythologising",
+      "meaningVi": "tự tạo huyền thoại về bản thân"
+    },
+    {
+      "phrase": "fallibility",
+      "meaningVi": "khả năng mắc sai lầm, tính không hoàn hảo",
+      "pronunciation": "/ˌfæləˈbɪlɪti/"
+    },
+    {
+      "phrase": "contingency",
+      "meaningVi": "tình trạng phụ thuộc vào hoàn cảnh, sự không chắc chắn",
+      "pronunciation": "/kənˈtɪndʒənsi/"
+    },
+    {
+      "phrase": "rhetorical management",
+      "meaningVi": "quản lý bằng ngôn từ, kiểm soát cách người khác hiểu mình"
+    },
+    {
+      "phrase": "undisguised",
+      "meaningVi": "không che giấu, không nguỵ trang",
+      "pronunciation": "/ˌʌndɪsˈɡaɪzd/"
+    }
   ],
   "sampleText": "Not until the result is irreversible does the public see what a person actually does with their face. The match is lost, the vote is counted, the funding is denied in front of the assembled team — and in the seconds that follow, before the communications strategy has time to arrive, something is briefly visible that no press statement will afterwards capture. This is the strange honesty of public failure: not that it reveals weakness, but that it momentarily suspends the architecture of rhetorical management that ordinarily mediates between a person and their audience.\n\nSuccess, by contrast, is never unspun. The winner's speech is prepared. The IPO celebration has been practised in the mirror. Even grief — the private kind, the kind that earns sympathy — has increasingly been subjected to a kind of reputational calculus, carefully timed and partially disclosed. What the contemporary culture of curated vulnerability produces is not transparency but a more sophisticated form of artifice: the appearance of openness without the involuntary exposure that makes openness real.\n\nPublic failure disrupts this arrangement. The footballer who misses the decisive penalty in an international final cannot recuperate the moment while it is still happening. The politician who is told — live, on television — that her party has lost the seat she was expected to hold has no time to compose her features into the expression she would prefer. The startup founder who watches his product demonstration collapse in front of venture capitalists cannot reach for a dignity-preserving revision of events before the room has already registered what it saw. Failure, in these moments, is unmediated. That is what gives it its peculiar veracity.\n\nOne might well argue that success also reveals character — that the way a person handles winning tells us something real about them. But this misses the asymmetry. Winners choose how to respond; the conditions are favourable. Failure imposes conditions on a person rather than offering them. The gracelessness of the losing coach berating his players in the car park, or the silent undisguised disbelief of the scientist whose funding bid has just been rejected, are not curated. They are contingency made visible — the moment when a person's actual relationship to their own fallibility briefly surfaces through the sediment of self-mythologising.\n\nThis is not to celebrate failure as morally instructive, which is a different and tiresome argument. The claim here is narrower: that public failure produces a particular kind of disclosure precisely because it cannot be managed in the moment of its occurrence. The person who delivers a TED talk about the time they lost everything has already had time to select which details to include, which framings to apply, which version of themselves to present. The person who is failing now, in front of you, has no such option. The involuntary nature of the disclosure is what makes it informative in a way that rehearsed confession is not.\n\nThe undervaluation of this honesty is partly a function of how uncomfortable it is to witness. Public failure makes audiences uneasy precisely because the person in front of them has temporarily lost their ability to manage the interaction. The social contract of professional presentation — I will perform competence; you will receive it — has been suspended. What replaces it is something less comfortable and more real: the sight of a person confronting an outcome they cannot reverse, with no script left to draw on.\n\nThere is something worth attending to in that sight. Not to pity it, not to judge it, but to recognise it for what it is: one of the few occasions in public life when the ordinary apparatus of self-presentation falls away, and a person is briefly, involuntarily, exactly what they are.",
   "sampleAnnotations": [
-    {"phrase": "Not until the result is irreversible does the public see what a person actually does with their face", "meaningVi": "Mãi đến khi kết quả không thể đảo ngược, công chúng mới thấy người ta thực sự làm gì với khuôn mặt của mình"},
-    {"phrase": "before the communications strategy has time to arrive", "meaningVi": "trước khi chiến lược truyền thông kịp xuất hiện"},
-    {"phrase": "the architecture of rhetorical management", "meaningVi": "kiến trúc của việc quản lý ngôn từ, cấu trúc kiểm soát cách người khác hiểu mình"},
-    {"phrase": "Success, by contrast, is never unspun", "meaningVi": "Thành công, ngược lại, không bao giờ không được tô đẹp"},
-    {"phrase": "a kind of reputational calculus", "meaningVi": "một kiểu tính toán về danh tiếng"},
-    {"phrase": "the appearance of openness without the involuntary exposure that makes openness real", "meaningVi": "vẻ ngoài của sự cởi mở mà không có sự phơi bày không chủ ý khiến sự cởi mở trở nên thật"},
-    {"phrase": "Public failure disrupts this arrangement", "meaningVi": "Thất bại công khai phá vỡ sự sắp xếp này"},
-    {"phrase": "cannot recuperate the moment while it is still happening", "meaningVi": "không thể lấy lại khoảnh khắc trong khi nó vẫn đang xảy ra"},
-    {"phrase": "no time to compose her features into the expression she would prefer", "meaningVi": "không có thời gian để sắp xếp nét mặt thành biểu cảm mà bà muốn"},
-    {"phrase": "Failure, in these moments, is unmediated", "meaningVi": "Thất bại, trong những khoảnh khắc này, là không qua trung gian"},
-    {"phrase": "That is what gives it its peculiar veracity", "meaningVi": "Đó là điều mang lại cho nó tính xác thực kỳ lạ"},
-    {"phrase": "One might well argue that success also reveals character", "meaningVi": "Có thể lập luận rằng thành công cũng bộc lộ tính cách"},
-    {"phrase": "Failure imposes conditions on a person rather than offering them", "meaningVi": "Thất bại áp đặt điều kiện lên một người hơn là tạo ra cơ hội cho họ"},
-    {"phrase": "contingency made visible", "meaningVi": "sự không chắc chắn được phơi bày, hoàn cảnh bất ngờ trở nên hiển thị"},
-    {"phrase": "a person's actual relationship to their own fallibility", "meaningVi": "mối quan hệ thực sự của một người với khả năng mắc sai lầm của chính mình"},
-    {"phrase": "the sediment of self-mythologising", "meaningVi": "lớp trầm tích của việc tự tạo huyền thoại về bản thân"},
-    {"phrase": "precisely because it cannot be managed in the moment of its occurrence", "meaningVi": "chính xác là vì nó không thể được quản lý vào lúc xảy ra"},
-    {"phrase": "The involuntary nature of the disclosure is what makes it informative", "meaningVi": "Bản chất không chủ ý của sự tiết lộ là điều khiến nó có tính thông tin"},
-    {"phrase": "the ordinary apparatus of self-presentation falls away", "meaningVi": "bộ máy thông thường của việc tự thể hiện sụp đổ"},
-    {"phrase": "a person is briefly, involuntarily, exactly what they are", "meaningVi": "một người thoáng chốc, không chủ ý, đúng như họ thực sự là"}
+    {
+      "phrase": "Not until the result is irreversible does the public see what a person actually does with their face",
+      "meaningVi": "Mãi đến khi kết quả không thể đảo ngược, công chúng mới thấy người ta thực sự làm gì với khuôn mặt của mình"
+    },
+    {
+      "phrase": "before the communications strategy has time to arrive",
+      "meaningVi": "trước khi chiến lược truyền thông kịp xuất hiện"
+    },
+    {
+      "phrase": "the architecture of rhetorical management",
+      "meaningVi": "kiến trúc của việc quản lý ngôn từ, cấu trúc kiểm soát cách người khác hiểu mình"
+    },
+    {
+      "phrase": "Success, by contrast, is never unspun",
+      "meaningVi": "Thành công, ngược lại, không bao giờ không được tô đẹp"
+    },
+    {
+      "phrase": "a kind of reputational calculus",
+      "meaningVi": "một kiểu tính toán về danh tiếng"
+    },
+    {
+      "phrase": "the appearance of openness without the involuntary exposure that makes openness real",
+      "meaningVi": "vẻ ngoài của sự cởi mở mà không có sự phơi bày không chủ ý khiến sự cởi mở trở nên thật"
+    },
+    {
+      "phrase": "Public failure disrupts this arrangement",
+      "meaningVi": "Thất bại công khai phá vỡ sự sắp xếp này"
+    },
+    {
+      "phrase": "cannot recuperate the moment while it is still happening",
+      "meaningVi": "không thể lấy lại khoảnh khắc trong khi nó vẫn đang xảy ra"
+    },
+    {
+      "phrase": "no time to compose her features into the expression she would prefer",
+      "meaningVi": "không có thời gian để sắp xếp nét mặt thành biểu cảm mà bà muốn"
+    },
+    {
+      "phrase": "Failure, in these moments, is unmediated",
+      "meaningVi": "Thất bại, trong những khoảnh khắc này, là không qua trung gian"
+    },
+    {
+      "phrase": "That is what gives it its peculiar veracity",
+      "meaningVi": "Đó là điều mang lại cho nó tính xác thực kỳ lạ"
+    },
+    {
+      "phrase": "One might well argue that success also reveals character",
+      "meaningVi": "Có thể lập luận rằng thành công cũng bộc lộ tính cách"
+    },
+    {
+      "phrase": "Failure imposes conditions on a person rather than offering them",
+      "meaningVi": "Thất bại áp đặt điều kiện lên một người hơn là tạo ra cơ hội cho họ"
+    },
+    {
+      "phrase": "contingency made visible",
+      "meaningVi": "sự không chắc chắn được phơi bày, hoàn cảnh bất ngờ trở nên hiển thị"
+    },
+    {
+      "phrase": "a person's actual relationship to their own fallibility",
+      "meaningVi": "mối quan hệ thực sự của một người với khả năng mắc sai lầm của chính mình"
+    },
+    {
+      "phrase": "the sediment of self-mythologising",
+      "meaningVi": "lớp trầm tích của việc tự tạo huyền thoại về bản thân"
+    },
+    {
+      "phrase": "precisely because it cannot be managed in the moment of its occurrence",
+      "meaningVi": "chính xác là vì nó không thể được quản lý vào lúc xảy ra"
+    },
+    {
+      "phrase": "The involuntary nature of the disclosure is what makes it informative",
+      "meaningVi": "Bản chất không chủ ý của sự tiết lộ là điều khiến nó có tính thông tin"
+    },
+    {
+      "phrase": "the ordinary apparatus of self-presentation falls away",
+      "meaningVi": "bộ máy thông thường của việc tự thể hiện sụp đổ"
+    },
+    {
+      "phrase": "a person is briefly, involuntarily, exactly what they are",
+      "meaningVi": "một người thoáng chốc, không chủ ý, đúng như họ thực sự là"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -77,11 +215,11 @@
       "prompt": "Which sentence correctly uses inversion after 'Not until'?",
       "options": [
         "Not until the result is irreversible the public sees what a person actually does.",
-        "Not until the result is irreversible does the public see what a person actually does with their face.",
         "Not until the result is irreversible, the public does see what a person actually does.",
-        "Not until the result is irreversible did they saw what a person does with their face."
+        "Not until the result is irreversible did they saw what a person does with their face.",
+        "Not until the result is irreversible does the public see what a person actually does with their face."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "After 'Not until…', the auxiliary 'does' must precede the subject 'the public' — standard subject-auxiliary inversion after a fronted negative.",
       "hint": "Negative fronted phrase → subject-auxiliary inversion."
     },
@@ -89,12 +227,12 @@
       "id": "q2",
       "prompt": "What does the essay mean by 'curated vulnerability'?",
       "options": [
-        "Genuine emotional openness shared with a trusted group",
         "The deliberate, selective presentation of personal struggle designed to appear authentic",
+        "Genuine emotional openness shared with a trusted group",
         "The vulnerability of an art collection put on public display",
         "A therapeutic technique for processing public failure"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay contrasts 'curated vulnerability' — strategically disclosed weakness — with the involuntary exposure that public failure produces.",
       "hint": "Curated = carefully selected and arranged; vulnerability = openness to hurt or exposure."
     },
@@ -116,11 +254,11 @@
       "prompt": "What does 'unmediated' mean in 'Failure, in these moments, is unmediated'?",
       "options": [
         "Not covered by health insurance",
-        "Presented directly, without a filter or intermediary shaping the experience",
         "Not reported by the media",
+        "Presented directly, without a filter or intermediary shaping the experience",
         "Too painful to address"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "Unmediated = not passed through any intermediary — the failure is direct, raw, not yet shaped by a narrative or strategy.",
       "hint": "Mediate = to act as a go-between; unmediated = without such a go-between."
     },
@@ -129,11 +267,11 @@
       "prompt": "What concessive pair does the essay use?",
       "options": [
         "'Although success reveals… still failure…'",
-        "'One might well argue that success also reveals character. But this misses the asymmetry.'",
         "'It could be said that… however, the evidence shows…'",
-        "'While it is true that… on the other hand…'"
+        "'While it is true that… on the other hand…'",
+        "'One might well argue that success also reveals character. But this misses the asymmetry.'"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay follows the 'One might well argue… But…' structure, conceding the opposing point before pivoting to a counter.",
       "hint": "Look for a sentence beginning 'One might well argue' followed by a 'But' pivot."
     },
@@ -141,12 +279,12 @@
       "id": "q6",
       "prompt": "What is a 'reputational calculus' as used in the essay?",
       "options": [
-        "A mathematical formula for measuring public trust",
         "The strategic weighing of what personal information to disclose and when, based on its effect on reputation",
+        "A mathematical formula for measuring public trust",
         "A system used by PR firms to evaluate celebrity endorsements",
         "A tax calculation related to public relations budgets"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Calculus here means a deliberate calculation — the essay argues that even grief has been subjected to strategic thinking about reputation.",
       "hint": "Calculus = a method of calculation; reputational = relating to one's public image."
     },
@@ -168,11 +306,11 @@
       "prompt": "What does 'self-mythologising' mean in the essay?",
       "options": [
         "The study of myths about famous individuals",
-        "The process by which people construct and maintain a flattering narrative about themselves",
         "Writing autobiographical fiction",
+        "The process by which people construct and maintain a flattering narrative about themselves",
         "A tendency to believe in one's own exaggerated abilities"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "Self-mythologising = creating a personal myth — the essay uses it to describe the narrative layering that failure briefly pierces.",
       "hint": "Mythology = a set of stories; self-mythologising = creating stories about oneself."
     },
@@ -181,11 +319,11 @@
       "prompt": "What does 'contingency made visible' describe in the essay?",
       "options": [
         "A financial contingency fund being reported publicly",
-        "The moment when a person's actual vulnerability to circumstance — the fact that things could always have gone otherwise — briefly shows",
         "An emergency plan being activated during a crisis",
-        "Statistical probability displayed in a graph"
+        "Statistical probability displayed in a graph",
+        "The moment when a person's actual vulnerability to circumstance — the fact that things could always have gone otherwise — briefly shows"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "Contingency = dependence on uncertain circumstances; failure makes visible the fact that outcomes are never guaranteed.",
       "hint": "Contingent = dependent on chance or uncertain conditions."
     },
@@ -193,12 +331,12 @@
       "id": "q10",
       "prompt": "What does the essay say about people who give talks about past failure?",
       "options": [
-        "They are more honest than people who only discuss success.",
         "They have already had time to select, frame, and manage the narrative — so the disclosure is not involuntary.",
+        "They are more honest than people who only discuss success.",
         "They are performing a kind of moral courage.",
         "They should be more widely celebrated in professional culture."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay distinguishes the live, unmanageable failure from the retrospective talk — the latter is 'rehearsed confession', which has the same problem as curated vulnerability.",
       "hint": "Look for the contrast between 'failing now' and 'having had time to select details'."
     },
@@ -219,12 +357,12 @@
       "id": "q12",
       "prompt": "What does 'the sediment of self-mythologising' mean?",
       "options": [
-        "The layers of accumulated narrative about oneself that normally cover or obscure one's actual reactions",
         "Mud deposited over time on the floor of a lake",
         "The historical record of a public figure's career",
+        "The layers of accumulated narrative about oneself that normally cover or obscure one's actual reactions",
         "A psychological term for repressed memories"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "Sediment = layers deposited over time; the metaphor suggests that self-mythologising builds up in layers, and failure briefly pierces through them.",
       "hint": "Sediment accumulates over time — think of the narrative layers a person builds about themselves."
     },
@@ -234,10 +372,10 @@
       "options": [
         "It's awkward to watch someone fail in public because they can't hide it.",
         "Public failure is honest because people don't have time to pretend.",
-        "The involuntary nature of the disclosure is what makes it informative in a way that rehearsed confession is not.",
-        "When people fail publicly, we can see who they really are, which is quite interesting."
+        "When people fail publicly, we can see who they really are, which is quite interesting.",
+        "The involuntary nature of the disclosure is what makes it informative in a way that rehearsed confession is not."
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "explanation": "Option C uses nominalization ('disclosure'), abstract contrast ('rehearsed confession'), and sophisticated subordination — all markers of C1 register.",
       "hint": "Look for abstract nouns, no contractions, and precise vocabulary."
     },
@@ -245,12 +383,12 @@
       "id": "q14",
       "prompt": "What is the essay's conclusion about how to respond to public failure?",
       "options": [
+        "We should recognise it as one of the rare occasions when a person is briefly and involuntarily exactly what they are.",
         "We should pity those who fail publicly and offer them support.",
         "We should judge public failure as evidence of character weakness.",
-        "We should recognise it as one of the rare occasions when a person is briefly and involuntarily exactly what they are.",
         "We should avoid watching others fail because it violates their privacy."
       ],
-      "answerIndex": 2,
+      "answerIndex": 0,
       "explanation": "The essay concludes that public failure deserves attention — not pity or judgment, but recognition of its rare honesty.",
       "hint": "Look for the phrase 'Not to pity it, not to judge it, but to recognise it for what it is'."
     },
@@ -272,11 +410,11 @@
       "prompt": "What does 'The social contract of professional presentation' refer to?",
       "options": [
         "A legal agreement between employer and employee",
-        "The implicit mutual understanding that professionals will perform competence and audiences will receive it",
         "A formal code of conduct in a workplace",
+        "The implicit mutual understanding that professionals will perform competence and audiences will receive it",
         "A networking strategy for building professional relationships"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay describes public failure as suspending this implicit contract — the mutual understanding that breaks down when failure is unmanageable.",
       "hint": "Social contract = an implicit agreement about how people will behave toward each other."
     }

@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "Whether expats writing about a host city owe it love or honesty",
   "summary": "Argue whether foreigners writing about the city they live in should foreground affection or unflinching honesty when their account will be read by both natives and outsiders.",
-  "tags": ["Identity", "Writing", "Ethics", "Argument"],
+  "tags": [
+    "Identity",
+    "Writing",
+    "Ethics",
+    "Argument"
+  ],
   "topic": "Whether foreign writers writing about their host city should choose love or honesty",
   "prompt": "Write a 350–500-word argumentative essay about whether a foreign writer living in a host city — Hue, Hanoi, Tashkent, Tbilisi — should foreground their affection for the place when they write about it, or whether honest criticism (of corruption, of cruelty, of inertia) is part of what the host city is owed in return for hospitality. Use a 'what' cleft, a concession ('Granted, …' or 'Admittedly, …'), at least one passive construction, and one participle clause. Anchor the argument in a specific city or kind of writing. Take a clear position. Vietnam — foreigner's lens only.",
   "minWords": 350,
@@ -14,50 +19,171 @@
     "Reading a recent essay about Hue by a long-term British resident, I noticed how carefully it avoided naming anything that might have…"
   ],
   "hintVocab": [
-    { "phrase": "host city", "meaningVi": "thành phố nơi đang sinh sống" },
-    { "phrase": "foreign correspondent", "meaningVi": "phóng viên nước ngoài" },
-    { "phrase": "long-term resident", "meaningVi": "cư dân lâu dài" },
-    { "phrase": "to soften an observation", "meaningVi": "làm dịu một quan sát" },
-    { "phrase": "the outsider's gaze", "meaningVi": "cái nhìn của người ngoài" },
-    { "phrase": "to flatter one's hosts", "meaningVi": "tâng bốc chủ nhà của mình" },
-    { "phrase": "to write into print", "meaningVi": "viết thành bài đăng" },
-    { "phrase": "diplomatic prose", "meaningVi": "văn xuôi mang tính ngoại giao" },
-    { "phrase": "uncritical affection", "meaningVi": "tình cảm thiếu phê phán" },
-    { "phrase": "to be read by both natives and outsiders", "meaningVi": "được đọc bởi cả người bản xứ lẫn người ngoài" },
-    { "phrase": "expatriate memoir", "meaningVi": "hồi ký của người sống xa quê", "pronunciation": "/ekˈspæ.tri.ət/" },
-    { "phrase": "post-tourist literature", "meaningVi": "văn học hậu du khách" },
-    { "phrase": "to record without owning", "meaningVi": "ghi chép mà không sở hữu" },
-    { "phrase": "earned standing to comment", "meaningVi": "tư cách bình luận đã giành được" },
-    { "phrase": "to ventriloquise local opinion", "meaningVi": "nói thay ý kiến của người bản xứ", "pronunciation": "/venˈtrɪl.ə.kwaɪz/" },
-    { "phrase": "an honest particular", "meaningVi": "một chi tiết trung thực" },
-    { "phrase": "to substitute mood for argument", "meaningVi": "thay thế tâm trạng cho lập luận" },
-    { "phrase": "received wisdom", "meaningVi": "trí tuệ được chấp nhận / quan điểm phổ biến" },
-    { "phrase": "atmospheric description", "meaningVi": "mô tả không khí / cảnh quan tinh thần" },
-    { "phrase": "civic honesty", "meaningVi": "sự trung thực dân sự" },
-    { "phrase": "to risk one's welcome", "meaningVi": "đặt sự hoan nghênh của mình vào rủi ro" }
+    {
+      "phrase": "host city",
+      "meaningVi": "thành phố nơi đang sinh sống"
+    },
+    {
+      "phrase": "foreign correspondent",
+      "meaningVi": "phóng viên nước ngoài"
+    },
+    {
+      "phrase": "long-term resident",
+      "meaningVi": "cư dân lâu dài"
+    },
+    {
+      "phrase": "to soften an observation",
+      "meaningVi": "làm dịu một quan sát"
+    },
+    {
+      "phrase": "the outsider's gaze",
+      "meaningVi": "cái nhìn của người ngoài"
+    },
+    {
+      "phrase": "to flatter one's hosts",
+      "meaningVi": "tâng bốc chủ nhà của mình"
+    },
+    {
+      "phrase": "to write into print",
+      "meaningVi": "viết thành bài đăng"
+    },
+    {
+      "phrase": "diplomatic prose",
+      "meaningVi": "văn xuôi mang tính ngoại giao"
+    },
+    {
+      "phrase": "uncritical affection",
+      "meaningVi": "tình cảm thiếu phê phán"
+    },
+    {
+      "phrase": "to be read by both natives and outsiders",
+      "meaningVi": "được đọc bởi cả người bản xứ lẫn người ngoài"
+    },
+    {
+      "phrase": "expatriate memoir",
+      "meaningVi": "hồi ký của người sống xa quê",
+      "pronunciation": "/ekˈspæ.tri.ət/"
+    },
+    {
+      "phrase": "post-tourist literature",
+      "meaningVi": "văn học hậu du khách"
+    },
+    {
+      "phrase": "to record without owning",
+      "meaningVi": "ghi chép mà không sở hữu"
+    },
+    {
+      "phrase": "earned standing to comment",
+      "meaningVi": "tư cách bình luận đã giành được"
+    },
+    {
+      "phrase": "to ventriloquise local opinion",
+      "meaningVi": "nói thay ý kiến của người bản xứ",
+      "pronunciation": "/venˈtrɪl.ə.kwaɪz/"
+    },
+    {
+      "phrase": "an honest particular",
+      "meaningVi": "một chi tiết trung thực"
+    },
+    {
+      "phrase": "to substitute mood for argument",
+      "meaningVi": "thay thế tâm trạng cho lập luận"
+    },
+    {
+      "phrase": "received wisdom",
+      "meaningVi": "trí tuệ được chấp nhận / quan điểm phổ biến"
+    },
+    {
+      "phrase": "atmospheric description",
+      "meaningVi": "mô tả không khí / cảnh quan tinh thần"
+    },
+    {
+      "phrase": "civic honesty",
+      "meaningVi": "sự trung thực dân sự"
+    },
+    {
+      "phrase": "to risk one's welcome",
+      "meaningVi": "đặt sự hoan nghênh của mình vào rủi ro"
+    }
   ],
   "sampleText": "Reading a recent essay about Hue by a long-term British resident, I noticed how carefully it avoided naming anything that might have offended the city it claimed to love. The rivers were beautiful. The food was honest. The people were warm. The corruption that had reshaped half the riverfront in the past decade was not mentioned. The essay was perfectly pleasant. It was also, in a way that the writer probably did not intend, a kind of postcard.\n\nWhat a foreign writer owes the city they live in is something rarely addressed in the polished essays they tend to publish about it. The unspoken assumption is that affection is the proper register for the outsider, and that anything sharper would be ungrateful — a foreigner abusing their welcome. The result is a small genre of expat writing in which warm impressions are exchanged for warm reception, and in which nothing genuinely contested ever gets said.\n\nGranted, the foreign writer who casts every observation about their host city as a complaint can drift into a kind of tourist superiority that helps nobody. There is a long, embarrassing history of foreigners writing about places they barely understand as if their three years of residence and a half-learned vocabulary gave them standing to judge entire systems. The case for honest criticism is not the case for the loud, ignorant foreigner who treats a host country as material for a personal essay.\n\nEven so, the more common failure in expat writing is the opposite one. The writer who has lived in Hue, Tashkent, or Hanoi for fifteen years, learned the language well enough to argue in it, watched the same neighbourhood get bulldozed three times, and still produces only river-and-food prose has not, by their reticence, honoured the place. They have flattered it. The hosts who read that prose in translation can usually tell which is which.\n\nAdmittedly, honesty for a foreign writer carries different stakes than honesty for a local one. A local writer who criticises the city criticises their own; a foreign writer who does the same is making a claim — implicit but real — about their right to weigh in. That standing has to be earned. It is earned, when it is earned at all, by long residence, real language, careful reading, and the willingness to be wrong in print.\n\nWhat a foreign writer finally owes their host city is neither uncritical affection nor a tourist's complaint. It is the discipline of writing about it the way one writes about somewhere one expects to live for the rest of one's life — honestly, particularly, with affection for what deserves affection and clear sight for what does not. The city, after all, is not a hotel. It is a place where other people also have to live with what one writes.",
   "sampleAnnotations": [
-    { "phrase": "Reading a recent essay about Hue by a long-term British resident, I noticed how carefully it avoided naming anything that might have offended the city it claimed to love", "meaningVi": "Đọc một bài luận gần đây về Huế bởi một cư dân Anh sống lâu dài, tôi nhận thấy bài viết đã cẩn thận như thế nào trong việc tránh nêu tên bất cứ điều gì có thể đã xúc phạm thành phố mà nó tuyên bố yêu mến" },
-    { "phrase": "The corruption that had reshaped half the riverfront in the past decade was not mentioned", "meaningVi": "Sự tham nhũng đã định hình lại một nửa bờ sông trong thập kỷ qua không được nhắc đến" },
-    { "phrase": "The essay was perfectly pleasant. It was also, in a way that the writer probably did not intend, a kind of postcard", "meaningVi": "Bài luận hoàn toàn dễ chịu. Nó cũng là, theo một cách mà người viết có lẽ không có ý định, một loại bưu thiếp" },
-    { "phrase": "What a foreign writer owes the city they live in is something rarely addressed in the polished essays they tend to publish about it", "meaningVi": "Điều mà một nhà văn nước ngoài nợ thành phố nơi họ sống là điều hiếm khi được đề cập trong các bài luận được trau chuốt mà họ có xu hướng xuất bản về nó" },
-    { "phrase": "the unspoken assumption is that affection is the proper register for the outsider", "meaningVi": "giả định không lời là tình cảm là giọng điệu phù hợp cho người ngoài" },
-    { "phrase": "a foreigner abusing their welcome", "meaningVi": "một người nước ngoài lạm dụng sự chào đón của mình" },
-    { "phrase": "warm impressions are exchanged for warm reception", "meaningVi": "ấn tượng ấm áp được trao đổi để có sự đón tiếp ấm áp" },
-    { "phrase": "the foreign writer who casts every observation about their host city as a complaint can drift into a kind of tourist superiority", "meaningVi": "nhà văn nước ngoài đặt mọi quan sát về thành phố sở tại của họ thành một lời phàn nàn có thể trôi dạt vào một loại sự ưu việt của du khách" },
-    { "phrase": "a long, embarrassing history of foreigners writing about places they barely understand", "meaningVi": "một lịch sử dài, đáng xấu hổ của những người nước ngoài viết về những nơi họ hầu như không hiểu" },
-    { "phrase": "as if their three years of residence and a half-learned vocabulary gave them standing to judge entire systems", "meaningVi": "như thể ba năm cư trú của họ và một vốn từ vựng học được nửa vời cho họ tư cách để phán xét toàn bộ hệ thống" },
-    { "phrase": "The case for honest criticism is not the case for the loud, ignorant foreigner who treats a host country as material for a personal essay", "meaningVi": "Lập luận cho phê phán trung thực không phải là lập luận cho người nước ngoài ồn ào, vô tri đối xử với đất nước sở tại như tài liệu cho một bài luận cá nhân" },
-    { "phrase": "the more common failure in expat writing is the opposite one", "meaningVi": "sự thất bại phổ biến hơn trong văn viết của người sống xa quê là sai lầm ngược lại" },
-    { "phrase": "learned the language well enough to argue in it, watched the same neighbourhood get bulldozed three times, and still produces only river-and-food prose has not, by their reticence, honoured the place. They have flattered it", "meaningVi": "đã học ngôn ngữ đủ tốt để tranh luận bằng nó, đã xem cùng một khu phố bị san phẳng ba lần, và vẫn chỉ sản xuất văn xuôi về sông và thức ăn không, qua sự kín tiếng của họ, tôn vinh nơi đó. Họ đã tâng bốc nó" },
-    { "phrase": "The hosts who read that prose in translation can usually tell which is which", "meaningVi": "Các chủ nhà đọc văn xuôi đó qua bản dịch thường có thể phân biệt được cái nào là cái nào" },
-    { "phrase": "A local writer who criticises the city criticises their own; a foreign writer who does the same is making a claim — implicit but real — about their right to weigh in", "meaningVi": "Một nhà văn bản xứ phê phán thành phố là phê phán của chính họ; một nhà văn nước ngoài làm điều tương tự đang đưa ra một tuyên bố — ngầm nhưng thực sự — về quyền lên tiếng của họ" },
-    { "phrase": "That standing has to be earned. It is earned, when it is earned at all, by long residence, real language, careful reading, and the willingness to be wrong in print", "meaningVi": "Tư cách đó phải được giành lấy. Nó được giành, khi nó được giành chút nào, bởi sự cư trú lâu dài, ngôn ngữ thực sự, đọc cẩn thận, và sự sẵn lòng sai trên bản in" },
-    { "phrase": "What a foreign writer finally owes their host city is neither uncritical affection nor a tourist's complaint", "meaningVi": "Điều mà một nhà văn nước ngoài cuối cùng nợ thành phố sở tại của họ không phải là tình cảm thiếu phê phán cũng không phải là lời phàn nàn của du khách" },
-    { "phrase": "the discipline of writing about it the way one writes about somewhere one expects to live for the rest of one's life — honestly, particularly, with affection for what deserves affection and clear sight for what does not", "meaningVi": "kỷ luật viết về nó theo cách người ta viết về một nơi mà người ta dự định sống suốt phần đời còn lại của mình — một cách trung thực, cụ thể, với tình cảm cho điều xứng đáng được yêu và cái nhìn rõ ràng cho điều không xứng đáng" },
-    { "phrase": "The city, after all, is not a hotel. It is a place where other people also have to live with what one writes", "meaningVi": "Thành phố, suy cho cùng, không phải là một khách sạn. Đó là một nơi mà những người khác cũng phải sống với những gì người ta viết" },
-    { "phrase": "to risk one's welcome", "meaningVi": "đặt sự hoan nghênh của mình vào rủi ro" }
+    {
+      "phrase": "Reading a recent essay about Hue by a long-term British resident, I noticed how carefully it avoided naming anything that might have offended the city it claimed to love",
+      "meaningVi": "Đọc một bài luận gần đây về Huế bởi một cư dân Anh sống lâu dài, tôi nhận thấy bài viết đã cẩn thận như thế nào trong việc tránh nêu tên bất cứ điều gì có thể đã xúc phạm thành phố mà nó tuyên bố yêu mến"
+    },
+    {
+      "phrase": "The corruption that had reshaped half the riverfront in the past decade was not mentioned",
+      "meaningVi": "Sự tham nhũng đã định hình lại một nửa bờ sông trong thập kỷ qua không được nhắc đến"
+    },
+    {
+      "phrase": "The essay was perfectly pleasant. It was also, in a way that the writer probably did not intend, a kind of postcard",
+      "meaningVi": "Bài luận hoàn toàn dễ chịu. Nó cũng là, theo một cách mà người viết có lẽ không có ý định, một loại bưu thiếp"
+    },
+    {
+      "phrase": "What a foreign writer owes the city they live in is something rarely addressed in the polished essays they tend to publish about it",
+      "meaningVi": "Điều mà một nhà văn nước ngoài nợ thành phố nơi họ sống là điều hiếm khi được đề cập trong các bài luận được trau chuốt mà họ có xu hướng xuất bản về nó"
+    },
+    {
+      "phrase": "the unspoken assumption is that affection is the proper register for the outsider",
+      "meaningVi": "giả định không lời là tình cảm là giọng điệu phù hợp cho người ngoài"
+    },
+    {
+      "phrase": "a foreigner abusing their welcome",
+      "meaningVi": "một người nước ngoài lạm dụng sự chào đón của mình"
+    },
+    {
+      "phrase": "warm impressions are exchanged for warm reception",
+      "meaningVi": "ấn tượng ấm áp được trao đổi để có sự đón tiếp ấm áp"
+    },
+    {
+      "phrase": "the foreign writer who casts every observation about their host city as a complaint can drift into a kind of tourist superiority",
+      "meaningVi": "nhà văn nước ngoài đặt mọi quan sát về thành phố sở tại của họ thành một lời phàn nàn có thể trôi dạt vào một loại sự ưu việt của du khách"
+    },
+    {
+      "phrase": "a long, embarrassing history of foreigners writing about places they barely understand",
+      "meaningVi": "một lịch sử dài, đáng xấu hổ của những người nước ngoài viết về những nơi họ hầu như không hiểu"
+    },
+    {
+      "phrase": "as if their three years of residence and a half-learned vocabulary gave them standing to judge entire systems",
+      "meaningVi": "như thể ba năm cư trú của họ và một vốn từ vựng học được nửa vời cho họ tư cách để phán xét toàn bộ hệ thống"
+    },
+    {
+      "phrase": "The case for honest criticism is not the case for the loud, ignorant foreigner who treats a host country as material for a personal essay",
+      "meaningVi": "Lập luận cho phê phán trung thực không phải là lập luận cho người nước ngoài ồn ào, vô tri đối xử với đất nước sở tại như tài liệu cho một bài luận cá nhân"
+    },
+    {
+      "phrase": "the more common failure in expat writing is the opposite one",
+      "meaningVi": "sự thất bại phổ biến hơn trong văn viết của người sống xa quê là sai lầm ngược lại"
+    },
+    {
+      "phrase": "learned the language well enough to argue in it, watched the same neighbourhood get bulldozed three times, and still produces only river-and-food prose has not, by their reticence, honoured the place. They have flattered it",
+      "meaningVi": "đã học ngôn ngữ đủ tốt để tranh luận bằng nó, đã xem cùng một khu phố bị san phẳng ba lần, và vẫn chỉ sản xuất văn xuôi về sông và thức ăn không, qua sự kín tiếng của họ, tôn vinh nơi đó. Họ đã tâng bốc nó"
+    },
+    {
+      "phrase": "The hosts who read that prose in translation can usually tell which is which",
+      "meaningVi": "Các chủ nhà đọc văn xuôi đó qua bản dịch thường có thể phân biệt được cái nào là cái nào"
+    },
+    {
+      "phrase": "A local writer who criticises the city criticises their own; a foreign writer who does the same is making a claim — implicit but real — about their right to weigh in",
+      "meaningVi": "Một nhà văn bản xứ phê phán thành phố là phê phán của chính họ; một nhà văn nước ngoài làm điều tương tự đang đưa ra một tuyên bố — ngầm nhưng thực sự — về quyền lên tiếng của họ"
+    },
+    {
+      "phrase": "That standing has to be earned. It is earned, when it is earned at all, by long residence, real language, careful reading, and the willingness to be wrong in print",
+      "meaningVi": "Tư cách đó phải được giành lấy. Nó được giành, khi nó được giành chút nào, bởi sự cư trú lâu dài, ngôn ngữ thực sự, đọc cẩn thận, và sự sẵn lòng sai trên bản in"
+    },
+    {
+      "phrase": "What a foreign writer finally owes their host city is neither uncritical affection nor a tourist's complaint",
+      "meaningVi": "Điều mà một nhà văn nước ngoài cuối cùng nợ thành phố sở tại của họ không phải là tình cảm thiếu phê phán cũng không phải là lời phàn nàn của du khách"
+    },
+    {
+      "phrase": "the discipline of writing about it the way one writes about somewhere one expects to live for the rest of one's life — honestly, particularly, with affection for what deserves affection and clear sight for what does not",
+      "meaningVi": "kỷ luật viết về nó theo cách người ta viết về một nơi mà người ta dự định sống suốt phần đời còn lại của mình — một cách trung thực, cụ thể, với tình cảm cho điều xứng đáng được yêu và cái nhìn rõ ràng cho điều không xứng đáng"
+    },
+    {
+      "phrase": "The city, after all, is not a hotel. It is a place where other people also have to live with what one writes",
+      "meaningVi": "Thành phố, suy cho cùng, không phải là một khách sạn. Đó là một nơi mà những người khác cũng phải sống với những gì người ta viết"
+    }
   ],
   "sampleGrammarNotes": [
     {

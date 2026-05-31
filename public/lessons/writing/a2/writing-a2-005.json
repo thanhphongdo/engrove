@@ -3,7 +3,11 @@
   "level": "A2",
   "title": "A meal that always reminds me of home",
   "summary": "Describe a dish whose smell or taste pulls you back home.",
-  "tags": ["Food", "Memory", "Family"],
+  "tags": [
+    "Food",
+    "Memory",
+    "Family"
+  ],
   "topic": "A meal that always reminds me of home",
   "prompt": "Write 150–250 words about a meal that always reminds you of home. Describe how it smells and tastes, who used to cook it, and one moment connected to it. Use past simple and the linker 'when'.",
   "minWords": 150,
@@ -14,30 +18,94 @@
     "The first thing I taste is…"
   ],
   "hintVocab": [
-    { "phrase": "garlic", "meaningVi": "tỏi", "pronunciation": "/ˈɡɑːrlɪk/" },
-    { "phrase": "olive oil", "meaningVi": "dầu ô liu" },
-    { "phrase": "kitchen", "meaningVi": "nhà bếp" },
-    { "phrase": "stew", "meaningVi": "món hầm" },
-    { "phrase": "warm bread", "meaningVi": "bánh mì ấm" },
-    { "phrase": "soft", "meaningVi": "mềm" },
-    { "phrase": "rainy afternoon", "meaningVi": "buổi chiều mưa" },
-    { "phrase": "wooden spoon", "meaningVi": "thìa gỗ" },
-    { "phrase": "remind me of", "meaningVi": "nhắc tôi nhớ về" },
-    { "phrase": "small village", "meaningVi": "ngôi làng nhỏ" },
-    { "phrase": "homesick", "meaningVi": "nhớ nhà" }
+    {
+      "phrase": "garlic",
+      "meaningVi": "tỏi",
+      "pronunciation": "/ˈɡɑːrlɪk/"
+    },
+    {
+      "phrase": "olive oil",
+      "meaningVi": "dầu ô liu"
+    },
+    {
+      "phrase": "kitchen",
+      "meaningVi": "nhà bếp"
+    },
+    {
+      "phrase": "stew",
+      "meaningVi": "món hầm"
+    },
+    {
+      "phrase": "warm bread",
+      "meaningVi": "bánh mì ấm"
+    },
+    {
+      "phrase": "soft",
+      "meaningVi": "mềm"
+    },
+    {
+      "phrase": "rainy afternoon",
+      "meaningVi": "buổi chiều mưa"
+    },
+    {
+      "phrase": "wooden spoon",
+      "meaningVi": "thìa gỗ"
+    },
+    {
+      "phrase": "remind me of",
+      "meaningVi": "nhắc tôi nhớ về"
+    },
+    {
+      "phrase": "small village",
+      "meaningVi": "ngôi làng nhỏ"
+    },
+    {
+      "phrase": "homesick",
+      "meaningVi": "nhớ nhà"
+    }
   ],
   "sampleText": "There is a kind of stew called fabada that always reminds me of home. My grandmother used to cook it in her small kitchen in a village in northern Spain. The smell starts with onion and garlic in warm olive oil. Then she added white beans, a piece of pork, and a slow fire. The kitchen was small, but when the stew was cooking, the whole house smelled the same. I remember one rainy afternoon when I was about ten. My cousin and I came in with wet shoes and cold hands. My grandmother did not say anything about the floor. She gave us two bowls and a piece of warm bread. The stew was soft and a little salty, and the bread was perfect for the sauce at the bottom. I felt warm again before I finished the first spoon. Now I live in a different country, and the winters are colder. Sometimes I try to cook fabada myself. The taste is close, but it is never exactly the same. When I smell olive oil and garlic in my own kitchen, I think of her wooden spoon, the rain on the window, and her small voice asking if we wanted more bread. I am a little homesick, and a little happy too.",
   "sampleAnnotations": [
-    { "phrase": "stew", "meaningVi": "món hầm" },
-    { "phrase": "small kitchen", "meaningVi": "nhà bếp nhỏ" },
-    { "phrase": "olive oil", "meaningVi": "dầu ô liu" },
-    { "phrase": "rainy afternoon", "meaningVi": "buổi chiều mưa" },
-    { "phrase": "warm bread", "meaningVi": "bánh mì ấm" },
-    { "phrase": "soft and a little salty", "meaningVi": "mềm và hơi mặn" },
-    { "phrase": "wooden spoon", "meaningVi": "thìa gỗ" },
-    { "phrase": "remind me of home", "meaningVi": "nhắc tôi nhớ nhà" },
-    { "phrase": "homesick", "meaningVi": "nhớ nhà" },
-    { "phrase": "different country", "meaningVi": "đất nước khác" }
+    {
+      "phrase": "stew",
+      "meaningVi": "món hầm"
+    },
+    {
+      "phrase": "small kitchen",
+      "meaningVi": "nhà bếp nhỏ"
+    },
+    {
+      "phrase": "olive oil",
+      "meaningVi": "dầu ô liu"
+    },
+    {
+      "phrase": "rainy afternoon",
+      "meaningVi": "buổi chiều mưa"
+    },
+    {
+      "phrase": "warm bread",
+      "meaningVi": "bánh mì ấm"
+    },
+    {
+      "phrase": "soft and a little salty",
+      "meaningVi": "mềm và hơi mặn"
+    },
+    {
+      "phrase": "wooden spoon",
+      "meaningVi": "thìa gỗ"
+    },
+    {
+      "phrase": "me of home",
+      "meaningVi": "nhắc tôi nhớ nhà"
+    },
+    {
+      "phrase": "homesick",
+      "meaningVi": "nhớ nhà"
+    },
+    {
+      "phrase": "different country",
+      "meaningVi": "đất nước khác"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -57,12 +125,12 @@
       "id": "q1",
       "prompt": "Which sentence uses 'used to' correctly?",
       "options": [
-        "My grandmother used to cook it in her small kitchen.",
         "My grandmother used to cooked it in her small kitchen.",
         "My grandmother use to cook it in her small kitchen.",
+        "My grandmother used to cook it in her small kitchen.",
         "My grandmother is used to cook it in her small kitchen."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Used to' is followed by the base form of the verb ('cook').",
       "hint": "What form follows 'used to'?"
     },
@@ -70,12 +138,12 @@
       "id": "q2",
       "prompt": "Choose the best sentence with 'when' linking two past actions.",
       "options": [
-        "When the stew was cooking, the whole house smelled the same.",
         "When the stew is cooking, the whole house smell the same.",
         "When the stew cook, the whole house smelled the same.",
-        "The stew was cooking when the whole house has smelled the same."
+        "The stew was cooking when the whole house has smelled the same.",
+        "When the stew was cooking, the whole house smelled the same."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'When + past continuous, past simple' is a natural pattern.",
       "hint": "Both clauses should be in the past."
     },
@@ -96,12 +164,12 @@
       "id": "q4",
       "prompt": "Pick the correct preposition.",
       "options": [
-        "It always reminds me of home.",
         "It always reminds me about home.",
+        "It always reminds me of home.",
         "It always reminds me on home.",
         "It always reminds me for home."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'Remind someone of something' is the standard collocation.",
       "hint": "Which preposition follows 'remind'?"
     },
@@ -109,12 +177,12 @@
       "id": "q5",
       "prompt": "Which sentence is grammatically correct?",
       "options": [
-        "She gave us two bowls and a piece of warm bread.",
         "She give us two bowls and a piece of warm bread.",
         "She gave us two bowl and a piece of warm bread.",
+        "She gave us two bowls and a piece of warm bread.",
         "She has gave us two bowls and piece of warm breads."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Gave' is the past simple; 'two bowls' (plural countable) and 'a piece of bread' (uncountable) are correct.",
       "hint": "Bread is uncountable; bowls are countable."
     },
@@ -122,12 +190,12 @@
       "id": "q6",
       "prompt": "Choose the best linker for: 'I felt warm again ___ I finished the first spoon.'",
       "options": [
-        "before",
         "after that",
         "while",
-        "because"
+        "because",
+        "before"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'Before' shows that warmth came first, the spoon ending came later.",
       "hint": "Which word means 'earlier than'?"
     },
@@ -148,12 +216,12 @@
       "id": "q8",
       "prompt": "Which sentence uses the correct comparative?",
       "options": [
-        "The winters are colder here.",
         "The winters are more cold here.",
+        "The winters are colder here.",
         "The winters are coldest here.",
         "The winters are cold than here."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "One-syllable adjectives take -er: 'cold' → 'colder'.",
       "hint": "Short adjectives add -er."
     },
@@ -161,12 +229,12 @@
       "id": "q9",
       "prompt": "Pick the most natural descriptive sentence.",
       "options": [
-        "The smell starts with onion and garlic in warm olive oil.",
         "The smell start by onion and garlic on warm olive oil.",
         "The smell is starting with onion and garlic into warm olive oil.",
+        "The smell starts with onion and garlic in warm olive oil.",
         "The smell starts at onions and garlics in warmth olive oil."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Starts with X in Y' is the natural pattern; verbs and articles match.",
       "hint": "Look for the option that flows like normal English."
     },
@@ -174,12 +242,12 @@
       "id": "q10",
       "prompt": "Which closing line fits the tone best?",
       "options": [
-        "I am a little homesick, and a little happy too.",
         "I am very homesick, therefore I am unhappy.",
         "In conclusion, I miss home and food.",
-        "It is important to note that I miss my grandmother."
+        "It is important to note that I miss my grandmother.",
+        "I am a little homesick, and a little happy too."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "The first sentence is personal and concrete. The others are either formal, robotic, or AI-style filler.",
       "hint": "Avoid robotic phrases like 'In conclusion' or 'It is important to note'."
     }

@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "Whether public transit should make passengers slightly uncomfortable",
   "summary": "Argue whether seats, lighting, and acoustics on buses and metros should be optimised for ease — or kept just uncomfortable enough to keep journeys short and turnover high.",
-  "tags": ["Urbanism", "Design", "Public Services", "Argument"],
+  "tags": [
+    "Urbanism",
+    "Design",
+    "Public Services",
+    "Argument"
+  ],
   "topic": "Whether the design of public transit should prioritise comfort or deliberate, mild discomfort",
   "prompt": "Write a 350–500-word argumentative essay about whether public transit (metros, buses, station benches) should be designed to be genuinely comfortable, or whether mild, deliberate discomfort — hard seats, bright light, sharp acoustics — is justified as a way to keep passengers moving and stations functioning. Use a 'what' cleft, a concession ('Granted, …' or 'Admittedly, …'), at least one passive construction, and one participle clause. Anchor the argument in at least one named city or system. Take a clear position.",
   "minWords": 350,
@@ -14,50 +19,175 @@
     "Riding the late train out of Seoul Station on a winter evening, one notices that the seats are firmly padded but not soft, the lighting is bright but not harsh, and the…"
   ],
   "hintVocab": [
-    { "phrase": "hostile architecture", "meaningVi": "kiến trúc thù địch (thiết kế để ngăn ai đó ở lại)" },
-    { "phrase": "anti-loitering design", "meaningVi": "thiết kế chống tụ tập / nán lại" },
-    { "phrase": "passenger turnover", "meaningVi": "luân chuyển hành khách" },
-    { "phrase": "ergonomic seating", "meaningVi": "ghế ngồi theo công thái học", "pronunciation": "/ˌɜː.ɡəˈnɒm.ɪk/" },
-    { "phrase": "acoustic harshness", "meaningVi": "sự gay gắt về âm thanh" },
-    { "phrase": "rough sleeper", "meaningVi": "người ngủ lang thang / vô gia cư trên đường phố" },
-    { "phrase": "defensive design", "meaningVi": "thiết kế phòng vệ (chống lại một số người dùng)" },
-    { "phrase": "to discourage extended use", "meaningVi": "không khuyến khích sử dụng kéo dài" },
-    { "phrase": "transit dignity", "meaningVi": "phẩm giá khi đi giao thông công cộng" },
-    { "phrase": "armrest barrier", "meaningVi": "tay vịn ngăn cách (để không ai nằm được)" },
-    { "phrase": "slanted bench", "meaningVi": "ghế dốc nghiêng (chống nằm)" },
-    { "phrase": "to push people out of sight", "meaningVi": "đẩy người ta ra khỏi tầm nhìn" },
-    { "phrase": "user-centred design", "meaningVi": "thiết kế lấy người dùng làm trung tâm" },
-    { "phrase": "the morning commute", "meaningVi": "chuyến đi làm buổi sáng" },
-    { "phrase": "station dwell time", "meaningVi": "thời gian dừng tại nhà ga" },
-    { "phrase": "fluorescent overhead lighting", "meaningVi": "đèn huỳnh quang trên đầu", "pronunciation": "/flʊəˈres.ənt/" },
-    { "phrase": "to inhabit a station", "meaningVi": "cư ngụ tại một nhà ga" },
-    { "phrase": "transit-oriented urbanism", "meaningVi": "đô thị học định hướng giao thông công cộng" },
-    { "phrase": "to subsidise comfort", "meaningVi": "trợ cấp cho sự thoải mái" },
-    { "phrase": "the elderly commuter", "meaningVi": "người đi lại lớn tuổi" },
-    { "phrase": "to design for the median user", "meaningVi": "thiết kế cho người dùng trung bình" }
+    {
+      "phrase": "hostile architecture",
+      "meaningVi": "kiến trúc thù địch (thiết kế để ngăn ai đó ở lại)"
+    },
+    {
+      "phrase": "anti-loitering design",
+      "meaningVi": "thiết kế chống tụ tập / nán lại"
+    },
+    {
+      "phrase": "passenger turnover",
+      "meaningVi": "luân chuyển hành khách"
+    },
+    {
+      "phrase": "ergonomic seating",
+      "meaningVi": "ghế ngồi theo công thái học",
+      "pronunciation": "/ˌɜː.ɡəˈnɒm.ɪk/"
+    },
+    {
+      "phrase": "acoustic harshness",
+      "meaningVi": "sự gay gắt về âm thanh"
+    },
+    {
+      "phrase": "rough sleeper",
+      "meaningVi": "người ngủ lang thang / vô gia cư trên đường phố"
+    },
+    {
+      "phrase": "defensive design",
+      "meaningVi": "thiết kế phòng vệ (chống lại một số người dùng)"
+    },
+    {
+      "phrase": "to discourage extended use",
+      "meaningVi": "không khuyến khích sử dụng kéo dài"
+    },
+    {
+      "phrase": "transit dignity",
+      "meaningVi": "phẩm giá khi đi giao thông công cộng"
+    },
+    {
+      "phrase": "armrest barrier",
+      "meaningVi": "tay vịn ngăn cách (để không ai nằm được)"
+    },
+    {
+      "phrase": "slanted bench",
+      "meaningVi": "ghế dốc nghiêng (chống nằm)"
+    },
+    {
+      "phrase": "to push people out of sight",
+      "meaningVi": "đẩy người ta ra khỏi tầm nhìn"
+    },
+    {
+      "phrase": "user-centred design",
+      "meaningVi": "thiết kế lấy người dùng làm trung tâm"
+    },
+    {
+      "phrase": "the morning commute",
+      "meaningVi": "chuyến đi làm buổi sáng"
+    },
+    {
+      "phrase": "station dwell time",
+      "meaningVi": "thời gian dừng tại nhà ga"
+    },
+    {
+      "phrase": "fluorescent overhead lighting",
+      "meaningVi": "đèn huỳnh quang trên đầu",
+      "pronunciation": "/flʊəˈres.ənt/"
+    },
+    {
+      "phrase": "to inhabit a station",
+      "meaningVi": "cư ngụ tại một nhà ga"
+    },
+    {
+      "phrase": "transit-oriented urbanism",
+      "meaningVi": "đô thị học định hướng giao thông công cộng"
+    },
+    {
+      "phrase": "to subsidise comfort",
+      "meaningVi": "trợ cấp cho sự thoải mái"
+    },
+    {
+      "phrase": "the elderly commuter",
+      "meaningVi": "người đi lại lớn tuổi"
+    },
+    {
+      "phrase": "to design for the median user",
+      "meaningVi": "thiết kế cho người dùng trung bình"
+    }
   ],
   "sampleText": "The bench inside a metro station tells you, in a single glance, how the system thinks about the people using it. A bench shaped for forty minutes of comfortable waiting is one decision. A bench shaped so that no one can sit on it for more than ten — let alone lie down — is another, and the two should not be confused. The first is a piece of public hospitality. The second is a polite act of removal.\n\nWhat deliberately uncomfortable transit reveals about a city's view of its passengers is rarely flattering. Stations equipped with slanted benches, single-seat metal stools, and armrest barriers every fifty centimetres are not simply pursuing efficient turnover. They are being engineered to push particular kinds of people — elderly passengers waiting between connections, exhausted shift workers, anyone without a private place to rest — out of public sight. The euphemism for this is anti-loitering design. A more honest term is hostile architecture.\n\nGranted, the case for some passenger movement is real. A platform crowded with stationary people becomes unsafe when a train arrives; benches that allow extended sleep can crowd out other users in stations with no spare capacity. Seoul's metro, which has experimented carefully with seating density and station flow, has found that some firmness in bench design genuinely improves throughput during the morning commute. Nobody is arguing that station benches should be sofas.\n\nEven so, the line between functional firmness and engineered cruelty is not difficult to draw. A bench that is comfortable for a forty-minute wait but cannot be lain across does not require a slanted surface or a row of metal dividers. It requires a moderately firm seat and a sensible width. The design choices that make benches actively hostile — not merely unwelcoming for sleep but punishing for ordinary sitting — go far beyond throughput considerations. They reflect a decision about which passengers are imagined as legitimate users of the station.\n\nAdmittedly, the people displaced by hostile transit design are often, in the strict sense, not paying customers of the system. A rough sleeper is not buying a ticket. But the assumption that public transit serves only those who hold a current fare is a narrow one. A station that drives certain people away has not solved a problem; it has merely moved it somewhere with less surveillance and less shelter.\n\nWhat a humane transit system understands is that physical comfort is one of the cheapest forms of civic respect on offer. A slightly softer bench, a slightly warmer light, a slightly less aggressive bend in the metal — these cost almost nothing, and they communicate clearly that the passenger, whoever they are, is welcome to exist in the building.",
   "sampleAnnotations": [
-    { "phrase": "The bench inside a metro station tells you, in a single glance, how the system thinks about the people using it", "meaningVi": "Cái ghế bên trong một nhà ga metro nói cho bạn biết, chỉ trong một cái nhìn, hệ thống nghĩ thế nào về những người sử dụng nó" },
-    { "phrase": "A bench shaped so that no one can sit on it for more than ten — let alone lie down — is another", "meaningVi": "Một cái ghế được tạo hình sao cho không ai có thể ngồi quá mười phút — chứ đừng nói đến nằm — là một lựa chọn khác" },
-    { "phrase": "The first is a piece of public hospitality. The second is a polite act of removal", "meaningVi": "Cái thứ nhất là một mảnh hiếu khách công cộng. Cái thứ hai là một hành động loại trừ lịch sự" },
-    { "phrase": "What deliberately uncomfortable transit reveals about a city's view of its passengers is rarely flattering", "meaningVi": "Điều mà giao thông công cộng cố tình khó chịu tiết lộ về cách thành phố nhìn nhận hành khách của mình hiếm khi là điều dễ chịu" },
-    { "phrase": "Stations equipped with slanted benches, single-seat metal stools, and armrest barriers every fifty centimetres", "meaningVi": "Các nhà ga được trang bị ghế dốc nghiêng, ghế đẩu kim loại đơn, và rào tay vịn cứ mỗi năm mươi cm" },
-    { "phrase": "They are being engineered to push particular kinds of people out of public sight", "meaningVi": "Chúng đang được thiết kế kỹ thuật để đẩy một số loại người ra khỏi tầm nhìn công cộng" },
-    { "phrase": "The euphemism for this is anti-loitering design. A more honest term is hostile architecture", "meaningVi": "Cách gọi giảm nhẹ cho điều này là thiết kế chống tụ tập. Một thuật ngữ trung thực hơn là kiến trúc thù địch" },
-    { "phrase": "A platform crowded with stationary people becomes unsafe when a train arrives", "meaningVi": "Một sân ga đông người đứng yên trở nên không an toàn khi tàu đến" },
-    { "phrase": "Seoul's metro, which has experimented carefully with seating density and station flow", "meaningVi": "Hệ thống metro Seoul, vốn đã thử nghiệm cẩn thận với mật độ ghế và lưu lượng nhà ga" },
-    { "phrase": "Nobody is arguing that station benches should be sofas", "meaningVi": "Không ai đang lập luận rằng ghế nhà ga nên là ghế sô-pha" },
-    { "phrase": "the line between functional firmness and engineered cruelty is not difficult to draw", "meaningVi": "ranh giới giữa sự cứng vừa phải có chức năng và sự tàn nhẫn được thiết kế kỹ thuật không khó vạch ra" },
-    { "phrase": "They reflect a decision about which passengers are imagined as legitimate users of the station", "meaningVi": "Chúng phản ánh một quyết định về việc hành khách nào được hình dung là người sử dụng hợp pháp của nhà ga" },
-    { "phrase": "the people displaced by hostile transit design are often, in the strict sense, not paying customers of the system", "meaningVi": "những người bị buộc phải rời đi bởi thiết kế giao thông thù địch thường, theo nghĩa nghiêm ngặt, không phải là khách hàng trả tiền của hệ thống" },
-    { "phrase": "the assumption that public transit serves only those who hold a current fare is a narrow one", "meaningVi": "giả định rằng giao thông công cộng chỉ phục vụ những người đang giữ vé hiện hành là một giả định hẹp hòi" },
-    { "phrase": "A station that drives certain people away has not solved a problem; it has merely moved it somewhere with less surveillance and less shelter", "meaningVi": "Một nhà ga đẩy một số người đi xa không hề giải quyết một vấn đề; nó chỉ đơn giản là chuyển vấn đề đó đến nơi có ít sự giám sát và ít chỗ trú hơn" },
-    { "phrase": "What a humane transit system understands is that physical comfort is one of the cheapest forms of civic respect on offer", "meaningVi": "Điều mà một hệ thống giao thông nhân văn hiểu là sự thoải mái về thể chất là một trong những hình thức tôn trọng dân sự rẻ nhất mà người ta có thể cung cấp" },
-    { "phrase": "A slightly softer bench, a slightly warmer light, a slightly less aggressive bend in the metal", "meaningVi": "Một cái ghế hơi mềm hơn một chút, một ánh sáng hơi ấm hơn một chút, một độ cong hơi ít hung hăng hơn một chút trên kim loại" },
-    { "phrase": "they communicate clearly that the passenger, whoever they are, is welcome to exist in the building", "meaningVi": "chúng truyền đạt rõ ràng rằng hành khách, bất kể họ là ai, được chào đón tồn tại trong tòa nhà" },
-    { "phrase": "anti-loitering design", "meaningVi": "thiết kế chống tụ tập / nán lại" },
-    { "phrase": "hostile architecture", "meaningVi": "kiến trúc thù địch (thiết kế để ngăn ai đó ở lại)" }
+    {
+      "phrase": "The bench inside a metro station tells you, in a single glance, how the system thinks about the people using it",
+      "meaningVi": "Cái ghế bên trong một nhà ga metro nói cho bạn biết, chỉ trong một cái nhìn, hệ thống nghĩ thế nào về những người sử dụng nó"
+    },
+    {
+      "phrase": "A bench shaped so that no one can sit on it for more than ten — let alone lie down — is another",
+      "meaningVi": "Một cái ghế được tạo hình sao cho không ai có thể ngồi quá mười phút — chứ đừng nói đến nằm — là một lựa chọn khác"
+    },
+    {
+      "phrase": "The first is a piece of public hospitality. The second is a polite act of removal",
+      "meaningVi": "Cái thứ nhất là một mảnh hiếu khách công cộng. Cái thứ hai là một hành động loại trừ lịch sự"
+    },
+    {
+      "phrase": "What deliberately uncomfortable transit reveals about a city's view of its passengers is rarely flattering",
+      "meaningVi": "Điều mà giao thông công cộng cố tình khó chịu tiết lộ về cách thành phố nhìn nhận hành khách của mình hiếm khi là điều dễ chịu"
+    },
+    {
+      "phrase": "Stations equipped with slanted benches, single-seat metal stools, and armrest barriers every fifty centimetres",
+      "meaningVi": "Các nhà ga được trang bị ghế dốc nghiêng, ghế đẩu kim loại đơn, và rào tay vịn cứ mỗi năm mươi cm"
+    },
+    {
+      "phrase": "They are being engineered to push particular kinds of people",
+      "meaningVi": "Chúng đang được thiết kế kỹ thuật để đẩy một số loại người ra khỏi tầm nhìn công cộng"
+    },
+    {
+      "phrase": "The euphemism for this is anti-loitering design. A more honest term is hostile architecture",
+      "meaningVi": "Cách gọi giảm nhẹ cho điều này là thiết kế chống tụ tập. Một thuật ngữ trung thực hơn là kiến trúc thù địch"
+    },
+    {
+      "phrase": "A platform crowded with stationary people becomes unsafe when a train arrives",
+      "meaningVi": "Một sân ga đông người đứng yên trở nên không an toàn khi tàu đến"
+    },
+    {
+      "phrase": "Seoul's metro, which has experimented carefully with seating density and station flow",
+      "meaningVi": "Hệ thống metro Seoul, vốn đã thử nghiệm cẩn thận với mật độ ghế và lưu lượng nhà ga"
+    },
+    {
+      "phrase": "Nobody is arguing that station benches should be sofas",
+      "meaningVi": "Không ai đang lập luận rằng ghế nhà ga nên là ghế sô-pha"
+    },
+    {
+      "phrase": "the line between functional firmness and engineered cruelty is not difficult to draw",
+      "meaningVi": "ranh giới giữa sự cứng vừa phải có chức năng và sự tàn nhẫn được thiết kế kỹ thuật không khó vạch ra"
+    },
+    {
+      "phrase": "They reflect a decision about which passengers are imagined as legitimate users of the station",
+      "meaningVi": "Chúng phản ánh một quyết định về việc hành khách nào được hình dung là người sử dụng hợp pháp của nhà ga"
+    },
+    {
+      "phrase": "the people displaced by hostile transit design are often, in the strict sense, not paying customers of the system",
+      "meaningVi": "những người bị buộc phải rời đi bởi thiết kế giao thông thù địch thường, theo nghĩa nghiêm ngặt, không phải là khách hàng trả tiền của hệ thống"
+    },
+    {
+      "phrase": "the assumption that public transit serves only those who hold a current fare is a narrow one",
+      "meaningVi": "giả định rằng giao thông công cộng chỉ phục vụ những người đang giữ vé hiện hành là một giả định hẹp hòi"
+    },
+    {
+      "phrase": "A station that drives certain people away has not solved a problem; it has merely moved it somewhere with less surveillance and less shelter",
+      "meaningVi": "Một nhà ga đẩy một số người đi xa không hề giải quyết một vấn đề; nó chỉ đơn giản là chuyển vấn đề đó đến nơi có ít sự giám sát và ít chỗ trú hơn"
+    },
+    {
+      "phrase": "What a humane transit system understands is that physical comfort is one of the cheapest forms of civic respect on offer",
+      "meaningVi": "Điều mà một hệ thống giao thông nhân văn hiểu là sự thoải mái về thể chất là một trong những hình thức tôn trọng dân sự rẻ nhất mà người ta có thể cung cấp"
+    },
+    {
+      "phrase": "A slightly softer bench, a slightly warmer light, a slightly less aggressive bend in the metal",
+      "meaningVi": "Một cái ghế hơi mềm hơn một chút, một ánh sáng hơi ấm hơn một chút, một độ cong hơi ít hung hăng hơn một chút trên kim loại"
+    },
+    {
+      "phrase": "they communicate clearly that the passenger, whoever they are, is welcome to exist in the building",
+      "meaningVi": "chúng truyền đạt rõ ràng rằng hành khách, bất kể họ là ai, được chào đón tồn tại trong tòa nhà"
+    },
+    {
+      "phrase": "anti-loitering design",
+      "meaningVi": "thiết kế chống tụ tập / nán lại"
+    },
+    {
+      "phrase": "hostile architecture",
+      "meaningVi": "kiến trúc thù địch (thiết kế để ngăn ai đó ở lại)"
+    }
   ],
   "sampleGrammarNotes": [
     {

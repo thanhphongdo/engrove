@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "On the ethics of charisma in institutions that need quiet labor",
   "summary": "Examine how charisma functions as a form of informal power inside organizations, and argue that its rewards distort the recognition of slower, less visible contributions.",
-  "tags": ["Argument", "Ethics", "Institutions"],
+  "tags": [
+    "Argument",
+    "Ethics",
+    "Institutions"
+  ],
   "topic": "How charismatic individuals extract disproportionate recognition from institutions built on unglamorous work",
   "prompt": "Write a 600–800-word argumentative essay exploring whether charisma in institutional settings is a form of extractive advantage — one that draws credit toward visible performers and away from those whose work sustains the institution quietly. Use at least two specific examples from different national or sectoral contexts (e.g. hospital consultants and ward nurses, university star professors and administrative staff, or NGO figureheads and field coordinators). Deploy inversion at least once, a cleft sentence, and a 'granted… even so…' concession. Avoid generic praise of 'humble workers'; make a structural argument.",
   "minWords": 600,
@@ -14,51 +18,181 @@
     "Granted, some degree of visible leadership is necessary for institutional coherence. Even so,…"
   ],
   "hintVocab": [
-    {"phrase": "extractive advantage", "meaningVi": "lợi thế mang tính khai thác"},
-    {"phrase": "charisma", "meaningVi": "sức hút cá nhân, sức lôi cuốn", "pronunciation": "/kəˈrɪzmə/"},
-    {"phrase": "unglamorous", "meaningVi": "không hào nhoáng, thiếu hấp dẫn", "pronunciation": "/ʌnˈɡlæmərəs/"},
-    {"phrase": "attribution bias", "meaningVi": "thiên kiến quy gán"},
-    {"phrase": "institutional credit", "meaningVi": "tín dụng thể chế, sự ghi nhận trong tổ chức"},
-    {"phrase": "figuration", "meaningVi": "sự đại diện biểu tượng", "pronunciation": "/ˌfɪɡjʊˈreɪʃən/"},
-    {"phrase": "sustaining labor", "meaningVi": "lao động duy trì hệ thống"},
-    {"phrase": "visibility premium", "meaningVi": "phần thưởng cho sự nổi bật"},
-    {"phrase": "performative leadership", "meaningVi": "lãnh đạo mang tính trình diễn"},
-    {"phrase": "diffuse contribution", "meaningVi": "đóng góp lan tỏa, không rõ ràng"},
-    {"phrase": "moral hazard", "meaningVi": "nguy cơ đạo đức", "pronunciation": "/ˈmɒrəl ˈhæzəd/"},
-    {"phrase": "misattribution", "meaningVi": "sự quy gán sai lầm"},
-    {"phrase": "organizational ecology", "meaningVi": "sinh thái tổ chức"},
-    {"phrase": "recognition gap", "meaningVi": "khoảng cách về sự ghi nhận"},
-    {"phrase": "prestige economy", "meaningVi": "nền kinh tế uy tín"},
-    {"phrase": "structural invisibility", "meaningVi": "tính vô hình về mặt cấu trúc"},
-    {"phrase": "tacit knowledge", "meaningVi": "kiến thức ngầm, không được phát biểu"},
-    {"phrase": "coordinating function", "meaningVi": "chức năng điều phối"},
-    {"phrase": "reputational asymmetry", "meaningVi": "sự bất đối xứng về danh tiếng"},
-    {"phrase": "quiet competence", "meaningVi": "năng lực thầm lặng"},
-    {"phrase": "institutional dependency", "meaningVi": "sự phụ thuộc của tổ chức"}
+    {
+      "phrase": "extractive advantage",
+      "meaningVi": "lợi thế mang tính khai thác"
+    },
+    {
+      "phrase": "charisma",
+      "meaningVi": "sức hút cá nhân, sức lôi cuốn",
+      "pronunciation": "/kəˈrɪzmə/"
+    },
+    {
+      "phrase": "unglamorous",
+      "meaningVi": "không hào nhoáng, thiếu hấp dẫn",
+      "pronunciation": "/ʌnˈɡlæmərəs/"
+    },
+    {
+      "phrase": "attribution bias",
+      "meaningVi": "thiên kiến quy gán"
+    },
+    {
+      "phrase": "institutional credit",
+      "meaningVi": "tín dụng thể chế, sự ghi nhận trong tổ chức"
+    },
+    {
+      "phrase": "figuration",
+      "meaningVi": "sự đại diện biểu tượng",
+      "pronunciation": "/ˌfɪɡjʊˈreɪʃən/"
+    },
+    {
+      "phrase": "sustaining labor",
+      "meaningVi": "lao động duy trì hệ thống"
+    },
+    {
+      "phrase": "visibility premium",
+      "meaningVi": "phần thưởng cho sự nổi bật"
+    },
+    {
+      "phrase": "performative leadership",
+      "meaningVi": "lãnh đạo mang tính trình diễn"
+    },
+    {
+      "phrase": "diffuse contribution",
+      "meaningVi": "đóng góp lan tỏa, không rõ ràng"
+    },
+    {
+      "phrase": "moral hazard",
+      "meaningVi": "nguy cơ đạo đức",
+      "pronunciation": "/ˈmɒrəl ˈhæzəd/"
+    },
+    {
+      "phrase": "misattribution",
+      "meaningVi": "sự quy gán sai lầm"
+    },
+    {
+      "phrase": "organizational ecology",
+      "meaningVi": "sinh thái tổ chức"
+    },
+    {
+      "phrase": "recognition gap",
+      "meaningVi": "khoảng cách về sự ghi nhận"
+    },
+    {
+      "phrase": "prestige economy",
+      "meaningVi": "nền kinh tế uy tín"
+    },
+    {
+      "phrase": "structural invisibility",
+      "meaningVi": "tính vô hình về mặt cấu trúc"
+    },
+    {
+      "phrase": "tacit knowledge",
+      "meaningVi": "kiến thức ngầm, không được phát biểu"
+    },
+    {
+      "phrase": "coordinating function",
+      "meaningVi": "chức năng điều phối"
+    },
+    {
+      "phrase": "reputational asymmetry",
+      "meaningVi": "sự bất đối xứng về danh tiếng"
+    },
+    {
+      "phrase": "quiet competence",
+      "meaningVi": "năng lực thầm lặng"
+    },
+    {
+      "phrase": "institutional dependency",
+      "meaningVi": "sự phụ thuộc của tổ chức"
+    }
   ],
   "sampleText": "Rarely do we examine charisma as a redistributive mechanism — yet inside most institutions, that is precisely what it is. The charismatic figure does not only attract resources; they attract credit, drawing institutional recognition away from those whose contributions are real but unfashionably quiet. This redistribution operates below the level of conscious policy: no one decides to shortchange the ward coordinator in favour of the consultant whose name appears in the hospital's fundraising brochure. It happens because organisations, like individuals, find it easier to assign outcomes to faces than to systems.\n\nConsider the architecture of credit in a large teaching hospital. The senior consultant — often the kind of figure around whom careers orbit, whose pronouncements in ward rounds are received as revelation — accumulates prestige at a rate that bears no proportional relationship to their share of the institution's actual functioning. It is the ward nurses, the pharmacists, the discharge coordinators, and the hospital managers whose daily labor constitutes the infrastructure through which any clinical decision becomes a patient outcome. Yet the consultant's name is on the plaque, the journal article, the bequest. The nurses' names are on rosters. This is not merely an aesthetic injustice; it carries material consequences for pay, promotion, and professional self-conception.\n\nThe same architecture repeats, with variations, in the university. It is precisely the star professor — the one who brings in grants, attracts doctoral students with a personal following, delivers the keynote at international conferences — who has come to stand, in institutional mythology, for what the university is. The administrative coordinators who process visa applications for international students, maintain the timetable that makes seminars possible, and absorb the bureaucratic consequences of every brilliant person's poor planning: these figures are not merely undervalued but structurally invisible. Their labor is the substrate on which charisma performs.\n\nGranted, charisma serves genuine functions in institutional life. The ability to articulate a vision, attract external funding, and represent the organisation in competitive environments is not reducible to vanity. A hospital that cannot recruit because no clinician of standing endorses it, a university that loses postgraduate talent because its faculty are unknown outside their own department — these are real institutional failures. Even so, the capacity to make charisma useful does not require making it extractive. The problem is not that compelling figures receive recognition; it is that recognition is treated as if it were a fixed quantity, and that the charismatic figure's share comes, systematically, at the expense of those doing the coordinating, the remembering, the following-through.\n\nWhat this produces — and here the NGO sector offers a particularly lucid illustration — is a moral hazard at the institutional level. Development organisations whose public identity is anchored in a single figurehead tend, over time, to hollow out the field staff whose local knowledge and relational continuity constitute the organisation's actual competence. When the figurehead departs — through burnout, scandal, or simple career advancement — the organisation discovers that the brand was never the institution; the institution was always the people the brand obscured. Several prominent European humanitarian NGOs have passed through exactly this contraction in the past decade, finding that their capacity to operate in the field did not survive the departure of a charismatic director because the director had never invested in the coordinating infrastructure the field staff represented.\n\nThe corrective is not the abolition of visible leadership but its reframing. An institution that takes seriously the ethics of its own recognition economy will build into its structures explicit mechanisms for crediting diffuse contributions — not because this is sentimentally fair, but because institutional knowledge lives in the people who are not on the stage, and losing them is a form of organisational amnesia from which recovery is slow. Charisma, left unexamined, does not just distort reward; it erodes the quiet competence on which every institution, at bottom, depends.",
   "sampleAnnotations": [
-    {"phrase": "Rarely do we examine charisma as a redistributive mechanism", "meaningVi": "Hiếm khi chúng ta xem xét sức hút cá nhân như một cơ chế phân phối lại"},
-    {"phrase": "that is precisely what it is", "meaningVi": "đó chính xác là những gì nó là"},
-    {"phrase": "unfashionably quiet", "meaningVi": "thầm lặng theo cách không được trọng vọng"},
-    {"phrase": "assign outcomes to faces rather than systems", "meaningVi": "gán kết quả cho gương mặt thay vì hệ thống"},
-    {"phrase": "around whom careers orbit", "meaningVi": "mà sự nghiệp của người khác xoay quanh"},
-    {"phrase": "bears no proportional relationship to their share", "meaningVi": "không có mối quan hệ tỷ lệ với phần đóng góp của họ"},
-    {"phrase": "daily labor constitutes the infrastructure", "meaningVi": "lao động hàng ngày tạo thành cơ sở hạ tầng"},
-    {"phrase": "not merely an aesthetic injustice", "meaningVi": "không chỉ là sự bất công về mặt thẩm mỹ"},
-    {"phrase": "It is precisely the star professor", "meaningVi": "Chính xác là giáo sư ngôi sao"},
-    {"phrase": "structurally invisible", "meaningVi": "vô hình về mặt cấu trúc"},
-    {"phrase": "the substrate on which charisma performs", "meaningVi": "nền tảng mà sức hút cá nhân biểu diễn trên đó"},
-    {"phrase": "Granted, charisma serves genuine functions in institutional life", "meaningVi": "Cứ cho là sức hút cá nhân phục vụ các chức năng thực sự trong đời sống tổ chức"},
-    {"phrase": "Even so, the capacity to make charisma useful does not require making it extractive", "meaningVi": "Dù vậy, khả năng làm cho sức hút cá nhân hữu ích không đòi hỏi phải làm cho nó mang tính khai thác"},
-    {"phrase": "recognition is treated as if it were a fixed quantity", "meaningVi": "sự ghi nhận được xem như một lượng cố định"},
-    {"phrase": "a moral hazard at the institutional level", "meaningVi": "một nguy cơ đạo đức ở cấp độ tổ chức"},
-    {"phrase": "relational continuity", "meaningVi": "tính liên tục trong quan hệ"},
-    {"phrase": "the brand was never the institution", "meaningVi": "thương hiệu không bao giờ là tổ chức"},
-    {"phrase": "the people the brand obscured", "meaningVi": "những người mà thương hiệu che khuất"},
-    {"phrase": "institutional knowledge lives in the people who are not on the stage", "meaningVi": "kiến thức tổ chức sống trong những người không đứng trên sân khấu"},
-    {"phrase": "organisational amnesia", "meaningVi": "chứng mất trí nhớ của tổ chức"},
-    {"phrase": "quiet competence on which every institution, at bottom, depends", "meaningVi": "năng lực thầm lặng mà mọi tổ chức, về căn bản, phụ thuộc vào"}
+    {
+      "phrase": "Rarely do we examine charisma as a redistributive mechanism",
+      "meaningVi": "Hiếm khi chúng ta xem xét sức hút cá nhân như một cơ chế phân phối lại"
+    },
+    {
+      "phrase": "that is precisely what it is",
+      "meaningVi": "đó chính xác là những gì nó là"
+    },
+    {
+      "phrase": "unfashionably quiet",
+      "meaningVi": "thầm lặng theo cách không được trọng vọng"
+    },
+    {
+      "phrase": "assign outcomes to faces",
+      "meaningVi": "gán kết quả cho gương mặt thay vì hệ thống"
+    },
+    {
+      "phrase": "around whom careers orbit",
+      "meaningVi": "mà sự nghiệp của người khác xoay quanh"
+    },
+    {
+      "phrase": "bears no proportional relationship to their share",
+      "meaningVi": "không có mối quan hệ tỷ lệ với phần đóng góp của họ"
+    },
+    {
+      "phrase": "daily labor constitutes the infrastructure",
+      "meaningVi": "lao động hàng ngày tạo thành cơ sở hạ tầng"
+    },
+    {
+      "phrase": "not merely an aesthetic injustice",
+      "meaningVi": "không chỉ là sự bất công về mặt thẩm mỹ"
+    },
+    {
+      "phrase": "It is precisely the star professor",
+      "meaningVi": "Chính xác là giáo sư ngôi sao"
+    },
+    {
+      "phrase": "structurally invisible",
+      "meaningVi": "vô hình về mặt cấu trúc"
+    },
+    {
+      "phrase": "the substrate on which charisma performs",
+      "meaningVi": "nền tảng mà sức hút cá nhân biểu diễn trên đó"
+    },
+    {
+      "phrase": "Granted, charisma serves genuine functions in institutional life",
+      "meaningVi": "Cứ cho là sức hút cá nhân phục vụ các chức năng thực sự trong đời sống tổ chức"
+    },
+    {
+      "phrase": "Even so, the capacity to make charisma useful does not require making it extractive",
+      "meaningVi": "Dù vậy, khả năng làm cho sức hút cá nhân hữu ích không đòi hỏi phải làm cho nó mang tính khai thác"
+    },
+    {
+      "phrase": "recognition is treated as if it were a fixed quantity",
+      "meaningVi": "sự ghi nhận được xem như một lượng cố định"
+    },
+    {
+      "phrase": "a moral hazard at the institutional level",
+      "meaningVi": "một nguy cơ đạo đức ở cấp độ tổ chức"
+    },
+    {
+      "phrase": "relational continuity",
+      "meaningVi": "tính liên tục trong quan hệ"
+    },
+    {
+      "phrase": "the brand was never the institution",
+      "meaningVi": "thương hiệu không bao giờ là tổ chức"
+    },
+    {
+      "phrase": "the people the brand obscured",
+      "meaningVi": "những người mà thương hiệu che khuất"
+    },
+    {
+      "phrase": "institutional knowledge lives in the people who are not on the stage",
+      "meaningVi": "kiến thức tổ chức sống trong những người không đứng trên sân khấu"
+    },
+    {
+      "phrase": "organisational amnesia",
+      "meaningVi": "chứng mất trí nhớ của tổ chức"
+    },
+    {
+      "phrase": "quiet competence on which every institution, at bottom, depends",
+      "meaningVi": "năng lực thầm lặng mà mọi tổ chức, về căn bản, phụ thuộc vào"
+    }
   ],
   "sampleGrammarNotes": [
     {

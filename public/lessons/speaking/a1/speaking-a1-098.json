@@ -1,0 +1,295 @@
+{
+  "id": "speaking-a1-098",
+  "level": "A1",
+  "title": "Booking a Dentist Appointment",
+  "summary": "A patient calls a dental clinic to book a first appointment.",
+  "topic": "dentist appointment",
+  "tags": [
+    "Health",
+    "Services"
+  ],
+  "characters": [
+    "Sarah",
+    "Mike"
+  ],
+  "voices": {
+    "Sarah": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-AriaNeural"
+    },
+    "Mike": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-AndrewNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Mike",
+      "text": "Hello. This is City Dental Clinic."
+    },
+    {
+      "speaker": "Sarah",
+      "text": "Hello. I want to make an appointment."
+    },
+    {
+      "speaker": "Mike",
+      "text": "Is this your first visit?"
+    },
+    {
+      "speaker": "Sarah",
+      "text": "Yes, it is my first visit."
+    },
+    {
+      "speaker": "Mike",
+      "text": "OK. What is your name, please?"
+    },
+    {
+      "speaker": "Sarah",
+      "text": "My name is Sarah Brown."
+    },
+    {
+      "speaker": "Mike",
+      "text": "Thank you, Sarah. Do you have a toothache?"
+    },
+    {
+      "speaker": "Sarah",
+      "text": "Yes, I have a bad toothache."
+    },
+    {
+      "speaker": "Mike",
+      "text": "Can you come on Monday morning?"
+    },
+    {
+      "speaker": "Sarah",
+      "text": "Yes, Monday morning is fine."
+    },
+    {
+      "speaker": "Mike",
+      "text": "Please come at nine o'clock."
+    },
+    {
+      "speaker": "Sarah",
+      "text": "Thank you. See you Monday."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Mike",
+      "text": "Hello. This is City Dental Clinic.",
+      "translationVi": "Xin chào. Đây là Phòng Khám Nha Khoa Thành Phố.",
+      "durationMs": 2640
+    },
+    {
+      "id": "s2",
+      "speaker": "Sarah",
+      "text": "Hello. I want to make an appointment.",
+      "translationVi": "Xin chào. Tôi muốn đặt lịch hẹn.",
+      "durationMs": 3888
+    },
+    {
+      "id": "s3",
+      "speaker": "Mike",
+      "text": "Is this your first visit?",
+      "translationVi": "Đây có phải là lần đầu bạn đến không?",
+      "durationMs": 1488
+    },
+    {
+      "id": "s4",
+      "speaker": "Sarah",
+      "text": "Yes, it is my first visit.",
+      "translationVi": "Vâng, đây là lần đầu tiên tôi đến.",
+      "durationMs": 2904
+    },
+    {
+      "id": "s5",
+      "speaker": "Mike",
+      "text": "OK. What is your name, please?",
+      "translationVi": "Được rồi. Xin cho biết tên của bạn?",
+      "durationMs": 2256
+    },
+    {
+      "id": "s6",
+      "speaker": "Sarah",
+      "text": "My name is Sarah Brown.",
+      "translationVi": "Tên tôi là Sarah Brown.",
+      "durationMs": 2400
+    },
+    {
+      "id": "s7",
+      "speaker": "Mike",
+      "text": "Thank you, Sarah. Do you have a toothache?",
+      "translationVi": "Cảm ơn, Sarah. Bạn có bị đau răng không?",
+      "durationMs": 2328
+    },
+    {
+      "id": "s8",
+      "speaker": "Sarah",
+      "text": "Yes, I have a bad toothache.",
+      "translationVi": "Vâng, tôi bị đau răng nặng.",
+      "durationMs": 2904
+    },
+    {
+      "id": "s9",
+      "speaker": "Mike",
+      "text": "Can you come on Monday morning?",
+      "translationVi": "Bạn có thể đến vào sáng thứ Hai không?",
+      "durationMs": 1656
+    },
+    {
+      "id": "s10",
+      "speaker": "Sarah",
+      "text": "Yes, Monday morning is fine.",
+      "translationVi": "Vâng, sáng thứ Hai được.",
+      "durationMs": 2976
+    },
+    {
+      "id": "s11",
+      "speaker": "Mike",
+      "text": "Please come at nine o'clock.",
+      "translationVi": "Xin hãy đến lúc chín giờ.",
+      "durationMs": 1608
+    },
+    {
+      "id": "s12",
+      "speaker": "Sarah",
+      "text": "Thank you. See you Monday.",
+      "translationVi": "Cảm ơn. Hẹn gặp lại vào thứ Hai.",
+      "durationMs": 3456
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "I want to make …"
+    },
+    {
+      "id": "h2",
+      "text": "I have …"
+    },
+    {
+      "id": "h3",
+      "text": "Can I come …?"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "an appointment",
+      "meaningVi": "một cuộc hẹn",
+      "pronunciation": "/ən əˈpɔɪntmənt/"
+    },
+    {
+      "id": "v2",
+      "phrase": "first visit",
+      "meaningVi": "lần đầu đến khám",
+      "pronunciation": "/fɜːrst ˈvɪzɪt/"
+    },
+    {
+      "id": "v3",
+      "phrase": "a toothache",
+      "meaningVi": "đau răng",
+      "pronunciation": "/ə ˈtuːθeɪk/"
+    },
+    {
+      "id": "v4",
+      "phrase": "Monday morning",
+      "meaningVi": "sáng thứ Hai",
+      "pronunciation": "/ˈmʌndeɪ ˈmɔːrnɪŋ/"
+    },
+    {
+      "id": "v5",
+      "phrase": "nine o'clock",
+      "meaningVi": "chín giờ",
+      "pronunciation": "/naɪn əˈklɒk/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "This is City Dental Clinic",
+      "meaningVi": "Đây là Phòng Khám Nha Khoa Thành Phố",
+      "pronunciation": "/ðɪs ɪz ˈsɪti ˈdɛntəl ˈklɪnɪk/"
+    },
+    {
+      "phrase": "make an appointment",
+      "meaningVi": "đặt lịch hẹn",
+      "pronunciation": "/meɪk ən əˈpɔɪntmənt/"
+    },
+    {
+      "phrase": "first visit",
+      "meaningVi": "lần đầu đến khám",
+      "pronunciation": "/fɜːrst ˈvɪzɪt/"
+    },
+    {
+      "phrase": "What is your name",
+      "meaningVi": "Tên bạn là gì",
+      "pronunciation": "/wɒt ɪz jər neɪm/"
+    },
+    {
+      "phrase": "My name is",
+      "meaningVi": "Tên tôi là",
+      "pronunciation": "/maɪ neɪm ɪz/"
+    },
+    {
+      "phrase": "a toothache",
+      "meaningVi": "đau răng",
+      "pronunciation": "/ə ˈtuːθeɪk/"
+    },
+    {
+      "phrase": "a bad toothache",
+      "meaningVi": "đau răng nặng",
+      "pronunciation": "/ə bæd ˈtuːθeɪk/"
+    },
+    {
+      "phrase": "Monday morning",
+      "meaningVi": "sáng thứ Hai",
+      "pronunciation": "/ˈmʌndeɪ ˈmɔːrnɪŋ/"
+    },
+    {
+      "phrase": "is fine",
+      "meaningVi": "được, ổn",
+      "pronunciation": "/ɪz faɪn/"
+    },
+    {
+      "phrase": "nine o'clock",
+      "meaningVi": "chín giờ",
+      "pronunciation": "/naɪn əˈklɒk/"
+    },
+    {
+      "phrase": "See you Monday",
+      "meaningVi": "Hẹn gặp lại vào thứ Hai",
+      "pronunciation": "/siː juː ˈmʌndeɪ/"
+    },
+    {
+      "phrase": "Can you come",
+      "meaningVi": "Bạn có thể đến",
+      "pronunciation": "/kæn juː kʌm/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "'Is this your first …?' — Yes/No questions",
+      "bodyVi": "Câu hỏi Yes/No bắt đầu bằng động từ 'to be'. Ví dụ: 'Is this your first visit?' (Đây có phải là lần đầu bạn đến không?) Trả lời: 'Yes, it is.' hoặc 'No, it is not.'",
+      "bodyEn": "Yes/No questions with 'to be' start with the verb. Example: 'Is this your first visit?' Answer: 'Yes, it is.' or 'No, it is not.'"
+    },
+    {
+      "title": "Days of the week",
+      "bodyVi": "Các ngày trong tuần viết hoa chữ đầu trong tiếng Anh: Monday (thứ Hai), Tuesday (thứ Ba), Wednesday (thứ Tư), Thursday (thứ Năm), Friday (thứ Sáu), Saturday (thứ Bảy), Sunday (Chủ Nhật).",
+      "bodyEn": "Days of the week are always capitalized in English: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday."
+    }
+  ],
+  "translationVi": "Mike: Xin chào. Đây là Phòng Khám Nha Khoa Thành Phố. / Sarah: Xin chào. Tôi muốn đặt lịch hẹn. / Mike: Đây có phải là lần đầu bạn đến không? / Sarah: Vâng, đây là lần đầu tiên tôi đến. / Mike: Được rồi. Xin cho biết tên của bạn? / Sarah: Tên tôi là Sarah Brown. / Mike: Cảm ơn, Sarah. Bạn có bị đau răng không? / Sarah: Vâng, tôi bị đau răng nặng. / Mike: Bạn có thể đến vào sáng thứ Hai không? / Sarah: Vâng, sáng thứ Hai được. / Mike: Xin hãy đến lúc chín giờ. / Sarah: Cảm ơn. Hẹn gặp lại vào thứ Hai.",
+  "criticalThinkingQuestion": "What information do you think a clinic needs when you book an appointment, and why?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-a1-098",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 30504
+}

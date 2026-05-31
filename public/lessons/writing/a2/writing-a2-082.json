@@ -3,7 +3,12 @@
   "level": "A2",
   "title": "The ferry at sunrise in Istanbul",
   "summary": "A short description of an early morning ferry ride across a city's water.",
-  "tags": ["Description", "Past simple", "Travel", "Morning"],
+  "tags": [
+    "Description",
+    "Past simple",
+    "Travel",
+    "Morning"
+  ],
   "topic": "The ferry at sunrise in Istanbul",
   "prompt": "Write 8–10 sentences (150–250 words) about a ferry, bus, train, or tram ride at a specific time of day in another city. Describe the light, the people, and what the city looked like. Use past simple and past continuous.",
   "minWords": 150,
@@ -14,31 +19,108 @@
     "An old man next to me was already drinking…"
   ],
   "hintVocab": [
-    { "phrase": "ferry", "meaningVi": "phà", "pronunciation": "/ˈferi/" },
-    { "phrase": "sunrise", "meaningVi": "bình minh", "pronunciation": "/ˈsʌnraɪz/" },
-    { "phrase": "deck", "meaningVi": "boong tàu", "pronunciation": "/dek/" },
-    { "phrase": "seagull", "meaningVi": "chim hải âu", "pronunciation": "/ˈsiːɡʌl/" },
-    { "phrase": "bridge", "meaningVi": "cầu", "pronunciation": "/brɪdʒ/" },
-    { "phrase": "tea", "meaningVi": "trà", "pronunciation": "/tiː/" },
-    { "phrase": "engine", "meaningVi": "động cơ", "pronunciation": "/ˈendʒɪn/" },
-    { "phrase": "horn", "meaningVi": "còi", "pronunciation": "/hɔːrn/" },
-    { "phrase": "commuter", "meaningVi": "người đi làm hằng ngày", "pronunciation": "/kəˈmjuːtər/" },
-    { "phrase": "shore", "meaningVi": "bờ", "pronunciation": "/ʃɔːr/" },
-    { "phrase": "gold", "meaningVi": "vàng kim", "pronunciation": "/ɡoʊld/" }
+    {
+      "phrase": "ferry",
+      "meaningVi": "phà",
+      "pronunciation": "/ˈferi/"
+    },
+    {
+      "phrase": "sunrise",
+      "meaningVi": "bình minh",
+      "pronunciation": "/ˈsʌnraɪz/"
+    },
+    {
+      "phrase": "deck",
+      "meaningVi": "boong tàu",
+      "pronunciation": "/dek/"
+    },
+    {
+      "phrase": "seagull",
+      "meaningVi": "chim hải âu",
+      "pronunciation": "/ˈsiːɡʌl/"
+    },
+    {
+      "phrase": "bridge",
+      "meaningVi": "cầu",
+      "pronunciation": "/brɪdʒ/"
+    },
+    {
+      "phrase": "tea",
+      "meaningVi": "trà",
+      "pronunciation": "/tiː/"
+    },
+    {
+      "phrase": "engine",
+      "meaningVi": "động cơ",
+      "pronunciation": "/ˈendʒɪn/"
+    },
+    {
+      "phrase": "horn",
+      "meaningVi": "còi",
+      "pronunciation": "/hɔːrn/"
+    },
+    {
+      "phrase": "commuter",
+      "meaningVi": "người đi làm hằng ngày",
+      "pronunciation": "/kəˈmjuːtər/"
+    },
+    {
+      "phrase": "shore",
+      "meaningVi": "bờ",
+      "pronunciation": "/ʃɔːr/"
+    },
+    {
+      "phrase": "gold",
+      "meaningVi": "vàng kim",
+      "pronunciation": "/ɡoʊld/"
+    }
   ],
   "sampleText": "On my last morning in Istanbul, I caught the six-fifteen ferry from Karaköy to Kadıköy. The sky was still half dark when I bought my token, and the water was the colour of cold tea. I climbed up to the open deck because I wanted to see the city change colour from the middle of the Bosphorus. Only about twenty other passengers were on board, mostly commuters in dark coats. An old man next to me was already drinking small glass of black tea from the man with the tray. While the ferry was pulling away from the pier, the first orange light hit the Galata Tower and turned its top into a small gold candle. Seagulls flew very close to the upper deck, almost touching my hat. A young woman across from me was reading a thick novel in Turkish without ever looking up. We passed two other ferries going the opposite way, and each one sounded its horn once, like a slow polite greeting. Twenty-two minutes later, the engine slowed and the ferry slid against the Kadıköy pier. I stepped off into a city that had become bright while I was crossing it. I have caught early ferries in three other cities since, but never one that felt like that.",
   "sampleAnnotations": [
-    { "phrase": "I caught the six-fifteen ferry from Karaköy to Kadıköy", "meaningVi": "Tôi đón chuyến phà sáu giờ mười lăm từ Karaköy đến Kadıköy" },
-    { "phrase": "The sky was still half dark", "meaningVi": "Bầu trời vẫn còn nửa tối" },
-    { "phrase": "the water was the colour of cold tea", "meaningVi": "nước mang màu trà nguội" },
-    { "phrase": "I climbed up to the open deck", "meaningVi": "Tôi trèo lên boong mở" },
-    { "phrase": "mostly commuters in dark coats", "meaningVi": "chủ yếu là người đi làm trong áo khoác sẫm màu" },
-    { "phrase": "While the ferry was pulling away from the pier", "meaningVi": "Trong khi chiếc phà đang rời khỏi cầu cảng" },
-    { "phrase": "the first orange light hit the Galata Tower", "meaningVi": "tia sáng cam đầu tiên chiếu vào tháp Galata" },
-    { "phrase": "turned its top into a small gold candle", "meaningVi": "biến đỉnh tháp thành một ngọn nến vàng nhỏ" },
-    { "phrase": "Seagulls flew very close to the upper deck", "meaningVi": "Hải âu bay rất gần boong trên" },
-    { "phrase": "We passed two other ferries going the opposite way", "meaningVi": "Chúng tôi đi ngang hai chiếc phà khác đi ngược chiều" },
-    { "phrase": "a city that had become bright while I was crossing it", "meaningVi": "một thành phố đã trở nên sáng trong khi tôi đang băng qua nó" }
+    {
+      "phrase": "I caught the six-fifteen ferry from Karaköy to Kadıköy",
+      "meaningVi": "Tôi đón chuyến phà sáu giờ mười lăm từ Karaköy đến Kadıköy"
+    },
+    {
+      "phrase": "The sky was still half dark",
+      "meaningVi": "Bầu trời vẫn còn nửa tối"
+    },
+    {
+      "phrase": "the water was the colour of cold tea",
+      "meaningVi": "nước mang màu trà nguội"
+    },
+    {
+      "phrase": "I climbed up to the open deck",
+      "meaningVi": "Tôi trèo lên boong mở"
+    },
+    {
+      "phrase": "mostly commuters in dark coats",
+      "meaningVi": "chủ yếu là người đi làm trong áo khoác sẫm màu"
+    },
+    {
+      "phrase": "While the ferry was pulling away from the pier",
+      "meaningVi": "Trong khi chiếc phà đang rời khỏi cầu cảng"
+    },
+    {
+      "phrase": "the first orange light hit the Galata Tower",
+      "meaningVi": "tia sáng cam đầu tiên chiếu vào tháp Galata"
+    },
+    {
+      "phrase": "turned its top into a small gold candle",
+      "meaningVi": "biến đỉnh tháp thành một ngọn nến vàng nhỏ"
+    },
+    {
+      "phrase": "Seagulls flew very close to the upper deck",
+      "meaningVi": "Hải âu bay rất gần boong trên"
+    },
+    {
+      "phrase": "We passed two other ferries going the opposite way",
+      "meaningVi": "Chúng tôi đi ngang hai chiếc phà khác đi ngược chiều"
+    },
+    {
+      "phrase": "a city that had become bright while I was crossing it",
+      "meaningVi": "một thành phố đã trở nên sáng trong khi tôi đang băng qua nó"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -58,12 +140,12 @@
       "id": "q1",
       "prompt": "Choose the correct past simple opening.",
       "options": [
-        "On my last morning in Istanbul, I caught the six-fifteen ferry from Karaköy to Kadıköy.",
         "On my last morning in Istanbul, I catch the six-fifteen ferry from Karaköy to Kadıköy.",
         "On my last morning in Istanbul, I am catching the six-fifteen ferry from Karaköy to Kadıköy.",
-        "On my last morning in Istanbul, I have caught the six-fifteen ferry from Karaköy to Kadıköy."
+        "On my last morning in Istanbul, I have caught the six-fifteen ferry from Karaköy to Kadıköy.",
+        "On my last morning in Istanbul, I caught the six-fifteen ferry from Karaköy to Kadıköy."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "Past simple 'caught' (irregular).",
       "hint": "Past simple of 'catch'."
     },
@@ -84,12 +166,12 @@
       "id": "q3",
       "prompt": "What does 'commuter' mean?",
       "options": [
-        "a person who travels regularly between home and work",
         "a tourist on a short trip",
+        "a person who travels regularly between home and work",
         "a person selling tickets",
         "the captain of a boat"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'Commuter' = regular work traveller.",
       "hint": "Travels for work daily."
     },
@@ -97,12 +179,12 @@
       "id": "q4",
       "prompt": "Choose the natural past continuous sentence.",
       "options": [
-        "An old man next to me was already drinking a small glass of black tea.",
         "An old man next to me already drinking a small glass of black tea.",
         "An old man next to me already drink a small glass of black tea.",
+        "An old man next to me was already drinking a small glass of black tea.",
         "An old man next to me is already drinking a small glass of black tea."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "Past continuous 'was drinking' for an ongoing past action; 'already' before main verb.",
       "hint": "Was + already + -ing."
     },
@@ -110,12 +192,12 @@
       "id": "q5",
       "prompt": "Pick the correct past simple sentence about flying birds.",
       "options": [
-        "Seagulls flew very close to the upper deck.",
         "Seagulls flied very close to the upper deck.",
         "Seagulls flying very close to the upper deck.",
-        "Seagulls have flew very close to the upper deck."
+        "Seagulls have flew very close to the upper deck.",
+        "Seagulls flew very close to the upper deck."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "Irregular past: fly → flew.",
       "hint": "Past simple of 'fly'."
     },
@@ -136,12 +218,12 @@
       "id": "q7",
       "prompt": "Choose the correct sentence with 'past + object'.",
       "options": [
-        "We passed two other ferries going the opposite way.",
         "We past two other ferries going the opposite way.",
+        "We passed two other ferries going the opposite way.",
         "We passed two other ferries gone the opposite way.",
         "We are passed two other ferries going the opposite way."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "Past simple verb 'passed' (not the noun/adjective 'past'). Reduced relative 'going' for movement.",
       "hint": "Verb passed (-ed)."
     },
@@ -149,12 +231,12 @@
       "id": "q8",
       "prompt": "Pick the correct past simple sentence with 'sound (one's) horn'.",
       "options": [
-        "Each one sounded its horn once.",
         "Each one sound its horn once.",
         "Each one is sounded its horn once.",
+        "Each one sounded its horn once.",
         "Each one has sound its horn once."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "Past simple 'sounded' (verb) + 'its horn' (possessive).",
       "hint": "Past simple verb + its + noun."
     },
@@ -162,12 +244,12 @@
       "id": "q9",
       "prompt": "Choose the correct past perfect relative clause.",
       "options": [
-        "a city that had become bright while I was crossing it",
         "a city that has become bright while I was crossing it",
         "a city that was become bright while I was crossing it",
-        "a city that had became bright while I was crossing it"
+        "a city that had became bright while I was crossing it",
+        "a city that had become bright while I was crossing it"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "Past perfect 'had become' for a change completed before the past moment; past participle 'become' (same as base).",
       "hint": "Had + become."
     },
@@ -188,12 +270,12 @@
       "id": "q11",
       "prompt": "Choose the most natural closing line.",
       "options": [
-        "Never one that felt like that.",
         "Never one that feel like that.",
+        "Never one that felt like that.",
         "Never one that felt like that one.",
         "Never one which felt like as that."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "Past simple 'felt'; 'like that' is the natural ending phrase.",
       "hint": "Past simple of 'feel' + like that."
     }

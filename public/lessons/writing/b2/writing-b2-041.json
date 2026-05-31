@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "The ethics of inheriting a name you didn't choose",
   "summary": "Argue whether family names — surnames, dynastic titles, or clan identities — carry obligations that an individual is right to accept, question, or reject.",
-  "tags": ["Identity", "Ethics", "Society", "Culture"],
+  "tags": [
+    "Identity",
+    "Ethics",
+    "Society",
+    "Culture"
+  ],
   "topic": "The ethics of inheriting a name you didn't choose",
   "prompt": "Write an argumentative essay (350–500 words) exploring whether the name you inherit at birth — a surname associated with wealth, power, scandal, or cultural identity — creates genuine ethical obligations, or whether each person is morally entitled to define themselves independently of their family's history. Use a cleft sentence, a concession ('Granted, …' or 'Admittedly, …'), at least one passive construction, and a participle clause. Include at least one concrete example (a historical family, a culture's naming tradition, or a known public figure). Take a clear position.",
   "minWords": 350,
@@ -14,50 +19,175 @@
     "Born into a name associated with colonial administration in West Africa or South Asia, a person today faces…"
   ],
   "hintVocab": [
-    { "phrase": "inherited identity", "meaningVi": "bản sắc được thừa kế" },
-    { "phrase": "to bear a name", "meaningVi": "mang một cái tên / chịu đựng một cái tên" },
-    { "phrase": "dynastic obligation", "meaningVi": "nghĩa vụ dòng tộc / triều đại" },
-    { "phrase": "to disavow one's heritage", "meaningVi": "phủ nhận / từ chối di sản của mình", "pronunciation": "/ˌdɪs.əˈvaʊ/" },
-    { "phrase": "complicity by association", "meaningVi": "đồng lõa bởi liên kết / sự liên đới" },
-    { "phrase": "moral burden", "meaningVi": "gánh nặng đạo đức" },
-    { "phrase": "to reckon with a legacy", "meaningVi": "đối mặt / giải quyết với một di sản" },
-    { "phrase": "collective guilt", "meaningVi": "tội lỗi tập thể" },
-    { "phrase": "a patronymic tradition", "meaningVi": "truyền thống đặt tên theo cha", "pronunciation": "/ˌpæt.rəˈnɪm.ɪk/" },
-    { "phrase": "to change one's name legally", "meaningVi": "thay đổi tên của mình theo pháp lý" },
-    { "phrase": "ancestral guilt", "meaningVi": "tội lỗi của tổ tiên" },
-    { "phrase": "to reclaim a name", "meaningVi": "lấy lại / khẳng định lại một cái tên" },
-    { "phrase": "ethnic patronym", "meaningVi": "tên họ / họ tộc dân tộc" },
-    { "phrase": "intergenerational responsibility", "meaningVi": "trách nhiệm giữa các thế hệ" },
-    { "phrase": "to carry the weight of", "meaningVi": "mang gánh nặng của" },
-    { "phrase": "reputational inheritance", "meaningVi": "thừa kế danh tiếng" },
-    { "phrase": "to be held accountable for", "meaningVi": "bị quy trách nhiệm về" },
-    { "phrase": "clan identity", "meaningVi": "bản sắc thị tộc / bộ tộc" },
-    { "phrase": "to shed one's surname", "meaningVi": "từ bỏ họ của mình" },
-    { "phrase": "civic reckoning", "meaningVi": "sự giải trình / đối mặt với trách nhiệm công dân" },
-    { "phrase": "to be born into privilege", "meaningVi": "được sinh ra trong đặc quyền" }
+    {
+      "phrase": "inherited identity",
+      "meaningVi": "bản sắc được thừa kế"
+    },
+    {
+      "phrase": "to bear a name",
+      "meaningVi": "mang một cái tên / chịu đựng một cái tên"
+    },
+    {
+      "phrase": "dynastic obligation",
+      "meaningVi": "nghĩa vụ dòng tộc / triều đại"
+    },
+    {
+      "phrase": "to disavow one's heritage",
+      "meaningVi": "phủ nhận / từ chối di sản của mình",
+      "pronunciation": "/ˌdɪs.əˈvaʊ/"
+    },
+    {
+      "phrase": "complicity by association",
+      "meaningVi": "đồng lõa bởi liên kết / sự liên đới"
+    },
+    {
+      "phrase": "moral burden",
+      "meaningVi": "gánh nặng đạo đức"
+    },
+    {
+      "phrase": "to reckon with a legacy",
+      "meaningVi": "đối mặt / giải quyết với một di sản"
+    },
+    {
+      "phrase": "collective guilt",
+      "meaningVi": "tội lỗi tập thể"
+    },
+    {
+      "phrase": "a patronymic tradition",
+      "meaningVi": "truyền thống đặt tên theo cha",
+      "pronunciation": "/ˌpæt.rəˈnɪm.ɪk/"
+    },
+    {
+      "phrase": "to change one's name legally",
+      "meaningVi": "thay đổi tên của mình theo pháp lý"
+    },
+    {
+      "phrase": "ancestral guilt",
+      "meaningVi": "tội lỗi của tổ tiên"
+    },
+    {
+      "phrase": "to reclaim a name",
+      "meaningVi": "lấy lại / khẳng định lại một cái tên"
+    },
+    {
+      "phrase": "ethnic patronym",
+      "meaningVi": "tên họ / họ tộc dân tộc"
+    },
+    {
+      "phrase": "intergenerational responsibility",
+      "meaningVi": "trách nhiệm giữa các thế hệ"
+    },
+    {
+      "phrase": "to carry the weight of",
+      "meaningVi": "mang gánh nặng của"
+    },
+    {
+      "phrase": "reputational inheritance",
+      "meaningVi": "thừa kế danh tiếng"
+    },
+    {
+      "phrase": "to be held accountable for",
+      "meaningVi": "bị quy trách nhiệm về"
+    },
+    {
+      "phrase": "clan identity",
+      "meaningVi": "bản sắc thị tộc / bộ tộc"
+    },
+    {
+      "phrase": "to shed one's surname",
+      "meaningVi": "từ bỏ họ của mình"
+    },
+    {
+      "phrase": "civic reckoning",
+      "meaningVi": "sự giải trình / đối mặt với trách nhiệm công dân"
+    },
+    {
+      "phrase": "to be born into privilege",
+      "meaningVi": "được sinh ra trong đặc quyền"
+    }
   ],
   "sampleText": "A name given at birth is rarely a neutral gift. It arrives loaded with whatever the family before you has done, built, destroyed, or been blamed for. The question of what a person owes to — or because of — that name is one that societies answer differently, and one that individuals increasingly feel entitled to answer for themselves.\n\nThe clearest case for inherited obligation comes from histories of unrepaired harm. Families that accumulated wealth through plantation slavery in the Caribbean, or through colonial land seizure in Kenya or Australia, passed on assets built on violence. Children born into those families did not commit those acts. Yet they benefit from them in ways that are concrete and traceable: the ancestral home, the investment portfolio, the educational advantage. Being born into privilege of this kind does not transfer guilt, but it does, I would argue, transfer responsibility — the responsibility to at least acknowledge what the name was built on, and to consider what acknowledgement might require in practice.\n\nAdmittedly, demanding that individuals carry the weight of ancestors they never met is a position that can quickly become unreasonable. A young woman in Germany whose grandfather served in the Nazi administration did not choose her surname, cannot undo what was done, and should not be condemned for a name she inherited before she was capable of any choice at all. Collective guilt, when applied indiscriminately, punishes the innocent and tends to produce defensive silence rather than genuine reckoning.\n\nEven so, what the name carries is not only guilt — it also carries information. In South Korea, certain surnames signal descent from Joseon-era yangban aristocracy, and families bearing those names have traditionally enjoyed educational advantages that were denied to others on the basis of birth. Being aware of that history is not the same as accepting blame for it; but it is the minimum that honest self-knowledge requires. Pretending the name is just a label — a convenient tag with no social weight — is a form of wilful blindness.\n\nGranted, no one can be legally compelled to reckon with an ancestor. The ethics here are not about law. They are about the kind of person one chooses to be when confronted with a history that benefits or burdens one's present life. To disavow a name entirely — to change it and walk away — is one coherent response. To keep it and use the platform it provides to repair something is another. What is harder to justify is wearing the name's advantages while pretending its history is someone else's problem.",
   "sampleAnnotations": [
-    { "phrase": "A name given at birth is rarely a neutral gift", "meaningVi": "Một cái tên được đặt khi sinh ra hiếm khi là một món quà trung lập" },
-    { "phrase": "It arrives loaded with whatever the family before you has done, built, destroyed, or been blamed for", "meaningVi": "Nó đến kèm theo bất cứ điều gì gia đình trước bạn đã làm, xây dựng, phá hủy, hoặc bị đổ lỗi" },
-    { "phrase": "Children born into those families did not commit those acts", "meaningVi": "Những đứa trẻ sinh ra trong những gia đình đó đã không thực hiện những hành động đó" },
-    { "phrase": "they benefit from them in ways that are concrete and traceable", "meaningVi": "họ được hưởng lợi từ chúng theo những cách cụ thể và có thể truy tìm được" },
-    { "phrase": "the ancestral home, the investment portfolio, the educational advantage", "meaningVi": "ngôi nhà tổ tiên, danh mục đầu tư, lợi thế giáo dục" },
-    { "phrase": "Being born into privilege of this kind does not transfer guilt, but it does transfer responsibility", "meaningVi": "Được sinh ra trong đặc quyền loại này không chuyển giao tội lỗi, nhưng nó chuyển giao trách nhiệm" },
-    { "phrase": "the responsibility to at least acknowledge what the name was built on", "meaningVi": "trách nhiệm ít nhất là thừa nhận cái tên đó được xây dựng trên nền tảng gì" },
-    { "phrase": "Admittedly, demanding that individuals carry the weight of ancestors they never met is a position that can quickly become unreasonable", "meaningVi": "Thừa nhận rằng, yêu cầu các cá nhân mang gánh nặng của tổ tiên mà họ chưa bao giờ gặp là một lập trường có thể nhanh chóng trở nên phi lý" },
-    { "phrase": "A young woman in Germany whose grandfather served in the Nazi administration", "meaningVi": "Một người phụ nữ trẻ ở Đức mà ông nội của cô ấy phục vụ trong chính quyền Đức Quốc Xã" },
-    { "phrase": "condemned for a name she inherited before she was capable of any choice at all", "meaningVi": "bị lên án vì một cái tên cô ấy thừa hưởng trước khi cô ấy có khả năng lựa chọn bất kỳ điều gì" },
-    { "phrase": "Collective guilt, when applied indiscriminately, punishes the innocent", "meaningVi": "Tội lỗi tập thể, khi được áp dụng không phân biệt, trừng phạt người vô tội" },
-    { "phrase": "tends to produce defensive silence rather than genuine reckoning", "meaningVi": "có xu hướng tạo ra sự im lặng phòng thủ thay vì sự giải trình thực sự" },
-    { "phrase": "what the name carries is not only guilt — it also carries information", "meaningVi": "những gì cái tên mang theo không chỉ là tội lỗi — nó còn mang theo thông tin" },
-    { "phrase": "certain surnames signal descent from Joseon-era yangban aristocracy", "meaningVi": "một số họ nhất định báo hiệu dòng dõi từ tầng lớp quý tộc yangban thời Joseon" },
-    { "phrase": "families bearing those names have traditionally enjoyed educational advantages that were denied to others on the basis of birth", "meaningVi": "các gia đình mang những cái tên đó truyền thống đã được hưởng lợi thế giáo dục mà những người khác bị từ chối dựa trên cơ sở dòng dõi" },
-    { "phrase": "Being aware of that history is not the same as accepting blame for it", "meaningVi": "Nhận thức được lịch sử đó không giống như chấp nhận trách nhiệm về nó" },
-    { "phrase": "Pretending the name is just a label — a convenient tag with no social weight — is a form of wilful blindness", "meaningVi": "Giả vờ cái tên chỉ là một nhãn hiệu — một thẻ tiện lợi không có trọng lượng xã hội — là một hình thức mù quáng có chủ ý" },
-    { "phrase": "no one can be legally compelled to reckon with an ancestor", "meaningVi": "không ai có thể bị ép buộc về mặt pháp lý phải đối mặt với một tổ tiên" },
-    { "phrase": "wearing the name's advantages while pretending its history is someone else's problem", "meaningVi": "hưởng lợi từ những ưu điểm của cái tên trong khi giả vờ lịch sử của nó là vấn đề của người khác" },
-    { "phrase": "To keep it and use the platform it provides to repair something is another", "meaningVi": "Giữ lại nó và sử dụng nền tảng mà nó cung cấp để sửa chữa điều gì đó là một lựa chọn khác" }
+    {
+      "phrase": "A name given at birth is rarely a neutral gift",
+      "meaningVi": "Một cái tên được đặt khi sinh ra hiếm khi là một món quà trung lập"
+    },
+    {
+      "phrase": "It arrives loaded with whatever the family before you has done, built, destroyed, or been blamed for",
+      "meaningVi": "Nó đến kèm theo bất cứ điều gì gia đình trước bạn đã làm, xây dựng, phá hủy, hoặc bị đổ lỗi"
+    },
+    {
+      "phrase": "Children born into those families did not commit those acts",
+      "meaningVi": "Những đứa trẻ sinh ra trong những gia đình đó đã không thực hiện những hành động đó"
+    },
+    {
+      "phrase": "they benefit from them in ways that are concrete and traceable",
+      "meaningVi": "họ được hưởng lợi từ chúng theo những cách cụ thể và có thể truy tìm được"
+    },
+    {
+      "phrase": "the ancestral home, the investment portfolio, the educational advantage",
+      "meaningVi": "ngôi nhà tổ tiên, danh mục đầu tư, lợi thế giáo dục"
+    },
+    {
+      "phrase": "Being born into privilege of this kind does not transfer guilt, but it does",
+      "meaningVi": "Được sinh ra trong đặc quyền loại này không chuyển giao tội lỗi, nhưng nó chuyển giao trách nhiệm"
+    },
+    {
+      "phrase": "the responsibility to at least acknowledge what the name was built on",
+      "meaningVi": "trách nhiệm ít nhất là thừa nhận cái tên đó được xây dựng trên nền tảng gì"
+    },
+    {
+      "phrase": "Admittedly, demanding that individuals carry the weight of ancestors they never met is a position that can quickly become unreasonable",
+      "meaningVi": "Thừa nhận rằng, yêu cầu các cá nhân mang gánh nặng của tổ tiên mà họ chưa bao giờ gặp là một lập trường có thể nhanh chóng trở nên phi lý"
+    },
+    {
+      "phrase": "A young woman in Germany whose grandfather served in the Nazi administration",
+      "meaningVi": "Một người phụ nữ trẻ ở Đức mà ông nội của cô ấy phục vụ trong chính quyền Đức Quốc Xã"
+    },
+    {
+      "phrase": "condemned for a name she inherited before she was capable of any choice at all",
+      "meaningVi": "bị lên án vì một cái tên cô ấy thừa hưởng trước khi cô ấy có khả năng lựa chọn bất kỳ điều gì"
+    },
+    {
+      "phrase": "Collective guilt, when applied indiscriminately, punishes the innocent",
+      "meaningVi": "Tội lỗi tập thể, khi được áp dụng không phân biệt, trừng phạt người vô tội"
+    },
+    {
+      "phrase": "tends to produce defensive silence rather than genuine reckoning",
+      "meaningVi": "có xu hướng tạo ra sự im lặng phòng thủ thay vì sự giải trình thực sự"
+    },
+    {
+      "phrase": "what the name carries is not only guilt — it also carries information",
+      "meaningVi": "những gì cái tên mang theo không chỉ là tội lỗi — nó còn mang theo thông tin"
+    },
+    {
+      "phrase": "certain surnames signal descent from Joseon-era yangban aristocracy",
+      "meaningVi": "một số họ nhất định báo hiệu dòng dõi từ tầng lớp quý tộc yangban thời Joseon"
+    },
+    {
+      "phrase": "families bearing those names have traditionally enjoyed educational advantages that were denied to others on the basis of birth",
+      "meaningVi": "các gia đình mang những cái tên đó truyền thống đã được hưởng lợi thế giáo dục mà những người khác bị từ chối dựa trên cơ sở dòng dõi"
+    },
+    {
+      "phrase": "Being aware of that history is not the same as accepting blame for it",
+      "meaningVi": "Nhận thức được lịch sử đó không giống như chấp nhận trách nhiệm về nó"
+    },
+    {
+      "phrase": "Pretending the name is just a label — a convenient tag with no social weight — is a form of wilful blindness",
+      "meaningVi": "Giả vờ cái tên chỉ là một nhãn hiệu — một thẻ tiện lợi không có trọng lượng xã hội — là một hình thức mù quáng có chủ ý"
+    },
+    {
+      "phrase": "no one can be legally compelled to reckon with an ancestor",
+      "meaningVi": "không ai có thể bị ép buộc về mặt pháp lý phải đối mặt với một tổ tiên"
+    },
+    {
+      "phrase": "wearing the name's advantages while pretending its history is someone else's problem",
+      "meaningVi": "hưởng lợi từ những ưu điểm của cái tên trong khi giả vờ lịch sử của nó là vấn đề của người khác"
+    },
+    {
+      "phrase": "To keep it and use the platform it provides to repair something is another",
+      "meaningVi": "Giữ lại nó và sử dụng nền tảng mà nó cung cấp để sửa chữa điều gì đó là một lựa chọn khác"
+    }
   ],
   "sampleGrammarNotes": [
     {

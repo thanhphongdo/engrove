@@ -137,11 +137,6 @@
       "exampleEn": "The interviewer asked a perceptive question that the candidate hadn't prepared for."
     },
     {
-      "phrase": "structural problem",
-      "meaningVi": "vấn đề mang tính cấu trúc, vấn đề gắn liền với hệ thống chứ không phải cá nhân",
-      "exampleEn": "High rents are a structural problem that won't be solved by individual choices."
-    },
-    {
       "phrase": "scrape by",
       "meaningVi": "sống tằn tiện, vừa đủ sống",
       "pronunciation": "/skreɪp baɪ/",
@@ -166,12 +161,6 @@
       "phrase": "defeat the purpose",
       "meaningVi": "phá vỡ mục đích ban đầu, làm ngược lại điều muốn đạt được",
       "exampleEn": "Taking out a loan to pay off a smaller debt would defeat the purpose."
-    },
-    {
-      "phrase": "close-knit community",
-      "meaningVi": "cộng đồng gắn kết chặt chẽ",
-      "pronunciation": "/ˌkloʊsˈnɪt/",
-      "exampleEn": "She thrived in the close-knit community of her village primary school."
     },
     {
       "phrase": "displaced",
@@ -224,11 +213,11 @@
       "prompt": "Why does the mother say she wants to have the conversation properly rather than in passing?",
       "options": [
         "She is worried the father has already decided without consulting anyone",
-        "She wants all three family members to think through what the move would mean for each of them",
         "She needs to make a decision within the week due to a property deadline",
-        "She is preparing Zoe for an announcement that has already been made"
+        "She is preparing Zoe for an announcement that has already been made",
+        "She wants all three family members to think through what the move would mean for each of them"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The mother says: 'I want us to talk properly about the Portugal idea — not just in passing, but actually sit down and think through what it would mean for all three of us.'",
       "hint": "The mother is explicit about wanting to include all perspectives."
     },
@@ -236,12 +225,12 @@
       "id": "q2",
       "prompt": "What key change in their working lives does the father say makes the move possible?",
       "options": [
-        "He has been offered a job based in Portugal with a higher salary",
         "Both parents now work remotely and are not tied to a specific location",
+        "He has been offered a job based in Portugal with a higher salary",
         "They have saved enough to live for a year without working",
         "Their employer has opened an office in Lisbon they can transfer to"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The father says: 'with both of us working remotely now, we're not tied to a location the way we were.'",
       "hint": "The reason is about flexibility in where they work."
     },
@@ -263,11 +252,11 @@
       "prompt": "What argument does the father make using something Zoe has previously said?",
       "options": [
         "She once expressed a desire to learn Portuguese",
-        "She has said she wants to study in Europe eventually",
         "She mentioned wanting a lower-pressure academic environment",
+        "She has said she wants to study in Europe eventually",
         "She expressed interest in spending a gap year abroad"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The father says: 'you've also said yourself that you'd like to study in Europe eventually.'",
       "hint": "The father refers to a statement Zoe herself made before this conversation."
     },
@@ -276,11 +265,11 @@
       "prompt": "How does Zoe respond to the language-learning argument for moving?",
       "options": [
         "She says she already speaks basic Portuguese from school",
-        "She argues that learning a language and uprooting her social life are two very different things",
         "She agrees it is a benefit but thinks it can happen through online courses instead",
-        "She says she would prefer to learn another language that is more widely spoken"
+        "She says she would prefer to learn another language that is more widely spoken",
+        "She argues that learning a language and uprooting her social life are two very different things"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "Zoe says: 'Learning a language and uprooting my entire social life are two very different things. You can learn a language without moving countries.'",
       "hint": "Zoe separates the language benefit from the social cost."
     },
@@ -288,12 +277,12 @@
       "id": "q6",
       "prompt": "What challenge does Zoe raise about whether moving actually solves the family's problems?",
       "options": [
-        "She suggests the financial savings will be eaten up by relocation costs",
         "She wonders whether they are running away from problems that might follow them anyway",
+        "She suggests the financial savings will be eaten up by relocation costs",
         "She points out that Portuguese healthcare may not be as good as they believe",
         "She argues that remote work is less stable than a fixed office job"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Zoe asks: 'is moving to another continent really the answer, or is it just running away from problems that might follow you anyway?'",
       "hint": "Zoe questions the premise that relocation solves the underlying issues."
     },
@@ -302,11 +291,11 @@
       "prompt": "How does the father respond to Zoe's question about running away from problems?",
       "options": [
         "He dismisses the question and returns to the financial argument",
-        "He admits all their problems are structural and will follow them",
         "He says some problems would follow them but the financial/housing pressure is structural and would change",
+        "He admits all their problems are structural and will follow them",
         "He agrees it is a valid concern and says they should delay the decision"
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "explanation": "The father says: 'Some problems would follow us and some wouldn't. The financial pressure is structural — it's tied to this specific housing market. That part would actually change.'",
       "hint": "The father distinguishes between problems that are portable and those that are tied to a location."
     },
@@ -315,11 +304,11 @@
       "prompt": "What financial benefit does the mother highlight that would improve the family's long-term situation?",
       "options": [
         "They would qualify for Portuguese government grants for foreign residents",
-        "They would be able to save properly for the first time in years, rather than just scraping by",
         "The father would receive a significant pay rise by working for a European company",
+        "They would be able to save properly for the first time in years, rather than just scraping by",
         "Property prices in Portugal are low enough that they could buy a house outright"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The mother says: 'We'd be able to save properly for the first time in years. Not just scrape by, but actually build something.'",
       "hint": "The mother contrasts two modes of managing money."
     },
@@ -328,11 +317,11 @@
       "prompt": "What question does Zoe ask when she says she is willing to 'entertain the idea'?",
       "options": [
         "Whether they would be near a beach or a city",
-        "Whether she would attend a local Portuguese school or an international school",
         "Whether they have already signed a lease on an apartment",
-        "Whether she could bring her best friend to stay for the summer"
+        "Whether she could bring her best friend to stay for the summer",
+        "Whether she would attend a local Portuguese school or an international school"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "Zoe asks: 'Would I go to a local school or an international school? Would I be doing my final years in a completely foreign education system?'",
       "hint": "Zoe's first practical question is about her education."
     },
@@ -340,12 +329,12 @@
       "id": "q10",
       "prompt": "What does the father say about the international school near the area they are considering?",
       "options": [
-        "It is a Portuguese school with a small English-medium stream",
         "It is a well-regarded school twenty minutes away that uses an American curriculum",
+        "It is a Portuguese school with a small English-medium stream",
         "It is a UK-based school with a satellite campus that opened recently",
         "It is the only English-medium school in the country and has a long waiting list"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The father says: 'There's a well-regarded international school about twenty minutes from the area we're looking at. It uses an American curriculum.'",
       "hint": "The father gives both the proximity and the curriculum type."
     },
@@ -380,11 +369,11 @@
       "prompt": "What does the father say about difficult experiences and how they shape people?",
       "options": [
         "He says difficult experiences are inevitable and should be accepted without complaint",
-        "He says things that are hard initially often become the things you look back on as having defined you",
         "He argues that moving abroad is not actually that difficult for teenagers",
-        "He says the difficulty will be short-lived because Zoe is adaptable"
+        "He says the difficulty will be short-lived because Zoe is adaptable",
+        "He says things that are hard initially often become the things you look back on as having defined you"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The father says: 'the things that are hard initially often become the things you look back on as having defined you.'",
       "hint": "The father connects present difficulty to a future perspective."
     },
@@ -392,12 +381,12 @@
       "id": "q14",
       "prompt": "What condition does Zoe set before she is willing to consider the move seriously?",
       "options": [
-        "She wants to spend six months in Portugal as a trial run before fully committing",
         "She wants to visit in person to see the place, the school, and whether she can imagine living there",
+        "She wants to spend six months in Portugal as a trial run before fully committing",
         "She wants her parents to guarantee they will return if she is unhappy after one year",
         "She wants to stay in the United States to finish her junior year before joining them"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Zoe says: 'I want to actually visit before any decision is made. I need to see the place, see the school, and feel whether it's somewhere I could actually imagine living.'",
       "hint": "Zoe names three specific things she needs from the visit."
     },
@@ -419,11 +408,11 @@
       "prompt": "What promise does the father make to Zoe at the end of the conversation?",
       "options": [
         "That the family will definitely not move if Zoe remains opposed",
-        "That the decision will be made together, and they would not go without Zoe genuinely being on board",
         "That Zoe can fly home to visit her friends at least twice a year",
+        "That the decision will be made together, and they would not go without Zoe genuinely being on board",
         "That they will give the move a one-year trial and reassess after twelve months"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The father says: 'Whatever we decide, we decide together. This isn't something we'd do without you genuinely being on board. That's a promise.'",
       "hint": "The father's promise is about the decision-making process, not a specific outcome."
     }

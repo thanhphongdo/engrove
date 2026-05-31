@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "What a translator loses and gains",
   "summary": "Reflect on whether translation is mostly an act of loss or of quiet creation, drawing on the choices a translator must make.",
-  "tags": ["Language", "Culture", "Reflection", "Work"],
+  "tags": [
+    "Language",
+    "Culture",
+    "Reflection",
+    "Work"
+  ],
   "topic": "Whether translation is more an act of loss or of creation",
   "prompt": "Write a 450–600-word reflective essay on what a translator loses and gains when carrying a text from one language into another. Decide whether translation is closer to loss or to creation, and defend your view with two concrete examples. Concede one objection. Use cleft sentences, complex concession, and hedging.",
   "minWords": 450,
@@ -15,60 +20,224 @@
     "The temptation is to think of translation as copying, when in fact…"
   ],
   "hintVocab": [
-    { "phrase": "source language", "meaningVi": "ngôn ngữ gốc" },
-    { "phrase": "target language", "meaningVi": "ngôn ngữ đích" },
-    { "phrase": "literal translation", "meaningVi": "dịch sát từng chữ" },
-    { "phrase": "to render", "meaningVi": "chuyển ngữ / diễn đạt lại", "pronunciation": "/ˈrendə/" },
-    { "phrase": "nuance", "meaningVi": "sắc thái", "pronunciation": "/ˈnjuːɑːns/" },
-    { "phrase": "connotation", "meaningVi": "hàm nghĩa / nghĩa bóng", "pronunciation": "/ˌkɒnəˈteɪʃn/" },
-    { "phrase": "register", "meaningVi": "văn phong / mức trang trọng" },
-    { "phrase": "idiom", "meaningVi": "thành ngữ", "pronunciation": "/ˈɪdiəm/" },
-    { "phrase": "untranslatable", "meaningVi": "không thể dịch được" },
-    { "phrase": "to capture the spirit", "meaningVi": "nắm bắt được tinh thần" },
-    { "phrase": "fidelity", "meaningVi": "sự trung thành (với bản gốc)", "pronunciation": "/fɪˈdeləti/" },
-    { "phrase": "to take liberties", "meaningVi": "tự ý thay đổi / phóng tác" },
-    { "phrase": "wordplay", "meaningVi": "trò chơi chữ" },
-    { "phrase": "cadence", "meaningVi": "nhịp điệu (của câu)", "pronunciation": "/ˈkeɪdns/" },
-    { "phrase": "to convey", "meaningVi": "truyền đạt", "pronunciation": "/kənˈveɪ/" },
-    { "phrase": "cultural reference", "meaningVi": "tham chiếu văn hóa" },
-    { "phrase": "footnote", "meaningVi": "chú thích cuối trang" },
-    { "phrase": "voice", "meaningVi": "giọng văn" },
-    { "phrase": "to do justice to", "meaningVi": "làm trọn vẹn / xứng đáng với" },
-    { "phrase": "approximation", "meaningVi": "sự xấp xỉ / gần đúng", "pronunciation": "/əˌprɒksɪˈmeɪʃn/" },
-    { "phrase": "to bridge", "meaningVi": "bắc cầu / nối", "pronunciation": "/brɪdʒ/" },
-    { "phrase": "ambiguity", "meaningVi": "sự mơ hồ / đa nghĩa", "pronunciation": "/ˌæmbɪˈɡjuːəti/" },
-    { "phrase": "to flatten", "meaningVi": "làm phẳng / làm mất sắc thái" },
-    { "phrase": "second life", "meaningVi": "đời sống thứ hai" },
-    { "phrase": "interpreter", "meaningVi": "thông dịch viên", "pronunciation": "/ɪnˈtɜːprətə/" }
+    {
+      "phrase": "source language",
+      "meaningVi": "ngôn ngữ gốc"
+    },
+    {
+      "phrase": "target language",
+      "meaningVi": "ngôn ngữ đích"
+    },
+    {
+      "phrase": "literal translation",
+      "meaningVi": "dịch sát từng chữ"
+    },
+    {
+      "phrase": "to render",
+      "meaningVi": "chuyển ngữ / diễn đạt lại",
+      "pronunciation": "/ˈrendə/"
+    },
+    {
+      "phrase": "nuance",
+      "meaningVi": "sắc thái",
+      "pronunciation": "/ˈnjuːɑːns/"
+    },
+    {
+      "phrase": "connotation",
+      "meaningVi": "hàm nghĩa / nghĩa bóng",
+      "pronunciation": "/ˌkɒnəˈteɪʃn/"
+    },
+    {
+      "phrase": "register",
+      "meaningVi": "văn phong / mức trang trọng"
+    },
+    {
+      "phrase": "idiom",
+      "meaningVi": "thành ngữ",
+      "pronunciation": "/ˈɪdiəm/"
+    },
+    {
+      "phrase": "untranslatable",
+      "meaningVi": "không thể dịch được"
+    },
+    {
+      "phrase": "to capture the spirit",
+      "meaningVi": "nắm bắt được tinh thần"
+    },
+    {
+      "phrase": "fidelity",
+      "meaningVi": "sự trung thành (với bản gốc)",
+      "pronunciation": "/fɪˈdeləti/"
+    },
+    {
+      "phrase": "to take liberties",
+      "meaningVi": "tự ý thay đổi / phóng tác"
+    },
+    {
+      "phrase": "wordplay",
+      "meaningVi": "trò chơi chữ"
+    },
+    {
+      "phrase": "cadence",
+      "meaningVi": "nhịp điệu (của câu)",
+      "pronunciation": "/ˈkeɪdns/"
+    },
+    {
+      "phrase": "to convey",
+      "meaningVi": "truyền đạt",
+      "pronunciation": "/kənˈveɪ/"
+    },
+    {
+      "phrase": "cultural reference",
+      "meaningVi": "tham chiếu văn hóa"
+    },
+    {
+      "phrase": "footnote",
+      "meaningVi": "chú thích cuối trang"
+    },
+    {
+      "phrase": "voice",
+      "meaningVi": "giọng văn"
+    },
+    {
+      "phrase": "to do justice to",
+      "meaningVi": "làm trọn vẹn / xứng đáng với"
+    },
+    {
+      "phrase": "approximation",
+      "meaningVi": "sự xấp xỉ / gần đúng",
+      "pronunciation": "/əˌprɒksɪˈmeɪʃn/"
+    },
+    {
+      "phrase": "to bridge",
+      "meaningVi": "bắc cầu / nối",
+      "pronunciation": "/brɪdʒ/"
+    },
+    {
+      "phrase": "ambiguity",
+      "meaningVi": "sự mơ hồ / đa nghĩa",
+      "pronunciation": "/ˌæmbɪˈɡjuːəti/"
+    },
+    {
+      "phrase": "to flatten",
+      "meaningVi": "làm phẳng / làm mất sắc thái"
+    },
+    {
+      "phrase": "second life",
+      "meaningVi": "đời sống thứ hai"
+    },
+    {
+      "phrase": "interpreter",
+      "meaningVi": "thông dịch viên",
+      "pronunciation": "/ɪnˈtɜːprətə/"
+    }
   ],
   "sampleText": "There is a Japanese word, komorebi, for the light that filters through leaves and scatters on the ground. English has no single word for it; a translator faced with it must choose between an awkward phrase and a quiet defeat. People who have never translated assume the job is a kind of copying — that meaning sits in the original like water in a jug, waiting to be poured cleanly into another container. The truth is stranger, and more interesting.\n\nWhat gets lost in translation is rarely the meaning so much as the music. A sentence in the source language carries a cadence, a set of associations, a way of arriving at its point that belongs to that language alone. When I once helped render a Brazilian poem into English, the literal meaning survived intact, but the internal rhyme that made the original feel inevitable simply could not be reproduced. Something was lost, and no footnote could put it back. The translator who pretends otherwise is, in effect, lying to the reader.\n\nAnd yet to dwell only on loss is to miss what translation also makes. Consider the idioms that have no equivalent: a good translator does not merely substitute words but invents a phrase that does in the target language what the original did in its own. It is not the dictionary that decides how a sentence should land but the translator's ear, weighing rhythm against accuracy, sound against sense. In that weighing, something new is brought into being. The English versions of Borges read differently from the Spanish, yet they have given his stories a second life that the originals, locked in one language, could never have had on their own.\n\nGranted, a translator who takes too many liberties risks producing a text that is more theirs than the author's — a beautiful object that no longer answers to its source. Fidelity is not a quaint virtue to be waved away; a reader trusts that what they are reading bears some honest relation to what was written, and a translator who forgets this has stopped translating and started composing. The objection deserves respect, not a shrug.\n\nEven so, the choice is never between perfect fidelity and free invention, because perfect fidelity does not exist. Every rendering is an approximation, a series of small decisions about what to keep when not everything can be kept. To translate is to grieve a little for what will not survive the crossing, and then to build, out of a different language, something that can stand in its place. What the translator loses is the illusion that meaning is portable; what they gain is the discovery that two languages can be made to point at the same thing by entirely different roads.\n\nThe word komorebi will never arrive in English whole. But a translator who writes 'the light dappling through the leaves' has not failed; they have done the only honest thing, which is to lose one thing in order to give another. Translation, in the end, is less a transfer than a kind of hospitality — the work of making a stranger's words feel, for a moment, at home.",
   "sampleAnnotations": [
-    { "phrase": "a translator faced with it must choose between an awkward phrase and a quiet defeat", "meaningVi": "một dịch giả đối mặt với nó phải chọn giữa một cụm từ vụng về và một thất bại lặng lẽ" },
-    { "phrase": "that meaning sits in the original like water in a jug, waiting to be poured cleanly into another container", "meaningVi": "rằng ý nghĩa nằm trong bản gốc như nước trong một cái bình, chờ được rót sạch sẽ sang một vật chứa khác" },
-    { "phrase": "The truth is stranger, and more interesting", "meaningVi": "Sự thật thì kỳ lạ hơn, và thú vị hơn" },
-    { "phrase": "What gets lost in translation is rarely the meaning so much as the music", "meaningVi": "Cái bị mất trong bản dịch hiếm khi là ý nghĩa cho bằng là âm nhạc của câu chữ" },
-    { "phrase": "a way of arriving at its point that belongs to that language alone", "meaningVi": "một cách đi đến trọng tâm của nó chỉ thuộc riêng về ngôn ngữ ấy" },
-    { "phrase": "the internal rhyme that made the original feel inevitable simply could not be reproduced", "meaningVi": "vần điệu nội tại khiến bản gốc cảm thấy tất yếu thì đơn giản là không thể tái tạo" },
-    { "phrase": "no footnote could put it back", "meaningVi": "không một chú thích nào có thể khôi phục lại nó" },
-    { "phrase": "to dwell only on loss is to miss what translation also makes", "meaningVi": "chỉ chăm chăm vào sự mất mát là bỏ lỡ điều mà bản dịch cũng tạo ra" },
-    { "phrase": "a good translator does not merely substitute words but invents a phrase", "meaningVi": "một dịch giả giỏi không chỉ đơn thuần thay thế từ ngữ mà sáng tạo ra một cụm từ" },
-    { "phrase": "It is not the dictionary that decides how a sentence should land but the translator's ear", "meaningVi": "Không phải cuốn từ điển quyết định một câu nên hạ cánh thế nào mà là cái tai của dịch giả" },
-    { "phrase": "weighing rhythm against accuracy, sound against sense", "meaningVi": "cân nhắc nhịp điệu với độ chính xác, âm thanh với nghĩa lý" },
-    { "phrase": "given his stories a second life that the originals, locked in one language, could never have had", "meaningVi": "đã trao cho những câu chuyện của ông một đời sống thứ hai mà các bản gốc, bị khóa trong một ngôn ngữ, không bao giờ có thể có được" },
-    { "phrase": "Granted, a translator who takes too many liberties risks producing a text that is more theirs than the author's", "meaningVi": "Công nhận, một dịch giả tự ý thay đổi quá nhiều có nguy cơ tạo ra một văn bản thuộc về họ hơn là tác giả" },
-    { "phrase": "Fidelity is not a quaint virtue to be waved away", "meaningVi": "Sự trung thành không phải một đức tính cổ lỗ để gạt phắt đi" },
-    { "phrase": "The objection deserves respect, not a shrug", "meaningVi": "Phản đối này đáng được tôn trọng, chứ không phải một cái nhún vai" },
-    { "phrase": "the choice is never between perfect fidelity and free invention, because perfect fidelity does not exist", "meaningVi": "lựa chọn không bao giờ là giữa sự trung thành hoàn hảo và sáng tạo tự do, bởi sự trung thành hoàn hảo không tồn tại" },
-    { "phrase": "Every rendering is an approximation, a series of small decisions about what to keep", "meaningVi": "Mỗi lần chuyển ngữ là một sự xấp xỉ, một chuỗi những quyết định nhỏ về việc giữ lại điều gì" },
-    { "phrase": "To translate is to grieve a little for what will not survive the crossing", "meaningVi": "Dịch là tiếc thương đôi chút cho những gì sẽ không sống sót qua cuộc vượt biên" },
-    { "phrase": "What the translator loses is the illusion that meaning is portable", "meaningVi": "Cái dịch giả mất đi là ảo tưởng rằng ý nghĩa có thể mang theo được" },
-    { "phrase": "they have done the only honest thing, which is to lose one thing in order to give another", "meaningVi": "họ đã làm điều trung thực duy nhất, đó là mất đi một thứ để trao đi một thứ khác" },
-    { "phrase": "Translation, in the end, is less a transfer than a kind of hospitality", "meaningVi": "Dịch thuật, rốt cuộc, ít là một sự chuyển giao mà là một dạng lòng hiếu khách" },
-    { "phrase": "the work of making a stranger's words feel, for a moment, at home", "meaningVi": "công việc làm cho lời của một người xa lạ cảm thấy, trong một khoảnh khắc, như đang ở nhà" },
-    { "phrase": "the light that filters through leaves and scatters on the ground", "meaningVi": "thứ ánh sáng lọc qua kẽ lá và rải xuống mặt đất" },
-    { "phrase": "the literal meaning survived intact", "meaningVi": "nghĩa đen vẫn còn nguyên vẹn" },
-    { "phrase": "The translator who pretends otherwise is, in effect, lying to the reader", "meaningVi": "Dịch giả giả vờ điều ngược lại, trên thực tế, đang nói dối người đọc" },
-    { "phrase": "a reader trusts that what they are reading bears some honest relation to what was written", "meaningVi": "người đọc tin rằng những gì họ đang đọc mang một liên hệ trung thực nào đó với những gì đã được viết" }
+    {
+      "phrase": "a translator faced with it must choose between an awkward phrase and a quiet defeat",
+      "meaningVi": "một dịch giả đối mặt với nó phải chọn giữa một cụm từ vụng về và một thất bại lặng lẽ"
+    },
+    {
+      "phrase": "that meaning sits in the original like water in a jug, waiting to be poured cleanly into another container",
+      "meaningVi": "rằng ý nghĩa nằm trong bản gốc như nước trong một cái bình, chờ được rót sạch sẽ sang một vật chứa khác"
+    },
+    {
+      "phrase": "The truth is stranger, and more interesting",
+      "meaningVi": "Sự thật thì kỳ lạ hơn, và thú vị hơn"
+    },
+    {
+      "phrase": "What gets lost in translation is rarely the meaning so much as the music",
+      "meaningVi": "Cái bị mất trong bản dịch hiếm khi là ý nghĩa cho bằng là âm nhạc của câu chữ"
+    },
+    {
+      "phrase": "a way of arriving at its point that belongs to that language alone",
+      "meaningVi": "một cách đi đến trọng tâm của nó chỉ thuộc riêng về ngôn ngữ ấy"
+    },
+    {
+      "phrase": "the internal rhyme that made the original feel inevitable simply could not be reproduced",
+      "meaningVi": "vần điệu nội tại khiến bản gốc cảm thấy tất yếu thì đơn giản là không thể tái tạo"
+    },
+    {
+      "phrase": "no footnote could put it back",
+      "meaningVi": "không một chú thích nào có thể khôi phục lại nó"
+    },
+    {
+      "phrase": "to dwell only on loss is to miss what translation also makes",
+      "meaningVi": "chỉ chăm chăm vào sự mất mát là bỏ lỡ điều mà bản dịch cũng tạo ra"
+    },
+    {
+      "phrase": "a good translator does not merely substitute words but invents a phrase",
+      "meaningVi": "một dịch giả giỏi không chỉ đơn thuần thay thế từ ngữ mà sáng tạo ra một cụm từ"
+    },
+    {
+      "phrase": "It is not the dictionary that decides how a sentence should land but the translator's ear",
+      "meaningVi": "Không phải cuốn từ điển quyết định một câu nên hạ cánh thế nào mà là cái tai của dịch giả"
+    },
+    {
+      "phrase": "weighing rhythm against accuracy, sound against sense",
+      "meaningVi": "cân nhắc nhịp điệu với độ chính xác, âm thanh với nghĩa lý"
+    },
+    {
+      "phrase": "given his stories a second life that the originals, locked in one language, could never have had",
+      "meaningVi": "đã trao cho những câu chuyện của ông một đời sống thứ hai mà các bản gốc, bị khóa trong một ngôn ngữ, không bao giờ có thể có được"
+    },
+    {
+      "phrase": "Granted, a translator who takes too many liberties risks producing a text that is more theirs than the author's",
+      "meaningVi": "Công nhận, một dịch giả tự ý thay đổi quá nhiều có nguy cơ tạo ra một văn bản thuộc về họ hơn là tác giả"
+    },
+    {
+      "phrase": "Fidelity is not a quaint virtue to be waved away",
+      "meaningVi": "Sự trung thành không phải một đức tính cổ lỗ để gạt phắt đi"
+    },
+    {
+      "phrase": "The objection deserves respect, not a shrug",
+      "meaningVi": "Phản đối này đáng được tôn trọng, chứ không phải một cái nhún vai"
+    },
+    {
+      "phrase": "the choice is never between perfect fidelity and free invention, because perfect fidelity does not exist",
+      "meaningVi": "lựa chọn không bao giờ là giữa sự trung thành hoàn hảo và sáng tạo tự do, bởi sự trung thành hoàn hảo không tồn tại"
+    },
+    {
+      "phrase": "Every rendering is an approximation, a series of small decisions about what to keep",
+      "meaningVi": "Mỗi lần chuyển ngữ là một sự xấp xỉ, một chuỗi những quyết định nhỏ về việc giữ lại điều gì"
+    },
+    {
+      "phrase": "To translate is to grieve a little for what will not survive the crossing",
+      "meaningVi": "Dịch là tiếc thương đôi chút cho những gì sẽ không sống sót qua cuộc vượt biên"
+    },
+    {
+      "phrase": "What the translator loses is the illusion that meaning is portable",
+      "meaningVi": "Cái dịch giả mất đi là ảo tưởng rằng ý nghĩa có thể mang theo được"
+    },
+    {
+      "phrase": "they have done the only honest thing, which is to lose one thing in order to give another",
+      "meaningVi": "họ đã làm điều trung thực duy nhất, đó là mất đi một thứ để trao đi một thứ khác"
+    },
+    {
+      "phrase": "Translation, in the end, is less a transfer than a kind of hospitality",
+      "meaningVi": "Dịch thuật, rốt cuộc, ít là một sự chuyển giao mà là một dạng lòng hiếu khách"
+    },
+    {
+      "phrase": "the work of making a stranger's words feel, for a moment, at home",
+      "meaningVi": "công việc làm cho lời của một người xa lạ cảm thấy, trong một khoảnh khắc, như đang ở nhà"
+    },
+    {
+      "phrase": "the light that filters through leaves and scatters on the ground",
+      "meaningVi": "thứ ánh sáng lọc qua kẽ lá và rải xuống mặt đất"
+    },
+    {
+      "phrase": "the literal meaning survived intact",
+      "meaningVi": "nghĩa đen vẫn còn nguyên vẹn"
+    },
+    {
+      "phrase": "The translator who pretends otherwise is, in effect, lying to the reader",
+      "meaningVi": "Dịch giả giả vờ điều ngược lại, trên thực tế, đang nói dối người đọc"
+    },
+    {
+      "phrase": "a reader trusts that what they are reading bears some honest relation to what was written",
+      "meaningVi": "người đọc tin rằng những gì họ đang đọc mang một liên hệ trung thực nào đó với những gì đã được viết"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -115,11 +284,11 @@
       "prompt": "Which option introduces the counter-argument most naturally?",
       "options": [
         "Some translators are just bad and that ruins everything.",
-        "Granted, a translator who takes too many liberties risks producing a text that is more theirs than the author's.",
         "Obviously translators should never change a single word at all.",
+        "Granted, a translator who takes too many liberties risks producing a text that is more theirs than the author's.",
         "Of course nobody really cares whether a translation is faithful."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'Granted, …' concedes a serious objection rather than dismissing or exaggerating it.",
       "hint": "Which option fairly admits a real risk?"
     },
@@ -128,11 +297,11 @@
       "prompt": "What does 'fidelity' mean in this context?",
       "options": [
         "The speed at which a text is translated",
-        "Faithfulness of the translation to the original text",
         "The popularity of a translated book",
-        "The number of footnotes in a translation"
+        "The number of footnotes in a translation",
+        "Faithfulness of the translation to the original text"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'Fidelity' here means staying true to the source.",
       "hint": "Think of 'fidelity' as faithfulness."
     },
@@ -140,12 +309,12 @@
       "id": "q5",
       "prompt": "Which option correctly hedges instead of over-claiming?",
       "options": [
-        "Every translation is always a perfect copy of the original meaning.",
         "Every rendering is an approximation, a series of small decisions about what to keep.",
+        "Every translation is always a perfect copy of the original meaning.",
         "Translations definitely never lose anything at all from the source.",
         "A translation must be completely identical to its source in every way."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'An approximation … about what to keep' acknowledges limits without exaggeration.",
       "hint": "Which option admits translation is imperfect rather than absolute?"
     },
@@ -167,11 +336,11 @@
       "prompt": "Which sentence maintains a consistent reflective register?",
       "options": [
         "Translating is honestly such a headache and totally not worth it half the time.",
-        "To translate is to grieve a little for what will not survive the crossing, and then to build something that can stand in its place.",
         "Basically you just swap the words and hope nobody notices the difference.",
+        "To translate is to grieve a little for what will not survive the crossing, and then to build something that can stand in its place.",
         "Translators are kind of overpaid for what they actually do, if you ask me."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "Option B sustains a measured, reflective tone with balanced infinitive clauses.",
       "hint": "Avoid casual filler like 'honestly', 'basically', and 'kind of'."
     },
@@ -180,11 +349,11 @@
       "prompt": "Which transition best pivots from concession back to the thesis?",
       "options": [
         "In conclusion, fidelity wins every time.",
-        "Even so, the choice is never between perfect fidelity and free invention, because perfect fidelity does not exist.",
         "On the contrary, fidelity does not matter in the slightest.",
-        "Anyway, let us forget about that point now."
+        "Anyway, let us forget about that point now.",
+        "Even so, the choice is never between perfect fidelity and free invention, because perfect fidelity does not exist."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'Even so, …' accepts the concession then advances a refined claim.",
       "hint": "Which phrase both accepts the prior point and reasserts the argument?"
     },
@@ -192,12 +361,12 @@
       "id": "q9",
       "prompt": "What does 'cadence' mean as used here?",
       "options": [
-        "The cost of hiring a translator",
         "The rhythm and flow of a sentence",
+        "The cost of hiring a translator",
         "A mistake in grammar",
         "The length of a book"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'Cadence' is the musical rise and fall of language.",
       "hint": "Think of rhythm in music or speech."
     },
@@ -205,12 +374,12 @@
       "id": "q10",
       "prompt": "Which option uses a relative clause correctly?",
       "options": [
-        "The idioms which have no equivalent force a translator to invent.",
         "The idioms what have no equivalent force a translator to invent.",
+        "The idioms which have no equivalent force a translator to invent.",
         "The idioms they have no equivalent force a translator to invent.",
         "The idioms having no equivalent which forces a translator inventing."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'Which' correctly introduces a defining relative clause about idioms (things).",
       "hint": "For things, use 'which' or 'that', not 'what' or a pronoun."
     },
@@ -219,11 +388,11 @@
       "prompt": "According to the essay, what does the translator gain?",
       "options": [
         "The ability to copy meaning perfectly",
-        "The discovery that two languages can point at the same thing by different roads",
         "Higher pay than other writers",
+        "The discovery that two languages can point at the same thing by different roads",
         "The right to ignore the original author"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay says the gain is 'the discovery that two languages can be made to point at the same thing by entirely different roads.'",
       "hint": "Reread the end of the fifth paragraph."
     },
@@ -232,11 +401,11 @@
       "prompt": "Which sentence best uses a metaphor without becoming a cliché?",
       "options": [
         "Translation is like a bridge over troubled water, basically.",
-        "Translation, in the end, is less a transfer than a kind of hospitality — the work of making a stranger's words feel, for a moment, at home.",
         "Translation is a journey of a thousand miles that begins with one step.",
-        "Translation is the spice of life that makes the world go round."
+        "Translation is the spice of life that makes the world go round.",
+        "Translation, in the end, is less a transfer than a kind of hospitality — the work of making a stranger's words feel, for a moment, at home."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The 'hospitality' metaphor is fresh and developed; the others are tired clichés.",
       "hint": "Which option avoids a worn-out saying?"
     },
@@ -244,12 +413,12 @@
       "id": "q13",
       "prompt": "What does 'untranslatable' suggest about a word like komorebi?",
       "options": [
-        "It is impossible to pronounce",
         "It has no single, exact equivalent in the target language",
+        "It is impossible to pronounce",
         "It is forbidden to use in writing",
         "It changes meaning every year"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'Untranslatable' means lacking a direct equivalent, forcing approximation.",
       "hint": "Break the word down: 'un-' + 'translatable'."
     },
@@ -257,12 +426,12 @@
       "id": "q14",
       "prompt": "Which option uses parallel structure most effectively?",
       "options": [
-        "weighing rhythm against accuracy, sound against sense",
         "weighing the rhythm and also accuracy is weighed with sound and sense",
+        "weighing rhythm against accuracy, sound against sense",
         "weighing rhythm, while sound and accuracy against sense is weighed",
         "rhythm weighing accuracy and sense sound against weighing"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'rhythm against accuracy, sound against sense' is a clean parallel pairing.",
       "hint": "Which option repeats the same 'X against Y' shape twice?"
     },
@@ -271,11 +440,11 @@
       "prompt": "Which option best expresses the essay's final view without overstating it?",
       "options": [
         "Translation always destroys the original and should be avoided.",
-        "Translation is less a transfer than an act of hospitality — losing one thing to give another.",
         "Translation is a flawless copy that loses nothing whatsoever.",
+        "Translation is less a transfer than an act of hospitality — losing one thing to give another.",
         "Translation is only ever theft from the original author."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The conclusion balances loss and creation rather than declaring translation pure loss or pure copying.",
       "hint": "Look for the option that holds both loss and gift together."
     },
@@ -284,11 +453,11 @@
       "prompt": "What does 'to convey' mean?",
       "options": [
         "To hide a meaning",
-        "To communicate or carry across a meaning",
         "To shorten a text",
-        "To translate word by word"
+        "To translate word by word",
+        "To communicate or carry across a meaning"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'Convey' means to communicate or transmit something.",
       "hint": "Think of carrying a message across to someone."
     }

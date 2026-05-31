@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "The case against celebrating productivity in children",
   "summary": "Argue that rewarding and celebrating children's productivity — output, efficiency, and measurable achievement — is harmful to their development.",
-  "tags": ["Education", "Childhood", "Psychology", "Parenting"],
+  "tags": [
+    "Education",
+    "Childhood",
+    "Psychology",
+    "Parenting"
+  ],
   "topic": "The case against celebrating productivity in children",
   "prompt": "Write an argumentative essay (350–500 words) arguing against the cultural tendency to celebrate productivity, measurable achievement, and busy schedules in children. Consider what is lost when children's time is treated primarily as an investment in future performance. You may refer to real research (e.g. Peter Gray's work on free play, the PISA rankings pressure on Finnish schools, or South Korea's education system). Use a cleft sentence, a concession, and at least one passive construction. Take a clear position.",
   "minWords": 350,
@@ -15,50 +20,176 @@
     "The problem is not achievement itself but the narrative that surrounds it — the idea that a child's value is…"
   ],
   "hintVocab": [
-    { "phrase": "free play", "meaningVi": "vui chơi tự do" },
-    { "phrase": "to be over-scheduled", "meaningVi": "bị xếp lịch quá dày đặc" },
-    { "phrase": "intrinsic motivation", "meaningVi": "động lực nội tại", "pronunciation": "/ɪnˈtrɪn.zɪk/" },
-    { "phrase": "extrinsic reward", "meaningVi": "phần thưởng bên ngoài / phần thưởng ngoại lai" },
-    { "phrase": "burnout", "meaningVi": "kiệt sức", "pronunciation": "/ˈbɜːn.aʊt/" },
-    { "phrase": "structured activity", "meaningVi": "hoạt động có cấu trúc" },
-    { "phrase": "self-directed learning", "meaningVi": "học tập tự định hướng" },
-    { "phrase": "to internalise", "meaningVi": "nội tâm hóa / tiếp thu vào trong", "pronunciation": "/ɪnˈtɜː.nə.laɪz/" },
-    { "phrase": "academic pressure", "meaningVi": "áp lực học thuật" },
-    { "phrase": "to be conditioned to", "meaningVi": "được điều kiện hoá để" },
-    { "phrase": "childhood anxiety", "meaningVi": "lo âu tuổi thơ" },
-    { "phrase": "to be praised for", "meaningVi": "được khen ngợi vì" },
-    { "phrase": "resilience", "meaningVi": "khả năng phục hồi" },
-    { "phrase": "measurable outcome", "meaningVi": "kết quả có thể đo lường được" },
-    { "phrase": "to crowd out", "meaningVi": "lấn át / đẩy ra ngoài" },
-    { "phrase": "unstructured time", "meaningVi": "thời gian không có cấu trúc" },
-    { "phrase": "to stifle creativity", "meaningVi": "kìm hãm sáng tạo" },
-    { "phrase": "performance mindset", "meaningVi": "tư duy hiệu suất" },
-    { "phrase": "to equate worth with output", "meaningVi": "đồng nhất giá trị với sản lượng" },
-    { "phrase": "enrichment class", "meaningVi": "lớp học bổ sung / lớp nâng cao" },
-    { "phrase": "to nurture curiosity", "meaningVi": "nuôi dưỡng sự tò mò" }
+    {
+      "phrase": "free play",
+      "meaningVi": "vui chơi tự do"
+    },
+    {
+      "phrase": "to be over-scheduled",
+      "meaningVi": "bị xếp lịch quá dày đặc"
+    },
+    {
+      "phrase": "intrinsic motivation",
+      "meaningVi": "động lực nội tại",
+      "pronunciation": "/ɪnˈtrɪn.zɪk/"
+    },
+    {
+      "phrase": "extrinsic reward",
+      "meaningVi": "phần thưởng bên ngoài / phần thưởng ngoại lai"
+    },
+    {
+      "phrase": "burnout",
+      "meaningVi": "kiệt sức",
+      "pronunciation": "/ˈbɜːn.aʊt/"
+    },
+    {
+      "phrase": "structured activity",
+      "meaningVi": "hoạt động có cấu trúc"
+    },
+    {
+      "phrase": "self-directed learning",
+      "meaningVi": "học tập tự định hướng"
+    },
+    {
+      "phrase": "to internalise",
+      "meaningVi": "nội tâm hóa / tiếp thu vào trong",
+      "pronunciation": "/ɪnˈtɜː.nə.laɪz/"
+    },
+    {
+      "phrase": "academic pressure",
+      "meaningVi": "áp lực học thuật"
+    },
+    {
+      "phrase": "to be conditioned to",
+      "meaningVi": "được điều kiện hoá để"
+    },
+    {
+      "phrase": "childhood anxiety",
+      "meaningVi": "lo âu tuổi thơ"
+    },
+    {
+      "phrase": "to be praised for",
+      "meaningVi": "được khen ngợi vì"
+    },
+    {
+      "phrase": "resilience",
+      "meaningVi": "khả năng phục hồi"
+    },
+    {
+      "phrase": "measurable outcome",
+      "meaningVi": "kết quả có thể đo lường được"
+    },
+    {
+      "phrase": "to crowd out",
+      "meaningVi": "lấn át / đẩy ra ngoài"
+    },
+    {
+      "phrase": "unstructured time",
+      "meaningVi": "thời gian không có cấu trúc"
+    },
+    {
+      "phrase": "to stifle creativity",
+      "meaningVi": "kìm hãm sáng tạo"
+    },
+    {
+      "phrase": "performance mindset",
+      "meaningVi": "tư duy hiệu suất"
+    },
+    {
+      "phrase": "to equate worth with output",
+      "meaningVi": "đồng nhất giá trị với sản lượng"
+    },
+    {
+      "phrase": "enrichment class",
+      "meaningVi": "lớp học bổ sung / lớp nâng cao"
+    },
+    {
+      "phrase": "to nurture curiosity",
+      "meaningVi": "nuôi dưỡng sự tò mò"
+    }
   ],
   "sampleText": "Finland consistently tops international education rankings, yet Finnish children spend fewer hours in formal schooling than almost any of their peers in the developed world. They are not assessed with grades until the age of thirteen. They are given long recesses, short school days, and substantial stretches of time that are not directed by any adult. By almost every measure, this approach produces better outcomes than the intensive, test-heavy systems it is being compared against.\n\nWhat is lost when a child's afternoons are filled with consecutive structured activities is not merely leisure but the capacity to become bored, to invent, and to fail without consequence. Psychologist Peter Gray's research has documented a sharp decline in children's free play since the 1960s, running in parallel with rising rates of childhood anxiety and depression. These trends are not coincidental. When every hour is accounted for, children are being trained to perform rather than to explore — and performance, without the underlying curiosity that makes it meaningful, tends to hollow itself out by adolescence.\n\nGranted, the impulse to fill children's time with enrichment is not cynical. Parents who want their children to learn Mandarin, play the violin, and compete in mathematics olympiads are expressing genuine care and genuine ambition. Some children genuinely thrive in highly structured environments; some activities — a good music teacher, a serious sport — provide exactly the discipline and mastery that unstructured play cannot. The argument is not that children should do nothing. It is that doing nothing, or doing something chosen entirely by the child, has been systematically undervalued.\n\nThe deeper problem is the narrative that wraps around productivity. When a child is praised primarily for finishing first, achieving a grade, or completing a task, the child is being told — not in words but in the repeated logic of reward — that their value lies in their output. Children conditioned to think this way are not developing intrinsic motivation; they are becoming dependent on external validation. Research on extrinsic rewards has shown, repeatedly, that rewarding a child for an activity they already enjoy tends to reduce their interest in that activity over time.\n\nA childhood that includes aimlessness, boredom, and self-directed invention is not a childhood that is wasted. It is a childhood in which a person is being formed. The skills that cannot be measured — tolerance of uncertainty, the ability to self-motivate, the habit of finding problems worth solving — are not produced by more structured time. They are produced by less.",
   "sampleAnnotations": [
-    { "phrase": "consistently tops international education rankings", "meaningVi": "liên tục dẫn đầu các bảng xếp hạng giáo dục quốc tế" },
-    { "phrase": "They are not assessed with grades until the age of thirteen", "meaningVi": "Họ không được đánh giá bằng điểm số cho đến năm mười ba tuổi" },
-    { "phrase": "substantial stretches of time that are not directed by any adult", "meaningVi": "những khoảng thời gian đáng kể không được hướng dẫn bởi bất kỳ người lớn nào" },
-    { "phrase": "What is lost when a child's afternoons are filled with consecutive structured activities is not merely leisure but the capacity to become bored, to invent, and to fail without consequence", "meaningVi": "điều bị mất khi buổi chiều của trẻ em được lấp đầy bởi các hoạt động có cấu trúc liên tiếp không chỉ là giải trí mà là khả năng trở nên chán, để sáng tạo, và để thất bại mà không có hậu quả" },
-    { "phrase": "documented a sharp decline in children's free play since the 1960s", "meaningVi": "đã ghi lại sự suy giảm mạnh trong việc trẻ em vui chơi tự do từ những năm 1960" },
-    { "phrase": "running in parallel with rising rates of childhood anxiety and depression", "meaningVi": "song song với tỷ lệ lo âu và trầm cảm ở trẻ em ngày càng tăng" },
-    { "phrase": "children are being trained to perform rather than to explore", "meaningVi": "trẻ em đang được huấn luyện để thực hiện thay vì để khám phá" },
-    { "phrase": "performance, without the underlying curiosity that makes it meaningful, tends to hollow itself out by adolescence", "meaningVi": "hiệu suất, không có sự tò mò cơ bản làm cho nó có ý nghĩa, có xu hướng tự làm rỗng vào tuổi thiếu niên" },
-    { "phrase": "Granted, the impulse to fill children's time with enrichment is not cynical", "meaningVi": "công nhận, động lực lấp đầy thời gian của trẻ em bằng các hoạt động nâng cao không phải là vô cảm" },
-    { "phrase": "genuine care and genuine ambition", "meaningVi": "sự quan tâm thực sự và tham vọng thực sự" },
-    { "phrase": "Some children genuinely thrive in highly structured environments", "meaningVi": "Một số trẻ em thực sự phát triển mạnh trong môi trường có cấu trúc cao" },
-    { "phrase": "doing nothing, or doing something chosen entirely by the child, has been systematically undervalued", "meaningVi": "không làm gì, hoặc làm điều gì đó được chọn hoàn toàn bởi đứa trẻ, đã bị đánh giá thấp một cách có hệ thống" },
-    { "phrase": "the child is being told — not in words but in the repeated logic of reward", "meaningVi": "đứa trẻ đang được nói — không phải bằng lời nói mà bằng logic lặp đi lặp lại của phần thưởng" },
-    { "phrase": "their value lies in their output", "meaningVi": "giá trị của họ nằm ở sản lượng của họ" },
-    { "phrase": "Children conditioned to think this way are not developing intrinsic motivation", "meaningVi": "Trẻ em được điều kiện hóa để suy nghĩ theo cách này không đang phát triển động lực nội tại" },
-    { "phrase": "becoming dependent on external validation", "meaningVi": "trở nên phụ thuộc vào sự xác nhận từ bên ngoài" },
-    { "phrase": "rewarding a child for an activity they already enjoy tends to reduce their interest in that activity over time", "meaningVi": "khen thưởng trẻ em vì một hoạt động mà chúng đã thích có xu hướng giảm sự quan tâm của chúng đến hoạt động đó theo thời gian" },
-    { "phrase": "A childhood that includes aimlessness, boredom, and self-directed invention is not a childhood that is wasted", "meaningVi": "Một tuổi thơ bao gồm sự vô mục đích, nhàm chán và sáng tạo tự định hướng không phải là tuổi thơ bị lãng phí" },
-    { "phrase": "a childhood in which a person is being formed", "meaningVi": "một tuổi thơ trong đó một con người đang được hình thành" },
-    { "phrase": "The skills that cannot be measured … are not produced by more structured time. They are produced by less.", "meaningVi": "Các kỹ năng không thể đo lường … không được tạo ra bởi nhiều thời gian có cấu trúc hơn. Chúng được tạo ra bởi ít hơn." }
+    {
+      "phrase": "consistently tops international education rankings",
+      "meaningVi": "liên tục dẫn đầu các bảng xếp hạng giáo dục quốc tế"
+    },
+    {
+      "phrase": "They are not assessed with grades until the age of thirteen",
+      "meaningVi": "Họ không được đánh giá bằng điểm số cho đến năm mười ba tuổi"
+    },
+    {
+      "phrase": "substantial stretches of time that are not directed by any adult",
+      "meaningVi": "những khoảng thời gian đáng kể không được hướng dẫn bởi bất kỳ người lớn nào"
+    },
+    {
+      "phrase": "What is lost when a child's afternoons are filled with consecutive structured activities is not merely leisure but the capacity to become bored, to invent, and to fail without consequence",
+      "meaningVi": "điều bị mất khi buổi chiều của trẻ em được lấp đầy bởi các hoạt động có cấu trúc liên tiếp không chỉ là giải trí mà là khả năng trở nên chán, để sáng tạo, và để thất bại mà không có hậu quả"
+    },
+    {
+      "phrase": "documented a sharp decline in children's free play since the 1960s",
+      "meaningVi": "đã ghi lại sự suy giảm mạnh trong việc trẻ em vui chơi tự do từ những năm 1960"
+    },
+    {
+      "phrase": "running in parallel with rising rates of childhood anxiety and depression",
+      "meaningVi": "song song với tỷ lệ lo âu và trầm cảm ở trẻ em ngày càng tăng"
+    },
+    {
+      "phrase": "children are being trained to perform rather than to explore",
+      "meaningVi": "trẻ em đang được huấn luyện để thực hiện thay vì để khám phá"
+    },
+    {
+      "phrase": "performance, without the underlying curiosity that makes it meaningful, tends to hollow itself out by adolescence",
+      "meaningVi": "hiệu suất, không có sự tò mò cơ bản làm cho nó có ý nghĩa, có xu hướng tự làm rỗng vào tuổi thiếu niên"
+    },
+    {
+      "phrase": "Granted, the impulse to fill children's time with enrichment is not cynical",
+      "meaningVi": "công nhận, động lực lấp đầy thời gian của trẻ em bằng các hoạt động nâng cao không phải là vô cảm"
+    },
+    {
+      "phrase": "genuine care and genuine ambition",
+      "meaningVi": "sự quan tâm thực sự và tham vọng thực sự"
+    },
+    {
+      "phrase": "Some children genuinely thrive in highly structured environments",
+      "meaningVi": "Một số trẻ em thực sự phát triển mạnh trong môi trường có cấu trúc cao"
+    },
+    {
+      "phrase": "doing nothing, or doing something chosen entirely by the child, has been systematically undervalued",
+      "meaningVi": "không làm gì, hoặc làm điều gì đó được chọn hoàn toàn bởi đứa trẻ, đã bị đánh giá thấp một cách có hệ thống"
+    },
+    {
+      "phrase": "the child is being told — not in words but in the repeated logic of reward",
+      "meaningVi": "đứa trẻ đang được nói — không phải bằng lời nói mà bằng logic lặp đi lặp lại của phần thưởng"
+    },
+    {
+      "phrase": "their value lies in their output",
+      "meaningVi": "giá trị của họ nằm ở sản lượng của họ"
+    },
+    {
+      "phrase": "Children conditioned to think this way are not developing intrinsic motivation",
+      "meaningVi": "Trẻ em được điều kiện hóa để suy nghĩ theo cách này không đang phát triển động lực nội tại"
+    },
+    {
+      "phrase": "becoming dependent on external validation",
+      "meaningVi": "trở nên phụ thuộc vào sự xác nhận từ bên ngoài"
+    },
+    {
+      "phrase": "rewarding a child for an activity they already enjoy tends to reduce their interest in that activity over time",
+      "meaningVi": "khen thưởng trẻ em vì một hoạt động mà chúng đã thích có xu hướng giảm sự quan tâm của chúng đến hoạt động đó theo thời gian"
+    },
+    {
+      "phrase": "A childhood that includes aimlessness, boredom, and self-directed invention is not a childhood that is wasted",
+      "meaningVi": "Một tuổi thơ bao gồm sự vô mục đích, nhàm chán và sáng tạo tự định hướng không phải là tuổi thơ bị lãng phí"
+    },
+    {
+      "phrase": "a childhood in which a person is being formed",
+      "meaningVi": "một tuổi thơ trong đó một con người đang được hình thành"
+    },
+    {
+      "phrase": "The skills that cannot be measured",
+      "meaningVi": "Các kỹ năng không thể đo lường … không được tạo ra bởi nhiều thời gian có cấu trúc hơn. Chúng được tạo ra bởi ít hơn."
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -92,11 +223,11 @@
       "prompt": "Which passive sentence describes ongoing systemic training of children?",
       "options": [
         "Parents train children to perform rather than to explore.",
-        "children are being trained to perform rather than to explore",
         "Training children to perform is something parents do rather than explore.",
+        "children are being trained to perform rather than to explore",
         "Children trained to perform are doing so rather than to explore."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'Are being trained' (continuous passive) suggests a systemic, ongoing process without attributing it to individual parents.",
       "hint": "Which option uses the passive and implies a cultural pattern, not one person's action?"
     },
@@ -105,11 +236,11 @@
       "prompt": "What does 'intrinsic motivation' mean?",
       "options": [
         "Motivation that comes from external rewards such as grades and prizes",
-        "Motivation that comes from within — personal interest, curiosity, or satisfaction",
         "Motivation based on competition with peers",
-        "Motivation provided by a teacher or coach"
+        "Motivation provided by a teacher or coach",
+        "Motivation that comes from within — personal interest, curiosity, or satisfaction"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'Intrinsic' means coming from within. Intrinsic motivation drives behaviour because the activity itself is satisfying, not because of an external reward.",
       "hint": "The prefix 'intr-' relates to what is inside or within."
     },
@@ -117,12 +248,12 @@
       "id": "q4",
       "prompt": "What does Peter Gray's research show?",
       "options": [
-        "Children who attend more enrichment classes perform better on standardised tests.",
         "Free play has declined since the 1960s, in parallel with rising childhood anxiety and depression.",
+        "Children who attend more enrichment classes perform better on standardised tests.",
         "Finnish schools are more productive because they use more structured activities.",
         "Children prefer structured activities to unstructured play when given a choice."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay cites Peter Gray's research to establish a documented parallel between declining free play and rising childhood mental health problems.",
       "hint": "The essay uses Gray's research to support its core claim — what correlation does it cite?"
     },
@@ -144,11 +275,11 @@
       "prompt": "What does the essay mean by 'performance tends to hollow itself out by adolescence'?",
       "options": [
         "Teenagers become more productive than younger children.",
-        "Performance-driven behaviour, without underlying curiosity, tends to lose meaning and motivation as children grow older.",
         "Adolescents naturally stop performing well without parental supervision.",
+        "Performance-driven behaviour, without underlying curiosity, tends to lose meaning and motivation as children grow older.",
         "Performance is impossible to measure accurately in teenagers."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'Hollow itself out' means to become empty or meaningless from the inside — performance trained without curiosity becomes mechanical and eventually motivationally exhausted.",
       "hint": "Think about what 'hollow' means physically — an empty shell — and apply that to motivation."
     },
@@ -157,11 +288,11 @@
       "prompt": "What does 'to crowd out' mean in the context of children's time?",
       "options": [
         "To make something more visible by surrounding it with other activities",
-        "To displace or eliminate something by filling the available space",
         "To invite a large number of children to participate in an activity",
-        "To measure how much free time a child has in a week"
+        "To measure how much free time a child has in a week",
+        "To displace or eliminate something by filling the available space"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'To crowd out' means to push something out by occupying the space it would have occupied — structured activities crowd out free play by filling the time it would have used.",
       "hint": "Think of a crowd pushing something to the edges — displacement."
     },
@@ -169,12 +300,12 @@
       "id": "q8",
       "prompt": "What does research on extrinsic rewards show about children's interests?",
       "options": [
+        "Rewarding a child for an activity they already enjoy tends to reduce their interest in it over time.",
         "Rewarding children for activities they enjoy increases their long-term commitment.",
         "Extrinsic rewards have no effect on intrinsic motivation.",
-        "Rewarding a child for an activity they already enjoy tends to reduce their interest in it over time.",
         "Children respond best to rewards when the activity is difficult and unfamiliar."
       ],
-      "answerIndex": 2,
+      "answerIndex": 0,
       "explanation": "The essay cites research showing that when children are rewarded externally for something they already love, the reward replaces the intrinsic motivation and eventually reduces engagement.",
       "hint": "This is known as the 'overjustification effect' in psychology research."
     },
@@ -183,11 +314,11 @@
       "prompt": "What is the essay's main claim about 'aimlessness' and 'boredom' in childhood?",
       "options": [
         "They are signs that a child is not being sufficiently stimulated by their parents.",
-        "They are undesirable but unavoidable in children who are not over-scheduled.",
         "They are conditions in which important capacities — curiosity, resilience, self-direction — are developed.",
+        "They are undesirable but unavoidable in children who are not over-scheduled.",
         "They are temporary states that children grow out of as they become more productive."
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "explanation": "The essay argues that aimlessness and boredom are not wasteful but formative — they are the conditions in which children develop skills that cannot be produced by structured time.",
       "hint": "The final paragraph makes this argument most directly."
     },
@@ -196,11 +327,11 @@
       "prompt": "Which phrase means 'to absorb a value or belief so that it becomes part of one's own thinking'?",
       "options": [
         "to be conditioned to",
-        "to internalise",
         "to crowd out",
+        "to internalise",
         "to stifle"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'To internalise' means to take an external value or belief inside oneself so that it operates automatically, without external enforcement.",
       "hint": "The prefix 'intern-' means 'within' or 'inside'."
     },
@@ -209,11 +340,11 @@
       "prompt": "What does 'to equate worth with output' mean?",
       "options": [
         "To measure a child's productivity accurately using standardised tests",
-        "To believe that a person's value is determined by what they produce or achieve",
         "To reward children equally regardless of their performance",
-        "To compare the output of different school systems"
+        "To compare the output of different school systems",
+        "To believe that a person's value is determined by what they produce or achieve"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'Equate worth with output' means to treat a person's value as equivalent to their measurable productivity — the essay argues this is harmful when applied to children.",
       "hint": "'Worth' here means a person's value as a human being, not their test scores."
     },
@@ -221,12 +352,12 @@
       "id": "q12",
       "prompt": "Which sentence maintains B2 formal register?",
       "options": [
-        "Kids are too busy these days, it's honestly so sad, they never get to just chill.",
         "The skills that cannot be measured are not produced by more structured time. They are produced by less.",
+        "Kids are too busy these days, it's honestly so sad, they never get to just chill.",
         "Basically overscheduled kids grow up stressed which is bad obviously.",
         "Children doing too many activities = bad outcomes. Simple."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Option B uses a precise, economical contrast with an aphoristic structure appropriate for B2 analytical writing.",
       "hint": "Look for precision, no colloquialisms, and a controlled, deliberate tone."
     },
@@ -248,11 +379,11 @@
       "prompt": "What does the Finland example demonstrate at the start of the essay?",
       "options": [
         "That formal schooling should be abolished before the age of thirteen",
-        "That high performance in education can be achieved with less formal instruction time and greater freedom",
         "That Nordic countries have naturally more intelligent children",
+        "That high performance in education can be achieved with less formal instruction time and greater freedom",
         "That test-based assessment is the most reliable measure of educational success"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "Finland is used as evidence that reducing structured time and formal assessment can produce better educational outcomes — a direct counter-example to the productivity-first approach.",
       "hint": "The Finland example does what any good counter-example does — it shows the opposite of the assumed rule works better."
     },
@@ -262,10 +393,10 @@
       "options": [
         "Granted,",
         "In conclusion,",
-        "The argument is not that children should do nothing. It is that doing nothing … has been systematically undervalued.",
-        "For example,"
+        "For example,",
+        "The argument is not that children should do nothing. It is that doing nothing … has been systematically undervalued."
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "explanation": "After conceding that some structured activities have value, the essay pivots with 'The argument is not that … It is that …' — a classic concession-pivot that narrows and sharpens the claim.",
       "hint": "Look for the sentence that restates the argument more precisely after the concession."
     },
@@ -273,12 +404,12 @@
       "id": "q16",
       "prompt": "Which sentence correctly uses the present perfect passive?",
       "options": [
-        "doing nothing … was been systematically undervalued",
         "doing nothing … has been systematically undervalued",
+        "doing nothing … was been systematically undervalued",
         "doing nothing … is been systematically undervalued",
         "doing nothing … have been systematically undervalued"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The present perfect passive is 'has/have + been + past participle'. For a singular gerund subject ('doing nothing'), use 'has been'.",
       "hint": "Present perfect passive = has/have + been + past participle. Match the auxiliary to the subject."
     }

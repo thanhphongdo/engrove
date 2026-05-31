@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "Which version of the flood the museum keeps",
   "summary": "Reflect on how a regional museum, forced to choose a single account of a disaster to exhibit, inevitably canonises one community's memory and quietens another's — and whether that choice can ever be made innocently.",
-  "tags": ["Reflection", "Ethics", "History"],
+  "tags": [
+    "Reflection",
+    "Ethics",
+    "History"
+  ],
   "topic": "Who decides which version of a history survives in a museum",
   "prompt": "Write a 600–800-word reflective essay on the curator's dilemma when a single disaster is remembered differently by the people who lived through it. Ground it in one concrete case (real or plausible), trace how curatorial choices privilege one memory over another, and resist a tidy resolution. Use hedging, nominalization, and at least one complex concession.",
   "minWords": 600,
@@ -14,72 +18,270 @@
     "It would be too easy to accuse the museum of bad faith; the harder truth is that…"
   ],
   "hintVocab": [
-    {"phrase": "curatorial choice", "meaningVi": "lựa chọn của người phụ trách trưng bày"},
-    {"phrase": "canonise", "meaningVi": "phong thành chuẩn mực, biến thành phiên bản chính thức", "pronunciation": "/ˈkænənaɪz/"},
-    {"phrase": "competing memories", "meaningVi": "những ký ức đối nghịch nhau về cùng một sự kiện"},
-    {"phrase": "vernacular account", "meaningVi": "lời kể dân gian, theo cách của người dân thường", "pronunciation": "/vəˈnækjʊlə/"},
-    {"phrase": "official narrative", "meaningVi": "tường thuật chính thức"},
-    {"phrase": "to foreground", "meaningVi": "làm nổi bật lên hàng đầu"},
-    {"phrase": "to relegate", "meaningVi": "đẩy xuống vị trí thứ yếu", "pronunciation": "/ˈrelɪɡeɪt/"},
-    {"phrase": "selective emphasis", "meaningVi": "sự nhấn mạnh có chọn lọc"},
-    {"phrase": "interpretive frame", "meaningVi": "khung diễn giải, lăng kính để hiểu sự kiện"},
-    {"phrase": "to commemorate", "meaningVi": "tưởng niệm, kỷ niệm", "pronunciation": "/kəˈmeməreɪt/"},
-    {"phrase": "the disenfranchised", "meaningVi": "những người bị tước quyền, tiếng nói bị gạt ra"},
-    {"phrase": "act of erasure", "meaningVi": "hành động xoá bỏ"},
-    {"phrase": "documentary record", "meaningVi": "hồ sơ tư liệu"},
-    {"phrase": "to be implicated in", "meaningVi": "bị liên đới, dính líu vào"},
-    {"phrase": "well-intentioned", "meaningVi": "có thiện ý"},
-    {"phrase": "moral discomfort", "meaningVi": "sự khó chịu về mặt đạo đức"},
-    {"phrase": "to gloss over", "meaningVi": "lướt qua, che đậy điều khó nói"},
-    {"phrase": "plurality of accounts", "meaningVi": "sự đa dạng của các lời kể"},
-    {"phrase": "wall text", "meaningVi": "phần chữ giải thích treo trên tường bảo tàng"},
-    {"phrase": "to authenticate", "meaningVi": "xác thực, chứng nhận là thật", "pronunciation": "/ɔːˈθentɪkeɪt/"},
-    {"phrase": "institutional authority", "meaningVi": "thẩm quyền của định chế"},
-    {"phrase": "contested terrain", "meaningVi": "địa hạt tranh chấp, vùng có nhiều cách hiểu xung đột"},
-    {"phrase": "to sanitise", "meaningVi": "tẩy trắng, làm cho sạch sẽ êm tai", "pronunciation": "/ˈsænɪtaɪz/"},
-    {"phrase": "lived experience", "meaningVi": "trải nghiệm sống, điều người ta thực sự đã trải qua"},
-    {"phrase": "to defer to", "meaningVi": "nhường lại cho, tôn trọng quyền quyết định của"},
-    {"phrase": "provenance", "meaningVi": "nguồn gốc xuất xứ của hiện vật", "pronunciation": "/ˈprɒvənəns/"},
-    {"phrase": "tacit hierarchy", "meaningVi": "thứ bậc ngầm, không nói ra nhưng tồn tại"},
-    {"phrase": "redress", "meaningVi": "sự sửa chữa, đền bù cho bất công", "pronunciation": "/rɪˈdres/"},
-    {"phrase": "to bear witness", "meaningVi": "làm chứng, chứng kiến và nói ra"},
-    {"phrase": "displacement", "meaningVi": "sự di dời, mất chỗ ở", "pronunciation": "/dɪsˈpleɪsmənt/"},
-    {"phrase": "to dignify", "meaningVi": "làm cho có phẩm giá, tôn trọng"},
-    {"phrase": "epistemic humility", "meaningVi": "sự khiêm tốn về nhận thức, biết mình có thể sai"}
+    {
+      "phrase": "curatorial choice",
+      "meaningVi": "lựa chọn của người phụ trách trưng bày"
+    },
+    {
+      "phrase": "canonise",
+      "meaningVi": "phong thành chuẩn mực, biến thành phiên bản chính thức",
+      "pronunciation": "/ˈkænənaɪz/"
+    },
+    {
+      "phrase": "competing memories",
+      "meaningVi": "những ký ức đối nghịch nhau về cùng một sự kiện"
+    },
+    {
+      "phrase": "vernacular account",
+      "meaningVi": "lời kể dân gian, theo cách của người dân thường",
+      "pronunciation": "/vəˈnækjʊlə/"
+    },
+    {
+      "phrase": "official narrative",
+      "meaningVi": "tường thuật chính thức"
+    },
+    {
+      "phrase": "to foreground",
+      "meaningVi": "làm nổi bật lên hàng đầu"
+    },
+    {
+      "phrase": "to relegate",
+      "meaningVi": "đẩy xuống vị trí thứ yếu",
+      "pronunciation": "/ˈrelɪɡeɪt/"
+    },
+    {
+      "phrase": "selective emphasis",
+      "meaningVi": "sự nhấn mạnh có chọn lọc"
+    },
+    {
+      "phrase": "interpretive frame",
+      "meaningVi": "khung diễn giải, lăng kính để hiểu sự kiện"
+    },
+    {
+      "phrase": "to commemorate",
+      "meaningVi": "tưởng niệm, kỷ niệm",
+      "pronunciation": "/kəˈmeməreɪt/"
+    },
+    {
+      "phrase": "the disenfranchised",
+      "meaningVi": "những người bị tước quyền, tiếng nói bị gạt ra"
+    },
+    {
+      "phrase": "act of erasure",
+      "meaningVi": "hành động xoá bỏ"
+    },
+    {
+      "phrase": "documentary record",
+      "meaningVi": "hồ sơ tư liệu"
+    },
+    {
+      "phrase": "to be implicated in",
+      "meaningVi": "bị liên đới, dính líu vào"
+    },
+    {
+      "phrase": "well-intentioned",
+      "meaningVi": "có thiện ý"
+    },
+    {
+      "phrase": "moral discomfort",
+      "meaningVi": "sự khó chịu về mặt đạo đức"
+    },
+    {
+      "phrase": "to gloss over",
+      "meaningVi": "lướt qua, che đậy điều khó nói"
+    },
+    {
+      "phrase": "plurality of accounts",
+      "meaningVi": "sự đa dạng của các lời kể"
+    },
+    {
+      "phrase": "wall text",
+      "meaningVi": "phần chữ giải thích treo trên tường bảo tàng"
+    },
+    {
+      "phrase": "to authenticate",
+      "meaningVi": "xác thực, chứng nhận là thật",
+      "pronunciation": "/ɔːˈθentɪkeɪt/"
+    },
+    {
+      "phrase": "institutional authority",
+      "meaningVi": "thẩm quyền của định chế"
+    },
+    {
+      "phrase": "contested terrain",
+      "meaningVi": "địa hạt tranh chấp, vùng có nhiều cách hiểu xung đột"
+    },
+    {
+      "phrase": "to sanitise",
+      "meaningVi": "tẩy trắng, làm cho sạch sẽ êm tai",
+      "pronunciation": "/ˈsænɪtaɪz/"
+    },
+    {
+      "phrase": "lived experience",
+      "meaningVi": "trải nghiệm sống, điều người ta thực sự đã trải qua"
+    },
+    {
+      "phrase": "to defer to",
+      "meaningVi": "nhường lại cho, tôn trọng quyền quyết định của"
+    },
+    {
+      "phrase": "provenance",
+      "meaningVi": "nguồn gốc xuất xứ của hiện vật",
+      "pronunciation": "/ˈprɒvənəns/"
+    },
+    {
+      "phrase": "tacit hierarchy",
+      "meaningVi": "thứ bậc ngầm, không nói ra nhưng tồn tại"
+    },
+    {
+      "phrase": "redress",
+      "meaningVi": "sự sửa chữa, đền bù cho bất công",
+      "pronunciation": "/rɪˈdres/"
+    },
+    {
+      "phrase": "to bear witness",
+      "meaningVi": "làm chứng, chứng kiến và nói ra"
+    },
+    {
+      "phrase": "displacement",
+      "meaningVi": "sự di dời, mất chỗ ở",
+      "pronunciation": "/dɪsˈpleɪsmənt/"
+    },
+    {
+      "phrase": "to dignify",
+      "meaningVi": "làm cho có phẩm giá, tôn trọng"
+    },
+    {
+      "phrase": "epistemic humility",
+      "meaningVi": "sự khiêm tốn về nhận thức, biết mình có thể sai"
+    }
   ],
   "sampleText": "Not until I stood in front of the exhibit's single, authoritative caption did it occur to me that a museum cannot remember a flood; it can only choose whose memory of the flood to keep. The town was a small one on the Vistula, and the water had come in 1934, taking eleven houses and, depending on whom you asked, somewhere between four and nine lives. The caption settled on six. I have no reason to think the figure was dishonest. What unsettled me was the quiet confidence of the wording — the way a number arrived at through guesswork had been given the bearing of fact, simply by being printed on the wall.\n\nThe curator I later spoke with did not pretend the choice had been easy. She had three sources. The parish register, meticulous and partial, recorded the deaths it recognised as deaths — which is to say, the baptised, the settled, the locally accountable. The municipal report, written by an engineer with a career to protect, foregrounded the failure of an upstream sluice and relegated the human cost to a closing paragraph. And then there were the descendants of the seasonal labourers who had been camped on the floodplain that spring, whose account survived only as oral testimony, passed down and therefore, by the museum's own standards of provenance, the least authenticatable of the three. To exhibit all of them in full would have meant a wall of contradictions. To exhibit one meant deciding which contradiction the town could live with.\n\nIt would be too easy to accuse the museum of bad faith. The harder truth is that selection is not an optional sin a more scrupulous institution might avoid; it is the condition of exhibiting anything at all. A glass case holds what it holds. A caption is, by its nature, shorter than the event. Even the decision to present three accounts side by side — the curatorial gesture we now reflexively praise as honest — is itself a frame, one that quietly implies the three are commensurable, equally worth weighing, when the people who lived the flood would have insisted they were nothing of the kind.\n\nWhat the curator presents as neutral selection is, on closer inspection, an act with consequences for the living. The labourers' descendants had asked, modestly, that the camp on the floodplain be named in the wall text. It was not. The omission was not malicious; the engineer's report had not mentioned the camp, and the parish register could not, since the camp's dead were not its parishioners. The museum, in deferring to its more authenticatable sources, had reproduced the very hierarchy that had let those deaths go uncounted the first time. Institutional authority, applied conscientiously, had laundered an old erasure into a clean and defensible exhibit.\n\nI do not think the answer is to abandon judgement and display everything, as though a museum of undifferentiated rumour would be more truthful than one that chooses. A record that refuses to distinguish the better-evidenced from the worse is not humble; it is merely useless. Yet the case suggests something the profession is reluctant to say aloud: that the standards by which we decide what counts as evidence are not innocent of power, and that the communities best at producing documents are rarely the communities most in need of being remembered. The seasonal labourers left no register because no one thought their lives worth registering — and that same silence then disqualifies their memory in the present.\n\nWhat would epistemic humility look like here? Not, I think, a grand confession printed on the wall. Something smaller. The camp could have been named, with a candid note that the figure was uncertain and the sources in tension. The caption could have admitted its own selectiveness rather than performing the bearing of fact. None of this would resolve the dilemma; nothing resolves it. But it would refuse the one move I find hardest to forgive — the move by which a guess becomes a finding, a finding becomes the record, and the record quietly forgets that anyone was ever left out. To preserve a history is, unavoidably, to decide which version of it survives. The least we can do is decline to pretend we did not decide.",
   "sampleAnnotations": [
-    {"phrase": "a museum cannot remember a flood; it can only choose whose memory of the flood to keep", "meaningVi": "một bảo tàng không thể ghi nhớ một trận lụt; nó chỉ có thể chọn giữ lại ký ức của ai về trận lụt đó"},
-    {"phrase": "the quiet confidence of the wording", "meaningVi": "sự tự tin lặng lẽ trong cách diễn đạt"},
-    {"phrase": "a number arrived at through guesswork had been given the bearing of fact", "meaningVi": "một con số đến từ phỏng đoán lại được khoác lên dáng vẻ của sự thật"},
-    {"phrase": "the baptised, the settled, the locally accountable", "meaningVi": "những người đã rửa tội, đã định cư, được tính sổ tại địa phương"},
-    {"phrase": "foregrounded the failure of an upstream sluice and relegated the human cost", "meaningVi": "làm nổi bật sự cố của cống xả ở thượng nguồn và đẩy tổn thất con người xuống thứ yếu"},
-    {"phrase": "survived only as oral testimony", "meaningVi": "chỉ tồn tại dưới dạng lời chứng truyền miệng"},
-    {"phrase": "the least authenticatable of the three", "meaningVi": "khó xác thực nhất trong ba nguồn"},
-    {"phrase": "deciding which contradiction the town could live with", "meaningVi": "quyết định mâu thuẫn nào mà thị trấn có thể chấp nhận sống chung"},
-    {"phrase": "selection is not an optional sin a more scrupulous institution might avoid", "meaningVi": "sự chọn lọc không phải là một tội lỗi tuỳ chọn mà một định chế cẩn trọng hơn có thể tránh"},
-    {"phrase": "it is the condition of exhibiting anything at all", "meaningVi": "đó là điều kiện tiên quyết để trưng bày bất cứ thứ gì"},
-    {"phrase": "A caption is, by its nature, shorter than the event", "meaningVi": "Một dòng chú thích, theo bản chất, ngắn hơn chính sự kiện"},
-    {"phrase": "implies the three are commensurable", "meaningVi": "ngụ ý rằng ba nguồn đó có thể so sánh ngang bằng nhau"},
-    {"phrase": "an act with consequences for the living", "meaningVi": "một hành động có hậu quả với người đang sống"},
-    {"phrase": "had reproduced the very hierarchy that had let those deaths go uncounted", "meaningVi": "đã tái tạo chính thứ bậc đã khiến những cái chết đó không được đếm đến"},
-    {"phrase": "had laundered an old erasure into a clean and defensible exhibit", "meaningVi": "đã tẩy trắng một sự xoá bỏ cũ thành một triển lãm sạch sẽ và có thể bào chữa"},
-    {"phrase": "as though a museum of undifferentiated rumour would be more truthful", "meaningVi": "như thể một bảo tàng toàn tin đồn không phân biệt sẽ trung thực hơn"},
-    {"phrase": "the standards by which we decide what counts as evidence are not innocent of power", "meaningVi": "những tiêu chuẩn ta dùng để quyết định cái gì là bằng chứng không hề vô can với quyền lực"},
-    {"phrase": "the communities best at producing documents are rarely the communities most in need of being remembered", "meaningVi": "những cộng đồng giỏi tạo ra tài liệu hiếm khi là những cộng đồng cần được ghi nhớ nhất"},
-    {"phrase": "that same silence then disqualifies their memory in the present", "meaningVi": "chính sự im lặng đó rồi lại loại bỏ tư cách ký ức của họ trong hiện tại"},
-    {"phrase": "What would epistemic humility look like here?", "meaningVi": "Sự khiêm tốn về nhận thức ở đây sẽ trông như thế nào?"},
-    {"phrase": "a candid note that the figure was uncertain and the sources in tension", "meaningVi": "một ghi chú thẳng thắn rằng con số là không chắc chắn và các nguồn mâu thuẫn nhau"},
-    {"phrase": "performing the bearing of fact", "meaningVi": "trình diễn dáng vẻ của sự thật"},
-    {"phrase": "None of this would resolve the dilemma; nothing resolves it", "meaningVi": "Không điều nào trong số đó giải quyết được tình thế lưỡng nan; chẳng có gì giải quyết được nó cả"},
-    {"phrase": "a guess becomes a finding, a finding becomes the record", "meaningVi": "một phỏng đoán trở thành một phát hiện, một phát hiện trở thành hồ sơ chính thức"},
-    {"phrase": "To preserve a history is, unavoidably, to decide which version of it survives", "meaningVi": "Bảo tồn một lịch sử, không thể tránh khỏi, là quyết định phiên bản nào của nó sẽ sống sót"},
-    {"phrase": "The least we can do is decline to pretend we did not decide", "meaningVi": "Điều tối thiểu ta có thể làm là từ chối giả vờ rằng mình đã không hề quyết định"},
-    {"phrase": "with a career to protect", "meaningVi": "với một sự nghiệp cần bảo vệ"},
-    {"phrase": "passed down", "meaningVi": "được truyền lại qua các thế hệ"},
-    {"phrase": "The omission was not malicious", "meaningVi": "Sự bỏ sót đó không phải ác ý"},
-    {"phrase": "applied conscientiously", "meaningVi": "được áp dụng một cách tận tâm"},
-    {"phrase": "the one move I find hardest to forgive", "meaningVi": "động thái mà tôi thấy khó tha thứ nhất"}
+    {
+      "phrase": "a museum cannot remember a flood; it can only choose whose memory of the flood to keep",
+      "meaningVi": "một bảo tàng không thể ghi nhớ một trận lụt; nó chỉ có thể chọn giữ lại ký ức của ai về trận lụt đó"
+    },
+    {
+      "phrase": "the quiet confidence of the wording",
+      "meaningVi": "sự tự tin lặng lẽ trong cách diễn đạt"
+    },
+    {
+      "phrase": "a number arrived at through guesswork had been given the bearing of fact",
+      "meaningVi": "một con số đến từ phỏng đoán lại được khoác lên dáng vẻ của sự thật"
+    },
+    {
+      "phrase": "the baptised, the settled, the locally accountable",
+      "meaningVi": "những người đã rửa tội, đã định cư, được tính sổ tại địa phương"
+    },
+    {
+      "phrase": "foregrounded the failure of an upstream sluice and relegated the human cost",
+      "meaningVi": "làm nổi bật sự cố của cống xả ở thượng nguồn và đẩy tổn thất con người xuống thứ yếu"
+    },
+    {
+      "phrase": "survived only as oral testimony",
+      "meaningVi": "chỉ tồn tại dưới dạng lời chứng truyền miệng"
+    },
+    {
+      "phrase": "the least authenticatable of the three",
+      "meaningVi": "khó xác thực nhất trong ba nguồn"
+    },
+    {
+      "phrase": "deciding which contradiction the town could live with",
+      "meaningVi": "quyết định mâu thuẫn nào mà thị trấn có thể chấp nhận sống chung"
+    },
+    {
+      "phrase": "selection is not an optional sin a more scrupulous institution might avoid",
+      "meaningVi": "sự chọn lọc không phải là một tội lỗi tuỳ chọn mà một định chế cẩn trọng hơn có thể tránh"
+    },
+    {
+      "phrase": "it is the condition of exhibiting anything at all",
+      "meaningVi": "đó là điều kiện tiên quyết để trưng bày bất cứ thứ gì"
+    },
+    {
+      "phrase": "A caption is, by its nature, shorter than the event",
+      "meaningVi": "Một dòng chú thích, theo bản chất, ngắn hơn chính sự kiện"
+    },
+    {
+      "phrase": "implies the three are commensurable",
+      "meaningVi": "ngụ ý rằng ba nguồn đó có thể so sánh ngang bằng nhau"
+    },
+    {
+      "phrase": "an act with consequences for the living",
+      "meaningVi": "một hành động có hậu quả với người đang sống"
+    },
+    {
+      "phrase": "had reproduced the very hierarchy that had let those deaths go uncounted",
+      "meaningVi": "đã tái tạo chính thứ bậc đã khiến những cái chết đó không được đếm đến"
+    },
+    {
+      "phrase": "had laundered an old erasure into a clean and defensible exhibit",
+      "meaningVi": "đã tẩy trắng một sự xoá bỏ cũ thành một triển lãm sạch sẽ và có thể bào chữa"
+    },
+    {
+      "phrase": "as though a museum of undifferentiated rumour would be more truthful",
+      "meaningVi": "như thể một bảo tàng toàn tin đồn không phân biệt sẽ trung thực hơn"
+    },
+    {
+      "phrase": "the standards by which we decide what counts as evidence are not innocent of power",
+      "meaningVi": "những tiêu chuẩn ta dùng để quyết định cái gì là bằng chứng không hề vô can với quyền lực"
+    },
+    {
+      "phrase": "the communities best at producing documents are rarely the communities most in need of being remembered",
+      "meaningVi": "những cộng đồng giỏi tạo ra tài liệu hiếm khi là những cộng đồng cần được ghi nhớ nhất"
+    },
+    {
+      "phrase": "that same silence then disqualifies their memory in the present",
+      "meaningVi": "chính sự im lặng đó rồi lại loại bỏ tư cách ký ức của họ trong hiện tại"
+    },
+    {
+      "phrase": "What would epistemic humility look like here?",
+      "meaningVi": "Sự khiêm tốn về nhận thức ở đây sẽ trông như thế nào?"
+    },
+    {
+      "phrase": "a candid note that the figure was uncertain and the sources in tension",
+      "meaningVi": "một ghi chú thẳng thắn rằng con số là không chắc chắn và các nguồn mâu thuẫn nhau"
+    },
+    {
+      "phrase": "performing the bearing of fact",
+      "meaningVi": "trình diễn dáng vẻ của sự thật"
+    },
+    {
+      "phrase": "None of this would resolve the dilemma; nothing resolves it",
+      "meaningVi": "Không điều nào trong số đó giải quyết được tình thế lưỡng nan; chẳng có gì giải quyết được nó cả"
+    },
+    {
+      "phrase": "a guess becomes a finding, a finding becomes the record",
+      "meaningVi": "một phỏng đoán trở thành một phát hiện, một phát hiện trở thành hồ sơ chính thức"
+    },
+    {
+      "phrase": "To preserve a history is, unavoidably, to decide which version of it survives",
+      "meaningVi": "Bảo tồn một lịch sử, không thể tránh khỏi, là quyết định phiên bản nào của nó sẽ sống sót"
+    },
+    {
+      "phrase": "The least we can do is decline to pretend we did not decide",
+      "meaningVi": "Điều tối thiểu ta có thể làm là từ chối giả vờ rằng mình đã không hề quyết định"
+    },
+    {
+      "phrase": "with a career to protect",
+      "meaningVi": "với một sự nghiệp cần bảo vệ"
+    },
+    {
+      "phrase": "passed down",
+      "meaningVi": "được truyền lại qua các thế hệ"
+    },
+    {
+      "phrase": "The omission was not malicious",
+      "meaningVi": "Sự bỏ sót đó không phải ác ý"
+    },
+    {
+      "phrase": "applied conscientiously",
+      "meaningVi": "được áp dụng một cách tận tâm"
+    },
+    {
+      "phrase": "the one move I find hardest to forgive",
+      "meaningVi": "động thái mà tôi thấy khó tha thứ nhất"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -113,11 +315,11 @@
       "prompt": "According to the essay, why is selection 'not an optional sin a more scrupulous institution might avoid'?",
       "options": [
         "Because all curators are secretly biased against minorities.",
-        "Because exhibiting anything at all requires choosing, since a case and a caption are necessarily smaller than the event.",
         "Because museums lack the budget to display every account.",
+        "Because exhibiting anything at all requires choosing, since a case and a caption are necessarily smaller than the event.",
         "Because visitors prefer a single clear story to several confusing ones."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay argues selection is the very condition of display: 'A glass case holds what it holds. A caption is, by its nature, shorter than the event.'",
       "hint": "Look at what the essay says is the 'condition of exhibiting anything at all'."
     },
@@ -126,11 +328,11 @@
       "prompt": "What does the essay mean by saying the museum 'had laundered an old erasure into a clean and defensible exhibit'?",
       "options": [
         "The museum physically cleaned old flood-damaged documents.",
-        "By relying on its most authenticatable sources, the museum repeated and legitimised an original act of omission.",
         "The museum fabricated documents to support its preferred story.",
-        "The museum removed offensive material to avoid controversy."
+        "The museum removed offensive material to avoid controversy.",
+        "By relying on its most authenticatable sources, the museum repeated and legitimised an original act of omission."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'Laundered' here is metaphorical: conscientious procedure reproduced the same hierarchy that had let the labourers' deaths go uncounted, giving the old erasure a respectable new form.",
       "hint": "'Launder' implies making something dubious look legitimate."
     },
@@ -138,12 +340,12 @@
       "id": "q4",
       "prompt": "Why could the parish register not record the camp's dead?",
       "options": [
-        "Because the register was destroyed in the flood.",
         "Because the camp's dead were not parishioners, and the register only recorded those it recognised as locally accountable.",
+        "Because the register was destroyed in the flood.",
         "Because the priest deliberately concealed the deaths.",
         "Because the engineer ordered the names removed."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The register recorded 'the baptised, the settled, the locally accountable' — by definition excluding the seasonal labourers camped on the floodplain.",
       "hint": "Look at who the register counted as belonging to the parish."
     },
@@ -165,11 +367,11 @@
       "prompt": "The essay rejects the idea of 'displaying everything'. Why?",
       "options": [
         "Because it would offend the descendants of the labourers.",
-        "Because a record that refuses to distinguish better-evidenced from worse accounts is not humble but merely useless.",
         "Because museums are legally required to verify all claims.",
+        "Because a record that refuses to distinguish better-evidenced from worse accounts is not humble but merely useless.",
         "Because oral testimony is always unreliable."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay says abandoning judgement entirely produces 'a museum of undifferentiated rumour' that is 'not humble; it is merely useless'.",
       "hint": "The writer distinguishes humility from refusing to judge at all."
     },
@@ -179,10 +381,10 @@
       "options": [
         "Museums are biased, so they should be abolished.",
         "There are pros and cons to displaying one account versus several.",
-        "I do not think the answer is to abandon judgement and display everything … Yet the case suggests something the profession is reluctant to say aloud: that the standards by which we decide what counts as evidence are not innocent of power.",
-        "Curators should always defer to oral testimony over written records."
+        "Curators should always defer to oral testimony over written records.",
+        "I do not think the answer is to abandon judgement and display everything … Yet the case suggests something the profession is reluctant to say aloud: that the standards by which we decide what counts as evidence are not innocent of power."
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "explanation": "Option C grants the opposing position fully (don't display everything), then uses 'Yet…' to introduce a narrowed, qualified counter-claim — the structure of a complex C1 concession.",
       "hint": "Look for a full grant of the objection followed by a restricting 'Yet…'."
     },
@@ -190,12 +392,12 @@
       "id": "q8",
       "prompt": "Which option uses the best cohesion device to follow the sentence 'The omission was not malicious'?",
       "options": [
-        "Also, the museum had a gift shop near the exit.",
         "The engineer's report had not mentioned the camp, and the parish register could not — so the museum simply reproduced an older silence.",
+        "Also, the museum had a gift shop near the exit.",
         "Malicious means having intent to harm someone.",
         "In today's museums, omissions happen all the time for many reasons."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Option B uses a causal chain ('had not mentioned … could not … so') that explains the non-malicious omission and links it to the essay's argument about reproduced silence; the others are off-topic, definitional, or vague filler.",
       "hint": "Which option explains WHY the omission happened and ties back to the argument?"
     },
@@ -217,11 +419,11 @@
       "prompt": "What is the rhetorical point of 'a guess becomes a finding, a finding becomes the record'?",
       "options": [
         "It praises the rigour of the museum's documentation process.",
-        "It traces, through escalating stages, how uncertain information is gradually hardened into authoritative fact and the original doubt forgotten.",
         "It argues that all findings are guesses and therefore worthless.",
+        "It traces, through escalating stages, how uncertain information is gradually hardened into authoritative fact and the original doubt forgotten.",
         "It describes the legal process of authenticating an artefact."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The chained clauses dramatise a creeping certainty: each step launders the uncertainty of the last until 'the record quietly forgets that anyone was ever left out'.",
       "hint": "Notice the escalating chain and where it ends."
     },
@@ -230,11 +432,11 @@
       "prompt": "Which sentence is grammatical, on-topic, and matches the essay's reflective register?",
       "options": [
         "The museum totally messed up by leaving the camp guys out of the story.",
-        "What unsettled me was the quiet confidence of the wording — the way a guess had been given the bearing of fact.",
         "It is a well-known fact that museums always lie to the public about everything.",
-        "Pursuant to curatorial protocol, the exhibit's evidentiary basis was duly authenticated."
+        "Pursuant to curatorial protocol, the exhibit's evidentiary basis was duly authenticated.",
+        "What unsettled me was the quiet confidence of the wording — the way a guess had been given the bearing of fact."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "Option B is reflective and precise; A is too casual, C overstates with a sweeping falsehood, and D is wrongly bureaucratic for a personal essay.",
       "hint": "Match the essay's thoughtful, first-person register — not slang, not legalese, not absolutist."
     },
@@ -242,12 +444,12 @@
       "id": "q12",
       "prompt": "Which paraphrase is closest to 'the communities best at producing documents are rarely the communities most in need of being remembered'?",
       "options": [
-        "Well-documented communities deserve more attention than poorly documented ones.",
         "The people with the records to prove their history are usually not the people history has neglected — so evidence and need pull in opposite directions.",
+        "Well-documented communities deserve more attention than poorly documented ones.",
         "Every community should learn to keep better written records.",
         "Memory is unimportant compared with documentary evidence."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The line argues evidentiary capacity and moral need are inversely related; option B captures that tension, while the others invert or miss the point.",
       "hint": "Notice that the sentence sets documentary ability against need to be remembered."
     },
@@ -268,12 +470,12 @@
       "id": "q14",
       "prompt": "Which word best fills the gap, matching C1 register? 'The museum, in ___ to its more authenticatable sources, reproduced an old hierarchy.'",
       "options": [
-        "deferring",
         "giving up",
         "looking",
+        "deferring",
         "bossing"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Deferring to' (yielding authority to) is the precise, formal collocation; the others are wrong register or wrong meaning.",
       "hint": "Which verb means 'yielding authority to' and collocates with 'to its sources'?"
     },
@@ -282,11 +484,11 @@
       "prompt": "What is the function of the final sentence, 'The least we can do is decline to pretend we did not decide'?",
       "options": [
         "It offers a complete solution that resolves the curator's dilemma.",
-        "It refuses false resolution — accepting that selection is unavoidable while insisting the act of choosing be acknowledged rather than disguised.",
         "It blames individual curators for systemic problems.",
-        "It recommends that museums stop selecting altogether."
+        "It recommends that museums stop selecting altogether.",
+        "It refuses false resolution — accepting that selection is unavoidable while insisting the act of choosing be acknowledged rather than disguised."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The closing holds the paradox open: it does not solve the dilemma but asks only that the inevitable choosing not be hidden behind the 'bearing of fact'.",
       "hint": "The essay said nothing 'resolves' the dilemma — so what is the modest demand it ends on?"
     },
@@ -294,12 +496,12 @@
       "id": "q16",
       "prompt": "Which option preserves the hedged tone the prompt requires?",
       "options": [
-        "Museums always erase the poor on purpose.",
         "The case suggests something the profession is reluctant to say aloud.",
+        "Museums always erase the poor on purpose.",
         "It is obvious that the curator acted in bad faith.",
         "Nobody in a museum has ever told the truth."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'Suggests' and 'reluctant to say' hedge the claim appropriately; the other options are absolute or accusatory, breaking the essay's careful register.",
       "hint": "Hedging means softening the claim — look for tentative verbs."
     }

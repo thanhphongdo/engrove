@@ -3,7 +3,11 @@
   "level": "A1",
   "title": "A weekly call to my mother",
   "summary": "Reflect on the weekly phone call you make to your mother.",
-  "tags": ["Family", "Habit", "Phone"],
+  "tags": [
+    "Family",
+    "Habit",
+    "Phone"
+  ],
   "topic": "A weekly call to my mother",
   "prompt": "Write 6–8 short sentences about a phone call you make every week to your mother. Describe when you call, what you talk about, and why it matters. Use present simple.",
   "minWords": 150,
@@ -14,31 +18,97 @@
     "I feel better after the call because…"
   ],
   "hintVocab": [
-    { "phrase": "call my mother", "meaningVi": "gọi điện cho mẹ" },
-    { "phrase": "phone call", "meaningVi": "cuộc gọi điện thoại" },
-    { "phrase": "video call", "meaningVi": "cuộc gọi video" },
-    { "phrase": "weather", "meaningVi": "thời tiết" },
-    { "phrase": "tell stories", "meaningVi": "kể chuyện" },
-    { "phrase": "miss someone", "meaningVi": "nhớ ai đó" },
-    { "phrase": "voice", "meaningVi": "giọng nói" },
-    { "phrase": "the neighbors", "meaningVi": "hàng xóm" },
-    { "phrase": "ask about", "meaningVi": "hỏi về" },
-    { "phrase": "feel calm", "meaningVi": "cảm thấy bình yên" },
-    { "phrase": "live far away", "meaningVi": "sống xa" }
+    {
+      "phrase": "call my mother",
+      "meaningVi": "gọi điện cho mẹ"
+    },
+    {
+      "phrase": "phone call",
+      "meaningVi": "cuộc gọi điện thoại"
+    },
+    {
+      "phrase": "video call",
+      "meaningVi": "cuộc gọi video"
+    },
+    {
+      "phrase": "weather",
+      "meaningVi": "thời tiết"
+    },
+    {
+      "phrase": "tell stories",
+      "meaningVi": "kể chuyện"
+    },
+    {
+      "phrase": "miss someone",
+      "meaningVi": "nhớ ai đó"
+    },
+    {
+      "phrase": "voice",
+      "meaningVi": "giọng nói"
+    },
+    {
+      "phrase": "the neighbors",
+      "meaningVi": "hàng xóm"
+    },
+    {
+      "phrase": "ask about",
+      "meaningVi": "hỏi về"
+    },
+    {
+      "phrase": "feel calm",
+      "meaningVi": "cảm thấy bình yên"
+    },
+    {
+      "phrase": "live far away",
+      "meaningVi": "sống xa"
+    }
   ],
   "sampleText": "I call my mother every Sunday evening. She lives in a small town and I live far away in a big city. The call is usually a video call on my phone. We talk for about thirty minutes. We always talk about the weather first, because she likes to know if it is cold or warm in my city. Then she tells me stories about the neighbors and the family. She asks me about my work, my food, and my friends. I tell her about small things. She does not need big news. She likes to hear my voice. Sometimes she shows me her garden through the camera. She is proud of her tomatoes and her flowers. I miss her, but the call helps me feel close to her. When I close the phone, I feel calm. I think a weekly call is a small thing, but it keeps a family together when people live far away.",
   "sampleAnnotations": [
-    { "phrase": "call my mother", "meaningVi": "gọi điện cho mẹ" },
-    { "phrase": "small town", "meaningVi": "thị trấn nhỏ" },
-    { "phrase": "live far away", "meaningVi": "sống xa" },
-    { "phrase": "video call", "meaningVi": "cuộc gọi video" },
-    { "phrase": "talk about the weather", "meaningVi": "nói về thời tiết" },
-    { "phrase": "tells me stories", "meaningVi": "kể tôi nghe những câu chuyện" },
-    { "phrase": "asks me about my work", "meaningVi": "hỏi tôi về công việc" },
-    { "phrase": "hear my voice", "meaningVi": "nghe giọng tôi" },
-    { "phrase": "proud of her tomatoes", "meaningVi": "tự hào về những trái cà chua của mẹ" },
-    { "phrase": "feel calm", "meaningVi": "cảm thấy bình yên" },
-    { "phrase": "keeps a family together", "meaningVi": "giữ gia đình gắn kết" }
+    {
+      "phrase": "call my mother",
+      "meaningVi": "gọi điện cho mẹ"
+    },
+    {
+      "phrase": "small town",
+      "meaningVi": "thị trấn nhỏ"
+    },
+    {
+      "phrase": "live far away",
+      "meaningVi": "sống xa"
+    },
+    {
+      "phrase": "video call",
+      "meaningVi": "cuộc gọi video"
+    },
+    {
+      "phrase": "talk about the weather",
+      "meaningVi": "nói về thời tiết"
+    },
+    {
+      "phrase": "tells me stories",
+      "meaningVi": "kể tôi nghe những câu chuyện"
+    },
+    {
+      "phrase": "asks me about my work",
+      "meaningVi": "hỏi tôi về công việc"
+    },
+    {
+      "phrase": "hear my voice",
+      "meaningVi": "nghe giọng tôi"
+    },
+    {
+      "phrase": "proud of her tomatoes",
+      "meaningVi": "tự hào về những trái cà chua của mẹ"
+    },
+    {
+      "phrase": "feel calm",
+      "meaningVi": "cảm thấy bình yên"
+    },
+    {
+      "phrase": "keeps a family together",
+      "meaningVi": "giữ gia đình gắn kết"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -85,11 +155,11 @@
       "prompt": "What do they talk about first?",
       "options": [
         "The neighbors",
-        "The weather",
         "The garden",
-        "Family news"
+        "Family news",
+        "The weather"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The text says 'We always talk about the weather first'.",
       "hint": "Find the word 'first' in the text."
     },
@@ -97,12 +167,12 @@
       "id": "q4",
       "prompt": "Which sentence uses 'every' correctly?",
       "options": [
-        "I call my mother every Sundays evening.",
         "I call my mother every Sunday evening.",
+        "I call my mother every Sundays evening.",
         "I call my mother in every Sunday evening.",
         "I call my mother every of Sunday evening."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'every + singular noun': 'every Sunday evening', not 'Sundays'.",
       "hint": "After 'every', use a singular noun."
     },
@@ -124,11 +194,11 @@
       "prompt": "What is the mother proud of?",
       "options": [
         "Her cooking and her cat",
-        "Her tomatoes and her flowers",
         "Her dog and her chair",
+        "Her tomatoes and her flowers",
         "Her neighbors and her bread"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The text says 'She is proud of her tomatoes and her flowers'.",
       "hint": "Look for the two things she is proud of."
     },
@@ -137,11 +207,11 @@
       "prompt": "Why does her mother like to know about the weather?",
       "options": [
         "Because she wants to visit",
-        "Because she likes to know if it is cold or warm in the writer's city",
         "Because she is a weather reporter",
-        "Because she has no TV"
+        "Because she has no TV",
+        "Because she likes to know if it is cold or warm in the writer's city"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The text says 'because she likes to know if it is cold or warm in my city'.",
       "hint": "Look at the clause after 'because'."
     },
@@ -149,12 +219,12 @@
       "id": "q8",
       "prompt": "Which sentence is correct present simple negative?",
       "options": [
-        "She not need big news.",
         "She does not need big news.",
+        "She not need big news.",
         "She do not need big news.",
         "She no need big news."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Third person singular negative: 'does not need'.",
       "hint": "Use 'does not' with 'she'."
     },
@@ -163,11 +233,11 @@
       "prompt": "Which linker fits: 'I miss her, ___ the call helps me feel close to her.'",
       "options": [
         "because",
-        "so",
         "but",
+        "so",
         "and"
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "explanation": "'but' joins two contrasting ideas (missing her vs. feeling close).",
       "hint": "We need a contrast linker."
     },
@@ -176,11 +246,11 @@
       "prompt": "What does the writer think a weekly call is?",
       "options": [
         "A waste of time",
-        "A small thing that keeps a family together",
         "A duty she does not enjoy",
+        "A small thing that keeps a family together",
         "Something only old people do"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The text says 'a weekly call is a small thing, but it keeps a family together'.",
       "hint": "Find the writer's final reflection."
     }

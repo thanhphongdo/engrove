@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "The cleaner who reads a ward by smell",
   "summary": "Argue whether a hospital should credential and standardise the tacit, almost-invisible judgement of its night-shift cleaners, or whether formalising that knowledge would destroy the very thing that makes it worth having.",
-  "tags": ["Argument", "Work", "Expertise"],
+  "tags": [
+    "Argument",
+    "Work",
+    "Expertise"
+  ],
   "topic": "Whether the invisible expertise of low-status work should be formalised",
   "prompt": "Write a 600–800-word argumentative essay on whether a hospital should credential and standardise the practical judgement of its lowest-paid cleaning staff. Take a position, but grant the strongest version of the opposing view before qualifying your own. Ground the argument in one concrete person or ward. Use hedging, at least one complex concession, and deliberate cohesive linking; avoid both sentimentality and a tidy resolution.",
   "minWords": 600,
@@ -14,73 +18,275 @@
     "I want to resist the easy conclusion that recognition is always benign, because…"
   ],
   "hintVocab": [
-    {"phrase": "tacit knowledge", "meaningVi": "tri thức ngầm, biết mà khó nói thành lời"},
-    {"phrase": "to codify", "meaningVi": "hệ thống hoá thành quy tắc thành văn", "pronunciation": "/ˈkəʊdɪfaɪ/"},
-    {"phrase": "to credential", "meaningVi": "cấp chứng chỉ hành nghề cho", "pronunciation": "/krɪˈdenʃl/"},
-    {"phrase": "to standardise", "meaningVi": "chuẩn hoá", "pronunciation": "/ˈstændədaɪz/"},
-    {"phrase": "discretion", "meaningVi": "quyền tự quyết, sự linh hoạt phán đoán", "pronunciation": "/dɪˈskreʃn/"},
-    {"phrase": "situated judgement", "meaningVi": "phán đoán gắn với bối cảnh cụ thể"},
-    {"phrase": "menial work", "meaningVi": "công việc tay chân bị coi là thấp kém", "pronunciation": "/ˈmiːniəl/"},
-    {"phrase": "to deskill", "meaningVi": "làm cho mất kỹ năng, biến thành thao tác máy móc"},
-    {"phrase": "pattern recognition", "meaningVi": "khả năng nhận ra quy luật, dấu hiệu"},
-    {"phrase": "to pathologise", "meaningVi": "biến thành vấn đề y học, gắn nhãn bệnh lý"},
-    {"phrase": "occupational hierarchy", "meaningVi": "thứ bậc nghề nghiệp"},
-    {"phrase": "front-line staff", "meaningVi": "nhân viên tuyến đầu"},
-    {"phrase": "to be undervalued", "meaningVi": "bị đánh giá thấp"},
-    {"phrase": "rote procedure", "meaningVi": "quy trình làm theo thói quen máy móc"},
-    {"phrase": "intuition", "meaningVi": "trực giác", "pronunciation": "/ˌɪntjuˈɪʃn/"},
-    {"phrase": "audit trail", "meaningVi": "dấu vết để kiểm tra, hồ sơ truy xuất"},
-    {"phrase": "to formalise", "meaningVi": "chính thức hoá, đưa vào khuôn khổ quy định"},
-    {"phrase": "embodied skill", "meaningVi": "kỹ năng nằm trong cơ thể, học bằng tay chân"},
-    {"phrase": "metric", "meaningVi": "chỉ số đo lường", "pronunciation": "/ˈmetrɪk/"},
-    {"phrase": "to atrophy", "meaningVi": "teo đi, mai một dần", "pronunciation": "/ˈætrəfi/"},
-    {"phrase": "early warning sign", "meaningVi": "dấu hiệu cảnh báo sớm"},
-    {"phrase": "infection control", "meaningVi": "kiểm soát nhiễm khuẩn"},
-    {"phrase": "to dignify", "meaningVi": "làm cho có phẩm giá, tôn trọng"},
-    {"phrase": "labour of attention", "meaningVi": "công việc đòi hỏi sự chú tâm"},
-    {"phrase": "to bureaucratise", "meaningVi": "biến thành thủ tục hành chính rườm rà"},
-    {"phrase": "wage floor", "meaningVi": "mức lương sàn, lương tối thiểu"},
-    {"phrase": "to reify", "meaningVi": "vật hoá, biến cái trừu tượng thành đối tượng cứng nhắc", "pronunciation": "/ˈriːɪfaɪ/"},
-    {"phrase": "professional status", "meaningVi": "địa vị nghề nghiệp được công nhận"},
-    {"phrase": "double-edged", "meaningVi": "lợi bất cập hại, có hai mặt"},
-    {"phrase": "to legitimise", "meaningVi": "hợp thức hoá, làm cho chính đáng", "pronunciation": "/lɪˈdʒɪtɪmaɪz/"},
-    {"phrase": "institutional memory", "meaningVi": "ký ức, kinh nghiệm tích luỹ của tổ chức"},
-    {"phrase": "to ring true", "meaningVi": "nghe có vẻ đúng, thuyết phục"}
+    {
+      "phrase": "tacit knowledge",
+      "meaningVi": "tri thức ngầm, biết mà khó nói thành lời"
+    },
+    {
+      "phrase": "to codify",
+      "meaningVi": "hệ thống hoá thành quy tắc thành văn",
+      "pronunciation": "/ˈkəʊdɪfaɪ/"
+    },
+    {
+      "phrase": "to credential",
+      "meaningVi": "cấp chứng chỉ hành nghề cho",
+      "pronunciation": "/krɪˈdenʃl/"
+    },
+    {
+      "phrase": "to standardise",
+      "meaningVi": "chuẩn hoá",
+      "pronunciation": "/ˈstændədaɪz/"
+    },
+    {
+      "phrase": "discretion",
+      "meaningVi": "quyền tự quyết, sự linh hoạt phán đoán",
+      "pronunciation": "/dɪˈskreʃn/"
+    },
+    {
+      "phrase": "situated judgement",
+      "meaningVi": "phán đoán gắn với bối cảnh cụ thể"
+    },
+    {
+      "phrase": "menial work",
+      "meaningVi": "công việc tay chân bị coi là thấp kém",
+      "pronunciation": "/ˈmiːniəl/"
+    },
+    {
+      "phrase": "to deskill",
+      "meaningVi": "làm cho mất kỹ năng, biến thành thao tác máy móc"
+    },
+    {
+      "phrase": "pattern recognition",
+      "meaningVi": "khả năng nhận ra quy luật, dấu hiệu"
+    },
+    {
+      "phrase": "to pathologise",
+      "meaningVi": "biến thành vấn đề y học, gắn nhãn bệnh lý"
+    },
+    {
+      "phrase": "occupational hierarchy",
+      "meaningVi": "thứ bậc nghề nghiệp"
+    },
+    {
+      "phrase": "front-line staff",
+      "meaningVi": "nhân viên tuyến đầu"
+    },
+    {
+      "phrase": "to be undervalued",
+      "meaningVi": "bị đánh giá thấp"
+    },
+    {
+      "phrase": "rote procedure",
+      "meaningVi": "quy trình làm theo thói quen máy móc"
+    },
+    {
+      "phrase": "intuition",
+      "meaningVi": "trực giác",
+      "pronunciation": "/ˌɪntjuˈɪʃn/"
+    },
+    {
+      "phrase": "audit trail",
+      "meaningVi": "dấu vết để kiểm tra, hồ sơ truy xuất"
+    },
+    {
+      "phrase": "to formalise",
+      "meaningVi": "chính thức hoá, đưa vào khuôn khổ quy định"
+    },
+    {
+      "phrase": "embodied skill",
+      "meaningVi": "kỹ năng nằm trong cơ thể, học bằng tay chân"
+    },
+    {
+      "phrase": "metric",
+      "meaningVi": "chỉ số đo lường",
+      "pronunciation": "/ˈmetrɪk/"
+    },
+    {
+      "phrase": "to atrophy",
+      "meaningVi": "teo đi, mai một dần",
+      "pronunciation": "/ˈætrəfi/"
+    },
+    {
+      "phrase": "early warning sign",
+      "meaningVi": "dấu hiệu cảnh báo sớm"
+    },
+    {
+      "phrase": "infection control",
+      "meaningVi": "kiểm soát nhiễm khuẩn"
+    },
+    {
+      "phrase": "to dignify",
+      "meaningVi": "làm cho có phẩm giá, tôn trọng"
+    },
+    {
+      "phrase": "labour of attention",
+      "meaningVi": "công việc đòi hỏi sự chú tâm"
+    },
+    {
+      "phrase": "to bureaucratise",
+      "meaningVi": "biến thành thủ tục hành chính rườm rà"
+    },
+    {
+      "phrase": "wage floor",
+      "meaningVi": "mức lương sàn, lương tối thiểu"
+    },
+    {
+      "phrase": "to reify",
+      "meaningVi": "vật hoá, biến cái trừu tượng thành đối tượng cứng nhắc",
+      "pronunciation": "/ˈriːɪfaɪ/"
+    },
+    {
+      "phrase": "professional status",
+      "meaningVi": "địa vị nghề nghiệp được công nhận"
+    },
+    {
+      "phrase": "double-edged",
+      "meaningVi": "lợi bất cập hại, có hai mặt"
+    },
+    {
+      "phrase": "to legitimise",
+      "meaningVi": "hợp thức hoá, làm cho chính đáng",
+      "pronunciation": "/lɪˈdʒɪtɪmaɪz/"
+    },
+    {
+      "phrase": "institutional memory",
+      "meaningVi": "ký ức, kinh nghiệm tích luỹ của tổ chức"
+    },
+    {
+      "phrase": "to ring true",
+      "meaningVi": "nghe có vẻ đúng, thuyết phục"
+    }
   ],
   "sampleText": "Marisol has cleaned the same respiratory ward in a public hospital outside Lisbon for nineteen years, always on nights, and she will tell you — if you ask, which almost no one does — that she can sense a bad shift before the nurses can. It is not mysticism. A patient who has stopped getting up to use the bathroom leaves a different smell in the room by three in the morning. Someone whose breathing is failing tends to push the call button less, not more, because asking has become too much effort. She has flagged perhaps a dozen deteriorations over the years simply by mentioning, on her way past the desk, that the man in bed four had gone quiet. None of this appears in her job description, which lists floors, surfaces, and waste streams. The question I want to press is whether it should.\n\nThe case for writing it all down is, on its own terms, almost unanswerable. Knowledge that lives in one person's body leaves with that person. When Marisol retires, nineteen years of situated judgement walk out of the building, and the ward starts again from zero. Codify what she notices, the argument goes, and you turn a private gift into institutional memory; train every cleaner to register the same cues, and you might catch deteriorations earlier across the whole hospital. There is a dignity argument too, and it is the one that moves me most. To credential the work is to concede that it was skilled all along — to drag it up the occupational hierarchy it has always been pinned to the bottom of, and, not incidentally, to justify paying for it. A wage floor is easier to defend for a profession than for a chore.\n\nAnd yet I find myself resisting, and it has taken me a while to articulate why. The thing Marisol does is not a procedure that happens to be undocumented; it is a kind of attention that exists precisely because the work is not procedural. She notices the man in bed four because she is not running a checklist — because her hands are busy with the floor while her mind is free to drift across the room and snag on what is out of place. The moment you hand her a deterioration-screening form to complete each night, you have given her a task, and a task crowds out the open, unfocused noticing that the form was meant to capture. What a checklist can record is exactly the part of her work that matters least: that the surfaces were wiped. The part that matters cannot survive being turned into a line to tick.\n\nThere is a further risk, harder to name. Once noticing becomes a documented duty, it becomes auditable, and once it is auditable, it becomes a thing she can be found to have failed at. The cleaner who mentioned bed four out of an unpaid surplus of care now operates under a standard she can fall short of. We would have taken a gift freely given and converted it into a liability, and we would have called that respect. Formalisation, applied to discretionary care, has a way of hollowing out the discretion while keeping the appearance of having honoured it.\n\nI do not want to romanticise the alternative. Leaving the knowledge tacit also leaves it unpaid, unprotected, and dependent on the luck of a hospital happening to employ a Marisol rather than someone who treats the ward as so many square metres of vinyl. The status quo is not neutral; it is simply a different distribution of the same unfairness. So my position is narrower than abolishing the question. Pay her as if the noticing were part of the job, because it is. Make space for it — a minute at the desk, a culture in which a cleaner's offhand remark is taken seriously — without converting it into a form. Treat what she knows as real without insisting it be made legible to an auditor before it can be believed.\n\nWhether that middle path is stable, I genuinely do not know. Institutions tend to formalise whatever they decide to value, because formalisation is the only way they know to value anything at scale. Perhaps the honest conclusion is that we can dignify this work or we can document it, but that doing both at once asks the institution to hold a contradiction it is not built to hold.",
   "sampleAnnotations": [
-    {"phrase": "she can sense a bad shift before the nurses can", "meaningVi": "cô có thể cảm nhận một ca trực tồi tệ trước cả các y tá"},
-    {"phrase": "It is not mysticism", "meaningVi": "Đó không phải là chuyện huyền bí"},
-    {"phrase": "asking has become too much effort", "meaningVi": "việc cất tiếng nhờ vả đã trở nên quá sức"},
-    {"phrase": "the man in bed four had gone quiet", "meaningVi": "người đàn ông ở giường số bốn đã lặng đi"},
-    {"phrase": "None of this appears in her job description", "meaningVi": "Không điều nào trong số đó xuất hiện trong bản mô tả công việc của cô"},
-    {"phrase": "The case for writing it all down is, on its own terms, almost unanswerable", "meaningVi": "Lập luận đòi ghi lại tất cả, xét trên chính nó, gần như không thể bác bỏ"},
-    {"phrase": "Knowledge that lives in one person's body leaves with that person", "meaningVi": "Tri thức nằm trong cơ thể một con người sẽ ra đi cùng người đó"},
-    {"phrase": "nineteen years of situated judgement walk out of the building", "meaningVi": "mười chín năm phán đoán gắn với bối cảnh bước ra khỏi toà nhà"},
-    {"phrase": "you turn a private gift into institutional memory", "meaningVi": "bạn biến một món quà riêng tư thành ký ức của cả tổ chức"},
-    {"phrase": "to drag it up the occupational hierarchy it has always been pinned to the bottom of", "meaningVi": "kéo nó lên trong thứ bậc nghề nghiệp mà nó luôn bị ghim ở đáy"},
-    {"phrase": "A wage floor is easier to defend for a profession than for a chore", "meaningVi": "Một mức lương sàn dễ bảo vệ cho một nghề hơn là cho một việc vặt"},
-    {"phrase": "it has taken me a while to articulate why", "meaningVi": "tôi đã mất một lúc mới diễn đạt được tại sao"},
-    {"phrase": "a kind of attention that exists precisely because the work is not procedural", "meaningVi": "một kiểu chú tâm tồn tại chính vì công việc không theo quy trình"},
-    {"phrase": "her mind is free to drift across the room and snag on what is out of place", "meaningVi": "tâm trí cô được tự do trôi khắp phòng và mắc lại ở thứ gì đó không bình thường"},
-    {"phrase": "a task crowds out the open, unfocused noticing", "meaningVi": "một nhiệm vụ chèn ép mất sự để ý cởi mở, không tập trung vào đâu"},
-    {"phrase": "The part that matters cannot survive being turned into a line to tick", "meaningVi": "Phần quan trọng không thể tồn tại khi bị biến thành một dòng để đánh dấu"},
-    {"phrase": "There is a further risk, harder to name", "meaningVi": "Còn một rủi ro nữa, khó gọi tên hơn"},
-    {"phrase": "it becomes a thing she can be found to have failed at", "meaningVi": "nó trở thành thứ mà người ta có thể quy cho cô là đã làm hỏng"},
-    {"phrase": "out of an unpaid surplus of care", "meaningVi": "từ một phần dư của sự quan tâm không được trả công"},
-    {"phrase": "we would have called that respect", "meaningVi": "và chúng ta sẽ gọi điều đó là sự tôn trọng"},
-    {"phrase": "hollowing out the discretion while keeping the appearance of having honoured it", "meaningVi": "rút ruột quyền tự quyết trong khi vẫn giữ vẻ ngoài như đã tôn vinh nó"},
-    {"phrase": "I do not want to romanticise the alternative", "meaningVi": "Tôi không muốn lãng mạn hoá phương án thay thế"},
-    {"phrase": "as so many square metres of vinyl", "meaningVi": "chỉ như chừng ấy mét vuông sàn nhựa"},
-    {"phrase": "The status quo is not neutral", "meaningVi": "Hiện trạng không hề trung lập"},
-    {"phrase": "it is simply a different distribution of the same unfairness", "meaningVi": "nó chỉ là một cách phân bổ khác của cùng một sự bất công"},
-    {"phrase": "Pay her as if the noticing were part of the job, because it is", "meaningVi": "Hãy trả công cho cô như thể việc để ý là một phần của công việc, vì nó đúng là vậy"},
-    {"phrase": "without converting it into a form", "meaningVi": "mà không biến nó thành một biểu mẫu"},
-    {"phrase": "before it can be believed", "meaningVi": "trước khi nó được tin là thật"},
-    {"phrase": "Whether that middle path is stable, I genuinely do not know", "meaningVi": "Liệu con đường trung dung đó có bền vững hay không, tôi thực sự không biết"},
-    {"phrase": "formalisation is the only way they know to value anything at scale", "meaningVi": "chính thức hoá là cách duy nhất họ biết để coi trọng bất cứ thứ gì ở quy mô lớn"},
-    {"phrase": "we can dignify this work or we can document it", "meaningVi": "chúng ta có thể tôn vinh công việc này hoặc có thể ghi chép nó lại"},
-    {"phrase": "a contradiction it is not built to hold", "meaningVi": "một mâu thuẫn mà nó không được thiết kế để chứa đựng"}
+    {
+      "phrase": "she can sense a bad shift before the nurses can",
+      "meaningVi": "cô có thể cảm nhận một ca trực tồi tệ trước cả các y tá"
+    },
+    {
+      "phrase": "It is not mysticism",
+      "meaningVi": "Đó không phải là chuyện huyền bí"
+    },
+    {
+      "phrase": "asking has become too much effort",
+      "meaningVi": "việc cất tiếng nhờ vả đã trở nên quá sức"
+    },
+    {
+      "phrase": "the man in bed four had gone quiet",
+      "meaningVi": "người đàn ông ở giường số bốn đã lặng đi"
+    },
+    {
+      "phrase": "None of this appears in her job description",
+      "meaningVi": "Không điều nào trong số đó xuất hiện trong bản mô tả công việc của cô"
+    },
+    {
+      "phrase": "The case for writing it all down is, on its own terms, almost unanswerable",
+      "meaningVi": "Lập luận đòi ghi lại tất cả, xét trên chính nó, gần như không thể bác bỏ"
+    },
+    {
+      "phrase": "Knowledge that lives in one person's body leaves with that person",
+      "meaningVi": "Tri thức nằm trong cơ thể một con người sẽ ra đi cùng người đó"
+    },
+    {
+      "phrase": "nineteen years of situated judgement walk out of the building",
+      "meaningVi": "mười chín năm phán đoán gắn với bối cảnh bước ra khỏi toà nhà"
+    },
+    {
+      "phrase": "you turn a private gift into institutional memory",
+      "meaningVi": "bạn biến một món quà riêng tư thành ký ức của cả tổ chức"
+    },
+    {
+      "phrase": "to drag it up the occupational hierarchy it has always been pinned to the bottom of",
+      "meaningVi": "kéo nó lên trong thứ bậc nghề nghiệp mà nó luôn bị ghim ở đáy"
+    },
+    {
+      "phrase": "A wage floor is easier to defend for a profession than for a chore",
+      "meaningVi": "Một mức lương sàn dễ bảo vệ cho một nghề hơn là cho một việc vặt"
+    },
+    {
+      "phrase": "it has taken me a while to articulate why",
+      "meaningVi": "tôi đã mất một lúc mới diễn đạt được tại sao"
+    },
+    {
+      "phrase": "a kind of attention that exists precisely because the work is not procedural",
+      "meaningVi": "một kiểu chú tâm tồn tại chính vì công việc không theo quy trình"
+    },
+    {
+      "phrase": "her mind is free to drift across the room and snag on what is out of place",
+      "meaningVi": "tâm trí cô được tự do trôi khắp phòng và mắc lại ở thứ gì đó không bình thường"
+    },
+    {
+      "phrase": "a task crowds out the open, unfocused noticing",
+      "meaningVi": "một nhiệm vụ chèn ép mất sự để ý cởi mở, không tập trung vào đâu"
+    },
+    {
+      "phrase": "The part that matters cannot survive being turned into a line to tick",
+      "meaningVi": "Phần quan trọng không thể tồn tại khi bị biến thành một dòng để đánh dấu"
+    },
+    {
+      "phrase": "There is a further risk, harder to name",
+      "meaningVi": "Còn một rủi ro nữa, khó gọi tên hơn"
+    },
+    {
+      "phrase": "it becomes a thing she can be found to have failed at",
+      "meaningVi": "nó trở thành thứ mà người ta có thể quy cho cô là đã làm hỏng"
+    },
+    {
+      "phrase": "out of an unpaid surplus of care",
+      "meaningVi": "từ một phần dư của sự quan tâm không được trả công"
+    },
+    {
+      "phrase": "we would have called that respect",
+      "meaningVi": "và chúng ta sẽ gọi điều đó là sự tôn trọng"
+    },
+    {
+      "phrase": "hollowing out the discretion while keeping the appearance of having honoured it",
+      "meaningVi": "rút ruột quyền tự quyết trong khi vẫn giữ vẻ ngoài như đã tôn vinh nó"
+    },
+    {
+      "phrase": "I do not want to romanticise the alternative",
+      "meaningVi": "Tôi không muốn lãng mạn hoá phương án thay thế"
+    },
+    {
+      "phrase": "as so many square metres of vinyl",
+      "meaningVi": "chỉ như chừng ấy mét vuông sàn nhựa"
+    },
+    {
+      "phrase": "The status quo is not neutral",
+      "meaningVi": "Hiện trạng không hề trung lập"
+    },
+    {
+      "phrase": "it is simply a different distribution of the same unfairness",
+      "meaningVi": "nó chỉ là một cách phân bổ khác của cùng một sự bất công"
+    },
+    {
+      "phrase": "Pay her as if the noticing were part of the job, because it is",
+      "meaningVi": "Hãy trả công cho cô như thể việc để ý là một phần của công việc, vì nó đúng là vậy"
+    },
+    {
+      "phrase": "without converting it into a form",
+      "meaningVi": "mà không biến nó thành một biểu mẫu"
+    },
+    {
+      "phrase": "before it can be believed",
+      "meaningVi": "trước khi nó được tin là thật"
+    },
+    {
+      "phrase": "Whether that middle path is stable, I genuinely do not know",
+      "meaningVi": "Liệu con đường trung dung đó có bền vững hay không, tôi thực sự không biết"
+    },
+    {
+      "phrase": "formalisation is the only way they know to value anything at scale",
+      "meaningVi": "chính thức hoá là cách duy nhất họ biết để coi trọng bất cứ thứ gì ở quy mô lớn"
+    },
+    {
+      "phrase": "we can dignify this work or we can document it",
+      "meaningVi": "chúng ta có thể tôn vinh công việc này hoặc có thể ghi chép nó lại"
+    },
+    {
+      "phrase": "a contradiction it is not built to hold",
+      "meaningVi": "một mâu thuẫn mà nó không được thiết kế để chứa đựng"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -101,11 +307,11 @@
       "prompt": "Which sentence best states the essay's actual position?",
       "options": [
         "Hospitals should immediately credential and certify every cleaner.",
-        "Pay cleaners for the noticing and make cultural space for it, while resisting turning that noticing into a documented, auditable form.",
         "Cleaners' practical knowledge is worthless and should be ignored.",
-        "All hospital work should be reduced to checklists for safety."
+        "All hospital work should be reduced to checklists for safety.",
+        "Pay cleaners for the noticing and make cultural space for it, while resisting turning that noticing into a documented, auditable form."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The writer takes a narrowed middle position: value and pay for the work without formalising it into a tickable form.",
       "hint": "Look at the fifth paragraph where the writer states the 'narrower' position."
     },
@@ -113,12 +319,12 @@
       "id": "q2",
       "prompt": "Why does the essay argue a checklist would damage Marisol's noticing?",
       "options": [
-        "Because checklists are too long to complete on a night shift.",
         "Because giving her a task crowds out the open, unfocused attention that the noticing depends on.",
+        "Because checklists are too long to complete on a night shift.",
         "Because she cannot read or write.",
         "Because nurses would resent her doing their job."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay claims the noticing exists precisely because the work is not procedural; a task 'crowds out the open, unfocused noticing'.",
       "hint": "Look at how the essay describes where her attention comes from."
     },
@@ -152,12 +358,12 @@
       "id": "q5",
       "prompt": "Why does the essay say 'The status quo is not neutral'?",
       "options": [
-        "Because leaving the knowledge tacit also leaves it unpaid, unprotected, and dependent on luck.",
         "Because hospitals are legally required to document all care.",
         "Because cleaners are paid too much already.",
-        "Because neutrality is impossible in any human institution."
+        "Because neutrality is impossible in any human institution.",
+        "Because leaving the knowledge tacit also leaves it unpaid, unprotected, and dependent on luck."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "The essay refuses to romanticise the alternative: the current arrangement is 'a different distribution of the same unfairness'.",
       "hint": "Look at what the writer admits about leaving knowledge tacit."
     },
@@ -165,12 +371,12 @@
       "id": "q6",
       "prompt": "Which option uses the best cohesion to follow 'Knowledge that lives in one person's body leaves with that person'?",
       "options": [
-        "By the way, Marisol also cleans the surgical floor on Tuesdays.",
         "When Marisol retires, nineteen years of situated judgement walk out of the building, and the ward starts again from zero.",
+        "By the way, Marisol also cleans the surgical floor on Tuesdays.",
         "A body is made up of many organs that all have functions.",
         "In any case, hospitals are very busy places at night."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Option B extends the general claim with a concrete instance ('When Marisol retires…'), tightening the argument; the others are off-topic, definitional, or vague.",
       "hint": "Which option turns the general claim into a specific consequence?"
     },
@@ -178,12 +384,12 @@
       "id": "q7",
       "prompt": "Which word best fills the gap in C1 register? 'Formalisation, applied to discretionary care, has a way of ___ the discretion while keeping the appearance of having honoured it.'",
       "options": [
-        "hollowing out",
         "filling up",
+        "hollowing out",
         "messing with",
         "celebrating"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'Hollowing out' (emptying of substance while keeping the shell) is the precise collocation that matches the contrast with 'keeping the appearance'.",
       "hint": "Which phrase means 'emptying something of substance while leaving its outer form'?"
     },
@@ -192,11 +398,11 @@
       "prompt": "Which sentence matches the essay's reflective, hedged register?",
       "options": [
         "It is a proven scientific fact that cleaners detect illness better than doctors.",
-        "Whether that middle path is stable, I genuinely do not know.",
         "Hospitals are total disasters that never listen to their staff.",
+        "Whether that middle path is stable, I genuinely do not know.",
         "Notwithstanding the aforementioned, optimal patient throughput necessitates standardisation."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "Option B hedges honestly ('I genuinely do not know'); A overstates, C is too casual and absolute, D is wrongly bureaucratic for a personal essay.",
       "hint": "Look for tentative, first-person uncertainty rather than certainty, slang, or jargon."
     },
@@ -205,11 +411,11 @@
       "prompt": "Which paraphrase is closest to 'A wage floor is easier to defend for a profession than for a chore'?",
       "options": [
         "Professionals always earn more than cleaners do.",
-        "Once work is recognised as a skilled profession, paying it a guaranteed minimum is easier to justify than when it is dismissed as a menial task.",
         "Chores are unimportant and should not be paid at all.",
-        "Hospitals cannot afford to pay both professionals and cleaners."
+        "Hospitals cannot afford to pay both professionals and cleaners.",
+        "Once work is recognised as a skilled profession, paying it a guaranteed minimum is easier to justify than when it is dismissed as a menial task."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The line argues that professional status makes a defensible pay case; option B captures the justification mechanism, the others distort it.",
       "hint": "Notice the link between recognition as a 'profession' and justifying pay."
     },
@@ -217,12 +423,12 @@
       "id": "q10",
       "prompt": "What is the rhetorical function of the final sentence about a 'contradiction it is not built to hold'?",
       "options": [
-        "It offers a step-by-step solution to the credentialing problem.",
         "It refuses a tidy resolution, suggesting dignifying and documenting the work may be incompatible at institutional scale.",
+        "It offers a step-by-step solution to the credentialing problem.",
         "It blames individual cleaners for the problem.",
         "It recommends abolishing all hospital cleaning jobs."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The ending holds the paradox open rather than solving it — institutions formalise what they value, yet formalising may destroy this value.",
       "hint": "The prompt asked you to resist a tidy resolution; what does the ending do?"
     },
@@ -244,11 +450,11 @@
       "prompt": "Which option is grammatical, on-topic, and matches the essay's tone?",
       "options": [
         "Marisol totally crushes it at sniffing out sick people, no cap.",
-        "What a checklist can record is exactly the part of her work that matters least: that the surfaces were wiped.",
         "Heretofore the janitorial operative shall execute deterioration-detection protocols.",
+        "What a checklist can record is exactly the part of her work that matters least: that the surfaces were wiped.",
         "Everyone knows cleaners are smarter than doctors anyway."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "Option B is precise and reflective; A is slang, C is absurdly bureaucratic, D is a sweeping unsupported claim.",
       "hint": "Match the careful, analytical first-person register."
     },
@@ -257,11 +463,11 @@
       "prompt": "What does 'a different distribution of the same unfairness' mean in context?",
       "options": [
         "Both formalising and not formalising the work spread fairness evenly.",
-        "The current arrangement is not fair-by-default; it simply allocates the same underlying injustice in another way.",
         "Unfairness can be eliminated by redistributing wages.",
-        "Cleaners and nurses experience identical working conditions."
+        "Cleaners and nurses experience identical working conditions.",
+        "The current arrangement is not fair-by-default; it simply allocates the same underlying injustice in another way."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The phrase denies that leaving things alone is neutral; the status quo merely reshapes, rather than removes, the unfairness.",
       "hint": "The word 'same' is doing the work — what stays constant across both options?"
     },
@@ -269,12 +475,12 @@
       "id": "q14",
       "prompt": "Which sentence correctly uses inversion or fronting for C1 emphasis?",
       "options": [
-        "Only after she retires the ward will start again from zero.",
         "Not only does the knowledge leave with her, but the ward also loses its early warning system.",
+        "Only after she retires the ward will start again from zero.",
         "Hardly she had mentioned bed four when the nurse responded.",
         "So quiet the man was that nobody noticed him fading."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'Not only does the knowledge leave… but… also' uses correct auxiliary inversion after the fronted 'Not only'; the others mis-form the inversion.",
       "hint": "After a fronted 'Not only', the auxiliary must come before the subject."
     },
@@ -296,11 +502,11 @@
       "prompt": "Which paraphrase is closest to 'Treat what she knows as real without insisting it be made legible to an auditor before it can be believed'?",
       "options": [
         "Believe her knowledge only once it has been written up and verified.",
-        "Accept that her knowledge is genuine without requiring it to be turned into documentation before it counts.",
         "Auditors should personally interview every cleaner.",
+        "Accept that her knowledge is genuine without requiring it to be turned into documentation before it counts.",
         "Knowledge is only real if it can be measured."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The line asks us to credit tacit knowledge without demanding it first be made auditable; option B captures that, the others invert it.",
       "hint": "Notice the word 'without' — what condition is the writer refusing to impose?"
     }

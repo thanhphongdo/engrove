@@ -3,7 +3,11 @@
   "level": "A2",
   "title": "A morning swim in another country",
   "summary": "Narrate an early morning swim you had while travelling abroad.",
-  "tags": ["Narration", "Past simple", "Travel"],
+  "tags": [
+    "Narration",
+    "Past simple",
+    "Travel"
+  ],
   "topic": "A morning swim in another country",
   "prompt": "Write 8–10 sentences (150–250 words) about a morning swim you had in a country that was not your own. Where were you? What was the water and the place like? How did you feel? Use past simple and past continuous. Include when, while, because, and although.",
   "minWords": 150,
@@ -14,31 +18,105 @@
     "Although it was early, the beach/lake/pool was already…"
   ],
   "hintVocab": [
-    { "phrase": "dawn", "meaningVi": "bình minh, lúc sáng sớm", "pronunciation": "/dɔːn/" },
-    { "phrase": "dive in", "meaningVi": "nhảy xuống nước, lao vào" },
-    { "phrase": "float", "meaningVi": "nổi trên mặt nước", "pronunciation": "/fləʊt/" },
-    { "phrase": "goosebumps", "meaningVi": "nổi da gà", "pronunciation": "/ˈɡuːsbʌmps/" },
-    { "phrase": "refreshing", "meaningVi": "làm sảng khoái, mát lạnh dễ chịu", "pronunciation": "/rɪˈfreʃɪŋ/" },
-    { "phrase": "current", "meaningVi": "dòng chảy (nước)", "pronunciation": "/ˈkʌrənt/" },
-    { "phrase": "shore", "meaningVi": "bờ biển, bờ hồ", "pronunciation": "/ʃɔːr/" },
-    { "phrase": "crystal clear", "meaningVi": "trong vắt như pha lê" },
-    { "phrase": "horizon", "meaningVi": "đường chân trời", "pronunciation": "/həˈraɪzən/" },
-    { "phrase": "wade in", "meaningVi": "lội bộ vào nước dần dần" },
-    { "phrase": "shiver", "meaningVi": "run lạnh", "pronunciation": "/ˈʃɪvər/" }
+    {
+      "phrase": "dawn",
+      "meaningVi": "bình minh, lúc sáng sớm",
+      "pronunciation": "/dɔːn/"
+    },
+    {
+      "phrase": "dive in",
+      "meaningVi": "nhảy xuống nước, lao vào"
+    },
+    {
+      "phrase": "float",
+      "meaningVi": "nổi trên mặt nước",
+      "pronunciation": "/fləʊt/"
+    },
+    {
+      "phrase": "goosebumps",
+      "meaningVi": "nổi da gà",
+      "pronunciation": "/ˈɡuːsbʌmps/"
+    },
+    {
+      "phrase": "refreshing",
+      "meaningVi": "làm sảng khoái, mát lạnh dễ chịu",
+      "pronunciation": "/rɪˈfreʃɪŋ/"
+    },
+    {
+      "phrase": "current",
+      "meaningVi": "dòng chảy (nước)",
+      "pronunciation": "/ˈkʌrənt/"
+    },
+    {
+      "phrase": "shore",
+      "meaningVi": "bờ biển, bờ hồ",
+      "pronunciation": "/ʃɔːr/"
+    },
+    {
+      "phrase": "crystal clear",
+      "meaningVi": "trong vắt như pha lê"
+    },
+    {
+      "phrase": "horizon",
+      "meaningVi": "đường chân trời",
+      "pronunciation": "/həˈraɪzən/"
+    },
+    {
+      "phrase": "wade in",
+      "meaningVi": "lội bộ vào nước dần dần"
+    },
+    {
+      "phrase": "shiver",
+      "meaningVi": "run lạnh",
+      "pronunciation": "/ˈʃɪvər/"
+    }
   ],
   "sampleText": "During a trip to Greece two summers ago, I woke up before six o'clock and decided to go for a swim before breakfast. The small beach near our hotel was empty when I arrived. The sky was still pale and the water looked dark and very still. I waded in slowly because the water was colder than I expected. I got goosebumps on my arms as soon as my body was submerged. But after a minute, it began to feel refreshing. I swam out a little way from the shore and turned on my back to float. Above me, the sky was slowly turning pink and orange. While I was floating, I could hear nothing except small waves and a distant boat engine. I felt completely alone in the best way. When I looked toward the horizon, I could see the silhouette of a small island. After about twenty minutes, I swam back to shore and sat on a towel. I was shivering a little, but I was smiling too. Although the water was cold, I went back to that beach every morning for the rest of the trip. There is something about swimming in a foreign sea early in the morning that makes you feel very much alive.",
   "sampleAnnotations": [
-    { "phrase": "woke up before six o'clock", "meaningVi": "thức dậy trước sáu giờ" },
-    { "phrase": "waded in slowly", "meaningVi": "lội vào từ từ" },
-    { "phrase": "the water was colder than I expected", "meaningVi": "nước lạnh hơn tôi mong đợi" },
-    { "phrase": "got goosebumps on my arms", "meaningVi": "nổi da gà trên cánh tay" },
-    { "phrase": "began to feel refreshing", "meaningVi": "bắt đầu cảm thấy sảng khoái" },
-    { "phrase": "turned on my back to float", "meaningVi": "lật ngửa để nổi trên mặt nước" },
-    { "phrase": "slowly turning pink and orange", "meaningVi": "dần dần chuyển sang màu hồng và cam" },
-    { "phrase": "felt completely alone in the best way", "meaningVi": "cảm thấy hoàn toàn một mình theo cách tốt nhất" },
-    { "phrase": "see the silhouette of a small island", "meaningVi": "thấy bóng dáng của một hòn đảo nhỏ" },
-    { "phrase": "was shivering a little", "meaningVi": "đang run nhẹ một chút" },
-    { "phrase": "makes you feel very much alive", "meaningVi": "khiến bạn cảm thấy rất sống động" }
+    {
+      "phrase": "woke up before six o'clock",
+      "meaningVi": "thức dậy trước sáu giờ"
+    },
+    {
+      "phrase": "waded in slowly",
+      "meaningVi": "lội vào từ từ"
+    },
+    {
+      "phrase": "the water was colder than I expected",
+      "meaningVi": "nước lạnh hơn tôi mong đợi"
+    },
+    {
+      "phrase": "got goosebumps on my arms",
+      "meaningVi": "nổi da gà trên cánh tay"
+    },
+    {
+      "phrase": "began to feel refreshing",
+      "meaningVi": "bắt đầu cảm thấy sảng khoái"
+    },
+    {
+      "phrase": "turned on my back to float",
+      "meaningVi": "lật ngửa để nổi trên mặt nước"
+    },
+    {
+      "phrase": "slowly turning pink and orange",
+      "meaningVi": "dần dần chuyển sang màu hồng và cam"
+    },
+    {
+      "phrase": "felt completely alone in the best way",
+      "meaningVi": "cảm thấy hoàn toàn một mình theo cách tốt nhất"
+    },
+    {
+      "phrase": "see the silhouette of a small island",
+      "meaningVi": "thấy bóng dáng của một hòn đảo nhỏ"
+    },
+    {
+      "phrase": "was shivering a little",
+      "meaningVi": "đang run nhẹ một chút"
+    },
+    {
+      "phrase": "makes you feel very much alive",
+      "meaningVi": "khiến bạn cảm thấy rất sống động"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -66,12 +144,12 @@
       "id": "q2",
       "prompt": "Choose the correct comparative: 'The water was ___ colder than I expected.'",
       "options": [
-        "much",
         "more",
+        "much",
         "very",
         "quite"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'Much' intensifies a comparative adjective: 'much colder'.",
       "hint": "Which word intensifies a comparative adjective?"
     },
@@ -79,12 +157,12 @@
       "id": "q3",
       "prompt": "What does 'wade in' mean?",
       "options": [
-        "to walk slowly into water",
         "to jump into water suddenly",
         "to swim quickly away from shore",
+        "to walk slowly into water",
         "to float on your back"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Wade in' means to walk slowly and carefully into water.",
       "hint": "Which phrase means to enter water slowly by walking?"
     },
@@ -92,12 +170,12 @@
       "id": "q4",
       "prompt": "What are 'goosebumps'?",
       "options": [
-        "small bumps on the skin caused by cold or emotion",
         "small cuts on the skin from swimming",
         "marks on the skin from sunburn",
-        "muscles that get sore after exercise"
+        "muscles that get sore after exercise",
+        "small bumps on the skin caused by cold or emotion"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'Goosebumps' are the small bumps that appear on skin when you are cold or excited.",
       "hint": "These appear on your skin when you are cold or frightened."
     },
@@ -118,12 +196,12 @@
       "id": "q6",
       "prompt": "Choose the correct use of 'although': '___ the water was cold, I went back every morning.'",
       "options": [
-        "Although",
         "Because",
+        "Although",
         "While",
         "Since"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'Although' shows a contrast: cold water didn't stop a return visit.",
       "hint": "Which word introduces a contrast between a problem and a positive action?"
     },
@@ -131,12 +209,12 @@
       "id": "q7",
       "prompt": "What does 'refreshing' mean?",
       "options": [
-        "making you feel cool, awake, and revived",
         "making you feel tired and sleepy",
         "making you feel warm and comfortable",
+        "making you feel cool, awake, and revived",
         "making you feel nervous"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Refreshing' means pleasantly cool or invigorating.",
       "hint": "Which adjective describes a feeling of being revived and cooled?"
     },
@@ -144,12 +222,12 @@
       "id": "q8",
       "prompt": "What does 'shiver' mean?",
       "options": [
-        "to shake slightly because of cold or fear",
         "to smile happily",
         "to swim quickly",
-        "to stretch your arms"
+        "to stretch your arms",
+        "to shake slightly because of cold or fear"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'Shiver' means to tremble slightly, usually because of cold.",
       "hint": "Which verb describes trembling from cold?"
     },
@@ -170,12 +248,12 @@
       "id": "q10",
       "prompt": "What is the 'horizon'?",
       "options": [
-        "the line where the sky and land or sea appear to meet",
         "the line where the water is deepest",
+        "the line where the sky and land or sea appear to meet",
         "the edge of the beach",
         "the top of a wave"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "The 'horizon' is the distant line where sky and earth or sea appear to meet.",
       "hint": "Which word describes the line you see in the far distance where sky meets land or sea?"
     },
@@ -183,12 +261,12 @@
       "id": "q11",
       "prompt": "Which phrase means 'to jump into water headfirst or with energy'?",
       "options": [
-        "dive in",
         "fall in",
         "step in",
+        "dive in",
         "drop in"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Dive in' means to enter water headfirst or to start something with energy.",
       "hint": "Which phrasal verb means to enter water headfirst?"
     }

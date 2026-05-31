@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "Against the cult of authenticity in personal writing",
   "summary": "Argue that the demand for 'authentic' personal writing has become its own kind of performance — and that craft, distance, and even a degree of artifice can serve truth better than a confession produced on demand.",
-  "tags": ["Writing", "Craft", "Ethics"],
+  "tags": [
+    "Writing",
+    "Craft",
+    "Ethics"
+  ],
   "topic": "Why 'be authentic' is the wrong instruction for personal writing",
   "prompt": "Write a 600–800-word essay arguing against the assumption that good personal writing must be 'authentic' in the sense of raw, unmediated, confessional. Defend the role of craft, distance, and structure as not enemies of truth but its conditions. Use inversion at least once, a cleft sentence, and a 'Granted… Even so…' concession. Avoid the language of writing-workshop sentimentality and self-help confession.",
   "minWords": 600,
@@ -14,52 +18,182 @@
     "Granted, the worst personal writing is over-shaped, careful to the point of evasion. Even so,…"
   ],
   "hintVocab": [
-    {"phrase": "the cult of authenticity", "meaningVi": "sự sùng bái tính chân thật"},
-    {"phrase": "confessional mode", "meaningVi": "thể thức tự thú"},
-    {"phrase": "the unmediated voice", "meaningVi": "giọng nói không qua trung gian"},
-    {"phrase": "studied informality", "meaningVi": "tính tự nhiên có chủ ý"},
-    {"phrase": "aesthetic distance", "meaningVi": "khoảng cách thẩm mỹ"},
-    {"phrase": "literary persona", "meaningVi": "nhân vật văn chương"},
-    {"phrase": "the first-person pronoun", "meaningVi": "đại từ ngôi thứ nhất"},
-    {"phrase": "narrative shaping", "meaningVi": "sự định hình tự sự"},
-    {"phrase": "self-disclosure", "meaningVi": "sự tự bộc lộ"},
-    {"phrase": "rhetorical artlessness", "meaningVi": "vẻ vô nghệ thuật mang tính tu từ"},
-    {"phrase": "the appearance of spontaneity", "meaningVi": "vẻ ngoài tự phát"},
-    {"phrase": "performative vulnerability", "meaningVi": "tính dễ tổn thương mang tính trình diễn"},
-    {"phrase": "voice as artifact", "meaningVi": "giọng nói như một tạo phẩm"},
-    {"phrase": "the writerly self", "meaningVi": "cái tôi của người viết"},
-    {"phrase": "raw material", "meaningVi": "nguyên liệu thô"},
-    {"phrase": "structural restraint", "meaningVi": "sự kiềm chế cấu trúc"},
-    {"phrase": "candour", "meaningVi": "sự thẳng thắn", "pronunciation": "/ˈkændə/"},
-    {"phrase": "the labour of revision", "meaningVi": "công sức của việc sửa chữa"},
-    {"phrase": "premature exposure", "meaningVi": "sự phơi bày non sớm"},
-    {"phrase": "epistemic honesty", "meaningVi": "sự trung thực nhận thức"},
-    {"phrase": "the writing self versus the lived self", "meaningVi": "cái tôi viết so với cái tôi sống"},
-    {"phrase": "controlled disclosure", "meaningVi": "sự tiết lộ có kiểm soát"}
+    {
+      "phrase": "the cult of authenticity",
+      "meaningVi": "sự sùng bái tính chân thật"
+    },
+    {
+      "phrase": "confessional mode",
+      "meaningVi": "thể thức tự thú"
+    },
+    {
+      "phrase": "the unmediated voice",
+      "meaningVi": "giọng nói không qua trung gian"
+    },
+    {
+      "phrase": "studied informality",
+      "meaningVi": "tính tự nhiên có chủ ý"
+    },
+    {
+      "phrase": "aesthetic distance",
+      "meaningVi": "khoảng cách thẩm mỹ"
+    },
+    {
+      "phrase": "literary persona",
+      "meaningVi": "nhân vật văn chương"
+    },
+    {
+      "phrase": "the first-person pronoun",
+      "meaningVi": "đại từ ngôi thứ nhất"
+    },
+    {
+      "phrase": "narrative shaping",
+      "meaningVi": "sự định hình tự sự"
+    },
+    {
+      "phrase": "self-disclosure",
+      "meaningVi": "sự tự bộc lộ"
+    },
+    {
+      "phrase": "rhetorical artlessness",
+      "meaningVi": "vẻ vô nghệ thuật mang tính tu từ"
+    },
+    {
+      "phrase": "the appearance of spontaneity",
+      "meaningVi": "vẻ ngoài tự phát"
+    },
+    {
+      "phrase": "performative vulnerability",
+      "meaningVi": "tính dễ tổn thương mang tính trình diễn"
+    },
+    {
+      "phrase": "voice as artifact",
+      "meaningVi": "giọng nói như một tạo phẩm"
+    },
+    {
+      "phrase": "the writerly self",
+      "meaningVi": "cái tôi của người viết"
+    },
+    {
+      "phrase": "raw material",
+      "meaningVi": "nguyên liệu thô"
+    },
+    {
+      "phrase": "structural restraint",
+      "meaningVi": "sự kiềm chế cấu trúc"
+    },
+    {
+      "phrase": "candour",
+      "meaningVi": "sự thẳng thắn",
+      "pronunciation": "/ˈkændə/"
+    },
+    {
+      "phrase": "the labour of revision",
+      "meaningVi": "công sức của việc sửa chữa"
+    },
+    {
+      "phrase": "premature exposure",
+      "meaningVi": "sự phơi bày non sớm"
+    },
+    {
+      "phrase": "epistemic honesty",
+      "meaningVi": "sự trung thực nhận thức"
+    },
+    {
+      "phrase": "the writing self versus the lived self",
+      "meaningVi": "cái tôi viết so với cái tôi sống"
+    },
+    {
+      "phrase": "controlled disclosure",
+      "meaningVi": "sự tiết lộ có kiểm soát"
+    }
   ],
   "sampleText": "Only rarely is the writing that strikes us as truthful actually the writing that was produced without distance. The sentences that land in personal essays — the ones a reader marks, copies out, returns to — tend to have been worked on, sometimes for years, by a writer who knew exactly what they were doing and exactly which version of themselves to leave on the page. The studied informality that makes them feel intimate is, on closer inspection, a craft achievement. And it is not the absence of craft but its presence that allows the truth to come through.\n\nThe assumption that has spread through writing workshops and personal-essay culture more broadly is the opposite: that good personal writing is what happens when a writer stops shaping and starts confessing. The unmediated voice is treated as truer than the considered one; revision is treated as evasion; the long pause before a sentence is taken as evidence that the sentence is no longer honest. There is a moral grammar to this — a suspicion that anyone visibly working on their prose must be hiding something — and it has produced a body of personal writing whose flaws are not the flaws of over-shaping but the flaws of premature exposure: the half-thought, the unmetabolised experience, the disclosure that wounds the writer without illuminating anything for the reader.\n\nWhat the demand for authenticity in personal writing tends to mistake is not the value of honesty but the conditions under which honesty becomes legible to someone outside one's own head. A sentence that records a feeling accurately for the writer is not, by that fact alone, a sentence that conveys the feeling to a stranger. To do that requires the kind of work — selection, sequencing, the choice of what to leave out — that the cult of authenticity codes as inauthentic. Joan Didion's essays, which feel as direct as private speech, are demonstrably the product of many drafts and conscious construction; their candour is an effect, not a fact. To read her as artless is to misread the craft that made the artlessness possible.\n\nThere is also a relational point. The reader of a personal essay is not the writer's therapist, nor their oldest friend, and the demand that they read raw material — the half-formed grief, the unmetabolised shame — places a moral weight on them they did not consent to. Personal writing that has been shaped is, paradoxically, less coercive than personal writing that has not, because shaping is what makes it possible for the reader to receive the disclosure as an offering rather than a demand. The performative vulnerability that has become common in the genre — the writer who appears to bleed onto the page in real time — often produces in the reader not closeness but a queasy embarrassment, the embarrassment of a witness recruited without notice.\n\nIt is the craft, not the raw material, that constitutes the writer's responsibility toward the reader. Granted, the worst personal writing is over-shaped, careful to the point of evasion: the memoir whose every difficult fact has been polished into deniability, the essay whose elegant sentences carefully say nothing that the writer's family would object to. Even so, the right response to that failure is not less craft. It is craft put in the service of a different intention. The two enemies of honest personal writing — premature exposure and defensive polish — are not opposites of each other. They are two failures of the same underlying judgement, which is the judgement about what the writer actually owes the reader and what the writer owes the version of themselves they have agreed to expose.\n\nThis is not an argument for impersonality. The first-person pronoun is unavoidable in personal writing and need not pretend to be otherwise. The argument is that the 'I' on the page is a literary persona — a curated, partial, deliberately constructed version of the writer — and that the craft that makes the persona is the craft that makes the truth visible. To write personally is not to surrender to the self but to negotiate with it: to decide, sentence by sentence, which of one's selves the page is for, and what the reader is being asked to do with what they receive. The writer who refuses that negotiation is not being authentic. They are leaving the work undone.",
   "sampleAnnotations": [
-    {"phrase": "Only rarely is the writing that strikes us as truthful actually the writing that was produced without distance", "meaningVi": "Chỉ hiếm khi văn viết khiến chúng ta thấy là chân thật lại thực sự là văn viết được tạo ra mà không có khoảng cách"},
-    {"phrase": "exactly which version of themselves to leave on the page", "meaningVi": "chính xác phiên bản nào của bản thân để lại trên trang giấy"},
-    {"phrase": "studied informality", "meaningVi": "tính tự nhiên có chủ ý"},
-    {"phrase": "it is not the absence of craft but its presence that allows the truth to come through", "meaningVi": "không phải sự vắng mặt của tay nghề mà chính sự hiện diện của nó cho phép sự thật xuyên qua"},
-    {"phrase": "good personal writing is what happens when a writer stops shaping and starts confessing", "meaningVi": "văn viết cá nhân hay là những gì xảy ra khi người viết ngừng định hình và bắt đầu tự thú"},
-    {"phrase": "premature exposure", "meaningVi": "sự phơi bày non sớm"},
-    {"phrase": "the half-thought, the unmetabolised experience, the disclosure that wounds the writer without illuminating anything for the reader", "meaningVi": "ý nghĩ nửa vời, trải nghiệm chưa được tiêu hoá, sự tiết lộ làm tổn thương người viết mà không soi sáng được gì cho người đọc"},
-    {"phrase": "What the demand for authenticity in personal writing tends to mistake is not the value of honesty but the conditions under which honesty becomes legible", "meaningVi": "Những gì yêu cầu về tính chân thật trong văn viết cá nhân có xu hướng nhầm lẫn không phải là giá trị của sự trung thực mà là những điều kiện trong đó sự trung thực trở nên dễ đọc"},
-    {"phrase": "their candour is an effect, not a fact", "meaningVi": "sự thẳng thắn của họ là một hiệu ứng, không phải một sự thật"},
-    {"phrase": "To read her as artless is to misread the craft that made the artlessness possible", "meaningVi": "Đọc bà như vô nghệ thuật là đọc sai tay nghề đã làm cho vẻ vô nghệ thuật trở nên khả thi"},
-    {"phrase": "the demand that they read raw material", "meaningVi": "yêu cầu họ đọc nguyên liệu thô"},
-    {"phrase": "places a moral weight on them they did not consent to", "meaningVi": "đặt một trọng lượng đạo đức lên họ mà họ đã không đồng ý"},
-    {"phrase": "shaping is what makes it possible for the reader to receive the disclosure as an offering rather than a demand", "meaningVi": "sự định hình là những gì làm cho người đọc có thể nhận sự tiết lộ như một sự dâng tặng hơn là một sự đòi hỏi"},
-    {"phrase": "performative vulnerability", "meaningVi": "tính dễ tổn thương mang tính trình diễn"},
-    {"phrase": "the embarrassment of a witness recruited without notice", "meaningVi": "sự ngượng ngùng của một nhân chứng bị tuyển dụng mà không báo trước"},
-    {"phrase": "It is the craft, not the raw material, that constitutes the writer's responsibility toward the reader", "meaningVi": "Chính tay nghề, không phải nguyên liệu thô, mới tạo thành trách nhiệm của người viết đối với người đọc"},
-    {"phrase": "Granted, the worst personal writing is over-shaped, careful to the point of evasion", "meaningVi": "Cứ cho là văn viết cá nhân tệ nhất là loại được định hình quá mức, cẩn thận đến mức né tránh"},
-    {"phrase": "the memoir whose every difficult fact has been polished into deniability", "meaningVi": "cuốn hồi ký mà mọi sự thật khó khăn đã được đánh bóng thành khả năng phủ nhận"},
-    {"phrase": "Even so, the right response to that failure is not less craft. It is craft put in the service of a different intention", "meaningVi": "Dù vậy, phản ứng đúng trước thất bại đó không phải là ít tay nghề hơn. Đó là tay nghề được đặt phục vụ cho một ý định khác"},
-    {"phrase": "the 'I' on the page is a literary persona", "meaningVi": "cái 'tôi' trên trang giấy là một nhân vật văn chương"},
-    {"phrase": "To write personally is not to surrender to the self but to negotiate with it", "meaningVi": "Viết cá nhân không phải là đầu hàng cái tôi mà là thương lượng với nó"}
+    {
+      "phrase": "Only rarely is the writing that strikes us as truthful actually the writing that was produced without distance",
+      "meaningVi": "Chỉ hiếm khi văn viết khiến chúng ta thấy là chân thật lại thực sự là văn viết được tạo ra mà không có khoảng cách"
+    },
+    {
+      "phrase": "exactly which version of themselves to leave on the page",
+      "meaningVi": "chính xác phiên bản nào của bản thân để lại trên trang giấy"
+    },
+    {
+      "phrase": "studied informality",
+      "meaningVi": "tính tự nhiên có chủ ý"
+    },
+    {
+      "phrase": "it is not the absence of craft but its presence that allows the truth to come through",
+      "meaningVi": "không phải sự vắng mặt của tay nghề mà chính sự hiện diện của nó cho phép sự thật xuyên qua"
+    },
+    {
+      "phrase": "good personal writing is what happens when a writer stops shaping and starts confessing",
+      "meaningVi": "văn viết cá nhân hay là những gì xảy ra khi người viết ngừng định hình và bắt đầu tự thú"
+    },
+    {
+      "phrase": "premature exposure",
+      "meaningVi": "sự phơi bày non sớm"
+    },
+    {
+      "phrase": "the half-thought, the unmetabolised experience, the disclosure that wounds the writer without illuminating anything for the reader",
+      "meaningVi": "ý nghĩ nửa vời, trải nghiệm chưa được tiêu hoá, sự tiết lộ làm tổn thương người viết mà không soi sáng được gì cho người đọc"
+    },
+    {
+      "phrase": "What the demand for authenticity in personal writing tends to mistake is not the value of honesty but the conditions under which honesty becomes legible",
+      "meaningVi": "Những gì yêu cầu về tính chân thật trong văn viết cá nhân có xu hướng nhầm lẫn không phải là giá trị của sự trung thực mà là những điều kiện trong đó sự trung thực trở nên dễ đọc"
+    },
+    {
+      "phrase": "their candour is an effect, not a fact",
+      "meaningVi": "sự thẳng thắn của họ là một hiệu ứng, không phải một sự thật"
+    },
+    {
+      "phrase": "To read her as artless is to misread the craft that made the artlessness possible",
+      "meaningVi": "Đọc bà như vô nghệ thuật là đọc sai tay nghề đã làm cho vẻ vô nghệ thuật trở nên khả thi"
+    },
+    {
+      "phrase": "the demand that they read raw material",
+      "meaningVi": "yêu cầu họ đọc nguyên liệu thô"
+    },
+    {
+      "phrase": "places a moral weight on them they did not consent to",
+      "meaningVi": "đặt một trọng lượng đạo đức lên họ mà họ đã không đồng ý"
+    },
+    {
+      "phrase": "shaping is what makes it possible for the reader to receive the disclosure as an offering rather than a demand",
+      "meaningVi": "sự định hình là những gì làm cho người đọc có thể nhận sự tiết lộ như một sự dâng tặng hơn là một sự đòi hỏi"
+    },
+    {
+      "phrase": "performative vulnerability",
+      "meaningVi": "tính dễ tổn thương mang tính trình diễn"
+    },
+    {
+      "phrase": "the embarrassment of a witness recruited without notice",
+      "meaningVi": "sự ngượng ngùng của một nhân chứng bị tuyển dụng mà không báo trước"
+    },
+    {
+      "phrase": "It is the craft, not the raw material, that constitutes the writer's responsibility toward the reader",
+      "meaningVi": "Chính tay nghề, không phải nguyên liệu thô, mới tạo thành trách nhiệm của người viết đối với người đọc"
+    },
+    {
+      "phrase": "Granted, the worst personal writing is over-shaped, careful to the point of evasion",
+      "meaningVi": "Cứ cho là văn viết cá nhân tệ nhất là loại được định hình quá mức, cẩn thận đến mức né tránh"
+    },
+    {
+      "phrase": "the memoir whose every difficult fact has been polished into deniability",
+      "meaningVi": "cuốn hồi ký mà mọi sự thật khó khăn đã được đánh bóng thành khả năng phủ nhận"
+    },
+    {
+      "phrase": "Even so, the right response to that failure is not less craft. It is craft put in the service of a different intention",
+      "meaningVi": "Dù vậy, phản ứng đúng trước thất bại đó không phải là ít tay nghề hơn. Đó là tay nghề được đặt phục vụ cho một ý định khác"
+    },
+    {
+      "phrase": "the 'I' on the page is a literary persona",
+      "meaningVi": "cái 'tôi' trên trang giấy là một nhân vật văn chương"
+    },
+    {
+      "phrase": "To write personally is not to surrender to the self but to negotiate with it",
+      "meaningVi": "Viết cá nhân không phải là đầu hàng cái tôi mà là thương lượng với nó"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -79,12 +213,12 @@
       "id": "q1",
       "prompt": "Which sentence correctly applies inversion after 'Only rarely'?",
       "options": [
-        "Only rarely the writing that strikes us as truthful is actually produced without distance.",
         "Only rarely is the writing that strikes us as truthful actually the writing that was produced without distance.",
+        "Only rarely the writing that strikes us as truthful is actually produced without distance.",
         "The writing that strikes us as truthful is only rarely produced without distance.",
         "Only rarely, the writing strikes us as truthful when produced without distance."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "After 'Only rarely', the auxiliary 'is' must precede the long subject. Without that inversion, the sentence is ungrammatical at C1 register.",
       "hint": "Negative fronting + 'be' as auxiliary triggers inversion."
     },
@@ -93,11 +227,11 @@
       "prompt": "What is the essay's central claim about craft and authenticity?",
       "options": [
         "Authentic writing has no craft and is therefore more truthful",
-        "Craft and authenticity are opposites; one must choose",
         "It is the presence of craft, not its absence, that makes truth legible to a reader",
+        "Craft and authenticity are opposites; one must choose",
         "Authenticity is impossible to achieve in any writing"
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "explanation": "The essay's thesis is that craft makes truth communicable: 'it is not the absence of craft but its presence that allows the truth to come through.'",
       "hint": "Look at the opening paragraph's closing sentence."
     },
@@ -106,11 +240,11 @@
       "prompt": "What does the essay mean by 'premature exposure'?",
       "options": [
         "Writing published before the writer is famous",
-        "Personal writing that puts unmetabolised experience on the page — wounding the writer without illuminating anything for the reader",
         "Disclosure of secrets the writer does not own",
+        "Personal writing that puts unmetabolised experience on the page — wounding the writer without illuminating anything for the reader",
         "Writing produced before the writer is old enough to publish"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay defines premature exposure as 'the half-thought, the unmetabolised experience, the disclosure that wounds the writer without illuminating anything for the reader.'",
       "hint": "Look for what the essay says are the flaws of authenticity-cult writing."
     },
@@ -119,11 +253,11 @@
       "prompt": "Which sentence uses a cleft to locate the writer's real obligation?",
       "options": [
         "The writer's responsibility toward the reader is the raw material.",
-        "It is the craft, not the raw material, that constitutes the writer's responsibility toward the reader.",
         "Raw material and craft are equally the writer's responsibility.",
-        "Craft, more than raw material, is the writer's responsibility."
+        "Craft, more than raw material, is the writer's responsibility.",
+        "It is the craft, not the raw material, that constitutes the writer's responsibility toward the reader."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'It is X, not Y, that Z' is a cleft that asserts X is the obligation and rejects Y — a C1 structure that performs the essay's central inversion.",
       "hint": "Look for the 'It is ... not ... that ...' construction."
     },
@@ -131,12 +265,12 @@
       "id": "q5",
       "prompt": "Which correctly applies 'Granted… Even so…'?",
       "options": [
-        "Even so, the worst writing is over-shaped. Granted, less craft is the answer.",
         "Granted, the worst personal writing is over-shaped, careful to the point of evasion. Even so, the right response to that failure is not less craft. It is craft put in the service of a different intention.",
+        "Even so, the worst writing is over-shaped. Granted, less craft is the answer.",
         "Granted and even so, both polished and raw writing fail equally.",
         "Granted that craft fails. Even so, raw writing succeeds."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'Granted' acknowledges that over-shaping is a real failure; 'Even so' insists the remedy is better-aimed craft, not less of it. Concession then pivot — mandatory order.",
       "hint": "Concession comes first; the pivot follows."
     },
@@ -158,11 +292,11 @@
       "prompt": "What does 'performative vulnerability' mean in the essay?",
       "options": [
         "Genuine emotional openness in personal writing",
-        "Writing that appears to bleed onto the page in real time but functions as performance, often producing embarrassment rather than closeness in the reader",
         "Vulnerability that is rewarded by publishers",
+        "Writing that appears to bleed onto the page in real time but functions as performance, often producing embarrassment rather than closeness in the reader",
         "Any first-person writing about pain"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay describes 'the writer who appears to bleed onto the page in real time' and the queasy embarrassment of being made a witness to it — performative because shaped to look unshaped.",
       "hint": "Look at the paragraph about what the reader did not consent to."
     },
@@ -171,11 +305,11 @@
       "prompt": "What does the essay mean by saying shaped writing is 'less coercive' than unshaped writing?",
       "options": [
         "Shaped writing is more polite and uses fewer offensive words",
-        "Shaping allows the reader to receive the disclosure as an offering rather than as a demand placed on them without their consent",
         "Shaped writing makes its arguments less forcefully",
-        "Editing removes the writer's perspective"
+        "Editing removes the writer's perspective",
+        "Shaping allows the reader to receive the disclosure as an offering rather than as a demand placed on them without their consent"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay argues craft creates the conditions of consent: 'shaping is what makes it possible for the reader to receive the disclosure as an offering rather than a demand.'",
       "hint": "Look for the sentence about 'offering' versus 'demand'."
     },
@@ -183,12 +317,12 @@
       "id": "q9",
       "prompt": "What does the essay say about the relationship between premature exposure and defensive polish?",
       "options": [
-        "They are opposites of each other",
         "They are two failures of the same underlying judgement — about what the writer owes the reader and the self being exposed",
+        "They are opposites of each other",
         "Premature exposure is more honest than defensive polish",
         "Both are necessary stages in writing development"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay argues the two are not opposites: 'They are two failures of the same underlying judgement, which is the judgement about what the writer actually owes the reader and what the writer owes the version of themselves they have agreed to expose.'",
       "hint": "Look at the Granted/Even so paragraph's closing sentences."
     },
@@ -210,11 +344,11 @@
       "prompt": "What does the essay mean by 'to negotiate with the self' in writing?",
       "options": [
         "To consult an editor for permission to disclose personal details",
-        "To decide, sentence by sentence, which version of the self the page is for — what the reader is being asked to do with what they receive",
         "To work out one's identity through journaling",
+        "To decide, sentence by sentence, which version of the self the page is for — what the reader is being asked to do with what they receive",
         "To accept whatever the writer's instinct produces"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay frames writing as ongoing negotiation: deciding which self the page serves and what the reader is asked to do — not surrender to the self, but engagement with it.",
       "hint": "Look at the closing sentence about negotiation."
     },
@@ -224,10 +358,10 @@
       "options": [
         "As the writer's therapist",
         "As the writer's oldest friend",
-        "As someone who is not the writer's therapist or oldest friend — and who did not consent to receive raw material",
-        "As a passive consumer of confession"
+        "As a passive consumer of confession",
+        "As someone who is not the writer's therapist or oldest friend — and who did not consent to receive raw material"
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "explanation": "The essay carefully names what the reader is not: 'The reader of a personal essay is not the writer's therapist, nor their oldest friend.' The reader's role and limits matter to the argument.",
       "hint": "Look at the paragraph about the relational point."
     },
@@ -235,12 +369,12 @@
       "id": "q13",
       "prompt": "What does 'studied informality' describe in the essay?",
       "options": [
-        "Informal academic writing without revision",
         "A deliberately constructed casual tone that gives the appearance of unmediated speech but is the achievement of craft",
+        "Informal academic writing without revision",
         "Casual writing produced quickly without thought",
         "Informality forced on writers by editors"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay names 'studied informality' as the craft outcome of choosing exactly which version of the writer to leave on the page — informality that has been made, not found.",
       "hint": "Look at the first paragraph for the appearance-versus-construction distinction."
     },

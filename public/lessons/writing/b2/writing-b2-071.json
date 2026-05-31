@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "The hidden cost of converting industrial buildings into apartments",
   "summary": "Argue whether old factories, warehouses, and power stations should be converted into luxury apartments, or whether the working memory of the building should resist being smoothed over for residential life.",
-  "tags": ["Urban Planning", "Heritage", "Housing", "Argument"],
+  "tags": [
+    "Urban Planning",
+    "Heritage",
+    "Housing",
+    "Argument"
+  ],
   "topic": "Whether industrial buildings should be converted into apartments",
   "prompt": "Write a 350–500-word argumentative essay about whether old factories, warehouses, and power stations in cities like Antwerp, Belgrade, Bangkok, or Manchester should be converted into apartments — and what is lost when a working building becomes a residential one. Should the conversion be celebrated, refused, or constrained? Anchor in a specific kind of building. Use a 'what' cleft, a concession ('Granted,'), at least one passive construction, and one participle clause. Take a clear position. Avoid lazy anti-development rhetoric.",
   "minWords": 350,
@@ -14,51 +19,169 @@
     "Granted, the alternative to conversion is often demolition, and a converted warehouse with rich neighbours is still standing in a way that a flattened one is…"
   ],
   "hintVocab": [
-    { "phrase": "adaptive reuse", "meaningVi": "tái sử dụng thích ứng" },
-    { "phrase": "industrial conversion", "meaningVi": "chuyển đổi công nghiệp" },
-    { "phrase": "loft apartment", "meaningVi": "căn hộ kiểu loft" },
-    { "phrase": "exposed brickwork", "meaningVi": "tường gạch để trần" },
-    { "phrase": "industrial heritage", "meaningVi": "di sản công nghiệp" },
-    { "phrase": "loading bay", "meaningVi": "bến bốc dỡ hàng" },
-    { "phrase": "smokestack", "meaningVi": "ống khói nhà máy" },
-    { "phrase": "luxury flat", "meaningVi": "căn hộ cao cấp" },
-    { "phrase": "former working district", "meaningVi": "khu công nhân cũ" },
-    { "phrase": "to gut a building", "meaningVi": "moi ruột một tòa nhà" },
-    { "phrase": "decorative preservation", "meaningVi": "bảo tồn trang trí" },
-    { "phrase": "developer's brochure", "meaningVi": "tờ rơi của nhà đầu tư phát triển" },
-    { "phrase": "shop floor", "meaningVi": "sàn xưởng" },
-    { "phrase": "to sanitise a memory", "meaningVi": "khử trùng một ký ức" },
-    { "phrase": "trade union meeting", "meaningVi": "cuộc họp công đoàn" },
-    { "phrase": "to be priced out", "meaningVi": "bị đẩy ra do giá" },
-    { "phrase": "patina of authenticity", "meaningVi": "lớp cũ kỹ của sự chân thực" },
-    { "phrase": "to retain a working memory", "meaningVi": "giữ lại ký ức làm việc" },
-    { "phrase": "industrial easement", "meaningVi": "quyền sử dụng công nghiệp" },
-    { "phrase": "purpose-built housing", "meaningVi": "nhà ở được xây có chủ đích" },
-    { "phrase": "noise covenant", "meaningVi": "cam kết về tiếng ồn" },
-    { "phrase": "to soften a building's past", "meaningVi": "làm dịu quá khứ của tòa nhà" }
+    {
+      "phrase": "adaptive reuse",
+      "meaningVi": "tái sử dụng thích ứng"
+    },
+    {
+      "phrase": "industrial conversion",
+      "meaningVi": "chuyển đổi công nghiệp"
+    },
+    {
+      "phrase": "loft apartment",
+      "meaningVi": "căn hộ kiểu loft"
+    },
+    {
+      "phrase": "exposed brickwork",
+      "meaningVi": "tường gạch để trần"
+    },
+    {
+      "phrase": "industrial heritage",
+      "meaningVi": "di sản công nghiệp"
+    },
+    {
+      "phrase": "loading bay",
+      "meaningVi": "bến bốc dỡ hàng"
+    },
+    {
+      "phrase": "smokestack",
+      "meaningVi": "ống khói nhà máy"
+    },
+    {
+      "phrase": "luxury flat",
+      "meaningVi": "căn hộ cao cấp"
+    },
+    {
+      "phrase": "former working district",
+      "meaningVi": "khu công nhân cũ"
+    },
+    {
+      "phrase": "to gut a building",
+      "meaningVi": "moi ruột một tòa nhà"
+    },
+    {
+      "phrase": "decorative preservation",
+      "meaningVi": "bảo tồn trang trí"
+    },
+    {
+      "phrase": "developer's brochure",
+      "meaningVi": "tờ rơi của nhà đầu tư phát triển"
+    },
+    {
+      "phrase": "shop floor",
+      "meaningVi": "sàn xưởng"
+    },
+    {
+      "phrase": "to sanitise a memory",
+      "meaningVi": "khử trùng một ký ức"
+    },
+    {
+      "phrase": "trade union meeting",
+      "meaningVi": "cuộc họp công đoàn"
+    },
+    {
+      "phrase": "to be priced out",
+      "meaningVi": "bị đẩy ra do giá"
+    },
+    {
+      "phrase": "patina of authenticity",
+      "meaningVi": "lớp cũ kỹ của sự chân thực"
+    },
+    {
+      "phrase": "to retain a working memory",
+      "meaningVi": "giữ lại ký ức làm việc"
+    },
+    {
+      "phrase": "industrial easement",
+      "meaningVi": "quyền sử dụng công nghiệp"
+    },
+    {
+      "phrase": "purpose-built housing",
+      "meaningVi": "nhà ở được xây có chủ đích"
+    },
+    {
+      "phrase": "noise covenant",
+      "meaningVi": "cam kết về tiếng ồn"
+    },
+    {
+      "phrase": "to soften a building's past",
+      "meaningVi": "làm dịu quá khứ của tòa nhà"
+    }
   ],
   "sampleText": "Standing in the lobby of a converted textile warehouse in Antwerp now selling two-bedroom flats above two million euros, you notice that the original loading-bay doors have been preserved as decoration, and that the residents walking past them have, in nearly every case, no idea what those doors were for. The brochure calls it 'industrial character.' The brochure does not say that twelve hundred women once worked behind those doors, or that the strike of 1934 was organised in the room now marketed as a lobby gym. The doors are kept. The memory is sold separately and never delivered.\n\nWhat a converted factory loses when it becomes a residential block, beyond the obvious working-class associations the developers prefer to soften, is something rarely accounted for in conservation reports. The building's surfaces are preserved with care. The function those surfaces once served — the manufacture of something useful by people who lived nearby, the gathering of those people in numbers, the political meaning of that gathering — is not preserved. It is sanded down to the texture of marketing copy. The brickwork stays. The history is left at the door.\n\nGranted, the alternative to conversion is often demolition, and a converted warehouse with rich neighbours is still standing in a way that a flattened one is not. Adaptive reuse keeps old buildings physically present in a city that would otherwise replace them with characterless new towers, and the architects who fight for these conversions are rarely the villains the anti-development press makes them out to be. A converted power station can be a more honest building than the glass-and-steel block that would have replaced it.\n\nEven so, the question of who lives in the converted building afterwards is rarely treated as the same question. A textile mill that becomes social housing for the granddaughters of the women who worked there is one kind of conversion. A textile mill that becomes a gated luxury complex marketed in three languages to overseas buyers is a different one. The building survives in both cases. Only one of the two outcomes maintains any connection to what the building was for, and the conservation framework most cities use does not distinguish between them.\n\nThe defensible position is that adaptive reuse is worth fighting for, but only when the reuse is required to carry forward something more than a brick wall. Conversion permits could be conditioned on a real percentage of social housing, on a community room that the descendants of the original workforce can actually book, and on signage that does not pretend the building was always a luxury address. What is being preserved, in the alternative, is a stage set. The play that originally ran on it has been quietly cancelled, and the audience has been changed without their consent.",
   "sampleAnnotations": [
-    { "phrase": "Standing in the lobby of a converted textile warehouse in Antwerp now selling two-bedroom flats above two million euros, you notice that the original loading-bay doors have been preserved as decoration", "meaningVi": "Đứng trong sảnh của một nhà kho dệt may được chuyển đổi ở Antwerp hiện đang bán các căn hộ hai phòng ngủ trên hai triệu euro, bạn nhận ra rằng các cửa bốc dỡ hàng nguyên thủy đã được giữ lại như trang trí" },
-    { "phrase": "the residents walking past them have, in nearly every case, no idea what those doors were for", "meaningVi": "cư dân đi qua chúng, trong gần như mọi trường hợp, không có ý niệm gì về việc các cửa đó được dùng để làm gì" },
-    { "phrase": "The brochure calls it 'industrial character.' The brochure does not say that twelve hundred women once worked behind those doors", "meaningVi": "Tờ rơi gọi nó là 'tính cách công nghiệp.' Tờ rơi không nói rằng một ngàn hai trăm phụ nữ đã từng làm việc sau các cửa đó" },
-    { "phrase": "the strike of 1934 was organised in the room now marketed as a lobby gym", "meaningVi": "cuộc đình công năm 1934 được tổ chức trong căn phòng giờ được tiếp thị như một phòng tập gym sảnh" },
-    { "phrase": "The doors are kept. The memory is sold separately and never delivered", "meaningVi": "Các cửa được giữ lại. Ký ức được bán riêng và không bao giờ được giao" },
-    { "phrase": "What a converted factory loses when it becomes a residential block, beyond the obvious working-class associations the developers prefer to soften, is something rarely accounted for in conservation reports", "meaningVi": "Điều mà một nhà máy được chuyển đổi mất khi trở thành một khối dân cư, vượt ra ngoài những liên tưởng giai cấp công nhân hiển nhiên mà các nhà đầu tư phát triển thích làm dịu, là điều hiếm khi được tính đến trong các báo cáo bảo tồn" },
-    { "phrase": "The building's surfaces are preserved with care. The function those surfaces once served — the manufacture of something useful by people who lived nearby, the gathering of those people in numbers, the political meaning of that gathering — is not preserved", "meaningVi": "Các bề mặt của tòa nhà được bảo tồn cẩn thận. Chức năng mà các bề mặt đó từng phục vụ — việc sản xuất một thứ hữu ích bởi những người sống gần đó, sự tụ tập của những người đó với số lượng lớn, ý nghĩa chính trị của sự tụ tập đó — thì không được bảo tồn" },
-    { "phrase": "It is sanded down to the texture of marketing copy", "meaningVi": "Nó bị mài nhẵn xuống kết cấu của bản sao tiếp thị" },
-    { "phrase": "The brickwork stays. The history is left at the door", "meaningVi": "Phần tường gạch ở lại. Lịch sử bị bỏ lại ở cửa" },
-    { "phrase": "the alternative to conversion is often demolition, and a converted warehouse with rich neighbours is still standing in a way that a flattened one is not", "meaningVi": "lựa chọn thay thế cho việc chuyển đổi thường là phá hủy, và một nhà kho được chuyển đổi với hàng xóm giàu vẫn còn đứng theo cách mà một cái bị san phẳng thì không" },
-    { "phrase": "Adaptive reuse keeps old buildings physically present in a city that would otherwise replace them with characterless new towers", "meaningVi": "Tái sử dụng thích ứng giữ các tòa nhà cũ hiện diện vật lý trong một thành phố mà nếu không sẽ thay thế chúng bằng các tòa tháp mới không có tính cách" },
-    { "phrase": "A converted power station can be a more honest building than the glass-and-steel block that would have replaced it", "meaningVi": "Một nhà máy điện được chuyển đổi có thể là một tòa nhà trung thực hơn so với khối kính và thép mà sẽ thay thế nó" },
-    { "phrase": "the question of who lives in the converted building afterwards is rarely treated as the same question", "meaningVi": "câu hỏi ai sống trong tòa nhà được chuyển đổi sau đó hiếm khi được coi là cùng một câu hỏi" },
-    { "phrase": "A textile mill that becomes social housing for the granddaughters of the women who worked there is one kind of conversion", "meaningVi": "Một nhà máy dệt trở thành nhà ở xã hội cho các cháu gái của những phụ nữ đã làm việc ở đó là một loại chuyển đổi" },
-    { "phrase": "A textile mill that becomes a gated luxury complex marketed in three languages to overseas buyers is a different one", "meaningVi": "Một nhà máy dệt trở thành một khu phức hợp cao cấp có cổng được tiếp thị bằng ba ngôn ngữ cho người mua ở nước ngoài là một loại khác" },
-    { "phrase": "Only one of the two outcomes maintains any connection to what the building was for", "meaningVi": "Chỉ một trong hai kết quả duy trì bất kỳ kết nối nào với mục đích ban đầu của tòa nhà" },
-    { "phrase": "Conversion permits could be conditioned on a real percentage of social housing, on a community room that the descendants of the original workforce can actually book, and on signage that does not pretend the building was always a luxury address", "meaningVi": "Giấy phép chuyển đổi có thể được điều kiện hóa dựa trên một tỷ lệ thực sự về nhà ở xã hội, dựa trên một phòng cộng đồng mà hậu duệ của lực lượng lao động ban đầu có thể thực sự đặt, và dựa trên biển hiệu không giả vờ rằng tòa nhà luôn luôn là một địa chỉ cao cấp" },
-    { "phrase": "What is being preserved, in the alternative, is a stage set. The play that originally ran on it has been quietly cancelled, and the audience has been changed without their consent", "meaningVi": "Cái đang được bảo tồn, trong lựa chọn thay thế, là một bộ phông sân khấu. Vở kịch ban đầu đã chạy trên đó đã bị lặng lẽ hủy bỏ, và khán giả đã bị thay đổi mà không có sự đồng ý của họ" },
-    { "phrase": "to soften a building's past", "meaningVi": "làm dịu quá khứ của tòa nhà" },
-    { "phrase": "purpose-built housing", "meaningVi": "nhà ở được xây có chủ đích" }
+    {
+      "phrase": "Standing in the lobby of a converted textile warehouse in Antwerp now selling two-bedroom flats above two million euros, you notice that the original loading-bay doors have been preserved as decoration",
+      "meaningVi": "Đứng trong sảnh của một nhà kho dệt may được chuyển đổi ở Antwerp hiện đang bán các căn hộ hai phòng ngủ trên hai triệu euro, bạn nhận ra rằng các cửa bốc dỡ hàng nguyên thủy đã được giữ lại như trang trí"
+    },
+    {
+      "phrase": "the residents walking past them have, in nearly every case, no idea what those doors were for",
+      "meaningVi": "cư dân đi qua chúng, trong gần như mọi trường hợp, không có ý niệm gì về việc các cửa đó được dùng để làm gì"
+    },
+    {
+      "phrase": "The brochure calls it 'industrial character.' The brochure does not say that twelve hundred women once worked behind those doors",
+      "meaningVi": "Tờ rơi gọi nó là 'tính cách công nghiệp.' Tờ rơi không nói rằng một ngàn hai trăm phụ nữ đã từng làm việc sau các cửa đó"
+    },
+    {
+      "phrase": "the strike of 1934 was organised in the room now marketed as a lobby gym",
+      "meaningVi": "cuộc đình công năm 1934 được tổ chức trong căn phòng giờ được tiếp thị như một phòng tập gym sảnh"
+    },
+    {
+      "phrase": "The doors are kept. The memory is sold separately and never delivered",
+      "meaningVi": "Các cửa được giữ lại. Ký ức được bán riêng và không bao giờ được giao"
+    },
+    {
+      "phrase": "What a converted factory loses when it becomes a residential block, beyond the obvious working-class associations the developers prefer to soften, is something rarely accounted for in conservation reports",
+      "meaningVi": "Điều mà một nhà máy được chuyển đổi mất khi trở thành một khối dân cư, vượt ra ngoài những liên tưởng giai cấp công nhân hiển nhiên mà các nhà đầu tư phát triển thích làm dịu, là điều hiếm khi được tính đến trong các báo cáo bảo tồn"
+    },
+    {
+      "phrase": "The building's surfaces are preserved with care. The function those surfaces once served — the manufacture of something useful by people who lived nearby, the gathering of those people in numbers, the political meaning of that gathering — is not preserved",
+      "meaningVi": "Các bề mặt của tòa nhà được bảo tồn cẩn thận. Chức năng mà các bề mặt đó từng phục vụ — việc sản xuất một thứ hữu ích bởi những người sống gần đó, sự tụ tập của những người đó với số lượng lớn, ý nghĩa chính trị của sự tụ tập đó — thì không được bảo tồn"
+    },
+    {
+      "phrase": "It is sanded down to the texture of marketing copy",
+      "meaningVi": "Nó bị mài nhẵn xuống kết cấu của bản sao tiếp thị"
+    },
+    {
+      "phrase": "The brickwork stays. The history is left at the door",
+      "meaningVi": "Phần tường gạch ở lại. Lịch sử bị bỏ lại ở cửa"
+    },
+    {
+      "phrase": "the alternative to conversion is often demolition, and a converted warehouse with rich neighbours is still standing in a way that a flattened one is not",
+      "meaningVi": "lựa chọn thay thế cho việc chuyển đổi thường là phá hủy, và một nhà kho được chuyển đổi với hàng xóm giàu vẫn còn đứng theo cách mà một cái bị san phẳng thì không"
+    },
+    {
+      "phrase": "Adaptive reuse keeps old buildings physically present in a city that would otherwise replace them with characterless new towers",
+      "meaningVi": "Tái sử dụng thích ứng giữ các tòa nhà cũ hiện diện vật lý trong một thành phố mà nếu không sẽ thay thế chúng bằng các tòa tháp mới không có tính cách"
+    },
+    {
+      "phrase": "A converted power station can be a more honest building than the glass-and-steel block that would have replaced it",
+      "meaningVi": "Một nhà máy điện được chuyển đổi có thể là một tòa nhà trung thực hơn so với khối kính và thép mà sẽ thay thế nó"
+    },
+    {
+      "phrase": "the question of who lives in the converted building afterwards is rarely treated as the same question",
+      "meaningVi": "câu hỏi ai sống trong tòa nhà được chuyển đổi sau đó hiếm khi được coi là cùng một câu hỏi"
+    },
+    {
+      "phrase": "A textile mill that becomes social housing for the granddaughters of the women who worked there is one kind of conversion",
+      "meaningVi": "Một nhà máy dệt trở thành nhà ở xã hội cho các cháu gái của những phụ nữ đã làm việc ở đó là một loại chuyển đổi"
+    },
+    {
+      "phrase": "A textile mill that becomes a gated luxury complex marketed in three languages to overseas buyers is a different one",
+      "meaningVi": "Một nhà máy dệt trở thành một khu phức hợp cao cấp có cổng được tiếp thị bằng ba ngôn ngữ cho người mua ở nước ngoài là một loại khác"
+    },
+    {
+      "phrase": "Only one of the two outcomes maintains any connection to what the building was for",
+      "meaningVi": "Chỉ một trong hai kết quả duy trì bất kỳ kết nối nào với mục đích ban đầu của tòa nhà"
+    },
+    {
+      "phrase": "Conversion permits could be conditioned on a real percentage of social housing, on a community room that the descendants of the original workforce can actually book, and on signage that does not pretend the building was always a luxury address",
+      "meaningVi": "Giấy phép chuyển đổi có thể được điều kiện hóa dựa trên một tỷ lệ thực sự về nhà ở xã hội, dựa trên một phòng cộng đồng mà hậu duệ của lực lượng lao động ban đầu có thể thực sự đặt, và dựa trên biển hiệu không giả vờ rằng tòa nhà luôn luôn là một địa chỉ cao cấp"
+    },
+    {
+      "phrase": "What is being preserved, in the alternative, is a stage set. The play that originally ran on it has been quietly cancelled, and the audience has been changed without their consent",
+      "meaningVi": "Cái đang được bảo tồn, trong lựa chọn thay thế, là một bộ phông sân khấu. Vở kịch ban đầu đã chạy trên đó đã bị lặng lẽ hủy bỏ, và khán giả đã bị thay đổi mà không có sự đồng ý của họ"
+    }
   ],
   "sampleGrammarNotes": [
     {

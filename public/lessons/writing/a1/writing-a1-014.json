@@ -3,7 +3,10 @@
   "level": "A1",
   "title": "A song I listen to every day",
   "summary": "Describe a song you play daily and how it makes you feel.",
-  "tags": ["Habits", "Daily life"],
+  "tags": [
+    "Habits",
+    "Daily life"
+  ],
   "topic": "A song I listen to every day",
   "prompt": "Write 6–8 short sentences about a song you listen to every day. Use present simple, 'like + -ing', and simple feeling adjectives.",
   "minWords": 150,
@@ -15,31 +18,97 @@
     "It makes me feel…"
   ],
   "hintVocab": [
-    { "phrase": "song", "meaningVi": "bài hát" },
-    { "phrase": "singer", "meaningVi": "ca sĩ" },
-    { "phrase": "guitar", "meaningVi": "đàn ghi-ta" },
-    { "phrase": "piano", "meaningVi": "đàn piano" },
-    { "phrase": "voice", "meaningVi": "giọng hát" },
-    { "phrase": "slow", "meaningVi": "chậm" },
-    { "phrase": "headphones", "meaningVi": "tai nghe" },
-    { "phrase": "playlist", "meaningVi": "danh sách phát" },
-    { "phrase": "feel happy", "meaningVi": "cảm thấy vui" },
-    { "phrase": "rainy day", "meaningVi": "ngày mưa" },
-    { "phrase": "like + listening", "meaningVi": "thích nghe" }
+    {
+      "phrase": "song",
+      "meaningVi": "bài hát"
+    },
+    {
+      "phrase": "singer",
+      "meaningVi": "ca sĩ"
+    },
+    {
+      "phrase": "guitar",
+      "meaningVi": "đàn ghi-ta"
+    },
+    {
+      "phrase": "piano",
+      "meaningVi": "đàn piano"
+    },
+    {
+      "phrase": "voice",
+      "meaningVi": "giọng hát"
+    },
+    {
+      "phrase": "slow",
+      "meaningVi": "chậm"
+    },
+    {
+      "phrase": "headphones",
+      "meaningVi": "tai nghe"
+    },
+    {
+      "phrase": "playlist",
+      "meaningVi": "danh sách phát"
+    },
+    {
+      "phrase": "feel happy",
+      "meaningVi": "cảm thấy vui"
+    },
+    {
+      "phrase": "rainy day",
+      "meaningVi": "ngày mưa"
+    },
+    {
+      "phrase": "like + listening",
+      "meaningVi": "thích nghe"
+    }
   ],
   "sampleText": "My favorite song is 'Skinny Love' by Bon Iver, an American singer. The song is slow and soft, and the voice is a little broken. I listen to it almost every day, usually in the morning when I make coffee. I also like listening to it on the train when the weather is grey. The song starts with a quiet guitar, and then the voice comes in. I do not understand every word, but I feel the song clearly. It makes me a little sad, but in a good way. Sometimes I sit by the window with my headphones, and the world becomes quiet for three minutes. I have a small Sunday playlist on my phone, and 'Skinny Love' is always the first track. I like listening to it more than any pop song on the radio. I once saw a video of the singer in a small wooden cabin in Wisconsin, and I think about that cabin every time. A simple song can become a small home.",
   "sampleAnnotations": [
-    { "phrase": "favorite song", "meaningVi": "bài hát yêu thích" },
-    { "phrase": "American singer", "meaningVi": "ca sĩ người Mỹ" },
-    { "phrase": "slow and soft", "meaningVi": "chậm và nhẹ" },
-    { "phrase": "every day", "meaningVi": "mỗi ngày" },
-    { "phrase": "quiet guitar", "meaningVi": "tiếng ghi-ta nhẹ" },
-    { "phrase": "the voice comes in", "meaningVi": "giọng hát bắt đầu" },
-    { "phrase": "a little sad", "meaningVi": "hơi buồn" },
-    { "phrase": "by the window", "meaningVi": "cạnh cửa sổ" },
-    { "phrase": "small Sunday playlist", "meaningVi": "playlist Chủ nhật nhỏ" },
-    { "phrase": "wooden cabin", "meaningVi": "căn nhà gỗ" },
-    { "phrase": "simple song", "meaningVi": "bài hát đơn giản" }
+    {
+      "phrase": "favorite song",
+      "meaningVi": "bài hát yêu thích"
+    },
+    {
+      "phrase": "American singer",
+      "meaningVi": "ca sĩ người Mỹ"
+    },
+    {
+      "phrase": "slow and soft",
+      "meaningVi": "chậm và nhẹ"
+    },
+    {
+      "phrase": "every day",
+      "meaningVi": "mỗi ngày"
+    },
+    {
+      "phrase": "quiet guitar",
+      "meaningVi": "tiếng ghi-ta nhẹ"
+    },
+    {
+      "phrase": "the voice comes in",
+      "meaningVi": "giọng hát bắt đầu"
+    },
+    {
+      "phrase": "a little sad",
+      "meaningVi": "hơi buồn"
+    },
+    {
+      "phrase": "by the window",
+      "meaningVi": "cạnh cửa sổ"
+    },
+    {
+      "phrase": "small Sunday playlist",
+      "meaningVi": "playlist Chủ nhật nhỏ"
+    },
+    {
+      "phrase": "wooden cabin",
+      "meaningVi": "căn nhà gỗ"
+    },
+    {
+      "phrase": "simple song",
+      "meaningVi": "bài hát đơn giản"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -59,12 +128,12 @@
       "id": "q1",
       "prompt": "Which sentence uses 'like + -ing' correctly?",
       "options": [
-        "I like listening to it.",
         "I like to listening it.",
         "I like listen it.",
-        "I am like listening to it."
+        "I am like listening to it.",
+        "I like listening to it."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'like' + V-ing for a habit.",
       "hint": "Look for 'like' + V-ing."
     },
@@ -85,12 +154,12 @@
       "id": "q3",
       "prompt": "Which sentence sounds most natural?",
       "options": [
-        "The song is slow and soft.",
         "Soft slow the song is.",
+        "The song is slow and soft.",
         "Slow the song soft is.",
         "Song the soft slow."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "Subject + 'is' + adjective + 'and' + adjective.",
       "hint": "Look for normal adjective order."
     },
@@ -98,12 +167,12 @@
       "id": "q4",
       "prompt": "Which sentence best fits 'a daily song'?",
       "options": [
-        "I listen to it when I make coffee.",
         "I drive a truck through the desert.",
         "I climb a tall building at work.",
+        "I listen to it when I make coffee.",
         "I sell fish at the market."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "Listening while making coffee is a daily song moment.",
       "hint": "Choose a small daily moment."
     },
@@ -111,12 +180,12 @@
       "id": "q5",
       "prompt": "Which sentence is grammatically correct?",
       "options": [
-        "She sings beautifully.",
         "She sing beautifully.",
         "She singing beautifully.",
-        "She is sing beautifully."
+        "She is sing beautifully.",
+        "She sings beautifully."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "Third person singular: 'sings'.",
       "hint": "Add -s for 'she'."
     },
@@ -137,12 +206,12 @@
       "id": "q7",
       "prompt": "Which word fits: 'The song makes me feel ___.'",
       "options": [
-        "happy",
         "tall",
+        "happy",
         "loud",
         "long"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'happy' is a feeling word.",
       "hint": "Feelings only."
     },
@@ -150,12 +219,12 @@
       "id": "q8",
       "prompt": "Which sentence uses adverb of frequency correctly?",
       "options": [
-        "I usually listen to it in the morning.",
         "Usually I listen to morning it.",
         "Listen usually I morning.",
+        "I usually listen to it in the morning.",
         "I in usually morning listen it."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'usually' before the verb.",
       "hint": "Adverb position."
     },
@@ -163,12 +232,12 @@
       "id": "q9",
       "prompt": "Which sentence is grammatically correct?",
       "options": [
-        "The voice comes in after the guitar.",
         "In the voice after guitar comes.",
         "Voice the in comes guitar.",
-        "After in voice comes guitar."
+        "After in voice comes guitar.",
+        "The voice comes in after the guitar."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "Subject + verb + prepositional phrase.",
       "hint": "Normal word order."
     },

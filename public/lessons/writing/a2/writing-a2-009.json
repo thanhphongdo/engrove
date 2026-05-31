@@ -3,7 +3,11 @@
   "level": "A2",
   "title": "The quietest place I know",
   "summary": "Describe the most peaceful place you know and why it feels quiet.",
-  "tags": ["Places", "Description", "Memory"],
+  "tags": [
+    "Places",
+    "Description",
+    "Memory"
+  ],
   "topic": "The quietest place I know",
   "prompt": "Write 150–250 words about the quietest place you know. Describe what is around you there, what sounds you can or cannot hear, and why you go there. Use present simple and the superlative 'the quietest'.",
   "minWords": 150,
@@ -14,30 +18,93 @@
     "I go there when…"
   ],
   "hintVocab": [
-    { "phrase": "library", "meaningVi": "thư viện" },
-    { "phrase": "wooden floor", "meaningVi": "sàn gỗ" },
-    { "phrase": "footsteps", "meaningVi": "tiếng bước chân" },
-    { "phrase": "page turning", "meaningVi": "tiếng lật trang" },
-    { "phrase": "breathing", "meaningVi": "hơi thở" },
-    { "phrase": "quiet corner", "meaningVi": "góc yên tĩnh" },
-    { "phrase": "tall window", "meaningVi": "cửa sổ cao" },
-    { "phrase": "soft light", "meaningVi": "ánh sáng dịu" },
-    { "phrase": "peaceful", "meaningVi": "yên bình" },
-    { "phrase": "old book smell", "meaningVi": "mùi sách cũ" },
-    { "phrase": "think clearly", "meaningVi": "suy nghĩ rõ ràng" }
+    {
+      "phrase": "library",
+      "meaningVi": "thư viện"
+    },
+    {
+      "phrase": "wooden floor",
+      "meaningVi": "sàn gỗ"
+    },
+    {
+      "phrase": "footsteps",
+      "meaningVi": "tiếng bước chân"
+    },
+    {
+      "phrase": "page turning",
+      "meaningVi": "tiếng lật trang"
+    },
+    {
+      "phrase": "breathing",
+      "meaningVi": "hơi thở"
+    },
+    {
+      "phrase": "quiet corner",
+      "meaningVi": "góc yên tĩnh"
+    },
+    {
+      "phrase": "tall window",
+      "meaningVi": "cửa sổ cao"
+    },
+    {
+      "phrase": "soft light",
+      "meaningVi": "ánh sáng dịu"
+    },
+    {
+      "phrase": "peaceful",
+      "meaningVi": "yên bình"
+    },
+    {
+      "phrase": "old book smell",
+      "meaningVi": "mùi sách cũ"
+    },
+    {
+      "phrase": "think clearly",
+      "meaningVi": "suy nghĩ rõ ràng"
+    }
   ],
   "sampleText": "The quietest place I know is a small library in Helsinki. It is not the biggest library in the city, and it is not the most famous one. But for me, it is the most peaceful. The building is old, with a wooden floor and tall windows. The light is soft, even on a cloudy day. When I open the door, the noise of the street stops, like someone closed a heavy curtain behind me. I always sit at the same table in the corner. The table is by a tall window, and I can see a thin tree outside. When I sit there, I can hear three things only: the slow sound of a page turning, the careful footsteps of another reader, and my own breathing. Nobody talks. Nobody uses a phone. The air smells a little of old books and clean wood. I go there when my head feels too full of voices. After thirty minutes, my thoughts move slower. I can finally think clearly about my work, my family, or a small problem that felt big before. I am not religious, but for me this library is something close to a quiet church. It is the only place in the city where I am completely sure that nobody will ask me a question.",
   "sampleAnnotations": [
-    { "phrase": "quietest place", "meaningVi": "nơi yên tĩnh nhất" },
-    { "phrase": "wooden floor", "meaningVi": "sàn gỗ" },
-    { "phrase": "tall windows", "meaningVi": "cửa sổ cao" },
-    { "phrase": "soft", "meaningVi": "dịu nhẹ" },
-    { "phrase": "page turning", "meaningVi": "tiếng lật trang" },
-    { "phrase": "footsteps", "meaningVi": "tiếng bước chân" },
-    { "phrase": "breathing", "meaningVi": "hơi thở" },
-    { "phrase": "old books", "meaningVi": "sách cũ" },
-    { "phrase": "think clearly", "meaningVi": "suy nghĩ rõ ràng" },
-    { "phrase": "quiet church", "meaningVi": "nhà thờ yên tĩnh" }
+    {
+      "phrase": "quietest place",
+      "meaningVi": "nơi yên tĩnh nhất"
+    },
+    {
+      "phrase": "wooden floor",
+      "meaningVi": "sàn gỗ"
+    },
+    {
+      "phrase": "tall windows",
+      "meaningVi": "cửa sổ cao"
+    },
+    {
+      "phrase": "soft",
+      "meaningVi": "dịu nhẹ"
+    },
+    {
+      "phrase": "page turning",
+      "meaningVi": "tiếng lật trang"
+    },
+    {
+      "phrase": "footsteps",
+      "meaningVi": "tiếng bước chân"
+    },
+    {
+      "phrase": "breathing",
+      "meaningVi": "hơi thở"
+    },
+    {
+      "phrase": "old books",
+      "meaningVi": "sách cũ"
+    },
+    {
+      "phrase": "think clearly",
+      "meaningVi": "suy nghĩ rõ ràng"
+    },
+    {
+      "phrase": "quiet church",
+      "meaningVi": "nhà thờ yên tĩnh"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -57,12 +124,12 @@
       "id": "q1",
       "prompt": "Which sentence uses the superlative correctly?",
       "options": [
-        "The quietest place I know is a small library in Helsinki.",
         "The most quietest place I know is a small library in Helsinki.",
         "The quiet place I know most is a small library in Helsinki.",
+        "The quietest place I know is a small library in Helsinki.",
         "The more quiet place I know is a small library in Helsinki."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Quiet' takes '-est' to form the superlative.",
       "hint": "Short adjectives add -est."
     },
@@ -70,12 +137,12 @@
       "id": "q2",
       "prompt": "Choose the correct superlative form.",
       "options": [
-        "It is not the biggest library in the city.",
         "It is not the most biggest library in the city.",
         "It is not biggest library in the city.",
-        "It is not the bigger library in the city."
+        "It is not the bigger library in the city.",
+        "It is not the biggest library in the city."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'Big' → 'biggest' (double consonant + -est) with the definite article.",
       "hint": "Don't double up superlative markers."
     },
@@ -96,12 +163,12 @@
       "id": "q4",
       "prompt": "Which sentence uses 'when' correctly to give a time condition?",
       "options": [
-        "I go there when my head feels too full of voices.",
         "I go there when my head feeling too full of voices.",
+        "I go there when my head feels too full of voices.",
         "I going there when my head feels too full of voices.",
         "I go there when my head will feel too full of voices."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "Both clauses are present simple, which fits a habit.",
       "hint": "Habits → present simple in both clauses."
     },
@@ -109,12 +176,12 @@
       "id": "q5",
       "prompt": "Which option uses the correct preposition?",
       "options": [
-        "The table is by a tall window.",
         "The table is on a tall window.",
         "The table is in a tall window.",
+        "The table is by a tall window.",
         "The table is over a tall window."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'By' means 'next to / beside'.",
       "hint": "Which preposition means 'beside'?"
     },
@@ -122,12 +189,12 @@
       "id": "q6",
       "prompt": "Choose the most natural collocation.",
       "options": [
-        "The air smells a little of old books.",
         "The air smells a little from old books.",
         "The air is smelling little of old books.",
-        "The air smell a little to old books."
+        "The air smell a little to old books.",
+        "The air smells a little of old books."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'Smell of + noun' is the standard pattern; 'a little' is the adverb of degree.",
       "hint": "What preposition follows 'smell'?"
     },
@@ -148,12 +215,12 @@
       "id": "q8",
       "prompt": "Pick the correct linker.",
       "options": [
-        "I am not religious, but for me this library is something close to a quiet church.",
         "I am not religious, so for me this library is something close to a quiet church.",
+        "I am not religious, but for me this library is something close to a quiet church.",
         "I am not religious, because for me this library is something close to a quiet church.",
         "I am not religious, while for me this library is something close to a quiet church."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'But' shows the contrast between not being religious and feeling something spiritual.",
       "hint": "Which linker signals contrast?"
     },
@@ -161,12 +228,12 @@
       "id": "q9",
       "prompt": "Choose the most natural sentence about sound.",
       "options": [
-        "I can hear three things only: page turning, footsteps, and breathing.",
         "I can hearing three things only: page turning, footsteps, and breathing.",
         "I can hear three thing only: page turn, footstep, and breath.",
+        "I can hear three things only: page turning, footsteps, and breathing.",
         "I hear can three things only: page turning, footsteps and breathing."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Can + base verb' and plural -ing nouns are correct.",
       "hint": "Modal + base verb."
     },
@@ -174,12 +241,12 @@
       "id": "q10",
       "prompt": "Which closing line feels personal and concrete?",
       "options": [
-        "It is the only place where I am completely sure that nobody will ask me a question.",
         "In conclusion, silence is golden for everyone.",
         "Throughout history, libraries have offered peace.",
-        "It is important to note that quiet places benefit mental health."
+        "It is important to note that quiet places benefit mental health.",
+        "It is the only place where I am completely sure that nobody will ask me a question."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "A specific personal observation beats generic AI phrasing.",
       "hint": "Avoid AI clichés like 'In conclusion' or 'It is important to note'."
     }

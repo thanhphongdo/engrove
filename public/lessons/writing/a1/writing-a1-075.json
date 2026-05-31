@@ -3,7 +3,11 @@
   "level": "A1",
   "title": "A key I lost last month",
   "summary": "Tell a small story about a key you lost and what you did about it.",
-  "tags": ["Loss", "Story", "Object"],
+  "tags": [
+    "Loss",
+    "Story",
+    "Object"
+  ],
   "topic": "A key I lost last month",
   "prompt": "Write 6–8 short sentences about a key you lost. Say where you went, what happened, who helped, and how the story ended. Use past simple.",
   "minWords": 150,
@@ -14,31 +18,99 @@
     "In the end, I…"
   ],
   "hintVocab": [
-    { "phrase": "key", "meaningVi": "chìa khóa", "pronunciation": "/kiː/" },
-    { "phrase": "lock", "meaningVi": "ổ khóa" },
-    { "phrase": "bag", "meaningVi": "túi" },
-    { "phrase": "pocket", "meaningVi": "túi áo / túi quần" },
-    { "phrase": "check", "meaningVi": "kiểm tra" },
-    { "phrase": "neighbour", "meaningVi": "hàng xóm", "pronunciation": "/ˈneɪbə/" },
-    { "phrase": "locksmith", "meaningVi": "thợ khóa" },
-    { "phrase": "spare key", "meaningVi": "chìa dự phòng" },
-    { "phrase": "expensive", "meaningVi": "đắt" },
-    { "phrase": "lesson", "meaningVi": "bài học" },
-    { "phrase": "careful", "meaningVi": "cẩn thận" }
+    {
+      "phrase": "key",
+      "meaningVi": "chìa khóa",
+      "pronunciation": "/kiː/"
+    },
+    {
+      "phrase": "lock",
+      "meaningVi": "ổ khóa"
+    },
+    {
+      "phrase": "bag",
+      "meaningVi": "túi"
+    },
+    {
+      "phrase": "pocket",
+      "meaningVi": "túi áo / túi quần"
+    },
+    {
+      "phrase": "check",
+      "meaningVi": "kiểm tra"
+    },
+    {
+      "phrase": "neighbour",
+      "meaningVi": "hàng xóm",
+      "pronunciation": "/ˈneɪbə/"
+    },
+    {
+      "phrase": "locksmith",
+      "meaningVi": "thợ khóa"
+    },
+    {
+      "phrase": "spare key",
+      "meaningVi": "chìa dự phòng"
+    },
+    {
+      "phrase": "expensive",
+      "meaningVi": "đắt"
+    },
+    {
+      "phrase": "lesson",
+      "meaningVi": "bài học"
+    },
+    {
+      "phrase": "careful",
+      "meaningVi": "cẩn thận"
+    }
   ],
   "sampleText": "Last month, I lost the key to my flat in Vilnius. I came home from the supermarket at seven in the evening. I stood at my door with two heavy bags. I checked my coat pocket. The key was not there. I checked my jeans pocket. Still nothing. I put the bags on the floor and I emptied my whole bag onto the stairs. I found my phone, my wallet, two old tickets, and one dirty tissue. I did not find the key. I sat on the stairs for ten minutes. I was tired and angry with myself. I called my neighbour. She has a spare key in her kitchen drawer. She came down in her slippers and she opened my door. I thanked her many times. The next morning, I called a locksmith. He changed the lock for me. It was very expensive. Two days later, I found the lost key in a small pocket inside my coat. I laughed and I cried at the same time. Now I always check that pocket twice. That key taught me a small lesson.",
   "sampleAnnotations": [
-    { "phrase": "lost the key", "meaningVi": "đánh mất chìa khóa" },
-    { "phrase": "two heavy bags", "meaningVi": "hai túi nặng" },
-    { "phrase": "checked my coat pocket", "meaningVi": "kiểm tra túi áo khoác" },
-    { "phrase": "emptied my whole bag", "meaningVi": "đổ hết túi xách ra" },
-    { "phrase": "I sat on the stairs", "meaningVi": "tôi ngồi xuống cầu thang" },
-    { "phrase": "angry with myself", "meaningVi": "giận chính mình" },
-    { "phrase": "spare key", "meaningVi": "chìa dự phòng" },
-    { "phrase": "in her slippers", "meaningVi": "đi dép trong nhà" },
-    { "phrase": "called a locksmith", "meaningVi": "gọi thợ khóa" },
-    { "phrase": "changed the lock", "meaningVi": "thay ổ khóa" },
-    { "phrase": "a small lesson", "meaningVi": "một bài học nhỏ" }
+    {
+      "phrase": "lost the key",
+      "meaningVi": "đánh mất chìa khóa"
+    },
+    {
+      "phrase": "two heavy bags",
+      "meaningVi": "hai túi nặng"
+    },
+    {
+      "phrase": "checked my coat pocket",
+      "meaningVi": "kiểm tra túi áo khoác"
+    },
+    {
+      "phrase": "emptied my whole bag",
+      "meaningVi": "đổ hết túi xách ra"
+    },
+    {
+      "phrase": "I sat on the stairs",
+      "meaningVi": "tôi ngồi xuống cầu thang"
+    },
+    {
+      "phrase": "angry with myself",
+      "meaningVi": "giận chính mình"
+    },
+    {
+      "phrase": "spare key",
+      "meaningVi": "chìa dự phòng"
+    },
+    {
+      "phrase": "in her slippers",
+      "meaningVi": "đi dép trong nhà"
+    },
+    {
+      "phrase": "called a locksmith",
+      "meaningVi": "gọi thợ khóa"
+    },
+    {
+      "phrase": "changed the lock",
+      "meaningVi": "thay ổ khóa"
+    },
+    {
+      "phrase": "a small lesson",
+      "meaningVi": "một bài học nhỏ"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -57,8 +129,13 @@
     {
       "id": "q1",
       "prompt": "When did the writer lose the key?",
-      "options": ["Last week", "Last month", "Last year", "Yesterday"],
-      "answerIndex": 1,
+      "options": [
+        "Last week",
+        "Last year",
+        "Last month",
+        "Yesterday"
+      ],
+      "answerIndex": 2,
       "explanation": "The text says 'Last month, I lost the key to my flat'.",
       "hint": "Look at the first sentence."
     },
@@ -67,11 +144,11 @@
       "prompt": "Where was the writer coming from?",
       "options": [
         "From work",
-        "From the supermarket",
         "From the post office",
-        "From a friend's house"
+        "From a friend's house",
+        "From the supermarket"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The text says 'I came home from the supermarket at seven in the evening'.",
       "hint": "Look at the second sentence."
     },
@@ -79,12 +156,12 @@
       "id": "q3",
       "prompt": "What did the writer NOT find on the stairs?",
       "options": [
+        "The key",
         "His phone",
         "His wallet",
-        "An old ticket",
-        "The key"
+        "An old ticket"
       ],
-      "answerIndex": 3,
+      "answerIndex": 0,
       "explanation": "The text says 'I did not find the key' after listing all the other items.",
       "hint": "Find the negative past sentence."
     },
@@ -119,11 +196,11 @@
       "prompt": "Where did the writer find the lost key two days later?",
       "options": [
         "On the stairs",
-        "In a small pocket inside his coat",
         "At the supermarket",
-        "At the neighbour's house"
+        "At the neighbour's house",
+        "In a small pocket inside his coat"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The text says 'I found the lost key in a small pocket inside my coat'.",
       "hint": "Look near the end."
     },
@@ -131,19 +208,24 @@
       "id": "q7",
       "prompt": "Which sentence is the correct past simple negative?",
       "options": [
-        "I did not found the key.",
         "I did not find the key.",
+        "I did not found the key.",
         "I not found the key.",
         "I no find the key."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Past simple negative: 'did not + base form (find)'.",
       "hint": "After 'did not', use the base form, not the past form."
     },
     {
       "id": "q8",
       "prompt": "Choose the correct past simple of 'come'.",
-      "options": ["comed", "came", "comes", "coming"],
+      "options": [
+        "comed",
+        "came",
+        "comes",
+        "coming"
+      ],
       "answerIndex": 1,
       "explanation": "'come' is irregular: come → came.",
       "hint": "'come' is irregular."
@@ -153,11 +235,11 @@
       "prompt": "Which is the correct order of events?",
       "options": [
         "Found key first, then called locksmith, then asked neighbour.",
-        "Asked neighbour first, called locksmith next morning, found key two days later.",
         "Called locksmith first, then asked neighbour, then went to the supermarket.",
+        "Asked neighbour first, called locksmith next morning, found key two days later.",
         "Found key, lost key, called locksmith."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The story uses 'The next morning' and 'Two days later' to show this order.",
       "hint": "Follow the time phrases in the story."
     },
@@ -166,11 +248,11 @@
       "prompt": "What lesson did the key teach the writer?",
       "options": [
         "Always carry two phones.",
-        "Always check that pocket twice.",
         "Never go to the supermarket.",
-        "Never trust neighbours."
+        "Never trust neighbours.",
+        "Always check that pocket twice."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The text says 'Now I always check that pocket twice'.",
       "hint": "Look at the last two sentences."
     }

@@ -1,0 +1,522 @@
+{
+  "id": "writing-c1-111",
+  "level": "C1",
+  "title": "The metronome and the night ferry",
+  "summary": "Through the figure of a Bosphorus ferry pilot who knows the crossing by feel rather than by clock, interrogate whether measured time and felt time are rivals — and whether a life can honestly be governed by both.",
+  "tags": [
+    "Reflection",
+    "Time",
+    "Work"
+  ],
+  "topic": "The quarrel between time as it is measured and time as it is lived",
+  "prompt": "Write a 600–800-word reflective essay built around one concrete figure or scene in which clock-time and felt-time pull against each other. Argue toward a qualified position on whether the two kinds of time are genuinely opposed or whether the opposition is partly an illusion we find useful. Use first-person reflection, hedging, at least one extended concession, and deliberate cohesion across paragraphs; reach a judgement that resists tidiness.",
+  "minWords": 600,
+  "maxWords": 800,
+  "hintStarters": [
+    "The pilot did not consult the clock so much as he seemed to be in conversation with something the clock could only approximate, namely…",
+    "It is tempting to treat the two times as enemies, and harder to admit that each quietly depends on…",
+    "What the timetable promises and what the crossing actually feels like are not the same thing, and the gap between them is where…"
+  ],
+  "hintVocab": [
+    {
+      "phrase": "duration",
+      "meaningVi": "khoảng thời gian được cảm nhận, sự kéo dài",
+      "pronunciation": "/djuˈreɪʃn/"
+    },
+    {
+      "phrase": "to elapse",
+      "meaningVi": "(thời gian) trôi qua",
+      "pronunciation": "/ɪˈlæps/"
+    },
+    {
+      "phrase": "felt time",
+      "meaningVi": "thời gian được cảm nhận"
+    },
+    {
+      "phrase": "clock-time",
+      "meaningVi": "thời gian theo đồng hồ"
+    },
+    {
+      "phrase": "the timetable",
+      "meaningVi": "lịch trình, thời gian biểu"
+    },
+    {
+      "phrase": "to synchronise",
+      "meaningVi": "đồng bộ hoá",
+      "pronunciation": "/ˈsɪŋkrənaɪz/"
+    },
+    {
+      "phrase": "tempo",
+      "meaningVi": "nhịp độ",
+      "pronunciation": "/ˈtempəʊ/"
+    },
+    {
+      "phrase": "cadence",
+      "meaningVi": "nhịp điệu, vần điệu",
+      "pronunciation": "/ˈkeɪdns/"
+    },
+    {
+      "phrase": "to register",
+      "meaningVi": "ghi nhận, nhận biết"
+    },
+    {
+      "phrase": "the metronome",
+      "meaningVi": "máy gõ nhịp",
+      "pronunciation": "/ˈmetrənəʊm/"
+    },
+    {
+      "phrase": "abstraction",
+      "meaningVi": "sự trừu tượng hoá",
+      "pronunciation": "/æbˈstrækʃn/"
+    },
+    {
+      "phrase": "to standardise",
+      "meaningVi": "tiêu chuẩn hoá"
+    },
+    {
+      "phrase": "to approximate",
+      "meaningVi": "ước lượng gần đúng",
+      "pronunciation": "/əˈprɒksɪmeɪt/"
+    },
+    {
+      "phrase": "interval",
+      "meaningVi": "khoảng cách (thời gian)",
+      "pronunciation": "/ˈɪntəvl/"
+    },
+    {
+      "phrase": "punctuality",
+      "meaningVi": "tính đúng giờ",
+      "pronunciation": "/ˌpʌŋktʃuˈæləti/"
+    },
+    {
+      "phrase": "to attune oneself to",
+      "meaningVi": "tự điều chỉnh mình hoà hợp với"
+    },
+    {
+      "phrase": "the crossing",
+      "meaningVi": "chuyến vượt (sông, eo biển)"
+    },
+    {
+      "phrase": "the current",
+      "meaningVi": "dòng chảy, dòng nước"
+    },
+    {
+      "phrase": "to drift",
+      "meaningVi": "trôi dạt"
+    },
+    {
+      "phrase": "embodied knowledge",
+      "meaningVi": "tri thức nằm trong cơ thể, kỹ năng thấm vào người"
+    },
+    {
+      "phrase": "tacit",
+      "meaningVi": "ngầm hiểu, không nói ra",
+      "pronunciation": "/ˈtæsɪt/"
+    },
+    {
+      "phrase": "to govern",
+      "meaningVi": "chi phối, điều hành"
+    },
+    {
+      "phrase": "rhythm",
+      "meaningVi": "nhịp điệu",
+      "pronunciation": "/ˈrɪðəm/"
+    },
+    {
+      "phrase": "to lag",
+      "meaningVi": "trễ lại, tụt lại sau"
+    },
+    {
+      "phrase": "to outpace",
+      "meaningVi": "vượt nhanh hơn"
+    },
+    {
+      "phrase": "subjective",
+      "meaningVi": "chủ quan",
+      "pronunciation": "/səbˈdʒektɪv/"
+    },
+    {
+      "phrase": "to reconcile",
+      "meaningVi": "dung hoà, hoà giải",
+      "pronunciation": "/ˈrekənsaɪl/"
+    },
+    {
+      "phrase": "schedule",
+      "meaningVi": "lịch trình",
+      "pronunciation": "/ˈʃedjuːl/"
+    },
+    {
+      "phrase": "the wake",
+      "meaningVi": "vệt nước sau tàu"
+    },
+    {
+      "phrase": "to lull",
+      "meaningVi": "ru, làm dịu xuống"
+    },
+    {
+      "phrase": "perception",
+      "meaningVi": "sự tri giác, cảm nhận",
+      "pronunciation": "/pəˈsepʃn/"
+    },
+    {
+      "phrase": "to dilate",
+      "meaningVi": "giãn ra, nở ra (về thời gian)",
+      "pronunciation": "/daɪˈleɪt/"
+    }
+  ],
+  "sampleText": "The pilot of the night ferry between Karaköy and Kadıköy kept a clock above the wheel, but I never once saw him look at it. He looked at the water. On the worst nights, when the Bosphorus current runs hard against an incoming wind and the lit windows of Üsküdar smear across the swell, he would ease the throttle by a hair, hold a heading I could not have justified on any chart, and bring us alongside within the same half-minute every time. The clock above the wheel said one thing; his hands, reading the current through the hull, seemed to be answering a different question entirely. I rode that crossing for a winter, and I have been trying ever since to say what the two of them were doing.\n\nThe tidy account is that there are two times, and that they are rivals. There is clock-time — measured, uniform, indifferent, the same interval whether you are bored or in love — and there is felt time, the duration that dilates when you wait and collapses when you are absorbed. On this account the timetable is a tyranny laid over the soft, true rhythm of lived experience, and the pilot, reading the water, was the last honest man, attuned to felt time while the rest of us obeyed the metronome. It is a flattering story, and I distrust it for that reason.\n\nWhat I actually watched was harder to romanticise. The pilot was not in revolt against the clock; he was its most reliable servant. The ferry left when the timetable said it would, and arrived when the timetable promised, and the passengers who made their connections on the far shore did so because abstraction had been imposed on the strait and made to hold. His feel for the current was not an alternative to punctuality but the means by which punctuality was achieved on a night when the strait refused to behave. Embodied knowledge, in his hands, was not the enemy of the schedule; it was what the schedule secretly ran on. Strip out the tacit reading of water, the small corrections no instrument prompted, and the timetable would have been a lie posted on a wall.\n\nAnd yet I am not ready to dissolve the distinction altogether, because something real was being defended on that deck. When the crossing went smoothly, the twenty minutes felt like nothing; the lights slid past, the wake unspooled, and I would arrive faintly surprised that we had moved at all. When the wind got up, the same twenty minutes thickened into something you had to endure rather than pass through. The clock was serenely unmoved by the difference, and the clock was, in a sense, wrong — not factually, but humanly. It registered the interval and missed the crossing. To insist that the measured twenty minutes is the real twenty minutes, and the felt duration a mere distortion, is to decide in advance that the instrument outranks the experience, and I am not sure why we should grant it that authority.\n\nSo the rivalry is partly genuine and partly a trick of how we frame it. The two times are not the same; no amount of good faith collapses the dilation of a frightening crossing into the clock's flat report of it. But they are not enemies either, and the pilot is the proof. He did not choose felt time over clock-time. He used one to honour the other — let his body keep the conversation with the current so that the abstraction on the wall could remain true. The mistake is to imagine we must elect a side: live by feel and miss every connection, or live by the clock and lose the texture of our own hours.\n\nWhat the pilot knew, and what I am still learning, is that a life can be governed by both without being torn between them, provided we are honest about which one we are consulting and why. The clock is for the others on the far shore, the ones depending on us to arrive. The felt duration is for us, the irreducible record of what the crossing actually cost or gave. I have stopped wanting to choose. I have started trying, like him, to keep one hand on the wheel and one on the water, and to mistrust any account of time tidy enough to make that impossible.",
+  "sampleAnnotations": [
+    {
+      "phrase": "kept a clock above the wheel, but I never once saw him look at it",
+      "meaningVi": "treo một chiếc đồng hồ phía trên vô lăng, nhưng tôi chưa từng một lần thấy ông nhìn nó"
+    },
+    {
+      "phrase": "He looked at the water",
+      "meaningVi": "Ông nhìn vào mặt nước"
+    },
+    {
+      "phrase": "the Bosphorus current runs hard against an incoming wind",
+      "meaningVi": "dòng chảy Bosphorus chảy mạnh ngược với cơn gió thổi vào"
+    },
+    {
+      "phrase": "ease the throttle by a hair",
+      "meaningVi": "nới ga một chút xíu"
+    },
+    {
+      "phrase": "bring us alongside within the same half-minute every time",
+      "meaningVi": "đưa chúng tôi cập bến trong cùng khoảng nửa phút mỗi lần"
+    },
+    {
+      "phrase": "reading the current through the hull",
+      "meaningVi": "đọc dòng chảy qua thân tàu"
+    },
+    {
+      "phrase": "The tidy account is that there are two times, and that they are rivals",
+      "meaningVi": "Lời giải thích gọn gàng là có hai thứ thời gian, và chúng là đối thủ của nhau"
+    },
+    {
+      "phrase": "the same interval whether you are bored or in love",
+      "meaningVi": "cùng một khoảng thời gian dù bạn đang chán hay đang yêu"
+    },
+    {
+      "phrase": "the duration that dilates when you wait and collapses when you are absorbed",
+      "meaningVi": "khoảng thời gian giãn ra khi bạn chờ đợi và co lại khi bạn say sưa với việc gì đó"
+    },
+    {
+      "phrase": "the timetable is a tyranny laid over the soft, true rhythm of lived experience",
+      "meaningVi": "lịch trình là một sự chuyên chế áp đặt lên cái nhịp điệu mềm mại, chân thật của trải nghiệm sống"
+    },
+    {
+      "phrase": "It is a flattering story, and I distrust it for that reason",
+      "meaningVi": "Đó là một câu chuyện dễ chiều lòng người, và chính vì thế tôi ngờ vực nó"
+    },
+    {
+      "phrase": "The pilot was not in revolt against the clock; he was its most reliable servant",
+      "meaningVi": "Người lái tàu không nổi loạn chống lại chiếc đồng hồ; ông là kẻ phục vụ đáng tin cậy nhất của nó"
+    },
+    {
+      "phrase": "abstraction had been imposed on the strait and made to hold",
+      "meaningVi": "sự trừu tượng đã được áp lên eo biển và được giữ cho đứng vững"
+    },
+    {
+      "phrase": "his feel for the current was not an alternative to punctuality but the means by which punctuality was achieved",
+      "meaningVi": "cảm nhận của ông về dòng chảy không phải là một lựa chọn thay thế cho tính đúng giờ mà là phương tiện để đạt được tính đúng giờ"
+    },
+    {
+      "phrase": "it was what the schedule secretly ran on",
+      "meaningVi": "nó là cái mà lịch trình ngầm vận hành dựa vào"
+    },
+    {
+      "phrase": "the timetable would have been a lie posted on a wall",
+      "meaningVi": "lịch trình hẳn đã là một lời dối trá dán trên tường"
+    },
+    {
+      "phrase": "I am not ready to dissolve the distinction altogether",
+      "meaningVi": "tôi chưa sẵn sàng xoá bỏ hoàn toàn sự phân biệt ấy"
+    },
+    {
+      "phrase": "the same twenty minutes thickened into something you had to endure rather than pass through",
+      "meaningVi": "cùng hai mươi phút ấy đặc lại thành một thứ bạn phải chịu đựng hơn là đi qua"
+    },
+    {
+      "phrase": "It registered the interval and missed the crossing",
+      "meaningVi": "Nó ghi nhận khoảng thời gian nhưng bỏ lỡ chính chuyến vượt"
+    },
+    {
+      "phrase": "to decide in advance that the instrument outranks the experience",
+      "meaningVi": "quyết định từ trước rằng dụng cụ đo đứng trên trải nghiệm"
+    },
+    {
+      "phrase": "the rivalry is partly genuine and partly a trick of how we frame it",
+      "meaningVi": "sự kình địch ấy phần thì có thật, phần thì là một mẹo của cách ta đóng khung nó"
+    },
+    {
+      "phrase": "no amount of good faith collapses the dilation of a frightening crossing into the clock's flat report of it",
+      "meaningVi": "không một sự thành tâm nào có thể nén sự giãn nở của một chuyến vượt đáng sợ vào bản báo cáo phẳng lì của chiếc đồng hồ"
+    },
+    {
+      "phrase": "He used one to honour the other",
+      "meaningVi": "Ông dùng cái này để tôn trọng cái kia"
+    },
+    {
+      "phrase": "The mistake is to imagine we must elect a side",
+      "meaningVi": "Sai lầm là tưởng rằng ta buộc phải chọn một phe"
+    },
+    {
+      "phrase": "a life can be governed by both without being torn between them",
+      "meaningVi": "một cuộc đời có thể được chi phối bởi cả hai mà không bị giằng xé giữa chúng"
+    },
+    {
+      "phrase": "provided we are honest about which one we are consulting and why",
+      "meaningVi": "miễn là ta thành thật về việc ta đang tham vấn cái nào và vì sao"
+    },
+    {
+      "phrase": "the irreducible record of what the crossing actually cost or gave",
+      "meaningVi": "bản ghi không thể quy giản về điều mà chuyến vượt thực sự đã lấy đi hay đã cho"
+    },
+    {
+      "phrase": "I have stopped wanting to choose",
+      "meaningVi": "Tôi đã thôi muốn phải chọn"
+    },
+    {
+      "phrase": "to keep one hand on the wheel and one on the water",
+      "meaningVi": "giữ một tay trên vô lăng và một tay trên mặt nước"
+    },
+    {
+      "phrase": "to mistrust any account of time tidy enough to make that impossible",
+      "meaningVi": "ngờ vực bất cứ lời giải thích nào về thời gian gọn gàng đến mức khiến điều đó trở nên bất khả"
+    },
+    {
+      "phrase": "the lights slid past, the wake unspooled",
+      "meaningVi": "ánh đèn lướt qua, vệt nước sau tàu tãi ra"
+    },
+    {
+      "phrase": "The clock was serenely unmoved by the difference",
+      "meaningVi": "Chiếc đồng hồ điềm nhiên không hề lay chuyển trước sự khác biệt ấy"
+    }
+  ],
+  "sampleGrammarNotes": [
+    {
+      "title": "Concessive 'and yet' to stage a turn in the argument",
+      "bodyVi": "Câu 'And yet I am not ready to dissolve the distinction altogether' dùng liên từ nhượng bộ 'and yet' để xoay hướng lập luận: tác giả vừa bác bỏ câu chuyện lãng mạn ở đoạn trước, rồi lập tức cảnh báo mình đừng đi quá xa theo hướng ngược lại. Ở C1, các dấu xoay như 'and yet', 'so', 'but' đặt đầu đoạn tạo mạch liên kết giữa các đoạn và báo cho người đọc biết lập luận đang gập lại chứ không đi thẳng một mạch.",
+      "bodyEn": "The sentence 'And yet I am not ready to dissolve the distinction altogether' uses the concessive connector 'and yet' to pivot the argument: having just rejected the romantic story, the writer immediately warns against overcorrecting. At C1, paragraph-initial pivots like 'and yet', 'so', and 'but' build cohesion across paragraphs and signal to the reader that the argument is folding back on itself rather than running in a straight line."
+    },
+    {
+      "title": "Parallel infinitive clauses to compress a tradeoff",
+      "bodyVi": "Cụm 'live by feel and miss every connection, or live by the clock and lose the texture of our own hours' dùng hai mệnh đề nguyên thể song hành nối bằng 'or' để nén cả một sự đánh đổi vào một câu cân đối. Cấu trúc đối xứng làm hai lựa chọn hiện ra cùng trọng lượng, rồi tác giả mới bác bỏ chính cái khung nhị nguyên đó.",
+      "bodyEn": "The phrase 'live by feel and miss every connection, or live by the clock and lose the texture of our own hours' uses two parallel infinitive clauses joined by 'or' to compress an entire tradeoff into one balanced sentence. The symmetry makes both options appear equally weighted, after which the writer rejects the very binary the structure set up."
+    }
+  ],
+  "sampleTranslationVi": "Người lái chuyến phà đêm giữa Karaköy và Kadıköy treo một chiếc đồng hồ phía trên vô lăng, nhưng tôi chưa từng một lần thấy ông nhìn nó. Ông nhìn vào mặt nước. Vào những đêm tệ nhất, khi dòng chảy Bosphorus chảy mạnh ngược với cơn gió thổi vào và những ô cửa sổ sáng đèn của Üsküdar nhoè đi trên những con sóng lừng, ông sẽ nới ga một chút xíu, giữ một hướng đi mà tôi không thể nào biện minh được trên bất kỳ hải đồ nào, và đưa chúng tôi cập bến trong cùng khoảng nửa phút mỗi lần. Chiếc đồng hồ phía trên vô lăng nói một điều; còn đôi tay ông, đọc dòng chảy qua thân tàu, dường như đang trả lời một câu hỏi hoàn toàn khác. Tôi đi chuyến phà ấy suốt một mùa đông, và từ đó đến nay tôi vẫn cố nói cho được hai thứ ấy đang làm gì.\n\nLời giải thích gọn gàng là có hai thứ thời gian, và chúng là đối thủ của nhau. Có thời gian theo đồng hồ — được đo đạc, đồng đều, dửng dưng, cùng một khoảng dù bạn đang chán hay đang yêu — và có thời gian được cảm nhận, cái khoảng thời gian giãn ra khi bạn chờ đợi và co lại khi bạn say sưa với việc gì đó. Theo lời giải thích này, lịch trình là một sự chuyên chế áp đặt lên cái nhịp điệu mềm mại, chân thật của trải nghiệm sống, còn người lái tàu, đọc dòng nước, là người trung thực cuối cùng, hoà hợp với thời gian cảm nhận trong khi tất cả chúng ta còn lại tuân theo máy gõ nhịp. Đó là một câu chuyện dễ chiều lòng người, và chính vì thế tôi ngờ vực nó.\n\nĐiều tôi thực sự chứng kiến thì khó lãng mạn hoá hơn. Người lái tàu không nổi loạn chống lại chiếc đồng hồ; ông là kẻ phục vụ đáng tin cậy nhất của nó. Chuyến phà rời bến đúng như lịch trình nói, và cập bến đúng như lịch trình hứa, và những hành khách kịp chuyến nối ở bờ bên kia làm được thế bởi sự trừu tượng đã được áp lên eo biển và được giữ cho đứng vững. Cảm nhận của ông về dòng chảy không phải là một lựa chọn thay thế cho tính đúng giờ mà là phương tiện để đạt được tính đúng giờ vào một đêm khi eo biển không chịu ngoan ngoãn. Tri thức thấm vào cơ thể, trong tay ông, không phải là kẻ thù của lịch trình; nó là cái mà lịch trình ngầm vận hành dựa vào. Bỏ đi cái sự đọc nước ngấm ngầm ấy, những điều chỉnh nhỏ mà chẳng dụng cụ nào nhắc, thì lịch trình hẳn đã là một lời dối trá dán trên tường.\n\nThế mà tôi chưa sẵn sàng xoá bỏ hoàn toàn sự phân biệt ấy, vì có một điều gì đó thật sự đang được bảo vệ trên boong tàu kia. Khi chuyến vượt êm xuôi, hai mươi phút tựa như chẳng có gì; ánh đèn lướt qua, vệt nước sau tàu tãi ra, và tôi sẽ cập bến với chút ngỡ ngàng rằng chúng tôi đã di chuyển chút nào. Khi gió nổi lên, cùng hai mươi phút ấy đặc lại thành một thứ bạn phải chịu đựng hơn là đi qua. Chiếc đồng hồ điềm nhiên không hề lay chuyển trước sự khác biệt ấy, và chiếc đồng hồ, theo một nghĩa nào đó, đã sai — không sai về mặt sự kiện, mà sai về mặt con người. Nó ghi nhận khoảng thời gian nhưng bỏ lỡ chính chuyến vượt. Khăng khăng rằng hai mươi phút đo được mới là hai mươi phút thật, còn khoảng thời gian cảm nhận chỉ là một sự méo mó, là quyết định từ trước rằng dụng cụ đo đứng trên trải nghiệm, và tôi không chắc vì sao ta lại phải trao cho nó cái quyền uy ấy.\n\nVậy nên sự kình địch ấy phần thì có thật, phần thì là một mẹo của cách ta đóng khung nó. Hai thứ thời gian không phải là một; không một sự thành tâm nào có thể nén sự giãn nở của một chuyến vượt đáng sợ vào bản báo cáo phẳng lì của chiếc đồng hồ. Nhưng chúng cũng chẳng phải kẻ thù, và người lái tàu là bằng chứng. Ông không chọn thời gian cảm nhận thay cho thời gian đồng hồ. Ông dùng cái này để tôn trọng cái kia — để cơ thể mình tiếp tục cuộc trò chuyện với dòng chảy ngõ hầu sự trừu tượng trên tường có thể giữ được sự chân thật. Sai lầm là tưởng rằng ta buộc phải chọn một phe: sống theo cảm nhận và lỡ mọi chuyến nối, hay sống theo đồng hồ và đánh mất cái chất liệu của chính những giờ khắc của mình.\n\nĐiều người lái tàu biết, và điều tôi vẫn đang học, là một cuộc đời có thể được chi phối bởi cả hai mà không bị giằng xé giữa chúng, miễn là ta thành thật về việc ta đang tham vấn cái nào và vì sao. Chiếc đồng hồ là dành cho những người khác ở bờ bên kia, những kẻ trông cậy vào việc ta sẽ tới. Khoảng thời gian cảm nhận là dành cho chúng ta, bản ghi không thể quy giản về điều mà chuyến vượt thực sự đã lấy đi hay đã cho. Tôi đã thôi muốn phải chọn. Tôi đã bắt đầu cố, như ông, giữ một tay trên vô lăng và một tay trên mặt nước, và ngờ vực bất cứ lời giải thích nào về thời gian gọn gàng đến mức khiến điều đó trở nên bất khả.",
+  "mcQuestions": [
+    {
+      "id": "q1",
+      "prompt": "What is the essay's qualified central claim about clock-time and felt time?",
+      "options": [
+        "Felt time is the only real time; the clock is a lie.",
+        "Clock-time always defeats felt time in modern life.",
+        "The two are exactly the same thing measured differently.",
+        "They are not identical, but they are not true enemies either — one can be used to honour the other."
+      ],
+      "answerIndex": 3,
+      "explanation": "The essay holds both: the two times differ, 'but they are not enemies either, and the pilot is the proof.'",
+      "hint": "The writer refuses to 'elect a side' — what middle position does that leave?"
+    },
+    {
+      "id": "q2",
+      "prompt": "Why does the writer distrust the 'tidy account' that the two times are rivals?",
+      "options": [
+        "Because it is a flattering story that romanticises the pilot and oversimplifies what the writer actually observed.",
+        "Because it is mathematically false.",
+        "Because the pilot told the writer it was wrong.",
+        "Because clocks are more accurate than feelings."
+      ],
+      "answerIndex": 0,
+      "explanation": "The writer calls it 'a flattering story, and I distrust it for that reason,' then shows the reality was 'harder to romanticise.'",
+      "hint": "What word does the writer use for the story right before saying he distrusts it?"
+    },
+    {
+      "id": "q3",
+      "prompt": "What surprising point does the essay make about the pilot's relationship to the clock?",
+      "options": [
+        "He secretly hated the timetable and sabotaged it.",
+        "He was the clock's most reliable servant: his feel for the current was the means by which punctuality was achieved.",
+        "He ignored the clock entirely and arrived whenever he pleased.",
+        "He set the clock himself each morning."
+      ],
+      "answerIndex": 1,
+      "explanation": "The third paragraph argues his embodied knowledge 'was what the schedule secretly ran on,' not a revolt against it.",
+      "hint": "Was his 'feel' an alternative to punctuality, or the way it was reached?"
+    },
+    {
+      "id": "q4",
+      "prompt": "What does the writer mean by 'It registered the interval and missed the crossing'?",
+      "options": [
+        "The clock broke during the journey.",
+        "The pilot forgot to record the departure time.",
+        "The clock counted the minutes correctly but failed to capture what the crossing was like to live through.",
+        "The ferry took a wrong route across the strait."
+      ],
+      "answerIndex": 2,
+      "explanation": "The clock is 'humanly' wrong: factually it counts the interval, but it cannot register the felt experience of the crossing.",
+      "hint": "What can a clock count, and what can it not capture?"
+    },
+    {
+      "id": "q5",
+      "prompt": "Which option best expresses the essay's hedged, reflective register?",
+      "options": [
+        "Clocks are evil tools of capitalist oppression, full stop.",
+        "Time is time and feelings don't matter, obviously.",
+        "Pursuant to maritime regulation, scheduled departure shall be observed.",
+        "I am not sure why we should grant it that authority."
+      ],
+      "answerIndex": 3,
+      "explanation": "Option B is a measured, hedged challenge; A is a slogan, C is dismissive, D is bureaucratic jargon.",
+      "hint": "Look for the controlled, uncertain phrasing, not a slogan or jargon."
+    },
+    {
+      "id": "q6",
+      "prompt": "Which sentence uses parallel infinitive clauses to compress a tradeoff, as in the grammar notes?",
+      "options": [
+        "Live by feel and miss every connection, or live by the clock and lose the texture of our own hours.",
+        "The ferry was very late on a stormy night.",
+        "Because the wind was strong, the crossing felt long.",
+        "The pilot looked at the water instead of the clock."
+      ],
+      "answerIndex": 0,
+      "explanation": "Two parallel 'live by … and …' clauses joined by 'or' set the two options in balanced opposition.",
+      "hint": "Look for two matched 'live by …' clauses joined by 'or'."
+    },
+    {
+      "id": "q7",
+      "prompt": "Which option uses the best cohesion to continue 'It is tempting to treat the two times as enemies,'?",
+      "options": [
+        "Enemies are people you do not get along with.",
+        "and harder to admit that each quietly depends on the other.",
+        "Also, the Bosphorus is a famous strait in Istanbul.",
+        "In today's fast-paced world, time is money."
+      ],
+      "answerIndex": 1,
+      "explanation": "Option B completes the 'tempting … harder' contrast that drives the essay's reconciliation; the others are off-topic or cliché.",
+      "hint": "The clause sets up a 'tempting / harder' contrast — what completes it on-topic?"
+    },
+    {
+      "id": "q8",
+      "prompt": "What is the rhetorical function of the final image, 'one hand on the wheel and one on the water'?",
+      "options": [
+        "It warns readers not to pilot ferries without training.",
+        "It proves the clock is more important than feel.",
+        "It figures the writer's resolution: to live by both times at once rather than choosing between them.",
+        "It describes a dangerous way to steer a boat."
+      ],
+      "answerIndex": 2,
+      "explanation": "The image enacts the essay's conclusion — holding measured and felt time together, as the pilot did.",
+      "hint": "What does each hand stand for in the essay's argument?"
+    },
+    {
+      "id": "q9",
+      "prompt": "Which paraphrase is closest to 'no amount of good faith collapses the dilation of a frightening crossing into the clock's flat report of it'?",
+      "options": [
+        "Frightening crossings are always longer than calm ones.",
+        "Good faith makes time pass more quickly.",
+        "Clocks become inaccurate during storms.",
+        "However sincere you are, you cannot reduce the stretched, felt experience of a scary crossing to the clock's neutral count of minutes."
+      ],
+      "answerIndex": 3,
+      "explanation": "The line insists felt duration cannot be honestly equated with the clock's flat measurement, no matter the intent.",
+      "hint": "What can't 'good faith' do to the difference between felt and measured time?"
+    },
+    {
+      "id": "q10",
+      "prompt": "Which sentence best matches the essay's concrete, observational opening style?",
+      "options": [
+        "The pilot of the night ferry kept a clock above the wheel, but I never once saw him look at it.",
+        "Time is a fascinating and complex philosophical subject.",
+        "There are two kinds of time, as everyone knows.",
+        "Throughout history, humans have measured time in many ways."
+      ],
+      "answerIndex": 0,
+      "explanation": "Option B opens with a concrete figure and observed detail, the essay's chosen method; the others state generalities.",
+      "hint": "Which option shows a specific scene rather than announcing a topic?"
+    },
+    {
+      "id": "q11",
+      "prompt": "Why does the essay say the timetable 'would have been a lie posted on a wall' without the pilot's skill?",
+      "options": [
+        "Because the printed times were deliberately falsified.",
+        "Because the schedule's promise only held in practice through the pilot's tacit corrections to the current.",
+        "Because no one ever read the timetable.",
+        "Because the wall was in the wrong place."
+      ],
+      "answerIndex": 1,
+      "explanation": "The schedule 'secretly ran on' embodied knowledge; without it the posted times could not be kept.",
+      "hint": "What made the posted times actually true on a difficult night?"
+    },
+    {
+      "id": "q12",
+      "prompt": "Which option is grammatical, on-topic, and matches the essay's tone?",
+      "options": [
+        "Basically the dude just vibed with the water, no clock needed lol.",
+        "Henceforth felt duration shall supersede chronometric measurement per directive.",
+        "When the wind got up, the same twenty minutes thickened into something you had to endure rather than pass through.",
+        "Everybody knows clocks are useless on boats anyway."
+      ],
+      "answerIndex": 2,
+      "explanation": "Option B is precise and reflective; A is slang, C is jargon, D is a sweeping unsupported claim.",
+      "hint": "Match the careful, concrete, reflective voice."
+    },
+    {
+      "id": "q13",
+      "prompt": "What does the essay mean by saying the clock was 'not factually, but humanly' wrong?",
+      "options": [
+        "The clock displayed the wrong number.",
+        "The clock was made by a dishonest person.",
+        "Humans cannot read clocks accurately.",
+        "The clock's count was accurate, yet it failed to honour the human reality of how the time was experienced."
+      ],
+      "answerIndex": 3,
+      "explanation": "The distinction concedes factual accuracy while denying that accuracy captures lived duration.",
+      "hint": "What kind of correctness does the clock have, and what kind does it lack?"
+    },
+    {
+      "id": "q14",
+      "prompt": "Which sentence uses the concessive pivot 'and yet' to fold the argument back, as in the grammar notes?",
+      "options": [
+        "And yet I am not ready to dissolve the distinction altogether.",
+        "The pilot looked at the water and yet the clock.",
+        "And the ferry left on time, yet.",
+        "Yet and the crossing was twenty minutes long."
+      ],
+      "answerIndex": 0,
+      "explanation": "Option A opens a paragraph with 'and yet' to qualify the previous claim — the cohesive pivot described in the notes; the others are ungrammatical.",
+      "hint": "Which one is a grammatical sentence-initial 'and yet' turn?"
+    },
+    {
+      "id": "q15",
+      "prompt": "Which option preserves the essay's refusal of tidy resolution rather than overstating a conclusion?",
+      "options": [
+        "Felt time wins, and the clock should be abolished.",
+        "I have stopped wanting to choose, and I mistrust any account of time tidy enough to make that impossible.",
+        "The matter is now fully settled in favour of the timetable.",
+        "There is no real difference between the two times at all."
+      ],
+      "answerIndex": 1,
+      "explanation": "Option B holds the tension open and distrusts neat answers — the qualified close the prompt requires.",
+      "hint": "Look for the option that resists a clean, final verdict."
+    },
+    {
+      "id": "q16",
+      "prompt": "Which paraphrase is closest to 'embodied knowledge, in his hands, was not the enemy of the schedule; it was what the schedule secretly ran on'?",
+      "options": [
+        "His physical skill destroyed the timetable.",
+        "He never used any skill at all.",
+        "His bodily, practised know-how was not opposed to the schedule but was the hidden thing that made the schedule work.",
+        "Schedules and skills are completely unrelated."
+      ],
+      "answerIndex": 2,
+      "explanation": "The line reframes feel as the schedule's hidden support, not its opponent; B captures this exactly.",
+      "hint": "Was his know-how against the schedule, or quietly powering it?"
+    }
+  ],
+  "criticalThinkingQuestion": "Recall an activity you know well enough to do 'by feel' — cooking, a commute, a sport, a craft. When you perform it, are you obeying the clock, ignoring it, or quietly using your feel to keep a promise the clock made on your behalf? What would be lost if you could only consult one of those two times, and what would be lost if you tried to honour both at every moment?"
+}

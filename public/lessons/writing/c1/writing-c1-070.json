@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "On the moral risk of being the person who explains a tradition",
   "summary": "Argue that whoever takes it upon themselves to explain a tradition — to outsiders, to descendants, to the curious — assumes a quiet authorship that is rarely acknowledged, and that this authorship has real costs whether the explainer wants them or not.",
-  "tags": ["Ethics", "Culture", "Argument"],
+  "tags": [
+    "Ethics",
+    "Culture",
+    "Argument"
+  ],
   "topic": "The hidden authorship of those who explain traditions to others",
   "prompt": "Write a 600–800-word essay on the moral risk taken by the person who explains a tradition — a religious practice, a craft, a regional custom, a family history — to people who are not inside it. Avoid the language of cultural appropriation slogans and avoid sentimental defences of insider knowledge. Use one inversion, one cleft, and a 'Granted… Even so…' concession. Treat the question philosophically.",
   "minWords": 600,
@@ -14,53 +18,185 @@
     "Granted, traditions need explainers, and the refusal to explain anything to anyone has its own pathology. Even so,…"
   ],
   "hintVocab": [
-    {"phrase": "quiet authorship", "meaningVi": "tác giả thầm lặng"},
-    {"phrase": "the explainer's tax", "meaningVi": "thuế của người giải thích"},
-    {"phrase": "the curated tradition", "meaningVi": "truyền thống được biên tập"},
-    {"phrase": "insider knowledge", "meaningVi": "kiến thức nội bộ"},
-    {"phrase": "the second-order practitioner", "meaningVi": "người thực hành cấp hai"},
-    {"phrase": "the canonising move", "meaningVi": "động tác chính điển hoá"},
-    {"phrase": "selection as silent legislation", "meaningVi": "lựa chọn như lập pháp thầm"},
-    {"phrase": "the audience-facing version", "meaningVi": "phiên bản hướng ra khán giả"},
-    {"phrase": "the explanatory residue", "meaningVi": "dư lượng giải thích"},
-    {"phrase": "interpretive authority", "meaningVi": "thẩm quyền diễn giải"},
-    {"phrase": "the unexamined inheritor", "meaningVi": "người kế thừa chưa xét"},
-    {"phrase": "translation as transformation", "meaningVi": "dịch như chuyển hoá"},
-    {"phrase": "the smoothing move", "meaningVi": "động tác làm nhẵn"},
-    {"phrase": "the embarrassment edit", "meaningVi": "biên tập do xấu hổ"},
-    {"phrase": "tradition as it presents itself", "meaningVi": "truyền thống như nó tự trình hiện"},
-    {"phrase": "the legible version", "meaningVi": "phiên bản dễ đọc"},
-    {"phrase": "epistemic gatekeeping", "meaningVi": "kiểm soát cổng nhận thức"},
-    {"phrase": "the unwritten consensus", "meaningVi": "sự đồng thuận không viết"},
-    {"phrase": "Walter Benjamin on the storyteller", "meaningVi": "Walter Benjamin về người kể chuyện"},
-    {"phrase": "narrative custodianship", "meaningVi": "sự gìn giữ tự sự"},
-    {"phrase": "the freezing of the live form", "meaningVi": "sự đông cứng hình thức sống"},
-    {"phrase": "the absent dissenter", "meaningVi": "người bất đồng vắng mặt"}
+    {
+      "phrase": "quiet authorship",
+      "meaningVi": "tác giả thầm lặng"
+    },
+    {
+      "phrase": "the explainer's tax",
+      "meaningVi": "thuế của người giải thích"
+    },
+    {
+      "phrase": "the curated tradition",
+      "meaningVi": "truyền thống được biên tập"
+    },
+    {
+      "phrase": "insider knowledge",
+      "meaningVi": "kiến thức nội bộ"
+    },
+    {
+      "phrase": "the second-order practitioner",
+      "meaningVi": "người thực hành cấp hai"
+    },
+    {
+      "phrase": "the canonising move",
+      "meaningVi": "động tác chính điển hoá"
+    },
+    {
+      "phrase": "selection as silent legislation",
+      "meaningVi": "lựa chọn như lập pháp thầm"
+    },
+    {
+      "phrase": "the audience-facing version",
+      "meaningVi": "phiên bản hướng ra khán giả"
+    },
+    {
+      "phrase": "the explanatory residue",
+      "meaningVi": "dư lượng giải thích"
+    },
+    {
+      "phrase": "interpretive authority",
+      "meaningVi": "thẩm quyền diễn giải"
+    },
+    {
+      "phrase": "the unexamined inheritor",
+      "meaningVi": "người kế thừa chưa xét"
+    },
+    {
+      "phrase": "translation as transformation",
+      "meaningVi": "dịch như chuyển hoá"
+    },
+    {
+      "phrase": "the smoothing move",
+      "meaningVi": "động tác làm nhẵn"
+    },
+    {
+      "phrase": "the embarrassment edit",
+      "meaningVi": "biên tập do xấu hổ"
+    },
+    {
+      "phrase": "tradition as it presents itself",
+      "meaningVi": "truyền thống như nó tự trình hiện"
+    },
+    {
+      "phrase": "the legible version",
+      "meaningVi": "phiên bản dễ đọc"
+    },
+    {
+      "phrase": "epistemic gatekeeping",
+      "meaningVi": "kiểm soát cổng nhận thức"
+    },
+    {
+      "phrase": "the unwritten consensus",
+      "meaningVi": "sự đồng thuận không viết"
+    },
+    {
+      "phrase": "Walter Benjamin on the storyteller",
+      "meaningVi": "Walter Benjamin về người kể chuyện"
+    },
+    {
+      "phrase": "narrative custodianship",
+      "meaningVi": "sự gìn giữ tự sự"
+    },
+    {
+      "phrase": "the freezing of the live form",
+      "meaningVi": "sự đông cứng hình thức sống"
+    },
+    {
+      "phrase": "the absent dissenter",
+      "meaningVi": "người bất đồng vắng mặt"
+    }
   ],
   "sampleText": "Seldom is the act of explaining a tradition treated as a kind of authorship in its own right, with the responsibilities that any authorship carries. The explainer's posture is modest, and is meant to be: she presents herself as a vehicle, not a voice. She is just describing what is done, what has been done, what is understood by those who do it. The audience — researcher, student, visitor, journalist, grandchild — takes the description gratefully, and the tradition is held to have been transmitted intact. This picture is comforting. It is also, in ways that grow more uncomfortable the longer one looks at them, inaccurate.\n\nConsider a master weaver in a town outside Marrakech who, over thirty years, has explained the techniques and meanings of her loom to a steady stream of visiting scholars, documentary crews, and students of textile history. Each explanation is, in the technical sense, true. Each is also a selection. She has decided, year by year, which patterns to call traditional and which to omit, which colours to describe as 'the colours we use' and which to leave out as the family's own innovation, which of the older women's quarrels to gloss as 'regional variation' and which to leave silent. None of this is dishonest. All of it is authorship. By the time her account has been recorded in three monographs, the audience-facing version of the tradition has accumulated a coherence the tradition itself does not have, and the coherence is hers.\n\nWhat the unassuming framing of 'just describing what we do' tends to conceal is the fact that the description is always already a selection, and the selection is always shaped by an audience. The grandchild will be told a different version from the journalist; the journalist a different version from the visiting scholar; the visiting scholar a different version from the local apprentice who is about to inherit the loom. None of these audiences is wrong to want what they want, and none of the versions is exactly false. Yet the existence of all four versions means that the tradition has been silently rewritten four times, by the same person, for compatible but not identical purposes.\n\nIt is the asymmetry of the explanatory relation, not the explainer's individual scruples, that gives the act its quiet moral weight. The audience cannot easily check the description; the dissenting practitioners within the tradition are usually not in the room; the gloss that smooths over a generations-long disagreement is heard as the authoritative position, simply because it is the position being given. The explainer becomes, often without intending it, the editor of a record that subsequent outsiders will treat as the tradition itself. Years later, a younger member of the community returning from abroad will read those monographs and find a version of her own inheritance she does not quite recognise, narrated in a voice she trusts because it carries the authority of having explained well.\n\nGranted, traditions need explainers, and the refusal to explain anything to anyone has its own pathology. The community that defends itself against all outside attention by refusing to be described becomes either invisible or available only in the form of the projections others put onto it; both outcomes are worse than imperfect explanation. The explainer is performing a service that no inside-only practice could perform. There is no obvious alternative, and the puritan call to 'leave the tradition alone' usually translates, in practice, into ceding the explanatory ground to people with much weaker title to it. Even so, the necessity of the explainer's role does not dissolve the responsibilities that come with it. The choice is not between explanation and silence. It is between explanation that acknowledges its authorship and explanation that hides it.\n\nWhat would explanation that acknowledged its authorship look like? It would, at minimum, name the selection. It would mark the gloss as a gloss. It would, where possible, point the listener toward the other voices in the tradition who would have told the story differently, and toward the practices that have been left out for reasons of audience rather than reasons of substance. It would refuse the smooth coherence that audiences reward and that the tradition itself does not quite possess. None of this requires that the explainer fall silent. It requires that the explainer talk in the voice of someone who knows that the description is also a small piece of legislation about what the tradition is going to count as, from now on, for the readers who never see anything else.\n\nNone of this resolves into a procedure. There is no protocol that tells the explainer when a gloss is responsible and when it is the freezing of a live form. The narrower claim is that the modest framing — 'I'm just describing what we do' — is the part of the act that most needs to be examined, precisely because it is the part that protects the explainer from noticing what she is also, quietly, doing.",
   "sampleAnnotations": [
-    {"phrase": "Seldom is the act of explaining a tradition treated as a kind of authorship in its own right, with the responsibilities that any authorship carries", "meaningVi": "Hiếm khi hành vi giải thích một truyền thống được đối xử như một loại tác giả tự thân, với những trách nhiệm mà bất kỳ tác giả nào cũng gánh"},
-    {"phrase": "she presents herself as a vehicle, not a voice", "meaningVi": "cô ấy tự trình bày như một phương tiện, không phải một giọng nói"},
-    {"phrase": "the tradition is held to have been transmitted intact", "meaningVi": "truyền thống được coi là đã được truyền nguyên vẹn"},
-    {"phrase": "in ways that grow more uncomfortable the longer one looks at them, inaccurate", "meaningVi": "theo cách trở nên khó chịu hơn khi nhìn lâu hơn, không chính xác"},
-    {"phrase": "She has decided, year by year, which patterns to call traditional and which to omit", "meaningVi": "Cô đã quyết định, năm này qua năm khác, các hoa văn nào gọi là truyền thống và các hoa văn nào bỏ qua"},
-    {"phrase": "which of the older women's quarrels to gloss as 'regional variation' and which to leave silent", "meaningVi": "những tranh cãi nào của các phụ nữ lớn tuổi sẽ gọi nhẹ là 'biến thể vùng miền' và những tranh cãi nào để im lặng"},
-    {"phrase": "None of this is dishonest. All of it is authorship", "meaningVi": "Không có gì trong số này là không trung thực. Tất cả là tác giả"},
-    {"phrase": "the audience-facing version of the tradition has accumulated a coherence the tradition itself does not have, and the coherence is hers", "meaningVi": "phiên bản truyền thống hướng ra khán giả đã tích luỹ một sự mạch lạc mà bản thân truyền thống không có, và sự mạch lạc đó là của cô"},
-    {"phrase": "What the unassuming framing of 'just describing what we do' tends to conceal is the fact that the description is always already a selection", "meaningVi": "Điều mà cách đóng khung khiêm nhường 'chỉ mô tả những gì chúng tôi làm' thường che giấu là sự thật rằng sự mô tả luôn đã là một sự lựa chọn"},
-    {"phrase": "The grandchild will be told a different version from the journalist", "meaningVi": "Đứa cháu sẽ được kể một phiên bản khác với phóng viên"},
-    {"phrase": "the tradition has been silently rewritten four times, by the same person, for compatible but not identical purposes", "meaningVi": "truyền thống đã được lặng lẽ viết lại bốn lần, bởi cùng một người, vì các mục đích tương thích nhưng không đồng nhất"},
-    {"phrase": "It is the asymmetry of the explanatory relation, not the explainer's individual scruples, that gives the act its quiet moral weight", "meaningVi": "Chính sự bất đối xứng của quan hệ giải thích, không phải đắn đo cá nhân của người giải thích, mới mang lại cho hành vi trọng lượng đạo đức trầm lặng của nó"},
-    {"phrase": "the gloss that smooths over a generations-long disagreement is heard as the authoritative position, simply because it is the position being given", "meaningVi": "lời giải thích làm nhẵn một sự bất đồng kéo dài hàng thế hệ được nghe như lập trường có thẩm quyền, đơn giản vì đó là lập trường đang được trao"},
-    {"phrase": "a younger member of the community returning from abroad will read those monographs and find a version of her own inheritance she does not quite recognise", "meaningVi": "một thành viên trẻ hơn của cộng đồng trở về từ nước ngoài sẽ đọc các chuyên khảo đó và thấy một phiên bản di sản của chính mình mà cô không hoàn toàn nhận ra"},
-    {"phrase": "Granted, traditions need explainers, and the refusal to explain anything to anyone has its own pathology", "meaningVi": "Cứ cho là truyền thống cần người giải thích, và sự từ chối giải thích bất cứ điều gì với bất cứ ai có bệnh lý riêng của nó"},
-    {"phrase": "the puritan call to 'leave the tradition alone' usually translates, in practice, into ceding the explanatory ground to people with much weaker title to it", "meaningVi": "lời kêu gọi thanh giáo 'để truyền thống yên' thường dịch ra, trong thực tế, thành nhường đất giải thích cho những người có danh nghĩa yếu hơn nhiều"},
-    {"phrase": "Even so, the necessity of the explainer's role does not dissolve the responsibilities that come with it", "meaningVi": "Dù vậy, sự cần thiết của vai trò người giải thích không xoá đi các trách nhiệm đi kèm"},
-    {"phrase": "It is between explanation that acknowledges its authorship and explanation that hides it", "meaningVi": "Đó là giữa sự giải thích thừa nhận tác giả của mình và sự giải thích che giấu nó"},
-    {"phrase": "It would mark the gloss as a gloss", "meaningVi": "Nó sẽ đánh dấu lời giải thích như một lời giải thích"},
-    {"phrase": "the practices that have been left out for reasons of audience rather than reasons of substance", "meaningVi": "các thực hành đã bị bỏ ra vì lý do của khán giả chứ không phải lý do thực chất"},
-    {"phrase": "the description is also a small piece of legislation about what the tradition is going to count as, from now on, for the readers who never see anything else", "meaningVi": "sự mô tả cũng là một mảnh lập pháp nhỏ về điều mà truyền thống sẽ được coi là, từ nay trở đi, đối với những độc giả không bao giờ thấy gì khác"},
-    {"phrase": "the modest framing — 'I'm just describing what we do' — is the part of the act that most needs to be examined", "meaningVi": "cách đóng khung khiêm nhường — 'tôi chỉ mô tả những gì chúng tôi làm' — là phần của hành vi cần được xem xét nhất"}
+    {
+      "phrase": "Seldom is the act of explaining a tradition treated as a kind of authorship in its own right, with the responsibilities that any authorship carries",
+      "meaningVi": "Hiếm khi hành vi giải thích một truyền thống được đối xử như một loại tác giả tự thân, với những trách nhiệm mà bất kỳ tác giả nào cũng gánh"
+    },
+    {
+      "phrase": "she presents herself as a vehicle, not a voice",
+      "meaningVi": "cô ấy tự trình bày như một phương tiện, không phải một giọng nói"
+    },
+    {
+      "phrase": "the tradition is held to have been transmitted intact",
+      "meaningVi": "truyền thống được coi là đã được truyền nguyên vẹn"
+    },
+    {
+      "phrase": "in ways that grow more uncomfortable the longer one looks at them, inaccurate",
+      "meaningVi": "theo cách trở nên khó chịu hơn khi nhìn lâu hơn, không chính xác"
+    },
+    {
+      "phrase": "She has decided, year by year, which patterns to call traditional and which to omit",
+      "meaningVi": "Cô đã quyết định, năm này qua năm khác, các hoa văn nào gọi là truyền thống và các hoa văn nào bỏ qua"
+    },
+    {
+      "phrase": "which of the older women's quarrels to gloss as 'regional variation' and which to leave silent",
+      "meaningVi": "những tranh cãi nào của các phụ nữ lớn tuổi sẽ gọi nhẹ là 'biến thể vùng miền' và những tranh cãi nào để im lặng"
+    },
+    {
+      "phrase": "None of this is dishonest. All of it is authorship",
+      "meaningVi": "Không có gì trong số này là không trung thực. Tất cả là tác giả"
+    },
+    {
+      "phrase": "the audience-facing version of the tradition has accumulated a coherence the tradition itself does not have, and the coherence is hers",
+      "meaningVi": "phiên bản truyền thống hướng ra khán giả đã tích luỹ một sự mạch lạc mà bản thân truyền thống không có, và sự mạch lạc đó là của cô"
+    },
+    {
+      "phrase": "What the unassuming framing of 'just describing what we do' tends to conceal is the fact that the description is always already a selection",
+      "meaningVi": "Điều mà cách đóng khung khiêm nhường 'chỉ mô tả những gì chúng tôi làm' thường che giấu là sự thật rằng sự mô tả luôn đã là một sự lựa chọn"
+    },
+    {
+      "phrase": "The grandchild will be told a different version from the journalist",
+      "meaningVi": "Đứa cháu sẽ được kể một phiên bản khác với phóng viên"
+    },
+    {
+      "phrase": "the tradition has been silently rewritten four times, by the same person, for compatible but not identical purposes",
+      "meaningVi": "truyền thống đã được lặng lẽ viết lại bốn lần, bởi cùng một người, vì các mục đích tương thích nhưng không đồng nhất"
+    },
+    {
+      "phrase": "It is the asymmetry of the explanatory relation, not the explainer's individual scruples, that gives the act its quiet moral weight",
+      "meaningVi": "Chính sự bất đối xứng của quan hệ giải thích, không phải đắn đo cá nhân của người giải thích, mới mang lại cho hành vi trọng lượng đạo đức trầm lặng của nó"
+    },
+    {
+      "phrase": "the gloss that smooths over a generations-long disagreement is heard as the authoritative position, simply because it is the position being given",
+      "meaningVi": "lời giải thích làm nhẵn một sự bất đồng kéo dài hàng thế hệ được nghe như lập trường có thẩm quyền, đơn giản vì đó là lập trường đang được trao"
+    },
+    {
+      "phrase": "a younger member of the community returning from abroad will read those monographs and find a version of her own inheritance she does not quite recognise",
+      "meaningVi": "một thành viên trẻ hơn của cộng đồng trở về từ nước ngoài sẽ đọc các chuyên khảo đó và thấy một phiên bản di sản của chính mình mà cô không hoàn toàn nhận ra"
+    },
+    {
+      "phrase": "Granted, traditions need explainers, and the refusal to explain anything to anyone has its own pathology",
+      "meaningVi": "Cứ cho là truyền thống cần người giải thích, và sự từ chối giải thích bất cứ điều gì với bất cứ ai có bệnh lý riêng của nó"
+    },
+    {
+      "phrase": "the puritan call to 'leave the tradition alone' usually translates, in practice, into ceding the explanatory ground to people with much weaker title to it",
+      "meaningVi": "lời kêu gọi thanh giáo 'để truyền thống yên' thường dịch ra, trong thực tế, thành nhường đất giải thích cho những người có danh nghĩa yếu hơn nhiều"
+    },
+    {
+      "phrase": "Even so, the necessity of the explainer's role does not dissolve the responsibilities that come with it",
+      "meaningVi": "Dù vậy, sự cần thiết của vai trò người giải thích không xoá đi các trách nhiệm đi kèm"
+    },
+    {
+      "phrase": "It is between explanation that acknowledges its authorship and explanation that hides it",
+      "meaningVi": "Đó là giữa sự giải thích thừa nhận tác giả của mình và sự giải thích che giấu nó"
+    },
+    {
+      "phrase": "It would mark the gloss as a gloss",
+      "meaningVi": "Nó sẽ đánh dấu lời giải thích như một lời giải thích"
+    },
+    {
+      "phrase": "the practices that have been left out for reasons of audience rather than reasons of substance",
+      "meaningVi": "các thực hành đã bị bỏ ra vì lý do của khán giả chứ không phải lý do thực chất"
+    },
+    {
+      "phrase": "the description is also a small piece of legislation about what the tradition is going to count as, from now on, for the readers who never see anything else",
+      "meaningVi": "sự mô tả cũng là một mảnh lập pháp nhỏ về điều mà truyền thống sẽ được coi là, từ nay trở đi, đối với những độc giả không bao giờ thấy gì khác"
+    },
+    {
+      "phrase": "the modest framing — 'I'm just describing what we do' — is the part of the act that most needs to be examined",
+      "meaningVi": "cách đóng khung khiêm nhường — 'tôi chỉ mô tả những gì chúng tôi làm' — là phần của hành vi cần được xem xét nhất"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -81,11 +217,11 @@
       "prompt": "Which sentence correctly inverts after 'Seldom'?",
       "options": [
         "Seldom the act of explaining a tradition is treated as authorship.",
-        "Seldom is the act of explaining a tradition treated as a kind of authorship in its own right, with the responsibilities that any authorship carries.",
         "The act of explaining a tradition seldom is treated as authorship.",
-        "Seldom treated is the act of explaining as authorship."
+        "Seldom treated is the act of explaining as authorship.",
+        "Seldom is the act of explaining a tradition treated as a kind of authorship in its own right, with the responsibilities that any authorship carries."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'Seldom' fronts a negative adverbial, requiring inversion: passive 'is' precedes the subject, with 'treated' after.",
       "hint": "Negative adverbial + auxiliary + subject + participle."
     },
@@ -93,12 +229,12 @@
       "id": "q2",
       "prompt": "What does the essay say the explainer is, despite her modest framing?",
       "options": [
-        "A mere transcriber.",
         "An author — a selector whose choices accumulate a coherence the tradition itself does not have.",
+        "A mere transcriber.",
         "A passive vehicle.",
         "An archivist."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay's central reframing: explanation is authorship. The modest posture conceals this, but the choices add up to a created coherence.",
       "hint": "Selector, not vehicle."
     },
@@ -120,11 +256,11 @@
       "prompt": "What does the essay mean by 'the description is always already a selection'?",
       "options": [
         "Selections are arbitrary.",
-        "Every description has already chosen what to include and what to omit, often shaped by the audience to whom it is addressed — there is no neutral 'just describing'.",
         "Selections are inevitable.",
+        "Every description has already chosen what to include and what to omit, often shaped by the audience to whom it is addressed — there is no neutral 'just describing'.",
         "Descriptions are unhelpful."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay's epistemic point: there is no view from nowhere. Even the most modest description has selected, and the selection is audience-shaped.",
       "hint": "No neutral description."
     },
@@ -133,11 +269,11 @@
       "prompt": "How does the essay use 'Granted… Even so…'?",
       "options": [
         "To dismiss the need for explainers.",
-        "To grant fully that traditions need explainers and that refusal to explain has its own pathology, while restricting the conclusion: the necessity of the role does not dissolve the responsibilities that come with it.",
         "To prove that no one should ever explain a tradition.",
-        "To equivocate."
+        "To equivocate.",
+        "To grant fully that traditions need explainers and that refusal to explain has its own pathology, while restricting the conclusion: the necessity of the role does not dissolve the responsibilities that come with it."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay openly concedes the explainer is performing a necessary service, then limits the conclusion: the necessity does not erase the authorship.",
       "hint": "Full concession; necessity does not erase responsibility."
     },
@@ -145,12 +281,12 @@
       "id": "q6",
       "prompt": "What does the essay say happens to dissenting practitioners during explanation?",
       "options": [
-        "They are interviewed alongside.",
         "They are usually not in the room, and the gloss that smooths over their disagreement is heard as the authoritative position simply because it is the position being given.",
+        "They are interviewed alongside.",
         "They write the description themselves.",
         "They are paid to stay silent."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay's structural observation: absence equals silence in the explanatory relation. The gloss inherits authority by default.",
       "hint": "Absence becomes default authority."
     },
@@ -172,11 +308,11 @@
       "prompt": "What is the essay's view of 'leaving the tradition alone'?",
       "options": [
         "It is the best option.",
-        "It is a puritan call that usually means ceding the explanatory ground to people with much weaker title to it.",
         "It is the safest path.",
+        "It is a puritan call that usually means ceding the explanatory ground to people with much weaker title to it.",
         "It is required by tradition."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay rejects the silent purism: refusing to explain doesn't preserve the tradition, it leaves it to be explained by those with even less standing.",
       "hint": "Silence cedes ground to weaker authors."
     },
@@ -185,11 +321,11 @@
       "prompt": "What does responsible explanation look like, according to the essay?",
       "options": [
         "Total silence.",
-        "Naming the selection, marking the gloss as a gloss, pointing toward other voices in the tradition, refusing the smooth coherence audiences reward.",
         "Adding more decoration.",
-        "Speaking only on official panels."
+        "Speaking only on official panels.",
+        "Naming the selection, marking the gloss as a gloss, pointing toward other voices in the tradition, refusing the smooth coherence audiences reward."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay's positive proposal: not silence, but explanation that acknowledges its authorship — naming choices, marking glosses, pointing outward.",
       "hint": "Disclosure and outward pointing."
     },
@@ -197,12 +333,12 @@
       "id": "q10",
       "prompt": "What does 'four versions, by the same person, for compatible but not identical purposes' reveal?",
       "options": [
-        "The explainer is dishonest.",
         "Even the most scrupulous explainer authors multiple versions for multiple audiences — none false, but together constituting a silent rewriting of the tradition.",
+        "The explainer is dishonest.",
         "Audiences are interchangeable.",
         "Traditions are unitary."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay's structural argument: multiplicity of versions follows from multiplicity of audiences, and the multiplicity itself is the act of authorship.",
       "hint": "Multiple audiences, multiple versions, one author."
     },
@@ -224,11 +360,11 @@
       "prompt": "What is the essay's narrower claim?",
       "options": [
         "Explainers should fall silent.",
-        "The modest framing 'I'm just describing what we do' is the part of the act that most needs examination — because it is what protects the explainer from noticing the authorship she is also performing.",
         "Audiences are uninformed.",
+        "The modest framing 'I'm just describing what we do' is the part of the act that most needs examination — because it is what protects the explainer from noticing the authorship she is also performing.",
         "Traditions are unknowable."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay's final restatement: the modesty is the load-bearing element. Examined, the act becomes responsible; unexamined, it functions as concealed authorship.",
       "hint": "The modesty itself is the part to examine."
     },
@@ -237,11 +373,11 @@
       "prompt": "What does the essay say the younger community member finds in the monographs?",
       "options": [
         "An accurate account.",
-        "A version of her own inheritance she does not quite recognise, narrated in a voice she trusts because it carries the authority of having explained well.",
         "A criticism of her family.",
-        "Nothing of interest."
+        "Nothing of interest.",
+        "A version of her own inheritance she does not quite recognise, narrated in a voice she trusts because it carries the authority of having explained well."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay's most pointed illustration: the inheritor encounters the explainer's authored version and finds it both authoritative and slightly foreign — a quietly disorienting experience.",
       "hint": "Recognition fails because the version is authored."
     },
@@ -249,12 +385,12 @@
       "id": "q14",
       "prompt": "What does 'the absent dissenter' (implicit in the essay) refer to?",
       "options": [
-        "A practitioner who has died.",
         "Practitioners within the tradition whose disagreement with the explainer's account is silently overridden because they are not in the room when explanation is given.",
+        "A practitioner who has died.",
         "Foreign critics.",
         "Online commenters."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay's implicit structural figure: those who would have contested the gloss are not present to do so, and their absence is read by audiences as consent.",
       "hint": "Whose silence becomes default consent."
     },
@@ -276,11 +412,11 @@
       "prompt": "What rhetorical purpose does the refusal of false resolution serve?",
       "options": [
         "It admits the essay has failed.",
-        "It keeps the ethical tension alive in the reader — explanation is necessary and risky at once, and the reader must hold both, not delegate either to a protocol.",
         "It is a stylistic accident.",
+        "It keeps the ethical tension alive in the reader — explanation is necessary and risky at once, and the reader must hold both, not delegate either to a protocol.",
         "It signals incompleteness."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "C1 prose preserves the difficulty. The essay refuses a procedure precisely because the modest framing is what would absorb a procedure first.",
       "hint": "Tension preserved; no procedure offered."
     }

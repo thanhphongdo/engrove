@@ -157,11 +157,6 @@
       "exampleEn": "Deep work requires long periods of uninterrupted time that offices rarely provide."
     },
     {
-      "phrase": "applied uniformly",
-      "meaningVi": "áp dụng một cách đồng nhất, không phân biệt",
-      "exampleEn": "Rules applied uniformly across departments often fail to account for different working styles."
-    },
-    {
       "phrase": "worst of both worlds",
       "meaningVi": "nhược điểm của cả hai phía, không được lợi gì từ cả hai lựa chọn",
       "exampleEn": "A policy that restricts remote work without improving office conditions is the worst of both worlds."
@@ -217,11 +212,11 @@
       "prompt": "What does James say has happened to his productivity since the hybrid model was introduced?",
       "options": [
         "It has stayed about the same but with more flexibility",
-        "It has genuinely increased, especially in the mornings",
         "It has improved in the office but declined at home",
+        "It has genuinely increased, especially in the mornings",
         "It has become harder to measure accurately"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "James says 'my productivity has genuinely gone up' and 'I get far more done in the mornings at home than I ever did in the open-plan office.'",
       "hint": "James describes a specific time of day when he is more productive."
     },
@@ -230,11 +225,11 @@
       "prompt": "What does Rachel say James is measuring incorrectly?",
       "options": [
         "Hours worked per day",
-        "Individual output instead of team function",
         "Task completion rates",
-        "Employee satisfaction scores"
+        "Employee satisfaction scores",
+        "Individual output instead of team function"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "Rachel argues: 'Individual output is only part of what makes a team function' — suggesting James is too focused on personal productivity.",
       "hint": "Rachel draws a distinction between individual and collective work."
     },
@@ -242,12 +237,12 @@
       "id": "q3",
       "prompt": "What specific type of interaction does Rachel argue is lost in remote work?",
       "options": [
+        "Spontaneous corridor conversations and informal exchanges",
         "Formal performance reviews",
         "Team building exercises",
-        "Spontaneous corridor conversations and informal exchanges",
         "Structured brainstorming sessions"
       ],
-      "answerIndex": 2,
+      "answerIndex": 0,
       "explanation": "Rachel refers to 'conversations that happen in the corridor, or over lunch — the spontaneous exchanges that never make it into a calendar invite.'",
       "hint": "Rachel mentions where and when these conversations happen."
     },
@@ -269,11 +264,11 @@
       "prompt": "What does James claim remote working tools have achieved?",
       "options": [
         "A complete replacement for office-based work",
-        "A rebuilding of much of the collaborative infrastructure online",
         "Significantly lower operating costs for companies",
+        "A rebuilding of much of the collaborative infrastructure online",
         "The elimination of the need for in-person meetings"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "James says: 'we've rebuilt a lot of that collaborative infrastructure online', citing asynchronous communication and virtual whiteboards.",
       "hint": "James names specific tools before making his broader claim."
     },
@@ -282,11 +277,11 @@
       "prompt": "What does Rachel say technology has failed to replicate?",
       "options": [
         "The precision of face-to-face communication",
-        "The social trust built through physical co-presence",
         "The efficiency of in-person project management",
-        "The energy of large office team meetings"
+        "The energy of large office team meetings",
+        "The social trust built through physical co-presence"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "Rachel says: 'There's a social trust that builds through physical co-presence that I don't think technology has fully managed to replicate.'",
       "hint": "Rachel uses a specific phrase combining 'social trust' and 'physical presence'."
     },
@@ -294,12 +289,12 @@
       "id": "q7",
       "prompt": "What criticism does James make of the traditional office environment?",
       "options": [
-        "It is too expensive to maintain and reduces company profits",
         "It was exhausting, distracting, and oppressive for non-extroverts",
+        "It is too expensive to maintain and reduces company profits",
         "It encourages too much socialising at the expense of work",
         "It is poorly designed for modern technology use"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "James says: 'A lot of people found it exhausting, distracting, and frankly quite oppressive for anyone who doesn't fit the extroverted corporate mould.'",
       "hint": "James describes the office negatively in three specific ways."
     },
@@ -321,11 +316,11 @@
       "prompt": "What practical benefits does Rachel say companies with stronger cultures enjoy?",
       "options": [
         "Higher revenues and faster product development cycles",
-        "Longer staff retention, better crisis handling, and stronger candidates",
         "Lower salaries paid due to higher employee loyalty",
+        "Longer staff retention, better crisis handling, and stronger candidates",
         "Reduced need for formal HR processes"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "Rachel argues: 'Companies with stronger cultures tend to retain staff longer, handle crises better, and attract stronger candidates.'",
       "hint": "Rachel lists three specific commercial advantages."
     },
@@ -334,11 +329,11 @@
       "prompt": "What concern does James raise about the word 'culture' being used in management contexts?",
       "options": [
         "It is too vague to be measured or acted upon",
-        "It can be used to justify demanding presenteeism over effectiveness",
         "It often excludes minority groups from the dominant corporate norm",
-        "It shifts attention away from compensation and career development"
+        "It shifts attention away from compensation and career development",
+        "It can be used to justify demanding presenteeism over effectiveness"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "James warns that 'culture' can become 'a justification for demanding presenteeism — requiring people to be visible rather than just effective.'",
       "hint": "James introduces a specific word that means being present to be seen."
     },
@@ -346,12 +341,12 @@
       "id": "q11",
       "prompt": "How does Rachel distinguish genuine culture from presenteeism?",
       "options": [
-        "Culture involves formal events, while presenteeism is informal",
         "Genuine culture and performative presenteeism are not the same thing",
+        "Culture involves formal events, while presenteeism is informal",
         "Culture applies to senior staff, while presenteeism affects junior employees",
         "Culture is measurable, while presenteeism is subjective"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Rachel states directly: 'Genuine culture and performative presenteeism are not the same thing.'",
       "hint": "Rachel uses the word 'performative' to describe a specific type of presence."
     },
@@ -373,11 +368,11 @@
       "prompt": "What does James mean by 'the worst of both worlds' in the context of company policies?",
       "options": [
         "Policies that combine the highest cost with the lowest productivity",
-        "Applying a uniform hybrid schedule that doesn't benefit either approach",
         "Requiring office presence while offering no social or collaborative events",
+        "Applying a uniform hybrid schedule that doesn't benefit either approach",
         "Allowing remote work only for employees who perform poorly"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "James criticises companies that 'pick a number and apply it uniformly', saying this 'feels like the worst of both worlds' — you get neither the flexibility of remote nor the cohesion of office.",
       "hint": "James is commenting on how rigidly uniform policies defeat the purpose of hybrid working."
     },
@@ -387,10 +382,10 @@
       "options": [
         "Remote work itself, which is inherently less effective",
         "Office-based work, which is outdated and unsustainable",
-        "Inflexibility on the part of employers",
-        "A lack of technological investment by most companies"
+        "A lack of technological investment by most companies",
+        "Inflexibility on the part of employers"
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "explanation": "Rachel concludes: 'The real failure isn't remote work or office work — it's inflexibility.'",
       "hint": "Rachel explicitly rules out both remote and office work as the problem."
     },
@@ -398,12 +393,12 @@
       "id": "q15",
       "prompt": "What does Rachel describe as the 'best outcome' of any working arrangement?",
       "options": [
+        "Genuine trust from both managers and employees about managing time",
         "Maximum individual output across all departments",
         "A fixed policy agreed through staff consultation",
-        "Genuine trust from both managers and employees about managing time",
         "A return to full-time office work with optional remote days"
       ],
-      "answerIndex": 2,
+      "answerIndex": 0,
       "explanation": "Rachel describes 'genuine trust on both sides: managers trusting employees to manage their own time, and employees being honest about what they actually need.'",
       "hint": "Rachel's conclusion involves a reciprocal relationship between two groups."
     },

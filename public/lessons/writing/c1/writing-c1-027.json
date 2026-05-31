@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "On the difficulty of being a witness without becoming a curator",
   "summary": "Examine the ethical tension between witnessing someone else's experience and the impulse to organise, interpret, and present it — and argue that this tension is not resolvable but must be held.",
-  "tags": ["Argument", "Ethics", "Memory"],
+  "tags": [
+    "Argument",
+    "Ethics",
+    "Memory"
+  ],
   "topic": "The ethics of testimony, documentation, and the line between bearing witness and appropriating experience",
   "prompt": "Write a 600–800-word argumentative essay on the ethics of witnessing: the risk that a witness — a journalist, a photographer, a memoirist, an activist — crosses from recording another person's experience to curating it, shaping it for an audience in ways that serve the witness's own purposes rather than the witnessed person's dignity. Use at least two specific examples from different national or professional contexts. Deploy inversion at least once, a cleft sentence, and a 'granted… even so…' concession. Avoid abstract moralising; work with concrete tensions.",
   "minWords": 600,
@@ -14,51 +18,177 @@
     "Granted, all documentation involves selection. Even so,…"
   ],
   "hintVocab": [
-    {"phrase": "testimonial ethics", "meaningVi": "đạo đức chứng ngôn"},
-    {"phrase": "bearing witness", "meaningVi": "làm chứng, chứng kiến"},
-    {"phrase": "curatorial impulse", "meaningVi": "xung lực giám tuyển"},
-    {"phrase": "epistemic humility", "meaningVi": "sự khiêm tốn nhận thức"},
-    {"phrase": "narrative authority", "meaningVi": "quyền lực tự sự"},
-    {"phrase": "photographic ethics", "meaningVi": "đạo đức nhiếp ảnh"},
-    {"phrase": "compassion fatigue", "meaningVi": "sự kiệt sức lòng trắc ẩn"},
-    {"phrase": "aestheticisation of suffering", "meaningVi": "sự thẩm mỹ hóa nỗi đau"},
-    {"phrase": "proxy voice", "meaningVi": "giọng nói đại diện"},
-    {"phrase": "dignity of the witnessed", "meaningVi": "phẩm giá của người được chứng kiến"},
-    {"phrase": "documentary impulse", "meaningVi": "xung lực ghi chép tài liệu"},
-    {"phrase": "interpretive frame", "meaningVi": "khung diễn giải"},
-    {"phrase": "secondary trauma", "meaningVi": "chấn thương thứ cấp"},
-    {"phrase": "informed consent", "meaningVi": "sự đồng ý có thông tin"},
-    {"phrase": "the archive", "meaningVi": "lưu trữ, kho lưu trữ"},
-    {"phrase": "moral complicity", "meaningVi": "sự đồng lõa đạo đức"},
-    {"phrase": "observational distance", "meaningVi": "khoảng cách quan sát"},
-    {"phrase": "the grammar of representation", "meaningVi": "ngữ pháp của sự đại diện"},
-    {"phrase": "survivor's account", "meaningVi": "lời kể của người sống sót"},
-    {"phrase": "empathic overreach", "meaningVi": "sự vươn quá của sự đồng cảm"},
-    {"phrase": "documentary complicity", "meaningVi": "sự đồng lõa trong ghi chép tài liệu"}
+    {
+      "phrase": "testimonial ethics",
+      "meaningVi": "đạo đức chứng ngôn"
+    },
+    {
+      "phrase": "bearing witness",
+      "meaningVi": "làm chứng, chứng kiến"
+    },
+    {
+      "phrase": "curatorial impulse",
+      "meaningVi": "xung lực giám tuyển"
+    },
+    {
+      "phrase": "epistemic humility",
+      "meaningVi": "sự khiêm tốn nhận thức"
+    },
+    {
+      "phrase": "narrative authority",
+      "meaningVi": "quyền lực tự sự"
+    },
+    {
+      "phrase": "photographic ethics",
+      "meaningVi": "đạo đức nhiếp ảnh"
+    },
+    {
+      "phrase": "compassion fatigue",
+      "meaningVi": "sự kiệt sức lòng trắc ẩn"
+    },
+    {
+      "phrase": "aestheticisation of suffering",
+      "meaningVi": "sự thẩm mỹ hóa nỗi đau"
+    },
+    {
+      "phrase": "proxy voice",
+      "meaningVi": "giọng nói đại diện"
+    },
+    {
+      "phrase": "dignity of the witnessed",
+      "meaningVi": "phẩm giá của người được chứng kiến"
+    },
+    {
+      "phrase": "documentary impulse",
+      "meaningVi": "xung lực ghi chép tài liệu"
+    },
+    {
+      "phrase": "interpretive frame",
+      "meaningVi": "khung diễn giải"
+    },
+    {
+      "phrase": "secondary trauma",
+      "meaningVi": "chấn thương thứ cấp"
+    },
+    {
+      "phrase": "informed consent",
+      "meaningVi": "sự đồng ý có thông tin"
+    },
+    {
+      "phrase": "the archive",
+      "meaningVi": "lưu trữ, kho lưu trữ"
+    },
+    {
+      "phrase": "moral complicity",
+      "meaningVi": "sự đồng lõa đạo đức"
+    },
+    {
+      "phrase": "observational distance",
+      "meaningVi": "khoảng cách quan sát"
+    },
+    {
+      "phrase": "the grammar of representation",
+      "meaningVi": "ngữ pháp của sự đại diện"
+    },
+    {
+      "phrase": "survivor's account",
+      "meaningVi": "lời kể của người sống sót"
+    },
+    {
+      "phrase": "empathic overreach",
+      "meaningVi": "sự vươn quá của sự đồng cảm"
+    },
+    {
+      "phrase": "documentary complicity",
+      "meaningVi": "sự đồng lõa trong ghi chép tài liệu"
+    }
   ],
   "sampleText": "Only when the witness begins to make choices about what to include does the act of recording become the act of composing — and it is at this threshold, barely visible to the witness themselves, that the ethics of documentation become genuinely difficult. A witness who does not select is not a witness but a surveillance camera. Selection is unavoidable. Yet selection is also the beginning of curation, and curation is the beginning of the imposition of meaning that the witnessed person did not consent to and may not recognise as their own.\n\nThe tension is most acute in photojournalism. Consider the photographs taken during the 1994 Rwandan genocide, many by Western journalists who were among the very few outsiders present. The images that circulated most widely — bodies on roads, skeletal survivors, the geometry of mass atrocity rendered legible for international consumption — were chosen not by the people they depicted but by picture editors in London, Paris, and New York whose primary obligation was to readers not yet moved to political attention. Kevin Carter's famous photograph of the vulture and the child in Sudan — taken in 1993, awarded the Pulitzer Prize — is perhaps the clearest case of the curatorialist logic inside the documentary impulse: the image was composed to produce a response, the child's own history was irrelevant to the response it produced, and the photographer's career — and death, and legacy — absorbed the moral conversation that should, by rights, have been about the child.\n\nIt is precisely the moment when the witness begins to care about the quality of their account — when the prose becomes elegant, when the angle is adjusted, when the detail is selected for its emotional resonance rather than its accuracy — that the transition from witnessing to curating occurs. This is not a failure of intention; it is a structural consequence of the fact that documentation requires a medium, and all media have aesthetics. The oral historian who edits a survivor's spoken account for a published transcript, the documentary filmmaker who scores archival footage with music, the human rights lawyer who extracts from a client's testimony the elements most useful for a legal argument: all are doing what their medium requires. None of them can bear witness without also becoming, to some degree, a curator.\n\nGranted, curation need not mean betrayal. The most ethically serious documentary practitioners — journalists like Ryszard Kapuściński, photographers like Sebastião Salgado, memoirists like Svetlana Alexievich — have developed forms of practice that hold the tension rather than resolving it: they make their interpretive choices visible, they attribute uncertainty to themselves rather than to the person they are depicting, they return to subjects, they allow contradiction to remain in the final account. Even so, no technique fully dissolves the asymmetry. The practitioner goes home; the subject stays. The practitioner's reputation may be made by the account; the subject must live with whatever image the account has given them in the public record.\n\nThe deepest problem is not that witnesses become curators — that is, as established, unavoidable. It is that they sometimes do so without acknowledging it: presenting a shaped account as transparent record, lending their own interpretive authority to a frame the witnessed person cannot contest because they do not know it exists, or because contesting it would require access to the same platforms and audiences that the witness already occupies. This is the particular ethical weight that attaches to documentary practice: it is not enough to have good intentions toward the person you are depicting. You must also hold, explicitly and without comfort, the knowledge that your account is always a partial act of possession — and that the more moving it is, the more thoroughly it has been curated, and the further it has travelled from the experience that made it possible.",
   "sampleAnnotations": [
-    {"phrase": "Only when the witness begins to make choices about what to include does the act of recording become the act of composing", "meaningVi": "Chỉ khi nhân chứng bắt đầu đưa ra lựa chọn về những gì cần đưa vào, hành động ghi chép mới trở thành hành động sáng tác"},
-    {"phrase": "this threshold, barely visible to the witness themselves", "meaningVi": "ngưỡng này, gần như vô hình với chính nhân chứng"},
-    {"phrase": "the beginning of the imposition of meaning", "meaningVi": "sự khởi đầu của việc áp đặt ý nghĩa"},
-    {"phrase": "the geometry of mass atrocity rendered legible for international consumption", "meaningVi": "hình học của tội ác hàng loạt được làm rõ để tiêu thụ quốc tế"},
-    {"phrase": "chosen not by the people they depicted but by picture editors", "meaningVi": "được chọn không phải bởi những người được miêu tả mà bởi các biên tập viên ảnh"},
-    {"phrase": "the curatorialist logic inside the documentary impulse", "meaningVi": "logic giám tuyển bên trong xung lực ghi chép tài liệu"},
-    {"phrase": "the child's own history was irrelevant to the response it produced", "meaningVi": "lịch sử riêng của đứa trẻ không liên quan đến phản ứng mà nó tạo ra"},
-    {"phrase": "the photographer's career — and death, and legacy — absorbed the moral conversation", "meaningVi": "sự nghiệp — và cái chết, và di sản — của nhiếp ảnh gia đã hấp thụ cuộc trò chuyện đạo đức"},
-    {"phrase": "It is precisely the moment when the witness begins to care about the quality of their account", "meaningVi": "Chính xác là khoảnh khắc khi nhân chứng bắt đầu quan tâm đến chất lượng tài khoản của họ"},
-    {"phrase": "when the detail is selected for its emotional resonance rather than its accuracy", "meaningVi": "khi chi tiết được chọn vì sự cộng hưởng cảm xúc của nó hơn là độ chính xác"},
-    {"phrase": "all media have aesthetics", "meaningVi": "tất cả các phương tiện đều có tính thẩm mỹ"},
-    {"phrase": "they make their interpretive choices visible", "meaningVi": "họ làm cho những lựa chọn diễn giải của mình trở nên rõ ràng"},
-    {"phrase": "Granted, curation need not mean betrayal", "meaningVi": "Cứ cho là giám tuyển không nhất thiết có nghĩa là phản bội"},
-    {"phrase": "no technique fully dissolves the asymmetry", "meaningVi": "không có kỹ thuật nào hoàn toàn giải thể sự bất đối xứng"},
-    {"phrase": "Even so, no technique fully dissolves the asymmetry", "meaningVi": "Dù vậy, không có kỹ thuật nào hoàn toàn giải thể sự bất đối xứng"},
-    {"phrase": "The practitioner goes home; the subject stays", "meaningVi": "Người hành nghề về nhà; đối tượng ở lại"},
-    {"phrase": "a frame the witnessed person cannot contest", "meaningVi": "một khung mà người được chứng kiến không thể tranh cãi"},
-    {"phrase": "because contesting it would require access to the same platforms", "meaningVi": "bởi vì việc tranh cãi nó đòi hỏi quyền truy cập vào cùng các nền tảng"},
-    {"phrase": "your account is always a partial act of possession", "meaningVi": "tài khoản của bạn luôn là một hành động chiếm hữu một phần"},
-    {"phrase": "the further it has travelled from the experience that made it possible", "meaningVi": "nó càng đi xa khỏi trải nghiệm đã làm cho nó có thể"},
-    {"phrase": "the more moving it is, the more thoroughly it has been curated", "meaningVi": "nó càng lay động lòng người, nó càng được giám tuyển kỹ lưỡng hơn"}
+    {
+      "phrase": "Only when the witness begins to make choices about what to include does the act of recording become the act of composing",
+      "meaningVi": "Chỉ khi nhân chứng bắt đầu đưa ra lựa chọn về những gì cần đưa vào, hành động ghi chép mới trở thành hành động sáng tác"
+    },
+    {
+      "phrase": "this threshold, barely visible to the witness themselves",
+      "meaningVi": "ngưỡng này, gần như vô hình với chính nhân chứng"
+    },
+    {
+      "phrase": "the beginning of the imposition of meaning",
+      "meaningVi": "sự khởi đầu của việc áp đặt ý nghĩa"
+    },
+    {
+      "phrase": "the geometry of mass atrocity rendered legible for international consumption",
+      "meaningVi": "hình học của tội ác hàng loạt được làm rõ để tiêu thụ quốc tế"
+    },
+    {
+      "phrase": "chosen not by the people they depicted but by picture editors",
+      "meaningVi": "được chọn không phải bởi những người được miêu tả mà bởi các biên tập viên ảnh"
+    },
+    {
+      "phrase": "the curatorialist logic inside the documentary impulse",
+      "meaningVi": "logic giám tuyển bên trong xung lực ghi chép tài liệu"
+    },
+    {
+      "phrase": "the child's own history was irrelevant to the response it produced",
+      "meaningVi": "lịch sử riêng của đứa trẻ không liên quan đến phản ứng mà nó tạo ra"
+    },
+    {
+      "phrase": "the photographer's career — and death, and legacy — absorbed the moral conversation",
+      "meaningVi": "sự nghiệp — và cái chết, và di sản — của nhiếp ảnh gia đã hấp thụ cuộc trò chuyện đạo đức"
+    },
+    {
+      "phrase": "It is precisely the moment when the witness begins to care about the quality of their account",
+      "meaningVi": "Chính xác là khoảnh khắc khi nhân chứng bắt đầu quan tâm đến chất lượng tài khoản của họ"
+    },
+    {
+      "phrase": "when the detail is selected for its emotional resonance rather than its accuracy",
+      "meaningVi": "khi chi tiết được chọn vì sự cộng hưởng cảm xúc của nó hơn là độ chính xác"
+    },
+    {
+      "phrase": "all media have aesthetics",
+      "meaningVi": "tất cả các phương tiện đều có tính thẩm mỹ"
+    },
+    {
+      "phrase": "they make their interpretive choices visible",
+      "meaningVi": "họ làm cho những lựa chọn diễn giải của mình trở nên rõ ràng"
+    },
+    {
+      "phrase": "Granted, curation need not mean betrayal",
+      "meaningVi": "Cứ cho là giám tuyển không nhất thiết có nghĩa là phản bội"
+    },
+    {
+      "phrase": "no technique fully dissolves the asymmetry",
+      "meaningVi": "không có kỹ thuật nào hoàn toàn giải thể sự bất đối xứng"
+    },
+    {
+      "phrase": "Even so, no technique fully dissolves the asymmetry",
+      "meaningVi": "Dù vậy, không có kỹ thuật nào hoàn toàn giải thể sự bất đối xứng"
+    },
+    {
+      "phrase": "The practitioner goes home; the subject stays",
+      "meaningVi": "Người hành nghề về nhà; đối tượng ở lại"
+    },
+    {
+      "phrase": "a frame the witnessed person cannot contest",
+      "meaningVi": "một khung mà người được chứng kiến không thể tranh cãi"
+    },
+    {
+      "phrase": "because contesting it would require access to the same platforms",
+      "meaningVi": "bởi vì việc tranh cãi nó đòi hỏi quyền truy cập vào cùng các nền tảng"
+    },
+    {
+      "phrase": "your account is always a partial act of possession",
+      "meaningVi": "tài khoản của bạn luôn là một hành động chiếm hữu một phần"
+    },
+    {
+      "phrase": "the further it has travelled from the experience that made it possible",
+      "meaningVi": "nó càng đi xa khỏi trải nghiệm đã làm cho nó có thể"
+    },
+    {
+      "phrase": "the more moving it is, the more thoroughly it has been curated",
+      "meaningVi": "nó càng lay động lòng người, nó càng được giám tuyển kỹ lưỡng hơn"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -79,11 +209,11 @@
       "prompt": "According to the essay, why is it impossible to be a pure witness without any curation?",
       "options": [
         "Because witnesses always have hidden agendas",
-        "Because selection is unavoidable — a witness who does not select is a surveillance camera",
         "Because the media always edits witness accounts",
-        "Because witnesses are too emotionally involved"
+        "Because witnesses are too emotionally involved",
+        "Because selection is unavoidable — a witness who does not select is a surveillance camera"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay states: 'A witness who does not select is not a witness but a surveillance camera. Selection is unavoidable. Yet selection is also the beginning of curation.'",
       "hint": "Look for the sentence about surveillance cameras."
     },
@@ -91,12 +221,12 @@
       "id": "q2",
       "prompt": "What does the Kevin Carter photograph example illustrate?",
       "options": [
-        "That photojournalists are always unethical",
         "The curatorialist logic inside the documentary impulse: the image was composed to produce a response, and the child's own history was irrelevant to that response",
+        "That photojournalists are always unethical",
         "That the Pulitzer Prize should not reward war photography",
         "That photographers should not travel to conflict zones"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Carter's photograph is described as 'the clearest case of the curatorialist logic inside the documentary impulse': the response it produced mattered more than the child's history.",
       "hint": "Look for the essay's explicit conclusion about what the photograph is a case of."
     },
@@ -118,11 +248,11 @@
       "prompt": "The essay identifies the 'transition from witnessing to curating'. What triggers this transition?",
       "options": [
         "When the witness decides to publish their account",
-        "When the witness begins to care about the quality and emotional resonance of their account rather than its accuracy",
         "When the witness is paid for their work",
+        "When the witness begins to care about the quality and emotional resonance of their account rather than its accuracy",
         "When the account is translated into another language"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The cleft sentence identifies 'precisely the moment when the witness begins to care about the quality of their account — when… the detail is selected for its emotional resonance rather than its accuracy'.",
       "hint": "Look for the cleft sentence describing when the transition occurs."
     },
@@ -131,11 +261,11 @@
       "prompt": "What does 'aestheticisation of suffering' mean?",
       "options": [
         "The process of making suffering more bearable through art therapy",
-        "The transformation of someone's suffering into an aesthetically pleasing representation that serves audiences rather than the person who suffered",
         "The study of beauty in difficult circumstances",
-        "Creating public art about social injustice"
+        "Creating public art about social injustice",
+        "The transformation of someone's suffering into an aesthetically pleasing representation that serves audiences rather than the person who suffered"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "Aestheticisation of suffering means rendering someone's pain in a way that prioritises aesthetic effect for an audience over the dignity of the person being represented.",
       "hint": "Think of 'aesthetic' as relating to beauty and artistic form — applied to suffering."
     },
@@ -143,12 +273,12 @@
       "id": "q6",
       "prompt": "What is 'epistemic humility' as implied by the essay?",
       "options": [
-        "Admitting you don't know enough to have an opinion",
         "The intellectual virtue of acknowledging the limits of your knowledge and perspective, especially when representing others",
+        "Admitting you don't know enough to have an opinion",
         "Being modest about your educational achievements",
         "Refusing to publish your findings"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The ethical practitioners described in the essay demonstrate epistemic humility by 'making their interpretive choices visible' and 'attributing uncertainty to themselves rather than to the person they are depicting.'",
       "hint": "Think of 'epistemic' as relating to knowledge, and 'humility' as acknowledging limits."
     },
@@ -170,11 +300,11 @@
       "prompt": "What does 'the practitioner goes home; the subject stays' mean?",
       "options": [
         "Photojournalists travel more than their subjects",
-        "The asymmetry between witness and subject is permanent: the practitioner can leave, but the subject continues to live with the account made of their experience",
         "Journalists should spend more time with the people they document",
+        "The asymmetry between witness and subject is permanent: the practitioner can leave, but the subject continues to live with the account made of their experience",
         "Subjects should be compensated financially"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "This sentence encapsulates the structural asymmetry: the practitioner's relationship to the account is temporary; the subject's is permanent.",
       "hint": "Think about who controls the account after it is made."
     },
@@ -183,11 +313,11 @@
       "prompt": "What is 'narrative authority'?",
       "options": [
         "The legal right to publish a story",
-        "The power to determine how a story is told, including what is included, framed, and interpreted",
         "A government body that regulates media",
-        "The authority given to narrators in literary fiction"
+        "The authority given to narrators in literary fiction",
+        "The power to determine how a story is told, including what is included, framed, and interpreted"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "Narrative authority is the power to shape a story — the essay argues that documentary practitioners hold this authority over the people they depict.",
       "hint": "Think of 'authority' as power, applied to how stories are constructed."
     },
@@ -195,12 +325,12 @@
       "id": "q10",
       "prompt": "The essay mentions Kapuściński, Salgado, and Alexievich. What do these practitioners have in common according to the essay?",
       "options": [
-        "They all work in war zones",
         "They have developed practices that make their interpretive choices visible and hold the tension between witnessing and curating rather than concealing it",
+        "They all work in war zones",
         "They are the most famous journalists of the twentieth century",
         "They have all been criticised for ethical failures"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay praises them for practices that 'hold the tension rather than resolving it' — making choices visible, attributing uncertainty to themselves, allowing contradiction.",
       "hint": "Look for what the essay says they do that distinguishes them."
     },
@@ -235,11 +365,11 @@
       "prompt": "What is the essay's deepest concern about witnessing?",
       "options": [
         "That witnesses are not paid enough for their work",
-        "That witnesses present shaped accounts as transparent records, lending their authority to a frame the witnessed person cannot contest",
         "That most documentary photography is technically poor",
-        "That witnesses suffer from secondary trauma"
+        "That witnesses suffer from secondary trauma",
+        "That witnesses present shaped accounts as transparent records, lending their authority to a frame the witnessed person cannot contest"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The final paragraph identifies the deepest problem: presenting a 'shaped account as transparent record, lending their own interpretive authority to a frame the witnessed person cannot contest.'",
       "hint": "Look for the paragraph beginning 'The deepest problem is not…'"
     },
@@ -247,12 +377,12 @@
       "id": "q14",
       "prompt": "What does the phrase 'your account is always a partial act of possession' mean?",
       "options": [
-        "The account is only partly accurate",
         "Every account of another person's experience takes partial ownership of that experience, imposing the documenter's frame on it",
+        "The account is only partly accurate",
         "You only own part of the copyright to your account",
         "Accounts should always be partial — full accounts are impossible"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay argues that documentation always involves a degree of 'possession' — taking the other person's experience and making it into one's own account, which serves one's own purposes to some extent.",
       "hint": "Think of 'possession' as owning or appropriating, not just holding."
     },

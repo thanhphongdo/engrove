@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "Whether universities should require students to study a non-European language",
   "summary": "Argue whether undergraduate degrees should require at least one term of a non-European language — Vietnamese, Yoruba, Tagalog, Quechua — or whether language requirements should remain optional.",
-  "tags": ["Education", "Language", "Universities", "Argument"],
+  "tags": [
+    "Education",
+    "Language",
+    "Universities",
+    "Argument"
+  ],
   "topic": "Whether undergraduate degrees should require a non-European language",
   "prompt": "Write a 350–500-word argumentative essay about whether undergraduate degrees at universities in Europe, North America, or anywhere else should require at least one term — three to four months of serious study — of a non-European language such as Vietnamese, Yoruba, Tagalog, Quechua, or Mandarin. Should this be a graduation requirement, or kept optional? Use a 'what' cleft, a concession ('Granted,'), at least one passive construction, and one participle clause. Take a clear position. Avoid clichés about diversity.",
   "minWords": 350,
@@ -14,50 +19,169 @@
     "Granted, requiring every student to spend a term wrestling with the tones of Vietnamese or the script of Tamil when they came to study engineering can sound like the kind of administrative…"
   ],
   "hintVocab": [
-    { "phrase": "graduation requirement", "meaningVi": "yêu cầu tốt nghiệp" },
-    { "phrase": "non-European language", "meaningVi": "ngôn ngữ phi châu Âu" },
-    { "phrase": "language module", "meaningVi": "học phần ngôn ngữ" },
-    { "phrase": "undergraduate degree", "meaningVi": "bằng đại học" },
-    { "phrase": "tonal language", "meaningVi": "ngôn ngữ có thanh điệu" },
-    { "phrase": "script literacy", "meaningVi": "khả năng đọc chữ viết" },
-    { "phrase": "language requirement", "meaningVi": "yêu cầu ngôn ngữ" },
-    { "phrase": "monolingual default", "meaningVi": "mặc định một ngôn ngữ" },
-    { "phrase": "linguistic humility", "meaningVi": "sự khiêm tốn ngôn ngữ" },
-    { "phrase": "to encounter a different grammar", "meaningVi": "gặp gỡ một ngữ pháp khác" },
-    { "phrase": "elective course", "meaningVi": "môn học tự chọn" },
-    { "phrase": "compulsory term", "meaningVi": "học kỳ bắt buộc" },
-    { "phrase": "global curriculum", "meaningVi": "chương trình toàn cầu" },
-    { "phrase": "to dabble in a language", "meaningVi": "thử qua một ngôn ngữ" },
-    { "phrase": "language proficiency", "meaningVi": "trình độ ngôn ngữ" },
-    { "phrase": "minority script", "meaningVi": "chữ viết thiểu số" },
-    { "phrase": "professorial overhead", "meaningVi": "chi phí giáo sư" },
-    { "phrase": "Eurocentric reading list", "meaningVi": "danh sách đọc lấy châu Âu làm trung tâm" },
-    { "phrase": "lecturer shortage", "meaningVi": "thiếu giảng viên" },
-    { "phrase": "to dismantle an assumption", "meaningVi": "tháo dỡ một giả định" },
-    { "phrase": "credit-bearing module", "meaningVi": "học phần có tín chỉ" },
-    { "phrase": "to chip away at provincial defaults", "meaningVi": "dần dần làm xói mòn các mặc định địa phương" }
+    {
+      "phrase": "graduation requirement",
+      "meaningVi": "yêu cầu tốt nghiệp"
+    },
+    {
+      "phrase": "non-European language",
+      "meaningVi": "ngôn ngữ phi châu Âu"
+    },
+    {
+      "phrase": "language module",
+      "meaningVi": "học phần ngôn ngữ"
+    },
+    {
+      "phrase": "undergraduate degree",
+      "meaningVi": "bằng đại học"
+    },
+    {
+      "phrase": "tonal language",
+      "meaningVi": "ngôn ngữ có thanh điệu"
+    },
+    {
+      "phrase": "script literacy",
+      "meaningVi": "khả năng đọc chữ viết"
+    },
+    {
+      "phrase": "language requirement",
+      "meaningVi": "yêu cầu ngôn ngữ"
+    },
+    {
+      "phrase": "monolingual default",
+      "meaningVi": "mặc định một ngôn ngữ"
+    },
+    {
+      "phrase": "linguistic humility",
+      "meaningVi": "sự khiêm tốn ngôn ngữ"
+    },
+    {
+      "phrase": "to encounter a different grammar",
+      "meaningVi": "gặp gỡ một ngữ pháp khác"
+    },
+    {
+      "phrase": "elective course",
+      "meaningVi": "môn học tự chọn"
+    },
+    {
+      "phrase": "compulsory term",
+      "meaningVi": "học kỳ bắt buộc"
+    },
+    {
+      "phrase": "global curriculum",
+      "meaningVi": "chương trình toàn cầu"
+    },
+    {
+      "phrase": "to dabble in a language",
+      "meaningVi": "thử qua một ngôn ngữ"
+    },
+    {
+      "phrase": "language proficiency",
+      "meaningVi": "trình độ ngôn ngữ"
+    },
+    {
+      "phrase": "minority script",
+      "meaningVi": "chữ viết thiểu số"
+    },
+    {
+      "phrase": "professorial overhead",
+      "meaningVi": "chi phí giáo sư"
+    },
+    {
+      "phrase": "Eurocentric reading list",
+      "meaningVi": "danh sách đọc lấy châu Âu làm trung tâm"
+    },
+    {
+      "phrase": "lecturer shortage",
+      "meaningVi": "thiếu giảng viên"
+    },
+    {
+      "phrase": "to dismantle an assumption",
+      "meaningVi": "tháo dỡ một giả định"
+    },
+    {
+      "phrase": "credit-bearing module",
+      "meaningVi": "học phần có tín chỉ"
+    },
+    {
+      "phrase": "to chip away at provincial defaults",
+      "meaningVi": "dần dần làm xói mòn các mặc định địa phương"
+    }
   ],
   "sampleText": "Sitting in an introductory Vietnamese class at a university in Edinburgh attended by twelve undergraduates from five different degree programmes, you notice that the assumptions about language difficulty most of them arrived with — that Vietnamese is impossibly tonal, that the alphabet must be unfamiliar, that the grammar will somehow be impossibly different — start dismantling themselves within the first fortnight. None of the students will leave fluent. All of them will leave changed.\n\nWhat a single term of a non-European language actually changes in an undergraduate, beyond the obvious vocabulary, is something universities marketing themselves as global have been reluctant to investigate too closely. It rearranges what counts as normal. A student who has spent twelve weeks puzzling over the six tones of Vietnamese cannot, after that, treat their own monolingualism as a neutral starting point. They have met a system that does not work the way English does, and they have not been allowed to remain comfortable about it. The graduate who emerges is a different reader of the world from the one who entered.\n\nGranted, requiring every student to spend a term wrestling with the tones of Vietnamese or the script of Tamil when they came to study engineering can sound like the kind of administrative diversity gesture that nobody actually wanted. Universities already struggle to staff existing language programmes, and adding a compulsory non-European term risks producing thin, badly-taught modules that confirm rather than dismantle stereotypes about how impossible those languages are. There is no point making the requirement universal if the requirement cannot be met by competent teaching.\n\nEven so, the standard objection — that students should choose their own electives — quietly assumes that the existing default is neutral, and it is not. A curriculum that lets a student graduate having spent three years on European thought and zero terms on any non-European language has already taken a position. It has decided which traditions count as core and which count as ornamentation. Calling that default 'choice' is a polite way of leaving the assumption unexamined.\n\nThe defensible position is that one mandatory term of a non-European language, taught by a properly resourced department with native-speaker tutors and small classes, should be a graduation requirement for any degree at a university that calls itself international. The term should not pretend to produce fluency. It should produce serious, sustained, embarrassing contact with a grammar the student did not grow up inside, and the kind of memory of struggling with another tongue that no later seminar on global affairs can substitute for. What is being asked here is small. The provincial default it would chip away at is anything but.",
   "sampleAnnotations": [
-    { "phrase": "Sitting in an introductory Vietnamese class at a university in Edinburgh attended by twelve undergraduates from five different degree programmes, you notice that the assumptions about language difficulty most of them arrived with — that Vietnamese is impossibly tonal, that the alphabet must be unfamiliar, that the grammar will somehow be impossibly different — start dismantling themselves within the first fortnight", "meaningVi": "Ngồi trong một lớp tiếng Việt vỡ lòng tại một trường đại học ở Edinburgh có mười hai sinh viên đại học từ năm chương trình bằng cấp khác nhau, bạn nhận ra rằng các giả định về độ khó của ngôn ngữ mà hầu hết họ đến với — rằng tiếng Việt có thanh điệu không thể, rằng bảng chữ cái chắc chắn sẽ không quen thuộc, rằng ngữ pháp sẽ bằng cách nào đó khác biệt không thể — bắt đầu tự tháo dỡ trong vòng hai tuần đầu tiên" },
-    { "phrase": "None of the students will leave fluent. All of them will leave changed", "meaningVi": "Không sinh viên nào sẽ rời đi thành thạo. Tất cả họ sẽ rời đi đã thay đổi" },
-    { "phrase": "What a single term of a non-European language actually changes in an undergraduate, beyond the obvious vocabulary, is something universities marketing themselves as global have been reluctant to investigate too closely", "meaningVi": "Điều mà một học kỳ duy nhất của một ngôn ngữ phi châu Âu thực sự thay đổi trong một sinh viên đại học, vượt ra ngoài từ vựng hiển nhiên, là điều mà các trường đại học tiếp thị mình là toàn cầu đã miễn cưỡng điều tra quá kỹ" },
-    { "phrase": "It rearranges what counts as normal", "meaningVi": "Nó sắp xếp lại cái gì được tính là bình thường" },
-    { "phrase": "A student who has spent twelve weeks puzzling over the six tones of Vietnamese cannot, after that, treat their own monolingualism as a neutral starting point", "meaningVi": "Một sinh viên đã dành mười hai tuần để vò đầu bứt tóc về sáu thanh điệu của tiếng Việt không thể, sau đó, coi việc nói một ngôn ngữ của chính mình là một điểm xuất phát trung lập" },
-    { "phrase": "They have met a system that does not work the way English does, and they have not been allowed to remain comfortable about it", "meaningVi": "Họ đã gặp một hệ thống không hoạt động theo cách tiếng Anh hoạt động, và họ đã không được phép ở lại thoải mái về điều đó" },
-    { "phrase": "The graduate who emerges is a different reader of the world from the one who entered", "meaningVi": "Sinh viên tốt nghiệp xuất hiện là một người đọc thế giới khác với người đã nhập học" },
-    { "phrase": "requiring every student to spend a term wrestling with the tones of Vietnamese or the script of Tamil when they came to study engineering can sound like the kind of administrative diversity gesture that nobody actually wanted", "meaningVi": "yêu cầu mọi sinh viên dành một học kỳ vật lộn với thanh điệu của tiếng Việt hay chữ viết Tamil khi họ đến để học kỹ thuật có thể nghe như loại cử chỉ đa dạng hành chính mà không ai thực sự muốn" },
-    { "phrase": "Universities already struggle to staff existing language programmes, and adding a compulsory non-European term risks producing thin, badly-taught modules that confirm rather than dismantle stereotypes about how impossible those languages are", "meaningVi": "Các trường đại học đã vật lộn để tuyển nhân sự cho các chương trình ngôn ngữ hiện hữu, và việc thêm một học kỳ phi châu Âu bắt buộc có nguy cơ tạo ra các học phần mỏng, dạy kém xác nhận thay vì tháo dỡ các định kiến về việc các ngôn ngữ đó không thể đến mức nào" },
-    { "phrase": "There is no point making the requirement universal if the requirement cannot be met by competent teaching", "meaningVi": "Không có ý nghĩa gì khi làm cho yêu cầu trở nên phổ quát nếu yêu cầu không thể được đáp ứng bằng giảng dạy có năng lực" },
-    { "phrase": "the standard objection — that students should choose their own electives — quietly assumes that the existing default is neutral, and it is not", "meaningVi": "phản đối tiêu chuẩn — rằng sinh viên nên chọn các môn tự chọn của riêng mình — lặng lẽ giả định rằng mặc định hiện hữu là trung lập, và nó không phải vậy" },
-    { "phrase": "A curriculum that lets a student graduate having spent three years on European thought and zero terms on any non-European language has already taken a position", "meaningVi": "Một chương trình giảng dạy cho phép một sinh viên tốt nghiệp đã dành ba năm cho tư tưởng châu Âu và không học kỳ nào về bất kỳ ngôn ngữ phi châu Âu nào đã đưa ra một lập trường" },
-    { "phrase": "It has decided which traditions count as core and which count as ornamentation", "meaningVi": "Nó đã quyết định truyền thống nào được tính là cốt lõi và truyền thống nào được tính là trang trí" },
-    { "phrase": "Calling that default 'choice' is a polite way of leaving the assumption unexamined", "meaningVi": "Gọi mặc định đó là 'lựa chọn' là một cách lịch sự để giữ giả định không được xem xét" },
-    { "phrase": "one mandatory term of a non-European language, taught by a properly resourced department with native-speaker tutors and small classes, should be a graduation requirement for any degree at a university that calls itself international", "meaningVi": "một học kỳ bắt buộc của một ngôn ngữ phi châu Âu, được dạy bởi một khoa có nguồn lực thích hợp với gia sư là người bản xứ và lớp nhỏ, nên là yêu cầu tốt nghiệp cho bất kỳ bằng cấp nào tại một trường đại học tự xưng là quốc tế" },
-    { "phrase": "The term should not pretend to produce fluency. It should produce serious, sustained, embarrassing contact with a grammar the student did not grow up inside", "meaningVi": "Học kỳ không nên giả vờ tạo ra sự thành thạo. Nó nên tạo ra sự tiếp xúc nghiêm túc, kéo dài, đáng xấu hổ với một ngữ pháp mà sinh viên đã không lớn lên bên trong" },
-    { "phrase": "the kind of memory of struggling with another tongue that no later seminar on global affairs can substitute for", "meaningVi": "loại ký ức vật lộn với một ngôn ngữ khác mà không có hội thảo về các vấn đề toàn cầu nào sau này có thể thay thế" },
-    { "phrase": "What is being asked here is small. The provincial default it would chip away at is anything but", "meaningVi": "Điều đang được yêu cầu ở đây thì nhỏ. Mặc định địa phương mà nó sẽ làm xói mòn thì không hề nhỏ" },
-    { "phrase": "credit-bearing module", "meaningVi": "học phần có tín chỉ" }
+    {
+      "phrase": "Sitting in an introductory Vietnamese class at a university in Edinburgh attended by twelve undergraduates from five different degree programmes, you notice that the assumptions about language difficulty most of them arrived with — that Vietnamese is impossibly tonal, that the alphabet must be unfamiliar, that the grammar will somehow be impossibly different — start dismantling themselves within the first fortnight",
+      "meaningVi": "Ngồi trong một lớp tiếng Việt vỡ lòng tại một trường đại học ở Edinburgh có mười hai sinh viên đại học từ năm chương trình bằng cấp khác nhau, bạn nhận ra rằng các giả định về độ khó của ngôn ngữ mà hầu hết họ đến với — rằng tiếng Việt có thanh điệu không thể, rằng bảng chữ cái chắc chắn sẽ không quen thuộc, rằng ngữ pháp sẽ bằng cách nào đó khác biệt không thể — bắt đầu tự tháo dỡ trong vòng hai tuần đầu tiên"
+    },
+    {
+      "phrase": "None of the students will leave fluent. All of them will leave changed",
+      "meaningVi": "Không sinh viên nào sẽ rời đi thành thạo. Tất cả họ sẽ rời đi đã thay đổi"
+    },
+    {
+      "phrase": "What a single term of a non-European language actually changes in an undergraduate, beyond the obvious vocabulary, is something universities marketing themselves as global have been reluctant to investigate too closely",
+      "meaningVi": "Điều mà một học kỳ duy nhất của một ngôn ngữ phi châu Âu thực sự thay đổi trong một sinh viên đại học, vượt ra ngoài từ vựng hiển nhiên, là điều mà các trường đại học tiếp thị mình là toàn cầu đã miễn cưỡng điều tra quá kỹ"
+    },
+    {
+      "phrase": "It rearranges what counts as normal",
+      "meaningVi": "Nó sắp xếp lại cái gì được tính là bình thường"
+    },
+    {
+      "phrase": "A student who has spent twelve weeks puzzling over the six tones of Vietnamese cannot, after that, treat their own monolingualism as a neutral starting point",
+      "meaningVi": "Một sinh viên đã dành mười hai tuần để vò đầu bứt tóc về sáu thanh điệu của tiếng Việt không thể, sau đó, coi việc nói một ngôn ngữ của chính mình là một điểm xuất phát trung lập"
+    },
+    {
+      "phrase": "They have met a system that does not work the way English does, and they have not been allowed to remain comfortable about it",
+      "meaningVi": "Họ đã gặp một hệ thống không hoạt động theo cách tiếng Anh hoạt động, và họ đã không được phép ở lại thoải mái về điều đó"
+    },
+    {
+      "phrase": "The graduate who emerges is a different reader of the world from the one who entered",
+      "meaningVi": "Sinh viên tốt nghiệp xuất hiện là một người đọc thế giới khác với người đã nhập học"
+    },
+    {
+      "phrase": "requiring every student to spend a term wrestling with the tones of Vietnamese or the script of Tamil when they came to study engineering can sound like the kind of administrative diversity gesture that nobody actually wanted",
+      "meaningVi": "yêu cầu mọi sinh viên dành một học kỳ vật lộn với thanh điệu của tiếng Việt hay chữ viết Tamil khi họ đến để học kỹ thuật có thể nghe như loại cử chỉ đa dạng hành chính mà không ai thực sự muốn"
+    },
+    {
+      "phrase": "Universities already struggle to staff existing language programmes, and adding a compulsory non-European term risks producing thin, badly-taught modules that confirm rather than dismantle stereotypes about how impossible those languages are",
+      "meaningVi": "Các trường đại học đã vật lộn để tuyển nhân sự cho các chương trình ngôn ngữ hiện hữu, và việc thêm một học kỳ phi châu Âu bắt buộc có nguy cơ tạo ra các học phần mỏng, dạy kém xác nhận thay vì tháo dỡ các định kiến về việc các ngôn ngữ đó không thể đến mức nào"
+    },
+    {
+      "phrase": "There is no point making the requirement universal if the requirement cannot be met by competent teaching",
+      "meaningVi": "Không có ý nghĩa gì khi làm cho yêu cầu trở nên phổ quát nếu yêu cầu không thể được đáp ứng bằng giảng dạy có năng lực"
+    },
+    {
+      "phrase": "the standard objection — that students should choose their own electives — quietly assumes that the existing default is neutral, and it is not",
+      "meaningVi": "phản đối tiêu chuẩn — rằng sinh viên nên chọn các môn tự chọn của riêng mình — lặng lẽ giả định rằng mặc định hiện hữu là trung lập, và nó không phải vậy"
+    },
+    {
+      "phrase": "A curriculum that lets a student graduate having spent three years on European thought and zero terms on any non-European language has already taken a position",
+      "meaningVi": "Một chương trình giảng dạy cho phép một sinh viên tốt nghiệp đã dành ba năm cho tư tưởng châu Âu và không học kỳ nào về bất kỳ ngôn ngữ phi châu Âu nào đã đưa ra một lập trường"
+    },
+    {
+      "phrase": "It has decided which traditions count as core and which count as ornamentation",
+      "meaningVi": "Nó đã quyết định truyền thống nào được tính là cốt lõi và truyền thống nào được tính là trang trí"
+    },
+    {
+      "phrase": "Calling that default 'choice' is a polite way of leaving the assumption unexamined",
+      "meaningVi": "Gọi mặc định đó là 'lựa chọn' là một cách lịch sự để giữ giả định không được xem xét"
+    },
+    {
+      "phrase": "one mandatory term of a non-European language, taught by a properly resourced department with native-speaker tutors and small classes, should be a graduation requirement for any degree at a university that calls itself international",
+      "meaningVi": "một học kỳ bắt buộc của một ngôn ngữ phi châu Âu, được dạy bởi một khoa có nguồn lực thích hợp với gia sư là người bản xứ và lớp nhỏ, nên là yêu cầu tốt nghiệp cho bất kỳ bằng cấp nào tại một trường đại học tự xưng là quốc tế"
+    },
+    {
+      "phrase": "The term should not pretend to produce fluency. It should produce serious, sustained, embarrassing contact with a grammar the student did not grow up inside",
+      "meaningVi": "Học kỳ không nên giả vờ tạo ra sự thành thạo. Nó nên tạo ra sự tiếp xúc nghiêm túc, kéo dài, đáng xấu hổ với một ngữ pháp mà sinh viên đã không lớn lên bên trong"
+    },
+    {
+      "phrase": "the kind of memory of struggling with another tongue that no later seminar on global affairs can substitute for",
+      "meaningVi": "loại ký ức vật lộn với một ngôn ngữ khác mà không có hội thảo về các vấn đề toàn cầu nào sau này có thể thay thế"
+    },
+    {
+      "phrase": "What is being asked here is small. The provincial default it would chip away at is anything but",
+      "meaningVi": "Điều đang được yêu cầu ở đây thì nhỏ. Mặc định địa phương mà nó sẽ làm xói mòn thì không hề nhỏ"
+    }
   ],
   "sampleGrammarNotes": [
     {

@@ -3,7 +3,11 @@
   "level": "A1",
   "title": "A recipe my friend gave me",
   "summary": "Describe a simple recipe a friend once gave you and how you cook it.",
-  "tags": ["Food", "Recipe", "Friend"],
+  "tags": [
+    "Food",
+    "Recipe",
+    "Friend"
+  ],
   "topic": "A recipe my friend gave me",
   "prompt": "Write 6–8 short sentences about a recipe a friend gave you. Say who the friend is, what the dish is, the simple steps, and what makes the dish special. Use present simple.",
   "minWords": 150,
@@ -14,31 +18,99 @@
     "First, I…"
   ],
   "hintVocab": [
-    { "phrase": "recipe", "meaningVi": "công thức nấu ăn", "pronunciation": "/ˈresəpi/" },
-    { "phrase": "friend", "meaningVi": "bạn" },
-    { "phrase": "tomato soup", "meaningVi": "súp cà chua" },
-    { "phrase": "onion", "meaningVi": "hành tây", "pronunciation": "/ˈʌnjən/" },
-    { "phrase": "garlic", "meaningVi": "tỏi" },
-    { "phrase": "cut", "meaningVi": "cắt" },
-    { "phrase": "pan", "meaningVi": "chảo" },
-    { "phrase": "olive oil", "meaningVi": "dầu ô liu" },
-    { "phrase": "salt", "meaningVi": "muối" },
-    { "phrase": "secret", "meaningVi": "bí mật" },
-    { "phrase": "warm bread", "meaningVi": "bánh mì ấm" }
+    {
+      "phrase": "recipe",
+      "meaningVi": "công thức nấu ăn",
+      "pronunciation": "/ˈresəpi/"
+    },
+    {
+      "phrase": "friend",
+      "meaningVi": "bạn"
+    },
+    {
+      "phrase": "tomato soup",
+      "meaningVi": "súp cà chua"
+    },
+    {
+      "phrase": "onion",
+      "meaningVi": "hành tây",
+      "pronunciation": "/ˈʌnjən/"
+    },
+    {
+      "phrase": "garlic",
+      "meaningVi": "tỏi"
+    },
+    {
+      "phrase": "cut",
+      "meaningVi": "cắt"
+    },
+    {
+      "phrase": "pan",
+      "meaningVi": "chảo"
+    },
+    {
+      "phrase": "olive oil",
+      "meaningVi": "dầu ô liu"
+    },
+    {
+      "phrase": "salt",
+      "meaningVi": "muối"
+    },
+    {
+      "phrase": "secret",
+      "meaningVi": "bí mật"
+    },
+    {
+      "phrase": "warm bread",
+      "meaningVi": "bánh mì ấm"
+    }
   ],
   "sampleText": "My friend Anna in Yerevan gave me her tomato soup recipe two years ago. She wrote it by hand on a small piece of yellow paper. I keep the paper in my kitchen drawer. The soup is very simple. First, I cut one big onion and two cloves of garlic. I put them in a pan with olive oil. I cook them on low heat for five minutes. Then I add six soft tomatoes. I cut them into small pieces. I add a little water, salt, and one spoon of sugar. The sugar is Anna's secret. I cover the pan and I wait for twenty minutes. The kitchen smells warm and a little sweet. After that, I crush the soup with a spoon. I do not use a blender because Anna said the soup must have pieces. I eat the soup in a deep bowl with warm bread. I think of Anna every time I cook it. We do not live in the same country anymore. But her recipe sits on my stove. A friend's recipe is a small piece of her in my home.",
   "sampleAnnotations": [
-    { "phrase": "her tomato soup recipe", "meaningVi": "công thức súp cà chua của cô ấy" },
-    { "phrase": "wrote it by hand", "meaningVi": "viết bằng tay" },
-    { "phrase": "two cloves of garlic", "meaningVi": "hai tép tỏi" },
-    { "phrase": "with olive oil", "meaningVi": "với dầu ô liu" },
-    { "phrase": "on low heat", "meaningVi": "ở lửa nhỏ" },
-    { "phrase": "six soft tomatoes", "meaningVi": "sáu quả cà chua mềm" },
-    { "phrase": "one spoon of sugar", "meaningVi": "một thìa đường" },
-    { "phrase": "Anna's secret", "meaningVi": "bí mật của Anna" },
-    { "phrase": "crush the soup with a spoon", "meaningVi": "dầm súp bằng thìa" },
-    { "phrase": "in a deep bowl", "meaningVi": "trong một cái tô sâu" },
-    { "phrase": "her recipe sits on my stove", "meaningVi": "công thức của cô ấy nằm trên bếp tôi" }
+    {
+      "phrase": "her tomato soup recipe",
+      "meaningVi": "công thức súp cà chua của cô ấy"
+    },
+    {
+      "phrase": "wrote it by hand",
+      "meaningVi": "viết bằng tay"
+    },
+    {
+      "phrase": "two cloves of garlic",
+      "meaningVi": "hai tép tỏi"
+    },
+    {
+      "phrase": "with olive oil",
+      "meaningVi": "với dầu ô liu"
+    },
+    {
+      "phrase": "on low heat",
+      "meaningVi": "ở lửa nhỏ"
+    },
+    {
+      "phrase": "six soft tomatoes",
+      "meaningVi": "sáu quả cà chua mềm"
+    },
+    {
+      "phrase": "one spoon of sugar",
+      "meaningVi": "một thìa đường"
+    },
+    {
+      "phrase": "Anna's secret",
+      "meaningVi": "bí mật của Anna"
+    },
+    {
+      "phrase": "crush the soup with a spoon",
+      "meaningVi": "dầm súp bằng thìa"
+    },
+    {
+      "phrase": "in a deep bowl",
+      "meaningVi": "trong một cái tô sâu"
+    },
+    {
+      "phrase": "her recipe sits on my stove",
+      "meaningVi": "công thức của cô ấy nằm trên bếp tôi"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -58,12 +130,12 @@
       "id": "q1",
       "prompt": "Who gave the writer the recipe?",
       "options": [
-        "His mother",
         "His friend Anna in Yerevan",
+        "His mother",
         "A teacher",
         "A neighbour"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The text says 'My friend Anna in Yerevan gave me her tomato soup recipe'.",
       "hint": "Look at the first sentence."
     },
@@ -85,19 +157,24 @@
       "prompt": "What is the first step?",
       "options": [
         "Add water and salt.",
-        "Cut one big onion and two cloves of garlic.",
         "Crush the soup with a spoon.",
+        "Cut one big onion and two cloves of garlic.",
         "Open the bread."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The text says 'First, I cut one big onion and two cloves of garlic'.",
       "hint": "Look for 'First,'"
     },
     {
       "id": "q4",
       "prompt": "What is Anna's secret?",
-      "options": ["A lot of salt", "One spoon of sugar", "Hot pepper", "Cold water"],
-      "answerIndex": 1,
+      "options": [
+        "A lot of salt",
+        "Hot pepper",
+        "Cold water",
+        "One spoon of sugar"
+      ],
+      "answerIndex": 3,
       "explanation": "The text says 'The sugar is Anna's secret'.",
       "hint": "Look for the word 'secret'."
     },
@@ -105,19 +182,24 @@
       "id": "q5",
       "prompt": "Why does the writer not use a blender?",
       "options": [
-        "He does not have one.",
         "Because Anna said the soup must have pieces.",
+        "He does not have one.",
         "Because it is too loud.",
         "Because it is too expensive."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The text says 'I do not use a blender because Anna said the soup must have pieces'.",
       "hint": "Look for the 'because' sentence."
     },
     {
       "id": "q6",
       "prompt": "What does the writer eat the soup with?",
-      "options": ["Rice", "Warm bread", "Boiled eggs", "Cold cheese"],
+      "options": [
+        "Rice",
+        "Warm bread",
+        "Boiled eggs",
+        "Cold cheese"
+      ],
       "answerIndex": 1,
       "explanation": "The text says 'I eat the soup in a deep bowl with warm bread'.",
       "hint": "Look near the end of the cooking part."
@@ -127,27 +209,37 @@
       "prompt": "Which sentence uses sequencing correctly?",
       "options": [
         "First I cut the onion second I cook it.",
-        "First, I cut the onion. Then I cook it.",
         "Onion first, I cut, cook then I.",
+        "First, I cut the onion. Then I cook it.",
         "I onion cut first cook then."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "Use a comma after 'First,' and start a new sentence with 'Then'.",
       "hint": "'First,' starts a sentence with a comma."
     },
     {
       "id": "q8",
       "prompt": "Which is the correct way to say a small amount of an uncountable noun?",
-      "options": ["a little water", "a few water", "one waters", "much waters"],
-      "answerIndex": 0,
+      "options": [
+        "a few water",
+        "one waters",
+        "much waters",
+        "a little water"
+      ],
+      "answerIndex": 3,
       "explanation": "'water' is uncountable, so use 'a little'.",
       "hint": "'water' is uncountable."
     },
     {
       "id": "q9",
       "prompt": "Choose the correct present simple form: 'I ___ the pan and I wait.'",
-      "options": ["covering", "covered", "cover", "covers"],
-      "answerIndex": 2,
+      "options": [
+        "cover",
+        "covering",
+        "covered",
+        "covers"
+      ],
+      "answerIndex": 0,
       "explanation": "With 'I', the verb takes no -s: 'I cover'.",
       "hint": "Subject 'I' takes the base form."
     },

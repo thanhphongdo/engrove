@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "Should a public square belong to protest, even when it disrupts daily life?",
   "summary": "Argue whether protests that block a city's central square are a legitimate use of public space or an unfair imposition on everyone else who depends on it.",
-  "tags": ["Society", "Public Space", "Argument", "Politics"],
+  "tags": [
+    "Society",
+    "Public Space",
+    "Argument",
+    "Politics"
+  ],
   "topic": "Whether disruptive protest in public squares is justified",
   "prompt": "Write a 450–600-word essay arguing whether people should be allowed to use a city's central square for protest even when it disrupts the daily life of everyone else who depends on that space. Give two concrete examples and concede one objection. Use cleft sentences, passive voice, and hedging.",
   "minWords": 450,
@@ -15,59 +20,221 @@
     "A protest that no one is forced to notice is, by design, a protest that…"
   ],
   "hintVocab": [
-    { "phrase": "public square", "meaningVi": "quảng trường công cộng" },
-    { "phrase": "the right to protest", "meaningVi": "quyền biểu tình" },
-    { "phrase": "assembly", "meaningVi": "sự tụ tập / hội họp", "pronunciation": "/əˈsembli/" },
-    { "phrase": "to disrupt", "meaningVi": "làm gián đoạn", "pronunciation": "/dɪsˈrʌpt/" },
-    { "phrase": "civil disobedience", "meaningVi": "bất tuân dân sự" },
-    { "phrase": "to block access", "meaningVi": "chặn lối đi / chặn tiếp cận" },
-    { "phrase": "freedom of expression", "meaningVi": "tự do biểu đạt" },
-    { "phrase": "to occupy", "meaningVi": "chiếm giữ (không gian)", "pronunciation": "/ˈɒkjupaɪ/" },
-    { "phrase": "commuter", "meaningVi": "người đi lại làm việc hằng ngày", "pronunciation": "/kəˈmjuːtə/" },
-    { "phrase": "livelihood", "meaningVi": "kế sinh nhai", "pronunciation": "/ˈlaɪvlihʊd/" },
-    { "phrase": "public order", "meaningVi": "trật tự công cộng" },
-    { "phrase": "to weigh competing claims", "meaningVi": "cân nhắc các yêu sách đối lập" },
-    { "phrase": "inconvenience", "meaningVi": "sự bất tiện", "pronunciation": "/ˌɪnkənˈviːniəns/" },
-    { "phrase": "grievance", "meaningVi": "nỗi bất bình / khiếu nại", "pronunciation": "/ˈɡriːvəns/" },
-    { "phrase": "the silent majority", "meaningVi": "đa số im lặng" },
-    { "phrase": "to make oneself heard", "meaningVi": "khiến tiếng nói của mình được nghe thấy" },
-    { "phrase": "visibility", "meaningVi": "sự hiện diện rõ ràng / được nhìn thấy", "pronunciation": "/ˌvɪzəˈbɪləti/" },
-    { "phrase": "to bear the cost", "meaningVi": "gánh chịu chi phí" },
-    { "phrase": "to suppress", "meaningVi": "đàn áp / dập tắt", "pronunciation": "/səˈpres/" },
-    { "phrase": "contested space", "meaningVi": "không gian tranh chấp" },
-    { "phrase": "legitimate", "meaningVi": "chính đáng / hợp pháp", "pronunciation": "/lɪˈdʒɪtɪmət/" },
-    { "phrase": "to designate", "meaningVi": "chỉ định / quy định", "pronunciation": "/ˈdezɪɡneɪt/" },
-    { "phrase": "out of sight", "meaningVi": "khuất tầm mắt" },
-    { "phrase": "to tolerate", "meaningVi": "chịu đựng / dung thứ", "pronunciation": "/ˈtɒləreɪt/" },
-    { "phrase": "the common good", "meaningVi": "lợi ích chung" }
+    {
+      "phrase": "public square",
+      "meaningVi": "quảng trường công cộng"
+    },
+    {
+      "phrase": "the right to protest",
+      "meaningVi": "quyền biểu tình"
+    },
+    {
+      "phrase": "assembly",
+      "meaningVi": "sự tụ tập / hội họp",
+      "pronunciation": "/əˈsembli/"
+    },
+    {
+      "phrase": "to disrupt",
+      "meaningVi": "làm gián đoạn",
+      "pronunciation": "/dɪsˈrʌpt/"
+    },
+    {
+      "phrase": "civil disobedience",
+      "meaningVi": "bất tuân dân sự"
+    },
+    {
+      "phrase": "to block access",
+      "meaningVi": "chặn lối đi / chặn tiếp cận"
+    },
+    {
+      "phrase": "freedom of expression",
+      "meaningVi": "tự do biểu đạt"
+    },
+    {
+      "phrase": "to occupy",
+      "meaningVi": "chiếm giữ (không gian)",
+      "pronunciation": "/ˈɒkjupaɪ/"
+    },
+    {
+      "phrase": "commuter",
+      "meaningVi": "người đi lại làm việc hằng ngày",
+      "pronunciation": "/kəˈmjuːtə/"
+    },
+    {
+      "phrase": "livelihood",
+      "meaningVi": "kế sinh nhai",
+      "pronunciation": "/ˈlaɪvlihʊd/"
+    },
+    {
+      "phrase": "public order",
+      "meaningVi": "trật tự công cộng"
+    },
+    {
+      "phrase": "to weigh competing claims",
+      "meaningVi": "cân nhắc các yêu sách đối lập"
+    },
+    {
+      "phrase": "inconvenience",
+      "meaningVi": "sự bất tiện",
+      "pronunciation": "/ˌɪnkənˈviːniəns/"
+    },
+    {
+      "phrase": "grievance",
+      "meaningVi": "nỗi bất bình / khiếu nại",
+      "pronunciation": "/ˈɡriːvəns/"
+    },
+    {
+      "phrase": "the silent majority",
+      "meaningVi": "đa số im lặng"
+    },
+    {
+      "phrase": "to make oneself heard",
+      "meaningVi": "khiến tiếng nói của mình được nghe thấy"
+    },
+    {
+      "phrase": "visibility",
+      "meaningVi": "sự hiện diện rõ ràng / được nhìn thấy",
+      "pronunciation": "/ˌvɪzəˈbɪləti/"
+    },
+    {
+      "phrase": "to bear the cost",
+      "meaningVi": "gánh chịu chi phí"
+    },
+    {
+      "phrase": "to suppress",
+      "meaningVi": "đàn áp / dập tắt",
+      "pronunciation": "/səˈpres/"
+    },
+    {
+      "phrase": "contested space",
+      "meaningVi": "không gian tranh chấp"
+    },
+    {
+      "phrase": "legitimate",
+      "meaningVi": "chính đáng / hợp pháp",
+      "pronunciation": "/lɪˈdʒɪtɪmət/"
+    },
+    {
+      "phrase": "to designate",
+      "meaningVi": "chỉ định / quy định",
+      "pronunciation": "/ˈdezɪɡneɪt/"
+    },
+    {
+      "phrase": "out of sight",
+      "meaningVi": "khuất tầm mắt"
+    },
+    {
+      "phrase": "to tolerate",
+      "meaningVi": "chịu đựng / dung thứ",
+      "pronunciation": "/ˈtɒləreɪt/"
+    },
+    {
+      "phrase": "the common good",
+      "meaningVi": "lợi ích chung"
+    }
   ],
   "sampleText": "Every few years, a city's main square is taken over by people who refuse to leave it: tents in Madrid's Puerta del Sol, crowds in Cairo's Tahrir, a sea of umbrellas across a Hong Kong intersection. And every time, the same complaint is raised by those who simply wanted to cross it: who gave these people the right to make my commute their cause? The question deserves a real answer, not a slogan.\n\nWhat a square is for, when you scratch beneath the paving stones, is not merely circulation. A square is the one piece of a city that belongs to everyone and no one — and that is exactly why it has always been the place where a grievance is made visible. A protest held in a field changes nothing, because a field can be ignored; a protest in the square cannot be ignored, and it is the inconvenience itself, rather than any banner, that forces a city to register that something is wrong. Disruption is not a regrettable side effect of public protest. It is, in large part, the message.\n\nConsider what happens when protest is permitted only where it is invisible. A march confined to a sealed-off zone at the edge of town is technically allowed, yet it has been quietly stripped of its power; no minister is troubled, no commuter inconvenienced, and the grievance evaporates into a press release no one reads. By contrast, when farmers drove their tractors into a capital and parked them across the central boulevards, the cost of ignoring them rose overnight, and a negotiation that had stalled for months was suddenly reopened. The blockage was the leverage.\n\nGranted, the commuter whose route is blocked and the trader whose stall stands empty have a real grievance of their own, and pretending otherwise would be dishonest. A protest that shuts a square for weeks does not distribute its cost evenly: it falls hardest on the day-labourer who loses a shift, not the official the protest is aimed at. There is something uncomfortable about a cause that advances itself by imposing on people who may not even disagree with it. The objection has genuine weight.\n\nEven so, the answer is not to banish protest to where it cannot be felt but to insist that the disruption be proportionate and finite. A right that may be exercised only on condition that no one notices is not a right at all; it is a courtesy that can be withdrawn the moment it becomes effective. The task of a city is not to choose between order and protest but to hold the tension between them — to let the square be disrupted, and to set limits on how, how long, and at whose expense.\n\nSo should a square belong to protest even when it disrupts? A protest that no one is forced to notice is, by design, a protest that changes nothing. It is precisely because a square is shared that it must occasionally be contested out loud, and a city that has made its central space too orderly for disagreement has not kept the peace; it has only muffled the people it was built to serve.",
   "sampleAnnotations": [
-    { "phrase": "a city's main square is taken over by people who refuse to leave it", "meaningVi": "quảng trường chính của một thành phố bị chiếm lĩnh bởi những người từ chối rời đi" },
-    { "phrase": "the same complaint is raised by those who simply wanted to cross it", "meaningVi": "cùng một lời than phiền được nêu ra bởi những người chỉ đơn giản muốn băng qua nó" },
-    { "phrase": "who gave these people the right to make my commute their cause", "meaningVi": "ai đã trao cho những người này cái quyền biến chuyến đi làm của tôi thành sự nghiệp của họ" },
-    { "phrase": "The question deserves a real answer, not a slogan", "meaningVi": "Câu hỏi này xứng đáng có một câu trả lời thực sự, chứ không phải một khẩu hiệu" },
-    { "phrase": "What a square is for, when you scratch beneath the paving stones, is not merely circulation", "meaningVi": "Một quảng trường để làm gì, khi bạn cào sâu xuống dưới những viên đá lát, không chỉ đơn thuần là sự lưu thông" },
-    { "phrase": "A square is the one piece of a city that belongs to everyone and no one", "meaningVi": "Một quảng trường là mảnh duy nhất của thành phố thuộc về tất cả mọi người và không thuộc về ai" },
-    { "phrase": "the place where a grievance is made visible", "meaningVi": "nơi mà một nỗi bất bình được làm cho hiện rõ" },
-    { "phrase": "a protest in the square cannot be ignored", "meaningVi": "một cuộc biểu tình trong quảng trường thì không thể bị phớt lờ" },
-    { "phrase": "it is the inconvenience itself, rather than any banner, that forces a city to register that something is wrong", "meaningVi": "chính sự bất tiện tự nó, chứ không phải bất kỳ tấm biểu ngữ nào, mới buộc một thành phố phải ghi nhận rằng có điều gì đó không ổn" },
-    { "phrase": "Disruption is not a regrettable side effect of public protest. It is, in large part, the message", "meaningVi": "Sự gián đoạn không phải là một tác dụng phụ đáng tiếc của biểu tình công cộng. Nó, phần lớn, chính là thông điệp" },
-    { "phrase": "A march confined to a sealed-off zone at the edge of town is technically allowed, yet it has been quietly stripped of its power", "meaningVi": "Một cuộc tuần hành bị giới hạn trong một khu vực bị phong tỏa ở rìa thị trấn về mặt kỹ thuật là được phép, vậy mà nó đã lặng lẽ bị tước đi sức mạnh của mình" },
-    { "phrase": "the grievance evaporates into a press release no one reads", "meaningVi": "nỗi bất bình bốc hơi thành một thông cáo báo chí không ai đọc" },
-    { "phrase": "the cost of ignoring them rose overnight", "meaningVi": "cái giá của việc phớt lờ họ tăng vọt chỉ sau một đêm" },
-    { "phrase": "a negotiation that had stalled for months was suddenly reopened", "meaningVi": "một cuộc thương lượng đã đình trệ hàng tháng bỗng nhiên được mở lại" },
-    { "phrase": "The blockage was the leverage", "meaningVi": "Sự phong tỏa chính là đòn bẩy" },
-    { "phrase": "Granted, the commuter whose route is blocked and the trader whose stall stands empty have a real grievance of their own", "meaningVi": "Công nhận, người đi làm bị chặn mất lối đi và người buôn bán có quầy hàng trống không đều có nỗi bất bình thực sự của riêng họ" },
-    { "phrase": "it falls hardest on the day-labourer who loses a shift, not the official the protest is aimed at", "meaningVi": "nó giáng nặng nhất xuống người làm công nhật mất một ca làm, chứ không phải vị quan chức mà cuộc biểu tình nhắm tới" },
-    { "phrase": "a cause that advances itself by imposing on people who may not even disagree with it", "meaningVi": "một sự nghiệp tự thúc đẩy mình bằng cách áp đặt lên những người thậm chí có thể không phản đối nó" },
-    { "phrase": "the answer is not to banish protest to where it cannot be felt but to insist that the disruption be proportionate and finite", "meaningVi": "câu trả lời không phải là đày biểu tình đến nơi nó không thể cảm nhận được mà là yêu cầu rằng sự gián đoạn phải tương xứng và có giới hạn" },
-    { "phrase": "A right that may be exercised only on condition that no one notices is not a right at all", "meaningVi": "Một cái quyền chỉ có thể được thực thi với điều kiện không ai để ý đến thì chẳng phải là một cái quyền nào cả" },
-    { "phrase": "The task of a city is not to choose between order and protest but to hold the tension between them", "meaningVi": "Nhiệm vụ của một thành phố không phải là chọn giữa trật tự và biểu tình mà là giữ lấy sự căng thẳng giữa chúng" },
-    { "phrase": "A protest that no one is forced to notice is, by design, a protest that changes nothing", "meaningVi": "Một cuộc biểu tình mà không ai bị buộc phải để ý đến, theo bản thiết kế của nó, là một cuộc biểu tình chẳng thay đổi điều gì" },
-    { "phrase": "It is precisely because a square is shared that it must occasionally be contested out loud", "meaningVi": "Chính vì một quảng trường được chia sẻ chung mà thỉnh thoảng nó phải được tranh chấp một cách lớn tiếng" },
-    { "phrase": "it has only muffled the people it was built to serve", "meaningVi": "nó chỉ bóp nghẹt chính những con người mà nó được xây nên để phục vụ" },
-    { "phrase": "the day-labourer who loses a shift", "meaningVi": "người làm công nhật mất một ca làm" }
+    {
+      "phrase": "a city's main square is taken over by people who refuse to leave it",
+      "meaningVi": "quảng trường chính của một thành phố bị chiếm lĩnh bởi những người từ chối rời đi"
+    },
+    {
+      "phrase": "the same complaint is raised by those who simply wanted to cross it",
+      "meaningVi": "cùng một lời than phiền được nêu ra bởi những người chỉ đơn giản muốn băng qua nó"
+    },
+    {
+      "phrase": "who gave these people the right to make my commute their cause",
+      "meaningVi": "ai đã trao cho những người này cái quyền biến chuyến đi làm của tôi thành sự nghiệp của họ"
+    },
+    {
+      "phrase": "The question deserves a real answer, not a slogan",
+      "meaningVi": "Câu hỏi này xứng đáng có một câu trả lời thực sự, chứ không phải một khẩu hiệu"
+    },
+    {
+      "phrase": "What a square is for, when you scratch beneath the paving stones, is not merely circulation",
+      "meaningVi": "Một quảng trường để làm gì, khi bạn cào sâu xuống dưới những viên đá lát, không chỉ đơn thuần là sự lưu thông"
+    },
+    {
+      "phrase": "A square is the one piece of a city that belongs to everyone and no one",
+      "meaningVi": "Một quảng trường là mảnh duy nhất của thành phố thuộc về tất cả mọi người và không thuộc về ai"
+    },
+    {
+      "phrase": "the place where a grievance is made visible",
+      "meaningVi": "nơi mà một nỗi bất bình được làm cho hiện rõ"
+    },
+    {
+      "phrase": "a protest in the square cannot be ignored",
+      "meaningVi": "một cuộc biểu tình trong quảng trường thì không thể bị phớt lờ"
+    },
+    {
+      "phrase": "it is the inconvenience itself, rather than any banner, that forces a city to register that something is wrong",
+      "meaningVi": "chính sự bất tiện tự nó, chứ không phải bất kỳ tấm biểu ngữ nào, mới buộc một thành phố phải ghi nhận rằng có điều gì đó không ổn"
+    },
+    {
+      "phrase": "Disruption is not a regrettable side effect of public protest. It is, in large part, the message",
+      "meaningVi": "Sự gián đoạn không phải là một tác dụng phụ đáng tiếc của biểu tình công cộng. Nó, phần lớn, chính là thông điệp"
+    },
+    {
+      "phrase": "A march confined to a sealed-off zone at the edge of town is technically allowed, yet it has been quietly stripped of its power",
+      "meaningVi": "Một cuộc tuần hành bị giới hạn trong một khu vực bị phong tỏa ở rìa thị trấn về mặt kỹ thuật là được phép, vậy mà nó đã lặng lẽ bị tước đi sức mạnh của mình"
+    },
+    {
+      "phrase": "the grievance evaporates into a press release no one reads",
+      "meaningVi": "nỗi bất bình bốc hơi thành một thông cáo báo chí không ai đọc"
+    },
+    {
+      "phrase": "the cost of ignoring them rose overnight",
+      "meaningVi": "cái giá của việc phớt lờ họ tăng vọt chỉ sau một đêm"
+    },
+    {
+      "phrase": "a negotiation that had stalled for months was suddenly reopened",
+      "meaningVi": "một cuộc thương lượng đã đình trệ hàng tháng bỗng nhiên được mở lại"
+    },
+    {
+      "phrase": "The blockage was the leverage",
+      "meaningVi": "Sự phong tỏa chính là đòn bẩy"
+    },
+    {
+      "phrase": "Granted, the commuter whose route is blocked and the trader whose stall stands empty have a real grievance of their own",
+      "meaningVi": "Công nhận, người đi làm bị chặn mất lối đi và người buôn bán có quầy hàng trống không đều có nỗi bất bình thực sự của riêng họ"
+    },
+    {
+      "phrase": "it falls hardest on the day-labourer who loses a shift, not the official the protest is aimed at",
+      "meaningVi": "nó giáng nặng nhất xuống người làm công nhật mất một ca làm, chứ không phải vị quan chức mà cuộc biểu tình nhắm tới"
+    },
+    {
+      "phrase": "a cause that advances itself by imposing on people who may not even disagree with it",
+      "meaningVi": "một sự nghiệp tự thúc đẩy mình bằng cách áp đặt lên những người thậm chí có thể không phản đối nó"
+    },
+    {
+      "phrase": "the answer is not to banish protest to where it cannot be felt but to insist that the disruption be proportionate and finite",
+      "meaningVi": "câu trả lời không phải là đày biểu tình đến nơi nó không thể cảm nhận được mà là yêu cầu rằng sự gián đoạn phải tương xứng và có giới hạn"
+    },
+    {
+      "phrase": "A right that may be exercised only on condition that no one notices is not a right at all",
+      "meaningVi": "Một cái quyền chỉ có thể được thực thi với điều kiện không ai để ý đến thì chẳng phải là một cái quyền nào cả"
+    },
+    {
+      "phrase": "The task of a city is not to choose between order and protest but to hold the tension between them",
+      "meaningVi": "Nhiệm vụ của một thành phố không phải là chọn giữa trật tự và biểu tình mà là giữ lấy sự căng thẳng giữa chúng"
+    },
+    {
+      "phrase": "A protest that no one is forced to notice is, by design, a protest that changes nothing",
+      "meaningVi": "Một cuộc biểu tình mà không ai bị buộc phải để ý đến, theo bản thiết kế của nó, là một cuộc biểu tình chẳng thay đổi điều gì"
+    },
+    {
+      "phrase": "It is precisely because a square is shared that it must occasionally be contested out loud",
+      "meaningVi": "Chính vì một quảng trường được chia sẻ chung mà thỉnh thoảng nó phải được tranh chấp một cách lớn tiếng"
+    },
+    {
+      "phrase": "it has only muffled the people it was built to serve",
+      "meaningVi": "nó chỉ bóp nghẹt chính những con người mà nó được xây nên để phục vụ"
+    },
+    {
+      "phrase": "the day-labourer who loses a shift",
+      "meaningVi": "người làm công nhật mất một ca làm"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -87,12 +254,12 @@
       "id": "q1",
       "prompt": "Which sentence uses a what-cleft to redefine what a square is for?",
       "options": [
-        "What a square is for, when you scratch beneath the paving stones, is not merely circulation.",
         "A square is for what is not merely circulation when scratching the stones.",
         "Circulation is what a square not merely is for beneath the paving stones.",
-        "Scratching beneath the stones is what a square for not circulation does."
+        "Scratching beneath the stones is what a square for not circulation does.",
+        "What a square is for, when you scratch beneath the paving stones, is not merely circulation."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'What a square is for … is not merely X' is a what-cleft reframing the square's purpose.",
       "hint": "Look for 'What … is not merely X'."
     },
@@ -100,12 +267,12 @@
       "id": "q2",
       "prompt": "Which sentence uses an it-cleft to name what forces a city to take notice?",
       "options": [
-        "The inconvenience forces a city to register which is rather than any banner.",
         "It is the inconvenience itself, rather than any banner, that forces a city to register that something is wrong.",
+        "The inconvenience forces a city to register which is rather than any banner.",
         "Forcing a city to register is what the inconvenience itself rather banner does.",
         "Register something wrong it is the inconvenience that rather any banner forces."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'It is X, rather than Y, that …' is an it-cleft contrasting inconvenience with the banner.",
       "hint": "Look for 'It is X, rather than Y, that …'."
     },
@@ -127,11 +294,11 @@
       "prompt": "What does 'civil disobedience' mean?",
       "options": [
         "Polite behaviour in public",
-        "Deliberately breaking a rule or law, peacefully, to make a political point",
         "Refusing to vote in elections",
+        "Deliberately breaking a rule or law, peacefully, to make a political point",
         "A military operation in a city"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'Civil disobedience' is the nonviolent, deliberate breaking of laws as protest.",
       "hint": "Think of peaceful, intentional rule-breaking for a cause."
     },
@@ -140,11 +307,11 @@
       "prompt": "Which option introduces the counter-argument most naturally?",
       "options": [
         "Some commuters just need to stop whining about a little walk.",
-        "Granted, the commuter whose route is blocked and the trader whose stall stands empty have a real grievance of their own.",
         "Obviously protesters are always right and everyone else is selfish.",
-        "Of course nobody ever actually needs to cross a square anyway."
+        "Of course nobody ever actually needs to cross a square anyway.",
+        "Granted, the commuter whose route is blocked and the trader whose stall stands empty have a real grievance of their own."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'Granted, …' concedes a real grievance for those inconvenienced by protest.",
       "hint": "Which option fairly admits the bystanders' loss?"
     },
@@ -152,12 +319,12 @@
       "id": "q6",
       "prompt": "Which option hedges its claim appropriately?",
       "options": [
-        "Disruption is always entirely the whole message of every protest.",
         "Disruption is, in large part, the message.",
+        "Disruption is always entirely the whole message of every protest.",
         "Disruption is never any part of the message at all.",
         "Disruption the message in large part is being of protest."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'In large part' qualifies the claim, avoiding an all-or-nothing statement.",
       "hint": "Which option softens 'the message' with a qualifier?"
     },
@@ -179,11 +346,11 @@
       "prompt": "Which sentence keeps a consistent argumentative register?",
       "options": [
         "Honestly protesters who block roads are just being total jerks about it.",
-        "A right that may be exercised only on condition that no one notices is not a right at all.",
         "Basically if a protest doesn't annoy anyone, it's pointless, simple as that.",
+        "A right that may be exercised only on condition that no one notices is not a right at all.",
         "It's kind of unfair on commuters, but whatever, protest is protest, right?"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "Option B states the principle in precise, formal terms; the others slip into casual speech.",
       "hint": "Avoid 'honestly', 'jerks', 'basically', 'whatever', and 'kind of'."
     },
@@ -192,11 +359,11 @@
       "prompt": "Which transition best pivots from concession back to the thesis?",
       "options": [
         "In conclusion, protest should be banned from squares.",
-        "Even so, the answer is not to banish protest to where it cannot be felt but to insist that the disruption be proportionate and finite.",
         "On the contrary, commuters have no rights at all.",
-        "Anyway, that point need not detain us."
+        "Anyway, that point need not detain us.",
+        "Even so, the answer is not to banish protest to where it cannot be felt but to insist that the disruption be proportionate and finite."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'Even so, …' accepts the bystanders' grievance then refines the argument toward limits, not banishment.",
       "hint": "Which phrase accepts the prior point and reasserts a qualified thesis?"
     },
@@ -204,12 +371,12 @@
       "id": "q10",
       "prompt": "What does 'proportionate' mean here?",
       "options": [
-        "Lasting forever",
         "Reasonable in scale relative to the cause and the cost imposed",
+        "Lasting forever",
         "Completely banned",
         "Held only at night"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'Proportionate' means in fair proportion — not excessive relative to its purpose.",
       "hint": "Think of 'proportion' — a fair balance of size."
     },
@@ -217,12 +384,12 @@
       "id": "q11",
       "prompt": "Which option uses parallel structure most effectively?",
       "options": [
-        "how, how long, and at whose expense",
         "how and the longness and whose expense at it",
+        "how, how long, and at whose expense",
         "the how, longing, and to whom the expense",
         "how, how to be long, and expensing whose"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "Three matched question phrases form a clean parallel list of limits.",
       "hint": "Which option keeps the three limits in a consistent form?"
     },
@@ -231,11 +398,11 @@
       "prompt": "According to the essay, who bears the heaviest cost of a long protest?",
       "options": [
         "The official the protest targets",
-        "The day-labourer who loses a shift",
         "The protest organisers",
+        "The day-labourer who loses a shift",
         "The city's mayor"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay says the cost 'falls hardest on the day-labourer who loses a shift, not the official the protest is aimed at.'",
       "hint": "Reread the concession paragraph."
     },
@@ -244,11 +411,11 @@
       "prompt": "What does 'to suppress' a protest mean?",
       "options": [
         "To organise it carefully",
-        "To forcibly stop or hold it down",
         "To advertise it widely",
-        "To negotiate with it"
+        "To negotiate with it",
+        "To forcibly stop or hold it down"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'Suppress' means to put down or prevent by force or authority.",
       "hint": "Think of pressing something down to stop it."
     },
@@ -256,12 +423,12 @@
       "id": "q14",
       "prompt": "Which option best captures the essay's hedged conclusion?",
       "options": [
-        "Protesters should be allowed to occupy any square indefinitely.",
         "A square must occasionally be contested out loud, but within limits a city sets.",
+        "Protesters should be allowed to occupy any square indefinitely.",
         "Disruptive protest should never be permitted.",
         "Squares are only for walking through, never for protest."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The conclusion defends disruptive protest while accepting that limits are legitimate — a held tension.",
       "hint": "Look for the option that allows protest yet keeps the bystanders in view."
     },
@@ -269,12 +436,12 @@
       "id": "q15",
       "prompt": "Which sentence uses an em-dash insertion correctly?",
       "options": [
-        "A square is the one piece of a city that belongs to everyone and no one — and that is exactly why it has always been the place where a grievance is made visible.",
         "A square is the — one piece of a city that belongs — to everyone and no one why it.",
+        "A square is the one piece of a city that belongs to everyone and no one — and that is exactly why it has always been the place where a grievance is made visible.",
         "A square — is the one piece that belongs to everyone — and no one made visible why.",
         "Belongs to everyone — a square is the one piece — and no one of a city visible."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "The dash adds an explanatory continuation; both halves are complete clauses.",
       "hint": "Which option places the dash between two complete, sensible clauses?"
     },
@@ -283,11 +450,11 @@
       "prompt": "What does 'contested space' mean as used here?",
       "options": [
         "A space with a competition prize",
-        "A space whose use is openly disputed between different groups",
         "A space that no one is allowed to enter",
+        "A space whose use is openly disputed between different groups",
         "A space reserved for officials"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "A 'contested space' is one over which there is open disagreement about use.",
       "hint": "Think of 'contest' as a dispute over who gets to use it."
     }

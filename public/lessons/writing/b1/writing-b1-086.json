@@ -3,7 +3,11 @@
   "level": "B1",
   "title": "A small repair that saved an object from the bin",
   "summary": "Narrate the story of repairing something instead of throwing it away, and argue whether repair is a skill worth learning in the modern world.",
-  "tags": ["Objects", "Sustainability", "Narration"],
+  "tags": [
+    "Objects",
+    "Sustainability",
+    "Narration"
+  ],
   "topic": "Repairing an object instead of replacing it",
   "prompt": "Write 3 paragraphs (400–500 words) narrating the story of a time you — or someone you know — repaired an object instead of discarding it. Describe the object, the repair, and how the outcome felt. Then argue briefly whether learning to repair things should be more encouraged. Use the past simple and present perfect, and at least one modal to make your argument.",
   "minWords": 400,
@@ -14,49 +18,174 @@
     "If more people knew how to fix things, we would probably…"
   ],
   "hintVocab": [
-    { "phrase": "to discard", "meaningVi": "vứt bỏ", "pronunciation": "/dɪsˈkɑːrd/" },
-    { "phrase": "to take something apart", "meaningVi": "tháo rời vật gì đó" },
-    { "phrase": "to put something back together", "meaningVi": "lắp ráp lại vật gì đó" },
-    { "phrase": "a worn-out sole", "meaningVi": "đế giày mòn cũ" },
-    { "phrase": "to patch", "meaningVi": "vá lại", "pronunciation": "/pætʃ/" },
-    { "phrase": "a loose hinge", "meaningVi": "bản lề bị lỏng", "pronunciation": "/hɪndʒ/" },
-    { "phrase": "to sew by hand", "meaningVi": "khâu bằng tay" },
-    { "phrase": "to strip a screw", "meaningVi": "làm hỏng ren vít" },
-    { "phrase": "throwaway culture", "meaningVi": "văn hóa vứt bỏ" },
-    { "phrase": "to extend the life of", "meaningVi": "kéo dài tuổi thọ của" },
-    { "phrase": "to feel satisfaction", "meaningVi": "cảm thấy sự thỏa mãn" },
-    { "phrase": "to be worth repairing", "meaningVi": "đáng để sửa chữa" },
-    { "phrase": "to cut down on waste", "meaningVi": "giảm thiểu rác thải" },
-    { "phrase": "a cobbler", "meaningVi": "thợ đóng giày, thợ sửa giày", "pronunciation": "/ˈkɒblər/" },
-    { "phrase": "to snap", "meaningVi": "gãy đột ngột, bị đứt", "pronunciation": "/snæp/" },
-    { "phrase": "to rust", "meaningVi": "bị gỉ sét" },
-    { "phrase": "to hold together", "meaningVi": "giữ nguyên, không bị tách ra" },
-    { "phrase": "to buy cheaply and replace often", "meaningVi": "mua rẻ và thay thế thường xuyên" },
-    { "phrase": "good as new", "meaningVi": "tốt như mới" },
-    { "phrase": "to hand down", "meaningVi": "truyền lại cho thế hệ sau" }
+    {
+      "phrase": "to discard",
+      "meaningVi": "vứt bỏ",
+      "pronunciation": "/dɪsˈkɑːrd/"
+    },
+    {
+      "phrase": "to take something apart",
+      "meaningVi": "tháo rời vật gì đó"
+    },
+    {
+      "phrase": "to put something back together",
+      "meaningVi": "lắp ráp lại vật gì đó"
+    },
+    {
+      "phrase": "a worn-out sole",
+      "meaningVi": "đế giày mòn cũ"
+    },
+    {
+      "phrase": "to patch",
+      "meaningVi": "vá lại",
+      "pronunciation": "/pætʃ/"
+    },
+    {
+      "phrase": "a loose hinge",
+      "meaningVi": "bản lề bị lỏng",
+      "pronunciation": "/hɪndʒ/"
+    },
+    {
+      "phrase": "to sew by hand",
+      "meaningVi": "khâu bằng tay"
+    },
+    {
+      "phrase": "to strip a screw",
+      "meaningVi": "làm hỏng ren vít"
+    },
+    {
+      "phrase": "throwaway culture",
+      "meaningVi": "văn hóa vứt bỏ"
+    },
+    {
+      "phrase": "to extend the life of",
+      "meaningVi": "kéo dài tuổi thọ của"
+    },
+    {
+      "phrase": "to feel satisfaction",
+      "meaningVi": "cảm thấy sự thỏa mãn"
+    },
+    {
+      "phrase": "to be worth repairing",
+      "meaningVi": "đáng để sửa chữa"
+    },
+    {
+      "phrase": "to cut down on waste",
+      "meaningVi": "giảm thiểu rác thải"
+    },
+    {
+      "phrase": "a cobbler",
+      "meaningVi": "thợ đóng giày, thợ sửa giày",
+      "pronunciation": "/ˈkɒblər/"
+    },
+    {
+      "phrase": "to snap",
+      "meaningVi": "gãy đột ngột, bị đứt",
+      "pronunciation": "/snæp/"
+    },
+    {
+      "phrase": "to rust",
+      "meaningVi": "bị gỉ sét"
+    },
+    {
+      "phrase": "to hold together",
+      "meaningVi": "giữ nguyên, không bị tách ra"
+    },
+    {
+      "phrase": "to buy cheaply and replace often",
+      "meaningVi": "mua rẻ và thay thế thường xuyên"
+    },
+    {
+      "phrase": "good as new",
+      "meaningVi": "tốt như mới"
+    },
+    {
+      "phrase": "to hand down",
+      "meaningVi": "truyền lại cho thế hệ sau"
+    }
   ],
   "sampleText": "My grandmother had owned the same pair of leather sandals for as long as I could remember. She had bought them in a market in the city where she was born and had worn them through three decades of daily life — to the market, to family gatherings, to the small garden behind the house. The leather had darkened to the colour of old wood, and one of the straps had started to split at the buckle. To me they looked finished — worn past the point where repair seemed worth the effort. To her, they were simply shoes that needed attention. She took them to a cobbler two streets away, a quiet man who worked at a bench in an open doorway with a row of awls and needles arranged by size on a strip of card. He looked at the strap for about four seconds, then stitched it back with a doubled thread and tapped a small rivet into the split. It took him eleven minutes. My grandmother paid him less than the cost of a coffee and walked home in her fixed sandals.\n\nThe thing that stayed with me was how the repair changed the shoes, or rather how it changed the way I saw them. They were not good as new — the leather still showed the creases and scuffs of decades — but they had a quality that a new pair would have taken years to develop. The cobbler had also, without being asked, oiled the entire sole and re-tightened the other buckle. My grandmother wore those sandals for another four years before the cobbler retired and she could not find anyone else she trusted with them.\n\nThat cobbler has since closed his doorway bench, and the repair shops on the streets nearby have gradually disappeared. What has replaced them is a row of phone cases and cheap trainers sold from plastic shelves. This is not a coincidence. As the cost of making new things has fallen, the economic case for repairing old ones has weakened, and a generation has grown up without knowing how to maintain the objects they own. The result is a particular kind of helplessness — not dramatic, but quiet and cumulative. Some schools have begun to reintroduce practical skills — woodwork, basic electronics, textiles — and this seems to me exactly the right direction. If more people could mend a strap, re-solder a wire, or patch a torn seam, fewer objects would end up discarded after a single fault. The skill itself is not the main point. The main point is the habit of asking whether something is worth saving before deciding it is not.",
   "sampleAnnotations": [
-    { "phrase": "had darkened to the colour of old wood", "meaningVi": "đã chuyển sang màu gỗ cũ" },
-    { "phrase": "split at the buckle", "meaningVi": "bị nứt ở khóa" },
-    { "phrase": "worn past the point where repair seemed worth the effort", "meaningVi": "mòn đến mức việc sửa dường như không còn đáng công" },
-    { "phrase": "in an open doorway", "meaningVi": "ở ngưỡng cửa mở" },
-    { "phrase": "arranged by size", "meaningVi": "được sắp xếp theo kích cỡ" },
-    { "phrase": "stitched it back", "meaningVi": "khâu lại" },
-    { "phrase": "a doubled thread", "meaningVi": "sợi chỉ đôi" },
-    { "phrase": "tapped a small rivet into the split", "meaningVi": "gõ một đinh tán nhỏ vào chỗ nứt" },
-    { "phrase": "walked home in her fixed sandals", "meaningVi": "đi bộ về nhà với đôi dép đã được sửa" },
-    { "phrase": "creases and scuffs of decades", "meaningVi": "những nếp nhăn và vết trầy xước của hàng chục năm" },
-    { "phrase": "a quality that a new pair would have taken years to develop", "meaningVi": "một chất lượng mà một đôi mới sẽ mất nhiều năm để có được" },
-    { "phrase": "re-tightened the other buckle", "meaningVi": "siết chặt lại chiếc khóa kia" },
-    { "phrase": "has since closed", "meaningVi": "kể từ đó đã đóng cửa" },
-    { "phrase": "gradually disappeared", "meaningVi": "dần dần biến mất" },
-    { "phrase": "the economic case for", "meaningVi": "lý do kinh tế để" },
-    { "phrase": "has weakened", "meaningVi": "đã yếu đi" },
-    { "phrase": "maintain the objects they own", "meaningVi": "bảo dưỡng những đồ vật họ sở hữu" },
-    { "phrase": "re-solder a wire", "meaningVi": "hàn lại một dây điện" },
-    { "phrase": "end up discarded", "meaningVi": "cuối cùng bị vứt bỏ" },
-    { "phrase": "worth saving before deciding it is not", "meaningVi": "đáng được cứu trước khi quyết định rằng không" }
+    {
+      "phrase": "had darkened to the colour of old wood",
+      "meaningVi": "đã chuyển sang màu gỗ cũ"
+    },
+    {
+      "phrase": "split at the buckle",
+      "meaningVi": "bị nứt ở khóa"
+    },
+    {
+      "phrase": "worn past the point where repair seemed worth the effort",
+      "meaningVi": "mòn đến mức việc sửa dường như không còn đáng công"
+    },
+    {
+      "phrase": "in an open doorway",
+      "meaningVi": "ở ngưỡng cửa mở"
+    },
+    {
+      "phrase": "arranged by size",
+      "meaningVi": "được sắp xếp theo kích cỡ"
+    },
+    {
+      "phrase": "stitched it back",
+      "meaningVi": "khâu lại"
+    },
+    {
+      "phrase": "a doubled thread",
+      "meaningVi": "sợi chỉ đôi"
+    },
+    {
+      "phrase": "tapped a small rivet into the split",
+      "meaningVi": "gõ một đinh tán nhỏ vào chỗ nứt"
+    },
+    {
+      "phrase": "walked home in her fixed sandals",
+      "meaningVi": "đi bộ về nhà với đôi dép đã được sửa"
+    },
+    {
+      "phrase": "creases and scuffs of decades",
+      "meaningVi": "những nếp nhăn và vết trầy xước của hàng chục năm"
+    },
+    {
+      "phrase": "a quality that a new pair would have taken years to develop",
+      "meaningVi": "một chất lượng mà một đôi mới sẽ mất nhiều năm để có được"
+    },
+    {
+      "phrase": "re-tightened the other buckle",
+      "meaningVi": "siết chặt lại chiếc khóa kia"
+    },
+    {
+      "phrase": "has since closed",
+      "meaningVi": "kể từ đó đã đóng cửa"
+    },
+    {
+      "phrase": "gradually disappeared",
+      "meaningVi": "dần dần biến mất"
+    },
+    {
+      "phrase": "the economic case for",
+      "meaningVi": "lý do kinh tế để"
+    },
+    {
+      "phrase": "has weakened",
+      "meaningVi": "đã yếu đi"
+    },
+    {
+      "phrase": "maintain the objects they own",
+      "meaningVi": "bảo dưỡng những đồ vật họ sở hữu"
+    },
+    {
+      "phrase": "re-solder a wire",
+      "meaningVi": "hàn lại một dây điện"
+    },
+    {
+      "phrase": "end up discarded",
+      "meaningVi": "cuối cùng bị vứt bỏ"
+    },
+    {
+      "phrase": "worth saving before deciding it is not",
+      "meaningVi": "đáng được cứu trước khi quyết định rằng không"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -76,12 +205,12 @@
       "id": "q1",
       "prompt": "Which sentence correctly uses the past perfect to describe a state before the main story?",
       "options": [
-        "She had owned the same sandals for as long as I could remember.",
         "She owned the same sandals for as long as I could remember.",
+        "She had owned the same sandals for as long as I could remember.",
         "She has owned the same sandals for as long as I could remember.",
         "She had been owning the same sandals for as long as I could remember."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "Past perfect ('had owned') sets a background state that existed before the narrative's main time. Simple past ('owned') can work but lacks the sense of duration into the past. Present perfect ('has owned') shifts to the present. 'Had been owning' is awkward with stative verbs like 'own'.",
       "hint": "Stative verbs like 'own' usually avoid the progressive form, even in the past perfect."
     },
@@ -89,12 +218,12 @@
       "id": "q2",
       "prompt": "Which sentence uses 'seem' correctly with an adjective complement?",
       "options": [
-        "To me, the shoes looked finished — worn past the point where repair seemed worth the effort.",
         "To me, the shoes looked finished — worn past the point where repair seemed worthy the effort.",
         "To me, the shoes looked finished — worn past the point where repair seemed to worth the effort.",
+        "To me, the shoes looked finished — worn past the point where repair seemed worth the effort.",
         "To me, the shoes looked finished — worn past the point where repair seemed worthing the effort."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Seemed worth the effort' uses 'worth' as an adjective/preposition correctly. 'Seemed worthy the effort' is missing 'of'. 'Seemed to worth' is not a standard construction. 'Worthing' is not a valid word.",
       "hint": "'Worth the effort' is a fixed phrase — 'worth' here is not a verb."
     },
@@ -102,12 +231,12 @@
       "id": "q3",
       "prompt": "Which sentence correctly uses the past simple to narrate a sequence of actions?",
       "options": [
-        "He stitched it back with a doubled thread and tapped a small rivet into the split.",
         "He stitched it back with a doubled thread and has tapped a small rivet into the split.",
         "He had stitched it back with a doubled thread and tapped a small rivet into the split.",
-        "He stitched it back with a doubled thread and was tapping a small rivet into the split."
+        "He stitched it back with a doubled thread and was tapping a small rivet into the split.",
+        "He stitched it back with a doubled thread and tapped a small rivet into the split."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "Sequential past actions use past simple throughout. Mixing past perfect ('had stitched') suggests the first action happened before another reference point. Mixing present perfect or past progressive breaks the even narrative rhythm.",
       "hint": "For two actions in the same quick sequence, keep both verbs in the past simple."
     },
@@ -128,12 +257,12 @@
       "id": "q5",
       "prompt": "Which sentence correctly uses 'as … has fallen' with the present perfect?",
       "options": [
-        "As the cost of making new things has fallen, the case for repair has weakened.",
         "As the cost of making new things fallen, the case for repair has weakened.",
+        "As the cost of making new things has fallen, the case for repair has weakened.",
         "As the cost of making new things have fallen, the case for repair has weakened.",
         "As the cost of making new things has fallen, the case for repair weakened."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'Has fallen' is present perfect for 'the cost' (singular). Omitting 'has' leaves no auxiliary verb. 'Have fallen' is wrong because 'cost' is singular. The main clause should also use present perfect to match the timeframe — 'weakened' (simple past) is inconsistent.",
       "hint": "'Cost' is a singular noun — it takes 'has', not 'have'."
     },
@@ -141,12 +270,12 @@
       "id": "q6",
       "prompt": "Which sentence uses a second conditional correctly to argue a practical point?",
       "options": [
-        "If more people could mend a strap, fewer objects would end up discarded.",
         "If more people can mend a strap, fewer objects would end up discarded.",
         "If more people could mend a strap, fewer objects will end up discarded.",
+        "If more people could mend a strap, fewer objects would end up discarded.",
         "If more people could mend a strap, fewer objects would end up to be discarded."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "Second conditional: 'If + past simple/could, … would + bare infinitive'. Using 'can' in the 'if' clause is first conditional (more likely/real). Using 'will' in the main clause is also first conditional. 'Would end up to be discarded' is non-standard.",
       "hint": "Second conditional mixes could/past in the 'if' clause with 'would + base verb' in the result."
     },
@@ -154,12 +283,12 @@
       "id": "q7",
       "prompt": "Which sentence correctly uses 'worth' as a preposition?",
       "options": [
-        "The skill of repair is worth learning.",
         "The skill of repair is worth to learn.",
         "The skill of repair is worth to be learning.",
-        "The skill of repair is worthy learning."
+        "The skill of repair is worthy learning.",
+        "The skill of repair is worth learning."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'Worth + gerund (-ing)' is the correct construction. 'Worth to learn' uses an infinitive, which is ungrammatical after 'worth'. 'Worth to be learning' is doubly wrong. 'Worthy' is a different adjective and must be followed by 'of', not a bare gerund.",
       "hint": "'Worth' is followed by a gerund (-ing form), not an infinitive."
     },
@@ -180,12 +309,12 @@
       "id": "q9",
       "prompt": "Which sentence correctly uses 'without being asked' as a participial phrase?",
       "options": [
-        "The cobbler, without being asked, oiled the entire sole.",
         "The cobbler, without be asking, oiled the entire sole.",
+        "The cobbler, without being asked, oiled the entire sole.",
         "The cobbler, without to be asked, oiled the entire sole.",
         "The cobbler, without asked, oiled the entire sole."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'Without + gerund' (without being asked) is the correct pattern. 'Without be asking' uses the base form incorrectly. 'Without to be' mixes the infinitive pattern with a preposition. 'Without asked' uses a past participle without 'being'.",
       "hint": "After 'without', use a gerund phrase: 'without being + past participle'."
     },
@@ -193,12 +322,12 @@
       "id": "q10",
       "prompt": "Which sentence correctly uses 'has grown up' to describe a generation?",
       "options": [
-        "A generation has grown up without knowing how to maintain their objects.",
         "A generation have grown up without knowing how to maintain their objects.",
         "A generation has grown up without to know how to maintain their objects.",
+        "A generation has grown up without knowing how to maintain their objects.",
         "A generation has grew up without knowing how to maintain their objects."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'A generation' is treated as a singular noun in formal writing, so 'has' is correct. 'Have grown up' treats it as plural, which is less formal. 'Without to know' is ungrammatical — 'without' needs a gerund. 'Has grew' uses simple past after an auxiliary — the past participle 'grown' is required.",
       "hint": "After 'has', use the past participle — the past participle of 'grow up' is 'grown up'."
     },
@@ -206,12 +335,12 @@
       "id": "q11",
       "prompt": "Which sentence uses 'asking' correctly as part of a gerund phrase to describe the habit?",
       "options": [
-        "The main point is the habit of asking whether something is worth saving.",
         "The main point is the habit of to ask whether something is worth saving.",
         "The main point is the habit asking whether something is worth saving.",
-        "The main point is the habit for asking whether something is worth saving."
+        "The main point is the habit for asking whether something is worth saving.",
+        "The main point is the habit of asking whether something is worth saving."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'The habit of + gerund' is the correct pattern. 'The habit of to ask' mixes a preposition with an infinitive. 'The habit asking' needs the preposition 'of'. 'The habit for asking' uses the wrong preposition — 'for' is not idiomatic with 'habit' in this sense.",
       "hint": "The fixed collocation is 'the habit of + -ing form'."
     }

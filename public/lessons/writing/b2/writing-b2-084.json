@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "Does being seen by strangers actually matter?",
   "summary": "Argue whether recognition from people we will never meet again carries real value, or whether only the gaze of those who know us counts.",
-  "tags": ["Philosophy", "Recognition", "Argument", "Society"],
+  "tags": [
+    "Philosophy",
+    "Recognition",
+    "Argument",
+    "Society"
+  ],
   "topic": "Whether being noticed by strangers has genuine value",
   "prompt": "Write a 450–600-word essay arguing whether being seen by strangers — people you will never meet again — actually matters. Give at least two concrete examples and acknowledge one counter-argument. Use cleft sentences, the passive, and hedged concession.",
   "minWords": 450,
@@ -15,62 +20,230 @@
     "The real question is not whether strangers remember us, but whether…"
   ],
   "hintVocab": [
-    { "phrase": "to be acknowledged", "meaningVi": "được công nhận / được để ý đến", "pronunciation": "/əkˈnɒl.ɪdʒd/" },
-    { "phrase": "a fleeting glance", "meaningVi": "một ánh nhìn thoáng qua", "pronunciation": "/ˈfliː.tɪŋ/" },
-    { "phrase": "to validate", "meaningVi": "xác nhận / công nhận giá trị", "pronunciation": "/ˈvæl.ɪ.deɪt/" },
-    { "phrase": "social invisibility", "meaningVi": "sự vô hình trong xã hội" },
-    { "phrase": "to be reduced to", "meaningVi": "bị thu nhỏ lại thành / bị hạ xuống thành" },
-    { "phrase": "a passing kindness", "meaningVi": "một sự tử tế thoáng qua" },
-    { "phrase": "to crave attention", "meaningVi": "khao khát sự chú ý", "pronunciation": "/kreɪv/" },
-    { "phrase": "self-worth", "meaningVi": "lòng tự trọng / giá trị bản thân" },
-    { "phrase": "to dignify", "meaningVi": "làm cho có phẩm giá / tôn trọng", "pronunciation": "/ˈdɪɡ.nɪ.faɪ/" },
-    { "phrase": "an anonymous crowd", "meaningVi": "một đám đông vô danh", "pronunciation": "/əˈnɒn.ɪ.məs/" },
-    { "phrase": "to be overlooked", "meaningVi": "bị bỏ qua / không được để ý" },
-    { "phrase": "mutual recognition", "meaningVi": "sự công nhận lẫn nhau" },
-    { "phrase": "a momentary connection", "meaningVi": "một sự kết nối nhất thời" },
-    { "phrase": "to count for something", "meaningVi": "có ý nghĩa / có giá trị nào đó" },
-    { "phrase": "to seek approval", "meaningVi": "tìm kiếm sự chấp thuận" },
-    { "phrase": "the human gaze", "meaningVi": "ánh nhìn của con người" },
-    { "phrase": "to feel seen", "meaningVi": "cảm thấy được nhìn nhận / được thấu hiểu" },
-    { "phrase": "a trivial encounter", "meaningVi": "một cuộc gặp gỡ vụn vặt", "pronunciation": "/ˈtrɪv.i.əl/" },
-    { "phrase": "to underestimate", "meaningVi": "đánh giá thấp / coi nhẹ" },
-    { "phrase": "to belong", "meaningVi": "thuộc về" },
-    { "phrase": "a stranger's regard", "meaningVi": "sự để tâm của người lạ" },
-    { "phrase": "to dismiss as", "meaningVi": "gạt bỏ như thể là / coi nhẹ là" },
-    { "phrase": "emotional residue", "meaningVi": "dư âm cảm xúc" },
-    { "phrase": "to affirm someone's existence", "meaningVi": "khẳng định sự tồn tại của ai đó", "pronunciation": "/əˈfɜːm/" },
-    { "phrase": "indifference", "meaningVi": "sự thờ ơ / dửng dưng", "pronunciation": "/ɪnˈdɪf.ər.əns/" },
-    { "phrase": "to register a person", "meaningVi": "nhận biết / để ý đến một con người" }
+    {
+      "phrase": "to be acknowledged",
+      "meaningVi": "được công nhận / được để ý đến",
+      "pronunciation": "/əkˈnɒl.ɪdʒd/"
+    },
+    {
+      "phrase": "a fleeting glance",
+      "meaningVi": "một ánh nhìn thoáng qua",
+      "pronunciation": "/ˈfliː.tɪŋ/"
+    },
+    {
+      "phrase": "to validate",
+      "meaningVi": "xác nhận / công nhận giá trị",
+      "pronunciation": "/ˈvæl.ɪ.deɪt/"
+    },
+    {
+      "phrase": "social invisibility",
+      "meaningVi": "sự vô hình trong xã hội"
+    },
+    {
+      "phrase": "to be reduced to",
+      "meaningVi": "bị thu nhỏ lại thành / bị hạ xuống thành"
+    },
+    {
+      "phrase": "a passing kindness",
+      "meaningVi": "một sự tử tế thoáng qua"
+    },
+    {
+      "phrase": "to crave attention",
+      "meaningVi": "khao khát sự chú ý",
+      "pronunciation": "/kreɪv/"
+    },
+    {
+      "phrase": "self-worth",
+      "meaningVi": "lòng tự trọng / giá trị bản thân"
+    },
+    {
+      "phrase": "to dignify",
+      "meaningVi": "làm cho có phẩm giá / tôn trọng",
+      "pronunciation": "/ˈdɪɡ.nɪ.faɪ/"
+    },
+    {
+      "phrase": "an anonymous crowd",
+      "meaningVi": "một đám đông vô danh",
+      "pronunciation": "/əˈnɒn.ɪ.məs/"
+    },
+    {
+      "phrase": "to be overlooked",
+      "meaningVi": "bị bỏ qua / không được để ý"
+    },
+    {
+      "phrase": "mutual recognition",
+      "meaningVi": "sự công nhận lẫn nhau"
+    },
+    {
+      "phrase": "a momentary connection",
+      "meaningVi": "một sự kết nối nhất thời"
+    },
+    {
+      "phrase": "to count for something",
+      "meaningVi": "có ý nghĩa / có giá trị nào đó"
+    },
+    {
+      "phrase": "to seek approval",
+      "meaningVi": "tìm kiếm sự chấp thuận"
+    },
+    {
+      "phrase": "the human gaze",
+      "meaningVi": "ánh nhìn của con người"
+    },
+    {
+      "phrase": "to feel seen",
+      "meaningVi": "cảm thấy được nhìn nhận / được thấu hiểu"
+    },
+    {
+      "phrase": "a trivial encounter",
+      "meaningVi": "một cuộc gặp gỡ vụn vặt",
+      "pronunciation": "/ˈtrɪv.i.əl/"
+    },
+    {
+      "phrase": "to underestimate",
+      "meaningVi": "đánh giá thấp / coi nhẹ"
+    },
+    {
+      "phrase": "to belong",
+      "meaningVi": "thuộc về"
+    },
+    {
+      "phrase": "a stranger's regard",
+      "meaningVi": "sự để tâm của người lạ"
+    },
+    {
+      "phrase": "to dismiss as",
+      "meaningVi": "gạt bỏ như thể là / coi nhẹ là"
+    },
+    {
+      "phrase": "emotional residue",
+      "meaningVi": "dư âm cảm xúc"
+    },
+    {
+      "phrase": "to affirm someone's existence",
+      "meaningVi": "khẳng định sự tồn tại của ai đó",
+      "pronunciation": "/əˈfɜːm/"
+    },
+    {
+      "phrase": "indifference",
+      "meaningVi": "sự thờ ơ / dửng dưng",
+      "pronunciation": "/ɪnˈdɪf.ər.əns/"
+    },
+    {
+      "phrase": "to register a person",
+      "meaningVi": "nhận biết / để ý đến một con người"
+    }
   ],
   "sampleText": "There is a particular loneliness that has nothing to do with being alone. It is the feeling of moving through a city where no one registers you at all — where the woman at the till looks past you, where the crowd parts around you as though you were a lamppost. We tend to reserve the word \"recognition\" for grand things: awards, applause, the regard of people whose opinion we have decided to value. Yet what most quietly sustains a person may be something far smaller and stranger.\n\nConsider the bus driver in Bogotá who greets every passenger by name once he has learned it, or simply with a nod when he has not. The passengers will never repay him, and most will never see him again after they move neighbourhoods. What is being offered there is not friendship; it is acknowledgement — the brief, unearned signal that you have been registered as a person and not merely as a fare. It would be easy to dismiss such a gesture as trivial. I suspect it is closer to the opposite. A second example sharpens the point. Refugees describing their first months in a new country rarely speak first of paperwork or weather. They speak of the moment a stranger met their eyes and smiled, and of how that small act made them feel they still existed.\n\nGranted, the attention of people who barely know us can be a poor foundation on which to build a sense of self. A glance is not a relationship, and a person who needs constant validation from passers-by is chasing something that cannot hold weight. The objection has force: self-worth that depends on being noticed by an anonymous crowd is, in some sense, borrowed. There is a real danger in mistaking applause for love.\n\nEven so, the argument proves less than it claims. What a stranger's regard offers is not approval but something more basic — the confirmation that one is visible at all. It is precisely because the stranger has nothing to gain that the recognition feels honest. The friend who praises you may be kind; the stranger who holds a door has no motive but the bare fact of your shared humanity. That is why social invisibility wounds so deeply. To be consistently overlooked is to be told, without words, that your presence changes nothing.\n\nThe distinction worth drawing is between craving attention and needing acknowledgement. The first is hunger; the second is closer to oxygen. Few of us would claim that the opinion of a stranger should govern our lives. But the person who has gone a week without being properly looked at knows that indifference, sustained long enough, does its own quiet damage.\n\nWhat being seen by strangers matters for, then, is not status but belonging — the sense that the world has registered your existence and found it worth a moment's notice. The encounter ends in seconds and is forgotten by both parties by evening. Its emotional residue, oddly, outlasts the memory. Perhaps that is the truest measure of whether something matters: not whether we remember it, but whether we would feel its absence.",
   "sampleAnnotations": [
-    { "phrase": "There is a particular loneliness that has nothing to do with being alone", "meaningVi": "Có một nỗi cô đơn đặc biệt chẳng liên quan gì đến việc ở một mình" },
-    { "phrase": "where the crowd parts around you as though you were a lamppost", "meaningVi": "nơi đám đông tách ra vòng quanh bạn như thể bạn là một cột đèn" },
-    { "phrase": "We tend to reserve the word \"recognition\" for grand things", "meaningVi": "Chúng ta thường dành riêng từ \"sự công nhận\" cho những điều lớn lao" },
-    { "phrase": "what most quietly sustains a person may be something far smaller and stranger", "meaningVi": "điều nuôi dưỡng một con người một cách lặng lẽ nhất có thể là một thứ nhỏ bé và kỳ lạ hơn nhiều" },
-    { "phrase": "What is being offered there is not friendship; it is acknowledgement", "meaningVi": "Điều được trao ở đó không phải là tình bạn; đó là sự công nhận" },
-    { "phrase": "the brief, unearned signal that you have been registered as a person and not merely as a fare", "meaningVi": "tín hiệu ngắn ngủi, không phải gắng sức mà có, rằng bạn đã được ghi nhận như một con người chứ không chỉ là một lượt khách trả tiền" },
-    { "phrase": "It would be easy to dismiss such a gesture as trivial", "meaningVi": "Sẽ rất dễ để gạt bỏ một cử chỉ như vậy là vụn vặt" },
-    { "phrase": "of how that small act made them feel they still existed", "meaningVi": "về việc hành động nhỏ đó đã khiến họ cảm thấy mình vẫn còn tồn tại như thế nào" },
-    { "phrase": "Granted, the attention of people who barely know us can be a poor foundation", "meaningVi": "Công nhận, sự chú ý của những người gần như không biết chúng ta có thể là một nền tảng yếu kém" },
-    { "phrase": "self-worth that depends on being noticed by an anonymous crowd is, in some sense, borrowed", "meaningVi": "lòng tự trọng phụ thuộc vào việc được một đám đông vô danh để ý, theo một nghĩa nào đó, là đi vay mượn" },
-    { "phrase": "There is a real danger in mistaking applause for love", "meaningVi": "Có một mối nguy thực sự khi nhầm lẫn tiếng vỗ tay với tình yêu" },
-    { "phrase": "the argument proves less than it claims", "meaningVi": "lập luận chứng minh được ít hơn những gì nó tuyên bố" },
-    { "phrase": "What a stranger's regard offers is not approval but something more basic", "meaningVi": "Điều mà sự để tâm của một người lạ mang lại không phải là sự chấp thuận mà là một thứ cơ bản hơn" },
-    { "phrase": "It is precisely because the stranger has nothing to gain that the recognition feels honest", "meaningVi": "Chính bởi vì người lạ chẳng có gì để được lợi mà sự công nhận ấy mới thấy chân thật" },
-    { "phrase": "the bare fact of your shared humanity", "meaningVi": "sự thật trần trụi về tính người chung của hai bên" },
-    { "phrase": "social invisibility wounds so deeply", "meaningVi": "sự vô hình trong xã hội gây tổn thương sâu sắc đến vậy" },
-    { "phrase": "To be consistently overlooked is to be told, without words, that your presence changes nothing", "meaningVi": "Bị bỏ qua một cách thường xuyên là bị nói cho biết, không cần lời nào, rằng sự hiện diện của bạn chẳng thay đổi điều gì" },
-    { "phrase": "The distinction worth drawing is between craving attention and needing acknowledgement", "meaningVi": "Sự phân biệt đáng vạch ra là giữa khao khát sự chú ý và cần được công nhận" },
-    { "phrase": "The first is hunger; the second is closer to oxygen", "meaningVi": "Cái thứ nhất là cơn đói; cái thứ hai gần với dưỡng khí hơn" },
-    { "phrase": "indifference, sustained long enough, does its own quiet damage", "meaningVi": "sự thờ ơ, kéo dài đủ lâu, gây ra tổn hại lặng lẽ của riêng nó" },
-    { "phrase": "What being seen by strangers matters for, then, is not status but belonging", "meaningVi": "Vậy thì, điều mà việc được người lạ nhìn nhận có ý nghĩa không phải là địa vị mà là sự thuộc về" },
-    { "phrase": "the sense that the world has registered your existence and found it worth a moment's notice", "meaningVi": "cảm giác rằng thế giới đã ghi nhận sự tồn tại của bạn và thấy nó đáng được để ý một khoảnh khắc" },
-    { "phrase": "Its emotional residue, oddly, outlasts the memory", "meaningVi": "Dư âm cảm xúc của nó, một cách kỳ lạ, tồn tại lâu hơn cả ký ức" },
-    { "phrase": "not whether we remember it, but whether we would feel its absence", "meaningVi": "không phải liệu chúng ta có nhớ nó hay không, mà liệu chúng ta có cảm nhận được sự vắng mặt của nó hay không" },
-    { "phrase": "the woman at the till looks past you", "meaningVi": "người phụ nữ ở quầy thu ngân nhìn xuyên qua bạn" },
-    { "phrase": "I suspect it is closer to the opposite", "meaningVi": "Tôi ngờ rằng nó gần với điều ngược lại hơn" },
-    { "phrase": "A second example sharpens the point", "meaningVi": "Một ví dụ thứ hai làm sắc nét thêm luận điểm" }
+    {
+      "phrase": "There is a particular loneliness that has nothing to do with being alone",
+      "meaningVi": "Có một nỗi cô đơn đặc biệt chẳng liên quan gì đến việc ở một mình"
+    },
+    {
+      "phrase": "where the crowd parts around you as though you were a lamppost",
+      "meaningVi": "nơi đám đông tách ra vòng quanh bạn như thể bạn là một cột đèn"
+    },
+    {
+      "phrase": "We tend to reserve the word \"recognition\" for grand things",
+      "meaningVi": "Chúng ta thường dành riêng từ \"sự công nhận\" cho những điều lớn lao"
+    },
+    {
+      "phrase": "what most quietly sustains a person may be something far smaller and stranger",
+      "meaningVi": "điều nuôi dưỡng một con người một cách lặng lẽ nhất có thể là một thứ nhỏ bé và kỳ lạ hơn nhiều"
+    },
+    {
+      "phrase": "What is being offered there is not friendship; it is acknowledgement",
+      "meaningVi": "Điều được trao ở đó không phải là tình bạn; đó là sự công nhận"
+    },
+    {
+      "phrase": "the brief, unearned signal that you have been registered as a person and not merely as a fare",
+      "meaningVi": "tín hiệu ngắn ngủi, không phải gắng sức mà có, rằng bạn đã được ghi nhận như một con người chứ không chỉ là một lượt khách trả tiền"
+    },
+    {
+      "phrase": "It would be easy to dismiss such a gesture as trivial",
+      "meaningVi": "Sẽ rất dễ để gạt bỏ một cử chỉ như vậy là vụn vặt"
+    },
+    {
+      "phrase": "of how that small act made them feel they still existed",
+      "meaningVi": "về việc hành động nhỏ đó đã khiến họ cảm thấy mình vẫn còn tồn tại như thế nào"
+    },
+    {
+      "phrase": "Granted, the attention of people who barely know us can be a poor foundation",
+      "meaningVi": "Công nhận, sự chú ý của những người gần như không biết chúng ta có thể là một nền tảng yếu kém"
+    },
+    {
+      "phrase": "self-worth that depends on being noticed by an anonymous crowd is, in some sense, borrowed",
+      "meaningVi": "lòng tự trọng phụ thuộc vào việc được một đám đông vô danh để ý, theo một nghĩa nào đó, là đi vay mượn"
+    },
+    {
+      "phrase": "There is a real danger in mistaking applause for love",
+      "meaningVi": "Có một mối nguy thực sự khi nhầm lẫn tiếng vỗ tay với tình yêu"
+    },
+    {
+      "phrase": "the argument proves less than it claims",
+      "meaningVi": "lập luận chứng minh được ít hơn những gì nó tuyên bố"
+    },
+    {
+      "phrase": "What a stranger's regard offers is not approval but something more basic",
+      "meaningVi": "Điều mà sự để tâm của một người lạ mang lại không phải là sự chấp thuận mà là một thứ cơ bản hơn"
+    },
+    {
+      "phrase": "It is precisely because the stranger has nothing to gain that the recognition feels honest",
+      "meaningVi": "Chính bởi vì người lạ chẳng có gì để được lợi mà sự công nhận ấy mới thấy chân thật"
+    },
+    {
+      "phrase": "the bare fact of your shared humanity",
+      "meaningVi": "sự thật trần trụi về tính người chung của hai bên"
+    },
+    {
+      "phrase": "social invisibility wounds so deeply",
+      "meaningVi": "sự vô hình trong xã hội gây tổn thương sâu sắc đến vậy"
+    },
+    {
+      "phrase": "To be consistently overlooked is to be told, without words, that your presence changes nothing",
+      "meaningVi": "Bị bỏ qua một cách thường xuyên là bị nói cho biết, không cần lời nào, rằng sự hiện diện của bạn chẳng thay đổi điều gì"
+    },
+    {
+      "phrase": "The distinction worth drawing is between craving attention and needing acknowledgement",
+      "meaningVi": "Sự phân biệt đáng vạch ra là giữa khao khát sự chú ý và cần được công nhận"
+    },
+    {
+      "phrase": "The first is hunger; the second is closer to oxygen",
+      "meaningVi": "Cái thứ nhất là cơn đói; cái thứ hai gần với dưỡng khí hơn"
+    },
+    {
+      "phrase": "indifference, sustained long enough, does its own quiet damage",
+      "meaningVi": "sự thờ ơ, kéo dài đủ lâu, gây ra tổn hại lặng lẽ của riêng nó"
+    },
+    {
+      "phrase": "What being seen by strangers matters for, then, is not status but belonging",
+      "meaningVi": "Vậy thì, điều mà việc được người lạ nhìn nhận có ý nghĩa không phải là địa vị mà là sự thuộc về"
+    },
+    {
+      "phrase": "the sense that the world has registered your existence and found it worth a moment's notice",
+      "meaningVi": "cảm giác rằng thế giới đã ghi nhận sự tồn tại của bạn và thấy nó đáng được để ý một khoảnh khắc"
+    },
+    {
+      "phrase": "Its emotional residue, oddly, outlasts the memory",
+      "meaningVi": "Dư âm cảm xúc của nó, một cách kỳ lạ, tồn tại lâu hơn cả ký ức"
+    },
+    {
+      "phrase": "not whether we remember it, but whether we would feel its absence",
+      "meaningVi": "không phải liệu chúng ta có nhớ nó hay không, mà liệu chúng ta có cảm nhận được sự vắng mặt của nó hay không"
+    },
+    {
+      "phrase": "the woman at the till looks past you",
+      "meaningVi": "người phụ nữ ở quầy thu ngân nhìn xuyên qua bạn"
+    },
+    {
+      "phrase": "I suspect it is closer to the opposite",
+      "meaningVi": "Tôi ngờ rằng nó gần với điều ngược lại hơn"
+    },
+    {
+      "phrase": "A second example sharpens the point",
+      "meaningVi": "Một ví dụ thứ hai làm sắc nét thêm luận điểm"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -117,11 +290,11 @@
       "prompt": "Which option uses the passive to foreground the act rather than the doer?",
       "options": [
         "The bus driver offers acknowledgement to every passenger he sees.",
-        "What is being offered there is not friendship; it is acknowledgement.",
         "Offering friendship is what the bus driver does for the passengers.",
+        "What is being offered there is not friendship; it is acknowledgement.",
         "Passengers receive the bus driver offering them acknowledgement daily."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'What is being offered there' uses the passive so the act (the offering) is centred, not the bus driver — appropriate for an abstract argument.",
       "hint": "Which option avoids naming who does the action and puts the action itself first?"
     },
@@ -130,11 +303,11 @@
       "prompt": "What does 'to be acknowledged' mean here?",
       "options": [
         "To be paid for a service",
-        "To be noticed and recognised as a person",
         "To be praised loudly in public",
-        "To be questioned by an official"
+        "To be questioned by an official",
+        "To be noticed and recognised as a person"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'Acknowledged' means recognised or noticed — the basic signal that someone has registered your presence.",
       "hint": "Think of the smallest possible act of being noticed, not praise."
     },
@@ -142,12 +315,12 @@
       "id": "q5",
       "prompt": "Which option maintains a formal, hedged academic register?",
       "options": [
-        "Strangers are honestly the best thing ever and we all need way more of them.",
         "Self-worth that depends on being noticed by an anonymous crowd is, in some sense, borrowed.",
+        "Strangers are honestly the best thing ever and we all need way more of them.",
         "Basically if no one looks at you then you are obviously totally worthless.",
         "Strangers and stuff like that can make you feel good sometimes, I think."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Option B hedges with 'in some sense' and uses precise vocabulary ('self-worth', 'anonymous crowd') without intensifiers or vagueness.",
       "hint": "Avoid 'honestly', 'totally', 'stuff' — look for the hedged, measured claim."
     },
@@ -168,12 +341,12 @@
       "id": "q7",
       "prompt": "Which sentence uses an 'it is … that' cleft to stress the reason?",
       "options": [
-        "It is precisely because the stranger has nothing to gain that the recognition feels honest.",
         "The recognition feels honest because of the stranger has nothing.",
         "Because the stranger nothing to gain, it feels the recognition honest.",
+        "It is precisely because the stranger has nothing to gain that the recognition feels honest.",
         "The stranger has nothing, that is why honest the recognition feels."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'It is precisely because … that …' is a cleft that places strong emphasis on the cause of the honesty.",
       "hint": "Look for 'It is … that …' wrapped around the cause."
     },
@@ -182,11 +355,11 @@
       "prompt": "What distinction does the essay draw between two kinds of wanting?",
       "options": [
         "Between loving strangers and loving friends",
-        "Between craving attention and needing acknowledgement",
         "Between cities and small towns",
-        "Between memory and forgetting"
+        "Between memory and forgetting",
+        "Between craving attention and needing acknowledgement"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay says 'The distinction worth drawing is between craving attention and needing acknowledgement.'",
       "hint": "Look at the paragraph that compares hunger and oxygen."
     },
@@ -194,12 +367,12 @@
       "id": "q9",
       "prompt": "Which transition best signals a return to the main argument after the concession?",
       "options": [
-        "In conclusion, strangers do not matter after all.",
         "Even so, the argument proves less than it claims.",
+        "In conclusion, strangers do not matter after all.",
         "On the contrary, the objection is completely wrong and silly.",
         "However the strangers, this is not a real problem anyway."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'Even so, …' acknowledges the conceded objection and pivots back to the writer's position with a measured counter.",
       "hint": "Which phrase both accepts the concession and reduces its force?"
     },
@@ -221,11 +394,11 @@
       "prompt": "Which metaphor does the essay use to contrast the two kinds of wanting?",
       "options": [
         "A door and a window",
-        "Hunger and oxygen",
         "Fire and water",
+        "Hunger and oxygen",
         "A map and a journey"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'The first is hunger; the second is closer to oxygen' contrasts craving (hunger) with needing acknowledgement (oxygen).",
       "hint": "Reread the short two-clause sentence after the distinction is drawn."
     },
@@ -234,11 +407,11 @@
       "prompt": "Which option uses the best cohesion to link a claim to its example?",
       "options": [
         "Strangers matter. Bus driver Bogotá greets passengers.",
-        "Consider the bus driver in Bogotá who greets every passenger by name once he has learned it.",
         "And also there is a bus driver, in Bogotá, greeting too, by the way.",
-        "Bus driver greets, Bogotá, names, passengers, every one of them."
+        "Bus driver greets, Bogotá, names, passengers, every one of them.",
+        "Consider the bus driver in Bogotá who greets every passenger by name once he has learned it."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'Consider …' is a clean cohesive device that introduces a concrete example to support the preceding general claim.",
       "hint": "Which option reads as a fluent example-introducing sentence, not fragments?"
     },
@@ -246,12 +419,12 @@
       "id": "q13",
       "prompt": "What does 'to dismiss as trivial' mean?",
       "options": [
-        "To celebrate something as important",
         "To reject something as unimportant or insignificant",
+        "To celebrate something as important",
         "To describe something in great detail",
         "To pay for something cheaply"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'Dismiss as trivial' means to treat something as too minor to matter.",
       "hint": "Think about what 'dismiss' does to an idea, and what 'trivial' rates it as."
     },
@@ -273,11 +446,11 @@
       "prompt": "Which sentence best avoids overstatement while still making a strong claim?",
       "options": [
         "Strangers are absolutely the only thing that gives life any meaning whatsoever.",
-        "Indifference, sustained long enough, does its own quiet damage.",
         "Nobody who is ignored ever recovers from it, ever, in any way.",
+        "Indifference, sustained long enough, does its own quiet damage.",
         "If a stranger ignores you, your whole identity is instantly destroyed."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "Option B makes a serious claim but qualifies it ('sustained long enough', 'quiet') rather than overstating, fitting B2 argumentative register.",
       "hint": "Avoid absolutes like 'only', 'never', 'instantly' — find the qualified claim."
     },
@@ -285,12 +458,12 @@
       "id": "q16",
       "prompt": "Which option correctly uses a non-defining relative clause to add detail?",
       "options": [
-        "The bus driver in Bogotá, who greets every passenger by name, will never be repaid.",
         "The bus driver in Bogotá that he greets passengers will never be repaid.",
         "The bus driver in Bogotá greeting which passengers will never repaid be.",
-        "The bus driver in Bogotá, greets passengers by name, will never be repaid him."
+        "The bus driver in Bogotá, greets passengers by name, will never be repaid him.",
+        "The bus driver in Bogotá, who greets every passenger by name, will never be repaid."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'who greets every passenger by name' is a correctly punctuated non-defining relative clause adding information about a specific, known driver.",
       "hint": "Look for the clause set off by commas and introduced by 'who'."
     }

@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "On living with people who remember you differently than you remember yourself",
   "summary": "Examine the friction that arises when others hold a version of you — rooted in the past or in a different perspective — that you no longer recognise as yours.",
-  "tags": ["Argument", "Identity", "Relationships"],
+  "tags": [
+    "Argument",
+    "Identity",
+    "Relationships"
+  ],
   "topic": "The friction of being remembered differently than you remember yourself",
   "prompt": "Write a 600–800-word argumentative essay exploring what it means to live alongside people — family, old friends, former colleagues — who hold a version of you in their memory that you no longer recognise or have actively moved away from. Argue that this friction is not merely uncomfortable but has a specific moral and psychological structure. Use at least two specific scenarios (e.g. the adult child returning home, the person who has changed religion or political conviction, the immigrant visiting the village they left, or others you know). Deploy inversion at least once, a cleft sentence, and the 'granted… even so…' concession. Avoid sentimentality.",
   "minWords": 600,
@@ -15,51 +19,180 @@
     "It is not the misremembering itself that is hardest to bear, but…"
   ],
   "hintVocab": [
-    {"phrase": "autobiographical memory", "meaningVi": "ký ức tự truyện, ký ức về bản thân"},
-    {"phrase": "social mirror", "meaningVi": "gương xã hội — hình ảnh bản thân phản chiếu qua người khác"},
-    {"phrase": "identity discontinuity", "meaningVi": "sự gián đoạn bản sắc"},
-    {"phrase": "retroactive framing", "meaningVi": "việc đóng khung hồi tố"},
-    {"phrase": "recognition", "meaningVi": "sự nhận ra, sự thừa nhận", "pronunciation": "/ˌrekəɡˈnɪʃən/"},
-    {"phrase": "misrecognition", "meaningVi": "sự nhận sai, nhận nhầm bản thân"},
-    {"phrase": "accumulated revision", "meaningVi": "sự sửa đổi tích lũy"},
-    {"phrase": "archive of the self", "meaningVi": "kho lưu trữ về bản thân"},
-    {"phrase": "counter-narrative", "meaningVi": "câu chuyện phản biện, kể lại theo cách khác"},
-    {"phrase": "static", "meaningVi": "tĩnh, không thay đổi"},
-    {"phrase": "petrify", "meaningVi": "hoá đá, đóng băng bất biến", "pronunciation": "/ˈpetrɪfaɪ/"},
-    {"phrase": "homecoming", "meaningVi": "sự trở về, chuyến về quê"},
-    {"phrase": "apostasy", "meaningVi": "sự phản bội niềm tin cũ, bội đạo", "pronunciation": "/əˈpɒstəsi/"},
-    {"phrase": "moral accountability", "meaningVi": "trách nhiệm đạo đức"},
-    {"phrase": "implicit claim", "meaningVi": "tuyên bố ngầm"},
-    {"phrase": "narrative authority", "meaningVi": "quyền kể câu chuyện về bản thân mình"},
-    {"phrase": "burden of proof", "meaningVi": "gánh nặng chứng minh"},
-    {"phrase": "self-continuity", "meaningVi": "sự liên tục của bản thân"},
-    {"phrase": "renegotiation", "meaningVi": "sự đàm phán lại"},
-    {"phrase": "emotional archaeology", "meaningVi": "khảo cổ học cảm xúc — việc đào bới ký ức quá khứ"},
-    {"phrase": "second-hand version", "meaningVi": "phiên bản từ góc nhìn người khác"}
+    {
+      "phrase": "autobiographical memory",
+      "meaningVi": "ký ức tự truyện, ký ức về bản thân"
+    },
+    {
+      "phrase": "social mirror",
+      "meaningVi": "gương xã hội — hình ảnh bản thân phản chiếu qua người khác"
+    },
+    {
+      "phrase": "identity discontinuity",
+      "meaningVi": "sự gián đoạn bản sắc"
+    },
+    {
+      "phrase": "retroactive framing",
+      "meaningVi": "việc đóng khung hồi tố"
+    },
+    {
+      "phrase": "recognition",
+      "meaningVi": "sự nhận ra, sự thừa nhận",
+      "pronunciation": "/ˌrekəɡˈnɪʃən/"
+    },
+    {
+      "phrase": "misrecognition",
+      "meaningVi": "sự nhận sai, nhận nhầm bản thân"
+    },
+    {
+      "phrase": "accumulated revision",
+      "meaningVi": "sự sửa đổi tích lũy"
+    },
+    {
+      "phrase": "archive of the self",
+      "meaningVi": "kho lưu trữ về bản thân"
+    },
+    {
+      "phrase": "counter-narrative",
+      "meaningVi": "câu chuyện phản biện, kể lại theo cách khác"
+    },
+    {
+      "phrase": "static",
+      "meaningVi": "tĩnh, không thay đổi"
+    },
+    {
+      "phrase": "petrify",
+      "meaningVi": "hoá đá, đóng băng bất biến",
+      "pronunciation": "/ˈpetrɪfaɪ/"
+    },
+    {
+      "phrase": "homecoming",
+      "meaningVi": "sự trở về, chuyến về quê"
+    },
+    {
+      "phrase": "apostasy",
+      "meaningVi": "sự phản bội niềm tin cũ, bội đạo",
+      "pronunciation": "/əˈpɒstəsi/"
+    },
+    {
+      "phrase": "moral accountability",
+      "meaningVi": "trách nhiệm đạo đức"
+    },
+    {
+      "phrase": "implicit claim",
+      "meaningVi": "tuyên bố ngầm"
+    },
+    {
+      "phrase": "narrative authority",
+      "meaningVi": "quyền kể câu chuyện về bản thân mình"
+    },
+    {
+      "phrase": "burden of proof",
+      "meaningVi": "gánh nặng chứng minh"
+    },
+    {
+      "phrase": "self-continuity",
+      "meaningVi": "sự liên tục của bản thân"
+    },
+    {
+      "phrase": "renegotiation",
+      "meaningVi": "sự đàm phán lại"
+    },
+    {
+      "phrase": "emotional archaeology",
+      "meaningVi": "khảo cổ học cảm xúc — việc đào bới ký ức quá khứ"
+    },
+    {
+      "phrase": "second-hand version",
+      "meaningVi": "phiên bản từ góc nhìn người khác"
+    }
   ],
   "sampleText": "Rarely does memory distribute itself equally across the people who share an experience. The family dinner table is, among other things, an archive management problem: several people are maintaining different versions of the same events, and no single version has the authority to supersede the others. Where the disagreement becomes genuinely difficult is not when the versions differ about facts — dates, sequences, who said what — but when they differ about character. The you that your mother carries forward is not merely out of date; it is, in her version, authoritative.\n\nWhat the family's version of you insists on — more than facts — is continuity. To remember someone is, implicitly, to claim that you know them; to maintain a memory of them through time is to assert that the person you knew then is still, in essential ways, the person you are addressing now. This is why the homecoming is so structurally difficult. The adult who returns to the village they left at twenty is not simply returning to a place but to a set of social mirrors that were frozen at a particular angle. The welcome is warm; the image is wrong. They are remembered as they were, which means they are, in some sense, not seen at all.\n\nIt is not the misremembering itself that is hardest to bear, but the implicit claim that accompanies it: that the remembered version is the real one, and the current version requires explanation. The person who has converted from one religion to another, the person who has left their family's political tradition, the immigrant who returns to their home country speaking the local language with a foreign accent — each of these carries the burden of proof. They must demonstrate that the change is genuine, not a phase; that the new self is not a betrayal of the old one; that what looks like apostasy is, in their own accounting, a form of growth. The social environment does not wait for this explanation; it simply continues to address the previous version.\n\nGranted, we all hold out-of-date versions of the people we love, and to ask that everyone keep pace with every internal revision would be both exhausting and unreasonable. Even so, there is a meaningful difference between the natural lag of intimate memory and the active insistence on a superseded self. The former is a form of love, however imprecise; the latter can function as a kind of soft coercion — a repeated invitation to return to a version of yourself that you have carefully and deliberately left behind. When the family story at every Christmas dinner requires you to play the role of the person you were at seventeen, the warmth of the occasion is partly funded by your willingness to perform a self you no longer inhabit.\n\nThe psychological structure here is worth naming. What is being contested is not merely the accuracy of a recollection but narrative authority: the right to be the primary author of one's own story. When someone else's memory of you becomes the dominant version in a shared social space — when your colleagues remember the failed project more clearly than the successful ones, when your siblings' version of your childhood becomes the family canon — you are, in effect, being asked to accept a second-hand version of yourself as the primary text. The resistance this produces is not vanity; it is the self defending its right to accumulated revision.\n\nLiving with people who remember you differently is, in the end, an exercise in holding two things simultaneously: the genuine value of being known over time — the intimacy that comes from shared history — and the equally genuine cost when that knowledge hardens into a fixed frame. The person who loves you while seeing only a past version of you is giving you something real and something limited at the same time. To name the limitation is not ingratitude. It is, one might argue, the precondition for a relationship that can move forward rather than one that is perpetually conducting emotional archaeology in the same excavation site.",
   "sampleAnnotations": [
-    {"phrase": "Rarely does memory distribute itself equally", "meaningVi": "Hiếm khi ký ức phân phối chính nó một cách bình đẳng"},
-    {"phrase": "an archive management problem", "meaningVi": "một vấn đề quản lý kho lưu trữ"},
-    {"phrase": "authoritative", "meaningVi": "có thẩm quyền, đáng tin cậy"},
-    {"phrase": "What the family's version of you insists on", "meaningVi": "Điều mà phiên bản bạn trong ký ức gia đình nhấn mạnh"},
-    {"phrase": "to maintain a memory of them through time is to assert", "meaningVi": "duy trì ký ức về họ theo thời gian là khẳng định"},
-    {"phrase": "set of social mirrors that were frozen at a particular angle", "meaningVi": "bộ gương xã hội bị đóng băng ở một góc độ nhất định"},
-    {"phrase": "not seen at all", "meaningVi": "hoàn toàn không được nhìn thấy"},
-    {"phrase": "It is not the misremembering itself that is hardest to bear", "meaningVi": "Không phải bản thân sự nhớ sai là điều khó chịu đựng nhất"},
-    {"phrase": "implicit claim", "meaningVi": "tuyên bố ngầm"},
-    {"phrase": "the remembered version is the real one", "meaningVi": "phiên bản được nhớ là phiên bản thật"},
-    {"phrase": "carries the burden of proof", "meaningVi": "gánh chịu gánh nặng chứng minh"},
-    {"phrase": "apostasy", "meaningVi": "sự phản bội niềm tin cũ"},
-    {"phrase": "Granted, we all hold out-of-date versions of the people we love", "meaningVi": "Cứ cho là tất cả chúng ta đều giữ những phiên bản lỗi thời của những người chúng ta yêu"},
-    {"phrase": "Even so, there is a meaningful difference", "meaningVi": "Dù vậy, có một sự khác biệt có ý nghĩa"},
-    {"phrase": "a superseded self", "meaningVi": "một phiên bản bản thân đã bị vượt qua"},
-    {"phrase": "perform a self you no longer inhabit", "meaningVi": "thể hiện một bản thân mà bạn không còn sống trong đó nữa"},
-    {"phrase": "narrative authority", "meaningVi": "quyền kể câu chuyện về bản thân mình"},
-    {"phrase": "second-hand version of yourself", "meaningVi": "phiên bản từ góc nhìn người khác về bản thân"},
-    {"phrase": "accumulated revision", "meaningVi": "sự sửa đổi tích luỹ"},
-    {"phrase": "hardens into a fixed frame", "meaningVi": "đông cứng thành một khuôn khổ cố định"},
-    {"phrase": "perpetually conducting emotional archaeology", "meaningVi": "liên tục tiến hành khảo cổ học cảm xúc"}
+    {
+      "phrase": "Rarely does memory distribute itself equally",
+      "meaningVi": "Hiếm khi ký ức phân phối chính nó một cách bình đẳng"
+    },
+    {
+      "phrase": "an archive management problem",
+      "meaningVi": "một vấn đề quản lý kho lưu trữ"
+    },
+    {
+      "phrase": "authoritative",
+      "meaningVi": "có thẩm quyền, đáng tin cậy"
+    },
+    {
+      "phrase": "What the family's version of you insists on",
+      "meaningVi": "Điều mà phiên bản bạn trong ký ức gia đình nhấn mạnh"
+    },
+    {
+      "phrase": "to maintain a memory of them through time is to assert",
+      "meaningVi": "duy trì ký ức về họ theo thời gian là khẳng định"
+    },
+    {
+      "phrase": "set of social mirrors that were frozen at a particular angle",
+      "meaningVi": "bộ gương xã hội bị đóng băng ở một góc độ nhất định"
+    },
+    {
+      "phrase": "not seen at all",
+      "meaningVi": "hoàn toàn không được nhìn thấy"
+    },
+    {
+      "phrase": "It is not the misremembering itself that is hardest to bear",
+      "meaningVi": "Không phải bản thân sự nhớ sai là điều khó chịu đựng nhất"
+    },
+    {
+      "phrase": "implicit claim",
+      "meaningVi": "tuyên bố ngầm"
+    },
+    {
+      "phrase": "the remembered version is the real one",
+      "meaningVi": "phiên bản được nhớ là phiên bản thật"
+    },
+    {
+      "phrase": "carries the burden of proof",
+      "meaningVi": "gánh chịu gánh nặng chứng minh"
+    },
+    {
+      "phrase": "apostasy",
+      "meaningVi": "sự phản bội niềm tin cũ"
+    },
+    {
+      "phrase": "Granted, we all hold out-of-date versions of the people we love",
+      "meaningVi": "Cứ cho là tất cả chúng ta đều giữ những phiên bản lỗi thời của những người chúng ta yêu"
+    },
+    {
+      "phrase": "Even so, there is a meaningful difference",
+      "meaningVi": "Dù vậy, có một sự khác biệt có ý nghĩa"
+    },
+    {
+      "phrase": "a superseded self",
+      "meaningVi": "một phiên bản bản thân đã bị vượt qua"
+    },
+    {
+      "phrase": "perform a self you no longer inhabit",
+      "meaningVi": "thể hiện một bản thân mà bạn không còn sống trong đó nữa"
+    },
+    {
+      "phrase": "narrative authority",
+      "meaningVi": "quyền kể câu chuyện về bản thân mình"
+    },
+    {
+      "phrase": "second-hand version of yourself",
+      "meaningVi": "phiên bản từ góc nhìn người khác về bản thân"
+    },
+    {
+      "phrase": "accumulated revision",
+      "meaningVi": "sự sửa đổi tích luỹ"
+    },
+    {
+      "phrase": "hardens into a fixed frame",
+      "meaningVi": "đông cứng thành một khuôn khổ cố định"
+    },
+    {
+      "phrase": "perpetually conducting emotional archaeology",
+      "meaningVi": "liên tục tiến hành khảo cổ học cảm xúc"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -81,10 +214,10 @@
       "options": [
         "Rarely memory distributes itself equally across people who share an experience.",
         "Memory rarely does distribute itself equally.",
-        "Rarely does memory distribute itself equally across the people who share an experience.",
-        "Rarely, does memory not distribute itself equally."
+        "Rarely, does memory not distribute itself equally.",
+        "Rarely does memory distribute itself equally across the people who share an experience."
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "explanation": "After 'Rarely' at the front, auxiliary 'does' must come before the subject 'memory'.",
       "hint": "Negative fronting requires subject-auxiliary inversion."
     },
@@ -92,12 +225,12 @@
       "id": "q2",
       "prompt": "The essay calls the family dinner table 'an archive management problem'. What does this mean?",
       "options": [
-        "Families argue about who cooks dinner.",
         "Multiple people are maintaining competing versions of the same events, with no single authoritative version.",
+        "Families argue about who cooks dinner.",
         "Families struggle to remember important dates.",
         "The table is where family records are stored."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay uses 'archive' metaphorically: each person maintains their own record of the past, and the records conflict.",
       "hint": "Think of 'archive' as 'stored version of the past'."
     },
@@ -119,11 +252,11 @@
       "prompt": "What does the essay identify as the hardest thing to bear — not the misremembering itself, but what?",
       "options": [
         "The sadness of nostalgia",
-        "The implicit claim that the remembered version is the real one, and the current version needs explanation",
         "The difficulty of correcting other people's memories",
+        "The implicit claim that the remembered version is the real one, and the current version needs explanation",
         "The length of time that has passed since the shared experience"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The cleft sentence specifically says: 'It is not the misremembering itself that is hardest to bear, but the implicit claim that accompanies it.'",
       "hint": "Look for the cleft sentence in the third paragraph."
     },
@@ -132,11 +265,11 @@
       "prompt": "Which of the following best paraphrases 'the burden of proof'?",
       "options": [
         "A legal obligation to testify in court",
-        "The responsibility placed on the changed person to demonstrate that their change is genuine",
         "The weight of carrying bad memories from the past",
-        "The difficulty of proving that one's memory is accurate"
+        "The difficulty of proving that one's memory is accurate",
+        "The responsibility placed on the changed person to demonstrate that their change is genuine"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'Burden of proof' in law means the obligation to prove one's case; here it means the changed person must justify themselves to those who knew the old version.",
       "hint": "Who has to prove what, and to whom?"
     },
@@ -144,12 +277,12 @@
       "id": "q6",
       "prompt": "The essay says the person who has changed religion 'carries the burden of proof'. What exactly must they prove?",
       "options": [
-        "That their new religion is superior to the old one",
         "That the change is genuine, not a phase, and that the new self is not a betrayal",
+        "That their new religion is superior to the old one",
         "That they still respect their family's beliefs",
         "That they are not influenced by outside forces"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay lists: 'that the change is genuine, not a phase; that the new self is not a betrayal of the old one; that what looks like apostasy is, in their own accounting, a form of growth.'",
       "hint": "Look for the list of what must be demonstrated."
     },
@@ -171,11 +304,11 @@
       "prompt": "What does 'narrative authority' mean in the essay?",
       "options": [
         "The literary skill needed to write autobiography",
-        "The right to be the primary author of one's own story — to control how oneself is defined",
         "The authority given to a narrator in fiction",
+        "The right to be the primary author of one's own story — to control how oneself is defined",
         "A legal right to block others from publishing your story"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay defines it as 'the right to be the primary author of one's own story' — the ability to determine how one is understood.",
       "hint": "Think of 'authority' as 'control over the story'."
     },
@@ -184,11 +317,11 @@
       "prompt": "What does 'a superseded self' mean?",
       "options": [
         "A self that is superior to previous versions",
-        "A version of oneself that has been replaced by a later, changed version",
         "A self that has been rejected by others",
-        "An older person's identity"
+        "An older person's identity",
+        "A version of oneself that has been replaced by a later, changed version"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'Superseded' means replaced or outdated — 'a superseded self' is the old version that has been moved beyond.",
       "hint": "Think of 'supersede' as 'replace or make obsolete'."
     },
@@ -196,12 +329,12 @@
       "id": "q10",
       "prompt": "The essay says the resistance to being defined by others' memories 'is not vanity'. What is it instead?",
       "options": [
-        "Stubbornness",
         "The self defending its right to accumulated revision",
+        "Stubbornness",
         "A form of nostalgia",
         "A refusal to accept the past"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay explicitly states: 'The resistance this produces is not vanity; it is the self defending its right to accumulated revision.'",
       "hint": "Look for the sentence after 'The resistance this produces is not vanity'."
     },
@@ -223,11 +356,11 @@
       "prompt": "Which sentence uses a cleft to focus on the specific source of pain?",
       "options": [
         "The misremembering is hard to bear, and the implicit claim is also hard.",
-        "It is not the misremembering itself that is hardest to bear, but the implicit claim that accompanies it.",
         "The hardest thing is that memory is often wrong.",
+        "It is not the misremembering itself that is hardest to bear, but the implicit claim that accompanies it.",
         "Being misremembered is hard, but the implicit claim matters too."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'It is not X that Y, but Z' is a negative cleft that narrows the focus from the obvious source (misremembering) to the actual source (the implicit claim).",
       "hint": "Look for the 'It is not X that Y, but Z' pattern."
     },
@@ -236,11 +369,11 @@
       "prompt": "What does the essay mean by 'perform a self you no longer inhabit'?",
       "options": [
         "Act in a play about your childhood",
-        "Behave as if you are still the person others remember you as, even though you have changed",
         "Try to reconnect with your past self",
-        "Perform poorly because you feel out of place"
+        "Perform poorly because you feel out of place",
+        "Behave as if you are still the person others remember you as, even though you have changed"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'Inhabit' a self means to actually live as that self; 'performing' it means enacting it for others without genuinely being it.",
       "hint": "The contrast is between 'performing' (acting) and 'inhabiting' (genuinely being)."
     },
@@ -248,12 +381,12 @@
       "id": "q14",
       "prompt": "What does the essay mean when it says a person is 'in some sense, not seen at all'?",
       "options": [
-        "People are ignoring them physically.",
         "The person being remembered as they were is not perceived as who they currently are — their present self is invisible to others.",
+        "People are ignoring them physically.",
         "The village is too dark for people to see properly.",
         "The person has changed their appearance."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "If you are seen only as you were, your current self — the actual person present — is not perceived. Being remembered is not the same as being seen.",
       "hint": "Think about the difference between recognising who someone was and seeing who they are."
     },

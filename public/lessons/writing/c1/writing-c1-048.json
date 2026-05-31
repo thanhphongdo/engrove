@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "The hidden cost of professionalising what used to be neighbourly",
   "summary": "Argue that the steady professionalisation of work that was once done informally — care, food, repair, watching a neighbour's child — solves some problems while quietly creating others that the professional version cannot address.",
-  "tags": ["Society", "Work", "Ethics"],
+  "tags": [
+    "Society",
+    "Work",
+    "Ethics"
+  ],
   "topic": "What is lost when informal mutual aid becomes a professional service",
   "prompt": "Write a 600–800-word essay arguing that the professionalisation of formerly informal work is not merely a market shift but a moral one — with real gains and real, distributed losses. Use inversion at least once, a cleft sentence, and a 'Granted… Even so…' concession. Set examples in named cities. Avoid the language of grassroots-romance and 'the way things used to be'.",
   "minWords": 600,
@@ -14,52 +18,181 @@
     "Granted, the older arrangements relied on a free labour that almost always fell on women. Even so,…"
   ],
   "hintVocab": [
-    {"phrase": "professionalisation", "meaningVi": "sự chuyên nghiệp hoá"},
-    {"phrase": "informal labour", "meaningVi": "lao động không chính thức"},
-    {"phrase": "mutual aid", "meaningVi": "sự giúp đỡ lẫn nhau"},
-    {"phrase": "reciprocal obligation", "meaningVi": "nghĩa vụ tương hỗ"},
-    {"phrase": "the service relation", "meaningVi": "quan hệ dịch vụ"},
-    {"phrase": "transactional rhythm", "meaningVi": "nhịp điệu giao dịch"},
-    {"phrase": "care economy", "meaningVi": "nền kinh tế chăm sóc"},
-    {"phrase": "outsourced", "meaningVi": "được thuê ngoài"},
-    {"phrase": "gendered labour", "meaningVi": "lao động mang định kiến giới"},
-    {"phrase": "the unpaid carer", "meaningVi": "người chăm sóc không lương"},
-    {"phrase": "service standardisation", "meaningVi": "sự tiêu chuẩn hoá dịch vụ"},
-    {"phrase": "the cash relation", "meaningVi": "quan hệ tiền mặt"},
-    {"phrase": "thinning of social ties", "meaningVi": "sự loãng đi của các mối quan hệ xã hội"},
-    {"phrase": "the visible bill", "meaningVi": "hoá đơn dễ thấy"},
-    {"phrase": "the invisible favour", "meaningVi": "ân huệ vô hình"},
-    {"phrase": "deskilling of households", "meaningVi": "sự mất kỹ năng của hộ gia đình"},
-    {"phrase": "the disappearance of debt", "meaningVi": "sự biến mất của món nợ"},
-    {"phrase": "ledger of favours", "meaningVi": "sổ cái của những ân huệ"},
-    {"phrase": "compensated stranger", "meaningVi": "người lạ được trả công"},
-    {"phrase": "the moral grammar of help", "meaningVi": "ngữ pháp đạo đức của sự giúp đỡ"},
-    {"phrase": "atomised household", "meaningVi": "hộ gia đình bị nguyên tử hoá"},
-    {"phrase": "settled reciprocity", "meaningVi": "sự tương hỗ đã ổn định"}
+    {
+      "phrase": "professionalisation",
+      "meaningVi": "sự chuyên nghiệp hoá"
+    },
+    {
+      "phrase": "informal labour",
+      "meaningVi": "lao động không chính thức"
+    },
+    {
+      "phrase": "mutual aid",
+      "meaningVi": "sự giúp đỡ lẫn nhau"
+    },
+    {
+      "phrase": "reciprocal obligation",
+      "meaningVi": "nghĩa vụ tương hỗ"
+    },
+    {
+      "phrase": "the service relation",
+      "meaningVi": "quan hệ dịch vụ"
+    },
+    {
+      "phrase": "transactional rhythm",
+      "meaningVi": "nhịp điệu giao dịch"
+    },
+    {
+      "phrase": "care economy",
+      "meaningVi": "nền kinh tế chăm sóc"
+    },
+    {
+      "phrase": "outsourced",
+      "meaningVi": "được thuê ngoài"
+    },
+    {
+      "phrase": "gendered labour",
+      "meaningVi": "lao động mang định kiến giới"
+    },
+    {
+      "phrase": "the unpaid carer",
+      "meaningVi": "người chăm sóc không lương"
+    },
+    {
+      "phrase": "service standardisation",
+      "meaningVi": "sự tiêu chuẩn hoá dịch vụ"
+    },
+    {
+      "phrase": "the cash relation",
+      "meaningVi": "quan hệ tiền mặt"
+    },
+    {
+      "phrase": "thinning of social ties",
+      "meaningVi": "sự loãng đi của các mối quan hệ xã hội"
+    },
+    {
+      "phrase": "the visible bill",
+      "meaningVi": "hoá đơn dễ thấy"
+    },
+    {
+      "phrase": "the invisible favour",
+      "meaningVi": "ân huệ vô hình"
+    },
+    {
+      "phrase": "deskilling of households",
+      "meaningVi": "sự mất kỹ năng của hộ gia đình"
+    },
+    {
+      "phrase": "the disappearance of debt",
+      "meaningVi": "sự biến mất của món nợ"
+    },
+    {
+      "phrase": "ledger of favours",
+      "meaningVi": "sổ cái của những ân huệ"
+    },
+    {
+      "phrase": "compensated stranger",
+      "meaningVi": "người lạ được trả công"
+    },
+    {
+      "phrase": "the moral grammar of help",
+      "meaningVi": "ngữ pháp đạo đức của sự giúp đỡ"
+    },
+    {
+      "phrase": "atomised household",
+      "meaningVi": "hộ gia đình bị nguyên tử hoá"
+    },
+    {
+      "phrase": "settled reciprocity",
+      "meaningVi": "sự tương hỗ đã ổn định"
+    }
   ],
   "sampleText": "Only rarely does the substitution of a professional for a neighbour leave the underlying relationship unchanged. When a Hanoi mother who used to leave her two-year-old with the woman across the corridor begins, instead, to pay a registered childcare service, what changes is not only who watches the child. The corridor woman, freed from the unspoken duty, no longer expects to be invited to weddings; the mother, freed from the reciprocal obligation to watch the other woman's mother on Sunday mornings, no longer registers her own household as embedded in a small web of debts. What had been a relationship has become, on both sides, an absence — managed, paid for, and quieter than before.\n\nNo one mourns the older arrangements without qualification. They were demanding, often unfair, and tended to extract their costs from people — usually women, usually older — whose alternatives were not abundant. The corridor woman was, in many cases, not a willing volunteer but an unpaid carer with few options. A paid service, however imperfect, has the moral virtue of being explicitly compensated, contractually limited, and refusable in a way the informal favour rarely was. To prefer the older arrangement on principle is to be insensitive to who actually bore its costs.\n\nWhat the professional service supplies in reliability it tends to remove in something for which we do not have a single word. Call it the moral grammar of help: the small accumulation of unsettled debts between households, where my watching your child today incurs a quiet expectation that your son will help me with the boxes when I move, and where neither of us would ever speak of it because to speak of it would falsify it. This grammar produces relationships; the cash relation produces transactions. The two can coexist, but they do not substitute for each other, and the latter does not, on its own, generate the former.\n\nIt is the displacement of one moral economy by another, not the simple addition of new services, that gives professionalisation its particular character. A neighbourhood in Lisbon where every formerly informal exchange has been re-routed through a paid intermediary is not a richer neighbourhood with extra services available; it is a neighbourhood in which the original web has been dissolved and replaced by a series of vertical relations with companies. The neighbours, no longer indebted to one another, no longer have occasions to meet that arise from need. They have, instead, occasions that arise from leisure — and leisure, it turns out, is a thinner glue.\n\nThere is also a quieter cost in skill. A household that has paid someone, for years, to do its small repairs, its food preparation, its child-minding, accumulates a deskilling that becomes hard to reverse. When the paid service is no longer affordable — because income contracts, because the company exits, because the worker has moved — the household no longer knows how to do the things it once knew, and no longer has neighbours who remember either. This is not a moralising point about laziness. It is an observation about how cultures of capability are sustained: by ordinary, slightly inconvenient practice, distributed across many households, none of which can produce the practice on their own.\n\nGranted, the older arrangements relied on a free labour that almost always fell on women, and any honest account of professionalisation must record that as a real gain when paid alternatives became available. Even so, the gain has not been distributed in the way the policy literature sometimes suggests. The people freed by paid services are, mostly, the people who could afford to pay; the people whose labour now appears in the accounts are, mostly, the same gendered group, transferred from an unpaid to a low-paid position. The professionalisation has not abolished the older asymmetry. It has, in many cases, marketised it.\n\nNone of this argues against paid services or for a return to arrangements no one chose. The argument is narrower: that what we gain in efficiency we pay for in something that does not appear on the bill — a thinning of the small mutualities on which neighbourhoods quietly run. To notice that is not to prescribe a return. It is to keep open the question of what, in our particular street, in our particular household, we might still be able to do for one another without an invoice.",
   "sampleAnnotations": [
-    {"phrase": "Only rarely does the substitution of a professional for a neighbour leave the underlying relationship unchanged", "meaningVi": "Chỉ hiếm khi việc thay thế một người chuyên nghiệp cho một người hàng xóm để lại mối quan hệ nền tảng không thay đổi"},
-    {"phrase": "the corridor woman, freed from the unspoken duty", "meaningVi": "người phụ nữ ở hành lang, được giải phóng khỏi nghĩa vụ không nói ra"},
-    {"phrase": "the reciprocal obligation to watch the other woman's mother on Sunday mornings", "meaningVi": "nghĩa vụ tương hỗ trông mẹ của người phụ nữ kia vào sáng Chủ nhật"},
-    {"phrase": "a small web of debts", "meaningVi": "một mạng nhỏ các món nợ"},
-    {"phrase": "managed, paid for, and quieter than before", "meaningVi": "được quản lý, được trả tiền, và yên ắng hơn trước"},
-    {"phrase": "an unpaid carer with few options", "meaningVi": "một người chăm sóc không lương với ít lựa chọn"},
-    {"phrase": "explicitly compensated, contractually limited, and refusable", "meaningVi": "được bồi thường rõ ràng, được giới hạn bằng hợp đồng, và có thể từ chối"},
-    {"phrase": "What the professional service supplies in reliability it tends to remove in something for which we do not have a single word", "meaningVi": "Những gì dịch vụ chuyên nghiệp cung cấp về độ tin cậy nó có xu hướng loại bỏ ở điều mà chúng ta không có một từ duy nhất nào"},
-    {"phrase": "the moral grammar of help", "meaningVi": "ngữ pháp đạo đức của sự giúp đỡ"},
-    {"phrase": "neither of us would ever speak of it because to speak of it would falsify it", "meaningVi": "không ai trong chúng tôi sẽ bao giờ nói về nó vì nói về nó sẽ làm giả nó"},
-    {"phrase": "This grammar produces relationships; the cash relation produces transactions", "meaningVi": "Ngữ pháp này tạo ra các mối quan hệ; quan hệ tiền mặt tạo ra các giao dịch"},
-    {"phrase": "It is the displacement of one moral economy by another, not the simple addition of new services, that gives professionalisation its particular character", "meaningVi": "Chính sự dịch chuyển của một nền kinh tế đạo đức bởi một nền kinh tế khác, không phải sự thêm vào đơn giản các dịch vụ mới, mới mang lại cho sự chuyên nghiệp hoá đặc tính riêng biệt"},
-    {"phrase": "a series of vertical relations with companies", "meaningVi": "một loạt các quan hệ dọc với các công ty"},
-    {"phrase": "leisure, it turns out, is a thinner glue", "meaningVi": "thời gian rảnh rỗi, hoá ra, là chất keo mỏng hơn"},
-    {"phrase": "a deskilling that becomes hard to reverse", "meaningVi": "sự mất kỹ năng trở nên khó đảo ngược"},
-    {"phrase": "cultures of capability are sustained: by ordinary, slightly inconvenient practice", "meaningVi": "các nền văn hoá năng lực được duy trì: bằng thực hành thường ngày, hơi bất tiện"},
-    {"phrase": "Granted, the older arrangements relied on a free labour that almost always fell on women", "meaningVi": "Cứ cho là các sắp xếp cũ dựa vào lao động miễn phí mà hầu như luôn rơi vào phụ nữ"},
-    {"phrase": "Even so, the gain has not been distributed in the way the policy literature sometimes suggests", "meaningVi": "Dù vậy, lợi ích đã không được phân phối theo cách mà tài liệu chính sách đôi khi gợi ý"},
-    {"phrase": "transferred from an unpaid to a low-paid position", "meaningVi": "được chuyển từ vị trí không lương sang vị trí lương thấp"},
-    {"phrase": "a thinning of the small mutualities on which neighbourhoods quietly run", "meaningVi": "sự loãng đi của những sự tương hỗ nhỏ mà các khu phố âm thầm vận hành"},
-    {"phrase": "what, in our particular street, in our particular household, we might still be able to do for one another without an invoice", "meaningVi": "những gì, trên con phố cụ thể của chúng ta, trong hộ gia đình cụ thể của chúng ta, chúng ta vẫn có thể làm cho nhau mà không cần hoá đơn"}
+    {
+      "phrase": "Only rarely does the substitution of a professional for a neighbour leave the underlying relationship unchanged",
+      "meaningVi": "Chỉ hiếm khi việc thay thế một người chuyên nghiệp cho một người hàng xóm để lại mối quan hệ nền tảng không thay đổi"
+    },
+    {
+      "phrase": "the corridor woman, freed from the unspoken duty",
+      "meaningVi": "người phụ nữ ở hành lang, được giải phóng khỏi nghĩa vụ không nói ra"
+    },
+    {
+      "phrase": "the reciprocal obligation to watch the other woman's mother on Sunday mornings",
+      "meaningVi": "nghĩa vụ tương hỗ trông mẹ của người phụ nữ kia vào sáng Chủ nhật"
+    },
+    {
+      "phrase": "a small web of debts",
+      "meaningVi": "một mạng nhỏ các món nợ"
+    },
+    {
+      "phrase": "managed, paid for, and quieter than before",
+      "meaningVi": "được quản lý, được trả tiền, và yên ắng hơn trước"
+    },
+    {
+      "phrase": "an unpaid carer with few options",
+      "meaningVi": "một người chăm sóc không lương với ít lựa chọn"
+    },
+    {
+      "phrase": "explicitly compensated, contractually limited, and refusable",
+      "meaningVi": "được bồi thường rõ ràng, được giới hạn bằng hợp đồng, và có thể từ chối"
+    },
+    {
+      "phrase": "What the professional service supplies in reliability it tends to remove in something for which we do not have a single word",
+      "meaningVi": "Những gì dịch vụ chuyên nghiệp cung cấp về độ tin cậy nó có xu hướng loại bỏ ở điều mà chúng ta không có một từ duy nhất nào"
+    },
+    {
+      "phrase": "the moral grammar of help",
+      "meaningVi": "ngữ pháp đạo đức của sự giúp đỡ"
+    },
+    {
+      "phrase": "neither of us would ever speak of it because to speak of it would falsify it",
+      "meaningVi": "không ai trong chúng tôi sẽ bao giờ nói về nó vì nói về nó sẽ làm giả nó"
+    },
+    {
+      "phrase": "This grammar produces relationships; the cash relation produces transactions",
+      "meaningVi": "Ngữ pháp này tạo ra các mối quan hệ; quan hệ tiền mặt tạo ra các giao dịch"
+    },
+    {
+      "phrase": "It is the displacement of one moral economy by another, not the simple addition of new services, that gives professionalisation its particular character",
+      "meaningVi": "Chính sự dịch chuyển của một nền kinh tế đạo đức bởi một nền kinh tế khác, không phải sự thêm vào đơn giản các dịch vụ mới, mới mang lại cho sự chuyên nghiệp hoá đặc tính riêng biệt"
+    },
+    {
+      "phrase": "a series of vertical relations with companies",
+      "meaningVi": "một loạt các quan hệ dọc với các công ty"
+    },
+    {
+      "phrase": "leisure, it turns out, is a thinner glue",
+      "meaningVi": "thời gian rảnh rỗi, hoá ra, là chất keo mỏng hơn"
+    },
+    {
+      "phrase": "a deskilling that becomes hard to reverse",
+      "meaningVi": "sự mất kỹ năng trở nên khó đảo ngược"
+    },
+    {
+      "phrase": "cultures of capability are sustained: by ordinary, slightly inconvenient practice",
+      "meaningVi": "các nền văn hoá năng lực được duy trì: bằng thực hành thường ngày, hơi bất tiện"
+    },
+    {
+      "phrase": "Granted, the older arrangements relied on a free labour that almost always fell on women",
+      "meaningVi": "Cứ cho là các sắp xếp cũ dựa vào lao động miễn phí mà hầu như luôn rơi vào phụ nữ"
+    },
+    {
+      "phrase": "Even so, the gain has not been distributed in the way the policy literature sometimes suggests",
+      "meaningVi": "Dù vậy, lợi ích đã không được phân phối theo cách mà tài liệu chính sách đôi khi gợi ý"
+    },
+    {
+      "phrase": "transferred from an unpaid to a low-paid position",
+      "meaningVi": "được chuyển từ vị trí không lương sang vị trí lương thấp"
+    },
+    {
+      "phrase": "a thinning of the small mutualities on which neighbourhoods quietly run",
+      "meaningVi": "sự loãng đi của những sự tương hỗ nhỏ mà các khu phố âm thầm vận hành"
+    },
+    {
+      "phrase": "what, in our particular street, in our particular household, we might still be able to do for one another without an invoice",
+      "meaningVi": "những gì, trên con phố cụ thể của chúng ta, trong hộ gia đình cụ thể của chúng ta, chúng ta vẫn có thể làm cho nhau mà không cần hoá đơn"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -80,11 +213,11 @@
       "prompt": "Which sentence correctly applies inversion after 'Only rarely'?",
       "options": [
         "Only rarely the substitution of a professional leaves the relationship unchanged.",
-        "Only rarely does the substitution of a professional for a neighbour leave the underlying relationship unchanged.",
         "The substitution of a professional only rarely leaves the underlying relationship unchanged.",
+        "Only rarely does the substitution of a professional for a neighbour leave the underlying relationship unchanged.",
         "Only rarely is the substitution of a professional leave the relationship unchanged."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "After 'Only rarely', the auxiliary 'does' precedes the subject, and the lexical verb returns to base form ('leave', not 'leaves').",
       "hint": "Negative fronting + do-support; lexical verb in base form."
     },
@@ -93,11 +226,11 @@
       "prompt": "What is the essay's central observation about the Hanoi mother's switch?",
       "options": [
         "She regrets paying for childcare",
-        "What changes is not only who watches the child — the relationship with the corridor woman, and the household's place in a small web of debts, also changes",
         "Paid childcare is more expensive than the informal arrangement",
-        "The corridor woman becomes the mother's enemy"
+        "The corridor woman becomes the mother's enemy",
+        "What changes is not only who watches the child — the relationship with the corridor woman, and the household's place in a small web of debts, also changes"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay's opening example argues that paying restructures the broader web of obligations, not just the immediate task — the relationship becomes 'an absence — managed, paid for, and quieter than before.'",
       "hint": "Look at what changes besides the immediate transaction."
     },
@@ -105,12 +238,12 @@
       "id": "q3",
       "prompt": "What is the essay's view of the older informal arrangements?",
       "options": [
-        "Romantic and unambiguously good",
         "Demanding, often unfair, and extractive — but with one moral virtue absent from the paid version: deeply embedded reciprocity",
+        "Romantic and unambiguously good",
         "Perfect and unimprovable",
         "Identical to modern paid services"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay refuses nostalgia: the older arrangements were extractive, often gendered, and unfair to those who bore their costs. The case for them rests on what they produced socially, not on their moral perfection.",
       "hint": "Look at the second paragraph's qualification."
     },
@@ -132,11 +265,11 @@
       "prompt": "Which sentence uses a cleft to characterise professionalisation?",
       "options": [
         "Professionalisation adds new services to neighbourhoods.",
-        "It is the displacement of one moral economy by another, not the simple addition of new services, that gives professionalisation its particular character.",
         "Both displacement and addition characterise professionalisation.",
+        "It is the displacement of one moral economy by another, not the simple addition of new services, that gives professionalisation its particular character.",
         "Professionalisation replaces all services with new ones."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'It is X, not Y, that Z' is a cleft that rejects the addition-of-services framing and substitutes displacement of one moral economy by another — a C1 structure enacting the essay's reframing.",
       "hint": "Look for the 'It is ... not ... that ...' construction."
     },
@@ -145,11 +278,11 @@
       "prompt": "What does the essay describe as a 'thinner glue' for neighbourhoods?",
       "options": [
         "Government policy",
-        "Leisure — encounters arising from spare time rather than from need",
         "Paid municipal services",
-        "Online communication"
+        "Online communication",
+        "Leisure — encounters arising from spare time rather than from need"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay observes that when the web of need is dissolved, neighbours meet through leisure, which is a thinner glue than the reciprocity of dependence.",
       "hint": "Look for the phrase 'thinner glue'."
     },
@@ -157,12 +290,12 @@
       "id": "q7",
       "prompt": "What does the essay say about deskilling?",
       "options": [
-        "It is an irrelevant side-issue",
         "It is a quieter cost: households lose ordinary capabilities that were sustained by distributed informal practice, and those capabilities are hard to reassemble when the paid service is no longer affordable",
+        "It is an irrelevant side-issue",
         "It only affects elderly people",
         "It is solved by adult-education classes"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay describes deskilling as a slow loss of household capability — repair, food preparation, child-minding — that follows when these tasks are outsourced over years.",
       "hint": "Look at the paragraph about cultures of capability."
     },
@@ -184,11 +317,11 @@
       "prompt": "What does the essay say has happened to the gendered asymmetry of care work?",
       "options": [
         "It has been abolished by paid services",
-        "It has been marketised rather than abolished — the same gendered group is now in a low-paid position rather than an unpaid one",
         "It has been reversed — men now do most care work",
+        "It has been marketised rather than abolished — the same gendered group is now in a low-paid position rather than an unpaid one",
         "It is no longer a relevant concern"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay observes that paid services have transferred women from unpaid to low-paid care work — a real improvement, but a marketisation of asymmetry rather than its disappearance.",
       "hint": "Look at the Granted/Even so paragraph for the gendered argument."
     },
@@ -197,11 +330,11 @@
       "prompt": "What does the essay say about leisure as a basis for neighbourhood connection?",
       "options": [
         "Leisure is the best basis because it is freely chosen",
-        "Leisure produces thinner ties than reciprocal need — meeting from spare time is less binding than meeting from interdependence",
         "Leisure is identical to need-based reciprocity",
-        "Leisure has no role in neighbourhood relations"
+        "Leisure has no role in neighbourhood relations",
+        "Leisure produces thinner ties than reciprocal need — meeting from spare time is less binding than meeting from interdependence"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay distinguishes leisure-based meetings from need-based reciprocity: 'leisure, it turns out, is a thinner glue.'",
       "hint": "Look for 'thinner glue' and what it contrasts with."
     },
@@ -209,12 +342,12 @@
       "id": "q11",
       "prompt": "How does the essay characterise the cash relation?",
       "options": [
-        "It produces relationships in the same way reciprocal obligation does",
         "It produces transactions, which can coexist with relationships but do not, on their own, generate them",
+        "It produces relationships in the same way reciprocal obligation does",
         "It is morally inferior in every respect",
         "It is morally superior because it is voluntary"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay carefully distinguishes: the moral grammar of help produces relationships, the cash relation produces transactions. They can coexist; the latter does not substitute.",
       "hint": "Look for 'relationships' versus 'transactions'."
     },
@@ -223,11 +356,11 @@
       "prompt": "What does the essay say it is NOT arguing for?",
       "options": [
         "More attention to neighbourhood ties",
-        "Awareness of what professionalisation costs",
         "A return to arrangements no one chose, or a rejection of paid services",
+        "Awareness of what professionalisation costs",
         "Recognition of the moral grammar of help"
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "explanation": "The closing paragraph explicitly disclaims: 'None of this argues against paid services or for a return to arrangements no one chose.'",
       "hint": "Look at the final paragraph's opening."
     },
@@ -236,11 +369,11 @@
       "prompt": "What does the essay mean by 'cultures of capability are sustained by ordinary, slightly inconvenient practice'?",
       "options": [
         "Capability requires formal training programmes",
-        "Skills survive in a community because many households practice them slightly more often than is strictly convenient — collective competence depends on distributed inconvenience",
         "Practice is only sustainable if it is convenient",
+        "Skills survive in a community because many households practice them slightly more often than is strictly convenient — collective competence depends on distributed inconvenience",
         "Inconvenience is a virtue in itself"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay's argument is that a culture of skill is a distributed property — many households doing slightly inconvenient work — and that when each household outsources, the collective skill base erodes.",
       "hint": "Look at the deskilling paragraph for how skills are sustained."
     },
@@ -249,11 +382,11 @@
       "prompt": "What does the essay's closing question ask?",
       "options": [
         "Whether we should refuse all paid services",
-        "What, in our particular street and household, we might still be able to do for one another without an invoice",
         "Whether all unpaid labour should be compensated",
-        "Whether professionalisation is finished"
+        "Whether professionalisation is finished",
+        "What, in our particular street and household, we might still be able to do for one another without an invoice"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The closing turns the argument into a question for the reader's actual situation: not abstract policy, but what specifically might be sustained without a bill.",
       "hint": "Look at the final sentence."
     },
@@ -261,12 +394,12 @@
       "id": "q15",
       "prompt": "Which sentence best summarises the essay's view?",
       "options": [
+        "Professionalisation is a moral shift that produces real gains and real, distributed losses — losses that do not appear on the bill but that change the neighbourhood",
         "Paid services are always worse than informal arrangements",
         "Informal arrangements are always worse than paid services",
-        "Professionalisation is a moral shift that produces real gains and real, distributed losses — losses that do not appear on the bill but that change the neighbourhood",
         "Neighbourhoods do not need either paid services or informal arrangements"
       ],
-      "answerIndex": 2,
+      "answerIndex": 0,
       "explanation": "The essay holds both observations: paid services solve real problems (unfairness, gendered extraction) but produce real losses (thinning ties, deskilling) that markets do not record.",
       "hint": "Look at the overall structure of the argument."
     }

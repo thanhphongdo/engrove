@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "Why some public services should never become apps",
   "summary": "Argue whether converting public services such as welfare, healthcare, and crisis support into smartphone apps undermines the people those services are designed to help.",
-  "tags": ["Technology", "Society", "Public services", "Digital inequality"],
+  "tags": [
+    "Technology",
+    "Society",
+    "Public services",
+    "Digital inequality"
+  ],
   "topic": "Why some public services should never become apps",
   "prompt": "Write an argumentative essay (350–500 words) arguing that converting certain public services — welfare registration, mental health support, emergency food banks — into smartphone apps creates barriers for the most vulnerable users rather than removing them. Refer to at least one concrete example (e.g. the UK's Universal Credit system, or Australia's automated welfare rejection system Robodebt). Use a what-cleft sentence, a concession, and at least one passive construction. Take a clear position.",
   "minWords": 350,
@@ -14,50 +19,174 @@
     "When a welfare application is turned into a series of dropdown menus, something essential about the nature of…"
   ],
   "hintVocab": [
-    { "phrase": "digital divide", "meaningVi": "khoảng cách kỹ thuật số" },
-    { "phrase": "to be excluded from a service", "meaningVi": "bị loại trừ khỏi dịch vụ" },
-    { "phrase": "vulnerable users", "meaningVi": "người dùng dễ bị tổn thương" },
-    { "phrase": "to be algorithmically assessed", "meaningVi": "được đánh giá bằng thuật toán" },
-    { "phrase": "Universal Credit", "meaningVi": "Tín dụng Phổ quát — hệ thống phúc lợi xã hội của Vương quốc Anh" },
-    { "phrase": "Robodebt", "meaningVi": "Robodebt — hệ thống đánh giá phúc lợi tự động của Úc" },
-    { "phrase": "administrative friction", "meaningVi": "ma sát hành chính / rào cản thủ tục" },
-    { "phrase": "to be denied benefits", "meaningVi": "bị từ chối các quyền lợi" },
-    { "phrase": "to digitise a service", "meaningVi": "số hóa một dịch vụ" },
-    { "phrase": "food insecurity", "meaningVi": "mất an ninh lương thực" },
-    { "phrase": "to be means-tested", "meaningVi": "được kiểm tra thu nhập / được xét điều kiện kinh tế" },
-    { "phrase": "human discretion", "meaningVi": "sự phán đoán của con người" },
-    { "phrase": "to flag an error", "meaningVi": "gắn cờ lỗi / báo hiệu lỗi" },
-    { "phrase": "algorithmic decision-making", "meaningVi": "ra quyết định bằng thuật toán" },
-    { "phrase": "to navigate a system", "meaningVi": "điều hướng qua một hệ thống / tìm cách qua hệ thống" },
-    { "phrase": "crisis intervention", "meaningVi": "can thiệp trong khủng hoảng" },
-    { "phrase": "to be wrongly rejected", "meaningVi": "bị từ chối sai / bị loại không đúng" },
-    { "phrase": "intermediary", "meaningVi": "người trung gian", "pronunciation": "/ˌɪn.təˈmiː.di.ər.i/" },
-    { "phrase": "to be reduced to a ticket number", "meaningVi": "bị thu gọn thành một số vé / bị đối xử như một trường hợp vô danh" },
-    { "phrase": "the gap between interface and need", "meaningVi": "khoảng cách giữa giao diện và nhu cầu" },
-    { "phrase": "to be screened out", "meaningVi": "bị sàng lọc ra / bị loại bỏ qua kiểm tra" }
+    {
+      "phrase": "digital divide",
+      "meaningVi": "khoảng cách kỹ thuật số"
+    },
+    {
+      "phrase": "to be excluded from a service",
+      "meaningVi": "bị loại trừ khỏi dịch vụ"
+    },
+    {
+      "phrase": "vulnerable users",
+      "meaningVi": "người dùng dễ bị tổn thương"
+    },
+    {
+      "phrase": "to be algorithmically assessed",
+      "meaningVi": "được đánh giá bằng thuật toán"
+    },
+    {
+      "phrase": "Universal Credit",
+      "meaningVi": "Tín dụng Phổ quát — hệ thống phúc lợi xã hội của Vương quốc Anh"
+    },
+    {
+      "phrase": "Robodebt",
+      "meaningVi": "Robodebt — hệ thống đánh giá phúc lợi tự động của Úc"
+    },
+    {
+      "phrase": "administrative friction",
+      "meaningVi": "ma sát hành chính / rào cản thủ tục"
+    },
+    {
+      "phrase": "to be denied benefits",
+      "meaningVi": "bị từ chối các quyền lợi"
+    },
+    {
+      "phrase": "to digitise a service",
+      "meaningVi": "số hóa một dịch vụ"
+    },
+    {
+      "phrase": "food insecurity",
+      "meaningVi": "mất an ninh lương thực"
+    },
+    {
+      "phrase": "to be means-tested",
+      "meaningVi": "được kiểm tra thu nhập / được xét điều kiện kinh tế"
+    },
+    {
+      "phrase": "human discretion",
+      "meaningVi": "sự phán đoán của con người"
+    },
+    {
+      "phrase": "to flag an error",
+      "meaningVi": "gắn cờ lỗi / báo hiệu lỗi"
+    },
+    {
+      "phrase": "algorithmic decision-making",
+      "meaningVi": "ra quyết định bằng thuật toán"
+    },
+    {
+      "phrase": "to navigate a system",
+      "meaningVi": "điều hướng qua một hệ thống / tìm cách qua hệ thống"
+    },
+    {
+      "phrase": "crisis intervention",
+      "meaningVi": "can thiệp trong khủng hoảng"
+    },
+    {
+      "phrase": "to be wrongly rejected",
+      "meaningVi": "bị từ chối sai / bị loại không đúng"
+    },
+    {
+      "phrase": "intermediary",
+      "meaningVi": "người trung gian",
+      "pronunciation": "/ˌɪn.təˈmiː.di.ər.i/"
+    },
+    {
+      "phrase": "to be reduced to a ticket number",
+      "meaningVi": "bị thu gọn thành một số vé / bị đối xử như một trường hợp vô danh"
+    },
+    {
+      "phrase": "the gap between interface and need",
+      "meaningVi": "khoảng cách giữa giao diện và nhu cầu"
+    },
+    {
+      "phrase": "to be screened out",
+      "meaningVi": "bị sàng lọc ra / bị loại bỏ qua kiểm tra"
+    }
   ],
   "sampleText": "What the UK's Universal Credit system demonstrated when it moved its application process online was not modernisation but the displacement of difficulty: the administrative burden that had previously been borne by welfare officers was transferred, in full, to claimants who were often least equipped to carry it. People without smartphones, without consistent internet access, without the literacy required to navigate government web portals, found themselves unable to access the support they were legally entitled to — not because they were ineligible but because the interface had been built for a user who was not them.\n\nThe efficiency argument for digital public services is familiar and not without merit. Automated systems are cheaper to run, faster to process, and less susceptible to the individual prejudices of human staff. For services used by people with stable circumstances and average digital literacy, an app genuinely reduces friction and increases access.\n\nGranted, that case is real. The transformation of library card renewals, parking permit applications, or appointment booking into digital processes has, on balance, made those services more convenient for most people who use them. The problem is not digitisation itself but its indiscriminate application to services that exist precisely because their users are in difficulty.\n\nEven so, the consequences of applying app-logic to crisis services have been documented with precision. Australia's Robodebt programme, which used automated income-matching to issue debt notices to welfare recipients, wrongly flagged hundreds of thousands of people for debts they did not owe. The programme was subsequently declared unlawful, but the harm — financial distress, anxiety, and in documented cases the suicide of recipients who could not navigate the appeals process — had already been done. What an algorithm cannot do is recognise that a person's circumstances are more complex than the data fields available, or that the gap between their situation and the system's categories is itself the problem.\n\nSome services require a human being. Not because humans are more efficient than algorithms, but because the act of receiving emergency food assistance, or mental health crisis support, or welfare registration during a bereavement, is not reducible to a form with dropdown menus. It requires a person who can ask a follow-up question, notice distress, exercise discretion, and decide that a rule should bend. When that capacity is replaced by an interface, the service has been redesigned for administrators, not for the people it was created to help.",
   "sampleAnnotations": [
-    { "phrase": "What the UK's Universal Credit system demonstrated when it moved its application process online was not modernisation but the displacement of difficulty", "meaningVi": "Điều mà hệ thống Universal Credit của Anh đã chứng minh khi chuyển quy trình đăng ký trực tuyến không phải là hiện đại hóa mà là sự chuyển dịch của khó khăn" },
-    { "phrase": "the administrative burden that had previously been borne by welfare officers was transferred, in full, to claimants", "meaningVi": "gánh nặng hành chính trước đây do các nhân viên phúc lợi gánh chịu đã được chuyển giao, toàn bộ, cho những người yêu cầu" },
-    { "phrase": "claimants who were often least equipped to carry it", "meaningVi": "những người yêu cầu thường ít được trang bị nhất để gánh chịu nó" },
-    { "phrase": "unable to access the support they were legally entitled to — not because they were ineligible but because the interface had been built for a user who was not them", "meaningVi": "không thể tiếp cận sự hỗ trợ mà họ được quyền hợp pháp — không phải vì họ không đủ điều kiện mà vì giao diện được xây dựng cho một người dùng không phải là họ" },
-    { "phrase": "The efficiency argument for digital public services is familiar and not without merit", "meaningVi": "Lập luận hiệu quả cho các dịch vụ công kỹ thuật số quen thuộc và không phải không có cơ sở" },
-    { "phrase": "less susceptible to the individual prejudices of human staff", "meaningVi": "ít dễ bị ảnh hưởng bởi định kiến cá nhân của nhân viên" },
-    { "phrase": "Granted, that case is real", "meaningVi": "Phải công nhận, trường hợp đó là có thật" },
-    { "phrase": "The problem is not digitisation itself but its indiscriminate application to services that exist precisely because their users are in difficulty", "meaningVi": "Vấn đề không phải là số hóa bản thân mà là việc áp dụng không phân biệt nó cho các dịch vụ tồn tại chính xác vì người dùng đang gặp khó khăn" },
-    { "phrase": "the consequences of applying app-logic to crisis services have been documented with precision", "meaningVi": "hậu quả của việc áp dụng logic ứng dụng cho các dịch vụ khủng hoảng đã được ghi chép với độ chính xác" },
-    { "phrase": "Australia's Robodebt programme, which used automated income-matching to issue debt notices to welfare recipients", "meaningVi": "Chương trình Robodebt của Úc, sử dụng đối chiếu thu nhập tự động để gửi thông báo nợ cho những người nhận phúc lợi" },
-    { "phrase": "wrongly flagged hundreds of thousands of people for debts they did not owe", "meaningVi": "gắn cờ sai cho hàng trăm nghìn người về các khoản nợ họ không nợ" },
-    { "phrase": "The programme was subsequently declared unlawful", "meaningVi": "Chương trình sau đó được tuyên bố là bất hợp pháp" },
-    { "phrase": "the harm — financial distress, anxiety, and in documented cases the suicide of recipients who could not navigate the appeals process — had already been done", "meaningVi": "thiệt hại — khó khăn tài chính, lo lắng, và trong các trường hợp được ghi lại là tự tử của những người nhận không thể điều hướng qua quy trình kháng cáo — đã xảy ra rồi" },
-    { "phrase": "What an algorithm cannot do is recognise that a person's circumstances are more complex than the data fields available", "meaningVi": "Điều mà thuật toán không thể làm là nhận ra rằng hoàn cảnh của một người phức tạp hơn các trường dữ liệu có sẵn" },
-    { "phrase": "the gap between their situation and the system's categories is itself the problem", "meaningVi": "khoảng cách giữa tình huống của họ và các danh mục của hệ thống chính là vấn đề" },
-    { "phrase": "the act of receiving emergency food assistance … is not reducible to a form with dropdown menus", "meaningVi": "hành động nhận hỗ trợ lương thực khẩn cấp ... không thể rút gọn thành một biểu mẫu với menu thả xuống" },
-    { "phrase": "a person who can ask a follow-up question, notice distress, exercise discretion, and decide that a rule should bend", "meaningVi": "một người có thể hỏi câu hỏi tiếp theo, nhận thấy sự đau khổ, thực hành sự phán đoán và quyết định rằng một quy tắc nên linh hoạt" },
-    { "phrase": "When that capacity is replaced by an interface", "meaningVi": "Khi khả năng đó được thay thế bằng một giao diện" },
-    { "phrase": "the service has been redesigned for administrators, not for the people it was created to help", "meaningVi": "dịch vụ đã được thiết kế lại cho các nhà quản trị, không phải cho những người nó được tạo ra để giúp đỡ" },
-    { "phrase": "People without smartphones, without consistent internet access, without the literacy required to navigate government web portals", "meaningVi": "Những người không có điện thoại thông minh, không có quyền truy cập internet ổn định, không có khả năng đọc viết cần thiết để điều hướng các cổng web chính phủ" }
+    {
+      "phrase": "What the UK's Universal Credit system demonstrated when it moved its application process online was not modernisation but the displacement of difficulty",
+      "meaningVi": "Điều mà hệ thống Universal Credit của Anh đã chứng minh khi chuyển quy trình đăng ký trực tuyến không phải là hiện đại hóa mà là sự chuyển dịch của khó khăn"
+    },
+    {
+      "phrase": "the administrative burden that had previously been borne by welfare officers was transferred, in full, to claimants",
+      "meaningVi": "gánh nặng hành chính trước đây do các nhân viên phúc lợi gánh chịu đã được chuyển giao, toàn bộ, cho những người yêu cầu"
+    },
+    {
+      "phrase": "claimants who were often least equipped to carry it",
+      "meaningVi": "những người yêu cầu thường ít được trang bị nhất để gánh chịu nó"
+    },
+    {
+      "phrase": "unable to access the support they were legally entitled to — not because they were ineligible but because the interface had been built for a user who was not them",
+      "meaningVi": "không thể tiếp cận sự hỗ trợ mà họ được quyền hợp pháp — không phải vì họ không đủ điều kiện mà vì giao diện được xây dựng cho một người dùng không phải là họ"
+    },
+    {
+      "phrase": "The efficiency argument for digital public services is familiar and not without merit",
+      "meaningVi": "Lập luận hiệu quả cho các dịch vụ công kỹ thuật số quen thuộc và không phải không có cơ sở"
+    },
+    {
+      "phrase": "less susceptible to the individual prejudices of human staff",
+      "meaningVi": "ít dễ bị ảnh hưởng bởi định kiến cá nhân của nhân viên"
+    },
+    {
+      "phrase": "Granted, that case is real",
+      "meaningVi": "Phải công nhận, trường hợp đó là có thật"
+    },
+    {
+      "phrase": "The problem is not digitisation itself but its indiscriminate application to services that exist precisely because their users are in difficulty",
+      "meaningVi": "Vấn đề không phải là số hóa bản thân mà là việc áp dụng không phân biệt nó cho các dịch vụ tồn tại chính xác vì người dùng đang gặp khó khăn"
+    },
+    {
+      "phrase": "the consequences of applying app-logic to crisis services have been documented with precision",
+      "meaningVi": "hậu quả của việc áp dụng logic ứng dụng cho các dịch vụ khủng hoảng đã được ghi chép với độ chính xác"
+    },
+    {
+      "phrase": "Australia's Robodebt programme, which used automated income-matching to issue debt notices to welfare recipients",
+      "meaningVi": "Chương trình Robodebt của Úc, sử dụng đối chiếu thu nhập tự động để gửi thông báo nợ cho những người nhận phúc lợi"
+    },
+    {
+      "phrase": "wrongly flagged hundreds of thousands of people for debts they did not owe",
+      "meaningVi": "gắn cờ sai cho hàng trăm nghìn người về các khoản nợ họ không nợ"
+    },
+    {
+      "phrase": "The programme was subsequently declared unlawful",
+      "meaningVi": "Chương trình sau đó được tuyên bố là bất hợp pháp"
+    },
+    {
+      "phrase": "the harm — financial distress, anxiety, and in documented cases the suicide of recipients who could not navigate the appeals process — had already been done",
+      "meaningVi": "thiệt hại — khó khăn tài chính, lo lắng, và trong các trường hợp được ghi lại là tự tử của những người nhận không thể điều hướng qua quy trình kháng cáo — đã xảy ra rồi"
+    },
+    {
+      "phrase": "What an algorithm cannot do is recognise that a person's circumstances are more complex than the data fields available",
+      "meaningVi": "Điều mà thuật toán không thể làm là nhận ra rằng hoàn cảnh của một người phức tạp hơn các trường dữ liệu có sẵn"
+    },
+    {
+      "phrase": "the gap between their situation and the system's categories is itself the problem",
+      "meaningVi": "khoảng cách giữa tình huống của họ và các danh mục của hệ thống chính là vấn đề"
+    },
+    {
+      "phrase": "the act of receiving emergency food assistance",
+      "meaningVi": "hành động nhận hỗ trợ lương thực khẩn cấp ... không thể rút gọn thành một biểu mẫu với menu thả xuống"
+    },
+    {
+      "phrase": "a person who can ask a follow-up question, notice distress, exercise discretion, and decide that a rule should bend",
+      "meaningVi": "một người có thể hỏi câu hỏi tiếp theo, nhận thấy sự đau khổ, thực hành sự phán đoán và quyết định rằng một quy tắc nên linh hoạt"
+    },
+    {
+      "phrase": "When that capacity is replaced by an interface",
+      "meaningVi": "Khi khả năng đó được thay thế bằng một giao diện"
+    },
+    {
+      "phrase": "the service has been redesigned for administrators, not for the people it was created to help",
+      "meaningVi": "dịch vụ đã được thiết kế lại cho các nhà quản trị, không phải cho những người nó được tạo ra để giúp đỡ"
+    },
+    {
+      "phrase": "People without smartphones, without consistent internet access, without the literacy required to navigate government web portals",
+      "meaningVi": "Những người không có điện thoại thông minh, không có quyền truy cập internet ổn định, không có khả năng đọc viết cần thiết để điều hướng các cổng web chính phủ"
+    }
   ],
   "sampleGrammarNotes": [
     {

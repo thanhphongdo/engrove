@@ -3,7 +3,11 @@
   "level": "A2",
   "title": "A bird I see in my neighborhood",
   "summary": "Describe a bird you regularly notice near where you live.",
-  "tags": ["Description", "Present simple", "Nature"],
+  "tags": [
+    "Description",
+    "Present simple",
+    "Nature"
+  ],
   "topic": "A bird I see in my neighborhood",
   "prompt": "Write 8–10 sentences (150–250 words) about a bird you often see near your home. Describe what it looks like, what sounds it makes, and when you usually see it. Use present simple and comparative adjectives. Explain why you find this bird interesting or special.",
   "minWords": 150,
@@ -14,31 +18,106 @@
     "I first noticed it when…"
   ],
   "hintVocab": [
-    { "phrase": "feathers", "meaningVi": "lông chim", "pronunciation": "/ˈfeðəz/" },
-    { "phrase": "perch on", "meaningVi": "đậu lên (dây điện, cành cây)", "pronunciation": "/pɜːtʃ/" },
-    { "phrase": "beak", "meaningVi": "mỏ chim", "pronunciation": "/biːk/" },
-    { "phrase": "chirp", "meaningVi": "tiếng kêu chíp chíp của chim", "pronunciation": "/tʃɜːp/" },
-    { "phrase": "sparrow", "meaningVi": "chim sẻ", "pronunciation": "/ˈspærəʊ/" },
-    { "phrase": "dawn", "meaningVi": "bình minh, lúc sáng sớm", "pronunciation": "/dɔːn/" },
-    { "phrase": "tilt its head", "meaningVi": "nghiêng đầu" },
-    { "phrase": "wing", "meaningVi": "cánh chim", "pronunciation": "/wɪŋ/" },
-    { "phrase": "bold", "meaningVi": "dạn dĩ, không sợ người", "pronunciation": "/bəʊld/" },
-    { "phrase": "branch", "meaningVi": "cành cây", "pronunciation": "/brɑːntʃ/" },
-    { "phrase": "fly away", "meaningVi": "bay đi" }
+    {
+      "phrase": "feathers",
+      "meaningVi": "lông chim",
+      "pronunciation": "/ˈfeðəz/"
+    },
+    {
+      "phrase": "perch on",
+      "meaningVi": "đậu lên (dây điện, cành cây)",
+      "pronunciation": "/pɜːtʃ/"
+    },
+    {
+      "phrase": "beak",
+      "meaningVi": "mỏ chim",
+      "pronunciation": "/biːk/"
+    },
+    {
+      "phrase": "chirp",
+      "meaningVi": "tiếng kêu chíp chíp của chim",
+      "pronunciation": "/tʃɜːp/"
+    },
+    {
+      "phrase": "sparrow",
+      "meaningVi": "chim sẻ",
+      "pronunciation": "/ˈspærəʊ/"
+    },
+    {
+      "phrase": "dawn",
+      "meaningVi": "bình minh, lúc sáng sớm",
+      "pronunciation": "/dɔːn/"
+    },
+    {
+      "phrase": "tilt its head",
+      "meaningVi": "nghiêng đầu"
+    },
+    {
+      "phrase": "wing",
+      "meaningVi": "cánh chim",
+      "pronunciation": "/wɪŋ/"
+    },
+    {
+      "phrase": "bold",
+      "meaningVi": "dạn dĩ, không sợ người",
+      "pronunciation": "/bəʊld/"
+    },
+    {
+      "phrase": "branch",
+      "meaningVi": "cành cây",
+      "pronunciation": "/brɑːntʃ/"
+    },
+    {
+      "phrase": "fly away",
+      "meaningVi": "bay đi"
+    }
   ],
   "sampleText": "There is a small bird I see almost every morning outside my window in Seoul. I think it is a sparrow, although it is a little larger than the sparrows I saw as a child. Its feathers are brown on the back and pale white on the chest. Its beak is short and dark yellow. Every day at dawn it perches on the metal railing of my balcony and tilts its head left and right, as if it is thinking about something. Then it chirps three or four times, very fast, and waits. I sometimes chirp back at it, which I know sounds silly. The bird is quite bold — it does not fly away when I open the balcony door slowly. It only flies when I step outside fully. I have never given it food because I read that human food is not good for birds. Still, I enjoy watching it every morning. It always arrives before seven o'clock, and I have started to expect it. On mornings when I do not see it, the balcony feels a little empty. I do not know where it goes during the rest of the day, but I like that it comes back. It is a small routine we share without knowing each other.",
   "sampleAnnotations": [
-    { "phrase": "almost every morning", "meaningVi": "gần như mỗi buổi sáng" },
-    { "phrase": "pale white on the chest", "meaningVi": "trắng nhạt ở phần ngực" },
-    { "phrase": "perches on the metal railing", "meaningVi": "đậu lên thanh lan can kim loại" },
-    { "phrase": "tilts its head", "meaningVi": "nghiêng đầu" },
-    { "phrase": "chirps three or four times", "meaningVi": "kêu chíp chíp ba bốn lần" },
-    { "phrase": "quite bold", "meaningVi": "khá dạn dĩ" },
-    { "phrase": "does not fly away", "meaningVi": "không bay đi" },
-    { "phrase": "I have started to expect it", "meaningVi": "tôi đã bắt đầu chờ đợi nó" },
-    { "phrase": "the balcony feels a little empty", "meaningVi": "ban công cảm thấy hơi trống vắng" },
-    { "phrase": "a small routine we share", "meaningVi": "một thói quen nhỏ chúng tôi cùng chia sẻ" },
-    { "phrase": "without knowing each other", "meaningVi": "mà không biết nhau" }
+    {
+      "phrase": "almost every morning",
+      "meaningVi": "gần như mỗi buổi sáng"
+    },
+    {
+      "phrase": "pale white on the chest",
+      "meaningVi": "trắng nhạt ở phần ngực"
+    },
+    {
+      "phrase": "perches on the metal railing",
+      "meaningVi": "đậu lên thanh lan can kim loại"
+    },
+    {
+      "phrase": "tilts its head",
+      "meaningVi": "nghiêng đầu"
+    },
+    {
+      "phrase": "chirps three or four times",
+      "meaningVi": "kêu chíp chíp ba bốn lần"
+    },
+    {
+      "phrase": "quite bold",
+      "meaningVi": "khá dạn dĩ"
+    },
+    {
+      "phrase": "does not fly away",
+      "meaningVi": "không bay đi"
+    },
+    {
+      "phrase": "I have started to expect it",
+      "meaningVi": "tôi đã bắt đầu chờ đợi nó"
+    },
+    {
+      "phrase": "the balcony feels a little empty",
+      "meaningVi": "ban công cảm thấy hơi trống vắng"
+    },
+    {
+      "phrase": "a small routine we share",
+      "meaningVi": "một thói quen nhỏ chúng tôi cùng chia sẻ"
+    },
+    {
+      "phrase": "without knowing each other",
+      "meaningVi": "mà không biết nhau"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -53,12 +132,12 @@
       "id": "q1",
       "prompt": "Which sentence correctly uses a comparative adjective?",
       "options": [
-        "It is a little larger than the sparrows I saw as a child.",
         "It is a little more large than the sparrows I saw as a child.",
         "It is a little largest than the sparrows I saw as a child.",
-        "It is a little large than the sparrows I saw as a child."
+        "It is a little large than the sparrows I saw as a child.",
+        "It is a little larger than the sparrows I saw as a child."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "Short adjectives form the comparative with '-er': 'large' → 'larger'.",
       "hint": "Short adjectives use '-er', not 'more'."
     },
@@ -79,12 +158,12 @@
       "id": "q3",
       "prompt": "Choose the correct present simple: 'It ___ three or four times, very fast.'",
       "options": [
-        "chirps",
         "is chirping",
+        "chirps",
         "chirped",
         "has chirped"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "Present simple 'chirps' is used for habitual actions.",
       "hint": "Use present simple for something that always happens."
     },
@@ -92,12 +171,12 @@
       "id": "q4",
       "prompt": "Which word means a bird is not afraid of people?",
       "options": [
-        "bold",
         "cold",
         "old",
+        "bold",
         "fold"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Bold' means confident and not afraid, even of people.",
       "hint": "Which adjective means 'not afraid' or 'daring'?"
     },
@@ -105,12 +184,12 @@
       "id": "q5",
       "prompt": "Pick the phrase that means 'to move your head to one side':",
       "options": [
-        "tilt its head",
         "turn its head",
         "shake its head",
-        "nod its head"
+        "nod its head",
+        "tilt its head"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'Tilt its head' means to lean the head sideways, which birds often do.",
       "hint": "Birds do this movement sideways, not forward or backward."
     },
@@ -131,12 +210,12 @@
       "id": "q7",
       "prompt": "Choose the correct sentence about a regular habit:",
       "options": [
-        "It always arrives before seven o'clock.",
         "It is always arriving before seven o'clock.",
+        "It always arrives before seven o'clock.",
         "It always arrived before seven o'clock.",
         "It always arrive before seven o'clock."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "Present simple with 'always' describes a regular habit. Third person needs 's': 'arrives'.",
       "hint": "Use present simple + 's' for third-person habits."
     },
@@ -144,12 +223,12 @@
       "id": "q8",
       "prompt": "Which phrase means 'to leave by flying'?",
       "options": [
-        "fly away",
         "fly down",
         "fly by",
+        "fly away",
         "fly back"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Fly away' means to leave a place by flying.",
       "hint": "Which phrasal verb means to leave a place in the air?"
     },
@@ -157,12 +236,12 @@
       "id": "q9",
       "prompt": "Which word describes the time just before sunrise?",
       "options": [
-        "dawn",
         "dusk",
         "noon",
-        "dusk"
+        "dusk (variant)",
+        "dawn"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'Dawn' is the time just before or at sunrise.",
       "hint": "Which word means the very beginning of the day?"
     },
@@ -183,12 +262,12 @@
       "id": "q11",
       "prompt": "What are the flat parts that cover a bird's body called?",
       "options": [
-        "feathers",
         "leathers",
+        "feathers",
         "tethers",
         "weathers"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'Feathers' are the light flat growths that cover a bird's body.",
       "hint": "These keep birds warm and help them fly."
     }

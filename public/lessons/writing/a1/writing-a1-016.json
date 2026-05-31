@@ -3,7 +3,10 @@
   "level": "A1",
   "title": "Things I keep in my bag",
   "summary": "List what is inside your everyday bag and why each item matters.",
-  "tags": ["Daily life", "Habits"],
+  "tags": [
+    "Daily life",
+    "Habits"
+  ],
   "topic": "Things I keep in my bag",
   "prompt": "Write 6–8 short sentences about what is in your bag every day. Use 'There is / There are' and present simple, and explain why each item matters.",
   "minWords": 150,
@@ -15,31 +18,97 @@
     "Sometimes I add…"
   ],
   "hintVocab": [
-    { "phrase": "wallet", "meaningVi": "ví" },
-    { "phrase": "key", "meaningVi": "chìa khóa" },
-    { "phrase": "phone", "meaningVi": "điện thoại" },
-    { "phrase": "earphones", "meaningVi": "tai nghe nhỏ" },
-    { "phrase": "notebook", "meaningVi": "sổ tay" },
-    { "phrase": "pen", "meaningVi": "bút" },
-    { "phrase": "tissue", "meaningVi": "khăn giấy" },
-    { "phrase": "lip balm", "meaningVi": "son dưỡng môi" },
-    { "phrase": "water bottle", "meaningVi": "chai nước" },
-    { "phrase": "umbrella", "meaningVi": "ô, dù" },
-    { "phrase": "carry", "meaningVi": "mang theo" }
+    {
+      "phrase": "wallet",
+      "meaningVi": "ví"
+    },
+    {
+      "phrase": "key",
+      "meaningVi": "chìa khóa"
+    },
+    {
+      "phrase": "phone",
+      "meaningVi": "điện thoại"
+    },
+    {
+      "phrase": "earphones",
+      "meaningVi": "tai nghe nhỏ"
+    },
+    {
+      "phrase": "notebook",
+      "meaningVi": "sổ tay"
+    },
+    {
+      "phrase": "pen",
+      "meaningVi": "bút"
+    },
+    {
+      "phrase": "tissue",
+      "meaningVi": "khăn giấy"
+    },
+    {
+      "phrase": "lip balm",
+      "meaningVi": "son dưỡng môi"
+    },
+    {
+      "phrase": "water bottle",
+      "meaningVi": "chai nước"
+    },
+    {
+      "phrase": "umbrella",
+      "meaningVi": "ô, dù"
+    },
+    {
+      "phrase": "carry",
+      "meaningVi": "mang theo"
+    }
   ],
   "sampleText": "I carry a small green canvas bag every day in Toronto. It is light, but it has many small things inside. In my bag, there is a brown wallet with my ID and one bank card. I do not keep cash because I pay by phone. There are two silver keys on a wooden keyring from my uncle. He gave it to me last winter. There is also a small notebook and a black pen, because I like writing short ideas on the bus. I always keep a water bottle in the side pocket because the office air is dry. I add a small umbrella in autumn and a pair of gloves in January. There is one bag of tissues and a tiny lip balm from a shop in Seoul. My headphones live in the front pocket, and I never leave home without them. The bag also has a small photo of my dog Bruno inside the zipper pocket. The photo is old and a little soft, but I always smile when I see it. My bag feels like a small portable home.",
   "sampleAnnotations": [
-    { "phrase": "small green canvas bag", "meaningVi": "túi vải canvas xanh nhỏ" },
-    { "phrase": "brown wallet", "meaningVi": "ví nâu" },
-    { "phrase": "bank card", "meaningVi": "thẻ ngân hàng" },
-    { "phrase": "two silver keys", "meaningVi": "hai chìa khóa bạc" },
-    { "phrase": "wooden keyring", "meaningVi": "móc khóa gỗ" },
-    { "phrase": "small notebook", "meaningVi": "sổ tay nhỏ" },
-    { "phrase": "water bottle", "meaningVi": "chai nước" },
-    { "phrase": "small umbrella", "meaningVi": "ô nhỏ" },
-    { "phrase": "lip balm", "meaningVi": "son dưỡng" },
-    { "phrase": "front pocket", "meaningVi": "ngăn trước" },
-    { "phrase": "zipper pocket", "meaningVi": "ngăn có khóa kéo" }
+    {
+      "phrase": "small green canvas bag",
+      "meaningVi": "túi vải canvas xanh nhỏ"
+    },
+    {
+      "phrase": "brown wallet",
+      "meaningVi": "ví nâu"
+    },
+    {
+      "phrase": "bank card",
+      "meaningVi": "thẻ ngân hàng"
+    },
+    {
+      "phrase": "two silver keys",
+      "meaningVi": "hai chìa khóa bạc"
+    },
+    {
+      "phrase": "wooden keyring",
+      "meaningVi": "móc khóa gỗ"
+    },
+    {
+      "phrase": "small notebook",
+      "meaningVi": "sổ tay nhỏ"
+    },
+    {
+      "phrase": "water bottle",
+      "meaningVi": "chai nước"
+    },
+    {
+      "phrase": "small umbrella",
+      "meaningVi": "ô nhỏ"
+    },
+    {
+      "phrase": "lip balm",
+      "meaningVi": "son dưỡng"
+    },
+    {
+      "phrase": "front pocket",
+      "meaningVi": "ngăn trước"
+    },
+    {
+      "phrase": "zipper pocket",
+      "meaningVi": "ngăn có khóa kéo"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -72,12 +141,12 @@
       "id": "q2",
       "prompt": "Which sentence sounds most natural?",
       "options": [
-        "I carry a small green bag every day.",
         "Green I bag small carry every day.",
         "Bag small green I carry day.",
+        "I carry a small green bag every day.",
         "Every day a small green I bag carry."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "Subject + verb + adjective + adjective + noun + time.",
       "hint": "Look for normal English order."
     },
@@ -85,12 +154,12 @@
       "id": "q3",
       "prompt": "Which sentence uses 'because' correctly?",
       "options": [
-        "I keep a water bottle because the air is dry.",
         "Because dry water I.",
         "Water bottle because air dry I keep.",
-        "I keep water because."
+        "I keep water because.",
+        "I keep a water bottle because the air is dry."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'because' introduces a reason clause.",
       "hint": "Look for a complete reason clause."
     },
@@ -98,12 +167,12 @@
       "id": "q4",
       "prompt": "Which sentence is grammatically correct?",
       "options": [
-        "She carry a notebook every day.",
         "She carries a notebook every day.",
+        "She carry a notebook every day.",
         "She carrying notebook every day.",
         "She is carry notebook."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Third person singular: 'carries'.",
       "hint": "Add -es for 'she' + 'carry'."
     },
@@ -111,12 +180,12 @@
       "id": "q5",
       "prompt": "Which sentence best fits 'things in my bag'?",
       "options": [
-        "There is a notebook and a pen.",
         "There is a tall building downtown.",
+        "There is a notebook and a pen.",
         "There is a long road through the desert.",
         "The plane lands at noon at the airport."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "Notebook + pen fit the bag topic.",
       "hint": "Pick items you would carry."
     },
@@ -124,12 +193,12 @@
       "id": "q6",
       "prompt": "Which sentence uses adverb of frequency correctly?",
       "options": [
-        "I always keep my keys in the front pocket.",
         "Always I pocket keys keep front.",
         "Front pocket I always keys keep.",
+        "I always keep my keys in the front pocket.",
         "Keep I front always pocket keys."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'always' before the main verb.",
       "hint": "Adverb position before verb."
     },
@@ -137,12 +206,12 @@
       "id": "q7",
       "prompt": "Which word fits: 'I keep a small ___ in case it rains.'",
       "options": [
-        "umbrella",
         "rice",
         "song",
-        "chair"
+        "chair",
+        "umbrella"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'umbrella' fits rain.",
       "hint": "What do you use in rain?"
     },
@@ -163,12 +232,12 @@
       "id": "q9",
       "prompt": "Which sentence is grammatically correct?",
       "options": [
-        "My headphones live in the front pocket.",
         "In front pocket live headphones my.",
+        "My headphones live in the front pocket.",
         "Live my front headphones in pocket.",
         "Headphones my live front in pocket."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "Subject + verb + prepositional phrase.",
       "hint": "Normal order."
     },
@@ -176,12 +245,12 @@
       "id": "q10",
       "prompt": "Which sentence sounds most natural?",
       "options": [
-        "I never leave home without my headphones.",
         "Without I never headphones leave home.",
         "Home without headphones never I leave.",
+        "I never leave home without my headphones.",
         "Leave I never home without headphones."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "Subject + adverb + verb + object + 'without' phrase.",
       "hint": "Adverb of frequency before verb."
     }

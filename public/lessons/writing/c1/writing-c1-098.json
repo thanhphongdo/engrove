@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "The man who knows where the water goes",
   "summary": "Reflect on the unrecorded knowledge that keeps a city running — an ageing valve-keeper in Naples who carries the map of the water network in his head — and ask whether writing it down to preserve it would save the knowledge or quietly kill the form it lives in.",
-  "tags": ["Reflection", "Work", "Memory"],
+  "tags": [
+    "Reflection",
+    "Work",
+    "Memory"
+  ],
   "topic": "The unrecorded labour and knowledge that hold a city together",
   "prompt": "Write a 600–800-word reflective essay on knowledge that keeps a place running but exists only in a person, not on paper. Ground it in one concrete worker and city. Reflect on the paradox that to preserve such knowledge you must document it, yet documenting it may destroy the very form that made it work. Resist a tidy resolution. Use hedging, nominalization, and at least one complex concession.",
   "minWords": 600,
@@ -14,71 +18,269 @@
     "To preserve what he knows we would have to make it into a document, and the moment it becomes a document it stops being…"
   ],
   "hintVocab": [
-    {"phrase": "tacit knowledge", "meaningVi": "tri thức ngầm, biết mà khó nói thành lời"},
-    {"phrase": "to document", "meaningVi": "ghi chép lại thành tài liệu"},
-    {"phrase": "institutional memory", "meaningVi": "ký ức của tổ chức, kinh nghiệm tích luỹ"},
-    {"phrase": "the unsung", "meaningVi": "những người thầm lặng, không được ca tụng"},
-    {"phrase": "infrastructure", "meaningVi": "hạ tầng cơ sở", "pronunciation": "/ˈɪnfrəstrʌktʃə/"},
-    {"phrase": "maintenance", "meaningVi": "công tác bảo trì, duy tu", "pronunciation": "/ˈmeɪntənəns/"},
-    {"phrase": "to keep things running", "meaningVi": "giữ cho mọi thứ vận hành trơn tru"},
-    {"phrase": "know-how", "meaningVi": "bí quyết, kỹ năng thực hành"},
-    {"phrase": "embodied skill", "meaningVi": "kỹ năng nằm trong cơ thể, trong tay nghề"},
-    {"phrase": "to codify", "meaningVi": "hệ thống hoá, ghi thành quy tắc", "pronunciation": "/ˈkəʊdɪfaɪ/"},
-    {"phrase": "improvisation", "meaningVi": "sự ứng biến tại chỗ", "pronunciation": "/ˌɪmprəvaɪˈzeɪʃən/"},
-    {"phrase": "to outsource", "meaningVi": "thuê ngoài, chuyển ra bên ngoài"},
-    {"phrase": "redundancy", "meaningVi": "sự dư thừa, dự phòng", "pronunciation": "/rɪˈdʌndənsi/"},
-    {"phrase": "irreplaceable", "meaningVi": "không thể thay thế", "pronunciation": "/ˌɪrɪˈpleɪsəbl/"},
-    {"phrase": "succession", "meaningVi": "sự kế thừa, truyền lại nghề"},
-    {"phrase": "to be taken for granted", "meaningVi": "bị coi là điều hiển nhiên, không ai để ý"},
-    {"phrase": "the workforce", "meaningVi": "lực lượng lao động"},
-    {"phrase": "obsolescence", "meaningVi": "sự lỗi thời, bị đào thải", "pronunciation": "/ˌɒbsəˈlesəns/"},
-    {"phrase": "to defy capture", "meaningVi": "không thể nắm bắt/ghi lại được"},
-    {"phrase": "muscle memory", "meaningVi": "trí nhớ cơ bắp, làm theo phản xạ quen tay"},
-    {"phrase": "a working life", "meaningVi": "cả một đời làm nghề"},
-    {"phrase": "to defer", "meaningVi": "trì hoãn, hoặc nhường lại", "pronunciation": "/dɪˈfɜː/"},
-    {"phrase": "apprenticeship", "meaningVi": "việc học nghề bên cạnh người thầy", "pronunciation": "/əˈprentɪʃɪp/"},
-    {"phrase": "to flatten into a manual", "meaningVi": "dẹp thành một cuốn sổ tay khô khan"},
-    {"phrase": "lived expertise", "meaningVi": "sự thành thạo có được qua trải nghiệm sống"},
-    {"phrase": "to atrophy", "meaningVi": "teo dần đi, mai một vì không dùng", "pronunciation": "/ˈætrəfi/"},
-    {"phrase": "the dignity of competence", "meaningVi": "phẩm giá của sự thành thạo"},
-    {"phrase": "to preserve", "meaningVi": "gìn giữ, bảo tồn"},
-    {"phrase": "indispensable", "meaningVi": "không thể thiếu", "pronunciation": "/ˌɪndɪˈspensəbl/"},
-    {"phrase": "to hollow out", "meaningVi": "làm rỗng ruột, rút mất phần cốt lõi"},
-    {"phrase": "a feel for the system", "meaningVi": "một cảm giác trực giác về cách hệ thống vận hành"},
-    {"phrase": "fragile", "meaningVi": "mong manh, dễ mất", "pronunciation": "/ˈfrædʒaɪl/"}
+    {
+      "phrase": "tacit knowledge",
+      "meaningVi": "tri thức ngầm, biết mà khó nói thành lời"
+    },
+    {
+      "phrase": "to document",
+      "meaningVi": "ghi chép lại thành tài liệu"
+    },
+    {
+      "phrase": "institutional memory",
+      "meaningVi": "ký ức của tổ chức, kinh nghiệm tích luỹ"
+    },
+    {
+      "phrase": "the unsung",
+      "meaningVi": "những người thầm lặng, không được ca tụng"
+    },
+    {
+      "phrase": "infrastructure",
+      "meaningVi": "hạ tầng cơ sở",
+      "pronunciation": "/ˈɪnfrəstrʌktʃə/"
+    },
+    {
+      "phrase": "maintenance",
+      "meaningVi": "công tác bảo trì, duy tu",
+      "pronunciation": "/ˈmeɪntənəns/"
+    },
+    {
+      "phrase": "to keep things running",
+      "meaningVi": "giữ cho mọi thứ vận hành trơn tru"
+    },
+    {
+      "phrase": "know-how",
+      "meaningVi": "bí quyết, kỹ năng thực hành"
+    },
+    {
+      "phrase": "embodied skill",
+      "meaningVi": "kỹ năng nằm trong cơ thể, trong tay nghề"
+    },
+    {
+      "phrase": "to codify",
+      "meaningVi": "hệ thống hoá, ghi thành quy tắc",
+      "pronunciation": "/ˈkəʊdɪfaɪ/"
+    },
+    {
+      "phrase": "improvisation",
+      "meaningVi": "sự ứng biến tại chỗ",
+      "pronunciation": "/ˌɪmprəvaɪˈzeɪʃən/"
+    },
+    {
+      "phrase": "to outsource",
+      "meaningVi": "thuê ngoài, chuyển ra bên ngoài"
+    },
+    {
+      "phrase": "redundancy",
+      "meaningVi": "sự dư thừa, dự phòng",
+      "pronunciation": "/rɪˈdʌndənsi/"
+    },
+    {
+      "phrase": "irreplaceable",
+      "meaningVi": "không thể thay thế",
+      "pronunciation": "/ˌɪrɪˈpleɪsəbl/"
+    },
+    {
+      "phrase": "succession",
+      "meaningVi": "sự kế thừa, truyền lại nghề"
+    },
+    {
+      "phrase": "to be taken for granted",
+      "meaningVi": "bị coi là điều hiển nhiên, không ai để ý"
+    },
+    {
+      "phrase": "the workforce",
+      "meaningVi": "lực lượng lao động"
+    },
+    {
+      "phrase": "obsolescence",
+      "meaningVi": "sự lỗi thời, bị đào thải",
+      "pronunciation": "/ˌɒbsəˈlesəns/"
+    },
+    {
+      "phrase": "to defy capture",
+      "meaningVi": "không thể nắm bắt/ghi lại được"
+    },
+    {
+      "phrase": "muscle memory",
+      "meaningVi": "trí nhớ cơ bắp, làm theo phản xạ quen tay"
+    },
+    {
+      "phrase": "a working life",
+      "meaningVi": "cả một đời làm nghề"
+    },
+    {
+      "phrase": "to defer",
+      "meaningVi": "trì hoãn, hoặc nhường lại",
+      "pronunciation": "/dɪˈfɜː/"
+    },
+    {
+      "phrase": "apprenticeship",
+      "meaningVi": "việc học nghề bên cạnh người thầy",
+      "pronunciation": "/əˈprentɪʃɪp/"
+    },
+    {
+      "phrase": "to flatten into a manual",
+      "meaningVi": "dẹp thành một cuốn sổ tay khô khan"
+    },
+    {
+      "phrase": "lived expertise",
+      "meaningVi": "sự thành thạo có được qua trải nghiệm sống"
+    },
+    {
+      "phrase": "to atrophy",
+      "meaningVi": "teo dần đi, mai một vì không dùng",
+      "pronunciation": "/ˈætrəfi/"
+    },
+    {
+      "phrase": "the dignity of competence",
+      "meaningVi": "phẩm giá của sự thành thạo"
+    },
+    {
+      "phrase": "to preserve",
+      "meaningVi": "gìn giữ, bảo tồn"
+    },
+    {
+      "phrase": "indispensable",
+      "meaningVi": "không thể thiếu",
+      "pronunciation": "/ˌɪndɪˈspensəbl/"
+    },
+    {
+      "phrase": "to hollow out",
+      "meaningVi": "làm rỗng ruột, rút mất phần cốt lõi"
+    },
+    {
+      "phrase": "a feel for the system",
+      "meaningVi": "một cảm giác trực giác về cách hệ thống vận hành"
+    },
+    {
+      "phrase": "fragile",
+      "meaningVi": "mong manh, dễ mất",
+      "pronunciation": "/ˈfrædʒaɪl/"
+    }
   ],
   "sampleText": "There is no map of where the water actually goes under the old quarter of Naples. There are maps, of course — yellowed schematics in a municipal drawer, drawn before half the valves were rerouted by men who never updated the drawer. The working map is in Salvatore's head. He is sixty-three, he has opened and closed these valves for forty years, and when a main fails at two in the morning he does not consult anything; he listens, he presses a palm to the pipe, he decides. One day, fairly soon, there will be no Salvatore, and the city has begun, sensibly, to worry about it. The obvious response is to write it down. Send an engineer with a clipboard, follow him through the tunnels for a year, record every valve and every quirk, and turn forty years into a manual. I understand the impulse and I do not entirely trust it. Standing in one of those tunnels, watching him find a junction in the dark by counting his own steps, I began to suspect that what he knows is not, in the relevant sense, information at all. It is not a list of facts that happens to be stored in a person rather than a file. It is a way of paying attention, built up over decades, that lives in the attending and nowhere else. Ask him why he closed that valve and not the next one and he shrugs; the answer is in his hands. None of this means the city should simply let the knowledge die with him, as if the loss of a working life were somehow more authentic than the awkward effort to keep it. That sentiment is comfortable precisely because it costs nothing and saves no one's water. The pipes are real, the failures are real, and a city that romanticises the irreplaceable man while declining to train his replacement has not honoured him; it has used his competence as scenery. Something must be passed on. The honest question is what, and how, and at what cost to the thing itself. Here is the difficulty I keep circling. To preserve what Salvatore knows we have to turn it into a document, and the moment it becomes a document it stops being the kind of thing he has. A manual can record that valve seven is temperamental; it cannot record the forty years of small failures that taught a man to hear temperament in a pipe. Write the knowledge down and you preserve its residue — the conclusions — while losing the process that made the conclusions trustworthy. The next person will follow the manual correctly and still, at two in the morning, lack the one thing the manual was written to replace: the feel for when the manual is wrong. Yet I am wary of pushing this thought too far, because it shades easily into an excuse. To say that real expertise cannot be written down can become a way of refusing to try, of protecting the irreplaceable man's irreplaceability rather than the city's water. The truth is probably less flattering to everyone. Some of what he knows genuinely cannot survive the trip onto paper, and that part will be lost whatever we do. But a good deal of it could survive a different kind of transfer — not a manual but an apprenticeship, a younger person beside him in the tunnels for the years it takes, learning to listen rather than to read. That, too, preserves nothing perfectly. The apprentice will know the pipes differently, will develop her own feel, will let some of his vanish and add some he never had. So perhaps the choice was never between keeping the knowledge and losing it. Perhaps the knowledge was always a living thing that does not get kept so much as carried, handed from one body to the next, changing a little in each pair of hands, and the worst outcome is not that it changes but that the chain breaks because no one was standing close enough to receive it. We tend to honour such workers, when we honour them at all, with the word essential — a word that describes the city's need and says nothing about the man. The harder respect would be to admit that what he carries cannot be filed, only inherited, and to make sure someone is there in the dark, learning to count their steps, while there is still a Salvatore to learn from.",
   "sampleAnnotations": [
-    {"phrase": "There is no map of where the water actually goes", "meaningVi": "Không có tấm bản đồ nào cho biết nước thực sự chảy đi đâu"},
-    {"phrase": "drawn before half the valves were rerouted", "meaningVi": "được vẽ trước khi một nửa số van bị đổi hướng"},
-    {"phrase": "The working map is in Salvatore's head", "meaningVi": "Tấm bản đồ thực dụng nằm trong đầu Salvatore"},
-    {"phrase": "he listens, he presses a palm to the pipe, he decides", "meaningVi": "anh lắng nghe, anh áp lòng bàn tay lên ống nước, anh quyết định"},
-    {"phrase": "the city has begun, sensibly, to worry about it", "meaningVi": "thành phố đã bắt đầu, một cách hợp lý, lo lắng về điều đó"},
-    {"phrase": "I understand the impulse and I do not entirely trust it", "meaningVi": "Tôi hiểu cái thôi thúc đó và tôi không hoàn toàn tin nó"},
-    {"phrase": "what he knows is not, in the relevant sense, information at all", "meaningVi": "điều anh biết, theo nghĩa liên quan ở đây, hoàn toàn không phải là thông tin"},
-    {"phrase": "a way of paying attention, built up over decades", "meaningVi": "một cách chú tâm, được bồi đắp qua nhiều thập kỷ"},
-    {"phrase": "that lives in the attending and nowhere else", "meaningVi": "thứ chỉ sống trong chính việc chú tâm và không ở đâu khác"},
-    {"phrase": "the answer is in his hands", "meaningVi": "câu trả lời nằm trong đôi tay anh"},
-    {"phrase": "as if the loss of a working life were somehow more authentic", "meaningVi": "như thể việc mất đi cả một đời làm nghề lại trung thực hơn theo cách nào đó"},
-    {"phrase": "it has used his competence as scenery", "meaningVi": "nó đã dùng sự thành thạo của anh như một thứ phông nền trang trí"},
-    {"phrase": "The honest question is what, and how, and at what cost to the thing itself", "meaningVi": "Câu hỏi trung thực là cái gì, bằng cách nào, và với cái giá nào cho chính bản thân thứ đó"},
-    {"phrase": "the moment it becomes a document it stops being the kind of thing he has", "meaningVi": "khoảnh khắc nó trở thành một tài liệu, nó thôi không còn là loại thứ mà anh đang sở hữu"},
-    {"phrase": "it cannot record the forty years of small failures that taught a man to hear temperament in a pipe", "meaningVi": "nó không thể ghi lại bốn mươi năm những thất bại nhỏ đã dạy một người nghe ra 'tính khí' trong một đường ống"},
-    {"phrase": "you preserve its residue — the conclusions — while losing the process", "meaningVi": "bạn gìn giữ phần cặn của nó — những kết luận — trong khi đánh mất quá trình"},
-    {"phrase": "the feel for when the manual is wrong", "meaningVi": "cái cảm giác về thời điểm cuốn sổ tay sai"},
-    {"phrase": "it shades easily into an excuse", "meaningVi": "nó dễ dàng chuyển sắc thành một cái cớ"},
-    {"phrase": "protecting the irreplaceable man's irreplaceability rather than the city's water", "meaningVi": "bảo vệ sự không thể thay thế của con người không thể thay thế ấy thay vì bảo vệ nguồn nước của thành phố"},
-    {"phrase": "The truth is probably less flattering to everyone", "meaningVi": "Sự thật có lẽ ít dễ nghe hơn cho tất cả mọi người"},
-    {"phrase": "not a manual but an apprenticeship", "meaningVi": "không phải một cuốn sổ tay mà là một quá trình học nghề"},
-    {"phrase": "learning to listen rather than to read", "meaningVi": "học cách lắng nghe thay vì học cách đọc"},
-    {"phrase": "the knowledge was always a living thing that does not get kept so much as carried", "meaningVi": "tri thức ấy luôn là một thực thể sống, không hẳn được cất giữ mà được mang đi"},
-    {"phrase": "handed from one body to the next, changing a little in each pair of hands", "meaningVi": "được trao từ cơ thể này sang cơ thể khác, thay đổi đôi chút trong mỗi đôi tay"},
-    {"phrase": "the chain breaks because no one was standing close enough to receive it", "meaningVi": "mắt xích đứt vì không ai đứng đủ gần để tiếp nhận nó"},
-    {"phrase": "a word that describes the city's need and says nothing about the man", "meaningVi": "một từ mô tả nhu cầu của thành phố mà chẳng nói gì về con người"},
-    {"phrase": "what he carries cannot be filed, only inherited", "meaningVi": "điều anh mang theo không thể lưu hồ sơ, chỉ có thể được kế thừa"},
-    {"phrase": "while there is still a Salvatore to learn from", "meaningVi": "khi vẫn còn một Salvatore để mà học theo"},
-    {"phrase": "find a junction in the dark by counting his own steps", "meaningVi": "tìm ra một ngã rẽ trong bóng tối bằng cách đếm chính bước chân mình"},
-    {"phrase": "turn forty years into a manual", "meaningVi": "biến bốn mươi năm thành một cuốn sổ tay"}
+    {
+      "phrase": "There is no map of where the water actually goes",
+      "meaningVi": "Không có tấm bản đồ nào cho biết nước thực sự chảy đi đâu"
+    },
+    {
+      "phrase": "drawn before half the valves were rerouted",
+      "meaningVi": "được vẽ trước khi một nửa số van bị đổi hướng"
+    },
+    {
+      "phrase": "The working map is in Salvatore's head",
+      "meaningVi": "Tấm bản đồ thực dụng nằm trong đầu Salvatore"
+    },
+    {
+      "phrase": "he listens, he presses a palm to the pipe, he decides",
+      "meaningVi": "anh lắng nghe, anh áp lòng bàn tay lên ống nước, anh quyết định"
+    },
+    {
+      "phrase": "the city has begun, sensibly, to worry about it",
+      "meaningVi": "thành phố đã bắt đầu, một cách hợp lý, lo lắng về điều đó"
+    },
+    {
+      "phrase": "I understand the impulse and I do not entirely trust it",
+      "meaningVi": "Tôi hiểu cái thôi thúc đó và tôi không hoàn toàn tin nó"
+    },
+    {
+      "phrase": "what he knows is not, in the relevant sense, information at all",
+      "meaningVi": "điều anh biết, theo nghĩa liên quan ở đây, hoàn toàn không phải là thông tin"
+    },
+    {
+      "phrase": "a way of paying attention, built up over decades",
+      "meaningVi": "một cách chú tâm, được bồi đắp qua nhiều thập kỷ"
+    },
+    {
+      "phrase": "that lives in the attending and nowhere else",
+      "meaningVi": "thứ chỉ sống trong chính việc chú tâm và không ở đâu khác"
+    },
+    {
+      "phrase": "the answer is in his hands",
+      "meaningVi": "câu trả lời nằm trong đôi tay anh"
+    },
+    {
+      "phrase": "as if the loss of a working life were somehow more authentic",
+      "meaningVi": "như thể việc mất đi cả một đời làm nghề lại trung thực hơn theo cách nào đó"
+    },
+    {
+      "phrase": "it has used his competence as scenery",
+      "meaningVi": "nó đã dùng sự thành thạo của anh như một thứ phông nền trang trí"
+    },
+    {
+      "phrase": "The honest question is what, and how, and at what cost to the thing itself",
+      "meaningVi": "Câu hỏi trung thực là cái gì, bằng cách nào, và với cái giá nào cho chính bản thân thứ đó"
+    },
+    {
+      "phrase": "the moment it becomes a document it stops being the kind of thing he has",
+      "meaningVi": "khoảnh khắc nó trở thành một tài liệu, nó thôi không còn là loại thứ mà anh đang sở hữu"
+    },
+    {
+      "phrase": "it cannot record the forty years of small failures that taught a man to hear temperament in a pipe",
+      "meaningVi": "nó không thể ghi lại bốn mươi năm những thất bại nhỏ đã dạy một người nghe ra 'tính khí' trong một đường ống"
+    },
+    {
+      "phrase": "you preserve its residue — the conclusions — while losing the process",
+      "meaningVi": "bạn gìn giữ phần cặn của nó — những kết luận — trong khi đánh mất quá trình"
+    },
+    {
+      "phrase": "the feel for when the manual is wrong",
+      "meaningVi": "cái cảm giác về thời điểm cuốn sổ tay sai"
+    },
+    {
+      "phrase": "it shades easily into an excuse",
+      "meaningVi": "nó dễ dàng chuyển sắc thành một cái cớ"
+    },
+    {
+      "phrase": "protecting the irreplaceable man's irreplaceability rather than the city's water",
+      "meaningVi": "bảo vệ sự không thể thay thế của con người không thể thay thế ấy thay vì bảo vệ nguồn nước của thành phố"
+    },
+    {
+      "phrase": "The truth is probably less flattering to everyone",
+      "meaningVi": "Sự thật có lẽ ít dễ nghe hơn cho tất cả mọi người"
+    },
+    {
+      "phrase": "not a manual but an apprenticeship",
+      "meaningVi": "không phải một cuốn sổ tay mà là một quá trình học nghề"
+    },
+    {
+      "phrase": "learning to listen rather than to read",
+      "meaningVi": "học cách lắng nghe thay vì học cách đọc"
+    },
+    {
+      "phrase": "the knowledge was always a living thing that does not get kept so much as carried",
+      "meaningVi": "tri thức ấy luôn là một thực thể sống, không hẳn được cất giữ mà được mang đi"
+    },
+    {
+      "phrase": "handed from one body to the next, changing a little in each pair of hands",
+      "meaningVi": "được trao từ cơ thể này sang cơ thể khác, thay đổi đôi chút trong mỗi đôi tay"
+    },
+    {
+      "phrase": "the chain breaks because no one was standing close enough to receive it",
+      "meaningVi": "mắt xích đứt vì không ai đứng đủ gần để tiếp nhận nó"
+    },
+    {
+      "phrase": "a word that describes the city's need and says nothing about the man",
+      "meaningVi": "một từ mô tả nhu cầu của thành phố mà chẳng nói gì về con người"
+    },
+    {
+      "phrase": "what he carries cannot be filed, only inherited",
+      "meaningVi": "điều anh mang theo không thể lưu hồ sơ, chỉ có thể được kế thừa"
+    },
+    {
+      "phrase": "while there is still a Salvatore to learn from",
+      "meaningVi": "khi vẫn còn một Salvatore để mà học theo"
+    },
+    {
+      "phrase": "find a junction in the dark by counting his own steps",
+      "meaningVi": "tìm ra một ngã rẽ trong bóng tối bằng cách đếm chính bước chân mình"
+    },
+    {
+      "phrase": "turn forty years into a manual",
+      "meaningVi": "biến bốn mươi năm thành một cuốn sổ tay"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -112,11 +314,11 @@
       "prompt": "Why does the essay say what Salvatore knows is 'not, in the relevant sense, information at all'?",
       "options": [
         "Because he is illiterate.",
-        "Because it is a way of paying attention built up over decades, not a list of facts stored in a person.",
         "Because the information is secret.",
+        "Because it is a way of paying attention built up over decades, not a list of facts stored in a person.",
         "Because the maps already contain it."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay reframes his knowledge as embodied attention, not retrievable data.",
       "hint": "Connect it to 'a way of paying attention' that 'lives in the attending'."
     },
@@ -125,11 +327,11 @@
       "prompt": "Why does the essay reject letting the knowledge 'die with him'?",
       "options": [
         "Because Salvatore wants a successor.",
-        "Because romanticising the irreplaceable man costs nothing, saves no water, and uses his competence as scenery.",
         "Because the city would be sued.",
-        "Because the maps are too old to use."
+        "Because the maps are too old to use.",
+        "Because romanticising the irreplaceable man costs nothing, saves no water, and uses his competence as scenery."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay's concession: the comfortable do-nothing stance honours no one and abandons the city's real needs.",
       "hint": "Find where the essay calls the loss being 'more authentic' a comfortable illusion."
     },
@@ -137,12 +339,12 @@
       "id": "q4",
       "prompt": "Which option is a nominalization, the C1 feature flagged in the grammar notes?",
       "options": [
-        "to write down",
         "the attending",
+        "to write down",
         "two in the morning",
         "passed on"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'The attending' turns the verb 'attend' into a noun the writer can reflect on — a defining C1 nominalization.",
       "hint": "Look for a noun made from a verb that names an activity."
     },
@@ -151,11 +353,11 @@
       "prompt": "Which sentence best demonstrates the complex concession the prompt requires?",
       "options": [
         "Documentation is bad, so we should not do it.",
-        "There are pros and cons to writing knowledge down.",
         "Yet I am wary of pushing this thought too far, because it shades easily into an excuse … a way of refusing to try, of protecting the irreplaceable man's irreplaceability rather than the city's water.",
+        "There are pros and cons to writing knowledge down.",
         "We should always train apprentices."
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "explanation": "Option C concedes the limit of its own earlier argument and warns it can become an excuse — a self-qualifying C1 concession.",
       "hint": "Look for the writer turning a qualifying eye on his own claim."
     },
@@ -163,12 +365,12 @@
       "id": "q6",
       "prompt": "What does 'you preserve its residue — the conclusions — while losing the process' mean?",
       "options": [
-        "A manual keeps the answers but not the experience that made them trustworthy.",
         "Documents are made of leftover paper.",
         "The conclusions are wrong but the process is right.",
+        "A manual keeps the answers but not the experience that made them trustworthy.",
         "Nothing about the knowledge can be saved."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "Writing it down captures outcomes but strips the judgement behind them.",
       "hint": "What survives onto paper, and what is left behind?"
     },
@@ -177,11 +379,11 @@
       "prompt": "Which option uses the best cohesion to follow 'Something must be passed on.'?",
       "options": [
         "Also, Naples is famous for its pizza.",
-        "The honest question is what, and how, and at what cost to the thing itself.",
         "Passing means moving from one place to another.",
-        "In today's cities, everything must be passed on eventually."
+        "In today's cities, everything must be passed on eventually.",
+        "The honest question is what, and how, and at what cost to the thing itself."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "Option B advances the argument by sharpening the question; the others are off-topic, definitional, or filler.",
       "hint": "Which option refines the problem rather than restating it?"
     },
@@ -189,12 +391,12 @@
       "id": "q8",
       "prompt": "Which paraphrase is closest to 'does not get kept so much as carried'?",
       "options": [
-        "It can be stored permanently in an archive.",
         "It survives only by being passed living from person to person, not by being stored.",
+        "It can be stored permanently in an archive.",
         "It is too heavy to move.",
         "It is kept and carried in equal measure."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'Carried, not kept' reframes the knowledge as something transmitted through people, not filed.",
       "hint": "Contrast static 'keeping' with living 'carrying'."
     },
@@ -216,11 +418,11 @@
       "prompt": "Why does the essay distinguish an 'apprenticeship' from a 'manual'?",
       "options": [
         "Because apprenticeships are cheaper.",
-        "Because a manual transfers conclusions while an apprenticeship transfers the way of listening, even if imperfectly.",
         "Because manuals are illegal in Italy.",
+        "Because a manual transfers conclusions while an apprenticeship transfers the way of listening, even if imperfectly.",
         "Because apprentices work for free."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The apprenticeship passes on the embodied process, not just the written answers.",
       "hint": "What does each mode transfer — answers, or attention?"
     },
@@ -228,12 +430,12 @@
       "id": "q11",
       "prompt": "Which word best fills the gap in C1 register? 'A city that romanticises the irreplaceable man while declining to train his replacement has used his competence as ___.'",
       "options": [
-        "scenery",
         "a thing",
         "stuff",
-        "backup"
+        "backup",
+        "scenery"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'Scenery' carries the essay's precise critique — decorative, admired, not actually preserved; the others are vague or wrong register.",
       "hint": "Which word implies he is admired as decoration rather than genuinely valued?"
     },
@@ -241,12 +443,12 @@
       "id": "q12",
       "prompt": "What does the essay identify as 'the worst outcome'?",
       "options": [
-        "That the knowledge changes as it is passed on.",
         "That the chain breaks because no one was standing close enough to receive it.",
+        "That the knowledge changes as it is passed on.",
         "That Salvatore retires.",
         "That the old maps are lost."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Change in transmission is acceptable; a broken chain is the real failure.",
       "hint": "The essay says the bad outcome is not change but a break."
     },
@@ -268,11 +470,11 @@
       "prompt": "What is the essay's critique of the word 'essential' applied to such workers?",
       "options": [
         "It is too informal a word.",
-        "It describes the city's need but says nothing about the man himself.",
         "It exaggerates how important the work is.",
+        "It describes the city's need but says nothing about the man himself.",
         "It is rarely used in official documents."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay notes 'essential' centres the city's dependence, not the worker's dignity.",
       "hint": "Whose need does 'essential' describe — the man's, or the city's?"
     },
@@ -281,11 +483,11 @@
       "prompt": "What is the function of the final image, 'someone there in the dark, learning to count their steps'?",
       "options": [
         "It offers a complete technical solution to the mapping problem.",
-        "It proposes living transmission — an apprentice learning by presence — as the honest, imperfect alternative to filing the knowledge away.",
         "It suggests the tunnels should be better lit.",
-        "It blames the city for the old maps."
+        "It blames the city for the old maps.",
+        "It proposes living transmission — an apprentice learning by presence — as the honest, imperfect alternative to filing the knowledge away."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The close holds the paradox open while pointing to inheritance over documentation.",
       "hint": "The essay said the knowledge can be 'only inherited' — what does the final image enact?"
     },
@@ -293,12 +495,12 @@
       "id": "q16",
       "prompt": "Which paraphrase is closest to 'the feel for when the manual is wrong'?",
       "options": [
-        "The ability to spot typos in the manual.",
         "The judgement to recognise, in a real situation, that the written instructions do not fit — which is precisely what the manual cannot supply.",
+        "The ability to spot typos in the manual.",
         "A preference for ignoring manuals.",
         "Knowing the manual by heart."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The phrase names the situational judgement no document can encode.",
       "hint": "What can't a manual contain about its own limits?"
     }

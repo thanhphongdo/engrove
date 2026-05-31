@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "The forgotten craft of asking for help",
   "summary": "Argue that asking for help is a skill that has been undervalued, and that relearning it would benefit individuals and communities alike.",
-  "tags": ["Communication", "Psychology", "Community", "Argument"],
+  "tags": [
+    "Communication",
+    "Psychology",
+    "Community",
+    "Argument"
+  ],
   "topic": "The forgotten craft of asking for help",
   "prompt": "Write an argumentative essay (350–500 words) arguing that asking for help is a skill, not a weakness — and that modern cultures, particularly those that prize independence, have actively suppressed this skill to the detriment of individuals and communities. Use a cleft sentence, a concession, at least one passive construction, and a participle clause. Include at least one cross-cultural comparison (e.g. Japanese 'onegai shimasu' as a social ritual vs. the directness of Scandinavian norms, or the communal interdependence embedded in Filipino 'bayanihan'). Take a clear position.",
   "minWords": 350,
@@ -15,50 +20,178 @@
     "It is not the asker who is diminished by a genuine request for help but the…"
   ],
   "hintVocab": [
-    { "phrase": "self-reliance", "meaningVi": "sự tự lực / tự chủ" },
-    { "phrase": "to ask for help", "meaningVi": "nhờ giúp đỡ / xin hỗ trợ" },
-    { "phrase": "to be perceived as weak", "meaningVi": "bị nhìn nhận là yếu đuối" },
-    { "phrase": "interdependence", "meaningVi": "sự phụ thuộc lẫn nhau", "pronunciation": "/ˌɪn.tə.dɪˈpen.dəns/" },
-    { "phrase": "bayanihan", "meaningVi": "bayanihan — tinh thần cộng đồng giúp đỡ nhau của người Philippines", "pronunciation": "/bɑːˌjɑːniːˈhɑːn/" },
-    { "phrase": "onegai shimasu", "meaningVi": "'Xin hãy giúp tôi / Tôi nhờ bạn' — lời nhờ vả trang trọng trong tiếng Nhật" },
-    { "phrase": "to internalise a norm", "meaningVi": "nội tâm hóa một chuẩn mực" },
-    { "phrase": "to suppress", "meaningVi": "kìm nén / triệt tiêu", "pronunciation": "/səˈpres/" },
-    { "phrase": "chronic isolation", "meaningVi": "sự cô lập mãn tính" },
-    { "phrase": "social reciprocity", "meaningVi": "sự có qua có lại trong xã hội", "pronunciation": "/ˌres.ɪˈprɒs.ɪ.ti/" },
-    { "phrase": "to be stigmatised", "meaningVi": "bị kỳ thị / bị đánh dấu tiêu cực" },
-    { "phrase": "vulnerability", "meaningVi": "sự dễ bị tổn thương / sự cởi mở", "pronunciation": "/ˌvʌl.nər.əˈbɪl.ɪ.ti/" },
-    { "phrase": "to ask precisely", "meaningVi": "nhờ một cách chính xác / rõ ràng" },
-    { "phrase": "to be declined", "meaningVi": "bị từ chối" },
-    { "phrase": "to foster connection", "meaningVi": "nuôi dưỡng / thúc đẩy kết nối" },
-    { "phrase": "radical individualism", "meaningVi": "chủ nghĩa cá nhân cực đoan" },
-    { "phrase": "to articulate a need", "meaningVi": "diễn đạt một nhu cầu một cách rõ ràng" },
-    { "phrase": "social fabric", "meaningVi": "cấu trúc xã hội / mạng lưới quan hệ xã hội" },
-    { "phrase": "to be met with generosity", "meaningVi": "được đáp lại bằng sự rộng lượng" },
-    { "phrase": "emotional self-sufficiency", "meaningVi": "sự tự đủ về mặt cảm xúc" },
-    { "phrase": "to lower one's guard", "meaningVi": "hạ thấp sự phòng thủ / mở lòng" }
+    {
+      "phrase": "self-reliance",
+      "meaningVi": "sự tự lực / tự chủ"
+    },
+    {
+      "phrase": "to ask for help",
+      "meaningVi": "nhờ giúp đỡ / xin hỗ trợ"
+    },
+    {
+      "phrase": "to be perceived as weak",
+      "meaningVi": "bị nhìn nhận là yếu đuối"
+    },
+    {
+      "phrase": "interdependence",
+      "meaningVi": "sự phụ thuộc lẫn nhau",
+      "pronunciation": "/ˌɪn.tə.dɪˈpen.dəns/"
+    },
+    {
+      "phrase": "bayanihan",
+      "meaningVi": "bayanihan — tinh thần cộng đồng giúp đỡ nhau của người Philippines",
+      "pronunciation": "/bɑːˌjɑːniːˈhɑːn/"
+    },
+    {
+      "phrase": "onegai shimasu",
+      "meaningVi": "'Xin hãy giúp tôi / Tôi nhờ bạn' — lời nhờ vả trang trọng trong tiếng Nhật"
+    },
+    {
+      "phrase": "to internalise a norm",
+      "meaningVi": "nội tâm hóa một chuẩn mực"
+    },
+    {
+      "phrase": "to suppress",
+      "meaningVi": "kìm nén / triệt tiêu",
+      "pronunciation": "/səˈpres/"
+    },
+    {
+      "phrase": "chronic isolation",
+      "meaningVi": "sự cô lập mãn tính"
+    },
+    {
+      "phrase": "social reciprocity",
+      "meaningVi": "sự có qua có lại trong xã hội",
+      "pronunciation": "/ˌres.ɪˈprɒs.ɪ.ti/"
+    },
+    {
+      "phrase": "to be stigmatised",
+      "meaningVi": "bị kỳ thị / bị đánh dấu tiêu cực"
+    },
+    {
+      "phrase": "vulnerability",
+      "meaningVi": "sự dễ bị tổn thương / sự cởi mở",
+      "pronunciation": "/ˌvʌl.nər.əˈbɪl.ɪ.ti/"
+    },
+    {
+      "phrase": "to ask precisely",
+      "meaningVi": "nhờ một cách chính xác / rõ ràng"
+    },
+    {
+      "phrase": "to be declined",
+      "meaningVi": "bị từ chối"
+    },
+    {
+      "phrase": "to foster connection",
+      "meaningVi": "nuôi dưỡng / thúc đẩy kết nối"
+    },
+    {
+      "phrase": "radical individualism",
+      "meaningVi": "chủ nghĩa cá nhân cực đoan"
+    },
+    {
+      "phrase": "to articulate a need",
+      "meaningVi": "diễn đạt một nhu cầu một cách rõ ràng"
+    },
+    {
+      "phrase": "social fabric",
+      "meaningVi": "cấu trúc xã hội / mạng lưới quan hệ xã hội"
+    },
+    {
+      "phrase": "to be met with generosity",
+      "meaningVi": "được đáp lại bằng sự rộng lượng"
+    },
+    {
+      "phrase": "emotional self-sufficiency",
+      "meaningVi": "sự tự đủ về mặt cảm xúc"
+    },
+    {
+      "phrase": "to lower one's guard",
+      "meaningVi": "hạ thấp sự phòng thủ / mở lòng"
+    }
   ],
   "sampleText": "In Japanese, the phrase 'onegai shimasu' — used when making a request of almost any kind — is a small ceremony. It involves a bow, a careful choice of register, and an implicit acknowledgement that you are placing yourself in someone else's hands. The person being asked is elevated, not burdened. The request is a form of recognition. This is, in most English-speaking cultures, very difficult to imagine.\n\nWhat self-reliance cultures have systematically suppressed is the understanding that asking for help is a skill — one that requires practice, precision, and the willingness to accept that your need is legitimate and worthy of another person's time. The ability to articulate a need clearly, to ask a specific person for a specific thing, and to remain open to being declined without collapsing: these are not passive states but active ones. Having internalised the idea that asking represents failure, many adults find themselves unable to request even small amounts of assistance from people who would give it gladly.\n\nGranted, there is a meaningful distinction between appropriate interdependence and the kind of chronic reliance that does erode a person's capacity to function independently. The ability to manage one's own problems without always outsourcing them to others is a genuine skill, and societies that prize it are not simply promoting selfishness. Some cultures of self-reliance have produced extraordinary individual resilience alongside their coldness.\n\nEven so, the cost of suppressing the skill of asking is paid most visibly in the epidemics of loneliness that characterise wealthy individualist societies. Research consistently finds that people underestimate how willing others are to help when asked directly and specifically. The mental effort of composing a request, anticipating rejection, and managing the social risk of being seen to need something is so significant — in cultures where it has been stigmatised — that people routinely forgo connections and support they would actually receive with generosity.\n\nThe Filipino concept of 'bayanihan' — the tradition of a community literally carrying a neighbour's house to a new location together — encodes in a single image what asking for help actually involves: not humiliation, but participation in a system of reciprocity that makes everyone stronger. Scandinavian cultures, often cited for their blunt directness, have developed a related skill: people there ask because they know the social contract is reliable and refusal will not be held against them.\n\nWhat both traditions understand is that asking well is not about weakness. It is about trust. It is about treating the person you ask as capable of generosity, and treating yourself as worthy of receiving it. These are, in the end, statements about how a society imagines the relationship between its members — and the cultures that have forgotten to make them pay for the forgetting in isolation.",
   "sampleAnnotations": [
-    { "phrase": "a small ceremony", "meaningVi": "một nghi lễ nhỏ" },
-    { "phrase": "an implicit acknowledgement that you are placing yourself in someone else's hands", "meaningVi": "sự thừa nhận ngầm rằng bạn đang đặt bản thân vào tay người khác" },
-    { "phrase": "The person being asked is elevated, not burdened", "meaningVi": "Người được nhờ được nâng cao, không phải bị gánh nặng" },
-    { "phrase": "What self-reliance cultures have systematically suppressed is the understanding that asking for help is a skill", "meaningVi": "Điều mà các nền văn hóa tự lực đã kìm nén một cách có hệ thống là sự hiểu biết rằng nhờ giúp đỡ là một kỹ năng" },
-    { "phrase": "the willingness to accept that your need is legitimate and worthy of another person's time", "meaningVi": "sự sẵn sàng chấp nhận rằng nhu cầu của bạn là hợp pháp và xứng đáng với thời gian của người khác" },
-    { "phrase": "to articulate a need clearly", "meaningVi": "diễn đạt một nhu cầu một cách rõ ràng" },
-    { "phrase": "to remain open to being declined without collapsing", "meaningVi": "vẫn sẵn sàng bị từ chối mà không sụp đổ" },
-    { "phrase": "Having internalised the idea that asking represents failure", "meaningVi": "Sau khi đã nội tâm hóa ý tưởng rằng việc nhờ vả đại diện cho sự thất bại" },
-    { "phrase": "unable to request even small amounts of assistance from people who would give it gladly", "meaningVi": "không thể yêu cầu ngay cả những lượng hỗ trợ nhỏ từ những người sẽ cho đi một cách vui vẻ" },
-    { "phrase": "Granted, there is a meaningful distinction between appropriate interdependence and chronic reliance", "meaningVi": "Thừa nhận, có sự phân biệt có ý nghĩa giữa sự phụ thuộc lẫn nhau phù hợp và sự phụ thuộc mãn tính" },
-    { "phrase": "the cost of suppressing the skill of asking is paid most visibly in the epidemics of loneliness", "meaningVi": "chi phí kìm nén kỹ năng nhờ vả được trả rõ ràng nhất trong dịch bệnh cô đơn" },
-    { "phrase": "people underestimate how willing others are to help when asked directly and specifically", "meaningVi": "mọi người đánh giá thấp mức độ sẵn lòng giúp đỡ của người khác khi được nhờ trực tiếp và cụ thể" },
-    { "phrase": "the mental effort of composing a request, anticipating rejection, and managing the social risk", "meaningVi": "nỗ lực tinh thần để soạn một yêu cầu, dự đoán sự từ chối, và quản lý rủi ro xã hội" },
-    { "phrase": "in cultures where it has been stigmatised", "meaningVi": "trong các nền văn hóa nơi nó đã bị kỳ thị" },
-    { "phrase": "people routinely forgo connections and support they would actually receive with generosity", "meaningVi": "mọi người thường xuyên bỏ lỡ những kết nối và sự hỗ trợ mà họ thực sự sẽ nhận được với lòng rộng lượng" },
-    { "phrase": "encodes in a single image what asking for help actually involves", "meaningVi": "mã hóa trong một hình ảnh duy nhất những gì việc nhờ giúp đỡ thực sự liên quan" },
-    { "phrase": "not humiliation, but participation in a system of reciprocity", "meaningVi": "không phải sự nhục nhã, mà là sự tham gia vào một hệ thống có qua có lại" },
-    { "phrase": "people there ask because they know the social contract is reliable", "meaningVi": "mọi người ở đó nhờ vì họ biết rằng hợp đồng xã hội đáng tin cậy" },
-    { "phrase": "treating the person you ask as capable of generosity, and treating yourself as worthy of receiving it", "meaningVi": "đối xử với người bạn nhờ như có khả năng rộng lượng, và đối xử với bản thân như xứng đáng nhận lấy nó" },
-    { "phrase": "the cultures that have forgotten to make them pay for the forgetting in isolation", "meaningVi": "những nền văn hóa đã quên làm điều đó trả giá cho sự quên lãng trong cô đơn" }
+    {
+      "phrase": "a small ceremony",
+      "meaningVi": "một nghi lễ nhỏ"
+    },
+    {
+      "phrase": "an implicit acknowledgement that you are placing yourself in someone else's hands",
+      "meaningVi": "sự thừa nhận ngầm rằng bạn đang đặt bản thân vào tay người khác"
+    },
+    {
+      "phrase": "The person being asked is elevated, not burdened",
+      "meaningVi": "Người được nhờ được nâng cao, không phải bị gánh nặng"
+    },
+    {
+      "phrase": "What self-reliance cultures have systematically suppressed is the understanding that asking for help is a skill",
+      "meaningVi": "Điều mà các nền văn hóa tự lực đã kìm nén một cách có hệ thống là sự hiểu biết rằng nhờ giúp đỡ là một kỹ năng"
+    },
+    {
+      "phrase": "the willingness to accept that your need is legitimate and worthy of another person's time",
+      "meaningVi": "sự sẵn sàng chấp nhận rằng nhu cầu của bạn là hợp pháp và xứng đáng với thời gian của người khác"
+    },
+    {
+      "phrase": "to articulate a need clearly",
+      "meaningVi": "diễn đạt một nhu cầu một cách rõ ràng"
+    },
+    {
+      "phrase": "to remain open to being declined without collapsing",
+      "meaningVi": "vẫn sẵn sàng bị từ chối mà không sụp đổ"
+    },
+    {
+      "phrase": "Having internalised the idea that asking represents failure",
+      "meaningVi": "Sau khi đã nội tâm hóa ý tưởng rằng việc nhờ vả đại diện cho sự thất bại"
+    },
+    {
+      "phrase": "unable to request even small amounts of assistance from people who would give it gladly",
+      "meaningVi": "không thể yêu cầu ngay cả những lượng hỗ trợ nhỏ từ những người sẽ cho đi một cách vui vẻ"
+    },
+    {
+      "phrase": "Granted, there is a meaningful distinction between appropriate interdependence and",
+      "meaningVi": "Thừa nhận, có sự phân biệt có ý nghĩa giữa sự phụ thuộc lẫn nhau phù hợp và sự phụ thuộc mãn tính"
+    },
+    {
+      "phrase": "the cost of suppressing the skill of asking is paid most visibly in the epidemics of loneliness",
+      "meaningVi": "chi phí kìm nén kỹ năng nhờ vả được trả rõ ràng nhất trong dịch bệnh cô đơn"
+    },
+    {
+      "phrase": "people underestimate how willing others are to help when asked directly and specifically",
+      "meaningVi": "mọi người đánh giá thấp mức độ sẵn lòng giúp đỡ của người khác khi được nhờ trực tiếp và cụ thể"
+    },
+    {
+      "phrase": "the mental effort of composing a request, anticipating rejection, and managing the social risk",
+      "meaningVi": "nỗ lực tinh thần để soạn một yêu cầu, dự đoán sự từ chối, và quản lý rủi ro xã hội"
+    },
+    {
+      "phrase": "in cultures where it has been stigmatised",
+      "meaningVi": "trong các nền văn hóa nơi nó đã bị kỳ thị"
+    },
+    {
+      "phrase": "people routinely forgo connections and support they would actually receive with generosity",
+      "meaningVi": "mọi người thường xuyên bỏ lỡ những kết nối và sự hỗ trợ mà họ thực sự sẽ nhận được với lòng rộng lượng"
+    },
+    {
+      "phrase": "encodes in a single image what asking for help actually involves",
+      "meaningVi": "mã hóa trong một hình ảnh duy nhất những gì việc nhờ giúp đỡ thực sự liên quan"
+    },
+    {
+      "phrase": "not humiliation, but participation in a system of reciprocity",
+      "meaningVi": "không phải sự nhục nhã, mà là sự tham gia vào một hệ thống có qua có lại"
+    },
+    {
+      "phrase": "people there ask because they know the social contract is reliable",
+      "meaningVi": "mọi người ở đó nhờ vì họ biết rằng hợp đồng xã hội đáng tin cậy"
+    },
+    {
+      "phrase": "treating the person you ask as capable of generosity, and treating yourself as worthy of receiving it",
+      "meaningVi": "đối xử với người bạn nhờ như có khả năng rộng lượng, và đối xử với bản thân như xứng đáng nhận lấy nó"
+    },
+    {
+      "phrase": "the cultures that have forgotten to make them pay for the forgetting in isolation",
+      "meaningVi": "những nền văn hóa đã quên làm điều đó trả giá cho sự quên lãng trong cô đơn"
+    }
   ],
   "sampleGrammarNotes": [
     {

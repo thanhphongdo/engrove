@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "The politics of who gets to be a beginner in public",
   "summary": "Argue that the social permission to learn in public — to be visibly incompetent on the way to competence — is unevenly distributed, and that this unevenness has political consequences that go beyond individual psychology.",
-  "tags": ["Society", "Power", "Education"],
+  "tags": [
+    "Society",
+    "Power",
+    "Education"
+  ],
   "topic": "The unequal social permission to be a beginner in public and its political consequences",
   "prompt": "Write a 600–800-word argumentative essay arguing that the permission to be a beginner in public — to be seen learning, failing, and improving — is not equally available to everyone. Argue that who gets to be visibly incompetent without serious social penalty is determined by existing structures of gender, race, class, and institutional role, and that this unequal permission has consequences for who develops expertise, who enters which fields, and who gets to fail and try again. Use inversion at least once, a cleft sentence, and a 'granted… even so…' concession. Avoid reducing this to a list of identity categories. Develop a sustained argument about visibility, permission, and the social organisation of learning. 5–7 paragraphs.",
   "minWords": 600,
@@ -14,49 +18,169 @@
     "Granted, all beginners face some discomfort — the gap between aspiration and present ability is uncomfortable for everyone. Even so,…"
   ],
   "hintVocab": [
-    {"phrase": "visible incompetence", "meaningVi": "sự kém cỏi dễ thấy"},
-    {"phrase": "social permission", "meaningVi": "sự cho phép xã hội"},
-    {"phrase": "to be a beginner in public", "meaningVi": "là người mới bắt đầu trước mặt công chúng"},
-    {"phrase": "the penalty for failure", "meaningVi": "hình phạt cho sự thất bại"},
-    {"phrase": "institutional grace", "meaningVi": "ân huệ thể chế"},
-    {"phrase": "to enter a field", "meaningVi": "bước vào một lĩnh vực"},
-    {"phrase": "asymmetric cost of failure", "meaningVi": "chi phí thất bại bất đối xứng"},
-    {"phrase": "epistemic charity", "meaningVi": "sự rộng lượng nhận thức"},
-    {"phrase": "to be read as incompetent", "meaningVi": "bị đọc là kém cỏi"},
-    {"phrase": "the scaffold of assumption", "meaningVi": "giàn giáo của giả định"},
-    {"phrase": "the tolerance for error", "meaningVi": "sự khoan dung đối với lỗi lầm"},
-    {"phrase": "to develop expertise", "meaningVi": "phát triển chuyên môn"},
-    {"phrase": "the cost of being seen", "meaningVi": "chi phí của việc bị nhìn thấy"},
-    {"phrase": "structural disadvantage", "meaningVi": "bất lợi có tính cấu trúc"},
-    {"phrase": "charitable interpretation", "meaningVi": "cách diễn giải từ thiện, cách hiểu tốt nhất"},
-    {"phrase": "to absorb the discomfort of learning", "meaningVi": "hấp thụ sự khó chịu của việc học"},
-    {"phrase": "the right to fail and return", "meaningVi": "quyền thất bại và quay trở lại"},
-    {"phrase": "credential versus performance", "meaningVi": "bằng cấp so với năng lực thực tế"},
-    {"phrase": "the politics of legibility", "meaningVi": "chính trị của sự dễ đọc, dễ nhận biết"},
-    {"phrase": "protected space for error", "meaningVi": "không gian được bảo vệ cho sai lầm"}
+    {
+      "phrase": "visible incompetence",
+      "meaningVi": "sự kém cỏi dễ thấy"
+    },
+    {
+      "phrase": "social permission",
+      "meaningVi": "sự cho phép xã hội"
+    },
+    {
+      "phrase": "to be a beginner in public",
+      "meaningVi": "là người mới bắt đầu trước mặt công chúng"
+    },
+    {
+      "phrase": "the penalty for failure",
+      "meaningVi": "hình phạt cho sự thất bại"
+    },
+    {
+      "phrase": "institutional grace",
+      "meaningVi": "ân huệ thể chế"
+    },
+    {
+      "phrase": "to enter a field",
+      "meaningVi": "bước vào một lĩnh vực"
+    },
+    {
+      "phrase": "asymmetric cost of failure",
+      "meaningVi": "chi phí thất bại bất đối xứng"
+    },
+    {
+      "phrase": "epistemic charity",
+      "meaningVi": "sự rộng lượng nhận thức"
+    },
+    {
+      "phrase": "to be read as incompetent",
+      "meaningVi": "bị đọc là kém cỏi"
+    },
+    {
+      "phrase": "the scaffold of assumption",
+      "meaningVi": "giàn giáo của giả định"
+    },
+    {
+      "phrase": "the tolerance for error",
+      "meaningVi": "sự khoan dung đối với lỗi lầm"
+    },
+    {
+      "phrase": "to develop expertise",
+      "meaningVi": "phát triển chuyên môn"
+    },
+    {
+      "phrase": "the cost of being seen",
+      "meaningVi": "chi phí của việc bị nhìn thấy"
+    },
+    {
+      "phrase": "structural disadvantage",
+      "meaningVi": "bất lợi có tính cấu trúc"
+    },
+    {
+      "phrase": "charitable interpretation",
+      "meaningVi": "cách diễn giải từ thiện, cách hiểu tốt nhất"
+    },
+    {
+      "phrase": "to absorb the discomfort of learning",
+      "meaningVi": "hấp thụ sự khó chịu của việc học"
+    },
+    {
+      "phrase": "the right to fail and return",
+      "meaningVi": "quyền thất bại và quay trở lại"
+    },
+    {
+      "phrase": "credential versus performance",
+      "meaningVi": "bằng cấp so với năng lực thực tế"
+    },
+    {
+      "phrase": "the politics of legibility",
+      "meaningVi": "chính trị của sự dễ đọc, dễ nhận biết"
+    },
+    {
+      "phrase": "protected space for error",
+      "meaningVi": "không gian được bảo vệ cho sai lầm"
+    }
   ],
   "sampleText": "Learning requires the tolerance of error, and error, in public, requires the tolerance of observers. The student who asks the question everyone else was afraid to ask, the new professional who admits they do not yet know what they are doing, the adult who takes up a new instrument and plays badly in front of colleagues — each of these requires an environment in which incompetence on the way to competence is read as a promising stage rather than a disqualifying condition. That environment is not equally distributed. Who gets it, and under what conditions, is a question with political consequences that learning theory has been too slow to examine.\n\nRarely is the permission to be incompetent in public examined as a political phenomenon rather than a psychological one. The conversation about beginners tends to focus on individual attitudes — the courage to ask questions, the willingness to fail, the resilience to continue. These matter. But they are insufficient as an account of why some people enter fields and others do not, why some people ask questions in rooms where others stay silent, why some people try things publicly that others only attempt in private. The gap between aspiration and action is not only a matter of individual psychology; it is also a matter of what the social environment offers.\n\nThe social environment, in this respect, is highly uneven. Some beginners enter a room already carrying what might be called the scaffold of assumption: the prior belief — held by others — that they are capable, that their question reflects curiosity rather than ignorance, that their failure is a rehearsal rather than a verdict. This assumption is extended, disproportionately, to those who resemble people who have succeeded in the field before. Those who do not — who are unfamiliar in appearance, background, or manner — often face the same moment of public incompetence with a different default interpretation: not 'they are learning' but 'they do not belong.' The cost of the same error is not the same across all bodies.\n\nGranted, all beginners face some discomfort — the gap between aspiration and present ability is uncomfortable for everyone. Even so, the discomfort of being read as incompetent when one is learning is not equivalent to the discomfort of being read as evidence that people like you are incompetent, period. For some beginners, a mistake in public is a data point in a personal story; for others, it becomes evidence in a generalisation about their group. This is the asymmetric cost of failure — and it operates as a deterrent not because the people it affects are less courageous but because the social penalty they face is genuinely higher.\n\nWhat makes public beginner-hood dangerous for some is not the incompetence itself but the interpretive framework into which it is placed. Where charitable interpretation is extended freely — where a stumbling sentence is heard as a thought in progress, where a wrong answer is heard as a genuine attempt — the space for learning expands. Where it is withheld or rationed — where incompetence is taken as confirmation of prior suspicion — the space contracts. This is not only about the feelings of the individuals concerned; it is about who develops expertise. People who cannot afford the cost of visible failure do not take the risks that learning requires; they hold back, specialise in what is safe, and contribute less to fields from which the price of entry was too high.\n\nIt is the political organisation of epistemic charity, not the distribution of natural ability, that most powerfully shapes who enters which fields and at what level. Expanding the pool of people who can develop expertise in a field requires not only formal access — removing barriers of credential and cost — but informal permission: the extension of charitable interpretation to people whose presence in the room is still, in some quarters, treated as provisional.\n\nNone of this means that individual psychology is irrelevant — that courage, resilience, and persistence do not matter. They matter enormously, and those who have developed them are rightly admired. But individual psychology operates within conditions it does not create, and those conditions include the social distribution of the tolerance for error. A fair account of learning, and a fair account of who gets to develop in which directions, has to begin with that distribution — and take seriously the work required to change it.",
   "sampleAnnotations": [
-    {"phrase": "Learning requires the tolerance of error, and error, in public, requires the tolerance of observers", "meaningVi": "Học tập đòi hỏi sự khoan dung đối với lỗi lầm, và lỗi lầm, trước công chúng, đòi hỏi sự khoan dung của người quan sát"},
-    {"phrase": "incompetence on the way to competence is read as a promising stage rather than a disqualifying condition", "meaningVi": "sự kém cỏi trên đường đến thành thạo được đọc là giai đoạn đầy hứa hẹn hơn là điều kiện loại trừ"},
-    {"phrase": "That environment is not equally distributed", "meaningVi": "Môi trường đó không được phân phối đồng đều"},
-    {"phrase": "Rarely is the permission to be incompetent in public examined as a political phenomenon rather than a psychological one", "meaningVi": "Hiếm khi sự cho phép kém cỏi trước công chúng được xem xét như là một hiện tượng chính trị hơn là tâm lý"},
-    {"phrase": "The gap between aspiration and action is not only a matter of individual psychology", "meaningVi": "Khoảng cách giữa khát vọng và hành động không chỉ là vấn đề tâm lý cá nhân"},
-    {"phrase": "the scaffold of assumption", "meaningVi": "giàn giáo của giả định"},
-    {"phrase": "their question reflects curiosity rather than ignorance", "meaningVi": "câu hỏi của họ phản ánh sự tò mò hơn là sự ngu dốt"},
-    {"phrase": "their failure is a rehearsal rather than a verdict", "meaningVi": "thất bại của họ là sự luyện tập hơn là bản án"},
-    {"phrase": "The cost of the same error is not the same across all bodies", "meaningVi": "Chi phí của cùng một lỗi không giống nhau đối với tất cả mọi người"},
-    {"phrase": "Granted, all beginners face some discomfort", "meaningVi": "Cứ cho là, tất cả những người mới bắt đầu đều đối mặt với một số khó chịu"},
-    {"phrase": "the discomfort of being read as evidence that people like you are incompetent, period", "meaningVi": "sự khó chịu của việc bị đọc là bằng chứng rằng những người như bạn kém cỏi, giai đoạn"},
-    {"phrase": "the asymmetric cost of failure", "meaningVi": "chi phí thất bại bất đối xứng"},
-    {"phrase": "it operates as a deterrent not because the people it affects are less courageous but because the social penalty they face is genuinely higher", "meaningVi": "nó hoạt động như một sự ngăn cản không phải vì những người bị ảnh hưởng kém dũng cảm hơn mà vì hình phạt xã hội mà họ đối mặt là cao hơn thực sự"},
-    {"phrase": "What makes public beginner-hood dangerous for some is not the incompetence itself but the interpretive framework into which it is placed", "meaningVi": "Những gì làm cho việc là người mới bắt đầu trước công chúng nguy hiểm cho một số người không phải là sự kém cỏi bản thân mà là khuôn khổ diễn giải mà nó được đặt vào"},
-    {"phrase": "Where charitable interpretation is extended freely", "meaningVi": "Nơi cách diễn giải từ thiện được mở rộng tự do"},
-    {"phrase": "the space for learning expands", "meaningVi": "không gian cho học tập mở rộng"},
-    {"phrase": "People who cannot afford the cost of visible failure do not take the risks that learning requires", "meaningVi": "Những người không thể chịu đựng chi phí của sự thất bại có thể thấy không chấp nhận rủi ro mà việc học đòi hỏi"},
-    {"phrase": "It is the political organisation of epistemic charity, not the distribution of natural ability, that most powerfully shapes who enters which fields", "meaningVi": "Chính tổ chức chính trị của sự rộng lượng nhận thức, không phải sự phân phối khả năng tự nhiên, mới định hình mạnh mẽ nhất ai bước vào lĩnh vực nào"},
-    {"phrase": "the extension of charitable interpretation to people whose presence in the room is still, in some quarters, treated as provisional", "meaningVi": "việc mở rộng cách diễn giải từ thiện cho những người mà sự hiện diện của họ trong phòng vẫn còn, ở một số nơi, được coi là tạm thời"},
-    {"phrase": "those conditions include the social distribution of the tolerance for error", "meaningVi": "những điều kiện đó bao gồm sự phân phối xã hội của sự khoan dung đối với lỗi lầm"}
+    {
+      "phrase": "Learning requires the tolerance of error, and error, in public, requires the tolerance of observers",
+      "meaningVi": "Học tập đòi hỏi sự khoan dung đối với lỗi lầm, và lỗi lầm, trước công chúng, đòi hỏi sự khoan dung của người quan sát"
+    },
+    {
+      "phrase": "incompetence on the way to competence is read as a promising stage rather than a disqualifying condition",
+      "meaningVi": "sự kém cỏi trên đường đến thành thạo được đọc là giai đoạn đầy hứa hẹn hơn là điều kiện loại trừ"
+    },
+    {
+      "phrase": "That environment is not equally distributed",
+      "meaningVi": "Môi trường đó không được phân phối đồng đều"
+    },
+    {
+      "phrase": "Rarely is the permission to be incompetent in public examined as a political phenomenon rather than a psychological one",
+      "meaningVi": "Hiếm khi sự cho phép kém cỏi trước công chúng được xem xét như là một hiện tượng chính trị hơn là tâm lý"
+    },
+    {
+      "phrase": "The gap between aspiration and action is not only a matter of individual psychology",
+      "meaningVi": "Khoảng cách giữa khát vọng và hành động không chỉ là vấn đề tâm lý cá nhân"
+    },
+    {
+      "phrase": "the scaffold of assumption",
+      "meaningVi": "giàn giáo của giả định"
+    },
+    {
+      "phrase": "their question reflects curiosity rather than ignorance",
+      "meaningVi": "câu hỏi của họ phản ánh sự tò mò hơn là sự ngu dốt"
+    },
+    {
+      "phrase": "their failure is a rehearsal rather than a verdict",
+      "meaningVi": "thất bại của họ là sự luyện tập hơn là bản án"
+    },
+    {
+      "phrase": "The cost of the same error is not the same across all bodies",
+      "meaningVi": "Chi phí của cùng một lỗi không giống nhau đối với tất cả mọi người"
+    },
+    {
+      "phrase": "Granted, all beginners face some discomfort",
+      "meaningVi": "Cứ cho là, tất cả những người mới bắt đầu đều đối mặt với một số khó chịu"
+    },
+    {
+      "phrase": "the discomfort of being read as evidence that people like you are incompetent, period",
+      "meaningVi": "sự khó chịu của việc bị đọc là bằng chứng rằng những người như bạn kém cỏi, giai đoạn"
+    },
+    {
+      "phrase": "the asymmetric cost of failure",
+      "meaningVi": "chi phí thất bại bất đối xứng"
+    },
+    {
+      "phrase": "it operates as a deterrent not because the people it affects are less courageous but because the social penalty they face is genuinely higher",
+      "meaningVi": "nó hoạt động như một sự ngăn cản không phải vì những người bị ảnh hưởng kém dũng cảm hơn mà vì hình phạt xã hội mà họ đối mặt là cao hơn thực sự"
+    },
+    {
+      "phrase": "What makes public beginner-hood dangerous for some is not the incompetence itself but the interpretive framework into which it is placed",
+      "meaningVi": "Những gì làm cho việc là người mới bắt đầu trước công chúng nguy hiểm cho một số người không phải là sự kém cỏi bản thân mà là khuôn khổ diễn giải mà nó được đặt vào"
+    },
+    {
+      "phrase": "Where charitable interpretation is extended freely",
+      "meaningVi": "Nơi cách diễn giải từ thiện được mở rộng tự do"
+    },
+    {
+      "phrase": "the space for learning expands",
+      "meaningVi": "không gian cho học tập mở rộng"
+    },
+    {
+      "phrase": "People who cannot afford the cost of visible failure do not take the risks that learning requires",
+      "meaningVi": "Những người không thể chịu đựng chi phí của sự thất bại có thể thấy không chấp nhận rủi ro mà việc học đòi hỏi"
+    },
+    {
+      "phrase": "It is the political organisation of epistemic charity, not the distribution of natural ability, that most powerfully shapes who enters which fields",
+      "meaningVi": "Chính tổ chức chính trị của sự rộng lượng nhận thức, không phải sự phân phối khả năng tự nhiên, mới định hình mạnh mẽ nhất ai bước vào lĩnh vực nào"
+    },
+    {
+      "phrase": "the extension of charitable interpretation to people whose presence in the room is still, in some quarters, treated as provisional",
+      "meaningVi": "việc mở rộng cách diễn giải từ thiện cho những người mà sự hiện diện của họ trong phòng vẫn còn, ở một số nơi, được coi là tạm thời"
+    },
+    {
+      "phrase": "those conditions include the social distribution of the tolerance for error",
+      "meaningVi": "những điều kiện đó bao gồm sự phân phối xã hội của sự khoan dung đối với lỗi lầm"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -90,11 +214,11 @@
       "prompt": "Which applies inversion correctly after 'Rarely'?",
       "options": [
         "Rarely the permission to be incompetent in public is examined as a political phenomenon.",
-        "Rarely is the permission to be incompetent in public examined as a political phenomenon rather than a psychological one.",
         "The permission to be incompetent in public is rarely examined politically.",
+        "Rarely is the permission to be incompetent in public examined as a political phenomenon rather than a psychological one.",
         "Rarely, one argues, does public incompetence get examined as a political matter."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'Rarely is the permission to be incompetent in public examined…' correctly inverts the passive auxiliary 'is' before the subject after the negative adverb 'Rarely'.",
       "hint": "The verb is in the passive ('is examined'), so the inverted auxiliary is 'is'."
     },
@@ -103,11 +227,11 @@
       "prompt": "What does 'the scaffold of assumption' refer to?",
       "options": [
         "The formal curriculum that structures a learner's progress",
-        "The prior belief — held by observers — that a person is capable and that their errors are learning rehearsals",
         "The supporting structure that teachers provide for struggling students",
-        "The network of colleagues who support a newcomer entering a field"
+        "The network of colleagues who support a newcomer entering a field",
+        "The prior belief — held by observers — that a person is capable and that their errors are learning rehearsals"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay says some beginners enter 'already carrying the scaffold of assumption: the prior belief — held by others — that they are capable, that their question reflects curiosity rather than ignorance, that their failure is a rehearsal rather than a verdict.'",
       "hint": "Look at the third paragraph."
     },
@@ -115,12 +239,12 @@
       "id": "q4",
       "prompt": "What does the 'Granted… Even so…' structure concede and counter?",
       "options": [
-        "Grants that some fields are harder than others; counters that everyone can still learn them",
         "Grants that all beginners face discomfort; counters that the discomfort is not equivalent for everyone — for some it means representing their group",
+        "Grants that some fields are harder than others; counters that everyone can still learn them",
         "Grants that courage is important; counters that structural factors matter more",
         "Grants that social penalties exist; counters that they can be overcome with persistence"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The concession grants that all beginners face discomfort; the counter ('Even so') insists the discomfort of 'being read as evidence that people like you are incompetent' is categorically different from ordinary learning discomfort.",
       "hint": "Look at the fourth paragraph."
     },
@@ -142,11 +266,11 @@
       "prompt": "What does 'epistemic charity' mean?",
       "options": [
         "Financial support for educational institutions",
-        "The charitable interpretation extended to a person's questions, errors, and attempts — reading them as learning rather than as evidence of incompetence",
         "The donation of books and learning resources to underfunded schools",
+        "The charitable interpretation extended to a person's questions, errors, and attempts — reading them as learning rather than as evidence of incompetence",
         "The ethical obligation to share knowledge freely"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay uses 'epistemic charity' to describe the social practice of charitably interpreting someone's intellectual efforts — reading questions as curiosity, errors as rehearsals. It is distributed unequally.",
       "hint": "Think about 'epistemic' (relating to knowledge) plus 'charity' (generous interpretation)."
     },
@@ -155,11 +279,11 @@
       "prompt": "What is the 'asymmetric cost of failure'?",
       "options": [
         "The fact that failure costs more in some industries than others",
-        "The fact that the same visible error carries different social penalties depending on who makes it",
         "The financial cost of failing an examination or professional assessment",
-        "The emotional asymmetry between the person who fails and the person who observes the failure"
+        "The emotional asymmetry between the person who fails and the person who observes the failure",
+        "The fact that the same visible error carries different social penalties depending on who makes it"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay says: 'for some beginners, a mistake in public is a data point in a personal story; for others, it becomes evidence in a generalisation about their group' — this is the asymmetric cost of failure.",
       "hint": "Look at the fourth paragraph."
     },
@@ -167,12 +291,12 @@
       "id": "q8",
       "prompt": "What does the essay say happens when charitable interpretation is withheld?",
       "options": [
-        "Beginners become more resilient through the challenge of learning without support",
         "The space for learning contracts — people who cannot afford visible failure hold back and avoid risk",
+        "Beginners become more resilient through the challenge of learning without support",
         "Institutions become more meritocratic because only truly able people enter",
         "Fields become more competitive, which accelerates learning for those who remain"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay says: 'Where it is withheld or rationed — where incompetence is taken as confirmation of prior suspicion — the space contracts. People who cannot afford the cost of visible failure do not take the risks that learning requires.'",
       "hint": "Look at the fifth paragraph."
     },
@@ -194,11 +318,11 @@
       "prompt": "What does 'treated as provisional' mean in the context of who enters a room?",
       "options": [
         "Being present on a temporary contract or fellowship",
-        "Being present in a way that is still considered tentative or conditional — as if one might not truly belong there",
         "Being given provisional approval pending a formal assessment",
+        "Being present in a way that is still considered tentative or conditional — as if one might not truly belong there",
         "Being new to a field and therefore lacking established credentials"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay refers to 'people whose presence in the room is still, in some quarters, treated as provisional' — people who are not yet assumed to belong, and whose incompetence is therefore read as evidence of this rather than as normal learning.",
       "hint": "Think about what 'provisional' means — temporary, conditional, not yet fully established."
     },
@@ -207,11 +331,11 @@
       "prompt": "What is the essay's position on individual psychology — courage and resilience?",
       "options": [
         "Individual psychology is irrelevant to learning outcomes",
-        "Individual psychology matters enormously, but it operates within structural conditions it does not create",
         "Individual courage is more important than structural conditions",
-        "Resilience is a quality that structural reform cannot substitute for"
+        "Resilience is a quality that structural reform cannot substitute for",
+        "Individual psychology matters enormously, but it operates within structural conditions it does not create"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The final paragraph states: 'None of this means that individual psychology is irrelevant…They matter enormously…But individual psychology operates within conditions it does not create, and those conditions include the social distribution of the tolerance for error.'",
       "hint": "Read the final paragraph."
     },
@@ -219,12 +343,12 @@
       "id": "q12",
       "prompt": "What does 'the interpretive framework into which it is placed' mean?",
       "options": [
-        "The theoretical framework used to analyse an act of incompetence",
         "The set of assumptions observers bring to an act — determining whether error is read as learning or as evidence of not belonging",
+        "The theoretical framework used to analyse an act of incompetence",
         "The formal assessment rubric used to evaluate a beginner's performance",
         "The cultural context that determines how failure is defined"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay says what makes public beginner-hood dangerous 'is not the incompetence itself but the interpretive framework into which it is placed' — the assumptions that determine how the incompetence is read.",
       "hint": "Look at the fifth paragraph."
     },
@@ -246,11 +370,11 @@
       "prompt": "Which best paraphrases 'incompetence on the way to competence'?",
       "options": [
         "A permanent state of inability that prevents entry into a field",
-        "The normal, expected phase of error and struggle that occurs during learning before competence is achieved",
         "The incompetence of experts who have fallen behind current knowledge",
+        "The normal, expected phase of error and struggle that occurs during learning before competence is achieved",
         "A temporary condition caused by poor preparation"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'Incompetence on the way to competence' describes the normal phase of being visibly unable during learning — the essay's question is whether this phase is equally tolerated across all types of beginners.",
       "hint": "Look at the first paragraph."
     },
@@ -259,11 +383,11 @@
       "prompt": "What does the essay say is required for a 'fair account of learning'?",
       "options": [
         "Recognition that all learners face essentially the same challenges",
-        "An account that begins with the social distribution of the tolerance for error and takes seriously the work required to change it",
         "Better measurement of learning outcomes across different groups",
-        "More emphasis on individual responsibility and resilience in educational systems"
+        "More emphasis on individual responsibility and resilience in educational systems",
+        "An account that begins with the social distribution of the tolerance for error and takes seriously the work required to change it"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay concludes: 'A fair account of learning, and a fair account of who gets to develop in which directions, has to begin with that distribution — and take seriously the work required to change it.'",
       "hint": "Read the final sentence."
     }

@@ -3,7 +3,11 @@
   "level": "A1",
   "title": "The old radio in my kitchen",
   "summary": "Describe an old radio that plays in your kitchen every morning.",
-  "tags": ["Home", "Object", "Habit"],
+  "tags": [
+    "Home",
+    "Object",
+    "Habit"
+  ],
   "topic": "The old radio in my kitchen",
   "prompt": "Write 6–8 short sentences about an old radio in your kitchen. Describe what it looks like, when you turn it on, and what you listen to. Use present simple.",
   "minWords": 150,
@@ -14,31 +18,97 @@
     "I listen to…"
   ],
   "hintVocab": [
-    { "phrase": "old radio", "meaningVi": "đài cũ" },
-    { "phrase": "kitchen shelf", "meaningVi": "kệ bếp" },
-    { "phrase": "wooden box", "meaningVi": "hộp gỗ" },
-    { "phrase": "round button", "meaningVi": "núm tròn" },
-    { "phrase": "turn the dial", "meaningVi": "vặn núm dò sóng" },
-    { "phrase": "morning news", "meaningVi": "tin tức buổi sáng" },
-    { "phrase": "soft music", "meaningVi": "nhạc nhẹ" },
-    { "phrase": "weather report", "meaningVi": "bản tin thời tiết" },
-    { "phrase": "warm sound", "meaningVi": "âm thanh ấm" },
-    { "phrase": "second-hand shop", "meaningVi": "tiệm đồ cũ" },
-    { "phrase": "loud", "meaningVi": "to (âm thanh)" }
+    {
+      "phrase": "old radio",
+      "meaningVi": "đài cũ"
+    },
+    {
+      "phrase": "kitchen shelf",
+      "meaningVi": "kệ bếp"
+    },
+    {
+      "phrase": "wooden box",
+      "meaningVi": "hộp gỗ"
+    },
+    {
+      "phrase": "round button",
+      "meaningVi": "núm tròn"
+    },
+    {
+      "phrase": "turn the dial",
+      "meaningVi": "vặn núm dò sóng"
+    },
+    {
+      "phrase": "morning news",
+      "meaningVi": "tin tức buổi sáng"
+    },
+    {
+      "phrase": "soft music",
+      "meaningVi": "nhạc nhẹ"
+    },
+    {
+      "phrase": "weather report",
+      "meaningVi": "bản tin thời tiết"
+    },
+    {
+      "phrase": "warm sound",
+      "meaningVi": "âm thanh ấm"
+    },
+    {
+      "phrase": "second-hand shop",
+      "meaningVi": "tiệm đồ cũ"
+    },
+    {
+      "phrase": "loud",
+      "meaningVi": "to (âm thanh)"
+    }
   ],
   "sampleText": "There is an old radio on my kitchen shelf in Buenos Aires. The radio is a small brown wooden box with two round buttons. One button is for the volume and one is for the dial. The radio is older than I am. I bought it at a second-hand shop near the bus station for very little money. I turn the radio on every morning when I make coffee. I listen to the morning news for ten minutes, and then I turn the dial to a small music station. The music is soft, often piano or guitar. The sound is warm and a little dry, not clear like my phone. The radio sometimes makes a small noise when a bus passes outside. I do not mind. In winter, I listen to the weather report so I know what to wear. The kitchen feels alive when the radio plays. An old radio is a small friend in the morning.",
   "sampleAnnotations": [
-    { "phrase": "old radio", "meaningVi": "đài cũ" },
-    { "phrase": "kitchen shelf", "meaningVi": "kệ bếp" },
-    { "phrase": "small brown wooden box", "meaningVi": "hộp gỗ nâu nhỏ" },
-    { "phrase": "two round buttons", "meaningVi": "hai núm tròn" },
-    { "phrase": "second-hand shop", "meaningVi": "tiệm đồ cũ" },
-    { "phrase": "turn the radio on", "meaningVi": "bật đài" },
-    { "phrase": "morning news", "meaningVi": "tin tức buổi sáng" },
-    { "phrase": "small music station", "meaningVi": "đài nhạc nhỏ" },
-    { "phrase": "warm and a little dry", "meaningVi": "ấm và hơi khô" },
-    { "phrase": "weather report", "meaningVi": "bản tin thời tiết" },
-    { "phrase": "small friend in the morning", "meaningVi": "một người bạn nhỏ vào buổi sáng" }
+    {
+      "phrase": "old radio",
+      "meaningVi": "đài cũ"
+    },
+    {
+      "phrase": "kitchen shelf",
+      "meaningVi": "kệ bếp"
+    },
+    {
+      "phrase": "small brown wooden box",
+      "meaningVi": "hộp gỗ nâu nhỏ"
+    },
+    {
+      "phrase": "two round buttons",
+      "meaningVi": "hai núm tròn"
+    },
+    {
+      "phrase": "second-hand shop",
+      "meaningVi": "tiệm đồ cũ"
+    },
+    {
+      "phrase": "turn the radio on",
+      "meaningVi": "bật đài"
+    },
+    {
+      "phrase": "morning news",
+      "meaningVi": "tin tức buổi sáng"
+    },
+    {
+      "phrase": "small music station",
+      "meaningVi": "đài nhạc nhỏ"
+    },
+    {
+      "phrase": "warm and a little dry",
+      "meaningVi": "ấm và hơi khô"
+    },
+    {
+      "phrase": "weather report",
+      "meaningVi": "bản tin thời tiết"
+    },
+    {
+      "phrase": "small friend in the morning",
+      "meaningVi": "một người bạn nhỏ vào buổi sáng"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -59,11 +129,11 @@
       "prompt": "Where is the radio?",
       "options": [
         "In the bedroom",
-        "On the kitchen shelf",
         "In the bathroom",
-        "On the office desk"
+        "On the office desk",
+        "On the kitchen shelf"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The text says 'There is an old radio on my kitchen shelf'.",
       "hint": "Look at the location in the first sentence."
     },
@@ -71,12 +141,12 @@
       "id": "q2",
       "prompt": "How many buttons does the radio have?",
       "options": [
-        "One",
         "Two",
+        "One",
         "Three",
         "Four"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The text says 'two round buttons'.",
       "hint": "Find the number near 'buttons'."
     },
@@ -98,11 +168,11 @@
       "prompt": "When does the writer turn the radio on?",
       "options": [
         "At night",
-        "Every morning when making coffee",
         "Only on weekends",
+        "Every morning when making coffee",
         "Only when it rains"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The text says 'I turn the radio on every morning when I make coffee'.",
       "hint": "Find the morning routine sentence."
     },
@@ -111,11 +181,11 @@
       "prompt": "How long does the writer listen to the morning news?",
       "options": [
         "Five minutes",
-        "Ten minutes",
         "Twenty minutes",
-        "One hour"
+        "One hour",
+        "Ten minutes"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The text says 'I listen to the morning news for ten minutes'.",
       "hint": "Find the duration of the news."
     },
@@ -123,12 +193,12 @@
       "id": "q6",
       "prompt": "What kind of music plays after the news?",
       "options": [
-        "Loud rock",
         "Soft music, often piano or guitar",
+        "Loud rock",
         "Children's songs",
         "Opera"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The text says 'The music is soft, often piano or guitar'.",
       "hint": "Find the music description."
     },
@@ -150,11 +220,11 @@
       "prompt": "Why does the writer listen to the weather report in winter?",
       "options": [
         "Because the writer loves snow",
-        "So the writer knows what to wear",
         "To learn about other countries",
+        "So the writer knows what to wear",
         "To fall asleep"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The text says 'I listen to the weather report so I know what to wear'.",
       "hint": "Look at the reason after 'so'."
     },
@@ -163,11 +233,11 @@
       "prompt": "Which sentence uses 'turn on' correctly?",
       "options": [
         "I turning on the radio.",
-        "I turn the radio on every morning.",
         "I turn on it every morning.",
-        "I turn it the radio on."
+        "I turn it the radio on.",
+        "I turn the radio on every morning."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "Short noun objects can go between 'turn' and 'on': 'turn the radio on'.",
       "hint": "Look for the correct word order for a phrasal verb."
     },
@@ -175,12 +245,12 @@
       "id": "q10",
       "prompt": "How does the writer describe the radio at the end?",
       "options": [
-        "An old thing",
         "A small friend in the morning",
+        "An old thing",
         "A noisy machine",
         "A bad gift"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The text says 'An old radio is a small friend in the morning'.",
       "hint": "Look at the final sentence."
     }

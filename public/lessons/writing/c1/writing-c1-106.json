@@ -1,0 +1,518 @@
+{
+  "id": "writing-c1-106",
+  "level": "C1",
+  "title": "The room where letters never arrived",
+  "summary": "Reflect on a 19th-century dead-letter office and the undeliverable letters opened by clerks — and ask whether reading a stranger's unreceived words is rescue, intrusion, or a quieter kind of loss.",
+  "tags": [
+    "Reflect",
+    "Obscure history",
+    "Letters"
+  ],
+  "topic": "The ethics and pathos of undeliverable letters opened by strangers",
+  "prompt": "Write a 600–800-word reflective essay anchored in a real practice: the dead-letter office, where clerks opened mail that could neither be delivered nor returned. Reflect on what it means that a stranger reads words meant for one person who never received them, and resist a tidy moral. Use a contemplative C1 register, hedging, free indirect thought, deliberate cohesion, and reach a qualified, unresolved judgement rather than a lesson.",
+  "minWords": 600,
+  "maxWords": 800,
+  "hintStarters": [
+    "A letter that never arrives is not quite the same as a letter never written, because the words still exist somewhere, waiting for…",
+    "It is easy to call the clerk's reading an intrusion, until you consider that the alternative was…",
+    "What unsettles me is not that strangers read these letters but that, in reading them, they became…"
+  ],
+  "hintVocab": [
+    {
+      "phrase": "dead-letter office",
+      "meaningVi": "phòng thư chết (nơi xử lý thư không phát được)"
+    },
+    {
+      "phrase": "undeliverable",
+      "meaningVi": "không thể phát đi được"
+    },
+    {
+      "phrase": "the addressee",
+      "meaningVi": "người nhận (ghi trên thư)",
+      "pronunciation": "/ˌædreˈsiː/"
+    },
+    {
+      "phrase": "the sender",
+      "meaningVi": "người gửi"
+    },
+    {
+      "phrase": "correspondence",
+      "meaningVi": "thư từ qua lại",
+      "pronunciation": "/ˌkɒrəˈspɒndəns/"
+    },
+    {
+      "phrase": "clerk",
+      "meaningVi": "nhân viên văn thư, thư lại",
+      "pronunciation": "/klɑːk/"
+    },
+    {
+      "phrase": "to intercept",
+      "meaningVi": "chặn lại, thu giữ giữa đường",
+      "pronunciation": "/ˌɪntəˈsept/"
+    },
+    {
+      "phrase": "intrusion",
+      "meaningVi": "sự xâm phạm, sự chen vào",
+      "pronunciation": "/ɪnˈtruːʒn/"
+    },
+    {
+      "phrase": "privacy",
+      "meaningVi": "sự riêng tư",
+      "pronunciation": "/ˈprɪvəsi/"
+    },
+    {
+      "phrase": "the archive",
+      "meaningVi": "kho lưu trữ",
+      "pronunciation": "/ˈɑːkaɪv/"
+    },
+    {
+      "phrase": "to consign",
+      "meaningVi": "giao phó, gửi vào (số phận, kho)",
+      "pronunciation": "/kənˈsaɪn/"
+    },
+    {
+      "phrase": "oblivion",
+      "meaningVi": "sự lãng quên, hư vô",
+      "pronunciation": "/əˈblɪviən/"
+    },
+    {
+      "phrase": "to bear witness",
+      "meaningVi": "làm chứng, chứng kiến và ghi nhận"
+    },
+    {
+      "phrase": "posthumous",
+      "meaningVi": "sau khi qua đời",
+      "pronunciation": "/ˈpɒstjʊməs/"
+    },
+    {
+      "phrase": "the recipient",
+      "meaningVi": "người nhận",
+      "pronunciation": "/rɪˈsɪpiənt/"
+    },
+    {
+      "phrase": "to incinerate",
+      "meaningVi": "thiêu huỷ, đốt bỏ",
+      "pronunciation": "/ɪnˈsɪnəreɪt/"
+    },
+    {
+      "phrase": "estrangement",
+      "meaningVi": "sự xa cách, ghẻ lạnh",
+      "pronunciation": "/ɪˈstreɪndʒmənt/"
+    },
+    {
+      "phrase": "to eavesdrop",
+      "meaningVi": "nghe lén, đọc lén"
+    },
+    {
+      "phrase": "the intended",
+      "meaningVi": "người vốn được nhắm tới (người nhận dự kiến)"
+    },
+    {
+      "phrase": "to salvage",
+      "meaningVi": "vớt vát, cứu lấy",
+      "pronunciation": "/ˈsælvɪdʒ/"
+    },
+    {
+      "phrase": "anonymity",
+      "meaningVi": "sự khuyết danh",
+      "pronunciation": "/ˌænəˈnɪməti/"
+    },
+    {
+      "phrase": "the unspoken",
+      "meaningVi": "điều không nói ra"
+    },
+    {
+      "phrase": "to defer",
+      "meaningVi": "trì hoãn, hoãn lại",
+      "pronunciation": "/dɪˈfɜː/"
+    },
+    {
+      "phrase": "consolation",
+      "meaningVi": "sự an ủi",
+      "pronunciation": "/ˌkɒnsəˈleɪʃn/"
+    },
+    {
+      "phrase": "the ledger",
+      "meaningVi": "sổ cái, sổ ghi chép"
+    },
+    {
+      "phrase": "to molder",
+      "meaningVi": "mục nát, mủn dần"
+    },
+    {
+      "phrase": "voyeurism",
+      "meaningVi": "thói tò mò soi mói (cảnh riêng tư của người khác)",
+      "pronunciation": "/ˈvwaɪərɪzəm/"
+    },
+    {
+      "phrase": "to confide",
+      "meaningVi": "tâm sự, gửi gắm điều thầm kín",
+      "pronunciation": "/kənˈfaɪd/"
+    },
+    {
+      "phrase": "the threshold",
+      "meaningVi": "ngưỡng cửa, ranh giới",
+      "pronunciation": "/ˈθreʃhəʊld/"
+    },
+    {
+      "phrase": "to outlive",
+      "meaningVi": "sống lâu hơn, tồn tại quá đời ai đó"
+    },
+    {
+      "phrase": "irretrievable",
+      "meaningVi": "không thể lấy lại được",
+      "pronunciation": "/ˌɪrɪˈtriːvəbl/"
+    },
+    {
+      "phrase": "to reckon with",
+      "meaningVi": "đối mặt, vật lộn với (một vấn đề)"
+    }
+  ],
+  "sampleText": "In the back rooms of a great post office, a century and a half ago, clerks did a strange and tender kind of work. Their job was to open the letters that no one could deliver — the addressee gone, dead, or never findable; the handwriting too poor to read; the town misspelled into nonexistence — and to decide what should be done with them. They read what was never meant for them, not out of curiosity but procedure, looking for a clue, a return address, a name that might be traced. A letter that never arrives is not quite the same as a letter never written, because the words still exist somewhere, waiting. What the dead-letter office held was a vast deferred correspondence: thousands of small intentions arrested in transit, neither received nor recalled.\n\nIt is easy to call the clerk's reading an intrusion, and at first that is what it looks like — a stranger's eyes on words a woman confided to her son, a debt confessed, a quarrel half-mended. But the judgement gets harder when you ask what the alternative was. The letter could not reach the son; he had sailed and left no forwarding. It could not go back; the mother's hand was already failing. The choice was never between the clerk reading and the son reading. It was between the clerk reading and no one reading at all — between a stranger's careful attention and the quiet incineration the office practised on what it could not place. Set against oblivion, the intrusion starts to look almost like a courtesy.\n\nAnd yet something is lost in that rescue that I find difficult to name. The letter was written for one reader, and its whole meaning was bent toward that reader — the private jokes, the things left unsaid because they did not need saying, the tone only the intended would have heard correctly. Read by a stranger, the words survive, but the relationship they were made inside does not. The clerk holds the sentences and not the bond; he can see that a thing was meant tenderly without being the person to whom the tenderness was owed. What he salvages is the letter as object and evidence, not the letter as the small private event it was supposed to be. It is like being shown a key to a house that no longer stands.\n\nThis is the part that unsettles me, and it is not, in the end, about privacy. It is that the clerk, in reading, became a witness to something that was never supposed to have a witness. Letters are written on the assumption of a single threshold — these words cross from me to you and to no one else — and the dead-letter office quietly violated that assumption, not maliciously, but as a structural necessity of a postal system that has to do something with what it cannot deliver. The clerks were not eavesdroppers; they were the involuntary keepers of words that had outlived their occasion. To read a letter whose addressee will never read it is to stand in a place no one designed, holding an intimacy addressed to someone else, unable either to deliver it or to honestly forget it.\n\nWhat do we owe such letters? I am not sure there is a clean answer, and I distrust the ones that come too easily. The romantic instinct is to say they should all be preserved, archived, read with reverence — that to keep the words alive is to keep faith with those who wrote them. But preservation has its own quiet violence. To archive a love letter is to make public what was meant for one pair of hands; to study an apology is to complete its journey to the wrong destination. The opposite instinct, to burn them all unread, at least refuses that betrayal, but it refuses, too, the only remaining acknowledgement these words will ever get. Both choices fail the letter, in different directions, and perhaps that failure is simply what an undeliverable letter is: a message that has lost the one form of care it was made for and can now receive only substitutes.\n\nI keep returning to the clerk at his table, slitting an envelope he would rather not open and setting it gently aside. He cannot deliver it; he will not quite destroy it; he reads it once, carefully, because someone should. That is not justice and it is not closure. It is the smallest possible acknowledgement that the words were real, that someone meant them, and that meaning them was not, in the end, enough. I would want the same for anything I wrote and could not send — not delivery, which is impossible, but the bare dignity of having been, once, attentively read.",
+  "sampleAnnotations": [
+    {
+      "phrase": "clerks did a strange and tender kind of work",
+      "meaningVi": "các thư lại làm một loại công việc kỳ lạ và dịu dàng"
+    },
+    {
+      "phrase": "the addressee gone, dead, or never findable",
+      "meaningVi": "người nhận đã đi, đã chết, hoặc không bao giờ tìm ra được"
+    },
+    {
+      "phrase": "They read what was never meant for them, not out of curiosity but procedure",
+      "meaningVi": "Họ đọc những gì chưa bao giờ dành cho mình, không phải vì tò mò mà vì thủ tục"
+    },
+    {
+      "phrase": "A letter that never arrives is not quite the same as a letter never written",
+      "meaningVi": "Một lá thư không bao giờ tới không hẳn giống một lá thư chưa từng được viết"
+    },
+    {
+      "phrase": "thousands of small intentions arrested in transit",
+      "meaningVi": "hàng nghìn ý định nhỏ bị giữ lại giữa đường"
+    },
+    {
+      "phrase": "It is easy to call the clerk's reading an intrusion",
+      "meaningVi": "Thật dễ để gọi việc đọc của người thư lại là một sự xâm phạm"
+    },
+    {
+      "phrase": "the judgement gets harder when you ask what the alternative was",
+      "meaningVi": "phán đoán trở nên khó hơn khi bạn tự hỏi đâu là lựa chọn còn lại"
+    },
+    {
+      "phrase": "between the clerk reading and no one reading at all",
+      "meaningVi": "giữa việc người thư lại đọc và việc không một ai đọc cả"
+    },
+    {
+      "phrase": "the quiet incineration the office practised on what it could not place",
+      "meaningVi": "sự thiêu huỷ lặng lẽ mà phòng thư thực hiện với những gì nó không thể xác định nơi gửi"
+    },
+    {
+      "phrase": "Set against oblivion, the intrusion starts to look almost like a courtesy",
+      "meaningVi": "Đặt cạnh sự lãng quên, sự xâm phạm bắt đầu trông gần như một sự nhã nhặn"
+    },
+    {
+      "phrase": "its whole meaning was bent toward that reader",
+      "meaningVi": "toàn bộ ý nghĩa của nó hướng cong về phía người đọc ấy"
+    },
+    {
+      "phrase": "the things left unsaid because they did not need saying",
+      "meaningVi": "những điều bỏ lửng không nói vì chúng không cần phải nói"
+    },
+    {
+      "phrase": "the words survive, but the relationship they were made inside does not",
+      "meaningVi": "những con chữ sống sót, nhưng mối quan hệ mà chúng được tạo ra bên trong thì không"
+    },
+    {
+      "phrase": "The clerk holds the sentences and not the bond",
+      "meaningVi": "Người thư lại nắm giữ những câu chữ chứ không phải mối ràng buộc"
+    },
+    {
+      "phrase": "the letter as object and evidence, not the letter as the small private event it was supposed to be",
+      "meaningVi": "lá thư như một vật thể và bằng chứng, không phải lá thư như cái sự kiện riêng tư nhỏ bé mà nó vốn phải là"
+    },
+    {
+      "phrase": "being shown a key to a house that no longer stands",
+      "meaningVi": "được cho xem chìa khoá của một ngôi nhà không còn đứng đó nữa"
+    },
+    {
+      "phrase": "became a witness to something that was never supposed to have a witness",
+      "meaningVi": "trở thành nhân chứng cho một điều vốn không bao giờ được phép có nhân chứng"
+    },
+    {
+      "phrase": "these words cross from me to you and to no one else",
+      "meaningVi": "những lời này băng qua từ tôi tới bạn và không tới một ai khác"
+    },
+    {
+      "phrase": "the involuntary keepers of words that had outlived their occasion",
+      "meaningVi": "những người giữ gìn bất đắc dĩ của những con chữ đã sống lâu hơn cái dịp của chúng"
+    },
+    {
+      "phrase": "holding an intimacy addressed to someone else",
+      "meaningVi": "ôm giữ một sự thân mật được gửi cho người khác"
+    },
+    {
+      "phrase": "What do we owe such letters?",
+      "meaningVi": "Ta nợ những lá thư như thế điều gì?"
+    },
+    {
+      "phrase": "I distrust the ones that come too easily",
+      "meaningVi": "tôi ngờ vực những câu trả lời đến quá dễ dàng"
+    },
+    {
+      "phrase": "preservation has its own quiet violence",
+      "meaningVi": "sự lưu giữ có cái bạo lực lặng lẽ của riêng nó"
+    },
+    {
+      "phrase": "to study an apology is to complete its journey to the wrong destination",
+      "meaningVi": "nghiên cứu một lời xin lỗi là hoàn tất hành trình của nó đến một đích đến sai"
+    },
+    {
+      "phrase": "it refuses, too, the only remaining acknowledgement these words will ever get",
+      "meaningVi": "nó cũng khước từ luôn sự ghi nhận duy nhất còn lại mà những con chữ này sẽ có được"
+    },
+    {
+      "phrase": "Both choices fail the letter, in different directions",
+      "meaningVi": "Cả hai lựa chọn đều phụ lá thư, theo những hướng khác nhau"
+    },
+    {
+      "phrase": "a message that has lost the one form of care it was made for",
+      "meaningVi": "một thông điệp đã đánh mất cái hình thức quan tâm duy nhất mà nó được tạo ra để nhận"
+    },
+    {
+      "phrase": "slitting an envelope he would rather not open",
+      "meaningVi": "rạch một chiếc phong bì mà ông thà không mở"
+    },
+    {
+      "phrase": "That is not justice and it is not closure",
+      "meaningVi": "Đó không phải là công lý và cũng không phải là sự khép lại"
+    },
+    {
+      "phrase": "the bare dignity of having been, once, attentively read",
+      "meaningVi": "cái phẩm giá trơ trụi của việc đã từng, một lần, được đọc một cách chăm chú"
+    }
+  ],
+  "sampleGrammarNotes": [
+    {
+      "title": "Em-dash parenthesis to hold a list of conditions inside one sentence",
+      "bodyVi": "Tác giả dùng cặp gạch ngang để chèn các điều kiện cụ thể vào giữa câu: 'the addressee gone, dead, or never findable; the handwriting too poor to read; the town misspelled into nonexistence'. Cách này cho phép gói nhiều lý do vào một mệnh đề chính mà vẫn giữ nhịp suy tưởng — kỹ thuật cấu trúc câu nhiều tầng đặc trưng C1.",
+      "bodyEn": "The writer uses paired em-dashes to insert concrete conditions mid-sentence: 'the addressee gone, dead, or never findable; the handwriting too poor to read; the town misspelled into nonexistence'. This packs several reasons into one main clause while keeping the meditative rhythm — the multi-layered sentence structure typical of C1."
+    },
+    {
+      "title": "Balanced antithesis to frame an unresolved choice",
+      "bodyVi": "Câu 'Both choices fail the letter, in different directions' và 'he will not quite destroy it; he reads it once' đặt hai khả năng cân bằng đối nhau để giữ phán đoán ở thế chưa ngã ngũ. Thay vì chọn một bên, tác giả dùng phép đối để cho thấy mỗi lựa chọn đều thiếu sót — giọng phản tư có chừng mực của C1.",
+      "bodyEn": "Sentences like 'Both choices fail the letter, in different directions' and 'he will not quite destroy it; he reads it once' set two options in balanced opposition to keep the judgement unresolved. Rather than pick a side, the writer uses antithesis to show each option falls short — the measured reflective register of C1."
+    }
+  ],
+  "sampleTranslationVi": "Trong những căn phòng phía sau của một bưu điện lớn, một thế kỷ rưỡi trước, các thư lại làm một loại công việc kỳ lạ và dịu dàng. Việc của họ là mở những lá thư mà không ai phát được — người nhận đã đi, đã chết, hoặc không bao giờ tìm ra được; nét chữ quá xấu để đọc; tên thị trấn bị viết sai thành một nơi không tồn tại — và quyết định nên làm gì với chúng. Họ đọc những gì chưa bao giờ dành cho mình, không phải vì tò mò mà vì thủ tục, tìm một manh mối, một địa chỉ hồi đáp, một cái tên có thể vẫn còn truy ra được. Một lá thư không bao giờ tới không hẳn giống một lá thư chưa từng được viết, vì những con chữ vẫn còn tồn tại ở đâu đó, chờ đợi. Cái mà phòng thư chết lưu giữ là một khối thư từ bị hoãn lại khổng lồ: hàng nghìn ý định nhỏ bị giữ lại giữa đường, không được nhận mà cũng không được thu hồi.\n\nThật dễ để gọi việc đọc của người thư lại là một sự xâm phạm, và thoạt đầu nó đúng là trông như vậy — đôi mắt của một người lạ trên những lời một người mẹ gửi gắm cho con trai, một món nợ được thú nhận, một cuộc cãi vã được hàn gắn dở dang. Nhưng phán đoán trở nên khó hơn khi bạn tự hỏi đâu là lựa chọn còn lại. Lá thư không thể tới được người con trai; anh ta đã ra khơi và không để lại nơi chuyển tiếp. Nó cũng không thể quay về; bàn tay người mẹ đã suy yếu rồi. Lựa chọn chưa bao giờ là giữa người thư lại đọc và người con đọc. Nó là giữa người thư lại đọc và không một ai đọc cả — giữa vài phút chú tâm cẩn trọng của một người lạ và sự thiêu huỷ lặng lẽ mà phòng thư thực hiện với những gì nó không thể xác định nơi gửi. Đặt cạnh sự lãng quên, sự xâm phạm bắt đầu trông gần như một sự nhã nhặn.\n\nThế mà có một điều gì đó bị mất đi trong sự cứu vớt ấy mà tôi thấy khó gọi tên. Lá thư được viết cho một độc giả, và toàn bộ ý nghĩa của nó hướng cong về phía người đọc ấy — những câu đùa riêng, những điều bỏ lửng không nói vì chúng không cần phải nói, cái giọng điệu mà chỉ người vốn được nhắm tới mới nghe ra đúng. Bị một người lạ đọc, những con chữ sống sót, nhưng mối quan hệ mà chúng được tạo ra bên trong thì không. Người thư lại nắm giữ những câu chữ chứ không phải mối ràng buộc; ông có thể thấy rằng một điều được nói ra một cách dịu dàng mà không phải là người mà sự dịu dàng ấy được nợ. Cái ông vớt vát được là lá thư như một vật thể và bằng chứng, không phải lá thư như cái sự kiện riêng tư nhỏ bé mà nó vốn phải là. Nó hơi giống như được cho xem chìa khoá của một ngôi nhà không còn đứng đó nữa.\n\nĐây là phần khiến tôi bất an, và rốt cuộc nó không phải là chuyện riêng tư. Đó là việc người thư lại, khi đọc, đã trở thành nhân chứng cho một điều vốn không bao giờ được phép có nhân chứng. Thư từ được viết trên giả định về một ngưỡng cửa duy nhất — những lời này băng qua từ tôi tới bạn và không tới một ai khác — và phòng thư chết đã lặng lẽ vi phạm cái giả định ấy, không phải vì ác ý, mà như một sự tất yếu về mặt cấu trúc của một hệ thống bưu chính buộc phải làm gì đó với những thứ nó không thể phát đi. Các thư lại không phải kẻ nghe lén; họ là những người giữ gìn bất đắc dĩ của những con chữ đã sống lâu hơn cái dịp của chúng. Đọc một lá thư mà người nhận sẽ không bao giờ đọc là đứng vào một chỗ mà không ai thiết kế, ôm giữ một sự thân mật được gửi cho người khác, không thể phát nó đi mà cũng không thể thành thật quên nó.\n\nTa nợ những lá thư như thế điều gì? Tôi không chắc có một câu trả lời gọn ghẽ nào, và tôi ngờ vực những câu trả lời đến quá dễ dàng. Bản năng lãng mạn là nói rằng tất cả chúng nên được lưu giữ, lưu trữ, đọc với lòng tôn kính — rằng giữ cho những con chữ sống là giữ trọn niềm tin với những người đã viết chúng. Nhưng sự lưu giữ có cái bạo lực lặng lẽ của riêng nó. Lưu trữ một lá thư tình là phơi bày ra công khai điều vốn được dành cho một đôi tay duy nhất; nghiên cứu một lời xin lỗi là hoàn tất hành trình của nó đến một đích đến sai. Bản năng ngược lại, đốt hết chúng mà không đọc, ít ra khước từ sự phản bội ấy, nhưng nó cũng khước từ luôn sự ghi nhận duy nhất còn lại mà những con chữ này sẽ có được. Cả hai lựa chọn đều phụ lá thư, theo những hướng khác nhau, và có lẽ sự thất bại ấy chính là cái mà một lá thư không phát được vốn là: một thông điệp đã đánh mất cái hình thức quan tâm duy nhất mà nó được tạo ra để nhận và giờ chỉ có thể nhận những thứ thay thế.\n\nTôi cứ trở đi trở lại với hình ảnh người thư lại bên chiếc bàn của ông, rạch một chiếc phong bì mà ông thà không mở, đọc một câu dành cho người yêu dấu của một kẻ xa lạ, rồi đặt nó sang một bên một cách nhẹ nhàng. Ông không thể phát nó đi; ông sẽ không nỡ huỷ hẳn nó; ông đọc nó một lần, cẩn thận, vì lẽ ra phải có ai đó đọc. Đó không phải là công lý và cũng không phải là sự khép lại. Đó là sự ghi nhận nhỏ nhất có thể rằng những con chữ ấy là có thật, rằng đã có người gửi gắm chúng, và rằng gửi gắm chúng, rốt cuộc, là chưa đủ. Tôi nghĩ tôi sẽ muốn điều tương tự cho bất cứ thứ gì tôi viết mà không thể gửi đi — không phải sự phát thư, vốn là bất khả, mà cái phẩm giá trơ trụi của việc đã từng, một lần, được đọc một cách chăm chú.",
+  "mcQuestions": [
+    {
+      "id": "q1",
+      "prompt": "What was the dead-letter clerks' actual work, as the essay describes it?",
+      "options": [
+        "Writing new letters for people who could not write.",
+        "Opening mail that could neither be delivered nor returned, reading it for any clue that might let it be traced.",
+        "Censoring letters for the government.",
+        "Selling undelivered letters to collectors."
+      ],
+      "answerIndex": 1,
+      "explanation": "The first paragraph: they opened undeliverable letters 'looking for a clue, a return address, a name that might still be traced'.",
+      "hint": "Why did they read the letters — curiosity or procedure?"
+    },
+    {
+      "id": "q2",
+      "prompt": "Why does the essay say calling the clerk's reading 'an intrusion' gets harder?",
+      "options": [
+        "Because the clerks were paid very little.",
+        "Because intrusion is not a real word.",
+        "Because the real alternative was not the intended reader but no reader at all — the office's quiet incineration of unplaceable mail.",
+        "Because the letters were boring."
+      ],
+      "answerIndex": 2,
+      "explanation": "The second paragraph: the choice was 'between the clerk reading and no one reading at all', set against oblivion.",
+      "hint": "What did the office do with letters it could not place?"
+    },
+    {
+      "id": "q3",
+      "prompt": "What does the essay say is 'lost in that rescue', even when the words survive?",
+      "options": [
+        "The paper and ink.",
+        "The clerk's wages.",
+        "The postal stamp.",
+        "The relationship the letter was made inside — the bond, the private tone only the intended reader would have heard correctly."
+      ],
+      "answerIndex": 3,
+      "explanation": "The third paragraph: 'the words survive, but the relationship they were made inside does not.'",
+      "hint": "What does the clerk hold, and what can't he hold?"
+    },
+    {
+      "id": "q4",
+      "prompt": "What does the essay identify as the thing that 'unsettles' it most?",
+      "options": [
+        "That the clerk became a witness to something that was never supposed to have a witness — an intimacy designed for a single threshold.",
+        "That the clerks were underpaid for hard work.",
+        "That letters were written in poor handwriting.",
+        "That the post office was inefficient."
+      ],
+      "answerIndex": 0,
+      "explanation": "The fourth paragraph: the clerk 'became a witness to something that was never supposed to have a witness'.",
+      "hint": "It is 'not, in the end, about privacy' — so what is it about?"
+    },
+    {
+      "id": "q5",
+      "prompt": "What is the essay's qualified position on what we owe undeliverable letters?",
+      "options": [
+        "They must all be preserved and archived.",
+        "There is no clean answer: both preserving and burning fail the letter in different directions, and that failure may be what an undeliverable letter is.",
+        "They must all be burned unread.",
+        "They should be returned to their senders by law."
+      ],
+      "answerIndex": 1,
+      "explanation": "The fifth paragraph: 'Both choices fail the letter, in different directions' — the writer refuses a clean answer.",
+      "hint": "Does the writer endorse preservation, burning, or neither cleanly?"
+    },
+    {
+      "id": "q6",
+      "prompt": "Which sentence best matches the essay's contemplative, hedged register?",
+      "options": [
+        "Reading other people's mail is just plain wrong, obviously.",
+        "Letters are dumb relics nobody should care about anymore.",
+        "I am not sure there is a clean answer, and I distrust the ones that come too easily.",
+        "Pursuant to postal regulation, undeliverable items shall be processed accordingly."
+      ],
+      "answerIndex": 2,
+      "explanation": "Option B hedges and resists easy answers — the reflective register; A is blunt, C is dismissive, D is jargon.",
+      "hint": "Look for the option that admits uncertainty rather than asserting."
+    },
+    {
+      "id": "q7",
+      "prompt": "Which continuation gives the best cohesion after 'preservation has its own quiet violence'?",
+      "options": [
+        "Archives are usually kept in climate-controlled rooms.",
+        "Also, the post office was a very grand building.",
+        "In today's digital age, no one writes letters anymore.",
+        "To archive a love letter is to make public what was meant for one pair of hands."
+      ],
+      "answerIndex": 3,
+      "explanation": "Option B illustrates the 'quiet violence' just claimed; the others are off-topic or filler.",
+      "hint": "The next sentence should show how preserving can itself be a harm."
+    },
+    {
+      "id": "q8",
+      "prompt": "Which paraphrase is closest to 'being shown a key to a house that no longer stands'?",
+      "options": [
+        "Being handed access to something whose whole purpose has already vanished, so the access is meaningless.",
+        "Being given a useful tool for a current task.",
+        "Inheriting a real house and its key.",
+        "Losing one's keys at home."
+      ],
+      "answerIndex": 0,
+      "explanation": "The image means the clerk holds the means to a relationship that no longer exists; B captures this.",
+      "hint": "What good is a key when the house is gone?"
+    },
+    {
+      "id": "q9",
+      "prompt": "Which sentence uses balanced antithesis to frame an unresolved choice, as in the grammar notes?",
+      "options": [
+        "The clerk worked at a wooden table in a back room.",
+        "Both choices fail the letter, in different directions.",
+        "Many letters arrived at the office every single day.",
+        "The town's name had been misspelled on the envelope."
+      ],
+      "answerIndex": 1,
+      "explanation": "Option B balances the two options against each other to keep the judgement open — antithesis framing an unresolved choice.",
+      "hint": "Look for two options set in balance, neither winning."
+    },
+    {
+      "id": "q10",
+      "prompt": "What does the final image of the clerk who 'reads it once, carefully, because someone should' represent?",
+      "options": [
+        "A promise to find the addressee.",
+        "A legal duty imposed by the post office.",
+        "The smallest possible acknowledgement — not justice or closure, but proof that the words were real and meant, even though meaning them was not enough.",
+        "An act of idle curiosity."
+      ],
+      "answerIndex": 2,
+      "explanation": "The close calls it 'the smallest possible acknowledgement' that the words were real and meant.",
+      "hint": "The writer says it is 'not justice' and 'not closure' — so what is it?"
+    },
+    {
+      "id": "q11",
+      "prompt": "Why does the essay say the clerks 'were not eavesdroppers'?",
+      "options": [
+        "Because they could not read.",
+        "Because eavesdropping requires sound, not text.",
+        "Because they were forbidden to read.",
+        "Because they read not by intent or malice but as an unavoidable, structural necessity of a postal system that must do something with undeliverable mail."
+      ],
+      "answerIndex": 3,
+      "explanation": "The fourth paragraph frames the reading as a 'structural necessity', not malicious eavesdropping.",
+      "hint": "Was the reading chosen out of nosiness, or required by the system?"
+    },
+    {
+      "id": "q12",
+      "prompt": "Which option is grammatical, on-topic, and matches the essay's tone?",
+      "options": [
+        "The letter was written for one reader, and its whole meaning was bent toward that reader.",
+        "Honestly the whole dead-letter thing is kinda creepy if you ask me.",
+        "Henceforth all unplaceable correspondence shall be subject to disposal.",
+        "Everyone knows old letters are worthless junk these days."
+      ],
+      "answerIndex": 0,
+      "explanation": "Option B is precise and contemplative; A is casual, C is jargon, D is a dismissive overstatement.",
+      "hint": "Match the careful, reflective voice."
+    },
+    {
+      "id": "q13",
+      "prompt": "What does 'a message that has lost the one form of care it was made for' mean?",
+      "options": [
+        "A message that was written carelessly.",
+        "A letter whose only intended kind of attention — being received and read by its addressee — can no longer happen, leaving only substitutes.",
+        "A message that contains no useful information.",
+        "A letter that was damaged in transit."
+      ],
+      "answerIndex": 1,
+      "explanation": "The fifth paragraph: the undeliverable letter has lost delivery to its reader and can 'receive only substitutes'.",
+      "hint": "What 'one form of care' was the letter made to receive?"
+    },
+    {
+      "id": "q14",
+      "prompt": "Which sentence preserves the essay's unresolved, qualified judgement rather than resolving it neatly?",
+      "options": [
+        "Clearly, every old letter should be published for the public good.",
+        "Burning all undelivered letters is always the right thing to do.",
+        "That is not justice and it is not closure.",
+        "The clerks solved the problem perfectly."
+      ],
+      "answerIndex": 2,
+      "explanation": "Option B withholds the satisfactions of justice and closure, keeping the reflection open.",
+      "hint": "Look for the option that refuses a tidy resolution."
+    },
+    {
+      "id": "q15",
+      "prompt": "Which option best follows 'these words cross from me to you and to no one else' to extend the essay's point?",
+      "options": [
+        "and the envelope was made of thick cream paper.",
+        "and postage rates rose sharply that decade.",
+        "and letters are a charming part of history.",
+        "and the dead-letter office quietly violated that assumption, not maliciously, but as a structural necessity."
+      ],
+      "answerIndex": 3,
+      "explanation": "Option B develops the 'single threshold' assumption into how the office breaks it; the others drift off-topic.",
+      "hint": "The point is about an assumption the office violated — what extends it?"
+    },
+    {
+      "id": "q16",
+      "prompt": "Which paraphrase is closest to 'to study an apology is to complete its journey to the wrong destination'?",
+      "options": [
+        "Reading and analysing a private apology delivers it to scholars instead of to the person it was meant to reach — finishing its journey, but to the wrong reader.",
+        "Apologies should always be studied carefully.",
+        "Apologies never reach anyone.",
+        "Studying letters helps people apologise better."
+      ],
+      "answerIndex": 0,
+      "explanation": "The line means scholarly attention completes the letter's journey, but to an unintended audience; B captures this.",
+      "hint": "Who receives the apology when it is 'studied', and is that the right reader?"
+    }
+  ],
+  "criticalThinkingQuestion": "Imagine something you once wrote and never sent — a message, a note, a confession. If, long after you were gone, a stranger found it, read it once with care, and set it aside, would that feel like a small mercy or a quiet trespass? What, if anything, do unsent words deserve, and from whom?"
+}

@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "The ethics of accepting freebies as a journalist",
   "summary": "Argue whether journalists can accept free meals, trips, or products from companies they cover, and what this means for editorial independence.",
-  "tags": ["Media", "Ethics", "Journalism", "Society"],
+  "tags": [
+    "Media",
+    "Ethics",
+    "Journalism",
+    "Society"
+  ],
   "topic": "The ethics of accepting freebies as a journalist",
   "prompt": "Write an argumentative essay (350–500 words) examining whether journalists are ethically justified in accepting free meals, press trips, review products, or other gifts from organisations they cover. Consider what this means for editorial independence, public trust, and the commercial realities of media organisations. Use a cleft sentence, a concession ('Granted, …' or 'Admittedly, …'), at least one passive construction, and a participle clause. Include at least one concrete example. Take a clear position.",
   "minWords": 350,
@@ -14,49 +19,171 @@
     "Having attended dozens of press junkets over a career, a travel writer may find it…"
   ],
   "hintVocab": [
-    { "phrase": "editorial independence", "meaningVi": "sự độc lập biên tập" },
-    { "phrase": "conflict of interest", "meaningVi": "xung đột lợi ích" },
-    { "phrase": "a press junket", "meaningVi": "chuyến đi báo chí miễn phí do công ty tài trợ", "pronunciation": "/ˈdʒʌŋ.kɪt/" },
-    { "phrase": "to disclose", "meaningVi": "tiết lộ / công khai" },
-    { "phrase": "reciprocity bias", "meaningVi": "thiên kiến có đi có lại (xu hướng ưu ái người đã cho mình thứ gì đó)" },
-    { "phrase": "a review copy", "meaningVi": "bản sao để đánh giá (sản phẩm được gửi miễn phí để phóng viên đánh giá)" },
-    { "phrase": "to compromise integrity", "meaningVi": "làm tổn hại đến tính chính trực" },
-    { "phrase": "public trust", "meaningVi": "niềm tin của công chúng" },
-    { "phrase": "arms-length relationship", "meaningVi": "mối quan hệ giữ khoảng cách / không thiên vị" },
-    { "phrase": "a transparency disclosure", "meaningVi": "tuyên bố công khai / thông báo minh bạch" },
-    { "phrase": "commercial pressure", "meaningVi": "áp lực thương mại" },
-    { "phrase": "to cultivate access", "meaningVi": "xây dựng / duy trì quyền tiếp cận" },
-    { "phrase": "to give favourable coverage", "meaningVi": "đưa tin thiên vị / có lợi" },
-    { "phrase": "newsroom budget", "meaningVi": "ngân sách của tòa soạn" },
-    { "phrase": "the appearance of impropriety", "meaningVi": "vẻ bề ngoài của sự không phù hợp / không đúng mực" },
-    { "phrase": "ethical guidelines", "meaningVi": "hướng dẫn đạo đức" },
-    { "phrase": "to be beholden to", "meaningVi": "mang ơn / lệ thuộc vào", "pronunciation": "/bɪˈhəʊl.dən/" },
-    { "phrase": "subconscious softening", "meaningVi": "sự mềm mỏng trong tiềm thức" },
-    { "phrase": "to send a signal to the industry", "meaningVi": "gửi tín hiệu đến ngành" },
-    { "phrase": "self-regulation", "meaningVi": "tự quản lý / tự điều chỉnh" }
+    {
+      "phrase": "editorial independence",
+      "meaningVi": "sự độc lập biên tập"
+    },
+    {
+      "phrase": "conflict of interest",
+      "meaningVi": "xung đột lợi ích"
+    },
+    {
+      "phrase": "a press junket",
+      "meaningVi": "chuyến đi báo chí miễn phí do công ty tài trợ",
+      "pronunciation": "/ˈdʒʌŋ.kɪt/"
+    },
+    {
+      "phrase": "to disclose",
+      "meaningVi": "tiết lộ / công khai"
+    },
+    {
+      "phrase": "reciprocity bias",
+      "meaningVi": "thiên kiến có đi có lại (xu hướng ưu ái người đã cho mình thứ gì đó)"
+    },
+    {
+      "phrase": "a review copy",
+      "meaningVi": "bản sao để đánh giá (sản phẩm được gửi miễn phí để phóng viên đánh giá)"
+    },
+    {
+      "phrase": "to compromise integrity",
+      "meaningVi": "làm tổn hại đến tính chính trực"
+    },
+    {
+      "phrase": "public trust",
+      "meaningVi": "niềm tin của công chúng"
+    },
+    {
+      "phrase": "arms-length relationship",
+      "meaningVi": "mối quan hệ giữ khoảng cách / không thiên vị"
+    },
+    {
+      "phrase": "a transparency disclosure",
+      "meaningVi": "tuyên bố công khai / thông báo minh bạch"
+    },
+    {
+      "phrase": "commercial pressure",
+      "meaningVi": "áp lực thương mại"
+    },
+    {
+      "phrase": "to cultivate access",
+      "meaningVi": "xây dựng / duy trì quyền tiếp cận"
+    },
+    {
+      "phrase": "to give favourable coverage",
+      "meaningVi": "đưa tin thiên vị / có lợi"
+    },
+    {
+      "phrase": "newsroom budget",
+      "meaningVi": "ngân sách của tòa soạn"
+    },
+    {
+      "phrase": "the appearance of impropriety",
+      "meaningVi": "vẻ bề ngoài của sự không phù hợp / không đúng mực"
+    },
+    {
+      "phrase": "ethical guidelines",
+      "meaningVi": "hướng dẫn đạo đức"
+    },
+    {
+      "phrase": "to be beholden to",
+      "meaningVi": "mang ơn / lệ thuộc vào",
+      "pronunciation": "/bɪˈhəʊl.dən/"
+    },
+    {
+      "phrase": "subconscious softening",
+      "meaningVi": "sự mềm mỏng trong tiềm thức"
+    },
+    {
+      "phrase": "to send a signal to the industry",
+      "meaningVi": "gửi tín hiệu đến ngành"
+    },
+    {
+      "phrase": "self-regulation",
+      "meaningVi": "tự quản lý / tự điều chỉnh"
+    }
   ],
   "sampleText": "Journalism's claim to public trust rests on a simple proposition: the journalist's loyalty is to the reader, not to the subject being covered. What accepting a free hotel stay, a business-class flight, or a case of wine from a winery under review does to this proposition is not destroy it immediately — it is, rather, to introduce a doubt that is difficult to dislodge.\n\nThe psychological mechanism is well-established. Reciprocity bias — the tendency to feel obligated toward those who have given us something — operates below the level of conscious intention. A journalist who has been flown to Bordeaux at a vineyard's expense and accommodated in its guest house is not necessarily going to file a glowing review. But they are, on average, going to find it harder to write a negative one. This is not a hypothesis. Research into pharmaceutical advertising has demonstrated that even small gifts — a branded pen, a free lunch — shift prescribing behaviour among doctors who sincerely believe their clinical judgement is unaffected. The same mechanism does not disappear when the recipients are journalists rather than physicians.\n\nAdmittedly, many media organisations operate on budgets that make self-funded reporting difficult or impossible. Travel journalism in particular has long relied on hosted trips — not because editors are corrupt but because the alternative is simply not covering a destination at all. A small magazine with three staff members cannot afford to send a writer to Kyoto for a week. The choice, in practice, is often between a hosted trip and no trip.\n\nEven so, the structural argument for accepting freebies does not neutralise the ethical problem; it merely explains why the problem persists. Accepted uncritically, the press junket model means that coverage of travel destinations, new cars, and consumer electronics is systematically skewed toward products whose manufacturers can afford to host journalists. Emerging destinations, independent producers, and budget products are underrepresented not because they lack merit but because no one is paying for the flights.\n\nGranted, a transparency disclosure — noting that a trip was hosted or a product was supplied — is better than silence. Some publications now require it. But disclosure is a mitigation, not a solution. Having been wined and dined by a company, a journalist cannot simply neutralise that experience by appending a footnote. The more honest position is to pay your own way when you can, return gifts when you cannot, and treat the press junket model not as a perk of the profession but as a structural failure that skews coverage in ways readers cannot always see.",
   "sampleAnnotations": [
-    { "phrase": "Journalism's claim to public trust rests on a simple proposition", "meaningVi": "Yêu cầu về niềm tin của công chúng của báo chí dựa trên một đề xuất đơn giản" },
-    { "phrase": "What accepting a free hotel stay, a business-class flight, or a case of wine from a winery under review does to this proposition is not destroy it immediately", "meaningVi": "Điều mà việc chấp nhận kỳ nghỉ khách sạn miễn phí, vé máy bay hạng thương gia hoặc thùng rượu từ một nhà máy rượu đang được đánh giá làm với đề xuất này không phải là phá hủy nó ngay lập tức" },
-    { "phrase": "to introduce a doubt that is difficult to dislodge", "meaningVi": "tạo ra một nghi ngờ khó xóa bỏ" },
-    { "phrase": "Reciprocity bias", "meaningVi": "Thiên kiến có đi có lại" },
-    { "phrase": "the tendency to feel obligated toward those who have given us something", "meaningVi": "xu hướng cảm thấy có nghĩa vụ với những người đã cho mình thứ gì đó" },
-    { "phrase": "operates below the level of conscious intention", "meaningVi": "hoạt động dưới mức ý thức có chủ ý" },
-    { "phrase": "flown to Bordeaux at a vineyard's expense", "meaningVi": "được bay đến Bordeaux với chi phí của vườn nho" },
-    { "phrase": "This is not a hypothesis", "meaningVi": "Đây không phải là một giả thuyết" },
-    { "phrase": "even small gifts — a branded pen, a free lunch — shift prescribing behaviour among doctors", "meaningVi": "ngay cả những món quà nhỏ — một chiếc bút có thương hiệu, một bữa trưa miễn phí — cũng thay đổi hành vi kê đơn của các bác sĩ" },
-    { "phrase": "sincerely believe their clinical judgement is unaffected", "meaningVi": "thực sự tin rằng phán đoán lâm sàng của họ không bị ảnh hưởng" },
-    { "phrase": "Admittedly, many media organisations operate on budgets that make self-funded reporting difficult or impossible", "meaningVi": "Thừa nhận rằng, nhiều tổ chức truyền thông hoạt động với ngân sách khiến việc đưa tin tự tài trợ trở nên khó khăn hoặc không thể" },
-    { "phrase": "not because editors are corrupt but because the alternative is simply not covering a destination at all", "meaningVi": "không phải vì các biên tập viên tham nhũng mà vì thay thế đơn giản là không đưa tin về một điểm đến nào cả" },
-    { "phrase": "the structural argument for accepting freebies does not neutralise the ethical problem", "meaningVi": "lập luận cấu trúc để chấp nhận đồ miễn phí không loại bỏ vấn đề đạo đức" },
-    { "phrase": "coverage of travel destinations, new cars, and consumer electronics is systematically skewed", "meaningVi": "tin tức về các điểm đến du lịch, xe mới và điện tử tiêu dùng bị lệch lạc một cách hệ thống" },
-    { "phrase": "because no one is paying for the flights", "meaningVi": "vì không ai trả tiền cho các chuyến bay" },
-    { "phrase": "Granted, a transparency disclosure is better than silence", "meaningVi": "Thừa nhận rằng, một tuyên bố công khai tốt hơn là im lặng" },
-    { "phrase": "disclosure is a mitigation, not a solution", "meaningVi": "công khai là một biện pháp giảm nhẹ, không phải là giải pháp" },
-    { "phrase": "Having been wined and dined by a company, a journalist cannot simply neutralise that experience by appending a footnote", "meaningVi": "Đã được một công ty chiêu đãi ăn uống, một nhà báo không thể đơn giản vô hiệu hóa trải nghiệm đó bằng cách thêm một chú thích" },
-    { "phrase": "treat the press junket model not as a perk of the profession but as a structural failure", "meaningVi": "đối xử với mô hình chuyến đi báo chí không phải như một đặc quyền của nghề mà như một thất bại cấu trúc" },
-    { "phrase": "skews coverage in ways readers cannot always see", "meaningVi": "làm lệch tin tức theo những cách mà độc giả không phải lúc nào cũng nhìn thấy" }
+    {
+      "phrase": "Journalism's claim to public trust rests on a simple proposition",
+      "meaningVi": "Yêu cầu về niềm tin của công chúng của báo chí dựa trên một đề xuất đơn giản"
+    },
+    {
+      "phrase": "What accepting a free hotel stay, a business-class flight, or a case of wine from a winery under review does to this proposition is not destroy it immediately",
+      "meaningVi": "Điều mà việc chấp nhận kỳ nghỉ khách sạn miễn phí, vé máy bay hạng thương gia hoặc thùng rượu từ một nhà máy rượu đang được đánh giá làm với đề xuất này không phải là phá hủy nó ngay lập tức"
+    },
+    {
+      "phrase": "to introduce a doubt that is difficult to dislodge",
+      "meaningVi": "tạo ra một nghi ngờ khó xóa bỏ"
+    },
+    {
+      "phrase": "Reciprocity bias",
+      "meaningVi": "Thiên kiến có đi có lại"
+    },
+    {
+      "phrase": "the tendency to feel obligated toward those who have given us something",
+      "meaningVi": "xu hướng cảm thấy có nghĩa vụ với những người đã cho mình thứ gì đó"
+    },
+    {
+      "phrase": "operates below the level of conscious intention",
+      "meaningVi": "hoạt động dưới mức ý thức có chủ ý"
+    },
+    {
+      "phrase": "flown to Bordeaux at a vineyard's expense",
+      "meaningVi": "được bay đến Bordeaux với chi phí của vườn nho"
+    },
+    {
+      "phrase": "This is not a hypothesis",
+      "meaningVi": "Đây không phải là một giả thuyết"
+    },
+    {
+      "phrase": "even small gifts — a branded pen, a free lunch — shift prescribing behaviour among doctors",
+      "meaningVi": "ngay cả những món quà nhỏ — một chiếc bút có thương hiệu, một bữa trưa miễn phí — cũng thay đổi hành vi kê đơn của các bác sĩ"
+    },
+    {
+      "phrase": "sincerely believe their clinical judgement is unaffected",
+      "meaningVi": "thực sự tin rằng phán đoán lâm sàng của họ không bị ảnh hưởng"
+    },
+    {
+      "phrase": "Admittedly, many media organisations operate on budgets that make self-funded reporting difficult or impossible",
+      "meaningVi": "Thừa nhận rằng, nhiều tổ chức truyền thông hoạt động với ngân sách khiến việc đưa tin tự tài trợ trở nên khó khăn hoặc không thể"
+    },
+    {
+      "phrase": "not because editors are corrupt but because the alternative is simply not covering a destination at all",
+      "meaningVi": "không phải vì các biên tập viên tham nhũng mà vì thay thế đơn giản là không đưa tin về một điểm đến nào cả"
+    },
+    {
+      "phrase": "the structural argument for accepting freebies does not neutralise the ethical problem",
+      "meaningVi": "lập luận cấu trúc để chấp nhận đồ miễn phí không loại bỏ vấn đề đạo đức"
+    },
+    {
+      "phrase": "coverage of travel destinations, new cars, and consumer electronics is systematically skewed",
+      "meaningVi": "tin tức về các điểm đến du lịch, xe mới và điện tử tiêu dùng bị lệch lạc một cách hệ thống"
+    },
+    {
+      "phrase": "because no one is paying for the flights",
+      "meaningVi": "vì không ai trả tiền cho các chuyến bay"
+    },
+    {
+      "phrase": "Granted, a transparency disclosure",
+      "meaningVi": "Thừa nhận rằng, một tuyên bố công khai tốt hơn là im lặng"
+    },
+    {
+      "phrase": "disclosure is a mitigation, not a solution",
+      "meaningVi": "công khai là một biện pháp giảm nhẹ, không phải là giải pháp"
+    },
+    {
+      "phrase": "Having been wined and dined by a company, a journalist cannot simply neutralise that experience by appending a footnote",
+      "meaningVi": "Đã được một công ty chiêu đãi ăn uống, một nhà báo không thể đơn giản vô hiệu hóa trải nghiệm đó bằng cách thêm một chú thích"
+    },
+    {
+      "phrase": "treat the press junket model not as a perk of the profession but as a structural failure",
+      "meaningVi": "đối xử với mô hình chuyến đi báo chí không phải như một đặc quyền của nghề mà như một thất bại cấu trúc"
+    },
+    {
+      "phrase": "skews coverage in ways readers cannot always see",
+      "meaningVi": "làm lệch tin tức theo những cách mà độc giả không phải lúc nào cũng nhìn thấy"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -76,12 +203,12 @@
       "id": "q1",
       "prompt": "Which sentence uses a what-cleft to foreground a complex action as subject?",
       "options": [
-        "Accepting a freebie does not immediately destroy journalism's credibility but introduces doubt.",
         "What accepting a free hotel stay, a business-class flight, or a case of wine does to this proposition is not destroy it immediately.",
+        "Accepting a freebie does not immediately destroy journalism's credibility but introduces doubt.",
         "A free hotel stay or flight, when accepted, introduces a doubt that is difficult to dislodge into journalism.",
         "Journalism's credibility is what accepting free hotels and flights does not immediately destroy."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The what-cleft 'What [gerund phrase] does to X is [infinitive]' foregrounds the act of accepting freebies as the logical subject, placing the key claim after 'is'.",
       "hint": "Look for 'What [action] does to X is Y' — not Y first, and not the action buried in the middle."
     },
@@ -103,11 +230,11 @@
       "prompt": "Which passive construction correctly backgrounds the agent?",
       "options": [
         "A vineyard flew the journalist to Bordeaux and accommodated them in its guest house.",
-        "The journalist who has been flown to Bordeaux at a vineyard's expense and accommodated in its guest house finds it harder to write a negative review.",
         "Bordeaux's vineyard accommodated and flew the journalist there at its own expense.",
+        "The journalist who has been flown to Bordeaux at a vineyard's expense and accommodated in its guest house finds it harder to write a negative review.",
         "The journalist flew to Bordeaux, having been hosted by a vineyard in its guest house."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'who has been flown to Bordeaux' and 'accommodated in its guest house' use passive constructions to foreground the journalist's experience, backgrounding the vineyard's role as host.",
       "hint": "Which sentence makes the journalist the subject while describing actions done to them?"
     },
@@ -116,11 +243,11 @@
       "prompt": "What does 'editorial independence' mean?",
       "options": [
         "A publisher's right to produce books without government approval",
-        "A journalist's or news organisation's freedom to report and publish based on news values, not commercial or political pressure",
         "The legal right for editors to correct factual errors after publication",
-        "The practice of assigning different stories to different editors"
+        "The practice of assigning different stories to different editors",
+        "A journalist's or news organisation's freedom to report and publish based on news values, not commercial or political pressure"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "Editorial independence means that news decisions — what to report, how to frame it, what to publish — are made on journalistic grounds, not influenced by advertisers, governments, or other outside parties.",
       "hint": "Think of 'editorial' (relating to editing and publishing content) + 'independence' — independence from what?"
     },
@@ -128,12 +255,12 @@
       "id": "q5",
       "prompt": "Which sentence uses a fronted perfect participle clause?",
       "options": [
-        "A journalist cannot neutralise their experience by appending a footnote, having been wined and dined.",
         "Having been wined and dined by a company, a journalist cannot simply neutralise that experience by appending a footnote.",
+        "A journalist cannot neutralise their experience by appending a footnote, having been wined and dined.",
         "A journalist, having been wined and dined by a company, which they cannot neutralise by appending a footnote.",
         "By a company, having been wined and dined, a journalist cannot simply neutralise that experience."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'Having been wined and dined by a company' opens the sentence as a fronted perfect passive participle clause, establishing prior cause before the main clause consequence.",
       "hint": "The fronted participle clause comes before the main subject and establishes something that happened first."
     },
@@ -154,12 +281,12 @@
       "id": "q7",
       "prompt": "Which concession is correctly formed?",
       "options": [
-        "Admittedly, many media organisations operate on budgets that make self-funded reporting difficult or impossible.",
         "Many media organisations operate on budgets admittedly that make self-funded reporting difficult or impossible.",
         "Admittedly budgets of many media organisations are making self-funded reporting difficult admittedly.",
+        "Admittedly, many media organisations operate on budgets that make self-funded reporting difficult or impossible.",
         "Self-funded reporting is difficult admittedly impossible many media organisations operate on budgets."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Admittedly,' is followed by a complete independent clause with normal word order — the standard form of a concession marker.",
       "hint": "After 'Admittedly,', the clause should have a normal subject-verb order."
     },
@@ -168,11 +295,11 @@
       "prompt": "What does 'disclosure is a mitigation, not a solution' mean?",
       "options": [
         "Disclosing a conflict of interest eliminates the ethical problem entirely",
-        "Telling readers about a freebie reduces but does not remove the ethical problem it creates",
         "Media organisations should disclose conflicts of interest only when they are serious",
-        "Disclosure of information should be treated as equivalent to finding a solution"
+        "Disclosure of information should be treated as equivalent to finding a solution",
+        "Telling readers about a freebie reduces but does not remove the ethical problem it creates"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "A mitigation reduces harm without eliminating it. Disclosing that a trip was hosted makes the conflict visible but does not undo the psychological effects of having received the hospitality.",
       "hint": "'Mitigation' is a reduction, not a removal — what is being reduced but not removed here?"
     },
@@ -180,12 +307,12 @@
       "id": "q9",
       "prompt": "What does 'coverage is systematically skewed' mean?",
       "options": [
-        "News reports are consistently formatted using the same visual template",
         "Journalism is regularly and structurally biased in a particular direction due to underlying incentives",
+        "News reports are consistently formatted using the same visual template",
         "Journalists deliberately choose to cover stories that interest them personally",
         "Coverage of certain topics is restricted by government regulation"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'Systematically' means not randomly but as a result of underlying structure; 'skewed' means tilted or biased. Together they describe a structural, not incidental, distortion in coverage.",
       "hint": "'Skewed' means angled or biased in a particular direction — 'systematically' means this happens as a pattern, not by accident."
     },
@@ -207,11 +334,11 @@
       "prompt": "What does 'the appearance of impropriety' mean?",
       "options": [
         "The actual evidence of a journalist having been bribed",
-        "The impression that something unethical may have occurred, even if it has not been proven",
         "The physical appearance of unprofessional behaviour during an interview",
+        "The impression that something unethical may have occurred, even if it has not been proven",
         "A legal charge brought against a journalist for misconduct"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The appearance of impropriety means that even if no actual wrongdoing has occurred, the situation looks questionable — and that appearance can itself damage public trust.",
       "hint": "'Appearance' here means how something looks to others — does the situation look improper, even if nothing improper actually happened?"
     },
@@ -221,10 +348,10 @@
       "options": [
         "Obviously, taking free stuff from companies is a conflict of interest and most journalists know it's dodgy.",
         "Freebies make it really hard for journalists to be fair and basically everyone knows that.",
-        "The acceptance of hospitality from organisations under journalistic scrutiny raises documented concerns about cognitive bias and editorial independence.",
-        "Getting free trips and meals from companies can kind of change how journalists write about them, which is not great."
+        "Getting free trips and meals from companies can kind of change how journalists write about them, which is not great.",
+        "The acceptance of hospitality from organisations under journalistic scrutiny raises documented concerns about cognitive bias and editorial independence."
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "explanation": "'The acceptance of hospitality', 'organisations under journalistic scrutiny', 'documented concerns', 'cognitive bias', and 'editorial independence' are precise, formal collocations appropriate to academic argument.",
       "hint": "Avoid 'obviously', 'basically', 'kind of', 'dodgy', and 'not great' — these are informal."
     },
@@ -232,12 +359,12 @@
       "id": "q13",
       "prompt": "What does 'to be beholden to' someone mean?",
       "options": [
-        "To legally owe money to a creditor",
         "To be indebted or under an obligation to someone in a way that affects your independence",
+        "To legally owe money to a creditor",
         "To hold strong admiration for a respected colleague",
         "To be contractually bound to a company through an employment agreement"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "To be beholden to someone means to owe them something — typically gratitude or favours — in a way that makes you feel obligated and potentially less independent.",
       "hint": "Think of 'behold' as 'to hold onto' — if you owe someone, you are held by that obligation."
     },
@@ -245,12 +372,12 @@
       "id": "q14",
       "prompt": "Which sentence uses inversion correctly after a negative adverb?",
       "options": [
-        "Never should a journalist accept gifts from companies they are covering without full disclosure.",
         "A journalist should never accept gifts from companies they are covering without full disclosure.",
+        "Never should a journalist accept gifts from companies they are covering without full disclosure.",
         "Never a journalist should accept gifts from companies they are covering without full disclosure.",
         "A journalist never should accept gifts without full disclosure from companies they are covering."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "After 'Never', the auxiliary ('should') must precede the subject ('a journalist') — standard subject-auxiliary inversion after a negative adverb.",
       "hint": "After 'Never', does the auxiliary come before or after the subject?"
     },
@@ -259,11 +386,11 @@
       "prompt": "What does 'arms-length relationship' mean in journalism?",
       "options": [
         "A relationship that involves physical distance between interviewer and subject",
-        "A relationship in which a journalist maintains enough distance and independence from a source to report on them objectively",
         "A formal agreement not to quote a source directly",
+        "A relationship in which a journalist maintains enough distance and independence from a source to report on them objectively",
         "A relationship conducted exclusively by email rather than in person"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "An arms-length relationship means keeping enough distance to avoid bias or dependence — the journalist can cover the subject without feeling obligated to them.",
       "hint": "An arm's length is far enough away that you cannot be grabbed — what kind of professional distance does this suggest?"
     },
@@ -272,11 +399,11 @@
       "prompt": "Which phrase best paraphrases 'not because they lack merit but because no one is paying for the flights'?",
       "options": [
         "Small producers are underreported because journalists prefer famous brands.",
-        "Independent producers receive less coverage not due to inferior quality but because they cannot afford to host press trips.",
         "Budget products are not covered because readers are not interested in them.",
-        "Emerging destinations are avoided by journalists who find them too difficult to report on."
+        "Emerging destinations are avoided by journalists who find them too difficult to report on.",
+        "Independent producers receive less coverage not due to inferior quality but because they cannot afford to host press trips."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The original sentence argues that structural funding — who can afford to host journalists — drives coverage, not the quality of the product or destination being covered.",
       "hint": "The key contrast is between 'merit' (quality) and 'paying for flights' (ability to fund press access)."
     }

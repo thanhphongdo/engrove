@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "On the ethics of admiring a thinker whose conduct was poor",
   "summary": "Argue that the question of whether we may still admire a thinker whose private conduct was indefensible is harder, and more interesting, than either the impulse to cancel or the impulse to separate work from life will admit.",
-  "tags": ["Ethics", "Culture", "Argument"],
+  "tags": [
+    "Ethics",
+    "Culture",
+    "Argument"
+  ],
   "topic": "Whether — and how — we may admire a thinker whose conduct was poor",
   "prompt": "Write a 600–800-word essay on whether we may continue to read, teach, or cite a thinker whose private conduct was demonstrably bad. Avoid the language of internet outrage and the lazy defence that 'the work stands on its own'. Use one inversion, one cleft, and a 'Granted… Even so…' concession. Treat the question philosophically. Use concrete cases (a philosopher, a novelist) without naming famous living figures.",
   "minWords": 600,
@@ -14,53 +18,185 @@
     "Granted, the demand that we approve of every figure whose ideas we use would empty the library within a generation. Even so,…"
   ],
   "hintVocab": [
-    {"phrase": "the biographical defence", "meaningVi": "biện hộ dựa trên tiểu sử"},
-    {"phrase": "the separability thesis", "meaningVi": "luận đề tách rời (tác phẩm khỏi tác giả)"},
-    {"phrase": "moral authority", "meaningVi": "thẩm quyền đạo đức"},
-    {"phrase": "intellectual debt", "meaningVi": "món nợ trí tuệ"},
-    {"phrase": "the canonised figure", "meaningVi": "nhân vật được phong thánh hoá"},
-    {"phrase": "citation as endorsement", "meaningVi": "trích dẫn như sự tán thành"},
-    {"phrase": "moral hygiene", "meaningVi": "vệ sinh đạo đức"},
-    {"phrase": "the discredited life", "meaningVi": "cuộc đời đã mất uy tín"},
-    {"phrase": "transferable authority", "meaningVi": "thẩm quyền có thể chuyển nhượng"},
-    {"phrase": "the reception history", "meaningVi": "lịch sử tiếp nhận"},
-    {"phrase": "the witness account", "meaningVi": "lời chứng của nhân chứng"},
-    {"phrase": "philosophical asceticism", "meaningVi": "khổ hạnh triết học"},
-    {"phrase": "the bracketing move", "meaningVi": "động tác đặt trong ngoặc"},
-    {"phrase": "moral residue", "meaningVi": "dư lượng đạo đức"},
-    {"phrase": "the posthumous reckoning", "meaningVi": "sự thanh toán hậu tử"},
-    {"phrase": "performative admiration", "meaningVi": "sự ngưỡng mộ trình diễn"},
-    {"phrase": "the qualified reader", "meaningVi": "người đọc có dè dặt"},
-    {"phrase": "intellectual provenance", "meaningVi": "xuất xứ trí tuệ"},
-    {"phrase": "the moral creditor", "meaningVi": "chủ nợ đạo đức"},
-    {"phrase": "discursive complicity", "meaningVi": "sự đồng loã diễn ngôn"},
-    {"phrase": "ethical opportunism", "meaningVi": "cơ hội chủ nghĩa đạo đức"},
-    {"phrase": "the rehabilitation industry", "meaningVi": "ngành công nghiệp phục hồi danh tiếng"}
+    {
+      "phrase": "the biographical defence",
+      "meaningVi": "biện hộ dựa trên tiểu sử"
+    },
+    {
+      "phrase": "the separability thesis",
+      "meaningVi": "luận đề tách rời (tác phẩm khỏi tác giả)"
+    },
+    {
+      "phrase": "moral authority",
+      "meaningVi": "thẩm quyền đạo đức"
+    },
+    {
+      "phrase": "intellectual debt",
+      "meaningVi": "món nợ trí tuệ"
+    },
+    {
+      "phrase": "the canonised figure",
+      "meaningVi": "nhân vật được phong thánh hoá"
+    },
+    {
+      "phrase": "citation as endorsement",
+      "meaningVi": "trích dẫn như sự tán thành"
+    },
+    {
+      "phrase": "moral hygiene",
+      "meaningVi": "vệ sinh đạo đức"
+    },
+    {
+      "phrase": "the discredited life",
+      "meaningVi": "cuộc đời đã mất uy tín"
+    },
+    {
+      "phrase": "transferable authority",
+      "meaningVi": "thẩm quyền có thể chuyển nhượng"
+    },
+    {
+      "phrase": "the reception history",
+      "meaningVi": "lịch sử tiếp nhận"
+    },
+    {
+      "phrase": "the witness account",
+      "meaningVi": "lời chứng của nhân chứng"
+    },
+    {
+      "phrase": "philosophical asceticism",
+      "meaningVi": "khổ hạnh triết học"
+    },
+    {
+      "phrase": "the bracketing move",
+      "meaningVi": "động tác đặt trong ngoặc"
+    },
+    {
+      "phrase": "moral residue",
+      "meaningVi": "dư lượng đạo đức"
+    },
+    {
+      "phrase": "the posthumous reckoning",
+      "meaningVi": "sự thanh toán hậu tử"
+    },
+    {
+      "phrase": "performative admiration",
+      "meaningVi": "sự ngưỡng mộ trình diễn"
+    },
+    {
+      "phrase": "the qualified reader",
+      "meaningVi": "người đọc có dè dặt"
+    },
+    {
+      "phrase": "intellectual provenance",
+      "meaningVi": "xuất xứ trí tuệ"
+    },
+    {
+      "phrase": "the moral creditor",
+      "meaningVi": "chủ nợ đạo đức"
+    },
+    {
+      "phrase": "discursive complicity",
+      "meaningVi": "sự đồng loã diễn ngôn"
+    },
+    {
+      "phrase": "ethical opportunism",
+      "meaningVi": "cơ hội chủ nghĩa đạo đức"
+    },
+    {
+      "phrase": "the rehabilitation industry",
+      "meaningVi": "ngành công nghiệp phục hồi danh tiếng"
+    }
   ],
   "sampleText": "Only rarely is the question of admiration treated as a moral question in its own right, distinct from the work itself and from the conduct that has come to light around it. We tend to slip between two positions, both too easy. The first cancels the thinker entirely, on the grounds that no sentence written by a person who acted badly can be read without contamination. The second separates the work from the life, on the grounds that the argument either holds or does not hold, and the biography is a private matter that should not bear on the public estimate. Neither position survives much pressure, and the more interesting work begins where the slogans end.\n\nConsider a moral philosopher who wrote with great clarity about the obligations we owe to people who depend on us, and who, in his private life, treated such people with a coldness that several witnesses, over decades, described in remarkably consistent terms. The work is, in the technical sense, unaffected: the arguments stand or fall on the reasons given for them. Yet something has clearly shifted. A reader who once cited him on dependency now hesitates, not because the argument is weaker, but because the act of citing him, in a sentence addressed to others, is no longer a small thing. It used to be the unobtrusive transfer of an idea. It is now, however quietly, a small public alignment with a figure whose private behaviour, on the very subject of his work, was poor.\n\nThis is the part that the separability thesis cannot quite handle. To cite a thinker is not only to use an argument; it is to lend, for a moment, one's own credibility to a name. The thinker borrows the reader's authority in the same instant that the reader borrows the thinker's. What the slogan 'separate the art from the artist' obscures is the fact that admiration is not a neutral cognitive event but a small, recurring transfer of authority — and authority, unlike content, does not pass through a clean container.\n\nIt is the structural fact of borrowed standing, not the strength of any individual disgust, that gives the worry its philosophical weight. A novelist whose prose is unrivalled and whose conduct toward those closest to her was cruel does not stop having unrivalled prose. The question is what happens when she is set as a model for a generation of younger writers — when the prose comes attached, as it must, to a person treated as worth becoming. The work cannot be sealed off from the practice of recommending the work, and recommendation is the principal way in which thinkers shape successors.\n\nGranted, the demand that we approve of every figure whose ideas we use would empty the library within a generation, and not in a way that any honest student of intellectual history could welcome. Even so, the conclusion is not that admiration must be unqualified. There is a posture, less satisfying than either cancellation or full embrace, that consists in continuing to read, continuing to teach, continuing to acknowledge intellectual debts, while refusing the rhetorical move that turns the thinker into a model. It is possible to say: here is the argument, here are the reasons it persuaded me, and here is the conduct that I am not setting aside, even when it is inconvenient to remember. The book remains useful; the figure does not become exemplary.\n\nWhat this posture costs is the small comfort of unconflicted reading — the pleasure of admiring without footnotes. What it gains is a more honest relation to the canon. A reader who keeps both the argument and the witness account in view is not paralysed; she is simply more careful about which forms of authority she lends out on behalf of the names she uses. It is in this sense that the question of admiration is genuinely moral. It is not about whether the thinker deserved his reputation, which is largely beyond our power to revise, but about what we, in our small repeated gestures of citation and recommendation, are willing to subsidise with our own standing.\n\nNone of this resolves into a rule. There is no procedure that tells us when conduct is bad enough to override an argument, or when an argument is strong enough to survive its author. The narrower claim is that admiration is itself a kind of action, that actions are answerable, and that the easiest answers — full embrace, full refusal — are the two we should distrust most.",
   "sampleAnnotations": [
-    {"phrase": "Only rarely is the question of admiration treated as a moral question in its own right, distinct from the work itself and from the conduct that has come to light around it", "meaningVi": "Chỉ hiếm khi câu hỏi về sự ngưỡng mộ được đối xử như một câu hỏi đạo đức tự thân, tách biệt với chính tác phẩm và với hành vi đã được phơi bày xung quanh nó"},
-    {"phrase": "the more interesting work begins where the slogans end", "meaningVi": "công việc thú vị hơn bắt đầu ở nơi khẩu hiệu kết thúc"},
-    {"phrase": "treated such people with a coldness that several witnesses, over decades, described in remarkably consistent terms", "meaningVi": "đối xử với những người như vậy bằng sự lạnh lùng mà nhiều nhân chứng, qua hàng thập kỷ, đã mô tả bằng những lời lẽ nhất quán đáng chú ý"},
-    {"phrase": "the act of citing him, in a sentence addressed to others, is no longer a small thing", "meaningVi": "hành động trích dẫn ông ấy, trong một câu nói với người khác, không còn là chuyện nhỏ"},
-    {"phrase": "It used to be the unobtrusive transfer of an idea", "meaningVi": "Trước đây nó từng là sự chuyển giao một ý tưởng không phô trương"},
-    {"phrase": "however quietly, a small public alignment with a figure whose private behaviour, on the very subject of his work, was poor", "meaningVi": "dù lặng lẽ, một sự đồng nhất công khai nhỏ với một nhân vật mà hành vi riêng tư, ngay trên chính chủ đề của tác phẩm ông ta, lại kém cỏi"},
-    {"phrase": "To cite a thinker is not only to use an argument; it is to lend, for a moment, one's own credibility to a name", "meaningVi": "Trích dẫn một nhà tư tưởng không chỉ là dùng một luận điểm; đó là cho mượn, trong khoảnh khắc, uy tín của chính mình cho một cái tên"},
-    {"phrase": "What the slogan 'separate the art from the artist' obscures is the fact that admiration is not a neutral cognitive event but a small, recurring transfer of authority", "meaningVi": "Điều mà khẩu hiệu 'tách nghệ thuật khỏi nghệ sĩ' che giấu là sự thật rằng ngưỡng mộ không phải là một sự kiện nhận thức trung lập mà là một sự chuyển giao thẩm quyền nhỏ, lặp đi lặp lại"},
-    {"phrase": "authority, unlike content, does not pass through a clean container", "meaningVi": "thẩm quyền, không giống nội dung, không đi qua một vật chứa sạch sẽ"},
-    {"phrase": "It is the structural fact of borrowed standing, not the strength of any individual disgust, that gives the worry its philosophical weight", "meaningVi": "Chính sự kiện cấu trúc của thẩm quyền vay mượn, không phải cường độ của bất kỳ sự ghê tởm cá nhân nào, mới mang lại cho mối lo này trọng lượng triết học"},
-    {"phrase": "does not stop having unrivalled prose", "meaningVi": "không vì thế mà mất đi áng văn không có đối thủ"},
-    {"phrase": "when the prose comes attached, as it must, to a person treated as worth becoming", "meaningVi": "khi áng văn ấy đi kèm, như tất yếu phải vậy, với một con người được đối xử như đáng noi gương"},
-    {"phrase": "recommendation is the principal way in which thinkers shape successors", "meaningVi": "việc tiến cử là cách chính mà các nhà tư tưởng định hình những người kế tục"},
-    {"phrase": "Granted, the demand that we approve of every figure whose ideas we use would empty the library within a generation", "meaningVi": "Cứ cho là yêu cầu chúng ta tán thành mọi nhân vật có ý tưởng ta dùng sẽ làm trống thư viện trong một thế hệ"},
-    {"phrase": "Even so, the conclusion is not that admiration must be unqualified", "meaningVi": "Dù vậy, kết luận theo sau không phải là sự ngưỡng mộ phải không kèm điều kiện"},
-    {"phrase": "refusing the rhetorical move that turns the thinker into a model", "meaningVi": "từ chối thủ pháp tu từ biến nhà tư tưởng thành một mẫu hình"},
-    {"phrase": "The book remains useful; the figure does not become exemplary", "meaningVi": "Cuốn sách vẫn hữu ích; nhân vật không trở thành mẫu mực"},
-    {"phrase": "the small comfort of unconflicted reading — the pleasure of admiring without footnotes", "meaningVi": "sự an ủi nhỏ của việc đọc không xung đột — niềm vui ngưỡng mộ mà không có chú thích"},
-    {"phrase": "more careful about which forms of authority she lends out on behalf of the names she uses", "meaningVi": "cẩn thận hơn về việc cô ấy cho mượn những hình thức thẩm quyền nào nhân danh các tên mà cô dùng"},
-    {"phrase": "what we, in our small repeated gestures of citation and recommendation, are willing to subsidise with our own standing", "meaningVi": "điều mà chúng ta, qua những cử chỉ nhỏ lặp đi lặp lại của trích dẫn và tiến cử, sẵn lòng tài trợ bằng uy tín của chính mình"},
-    {"phrase": "admiration is itself a kind of action, that actions are answerable", "meaningVi": "ngưỡng mộ tự nó là một loại hành động, và hành động thì phải chịu trách nhiệm"},
-    {"phrase": "the easiest answers — full embrace, full refusal — are the two we should distrust most", "meaningVi": "những câu trả lời dễ nhất — chấp nhận hoàn toàn, từ chối hoàn toàn — là hai câu chúng ta nên nghi ngờ nhất"}
+    {
+      "phrase": "Only rarely is the question of admiration treated as a moral question in its own right, distinct from the work itself and from the conduct that has come to light around it",
+      "meaningVi": "Chỉ hiếm khi câu hỏi về sự ngưỡng mộ được đối xử như một câu hỏi đạo đức tự thân, tách biệt với chính tác phẩm và với hành vi đã được phơi bày xung quanh nó"
+    },
+    {
+      "phrase": "the more interesting work begins where the slogans end",
+      "meaningVi": "công việc thú vị hơn bắt đầu ở nơi khẩu hiệu kết thúc"
+    },
+    {
+      "phrase": "treated such people with a coldness that several witnesses, over decades, described in remarkably consistent terms",
+      "meaningVi": "đối xử với những người như vậy bằng sự lạnh lùng mà nhiều nhân chứng, qua hàng thập kỷ, đã mô tả bằng những lời lẽ nhất quán đáng chú ý"
+    },
+    {
+      "phrase": "the act of citing him, in a sentence addressed to others, is no longer a small thing",
+      "meaningVi": "hành động trích dẫn ông ấy, trong một câu nói với người khác, không còn là chuyện nhỏ"
+    },
+    {
+      "phrase": "It used to be the unobtrusive transfer of an idea",
+      "meaningVi": "Trước đây nó từng là sự chuyển giao một ý tưởng không phô trương"
+    },
+    {
+      "phrase": "however quietly, a small public alignment with a figure whose private behaviour, on the very subject of his work, was poor",
+      "meaningVi": "dù lặng lẽ, một sự đồng nhất công khai nhỏ với một nhân vật mà hành vi riêng tư, ngay trên chính chủ đề của tác phẩm ông ta, lại kém cỏi"
+    },
+    {
+      "phrase": "To cite a thinker is not only to use an argument; it is to lend, for a moment, one's own credibility to a name",
+      "meaningVi": "Trích dẫn một nhà tư tưởng không chỉ là dùng một luận điểm; đó là cho mượn, trong khoảnh khắc, uy tín của chính mình cho một cái tên"
+    },
+    {
+      "phrase": "What the slogan 'separate the art from the artist' obscures is the fact that admiration is not a neutral cognitive event but a small, recurring transfer of authority",
+      "meaningVi": "Điều mà khẩu hiệu 'tách nghệ thuật khỏi nghệ sĩ' che giấu là sự thật rằng ngưỡng mộ không phải là một sự kiện nhận thức trung lập mà là một sự chuyển giao thẩm quyền nhỏ, lặp đi lặp lại"
+    },
+    {
+      "phrase": "authority, unlike content, does not pass through a clean container",
+      "meaningVi": "thẩm quyền, không giống nội dung, không đi qua một vật chứa sạch sẽ"
+    },
+    {
+      "phrase": "It is the structural fact of borrowed standing, not the strength of any individual disgust, that gives the worry its philosophical weight",
+      "meaningVi": "Chính sự kiện cấu trúc của thẩm quyền vay mượn, không phải cường độ của bất kỳ sự ghê tởm cá nhân nào, mới mang lại cho mối lo này trọng lượng triết học"
+    },
+    {
+      "phrase": "does not stop having unrivalled prose",
+      "meaningVi": "không vì thế mà mất đi áng văn không có đối thủ"
+    },
+    {
+      "phrase": "when the prose comes attached, as it must, to a person treated as worth becoming",
+      "meaningVi": "khi áng văn ấy đi kèm, như tất yếu phải vậy, với một con người được đối xử như đáng noi gương"
+    },
+    {
+      "phrase": "recommendation is the principal way in which thinkers shape successors",
+      "meaningVi": "việc tiến cử là cách chính mà các nhà tư tưởng định hình những người kế tục"
+    },
+    {
+      "phrase": "Granted, the demand that we approve of every figure whose ideas we use would empty the library within a generation",
+      "meaningVi": "Cứ cho là yêu cầu chúng ta tán thành mọi nhân vật có ý tưởng ta dùng sẽ làm trống thư viện trong một thế hệ"
+    },
+    {
+      "phrase": "Even so, the conclusion is not that admiration must be unqualified",
+      "meaningVi": "Dù vậy, kết luận theo sau không phải là sự ngưỡng mộ phải không kèm điều kiện"
+    },
+    {
+      "phrase": "refusing the rhetorical move that turns the thinker into a model",
+      "meaningVi": "từ chối thủ pháp tu từ biến nhà tư tưởng thành một mẫu hình"
+    },
+    {
+      "phrase": "The book remains useful; the figure does not become exemplary",
+      "meaningVi": "Cuốn sách vẫn hữu ích; nhân vật không trở thành mẫu mực"
+    },
+    {
+      "phrase": "the small comfort of unconflicted reading — the pleasure of admiring without footnotes",
+      "meaningVi": "sự an ủi nhỏ của việc đọc không xung đột — niềm vui ngưỡng mộ mà không có chú thích"
+    },
+    {
+      "phrase": "more careful about which forms of authority she lends out on behalf of the names she uses",
+      "meaningVi": "cẩn thận hơn về việc cô ấy cho mượn những hình thức thẩm quyền nào nhân danh các tên mà cô dùng"
+    },
+    {
+      "phrase": "what we, in our small repeated gestures of citation and recommendation, are willing to subsidise with our own standing",
+      "meaningVi": "điều mà chúng ta, qua những cử chỉ nhỏ lặp đi lặp lại của trích dẫn và tiến cử, sẵn lòng tài trợ bằng uy tín của chính mình"
+    },
+    {
+      "phrase": "admiration is itself a kind of action, that actions are answerable",
+      "meaningVi": "ngưỡng mộ tự nó là một loại hành động, và hành động thì phải chịu trách nhiệm"
+    },
+    {
+      "phrase": "the easiest answers — full embrace, full refusal — are the two we should distrust most",
+      "meaningVi": "những câu trả lời dễ nhất — chấp nhận hoàn toàn, từ chối hoàn toàn — là hai câu chúng ta nên nghi ngờ nhất"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -80,12 +216,12 @@
       "id": "q1",
       "prompt": "Which sentence correctly applies inversion after 'Only rarely' with a passive verb and a long subject?",
       "options": [
-        "Only rarely the question of admiration is treated as a moral question in its own right.",
         "Only rarely is the question of admiration treated as a moral question in its own right, distinct from the work itself and from the conduct that has come to light around it.",
+        "Only rarely the question of admiration is treated as a moral question in its own right.",
         "Only rarely treated is the question of admiration as a moral question.",
         "The question of admiration only rarely is being treated as a moral question."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'Only rarely' at the front of the clause triggers subject-auxiliary inversion: the passive 'is' precedes the long subject 'the question of admiration', and 'treated' follows.",
       "hint": "Negative adverbial at the front, passive 'is' before the long subject."
     },
@@ -107,11 +243,11 @@
       "prompt": "Which sentence in the essay is a cleft sentence?",
       "options": [
         "The arguments stand or fall on the reasons given for them.",
-        "It is the structural fact of borrowed standing, not the strength of any individual disgust, that gives the worry its philosophical weight.",
         "A reader who once cited him on dependency now hesitates.",
+        "It is the structural fact of borrowed standing, not the strength of any individual disgust, that gives the worry its philosophical weight.",
         "The book remains useful; the figure does not become exemplary."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'It is X, not Y, that Z' is a textbook cleft. It locates the source of the worry in structure (borrowed authority) rather than in emotion (disgust).",
       "hint": "Look for the 'It is ... not ... that ...' pattern."
     },
@@ -120,11 +256,11 @@
       "prompt": "What two positions does the essay say are both 'too easy'?",
       "options": [
         "Reading and refusing to read.",
-        "Cancelling the thinker entirely, and separating the work from the life as if biography is irrelevant.",
         "Teaching and not teaching.",
-        "Citing and refusing to cite."
+        "Citing and refusing to cite.",
+        "Cancelling the thinker entirely, and separating the work from the life as if biography is irrelevant."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The first paragraph names both slogans — full cancellation and full separation — and says neither survives much pressure.",
       "hint": "The two slogans named in the first paragraph."
     },
@@ -132,12 +268,12 @@
       "id": "q5",
       "prompt": "What happens, according to the essay, when a reader cites a discredited thinker?",
       "options": [
-        "The argument loses its logical validity.",
         "The reader lends, for a moment, her own credibility to the thinker's name — admiration is a small recurring transfer of authority.",
+        "The argument loses its logical validity.",
         "The reader becomes legally liable.",
         "Nothing happens, because citation is purely technical."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay's key move: citation is not a neutral technical act. The reader lends standing; the thinker borrows it. Authority is what passes, not just content.",
       "hint": "Citation transfers something more than information."
     },
@@ -159,11 +295,11 @@
       "prompt": "What does the essay mean by 'the rhetorical move that turns the thinker into a model'?",
       "options": [
         "Quoting the thinker word-for-word.",
-        "Treating the thinker not just as a source of arguments but as a figure worth becoming — recommending the person, not only the work.",
         "Writing a biography of the thinker.",
+        "Treating the thinker not just as a source of arguments but as a figure worth becoming — recommending the person, not only the work.",
         "Publishing the thinker's letters."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay distinguishes using a book (acceptable) from setting the person as exemplary (not acceptable when conduct was poor on the very subject of the work).",
       "hint": "The thinker as figure-to-emulate, not just argument-to-use."
     },
@@ -172,11 +308,11 @@
       "prompt": "Why is recommendation 'the principal way in which thinkers shape successors'?",
       "options": [
         "Because most students never read primary sources.",
-        "Because the work cannot be sealed off from the practice of recommending it; teachers and senior figures pass on not just arguments but figures.",
         "Because publishers control the market.",
-        "Because successors only read what their elders praise."
+        "Because successors only read what their elders praise.",
+        "Because the work cannot be sealed off from the practice of recommending it; teachers and senior figures pass on not just arguments but figures."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay argues that recommendation is the channel through which intellectual authority passes. To recommend is to fold a person, not just a text, into a successor's frame.",
       "hint": "Reading the work is not separable from the institutional act of holding the figure up."
     },
@@ -211,11 +347,11 @@
       "prompt": "What does the essay say is the COST of the recommended posture?",
       "options": [
         "Being expelled from the academy.",
-        "The small comfort of unconflicted reading — the pleasure of admiring without footnotes.",
         "Losing the ability to write.",
+        "The small comfort of unconflicted reading — the pleasure of admiring without footnotes.",
         "Being misunderstood by colleagues."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay is candid: the price of the posture is the loss of frictionless admiration. The gain is a more honest relation to the canon.",
       "hint": "Look at the paragraph beginning 'What this posture costs…'"
     },
@@ -224,11 +360,11 @@
       "prompt": "What is the essay's narrower claim, by its own admission?",
       "options": [
         "That all discredited thinkers should be removed from syllabi.",
-        "That admiration is itself a kind of action, that actions are answerable, and that the easiest answers should be distrusted.",
         "That biography is irrelevant to philosophy.",
-        "That literary criticism is more important than ethics."
+        "That literary criticism is more important than ethics.",
+        "That admiration is itself a kind of action, that actions are answerable, and that the easiest answers should be distrusted."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The final paragraph restates the argument's modesty: no rule, no procedure — only the claim that admiration is action and the easy answers are suspect.",
       "hint": "The final paragraph names the narrower claim."
     },
@@ -236,12 +372,12 @@
       "id": "q13",
       "prompt": "Why does the essay distrust 'full embrace' and 'full refusal' equally?",
       "options": [
-        "Because both are radical positions.",
         "Because both spare the reader the work of judgment — they replace a difficult ongoing discrimination with a single, comforting verdict.",
+        "Because both are radical positions.",
         "Because both are unpopular.",
         "Because both are politically motivated."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay treats both extremes as forms of evasion. Each substitutes a single decision for the continuous ethical work that admiration actually requires.",
       "hint": "Both extremes save the reader from having to keep judging."
     },
@@ -263,11 +399,11 @@
       "prompt": "Which of these is the essay's view of the question 'did the thinker deserve his reputation?'",
       "options": [
         "It is the central question of the essay.",
-        "It is largely beyond our power to revise; the more answerable question is what we, in our own gestures of citation, subsidise with our standing.",
         "It can be answered definitively by historians.",
+        "It is largely beyond our power to revise; the more answerable question is what we, in our own gestures of citation, subsidise with our standing.",
         "It is the only question that matters."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay sets aside the retrospective question (largely settled or unsettleable) and focuses on the present-tense question we still control: what our citations endorse.",
       "hint": "The essay shifts from past reputation to present-tense gestures."
     },
@@ -276,11 +412,11 @@
       "prompt": "What rhetorical purpose does the closing line — 'the easiest answers… are the two we should distrust most' — serve?",
       "options": [
         "It introduces a new argument.",
-        "It refuses false resolution, leaving the reader with an ongoing ethical task rather than a verdict — a deliberate refusal of closure.",
         "It admits the essay has failed.",
-        "It is a rhetorical flourish without content."
+        "It is a rhetorical flourish without content.",
+        "It refuses false resolution, leaving the reader with an ongoing ethical task rather than a verdict — a deliberate refusal of closure."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay deliberately ends without a tidy answer. Refusal of false resolution is a C1 closing move: it preserves the difficulty the essay has built up rather than dissolving it.",
       "hint": "The closing refuses to dissolve the difficulty."
     }

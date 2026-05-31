@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "When honesty becomes a form of self-display",
   "summary": "Examine the phenomenon of conspicuous candour — the performance of honesty that serves the speaker's self-image more than the listener's need for truth.",
-  "tags": ["Argument", "Ethics", "Communication"],
+  "tags": [
+    "Argument",
+    "Ethics",
+    "Communication"
+  ],
   "topic": "Whether radical honesty is always an ethical act or sometimes a form of self-indulgence",
   "prompt": "Write a 600–800-word argumentative essay examining the line between genuine honesty and the performance of honesty as a form of self-display. Argue that certain public declarations of radical candour — the confession that shocks, the opinion delivered without tact — are less about truth-telling than about the speaker's desire to be seen as someone who does not flinch. Draw on at least two specific contexts. Use inversion at least once, at least one nominalization, and the concessive pair 'it cannot be denied that… and yet…'. Avoid bullet lists, self-help clichés, and TED-Talk openers.",
   "minWords": 600,
@@ -15,52 +19,185 @@
     "There is a telling asymmetry in the kind of truths that conspicuous honesty tends to favour…"
   ],
   "hintVocab": [
-    {"phrase": "conspicuous candour", "meaningVi": "sự thẳng thắn nổi bật, trưng bày sự thành thật"},
-    {"phrase": "radical candour", "meaningVi": "sự thẳng thắn triệt để (khái niệm quản lý nổi tiếng)", "pronunciation": "/ˈkændər/"},
-    {"phrase": "self-display", "meaningVi": "sự tự phô bày, trưng bày bản thân"},
-    {"phrase": "tact", "meaningVi": "sự khéo léo, tinh tế trong giao tiếp", "pronunciation": "/tækt/"},
-    {"phrase": "epistemic cowardice", "meaningVi": "sự hèn nhát nhận thức, nói mơ hồ để tránh phản ứng"},
-    {"phrase": "performative disclosure", "meaningVi": "sự tiết lộ mang tính biểu diễn"},
-    {"phrase": "the unsayable", "meaningVi": "điều không thể nói, điều bị cấm kỵ"},
-    {"phrase": "self-serving", "meaningVi": "phục vụ lợi ích cá nhân, ích kỷ"},
-    {"phrase": "vulnerability performance", "meaningVi": "màn trình diễn về sự dễ tổn thương"},
-    {"phrase": "social capital", "meaningVi": "vốn xã hội, lợi thế từ danh tiếng và mạng lưới quan hệ"},
-    {"phrase": "confessor", "meaningVi": "người xưng tội, người hay thú nhận"},
-    {"phrase": "interlocutor", "meaningVi": "người đối thoại", "pronunciation": "/ˌɪntərˈlɒkjʊtər/"},
-    {"phrase": "asymmetry of disclosure", "meaningVi": "sự bất đối xứng trong việc tiết lộ thông tin"},
-    {"phrase": "moral exhibitionism", "meaningVi": "chủ nghĩa trình diễn đạo đức"},
-    {"phrase": "the relieved speaker", "meaningVi": "người nói được giải toả sau khi thú nhận"},
-    {"phrase": "truth premium", "meaningVi": "phần thưởng xã hội cho việc nói thật"},
-    {"phrase": "burdened listener", "meaningVi": "người nghe bị gánh nặng bởi lời thú nhận"},
-    {"phrase": "calibrated reticence", "meaningVi": "sự im lặng có chủ đích, tự kiềm chế có tính toán"},
-    {"phrase": "emotional offloading", "meaningVi": "việc trút bỏ cảm xúc sang người khác"},
-    {"phrase": "courageous speech", "meaningVi": "lời nói can đảm, parrêsia trong triết học Hy Lạp"},
-    {"phrase": "parrêsia", "meaningVi": "parrêsia: lời nói thẳng thắn can đảm trong triết học Hy Lạp cổ đại", "pronunciation": "/pəˈriːziə/"}
+    {
+      "phrase": "conspicuous candour",
+      "meaningVi": "sự thẳng thắn nổi bật, trưng bày sự thành thật"
+    },
+    {
+      "phrase": "radical candour",
+      "meaningVi": "sự thẳng thắn triệt để (khái niệm quản lý nổi tiếng)",
+      "pronunciation": "/ˈkændər/"
+    },
+    {
+      "phrase": "self-display",
+      "meaningVi": "sự tự phô bày, trưng bày bản thân"
+    },
+    {
+      "phrase": "tact",
+      "meaningVi": "sự khéo léo, tinh tế trong giao tiếp",
+      "pronunciation": "/tækt/"
+    },
+    {
+      "phrase": "epistemic cowardice",
+      "meaningVi": "sự hèn nhát nhận thức, nói mơ hồ để tránh phản ứng"
+    },
+    {
+      "phrase": "performative disclosure",
+      "meaningVi": "sự tiết lộ mang tính biểu diễn"
+    },
+    {
+      "phrase": "the unsayable",
+      "meaningVi": "điều không thể nói, điều bị cấm kỵ"
+    },
+    {
+      "phrase": "self-serving",
+      "meaningVi": "phục vụ lợi ích cá nhân, ích kỷ"
+    },
+    {
+      "phrase": "vulnerability performance",
+      "meaningVi": "màn trình diễn về sự dễ tổn thương"
+    },
+    {
+      "phrase": "social capital",
+      "meaningVi": "vốn xã hội, lợi thế từ danh tiếng và mạng lưới quan hệ"
+    },
+    {
+      "phrase": "confessor",
+      "meaningVi": "người xưng tội, người hay thú nhận"
+    },
+    {
+      "phrase": "interlocutor",
+      "meaningVi": "người đối thoại",
+      "pronunciation": "/ˌɪntərˈlɒkjʊtər/"
+    },
+    {
+      "phrase": "asymmetry of disclosure",
+      "meaningVi": "sự bất đối xứng trong việc tiết lộ thông tin"
+    },
+    {
+      "phrase": "moral exhibitionism",
+      "meaningVi": "chủ nghĩa trình diễn đạo đức"
+    },
+    {
+      "phrase": "the relieved speaker",
+      "meaningVi": "người nói được giải toả sau khi thú nhận"
+    },
+    {
+      "phrase": "truth premium",
+      "meaningVi": "phần thưởng xã hội cho việc nói thật"
+    },
+    {
+      "phrase": "burdened listener",
+      "meaningVi": "người nghe bị gánh nặng bởi lời thú nhận"
+    },
+    {
+      "phrase": "calibrated reticence",
+      "meaningVi": "sự im lặng có chủ đích, tự kiềm chế có tính toán"
+    },
+    {
+      "phrase": "emotional offloading",
+      "meaningVi": "việc trút bỏ cảm xúc sang người khác"
+    },
+    {
+      "phrase": "courageous speech",
+      "meaningVi": "lời nói can đảm, parrêsia trong triết học Hy Lạp"
+    },
+    {
+      "phrase": "parrêsia",
+      "meaningVi": "parrêsia: lời nói thẳng thắn can đảm trong triết học Hy Lạp cổ đại",
+      "pronunciation": "/pəˈriːziə/"
+    }
   ],
   "sampleText": "Only when honesty costs the speaker something does it begin to resemble a virtue rather than a performance. This is the distinction that the contemporary enthusiasm for radical candour — the injunction to say the uncomfortable thing, to resist the anaesthetic of diplomatic vagueness — tends to obscure. Not all willingness to speak plainly is courageous. Some of it is simply the gratification of self-display dressed in the borrowed vocabulary of integrity.\n\nThere is a telling asymmetry in the kind of truths that conspicuous honesty tends to favour. The confessions that attract the largest social capital are rarely truths that damage the speaker's standing — they are truths that enhance it. The executive who announces, publicly, that she never reads emails after six o'clock is not being honest; she is performing a kind of productivity virtue that happens to be flattering. The public intellectual who delivers a verdict — that a beloved author's late work is weak, or that a celebrated movement has run out of ideas — is often admired less for the accuracy of the observation than for the image it constructs: the person who is not afraid, who does not flinch, who will not perform the social lubricant of false enthusiasm. The honesty is real, but the audience for it is, in the most important sense, the speaker themselves.\n\nIt cannot be denied that the world benefits from people willing to name uncomfortable truths — to say that the institution is failing, that the emperor has no clothes, that the consensus is wrong. And yet the parrêsia of Greek philosophy — the courageous speech that risked genuine social cost — was precisely defined by its asymmetry: the speaker had less power than the person they addressed, or they risked something real in the saying. The contemporary inversion of this — in which people of high social standing perform their willingness to transgress minor taboos before sympathetic audiences — is the form without the substance.\n\nThe domestic dimension of this problem is, if anything, sharper. The person who tells their partner, with forensic detail, exactly what they find irritating about them — in the name of honesty, in the service of authentic relating — has often enacted not a gift but a transfer. The emotional offloading is complete: the relieved speaker is lightened; the burdened listener carries what was deposited. Calibrated reticence — the decision not to say a true thing because saying it serves the speaker more than it serves the relationship — is not deception. It is care. The distinction between the honest person and the honest-performing person is, in these moments, the distinction between someone asking what truth does and someone asking what truth says about them.\n\nThe social media context has accelerated this confusion. The confession that is shared publicly — the frank disclosure of struggle, failure, or dissent — accrues a truth premium that private honesty does not: the approving reaction, the community of similarly confessing followers, the personal brand of unfiltered authenticity. Seldom is the question asked of what the confessees receive from this transaction: whether the listener's inbox, their feed, their emotional attention has been conscripted into the service of someone else's self-presentation. The asymmetry of disclosure here is stark — the speaker is relieved and applauded; the listener is expected to validate without reciprocal cost.\n\nNone of this is an argument for dishonesty or a defence of epistemic cowardice. There are truths that must be spoken at genuine cost, and the person who speaks them deserves precisely the admiration that the performing candour-merchant does not. The question worth asking, before any act of conspicuous honesty, is a simple one: who is this for? If the answer is the interlocutor, proceed. If the answer is the speaker's self-image, that is a different matter entirely — and one that honesty, properly understood, would require us to acknowledge.",
   "sampleAnnotations": [
-    {"phrase": "Only when honesty costs the speaker something does it begin to resemble a virtue rather than a performance", "meaningVi": "Chỉ khi sự thành thật có chi phí đối với người nói, nó mới bắt đầu giống một đức hạnh hơn là một màn trình diễn"},
-    {"phrase": "the anaesthetic of diplomatic vagueness", "meaningVi": "thuốc gây tê của sự mơ hồ ngoại giao"},
-    {"phrase": "the gratification of self-display dressed in the borrowed vocabulary of integrity", "meaningVi": "sự thoả mãn của việc tự phô bày được bọc trong vốn từ vựng mượn của sự chính trực"},
-    {"phrase": "a telling asymmetry in the kind of truths that conspicuous honesty tends to favour", "meaningVi": "một sự bất đối xứng có ý nghĩa trong loại sự thật mà sự thành thật nổi bật có xu hướng ưu ái"},
-    {"phrase": "truths that attract the largest social capital", "meaningVi": "những sự thật thu hút vốn xã hội lớn nhất"},
-    {"phrase": "performing a kind of productivity virtue that happens to be flattering", "meaningVi": "đang thực hiện một loại đức tính năng suất tình cờ là nịnh hót"},
-    {"phrase": "the image it constructs: the person who is not afraid, who does not flinch", "meaningVi": "hình ảnh mà nó xây dựng: người không sợ hãi, người không rùng mình"},
-    {"phrase": "the audience for it is, in the most important sense, the speaker themselves", "meaningVi": "khán giả của nó, theo nghĩa quan trọng nhất, chính là người nói"},
-    {"phrase": "It cannot be denied that the world benefits from people willing to name uncomfortable truths", "meaningVi": "Không thể phủ nhận rằng thế giới được hưởng lợi từ những người sẵn lòng gọi tên những sự thật khó chịu"},
-    {"phrase": "And yet the parrêsia of Greek philosophy was precisely defined by its asymmetry", "meaningVi": "Và tuy nhiên, parrêsia trong triết học Hy Lạp được định nghĩa chính xác bởi sự bất đối xứng của nó"},
-    {"phrase": "the speaker had less power than the person they addressed", "meaningVi": "người nói có ít quyền lực hơn người mà họ đang nói chuyện"},
-    {"phrase": "the form without the substance", "meaningVi": "hình thức mà không có nội dung"},
-    {"phrase": "The emotional offloading is complete", "meaningVi": "Việc trút bỏ cảm xúc đã hoàn thành"},
-    {"phrase": "the relieved speaker is lightened; the burdened listener carries what was deposited", "meaningVi": "người nói được giải toả trở nên nhẹ nhàng hơn; người nghe bị gánh nặng mang theo những gì đã được ký gửi"},
-    {"phrase": "Calibrated reticence", "meaningVi": "Sự im lặng có chủ đích, tự kiềm chế có tính toán"},
-    {"phrase": "the decision not to say a true thing because saying it serves the speaker more than it serves the relationship", "meaningVi": "quyết định không nói một điều đúng vì nói ra phục vụ người nói nhiều hơn phục vụ mối quan hệ"},
-    {"phrase": "accrues a truth premium that private honesty does not", "meaningVi": "tích lũy một phần thưởng sự thật mà sự thành thật riêng tư không có"},
-    {"phrase": "Seldom is the question asked of what the confessees receive from this transaction", "meaningVi": "Hiếm khi câu hỏi được đặt ra về những gì người nhận lời thú nhận nhận được từ giao dịch này"},
-    {"phrase": "The asymmetry of disclosure here is stark", "meaningVi": "Sự bất đối xứng trong việc tiết lộ ở đây là rõ ràng"},
-    {"phrase": "the speaker is relieved and applauded; the listener is expected to validate without reciprocal cost", "meaningVi": "người nói được giải toả và được hoan hô; người nghe được kỳ vọng xác nhận mà không có chi phí tương đương"},
-    {"phrase": "the performing candour-merchant", "meaningVi": "người buôn bán sự thẳng thắn, người trình diễn sự thành thật"},
-    {"phrase": "honesty, properly understood, would require us to acknowledge", "meaningVi": "sự thành thật, được hiểu đúng đắn, sẽ yêu cầu chúng ta thừa nhận"}
+    {
+      "phrase": "Only when honesty costs the speaker something does it begin to resemble a virtue rather than a performance",
+      "meaningVi": "Chỉ khi sự thành thật có chi phí đối với người nói, nó mới bắt đầu giống một đức hạnh hơn là một màn trình diễn"
+    },
+    {
+      "phrase": "the anaesthetic of diplomatic vagueness",
+      "meaningVi": "thuốc gây tê của sự mơ hồ ngoại giao"
+    },
+    {
+      "phrase": "the gratification of self-display dressed in the borrowed vocabulary of integrity",
+      "meaningVi": "sự thoả mãn của việc tự phô bày được bọc trong vốn từ vựng mượn của sự chính trực"
+    },
+    {
+      "phrase": "a telling asymmetry in the kind of truths that conspicuous honesty tends to favour",
+      "meaningVi": "một sự bất đối xứng có ý nghĩa trong loại sự thật mà sự thành thật nổi bật có xu hướng ưu ái"
+    },
+    {
+      "phrase": "that attract the largest social capital",
+      "meaningVi": "những sự thật thu hút vốn xã hội lớn nhất"
+    },
+    {
+      "phrase": "performing a kind of productivity virtue that happens to be flattering",
+      "meaningVi": "đang thực hiện một loại đức tính năng suất tình cờ là nịnh hót"
+    },
+    {
+      "phrase": "the image it constructs: the person who is not afraid, who does not flinch",
+      "meaningVi": "hình ảnh mà nó xây dựng: người không sợ hãi, người không rùng mình"
+    },
+    {
+      "phrase": "the audience for it is, in the most important sense, the speaker themselves",
+      "meaningVi": "khán giả của nó, theo nghĩa quan trọng nhất, chính là người nói"
+    },
+    {
+      "phrase": "It cannot be denied that the world benefits from people willing to name uncomfortable truths",
+      "meaningVi": "Không thể phủ nhận rằng thế giới được hưởng lợi từ những người sẵn lòng gọi tên những sự thật khó chịu"
+    },
+    {
+      "phrase": "And yet the parrêsia of Greek philosophy",
+      "meaningVi": "Và tuy nhiên, parrêsia trong triết học Hy Lạp được định nghĩa chính xác bởi sự bất đối xứng của nó"
+    },
+    {
+      "phrase": "the speaker had less power than the person they addressed",
+      "meaningVi": "người nói có ít quyền lực hơn người mà họ đang nói chuyện"
+    },
+    {
+      "phrase": "the form without the substance",
+      "meaningVi": "hình thức mà không có nội dung"
+    },
+    {
+      "phrase": "The emotional offloading is complete",
+      "meaningVi": "Việc trút bỏ cảm xúc đã hoàn thành"
+    },
+    {
+      "phrase": "the relieved speaker is lightened; the burdened listener carries what was deposited",
+      "meaningVi": "người nói được giải toả trở nên nhẹ nhàng hơn; người nghe bị gánh nặng mang theo những gì đã được ký gửi"
+    },
+    {
+      "phrase": "Calibrated reticence",
+      "meaningVi": "Sự im lặng có chủ đích, tự kiềm chế có tính toán"
+    },
+    {
+      "phrase": "the decision not to say a true thing because saying it serves the speaker more than it serves the relationship",
+      "meaningVi": "quyết định không nói một điều đúng vì nói ra phục vụ người nói nhiều hơn phục vụ mối quan hệ"
+    },
+    {
+      "phrase": "accrues a truth premium that private honesty does not",
+      "meaningVi": "tích lũy một phần thưởng sự thật mà sự thành thật riêng tư không có"
+    },
+    {
+      "phrase": "Seldom is the question asked of what the confessees receive from this transaction",
+      "meaningVi": "Hiếm khi câu hỏi được đặt ra về những gì người nhận lời thú nhận nhận được từ giao dịch này"
+    },
+    {
+      "phrase": "The asymmetry of disclosure here is stark",
+      "meaningVi": "Sự bất đối xứng trong việc tiết lộ ở đây là rõ ràng"
+    },
+    {
+      "phrase": "the speaker is relieved and applauded; the listener is expected to validate without reciprocal cost",
+      "meaningVi": "người nói được giải toả và được hoan hô; người nghe được kỳ vọng xác nhận mà không có chi phí tương đương"
+    },
+    {
+      "phrase": "the performing candour-merchant",
+      "meaningVi": "người buôn bán sự thẳng thắn, người trình diễn sự thành thật"
+    },
+    {
+      "phrase": "honesty, properly understood, would require us to acknowledge",
+      "meaningVi": "sự thành thật, được hiểu đúng đắn, sẽ yêu cầu chúng ta thừa nhận"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -80,12 +217,12 @@
       "id": "q1",
       "prompt": "Which sentence correctly uses inversion after 'Only when'?",
       "options": [
-        "Only when honesty costs the speaker something it begins to resemble a virtue.",
         "Only when honesty costs the speaker something does it begin to resemble a virtue rather than a performance.",
+        "Only when honesty costs the speaker something it begins to resemble a virtue.",
         "Only when honesty costs the speaker something, does it begins to resemble a virtue.",
         "Only when honesty does cost the speaker something it begins resembling a virtue."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "After 'Only when…' fronting the clause, the auxiliary 'does' must precede the subject 'it'.",
       "hint": "Restrictive 'Only when' at the front requires subject-auxiliary inversion in the main clause."
     },
@@ -107,11 +244,11 @@
       "prompt": "Which sentence correctly uses the 'It cannot be denied that… And yet…' concession?",
       "options": [
         "And yet the world benefits from honest people. It cannot be denied that parrêsia was different.",
-        "It cannot be denied that the world benefits from people willing to name uncomfortable truths. And yet the parrêsia of Greek philosophy was precisely defined by its asymmetry.",
         "It cannot be denied, and yet, the world benefits from uncomfortable truths in Greek philosophy.",
+        "It cannot be denied that the world benefits from people willing to name uncomfortable truths. And yet the parrêsia of Greek philosophy was precisely defined by its asymmetry.",
         "The world benefits from honest people — it cannot be denied; and yet it also does not."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'It cannot be denied…' grants the opposing point; 'And yet…' pivots to the complication — in that order.",
       "hint": "Concede first; then counter with 'And yet'."
     },
@@ -120,11 +257,11 @@
       "prompt": "According to the essay, what made parrêsia in Greek philosophy different from contemporary 'radical candour'?",
       "options": [
         "It was performed only in writing, not in speech.",
-        "The speaker had less power than the person they addressed, so real social cost was risked.",
         "It was never about uncomfortable truths — only about philosophical argument.",
-        "It was a private practice, not a public one."
+        "It was a private practice, not a public one.",
+        "The speaker had less power than the person they addressed, so real social cost was risked."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay defines parrêsia by its asymmetry — the speaker risked something genuine, whereas contemporary candour is often performed from a position of safety.",
       "hint": "Look for the phrase 'less power than the person they addressed'."
     },
@@ -132,12 +269,12 @@
       "id": "q5",
       "prompt": "What does 'the form without the substance' mean in the essay?",
       "options": [
-        "A speech that uses impressive vocabulary but makes no argument",
         "Performing the external appearance of courageous speech without the genuine risk or cost that originally defined it",
+        "A speech that uses impressive vocabulary but makes no argument",
         "A written form that lacks the required substance for publication",
         "The difference between formal and informal registers"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay argues that contemporary candour imitates the outward look of parrêsia (the form) without its defining feature — genuine risk to the speaker (the substance).",
       "hint": "Form = outward appearance; substance = the essential defining quality."
     },
@@ -159,11 +296,11 @@
       "prompt": "What is the essay's argument about emotional offloading in close relationships?",
       "options": [
         "Partners should always be completely honest to maintain trust.",
-        "Telling a partner every uncomfortable truth can be a transfer of emotional burden — relieving the speaker while burdening the listener — rather than genuine care.",
         "Emotional honesty is always more important than tact in close relationships.",
+        "Telling a partner every uncomfortable truth can be a transfer of emotional burden — relieving the speaker while burdening the listener — rather than genuine care.",
         "Partners who offload their emotions are generally more psychologically healthy."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay frames some domestic 'honesty' as a one-sided transaction: the speaker is relieved; the listener is left carrying the deposited burden.",
       "hint": "Look for the phrase 'the relieved speaker is lightened; the burdened listener carries what was deposited'."
     },
@@ -172,11 +309,11 @@
       "prompt": "Which phrase from the essay is a nominalization?",
       "options": [
         "a telling asymmetry",
-        "The emotional offloading",
         "the borrowed vocabulary",
-        "the uncomfortable thing"
+        "the uncomfortable thing",
+        "The emotional offloading"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'The emotional offloading' converts the verb phrase 'offloads emotions' into the noun 'offloading', allowing the action to be treated as a completed event.",
       "hint": "Nominalizations use '-ing', '-tion', or '-ment' to convert a verb into a noun."
     },
@@ -184,12 +321,12 @@
       "id": "q9",
       "prompt": "What does 'accrues a truth premium' mean in the social media context?",
       "options": [
-        "A financial payment made to people who share personal stories online",
         "The social reward — validation, followers, reputation for authenticity — that publicly shared confessions earn",
+        "A financial payment made to people who share personal stories online",
         "The extra credibility that premium news sources gain from fact-checking",
         "A bonus given to employees who report truthfully to management"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay argues that public confessions earn a 'premium' — social approval, followers, personal branding — that private honesty does not.",
       "hint": "Accrues = builds up over time; premium = extra reward above the standard."
     },
@@ -211,11 +348,11 @@
       "prompt": "What does 'epistemic cowardice' mean in the essay?",
       "options": [
         "Refusing to learn new information",
-        "Saying deliberately vague or uncommitted things to avoid the cost of taking a clear position",
         "Being too cowardly to read difficult books",
+        "Saying deliberately vague or uncommitted things to avoid the cost of taking a clear position",
         "Avoiding public debates because of social anxiety"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "Epistemic cowardice = giving deliberately unclear answers to avoid the friction of honest speech; the essay says this is not what it is arguing for.",
       "hint": "Epistemic = relating to knowledge/belief; cowardice = avoiding the cost of a clear position."
     },
@@ -225,10 +362,10 @@
       "options": [
         "Is the information accurate?",
         "Will the speaker be judged positively?",
-        "Who is this for — the interlocutor or the speaker's self-image?",
-        "Has the speaker verified the truth before speaking?"
+        "Has the speaker verified the truth before speaking?",
+        "Who is this for — the interlocutor or the speaker's self-image?"
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "explanation": "The essay ends with this test: 'who is this for?' — genuine honesty serves the listener; performed honesty serves the speaker's image.",
       "hint": "Look for the direct question the essay poses in its conclusion."
     },
@@ -236,12 +373,12 @@
       "id": "q13",
       "prompt": "What does 'the anaesthetic of diplomatic vagueness' mean?",
       "options": [
-        "An overly formal diplomatic language used in international treaties",
         "Vague, uncommitted language that numbs awareness of uncomfortable truths",
+        "An overly formal diplomatic language used in international treaties",
         "The pain-relieving drugs used by diplomats under stress",
         "A specific rhetorical technique used in political speeches"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "An anaesthetic numbs pain; 'diplomatic vagueness' numbs the discomfort of facing hard truths — the essay uses the medical metaphor to describe evasive speech.",
       "hint": "Anaesthetic = something that numbs; apply this to what vagueness does to truth."
     },
@@ -250,11 +387,11 @@
       "prompt": "Which sentence has the highest C1 register?",
       "options": [
         "Sometimes when people say they're being honest, they're really just showing off.",
-        "Honest people who share difficult truths online get lots of followers.",
         "The asymmetry of disclosure here is stark — the speaker is relieved and applauded; the listener is expected to validate without reciprocal cost.",
+        "Honest people who share difficult truths online get lots of followers.",
         "Being honest on social media can make you look good but might also make your followers feel bad."
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "explanation": "Option C uses a formal nominalization ('asymmetry of disclosure'), technical adjective ('stark'), a parallel structure with em-dash, and complex abstract vocabulary — all C1 markers.",
       "hint": "Look for abstract nouns, formal vocabulary, parallel clauses, and no colloquialisms."
     },
@@ -263,11 +400,11 @@
       "prompt": "What does the essay mean by 'the image it constructs: the person who is not afraid, who does not flinch'?",
       "options": [
         "The factual accuracy of the statement being delivered",
-        "The self-portrait that the act of speaking a harsh truth creates — the speaker as courageous and uncompromising",
         "A visual artwork made from photos of people reacting to honest statements",
+        "The self-portrait that the act of speaking a harsh truth creates — the speaker as courageous and uncompromising",
         "The legal profile of a whistle-blower in a court case"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay argues that the value of some 'honest' acts lies in the reputation they build for the speaker — the image of a person who doesn't flinch.",
       "hint": "The image is a self-image; 'constructs' = builds or creates."
     },
@@ -276,11 +413,11 @@
       "prompt": "What does 'the performing candour-merchant' imply about that person?",
       "options": [
         "Someone who sells books about honesty for profit",
-        "Someone who trades in the appearance of honesty, using conspicuous candour to earn social rewards rather than for genuine truth-telling",
         "A street performer who tells audiences uncomfortable truths for money",
-        "A politician who campaigns on a platform of transparency"
+        "A politician who campaigns on a platform of transparency",
+        "Someone who trades in the appearance of honesty, using conspicuous candour to earn social rewards rather than for genuine truth-telling"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The hyphenated compound 'candour-merchant' suggests someone who sells honesty as a commodity — performing it for the social capital it returns.",
       "hint": "A merchant sells goods; a candour-merchant 'sells' the appearance of honesty."
     }

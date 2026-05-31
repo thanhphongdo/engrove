@@ -409,12 +409,6 @@
       "exampleEn": "Inaction in the face of preventable suffering can be morally culpable, not merely unfortunate."
     },
     {
-      "phrase": "set back interests",
-      "meaningVi": "làm tổn hại đến lợi ích — gây bất lợi cho mục tiêu hoặc lợi ích của thực thể",
-      "pronunciation": "/set bæk ˈɪntrəsts/",
-      "exampleEn": "Confining an animal so it cannot express its natural behaviours sets back its interests significantly."
-    },
-    {
       "phrase": "moral imagination",
       "meaningVi": "trí tưởng tượng đạo đức — khả năng đồng cảm và nhận ra khả năng về đạo đức vượt ra ngoài tình trạng hiện tại",
       "pronunciation": "/ˈmɒrəl ɪˌmædʒɪˈneɪʃən/",
@@ -471,11 +465,11 @@
       "prompt": "What does the ethicist identify as the most influential answer to the question of animal moral status?",
       "options": [
         "Animals have moral status because of their cognitive complexity and ability to plan",
-        "The capacity to suffer is the morally relevant property grounding moral consideration",
         "Moral status is determined by the animal's role in ecosystems and its ecological importance",
+        "The capacity to suffer is the morally relevant property grounding moral consideration",
         "Animals have moral status by virtue of being living organisms with biological needs"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'the capacity to suffer is the morally relevant property. If a being can suffer... then its suffering has moral weight, regardless of species membership.'",
       "hint": "What single property does the ethicist identify as morally relevant?"
     },
@@ -484,11 +478,11 @@
       "prompt": "What distinction does the scientist make between nociception and higher-order suffering?",
       "options": [
         "Nociception involves active avoidance behaviour while higher-order suffering is passive",
-        "Nociception is the neurological processing of harmful stimuli; higher-order suffering involves an ongoing narrative of self in pain",
         "Nociception occurs in invertebrates; higher-order suffering is exclusive to vertebrates",
-        "Nociception is temporary; higher-order suffering is chronic and affects long-term behaviour"
+        "Nociception is temporary; higher-order suffering is chronic and affects long-term behaviour",
+        "Nociception is the neurological processing of harmful stimuli; higher-order suffering involves an ongoing narrative of self in pain"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'There is a meaningful difference between nociception — the neurological processing of harmful stimuli — and the higher-order suffering that involves an ongoing narrative of self in pain.'",
       "hint": "The scientist defines nociception and then contrasts it with what kind of suffering?"
     },
@@ -496,12 +490,12 @@
       "id": "q3",
       "prompt": "What is the 'asymmetry of error' that the ethicist invokes to defend the precautionary principle?",
       "options": [
-        "Scientific errors in favour of overestimating animal consciousness are more common than underestimations",
         "The cost of wrongly treating a non-suffering being as though it suffers is modest; the cost of the reverse error is severe",
+        "Scientific errors in favour of overestimating animal consciousness are more common than underestimations",
         "Errors in animal welfare policy are corrected more quickly than errors in human welfare policy",
         "The asymmetry between what animals can express and what they experience makes moral judgement especially difficult"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'the cost of treating it as though it were is modest... the cost of being wrong in the other direction is severe... the asymmetry of error strongly favours precaution.'",
       "hint": "What are the two possible errors, and why are they asymmetric in their moral consequences?"
     },
@@ -523,11 +517,11 @@
       "prompt": "What is the 'anthropomorphism trap' as described by the scientist?",
       "options": [
         "The tendency to design experiments that confirm pre-existing human assumptions about animal intelligence",
-        "Interpreting animal behaviour through cognitive structures shaped to read human minds, potentially projecting inaccurate categories",
         "The commercial exploitation of animals as substitute social companions for lonely humans",
+        "Interpreting animal behaviour through cognitive structures shaped to read human minds, potentially projecting inaccurate categories",
         "The bias in research funding toward species that resemble humans in appearance or behaviour"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'The cognitive structures through which humans interpret animal behaviour... are themselves deeply shaped by evolutionary pressures that favoured reading other human minds... we may be projecting categories that do not accurately describe the animal's internal experience.'",
       "hint": "Where do the problematic cognitive structures come from, and what do they risk doing?"
     },
@@ -536,11 +530,11 @@
       "prompt": "How does the ethicist use Thomas Nagel's argument to respond to the anthropomorphism concern?",
       "options": [
         "Nagel showed that bat consciousness is actually similar to human consciousness, so anthropomorphism is less risky than feared",
-        "The acknowledgement that an animal has subjective experience requires only that there is something it is like to be that animal, not that it resembles human experience",
         "Nagel's argument proves that consciousness is universal and therefore all animals deserve equal moral consideration",
-        "Nagel demonstrated that the study of animal consciousness is fundamentally different from the study of human consciousness"
+        "Nagel demonstrated that the study of animal consciousness is fundamentally different from the study of human consciousness",
+        "The acknowledgement that an animal has subjective experience requires only that there is something it is like to be that animal, not that it resembles human experience"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'The acknowledgement that an animal has subjective experience does not require us to claim that its experience resembles ours. It requires only that there is something it is like to be that animal.'",
       "hint": "What does the ethicist say the moral status argument 'requires only'?"
     },
@@ -548,12 +542,12 @@
       "id": "q7",
       "prompt": "What does the scientist mean by 'sentimentalism' in the context of animal advocacy?",
       "options": [
-        "An approach that treats all animals as equally deserving of consideration regardless of their capacities",
         "A bias that privileges visible, charismatic megafauna over insects and invertebrates",
+        "An approach that treats all animals as equally deserving of consideration regardless of their capacities",
         "The belief that animals have emotional lives as rich as human beings",
         "An emotional rather than philosophical approach to animal rights that rejects scientific evidence"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'Animal advocacy, at its weakest, can slide into a form of sentimentalism that privileges visible, charismatic megafauna over insects, invertebrates, and the vast majority of animal life.'",
       "hint": "Which types of animals does sentimentalism favour, and which does it neglect?"
     },
@@ -575,11 +569,11 @@
       "prompt": "What does the ethicist say the ethical commitment to animal welfare should follow from?",
       "options": [
         "An emotional response to the suffering of individual animals the advocate has encountered personally",
-        "The argument's premises, not from an emotional response to particular species",
         "A cultural and religious tradition of respect for non-human life",
+        "The argument's premises, not from an emotional response to particular species",
         "Scientific evidence about the cognitive abilities of each individual species"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'The ethical commitment follows from the argument's premises, not from an emotional response to particular species.'",
       "hint": "The ethicist distinguishes between two possible bases for the ethical commitment. Which one does she endorse?"
     },
@@ -588,11 +582,11 @@
       "prompt": "How does the scientist summarise the remaining disagreement between the two speakers by the end of the dialogue?",
       "options": [
         "The ethicist accepts animal rights while the scientist accepts only animal welfare",
-        "The disagreement is about how quickly and confidently to move from scientific evidence to moral obligation",
         "The ethicist relies on philosophical intuition while the scientist insists on controlled experimental evidence",
-        "There is a fundamental difference in their views about whether animals can genuinely suffer"
+        "There is a fundamental difference in their views about whether animals can genuinely suffer",
+        "The disagreement is about how quickly and confidently to move from scientific evidence to moral obligation"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'Where we may differ is in how quickly and confidently we move from scientific evidence to moral obligation.'",
       "hint": "The scientist identifies the remaining disagreement as a difference in what — not in fundamental principles?"
     },
@@ -600,12 +594,12 @@
       "id": "q11",
       "prompt": "What historical argument does the ethicist make about the relationship between moral progress and scientific evidence?",
       "options": [
-        "Moral progress in history has always depended on new scientific discoveries about the nature of suffering",
         "The ethical case has generally preceded rather than followed scientific consensus, with moral imagination often driving scientific attention",
+        "Moral progress in history has always depended on new scientific discoveries about the nature of suffering",
         "Science and ethics have developed in parallel, with neither reliably leading the other",
         "Scientific consensus has been the primary driver of moral change throughout modern history"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'the ethical case has generally preceded, rather than followed, the scientific consensus... moral imagination has often been the precondition for the kind of serious scientific attention that eventually produces the evidence.'",
       "hint": "Which comes first in the ethicist's account — the ethical case or the scientific consensus?"
     },
@@ -627,11 +621,11 @@
       "prompt": "What does the ethicist mean by saying 'thresholds in ethics are not necessarily arbitrary in a vicious sense'?",
       "options": [
         "Ethical thresholds are always mathematically precise and can be calculated from first principles",
-        "Thresholds can be principled responses to practical necessity, not merely arbitrary cuts",
         "Vicious thresholds are morally wrong while benign ones are acceptable",
+        "Thresholds can be principled responses to practical necessity, not merely arbitrary cuts",
         "Ethics should avoid thresholds altogether and apply principles uniformly across all cases"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'thresholds in ethics are not necessarily arbitrary in a vicious sense — they are principled responses to the practical necessity of making decisions under uncertainty.'",
       "hint": "What does 'arbitrary in a vicious sense' contrast with? What can thresholds be, in a more positive sense?"
     },
@@ -640,11 +634,11 @@
       "prompt": "What does the scientist say is concerning about waiting for scientific certainty before acting ethically?",
       "options": [
         "Scientific certainty is never achievable, so this standard would prevent all ethical action",
-        "Waiting for certainty while harm continues is itself a morally culpable stance",
         "Scientific consensus changes frequently, making it an unreliable basis for policy",
-        "Scientific certainty often arrives too late to prevent the most serious harms"
+        "Scientific certainty often arrives too late to prevent the most serious harms",
+        "Waiting for certainty while harm continues is itself a morally culpable stance"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'you might argue that waiting for scientific certainty while harm continues is itself a morally culpable stance.'",
       "hint": "The scientist articulates the ethicist's likely response. What would the ethicist say about waiting for certainty?"
     },
@@ -652,12 +646,12 @@
       "id": "q15",
       "prompt": "Which statement best captures the overall convergence of the two speakers' positions?",
       "options": [
-        "They fully agree that animal consciousness is scientifically proven and that obligations follow directly",
         "They both accept that sentience grounds moral consideration but differ on pace and confidence in moving from science to ethics",
+        "They fully agree that animal consciousness is scientifically proven and that obligations follow directly",
         "They disagree fundamentally — the ethicist rejects scientific evidence and the scientist rejects philosophical argument",
         "They agree that the public image of animal advocacy is accurate and well-grounded in principle"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Both accept sentience as the ground of moral consideration, recognise the importance of scientific precision, and are aware of cognitive biases. They diverge on the speed of moving from evidence to obligation.",
       "hint": "What do both speakers agree about the foundational principle, and where does the remaining difference lie?"
     }

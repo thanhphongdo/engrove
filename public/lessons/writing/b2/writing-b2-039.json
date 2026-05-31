@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "The case for libraries that don't lend",
   "summary": "Argue whether reference libraries — collections you visit but cannot borrow from — still have a place in an age of digital access.",
-  "tags": ["Culture", "Knowledge", "Technology", "Society"],
+  "tags": [
+    "Culture",
+    "Knowledge",
+    "Technology",
+    "Society"
+  ],
   "topic": "The case for libraries that don't lend",
   "prompt": "Write an argumentative essay (350–500 words) exploring whether reference libraries — institutions where you read on-site but cannot take books home — still serve a meaningful purpose in the digital age, or whether they are an expensive relic. Use a cleft sentence, a concession ('Granted, …' or 'Admittedly, …'), at least one passive construction, and a participle clause. Include at least one concrete example (a specific reference library, a country, or a research context). Take a clear position.",
   "minWords": 350,
@@ -14,50 +19,175 @@
     "Stripped of lending rights, the library becomes something more deliberate…"
   ],
   "hintVocab": [
-    { "phrase": "reference library", "meaningVi": "thư viện tham khảo (chỉ đọc tại chỗ)" },
-    { "phrase": "on-site consultation", "meaningVi": "tham khảo tại chỗ" },
-    { "phrase": "to browse the stacks", "meaningVi": "lướt qua các kệ sách" },
-    { "phrase": "archival material", "meaningVi": "tài liệu lưu trữ" },
-    { "phrase": "digitisation", "meaningVi": "số hóa", "pronunciation": "/ˌdɪdʒ.ɪ.taɪˈzeɪ.ʃən/" },
-    { "phrase": "reading room", "meaningVi": "phòng đọc sách" },
-    { "phrase": "an endangered institution", "meaningVi": "một tổ chức đang có nguy cơ biến mất" },
-    { "phrase": "to be superseded by", "meaningVi": "bị thay thế bởi" },
-    { "phrase": "serendipitous discovery", "meaningVi": "khám phá tình cờ may mắn", "pronunciation": "/ˌser.ənˈdɪp.ɪ.təs/" },
-    { "phrase": "to handle primary sources", "meaningVi": "làm việc trực tiếp với tài liệu gốc" },
-    { "phrase": "controlled environment", "meaningVi": "môi trường được kiểm soát" },
-    { "phrase": "intellectual commons", "meaningVi": "không gian tri thức chung" },
-    { "phrase": "to foster deep reading", "meaningVi": "khuyến khích việc đọc sâu" },
-    { "phrase": "a curated collection", "meaningVi": "bộ sưu tập được chọn lọc kỹ lưỡng" },
-    { "phrase": "proprietary database", "meaningVi": "cơ sở dữ liệu độc quyền" },
-    { "phrase": "to be gatekept", "meaningVi": "bị kiểm soát / giới hạn quyền truy cập" },
-    { "phrase": "physical presence", "meaningVi": "sự hiện diện vật lý" },
-    { "phrase": "institutional memory", "meaningVi": "ký ức / kiến thức tích lũy của một tổ chức" },
-    { "phrase": "to concentrate the mind", "meaningVi": "giúp tập trung tư duy" },
-    { "phrase": "a scholarly retreat", "meaningVi": "nơi ẩn dật để nghiên cứu học thuật" },
-    { "phrase": "to democratise access", "meaningVi": "dân chủ hóa quyền tiếp cận" }
+    {
+      "phrase": "reference library",
+      "meaningVi": "thư viện tham khảo (chỉ đọc tại chỗ)"
+    },
+    {
+      "phrase": "on-site consultation",
+      "meaningVi": "tham khảo tại chỗ"
+    },
+    {
+      "phrase": "to browse the stacks",
+      "meaningVi": "lướt qua các kệ sách"
+    },
+    {
+      "phrase": "archival material",
+      "meaningVi": "tài liệu lưu trữ"
+    },
+    {
+      "phrase": "digitisation",
+      "meaningVi": "số hóa",
+      "pronunciation": "/ˌdɪdʒ.ɪ.taɪˈzeɪ.ʃən/"
+    },
+    {
+      "phrase": "reading room",
+      "meaningVi": "phòng đọc sách"
+    },
+    {
+      "phrase": "an endangered institution",
+      "meaningVi": "một tổ chức đang có nguy cơ biến mất"
+    },
+    {
+      "phrase": "to be superseded by",
+      "meaningVi": "bị thay thế bởi"
+    },
+    {
+      "phrase": "serendipitous discovery",
+      "meaningVi": "khám phá tình cờ may mắn",
+      "pronunciation": "/ˌser.ənˈdɪp.ɪ.təs/"
+    },
+    {
+      "phrase": "to handle primary sources",
+      "meaningVi": "làm việc trực tiếp với tài liệu gốc"
+    },
+    {
+      "phrase": "controlled environment",
+      "meaningVi": "môi trường được kiểm soát"
+    },
+    {
+      "phrase": "intellectual commons",
+      "meaningVi": "không gian tri thức chung"
+    },
+    {
+      "phrase": "to foster deep reading",
+      "meaningVi": "khuyến khích việc đọc sâu"
+    },
+    {
+      "phrase": "a curated collection",
+      "meaningVi": "bộ sưu tập được chọn lọc kỹ lưỡng"
+    },
+    {
+      "phrase": "proprietary database",
+      "meaningVi": "cơ sở dữ liệu độc quyền"
+    },
+    {
+      "phrase": "to be gatekept",
+      "meaningVi": "bị kiểm soát / giới hạn quyền truy cập"
+    },
+    {
+      "phrase": "physical presence",
+      "meaningVi": "sự hiện diện vật lý"
+    },
+    {
+      "phrase": "institutional memory",
+      "meaningVi": "ký ức / kiến thức tích lũy của một tổ chức"
+    },
+    {
+      "phrase": "to concentrate the mind",
+      "meaningVi": "giúp tập trung tư duy"
+    },
+    {
+      "phrase": "a scholarly retreat",
+      "meaningVi": "nơi ẩn dật để nghiên cứu học thuật"
+    },
+    {
+      "phrase": "to democratise access",
+      "meaningVi": "dân chủ hóa quyền tiếp cận"
+    }
   ],
   "sampleText": "A library that refuses to let you take its books home sounds, at first, like a library that has forgotten its purpose. Yet the reference library — the kind where you order a volume at a desk, sit in a high-ceilinged room, and return everything before you leave — is not a failure of generosity. It is a different kind of institution, built around a different idea of what knowledge requires.\n\nThe most obvious argument against reference-only collections is that digitisation has made them redundant. Vast archives are now available from a laptop, and the British Library's digitised newspaper collection, for example, lets a researcher in Hanoi consult a Victorian periodical without booking a reading room. Admittedly, this is a genuine gain, and no honest defender of physical collections should pretend otherwise. Scanning has extended access to material that was once the preserve of those wealthy or mobile enough to travel to London.\n\nEven so, what digitisation cannot reproduce is the experience of working with a document as an object. A researcher handling a sixteenth-century map at the Biblioteca Nazionale in Florence encounters details — marginal annotations, ink colour, the weight of the parchment — that no high-resolution image fully captures. Being limited to on-site use also means the material is preserved: borrowing spreads deterioration, and rare items are routinely damaged by well-meaning readers who take them home.\n\nBeyond conservation, the reference library performs a social function that is harder to quantify. It is a space designed to concentrate the mind. There are no deliveries to answer, no kitchen to wander into. The institutional architecture of the reading room — the silence enforced by shared presence, the slight formality of requesting a book — nudges readers toward the kind of sustained, slow attention that produces original thought. Digital libraries are extraordinarily convenient, but convenience is not always what scholarship needs.\n\nGranted, maintaining such spaces is expensive, and the argument that we should fund elaborate buildings so that researchers can think more clearly will not survive a budget meeting without stronger evidence. The case must rest not on nostalgia but on what these institutions concretely produce: doctoral dissertations that changed a field, historical discoveries made only because a librarian knew where a misfiled letter sat, connections made between volumes shelved next to each other by deliberate design.\n\nThe reference library does not lend books because it is trying to withhold them. It does not lend them because some things are too valuable, in every sense, to be sent out into the world without a guarantee of return.",
   "sampleAnnotations": [
-    { "phrase": "A library that refuses to let you take its books home sounds, at first, like a library that has forgotten its purpose", "meaningVi": "Một thư viện từ chối cho bạn mang sách về nghe có vẻ, thoạt đầu, như là một thư viện đã quên mất mục đích của mình" },
-    { "phrase": "a different idea of what knowledge requires", "meaningVi": "một quan niệm khác về những gì kiến thức cần đến" },
-    { "phrase": "digitisation has made them redundant", "meaningVi": "số hóa đã làm cho chúng trở nên lỗi thời" },
-    { "phrase": "the British Library's digitised newspaper collection", "meaningVi": "bộ sưu tập báo được số hóa của Thư viện Anh" },
-    { "phrase": "Admittedly, this is a genuine gain", "meaningVi": "Thừa nhận rằng, đây là một lợi ích thực sự" },
-    { "phrase": "once the preserve of those wealthy or mobile enough to travel to London", "meaningVi": "từng là đặc quyền của những người đủ giàu có hoặc có điều kiện di chuyển đến London" },
-    { "phrase": "what digitisation cannot reproduce is the experience of working with a document as an object", "meaningVi": "điều mà số hóa không thể tái tạo là trải nghiệm làm việc với tài liệu như một vật thể" },
-    { "phrase": "handling a sixteenth-century map at the Biblioteca Nazionale in Florence", "meaningVi": "cầm trên tay một tấm bản đồ thế kỷ XVI tại Thư viện Quốc gia ở Florence" },
-    { "phrase": "marginal annotations, ink colour, the weight of the parchment", "meaningVi": "các ghi chú bên lề, màu mực, trọng lượng của tờ giấy da" },
-    { "phrase": "Being limited to on-site use also means the material is preserved", "meaningVi": "Việc giới hạn chỉ được sử dụng tại chỗ cũng có nghĩa là tài liệu được bảo tồn" },
-    { "phrase": "rare items are routinely damaged by well-meaning readers", "meaningVi": "các vật phẩm quý hiếm thường xuyên bị hư hỏng bởi những người đọc có thiện chí" },
-    { "phrase": "a space designed to concentrate the mind", "meaningVi": "một không gian được thiết kế để tập trung tư duy" },
-    { "phrase": "the silence enforced by shared presence", "meaningVi": "sự im lặng được duy trì bởi sự hiện diện chung" },
-    { "phrase": "the slight formality of requesting a book", "meaningVi": "sự trang trọng nhẹ nhàng của việc yêu cầu một cuốn sách" },
-    { "phrase": "nudges readers toward the kind of sustained, slow attention that produces original thought", "meaningVi": "thúc đẩy người đọc hướng đến loại chú ý bền vững, chậm rãi tạo ra tư duy độc đáo" },
-    { "phrase": "Digital libraries are extraordinarily convenient, but convenience is not always what scholarship needs", "meaningVi": "Thư viện số vô cùng tiện lợi, nhưng sự tiện lợi không phải lúc nào cũng là điều mà học thuật cần" },
-    { "phrase": "Granted, maintaining such spaces is expensive", "meaningVi": "Thừa nhận rằng, việc duy trì những không gian như vậy tốn kém" },
-    { "phrase": "the argument must rest not on nostalgia but on what these institutions concretely produce", "meaningVi": "lý lẽ phải dựa không phải vào sự hoài niệm mà vào những gì các tổ chức này tạo ra một cách cụ thể" },
-    { "phrase": "a librarian knew where a misfiled letter sat", "meaningVi": "một thủ thư biết một bức thư bị lưu nhầm chỗ nằm ở đâu" },
-    { "phrase": "some things are too valuable, in every sense, to be sent out into the world without a guarantee of return", "meaningVi": "một số thứ quá quý giá, theo mọi nghĩa, để được gửi ra thế giới mà không có sự đảm bảo sẽ trở lại" }
+    {
+      "phrase": "A library that refuses to let you take its books home sounds, at first, like a library that has forgotten its purpose",
+      "meaningVi": "Một thư viện từ chối cho bạn mang sách về nghe có vẻ, thoạt đầu, như là một thư viện đã quên mất mục đích của mình"
+    },
+    {
+      "phrase": "a different idea of what knowledge requires",
+      "meaningVi": "một quan niệm khác về những gì kiến thức cần đến"
+    },
+    {
+      "phrase": "digitisation has made them redundant",
+      "meaningVi": "số hóa đã làm cho chúng trở nên lỗi thời"
+    },
+    {
+      "phrase": "the British Library's digitised newspaper collection",
+      "meaningVi": "bộ sưu tập báo được số hóa của Thư viện Anh"
+    },
+    {
+      "phrase": "Admittedly, this is a genuine gain",
+      "meaningVi": "Thừa nhận rằng, đây là một lợi ích thực sự"
+    },
+    {
+      "phrase": "once the preserve of those wealthy or mobile enough to travel to London",
+      "meaningVi": "từng là đặc quyền của những người đủ giàu có hoặc có điều kiện di chuyển đến London"
+    },
+    {
+      "phrase": "what digitisation cannot reproduce is the experience of working with a document as an object",
+      "meaningVi": "điều mà số hóa không thể tái tạo là trải nghiệm làm việc với tài liệu như một vật thể"
+    },
+    {
+      "phrase": "handling a sixteenth-century map at the Biblioteca Nazionale in Florence",
+      "meaningVi": "cầm trên tay một tấm bản đồ thế kỷ XVI tại Thư viện Quốc gia ở Florence"
+    },
+    {
+      "phrase": "marginal annotations, ink colour, the weight of the parchment",
+      "meaningVi": "các ghi chú bên lề, màu mực, trọng lượng của tờ giấy da"
+    },
+    {
+      "phrase": "Being limited to on-site use also means the material is preserved",
+      "meaningVi": "Việc giới hạn chỉ được sử dụng tại chỗ cũng có nghĩa là tài liệu được bảo tồn"
+    },
+    {
+      "phrase": "rare items are routinely damaged by well-meaning readers",
+      "meaningVi": "các vật phẩm quý hiếm thường xuyên bị hư hỏng bởi những người đọc có thiện chí"
+    },
+    {
+      "phrase": "a space designed to concentrate the mind",
+      "meaningVi": "một không gian được thiết kế để tập trung tư duy"
+    },
+    {
+      "phrase": "the silence enforced by shared presence",
+      "meaningVi": "sự im lặng được duy trì bởi sự hiện diện chung"
+    },
+    {
+      "phrase": "the slight formality of requesting a book",
+      "meaningVi": "sự trang trọng nhẹ nhàng của việc yêu cầu một cuốn sách"
+    },
+    {
+      "phrase": "nudges readers toward the kind of sustained, slow attention that produces original thought",
+      "meaningVi": "thúc đẩy người đọc hướng đến loại chú ý bền vững, chậm rãi tạo ra tư duy độc đáo"
+    },
+    {
+      "phrase": "Digital libraries are extraordinarily convenient, but convenience is not always what scholarship needs",
+      "meaningVi": "Thư viện số vô cùng tiện lợi, nhưng sự tiện lợi không phải lúc nào cũng là điều mà học thuật cần"
+    },
+    {
+      "phrase": "Granted, maintaining such spaces is expensive",
+      "meaningVi": "Thừa nhận rằng, việc duy trì những không gian như vậy tốn kém"
+    },
+    {
+      "phrase": "must rest not on nostalgia but on what these institutions concretely produce",
+      "meaningVi": "lý lẽ phải dựa không phải vào sự hoài niệm mà vào những gì các tổ chức này tạo ra một cách cụ thể"
+    },
+    {
+      "phrase": "a librarian knew where a misfiled letter sat",
+      "meaningVi": "một thủ thư biết một bức thư bị lưu nhầm chỗ nằm ở đâu"
+    },
+    {
+      "phrase": "some things are too valuable, in every sense, to be sent out into the world without a guarantee of return",
+      "meaningVi": "một số thứ quá quý giá, theo mọi nghĩa, để được gửi ra thế giới mà không có sự đảm bảo sẽ trở lại"
+    }
   ],
   "sampleGrammarNotes": [
     {

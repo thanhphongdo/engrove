@@ -1,0 +1,291 @@
+{
+  "id": "speaking-a1-103",
+  "level": "A1",
+  "title": "Checking In at a Small Hotel",
+  "summary": "A guest checks in at a small hotel and asks about breakfast and the room key.",
+  "topic": "hotel check-in",
+  "tags": [
+    "Travel",
+    "Accommodation"
+  ],
+  "characters": [
+    "Guest",
+    "Lisa"
+  ],
+  "voices": {
+    "Guest": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-AndrewNeural"
+    },
+    "Lisa": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-EmmaNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Guest",
+      "text": "Hello. I have a reservation."
+    },
+    {
+      "speaker": "Lisa",
+      "text": "Welcome! What is your name?"
+    },
+    {
+      "speaker": "Guest",
+      "text": "My name is Tom Green."
+    },
+    {
+      "speaker": "Lisa",
+      "text": "Let me check. Yes, room twelve."
+    },
+    {
+      "speaker": "Guest",
+      "text": "Is breakfast included?"
+    },
+    {
+      "speaker": "Lisa",
+      "text": "Yes, breakfast is free. It starts at seven in the morning."
+    },
+    {
+      "speaker": "Guest",
+      "text": "Where is the dining room?"
+    },
+    {
+      "speaker": "Lisa",
+      "text": "It is on the first floor."
+    },
+    {
+      "speaker": "Guest",
+      "text": "Can I have the room key?"
+    },
+    {
+      "speaker": "Lisa",
+      "text": "Here is your key."
+    },
+    {
+      "speaker": "Guest",
+      "text": "Thank you. Good night."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Guest",
+      "text": "Hello. I have a reservation.",
+      "translationVi": "Xin chào. Tôi có đặt phòng trước.",
+      "durationMs": 2136
+    },
+    {
+      "id": "s2",
+      "speaker": "Lisa",
+      "text": "Welcome! What is your name?",
+      "translationVi": "Chào mừng! Tên bạn là gì?",
+      "durationMs": 2280
+    },
+    {
+      "id": "s3",
+      "speaker": "Guest",
+      "text": "My name is Tom Green.",
+      "translationVi": "Tên tôi là Tom Green.",
+      "durationMs": 1440
+    },
+    {
+      "id": "s4",
+      "speaker": "Lisa",
+      "text": "Let me check. Yes, room twelve.",
+      "translationVi": "Để tôi kiểm tra. Vâng, phòng mười hai.",
+      "durationMs": 2712
+    },
+    {
+      "id": "s5",
+      "speaker": "Guest",
+      "text": "Is breakfast included?",
+      "translationVi": "Bữa sáng có được bao gồm không?",
+      "durationMs": 1536
+    },
+    {
+      "id": "s6",
+      "speaker": "Lisa",
+      "text": "Yes, breakfast is free.",
+      "translationVi": "Vâng, bữa sáng miễn phí.",
+      "durationMs": 1872
+    },
+    {
+      "id": "s7",
+      "speaker": "Lisa",
+      "text": "It starts at seven in the morning.",
+      "translationVi": "Bữa sáng bắt đầu lúc bảy giờ sáng.",
+      "durationMs": 2184
+    },
+    {
+      "id": "s8",
+      "speaker": "Guest",
+      "text": "Where is the dining room?",
+      "translationVi": "Phòng ăn ở đâu?",
+      "durationMs": 1320
+    },
+    {
+      "id": "s9",
+      "speaker": "Lisa",
+      "text": "It is on the first floor.",
+      "translationVi": "Nó ở tầng một.",
+      "durationMs": 1752
+    },
+    {
+      "id": "s10",
+      "speaker": "Guest",
+      "text": "Can I have the room key?",
+      "translationVi": "Tôi có thể lấy chìa khóa phòng không?",
+      "durationMs": 1392
+    },
+    {
+      "id": "s11",
+      "speaker": "Lisa",
+      "text": "Here is your key.",
+      "translationVi": "Đây là chìa khóa của bạn.",
+      "durationMs": 1368
+    },
+    {
+      "id": "s12",
+      "speaker": "Guest",
+      "text": "Thank you. Good night.",
+      "translationVi": "Cảm ơn. Chúc ngủ ngon.",
+      "durationMs": 1656
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "I have a …"
+    },
+    {
+      "id": "h2",
+      "text": "Is … included?"
+    },
+    {
+      "id": "h3",
+      "text": "Where is the …?"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "reservation",
+      "meaningVi": "đặt chỗ / đặt phòng trước",
+      "pronunciation": "/ˌrɛzərˈveɪʃən/"
+    },
+    {
+      "id": "v2",
+      "phrase": "breakfast",
+      "meaningVi": "bữa sáng",
+      "pronunciation": "/ˈbrɛkfəst/"
+    },
+    {
+      "id": "v3",
+      "phrase": "room key",
+      "meaningVi": "chìa khóa phòng",
+      "pronunciation": "/ruːm kiː/"
+    },
+    {
+      "id": "v4",
+      "phrase": "first floor",
+      "meaningVi": "tầng một",
+      "pronunciation": "/fɜːrst flɔːr/"
+    },
+    {
+      "id": "v5",
+      "phrase": "free",
+      "meaningVi": "miễn phí",
+      "pronunciation": "/friː/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "I have a reservation",
+      "meaningVi": "Tôi có đặt phòng trước",
+      "pronunciation": "/aɪ hæv ə ˌrɛzərˈveɪʃən/"
+    },
+    {
+      "phrase": "What is your name",
+      "meaningVi": "Tên bạn là gì",
+      "pronunciation": "/wɒt ɪz jɔːr neɪm/"
+    },
+    {
+      "phrase": "My name is",
+      "meaningVi": "Tên tôi là",
+      "pronunciation": "/maɪ neɪm ɪz/"
+    },
+    {
+      "phrase": "room twelve",
+      "meaningVi": "phòng mười hai",
+      "pronunciation": "/ruːm twɛlv/"
+    },
+    {
+      "phrase": "breakfast",
+      "meaningVi": "bữa sáng",
+      "pronunciation": "/ˈbrɛkfəst/"
+    },
+    {
+      "phrase": "included",
+      "meaningVi": "được bao gồm",
+      "pronunciation": "/ɪnˈkluːdɪd/"
+    },
+    {
+      "phrase": "breakfast is free",
+      "meaningVi": "bữa sáng miễn phí",
+      "pronunciation": "/ˈbrɛkfəst ɪz friː/"
+    },
+    {
+      "phrase": "seven in the morning",
+      "meaningVi": "bảy giờ sáng",
+      "pronunciation": "/ˈsɛvən ɪn ðə ˈmɔːrnɪŋ/"
+    },
+    {
+      "phrase": "dining room",
+      "meaningVi": "phòng ăn",
+      "pronunciation": "/ˈdaɪnɪŋ ruːm/"
+    },
+    {
+      "phrase": "first floor",
+      "meaningVi": "tầng một",
+      "pronunciation": "/fɜːrst flɔːr/"
+    },
+    {
+      "phrase": "room key",
+      "meaningVi": "chìa khóa phòng",
+      "pronunciation": "/ruːm kiː/"
+    },
+    {
+      "phrase": "Good night",
+      "meaningVi": "Chúc ngủ ngon",
+      "pronunciation": "/ɡʊd naɪt/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Is … included?",
+      "bodyVi": "Dùng 'Is … included?' để hỏi xem một dịch vụ có được tính trong giá không. Ví dụ: 'Is breakfast included?' = Bữa sáng có được bao gồm không?",
+      "bodyEn": "Use 'Is … included?' to ask if a service is part of the price. Example: 'Is breakfast included?'"
+    },
+    {
+      "title": "It is on the … floor.",
+      "bodyVi": "Dùng 'on the … floor' để nói vị trí trong tòa nhà. Ví dụ: 'It is on the first floor.' = Nó ở tầng một.",
+      "bodyEn": "Use 'on the … floor' to say where something is in a building. Example: 'It is on the first floor.'"
+    }
+  ],
+  "translationVi": "Guest: Xin chào. Tôi có đặt phòng trước. / Lisa: Chào mừng! Tên bạn là gì? / Guest: Tên tôi là Tom Green. / Lisa: Để tôi kiểm tra. Vâng, phòng mười hai. / Guest: Bữa sáng có được bao gồm không? / Lisa: Vâng, bữa sáng miễn phí. / Lisa: Bữa sáng bắt đầu lúc bảy giờ sáng. / Guest: Phòng ăn ở đâu? / Lisa: Nó ở tầng một. / Guest: Tôi có thể lấy chìa khóa phòng không? / Lisa: Đây là chìa khóa của bạn. / Guest: Cảm ơn. Chúc ngủ ngon.",
+  "criticalThinkingQuestion": "What information is important to know when you check in to a hotel for the first time?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-a1-103",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 21648
+}

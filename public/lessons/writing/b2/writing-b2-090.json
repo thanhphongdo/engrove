@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "In a big city, is anonymity freedom or erasure?",
   "summary": "Reflect on whether being unknown in a large city is mainly liberating or mainly a kind of disappearance, and what determines which it becomes.",
-  "tags": ["Society", "Urban Life", "Reflection", "Recognition"],
+  "tags": [
+    "Society",
+    "Urban Life",
+    "Reflection",
+    "Recognition"
+  ],
   "topic": "Whether urban anonymity liberates or erases us",
   "prompt": "Write a 450–600-word reflective essay on whether anonymity in a big city is mainly freedom or mainly erasure. Use at least two concrete examples, hold both possibilities in view rather than declaring a winner too early, and use cleft sentences, the passive, and hedged reflection.",
   "minWords": 450,
@@ -15,60 +20,221 @@
     "Whether being unknown becomes freedom or erasure seems to depend less on the city than on…"
   ],
   "hintVocab": [
-    { "phrase": "anonymity", "meaningVi": "tính ẩn danh / sự vô danh", "pronunciation": "/ˌæn.əˈnɪm.ə.ti/" },
-    { "phrase": "erasure", "meaningVi": "sự xóa bỏ / sự bị xóa nhòa", "pronunciation": "/ɪˈreɪ.ʒər/" },
-    { "phrase": "a newcomer", "meaningVi": "người mới đến" },
-    { "phrase": "to reinvent oneself", "meaningVi": "tái tạo bản thân / làm mới mình" },
-    { "phrase": "to go unnoticed", "meaningVi": "không bị để ý đến" },
-    { "phrase": "liberating", "meaningVi": "có tính giải phóng", "pronunciation": "/ˈlɪb.ər.eɪ.tɪŋ/" },
-    { "phrase": "to blend in", "meaningVi": "hòa lẫn vào / lẫn vào đám đông" },
-    { "phrase": "the weight of being known", "meaningVi": "sức nặng của việc bị biết đến" },
-    { "phrase": "scrutiny", "meaningVi": "sự soi xét / dòm ngó", "pronunciation": "/ˈskruː.tɪ.ni/" },
-    { "phrase": "to slip through the cracks", "meaningVi": "lọt qua kẽ hở / bị bỏ rơi không ai hay" },
-    { "phrase": "a fresh start", "meaningVi": "một khởi đầu mới" },
-    { "phrase": "to be accountable to", "meaningVi": "phải chịu trách nhiệm trước / phải giải trình với" },
-    { "phrase": "isolation", "meaningVi": "sự cô lập / cảnh đơn độc", "pronunciation": "/ˌaɪ.səˈleɪ.ʃən/" },
-    { "phrase": "to be held to account", "meaningVi": "bị buộc phải chịu trách nhiệm" },
-    { "phrase": "a face in the crowd", "meaningVi": "một gương mặt giữa đám đông" },
-    { "phrase": "small-town surveillance", "meaningVi": "sự dòm ngó của thị trấn nhỏ", "pronunciation": "/səˈveɪ.ləns/" },
-    { "phrase": "to be unburdened", "meaningVi": "được trút bỏ gánh nặng" },
-    { "phrase": "to vanish", "meaningVi": "biến mất", "pronunciation": "/ˈvæn.ɪʃ/" },
-    { "phrase": "a double edge", "meaningVi": "một con dao hai lưỡi" },
-    { "phrase": "to crave", "meaningVi": "thèm khát / khao khát", "pronunciation": "/kreɪv/" },
-    { "phrase": "rootlessness", "meaningVi": "sự không gốc rễ / cảm giác bơ vơ" },
-    { "phrase": "to be missed", "meaningVi": "được nhớ đến khi vắng mặt" },
-    { "phrase": "to reinvent a self", "meaningVi": "tạo dựng lại một bản ngã" },
-    { "phrase": "belonging", "meaningVi": "sự thuộc về" },
-    { "phrase": "to hold someone in mind", "meaningVi": "giữ ai đó trong tâm trí / nghĩ tới ai" }
+    {
+      "phrase": "anonymity",
+      "meaningVi": "tính ẩn danh / sự vô danh",
+      "pronunciation": "/ˌæn.əˈnɪm.ə.ti/"
+    },
+    {
+      "phrase": "erasure",
+      "meaningVi": "sự xóa bỏ / sự bị xóa nhòa",
+      "pronunciation": "/ɪˈreɪ.ʒər/"
+    },
+    {
+      "phrase": "a newcomer",
+      "meaningVi": "người mới đến"
+    },
+    {
+      "phrase": "to reinvent oneself",
+      "meaningVi": "tái tạo bản thân / làm mới mình"
+    },
+    {
+      "phrase": "to go unnoticed",
+      "meaningVi": "không bị để ý đến"
+    },
+    {
+      "phrase": "liberating",
+      "meaningVi": "có tính giải phóng",
+      "pronunciation": "/ˈlɪb.ər.eɪ.tɪŋ/"
+    },
+    {
+      "phrase": "to blend in",
+      "meaningVi": "hòa lẫn vào / lẫn vào đám đông"
+    },
+    {
+      "phrase": "the weight of being known",
+      "meaningVi": "sức nặng của việc bị biết đến"
+    },
+    {
+      "phrase": "scrutiny",
+      "meaningVi": "sự soi xét / dòm ngó",
+      "pronunciation": "/ˈskruː.tɪ.ni/"
+    },
+    {
+      "phrase": "to slip through the cracks",
+      "meaningVi": "lọt qua kẽ hở / bị bỏ rơi không ai hay"
+    },
+    {
+      "phrase": "a fresh start",
+      "meaningVi": "một khởi đầu mới"
+    },
+    {
+      "phrase": "to be accountable to",
+      "meaningVi": "phải chịu trách nhiệm trước / phải giải trình với"
+    },
+    {
+      "phrase": "isolation",
+      "meaningVi": "sự cô lập / cảnh đơn độc",
+      "pronunciation": "/ˌaɪ.səˈleɪ.ʃən/"
+    },
+    {
+      "phrase": "to be held to account",
+      "meaningVi": "bị buộc phải chịu trách nhiệm"
+    },
+    {
+      "phrase": "a face in the crowd",
+      "meaningVi": "một gương mặt giữa đám đông"
+    },
+    {
+      "phrase": "small-town surveillance",
+      "meaningVi": "sự dòm ngó của thị trấn nhỏ",
+      "pronunciation": "/səˈveɪ.ləns/"
+    },
+    {
+      "phrase": "to be unburdened",
+      "meaningVi": "được trút bỏ gánh nặng"
+    },
+    {
+      "phrase": "to vanish",
+      "meaningVi": "biến mất",
+      "pronunciation": "/ˈvæn.ɪʃ/"
+    },
+    {
+      "phrase": "a double edge",
+      "meaningVi": "một con dao hai lưỡi"
+    },
+    {
+      "phrase": "to crave",
+      "meaningVi": "thèm khát / khao khát",
+      "pronunciation": "/kreɪv/"
+    },
+    {
+      "phrase": "rootlessness",
+      "meaningVi": "sự không gốc rễ / cảm giác bơ vơ"
+    },
+    {
+      "phrase": "to be missed",
+      "meaningVi": "được nhớ đến khi vắng mặt"
+    },
+    {
+      "phrase": "to reinvent a self",
+      "meaningVi": "tạo dựng lại một bản ngã"
+    },
+    {
+      "phrase": "belonging",
+      "meaningVi": "sự thuộc về"
+    },
+    {
+      "phrase": "to hold someone in mind",
+      "meaningVi": "giữ ai đó trong tâm trí / nghĩ tới ai"
+    }
   ],
   "sampleText": "When I moved to São Paulo at twenty-three, the first thing the city gave me was permission to be no one. No one knew my family, my old mistakes, the version of me that the people back home had decided was the real one. I could walk twenty minutes in any direction and not meet a single face that expected anything of me. For a few months this felt like the purest freedom I had ever tasted.\n\nThat is the standard story we tell about the big city, and it is not wrong. What anonymity offers, first, is release — from the small-town surveillance in which every choice is noticed, weighed, and reported back to people who have known you since you were eight. In that older world, you are never not being watched; your past walks beside you everywhere. The city erases that file. It is precisely because no one is keeping the record that you are free to become someone the record never anticipated. For the person fleeing a reputation, a marriage, a name that had calcified into a cage, this is not a small thing. It can be the whole reason they came.\n\nBut the same machinery that frees can also erase. What anonymity gives with one hand it quietly takes with the other. To be unknown is also to be unmissed. The neighbour who does not gossip about you is also the neighbour who will not notice if your post piles up for a week. I think of an old man in my building who died, it later emerged, several days before anyone realised. In a village this is almost unimaginable; in a city of twelve million it is a recurring news item. The freedom from being watched shades, without anyone deciding it should, into the condition of not being seen at all.\n\nGranted, there are people for whom being unknown is pure relief and never loss — those whose hometowns offered only judgement, for whom every familiar face was a small jailer. To pretend everyone secretly longs to be known would be sentimental and false. For some, the crowd is not erasure but rescue, and I would not argue them out of it.\n\nYet for most of us the two faces of anonymity are not a choice between freedom and erasure so much as a single condition that can tip either way. The question, I have come to think, is not which the city gives you. The city gives you the raw blankness; what you make of it is decided elsewhere. The person who uses the anonymity to build new ties — who lets the barista learn their order, who joins the football game in the square — converts blankness into freedom. The person who uses it only to hide converts the same blankness into disappearance.\n\nThe city did not free me, in the end, and it did not erase me. It handed me a blank page and stepped back. Whether that page became a fresh start or a record of someone slowly vanishing was never the city's decision to make. It was, quietly and daily, mine.",
   "sampleAnnotations": [
-    { "phrase": "the first thing the city gave me was permission to be no one", "meaningVi": "điều đầu tiên thành phố trao cho tôi là sự cho phép được làm một kẻ vô danh" },
-    { "phrase": "not meet a single face that expected anything of me", "meaningVi": "không gặp một gương mặt nào trông đợi điều gì ở tôi" },
-    { "phrase": "this felt like the purest freedom I had ever tasted", "meaningVi": "điều này cảm thấy như sự tự do tinh khôi nhất mà tôi từng nếm trải" },
-    { "phrase": "What anonymity offers, first, is release", "meaningVi": "Điều mà tính ẩn danh mang lại, trước tiên, là sự giải thoát" },
-    { "phrase": "the small-town surveillance in which every choice is noticed, weighed, and reported back", "meaningVi": "sự dòm ngó của thị trấn nhỏ nơi mọi lựa chọn đều bị để ý, cân đo và báo lại" },
-    { "phrase": "your past walks beside you everywhere", "meaningVi": "quá khứ của bạn bước đi bên cạnh bạn ở mọi nơi" },
-    { "phrase": "It is precisely because no one is keeping the record that you are free to become someone the record never anticipated", "meaningVi": "Chính bởi vì không ai lưu giữ hồ sơ mà bạn được tự do trở thành một người mà cuốn hồ sơ chưa bao giờ dự liệu" },
-    { "phrase": "a name that had calcified into a cage", "meaningVi": "một cái tên đã hóa cứng thành một chiếc lồng" },
-    { "phrase": "the same machinery that frees can also erase", "meaningVi": "chính cỗ máy giải phóng cũng có thể xóa nhòa" },
-    { "phrase": "What anonymity gives with one hand it quietly takes with the other", "meaningVi": "Cái mà tính ẩn danh trao bằng một tay nó lặng lẽ lấy lại bằng tay kia" },
-    { "phrase": "To be unknown is also to be unmissed", "meaningVi": "Là kẻ vô danh cũng có nghĩa là kẻ không ai nhớ tới khi vắng mặt" },
-    { "phrase": "will not notice if your post piles up for a week", "meaningVi": "sẽ không để ý nếu thư từ của bạn chất đống cả tuần" },
-    { "phrase": "an old man in my building who died, it later emerged, several days before anyone realised", "meaningVi": "một ông lão trong tòa nhà của tôi đã qua đời, về sau mới vỡ lẽ, mấy ngày trước khi có ai nhận ra" },
-    { "phrase": "The freedom from being watched shades, without anyone deciding it should, into the condition of not being seen at all", "meaningVi": "Sự tự do khỏi bị dòm ngó, mà không ai định liệu là phải như vậy, nhạt dần thành tình cảnh hoàn toàn không được nhìn thấy" },
-    { "phrase": "Granted, there are people for whom being unknown is pure relief and never loss", "meaningVi": "Công nhận, có những người mà với họ việc làm kẻ vô danh là sự nhẹ nhõm thuần túy chứ không bao giờ là mất mát" },
-    { "phrase": "every familiar face was a small jailer", "meaningVi": "mỗi gương mặt quen thuộc là một viên cai ngục nhỏ" },
-    { "phrase": "the crowd is not erasure but rescue", "meaningVi": "đám đông không phải là sự xóa nhòa mà là sự cứu rỗi" },
-    { "phrase": "a single condition that can tip either way", "meaningVi": "một tình cảnh duy nhất có thể nghiêng về bất kỳ hướng nào" },
-    { "phrase": "The city gives you the raw blankness; what you make of it is decided elsewhere", "meaningVi": "Thành phố trao cho bạn sự trống trơn thô ráp; bạn làm gì với nó lại được định đoạt ở nơi khác" },
-    { "phrase": "converts blankness into freedom", "meaningVi": "biến sự trống trơn thành tự do" },
-    { "phrase": "It handed me a blank page and stepped back", "meaningVi": "Nó trao cho tôi một trang giấy trắng rồi lùi lại" },
-    { "phrase": "Whether that page became a fresh start or a record of someone slowly vanishing was never the city's decision to make", "meaningVi": "Việc trang giấy ấy trở thành một khởi đầu mới hay một biên bản về kẻ đang từ từ biến mất chưa bao giờ là quyết định của thành phố" },
-    { "phrase": "That is the standard story we tell about the big city, and it is not wrong", "meaningVi": "Đó là câu chuyện thường thấy mà ta vẫn kể về thành phố lớn, và nó không sai" },
-    { "phrase": "In that older world, you are never not being watched", "meaningVi": "Trong cái thế giới cũ ấy, bạn chẳng bao giờ không bị theo dõi" },
-    { "phrase": "The neighbour who does not gossip about you is also the neighbour who will not notice", "meaningVi": "Người hàng xóm không buôn chuyện về bạn cũng là người hàng xóm sẽ không để ý" },
-    { "phrase": "I would not argue them out of it", "meaningVi": "tôi sẽ không tranh luận để họ nghĩ khác đi" }
+    {
+      "phrase": "the first thing the city gave me was permission to be no one",
+      "meaningVi": "điều đầu tiên thành phố trao cho tôi là sự cho phép được làm một kẻ vô danh"
+    },
+    {
+      "phrase": "not meet a single face that expected anything of me",
+      "meaningVi": "không gặp một gương mặt nào trông đợi điều gì ở tôi"
+    },
+    {
+      "phrase": "this felt like the purest freedom I had ever tasted",
+      "meaningVi": "điều này cảm thấy như sự tự do tinh khôi nhất mà tôi từng nếm trải"
+    },
+    {
+      "phrase": "What anonymity offers, first, is release",
+      "meaningVi": "Điều mà tính ẩn danh mang lại, trước tiên, là sự giải thoát"
+    },
+    {
+      "phrase": "the small-town surveillance in which every choice is noticed, weighed, and reported back",
+      "meaningVi": "sự dòm ngó của thị trấn nhỏ nơi mọi lựa chọn đều bị để ý, cân đo và báo lại"
+    },
+    {
+      "phrase": "your past walks beside you everywhere",
+      "meaningVi": "quá khứ của bạn bước đi bên cạnh bạn ở mọi nơi"
+    },
+    {
+      "phrase": "It is precisely because no one is keeping the record that you are free to become someone the record never anticipated",
+      "meaningVi": "Chính bởi vì không ai lưu giữ hồ sơ mà bạn được tự do trở thành một người mà cuốn hồ sơ chưa bao giờ dự liệu"
+    },
+    {
+      "phrase": "a name that had calcified into a cage",
+      "meaningVi": "một cái tên đã hóa cứng thành một chiếc lồng"
+    },
+    {
+      "phrase": "the same machinery that frees can also erase",
+      "meaningVi": "chính cỗ máy giải phóng cũng có thể xóa nhòa"
+    },
+    {
+      "phrase": "What anonymity gives with one hand it quietly takes with the other",
+      "meaningVi": "Cái mà tính ẩn danh trao bằng một tay nó lặng lẽ lấy lại bằng tay kia"
+    },
+    {
+      "phrase": "To be unknown is also to be unmissed",
+      "meaningVi": "Là kẻ vô danh cũng có nghĩa là kẻ không ai nhớ tới khi vắng mặt"
+    },
+    {
+      "phrase": "will not notice if your post piles up for a week",
+      "meaningVi": "sẽ không để ý nếu thư từ của bạn chất đống cả tuần"
+    },
+    {
+      "phrase": "an old man in my building who died, it later emerged, several days before anyone realised",
+      "meaningVi": "một ông lão trong tòa nhà của tôi đã qua đời, về sau mới vỡ lẽ, mấy ngày trước khi có ai nhận ra"
+    },
+    {
+      "phrase": "The freedom from being watched shades, without anyone deciding it should, into the condition of not being seen at all",
+      "meaningVi": "Sự tự do khỏi bị dòm ngó, mà không ai định liệu là phải như vậy, nhạt dần thành tình cảnh hoàn toàn không được nhìn thấy"
+    },
+    {
+      "phrase": "Granted, there are people for whom being unknown is pure relief and never loss",
+      "meaningVi": "Công nhận, có những người mà với họ việc làm kẻ vô danh là sự nhẹ nhõm thuần túy chứ không bao giờ là mất mát"
+    },
+    {
+      "phrase": "every familiar face was a small jailer",
+      "meaningVi": "mỗi gương mặt quen thuộc là một viên cai ngục nhỏ"
+    },
+    {
+      "phrase": "the crowd is not erasure but rescue",
+      "meaningVi": "đám đông không phải là sự xóa nhòa mà là sự cứu rỗi"
+    },
+    {
+      "phrase": "a single condition that can tip either way",
+      "meaningVi": "một tình cảnh duy nhất có thể nghiêng về bất kỳ hướng nào"
+    },
+    {
+      "phrase": "The city gives you the raw blankness; what you make of it is decided elsewhere",
+      "meaningVi": "Thành phố trao cho bạn sự trống trơn thô ráp; bạn làm gì với nó lại được định đoạt ở nơi khác"
+    },
+    {
+      "phrase": "converts blankness into freedom",
+      "meaningVi": "biến sự trống trơn thành tự do"
+    },
+    {
+      "phrase": "It handed me a blank page and stepped back",
+      "meaningVi": "Nó trao cho tôi một trang giấy trắng rồi lùi lại"
+    },
+    {
+      "phrase": "Whether that page became a fresh start or a record of someone slowly vanishing was never the city's decision to make",
+      "meaningVi": "Việc trang giấy ấy trở thành một khởi đầu mới hay một biên bản về kẻ đang từ từ biến mất chưa bao giờ là quyết định của thành phố"
+    },
+    {
+      "phrase": "That is the standard story we tell about the big city, and it is not wrong",
+      "meaningVi": "Đó là câu chuyện thường thấy mà ta vẫn kể về thành phố lớn, và nó không sai"
+    },
+    {
+      "phrase": "In that older world, you are never not being watched",
+      "meaningVi": "Trong cái thế giới cũ ấy, bạn chẳng bao giờ không bị theo dõi"
+    },
+    {
+      "phrase": "The neighbour who does not gossip about you is also the neighbour who will not notice",
+      "meaningVi": "Người hàng xóm không buôn chuyện về bạn cũng là người hàng xóm sẽ không để ý"
+    },
+    {
+      "phrase": "I would not argue them out of it",
+      "meaningVi": "tôi sẽ không tranh luận để họ nghĩ khác đi"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -88,12 +254,12 @@
       "id": "q1",
       "prompt": "Which sentence uses an 'It is … because … that …' cleft to stress the cause of the freedom?",
       "options": [
-        "It is precisely because no one is keeping the record that you are free to become someone new.",
         "No one keeps the record so you are free precisely because to become new it is that.",
         "Because the record no one is keeping it that you are free to become precisely new.",
-        "You are free to become new precisely it is that because no one keeps the record."
+        "You are free to become new precisely it is that because no one keeps the record.",
+        "It is precisely because no one is keeping the record that you are free to become someone new."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'It is precisely because … that …' is a cleft that isolates the cause (no one keeping the record) and stresses it.",
       "hint": "Look for 'It is … because … that …' wrapped around the reason."
     },
@@ -101,12 +267,12 @@
       "id": "q2",
       "prompt": "Which sentence concedes the opposing case fairly and in fitting register?",
       "options": [
-        "Some people like cities but they are honestly just running away from their problems.",
         "Granted, there are people for whom being unknown is pure relief and never loss.",
+        "Some people like cities but they are honestly just running away from their problems.",
         "On the contrary, everyone secretly wishes their whole town knew everything about them.",
         "Cities are fine I guess for hiding, whatever, who really cares about that anyway."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Option B concedes a real exception precisely, which keeps the reflection honest rather than one-sided.",
       "hint": "Which option admits a genuine opposing case in measured language?"
     },
@@ -128,11 +294,11 @@
       "prompt": "What does 'erasure' mean in this essay?",
       "options": [
         "The act of correcting a written mistake",
-        "Being so unnoticed that you effectively disappear from others' awareness",
         "Deleting files from a computer",
+        "Being so unnoticed that you effectively disappear from others' awareness",
         "Moving to a new home"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'Erasure' here is the danger that anonymity becomes total invisibility — no longer being seen at all.",
       "hint": "Think of 'erasure' as a kind of disappearing, not literal rubbing out."
     },
@@ -141,11 +307,11 @@
       "prompt": "What does the story of the old man in the building illustrate?",
       "options": [
         "That cities have poor healthcare",
-        "That freedom from being watched can shade into not being seen at all",
         "That old people should not live alone",
-        "That buildings need better security"
+        "That buildings need better security",
+        "That freedom from being watched can shade into not being seen at all"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "His death going unnoticed shows how anonymity's freedom can become the condition of not being seen.",
       "hint": "Reread the sentence right after the old man example."
     },
@@ -153,12 +319,12 @@
       "id": "q6",
       "prompt": "Which option keeps a controlled, reflective register?",
       "options": [
-        "Cities are honestly so lonely and small towns are just way better for everyone.",
         "What anonymity gives with one hand it quietly takes with the other.",
+        "Cities are honestly so lonely and small towns are just way better for everyone.",
         "Big cities are basically just places where everyone ignores you, which is sad and dumb.",
         "Nobody in a city ever cares about anyone else, that's just obviously a fact, period."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Option B states the paradox in balanced, figurative language without slang or overstatement.",
       "hint": "Avoid 'honestly', 'basically', 'period' — find the balanced reflection."
     },
@@ -180,11 +346,11 @@
       "prompt": "Which sentence holds the paradox open rather than resolving it too soon?",
       "options": [
         "Anonymity is always pure freedom and nothing else, end of discussion.",
-        "For most of us the two faces of anonymity are not a choice between freedom and erasure so much as a single condition that can tip either way.",
         "Anonymity is obviously just erasure and everyone who likes cities is wrong.",
+        "For most of us the two faces of anonymity are not a choice between freedom and erasure so much as a single condition that can tip either way.",
         "There is no such thing as freedom or erasure in a city, they do not exist."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "Option B refuses a premature winner, framing anonymity as one condition that can tip either way — apt for reflection.",
       "hint": "Which option resists declaring one side the winner?"
     },
@@ -193,11 +359,11 @@
       "prompt": "According to the essay, what decides whether anonymity becomes freedom or erasure?",
       "options": [
         "The size of the city",
-        "What the person makes of the blankness the city hands them",
         "How much rent they pay",
-        "How long they have lived there"
+        "How long they have lived there",
+        "What the person makes of the blankness the city hands them"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay says 'The city gives you the raw blankness; what you make of it is decided elsewhere.'",
       "hint": "Look at the sentence contrasting what the city gives with what is decided elsewhere."
     },
@@ -205,12 +371,12 @@
       "id": "q10",
       "prompt": "What does the metaphor 'a name that had calcified into a cage' suggest?",
       "options": [
-        "A name that is hard to pronounce",
         "A reputation that has hardened into something trapping and inescapable",
+        "A name that is hard to pronounce",
         "A name written on a cage at a zoo",
         "A surname passed down through generations"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'Calcified into a cage' suggests a fixed identity that has become a trap one wants to escape.",
       "hint": "Think of 'calcified' as hardened and 'cage' as a trap."
     },
@@ -232,11 +398,11 @@
       "prompt": "What does 'to be unmissed' mean?",
       "options": [
         "To be hit exactly on target",
-        "To not be missed or noticed when absent",
         "To be remembered fondly",
+        "To not be missed or noticed when absent",
         "To be impossible to overlook"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'Unmissed' means no one feels your absence — the shadow side of being unknown.",
       "hint": "Think of the opposite of being missed when you are gone."
     },
@@ -245,11 +411,11 @@
       "prompt": "Which example shows anonymity converted into freedom in the essay?",
       "options": [
         "The old man whose death went unnoticed",
-        "The person who lets the barista learn their order and joins the football game",
         "The neighbour who never gossips",
-        "The marriage someone is fleeing"
+        "The marriage someone is fleeing",
+        "The person who lets the barista learn their order and joins the football game"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay says the person who builds new ties 'converts blankness into freedom.'",
       "hint": "Look for the example of someone actively building connections."
     },
@@ -257,12 +423,12 @@
       "id": "q14",
       "prompt": "What does the essay conclude was 'never the city's decision to make'?",
       "options": [
-        "Whether to charge high rent",
         "Whether the blank page became a fresh start or a slow vanishing",
+        "Whether to charge high rent",
         "Whether the writer should have moved at all",
         "Whether the old man should have had a neighbour"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The closing states that what the blank page became 'was never the city's decision to make. It was … mine.'",
       "hint": "Look at the final lines of the essay."
     },

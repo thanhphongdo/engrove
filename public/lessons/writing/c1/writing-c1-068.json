@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "The politics of who gets called by their first name",
   "summary": "Argue that the seemingly trivial question of who is addressed by their first name, and by whom, encodes a politics that is older and more consequential than any explicit hierarchy in the room.",
-  "tags": ["Language", "Society", "Argument"],
+  "tags": [
+    "Language",
+    "Society",
+    "Argument"
+  ],
   "topic": "Address, first names, and the hidden distribution of authority",
   "prompt": "Write a 600–800-word essay on the politics of first-name address — who gets called by their first name, who calls whom, and what is performed in the asymmetry. Avoid the language of etiquette books and avoid moralising about politeness. Use one inversion, one cleft, and a 'Granted… Even so…' concession. Use specific institutional settings (a clinic, a faculty corridor, a courtroom, a multinational office in Bangkok or Bucharest).",
   "minWords": 600,
@@ -14,53 +18,185 @@
     "Granted, no one wants the return of the formality that used to encase every workplace exchange. Even so,…"
   ],
   "hintVocab": [
-    {"phrase": "first-name address", "meaningVi": "xưng hô bằng tên riêng"},
-    {"phrase": "asymmetric address", "meaningVi": "xưng hô bất đối xứng"},
-    {"phrase": "the T/V distinction", "meaningVi": "phân biệt T/V (xưng hô thân/kính)"},
-    {"phrase": "honorific", "meaningVi": "kính ngữ"},
-    {"phrase": "the false intimacy", "meaningVi": "sự thân mật giả"},
-    {"phrase": "register asymmetry", "meaningVi": "bất đối xứng đăng ký"},
-    {"phrase": "the unilateral first name", "meaningVi": "tên riêng một chiều"},
-    {"phrase": "downward familiarity", "meaningVi": "thân mật theo hướng xuống"},
-    {"phrase": "the social passport", "meaningVi": "hộ chiếu xã hội"},
-    {"phrase": "Brown and Levinson on politeness", "meaningVi": "Brown và Levinson về sự lịch sự"},
-    {"phrase": "negative face", "meaningVi": "thể diện phủ định"},
-    {"phrase": "positive face", "meaningVi": "thể diện khẳng định"},
-    {"phrase": "the discursive marker", "meaningVi": "dấu hiệu diễn ngôn"},
-    {"phrase": "address-as-claim", "meaningVi": "xưng hô như sự đòi quyền"},
-    {"phrase": "the institutional uniform", "meaningVi": "đồng phục thể chế"},
-    {"phrase": "the levelling rhetoric", "meaningVi": "tu từ san bằng"},
-    {"phrase": "the discretion of the senior party", "meaningVi": "quyền tự do của bên cao cấp"},
-    {"phrase": "naming as small permission", "meaningVi": "gọi tên như sự cho phép nhỏ"},
-    {"phrase": "the named subordinate", "meaningVi": "người cấp dưới được gọi tên"},
-    {"phrase": "the surnamed elder", "meaningVi": "người cao tuổi được gọi bằng họ"},
-    {"phrase": "the cultural translator", "meaningVi": "người dịch văn hoá"},
-    {"phrase": "covert hierarchy", "meaningVi": "thứ bậc ngầm"}
+    {
+      "phrase": "first-name address",
+      "meaningVi": "xưng hô bằng tên riêng"
+    },
+    {
+      "phrase": "asymmetric address",
+      "meaningVi": "xưng hô bất đối xứng"
+    },
+    {
+      "phrase": "the T/V distinction",
+      "meaningVi": "phân biệt T/V (xưng hô thân/kính)"
+    },
+    {
+      "phrase": "honorific",
+      "meaningVi": "kính ngữ"
+    },
+    {
+      "phrase": "the false intimacy",
+      "meaningVi": "sự thân mật giả"
+    },
+    {
+      "phrase": "register asymmetry",
+      "meaningVi": "bất đối xứng đăng ký"
+    },
+    {
+      "phrase": "the unilateral first name",
+      "meaningVi": "tên riêng một chiều"
+    },
+    {
+      "phrase": "downward familiarity",
+      "meaningVi": "thân mật theo hướng xuống"
+    },
+    {
+      "phrase": "the social passport",
+      "meaningVi": "hộ chiếu xã hội"
+    },
+    {
+      "phrase": "Brown and Levinson on politeness",
+      "meaningVi": "Brown và Levinson về sự lịch sự"
+    },
+    {
+      "phrase": "negative face",
+      "meaningVi": "thể diện phủ định"
+    },
+    {
+      "phrase": "positive face",
+      "meaningVi": "thể diện khẳng định"
+    },
+    {
+      "phrase": "the discursive marker",
+      "meaningVi": "dấu hiệu diễn ngôn"
+    },
+    {
+      "phrase": "address-as-claim",
+      "meaningVi": "xưng hô như sự đòi quyền"
+    },
+    {
+      "phrase": "the institutional uniform",
+      "meaningVi": "đồng phục thể chế"
+    },
+    {
+      "phrase": "the levelling rhetoric",
+      "meaningVi": "tu từ san bằng"
+    },
+    {
+      "phrase": "the discretion of the senior party",
+      "meaningVi": "quyền tự do của bên cao cấp"
+    },
+    {
+      "phrase": "naming as small permission",
+      "meaningVi": "gọi tên như sự cho phép nhỏ"
+    },
+    {
+      "phrase": "the named subordinate",
+      "meaningVi": "người cấp dưới được gọi tên"
+    },
+    {
+      "phrase": "the surnamed elder",
+      "meaningVi": "người cao tuổi được gọi bằng họ"
+    },
+    {
+      "phrase": "the cultural translator",
+      "meaningVi": "người dịch văn hoá"
+    },
+    {
+      "phrase": "covert hierarchy",
+      "meaningVi": "thứ bậc ngầm"
+    }
   ],
   "sampleText": "Hardly ever is the question of address treated as a political question, despite the long history of it being precisely that. We notice the rituals of older systems — the patron and his clerks, the colonial officer and the village headman, the consultant and the houseman — and we tend to suppose that the levelling of address that followed has resolved the matter. The question survives, however, in a quieter form. It survives in who, in a meeting in a Bangkok office or a Bucharest clinic, may use the first name of whom, in which direction the familiarity flows, and in who has to think about it.\n\nConsider a faculty corridor in a university where the polite norm is first names for all. A professor of thirty years' standing is 'Ana'; the postdoc in her second year is 'Maria'; the head of department is 'Tomás'. The arrangement looks egalitarian, and in some ways it is. But the postdoc, addressing the professor, has to make a small calculation each time. She uses 'Ana' to colleagues who are also senior, where the levelling is genuinely mutual. She uses 'Ana' to Ana herself in private, where the use has been licensed. She avoids 'Ana' in front of certain visiting figures, because the unilateral first name from a postdoc reads, in that room, as a claim she is not in fact entitled to make. The professor uses 'Maria' to the postdoc throughout, without ever having to think about which version of the relationship the room is currently registering. This is what unilateral first-name address looks like when the official policy is symmetric. The form is mutual; the permission is not.\n\nWhat the rhetoric of 'we're all on first-name terms here' obscures is the fact that asymmetry of address is rarely undone by extending the more casual register downward. To call the senior figure by her first name does not, on its own, equalise the relation. It transfers the work of calibration to the junior. The junior must read, in real time, whether the present setting is one in which the first name is licensed; the senior is exempt from this monitoring because she holds the discretion. This is the structural fact that the levelling rhetoric depends on not noticing.\n\nIt is the asymmetry of the labour, not the asymmetry of the form, that gives the question its political weight. The forms are easy to adjust; a clinic that decides on Monday that nurses and doctors will use first names can publish the rule by Friday. The labour is harder to redistribute, because it consists in the cognitive work of judging context. The doctor still decides, in the marginal case, whether the first name is appropriate; the nurse still bears the cost of misjudgment. The egalitarian-sounding rule has changed where the burden sits without changing how heavily it sits, or on whom.\n\nThere is also the older asymmetry that the new policy has done nothing to disturb. In many institutions, the head still calls junior colleagues by their first names from the first meeting; the junior colleagues still address the head, in most contexts, with title and surname. When the junior is invited to drop the title, the invitation is the small permission of the senior — the licensing move, performed at the moment of the senior's choosing, in front of an audience the senior selects. The first name comes downward as a gift, and gifts of this kind generate small, unrepaid debts of the kind that hierarchical systems quietly run on. The egalitarian self-description of the workplace continues; the licensing move continues to be performed.\n\nGranted, no one wants the return of the formality that used to encase every workplace exchange, and the case for some informalisation has been made well enough that there is no need to make it again. The bureaucratic distance of the older office, the consultant who could not be addressed without three titles, the headmaster who never heard his own given name — these are not arrangements anyone is trying to recover. Even so, the conclusion that follows is not that the question of address has been resolved. It is that it has been redistributed.\n\nA useful question to ask of any institution is: who has to decide which name to use, and when? Wherever the answer is consistently a particular category of person — usually the junior, the new arrival, the outsider, the foreigner doing business in a language that is not theirs — the institution still operates a politics of address, even when the official policy is first names for all. The labour of getting it right is a kind of tax, paid by those whose standing does not exempt them from the calculation.\n\nNone of this resolves into a manual. There is no rule that tells anyone when to use the first name, the surname, the title. The narrower claim is that the question of who gets called what, by whom, is a political question that the egalitarian language of address has obscured rather than answered, and that the obscuring has costs whose distribution is not random.",
   "sampleAnnotations": [
-    {"phrase": "Hardly ever is the question of address treated as a political question, despite the long history of it being precisely that", "meaningVi": "Hầu như không bao giờ câu hỏi về xưng hô được đối xử như một câu hỏi chính trị, mặc dù lịch sử dài của nó chính xác là như vậy"},
-    {"phrase": "the levelling of address that followed has resolved the matter", "meaningVi": "sự san bằng xưng hô tiếp theo đã giải quyết vấn đề"},
-    {"phrase": "in which direction the familiarity flows, and in who has to think about it", "meaningVi": "theo hướng nào sự thân mật chảy, và ai phải nghĩ về nó"},
-    {"phrase": "the postdoc, addressing the professor, has to make a small calculation each time", "meaningVi": "nghiên cứu sinh sau tiến sĩ, khi xưng hô với giáo sư, phải thực hiện một phép tính nhỏ mỗi lần"},
-    {"phrase": "the unilateral first name from a postdoc reads, in that room, as a claim she is not in fact entitled to make", "meaningVi": "tên riêng một chiều từ một nghiên cứu sinh sau tiến sĩ được đọc, trong phòng đó, như một sự đòi quyền cô thực ra không có quyền"},
-    {"phrase": "The form is mutual; the permission is not", "meaningVi": "Hình thức là tương hỗ; sự cho phép thì không"},
-    {"phrase": "What the rhetoric of 'we're all on first-name terms here' obscures is the fact that asymmetry of address is rarely undone by extending the more casual register downward", "meaningVi": "Điều mà tu từ 'chúng ta đều xưng hô bằng tên riêng ở đây' che giấu là sự thật rằng bất đối xứng xưng hô hiếm khi bị xoá bằng cách mở rộng đăng ký thân mật hơn xuống dưới"},
-    {"phrase": "To call the senior figure by her first name does not, on its own, equalise the relation. It transfers the work of calibration to the junior", "meaningVi": "Gọi nhân vật cấp cao bằng tên riêng của cô không, tự nó, làm cân bằng mối quan hệ. Nó chuyển công việc hiệu chỉnh sang người cấp dưới"},
-    {"phrase": "the senior is exempt from this monitoring because she holds the discretion", "meaningVi": "người cấp cao được miễn khỏi sự giám sát này vì cô nắm quyền tự do quyết định"},
-    {"phrase": "It is the asymmetry of the labour, not the asymmetry of the form, that gives the question its political weight", "meaningVi": "Chính sự bất đối xứng của lao động, không phải sự bất đối xứng của hình thức, mới mang lại cho câu hỏi trọng lượng chính trị"},
-    {"phrase": "The forms are easy to adjust", "meaningVi": "Hình thức dễ điều chỉnh"},
-    {"phrase": "consists in the cognitive work of judging context", "meaningVi": "bao gồm công việc nhận thức của việc phán đoán bối cảnh"},
-    {"phrase": "the nurse still bears the cost of misjudgment", "meaningVi": "người y tá vẫn gánh chi phí của việc phán đoán sai"},
-    {"phrase": "The egalitarian-sounding rule has changed where the burden sits without changing how heavily it sits, or on whom", "meaningVi": "Quy tắc nghe có vẻ bình đẳng đã thay đổi nơi gánh nặng đặt mà không thay đổi nó nặng thế nào, hay trên ai"},
-    {"phrase": "When the junior is invited to drop the title, the invitation is the small permission of the senior — the licensing move, performed at the moment of the senior's choosing", "meaningVi": "Khi người cấp dưới được mời bỏ chức danh, lời mời là sự cho phép nhỏ của người cấp cao — động tác cấp phép, được thực hiện vào thời điểm người cấp cao chọn"},
-    {"phrase": "The first name comes downward as a gift, and gifts of this kind generate small, unrepaid debts", "meaningVi": "Tên riêng đi xuống như một món quà, và quà loại này tạo ra những món nợ nhỏ không được trả"},
-    {"phrase": "Granted, no one wants the return of the formality that used to encase every workplace exchange", "meaningVi": "Cứ cho là không ai muốn sự trang trọng từng bao bọc mọi sự trao đổi nơi làm việc trở lại"},
-    {"phrase": "Even so, the conclusion that follows is not that the question of address has been resolved. It is that it has been redistributed", "meaningVi": "Dù vậy, kết luận theo sau không phải là câu hỏi về xưng hô đã được giải quyết. Đó là rằng nó đã được phân phối lại"},
-    {"phrase": "who has to decide which name to use, and when?", "meaningVi": "ai phải quyết định dùng tên nào, và khi nào?"},
-    {"phrase": "the labour of getting it right is a kind of tax, paid by those whose standing does not exempt them from the calculation", "meaningVi": "lao động làm đúng là một loại thuế, được trả bởi những người mà vị thế của họ không miễn họ khỏi phép tính"},
-    {"phrase": "There is no rule that tells anyone when to use the first name, the surname, the title", "meaningVi": "Không có quy tắc nào nói cho bất kỳ ai khi nào dùng tên riêng, họ, hay chức danh"},
-    {"phrase": "the obscuring has costs whose distribution is not random", "meaningVi": "việc che giấu có chi phí mà phân phối không ngẫu nhiên"}
+    {
+      "phrase": "Hardly ever is the question of address treated as a political question, despite the long history of it being precisely that",
+      "meaningVi": "Hầu như không bao giờ câu hỏi về xưng hô được đối xử như một câu hỏi chính trị, mặc dù lịch sử dài của nó chính xác là như vậy"
+    },
+    {
+      "phrase": "the levelling of address that followed has resolved the matter",
+      "meaningVi": "sự san bằng xưng hô tiếp theo đã giải quyết vấn đề"
+    },
+    {
+      "phrase": "in which direction the familiarity flows, and in who has to think about it",
+      "meaningVi": "theo hướng nào sự thân mật chảy, và ai phải nghĩ về nó"
+    },
+    {
+      "phrase": "the postdoc, addressing the professor, has to make a small calculation each time",
+      "meaningVi": "nghiên cứu sinh sau tiến sĩ, khi xưng hô với giáo sư, phải thực hiện một phép tính nhỏ mỗi lần"
+    },
+    {
+      "phrase": "the unilateral first name from a postdoc reads, in that room, as a claim she is not in fact entitled to make",
+      "meaningVi": "tên riêng một chiều từ một nghiên cứu sinh sau tiến sĩ được đọc, trong phòng đó, như một sự đòi quyền cô thực ra không có quyền"
+    },
+    {
+      "phrase": "The form is mutual; the permission is not",
+      "meaningVi": "Hình thức là tương hỗ; sự cho phép thì không"
+    },
+    {
+      "phrase": "What the rhetoric of 'we're all on first-name terms here' obscures is the fact that asymmetry of address is rarely undone by extending the more casual register downward",
+      "meaningVi": "Điều mà tu từ 'chúng ta đều xưng hô bằng tên riêng ở đây' che giấu là sự thật rằng bất đối xứng xưng hô hiếm khi bị xoá bằng cách mở rộng đăng ký thân mật hơn xuống dưới"
+    },
+    {
+      "phrase": "To call the senior figure by her first name does not, on its own, equalise the relation. It transfers the work of calibration to the junior",
+      "meaningVi": "Gọi nhân vật cấp cao bằng tên riêng của cô không, tự nó, làm cân bằng mối quan hệ. Nó chuyển công việc hiệu chỉnh sang người cấp dưới"
+    },
+    {
+      "phrase": "the senior is exempt from this monitoring because she holds the discretion",
+      "meaningVi": "người cấp cao được miễn khỏi sự giám sát này vì cô nắm quyền tự do quyết định"
+    },
+    {
+      "phrase": "It is the asymmetry of the labour, not the asymmetry of the form, that gives the question its political weight",
+      "meaningVi": "Chính sự bất đối xứng của lao động, không phải sự bất đối xứng của hình thức, mới mang lại cho câu hỏi trọng lượng chính trị"
+    },
+    {
+      "phrase": "The forms are easy to adjust",
+      "meaningVi": "Hình thức dễ điều chỉnh"
+    },
+    {
+      "phrase": "consists in the cognitive work of judging context",
+      "meaningVi": "bao gồm công việc nhận thức của việc phán đoán bối cảnh"
+    },
+    {
+      "phrase": "the nurse still bears the cost of misjudgment",
+      "meaningVi": "người y tá vẫn gánh chi phí của việc phán đoán sai"
+    },
+    {
+      "phrase": "The egalitarian-sounding rule has changed where the burden sits without changing how heavily it sits, or on whom",
+      "meaningVi": "Quy tắc nghe có vẻ bình đẳng đã thay đổi nơi gánh nặng đặt mà không thay đổi nó nặng thế nào, hay trên ai"
+    },
+    {
+      "phrase": "When the junior is invited to drop the title, the invitation is the small permission of the senior — the licensing move, performed at the moment of the senior's choosing",
+      "meaningVi": "Khi người cấp dưới được mời bỏ chức danh, lời mời là sự cho phép nhỏ của người cấp cao — động tác cấp phép, được thực hiện vào thời điểm người cấp cao chọn"
+    },
+    {
+      "phrase": "The first name comes downward as a gift, and gifts of this kind generate small, unrepaid debts",
+      "meaningVi": "Tên riêng đi xuống như một món quà, và quà loại này tạo ra những món nợ nhỏ không được trả"
+    },
+    {
+      "phrase": "Granted, no one wants the return of the formality that used to encase every workplace exchange",
+      "meaningVi": "Cứ cho là không ai muốn sự trang trọng từng bao bọc mọi sự trao đổi nơi làm việc trở lại"
+    },
+    {
+      "phrase": "Even so, the conclusion that follows is not that the question of address has been resolved. It is that it has been redistributed",
+      "meaningVi": "Dù vậy, kết luận theo sau không phải là câu hỏi về xưng hô đã được giải quyết. Đó là rằng nó đã được phân phối lại"
+    },
+    {
+      "phrase": "who has to decide which name to use, and when?",
+      "meaningVi": "ai phải quyết định dùng tên nào, và khi nào?"
+    },
+    {
+      "phrase": "the labour of getting it right is a kind of tax, paid by those whose standing does not exempt them from the calculation",
+      "meaningVi": "lao động làm đúng là một loại thuế, được trả bởi những người mà vị thế của họ không miễn họ khỏi phép tính"
+    },
+    {
+      "phrase": "There is no rule that tells anyone when to use the first name, the surname, the title",
+      "meaningVi": "Không có quy tắc nào nói cho bất kỳ ai khi nào dùng tên riêng, họ, hay chức danh"
+    },
+    {
+      "phrase": "the obscuring has costs whose distribution is not random",
+      "meaningVi": "việc che giấu có chi phí mà phân phối không ngẫu nhiên"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -80,12 +216,12 @@
       "id": "q1",
       "prompt": "Which sentence correctly inverts after 'Hardly ever'?",
       "options": [
-        "Hardly ever the question of address is treated as political.",
         "Hardly ever is the question of address treated as a political question, despite the long history of it being precisely that.",
+        "Hardly ever the question of address is treated as political.",
         "The question of address hardly ever is treated as political.",
         "Hardly ever treats anyone the question of address as political."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'Hardly ever' fronts a negative adverbial. Inversion places the passive 'is' before the subject, with 'treated' after.",
       "hint": "Negative adverbial + auxiliary + subject + main verb."
     },
@@ -107,11 +243,11 @@
       "prompt": "Which sentence in the essay is a cleft?",
       "options": [
         "The form is mutual; the permission is not.",
-        "It is the asymmetry of the labour, not the asymmetry of the form, that gives the question its political weight.",
         "The professor uses 'Maria' to the postdoc throughout.",
+        "It is the asymmetry of the labour, not the asymmetry of the form, that gives the question its political weight.",
         "The egalitarian self-description of the workplace continues."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'It is X, not Y, that Z' is the cleft pattern. The essay uses it to shift the source of weight from form to labour.",
       "hint": "Look for 'It is ... not ... that ...'"
     },
@@ -120,11 +256,11 @@
       "prompt": "What does the postdoc's 'small calculation each time' reveal?",
       "options": [
         "Personal anxiety.",
-        "That the cognitive labour of judging when first-name address is licensed has been transferred onto the junior, while the senior is exempt.",
         "Mathematical aptitude.",
-        "Professional inexperience."
+        "Professional inexperience.",
+        "That the cognitive labour of judging when first-name address is licensed has been transferred onto the junior, while the senior is exempt."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay's diagnostic: the junior monitors context constantly; the senior holds the discretion and is freed from the monitoring. The cost is the calculation itself.",
       "hint": "Who has to think; who is exempt from thinking."
     },
@@ -132,12 +268,12 @@
       "id": "q5",
       "prompt": "How does the essay use 'Granted… Even so…'?",
       "options": [
-        "To call for a return to formal titles.",
         "To grant fully that no one wants the old formality back, while restricting the conclusion: the question of address has not been resolved, only redistributed.",
+        "To call for a return to formal titles.",
         "To dismiss the case for informalisation.",
         "To equivocate between formal and informal address."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay does not call for a return to the old system. It concedes the case for informalisation and limits its claim to what informalisation has not achieved.",
       "hint": "Full concession to informalisation; redistributed not resolved."
     },
@@ -159,11 +295,11 @@
       "prompt": "What does the essay say happens when the junior is 'invited to drop the title'?",
       "options": [
         "The hierarchy disappears.",
-        "The invitation is the small permission of the senior — a licensing move performed at the senior's chosen moment, generating a small unrepaid debt.",
         "The senior loses authority.",
+        "The invitation is the small permission of the senior — a licensing move performed at the senior's chosen moment, generating a small unrepaid debt.",
         "The institution publishes a new rule."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay analyses the licensing move as a downward gift that creates a small social debt — gifts of this kind quietly run hierarchical systems.",
       "hint": "Invitation as gift; gift as debt."
     },
@@ -172,11 +308,11 @@
       "prompt": "What does 'a kind of tax' refer to in the essay?",
       "options": [
         "Payroll deductions.",
-        "The cognitive labour of getting address right — paid by juniors, outsiders, newcomers, and foreigners whose standing does not exempt them from the calculation.",
         "Membership fees.",
-        "Tips for service workers."
+        "Tips for service workers.",
+        "The cognitive labour of getting address right — paid by juniors, outsiders, newcomers, and foreigners whose standing does not exempt them from the calculation."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay uses the tax metaphor for an asymmetric cost: those without standing pay the cost of calibration; those with standing do not.",
       "hint": "Asymmetric cognitive cost."
     },
@@ -184,12 +320,12 @@
       "id": "q9",
       "prompt": "What is the essay's view of egalitarian-sounding policies on address?",
       "options": [
-        "They have eliminated hierarchy.",
         "They have changed where the burden sits without changing how heavily it sits, or on whom — the labour of calibration is simply less visible.",
+        "They have eliminated hierarchy.",
         "They are entirely effective.",
         "They are entirely pointless."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay's measured judgment: the policy has done real work (surface symmetry is not nothing) but has not redistributed the underlying labour.",
       "hint": "Burden moved; not reduced."
     },
@@ -211,11 +347,11 @@
       "prompt": "What is the essay's view of the case for some informalisation?",
       "options": [
         "It is wrong.",
-        "It has been made well enough that there is no need to make it again — the essay does not call for a return to old formality.",
         "It is irrelevant.",
+        "It has been made well enough that there is no need to make it again — the essay does not call for a return to old formality.",
         "It is the central question of the essay."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay deliberately concedes the case for informalisation so that the argument can focus on what informalisation has not done — not on whether to undo it.",
       "hint": "Conceded so the argument can move past it."
     },
@@ -224,11 +360,11 @@
       "prompt": "What useful diagnostic question does the essay propose?",
       "options": [
         "How many first names are used per day?",
-        "Who has to decide which name to use, and when?",
         "Whether the policy is written down.",
-        "What language the institution operates in."
+        "What language the institution operates in.",
+        "Who has to decide which name to use, and when?"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay's diagnostic: the person who has to decide is the one paying the tax. Trace the deciders and you trace the residual hierarchy.",
       "hint": "Trace the deciders."
     },
@@ -236,12 +372,12 @@
       "id": "q13",
       "prompt": "What is the essay's narrower claim?",
       "options": [
-        "The question of address is morally indifferent.",
         "The question of who gets called what, by whom, is a political question that the egalitarian language of address has obscured rather than answered, and the obscuring is not random in its distribution.",
+        "The question of address is morally indifferent.",
         "First names should be abolished.",
         "Surnames are always more honest."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay's final restatement: obscured, not answered, and non-randomly distributed. The obscuring is the political act.",
       "hint": "Obscuring is the political act."
     },
@@ -263,11 +399,11 @@
       "prompt": "What does the essay refuse to provide?",
       "options": [
         "Examples.",
-        "A manual — a rule that tells anyone when to use first name, surname, or title.",
         "An argument.",
+        "A manual — a rule that tells anyone when to use first name, surname, or title.",
         "A historical perspective."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay deliberately refuses operational guidance, because the point is not to issue a new rule but to make the existing politics visible.",
       "hint": "No rule, only a diagnostic."
     },
@@ -276,11 +412,11 @@
       "prompt": "What rhetorical purpose does the refusal of false resolution serve?",
       "options": [
         "It signals laziness.",
-        "It preserves the political character of the question rather than dissolving it into a procedural fix — keeping the reader in the discomfort the essay has built.",
         "It is a stylistic accident.",
-        "It admits the essay has failed."
+        "It admits the essay has failed.",
+        "It preserves the political character of the question rather than dissolving it into a procedural fix — keeping the reader in the discomfort the essay has built."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The C1 closing move: name the question, refuse the fix. The reader must continue to do the politics of address, not delegate it to a rulebook.",
       "hint": "Question preserved; fix refused."
     }

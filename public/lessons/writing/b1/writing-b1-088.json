@@ -3,7 +3,11 @@
   "level": "B1",
   "title": "A busy market or an empty park: which is better for thinking?",
   "summary": "Argue whether you think more clearly in a lively, crowded place or in a quiet, empty one, using a specific example from your experience.",
-  "tags": ["Urban life", "Psychology", "Argument"],
+  "tags": [
+    "Urban life",
+    "Psychology",
+    "Argument"
+  ],
   "topic": "Whether a busy market or a quiet park is a better place for thinking",
   "prompt": "Write 3 paragraphs (400–500 words) arguing whether you think more clearly in a busy, stimulating environment or in a quiet, empty one. Use a specific place as an example. Give one reason supporting your choice and address one reason why the other side might appeal to some people. Use the present perfect, conditionals, and opinion phrases.",
   "minWords": 400,
@@ -14,49 +18,171 @@
     "If I had to choose one environment to work through a difficult problem, it would be…"
   ],
   "hintVocab": [
-    { "phrase": "to think clearly", "meaningVi": "suy nghĩ rõ ràng" },
-    { "phrase": "to be distracted", "meaningVi": "bị phân tâm" },
-    { "phrase": "background noise", "meaningVi": "tiếng ồn nền" },
-    { "phrase": "to brainstorm", "meaningVi": "động não, brainstorm", "pronunciation": "/ˈbreɪnstɔːrm/" },
-    { "phrase": "to feel overwhelmed", "meaningVi": "cảm thấy choáng ngợp" },
-    { "phrase": "a stimulating environment", "meaningVi": "môi trường kích thích" },
-    { "phrase": "to block out noise", "meaningVi": "chặn tiếng ồn" },
-    { "phrase": "to lose your train of thought", "meaningVi": "mất mạch suy nghĩ" },
-    { "phrase": "a crowded space", "meaningVi": "không gian đông người" },
-    { "phrase": "mental clarity", "meaningVi": "sự rõ ràng trong tâm trí" },
-    { "phrase": "to focus on a task", "meaningVi": "tập trung vào một nhiệm vụ" },
-    { "phrase": "to thrive in", "meaningVi": "phát triển mạnh trong" },
-    { "phrase": "sensory input", "meaningVi": "đầu vào cảm giác" },
-    { "phrase": "to get stuck", "meaningVi": "bị mắc kẹt, không tiến được" },
-    { "phrase": "to take a walk to clear your head", "meaningVi": "đi bộ để giải tỏa đầu óc" },
-    { "phrase": "to be in the right frame of mind", "meaningVi": "ở trạng thái tâm lý phù hợp" },
-    { "phrase": "to switch off", "meaningVi": "tắt não, nghỉ ngơi tinh thần" },
-    { "phrase": "to feel grounded", "meaningVi": "cảm thấy vững vàng, bình tâm" },
-    { "phrase": "to spark an idea", "meaningVi": "khơi nguồn một ý tưởng" },
-    { "phrase": "to solve a problem", "meaningVi": "giải quyết vấn đề" }
+    {
+      "phrase": "to think clearly",
+      "meaningVi": "suy nghĩ rõ ràng"
+    },
+    {
+      "phrase": "to be distracted",
+      "meaningVi": "bị phân tâm"
+    },
+    {
+      "phrase": "background noise",
+      "meaningVi": "tiếng ồn nền"
+    },
+    {
+      "phrase": "to brainstorm",
+      "meaningVi": "động não, brainstorm",
+      "pronunciation": "/ˈbreɪnstɔːrm/"
+    },
+    {
+      "phrase": "to feel overwhelmed",
+      "meaningVi": "cảm thấy choáng ngợp"
+    },
+    {
+      "phrase": "a stimulating environment",
+      "meaningVi": "môi trường kích thích"
+    },
+    {
+      "phrase": "to block out noise",
+      "meaningVi": "chặn tiếng ồn"
+    },
+    {
+      "phrase": "to lose your train of thought",
+      "meaningVi": "mất mạch suy nghĩ"
+    },
+    {
+      "phrase": "a crowded space",
+      "meaningVi": "không gian đông người"
+    },
+    {
+      "phrase": "mental clarity",
+      "meaningVi": "sự rõ ràng trong tâm trí"
+    },
+    {
+      "phrase": "to focus on a task",
+      "meaningVi": "tập trung vào một nhiệm vụ"
+    },
+    {
+      "phrase": "to thrive in",
+      "meaningVi": "phát triển mạnh trong"
+    },
+    {
+      "phrase": "sensory input",
+      "meaningVi": "đầu vào cảm giác"
+    },
+    {
+      "phrase": "to get stuck",
+      "meaningVi": "bị mắc kẹt, không tiến được"
+    },
+    {
+      "phrase": "to take a walk to clear your head",
+      "meaningVi": "đi bộ để giải tỏa đầu óc"
+    },
+    {
+      "phrase": "to be in the right frame of mind",
+      "meaningVi": "ở trạng thái tâm lý phù hợp"
+    },
+    {
+      "phrase": "to switch off",
+      "meaningVi": "tắt não, nghỉ ngơi tinh thần"
+    },
+    {
+      "phrase": "to feel grounded",
+      "meaningVi": "cảm thấy vững vàng, bình tâm"
+    },
+    {
+      "phrase": "to spark an idea",
+      "meaningVi": "khơi nguồn một ý tưởng"
+    },
+    {
+      "phrase": "to solve a problem",
+      "meaningVi": "giải quyết vấn đề"
+    }
   ],
   "sampleText": "Most people, when they need to think through something difficult, instinctively look for silence. This preference is so common that we treat it as a fact about thinking rather than a preference about comfort. They close the door, put in headphones, find a corner. This makes obvious sense — distractions interrupt the thread of thought and silence gives the mind room to work. I understand the logic, but I have found, over years of working in different places, that it does not apply to me. The environment in which I have consistently thought best is a busy market, or anything with a similar quality of ambient noise and movement.\n\nThe market I have in mind is one in Istanbul, near Karaköy, where I lived for eight months. By mid-morning it was already full — vendors calling out prices, the clatter of trolleys on uneven stone, the smell of bread from two stalls over. I used to sit at a small table outside a tea house at the edge of the market with a notebook, and I found that I could think there in a way that I could not at my desk. Something about the movement around me made my own thoughts feel more mobile — as though ideas could circulate more easily when I was not the only thing in motion. My current theory is that the noise was varied enough to prevent me from focusing on any single sound, and yet constant enough to fill the gap where distraction usually enters. When the room is silent, any small noise — a notification, a door — breaks the surface. In the market, there was no surface to break.\n\nI recognise that this preference is not universal. There are people who have never been able to work in noise, who need the particular stillness of an early morning room or an empty park to do their best thinking. That kind of quiet can be genuinely useful for certain tasks: careful editing, mathematical reasoning, anything that requires slow re-reading. If I were working on something that demanded that level of precision, I might choose an empty park myself. What I am arguing is not that noise is better than silence in some absolute way, but that the assumption that silence is always necessary for thought deserves to be questioned. The best environment for thinking is not the quietest one — it is the one that matches the kind of thinking you are trying to do. Knowing that about yourself is, in a small way, its own kind of knowledge.",
   "sampleAnnotations": [
-    { "phrase": "instinctively look for silence", "meaningVi": "bản năng tìm kiếm sự im lặng" },
-    { "phrase": "interrupt the thread of thought", "meaningVi": "làm gián đoạn mạch suy nghĩ" },
-    { "phrase": "I have found, over years of working", "meaningVi": "tôi đã nhận ra, qua nhiều năm làm việc" },
-    { "phrase": "ambient noise", "meaningVi": "tiếng ồn xung quanh", "pronunciation": "/ˈæmbiənt/" },
-    { "phrase": "the clatter of trolleys on uneven stone", "meaningVi": "tiếng va đập của xe đẩy trên mặt đá lồi lõm" },
-    { "phrase": "at the edge of the market", "meaningVi": "ở rìa chợ" },
-    { "phrase": "varied enough to prevent me from focusing", "meaningVi": "đủ đa dạng để ngăn tôi tập trung vào" },
-    { "phrase": "constant enough to fill the gap", "meaningVi": "đủ liên tục để lấp đầy khoảng trống" },
-    { "phrase": "where distraction usually enters", "meaningVi": "nơi sự phân tâm thường xâm nhập" },
-    { "phrase": "breaks the surface", "meaningVi": "phá vỡ bề mặt" },
-    { "phrase": "this preference is not universal", "meaningVi": "sở thích này không phổ biến" },
-    { "phrase": "the particular stillness of an early morning room", "meaningVi": "sự yên tĩnh đặc biệt của một căn phòng vào sáng sớm" },
-    { "phrase": "careful editing", "meaningVi": "việc chỉnh sửa cẩn thận" },
-    { "phrase": "that level of precision", "meaningVi": "mức độ chính xác đó" },
-    { "phrase": "If I were working on something", "meaningVi": "Nếu tôi đang làm việc với điều gì đó" },
-    { "phrase": "in some absolute way", "meaningVi": "theo một cách tuyệt đối nào đó" },
-    { "phrase": "the assumption that silence is always necessary", "meaningVi": "giả định rằng sự im lặng luôn cần thiết" },
-    { "phrase": "deserves to be questioned", "meaningVi": "xứng đáng được đặt câu hỏi" },
-    { "phrase": "matches the kind of thinking", "meaningVi": "phù hợp với loại tư duy" },
-    { "phrase": "vendors calling out prices", "meaningVi": "người bán hàng rao giá" }
+    {
+      "phrase": "instinctively look for silence",
+      "meaningVi": "bản năng tìm kiếm sự im lặng"
+    },
+    {
+      "phrase": "interrupt the thread of thought",
+      "meaningVi": "làm gián đoạn mạch suy nghĩ"
+    },
+    {
+      "phrase": "I have found, over years of working",
+      "meaningVi": "tôi đã nhận ra, qua nhiều năm làm việc"
+    },
+    {
+      "phrase": "ambient noise",
+      "meaningVi": "tiếng ồn xung quanh",
+      "pronunciation": "/ˈæmbiənt/"
+    },
+    {
+      "phrase": "the clatter of trolleys on uneven stone",
+      "meaningVi": "tiếng va đập của xe đẩy trên mặt đá lồi lõm"
+    },
+    {
+      "phrase": "at the edge of the market",
+      "meaningVi": "ở rìa chợ"
+    },
+    {
+      "phrase": "varied enough to prevent me from focusing",
+      "meaningVi": "đủ đa dạng để ngăn tôi tập trung vào"
+    },
+    {
+      "phrase": "constant enough to fill the gap",
+      "meaningVi": "đủ liên tục để lấp đầy khoảng trống"
+    },
+    {
+      "phrase": "where distraction usually enters",
+      "meaningVi": "nơi sự phân tâm thường xâm nhập"
+    },
+    {
+      "phrase": "breaks the surface",
+      "meaningVi": "phá vỡ bề mặt"
+    },
+    {
+      "phrase": "this preference is not universal",
+      "meaningVi": "sở thích này không phổ biến"
+    },
+    {
+      "phrase": "the particular stillness of an early morning room",
+      "meaningVi": "sự yên tĩnh đặc biệt của một căn phòng vào sáng sớm"
+    },
+    {
+      "phrase": "careful editing",
+      "meaningVi": "việc chỉnh sửa cẩn thận"
+    },
+    {
+      "phrase": "that level of precision",
+      "meaningVi": "mức độ chính xác đó"
+    },
+    {
+      "phrase": "If I were working on something",
+      "meaningVi": "Nếu tôi đang làm việc với điều gì đó"
+    },
+    {
+      "phrase": "in some absolute way",
+      "meaningVi": "theo một cách tuyệt đối nào đó"
+    },
+    {
+      "phrase": "the assumption that silence is always necessary",
+      "meaningVi": "giả định rằng sự im lặng luôn cần thiết"
+    },
+    {
+      "phrase": "deserves to be questioned",
+      "meaningVi": "xứng đáng được đặt câu hỏi"
+    },
+    {
+      "phrase": "matches the kind of thinking",
+      "meaningVi": "phù hợp với loại tư duy"
+    },
+    {
+      "phrase": "vendors calling out prices",
+      "meaningVi": "người bán hàng rao giá"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -76,12 +202,12 @@
       "id": "q1",
       "prompt": "Which sentence correctly uses the present perfect with 'over years of' as an experience phrase?",
       "options": [
-        "I have found, over years of working, that noise suits me better.",
         "I found, over years of working, that noise suits me better.",
         "I have been find, over years of working, that noise suits me better.",
-        "I have finded, over years of working, that noise suits me better."
+        "I have finded, over years of working, that noise suits me better.",
+        "I have found, over years of working, that noise suits me better."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'Have found' is the correct present perfect. Simple past 'found' loses the connection to accumulated ongoing experience. 'Have been find' is not the present perfect progressive. 'Finded' is not the past participle of 'find' — it is 'found'.",
       "hint": "The past participle of 'find' is 'found', not 'finded'."
     },
@@ -102,12 +228,12 @@
       "id": "q3",
       "prompt": "Which sentence uses the second conditional correctly with 'were' for a formal hypothetical?",
       "options": [
-        "If I were working on something that demanded precision, I might choose differently.",
         "If I was working on something that demanded precision, I might choose differently.",
+        "If I were working on something that demanded precision, I might choose differently.",
         "If I were working on something that demands precision, I might choose differently.",
         "If I were working on something that demanded precision, I may choose differently."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'Were' is the formal second conditional form for 'I'. 'Was' is informal/colloquial. The 'that' clause should stay in the past ('demanded') to match the hypothetical frame. 'May' is possible but 'might' is more appropriate for a more remote hypothetical in second conditional.",
       "hint": "In formal second conditionals, use 'were' for 'I' and keep 'might' (not 'may') in the result."
     },
@@ -115,12 +241,12 @@
       "id": "q4",
       "prompt": "Which sentence uses 'deserve' correctly with a passive infinitive?",
       "options": [
-        "The assumption deserves to be questioned.",
         "The assumption deserves to be questioning.",
         "The assumption deserves being questioned.",
+        "The assumption deserves to be questioned.",
         "The assumption deserves question."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Deserve to be + past participle' is the standard passive infinitive construction. 'Deserves to be questioning' uses a progressive where a state is needed. 'Deserves being questioned' is grammatically possible but less standard. 'Deserves question' is missing the infinitive entirely.",
       "hint": "'Deserve' in formal writing is followed by 'to be + past participle' for passive meaning."
     },
@@ -128,12 +254,12 @@
       "id": "q5",
       "prompt": "Which phrase correctly expresses that a quality is sufficient to cause a result?",
       "options": [
-        "varied enough to prevent distraction",
         "enough varied to prevent distraction",
         "varied enough for prevent distraction",
-        "varied enough preventing distraction"
+        "varied enough preventing distraction",
+        "varied enough to prevent distraction"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'Adjective + enough + to + infinitive' is the standard pattern. 'Enough + adjective' reverses the standard order. 'For + base verb' and 'enough + -ing' are both ungrammatical in this structure.",
       "hint": "'Enough' follows the adjective and is followed by 'to + base verb'."
     },
@@ -154,12 +280,12 @@
       "id": "q7",
       "prompt": "Which sentence uses 'although' correctly to concede a point before arguing against it?",
       "options": [
-        "Although many people need silence to think, some work better in noise.",
         "Although many people need silence to think, but some work better in noise.",
+        "Although many people need silence to think, some work better in noise.",
         "Although many people need silence to think. Some work better in noise.",
         "Although many people needs silence to think, some work better in noise."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'Although + clause, main clause' — no 'but' after the comma, no period mid-sentence splitting the concession from its consequence. 'Many people needs' has wrong subject-verb agreement.",
       "hint": "'Although' introduces a subordinate clause; 'but' is redundant and incorrect after the comma."
     },
@@ -167,12 +293,12 @@
       "id": "q8",
       "prompt": "Which sentence correctly uses 'what I am arguing' as a cleft structure?",
       "options": [
-        "What I am arguing is not that noise is better, but that the assumption deserves to be questioned.",
         "What I am arguing is not that noise is better, but the assumption deserves to be questioned.",
         "What I am arguing is not that noise is better, but questioning the assumption.",
+        "What I am arguing is not that noise is better, but that the assumption deserves to be questioned.",
         "What I argue is not that noise is better, but that the assumption deserves to be questioned."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "The cleft 'What I am arguing is not X, but Y' needs parallel structure: 'not that…, but that…'. Dropping 'that' in the second clause breaks the parallel. Using a gerund phrase ('questioning') is not parallel with 'that clause'. 'What I argue' (present simple) is grammatical but less immediate than 'What I am arguing'.",
       "hint": "In 'not X, but Y' structures, X and Y should be grammatically parallel — both 'that' clauses here."
     },
@@ -180,12 +306,12 @@
       "id": "q9",
       "prompt": "Which sentence uses 'match' correctly in a relative clause?",
       "options": [
-        "The best environment is the one that matches the kind of thinking you are doing.",
         "The best environment is the one that match the kind of thinking you are doing.",
         "The best environment is the one which matching the kind of thinking you are doing.",
-        "The best environment is the one matches the kind of thinking you are doing."
+        "The best environment is the one matches the kind of thinking you are doing.",
+        "The best environment is the one that matches the kind of thinking you are doing."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'The one that matches' — the relative pronoun 'that' is followed by a third-person singular verb ('matches'). 'That match' misses the agreement. 'Which matching' uses a participle where a finite verb is needed. 'The one matches' without a relative pronoun is informal/non-standard.",
       "hint": "In a relative clause after 'the one', use 'that' + third-person singular verb."
     },
@@ -206,12 +332,12 @@
       "id": "q11",
       "prompt": "Which sentence correctly uses 'in some absolute way' as a manner phrase?",
       "options": [
-        "I am not arguing that noise is better in some absolute way.",
         "I am not arguing that noise is better in some absolutely way.",
+        "I am not arguing that noise is better in some absolute way.",
         "I am not arguing that noise is better in some way absolute.",
         "I am not arguing that noise is better on some absolute way."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'In some absolute way' uses the adjective 'absolute' before the noun 'way'. 'Absolutely' is an adverb and does not modify a noun. 'In some way absolute' reverses the adjective-noun order in an unnatural way. 'On some absolute way' uses the wrong preposition.",
       "hint": "Adjectives come before nouns in English; the preposition for 'manner/method' is 'in'."
     }

@@ -159,12 +159,6 @@
       "exampleEn": "The mental cost of constantly seeking approval is high."
     },
     {
-      "phrase": "imposed and added yourself",
-      "meaningVi": "áp đặt từ ngoài và tự mình thêm vào",
-      "pronunciation": "/ɪmˈpəʊzd ən ˈædɪd jɔːˈself/",
-      "exampleEn": "Identify which constraints are imposed and which you've added yourself."
-    },
-    {
       "phrase": "confronting thought",
       "meaningVi": "ý nghĩ khiến phải đối diện thẳng (với bản thân)",
       "pronunciation": "/kənˈfrʌntɪŋ θɔːt/",
@@ -226,11 +220,11 @@
       "prompt": "Why did the client come to therapy?",
       "options": [
         "Her family told her to",
-        "Her doctor said she was burnt out",
         "She lost her job",
-        "She had a panic attack"
+        "She had a panic attack",
+        "Her doctor said she was burnt out"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The client says 'my doctor said I was burnt out.'",
       "hint": "A specific external reason is given."
     },
@@ -238,12 +232,12 @@
       "id": "q2",
       "prompt": "What kind of tiredness does the client describe?",
       "options": [
-        "Tiredness after a long week",
         "The kind that doesn't go away even after eight hours of sleep",
+        "Tiredness after a long week",
         "Sudden exhaustion after exercise",
         "Mid-afternoon dips"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The client says 'I sleep eight hours and I still feel as if I haven't slept.'",
       "hint": "Sleep does not restore her."
     },
@@ -265,11 +259,11 @@
       "prompt": "How does the therapist redefine burnout?",
       "options": [
         "Long stress with recovery",
-        "The result of long stress without recovery",
         "Lack of sleep alone",
+        "The result of long stress without recovery",
         "Working over forty hours a week"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The therapist says burnout is 'the result of long stress without recovery.'",
       "hint": "Two elements — stress and absent recovery — are contrasted."
     },
@@ -278,11 +272,11 @@
       "prompt": "Why doesn't time off automatically refill the reserve?",
       "options": [
         "Because holidays are too short",
-        "Because if you spend the holiday worrying about work, the demand is still present",
         "Because the body needs work to recover",
-        "Because rest is impossible to schedule"
+        "Because rest is impossible to schedule",
+        "Because if you spend the holiday worrying about work, the demand is still present"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The therapist says 'If you go on holiday but spend the whole week worrying about work, the time has cost you money without restoring anything.'",
       "hint": "The demand follows you even on holiday."
     },
@@ -290,12 +284,12 @@
       "id": "q6",
       "prompt": "What three factors does the therapist say drive burnout?",
       "options": [
-        "Salary, hours, and commute",
         "Workload, autonomy, and meaning",
+        "Salary, hours, and commute",
         "Family, health, and finances",
         "Sleep, diet, and exercise"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The therapist says 'Workload is the easy one... Autonomy... Meaning.'",
       "hint": "Three workplace dimensions are listed."
     },
@@ -317,11 +311,11 @@
       "prompt": "Why does loss of autonomy show up as exhaustion?",
       "options": [
         "Because tired employees lose autonomy first",
-        "Because the mental cost of constantly seeking approval is higher than the cost of the work itself",
         "Because employees have to work longer hours without it",
+        "Because the mental cost of constantly seeking approval is higher than the cost of the work itself",
         "Because it lowers salary"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The therapist says 'the mental cost of constantly seeking approval is higher than the cost of the work itself.'",
       "hint": "The cost is mental, not physical."
     },
@@ -330,11 +324,11 @@
       "prompt": "What does the therapist say about which constraints are imposed?",
       "options": [
         "All constraints are imposed by managers",
-        "Some of what feels like external control is actually internal — you may be asking permission for things no one would deny",
         "All constraints are imposed by the law",
-        "There are no real constraints"
+        "There are no real constraints",
+        "Some of what feels like external control is actually internal — you may be asking permission for things no one would deny"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The therapist says 'Some of what feels like external control is internal. You may be asking permission for things that no one would deny.'",
       "hint": "The therapist identifies a self-imposed pattern."
     },
@@ -342,12 +336,12 @@
       "id": "q10",
       "prompt": "What four early signals does the therapist name?",
       "options": [
-        "Headaches, weight gain, anger, debt",
         "Poor sleep, irritability with small things, loss of interest outside work, a creeping sense of being behind",
+        "Headaches, weight gain, anger, debt",
         "Crying, oversleeping, overeating, withdrawal",
         "Anxiety, panic attacks, depression, dizziness"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The therapist lists 'poor sleep, irritability with small things, loss of interest in things you used to enjoy outside work, and a creeping sense that you're behind.'",
       "hint": "Four specific symptoms are listed in order."
     },
@@ -356,11 +350,11 @@
       "prompt": "How many of those signals did the client have six months ago?",
       "options": [
         "One",
+        "All four",
         "Two",
-        "Three",
-        "All four"
+        "Three"
       ],
-      "answerIndex": 3,
+      "answerIndex": 1,
       "explanation": "The client says 'I had all four six months ago.'",
       "hint": "She names a specific count."
     },
@@ -369,11 +363,11 @@
       "prompt": "What practical task does the therapist set for the client this week?",
       "options": [
         "Take a week of holiday",
-        "Make a list of decisions she asks permission for and pick one to stop asking about",
         "Resign from her job",
+        "Make a list of decisions she asks permission for and pick one to stop asking about",
         "Sleep nine hours every night"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The therapist says 'make a list of decisions you ask permission for, and pick one to stop asking about.'",
       "hint": "It is a specific, small intervention."
     },
@@ -382,11 +376,11 @@
       "prompt": "What overall view of burnout recovery does the therapist convey?",
       "options": [
         "Burnout is permanent and untreatable",
-        "Burnout can be acutely treated, but the tendency may stay; lasting recovery requires changing the cause, not just resting",
         "Burnout will fix itself in time",
-        "Only medication will work"
+        "Only medication will work",
+        "Burnout can be acutely treated, but the tendency may stay; lasting recovery requires changing the cause, not just resting"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The therapist says 'The acute version is treatable... The underlying tendency, if you have one, tends to stay' and that a holiday only helps 'after you've changed what brought you here.'",
       "hint": "Combine her remarks on acute vs underlying with the closing point about holidays."
     }

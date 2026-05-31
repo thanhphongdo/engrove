@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "Is a notification a gift of connection or a theft of attention?",
   "summary": "Analyse what a single notification actually does to us, and whether the same alert can be a gift or a theft depending on who controls it.",
-  "tags": ["Technology", "Attention", "Analysis", "Society"],
+  "tags": [
+    "Technology",
+    "Attention",
+    "Analysis",
+    "Society"
+  ],
   "topic": "Whether notifications connect us or rob us of attention",
   "prompt": "Write a 450–600-word essay analysing whether a notification is mainly a gift of connection or a theft of attention. Use at least two concrete examples, acknowledge a case where the alert is genuinely a gift, and use cleft sentences, the passive, and hedged generalisation.",
   "minWords": 450,
@@ -15,60 +20,222 @@
     "The deciding question is not what the notification contains but who decided it should arrive…"
   ],
   "hintVocab": [
-    { "phrase": "a notification", "meaningVi": "một thông báo", "pronunciation": "/ˌnəʊ.tɪ.fɪˈkeɪ.ʃən/" },
-    { "phrase": "an alert", "meaningVi": "một cảnh báo / lời nhắc", "pronunciation": "/əˈlɜːt/" },
-    { "phrase": "to interrupt", "meaningVi": "ngắt quãng / cắt ngang", "pronunciation": "/ˌɪn.təˈrʌpt/" },
-    { "phrase": "attention", "meaningVi": "sự chú ý", "pronunciation": "/əˈten.ʃən/" },
-    { "phrase": "to reclaim focus", "meaningVi": "lấy lại sự tập trung" },
-    { "phrase": "a context switch", "meaningVi": "một lần chuyển bối cảnh / chuyển việc" },
-    { "phrase": "attention residue", "meaningVi": "dư âm chú ý / phần tâm trí còn vương lại" },
-    { "phrase": "to be summoned", "meaningVi": "bị triệu hồi / bị gọi đến", "pronunciation": "/ˈsʌm.ənd/" },
-    { "phrase": "a gift of connection", "meaningVi": "một món quà của sự kết nối" },
-    { "phrase": "a theft of attention", "meaningVi": "một sự đánh cắp chú ý" },
-    { "phrase": "to be on someone's terms", "meaningVi": "theo điều kiện / ý muốn của ai đó" },
-    { "phrase": "intrusive", "meaningVi": "xâm phạm / quấy rầy", "pronunciation": "/ɪnˈtruː.sɪv/" },
-    { "phrase": "a flow state", "meaningVi": "trạng thái dòng chảy / nhập tâm" },
-    { "phrase": "to fragment the day", "meaningVi": "làm vụn vỡ một ngày" },
-    { "phrase": "to be engineered to demand", "meaningVi": "được thiết kế để đòi hỏi" },
-    { "phrase": "the recipient", "meaningVi": "người nhận", "pronunciation": "/rɪˈsɪp.i.ənt/" },
-    { "phrase": "to consent to", "meaningVi": "đồng ý với / cho phép", "pronunciation": "/kənˈsent/" },
-    { "phrase": "a hidden transaction", "meaningVi": "một giao dịch ngầm" },
-    { "phrase": "to recover concentration", "meaningVi": "khôi phục sự tập trung" },
-    { "phrase": "to ping", "meaningVi": "reo lên / phát tín hiệu (báo)" },
-    { "phrase": "asymmetry of power", "meaningVi": "sự bất đối xứng về quyền lực", "pronunciation": "/eɪˈsɪm.ə.tri/" },
-    { "phrase": "to dictate the moment", "meaningVi": "áp đặt thời điểm" },
-    { "phrase": "to drain focus", "meaningVi": "rút cạn sự tập trung" },
-    { "phrase": "on demand", "meaningVi": "theo yêu cầu / khi cần đến" },
-    { "phrase": "to set the terms", "meaningVi": "đặt ra điều kiện / luật chơi" }
+    {
+      "phrase": "a notification",
+      "meaningVi": "một thông báo",
+      "pronunciation": "/ˌnəʊ.tɪ.fɪˈkeɪ.ʃən/"
+    },
+    {
+      "phrase": "an alert",
+      "meaningVi": "một cảnh báo / lời nhắc",
+      "pronunciation": "/əˈlɜːt/"
+    },
+    {
+      "phrase": "to interrupt",
+      "meaningVi": "ngắt quãng / cắt ngang",
+      "pronunciation": "/ˌɪn.təˈrʌpt/"
+    },
+    {
+      "phrase": "attention",
+      "meaningVi": "sự chú ý",
+      "pronunciation": "/əˈten.ʃən/"
+    },
+    {
+      "phrase": "to reclaim focus",
+      "meaningVi": "lấy lại sự tập trung"
+    },
+    {
+      "phrase": "a context switch",
+      "meaningVi": "một lần chuyển bối cảnh / chuyển việc"
+    },
+    {
+      "phrase": "attention residue",
+      "meaningVi": "dư âm chú ý / phần tâm trí còn vương lại"
+    },
+    {
+      "phrase": "to be summoned",
+      "meaningVi": "bị triệu hồi / bị gọi đến",
+      "pronunciation": "/ˈsʌm.ənd/"
+    },
+    {
+      "phrase": "a gift of connection",
+      "meaningVi": "một món quà của sự kết nối"
+    },
+    {
+      "phrase": "a theft of attention",
+      "meaningVi": "một sự đánh cắp chú ý"
+    },
+    {
+      "phrase": "to be on someone's terms",
+      "meaningVi": "theo điều kiện / ý muốn của ai đó"
+    },
+    {
+      "phrase": "intrusive",
+      "meaningVi": "xâm phạm / quấy rầy",
+      "pronunciation": "/ɪnˈtruː.sɪv/"
+    },
+    {
+      "phrase": "a flow state",
+      "meaningVi": "trạng thái dòng chảy / nhập tâm"
+    },
+    {
+      "phrase": "to fragment the day",
+      "meaningVi": "làm vụn vỡ một ngày"
+    },
+    {
+      "phrase": "to be engineered to demand",
+      "meaningVi": "được thiết kế để đòi hỏi"
+    },
+    {
+      "phrase": "the recipient",
+      "meaningVi": "người nhận",
+      "pronunciation": "/rɪˈsɪp.i.ənt/"
+    },
+    {
+      "phrase": "to consent to",
+      "meaningVi": "đồng ý với / cho phép",
+      "pronunciation": "/kənˈsent/"
+    },
+    {
+      "phrase": "a hidden transaction",
+      "meaningVi": "một giao dịch ngầm"
+    },
+    {
+      "phrase": "to recover concentration",
+      "meaningVi": "khôi phục sự tập trung"
+    },
+    {
+      "phrase": "to ping",
+      "meaningVi": "reo lên / phát tín hiệu (báo)"
+    },
+    {
+      "phrase": "asymmetry of power",
+      "meaningVi": "sự bất đối xứng về quyền lực",
+      "pronunciation": "/eɪˈsɪm.ə.tri/"
+    },
+    {
+      "phrase": "to dictate the moment",
+      "meaningVi": "áp đặt thời điểm"
+    },
+    {
+      "phrase": "to drain focus",
+      "meaningVi": "rút cạn sự tập trung"
+    },
+    {
+      "phrase": "on demand",
+      "meaningVi": "theo yêu cầu / khi cần đến"
+    },
+    {
+      "phrase": "to set the terms",
+      "meaningVi": "đặt ra điều kiện / luật chơi"
+    }
   ],
   "sampleText": "A phone buzzes on a desk in Nairobi, and for a quarter of a second a thousand miles of distance collapse. Someone, somewhere, has reached across the world to say: I am thinking of you. Framed that way, a notification is a small miracle, and the marketing that sells it to us is not entirely wrong. Yet the same buzz has a second face, and the trick of analysing it is to hold both at once.\n\nConsider what the alert actually costs. It looks like it asks for two seconds — a glance, a thumb, back to work. But attention does not switch cleanly. Research on interruptions suggests that after a single break it can take many minutes to return fully to a demanding task, and the deeper the concentration, the higher the toll. What an alert actually takes, then, is rarely the few seconds it seems to cost; it is the slow climb back up to where you were. A day broken into forty small interruptions is not a day with forty short pauses. It is a day that never reaches depth at all.\n\nThis is why the framing of \"connection\" can mislead. A notification is presented as a message from a person, but most are not. The bank, the shopping app, the game you stopped playing weeks ago — these are engineered to demand a glance, and the glance is the product. What is being delivered in most alerts is not a friend's voice but a manufactured prompt designed to pull you back. The connection is real perhaps one time in ten; the interruption is real every time.\n\nGranted, some notifications are pure gift, and any honest analysis has to admit it. The call from the hospital you have been waiting on, the message from a child who has landed safely, the alert that your visa was approved — for these, you would gladly pay a hundred interruptions. To dismiss all notifications as theft would be as foolish as to celebrate them all as connection. The category is simply too broad to judge at once.\n\nWhat sorts the gift from the theft, on closer inspection, is not the content of the alert but the question of who decided it should arrive now. A notification you have consented to, on your terms — a daily summary at an hour you chose, a message from a short list of people who matter — is closer to a gift, because the timing was yours. A notification engineered to interrupt you the moment you might otherwise have looked away is closer to a theft, because the timing was someone else's, and chosen against you. Same buzz, opposite transaction. The difference lives entirely in who holds the controls.\n\nThis reframes the whole problem. The complaint is not really about notifications; it is about an asymmetry of power. We have handed strangers the right to summon our attention at will, then wondered why our days feel fragmented. The remedy is not to disconnect, which is neither possible nor desirable, but to take back the timing — to decide, deliberately, who is allowed to interrupt us and when. A notification is neither gift nor theft by nature. It becomes one or the other the moment we answer a simpler question: whose moment is this, mine or the machine's?",
   "sampleAnnotations": [
-    { "phrase": "for a quarter of a second a thousand miles of distance collapse", "meaningVi": "trong một phần tư giây, một nghìn dặm khoảng cách sụp đổ" },
-    { "phrase": "Someone, somewhere, has reached across the world to say: I am thinking of you", "meaningVi": "Một ai đó, ở một nơi nào đó, đã vươn tay qua cả thế giới để nói: tôi đang nghĩ về bạn" },
-    { "phrase": "the trick of analysing it is to hold both at once", "meaningVi": "bí quyết để phân tích nó là giữ cả hai mặt cùng một lúc" },
-    { "phrase": "attention does not switch cleanly", "meaningVi": "sự chú ý không chuyển một cách gọn gàng" },
-    { "phrase": "the deeper the concentration, the higher the toll", "meaningVi": "sự tập trung càng sâu thì cái giá phải trả càng cao" },
-    { "phrase": "What an alert actually takes, then, is rarely the few seconds it seems to cost; it is the slow climb back up to where you were", "meaningVi": "Vậy thì, thứ mà một lời nhắc thực sự lấy đi hiếm khi là vài giây mà nó có vẻ tiêu tốn; đó là sự leo trở lại chậm chạp về nơi bạn đã ở" },
-    { "phrase": "A day broken into forty small interruptions is not a day with forty short pauses", "meaningVi": "Một ngày bị xé thành bốn mươi lần ngắt quãng nhỏ không phải là một ngày có bốn mươi quãng nghỉ ngắn" },
-    { "phrase": "It is a day that never reaches depth at all", "meaningVi": "Đó là một ngày chẳng bao giờ chạm tới chiều sâu nào cả" },
-    { "phrase": "the framing of \"connection\" can mislead", "meaningVi": "cách đóng khung là \"sự kết nối\" có thể đánh lừa" },
-    { "phrase": "these are engineered to demand a glance, and the glance is the product", "meaningVi": "những thứ này được thiết kế để đòi hỏi một cái liếc mắt, và cái liếc mắt ấy chính là sản phẩm" },
-    { "phrase": "What is being delivered in most alerts is not a friend's voice but a manufactured prompt designed to pull you back", "meaningVi": "Thứ đang được chuyển đến trong phần lớn các lời nhắc không phải là giọng nói của một người bạn mà là một lời nhắc được chế tạo nhằm kéo bạn quay lại" },
-    { "phrase": "The connection is real perhaps one time in ten; the interruption is real every time", "meaningVi": "Sự kết nối là thật có lẽ một trên mười lần; sự ngắt quãng là thật mọi lần" },
-    { "phrase": "Granted, some notifications are pure gift, and any honest analysis has to admit it", "meaningVi": "Công nhận, một số thông báo là món quà thuần túy, và bất kỳ phân tích trung thực nào cũng phải thừa nhận điều đó" },
-    { "phrase": "for these, you would gladly pay a hundred interruptions", "meaningVi": "vì những điều này, bạn sẽ vui lòng trả giá bằng một trăm lần ngắt quãng" },
-    { "phrase": "The category is simply too broad to judge at once", "meaningVi": "Phạm trù này đơn giản là quá rộng để phán xét cùng một lúc" },
-    { "phrase": "What sorts the gift from the theft, on closer inspection, is not the content of the alert but the question of who decided it should arrive now", "meaningVi": "Điều phân loại món quà khỏi sự đánh cắp, khi xem xét kỹ hơn, không phải là nội dung của lời nhắc mà là câu hỏi ai đã quyết định nó nên đến vào lúc này" },
-    { "phrase": "A notification you have consented to, on your terms", "meaningVi": "Một thông báo mà bạn đã đồng ý nhận, theo điều kiện của bạn" },
-    { "phrase": "the timing was someone else's, and chosen against you", "meaningVi": "thời điểm là của một người khác, và được chọn để chống lại bạn" },
-    { "phrase": "Same buzz, opposite transaction", "meaningVi": "Cùng một tiếng rung, giao dịch trái ngược" },
-    { "phrase": "The difference lives entirely in who holds the controls", "meaningVi": "Sự khác biệt nằm hoàn toàn ở việc ai nắm quyền điều khiển" },
-    { "phrase": "it is about an asymmetry of power", "meaningVi": "nó là về một sự bất đối xứng về quyền lực" },
-    { "phrase": "We have handed strangers the right to summon our attention at will", "meaningVi": "Chúng ta đã trao cho người lạ quyền triệu hồi sự chú ý của ta tùy thích" },
-    { "phrase": "whose moment is this, mine or the machine's", "meaningVi": "đây là khoảnh khắc của ai, của tôi hay của cỗ máy" },
-    { "phrase": "the marketing that sells it to us is not entirely wrong", "meaningVi": "lời quảng cáo bán nó cho ta không hoàn toàn sai" },
-    { "phrase": "A notification is presented as a message from a person, but most are not", "meaningVi": "Một thông báo được trình bày như một tin nhắn từ một con người, nhưng phần lớn thì không" },
-    { "phrase": "then wondered why our days feel fragmented", "meaningVi": "rồi lại thắc mắc vì sao những ngày của ta cảm thấy vụn vỡ" }
+    {
+      "phrase": "for a quarter of a second a thousand miles of distance collapse",
+      "meaningVi": "trong một phần tư giây, một nghìn dặm khoảng cách sụp đổ"
+    },
+    {
+      "phrase": "Someone, somewhere, has reached across the world to say: I am thinking of you",
+      "meaningVi": "Một ai đó, ở một nơi nào đó, đã vươn tay qua cả thế giới để nói: tôi đang nghĩ về bạn"
+    },
+    {
+      "phrase": "the trick of analysing it is to hold both at once",
+      "meaningVi": "bí quyết để phân tích nó là giữ cả hai mặt cùng một lúc"
+    },
+    {
+      "phrase": "attention does not switch cleanly",
+      "meaningVi": "sự chú ý không chuyển một cách gọn gàng"
+    },
+    {
+      "phrase": "the deeper the concentration, the higher the toll",
+      "meaningVi": "sự tập trung càng sâu thì cái giá phải trả càng cao"
+    },
+    {
+      "phrase": "What an alert actually takes, then, is rarely the few seconds it seems to cost; it is the slow climb back up to where you were",
+      "meaningVi": "Vậy thì, thứ mà một lời nhắc thực sự lấy đi hiếm khi là vài giây mà nó có vẻ tiêu tốn; đó là sự leo trở lại chậm chạp về nơi bạn đã ở"
+    },
+    {
+      "phrase": "A day broken into forty small interruptions is not a day with forty short pauses",
+      "meaningVi": "Một ngày bị xé thành bốn mươi lần ngắt quãng nhỏ không phải là một ngày có bốn mươi quãng nghỉ ngắn"
+    },
+    {
+      "phrase": "It is a day that never reaches depth at all",
+      "meaningVi": "Đó là một ngày chẳng bao giờ chạm tới chiều sâu nào cả"
+    },
+    {
+      "phrase": "the framing of \"connection\" can mislead",
+      "meaningVi": "cách đóng khung là \"sự kết nối\" có thể đánh lừa"
+    },
+    {
+      "phrase": "these are engineered to demand a glance, and the glance is the product",
+      "meaningVi": "những thứ này được thiết kế để đòi hỏi một cái liếc mắt, và cái liếc mắt ấy chính là sản phẩm"
+    },
+    {
+      "phrase": "What is being delivered in most alerts is not a friend's voice but a manufactured prompt designed to pull you back",
+      "meaningVi": "Thứ đang được chuyển đến trong phần lớn các lời nhắc không phải là giọng nói của một người bạn mà là một lời nhắc được chế tạo nhằm kéo bạn quay lại"
+    },
+    {
+      "phrase": "The connection is real perhaps one time in ten; the interruption is real every time",
+      "meaningVi": "Sự kết nối là thật có lẽ một trên mười lần; sự ngắt quãng là thật mọi lần"
+    },
+    {
+      "phrase": "Granted, some notifications are pure gift, and any honest analysis has to admit it",
+      "meaningVi": "Công nhận, một số thông báo là món quà thuần túy, và bất kỳ phân tích trung thực nào cũng phải thừa nhận điều đó"
+    },
+    {
+      "phrase": "for these, you would gladly pay a hundred interruptions",
+      "meaningVi": "vì những điều này, bạn sẽ vui lòng trả giá bằng một trăm lần ngắt quãng"
+    },
+    {
+      "phrase": "The category is simply too broad to judge at once",
+      "meaningVi": "Phạm trù này đơn giản là quá rộng để phán xét cùng một lúc"
+    },
+    {
+      "phrase": "What sorts the gift from the theft, on closer inspection, is not the content of the alert but the question of who decided it should arrive now",
+      "meaningVi": "Điều phân loại món quà khỏi sự đánh cắp, khi xem xét kỹ hơn, không phải là nội dung của lời nhắc mà là câu hỏi ai đã quyết định nó nên đến vào lúc này"
+    },
+    {
+      "phrase": "A notification you have consented to, on your terms",
+      "meaningVi": "Một thông báo mà bạn đã đồng ý nhận, theo điều kiện của bạn"
+    },
+    {
+      "phrase": "the timing was someone else's, and chosen against you",
+      "meaningVi": "thời điểm là của một người khác, và được chọn để chống lại bạn"
+    },
+    {
+      "phrase": "Same buzz, opposite transaction",
+      "meaningVi": "Cùng một tiếng rung, giao dịch trái ngược"
+    },
+    {
+      "phrase": "The difference lives entirely in who holds the controls",
+      "meaningVi": "Sự khác biệt nằm hoàn toàn ở việc ai nắm quyền điều khiển"
+    },
+    {
+      "phrase": "it is about an asymmetry of power",
+      "meaningVi": "nó là về một sự bất đối xứng về quyền lực"
+    },
+    {
+      "phrase": "We have handed strangers the right to summon our attention at will",
+      "meaningVi": "Chúng ta đã trao cho người lạ quyền triệu hồi sự chú ý của ta tùy thích"
+    },
+    {
+      "phrase": "whose moment is this, mine or the machine's",
+      "meaningVi": "đây là khoảnh khắc của ai, của tôi hay của cỗ máy"
+    },
+    {
+      "phrase": "the marketing that sells it to us is not entirely wrong",
+      "meaningVi": "lời quảng cáo bán nó cho ta không hoàn toàn sai"
+    },
+    {
+      "phrase": "A notification is presented as a message from a person, but most are not",
+      "meaningVi": "Một thông báo được trình bày như một tin nhắn từ một con người, nhưng phần lớn thì không"
+    },
+    {
+      "phrase": "then wondered why our days feel fragmented",
+      "meaningVi": "rồi lại thắc mắc vì sao những ngày của ta cảm thấy vụn vỡ"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -88,12 +255,12 @@
       "id": "q1",
       "prompt": "Which sentence uses a 'what' cleft to redirect from the apparent cost to the real one?",
       "options": [
-        "What an alert actually takes is rarely the few seconds it seems to cost; it is the slow climb back up to where you were.",
         "An alert takes the few seconds what it seems but the slow climb back is rarely.",
         "Rarely the seconds is what an alert takes but the climb back up to seems cost.",
+        "What an alert actually takes is rarely the few seconds it seems to cost; it is the slow climb back up to where you were.",
         "The slow climb is what an alert seems to cost rarely the few seconds it takes."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'What an alert actually takes … is …' is a what-cleft shifting focus from the seeming cost (seconds) to the real one (the climb back).",
       "hint": "Look for 'What an alert actually takes … is …'."
     },
@@ -102,11 +269,11 @@
       "prompt": "Which sentence concedes that some notifications are genuine gifts, in fitting register?",
       "options": [
         "Some notifications are okay I guess but honestly most are just garbage anyway.",
-        "Granted, some notifications are pure gift, and any honest analysis has to admit it.",
         "On the contrary, every notification is always a theft with no exceptions ever.",
-        "Notifications and stuff are sometimes fine, whatever, who really cares about it."
+        "Notifications and stuff are sometimes fine, whatever, who really cares about it.",
+        "Granted, some notifications are pure gift, and any honest analysis has to admit it."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "Option B concedes a real category of gift notifications and commits the analysis to admitting it, in formal language.",
       "hint": "Which option admits the opposing case clearly and without slang?"
     },
@@ -114,12 +281,12 @@
       "id": "q3",
       "prompt": "Which option uses the passive to foreground what is delivered, not who sends it?",
       "options": [
-        "Companies send manufactured prompts to pull you back instead of friends' voices.",
         "What is being delivered in most alerts is not a friend's voice but a manufactured prompt designed to pull you back.",
+        "Companies send manufactured prompts to pull you back instead of friends' voices.",
         "Delivering prompts is what companies do not a friend's voice to pull you back.",
         "A manufactured prompt companies are delivering most alerts not a friend's voice in."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'What is being delivered … is not … but …' uses the passive to centre the nature of the alert, hiding the agent.",
       "hint": "Which option avoids naming who sends, using 'is being delivered'?"
     },
@@ -141,11 +308,11 @@
       "prompt": "According to the essay, why is a day of forty interruptions not just a day with forty short pauses?",
       "options": [
         "Because forty is too many to count",
-        "Because each interruption forces a slow climb back, so the day never reaches depth",
         "Because pauses are always relaxing",
+        "Because each interruption forces a slow climb back, so the day never reaches depth",
         "Because notifications use too much battery"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay says such a day 'never reaches depth at all' because attention does not switch back cleanly.",
       "hint": "Reread the sentence about a day broken into forty interruptions."
     },
@@ -154,11 +321,11 @@
       "prompt": "Which option keeps a consistent analytical register?",
       "options": [
         "Notifications are honestly the worst thing ever and apps are just evil, no offence.",
-        "These are engineered to demand a glance, and the glance is the product.",
         "Apps are basically just trying to steal your brain all the time, which is super creepy.",
-        "Nobody can ever focus anymore because of dumb pop-ups and stuff, that's just facts."
+        "Nobody can ever focus anymore because of dumb pop-ups and stuff, that's just facts.",
+        "These are engineered to demand a glance, and the glance is the product."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "Option B states the analytical point precisely, using the passive and exact phrasing without slang.",
       "hint": "Avoid 'honestly', 'basically', 'super creepy' — find the measured observation."
     },
@@ -166,12 +333,12 @@
       "id": "q7",
       "prompt": "What, according to the essay, sorts a gift notification from a theft?",
       "options": [
-        "The content of the alert",
         "The question of who decided it should arrive now",
+        "The content of the alert",
         "The size of the phone screen",
         "Whether the alert makes a sound"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay says the deciding factor 'is not the content of the alert but the question of who decided it should arrive now.'",
       "hint": "Look at the paragraph beginning 'What sorts the gift from the theft …'."
     },
@@ -179,12 +346,12 @@
       "id": "q8",
       "prompt": "Which sentence uses a 'what' cleft with 'not X but Y' to locate the real criterion?",
       "options": [
-        "What sorts the gift from the theft is not the content of the alert but the question of who decided it should arrive now.",
         "Who decided the alert content is what sorts the gift not the theft from now.",
+        "What sorts the gift from the theft is not the content of the alert but the question of who decided it should arrive now.",
         "The content is what sorts the gift from theft not but who decided now arrive.",
         "Sorting the gift from theft what the content is not but who decided arrive now."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "Option A is a what-cleft using 'not X but Y' to replace the obvious criterion (content) with the real one (timing/control).",
       "hint": "Look for 'What sorts … is not … but …'."
     },
@@ -193,11 +360,11 @@
       "prompt": "What does the essay say the complaint is 'really about'?",
       "options": [
         "Notifications themselves",
-        "An asymmetry of power over who controls our attention",
         "The price of phones",
+        "An asymmetry of power over who controls our attention",
         "The number of apps installed"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay reframes the problem: 'it is about an asymmetry of power.'",
       "hint": "Look at the final paragraph's reframing of the complaint."
     },
@@ -206,11 +373,11 @@
       "prompt": "What does 'to dictate the moment' mean here?",
       "options": [
         "To write down the time",
-        "To control when something happens, regardless of the other person's wishes",
         "To speak a message aloud",
-        "To delay an appointment"
+        "To delay an appointment",
+        "To control when something happens, regardless of the other person's wishes"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'To dictate the moment' is to decide the timing for someone else — the core of the theft side.",
       "hint": "Think of 'dictate' as imposing a decision on someone."
     },
@@ -218,12 +385,12 @@
       "id": "q11",
       "prompt": "What remedy does the essay propose?",
       "options": [
-        "Disconnecting from technology entirely",
         "Taking back the timing — deciding deliberately who may interrupt you and when",
+        "Disconnecting from technology entirely",
         "Buying a more expensive phone",
         "Reading every notification immediately"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay says the remedy 'is not to disconnect … but to take back the timing.'",
       "hint": "Look at what the essay offers instead of disconnecting."
     },
@@ -245,11 +412,11 @@
       "prompt": "What does 'on your terms' mean in this essay?",
       "options": [
         "Using technical vocabulary",
-        "According to conditions and timing that you chose",
         "For a limited time only",
+        "According to conditions and timing that you chose",
         "At the lowest possible price"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'On your terms' means under conditions you set — here, a notification whose timing you controlled.",
       "hint": "Think of 'terms' as the conditions you, not someone else, decide."
     },
@@ -257,12 +424,12 @@
       "id": "q14",
       "prompt": "Which sentence switches to the active voice to assign responsibility?",
       "options": [
-        "We have handed strangers the right to summon our attention at will.",
         "Our attention has been handed to strangers to be summoned at will by them.",
         "The right to summon attention was handed to strangers at will somehow.",
-        "Strangers were handed the right by which our attention is summoned at will."
+        "Strangers were handed the right by which our attention is summoned at will.",
+        "We have handed strangers the right to summon our attention at will."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'We have handed strangers the right …' is active, placing 'we' as the responsible agent — a deliberate shift from the earlier passives.",
       "hint": "Which option makes 'we' the doer of the action?"
     },
@@ -270,12 +437,12 @@
       "id": "q15",
       "prompt": "What is the essay's final test for whether a notification is gift or theft?",
       "options": [
-        "How loud the alert is",
         "Whose moment it is — yours or the machine's",
+        "How loud the alert is",
         "How many notifications you get per day",
         "Whether the message is from a friend"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The closing reduces it to one question: 'whose moment is this, mine or the machine's?'",
       "hint": "Look at the very last sentence of the essay."
     }

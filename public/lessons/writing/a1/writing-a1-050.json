@@ -3,7 +3,11 @@
   "level": "A1",
   "title": "The tailor near the station",
   "summary": "Describe a tailor who works in a small shop near the train station.",
-  "tags": ["Work", "Crafts", "People"],
+  "tags": [
+    "Work",
+    "Crafts",
+    "People"
+  ],
   "topic": "The tailor near the station",
   "prompt": "Write 6–8 short sentences about a tailor in your city. Describe the shop, what she does, and how she helps people. Use present simple.",
   "minWords": 150,
@@ -14,31 +18,99 @@
     "I take my clothes to her when…"
   ],
   "hintVocab": [
-    { "phrase": "tailor", "meaningVi": "thợ may", "pronunciation": "/ˈteɪlər/" },
-    { "phrase": "sewing machine", "meaningVi": "máy may" },
-    { "phrase": "thread", "meaningVi": "chỉ", "pronunciation": "/θred/" },
-    { "phrase": "needle", "meaningVi": "kim" },
-    { "phrase": "shorten trousers", "meaningVi": "cắt ngắn quần" },
-    { "phrase": "old shirt", "meaningVi": "áo cũ" },
-    { "phrase": "small price", "meaningVi": "giá nhỏ" },
-    { "phrase": "wooden chair", "meaningVi": "ghế gỗ" },
-    { "phrase": "long table", "meaningVi": "bàn dài" },
-    { "phrase": "ready in two days", "meaningVi": "xong trong hai ngày" },
-    { "phrase": "polite smile", "meaningVi": "nụ cười lịch sự" }
+    {
+      "phrase": "tailor",
+      "meaningVi": "thợ may",
+      "pronunciation": "/ˈteɪlər/"
+    },
+    {
+      "phrase": "sewing machine",
+      "meaningVi": "máy may"
+    },
+    {
+      "phrase": "thread",
+      "meaningVi": "chỉ",
+      "pronunciation": "/θred/"
+    },
+    {
+      "phrase": "needle",
+      "meaningVi": "kim"
+    },
+    {
+      "phrase": "shorten trousers",
+      "meaningVi": "cắt ngắn quần"
+    },
+    {
+      "phrase": "old shirt",
+      "meaningVi": "áo cũ"
+    },
+    {
+      "phrase": "small price",
+      "meaningVi": "giá nhỏ"
+    },
+    {
+      "phrase": "wooden chair",
+      "meaningVi": "ghế gỗ"
+    },
+    {
+      "phrase": "long table",
+      "meaningVi": "bàn dài"
+    },
+    {
+      "phrase": "ready in two days",
+      "meaningVi": "xong trong hai ngày"
+    },
+    {
+      "phrase": "polite smile",
+      "meaningVi": "nụ cười lịch sự"
+    }
   ],
   "sampleText": "Near the train station in Naples, there is a small tailor shop. The shop has only one room. The tailor is a woman called Signora Lucia. She is about fifty years old. She sits at a long table with her sewing machine. Behind her there are many spools of thread in every colour. She can shorten trousers, fix an old shirt, or change the buttons on a jacket. Many people in the neighborhood come to her. I take my clothes to her when something is too long or too tight. She measures me with a soft tape, and she makes a small mark with chalk. The work is usually ready in two days. The small price is fair, because the work is good. She gives me a polite smile when I pay. I like her shop because it is quiet and full of fabric. People like Signora Lucia keep our old clothes alive.",
   "sampleAnnotations": [
-    { "phrase": "small tailor shop", "meaningVi": "tiệm may nhỏ" },
-    { "phrase": "long table", "meaningVi": "bàn dài" },
-    { "phrase": "sewing machine", "meaningVi": "máy may" },
-    { "phrase": "spools of thread", "meaningVi": "những cuộn chỉ" },
-    { "phrase": "shorten trousers", "meaningVi": "cắt ngắn quần" },
-    { "phrase": "fix an old shirt", "meaningVi": "sửa áo cũ" },
-    { "phrase": "change the buttons", "meaningVi": "thay nút áo" },
-    { "phrase": "soft tape", "meaningVi": "thước dây mềm" },
-    { "phrase": "small mark with chalk", "meaningVi": "dấu nhỏ bằng phấn" },
-    { "phrase": "ready in two days", "meaningVi": "xong trong hai ngày" },
-    { "phrase": "polite smile", "meaningVi": "nụ cười lịch sự" }
+    {
+      "phrase": "small tailor shop",
+      "meaningVi": "tiệm may nhỏ"
+    },
+    {
+      "phrase": "long table",
+      "meaningVi": "bàn dài"
+    },
+    {
+      "phrase": "sewing machine",
+      "meaningVi": "máy may"
+    },
+    {
+      "phrase": "spools of thread",
+      "meaningVi": "những cuộn chỉ"
+    },
+    {
+      "phrase": "shorten trousers",
+      "meaningVi": "cắt ngắn quần"
+    },
+    {
+      "phrase": "fix an old shirt",
+      "meaningVi": "sửa áo cũ"
+    },
+    {
+      "phrase": "change the buttons",
+      "meaningVi": "thay nút áo"
+    },
+    {
+      "phrase": "soft tape",
+      "meaningVi": "thước dây mềm"
+    },
+    {
+      "phrase": "small mark with chalk",
+      "meaningVi": "dấu nhỏ bằng phấn"
+    },
+    {
+      "phrase": "ready in two days",
+      "meaningVi": "xong trong hai ngày"
+    },
+    {
+      "phrase": "polite smile",
+      "meaningVi": "nụ cười lịch sự"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -59,11 +131,11 @@
       "prompt": "Where is the tailor shop?",
       "options": [
         "Near a school",
-        "Near the train station",
         "Near a hospital",
-        "Near a park"
+        "Near a park",
+        "Near the train station"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The text says 'Near the train station in Naples, there is a small tailor shop'.",
       "hint": "Look at the first sentence."
     },
@@ -98,11 +170,11 @@
       "prompt": "Which sentence uses 'or' correctly?",
       "options": [
         "She can shorten trousers, fix shirt, change buttons.",
-        "She can shorten trousers, fix an old shirt, or change the buttons.",
         "She can shorten trousers or fix a old shirt or to change buttons.",
+        "She can shorten trousers, fix an old shirt, or change the buttons.",
         "She shortens trousers or she fix an old shirt or she change buttons."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "Use 'or' before the last item in a list of options.",
       "hint": "Look for the cleanest list with 'or' before the last item."
     },
@@ -112,10 +184,10 @@
       "options": [
         "A pen",
         "A pencil",
-        "Chalk",
-        "Tape"
+        "Tape",
+        "Chalk"
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "explanation": "The text says 'she makes a small mark with chalk'.",
       "hint": "Find the marking tool."
     },
@@ -123,12 +195,12 @@
       "id": "q6",
       "prompt": "How long does the work usually take?",
       "options": [
-        "One day",
         "Two days",
+        "One day",
         "One week",
         "Two weeks"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The text says 'The work is usually ready in two days'.",
       "hint": "Look for the time the work takes."
     },
@@ -150,11 +222,11 @@
       "prompt": "Which word means 'more than needed'?",
       "options": [
         "very",
-        "too",
         "much",
+        "too",
         "more"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'too' before an adjective means 'more than needed': 'too long', 'too tight'.",
       "hint": "It is a small word that often shows a problem."
     },
@@ -163,11 +235,11 @@
       "prompt": "What is behind the tailor?",
       "options": [
         "A long mirror",
-        "Many spools of thread in every colour",
         "A row of dresses",
-        "A small TV"
+        "A small TV",
+        "Many spools of thread in every colour"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The text says 'Behind her there are many spools of thread in every colour'.",
       "hint": "Find what is described as being behind her."
     },
@@ -175,12 +247,12 @@
       "id": "q10",
       "prompt": "Why does the writer like the shop?",
       "options": [
-        "Because it is large",
         "Because it is quiet and full of fabric",
+        "Because it is large",
         "Because it is cheap and fast",
         "Because it sells coffee"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The text says 'I like her shop because it is quiet and full of fabric'.",
       "hint": "Look at the reason given after 'because'."
     }

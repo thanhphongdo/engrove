@@ -3,7 +3,11 @@
   "level": "A2",
   "title": "A cousin I rarely see",
   "summary": "Describe a cousin and recall the last time you spent time together.",
-  "tags": ["Description", "Family", "Past simple"],
+  "tags": [
+    "Description",
+    "Family",
+    "Past simple"
+  ],
   "topic": "A cousin I rarely see",
   "prompt": "Write 8–10 sentences (150–250 words) about a cousin you do not see very often. Describe what they look like and what kind of person they are. Then describe the last time you saw them. Where were you? What did you do together? Use past simple and comparative adjectives. Use when, because, and although.",
   "minWords": 150,
@@ -14,31 +18,103 @@
     "Although we don't see each other often, we always…"
   ],
   "hintVocab": [
-    { "phrase": "rarely", "meaningVi": "hiếm khi", "pronunciation": "/ˈreəli/" },
-    { "phrase": "resemble", "meaningVi": "trông giống, giống nhau", "pronunciation": "/rɪˈzembəl/" },
-    { "phrase": "catch up", "meaningVi": "trò chuyện cập nhật tin tức của nhau" },
-    { "phrase": "get along", "meaningVi": "hòa hợp, chơi tốt với nhau" },
-    { "phrase": "stay in touch", "meaningVi": "giữ liên lạc" },
-    { "phrase": "reunion", "meaningVi": "cuộc đoàn tụ", "pronunciation": "/riːˈjuːniən/" },
-    { "phrase": "grown up", "meaningVi": "lớn lên, trưởng thành" },
-    { "phrase": "drift apart", "meaningVi": "xa nhau dần dần" },
-    { "phrase": "recognise", "meaningVi": "nhận ra", "pronunciation": "/ˈrekəɡnaɪz/" },
-    { "phrase": "awkward", "meaningVi": "ngại ngùng, khó xử", "pronunciation": "/ˈɔːkwəd/" },
-    { "phrase": "close", "meaningVi": "thân thiết (về mối quan hệ)", "pronunciation": "/kləʊs/" }
+    {
+      "phrase": "rarely",
+      "meaningVi": "hiếm khi",
+      "pronunciation": "/ˈreəli/"
+    },
+    {
+      "phrase": "resemble",
+      "meaningVi": "trông giống, giống nhau",
+      "pronunciation": "/rɪˈzembəl/"
+    },
+    {
+      "phrase": "catch up",
+      "meaningVi": "trò chuyện cập nhật tin tức của nhau"
+    },
+    {
+      "phrase": "get along",
+      "meaningVi": "hòa hợp, chơi tốt với nhau"
+    },
+    {
+      "phrase": "stay in touch",
+      "meaningVi": "giữ liên lạc"
+    },
+    {
+      "phrase": "reunion",
+      "meaningVi": "cuộc đoàn tụ",
+      "pronunciation": "/riːˈjuːniən/"
+    },
+    {
+      "phrase": "grown up",
+      "meaningVi": "lớn lên, trưởng thành"
+    },
+    {
+      "phrase": "drift apart",
+      "meaningVi": "xa nhau dần dần"
+    },
+    {
+      "phrase": "recognise",
+      "meaningVi": "nhận ra",
+      "pronunciation": "/ˈrekəɡnaɪz/"
+    },
+    {
+      "phrase": "awkward",
+      "meaningVi": "ngại ngùng, khó xử",
+      "pronunciation": "/ˈɔːkwəd/"
+    },
+    {
+      "phrase": "close",
+      "meaningVi": "thân thiết (về mối quan hệ)",
+      "pronunciation": "/kləʊs/"
+    }
   ],
   "sampleText": "I have a cousin named Marco who lives in Genoa, in the north of Italy. We grew up in different cities, so we only saw each other at family weddings and Christmas gatherings. Marco is taller than me and has very dark hair that he keeps short. He is quieter than most people in our family and likes to listen more than he speaks. The last time I saw him was two years ago at my uncle's birthday party. At first it felt a little awkward because we had not spoken for almost a year. But after about an hour, we started to catch up properly and it felt like we had never been apart. We walked around the garden together and he told me about his new job and a trip he had taken to Scotland. I told him about my studies. When the party ended, we said we would call more often. We tried for a few months, but we slowly drifted apart again. I think about him sometimes. Although we are not close in the way cousins in films are, I always feel happy when I see him. Some family relationships are like that — quiet and distant, but still warm.",
   "sampleAnnotations": [
-    { "phrase": "grew up in different cities", "meaningVi": "lớn lên ở các thành phố khác nhau" },
-    { "phrase": "family weddings and Christmas gatherings", "meaningVi": "đám cưới gia đình và những buổi họp mặt Giáng sinh" },
-    { "phrase": "quieter than most people", "meaningVi": "trầm lặng hơn hầu hết mọi người" },
-    { "phrase": "felt a little awkward", "meaningVi": "cảm thấy hơi ngại ngùng" },
-    { "phrase": "catch up properly", "meaningVi": "thực sự cập nhật tin tức cho nhau" },
-    { "phrase": "felt like we had never been apart", "meaningVi": "cảm giác như chưa bao giờ xa nhau" },
-    { "phrase": "slowly drifted apart again", "meaningVi": "dần dần lại xa nhau" },
-    { "phrase": "not close in the way cousins in films are", "meaningVi": "không thân thiết theo kiểu anh chị em họ trong phim" },
-    { "phrase": "always feel happy when I see him", "meaningVi": "luôn cảm thấy vui khi gặp anh ấy" },
-    { "phrase": "quiet and distant, but still warm", "meaningVi": "lặng lẽ và xa cách, nhưng vẫn ấm áp" },
-    { "phrase": "had not spoken for almost a year", "meaningVi": "gần một năm không nói chuyện" }
+    {
+      "phrase": "grew up in different cities",
+      "meaningVi": "lớn lên ở các thành phố khác nhau"
+    },
+    {
+      "phrase": "family weddings and Christmas gatherings",
+      "meaningVi": "đám cưới gia đình và những buổi họp mặt Giáng sinh"
+    },
+    {
+      "phrase": "quieter than most people",
+      "meaningVi": "trầm lặng hơn hầu hết mọi người"
+    },
+    {
+      "phrase": "felt a little awkward",
+      "meaningVi": "cảm thấy hơi ngại ngùng"
+    },
+    {
+      "phrase": "catch up properly",
+      "meaningVi": "thực sự cập nhật tin tức cho nhau"
+    },
+    {
+      "phrase": "felt like we had never been apart",
+      "meaningVi": "cảm giác như chưa bao giờ xa nhau"
+    },
+    {
+      "phrase": "slowly drifted apart again",
+      "meaningVi": "dần dần lại xa nhau"
+    },
+    {
+      "phrase": "not close in the way cousins in films are",
+      "meaningVi": "không thân thiết theo kiểu anh chị em họ trong phim"
+    },
+    {
+      "phrase": "always feel happy when I see him",
+      "meaningVi": "luôn cảm thấy vui khi gặp anh ấy"
+    },
+    {
+      "phrase": "quiet and distant, but still warm",
+      "meaningVi": "lặng lẽ và xa cách, nhưng vẫn ấm áp"
+    },
+    {
+      "phrase": "had not spoken for almost a year",
+      "meaningVi": "gần một năm không nói chuyện"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -53,12 +129,12 @@
       "id": "q1",
       "prompt": "Choose the correct comparative: 'Marco is ___ than me and has very dark hair.'",
       "options": [
-        "taller",
         "more tall",
+        "taller",
         "tallest",
         "tall"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'Tall' is a short adjective, so the comparative is 'taller'.",
       "hint": "Short adjectives form comparatives with '-er'."
     },
@@ -66,12 +142,12 @@
       "id": "q2",
       "prompt": "Which phrase means 'to slowly lose contact with someone'?",
       "options": [
-        "drift apart",
         "fall apart",
         "break apart",
+        "drift apart",
         "grow apart"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Drift apart' means to gradually become less close to someone.",
       "hint": "Which phrase describes slowly losing a connection?"
     },
@@ -79,12 +155,12 @@
       "id": "q3",
       "prompt": "Which word means 'uncomfortable or socially difficult'?",
       "options": [
-        "awkward",
         "backward",
         "outward",
-        "forward"
+        "forward",
+        "awkward"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'Awkward' means uncomfortable, especially in a social situation.",
       "hint": "Which adjective means socially uncomfortable?"
     },
@@ -105,12 +181,12 @@
       "id": "q5",
       "prompt": "Which phrase means 'to talk and share news after a long time apart'?",
       "options": [
-        "catch up",
         "check out",
+        "catch up",
         "call back",
         "cut in"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'Catch up' means to exchange news after not seeing someone for a while.",
       "hint": "You do this when you meet someone you haven't seen in a long time."
     },
@@ -118,12 +194,12 @@
       "id": "q6",
       "prompt": "Which word means 'not very often'?",
       "options": [
-        "rarely",
         "nearly",
         "fairly",
+        "rarely",
         "barely"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Rarely' means very infrequently.",
       "hint": "Which adverb means 'almost never'?"
     },
@@ -131,12 +207,12 @@
       "id": "q7",
       "prompt": "Choose the correct past simple: 'At first it ___ a little awkward.'",
       "options": [
-        "felt",
         "feels",
         "was feeling",
-        "has felt"
+        "has felt",
+        "felt"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "Past simple 'felt' is correct for a completed state in the past.",
       "hint": "Use past simple for a past state or feeling."
     },
@@ -157,12 +233,12 @@
       "id": "q9",
       "prompt": "What does 'stay in touch' mean?",
       "options": [
-        "to continue communicating with someone",
         "to stop talking to someone",
+        "to continue communicating with someone",
         "to move closer to someone",
         "to call someone for the first time"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'Stay in touch' means to keep communicating with someone over time.",
       "hint": "Which phrase means 'to keep in contact'?"
     },
@@ -170,12 +246,12 @@
       "id": "q10",
       "prompt": "What does 'grown up' mean in 'We grew up in different cities'?",
       "options": [
-        "spent our childhood and became adults",
         "became taller than each other",
         "moved to a bigger city",
+        "spent our childhood and became adults",
         "studied together as children"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Grow up' means to pass through childhood and become an adult.",
       "hint": "This describes the process from childhood to adulthood."
     },
@@ -183,12 +259,12 @@
       "id": "q11",
       "prompt": "Which word means to look similar to someone?",
       "options": [
-        "resemble",
         "assemble",
         "resent",
-        "remind"
+        "remind",
+        "resemble"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'Resemble' means to look or seem like someone.",
       "hint": "Which verb means 'to look like' someone?"
     }

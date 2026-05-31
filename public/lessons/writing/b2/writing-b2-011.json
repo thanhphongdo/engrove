@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "The case against efficiency in small daily tasks",
   "summary": "Argue that the drive to optimise minor everyday tasks trades away something worth keeping.",
-  "tags": ["Daily life", "Technology", "Wellbeing", "Argument"],
+  "tags": [
+    "Daily life",
+    "Technology",
+    "Wellbeing",
+    "Argument"
+  ],
   "topic": "The case against efficiency in small daily tasks",
   "prompt": "Write an argumentative essay (350–500 words) arguing that the drive to make small daily tasks — cooking, walking a familiar route, folding laundry — more efficient removes something worth preserving. Use a cleft sentence ('What is lost when…'), a concession ('Granted, …'), and at least one passive construction. Include at least one concrete example from everyday life or from research (e.g. mindless walking reducing anxiety, the cognitive value of chopping vegetables). Take a clear side.",
   "minWords": 350,
@@ -15,52 +20,185 @@
     "There is a category of task — repetitive, physical, unhurried — that functions as a…"
   ],
   "hintVocab": [
-    { "phrase": "optimise", "meaningVi": "tối ưu hóa" },
-    { "phrase": "cognitive load", "meaningVi": "tải nhận thức", "pronunciation": "/ˈkɒɡ.nɪ.tɪv ləʊd/" },
-    { "phrase": "to automate", "meaningVi": "tự động hóa" },
-    { "phrase": "mundane", "meaningVi": "tầm thường / nhàm chán (theo nghĩa thường ngày)", "pronunciation": "/mʌnˈdeɪn/" },
-    { "phrase": "friction", "meaningVi": "sức cản / ma sát (nghĩa bóng: sự kháng cự nhỏ)" },
-    { "phrase": "to be outsourced to", "meaningVi": "được thuê ngoài / giao cho" },
-    { "phrase": "contemplative", "meaningVi": "mang tính suy ngẫm / trầm tư", "pronunciation": "/ˈkɒn.təm.plə.tɪv/" },
-    { "phrase": "to carve out", "meaningVi": "tạo ra / khoét ra" },
-    { "phrase": "rote", "meaningVi": "lặp đi lặp lại một cách cơ học", "pronunciation": "/rəʊt/" },
-    { "phrase": "default mode network", "meaningVi": "mạng lưới chế độ mặc định (của não)" },
-    { "phrase": "to chop vegetables", "meaningVi": "thái rau củ" },
-    { "phrase": "attentional residue", "meaningVi": "phần chú ý còn sót lại" },
-    { "phrase": "background processing", "meaningVi": "xử lý nền (của tư duy)" },
-    { "phrase": "brisk walk", "meaningVi": "đi bộ nhanh" },
-    { "phrase": "to be stripped of", "meaningVi": "bị tước đi / mất đi" },
-    { "phrase": "idle hands", "meaningVi": "bàn tay nhàn rỗi" },
-    { "phrase": "to offload", "meaningVi": "chuyển giao / giải phóng" },
-    { "phrase": "ambient thinking", "meaningVi": "suy nghĩ xung quanh / tư duy không chủ đích" },
-    { "phrase": "to resist the urge to", "meaningVi": "kháng lại sự thôi thúc để" },
-    { "phrase": "the long way round", "meaningVi": "con đường vòng / cách làm dài hơn" },
-    { "phrase": "productivity culture", "meaningVi": "văn hóa năng suất" },
-    { "phrase": "to leave room for", "meaningVi": "để lại chỗ cho" }
+    {
+      "phrase": "optimise",
+      "meaningVi": "tối ưu hóa"
+    },
+    {
+      "phrase": "cognitive load",
+      "meaningVi": "tải nhận thức",
+      "pronunciation": "/ˈkɒɡ.nɪ.tɪv ləʊd/"
+    },
+    {
+      "phrase": "to automate",
+      "meaningVi": "tự động hóa"
+    },
+    {
+      "phrase": "mundane",
+      "meaningVi": "tầm thường / nhàm chán (theo nghĩa thường ngày)",
+      "pronunciation": "/mʌnˈdeɪn/"
+    },
+    {
+      "phrase": "friction",
+      "meaningVi": "sức cản / ma sát (nghĩa bóng: sự kháng cự nhỏ)"
+    },
+    {
+      "phrase": "to be outsourced to",
+      "meaningVi": "được thuê ngoài / giao cho"
+    },
+    {
+      "phrase": "contemplative",
+      "meaningVi": "mang tính suy ngẫm / trầm tư",
+      "pronunciation": "/ˈkɒn.təm.plə.tɪv/"
+    },
+    {
+      "phrase": "to carve out",
+      "meaningVi": "tạo ra / khoét ra"
+    },
+    {
+      "phrase": "rote",
+      "meaningVi": "lặp đi lặp lại một cách cơ học",
+      "pronunciation": "/rəʊt/"
+    },
+    {
+      "phrase": "default mode network",
+      "meaningVi": "mạng lưới chế độ mặc định (của não)"
+    },
+    {
+      "phrase": "to chop vegetables",
+      "meaningVi": "thái rau củ"
+    },
+    {
+      "phrase": "attentional residue",
+      "meaningVi": "phần chú ý còn sót lại"
+    },
+    {
+      "phrase": "background processing",
+      "meaningVi": "xử lý nền (của tư duy)"
+    },
+    {
+      "phrase": "brisk walk",
+      "meaningVi": "đi bộ nhanh"
+    },
+    {
+      "phrase": "to be stripped of",
+      "meaningVi": "bị tước đi / mất đi"
+    },
+    {
+      "phrase": "idle hands",
+      "meaningVi": "bàn tay nhàn rỗi"
+    },
+    {
+      "phrase": "to offload",
+      "meaningVi": "chuyển giao / giải phóng"
+    },
+    {
+      "phrase": "ambient thinking",
+      "meaningVi": "suy nghĩ xung quanh / tư duy không chủ đích"
+    },
+    {
+      "phrase": "to resist the urge to",
+      "meaningVi": "kháng lại sự thôi thúc để"
+    },
+    {
+      "phrase": "the long way round",
+      "meaningVi": "con đường vòng / cách làm dài hơn"
+    },
+    {
+      "phrase": "productivity culture",
+      "meaningVi": "văn hóa năng suất"
+    },
+    {
+      "phrase": "to leave room for",
+      "meaningVi": "để lại chỗ cho"
+    }
   ],
   "sampleText": "Productivity culture has a particular problem with the walk to the station. It is eight minutes, it is predictable, and it returns nothing measurable — so the obvious move is to fill it with a podcast, a phone call, or a rapid review of overnight messages. The walk is optimised. Something else is lost.\n\nWhat is lost when you automate the texture of a small task is not time but a specific kind of thinking that only happens when the hands or feet are occupied and the mind is free to wander. Neuroscientists call this default mode network activity: the brain's background processing, which handles creative association, emotional regulation, and the quiet rehearsal of problems that have no obvious solution. A brisk walk, a pile of laundry to fold, a handful of carrots to chop — these are not interruptions to thought; they are, in a very old sense, conditions for it.\n\nGranted, not every small task deserves to be romanticised. Some friction is just friction: a commute that takes ninety minutes does not become philosophical because it is long. And there are genuine cases where outsourcing a task — using a dishwasher, ordering groceries online — frees up time for things that matter more. Efficiency has lifted real burdens, particularly from people who are time-poor, and it would be dishonest to pretend otherwise.\n\nEven so, the choice to eliminate friction wholesale carries a cost that productivity culture tends not to count. Research on attentional residue suggests that the mind takes twenty or more minutes to fully disengage from a task after it has been interrupted. A morning filled with micro-optimisations — efficient routes, skipped breakfasts, batched errands — can leave a person arriving at their desk technically on time but cognitively depleted. The repetitive task, done without a screen, is one of the few ways a busy person can arrive somewhere with attention intact.\n\nWhat is being argued here is not that inefficiency is a virtue but that some tasks are being stripped of their contemplative value before anyone has asked whether that value was worth keeping. The case for taking the long way round, or chopping vegetables instead of buying them pre-cut, is not nostalgia — it is a claim about what the mind needs in order to do its less visible work. Efficiency, left unchecked, has a habit of optimising away the very conditions under which better thinking becomes possible.",
   "sampleAnnotations": [
-    { "phrase": "Productivity culture has a particular problem with the walk to the station", "meaningVi": "Văn hóa năng suất có vấn đề đặc biệt với việc đi bộ đến nhà ga" },
-    { "phrase": "it returns nothing measurable", "meaningVi": "nó không mang lại gì đo lường được" },
-    { "phrase": "The walk is optimised. Something else is lost", "meaningVi": "Việc đi bộ được tối ưu hóa. Thứ gì khác bị mất đi." },
-    { "phrase": "What is lost when you automate the texture of a small task is not time but a specific kind of thinking", "meaningVi": "Điều bị mất khi bạn tự động hóa cảm giác của một công việc nhỏ không phải là thời gian mà là một loại tư duy đặc biệt" },
-    { "phrase": "the hands or feet are occupied and the mind is free to wander", "meaningVi": "tay chân bận rộn và tâm trí được tự do lang thang" },
-    { "phrase": "default mode network activity", "meaningVi": "hoạt động của mạng lưới chế độ mặc định" },
-    { "phrase": "background processing", "meaningVi": "xử lý nền của tư duy" },
-    { "phrase": "these are not interruptions to thought; they are conditions for it", "meaningVi": "những thứ này không phải là gián đoạn cho tư duy; chúng là điều kiện cho nó" },
-    { "phrase": "Granted, not every small task deserves to be romanticised", "meaningVi": "công nhận, không phải mọi công việc nhỏ đều xứng đáng được lãng mạn hóa" },
-    { "phrase": "Some friction is just friction", "meaningVi": "một số sức cản chỉ là sức cản" },
-    { "phrase": "outsourcing a task", "meaningVi": "thuê ngoài / giao cho người khác một công việc" },
-    { "phrase": "frees up time for things that matter more", "meaningVi": "giải phóng thời gian cho những thứ quan trọng hơn" },
-    { "phrase": "it would be dishonest to pretend otherwise", "meaningVi": "sẽ là không trung thực nếu giả vờ khác đi" },
-    { "phrase": "the choice to eliminate friction wholesale", "meaningVi": "lựa chọn loại bỏ hoàn toàn mọi sức cản" },
-    { "phrase": "attentional residue", "meaningVi": "phần chú ý còn sót lại" },
-    { "phrase": "cognitively depleted", "meaningVi": "kiệt sức về mặt nhận thức" },
-    { "phrase": "arriving somewhere with attention intact", "meaningVi": "đến nơi với sự chú ý còn nguyên vẹn" },
-    { "phrase": "stripped of their contemplative value", "meaningVi": "bị tước đi giá trị suy ngẫm" },
-    { "phrase": "before anyone has asked whether that value was worth keeping", "meaningVi": "trước khi ai đó hỏi liệu giá trị đó có đáng giữ không" },
-    { "phrase": "taking the long way round", "meaningVi": "đi theo con đường vòng" },
-    { "phrase": "optimising away the very conditions under which better thinking becomes possible", "meaningVi": "tối ưu hóa đi chính những điều kiện mà dưới đó tư duy tốt hơn trở nên khả thi" }
+    {
+      "phrase": "Productivity culture has a particular problem with the walk to the station",
+      "meaningVi": "Văn hóa năng suất có vấn đề đặc biệt với việc đi bộ đến nhà ga"
+    },
+    {
+      "phrase": "it returns nothing measurable",
+      "meaningVi": "nó không mang lại gì đo lường được"
+    },
+    {
+      "phrase": "The walk is optimised. Something else is lost",
+      "meaningVi": "Việc đi bộ được tối ưu hóa. Thứ gì khác bị mất đi."
+    },
+    {
+      "phrase": "What is lost when you automate the texture of a small task is not time but a specific kind of thinking",
+      "meaningVi": "Điều bị mất khi bạn tự động hóa cảm giác của một công việc nhỏ không phải là thời gian mà là một loại tư duy đặc biệt"
+    },
+    {
+      "phrase": "the hands or feet are occupied and the mind is free to wander",
+      "meaningVi": "tay chân bận rộn và tâm trí được tự do lang thang"
+    },
+    {
+      "phrase": "default mode network activity",
+      "meaningVi": "hoạt động của mạng lưới chế độ mặc định"
+    },
+    {
+      "phrase": "background processing",
+      "meaningVi": "xử lý nền của tư duy"
+    },
+    {
+      "phrase": "these are not interruptions to thought",
+      "meaningVi": "những thứ này không phải là gián đoạn cho tư duy; chúng là điều kiện cho nó"
+    },
+    {
+      "phrase": "Granted, not every small task deserves to be romanticised",
+      "meaningVi": "công nhận, không phải mọi công việc nhỏ đều xứng đáng được lãng mạn hóa"
+    },
+    {
+      "phrase": "Some friction is just friction",
+      "meaningVi": "một số sức cản chỉ là sức cản"
+    },
+    {
+      "phrase": "outsourcing a task",
+      "meaningVi": "thuê ngoài / giao cho người khác một công việc"
+    },
+    {
+      "phrase": "frees up time for things that matter more",
+      "meaningVi": "giải phóng thời gian cho những thứ quan trọng hơn"
+    },
+    {
+      "phrase": "it would be dishonest to pretend otherwise",
+      "meaningVi": "sẽ là không trung thực nếu giả vờ khác đi"
+    },
+    {
+      "phrase": "the choice to eliminate friction wholesale",
+      "meaningVi": "lựa chọn loại bỏ hoàn toàn mọi sức cản"
+    },
+    {
+      "phrase": "attentional residue",
+      "meaningVi": "phần chú ý còn sót lại"
+    },
+    {
+      "phrase": "cognitively depleted",
+      "meaningVi": "kiệt sức về mặt nhận thức"
+    },
+    {
+      "phrase": "somewhere with attention intact",
+      "meaningVi": "đến nơi với sự chú ý còn nguyên vẹn"
+    },
+    {
+      "phrase": "stripped of their contemplative value",
+      "meaningVi": "bị tước đi giá trị suy ngẫm"
+    },
+    {
+      "phrase": "before anyone has asked whether that value was worth keeping",
+      "meaningVi": "trước khi ai đó hỏi liệu giá trị đó có đáng giữ không"
+    },
+    {
+      "phrase": "taking the long way round",
+      "meaningVi": "đi theo con đường vòng"
+    },
+    {
+      "phrase": "optimising away the very conditions under which better thinking becomes possible",
+      "meaningVi": "tối ưu hóa đi chính những điều kiện mà dưới đó tư duy tốt hơn trở nên khả thi"
+    }
   ],
   "sampleGrammarNotes": [
     {

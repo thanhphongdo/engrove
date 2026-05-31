@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "The ethics of taking notes during a friend's hardship",
   "summary": "Argue whether writers and others who mentally record observations during a friend's crisis are behaving unethically, or whether the observer role is compatible with genuine care.",
-  "tags": ["Ethics", "Friendship", "Writing", "Psychology"],
+  "tags": [
+    "Ethics",
+    "Friendship",
+    "Writing",
+    "Psychology"
+  ],
   "topic": "The ethics of taking notes during a friend's hardship",
   "prompt": "Write an argumentative essay (350–500 words) on whether it is ethically acceptable for writers, journalists, or thoughtful observers to mentally or physically record details during a friend's crisis. Refer to at least one concrete example (e.g. Joan Didion's 'The Year of Magical Thinking', or Susan Sontag's notes written during her own illness). Use a what-cleft sentence, a concession, and at least one passive construction. Take a clear position.",
   "minWords": 350,
@@ -14,50 +19,177 @@
     "When a crisis is observed rather than merely endured, the observer carries both a weight and a…"
   ],
   "hintVocab": [
-    { "phrase": "to observe and record", "meaningVi": "quan sát và ghi lại" },
-    { "phrase": "ethically acceptable", "meaningVi": "được chấp nhận về mặt đạo đức" },
-    { "phrase": "to be witnessed", "meaningVi": "được chứng kiến" },
-    { "phrase": "complicity", "meaningVi": "sự đồng lõa / tính đồng tham", "pronunciation": "/kəmˈplɪs.ɪ.ti/" },
-    { "phrase": "to instrumentalise", "meaningVi": "biến thành công cụ / sử dụng như phương tiện", "pronunciation": "/ɪnˈstrʊ.mən.tə.laɪz/" },
-    { "phrase": "detachment", "meaningVi": "sự tách biệt cảm xúc / thái độ khách quan lạnh lùng", "pronunciation": "/dɪˈtætʃ.mənt/" },
-    { "phrase": "to be betrayed by a friend", "meaningVi": "bị phản bội bởi bạn bè" },
-    { "phrase": "dual consciousness", "meaningVi": "ý thức kép / hai tầng nhận thức" },
-    { "phrase": "to bear witness", "meaningVi": "làm chứng / ghi nhận" },
-    { "phrase": "to be processed through writing", "meaningVi": "được xử lý qua việc viết" },
-    { "phrase": "grief memoir", "meaningVi": "hồi ký về nỗi đau buồn" },
-    { "phrase": "to betray a confidence", "meaningVi": "tiết lộ điều bí mật / phản bội lòng tin" },
-    { "phrase": "to be used as material", "meaningVi": "bị dùng làm tư liệu" },
-    { "phrase": "the observer's conscience", "meaningVi": "lương tâm của người quan sát" },
-    { "phrase": "to be exploited for art", "meaningVi": "bị khai thác vì nghệ thuật" },
-    { "phrase": "simultaneous presence", "meaningVi": "sự hiện diện đồng thời" },
-    { "phrase": "informed consent", "meaningVi": "sự đồng ý có thông tin" },
-    { "phrase": "to hold something at a distance", "meaningVi": "giữ khoảng cách với điều gì đó" },
-    { "phrase": "to be processed into meaning", "meaningVi": "được chuyển hóa thành ý nghĩa" },
-    { "phrase": "vicarious experience", "meaningVi": "trải nghiệm gián tiếp / trải nghiệm qua người khác", "pronunciation": "/vɪˈkeər.i.əs/" },
-    { "phrase": "to sharpen attention", "meaningVi": "làm cho sự chú ý sắc bén hơn" }
+    {
+      "phrase": "to observe and record",
+      "meaningVi": "quan sát và ghi lại"
+    },
+    {
+      "phrase": "ethically acceptable",
+      "meaningVi": "được chấp nhận về mặt đạo đức"
+    },
+    {
+      "phrase": "to be witnessed",
+      "meaningVi": "được chứng kiến"
+    },
+    {
+      "phrase": "complicity",
+      "meaningVi": "sự đồng lõa / tính đồng tham",
+      "pronunciation": "/kəmˈplɪs.ɪ.ti/"
+    },
+    {
+      "phrase": "to instrumentalise",
+      "meaningVi": "biến thành công cụ / sử dụng như phương tiện",
+      "pronunciation": "/ɪnˈstrʊ.mən.tə.laɪz/"
+    },
+    {
+      "phrase": "detachment",
+      "meaningVi": "sự tách biệt cảm xúc / thái độ khách quan lạnh lùng",
+      "pronunciation": "/dɪˈtætʃ.mənt/"
+    },
+    {
+      "phrase": "to be betrayed by a friend",
+      "meaningVi": "bị phản bội bởi bạn bè"
+    },
+    {
+      "phrase": "dual consciousness",
+      "meaningVi": "ý thức kép / hai tầng nhận thức"
+    },
+    {
+      "phrase": "to bear witness",
+      "meaningVi": "làm chứng / ghi nhận"
+    },
+    {
+      "phrase": "to be processed through writing",
+      "meaningVi": "được xử lý qua việc viết"
+    },
+    {
+      "phrase": "grief memoir",
+      "meaningVi": "hồi ký về nỗi đau buồn"
+    },
+    {
+      "phrase": "to betray a confidence",
+      "meaningVi": "tiết lộ điều bí mật / phản bội lòng tin"
+    },
+    {
+      "phrase": "to be used as material",
+      "meaningVi": "bị dùng làm tư liệu"
+    },
+    {
+      "phrase": "the observer's conscience",
+      "meaningVi": "lương tâm của người quan sát"
+    },
+    {
+      "phrase": "to be exploited for art",
+      "meaningVi": "bị khai thác vì nghệ thuật"
+    },
+    {
+      "phrase": "simultaneous presence",
+      "meaningVi": "sự hiện diện đồng thời"
+    },
+    {
+      "phrase": "informed consent",
+      "meaningVi": "sự đồng ý có thông tin"
+    },
+    {
+      "phrase": "to hold something at a distance",
+      "meaningVi": "giữ khoảng cách với điều gì đó"
+    },
+    {
+      "phrase": "to be processed into meaning",
+      "meaningVi": "được chuyển hóa thành ý nghĩa"
+    },
+    {
+      "phrase": "vicarious experience",
+      "meaningVi": "trải nghiệm gián tiếp / trải nghiệm qua người khác",
+      "pronunciation": "/vɪˈkeər.i.əs/"
+    },
+    {
+      "phrase": "to sharpen attention",
+      "meaningVi": "làm cho sự chú ý sắc bén hơn"
+    }
   ],
   "sampleText": "What Joan Didion did in the weeks after her husband John Gregory Dunne died was not a withdrawal from grief but a specific kind of submission to it: she recorded everything, precisely because recording was the only way she could remain present to what was happening. The notes that became 'The Year of Magical Thinking' were not taken at a distance — they were taken from inside the experience, and the act of writing was itself a form of being there.\n\nThe concern about observers who take notes during a friend's crisis is understandable. A person suffering has not signed a contract authorising their pain to be processed into prose. To sit with a friend in their lowest hour while simultaneously cataloguing the details for later use does seem to involve a split that is difficult to defend — a kind of dual consciousness in which full presence is sacrificed to the habit of observation.\n\nGranted, that concern is sharpest when the notes are taken without the friend's knowledge and later published. The ethical issue is not the act of observation itself but the question of informed consent: did the friend understand that their hardship would become material, and did they agree to that use? Susan Sontag's illness notebooks, which she kept privately as a way of processing her own experience, raise different questions from those raised by a writer who publishes a detailed account of a friend's breakdown without asking.\n\nEven so, the assumption that observation and care are incompatible misunderstands how attention works. To notice the exact way a friend holds their coffee cup when she is crying, to register the particular silence that falls after difficult news — these are not acts of exploitation. They are acts of witness, which is one of the things friends are for. The person who notices nothing, who is too submerged in their own discomfort to pay close attention, is not a better friend — they are simply a less present one.\n\nWhat is ethically required is not the suspension of the observer's habits but the exercise of judgment about what is subsequently done with what has been observed. Notes taken in care, processed privately, and shared only with consent occupy a different ethical space from those extracted and published without disclosure. The act of writing is not the betrayal; the betrayal is in the use.",
   "sampleAnnotations": [
-    { "phrase": "What Joan Didion did in the weeks after her husband John Gregory Dunne died was not a withdrawal from grief but a specific kind of submission to it", "meaningVi": "Điều Joan Didion đã làm trong những tuần sau khi chồng bà John Gregory Dunne qua đời không phải là sự rút lui khỏi nỗi đau buồn mà là một loại phục tùng đặc biệt với nó" },
-    { "phrase": "recording was the only way she could remain present to what was happening", "meaningVi": "việc ghi chép là cách duy nhất cô ấy có thể ở lại với những gì đang xảy ra" },
-    { "phrase": "the act of writing was itself a form of being there", "meaningVi": "hành động viết chính là một hình thức hiện diện ở đó" },
-    { "phrase": "A person suffering has not signed a contract authorising their pain to be processed into prose", "meaningVi": "Một người đang đau khổ chưa ký hợp đồng cho phép nỗi đau của họ được xử lý thành văn xuôi" },
-    { "phrase": "a split that is difficult to defend", "meaningVi": "một sự chia rẽ khó có thể bào chữa" },
-    { "phrase": "a kind of dual consciousness in which full presence is sacrificed to the habit of observation", "meaningVi": "một loại ý thức kép mà trong đó sự hiện diện đầy đủ bị hy sinh cho thói quen quan sát" },
-    { "phrase": "Granted, that concern is sharpest when the notes are taken without the friend's knowledge", "meaningVi": "Phải công nhận, mối lo ngại đó sắc bén nhất khi những ghi chú được lấy mà không có kiến thức của người bạn" },
-    { "phrase": "the ethical issue is not the act of observation itself but the question of informed consent", "meaningVi": "vấn đề đạo đức không phải là hành động quan sát chính nó mà là câu hỏi về sự đồng ý có thông tin" },
-    { "phrase": "did the friend understand that their hardship would become material", "meaningVi": "người bạn có hiểu rằng khó khăn của họ sẽ trở thành tư liệu không" },
-    { "phrase": "Susan Sontag's illness notebooks, which she kept privately as a way of processing her own experience", "meaningVi": "Những cuốn nhật ký bệnh tật của Susan Sontag, mà bà giữ riêng tư như một cách xử lý kinh nghiệm của chính mình" },
-    { "phrase": "the assumption that observation and care are incompatible misunderstands how attention works", "meaningVi": "giả định rằng quan sát và quan tâm không tương thích hiểu sai cách chú ý hoạt động" },
-    { "phrase": "To notice the exact way a friend holds their coffee cup when she is crying", "meaningVi": "Để ý đến cách chính xác một người bạn cầm ly cà phê khi cô ấy khóc" },
-    { "phrase": "these are not acts of exploitation. They are acts of witness", "meaningVi": "đây không phải là hành động khai thác. Đây là hành động làm chứng" },
-    { "phrase": "which is one of the things friends are for", "meaningVi": "đó là một trong những điều bạn bè dành cho nhau" },
-    { "phrase": "The person who notices nothing, who is too submerged in their own discomfort to pay close attention, is not a better friend", "meaningVi": "Người không chú ý gì cả, người quá chìm đắm trong sự khó chịu của chính mình để chú ý kỹ, không phải là người bạn tốt hơn" },
-    { "phrase": "What is ethically required is not the suspension of the observer's habits but the exercise of judgment", "meaningVi": "Điều được yêu cầu về mặt đạo đức không phải là sự đình chỉ thói quen của người quan sát mà là việc thực hành phán xét" },
-    { "phrase": "Notes taken in care, processed privately, and shared only with consent occupy a different ethical space", "meaningVi": "Những ghi chú được lấy trong sự quan tâm, xử lý riêng tư và chia sẻ chỉ với sự đồng ý chiếm một không gian đạo đức khác" },
-    { "phrase": "extracted and published without disclosure", "meaningVi": "được trích xuất và xuất bản mà không tiết lộ" },
-    { "phrase": "The act of writing is not the betrayal; the betrayal is in the use", "meaningVi": "Hành động viết không phải là sự phản bội; sự phản bội nằm trong cách sử dụng" },
-    { "phrase": "too submerged in their own discomfort to pay close attention", "meaningVi": "quá chìm đắm trong sự khó chịu của bản thân để chú ý kỹ" }
+    {
+      "phrase": "What Joan Didion did in the weeks after her husband John Gregory Dunne died was not a withdrawal from grief but a specific kind of submission to it",
+      "meaningVi": "Điều Joan Didion đã làm trong những tuần sau khi chồng bà John Gregory Dunne qua đời không phải là sự rút lui khỏi nỗi đau buồn mà là một loại phục tùng đặc biệt với nó"
+    },
+    {
+      "phrase": "recording was the only way she could remain present to what was happening",
+      "meaningVi": "việc ghi chép là cách duy nhất cô ấy có thể ở lại với những gì đang xảy ra"
+    },
+    {
+      "phrase": "the act of writing was itself a form of being there",
+      "meaningVi": "hành động viết chính là một hình thức hiện diện ở đó"
+    },
+    {
+      "phrase": "A person suffering has not signed a contract authorising their pain to be processed into prose",
+      "meaningVi": "Một người đang đau khổ chưa ký hợp đồng cho phép nỗi đau của họ được xử lý thành văn xuôi"
+    },
+    {
+      "phrase": "a split that is difficult to defend",
+      "meaningVi": "một sự chia rẽ khó có thể bào chữa"
+    },
+    {
+      "phrase": "a kind of dual consciousness in which full presence is sacrificed to the habit of observation",
+      "meaningVi": "một loại ý thức kép mà trong đó sự hiện diện đầy đủ bị hy sinh cho thói quen quan sát"
+    },
+    {
+      "phrase": "Granted, that concern is sharpest when the notes are taken without the friend's knowledge",
+      "meaningVi": "Phải công nhận, mối lo ngại đó sắc bén nhất khi những ghi chú được lấy mà không có kiến thức của người bạn"
+    },
+    {
+      "phrase": "the ethical issue is not the act of observation itself but the question of informed consent",
+      "meaningVi": "vấn đề đạo đức không phải là hành động quan sát chính nó mà là câu hỏi về sự đồng ý có thông tin"
+    },
+    {
+      "phrase": "did the friend understand that their hardship would become material",
+      "meaningVi": "người bạn có hiểu rằng khó khăn của họ sẽ trở thành tư liệu không"
+    },
+    {
+      "phrase": "Susan Sontag's illness notebooks, which she kept privately as a way of processing her own experience",
+      "meaningVi": "Những cuốn nhật ký bệnh tật của Susan Sontag, mà bà giữ riêng tư như một cách xử lý kinh nghiệm của chính mình"
+    },
+    {
+      "phrase": "the assumption that observation and care are incompatible misunderstands how attention works",
+      "meaningVi": "giả định rằng quan sát và quan tâm không tương thích hiểu sai cách chú ý hoạt động"
+    },
+    {
+      "phrase": "To notice the exact way a friend holds their coffee cup when she is crying",
+      "meaningVi": "Để ý đến cách chính xác một người bạn cầm ly cà phê khi cô ấy khóc"
+    },
+    {
+      "phrase": "these are not acts of exploitation. They are acts of witness",
+      "meaningVi": "đây không phải là hành động khai thác. Đây là hành động làm chứng"
+    },
+    {
+      "phrase": "which is one of the things friends are for",
+      "meaningVi": "đó là một trong những điều bạn bè dành cho nhau"
+    },
+    {
+      "phrase": "The person who notices nothing, who is too submerged in their own discomfort to pay close attention, is not a better friend",
+      "meaningVi": "Người không chú ý gì cả, người quá chìm đắm trong sự khó chịu của chính mình để chú ý kỹ, không phải là người bạn tốt hơn"
+    },
+    {
+      "phrase": "What is ethically required is not the suspension of the observer's habits but the exercise of judgment",
+      "meaningVi": "Điều được yêu cầu về mặt đạo đức không phải là sự đình chỉ thói quen của người quan sát mà là việc thực hành phán xét"
+    },
+    {
+      "phrase": "Notes taken in care, processed privately, and shared only with consent occupy a different ethical space",
+      "meaningVi": "Những ghi chú được lấy trong sự quan tâm, xử lý riêng tư và chia sẻ chỉ với sự đồng ý chiếm một không gian đạo đức khác"
+    },
+    {
+      "phrase": "extracted and published without disclosure",
+      "meaningVi": "được trích xuất và xuất bản mà không tiết lộ"
+    },
+    {
+      "phrase": "The act of writing is not the betrayal; the betrayal is in the use",
+      "meaningVi": "Hành động viết không phải là sự phản bội; sự phản bội nằm trong cách sử dụng"
+    },
+    {
+      "phrase": "too submerged in their own discomfort to pay close attention",
+      "meaningVi": "quá chìm đắm trong sự khó chịu của bản thân để chú ý kỹ"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -77,12 +209,12 @@
       "id": "q1",
       "prompt": "What does the essay argue Joan Didion's note-taking actually was?",
       "options": [
-        "A way of avoiding grief by focusing on language.",
         "A form of presence and submission to grief, not withdrawal from it.",
+        "A way of avoiding grief by focusing on language.",
         "An act of detachment that helped her cope professionally.",
         "A betrayal of her own private mourning."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The opening what-cleft argues Didion's recording 'was not a withdrawal from grief but a specific kind of submission to it', and 'the act of writing was itself a form of being there'.",
       "hint": "The what-cleft contrasts 'withdrawal' with something opposite — what is that opposite?"
     },
@@ -104,11 +236,11 @@
       "prompt": "What is the essay's concession regarding observation during a friend's crisis?",
       "options": [
         "Writers should never be allowed to write about their friends' experiences.",
-        "The concern is sharpest when notes are taken without the friend's knowledge and later published.",
         "Friends should always sign consent forms before discussing their problems.",
+        "The concern is sharpest when notes are taken without the friend's knowledge and later published.",
         "Observation is always a betrayal regardless of the circumstances."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The 'Granted' paragraph specifies the worst case: 'notes taken without the friend's knowledge and later published' — here the ethics are most questionable.",
       "hint": "The concession focuses on a specific circumstance that makes the practice most ethically problematic."
     },
@@ -117,11 +249,11 @@
       "prompt": "How does the essay distinguish Susan Sontag's illness notebooks from a potentially unethical use of observation?",
       "options": [
         "Sontag's notebooks were published with the consent of all involved.",
-        "Sontag only wrote about herself, keeping the notebooks private — unlike publishing a friend's breakdown without consent.",
         "Sontag's writing was considered literary, not journalistic.",
-        "Sontag wrote in a language her friends could not read."
+        "Sontag wrote in a language her friends could not read.",
+        "Sontag only wrote about herself, keeping the notebooks private — unlike publishing a friend's breakdown without consent."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay contrasts Sontag 'keeping privately' what was 'her own experience' with 'a writer who publishes a detailed account of a friend's breakdown without asking'.",
       "hint": "Two things distinguish Sontag's case — who the subject is, and whether the notes were published."
     },
@@ -129,12 +261,12 @@
       "id": "q5",
       "prompt": "What does the essay argue acts of witness — noticing details during a friend's pain — actually are?",
       "options": [
+        "Acts of friendship and care, not exploitation.",
         "Acts of exploitation dressed up as care.",
         "Unprofessional habits that interfere with genuine friendship.",
-        "Acts of friendship and care, not exploitation.",
         "Signs that the observer values their writing more than their friend."
       ],
-      "answerIndex": 2,
+      "answerIndex": 0,
       "explanation": "The essay states 'these are not acts of exploitation. They are acts of witness, which is one of the things friends are for' — noticing carefully is a form of caring.",
       "hint": "The essay explicitly rejects 'exploitation' and offers a different word — find that word."
     },
@@ -143,11 +275,11 @@
       "prompt": "According to the essay, what is the person who 'notices nothing' like as a friend?",
       "options": [
         "A better friend because they are not exploiting their companion's pain.",
-        "More ethically trustworthy than a writer who takes notes.",
         "Simply a less present friend, not a better one.",
+        "More ethically trustworthy than a writer who takes notes.",
         "Someone with healthier emotional boundaries."
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "explanation": "The essay states the person 'too submerged in their own discomfort to pay close attention is not a better friend — they are simply a less present one'.",
       "hint": "The essay does not praise the person who notices nothing — what does it say about them?"
     },
@@ -156,11 +288,11 @@
       "prompt": "What does the essay identify as the real ethical issue — not observation, but what?",
       "options": [
         "Whether the writer is talented enough to do justice to the material.",
-        "Whether informed consent was given for the use of observed material.",
         "Whether the friend being written about is still alive.",
+        "Whether informed consent was given for the use of observed material.",
         "Whether the writing was done for artistic or commercial purposes."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay states: 'the ethical issue is not the act of observation itself but the question of informed consent: did the friend understand that their hardship would become material?'",
       "hint": "The essay shifts the ethical question from the act of observing to something else — what is that something else?"
     },
@@ -169,11 +301,11 @@
       "prompt": "What does 'the betrayal is in the use' mean?",
       "options": [
         "Writing about a friend's pain is always a betrayal.",
-        "The ethical violation lies not in observing or writing but in how and whether the material is subsequently used.",
         "Using a friend's words in writing is a form of copyright theft.",
-        "The use of pen and paper in modern times is outdated."
+        "The use of pen and paper in modern times is outdated.",
+        "The ethical violation lies not in observing or writing but in how and whether the material is subsequently used."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay's final sentence distinguishes the act of writing (ethically neutral) from how the writing is used (where the ethical question lies).",
       "hint": "The sentence is a contrast between 'the act of writing' and 'the use' — which one is the betrayal?"
     },
@@ -181,12 +313,12 @@
       "id": "q9",
       "prompt": "What does 'to instrumentalise' a friend mean in this context?",
       "options": [
-        "To use musical instruments at a friend's memorial.",
         "To treat a friend's pain as a means to your own creative or professional ends.",
+        "To use musical instruments at a friend's memorial.",
         "To instrument a friendship formally with rules and agreements.",
         "To analyse a friend's behaviour using psychological instruments."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'Instrumentalise' means to treat something as a mere instrument or tool — here, treating a friend's suffering as raw material for the observer's writing.",
       "hint": "An 'instrument' is a tool — what does it mean to turn a friend into one?"
     },
@@ -208,11 +340,11 @@
       "prompt": "What does 'bear witness' mean?",
       "options": [
         "To carry a heavy burden for another person.",
-        "To observe and acknowledge what is happening to someone, especially in difficult circumstances.",
         "To testify in a legal proceeding on behalf of a friend.",
+        "To observe and acknowledge what is happening to someone, especially in difficult circumstances.",
         "To write a memoir about one's own illness."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'Bear witness' means to be present and to acknowledge — it implies that the act of careful attention is itself a form of recognition and care.",
       "hint": "'Witness' involves seeing and acknowledging — what does 'bearing' it add to that meaning?"
     },
@@ -221,11 +353,11 @@
       "prompt": "What does 'informed consent' require in the essay's context?",
       "options": [
         "A legal document signed by both parties before a friendship begins.",
-        "The friend's understanding and agreement that their hardship may be written about.",
         "A university ethics board reviewing the writer's notes.",
-        "The friend's approval of the final published text."
+        "The friend's approval of the final published text.",
+        "The friend's understanding and agreement that their hardship may be written about."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay asks: 'did the friend understand that their hardship would become material, and did they agree to that use?' — this is the minimal content of informed consent.",
       "hint": "'Informed' means the person understands the situation; 'consent' means they agree to it."
     },
@@ -233,12 +365,12 @@
       "id": "q13",
       "prompt": "What does the essay argue about the relationship between observation and care?",
       "options": [
-        "They are mutually exclusive — a good observer cannot be a good friend.",
         "Careful observation is itself a form of care, not its opposite.",
+        "They are mutually exclusive — a good observer cannot be a good friend.",
         "Observation should be reserved for professional journalists, not friends.",
         "Care requires complete emotional immersion without any analytical distance."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay argues that noticing details 'are acts of witness, which is one of the things friends are for' — observation and care are presented as compatible, not opposed.",
       "hint": "The essay explicitly rejects the assumption that observation and care are 'incompatible'."
     },
@@ -260,11 +392,11 @@
       "prompt": "Which phrase maintains a formal B2 register appropriate for ethical argument?",
       "options": [
         "It's really not okay to write stuff about your friends when they're going through stuff.",
-        "the ethical issue is not the act of observation itself but the question of informed consent",
         "Like, Didion was super famous so she could get away with it.",
+        "the ethical issue is not the act of observation itself but the question of informed consent",
         "Friendship is really important and writing about friends is kind of a betrayal tbh."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "Option B uses precise legal and ethical vocabulary ('informed consent', 'act of observation') and a formal, analytical sentence structure with no colloquial language.",
       "hint": "Look for precise vocabulary and no informal intensifiers or slang."
     },
@@ -273,11 +405,11 @@
       "prompt": "What does 'detachment' risk in the context of observing a friend's pain?",
       "options": [
         "Making the observer too emotionally involved to write clearly.",
-        "Creating a split between the observer's role as a caring friend and their role as a recorder.",
         "Making the friend feel that their pain is being celebrated.",
-        "Reducing the quality of the written work produced."
+        "Reducing the quality of the written work produced.",
+        "Creating a split between the observer's role as a caring friend and their role as a recorder."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'Detachment' risks producing the 'dual consciousness' the essay describes — the observer present physically but partly elsewhere, cataloguing rather than fully accompanying.",
       "hint": "The essay describes detachment as a split between two roles — what are those two roles?"
     }

@@ -3,7 +3,11 @@
   "level": "A1",
   "title": "The corner shop I visit every week",
   "summary": "Describe a small local shop you visit regularly, using present simple and adverbs of frequency.",
-  "tags": ["Places", "Daily life", "Shopping"],
+  "tags": [
+    "Places",
+    "Daily life",
+    "Shopping"
+  ],
   "topic": "A small shop you visit every week",
   "prompt": "Write 6–8 short sentences about a small shop near where you live. Describe what it sells, who works there, and why you like it. Use present simple and adverbs of frequency (always, usually, sometimes, never).",
   "minWords": 150,
@@ -14,31 +18,100 @@
     "I usually go there because…"
   ],
   "hintVocab": [
-    { "phrase": "corner shop", "meaningVi": "cửa hàng nhỏ ở góc phố" },
-    { "phrase": "owner", "meaningVi": "chủ cửa hàng", "pronunciation": "/ˈoʊnər/" },
-    { "phrase": "shelf", "meaningVi": "kệ hàng", "pronunciation": "/ʃelf/" },
-    { "phrase": "newspaper", "meaningVi": "báo" },
-    { "phrase": "candle", "meaningVi": "nến" },
-    { "phrase": "recognize", "meaningVi": "nhận ra", "pronunciation": "/ˈrekəɡnaɪz/" },
-    { "phrase": "regular", "meaningVi": "khách quen" },
-    { "phrase": "open until late", "meaningVi": "mở cửa đến tận khuya" },
-    { "phrase": "small talk", "meaningVi": "nói chuyện xã giao" },
-    { "phrase": "change", "meaningVi": "tiền thối lại" },
-    { "phrase": "convenient", "meaningVi": "tiện lợi" }
+    {
+      "phrase": "corner shop",
+      "meaningVi": "cửa hàng nhỏ ở góc phố"
+    },
+    {
+      "phrase": "owner",
+      "meaningVi": "chủ cửa hàng",
+      "pronunciation": "/ˈoʊnər/"
+    },
+    {
+      "phrase": "shelf",
+      "meaningVi": "kệ hàng",
+      "pronunciation": "/ʃelf/"
+    },
+    {
+      "phrase": "newspaper",
+      "meaningVi": "báo"
+    },
+    {
+      "phrase": "candle",
+      "meaningVi": "nến"
+    },
+    {
+      "phrase": "recognize",
+      "meaningVi": "nhận ra",
+      "pronunciation": "/ˈrekəɡnaɪz/"
+    },
+    {
+      "phrase": "regular",
+      "meaningVi": "khách quen"
+    },
+    {
+      "phrase": "open until late",
+      "meaningVi": "mở cửa đến tận khuya"
+    },
+    {
+      "phrase": "small talk",
+      "meaningVi": "nói chuyện xã giao"
+    },
+    {
+      "phrase": "change",
+      "meaningVi": "tiền thối lại"
+    },
+    {
+      "phrase": "convenient",
+      "meaningVi": "tiện lợi"
+    }
   ],
   "sampleText": "Near my flat in Seoul, there is a small shop on the corner of two busy streets. It is open every day from seven in the morning until midnight. The owner is an older man named Mr Han. He always sits behind the counter and reads a newspaper. The shop sells everything: rice, noodles, soap, candles, and cold drinks. The shelves are always full. I usually go there two or three times a week. I sometimes buy a bottle of water and a small snack after work. Mr Han always recognizes me because I am a regular customer. He never smiles much but he is always friendly. Sometimes he gives me the exact change without counting because he knows the prices by heart. I never go to the big supermarket for small things because this shop is close and easy. I think the corner shop is very convenient. I feel happy every time I walk inside.",
   "sampleAnnotations": [
-    { "phrase": "on the corner of two busy streets", "meaningVi": "ở góc hai con phố đông đúc" },
-    { "phrase": "from seven in the morning until midnight", "meaningVi": "từ bảy giờ sáng đến nửa đêm" },
-    { "phrase": "behind the counter", "meaningVi": "sau quầy thu ngân" },
-    { "phrase": "reads a newspaper", "meaningVi": "đọc báo" },
-    { "phrase": "sells everything", "meaningVi": "bán đủ thứ" },
-    { "phrase": "The shelves are always full", "meaningVi": "Các kệ hàng luôn đầy" },
-    { "phrase": "a regular customer", "meaningVi": "một khách hàng quen" },
-    { "phrase": "exact change", "meaningVi": "tiền thối đúng số" },
-    { "phrase": "knows the prices by heart", "meaningVi": "thuộc lòng giá cả" },
-    { "phrase": "close and easy", "meaningVi": "gần và tiện" },
-    { "phrase": "every time I walk inside", "meaningVi": "mỗi lần tôi bước vào" }
+    {
+      "phrase": "on the corner of two busy streets",
+      "meaningVi": "ở góc hai con phố đông đúc"
+    },
+    {
+      "phrase": "from seven in the morning until midnight",
+      "meaningVi": "từ bảy giờ sáng đến nửa đêm"
+    },
+    {
+      "phrase": "behind the counter",
+      "meaningVi": "sau quầy thu ngân"
+    },
+    {
+      "phrase": "reads a newspaper",
+      "meaningVi": "đọc báo"
+    },
+    {
+      "phrase": "sells everything",
+      "meaningVi": "bán đủ thứ"
+    },
+    {
+      "phrase": "The shelves are always full",
+      "meaningVi": "Các kệ hàng luôn đầy"
+    },
+    {
+      "phrase": "a regular customer",
+      "meaningVi": "một khách hàng quen"
+    },
+    {
+      "phrase": "exact change",
+      "meaningVi": "tiền thối đúng số"
+    },
+    {
+      "phrase": "knows the prices by heart",
+      "meaningVi": "thuộc lòng giá cả"
+    },
+    {
+      "phrase": "close and easy",
+      "meaningVi": "gần và tiện"
+    },
+    {
+      "phrase": "every time I walk inside",
+      "meaningVi": "mỗi lần tôi bước vào"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -54,11 +127,11 @@
       "prompt": "Choose the correct present simple form for a shop: 'The shop ___ rice, noodles, and candles.'",
       "options": [
         "sell",
-        "selling",
         "sells",
+        "selling",
         "sold"
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "explanation": "Third-person singular (the shop = it) takes -s: 'sells'.",
       "hint": "Is 'the shop' a first-person or third-person subject?"
     },
@@ -67,11 +140,11 @@
       "prompt": "Which sentence uses an adverb of frequency correctly?",
       "options": [
         "The shelves always are full.",
-        "The shelves are always full.",
         "Always the shelves full are.",
+        "The shelves are always full.",
         "The shelves are full always very."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "With the verb 'be', the adverb of frequency goes after 'are': 'are always full'.",
       "hint": "With the verb 'be', where does the adverb go?"
     },
@@ -79,12 +152,12 @@
       "id": "q3",
       "prompt": "Which sentence uses 'because' to explain why you go to a small shop?",
       "options": [
-        "I go there because it is close and easy.",
         "I go there because close easy it.",
         "Because close I go there easy.",
-        "I go there it is close because easy."
+        "I go there it is close because easy.",
+        "I go there because it is close and easy."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'because' + subject + verb + adjectives: 'because it is close and easy'.",
       "hint": "After 'because', check for a full clause."
     },
@@ -105,12 +178,12 @@
       "id": "q5",
       "prompt": "Which sentence correctly says someone recognizes you?",
       "options": [
-        "He always recognizes me.",
         "He always recognize me.",
+        "He always recognizes me.",
         "He always recognizing me.",
         "He always recognized me every day."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "Third-person singular: 'he recognizes' — present simple with -s and 'always' before the verb.",
       "hint": "What ending does the verb need with 'he'?"
     },
@@ -118,12 +191,12 @@
       "id": "q6",
       "prompt": "Which sentence uses 'never' correctly in a present simple negative?",
       "options": [
-        "I never go to the big supermarket for small things.",
         "I never not go to the big supermarket.",
         "I never going to the big supermarket.",
+        "I never go to the big supermarket for small things.",
         "Never I go to the big supermarket."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'I never go' — one negative word is enough; 'never' before the main verb is correct.",
       "hint": "Where does 'never' go in a sentence?"
     },
@@ -131,12 +204,12 @@
       "id": "q7",
       "prompt": "Which sentence correctly describes when a shop is open?",
       "options": [
-        "The shop is open every day from seven until midnight.",
         "The shop open every day from seven until midnight.",
         "The shop is open every days from seven to midnights.",
-        "Every day the shop opens from seven midnight."
+        "Every day the shop opens from seven midnight.",
+        "The shop is open every day from seven until midnight."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'is open' for a state, 'from … until …' for a time range, 'every day' (singular) for frequency.",
       "hint": "Check the verb ('be' for a state) and the time prepositions."
     },
@@ -157,12 +230,12 @@
       "id": "q9",
       "prompt": "Which sentence correctly says what someone always does while sitting?",
       "options": [
-        "He always sits behind the counter and reads a newspaper.",
         "He sits always behind counter and reads newspaper.",
+        "He always sits behind the counter and reads a newspaper.",
         "He always sit behind the counter and read a newspaper.",
         "Always sitting behind counter he reads newspaper."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'always' before the main verb; two actions joined with 'and': 'sits and reads' — both third-person singular.",
       "hint": "Both verbs after 'and' need the third-person -s."
     },
@@ -170,12 +243,12 @@
       "id": "q10",
       "prompt": "Which sentence uses 'and' to join two things a shop sells?",
       "options": [
-        "It sells soap and candles.",
         "It sells soap and selling candles.",
         "Soap and candles it selling.",
+        "It sells soap and candles.",
         "It sells soap and candles sold."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'sells soap and candles' — 'and' joins two noun objects of the same verb.",
       "hint": "Both things after 'and' should be nouns following the same verb."
     }

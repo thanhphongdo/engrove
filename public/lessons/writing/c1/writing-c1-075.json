@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "On the obligations of those who survive what others did not",
   "summary": "Argue that the survivor of a war, an epidemic, an industrial accident, or a slow institutional violence inherits a category of obligation that no one else can discharge for her — and that the public language of 'gratitude for being alive' is inadequate to its weight.",
-  "tags": ["Ethics", "Memory", "Argument"],
+  "tags": [
+    "Ethics",
+    "Memory",
+    "Argument"
+  ],
   "topic": "What the survivor owes — to whom, and in what currency",
   "prompt": "Write a 600–800-word essay on the moral obligations that fall on the person who has survived what others did not — a war, an epidemic, an accident, an institutional violence. Avoid the language of 'gratitude' and avoid sentimental survivor-narratives. Use one inversion, one cleft, and a 'Granted… Even so…' concession. Treat the question philosophically.",
   "minWords": 600,
@@ -14,53 +18,185 @@
     "Granted, the obligations of the survivor cannot be discharged through a procedure, and the demand for any particular form of remembrance is itself a kind of violence. Even so,…"
   ],
   "hintVocab": [
-    {"phrase": "the survivor's obligation", "meaningVi": "nghĩa vụ của người sống sót"},
-    {"phrase": "survivor's guilt", "meaningVi": "cảm giác tội lỗi của người sống sót"},
-    {"phrase": "narrative custodianship", "meaningVi": "sự gìn giữ tự sự"},
-    {"phrase": "the unrepayable debt", "meaningVi": "món nợ không thể trả"},
-    {"phrase": "the unequal lottery", "meaningVi": "cuộc xổ số không bình đẳng"},
-    {"phrase": "the inherited witness", "meaningVi": "nhân chứng kế thừa"},
-    {"phrase": "Primo Levi on the drowned and the saved", "meaningVi": "Primo Levi về người chìm và người được cứu"},
-    {"phrase": "the speaking on behalf", "meaningVi": "việc nói thay"},
-    {"phrase": "the asymmetry of voice", "meaningVi": "bất đối xứng của tiếng nói"},
-    {"phrase": "the unredeemed memory", "meaningVi": "ký ức không được cứu chuộc"},
-    {"phrase": "the ritualised commemoration", "meaningVi": "tưởng niệm nghi thức hoá"},
-    {"phrase": "the empty seat", "meaningVi": "chỗ ngồi trống"},
-    {"phrase": "the moral economy of survival", "meaningVi": "kinh tế đạo đức của sự sống sót"},
-    {"phrase": "the dead claim", "meaningVi": "yêu sách của người chết"},
-    {"phrase": "the consent gap", "meaningVi": "khoảng trống đồng ý"},
-    {"phrase": "the disposable testimony", "meaningVi": "lời chứng dùng một lần"},
-    {"phrase": "the public-facing version", "meaningVi": "phiên bản hướng công chúng"},
-    {"phrase": "the obligation of remembering accurately", "meaningVi": "nghĩa vụ nhớ chính xác"},
-    {"phrase": "the obligation of not speaking too much", "meaningVi": "nghĩa vụ không nói quá nhiều"},
-    {"phrase": "the obligation of not speaking too little", "meaningVi": "nghĩa vụ không nói quá ít"},
-    {"phrase": "the curated death", "meaningVi": "cái chết được biên tập"},
-    {"phrase": "the discomfort of survival", "meaningVi": "sự khó chịu của việc sống sót"}
+    {
+      "phrase": "the survivor's obligation",
+      "meaningVi": "nghĩa vụ của người sống sót"
+    },
+    {
+      "phrase": "survivor's guilt",
+      "meaningVi": "cảm giác tội lỗi của người sống sót"
+    },
+    {
+      "phrase": "narrative custodianship",
+      "meaningVi": "sự gìn giữ tự sự"
+    },
+    {
+      "phrase": "the unrepayable debt",
+      "meaningVi": "món nợ không thể trả"
+    },
+    {
+      "phrase": "the unequal lottery",
+      "meaningVi": "cuộc xổ số không bình đẳng"
+    },
+    {
+      "phrase": "the inherited witness",
+      "meaningVi": "nhân chứng kế thừa"
+    },
+    {
+      "phrase": "Primo Levi on the drowned and the saved",
+      "meaningVi": "Primo Levi về người chìm và người được cứu"
+    },
+    {
+      "phrase": "the speaking on behalf",
+      "meaningVi": "việc nói thay"
+    },
+    {
+      "phrase": "the asymmetry of voice",
+      "meaningVi": "bất đối xứng của tiếng nói"
+    },
+    {
+      "phrase": "the unredeemed memory",
+      "meaningVi": "ký ức không được cứu chuộc"
+    },
+    {
+      "phrase": "the ritualised commemoration",
+      "meaningVi": "tưởng niệm nghi thức hoá"
+    },
+    {
+      "phrase": "the empty seat",
+      "meaningVi": "chỗ ngồi trống"
+    },
+    {
+      "phrase": "the moral economy of survival",
+      "meaningVi": "kinh tế đạo đức của sự sống sót"
+    },
+    {
+      "phrase": "the dead claim",
+      "meaningVi": "yêu sách của người chết"
+    },
+    {
+      "phrase": "the consent gap",
+      "meaningVi": "khoảng trống đồng ý"
+    },
+    {
+      "phrase": "the disposable testimony",
+      "meaningVi": "lời chứng dùng một lần"
+    },
+    {
+      "phrase": "the public-facing version",
+      "meaningVi": "phiên bản hướng công chúng"
+    },
+    {
+      "phrase": "the obligation of remembering accurately",
+      "meaningVi": "nghĩa vụ nhớ chính xác"
+    },
+    {
+      "phrase": "the obligation of not speaking too much",
+      "meaningVi": "nghĩa vụ không nói quá nhiều"
+    },
+    {
+      "phrase": "the obligation of not speaking too little",
+      "meaningVi": "nghĩa vụ không nói quá ít"
+    },
+    {
+      "phrase": "the curated death",
+      "meaningVi": "cái chết được biên tập"
+    },
+    {
+      "phrase": "the discomfort of survival",
+      "meaningVi": "sự khó chịu của việc sống sót"
+    }
   ],
   "sampleText": "Rarely is the position of the survivor described in the language of obligation, although obligation is in fact the most precise word for what the position involves. The standard vocabulary speaks of gratitude — gratitude to medicine, to fortune, to whichever force is locally available — and treats the survivor's task as a kind of internal accounting between herself and her own continued life. This framing is comforting and incomplete. It misses the fact that the survivor's relation is not only to her own continuation but to the people who did not continue, and that this relation, whether she sought it or not, carries claims that cannot be discharged by feeling grateful.\n\nConsider the woman who returns to her apartment in Beirut the morning after a long night of falling concrete. The neighbours she had coffee with on Wednesday are not there on Thursday. The building stands in part, and she walks through it more carefully than before, noticing details that for years she had passed without seeing — the kettle on the table, the pair of shoes by the door. The standard response asks how she feels. The deeper question is what she now owes, and to whom. She owes something to the children of the neighbours, who will ask in twenty years what their grandmother said in the last conversation. She owes something to the public account of the night, which will be assembled, with or without her, by people whose interest in accuracy is not always equal to her own. She owes something, more subtly, to the version of herself who might have died and now cannot be consulted about whether the survivor is honouring what was lost.\n\nWhat the public vocabulary of 'gratitude for being alive' tends to disguise is the fact that survival places the survivor in a relation she did not consent to enter. She is now the inheritor of a witness that no one else can give in the same form. The lottery selected her, with no respect for her wishes, to be the bearer of the account. Even her silence becomes a kind of speech, because what the next generation knows about that night will depend on whether she did or did not say anything. The choice is not between speaking and remaining private. It is between two forms of public action, both of which carry consequences for people who have no other way of being represented.\n\nIt is the absence of the unsurviving, not the presence of any particular obligation imposed by anyone living, that gives the survivor's position its weight. No committee voted to make her a custodian. No one signed her up. The structural fact of who lived and who did not is enough. The dead cannot speak; the survivor can. The asymmetry, which she did not create, runs through every subsequent choice she will make about whether to give an interview, attend a commemoration, write a memoir, name a street, refuse a name on a street, or simply walk through the building unsteadily on a Tuesday morning. Each choice is an act of representation. The dead have no other representatives.\n\nGranted, the obligations of the survivor cannot be discharged through a procedure, and the demand for any particular form of remembrance is itself a kind of violence. The survivor who is asked to speak at every anniversary, to perform her grief on schedule, to provide quotable testimony for whichever institution is currently in need of a face, is bearing a burden that the institutional language of remembrance often quietly externalises onto her. The demand is rarely honest about what it is asking. Even so, the existence of these abuses of the survivor's position does not mean that the position itself is empty of moral content. It means that the obligations exist and are owed primarily to the dead, not to the institutions that would prefer to use the survivor as a kind of human archive.\n\nA particular form of dishonesty appears in the survivor's public account when the survivor has been asked to be exemplary. The narrative of recovery, redemption, lessons-learned — the survivor as inspiration — is the institutional preference because it is the version that requires nothing of the listener. The honest version is harder to absorb. It involves the woman in Beirut acknowledging that she does not know why she survived and her neighbours did not, that the question is not answerable, that the obligation it places on her cannot be repaid, and that the only available response is to live as someone who has not forgotten the asymmetry. The institutional form smooths this into a tidier story. The survivor who refuses the smoothing is sometimes called difficult.\n\nNone of this resolves into a programme. There is no procedure that tells the survivor what she owes, in what currency, to whom, on what schedule. The narrower claim is that survival is not a private fact but a relational one, that the language of gratitude is too thin to register what the relation involves, and that the survivor who refuses to be made into either inspiration or perpetual mourner is honouring a more accurate description of her position than either institutional preference allows.",
   "sampleAnnotations": [
-    {"phrase": "Rarely is the position of the survivor described in the language of obligation, although obligation is in fact the most precise word for what the position involves", "meaningVi": "Hiếm khi vị trí của người sống sót được mô tả bằng ngôn ngữ của nghĩa vụ, mặc dù nghĩa vụ thực ra là từ chính xác nhất cho điều mà vị trí ấy liên quan"},
-    {"phrase": "the survivor's relation is not only to her own continuation but to the people who did not continue", "meaningVi": "mối quan hệ của người sống sót không chỉ với sự tiếp tục của chính mình mà với những người không tiếp tục"},
-    {"phrase": "claims that cannot be discharged by feeling grateful", "meaningVi": "các yêu sách không thể được giải toả bằng cảm giác biết ơn"},
-    {"phrase": "The neighbours she had coffee with on Wednesday are not there on Thursday", "meaningVi": "Những người hàng xóm cô đã uống cà phê cùng vào thứ Tư không có ở đó vào thứ Năm"},
-    {"phrase": "the kettle on the table, the pair of shoes by the door", "meaningVi": "ấm trà trên bàn, đôi giày bên cửa"},
-    {"phrase": "She owes something to the children of the neighbours, who will ask in twenty years what their grandmother said in the last conversation", "meaningVi": "Cô nợ điều gì đó với những đứa con của các hàng xóm, những đứa sẽ hỏi sau hai mươi năm bà của chúng đã nói gì trong cuộc trò chuyện cuối"},
-    {"phrase": "She owes something, more subtly, to the version of herself who might have died and now cannot be consulted about whether the survivor is honouring what was lost", "meaningVi": "Cô nợ, tinh tế hơn, với phiên bản của chính mình lẽ ra đã chết và giờ không thể được tham vấn về việc liệu người sống sót có đang tôn vinh điều đã mất"},
-    {"phrase": "What the public vocabulary of 'gratitude for being alive' tends to disguise is the fact that survival places the survivor in a relation she did not consent to enter", "meaningVi": "Điều mà vốn từ vựng công khai 'biết ơn vì còn sống' thường nguỵ trang là sự thật rằng sự sống sót đặt người sống sót vào một mối quan hệ cô không đồng ý bước vào"},
-    {"phrase": "She is now the inheritor of a witness that no one else can give in the same form", "meaningVi": "Cô giờ là người kế thừa của một lời chứng mà không ai khác có thể đưa ra cùng hình thức"},
-    {"phrase": "The lottery selected her, with no respect for her wishes, to be the bearer of the account", "meaningVi": "Cuộc xổ số chọn cô, không tôn trọng ý muốn của cô, làm người mang tài khoản"},
-    {"phrase": "Even her silence becomes a kind of speech", "meaningVi": "Ngay cả sự im lặng của cô cũng trở thành một loại lời nói"},
-    {"phrase": "between two forms of public action, both of which carry consequences for people who have no other way of being represented", "meaningVi": "giữa hai hình thức hành động công khai, cả hai mang hậu quả cho những người không có cách nào khác để được đại diện"},
-    {"phrase": "It is the absence of the unsurviving, not the presence of any particular obligation imposed by anyone living, that gives the survivor's position its weight", "meaningVi": "Chính sự vắng mặt của người không sống sót, không phải sự hiện diện của bất kỳ nghĩa vụ cụ thể nào do bất kỳ người sống nào áp đặt, mới mang lại cho vị trí của người sống sót trọng lượng của nó"},
-    {"phrase": "The dead cannot speak; the survivor can", "meaningVi": "Người chết không thể nói; người sống sót có thể"},
-    {"phrase": "Each choice is an act of representation. The dead have no other representatives", "meaningVi": "Mỗi lựa chọn là một hành vi đại diện. Người chết không có người đại diện nào khác"},
-    {"phrase": "Granted, the obligations of the survivor cannot be discharged through a procedure, and the demand for any particular form of remembrance is itself a kind of violence", "meaningVi": "Cứ cho là nghĩa vụ của người sống sót không thể được giải toả qua một quy trình, và yêu cầu về bất kỳ hình thức tưởng nhớ cụ thể nào tự nó là một loại bạo lực"},
-    {"phrase": "the institutional language of remembrance often quietly externalises onto her", "meaningVi": "ngôn ngữ thể chế của sự tưởng nhớ thường lặng lẽ ngoại hoá lên cô"},
-    {"phrase": "Even so, the existence of these abuses of the survivor's position does not mean that the position itself is empty of moral content", "meaningVi": "Dù vậy, sự tồn tại của các lạm dụng vị trí của người sống sót này không có nghĩa là vị trí tự nó trống nội dung đạo đức"},
-    {"phrase": "the survivor as inspiration — is the institutional preference because it is the version that requires nothing of the listener", "meaningVi": "người sống sót như nguồn cảm hứng — là sự ưa thích của thể chế vì đó là phiên bản không đòi hỏi gì ở người nghe"},
-    {"phrase": "the only available response is to live as someone who has not forgotten the asymmetry", "meaningVi": "phản hồi duy nhất có sẵn là sống như ai đó không quên sự bất đối xứng"},
-    {"phrase": "The survivor who refuses the smoothing is sometimes called difficult", "meaningVi": "Người sống sót từ chối sự làm nhẵn đôi khi bị gọi là khó tính"},
-    {"phrase": "survival is not a private fact but a relational one", "meaningVi": "sự sống sót không phải là một sự thật riêng tư mà là một sự thật quan hệ"}
+    {
+      "phrase": "Rarely is the position of the survivor described in the language of obligation, although obligation is in fact the most precise word for what the position involves",
+      "meaningVi": "Hiếm khi vị trí của người sống sót được mô tả bằng ngôn ngữ của nghĩa vụ, mặc dù nghĩa vụ thực ra là từ chính xác nhất cho điều mà vị trí ấy liên quan"
+    },
+    {
+      "phrase": "the survivor's relation is not only to her own continuation but to the people who did not continue",
+      "meaningVi": "mối quan hệ của người sống sót không chỉ với sự tiếp tục của chính mình mà với những người không tiếp tục"
+    },
+    {
+      "phrase": "claims that cannot be discharged by feeling grateful",
+      "meaningVi": "các yêu sách không thể được giải toả bằng cảm giác biết ơn"
+    },
+    {
+      "phrase": "The neighbours she had coffee with on Wednesday are not there on Thursday",
+      "meaningVi": "Những người hàng xóm cô đã uống cà phê cùng vào thứ Tư không có ở đó vào thứ Năm"
+    },
+    {
+      "phrase": "the kettle on the table, the pair of shoes by the door",
+      "meaningVi": "ấm trà trên bàn, đôi giày bên cửa"
+    },
+    {
+      "phrase": "She owes something to the children of the neighbours, who will ask in twenty years what their grandmother said in the last conversation",
+      "meaningVi": "Cô nợ điều gì đó với những đứa con của các hàng xóm, những đứa sẽ hỏi sau hai mươi năm bà của chúng đã nói gì trong cuộc trò chuyện cuối"
+    },
+    {
+      "phrase": "She owes something, more subtly, to the version of herself who might have died and now cannot be consulted about whether the survivor is honouring what was lost",
+      "meaningVi": "Cô nợ, tinh tế hơn, với phiên bản của chính mình lẽ ra đã chết và giờ không thể được tham vấn về việc liệu người sống sót có đang tôn vinh điều đã mất"
+    },
+    {
+      "phrase": "What the public vocabulary of 'gratitude for being alive' tends to disguise is the fact that survival places the survivor in a relation she did not consent to enter",
+      "meaningVi": "Điều mà vốn từ vựng công khai 'biết ơn vì còn sống' thường nguỵ trang là sự thật rằng sự sống sót đặt người sống sót vào một mối quan hệ cô không đồng ý bước vào"
+    },
+    {
+      "phrase": "She is now the inheritor of a witness that no one else can give in the same form",
+      "meaningVi": "Cô giờ là người kế thừa của một lời chứng mà không ai khác có thể đưa ra cùng hình thức"
+    },
+    {
+      "phrase": "The lottery selected her, with no respect for her wishes, to be the bearer of the account",
+      "meaningVi": "Cuộc xổ số chọn cô, không tôn trọng ý muốn của cô, làm người mang tài khoản"
+    },
+    {
+      "phrase": "Even her silence becomes a kind of speech",
+      "meaningVi": "Ngay cả sự im lặng của cô cũng trở thành một loại lời nói"
+    },
+    {
+      "phrase": "between two forms of public action, both of which carry consequences for people who have no other way of being represented",
+      "meaningVi": "giữa hai hình thức hành động công khai, cả hai mang hậu quả cho những người không có cách nào khác để được đại diện"
+    },
+    {
+      "phrase": "It is the absence of the unsurviving, not the presence of any particular obligation imposed by anyone living, that gives the survivor's position its weight",
+      "meaningVi": "Chính sự vắng mặt của người không sống sót, không phải sự hiện diện của bất kỳ nghĩa vụ cụ thể nào do bất kỳ người sống nào áp đặt, mới mang lại cho vị trí của người sống sót trọng lượng của nó"
+    },
+    {
+      "phrase": "The dead cannot speak; the survivor can",
+      "meaningVi": "Người chết không thể nói; người sống sót có thể"
+    },
+    {
+      "phrase": "Each choice is an act of representation. The dead have no other representatives",
+      "meaningVi": "Mỗi lựa chọn là một hành vi đại diện. Người chết không có người đại diện nào khác"
+    },
+    {
+      "phrase": "Granted, the obligations of the survivor cannot be discharged through a procedure, and the demand for any particular form of remembrance is itself a kind of violence",
+      "meaningVi": "Cứ cho là nghĩa vụ của người sống sót không thể được giải toả qua một quy trình, và yêu cầu về bất kỳ hình thức tưởng nhớ cụ thể nào tự nó là một loại bạo lực"
+    },
+    {
+      "phrase": "the institutional language of remembrance often quietly externalises onto her",
+      "meaningVi": "ngôn ngữ thể chế của sự tưởng nhớ thường lặng lẽ ngoại hoá lên cô"
+    },
+    {
+      "phrase": "Even so, the existence of these abuses of the survivor's position does not mean that the position itself is empty of moral content",
+      "meaningVi": "Dù vậy, sự tồn tại của các lạm dụng vị trí của người sống sót này không có nghĩa là vị trí tự nó trống nội dung đạo đức"
+    },
+    {
+      "phrase": "the survivor as inspiration — is the institutional preference because it is the version that requires nothing of the listener",
+      "meaningVi": "người sống sót như nguồn cảm hứng — là sự ưa thích của thể chế vì đó là phiên bản không đòi hỏi gì ở người nghe"
+    },
+    {
+      "phrase": "the only available response is to live as someone who has not forgotten the asymmetry",
+      "meaningVi": "phản hồi duy nhất có sẵn là sống như ai đó không quên sự bất đối xứng"
+    },
+    {
+      "phrase": "The survivor who refuses the smoothing is sometimes called difficult",
+      "meaningVi": "Người sống sót từ chối sự làm nhẵn đôi khi bị gọi là khó tính"
+    },
+    {
+      "phrase": "survival is not a private fact but a relational one",
+      "meaningVi": "sự sống sót không phải là một sự thật riêng tư mà là một sự thật quan hệ"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -80,12 +216,12 @@
       "id": "q1",
       "prompt": "Which sentence correctly inverts after 'Rarely' with a concessive 'although' clause?",
       "options": [
-        "Rarely the position of the survivor is described in the language of obligation.",
         "Rarely is the position of the survivor described in the language of obligation, although obligation is in fact the most precise word for what the position involves.",
+        "Rarely the position of the survivor is described in the language of obligation.",
         "The position of the survivor rarely is described as obligation.",
         "Rarely described is the position of the survivor."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'Rarely' fronts a negative adverbial requiring inversion: passive 'is' before subject. The 'although'-clause adds a conceptual reversal.",
       "hint": "Inversion + concessive 'although'."
     },
@@ -107,11 +243,11 @@
       "prompt": "Which sentence in the essay is a cleft?",
       "options": [
         "She owes something to the children of the neighbours.",
-        "It is the absence of the unsurviving, not the presence of any particular obligation imposed by anyone living, that gives the survivor's position its weight.",
         "The kettle on the table, the pair of shoes by the door.",
+        "It is the absence of the unsurviving, not the presence of any particular obligation imposed by anyone living, that gives the survivor's position its weight.",
         "Each choice is an act of representation."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'It is X, not Y, that Z' is the cleft. The essay locates the source of obligation in absence (of the dead), not in imposition (by the living).",
       "hint": "Look for 'It is ... not ... that ...'"
     },
@@ -120,11 +256,11 @@
       "prompt": "What does the essay mean by 'even her silence becomes a kind of speech'?",
       "options": [
         "Silence is sound.",
-        "Whether the survivor speaks or not, what future generations know about the event will partly depend on her choice — silence is itself a public act with representational consequences.",
         "Silence is golden.",
-        "Speech is silence."
+        "Speech is silence.",
+        "Whether the survivor speaks or not, what future generations know about the event will partly depend on her choice — silence is itself a public act with representational consequences."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay's structural observation: the survivor cannot withdraw from the representational role. Speaking and not speaking are both forms of public action.",
       "hint": "No exit from the representational role."
     },
@@ -132,12 +268,12 @@
       "id": "q5",
       "prompt": "How does the essay use 'Granted… Even so…'?",
       "options": [
-        "To deny the survivor any obligation.",
         "To grant fully that the demand for any particular form of remembrance can itself be a violence — institutions extract testimony — while restricting the conclusion: this does not empty the position of moral content.",
+        "To deny the survivor any obligation.",
         "To demand more public commemoration.",
         "To equivocate."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay openly concedes the abuse of survivors by institutional demand and limits the conclusion: the obligations exist, but they are owed primarily to the dead, not to extractive institutions.",
       "hint": "Concession to institutional abuse; obligation survives."
     },
@@ -159,11 +295,11 @@
       "prompt": "What is 'the honest version' the essay describes?",
       "options": [
         "A story with a clear moral.",
-        "The acknowledgement that the survivor does not know why she survived and the others did not, that the question is unanswerable, that the obligation cannot be repaid, and that the only response is to live as someone who has not forgotten the asymmetry.",
         "A claim that the dead are at peace.",
+        "The acknowledgement that the survivor does not know why she survived and the others did not, that the question is unanswerable, that the obligation cannot be repaid, and that the only response is to live as someone who has not forgotten the asymmetry.",
         "A promise of recovery."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay's anti-redemptive position: the honest survivor account refuses the smoothing and lives with the unresolved asymmetry.",
       "hint": "Unanswerable question; unrepayable obligation; lived asymmetry."
     },
@@ -172,11 +308,11 @@
       "prompt": "What does 'the dead have no other representatives' mean?",
       "options": [
         "A literal lack of lawyers.",
-        "The survivor's choices about whether and how to speak constitute, in practice, the only representation the dead now have — there is no other channel.",
         "A failure of democracy.",
-        "A historical accident."
+        "A historical accident.",
+        "The survivor's choices about whether and how to speak constitute, in practice, the only representation the dead now have — there is no other channel."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay's structural fact: the dead are voiceless, the survivor speaks; this is the source of the obligation, not a choice the survivor made.",
       "hint": "Survivor is the only available representation."
     },
@@ -184,12 +320,12 @@
       "id": "q9",
       "prompt": "What does 'the version of herself who might have died' refer to?",
       "options": [
-        "A delusion.",
         "The counterfactual self who could have been one of the dead and now has no voice — including no voice on whether the surviving version is honouring what was lost.",
+        "A delusion.",
         "A reincarnation.",
         "A psychological symptom."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay's most subtle observation: the survivor owes not only outward (to others) but inward, to the self who might have died and cannot review the surviving self's choices.",
       "hint": "The unconsultable counterfactual self."
     },
@@ -211,11 +347,11 @@
       "prompt": "What does the essay refuse to provide?",
       "options": [
         "An argument.",
-        "A programme — a procedure that tells the survivor what she owes, in what currency, to whom, on what schedule.",
         "Examples.",
+        "A programme — a procedure that tells the survivor what she owes, in what currency, to whom, on what schedule.",
         "Historical context."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay is explicit: 'There is no procedure that tells the survivor what she owes.' The point is to name the relation, not to operationalise it.",
       "hint": "No procedure; only the relation."
     },
@@ -224,11 +360,11 @@
       "prompt": "What is the essay's narrower claim?",
       "options": [
         "Survival is private.",
-        "Survival is a relational fact, gratitude is too thin a vocabulary, and the survivor who refuses to be made into either inspiration or perpetual mourner honours a more accurate description of her position than either institutional preference allows.",
         "Survivors should always speak.",
-        "Survivors should always remain silent."
+        "Survivors should always remain silent.",
+        "Survival is a relational fact, gratitude is too thin a vocabulary, and the survivor who refuses to be made into either inspiration or perpetual mourner honours a more accurate description of her position than either institutional preference allows."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay's final restatement: relational, not private; gratitude too thin; refusal of both institutional roles as honesty.",
       "hint": "Relational; thin vocabulary; refusal of false roles."
     },
@@ -236,12 +372,12 @@
       "id": "q13",
       "prompt": "What does the essay say Primo Levi contributes (implicitly)?",
       "options": [
-        "A theology of redemption.",
         "The framing in which the asymmetry between the drowned and the saved is the structural fact — the survivor's position is constituted by who is not present to speak.",
+        "A theology of redemption.",
         "A defence of silence.",
         "A theory of inheritance law."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay invokes Levi's framing implicitly: the testimony is owed because of who cannot give it, not because the survivor was selected for any particular reason.",
       "hint": "The drowned and the saved; the unspeaking."
     },
@@ -263,11 +399,11 @@
       "prompt": "What is the essay's overall stance?",
       "options": [
         "Survivors have no obligations.",
-        "Survivors inherit a structural obligation that cannot be discharged by gratitude or by procedural commemoration; the obligation is owed primarily to the dead; institutions that extract testimony or impose the inspiration narrative are abusing the position rather than honouring it.",
         "Survivors must speak at every anniversary.",
+        "Survivors inherit a structural obligation that cannot be discharged by gratitude or by procedural commemoration; the obligation is owed primarily to the dead; institutions that extract testimony or impose the inspiration narrative are abusing the position rather than honouring it.",
         "Survivors should write memoirs."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay's qualified position: real obligation, owed to the dead, not satisfiable by procedure or institutional theatre.",
       "hint": "Obligation real; owed to dead; institutional abuse rejected."
     },
@@ -276,11 +412,11 @@
       "prompt": "What rhetorical purpose does the refusal of false resolution serve?",
       "options": [
         "It signals failure.",
-        "It preserves the unresolvable asymmetry rather than dissolving it into a procedure or a narrative arc — the refusal of closure is the survivor's most honest position.",
         "It is a stylistic accident.",
-        "It is irrelevant."
+        "It is irrelevant.",
+        "It preserves the unresolvable asymmetry rather than dissolving it into a procedure or a narrative arc — the refusal of closure is the survivor's most honest position."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "C1 prose preserves the difficulty. The essay refuses redemption because redemption would itself be the betrayal of the dead the essay is trying to describe.",
       "hint": "Refusal of closure mirrors the survivor's honest position."
     }

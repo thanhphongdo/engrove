@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "Against the language of 'investment' in human relationships",
   "summary": "Examine how the metaphor of financial investment has colonised the vocabulary of friendship, love, and care, and argue that this framing distorts what relationships are for.",
-  "tags": ["Argument", "Language", "Ethics"],
+  "tags": [
+    "Argument",
+    "Language",
+    "Ethics"
+  ],
   "topic": "The distorting effects of economic metaphor on how we understand human relationships",
   "prompt": "Write a 600–800-word argumentative essay examining how the language of 'investment' — return on investment, emotional ROI, investing in people — has reshaped the way people in certain cultural contexts think about friendship, love, and care. Use at least two specific examples from different national or cultural contexts. Deploy inversion at least once, a cleft sentence, and a 'granted… even so…' concession. Avoid sentimentality about 'authentic' relationships; make a structural argument about how language shapes the values it describes.",
   "minWords": 600,
@@ -14,51 +18,175 @@
     "Granted, some instrumental framing of relationships has always existed. Even so,…"
   ],
   "hintVocab": [
-    {"phrase": "economic metaphor", "meaningVi": "ẩn dụ kinh tế"},
-    {"phrase": "colonise the vocabulary", "meaningVi": "chiếm lĩnh vốn từ vựng"},
-    {"phrase": "instrumental framing", "meaningVi": "khung phân tích công cụ"},
-    {"phrase": "return on investment", "meaningVi": "lợi tức đầu tư"},
-    {"phrase": "emotional ledger", "meaningVi": "sổ cái cảm xúc"},
-    {"phrase": "reciprocity", "meaningVi": "sự có đi có lại", "pronunciation": "/ˌresɪˈprɒsɪti/"},
-    {"phrase": "conceptual metaphor", "meaningVi": "ẩn dụ khái niệm"},
-    {"phrase": "sunk cost fallacy", "meaningVi": "ngụy biện chi phí chìm"},
-    {"phrase": "transactional logic", "meaningVi": "logic giao dịch"},
-    {"phrase": "affective domain", "meaningVi": "lĩnh vực cảm xúc"},
-    {"phrase": "non-instrumental value", "meaningVi": "giá trị không mang tính công cụ"},
-    {"phrase": "commodification", "meaningVi": "sự thương phẩm hóa", "pronunciation": "/kəˌmɒdɪfɪˈkeɪʃən/"},
-    {"phrase": "vocabulary of care", "meaningVi": "vốn từ vựng về sự quan tâm"},
-    {"phrase": "grief as a sunk cost", "meaningVi": "đau buồn như một chi phí chìm"},
-    {"phrase": "relational debt", "meaningVi": "nợ quan hệ"},
-    {"phrase": "parasocial relationship", "meaningVi": "mối quan hệ giả xã hội"},
-    {"phrase": "self-help discourse", "meaningVi": "diễn ngôn tự phát triển bản thân"},
-    {"phrase": "bounded rationality", "meaningVi": "lý trí bị giới hạn"},
-    {"phrase": "affective asymmetry", "meaningVi": "bất đối xứng cảm xúc"},
-    {"phrase": "love as labour", "meaningVi": "tình yêu như lao động"},
-    {"phrase": "relational impoverishment", "meaningVi": "sự nghèo nàn trong quan hệ"}
+    {
+      "phrase": "economic metaphor",
+      "meaningVi": "ẩn dụ kinh tế"
+    },
+    {
+      "phrase": "colonise the vocabulary",
+      "meaningVi": "chiếm lĩnh vốn từ vựng"
+    },
+    {
+      "phrase": "instrumental framing",
+      "meaningVi": "khung phân tích công cụ"
+    },
+    {
+      "phrase": "return on investment",
+      "meaningVi": "lợi tức đầu tư"
+    },
+    {
+      "phrase": "emotional ledger",
+      "meaningVi": "sổ cái cảm xúc"
+    },
+    {
+      "phrase": "reciprocity",
+      "meaningVi": "sự có đi có lại",
+      "pronunciation": "/ˌresɪˈprɒsɪti/"
+    },
+    {
+      "phrase": "conceptual metaphor",
+      "meaningVi": "ẩn dụ khái niệm"
+    },
+    {
+      "phrase": "sunk cost fallacy",
+      "meaningVi": "ngụy biện chi phí chìm"
+    },
+    {
+      "phrase": "transactional logic",
+      "meaningVi": "logic giao dịch"
+    },
+    {
+      "phrase": "affective domain",
+      "meaningVi": "lĩnh vực cảm xúc"
+    },
+    {
+      "phrase": "non-instrumental value",
+      "meaningVi": "giá trị không mang tính công cụ"
+    },
+    {
+      "phrase": "commodification",
+      "meaningVi": "sự thương phẩm hóa",
+      "pronunciation": "/kəˌmɒdɪfɪˈkeɪʃən/"
+    },
+    {
+      "phrase": "vocabulary of care",
+      "meaningVi": "vốn từ vựng về sự quan tâm"
+    },
+    {
+      "phrase": "grief as a sunk cost",
+      "meaningVi": "đau buồn như một chi phí chìm"
+    },
+    {
+      "phrase": "relational debt",
+      "meaningVi": "nợ quan hệ"
+    },
+    {
+      "phrase": "parasocial relationship",
+      "meaningVi": "mối quan hệ giả xã hội"
+    },
+    {
+      "phrase": "self-help discourse",
+      "meaningVi": "diễn ngôn tự phát triển bản thân"
+    },
+    {
+      "phrase": "bounded rationality",
+      "meaningVi": "lý trí bị giới hạn"
+    },
+    {
+      "phrase": "affective asymmetry",
+      "meaningVi": "bất đối xứng cảm xúc"
+    },
+    {
+      "phrase": "love as labour",
+      "meaningVi": "tình yêu như lao động"
+    },
+    {
+      "phrase": "relational impoverishment",
+      "meaningVi": "sự nghèo nàn trong quan hệ"
+    }
   ],
   "sampleText": "Not until you listen carefully to how someone describes ending a friendship does the depth of the colonisation become apparent. 'I've put so much into this,' they say, meaning: I have invested, and the return has been insufficient. The friend who did not reciprocate calls, who forgot birthdays, who was unavailable at the relevant moment — this person has failed as a debtor. The relationship is dissolved not with grief but with the language of a portfolio review.\n\nThe language of investment in human relationships is not neutral. It imports, along with its vocabulary, a specific evaluative logic: relationships have inputs, they should produce outputs, and when the ratio of input to output falls below an acceptable threshold, the relationship ought to be liquidated. This logic has spread most visibly in certain strands of North American self-help culture — from productivity podcasts that advise 'cutting low-value people' to coaching frameworks that ask clients to audit their social portfolio — but it has also gained traction in contexts as different as contemporary South Korean workplace friendship norms and the urban professional cultures of Lagos and São Paulo, where the language of ROI on social effort circulates widely on social media.\n\nIt is precisely the metaphor of investment — rather than, say, gift, covenant, or mutual recognition — that determines what questions we ask of a relationship. An investment invites quantification: what am I getting? A gift does not. A covenant implies obligations that are not conditional on return. Mutual recognition presupposes that the other person's value is not derived from their usefulness to you. When 'investment' becomes the default metaphor, these alternatives are not refuted; they become literally unspeakable — the vocabulary for them has been crowded out.\n\nThe consequences are not merely linguistic. The sunk cost fallacy has entered the vocabulary of grief: people now speak of 'holding on too long' to a relationship as though prolonged love were a failure of financial rationality. Conversely, when a relationship is described as 'toxic', the word performs a different kind of economic work — it recasts the other person as a liability on the emotional balance sheet rather than as a human being whose behaviour has caused genuine harm. Both moves — the liquidation and the toxicity declaration — convert a relational experience into an accounting event, and in doing so, they impoverish the person performing the accounting. You cannot mourn what you have merely written off.\n\nGranted, some instrumental framing of relationships has always existed. The calculation of social obligation — what is owed, to whom, in what circumstances — is as old as human society, and anthropologists from Marcel Mauss onwards have described the gift economy as itself shot through with expectation of return. Even so, there is a qualitative difference between the embedded reciprocity of a Polynesian gift exchange, which occurs within a framework of kinship and collective identity, and the self-optimising social audit of the productivity influencer. The former is a social practice with its own internal norms; the latter treats the individual as a firm and their relationships as assets to be managed against a return.\n\nThe deepest damage done by investment language is to care: not friendship or romantic love, which retain at least some culturally available vocabulary of unconditional regard, but the kind of ongoing, undramatic, daily care that sustains the people around us. When care is re-described as investment, it immediately raises the question of return — and care, by its nature, is often extended toward those least able to return it. The elderly, the ill, the very young: these are precisely the people for whom investment language is least applicable and most harmful. A culture that has thoroughly adopted the investment metaphor will find it increasingly difficult to justify care for those from whom no return is likely, because the language available to make that justification has been quietly evacuated.",
   "sampleAnnotations": [
-    {"phrase": "Not until you listen carefully to how someone describes ending a friendship does the depth of the colonisation become apparent", "meaningVi": "Chỉ khi bạn lắng nghe cẩn thận cách ai đó mô tả việc kết thúc một tình bạn, độ sâu của sự chiếm lĩnh mới trở nên rõ ràng"},
-    {"phrase": "this person has failed as a debtor", "meaningVi": "người này đã thất bại với tư cách là người mắc nợ"},
-    {"phrase": "the language of a portfolio review", "meaningVi": "ngôn ngữ của một buổi xem xét danh mục đầu tư"},
-    {"phrase": "inputs", "meaningVi": "đầu vào"},
-    {"phrase": "when the ratio of input to output falls below an acceptable threshold", "meaningVi": "khi tỷ lệ đầu vào trên đầu ra giảm xuống dưới ngưỡng chấp nhận được"},
-    {"phrase": "liquidated", "meaningVi": "bị thanh lý"},
-    {"phrase": "audit their social portfolio", "meaningVi": "kiểm toán danh mục xã hội của họ"},
-    {"phrase": "It is precisely the metaphor of investment", "meaningVi": "Chính xác là ẩn dụ về đầu tư"},
-    {"phrase": "that determines what questions we ask of a relationship", "meaningVi": "xác định những câu hỏi chúng ta đặt ra cho một mối quan hệ"},
-    {"phrase": "literally unspeakable", "meaningVi": "theo nghĩa đen là không thể nói được"},
-    {"phrase": "crowded out", "meaningVi": "bị đẩy ra ngoài, không còn chỗ"},
-    {"phrase": "grief as a sunk cost", "meaningVi": "đau buồn như một chi phí chìm"},
-    {"phrase": "a liability on the emotional balance sheet", "meaningVi": "một khoản nợ trên bảng cân đối cảm xúc"},
-    {"phrase": "convert a relational experience into an accounting event", "meaningVi": "chuyển đổi một trải nghiệm quan hệ thành một sự kiện kế toán"},
-    {"phrase": "You cannot mourn what you have merely written off", "meaningVi": "Bạn không thể than khóc điều bạn chỉ đơn thuần ghi là lỗ"},
-    {"phrase": "Granted, some instrumental framing of relationships has always existed", "meaningVi": "Cứ cho là một số khung phân tích công cụ về các mối quan hệ luôn tồn tại"},
-    {"phrase": "Even so, there is a qualitative difference", "meaningVi": "Dù vậy, có sự khác biệt về chất"},
-    {"phrase": "shot through with expectation of return", "meaningVi": "đầy rẫy kỳ vọng về sự đền đáp"},
-    {"phrase": "treats the individual as a firm and their relationships as assets to be managed against a return", "meaningVi": "xem cá nhân như một công ty và các mối quan hệ của họ như tài sản cần được quản lý để sinh lời"},
-    {"phrase": "the language available to make that justification has been quietly evacuated", "meaningVi": "ngôn ngữ có sẵn để đưa ra sự biện hộ đó đã bị lặng lẽ rút đi"},
-    {"phrase": "undramatic, daily care", "meaningVi": "sự quan tâm hàng ngày không ồn ào"}
+    {
+      "phrase": "Not until you listen carefully to how someone describes ending a friendship does the depth of the colonisation become apparent",
+      "meaningVi": "Chỉ khi bạn lắng nghe cẩn thận cách ai đó mô tả việc kết thúc một tình bạn, độ sâu của sự chiếm lĩnh mới trở nên rõ ràng"
+    },
+    {
+      "phrase": "this person has failed as a debtor",
+      "meaningVi": "người này đã thất bại với tư cách là người mắc nợ"
+    },
+    {
+      "phrase": "the language of a portfolio review",
+      "meaningVi": "ngôn ngữ của một buổi xem xét danh mục đầu tư"
+    },
+    {
+      "phrase": "inputs",
+      "meaningVi": "đầu vào"
+    },
+    {
+      "phrase": "when the ratio of input to output falls below an acceptable threshold",
+      "meaningVi": "khi tỷ lệ đầu vào trên đầu ra giảm xuống dưới ngưỡng chấp nhận được"
+    },
+    {
+      "phrase": "liquidated",
+      "meaningVi": "bị thanh lý"
+    },
+    {
+      "phrase": "audit their social portfolio",
+      "meaningVi": "kiểm toán danh mục xã hội của họ"
+    },
+    {
+      "phrase": "It is precisely the metaphor of investment",
+      "meaningVi": "Chính xác là ẩn dụ về đầu tư"
+    },
+    {
+      "phrase": "that determines what questions we ask of a relationship",
+      "meaningVi": "xác định những câu hỏi chúng ta đặt ra cho một mối quan hệ"
+    },
+    {
+      "phrase": "literally unspeakable",
+      "meaningVi": "theo nghĩa đen là không thể nói được"
+    },
+    {
+      "phrase": "crowded out",
+      "meaningVi": "bị đẩy ra ngoài, không còn chỗ"
+    },
+    {
+      "phrase": "a liability on the emotional balance sheet",
+      "meaningVi": "một khoản nợ trên bảng cân đối cảm xúc"
+    },
+    {
+      "phrase": "convert a relational experience into an accounting event",
+      "meaningVi": "chuyển đổi một trải nghiệm quan hệ thành một sự kiện kế toán"
+    },
+    {
+      "phrase": "You cannot mourn what you have merely written off",
+      "meaningVi": "Bạn không thể than khóc điều bạn chỉ đơn thuần ghi là lỗ"
+    },
+    {
+      "phrase": "Granted, some instrumental framing of relationships has always existed",
+      "meaningVi": "Cứ cho là một số khung phân tích công cụ về các mối quan hệ luôn tồn tại"
+    },
+    {
+      "phrase": "Even so, there is a qualitative difference",
+      "meaningVi": "Dù vậy, có sự khác biệt về chất"
+    },
+    {
+      "phrase": "shot through with expectation of return",
+      "meaningVi": "đầy rẫy kỳ vọng về sự đền đáp"
+    },
+    {
+      "phrase": "treats the individual as a firm and their relationships as assets to be managed against a return",
+      "meaningVi": "xem cá nhân như một công ty và các mối quan hệ của họ như tài sản cần được quản lý để sinh lời"
+    },
+    {
+      "phrase": "the language available to make that justification has been quietly evacuated",
+      "meaningVi": "ngôn ngữ có sẵn để đưa ra sự biện hộ đó đã bị lặng lẽ rút đi"
+    },
+    {
+      "phrase": "undramatic, daily care",
+      "meaningVi": "sự quan tâm hàng ngày không ồn ào"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -92,11 +220,11 @@
       "prompt": "The essay says alternatives to 'investment' — gift, covenant, mutual recognition — become 'literally unspeakable'. What does this mean?",
       "options": [
         "They are too emotional to discuss in public",
-        "The vocabulary for these framings has been crowded out, making them difficult to express",
         "They are banned in certain cultural contexts",
+        "The vocabulary for these framings has been crowded out, making them difficult to express",
         "People are too embarrassed to use them"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay argues: 'these alternatives are not refuted; they become literally unspeakable — the vocabulary for them has been crowded out.'",
       "hint": "Look for the phrase 'crowded out'."
     },
@@ -105,11 +233,11 @@
       "prompt": "What does calling a relationship 'toxic' do, according to the essay?",
       "options": [
         "Accurately describes harmful behaviour",
-        "Recasts the other person as a liability on an emotional balance sheet rather than as a human being",
         "Provides useful vocabulary for ending unhealthy relationships",
-        "Helps people process grief more effectively"
+        "Helps people process grief more effectively",
+        "Recasts the other person as a liability on an emotional balance sheet rather than as a human being"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay says 'toxic' 'recasts the other person as a liability on the emotional balance sheet rather than as a human being whose behaviour has caused genuine harm.'",
       "hint": "Look for what the essay says the word 'toxic' performs."
     },
@@ -117,12 +245,12 @@
       "id": "q4",
       "prompt": "Which correctly uses negative inversion with 'not until'?",
       "options": [
-        "Not until you listen carefully to the language the depth becomes apparent.",
         "Not until you listen carefully to how someone describes ending a friendship does the depth of the colonisation become apparent.",
+        "Not until you listen carefully to the language the depth becomes apparent.",
         "You listen carefully and not until then the depth does become apparent.",
         "The depth not until you listen carefully does become apparent."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'Not until X does Y' requires the auxiliary 'does' to precede the subject 'the depth' in the main clause.",
       "hint": "The main clause needs subject-auxiliary inversion after 'not until'."
     },
@@ -144,11 +272,11 @@
       "prompt": "Why does the essay focus on care for the elderly, ill, and very young at the end?",
       "options": [
         "To argue that investment language is only harmful when applied to vulnerable people",
-        "To show that investment language is most harmful where the expectation of return is least applicable, revealing the logic's deepest damage",
         "To argue for better healthcare policy",
+        "To show that investment language is most harmful where the expectation of return is least applicable, revealing the logic's deepest damage",
         "To show that children are more harmed by economic language than adults"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "These groups are 'precisely the people for whom investment language is least applicable and most harmful' — they expose the logic's underlying values most starkly.",
       "hint": "Think about who is least able to 'return' care and what investment language says about caring for them."
     },
@@ -157,11 +285,11 @@
       "prompt": "What does 'commodification' mean?",
       "options": [
         "The process of improving the quality of a product",
-        "The process by which something that was not previously bought and sold comes to be treated as a market commodity",
         "The distribution of goods to communities in need",
-        "The regulation of commercial markets"
+        "The regulation of commercial markets",
+        "The process by which something that was not previously bought and sold comes to be treated as a market commodity"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "Commodification means treating something — here, human relationships — as a commodity that can be valued, exchanged, and liquidated according to market logic.",
       "hint": "Think of 'commodity' + the process of making something into one."
     },
@@ -169,12 +297,12 @@
       "id": "q8",
       "prompt": "The essay mentions South Korea, Lagos, and São Paulo. What is the purpose of these examples?",
       "options": [
-        "To argue that investment language is an American invention now damaging other cultures",
         "To show that investment language in relationships is not culturally isolated but has spread across different international contexts",
+        "To argue that investment language is an American invention now damaging other cultures",
         "To compare which culture has been most harmed by investment thinking",
         "To praise these cultures for resisting Western influence"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The examples show the language of 'ROI on social effort circulates widely' across diverse contexts — it is not confined to North American self-help culture.",
       "hint": "Look for what claim these three locations support."
     },
@@ -182,12 +310,12 @@
       "id": "q9",
       "prompt": "What does 'the sunk cost fallacy' mean?",
       "options": [
-        "The belief that past investment justifies continued investment even when it is no longer rational to continue",
         "The belief that all investments eventually fail",
+        "The belief that past investment justifies continued investment even when it is no longer rational to continue",
         "A fallacy about how to calculate shipping costs",
         "The error of underestimating costs in advance"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "The sunk cost fallacy is the cognitive error of continuing an investment because of what has already been put in, even when future returns are unlikely — the essay applies this to grief over relationships.",
       "hint": "Think of 'sunk cost' as money (or effort) already spent that cannot be recovered."
     },
@@ -196,11 +324,11 @@
       "prompt": "How does the essay contrast the Polynesian gift exchange with the productivity influencer's social audit?",
       "options": [
         "The gift exchange is more financially sophisticated",
-        "The gift exchange is embedded in a social framework with its own norms; the social audit treats the individual as a firm optimising assets",
         "Both are equally transactional",
+        "The gift exchange is embedded in a social framework with its own norms; the social audit treats the individual as a firm optimising assets",
         "The social audit is older and more traditional"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay distinguishes 'the embedded reciprocity of a Polynesian gift exchange, which occurs within a framework of kinship and collective identity' from the 'self-optimising social audit' that treats the individual as a firm.",
       "hint": "Look for what makes these two forms of instrumental thinking qualitatively different."
     },
@@ -209,11 +337,11 @@
       "prompt": "What is 'relational impoverishment' as implied by the essay?",
       "options": [
         "Financial poverty caused by expensive relationships",
-        "The impoverishment of the person who, by adopting investment language, loses the capacity to grieve, care, and value unconditionally",
         "The decline of social networks in modern cities",
-        "Relationships that leave people emotionally exhausted"
+        "Relationships that leave people emotionally exhausted",
+        "The impoverishment of the person who, by adopting investment language, loses the capacity to grieve, care, and value unconditionally"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay says 'you cannot mourn what you have merely written off' — converting relational experience into an accounting event impoverishes the person making the conversion.",
       "hint": "Look for the sentence beginning 'you cannot mourn'."
     },
@@ -221,12 +349,12 @@
       "id": "q12",
       "prompt": "Which sentence correctly uses a cleft to isolate the operative metaphor?",
       "options": [
-        "The investment metaphor determines what questions we ask of a relationship.",
         "It is precisely the metaphor of investment that determines what questions we ask of a relationship.",
+        "The investment metaphor determines what questions we ask of a relationship.",
         "What we ask of relationships is determined by investment, precisely.",
         "Investment metaphors have precisely determined what we ask of relationships."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Only option B uses the 'It is X that Y' cleft structure with 'precisely' to focus emphasis on the investment metaphor specifically.",
       "hint": "Look for the 'It is… that…' structure."
     },
@@ -248,11 +376,11 @@
       "prompt": "What is 'self-help discourse'?",
       "options": [
         "A legal term for self-representation in court",
-        "The body of literature, media, and language associated with personal improvement, productivity, and life optimisation",
         "A form of medical self-diagnosis",
+        "The body of literature, media, and language associated with personal improvement, productivity, and life optimisation",
         "Private conversations about personal problems"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "Self-help discourse refers to the cultural conversation about personal development — including the podcasts, books, and coaching frameworks the essay critiques.",
       "hint": "Think of 'self-help' books, podcasts, and productivity culture as a genre."
     },
@@ -262,10 +390,10 @@
       "options": [
         "Investment language is useful for managing time and energy in relationships.",
         "Relationships should never involve any calculation of reciprocity.",
-        "The investment metaphor distorts relationships by importing a market logic that crowds out unconditional care and makes grief, covenant, and care for the non-productive literally inexpressible.",
-        "American self-help culture is morally inferior to traditional gift economies."
+        "American self-help culture is morally inferior to traditional gift economies.",
+        "The investment metaphor distorts relationships by importing a market logic that crowds out unconditional care and makes grief, covenant, and care for the non-productive literally inexpressible."
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "explanation": "The essay's through-line is that the investment metaphor displaces alternative vocabularies (gift, covenant, mutual recognition) and is especially harmful to the justification of care for those who cannot return it.",
       "hint": "Look for the argument that covers both language and consequences."
     }

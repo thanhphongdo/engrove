@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "Whether neighbourhoods should set their own pace of change",
   "summary": "Argue whether residents of a district should have the authority to slow, pause, or refuse city-led development on their streets.",
-  "tags": ["Urbanism", "Politics", "Ethics", "Argument"],
+  "tags": [
+    "Urbanism",
+    "Politics",
+    "Ethics",
+    "Argument"
+  ],
   "topic": "Whether neighbourhoods have a right to refuse the pace of change imposed by city planners",
   "prompt": "Write a 350–500-word argumentative essay about whether residents of a particular neighbourhood — in a city such as Mexico City, Lisbon, or Hanoi — should have meaningful authority to slow down, pause, or refuse development projects that city-wide planners propose for their streets. Use a 'what' cleft, a concession ('Granted, …' or 'Admittedly, …'), at least one passive construction, and one participle clause. Anchor the argument in at least one named city, district, or programme. Take a clear position.",
   "minWords": 350,
@@ -14,50 +19,171 @@
     "In the Roma district of Mexico City, residents who have spent thirty years resisting the steady upmarketing of their streets have…"
   ],
   "hintVocab": [
-    { "phrase": "neighbourhood veto", "meaningVi": "quyền phủ quyết của khu phố" },
-    { "phrase": "city-wide planning", "meaningVi": "quy hoạch toàn thành phố" },
-    { "phrase": "to be imposed from above", "meaningVi": "bị áp đặt từ trên xuống" },
-    { "phrase": "displacement pressure", "meaningVi": "áp lực buộc cư dân phải dời đi" },
-    { "phrase": "gentrification", "meaningVi": "quá trình đô thị hóa cao cấp / thay máu khu phố", "pronunciation": "/ˌdʒen.trɪ.fɪˈkeɪ.ʃən/" },
-    { "phrase": "consultation process", "meaningVi": "quá trình tham vấn" },
-    { "phrase": "to capture a process", "meaningVi": "chiếm giữ một quy trình (cho lợi ích riêng)" },
-    { "phrase": "local democracy", "meaningVi": "dân chủ địa phương" },
-    { "phrase": "to render input symbolic", "meaningVi": "biến ý kiến đóng góp thành chỉ mang tính tượng trưng" },
-    { "phrase": "long-time resident", "meaningVi": "cư dân lâu năm" },
-    { "phrase": "tenure security", "meaningVi": "sự ổn định về quyền cư trú" },
-    { "phrase": "to grandfather an entitlement", "meaningVi": "duy trì quyền lợi cũ cho người đã có" },
-    { "phrase": "rezoning proposal", "meaningVi": "đề xuất phân lại khu vực" },
-    { "phrase": "to be rubber-stamped", "meaningVi": "được phê duyệt hình thức / không thực chất" },
-    { "phrase": "incremental development", "meaningVi": "phát triển từng bước" },
-    { "phrase": "the developer's timeline", "meaningVi": "thời gian biểu của nhà phát triển" },
-    { "phrase": "to be priced out", "meaningVi": "bị đẩy ra khỏi do giá cả" },
-    { "phrase": "the rhythm of a street", "meaningVi": "nhịp điệu của một con phố" },
-    { "phrase": "binding local plan", "meaningVi": "quy hoạch địa phương có hiệu lực ràng buộc" },
-    { "phrase": "a moratorium on demolition", "meaningVi": "lệnh tạm hoãn phá dỡ", "pronunciation": "/ˌmɒr.əˈtɔː.ri.əm/" },
-    { "phrase": "to be loud and propertied", "meaningVi": "có tiếng nói lớn và có tài sản" }
+    {
+      "phrase": "neighbourhood veto",
+      "meaningVi": "quyền phủ quyết của khu phố"
+    },
+    {
+      "phrase": "city-wide planning",
+      "meaningVi": "quy hoạch toàn thành phố"
+    },
+    {
+      "phrase": "to be imposed from above",
+      "meaningVi": "bị áp đặt từ trên xuống"
+    },
+    {
+      "phrase": "displacement pressure",
+      "meaningVi": "áp lực buộc cư dân phải dời đi"
+    },
+    {
+      "phrase": "gentrification",
+      "meaningVi": "quá trình đô thị hóa cao cấp / thay máu khu phố",
+      "pronunciation": "/ˌdʒen.trɪ.fɪˈkeɪ.ʃən/"
+    },
+    {
+      "phrase": "consultation process",
+      "meaningVi": "quá trình tham vấn"
+    },
+    {
+      "phrase": "to capture a process",
+      "meaningVi": "chiếm giữ một quy trình (cho lợi ích riêng)"
+    },
+    {
+      "phrase": "local democracy",
+      "meaningVi": "dân chủ địa phương"
+    },
+    {
+      "phrase": "to render input symbolic",
+      "meaningVi": "biến ý kiến đóng góp thành chỉ mang tính tượng trưng"
+    },
+    {
+      "phrase": "long-time resident",
+      "meaningVi": "cư dân lâu năm"
+    },
+    {
+      "phrase": "tenure security",
+      "meaningVi": "sự ổn định về quyền cư trú"
+    },
+    {
+      "phrase": "to grandfather an entitlement",
+      "meaningVi": "duy trì quyền lợi cũ cho người đã có"
+    },
+    {
+      "phrase": "rezoning proposal",
+      "meaningVi": "đề xuất phân lại khu vực"
+    },
+    {
+      "phrase": "to be rubber-stamped",
+      "meaningVi": "được phê duyệt hình thức / không thực chất"
+    },
+    {
+      "phrase": "incremental development",
+      "meaningVi": "phát triển từng bước"
+    },
+    {
+      "phrase": "the developer's timeline",
+      "meaningVi": "thời gian biểu của nhà phát triển"
+    },
+    {
+      "phrase": "to be priced out",
+      "meaningVi": "bị đẩy ra khỏi do giá cả"
+    },
+    {
+      "phrase": "the rhythm of a street",
+      "meaningVi": "nhịp điệu của một con phố"
+    },
+    {
+      "phrase": "binding local plan",
+      "meaningVi": "quy hoạch địa phương có hiệu lực ràng buộc"
+    },
+    {
+      "phrase": "a moratorium on demolition",
+      "meaningVi": "lệnh tạm hoãn phá dỡ",
+      "pronunciation": "/ˌmɒr.əˈtɔː.ri.əm/"
+    },
+    {
+      "phrase": "to be loud and propertied",
+      "meaningVi": "có tiếng nói lớn và có tài sản"
+    }
   ],
   "sampleText": "In any large city, a street is two things at once. It is a row of properties on a map a planner can rezone, demolish, or merge. It is also a daily working environment for the people who live, sell, sleep, and raise children along it. When those two perspectives come into conflict, the question of who decides the pace at which the street can be changed is not a technical one. It is a political one, and it has a clear answer most planning processes prefer not to make explicit.\n\nWhat city-wide planning quietly assumes about the people who actually live on a given street is something most plans never make audible. The assumption is that the street can be improved, optimised, densified, or upmarketed at the city's tempo rather than the residents'. Consultation, where it happens, tends to be timed for after the major decisions have already been taken. Comments are received. Plans proceed. The residents who raise objections are treated as a kind of friction to be managed, not as the people whose neighbourhood is actually at stake.\n\nGranted, neighbourhood vetoes can be captured by the loudest and most propertied voices, and any genuine right of refusal needs to be designed carefully. A wealthy enclave that uses its political power to block social housing nearby is exercising neighbourhood control for the wrong purpose. The case for slower, resident-led change is not the case for letting any group of homeowners protect their property values forever. The Roma district of Mexico City — where long-time residents, low-income tenants, and shopkeepers have together resisted certain forms of redevelopment — is not the same as a gated suburb refusing a bus route.\n\nEven so, the difficulty of designing a fair process is not an argument for designing none. What a working neighbourhood-pace policy looks like, in practice, is more procedural than prohibitive: longer comment periods, binding local plans drafted with residents rather than for them, moratoriums on demolition where displacement is documented, and mechanisms that give long-time tenants — not only owners — a vote. Several Latin American cities have experimented with versions of this, and the experiments are imperfect rather than failed.\n\nAdmittedly, slower change has real costs. Housing that the wider city needs may be delayed. Infrastructure projects may stall. A neighbourhood that refuses all change can become a museum of itself. These costs are real. They are also smaller than the costs of being repeatedly told that one's home is, in the end, a line item on someone else's spreadsheet.\n\nWhat residents are asking for is not a veto on the future. It is a hand on the dial that controls how quickly that future arrives. A city that cannot offer them that has not, in any meaningful sense, decided that they belong to it.",
   "sampleAnnotations": [
-    { "phrase": "In any large city, a street is two things at once", "meaningVi": "Trong bất kỳ thành phố lớn nào, một con phố là hai thứ cùng một lúc" },
-    { "phrase": "It is a row of properties on a map a planner can rezone, demolish, or merge", "meaningVi": "Nó là một dãy tài sản trên bản đồ mà một nhà quy hoạch có thể phân lại khu vực, phá dỡ, hay sáp nhập" },
-    { "phrase": "a daily working environment for the people who live, sell, sleep, and raise children along it", "meaningVi": "một môi trường làm việc hàng ngày cho những người sống, bán hàng, ngủ, và nuôi dạy con cái dọc theo nó" },
-    { "phrase": "the question of who decides the pace at which the street can be changed is not a technical one. It is a political one", "meaningVi": "câu hỏi về việc ai quyết định tốc độ mà con phố có thể được thay đổi không phải là một câu hỏi kỹ thuật. Đó là một câu hỏi chính trị" },
-    { "phrase": "What city-wide planning quietly assumes about the people who actually live on a given street is something most plans never make audible", "meaningVi": "Điều mà quy hoạch toàn thành phố lặng lẽ giả định về những người thực sự sống trên một con phố cụ thể là điều mà hầu hết các kế hoạch không bao giờ nói ra" },
-    { "phrase": "The assumption is that the street can be improved, optimised, densified, or upmarketed at the city's tempo rather than the residents'", "meaningVi": "Giả định là con phố có thể được cải thiện, tối ưu hóa, làm dày đặc hơn, hay nâng cấp theo nhịp độ của thành phố chứ không phải của cư dân" },
-    { "phrase": "Consultation, where it happens, tends to be timed for after the major decisions have already been taken", "meaningVi": "Tham vấn, khi nó diễn ra, có xu hướng được sắp xếp sau khi các quyết định lớn đã được đưa ra" },
-    { "phrase": "The residents who raise objections are treated as a kind of friction to be managed", "meaningVi": "Những cư dân đưa ra phản đối được đối xử như một dạng ma sát cần phải quản lý" },
-    { "phrase": "neighbourhood vetoes can be captured by the loudest and most propertied voices", "meaningVi": "quyền phủ quyết của khu phố có thể bị chiếm giữ bởi những tiếng nói lớn nhất và có nhiều tài sản nhất" },
-    { "phrase": "any genuine right of refusal needs to be designed carefully", "meaningVi": "bất kỳ quyền từ chối thực sự nào cũng cần được thiết kế cẩn thận" },
-    { "phrase": "A wealthy enclave that uses its political power to block social housing nearby is exercising neighbourhood control for the wrong purpose", "meaningVi": "Một khu vực giàu có sử dụng quyền lực chính trị của nó để chặn nhà ở xã hội gần đó đang sử dụng quyền kiểm soát khu phố cho mục đích sai" },
-    { "phrase": "long-time residents, low-income tenants, and shopkeepers have together resisted certain forms of redevelopment", "meaningVi": "cư dân lâu năm, người thuê thu nhập thấp, và chủ cửa hàng đã cùng nhau kháng cự một số hình thức tái phát triển" },
-    { "phrase": "the difficulty of designing a fair process is not an argument for designing none", "meaningVi": "khó khăn trong việc thiết kế một quy trình công bằng không phải là lý do để không thiết kế gì cả" },
-    { "phrase": "binding local plans drafted with residents rather than for them", "meaningVi": "các quy hoạch địa phương ràng buộc được soạn thảo cùng với cư dân chứ không phải cho họ" },
-    { "phrase": "moratoriums on demolition where displacement is documented", "meaningVi": "lệnh tạm hoãn phá dỡ nơi việc dời cư đã được ghi nhận" },
-    { "phrase": "mechanisms that give long-time tenants — not only owners — a vote", "meaningVi": "các cơ chế trao cho người thuê lâu năm — không chỉ chủ sở hữu — một lá phiếu" },
-    { "phrase": "the costs of being repeatedly told that one's home is, in the end, a line item on someone else's spreadsheet", "meaningVi": "cái giá của việc liên tục bị nói rằng ngôi nhà của mình, cuối cùng, là một dòng mục trên bảng tính của người khác" },
-    { "phrase": "What residents are asking for is not a veto on the future. It is a hand on the dial that controls how quickly that future arrives", "meaningVi": "Điều mà cư dân đang yêu cầu không phải là quyền phủ quyết tương lai. Đó là một bàn tay đặt trên nút điều khiển tốc độ mà tương lai đó đến" },
-    { "phrase": "A city that cannot offer them that has not, in any meaningful sense, decided that they belong to it", "meaningVi": "Một thành phố không thể cung cấp cho họ điều đó chưa, theo bất kỳ nghĩa có ý nghĩa nào, quyết định rằng họ thuộc về nó" },
-    { "phrase": "the developer's timeline", "meaningVi": "thời gian biểu của nhà phát triển" }
+    {
+      "phrase": "In any large city, a street is two things at once",
+      "meaningVi": "Trong bất kỳ thành phố lớn nào, một con phố là hai thứ cùng một lúc"
+    },
+    {
+      "phrase": "It is a row of properties on a map a planner can rezone, demolish, or merge",
+      "meaningVi": "Nó là một dãy tài sản trên bản đồ mà một nhà quy hoạch có thể phân lại khu vực, phá dỡ, hay sáp nhập"
+    },
+    {
+      "phrase": "a daily working environment for the people who live, sell, sleep, and raise children along it",
+      "meaningVi": "một môi trường làm việc hàng ngày cho những người sống, bán hàng, ngủ, và nuôi dạy con cái dọc theo nó"
+    },
+    {
+      "phrase": "the question of who decides the pace at which the street can be changed is not a technical one. It is a political one",
+      "meaningVi": "câu hỏi về việc ai quyết định tốc độ mà con phố có thể được thay đổi không phải là một câu hỏi kỹ thuật. Đó là một câu hỏi chính trị"
+    },
+    {
+      "phrase": "What city-wide planning quietly assumes about the people who actually live on a given street is something most plans never make audible",
+      "meaningVi": "Điều mà quy hoạch toàn thành phố lặng lẽ giả định về những người thực sự sống trên một con phố cụ thể là điều mà hầu hết các kế hoạch không bao giờ nói ra"
+    },
+    {
+      "phrase": "The assumption is that the street can be improved, optimised, densified, or upmarketed at the city's tempo rather than the residents'",
+      "meaningVi": "Giả định là con phố có thể được cải thiện, tối ưu hóa, làm dày đặc hơn, hay nâng cấp theo nhịp độ của thành phố chứ không phải của cư dân"
+    },
+    {
+      "phrase": "Consultation, where it happens, tends to be timed for after the major decisions have already been taken",
+      "meaningVi": "Tham vấn, khi nó diễn ra, có xu hướng được sắp xếp sau khi các quyết định lớn đã được đưa ra"
+    },
+    {
+      "phrase": "The residents who raise objections are treated as a kind of friction to be managed",
+      "meaningVi": "Những cư dân đưa ra phản đối được đối xử như một dạng ma sát cần phải quản lý"
+    },
+    {
+      "phrase": "neighbourhood vetoes can be captured by the loudest and most propertied voices",
+      "meaningVi": "quyền phủ quyết của khu phố có thể bị chiếm giữ bởi những tiếng nói lớn nhất và có nhiều tài sản nhất"
+    },
+    {
+      "phrase": "any genuine right of refusal needs to be designed carefully",
+      "meaningVi": "bất kỳ quyền từ chối thực sự nào cũng cần được thiết kế cẩn thận"
+    },
+    {
+      "phrase": "A wealthy enclave that uses its political power to block social housing nearby is exercising neighbourhood control for the wrong purpose",
+      "meaningVi": "Một khu vực giàu có sử dụng quyền lực chính trị của nó để chặn nhà ở xã hội gần đó đang sử dụng quyền kiểm soát khu phố cho mục đích sai"
+    },
+    {
+      "phrase": "long-time residents, low-income tenants, and shopkeepers have together resisted certain forms of redevelopment",
+      "meaningVi": "cư dân lâu năm, người thuê thu nhập thấp, và chủ cửa hàng đã cùng nhau kháng cự một số hình thức tái phát triển"
+    },
+    {
+      "phrase": "the difficulty of designing a fair process is not an argument for designing none",
+      "meaningVi": "khó khăn trong việc thiết kế một quy trình công bằng không phải là lý do để không thiết kế gì cả"
+    },
+    {
+      "phrase": "binding local plans drafted with residents rather than for them",
+      "meaningVi": "các quy hoạch địa phương ràng buộc được soạn thảo cùng với cư dân chứ không phải cho họ"
+    },
+    {
+      "phrase": "moratoriums on demolition where displacement is documented",
+      "meaningVi": "lệnh tạm hoãn phá dỡ nơi việc dời cư đã được ghi nhận"
+    },
+    {
+      "phrase": "mechanisms that give long-time tenants — not only owners — a vote",
+      "meaningVi": "các cơ chế trao cho người thuê lâu năm — không chỉ chủ sở hữu — một lá phiếu"
+    },
+    {
+      "phrase": "the costs of being repeatedly told that one's home is, in the end, a line item on someone else's spreadsheet",
+      "meaningVi": "cái giá của việc liên tục bị nói rằng ngôi nhà của mình, cuối cùng, là một dòng mục trên bảng tính của người khác"
+    },
+    {
+      "phrase": "What residents are asking for is not a veto on the future. It is a hand on the dial that controls how quickly that future arrives",
+      "meaningVi": "Điều mà cư dân đang yêu cầu không phải là quyền phủ quyết tương lai. Đó là một bàn tay đặt trên nút điều khiển tốc độ mà tương lai đó đến"
+    },
+    {
+      "phrase": "A city that cannot offer them that has not, in any meaningful sense, decided that they belong to it",
+      "meaningVi": "Một thành phố không thể cung cấp cho họ điều đó chưa, theo bất kỳ nghĩa có ý nghĩa nào, quyết định rằng họ thuộc về nó"
+    }
   ],
   "sampleGrammarNotes": [
     {

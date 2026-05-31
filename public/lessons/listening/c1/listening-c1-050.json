@@ -231,12 +231,6 @@
       "exampleEn": "'The events of that period' is a temporal euphemism that avoids specifying what happened and when."
     },
     {
-      "phrase": "performative apology",
-      "meaningVi": "lời xin lỗi biểu diễn — xin lỗi vì ảnh hưởng xã hội chứ không phải vì hối hận thực sự",
-      "pronunciation": "/pəˈfɔːmətɪv əˈpɒlədʒi/",
-      "exampleEn": "A performative apology manages public perception rather than repairing a relationship."
-    },
-    {
       "phrase": "proportioned to the harm",
       "meaningVi": "tương xứng với thiệt hại — mức độ hối hận tương đương với mức độ tổn hại gây ra",
       "pronunciation": "/prəˈpɔːʃənd tə ðə hɑːm/",
@@ -265,30 +259,6 @@
       "meaningVi": "sự sửa chữa mối quan hệ — hành động phục hồi sự tin tưởng và kết nối",
       "pronunciation": "/rɪˈpeəz əv ə rɪˈleɪʃənʃɪp/",
       "exampleEn": "Institutional apologies are often managed communications rather than genuine repairs of a relationship."
-    },
-    {
-      "phrase": "grammatical act",
-      "meaningVi": "hành động ngữ pháp — cách chọn cấu trúc câu có hậu quả đạo đức",
-      "pronunciation": "/ɡrəˈmætɪkl ækt/",
-      "exampleEn": "Every apology is both a moral and a grammatical act — the sentence structure determines its honesty."
-    },
-    {
-      "phrase": "active vs passive voice",
-      "meaningVi": "giọng chủ động và bị động — trong chủ động, chủ ngữ là người hành động; trong bị động, chủ ngữ là người bị tác động",
-      "pronunciation": "/ˈæktɪv vs ˈpæsɪv vɔɪs/",
-      "exampleEn": "'I hurt you' (active) accepts agency; 'you were hurt' (passive) deflects it."
-    },
-    {
-      "phrase": "pecise ownership",
-      "meaningVi": "sở hữu chính xác — thừa nhận cụ thể điều gì đó là do chính mình gây ra",
-      "pronunciation": "/prɪˈsaɪs ˈəʊnəʃɪp/",
-      "exampleEn": "Genuine accountability requires precise ownership of the harmful act, not vague regret."
-    },
-    {
-      "phrase": "managing public perception",
-      "meaningVi": "quản lý nhận thức công chúng — kiểm soát cách công chúng nhìn nhận một tổ chức hoặc sự kiện",
-      "pronunciation": "/ˈmænɪdʒɪŋ ˈpʌblɪk pəˈsepʃən/",
-      "exampleEn": "Many institutional apologies are designed for managing public perception rather than repairing actual harm."
     },
     {
       "phrase": "structural concession",
@@ -336,11 +306,11 @@
       "prompt": "What does the conditional 'if' in 'I'm sorry if you were offended' do, according to the essay?",
       "options": [
         "It makes the apology more polite by softening the directness of the statement",
-        "It introduces doubt about whether the harm occurred at all",
         "It limits the apology to specific circumstances rather than offering a blanket admission",
-        "It invites the injured party to confirm whether they are genuinely hurt"
+        "It invites the injured party to confirm whether they are genuinely hurt",
+        "It introduces doubt about whether the harm occurred at all"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'The conditional if introduces doubt about whether the harm occurred at all — the apologiser has not acknowledged that offence was given, only that offence might have been taken.'",
       "hint": "What does 'if' signal about whether the apologiser is certain offence occurred?"
     },
@@ -348,12 +318,12 @@
       "id": "q3",
       "prompt": "What does the essay call the phrase 'I'm sorry if you were offended'?",
       "options": [
-        "A sincere but grammatically imprecise apology",
         "A canonical non-apology that performs sincerity while withholding it",
+        "A sincere but grammatically imprecise apology",
         "A colloquial form of apology common in informal registers",
         "A legally cautious form of expression that protects the speaker from liability"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'the now-canonical non-apology: I'm sorry if you were offended. This construction performs sincerity while systematically withholding it.'",
       "hint": "The essay gives this phrase a specific label. What does it call it?"
     },
@@ -375,11 +345,11 @@
       "prompt": "What does the essay say the apologiser is 'structurally communicating' in 'I'm sorry, but you have to understand...'?",
       "options": [
         "That the apology is genuine but the situation was more complicated than it appeared",
-        "That the acknowledgement of pain is real but its significance is conditional on accepting the justification",
         "That the apologiser has thought deeply about the incident and wants to share their perspective",
+        "That the acknowledgement of pain is real but its significance is conditional on accepting the justification",
         "That the apology covers only part of the harm and further discussion is needed"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'the acknowledgement of your pain is real, but its significance is conditional on your accepting my justification.'",
       "hint": "The essay says the apology's 'significance' is conditional on what?"
     },
@@ -388,11 +358,11 @@
       "prompt": "According to the philosophers cited (Smith, Griswold, Murphy), what is the first condition a genuine apology requires?",
       "options": [
         "A sincere emotional expression of regret and remorse",
-        "The apologiser identifying and taking ownership of the specific harmful act",
         "A public acknowledgement of wrongdoing witnessed by the community",
-        "The injured party's willingness to accept the apology"
+        "The injured party's willingness to accept the apology",
+        "The apologiser identifying and taking ownership of the specific harmful act"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'A genuine apology requires, at minimum, that the apologiser identifies and takes ownership of the specific harmful act, not a generalised gesture toward the other person's feelings.'",
       "hint": "The essay specifies what the apologiser must 'identify and take ownership of'."
     },
@@ -400,12 +370,12 @@
       "id": "q7",
       "prompt": "What does the essay say distinguishes a genuine apology from a confession?",
       "options": [
-        "A genuine apology addresses the injured party directly while a confession is made to a third party",
         "A genuine apology includes a commitment to non-repetition which a confession lacks",
+        "A genuine apology addresses the injured party directly while a confession is made to a third party",
         "A genuine apology acknowledges wrongdoing publicly while a confession is private",
         "A genuine apology is voluntary while a confession may be compelled by circumstances"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'a commitment to non-repetition — an undertaking that the act will not recur, which alone distinguishes apology from confession.'",
       "hint": "The essay says one specific element 'alone' makes this distinction. What is it?"
     },
@@ -427,11 +397,11 @@
       "prompt": "What three linguistic techniques does the essay identify in institutional apologies that create distance from responsibility?",
       "options": [
         "Passive voice, formal register, and legalistic language",
-        "Passive construction, temporal euphemism, and vague collective nouns",
         "Third-person reference, subjunctive mood, and modal uncertainty",
+        "Passive construction, temporal euphemism, and vague collective nouns",
         "Conditional clauses, hedging adverbs, and indirect speech"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'The passive construction removes agents from the sentence; the temporal euphemism creates narrative distance; the vague collective noun avoids specifying who, exactly, is being apologised to.'",
       "hint": "The essay gives three specific techniques. Which combination appears in the text?"
     },
@@ -440,11 +410,11 @@
       "prompt": "How does the essay characterise institutional apologies structured with historical distancing?",
       "options": [
         "As well-intentioned attempts to address harm at a systemic rather than individual level",
-        "As performances of remorse designed to manage public perception rather than repair relationships",
         "As legally appropriate forms of acknowledgement that avoid admissions of liability",
-        "As culturally sensitive forms of apology that recognise the collective nature of institutional wrongdoing"
+        "As culturally sensitive forms of apology that recognise the collective nature of institutional wrongdoing",
+        "As performances of remorse designed to manage public perception rather than repair relationships"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'Institutional apologies structured this way are not repairs of a relationship but performances of remorse designed to manage public perception while preserving the conditions that made the original harm possible.'",
       "hint": "The essay contrasts what institutional apologies are NOT with what they ARE designed to do."
     },
@@ -452,12 +422,12 @@
       "id": "q11",
       "prompt": "What is the essay's final image for describing these performative institutional apologies?",
       "options": [
-        "They paper over the cracks while the foundations remain unstable",
         "They close the wound on the surface while leaving it open underneath",
+        "They paper over the cracks while the foundations remain unstable",
         "They replace the broken relationship with a public relations exercise",
         "They create the appearance of accountability while denying its substance"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'They close the wound on the surface while leaving it open underneath.'",
       "hint": "The essay ends with a medical metaphor. What does it say these apologies do to a wound?"
     },
@@ -492,11 +462,11 @@
       "prompt": "The essay says regret in a genuine apology must be 'proportioned to the harm, not to the inconvenience of apologising.' What does this mean?",
       "options": [
         "The apologiser must feel regret for exactly as long as the harm affects the injured party",
-        "The depth of regret should match the magnitude of harm caused, not the social awkwardness of making the apology",
         "Regret should be expressed in proportion to the apologiser's public profile and the visibility of their offence",
-        "The apology should focus on the harm to the injured party, not the damage to the apologiser's reputation"
+        "The apology should focus on the harm to the injured party, not the damage to the apologiser's reputation",
+        "The depth of regret should match the magnitude of harm caused, not the social awkwardness of making the apology"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The regret should be scaled to what was done, not to how uncomfortable it is for the apologiser to say sorry. An apology motivated by social inconvenience is smaller than the harm it responds to.",
       "hint": "The essay contrasts two things that regret should or should not be proportioned to."
     },
@@ -504,12 +474,12 @@
       "id": "q15",
       "prompt": "Which inference best captures the essay's overall argument about the relationship between language and moral accountability?",
       "options": [
+        "The structure of language encodes moral positions, and grammatical analysis can reveal whether an apology is genuine or evasive",
         "Language is a transparent medium for expressing pre-existing moral states",
         "Grammatical choices are independent of moral content — content alone matters in apologies",
-        "The structure of language encodes moral positions, and grammatical analysis can reveal whether an apology is genuine or evasive",
         "Moral accountability is primarily a social convention that language merely reflects"
       ],
-      "answerIndex": 2,
+      "answerIndex": 0,
       "explanation": "The entire essay argues that grammatical choices — active/passive, conditional/declarative, 'but'/no 'but' — are themselves moral choices that reveal or conceal accountability. 'The grammar often tells us more than the words.'",
       "hint": "What can grammatical analysis reveal that the words alone might hide?"
     }

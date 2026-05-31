@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "When a friend becomes your boss",
   "summary": "Analyse how a workplace promotion that puts one friend in charge of another reshapes the friendship, and whether the two roles can survive together.",
-  "tags": ["Work", "Relationships", "Analysis", "Society"],
+  "tags": [
+    "Work",
+    "Relationships",
+    "Analysis",
+    "Society"
+  ],
   "topic": "How authority changes a friendship at work",
   "prompt": "Write a 450–600-word analytical essay on what happens to a friendship when one friend is promoted to manage the other. Analyse the specific pressures the new authority creates, and judge whether equality and hierarchy can coexist. Use two concrete examples and concede one objection. Use cleft sentences, passive voice, and hedging.",
   "minWords": 450,
@@ -15,59 +20,218 @@
     "The friendship does not end so much as it is asked to…"
   ],
   "hintVocab": [
-    { "phrase": "promotion", "meaningVi": "sự thăng chức", "pronunciation": "/prəˈməʊʃn/" },
-    { "phrase": "line manager", "meaningVi": "quản lý trực tiếp" },
-    { "phrase": "hierarchy", "meaningVi": "thứ bậc / hệ thống cấp bậc", "pronunciation": "/ˈhaɪərɑːki/" },
-    { "phrase": "authority", "meaningVi": "quyền lực / thẩm quyền", "pronunciation": "/ɔːˈθɒrəti/" },
-    { "phrase": "power imbalance", "meaningVi": "sự mất cân bằng quyền lực" },
-    { "phrase": "to report to", "meaningVi": "chịu sự quản lý của / báo cáo cho" },
-    { "phrase": "favouritism", "meaningVi": "sự thiên vị", "pronunciation": "/ˈfeɪvərɪtɪzəm/" },
-    { "phrase": "to set boundaries", "meaningVi": "thiết lập ranh giới" },
-    { "phrase": "performance review", "meaningVi": "đánh giá năng lực làm việc" },
-    { "phrase": "to confide in", "meaningVi": "tâm sự với", "pronunciation": "/kənˈfaɪd/" },
-    { "phrase": "to hold someone accountable", "meaningVi": "buộc ai đó chịu trách nhiệm" },
-    { "phrase": "professional distance", "meaningVi": "khoảng cách nghề nghiệp" },
-    { "phrase": "resentment", "meaningVi": "sự oán giận", "pronunciation": "/rɪˈzentmənt/" },
-    { "phrase": "to overcompensate", "meaningVi": "bù trừ quá mức" },
-    { "phrase": "candour", "meaningVi": "sự thẳng thắn", "pronunciation": "/ˈkændə/" },
-    { "phrase": "loyalty", "meaningVi": "lòng trung thành", "pronunciation": "/ˈlɔɪəlti/" },
-    { "phrase": "to renegotiate", "meaningVi": "thương lượng lại" },
-    { "phrase": "perceived bias", "meaningVi": "định kiến được cảm nhận" },
-    { "phrase": "to navigate", "meaningVi": "điều hướng / xoay xở", "pronunciation": "/ˈnævɪɡeɪt/" },
-    { "phrase": "tension", "meaningVi": "sự căng thẳng" },
-    { "phrase": "to keep things even", "meaningVi": "giữ cho mọi thứ công bằng" },
-    { "phrase": "to be on equal footing", "meaningVi": "ở vị thế ngang bằng" },
-    { "phrase": "chain of command", "meaningVi": "chuỗi mệnh lệnh / hệ thống cấp bậc" },
-    { "phrase": "to step up", "meaningVi": "đảm nhận vai trò lớn hơn" },
-    { "phrase": "to grow apart", "meaningVi": "dần xa cách" }
+    {
+      "phrase": "promotion",
+      "meaningVi": "sự thăng chức",
+      "pronunciation": "/prəˈməʊʃn/"
+    },
+    {
+      "phrase": "line manager",
+      "meaningVi": "quản lý trực tiếp"
+    },
+    {
+      "phrase": "hierarchy",
+      "meaningVi": "thứ bậc / hệ thống cấp bậc",
+      "pronunciation": "/ˈhaɪərɑːki/"
+    },
+    {
+      "phrase": "authority",
+      "meaningVi": "quyền lực / thẩm quyền",
+      "pronunciation": "/ɔːˈθɒrəti/"
+    },
+    {
+      "phrase": "power imbalance",
+      "meaningVi": "sự mất cân bằng quyền lực"
+    },
+    {
+      "phrase": "to report to",
+      "meaningVi": "chịu sự quản lý của / báo cáo cho"
+    },
+    {
+      "phrase": "favouritism",
+      "meaningVi": "sự thiên vị",
+      "pronunciation": "/ˈfeɪvərɪtɪzəm/"
+    },
+    {
+      "phrase": "to set boundaries",
+      "meaningVi": "thiết lập ranh giới"
+    },
+    {
+      "phrase": "performance review",
+      "meaningVi": "đánh giá năng lực làm việc"
+    },
+    {
+      "phrase": "to confide in",
+      "meaningVi": "tâm sự với",
+      "pronunciation": "/kənˈfaɪd/"
+    },
+    {
+      "phrase": "to hold someone accountable",
+      "meaningVi": "buộc ai đó chịu trách nhiệm"
+    },
+    {
+      "phrase": "professional distance",
+      "meaningVi": "khoảng cách nghề nghiệp"
+    },
+    {
+      "phrase": "resentment",
+      "meaningVi": "sự oán giận",
+      "pronunciation": "/rɪˈzentmənt/"
+    },
+    {
+      "phrase": "to overcompensate",
+      "meaningVi": "bù trừ quá mức"
+    },
+    {
+      "phrase": "candour",
+      "meaningVi": "sự thẳng thắn",
+      "pronunciation": "/ˈkændə/"
+    },
+    {
+      "phrase": "loyalty",
+      "meaningVi": "lòng trung thành",
+      "pronunciation": "/ˈlɔɪəlti/"
+    },
+    {
+      "phrase": "to renegotiate",
+      "meaningVi": "thương lượng lại"
+    },
+    {
+      "phrase": "perceived bias",
+      "meaningVi": "định kiến được cảm nhận"
+    },
+    {
+      "phrase": "to navigate",
+      "meaningVi": "điều hướng / xoay xở",
+      "pronunciation": "/ˈnævɪɡeɪt/"
+    },
+    {
+      "phrase": "tension",
+      "meaningVi": "sự căng thẳng"
+    },
+    {
+      "phrase": "to keep things even",
+      "meaningVi": "giữ cho mọi thứ công bằng"
+    },
+    {
+      "phrase": "to be on equal footing",
+      "meaningVi": "ở vị thế ngang bằng"
+    },
+    {
+      "phrase": "chain of command",
+      "meaningVi": "chuỗi mệnh lệnh / hệ thống cấp bậc"
+    },
+    {
+      "phrase": "to step up",
+      "meaningVi": "đảm nhận vai trò lớn hơn"
+    },
+    {
+      "phrase": "to grow apart",
+      "meaningVi": "dần xa cách"
+    }
   ],
   "sampleText": "On a Friday, Mei and Daniel were colleagues who complained about the same manager over lunch. On Monday, Mei was that manager. Nothing about the office had changed — the desks, the deadlines, the bad coffee were all the same — and yet the friendship they had built across two years of shared grievances now had a new weight pressing on it.\n\nWhat changes the morning after the promotion is not the work but the channel through which everything must now travel. Before, a frustration could be aired freely; now, anything Daniel says to Mei is also being said to his boss. A complaint that once cost nothing might be read as insubordination, or worse, ignored. It is the small asymmetries — who now signs off whose leave, who decides whose project gets resourced — that quietly rearrange a relationship built on the assumption that neither party held power over the other. The candour that friendship runs on is precisely what the new arrangement makes risky.\n\nTwo pressures appear almost at once. The first falls on the manager. If Mei goes easy on Daniel, the rest of the team will sense favouritism, and her authority will be undermined; if she overcorrects, holding him to a harsher standard than anyone else, the friend who trusted her will feel betrayed. Either way, every ordinary decision is now read through the lens of their history. The second pressure falls on the friend. Daniel must decide what can still be confided and what must be withheld, and that calculation, repeated daily, slowly drains a friendship of its ease.\n\nGranted, plenty of friendships have survived the move from equal to manager, and to claim otherwise would be too neat. Where both people name the change openly — where Mei says, in effect, 'I will sometimes have to be your manager first' — the relationship can be renegotiated rather than quietly strained. Honesty about the new asymmetry tends to protect a friendship better than pretending it has not occurred. The objection is fair: authority need not be fatal to friendship.\n\nEven so, what survives is rarely the same friendship. It is one thing to stay close; it is another to stay equal, and these are routinely confused. A friend who must also write your performance review cannot fully be the person you complain to about your performance review. Something is necessarily held back, and the relationship, while it may remain warm, is no longer conducted between equals. The two roles can coexist, but only if both people accept that the friendship has been moved onto different ground.\n\nWhat the promotion really tests, then, is not loyalty but flexibility — the willingness of two people to let a relationship change shape rather than insisting it stay exactly as it was. Mei and Daniel can remain friends; what they cannot do is pretend that one of them does not now sign the other's leave requests. The friendship does not end so much as it is asked to grow a hierarchy it never had, and whether it can do that gracefully is decided not on the day of the promotion but in the hundred small decisions that follow.",
   "sampleAnnotations": [
-    { "phrase": "the friendship they had built across two years of shared grievances now had a new weight pressing on it", "meaningVi": "tình bạn họ đã xây dựng qua hai năm cùng chung những bất bình giờ đây có một sức nặng mới đè lên nó" },
-    { "phrase": "What changes the morning after the promotion is not the work but the channel through which everything must now travel", "meaningVi": "Cái thay đổi vào buổi sáng sau khi thăng chức không phải là công việc mà là kênh mà giờ đây mọi thứ phải đi qua" },
-    { "phrase": "anything Daniel says to Mei is also being said to his boss", "meaningVi": "bất cứ điều gì Daniel nói với Mei cũng đang được nói với sếp của anh ấy" },
-    { "phrase": "A complaint that once cost nothing might be read as insubordination", "meaningVi": "Một lời than phiền từng chẳng tốn gì giờ có thể bị hiểu là sự bất tuân" },
-    { "phrase": "It is the small asymmetries — who now signs off whose leave, who decides whose project gets resourced — that quietly rearrange a relationship", "meaningVi": "Chính những sự bất đối xứng nhỏ — ai giờ phê duyệt phép của ai, ai quyết định dự án của ai được cấp nguồn lực — mới lặng lẽ sắp xếp lại một mối quan hệ" },
-    { "phrase": "built on the assumption that neither party held power over the other", "meaningVi": "được xây dựng trên giả định rằng không bên nào nắm quyền lực với bên kia" },
-    { "phrase": "Daniel must decide what can still be confided and what must be withheld", "meaningVi": "Daniel phải quyết định điều gì còn có thể tâm sự và điều gì phải giữ lại" },
-    { "phrase": "the desks, the deadlines, the bad coffee were all the same", "meaningVi": "những chiếc bàn, các hạn chót, cà phê dở đều y như cũ" },
-    { "phrase": "if she overcorrects, holding him to a harsher standard than anyone else", "meaningVi": "nếu cô bù trừ quá mức, đòi hỏi anh theo một tiêu chuẩn khắt khe hơn bất kỳ ai khác" },
-    { "phrase": "let a relationship change shape rather than insisting it stay exactly as it was", "meaningVi": "để một mối quan hệ thay đổi hình dạng thay vì khăng khăng giữ nó y như cũ" },
-    { "phrase": "The candour that friendship runs on is precisely what the new arrangement makes risky", "meaningVi": "Sự thẳng thắn mà tình bạn vận hành nhờ vào nó chính là điều mà sự sắp xếp mới khiến trở nên rủi ro" },
-    { "phrase": "the rest of the team will sense favouritism, and her authority will be undermined", "meaningVi": "phần còn lại của nhóm sẽ cảm nhận được sự thiên vị, và quyền lực của cô ấy sẽ bị xói mòn" },
-    { "phrase": "the friend who trusted her will feel betrayed", "meaningVi": "người bạn từng tin tưởng cô ấy sẽ cảm thấy bị phản bội" },
-    { "phrase": "every ordinary decision is now read through the lens of their history", "meaningVi": "mỗi quyết định bình thường giờ đây đều được nhìn qua lăng kính của lịch sử giữa họ" },
-    { "phrase": "that calculation, repeated daily, slowly drains a friendship of its ease", "meaningVi": "sự tính toán đó, lặp lại mỗi ngày, dần dần rút cạn sự thoải mái của một tình bạn" },
-    { "phrase": "Granted, plenty of friendships have survived the move from equal to manager, and to claim otherwise would be too neat", "meaningVi": "Công nhận, nhiều tình bạn đã sống sót qua bước chuyển từ ngang bằng sang quản lý, và khẳng định điều ngược lại sẽ quá gọn ghẽ" },
-    { "phrase": "the relationship can be renegotiated rather than quietly strained", "meaningVi": "mối quan hệ có thể được thương lượng lại thay vì lặng lẽ căng thẳng" },
-    { "phrase": "Honesty about the new asymmetry tends to protect a friendship better than pretending it has not occurred", "meaningVi": "Sự trung thực về sự bất đối xứng mới có xu hướng bảo vệ một tình bạn tốt hơn là giả vờ rằng nó chưa xảy ra" },
-    { "phrase": "authority need not be fatal to friendship", "meaningVi": "quyền lực không nhất thiết là chí mạng với tình bạn" },
-    { "phrase": "It is one thing to stay close; it is another to stay equal, and these are routinely confused", "meaningVi": "Giữ được sự gần gũi là một chuyện; giữ được sự ngang bằng lại là chuyện khác, và hai điều này thường bị lẫn lộn" },
-    { "phrase": "the relationship, while it may remain warm, is no longer conducted between equals", "meaningVi": "mối quan hệ, dù có thể vẫn ấm áp, không còn được tiến hành giữa những người ngang bằng" },
-    { "phrase": "only if both people accept that the friendship has been moved onto different ground", "meaningVi": "chỉ khi cả hai người chấp nhận rằng tình bạn đã được dời sang một mảnh đất khác" },
-    { "phrase": "What the promotion really tests, then, is not loyalty but flexibility", "meaningVi": "Vậy thì, điều mà sự thăng chức thực sự thử thách không phải là lòng trung thành mà là sự linh hoạt" },
-    { "phrase": "The friendship does not end so much as it is asked to grow a hierarchy it never had", "meaningVi": "Tình bạn không kết thúc cho bằng nó được yêu cầu phải mọc ra một thứ bậc mà nó chưa bao giờ có" },
-    { "phrase": "decided not on the day of the promotion but in the hundred small decisions that follow", "meaningVi": "được quyết định không phải vào ngày thăng chức mà trong cả trăm quyết định nhỏ theo sau" }
+    {
+      "phrase": "the friendship they had built across two years of shared grievances now had a new weight pressing on it",
+      "meaningVi": "tình bạn họ đã xây dựng qua hai năm cùng chung những bất bình giờ đây có một sức nặng mới đè lên nó"
+    },
+    {
+      "phrase": "What changes the morning after the promotion is not the work but the channel through which everything must now travel",
+      "meaningVi": "Cái thay đổi vào buổi sáng sau khi thăng chức không phải là công việc mà là kênh mà giờ đây mọi thứ phải đi qua"
+    },
+    {
+      "phrase": "anything Daniel says to Mei is also being said to his boss",
+      "meaningVi": "bất cứ điều gì Daniel nói với Mei cũng đang được nói với sếp của anh ấy"
+    },
+    {
+      "phrase": "A complaint that once cost nothing might be read as insubordination",
+      "meaningVi": "Một lời than phiền từng chẳng tốn gì giờ có thể bị hiểu là sự bất tuân"
+    },
+    {
+      "phrase": "It is the small asymmetries — who now signs off whose leave, who decides whose project gets resourced — that quietly rearrange a relationship",
+      "meaningVi": "Chính những sự bất đối xứng nhỏ — ai giờ phê duyệt phép của ai, ai quyết định dự án của ai được cấp nguồn lực — mới lặng lẽ sắp xếp lại một mối quan hệ"
+    },
+    {
+      "phrase": "built on the assumption that neither party held power over the other",
+      "meaningVi": "được xây dựng trên giả định rằng không bên nào nắm quyền lực với bên kia"
+    },
+    {
+      "phrase": "Daniel must decide what can still be confided and what must be withheld",
+      "meaningVi": "Daniel phải quyết định điều gì còn có thể tâm sự và điều gì phải giữ lại"
+    },
+    {
+      "phrase": "the desks, the deadlines, the bad coffee were all the same",
+      "meaningVi": "những chiếc bàn, các hạn chót, cà phê dở đều y như cũ"
+    },
+    {
+      "phrase": "if she overcorrects, holding him to a harsher standard than anyone else",
+      "meaningVi": "nếu cô bù trừ quá mức, đòi hỏi anh theo một tiêu chuẩn khắt khe hơn bất kỳ ai khác"
+    },
+    {
+      "phrase": "let a relationship change shape rather than insisting it stay exactly as it was",
+      "meaningVi": "để một mối quan hệ thay đổi hình dạng thay vì khăng khăng giữ nó y như cũ"
+    },
+    {
+      "phrase": "The candour that friendship runs on is precisely what the new arrangement makes risky",
+      "meaningVi": "Sự thẳng thắn mà tình bạn vận hành nhờ vào nó chính là điều mà sự sắp xếp mới khiến trở nên rủi ro"
+    },
+    {
+      "phrase": "the rest of the team will sense favouritism, and her authority will be undermined",
+      "meaningVi": "phần còn lại của nhóm sẽ cảm nhận được sự thiên vị, và quyền lực của cô ấy sẽ bị xói mòn"
+    },
+    {
+      "phrase": "the friend who trusted her will feel betrayed",
+      "meaningVi": "người bạn từng tin tưởng cô ấy sẽ cảm thấy bị phản bội"
+    },
+    {
+      "phrase": "every ordinary decision is now read through the lens of their history",
+      "meaningVi": "mỗi quyết định bình thường giờ đây đều được nhìn qua lăng kính của lịch sử giữa họ"
+    },
+    {
+      "phrase": "that calculation, repeated daily, slowly drains a friendship of its ease",
+      "meaningVi": "sự tính toán đó, lặp lại mỗi ngày, dần dần rút cạn sự thoải mái của một tình bạn"
+    },
+    {
+      "phrase": "Granted, plenty of friendships have survived the move from equal to manager, and to claim otherwise would be too neat",
+      "meaningVi": "Công nhận, nhiều tình bạn đã sống sót qua bước chuyển từ ngang bằng sang quản lý, và khẳng định điều ngược lại sẽ quá gọn ghẽ"
+    },
+    {
+      "phrase": "the relationship can be renegotiated rather than quietly strained",
+      "meaningVi": "mối quan hệ có thể được thương lượng lại thay vì lặng lẽ căng thẳng"
+    },
+    {
+      "phrase": "Honesty about the new asymmetry tends to protect a friendship better than pretending it has not occurred",
+      "meaningVi": "Sự trung thực về sự bất đối xứng mới có xu hướng bảo vệ một tình bạn tốt hơn là giả vờ rằng nó chưa xảy ra"
+    },
+    {
+      "phrase": "authority need not be fatal to friendship",
+      "meaningVi": "quyền lực không nhất thiết là chí mạng với tình bạn"
+    },
+    {
+      "phrase": "It is one thing to stay close; it is another to stay equal, and these are routinely confused",
+      "meaningVi": "Giữ được sự gần gũi là một chuyện; giữ được sự ngang bằng lại là chuyện khác, và hai điều này thường bị lẫn lộn"
+    },
+    {
+      "phrase": "the relationship, while it may remain warm, is no longer conducted between equals",
+      "meaningVi": "mối quan hệ, dù có thể vẫn ấm áp, không còn được tiến hành giữa những người ngang bằng"
+    },
+    {
+      "phrase": "only if both people accept that the friendship has been moved onto different ground",
+      "meaningVi": "chỉ khi cả hai người chấp nhận rằng tình bạn đã được dời sang một mảnh đất khác"
+    },
+    {
+      "phrase": "What the promotion really tests, then, is not loyalty but flexibility",
+      "meaningVi": "Vậy thì, điều mà sự thăng chức thực sự thử thách không phải là lòng trung thành mà là sự linh hoạt"
+    },
+    {
+      "phrase": "The friendship does not end so much as it is asked to grow a hierarchy it never had",
+      "meaningVi": "Tình bạn không kết thúc cho bằng nó được yêu cầu phải mọc ra một thứ bậc mà nó chưa bao giờ có"
+    },
+    {
+      "phrase": "decided not on the day of the promotion but in the hundred small decisions that follow",
+      "meaningVi": "được quyết định không phải vào ngày thăng chức mà trong cả trăm quyết định nhỏ theo sau"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -87,12 +251,12 @@
       "id": "q1",
       "prompt": "Which sentence uses a what-cleft to redefine what really changes?",
       "options": [
-        "What changes the morning after the promotion is not the work but the channel through which everything must now travel.",
         "The morning after the promotion changes what is not the work but a channel travelling.",
+        "What changes the morning after the promotion is not the work but the channel through which everything must now travel.",
         "Changing the morning is what the promotion does to the work and the channel.",
         "The channel is what changes the work after the morning promotion travels through."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'What changes … is not X but Y' is a what-cleft delaying the key contrast for emphasis.",
       "hint": "Look for 'What … is not X but Y'."
     },
@@ -101,11 +265,11 @@
       "prompt": "Which sentence uses an it-cleft to pinpoint the source of strain?",
       "options": [
         "The small asymmetries quietly rearrange a relationship which is who signs off leave.",
-        "It is the small asymmetries — who now signs off whose leave — that quietly rearrange a relationship.",
         "Quietly rearranging a relationship is the asymmetries small that signs off leave.",
+        "It is the small asymmetries — who now signs off whose leave — that quietly rearrange a relationship.",
         "Who signs off leave is the relationship that small asymmetries quietly rearrange it."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'It is X … that …' is an it-cleft foregrounding the small asymmetries as the true cause.",
       "hint": "Look for 'It is X … that …'."
     },
@@ -114,11 +278,11 @@
       "prompt": "Which option uses the passive most naturally?",
       "options": [
         "Both people the friendship must be moving onto different ground by them.",
-        "The friendship has been moved onto different ground.",
         "Moving the friendship onto different ground is what been done by people.",
-        "The friendship moving onto different ground was did by both people."
+        "The friendship moving onto different ground was did by both people.",
+        "The friendship has been moved onto different ground."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'The friendship has been moved' is a clean passive keeping the relationship in subject position.",
       "hint": "Which option uses 'has been + past participle' correctly?"
     },
@@ -126,12 +290,12 @@
       "id": "q4",
       "prompt": "What does 'power imbalance' mean?",
       "options": [
-        "An equal sharing of authority between two people",
         "A situation where one person holds more authority than another",
+        "An equal sharing of authority between two people",
         "A failure of the electrical supply at work",
         "A fair distribution of pay"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "A 'power imbalance' is an uneven distribution of authority.",
       "hint": "Think about one side having more power than the other."
     },
@@ -153,11 +317,11 @@
       "prompt": "Which option hedges its claim appropriately?",
       "options": [
         "Honesty about the new asymmetry always guarantees a friendship survives.",
-        "Honesty about the new asymmetry tends to protect a friendship better than pretending it has not occurred.",
         "Honesty about the new asymmetry will never make any difference whatsoever.",
+        "Honesty about the new asymmetry tends to protect a friendship better than pretending it has not occurred.",
         "Honesty about asymmetry the new tends protecting a friendship pretending occurred."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'Tends to protect … better than' is a measured comparison, not an absolute promise.",
       "hint": "Which option avoids 'always' and 'never'?"
     },
@@ -166,11 +330,11 @@
       "prompt": "What does 'favouritism' mean here?",
       "options": [
         "Treating everyone exactly the same",
-        "Giving unfair preferential treatment to someone you like",
         "Promoting people based on test scores",
-        "Refusing to manage your friends"
+        "Refusing to manage your friends",
+        "Giving unfair preferential treatment to someone you like"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'Favouritism' is unfair preference shown to a particular person.",
       "hint": "Think of favouring one person over the rest."
     },
@@ -178,12 +342,12 @@
       "id": "q8",
       "prompt": "Which sentence keeps a consistent analytical register?",
       "options": [
-        "Honestly it's super awkward and everyone just hates it when this happens.",
         "Every ordinary decision is now read through the lens of their history.",
+        "Honestly it's super awkward and everyone just hates it when this happens.",
         "Basically the friend gets thrown under the bus and that's that.",
         "It's kind of a mess and nobody really knows what to do, you know?"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Option B uses precise abstract phrasing; the others slide into casual speech.",
       "hint": "Avoid 'honestly', 'super', 'basically', and 'kind of'."
     },
@@ -205,11 +369,11 @@
       "prompt": "What does 'to confide in' someone mean?",
       "options": [
         "To give someone an order",
-        "To share private thoughts or feelings with someone you trust",
         "To formally report someone to HR",
+        "To share private thoughts or feelings with someone you trust",
         "To pay someone for their work"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'Confide in' means to trust someone with personal information.",
       "hint": "Think about sharing a secret with a trusted person."
     },
@@ -217,12 +381,12 @@
       "id": "q11",
       "prompt": "Which option uses parallel structure to sharpen the contrast?",
       "options": [
-        "It is one thing to stay close; it is another to stay equal.",
         "Staying close is one thing while to be equal another thing it is.",
         "One thing close staying; equal another it is to stay being.",
-        "To stay close is a thing and equal staying is the other being."
+        "To stay close is a thing and equal staying is the other being.",
+        "It is one thing to stay close; it is another to stay equal."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'It is one thing to …; it is another to …' is a balanced parallel contrast.",
       "hint": "Which option repeats the same frame twice?"
     },
@@ -230,12 +394,12 @@
       "id": "q12",
       "prompt": "According to the essay, what does the promotion really test?",
       "options": [
-        "The friends' loyalty to the company",
         "The willingness of both people to let the relationship change shape",
+        "The friends' loyalty to the company",
         "Whether either friend deserves the job",
         "How much the team likes the new manager"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay says it tests 'not loyalty but flexibility — the willingness … to let a relationship change shape.'",
       "hint": "Reread the final paragraph's opening contrast."
     },
@@ -257,11 +421,11 @@
       "prompt": "Which option best states the essay's nuanced conclusion?",
       "options": [
         "A promoted friend always destroys the friendship.",
-        "The two roles can coexist, but only if both accept the friendship has moved onto different ground.",
         "Friendship and authority are completely unrelated.",
+        "The two roles can coexist, but only if both accept the friendship has moved onto different ground.",
         "The friends should simply stop speaking to each other."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The conclusion allows coexistence on a condition, rather than declaring doom or denial.",
       "hint": "Look for the option with a condition attached ('only if')."
     },
@@ -270,11 +434,11 @@
       "prompt": "What does 'to undermine' authority mean?",
       "options": [
         "To strengthen it openly",
-        "To weaken or erode it, often gradually",
         "To formally record it",
-        "To share it equally"
+        "To share it equally",
+        "To weaken or erode it, often gradually"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'Undermine' means to weaken something, often from below or indirectly.",
       "hint": "Think of digging away the ground 'under' something."
     },

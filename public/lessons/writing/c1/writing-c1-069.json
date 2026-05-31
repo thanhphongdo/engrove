@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "Why some institutions need to be small to be honest",
   "summary": "Argue that certain institutions — schools, congregations, journals, clinics, neighbourhood associations — lose their constitutive honesty when they pass a threshold of size, and that the loss is not a question of management but of form.",
-  "tags": ["Argument", "Institutions", "Ethics"],
+  "tags": [
+    "Argument",
+    "Institutions",
+    "Ethics"
+  ],
   "topic": "Scale and the loss of institutional honesty",
   "prompt": "Write a 600–800-word essay arguing that some institutions cannot grow past a certain size without losing the very honesty that made them worth preserving. Avoid management-consultant register and avoid nostalgia. Use one inversion, one cleft, and a 'Granted… Even so…' concession. Use concrete cases (a small literary journal, a parish, a neighbourhood school in Naples or Vilnius).",
   "minWords": 600,
@@ -14,53 +18,185 @@
     "Granted, the case for smallness is easily romanticised, and small institutions can be as corrupt, capricious, and exclusive as any other. Even so,…"
   ],
   "hintVocab": [
-    {"phrase": "constitutive honesty", "meaningVi": "tính trung thực cấu thành"},
-    {"phrase": "the scale threshold", "meaningVi": "ngưỡng quy mô"},
-    {"phrase": "Dunbar's number", "meaningVi": "số Dunbar"},
-    {"phrase": "the legibility cost", "meaningVi": "phí tổn của tính dễ đọc"},
-    {"phrase": "institutional formalism", "meaningVi": "chủ nghĩa hình thức thể chế"},
-    {"phrase": "the small face-to-face order", "meaningVi": "trật tự đối mặt nhỏ"},
-    {"phrase": "scaling impact", "meaningVi": "mở rộng tác động"},
-    {"phrase": "the unmediated relation", "meaningVi": "mối quan hệ không trung gian"},
-    {"phrase": "delegated accountability", "meaningVi": "trách nhiệm uỷ thác"},
-    {"phrase": "the policy proxy", "meaningVi": "đại diện chính sách"},
-    {"phrase": "Weber on rational-legal authority", "meaningVi": "Weber về quyền lực hợp lý-pháp lý"},
-    {"phrase": "the calling-card formality", "meaningVi": "tính trang trọng kiểu danh thiếp"},
-    {"phrase": "the procedural surrogate", "meaningVi": "thay thế thủ tục"},
-    {"phrase": "the personal vouch", "meaningVi": "lời bảo lãnh cá nhân"},
-    {"phrase": "moral economy of smallness", "meaningVi": "kinh tế đạo đức của tính nhỏ"},
-    {"phrase": "the irreducible loss", "meaningVi": "tổn thất không thể giản lược"},
-    {"phrase": "the small institutional ecology", "meaningVi": "sinh thái thể chế nhỏ"},
-    {"phrase": "growth as deformation", "meaningVi": "tăng trưởng như biến dạng"},
-    {"phrase": "the witnessed transaction", "meaningVi": "giao dịch được chứng kiến"},
-    {"phrase": "the unscaled good", "meaningVi": "thiện lành không thể nhân rộng"},
-    {"phrase": "the kept word", "meaningVi": "lời hứa được giữ"},
-    {"phrase": "horizontal accountability", "meaningVi": "trách nhiệm theo chiều ngang"}
+    {
+      "phrase": "constitutive honesty",
+      "meaningVi": "tính trung thực cấu thành"
+    },
+    {
+      "phrase": "the scale threshold",
+      "meaningVi": "ngưỡng quy mô"
+    },
+    {
+      "phrase": "Dunbar's number",
+      "meaningVi": "số Dunbar"
+    },
+    {
+      "phrase": "the legibility cost",
+      "meaningVi": "phí tổn của tính dễ đọc"
+    },
+    {
+      "phrase": "institutional formalism",
+      "meaningVi": "chủ nghĩa hình thức thể chế"
+    },
+    {
+      "phrase": "the small face-to-face order",
+      "meaningVi": "trật tự đối mặt nhỏ"
+    },
+    {
+      "phrase": "scaling impact",
+      "meaningVi": "mở rộng tác động"
+    },
+    {
+      "phrase": "the unmediated relation",
+      "meaningVi": "mối quan hệ không trung gian"
+    },
+    {
+      "phrase": "delegated accountability",
+      "meaningVi": "trách nhiệm uỷ thác"
+    },
+    {
+      "phrase": "the policy proxy",
+      "meaningVi": "đại diện chính sách"
+    },
+    {
+      "phrase": "Weber on rational-legal authority",
+      "meaningVi": "Weber về quyền lực hợp lý-pháp lý"
+    },
+    {
+      "phrase": "the calling-card formality",
+      "meaningVi": "tính trang trọng kiểu danh thiếp"
+    },
+    {
+      "phrase": "the procedural surrogate",
+      "meaningVi": "thay thế thủ tục"
+    },
+    {
+      "phrase": "the personal vouch",
+      "meaningVi": "lời bảo lãnh cá nhân"
+    },
+    {
+      "phrase": "moral economy of smallness",
+      "meaningVi": "kinh tế đạo đức của tính nhỏ"
+    },
+    {
+      "phrase": "the irreducible loss",
+      "meaningVi": "tổn thất không thể giản lược"
+    },
+    {
+      "phrase": "the small institutional ecology",
+      "meaningVi": "sinh thái thể chế nhỏ"
+    },
+    {
+      "phrase": "growth as deformation",
+      "meaningVi": "tăng trưởng như biến dạng"
+    },
+    {
+      "phrase": "the witnessed transaction",
+      "meaningVi": "giao dịch được chứng kiến"
+    },
+    {
+      "phrase": "the unscaled good",
+      "meaningVi": "thiện lành không thể nhân rộng"
+    },
+    {
+      "phrase": "the kept word",
+      "meaningVi": "lời hứa được giữ"
+    },
+    {
+      "phrase": "horizontal accountability",
+      "meaningVi": "trách nhiệm theo chiều ngang"
+    }
   ],
   "sampleText": "Scarcely is the relation between size and institutional honesty examined as anything more substantial than a problem of management. The standard view treats scale as a logistical variable: as the institution grows, more processes must be written down, more roles must be defined, more layers of accountability must be added, and the honesty that once moved through direct acquaintance is preserved by procedural substitutes. The substitutes do real work and should not be dismissed. They are not, however, the same thing as the honesty they replaced, and treating them as equivalent is the central error.\n\nConsider a small literary journal in Vilnius that for two decades has published, four times a year, work the editors believed to be the best they could find. The editors number five; they read everything; they argue in person about each piece; they know, by name and by quirk, most of the writers they publish. The journal has a reputation for refusing fashionable submissions in favour of obscurer ones it found persuasive, and for paying its authors slowly but reliably. None of this is preserved by a policy document. It is preserved by the fact that, when a question of editorial integrity arises, all five editors can be in the same room within a week, and the writer in question can be telephoned by someone who knows their work and not just their submission.\n\nWhat the language of 'scaling impact' tends to evade is the fact that some institutions are honest only because everyone in them can be held in a single room. To double the journal's staff, open offices in two further cities, and triple the publication frequency would not preserve the practice; it would replace it. The new arrangement would require submission guidelines, conflict-of-interest policies, an editorial board with rotating chairs, a public ethics statement. Each of these is a serious attempt to perform what the small room used to perform without thinking. None of them is a substitute. They are different things doing the same nominal job, and the difference matters because the new things are answerable in a different way: through procedure, when in trouble, rather than through the editor whose phone you can ring.\n\nIt is the substitution of procedure for acquaintance, not the increase in headcount as such, that produces the loss. The neighbourhood school in Naples whose head knows every family by sight, who notices when a child stops arriving on Tuesdays because the family is moving, is not doing a job that scales. Replace her with a deputy network in a larger school, and the deputies will, with effort, track most of the children most of the time, supported by a database. The honesty is not eliminated, but its character changes: where the head's recognition was unmediated, the deputies' is filtered through the categories the database can hold. A child who falls between categories falls also, often, between deputies.\n\nGranted, the case for smallness is easily romanticised, and small institutions can be as corrupt, capricious, and exclusive as any other. The parish where everyone knows everyone is also the parish where unwelcome arrivals are quietly frozen out, where the same families have served on the committee for forty years, and where a falling-out between two members can poison the place for a generation. The small face-to-face order is not innocent; the literature on its abuses is long and well-documented. Even so, the existence of these abuses does not rescue the assumption that a larger arrangement automatically does better. It often does some things better — procedural fairness, formal grievance, the protection of the unwelcome arrival — and other things worse, and the things it does worse are precisely the ones that the small institution was honest about in the first place.\n\nThere is a particular form of dishonesty that the larger arrangement makes available. It allows everyone involved to act as if the procedures are the relations. The board of governors of a school of three thousand can write a policy on safeguarding, audit its implementation, and report compliance; the policy is real, and the audit is real, and the compliance, in the technical sense, is real. None of this is the same as the head who notices the child whose family is moving. The larger arrangement makes possible a category of statement — 'we are a safeguarding institution' — that the small school could neither make nor need. The statement is not false. It is a different kind of truth, with a different kind of relation to what is happening on Tuesday mornings.\n\nNone of this is an argument that institutions should refuse to grow. Most should, and the goods that scale provides — pluralism, durability, the capacity to outlast the people who founded the thing — are not goods to give up. The narrower claim is that some institutions are constituted by smallness in a way that growth does not preserve but transforms, and that pretending otherwise costs more than the gains of scale typically admit.",
   "sampleAnnotations": [
-    {"phrase": "Scarcely is the relation between size and institutional honesty examined as anything more substantial than a problem of management", "meaningVi": "Hầu như không có mối quan hệ giữa quy mô và tính trung thực thể chế được xem xét như điều gì thực chất hơn một vấn đề quản lý"},
-    {"phrase": "the honesty that once moved through direct acquaintance is preserved by procedural substitutes", "meaningVi": "tính trung thực từng đi qua sự quen biết trực tiếp được bảo tồn bởi các thay thế thủ tục"},
-    {"phrase": "They are not, however, the same thing as the honesty they replaced, and treating them as equivalent is the central error", "meaningVi": "Tuy nhiên chúng không phải cùng một thứ với tính trung thực mà chúng thay thế, và đối xử với chúng như tương đương là sai lầm trung tâm"},
-    {"phrase": "the editors number five; they read everything; they argue in person about each piece", "meaningVi": "các biên tập viên có năm người; họ đọc mọi thứ; họ tranh luận trực tiếp về từng tác phẩm"},
-    {"phrase": "all five editors can be in the same room within a week", "meaningVi": "cả năm biên tập viên có thể ở cùng phòng trong vòng một tuần"},
-    {"phrase": "the writer in question can be telephoned by someone who knows their work and not just their submission", "meaningVi": "nhà văn liên quan có thể được gọi điện bởi ai đó biết tác phẩm của họ chứ không chỉ bài nộp"},
-    {"phrase": "What the language of 'scaling impact' tends to evade is the fact that some institutions are honest only because everyone in them can be held in a single room", "meaningVi": "Điều mà ngôn ngữ 'mở rộng tác động' thường né tránh là sự thật rằng một số thể chế chỉ trung thực vì mọi người trong đó có thể được giữ trong một phòng duy nhất"},
-    {"phrase": "Each of these is a serious attempt to perform what the small room used to perform without thinking", "meaningVi": "Mỗi cái này là một nỗ lực nghiêm túc để thực hiện điều mà phòng nhỏ từng thực hiện mà không suy nghĩ"},
-    {"phrase": "They are different things doing the same nominal job", "meaningVi": "Chúng là những thứ khác nhau làm cùng một công việc trên danh nghĩa"},
-    {"phrase": "the new things are answerable in a different way: through procedure, when in trouble, rather than through the editor whose phone you can ring", "meaningVi": "những thứ mới chịu trách nhiệm theo cách khác: qua thủ tục, khi gặp rắc rối, chứ không qua biên tập viên mà bạn có thể gọi điện"},
-    {"phrase": "It is the substitution of procedure for acquaintance, not the increase in headcount as such, that produces the loss", "meaningVi": "Chính sự thay thế thủ tục cho sự quen biết, không phải sự tăng số lượng nhân viên như vậy, mới tạo ra tổn thất"},
-    {"phrase": "where the head's recognition was unmediated, the deputies' is filtered through the categories the database can hold", "meaningVi": "trong khi sự nhận diện của hiệu trưởng là không trung gian, thì của các phó hiệu trưởng được lọc qua các phạm trù mà cơ sở dữ liệu có thể chứa"},
-    {"phrase": "A child who falls between categories falls also, often, between deputies", "meaningVi": "Đứa trẻ rơi giữa các phạm trù cũng thường rơi giữa các phó hiệu trưởng"},
-    {"phrase": "Granted, the case for smallness is easily romanticised, and small institutions can be as corrupt, capricious, and exclusive as any other", "meaningVi": "Cứ cho là lập luận cho tính nhỏ dễ bị lãng mạn hoá, và các thể chế nhỏ có thể tham nhũng, đỏng đảnh và loại trừ như bất kỳ thể chế nào khác"},
-    {"phrase": "the parish where everyone knows everyone is also the parish where unwelcome arrivals are quietly frozen out", "meaningVi": "giáo xứ nơi mọi người biết mọi người cũng là giáo xứ nơi những người đến không được chào đón bị lặng lẽ đẩy ra"},
-    {"phrase": "Even so, the existence of these abuses does not rescue the assumption that a larger arrangement automatically does better", "meaningVi": "Dù vậy, sự tồn tại của những lạm dụng này không cứu vãn được giả định rằng một sắp xếp lớn hơn tự động làm tốt hơn"},
-    {"phrase": "It allows everyone involved to act as if the procedures are the relations", "meaningVi": "Nó cho phép mọi người liên quan hành động như thể các thủ tục là các mối quan hệ"},
-    {"phrase": "the larger arrangement makes possible a category of statement — 'we are a safeguarding institution' — that the small school could neither make nor need", "meaningVi": "sắp xếp lớn hơn làm khả thi một loại tuyên bố — 'chúng tôi là một thể chế bảo vệ' — mà trường nhỏ không thể đưa ra mà cũng không cần"},
-    {"phrase": "It is a different kind of truth, with a different kind of relation to what is happening on Tuesday mornings", "meaningVi": "Đó là một loại sự thật khác, với một loại mối quan hệ khác với những gì đang xảy ra vào sáng thứ Ba"},
-    {"phrase": "the goods that scale provides — pluralism, durability, the capacity to outlast the people who founded the thing — are not goods to give up", "meaningVi": "những điều tốt mà quy mô mang lại — đa nguyên, bền vững, khả năng tồn tại lâu hơn những người sáng lập — không phải là điều tốt để từ bỏ"},
-    {"phrase": "some institutions are constituted by smallness in a way that growth does not preserve but transforms", "meaningVi": "một số thể chế được cấu thành bởi tính nhỏ theo cách mà tăng trưởng không bảo tồn mà chuyển hoá"},
-    {"phrase": "pretending otherwise costs more than the gains of scale typically admit", "meaningVi": "giả vờ khác đi tốn kém hơn so với những gì lợi ích của quy mô thường thừa nhận"}
+    {
+      "phrase": "Scarcely is the relation between size and institutional honesty examined as anything more substantial than a problem of management",
+      "meaningVi": "Hầu như không có mối quan hệ giữa quy mô và tính trung thực thể chế được xem xét như điều gì thực chất hơn một vấn đề quản lý"
+    },
+    {
+      "phrase": "the honesty that once moved through direct acquaintance is preserved by procedural substitutes",
+      "meaningVi": "tính trung thực từng đi qua sự quen biết trực tiếp được bảo tồn bởi các thay thế thủ tục"
+    },
+    {
+      "phrase": "They are not, however, the same thing as the honesty they replaced, and treating them as equivalent is the central error",
+      "meaningVi": "Tuy nhiên chúng không phải cùng một thứ với tính trung thực mà chúng thay thế, và đối xử với chúng như tương đương là sai lầm trung tâm"
+    },
+    {
+      "phrase": "the editors number five; they read everything; they argue in person about each piece",
+      "meaningVi": "các biên tập viên có năm người; họ đọc mọi thứ; họ tranh luận trực tiếp về từng tác phẩm"
+    },
+    {
+      "phrase": "all five editors can be in the same room within a week",
+      "meaningVi": "cả năm biên tập viên có thể ở cùng phòng trong vòng một tuần"
+    },
+    {
+      "phrase": "the writer in question can be telephoned by someone who knows their work and not just their submission",
+      "meaningVi": "nhà văn liên quan có thể được gọi điện bởi ai đó biết tác phẩm của họ chứ không chỉ bài nộp"
+    },
+    {
+      "phrase": "What the language of 'scaling impact' tends to evade is the fact that some institutions are honest only because everyone in them can be held in a single room",
+      "meaningVi": "Điều mà ngôn ngữ 'mở rộng tác động' thường né tránh là sự thật rằng một số thể chế chỉ trung thực vì mọi người trong đó có thể được giữ trong một phòng duy nhất"
+    },
+    {
+      "phrase": "Each of these is a serious attempt to perform what the small room used to perform without thinking",
+      "meaningVi": "Mỗi cái này là một nỗ lực nghiêm túc để thực hiện điều mà phòng nhỏ từng thực hiện mà không suy nghĩ"
+    },
+    {
+      "phrase": "They are different things doing the same nominal job",
+      "meaningVi": "Chúng là những thứ khác nhau làm cùng một công việc trên danh nghĩa"
+    },
+    {
+      "phrase": "the new things are answerable in a different way: through procedure, when in trouble, rather than through the editor whose phone you can ring",
+      "meaningVi": "những thứ mới chịu trách nhiệm theo cách khác: qua thủ tục, khi gặp rắc rối, chứ không qua biên tập viên mà bạn có thể gọi điện"
+    },
+    {
+      "phrase": "It is the substitution of procedure for acquaintance, not the increase in headcount as such, that produces the loss",
+      "meaningVi": "Chính sự thay thế thủ tục cho sự quen biết, không phải sự tăng số lượng nhân viên như vậy, mới tạo ra tổn thất"
+    },
+    {
+      "phrase": "where the head's recognition was unmediated, the deputies' is filtered through the categories the database can hold",
+      "meaningVi": "trong khi sự nhận diện của hiệu trưởng là không trung gian, thì của các phó hiệu trưởng được lọc qua các phạm trù mà cơ sở dữ liệu có thể chứa"
+    },
+    {
+      "phrase": "A child who falls between categories falls also, often, between deputies",
+      "meaningVi": "Đứa trẻ rơi giữa các phạm trù cũng thường rơi giữa các phó hiệu trưởng"
+    },
+    {
+      "phrase": "Granted, the case for smallness is easily romanticised, and small institutions can be as corrupt, capricious, and exclusive as any other",
+      "meaningVi": "Cứ cho là lập luận cho tính nhỏ dễ bị lãng mạn hoá, và các thể chế nhỏ có thể tham nhũng, đỏng đảnh và loại trừ như bất kỳ thể chế nào khác"
+    },
+    {
+      "phrase": "the parish where everyone knows everyone is also the parish where unwelcome arrivals are quietly frozen out",
+      "meaningVi": "giáo xứ nơi mọi người biết mọi người cũng là giáo xứ nơi những người đến không được chào đón bị lặng lẽ đẩy ra"
+    },
+    {
+      "phrase": "Even so, the existence of these abuses does not rescue the assumption that a larger arrangement automatically does better",
+      "meaningVi": "Dù vậy, sự tồn tại của những lạm dụng này không cứu vãn được giả định rằng một sắp xếp lớn hơn tự động làm tốt hơn"
+    },
+    {
+      "phrase": "It allows everyone involved to act as if the procedures are the relations",
+      "meaningVi": "Nó cho phép mọi người liên quan hành động như thể các thủ tục là các mối quan hệ"
+    },
+    {
+      "phrase": "the larger arrangement makes possible a category of statement — 'we are a safeguarding institution' — that the small school could neither make nor need",
+      "meaningVi": "sắp xếp lớn hơn làm khả thi một loại tuyên bố — 'chúng tôi là một thể chế bảo vệ' — mà trường nhỏ không thể đưa ra mà cũng không cần"
+    },
+    {
+      "phrase": "It is a different kind of truth, with a different kind of relation to what is happening on Tuesday mornings",
+      "meaningVi": "Đó là một loại sự thật khác, với một loại mối quan hệ khác với những gì đang xảy ra vào sáng thứ Ba"
+    },
+    {
+      "phrase": "the goods that scale provides — pluralism, durability, the capacity to outlast the people who founded the thing — are not goods to give up",
+      "meaningVi": "những điều tốt mà quy mô mang lại — đa nguyên, bền vững, khả năng tồn tại lâu hơn những người sáng lập — không phải là điều tốt để từ bỏ"
+    },
+    {
+      "phrase": "some institutions are constituted by smallness in a way that growth does not preserve but transforms",
+      "meaningVi": "một số thể chế được cấu thành bởi tính nhỏ theo cách mà tăng trưởng không bảo tồn mà chuyển hoá"
+    },
+    {
+      "phrase": "pretending otherwise costs more than the gains of scale typically admit",
+      "meaningVi": "giả vờ khác đi tốn kém hơn so với những gì lợi ích của quy mô thường thừa nhận"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -94,11 +230,11 @@
       "prompt": "What does the essay say is the 'central error' of the standard view?",
       "options": [
         "Believing scale is impossible.",
-        "Treating procedural substitutes for institutional honesty as equivalent to the honesty they replaced.",
         "Hiring too few people.",
+        "Treating procedural substitutes for institutional honesty as equivalent to the honesty they replaced.",
         "Writing down too many rules."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay's central diagnosis: procedural substitutes do real work, but mistaking them for the honesty they replaced is the structural error.",
       "hint": "The substitution and its equivalence claim."
     },
@@ -107,11 +243,11 @@
       "prompt": "Which sentence in the essay is a cleft?",
       "options": [
         "The journal has a reputation for refusing fashionable submissions.",
-        "It is the substitution of procedure for acquaintance, not the increase in headcount as such, that produces the loss.",
         "The deputies will, with effort, track most of the children most of the time.",
-        "The new arrangement would require submission guidelines."
+        "The new arrangement would require submission guidelines.",
+        "It is the substitution of procedure for acquaintance, not the increase in headcount as such, that produces the loss."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'It is X, not Y, that Z' is the cleft. It locates the loss in substitution, not in headcount per se.",
       "hint": "Look for 'It is ... not ... that ...'"
     },
@@ -119,12 +255,12 @@
       "id": "q4",
       "prompt": "What does the essay say preserves the journal's editorial integrity?",
       "options": [
-        "A written ethics policy.",
         "The fact that all five editors can be in the same room within a week, and that the writer can be telephoned by someone who knows their work.",
+        "A written ethics policy.",
         "Software for submission tracking.",
         "Annual audits."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay's contrast: integrity moves through acquaintance and reach, not through policy. The phone call from someone who knows the work is the structural fact.",
       "hint": "Same room within a week."
     },
@@ -146,11 +282,11 @@
       "prompt": "What does the essay say happens when the school replaces the head who knows every family with a deputy network?",
       "options": [
         "The school becomes more efficient.",
-        "The honesty is not eliminated but its character changes — recognition is filtered through database categories, and children who fall between categories often fall between deputies.",
         "Nothing changes.",
+        "The honesty is not eliminated but its character changes — recognition is filtered through database categories, and children who fall between categories often fall between deputies.",
         "Honesty disappears entirely."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay's careful claim: not loss of honesty, but a shift in its form. The deputies' recognition is mediated by what the database can hold.",
       "hint": "Recognition mediated by categories."
     },
@@ -159,11 +295,11 @@
       "prompt": "What does the essay say the larger arrangement 'makes possible'?",
       "options": [
         "A new physical building.",
-        "A category of statement — 'we are a safeguarding institution' — that the small school could neither make nor need, with a different kind of relation to what is actually happening.",
         "Higher salaries.",
-        "Greater obscurity."
+        "Greater obscurity.",
+        "A category of statement — 'we are a safeguarding institution' — that the small school could neither make nor need, with a different kind of relation to what is actually happening."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay's observation about a particular form of dishonesty: scale enables the formal claim of being a certain kind of institution, decoupled from the granular reality of Tuesday mornings.",
       "hint": "The formal claim that decouples from granular reality."
     },
@@ -171,12 +307,12 @@
       "id": "q8",
       "prompt": "What does 'the procedures are the relations' mean?",
       "options": [
-        "Procedures should be relationship-focused.",
         "Inside large institutions, everyone involved can act as if writing and auditing a policy IS the relationship — the substitution becomes invisible.",
+        "Procedures should be relationship-focused.",
         "Procedures are friendly.",
         "Relations are bureaucratic."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay's diagnostic phrase: the large institution lets actors mistake the procedural surrogate for the relation it stands in for. The mistake is what makes the form of dishonesty available.",
       "hint": "The substitution becomes invisible."
     },
@@ -198,11 +334,11 @@
       "prompt": "What is the essay's narrower claim?",
       "options": [
         "Institutions should refuse to grow.",
-        "Some institutions are constituted by smallness in a way that growth does not preserve but transforms, and pretending otherwise costs more than the gains of scale typically admit.",
         "Growth is always better.",
+        "Some institutions are constituted by smallness in a way that growth does not preserve but transforms, and pretending otherwise costs more than the gains of scale typically admit.",
         "Smallness is morally superior."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay's careful final claim: not against growth in general, but against the assumption that growth preserves what some institutions were.",
       "hint": "Constituted by smallness; growth transforms."
     },
@@ -211,11 +347,11 @@
       "prompt": "What does the essay mean by 'a different kind of truth'?",
       "options": [
         "An untruth.",
-        "A truth that holds at the formal, policy, and audit level but does not necessarily map onto what is happening in the daily life of the institution.",
         "A philosophical paradox.",
-        "An ironic statement."
+        "An ironic statement.",
+        "A truth that holds at the formal, policy, and audit level but does not necessarily map onto what is happening in the daily life of the institution."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay carefully avoids saying the formal claim is false. It says the formal claim is a different kind of truth, with a different relation to ground.",
       "hint": "Formally true; differently related to ground."
     },
@@ -223,12 +359,12 @@
       "id": "q12",
       "prompt": "What does 'they are different things doing the same nominal job' mean?",
       "options": [
-        "They have different names.",
         "The procedural substitutes and the small-room practices share a name on the org chart but are not the same kind of thing, and the difference matters for what each can and cannot do.",
+        "They have different names.",
         "They are paid differently.",
         "They use different software."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay's clearest statement of the substitution thesis: the nominal job is the same, the actual practice is not, and the difference shows up at the moment of trouble.",
       "hint": "Same name, different practice."
     },
@@ -250,11 +386,11 @@
       "prompt": "What does 'horizontal accountability' (implicit in the essay) refer to?",
       "options": [
         "Accountability to one's manager.",
-        "Accountability to peers who are in the same small room and can witness each other's work directly, without a procedural intermediary.",
         "Accountability to the public.",
+        "Accountability to peers who are in the same small room and can witness each other's work directly, without a procedural intermediary.",
         "Accountability through written reports."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay's implicit framing: small institutions run on peer-witnessed practice; larger ones convert this into vertical procedural accountability, which carries different epistemic weight.",
       "hint": "Peer-witnessed practice in a small room."
     },
@@ -263,11 +399,11 @@
       "prompt": "What is the essay's view of nostalgia for small institutions?",
       "options": [
         "It embraces nostalgia.",
-        "It explicitly rejects romanticisation, naming the well-documented abuses of small institutions: exclusion, capriciousness, frozen-out arrivals.",
         "It is indifferent to nostalgia.",
-        "It treats nostalgia as the central problem."
+        "It treats nostalgia as the central problem.",
+        "It explicitly rejects romanticisation, naming the well-documented abuses of small institutions: exclusion, capriciousness, frozen-out arrivals."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay is careful: the case for smallness is easily romanticised, and the essay refuses to do so. The 'Granted' paragraph names the abuses.",
       "hint": "The essay names the abuses to forestall romanticism."
     },
@@ -275,12 +411,12 @@
       "id": "q16",
       "prompt": "What rhetorical purpose does the refusal of false resolution serve?",
       "options": [
-        "It admits the essay has failed.",
         "It holds the trade-off open — scale's gains and losses are both real — rather than dissolving the tension into a slogan in either direction.",
+        "It admits the essay has failed.",
         "It is stylistic accident.",
         "It signals incompleteness."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "C1 prose preserves the tension. The essay does not call for shrinking or growing as such; it calls for noticing what is transformed by the move.",
       "hint": "Tension preserved; slogan refused."
     }

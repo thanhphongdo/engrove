@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "On the ethical asymmetry of giving and receiving advice",
   "summary": "Argue that the moral situations of the adviser and the advised are not symmetrical, that the asymmetry is rarely acknowledged, and that ignoring it leads to a particular kind of harm done with the best of intentions.",
-  "tags": ["Ethics", "Argument", "Relationships"],
+  "tags": [
+    "Ethics",
+    "Argument",
+    "Relationships"
+  ],
   "topic": "The unequal moral positions of adviser and advised",
   "prompt": "Write a 600–800-word essay on the ethical asymmetry between the person who gives advice and the person who receives it. Avoid self-help framings and the cliche that 'no one should give advice'. Use one inversion, one cleft, and a 'Granted… Even so…' concession. Treat the question philosophically. Use one or two concrete scenes.",
   "minWords": 600,
@@ -14,53 +18,185 @@
     "Granted, refusing all advice would impoverish a particular form of friendship that depends on the exchange. Even so,…"
   ],
   "hintVocab": [
-    {"phrase": "asymmetric exposure", "meaningVi": "phơi nhiễm bất đối xứng"},
-    {"phrase": "the adviser's exit", "meaningVi": "lối thoát của người khuyên"},
-    {"phrase": "the receiver's residue", "meaningVi": "dư lượng của người nhận"},
-    {"phrase": "unsolicited advice", "meaningVi": "lời khuyên không được yêu cầu"},
-    {"phrase": "epistemic intrusion", "meaningVi": "sự xâm phạm nhận thức"},
-    {"phrase": "the moral debt of being heard", "meaningVi": "món nợ đạo đức của việc được lắng nghe"},
-    {"phrase": "the unequal stakes", "meaningVi": "rủi ro không cân bằng"},
-    {"phrase": "the seriousness asymmetry", "meaningVi": "bất đối xứng về tính nghiêm túc"},
-    {"phrase": "advice as small claim", "meaningVi": "lời khuyên như sự đòi quyền nhỏ"},
-    {"phrase": "the consequentialist gap", "meaningVi": "khoảng cách hệ quả luận"},
-    {"phrase": "the unaccountable adviser", "meaningVi": "người khuyên không chịu trách nhiệm"},
-    {"phrase": "the receiver as bearer", "meaningVi": "người nhận như người gánh"},
-    {"phrase": "the friendly transgression", "meaningVi": "sự vi phạm thân thiện"},
-    {"phrase": "the invited adviser", "meaningVi": "người khuyên được mời"},
-    {"phrase": "the consent threshold", "meaningVi": "ngưỡng đồng ý"},
-    {"phrase": "the implicit hierarchy of address", "meaningVi": "thứ bậc ngầm của lời nói"},
-    {"phrase": "performative humility", "meaningVi": "khiêm tốn trình diễn"},
-    {"phrase": "the hedging clause", "meaningVi": "mệnh đề bảo lưu"},
-    {"phrase": "moral skin in the game", "meaningVi": "lợi ích đạo đức bị đặt vào"},
-    {"phrase": "advisory restraint", "meaningVi": "sự tự kiềm chế khuyên bảo"},
-    {"phrase": "the asked-for opinion", "meaningVi": "ý kiến được hỏi"},
-    {"phrase": "the unsought judgment", "meaningVi": "phán xét không được tìm kiếm"}
+    {
+      "phrase": "asymmetric exposure",
+      "meaningVi": "phơi nhiễm bất đối xứng"
+    },
+    {
+      "phrase": "the adviser's exit",
+      "meaningVi": "lối thoát của người khuyên"
+    },
+    {
+      "phrase": "the receiver's residue",
+      "meaningVi": "dư lượng của người nhận"
+    },
+    {
+      "phrase": "unsolicited advice",
+      "meaningVi": "lời khuyên không được yêu cầu"
+    },
+    {
+      "phrase": "epistemic intrusion",
+      "meaningVi": "sự xâm phạm nhận thức"
+    },
+    {
+      "phrase": "the moral debt of being heard",
+      "meaningVi": "món nợ đạo đức của việc được lắng nghe"
+    },
+    {
+      "phrase": "the unequal stakes",
+      "meaningVi": "rủi ro không cân bằng"
+    },
+    {
+      "phrase": "the seriousness asymmetry",
+      "meaningVi": "bất đối xứng về tính nghiêm túc"
+    },
+    {
+      "phrase": "advice as small claim",
+      "meaningVi": "lời khuyên như sự đòi quyền nhỏ"
+    },
+    {
+      "phrase": "the consequentialist gap",
+      "meaningVi": "khoảng cách hệ quả luận"
+    },
+    {
+      "phrase": "the unaccountable adviser",
+      "meaningVi": "người khuyên không chịu trách nhiệm"
+    },
+    {
+      "phrase": "the receiver as bearer",
+      "meaningVi": "người nhận như người gánh"
+    },
+    {
+      "phrase": "the friendly transgression",
+      "meaningVi": "sự vi phạm thân thiện"
+    },
+    {
+      "phrase": "the invited adviser",
+      "meaningVi": "người khuyên được mời"
+    },
+    {
+      "phrase": "the consent threshold",
+      "meaningVi": "ngưỡng đồng ý"
+    },
+    {
+      "phrase": "the implicit hierarchy of address",
+      "meaningVi": "thứ bậc ngầm của lời nói"
+    },
+    {
+      "phrase": "performative humility",
+      "meaningVi": "khiêm tốn trình diễn"
+    },
+    {
+      "phrase": "the hedging clause",
+      "meaningVi": "mệnh đề bảo lưu"
+    },
+    {
+      "phrase": "moral skin in the game",
+      "meaningVi": "lợi ích đạo đức bị đặt vào"
+    },
+    {
+      "phrase": "advisory restraint",
+      "meaningVi": "sự tự kiềm chế khuyên bảo"
+    },
+    {
+      "phrase": "the asked-for opinion",
+      "meaningVi": "ý kiến được hỏi"
+    },
+    {
+      "phrase": "the unsought judgment",
+      "meaningVi": "phán xét không được tìm kiếm"
+    }
   ],
   "sampleText": "Not often is the moral position of the advice-giver examined separately from the content of the advice itself. We tend to ask whether the recommendation was correct, whether the analysis was sound, whether the prediction was confirmed by events. These are reasonable questions, but they are questions about the advice, not about the act of giving it. What is harder to see — because the rhetorical frame of advice-giving conceals it — is that the two parties to the conversation are not, when the conversation ends, in symmetrical conditions. One walks out unchanged; the other walks out carrying something.\n\nConsider the friend who, over coffee in a café in Quito, offers a serious recommendation to a colleague about a career decision the colleague has been weighing for months. The recommendation is offered with care, hedged with the appropriate disclaimers, and qualified by the friend's repeated reminder that it is, after all, the colleague's life. The two friends part. The adviser proceeds with her week. She has had a good conversation, has shown the kind of attention friendship requires, and, if pressed, would say she is glad to have helped. The colleague, however, has been altered by the conversation in a way the adviser has not. The recommendation is now part of the inventory of considerations the colleague must hold, weigh, defend against herself, and, at some later moment, either follow or refuse. The adviser is free of all of this. The exchange was, in this sense, never symmetrical, and the appearance of symmetry — both parties chatting equally over coffee — was the misleading part.\n\nWhat the friendly framing of 'just my opinion' tends to obscure is the fact that the adviser leaves the conversation in a different condition from the one she enters. She has not acquired a new piece of considered judgment that she must now carry. She has produced one and handed it over. The receiver, by contrast, will be carrying that judgment for as long as the decision remains live, and possibly longer. The asymmetry is not, in this case, a matter of who knows more; it is a matter of who, by the end of the exchange, is responsible for what.\n\nIt is the disparity in residue, not the disparity in expertise, that gives the act its quiet ethical weight. We tend to imagine that advice is risky for the adviser only when she might be wrong — that she pays the cost of being shown, later, to have steered her friend badly. This is the wrong picture. The deeper asymmetry holds even when the advice is good. The adviser has produced an external claim on the receiver's deliberation, and external claims of this kind do not dissolve when the conversation ends. They linger. They surface later, often at the moment of greatest uncertainty, dressed in the authority of the person who gave them. The receiver, choosing later against the advice, has to defend the choice not only to herself but, in some quiet way, to the friend who is not in the room.\n\nGranted, refusing all advice would impoverish a particular form of friendship that depends on the exchange. The friend who declines to say what she thinks, who deflects every question with the formula that 'it has to be your call', is not preserving the other's autonomy; she is withholding the labour that friendship sometimes requires. The position 'never give advice' is as bad as the position 'always give it'. There is no clean way out, and the essay is not pretending to offer one. Even so, the existence of the legitimate advisory exchange does not erase the asymmetry. It simply specifies that the exchange has costs, and that the costs are borne by one party more than the other.\n\nA useful test is whether the adviser would be willing to bear part of the residue herself — to be told, three years from now, the actual consequence of what she recommended, and to feel that consequence in some small way as her own. If she would not, the advice was offered too cheaply. The hedging clauses about 'it's your life' are honest only when the speaker is also willing, in some structural sense, to be on the hook. Otherwise the hedging clauses are functioning as a clearance of debt that has not actually been cleared; the debt has only been moved.\n\nNone of this resolves into a code. There is no rule that tells anyone when to offer advice and when to decline. The narrower claim is that the situations of adviser and advised are not symmetrical, that the asymmetry is concealed by the conversational frame, and that the ethical work begins precisely where the conversation pretends to end. To give advice well requires, at minimum, an honest sense of what the receiver will be carrying after the cup is cleared away — and a small reluctance, hard to name, when one's own day will not include any of the carrying.",
   "sampleAnnotations": [
-    {"phrase": "Not often is the moral position of the advice-giver examined separately from the content of the advice itself", "meaningVi": "Không thường xuyên vị trí đạo đức của người khuyên được xem xét tách biệt với nội dung của lời khuyên"},
-    {"phrase": "One walks out unchanged; the other walks out carrying something", "meaningVi": "Một người bước ra không thay đổi; người kia bước ra mang theo điều gì đó"},
-    {"phrase": "The recommendation is offered with care, hedged with the appropriate disclaimers", "meaningVi": "Lời khuyên được đưa ra cẩn trọng, kèm theo những lời bảo lưu thích hợp"},
-    {"phrase": "qualified by the friend's repeated reminder that it is, after all, the colleague's life", "meaningVi": "được hạn chế bởi lời nhắc lặp đi lặp lại của người bạn rằng đó, sau cùng, là cuộc đời của đồng nghiệp"},
-    {"phrase": "the colleague, however, has been altered by the conversation in a way the adviser has not", "meaningVi": "đồng nghiệp, tuy nhiên, đã bị thay đổi bởi cuộc trò chuyện theo cách mà người khuyên thì không"},
-    {"phrase": "part of the inventory of considerations the colleague must hold, weigh, defend against herself", "meaningVi": "một phần của danh mục các cân nhắc mà đồng nghiệp phải giữ, cân, bảo vệ trước chính mình"},
-    {"phrase": "The exchange was, in this sense, never symmetrical", "meaningVi": "Sự trao đổi, theo nghĩa này, không bao giờ đối xứng"},
-    {"phrase": "What the friendly framing of 'just my opinion' tends to obscure is the fact that the adviser leaves the conversation in a different condition from the one she enters", "meaningVi": "Điều mà cách đóng khung thân thiện 'chỉ là ý kiến của tôi' thường che giấu là sự thật rằng người khuyên rời cuộc trò chuyện trong tình trạng khác với tình trạng cô ấy bước vào"},
-    {"phrase": "She has not acquired a new piece of considered judgment that she must now carry. She has produced one and handed it over", "meaningVi": "Cô không có thêm một mảnh phán xét đã cân nhắc mà giờ phải gánh. Cô đã sản xuất ra một mảnh và trao nó đi"},
-    {"phrase": "the asymmetry is not, in this case, a matter of who knows more; it is a matter of who, by the end of the exchange, is responsible for what", "meaningVi": "sự bất đối xứng, trong trường hợp này, không phải là vấn đề ai biết nhiều hơn; đó là vấn đề ai, vào cuối sự trao đổi, chịu trách nhiệm về điều gì"},
-    {"phrase": "It is the disparity in residue, not the disparity in expertise, that gives the act its quiet ethical weight", "meaningVi": "Chính sự chênh lệch về dư lượng, không phải sự chênh lệch về chuyên môn, mới mang lại cho hành vi trọng lượng đạo đức trầm lặng của nó"},
-    {"phrase": "We tend to imagine that advice is risky for the adviser only when she might be wrong", "meaningVi": "Chúng ta có xu hướng tưởng tượng rằng lời khuyên là rủi ro cho người khuyên chỉ khi cô có thể sai"},
-    {"phrase": "The adviser has produced an external claim on the receiver's deliberation", "meaningVi": "Người khuyên đã tạo ra một yêu sách bên ngoài đối với sự cân nhắc của người nhận"},
-    {"phrase": "They surface later, often at the moment of greatest uncertainty, dressed in the authority of the person who gave them", "meaningVi": "Chúng nổi lên sau, thường vào khoảnh khắc bất định nhất, khoác trên mình thẩm quyền của người đã trao chúng"},
-    {"phrase": "the friend who is not in the room", "meaningVi": "người bạn không có mặt trong phòng"},
-    {"phrase": "Granted, refusing all advice would impoverish a particular form of friendship that depends on the exchange", "meaningVi": "Cứ cho là từ chối mọi lời khuyên sẽ làm nghèo đi một hình thức tình bạn cụ thể phụ thuộc vào sự trao đổi"},
-    {"phrase": "the labour that friendship sometimes requires", "meaningVi": "lao động mà tình bạn đôi khi đòi hỏi"},
-    {"phrase": "Even so, the existence of the legitimate advisory exchange does not erase the asymmetry", "meaningVi": "Dù vậy, sự tồn tại của trao đổi tư vấn chính đáng không xoá đi sự bất đối xứng"},
-    {"phrase": "whether the adviser would be willing to bear part of the residue herself", "meaningVi": "liệu người khuyên có sẵn lòng gánh một phần dư lượng cho chính mình"},
-    {"phrase": "If she would not, the advice was offered too cheaply", "meaningVi": "Nếu cô không sẵn lòng, lời khuyên đã được đưa ra quá rẻ"},
-    {"phrase": "the hedging clauses are functioning as a clearance of debt that has not actually been cleared; the debt has only been moved", "meaningVi": "các mệnh đề bảo lưu đang hoạt động như sự thanh toán món nợ mà thực ra chưa được thanh toán; món nợ chỉ được chuyển đi"},
-    {"phrase": "the ethical work begins precisely where the conversation pretends to end", "meaningVi": "công việc đạo đức bắt đầu chính xác nơi cuộc trò chuyện giả vờ kết thúc"}
+    {
+      "phrase": "Not often is the moral position of the advice-giver examined separately from the content of the advice itself",
+      "meaningVi": "Không thường xuyên vị trí đạo đức của người khuyên được xem xét tách biệt với nội dung của lời khuyên"
+    },
+    {
+      "phrase": "One walks out unchanged; the other walks out carrying something",
+      "meaningVi": "Một người bước ra không thay đổi; người kia bước ra mang theo điều gì đó"
+    },
+    {
+      "phrase": "The recommendation is offered with care, hedged with the appropriate disclaimers",
+      "meaningVi": "Lời khuyên được đưa ra cẩn trọng, kèm theo những lời bảo lưu thích hợp"
+    },
+    {
+      "phrase": "qualified by the friend's repeated reminder that it is, after all, the colleague's life",
+      "meaningVi": "được hạn chế bởi lời nhắc lặp đi lặp lại của người bạn rằng đó, sau cùng, là cuộc đời của đồng nghiệp"
+    },
+    {
+      "phrase": "the colleague, however, has been altered by the conversation in a way the adviser has not",
+      "meaningVi": "đồng nghiệp, tuy nhiên, đã bị thay đổi bởi cuộc trò chuyện theo cách mà người khuyên thì không"
+    },
+    {
+      "phrase": "part of the inventory of considerations the colleague must hold, weigh, defend against herself",
+      "meaningVi": "một phần của danh mục các cân nhắc mà đồng nghiệp phải giữ, cân, bảo vệ trước chính mình"
+    },
+    {
+      "phrase": "The exchange was, in this sense, never symmetrical",
+      "meaningVi": "Sự trao đổi, theo nghĩa này, không bao giờ đối xứng"
+    },
+    {
+      "phrase": "What the friendly framing of 'just my opinion' tends to obscure is the fact that the adviser leaves the conversation in a different condition from the one she enters",
+      "meaningVi": "Điều mà cách đóng khung thân thiện 'chỉ là ý kiến của tôi' thường che giấu là sự thật rằng người khuyên rời cuộc trò chuyện trong tình trạng khác với tình trạng cô ấy bước vào"
+    },
+    {
+      "phrase": "She has not acquired a new piece of considered judgment that she must now carry. She has produced one and handed it over",
+      "meaningVi": "Cô không có thêm một mảnh phán xét đã cân nhắc mà giờ phải gánh. Cô đã sản xuất ra một mảnh và trao nó đi"
+    },
+    {
+      "phrase": "the asymmetry is not, in this case, a matter of who knows more; it is a matter of who, by the end of the exchange, is responsible for what",
+      "meaningVi": "sự bất đối xứng, trong trường hợp này, không phải là vấn đề ai biết nhiều hơn; đó là vấn đề ai, vào cuối sự trao đổi, chịu trách nhiệm về điều gì"
+    },
+    {
+      "phrase": "It is the disparity in residue, not the disparity in expertise, that gives the act its quiet ethical weight",
+      "meaningVi": "Chính sự chênh lệch về dư lượng, không phải sự chênh lệch về chuyên môn, mới mang lại cho hành vi trọng lượng đạo đức trầm lặng của nó"
+    },
+    {
+      "phrase": "We tend to imagine that advice is risky for the adviser only when she might be wrong",
+      "meaningVi": "Chúng ta có xu hướng tưởng tượng rằng lời khuyên là rủi ro cho người khuyên chỉ khi cô có thể sai"
+    },
+    {
+      "phrase": "The adviser has produced an external claim on the receiver's deliberation",
+      "meaningVi": "Người khuyên đã tạo ra một yêu sách bên ngoài đối với sự cân nhắc của người nhận"
+    },
+    {
+      "phrase": "They surface later, often at the moment of greatest uncertainty, dressed in the authority of the person who gave them",
+      "meaningVi": "Chúng nổi lên sau, thường vào khoảnh khắc bất định nhất, khoác trên mình thẩm quyền của người đã trao chúng"
+    },
+    {
+      "phrase": "the friend who is not in the room",
+      "meaningVi": "người bạn không có mặt trong phòng"
+    },
+    {
+      "phrase": "Granted, refusing all advice would impoverish a particular form of friendship that depends on the exchange",
+      "meaningVi": "Cứ cho là từ chối mọi lời khuyên sẽ làm nghèo đi một hình thức tình bạn cụ thể phụ thuộc vào sự trao đổi"
+    },
+    {
+      "phrase": "the labour that friendship sometimes requires",
+      "meaningVi": "lao động mà tình bạn đôi khi đòi hỏi"
+    },
+    {
+      "phrase": "Even so, the existence of the legitimate advisory exchange does not erase the asymmetry",
+      "meaningVi": "Dù vậy, sự tồn tại của trao đổi tư vấn chính đáng không xoá đi sự bất đối xứng"
+    },
+    {
+      "phrase": "whether the adviser would be willing to bear part of the residue herself",
+      "meaningVi": "liệu người khuyên có sẵn lòng gánh một phần dư lượng cho chính mình"
+    },
+    {
+      "phrase": "If she would not, the advice was offered too cheaply",
+      "meaningVi": "Nếu cô không sẵn lòng, lời khuyên đã được đưa ra quá rẻ"
+    },
+    {
+      "phrase": "the hedging clauses are functioning as a clearance of debt that has not actually been cleared; the debt has only been moved",
+      "meaningVi": "các mệnh đề bảo lưu đang hoạt động như sự thanh toán món nợ mà thực ra chưa được thanh toán; món nợ chỉ được chuyển đi"
+    },
+    {
+      "phrase": "the ethical work begins precisely where the conversation pretends to end",
+      "meaningVi": "công việc đạo đức bắt đầu chính xác nơi cuộc trò chuyện giả vờ kết thúc"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -94,11 +230,11 @@
       "prompt": "What does the essay say is the central asymmetry between adviser and advised?",
       "options": [
         "Asymmetry of expertise.",
-        "Asymmetry of residue — one walks out unchanged, the other walks out carrying the recommendation as part of the inventory of considerations she must hold.",
         "Asymmetry of age.",
+        "Asymmetry of residue — one walks out unchanged, the other walks out carrying the recommendation as part of the inventory of considerations she must hold.",
         "Asymmetry of income."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay's central claim: the disparity is in what each party carries after the conversation, not in what each knew during it.",
       "hint": "Who carries something afterward."
     },
@@ -107,11 +243,11 @@
       "prompt": "Which sentence in the essay is a cleft?",
       "options": [
         "The exchange was, in this sense, never symmetrical.",
-        "It is the disparity in residue, not the disparity in expertise, that gives the act its quiet ethical weight.",
         "The recommendation is offered with care.",
-        "There is no clean way out."
+        "There is no clean way out.",
+        "It is the disparity in residue, not the disparity in expertise, that gives the act its quiet ethical weight."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'It is X, not Y, that Z' is the cleft. The essay uses it to shift the source of ethical weight from knowledge to responsibility-after.",
       "hint": "Look for 'It is ... not ... that ...'"
     },
@@ -119,12 +255,12 @@
       "id": "q4",
       "prompt": "What does the essay say about advice that turns out to be good?",
       "options": [
-        "The asymmetry vanishes.",
         "The deeper asymmetry holds even when the advice is good — the adviser has still produced an external claim on the receiver's deliberation that lingers.",
+        "The asymmetry vanishes.",
         "Good advice has no residue.",
         "Only bad advice creates a problem."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay's most distinctive move: even good advice creates the residue. The standard frame — risk lies in being wrong — misses the structural asymmetry.",
       "hint": "Even good advice creates the residue."
     },
@@ -146,11 +282,11 @@
       "prompt": "What test does the essay propose for whether advice was offered honestly?",
       "options": [
         "Whether the advice was clever.",
-        "Whether the adviser would be willing to bear part of the residue herself — to feel the consequence in some small way as her own.",
         "Whether the advice was free.",
+        "Whether the adviser would be willing to bear part of the residue herself — to feel the consequence in some small way as her own.",
         "Whether the adviser would write it down."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay's diagnostic: the hedging is only honest if the speaker is willing to share the structural exposure. Otherwise the hedge is just debt-moving.",
       "hint": "Skin in the residue."
     },
@@ -159,11 +295,11 @@
       "prompt": "What does 'the friend who is not in the room' mean?",
       "options": [
         "A friend who never existed.",
-        "When the receiver later chooses against the advice, she has to defend the choice not only to herself but to the friend whose recommendation hangs over the deliberation even in the friend's absence.",
         "An imaginary character.",
-        "A literal absent person."
+        "A literal absent person.",
+        "When the receiver later chooses against the advice, she has to defend the choice not only to herself but to the friend whose recommendation hangs over the deliberation even in the friend's absence."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay's most subtle observation: the adviser's claim continues to operate in the receiver's deliberation as a quasi-presence the receiver must answer to.",
       "hint": "Advice as quasi-presence in later deliberation."
     },
@@ -171,12 +307,12 @@
       "id": "q8",
       "prompt": "What does 'the hedging clauses are functioning as a clearance of debt that has not actually been cleared' mean?",
       "options": [
-        "Hedges are bookkeeping.",
         "Saying 'it's your call' looks like discharging responsibility but actually only displaces it onto the receiver, who is now carrying both the recommendation and the official notice that it was hers to weigh.",
+        "Hedges are bookkeeping.",
         "Hedges are financial.",
         "Hedges are legally binding."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay's sharp move: hedges perform absolution but in fact compound the receiver's load by formally returning the burden after the recommendation has already been deposited.",
       "hint": "Hedge as displacement, not absolution."
     },
@@ -198,11 +334,11 @@
       "prompt": "What does 'the appearance of symmetry — both parties chatting equally over coffee — was the misleading part' mean?",
       "options": [
         "Coffee is unfair.",
-        "The surface form of equal conversation conceals the structural fact that one party will leave the conversation carrying a claim the other has produced and handed over.",
         "Conversations are misleading.",
+        "The surface form of equal conversation conceals the structural fact that one party will leave the conversation carrying a claim the other has produced and handed over.",
         "Cafés are political."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay's diagnostic phrase: the conversational frame projects mutuality. The structural reality is one-way deposit.",
       "hint": "Surface mutuality conceals structural one-wayness."
     },
@@ -211,11 +347,11 @@
       "prompt": "What is the essay's view of 'just my opinion' as a framing?",
       "options": [
         "It is harmless.",
-        "It obscures the fact that the adviser leaves the conversation in a different condition from the one she enters — having produced a judgment and handed it over, not having acquired one.",
         "It is the most honest framing available.",
-        "It is irrelevant."
+        "It is irrelevant.",
+        "It obscures the fact that the adviser leaves the conversation in a different condition from the one she enters — having produced a judgment and handed it over, not having acquired one."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay's analytic move: 'just my opinion' performs casualness while concealing the production-and-transfer that actually occurred.",
       "hint": "Casual framing conceals production-and-transfer."
     },
@@ -223,12 +359,12 @@
       "id": "q12",
       "prompt": "What is the essay's narrower claim?",
       "options": [
-        "Adviser and advised are interchangeable.",
         "The situations of adviser and advised are not symmetrical, the asymmetry is concealed by the conversational frame, and the ethical work begins precisely where the conversation pretends to end.",
+        "Adviser and advised are interchangeable.",
         "Adviser is always wrong.",
         "Advised should always refuse advice."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay's final restatement: asymmetry exists; conversational frame conceals it; ethics begin after the conversation appears to end.",
       "hint": "Asymmetry; concealment; post-conversation ethics."
     },
@@ -250,11 +386,11 @@
       "prompt": "What does the essay refuse to provide?",
       "options": [
         "Examples.",
-        "A code or rule that tells anyone when to offer advice and when to decline.",
         "A historical perspective.",
+        "A code or rule that tells anyone when to offer advice and when to decline.",
         "An argument."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay is explicit: 'None of this resolves into a code.' The aim is to make the asymmetry visible, not to operationalise it.",
       "hint": "No code; only visibility."
     },
@@ -263,11 +399,11 @@
       "prompt": "What is the essay's overall stance?",
       "options": [
         "Adviser and advised are equally responsible.",
-        "Advice-giving is a legitimate but structurally asymmetric act in which the adviser exits free while the receiver carries; this asymmetry should be acknowledged honestly rather than concealed by friendly framings.",
         "Advice should be banned.",
-        "Advice should always be offered."
+        "Advice should always be offered.",
+        "Advice-giving is a legitimate but structurally asymmetric act in which the adviser exits free while the receiver carries; this asymmetry should be acknowledged honestly rather than concealed by friendly framings."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay's middle position: keep the practice, acknowledge the asymmetry. Neither universal refusal nor unreflective offering will do.",
       "hint": "Keep the practice; acknowledge the asymmetry."
     },
@@ -275,12 +411,12 @@
       "id": "q16",
       "prompt": "What rhetorical purpose does the refusal of false resolution serve?",
       "options": [
-        "It signals the essay has no point.",
         "It preserves the ethical difficulty in the reader's hands — there is no procedural escape from the asymmetry, only the discipline of noticing it.",
+        "It signals the essay has no point.",
         "It is stylistic accident.",
         "It admits failure."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "C1 prose holds the tension. The essay refuses to convert the asymmetry into a checklist precisely because the asymmetry survives any checklist.",
       "hint": "No escape from the asymmetry."
     }

@@ -3,7 +3,11 @@
   "level": "A2",
   "title": "A market in another country I'd love to visit",
   "summary": "Describe an imagined visit to a market in a foreign country.",
-  "tags": ["Travel", "Places", "Description"],
+  "tags": [
+    "Travel",
+    "Places",
+    "Description"
+  ],
   "topic": "A market in another country I'd love to visit",
   "prompt": "Write 150–250 words describing a market in another country that you would love to visit. Imagine the colours, smells, and sounds. Use present simple for the description and 'would like / would love' for your wishes.",
   "minWords": 150,
@@ -14,30 +18,95 @@
     "I think I would walk slowly because…"
   ],
   "hintVocab": [
-    { "phrase": "spice market", "meaningVi": "chợ gia vị" },
-    { "phrase": "narrow streets", "meaningVi": "đường phố hẹp" },
-    { "phrase": "bright colours", "meaningVi": "màu sắc tươi sáng" },
-    { "phrase": "loud voices", "meaningVi": "tiếng nói lớn" },
-    { "phrase": "leather", "meaningVi": "da thuộc", "pronunciation": "/ˈleðər/" },
-    { "phrase": "mint tea", "meaningVi": "trà bạc hà" },
-    { "phrase": "sellers", "meaningVi": "người bán hàng" },
-    { "phrase": "bargain", "meaningVi": "mặc cả", "pronunciation": "/ˈbɑːrɡən/" },
-    { "phrase": "would love to", "meaningVi": "rất muốn" },
-    { "phrase": "rooftop café", "meaningVi": "quán cà phê trên mái" },
-    { "phrase": "afternoon sun", "meaningVi": "nắng buổi chiều" }
+    {
+      "phrase": "spice market",
+      "meaningVi": "chợ gia vị"
+    },
+    {
+      "phrase": "narrow streets",
+      "meaningVi": "đường phố hẹp"
+    },
+    {
+      "phrase": "bright colours",
+      "meaningVi": "màu sắc tươi sáng"
+    },
+    {
+      "phrase": "loud voices",
+      "meaningVi": "tiếng nói lớn"
+    },
+    {
+      "phrase": "leather",
+      "meaningVi": "da thuộc",
+      "pronunciation": "/ˈleðər/"
+    },
+    {
+      "phrase": "mint tea",
+      "meaningVi": "trà bạc hà"
+    },
+    {
+      "phrase": "sellers",
+      "meaningVi": "người bán hàng"
+    },
+    {
+      "phrase": "bargain",
+      "meaningVi": "mặc cả",
+      "pronunciation": "/ˈbɑːrɡən/"
+    },
+    {
+      "phrase": "would love to",
+      "meaningVi": "rất muốn"
+    },
+    {
+      "phrase": "rooftop café",
+      "meaningVi": "quán cà phê trên mái"
+    },
+    {
+      "phrase": "afternoon sun",
+      "meaningVi": "nắng buổi chiều"
+    }
   ],
   "sampleText": "One day, I would love to visit the Jemaa el-Fnaa market in Marrakech, Morocco. I have only seen it in photos and short videos, but it lives in my head like a place I already know. The narrow streets are full of bright colours: orange spices, red carpets, blue plates, and yellow lemons. I imagine the air smells of mint tea, fresh bread, and a little smoke. Sellers call out from every corner. Their voices are loud, but their smiles are friendly. I think I would walk slowly because there is too much to see in one minute. I would stop at a spice stall and ask the price of saffron. I am not good at bargaining, but I would try. The seller would smile and offer me a small glass of mint tea. I would sit on a low stool and drink it slowly while he wrapped my spices in brown paper. After that, I would climb to a rooftop café and watch the market from above. The afternoon sun would be soft on the buildings, and the call to prayer would float over the square. I do not need to buy anything special. I just want to be there for one full day, and to remember it with my eyes closed for many years.",
   "sampleAnnotations": [
-    { "phrase": "narrow streets", "meaningVi": "đường phố hẹp" },
-    { "phrase": "bright colours", "meaningVi": "màu sắc tươi sáng" },
-    { "phrase": "mint tea", "meaningVi": "trà bạc hà" },
-    { "phrase": "loud", "meaningVi": "ồn ào" },
-    { "phrase": "spice stall", "meaningVi": "quầy bán gia vị" },
-    { "phrase": "saffron", "meaningVi": "nghệ tây" },
-    { "phrase": "bargaining", "meaningVi": "mặc cả" },
-    { "phrase": "rooftop café", "meaningVi": "quán cà phê trên mái" },
-    { "phrase": "afternoon sun", "meaningVi": "nắng buổi chiều" },
-    { "phrase": "would love to visit", "meaningVi": "rất muốn ghé thăm" }
+    {
+      "phrase": "narrow streets",
+      "meaningVi": "đường phố hẹp"
+    },
+    {
+      "phrase": "bright colours",
+      "meaningVi": "màu sắc tươi sáng"
+    },
+    {
+      "phrase": "mint tea",
+      "meaningVi": "trà bạc hà"
+    },
+    {
+      "phrase": "loud",
+      "meaningVi": "ồn ào"
+    },
+    {
+      "phrase": "spice stall",
+      "meaningVi": "quầy bán gia vị"
+    },
+    {
+      "phrase": "saffron",
+      "meaningVi": "nghệ tây"
+    },
+    {
+      "phrase": "bargaining",
+      "meaningVi": "mặc cả"
+    },
+    {
+      "phrase": "rooftop café",
+      "meaningVi": "quán cà phê trên mái"
+    },
+    {
+      "phrase": "afternoon sun",
+      "meaningVi": "nắng buổi chiều"
+    },
+    {
+      "phrase": "would love to visit",
+      "meaningVi": "rất muốn ghé thăm"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -57,12 +126,12 @@
       "id": "q1",
       "prompt": "Which sentence correctly uses 'would love to'?",
       "options": [
-        "I would love to visit the Jemaa el-Fnaa market.",
         "I would love visit the Jemaa el-Fnaa market.",
+        "I would love to visit the Jemaa el-Fnaa market.",
         "I would love to visiting the Jemaa el-Fnaa market.",
         "I would loved to visit the Jemaa el-Fnaa market."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'Would love to' is followed by the base verb.",
       "hint": "What form follows 'would love to'?"
     },
@@ -70,12 +139,12 @@
       "id": "q2",
       "prompt": "Choose the best descriptive sentence.",
       "options": [
-        "The narrow streets are full of bright colours.",
         "The narrow streets are full of brightly colours.",
         "The narrow streets are fulled of bright colours.",
+        "The narrow streets are full of bright colours.",
         "The narrow streets is full with bright colours."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "Plural subject takes 'are', and 'full of' is a fixed phrase.",
       "hint": "Subject-verb agreement and the fixed phrase 'full of'."
     },
@@ -83,12 +152,12 @@
       "id": "q3",
       "prompt": "Pick the most natural collocation.",
       "options": [
-        "The air smells of mint tea and fresh bread.",
         "The air smells like of mint tea and fresh bread.",
         "The air smells from mint tea and fresh bread.",
-        "The air is smelling of mint teas and fresh bread."
+        "The air is smelling of mint teas and fresh bread.",
+        "The air smells of mint tea and fresh bread."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'Smell of + noun' is the natural collocation.",
       "hint": "Which preposition follows 'smell'?"
     },
@@ -109,12 +178,12 @@
       "id": "q5",
       "prompt": "Choose the correctly formed conditional-style sentence.",
       "options": [
-        "I am not good at bargaining, but I would try.",
         "I am not good in bargaining, but I would try.",
+        "I am not good at bargaining, but I would try.",
         "I am not good at bargain, but I would tries.",
         "I am not good at bargaining, but I will trying."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'Good at + -ing' and 'would + base verb'.",
       "hint": "Look at 'good at + -ing' and 'would + base'."
     },
@@ -122,12 +191,12 @@
       "id": "q6",
       "prompt": "Pick the natural sequence linker.",
       "options": [
-        "After that, I would climb to a rooftop café.",
         "After this, I would climbed to a rooftop café.",
         "After that, I would climbing to a rooftop café.",
+        "After that, I would climb to a rooftop café.",
         "After this, I will climb in a rooftop café."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'After that' + 'would + base verb' is correct.",
       "hint": "Keep 'would + base verb' consistent."
     },
@@ -135,12 +204,12 @@
       "id": "q7",
       "prompt": "Which option uses the right adjective form?",
       "options": [
-        "Their voices are loud, but their smiles are friendly.",
         "Their voices are loudly, but their smiles are friend.",
         "Their voices are loud, but their smiles are friendlier.",
-        "Their voices loud are, but their smiles friendly are."
+        "Their voices loud are, but their smiles friendly are.",
+        "Their voices are loud, but their smiles are friendly."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'Loud' and 'friendly' are adjectives; 'loudly' is an adverb.",
       "hint": "Linking verb 'are' takes an adjective."
     },
@@ -161,12 +230,12 @@
       "id": "q9",
       "prompt": "Which sentence is grammatically correct?",
       "options": [
-        "The afternoon sun would be soft on the buildings.",
         "The afternoon sun would been soft on the buildings.",
+        "The afternoon sun would be soft on the buildings.",
         "The afternoon sun would soft be on the buildings.",
         "The afternoon sun is would be soft on the buildings."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'Would + base verb' is correct: 'would be'.",
       "hint": "'Would' is followed by the base form."
     },
@@ -174,12 +243,12 @@
       "id": "q10",
       "prompt": "Which closing line avoids AI clichés?",
       "options": [
-        "I just want to be there for one full day.",
         "In conclusion, markets are an important part of culture.",
         "Throughout history, markets have connected people.",
+        "I just want to be there for one full day.",
         "It is important to note that travel broadens the mind."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "A personal, concrete wish beats generic AI phrasing.",
       "hint": "Skip 'In conclusion', 'Throughout history', or 'It is important to note'."
     }

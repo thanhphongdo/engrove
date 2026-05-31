@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "Why some interviews should refuse the camera",
   "summary": "Argue whether audio-only or text-based interviews produce more honest, more substantive content than video interviews — and whether the camera's dominance in journalism should be questioned.",
-  "tags": ["Media", "Journalism", "Communication", "Ethics"],
+  "tags": [
+    "Media",
+    "Journalism",
+    "Communication",
+    "Ethics"
+  ],
   "topic": "Why some interviews should refuse the camera",
   "prompt": "Write an argumentative essay (350–500 words) exploring whether some interviews — journalistic, therapeutic, academic, or documentary — would be better conducted without a camera, allowing subjects to speak more freely and without performance pressure. Use a cleft sentence, a concession ('Granted, …' or 'Admittedly, …'), at least one passive construction, and a participle clause. Include at least one concrete example (a specific journalist, a radio programme, a podcast format, or a research context). Take a clear position.",
   "minWords": 350,
@@ -14,50 +19,175 @@
     "Freed from the lens, subjects in oral history projects across South America and Southeast Asia have been shown to…"
   ],
   "hintVocab": [
-    { "phrase": "on-camera performance", "meaningVi": "màn trình diễn trước ống kính máy quay" },
-    { "phrase": "to self-censor", "meaningVi": "tự kiểm duyệt bản thân" },
-    { "phrase": "performative anxiety", "meaningVi": "lo lắng mang tính biểu diễn" },
-    { "phrase": "oral history", "meaningVi": "lịch sử truyền miệng / lịch sử lời kể" },
-    { "phrase": "the gaze of the audience", "meaningVi": "cái nhìn của khán giả" },
-    { "phrase": "to be edited for impact", "meaningVi": "được biên tập để tạo ấn tượng mạnh" },
-    { "phrase": "authenticity", "meaningVi": "tính xác thực / chân thực", "pronunciation": "/ˌɔː.θenˈtɪs.ɪ.ti/" },
-    { "phrase": "to sanitise testimony", "meaningVi": "gọt giũa / làm sạch lời chứng" },
-    { "phrase": "candour", "meaningVi": "sự thẳng thắn / chân thành", "pronunciation": "/ˈkæn.dər/" },
-    { "phrase": "radio documentary", "meaningVi": "phóng sự phát thanh / tài liệu âm thanh" },
-    { "phrase": "to be curated for broadcast", "meaningVi": "được chọn lọc để phát sóng" },
-    { "phrase": "the talking-head format", "meaningVi": "định dạng phỏng vấn kiểu 'đầu nói' (người ngồi đối diện máy quay)" },
-    { "phrase": "non-verbal cues", "meaningVi": "tín hiệu phi ngôn ngữ" },
-    { "phrase": "to disclose sensitive information", "meaningVi": "tiết lộ thông tin nhạy cảm" },
-    { "phrase": "protected anonymity", "meaningVi": "danh tính được bảo vệ / ẩn danh được bảo đảm" },
-    { "phrase": "journalistic rigour", "meaningVi": "tính nghiêm ngặt / chặt chẽ trong báo chí" },
-    { "phrase": "the intimacy of audio", "meaningVi": "sự thân mật / gần gũi của âm thanh" },
-    { "phrase": "to mask nervousness", "meaningVi": "che giấu sự lo lắng / hồi hộp" },
-    { "phrase": "mediated image", "meaningVi": "hình ảnh được trung gian / qua bộ lọc" },
-    { "phrase": "to speak off the record", "meaningVi": "nói ngoài hồ sơ / không chính thức" },
-    { "phrase": "editorial intrusion", "meaningVi": "sự can thiệp của biên tập" }
+    {
+      "phrase": "on-camera performance",
+      "meaningVi": "màn trình diễn trước ống kính máy quay"
+    },
+    {
+      "phrase": "to self-censor",
+      "meaningVi": "tự kiểm duyệt bản thân"
+    },
+    {
+      "phrase": "performative anxiety",
+      "meaningVi": "lo lắng mang tính biểu diễn"
+    },
+    {
+      "phrase": "oral history",
+      "meaningVi": "lịch sử truyền miệng / lịch sử lời kể"
+    },
+    {
+      "phrase": "the gaze of the audience",
+      "meaningVi": "cái nhìn của khán giả"
+    },
+    {
+      "phrase": "to be edited for impact",
+      "meaningVi": "được biên tập để tạo ấn tượng mạnh"
+    },
+    {
+      "phrase": "authenticity",
+      "meaningVi": "tính xác thực / chân thực",
+      "pronunciation": "/ˌɔː.θenˈtɪs.ɪ.ti/"
+    },
+    {
+      "phrase": "to sanitise testimony",
+      "meaningVi": "gọt giũa / làm sạch lời chứng"
+    },
+    {
+      "phrase": "candour",
+      "meaningVi": "sự thẳng thắn / chân thành",
+      "pronunciation": "/ˈkæn.dər/"
+    },
+    {
+      "phrase": "radio documentary",
+      "meaningVi": "phóng sự phát thanh / tài liệu âm thanh"
+    },
+    {
+      "phrase": "to be curated for broadcast",
+      "meaningVi": "được chọn lọc để phát sóng"
+    },
+    {
+      "phrase": "the talking-head format",
+      "meaningVi": "định dạng phỏng vấn kiểu 'đầu nói' (người ngồi đối diện máy quay)"
+    },
+    {
+      "phrase": "non-verbal cues",
+      "meaningVi": "tín hiệu phi ngôn ngữ"
+    },
+    {
+      "phrase": "to disclose sensitive information",
+      "meaningVi": "tiết lộ thông tin nhạy cảm"
+    },
+    {
+      "phrase": "protected anonymity",
+      "meaningVi": "danh tính được bảo vệ / ẩn danh được bảo đảm"
+    },
+    {
+      "phrase": "journalistic rigour",
+      "meaningVi": "tính nghiêm ngặt / chặt chẽ trong báo chí"
+    },
+    {
+      "phrase": "the intimacy of audio",
+      "meaningVi": "sự thân mật / gần gũi của âm thanh"
+    },
+    {
+      "phrase": "to mask nervousness",
+      "meaningVi": "che giấu sự lo lắng / hồi hộp"
+    },
+    {
+      "phrase": "mediated image",
+      "meaningVi": "hình ảnh được trung gian / qua bộ lọc"
+    },
+    {
+      "phrase": "to speak off the record",
+      "meaningVi": "nói ngoài hồ sơ / không chính thức"
+    },
+    {
+      "phrase": "editorial intrusion",
+      "meaningVi": "sự can thiệp của biên tập"
+    }
   ],
   "sampleText": "The camera is so dominant in modern media that questioning it feels almost perverse. Yet the assumption that seeing a speaker makes an interview better — more honest, more revealing, more trustworthy — deserves more scrutiny than it normally receives.\n\nThe strongest argument against filmed interviews is the one that subjects themselves report most consistently: the camera changes behaviour. Confronted with a lens, most people shift from speaking to performing. They become aware of their posture, their clothing, the pace of their speech. Prepared talking points replace spontaneous thought. This is not a failure of character; it is a predictable response to being watched. What the camera introduces that a microphone does not is a second audience — not just the interviewer sitting across the table, but the invisible multitude who will judge the image later.\n\nThis pressure is particularly acute when the subject matter is personal or politically sensitive. Survivors of conflict, whistleblowers, or people describing experiences of abuse are routinely told — by lawyers, by journalists themselves — to consider whether a filmed appearance may expose them to retaliation. The BBC's long-running radio programme Desert Island Discs has, since 1942, extracted confessions and reflections from public figures that later television formats rarely match. Freed from the camera, guests have admitted failures, described grief, and reconsidered public positions in ways that no polished studio interview tends to produce.\n\nAdmittedly, the visual dimension of an interview is not worthless. A long pause before answering, a glance downward, the way someone's expression changes when a specific name is mentioned: these are genuine signals that audio suppresses. Skilled visual journalists use them, and viewers often pick up on them instinctively. The argument is not that cameras should never be used, but that they should not be the default when the goal is depth rather than spectacle.\n\nGranted, audio-only journalism faces its own problems. A voice can be edited as easily as an image, and the absence of visual context sometimes allows a speaker to mislead an audience that cannot see their environment. Candour without accountability is not automatically a virtue.\n\nEven so, the proliferation of podcasts — where long-form, camera-free conversations often produce more substantive exchange than their televised equivalents — suggests that audiences already sense what the research confirms: that being watched, even sympathetically, narrows what people are willing to say. The interview that refuses the camera is not hiding something. It may simply be trying to find it.",
   "sampleAnnotations": [
-    { "phrase": "The camera is so dominant in modern media that questioning it feels almost perverse", "meaningVi": "Máy quay chiếm ưu thế đến mức trong truyền thông hiện đại đến mức đặt câu hỏi về nó gần như có vẻ kỳ lạ" },
-    { "phrase": "the assumption that seeing a speaker makes an interview better deserves more scrutiny", "meaningVi": "giả định rằng nhìn thấy người nói làm cho một cuộc phỏng vấn tốt hơn xứng đáng được xem xét kỹ lưỡng hơn" },
-    { "phrase": "the camera changes behaviour", "meaningVi": "máy quay làm thay đổi hành vi" },
-    { "phrase": "they become aware of their posture, their clothing, the pace of their speech", "meaningVi": "họ trở nên ý thức về tư thế, trang phục, nhịp độ phát biểu của mình" },
-    { "phrase": "Prepared talking points replace spontaneous thought", "meaningVi": "Các điểm nói chuyện đã được chuẩn bị thay thế suy nghĩ tự phát" },
-    { "phrase": "What the camera introduces that a microphone does not is a second audience", "meaningVi": "Điều mà máy quay mang lại mà micrô không có là một khán giả thứ hai" },
-    { "phrase": "the invisible multitude who will judge the image later", "meaningVi": "đám đông vô hình sẽ phán xét hình ảnh sau này" },
-    { "phrase": "Survivors of conflict, whistleblowers, or people describing experiences of abuse are routinely told to consider whether a filmed appearance may expose them to retaliation", "meaningVi": "Những người sống sót sau xung đột, người tố cáo, hoặc những người mô tả trải nghiệm bị lạm dụng thường xuyên được khuyên xem xét liệu việc xuất hiện trên phim có thể khiến họ đối mặt với sự trả thù" },
-    { "phrase": "the BBC's long-running radio programme Desert Island Discs has extracted confessions and reflections that later television formats rarely match", "meaningVi": "chương trình radio lâu đời của BBC Desert Island Discs đã thu được những lời thú nhận và suy ngẫm mà các định dạng truyền hình sau này hiếm khi sánh được" },
-    { "phrase": "Freed from the camera, guests have admitted failures, described grief, and reconsidered public positions", "meaningVi": "Được giải phóng khỏi máy quay, các vị khách đã thừa nhận thất bại, mô tả nỗi đau buồn, và xem xét lại các lập trường công khai" },
-    { "phrase": "in ways that no polished studio interview tends to produce", "meaningVi": "theo những cách mà không có cuộc phỏng vấn trường quay bóng bẩy nào thường tạo ra được" },
-    { "phrase": "Admittedly, the visual dimension of an interview is not worthless", "meaningVi": "Thừa nhận rằng, chiều kích thị giác của một cuộc phỏng vấn không phải là vô giá trị" },
-    { "phrase": "A long pause before answering, a glance downward, the way someone's expression changes when a specific name is mentioned", "meaningVi": "Một khoảng dừng dài trước khi trả lời, một cái nhìn xuống, cách biểu cảm của ai đó thay đổi khi một cái tên cụ thể được đề cập" },
-    { "phrase": "Skilled visual journalists use them, and viewers often pick up on them instinctively", "meaningVi": "Các nhà báo hình ảnh lành nghề sử dụng chúng, và người xem thường nhận ra chúng một cách bản năng" },
-    { "phrase": "they should not be the default when the goal is depth rather than spectacle", "meaningVi": "chúng không nên là mặc định khi mục tiêu là chiều sâu chứ không phải màn trình diễn" },
-    { "phrase": "A voice can be edited as easily as an image", "meaningVi": "Giọng nói có thể được biên tập dễ dàng như một hình ảnh" },
-    { "phrase": "Candour without accountability is not automatically a virtue", "meaningVi": "Sự thẳng thắn không có trách nhiệm giải trình không tự động là đức hạnh" },
-    { "phrase": "the proliferation of podcasts where long-form, camera-free conversations often produce more substantive exchange", "meaningVi": "sự phát triển mạnh mẽ của podcast, nơi các cuộc trò chuyện dài hơi, không có máy quay thường tạo ra sự trao đổi thực chất hơn" },
-    { "phrase": "that being watched, even sympathetically, narrows what people are willing to say", "meaningVi": "rằng việc bị quan sát, ngay cả một cách thiện cảm, thu hẹp những gì mọi người sẵn lòng nói" },
-    { "phrase": "The interview that refuses the camera is not hiding something. It may simply be trying to find it", "meaningVi": "Cuộc phỏng vấn từ chối máy quay không phải đang che giấu điều gì. Nó có thể chỉ đơn giản là đang cố gắng tìm thấy nó" }
+    {
+      "phrase": "The camera is so dominant in modern media that questioning it feels almost perverse",
+      "meaningVi": "Máy quay chiếm ưu thế đến mức trong truyền thông hiện đại đến mức đặt câu hỏi về nó gần như có vẻ kỳ lạ"
+    },
+    {
+      "phrase": "the assumption that seeing a speaker makes an interview better",
+      "meaningVi": "giả định rằng nhìn thấy người nói làm cho một cuộc phỏng vấn tốt hơn xứng đáng được xem xét kỹ lưỡng hơn"
+    },
+    {
+      "phrase": "the camera changes behaviour",
+      "meaningVi": "máy quay làm thay đổi hành vi"
+    },
+    {
+      "phrase": "they become aware of their posture, their clothing, the pace of their speech",
+      "meaningVi": "họ trở nên ý thức về tư thế, trang phục, nhịp độ phát biểu của mình"
+    },
+    {
+      "phrase": "Prepared talking points replace spontaneous thought",
+      "meaningVi": "Các điểm nói chuyện đã được chuẩn bị thay thế suy nghĩ tự phát"
+    },
+    {
+      "phrase": "What the camera introduces that a microphone does not is a second audience",
+      "meaningVi": "Điều mà máy quay mang lại mà micrô không có là một khán giả thứ hai"
+    },
+    {
+      "phrase": "the invisible multitude who will judge the image later",
+      "meaningVi": "đám đông vô hình sẽ phán xét hình ảnh sau này"
+    },
+    {
+      "phrase": "Survivors of conflict, whistleblowers, or people describing experiences of abuse are routinely told",
+      "meaningVi": "Những người sống sót sau xung đột, người tố cáo, hoặc những người mô tả trải nghiệm bị lạm dụng thường xuyên được khuyên xem xét liệu việc xuất hiện trên phim có thể khiến họ đối mặt với sự trả thù"
+    },
+    {
+      "phrase": "the BBC's long-running radio programme Desert Island Discs has",
+      "meaningVi": "chương trình radio lâu đời của BBC Desert Island Discs đã thu được những lời thú nhận và suy ngẫm mà các định dạng truyền hình sau này hiếm khi sánh được"
+    },
+    {
+      "phrase": "Freed from the camera, guests have admitted failures, described grief, and reconsidered public positions",
+      "meaningVi": "Được giải phóng khỏi máy quay, các vị khách đã thừa nhận thất bại, mô tả nỗi đau buồn, và xem xét lại các lập trường công khai"
+    },
+    {
+      "phrase": "in ways that no polished studio interview tends to produce",
+      "meaningVi": "theo những cách mà không có cuộc phỏng vấn trường quay bóng bẩy nào thường tạo ra được"
+    },
+    {
+      "phrase": "Admittedly, the visual dimension of an interview is not worthless",
+      "meaningVi": "Thừa nhận rằng, chiều kích thị giác của một cuộc phỏng vấn không phải là vô giá trị"
+    },
+    {
+      "phrase": "A long pause before answering, a glance downward, the way someone's expression changes when a specific name is mentioned",
+      "meaningVi": "Một khoảng dừng dài trước khi trả lời, một cái nhìn xuống, cách biểu cảm của ai đó thay đổi khi một cái tên cụ thể được đề cập"
+    },
+    {
+      "phrase": "Skilled visual journalists use them, and viewers often pick up on them instinctively",
+      "meaningVi": "Các nhà báo hình ảnh lành nghề sử dụng chúng, và người xem thường nhận ra chúng một cách bản năng"
+    },
+    {
+      "phrase": "they should not be the default when the goal is depth rather than spectacle",
+      "meaningVi": "chúng không nên là mặc định khi mục tiêu là chiều sâu chứ không phải màn trình diễn"
+    },
+    {
+      "phrase": "A voice can be edited as easily as an image",
+      "meaningVi": "Giọng nói có thể được biên tập dễ dàng như một hình ảnh"
+    },
+    {
+      "phrase": "Candour without accountability is not automatically a virtue",
+      "meaningVi": "Sự thẳng thắn không có trách nhiệm giải trình không tự động là đức hạnh"
+    },
+    {
+      "phrase": "where long-form, camera-free conversations often produce more substantive exchange",
+      "meaningVi": "sự phát triển mạnh mẽ của podcast, nơi các cuộc trò chuyện dài hơi, không có máy quay thường tạo ra sự trao đổi thực chất hơn"
+    },
+    {
+      "phrase": "that being watched, even sympathetically, narrows what people are willing to say",
+      "meaningVi": "rằng việc bị quan sát, ngay cả một cách thiện cảm, thu hẹp những gì mọi người sẵn lòng nói"
+    },
+    {
+      "phrase": "The interview that refuses the camera is not hiding something. It may simply be trying to find it",
+      "meaningVi": "Cuộc phỏng vấn từ chối máy quay không phải đang che giấu điều gì. Nó có thể chỉ đơn giản là đang cố gắng tìm thấy nó"
+    }
   ],
   "sampleGrammarNotes": [
     {

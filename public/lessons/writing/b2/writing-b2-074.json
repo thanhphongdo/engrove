@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "Whether newsrooms should refuse anonymous tips that look like score-settling",
   "summary": "Argue whether a newsroom should refuse anonymous tips when the documents arrive at a politically convenient moment with hints of personal grudge, or run the story anyway because the public interest outweighs the source.",
-  "tags": ["Journalism", "Ethics", "Media", "Argument"],
+  "tags": [
+    "Journalism",
+    "Ethics",
+    "Media",
+    "Argument"
+  ],
   "topic": "Whether newsrooms should refuse anonymous tips that look like score-settling",
   "prompt": "Write a 350–500-word argumentative essay about whether a newsroom should refuse to run a story based on anonymous tips when the documents arrive at a suspiciously convenient political moment, the source asks for anonymity, and the tip carries the unmistakable smell of personal grudge — or whether the public interest in the underlying information outweighs all of that. Use a 'what' cleft, a concession ('Granted,'), at least one passive construction, and one participle clause. Take a clear position. Avoid both pious and cynical clichés about journalism.",
   "minWords": 350,
@@ -14,51 +19,170 @@
     "Granted, the romantic idea that journalists should turn away leaks because the sources have ugly motives ignores how much consequential reporting has historically depended on…"
   ],
   "hintVocab": [
-    { "phrase": "anonymous tip", "meaningVi": "tin báo nặc danh" },
-    { "phrase": "score-settling", "meaningVi": "trả thù / giải quyết hận thù" },
-    { "phrase": "source protection", "meaningVi": "bảo vệ nguồn tin" },
-    { "phrase": "newsroom ethics", "meaningVi": "đạo đức tòa soạn" },
-    { "phrase": "politically convenient timing", "meaningVi": "thời điểm thuận lợi về chính trị" },
-    { "phrase": "leaked dossier", "meaningVi": "hồ sơ bị rò rỉ" },
-    { "phrase": "public interest", "meaningVi": "lợi ích công cộng" },
-    { "phrase": "to corroborate independently", "meaningVi": "xác minh độc lập", "pronunciation": "/kəˈrɒb.ə.reɪt/" },
-    { "phrase": "weaponised information", "meaningVi": "thông tin bị vũ khí hóa" },
-    { "phrase": "burner email", "meaningVi": "email dùng một lần" },
-    { "phrase": "ulterior motive", "meaningVi": "động cơ ngầm" },
-    { "phrase": "the smell of a grudge", "meaningVi": "mùi của sự thù hằn" },
-    { "phrase": "vetted documents", "meaningVi": "tài liệu đã được kiểm tra" },
-    { "phrase": "editor's discretion", "meaningVi": "quyết định của biên tập viên" },
-    { "phrase": "pre-election window", "meaningVi": "thời gian trước bầu cử" },
-    { "phrase": "to launder a leak", "meaningVi": "rửa sạch một rò rỉ" },
-    { "phrase": "deniable middleman", "meaningVi": "trung gian có thể phủ nhận" },
-    { "phrase": "to be used by one's source", "meaningVi": "bị nguồn tin lợi dụng" },
-    { "phrase": "newsworthy regardless", "meaningVi": "vẫn có giá trị tin tức dù sao" },
-    { "phrase": "named source", "meaningVi": "nguồn tin có tên" },
-    { "phrase": "moral hazard", "meaningVi": "rủi ro đạo đức" },
-    { "phrase": "to publish on the merits", "meaningVi": "công bố dựa trên giá trị nội tại" }
+    {
+      "phrase": "anonymous tip",
+      "meaningVi": "tin báo nặc danh"
+    },
+    {
+      "phrase": "score-settling",
+      "meaningVi": "trả thù / giải quyết hận thù"
+    },
+    {
+      "phrase": "source protection",
+      "meaningVi": "bảo vệ nguồn tin"
+    },
+    {
+      "phrase": "newsroom ethics",
+      "meaningVi": "đạo đức tòa soạn"
+    },
+    {
+      "phrase": "politically convenient timing",
+      "meaningVi": "thời điểm thuận lợi về chính trị"
+    },
+    {
+      "phrase": "leaked dossier",
+      "meaningVi": "hồ sơ bị rò rỉ"
+    },
+    {
+      "phrase": "public interest",
+      "meaningVi": "lợi ích công cộng"
+    },
+    {
+      "phrase": "to corroborate independently",
+      "meaningVi": "xác minh độc lập",
+      "pronunciation": "/kəˈrɒb.ə.reɪt/"
+    },
+    {
+      "phrase": "weaponised information",
+      "meaningVi": "thông tin bị vũ khí hóa"
+    },
+    {
+      "phrase": "burner email",
+      "meaningVi": "email dùng một lần"
+    },
+    {
+      "phrase": "ulterior motive",
+      "meaningVi": "động cơ ngầm"
+    },
+    {
+      "phrase": "the smell of a grudge",
+      "meaningVi": "mùi của sự thù hằn"
+    },
+    {
+      "phrase": "vetted documents",
+      "meaningVi": "tài liệu đã được kiểm tra"
+    },
+    {
+      "phrase": "editor's discretion",
+      "meaningVi": "quyết định của biên tập viên"
+    },
+    {
+      "phrase": "pre-election window",
+      "meaningVi": "thời gian trước bầu cử"
+    },
+    {
+      "phrase": "to launder a leak",
+      "meaningVi": "rửa sạch một rò rỉ"
+    },
+    {
+      "phrase": "deniable middleman",
+      "meaningVi": "trung gian có thể phủ nhận"
+    },
+    {
+      "phrase": "to be used by one's source",
+      "meaningVi": "bị nguồn tin lợi dụng"
+    },
+    {
+      "phrase": "newsworthy regardless",
+      "meaningVi": "vẫn có giá trị tin tức dù sao"
+    },
+    {
+      "phrase": "named source",
+      "meaningVi": "nguồn tin có tên"
+    },
+    {
+      "phrase": "moral hazard",
+      "meaningVi": "rủi ro đạo đức"
+    },
+    {
+      "phrase": "to publish on the merits",
+      "meaningVi": "công bố dựa trên giá trị nội tại"
+    }
   ],
   "sampleText": "Sitting across from an editor who has just received a beautifully indexed dossier of documents about a rival politician two weeks before an election, you notice that the editor's first question is not whether the documents are true, but who is sending them and why now. The dossier is meticulous. The metadata has been scrubbed. The covering email arrives from a burner address that names no person and asks no return correspondence. The documents may well be authentic. The hand behind them is not.\n\nWhat a newsroom buys, when it accepts an anonymous tip whose timing reads as motivated, is something the public never sees in the printed story and the editor rarely admits to in print: a particular hand on the scales of the news cycle, traded for the right to publish something interesting. The exchange may be a fair one. It is rarely an innocent one. Once a newsroom develops a reputation for accepting weaponised leaks without asking hard questions about provenance, the supply of such leaks reliably increases, and the timing of those leaks gets steadily more strategic.\n\nGranted, the romantic idea that journalists should turn away leaks because the sources have ugly motives ignores how much consequential reporting has historically depended on whistle-blowers, defectors, and aggrieved former employees whose motives were, by any honest reckoning, complicated. A leak from a divorced ex-spouse exposing genuine corruption is still exposing genuine corruption. Demanding that sources be pure before stories run is a recipe for never running the stories that powerful people fear most.\n\nEven so, the response 'we publish on the merits' is, in many cases, a polite refusal to think clearly about the role the newsroom is being asked to play. A leak that drops two weeks before an election, that names a precise rival, and that arrives without any context the reporter can independently verify is not just information. It is an instrument. Running it as if it had simply fallen out of the sky is a small act of dishonesty by the newsroom — a refusal to name, in print or even internally, what is obviously being done with the paper as the medium.\n\nThe defensible position is not refusal but transparent friction. The newsroom should take the documents, corroborate them through a second, independently-found source, refuse to publish on the source's timeline, and tell the reader — in the story itself — that the material arrived anonymously, at a politically suggestive moment, and that the paper waited because of it. What the source loses is the ability to weaponise the paper's deadline. What the reader gains is the right to know not only what is in the documents but who, in the broadest sense, wanted them to be reading this story now.",
   "sampleAnnotations": [
-    { "phrase": "Sitting across from an editor who has just received a beautifully indexed dossier of documents about a rival politician two weeks before an election, you notice that the editor's first question is not whether the documents are true, but who is sending them and why now", "meaningVi": "Ngồi đối diện với một biên tập viên vừa nhận được một hồ sơ tài liệu được đánh chỉ mục đẹp đẽ về một chính trị gia đối thủ hai tuần trước cuộc bầu cử, bạn nhận ra rằng câu hỏi đầu tiên của biên tập viên không phải là liệu các tài liệu có đúng hay không, mà là ai đang gửi chúng và tại sao bây giờ" },
-    { "phrase": "The dossier is meticulous. The metadata has been scrubbed. The covering email arrives from a burner address that names no person and asks no return correspondence", "meaningVi": "Hồ sơ tỉ mỉ. Siêu dữ liệu đã bị xóa sạch. Email kèm theo đến từ một địa chỉ dùng một lần không ghi tên ai và không yêu cầu thư trả lời" },
-    { "phrase": "The documents may well be authentic. The hand behind them is not", "meaningVi": "Các tài liệu có thể rất xác thực. Bàn tay phía sau chúng thì không" },
-    { "phrase": "What a newsroom buys, when it accepts an anonymous tip whose timing reads as motivated, is something the public never sees in the printed story and the editor rarely admits to in print", "meaningVi": "Điều mà một tòa soạn mua, khi nó chấp nhận một tin báo nặc danh mà thời điểm đọc như có động cơ, là điều mà công chúng không bao giờ thấy trong bài báo in và biên tập viên hiếm khi thừa nhận trong bản in" },
-    { "phrase": "a particular hand on the scales of the news cycle, traded for the right to publish something interesting", "meaningVi": "một bàn tay cụ thể đặt trên cán cân của chu kỳ tin tức, được đổi lấy quyền công bố một thứ thú vị" },
-    { "phrase": "Once a newsroom develops a reputation for accepting weaponised leaks without asking hard questions about provenance, the supply of such leaks reliably increases, and the timing of those leaks gets steadily more strategic", "meaningVi": "Một khi một tòa soạn phát triển danh tiếng chấp nhận các rò rỉ bị vũ khí hóa mà không đặt các câu hỏi khó về nguồn gốc, nguồn cung của các rò rỉ như vậy tăng lên đáng tin cậy, và thời điểm của các rò rỉ đó trở nên chiến lược một cách đều đặn hơn" },
-    { "phrase": "the romantic idea that journalists should turn away leaks because the sources have ugly motives ignores how much consequential reporting has historically depended on whistle-blowers, defectors, and aggrieved former employees", "meaningVi": "ý tưởng lãng mạn rằng các nhà báo nên từ chối các rò rỉ vì các nguồn có động cơ xấu bỏ qua việc bao nhiêu báo chí có hậu quả đã phụ thuộc lịch sử vào những người tố giác, những người đào ngũ, và những nhân viên cũ bất bình" },
-    { "phrase": "A leak from a divorced ex-spouse exposing genuine corruption is still exposing genuine corruption", "meaningVi": "Một rò rỉ từ một người vợ/chồng cũ đã ly hôn phơi bày tham nhũng thực sự vẫn đang phơi bày tham nhũng thực sự" },
-    { "phrase": "Demanding that sources be pure before stories run is a recipe for never running the stories that powerful people fear most", "meaningVi": "Yêu cầu các nguồn phải trong sạch trước khi câu chuyện được đăng là một công thức cho việc không bao giờ đăng các câu chuyện mà những người quyền lực sợ nhất" },
-    { "phrase": "the response 'we publish on the merits' is, in many cases, a polite refusal to think clearly about the role the newsroom is being asked to play", "meaningVi": "câu trả lời 'chúng tôi đăng dựa trên giá trị nội tại' là, trong nhiều trường hợp, một sự từ chối lịch sự để suy nghĩ rõ ràng về vai trò mà tòa soạn được yêu cầu đóng" },
-    { "phrase": "A leak that drops two weeks before an election, that names a precise rival, and that arrives without any context the reporter can independently verify is not just information. It is an instrument", "meaningVi": "Một rò rỉ rơi xuống hai tuần trước cuộc bầu cử, mà nêu đích danh một đối thủ chính xác, và mà đến mà không có bất kỳ ngữ cảnh nào phóng viên có thể xác minh độc lập thì không chỉ là thông tin. Đó là một công cụ" },
-    { "phrase": "Running it as if it had simply fallen out of the sky is a small act of dishonesty by the newsroom", "meaningVi": "Chạy nó như thể nó chỉ đơn giản là rơi từ trên trời xuống là một hành động dối trá nhỏ của tòa soạn" },
-    { "phrase": "a refusal to name, in print or even internally, what is obviously being done with the paper as the medium", "meaningVi": "một sự từ chối gọi tên, trong bản in hay thậm chí nội bộ, điều rõ ràng đang được làm với tờ báo như là phương tiện" },
-    { "phrase": "The defensible position is not refusal but transparent friction", "meaningVi": "Lập trường có thể bảo vệ được không phải là từ chối mà là ma sát minh bạch" },
-    { "phrase": "The newsroom should take the documents, corroborate them through a second, independently-found source, refuse to publish on the source's timeline, and tell the reader — in the story itself — that the material arrived anonymously, at a politically suggestive moment, and that the paper waited because of it", "meaningVi": "Tòa soạn nên nhận các tài liệu, xác minh chúng qua một nguồn thứ hai được tìm thấy độc lập, từ chối công bố theo lịch trình của nguồn, và nói với độc giả — trong chính câu chuyện — rằng tài liệu đã đến nặc danh, vào một thời điểm gợi ý về chính trị, và rằng tờ báo đã đợi vì điều đó" },
-    { "phrase": "What the source loses is the ability to weaponise the paper's deadline", "meaningVi": "Cái mà nguồn mất là khả năng vũ khí hóa hạn chót của tờ báo" },
-    { "phrase": "What the reader gains is the right to know not only what is in the documents but who, in the broadest sense, wanted them to be reading this story now", "meaningVi": "Cái mà người đọc được là quyền biết không chỉ những gì có trong tài liệu mà còn ai, theo nghĩa rộng nhất, muốn họ đọc câu chuyện này bây giờ" },
-    { "phrase": "moral hazard", "meaningVi": "rủi ro đạo đức" },
-    { "phrase": "deniable middleman", "meaningVi": "trung gian có thể phủ nhận" },
-    { "phrase": "to publish on the merits", "meaningVi": "công bố dựa trên giá trị nội tại" }
+    {
+      "phrase": "Sitting across from an editor who has just received a beautifully indexed dossier of documents about a rival politician two weeks before an election, you notice that the editor's first question is not whether the documents are true, but who is sending them and why now",
+      "meaningVi": "Ngồi đối diện với một biên tập viên vừa nhận được một hồ sơ tài liệu được đánh chỉ mục đẹp đẽ về một chính trị gia đối thủ hai tuần trước cuộc bầu cử, bạn nhận ra rằng câu hỏi đầu tiên của biên tập viên không phải là liệu các tài liệu có đúng hay không, mà là ai đang gửi chúng và tại sao bây giờ"
+    },
+    {
+      "phrase": "The dossier is meticulous. The metadata has been scrubbed. The covering email arrives from a burner address that names no person and asks no return correspondence",
+      "meaningVi": "Hồ sơ tỉ mỉ. Siêu dữ liệu đã bị xóa sạch. Email kèm theo đến từ một địa chỉ dùng một lần không ghi tên ai và không yêu cầu thư trả lời"
+    },
+    {
+      "phrase": "The documents may well be authentic. The hand behind them is not",
+      "meaningVi": "Các tài liệu có thể rất xác thực. Bàn tay phía sau chúng thì không"
+    },
+    {
+      "phrase": "What a newsroom buys, when it accepts an anonymous tip whose timing reads as motivated, is something the public never sees in the printed story and the editor rarely admits to in print",
+      "meaningVi": "Điều mà một tòa soạn mua, khi nó chấp nhận một tin báo nặc danh mà thời điểm đọc như có động cơ, là điều mà công chúng không bao giờ thấy trong bài báo in và biên tập viên hiếm khi thừa nhận trong bản in"
+    },
+    {
+      "phrase": "a particular hand on the scales of the news cycle, traded for the right to publish something interesting",
+      "meaningVi": "một bàn tay cụ thể đặt trên cán cân của chu kỳ tin tức, được đổi lấy quyền công bố một thứ thú vị"
+    },
+    {
+      "phrase": "Once a newsroom develops a reputation for accepting weaponised leaks without asking hard questions about provenance, the supply of such leaks reliably increases, and the timing of those leaks gets steadily more strategic",
+      "meaningVi": "Một khi một tòa soạn phát triển danh tiếng chấp nhận các rò rỉ bị vũ khí hóa mà không đặt các câu hỏi khó về nguồn gốc, nguồn cung của các rò rỉ như vậy tăng lên đáng tin cậy, và thời điểm của các rò rỉ đó trở nên chiến lược một cách đều đặn hơn"
+    },
+    {
+      "phrase": "the romantic idea that journalists should turn away leaks because the sources have ugly motives ignores how much consequential reporting has historically depended on whistle-blowers, defectors, and aggrieved former employees",
+      "meaningVi": "ý tưởng lãng mạn rằng các nhà báo nên từ chối các rò rỉ vì các nguồn có động cơ xấu bỏ qua việc bao nhiêu báo chí có hậu quả đã phụ thuộc lịch sử vào những người tố giác, những người đào ngũ, và những nhân viên cũ bất bình"
+    },
+    {
+      "phrase": "A leak from a divorced ex-spouse exposing genuine corruption is still exposing genuine corruption",
+      "meaningVi": "Một rò rỉ từ một người vợ/chồng cũ đã ly hôn phơi bày tham nhũng thực sự vẫn đang phơi bày tham nhũng thực sự"
+    },
+    {
+      "phrase": "Demanding that sources be pure before stories run is a recipe for never running the stories that powerful people fear most",
+      "meaningVi": "Yêu cầu các nguồn phải trong sạch trước khi câu chuyện được đăng là một công thức cho việc không bao giờ đăng các câu chuyện mà những người quyền lực sợ nhất"
+    },
+    {
+      "phrase": "the response 'we publish on the merits' is, in many cases, a polite refusal to think clearly about the role the newsroom is being asked to play",
+      "meaningVi": "câu trả lời 'chúng tôi đăng dựa trên giá trị nội tại' là, trong nhiều trường hợp, một sự từ chối lịch sự để suy nghĩ rõ ràng về vai trò mà tòa soạn được yêu cầu đóng"
+    },
+    {
+      "phrase": "A leak that drops two weeks before an election, that names a precise rival, and that arrives without any context the reporter can independently verify is not just information. It is an instrument",
+      "meaningVi": "Một rò rỉ rơi xuống hai tuần trước cuộc bầu cử, mà nêu đích danh một đối thủ chính xác, và mà đến mà không có bất kỳ ngữ cảnh nào phóng viên có thể xác minh độc lập thì không chỉ là thông tin. Đó là một công cụ"
+    },
+    {
+      "phrase": "Running it as if it had simply fallen out of the sky is a small act of dishonesty by the newsroom",
+      "meaningVi": "Chạy nó như thể nó chỉ đơn giản là rơi từ trên trời xuống là một hành động dối trá nhỏ của tòa soạn"
+    },
+    {
+      "phrase": "a refusal to name, in print or even internally, what is obviously being done with the paper as the medium",
+      "meaningVi": "một sự từ chối gọi tên, trong bản in hay thậm chí nội bộ, điều rõ ràng đang được làm với tờ báo như là phương tiện"
+    },
+    {
+      "phrase": "The defensible position is not refusal but transparent friction",
+      "meaningVi": "Lập trường có thể bảo vệ được không phải là từ chối mà là ma sát minh bạch"
+    },
+    {
+      "phrase": "The newsroom should take the documents, corroborate them through a second, independently-found source, refuse to publish on the source's timeline, and tell the reader — in the story itself — that the material arrived anonymously, at a politically suggestive moment, and that the paper waited because of it",
+      "meaningVi": "Tòa soạn nên nhận các tài liệu, xác minh chúng qua một nguồn thứ hai được tìm thấy độc lập, từ chối công bố theo lịch trình của nguồn, và nói với độc giả — trong chính câu chuyện — rằng tài liệu đã đến nặc danh, vào một thời điểm gợi ý về chính trị, và rằng tờ báo đã đợi vì điều đó"
+    },
+    {
+      "phrase": "What the source loses is the ability to weaponise the paper's deadline",
+      "meaningVi": "Cái mà nguồn mất là khả năng vũ khí hóa hạn chót của tờ báo"
+    },
+    {
+      "phrase": "What the reader gains is the right to know not only what is in the documents but who, in the broadest sense, wanted them to be reading this story now",
+      "meaningVi": "Cái mà người đọc được là quyền biết không chỉ những gì có trong tài liệu mà còn ai, theo nghĩa rộng nhất, muốn họ đọc câu chuyện này bây giờ"
+    },
+    {
+      "phrase": "to publish on the",
+      "meaningVi": "công bố dựa trên giá trị nội tại"
+    }
   ],
   "sampleGrammarNotes": [
     {

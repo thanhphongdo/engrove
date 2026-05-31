@@ -3,7 +3,11 @@
   "level": "B1",
   "title": "Remembering a place that no longer exists",
   "summary": "Reflect on a place from your past that has changed or disappeared, and argue whether physical memory or mental memory is more reliable.",
-  "tags": ["Memory", "Place", "Reflection"],
+  "tags": [
+    "Memory",
+    "Place",
+    "Reflection"
+  ],
   "topic": "A place from your past that has changed or disappeared",
   "prompt": "Write 3 paragraphs (400–500 words) reflecting on a place you remember clearly but that has since changed or been demolished. Describe what it looked like, explain what made it memorable, and argue whether our mental image of a place is more or less reliable than a photograph. Use the present perfect to describe how the place has changed, and at least one conditional to explore what might have been lost.",
   "minWords": 400,
@@ -14,49 +18,172 @@
     "If I had taken more photographs at the time, I wonder whether…"
   ],
   "hintVocab": [
-    { "phrase": "to demolish a building", "meaningVi": "phá dỡ một tòa nhà", "pronunciation": "/dɪˈmɒlɪʃ/" },
-    { "phrase": "to tear down", "meaningVi": "phá hủy, đập bỏ" },
-    { "phrase": "a faded memory", "meaningVi": "ký ức mờ nhạt" },
-    { "phrase": "to reconstruct the past", "meaningVi": "tái dựng lại quá khứ" },
-    { "phrase": "to fill in the gaps", "meaningVi": "lấp đầy những khoảng trống" },
-    { "phrase": "a mental image", "meaningVi": "hình ảnh trong tâm trí" },
-    { "phrase": "to distort over time", "meaningVi": "bị biến dạng theo thời gian" },
-    { "phrase": "to preserve a memory", "meaningVi": "gìn giữ một ký ức" },
-    { "phrase": "to feel disoriented", "meaningVi": "cảm thấy mất phương hướng" },
-    { "phrase": "a sense of loss", "meaningVi": "cảm giác mất mát" },
-    { "phrase": "to be attached to a place", "meaningVi": "gắn bó với một nơi chốn" },
-    { "phrase": "to carry something with you", "meaningVi": "mang điều gì đó theo trong lòng" },
-    { "phrase": "unreliable narrator", "meaningVi": "người kể chuyện không đáng tin cậy" },
-    { "phrase": "to reshape a memory", "meaningVi": "tái tạo lại ký ức" },
-    { "phrase": "a landmark", "meaningVi": "một điểm mốc, công trình tiêu biểu", "pronunciation": "/ˈlændmɑːrk/" },
-    { "phrase": "to layer emotions onto", "meaningVi": "chồng chất cảm xúc lên" },
-    { "phrase": "to look back on", "meaningVi": "nhìn lại" },
-    { "phrase": "to hold onto", "meaningVi": "bám víu vào, giữ lấy" },
-    { "phrase": "to be replaced by", "meaningVi": "bị thay thế bởi" },
-    { "phrase": "selective memory", "meaningVi": "ký ức có chọn lọc" }
+    {
+      "phrase": "to demolish a building",
+      "meaningVi": "phá dỡ một tòa nhà",
+      "pronunciation": "/dɪˈmɒlɪʃ/"
+    },
+    {
+      "phrase": "to tear down",
+      "meaningVi": "phá hủy, đập bỏ"
+    },
+    {
+      "phrase": "a faded memory",
+      "meaningVi": "ký ức mờ nhạt"
+    },
+    {
+      "phrase": "to reconstruct the past",
+      "meaningVi": "tái dựng lại quá khứ"
+    },
+    {
+      "phrase": "to fill in the gaps",
+      "meaningVi": "lấp đầy những khoảng trống"
+    },
+    {
+      "phrase": "a mental image",
+      "meaningVi": "hình ảnh trong tâm trí"
+    },
+    {
+      "phrase": "to distort over time",
+      "meaningVi": "bị biến dạng theo thời gian"
+    },
+    {
+      "phrase": "to preserve a memory",
+      "meaningVi": "gìn giữ một ký ức"
+    },
+    {
+      "phrase": "to feel disoriented",
+      "meaningVi": "cảm thấy mất phương hướng"
+    },
+    {
+      "phrase": "a sense of loss",
+      "meaningVi": "cảm giác mất mát"
+    },
+    {
+      "phrase": "to be attached to a place",
+      "meaningVi": "gắn bó với một nơi chốn"
+    },
+    {
+      "phrase": "to carry something with you",
+      "meaningVi": "mang điều gì đó theo trong lòng"
+    },
+    {
+      "phrase": "unreliable narrator",
+      "meaningVi": "người kể chuyện không đáng tin cậy"
+    },
+    {
+      "phrase": "to reshape a memory",
+      "meaningVi": "tái tạo lại ký ức"
+    },
+    {
+      "phrase": "a landmark",
+      "meaningVi": "một điểm mốc, công trình tiêu biểu",
+      "pronunciation": "/ˈlændmɑːrk/"
+    },
+    {
+      "phrase": "to layer emotions onto",
+      "meaningVi": "chồng chất cảm xúc lên"
+    },
+    {
+      "phrase": "to look back on",
+      "meaningVi": "nhìn lại"
+    },
+    {
+      "phrase": "to hold onto",
+      "meaningVi": "bám víu vào, giữ lấy"
+    },
+    {
+      "phrase": "to be replaced by",
+      "meaningVi": "bị thay thế bởi"
+    },
+    {
+      "phrase": "selective memory",
+      "meaningVi": "ký ức có chọn lọc"
+    }
   ],
   "sampleText": "There was a small cinema in the neighbourhood where I grew up, a narrow building wedged between a hardware shop and a noodle stall, with a handwritten sign above the entrance that changed every week. I have not been back to that street in seven years, but I can still see the cinema clearly — the sticky floor, the single ceiling fan that was always too slow, the way the light from the screen made everyone's face look blue. When I asked my mother about it recently, she told me it had been torn down and replaced by a parking structure. I did not feel sad exactly. I felt disoriented, the way you feel when a word you have used all your life turns out to be spelled differently from how you imagined. It is not grief. It is the very specific confusion of discovering that your map of a place has been quietly corrected without anyone telling you.\n\nWhat is interesting is that my memory of the cinema has probably been getting less accurate every year since I last walked past it. Each time I recall it, I likely change it slightly — the way a story changes each time it is told aloud, picking up small variations that come to feel like the original. I have added details that may never have been there — a smell of old wood, a particular creak in the third row of seats — and I have almost certainly smoothed over the things that were uncomfortable or dull. Memory does not preserve a place the way a photograph does. It reshapes the place around the emotions you were feeling at the time, so what you remember is not really the cinema but the version of yourself who sat in it.\n\nThis raises a question that I have not been able to settle: if I had found a photograph of that cinema taken in the year I used to go there, would it have made my memory stronger or weaker? I think about this often, not only for the cinema but for other places I have lost track of. My instinct is that it would have weakened it. A photograph fixes one angle, one light, one afternoon, and once you have looked at it enough times, it starts to replace the looser, warmer, more personal image that you were carrying. There is something a photograph cannot hold — the specific quality of waiting for a film to start in a room full of strangers who are all, briefly, wanting the same thing. That part of the memory cannot be torn down, even when the building is gone.",
   "sampleAnnotations": [
-    { "phrase": "wedged between", "meaningVi": "bị kẹp giữa", "pronunciation": "/wɛdʒd/" },
-    { "phrase": "a handwritten sign", "meaningVi": "một tấm biển viết tay" },
-    { "phrase": "I have not been back", "meaningVi": "tôi đã không quay lại" },
-    { "phrase": "torn down", "meaningVi": "bị phá bỏ" },
-    { "phrase": "replaced by a parking structure", "meaningVi": "bị thay thế bởi một bãi đỗ xe" },
-    { "phrase": "I felt disoriented", "meaningVi": "tôi cảm thấy mất phương hướng" },
-    { "phrase": "a word you have used all your life", "meaningVi": "một từ bạn đã dùng cả đời" },
-    { "phrase": "getting less accurate every year", "meaningVi": "ngày càng kém chính xác hơn mỗi năm" },
-    { "phrase": "smoothed over", "meaningVi": "đã che đi, bỏ qua" },
-    { "phrase": "Memory does not preserve a place the way a photograph does", "meaningVi": "Ký ức không gìn giữ một nơi chốn như cách một bức ảnh làm" },
-    { "phrase": "reshapes the place around the emotions", "meaningVi": "tái tạo lại nơi chốn xung quanh những cảm xúc" },
-    { "phrase": "the version of yourself", "meaningVi": "phiên bản của chính bạn" },
-    { "phrase": "I have not been able to settle", "meaningVi": "tôi vẫn chưa giải quyết được" },
-    { "phrase": "would it have made my memory stronger or weaker", "meaningVi": "liệu nó có làm ký ức của tôi mạnh hơn hay yếu hơn không" },
-    { "phrase": "fixes one angle", "meaningVi": "cố định một góc nhìn" },
-    { "phrase": "the looser, warmer, more personal image", "meaningVi": "hình ảnh thoải mái hơn, ấm áp hơn, cá nhân hơn" },
-    { "phrase": "you were carrying", "meaningVi": "bạn đang mang theo trong lòng" },
-    { "phrase": "briefly, wanting the same thing", "meaningVi": "trong chốc lát, cùng mong muốn một điều" },
-    { "phrase": "cannot be torn down", "meaningVi": "không thể bị phá bỏ" },
-    { "phrase": "specific quality of waiting", "meaningVi": "cái chất đặc biệt của sự chờ đợi" }
+    {
+      "phrase": "wedged between",
+      "meaningVi": "bị kẹp giữa",
+      "pronunciation": "/wɛdʒd/"
+    },
+    {
+      "phrase": "a handwritten sign",
+      "meaningVi": "một tấm biển viết tay"
+    },
+    {
+      "phrase": "I have not been back",
+      "meaningVi": "tôi đã không quay lại"
+    },
+    {
+      "phrase": "torn down",
+      "meaningVi": "bị phá bỏ"
+    },
+    {
+      "phrase": "replaced by a parking structure",
+      "meaningVi": "bị thay thế bởi một bãi đỗ xe"
+    },
+    {
+      "phrase": "I felt disoriented",
+      "meaningVi": "tôi cảm thấy mất phương hướng"
+    },
+    {
+      "phrase": "a word you have used all your life",
+      "meaningVi": "một từ bạn đã dùng cả đời"
+    },
+    {
+      "phrase": "getting less accurate every year",
+      "meaningVi": "ngày càng kém chính xác hơn mỗi năm"
+    },
+    {
+      "phrase": "smoothed over",
+      "meaningVi": "đã che đi, bỏ qua"
+    },
+    {
+      "phrase": "Memory does not preserve a place the way a photograph does",
+      "meaningVi": "Ký ức không gìn giữ một nơi chốn như cách một bức ảnh làm"
+    },
+    {
+      "phrase": "reshapes the place around the emotions",
+      "meaningVi": "tái tạo lại nơi chốn xung quanh những cảm xúc"
+    },
+    {
+      "phrase": "the version of yourself",
+      "meaningVi": "phiên bản của chính bạn"
+    },
+    {
+      "phrase": "I have not been able to settle",
+      "meaningVi": "tôi vẫn chưa giải quyết được"
+    },
+    {
+      "phrase": "would it have made my memory stronger or weaker",
+      "meaningVi": "liệu nó có làm ký ức của tôi mạnh hơn hay yếu hơn không"
+    },
+    {
+      "phrase": "fixes one angle",
+      "meaningVi": "cố định một góc nhìn"
+    },
+    {
+      "phrase": "the looser, warmer, more personal image",
+      "meaningVi": "hình ảnh thoải mái hơn, ấm áp hơn, cá nhân hơn"
+    },
+    {
+      "phrase": "you were carrying",
+      "meaningVi": "bạn đang mang theo trong lòng"
+    },
+    {
+      "phrase": "briefly, wanting the same thing",
+      "meaningVi": "trong chốc lát, cùng mong muốn một điều"
+    },
+    {
+      "phrase": "cannot be torn down",
+      "meaningVi": "không thể bị phá bỏ"
+    },
+    {
+      "phrase": "specific quality of waiting",
+      "meaningVi": "cái chất đặc biệt của sự chờ đợi"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -89,12 +216,12 @@
       "id": "q2",
       "prompt": "Which sentence correctly uses the passive to describe demolition?",
       "options": [
-        "The cinema had been torn down and replaced by a parking structure.",
         "The cinema had been tore down and replaced by a parking structure.",
+        "The cinema had been torn down and replaced by a parking structure.",
         "The cinema has been tear down and replaced by a parking structure.",
         "The cinema was being torn down and replaced by a parking structure."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'Had been torn down' = past perfect passive, correct for an event that happened before another past time. 'Tore' is the simple past, not the past participle. 'Tear' is the base form. The last option implies an action in progress at a specific past moment, which doesn't fit.",
       "hint": "The past perfect passive is 'had been + past participle'; the past participle of 'tear' is 'torn'."
     },
@@ -102,12 +229,12 @@
       "id": "q3",
       "prompt": "Which sentence uses 'probably' correctly as a degree adverb?",
       "options": [
-        "My memory has probably been getting less accurate every year.",
         "My memory has been probably getting less accurate every year.",
         "My memory probably has been getting less accurate every year.",
+        "My memory has probably been getting less accurate every year.",
         "My memory has been getting probably less accurate every year."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "Adverbs like 'probably' typically come between the auxiliary verb and the main verb in a perfect progressive construction. Placing it immediately before 'been' or 'less accurate' is awkward in natural English.",
       "hint": "Place 'probably' between the first auxiliary ('has') and the second auxiliary ('been')."
     },
@@ -116,11 +243,11 @@
       "prompt": "Which sentence correctly uses 'not … exactly' to soften a statement?",
       "options": [
         "I did not feel sad exactly — I felt disoriented.",
-        "I did not feel sad, exactly — I felt disoriented.",
         "I did not felt sad exactly — I felt disoriented.",
-        "I did not feel exactly sad — I felt disoriented."
+        "I did not feel exactly sad — I felt disoriented.",
+        "I did not feel sad, exactly — I felt disoriented."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "When 'exactly' is used as a qualifier at the end of a clause, a comma before it is correct punctuation and the most natural placement. 'Did not felt' mixes auxiliary and simple past. Moving 'exactly' before 'sad' changes the meaning to 'not precisely sad' which is grammatical but less idiomatic.",
       "hint": "The qualifying 'exactly' sits after the adjective it softens and is often set off by a comma."
     },
@@ -141,12 +268,12 @@
       "id": "q6",
       "prompt": "Which phrase most naturally describes memory becoming inaccurate over time?",
       "options": [
-        "getting less accurate every year",
         "becoming less and less accurate along the years",
+        "getting less accurate every year",
         "getting more inaccurate during the years",
         "lowering in accuracy across years"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'Getting less accurate every year' is natural and idiomatic. 'Along the years' is a calque (non-native); the correct phrase is 'over the years'. 'Getting more inaccurate' is grammatical but sounds unnatural for gradual decline. 'Lowering in accuracy' is non-native.",
       "hint": "Choose the phrase with the most natural English preposition and collocation for gradual decline over time."
     },
@@ -167,12 +294,12 @@
       "id": "q8",
       "prompt": "Which sentence uses 'something' + relative clause correctly?",
       "options": [
-        "There is something a photograph cannot hold.",
         "There is something which a photograph cannot hold it.",
         "There is something that a photograph cannot holds.",
-        "There is something a photograph can not holds."
+        "There is something a photograph can not holds.",
+        "There is something a photograph cannot hold."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "A contact relative clause ('something [that] a photograph cannot hold') is natural and correct with no pronoun repetition. Repeating 'it' inside the clause is a common learner error. 'Cannot holds' adds a third-person 's' incorrectly after a modal.",
       "hint": "In a contact relative clause after 'something', do not repeat the object pronoun inside the clause."
     },
@@ -193,12 +320,12 @@
       "id": "q10",
       "prompt": "Which sentence correctly uses 'even when' to express a persistent truth despite a condition?",
       "options": [
-        "That memory cannot be torn down, even when the building is gone.",
         "That memory cannot be torn down, even if the building was gone.",
+        "That memory cannot be torn down, even when the building is gone.",
         "That memory cannot be torn down, even though the building gone.",
         "That memory cannot be torn down, even when the building has gone."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'Even when the building is gone' — present simple for a general condition. 'Even if the building was gone' uses past tense, suggesting a hypothetical. 'The building gone' omits the verb entirely. 'Has gone' is present perfect, shifting focus to the recent past rather than a general state.",
       "hint": "For a general ongoing condition (not a specific past event), use present simple after 'even when'."
     },
@@ -206,12 +333,12 @@
       "id": "q11",
       "prompt": "Which sentence correctly uses 'all your life' with the present perfect?",
       "options": [
-        "a word you have used all your life",
         "a word you used all your life",
         "a word you are using all your life",
+        "a word you have used all your life",
         "a word you have been used all your life"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "Present perfect ('have used') with 'all your life' expresses an action from birth to now. Simple past ('used') cuts the connection to the present. 'Are using' is present progressive, suggesting a temporary current action. 'Have been used' is passive.",
       "hint": "'All your life' extends to now — that signals present perfect, not simple past."
     }

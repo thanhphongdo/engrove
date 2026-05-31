@@ -3,7 +3,12 @@
   "level": "A2",
   "title": "A stairwell painted by my neighbour in Antwerp",
   "summary": "A short story about a neighbour who quietly painted a shared space in your building.",
-  "tags": ["Narration", "Past simple", "Neighbours", "Kindness"],
+  "tags": [
+    "Narration",
+    "Past simple",
+    "Neighbours",
+    "Kindness"
+  ],
   "topic": "A stairwell painted by my neighbour in Antwerp",
   "prompt": "Write 8–10 sentences (150–250 words) about a small improvement a neighbour made to a shared space in your building. Describe the before and after, and what you said to them. Use past simple and past continuous.",
   "minWords": 150,
@@ -14,31 +19,107 @@
     "I knocked on the door of apartment three and asked…"
   ],
   "hintVocab": [
-    { "phrase": "stairwell", "meaningVi": "giếng cầu thang", "pronunciation": "/ˈsterˌwel/" },
-    { "phrase": "paint", "meaningVi": "sơn", "pronunciation": "/peɪnt/" },
-    { "phrase": "wall", "meaningVi": "tường", "pronunciation": "/wɔːl/" },
-    { "phrase": "yellow", "meaningVi": "vàng", "pronunciation": "/ˈjeloʊ/" },
-    { "phrase": "neighbour", "meaningVi": "hàng xóm", "pronunciation": "/ˈneɪbər/" },
-    { "phrase": "ladder", "meaningVi": "thang", "pronunciation": "/ˈlædər/" },
-    { "phrase": "brush", "meaningVi": "cọ sơn", "pronunciation": "/brʌʃ/" },
-    { "phrase": "quiet", "meaningVi": "yên lặng", "pronunciation": "/ˈkwaɪət/" },
-    { "phrase": "ask permission", "meaningVi": "xin phép" },
-    { "phrase": "thank", "meaningVi": "cảm ơn", "pronunciation": "/θæŋk/" },
-    { "phrase": "share", "meaningVi": "chia sẻ", "pronunciation": "/ʃer/" }
+    {
+      "phrase": "stairwell",
+      "meaningVi": "giếng cầu thang",
+      "pronunciation": "/ˈsterˌwel/"
+    },
+    {
+      "phrase": "paint",
+      "meaningVi": "sơn",
+      "pronunciation": "/peɪnt/"
+    },
+    {
+      "phrase": "wall",
+      "meaningVi": "tường",
+      "pronunciation": "/wɔːl/"
+    },
+    {
+      "phrase": "yellow",
+      "meaningVi": "vàng",
+      "pronunciation": "/ˈjeloʊ/"
+    },
+    {
+      "phrase": "neighbour",
+      "meaningVi": "hàng xóm",
+      "pronunciation": "/ˈneɪbər/"
+    },
+    {
+      "phrase": "ladder",
+      "meaningVi": "thang",
+      "pronunciation": "/ˈlædər/"
+    },
+    {
+      "phrase": "brush",
+      "meaningVi": "cọ sơn",
+      "pronunciation": "/brʌʃ/"
+    },
+    {
+      "phrase": "quiet",
+      "meaningVi": "yên lặng",
+      "pronunciation": "/ˈkwaɪət/"
+    },
+    {
+      "phrase": "ask permission",
+      "meaningVi": "xin phép"
+    },
+    {
+      "phrase": "thank",
+      "meaningVi": "cảm ơn",
+      "pronunciation": "/θæŋk/"
+    },
+    {
+      "phrase": "share",
+      "meaningVi": "chia sẻ",
+      "pronunciation": "/ʃer/"
+    }
   ],
   "sampleText": "For a year and a half, the stairwell in our building in Antwerp was the saddest colour I have ever seen — a kind of greenish grey that made everyone look tired in the morning. Three light bulbs were broken. Nobody complained, because nobody knew whose job it was. Then one Saturday morning in October, I came home from the market and found a tall woman from apartment three standing on a borrowed ladder, painting the wall pale yellow with a small brush. She had already finished half of the second floor. She was wearing old jeans and humming something I did not recognise. I stood at the bottom of the stairs for a moment, holding my bag of vegetables, watching her work. When she noticed me, she smiled and said, 'I asked the landlord. He didn't say no.' I went upstairs, put down my bag, and came back with a second brush. We painted together for the rest of the morning. By Monday the whole stairwell smelled faintly of fresh paint, and the new tenants kept stopping on the landings to look up. Nobody knows who put the small jug of flowers on the window at the third floor a week later. But everyone knows who started it.",
   "sampleAnnotations": [
-    { "phrase": "the stairwell in our building in Antwerp was the saddest colour", "meaningVi": "giếng cầu thang trong tòa nhà chúng tôi ở Antwerp là màu buồn nhất" },
-    { "phrase": "Three light bulbs were broken", "meaningVi": "Ba bóng đèn bị hỏng" },
-    { "phrase": "nobody knew whose job it was", "meaningVi": "không ai biết đó là việc của ai" },
-    { "phrase": "a tall woman from apartment three standing on a borrowed ladder", "meaningVi": "một người phụ nữ cao từ căn hộ số ba đang đứng trên một chiếc thang mượn" },
-    { "phrase": "painting the wall pale yellow with a small brush", "meaningVi": "đang sơn tường màu vàng nhạt bằng một chiếc cọ nhỏ" },
-    { "phrase": "She had already finished half of the second floor", "meaningVi": "Cô ấy đã sơn xong một nửa tầng hai" },
-    { "phrase": "She was wearing old jeans and humming something", "meaningVi": "Cô ấy đang mặc quần bò cũ và ngân nga điều gì đó" },
-    { "phrase": "I asked the landlord. He didn't say no", "meaningVi": "Tôi đã hỏi chủ nhà. Ông ấy không nói không" },
-    { "phrase": "We painted together for the rest of the morning", "meaningVi": "Chúng tôi cùng sơn cho hết buổi sáng" },
-    { "phrase": "the new tenants kept stopping on the landings to look up", "meaningVi": "những người thuê mới cứ dừng lại ở các chiếu nghỉ để nhìn lên" },
-    { "phrase": "everyone knows who started it", "meaningVi": "mọi người đều biết ai đã khởi đầu nó" }
+    {
+      "phrase": "the stairwell in our building in Antwerp was the saddest colour",
+      "meaningVi": "giếng cầu thang trong tòa nhà chúng tôi ở Antwerp là màu buồn nhất"
+    },
+    {
+      "phrase": "Three light bulbs were broken",
+      "meaningVi": "Ba bóng đèn bị hỏng"
+    },
+    {
+      "phrase": "nobody knew whose job it was",
+      "meaningVi": "không ai biết đó là việc của ai"
+    },
+    {
+      "phrase": "a tall woman from apartment three standing on a borrowed ladder",
+      "meaningVi": "một người phụ nữ cao từ căn hộ số ba đang đứng trên một chiếc thang mượn"
+    },
+    {
+      "phrase": "painting the wall pale yellow with a small brush",
+      "meaningVi": "đang sơn tường màu vàng nhạt bằng một chiếc cọ nhỏ"
+    },
+    {
+      "phrase": "She had already finished half of the second floor",
+      "meaningVi": "Cô ấy đã sơn xong một nửa tầng hai"
+    },
+    {
+      "phrase": "She was wearing old jeans and humming something",
+      "meaningVi": "Cô ấy đang mặc quần bò cũ và ngân nga điều gì đó"
+    },
+    {
+      "phrase": "I asked the landlord. He didn't say no",
+      "meaningVi": "Tôi đã hỏi chủ nhà. Ông ấy không nói không"
+    },
+    {
+      "phrase": "We painted together for the rest of the morning",
+      "meaningVi": "Chúng tôi cùng sơn cho hết buổi sáng"
+    },
+    {
+      "phrase": "the new tenants kept stopping on the landings to look up",
+      "meaningVi": "những người thuê mới cứ dừng lại ở các chiếu nghỉ để nhìn lên"
+    },
+    {
+      "phrase": "everyone knows who started it",
+      "meaningVi": "mọi người đều biết ai đã khởi đầu nó"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -58,12 +139,12 @@
       "id": "q1",
       "prompt": "Choose the correct past simple sentence about duration.",
       "options": [
-        "For a year and a half, the stairwell was the saddest colour I have ever seen.",
         "For a year and a half, the stairwell is the saddest colour I have ever seen.",
+        "For a year and a half, the stairwell was the saddest colour I have ever seen.",
         "For a year and a half, the stairwell was the most sad colour I have ever seen.",
         "For a year and a half, the stairwell were the saddest colour I have ever seen."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "Past simple 'was' for a finished past state; superlative 'saddest' (short adjective + -est).",
       "hint": "Past simple was + superlative -est."
     },
@@ -71,12 +152,12 @@
       "id": "q2",
       "prompt": "Pick the correct past continuous sentence.",
       "options": [
-        "She was painting the wall pale yellow with a small brush.",
         "She painting the wall pale yellow with a small brush.",
         "She paint the wall pale yellow with a small brush.",
+        "She was painting the wall pale yellow with a small brush.",
         "She is painted the wall pale yellow with a small brush."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "Past continuous 'was painting' for an action in progress at a past moment.",
       "hint": "Was + -ing."
     },
@@ -84,12 +165,12 @@
       "id": "q3",
       "prompt": "What does 'stairwell' mean?",
       "options": [
-        "the vertical space in a building that contains the stairs",
         "a kind of doorbell",
         "a window between two floors",
-        "the front door of a building"
+        "the front door of a building",
+        "the vertical space in a building that contains the stairs"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'Stairwell' = the shaft / vertical space holding the staircase.",
       "hint": "Stairs space."
     },
@@ -110,12 +191,12 @@
       "id": "q5",
       "prompt": "Choose the correct reported speech / direct quote sentence.",
       "options": [
-        "She smiled and said, 'I asked the landlord. He didn't say no.'",
         "She smiled and said, 'I have asked the landlord. He doesn't say no.'",
+        "She smiled and said, 'I asked the landlord. He didn't say no.'",
         "She smiled and said, 'I asking the landlord. He didn't say no.'",
         "She smiled and said that, 'I asked the landlord.'"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "Direct quotation; past simple inside the quote is consistent.",
       "hint": "Direct quote, past simple."
     },
@@ -123,12 +204,12 @@
       "id": "q6",
       "prompt": "What does 'borrowed' mean?",
       "options": [
-        "taken with permission for temporary use",
         "stolen secretly",
         "bought brand new",
+        "taken with permission for temporary use",
         "thrown away"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Borrowed' = taken temporarily with permission, to be returned.",
       "hint": "Taken to return."
     },
@@ -136,12 +217,12 @@
       "id": "q7",
       "prompt": "Pick the correct sentence with 'kept + -ing'.",
       "options": [
-        "The new tenants kept stopping on the landings to look up.",
         "The new tenants kept to stop on the landings to look up.",
         "The new tenants kept stop on the landings to look up.",
-        "The new tenants have kept stop on the landings to look up."
+        "The new tenants have kept stop on the landings to look up.",
+        "The new tenants kept stopping on the landings to look up."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'Keep + -ing' = continue doing repeatedly.",
       "hint": "Keep + verb-ing."
     },
@@ -162,12 +243,12 @@
       "id": "q9",
       "prompt": "Pick the correct preposition: 'standing ___ a borrowed ladder'.",
       "options": [
-        "on",
         "in",
+        "on",
         "at",
         "by"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'On a ladder' — surface preposition.",
       "hint": "Surface = on."
     },
@@ -175,12 +256,12 @@
       "id": "q10",
       "prompt": "Choose the correct sentence in the negative past simple.",
       "options": [
-        "Nobody complained, because nobody knew whose job it was.",
         "Nobody complain, because nobody know whose job it was.",
         "Nobody didn't complained, because nobody didn't know whose job it was.",
+        "Nobody complained, because nobody knew whose job it was.",
         "Nobody complained, because nobody don't know whose job it was."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Nobody' is already negative; past simple verbs 'complained' and 'knew' follow normally.",
       "hint": "Nobody + positive past verb."
     },
@@ -188,12 +269,12 @@
       "id": "q11",
       "prompt": "Pick the most natural closing line.",
       "options": [
-        "But everyone knows who started it.",
         "But everyone know who started it.",
         "But everyone knows who start it.",
-        "But everyone knowing who started it."
+        "But everyone knowing who started it.",
+        "But everyone knows who started it."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'Everyone' takes third person singular 'knows'; embedded past simple 'started'.",
       "hint": "Everyone + verb-s."
     }

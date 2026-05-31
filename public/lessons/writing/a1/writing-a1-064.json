@@ -3,7 +3,11 @@
   "level": "A1",
   "title": "One quiet moment at sunset",
   "summary": "Describe one ordinary sunset moment that stayed in your memory.",
-  "tags": ["Moment", "Sunset", "Memory"],
+  "tags": [
+    "Moment",
+    "Sunset",
+    "Memory"
+  ],
   "topic": "One quiet moment at sunset",
   "prompt": "Write 6–8 short sentences about one quiet sunset moment you remember. Describe where you were, what you saw, and how you felt. Use past simple.",
   "minWords": 150,
@@ -14,31 +18,97 @@
     "I felt very small because…"
   ],
   "hintVocab": [
-    { "phrase": "sunset", "meaningVi": "hoàng hôn" },
-    { "phrase": "roof", "meaningVi": "mái nhà" },
-    { "phrase": "orange sky", "meaningVi": "bầu trời cam" },
-    { "phrase": "rooftops", "meaningVi": "những mái nhà" },
-    { "phrase": "warm wind", "meaningVi": "gió ấm" },
-    { "phrase": "call to prayer", "meaningVi": "tiếng gọi cầu nguyện" },
-    { "phrase": "river", "meaningVi": "dòng sông" },
-    { "phrase": "stand still", "meaningVi": "đứng yên" },
-    { "phrase": "forget the time", "meaningVi": "quên thời gian" },
-    { "phrase": "feel small", "meaningVi": "cảm thấy nhỏ bé" },
-    { "phrase": "remember the colour", "meaningVi": "nhớ màu sắc" }
+    {
+      "phrase": "sunset",
+      "meaningVi": "hoàng hôn"
+    },
+    {
+      "phrase": "roof",
+      "meaningVi": "mái nhà"
+    },
+    {
+      "phrase": "orange sky",
+      "meaningVi": "bầu trời cam"
+    },
+    {
+      "phrase": "rooftops",
+      "meaningVi": "những mái nhà"
+    },
+    {
+      "phrase": "warm wind",
+      "meaningVi": "gió ấm"
+    },
+    {
+      "phrase": "call to prayer",
+      "meaningVi": "tiếng gọi cầu nguyện"
+    },
+    {
+      "phrase": "river",
+      "meaningVi": "dòng sông"
+    },
+    {
+      "phrase": "stand still",
+      "meaningVi": "đứng yên"
+    },
+    {
+      "phrase": "forget the time",
+      "meaningVi": "quên thời gian"
+    },
+    {
+      "phrase": "feel small",
+      "meaningVi": "cảm thấy nhỏ bé"
+    },
+    {
+      "phrase": "remember the colour",
+      "meaningVi": "nhớ màu sắc"
+    }
   ],
   "sampleText": "Last summer, I stood on a roof in Cairo just before the sun went down. I was alone. The sky was orange and pink at the same time. I could see many rooftops below me, all flat and dusty. A warm wind came across the city. I could hear the call to prayer from a far mosque. In the distance, the river was a long silver line. I did not move. I did not take a photo. I just stood still and I looked. For five minutes, I forgot my phone, my work, and my plans for the evening. I felt very small but also very calm. The sun went down slowly, and then the lights of the city came on. I went down the stairs to my room. I did not tell anybody about that moment. I still remember the colour of the sky. A quiet moment can stay with you for years.",
   "sampleAnnotations": [
-    { "phrase": "stood on a roof", "meaningVi": "đứng trên một mái nhà" },
-    { "phrase": "the sun went down", "meaningVi": "mặt trời lặn" },
-    { "phrase": "orange and pink", "meaningVi": "cam và hồng" },
-    { "phrase": "rooftops", "meaningVi": "những mái nhà" },
-    { "phrase": "warm wind", "meaningVi": "ngọn gió ấm" },
-    { "phrase": "call to prayer", "meaningVi": "tiếng gọi cầu nguyện" },
-    { "phrase": "long silver line", "meaningVi": "đường dài màu bạc" },
-    { "phrase": "stood still", "meaningVi": "đứng yên" },
-    { "phrase": "forgot my phone", "meaningVi": "quên điện thoại" },
-    { "phrase": "felt very small", "meaningVi": "cảm thấy rất nhỏ bé" },
-    { "phrase": "remember the colour of the sky", "meaningVi": "nhớ màu của bầu trời" }
+    {
+      "phrase": "stood on a roof",
+      "meaningVi": "đứng trên một mái nhà"
+    },
+    {
+      "phrase": "the sun went down",
+      "meaningVi": "mặt trời lặn"
+    },
+    {
+      "phrase": "orange and pink",
+      "meaningVi": "cam và hồng"
+    },
+    {
+      "phrase": "rooftops",
+      "meaningVi": "những mái nhà"
+    },
+    {
+      "phrase": "warm wind",
+      "meaningVi": "ngọn gió ấm"
+    },
+    {
+      "phrase": "call to prayer",
+      "meaningVi": "tiếng gọi cầu nguyện"
+    },
+    {
+      "phrase": "long silver line",
+      "meaningVi": "đường dài màu bạc"
+    },
+    {
+      "phrase": "stood still",
+      "meaningVi": "đứng yên"
+    },
+    {
+      "phrase": "forgot my phone",
+      "meaningVi": "quên điện thoại"
+    },
+    {
+      "phrase": "felt very small",
+      "meaningVi": "cảm thấy rất nhỏ bé"
+    },
+    {
+      "phrase": "remember the colour of the sky",
+      "meaningVi": "nhớ màu của bầu trời"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -59,11 +129,11 @@
       "prompt": "Where did the writer stand?",
       "options": [
         "By a river",
-        "On a roof in Cairo",
         "On a beach",
+        "On a roof in Cairo",
         "In a market"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The text says 'I stood on a roof in Cairo'.",
       "hint": "Find the place in the first sentence."
     },
@@ -72,11 +142,11 @@
       "prompt": "Was the writer alone?",
       "options": [
         "No, with a friend",
-        "Yes, alone",
         "No, with family",
-        "No, with a tour group"
+        "No, with a tour group",
+        "Yes, alone"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The text says 'I was alone'.",
       "hint": "Find the short sentence about being alone."
     },
@@ -84,12 +154,12 @@
       "id": "q3",
       "prompt": "What colour was the sky?",
       "options": [
-        "Only blue",
         "Orange and pink at the same time",
+        "Only blue",
         "Grey",
         "Black with stars"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The text says 'The sky was orange and pink at the same time'.",
       "hint": "Find the two colours."
     },
@@ -111,11 +181,11 @@
       "prompt": "What did the river look like?",
       "options": [
         "A green pool",
-        "A long silver line",
         "A dark hole",
+        "A long silver line",
         "A wide road"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The text says 'the river was a long silver line'.",
       "hint": "Find the river description."
     },
@@ -125,10 +195,10 @@
       "options": [
         "Stand still",
         "Look at the sky",
-        "Take a photo",
-        "Feel calm"
+        "Feel calm",
+        "Take a photo"
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "explanation": "The text says 'I did not take a photo'.",
       "hint": "Look for the past simple negative."
     },
@@ -136,12 +206,12 @@
       "id": "q7",
       "prompt": "Which past simple sentence is correct?",
       "options": [
-        "I did not took a photo.",
         "I did not take a photo.",
+        "I did not took a photo.",
         "I do not take a photo.",
         "I not take a photo."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Past simple negative: 'did not + base form'. 'did not take'.",
       "hint": "After 'did not', use the base form of the verb."
     },
@@ -163,11 +233,11 @@
       "prompt": "How did the writer feel?",
       "options": [
         "Very tired",
-        "Very small but also very calm",
         "Very excited and loud",
+        "Very small but also very calm",
         "Cold and sad"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The text says 'I felt very small but also very calm'.",
       "hint": "Look for the feelings sentence."
     },
@@ -177,10 +247,10 @@
       "options": [
         "I could to see many rooftops.",
         "I could saw many rooftops.",
-        "I could see many rooftops.",
-        "I could seeing many rooftops."
+        "I could seeing many rooftops.",
+        "I could see many rooftops."
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "explanation": "After 'could', use the base verb: 'could see'.",
       "hint": "After 'could', no -ing, no -ed, no 'to'."
     }

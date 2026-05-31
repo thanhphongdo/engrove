@@ -361,11 +361,6 @@
       "exampleEn": "In aggregate, the results favour the universal model."
     },
     {
-      "phrase": "obscure (verb)",
-      "meaningVi": "To make something unclear or difficult to see.",
-      "exampleEn": "National averages can obscure significant regional variation."
-    },
-    {
       "phrase": "perpetually",
       "meaningVi": "Continuously; without end.",
       "exampleEn": "The public system has been perpetually underfunded."
@@ -416,11 +411,6 @@
       "exampleEn": "A fragmented insurance system creates gaps in coverage."
     },
     {
-      "phrase": "manifests (illness)",
-      "meaningVi": "Becomes visible or apparent; shows symptoms.",
-      "exampleEn": "The disease may not manifest for several years after initial exposure."
-    },
-    {
       "phrase": "materialise",
       "meaningVi": "To come into existence; to become real or visible.",
       "exampleEn": "The promised savings from reform can take a decade to materialise."
@@ -459,11 +449,11 @@
       "prompt": "What is the Doctor's opening premise about healthcare?",
       "options": [
         "Healthcare is a luxury available only to the wealthy",
-        "Healthcare is a human right, not a commodity",
         "Healthcare should be funded by private insurance",
+        "Healthcare is a human right, not a commodity",
         "Healthcare costs must be controlled before rights are considered"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The Doctor states 'healthcare is a human right, not a commodity'.",
       "hint": "Listen to the Doctor's very first statement."
     },
@@ -472,11 +462,11 @@
       "prompt": "How does the Policymaker respond to the 'healthcare as a right' premise?",
       "options": [
         "He rejects it entirely as unrealistic",
-        "He broadly accepts it but notes rights come with costs and choices",
         "He agrees and says no trade-offs are needed",
-        "He says the premise is irrelevant to policy"
+        "He says the premise is irrelevant to policy",
+        "He broadly accepts it but notes rights come with costs and choices"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The Policymaker says 'I broadly accept it, but rights come with costs, and costs require choices'.",
       "hint": "Listen for the Policymaker's qualification after saying he accepts the premise."
     },
@@ -484,12 +474,12 @@
       "id": "q3",
       "prompt": "What three outcome indicators does the Doctor cite to support universal systems?",
       "options": [
-        "Lower drug prices, shorter hospital stays, better nutrition",
         "Longer life expectancy, lower infant mortality, fewer preventable deaths",
+        "Lower drug prices, shorter hospital stays, better nutrition",
         "Higher doctor salaries, more hospitals, faster drug approval",
         "Greater research output, better cancer survival rates, lower obesity"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The Doctor cites 'longer life expectancy, lower infant mortality, fewer preventable deaths'.",
       "hint": "Listen for the three-item list the Doctor gives as evidence."
     },
@@ -498,11 +488,11 @@
       "prompt": "Which two specific countries does the Policymaker cite as examples of flaws in universal systems?",
       "options": [
         "Australia and Germany",
-        "France and Sweden",
         "Canada and the UK",
+        "France and Sweden",
         "Japan and Canada"
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "explanation": "He mentions 'Canada's wait times' and 'the UK's NHS is perpetually underfunded'.",
       "hint": "Listen for the two country names the Policymaker mentions."
     },
@@ -511,11 +501,11 @@
       "prompt": "How does the Doctor characterise the 'fundamental unfairness' of market-based healthcare?",
       "options": [
         "As an addressable flaw that reform can fix",
-        "As a feature of the system, not a flaw",
         "As a problem that only affects the very poor",
+        "As a feature of the system, not a flaw",
         "As something that has been exaggerated by critics"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "She says 'it isn't a flaw; it's a feature' — meaning the inequality is inherent, not accidental.",
       "hint": "Listen for the Doctor's memorable formulation about market-based unfairness."
     },
@@ -524,11 +514,11 @@
       "prompt": "What does the Policymaker say is the main advantage of market-based healthcare?",
       "options": [
         "Lower costs for patients",
-        "Competition drives innovation in medical research",
         "More equitable distribution of resources",
-        "Faster access to general practitioners"
+        "Faster access to general practitioners",
+        "Competition drives innovation in medical research"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "He says 'what market advocates would say is that competition drives innovation'.",
       "hint": "Listen for the argument the Policymaker attributes to 'market advocates'."
     },
@@ -536,12 +526,12 @@
       "id": "q7",
       "prompt": "How does the Doctor counter the innovation argument?",
       "options": [
-        "By arguing the US produces fewer innovations than other countries",
         "By noting that innovations priced beyond patients' reach deliver no benefit",
+        "By arguing the US produces fewer innovations than other countries",
         "By claiming that innovation happens only in publicly funded research",
         "By saying pharmaceutical companies act unethically"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "She says 'a cancer drug developed in an American lab does no good to a patient who can't afford it'.",
       "hint": "Listen for the Doctor's example about cancer drugs."
     },
@@ -563,11 +553,11 @@
       "prompt": "What does the Doctor say happens in practice with a two-tier model?",
       "options": [
         "It improves both public and private quality simultaneously",
-        "It drains talent and resources from the public system to the private sector",
         "It reduces overall healthcare spending",
+        "It drains talent and resources from the public system to the private sector",
         "It creates no significant difference between the two tiers"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "She says it 'tends to drain talent and resources from the public system'.",
       "hint": "Listen for the Doctor's critique of the two-tier model in practice."
     },
@@ -576,11 +566,11 @@
       "prompt": "How does the Policymaker suggest the talent-drain risk can be addressed?",
       "options": [
         "By banning private practice for public doctors",
-        "Through regulation, incentives, and competitive salary structures",
         "By paying private doctors less than public doctors",
-        "By capping the number of private hospitals"
+        "By capping the number of private hospitals",
+        "Through regulation, incentives, and competitive salary structures"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "He says it 'can be mitigated through regulation, incentives, and salary structures that make public medicine competitive'.",
       "hint": "Listen for the three things the Policymaker says can reduce the risk."
     },
@@ -588,12 +578,12 @@
       "id": "q11",
       "prompt": "Why does the Doctor say a universal system has a financial incentive to invest in preventative care?",
       "options": [
-        "Because prevention is cheaper than any treatment",
         "Because the system bears the long-term cost of its population's illness",
+        "Because prevention is cheaper than any treatment",
         "Because donors fund preventative programmes",
         "Because prevention is legally required in universal systems"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The Doctor says 'a universal system has a financial incentive to keep people healthy because it bears the long-term cost of their illness'.",
       "hint": "Listen for the financial logic the Doctor explains about universal systems."
     },
@@ -628,11 +618,11 @@
       "prompt": "What is the Doctor's response to the cost-of-transition challenge?",
       "options": [
         "The transition can be done cheaply if planned carefully",
-        "The current system is already paying the costs at the worst point — acute illness",
         "Taxes can easily fund the transition without disruption",
-        "International aid would cover the initial investment"
+        "International aid would cover the initial investment",
+        "The current system is already paying the costs at the worst point — acute illness"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The Doctor argues 'we're already paying for those costs; we're just paying them at the worst possible point in the illness trajectory'.",
       "hint": "Listen for the Doctor's counter-argument about when costs are paid."
     },
@@ -640,12 +630,12 @@
       "id": "q15",
       "prompt": "What barrier beyond economics does the Policymaker raise?",
       "options": [
+        "Political feasibility across multiple election cycles",
         "Medical ethics",
         "Constitutional constraints",
-        "Political feasibility across multiple election cycles",
         "Public distrust of government"
       ],
-      "answerIndex": 2,
+      "answerIndex": 0,
       "explanation": "He says 'reforms of this scale require sustained political will across multiple election cycles'.",
       "hint": "Listen for the concern the Policymaker raises after accepting the economic argument."
     },
@@ -667,11 +657,11 @@
       "prompt": "How does the Policymaker respond to the Doctor's incremental approach?",
       "options": [
         "He rejects it as too slow to make a difference",
-        "He calls it a pragmatic approach he could support",
         "He says it has already been tried and failed",
+        "He calls it a pragmatic approach he could support",
         "He says it does not address the fundamental right to healthcare"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "He says 'that's a pragmatic approach I could get behind' and notes 'incremental reform is… far more likely to endure'.",
       "hint": "Listen to the Policymaker's final response in the dialogue."
     }

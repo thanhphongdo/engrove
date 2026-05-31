@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "When loyalty to a place outlives its hospitality to us",
   "summary": "Examine the emotional and moral complexity of continuing to love a city or country that has become hostile to certain of its inhabitants — and question whether such loyalty is devotion or complicity.",
-  "tags": ["Argument", "Identity", "Culture"],
+  "tags": [
+    "Argument",
+    "Identity",
+    "Culture"
+  ],
   "topic": "Whether persisting attachment to a place that has turned hostile to one's identity constitutes meaningful loyalty or a form of self-erasure",
   "prompt": "Write a 600–800-word argumentative essay exploring what it means to remain attached to a city or country that no longer extends full hospitality to you — whether through political exclusion, cultural erasure, or economic expulsion. Is such loyalty an act of courage, a form of self-deception, or both? Draw on at least one specific international case — a city undergoing gentrification, a country that has disenfranchised a minority, or a diaspora community with a complicated pull toward home. Use inversion at least once, at least one nominalization, and the concessive pair 'admittedly… yet…'. Avoid nostalgia clichés and exile romanticism.",
   "minWords": 600,
@@ -14,49 +18,172 @@
     "Admittedly, there is something stubbornly dignified in refusing to be displaced. Yet the refusal can also become…"
   ],
   "hintVocab": [
-    {"phrase": "gentrification", "meaningVi": "quá trình cao cấp hoá khu phố, đẩy cư dân thu nhập thấp ra ngoài", "pronunciation": "/ˌdʒentrifiˈkeɪʃn/"},
-    {"phrase": "displacement", "meaningVi": "sự di dời, việc buộc phải rời khỏi nơi sinh sống"},
-    {"phrase": "civic identity", "meaningVi": "bản sắc công dân, cảm giác thuộc về một nơi công cộng cụ thể"},
-    {"phrase": "disenfranchisement", "meaningVi": "sự tước đoạt quyền, bị loại khỏi quyền lợi chính trị hay xã hội"},
-    {"phrase": "ambivalent attachment", "meaningVi": "sự gắn bó mâu thuẫn, vừa yêu vừa oán"},
-    {"phrase": "the pull of origin", "meaningVi": "lực kéo của nguồn gốc, sức hút của nơi mình xuất thân"},
-    {"phrase": "complicity", "meaningVi": "sự đồng lõa, tham gia vào điều sai trái một cách gián tiếp", "pronunciation": "/kəmˈplɪsɪti/"},
-    {"phrase": "place-based identity", "meaningVi": "bản sắc gắn liền với nơi chốn"},
-    {"phrase": "forced migration", "meaningVi": "di dân cưỡng bức, di chuyển vì bị buộc chứ không tự nguyện"},
-    {"phrase": "cultural erasure", "meaningVi": "sự xoá bỏ văn hoá, việc xoá đi một nền văn hoá hoặc bản sắc"},
-    {"phrase": "the mythology of home", "meaningVi": "huyền thoại về ngôi nhà, hình tượng được lý tưởng hoá về nơi chốn"},
-    {"phrase": "inherited belonging", "meaningVi": "sự thuộc về được thừa kế, cảm giác gắn bó truyền từ thế hệ trước"},
-    {"phrase": "spatial memory", "meaningVi": "ký ức không gian, ký ức gắn với một địa điểm cụ thể"},
-    {"phrase": "urban dispossession", "meaningVi": "sự tước đoạt đô thị, bị tước quyền sở hữu hoặc tư cách ở trong đô thị"},
-    {"phrase": "political exile", "meaningVi": "lưu vong chính trị, bị buộc rời khỏi đất nước vì lý do chính trị"},
-    {"phrase": "conditional citizenship", "meaningVi": "quyền công dân có điều kiện, quyền lợi chỉ được trao khi đáp ứng điều kiện nào đó"},
-    {"phrase": "the politics of belonging", "meaningVi": "chính trị của sự thuộc về, tranh giành quyền được công nhận là thành viên của một cộng đồng"},
-    {"phrase": "residual loyalty", "meaningVi": "sự trung thành còn sót lại, lòng trung thành dai dẳng dù đã bị phản bội"},
-    {"phrase": "hospitable", "meaningVi": "hiếu khách, thân thiện và chào đón", "pronunciation": "/hɒˈspɪtəbl/"},
-    {"phrase": "negotiated attachment", "meaningVi": "sự gắn bó được thương lượng, tình yêu nơi chốn có ý thức phê phán"}
+    {
+      "phrase": "gentrification",
+      "meaningVi": "quá trình cao cấp hoá khu phố, đẩy cư dân thu nhập thấp ra ngoài",
+      "pronunciation": "/ˌdʒentrifiˈkeɪʃn/"
+    },
+    {
+      "phrase": "displacement",
+      "meaningVi": "sự di dời, việc buộc phải rời khỏi nơi sinh sống"
+    },
+    {
+      "phrase": "civic identity",
+      "meaningVi": "bản sắc công dân, cảm giác thuộc về một nơi công cộng cụ thể"
+    },
+    {
+      "phrase": "disenfranchisement",
+      "meaningVi": "sự tước đoạt quyền, bị loại khỏi quyền lợi chính trị hay xã hội"
+    },
+    {
+      "phrase": "ambivalent attachment",
+      "meaningVi": "sự gắn bó mâu thuẫn, vừa yêu vừa oán"
+    },
+    {
+      "phrase": "the pull of origin",
+      "meaningVi": "lực kéo của nguồn gốc, sức hút của nơi mình xuất thân"
+    },
+    {
+      "phrase": "complicity",
+      "meaningVi": "sự đồng lõa, tham gia vào điều sai trái một cách gián tiếp",
+      "pronunciation": "/kəmˈplɪsɪti/"
+    },
+    {
+      "phrase": "place-based identity",
+      "meaningVi": "bản sắc gắn liền với nơi chốn"
+    },
+    {
+      "phrase": "forced migration",
+      "meaningVi": "di dân cưỡng bức, di chuyển vì bị buộc chứ không tự nguyện"
+    },
+    {
+      "phrase": "cultural erasure",
+      "meaningVi": "sự xoá bỏ văn hoá, việc xoá đi một nền văn hoá hoặc bản sắc"
+    },
+    {
+      "phrase": "the mythology of home",
+      "meaningVi": "huyền thoại về ngôi nhà, hình tượng được lý tưởng hoá về nơi chốn"
+    },
+    {
+      "phrase": "inherited belonging",
+      "meaningVi": "sự thuộc về được thừa kế, cảm giác gắn bó truyền từ thế hệ trước"
+    },
+    {
+      "phrase": "spatial memory",
+      "meaningVi": "ký ức không gian, ký ức gắn với một địa điểm cụ thể"
+    },
+    {
+      "phrase": "urban dispossession",
+      "meaningVi": "sự tước đoạt đô thị, bị tước quyền sở hữu hoặc tư cách ở trong đô thị"
+    },
+    {
+      "phrase": "political exile",
+      "meaningVi": "lưu vong chính trị, bị buộc rời khỏi đất nước vì lý do chính trị"
+    },
+    {
+      "phrase": "conditional citizenship",
+      "meaningVi": "quyền công dân có điều kiện, quyền lợi chỉ được trao khi đáp ứng điều kiện nào đó"
+    },
+    {
+      "phrase": "the politics of belonging",
+      "meaningVi": "chính trị của sự thuộc về, tranh giành quyền được công nhận là thành viên của một cộng đồng"
+    },
+    {
+      "phrase": "residual loyalty",
+      "meaningVi": "sự trung thành còn sót lại, lòng trung thành dai dẳng dù đã bị phản bội"
+    },
+    {
+      "phrase": "hospitable",
+      "meaningVi": "hiếu khách, thân thiện và chào đón",
+      "pronunciation": "/hɒˈspɪtəbl/"
+    },
+    {
+      "phrase": "negotiated attachment",
+      "meaningVi": "sự gắn bó được thương lượng, tình yêu nơi chốn có ý thức phê phán"
+    }
   ],
   "sampleText": "Not until a city begins to price out its longest inhabitants does the question of loyalty acquire its full moral weight. Before that point, attachment to place can pass as natural sentiment — the unreflective love of streets, light, and social texture that requires no justification. Once the city turns hostile — through rent, through policing, through the systematic replacement of a neighbourhood's character — loyalty becomes a position that demands examination.\n\nThe dispossession of long-term residents from Istanbul's Sulukule neighbourhood between 2006 and 2010 offers a case study that resists easy framing. The Roma community that had inhabited the area for centuries was relocated — in official language, 'regenerated into' — new housing estates distant from the city centre, while the land was developed for wealthier occupants. Some residents resisted relocation for years, returning repeatedly to ruins, maintaining spatial memory against the force of urban redevelopment. Their persistence was read, by some commentators, as the embodiment of a noble territorial loyalty. Read more coldly, it was also the persistence of people whose civic identity had no legal instrument to defend it. The admiration directed at their attachment risked romanticising what was in practice a condition of dispossession.\n\nAdmittedly, there is something stubbornly dignified in refusing to be displaced. A community that holds its ground against economic or political pressure preserves, in some form, the intelligibility of its own history — the argument that this street, this courtyard, this market belongs to the people whose life it has shaped. Yet the dignity of persistence can exact a cost that those who admire it from a distance rarely quantify. The people who remain may do so at the price of watching the place they love transform around them into something that no longer includes them — a tourism-facing simulacrum of the neighbourhood it once was.\n\nThe attachment that outlives hospitality is not a single thing. For some, it is the refusal to grant the city's new owners the symbolic victory of their departure; for others, it is the absence of anywhere else that carries the same density of inherited belonging. Both are real motivations, and neither is simply sentimental. What complicates the ethics is the possibility that remaining — especially under conditions where your presence is tolerated but not invited — can shade into a form of complicity. To continue attending the markets, the festivals, the communal spaces of a city that has systematically expelled your neighbours is to populate the spectacle that replaced them.\n\nThis is not a straightforwardly reversible problem. Palestinian communities in East Jerusalem navigate it with particular acuity: they hold residency status that depends on demonstrating continued physical presence in the city, meaning that departure — even temporary — risks the legal erasure of their right to return. Here, loyalty is not a sentiment but a survival mechanism, and the question of whether it is freely chosen collapses. The politics of belonging, in such contexts, operates as a trap: leave and lose the right, stay and legitimate the structure that denies you full membership.\n\nWhat we tend to call loyalty to place is therefore rarely a single impulse. It is almost always a negotiated attachment — a mixture of love, stubbornness, the inability to imagine an alternative, and in some cases the refusal to allow one's departure to be the evidence that the city needed to proceed. The Welsh concept of hiraeth — untranslatable, but encompassing a grief for a homeland that may never have existed as it is remembered — captures something of this ambivalence: not the clean sorrow of exile but the muddier condition of loving a place across its betrayals.\n\nNone of this resolves into a prescription. A person who stays in a hostile city is not simply courageous, and a person who leaves is not simply defeated. What both share is the obligation to hold the complexity without collapsing it — to acknowledge that love for a place and anger at what it has done to you can coexist, and that this coexistence is not a contradiction but the texture of political life.",
   "sampleAnnotations": [
-    {"phrase": "Not until a city begins to price out its longest inhabitants does the question of loyalty acquire its full moral weight", "meaningVi": "Chỉ khi một thành phố bắt đầu đẩy những cư dân lâu năm nhất ra ngoài vì giá cả, câu hỏi về lòng trung thành mới có đủ trọng lượng đạo đức"},
-    {"phrase": "the unreflective love of streets, light, and social texture that requires no justification", "meaningVi": "tình yêu không suy ngẫm với những con đường, ánh sáng và kết cấu xã hội không cần biện minh"},
-    {"phrase": "loyalty becomes a position that demands examination", "meaningVi": "lòng trung thành trở thành một lập trường đòi hỏi phải xem xét"},
-    {"phrase": "Their persistence was read, by some commentators, as the embodiment of a noble territorial loyalty", "meaningVi": "Sự kiên trì của họ được một số nhà bình luận đọc là hiện thân của một lòng trung thành lãnh thổ cao quý"},
-    {"phrase": "whose civic identity had no legal instrument to defend it", "meaningVi": "mà bản sắc công dân không có công cụ pháp lý nào để bảo vệ nó"},
-    {"phrase": "The admiration directed at their attachment risked romanticising what was in practice a condition of dispossession", "meaningVi": "Sự ngưỡng mộ hướng đến sự gắn bó của họ có nguy cơ lãng mạn hoá điều mà trên thực tế là tình trạng bị tước đoạt"},
-    {"phrase": "Admittedly, there is something stubbornly dignified in refusing to be displaced", "meaningVi": "Cần thừa nhận rằng có điều gì đó kiên cường và phẩm giá trong việc từ chối bị dời đi"},
-    {"phrase": "Yet the dignity of persistence can exact a cost that those who admire it from a distance rarely quantify", "meaningVi": "Thế nhưng phẩm giá của sự kiên trì có thể đòi hỏi một cái giá mà những người ngưỡng mộ từ xa hiếm khi tính đến"},
-    {"phrase": "a tourism-facing simulacrum of the neighbourhood it once was", "meaningVi": "một bản phỏng chế hướng đến du lịch của khu phố ngày xưa"},
-    {"phrase": "the absence of anywhere else that carries the same density of inherited belonging", "meaningVi": "sự vắng mặt của bất cứ nơi nào khác mang cùng mật độ sự thuộc về được thừa kế"},
-    {"phrase": "the possibility that remaining can shade into a form of complicity", "meaningVi": "khả năng rằng việc ở lại có thể dần dần biến thành một hình thức đồng lõa"},
-    {"phrase": "to populate the spectacle that replaced them", "meaningVi": "để lấp đầy màn trình diễn đã thay thế họ"},
-    {"phrase": "loyalty is not a sentiment but a survival mechanism", "meaningVi": "lòng trung thành không phải là cảm xúc mà là cơ chế sinh tồn"},
-    {"phrase": "The politics of belonging, in such contexts, operates as a trap", "meaningVi": "Chính trị của sự thuộc về, trong bối cảnh như vậy, vận hành như một cái bẫy"},
-    {"phrase": "leave and lose the right, stay and legitimate the structure that denies you full membership", "meaningVi": "rời đi và mất quyền, ở lại và hợp thức hoá cấu trúc phủ nhận tư cách thành viên đầy đủ của bạn"},
-    {"phrase": "a negotiated attachment", "meaningVi": "sự gắn bó được thương lượng, tình yêu nơi chốn có ý thức phê phán"},
-    {"phrase": "the inability to imagine an alternative", "meaningVi": "sự không có khả năng hình dung một sự thay thế"},
-    {"phrase": "the refusal to allow one's departure to be the evidence that the city needed to proceed", "meaningVi": "sự từ chối cho phép cuộc ra đi của mình là bằng chứng mà thành phố cần để tiến hành"},
-    {"phrase": "loving a place across its betrayals", "meaningVi": "yêu một nơi xuyên qua những lần phản bội của nó"},
-    {"phrase": "that this coexistence is not a contradiction but the texture of political life", "meaningVi": "rằng sự cùng tồn tại này không phải là mâu thuẫn mà là kết cấu của đời sống chính trị"}
+    {
+      "phrase": "Not until a city begins to price out its longest inhabitants does the question of loyalty acquire its full moral weight",
+      "meaningVi": "Chỉ khi một thành phố bắt đầu đẩy những cư dân lâu năm nhất ra ngoài vì giá cả, câu hỏi về lòng trung thành mới có đủ trọng lượng đạo đức"
+    },
+    {
+      "phrase": "the unreflective love of streets, light, and social texture that requires no justification",
+      "meaningVi": "tình yêu không suy ngẫm với những con đường, ánh sáng và kết cấu xã hội không cần biện minh"
+    },
+    {
+      "phrase": "loyalty becomes a position that demands examination",
+      "meaningVi": "lòng trung thành trở thành một lập trường đòi hỏi phải xem xét"
+    },
+    {
+      "phrase": "Their persistence was read, by some commentators, as the embodiment of a noble territorial loyalty",
+      "meaningVi": "Sự kiên trì của họ được một số nhà bình luận đọc là hiện thân của một lòng trung thành lãnh thổ cao quý"
+    },
+    {
+      "phrase": "whose civic identity had no legal instrument to defend it",
+      "meaningVi": "mà bản sắc công dân không có công cụ pháp lý nào để bảo vệ nó"
+    },
+    {
+      "phrase": "The admiration directed at their attachment risked romanticising what was in practice a condition of dispossession",
+      "meaningVi": "Sự ngưỡng mộ hướng đến sự gắn bó của họ có nguy cơ lãng mạn hoá điều mà trên thực tế là tình trạng bị tước đoạt"
+    },
+    {
+      "phrase": "Admittedly, there is something stubbornly dignified in refusing to be displaced",
+      "meaningVi": "Cần thừa nhận rằng có điều gì đó kiên cường và phẩm giá trong việc từ chối bị dời đi"
+    },
+    {
+      "phrase": "Yet the dignity of persistence can exact a cost that those who admire it from a distance rarely quantify",
+      "meaningVi": "Thế nhưng phẩm giá của sự kiên trì có thể đòi hỏi một cái giá mà những người ngưỡng mộ từ xa hiếm khi tính đến"
+    },
+    {
+      "phrase": "a tourism-facing simulacrum of the neighbourhood it once was",
+      "meaningVi": "một bản phỏng chế hướng đến du lịch của khu phố ngày xưa"
+    },
+    {
+      "phrase": "the absence of anywhere else that carries the same density of inherited belonging",
+      "meaningVi": "sự vắng mặt của bất cứ nơi nào khác mang cùng mật độ sự thuộc về được thừa kế"
+    },
+    {
+      "phrase": "can shade into a form of complicity",
+      "meaningVi": "khả năng rằng việc ở lại có thể dần dần biến thành một hình thức đồng lõa"
+    },
+    {
+      "phrase": "to populate the spectacle that replaced them",
+      "meaningVi": "để lấp đầy màn trình diễn đã thay thế họ"
+    },
+    {
+      "phrase": "loyalty is not a sentiment but a survival mechanism",
+      "meaningVi": "lòng trung thành không phải là cảm xúc mà là cơ chế sinh tồn"
+    },
+    {
+      "phrase": "The politics of belonging, in such contexts, operates as a trap",
+      "meaningVi": "Chính trị của sự thuộc về, trong bối cảnh như vậy, vận hành như một cái bẫy"
+    },
+    {
+      "phrase": "leave and lose the right, stay and legitimate the structure that denies you full membership",
+      "meaningVi": "rời đi và mất quyền, ở lại và hợp thức hoá cấu trúc phủ nhận tư cách thành viên đầy đủ của bạn"
+    },
+    {
+      "phrase": "a negotiated attachment",
+      "meaningVi": "sự gắn bó được thương lượng, tình yêu nơi chốn có ý thức phê phán"
+    },
+    {
+      "phrase": "the inability to imagine an alternative",
+      "meaningVi": "sự không có khả năng hình dung một sự thay thế"
+    },
+    {
+      "phrase": "the refusal to allow one's departure to be the evidence that the city needed to proceed",
+      "meaningVi": "sự từ chối cho phép cuộc ra đi của mình là bằng chứng mà thành phố cần để tiến hành"
+    },
+    {
+      "phrase": "loving a place across its betrayals",
+      "meaningVi": "yêu một nơi xuyên qua những lần phản bội của nó"
+    },
+    {
+      "phrase": "that this coexistence is not a contradiction but the texture of political life",
+      "meaningVi": "rằng sự cùng tồn tại này không phải là mâu thuẫn mà là kết cấu của đời sống chính trị"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -76,12 +203,12 @@
       "id": "q1",
       "prompt": "Which sentence correctly uses inversion after 'Not until'?",
       "options": [
-        "Not until a city begins to price out its longest inhabitants the question of loyalty acquires its full moral weight.",
         "Not until a city begins to price out its longest inhabitants does the question of loyalty acquire its full moral weight.",
+        "Not until a city begins to price out its longest inhabitants the question of loyalty acquires its full moral weight.",
         "Not until a city begins to price out its longest inhabitants did the question of loyalty acquires its full moral weight.",
         "Until not a city prices out its inhabitants, does loyalty gain moral weight."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "After 'Not until…', the auxiliary 'does' must precede the subject 'the question of loyalty' — standard negative inversion at C1.",
       "hint": "Negative temporal fronting requires subject-auxiliary inversion."
     },
@@ -103,11 +230,11 @@
       "prompt": "Why does the essay say admiring the Roma residents' persistence 'risked romanticising' it?",
       "options": [
         "Because Roma culture is inherently romantic and should not be aestheticised",
-        "Because admiration from outside framed as noble loyalty what was actually forced dispossession without legal protection",
         "Because the residents eventually chose to leave, making the admiration misplaced",
+        "Because admiration from outside framed as noble loyalty what was actually forced dispossession without legal protection",
         "Because romantic attachment to place is always politically harmful"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay argues that framing a condition of legal vulnerability as admirable loyalty obscures the injustice — the residents had 'no legal instrument' to defend their identity.",
       "hint": "Romanticising makes something appear more beautiful or noble than its material reality warrants."
     },
@@ -116,11 +243,11 @@
       "prompt": "Which best captures the concessive pattern 'Admittedly… Yet…' in the essay?",
       "options": [
         "Admittedly, loyalty is noble. Yet displacement is worse.",
-        "Admittedly, there is something stubbornly dignified in refusing to be displaced. Yet the dignity of persistence can exact a cost that those who admire it from a distance rarely quantify.",
         "Yet there is dignity in staying. Admittedly, the cost is high.",
-        "Admittedly and yet, loyalty and displacement are both complex phenomena."
+        "Admittedly and yet, loyalty and displacement are both complex phenomena.",
+        "Admittedly, there is something stubbornly dignified in refusing to be displaced. Yet the dignity of persistence can exact a cost that those who admire it from a distance rarely quantify."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The correct pattern concedes the dignity of persistence first ('Admittedly'), then pivots to its hidden cost ('Yet') — the C1 two-step concession.",
       "hint": "The concession comes first; the complication follows."
     },
@@ -128,12 +255,12 @@
       "id": "q5",
       "prompt": "What does the essay mean by 'a tourism-facing simulacrum of the neighbourhood it once was'?",
       "options": [
-        "A museum that recreates the original neighbourhood for visitors",
         "A superficial replica of the neighbourhood's original character, redesigned to attract tourists rather than serve residents",
+        "A museum that recreates the original neighbourhood for visitors",
         "A tourist map that shows where the original residents lived",
         "An artistic installation depicting displaced communities"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "A simulacrum is a copy with no original left — here, the neighbourhood's surface features are preserved for tourist consumption while the actual community is gone.",
       "hint": "A simulacrum is a copy — but what is the original that has been replaced?"
     },
@@ -155,11 +282,11 @@
       "prompt": "Why is Palestinian residency in East Jerusalem described as a trap?",
       "options": [
         "Because the legal process for residency is deliberately difficult",
-        "Because staying legitimates the structure that denies full membership, while leaving forfeits the legal right to return",
         "Because Palestinian culture is incompatible with the urban environment",
+        "Because staying legitimates the structure that denies full membership, while leaving forfeits the legal right to return",
         "Because residency rights apply only to certain generations"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay frames it as 'leave and lose the right, stay and legitimate the structure that denies you full membership' — a binary where both options reinforce the system.",
       "hint": "A trap is something where both paths forward are harmful."
     },
@@ -168,11 +295,11 @@
       "prompt": "What is 'inherited belonging' as used in the essay?",
       "options": [
         "Property inherited from deceased family members",
-        "A sense of connection to a place transmitted across generations, not earned individually",
         "Cultural practices passed down within a community",
-        "Legal citizenship rights acquired through parentage"
+        "Legal citizenship rights acquired through parentage",
+        "A sense of connection to a place transmitted across generations, not earned individually"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay uses 'inherited belonging' to describe attachment to a place that comes from generational presence, not from recent personal choice.",
       "hint": "Inherited = received from previous generations; belonging = the sense of being part of a place."
     },
@@ -180,12 +307,12 @@
       "id": "q9",
       "prompt": "What does the essay mean by 'negotiated attachment'?",
       "options": [
-        "An attachment agreed upon between two parties in a legal contract",
         "A critically conscious love of place that acknowledges both the pull of connection and the injustices of the place",
+        "An attachment agreed upon between two parties in a legal contract",
         "An attachment formed gradually through repeated visits",
         "A compromised form of love that has been weakened by conflict"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay describes it as 'a mixture of love, stubbornness, the inability to imagine an alternative, and the refusal to allow one's departure to be the evidence that the city needed to proceed' — a self-aware, multi-layered attachment.",
       "hint": "Negotiated implies awareness and tension — it is not simple or unreflective."
     },
@@ -207,11 +334,11 @@
       "prompt": "What does the essay mean by 'to populate the spectacle that replaced them'?",
       "options": [
         "To perform as an actor in a theatrical production about displacement",
-        "To continue attending events in a transformed neighbourhood, thereby lending credibility to the version that replaced the original community",
         "To add one's name to a population register",
+        "To continue attending events in a transformed neighbourhood, thereby lending credibility to the version that replaced the original community",
         "To become a tourist in one's own former neighbourhood"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay argues that remaining patrons of a neighbourhood from which others were expelled gives a kind of legitimacy to the replacement — you populate the performance that erased your neighbours.",
       "hint": "A spectacle needs an audience — what does being in the audience do for the spectacle?"
     },
@@ -221,10 +348,10 @@
       "options": [
         "Those who stay are courageous; those who leave have been defeated.",
         "Those who leave are sensible; those who stay are naive.",
-        "Neither staying nor leaving is simply courageous or defeated — both share the obligation to hold the complexity.",
-        "The essay does not take a position and leaves the question open."
+        "The essay does not take a position and leaves the question open.",
+        "Neither staying nor leaving is simply courageous or defeated — both share the obligation to hold the complexity."
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "explanation": "The essay explicitly states 'A person who stays in a hostile city is not simply courageous, and a person who leaves is not simply defeated.'",
       "hint": "Look for the essay's direct conclusion in the final paragraph."
     },
@@ -232,12 +359,12 @@
       "id": "q13",
       "prompt": "What does 'disenfranchisement' mean?",
       "options": [
-        "The removal of a business's franchise licence",
         "The withdrawal of political and social rights from a person or group",
+        "The removal of a business's franchise licence",
         "The process of leaving a city or country",
         "Dissatisfaction with an established institution"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Disenfranchisement means being deprived of rights — particularly voting rights and civic standing.",
       "hint": "Franchise here means the right to participate, not a business licence."
     },
@@ -246,11 +373,11 @@
       "prompt": "What is the essay's nominalization in 'The dispossession of long-term residents'?",
       "options": [
         "long-term",
-        "residents",
         "dispossession",
+        "residents",
         "of"
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "explanation": "'Dispossession' converts the verb 'dispossess' into a noun, allowing the writer to treat the entire act of removal as an analysable entity.",
       "hint": "A nominalization converts a verb or adjective into a noun — look for a '-tion' ending."
     },
@@ -259,11 +386,11 @@
       "prompt": "What does 'residual loyalty' mean?",
       "options": [
         "Loyalty that is legally required as a residual obligation",
-        "A weakened or leftover loyalty that persists even after the relationship has been damaged or betrayed",
         "Loyalty that is only given to those who remain in a place",
+        "A weakened or leftover loyalty that persists even after the relationship has been damaged or betrayed",
         "A loyalty expressed through residential presence"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "Residual means what remains after most of something has been used or removed — residual loyalty persists despite betrayal or damage to the relationship.",
       "hint": "Residual = what is left over after the rest has gone."
     },
@@ -273,10 +400,10 @@
       "options": [
         "It's hard to love a place that doesn't love you back.",
         "Some people stay in cities even when those cities don't treat them well.",
-        "The politics of belonging, in such contexts, operates as a trap: leave and lose the right, stay and legitimate the structure that denies you full membership.",
-        "Leaving your hometown is always a complicated decision, especially for minorities."
+        "Leaving your hometown is always a complicated decision, especially for minorities.",
+        "The politics of belonging, in such contexts, operates as a trap: leave and lose the right, stay and legitimate the structure that denies you full membership."
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "explanation": "This sentence uses a precise abstract noun phrase ('the politics of belonging'), a metaphor ('trap'), a parallel syntactic structure ('leave and…, stay and…'), and a legal-political vocabulary ('legitimate', 'full membership').",
       "hint": "C1 sentences use abstract noun phrases, precise metaphors, and parallel syntax to carry complex arguments economically."
     }

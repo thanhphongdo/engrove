@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "What the last polisher could not say",
   "summary": "Analyse why a craft can vanish when its final master dies even though apprentices, manuals, and video survive — and whether the loss is a failure of transmission or something built into the nature of the knowledge itself.",
-  "tags": ["Analysis", "Craft", "Knowledge"],
+  "tags": [
+    "Analysis",
+    "Craft",
+    "Knowledge"
+  ],
   "topic": "Why a craft dies when its last master does, despite apprentices and records",
   "prompt": "Write a 600–800-word analytical essay explaining why a traditional craft can die with its last practitioner even when it has been filmed, written down, and taught. Use one concrete craft as your case. Distinguish at least two kinds of knowledge, weigh whether better documentation could have saved it, and reach a qualified rather than absolute conclusion. Use hedging, nominalization, and deliberate cohesion.",
   "minWords": 600,
@@ -14,73 +18,277 @@
     "If documentation could have preserved it, we would expect that…; what we observe instead is…"
   ],
   "hintVocab": [
-    {"phrase": "tacit knowledge", "meaningVi": "tri thức ngầm, biết mà không nói được"},
-    {"phrase": "explicit knowledge", "meaningVi": "tri thức tường minh, có thể nói và viết ra"},
-    {"phrase": "to transmit", "meaningVi": "truyền lại, chuyển giao", "pronunciation": "/trænzˈmɪt/"},
-    {"phrase": "apprenticeship", "meaningVi": "chế độ học việc, học nghề bên thầy", "pronunciation": "/əˈprentɪʃɪp/"},
-    {"phrase": "embodied skill", "meaningVi": "kỹ năng nằm trong cơ thể, học bằng tay"},
-    {"phrase": "muscle memory", "meaningVi": "trí nhớ cơ bắp, phản xạ luyện thành"},
-    {"phrase": "to articulate", "meaningVi": "diễn đạt thành lời", "pronunciation": "/ɑːˈtɪkjʊleɪt/"},
-    {"phrase": "the unspoken", "meaningVi": "phần không được nói ra"},
-    {"phrase": "lineage", "meaningVi": "dòng truyền thừa, mạch kế tục", "pronunciation": "/ˈlɪniɪdʒ/"},
-    {"phrase": "to fossilise", "meaningVi": "hoá thạch, đông cứng lại", "pronunciation": "/ˈfɒsɪlaɪz/"},
-    {"phrase": "demonstration", "meaningVi": "sự làm mẫu, biểu diễn cho xem"},
-    {"phrase": "rule of thumb", "meaningVi": "kinh nghiệm áng chừng, quy tắc thực dụng"},
-    {"phrase": "calibration", "meaningVi": "sự hiệu chỉnh, canh chỉnh độ chính xác"},
-    {"phrase": "to interpolate", "meaningVi": "suy ra phần thiếu, điền vào khoảng trống", "pronunciation": "/ɪnˈtɜːpəleɪt/"},
-    {"phrase": "feedback loop", "meaningVi": "vòng phản hồi"},
-    {"phrase": "perceptual skill", "meaningVi": "kỹ năng tri giác, học cách nhìn/cảm"},
-    {"phrase": "to attenuate", "meaningVi": "làm suy yếu, mỏng dần đi", "pronunciation": "/əˈtenjueɪt/"},
-    {"phrase": "intergenerational", "meaningVi": "liên thế hệ"},
-    {"phrase": "to reconstruct", "meaningVi": "tái dựng lại"},
-    {"phrase": "the residue", "meaningVi": "phần cặn còn sót lại"},
-    {"phrase": "to formalise", "meaningVi": "đưa vào khuôn khổ chính thức"},
-    {"phrase": "incremental correction", "meaningVi": "sự sửa sai từng chút một"},
-    {"phrase": "to atrophy", "meaningVi": "teo đi, mai một", "pronunciation": "/ˈætrəfi/"},
-    {"phrase": "irreducible", "meaningVi": "không thể quy giản, không rút gọn được", "pronunciation": "/ˌɪrɪˈdjuːsəbl/"},
-    {"phrase": "to approximate", "meaningVi": "tiệm cận, gần đúng", "pronunciation": "/əˈprɒksɪmeɪt/"},
-    {"phrase": "guild", "meaningVi": "phường hội nghề"},
-    {"phrase": "obsolescence", "meaningVi": "sự lỗi thời, không còn được dùng", "pronunciation": "/ˌɒbsəˈlesns/"},
-    {"phrase": "to encode", "meaningVi": "mã hoá thành ký hiệu/quy tắc"},
-    {"phrase": "fidelity", "meaningVi": "độ trung thực khi sao chép lại", "pronunciation": "/fɪˈdeləti/"},
-    {"phrase": "to underwrite", "meaningVi": "làm nền tảng cho, bảo đảm cho"},
-    {"phrase": "diminishing returns", "meaningVi": "lợi ích giảm dần"},
-    {"phrase": "in good faith", "meaningVi": "một cách thành tâm, thiện chí"}
+    {
+      "phrase": "tacit knowledge",
+      "meaningVi": "tri thức ngầm, biết mà không nói được"
+    },
+    {
+      "phrase": "explicit knowledge",
+      "meaningVi": "tri thức tường minh, có thể nói và viết ra"
+    },
+    {
+      "phrase": "to transmit",
+      "meaningVi": "truyền lại, chuyển giao",
+      "pronunciation": "/trænzˈmɪt/"
+    },
+    {
+      "phrase": "apprenticeship",
+      "meaningVi": "chế độ học việc, học nghề bên thầy",
+      "pronunciation": "/əˈprentɪʃɪp/"
+    },
+    {
+      "phrase": "embodied skill",
+      "meaningVi": "kỹ năng nằm trong cơ thể, học bằng tay"
+    },
+    {
+      "phrase": "muscle memory",
+      "meaningVi": "trí nhớ cơ bắp, phản xạ luyện thành"
+    },
+    {
+      "phrase": "to articulate",
+      "meaningVi": "diễn đạt thành lời",
+      "pronunciation": "/ɑːˈtɪkjʊleɪt/"
+    },
+    {
+      "phrase": "the unspoken",
+      "meaningVi": "phần không được nói ra"
+    },
+    {
+      "phrase": "lineage",
+      "meaningVi": "dòng truyền thừa, mạch kế tục",
+      "pronunciation": "/ˈlɪniɪdʒ/"
+    },
+    {
+      "phrase": "to fossilise",
+      "meaningVi": "hoá thạch, đông cứng lại",
+      "pronunciation": "/ˈfɒsɪlaɪz/"
+    },
+    {
+      "phrase": "demonstration",
+      "meaningVi": "sự làm mẫu, biểu diễn cho xem"
+    },
+    {
+      "phrase": "rule of thumb",
+      "meaningVi": "kinh nghiệm áng chừng, quy tắc thực dụng"
+    },
+    {
+      "phrase": "calibration",
+      "meaningVi": "sự hiệu chỉnh, canh chỉnh độ chính xác"
+    },
+    {
+      "phrase": "to interpolate",
+      "meaningVi": "suy ra phần thiếu, điền vào khoảng trống",
+      "pronunciation": "/ɪnˈtɜːpəleɪt/"
+    },
+    {
+      "phrase": "feedback loop",
+      "meaningVi": "vòng phản hồi"
+    },
+    {
+      "phrase": "perceptual skill",
+      "meaningVi": "kỹ năng tri giác, học cách nhìn/cảm"
+    },
+    {
+      "phrase": "to attenuate",
+      "meaningVi": "làm suy yếu, mỏng dần đi",
+      "pronunciation": "/əˈtenjueɪt/"
+    },
+    {
+      "phrase": "intergenerational",
+      "meaningVi": "liên thế hệ"
+    },
+    {
+      "phrase": "to reconstruct",
+      "meaningVi": "tái dựng lại"
+    },
+    {
+      "phrase": "the residue",
+      "meaningVi": "phần cặn còn sót lại"
+    },
+    {
+      "phrase": "to formalise",
+      "meaningVi": "đưa vào khuôn khổ chính thức"
+    },
+    {
+      "phrase": "incremental correction",
+      "meaningVi": "sự sửa sai từng chút một"
+    },
+    {
+      "phrase": "to atrophy",
+      "meaningVi": "teo đi, mai một",
+      "pronunciation": "/ˈætrəfi/"
+    },
+    {
+      "phrase": "irreducible",
+      "meaningVi": "không thể quy giản, không rút gọn được",
+      "pronunciation": "/ˌɪrɪˈdjuːsəbl/"
+    },
+    {
+      "phrase": "to approximate",
+      "meaningVi": "tiệm cận, gần đúng",
+      "pronunciation": "/əˈprɒksɪmeɪt/"
+    },
+    {
+      "phrase": "guild",
+      "meaningVi": "phường hội nghề"
+    },
+    {
+      "phrase": "obsolescence",
+      "meaningVi": "sự lỗi thời, không còn được dùng",
+      "pronunciation": "/ˌɒbsəˈlesns/"
+    },
+    {
+      "phrase": "to encode",
+      "meaningVi": "mã hoá thành ký hiệu/quy tắc"
+    },
+    {
+      "phrase": "fidelity",
+      "meaningVi": "độ trung thực khi sao chép lại",
+      "pronunciation": "/fɪˈdeləti/"
+    },
+    {
+      "phrase": "to underwrite",
+      "meaningVi": "làm nền tảng cho, bảo đảm cho"
+    },
+    {
+      "phrase": "diminishing returns",
+      "meaningVi": "lợi ích giảm dần"
+    },
+    {
+      "phrase": "in good faith",
+      "meaningVi": "một cách thành tâm, thiện chí"
+    }
   ],
   "sampleText": "When Honda Toshiro died in a town north of Kyoto, he was, by the reckoning of the few who still cared, the last man who could put the final polish on a particular school of long sword in the old way. He had two apprentices. There is roughly forty hours of footage of him working, shot by a regional museum that knew what it was losing. And the consensus among the handful of specialists who watch such things is that the craft, in the form he practised it, is gone. The puzzle is not why an obscure skill faded. The puzzle is why it faded with all this around it — the students, the film, the written notes — and what that survival of the records, alongside the death of the skill, tells us about the kind of knowledge it was.\n\nIt is tempting to call this a failure of record-keeping, but the more I look at the case the less that explanation holds. Forty hours is not nothing. The notes are detailed. If the knowledge had consisted of steps — do this, then this, at this angle — the footage would have preserved it, because steps are exactly what a camera captures. The distinction that matters here is not between skilled and unskilled work but between knowledge that can be stated and knowledge that can only be shown, and beneath even that, knowledge that cannot reliably be shown either, because it lives in a judgement made fresh at every stone.\n\nConsider what the final polish actually involves. The polisher reads the steel — its hardness, the way a particular billet takes an edge, the faint grain left by a smith dead two centuries ago — and adjusts pressure continuously in response to what the surface is telling him under his fingers. None of this is a rule. It is a perceptual skill, a trained way of feeling resistance, and it is built up over decades through thousands of incremental corrections, each one a small error caught and adjusted before it became visible. The camera records the hand moving. What it cannot record is the feedback loop inside the hand — the constant, sub-verbal calibration that the movement is merely the outward trace of. You can watch the trace forever and not recover the loop.\n\nThis is why the apprentices are not a counterexample but the heart of the matter. Both trained under him for years; neither reached the level at which the steel talks back. Apprenticeship transmits this kind of knowledge not by explanation but by a long sequence of corrected attempts — the master watches, the student fails, the master adjusts, and very slowly the student's hand learns what no one ever puts into words. That process is brutally slow and has a high failure rate even when it works, and Toshiro, by the time he had students worth teaching, was old, ill, and short of the years the transmission needed. The lineage did not break because no one tried. It broke because the thing being passed down can only be passed at the speed of a nervous system, and there was not enough time left.\n\nCould better documentation have saved it? Here I want to hedge carefully. Richer records would not have hurt, and in some crafts — ones nearer the stateable end of the spectrum — they plainly help; a recipe, after all, transmits a great deal. But there is a ceiling, and this craft sat above it. Past a certain point, documentation suffers steep diminishing returns, because what is hardest to capture is precisely what is hardest to perform, and for the same reason: it is the part that resists being put into any form outside a trained body. To imagine that more footage would have preserved the polish is to assume the knowledge was, at bottom, explicit and merely badly recorded. The evidence — the dutiful records, the failed apprentices — points the other way.\n\nSo my conclusion is qualified rather than mournful. Some loss here was contingent: a few more healthy years, an earlier start, and the lineage might have held. But some of it was structural, written into the nature of a knowledge that exists only as a living capacity and not as anything a body can leave behind. We are right to film these old masters; the footage is a kind of homage, and now and then it lets a determined successor reconstruct an approximation. We are wrong to believe the filming is preservation. What the camera keeps is the residue of the skill, never the skill, and the difference between the two is the whole of what dies.",
   "sampleAnnotations": [
-    {"phrase": "he was, by the reckoning of the few who still cared, the last man who could put the final polish on a particular school of long sword", "meaningVi": "theo cách tính của số ít người còn quan tâm, ông là người cuối cùng có thể đánh nước bóng cuối cùng cho một dòng kiếm dài cụ thể"},
-    {"phrase": "shot by a regional museum that knew what it was losing", "meaningVi": "do một bảo tàng vùng quay lại, một bảo tàng hiểu mình đang đánh mất điều gì"},
-    {"phrase": "in the form he practised it, is gone", "meaningVi": "ở dạng mà ông thực hành nó, đã mất"},
-    {"phrase": "what that survival of the records, alongside the death of the skill, tells us", "meaningVi": "việc các tư liệu còn lại, song song với cái chết của kỹ năng, nói lên điều gì với ta"},
-    {"phrase": "It is tempting to call this a failure of record-keeping", "meaningVi": "Thật cám dỗ khi gọi đây là một thất bại của việc lưu trữ"},
-    {"phrase": "because steps are exactly what a camera captures", "meaningVi": "vì các bước thao tác chính là thứ máy quay nắm bắt được"},
-    {"phrase": "knowledge that can be stated and knowledge that can only be shown", "meaningVi": "tri thức có thể nói ra và tri thức chỉ có thể được trình diễn cho thấy"},
-    {"phrase": "it lives in a judgement made fresh at every stone", "meaningVi": "nó nằm trong một phán đoán được tạo ra mới mẻ ở mỗi viên đá mài"},
-    {"phrase": "The polisher reads the steel", "meaningVi": "Người đánh bóng đọc được chất thép"},
-    {"phrase": "the faint grain left by a smith dead two centuries ago", "meaningVi": "thớ thép mờ nhạt do một người thợ rèn đã chết hai thế kỷ trước để lại"},
-    {"phrase": "It is a perceptual skill, a trained way of feeling resistance", "meaningVi": "Đó là một kỹ năng tri giác, một cách cảm nhận lực cản đã được rèn luyện"},
-    {"phrase": "thousands of incremental corrections", "meaningVi": "hàng nghìn lần sửa sai từng chút một"},
-    {"phrase": "the feedback loop inside the hand", "meaningVi": "vòng phản hồi bên trong bàn tay"},
-    {"phrase": "the movement is merely the outward trace of", "meaningVi": "động tác chỉ là dấu vết bên ngoài của nó"},
-    {"phrase": "You can watch the trace forever and not recover the loop", "meaningVi": "Bạn có thể xem cái dấu vết ấy mãi mãi mà không lấy lại được cái vòng phản hồi"},
-    {"phrase": "the apprentices are not a counterexample but the heart of the matter", "meaningVi": "các học trò không phải là phản ví dụ mà chính là cốt lõi của vấn đề"},
-    {"phrase": "neither reached the level at which the steel talks back", "meaningVi": "không ai trong hai người đạt tới mức mà chất thép biết đáp lời"},
-    {"phrase": "a long sequence of corrected attempts", "meaningVi": "một chuỗi dài những lần thử được sửa sai"},
-    {"phrase": "the student's hand learns what no one ever puts into words", "meaningVi": "bàn tay người học trò học được điều mà không ai từng diễn đạt thành lời"},
-    {"phrase": "can only be passed at the speed of a nervous system", "meaningVi": "chỉ có thể được truyền đi với tốc độ của một hệ thần kinh"},
-    {"phrase": "there was not enough time left", "meaningVi": "không còn đủ thời gian"},
-    {"phrase": "Here I want to hedge carefully", "meaningVi": "Ở đây tôi muốn nói dè dặt một cách cẩn trọng"},
-    {"phrase": "a recipe, after all, transmits a great deal", "meaningVi": "suy cho cùng, một công thức nấu ăn truyền đạt được rất nhiều"},
-    {"phrase": "documentation suffers steep diminishing returns", "meaningVi": "việc ghi chép tư liệu chịu sự giảm lợi ích rất dốc"},
-    {"phrase": "what is hardest to capture is precisely what is hardest to perform", "meaningVi": "thứ khó nắm bắt nhất lại đúng là thứ khó thực hiện nhất"},
-    {"phrase": "is to assume the knowledge was, at bottom, explicit and merely badly recorded", "meaningVi": "là giả định rằng tri thức ấy, về căn bản, là tường minh và chỉ bị ghi lại tồi"},
-    {"phrase": "So my conclusion is qualified rather than mournful", "meaningVi": "Vậy nên kết luận của tôi mang tính dè dặt chứ không phải bi thương"},
-    {"phrase": "Some loss here was contingent", "meaningVi": "Một phần mất mát ở đây là do hoàn cảnh ngẫu nhiên"},
-    {"phrase": "some of it was structural", "meaningVi": "một phần khác mang tính cấu trúc"},
-    {"phrase": "the footage is a kind of homage", "meaningVi": "đoạn phim là một kiểu tri ân"},
-    {"phrase": "What the camera keeps is the residue of the skill, never the skill", "meaningVi": "Cái máy quay giữ lại là phần cặn của kỹ năng, không bao giờ là chính kỹ năng"},
-    {"phrase": "the difference between the two is the whole of what dies", "meaningVi": "sự khác biệt giữa hai thứ đó chính là toàn bộ những gì chết đi"}
+    {
+      "phrase": "he was, by the reckoning of the few who still cared, the last man who could put the final polish on a particular school of long sword",
+      "meaningVi": "theo cách tính của số ít người còn quan tâm, ông là người cuối cùng có thể đánh nước bóng cuối cùng cho một dòng kiếm dài cụ thể"
+    },
+    {
+      "phrase": "shot by a regional museum that knew what it was losing",
+      "meaningVi": "do một bảo tàng vùng quay lại, một bảo tàng hiểu mình đang đánh mất điều gì"
+    },
+    {
+      "phrase": "in the form he practised it, is gone",
+      "meaningVi": "ở dạng mà ông thực hành nó, đã mất"
+    },
+    {
+      "phrase": "what that survival of the records, alongside the death of the skill, tells us",
+      "meaningVi": "việc các tư liệu còn lại, song song với cái chết của kỹ năng, nói lên điều gì với ta"
+    },
+    {
+      "phrase": "It is tempting to call this a failure of record-keeping",
+      "meaningVi": "Thật cám dỗ khi gọi đây là một thất bại của việc lưu trữ"
+    },
+    {
+      "phrase": "because steps are exactly what a camera captures",
+      "meaningVi": "vì các bước thao tác chính là thứ máy quay nắm bắt được"
+    },
+    {
+      "phrase": "knowledge that can be stated and knowledge that can only be shown",
+      "meaningVi": "tri thức có thể nói ra và tri thức chỉ có thể được trình diễn cho thấy"
+    },
+    {
+      "phrase": "it lives in a judgement made fresh at every stone",
+      "meaningVi": "nó nằm trong một phán đoán được tạo ra mới mẻ ở mỗi viên đá mài"
+    },
+    {
+      "phrase": "The polisher reads the steel",
+      "meaningVi": "Người đánh bóng đọc được chất thép"
+    },
+    {
+      "phrase": "the faint grain left by a smith dead two centuries ago",
+      "meaningVi": "thớ thép mờ nhạt do một người thợ rèn đã chết hai thế kỷ trước để lại"
+    },
+    {
+      "phrase": "It is a perceptual skill, a trained way of feeling resistance",
+      "meaningVi": "Đó là một kỹ năng tri giác, một cách cảm nhận lực cản đã được rèn luyện"
+    },
+    {
+      "phrase": "thousands of incremental corrections",
+      "meaningVi": "hàng nghìn lần sửa sai từng chút một"
+    },
+    {
+      "phrase": "the feedback loop inside the hand",
+      "meaningVi": "vòng phản hồi bên trong bàn tay"
+    },
+    {
+      "phrase": "the movement is merely the outward trace of",
+      "meaningVi": "động tác chỉ là dấu vết bên ngoài của nó"
+    },
+    {
+      "phrase": "You can watch the trace forever and not recover the loop",
+      "meaningVi": "Bạn có thể xem cái dấu vết ấy mãi mãi mà không lấy lại được cái vòng phản hồi"
+    },
+    {
+      "phrase": "the apprentices are not a counterexample but the heart of the matter",
+      "meaningVi": "các học trò không phải là phản ví dụ mà chính là cốt lõi của vấn đề"
+    },
+    {
+      "phrase": "neither reached the level at which the steel talks back",
+      "meaningVi": "không ai trong hai người đạt tới mức mà chất thép biết đáp lời"
+    },
+    {
+      "phrase": "a long sequence of corrected attempts",
+      "meaningVi": "một chuỗi dài những lần thử được sửa sai"
+    },
+    {
+      "phrase": "the student's hand learns what no one ever puts into words",
+      "meaningVi": "bàn tay người học trò học được điều mà không ai từng diễn đạt thành lời"
+    },
+    {
+      "phrase": "can only be passed at the speed of a nervous system",
+      "meaningVi": "chỉ có thể được truyền đi với tốc độ của một hệ thần kinh"
+    },
+    {
+      "phrase": "there was not enough time left",
+      "meaningVi": "không còn đủ thời gian"
+    },
+    {
+      "phrase": "Here I want to hedge carefully",
+      "meaningVi": "Ở đây tôi muốn nói dè dặt một cách cẩn trọng"
+    },
+    {
+      "phrase": "a recipe, after all, transmits a great deal",
+      "meaningVi": "suy cho cùng, một công thức nấu ăn truyền đạt được rất nhiều"
+    },
+    {
+      "phrase": "documentation suffers steep diminishing returns",
+      "meaningVi": "việc ghi chép tư liệu chịu sự giảm lợi ích rất dốc"
+    },
+    {
+      "phrase": "what is hardest to capture is precisely what is hardest to perform",
+      "meaningVi": "thứ khó nắm bắt nhất lại đúng là thứ khó thực hiện nhất"
+    },
+    {
+      "phrase": "is to assume the knowledge was, at bottom, explicit and merely badly recorded",
+      "meaningVi": "là giả định rằng tri thức ấy, về căn bản, là tường minh và chỉ bị ghi lại tồi"
+    },
+    {
+      "phrase": "So my conclusion is qualified rather than mournful",
+      "meaningVi": "Vậy nên kết luận của tôi mang tính dè dặt chứ không phải bi thương"
+    },
+    {
+      "phrase": "Some loss here was contingent",
+      "meaningVi": "Một phần mất mát ở đây là do hoàn cảnh ngẫu nhiên"
+    },
+    {
+      "phrase": "some of it was structural",
+      "meaningVi": "một phần khác mang tính cấu trúc"
+    },
+    {
+      "phrase": "the footage is a kind of homage",
+      "meaningVi": "đoạn phim là một kiểu tri ân"
+    },
+    {
+      "phrase": "What the camera keeps is the residue of the skill, never the skill",
+      "meaningVi": "Cái máy quay giữ lại là phần cặn của kỹ năng, không bao giờ là chính kỹ năng"
+    },
+    {
+      "phrase": "the difference between the two is the whole of what dies",
+      "meaningVi": "sự khác biệt giữa hai thứ đó chính là toàn bộ những gì chết đi"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -100,12 +308,12 @@
       "id": "q1",
       "prompt": "What is the central puzzle the essay sets out to analyse?",
       "options": [
-        "Why an obscure skill became unpopular with the public.",
         "Why the craft died even though apprentices, footage, and notes survived, and what that reveals about the kind of knowledge it was.",
+        "Why an obscure skill became unpopular with the public.",
         "Whether sword polishing is more difficult than sword forging.",
         "How museums decide which crafts to film."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The first paragraph states the puzzle: the craft faded despite the records, and the essay asks what kind of knowledge that implies.",
       "hint": "Look at what the writer says the puzzle is and is not."
     },
@@ -127,11 +335,11 @@
       "prompt": "Why does the essay say the camera cannot preserve the craft?",
       "options": [
         "Because the footage was too low in resolution.",
-        "Because it records the hand's movement but not the internal feedback loop that the movement is only the outward trace of.",
         "Because the museum lost most of the tapes.",
+        "Because it records the hand's movement but not the internal feedback loop that the movement is only the outward trace of.",
         "Because the polisher worked too fast to film."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The third paragraph: the camera captures the trace, not the 'feedback loop inside the hand'.",
       "hint": "Distinguish the outward movement from what drives it."
     },
@@ -140,11 +348,11 @@
       "prompt": "Why are the apprentices described as 'the heart of the matter' rather than a counterexample?",
       "options": [
         "Because they eventually surpassed their master.",
-        "Because their years of training without reaching mastery show the knowledge transmits only through slow corrected practice, for which there was no time.",
         "Because they refused to learn properly.",
-        "Because they preferred forging to polishing."
+        "Because they preferred forging to polishing.",
+        "Because their years of training without reaching mastery show the knowledge transmits only through slow corrected practice, for which there was no time."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The fourth paragraph uses the failed apprenticeship to prove the transmission is slow and time-bound, not a documentation gap.",
       "hint": "What does the apprentices' failure demonstrate about how the knowledge passes?"
     },
@@ -152,12 +360,12 @@
       "id": "q5",
       "prompt": "Which option uses a cleft/pseudo-cleft structure for analytical emphasis, as in the grammar notes?",
       "options": [
-        "The camera records the hand.",
         "What it cannot record is the feedback loop inside the hand.",
+        "The camera records the hand.",
         "The hand moves while the steel responds.",
         "Polishing requires great patience and skill."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'What it cannot record is…' is the pseudo-cleft pattern that postpones and emphasises the key point.",
       "hint": "Look for the clause that begins with 'What…' and emphasises the predicate."
     },
@@ -179,11 +387,11 @@
       "prompt": "Which option best continues 'Some loss here was contingent' with the essay's cohesion?",
       "options": [
         "Contingent is a word that means depending on something.",
-        "But some of it was structural, written into the nature of a knowledge that exists only as a living capacity.",
         "Also, the museum was located north of Kyoto.",
+        "But some of it was structural, written into the nature of a knowledge that exists only as a living capacity.",
         "In today's world, many crafts are disappearing fast."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "Option B completes the paired distinction (contingent / structural) the conclusion is built on; the others are definitional, off-topic, or filler.",
       "hint": "The sentence sets up one half of a pair — what completes it?"
     },
@@ -192,11 +400,11 @@
       "prompt": "Which sentence matches the essay's hedged analytical register?",
       "options": [
         "It's totally obvious that filming old guys is a waste of time.",
-        "Past a certain point, documentation suffers steep diminishing returns.",
         "Documentation will never, ever capture anything real, full stop.",
-        "Pursuant to archival best practice, footage constitutes adequate preservation."
+        "Pursuant to archival best practice, footage constitutes adequate preservation.",
+        "Past a certain point, documentation suffers steep diminishing returns."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "Option B asserts a tendency with precise hedging; A is slang, C is absolute, D is bureaucratic and contradicts the essay.",
       "hint": "Look for a measured claim about a tendency, not slang or absolutes."
     },
@@ -204,12 +412,12 @@
       "id": "q9",
       "prompt": "Which paraphrase is closest to 'what is hardest to capture is precisely what is hardest to perform, and for the same reason'?",
       "options": [
-        "Difficult tasks are always difficult to film by coincidence.",
         "The part of the skill that resists documentation is the same part that resists easy performance, because both demand the trained body.",
+        "Difficult tasks are always difficult to film by coincidence.",
         "If something is hard to do, no one will bother recording it.",
         "Performing and recording a craft are unrelated activities."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The line ties the difficulty of recording to the difficulty of doing, both rooted in embodied skill; B captures that, the others miss it.",
       "hint": "Notice the phrase 'for the same reason' — what single cause links the two?"
     },
@@ -231,11 +439,11 @@
       "prompt": "Which option is grammatical, on-topic, and matches the essay's tone?",
       "options": [
         "Basically the polisher just rubs the sword till it's shiny, no big deal.",
-        "The polisher reads the steel and adjusts pressure in response to what the surface is telling him under his fingers.",
         "Henceforth the artisan shall execute friction-based refinement protocols.",
+        "The polisher reads the steel and adjusts pressure in response to what the surface is telling him under his fingers.",
         "Everyone agrees Japanese swords are the best swords ever made."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "Option B is precise and analytical; A trivialises, C is jargon, D is a sweeping unsupported claim.",
       "hint": "Match the careful, descriptive, analytical voice."
     },
@@ -244,11 +452,11 @@
       "prompt": "What does 'it lives in a judgement made fresh at every stone' emphasise?",
       "options": [
         "That the polisher uses a new stone for every sword.",
-        "That the skill is not a fixed rule but a live decision re-made continuously, which is why it resists being recorded.",
         "That the work is repetitive and dull.",
-        "That stones are the most important tool in the craft."
+        "That stones are the most important tool in the craft.",
+        "That the skill is not a fixed rule but a live decision re-made continuously, which is why it resists being recorded."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The phrase stresses that the knowledge is a renewed act of judgement, not a stored procedure.",
       "hint": "Focus on 'made fresh' — what kind of knowledge is being described?"
     },
@@ -256,12 +464,12 @@
       "id": "q13",
       "prompt": "Which sentence correctly uses fronting/inversion for C1 emphasis?",
       "options": [
-        "Not only the footage survives, but also the written notes.",
         "Not only does the footage survive, but the written notes do too.",
+        "Not only the footage survives, but also the written notes.",
         "Only after he died that the loss became clear.",
         "Rarely such a skill is preserved on film."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "After fronted 'Not only', the auxiliary inverts: 'does the footage survive'; the other options mis-form the inversion.",
       "hint": "Check whether the auxiliary correctly inverts after the fronted element."
     },
@@ -283,11 +491,11 @@
       "prompt": "Which paraphrase is closest to 'What the camera keeps is the residue of the skill, never the skill'?",
       "options": [
         "The camera captures the skill perfectly and nothing is lost.",
-        "Film preserves only the leftover traces of the ability, not the living ability itself.",
         "The skill is just leftover residue and was never important.",
+        "Film preserves only the leftover traces of the ability, not the living ability itself.",
         "Cameras should not be used to record crafts."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The line distinguishes the recorded trace from the living capacity; B keeps that, A and C and D distort it.",
       "hint": "Notice the contrast between 'residue' and 'the skill' itself."
     },
@@ -295,12 +503,12 @@
       "id": "q16",
       "prompt": "Which option best fits the gap in C1 register? 'Past a certain point, documentation ___ steep diminishing returns.'",
       "options": [
-        "suffers",
         "gets",
         "does",
-        "makes"
+        "makes",
+        "suffers"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'Suffers diminishing returns' is the established formal collocation; 'gets/does/makes' are wrong register or wrong collocation.",
       "hint": "Which verb formally collocates with 'diminishing returns'?"
     }

@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "The ethics of remembering someone better than they were",
   "summary": "Argue that the common practice of idealising the dead — softening their faults in memory and in speech — is neither simply dishonest nor simply kind, but raises genuine moral questions about the obligations of the living to the dead, to the truth, and to those still living.",
-  "tags": ["Ethics", "Memory", "Relationships"],
+  "tags": [
+    "Ethics",
+    "Memory",
+    "Relationships"
+  ],
   "topic": "The moral complexity of idealising the dead in memory and speech",
   "prompt": "Write a 600–800-word argumentative essay exploring the ethics of remembering someone — a relative, a public figure, a colleague — better than they actually were. You may distinguish between private memory and public commemoration, and between the interests of different parties: the dead, the living, and historical truth. Deploy inversion at least once, a cleft sentence, and a 'granted… even so…' concession. Avoid sentimentality. Treat the question as a genuine moral problem with competing claims.",
   "minWords": 600,
@@ -14,51 +18,181 @@
     "Granted, the dead cannot be harmed by misrepresentation in the way the living can. Even so,…"
   ],
   "hintVocab": [
-    {"phrase": "idealise", "meaningVi": "lý tưởng hoá", "pronunciation": "/aɪˈdɪəlaɪz/"},
-    {"phrase": "commemorative norm", "meaningVi": "chuẩn mực tưởng niệm"},
-    {"phrase": "posthumous reputation", "meaningVi": "danh tiếng sau khi chết"},
-    {"phrase": "moral complexity", "meaningVi": "sự phức tạp đạo đức"},
-    {"phrase": "hagiography", "meaningVi": "sự viết tiểu sử thánh nhân, sự ca ngợi quá mức", "pronunciation": "/ˌhæɡiˈɒɡrəfi/"},
-    {"phrase": "selective memory", "meaningVi": "trí nhớ chọn lọc"},
-    {"phrase": "accountability of the living", "meaningVi": "trách nhiệm giải trình của người còn sống"},
-    {"phrase": "narrative closure", "meaningVi": "sự kết thúc câu chuyện, sự đóng gói câu chuyện"},
-    {"phrase": "moral remainder", "meaningVi": "phần còn lại về đạo đức, những gì đạo đức bỏ lại"},
-    {"phrase": "collateral silencing", "meaningVi": "sự im lặng thứ cấp, làm im lặng những người liên quan"},
-    {"phrase": "irrecoverable", "meaningVi": "không thể phục hồi, không thể lấy lại", "pronunciation": "/ˌɪrɪˈkʌvərəbl/"},
-    {"phrase": "testimonial injustice", "meaningVi": "bất công chứng ngôn, không tin lời chứng của ai đó"},
-    {"phrase": "grief work", "meaningVi": "công việc đau buồn, quá trình xử lý nỗi đau mất mát"},
-    {"phrase": "counterfactual memory", "meaningVi": "trí nhớ phản thực, ký ức về điều lẽ ra đã có thể xảy ra"},
-    {"phrase": "deathbed revisionism", "meaningVi": "sự xét lại tại giường bệnh, thay đổi đánh giá khi ai đó sắp chết"},
-    {"phrase": "estranged relative", "meaningVi": "người thân xa cách"},
-    {"phrase": "epistemic access", "meaningVi": "khả năng tiếp cận nhận thức, quyền biết sự thật"},
-    {"phrase": "beneficiary of silence", "meaningVi": "người hưởng lợi từ sự im lặng"},
-    {"phrase": "moral weight of survival", "meaningVi": "gánh nặng đạo đức của sự sống sót"},
-    {"phrase": "public commemoration", "meaningVi": "sự tưởng niệm công cộng"},
-    {"phrase": "posthumous", "meaningVi": "sau khi chết", "pronunciation": "/ˈpɒstjʊməs/"}
+    {
+      "phrase": "idealise",
+      "meaningVi": "lý tưởng hoá",
+      "pronunciation": "/aɪˈdɪəlaɪz/"
+    },
+    {
+      "phrase": "commemorative norm",
+      "meaningVi": "chuẩn mực tưởng niệm"
+    },
+    {
+      "phrase": "posthumous reputation",
+      "meaningVi": "danh tiếng sau khi chết"
+    },
+    {
+      "phrase": "moral complexity",
+      "meaningVi": "sự phức tạp đạo đức"
+    },
+    {
+      "phrase": "hagiography",
+      "meaningVi": "sự viết tiểu sử thánh nhân, sự ca ngợi quá mức",
+      "pronunciation": "/ˌhæɡiˈɒɡrəfi/"
+    },
+    {
+      "phrase": "selective memory",
+      "meaningVi": "trí nhớ chọn lọc"
+    },
+    {
+      "phrase": "accountability of the living",
+      "meaningVi": "trách nhiệm giải trình của người còn sống"
+    },
+    {
+      "phrase": "narrative closure",
+      "meaningVi": "sự kết thúc câu chuyện, sự đóng gói câu chuyện"
+    },
+    {
+      "phrase": "moral remainder",
+      "meaningVi": "phần còn lại về đạo đức, những gì đạo đức bỏ lại"
+    },
+    {
+      "phrase": "collateral silencing",
+      "meaningVi": "sự im lặng thứ cấp, làm im lặng những người liên quan"
+    },
+    {
+      "phrase": "irrecoverable",
+      "meaningVi": "không thể phục hồi, không thể lấy lại",
+      "pronunciation": "/ˌɪrɪˈkʌvərəbl/"
+    },
+    {
+      "phrase": "testimonial injustice",
+      "meaningVi": "bất công chứng ngôn, không tin lời chứng của ai đó"
+    },
+    {
+      "phrase": "grief work",
+      "meaningVi": "công việc đau buồn, quá trình xử lý nỗi đau mất mát"
+    },
+    {
+      "phrase": "counterfactual memory",
+      "meaningVi": "trí nhớ phản thực, ký ức về điều lẽ ra đã có thể xảy ra"
+    },
+    {
+      "phrase": "deathbed revisionism",
+      "meaningVi": "sự xét lại tại giường bệnh, thay đổi đánh giá khi ai đó sắp chết"
+    },
+    {
+      "phrase": "estranged relative",
+      "meaningVi": "người thân xa cách"
+    },
+    {
+      "phrase": "epistemic access",
+      "meaningVi": "khả năng tiếp cận nhận thức, quyền biết sự thật"
+    },
+    {
+      "phrase": "beneficiary of silence",
+      "meaningVi": "người hưởng lợi từ sự im lặng"
+    },
+    {
+      "phrase": "moral weight of survival",
+      "meaningVi": "gánh nặng đạo đức của sự sống sót"
+    },
+    {
+      "phrase": "public commemoration",
+      "meaningVi": "sự tưởng niệm công cộng"
+    },
+    {
+      "phrase": "posthumous",
+      "meaningVi": "sau khi chết",
+      "pronunciation": "/ˈpɒstjʊməs/"
+    }
   ],
   "sampleText": "Rarely does the moment of a person's death settle the question of who they were — if anything, it reopens it. The eulogy, the obituary, the family gathering around a table where a difficult person's name is now safe to say kindly: these are not neutral acts of remembrance. They are negotiations, conducted under the pressure of grief, propriety, and the presence of others who knew the same person differently. The question of whether to say what one actually remembers, or to say something kinder and less complete, is one that most people face, and almost none examine.\n\nThe case for charitable memory is not trivial. Grief is not a courtroom; the dead cannot defend themselves, clarify a misunderstood action, or contextualise a failure that looks different from the outside than it felt from the inside. A person who was difficult in middle age may have been shaped by circumstances that the bereaved neither knew nor were owed. There is something epistemically honest about the recognition that one's account of another person is always partial, and that death forecloses the possibility of the kind of revision that longer acquaintance might have permitted.\n\nGranted, the dead cannot be harmed by misrepresentation in the way the living can. Even so, the practice of remembering the dead better than they were does not affect only the dead. It affects the living — and in some cases, the living who were most directly harmed by the person being remembered. The child of an abusive parent who watches that parent's eulogy transform them into a figure of warmth and wisdom has not simply been asked to tolerate a social convention. They have been asked to participate in a narrative that renders their own experience unintelligible — that makes the harm they suffered a kind of categorical error, a misreading of a person who was, apparently, nothing like what they experienced.\n\nThis is what the ethics literature sometimes calls collateral silencing: when the idealisation of one person structurally forecloses the testimony of another. The survivor of a difficult or harmful relationship is not simply omitted from the commemorative narrative; they are implicitly contradicted by it. Their account, if offered, would constitute an impiety — a violation of the commemorative norm that protects the dead from the judgements of the living. It is this asymmetry — the dead protected, the living silenced — that makes the ethics of posthumous idealisation more than a question of private sentiment.\n\nThe distinction between private memory and public commemoration matters here. One may, without dishonesty, hold a complicated private memory — acknowledging what was difficult while also attending to what was genuine — without importing that complexity into every public statement. The choice not to enumerate a parent's failures at a funeral is not the same as the choice to celebrate a colonial administrator as a humanitarian on a public monument. The first is a concession to the specific conditions of grief and communal gathering; the second is a historical claim that shapes how future generations understand the past, and that actively marginalises those whose historical experience the celebration distorts.\n\nWhat the ethics of memory requires is not the abolition of charitable remembrance, but the cultivation of what one might call calibrated honesty — an account that does not compress a person into their worst moments, but does not erase the harm they caused from the record either. It is the erasure — the hagiography that converts a flawed person into an unambiguous saint — that does the deepest moral work, because it instructs those who were harmed by that person that their harm was either imagined or deserved. The living owe something to the dead, but they owe something to each other too, and those obligations do not always point in the same direction.",
   "sampleAnnotations": [
-    {"phrase": "Rarely does the moment of a person's death settle the question of who they were", "meaningVi": "Hiếm khi khoảnh khắc một người qua đời giải quyết câu hỏi về họ là ai"},
-    {"phrase": "negotiations, conducted under the pressure of grief, propriety, and the presence of others", "meaningVi": "các cuộc thương lượng, được tiến hành dưới áp lực của nỗi đau, lễ nghi và sự hiện diện của người khác"},
-    {"phrase": "a difficult person's name is now safe to say kindly", "meaningVi": "tên của một người khó tính giờ đây có thể được nhắc đến một cách tử tế"},
-    {"phrase": "death forecloses the possibility of the kind of revision", "meaningVi": "cái chết đóng lại khả năng của loại xét lại"},
-    {"phrase": "Granted, the dead cannot be harmed by misrepresentation in the way the living can", "meaningVi": "Cứ cho là người chết không thể bị tổn hại bởi sự xuyên tạc theo cách người sống có thể"},
-    {"phrase": "Even so, the practice of remembering the dead better than they were does not affect only the dead", "meaningVi": "Dù vậy, thực hành nhớ người chết tốt hơn thực tế không chỉ ảnh hưởng đến người chết"},
-    {"phrase": "renders their own experience unintelligible", "meaningVi": "làm cho trải nghiệm của chính họ trở nên không thể hiểu được"},
-    {"phrase": "a kind of categorical error", "meaningVi": "một loại lỗi phân loại"},
-    {"phrase": "collateral silencing", "meaningVi": "sự im lặng thứ cấp"},
-    {"phrase": "structurally forecloses the testimony of another", "meaningVi": "về mặt cấu trúc đóng lại lời chứng của người khác"},
-    {"phrase": "constitute an impiety", "meaningVi": "cấu thành sự bất kính"},
-    {"phrase": "a violation of the commemorative norm that protects the dead", "meaningVi": "vi phạm chuẩn mực tưởng niệm bảo vệ người chết"},
-    {"phrase": "the dead protected, the living silenced", "meaningVi": "người chết được bảo vệ, người sống bị im lặng"},
-    {"phrase": "the specific conditions of grief and communal gathering", "meaningVi": "các điều kiện cụ thể của nỗi đau và sự tụ họp cộng đồng"},
-    {"phrase": "historical claim that shapes how future generations understand the past", "meaningVi": "tuyên bố lịch sử định hình cách các thế hệ tương lai hiểu quá khứ"},
-    {"phrase": "calibrated honesty", "meaningVi": "sự thành thật được hiệu chỉnh"},
-    {"phrase": "compress a person into their worst moments", "meaningVi": "nén một người vào những khoảnh khắc tệ nhất của họ"},
-    {"phrase": "hagiography that converts a flawed person into an unambiguous saint", "meaningVi": "sự ca ngợi biến một người có khuyết điểm thành một vị thánh rõ ràng"},
-    {"phrase": "their harm was either imagined or deserved", "meaningVi": "tổn hại của họ hoặc là tưởng tượng hoặc là xứng đáng"},
-    {"phrase": "The living owe something to the dead, but they owe something to each other too", "meaningVi": "Người sống nợ người chết điều gì đó, nhưng họ cũng nợ nhau"},
-    {"phrase": "those obligations do not always point in the same direction", "meaningVi": "những nghĩa vụ đó không phải lúc nào cũng chỉ cùng một hướng"}
+    {
+      "phrase": "Rarely does the moment of a person's death settle the question of who they were",
+      "meaningVi": "Hiếm khi khoảnh khắc một người qua đời giải quyết câu hỏi về họ là ai"
+    },
+    {
+      "phrase": "negotiations, conducted under the pressure of grief, propriety, and the presence of others",
+      "meaningVi": "các cuộc thương lượng, được tiến hành dưới áp lực của nỗi đau, lễ nghi và sự hiện diện của người khác"
+    },
+    {
+      "phrase": "a difficult person's name is now safe to say kindly",
+      "meaningVi": "tên của một người khó tính giờ đây có thể được nhắc đến một cách tử tế"
+    },
+    {
+      "phrase": "death forecloses the possibility of the kind of revision",
+      "meaningVi": "cái chết đóng lại khả năng của loại xét lại"
+    },
+    {
+      "phrase": "Granted, the dead cannot be harmed by misrepresentation in the way the living can",
+      "meaningVi": "Cứ cho là người chết không thể bị tổn hại bởi sự xuyên tạc theo cách người sống có thể"
+    },
+    {
+      "phrase": "Even so, the practice of remembering the dead better than they were does not affect only the dead",
+      "meaningVi": "Dù vậy, thực hành nhớ người chết tốt hơn thực tế không chỉ ảnh hưởng đến người chết"
+    },
+    {
+      "phrase": "renders their own experience unintelligible",
+      "meaningVi": "làm cho trải nghiệm của chính họ trở nên không thể hiểu được"
+    },
+    {
+      "phrase": "a kind of categorical error",
+      "meaningVi": "một loại lỗi phân loại"
+    },
+    {
+      "phrase": "collateral silencing",
+      "meaningVi": "sự im lặng thứ cấp"
+    },
+    {
+      "phrase": "structurally forecloses the testimony of another",
+      "meaningVi": "về mặt cấu trúc đóng lại lời chứng của người khác"
+    },
+    {
+      "phrase": "constitute an impiety",
+      "meaningVi": "cấu thành sự bất kính"
+    },
+    {
+      "phrase": "a violation of the commemorative norm that protects the dead",
+      "meaningVi": "vi phạm chuẩn mực tưởng niệm bảo vệ người chết"
+    },
+    {
+      "phrase": "the dead protected, the living silenced",
+      "meaningVi": "người chết được bảo vệ, người sống bị im lặng"
+    },
+    {
+      "phrase": "the specific conditions of grief and communal gathering",
+      "meaningVi": "các điều kiện cụ thể của nỗi đau và sự tụ họp cộng đồng"
+    },
+    {
+      "phrase": "historical claim that shapes how future generations understand the past",
+      "meaningVi": "tuyên bố lịch sử định hình cách các thế hệ tương lai hiểu quá khứ"
+    },
+    {
+      "phrase": "calibrated honesty",
+      "meaningVi": "sự thành thật được hiệu chỉnh"
+    },
+    {
+      "phrase": "compress a person into their worst moments",
+      "meaningVi": "nén một người vào những khoảnh khắc tệ nhất của họ"
+    },
+    {
+      "phrase": "hagiography that converts a flawed person into an unambiguous saint",
+      "meaningVi": "sự ca ngợi biến một người có khuyết điểm thành một vị thánh rõ ràng"
+    },
+    {
+      "phrase": "their harm was either imagined or deserved",
+      "meaningVi": "tổn hại của họ hoặc là tưởng tượng hoặc là xứng đáng"
+    },
+    {
+      "phrase": "The living owe something to the dead, but they owe something to each other too",
+      "meaningVi": "Người sống nợ người chết điều gì đó, nhưng họ cũng nợ nhau"
+    },
+    {
+      "phrase": "those obligations do not always point in the same direction",
+      "meaningVi": "những nghĩa vụ đó không phải lúc nào cũng chỉ cùng một hướng"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -79,11 +213,11 @@
       "prompt": "Which sentence correctly uses inversion after a negative adverb?",
       "options": [
         "Rarely the moment of a person's death settles the question of who they were.",
-        "Rarely does the moment of a person's death settle the question of who they were.",
         "The moment of death rarely does settle who they were.",
-        "Rarely, a person's death does not settle who they were."
+        "Rarely, a person's death does not settle who they were.",
+        "Rarely does the moment of a person's death settle the question of who they were."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "After 'Rarely', auxiliary 'does' must precede subject 'the moment' — standard subject-auxiliary inversion after a negative fronted adverb.",
       "hint": "Negative fronting triggers subject-auxiliary inversion."
     },
@@ -91,12 +225,12 @@
       "id": "q2",
       "prompt": "What does the essay describe as 'negotiations' in the context of remembering the dead?",
       "options": [
-        "Legal disputes over the estate of a deceased person",
         "The eulogy, obituary, and family gatherings — acts of remembrance conducted under pressure of grief, propriety, and different accounts of the same person",
+        "Legal disputes over the estate of a deceased person",
         "Formal mediation sessions between estranged family members",
         "Diplomatic efforts to protect the reputation of a public figure"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay calls the eulogy, obituary, and family gathering 'negotiations, conducted under the pressure of grief, propriety, and the presence of others who knew the same person differently'.",
       "hint": "Look at what the essay lists as examples of 'negotiations' in the first paragraph."
     },
@@ -118,11 +252,11 @@
       "prompt": "What does 'collateral silencing' mean in the essay?",
       "options": [
         "When a legal order prevents someone from speaking",
-        "When the idealisation of a dead person structurally forecloses the testimony of someone harmed by that person",
         "When a group of people collectively decide not to speak about a difficult subject",
+        "When the idealisation of a dead person structurally forecloses the testimony of someone harmed by that person",
         "When background noise prevents a conversation from being heard"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay defines it as what happens 'when the idealisation of one person structurally forecloses the testimony of another' — the survivor is implicitly contradicted by the celebratory narrative.",
       "hint": "Look for the paragraph beginning 'This is what the ethics literature sometimes calls collateral silencing'."
     },
@@ -131,11 +265,11 @@
       "prompt": "How does the essay distinguish between a private funeral eulogy and a public monument?",
       "options": [
         "Private eulogies are for family; public monuments are for strangers.",
-        "A funeral eulogy is a concession to grief and communal conditions; a public monument makes a historical claim that shapes future understanding and marginalises those the celebration distorts.",
         "Private memory is always less accurate than public commemoration.",
-        "Public monuments are subject to democratic revision; private eulogies are permanent."
+        "Public monuments are subject to democratic revision; private eulogies are permanent.",
+        "A funeral eulogy is a concession to grief and communal conditions; a public monument makes a historical claim that shapes future understanding and marginalises those the celebration distorts."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay argues the funeral eulogy is 'a concession to the specific conditions of grief and communal gathering' while the public monument is 'a historical claim that shapes how future generations understand the past'.",
       "hint": "Look for the paragraph beginning 'The distinction between private memory and public commemoration matters here.'"
     },
@@ -143,12 +277,12 @@
       "id": "q6",
       "prompt": "Which sentence uses a cleft to isolate the key ethical asymmetry?",
       "options": [
-        "This asymmetry — the dead protected, the living silenced — makes the ethics more than private sentiment.",
         "It is this asymmetry — the dead protected, the living silenced — that makes the ethics of posthumous idealisation more than a question of private sentiment.",
+        "This asymmetry — the dead protected, the living silenced — makes the ethics more than private sentiment.",
         "What makes the ethics a public question is the asymmetry between dead and living.",
         "The asymmetry between the dead and the living is what makes this an ethical issue."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'It is X that Y' cleft isolates the asymmetry as the decisive factor; the em-dash appositives 'the dead protected, the living silenced' add compressed structural elegance.",
       "hint": "Look for the 'It is … that …' structure."
     },
@@ -170,11 +304,11 @@
       "prompt": "What does the essay propose as an alternative to both idealisation and harsh retrospective judgement?",
       "options": [
         "A formal process of posthumous review conducted by ethics committees",
-        "Calibrated honesty — an account that neither compresses a person into their worst moments nor erases the harm they caused",
         "A waiting period of ten years before any public commemoration",
+        "Calibrated honesty — an account that neither compresses a person into their worst moments nor erases the harm they caused",
         "Allowing only those who knew the person to speak at commemorative events"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay proposes 'calibrated honesty — an account that does not compress a person into their worst moments, but does not erase the harm they caused from the record either.'",
       "hint": "Look for the paragraph beginning 'What the ethics of memory requires…'"
     },
@@ -183,11 +317,11 @@
       "prompt": "What does the essay say about a survivor who offers a contradictory account of a deceased person at a commemoration?",
       "options": [
         "They are behaving appropriately by insisting on the truth",
-        "Their account 'would constitute an impiety — a violation of the commemorative norm'",
         "They are legally protected in most Western democracies",
-        "They would be supported by the ethics of testimonial justice"
+        "They would be supported by the ethics of testimonial justice",
+        "Their account 'would constitute an impiety — a violation of the commemorative norm'"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay says the survivor's account, 'if offered, would constitute an impiety — a violation of the commemorative norm that protects the dead from the judgements of the living.'",
       "hint": "Look for 'impiety' and 'commemorative norm' near the discussion of the survivor."
     },
@@ -195,12 +329,12 @@
       "id": "q10",
       "prompt": "Which transition correctly signals a concession followed by a counter-argument?",
       "options": [
-        "Even so, the dead cannot be harmed by misrepresentation. Granted, it affects the living.",
         "Granted, the dead cannot be harmed by misrepresentation in the way the living can. Even so, the practice affects the living — and particularly those harmed by the person being remembered.",
+        "Even so, the dead cannot be harmed by misrepresentation. Granted, it affects the living.",
         "Furthermore, the dead cannot be harmed; in addition, the living are affected.",
         "Although the dead cannot be harmed, granted this affects the living."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'Granted… Even so…' is the canonical concede-and-counter structure; the concession acknowledges the opposing point before the pivot reasserts.",
       "hint": "'Granted' must come before 'Even so'."
     },
@@ -222,11 +356,11 @@
       "prompt": "What does 'testimonial injustice' describe in the context of the essay?",
       "options": [
         "A legal failure to call witnesses in a court case",
-        "The situation in which a person's testimony or account is implicitly discredited — here, by a commemorative narrative that contradicts it",
         "Injustice caused by inaccurate historical records",
+        "The situation in which a person's testimony or account is implicitly discredited — here, by a commemorative narrative that contradicts it",
         "The process of gathering testimonials for a posthumous award"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "Testimonial injustice occurs when a person's credibility as a witness is undermined — here, the survivor's account is implicitly invalidated by the idealised narrative of the deceased.",
       "hint": "Think about whose account is being trusted and whose is being discredited."
     },
@@ -236,10 +370,10 @@
       "options": [
         "Obligations to the living always outweigh obligations to the dead",
         "Obligations to the dead always outweigh obligations to the living",
-        "These obligations do not always point in the same direction and must be weighed against each other",
-        "The obligations are identical and can be met by a single standard of honesty"
+        "The obligations are identical and can be met by a single standard of honesty",
+        "These obligations do not always point in the same direction and must be weighed against each other"
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "explanation": "The essay's final sentence: 'The living owe something to the dead, but they owe something to each other too, and those obligations do not always point in the same direction.'",
       "hint": "Look at the essay's final sentence."
     },
@@ -247,12 +381,12 @@
       "id": "q14",
       "prompt": "What does 'posthumous reputation' mean?",
       "options": [
-        "The reputation a person builds before their death",
         "How a person is remembered and regarded after their death",
+        "The reputation a person builds before their death",
         "A legal protection for the names of deceased public figures",
         "The digital footprint a person leaves behind after death"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'Posthumous' means occurring after death — posthumous reputation is the standing and assessment a person receives once they can no longer influence or defend it.",
       "hint": "'Post-' means after; 'humous' relates to the ground/burial — posthumous means after death."
     },

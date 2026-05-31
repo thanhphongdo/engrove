@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "The case against legibility: when institutions work better unmeasured",
   "summary": "Argue that the impulse to make every institution legible to outside measurement can damage the very practices that make institutions work — and that some forms of opacity are protective rather than evasive.",
-  "tags": ["Institutions", "Ethics", "Policy"],
+  "tags": [
+    "Institutions",
+    "Ethics",
+    "Policy"
+  ],
   "topic": "The hidden costs of making institutions fully measurable",
   "prompt": "Write a 600–800-word essay arguing that the demand for full institutional legibility — dashboards, KPIs, performance metrics — can erode the practices it claims to protect. Defend a more nuanced view in which some opacity is structurally necessary. Use inversion at least once, a cleft sentence, and a 'Granted… Even so…' concession. Avoid the language of management consulting and op-ed clichés. Treat measurement as a philosophical question, not a technical one.",
   "minWords": 600,
@@ -14,52 +18,183 @@
     "Granted, opacity has historically served the interests of the powerful. Even so,…"
   ],
   "hintVocab": [
-    {"phrase": "institutional legibility", "meaningVi": "tính có thể đọc được của thể chế"},
-    {"phrase": "performance metrics", "meaningVi": "chỉ số đo lường hiệu suất"},
-    {"phrase": "tacit knowledge", "meaningVi": "tri thức ngầm, không thể nói rõ", "pronunciation": "/ˈtæsɪt/"},
-    {"phrase": "discretionary judgement", "meaningVi": "phán đoán mang tính tuỳ ý"},
-    {"phrase": "audit culture", "meaningVi": "văn hoá kiểm toán"},
-    {"phrase": "proxy measure", "meaningVi": "thước đo gián tiếp"},
-    {"phrase": "Goodhart's law", "meaningVi": "định luật Goodhart — khi thước đo trở thành mục tiêu, nó không còn là thước đo tốt"},
-    {"phrase": "epistemic humility", "meaningVi": "sự khiêm tốn nhận thức"},
-    {"phrase": "structural opacity", "meaningVi": "sự mơ hồ mang tính cơ cấu"},
-    {"phrase": "managerial overreach", "meaningVi": "sự lấn quyền của bộ máy quản lý"},
-    {"phrase": "professional discretion", "meaningVi": "quyền tự quyết chuyên môn"},
-    {"phrase": "quantification", "meaningVi": "sự lượng hoá", "pronunciation": "/ˌkwɒntɪfɪˈkeɪʃən/"},
-    {"phrase": "compliance regime", "meaningVi": "chế độ tuân thủ"},
-    {"phrase": "thin description", "meaningVi": "mô tả nông"},
-    {"phrase": "thick description", "meaningVi": "mô tả dày, giàu bối cảnh"},
-    {"phrase": "perverse incentive", "meaningVi": "động lực ngược, gây hậu quả tiêu cực"},
-    {"phrase": "gaming the metric", "meaningVi": "lách thước đo"},
-    {"phrase": "informal trust", "meaningVi": "lòng tin không chính thức"},
-    {"phrase": "vernacular practice", "meaningVi": "thực hành dân gian, không chính thức"},
-    {"phrase": "the bureaucratic gaze", "meaningVi": "ánh nhìn quan liêu"},
-    {"phrase": "fiduciary judgement", "meaningVi": "phán đoán mang tính uỷ thác"},
-    {"phrase": "load-bearing ambiguity", "meaningVi": "sự mơ hồ có vai trò chịu lực"}
+    {
+      "phrase": "institutional legibility",
+      "meaningVi": "tính có thể đọc được của thể chế"
+    },
+    {
+      "phrase": "performance metrics",
+      "meaningVi": "chỉ số đo lường hiệu suất"
+    },
+    {
+      "phrase": "tacit knowledge",
+      "meaningVi": "tri thức ngầm, không thể nói rõ",
+      "pronunciation": "/ˈtæsɪt/"
+    },
+    {
+      "phrase": "discretionary judgement",
+      "meaningVi": "phán đoán mang tính tuỳ ý"
+    },
+    {
+      "phrase": "audit culture",
+      "meaningVi": "văn hoá kiểm toán"
+    },
+    {
+      "phrase": "proxy measure",
+      "meaningVi": "thước đo gián tiếp"
+    },
+    {
+      "phrase": "Goodhart's law",
+      "meaningVi": "định luật Goodhart — khi thước đo trở thành mục tiêu, nó không còn là thước đo tốt"
+    },
+    {
+      "phrase": "epistemic humility",
+      "meaningVi": "sự khiêm tốn nhận thức"
+    },
+    {
+      "phrase": "structural opacity",
+      "meaningVi": "sự mơ hồ mang tính cơ cấu"
+    },
+    {
+      "phrase": "managerial overreach",
+      "meaningVi": "sự lấn quyền của bộ máy quản lý"
+    },
+    {
+      "phrase": "professional discretion",
+      "meaningVi": "quyền tự quyết chuyên môn"
+    },
+    {
+      "phrase": "quantification",
+      "meaningVi": "sự lượng hoá",
+      "pronunciation": "/ˌkwɒntɪfɪˈkeɪʃən/"
+    },
+    {
+      "phrase": "compliance regime",
+      "meaningVi": "chế độ tuân thủ"
+    },
+    {
+      "phrase": "thin description",
+      "meaningVi": "mô tả nông"
+    },
+    {
+      "phrase": "thick description",
+      "meaningVi": "mô tả dày, giàu bối cảnh"
+    },
+    {
+      "phrase": "perverse incentive",
+      "meaningVi": "động lực ngược, gây hậu quả tiêu cực"
+    },
+    {
+      "phrase": "gaming the metric",
+      "meaningVi": "lách thước đo"
+    },
+    {
+      "phrase": "informal trust",
+      "meaningVi": "lòng tin không chính thức"
+    },
+    {
+      "phrase": "vernacular practice",
+      "meaningVi": "thực hành dân gian, không chính thức"
+    },
+    {
+      "phrase": "the bureaucratic gaze",
+      "meaningVi": "ánh nhìn quan liêu"
+    },
+    {
+      "phrase": "fiduciary judgement",
+      "meaningVi": "phán đoán mang tính uỷ thác"
+    },
+    {
+      "phrase": "load-bearing ambiguity",
+      "meaningVi": "sự mơ hồ có vai trò chịu lực"
+    }
   ],
   "sampleText": "Only rarely does the demand for full legibility leave the practice it scrutinises untouched. A general practitioner in Naples who spent thirty years cultivating a quiet, intuitive judgement about which patients were lying about their pain — and which were not lying but undertelling — will respond differently once asked to score every consultation against fourteen indicators of patient experience. The score will be produced; the file will be complete; the practice will have changed. What the dashboard records is not the original judgement but a translation of it, and translations have costs the original speakers rarely choose to absorb.\n\nThe modern argument for measurement is hard to refuse on its own terms. Public institutions answer to publics; the people who fund a school, a clinic, or a transport authority are entitled to know what their money buys. Audit culture grew in answer to genuine abuses — staff who did not show up, contracts awarded to relatives, money quietly spent on what the recipient preferred rather than what the budget specified. To defend opacity in the abstract is to invite charges of nostalgia for an era whose unaccountability harmed real people. None of that is in dispute here. The question is narrower: what happens when the apparatus designed to expose abuse begins to colonise the practices that were working.\n\nThe answer, in many cases, is that the practice quietly becomes about producing the measurement. A teacher in Hanoi who once shaped a difficult lesson around the particular bewilderments of the room in front of her now writes lesson plans aimed at an inspection rubric she will never see used by a student. A nurse who used to know which patient on the ward needed five extra minutes that morning now records, instead, that she completed her round within the allocated time. The behaviour that the metric was designed to encourage has not occurred; what has occurred is the production of evidence that it has. This is not cynicism. It is the predictable result of Goodhart's law: a measure that becomes a target ceases, in time, to be a measure.\n\nWhat the language of accountability obscures is not the value of oversight but the load-bearing ambiguity that good institutional practice often requires. A magistrate who has learned, over decades, to weigh circumstances that no statute names; an archivist who has decided that certain donations are too dangerous to catalogue while the donor's family still lives; a midwife who has chosen, in a particular case, not to write down what she saw — all of these are exercising a kind of professional discretion that legibility flattens. To make every such judgement traceable is to make it auditable; to make it auditable is, in practice, to discourage it. The exception that cannot be defended in writing tends, over time, not to be made.\n\nIt is the displacement of judgement by metric, not the existence of oversight, that most deserves our scrutiny. Granted, opacity has historically served the interests of the powerful: the closed inquiry, the unrecorded vote, the unminuted meeting. Even so, the assumption that the cure for that abuse is universal legibility mistakes a political problem for an epistemological one. The thing being made legible is not what the institution does; it is a thinner version of what the institution does, optimised for the gaze of a person who was not in the room.\n\nThere is a quieter case to be made for what one might call structural opacity: the principle that certain practices function only when they are not fully observable, and that protecting their conditions of possibility is itself a form of accountability — accountability to the practice, rather than to the dashboard. To make this case is not to defend secrecy as a virtue. It is to insist that the choice is not between transparency and concealment but between different distributions of trust. The auditor's trust is in the metric; the citizen's trust, often, is in the magistrate who declines to follow it.\n\nNone of this is an argument for abandoning measurement. It is an argument for the epistemic humility that measurement, taken seriously, ought to produce. The questions worth asking are narrower than the dashboard allows. What is this metric not seeing, and who is best placed to know? On the answer to that depends whether the audit serves the practice — or hollows it.",
   "sampleAnnotations": [
-    {"phrase": "Only rarely does the demand for full legibility leave the practice it scrutinises untouched", "meaningVi": "Chỉ hiếm khi yêu cầu về tính có thể đọc được hoàn toàn để lại thực hành mà nó xem xét nguyên vẹn"},
-    {"phrase": "a quiet, intuitive judgement", "meaningVi": "một phán đoán trầm lặng, mang tính trực giác"},
-    {"phrase": "translations have costs the original speakers rarely choose to absorb", "meaningVi": "các bản dịch có những chi phí mà người nói gốc hiếm khi chọn gánh chịu"},
-    {"phrase": "audit culture grew in answer to genuine abuses", "meaningVi": "văn hoá kiểm toán hình thành để đáp lại những lạm dụng có thật"},
-    {"phrase": "the apparatus designed to expose abuse begins to colonise the practices that were working", "meaningVi": "bộ máy được thiết kế để vạch trần lạm dụng bắt đầu thuộc địa hoá những thực hành vốn đang vận hành tốt"},
-    {"phrase": "the practice quietly becomes about producing the measurement", "meaningVi": "thực hành lặng lẽ trở thành việc tạo ra phép đo"},
-    {"phrase": "Goodhart's law: a measure that becomes a target ceases, in time, to be a measure", "meaningVi": "định luật Goodhart: một thước đo trở thành mục tiêu, theo thời gian, sẽ ngừng là một thước đo"},
-    {"phrase": "the production of evidence that it has", "meaningVi": "việc tạo ra bằng chứng rằng nó đã xảy ra"},
-    {"phrase": "What the language of accountability obscures is not the value of oversight but the load-bearing ambiguity that good institutional practice often requires", "meaningVi": "Những gì ngôn ngữ về trách nhiệm giải trình che giấu không phải là giá trị của sự giám sát mà là sự mơ hồ chịu lực mà thực hành thể chế tốt thường yêu cầu"},
-    {"phrase": "exercising a kind of professional discretion that legibility flattens", "meaningVi": "thực thi một loại quyền tự quyết chuyên môn mà tính dễ đọc làm dẹt đi"},
-    {"phrase": "The exception that cannot be defended in writing tends, over time, not to be made", "meaningVi": "Ngoại lệ không thể được bảo vệ bằng văn bản, theo thời gian, có xu hướng không được thực hiện"},
-    {"phrase": "It is the displacement of judgement by metric, not the existence of oversight, that most deserves our scrutiny", "meaningVi": "Chính sự thay thế phán đoán bằng thước đo, không phải sự tồn tại của giám sát, mới đáng được xem xét nhất"},
-    {"phrase": "Granted, opacity has historically served the interests of the powerful", "meaningVi": "Cứ cho là sự mơ hồ trong lịch sử đã phục vụ lợi ích của những kẻ quyền lực"},
-    {"phrase": "Even so, the assumption that the cure for that abuse is universal legibility mistakes a political problem for an epistemological one", "meaningVi": "Dù vậy, giả định rằng phương thuốc cho lạm dụng đó là tính dễ đọc phổ quát đã nhầm một vấn đề chính trị với một vấn đề nhận thức luận"},
-    {"phrase": "a thinner version of what the institution does, optimised for the gaze of a person who was not in the room", "meaningVi": "một phiên bản mỏng hơn của những gì thể chế làm, được tối ưu cho ánh nhìn của một người không có mặt trong phòng"},
-    {"phrase": "structural opacity", "meaningVi": "sự mơ hồ mang tính cơ cấu"},
-    {"phrase": "protecting their conditions of possibility is itself a form of accountability", "meaningVi": "bảo vệ những điều kiện khả thi của chúng tự thân nó là một hình thức của trách nhiệm giải trình"},
-    {"phrase": "the choice is not between transparency and concealment but between different distributions of trust", "meaningVi": "lựa chọn không phải giữa minh bạch và che giấu mà giữa những phân phối lòng tin khác nhau"},
-    {"phrase": "the epistemic humility that measurement, taken seriously, ought to produce", "meaningVi": "sự khiêm tốn nhận thức mà phép đo, được xem xét nghiêm túc, lẽ ra phải tạo ra"},
-    {"phrase": "What is this metric not seeing, and who is best placed to know?", "meaningVi": "Thước đo này không nhìn thấy điều gì, và ai có vị trí tốt nhất để biết?"},
-    {"phrase": "whether the audit serves the practice — or hollows it", "meaningVi": "liệu cuộc kiểm toán phục vụ thực hành — hay làm rỗng nó"}
+    {
+      "phrase": "Only rarely does the demand for full legibility leave the practice it scrutinises untouched",
+      "meaningVi": "Chỉ hiếm khi yêu cầu về tính có thể đọc được hoàn toàn để lại thực hành mà nó xem xét nguyên vẹn"
+    },
+    {
+      "phrase": "a quiet, intuitive judgement",
+      "meaningVi": "một phán đoán trầm lặng, mang tính trực giác"
+    },
+    {
+      "phrase": "translations have costs the original speakers rarely choose to absorb",
+      "meaningVi": "các bản dịch có những chi phí mà người nói gốc hiếm khi chọn gánh chịu"
+    },
+    {
+      "phrase": "audit culture grew in answer to genuine abuses",
+      "meaningVi": "văn hoá kiểm toán hình thành để đáp lại những lạm dụng có thật"
+    },
+    {
+      "phrase": "the apparatus designed to expose abuse begins to colonise the practices that were working",
+      "meaningVi": "bộ máy được thiết kế để vạch trần lạm dụng bắt đầu thuộc địa hoá những thực hành vốn đang vận hành tốt"
+    },
+    {
+      "phrase": "the practice quietly becomes about producing the measurement",
+      "meaningVi": "thực hành lặng lẽ trở thành việc tạo ra phép đo"
+    },
+    {
+      "phrase": "Goodhart's law: a measure that becomes a target ceases, in time, to be a measure",
+      "meaningVi": "định luật Goodhart: một thước đo trở thành mục tiêu, theo thời gian, sẽ ngừng là một thước đo"
+    },
+    {
+      "phrase": "the production of evidence that it has",
+      "meaningVi": "việc tạo ra bằng chứng rằng nó đã xảy ra"
+    },
+    {
+      "phrase": "What the language of accountability obscures is not the value of oversight but the load-bearing ambiguity that good institutional practice often requires",
+      "meaningVi": "Những gì ngôn ngữ về trách nhiệm giải trình che giấu không phải là giá trị của sự giám sát mà là sự mơ hồ chịu lực mà thực hành thể chế tốt thường yêu cầu"
+    },
+    {
+      "phrase": "exercising a kind of professional discretion that legibility flattens",
+      "meaningVi": "thực thi một loại quyền tự quyết chuyên môn mà tính dễ đọc làm dẹt đi"
+    },
+    {
+      "phrase": "The exception that cannot be defended in writing tends, over time, not to be made",
+      "meaningVi": "Ngoại lệ không thể được bảo vệ bằng văn bản, theo thời gian, có xu hướng không được thực hiện"
+    },
+    {
+      "phrase": "It is the displacement of judgement by metric, not the existence of oversight, that most deserves our scrutiny",
+      "meaningVi": "Chính sự thay thế phán đoán bằng thước đo, không phải sự tồn tại của giám sát, mới đáng được xem xét nhất"
+    },
+    {
+      "phrase": "Granted, opacity has historically served the interests of the powerful",
+      "meaningVi": "Cứ cho là sự mơ hồ trong lịch sử đã phục vụ lợi ích của những kẻ quyền lực"
+    },
+    {
+      "phrase": "Even so, the assumption that the cure for that abuse is universal legibility mistakes a political problem for an epistemological one",
+      "meaningVi": "Dù vậy, giả định rằng phương thuốc cho lạm dụng đó là tính dễ đọc phổ quát đã nhầm một vấn đề chính trị với một vấn đề nhận thức luận"
+    },
+    {
+      "phrase": "a thinner version of what the institution does, optimised for the gaze of a person who was not in the room",
+      "meaningVi": "một phiên bản mỏng hơn của những gì thể chế làm, được tối ưu cho ánh nhìn của một người không có mặt trong phòng"
+    },
+    {
+      "phrase": "structural opacity",
+      "meaningVi": "sự mơ hồ mang tính cơ cấu"
+    },
+    {
+      "phrase": "protecting their conditions of possibility is itself a form of accountability",
+      "meaningVi": "bảo vệ những điều kiện khả thi của chúng tự thân nó là một hình thức của trách nhiệm giải trình"
+    },
+    {
+      "phrase": "the choice is not between transparency and concealment but between different distributions of trust",
+      "meaningVi": "lựa chọn không phải giữa minh bạch và che giấu mà giữa những phân phối lòng tin khác nhau"
+    },
+    {
+      "phrase": "the epistemic humility that measurement, taken seriously, ought to produce",
+      "meaningVi": "sự khiêm tốn nhận thức mà phép đo, được xem xét nghiêm túc, lẽ ra phải tạo ra"
+    },
+    {
+      "phrase": "What is this metric not seeing, and who is best placed to know?",
+      "meaningVi": "Thước đo này không nhìn thấy điều gì, và ai có vị trí tốt nhất để biết?"
+    },
+    {
+      "phrase": "whether the audit serves the practice — or hollows it",
+      "meaningVi": "liệu cuộc kiểm toán phục vụ thực hành — hay làm rỗng nó"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -80,11 +215,11 @@
       "prompt": "Which sentence correctly applies inversion after 'Only rarely'?",
       "options": [
         "Only rarely the demand for full legibility leaves the practice untouched.",
-        "Only rarely does the demand for full legibility leave the practice it scrutinises untouched.",
         "Only rarely, the demand for legibility is leaving the practice it scrutinises.",
+        "Only rarely does the demand for full legibility leave the practice it scrutinises untouched.",
         "The demand for full legibility only rarely is leaving the practice untouched."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'Only rarely' at the front requires subject-auxiliary inversion: 'does the demand... leave...', not 'the demand... leaves'.",
       "hint": "Negative fronting triggers inversion of the auxiliary."
     },
@@ -93,11 +228,11 @@
       "prompt": "What does the essay say happens to the GP's practice once metrics are introduced?",
       "options": [
         "Nothing — the practice continues as before, only with paperwork added",
-        "The practice changes; what is recorded is a translation of the original judgement, and the translation has costs",
         "The GP becomes more accurate at diagnosis",
-        "Patients begin to trust the GP less"
+        "Patients begin to trust the GP less",
+        "The practice changes; what is recorded is a translation of the original judgement, and the translation has costs"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay argues the practice itself shifts: 'What the dashboard records is not the original judgement but a translation of it, and translations have costs.'",
       "hint": "Look at the first paragraph about the doctor in Naples."
     },
@@ -105,12 +240,12 @@
       "id": "q3",
       "prompt": "What is Goodhart's law as the essay describes it?",
       "options": [
-        "A principle of economics about supply and demand",
         "A measure that becomes a target ceases, in time, to be a measure",
+        "A principle of economics about supply and demand",
         "The rule that all institutions must publish performance data",
         "A law in accounting that requires double-entry bookkeeping"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay defines Goodhart's law as the phenomenon that 'a measure that becomes a target ceases, in time, to be a measure.'",
       "hint": "Look for the Goodhart reference and the immediately following definition."
     },
@@ -132,11 +267,11 @@
       "prompt": "Which correctly applies the 'Granted… Even so…' concession?",
       "options": [
         "Even so, opacity has served the powerful. Granted, the cure is not universal legibility.",
-        "Granted, opacity has historically served the interests of the powerful. Even so, the assumption that the cure for that abuse is universal legibility mistakes a political problem for an epistemological one.",
         "Granted and even so, opacity is bad and good in equal measure.",
+        "Granted, opacity has historically served the interests of the powerful. Even so, the assumption that the cure for that abuse is universal legibility mistakes a political problem for an epistemological one.",
         "Granted that legibility is fine. Even so, opacity is also fine."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'Granted' concedes the historical abuse; 'Even so' pivots to argue that universal legibility is the wrong remedy. The order — concession first, pivot second — is mandatory.",
       "hint": "Concession comes before the counter-move."
     },
@@ -145,11 +280,11 @@
       "prompt": "What does 'load-bearing ambiguity' mean in the essay?",
       "options": [
         "Ambiguity that confuses readers of an institution's reports",
-        "An ambiguity that performs a structural function — the practice cannot stand if it is removed",
         "The legal vagueness that allows courts flexibility",
-        "Ambiguity used by institutions to evade oversight"
+        "Ambiguity used by institutions to evade oversight",
+        "An ambiguity that performs a structural function — the practice cannot stand if it is removed"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The metaphor 'load-bearing' (from architecture) implies that this ambiguity supports the institution structurally — removing it causes collapse.",
       "hint": "Think about what 'load-bearing' means in architecture."
     },
@@ -157,12 +292,12 @@
       "id": "q7",
       "prompt": "What does the essay say about the exception that cannot be defended in writing?",
       "options": [
-        "It will be made more often once it is documented",
         "It tends, over time, not to be made — because professionals retreat from discretion they cannot justify on paper",
+        "It will be made more often once it is documented",
         "It is the only exception worth making",
         "It is always made anyway, regardless of documentation"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay argues: 'The exception that cannot be defended in writing tends, over time, not to be made' — auditability discourages discretion.",
       "hint": "Look in the paragraph about magistrates, archivists, and midwives."
     },
@@ -184,11 +319,11 @@
       "prompt": "What does the essay mean by 'structural opacity'?",
       "options": [
         "A deliberate cover-up of institutional wrongdoing",
-        "The principle that certain practices function only when not fully observable, and that protecting their conditions is itself a form of accountability",
         "The architecture of buildings that contain government records",
+        "The principle that certain practices function only when not fully observable, and that protecting their conditions is itself a form of accountability",
         "The complexity of organisational charts"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay defines structural opacity as a principle — that some practices only work when partly unobserved — and argues that defending it is a form of accountability to the practice itself.",
       "hint": "Look at the paragraph beginning 'There is a quieter case…'"
     },
@@ -197,11 +332,11 @@
       "prompt": "What does 'gaming the metric' mean in the context of this essay?",
       "options": [
         "Playing video games to relax from auditing",
-        "Producing the appearance of the desired behaviour rather than the behaviour itself",
         "Competing with other institutions on metrics",
-        "Using statistical tricks to falsify numbers"
+        "Using statistical tricks to falsify numbers",
+        "Producing the appearance of the desired behaviour rather than the behaviour itself"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay describes nurses who 'record that she completed her round within the allocated time' rather than actually performing the substantive care — producing the evidence rather than the behaviour.",
       "hint": "Look at the description of the nurse on the ward."
     },
@@ -209,12 +344,12 @@
       "id": "q11",
       "prompt": "What is the essay's central distinction in its conclusion about transparency?",
       "options": [
-        "Between transparency and concealment",
         "Between different distributions of trust — the auditor trusts the metric, the citizen often trusts the magistrate who declines to follow it",
+        "Between transparency and concealment",
         "Between full and partial disclosure",
         "Between voluntary and mandatory reporting"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay says: 'the choice is not between transparency and concealment but between different distributions of trust.'",
       "hint": "Look near the end for 'distributions of trust'."
     },
@@ -236,11 +371,11 @@
       "prompt": "Which phrase from the essay names a hedge built into its argument?",
       "options": [
         "'audit culture grew in answer to genuine abuses'",
-        "'in many cases', 'in practice', 'tends, over time'",
         "'colonise the practices that were working'",
+        "'in many cases', 'in practice', 'tends, over time'",
         "'epistemic humility'"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "C1 essays hedge their generalisations with phrases like 'in many cases', 'in practice', 'tends, over time' — refusing to overclaim. The essay's argument is restricted, not categorical.",
       "hint": "Look for the qualifiers that limit the scope of the claim."
     },
@@ -249,11 +384,11 @@
       "prompt": "How does the essay reply to the charge that defending opacity is reactionary?",
       "options": [
         "It dismisses the charge as a political smear",
-        "It accepts that opacity has served the powerful, but argues this does not make universal legibility the right cure — that conflates a political problem with an epistemological one",
         "It argues that nostalgia is in fact a virtue",
-        "It refuses to engage with the objection"
+        "It refuses to engage with the objection",
+        "It accepts that opacity has served the powerful, but argues this does not make universal legibility the right cure — that conflates a political problem with an epistemological one"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The Granted/Even so move makes the concession — opacity has been abused — and then redirects: the abuse is political and the remedy proposed (universal legibility) addresses the wrong category.",
       "hint": "Look at the Granted/Even so paragraph."
     },
@@ -261,12 +396,12 @@
       "id": "q15",
       "prompt": "What is the essay's closing recommendation?",
       "options": [
-        "Abolish all performance metrics",
         "Approach measurement with epistemic humility, asking what the metric is not seeing and who is best placed to know",
+        "Abolish all performance metrics",
         "Continue measurement unchanged but increase its frequency",
         "Replace audit with formal inspection by ministers"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The closing paragraph asks: 'What is this metric not seeing, and who is best placed to know?' — an argument for humility, not abandonment.",
       "hint": "Look at the question the essay ends on."
     }

@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "The case for keeping handwriting in primary schools",
   "summary": "Argue whether primary schools should keep teaching handwriting — and teaching it well — even as keyboards dominate adult life, or accept that handwriting belongs to the past.",
-  "tags": ["Education", "Children", "Technology", "Argument"],
+  "tags": [
+    "Education",
+    "Children",
+    "Technology",
+    "Argument"
+  ],
   "topic": "Whether primary schools should keep teaching handwriting",
   "prompt": "Write a 350–500-word argumentative essay about whether primary schools should keep teaching handwriting — and teaching it well, with daily practice and explicit letter formation — or whether the time would be better spent on keyboarding and other skills. Anchor in a real classroom setting or system. Use a 'what' cleft, a concession ('Granted,'), at least one passive construction, and one participle clause. Take a clear position. Avoid both nostalgia for cursive and techno-progress clichés.",
   "minWords": 350,
@@ -14,50 +19,165 @@
     "Granted, the world an eight-year-old will work in is one in which most writing will be done on a screen, and the case for spending hours on letter formation when…"
   ],
   "hintVocab": [
-    { "phrase": "letter formation", "meaningVi": "việc tạo hình chữ cái" },
-    { "phrase": "fine motor skill", "meaningVi": "kỹ năng vận động tinh" },
-    { "phrase": "cursive script", "meaningVi": "chữ viết tay nối" },
-    { "phrase": "primary school", "meaningVi": "trường tiểu học" },
-    { "phrase": "curriculum reform", "meaningVi": "cải cách chương trình giảng dạy" },
-    { "phrase": "keyboarding", "meaningVi": "đánh máy" },
-    { "phrase": "to drop a subject from the timetable", "meaningVi": "loại bỏ một môn khỏi thời khóa biểu" },
-    { "phrase": "rote practice", "meaningVi": "luyện tập lặp đi lặp lại" },
-    { "phrase": "to copy out", "meaningVi": "chép lại" },
-    { "phrase": "exercise book", "meaningVi": "vở bài tập" },
-    { "phrase": "lined paper", "meaningVi": "giấy có dòng kẻ" },
-    { "phrase": "legibility", "meaningVi": "tính dễ đọc" },
-    { "phrase": "pen grip", "meaningVi": "cách cầm bút" },
-    { "phrase": "memory encoding", "meaningVi": "mã hóa trí nhớ" },
-    { "phrase": "to slow down attention", "meaningVi": "làm chậm sự chú ý" },
-    { "phrase": "muscle memory", "meaningVi": "trí nhớ cơ bắp" },
-    { "phrase": "to compose by hand", "meaningVi": "soạn thảo bằng tay" },
-    { "phrase": "exam booklet", "meaningVi": "tập giấy thi" },
-    { "phrase": "to phase out a skill", "meaningVi": "loại bỏ dần một kỹ năng" },
-    { "phrase": "embodied learning", "meaningVi": "học có liên quan đến cơ thể" },
-    { "phrase": "literacy outcome", "meaningVi": "kết quả về khả năng đọc viết" },
-    { "phrase": "to draft on paper before screen", "meaningVi": "phác thảo trên giấy trước khi chuyển sang màn hình" }
+    {
+      "phrase": "letter formation",
+      "meaningVi": "việc tạo hình chữ cái"
+    },
+    {
+      "phrase": "fine motor skill",
+      "meaningVi": "kỹ năng vận động tinh"
+    },
+    {
+      "phrase": "cursive script",
+      "meaningVi": "chữ viết tay nối"
+    },
+    {
+      "phrase": "primary school",
+      "meaningVi": "trường tiểu học"
+    },
+    {
+      "phrase": "curriculum reform",
+      "meaningVi": "cải cách chương trình giảng dạy"
+    },
+    {
+      "phrase": "keyboarding",
+      "meaningVi": "đánh máy"
+    },
+    {
+      "phrase": "to drop a subject from the timetable",
+      "meaningVi": "loại bỏ một môn khỏi thời khóa biểu"
+    },
+    {
+      "phrase": "rote practice",
+      "meaningVi": "luyện tập lặp đi lặp lại"
+    },
+    {
+      "phrase": "to copy out",
+      "meaningVi": "chép lại"
+    },
+    {
+      "phrase": "exercise book",
+      "meaningVi": "vở bài tập"
+    },
+    {
+      "phrase": "lined paper",
+      "meaningVi": "giấy có dòng kẻ"
+    },
+    {
+      "phrase": "legibility",
+      "meaningVi": "tính dễ đọc"
+    },
+    {
+      "phrase": "pen grip",
+      "meaningVi": "cách cầm bút"
+    },
+    {
+      "phrase": "memory encoding",
+      "meaningVi": "mã hóa trí nhớ"
+    },
+    {
+      "phrase": "to slow down attention",
+      "meaningVi": "làm chậm sự chú ý"
+    },
+    {
+      "phrase": "muscle memory",
+      "meaningVi": "trí nhớ cơ bắp"
+    },
+    {
+      "phrase": "to compose by hand",
+      "meaningVi": "soạn thảo bằng tay"
+    },
+    {
+      "phrase": "exam booklet",
+      "meaningVi": "tập giấy thi"
+    },
+    {
+      "phrase": "to phase out a skill",
+      "meaningVi": "loại bỏ dần một kỹ năng"
+    },
+    {
+      "phrase": "embodied learning",
+      "meaningVi": "học có liên quan đến cơ thể"
+    },
+    {
+      "phrase": "literacy outcome",
+      "meaningVi": "kết quả về khả năng đọc viết"
+    },
+    {
+      "phrase": "to draft on paper before screen",
+      "meaningVi": "phác thảo trên giấy trước khi chuyển sang màn hình"
+    }
   ],
   "sampleText": "Watching a class of eight-year-olds in a Bucharest primary school slowly form the letters of their first sentences with thick pencils, you notice that the pace at which the words appear on the page is roughly the pace at which the children are actually thinking. The forming of an 'a' takes a second. The space between words is considered. A misformed letter is studied and rewritten. None of this is efficient. All of it is, in the most literal sense, learning to write.\n\nWhat handwriting actually teaches a child, beyond the obvious skill of producing a legible page, is something a generation of curriculum reformers has been remarkably comfortable forgetting in the rush to put tablets on every desk. Letter formation forces the slow encoding of sounds into shapes — a one-to-one motor map between phoneme and gesture that typing cannot replicate. Children who learn to write by hand read more accurately, spell more accurately, and recall what they have written more reliably. The evidence is not new. It is simply unwelcome in conversations where the iPad has already been ordered.\n\nGranted, the world an eight-year-old will work in is one in which most writing will be done on a screen, and the case for spending hours on letter formation when keyboarding will dominate adult life can sound like a defence of the candle against the lightbulb. Cursive in particular has lost most of its functional uses, and primary teachers struggling to fit basic numeracy into the day cannot be blamed for treating handwriting as the first item to compress when the timetable shrinks.\n\nEven so, the trade is not what it appears. Time spent learning to form letters is not time taken from typing — it is time taken from a child's neurological investment in literacy itself, and replacing it with keyboarding does not produce equivalent learning. A child who composes by hand drafts more slowly, reads what they have just written more carefully, and revises with more friction than a child whose first writing surface is a screen. The screen produces faster output. The hand produces, on the same task, better thinking.\n\nThe defensible position is that primary schools should retain daily handwriting practice through at least the first four years of school, that legibility and pen grip should be taught explicitly rather than left to chance, and that keyboarding should be introduced later, on top of the manual base, rather than instead of it. A child who can write by hand can also type. A child whose first encounter with composition is a touchscreen can usually do neither well. What is being defended here is not nostalgia. It is the slow surface on which most of literacy actually gets built.",
   "sampleAnnotations": [
-    { "phrase": "Watching a class of eight-year-olds in a Bucharest primary school slowly form the letters of their first sentences with thick pencils, you notice that the pace at which the words appear on the page is roughly the pace at which the children are actually thinking", "meaningVi": "Nhìn một lớp tám tuổi ở một trường tiểu học Bucharest từ từ tạo hình các chữ cái của những câu đầu tiên của họ với những chiếc bút chì dày, bạn nhận ra rằng tốc độ mà các từ xuất hiện trên trang giấy gần bằng tốc độ mà bọn trẻ thực sự đang suy nghĩ" },
-    { "phrase": "The forming of an 'a' takes a second. The space between words is considered. A misformed letter is studied and rewritten", "meaningVi": "Việc tạo hình chữ 'a' mất một giây. Khoảng cách giữa các từ được cân nhắc. Một chữ cái viết sai được nghiên cứu và viết lại" },
-    { "phrase": "None of this is efficient. All of it is, in the most literal sense, learning to write", "meaningVi": "Không điều nào trong đó hiệu quả. Tất cả nó, theo nghĩa đen nhất, là học viết" },
-    { "phrase": "What handwriting actually teaches a child, beyond the obvious skill of producing a legible page, is something a generation of curriculum reformers has been remarkably comfortable forgetting in the rush to put tablets on every desk", "meaningVi": "Điều mà việc viết tay thực sự dạy cho một đứa trẻ, vượt ra ngoài kỹ năng hiển nhiên là sản xuất một trang dễ đọc, là điều mà một thế hệ các nhà cải cách chương trình đã đáng kinh ngạc khi thoải mái quên trong sự vội vã đặt máy tính bảng trên mỗi bàn" },
-    { "phrase": "Letter formation forces the slow encoding of sounds into shapes — a one-to-one motor map between phoneme and gesture that typing cannot replicate", "meaningVi": "Việc tạo hình chữ cái buộc việc mã hóa chậm của âm thanh thành hình dạng — một bản đồ vận động một-một giữa âm vị và cử chỉ mà việc đánh máy không thể sao chép" },
-    { "phrase": "Children who learn to write by hand read more accurately, spell more accurately, and recall what they have written more reliably", "meaningVi": "Trẻ em học viết bằng tay đọc chính xác hơn, đánh vần chính xác hơn, và nhớ lại những gì chúng đã viết đáng tin cậy hơn" },
-    { "phrase": "The evidence is not new. It is simply unwelcome in conversations where the iPad has already been ordered", "meaningVi": "Bằng chứng không mới. Nó chỉ đơn giản là không được hoan nghênh trong các cuộc trò chuyện nơi iPad đã được đặt mua" },
-    { "phrase": "the case for spending hours on letter formation when keyboarding will dominate adult life can sound like a defence of the candle against the lightbulb", "meaningVi": "lập luận cho việc dành hàng giờ vào việc tạo hình chữ cái khi đánh máy sẽ thống trị đời sống người lớn có thể nghe như sự bảo vệ ngọn nến chống lại bóng đèn" },
-    { "phrase": "Cursive in particular has lost most of its functional uses", "meaningVi": "Chữ viết tay nối nói riêng đã mất hầu hết các công dụng chức năng của nó" },
-    { "phrase": "primary teachers struggling to fit basic numeracy into the day cannot be blamed for treating handwriting as the first item to compress when the timetable shrinks", "meaningVi": "các giáo viên tiểu học đang vật lộn để đưa toán học cơ bản vào trong ngày không thể bị đổ lỗi vì coi viết tay là mục đầu tiên để nén lại khi thời khóa biểu thu hẹp" },
-    { "phrase": "the trade is not what it appears. Time spent learning to form letters is not time taken from typing — it is time taken from a child's neurological investment in literacy itself", "meaningVi": "sự đánh đổi không phải là như nó có vẻ. Thời gian dành cho việc học tạo hình chữ cái không phải là thời gian bị lấy từ việc đánh máy — đó là thời gian được lấy từ khoản đầu tư thần kinh của một đứa trẻ vào chính khả năng đọc viết" },
-    { "phrase": "replacing it with keyboarding does not produce equivalent learning", "meaningVi": "thay thế nó bằng đánh máy không tạo ra việc học tương đương" },
-    { "phrase": "A child who composes by hand drafts more slowly, reads what they have just written more carefully, and revises with more friction than a child whose first writing surface is a screen", "meaningVi": "Một đứa trẻ soạn thảo bằng tay phác thảo chậm hơn, đọc những gì chúng vừa viết cẩn thận hơn, và sửa lại với nhiều ma sát hơn so với một đứa trẻ mà bề mặt viết đầu tiên là một màn hình" },
-    { "phrase": "The screen produces faster output. The hand produces, on the same task, better thinking", "meaningVi": "Màn hình tạo ra đầu ra nhanh hơn. Bàn tay tạo ra, trên cùng một nhiệm vụ, tư duy tốt hơn" },
-    { "phrase": "primary schools should retain daily handwriting practice through at least the first four years of school, that legibility and pen grip should be taught explicitly rather than left to chance, and that keyboarding should be introduced later, on top of the manual base, rather than instead of it", "meaningVi": "các trường tiểu học nên giữ luyện tập viết tay hàng ngày trong ít nhất bốn năm đầu của trường, rằng tính dễ đọc và cách cầm bút nên được dạy rõ ràng thay vì để cho ngẫu nhiên, và rằng đánh máy nên được giới thiệu sau, trên nền tảng thủ công, thay vì thay thế nó" },
-    { "phrase": "A child who can write by hand can also type. A child whose first encounter with composition is a touchscreen can usually do neither well", "meaningVi": "Một đứa trẻ có thể viết tay cũng có thể đánh máy. Một đứa trẻ mà cuộc gặp gỡ đầu tiên với việc soạn thảo là một màn hình cảm ứng thường không thể làm tốt cả hai" },
-    { "phrase": "What is being defended here is not nostalgia. It is the slow surface on which most of literacy actually gets built", "meaningVi": "Điều đang được bảo vệ ở đây không phải là nỗi nhớ. Đó là bề mặt chậm mà trên đó hầu hết khả năng đọc viết thực sự được xây dựng" },
-    { "phrase": "embodied learning", "meaningVi": "học có liên quan đến cơ thể" },
-    { "phrase": "to draft on paper before screen", "meaningVi": "phác thảo trên giấy trước khi chuyển sang màn hình" }
+    {
+      "phrase": "Watching a class of eight-year-olds in a Bucharest primary school slowly form the letters of their first sentences with thick pencils, you notice that the pace at which the words appear on the page is roughly the pace at which the children are actually thinking",
+      "meaningVi": "Nhìn một lớp tám tuổi ở một trường tiểu học Bucharest từ từ tạo hình các chữ cái của những câu đầu tiên của họ với những chiếc bút chì dày, bạn nhận ra rằng tốc độ mà các từ xuất hiện trên trang giấy gần bằng tốc độ mà bọn trẻ thực sự đang suy nghĩ"
+    },
+    {
+      "phrase": "The forming of an 'a' takes a second. The space between words is considered. A misformed letter is studied and rewritten",
+      "meaningVi": "Việc tạo hình chữ 'a' mất một giây. Khoảng cách giữa các từ được cân nhắc. Một chữ cái viết sai được nghiên cứu và viết lại"
+    },
+    {
+      "phrase": "None of this is efficient. All of it is, in the most literal sense, learning to write",
+      "meaningVi": "Không điều nào trong đó hiệu quả. Tất cả nó, theo nghĩa đen nhất, là học viết"
+    },
+    {
+      "phrase": "What handwriting actually teaches a child, beyond the obvious skill of producing a legible page, is something a generation of curriculum reformers has been remarkably comfortable forgetting in the rush to put tablets on every desk",
+      "meaningVi": "Điều mà việc viết tay thực sự dạy cho một đứa trẻ, vượt ra ngoài kỹ năng hiển nhiên là sản xuất một trang dễ đọc, là điều mà một thế hệ các nhà cải cách chương trình đã đáng kinh ngạc khi thoải mái quên trong sự vội vã đặt máy tính bảng trên mỗi bàn"
+    },
+    {
+      "phrase": "Letter formation forces the slow encoding of sounds into shapes — a one-to-one motor map between phoneme and gesture that typing cannot replicate",
+      "meaningVi": "Việc tạo hình chữ cái buộc việc mã hóa chậm của âm thanh thành hình dạng — một bản đồ vận động một-một giữa âm vị và cử chỉ mà việc đánh máy không thể sao chép"
+    },
+    {
+      "phrase": "Children who learn to write by hand read more accurately, spell more accurately, and recall what they have written more reliably",
+      "meaningVi": "Trẻ em học viết bằng tay đọc chính xác hơn, đánh vần chính xác hơn, và nhớ lại những gì chúng đã viết đáng tin cậy hơn"
+    },
+    {
+      "phrase": "The evidence is not new. It is simply unwelcome in conversations where the iPad has already been ordered",
+      "meaningVi": "Bằng chứng không mới. Nó chỉ đơn giản là không được hoan nghênh trong các cuộc trò chuyện nơi iPad đã được đặt mua"
+    },
+    {
+      "phrase": "the case for spending hours on letter formation when keyboarding will dominate adult life can sound like a defence of the candle against the lightbulb",
+      "meaningVi": "lập luận cho việc dành hàng giờ vào việc tạo hình chữ cái khi đánh máy sẽ thống trị đời sống người lớn có thể nghe như sự bảo vệ ngọn nến chống lại bóng đèn"
+    },
+    {
+      "phrase": "Cursive in particular has lost most of its functional uses",
+      "meaningVi": "Chữ viết tay nối nói riêng đã mất hầu hết các công dụng chức năng của nó"
+    },
+    {
+      "phrase": "primary teachers struggling to fit basic numeracy into the day cannot be blamed for treating handwriting as the first item to compress when the timetable shrinks",
+      "meaningVi": "các giáo viên tiểu học đang vật lộn để đưa toán học cơ bản vào trong ngày không thể bị đổ lỗi vì coi viết tay là mục đầu tiên để nén lại khi thời khóa biểu thu hẹp"
+    },
+    {
+      "phrase": "the trade is not what it appears. Time spent learning to form letters is not time taken from typing — it is time taken from a child's neurological investment in literacy itself",
+      "meaningVi": "sự đánh đổi không phải là như nó có vẻ. Thời gian dành cho việc học tạo hình chữ cái không phải là thời gian bị lấy từ việc đánh máy — đó là thời gian được lấy từ khoản đầu tư thần kinh của một đứa trẻ vào chính khả năng đọc viết"
+    },
+    {
+      "phrase": "replacing it with keyboarding does not produce equivalent learning",
+      "meaningVi": "thay thế nó bằng đánh máy không tạo ra việc học tương đương"
+    },
+    {
+      "phrase": "A child who composes by hand drafts more slowly, reads what they have just written more carefully, and revises with more friction than a child whose first writing surface is a screen",
+      "meaningVi": "Một đứa trẻ soạn thảo bằng tay phác thảo chậm hơn, đọc những gì chúng vừa viết cẩn thận hơn, và sửa lại với nhiều ma sát hơn so với một đứa trẻ mà bề mặt viết đầu tiên là một màn hình"
+    },
+    {
+      "phrase": "The screen produces faster output. The hand produces, on the same task, better thinking",
+      "meaningVi": "Màn hình tạo ra đầu ra nhanh hơn. Bàn tay tạo ra, trên cùng một nhiệm vụ, tư duy tốt hơn"
+    },
+    {
+      "phrase": "primary schools should retain daily handwriting practice through at least the first four years of school, that legibility and pen grip should be taught explicitly rather than left to chance, and that keyboarding should be introduced later, on top of the manual base, rather than instead of it",
+      "meaningVi": "các trường tiểu học nên giữ luyện tập viết tay hàng ngày trong ít nhất bốn năm đầu của trường, rằng tính dễ đọc và cách cầm bút nên được dạy rõ ràng thay vì để cho ngẫu nhiên, và rằng đánh máy nên được giới thiệu sau, trên nền tảng thủ công, thay vì thay thế nó"
+    },
+    {
+      "phrase": "A child who can write by hand can also type. A child whose first encounter with composition is a touchscreen can usually do neither well",
+      "meaningVi": "Một đứa trẻ có thể viết tay cũng có thể đánh máy. Một đứa trẻ mà cuộc gặp gỡ đầu tiên với việc soạn thảo là một màn hình cảm ứng thường không thể làm tốt cả hai"
+    },
+    {
+      "phrase": "What is being defended here is not nostalgia. It is the slow surface on which most of literacy actually gets built",
+      "meaningVi": "Điều đang được bảo vệ ở đây không phải là nỗi nhớ. Đó là bề mặt chậm mà trên đó hầu hết khả năng đọc viết thực sự được xây dựng"
+    }
   ],
   "sampleGrammarNotes": [
     {

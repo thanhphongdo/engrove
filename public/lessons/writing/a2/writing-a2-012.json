@@ -3,7 +3,11 @@
   "level": "A2",
   "title": "A small thing I learned from my parents",
   "summary": "Narrate the moment when one of your parents taught you something small but lasting.",
-  "tags": ["Family", "Memory", "Childhood"],
+  "tags": [
+    "Family",
+    "Memory",
+    "Childhood"
+  ],
   "topic": "A small thing I learned from my parents",
   "prompt": "Write 150–250 words about one small thing you learned from a parent. Describe the exact moment they taught you. Use past simple and 'when' to mark the moment.",
   "minWords": 150,
@@ -14,30 +18,94 @@
     "I still do this today because…"
   ],
   "hintVocab": [
-    { "phrase": "kitchen table", "meaningVi": "bàn bếp" },
-    { "phrase": "envelope", "meaningVi": "phong bì", "pronunciation": "/ˈenvəloʊp/" },
-    { "phrase": "save money", "meaningVi": "tiết kiệm tiền" },
-    { "phrase": "patience", "meaningVi": "sự kiên nhẫn" },
-    { "phrase": "show me", "meaningVi": "chỉ cho tôi" },
-    { "phrase": "carefully", "meaningVi": "cẩn thận" },
-    { "phrase": "habit", "meaningVi": "thói quen" },
-    { "phrase": "lesson", "meaningVi": "bài học" },
-    { "phrase": "soft voice", "meaningVi": "giọng nhẹ nhàng" },
-    { "phrase": "without saying much", "meaningVi": "không nói nhiều" },
-    { "phrase": "I still do it today", "meaningVi": "đến nay tôi vẫn làm vậy" }
+    {
+      "phrase": "kitchen table",
+      "meaningVi": "bàn bếp"
+    },
+    {
+      "phrase": "envelope",
+      "meaningVi": "phong bì",
+      "pronunciation": "/ˈenvəloʊp/"
+    },
+    {
+      "phrase": "save money",
+      "meaningVi": "tiết kiệm tiền"
+    },
+    {
+      "phrase": "patience",
+      "meaningVi": "sự kiên nhẫn"
+    },
+    {
+      "phrase": "show me",
+      "meaningVi": "chỉ cho tôi"
+    },
+    {
+      "phrase": "carefully",
+      "meaningVi": "cẩn thận"
+    },
+    {
+      "phrase": "habit",
+      "meaningVi": "thói quen"
+    },
+    {
+      "phrase": "lesson",
+      "meaningVi": "bài học"
+    },
+    {
+      "phrase": "soft voice",
+      "meaningVi": "giọng nhẹ nhàng"
+    },
+    {
+      "phrase": "without saying much",
+      "meaningVi": "không nói nhiều"
+    },
+    {
+      "phrase": "I still do it today",
+      "meaningVi": "đến nay tôi vẫn làm vậy"
+    }
   ],
   "sampleText": "I was about ten when my father showed me how to save money. We were sitting at the kitchen table in our small flat in Cairo. He had three white envelopes in front of him. He did not say a long speech. He just put them on the table and looked at me. On the first envelope, he wrote 'needs'. On the second, he wrote 'wants'. On the third, he wrote 'later'. Then he gave me five small coins, all the same. He said, \"Put two coins in 'needs', one in 'wants', and two in 'later'. Every time you have money, do it again.\" That was all. He drank his tea and went back to reading the newspaper. I thought it was a strange game, but I did it anyway. After one year, the 'later' envelope was the heaviest. When my school trip came, I had enough money for the bus and for one big sandwich. I felt very proud, but I felt something bigger too. I felt that I could plan for myself. My father did not say much that day. He used a soft voice and three envelopes. But he gave me a habit that still helps me when I am thirty. The lesson was simple. The patience was the hard part.",
   "sampleAnnotations": [
-    { "phrase": "kitchen table", "meaningVi": "bàn bếp" },
-    { "phrase": "small flat", "meaningVi": "căn hộ nhỏ" },
-    { "phrase": "envelopes", "meaningVi": "những chiếc phong bì" },
-    { "phrase": "save money", "meaningVi": "tiết kiệm tiền" },
-    { "phrase": "small coins", "meaningVi": "những đồng xu nhỏ" },
-    { "phrase": "soft voice", "meaningVi": "giọng nhẹ nhàng" },
-    { "phrase": "heaviest", "meaningVi": "nặng nhất" },
-    { "phrase": "school trip", "meaningVi": "chuyến đi của trường" },
-    { "phrase": "habit", "meaningVi": "thói quen" },
-    { "phrase": "patience", "meaningVi": "sự kiên nhẫn" }
+    {
+      "phrase": "kitchen table",
+      "meaningVi": "bàn bếp"
+    },
+    {
+      "phrase": "small flat",
+      "meaningVi": "căn hộ nhỏ"
+    },
+    {
+      "phrase": "envelopes",
+      "meaningVi": "những chiếc phong bì"
+    },
+    {
+      "phrase": "save money",
+      "meaningVi": "tiết kiệm tiền"
+    },
+    {
+      "phrase": "small coins",
+      "meaningVi": "những đồng xu nhỏ"
+    },
+    {
+      "phrase": "soft voice",
+      "meaningVi": "giọng nhẹ nhàng"
+    },
+    {
+      "phrase": "heaviest",
+      "meaningVi": "nặng nhất"
+    },
+    {
+      "phrase": "school trip",
+      "meaningVi": "chuyến đi của trường"
+    },
+    {
+      "phrase": "habit",
+      "meaningVi": "thói quen"
+    },
+    {
+      "phrase": "patience",
+      "meaningVi": "sự kiên nhẫn"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -57,12 +125,12 @@
       "id": "q1",
       "prompt": "Choose the correct opening with 'when'.",
       "options": [
-        "I was about ten when my father showed me how to save money.",
         "I am about ten when my father shows me how to save money.",
         "I was about ten when my father has shown me how to save money.",
+        "I was about ten when my father showed me how to save money.",
         "When I about ten, my father showed me how to save money."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "Past simple in both clauses for a finished memory.",
       "hint": "Both clauses in past simple."
     },
@@ -70,12 +138,12 @@
       "id": "q2",
       "prompt": "Which sentence uses the past simple of 'show' correctly?",
       "options": [
-        "He showed me three envelopes.",
         "He shown me three envelopes.",
         "He shows me three envelopes.",
-        "He has show me three envelopes."
+        "He has show me three envelopes.",
+        "He showed me three envelopes."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "Past simple of 'show' is 'showed'.",
       "hint": "Regular -ed."
     },
@@ -96,12 +164,12 @@
       "id": "q4",
       "prompt": "Choose the most natural reported instruction.",
       "options": [
-        "He said, \"Put two coins in 'needs'.\"",
         "He said, \"Putting two coins in 'needs'.\"",
+        "He said, \"Put two coins in 'needs'.\"",
         "He said, \"You putted two coins in 'needs'.\"",
         "He said, \"You will to put two coins in 'needs'.\""
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "An imperative ('Put') is the natural form for a direct instruction.",
       "hint": "Direct instructions take the imperative."
     },
@@ -109,12 +177,12 @@
       "id": "q5",
       "prompt": "Which option uses 'but' for contrast?",
       "options": [
-        "I thought it was a strange game, but I did it anyway.",
         "I thought it was a strange game, so I did it anyway.",
         "I thought it was a strange game, because I did it anyway.",
+        "I thought it was a strange game, but I did it anyway.",
         "I thought it was a strange game, while I did it anyway."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'But' shows contrast between thinking it strange and doing it.",
       "hint": "Which linker signals contrast?"
     },
@@ -122,12 +190,12 @@
       "id": "q6",
       "prompt": "Pick the grammatically correct sentence.",
       "options": [
-        "I had enough money for the bus.",
         "I had enough of money for the bus.",
         "I had money enough the bus.",
-        "I had enough money to the bus."
+        "I had enough money to the bus.",
+        "I had enough money for the bus."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'Enough money' (adjective before noun) and 'for + noun' for purpose.",
       "hint": "'Enough' goes before the noun."
     },
@@ -148,12 +216,12 @@
       "id": "q8",
       "prompt": "Choose the most natural phrase.",
       "options": [
-        "He used a soft voice and three envelopes.",
         "He used softly voice and three envelopes.",
+        "He used a soft voice and three envelopes.",
         "He using a soft voice and three envelopes.",
         "He has used soft voice and three envelopes."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "Past simple + adjective 'soft' before the noun 'voice'.",
       "hint": "Adjective before noun."
     },
@@ -161,12 +229,12 @@
       "id": "q9",
       "prompt": "Which sentence correctly uses 'still'?",
       "options": [
-        "He gave me a habit that still helps me when I am thirty.",
         "He gave me a habit that helps still me when I am thirty.",
         "He gave me a habit that helps me still when I am thirty.",
+        "He gave me a habit that still helps me when I am thirty.",
         "He gave me a habit that is still helping me since when I am thirty."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Still' goes before the main verb.",
       "hint": "'Still' usually precedes the main verb."
     },
@@ -174,12 +242,12 @@
       "id": "q10",
       "prompt": "Which closing line is concrete?",
       "options": [
-        "The lesson was simple. The patience was the hard part.",
         "In conclusion, parents teach us important lessons.",
         "Throughout history, families have passed on wisdom.",
-        "It is important to note that saving money is a virtue."
+        "It is important to note that saving money is a virtue.",
+        "The lesson was simple. The patience was the hard part."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "A short, specific contrast lands harder than a generic line.",
       "hint": "Avoid AI clichés."
     }

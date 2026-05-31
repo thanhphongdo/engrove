@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "The case for letting some neighbourhoods grow old",
   "summary": "Defend the idea that not every district needs renovation, gentrification, or polish.",
-  "tags": ["Cities", "Society", "Argument", "Public space"],
+  "tags": [
+    "Cities",
+    "Society",
+    "Argument",
+    "Public space"
+  ],
   "topic": "The case for letting some neighbourhoods grow old",
   "prompt": "Write an essay (350–500 words) defending the position that some neighbourhoods should be allowed to grow old without renovation. Use a concession, a cleft sentence, and at least one international example (Naples' Sanità, Lisbon's Mouraria, or similar).",
   "minWords": 350,
@@ -15,52 +20,181 @@
     "It may well be that some neighbourhoods…"
   ],
   "hintVocab": [
-    { "phrase": "renovation", "meaningVi": "việc cải tạo", "pronunciation": "/ˌren.əˈveɪ.ʃən/" },
-    { "phrase": "gentrification", "meaningVi": "quá trình thượng lưu hóa khu phố", "pronunciation": "/ˌdʒen.trɪ.fɪˈkeɪ.ʃən/" },
-    { "phrase": "façade", "meaningVi": "mặt tiền", "pronunciation": "/fəˈsɑːd/" },
-    { "phrase": "tenement", "meaningVi": "chung cư bình dân cũ" },
-    { "phrase": "weather", "meaningVi": "bị thời tiết bào mòn (động từ)" },
-    { "phrase": "patina", "meaningVi": "lớp bóng do thời gian", "pronunciation": "/ˈpæt.ɪ.nə/" },
-    { "phrase": "rough edges", "meaningVi": "những góc cạnh thô ráp" },
-    { "phrase": "displacement", "meaningVi": "sự bị đẩy ra khỏi nơi ở" },
-    { "phrase": "polished", "meaningVi": "bóng bẩy" },
-    { "phrase": "to be priced out", "meaningVi": "bị đẩy ra do giá tăng" },
-    { "phrase": "to inherit a street", "meaningVi": "thừa hưởng một con phố" },
-    { "phrase": "shopfront", "meaningVi": "mặt tiền cửa hàng" },
-    { "phrase": "stubbornly", "meaningVi": "một cách bướng bỉnh" },
-    { "phrase": "to peel", "meaningVi": "bong tróc" },
-    { "phrase": "courtyard", "meaningVi": "sân trong" },
-    { "phrase": "habit", "meaningVi": "thói quen" },
-    { "phrase": "drift in", "meaningVi": "thấm vào / lan vào" },
-    { "phrase": "what's more", "meaningVi": "hơn nữa" },
-    { "phrase": "in the meantime", "meaningVi": "trong khi đó" },
-    { "phrase": "a working district", "meaningVi": "một khu phố lao động" },
-    { "phrase": "to scrub clean", "meaningVi": "lau chùi sạch sẽ" },
-    { "phrase": "to outlive", "meaningVi": "tồn tại lâu hơn" }
+    {
+      "phrase": "renovation",
+      "meaningVi": "việc cải tạo",
+      "pronunciation": "/ˌren.əˈveɪ.ʃən/"
+    },
+    {
+      "phrase": "gentrification",
+      "meaningVi": "quá trình thượng lưu hóa khu phố",
+      "pronunciation": "/ˌdʒen.trɪ.fɪˈkeɪ.ʃən/"
+    },
+    {
+      "phrase": "façade",
+      "meaningVi": "mặt tiền",
+      "pronunciation": "/fəˈsɑːd/"
+    },
+    {
+      "phrase": "tenement",
+      "meaningVi": "chung cư bình dân cũ"
+    },
+    {
+      "phrase": "weather",
+      "meaningVi": "bị thời tiết bào mòn (động từ)"
+    },
+    {
+      "phrase": "patina",
+      "meaningVi": "lớp bóng do thời gian",
+      "pronunciation": "/ˈpæt.ɪ.nə/"
+    },
+    {
+      "phrase": "rough edges",
+      "meaningVi": "những góc cạnh thô ráp"
+    },
+    {
+      "phrase": "displacement",
+      "meaningVi": "sự bị đẩy ra khỏi nơi ở"
+    },
+    {
+      "phrase": "polished",
+      "meaningVi": "bóng bẩy"
+    },
+    {
+      "phrase": "to be priced out",
+      "meaningVi": "bị đẩy ra do giá tăng"
+    },
+    {
+      "phrase": "to inherit a street",
+      "meaningVi": "thừa hưởng một con phố"
+    },
+    {
+      "phrase": "shopfront",
+      "meaningVi": "mặt tiền cửa hàng"
+    },
+    {
+      "phrase": "stubbornly",
+      "meaningVi": "một cách bướng bỉnh"
+    },
+    {
+      "phrase": "to peel",
+      "meaningVi": "bong tróc"
+    },
+    {
+      "phrase": "courtyard",
+      "meaningVi": "sân trong"
+    },
+    {
+      "phrase": "habit",
+      "meaningVi": "thói quen"
+    },
+    {
+      "phrase": "drift in",
+      "meaningVi": "thấm vào / lan vào"
+    },
+    {
+      "phrase": "what's more",
+      "meaningVi": "hơn nữa"
+    },
+    {
+      "phrase": "in the meantime",
+      "meaningVi": "trong khi đó"
+    },
+    {
+      "phrase": "a working district",
+      "meaningVi": "một khu phố lao động"
+    },
+    {
+      "phrase": "to scrub clean",
+      "meaningVi": "lau chùi sạch sẽ"
+    },
+    {
+      "phrase": "to outlive",
+      "meaningVi": "tồn tại lâu hơn"
+    }
   ],
   "sampleText": "There is a stretch of the Sanità district in Naples where the walls have not been painted in forty years. Plaster peels in slow arcs above the bread shops. Laundry crosses the street on lines so old that the wood pulleys have been smoothed by hands rather than tools. Visitors who come from cleaner cities sometimes feel they have stepped into a film set, and they tend to ask the same question: why has no one fixed it? The answer is more interesting than the question. Some of it has been fixed. Most of it has been left, on purpose.\n\nWhat renovation often removes, without naming it, is the slow accumulation of habit. A patina is not just dirt; it is the shape that hands and shoulders and ladders and bicycles have pressed into a building over decades. Scrub it off and you have a cleaner wall and a thinner street. The shopkeeper who used to lean against that wall, smoking between customers, may still lean — but he will lean against something that no longer remembers him.\n\nGranted, ageing buildings carry real costs. Damp climbs into ceilings; wiring becomes a fire risk; an unfixed staircase can break an old woman's hip. No serious defender of slow neighbourhoods denies this. The argument is not for neglect but for selective restraint: fix the wiring, leave the façade; fix the staircase, leave the courtyard; fix what kills, leave what only ages. The opposite — renovating everything to a single polished standard — does not just change buildings, it changes who can afford to live near them.\n\nWhat's more, the most loved districts in many cities are precisely the ones that escaped a comprehensive plan. Lisbon's Mouraria, Istanbul's Balat, parts of Mexico City's Roma Sur — these neighbourhoods are loved not because they are pretty by design, but because they are slightly wrong in a hundred small ways that no architect would have permitted. Their rough edges are also the reason rents stayed low long enough for grandmothers, immigrants, and small workshops to remain.\n\nIt may well be that some neighbourhoods need to be allowed to grow old the way people do — supported where they hurt, but not erased where they show their age. A city that scrubs every wall clean ends up looking like every other scrubbed city, and the residents who gave it character get priced out of the postcard they were standing in. Some streets earn the right to peel.",
   "sampleAnnotations": [
-    { "phrase": "Plaster peels in slow arcs", "meaningVi": "Lớp vữa bong tróc thành những cung chậm" },
-    { "phrase": "pulleys have been smoothed by hands", "meaningVi": "ròng rọc được làm nhẵn bởi bàn tay" },
-    { "phrase": "on purpose", "meaningVi": "một cách có chủ ý" },
-    { "phrase": "What renovation often removes, without naming it", "meaningVi": "điều mà việc cải tạo thường loại bỏ, mà không gọi tên ra" },
-    { "phrase": "slow accumulation of habit", "meaningVi": "sự tích lũy chậm của thói quen" },
-    { "phrase": "patina", "meaningVi": "lớp bóng thời gian" },
-    { "phrase": "leaned against", "meaningVi": "tựa vào" },
-    { "phrase": "no longer remembers him", "meaningVi": "không còn nhớ ông ấy nữa" },
-    { "phrase": "Granted, ageing buildings carry real costs", "meaningVi": "công nhận, các tòa nhà cũ mang theo những chi phí thật" },
-    { "phrase": "wiring becomes a fire risk", "meaningVi": "hệ thống điện trở thành nguy cơ cháy" },
-    { "phrase": "selective restraint", "meaningVi": "sự kiềm chế có chọn lọc" },
-    { "phrase": "fix what kills, leave what only ages", "meaningVi": "sửa những gì giết người, để lại những gì chỉ già đi" },
-    { "phrase": "polished standard", "meaningVi": "tiêu chuẩn bóng bẩy" },
-    { "phrase": "What's more", "meaningVi": "hơn nữa" },
-    { "phrase": "escaped a comprehensive plan", "meaningVi": "thoát khỏi một kế hoạch toàn diện" },
-    { "phrase": "slightly wrong in a hundred small ways", "meaningVi": "hơi sai theo cả trăm cách nhỏ" },
-    { "phrase": "rough edges", "meaningVi": "những góc cạnh thô ráp" },
-    { "phrase": "It may well be that", "meaningVi": "rất có thể là" },
-    { "phrase": "supported where they hurt", "meaningVi": "được hỗ trợ ở chỗ chúng đau" },
-    { "phrase": "every other scrubbed city", "meaningVi": "mọi thành phố được lau chùi khác" },
-    { "phrase": "earn the right to peel", "meaningVi": "giành được quyền được bong tróc" }
+    {
+      "phrase": "Plaster peels in slow arcs",
+      "meaningVi": "Lớp vữa bong tróc thành những cung chậm"
+    },
+    {
+      "phrase": "pulleys have been smoothed by hands",
+      "meaningVi": "ròng rọc được làm nhẵn bởi bàn tay"
+    },
+    {
+      "phrase": "on purpose",
+      "meaningVi": "một cách có chủ ý"
+    },
+    {
+      "phrase": "What renovation often removes, without naming it",
+      "meaningVi": "điều mà việc cải tạo thường loại bỏ, mà không gọi tên ra"
+    },
+    {
+      "phrase": "slow accumulation of habit",
+      "meaningVi": "sự tích lũy chậm của thói quen"
+    },
+    {
+      "phrase": "patina",
+      "meaningVi": "lớp bóng thời gian"
+    },
+    {
+      "phrase": "no longer remembers him",
+      "meaningVi": "không còn nhớ ông ấy nữa"
+    },
+    {
+      "phrase": "Granted, ageing buildings carry real costs",
+      "meaningVi": "công nhận, các tòa nhà cũ mang theo những chi phí thật"
+    },
+    {
+      "phrase": "wiring becomes a fire risk",
+      "meaningVi": "hệ thống điện trở thành nguy cơ cháy"
+    },
+    {
+      "phrase": "selective restraint",
+      "meaningVi": "sự kiềm chế có chọn lọc"
+    },
+    {
+      "phrase": "fix what kills, leave what only ages",
+      "meaningVi": "sửa những gì giết người, để lại những gì chỉ già đi"
+    },
+    {
+      "phrase": "polished standard",
+      "meaningVi": "tiêu chuẩn bóng bẩy"
+    },
+    {
+      "phrase": "What's more",
+      "meaningVi": "hơn nữa"
+    },
+    {
+      "phrase": "escaped a comprehensive plan",
+      "meaningVi": "thoát khỏi một kế hoạch toàn diện"
+    },
+    {
+      "phrase": "slightly wrong in a hundred small ways",
+      "meaningVi": "hơi sai theo cả trăm cách nhỏ"
+    },
+    {
+      "phrase": "rough edges",
+      "meaningVi": "những góc cạnh thô ráp"
+    },
+    {
+      "phrase": "It may well be that",
+      "meaningVi": "rất có thể là"
+    },
+    {
+      "phrase": "supported where they hurt",
+      "meaningVi": "được hỗ trợ ở chỗ chúng đau"
+    },
+    {
+      "phrase": "every other scrubbed city",
+      "meaningVi": "mọi thành phố được lau chùi khác"
+    },
+    {
+      "phrase": "earn the right to peel",
+      "meaningVi": "giành được quyền được bong tróc"
+    }
   ],
   "sampleGrammarNotes": [
     {

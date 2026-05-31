@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "When restoration becomes erasure: the ethics of restoring old buildings",
   "summary": "Argue that the restoration of old buildings is not a neutral technical act — and that the choice between preservation, restoration, and reconstruction carries ethical weight about what we are willing to let a place mean.",
-  "tags": ["Architecture", "Ethics", "Heritage"],
+  "tags": [
+    "Architecture",
+    "Ethics",
+    "Heritage"
+  ],
   "topic": "When does restoring a historic building become a form of erasing it?",
   "prompt": "Write a 600–800-word essay arguing that restoration is a moral choice, not merely a technical one — and that aggressive restoration can erase the very thing the building was supposed to remember. Use inversion at least once, a cleft sentence, and a 'Granted… Even so…' concession. Reference real cities (Krakow, Naples, Edinburgh, Tbilisi). Avoid the language of tourist-board heritage marketing.",
   "minWords": 600,
@@ -14,52 +18,183 @@
     "Granted, some buildings have decayed beyond what passive preservation can save. Even so,…"
   ],
   "hintVocab": [
-    {"phrase": "restoration", "meaningVi": "sự phục chế"},
-    {"phrase": "preservation", "meaningVi": "sự bảo tồn"},
-    {"phrase": "reconstruction", "meaningVi": "sự xây dựng lại"},
-    {"phrase": "patina", "meaningVi": "lớp gỉ thời gian", "pronunciation": "/ˈpætɪnə/"},
-    {"phrase": "the fabric of the building", "meaningVi": "vải của toà nhà — chất liệu thực"},
-    {"phrase": "minimal intervention", "meaningVi": "sự can thiệp tối thiểu"},
-    {"phrase": "anastylosis", "meaningVi": "phục dựng từ mảnh vỡ gốc", "pronunciation": "/ˌænəstaɪˈləʊsɪs/"},
-    {"phrase": "the Venice Charter", "meaningVi": "Hiến chương Venice — về bảo tồn di tích"},
-    {"phrase": "the original material", "meaningVi": "vật liệu gốc"},
-    {"phrase": "honest repair", "meaningVi": "sự sửa chữa trung thực"},
-    {"phrase": "stylistic restoration", "meaningVi": "phục chế theo phong cách"},
-    {"phrase": "Viollet-le-Duc", "meaningVi": "Viollet-le-Duc — kiến trúc sư phục chế thế kỷ 19 nổi tiếng và gây tranh cãi"},
-    {"phrase": "the patina of age", "meaningVi": "lớp gỉ của thời gian"},
-    {"phrase": "weathering", "meaningVi": "sự bào mòn bởi thời tiết"},
-    {"phrase": "facadism", "meaningVi": "chủ nghĩa giữ mặt tiền"},
-    {"phrase": "historic authenticity", "meaningVi": "tính chân thực lịch sử"},
-    {"phrase": "the museum effect", "meaningVi": "hiệu ứng bảo tàng"},
-    {"phrase": "the lived city", "meaningVi": "thành phố sống"},
-    {"phrase": "the legible scar", "meaningVi": "vết sẹo dễ đọc"},
-    {"phrase": "intentional ageing", "meaningVi": "sự lão hoá có chủ ý"},
-    {"phrase": "heritage tourism", "meaningVi": "du lịch di sản"},
-    {"phrase": "moral custodianship", "meaningVi": "sự bảo hộ đạo đức"}
+    {
+      "phrase": "restoration",
+      "meaningVi": "sự phục chế"
+    },
+    {
+      "phrase": "preservation",
+      "meaningVi": "sự bảo tồn"
+    },
+    {
+      "phrase": "reconstruction",
+      "meaningVi": "sự xây dựng lại"
+    },
+    {
+      "phrase": "patina",
+      "meaningVi": "lớp gỉ thời gian",
+      "pronunciation": "/ˈpætɪnə/"
+    },
+    {
+      "phrase": "the fabric of the building",
+      "meaningVi": "vải của toà nhà — chất liệu thực"
+    },
+    {
+      "phrase": "minimal intervention",
+      "meaningVi": "sự can thiệp tối thiểu"
+    },
+    {
+      "phrase": "anastylosis",
+      "meaningVi": "phục dựng từ mảnh vỡ gốc",
+      "pronunciation": "/ˌænəstaɪˈləʊsɪs/"
+    },
+    {
+      "phrase": "the Venice Charter",
+      "meaningVi": "Hiến chương Venice — về bảo tồn di tích"
+    },
+    {
+      "phrase": "the original material",
+      "meaningVi": "vật liệu gốc"
+    },
+    {
+      "phrase": "honest repair",
+      "meaningVi": "sự sửa chữa trung thực"
+    },
+    {
+      "phrase": "stylistic restoration",
+      "meaningVi": "phục chế theo phong cách"
+    },
+    {
+      "phrase": "Viollet-le-Duc",
+      "meaningVi": "Viollet-le-Duc — kiến trúc sư phục chế thế kỷ 19 nổi tiếng và gây tranh cãi"
+    },
+    {
+      "phrase": "the patina of age",
+      "meaningVi": "lớp gỉ của thời gian"
+    },
+    {
+      "phrase": "weathering",
+      "meaningVi": "sự bào mòn bởi thời tiết"
+    },
+    {
+      "phrase": "facadism",
+      "meaningVi": "chủ nghĩa giữ mặt tiền"
+    },
+    {
+      "phrase": "historic authenticity",
+      "meaningVi": "tính chân thực lịch sử"
+    },
+    {
+      "phrase": "the museum effect",
+      "meaningVi": "hiệu ứng bảo tàng"
+    },
+    {
+      "phrase": "the lived city",
+      "meaningVi": "thành phố sống"
+    },
+    {
+      "phrase": "the legible scar",
+      "meaningVi": "vết sẹo dễ đọc"
+    },
+    {
+      "phrase": "intentional ageing",
+      "meaningVi": "sự lão hoá có chủ ý"
+    },
+    {
+      "phrase": "heritage tourism",
+      "meaningVi": "du lịch di sản"
+    },
+    {
+      "phrase": "moral custodianship",
+      "meaningVi": "sự bảo hộ đạo đức"
+    }
   ],
   "sampleText": "Only rarely is a restoration a neutral technical operation on a building. To decide that a façade will be returned to its 1780 appearance is to decide that the layers laid down between 1780 and the present — the soot of a coal economy, the patches from a wartime occupation, the cheap concrete added by a 1962 owner who could not afford stone — will be removed. The decision is made in the language of repair, and it is filed under conservation. But what is being conserved is a chosen moment, and what is being erased is everything between that moment and now. The building loses, in becoming itself again, the history of having been alive.\n\nThis is not an argument against repair. Roofs leak, mortar fails, lintels crack, and to leave a building to fall in is not preservation but neglect. The serious conservation tradition — codified, after long argument, in the 1964 Venice Charter — distinguishes carefully between minimal intervention (stop the decay), restoration (return to a known state where evidence permits), and reconstruction (build again what is gone). Each carries different obligations. To collapse them all into the single rhetoric of 'restoring' a building is to misdescribe the moral choice being made.\n\nWhat aggressive restoration replaces is not so much wear and damage as the building's record of having been in the world. A nineteenth-century townhouse in Krakow that has its blackened stone scrubbed white, its mismatched windows replaced by uniform reproductions, its 1950s shopfront stripped out to reveal a recreated 'original' arch, is now telling a different story. It is no longer the building that survived occupation and survived socialism; it is the building that those things never happened to. The damage was unsightly. Its removal is also a loss — of evidence that the building, like the city around it, has a biography.\n\nIt is the ethics of which moment to favour, not the existence of decay, that gives restoration its moral character. Restorers cannot conserve every layer; the patches from 1962 and the carved cornice of 1780 cannot both occupy the same physical space. A choice must be made. What the Venice Charter and the more careful contemporary practitioners insist on is that the choice be honest: that repairs be legible as repairs, that new material be distinguishable from old at close inspection, that the building be allowed to wear its history rather than be pressed back into a single chosen moment. The legible scar is more truthful than the seamless reconstruction, even when the reconstruction is technically more accurate.\n\nGranted, some buildings have decayed beyond what passive preservation can save, and to refuse reconstruction is, in those cases, to choose disappearance. The post-war restoration of Warsaw's Old Town, painstakingly rebuilt from photographs and Bellotto's paintings after deliberate destruction, is the case most often cited against the purists. The reconstruction does not pretend; it is openly a reconstruction, and it carries the moral weight of refusal — refusal to let an act of cultural erasure stand. Even so, this is not the case that aggressive restoration typically invokes. The contemporary developer who strips a Naples palazzo of its accumulated history and rebuilds an idealised eighteenth-century façade is not refusing erasure. They are performing it — replacing what the building had become with what they wish it had always been.\n\nThere is also a quieter moral economy here. A neighbourhood whose buildings all wear their wear — Edinburgh's tenements with their slightly settled windows, Tbilisi's wooden balconies leaning quietly into the courtyard — is a neighbourhood that has been honest with its inhabitants about what it has been through. The restored district, by contrast, often becomes a stage set: technically beautiful, morally weightless, populated mostly by people who have come to see it rather than to live in it. The museum effect creeps in not because of any single decision but because each restoration, judged on its own terms, seemed obvious. The cumulative outcome is a place that has been edited into a brochure.\n\nNone of this argues for letting buildings rot. It argues for restoration that knows what it is doing — that distinguishes repair from reconstruction, that prefers legible scars to seamless invention, and that respects the right of a building to have a biography that includes the parts the architects did not foresee. The thing being conserved, if it is to be conserved honestly, is not a moment. It is a continuity.",
   "sampleAnnotations": [
-    {"phrase": "Only rarely is a restoration a neutral technical operation on a building", "meaningVi": "Chỉ hiếm khi một sự phục chế là một hoạt động kỹ thuật trung lập trên một toà nhà"},
-    {"phrase": "the soot of a coal economy", "meaningVi": "muội của một nền kinh tế than"},
-    {"phrase": "the patches from a wartime occupation", "meaningVi": "các mảng vá từ một cuộc chiếm đóng thời chiến"},
-    {"phrase": "filed under conservation", "meaningVi": "được xếp loại dưới mục bảo tồn"},
-    {"phrase": "the building loses, in becoming itself again, the history of having been alive", "meaningVi": "toà nhà mất đi, khi trở lại chính mình, lịch sử của việc đã từng sống"},
-    {"phrase": "the Venice Charter", "meaningVi": "Hiến chương Venice — văn kiện 1964 về bảo tồn di tích"},
-    {"phrase": "minimal intervention (stop the decay), restoration (return to a known state where evidence permits), and reconstruction (build again what is gone)", "meaningVi": "can thiệp tối thiểu (dừng sự phân huỷ), phục chế (trở lại trạng thái đã biết nơi bằng chứng cho phép), và xây dựng lại (xây lại những gì đã mất)"},
-    {"phrase": "What aggressive restoration replaces is not so much wear and damage as the building's record of having been in the world", "meaningVi": "Những gì sự phục chế quyết liệt thay thế không phải là sự hao mòn và hư hỏng mà là bản ghi của toà nhà về việc đã từng ở trong thế giới"},
-    {"phrase": "the building that those things never happened to", "meaningVi": "toà nhà mà những điều đó chưa bao giờ xảy ra với"},
-    {"phrase": "evidence that the building, like the city around it, has a biography", "meaningVi": "bằng chứng rằng toà nhà, giống như thành phố xung quanh, có một tiểu sử"},
-    {"phrase": "It is the ethics of which moment to favour, not the existence of decay, that gives restoration its moral character", "meaningVi": "Chính đạo đức về việc nên ưu ái khoảnh khắc nào, không phải sự tồn tại của sự phân huỷ, mới mang lại cho sự phục chế đặc tính đạo đức"},
-    {"phrase": "the choice be honest: that repairs be legible as repairs, that new material be distinguishable from old at close inspection", "meaningVi": "lựa chọn phải trung thực: rằng các sửa chữa phải đọc được như sửa chữa, rằng vật liệu mới phải có thể phân biệt với vật liệu cũ khi kiểm tra kỹ"},
-    {"phrase": "The legible scar is more truthful than the seamless reconstruction", "meaningVi": "Vết sẹo dễ đọc trung thực hơn sự tái tạo liền mạch"},
-    {"phrase": "Granted, some buildings have decayed beyond what passive preservation can save", "meaningVi": "Cứ cho là một số toà nhà đã phân huỷ vượt quá những gì bảo tồn thụ động có thể cứu"},
-    {"phrase": "the post-war restoration of Warsaw's Old Town", "meaningVi": "sự phục chế sau chiến tranh của Phố Cổ Warsaw"},
-    {"phrase": "it carries the moral weight of refusal", "meaningVi": "nó mang trọng lượng đạo đức của sự từ chối"},
-    {"phrase": "Even so, this is not the case that aggressive restoration typically invokes", "meaningVi": "Dù vậy, đây không phải là trường hợp mà sự phục chế quyết liệt thường viện dẫn"},
-    {"phrase": "replacing what the building had become with what they wish it had always been", "meaningVi": "thay thế những gì toà nhà đã trở thành bằng những gì họ ước nó luôn từng là"},
-    {"phrase": "the museum effect", "meaningVi": "hiệu ứng bảo tàng"},
-    {"phrase": "a place that has been edited into a brochure", "meaningVi": "một nơi đã được biên tập thành một tờ rơi"},
-    {"phrase": "The thing being conserved, if it is to be conserved honestly, is not a moment. It is a continuity", "meaningVi": "Thứ đang được bảo tồn, nếu nó phải được bảo tồn trung thực, không phải là một khoảnh khắc. Đó là một sự liên tục"}
+    {
+      "phrase": "Only rarely is a restoration a neutral technical operation on a building",
+      "meaningVi": "Chỉ hiếm khi một sự phục chế là một hoạt động kỹ thuật trung lập trên một toà nhà"
+    },
+    {
+      "phrase": "the soot of a coal economy",
+      "meaningVi": "muội của một nền kinh tế than"
+    },
+    {
+      "phrase": "the patches from a wartime occupation",
+      "meaningVi": "các mảng vá từ một cuộc chiếm đóng thời chiến"
+    },
+    {
+      "phrase": "filed under conservation",
+      "meaningVi": "được xếp loại dưới mục bảo tồn"
+    },
+    {
+      "phrase": "the building loses, in becoming itself again, the history of having been alive",
+      "meaningVi": "toà nhà mất đi, khi trở lại chính mình, lịch sử của việc đã từng sống"
+    },
+    {
+      "phrase": "the Venice Charter",
+      "meaningVi": "Hiến chương Venice — văn kiện 1964 về bảo tồn di tích"
+    },
+    {
+      "phrase": "minimal intervention (stop the decay), restoration (return to a known state where evidence permits), and reconstruction (build again what is gone)",
+      "meaningVi": "can thiệp tối thiểu (dừng sự phân huỷ), phục chế (trở lại trạng thái đã biết nơi bằng chứng cho phép), và xây dựng lại (xây lại những gì đã mất)"
+    },
+    {
+      "phrase": "What aggressive restoration replaces is not so much wear and damage as the building's record of having been in the world",
+      "meaningVi": "Những gì sự phục chế quyết liệt thay thế không phải là sự hao mòn và hư hỏng mà là bản ghi của toà nhà về việc đã từng ở trong thế giới"
+    },
+    {
+      "phrase": "the building that those things never happened to",
+      "meaningVi": "toà nhà mà những điều đó chưa bao giờ xảy ra với"
+    },
+    {
+      "phrase": "evidence that the building, like the city around it, has a biography",
+      "meaningVi": "bằng chứng rằng toà nhà, giống như thành phố xung quanh, có một tiểu sử"
+    },
+    {
+      "phrase": "It is the ethics of which moment to favour, not the existence of decay, that gives restoration its moral character",
+      "meaningVi": "Chính đạo đức về việc nên ưu ái khoảnh khắc nào, không phải sự tồn tại của sự phân huỷ, mới mang lại cho sự phục chế đặc tính đạo đức"
+    },
+    {
+      "phrase": "the choice be honest: that repairs be legible as repairs, that new material be distinguishable from old at close inspection",
+      "meaningVi": "lựa chọn phải trung thực: rằng các sửa chữa phải đọc được như sửa chữa, rằng vật liệu mới phải có thể phân biệt với vật liệu cũ khi kiểm tra kỹ"
+    },
+    {
+      "phrase": "The legible scar is more truthful than the seamless reconstruction",
+      "meaningVi": "Vết sẹo dễ đọc trung thực hơn sự tái tạo liền mạch"
+    },
+    {
+      "phrase": "Granted, some buildings have decayed beyond what passive preservation can save",
+      "meaningVi": "Cứ cho là một số toà nhà đã phân huỷ vượt quá những gì bảo tồn thụ động có thể cứu"
+    },
+    {
+      "phrase": "the post-war restoration of Warsaw's Old Town",
+      "meaningVi": "sự phục chế sau chiến tranh của Phố Cổ Warsaw"
+    },
+    {
+      "phrase": "it carries the moral weight of refusal",
+      "meaningVi": "nó mang trọng lượng đạo đức của sự từ chối"
+    },
+    {
+      "phrase": "Even so, this is not the case that aggressive restoration typically invokes",
+      "meaningVi": "Dù vậy, đây không phải là trường hợp mà sự phục chế quyết liệt thường viện dẫn"
+    },
+    {
+      "phrase": "replacing what the building had become with what they wish it had always been",
+      "meaningVi": "thay thế những gì toà nhà đã trở thành bằng những gì họ ước nó luôn từng là"
+    },
+    {
+      "phrase": "the museum effect",
+      "meaningVi": "hiệu ứng bảo tàng"
+    },
+    {
+      "phrase": "a place that has been edited into a brochure",
+      "meaningVi": "một nơi đã được biên tập thành một tờ rơi"
+    },
+    {
+      "phrase": "The thing being conserved, if it is to be conserved honestly, is not a moment. It is a continuity",
+      "meaningVi": "Thứ đang được bảo tồn, nếu nó phải được bảo tồn trung thực, không phải là một khoảnh khắc. Đó là một sự liên tục"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -80,11 +215,11 @@
       "prompt": "Which sentence correctly applies inversion after 'Only rarely' with 'be' as the main verb?",
       "options": [
         "Only rarely a restoration is a neutral technical operation.",
-        "Only rarely is a restoration a neutral technical operation on a building.",
         "A restoration only rarely is a neutral technical operation.",
-        "Only rarely it is a restoration a neutral technical operation."
+        "Only rarely it is a restoration a neutral technical operation.",
+        "Only rarely is a restoration a neutral technical operation on a building."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "When 'be' is the main verb and 'Only rarely' fronts the clause, 'is' inverts before the subject 'a restoration' — exactly as in the opening sentence.",
       "hint": "'Be' as main verb still inverts after negative fronting."
     },
@@ -92,12 +227,12 @@
       "id": "q2",
       "prompt": "What is the essay's central observation about the decision to restore a façade to its 1780 appearance?",
       "options": [
-        "It is a routine technical task with no moral weight",
         "It is a decision that everything between 1780 and the present will be erased — and what is being conserved is one chosen moment",
+        "It is a routine technical task with no moral weight",
         "It is the only acceptable approach to historic buildings",
         "It is too expensive to be worthwhile"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay's opening point: restoring to a single past moment is, in effect, erasing all the intervening history. The building 'loses, in becoming itself again, the history of having been alive.'",
       "hint": "Look at the first paragraph for what is removed."
     },
@@ -119,11 +254,11 @@
       "prompt": "Which sentence uses a cleft to relocate the source of moral character in restoration?",
       "options": [
         "The existence of decay gives restoration its moral character.",
-        "It is the ethics of which moment to favour, not the existence of decay, that gives restoration its moral character.",
         "Both decay and ethics give restoration its moral character.",
+        "It is the ethics of which moment to favour, not the existence of decay, that gives restoration its moral character.",
         "Decay is more important than ethics in restoration."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'It is X, not Y, that Z' is a cleft that locates the moral question in a choice (which moment) rather than in a physical fact (decay). The cleft performs the reframing.",
       "hint": "Look for 'It is ... not ... that ...'"
     },
@@ -132,11 +267,11 @@
       "prompt": "Which correctly applies 'Granted… Even so…'?",
       "options": [
         "Even so, some buildings need full reconstruction. Granted, Warsaw is the only example.",
-        "Granted, some buildings have decayed beyond what passive preservation can save. Even so, this is not the case that aggressive restoration typically invokes.",
         "Granted that restoration is always wrong. Even so, sometimes it is right.",
-        "Granted and even so — reconstruction is always justified."
+        "Granted and even so — reconstruction is always justified.",
+        "Granted, some buildings have decayed beyond what passive preservation can save. Even so, this is not the case that aggressive restoration typically invokes."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'Granted' concedes that some reconstructions (like Warsaw's Old Town) are morally justified; 'Even so' restricts the concession's scope — the typical aggressive-restoration case is different.",
       "hint": "Concession then pivot, in the right order."
     },
@@ -144,12 +279,12 @@
       "id": "q6",
       "prompt": "What does the essay say about the post-war restoration of Warsaw's Old Town?",
       "options": [
-        "It was a regrettable error",
         "It is openly a reconstruction, and it carries the moral weight of refusal — refusal to let an act of cultural erasure stand",
+        "It was a regrettable error",
         "It is identical to typical aggressive restoration",
         "It should have been left as ruins"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay treats Warsaw as the case most often cited against purist preservationists — but argues it is a different category: it does not pretend, it refuses erasure, and it carries moral weight that aggressive restorations do not.",
       "hint": "Look at the paragraph naming Warsaw and Bellotto."
     },
@@ -171,11 +306,11 @@
       "prompt": "What does the essay mean by 'the museum effect'?",
       "options": [
         "The increased number of museums in heritage cities",
-        "The cumulative outcome by which a heavily restored district becomes a stage set — beautiful but morally weightless, populated by people who come to see rather than to live",
         "A psychological effect studied by museum educators",
+        "The cumulative outcome by which a heavily restored district becomes a stage set — beautiful but morally weightless, populated by people who come to see rather than to live",
         "The discount given to museum visitors"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay names 'the museum effect' as the gradual transformation of a lived neighbourhood into a stage set, where the cumulative restorations have edited out the conditions of living.",
       "hint": "Look at the paragraph about Edinburgh and Tbilisi versus restored districts."
     },
@@ -184,11 +319,11 @@
       "prompt": "How does the essay describe the contemporary developer who strips a Naples palazzo?",
       "options": [
         "As preserving heritage faithfully",
-        "As replacing what the building had become with what they wish it had always been — performing erasure, not refusing it",
         "As following the Venice Charter scrupulously",
-        "As doing the same thing as the Warsaw restorers"
+        "As doing the same thing as the Warsaw restorers",
+        "As replacing what the building had become with what they wish it had always been — performing erasure, not refusing it"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay distinguishes Warsaw (refusing erasure) from the Naples developer (performing it under the cover of restoration rhetoric).",
       "hint": "Look at the contrast between Warsaw and the Naples palazzo example."
     },
@@ -196,12 +331,12 @@
       "id": "q10",
       "prompt": "What does 'patina' refer to in the essay?",
       "options": [
-        "A type of paint used in restoration",
         "The visible accumulation of age on a building — the staining, weathering, and small alterations that record time",
+        "A type of paint used in restoration",
         "A legal status of historic buildings",
         "The shape of architectural mouldings"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay treats patina (e.g. blackened stone, mismatched windows) as a record of the building's biography — its removal is the loss the essay names.",
       "hint": "Think about what age does to surfaces over time."
     },
@@ -223,11 +358,11 @@
       "prompt": "What does 'stylistic restoration' typically mean in the essay's context?",
       "options": [
         "Choosing a style that is currently fashionable",
-        "A restoration approach (associated with Viollet-le-Duc) that aims to return a building to an idealised stylistic state, often replacing actual historical material with new work in the chosen style",
         "Restoration done by stylists rather than architects",
+        "A restoration approach (associated with Viollet-le-Duc) that aims to return a building to an idealised stylistic state, often replacing actual historical material with new work in the chosen style",
         "A style guide for restoration documents"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The Viollet-le-Duc tradition prioritised stylistic unity over material authenticity — exactly what the essay critiques when it speaks of stripping a Naples palazzo to recreate an idealised façade.",
       "hint": "Look at the implied target of the essay's critique."
     },
@@ -236,11 +371,11 @@
       "prompt": "What does the essay say neighbourhoods that wear their wear are doing?",
       "options": [
         "Failing in their duty to tourists",
-        "Being honest with their inhabitants about what the place has been through",
         "Discouraging investment",
-        "Imitating museum exhibits"
+        "Imitating museum exhibits",
+        "Being honest with their inhabitants about what the place has been through"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay frames un-restored neighbourhoods as honest: Edinburgh's tenements, Tbilisi's leaning balconies tell the inhabitants the truth about what the place has lived through.",
       "hint": "Look for what the lived neighbourhoods communicate."
     },

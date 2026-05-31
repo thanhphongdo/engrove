@@ -1,0 +1,570 @@
+{
+  "id": "speaking-c1-091",
+  "level": "C1",
+  "title": "Designing a Central Bank Digital Currency",
+  "summary": "A central bank governor and a financial journalist debate whether a retail CBDC can reconcile financial inclusion with citizens' privacy.",
+  "topic": "central bank digital currency and financial privacy",
+  "tags": [
+    "Monetary Policy",
+    "Governance",
+    "Privacy"
+  ],
+  "characters": [
+    "Adaora",
+    "Theodore"
+  ],
+  "voices": {
+    "Adaora": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-MichelleNeural"
+    },
+    "Theodore": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-EricNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Theodore",
+      "text": "Governor, your bank has signalled that a retail digital currency is now a question of when, not whether. What persuaded you that the upside outweighs the obvious risks to privacy?"
+    },
+    {
+      "speaker": "Adaora",
+      "text": "Let me be candid: nothing about this is settled, and I would resist anyone who claims otherwise. What tipped the balance was financial inclusion, not technological novelty. Roughly a tenth of our adults remain effectively unbanked, and cash is quietly disappearing beneath their feet."
+    },
+    {
+      "speaker": "Theodore",
+      "text": "Granted, but the unbanked rarely cite the absence of a sovereign app as their grievance. What they fear is a system that records every transaction they ever make."
+    },
+    {
+      "speaker": "Adaora",
+      "text": "That fear is legitimate, and I will not pretend the default architecture is benign. A naively designed ledger would hand the state a panopticon, which is precisely why we are not building one."
+    },
+    {
+      "speaker": "Theodore",
+      "text": "Forgive my scepticism, but every surveillance system in history began as a convenience."
+    },
+    {
+      "speaker": "Adaora",
+      "text": "I take the point, and the safeguard cannot be a mere promise of restraint. We are legislating tiered anonymity, so that low-value payments leave no identifiable trace at all."
+    },
+    {
+      "speaker": "Theodore",
+      "text": "And above that threshold, presumably, the cloak falls away."
+    },
+    {
+      "speaker": "Adaora",
+      "text": "It does, but only under judicial authorisation, never at the discretion of the central bank itself."
+    },
+    {
+      "speaker": "Theodore",
+      "text": "Courts can be leaned upon, and emergencies have a habit of expanding the definition of necessity."
+    },
+    {
+      "speaker": "Adaora",
+      "text": "That is why the privacy guarantees are written into primary legislation, not buried in our operating rules. A future government wanting to weaponise the ledger would have to do so in the open, before parliament."
+    },
+    {
+      "speaker": "Theodore",
+      "text": "There is also the matter of disintermediation, which your own staff have flagged. If citizens hold money directly with you, why would they ever keep deposits at a commercial bank?"
+    },
+    {
+      "speaker": "Adaora",
+      "text": "That risk is real, and an unconstrained CBDC could hollow out the very banks that fund the economy. So we are capping individual holdings and paying no interest, which keeps it a means of payment, not a store of value."
+    },
+    {
+      "speaker": "Theodore",
+      "text": "A cap is elegant on paper, yet in a panic people will scramble to the safest asset regardless of the ceiling."
+    },
+    {
+      "speaker": "Adaora",
+      "text": "Which is why the cap can be tightened in real time, dampening a run rather than accelerating it."
+    },
+    {
+      "speaker": "Theodore",
+      "text": "And what stops a commercial bank from simply offering a better rate to keep its depositors?"
+    },
+    {
+      "speaker": "Adaora",
+      "text": "Nothing at all, and that competitive pressure is a feature, not a flaw, in my view."
+    },
+    {
+      "speaker": "Theodore",
+      "text": "A generous concession, though banks rarely thank a regulator for sharpening their incentives."
+    },
+    {
+      "speaker": "Adaora",
+      "text": "They need not thank me; they need only adapt, as they have to every prior shock."
+    },
+    {
+      "speaker": "Theodore",
+      "text": "You are asking the public to trust an instrument whose controls only become visible in a crisis."
+    },
+    {
+      "speaker": "Adaora",
+      "text": "I am asking them to trust an instrument that is auditable, capped, and ultimately accountable to their representatives. If we get the privacy architecture wrong, I would rather abandon the project than ship it."
+    },
+    {
+      "speaker": "Theodore",
+      "text": "That, at least, is a sentence I did not expect a central banker to say."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Theodore",
+      "text": "Governor, your bank has signalled that a retail digital currency is now a question of when, not whether.",
+      "translationVi": "Thưa Thống đốc, ngân hàng của bà đã phát tín hiệu rằng đồng tiền số bán lẻ giờ là câu hỏi khi nào, chứ không phải có hay không.",
+      "durationMs": 6768
+    },
+    {
+      "id": "s2",
+      "speaker": "Theodore",
+      "text": "What persuaded you that the upside outweighs the obvious risks to privacy?",
+      "translationVi": "Điều gì đã thuyết phục bà rằng lợi ích vượt trội hơn những rủi ro rõ ràng đối với quyền riêng tư?",
+      "durationMs": 4944
+    },
+    {
+      "id": "s3",
+      "speaker": "Adaora",
+      "text": "Let me be candid: nothing about this is settled, and I would resist anyone who claims otherwise.",
+      "translationVi": "Để tôi nói thẳng: chẳng có gì trong chuyện này là đã ngã ngũ cả, và tôi sẽ phản đối bất kỳ ai khẳng định điều ngược lại.",
+      "durationMs": 6240
+    },
+    {
+      "id": "s4",
+      "speaker": "Adaora",
+      "text": "What tipped the balance was financial inclusion, not technological novelty.",
+      "translationVi": "Điều làm nghiêng cán cân là tính bao trùm tài chính, chứ không phải sự mới mẻ về công nghệ.",
+      "durationMs": 5016
+    },
+    {
+      "id": "s5",
+      "speaker": "Adaora",
+      "text": "Roughly a tenth of our adults remain effectively unbanked, and cash is quietly disappearing beneath their feet.",
+      "translationVi": "Khoảng một phần mười người trưởng thành của chúng tôi vẫn thực sự không có tài khoản ngân hàng, và tiền mặt đang lặng lẽ biến mất dưới chân họ.",
+      "durationMs": 6720
+    },
+    {
+      "id": "s6",
+      "speaker": "Theodore",
+      "text": "Granted, but the unbanked rarely cite the absence of a sovereign app as their grievance.",
+      "translationVi": "Đồng ý, nhưng những người không có tài khoản hiếm khi viện dẫn việc thiếu một ứng dụng do nhà nước cấp như là nỗi bất bình của họ.",
+      "durationMs": 5568
+    },
+    {
+      "id": "s7",
+      "speaker": "Theodore",
+      "text": "What they fear is a system that records every transaction they ever make.",
+      "translationVi": "Điều họ sợ là một hệ thống ghi lại mọi giao dịch mà họ từng thực hiện.",
+      "durationMs": 4848
+    },
+    {
+      "id": "s8",
+      "speaker": "Adaora",
+      "text": "That fear is legitimate, and I will not pretend the default architecture is benign.",
+      "translationVi": "Nỗi sợ đó là chính đáng, và tôi sẽ không giả vờ rằng kiến trúc mặc định là vô hại.",
+      "durationMs": 5184
+    },
+    {
+      "id": "s9",
+      "speaker": "Adaora",
+      "text": "A naively designed ledger would hand the state a panopticon, which is precisely why we are not building one.",
+      "translationVi": "Một sổ cái được thiết kế ngây thơ sẽ trao cho nhà nước một nhà tù toàn cảnh, đó chính là lý do chúng tôi không xây dựng cái đó.",
+      "durationMs": 6576
+    },
+    {
+      "id": "s10",
+      "speaker": "Theodore",
+      "text": "Forgive my scepticism, but every surveillance system in history began as a convenience.",
+      "translationVi": "Xin tha lỗi cho sự hoài nghi của tôi, nhưng mọi hệ thống giám sát trong lịch sử đều bắt đầu như một sự tiện lợi.",
+      "durationMs": 5952
+    },
+    {
+      "id": "s11",
+      "speaker": "Adaora",
+      "text": "I take the point, and the safeguard cannot be a mere promise of restraint.",
+      "translationVi": "Tôi tiếp thu ý đó, và biện pháp bảo vệ không thể chỉ là một lời hứa kiềm chế.",
+      "durationMs": 4752
+    },
+    {
+      "id": "s12",
+      "speaker": "Adaora",
+      "text": "We are legislating tiered anonymity, so that low-value payments leave no identifiable trace at all.",
+      "translationVi": "Chúng tôi đang lập pháp về tính ẩn danh theo cấp độ, để các khoản thanh toán giá trị thấp không để lại bất kỳ dấu vết nhận dạng nào.",
+      "durationMs": 6240
+    },
+    {
+      "id": "s13",
+      "speaker": "Theodore",
+      "text": "And above that threshold, presumably, the cloak falls away.",
+      "translationVi": "Và trên ngưỡng đó, có lẽ, tấm áo choàng sẽ rơi xuống.",
+      "durationMs": 4800
+    },
+    {
+      "id": "s14",
+      "speaker": "Adaora",
+      "text": "It does, but only under judicial authorisation, never at the discretion of the central bank itself.",
+      "translationVi": "Đúng vậy, nhưng chỉ dưới sự cho phép của tòa án, không bao giờ tùy thuộc vào quyết định của chính ngân hàng trung ương.",
+      "durationMs": 6360
+    },
+    {
+      "id": "s15",
+      "speaker": "Theodore",
+      "text": "Courts can be leaned upon, and emergencies have a habit of expanding the definition of necessity.",
+      "translationVi": "Tòa án có thể bị gây áp lực, và các tình trạng khẩn cấp có thói quen mở rộng định nghĩa của sự cần thiết.",
+      "durationMs": 6288
+    },
+    {
+      "id": "s16",
+      "speaker": "Adaora",
+      "text": "That is why the privacy guarantees are written into primary legislation, not buried in our operating rules.",
+      "translationVi": "Đó là lý do các bảo đảm về quyền riêng tư được ghi vào luật chính, chứ không bị chôn vùi trong quy tắc vận hành của chúng tôi.",
+      "durationMs": 6792
+    },
+    {
+      "id": "s17",
+      "speaker": "Adaora",
+      "text": "A future government wanting to weaponise the ledger would have to do so in the open, before parliament.",
+      "translationVi": "Một chính phủ tương lai muốn vũ khí hóa sổ cái sẽ phải làm điều đó công khai, trước quốc hội.",
+      "durationMs": 5760
+    },
+    {
+      "id": "s18",
+      "speaker": "Theodore",
+      "text": "There is also the matter of disintermediation, which your own staff have flagged.",
+      "translationVi": "Còn có vấn đề loại bỏ trung gian, điều mà chính nhân viên của bà đã cảnh báo.",
+      "durationMs": 5424
+    },
+    {
+      "id": "s19",
+      "speaker": "Theodore",
+      "text": "If citizens hold money directly with you, why would they ever keep deposits at a commercial bank?",
+      "translationVi": "Nếu công dân giữ tiền trực tiếp với bà, tại sao họ lại còn gửi tiền tại một ngân hàng thương mại?",
+      "durationMs": 6120
+    },
+    {
+      "id": "s20",
+      "speaker": "Adaora",
+      "text": "That risk is real, and an unconstrained CBDC could hollow out the very banks that fund the economy.",
+      "translationVi": "Rủi ro đó là có thật, và một đồng CBDC không bị ràng buộc có thể rút ruột chính những ngân hàng cấp vốn cho nền kinh tế.",
+      "durationMs": 6720
+    },
+    {
+      "id": "s21",
+      "speaker": "Adaora",
+      "text": "So we are capping individual holdings and paying no interest, which keeps it a means of payment, not a store of value.",
+      "translationVi": "Vì vậy chúng tôi đang giới hạn lượng nắm giữ cá nhân và không trả lãi, điều đó giữ cho nó là phương tiện thanh toán, chứ không phải nơi tích trữ giá trị.",
+      "durationMs": 7176
+    },
+    {
+      "id": "s22",
+      "speaker": "Theodore",
+      "text": "A cap is elegant on paper, yet in a panic people will scramble to the safest asset regardless of the ceiling.",
+      "translationVi": "Một mức trần nghe có vẻ thanh lịch trên giấy, nhưng khi hoảng loạn người ta sẽ tranh nhau lao về tài sản an toàn nhất bất kể mức trần.",
+      "durationMs": 7056
+    },
+    {
+      "id": "s23",
+      "speaker": "Adaora",
+      "text": "Which is why the cap can be tightened in real time, dampening a run rather than accelerating it.",
+      "translationVi": "Đó là lý do mức trần có thể được siết chặt theo thời gian thực, làm dịu một cơn rút tiền thay vì đẩy nhanh nó.",
+      "durationMs": 5664
+    },
+    {
+      "id": "s24",
+      "speaker": "Theodore",
+      "text": "And what stops a commercial bank from simply offering a better rate to keep its depositors?",
+      "translationVi": "Và điều gì ngăn một ngân hàng thương mại đơn giản là đưa ra mức lãi suất tốt hơn để giữ chân người gửi tiền?",
+      "durationMs": 5616
+    },
+    {
+      "id": "s25",
+      "speaker": "Adaora",
+      "text": "Nothing at all, and that competitive pressure is a feature, not a flaw, in my view.",
+      "translationVi": "Chẳng có gì cả, và áp lực cạnh tranh đó, theo quan điểm của tôi, là một ưu điểm, chứ không phải một khiếm khuyết.",
+      "durationMs": 5784
+    },
+    {
+      "id": "s26",
+      "speaker": "Theodore",
+      "text": "A generous concession, though banks rarely thank a regulator for sharpening their incentives.",
+      "translationVi": "Một sự nhượng bộ hào phóng, dù các ngân hàng hiếm khi cảm ơn một cơ quan quản lý vì đã làm sắc bén các động lực của họ.",
+      "durationMs": 5952
+    },
+    {
+      "id": "s27",
+      "speaker": "Adaora",
+      "text": "They need not thank me; they need only adapt, as they have to every prior shock.",
+      "translationVi": "Họ không cần cảm ơn tôi; họ chỉ cần thích nghi, như họ đã làm với mọi cú sốc trước đây.",
+      "durationMs": 5448
+    },
+    {
+      "id": "s28",
+      "speaker": "Theodore",
+      "text": "You are asking the public to trust an instrument whose controls only become visible in a crisis.",
+      "translationVi": "Bà đang yêu cầu công chúng tin tưởng một công cụ mà các biện pháp kiểm soát chỉ trở nên rõ ràng khi khủng hoảng.",
+      "durationMs": 6120
+    },
+    {
+      "id": "s29",
+      "speaker": "Adaora",
+      "text": "I am asking them to trust an instrument that is auditable, capped, and ultimately accountable to their representatives.",
+      "translationVi": "Tôi đang yêu cầu họ tin tưởng một công cụ có thể kiểm toán, có giới hạn, và cuối cùng phải chịu trách nhiệm trước những người đại diện của họ.",
+      "durationMs": 6864
+    },
+    {
+      "id": "s30",
+      "speaker": "Adaora",
+      "text": "If we get the privacy architecture wrong, I would rather abandon the project than ship it.",
+      "translationVi": "Nếu chúng tôi làm sai kiến trúc quyền riêng tư, tôi thà từ bỏ dự án còn hơn là cho ra mắt nó.",
+      "durationMs": 5400
+    },
+    {
+      "id": "s31",
+      "speaker": "Theodore",
+      "text": "That, at least, is a sentence I did not expect a central banker to say.",
+      "translationVi": "Ít nhất thì đó là một câu mà tôi không ngờ một nhà ngân hàng trung ương lại nói.",
+      "durationMs": 5400
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "What persuaded me was …"
+    },
+    {
+      "id": "h2",
+      "text": "I take the point, but …"
+    },
+    {
+      "id": "h3",
+      "text": "The real risk here is that …"
+    },
+    {
+      "id": "h4",
+      "text": "I would rather … than …"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "financial inclusion",
+      "meaningVi": "tính bao trùm tài chính",
+      "pronunciation": "/faɪˈnænʃəl ɪnˈkluːʒən/"
+    },
+    {
+      "id": "v2",
+      "phrase": "tiered anonymity",
+      "meaningVi": "tính ẩn danh theo cấp độ",
+      "pronunciation": "/tɪrd ˌænəˈnɪməti/"
+    },
+    {
+      "id": "v3",
+      "phrase": "judicial authorisation",
+      "meaningVi": "sự cho phép của tòa án",
+      "pronunciation": "/dʒuˈdɪʃəl ˌɔːθəraɪˈzeɪʃən/"
+    },
+    {
+      "id": "v4",
+      "phrase": "disintermediation",
+      "meaningVi": "việc loại bỏ trung gian",
+      "pronunciation": "/ˌdɪsˌɪntərˌmiːdiˈeɪʃən/"
+    },
+    {
+      "id": "v5",
+      "phrase": "store of value",
+      "meaningVi": "nơi tích trữ giá trị",
+      "pronunciation": "/stɔːr əv ˈvæljuː/"
+    },
+    {
+      "id": "v6",
+      "phrase": "auditable",
+      "meaningVi": "có thể kiểm toán",
+      "pronunciation": "/ˈɔːdɪtəbəl/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "a question of when, not whether",
+      "meaningVi": "là câu hỏi khi nào, chứ không phải có hay không",
+      "pronunciation": "/ə ˈkwestʃən əv wen nɑt ˈweðər/"
+    },
+    {
+      "phrase": "the upside outweighs the obvious risks",
+      "meaningVi": "lợi ích vượt trội hơn những rủi ro rõ ràng",
+      "pronunciation": "/ði ˈʌpsaɪd aʊtˈweɪz ði ˈɑbviəs rɪsks/"
+    },
+    {
+      "phrase": "Let me be candid",
+      "meaningVi": "để tôi nói thẳng",
+      "pronunciation": "/let mi bi ˈkændɪd/"
+    },
+    {
+      "phrase": "What tipped the balance was financial inclusion",
+      "meaningVi": "điều làm nghiêng cán cân là tính bao trùm tài chính",
+      "pronunciation": "/wʌt tɪpt ðə ˈbæləns wʌz faɪˈnænʃəl ɪnˈkluːʒən/"
+    },
+    {
+      "phrase": "remain effectively unbanked",
+      "meaningVi": "vẫn thực sự không có tài khoản ngân hàng",
+      "pronunciation": "/rɪˈmeɪn ɪˈfektɪvli ʌnˈbæŋkt/"
+    },
+    {
+      "phrase": "Granted, but the unbanked rarely cite the absence of a sovereign app",
+      "meaningVi": "đồng ý, nhưng những người không có tài khoản hiếm khi viện dẫn việc thiếu một ứng dụng do nhà nước cấp",
+      "pronunciation": "/ˈɡræntɪd bʌt ði ʌnˈbæŋkt ˈrerli saɪt ði ˈæbsəns əv ə ˈsɑvrɪn æp/"
+    },
+    {
+      "phrase": "records every transaction they ever make",
+      "meaningVi": "ghi lại mọi giao dịch mà họ từng thực hiện",
+      "pronunciation": "/ˈrekərdz ˈevri trænˈzækʃən ðeɪ ˈevər meɪk/"
+    },
+    {
+      "phrase": "That fear is legitimate",
+      "meaningVi": "nỗi sợ đó là chính đáng",
+      "pronunciation": "/ðæt fɪr ɪz lɪˈdʒɪtəmət/"
+    },
+    {
+      "phrase": "would hand the state a panopticon",
+      "meaningVi": "sẽ trao cho nhà nước một nhà tù toàn cảnh",
+      "pronunciation": "/wʊd hænd ðə steɪt ə pæˈnɑptɪkɑn/"
+    },
+    {
+      "phrase": "every surveillance system in history began as a convenience",
+      "meaningVi": "mọi hệ thống giám sát trong lịch sử đều bắt đầu như một sự tiện lợi",
+      "pronunciation": "/ˈevri sərˈveɪləns ˈsɪstəm ɪn ˈhɪstəri bɪˈɡæn æz ə kənˈviniəns/"
+    },
+    {
+      "phrase": "I take the point",
+      "meaningVi": "tôi tiếp thu ý đó",
+      "pronunciation": "/aɪ teɪk ðə pɔɪnt/"
+    },
+    {
+      "phrase": "cannot be a mere promise of restraint",
+      "meaningVi": "không thể chỉ là một lời hứa kiềm chế",
+      "pronunciation": "/ˈkænɑt bi ə mɪr ˈprɑmɪs əv rɪˈstreɪnt/"
+    },
+    {
+      "phrase": "We are legislating tiered anonymity",
+      "meaningVi": "chúng tôi đang lập pháp về tính ẩn danh theo cấp độ",
+      "pronunciation": "/wi ɑr ˈledʒɪsleɪtɪŋ tɪrd ˌænəˈnɪməti/"
+    },
+    {
+      "phrase": "leave no identifiable trace at all",
+      "meaningVi": "không để lại bất kỳ dấu vết nhận dạng nào",
+      "pronunciation": "/liv noʊ aɪˈdentəˌfaɪəbəl treɪs æt ɔːl/"
+    },
+    {
+      "phrase": "the cloak falls away",
+      "meaningVi": "tấm áo choàng rơi xuống",
+      "pronunciation": "/ðə kloʊk fɔːlz əˈweɪ/"
+    },
+    {
+      "phrase": "only under judicial authorisation",
+      "meaningVi": "chỉ dưới sự cho phép của tòa án",
+      "pronunciation": "/ˈoʊnli ˈʌndər dʒuˈdɪʃəl ˌɔːθəraɪˈzeɪʃən/"
+    },
+    {
+      "phrase": "Courts can be leaned upon",
+      "meaningVi": "tòa án có thể bị gây áp lực",
+      "pronunciation": "/kɔːrts kæn bi liːnd əˈpɑn/"
+    },
+    {
+      "phrase": "expanding the definition of necessity",
+      "meaningVi": "mở rộng định nghĩa của sự cần thiết",
+      "pronunciation": "/ɪkˈspændɪŋ ðə ˌdefɪˈnɪʃən əv nɪˈsesəti/"
+    },
+    {
+      "phrase": "written into primary legislation",
+      "meaningVi": "được ghi vào luật chính",
+      "pronunciation": "/ˈrɪtən ˈɪntu ˈpraɪmeri ˌledʒɪsˈleɪʃən/"
+    },
+    {
+      "phrase": "wanting to weaponise the ledger",
+      "meaningVi": "muốn vũ khí hóa sổ cái",
+      "pronunciation": "/ˈwɑntɪŋ tu ˈwepənaɪz ðə ˈledʒər/"
+    },
+    {
+      "phrase": "the matter of disintermediation",
+      "meaningVi": "vấn đề loại bỏ trung gian",
+      "pronunciation": "/ðə ˈmætər əv ˌdɪsˌɪntərˌmiːdiˈeɪʃən/"
+    },
+    {
+      "phrase": "why would they ever keep deposits at a commercial bank",
+      "meaningVi": "tại sao họ lại còn gửi tiền tại một ngân hàng thương mại",
+      "pronunciation": "/waɪ wʊd ðeɪ ˈevər kip dɪˈpɑzɪts æt ə kəˈmɜːrʃəl bæŋk/"
+    },
+    {
+      "phrase": "could hollow out the very banks that fund the economy",
+      "meaningVi": "có thể rút ruột chính những ngân hàng cấp vốn cho nền kinh tế",
+      "pronunciation": "/kʊd ˈhɑloʊ aʊt ðə ˈveri bæŋks ðæt fʌnd ði ɪˈkɑnəmi/"
+    },
+    {
+      "phrase": "capping individual holdings and paying no interest",
+      "meaningVi": "giới hạn lượng nắm giữ cá nhân và không trả lãi",
+      "pronunciation": "/ˈkæpɪŋ ˌɪndɪˈvɪdʒuəl ˈhoʊldɪŋz ænd ˈpeɪɪŋ noʊ ˈɪntrəst/"
+    },
+    {
+      "phrase": "a means of payment, not a store of value",
+      "meaningVi": "phương tiện thanh toán, chứ không phải nơi tích trữ giá trị",
+      "pronunciation": "/ə minz əv ˈpeɪmənt nɑt ə stɔːr əv ˈvæljuː/"
+    },
+    {
+      "phrase": "people will scramble to the safest asset",
+      "meaningVi": "người ta sẽ tranh nhau lao về tài sản an toàn nhất",
+      "pronunciation": "/ˈpipəl wɪl ˈskræmbəl tu ðə ˈseɪfəst ˈæset/"
+    },
+    {
+      "phrase": "dampening a run rather than accelerating it",
+      "meaningVi": "làm dịu một cơn rút tiền thay vì đẩy nhanh nó",
+      "pronunciation": "/ˈdæmpənɪŋ ə rʌn ˈræðər ðæn ækˈseləreɪtɪŋ ɪt/"
+    },
+    {
+      "phrase": "whose controls only become visible in a crisis",
+      "meaningVi": "mà các biện pháp kiểm soát chỉ trở nên rõ ràng khi khủng hoảng",
+      "pronunciation": "/huːz kənˈtroʊlz ˈoʊnli bɪˈkʌm ˈvɪzəbəl ɪn ə ˈkraɪsɪs/"
+    },
+    {
+      "phrase": "auditable, capped, and ultimately accountable",
+      "meaningVi": "có thể kiểm toán, có giới hạn, và cuối cùng phải chịu trách nhiệm",
+      "pronunciation": "/ˈɔːdɪtəbəl kæpt ænd ˈʌltɪmətli əˈkaʊntəbəl/"
+    },
+    {
+      "phrase": "I would rather abandon the project than ship it",
+      "meaningVi": "tôi thà từ bỏ dự án còn hơn là cho ra mắt nó",
+      "pronunciation": "/aɪ wʊd ˈræðər əˈbændən ðə ˈprɑdʒekt ðæn ʃɪp ɪt/"
+    },
+    {
+      "phrase": "a sentence I did not expect a central banker to say",
+      "meaningVi": "một câu mà tôi không ngờ một nhà ngân hàng trung ương lại nói",
+      "pronunciation": "/ə ˈsentəns aɪ dɪd nɑt ɪkˈspekt ə ˈsentrəl ˈbæŋkər tu seɪ/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Concessive discourse markers",
+      "bodyVi": "Người nói cấp cao dùng các từ nhượng bộ như 'Granted, but…', 'I take the point, but…', 'Forgive my scepticism, but…' để thừa nhận lập luận của đối phương trước khi phản bác. Điều này tạo giọng điệu lịch thiệp, có học thức.",
+      "bodyEn": "High-register debaters concede before they counter. Phrases like 'Granted, but…', 'I take the point, but…', and 'Forgive my scepticism, but…' acknowledge the other side's argument, making the rebuttal sound reasonable rather than combative."
+    },
+    {
+      "title": "'would rather … than …'",
+      "bodyVi": "Cấu trúc 'would rather + V (nguyên thể không to) + than + V' diễn đạt sự ưu tiên mạnh mẽ. Ví dụ: 'I would rather abandon the project than ship it' = thà từ bỏ còn hơn cho ra mắt.",
+      "bodyEn": "'would rather X than Y' expresses a strong preference, with both verbs in the bare infinitive: 'I would rather abandon the project than ship it.' It signals the speaker would accept the lesser outcome to avoid the worse one."
+    }
+  ],
+  "translationVi": "Theodore: Thưa Thống đốc, ngân hàng của bà đã phát tín hiệu rằng đồng tiền số bán lẻ giờ là câu hỏi khi nào, chứ không phải có hay không. / Theodore: Điều gì đã thuyết phục bà rằng lợi ích vượt trội hơn những rủi ro rõ ràng đối với quyền riêng tư? / Adaora: Để tôi nói thẳng: chẳng có gì trong chuyện này là đã ngã ngũ cả, và tôi sẽ phản đối bất kỳ ai khẳng định điều ngược lại. / Adaora: Điều làm nghiêng cán cân là tính bao trùm tài chính, chứ không phải sự mới mẻ về công nghệ. / Adaora: Khoảng một phần mười người trưởng thành của chúng tôi vẫn thực sự không có tài khoản ngân hàng, và tiền mặt đang lặng lẽ biến mất dưới chân họ. / Theodore: Đồng ý, nhưng những người không có tài khoản hiếm khi viện dẫn việc thiếu một ứng dụng do nhà nước cấp như là nỗi bất bình của họ. / Theodore: Điều họ sợ là một hệ thống ghi lại mọi giao dịch mà họ từng thực hiện. / Adaora: Nỗi sợ đó là chính đáng, và tôi sẽ không giả vờ rằng kiến trúc mặc định là vô hại. / Adaora: Một sổ cái được thiết kế ngây thơ sẽ trao cho nhà nước một nhà tù toàn cảnh, đó chính là lý do chúng tôi không xây dựng cái đó. / Theodore: Xin tha lỗi cho sự hoài nghi của tôi, nhưng mọi hệ thống giám sát trong lịch sử đều bắt đầu như một sự tiện lợi. / Adaora: Tôi tiếp thu ý đó, và biện pháp bảo vệ không thể chỉ là một lời hứa kiềm chế. / Adaora: Chúng tôi đang lập pháp về tính ẩn danh theo cấp độ, để các khoản thanh toán giá trị thấp không để lại bất kỳ dấu vết nhận dạng nào. / Theodore: Và trên ngưỡng đó, có lẽ, tấm áo choàng sẽ rơi xuống. / Adaora: Đúng vậy, nhưng chỉ dưới sự cho phép của tòa án, không bao giờ tùy thuộc vào quyết định của chính ngân hàng trung ương. / Theodore: Tòa án có thể bị gây áp lực, và các tình trạng khẩn cấp có thói quen mở rộng định nghĩa của sự cần thiết. / Adaora: Đó là lý do các bảo đảm về quyền riêng tư được ghi vào luật chính, chứ không bị chôn vùi trong quy tắc vận hành của chúng tôi. / Adaora: Một chính phủ tương lai muốn vũ khí hóa sổ cái sẽ phải làm điều đó công khai, trước quốc hội. / Theodore: Còn có vấn đề loại bỏ trung gian, điều mà chính nhân viên của bà đã cảnh báo. / Theodore: Nếu công dân giữ tiền trực tiếp với bà, tại sao họ lại còn gửi tiền tại một ngân hàng thương mại? / Adaora: Rủi ro đó là có thật, và một đồng CBDC không bị ràng buộc có thể rút ruột chính những ngân hàng cấp vốn cho nền kinh tế. / Adaora: Vì vậy chúng tôi đang giới hạn lượng nắm giữ cá nhân và không trả lãi, điều đó giữ cho nó là phương tiện thanh toán, chứ không phải nơi tích trữ giá trị. / Theodore: Một mức trần nghe có vẻ thanh lịch trên giấy, nhưng khi hoảng loạn người ta sẽ tranh nhau lao về tài sản an toàn nhất bất kể mức trần. / Adaora: Đó là lý do mức trần có thể được siết chặt theo thời gian thực, làm dịu một cơn rút tiền thay vì đẩy nhanh nó. / Theodore: Và điều gì ngăn một ngân hàng thương mại đơn giản là đưa ra mức lãi suất tốt hơn để giữ chân người gửi tiền? / Adaora: Chẳng có gì cả, và áp lực cạnh tranh đó, theo quan điểm của tôi, là một ưu điểm, chứ không phải một khiếm khuyết. / Theodore: Một sự nhượng bộ hào phóng, dù các ngân hàng hiếm khi cảm ơn một cơ quan quản lý vì đã làm sắc bén các động lực của họ. / Adaora: Họ không cần cảm ơn tôi; họ chỉ cần thích nghi, như họ đã làm với mọi cú sốc trước đây. / Theodore: Bà đang yêu cầu công chúng tin tưởng một công cụ mà các biện pháp kiểm soát chỉ trở nên rõ ràng khi khủng hoảng. / Adaora: Tôi đang yêu cầu họ tin tưởng một công cụ có thể kiểm toán, có giới hạn, và cuối cùng phải chịu trách nhiệm trước những người đại diện của họ. / Adaora: Nếu chúng tôi làm sai kiến trúc quyền riêng tư, tôi thà từ bỏ dự án còn hơn là cho ra mắt nó. / Theodore: Ít nhất thì đó là một câu mà tôi không ngờ một nhà ngân hàng trung ương lại nói.",
+  "criticalThinkingQuestion": "If a central bank digital currency could lift millions out of financial exclusion but required the state to hold a record of large transactions, would you support it? Where would you draw the line on privacy?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-c1-091",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 183552
+}

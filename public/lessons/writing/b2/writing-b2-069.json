@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "The case for keeping certain professions cash-only",
   "summary": "Argue whether some professions — barbers, food cart vendors, small repair shops — should resist going cashless, and whether refusing cards is a form of dignity rather than backwardness.",
-  "tags": ["Economy", "Work", "Society", "Argument"],
+  "tags": [
+    "Economy",
+    "Work",
+    "Society",
+    "Argument"
+  ],
   "topic": "Whether certain professions should resist going cashless",
   "prompt": "Write a 350–500-word argumentative essay about whether certain professions — neighbourhood barbers, food cart vendors, small repair shops, market porters — should resist the pressure to install card readers and QR-code payments, and whether keeping cash-only is a defensible choice rather than a sign of backwardness. Anchor in a specific setting (Hanoi, Naples, Tbilisi, Lagos, Bucharest). Use a 'what' cleft, a concession ('Granted,'), at least one passive construction, and one participle clause. Take a clear position. Avoid blanket techno-pessimism.",
   "minWords": 350,
@@ -14,51 +19,173 @@
     "Granted, the argument for cash-only economies can drift into the kind of romantic anti-modernism that ignores the genuine inconveniences faced by customers who…"
   ],
   "hintVocab": [
-    { "phrase": "cash-only", "meaningVi": "chỉ nhận tiền mặt" },
-    { "phrase": "card reader", "meaningVi": "máy đọc thẻ" },
-    { "phrase": "QR code payment", "meaningVi": "thanh toán mã QR" },
-    { "phrase": "small trader", "meaningVi": "tiểu thương" },
-    { "phrase": "transaction fee", "meaningVi": "phí giao dịch" },
-    { "phrase": "informal economy", "meaningVi": "kinh tế phi chính thức" },
-    { "phrase": "financial trace", "meaningVi": "dấu vết tài chính" },
-    { "phrase": "frictionless payment", "meaningVi": "thanh toán không ma sát" },
-    { "phrase": "to skim off the top", "meaningVi": "ăn bớt phần trên" },
-    { "phrase": "to go cashless", "meaningVi": "chuyển sang không tiền mặt" },
-    { "phrase": "old-fashioned ledger", "meaningVi": "sổ cái lỗi thời" },
-    { "phrase": "dignified refusal", "meaningVi": "sự từ chối có phẩm giá" },
-    { "phrase": "tax compliance", "meaningVi": "tuân thủ thuế" },
-    { "phrase": "to bank one's earnings", "meaningVi": "gửi thu nhập vào ngân hàng" },
-    { "phrase": "underbanked", "meaningVi": "thiếu dịch vụ ngân hàng" },
-    { "phrase": "credit card surcharge", "meaningVi": "phụ phí thẻ tín dụng" },
-    { "phrase": "to keep the books simple", "meaningVi": "giữ sổ sách đơn giản" },
-    { "phrase": "to settle in cash at the door", "meaningVi": "thanh toán bằng tiền mặt tại cửa" },
-    { "phrase": "small denomination", "meaningVi": "mệnh giá nhỏ" },
-    { "phrase": "to count out change carefully", "meaningVi": "đếm tiền thối cẩn thận" },
-    { "phrase": "neighbourhood barber", "meaningVi": "thợ cắt tóc khu phố" },
-    { "phrase": "long-standing customer", "meaningVi": "khách hàng lâu năm" }
+    {
+      "phrase": "cash-only",
+      "meaningVi": "chỉ nhận tiền mặt"
+    },
+    {
+      "phrase": "card reader",
+      "meaningVi": "máy đọc thẻ"
+    },
+    {
+      "phrase": "QR code payment",
+      "meaningVi": "thanh toán mã QR"
+    },
+    {
+      "phrase": "small trader",
+      "meaningVi": "tiểu thương"
+    },
+    {
+      "phrase": "transaction fee",
+      "meaningVi": "phí giao dịch"
+    },
+    {
+      "phrase": "informal economy",
+      "meaningVi": "kinh tế phi chính thức"
+    },
+    {
+      "phrase": "financial trace",
+      "meaningVi": "dấu vết tài chính"
+    },
+    {
+      "phrase": "frictionless payment",
+      "meaningVi": "thanh toán không ma sát"
+    },
+    {
+      "phrase": "to skim off the top",
+      "meaningVi": "ăn bớt phần trên"
+    },
+    {
+      "phrase": "to go cashless",
+      "meaningVi": "chuyển sang không tiền mặt"
+    },
+    {
+      "phrase": "old-fashioned ledger",
+      "meaningVi": "sổ cái lỗi thời"
+    },
+    {
+      "phrase": "dignified refusal",
+      "meaningVi": "sự từ chối có phẩm giá"
+    },
+    {
+      "phrase": "tax compliance",
+      "meaningVi": "tuân thủ thuế"
+    },
+    {
+      "phrase": "to bank one's earnings",
+      "meaningVi": "gửi thu nhập vào ngân hàng"
+    },
+    {
+      "phrase": "underbanked",
+      "meaningVi": "thiếu dịch vụ ngân hàng"
+    },
+    {
+      "phrase": "credit card surcharge",
+      "meaningVi": "phụ phí thẻ tín dụng"
+    },
+    {
+      "phrase": "to keep the books simple",
+      "meaningVi": "giữ sổ sách đơn giản"
+    },
+    {
+      "phrase": "to settle in cash at the door",
+      "meaningVi": "thanh toán bằng tiền mặt tại cửa"
+    },
+    {
+      "phrase": "small denomination",
+      "meaningVi": "mệnh giá nhỏ"
+    },
+    {
+      "phrase": "to count out change carefully",
+      "meaningVi": "đếm tiền thối cẩn thận"
+    },
+    {
+      "phrase": "neighbourhood barber",
+      "meaningVi": "thợ cắt tóc khu phố"
+    },
+    {
+      "phrase": "long-standing customer",
+      "meaningVi": "khách hàng lâu năm"
+    }
   ],
   "sampleText": "Sitting in the chair of an old barber in central Naples who has refused, for forty years, to take anything but coins, you notice that the conversation he carries on with the customer waiting after you is genuinely informal in a way that no card-reading transaction would permit. He asks after the man's wife. He remembers, without prompting, that the man's cousin was unwell. When the haircut ends, money is counted into his hand without ceremony and the next customer takes the chair. The whole interaction lasts ninety seconds at the till. Nothing is logged.\n\nWhat a cash-only trade actually protects, beyond the obvious convenience of not paying card fees, is something the architects of the cashless transition have rarely cared to investigate honestly. They believe they are eliminating friction. They are also eliminating a particular form of small-scale autonomy: the right of a barber or a porter or a market stallholder to set their own prices, accept their own customers, and keep their own pace, without their working day being instrumented by a payment processor in another country.\n\nGranted, the argument for cash-only economies can drift into the kind of romantic anti-modernism that ignores the genuine inconveniences faced by customers who no longer carry cash, particularly tourists and younger urban residents. A barber who refuses cards can lose ten per cent of his potential walk-ins, and refusing the change is not a costless statement of principle. Cash-only operation also masks income from tax authorities in ways that have legitimately worried governments, and the moralising defence of small traders should not be allowed to disguise this fact.\n\nEven so, the wholesale push to make every transaction cashless is not the neutral modernisation it is sold as. Once a barber takes cards, his income becomes visible to processors, to the tax office, and, in some regulatory regimes, to credit-scoring algorithms he has never heard of. The pricing he was able to set informally — five euros for a pensioner he has known since the 1990s, ten for a stranger — becomes harder to defend in a system where every transaction is logged at the listed rate. A small flexibility that was the substance of a forty-year relationship is removed in the name of frictionlessness.\n\nThe defensible position is that the choice of payment method should be one the small trader keeps, not one the city or the platform takes from them. A barber, a porter, or a fruit-stall owner who wants to operate cash-only should be allowed to do so without being publicly framed as backward, and a barber who wants to take cards should be supported in doing so without being charged ruinous fees. What is lost when this choice is removed is not nostalgia. It is the autonomy that made the small trade worth doing in the first place.",
   "sampleAnnotations": [
-    { "phrase": "Sitting in the chair of an old barber in central Naples who has refused, for forty years, to take anything but coins, you notice that the conversation he carries on with the customer waiting after you is genuinely informal", "meaningVi": "Ngồi trên ghế của một thợ cắt tóc già ở trung tâm Naples, người đã từ chối, trong bốn mươi năm, nhận bất cứ thứ gì ngoài tiền xu, bạn nhận ra rằng cuộc trò chuyện ông tiếp tục với người khách đang chờ sau bạn thực sự là không chính thức" },
-    { "phrase": "He asks after the man's wife. He remembers, without prompting, that the man's cousin was unwell", "meaningVi": "Ông hỏi thăm vợ của người đàn ông. Ông nhớ, mà không cần được nhắc, rằng người em họ của ông ta đã ốm" },
-    { "phrase": "When the haircut ends, money is counted into his hand without ceremony", "meaningVi": "Khi cắt tóc xong, tiền được đếm vào tay ông không có nghi thức gì" },
-    { "phrase": "The whole interaction lasts ninety seconds at the till. Nothing is logged", "meaningVi": "Toàn bộ tương tác kéo dài chín mươi giây ở quầy thu ngân. Không có gì được ghi lại" },
-    { "phrase": "What a cash-only trade actually protects, beyond the obvious convenience of not paying card fees, is something the architects of the cashless transition have rarely cared to investigate honestly", "meaningVi": "Điều mà một ngành nghề chỉ nhận tiền mặt thực sự bảo vệ, vượt ra ngoài sự tiện lợi hiển nhiên của việc không phải trả phí thẻ, là điều mà các kiến trúc sư của quá trình chuyển đổi không tiền mặt hiếm khi quan tâm điều tra một cách trung thực" },
-    { "phrase": "They believe they are eliminating friction. They are also eliminating a particular form of small-scale autonomy", "meaningVi": "Họ tin rằng họ đang loại bỏ ma sát. Họ cũng đang loại bỏ một hình thức tự chủ quy mô nhỏ cụ thể" },
-    { "phrase": "the right of a barber or a porter or a market stallholder to set their own prices, accept their own customers, and keep their own pace, without their working day being instrumented by a payment processor in another country", "meaningVi": "quyền của một thợ cắt tóc hay một người khuân vác hay một chủ quầy chợ tự đặt giá, tự chấp nhận khách, và giữ nhịp độ của mình, mà không cần ngày làm việc bị đo đạc bởi một bộ xử lý thanh toán ở một nước khác" },
-    { "phrase": "the kind of romantic anti-modernism that ignores the genuine inconveniences faced by customers who no longer carry cash", "meaningVi": "loại chủ nghĩa chống hiện đại lãng mạn bỏ qua những sự bất tiện thực sự mà khách hàng không còn mang tiền mặt phải đối mặt" },
-    { "phrase": "A barber who refuses cards can lose ten per cent of his potential walk-ins, and refusing the change is not a costless statement of principle", "meaningVi": "Một thợ cắt tóc từ chối thẻ có thể mất mười phần trăm số khách tiềm năng đi vào, và từ chối thay đổi không phải là một tuyên bố nguyên tắc không tốn kém" },
-    { "phrase": "the moralising defence of small traders should not be allowed to disguise this fact", "meaningVi": "việc bênh vực mang tính đạo đức cho các tiểu thương không nên được phép che giấu sự thật này" },
-    { "phrase": "the wholesale push to make every transaction cashless is not the neutral modernisation it is sold as", "meaningVi": "việc thúc đẩy toàn bộ làm mọi giao dịch không tiền mặt không phải là sự hiện đại hóa trung lập như nó được bán ra" },
-    { "phrase": "his income becomes visible to processors, to the tax office, and, in some regulatory regimes, to credit-scoring algorithms he has never heard of", "meaningVi": "thu nhập của ông trở nên có thể nhìn thấy đối với các bộ xử lý, đối với cơ quan thuế, và, trong một số chế độ pháp lý, đối với các thuật toán chấm điểm tín dụng mà ông chưa bao giờ nghe đến" },
-    { "phrase": "The pricing he was able to set informally — five euros for a pensioner he has known since the 1990s, ten for a stranger — becomes harder to defend in a system where every transaction is logged at the listed rate", "meaningVi": "Việc định giá mà ông có thể đặt một cách không chính thức — năm euro cho một người về hưu mà ông biết từ những năm 1990, mười cho một người lạ — trở nên khó bảo vệ hơn trong một hệ thống nơi mọi giao dịch được ghi lại ở mức giá niêm yết" },
-    { "phrase": "A small flexibility that was the substance of a forty-year relationship is removed in the name of frictionlessness", "meaningVi": "Một sự linh hoạt nhỏ vốn là bản chất của một mối quan hệ bốn mươi năm bị loại bỏ nhân danh sự không có ma sát" },
-    { "phrase": "the choice of payment method should be one the small trader keeps, not one the city or the platform takes from them", "meaningVi": "lựa chọn phương thức thanh toán nên là cái mà tiểu thương giữ, không phải cái mà thành phố hay nền tảng lấy đi từ họ" },
-    { "phrase": "should be allowed to do so without being publicly framed as backward", "meaningVi": "nên được phép làm như vậy mà không bị đóng khung công khai là lạc hậu" },
-    { "phrase": "a barber who wants to take cards should be supported in doing so without being charged ruinous fees", "meaningVi": "một thợ cắt tóc muốn nhận thẻ nên được hỗ trợ làm như vậy mà không bị tính phí hủy diệt" },
-    { "phrase": "What is lost when this choice is removed is not nostalgia. It is the autonomy that made the small trade worth doing in the first place", "meaningVi": "Cái bị mất khi lựa chọn này bị loại bỏ không phải là nỗi nhớ. Đó là sự tự chủ đã làm cho ngành nghề nhỏ đáng làm ngay từ đầu" },
-    { "phrase": "to keep one's working day un-instrumented", "meaningVi": "giữ ngày làm việc của mình không bị đo đạc" },
-    { "phrase": "frictionlessness", "meaningVi": "sự không có ma sát" }
+    {
+      "phrase": "Sitting in the chair of an old barber in central Naples who has refused, for forty years, to take anything but coins, you notice that the conversation he carries on with the customer waiting after you is genuinely informal",
+      "meaningVi": "Ngồi trên ghế của một thợ cắt tóc già ở trung tâm Naples, người đã từ chối, trong bốn mươi năm, nhận bất cứ thứ gì ngoài tiền xu, bạn nhận ra rằng cuộc trò chuyện ông tiếp tục với người khách đang chờ sau bạn thực sự là không chính thức"
+    },
+    {
+      "phrase": "He asks after the man's wife. He remembers, without prompting, that the man's cousin was unwell",
+      "meaningVi": "Ông hỏi thăm vợ của người đàn ông. Ông nhớ, mà không cần được nhắc, rằng người em họ của ông ta đã ốm"
+    },
+    {
+      "phrase": "When the haircut ends, money is counted into his hand without ceremony",
+      "meaningVi": "Khi cắt tóc xong, tiền được đếm vào tay ông không có nghi thức gì"
+    },
+    {
+      "phrase": "The whole interaction lasts ninety seconds at the till. Nothing is logged",
+      "meaningVi": "Toàn bộ tương tác kéo dài chín mươi giây ở quầy thu ngân. Không có gì được ghi lại"
+    },
+    {
+      "phrase": "What a cash-only trade actually protects, beyond the obvious convenience of not paying card fees, is something the architects of the cashless transition have rarely cared to investigate honestly",
+      "meaningVi": "Điều mà một ngành nghề chỉ nhận tiền mặt thực sự bảo vệ, vượt ra ngoài sự tiện lợi hiển nhiên của việc không phải trả phí thẻ, là điều mà các kiến trúc sư của quá trình chuyển đổi không tiền mặt hiếm khi quan tâm điều tra một cách trung thực"
+    },
+    {
+      "phrase": "They believe they are eliminating friction. They are also eliminating a particular form of small-scale autonomy",
+      "meaningVi": "Họ tin rằng họ đang loại bỏ ma sát. Họ cũng đang loại bỏ một hình thức tự chủ quy mô nhỏ cụ thể"
+    },
+    {
+      "phrase": "the right of a barber or a porter or a market stallholder to set their own prices, accept their own customers, and keep their own pace, without their working day being instrumented by a payment processor in another country",
+      "meaningVi": "quyền của một thợ cắt tóc hay một người khuân vác hay một chủ quầy chợ tự đặt giá, tự chấp nhận khách, và giữ nhịp độ của mình, mà không cần ngày làm việc bị đo đạc bởi một bộ xử lý thanh toán ở một nước khác"
+    },
+    {
+      "phrase": "the kind of romantic anti-modernism that ignores the genuine inconveniences faced by customers who no longer carry cash",
+      "meaningVi": "loại chủ nghĩa chống hiện đại lãng mạn bỏ qua những sự bất tiện thực sự mà khách hàng không còn mang tiền mặt phải đối mặt"
+    },
+    {
+      "phrase": "A barber who refuses cards can lose ten per cent of his potential walk-ins, and refusing the change is not a costless statement of principle",
+      "meaningVi": "Một thợ cắt tóc từ chối thẻ có thể mất mười phần trăm số khách tiềm năng đi vào, và từ chối thay đổi không phải là một tuyên bố nguyên tắc không tốn kém"
+    },
+    {
+      "phrase": "the moralising defence of small traders should not be allowed to disguise this fact",
+      "meaningVi": "việc bênh vực mang tính đạo đức cho các tiểu thương không nên được phép che giấu sự thật này"
+    },
+    {
+      "phrase": "the wholesale push to make every transaction cashless is not the neutral modernisation it is sold as",
+      "meaningVi": "việc thúc đẩy toàn bộ làm mọi giao dịch không tiền mặt không phải là sự hiện đại hóa trung lập như nó được bán ra"
+    },
+    {
+      "phrase": "his income becomes visible to processors, to the tax office, and, in some regulatory regimes, to credit-scoring algorithms he has never heard of",
+      "meaningVi": "thu nhập của ông trở nên có thể nhìn thấy đối với các bộ xử lý, đối với cơ quan thuế, và, trong một số chế độ pháp lý, đối với các thuật toán chấm điểm tín dụng mà ông chưa bao giờ nghe đến"
+    },
+    {
+      "phrase": "The pricing he was able to set informally — five euros for a pensioner he has known since the 1990s, ten for a stranger — becomes harder to defend in a system where every transaction is logged at the listed rate",
+      "meaningVi": "Việc định giá mà ông có thể đặt một cách không chính thức — năm euro cho một người về hưu mà ông biết từ những năm 1990, mười cho một người lạ — trở nên khó bảo vệ hơn trong một hệ thống nơi mọi giao dịch được ghi lại ở mức giá niêm yết"
+    },
+    {
+      "phrase": "A small flexibility that was the substance of a forty-year relationship is removed in the name of frictionlessness",
+      "meaningVi": "Một sự linh hoạt nhỏ vốn là bản chất của một mối quan hệ bốn mươi năm bị loại bỏ nhân danh sự không có ma sát"
+    },
+    {
+      "phrase": "the choice of payment method should be one the small trader keeps, not one the city or the platform takes from them",
+      "meaningVi": "lựa chọn phương thức thanh toán nên là cái mà tiểu thương giữ, không phải cái mà thành phố hay nền tảng lấy đi từ họ"
+    },
+    {
+      "phrase": "should be allowed to do so without being publicly framed as backward",
+      "meaningVi": "nên được phép làm như vậy mà không bị đóng khung công khai là lạc hậu"
+    },
+    {
+      "phrase": "a barber who wants to take cards should be supported in doing so without being charged ruinous fees",
+      "meaningVi": "một thợ cắt tóc muốn nhận thẻ nên được hỗ trợ làm như vậy mà không bị tính phí hủy diệt"
+    },
+    {
+      "phrase": "What is lost when this choice is removed is not nostalgia. It is the autonomy that made the small trade worth doing in the first place",
+      "meaningVi": "Cái bị mất khi lựa chọn này bị loại bỏ không phải là nỗi nhớ. Đó là sự tự chủ đã làm cho ngành nghề nhỏ đáng làm ngay từ đầu"
+    },
+    {
+      "phrase": "frictionlessness",
+      "meaningVi": "sự không có ma sát"
+    }
   ],
   "sampleGrammarNotes": [
     {

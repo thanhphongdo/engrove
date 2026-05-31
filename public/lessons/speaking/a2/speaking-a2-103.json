@@ -1,0 +1,365 @@
+{
+  "id": "speaking-a2-103",
+  "level": "A2",
+  "title": "Checking Out and Querying the Bill",
+  "summary": "A hotel guest checks out at the front desk and questions an unexpected charge on their bill.",
+  "topic": "Hotel checkout and bill query",
+  "tags": [
+    "Accommodation",
+    "Travel",
+    "Money"
+  ],
+  "characters": [
+    "Guest",
+    "Receptionist"
+  ],
+  "voices": {
+    "Guest": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-MichelleNeural"
+    },
+    "Receptionist": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-EricNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Guest",
+      "text": "Good morning. I'd like to check out of room 215, please."
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "Good morning. Let me pull up your account. You were staying with us for three nights, correct?"
+    },
+    {
+      "speaker": "Guest",
+      "text": "Yes, from Monday to this morning."
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "Here is your itemized bill. The total comes to three hundred and forty dollars."
+    },
+    {
+      "speaker": "Guest",
+      "text": "Excuse me, but I see a charge for thirty dollars for the minibar. I didn't use the minibar at all."
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "I apologize for that. Let me check the housekeeping report for your room. You are right. The report shows that no items were taken from the minibar. I will remove that charge immediately."
+    },
+    {
+      "speaker": "Guest",
+      "text": "Thank you. I also see a parking fee of twenty dollars, but I didn't have a car."
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "Oh, I'm very sorry. That charge belongs to another room. Let me correct your bill right away."
+    },
+    {
+      "speaker": "Guest",
+      "text": "How much is the corrected total?"
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "The new total is two hundred and ninety dollars. That includes the room rate, breakfast, and the spa treatment you booked on Tuesday."
+    },
+    {
+      "speaker": "Guest",
+      "text": "That looks correct. Can I pay by credit card?"
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "Of course. Please insert your card into the reader here."
+    },
+    {
+      "speaker": "Guest",
+      "text": "Done. Could I also get a printed receipt for my records?"
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "Absolutely. Here is your receipt. I hope you enjoyed your stay with us."
+    },
+    {
+      "speaker": "Guest",
+      "text": "Yes, apart from the billing error, everything was wonderful. Thank you."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Guest",
+      "text": "Good morning. I'd like to check out of room 215, please.",
+      "translationVi": "Chào buổi sáng. Tôi muốn trả phòng 215, làm ơn.",
+      "durationMs": 5448
+    },
+    {
+      "id": "s2",
+      "speaker": "Receptionist",
+      "text": "Good morning. Let me pull up your account. You were staying with us for three nights, correct?",
+      "translationVi": "Chào buổi sáng. Để tôi mở tài khoản của bạn. Bạn ở lại với chúng tôi ba đêm, đúng không?",
+      "durationMs": 7464
+    },
+    {
+      "id": "s3",
+      "speaker": "Guest",
+      "text": "Yes, from Monday to this morning.",
+      "translationVi": "Vâng, từ thứ Hai đến sáng nay.",
+      "durationMs": 3024
+    },
+    {
+      "id": "s4",
+      "speaker": "Receptionist",
+      "text": "Here is your itemized bill. The total comes to three hundred and forty dollars.",
+      "translationVi": "Đây là hóa đơn chi tiết của bạn. Tổng cộng là ba trăm bốn mươi đô la.",
+      "durationMs": 5976
+    },
+    {
+      "id": "s5",
+      "speaker": "Guest",
+      "text": "Excuse me, but I see a charge for thirty dollars for the minibar. I didn't use the minibar at all.",
+      "translationVi": "Xin lỗi, nhưng tôi thấy một khoản phí ba mươi đô la cho tủ mini-bar. Tôi đã không dùng tủ mini-bar chút nào.",
+      "durationMs": 7008
+    },
+    {
+      "id": "s6",
+      "speaker": "Receptionist",
+      "text": "I apologize for that. Let me check the housekeeping report for your room.",
+      "translationVi": "Tôi xin lỗi về điều đó. Để tôi kiểm tra báo cáo dọn phòng của phòng bạn.",
+      "durationMs": 5664
+    },
+    {
+      "id": "s7",
+      "speaker": "Receptionist",
+      "text": "You are right. The report shows that no items were taken from the minibar. I will remove that charge immediately.",
+      "translationVi": "Bạn đúng rồi. Báo cáo cho thấy không có vật phẩm nào được lấy từ tủ mini-bar. Tôi sẽ xóa khoản phí đó ngay lập tức.",
+      "durationMs": 8976
+    },
+    {
+      "id": "s8",
+      "speaker": "Guest",
+      "text": "Thank you. I also see a parking fee of twenty dollars, but I didn't have a car.",
+      "translationVi": "Cảm ơn. Tôi cũng thấy một khoản phí đỗ xe hai mươi đô la, nhưng tôi không có xe hơi.",
+      "durationMs": 6096
+    },
+    {
+      "id": "s9",
+      "speaker": "Receptionist",
+      "text": "Oh, I'm very sorry. That charge belongs to another room. Let me correct your bill right away.",
+      "translationVi": "Ôi, tôi rất xin lỗi. Khoản phí đó thuộc về một phòng khác. Để tôi sửa hóa đơn của bạn ngay.",
+      "durationMs": 8136
+    },
+    {
+      "id": "s10",
+      "speaker": "Guest",
+      "text": "How much is the corrected total?",
+      "translationVi": "Tổng số tiền đã sửa là bao nhiêu?",
+      "durationMs": 2448
+    },
+    {
+      "id": "s11",
+      "speaker": "Receptionist",
+      "text": "The new total is two hundred and ninety dollars. That includes the room rate, breakfast, and the spa treatment you booked on Tuesday.",
+      "translationVi": "Tổng mới là hai trăm chín mươi đô la. Đó bao gồm tiền phòng, bữa sáng, và dịch vụ spa mà bạn đặt vào thứ Ba.",
+      "durationMs": 8928
+    },
+    {
+      "id": "s12",
+      "speaker": "Guest",
+      "text": "That looks correct. Can I pay by credit card?",
+      "translationVi": "Điều đó có vẻ đúng rồi. Tôi có thể trả bằng thẻ tín dụng không?",
+      "durationMs": 4272
+    },
+    {
+      "id": "s13",
+      "speaker": "Receptionist",
+      "text": "Of course. Please insert your card into the reader here.",
+      "translationVi": "Tất nhiên rồi. Vui lòng cắm thẻ của bạn vào đầu đọc thẻ ở đây.",
+      "durationMs": 4776
+    },
+    {
+      "id": "s14",
+      "speaker": "Guest",
+      "text": "Done. Could I also get a printed receipt for my records?",
+      "translationVi": "Xong rồi. Tôi cũng có thể lấy biên lai in để lưu hồ sơ không?",
+      "durationMs": 4656
+    },
+    {
+      "id": "s15",
+      "speaker": "Receptionist",
+      "text": "Absolutely. Here is your receipt. I hope you enjoyed your stay with us.",
+      "translationVi": "Chắc chắn rồi. Đây là biên lai của bạn. Tôi hy vọng bạn đã có kỳ nghỉ vui vẻ tại chúng tôi.",
+      "durationMs": 6648
+    },
+    {
+      "id": "s16",
+      "speaker": "Guest",
+      "text": "Yes, apart from the billing error, everything was wonderful. Thank you.",
+      "translationVi": "Vâng, ngoài lỗi thanh toán ra, mọi thứ đều tuyệt vời. Cảm ơn.",
+      "durationMs": 5832
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "I'd like to check out of …"
+    },
+    {
+      "id": "h2",
+      "text": "I see a charge for … but I didn't …"
+    },
+    {
+      "id": "h3",
+      "text": "Could you explain this charge on …?"
+    },
+    {
+      "id": "h4",
+      "text": "Can I pay by …?"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "itemized bill",
+      "meaningVi": "hóa đơn chi tiết",
+      "pronunciation": "/ˈaɪtəmaɪzd bɪl/"
+    },
+    {
+      "id": "v2",
+      "phrase": "minibar",
+      "meaningVi": "tủ đồ uống mini trong phòng khách sạn",
+      "pronunciation": "/ˈmɪnibɑːr/"
+    },
+    {
+      "id": "v3",
+      "phrase": "housekeeping report",
+      "meaningVi": "báo cáo dọn phòng",
+      "pronunciation": "/ˈhaʊskiːpɪŋ rɪˈpɔːrt/"
+    },
+    {
+      "id": "v4",
+      "phrase": "room rate",
+      "meaningVi": "giá phòng",
+      "pronunciation": "/ruːm reɪt/"
+    },
+    {
+      "id": "v5",
+      "phrase": "parking fee",
+      "meaningVi": "phí đỗ xe",
+      "pronunciation": "/ˈpɑːrkɪŋ fiː/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "check out of room 215",
+      "meaningVi": "trả phòng 215",
+      "pronunciation": "/tʃɛk aʊt əv ruːm tuː wʌn faɪv/"
+    },
+    {
+      "phrase": "pull up your account",
+      "meaningVi": "mở tài khoản của bạn",
+      "pronunciation": "/pʊl ʌp jər əˈkaʊnt/"
+    },
+    {
+      "phrase": "itemized bill",
+      "meaningVi": "hóa đơn chi tiết",
+      "pronunciation": "/ˈaɪtəmaɪzd bɪl/"
+    },
+    {
+      "phrase": "The total comes to",
+      "meaningVi": "Tổng cộng là",
+      "pronunciation": "/ðə ˈtoʊtl kʌmz tə/"
+    },
+    {
+      "phrase": "a charge for thirty dollars",
+      "meaningVi": "một khoản phí ba mươi đô la",
+      "pronunciation": "/ə tʃɑːrdʒ fər ˈθɜːrti ˈdɒlərz/"
+    },
+    {
+      "phrase": "the minibar",
+      "meaningVi": "tủ mini-bar",
+      "pronunciation": "/ðə ˈmɪnibɑːr/"
+    },
+    {
+      "phrase": "I didn't use the minibar at all",
+      "meaningVi": "Tôi đã không dùng tủ mini-bar chút nào",
+      "pronunciation": "/aɪ ˈdɪdnt juːz ðə ˈmɪnibɑːr æt ɔːl/"
+    },
+    {
+      "phrase": "housekeeping report",
+      "meaningVi": "báo cáo dọn phòng",
+      "pronunciation": "/ˈhaʊskiːpɪŋ rɪˈpɔːrt/"
+    },
+    {
+      "phrase": "no items were taken from the minibar",
+      "meaningVi": "không có vật phẩm nào được lấy từ tủ mini-bar",
+      "pronunciation": "/noʊ ˈaɪtəmz wər ˈteɪkən frɒm ðə ˈmɪnibɑːr/"
+    },
+    {
+      "phrase": "remove that charge immediately",
+      "meaningVi": "xóa khoản phí đó ngay lập tức",
+      "pronunciation": "/rɪˈmuːv ðæt tʃɑːrdʒ ɪˈmiːdiətli/"
+    },
+    {
+      "phrase": "parking fee",
+      "meaningVi": "phí đỗ xe",
+      "pronunciation": "/ˈpɑːrkɪŋ fiː/"
+    },
+    {
+      "phrase": "belongs to another room",
+      "meaningVi": "thuộc về một phòng khác",
+      "pronunciation": "/bɪˈlɒŋz tə əˈnʌðər ruːm/"
+    },
+    {
+      "phrase": "correct your bill",
+      "meaningVi": "sửa hóa đơn của bạn",
+      "pronunciation": "/kəˈrɛkt jər bɪl/"
+    },
+    {
+      "phrase": "room rate",
+      "meaningVi": "giá phòng",
+      "pronunciation": "/ruːm reɪt/"
+    },
+    {
+      "phrase": "spa treatment",
+      "meaningVi": "dịch vụ spa",
+      "pronunciation": "/spɑː ˈtriːtmənt/"
+    },
+    {
+      "phrase": "pay by credit card",
+      "meaningVi": "trả bằng thẻ tín dụng",
+      "pronunciation": "/peɪ baɪ ˈkrɛdɪt kɑːrd/"
+    },
+    {
+      "phrase": "printed receipt",
+      "meaningVi": "biên lai in",
+      "pronunciation": "/ˈprɪntɪd rɪˈsiːt/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Simple Past negative: didn't + verb",
+      "bodyVi": "Dùng 'didn't + verb' để phủ định hành động trong quá khứ. Ví dụ: 'I didn't use the minibar at all.' (Tôi đã không dùng tủ mini-bar chút nào.) và 'I didn't have a car.' (Tôi không có xe hơi.)",
+      "bodyEn": "Use 'didn't + base verb' to make a negative past statement. Example: 'I didn't use the minibar at all.' and 'I didn't have a car.'"
+    },
+    {
+      "title": "Polite complaints with 'but'",
+      "bodyVi": "Để phản đối lịch sự, dùng 'Excuse me, but I see...' hoặc 'I also see...'. Cấu trúc này giúp bạn nêu vấn đề mà không nghe có vẻ thô lỗ.",
+      "bodyEn": "To raise a polite complaint, use 'Excuse me, but I see...' or 'I also see...'. This structure lets you flag an issue without sounding rude."
+    }
+  ],
+  "translationVi": "Khách: Chào buổi sáng. Tôi muốn trả phòng 215, làm ơn. / Lễ tân: Chào buổi sáng. Để tôi mở tài khoản của bạn. Bạn ở lại với chúng tôi ba đêm, đúng không? / Khách: Vâng, từ thứ Hai đến sáng nay. / Lễ tân: Đây là hóa đơn chi tiết của bạn. Tổng cộng là ba trăm bốn mươi đô la. / Khách: Xin lỗi, nhưng tôi thấy một khoản phí ba mươi đô la cho tủ mini-bar. Tôi đã không dùng tủ mini-bar chút nào. / Lễ tân: Tôi xin lỗi về điều đó. Để tôi kiểm tra báo cáo dọn phòng của phòng bạn. Bạn đúng rồi. Báo cáo cho thấy không có vật phẩm nào được lấy từ tủ mini-bar. Tôi sẽ xóa khoản phí đó ngay lập tức. / Khách: Cảm ơn. Tôi cũng thấy một khoản phí đỗ xe hai mươi đô la, nhưng tôi không có xe hơi. / Lễ tân: Ôi, tôi rất xin lỗi. Khoản phí đó thuộc về một phòng khác. Để tôi sửa hóa đơn của bạn ngay. / Khách: Tổng số tiền đã sửa là bao nhiêu? / Lễ tân: Tổng mới là hai trăm chín mươi đô la. Đó bao gồm tiền phòng, bữa sáng, và dịch vụ spa mà bạn đặt vào thứ Ba. / Khách: Điều đó có vẻ đúng rồi. Tôi có thể trả bằng thẻ tín dụng không? / Lễ tân: Tất nhiên rồi. Vui lòng cắm thẻ của bạn vào đầu đọc thẻ ở đây. / Khách: Xong rồi. Tôi cũng có thể lấy biên lai in để lưu hồ sơ không? / Lễ tân: Chắc chắn rồi. Đây là biên lai của bạn. Tôi hy vọng bạn đã có kỳ nghỉ vui vẻ tại chúng tôi. / Khách: Vâng, ngoài lỗi thanh toán ra, mọi thứ đều tuyệt vời. Cảm ơn.",
+  "criticalThinkingQuestion": "Why is it important to check your hotel bill carefully before paying, even when you are in a hurry to leave?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-a2-103",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 95352
+}

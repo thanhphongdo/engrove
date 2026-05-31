@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "Whether tipping should be abolished by law or by culture",
   "summary": "Argue whether tipping should be abolished by legislation (a higher minimum wage and a service charge) or left to die on its own as a cultural practice — and which approach actually protects servers.",
-  "tags": ["Work", "Society", "Policy", "Argument"],
+  "tags": [
+    "Work",
+    "Society",
+    "Policy",
+    "Argument"
+  ],
   "topic": "Whether tipping should be abolished by law or by culture",
   "prompt": "Write a 350–500-word argumentative essay about whether tipping in restaurants should be abolished by law — through a higher minimum wage and a mandatory service charge — or left to die on its own as a cultural practice in cities where it is creeping in (Hanoi, Krakow, Bangkok, Mexico City, Buenos Aires). Which approach actually protects servers, and which protects diners' comfort? Use a 'what' cleft, a concession ('Granted,'), at least one passive construction, and one participle clause. Take a clear position. Avoid both anti-American and anti-server clichés.",
   "minWords": 350,
@@ -14,51 +19,170 @@
     "Granted, the argument for abolishing tipping by legislation assumes a regulatory state competent and willing to enforce a higher minimum wage and a real service charge, which is…"
   ],
   "hintVocab": [
-    { "phrase": "service charge", "meaningVi": "phí dịch vụ" },
-    { "phrase": "minimum wage", "meaningVi": "lương tối thiểu" },
-    { "phrase": "tipping culture", "meaningVi": "văn hóa tiền boa" },
-    { "phrase": "gratuity", "meaningVi": "tiền thưởng", "pronunciation": "/ɡrəˈtjuː.ə.ti/" },
-    { "phrase": "service worker", "meaningVi": "nhân viên dịch vụ" },
-    { "phrase": "to legislate against tipping", "meaningVi": "lập pháp chống tipping" },
-    { "phrase": "tip-pooled income", "meaningVi": "thu nhập từ tip gộp chung" },
-    { "phrase": "front-of-house staff", "meaningVi": "nhân viên phục vụ trực tiếp" },
-    { "phrase": "back-of-house staff", "meaningVi": "nhân viên bếp" },
-    { "phrase": "wage compression", "meaningVi": "nén lương" },
-    { "phrase": "to dignify wages", "meaningVi": "làm phẩm giá hóa lương" },
-    { "phrase": "discretionary tip", "meaningVi": "tip tùy ý" },
-    { "phrase": "the moral economy of the tip", "meaningVi": "kinh tế đạo đức của tiền boa" },
-    { "phrase": "to import a custom", "meaningVi": "nhập khẩu một phong tục" },
-    { "phrase": "expected percentage", "meaningVi": "phần trăm dự kiến" },
-    { "phrase": "creeping tipping", "meaningVi": "tipping đang lan dần" },
-    { "phrase": "to shift labour cost onto the customer", "meaningVi": "đẩy chi phí lao động sang khách hàng" },
-    { "phrase": "menu pricing", "meaningVi": "định giá menu" },
-    { "phrase": "tip jar", "meaningVi": "lọ đựng tiền boa" },
-    { "phrase": "guilt-tip prompt", "meaningVi": "lời nhắc tip vì áy náy" },
-    { "phrase": "the soft tyranny of choice", "meaningVi": "sự độc tài mềm của sự lựa chọn" },
-    { "phrase": "wage transparency", "meaningVi": "minh bạch về lương" }
+    {
+      "phrase": "service charge",
+      "meaningVi": "phí dịch vụ"
+    },
+    {
+      "phrase": "minimum wage",
+      "meaningVi": "lương tối thiểu"
+    },
+    {
+      "phrase": "tipping culture",
+      "meaningVi": "văn hóa tiền boa"
+    },
+    {
+      "phrase": "gratuity",
+      "meaningVi": "tiền thưởng",
+      "pronunciation": "/ɡrəˈtjuː.ə.ti/"
+    },
+    {
+      "phrase": "service worker",
+      "meaningVi": "nhân viên dịch vụ"
+    },
+    {
+      "phrase": "to legislate against tipping",
+      "meaningVi": "lập pháp chống tipping"
+    },
+    {
+      "phrase": "tip-pooled income",
+      "meaningVi": "thu nhập từ tip gộp chung"
+    },
+    {
+      "phrase": "front-of-house staff",
+      "meaningVi": "nhân viên phục vụ trực tiếp"
+    },
+    {
+      "phrase": "back-of-house staff",
+      "meaningVi": "nhân viên bếp"
+    },
+    {
+      "phrase": "wage compression",
+      "meaningVi": "nén lương"
+    },
+    {
+      "phrase": "to dignify wages",
+      "meaningVi": "làm phẩm giá hóa lương"
+    },
+    {
+      "phrase": "discretionary tip",
+      "meaningVi": "tip tùy ý"
+    },
+    {
+      "phrase": "the moral economy of the tip",
+      "meaningVi": "kinh tế đạo đức của tiền boa"
+    },
+    {
+      "phrase": "to import a custom",
+      "meaningVi": "nhập khẩu một phong tục"
+    },
+    {
+      "phrase": "expected percentage",
+      "meaningVi": "phần trăm dự kiến"
+    },
+    {
+      "phrase": "creeping tipping",
+      "meaningVi": "tipping đang lan dần"
+    },
+    {
+      "phrase": "to shift labour cost onto the customer",
+      "meaningVi": "đẩy chi phí lao động sang khách hàng"
+    },
+    {
+      "phrase": "menu pricing",
+      "meaningVi": "định giá menu"
+    },
+    {
+      "phrase": "tip jar",
+      "meaningVi": "lọ đựng tiền boa"
+    },
+    {
+      "phrase": "guilt-tip prompt",
+      "meaningVi": "lời nhắc tip vì áy náy"
+    },
+    {
+      "phrase": "the soft tyranny of choice",
+      "meaningVi": "sự độc tài mềm của sự lựa chọn"
+    },
+    {
+      "phrase": "wage transparency",
+      "meaningVi": "minh bạch về lương"
+    }
   ],
   "sampleText": "Walking out of a small restaurant in central Hanoi where the bill now includes a printed line suggesting a ten-per-cent tip in a city where no one tipped a decade ago, you notice that the waitress's smile depends on whether the diner ticked the box. The bill is presented gently. The choice is offered as a choice. The discomfort, on both sides, is structural and unspoken. Both the diner and the server know that the menu price is no longer the price.\n\nWhat a tip actually transfers, beyond the obvious cash, is something restaurant owners have long understood and lawmakers have generally been content to overlook. The tip is not just income. It is the means by which the cost of a labour contract is moved off the books of the employer and onto the conscience of the customer. The owner saves a percentage point on payroll. The diner pays the same total amount, or more. The server takes home a wage that has been reframed as generosity. The arrangement is convenient for everyone except the one who is most exposed to its variability — the server, whose income now fluctuates with the diner's mood.\n\nGranted, the argument for abolishing tipping by legislation assumes a regulatory state competent and willing to enforce a higher minimum wage and a real service charge, which is more than many countries can currently deliver. A blanket legal ban on tipping in a system where the underlying wage has not been raised would simply lower the server's take-home pay overnight. The case for legislation is conditional on the legislation being preceded by structural wage reform, and treating tipping as a standalone moral problem misses how it props up an underpaid sector.\n\nEven so, the alternative — that tipping will quietly fade through cultural change — is unconvincing in cities where it is currently spreading rather than receding. The 'guilt-tip' touchscreen prompt is not a polite invitation. It is a small piece of engineered social pressure designed to convert ambiguity into income. Cultures do not undo such pressure on their own; they require either an alternative they can point to (a transparent service charge) or a clear floor (a legally guaranteed wage). Pure cultural reasoning has not stopped tipping from advancing in any city where it has been introduced.\n\nThe defensible position is sequenced legislation rather than ban. Raise the minimum wage for restaurant workers to a level the sector can actually pay. Make a transparent service charge mandatory, fully distributed to staff, named on the menu and the bill. Then, and only then, ban the tip line at the bottom of the receipt. What is being protected, in that sequence, is not the tradition. It is the worker who has been carrying the cost of the tradition for two centuries.",
   "sampleAnnotations": [
-    { "phrase": "Walking out of a small restaurant in central Hanoi where the bill now includes a printed line suggesting a ten-per-cent tip in a city where no one tipped a decade ago, you notice that the waitress's smile depends on whether the diner ticked the box", "meaningVi": "Bước ra khỏi một nhà hàng nhỏ ở trung tâm Hà Nội nơi hóa đơn giờ bao gồm một dòng in đề xuất tiền boa mười phần trăm trong một thành phố mà không ai boa cách đây một thập kỷ, bạn nhận ra rằng nụ cười của cô phục vụ phụ thuộc vào việc thực khách có đánh dấu vào ô đó không" },
-    { "phrase": "The bill is presented gently. The choice is offered as a choice", "meaningVi": "Hóa đơn được trình bày nhẹ nhàng. Sự lựa chọn được đưa ra như một sự lựa chọn" },
-    { "phrase": "The discomfort, on both sides, is structural and unspoken", "meaningVi": "Sự khó chịu, ở cả hai phía, là có tính cấu trúc và không lời" },
-    { "phrase": "Both the diner and the server know that the menu price is no longer the price", "meaningVi": "Cả thực khách lẫn nhân viên phục vụ đều biết rằng giá menu không còn là giá nữa" },
-    { "phrase": "What a tip actually transfers, beyond the obvious cash, is something restaurant owners have long understood and lawmakers have generally been content to overlook", "meaningVi": "Điều mà một khoản tip thực sự chuyển giao, vượt ra ngoài tiền mặt hiển nhiên, là điều mà các chủ nhà hàng đã hiểu lâu nay và các nhà lập pháp nhìn chung hài lòng để bỏ qua" },
-    { "phrase": "The tip is not just income. It is the means by which the cost of a labour contract is moved off the books of the employer and onto the conscience of the customer", "meaningVi": "Tiền boa không chỉ là thu nhập. Đó là phương tiện mà qua đó chi phí của một hợp đồng lao động được chuyển ra khỏi sổ sách của người sử dụng lao động và sang lương tâm của khách hàng" },
-    { "phrase": "The owner saves a percentage point on payroll. The diner pays the same total amount, or more. The server takes home a wage that has been reframed as generosity", "meaningVi": "Chủ tiết kiệm được một điểm phần trăm trên bảng lương. Thực khách trả cùng tổng số tiền, hoặc nhiều hơn. Nhân viên phục vụ mang về nhà một mức lương đã được đóng khung lại như sự hào phóng" },
-    { "phrase": "The arrangement is convenient for everyone except the one who is most exposed to its variability — the server, whose income now fluctuates with the diner's mood", "meaningVi": "Sự sắp xếp tiện lợi cho mọi người trừ người chịu nhiều nhất sự biến động của nó — nhân viên phục vụ, mà thu nhập giờ dao động theo tâm trạng của thực khách" },
-    { "phrase": "the argument for abolishing tipping by legislation assumes a regulatory state competent and willing to enforce a higher minimum wage and a real service charge", "meaningVi": "lập luận cho việc bãi bỏ tipping bằng pháp luật giả định một nhà nước quản lý có năng lực và sẵn sàng thực thi mức lương tối thiểu cao hơn và phí dịch vụ thực sự" },
-    { "phrase": "A blanket legal ban on tipping in a system where the underlying wage has not been raised would simply lower the server's take-home pay overnight", "meaningVi": "Một lệnh cấm pháp lý toàn diện đối với tipping trong một hệ thống mà mức lương cơ bản chưa được nâng lên sẽ đơn giản là giảm mức lương đem về nhà của nhân viên phục vụ trong một đêm" },
-    { "phrase": "The case for legislation is conditional on the legislation being preceded by structural wage reform", "meaningVi": "Lập luận cho pháp luật là có điều kiện trên việc pháp luật được đi trước bởi cải cách lương có tính cấu trúc" },
-    { "phrase": "treating tipping as a standalone moral problem misses how it props up an underpaid sector", "meaningVi": "đối xử với tipping như một vấn đề đạo đức độc lập bỏ lỡ việc nó đỡ một ngành được trả lương kém" },
-    { "phrase": "the alternative — that tipping will quietly fade through cultural change — is unconvincing in cities where it is currently spreading rather than receding", "meaningVi": "lựa chọn thay thế — rằng tipping sẽ lặng lẽ phai đi qua thay đổi văn hóa — không thuyết phục trong các thành phố nơi nó hiện đang lan rộng hơn là lùi đi" },
-    { "phrase": "The 'guilt-tip' touchscreen prompt is not a polite invitation. It is a small piece of engineered social pressure designed to convert ambiguity into income", "meaningVi": "Lời nhắc màn hình cảm ứng 'tip vì áy náy' không phải là lời mời lịch sự. Đó là một mẩu nhỏ áp lực xã hội được thiết kế để chuyển sự mơ hồ thành thu nhập" },
-    { "phrase": "Cultures do not undo such pressure on their own; they require either an alternative they can point to (a transparent service charge) or a clear floor (a legally guaranteed wage)", "meaningVi": "Các nền văn hóa không tự xóa bỏ áp lực như vậy; chúng yêu cầu hoặc một lựa chọn thay thế mà họ có thể chỉ vào (một phí dịch vụ minh bạch) hoặc một mức sàn rõ ràng (một mức lương được pháp luật đảm bảo)" },
-    { "phrase": "Pure cultural reasoning has not stopped tipping from advancing in any city where it has been introduced", "meaningVi": "Lý luận thuần văn hóa đã không ngăn tipping tiến lên ở bất kỳ thành phố nào nó đã được giới thiệu" },
-    { "phrase": "Raise the minimum wage for restaurant workers to a level the sector can actually pay. Make a transparent service charge mandatory, fully distributed to staff, named on the menu and the bill. Then, and only then, ban the tip line at the bottom of the receipt", "meaningVi": "Tăng mức lương tối thiểu cho nhân viên nhà hàng đến mức mà ngành thực sự có thể trả. Làm cho một phí dịch vụ minh bạch trở thành bắt buộc, được phân phối đầy đủ cho nhân viên, được nêu trên menu và hóa đơn. Sau đó, và chỉ sau đó, cấm dòng tip ở cuối hóa đơn" },
-    { "phrase": "What is being protected, in that sequence, is not the tradition. It is the worker who has been carrying the cost of the tradition for two centuries", "meaningVi": "Điều đang được bảo vệ, trong trình tự đó, không phải là truyền thống. Đó là người công nhân đã gánh chi phí của truyền thống trong hai thế kỷ" },
-    { "phrase": "the soft tyranny of choice", "meaningVi": "sự độc tài mềm của sự lựa chọn" },
-    { "phrase": "wage transparency", "meaningVi": "minh bạch về lương" }
+    {
+      "phrase": "Walking out of a small restaurant in central Hanoi where the bill now includes a printed line suggesting a ten-per-cent tip in a city where no one tipped a decade ago, you notice that the waitress's smile depends on whether the diner ticked the box",
+      "meaningVi": "Bước ra khỏi một nhà hàng nhỏ ở trung tâm Hà Nội nơi hóa đơn giờ bao gồm một dòng in đề xuất tiền boa mười phần trăm trong một thành phố mà không ai boa cách đây một thập kỷ, bạn nhận ra rằng nụ cười của cô phục vụ phụ thuộc vào việc thực khách có đánh dấu vào ô đó không"
+    },
+    {
+      "phrase": "The bill is presented gently. The choice is offered as a choice",
+      "meaningVi": "Hóa đơn được trình bày nhẹ nhàng. Sự lựa chọn được đưa ra như một sự lựa chọn"
+    },
+    {
+      "phrase": "The discomfort, on both sides, is structural and unspoken",
+      "meaningVi": "Sự khó chịu, ở cả hai phía, là có tính cấu trúc và không lời"
+    },
+    {
+      "phrase": "Both the diner and the server know that the menu price is no longer the price",
+      "meaningVi": "Cả thực khách lẫn nhân viên phục vụ đều biết rằng giá menu không còn là giá nữa"
+    },
+    {
+      "phrase": "What a tip actually transfers, beyond the obvious cash, is something restaurant owners have long understood and lawmakers have generally been content to overlook",
+      "meaningVi": "Điều mà một khoản tip thực sự chuyển giao, vượt ra ngoài tiền mặt hiển nhiên, là điều mà các chủ nhà hàng đã hiểu lâu nay và các nhà lập pháp nhìn chung hài lòng để bỏ qua"
+    },
+    {
+      "phrase": "The tip is not just income. It is the means by which the cost of a labour contract is moved off the books of the employer and onto the conscience of the customer",
+      "meaningVi": "Tiền boa không chỉ là thu nhập. Đó là phương tiện mà qua đó chi phí của một hợp đồng lao động được chuyển ra khỏi sổ sách của người sử dụng lao động và sang lương tâm của khách hàng"
+    },
+    {
+      "phrase": "The owner saves a percentage point on payroll. The diner pays the same total amount, or more. The server takes home a wage that has been reframed as generosity",
+      "meaningVi": "Chủ tiết kiệm được một điểm phần trăm trên bảng lương. Thực khách trả cùng tổng số tiền, hoặc nhiều hơn. Nhân viên phục vụ mang về nhà một mức lương đã được đóng khung lại như sự hào phóng"
+    },
+    {
+      "phrase": "The arrangement is convenient for everyone except the one who is most exposed to its variability — the server, whose income now fluctuates with the diner's mood",
+      "meaningVi": "Sự sắp xếp tiện lợi cho mọi người trừ người chịu nhiều nhất sự biến động của nó — nhân viên phục vụ, mà thu nhập giờ dao động theo tâm trạng của thực khách"
+    },
+    {
+      "phrase": "the argument for abolishing tipping by legislation assumes a regulatory state competent and willing to enforce a higher minimum wage and a real service charge",
+      "meaningVi": "lập luận cho việc bãi bỏ tipping bằng pháp luật giả định một nhà nước quản lý có năng lực và sẵn sàng thực thi mức lương tối thiểu cao hơn và phí dịch vụ thực sự"
+    },
+    {
+      "phrase": "A blanket legal ban on tipping in a system where the underlying wage has not been raised would simply lower the server's take-home pay overnight",
+      "meaningVi": "Một lệnh cấm pháp lý toàn diện đối với tipping trong một hệ thống mà mức lương cơ bản chưa được nâng lên sẽ đơn giản là giảm mức lương đem về nhà của nhân viên phục vụ trong một đêm"
+    },
+    {
+      "phrase": "The case for legislation is conditional on the legislation being preceded by structural wage reform",
+      "meaningVi": "Lập luận cho pháp luật là có điều kiện trên việc pháp luật được đi trước bởi cải cách lương có tính cấu trúc"
+    },
+    {
+      "phrase": "treating tipping as a standalone moral problem misses how it props up an underpaid sector",
+      "meaningVi": "đối xử với tipping như một vấn đề đạo đức độc lập bỏ lỡ việc nó đỡ một ngành được trả lương kém"
+    },
+    {
+      "phrase": "the alternative — that tipping will quietly fade through cultural change — is unconvincing in cities where it is currently spreading rather than receding",
+      "meaningVi": "lựa chọn thay thế — rằng tipping sẽ lặng lẽ phai đi qua thay đổi văn hóa — không thuyết phục trong các thành phố nơi nó hiện đang lan rộng hơn là lùi đi"
+    },
+    {
+      "phrase": "The 'guilt-tip' touchscreen prompt is not a polite invitation. It is a small piece of engineered social pressure designed to convert ambiguity into income",
+      "meaningVi": "Lời nhắc màn hình cảm ứng 'tip vì áy náy' không phải là lời mời lịch sự. Đó là một mẩu nhỏ áp lực xã hội được thiết kế để chuyển sự mơ hồ thành thu nhập"
+    },
+    {
+      "phrase": "Cultures do not undo such pressure on their own; they require either an alternative they can point to (a transparent service charge) or a clear floor (a legally guaranteed wage)",
+      "meaningVi": "Các nền văn hóa không tự xóa bỏ áp lực như vậy; chúng yêu cầu hoặc một lựa chọn thay thế mà họ có thể chỉ vào (một phí dịch vụ minh bạch) hoặc một mức sàn rõ ràng (một mức lương được pháp luật đảm bảo)"
+    },
+    {
+      "phrase": "Pure cultural reasoning has not stopped tipping from advancing in any city where it has been introduced",
+      "meaningVi": "Lý luận thuần văn hóa đã không ngăn tipping tiến lên ở bất kỳ thành phố nào nó đã được giới thiệu"
+    },
+    {
+      "phrase": "Raise the minimum wage for restaurant workers to a level the sector can actually pay. Make a transparent service charge mandatory, fully distributed to staff, named on the menu and the bill. Then, and only then, ban the tip line at the bottom of the receipt",
+      "meaningVi": "Tăng mức lương tối thiểu cho nhân viên nhà hàng đến mức mà ngành thực sự có thể trả. Làm cho một phí dịch vụ minh bạch trở thành bắt buộc, được phân phối đầy đủ cho nhân viên, được nêu trên menu và hóa đơn. Sau đó, và chỉ sau đó, cấm dòng tip ở cuối hóa đơn"
+    },
+    {
+      "phrase": "What is being protected, in that sequence, is not the tradition. It is the worker who has been carrying the cost of the tradition for two centuries",
+      "meaningVi": "Điều đang được bảo vệ, trong trình tự đó, không phải là truyền thống. Đó là người công nhân đã gánh chi phí của truyền thống trong hai thế kỷ"
+    }
   ],
   "sampleGrammarNotes": [
     {

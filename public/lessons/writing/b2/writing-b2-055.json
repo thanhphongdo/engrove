@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "Whether older relatives should be asked about their regrets",
   "summary": "Argue whether adult children and grandchildren have a right or duty to ask elderly relatives about the choices they wish they had not made.",
-  "tags": ["Family", "Ethics", "Memory", "Argument"],
+  "tags": [
+    "Family",
+    "Ethics",
+    "Memory",
+    "Argument"
+  ],
   "topic": "Whether it is right to ask older relatives directly about what they regret in their lives",
   "prompt": "Write a 350–500-word argumentative essay about whether adult children and grandchildren should ask their elderly relatives directly about the choices they wish they had made differently — in cities such as Vilnius, Hue, Edinburgh, where intergenerational households are still common — or whether such questions intrude on a privacy the older generation has earned. Use a 'what' cleft, a concession ('Granted, …' or 'Admittedly, …'), at least one passive construction, and one participle clause. Anchor the argument in at least one specific person, family pattern, or city. Take a position.",
   "minWords": 350,
@@ -14,50 +19,169 @@
     "Sitting across from a great-aunt in Vilnius last winter, I asked her, more directly than I had intended, what she would have done differently if…"
   ],
   "hintVocab": [
-    { "phrase": "intergenerational household", "meaningVi": "hộ gia đình nhiều thế hệ" },
-    { "phrase": "to be remembered selectively", "meaningVi": "được nhớ một cách chọn lọc" },
-    { "phrase": "earned privacy", "meaningVi": "sự riêng tư đã được đền đáp" },
-    { "phrase": "to press a question", "meaningVi": "thúc ép một câu hỏi" },
-    { "phrase": "regret in retrospect", "meaningVi": "sự hối tiếc khi nhìn lại" },
-    { "phrase": "intrusive curiosity", "meaningVi": "tò mò xâm phạm" },
-    { "phrase": "deathbed confession", "meaningVi": "lời thú tội trên giường bệnh" },
-    { "phrase": "family folklore", "meaningVi": "truyền khẩu gia đình" },
-    { "phrase": "to extract a story", "meaningVi": "moi ra một câu chuyện" },
-    { "phrase": "to honour someone's silence", "meaningVi": "tôn trọng sự im lặng của ai đó" },
-    { "phrase": "the curated self", "meaningVi": "bản thân được chăm chút thể hiện" },
-    { "phrase": "intergenerational conversation", "meaningVi": "trò chuyện liên thế hệ" },
-    { "phrase": "private grief", "meaningVi": "nỗi buồn riêng tư" },
-    { "phrase": "to soften a question", "meaningVi": "làm dịu một câu hỏi" },
-    { "phrase": "the dignity of refusal", "meaningVi": "phẩm giá của sự từ chối" },
-    { "phrase": "to listen without correcting", "meaningVi": "lắng nghe mà không sửa lưng" },
-    { "phrase": "the kind of question one cannot un-ask", "meaningVi": "loại câu hỏi mà ta không thể rút lại" },
-    { "phrase": "to open a door someone closed long ago", "meaningVi": "mở một cánh cửa mà ai đó đã đóng từ lâu" },
-    { "phrase": "elderly relative", "meaningVi": "người thân lớn tuổi" },
-    { "phrase": "selective memory", "meaningVi": "ký ức chọn lọc" },
-    { "phrase": "to bear witness", "meaningVi": "làm chứng" }
+    {
+      "phrase": "intergenerational household",
+      "meaningVi": "hộ gia đình nhiều thế hệ"
+    },
+    {
+      "phrase": "to be remembered selectively",
+      "meaningVi": "được nhớ một cách chọn lọc"
+    },
+    {
+      "phrase": "earned privacy",
+      "meaningVi": "sự riêng tư đã được đền đáp"
+    },
+    {
+      "phrase": "to press a question",
+      "meaningVi": "thúc ép một câu hỏi"
+    },
+    {
+      "phrase": "regret in retrospect",
+      "meaningVi": "sự hối tiếc khi nhìn lại"
+    },
+    {
+      "phrase": "intrusive curiosity",
+      "meaningVi": "tò mò xâm phạm"
+    },
+    {
+      "phrase": "deathbed confession",
+      "meaningVi": "lời thú tội trên giường bệnh"
+    },
+    {
+      "phrase": "family folklore",
+      "meaningVi": "truyền khẩu gia đình"
+    },
+    {
+      "phrase": "to extract a story",
+      "meaningVi": "moi ra một câu chuyện"
+    },
+    {
+      "phrase": "to honour someone's silence",
+      "meaningVi": "tôn trọng sự im lặng của ai đó"
+    },
+    {
+      "phrase": "the curated self",
+      "meaningVi": "bản thân được chăm chút thể hiện"
+    },
+    {
+      "phrase": "intergenerational conversation",
+      "meaningVi": "trò chuyện liên thế hệ"
+    },
+    {
+      "phrase": "private grief",
+      "meaningVi": "nỗi buồn riêng tư"
+    },
+    {
+      "phrase": "to soften a question",
+      "meaningVi": "làm dịu một câu hỏi"
+    },
+    {
+      "phrase": "the dignity of refusal",
+      "meaningVi": "phẩm giá của sự từ chối"
+    },
+    {
+      "phrase": "to listen without correcting",
+      "meaningVi": "lắng nghe mà không sửa lưng"
+    },
+    {
+      "phrase": "the kind of question one cannot un-ask",
+      "meaningVi": "loại câu hỏi mà ta không thể rút lại"
+    },
+    {
+      "phrase": "to open a door someone closed long ago",
+      "meaningVi": "mở một cánh cửa mà ai đó đã đóng từ lâu"
+    },
+    {
+      "phrase": "elderly relative",
+      "meaningVi": "người thân lớn tuổi"
+    },
+    {
+      "phrase": "selective memory",
+      "meaningVi": "ký ức chọn lọc"
+    },
+    {
+      "phrase": "to bear witness",
+      "meaningVi": "làm chứng"
+    }
   ],
   "sampleText": "Sitting across from a great-aunt in Vilnius last winter, I asked her, more directly than I had intended, what she would have done differently. She was eighty-seven. She had survived two regimes, a brother's execution, and a marriage she had described, all my life, as fine. She looked at me for a long time before answering, and what she said took the rest of the afternoon to unpack.\n\nWhether one should ask such a question of an older relative is more contested than the easy answers usually allow. The polite side says: do not impose on someone who has earned the right to choose what they share. The hungry side says: ask now, while there is still someone to ask. Both positions have their dignity, and both can become wrong if held too rigidly.\n\nWhat a careful question about an older relative's regrets quietly offers is something that more cheerful family conversation rarely makes room for. It offers the chance for a person who has spent decades being the parent, the grandparent, the figure who held the family together, to step out of that role for an afternoon and be heard as someone who also made choices, lost things, and lived with the consequences. Not every elder wants this opening. Some, given it, will refuse it, and that refusal must be respected. But the offer is not, in itself, an intrusion.\n\nGranted, there is a version of this question that is selfish. A grandchild who interrogates an elderly relative in order to write a memoir, to settle a family argument, or to collect material for a school essay is not being curious in any honourable sense; they are extracting. The right to ask depends on what one intends to do with the answer. If the answer is meant to be heard, kept, and held quietly, the question is honourable. If it is meant to be used, the question may not be.\n\nEven so, the assumption that age automatically prefers silence about its losses underestimates many older people. Several studies of late-life conversation have suggested that elders are often more, not less, willing to discuss regret than their children expect — but that they need to be asked, gently and without expectation, by someone who is genuinely prepared to listen. The opportunity, once missed, does not return.\n\nAdmittedly, the question has to be asked with care. 'What do you regret?' is too blunt. 'Is there anything you have ever wanted to say to me that I have never asked about?' is closer. The skill is not in the asking but in what comes afterwards: the willingness to listen for forty minutes without correcting, without comforting too quickly, without making the answer about oneself.\n\nWhat one finally inherits from an older relative is rarely the objects in their flat. It is, more often, the things they were finally asked, and finally answered, while there was still time.",
   "sampleAnnotations": [
-    { "phrase": "Sitting across from a great-aunt in Vilnius last winter, I asked her, more directly than I had intended, what she would have done differently", "meaningVi": "Ngồi đối diện với một bà cô lớn ở Vilnius mùa đông năm ngoái, tôi đã hỏi bà, trực tiếp hơn so với dự định, bà sẽ làm gì khác đi" },
-    { "phrase": "a marriage she had described, all my life, as fine", "meaningVi": "một cuộc hôn nhân mà bà đã miêu tả, suốt cả cuộc đời tôi, là ổn thỏa" },
-    { "phrase": "She looked at me for a long time before answering, and what she said took the rest of the afternoon to unpack", "meaningVi": "Bà nhìn tôi một lúc lâu trước khi trả lời, và những gì bà nói đã mất hết buổi chiều còn lại để hiểu" },
-    { "phrase": "Whether one should ask such a question of an older relative is more contested than the easy answers usually allow", "meaningVi": "Liệu người ta có nên hỏi một câu như vậy với người thân lớn tuổi hay không là điều gây tranh cãi hơn so với những câu trả lời dễ dàng thường cho phép" },
-    { "phrase": "What a careful question about an older relative's regrets quietly offers is something that more cheerful family conversation rarely makes room for", "meaningVi": "Điều mà một câu hỏi cẩn thận về những hối tiếc của người thân lớn tuổi lặng lẽ trao tặng là điều mà những cuộc trò chuyện gia đình vui vẻ hơn hiếm khi nhường chỗ cho" },
-    { "phrase": "It offers the chance for a person who has spent decades being the parent, the grandparent, the figure who held the family together, to step out of that role for an afternoon", "meaningVi": "Nó trao cơ hội cho một người đã dành nhiều thập kỷ làm cha, làm bà, làm người gắn kết gia đình, để bước ra khỏi vai trò đó trong một buổi chiều" },
-    { "phrase": "be heard as someone who also made choices, lost things, and lived with the consequences", "meaningVi": "được lắng nghe như một người cũng đã đưa ra lựa chọn, mất mát, và sống với hậu quả" },
-    { "phrase": "Some, given it, will refuse it, and that refusal must be respected", "meaningVi": "Một số người, khi được trao cơ hội đó, sẽ từ chối, và sự từ chối đó phải được tôn trọng" },
-    { "phrase": "the offer is not, in itself, an intrusion", "meaningVi": "lời mời, tự bản thân nó, không phải là sự xâm phạm" },
-    { "phrase": "A grandchild who interrogates an elderly relative in order to write a memoir, to settle a family argument, or to collect material for a school essay is not being curious in any honourable sense; they are extracting", "meaningVi": "Một đứa cháu chất vấn người thân lớn tuổi để viết hồi ký, để giải quyết một cuộc tranh luận gia đình, hay để thu thập tài liệu cho một bài luận văn không phải là tò mò theo bất kỳ nghĩa đáng kính nào; họ đang moi móc" },
-    { "phrase": "The right to ask depends on what one intends to do with the answer", "meaningVi": "Quyền được hỏi phụ thuộc vào việc người ta dự định làm gì với câu trả lời" },
-    { "phrase": "the assumption that age automatically prefers silence about its losses underestimates many older people", "meaningVi": "giả định rằng tuổi tác tự động thích sự im lặng về những mất mát của mình đã đánh giá thấp nhiều người lớn tuổi" },
-    { "phrase": "elders are often more, not less, willing to discuss regret than their children expect", "meaningVi": "người lớn tuổi thường sẵn lòng thảo luận về sự hối tiếc nhiều hơn, chứ không ít hơn, so với những gì con cái họ mong đợi" },
-    { "phrase": "they need to be asked, gently and without expectation, by someone who is genuinely prepared to listen", "meaningVi": "họ cần được hỏi, một cách nhẹ nhàng và không kỳ vọng, bởi một người thực sự sẵn sàng lắng nghe" },
-    { "phrase": "The opportunity, once missed, does not return", "meaningVi": "Cơ hội, một khi đã bỏ lỡ, không quay trở lại" },
-    { "phrase": "'What do you regret?' is too blunt. 'Is there anything you have ever wanted to say to me that I have never asked about?' is closer", "meaningVi": "'Bà hối tiếc điều gì?' là quá thẳng thừng. 'Có điều gì bà luôn muốn nói với cháu mà cháu chưa bao giờ hỏi về không?' thì gần hơn" },
-    { "phrase": "the willingness to listen for forty minutes without correcting, without comforting too quickly, without making the answer about oneself", "meaningVi": "sự sẵn lòng lắng nghe trong bốn mươi phút mà không sửa lưng, không an ủi quá nhanh, không biến câu trả lời thành của mình" },
-    { "phrase": "What one finally inherits from an older relative is rarely the objects in their flat", "meaningVi": "Điều mà cuối cùng người ta thừa kế từ một người thân lớn tuổi hiếm khi là các đồ vật trong căn hộ của họ" },
-    { "phrase": "the things they were finally asked, and finally answered, while there was still time", "meaningVi": "những điều mà cuối cùng họ đã được hỏi, và cuối cùng đã trả lời, khi vẫn còn thời gian" },
-    { "phrase": "earned privacy", "meaningVi": "sự riêng tư đã được đền đáp" }
+    {
+      "phrase": "Sitting across from a great-aunt in Vilnius last winter, I asked her, more directly than I had intended, what she would have done differently",
+      "meaningVi": "Ngồi đối diện với một bà cô lớn ở Vilnius mùa đông năm ngoái, tôi đã hỏi bà, trực tiếp hơn so với dự định, bà sẽ làm gì khác đi"
+    },
+    {
+      "phrase": "a marriage she had described, all my life, as fine",
+      "meaningVi": "một cuộc hôn nhân mà bà đã miêu tả, suốt cả cuộc đời tôi, là ổn thỏa"
+    },
+    {
+      "phrase": "She looked at me for a long time before answering, and what she said took the rest of the afternoon to unpack",
+      "meaningVi": "Bà nhìn tôi một lúc lâu trước khi trả lời, và những gì bà nói đã mất hết buổi chiều còn lại để hiểu"
+    },
+    {
+      "phrase": "Whether one should ask such a question of an older relative is more contested than the easy answers usually allow",
+      "meaningVi": "Liệu người ta có nên hỏi một câu như vậy với người thân lớn tuổi hay không là điều gây tranh cãi hơn so với những câu trả lời dễ dàng thường cho phép"
+    },
+    {
+      "phrase": "What a careful question about an older relative's regrets quietly offers is something that more cheerful family conversation rarely makes room for",
+      "meaningVi": "Điều mà một câu hỏi cẩn thận về những hối tiếc của người thân lớn tuổi lặng lẽ trao tặng là điều mà những cuộc trò chuyện gia đình vui vẻ hơn hiếm khi nhường chỗ cho"
+    },
+    {
+      "phrase": "It offers the chance for a person who has spent decades being the parent, the grandparent, the figure who held the family together, to step out of that role for an afternoon",
+      "meaningVi": "Nó trao cơ hội cho một người đã dành nhiều thập kỷ làm cha, làm bà, làm người gắn kết gia đình, để bước ra khỏi vai trò đó trong một buổi chiều"
+    },
+    {
+      "phrase": "be heard as someone who also made choices, lost things, and lived with the consequences",
+      "meaningVi": "được lắng nghe như một người cũng đã đưa ra lựa chọn, mất mát, và sống với hậu quả"
+    },
+    {
+      "phrase": "Some, given it, will refuse it, and that refusal must be respected",
+      "meaningVi": "Một số người, khi được trao cơ hội đó, sẽ từ chối, và sự từ chối đó phải được tôn trọng"
+    },
+    {
+      "phrase": "the offer is not, in itself, an intrusion",
+      "meaningVi": "lời mời, tự bản thân nó, không phải là sự xâm phạm"
+    },
+    {
+      "phrase": "A grandchild who interrogates an elderly relative in order to write a memoir, to settle a family argument, or to collect material for a school essay is not being curious in any honourable sense; they are extracting",
+      "meaningVi": "Một đứa cháu chất vấn người thân lớn tuổi để viết hồi ký, để giải quyết một cuộc tranh luận gia đình, hay để thu thập tài liệu cho một bài luận văn không phải là tò mò theo bất kỳ nghĩa đáng kính nào; họ đang moi móc"
+    },
+    {
+      "phrase": "The right to ask depends on what one intends to do with the answer",
+      "meaningVi": "Quyền được hỏi phụ thuộc vào việc người ta dự định làm gì với câu trả lời"
+    },
+    {
+      "phrase": "the assumption that age automatically prefers silence about its losses underestimates many older people",
+      "meaningVi": "giả định rằng tuổi tác tự động thích sự im lặng về những mất mát của mình đã đánh giá thấp nhiều người lớn tuổi"
+    },
+    {
+      "phrase": "elders are often more, not less, willing to discuss regret than their children expect",
+      "meaningVi": "người lớn tuổi thường sẵn lòng thảo luận về sự hối tiếc nhiều hơn, chứ không ít hơn, so với những gì con cái họ mong đợi"
+    },
+    {
+      "phrase": "they need to be asked, gently and without expectation, by someone who is genuinely prepared to listen",
+      "meaningVi": "họ cần được hỏi, một cách nhẹ nhàng và không kỳ vọng, bởi một người thực sự sẵn sàng lắng nghe"
+    },
+    {
+      "phrase": "The opportunity, once missed, does not return",
+      "meaningVi": "Cơ hội, một khi đã bỏ lỡ, không quay trở lại"
+    },
+    {
+      "phrase": "'What do you regret?' is too blunt. 'Is there anything you have ever wanted to say to me that I have never asked about?' is closer",
+      "meaningVi": "'Bà hối tiếc điều gì?' là quá thẳng thừng. 'Có điều gì bà luôn muốn nói với cháu mà cháu chưa bao giờ hỏi về không?' thì gần hơn"
+    },
+    {
+      "phrase": "the willingness to listen for forty minutes without correcting, without comforting too quickly, without making the answer about oneself",
+      "meaningVi": "sự sẵn lòng lắng nghe trong bốn mươi phút mà không sửa lưng, không an ủi quá nhanh, không biến câu trả lời thành của mình"
+    },
+    {
+      "phrase": "What one finally inherits from an older relative is rarely the objects in their flat",
+      "meaningVi": "Điều mà cuối cùng người ta thừa kế từ một người thân lớn tuổi hiếm khi là các đồ vật trong căn hộ của họ"
+    },
+    {
+      "phrase": "the things they were finally asked, and finally answered, while there was still time",
+      "meaningVi": "những điều mà cuối cùng họ đã được hỏi, và cuối cùng đã trả lời, khi vẫn còn thời gian"
+    }
   ],
   "sampleGrammarNotes": [
     {

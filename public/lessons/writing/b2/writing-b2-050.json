@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "Whether a dying craft deserves a subsidy when no one wants to learn it",
   "summary": "Argue whether public money should keep a fading trade alive when the next generation has no interest in practising it.",
-  "tags": ["Culture", "Heritage", "Work", "Argument"],
+  "tags": [
+    "Culture",
+    "Heritage",
+    "Work",
+    "Argument"
+  ],
   "topic": "Whether dying crafts should be publicly funded when the next generation is uninterested",
   "prompt": "Write a 350–500-word argumentative essay about whether public funding should keep a vanishing craft alive — Neapolitan puppet-making, traditional Tashkent ceramics, hand-tooled bookbinding in Edinburgh — when fewer and fewer young people want to spend ten years learning it. Use a 'what' cleft, a concession ('Granted, …' or 'Admittedly, …'), at least one passive construction, and one participle clause. Anchor the argument in at least one named craft, city, or workshop. Take a clear position.",
   "minWords": 350,
@@ -14,50 +19,171 @@
     "In a workshop near the harbour in Naples, the last full-time maker of marionettes for the local puppet theatre is now…"
   ],
   "hintVocab": [
-    { "phrase": "dying craft", "meaningVi": "nghề đang mai một" },
-    { "phrase": "apprenticeship system", "meaningVi": "hệ thống học nghề" },
-    { "phrase": "to subsidise heritage skills", "meaningVi": "trợ cấp các kỹ năng di sản" },
-    { "phrase": "intangible cultural heritage", "meaningVi": "di sản văn hóa phi vật thể" },
-    { "phrase": "to commodify a tradition", "meaningVi": "biến một truyền thống thành hàng hóa" },
-    { "phrase": "master craftsman", "meaningVi": "thợ thủ công bậc thầy" },
-    { "phrase": "to be priced out by industrial production", "meaningVi": "bị loại khỏi thị trường bởi sản xuất công nghiệp" },
-    { "phrase": "skill transmission", "meaningVi": "sự truyền lại kỹ năng" },
-    { "phrase": "guild structure", "meaningVi": "cấu trúc phường hội" },
-    { "phrase": "the last practitioner", "meaningVi": "người hành nghề cuối cùng" },
-    { "phrase": "to atrophy through disuse", "meaningVi": "teo dần do không được sử dụng", "pronunciation": "/ˈæt.rə.fi/" },
-    { "phrase": "tooling and pattern-books", "meaningVi": "dụng cụ và sổ mẫu" },
-    { "phrase": "tacit knowledge", "meaningVi": "kiến thức ngầm / không lời", "pronunciation": "/ˈtæs.ɪt/" },
-    { "phrase": "to be reduced to museum display", "meaningVi": "bị thu nhỏ thành trưng bày bảo tàng" },
-    { "phrase": "cultural taxidermy", "meaningVi": "việc nhồi bông di sản (giữ xác mà không còn sự sống)" },
-    { "phrase": "vocational stipend", "meaningVi": "trợ cấp dạy nghề" },
-    { "phrase": "to find a contemporary application", "meaningVi": "tìm thấy một ứng dụng đương đại" },
-    { "phrase": "publicly funded workshop", "meaningVi": "xưởng được tài trợ công" },
-    { "phrase": "fading trade", "meaningVi": "nghề đang phai mờ" },
-    { "phrase": "to gentrify a craft", "meaningVi": "biến một nghề thành sản phẩm cao cấp" },
-    { "phrase": "to bear no resemblance to the original", "meaningVi": "không còn giống bản gốc chút nào" }
+    {
+      "phrase": "dying craft",
+      "meaningVi": "nghề đang mai một"
+    },
+    {
+      "phrase": "apprenticeship system",
+      "meaningVi": "hệ thống học nghề"
+    },
+    {
+      "phrase": "to subsidise heritage skills",
+      "meaningVi": "trợ cấp các kỹ năng di sản"
+    },
+    {
+      "phrase": "intangible cultural heritage",
+      "meaningVi": "di sản văn hóa phi vật thể"
+    },
+    {
+      "phrase": "to commodify a tradition",
+      "meaningVi": "biến một truyền thống thành hàng hóa"
+    },
+    {
+      "phrase": "master craftsman",
+      "meaningVi": "thợ thủ công bậc thầy"
+    },
+    {
+      "phrase": "to be priced out by industrial production",
+      "meaningVi": "bị loại khỏi thị trường bởi sản xuất công nghiệp"
+    },
+    {
+      "phrase": "skill transmission",
+      "meaningVi": "sự truyền lại kỹ năng"
+    },
+    {
+      "phrase": "guild structure",
+      "meaningVi": "cấu trúc phường hội"
+    },
+    {
+      "phrase": "the last practitioner",
+      "meaningVi": "người hành nghề cuối cùng"
+    },
+    {
+      "phrase": "to atrophy through disuse",
+      "meaningVi": "teo dần do không được sử dụng",
+      "pronunciation": "/ˈæt.rə.fi/"
+    },
+    {
+      "phrase": "tooling and pattern-books",
+      "meaningVi": "dụng cụ và sổ mẫu"
+    },
+    {
+      "phrase": "tacit knowledge",
+      "meaningVi": "kiến thức ngầm / không lời",
+      "pronunciation": "/ˈtæs.ɪt/"
+    },
+    {
+      "phrase": "to be reduced to museum display",
+      "meaningVi": "bị thu nhỏ thành trưng bày bảo tàng"
+    },
+    {
+      "phrase": "cultural taxidermy",
+      "meaningVi": "việc nhồi bông di sản (giữ xác mà không còn sự sống)"
+    },
+    {
+      "phrase": "vocational stipend",
+      "meaningVi": "trợ cấp dạy nghề"
+    },
+    {
+      "phrase": "to find a contemporary application",
+      "meaningVi": "tìm thấy một ứng dụng đương đại"
+    },
+    {
+      "phrase": "publicly funded workshop",
+      "meaningVi": "xưởng được tài trợ công"
+    },
+    {
+      "phrase": "fading trade",
+      "meaningVi": "nghề đang phai mờ"
+    },
+    {
+      "phrase": "to gentrify a craft",
+      "meaningVi": "biến một nghề thành sản phẩm cao cấp"
+    },
+    {
+      "phrase": "to bear no resemblance to the original",
+      "meaningVi": "không còn giống bản gốc chút nào"
+    }
   ],
   "sampleText": "In a workshop near the harbour in Naples, the last full-time maker of marionettes for the local puppet theatre is now in his late seventies. He has trained no successor. The municipality has, for several years, offered a modest stipend to anyone who will study under him; only one young woman has accepted, and she splits her time with a graphic design job to make rent. When he stops, what he knows stops with him.\n\nWhether public money should be used to prevent that ending is a more complicated question than either side usually allows. The romantic case for preservation tends to assume that every disappearing craft deserves rescue. The opposing case tends to assume that if nobody wants to do the work, the work was no longer needed. Both positions skip past the question that actually matters.\n\nWhat public subsidy for a dying craft is actually paying for is rarely the craft itself, in any narrow sense. The world will not be measurably poorer for the absence of one more marionette workshop. What is being funded, when funding works, is the conditions under which a particular kind of knowledge can be transmitted: time, tools, a roof, a master willing to teach, and a learner willing to be slow. Without those conditions, even a craft with genuine contemporary value disappears in a generation.\n\nAdmittedly, not every fading trade deserves this treatment. Some crafts vanish because the thing they made is no longer needed, no longer wanted, and no longer interesting except as a curiosity. A subsidy for a dying craft whose products no one will ever use again is not heritage protection; it is a form of cultural taxidermy. Public money is finite, and choices have to be made about which knowledge is worth keeping live.\n\nEven so, the test cannot simply be whether young people are currently lining up to learn. Apprenticeship was never an instinct in any era; it was a structure. Crafts survived for centuries because guild systems, apprentice stipends, and steady commissions made it economically possible to spend ten years becoming competent. Where modern markets no longer provide that scaffolding for crafts that still have living usefulness — restoration, conservation, specialist repair — public subsidy is doing exactly what public goods are for.\n\nGranted, the line between living craft and museum exhibit is not always obvious. A reasonable policy would fund crafts that retain genuine contemporary application, with clear succession plans and meaningful demand; it would not preserve a workshop simply because someone once filmed it for a documentary. The question worth asking before any subsidy is signed off is not whether the craft is old, but whether anyone, in twenty years, will still need what it makes.",
   "sampleAnnotations": [
-    { "phrase": "the last full-time maker of marionettes for the local puppet theatre is now in his late seventies", "meaningVi": "người làm marionette toàn thời gian cuối cùng cho nhà hát múa rối địa phương hiện đã ngoài bảy mươi" },
-    { "phrase": "The municipality has, for several years, offered a modest stipend to anyone who will study under him", "meaningVi": "Chính quyền địa phương, trong vài năm qua, đã đề nghị một khoản trợ cấp khiêm tốn cho bất kỳ ai sẽ học dưới quyền ông" },
-    { "phrase": "When he stops, what he knows stops with him", "meaningVi": "Khi ông ngừng làm, những gì ông biết cũng ngừng theo" },
-    { "phrase": "Whether public money should be used to prevent that ending is a more complicated question than either side usually allows", "meaningVi": "Liệu tiền công có nên được sử dụng để ngăn chặn cái kết thúc đó hay không là một câu hỏi phức tạp hơn so với những gì mỗi bên thường thừa nhận" },
-    { "phrase": "The romantic case for preservation tends to assume that every disappearing craft deserves rescue", "meaningVi": "Quan điểm lãng mạn về việc bảo tồn có xu hướng giả định rằng mỗi nghề đang biến mất đều xứng đáng được cứu" },
-    { "phrase": "Both positions skip past the question that actually matters", "meaningVi": "Cả hai quan điểm đều bỏ qua câu hỏi thực sự quan trọng" },
-    { "phrase": "What public subsidy for a dying craft is actually paying for is rarely the craft itself, in any narrow sense", "meaningVi": "Điều mà trợ cấp công cho một nghề đang chết thực sự chi trả hiếm khi là chính nghề đó, theo bất kỳ nghĩa hẹp nào" },
-    { "phrase": "What is being funded, when funding works, is the conditions under which a particular kind of knowledge can be transmitted", "meaningVi": "Điều đang được tài trợ, khi tài trợ có hiệu quả, là các điều kiện mà một loại kiến thức cụ thể có thể được truyền đạt" },
-    { "phrase": "a master willing to teach, and a learner willing to be slow", "meaningVi": "một bậc thầy sẵn lòng dạy, và một người học sẵn lòng đi chậm" },
-    { "phrase": "even a craft with genuine contemporary value disappears in a generation", "meaningVi": "ngay cả một nghề có giá trị đương đại thực sự cũng biến mất trong một thế hệ" },
-    { "phrase": "A subsidy for a dying craft whose products no one will ever use again is not heritage protection; it is a form of cultural taxidermy", "meaningVi": "Một khoản trợ cấp cho một nghề đang chết mà sản phẩm của nó không ai sẽ dùng lại không phải là bảo vệ di sản; đó là một hình thức nhồi bông văn hóa" },
-    { "phrase": "Public money is finite, and choices have to be made about which knowledge is worth keeping live", "meaningVi": "Tiền công là hữu hạn, và phải có những lựa chọn về kiến thức nào đáng được giữ sống" },
-    { "phrase": "the test cannot simply be whether young people are currently lining up to learn", "meaningVi": "bài kiểm tra không thể đơn giản là liệu người trẻ có đang xếp hàng để học hay không" },
-    { "phrase": "Apprenticeship was never an instinct in any era; it was a structure", "meaningVi": "Học nghề chưa bao giờ là một bản năng ở bất kỳ thời đại nào; nó là một cấu trúc" },
-    { "phrase": "Crafts survived for centuries because guild systems, apprentice stipends, and steady commissions made it economically possible", "meaningVi": "Các nghề thủ công tồn tại trong nhiều thế kỷ vì các hệ thống phường hội, trợ cấp học nghề, và các đơn đặt hàng ổn định đã làm cho điều đó khả thi về mặt kinh tế" },
-    { "phrase": "Where modern markets no longer provide that scaffolding for crafts that still have living usefulness", "meaningVi": "Nơi mà các thị trường hiện đại không còn cung cấp giàn giáo đó cho các nghề vẫn có tính hữu ích sống động" },
-    { "phrase": "the line between living craft and museum exhibit is not always obvious", "meaningVi": "ranh giới giữa nghề thủ công đang sống và hiện vật bảo tàng không phải lúc nào cũng rõ ràng" },
-    { "phrase": "A reasonable policy would fund crafts that retain genuine contemporary application", "meaningVi": "Một chính sách hợp lý sẽ tài trợ các nghề vẫn giữ được ứng dụng đương đại thực sự" },
-    { "phrase": "The question worth asking before any subsidy is signed off is not whether the craft is old, but whether anyone, in twenty years, will still need what it makes", "meaningVi": "Câu hỏi đáng đặt ra trước khi bất kỳ khoản trợ cấp nào được phê duyệt không phải là nghề đó có cũ hay không, mà là liệu có ai, trong hai mươi năm nữa, sẽ vẫn cần những gì nó tạo ra hay không" },
-    { "phrase": "to commodify a tradition", "meaningVi": "biến một truyền thống thành hàng hóa" }
+    {
+      "phrase": "the last full-time maker of marionettes for the local puppet theatre is now in his late seventies",
+      "meaningVi": "người làm marionette toàn thời gian cuối cùng cho nhà hát múa rối địa phương hiện đã ngoài bảy mươi"
+    },
+    {
+      "phrase": "The municipality has, for several years, offered a modest stipend to anyone who will study under him",
+      "meaningVi": "Chính quyền địa phương, trong vài năm qua, đã đề nghị một khoản trợ cấp khiêm tốn cho bất kỳ ai sẽ học dưới quyền ông"
+    },
+    {
+      "phrase": "When he stops, what he knows stops with him",
+      "meaningVi": "Khi ông ngừng làm, những gì ông biết cũng ngừng theo"
+    },
+    {
+      "phrase": "Whether public money should be used to prevent that ending is a more complicated question than either side usually allows",
+      "meaningVi": "Liệu tiền công có nên được sử dụng để ngăn chặn cái kết thúc đó hay không là một câu hỏi phức tạp hơn so với những gì mỗi bên thường thừa nhận"
+    },
+    {
+      "phrase": "The romantic case for preservation tends to assume that every disappearing craft deserves rescue",
+      "meaningVi": "Quan điểm lãng mạn về việc bảo tồn có xu hướng giả định rằng mỗi nghề đang biến mất đều xứng đáng được cứu"
+    },
+    {
+      "phrase": "Both positions skip past the question that actually matters",
+      "meaningVi": "Cả hai quan điểm đều bỏ qua câu hỏi thực sự quan trọng"
+    },
+    {
+      "phrase": "What public subsidy for a dying craft is actually paying for is rarely the craft itself, in any narrow sense",
+      "meaningVi": "Điều mà trợ cấp công cho một nghề đang chết thực sự chi trả hiếm khi là chính nghề đó, theo bất kỳ nghĩa hẹp nào"
+    },
+    {
+      "phrase": "What is being funded, when funding works, is the conditions under which a particular kind of knowledge can be transmitted",
+      "meaningVi": "Điều đang được tài trợ, khi tài trợ có hiệu quả, là các điều kiện mà một loại kiến thức cụ thể có thể được truyền đạt"
+    },
+    {
+      "phrase": "a master willing to teach, and a learner willing to be slow",
+      "meaningVi": "một bậc thầy sẵn lòng dạy, và một người học sẵn lòng đi chậm"
+    },
+    {
+      "phrase": "even a craft with genuine contemporary value disappears in a generation",
+      "meaningVi": "ngay cả một nghề có giá trị đương đại thực sự cũng biến mất trong một thế hệ"
+    },
+    {
+      "phrase": "A subsidy for a dying craft whose products no one will ever use again is not heritage protection; it is a form of cultural taxidermy",
+      "meaningVi": "Một khoản trợ cấp cho một nghề đang chết mà sản phẩm của nó không ai sẽ dùng lại không phải là bảo vệ di sản; đó là một hình thức nhồi bông văn hóa"
+    },
+    {
+      "phrase": "Public money is finite, and choices have to be made about which knowledge is worth keeping live",
+      "meaningVi": "Tiền công là hữu hạn, và phải có những lựa chọn về kiến thức nào đáng được giữ sống"
+    },
+    {
+      "phrase": "the test cannot simply be whether young people are currently lining up to learn",
+      "meaningVi": "bài kiểm tra không thể đơn giản là liệu người trẻ có đang xếp hàng để học hay không"
+    },
+    {
+      "phrase": "Apprenticeship was never an instinct in any era; it was a structure",
+      "meaningVi": "Học nghề chưa bao giờ là một bản năng ở bất kỳ thời đại nào; nó là một cấu trúc"
+    },
+    {
+      "phrase": "Crafts survived for centuries because guild systems, apprentice stipends, and steady commissions made it economically possible",
+      "meaningVi": "Các nghề thủ công tồn tại trong nhiều thế kỷ vì các hệ thống phường hội, trợ cấp học nghề, và các đơn đặt hàng ổn định đã làm cho điều đó khả thi về mặt kinh tế"
+    },
+    {
+      "phrase": "Where modern markets no longer provide that scaffolding for crafts that still have living usefulness",
+      "meaningVi": "Nơi mà các thị trường hiện đại không còn cung cấp giàn giáo đó cho các nghề vẫn có tính hữu ích sống động"
+    },
+    {
+      "phrase": "the line between living craft and museum exhibit is not always obvious",
+      "meaningVi": "ranh giới giữa nghề thủ công đang sống và hiện vật bảo tàng không phải lúc nào cũng rõ ràng"
+    },
+    {
+      "phrase": "A reasonable policy would fund crafts that retain genuine contemporary application",
+      "meaningVi": "Một chính sách hợp lý sẽ tài trợ các nghề vẫn giữ được ứng dụng đương đại thực sự"
+    },
+    {
+      "phrase": "The question worth asking before any subsidy is signed off is not whether the craft is old, but whether anyone, in twenty years, will still need what it makes",
+      "meaningVi": "Câu hỏi đáng đặt ra trước khi bất kỳ khoản trợ cấp nào được phê duyệt không phải là nghề đó có cũ hay không, mà là liệu có ai, trong hai mươi năm nữa, sẽ vẫn cần những gì nó tạo ra hay không"
+    }
   ],
   "sampleGrammarNotes": [
     {

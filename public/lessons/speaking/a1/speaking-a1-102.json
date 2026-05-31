@@ -1,0 +1,291 @@
+{
+  "id": "speaking-a1-102",
+  "level": "A1",
+  "title": "Asking About the Bus Fare",
+  "summary": "A passenger asks the bus driver how much the fare is and where to pay.",
+  "topic": "bus fare",
+  "tags": [
+    "Travel",
+    "Transport"
+  ],
+  "characters": [
+    "Mia",
+    "Driver"
+  ],
+  "voices": {
+    "Mia": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-JennyNeural"
+    },
+    "Driver": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-GuyNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Mia",
+      "text": "Excuse me. How much is the bus fare?"
+    },
+    {
+      "speaker": "Driver",
+      "text": "The fare is two dollars."
+    },
+    {
+      "speaker": "Mia",
+      "text": "Do I pay now?"
+    },
+    {
+      "speaker": "Driver",
+      "text": "Yes. Please pay when you get on."
+    },
+    {
+      "speaker": "Mia",
+      "text": "Do you have change?"
+    },
+    {
+      "speaker": "Driver",
+      "text": "Sorry, no change."
+    },
+    {
+      "speaker": "Mia",
+      "text": "Can I pay by card?"
+    },
+    {
+      "speaker": "Driver",
+      "text": "Yes, you can."
+    },
+    {
+      "speaker": "Mia",
+      "text": "Where do I tap the card?"
+    },
+    {
+      "speaker": "Driver",
+      "text": "Tap it on the reader near the door."
+    },
+    {
+      "speaker": "Mia",
+      "text": "Thank you very much."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Mia",
+      "text": "Excuse me.",
+      "translationVi": "Xin lỗi.",
+      "durationMs": 1824
+    },
+    {
+      "id": "s2",
+      "speaker": "Mia",
+      "text": "How much is the bus fare?",
+      "translationVi": "Vé xe buýt giá bao nhiêu?",
+      "durationMs": 2328
+    },
+    {
+      "id": "s3",
+      "speaker": "Driver",
+      "text": "The fare is two dollars.",
+      "translationVi": "Vé là hai đô la.",
+      "durationMs": 2424
+    },
+    {
+      "id": "s4",
+      "speaker": "Mia",
+      "text": "Do I pay now?",
+      "translationVi": "Tôi trả tiền ngay bây giờ không?",
+      "durationMs": 1824
+    },
+    {
+      "id": "s5",
+      "speaker": "Driver",
+      "text": "Yes. Please pay when you get on.",
+      "translationVi": "Vâng. Vui lòng trả tiền khi lên xe.",
+      "durationMs": 3768
+    },
+    {
+      "id": "s6",
+      "speaker": "Mia",
+      "text": "Do you have change?",
+      "translationVi": "Bạn có tiền lẻ không?",
+      "durationMs": 1992
+    },
+    {
+      "id": "s7",
+      "speaker": "Driver",
+      "text": "Sorry, no change.",
+      "translationVi": "Xin lỗi, không có tiền lẻ.",
+      "durationMs": 2328
+    },
+    {
+      "id": "s8",
+      "speaker": "Mia",
+      "text": "Can I pay by card?",
+      "translationVi": "Tôi có thể trả bằng thẻ không?",
+      "durationMs": 2016
+    },
+    {
+      "id": "s9",
+      "speaker": "Driver",
+      "text": "Yes, you can.",
+      "translationVi": "Vâng, bạn có thể.",
+      "durationMs": 2136
+    },
+    {
+      "id": "s10",
+      "speaker": "Mia",
+      "text": "Where do I tap the card?",
+      "translationVi": "Tôi chạm thẻ ở đâu?",
+      "durationMs": 2208
+    },
+    {
+      "id": "s11",
+      "speaker": "Driver",
+      "text": "Tap it on the reader near the door.",
+      "translationVi": "Chạm thẻ vào máy đọc gần cửa.",
+      "durationMs": 2880
+    },
+    {
+      "id": "s12",
+      "speaker": "Mia",
+      "text": "Thank you very much.",
+      "translationVi": "Cảm ơn bạn rất nhiều.",
+      "durationMs": 2136
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "How much is …?"
+    },
+    {
+      "id": "h2",
+      "text": "Can I pay by …?"
+    },
+    {
+      "id": "h3",
+      "text": "Where do I …?"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "bus fare",
+      "meaningVi": "giá vé xe buýt",
+      "pronunciation": "/bʌs fɛr/"
+    },
+    {
+      "id": "v2",
+      "phrase": "pay",
+      "meaningVi": "trả tiền",
+      "pronunciation": "/peɪ/"
+    },
+    {
+      "id": "v3",
+      "phrase": "change",
+      "meaningVi": "tiền lẻ",
+      "pronunciation": "/tʃeɪndʒ/"
+    },
+    {
+      "id": "v4",
+      "phrase": "card",
+      "meaningVi": "thẻ",
+      "pronunciation": "/kɑːrd/"
+    },
+    {
+      "id": "v5",
+      "phrase": "the door",
+      "meaningVi": "cái cửa",
+      "pronunciation": "/ðə dɔːr/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "Excuse me",
+      "meaningVi": "Xin lỗi (để thu hút sự chú ý)",
+      "pronunciation": "/ɪkˈskjuːz miː/"
+    },
+    {
+      "phrase": "bus fare",
+      "meaningVi": "giá vé xe buýt",
+      "pronunciation": "/bʌs fɛr/"
+    },
+    {
+      "phrase": "How much",
+      "meaningVi": "bao nhiêu (tiền)",
+      "pronunciation": "/haʊ mʌtʃ/"
+    },
+    {
+      "phrase": "two dollars",
+      "meaningVi": "hai đô la",
+      "pronunciation": "/tuː ˈdɑːlərz/"
+    },
+    {
+      "phrase": "pay now",
+      "meaningVi": "trả tiền ngay",
+      "pronunciation": "/peɪ naʊ/"
+    },
+    {
+      "phrase": "get on",
+      "meaningVi": "lên (xe)",
+      "pronunciation": "/ɡɛt ɒn/"
+    },
+    {
+      "phrase": "change",
+      "meaningVi": "tiền lẻ",
+      "pronunciation": "/tʃeɪndʒ/"
+    },
+    {
+      "phrase": "by card",
+      "meaningVi": "bằng thẻ",
+      "pronunciation": "/baɪ kɑːrd/"
+    },
+    {
+      "phrase": "tap",
+      "meaningVi": "chạm (thẻ)",
+      "pronunciation": "/tæp/"
+    },
+    {
+      "phrase": "the reader",
+      "meaningVi": "máy đọc thẻ",
+      "pronunciation": "/ðə ˈriːdər/"
+    },
+    {
+      "phrase": "near the door",
+      "meaningVi": "gần cửa",
+      "pronunciation": "/nɪr ðə dɔːr/"
+    },
+    {
+      "phrase": "Thank you very much",
+      "meaningVi": "Cảm ơn bạn rất nhiều",
+      "pronunciation": "/θæŋk juː ˈvɛri mʌtʃ/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "How much is …?",
+      "bodyVi": "Dùng 'How much is …?' để hỏi giá của một thứ gì đó. Ví dụ: 'How much is the bus fare?' = Vé xe buýt giá bao nhiêu?",
+      "bodyEn": "Use 'How much is …?' to ask the price of something. Example: 'How much is the bus fare?'"
+    },
+    {
+      "title": "Can I …?",
+      "bodyVi": "Dùng 'Can I …?' để xin phép làm điều gì đó. Ví dụ: 'Can I pay by card?' = Tôi có thể trả bằng thẻ không?",
+      "bodyEn": "Use 'Can I …?' to ask for permission to do something. Example: 'Can I pay by card?'"
+    }
+  ],
+  "translationVi": "Mia: Xin lỗi. / Mia: Vé xe buýt giá bao nhiêu? / Driver: Vé là hai đô la. / Mia: Tôi trả tiền ngay bây giờ không? / Driver: Vâng. Vui lòng trả tiền khi lên xe. / Mia: Bạn có tiền lẻ không? / Driver: Xin lỗi, không có tiền lẻ. / Mia: Tôi có thể trả bằng thẻ không? / Driver: Vâng, bạn có thể. / Mia: Tôi chạm thẻ ở đâu? / Driver: Chạm thẻ vào máy đọc gần cửa. / Mia: Cảm ơn bạn rất nhiều.",
+  "criticalThinkingQuestion": "Why is it important to have exact change or a card when riding a bus in a new city?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-a1-102",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 27864
+}

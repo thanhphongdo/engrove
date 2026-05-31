@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "Whether neighbourhoods should ban short-term rentals",
   "summary": "Argue whether residential neighbourhoods should ban or strictly cap short-term holiday rentals (Airbnb, booking platforms) to protect long-term residents, or accept that the income matters too much to outlaw.",
-  "tags": ["Housing", "Tourism", "Community", "Argument"],
+  "tags": [
+    "Housing",
+    "Tourism",
+    "Community",
+    "Argument"
+  ],
   "topic": "Whether neighbourhoods should ban or strictly cap short-term rentals",
   "prompt": "Write a 350–500-word argumentative essay about whether residential neighbourhoods in cities like Lisbon, Krakow, Hue, or Buenos Aires should ban short-term holiday rentals (Airbnb and equivalent platforms) — or strictly cap them — to protect long-term residents, or whether the income matters too much to outlaw. Anchor in a specific neighbourhood. Use a 'what' cleft, a concession ('Granted,'), at least one passive construction, and one participle clause. Take a clear position. Avoid blanket Airbnb-bashing.",
   "minWords": 350,
@@ -14,51 +19,174 @@
     "Granted, the income that a flat in Alfama generates as a holiday rental can be the difference between an elderly owner staying in the neighbourhood and being…"
   ],
   "hintVocab": [
-    { "phrase": "short-term rental", "meaningVi": "cho thuê ngắn hạn" },
-    { "phrase": "long-term resident", "meaningVi": "cư dân lâu dài" },
-    { "phrase": "rental cap", "meaningVi": "giới hạn cho thuê" },
-    { "phrase": "tourist let", "meaningVi": "cho khách du lịch thuê" },
-    { "phrase": "neighbourhood association", "meaningVi": "hội cư dân khu phố" },
-    { "phrase": "housing supply", "meaningVi": "nguồn cung nhà ở" },
-    { "phrase": "year-round resident", "meaningVi": "cư dân quanh năm" },
-    { "phrase": "rent inflation", "meaningVi": "lạm phát giá thuê" },
-    { "phrase": "key-box", "meaningVi": "hộp đựng chìa khóa" },
-    { "phrase": "to displace residents", "meaningVi": "đẩy cư dân đi" },
-    { "phrase": "platform listing", "meaningVi": "danh sách trên nền tảng" },
-    { "phrase": "transient occupancy", "meaningVi": "sự lưu trú tạm thời", "pronunciation": "/ˈtræn.zi.ənt/" },
-    { "phrase": "civic fabric", "meaningVi": "kết cấu dân sự" },
-    { "phrase": "to hollow out a street", "meaningVi": "làm rỗng một con phố" },
-    { "phrase": "supplemental income", "meaningVi": "thu nhập bổ sung" },
-    { "phrase": "elderly owner", "meaningVi": "chủ sở hữu cao tuổi" },
-    { "phrase": "permit cap", "meaningVi": "giới hạn giấy phép" },
-    { "phrase": "to grandfather existing operators", "meaningVi": "miễn trừ cho các nhà vận hành đã có" },
-    { "phrase": "residential density", "meaningVi": "mật độ dân cư" },
-    { "phrase": "long-term tenant protection", "meaningVi": "bảo vệ người thuê dài hạn" },
-    { "phrase": "wheelie suitcase at four in the morning", "meaningVi": "vali kéo lúc bốn giờ sáng" },
-    { "phrase": "block-by-block ban", "meaningVi": "cấm theo từng khối nhà" }
+    {
+      "phrase": "short-term rental",
+      "meaningVi": "cho thuê ngắn hạn"
+    },
+    {
+      "phrase": "long-term resident",
+      "meaningVi": "cư dân lâu dài"
+    },
+    {
+      "phrase": "rental cap",
+      "meaningVi": "giới hạn cho thuê"
+    },
+    {
+      "phrase": "tourist let",
+      "meaningVi": "cho khách du lịch thuê"
+    },
+    {
+      "phrase": "neighbourhood association",
+      "meaningVi": "hội cư dân khu phố"
+    },
+    {
+      "phrase": "housing supply",
+      "meaningVi": "nguồn cung nhà ở"
+    },
+    {
+      "phrase": "year-round resident",
+      "meaningVi": "cư dân quanh năm"
+    },
+    {
+      "phrase": "rent inflation",
+      "meaningVi": "lạm phát giá thuê"
+    },
+    {
+      "phrase": "key-box",
+      "meaningVi": "hộp đựng chìa khóa"
+    },
+    {
+      "phrase": "to displace residents",
+      "meaningVi": "đẩy cư dân đi"
+    },
+    {
+      "phrase": "platform listing",
+      "meaningVi": "danh sách trên nền tảng"
+    },
+    {
+      "phrase": "transient occupancy",
+      "meaningVi": "sự lưu trú tạm thời",
+      "pronunciation": "/ˈtræn.zi.ənt/"
+    },
+    {
+      "phrase": "civic fabric",
+      "meaningVi": "kết cấu dân sự"
+    },
+    {
+      "phrase": "to hollow out a street",
+      "meaningVi": "làm rỗng một con phố"
+    },
+    {
+      "phrase": "supplemental income",
+      "meaningVi": "thu nhập bổ sung"
+    },
+    {
+      "phrase": "elderly owner",
+      "meaningVi": "chủ sở hữu cao tuổi"
+    },
+    {
+      "phrase": "permit cap",
+      "meaningVi": "giới hạn giấy phép"
+    },
+    {
+      "phrase": "to grandfather existing operators",
+      "meaningVi": "miễn trừ cho các nhà vận hành đã có"
+    },
+    {
+      "phrase": "residential density",
+      "meaningVi": "mật độ dân cư"
+    },
+    {
+      "phrase": "long-term tenant protection",
+      "meaningVi": "bảo vệ người thuê dài hạn"
+    },
+    {
+      "phrase": "wheelie suitcase at four in the morning",
+      "meaningVi": "vali kéo lúc bốn giờ sáng"
+    },
+    {
+      "phrase": "block-by-block ban",
+      "meaningVi": "cấm theo từng khối nhà"
+    }
   ],
   "sampleText": "Walking through Alfama on a hot Lisbon afternoon, you notice that almost every doorway has the small key-box of a short-term rental fixed to it, and that the only residents still living year-round are an elderly couple who refuse to leave and the family on the corner whose grandmother's name is still on the deed. The bakery has become a wine bar with English signage. The grocer has become a souvenir shop. At four in the morning, a wheelie suitcase rolls past on the cobblestones, then another, and the few sleeping locals turn over in their beds.\n\nWhat a short-term rental does to a neighbourhood, beyond the obvious churn of suitcases on cobblestones, is something the platforms have spent fifteen years politely declining to investigate themselves. They believe they are democratising tourism. They are also, in measurable ways, redistributing housing — removing flats from the long-term market, raising rents for the residents who remain, and gradually converting the streets of the centre from places where people live into places where people stay.\n\nGranted, the income that a flat in Alfama generates as a holiday rental can be the difference between an elderly owner staying in the neighbourhood and being forced to sell to a developer. Supplementary rental income from a spare flat or a top-floor room has, for some families, replaced pensions the state never adequately paid. The accusation that everyone running a short-term rental is a faceless speculator is empirically false, and policy made in that spirit punishes exactly the small operators it should protect.\n\nEven so, the argument that the market should be left to sort itself out is no longer credible to anyone who has watched Alfama go through the past decade. Once a critical mass of flats is converted, prices for the remaining long-term flats rise sharply, the kind of small shops that sustain residential life become unaffordable, and the neighbourhood is, within five years, no longer a neighbourhood. The bakery does not return when the law catches up. The grocer does not come back when the cap is finally imposed. What is lost is not recoverable by the same regulation that ought to have prevented it.\n\nThe defensible position is a real cap rather than a vague ban — a permit limit set per street, with existing small operators grandfathered in, and new permits issued only when the long-term resident population drops below a named threshold. A street belongs first to the people who live there. A city that cannot say that out loud, and write it into law, is leaving its central neighbourhoods to be quietly converted into hotels with worse plumbing and no front desk. The hosts who stay are then asked to live in the hotel.",
   "sampleAnnotations": [
-    { "phrase": "Walking through Alfama on a hot Lisbon afternoon, you notice that almost every doorway has the small key-box of a short-term rental fixed to it", "meaningVi": "Đi bộ qua Alfama vào một buổi chiều Lisbon nóng nực, bạn nhận ra rằng hầu như mọi ngưỡng cửa đều có hộp đựng chìa khóa nhỏ của một căn cho thuê ngắn hạn gắn trên đó" },
-    { "phrase": "the only residents still living year-round are an elderly couple who refuse to leave and the family on the corner whose grandmother's name is still on the deed", "meaningVi": "những cư dân duy nhất còn sống quanh năm là một cặp vợ chồng cao tuổi từ chối rời đi và gia đình ở góc phố mà tên bà ngoại của họ vẫn còn trên giấy chủ quyền" },
-    { "phrase": "The bakery has become a wine bar with English signage. The grocer has become a souvenir shop", "meaningVi": "Tiệm bánh đã trở thành một quán rượu vang với biển hiệu tiếng Anh. Cửa hàng tạp hóa đã trở thành một cửa hàng lưu niệm" },
-    { "phrase": "At four in the morning, a wheelie suitcase rolls past on the cobblestones, then another, and the few sleeping locals turn over in their beds", "meaningVi": "Vào lúc bốn giờ sáng, một chiếc vali kéo lăn qua trên đá lát, rồi một chiếc nữa, và vài người dân địa phương đang ngủ trở mình trên giường" },
-    { "phrase": "What a short-term rental does to a neighbourhood, beyond the obvious churn of suitcases on cobblestones, is something the platforms have spent fifteen years politely declining to investigate themselves", "meaningVi": "Điều mà một căn cho thuê ngắn hạn làm với một khu phố, vượt ra ngoài sự xoay vòng hiển nhiên của vali trên đá lát, là điều mà các nền tảng đã dành mười lăm năm lịch sự từ chối điều tra chính mình" },
-    { "phrase": "They believe they are democratising tourism. They are also, in measurable ways, redistributing housing", "meaningVi": "Họ tin rằng họ đang dân chủ hóa du lịch. Họ cũng đang, theo những cách có thể đo lường được, phân phối lại nhà ở" },
-    { "phrase": "removing flats from the long-term market, raising rents for the residents who remain, and gradually converting the streets of the centre from places where people live into places where people stay", "meaningVi": "loại bỏ các căn hộ khỏi thị trường dài hạn, đẩy giá thuê cho các cư dân còn lại, và dần dần chuyển đổi các con phố ở trung tâm từ những nơi người ta sống thành những nơi người ta ở tạm" },
-    { "phrase": "the income that a flat in Alfama generates as a holiday rental can be the difference between an elderly owner staying in the neighbourhood and being forced to sell to a developer", "meaningVi": "thu nhập mà một căn hộ ở Alfama tạo ra như một căn cho thuê kỳ nghỉ có thể là sự khác biệt giữa một chủ sở hữu cao tuổi ở lại khu phố và bị buộc phải bán cho một nhà đầu tư phát triển" },
-    { "phrase": "Supplementary rental income from a spare flat or a top-floor room has, for some families, replaced pensions the state never adequately paid", "meaningVi": "Thu nhập cho thuê bổ sung từ một căn hộ trống hay một phòng tầng trên cùng đã, đối với một số gia đình, thay thế lương hưu mà nhà nước không bao giờ trả đủ" },
-    { "phrase": "The accusation that everyone running a short-term rental is a faceless speculator is empirically false, and policy made in that spirit punishes exactly the small operators it should protect", "meaningVi": "Cáo buộc rằng mọi người vận hành cho thuê ngắn hạn là một nhà đầu cơ vô danh thì sai về mặt thực nghiệm, và chính sách được làm theo tinh thần đó trừng phạt chính xác những nhà vận hành nhỏ mà nó nên bảo vệ" },
-    { "phrase": "the argument that the market should be left to sort itself out is no longer credible to anyone who has watched Alfama go through the past decade", "meaningVi": "lập luận rằng thị trường nên được để tự sắp xếp không còn đáng tin cậy đối với bất cứ ai đã chứng kiến Alfama trải qua thập kỷ vừa qua" },
-    { "phrase": "Once a critical mass of flats is converted, prices for the remaining long-term flats rise sharply", "meaningVi": "Một khi một khối lượng tới hạn các căn hộ được chuyển đổi, giá cho các căn hộ dài hạn còn lại tăng mạnh" },
-    { "phrase": "the kind of small shops that sustain residential life become unaffordable, and the neighbourhood is, within five years, no longer a neighbourhood", "meaningVi": "loại cửa hàng nhỏ duy trì đời sống cư dân trở nên không thể chi trả, và khu phố, trong vòng năm năm, không còn là một khu phố" },
-    { "phrase": "The bakery does not return when the law catches up. The grocer does not come back when the cap is finally imposed", "meaningVi": "Tiệm bánh không quay lại khi luật bắt kịp. Cửa hàng tạp hóa không quay lại khi giới hạn cuối cùng được áp dụng" },
-    { "phrase": "What is lost is not recoverable by the same regulation that ought to have prevented it", "meaningVi": "Cái bị mất thì không thể phục hồi được bằng cùng một quy định lẽ ra phải ngăn chặn nó" },
-    { "phrase": "a permit limit set per street, with existing small operators grandfathered in, and new permits issued only when the long-term resident population drops below a named threshold", "meaningVi": "một giới hạn giấy phép đặt theo từng con phố, với các nhà vận hành nhỏ hiện hữu được miễn trừ, và giấy phép mới chỉ được cấp khi dân số cư dân dài hạn giảm xuống dưới một ngưỡng đã nêu" },
-    { "phrase": "A street belongs first to the people who live there", "meaningVi": "Một con phố trước hết thuộc về những người sống ở đó" },
-    { "phrase": "A city that cannot say that out loud, and write it into law, is leaving its central neighbourhoods to be quietly converted into hotels with worse plumbing and no front desk", "meaningVi": "Một thành phố không thể nói điều đó lớn lên, và viết nó vào luật, đang để các khu phố trung tâm của mình lặng lẽ bị chuyển đổi thành khách sạn với hệ thống ống nước tệ hơn và không có quầy lễ tân" },
-    { "phrase": "The hosts who stay are then asked to live in the hotel", "meaningVi": "Các chủ nhà ở lại sau đó được yêu cầu sống trong khách sạn" },
-    { "phrase": "block-by-block ban", "meaningVi": "cấm theo từng khối nhà" }
+    {
+      "phrase": "Walking through Alfama on a hot Lisbon afternoon, you notice that almost every doorway has the small key-box of a short-term rental fixed to it",
+      "meaningVi": "Đi bộ qua Alfama vào một buổi chiều Lisbon nóng nực, bạn nhận ra rằng hầu như mọi ngưỡng cửa đều có hộp đựng chìa khóa nhỏ của một căn cho thuê ngắn hạn gắn trên đó"
+    },
+    {
+      "phrase": "the only residents still living year-round are an elderly couple who refuse to leave and the family on the corner whose grandmother's name is still on the deed",
+      "meaningVi": "những cư dân duy nhất còn sống quanh năm là một cặp vợ chồng cao tuổi từ chối rời đi và gia đình ở góc phố mà tên bà ngoại của họ vẫn còn trên giấy chủ quyền"
+    },
+    {
+      "phrase": "The bakery has become a wine bar with English signage. The grocer has become a souvenir shop",
+      "meaningVi": "Tiệm bánh đã trở thành một quán rượu vang với biển hiệu tiếng Anh. Cửa hàng tạp hóa đã trở thành một cửa hàng lưu niệm"
+    },
+    {
+      "phrase": "At four in the morning, a wheelie suitcase rolls past on the cobblestones, then another, and the few sleeping locals turn over in their beds",
+      "meaningVi": "Vào lúc bốn giờ sáng, một chiếc vali kéo lăn qua trên đá lát, rồi một chiếc nữa, và vài người dân địa phương đang ngủ trở mình trên giường"
+    },
+    {
+      "phrase": "What a short-term rental does to a neighbourhood, beyond the obvious churn of suitcases on cobblestones, is something the platforms have spent fifteen years politely declining to investigate themselves",
+      "meaningVi": "Điều mà một căn cho thuê ngắn hạn làm với một khu phố, vượt ra ngoài sự xoay vòng hiển nhiên của vali trên đá lát, là điều mà các nền tảng đã dành mười lăm năm lịch sự từ chối điều tra chính mình"
+    },
+    {
+      "phrase": "They believe they are democratising tourism. They are also, in measurable ways, redistributing housing",
+      "meaningVi": "Họ tin rằng họ đang dân chủ hóa du lịch. Họ cũng đang, theo những cách có thể đo lường được, phân phối lại nhà ở"
+    },
+    {
+      "phrase": "removing flats from the long-term market, raising rents for the residents who remain, and gradually converting the streets of the centre from places where people live into places where people stay",
+      "meaningVi": "loại bỏ các căn hộ khỏi thị trường dài hạn, đẩy giá thuê cho các cư dân còn lại, và dần dần chuyển đổi các con phố ở trung tâm từ những nơi người ta sống thành những nơi người ta ở tạm"
+    },
+    {
+      "phrase": "the income that a flat in Alfama generates as a holiday rental can be the difference between an elderly owner staying in the neighbourhood and being forced to sell to a developer",
+      "meaningVi": "thu nhập mà một căn hộ ở Alfama tạo ra như một căn cho thuê kỳ nghỉ có thể là sự khác biệt giữa một chủ sở hữu cao tuổi ở lại khu phố và bị buộc phải bán cho một nhà đầu tư phát triển"
+    },
+    {
+      "phrase": "Supplementary rental income from a spare flat or a top-floor room has, for some families, replaced pensions the state never adequately paid",
+      "meaningVi": "Thu nhập cho thuê bổ sung từ một căn hộ trống hay một phòng tầng trên cùng đã, đối với một số gia đình, thay thế lương hưu mà nhà nước không bao giờ trả đủ"
+    },
+    {
+      "phrase": "The accusation that everyone running a short-term rental is a faceless speculator is empirically false, and policy made in that spirit punishes exactly the small operators it should protect",
+      "meaningVi": "Cáo buộc rằng mọi người vận hành cho thuê ngắn hạn là một nhà đầu cơ vô danh thì sai về mặt thực nghiệm, và chính sách được làm theo tinh thần đó trừng phạt chính xác những nhà vận hành nhỏ mà nó nên bảo vệ"
+    },
+    {
+      "phrase": "the argument that the market should be left to sort itself out is no longer credible to anyone who has watched Alfama go through the past decade",
+      "meaningVi": "lập luận rằng thị trường nên được để tự sắp xếp không còn đáng tin cậy đối với bất cứ ai đã chứng kiến Alfama trải qua thập kỷ vừa qua"
+    },
+    {
+      "phrase": "Once a critical mass of flats is converted, prices for the remaining long-term flats rise sharply",
+      "meaningVi": "Một khi một khối lượng tới hạn các căn hộ được chuyển đổi, giá cho các căn hộ dài hạn còn lại tăng mạnh"
+    },
+    {
+      "phrase": "the kind of small shops that sustain residential life become unaffordable, and the neighbourhood is, within five years, no longer a neighbourhood",
+      "meaningVi": "loại cửa hàng nhỏ duy trì đời sống cư dân trở nên không thể chi trả, và khu phố, trong vòng năm năm, không còn là một khu phố"
+    },
+    {
+      "phrase": "The bakery does not return when the law catches up. The grocer does not come back when the cap is finally imposed",
+      "meaningVi": "Tiệm bánh không quay lại khi luật bắt kịp. Cửa hàng tạp hóa không quay lại khi giới hạn cuối cùng được áp dụng"
+    },
+    {
+      "phrase": "What is lost is not recoverable by the same regulation that ought to have prevented it",
+      "meaningVi": "Cái bị mất thì không thể phục hồi được bằng cùng một quy định lẽ ra phải ngăn chặn nó"
+    },
+    {
+      "phrase": "a permit limit set per street, with existing small operators grandfathered in, and new permits issued only when the long-term resident population drops below a named threshold",
+      "meaningVi": "một giới hạn giấy phép đặt theo từng con phố, với các nhà vận hành nhỏ hiện hữu được miễn trừ, và giấy phép mới chỉ được cấp khi dân số cư dân dài hạn giảm xuống dưới một ngưỡng đã nêu"
+    },
+    {
+      "phrase": "A street belongs first to the people who live there",
+      "meaningVi": "Một con phố trước hết thuộc về những người sống ở đó"
+    },
+    {
+      "phrase": "A city that cannot say that out loud, and write it into law, is leaving its central neighbourhoods to be quietly converted into hotels with worse plumbing and no front desk",
+      "meaningVi": "Một thành phố không thể nói điều đó lớn lên, và viết nó vào luật, đang để các khu phố trung tâm của mình lặng lẽ bị chuyển đổi thành khách sạn với hệ thống ống nước tệ hơn và không có quầy lễ tân"
+    },
+    {
+      "phrase": "The hosts who stay are then asked to live in the hotel",
+      "meaningVi": "Các chủ nhà ở lại sau đó được yêu cầu sống trong khách sạn"
+    }
   ],
   "sampleGrammarNotes": [
     {

@@ -332,12 +332,6 @@
       "exampleEn": "A skilled diagnostic encounter requires both technical knowledge and interpersonal sensitivity."
     },
     {
-      "phrase": "embed information",
-      "meaningVi": "lồng ghép thông tin (vào câu chuyện)",
-      "pronunciation": "/ɪmˈbed ˌɪnfəˈmeɪʃn/",
-      "exampleEn": "Patients often embed crucial information about their symptoms within seemingly tangential anecdotes."
-    },
-    {
       "phrase": "witness",
       "meaningVi": "chứng kiến, làm nhân chứng (với nghĩa trân trọng và công nhận)",
       "pronunciation": "/ˈwɪtnəs/",
@@ -363,11 +357,11 @@
       "prompt": "What is the 'dominant model' of contemporary medicine described in the opening of the passage?",
       "options": [
         "Narrative medicine, which focuses on the patient's story",
-        "Biomedical reductionism, which reduces the patient to symptoms, lab values, and imaging findings",
         "Integrative medicine, which combines conventional and alternative approaches",
+        "Biomedical reductionism, which reduces the patient to symptoms, lab values, and imaging findings",
         "Social medicine, which focuses on structural determinants of health"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'The dominant model of contemporary medicine is one of biomedical reductionism: the patient arrives as a cluster of symptoms, laboratory values, and imaging findings.'",
       "hint": "The passage names this model explicitly in the first sentence."
     },
@@ -376,11 +370,11 @@
       "prompt": "What two problems with contemporary biomedicine does the passage identify as motivating the emergence of narrative medicine?",
       "options": [
         "Rising costs and increasing litigation",
-        "Patients feeling unseen and clinicians experiencing burnout",
         "Diagnostic errors and poor surgical outcomes",
-        "Overmedication and lack of preventive care"
+        "Overmedication and lack of preventive care",
+        "Patients feeling unseen and clinicians experiencing burnout"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'Patients report feeling unseen, unheard, and reduced to their pathology. Clinicians report burnout at epidemic rates.'",
       "hint": "Two groups are described: patients and clinicians."
     },
@@ -388,12 +382,12 @@
       "id": "q3",
       "prompt": "Who founded narrative medicine formally, and where?",
       "options": [
+        "Rita Charon at Columbia University",
         "Arthur Kleinman at Harvard Medical School",
         "Abraham Verghese at Stanford University",
-        "Rita Charon at Columbia University",
         "Paul Farmer at Partners in Health"
       ],
-      "answerIndex": 2,
+      "answerIndex": 0,
       "explanation": "'Developed formally by Rita Charon at Columbia University in the early 2000s, narrative medicine is a discipline…'",
       "hint": "The passage names both the person and the institution explicitly."
     },
@@ -415,11 +409,11 @@
       "prompt": "How does close reading training transfer to clinical encounters, according to the passage?",
       "options": [
         "It teaches physicians to write better case notes",
-        "It helps physicians notice the gap between what patients report and what their body or behaviour reveals",
         "It improves physicians' ability to memorise diagnostic criteria",
+        "It helps physicians notice the gap between what patients report and what their body or behaviour reveals",
         "It trains physicians to use literary metaphors when explaining diagnoses"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'A physician who has learned to notice the gap between what a narrator says and what a character does is better equipped to notice the gap between what a patient reports and what their body or behaviour reveals.'",
       "hint": "The analogy is between literary narrators and patients."
     },
@@ -428,11 +422,11 @@
       "prompt": "Why is patients' indirect communication diagnostically significant, according to the passage?",
       "options": [
         "Indirect communication indicates low intelligence and should be discouraged",
-        "Patients frequently embed the most clinically important information in what they do not say directly",
         "Physicians can use indirect communication to avoid difficult conversations",
-        "Indirect communication is a cultural phenomenon limited to certain patient populations"
+        "Indirect communication is a cultural phenomenon limited to certain patient populations",
+        "Patients frequently embed the most clinically important information in what they do not say directly"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'Patients frequently embed the most clinically important information — shame, fear, the secret history of trauma — in what they do not say directly.'",
       "hint": "Think about what patients might hide and why it matters."
     },
@@ -440,12 +434,12 @@
       "id": "q7",
       "prompt": "How does the passage distinguish 'narrative competence' from 'empathy'?",
       "options": [
-        "Empathy is a trainable skill; narrative competence is an innate emotional capacity",
         "Empathy is an emotional state; narrative competence is a trainable skill with identifiable components",
+        "Empathy is a trainable skill; narrative competence is an innate emotional capacity",
         "Narrative competence applies only to written texts; empathy applies to interpersonal encounters",
         "There is no meaningful distinction — narrative competence is simply empathy applied to medicine"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'It is not the same as empathy, though it intersects with it: empathy is an emotional state, whereas narrative competence is a trainable skill with identifiable components.'",
       "hint": "The key contrast is between a state and a skill."
     },
@@ -467,11 +461,11 @@
       "prompt": "What is the 'parallel chart' and what is its purpose?",
       "options": [
         "A second medical record kept by patients to track their own symptoms",
-        "A structured method in which clinicians write their own unfiltered reflections on a case",
         "A statistical tool for comparing outcomes across different patient populations",
+        "A structured method in which clinicians write their own unfiltered reflections on a case",
         "A timeline that maps clinical events against the patient's own narrative of their illness"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'The parallel chart, in which clinicians write their own unfiltered reflections on a case — transforms the relationship between clinician and patient from one of expertise operating on passivity to one of co-authorship.'",
       "hint": "The parallel chart is a writing exercise for clinicians, not patients."
     },
@@ -481,10 +475,10 @@
       "options": [
         "By reducing the administrative burden of clinical documentation",
         "By shortening the length of clinical consultations",
-        "By reconnecting practitioners with the reasons they chose medicine through attending to meaning",
-        "By providing structured psychological support groups for medical staff"
+        "By providing structured psychological support groups for medical staff",
+        "By reconnecting practitioners with the reasons they chose medicine through attending to meaning"
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "explanation": "'This shift has been shown to reduce clinician burnout, because attending to meaning — as opposed to processing data — reconnects practitioners with the reasons they chose medicine.'",
       "hint": "The benefit comes from the quality of attention, not the reduction of workload."
     },
@@ -492,12 +486,12 @@
       "id": "q11",
       "prompt": "What is the first major criticism of narrative medicine raised in the passage?",
       "options": [
-        "Narrative medicine is too time-consuming for busy clinical settings",
         "The emphasis on individual narrative may obscure structural determinants of health",
+        "Narrative medicine is too time-consuming for busy clinical settings",
         "Narrative medicine requires literary training that most physicians lack",
         "There is no evidence that close reading improves diagnostic accuracy"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'There is a risk that the emphasis on individual narrative may obscure the structural determinants of health — poverty, racism, inadequate housing — that cannot be addressed through better listening alone.'",
       "hint": "The criticism concerns what narrative medicine cannot address, not what it does poorly."
     },
@@ -519,11 +513,11 @@
       "prompt": "How do narrative medicine practitioners respond to the challenge of quantifying its benefits?",
       "options": [
         "By conducting large randomised controlled trials that demonstrate reduced mortality",
-        "By arguing that the difficulty of quantification reflects the limitations of biomedical metrics, not of narrative medicine",
         "By conceding that narrative medicine is an artistic supplement with no measurable clinical value",
+        "By arguing that the difficulty of quantification reflects the limitations of biomedical metrics, not of narrative medicine",
         "By proposing new patient satisfaction surveys as the appropriate metric"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'Its practitioners argue that this difficulty reflects the limitations of biomedical metrics rather than the limitations of narrative medicine itself.'",
       "hint": "They challenge the measuring instrument, not the thing being measured."
     },
@@ -532,11 +526,11 @@
       "prompt": "What does the phrase 'comfort without cure' describe in the passage?",
       "options": [
         "The danger of palliative care replacing curative treatment prematurely",
-        "The risk that a clinician skilled at witnessing suffering but lacking systemic tools addresses only symptoms not root causes",
         "A placebo effect produced by the therapeutic relationship itself",
-        "The limits of narrative medicine in terminal illness"
+        "The limits of narrative medicine in terminal illness",
+        "The risk that a clinician skilled at witnessing suffering but lacking systemic tools addresses only symptoms not root causes"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'A clinician who becomes a skilled witness to suffering but lacks the systemic tools to address its root causes may be providing comfort without cure.'",
       "hint": "The phrase describes the limitation of good listening when structural problems require structural solutions."
     },
@@ -544,12 +538,12 @@
       "id": "q15",
       "prompt": "What is the 'strongest case' for narrative medicine, according to the final paragraph?",
       "options": [
+        "A philosophical argument that medicine is irreducibly a practice among persons requiring the capacity to hear and respond to stories",
         "Randomised controlled trials showing reduced hospital readmission rates",
         "Patient satisfaction survey data demonstrating higher scores in narrative medicine practices",
-        "A philosophical argument that medicine is irreducibly a practice among persons requiring the capacity to hear and respond to stories",
         "Neuroscientific evidence showing that storytelling activates pain-reducing brain circuits"
       ],
-      "answerIndex": 2,
+      "answerIndex": 0,
       "explanation": "'The strongest case for narrative medicine may ultimately rest not on controlled trials but on a prior philosophical argument: that medicine is, irreducibly, a practice among persons, and that any adequate account of clinical excellence must include the capacity to hear, honour, and respond to the stories through which persons make sense of their suffering.'",
       "hint": "The argument is philosophical, not empirical."
     }

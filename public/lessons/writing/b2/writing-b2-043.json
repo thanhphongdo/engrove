@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "The case for unfashionable kindness in tough industries",
   "summary": "Argue whether deliberate, visible kindness — in finance, construction, law, or competitive sport — is a sign of strength or a professional liability.",
-  "tags": ["Work", "Ethics", "Leadership", "Society"],
+  "tags": [
+    "Work",
+    "Ethics",
+    "Leadership",
+    "Society"
+  ],
   "topic": "The case for unfashionable kindness in tough industries",
   "prompt": "Write an argumentative essay (350–500 words) exploring whether practising genuine, visible kindness — in industries or environments that prize hardness, competition, or emotional detachment — is a form of professional courage or a dangerous weakness. Use a cleft sentence, a concession ('Granted, …' or 'Admittedly, …'), at least one passive construction, and a participle clause. Include at least one concrete example (a specific industry, company, sport, or leader). Take a clear position.",
   "minWords": 350,
@@ -14,50 +19,173 @@
     "Dismissed as naive by many executives in the financial sector, kindness has nonetheless been shown to…"
   ],
   "hintVocab": [
-    { "phrase": "psychological safety", "meaningVi": "sự an toàn tâm lý (nơi làm việc)" },
-    { "phrase": "emotional detachment", "meaningVi": "sự tách biệt cảm xúc" },
-    { "phrase": "to be perceived as weak", "meaningVi": "bị nhận thức là yếu đuối" },
-    { "phrase": "to cultivate loyalty", "meaningVi": "vun đắp lòng trung thành" },
-    { "phrase": "bottom-line performance", "meaningVi": "hiệu suất lợi nhuận / kết quả kinh doanh cuối cùng" },
-    { "phrase": "zero-sum competition", "meaningVi": "cạnh tranh được-mất tuyệt đối (một người được thì người kia mất)" },
-    { "phrase": "interpersonal intelligence", "meaningVi": "trí tuệ giao tiếp / quan hệ giữa người với người" },
-    { "phrase": "to model behaviour", "meaningVi": "làm gương / làm mẫu về hành vi" },
-    { "phrase": "to create a culture of fear", "meaningVi": "tạo ra một văn hóa sợ hãi" },
-    { "phrase": "staff retention", "meaningVi": "giữ chân nhân viên" },
-    { "phrase": "to be equated with softness", "meaningVi": "bị đồng nhất với sự mềm yếu" },
-    { "phrase": "high-stakes environment", "meaningVi": "môi trường có rủi ro cao / áp lực lớn" },
-    { "phrase": "managerial courage", "meaningVi": "lòng dũng cảm trong quản lý" },
-    { "phrase": "to withhold recognition", "meaningVi": "giữ lại / không công nhận" },
-    { "phrase": "performative toughness", "meaningVi": "sự cứng rắn mang tính biểu diễn" },
-    { "phrase": "to earn trust", "meaningVi": "giành được / tạo dựng lòng tin" },
-    { "phrase": "transactional relationship", "meaningVi": "mối quan hệ giao dịch / tính toán" },
-    { "phrase": "to absorb failure gracefully", "meaningVi": "chịu đựng thất bại một cách khéo léo / không đổ lỗi" },
-    { "phrase": "structural cruelty", "meaningVi": "sự tàn nhẫn có tính hệ thống / trong cơ cấu tổ chức" },
-    { "phrase": "a long-term investment in people", "meaningVi": "đầu tư dài hạn vào con người" },
-    { "phrase": "to conflate kindness with weakness", "meaningVi": "nhầm lẫn / đồng nhất lòng tốt với sự yếu đuối" }
+    {
+      "phrase": "psychological safety",
+      "meaningVi": "sự an toàn tâm lý (nơi làm việc)"
+    },
+    {
+      "phrase": "emotional detachment",
+      "meaningVi": "sự tách biệt cảm xúc"
+    },
+    {
+      "phrase": "to be perceived as weak",
+      "meaningVi": "bị nhận thức là yếu đuối"
+    },
+    {
+      "phrase": "to cultivate loyalty",
+      "meaningVi": "vun đắp lòng trung thành"
+    },
+    {
+      "phrase": "bottom-line performance",
+      "meaningVi": "hiệu suất lợi nhuận / kết quả kinh doanh cuối cùng"
+    },
+    {
+      "phrase": "zero-sum competition",
+      "meaningVi": "cạnh tranh được-mất tuyệt đối (một người được thì người kia mất)"
+    },
+    {
+      "phrase": "interpersonal intelligence",
+      "meaningVi": "trí tuệ giao tiếp / quan hệ giữa người với người"
+    },
+    {
+      "phrase": "to model behaviour",
+      "meaningVi": "làm gương / làm mẫu về hành vi"
+    },
+    {
+      "phrase": "to create a culture of fear",
+      "meaningVi": "tạo ra một văn hóa sợ hãi"
+    },
+    {
+      "phrase": "staff retention",
+      "meaningVi": "giữ chân nhân viên"
+    },
+    {
+      "phrase": "to be equated with softness",
+      "meaningVi": "bị đồng nhất với sự mềm yếu"
+    },
+    {
+      "phrase": "high-stakes environment",
+      "meaningVi": "môi trường có rủi ro cao / áp lực lớn"
+    },
+    {
+      "phrase": "managerial courage",
+      "meaningVi": "lòng dũng cảm trong quản lý"
+    },
+    {
+      "phrase": "to withhold recognition",
+      "meaningVi": "giữ lại / không công nhận"
+    },
+    {
+      "phrase": "performative toughness",
+      "meaningVi": "sự cứng rắn mang tính biểu diễn"
+    },
+    {
+      "phrase": "to earn trust",
+      "meaningVi": "giành được / tạo dựng lòng tin"
+    },
+    {
+      "phrase": "transactional relationship",
+      "meaningVi": "mối quan hệ giao dịch / tính toán"
+    },
+    {
+      "phrase": "to absorb failure gracefully",
+      "meaningVi": "chịu đựng thất bại một cách khéo léo / không đổ lỗi"
+    },
+    {
+      "phrase": "structural cruelty",
+      "meaningVi": "sự tàn nhẫn có tính hệ thống / trong cơ cấu tổ chức"
+    },
+    {
+      "phrase": "a long-term investment in people",
+      "meaningVi": "đầu tư dài hạn vào con người"
+    },
+    {
+      "phrase": "to conflate kindness with weakness",
+      "meaningVi": "nhầm lẫn / đồng nhất lòng tốt với sự yếu đuối"
+    }
   ],
   "sampleText": "There is a version of professional life in which kindness is treated as a tactical error. In investment banking, professional rugby, high-end kitchens, and certain law firms, the culture has long rewarded what might be called performative toughness: the ability to deliver hard feedback without flinching, to absorb pressure without complaint, and to keep emotional attachment out of decisions that affect other people's livelihoods. Kindness, in this account, gets in the way.\n\nThe evidence does not support this account. Research into team performance across industries consistently finds that psychological safety — the confidence that colleagues will not punish you for speaking up, admitting errors, or proposing ideas that may fail — is among the strongest predictors of sustained high performance. What distinguishes effective teams from merely competitive ones is not the absence of pressure but the presence of trust. And trust, at a minimum, requires being treated with basic human consideration.\n\nThis does not mean that tough decisions should be avoided or that accountability should be replaced with comfort. A manager who fails to address persistent underperformance is not being kind; they are being negligent. The distinction is between how difficult things are said and whether they need to be said at all. Difficult feedback delivered with genuine respect — naming the problem clearly, explaining its consequences, and offering a path to improvement — is both kind and effective. Difficult feedback delivered with contempt is merely difficult.\n\nAdmittedly, in industries where margins are narrow and errors are costly, the temptation to conflate kindness with weakness is understandable. If a surgeon in a high-stakes operating room hesitates to correct a colleague for fear of causing offence, the consequences can be irreversible. Here, clarity and directness are not cruelty — they are care. The error is to confuse the two.\n\nGranted, structural kindness — the kind embedded in how organisations are designed, not just how individuals behave — is harder to sustain. Being kind once is easy. Building a culture in which kindness is the norm requires effort over time, and it can be dismantled by a single leader who models contempt.\n\nEven so, organisations that invest in people — that create conditions for honest conversation, recognise effort fairly, and absorb failure without blame — consistently outperform those that do not. The case for kindness in tough industries is not idealistic. It is, if anything, the more hardheaded position. Dismissed as soft by those who mistake cruelty for rigour, it is in fact the better strategy.",
   "sampleAnnotations": [
-    { "phrase": "There is a version of professional life in which kindness is treated as a tactical error", "meaningVi": "Có một phiên bản của cuộc sống chuyên nghiệp trong đó lòng tốt bị coi là một sai lầm chiến thuật" },
-    { "phrase": "the culture has long rewarded what might be called performative toughness", "meaningVi": "văn hóa đã từ lâu tưởng thưởng cho những gì có thể gọi là sự cứng rắn mang tính biểu diễn" },
-    { "phrase": "the ability to deliver hard feedback without flinching", "meaningVi": "khả năng đưa ra phản hồi khó khăn mà không hề nao núng" },
-    { "phrase": "Kindness, in this account, gets in the way", "meaningVi": "Lòng tốt, theo quan điểm này, cản trở mọi thứ" },
-    { "phrase": "psychological safety — the confidence that colleagues will not punish you for speaking up", "meaningVi": "sự an toàn tâm lý — niềm tin rằng đồng nghiệp sẽ không trừng phạt bạn vì lên tiếng" },
-    { "phrase": "is among the strongest predictors of sustained high performance", "meaningVi": "là một trong những yếu tố dự đoán mạnh nhất của hiệu suất cao bền vững" },
-    { "phrase": "What distinguishes effective teams from merely competitive ones is not the absence of pressure but the presence of trust", "meaningVi": "Điều phân biệt các đội hiệu quả với những đội chỉ cạnh tranh không phải là sự vắng mặt của áp lực mà là sự hiện diện của niềm tin" },
-    { "phrase": "being treated with basic human consideration", "meaningVi": "được đối xử với sự quan tâm cơ bản của con người" },
-    { "phrase": "A manager who fails to address persistent underperformance is not being kind; they are being negligent", "meaningVi": "Một người quản lý không giải quyết hiệu suất kém liên tục không phải là đang tốt bụng; họ đang cẩu thả" },
-    { "phrase": "The distinction is between how difficult things are said and whether they need to be said at all", "meaningVi": "Sự phân biệt là giữa cách những điều khó khăn được nói và liệu chúng có cần được nói hay không" },
-    { "phrase": "Difficult feedback delivered with genuine respect — naming the problem clearly, explaining its consequences, and offering a path to improvement — is both kind and effective", "meaningVi": "Phản hồi khó khăn được đưa ra với sự tôn trọng thực sự — đặt tên vấn đề rõ ràng, giải thích hậu quả của nó, và đề xuất con đường để cải thiện — vừa tử tế vừa hiệu quả" },
-    { "phrase": "Difficult feedback delivered with contempt is merely difficult", "meaningVi": "Phản hồi khó khăn được đưa ra với sự khinh thường chỉ đơn giản là khó khăn" },
-    { "phrase": "Admittedly, in industries where margins are narrow and errors are costly, the temptation to conflate kindness with weakness is understandable", "meaningVi": "Thừa nhận rằng, trong các ngành công nghiệp nơi lợi nhuận mỏng và sai lầm có chi phí cao, sự cám dỗ đồng nhất lòng tốt với sự yếu đuối là có thể hiểu được" },
-    { "phrase": "If a surgeon in a high-stakes operating room hesitates to correct a colleague for fear of causing offence", "meaningVi": "Nếu một bác sĩ phẫu thuật trong phòng mổ rủi ro cao do dự trong việc sửa chữa lỗi của đồng nghiệp vì sợ gây ra phản ứng tiêu cực" },
-    { "phrase": "The error is to confuse the two", "meaningVi": "Sai lầm là nhầm lẫn cả hai" },
-    { "phrase": "Being kind once is easy. Building a culture in which kindness is the norm requires effort over time", "meaningVi": "Tốt bụng một lần thì dễ. Xây dựng một văn hóa trong đó lòng tốt là chuẩn mực đòi hỏi nỗ lực theo thời gian" },
-    { "phrase": "it can be dismantled by a single leader who models contempt", "meaningVi": "nó có thể bị phá hủy bởi một nhà lãnh đạo duy nhất thể hiện sự khinh thường" },
-    { "phrase": "organisations that invest in people consistently outperform those that do not", "meaningVi": "các tổ chức đầu tư vào con người liên tục vượt trội hơn những tổ chức không làm vậy" },
-    { "phrase": "Dismissed as soft by those who mistake cruelty for rigour", "meaningVi": "Bị bác bỏ là mềm yếu bởi những người nhầm lẫn sự tàn nhẫn với tính nghiêm ngặt" },
-    { "phrase": "it is in fact the better strategy", "meaningVi": "trên thực tế đó là chiến lược tốt hơn" }
+    {
+      "phrase": "There is a version of professional life in which kindness is treated as a tactical error",
+      "meaningVi": "Có một phiên bản của cuộc sống chuyên nghiệp trong đó lòng tốt bị coi là một sai lầm chiến thuật"
+    },
+    {
+      "phrase": "the culture has long rewarded what might be called performative toughness",
+      "meaningVi": "văn hóa đã từ lâu tưởng thưởng cho những gì có thể gọi là sự cứng rắn mang tính biểu diễn"
+    },
+    {
+      "phrase": "the ability to deliver hard feedback without flinching",
+      "meaningVi": "khả năng đưa ra phản hồi khó khăn mà không hề nao núng"
+    },
+    {
+      "phrase": "Kindness, in this account, gets in the way",
+      "meaningVi": "Lòng tốt, theo quan điểm này, cản trở mọi thứ"
+    },
+    {
+      "phrase": "psychological safety — the confidence that colleagues will not punish you for speaking up",
+      "meaningVi": "sự an toàn tâm lý — niềm tin rằng đồng nghiệp sẽ không trừng phạt bạn vì lên tiếng"
+    },
+    {
+      "phrase": "is among the strongest predictors of sustained high performance",
+      "meaningVi": "là một trong những yếu tố dự đoán mạnh nhất của hiệu suất cao bền vững"
+    },
+    {
+      "phrase": "What distinguishes effective teams from merely competitive ones is not the absence of pressure but the presence of trust",
+      "meaningVi": "Điều phân biệt các đội hiệu quả với những đội chỉ cạnh tranh không phải là sự vắng mặt của áp lực mà là sự hiện diện của niềm tin"
+    },
+    {
+      "phrase": "being treated with basic human consideration",
+      "meaningVi": "được đối xử với sự quan tâm cơ bản của con người"
+    },
+    {
+      "phrase": "A manager who fails to address persistent underperformance is not being kind; they are being negligent",
+      "meaningVi": "Một người quản lý không giải quyết hiệu suất kém liên tục không phải là đang tốt bụng; họ đang cẩu thả"
+    },
+    {
+      "phrase": "The distinction is between how difficult things are said and whether they need to be said at all",
+      "meaningVi": "Sự phân biệt là giữa cách những điều khó khăn được nói và liệu chúng có cần được nói hay không"
+    },
+    {
+      "phrase": "Difficult feedback delivered with genuine respect — naming the problem clearly, explaining its consequences, and offering a path to improvement — is both kind and effective",
+      "meaningVi": "Phản hồi khó khăn được đưa ra với sự tôn trọng thực sự — đặt tên vấn đề rõ ràng, giải thích hậu quả của nó, và đề xuất con đường để cải thiện — vừa tử tế vừa hiệu quả"
+    },
+    {
+      "phrase": "Difficult feedback delivered with contempt is merely difficult",
+      "meaningVi": "Phản hồi khó khăn được đưa ra với sự khinh thường chỉ đơn giản là khó khăn"
+    },
+    {
+      "phrase": "Admittedly, in industries where margins are narrow and errors are costly, the temptation to conflate kindness with weakness is understandable",
+      "meaningVi": "Thừa nhận rằng, trong các ngành công nghiệp nơi lợi nhuận mỏng và sai lầm có chi phí cao, sự cám dỗ đồng nhất lòng tốt với sự yếu đuối là có thể hiểu được"
+    },
+    {
+      "phrase": "If a surgeon in a high-stakes operating room hesitates to correct a colleague for fear of causing offence",
+      "meaningVi": "Nếu một bác sĩ phẫu thuật trong phòng mổ rủi ro cao do dự trong việc sửa chữa lỗi của đồng nghiệp vì sợ gây ra phản ứng tiêu cực"
+    },
+    {
+      "phrase": "The error is to confuse the two",
+      "meaningVi": "Sai lầm là nhầm lẫn cả hai"
+    },
+    {
+      "phrase": "Being kind once is easy. Building a culture in which kindness is the norm requires effort over time",
+      "meaningVi": "Tốt bụng một lần thì dễ. Xây dựng một văn hóa trong đó lòng tốt là chuẩn mực đòi hỏi nỗ lực theo thời gian"
+    },
+    {
+      "phrase": "it can be dismantled by a single leader who models contempt",
+      "meaningVi": "nó có thể bị phá hủy bởi một nhà lãnh đạo duy nhất thể hiện sự khinh thường"
+    },
+    {
+      "phrase": "consistently outperform those that do not",
+      "meaningVi": "các tổ chức đầu tư vào con người liên tục vượt trội hơn những tổ chức không làm vậy"
+    },
+    {
+      "phrase": "Dismissed as soft by those who mistake cruelty for rigour",
+      "meaningVi": "Bị bác bỏ là mềm yếu bởi những người nhầm lẫn sự tàn nhẫn với tính nghiêm ngặt"
+    },
+    {
+      "phrase": "it is in fact the better strategy",
+      "meaningVi": "trên thực tế đó là chiến lược tốt hơn"
+    }
   ],
   "sampleGrammarNotes": [
     {

@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "When private grief is asked to perform in public rituals",
   "summary": "Argue that public mourning rituals — state funerals, commemorations, workplace memorial events — impose a performative demand on private grief that can distort, delay, or suppress authentic emotional processing.",
-  "tags": ["Argument", "Culture", "Psychology"],
+  "tags": [
+    "Argument",
+    "Culture",
+    "Psychology"
+  ],
   "topic": "Whether public mourning rituals serve or obstruct those who are actually grieving",
   "prompt": "Write a 600–800-word argumentative essay exploring the tension between public mourning rituals and private grief. Argue that the ritual form — its timing, its visible grammar, its audience — often serves the social function of collective reassurance rather than the needs of the bereaved. Use examples from state funerals, workplace memorial practices, and community commemoration across different cultures. Use inversion at least once, at least one nominalization, and the concessive pair 'one might well argue… but…'. Avoid bullet lists, grief-counselling clichés, and TED-Talk openers.",
   "minWords": 600,
@@ -14,49 +18,176 @@
     "One might well argue that public mourning provides community and shared support. But…"
   ],
   "hintVocab": [
-    {"phrase": "performative demand", "meaningVi": "yêu cầu thể hiện, đòi hỏi biểu diễn cảm xúc ra bên ngoài"},
-    {"phrase": "bereaved", "meaningVi": "người đang chịu tang, mất người thân", "pronunciation": "/bɪˈriːvd/"},
-    {"phrase": "collective reassurance", "meaningVi": "sự trấn an tập thể, giúp cộng đồng cảm thấy an lòng"},
-    {"phrase": "grief script", "meaningVi": "kịch bản đau buồn, chuỗi hành vi được kỳ vọng từ người mất mát"},
-    {"phrase": "commemoration", "meaningVi": "lễ tưởng niệm, hoạt động nhớ lại người đã khuất", "pronunciation": "/kəˌmemərˈeɪʃən/"},
-    {"phrase": "mourning ritual", "meaningVi": "nghi lễ tang tóc, các hoạt động chính thức trong đám tang"},
-    {"phrase": "visible grammar", "meaningVi": "ngữ pháp có thể nhìn thấy, các quy tắc không viết về cách biểu lộ đúng cách"},
-    {"phrase": "legitimate grief", "meaningVi": "nỗi đau được thừa nhận, sự mất mát được xã hội công nhận"},
-    {"phrase": "disenfranchised grief", "meaningVi": "nỗi đau không được thừa nhận, mất mát không được xã hội công nhận chính thức", "pronunciation": "/dɪsɪnˈfræntʃaɪzd/"},
-    {"phrase": "temporal imposition", "meaningVi": "sự áp đặt về thời gian, buộc thực hiện vào thời điểm cụ thể"},
-    {"phrase": "social legibility", "meaningVi": "tính dễ đọc về mặt xã hội, biểu hiện mà người khác có thể hiểu và chấp nhận"},
-    {"phrase": "suppression", "meaningVi": "sự đàn áp, ức chế cảm xúc", "pronunciation": "/səˈpreʃən/"},
-    {"phrase": "somatic", "meaningVi": "thuộc về thể chất, có nguồn gốc từ cơ thể", "pronunciation": "/səˈmætɪk/"},
-    {"phrase": "catharsis", "meaningVi": "sự giải phóng cảm xúc, thanh lọc cảm xúc qua trải nghiệm mạnh", "pronunciation": "/kəˈθɑːsɪs/"},
-    {"phrase": "unverifiable", "meaningVi": "không thể xác minh, không thể kiểm chứng", "pronunciation": "/ˌʌnˈverɪfaɪəbl/"},
-    {"phrase": "institutional mourning", "meaningVi": "tang tóc thể chế, lễ tang được tổ chức bởi các tổ chức"},
-    {"phrase": "audience function", "meaningVi": "chức năng khán giả, vai trò của người quan sát trong nghi lễ"},
-    {"phrase": "grief timeline", "meaningVi": "tiến trình tang tóc, lịch trình được mong đợi cho quá trình đau buồn"},
-    {"phrase": "authenticity pressure", "meaningVi": "áp lực tính xác thực, đòi hỏi biểu hiện cảm xúc trông thật"},
-    {"phrase": "non-linear", "meaningVi": "phi tuyến tính, không theo trình tự thẳng hay dự đoán được"}
+    {
+      "phrase": "performative demand",
+      "meaningVi": "yêu cầu thể hiện, đòi hỏi biểu diễn cảm xúc ra bên ngoài"
+    },
+    {
+      "phrase": "bereaved",
+      "meaningVi": "người đang chịu tang, mất người thân",
+      "pronunciation": "/bɪˈriːvd/"
+    },
+    {
+      "phrase": "collective reassurance",
+      "meaningVi": "sự trấn an tập thể, giúp cộng đồng cảm thấy an lòng"
+    },
+    {
+      "phrase": "grief script",
+      "meaningVi": "kịch bản đau buồn, chuỗi hành vi được kỳ vọng từ người mất mát"
+    },
+    {
+      "phrase": "commemoration",
+      "meaningVi": "lễ tưởng niệm, hoạt động nhớ lại người đã khuất",
+      "pronunciation": "/kəˌmemərˈeɪʃən/"
+    },
+    {
+      "phrase": "mourning ritual",
+      "meaningVi": "nghi lễ tang tóc, các hoạt động chính thức trong đám tang"
+    },
+    {
+      "phrase": "visible grammar",
+      "meaningVi": "ngữ pháp có thể nhìn thấy, các quy tắc không viết về cách biểu lộ đúng cách"
+    },
+    {
+      "phrase": "legitimate grief",
+      "meaningVi": "nỗi đau được thừa nhận, sự mất mát được xã hội công nhận"
+    },
+    {
+      "phrase": "disenfranchised grief",
+      "meaningVi": "nỗi đau không được thừa nhận, mất mát không được xã hội công nhận chính thức",
+      "pronunciation": "/dɪsɪnˈfræntʃaɪzd/"
+    },
+    {
+      "phrase": "temporal imposition",
+      "meaningVi": "sự áp đặt về thời gian, buộc thực hiện vào thời điểm cụ thể"
+    },
+    {
+      "phrase": "social legibility",
+      "meaningVi": "tính dễ đọc về mặt xã hội, biểu hiện mà người khác có thể hiểu và chấp nhận"
+    },
+    {
+      "phrase": "suppression",
+      "meaningVi": "sự đàn áp, ức chế cảm xúc",
+      "pronunciation": "/səˈpreʃən/"
+    },
+    {
+      "phrase": "somatic",
+      "meaningVi": "thuộc về thể chất, có nguồn gốc từ cơ thể",
+      "pronunciation": "/səˈmætɪk/"
+    },
+    {
+      "phrase": "catharsis",
+      "meaningVi": "sự giải phóng cảm xúc, thanh lọc cảm xúc qua trải nghiệm mạnh",
+      "pronunciation": "/kəˈθɑːsɪs/"
+    },
+    {
+      "phrase": "unverifiable",
+      "meaningVi": "không thể xác minh, không thể kiểm chứng",
+      "pronunciation": "/ˌʌnˈverɪfaɪəbl/"
+    },
+    {
+      "phrase": "institutional mourning",
+      "meaningVi": "tang tóc thể chế, lễ tang được tổ chức bởi các tổ chức"
+    },
+    {
+      "phrase": "audience function",
+      "meaningVi": "chức năng khán giả, vai trò của người quan sát trong nghi lễ"
+    },
+    {
+      "phrase": "grief timeline",
+      "meaningVi": "tiến trình tang tóc, lịch trình được mong đợi cho quá trình đau buồn"
+    },
+    {
+      "phrase": "authenticity pressure",
+      "meaningVi": "áp lực tính xác thực, đòi hỏi biểu hiện cảm xúc trông thật"
+    },
+    {
+      "phrase": "non-linear",
+      "meaningVi": "phi tuyến tính, không theo trình tự thẳng hay dự đoán được"
+    }
   ],
   "sampleText": "Not for the grieving are most public rituals designed, but for those who surround them. The state funeral, the minute's silence at the workplace, the candlelight vigil in the town square — these are forms with an audience function, and that function is primarily collective reassurance: the affirmation, visible to all present, that grief has been acknowledged, that the dead have been properly marked, and that social life may now resume. The bereaved are present at these events, but they are not the events' real constituency.\n\nThe distinction matters because the grief script embedded in public mourning rituals — the expected timing, the sanctioned expressions, the visible grammar of head bowing and flower-laying — rarely corresponds to the actual rhythms of private loss. Private grief is notorious for its non-linearity: it arrives unexpectedly, subsides without warning, revisits without apology. A person who has lost a parent may feel nothing at the funeral and be devastated three weeks later in a supermarket when she encounters a brand of biscuit her mother used to buy. No public ritual accommodates this. Rituals have a schedule; grief does not.\n\nThe temporal imposition is only one dimension of the problem. Equally significant is the authenticity pressure that public mourning creates: the bereaved person is expected to perform grief legibly, in forms that the audience can read and validate. Tears are legible; silence is legible; a certain controlled composure is legible. What is not legible — and what can unsettle the community's confidence that mourning is proceeding correctly — is laughter, anger, indifference, or the strange somatic calm that sometimes accompanies acute loss. These responses are common among the bereaved; they are almost entirely absent from the visual vocabulary of public ritual.\n\nOne might well argue that public mourning provides the bereaved with community, with shared support, and with the social affirmation that their loss is legitimate. But this concedes precisely what the essay contests: the idea that grief requires social legitimation at all. What public ritual provides is legitimation of a specific, publicly legible form of grief — while those whose loss is disenfranchised (the long-term partner whose relationship was not officially recognised, the friend whose closeness was private and unverifiable, the colleague whose grief is too large for the social category of 'colleague') remain outside the circle of acknowledged mourning even when physically present at it.\n\nInstitutional mourning practices compound this problem by adding a layer of organisational expectation. The memorial event held by a company after the death of a colleague is designed to demonstrate the organisation's values — community, care, continuity — as much as to serve the people who actually knew the deceased. Employees who did not know the deceased are expected to appear appropriately solemn; employees who did know them are expected to contain their grief within a forty-five-minute format and then return to their desks. The organisation requires closure on a timeline that suits its operational needs, not the emotional needs of those grieving.\n\nThe underperformance of public ritual as a support for private grief does not mean that ritual is worthless. Ritual does important social work: it marks deaths as significant, it gathers dispersed communities, it asserts that loss is collective as well as individual. But conflating what ritual does for communities with what it does for the bereaved is a category error with real consequences. It can make people feel that their failure to find catharsis in the prescribed form is itself a failure — that they are grieving incorrectly, on the wrong schedule, with the wrong feelings.\n\nWhat private grief most often needs is time, irregularity, and the permission not to perform. Public ritual, by its nature, denies all three. Attending to this tension does not require abolishing public mourning; it requires being honest about whose needs it serves and ensuring that the bereaved are not left to manage the gap between what the ritual offered and what their grief actually required.",
   "sampleAnnotations": [
-    {"phrase": "Not for the grieving are most public rituals designed, but for those who surround them", "meaningVi": "Không phải cho người đang chịu đựng mà hầu hết các nghi lễ công khai được thiết kế, mà cho những người bao quanh họ"},
-    {"phrase": "the bereaved are present at these events, but they are not the events' real constituency", "meaningVi": "những người tang chế hiện diện tại các sự kiện này, nhưng họ không phải là đối tượng thực sự của các sự kiện"},
-    {"phrase": "the grief script embedded in public mourning rituals", "meaningVi": "kịch bản đau buồn được nhúng vào các nghi lễ tang tóc công khai"},
-    {"phrase": "Private grief is notorious for its non-linearity", "meaningVi": "Nỗi đau riêng tư nổi tiếng với tính phi tuyến tính của nó"},
-    {"phrase": "No public ritual accommodates this", "meaningVi": "Không có nghi lễ công khai nào thích ứng được với điều này"},
-    {"phrase": "the authenticity pressure that public mourning creates", "meaningVi": "áp lực tính xác thực mà tang tóc công khai tạo ra"},
-    {"phrase": "the bereaved person is expected to perform grief legibly", "meaningVi": "người tang chế được kỳ vọng thể hiện nỗi đau một cách dễ nhận ra"},
-    {"phrase": "the strange somatic calm that sometimes accompanies acute loss", "meaningVi": "sự bình tĩnh thể chất kỳ lạ đôi khi đi kèm với sự mất mát cấp tính"},
-    {"phrase": "One might well argue that public mourning provides the bereaved with community", "meaningVi": "Có thể lập luận rằng tang tóc công khai cung cấp cho người tang chế cộng đồng"},
-    {"phrase": "grief requires social legitimation at all", "meaningVi": "nỗi đau có cần sự xác nhận xã hội hay không"},
-    {"phrase": "those whose loss is disenfranchised", "meaningVi": "những người có mất mát không được thừa nhận"},
-    {"phrase": "remain outside the circle of acknowledged mourning even when physically present", "meaningVi": "vẫn ở ngoài vòng tròn tang tóc được công nhận ngay cả khi hiện diện thể chất"},
-    {"phrase": "The organisation requires closure on a timeline that suits its operational needs", "meaningVi": "Tổ chức yêu cầu sự khép lại theo lịch trình phù hợp với nhu cầu vận hành của nó"},
-    {"phrase": "The underperformance of public ritual as a support for private grief", "meaningVi": "Sự kém hiệu quả của nghi lễ công khai như một sự hỗ trợ cho nỗi đau riêng tư"},
-    {"phrase": "conflating what ritual does for communities with what it does for the bereaved is a category error", "meaningVi": "nhầm lẫn điều nghi lễ làm cho cộng đồng với điều nó làm cho người tang chế là lỗi phân loại"},
-    {"phrase": "their failure to find catharsis in the prescribed form is itself a failure", "meaningVi": "sự thất bại của họ khi không tìm thấy sự giải phóng cảm xúc trong hình thức được quy định bản thân là một thất bại"},
-    {"phrase": "they are grieving incorrectly, on the wrong schedule, with the wrong feelings", "meaningVi": "họ đang đau buồn không đúng cách, theo lịch trình sai, với những cảm xúc sai"},
-    {"phrase": "What private grief most often needs is time, irregularity, and the permission not to perform", "meaningVi": "Điều mà nỗi đau riêng tư thường cần nhất là thời gian, tính bất quy tắc, và sự cho phép không phải biểu diễn"},
-    {"phrase": "ensuring that the bereaved are not left to manage the gap", "meaningVi": "đảm bảo rằng người tang chế không bị bỏ mặc để xử lý khoảng cách"},
-    {"phrase": "between what the ritual offered and what their grief actually required", "meaningVi": "giữa những gì nghi lễ cung cấp và những gì nỗi đau thực sự của họ đòi hỏi"}
+    {
+      "phrase": "Not for the grieving are most public rituals designed, but for those who surround them",
+      "meaningVi": "Không phải cho người đang chịu đựng mà hầu hết các nghi lễ công khai được thiết kế, mà cho những người bao quanh họ"
+    },
+    {
+      "phrase": "the bereaved are present at these events, but they are not the events' real constituency",
+      "meaningVi": "những người tang chế hiện diện tại các sự kiện này, nhưng họ không phải là đối tượng thực sự của các sự kiện"
+    },
+    {
+      "phrase": "the grief script embedded in public mourning rituals",
+      "meaningVi": "kịch bản đau buồn được nhúng vào các nghi lễ tang tóc công khai"
+    },
+    {
+      "phrase": "Private grief is notorious for its non-linearity",
+      "meaningVi": "Nỗi đau riêng tư nổi tiếng với tính phi tuyến tính của nó"
+    },
+    {
+      "phrase": "No public ritual accommodates this",
+      "meaningVi": "Không có nghi lễ công khai nào thích ứng được với điều này"
+    },
+    {
+      "phrase": "the authenticity pressure that public mourning creates",
+      "meaningVi": "áp lực tính xác thực mà tang tóc công khai tạo ra"
+    },
+    {
+      "phrase": "the bereaved person is expected to perform grief legibly",
+      "meaningVi": "người tang chế được kỳ vọng thể hiện nỗi đau một cách dễ nhận ra"
+    },
+    {
+      "phrase": "the strange somatic calm that sometimes accompanies acute loss",
+      "meaningVi": "sự bình tĩnh thể chất kỳ lạ đôi khi đi kèm với sự mất mát cấp tính"
+    },
+    {
+      "phrase": "One might well argue that public mourning provides the bereaved with community",
+      "meaningVi": "Có thể lập luận rằng tang tóc công khai cung cấp cho người tang chế cộng đồng"
+    },
+    {
+      "phrase": "grief requires social legitimation at all",
+      "meaningVi": "nỗi đau có cần sự xác nhận xã hội hay không"
+    },
+    {
+      "phrase": "those whose loss is disenfranchised",
+      "meaningVi": "những người có mất mát không được thừa nhận"
+    },
+    {
+      "phrase": "remain outside the circle of acknowledged mourning even when physically present",
+      "meaningVi": "vẫn ở ngoài vòng tròn tang tóc được công nhận ngay cả khi hiện diện thể chất"
+    },
+    {
+      "phrase": "The organisation requires closure on a timeline that suits its operational needs",
+      "meaningVi": "Tổ chức yêu cầu sự khép lại theo lịch trình phù hợp với nhu cầu vận hành của nó"
+    },
+    {
+      "phrase": "The underperformance of public ritual as a support for private grief",
+      "meaningVi": "Sự kém hiệu quả của nghi lễ công khai như một sự hỗ trợ cho nỗi đau riêng tư"
+    },
+    {
+      "phrase": "conflating what ritual does for communities with what it does for the bereaved is a category error",
+      "meaningVi": "nhầm lẫn điều nghi lễ làm cho cộng đồng với điều nó làm cho người tang chế là lỗi phân loại"
+    },
+    {
+      "phrase": "their failure to find catharsis in the prescribed form is itself a failure",
+      "meaningVi": "sự thất bại của họ khi không tìm thấy sự giải phóng cảm xúc trong hình thức được quy định bản thân là một thất bại"
+    },
+    {
+      "phrase": "they are grieving incorrectly, on the wrong schedule, with the wrong feelings",
+      "meaningVi": "họ đang đau buồn không đúng cách, theo lịch trình sai, với những cảm xúc sai"
+    },
+    {
+      "phrase": "What private grief most often needs is time, irregularity, and the permission not to perform",
+      "meaningVi": "Điều mà nỗi đau riêng tư thường cần nhất là thời gian, tính bất quy tắc, và sự cho phép không phải biểu diễn"
+    },
+    {
+      "phrase": "ensuring that the bereaved are not left to manage the gap",
+      "meaningVi": "đảm bảo rằng người tang chế không bị bỏ mặc để xử lý khoảng cách"
+    },
+    {
+      "phrase": "between what the ritual offered and what their grief actually required",
+      "meaningVi": "giữa những gì nghi lễ cung cấp và những gì nỗi đau thực sự của họ đòi hỏi"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -90,11 +221,11 @@
       "prompt": "What is the essay's central argument about public mourning rituals?",
       "options": [
         "They provide essential support and community for the bereaved.",
-        "They serve primarily the social function of collective reassurance rather than the needs of those actually grieving.",
         "They are outdated cultural practices that should be abolished.",
+        "They serve primarily the social function of collective reassurance rather than the needs of those actually grieving.",
         "They are most effective in collectivist cultures where community support is central."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay argues public rituals function primarily to reassure the community — not to serve the actual rhythms or needs of private grief.",
       "hint": "Look for the phrase 'collective reassurance' and 'not the events' real constituency'."
     },
@@ -103,11 +234,11 @@
       "prompt": "What does 'grief script' mean in the essay?",
       "options": [
         "A written speech delivered at a funeral",
-        "The expected sequence of behaviours and expressions that public mourning rituals impose on the bereaved",
         "A therapeutic technique used by grief counsellors",
-        "A cultural narrative about the stages of grief"
+        "A cultural narrative about the stages of grief",
+        "The expected sequence of behaviours and expressions that public mourning rituals impose on the bereaved"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "A script = a prescribed sequence of behaviour; the essay argues that public mourning embeds a script the bereaved are expected to follow.",
       "hint": "Script = a prescribed text or sequence of actions; grief script = what one is expected to do and feel."
     },
@@ -115,12 +246,12 @@
       "id": "q4",
       "prompt": "What does 'non-linearity' describe in the essay?",
       "options": [
-        "The disordered structure of the essay's argument",
         "The fact that private grief does not follow a predictable sequence but arrives, subsides, and returns unpredictably",
+        "The disordered structure of the essay's argument",
         "A mathematical property of emotional responses to trauma",
         "The irregularity of public mourning across different cultures"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Non-linear = not following a straight or predictable path; the essay uses this to describe how private grief behaves, contrasting it with the fixed schedule of public ritual.",
       "hint": "Non-linear = not following a predictable or orderly progression."
     },
@@ -142,11 +273,11 @@
       "prompt": "What is the 'temporal imposition' the essay describes?",
       "options": [
         "The historical timing of when particular mourning rituals developed",
-        "The way public rituals fix grief to a schedule that does not match the non-linear rhythms of actual bereavement",
         "The time pressure imposed on organisations to manage employee grief",
+        "The way public rituals fix grief to a schedule that does not match the non-linear rhythms of actual bereavement",
         "The imposition of one culture's mourning timeline on another"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "Temporal = relating to time; imposition = forcing something. The ritual imposes a time-bound structure on grief that doesn't match how grief actually moves.",
       "hint": "Temporal = relating to time; imposition = something forced on a person."
     },
@@ -154,12 +285,12 @@
       "id": "q7",
       "prompt": "What is a 'category error' as the essay uses the term?",
       "options": [
-        "A logical mistake in which two fundamentally different things are treated as the same kind of thing",
         "An error in the categorisation of employees in a HR system",
         "A mistake in classifying a ritual as mourning rather than celebration",
-        "An error in the academic literature about grief psychology"
+        "An error in the academic literature about grief psychology",
+        "A logical mistake in which two fundamentally different things are treated as the same kind of thing"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "The essay applies 'category error' to the mistake of treating what ritual does for communities and what it does for bereaved individuals as the same thing — they are different in kind.",
       "hint": "Category error = treating two different types of thing as if they were the same type."
     },
@@ -167,12 +298,12 @@
       "id": "q8",
       "prompt": "What concessive argument does the essay make and how does it counter it?",
       "options": [
-        "It concedes that rituals are culturally necessary, then argues they should be reformed.",
         "It concedes that public mourning provides community and legitimation, then contests whether grief actually requires social legitimation at all.",
+        "It concedes that rituals are culturally necessary, then argues they should be reformed.",
         "It concedes that individual grief varies, then argues public rituals are still universally useful.",
         "It concedes that institutional practices are flawed, then argues individuals must adapt."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The 'One might well argue…' concession grants the community benefit, but 'But this concedes precisely what the essay contests' pivots to question whether grief requires social validation.",
       "hint": "Look for 'One might well argue' and the pivot 'But this concedes precisely what the essay contests'."
     },
@@ -194,11 +325,11 @@
       "prompt": "Why does the essay say organisational memorial events compound the problem of public mourning?",
       "options": [
         "Because they are held too infrequently to serve employees' needs",
-        "Because they add a layer of organisational expectation — requiring grief to fit an operational timeline and serve the institution's image",
         "Because they distract employees from work unnecessarily",
+        "Because they add a layer of organisational expectation — requiring grief to fit an operational timeline and serve the institution's image",
         "Because they focus on religious observance rather than emotional support"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay says institutional events are designed to demonstrate organisational values and require employees to conclude grief within a timeline that suits operations, not feelings.",
       "hint": "Look for 'The organisation requires closure on a timeline that suits its operational needs'."
     },
@@ -207,11 +338,11 @@
       "prompt": "What does 'perform grief legibly' mean in the essay?",
       "options": [
         "To write about grief in clear, accessible language",
-        "To express grief in publicly recognisable, readable forms — such as tears or controlled composure — that an audience can validate",
         "To act out grief in a theatrical performance",
-        "To keep a grief journal that can be shared with a counsellor"
+        "To keep a grief journal that can be shared with a counsellor",
+        "To express grief in publicly recognisable, readable forms — such as tears or controlled composure — that an audience can validate"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "Perform = to enact; legibly = in a way that can be read/understood. The essay argues that public ritual demands grief be displayed in forms the audience can recognise.",
       "hint": "Legible = readable; perform legibly = enact in a readable, recognisable way."
     },
@@ -219,12 +350,12 @@
       "id": "q12",
       "prompt": "What is the essay's position on whether public mourning rituals should be abolished?",
       "options": [
-        "Yes — they consistently harm the bereaved and should be replaced with private support.",
         "No — they do important social work, but this should not be confused with serving the bereaved.",
+        "Yes — they consistently harm the bereaved and should be replaced with private support.",
         "The essay takes no position — it only describes the problem without recommending action.",
         "Yes — institutional mourning events specifically should be banned."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay explicitly says 'This does not mean that ritual is worthless' and concludes by calling for honesty about whose needs ritual serves, not abolition.",
       "hint": "Look for 'does not require abolishing public mourning'."
     },
@@ -233,11 +364,11 @@
       "prompt": "Which of the following is a nominalization as defined by grammar?",
       "options": [
         "the bereaved perform grief",
-        "the audience validates the ritual",
         "The underperformance of public ritual as a support for private grief",
+        "the audience validates the ritual",
         "organisations hold memorial events"
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "explanation": "Option C converts the verb 'underperform' into the noun 'underperformance', treating the process as an entity — a classic nominalization for C1 analytical writing.",
       "hint": "Nominalizations convert verbs/adjectives into nouns using suffixes like -ance, -ment, -tion, -ness."
     },
@@ -246,11 +377,11 @@
       "prompt": "What does 'catharsis' mean in the essay's context?",
       "options": [
         "A feeling of satisfaction after completing a difficult task",
-        "An emotional release or purging — here, the sense of relief or resolution that ritual is expected to provide",
         "A medical term for physical recovery after illness",
+        "An emotional release or purging — here, the sense of relief or resolution that ritual is expected to provide",
         "The process of preparing a ritual venue"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "Catharsis = emotional purging or release; the essay argues that when people fail to find this in prescribed ritual forms, they may feel they are grieving incorrectly.",
       "hint": "From Greek: katharsis = purification, cleansing. Used in psychology for emotional release."
     },
@@ -260,10 +391,10 @@
       "options": [
         "Professional counselling and structured support groups",
         "Community validation and shared public acknowledgement",
-        "Time, irregularity, and the permission not to perform",
-        "A formal schedule that provides structure during a chaotic period"
+        "A formal schedule that provides structure during a chaotic period",
+        "Time, irregularity, and the permission not to perform"
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "explanation": "The essay directly states: 'What private grief most often needs is time, irregularity, and the permission not to perform' — all of which public ritual denies.",
       "hint": "Look for the sentence beginning 'What private grief most often needs is…'"
     },
@@ -271,12 +402,12 @@
       "id": "q16",
       "prompt": "What does 'authenticity pressure' describe?",
       "options": [
-        "The pressure on journalists to report truthfully about public figures' grief",
         "The expectation placed on the bereaved to display grief in publicly recognisable forms that others can read and validate as genuine",
+        "The pressure on journalists to report truthfully about public figures' grief",
         "The psychological pressure to confront authentic feelings in therapy",
         "The pressure on organisations to respond authentically to employee loss"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Authenticity pressure = the expectation that grief look real and readable. The essay argues this serves the audience's need for legibility, not the bereaved person's need to grieve.",
       "hint": "Authenticity = appearing genuine; pressure = expectation. Who benefits from this authenticity?"
     }

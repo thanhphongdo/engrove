@@ -3,7 +3,12 @@
   "level": "A2",
   "title": "An afternoon at the bathhouse in Budapest",
   "summary": "A short story about a first visit to a public bath in a city famous for them.",
-  "tags": ["Narration", "Past simple", "Travel", "First time"],
+  "tags": [
+    "Narration",
+    "Past simple",
+    "Travel",
+    "First time"
+  ],
   "topic": "An afternoon at the bathhouse in Budapest",
   "prompt": "Write 8–10 sentences (150–250 words) about your first visit to a public bath, sauna, or hot spring abroad. Describe what you saw, what you did wrong, and how you felt by the end. Use past simple and past continuous.",
   "minWords": 150,
@@ -14,31 +19,107 @@
     "By the time I lowered myself into the warm outdoor pool…"
   ],
   "hintVocab": [
-    { "phrase": "bathhouse", "meaningVi": "nhà tắm công cộng" },
-    { "phrase": "thermal", "meaningVi": "nhiệt, nóng tự nhiên", "pronunciation": "/ˈθɜːrməl/" },
-    { "phrase": "pool", "meaningVi": "hồ bơi", "pronunciation": "/puːl/" },
-    { "phrase": "towel", "meaningVi": "khăn tắm", "pronunciation": "/ˈtaʊəl/" },
-    { "phrase": "locker", "meaningVi": "tủ khóa", "pronunciation": "/ˈlɒkər/" },
-    { "phrase": "tile", "meaningVi": "gạch lát", "pronunciation": "/taɪl/" },
-    { "phrase": "steam", "meaningVi": "hơi nước", "pronunciation": "/stiːm/" },
-    { "phrase": "relax", "meaningVi": "thư giãn", "pronunciation": "/rɪˈlæks/" },
-    { "phrase": "rule", "meaningVi": "quy tắc", "pronunciation": "/ruːl/" },
-    { "phrase": "shy", "meaningVi": "ngại ngùng", "pronunciation": "/ʃaɪ/" },
-    { "phrase": "wrinkled", "meaningVi": "nhăn (da)", "pronunciation": "/ˈrɪŋkəld/" }
+    {
+      "phrase": "bathhouse",
+      "meaningVi": "nhà tắm công cộng"
+    },
+    {
+      "phrase": "thermal",
+      "meaningVi": "nhiệt, nóng tự nhiên",
+      "pronunciation": "/ˈθɜːrməl/"
+    },
+    {
+      "phrase": "pool",
+      "meaningVi": "hồ bơi",
+      "pronunciation": "/puːl/"
+    },
+    {
+      "phrase": "towel",
+      "meaningVi": "khăn tắm",
+      "pronunciation": "/ˈtaʊəl/"
+    },
+    {
+      "phrase": "locker",
+      "meaningVi": "tủ khóa",
+      "pronunciation": "/ˈlɒkər/"
+    },
+    {
+      "phrase": "tile",
+      "meaningVi": "gạch lát",
+      "pronunciation": "/taɪl/"
+    },
+    {
+      "phrase": "steam",
+      "meaningVi": "hơi nước",
+      "pronunciation": "/stiːm/"
+    },
+    {
+      "phrase": "relax",
+      "meaningVi": "thư giãn",
+      "pronunciation": "/rɪˈlæks/"
+    },
+    {
+      "phrase": "rule",
+      "meaningVi": "quy tắc",
+      "pronunciation": "/ruːl/"
+    },
+    {
+      "phrase": "shy",
+      "meaningVi": "ngại ngùng",
+      "pronunciation": "/ʃaɪ/"
+    },
+    {
+      "phrase": "wrinkled",
+      "meaningVi": "nhăn (da)",
+      "pronunciation": "/ˈrɪŋkəld/"
+    }
   ],
   "sampleText": "I had never been to a public bath before that grey Thursday in Budapest. A colleague at work told me, 'You cannot leave this city without going to Széchenyi at least once.' So I bought my ticket on a slow afternoon and tried to look like I knew what I was doing. I did not. I followed the wrong arrow twice and ended up in the women's changing room before a polite cleaner pointed me back to the men's side. While I was looking for my locker, an older man in nothing but slippers was laughing at me kindly. The tiled rooms smelled of warm stone and very faintly of eggs. I lowered myself into a small indoor pool first, then walked through a corridor of steam, and finally stepped out into the wide warm outdoor pool under a cold grey sky. Snow had started to fall, and the steam was rising around the chess players who were playing in the water at the edge. I floated on my back for forty minutes. By the time I finished, my fingers were wrinkled, my mind was completely empty, and I had finally understood what my colleague meant. Some places you must enter wrong before you can enter them right.",
   "sampleAnnotations": [
-    { "phrase": "I had never been to a public bath before", "meaningVi": "Tôi chưa bao giờ đi nhà tắm công cộng trước đó" },
-    { "phrase": "You cannot leave this city without going to Széchenyi at least once", "meaningVi": "Bạn không thể rời thành phố này mà chưa đến Széchenyi ít nhất một lần" },
-    { "phrase": "tried to look like I knew what I was doing", "meaningVi": "cố tỏ ra như tôi biết mình đang làm gì" },
-    { "phrase": "I followed the wrong arrow twice", "meaningVi": "Tôi đi theo mũi tên sai hai lần" },
-    { "phrase": "an older man in nothing but slippers was laughing at me kindly", "meaningVi": "một ông cụ chỉ đi dép lê đang cười với tôi hiền lành" },
-    { "phrase": "The tiled rooms smelled of warm stone", "meaningVi": "Các phòng lát gạch thơm mùi đá ấm" },
-    { "phrase": "I lowered myself into a small indoor pool", "meaningVi": "Tôi từ từ thả mình vào một hồ nhỏ trong nhà" },
-    { "phrase": "the steam was rising around the chess players", "meaningVi": "hơi nước đang bốc lên quanh những người chơi cờ" },
-    { "phrase": "I floated on my back for forty minutes", "meaningVi": "Tôi nổi ngửa trên lưng trong bốn mươi phút" },
-    { "phrase": "my fingers were wrinkled, my mind was completely empty", "meaningVi": "các ngón tay của tôi nhăn nheo, đầu óc tôi hoàn toàn trống rỗng" },
-    { "phrase": "Some places you must enter wrong before you can enter them right", "meaningVi": "Có những nơi bạn phải bước vào sai trước khi bạn có thể bước vào đúng" }
+    {
+      "phrase": "I had never been to a public bath before",
+      "meaningVi": "Tôi chưa bao giờ đi nhà tắm công cộng trước đó"
+    },
+    {
+      "phrase": "You cannot leave this city without going to Széchenyi at least once",
+      "meaningVi": "Bạn không thể rời thành phố này mà chưa đến Széchenyi ít nhất một lần"
+    },
+    {
+      "phrase": "tried to look like I knew what I was doing",
+      "meaningVi": "cố tỏ ra như tôi biết mình đang làm gì"
+    },
+    {
+      "phrase": "I followed the wrong arrow twice",
+      "meaningVi": "Tôi đi theo mũi tên sai hai lần"
+    },
+    {
+      "phrase": "an older man in nothing but slippers was laughing at me kindly",
+      "meaningVi": "một ông cụ chỉ đi dép lê đang cười với tôi hiền lành"
+    },
+    {
+      "phrase": "The tiled rooms smelled of warm stone",
+      "meaningVi": "Các phòng lát gạch thơm mùi đá ấm"
+    },
+    {
+      "phrase": "I lowered myself into a small indoor pool",
+      "meaningVi": "Tôi từ từ thả mình vào một hồ nhỏ trong nhà"
+    },
+    {
+      "phrase": "the steam was rising around the chess players",
+      "meaningVi": "hơi nước đang bốc lên quanh những người chơi cờ"
+    },
+    {
+      "phrase": "I floated on my back for forty minutes",
+      "meaningVi": "Tôi nổi ngửa trên lưng trong bốn mươi phút"
+    },
+    {
+      "phrase": "my fingers were wrinkled, my mind was completely empty",
+      "meaningVi": "các ngón tay của tôi nhăn nheo, đầu óc tôi hoàn toàn trống rỗng"
+    },
+    {
+      "phrase": "Some places you must enter wrong before you can enter them right",
+      "meaningVi": "Có những nơi bạn phải bước vào sai trước khi bạn có thể bước vào đúng"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -71,12 +152,12 @@
       "id": "q2",
       "prompt": "Pick the correct sentence with 'cannot + base verb'.",
       "options": [
-        "You cannot leave this city without going to Széchenyi at least once.",
         "You cannot to leave this city without going to Széchenyi at least once.",
+        "You cannot leave this city without going to Széchenyi at least once.",
         "You cannot leaving this city without going to Széchenyi at least once.",
         "You cannot left this city without going to Széchenyi at least once."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "Modal 'cannot' + base verb 'leave'; 'without + -ing'.",
       "hint": "Cannot + base verb."
     },
@@ -84,12 +165,12 @@
       "id": "q3",
       "prompt": "What does 'bathhouse' mean?",
       "options": [
-        "a public building where people go to wash and relax in warm pools",
         "a private bedroom",
         "the inside of a small swimming pool",
+        "a public building where people go to wash and relax in warm pools",
         "a hospital for skin problems"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Bathhouse' = a public facility for bathing and relaxation.",
       "hint": "Public bathing."
     },
@@ -97,12 +178,12 @@
       "id": "q4",
       "prompt": "Choose the correct 'while' + past continuous sentence.",
       "options": [
-        "While I was looking for my locker, an older man was laughing at me kindly.",
         "While I looking for my locker, an older man was laughing at me kindly.",
         "While I look for my locker, an older man was laughing at me kindly.",
-        "While I am looking for my locker, an older man was laughing at me kindly."
+        "While I am looking for my locker, an older man was laughing at me kindly.",
+        "While I was looking for my locker, an older man was laughing at me kindly."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "Past continuous in both clauses for parallel ongoing actions.",
       "hint": "Was + -ing in both."
     },
@@ -123,12 +204,12 @@
       "id": "q6",
       "prompt": "What does 'lower oneself' mean?",
       "options": [
-        "to slowly move yourself down into a place",
         "to make oneself less important",
+        "to slowly move yourself down into a place",
         "to laugh quietly at oneself",
         "to climb up stairs"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'Lower oneself into' = to slowly bring oneself down into water, a chair, etc.",
       "hint": "Slowly bring yourself down."
     },
@@ -136,12 +217,12 @@
       "id": "q7",
       "prompt": "Choose the correct past perfect sentence about the snow.",
       "options": [
-        "Snow had started to fall.",
         "Snow have started to fall.",
         "Snow was started to fall.",
+        "Snow had started to fall.",
         "Snow had start to fall."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "Past perfect 'had started' for an event that began before another past moment.",
       "hint": "Had + past participle of 'start'."
     },
@@ -149,12 +230,12 @@
       "id": "q8",
       "prompt": "Pick the natural sentence about floating.",
       "options": [
-        "I floated on my back for forty minutes.",
         "I floated in my back for forty minutes.",
         "I float on my back for forty minutes.",
-        "I am floated on my back for forty minutes."
+        "I am floated on my back for forty minutes.",
+        "I floated on my back for forty minutes."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "Past simple 'floated' + 'on (one's) back' is the fixed preposition.",
       "hint": "Float + on + back."
     },
@@ -175,12 +256,12 @@
       "id": "q10",
       "prompt": "Pick the correct sentence with reduced relative clause.",
       "options": [
-        "the chess players who were playing in the water at the edge",
         "the chess players who playing in the water at the edge",
+        "the chess players who were playing in the water at the edge",
         "the chess players were playing in the water at the edge",
         "the chess players who play in the water at the edge"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "Relative pronoun 'who' + past continuous 'were playing'.",
       "hint": "Who + were + -ing."
     },
@@ -188,12 +269,12 @@
       "id": "q11",
       "prompt": "Choose the most natural closing line.",
       "options": [
-        "Some places you must enter wrong before you can enter them right.",
         "Some places you must enter wrong before you can enter it right.",
         "Some places you must to enter wrong before you can enter them right.",
+        "Some places you must enter wrong before you can enter them right.",
         "Some places you must entered wrong before you can enter them right."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Must + base verb' (no 'to'); 'them' agrees with plural 'places'.",
       "hint": "Must + base; plural pronoun."
     }

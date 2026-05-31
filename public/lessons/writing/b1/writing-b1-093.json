@@ -3,7 +3,11 @@
   "level": "B1",
   "title": "Restore or rebuild: what should cities do with old buildings?",
   "summary": "Argue whether it is better to restore an old building to its original state or to replace it with something new, using a specific building as your example.",
-  "tags": ["Urban life", "Argument", "Preservation"],
+  "tags": [
+    "Urban life",
+    "Argument",
+    "Preservation"
+  ],
   "topic": "Whether to restore an old building or replace it with something new",
   "prompt": "Write 3 paragraphs (400–500 words) arguing whether a specific old building you know — or one you can imagine — should be carefully restored or replaced with a new structure. Describe the building briefly, present one strong reason for your position, and acknowledge one reason why the opposing view has some merit. Use the present perfect to describe the building's history, modals for your recommendations, and 'although' or 'however' for concession.",
   "minWords": 400,
@@ -14,49 +18,172 @@
     "If the city decided to restore it rather than demolish it, the neighbourhood would…"
   ],
   "hintVocab": [
-    { "phrase": "to restore a building", "meaningVi": "khôi phục lại một tòa nhà" },
-    { "phrase": "to demolish", "meaningVi": "phá hủy, đập bỏ", "pronunciation": "/dɪˈmɒlɪʃ/" },
-    { "phrase": "structural integrity", "meaningVi": "tính toàn vẹn kết cấu" },
-    { "phrase": "to fall into disrepair", "meaningVi": "trở nên xuống cấp" },
-    { "phrase": "architectural heritage", "meaningVi": "di sản kiến trúc" },
-    { "phrase": "to apply for listed status", "meaningVi": "xin cấp trạng thái được bảo tồn" },
-    { "phrase": "a heritage site", "meaningVi": "một di chỉ di sản" },
-    { "phrase": "to blend in with", "meaningVi": "hòa hợp với" },
-    { "phrase": "to stand out", "meaningVi": "nổi bật" },
-    { "phrase": "to give a building a new purpose", "meaningVi": "trao cho tòa nhà một mục đích mới" },
-    { "phrase": "adaptive reuse", "meaningVi": "tái sử dụng thích nghi (chuyển đổi công năng)" },
-    { "phrase": "to compete with modern design", "meaningVi": "cạnh tranh với thiết kế hiện đại" },
-    { "phrase": "to cost more to restore than to rebuild", "meaningVi": "tốn kém hơn để phục hồi so với xây mới" },
-    { "phrase": "a facade", "meaningVi": "mặt tiền tòa nhà", "pronunciation": "/fəˈsɑːd/" },
-    { "phrase": "to honour the past", "meaningVi": "tôn vinh quá khứ" },
-    { "phrase": "a planning decision", "meaningVi": "quyết định quy hoạch" },
-    { "phrase": "to keep the shell but change the interior", "meaningVi": "giữ phần vỏ nhưng thay đổi nội thất" },
-    { "phrase": "to outlive its original purpose", "meaningVi": "tồn tại lâu hơn mục đích ban đầu của nó" },
-    { "phrase": "to embed a building in collective memory", "meaningVi": "gắn một tòa nhà vào ký ức tập thể" },
-    { "phrase": "to resist change", "meaningVi": "kháng cự sự thay đổi" }
+    {
+      "phrase": "to restore a building",
+      "meaningVi": "khôi phục lại một tòa nhà"
+    },
+    {
+      "phrase": "to demolish",
+      "meaningVi": "phá hủy, đập bỏ",
+      "pronunciation": "/dɪˈmɒlɪʃ/"
+    },
+    {
+      "phrase": "structural integrity",
+      "meaningVi": "tính toàn vẹn kết cấu"
+    },
+    {
+      "phrase": "to fall into disrepair",
+      "meaningVi": "trở nên xuống cấp"
+    },
+    {
+      "phrase": "architectural heritage",
+      "meaningVi": "di sản kiến trúc"
+    },
+    {
+      "phrase": "to apply for listed status",
+      "meaningVi": "xin cấp trạng thái được bảo tồn"
+    },
+    {
+      "phrase": "a heritage site",
+      "meaningVi": "một di chỉ di sản"
+    },
+    {
+      "phrase": "to blend in with",
+      "meaningVi": "hòa hợp với"
+    },
+    {
+      "phrase": "to stand out",
+      "meaningVi": "nổi bật"
+    },
+    {
+      "phrase": "to give a building a new purpose",
+      "meaningVi": "trao cho tòa nhà một mục đích mới"
+    },
+    {
+      "phrase": "adaptive reuse",
+      "meaningVi": "tái sử dụng thích nghi (chuyển đổi công năng)"
+    },
+    {
+      "phrase": "to compete with modern design",
+      "meaningVi": "cạnh tranh với thiết kế hiện đại"
+    },
+    {
+      "phrase": "to cost more to restore than to rebuild",
+      "meaningVi": "tốn kém hơn để phục hồi so với xây mới"
+    },
+    {
+      "phrase": "a facade",
+      "meaningVi": "mặt tiền tòa nhà",
+      "pronunciation": "/fəˈsɑːd/"
+    },
+    {
+      "phrase": "to honour the past",
+      "meaningVi": "tôn vinh quá khứ"
+    },
+    {
+      "phrase": "a planning decision",
+      "meaningVi": "quyết định quy hoạch"
+    },
+    {
+      "phrase": "to keep the shell but change the interior",
+      "meaningVi": "giữ phần vỏ nhưng thay đổi nội thất"
+    },
+    {
+      "phrase": "to outlive its original purpose",
+      "meaningVi": "tồn tại lâu hơn mục đích ban đầu của nó"
+    },
+    {
+      "phrase": "to embed a building in collective memory",
+      "meaningVi": "gắn một tòa nhà vào ký ức tập thể"
+    },
+    {
+      "phrase": "to resist change",
+      "meaningVi": "kháng cự sự thay đổi"
+    }
   ],
   "sampleText": "There is a train station in the city of Recife, in northern Brazil, that has been closed to passengers for over thirty years. The building is large — two stories of red brick, with arched windows across the entire front and a clock that stopped working at some point in the 1990s. People still use it as a landmark: 'go past the old station and turn left' is a direction you hear often, which is its own proof that the building has not become invisible even in disuse. It has not been actively maintained, and parts of the roof have let in water, but the structure itself is sound. Local preservationists have been arguing for a decade that it should be restored. The city council has, on three separate occasions, proposed replacing it with a mixed-use development.\n\nIn my view, the station should be restored rather than demolished. The argument is not purely sentimental. Buildings that have been part of a city's daily life for generations carry a kind of accumulated familiarity that takes a very long time to build and can be lost in a single afternoon. The station's brick facade and arched windows are recognisable to anyone who grew up within twenty kilometres of it. Once they are gone, nothing built in their place will mean the same thing to the people who remember them. Restoration would be expensive, but it would be possible to give the building a new purpose — as a cultural centre, a market, or a public library — without touching what makes it recognisable.\n\nHowever, I can see why the replacement argument appeals to some people. The station is inaccessible as it stands, and a derelict building in a central location can make an area feel neglected. A new development would bring jobs, income, and housing to a district that needs all three. Although these benefits are real, they do not require the station to disappear. Other cities have rebuilt derelict historic buildings as mixed-use developments while keeping the original shell, and the result has usually been better than what a purely new structure would have produced. The question is not whether the station should have a future but whether that future must require forgetting what it was. I do not think it does. A building that has been a landmark for thirty years — even as a ruin — has already earned the right to remain in some form.",
   "sampleAnnotations": [
-    { "phrase": "has been closed to passengers for over thirty years", "meaningVi": "đã đóng cửa với hành khách hơn ba mươi năm" },
-    { "phrase": "arched windows across the entire front", "meaningVi": "những cửa sổ vòm trên toàn bộ mặt tiền" },
-    { "phrase": "parts of the roof have let in water", "meaningVi": "một số phần của mái nhà đã để nước thấm vào" },
-    { "phrase": "the structure itself is sound", "meaningVi": "bản thân kết cấu vẫn vững chắc" },
-    { "phrase": "have been arguing for a decade", "meaningVi": "đã tranh luận trong một thập kỷ" },
-    { "phrase": "on three separate occasions", "meaningVi": "trong ba dịp riêng biệt" },
-    { "phrase": "The argument is not purely sentimental", "meaningVi": "Lập luận không chỉ đơn thuần là tình cảm" },
-    { "phrase": "accumulated familiarity", "meaningVi": "sự quen thuộc được tích lũy" },
-    { "phrase": "can be lost in a single afternoon", "meaningVi": "có thể bị mất đi trong một buổi chiều duy nhất" },
-    { "phrase": "without touching what makes it recognisable", "meaningVi": "mà không đụng chạm đến điều làm cho nó có thể nhận ra" },
-    { "phrase": "the replacement argument appeals to some people", "meaningVi": "lập luận thay thế hấp dẫn một số người" },
-    { "phrase": "inaccessible as it stands", "meaningVi": "không thể tiếp cận trong tình trạng hiện tại" },
-    { "phrase": "a derelict building", "meaningVi": "một tòa nhà bị bỏ hoang", "pronunciation": "/ˈderəlɪkt/" },
-    { "phrase": "feel neglected", "meaningVi": "cảm thấy bị bỏ bê" },
-    { "phrase": "a district that needs all three", "meaningVi": "một khu vực cần cả ba điều đó" },
-    { "phrase": "keeping the original shell", "meaningVi": "giữ lại phần vỏ ban đầu" },
-    { "phrase": "a purely new structure", "meaningVi": "một công trình hoàn toàn mới" },
-    { "phrase": "must require forgetting what it was", "meaningVi": "phải đòi hỏi việc quên đi nó đã từng là gì" },
-    { "phrase": "I do not think it does", "meaningVi": "Tôi không nghĩ vậy" },
-    { "phrase": "mixed-use development", "meaningVi": "khu phát triển đa năng" }
+    {
+      "phrase": "has been closed to passengers for over thirty years",
+      "meaningVi": "đã đóng cửa với hành khách hơn ba mươi năm"
+    },
+    {
+      "phrase": "arched windows across the entire front",
+      "meaningVi": "những cửa sổ vòm trên toàn bộ mặt tiền"
+    },
+    {
+      "phrase": "parts of the roof have let in water",
+      "meaningVi": "một số phần của mái nhà đã để nước thấm vào"
+    },
+    {
+      "phrase": "the structure itself is sound",
+      "meaningVi": "bản thân kết cấu vẫn vững chắc"
+    },
+    {
+      "phrase": "have been arguing for a decade",
+      "meaningVi": "đã tranh luận trong một thập kỷ"
+    },
+    {
+      "phrase": "on three separate occasions",
+      "meaningVi": "trong ba dịp riêng biệt"
+    },
+    {
+      "phrase": "The argument is not purely sentimental",
+      "meaningVi": "Lập luận không chỉ đơn thuần là tình cảm"
+    },
+    {
+      "phrase": "accumulated familiarity",
+      "meaningVi": "sự quen thuộc được tích lũy"
+    },
+    {
+      "phrase": "can be lost in a single afternoon",
+      "meaningVi": "có thể bị mất đi trong một buổi chiều duy nhất"
+    },
+    {
+      "phrase": "without touching what makes it recognisable",
+      "meaningVi": "mà không đụng chạm đến điều làm cho nó có thể nhận ra"
+    },
+    {
+      "phrase": "the replacement argument appeals to some people",
+      "meaningVi": "lập luận thay thế hấp dẫn một số người"
+    },
+    {
+      "phrase": "inaccessible as it stands",
+      "meaningVi": "không thể tiếp cận trong tình trạng hiện tại"
+    },
+    {
+      "phrase": "a derelict building",
+      "meaningVi": "một tòa nhà bị bỏ hoang",
+      "pronunciation": "/ˈderəlɪkt/"
+    },
+    {
+      "phrase": "feel neglected",
+      "meaningVi": "cảm thấy bị bỏ bê"
+    },
+    {
+      "phrase": "a district that needs all three",
+      "meaningVi": "một khu vực cần cả ba điều đó"
+    },
+    {
+      "phrase": "keeping the original shell",
+      "meaningVi": "giữ lại phần vỏ ban đầu"
+    },
+    {
+      "phrase": "a purely new structure",
+      "meaningVi": "một công trình hoàn toàn mới"
+    },
+    {
+      "phrase": "must require forgetting what it was",
+      "meaningVi": "phải đòi hỏi việc quên đi nó đã từng là gì"
+    },
+    {
+      "phrase": "I do not think it does",
+      "meaningVi": "Tôi không nghĩ vậy"
+    },
+    {
+      "phrase": "mixed-use development",
+      "meaningVi": "khu phát triển đa năng"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -76,12 +203,12 @@
       "id": "q1",
       "prompt": "Which sentence correctly uses the present perfect with 'for over' to describe a continuing state?",
       "options": [
-        "The station has been closed for over thirty years.",
         "The station has been closed since over thirty years.",
+        "The station has been closed for over thirty years.",
         "The station had been closed for over thirty years.",
         "The station is closed for over thirty years."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "Present perfect 'has been closed' + 'for over thirty years' describes a state that started in the past and continues to the present. 'Since over thirty years' is incorrect — 'since' needs a point in time. Past perfect 'had been closed' would suggest it's no longer closed. 'Is closed for' uses simple present, which doesn't express duration.",
       "hint": "'For + duration' with present perfect expresses how long a current state has lasted."
     },
@@ -89,12 +216,12 @@
       "id": "q2",
       "prompt": "Which sentence correctly uses the present perfect progressive to describe an ongoing debate?",
       "options": [
-        "Preservationists have been arguing for a decade that it should be restored.",
         "Preservationists argued for a decade that it should be restored.",
         "Preservationists are arguing for a decade that it should be restored.",
+        "Preservationists have been arguing for a decade that it should be restored.",
         "Preservationists have argued for a decade that it should be restored."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Have been arguing' (present perfect progressive) + 'for a decade' stresses the ongoing, continuous nature of the debate. 'Argued' (simple past) suggests it has stopped. 'Are arguing for a decade' mixes present progressive with a duration phrase incorrectly. 'Have argued' (present perfect simple) is also grammatically correct but less vivid for an ongoing process.",
       "hint": "Present perfect progressive ('have been arguing') emphasises an activity still in progress over a period of time."
     },
@@ -102,12 +229,12 @@
       "id": "q3",
       "prompt": "Which sentence uses 'rather than' correctly to contrast two choices?",
       "options": [
-        "The station should be restored rather than demolished.",
         "The station should be restored rather than demolishing.",
         "The station should be restored instead of demolish.",
-        "The station should be restored rather than to demolish."
+        "The station should be restored rather than to demolish.",
+        "The station should be restored rather than demolished."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'Should be restored rather than demolished' — both past participles are parallel in the passive construction. 'Rather than demolishing' uses a gerund, which breaks the parallel. 'Instead of demolish' needs a gerund ('demolishing'). 'Rather than to demolish' adds an incorrect infinitive marker.",
       "hint": "After 'rather than', keep the same grammatical form as the preceding verb."
     },
@@ -128,12 +255,12 @@
       "id": "q5",
       "prompt": "Which sentence uses 'however' correctly to introduce a contrasting paragraph?",
       "options": [
-        "However, I can see why the replacement argument appeals to some people.",
         "However I can see why the replacement argument appeals to some people.",
+        "However, I can see why the replacement argument appeals to some people.",
         "However; I can see why the replacement argument appeals to some people.",
         "However, I can see why the replacement argument appeal to some people."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "Sentence-initial 'however' as a discourse marker takes a comma. No comma after 'however' is a punctuation error. A semicolon after 'however' is incorrect when 'however' starts a new sentence. 'Argument appeal' fails subject-verb agreement ('argument' is singular, so 'appeals').",
       "hint": "When 'however' starts a sentence, it is followed by a comma — not a semicolon."
     },
@@ -141,12 +268,12 @@
       "id": "q6",
       "prompt": "Which sentence correctly uses 'would' in a second conditional to predict an outcome?",
       "options": [
-        "If the city decided to restore it, the neighbourhood would benefit greatly.",
         "If the city decides to restore it, the neighbourhood would benefit greatly.",
         "If the city decided to restore it, the neighbourhood will benefit greatly.",
+        "If the city decided to restore it, the neighbourhood would benefit greatly.",
         "If the city decided to restore it, the neighbourhood would benefits greatly."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "Second conditional: 'If + past simple, … would + bare infinitive'. Using present simple 'decides' in the 'if' clause is first conditional. 'Will benefit' is also first conditional result. 'Would benefits' adds an incorrect third-person 's' after a modal.",
       "hint": "Second conditional uses past simple in the 'if' clause and 'would + base verb' in the result."
     },
@@ -154,12 +281,12 @@
       "id": "q7",
       "prompt": "Which sentence correctly uses 'appeal to' as a verb phrase?",
       "options": [
-        "The replacement argument appeals to people who value efficiency.",
         "The replacement argument appeal to people who value efficiency.",
         "The replacement argument appeals for people who value efficiency.",
-        "The replacement argument appeals people who value efficiency."
+        "The replacement argument appeals people who value efficiency.",
+        "The replacement argument appeals to people who value efficiency."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'Appeal to' requires the preposition 'to'. 'Appeal' (no 's') fails subject-verb agreement. 'Appeals for' means to make a public request, not to attract. 'Appeals people' omits the preposition entirely.",
       "hint": "'Appeal' in the sense of 'attract or interest someone' always takes the preposition 'to'."
     },
@@ -180,12 +307,12 @@
       "id": "q9",
       "prompt": "Which sentence correctly uses 'the question is not whether … but whether …' as a parallel structure?",
       "options": [
-        "The question is not whether it should have a future but whether that future requires forgetting.",
         "The question is not if it should have a future but whether that future requires forgetting.",
+        "The question is not whether it should have a future but whether that future requires forgetting.",
         "The question is not whether it should have a future but that future requires forgetting.",
         "The question is whether not it should have a future but whether that future requires forgetting."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "Parallel structure: 'not whether … but whether …' — both sides use the same conjunctive 'whether'. Mixing 'if' and 'whether' breaks the parallel and is slightly informal. Option C drops the second 'whether', breaking the structure. Option D misplaces 'not'.",
       "hint": "In 'not … but …' parallel structures, the same word should introduce each alternative."
     },
@@ -193,12 +320,12 @@
       "id": "q10",
       "prompt": "Which sentence correctly uses 'without' + gerund to describe a condition?",
       "options": [
-        "The building can be given a new purpose without losing what makes it recognisable.",
         "The building can be given a new purpose without to lose what makes it recognisable.",
         "The building can be given a new purpose without losing which makes it recognisable.",
+        "The building can be given a new purpose without losing what makes it recognisable.",
         "The building can be given a new purpose without lose what makes it recognisable."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Without + gerund' is the standard construction. 'Without to lose' incorrectly uses an infinitive after 'without'. 'Without losing which makes it' — 'which' is incorrect in a free relative clause; 'what' is required here. 'Without lose' uses the bare infinitive, which is incorrect after a preposition.",
       "hint": "After 'without', only a gerund (-ing form) is grammatically correct — not an infinitive."
     },
@@ -206,12 +333,12 @@
       "id": "q11",
       "prompt": "Which phrase correctly uses 'on … occasions' with a number?",
       "options": [
-        "The council has proposed this on three separate occasions.",
         "The council has proposed this in three separate occasions.",
         "The council has proposed this for three separate occasions.",
-        "The council has proposed this at three separate occasions."
+        "The council has proposed this at three separate occasions.",
+        "The council has proposed this on three separate occasions."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'On … occasions' is the correct prepositional phrase. 'In occasions', 'for occasions', and 'at occasions' are all incorrect collocations — 'on' is the only correct preposition with 'occasion' in this sense.",
       "hint": "The correct preposition before 'occasions' (meaning times/instances) is always 'on'."
     }

@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "On the obligation to remember languages that are no longer profitable",
   "summary": "Argue that the survival of a minority language is not the responsibility of the market or the school inspector but a collective ethical obligation — and that 'usefulness' is the wrong axis on which to judge it.",
-  "tags": ["Language", "Ethics", "Culture"],
+  "tags": [
+    "Language",
+    "Ethics",
+    "Culture"
+  ],
   "topic": "Whether and why we owe something to languages that the market does not sustain",
   "prompt": "Write a 600–800-word essay arguing that languages losing speakers carry obligations that economic and educational arguments cannot fully discharge. Avoid the language of cultural-heritage tourism. Use inversion at least once, a cleft sentence, and a 'Granted… Even so…' concession. Refer to specific languages (Welsh, Yiddish, Quechua, etc.) where helpful. Treat the question as one of ethics, not branding.",
   "minWords": 600,
@@ -14,52 +18,182 @@
     "Granted, the cost of sustaining a language no one needs at work is real. Even so,…"
   ],
   "hintVocab": [
-    {"phrase": "minority language", "meaningVi": "ngôn ngữ thiểu số"},
-    {"phrase": "linguistic vitality", "meaningVi": "sức sống ngôn ngữ"},
-    {"phrase": "intergenerational transmission", "meaningVi": "sự truyền dạy giữa các thế hệ"},
-    {"phrase": "language death", "meaningVi": "cái chết của một ngôn ngữ"},
-    {"phrase": "endangered language", "meaningVi": "ngôn ngữ nguy cấp"},
-    {"phrase": "the last speaker", "meaningVi": "người nói cuối cùng"},
-    {"phrase": "the utility frame", "meaningVi": "khung hữu dụng"},
-    {"phrase": "monolingual default", "meaningVi": "mặc định đơn ngữ"},
-    {"phrase": "linguistic dignity", "meaningVi": "phẩm giá ngôn ngữ"},
-    {"phrase": "the mother tongue", "meaningVi": "tiếng mẹ đẻ"},
-    {"phrase": "cultural ecology", "meaningVi": "sinh thái văn hoá"},
-    {"phrase": "language revitalisation", "meaningVi": "sự phục hồi ngôn ngữ"},
-    {"phrase": "Welsh, Yiddish, Quechua", "meaningVi": "tiếng Wales, Yiddish, Quechua — các ngôn ngữ thiểu số có lịch sử phục hồi khác nhau"},
-    {"phrase": "the inherited tongue", "meaningVi": "tiếng được kế thừa"},
-    {"phrase": "lexical density", "meaningVi": "mật độ từ vựng"},
-    {"phrase": "untranslatable nuance", "meaningVi": "sắc thái không thể dịch"},
-    {"phrase": "subsidy", "meaningVi": "trợ cấp", "pronunciation": "/ˈsʌbsɪdi/"},
-    {"phrase": "cultural amnesia", "meaningVi": "chứng quên văn hoá"},
-    {"phrase": "the marketised view of language", "meaningVi": "quan điểm thị trường hoá về ngôn ngữ"},
-    {"phrase": "collective inheritance", "meaningVi": "di sản tập thể"},
-    {"phrase": "asymmetrical bilingualism", "meaningVi": "song ngữ bất đối xứng"},
-    {"phrase": "moral debt", "meaningVi": "món nợ đạo đức"}
+    {
+      "phrase": "minority language",
+      "meaningVi": "ngôn ngữ thiểu số"
+    },
+    {
+      "phrase": "linguistic vitality",
+      "meaningVi": "sức sống ngôn ngữ"
+    },
+    {
+      "phrase": "intergenerational transmission",
+      "meaningVi": "sự truyền dạy giữa các thế hệ"
+    },
+    {
+      "phrase": "language death",
+      "meaningVi": "cái chết của một ngôn ngữ"
+    },
+    {
+      "phrase": "endangered language",
+      "meaningVi": "ngôn ngữ nguy cấp"
+    },
+    {
+      "phrase": "the last speaker",
+      "meaningVi": "người nói cuối cùng"
+    },
+    {
+      "phrase": "the utility frame",
+      "meaningVi": "khung hữu dụng"
+    },
+    {
+      "phrase": "monolingual default",
+      "meaningVi": "mặc định đơn ngữ"
+    },
+    {
+      "phrase": "linguistic dignity",
+      "meaningVi": "phẩm giá ngôn ngữ"
+    },
+    {
+      "phrase": "the mother tongue",
+      "meaningVi": "tiếng mẹ đẻ"
+    },
+    {
+      "phrase": "cultural ecology",
+      "meaningVi": "sinh thái văn hoá"
+    },
+    {
+      "phrase": "language revitalisation",
+      "meaningVi": "sự phục hồi ngôn ngữ"
+    },
+    {
+      "phrase": "Welsh, Yiddish, Quechua",
+      "meaningVi": "tiếng Wales, Yiddish, Quechua — các ngôn ngữ thiểu số có lịch sử phục hồi khác nhau"
+    },
+    {
+      "phrase": "the inherited tongue",
+      "meaningVi": "tiếng được kế thừa"
+    },
+    {
+      "phrase": "lexical density",
+      "meaningVi": "mật độ từ vựng"
+    },
+    {
+      "phrase": "untranslatable nuance",
+      "meaningVi": "sắc thái không thể dịch"
+    },
+    {
+      "phrase": "subsidy",
+      "meaningVi": "trợ cấp",
+      "pronunciation": "/ˈsʌbsɪdi/"
+    },
+    {
+      "phrase": "cultural amnesia",
+      "meaningVi": "chứng quên văn hoá"
+    },
+    {
+      "phrase": "the marketised view of language",
+      "meaningVi": "quan điểm thị trường hoá về ngôn ngữ"
+    },
+    {
+      "phrase": "collective inheritance",
+      "meaningVi": "di sản tập thể"
+    },
+    {
+      "phrase": "asymmetrical bilingualism",
+      "meaningVi": "song ngữ bất đối xứng"
+    },
+    {
+      "phrase": "moral debt",
+      "meaningVi": "món nợ đạo đức"
+    }
   ],
   "sampleText": "Only rarely does the case for a minority language stand on the ground its defenders themselves prefer. The standard arguments — that bilingualism improves cognitive flexibility, that the language has commercial potential, that translating into and out of it sustains certain professions — are all true, and all beside the central point. They concede in their form what the speakers of the language are usually trying to refuse in their content: that a language must justify itself to a buyer before it is allowed to continue.\n\nThis is the utility frame, and it dominates almost every conversation about endangered languages. A government considers whether to fund Welsh-medium education and asks what economic return the investment will produce. A school in the Peruvian Andes considers whether Quechua should be a subject of instruction and asks whether the children's future earnings will be improved. The framing is not malicious. It is the framing within which contemporary public decisions are made. But it carries an assumption — that the value of a language is reducible to what its speakers can do with it in a market — which is, on closer inspection, the assumption a defender of the language ought to refuse.\n\nWhat the question 'is it useful?' cannot reach is the prior question of what the language is the vehicle of. A language is not a tool that someone happens to own. It is a particular way that a particular group of people has worked out how to perceive the world, name relationships, mark obligations, and tell their dead from their living. To lose that — to allow it to be replaced by a more dominant language because the dominant one is more profitable — is not the same kind of loss as the loss of an inefficient industry. It is the loss of a perception. There is no other holder of it, and no other place from which it can be retrieved.\n\nThe utility frame also disguises a moral asymmetry. The choice to speak the dominant language is rarely a free choice; it is made under conditions in which not speaking it carries real penalties — fewer jobs, less schooling, more bureaucracy. The choice to maintain the minority language requires effort, organisation, and the willingness to bear a small daily cost. To describe this as a 'market signal' and conclude that the minority language is naturally declining is to mistake an asymmetric coercion for a preference. Yiddish did not stop being spoken in pre-war Europe because its speakers preferred German. Quechua does not lose ground to Spanish because Quechua-speaking parents have made a careful family calculation. The decline is the product of policy, of stigma, and of a labour market that demands one tongue and tolerates another.\n\nIt is the prior obligation, not the contingent usefulness, that defines our responsibility toward inherited languages. Granted, the cost of sustaining a language no one needs at work is real: school hours diverted, public money spent, parents asked to bear an extra cognitive load they did not anticipate. Even so, the comparison the utility frame asks us to make — between the cost of preservation and the convenience of monolingual default — is the wrong comparison. The relevant comparison is between maintaining a language and witnessing the disappearance of a way of being a person that no one else carries. Some costs are not worth refusing, and the moral debts they discharge cannot be settled in any other coin.\n\nNone of this requires that every language be saved in its full historical extent, or that monolinguals owe minority-language speakers an apology. The argument is narrower. It is that those of us who happen to have inherited a small language — through grandparents, through a region, through accident of birth — owe it more than we owe the more profitable language we will use to make our living. That obligation is not absolute and cannot be enforced; it is, like most moral obligations, a quiet adjustment of one's life around something other than its convenience. The cost of meeting it is small. The cost of refusing it, distributed across generations, is the slow disappearance of an inheritance that, once gone, cannot be reassembled from the dictionaries.",
   "sampleAnnotations": [
-    {"phrase": "Only rarely does the case for a minority language stand on the ground its defenders themselves prefer", "meaningVi": "Chỉ hiếm khi luận điểm cho một ngôn ngữ thiểu số đứng trên mảnh đất mà chính những người bảo vệ nó ưa thích"},
-    {"phrase": "They concede in their form what the speakers of the language are usually trying to refuse in their content", "meaningVi": "Chúng nhượng bộ trong hình thức điều mà những người nói ngôn ngữ thường cố từ chối trong nội dung"},
-    {"phrase": "the utility frame", "meaningVi": "khung hữu dụng"},
-    {"phrase": "the framing within which contemporary public decisions are made", "meaningVi": "khung trong đó các quyết định công đương đại được đưa ra"},
-    {"phrase": "the value of a language is reducible to what its speakers can do with it in a market", "meaningVi": "giá trị của một ngôn ngữ có thể quy về những gì người nói nó có thể làm với nó trong thị trường"},
-    {"phrase": "What the question 'is it useful?' cannot reach is the prior question of what the language is the vehicle of", "meaningVi": "Những gì câu hỏi 'có hữu ích không?' không thể với tới là câu hỏi trước đó về việc ngôn ngữ là phương tiện của cái gì"},
-    {"phrase": "a particular way that a particular group of people has worked out how to perceive the world", "meaningVi": "một cách thức cụ thể mà một nhóm người cụ thể đã tìm ra cách nhận thức thế giới"},
-    {"phrase": "name relationships, mark obligations, and tell their dead from their living", "meaningVi": "đặt tên các mối quan hệ, đánh dấu nghĩa vụ, và phân biệt người chết khỏi người sống"},
-    {"phrase": "It is the loss of a perception", "meaningVi": "Đó là sự mất đi một cách nhận thức"},
-    {"phrase": "no other place from which it can be retrieved", "meaningVi": "không nơi nào khác để có thể lấy lại"},
-    {"phrase": "The utility frame also disguises a moral asymmetry", "meaningVi": "Khung hữu dụng cũng nguỵ trang một sự bất đối xứng đạo đức"},
-    {"phrase": "made under conditions in which not speaking it carries real penalties", "meaningVi": "được thực hiện trong điều kiện mà không nói nó mang theo những hình phạt thực sự"},
-    {"phrase": "to mistake an asymmetric coercion for a preference", "meaningVi": "nhầm một sự cưỡng ép bất đối xứng với một sự ưa thích"},
-    {"phrase": "Yiddish did not stop being spoken in pre-war Europe because its speakers preferred German", "meaningVi": "Tiếng Yiddish không ngừng được nói ở châu Âu trước chiến tranh vì người nói nó ưa thích tiếng Đức"},
-    {"phrase": "It is the prior obligation, not the contingent usefulness, that defines our responsibility toward inherited languages", "meaningVi": "Chính nghĩa vụ tiên quyết, không phải sự hữu dụng tuỳ thuộc, mới định nghĩa trách nhiệm của chúng ta đối với các ngôn ngữ kế thừa"},
-    {"phrase": "Granted, the cost of sustaining a language no one needs at work is real", "meaningVi": "Cứ cho là chi phí duy trì một ngôn ngữ không ai cần ở chỗ làm là có thật"},
-    {"phrase": "Even so, the comparison the utility frame asks us to make is the wrong comparison", "meaningVi": "Dù vậy, so sánh mà khung hữu dụng yêu cầu chúng ta thực hiện là so sánh sai"},
-    {"phrase": "the disappearance of a way of being a person that no one else carries", "meaningVi": "sự biến mất của một cách thức làm người mà không ai khác mang theo"},
-    {"phrase": "the moral debts they discharge cannot be settled in any other coin", "meaningVi": "những món nợ đạo đức mà chúng giải toả không thể được thanh toán bằng đồng tiền nào khác"},
-    {"phrase": "a quiet adjustment of one's life around something other than its convenience", "meaningVi": "một sự điều chỉnh trầm lặng của đời sống xung quanh điều gì đó khác ngoài sự tiện lợi của nó"},
-    {"phrase": "an inheritance that, once gone, cannot be reassembled from the dictionaries", "meaningVi": "một di sản, một khi mất đi, không thể được lắp ráp lại từ các cuốn từ điển"}
+    {
+      "phrase": "Only rarely does the case for a minority language stand on the ground its defenders themselves prefer",
+      "meaningVi": "Chỉ hiếm khi luận điểm cho một ngôn ngữ thiểu số đứng trên mảnh đất mà chính những người bảo vệ nó ưa thích"
+    },
+    {
+      "phrase": "They concede in their form what the speakers of the language are usually trying to refuse in their content",
+      "meaningVi": "Chúng nhượng bộ trong hình thức điều mà những người nói ngôn ngữ thường cố từ chối trong nội dung"
+    },
+    {
+      "phrase": "the utility frame",
+      "meaningVi": "khung hữu dụng"
+    },
+    {
+      "phrase": "the framing within which contemporary public decisions are made",
+      "meaningVi": "khung trong đó các quyết định công đương đại được đưa ra"
+    },
+    {
+      "phrase": "the value of a language is reducible to what its speakers can do with it in a market",
+      "meaningVi": "giá trị của một ngôn ngữ có thể quy về những gì người nói nó có thể làm với nó trong thị trường"
+    },
+    {
+      "phrase": "What the question 'is it useful?' cannot reach is the prior question of what the language is the vehicle of",
+      "meaningVi": "Những gì câu hỏi 'có hữu ích không?' không thể với tới là câu hỏi trước đó về việc ngôn ngữ là phương tiện của cái gì"
+    },
+    {
+      "phrase": "a particular way that a particular group of people has worked out how to perceive the world",
+      "meaningVi": "một cách thức cụ thể mà một nhóm người cụ thể đã tìm ra cách nhận thức thế giới"
+    },
+    {
+      "phrase": "name relationships, mark obligations, and tell their dead from their living",
+      "meaningVi": "đặt tên các mối quan hệ, đánh dấu nghĩa vụ, và phân biệt người chết khỏi người sống"
+    },
+    {
+      "phrase": "It is the loss of a perception",
+      "meaningVi": "Đó là sự mất đi một cách nhận thức"
+    },
+    {
+      "phrase": "no other place from which it can be retrieved",
+      "meaningVi": "không nơi nào khác để có thể lấy lại"
+    },
+    {
+      "phrase": "The utility frame also disguises a moral asymmetry",
+      "meaningVi": "Khung hữu dụng cũng nguỵ trang một sự bất đối xứng đạo đức"
+    },
+    {
+      "phrase": "made under conditions in which not speaking it carries real penalties",
+      "meaningVi": "được thực hiện trong điều kiện mà không nói nó mang theo những hình phạt thực sự"
+    },
+    {
+      "phrase": "to mistake an asymmetric coercion for a preference",
+      "meaningVi": "nhầm một sự cưỡng ép bất đối xứng với một sự ưa thích"
+    },
+    {
+      "phrase": "Yiddish did not stop being spoken in pre-war Europe because its speakers preferred German",
+      "meaningVi": "Tiếng Yiddish không ngừng được nói ở châu Âu trước chiến tranh vì người nói nó ưa thích tiếng Đức"
+    },
+    {
+      "phrase": "It is the prior obligation, not the contingent usefulness, that defines our responsibility toward inherited languages",
+      "meaningVi": "Chính nghĩa vụ tiên quyết, không phải sự hữu dụng tuỳ thuộc, mới định nghĩa trách nhiệm của chúng ta đối với các ngôn ngữ kế thừa"
+    },
+    {
+      "phrase": "Granted, the cost of sustaining a language no one needs at work is real",
+      "meaningVi": "Cứ cho là chi phí duy trì một ngôn ngữ không ai cần ở chỗ làm là có thật"
+    },
+    {
+      "phrase": "Even so, the comparison the utility frame asks us to make",
+      "meaningVi": "Dù vậy, so sánh mà khung hữu dụng yêu cầu chúng ta thực hiện là so sánh sai"
+    },
+    {
+      "phrase": "the disappearance of a way of being a person that no one else carries",
+      "meaningVi": "sự biến mất của một cách thức làm người mà không ai khác mang theo"
+    },
+    {
+      "phrase": "the moral debts they discharge cannot be settled in any other coin",
+      "meaningVi": "những món nợ đạo đức mà chúng giải toả không thể được thanh toán bằng đồng tiền nào khác"
+    },
+    {
+      "phrase": "a quiet adjustment of one's life around something other than its convenience",
+      "meaningVi": "một sự điều chỉnh trầm lặng của đời sống xung quanh điều gì đó khác ngoài sự tiện lợi của nó"
+    },
+    {
+      "phrase": "an inheritance that, once gone, cannot be reassembled from the dictionaries",
+      "meaningVi": "một di sản, một khi mất đi, không thể được lắp ráp lại từ các cuốn từ điển"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -93,11 +227,11 @@
       "prompt": "What is the essay's central objection to the standard arguments for minority languages?",
       "options": [
         "They are factually inaccurate",
-        "They concede in their form what the speakers of the language are trying to refuse in their content — that a language must justify itself to a buyer",
         "They are too philosophical for ordinary readers",
+        "They concede in their form what the speakers of the language are trying to refuse in their content — that a language must justify itself to a buyer",
         "They are too sentimental about heritage"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay argues the standard arguments — cognitive flexibility, commercial potential — accept the utility frame in form even when they intend to defend the language. The framing itself is the problem.",
       "hint": "Look at the opening paragraph's complaint about defenders' arguments."
     },
@@ -106,11 +240,11 @@
       "prompt": "What does the essay mean by 'the utility frame'?",
       "options": [
         "A literal picture frame used in language teaching",
-        "The assumption that the value of a language is reducible to what its speakers can do with it in a market — the framing within which contemporary public decisions are made",
         "A school of philosophy named after a 19th-century thinker",
-        "A bureaucratic form for evaluating language programmes"
+        "A bureaucratic form for evaluating language programmes",
+        "The assumption that the value of a language is reducible to what its speakers can do with it in a market — the framing within which contemporary public decisions are made"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay defines the utility frame as the dominant assumption about how to value a language — market return and economic outcomes — which it argues is the wrong frame.",
       "hint": "Look at the second paragraph for the definition."
     },
@@ -118,12 +252,12 @@
       "id": "q4",
       "prompt": "Which sentence uses a cleft to relocate the source of our responsibility?",
       "options": [
-        "Our responsibility comes from the contingent usefulness of languages.",
         "It is the prior obligation, not the contingent usefulness, that defines our responsibility toward inherited languages.",
+        "Our responsibility comes from the contingent usefulness of languages.",
         "Both prior obligation and usefulness define our responsibility.",
         "Languages need responsibility to define our prior obligation."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'It is X, not Y, that Z' is a cleft that asserts prior obligation as the ground of responsibility and explicitly rejects utility — a C1 structure performing the essay's reframing.",
       "hint": "Look for the 'It is ... not ... that ...' structure."
     },
@@ -145,11 +279,11 @@
       "prompt": "What does the essay say about Yiddish in pre-war Europe?",
       "options": [
         "Its speakers preferred German for cultural reasons",
-        "It did not stop being spoken because its speakers preferred German — its decline reflects historical violence, not preference",
         "It was always destined to disappear",
+        "It did not stop being spoken because its speakers preferred German — its decline reflects historical violence, not preference",
         "It survives in unchanged form today"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay uses Yiddish as a counter-example to the 'natural decline' narrative: the loss reflects historical violence, policy, and stigma, not consumer preference.",
       "hint": "Look at the paragraph on moral asymmetry."
     },
@@ -158,11 +292,11 @@
       "prompt": "How does the essay describe a minority language?",
       "options": [
         "A tool that someone happens to own",
-        "A particular way that a particular group has worked out how to perceive the world, name relationships, mark obligations, and tell their dead from their living",
         "An obstacle to economic development",
-        "A purely aesthetic object"
+        "A purely aesthetic object",
+        "A particular way that a particular group has worked out how to perceive the world, name relationships, mark obligations, and tell their dead from their living"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay refuses the tool metaphor and substitutes a richer description: language as a particular way of perceiving and organising experience, irreplaceable because no one else carries it.",
       "hint": "Look at the third paragraph, after 'a tool that someone happens to own'."
     },
@@ -170,12 +304,12 @@
       "id": "q8",
       "prompt": "What does 'asymmetric coercion' refer to in the essay?",
       "options": [
-        "Government force used in language policy",
         "The condition in which speakers of a minority language face real penalties (fewer jobs, less schooling, more bureaucracy) for not switching to the dominant language",
+        "Government force used in language policy",
         "An asymmetric grammatical structure in certain languages",
         "Coercion exercised by minority language activists"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay argues 'choice' here is misleading: not speaking the dominant language carries real costs, while maintaining the minority language requires extra effort — the asymmetry is structural coercion, not free preference.",
       "hint": "Look at the paragraph about choice and penalties."
     },
@@ -197,11 +331,11 @@
       "prompt": "What does the essay say is the cost of refusing the obligation to a minority language?",
       "options": [
         "An economic penalty for the country",
-        "The slow disappearance of an inheritance that, once gone, cannot be reassembled from the dictionaries",
         "Embarrassment in international cultural forums",
+        "The slow disappearance of an inheritance that, once gone, cannot be reassembled from the dictionaries",
         "Loss of tourism revenue"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay's closing image: the cost is distributed across generations and ends in an irreversible loss — dictionaries can record words but not retrieve perception.",
       "hint": "Look at the final sentence."
     },
@@ -210,11 +344,11 @@
       "prompt": "Whom does the essay say is bound by the obligation it describes?",
       "options": [
         "Every speaker of every language",
-        "Specifically those who happen to have inherited a small language — through grandparents, a region, or accident of birth",
         "Only governments and educational institutions",
-        "Only academic linguists"
+        "Only academic linguists",
+        "Specifically those who happen to have inherited a small language — through grandparents, a region, or accident of birth"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay narrows the obligation to inheritors: 'those of us who happen to have inherited a small language … owe it more than we owe the more profitable language we will use to make our living.'",
       "hint": "Look at the closing paragraph for the limit of the claim."
     },
@@ -222,12 +356,12 @@
       "id": "q12",
       "prompt": "What does the essay mean by 'a quiet adjustment of one's life around something other than its convenience'?",
       "options": [
-        "Moving to a country where the minority language is spoken",
         "A small, ongoing practice — speaking the language at home, in selected settings — that does not require sacrifice of one's main life but does require not optimising purely for convenience",
+        "Moving to a country where the minority language is spoken",
         "A formal vow taken in public",
         "An obligation enforced by the state"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay frames the obligation as modest in cost: a quiet adjustment, not an absolute demand. Most moral obligations, the essay argues, take this shape.",
       "hint": "Look at how the essay characterises the obligation's weight."
     },
@@ -249,11 +383,11 @@
       "prompt": "What does the essay say it is NOT arguing?",
       "options": [
         "That minority languages deserve attention",
-        "That every language must be saved in its full historical extent, or that monolinguals owe minority-language speakers an apology",
         "That the utility frame is the wrong frame",
+        "That every language must be saved in its full historical extent, or that monolinguals owe minority-language speakers an apology",
         "That inheritors of a minority language carry an obligation"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The closing paragraph explicitly disclaims the maximalist position: 'None of this requires that every language be saved in its full historical extent, or that monolinguals owe minority-language speakers an apology.'",
       "hint": "Look at the final paragraph's opening."
     },
@@ -262,11 +396,11 @@
       "prompt": "What does 'moral debt' mean in the essay's vocabulary?",
       "options": [
         "A financial obligation owed to a government",
-        "An obligation that arises from inheritance — owed to a language because one has received it, regardless of its market value",
         "A debt that can be repaid with money",
-        "A guilt felt by descendants of colonisers"
+        "A guilt felt by descendants of colonisers",
+        "An obligation that arises from inheritance — owed to a language because one has received it, regardless of its market value"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay treats the obligation as a moral debt: one inherits the language, and the inheritance itself creates the duty — it cannot be paid off in any other coin.",
       "hint": "Look at the Granted/Even so closing about coin and debt."
     }

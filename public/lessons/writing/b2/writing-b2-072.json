@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "Whether a city's transit map should show wealth inequality",
   "summary": "Argue whether public transit maps should overlay neighbourhood wealth so that riders can see whom the network actually serves, or whether such maps cross a line into political design.",
-  "tags": ["Urban Design", "Inequality", "Transit", "Argument"],
+  "tags": [
+    "Urban Design",
+    "Inequality",
+    "Transit",
+    "Argument"
+  ],
   "topic": "Whether transit maps should overlay wealth inequality data",
   "prompt": "Write a 350–500-word argumentative essay about whether a city's official public transit map (London Tube map, São Paulo metro map, Hanoi BRT map) should be redesigned to overlay neighbourhood wealth — colouring stations by median income, or shading the network thinner where it underserves poorer districts — so riders can see whom the network actually serves. Should the transit authority do this, or does this cross a line from civic information into political design? Use a 'what' cleft, a concession ('Granted,'), at least one passive construction, and one participle clause. Take a clear position. Avoid both populist and technocratic clichés.",
   "minWords": 350,
@@ -14,50 +19,167 @@
     "Granted, the transit authority is in the business of moving people from A to B, not of producing political pamphlets disguised as wayfinding, and the…"
   ],
   "hintVocab": [
-    { "phrase": "transit map", "meaningVi": "bản đồ giao thông công cộng" },
-    { "phrase": "cartographic choice", "meaningVi": "lựa chọn bản đồ học", "pronunciation": "/kɑːˌtəˈɡræf.ɪk/" },
-    { "phrase": "wayfinding", "meaningVi": "định hướng đường đi" },
-    { "phrase": "median household income", "meaningVi": "thu nhập hộ trung vị" },
-    { "phrase": "underserved district", "meaningVi": "khu vực được phục vụ kém" },
-    { "phrase": "overlay", "meaningVi": "lớp phủ thông tin" },
-    { "phrase": "transit equity", "meaningVi": "công bằng giao thông" },
-    { "phrase": "frequency of service", "meaningVi": "tần suất dịch vụ" },
-    { "phrase": "first-mile / last-mile gap", "meaningVi": "khoảng cách mile đầu / mile cuối" },
-    { "phrase": "to flatten distance", "meaningVi": "làm phẳng khoảng cách" },
-    { "phrase": "schematic map", "meaningVi": "bản đồ sơ đồ" },
-    { "phrase": "neutral information design", "meaningVi": "thiết kế thông tin trung lập" },
-    { "phrase": "political design", "meaningVi": "thiết kế mang tính chính trị" },
-    { "phrase": "to legibilise inequality", "meaningVi": "làm cho bất bình đẳng dễ đọc", "pronunciation": "/ˈledʒ.ə.bə.laɪz/" },
-    { "phrase": "to colour-code by income", "meaningVi": "mã màu theo thu nhập" },
-    { "phrase": "transit poverty", "meaningVi": "nghèo về giao thông" },
-    { "phrase": "service desert", "meaningVi": "sa mạc dịch vụ" },
-    { "phrase": "interchange station", "meaningVi": "ga chuyển tuyến" },
-    { "phrase": "transit authority", "meaningVi": "cơ quan giao thông" },
-    { "phrase": "data layer", "meaningVi": "lớp dữ liệu" },
-    { "phrase": "ridership pattern", "meaningVi": "mô hình hành khách" },
-    { "phrase": "map as a political instrument", "meaningVi": "bản đồ như công cụ chính trị" }
+    {
+      "phrase": "transit map",
+      "meaningVi": "bản đồ giao thông công cộng"
+    },
+    {
+      "phrase": "cartographic choice",
+      "meaningVi": "lựa chọn bản đồ học",
+      "pronunciation": "/kɑːˌtəˈɡræf.ɪk/"
+    },
+    {
+      "phrase": "wayfinding",
+      "meaningVi": "định hướng đường đi"
+    },
+    {
+      "phrase": "median household income",
+      "meaningVi": "thu nhập hộ trung vị"
+    },
+    {
+      "phrase": "underserved district",
+      "meaningVi": "khu vực được phục vụ kém"
+    },
+    {
+      "phrase": "overlay",
+      "meaningVi": "lớp phủ thông tin"
+    },
+    {
+      "phrase": "transit equity",
+      "meaningVi": "công bằng giao thông"
+    },
+    {
+      "phrase": "frequency of service",
+      "meaningVi": "tần suất dịch vụ"
+    },
+    {
+      "phrase": "first-mile / last-mile gap",
+      "meaningVi": "khoảng cách mile đầu / mile cuối"
+    },
+    {
+      "phrase": "to flatten distance",
+      "meaningVi": "làm phẳng khoảng cách"
+    },
+    {
+      "phrase": "schematic map",
+      "meaningVi": "bản đồ sơ đồ"
+    },
+    {
+      "phrase": "neutral information design",
+      "meaningVi": "thiết kế thông tin trung lập"
+    },
+    {
+      "phrase": "political design",
+      "meaningVi": "thiết kế mang tính chính trị"
+    },
+    {
+      "phrase": "to legibilise inequality",
+      "meaningVi": "làm cho bất bình đẳng dễ đọc",
+      "pronunciation": "/ˈledʒ.ə.bə.laɪz/"
+    },
+    {
+      "phrase": "to colour-code by income",
+      "meaningVi": "mã màu theo thu nhập"
+    },
+    {
+      "phrase": "transit poverty",
+      "meaningVi": "nghèo về giao thông"
+    },
+    {
+      "phrase": "service desert",
+      "meaningVi": "sa mạc dịch vụ"
+    },
+    {
+      "phrase": "interchange station",
+      "meaningVi": "ga chuyển tuyến"
+    },
+    {
+      "phrase": "transit authority",
+      "meaningVi": "cơ quan giao thông"
+    },
+    {
+      "phrase": "data layer",
+      "meaningVi": "lớp dữ liệu"
+    },
+    {
+      "phrase": "ridership pattern",
+      "meaningVi": "mô hình hành khách"
+    },
+    {
+      "phrase": "map as a political instrument",
+      "meaningVi": "bản đồ như công cụ chính trị"
+    }
   ],
   "sampleText": "Looking at the official London Tube map next to an overlay produced by a planning researcher that shades the lines by household income along their routes, you notice that the network's apparent fairness — every station equidistant on the diagram, every line equally weighted in colour — disappears the moment income is added as a layer. The Central line, drawn as a single uniform red, suddenly looks like two networks running through different countries. Stations in the east are barely visible. Stations in the west glow. Nothing about the schematic itself was lying. It simply was not telling the whole truth.\n\nWhat an official transit map quietly does, beyond the obvious work of telling riders how to change at the next interchange, is something cartographers know well and the public is rarely invited to consider. By flattening the city's distances, by giving every line the same weight, and by leaving income out of the picture entirely, the map presents a network that appears neutral when it is, in fact, the product of decades of political choice about whom the network was built for. The map does not invent inequality. It politely declines to render it.\n\nGranted, the transit authority is in the business of moving people from A to B, not of producing political pamphlets disguised as wayfinding, and the introduction of income shading risks turning the daily commute into a confrontation with statistics that most riders have not asked for. There is also a genuine craft argument: every layer added to a transit map degrades its core function of helping someone in a hurry find the right train. A map that does everything tends to do nothing well.\n\nEven so, the claim that the current map is neutral cannot survive even a brief inspection of what it omits. A schematic that draws a five-minute walk and a fifteen-minute walk as if they were the same distance, and that gives a station serving thirty thousand riders the same dot as one serving three thousand, has already made an enormous political choice. It has chosen not to show what is unequal. The right comparison is not between a neutral map and a political one. It is between two different politics — the politics of legibility and the politics of pleasant invisibility.\n\nThe defensible position is not that every Tube map should look like a heatmap of household income. It is that the transit authority should publish an official equity-overlay version of the map alongside the schematic one, that the equity version should be the default on the authority's website, and that the schematic should carry a small line acknowledging what it does not show. The point is not to politicise the map. It is to stop pretending that the existing one is not already political.",
   "sampleAnnotations": [
-    { "phrase": "Looking at the official London Tube map next to an overlay produced by a planning researcher that shades the lines by household income along their routes, you notice that the network's apparent fairness — every station equidistant on the diagram, every line equally weighted in colour — disappears the moment income is added as a layer", "meaningVi": "Nhìn vào bản đồ tàu điện ngầm London chính thức bên cạnh một lớp phủ được tạo bởi một nhà nghiên cứu quy hoạch tô màu các tuyến theo thu nhập hộ gia đình dọc theo đường đi của chúng, bạn nhận ra rằng sự công bằng bề ngoài của mạng lưới — mỗi ga cách đều nhau trên sơ đồ, mỗi tuyến có cùng trọng số màu sắc — biến mất ngay khi thu nhập được thêm vào như một lớp" },
-    { "phrase": "The Central line, drawn as a single uniform red, suddenly looks like two networks running through different countries", "meaningVi": "Tuyến Central, được vẽ như một màu đỏ đồng nhất, đột nhiên trông giống như hai mạng lưới chạy qua hai quốc gia khác nhau" },
-    { "phrase": "Stations in the east are barely visible. Stations in the west glow", "meaningVi": "Các ga ở phía đông hầu như không nhìn thấy. Các ga ở phía tây thì sáng rực" },
-    { "phrase": "Nothing about the schematic itself was lying. It simply was not telling the whole truth", "meaningVi": "Không có gì về sơ đồ tự nó đang nói dối. Nó chỉ đơn giản là không nói toàn bộ sự thật" },
-    { "phrase": "What an official transit map quietly does, beyond the obvious work of telling riders how to change at the next interchange, is something cartographers know well and the public is rarely invited to consider", "meaningVi": "Điều mà một bản đồ giao thông chính thức lặng lẽ làm, vượt ra ngoài công việc hiển nhiên là nói cho hành khách cách chuyển tuyến ở ga chuyển tiếp tiếp theo, là điều mà các nhà bản đồ học biết rõ và công chúng hiếm khi được mời cân nhắc" },
-    { "phrase": "By flattening the city's distances, by giving every line the same weight, and by leaving income out of the picture entirely, the map presents a network that appears neutral when it is, in fact, the product of decades of political choice about whom the network was built for", "meaningVi": "Bằng cách làm phẳng các khoảng cách của thành phố, bằng cách cho mọi tuyến cùng trọng số, và bằng cách hoàn toàn để thu nhập ra ngoài bức tranh, bản đồ trình bày một mạng lưới có vẻ trung lập trong khi nó thực sự là sản phẩm của hàng thập kỷ lựa chọn chính trị về việc mạng lưới được xây dựng cho ai" },
-    { "phrase": "The map does not invent inequality. It politely declines to render it", "meaningVi": "Bản đồ không phát minh ra bất bình đẳng. Nó lịch sự từ chối hiển thị nó" },
-    { "phrase": "the transit authority is in the business of moving people from A to B, not of producing political pamphlets disguised as wayfinding", "meaningVi": "cơ quan giao thông là trong việc kinh doanh di chuyển người từ A đến B, không phải sản xuất các tờ rơi chính trị ngụy trang thành định hướng đường đi" },
-    { "phrase": "the introduction of income shading risks turning the daily commute into a confrontation with statistics that most riders have not asked for", "meaningVi": "việc giới thiệu tô màu thu nhập có nguy cơ biến chuyến đi làm hàng ngày thành một cuộc đối đầu với thống kê mà hầu hết hành khách không yêu cầu" },
-    { "phrase": "every layer added to a transit map degrades its core function of helping someone in a hurry find the right train", "meaningVi": "mỗi lớp được thêm vào một bản đồ giao thông làm suy giảm chức năng cốt lõi của nó là giúp một người đang vội tìm đúng chuyến tàu" },
-    { "phrase": "A map that does everything tends to do nothing well", "meaningVi": "Một bản đồ làm mọi thứ có xu hướng không làm gì tốt" },
-    { "phrase": "the claim that the current map is neutral cannot survive even a brief inspection of what it omits", "meaningVi": "tuyên bố rằng bản đồ hiện tại là trung lập không thể sống sót ngay cả một cuộc kiểm tra ngắn về những gì nó bỏ qua" },
-    { "phrase": "A schematic that draws a five-minute walk and a fifteen-minute walk as if they were the same distance, and that gives a station serving thirty thousand riders the same dot as one serving three thousand, has already made an enormous political choice", "meaningVi": "Một sơ đồ vẽ một quãng đi bộ năm phút và một quãng đi bộ mười lăm phút như thể chúng cùng khoảng cách, và cho một ga phục vụ ba mươi nghìn hành khách cùng một chấm như một ga phục vụ ba nghìn, đã đưa ra một lựa chọn chính trị khổng lồ" },
-    { "phrase": "It has chosen not to show what is unequal", "meaningVi": "Nó đã chọn không hiển thị cái gì là không bình đẳng" },
-    { "phrase": "The right comparison is not between a neutral map and a political one. It is between two different politics — the politics of legibility and the politics of pleasant invisibility", "meaningVi": "So sánh đúng đắn không phải là giữa một bản đồ trung lập và một bản đồ chính trị. Đó là giữa hai chính trị khác nhau — chính trị của tính dễ đọc và chính trị của sự vô hình dễ chịu" },
-    { "phrase": "the transit authority should publish an official equity-overlay version of the map alongside the schematic one, that the equity version should be the default on the authority's website, and that the schematic should carry a small line acknowledging what it does not show", "meaningVi": "cơ quan giao thông nên xuất bản một phiên bản chính thức của bản đồ có lớp phủ công bằng bên cạnh phiên bản sơ đồ, rằng phiên bản công bằng nên là mặc định trên trang web của cơ quan, và rằng sơ đồ nên mang một dòng nhỏ thừa nhận những gì nó không hiển thị" },
-    { "phrase": "The point is not to politicise the map. It is to stop pretending that the existing one is not already political", "meaningVi": "Quan điểm không phải là chính trị hóa bản đồ. Đó là ngừng giả vờ rằng bản đồ hiện hữu không đã mang tính chính trị" },
-    { "phrase": "service desert", "meaningVi": "sa mạc dịch vụ" },
-    { "phrase": "to legibilise inequality", "meaningVi": "làm cho bất bình đẳng dễ đọc" }
+    {
+      "phrase": "Looking at the official London Tube map next to an overlay produced by a planning researcher that shades the lines by household income along their routes, you notice that the network's apparent fairness — every station equidistant on the diagram, every line equally weighted in colour — disappears the moment income is added as a layer",
+      "meaningVi": "Nhìn vào bản đồ tàu điện ngầm London chính thức bên cạnh một lớp phủ được tạo bởi một nhà nghiên cứu quy hoạch tô màu các tuyến theo thu nhập hộ gia đình dọc theo đường đi của chúng, bạn nhận ra rằng sự công bằng bề ngoài của mạng lưới — mỗi ga cách đều nhau trên sơ đồ, mỗi tuyến có cùng trọng số màu sắc — biến mất ngay khi thu nhập được thêm vào như một lớp"
+    },
+    {
+      "phrase": "The Central line, drawn as a single uniform red, suddenly looks like two networks running through different countries",
+      "meaningVi": "Tuyến Central, được vẽ như một màu đỏ đồng nhất, đột nhiên trông giống như hai mạng lưới chạy qua hai quốc gia khác nhau"
+    },
+    {
+      "phrase": "Stations in the east are barely visible. Stations in the west glow",
+      "meaningVi": "Các ga ở phía đông hầu như không nhìn thấy. Các ga ở phía tây thì sáng rực"
+    },
+    {
+      "phrase": "Nothing about the schematic itself was lying. It simply was not telling the whole truth",
+      "meaningVi": "Không có gì về sơ đồ tự nó đang nói dối. Nó chỉ đơn giản là không nói toàn bộ sự thật"
+    },
+    {
+      "phrase": "What an official transit map quietly does, beyond the obvious work of telling riders how to change at the next interchange, is something cartographers know well and the public is rarely invited to consider",
+      "meaningVi": "Điều mà một bản đồ giao thông chính thức lặng lẽ làm, vượt ra ngoài công việc hiển nhiên là nói cho hành khách cách chuyển tuyến ở ga chuyển tiếp tiếp theo, là điều mà các nhà bản đồ học biết rõ và công chúng hiếm khi được mời cân nhắc"
+    },
+    {
+      "phrase": "By flattening the city's distances, by giving every line the same weight, and by leaving income out of the picture entirely, the map presents a network that appears neutral when it is, in fact, the product of decades of political choice about whom the network was built for",
+      "meaningVi": "Bằng cách làm phẳng các khoảng cách của thành phố, bằng cách cho mọi tuyến cùng trọng số, và bằng cách hoàn toàn để thu nhập ra ngoài bức tranh, bản đồ trình bày một mạng lưới có vẻ trung lập trong khi nó thực sự là sản phẩm của hàng thập kỷ lựa chọn chính trị về việc mạng lưới được xây dựng cho ai"
+    },
+    {
+      "phrase": "The map does not invent inequality. It politely declines to render it",
+      "meaningVi": "Bản đồ không phát minh ra bất bình đẳng. Nó lịch sự từ chối hiển thị nó"
+    },
+    {
+      "phrase": "the transit authority is in the business of moving people from A to B, not of producing political pamphlets disguised as wayfinding",
+      "meaningVi": "cơ quan giao thông là trong việc kinh doanh di chuyển người từ A đến B, không phải sản xuất các tờ rơi chính trị ngụy trang thành định hướng đường đi"
+    },
+    {
+      "phrase": "the introduction of income shading risks turning the daily commute into a confrontation with statistics that most riders have not asked for",
+      "meaningVi": "việc giới thiệu tô màu thu nhập có nguy cơ biến chuyến đi làm hàng ngày thành một cuộc đối đầu với thống kê mà hầu hết hành khách không yêu cầu"
+    },
+    {
+      "phrase": "every layer added to a transit map degrades its core function of helping someone in a hurry find the right train",
+      "meaningVi": "mỗi lớp được thêm vào một bản đồ giao thông làm suy giảm chức năng cốt lõi của nó là giúp một người đang vội tìm đúng chuyến tàu"
+    },
+    {
+      "phrase": "A map that does everything tends to do nothing well",
+      "meaningVi": "Một bản đồ làm mọi thứ có xu hướng không làm gì tốt"
+    },
+    {
+      "phrase": "the claim that the current map is neutral cannot survive even a brief inspection of what it omits",
+      "meaningVi": "tuyên bố rằng bản đồ hiện tại là trung lập không thể sống sót ngay cả một cuộc kiểm tra ngắn về những gì nó bỏ qua"
+    },
+    {
+      "phrase": "A schematic that draws a five-minute walk and a fifteen-minute walk as if they were the same distance, and that gives a station serving thirty thousand riders the same dot as one serving three thousand, has already made an enormous political choice",
+      "meaningVi": "Một sơ đồ vẽ một quãng đi bộ năm phút và một quãng đi bộ mười lăm phút như thể chúng cùng khoảng cách, và cho một ga phục vụ ba mươi nghìn hành khách cùng một chấm như một ga phục vụ ba nghìn, đã đưa ra một lựa chọn chính trị khổng lồ"
+    },
+    {
+      "phrase": "It has chosen not to show what is unequal",
+      "meaningVi": "Nó đã chọn không hiển thị cái gì là không bình đẳng"
+    },
+    {
+      "phrase": "The right comparison is not between a neutral map and a political one. It is between two different politics — the politics of legibility and the politics of pleasant invisibility",
+      "meaningVi": "So sánh đúng đắn không phải là giữa một bản đồ trung lập và một bản đồ chính trị. Đó là giữa hai chính trị khác nhau — chính trị của tính dễ đọc và chính trị của sự vô hình dễ chịu"
+    },
+    {
+      "phrase": "the transit authority should publish an official equity-overlay version of the map alongside the schematic one, that the equity version should be the default on the authority's website, and that the schematic should carry a small line acknowledging what it does not show",
+      "meaningVi": "cơ quan giao thông nên xuất bản một phiên bản chính thức của bản đồ có lớp phủ công bằng bên cạnh phiên bản sơ đồ, rằng phiên bản công bằng nên là mặc định trên trang web của cơ quan, và rằng sơ đồ nên mang một dòng nhỏ thừa nhận những gì nó không hiển thị"
+    },
+    {
+      "phrase": "The point is not to politicise the map. It is to stop pretending that the existing one is not already political",
+      "meaningVi": "Quan điểm không phải là chính trị hóa bản đồ. Đó là ngừng giả vờ rằng bản đồ hiện hữu không đã mang tính chính trị"
+    }
   ],
   "sampleGrammarNotes": [
     {

@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "Whether public benches are a measure of a city's empathy",
   "summary": "Argue whether the presence and placement of public benches reflects a city's attitude toward its most vulnerable residents.",
-  "tags": ["Cities", "Public space", "Social policy", "Argument"],
+  "tags": [
+    "Cities",
+    "Public space",
+    "Social policy",
+    "Argument"
+  ],
   "topic": "Whether public benches are a measure of a city's empathy",
   "prompt": "Write an argumentative essay (350–500 words) on whether the number, placement, and design of public benches reveals how much a city actually cares about its most vulnerable residents — the elderly, the tired, the homeless. Contrast at least two cities (e.g. Stockholm's generous bench provision vs Singapore's or London's anti-homeless 'hostile architecture'). Use a cleft sentence, a concession ('Granted, …'), and at least one passive construction. Take a clear side.",
   "minWords": 350,
@@ -15,51 +20,181 @@
     "Stockholm has more public seating per capita than almost any other…"
   ],
   "hintVocab": [
-    { "phrase": "hostile architecture", "meaningVi": "kiến trúc thù địch (thiết kế ngăn chặn người vô gia cư)" },
-    { "phrase": "anti-homeless spikes", "meaningVi": "gai chống người vô gia cư" },
-    { "phrase": "bench provision", "meaningVi": "cung cấp ghế băng công cộng" },
-    { "phrase": "public realm", "meaningVi": "không gian công cộng" },
-    { "phrase": "to be designed out", "meaningVi": "bị thiết kế để loại trừ" },
-    { "phrase": "urban planning", "meaningVi": "quy hoạch đô thị" },
-    { "phrase": "to be installed", "meaningVi": "được lắp đặt" },
-    { "phrase": "to loiter", "meaningVi": "la cà / đứng vẩn vơ", "pronunciation": "/ˈlɔɪ.tər/" },
-    { "phrase": "to deter", "meaningVi": "ngăn cản / nản lòng", "pronunciation": "/dɪˈtɜː/" },
-    { "phrase": "inclusive design", "meaningVi": "thiết kế bao hàm / dễ tiếp cận" },
-    { "phrase": "arm rest divider", "meaningVi": "tay vịn ngăn cách (trên ghế băng)" },
-    { "phrase": "civic empathy", "meaningVi": "sự đồng cảm công dân" },
-    { "phrase": "rest stop", "meaningVi": "điểm dừng nghỉ" },
-    { "phrase": "to be sited", "meaningVi": "được bố trí / đặt ở vị trí" },
-    { "phrase": "per capita", "meaningVi": "trên đầu người", "pronunciation": "/ˌpɜː ˈkæp.ɪ.tə/" },
-    { "phrase": "to be stripped out", "meaningVi": "bị loại bỏ hoàn toàn" },
-    { "phrase": "a transit zone", "meaningVi": "khu vực trung chuyển" },
-    { "phrase": "to penalise", "meaningVi": "trừng phạt / làm bất lợi cho", "pronunciation": "/ˈpiː.nəl.aɪz/" },
-    { "phrase": "passive exclusion", "meaningVi": "sự loại trừ thụ động" },
-    { "phrase": "the frail", "meaningVi": "người yếu ớt / người dễ bị tổn thương" },
-    { "phrase": "wayfinding", "meaningVi": "hệ thống định hướng trong không gian công cộng" },
-    { "phrase": "to be borne by", "meaningVi": "được chịu đựng bởi / do ai đó gánh chịu" }
+    {
+      "phrase": "hostile architecture",
+      "meaningVi": "kiến trúc thù địch (thiết kế ngăn chặn người vô gia cư)"
+    },
+    {
+      "phrase": "anti-homeless spikes",
+      "meaningVi": "gai chống người vô gia cư"
+    },
+    {
+      "phrase": "bench provision",
+      "meaningVi": "cung cấp ghế băng công cộng"
+    },
+    {
+      "phrase": "public realm",
+      "meaningVi": "không gian công cộng"
+    },
+    {
+      "phrase": "to be designed out",
+      "meaningVi": "bị thiết kế để loại trừ"
+    },
+    {
+      "phrase": "urban planning",
+      "meaningVi": "quy hoạch đô thị"
+    },
+    {
+      "phrase": "to be installed",
+      "meaningVi": "được lắp đặt"
+    },
+    {
+      "phrase": "to loiter",
+      "meaningVi": "la cà / đứng vẩn vơ",
+      "pronunciation": "/ˈlɔɪ.tər/"
+    },
+    {
+      "phrase": "to deter",
+      "meaningVi": "ngăn cản / nản lòng",
+      "pronunciation": "/dɪˈtɜː/"
+    },
+    {
+      "phrase": "inclusive design",
+      "meaningVi": "thiết kế bao hàm / dễ tiếp cận"
+    },
+    {
+      "phrase": "arm rest divider",
+      "meaningVi": "tay vịn ngăn cách (trên ghế băng)"
+    },
+    {
+      "phrase": "civic empathy",
+      "meaningVi": "sự đồng cảm công dân"
+    },
+    {
+      "phrase": "rest stop",
+      "meaningVi": "điểm dừng nghỉ"
+    },
+    {
+      "phrase": "to be sited",
+      "meaningVi": "được bố trí / đặt ở vị trí"
+    },
+    {
+      "phrase": "per capita",
+      "meaningVi": "trên đầu người",
+      "pronunciation": "/ˌpɜː ˈkæp.ɪ.tə/"
+    },
+    {
+      "phrase": "to be stripped out",
+      "meaningVi": "bị loại bỏ hoàn toàn"
+    },
+    {
+      "phrase": "a transit zone",
+      "meaningVi": "khu vực trung chuyển"
+    },
+    {
+      "phrase": "to penalise",
+      "meaningVi": "trừng phạt / làm bất lợi cho",
+      "pronunciation": "/ˈpiː.nəl.aɪz/"
+    },
+    {
+      "phrase": "passive exclusion",
+      "meaningVi": "sự loại trừ thụ động"
+    },
+    {
+      "phrase": "the frail",
+      "meaningVi": "người yếu ớt / người dễ bị tổn thương"
+    },
+    {
+      "phrase": "wayfinding",
+      "meaningVi": "hệ thống định hướng trong không gian công cộng"
+    },
+    {
+      "phrase": "to be borne by",
+      "meaningVi": "được chịu đựng bởi / do ai đó gánh chịu"
+    }
   ],
   "sampleText": "The simplest diagnostic for a city's attitude toward its weakest residents is also among the most overlooked: where people are allowed to sit down and rest. A bench is not a grand civic gesture. It is a few metres of wood or metal, available to whoever needs it most — the elderly after a long walk, the parent with a sleeping child, the worker too tired to stand for another bus. In some cities that provision is generous. In others, it has been systematically stripped out.\n\nWhat the removal of a bench communicates is not a space-saving decision but a value judgment about whose presence in public is welcome. London and Singapore have both been criticised for installing what designers politely call 'hostile architecture' — armrests placed at precise intervals to prevent lying down, ridged surfaces that make sitting uncomfortable after a minute. These features are not designed for the person who wants to sit; they are designed to remove the person who needs to stay. The bench, in these cases, has been turned into an instrument of passive exclusion, and it is the most vulnerable — the frail, the tired, the homeless — who bear the cost.\n\nGranted, cities that have removed benches or redesigned them have often done so in response to genuine problems. Concentrated loitering near transit zones can create safety concerns, and local authorities have a legitimate interest in managing how public spaces are used. Stockholm's generous bench provision works partly because it is embedded in a broader social infrastructure — a welfare state that addresses homelessness through housing rather than through architecture. Hostile design, the argument goes, treats a symptom; Stockholm treats the cause.\n\nEven so, the bench test is revealing precisely because it is so small. A city that cannot afford to let the elderly sit in a shopping street for twenty minutes has, in effect, decided that speed and commerce matter more than the comfort of people who move slowly. What's more, the people most penalised by the absence of seating are those who cannot simply choose to drive: the very old, the very poor, those whose mobility makes the distance between one bench and the next a question not of preference but of physical possibility.\n\nWhat a city siting a bench communicates — or removing one — is a legible statement about who the city is for. Stockholm reads as a city that includes its elderly in the design of public life. A street lined with armrested benches and anti-sleeping spikes reads as a city that has decided certain people are problems to be managed rather than residents to be served. The bench is not a symbol. It is a policy, and it should be read as one.",
   "sampleAnnotations": [
-    { "phrase": "The simplest diagnostic for a city's attitude toward its weakest residents", "meaningVi": "Chẩn đoán đơn giản nhất về thái độ của một thành phố đối với những cư dân yếu nhất của nó" },
-    { "phrase": "that provision is generous", "meaningVi": "việc cung cấp đó là rộng rãi" },
-    { "phrase": "it has been systematically stripped out", "meaningVi": "nó đã bị loại bỏ một cách có hệ thống" },
-    { "phrase": "What the removal of a bench communicates is not a space-saving decision but a value judgment", "meaningVi": "Điều mà việc loại bỏ một chiếc ghế băng truyền đạt không phải là quyết định tiết kiệm không gian mà là phán quyết về giá trị" },
-    { "phrase": "whose presence in public is welcome", "meaningVi": "sự hiện diện của ai trong không gian công cộng được chào đón" },
-    { "phrase": "hostile architecture", "meaningVi": "kiến trúc thù địch" },
-    { "phrase": "designed to remove the person who needs to stay", "meaningVi": "được thiết kế để loại bỏ người cần ở lại" },
-    { "phrase": "an instrument of passive exclusion", "meaningVi": "một công cụ của sự loại trừ thụ động" },
-    { "phrase": "it is the most vulnerable — the frail, the tired, the homeless — who bear the cost", "meaningVi": "chính những người dễ bị tổn thương nhất — người yếu ớt, người mệt mỏi, người vô gia cư — là người gánh chịu chi phí" },
-    { "phrase": "Granted, cities that have removed benches have often done so in response to genuine problems", "meaningVi": "công nhận, các thành phố đã loại bỏ ghế băng thường làm vậy để đáp lại các vấn đề thực sự" },
-    { "phrase": "Concentrated loitering near transit zones", "meaningVi": "sự la cà tập trung gần các khu vực trung chuyển" },
-    { "phrase": "embedded in a broader social infrastructure", "meaningVi": "được nhúng vào cơ sở hạ tầng xã hội rộng hơn" },
-    { "phrase": "Hostile design treats a symptom; Stockholm treats the cause", "meaningVi": "Thiết kế thù địch điều trị triệu chứng; Stockholm điều trị nguyên nhân" },
-    { "phrase": "the bench test is revealing precisely because it is so small", "meaningVi": "bài kiểm tra ghế băng là tiết lộ chính xác vì nó quá nhỏ" },
-    { "phrase": "speed and commerce matter more than the comfort of people who move slowly", "meaningVi": "tốc độ và thương mại quan trọng hơn sự thoải mái của những người di chuyển chậm" },
-    { "phrase": "What's more", "meaningVi": "hơn nữa" },
-    { "phrase": "the people most penalised by the absence of seating", "meaningVi": "những người bị trừng phạt nhiều nhất bởi sự thiếu vắng chỗ ngồi" },
-    { "phrase": "a question not of preference but of physical possibility", "meaningVi": "một câu hỏi không phải về sở thích mà là về khả năng vật lý" },
-    { "phrase": "What a city siting a bench communicates — or removing one — is a legible statement about who the city is for", "meaningVi": "Điều mà một thành phố bố trí ghế băng — hoặc loại bỏ chúng — truyền đạt là một tuyên bố có thể đọc được về thành phố đó dành cho ai" },
-    { "phrase": "The bench is not a symbol. It is a policy, and it should be read as one", "meaningVi": "Chiếc ghế băng không phải là biểu tượng. Đó là chính sách, và nó nên được đọc như vậy." }
+    {
+      "phrase": "The simplest diagnostic for a city's attitude toward its weakest residents",
+      "meaningVi": "Chẩn đoán đơn giản nhất về thái độ của một thành phố đối với những cư dân yếu nhất của nó"
+    },
+    {
+      "phrase": "that provision is generous",
+      "meaningVi": "việc cung cấp đó là rộng rãi"
+    },
+    {
+      "phrase": "it has been systematically stripped out",
+      "meaningVi": "nó đã bị loại bỏ một cách có hệ thống"
+    },
+    {
+      "phrase": "What the removal of a bench communicates is not a space-saving decision but a value judgment",
+      "meaningVi": "Điều mà việc loại bỏ một chiếc ghế băng truyền đạt không phải là quyết định tiết kiệm không gian mà là phán quyết về giá trị"
+    },
+    {
+      "phrase": "whose presence in public is welcome",
+      "meaningVi": "sự hiện diện của ai trong không gian công cộng được chào đón"
+    },
+    {
+      "phrase": "hostile architecture",
+      "meaningVi": "kiến trúc thù địch"
+    },
+    {
+      "phrase": "designed to remove the person who needs to stay",
+      "meaningVi": "được thiết kế để loại bỏ người cần ở lại"
+    },
+    {
+      "phrase": "an instrument of passive exclusion",
+      "meaningVi": "một công cụ của sự loại trừ thụ động"
+    },
+    {
+      "phrase": "it is the most vulnerable — the frail, the tired, the homeless — who bear the cost",
+      "meaningVi": "chính những người dễ bị tổn thương nhất — người yếu ớt, người mệt mỏi, người vô gia cư — là người gánh chịu chi phí"
+    },
+    {
+      "phrase": "have often done so in response to genuine problems",
+      "meaningVi": "công nhận, các thành phố đã loại bỏ ghế băng thường làm vậy để đáp lại các vấn đề thực sự"
+    },
+    {
+      "phrase": "Concentrated loitering near transit zones",
+      "meaningVi": "sự la cà tập trung gần các khu vực trung chuyển"
+    },
+    {
+      "phrase": "embedded in a broader social infrastructure",
+      "meaningVi": "được nhúng vào cơ sở hạ tầng xã hội rộng hơn"
+    },
+    {
+      "phrase": "treats a symptom; Stockholm treats the cause",
+      "meaningVi": "Thiết kế thù địch điều trị triệu chứng; Stockholm điều trị nguyên nhân"
+    },
+    {
+      "phrase": "the bench test is revealing precisely because it is so small",
+      "meaningVi": "bài kiểm tra ghế băng là tiết lộ chính xác vì nó quá nhỏ"
+    },
+    {
+      "phrase": "speed and commerce matter more than the comfort of people who move slowly",
+      "meaningVi": "tốc độ và thương mại quan trọng hơn sự thoải mái của những người di chuyển chậm"
+    },
+    {
+      "phrase": "What's more",
+      "meaningVi": "hơn nữa"
+    },
+    {
+      "phrase": "the people most penalised by the absence of seating",
+      "meaningVi": "những người bị trừng phạt nhiều nhất bởi sự thiếu vắng chỗ ngồi"
+    },
+    {
+      "phrase": "a question not of preference but of physical possibility",
+      "meaningVi": "một câu hỏi không phải về sở thích mà là về khả năng vật lý"
+    },
+    {
+      "phrase": "What a city siting a bench communicates — or removing one — is a legible statement about who the city is for",
+      "meaningVi": "Điều mà một thành phố bố trí ghế băng — hoặc loại bỏ chúng — truyền đạt là một tuyên bố có thể đọc được về thành phố đó dành cho ai"
+    },
+    {
+      "phrase": "The bench is not a symbol. It is a policy, and it should be read as one",
+      "meaningVi": "Chiếc ghế băng không phải là biểu tượng. Đó là chính sách, và nó nên được đọc như vậy."
+    }
   ],
   "sampleGrammarNotes": [
     {

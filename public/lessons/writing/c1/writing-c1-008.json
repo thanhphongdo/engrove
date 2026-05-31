@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "The hidden grammar of class in the language we use to thank people",
   "summary": "Examine how expressions of gratitude encode social hierarchy, and argue that the form of a thank-you reveals as much as its content.",
-  "tags": ["Argument", "Language", "Society"],
+  "tags": [
+    "Argument",
+    "Language",
+    "Society"
+  ],
   "topic": "How gratitude language encodes class and hierarchy",
   "prompt": "Write a 600–800-word argumentative essay claiming that the way people thank one another — the vocabulary chosen, the register shifted, the deferential formulae deployed or withheld — is not a neutral exchange of courtesy but a performance of social position. Draw on specific contrasts: Japanese keigo versus casual sumimasen, German Sie/du and Danke schön versus danke, Brazilian obrigado and its context-switching, or any other linguistic registers you know well. Use inversion at least once, at least one nominalization that converts a verb phrase into a noun phrase, and the concessive pair 'granted… even so…'. Avoid bullet lists and TED-Talk openers. No moral slogans.",
   "minWords": 600,
@@ -15,53 +19,199 @@
     "There is something revealing in the fact that the wrong thank-you…"
   ],
   "hintVocab": [
-    {"phrase": "keigo", "meaningVi": "kính ngữ trong tiếng Nhật", "pronunciation": "/ˈkeɪɡoʊ/"},
-    {"phrase": "register", "meaningVi": "phong cách ngôn ngữ theo hoàn cảnh", "pronunciation": "/ˈredʒɪstər/"},
-    {"phrase": "honorific", "meaningVi": "từ kính ngữ, xưng hô trang trọng", "pronunciation": "/ˌɒnəˈrɪfɪk/"},
-    {"phrase": "deference", "meaningVi": "sự tôn trọng, cúi mình nhường nhịn", "pronunciation": "/ˈdefərəns/"},
-    {"phrase": "formulaic", "meaningVi": "mang tính công thức, theo khuôn mẫu", "pronunciation": "/ˌfɔːrmjʊˈleɪɪk/"},
-    {"phrase": "asymmetry", "meaningVi": "sự bất đối xứng", "pronunciation": "/eɪˈsɪmɪtri/"},
-    {"phrase": "face-saving", "meaningVi": "giữ thể diện"},
-    {"phrase": "pragmatics", "meaningVi": "ngữ dụng học", "pronunciation": "/præɡˈmætɪks/"},
-    {"phrase": "obsequious", "meaningVi": "quá khúm núm, nịnh hót", "pronunciation": "/əbˈsiːkwiəs/"},
-    {"phrase": "solidarity", "meaningVi": "tình đoàn kết, sự gần gũi bình đẳng", "pronunciation": "/ˌsɒlɪˈdærɪti/"},
-    {"phrase": "upward inflection", "meaningVi": "ngữ điệu đi lên (dấu hiệu phục tùng)"},
-    {"phrase": "subordination", "meaningVi": "sự phụ thuộc, vị trí thấp hơn", "pronunciation": "/səˌbɔːrdɪˈneɪʃən/"},
-    {"phrase": "Danke schön", "meaningVi": "cảm ơn rất nhiều (tiếng Đức)"},
-    {"phrase": "obrigado/obrigada", "meaningVi": "cảm ơn (tiếng Bồ Đào Nha Brazil)"},
-    {"phrase": "sumimasen", "meaningVi": "xin lỗi/cảm ơn thông dụng (tiếng Nhật)"},
-    {"phrase": "interlocutor", "meaningVi": "người đối thoại", "pronunciation": "/ˌɪntərˈlɒkjʊtər/"},
-    {"phrase": "phatic communion", "meaningVi": "giao tiếp xã giao không mang thông tin thực"},
-    {"phrase": "calibrate", "meaningVi": "điều chỉnh cho phù hợp", "pronunciation": "/ˈkælɪbreɪt/"},
-    {"phrase": "gratitude debt", "meaningVi": "nợ ơn huệ, nghĩa vụ cảm ơn"},
-    {"phrase": "hierarchical encoding", "meaningVi": "mã hoá thứ bậc xã hội"},
-    {"phrase": "condescension", "meaningVi": "thái độ hạ cố, ban ơn", "pronunciation": "/ˌkɒndɪˈsenʃən/"},
-    {"phrase": "reciprocity", "meaningVi": "sự có đi có lại", "pronunciation": "/ˌresɪˈprɒsɪti/"}
+    {
+      "phrase": "keigo",
+      "meaningVi": "kính ngữ trong tiếng Nhật",
+      "pronunciation": "/ˈkeɪɡoʊ/"
+    },
+    {
+      "phrase": "register",
+      "meaningVi": "phong cách ngôn ngữ theo hoàn cảnh",
+      "pronunciation": "/ˈredʒɪstər/"
+    },
+    {
+      "phrase": "honorific",
+      "meaningVi": "từ kính ngữ, xưng hô trang trọng",
+      "pronunciation": "/ˌɒnəˈrɪfɪk/"
+    },
+    {
+      "phrase": "deference",
+      "meaningVi": "sự tôn trọng, cúi mình nhường nhịn",
+      "pronunciation": "/ˈdefərəns/"
+    },
+    {
+      "phrase": "formulaic",
+      "meaningVi": "mang tính công thức, theo khuôn mẫu",
+      "pronunciation": "/ˌfɔːrmjʊˈleɪɪk/"
+    },
+    {
+      "phrase": "asymmetry",
+      "meaningVi": "sự bất đối xứng",
+      "pronunciation": "/eɪˈsɪmɪtri/"
+    },
+    {
+      "phrase": "face-saving",
+      "meaningVi": "giữ thể diện"
+    },
+    {
+      "phrase": "pragmatics",
+      "meaningVi": "ngữ dụng học",
+      "pronunciation": "/præɡˈmætɪks/"
+    },
+    {
+      "phrase": "obsequious",
+      "meaningVi": "quá khúm núm, nịnh hót",
+      "pronunciation": "/əbˈsiːkwiəs/"
+    },
+    {
+      "phrase": "solidarity",
+      "meaningVi": "tình đoàn kết, sự gần gũi bình đẳng",
+      "pronunciation": "/ˌsɒlɪˈdærɪti/"
+    },
+    {
+      "phrase": "upward inflection",
+      "meaningVi": "ngữ điệu đi lên (dấu hiệu phục tùng)"
+    },
+    {
+      "phrase": "subordination",
+      "meaningVi": "sự phụ thuộc, vị trí thấp hơn",
+      "pronunciation": "/səˌbɔːrdɪˈneɪʃən/"
+    },
+    {
+      "phrase": "Danke schön",
+      "meaningVi": "cảm ơn rất nhiều (tiếng Đức)"
+    },
+    {
+      "phrase": "obrigado/obrigada",
+      "meaningVi": "cảm ơn (tiếng Bồ Đào Nha Brazil)"
+    },
+    {
+      "phrase": "sumimasen",
+      "meaningVi": "xin lỗi/cảm ơn thông dụng (tiếng Nhật)"
+    },
+    {
+      "phrase": "interlocutor",
+      "meaningVi": "người đối thoại",
+      "pronunciation": "/ˌɪntərˈlɒkjʊtər/"
+    },
+    {
+      "phrase": "phatic communion",
+      "meaningVi": "giao tiếp xã giao không mang thông tin thực"
+    },
+    {
+      "phrase": "calibrate",
+      "meaningVi": "điều chỉnh cho phù hợp",
+      "pronunciation": "/ˈkælɪbreɪt/"
+    },
+    {
+      "phrase": "gratitude debt",
+      "meaningVi": "nợ ơn huệ, nghĩa vụ cảm ơn"
+    },
+    {
+      "phrase": "hierarchical encoding",
+      "meaningVi": "mã hoá thứ bậc xã hội"
+    },
+    {
+      "phrase": "condescension",
+      "meaningVi": "thái độ hạ cố, ban ơn",
+      "pronunciation": "/ˌkɒndɪˈsenʃən/"
+    },
+    {
+      "phrase": "reciprocity",
+      "meaningVi": "sự có đi có lại",
+      "pronunciation": "/ˌresɪˈprɒsɪti/"
+    }
   ],
   "sampleText": "Seldom do we pause to examine the social machinery hidden inside a simple thank-you. The words seem too small to carry much beyond courtesy, and yet the selection of precisely which words, in which register, delivered with which degree of eye contact or bodily tilt, is rarely innocent. In Japanese, the choice between a clipped sumimasen — borrowed from apology, used as casual thanks among familiars — and a full keigo construction such as osewa ni narimashita is not a matter of individual warmth. It is a public declaration of where both speakers stand in relation to one another.\n\nThe encoding of hierarchy in gratitude language is not a Japanese peculiarity. In German, the shift from a rapid danke to a fuller Danke schön, or to the more expansive Vielen herzlichen Dank, traces a line of escalating social distance. More telling is the deictic asymmetry of Sie and du: one can thank a colleague with the same words while the pronoun regime surrounding the exchange — the second-person form chosen for the follow-up sentence — announces whether this is a relationship of mutuality or one of quiet subordination. The person who thanks upward uses Danke schön; the person who thanks downward, or between near-equals, drops the schön and with it the extra syllable of effort.\n\nWhat distinguishes a heartfelt thank-you from an obligatory one is not sincerity but calibration. In Brazilian Portuguese, obrigado is sufficiently elastic to be distributed across a wide social range — between a bus passenger and the driver, a customer and the cashier at a padaria in Recife — but the prosody shifts: an elongated final syllable and a slight head incline signal that the speaker knows their position. The cashier who says obrigado back and holds the gaze fractionally longer is not simply being polite. That extra beat is a small negotiation, a micro-assertion that the gratitude debt flows in both directions.\n\nGranted, every culture has evolved courtesy formulae in good faith, and one would be wrong to reduce all expressions of thanks to mere class performance. Even so, the asymmetries are not accidental. When a senior executive in Tokyo receives thanks from a junior analyst, the junior's keigo — its elaborate verb-endings, its reflexive self-lowering — is not just grammatical habit. It is a rehearsal of the vertical axis of the organisation, repeated dozens of times a day until the hierarchy becomes invisible by sheer repetition. The grammar teaches the social order; the social order reinforces the grammar.\n\nThere is something revealing in the fact that the wrong thank-you — using casual language upward, or formal language downward in a way that reads as condescension — produces a distinct social friction. The discomfort is not mere aesthetics. It is the discomfort of a violated contract: the speaker has broken the implicit rule that gratitude, in form, must replicate the power differential that exists in fact. To thank a subordinate with the full Sie construction in German is to create what linguists call an interactional incongruity. The recipient senses something has misfired, even if they cannot say what. That sensation is the hierarchical encoding surfacing as feeling.\n\nTo argue that all of this is simply cultural richness — that keigo is beautiful, that Danke schön is generous, that Brazilian prosody is warm — is to mistake the surface for the structure. One might readily admire the aesthetic dimension of any of these forms; the admiration does not dissolve the asymmetry. The class grammar of gratitude operates best when it is least noticed: when the honorific feels natural, the elongated vowel feels warm, and the Sie feels respectful rather than distancing. It is precisely in that invisibility — in the moment when hierarchy feels like courtesy — that the language does its most durable work.",
   "sampleAnnotations": [
-    {"phrase": "Seldom do we pause to examine", "meaningVi": "Hiếm khi chúng ta dừng lại để xem xét"},
-    {"phrase": "social machinery hidden inside", "meaningVi": "bộ máy xã hội ẩn bên trong"},
-    {"phrase": "rarely innocent", "meaningVi": "hiếm khi vô tình, thường có chủ ý"},
-    {"phrase": "public declaration of where both speakers stand", "meaningVi": "tuyên bố công khai về vị trí của cả hai người nói"},
-    {"phrase": "encoding of hierarchy", "meaningVi": "việc mã hoá thứ bậc"},
-    {"phrase": "deictic asymmetry", "meaningVi": "sự bất đối xứng trong cách xưng hô"},
-    {"phrase": "relationship of mutuality", "meaningVi": "mối quan hệ bình đẳng, có đi có lại"},
-    {"phrase": "extra syllable of effort", "meaningVi": "âm tiết thêm thể hiện nỗ lực"},
-    {"phrase": "What distinguishes a heartfelt thank-you from an obligatory one is not sincerity but calibration", "meaningVi": "Điều phân biệt một lời cảm ơn chân thành với một lời cảm ơn mang tính nghĩa vụ không phải là sự thành thật mà là sự điều chỉnh"},
-    {"phrase": "the prosody shifts", "meaningVi": "ngữ điệu thay đổi"},
-    {"phrase": "a small negotiation", "meaningVi": "một cuộc đàm phán nhỏ"},
-    {"phrase": "gratitude debt flows in both directions", "meaningVi": "nợ ơn huệ chảy theo cả hai chiều"},
-    {"phrase": "Granted, every culture has evolved courtesy formulae in good faith", "meaningVi": "Cứ cho là mọi nền văn hoá đã phát triển các công thức lịch sự một cách chân thành"},
-    {"phrase": "Even so, the asymmetries are not accidental", "meaningVi": "Dù vậy, những bất đối xứng này không phải ngẫu nhiên"},
-    {"phrase": "a rehearsal of the vertical axis", "meaningVi": "một buổi tập dượt cho trục dọc (thứ bậc)"},
-    {"phrase": "the grammar teaches the social order", "meaningVi": "ngữ pháp dạy trật tự xã hội"},
-    {"phrase": "violated contract", "meaningVi": "hợp đồng ngầm bị vi phạm"},
-    {"phrase": "interactional incongruity", "meaningVi": "sự bất hợp lý trong tương tác"},
-    {"phrase": "the hierarchical encoding surfacing as feeling", "meaningVi": "sự mã hoá thứ bậc hiện lên như một cảm giác"},
-    {"phrase": "that invisibility", "meaningVi": "sự vô hình đó"},
-    {"phrase": "when hierarchy feels like courtesy", "meaningVi": "khi thứ bậc cảm thấy như phép lịch sự"},
-    {"phrase": "its most durable work", "meaningVi": "công việc bền vững nhất của nó"}
+    {
+      "phrase": "Seldom do we pause to examine",
+      "meaningVi": "Hiếm khi chúng ta dừng lại để xem xét"
+    },
+    {
+      "phrase": "social machinery hidden inside",
+      "meaningVi": "bộ máy xã hội ẩn bên trong"
+    },
+    {
+      "phrase": "rarely innocent",
+      "meaningVi": "hiếm khi vô tình, thường có chủ ý"
+    },
+    {
+      "phrase": "public declaration of where both speakers stand",
+      "meaningVi": "tuyên bố công khai về vị trí của cả hai người nói"
+    },
+    {
+      "phrase": "encoding of hierarchy",
+      "meaningVi": "việc mã hoá thứ bậc"
+    },
+    {
+      "phrase": "deictic asymmetry",
+      "meaningVi": "sự bất đối xứng trong cách xưng hô"
+    },
+    {
+      "phrase": "relationship of mutuality",
+      "meaningVi": "mối quan hệ bình đẳng, có đi có lại"
+    },
+    {
+      "phrase": "extra syllable of effort",
+      "meaningVi": "âm tiết thêm thể hiện nỗ lực"
+    },
+    {
+      "phrase": "What distinguishes a heartfelt thank-you from an obligatory one is not sincerity but calibration",
+      "meaningVi": "Điều phân biệt một lời cảm ơn chân thành với một lời cảm ơn mang tính nghĩa vụ không phải là sự thành thật mà là sự điều chỉnh"
+    },
+    {
+      "phrase": "the prosody shifts",
+      "meaningVi": "ngữ điệu thay đổi"
+    },
+    {
+      "phrase": "a small negotiation",
+      "meaningVi": "một cuộc đàm phán nhỏ"
+    },
+    {
+      "phrase": "gratitude debt flows in both directions",
+      "meaningVi": "nợ ơn huệ chảy theo cả hai chiều"
+    },
+    {
+      "phrase": "Granted, every culture has evolved courtesy formulae in good faith",
+      "meaningVi": "Cứ cho là mọi nền văn hoá đã phát triển các công thức lịch sự một cách chân thành"
+    },
+    {
+      "phrase": "Even so, the asymmetries are not accidental",
+      "meaningVi": "Dù vậy, những bất đối xứng này không phải ngẫu nhiên"
+    },
+    {
+      "phrase": "a rehearsal of the vertical axis",
+      "meaningVi": "một buổi tập dượt cho trục dọc (thứ bậc)"
+    },
+    {
+      "phrase": "the grammar teaches the social order",
+      "meaningVi": "ngữ pháp dạy trật tự xã hội"
+    },
+    {
+      "phrase": "violated contract",
+      "meaningVi": "hợp đồng ngầm bị vi phạm"
+    },
+    {
+      "phrase": "interactional incongruity",
+      "meaningVi": "sự bất hợp lý trong tương tác"
+    },
+    {
+      "phrase": "the hierarchical encoding surfacing as feeling",
+      "meaningVi": "sự mã hoá thứ bậc hiện lên như một cảm giác"
+    },
+    {
+      "phrase": "that invisibility",
+      "meaningVi": "sự vô hình đó"
+    },
+    {
+      "phrase": "when hierarchy feels like courtesy",
+      "meaningVi": "khi thứ bậc cảm thấy như phép lịch sự"
+    },
+    {
+      "phrase": "its most durable work",
+      "meaningVi": "công việc bền vững nhất của nó"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -82,11 +232,11 @@
       "prompt": "Which sentence correctly uses inversion after a negative adverb?",
       "options": [
         "Seldom we pause to examine what hides inside a thank-you.",
-        "Seldom do we pause to examine the social machinery hidden inside a simple thank-you.",
         "We seldom do pause to examine hidden social machinery.",
+        "Seldom do we pause to examine the social machinery hidden inside a simple thank-you.",
         "Seldom, we do pause and examine the hidden machinery."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "After 'Seldom' at the start, auxiliary 'do' must precede the subject 'we'.",
       "hint": "Negative fronting requires subject-auxiliary inversion."
     },
@@ -95,11 +245,11 @@
       "prompt": "What does 'the encoding of hierarchy in gratitude language' demonstrate grammatically?",
       "options": [
         "A relative clause",
-        "A nominalization of the verb phrase 'encodes hierarchy'",
         "An inversion construction",
-        "A conditional clause"
+        "A conditional clause",
+        "A nominalization of the verb phrase 'encodes hierarchy'"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'The encoding of X' converts the verb 'encode' into a noun group — nominalization.",
       "hint": "The '-ing' form here acts as a noun, not a verb."
     },
@@ -107,12 +257,12 @@
       "id": "q3",
       "prompt": "Which sentence best uses a complex concession?",
       "options": [
-        "Every culture has courtesy formulae and so there is no problem.",
         "Granted, every culture has evolved courtesy formulae in good faith. Even so, the asymmetries are not accidental.",
+        "Every culture has courtesy formulae and so there is no problem.",
         "Cultures have courtesy formulae, which are granted and even so.",
         "Even so, cultures have formulae. Granted, asymmetry exists."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'Granted… Even so…' is the canonical two-step concession pattern: concede, then counter.",
       "hint": "The 'Granted… Even so…' pair must appear in the right order."
     },
@@ -134,11 +284,11 @@
       "prompt": "In the essay, why does the cashier's 'extra beat' of eye contact matter?",
       "options": [
         "It shows the cashier is being rude.",
-        "It is a micro-assertion that the gratitude debt flows in both directions.",
         "It demonstrates that obrigado is longer than other words.",
+        "It is a micro-assertion that the gratitude debt flows in both directions.",
         "It signals that the cashier wants a tip."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay calls it a 'small negotiation' — the cashier asserts that thanks are owed by both parties.",
       "hint": "Look for the phrase 'gratitude debt flows in both directions'."
     },
@@ -147,11 +297,11 @@
       "prompt": "Which phrase from the essay is a near-synonym for 'social hierarchy'?",
       "options": [
         "phatic communion",
-        "the vertical axis of the organisation",
         "interactional incongruity",
-        "upward inflection"
+        "upward inflection",
+        "the vertical axis of the organisation"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'The vertical axis of the organisation' is the essay's metaphor for social hierarchy.",
       "hint": "Look for a spatial metaphor used to describe rank."
     },
@@ -159,12 +309,12 @@
       "id": "q7",
       "prompt": "What is 'interactional incongruity' as used in the essay?",
       "options": [
-        "A grammar mistake in a formal letter",
         "The friction felt when the register of a thank-you contradicts the power differential",
+        "A grammar mistake in a formal letter",
         "A polite disagreement between colleagues",
         "The confusion caused by a foreign language"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay uses 'interactional incongruity' to name the misfired contract when formal language is used downward.",
       "hint": "Think of 'incongruity' as a mismatch — here, between form and social fact."
     },
@@ -186,11 +336,11 @@
       "prompt": "Which sentence has the highest C1 register?",
       "options": [
         "Saying thank you in the wrong way makes people uncomfortable.",
-        "The discomfort is not mere aesthetics. It is the discomfort of a violated contract.",
         "Wrong thank-yous feel bad because people notice them.",
+        "The discomfort is not mere aesthetics. It is the discomfort of a violated contract.",
         "People feel weird when you use the wrong register."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "B uses abstract nominalization ('discomfort', 'violated contract') and a rhetorical echo structure — typical C1 moves.",
       "hint": "Look for the sentence that nominalizes and uses parallel structure."
     },
@@ -199,11 +349,11 @@
       "prompt": "What does the essay argue about the relationship between keigo and organizational hierarchy?",
       "options": [
         "Keigo is only a cultural custom with no effect on hierarchy.",
-        "Keigo's verb-endings rehearse the vertical axis of the organisation through daily repetition until the hierarchy becomes invisible.",
         "Keigo is difficult to learn and therefore reinforces hierarchy accidentally.",
-        "Senior executives in Tokyo refuse to use keigo."
+        "Senior executives in Tokyo refuse to use keigo.",
+        "Keigo's verb-endings rehearse the vertical axis of the organisation through daily repetition until the hierarchy becomes invisible."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay says the junior's keigo is 'a rehearsal of the vertical axis… repeated dozens of times a day until the hierarchy becomes invisible'.",
       "hint": "Look for the phrase 'rehearsal of the vertical axis'."
     },
@@ -211,12 +361,12 @@
       "id": "q11",
       "prompt": "Which option best captures the essay's central argument in one sentence?",
       "options": [
-        "Different languages have different ways of saying thank you.",
         "The form of a thank-you encodes social position, and this encoding operates most powerfully when it goes unnoticed.",
+        "Different languages have different ways of saying thank you.",
         "Gratitude is a universal emotion that all cultures express.",
         "Politeness norms vary widely across cultures, which can cause misunderstandings."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "B captures the two-part thesis: hierarchical encoding + the power of invisibility.",
       "hint": "Look for the option that mentions both encoding and invisibility."
     },
@@ -238,11 +388,11 @@
       "prompt": "The essay says admiring keigo's aesthetic dimension 'does not dissolve the asymmetry'. What does this mean?",
       "options": [
         "If you find keigo beautiful, you cannot also find it hierarchical.",
-        "Appreciating the beauty of a linguistic form does not remove the social inequality it encodes.",
         "The aesthetic quality of keigo is undermined by its hierarchical nature.",
+        "Appreciating the beauty of a linguistic form does not remove the social inequality it encodes.",
         "Only people who do not find keigo beautiful see its asymmetry."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay warns against mistaking aesthetic appreciation for a removal of the structural inequality.",
       "hint": "Look for the concessive logic: admire the form AND still see the structure."
     },
@@ -252,10 +402,10 @@
       "options": [
         "its newest feature",
         "its heaviest material",
-        "the most lasting effect it produces",
-        "the work it does most quickly"
+        "the work it does most quickly",
+        "the most lasting effect it produces"
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "explanation": "'Durable' means long-lasting; 'its most durable work' is the most enduring thing the language achieves.",
       "hint": "Durable = lasting over time."
     },
@@ -263,12 +413,12 @@
       "id": "q15",
       "prompt": "Which transition word/phrase signals the turn from concession to counter-argument in the essay?",
       "options": [
-        "Furthermore",
         "Even so",
+        "Furthermore",
         "In addition",
         "Consequently"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "After 'Granted…', the essay pivots with 'Even so…' to restore the main argument.",
       "hint": "The two-part pattern is 'Granted… Even so…'."
     },

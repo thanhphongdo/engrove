@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "The slow lane was never empty",
   "summary": "Argue that speed is not a neutral improvement but a trade — that every minute we shave off a task is paid for somewhere we have stopped looking, and that the question is not how to go faster but what the haste is for.",
-  "tags": ["Argument", "Time", "Work"],
+  "tags": [
+    "Argument",
+    "Time",
+    "Work"
+  ],
   "topic": "Whether making something faster is always a genuine gain",
   "prompt": "Write a 600–800-word essay arguing that speeding up a task is a trade-off rather than a pure improvement, and that the real question is what the saved time is for. Ground the argument in two concrete situations and grant one serious objection before limiting it. Use inversion, nominalization, and hedged claims (it may be that…, what tends to happen…).",
   "minWords": 600,
@@ -14,74 +18,285 @@
     "It would be foolish to romanticise slowness for its own sake. Even so, there is a cost that the stopwatch is structurally unable to…"
   ],
   "hintVocab": [
-    {"phrase": "acceleration", "meaningVi": "sự tăng tốc, việc làm cho nhanh hơn", "pronunciation": "/əkˌseləˈreɪʃən/"},
-    {"phrase": "efficiency", "meaningVi": "hiệu suất, sự hiệu quả", "pronunciation": "/ɪˈfɪʃənsi/"},
-    {"phrase": "throughput", "meaningVi": "lượng công việc xử lý được trong một đơn vị thời gian"},
-    {"phrase": "to optimise", "meaningVi": "tối ưu hoá", "pronunciation": "/ˈɒptɪmaɪz/"},
-    {"phrase": "a trade-off", "meaningVi": "sự đánh đổi"},
-    {"phrase": "a net gain", "meaningVi": "lợi ích ròng, cái lợi sau khi trừ đi cái mất"},
-    {"phrase": "to shave off", "meaningVi": "cắt bớt, giảm đi (thời gian)"},
-    {"phrase": "haste", "meaningVi": "sự vội vã", "pronunciation": "/heɪst/"},
-    {"phrase": "the bottleneck", "meaningVi": "nút thắt cổ chai, điểm nghẽn"},
-    {"phrase": "to streamline", "meaningVi": "tinh giản, làm cho gọn nhẹ và nhanh"},
-    {"phrase": "marginal", "meaningVi": "biên, không đáng kể, ở mức rìa", "pronunciation": "/ˈmɑːdʒɪnəl/"},
-    {"phrase": "diminishing returns", "meaningVi": "lợi ích giảm dần"},
-    {"phrase": "to compress", "meaningVi": "nén lại, ép cho ngắn", "pronunciation": "/kəmˈpres/"},
-    {"phrase": "cumulative", "meaningVi": "tích luỹ, dồn lại", "pronunciation": "/ˈkjuːmjələtɪv/"},
-    {"phrase": "tempo", "meaningVi": "nhịp độ, tốc độ", "pronunciation": "/ˈtempəʊ/"},
-    {"phrase": "frictionless", "meaningVi": "không có ma sát, trơn tru không trở ngại"},
-    {"phrase": "to displace", "meaningVi": "làm dịch chuyển, đẩy chỗ khác", "pronunciation": "/dɪsˈpleɪs/"},
-    {"phrase": "expedient", "meaningVi": "tiện lợi nhất thời, có lợi trước mắt", "pronunciation": "/ɪkˈspiːdiənt/"},
-    {"phrase": "to forgo", "meaningVi": "từ bỏ, bỏ qua không hưởng", "pronunciation": "/fɔːˈɡəʊ/"},
-    {"phrase": "perishable", "meaningVi": "dễ hỏng, chóng hư", "pronunciation": "/ˈperɪʃəbl/"},
-    {"phrase": "to ration", "meaningVi": "phân bổ dè sẻn, định lượng", "pronunciation": "/ˈræʃən/"},
-    {"phrase": "redundancy", "meaningVi": "phần dư thừa, độ dôi để phòng hờ", "pronunciation": "/rɪˈdʌndənsi/"},
-    {"phrase": "slack", "meaningVi": "khoảng dôi, độ chùng, thời gian rảnh đệm"},
-    {"phrase": "to internalise", "meaningVi": "nội tâm hoá, thấm vào thành thói quen", "pronunciation": "/ɪnˈtɜːnəlaɪz/"},
-    {"phrase": "compounding", "meaningVi": "sự cộng dồn theo cấp số, lãi mẹ đẻ lãi con"},
-    {"phrase": "to economise", "meaningVi": "tiết kiệm, dùng dè sẻn", "pronunciation": "/ɪˈkɒnəmaɪz/"},
-    {"phrase": "the dividend", "meaningVi": "phần lợi tức thu về, cái lời gặt được", "pronunciation": "/ˈdɪvɪdend/"},
-    {"phrase": "instrumental", "meaningVi": "mang tính công cụ, chỉ là phương tiện", "pronunciation": "/ˌɪnstrəˈmentl/"},
-    {"phrase": "an end in itself", "meaningVi": "một mục đích tự thân, có giá trị riêng nó"},
-    {"phrase": "to attend to", "meaningVi": "chú tâm tới, để ý tới"},
-    {"phrase": "deliberate", "meaningVi": "có chủ ý, thong thả cân nhắc", "pronunciation": "/dɪˈlɪbərət/"},
-    {"phrase": "to recoup", "meaningVi": "thu hồi lại, gỡ lại (cái đã mất)", "pronunciation": "/rɪˈkuːp/"}
+    {
+      "phrase": "acceleration",
+      "meaningVi": "sự tăng tốc, việc làm cho nhanh hơn",
+      "pronunciation": "/əkˌseləˈreɪʃən/"
+    },
+    {
+      "phrase": "efficiency",
+      "meaningVi": "hiệu suất, sự hiệu quả",
+      "pronunciation": "/ɪˈfɪʃənsi/"
+    },
+    {
+      "phrase": "throughput",
+      "meaningVi": "lượng công việc xử lý được trong một đơn vị thời gian"
+    },
+    {
+      "phrase": "to optimise",
+      "meaningVi": "tối ưu hoá",
+      "pronunciation": "/ˈɒptɪmaɪz/"
+    },
+    {
+      "phrase": "a trade-off",
+      "meaningVi": "sự đánh đổi"
+    },
+    {
+      "phrase": "a net gain",
+      "meaningVi": "lợi ích ròng, cái lợi sau khi trừ đi cái mất"
+    },
+    {
+      "phrase": "to shave off",
+      "meaningVi": "cắt bớt, giảm đi (thời gian)"
+    },
+    {
+      "phrase": "haste",
+      "meaningVi": "sự vội vã",
+      "pronunciation": "/heɪst/"
+    },
+    {
+      "phrase": "the bottleneck",
+      "meaningVi": "nút thắt cổ chai, điểm nghẽn"
+    },
+    {
+      "phrase": "to streamline",
+      "meaningVi": "tinh giản, làm cho gọn nhẹ và nhanh"
+    },
+    {
+      "phrase": "marginal",
+      "meaningVi": "biên, không đáng kể, ở mức rìa",
+      "pronunciation": "/ˈmɑːdʒɪnəl/"
+    },
+    {
+      "phrase": "diminishing returns",
+      "meaningVi": "lợi ích giảm dần"
+    },
+    {
+      "phrase": "to compress",
+      "meaningVi": "nén lại, ép cho ngắn",
+      "pronunciation": "/kəmˈpres/"
+    },
+    {
+      "phrase": "cumulative",
+      "meaningVi": "tích luỹ, dồn lại",
+      "pronunciation": "/ˈkjuːmjələtɪv/"
+    },
+    {
+      "phrase": "tempo",
+      "meaningVi": "nhịp độ, tốc độ",
+      "pronunciation": "/ˈtempəʊ/"
+    },
+    {
+      "phrase": "frictionless",
+      "meaningVi": "không có ma sát, trơn tru không trở ngại"
+    },
+    {
+      "phrase": "to displace",
+      "meaningVi": "làm dịch chuyển, đẩy chỗ khác",
+      "pronunciation": "/dɪsˈpleɪs/"
+    },
+    {
+      "phrase": "expedient",
+      "meaningVi": "tiện lợi nhất thời, có lợi trước mắt",
+      "pronunciation": "/ɪkˈspiːdiənt/"
+    },
+    {
+      "phrase": "to forgo",
+      "meaningVi": "từ bỏ, bỏ qua không hưởng",
+      "pronunciation": "/fɔːˈɡəʊ/"
+    },
+    {
+      "phrase": "perishable",
+      "meaningVi": "dễ hỏng, chóng hư",
+      "pronunciation": "/ˈperɪʃəbl/"
+    },
+    {
+      "phrase": "to ration",
+      "meaningVi": "phân bổ dè sẻn, định lượng",
+      "pronunciation": "/ˈræʃən/"
+    },
+    {
+      "phrase": "redundancy",
+      "meaningVi": "phần dư thừa, độ dôi để phòng hờ",
+      "pronunciation": "/rɪˈdʌndənsi/"
+    },
+    {
+      "phrase": "slack",
+      "meaningVi": "khoảng dôi, độ chùng, thời gian rảnh đệm"
+    },
+    {
+      "phrase": "to internalise",
+      "meaningVi": "nội tâm hoá, thấm vào thành thói quen",
+      "pronunciation": "/ɪnˈtɜːnəlaɪz/"
+    },
+    {
+      "phrase": "compounding",
+      "meaningVi": "sự cộng dồn theo cấp số, lãi mẹ đẻ lãi con"
+    },
+    {
+      "phrase": "to economise",
+      "meaningVi": "tiết kiệm, dùng dè sẻn",
+      "pronunciation": "/ɪˈkɒnəmaɪz/"
+    },
+    {
+      "phrase": "the dividend",
+      "meaningVi": "phần lợi tức thu về, cái lời gặt được",
+      "pronunciation": "/ˈdɪvɪdend/"
+    },
+    {
+      "phrase": "instrumental",
+      "meaningVi": "mang tính công cụ, chỉ là phương tiện",
+      "pronunciation": "/ˌɪnstrəˈmentl/"
+    },
+    {
+      "phrase": "an end in itself",
+      "meaningVi": "một mục đích tự thân, có giá trị riêng nó"
+    },
+    {
+      "phrase": "to attend to",
+      "meaningVi": "chú tâm tới, để ý tới"
+    },
+    {
+      "phrase": "deliberate",
+      "meaningVi": "có chủ ý, thong thả cân nhắc",
+      "pronunciation": "/dɪˈlɪbərət/"
+    },
+    {
+      "phrase": "to recoup",
+      "meaningVi": "thu hồi lại, gỡ lại (cái đã mất)",
+      "pronunciation": "/rɪˈkuːp/"
+    }
   ],
-  "sampleText": "Rarely do we ask what the saved minutes are actually spent on, and the silence around that question is itself revealing. We have agreed, almost without debating it, that faster is better — that any process which can be compressed should be, and that the time recovered is pure profit. But speed is a trade, not a gift, and the trade is rarely accounted for honestly. Whatever we shave off the front of a task is paid for somewhere behind us, in a place the stopwatch was never built to see.\n\nConsider the kitchen of a small restaurant in Penang where a cook once made laksa to order, the broth simmering through the morning until the spices had given up everything they held. A consultant arrived and streamlined the operation: a single large batch at dawn, held warm, ladled out on demand. Throughput doubled; the queue moved; the owner was delighted. What tends to happen in such cases, however, is that the gain shows up on the till while the loss hides in the bowl. The broth that has stood for four hours is not the broth that was finishing as you sat down, and the regulars, who could not have named the difference, slowly stopped coming. The efficiency was real. So was the thing it quietly displaced — a freshness that had no line on the spreadsheet and therefore, to the spreadsheet, did not exist.\n\nThe second case is closer to home. A reader who once spent an evening with a long novel now consumes a summary of it in eleven minutes, and counts this a victory over a scarce resource. In one sense it plainly is: the plot is acquired, the reference understood, the time recouped for other things. Yet the slow reading was not an inefficient delivery system for plot. The hours were the point — the gradual inhabiting of another mind, the way a sentence read at walking pace leaves a residue that a sentence skimmed does not. To compress the book to its information is to keep the husk and discard the kernel, all the while believing one has economised. It may be that the most valuable part of many experiences is precisely the part that cannot be accelerated without ceasing to be itself.\n\nThe strongest objection deserves a full hearing, because it is largely right. Most acceleration is not tragic; it is liberation. The washing machine did not impoverish anyone's relationship with laundry, and few mourn the morning lost to scrubbing by hand. Speeding up the dull, the repetitive, and the merely instrumental frees hours for things that actually reward attention. To denounce speed wholesale would be to defend drudgery, and no honest argument should be asked to do that. The dividend of efficiency is real, and for vast stretches of life it is the right call.\n\nThe trouble is that we have stopped distinguishing the two kinds of task. Drudgery should be made frictionless; an experience that is good slowly should not. The error is to treat all time as fungible — as if an hour at the sink and an hour over a meal with someone you love were the same hour, equally available for compression. When the same logic that rescued us from the washboard is turned on conversation, on cooking, on reading, on grief, it does not save the experience; it hollows it out and hands back the shell, stamped with the time it took. The saved minutes, meanwhile, are seldom spent on anything we would have chosen on purpose. They are absorbed into the next acceleration, and the one after that, until the whole day runs faster and feels emptier, the dividend forever reinvested in more speed.\n\nSo the question is not how to go faster. It is what the haste is for, and whether the thing being hurried is a means or an end. Before optimising any process, one might ask a single question: is this part of my life a cost I want to minimise, or a good I want to spend time inside? Honesty usually answers quickly for the dishes and slowly for everything that matters. Rarely is the slow lane as empty as the fast one assumes; more often it is where the thing we were hurrying toward was waiting all along, in no particular hurry to be reached."
-,
+  "sampleText": "Rarely do we ask what the saved minutes are actually spent on, and the silence around that question is itself revealing. We have agreed, almost without debating it, that faster is better — that any process which can be compressed should be, and that the time recovered is pure profit. But speed is a trade, not a gift, and the trade is rarely accounted for honestly. Whatever we shave off the front of a task is paid for somewhere behind us, in a place the stopwatch was never built to see.\n\nConsider the kitchen of a small restaurant in Penang where a cook once made laksa to order, the broth simmering through the morning until the spices had given up everything they held. A consultant arrived and streamlined the operation: a single large batch at dawn, held warm, ladled out on demand. Throughput doubled; the queue moved; the owner was delighted. What tends to happen in such cases, however, is that the gain shows up on the till while the loss hides in the bowl. The broth that has stood for four hours is not the broth that was finishing as you sat down, and the regulars, who could not have named the difference, slowly stopped coming. The efficiency was real. So was the thing it quietly displaced — a freshness that had no line on the spreadsheet and therefore, to the spreadsheet, did not exist.\n\nThe second case is closer to home. A reader who once spent an evening with a long novel now consumes a summary of it in eleven minutes, and counts this a victory over a scarce resource. In one sense it plainly is: the plot is acquired, the reference understood, the time recouped for other things. Yet the slow reading was not an inefficient delivery system for plot. The hours were the point — the gradual inhabiting of another mind, the way a sentence read at walking pace leaves a residue that a sentence skimmed does not. To compress the book to its information is to keep the husk and discard the kernel, all the while believing one has economised. It may be that the most valuable part of many experiences is precisely the part that cannot be accelerated without ceasing to be itself.\n\nThe strongest objection deserves a full hearing, because it is largely right. Most acceleration is not tragic; it is liberation. The washing machine did not impoverish anyone's relationship with laundry, and few mourn the morning lost to scrubbing by hand. Speeding up the dull, the repetitive, and the merely instrumental frees hours for things that actually reward attention. To denounce speed wholesale would be to defend drudgery, and no honest argument should be asked to do that. The dividend of efficiency is real, and for vast stretches of life it is the right call.\n\nThe trouble is that we have stopped distinguishing the two kinds of task. Drudgery should be made frictionless; an experience that is good slowly should not. The error is to treat all time as fungible — as if an hour at the sink and an hour over a meal with someone you love were the same hour, equally available for compression. When the same logic that rescued us from the washboard is turned on conversation, on cooking, on reading, on grief, it does not save the experience; it hollows it out and hands back the shell, stamped with the time it took. The saved minutes, meanwhile, are seldom spent on anything we would have chosen on purpose. They are absorbed into the next acceleration, and the one after that, until the whole day runs faster and feels emptier, the dividend forever reinvested in more speed.\n\nSo the question is not how to go faster. It is what the haste is for, and whether the thing being hurried is a means or an end. Before optimising any process, one might ask a single question: is this part of my life a cost I want to minimise, or a good I want to spend time inside? Honesty usually answers quickly for the dishes and slowly for everything that matters. Rarely is the slow lane as empty as the fast one assumes; more often it is where the thing we were hurrying toward was waiting all along, in no particular hurry to be reached.",
   "sampleAnnotations": [
-    {"phrase": "Rarely do we ask what the saved minutes are actually spent on", "meaningVi": "Hiếm khi ta tự hỏi những phút tiết kiệm được thực ra được tiêu vào đâu"},
-    {"phrase": "the silence around that question is itself revealing", "meaningVi": "chính sự im lặng quanh câu hỏi đó đã nói lên nhiều điều"},
-    {"phrase": "any process which can be compressed should be", "meaningVi": "bất kỳ quy trình nào có thể nén ngắn thì đều nên nén"},
-    {"phrase": "the time recovered is pure profit", "meaningVi": "thời gian thu hồi được là lợi nhuận thuần"},
-    {"phrase": "speed is a trade, not a gift", "meaningVi": "tốc độ là một sự đánh đổi, không phải món quà"},
-    {"phrase": "the trade is rarely accounted for honestly", "meaningVi": "sự đánh đổi đó hiếm khi được tính sổ một cách trung thực"},
-    {"phrase": "in a place the stopwatch was never built to see", "meaningVi": "ở một chỗ mà chiếc đồng hồ bấm giờ vốn không được tạo ra để nhìn thấy"},
-    {"phrase": "the broth simmering through the morning until the spices had given up everything they held", "meaningVi": "nồi nước dùng liu riu suốt buổi sáng cho đến khi gia vị nhả hết những gì chúng giữ"},
-    {"phrase": "Throughput doubled; the queue moved; the owner was delighted", "meaningVi": "Lượng xử lý tăng gấp đôi; hàng người nhích đi; ông chủ hài lòng"},
-    {"phrase": "the gain shows up on the till while the loss hides in the bowl", "meaningVi": "cái lợi hiện lên ở quầy thu ngân còn cái mất ẩn trong bát"},
-    {"phrase": "a freshness that had no line on the spreadsheet", "meaningVi": "một độ tươi mà bảng tính không có dòng nào để ghi"},
-    {"phrase": "counts this a victory over a scarce resource", "meaningVi": "coi đó là một chiến thắng trước một nguồn lực khan hiếm"},
-    {"phrase": "the slow reading was not an inefficient delivery system for plot", "meaningVi": "việc đọc chậm không phải một cách giao nội dung cốt truyện kém hiệu quả"},
-    {"phrase": "the gradual inhabiting of another mind", "meaningVi": "sự dần dần đặt mình vào trong một tâm trí khác"},
-    {"phrase": "leaves a residue that a sentence skimmed does not", "meaningVi": "để lại một dư vị mà câu văn đọc lướt thì không"},
-    {"phrase": "to keep the husk and discard the kernel", "meaningVi": "giữ lại lớp vỏ trấu mà vứt đi cái hạt"},
-    {"phrase": "the most valuable part of many experiences is precisely the part that cannot be accelerated", "meaningVi": "phần giá trị nhất của nhiều trải nghiệm lại chính là phần không thể tăng tốc"},
-    {"phrase": "Most acceleration is not tragic; it is liberation", "meaningVi": "Phần lớn sự tăng tốc không phải bi kịch; nó là sự giải phóng"},
-    {"phrase": "few mourn the morning lost to scrubbing by hand", "meaningVi": "ít ai thương tiếc buổi sáng mất đi vì cọ giặt bằng tay"},
-    {"phrase": "To denounce speed wholesale would be to defend drudgery", "meaningVi": "Lên án tốc độ một cách toàn bộ chẳng khác nào bênh vực sự lao dịch nhàm chán"},
-    {"phrase": "The dividend of efficiency is real", "meaningVi": "Phần lời của hiệu suất là có thật"},
-    {"phrase": "we have stopped distinguishing the two kinds of task", "meaningVi": "ta đã thôi phân biệt hai loại công việc"},
-    {"phrase": "The error is to treat all time as fungible", "meaningVi": "Sai lầm là coi mọi khoảng thời gian đều có thể thay thế cho nhau"},
-    {"phrase": "it hollows it out and hands back the shell, stamped with the time it took", "meaningVi": "nó moi rỗng trải nghiệm rồi trả lại cái vỏ, đóng dấu lên đó khoảng thời gian đã tốn"},
-    {"phrase": "absorbed into the next acceleration", "meaningVi": "bị nuốt vào lần tăng tốc kế tiếp"},
-    {"phrase": "the whole day runs faster and feels emptier", "meaningVi": "cả ngày chạy nhanh hơn mà lại thấy trống rỗng hơn"},
-    {"phrase": "the dividend forever reinvested in more speed", "meaningVi": "phần lời mãi mãi được tái đầu tư vào tốc độ nhiều hơn"},
-    {"phrase": "whether the thing being hurried is a means or an end", "meaningVi": "liệu thứ đang bị hối thúc là một phương tiện hay một mục đích"},
-    {"phrase": "is this part of my life a cost I want to minimise, or a good I want to spend time inside", "meaningVi": "phần này của đời tôi là một cái giá tôi muốn giảm thiểu, hay một điều tốt đẹp tôi muốn ở lại bên trong"},
-    {"phrase": "Honesty usually answers quickly for the dishes and slowly for everything that matters", "meaningVi": "Sự thành thật thường trả lời nhanh cho chuyện rửa bát và chậm cho mọi điều quan trọng"},
-    {"phrase": "Rarely is the slow lane as empty as the fast one assumes", "meaningVi": "Hiếm khi làn chậm lại trống như làn nhanh vẫn tưởng"},
-    {"phrase": "in no particular hurry to be reached", "meaningVi": "chẳng vội vàng gì để được chạm tới"}
+    {
+      "phrase": "Rarely do we ask what the saved minutes are actually spent on",
+      "meaningVi": "Hiếm khi ta tự hỏi những phút tiết kiệm được thực ra được tiêu vào đâu"
+    },
+    {
+      "phrase": "the silence around that question is itself revealing",
+      "meaningVi": "chính sự im lặng quanh câu hỏi đó đã nói lên nhiều điều"
+    },
+    {
+      "phrase": "any process which can be compressed should be",
+      "meaningVi": "bất kỳ quy trình nào có thể nén ngắn thì đều nên nén"
+    },
+    {
+      "phrase": "the time recovered is pure profit",
+      "meaningVi": "thời gian thu hồi được là lợi nhuận thuần"
+    },
+    {
+      "phrase": "speed is a trade, not a gift",
+      "meaningVi": "tốc độ là một sự đánh đổi, không phải món quà"
+    },
+    {
+      "phrase": "the trade is rarely accounted for honestly",
+      "meaningVi": "sự đánh đổi đó hiếm khi được tính sổ một cách trung thực"
+    },
+    {
+      "phrase": "in a place the stopwatch was never built to see",
+      "meaningVi": "ở một chỗ mà chiếc đồng hồ bấm giờ vốn không được tạo ra để nhìn thấy"
+    },
+    {
+      "phrase": "the broth simmering through the morning until the spices had given up everything they held",
+      "meaningVi": "nồi nước dùng liu riu suốt buổi sáng cho đến khi gia vị nhả hết những gì chúng giữ"
+    },
+    {
+      "phrase": "Throughput doubled; the queue moved; the owner was delighted",
+      "meaningVi": "Lượng xử lý tăng gấp đôi; hàng người nhích đi; ông chủ hài lòng"
+    },
+    {
+      "phrase": "the gain shows up on the till while the loss hides in the bowl",
+      "meaningVi": "cái lợi hiện lên ở quầy thu ngân còn cái mất ẩn trong bát"
+    },
+    {
+      "phrase": "a freshness that had no line on the spreadsheet",
+      "meaningVi": "một độ tươi mà bảng tính không có dòng nào để ghi"
+    },
+    {
+      "phrase": "counts this a victory over a scarce resource",
+      "meaningVi": "coi đó là một chiến thắng trước một nguồn lực khan hiếm"
+    },
+    {
+      "phrase": "the slow reading was not an inefficient delivery system for plot",
+      "meaningVi": "việc đọc chậm không phải một cách giao nội dung cốt truyện kém hiệu quả"
+    },
+    {
+      "phrase": "the gradual inhabiting of another mind",
+      "meaningVi": "sự dần dần đặt mình vào trong một tâm trí khác"
+    },
+    {
+      "phrase": "leaves a residue that a sentence skimmed does not",
+      "meaningVi": "để lại một dư vị mà câu văn đọc lướt thì không"
+    },
+    {
+      "phrase": "to keep the husk and discard the kernel",
+      "meaningVi": "giữ lại lớp vỏ trấu mà vứt đi cái hạt"
+    },
+    {
+      "phrase": "the most valuable part of many experiences is precisely the part that cannot be accelerated",
+      "meaningVi": "phần giá trị nhất của nhiều trải nghiệm lại chính là phần không thể tăng tốc"
+    },
+    {
+      "phrase": "Most acceleration is not tragic; it is liberation",
+      "meaningVi": "Phần lớn sự tăng tốc không phải bi kịch; nó là sự giải phóng"
+    },
+    {
+      "phrase": "few mourn the morning lost to scrubbing by hand",
+      "meaningVi": "ít ai thương tiếc buổi sáng mất đi vì cọ giặt bằng tay"
+    },
+    {
+      "phrase": "To denounce speed wholesale would be to defend drudgery",
+      "meaningVi": "Lên án tốc độ một cách toàn bộ chẳng khác nào bênh vực sự lao dịch nhàm chán"
+    },
+    {
+      "phrase": "The dividend of efficiency is real",
+      "meaningVi": "Phần lời của hiệu suất là có thật"
+    },
+    {
+      "phrase": "we have stopped distinguishing the two kinds of task",
+      "meaningVi": "ta đã thôi phân biệt hai loại công việc"
+    },
+    {
+      "phrase": "The error is to treat all time as fungible",
+      "meaningVi": "Sai lầm là coi mọi khoảng thời gian đều có thể thay thế cho nhau"
+    },
+    {
+      "phrase": "it hollows it out and hands back the shell, stamped with the time it took",
+      "meaningVi": "nó moi rỗng trải nghiệm rồi trả lại cái vỏ, đóng dấu lên đó khoảng thời gian đã tốn"
+    },
+    {
+      "phrase": "absorbed into the next acceleration",
+      "meaningVi": "bị nuốt vào lần tăng tốc kế tiếp"
+    },
+    {
+      "phrase": "the whole day runs faster and feels emptier",
+      "meaningVi": "cả ngày chạy nhanh hơn mà lại thấy trống rỗng hơn"
+    },
+    {
+      "phrase": "the dividend forever reinvested in more speed",
+      "meaningVi": "phần lời mãi mãi được tái đầu tư vào tốc độ nhiều hơn"
+    },
+    {
+      "phrase": "whether the thing being hurried is a means or an end",
+      "meaningVi": "liệu thứ đang bị hối thúc là một phương tiện hay một mục đích"
+    },
+    {
+      "phrase": "is this part of my life a cost I want to minimise, or a good I want to spend time inside",
+      "meaningVi": "phần này của đời tôi là một cái giá tôi muốn giảm thiểu, hay một điều tốt đẹp tôi muốn ở lại bên trong"
+    },
+    {
+      "phrase": "Honesty usually answers quickly for the dishes and slowly for everything that matters",
+      "meaningVi": "Sự thành thật thường trả lời nhanh cho chuyện rửa bát và chậm cho mọi điều quan trọng"
+    },
+    {
+      "phrase": "Rarely is the slow lane as empty as the fast one assumes",
+      "meaningVi": "Hiếm khi làn chậm lại trống như làn nhanh vẫn tưởng"
+    },
+    {
+      "phrase": "in no particular hurry to be reached",
+      "meaningVi": "chẳng vội vàng gì để được chạm tới"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -115,11 +330,11 @@
       "prompt": "What is the essay's central claim about speed?",
       "options": [
         "Going faster is always wrong and slowness is morally superior.",
-        "Speeding up a task is a trade-off, and the real question is what the saved time is for.",
         "Efficiency consultants ruin every business they touch.",
+        "Speeding up a task is a trade-off, and the real question is what the saved time is for.",
         "Technology will eventually make all tasks instantaneous."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The thesis is that speed trades one thing for another and the saved time must be examined; it explicitly refuses the blanket anti-speed position.",
       "hint": "Look for the option that is balanced and matches 'speed is a trade'."
     },
@@ -128,11 +343,11 @@
       "prompt": "In the Penang laksa example, where does the essay say the loss hides?",
       "options": [
         "In the consultant's fee.",
-        "In the bowl — the freshness that the spreadsheet cannot record.",
         "In the longer queue at the counter.",
-        "In the cost of keeping the broth warm."
+        "In the cost of keeping the broth warm.",
+        "In the bowl — the freshness that the spreadsheet cannot record."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'The gain shows up on the till while the loss hides in the bowl' — the displaced freshness has no line on the spreadsheet.",
       "hint": "Reread the line contrasting the till and the bowl."
     },
@@ -140,12 +355,12 @@
       "id": "q4",
       "prompt": "Which option best expresses the essay's main claim with appropriate C1 hedging?",
       "options": [
-        "Speeding anything up always hollows it out completely.",
         "It may be that the most valuable part of many experiences is precisely the part that cannot be accelerated.",
+        "Speeding anything up always hollows it out completely.",
         "Reading summaries is lazy and people should feel ashamed.",
         "Slow food is scientifically proven to be healthier than fast food."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Option B uses 'It may be that' and the qualifier 'many', matching the essay's hedged, defensible claim; the others overstate or moralise.",
       "hint": "Look for the tentative, qualified phrasing rather than the absolute one."
     },
@@ -167,11 +382,11 @@
       "prompt": "Which phrase is a nominalization?",
       "options": [
         "to shave off",
-        "the acceleration of daily life",
         "ran faster",
+        "the acceleration of daily life",
         "delighted"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'Acceleration' turns the verb 'accelerate' into a noun, letting the process act as a grammatical subject — a C1 device used throughout the essay.",
       "hint": "Look for a '-tion' noun built from a verb."
     },
@@ -180,11 +395,11 @@
       "prompt": "Which sentence best continues a paragraph that has just argued drudgery should be sped up but rich experiences should not, keeping the same focus and tone?",
       "options": [
         "By the way, Penang is also famous for its char kway teow and street murals.",
-        "The error is to treat all time as fungible, as if an hour at the sink and an hour over a meal with someone you love were the same hour.",
         "Modern dishwashers use far less water than hand-washing does.",
-        "Everyone should learn to cook at least one dish from scratch."
+        "Everyone should learn to cook at least one dish from scratch.",
+        "The error is to treat all time as fungible, as if an hour at the sink and an hour over a meal with someone you love were the same hour."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "Option B sustains the argument's focus (kinds of time) and register; the others drift onto tourism, appliance trivia, or generic advice.",
       "hint": "Which option keeps arguing about the two kinds of time?"
     },
@@ -192,12 +407,12 @@
       "id": "q8",
       "prompt": "What does 'to keep the husk and discard the kernel' mean in context?",
       "options": [
-        "To prefer cheap food over expensive food.",
         "To retain the surface information of an experience while losing the part that actually mattered.",
+        "To prefer cheap food over expensive food.",
         "To separate useful data from useless data efficiently.",
         "To recycle the outer packaging of a product."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The husk is the bare plot/information; the kernel is the slow inhabiting that gives the experience value. Compressing the book keeps the wrong part.",
       "hint": "Decode the metaphor: which part is the valuable one?"
     },
@@ -219,11 +434,11 @@
       "prompt": "Which sentence is grammatical but wrong in register for this formal essay?",
       "options": [
         "The dividend of efficiency is real, and for vast stretches of life it is the right call.",
-        "Honestly, rushing through your whole life is a total vibe-killer, no cap.",
         "Speed is a trade, not a gift, and the trade is rarely accounted for honestly.",
+        "Honestly, rushing through your whole life is a total vibe-killer, no cap.",
         "Drudgery should be made frictionless; an experience that is good slowly should not."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'Total vibe-killer' and 'no cap' are slang; the sentence is grammatical but clashes with the essay's formal register.",
       "hint": "Find the colloquial slang that breaks the formal tone."
     },
@@ -232,11 +447,11 @@
       "prompt": "What is the rhetorical effect of repeating 'Rarely…' in the closing sentence?",
       "options": [
         "It introduces an unrelated new topic.",
-        "It echoes the opening inversion, framing the essay and giving a sense of formal closure.",
         "It signals the writer has lost the thread of the argument.",
-        "It concedes that the whole essay was mistaken."
+        "It concedes that the whole essay was mistaken.",
+        "It echoes the opening inversion, framing the essay and giving a sense of formal closure."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "Returning to the opening 'Rarely…' structure creates a deliberate frame, lending the essay closure and formality.",
       "hint": "Think about what repeating a distinctive opening structure at the end does."
     },
@@ -244,12 +459,12 @@
       "id": "q12",
       "prompt": "Which sentence contains a grammar error?",
       "options": [
+        "When the consultant arrives, he streamline the whole operation.",
         "The hours were the point, not an inefficient delivery system for plot.",
         "The regulars slowly stopped coming, though they could not name the difference.",
-        "When the consultant arrives, he streamline the whole operation.",
         "Most acceleration is not tragic; it is liberation."
       ],
-      "answerIndex": 2,
+      "answerIndex": 0,
       "explanation": "'He streamline' is a subject-verb agreement error; it should be 'he streamlines'.",
       "hint": "Check the subject and its verb in each option."
     },
@@ -271,11 +486,11 @@
       "prompt": "Which sentence uses the best cohesion device to concede then restrict, as the essay does?",
       "options": [
         "Speed liberates us. Speed empties us.",
-        "Most acceleration is genuine liberation; yet the same logic, turned on the things that reward attention, hollows them out instead of saving them.",
         "Speed liberates us and also it empties us out too.",
+        "Most acceleration is genuine liberation; yet the same logic, turned on the things that reward attention, hollows them out instead of saving them.",
         "Because speed liberates us, it empties us as well."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "Option B grants the point ('genuine liberation') and then restricts it with 'yet… instead of…', the concessive move the essay relies on.",
       "hint": "Look for the grant-then-narrow pattern with a clear contrastive linker."
     },
@@ -284,11 +499,11 @@
       "prompt": "What single question does the essay propose asking before optimising a process?",
       "options": [
         "How much money will this save me per year?",
-        "Is this part of my life a cost I want to minimise, or a good I want to spend time inside?",
         "Will competitors do it faster than I can?",
-        "What is the quickest tool available for this task?"
+        "What is the quickest tool available for this task?",
+        "Is this part of my life a cost I want to minimise, or a good I want to spend time inside?"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay frames the discipline around exactly this question — distinguishing a means to be minimised from an end to be inhabited.",
       "hint": "The question is about means versus ends, not cost or speed."
     },
@@ -296,12 +511,12 @@
       "id": "q16",
       "prompt": "Which option best paraphrases 'the dividend forever reinvested in more speed'?",
       "options": [
-        "The money saved is donated to charity each year.",
         "The time efficiency frees up is poured straight back into going faster, so it is never actually enjoyed.",
+        "The money saved is donated to charity each year.",
         "Faster processes always pay larger financial dividends.",
         "Investors prefer companies that move quickly."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The 'dividend' is the saved time; reinvesting it 'in more speed' means it is never spent on anything chosen for itself.",
       "hint": "Decode the finance metaphor: what is the dividend and where does it go?"
     }

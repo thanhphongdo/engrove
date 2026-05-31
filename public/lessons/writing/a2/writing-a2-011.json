@@ -3,7 +3,11 @@
   "level": "A2",
   "title": "A book that surprised me",
   "summary": "Name a book and explain how it surprised you.",
-  "tags": ["Books", "Memory", "Opinion"],
+  "tags": [
+    "Books",
+    "Memory",
+    "Opinion"
+  ],
   "topic": "A book that surprised me",
   "prompt": "Write 150–250 words about a book that surprised you. Name the book, say how you got it, and explain why it was different from what you expected. Use past simple and 'I think / I feel' for opinions.",
   "minWords": 150,
@@ -14,30 +18,94 @@
     "What surprised me most was…"
   ],
   "hintVocab": [
-    { "phrase": "cover", "meaningVi": "bìa sách" },
-    { "phrase": "title", "meaningVi": "tựa đề" },
-    { "phrase": "main character", "meaningVi": "nhân vật chính" },
-    { "phrase": "chapter", "meaningVi": "chương" },
-    { "phrase": "surprise", "meaningVi": "ngạc nhiên", "pronunciation": "/sərˈpraɪz/" },
-    { "phrase": "lend", "meaningVi": "cho mượn" },
-    { "phrase": "expect", "meaningVi": "mong đợi" },
-    { "phrase": "boring", "meaningVi": "nhàm chán" },
-    { "phrase": "quiet story", "meaningVi": "câu chuyện trầm lắng" },
-    { "phrase": "page", "meaningVi": "trang" },
-    { "phrase": "I think", "meaningVi": "tôi nghĩ" }
+    {
+      "phrase": "cover",
+      "meaningVi": "bìa sách"
+    },
+    {
+      "phrase": "title",
+      "meaningVi": "tựa đề"
+    },
+    {
+      "phrase": "main character",
+      "meaningVi": "nhân vật chính"
+    },
+    {
+      "phrase": "chapter",
+      "meaningVi": "chương"
+    },
+    {
+      "phrase": "surprise",
+      "meaningVi": "ngạc nhiên",
+      "pronunciation": "/sərˈpraɪz/"
+    },
+    {
+      "phrase": "lend",
+      "meaningVi": "cho mượn"
+    },
+    {
+      "phrase": "expect",
+      "meaningVi": "mong đợi"
+    },
+    {
+      "phrase": "boring",
+      "meaningVi": "nhàm chán"
+    },
+    {
+      "phrase": "quiet story",
+      "meaningVi": "câu chuyện trầm lắng"
+    },
+    {
+      "phrase": "page",
+      "meaningVi": "trang"
+    },
+    {
+      "phrase": "I think",
+      "meaningVi": "tôi nghĩ"
+    }
   ],
   "sampleText": "A friend in Lisbon lent me a book called The Year of the Hare by a Finnish writer. I did not want to read it at first because the cover was old and the title sounded boring. I expected a slow story about animals in a forest. I left the book on my desk for two weeks. One rainy Saturday, I had nothing to do, so I opened the first page. After two chapters, I could not stop. The book is about a tired journalist who hits a hare with his car and then leaves his whole city life to walk into the countryside with the small animal. It sounds strange, but the writing is funny and quiet at the same time. I laughed on the bus, and people looked at me. What surprised me most was the main character. He was not brave or special. He was just a normal, tired man, like many people I know. I think the book is really about choosing a smaller, slower life. I felt calmer after each chapter. I finished it in three days and gave it back to my friend with a long note inside. Now I never judge a book by its cover. Sometimes the quiet ones are the loudest in your head.",
   "sampleAnnotations": [
-    { "phrase": "lent me a book", "meaningVi": "cho tôi mượn một quyển sách" },
-    { "phrase": "cover", "meaningVi": "bìa sách" },
-    { "phrase": "title sounded boring", "meaningVi": "tựa đề nghe nhàm chán" },
-    { "phrase": "chapters", "meaningVi": "các chương" },
-    { "phrase": "main character", "meaningVi": "nhân vật chính" },
-    { "phrase": "countryside", "meaningVi": "miền quê" },
-    { "phrase": "surprised me most", "meaningVi": "khiến tôi ngạc nhiên nhất" },
-    { "phrase": "calmer", "meaningVi": "bình tĩnh hơn" },
-    { "phrase": "long note", "meaningVi": "lời nhắn dài" },
-    { "phrase": "judge a book by its cover", "meaningVi": "đánh giá quyển sách qua cái bìa" }
+    {
+      "phrase": "lent me a book",
+      "meaningVi": "cho tôi mượn một quyển sách"
+    },
+    {
+      "phrase": "cover",
+      "meaningVi": "bìa sách"
+    },
+    {
+      "phrase": "title sounded boring",
+      "meaningVi": "tựa đề nghe nhàm chán"
+    },
+    {
+      "phrase": "chapters",
+      "meaningVi": "các chương"
+    },
+    {
+      "phrase": "main character",
+      "meaningVi": "nhân vật chính"
+    },
+    {
+      "phrase": "countryside",
+      "meaningVi": "miền quê"
+    },
+    {
+      "phrase": "surprised me most",
+      "meaningVi": "khiến tôi ngạc nhiên nhất"
+    },
+    {
+      "phrase": "calmer",
+      "meaningVi": "bình tĩnh hơn"
+    },
+    {
+      "phrase": "long note",
+      "meaningVi": "lời nhắn dài"
+    },
+    {
+      "phrase": "judge a book by its cover",
+      "meaningVi": "đánh giá quyển sách qua cái bìa"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -57,12 +125,12 @@
       "id": "q1",
       "prompt": "Choose the correct past tense of 'lend'.",
       "options": [
-        "A friend in Lisbon lent me a book.",
         "A friend in Lisbon lended me a book.",
+        "A friend in Lisbon lent me a book.",
         "A friend in Lisbon lend me a book.",
         "A friend in Lisbon has lend me a book."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'Lend' is irregular: lent, lent.",
       "hint": "Lend → lent."
     },
@@ -70,12 +138,12 @@
       "id": "q2",
       "prompt": "Which sentence correctly uses 'because'?",
       "options": [
-        "I did not want to read it because the cover was old.",
         "I did not want to read it but the cover was old.",
         "I did not want to read it so the cover was old.",
+        "I did not want to read it because the cover was old.",
         "I did not want to read it while the cover was old."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Because' introduces the reason.",
       "hint": "Which linker introduces a reason?"
     },
@@ -83,12 +151,12 @@
       "id": "q3",
       "prompt": "Pick the correctly used 'I think'.",
       "options": [
-        "I think the book is really about choosing a smaller life.",
         "I am think the book is really about choosing a smaller life.",
         "I think the book be really about choosing a smaller life.",
-        "I think the book really about choosing a smaller life."
+        "I think the book really about choosing a smaller life.",
+        "I think the book is really about choosing a smaller life."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'I think' + subject + verb clause is the standard pattern.",
       "hint": "What follows 'I think'?"
     },
@@ -109,12 +177,12 @@
       "id": "q5",
       "prompt": "Choose the most natural sentence.",
       "options": [
-        "What surprised me most was the main character.",
         "What surprise me most was the main character.",
+        "What surprised me most was the main character.",
         "What surprised me most were the main character.",
         "What surprised me the most main character was."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "Past simple 'surprised' + singular subject 'character' matches 'was'.",
       "hint": "Singular subject takes 'was'."
     },
@@ -122,12 +190,12 @@
       "id": "q6",
       "prompt": "Which sentence shows contrast?",
       "options": [
-        "It sounds strange, but the writing is funny and quiet.",
         "It sounds strange, so the writing is funny and quiet.",
         "It sounds strange, because the writing is funny and quiet.",
+        "It sounds strange, but the writing is funny and quiet.",
         "It sounds strange, while the writing is funny and quiet."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'But' signals contrast between 'strange' and 'funny and quiet'.",
       "hint": "Which linker shows contrast?"
     },
@@ -135,12 +203,12 @@
       "id": "q7",
       "prompt": "Choose the right time expression.",
       "options": [
-        "I finished it in three days.",
         "I finished it on three days.",
         "I finished it at three days.",
-        "I finished it for three days."
+        "I finished it for three days.",
+        "I finished it in three days."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'In + period of time' shows how long something took.",
       "hint": "Which preposition fits a completed duration?"
     },
@@ -161,12 +229,12 @@
       "id": "q9",
       "prompt": "Pick the natural collocation.",
       "options": [
-        "Now I never judge a book by its cover.",
         "Now I never judge a book for its cover.",
+        "Now I never judge a book by its cover.",
         "Now I never judge a book on its cover.",
         "Now I never judge a book with its cover."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'Judge a book by its cover' is the fixed idiom.",
       "hint": "It's a common idiom — what's the preposition?"
     },
@@ -174,12 +242,12 @@
       "id": "q10",
       "prompt": "Which closing sentence is the most concrete?",
       "options": [
-        "Sometimes the quiet ones are the loudest in your head.",
         "In conclusion, books are powerful objects.",
         "Throughout history, books have shaped lives.",
+        "Sometimes the quiet ones are the loudest in your head.",
         "It is important to note that reading is good."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "A small specific paradox beats a generic AI-style line.",
       "hint": "Avoid 'In conclusion', 'Throughout history', or 'It is important to note'."
     }

@@ -3,7 +3,11 @@
   "level": "A2",
   "title": "A song I shared with a friend",
   "summary": "Tell the story of a song that connects you to a particular friendship.",
-  "tags": ["Friends", "Memory", "Music"],
+  "tags": [
+    "Friends",
+    "Memory",
+    "Music"
+  ],
   "topic": "A song I shared with a friend",
   "prompt": "Write 150–250 words about one song that you connect to a friend. Describe when you first listened to it together and how the song makes you feel. Use past simple and time linkers (when, after).",
   "minWords": 150,
@@ -14,30 +18,94 @@
     "Every time I hear it now, I…"
   ],
   "hintVocab": [
-    { "phrase": "headphones", "meaningVi": "tai nghe", "pronunciation": "/ˈhedfoʊnz/" },
-    { "phrase": "share", "meaningVi": "chia sẻ" },
-    { "phrase": "slow song", "meaningVi": "bài hát chậm" },
-    { "phrase": "guitar", "meaningVi": "đàn ghi-ta" },
-    { "phrase": "lyrics", "meaningVi": "lời bài hát" },
-    { "phrase": "best friend", "meaningVi": "bạn thân nhất" },
-    { "phrase": "sunset", "meaningVi": "hoàng hôn" },
-    { "phrase": "remind me of", "meaningVi": "nhắc tôi nhớ về" },
-    { "phrase": "summer holiday", "meaningVi": "kỳ nghỉ hè" },
-    { "phrase": "rooftop", "meaningVi": "mái nhà" },
-    { "phrase": "play it again", "meaningVi": "bật lại nó" }
+    {
+      "phrase": "headphones",
+      "meaningVi": "tai nghe",
+      "pronunciation": "/ˈhedfoʊnz/"
+    },
+    {
+      "phrase": "share",
+      "meaningVi": "chia sẻ"
+    },
+    {
+      "phrase": "slow song",
+      "meaningVi": "bài hát chậm"
+    },
+    {
+      "phrase": "guitar",
+      "meaningVi": "đàn ghi-ta"
+    },
+    {
+      "phrase": "lyrics",
+      "meaningVi": "lời bài hát"
+    },
+    {
+      "phrase": "best friend",
+      "meaningVi": "bạn thân nhất"
+    },
+    {
+      "phrase": "sunset",
+      "meaningVi": "hoàng hôn"
+    },
+    {
+      "phrase": "remind me of",
+      "meaningVi": "nhắc tôi nhớ về"
+    },
+    {
+      "phrase": "summer holiday",
+      "meaningVi": "kỳ nghỉ hè"
+    },
+    {
+      "phrase": "rooftop",
+      "meaningVi": "mái nhà"
+    },
+    {
+      "phrase": "play it again",
+      "meaningVi": "bật lại nó"
+    }
   ],
   "sampleText": "There is one slow song that I always connect to my friend Aisha. We were sixteen, and we were spending our summer holiday at her aunt's house in Istanbul. One evening, we climbed to the rooftop with two cups of tea and one pair of headphones. We shared the headphones, one for each ear. The sun was going down behind the mosques, and the sky was orange and soft pink. Aisha pressed play. The song was slow and quiet, only a guitar and one woman's voice. We did not say anything. We just listened. When the song finished, Aisha asked me to play it again. We listened three more times. The lyrics were simple, but they felt important on that rooftop. After that summer, we did not see each other for two years. She moved to Canada, and I went to university in another city. But every time I hear that song now, I am back on the rooftop with her, sharing one pair of headphones, watching the orange sun. The song is not famous, and it is not even my favorite. But it is the only song that can bring me back to that exact evening. That is enough for me.",
   "sampleAnnotations": [
-    { "phrase": "slow song", "meaningVi": "bài hát chậm" },
-    { "phrase": "summer holiday", "meaningVi": "kỳ nghỉ hè" },
-    { "phrase": "rooftop", "meaningVi": "mái nhà" },
-    { "phrase": "headphones", "meaningVi": "tai nghe" },
-    { "phrase": "pressed play", "meaningVi": "nhấn nút phát" },
-    { "phrase": "guitar", "meaningVi": "đàn ghi-ta" },
-    { "phrase": "lyrics", "meaningVi": "lời bài hát" },
-    { "phrase": "play it again", "meaningVi": "bật lại nó" },
-    { "phrase": "every time I hear that song", "meaningVi": "mỗi khi tôi nghe bài hát đó" },
-    { "phrase": "exact evening", "meaningVi": "buổi tối chính xác đó" }
+    {
+      "phrase": "slow song",
+      "meaningVi": "bài hát chậm"
+    },
+    {
+      "phrase": "summer holiday",
+      "meaningVi": "kỳ nghỉ hè"
+    },
+    {
+      "phrase": "rooftop",
+      "meaningVi": "mái nhà"
+    },
+    {
+      "phrase": "headphones",
+      "meaningVi": "tai nghe"
+    },
+    {
+      "phrase": "pressed play",
+      "meaningVi": "nhấn nút phát"
+    },
+    {
+      "phrase": "guitar",
+      "meaningVi": "đàn ghi-ta"
+    },
+    {
+      "phrase": "lyrics",
+      "meaningVi": "lời bài hát"
+    },
+    {
+      "phrase": "play it again",
+      "meaningVi": "bật lại nó"
+    },
+    {
+      "phrase": "every time I hear that song",
+      "meaningVi": "mỗi khi tôi nghe bài hát đó"
+    },
+    {
+      "phrase": "exact evening",
+      "meaningVi": "buổi tối chính xác đó"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -70,12 +138,12 @@
       "id": "q2",
       "prompt": "Pick the correct past continuous.",
       "options": [
-        "The sun was going down behind the mosques.",
         "The sun is going down behind the mosques.",
+        "The sun was going down behind the mosques.",
         "The sun went down behind the mosques while was going.",
         "The sun goes down behind the mosques."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "Past continuous ('was going down') fits the slow, ongoing background.",
       "hint": "Was/were + -ing for background actions."
     },
@@ -83,12 +151,12 @@
       "id": "q3",
       "prompt": "Choose the most natural sentence.",
       "options": [
-        "We shared the headphones, one for each ear.",
         "We shared the headphone, one for each ears.",
         "We share the headphones, one for each ear.",
+        "We shared the headphones, one for each ear.",
         "We are sharing the headphones, one for ear each."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Headphones' is always plural; past simple matches the story.",
       "hint": "Headphones is a plural noun."
     },
@@ -96,12 +164,12 @@
       "id": "q4",
       "prompt": "Which option uses 'after' correctly?",
       "options": [
-        "After that summer, we did not see each other for two years.",
         "After that summer, we do not see each other for two years.",
         "After that summer, we have not seen each other since two years.",
-        "After that summer, we are not seeing each other for two years."
+        "After that summer, we are not seeing each other for two years.",
+        "After that summer, we did not see each other for two years."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "Past simple matches a finished period.",
       "hint": "Keep the tense in the past."
     },
@@ -122,12 +190,12 @@
       "id": "q6",
       "prompt": "Which sentence sounds most natural in English?",
       "options": [
-        "Every time I hear that song now, I am back on the rooftop with her.",
         "Every time I am hearing that song now, I back on the rooftop with her.",
+        "Every time I hear that song now, I am back on the rooftop with her.",
         "Every time I hear that song now, I have been back on the rooftop with her.",
         "Each time when I hearing that song now, I am back on the rooftop with her."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'Every time + present simple, present simple' is the standard pattern.",
       "hint": "Match present simple in both halves."
     },
@@ -135,12 +203,12 @@
       "id": "q7",
       "prompt": "Pick the most natural verb phrase.",
       "options": [
-        "We listened three more times.",
         "We are listening three more times.",
         "We have listened three more time.",
+        "We listened three more times.",
         "We listening three time more."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "Past simple of 'listen' is 'listened', and 'three more times' is correct word order.",
       "hint": "Look for correct past form and word order."
     },
@@ -148,12 +216,12 @@
       "id": "q8",
       "prompt": "Which option correctly uses 'when'?",
       "options": [
-        "When the song finished, Aisha asked me to play it again.",
         "When the song was finishing, Aisha asks me to play it again.",
         "When the song finish, Aisha asked me to play again it.",
-        "When the song has finished, Aisha is asking me to play it again."
+        "When the song has finished, Aisha is asking me to play it again.",
+        "When the song finished, Aisha asked me to play it again."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "Both clauses in past simple keep the timeline clean.",
       "hint": "Keep both clauses in the past."
     },
@@ -174,12 +242,12 @@
       "id": "q10",
       "prompt": "Choose the most personal, concrete closing.",
       "options": [
-        "That is enough for me.",
         "In conclusion, music is wonderful.",
+        "That is enough for me.",
         "Music is the universal language of the soul.",
         "It is important to note that songs are powerful."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "A short, personal closing beats a generic AI-style line.",
       "hint": "Skip the generic 'in conclusion' style."
     }

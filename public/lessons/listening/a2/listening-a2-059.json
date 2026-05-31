@@ -154,11 +154,11 @@
       "prompt": "What is the customer's problem?",
       "options": [
         "Her washing machine won't start",
-        "Her washing machine is leaking water",
         "Her washing machine is too loud",
+        "Her washing machine is leaking water",
         "Her washing machine is the wrong colour"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'It's leaking water all over the kitchen floor.'",
       "hint": "Listen for the first sentence."
     },
@@ -167,11 +167,11 @@
       "prompt": "When did the problem start?",
       "options": [
         "Yesterday evening",
-        "About an hour ago",
         "Three days ago",
-        "Last week"
+        "Last week",
+        "About an hour ago"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'About an hour ago.'",
       "hint": "Listen for a short time period."
     },
@@ -179,12 +179,12 @@
       "id": "q3",
       "prompt": "What did she do BEFORE calling?",
       "options": [
-        "Nothing — she called immediately",
         "She switched the machine off, unplugged it, and turned off the water tap",
+        "Nothing — she called immediately",
         "She tried to fix it herself",
         "She ran outside"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'Yes. I also turned off the water tap behind the machine.' (plus switched off and unplugged earlier).",
       "hint": "Listen for two or three safety steps she has done."
     },
@@ -193,11 +193,11 @@
       "prompt": "How old is the machine?",
       "options": [
         "Two years",
-        "Four years",
         "About six years",
+        "Four years",
         "Almost twenty years"
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "explanation": "'About six years.'",
       "hint": "Listen for a number of years."
     },
@@ -206,11 +206,11 @@
       "prompt": "What brand and type is the machine?",
       "options": [
         "A Samsung top-loader",
-        "A Bosch front-loader",
         "An LG washer-dryer",
+        "A Bosch front-loader",
         "A Whirlpool front-loader"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'It's a Bosch front-loader.'",
       "hint": "Listen for a brand and a type."
     },
@@ -219,11 +219,11 @@
       "prompt": "What does the technician suggest is often the cause of leaks in front-loaders?",
       "options": [
         "A blocked drain",
-        "A worn door seal",
         "A broken motor",
-        "A loose plug"
+        "A loose plug",
+        "A worn door seal"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'Front-loaders often leak from a worn door seal.'",
       "hint": "Listen for the part of the door."
     },
@@ -231,12 +231,12 @@
       "id": "q7",
       "prompt": "What does the customer find stuck in the seal?",
       "options": [
-        "A coin",
         "A small black piece that looks like part of a button",
+        "A coin",
         "A hairpin",
         "A piece of paper"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'There's a small black piece — looks like part of a button.'",
       "hint": "Listen for the colour and what the object looks like."
     },
@@ -258,11 +258,11 @@
       "prompt": "When will the technician arrive?",
       "options": [
         "Tomorrow morning",
-        "This afternoon between three and five",
         "Tonight after seven",
+        "This afternoon between three and five",
         "On Saturday"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'I can be there this afternoon between three and five.'",
       "hint": "Listen for a window of time."
     },
@@ -272,10 +272,10 @@
       "options": [
         "Forty dollars only",
         "Sixty dollars only",
-        "About one hundred dollars — forty call-out plus sixty for the seal",
-        "Two hundred dollars"
+        "Two hundred dollars",
+        "About one hundred dollars — forty call-out plus sixty for the seal"
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "explanation": "'The call-out fee is forty dollars, and the seal is around sixty.' — together about $100.",
       "hint": "Listen for two prices that you need to add."
     },
@@ -283,12 +283,12 @@
       "id": "q11",
       "prompt": "What does the technician advise her to do before he arrives?",
       "options": [
-        "Try to switch the machine on again",
         "Put old towels around the machine and do not switch it on",
+        "Try to switch the machine on again",
         "Empty the machine completely",
         "Buy a new washing machine"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'Please put some old towels around the machine in case it drips, and don't try to switch it on again.'",
       "hint": "Listen for two pieces of safety advice."
     }

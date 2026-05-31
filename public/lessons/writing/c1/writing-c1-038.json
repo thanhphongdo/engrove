@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "Against the metaphor of 'the journey' in professional life",
   "summary": "Argue that the pervasive use of 'the journey' as a metaphor for professional development is not merely a cliché but a conceptual distortion that misrepresents how careers actually unfold and subtly blames individuals for structural outcomes.",
-  "tags": ["Argument", "Language", "Labour"],
+  "tags": [
+    "Argument",
+    "Language",
+    "Labour"
+  ],
   "topic": "Whether the 'journey' metaphor in professional development discourse is harmless or ideologically misleading",
   "prompt": "Write a 600–800-word argumentative essay critiquing the metaphor of 'the journey' as applied to professional and career development. Argue that the metaphor is not merely imprecise but actively misleading: it implies a single traveller, a chosen direction, and a destination that can be reached through sustained effort — none of which accurately describes how most careers actually develop, especially across different economic contexts. Use inversion at least once, at least one nominalization, and the concessive pair 'one might well argue… but…'. Avoid bullet lists and motivational-speaker clichés.",
   "minWords": 600,
@@ -14,49 +18,176 @@
     "One might well argue that metaphors are not meant to be taken literally and that…"
   ],
   "hintVocab": [
-    {"phrase": "colonise", "meaningVi": "chiếm lĩnh, thống trị (về tư duy, ngôn ngữ)", "pronunciation": "/ˈkɒlənaɪz/"},
-    {"phrase": "conceptual distortion", "meaningVi": "sự bóp méo khái niệm, hiểu sai bản chất của sự vật"},
-    {"phrase": "ideologically misleading", "meaningVi": "gây hiểu lầm về mặt ý thức hệ, mang thông điệp sai lệch về chính trị xã hội"},
-    {"phrase": "structural constraint", "meaningVi": "hạn chế cấu trúc, rào cản được tạo ra bởi hệ thống xã hội"},
-    {"phrase": "agentive", "meaningVi": "mang tính chủ thể, nhấn mạnh khả năng tự quyết của cá nhân", "pronunciation": "/ˈeɪdʒəntɪv/"},
-    {"phrase": "destination fallacy", "meaningVi": "lầm lẫn về đích đến, quan niệm sai rằng thành công là đích đến cố định"},
-    {"phrase": "lateral move", "meaningVi": "bước ngang, sự dịch chuyển nghề nghiệp không theo chiều dọc"},
-    {"phrase": "career interruption", "meaningVi": "gián đoạn sự nghiệp, quãng thời gian không làm việc"},
-    {"phrase": "precarity", "meaningVi": "tình trạng bấp bênh, không ổn định về kinh tế", "pronunciation": "/prɪˈkeərɪti/"},
-    {"phrase": "individualising", "meaningVi": "cá nhân hoá, quy kết kết quả cho cá nhân thay vì hệ thống"},
-    {"phrase": "rhetorical function", "meaningVi": "chức năng tu từ, vai trò của ngôn ngữ trong việc thuyết phục"},
-    {"phrase": "metaphorical scaffolding", "meaningVi": "giàn giáo ẩn dụ, khuôn khổ ẩn dụ nâng đỡ tư duy"},
-    {"phrase": "meritocratic", "meaningVi": "theo thuyết nhân tài, tin rằng thành công chỉ phụ thuộc vào tài năng và nỗ lực", "pronunciation": "/ˌmerɪtəˈkrætɪk/"},
-    {"phrase": "unpredictable terrain", "meaningVi": "địa hình không thể đoán trước, hoàn cảnh khó lường"},
-    {"phrase": "stagnation", "meaningVi": "sự trì trệ, không phát triển", "pronunciation": "/stæɡˈneɪʃən/"},
-    {"phrase": "detour", "meaningVi": "đường vòng, bước ngoặt không theo kế hoạch", "pronunciation": "/ˈdiːtʊər/"},
-    {"phrase": "narrative coherence", "meaningVi": "sự mạch lạc của câu chuyện, khả năng kể câu chuyện liền mạch về bản thân"},
-    {"phrase": "labour market volatility", "meaningVi": "sự biến động của thị trường lao động, tính không ổn định của cơ hội việc làm"},
-    {"phrase": "cognitive frame", "meaningVi": "khung nhận thức, cách nhìn nhận và hiểu thế giới"},
-    {"phrase": "teleological", "meaningVi": "mang tính cứu cánh, hướng tới mục tiêu cuối cùng", "pronunciation": "/ˌteliəˈlɒdʒɪkəl/"}
+    {
+      "phrase": "colonise",
+      "meaningVi": "chiếm lĩnh, thống trị (về tư duy, ngôn ngữ)",
+      "pronunciation": "/ˈkɒlənaɪz/"
+    },
+    {
+      "phrase": "conceptual distortion",
+      "meaningVi": "sự bóp méo khái niệm, hiểu sai bản chất của sự vật"
+    },
+    {
+      "phrase": "ideologically misleading",
+      "meaningVi": "gây hiểu lầm về mặt ý thức hệ, mang thông điệp sai lệch về chính trị xã hội"
+    },
+    {
+      "phrase": "structural constraint",
+      "meaningVi": "hạn chế cấu trúc, rào cản được tạo ra bởi hệ thống xã hội"
+    },
+    {
+      "phrase": "agentive",
+      "meaningVi": "mang tính chủ thể, nhấn mạnh khả năng tự quyết của cá nhân",
+      "pronunciation": "/ˈeɪdʒəntɪv/"
+    },
+    {
+      "phrase": "destination fallacy",
+      "meaningVi": "lầm lẫn về đích đến, quan niệm sai rằng thành công là đích đến cố định"
+    },
+    {
+      "phrase": "lateral move",
+      "meaningVi": "bước ngang, sự dịch chuyển nghề nghiệp không theo chiều dọc"
+    },
+    {
+      "phrase": "career interruption",
+      "meaningVi": "gián đoạn sự nghiệp, quãng thời gian không làm việc"
+    },
+    {
+      "phrase": "precarity",
+      "meaningVi": "tình trạng bấp bênh, không ổn định về kinh tế",
+      "pronunciation": "/prɪˈkeərɪti/"
+    },
+    {
+      "phrase": "individualising",
+      "meaningVi": "cá nhân hoá, quy kết kết quả cho cá nhân thay vì hệ thống"
+    },
+    {
+      "phrase": "rhetorical function",
+      "meaningVi": "chức năng tu từ, vai trò của ngôn ngữ trong việc thuyết phục"
+    },
+    {
+      "phrase": "metaphorical scaffolding",
+      "meaningVi": "giàn giáo ẩn dụ, khuôn khổ ẩn dụ nâng đỡ tư duy"
+    },
+    {
+      "phrase": "meritocratic",
+      "meaningVi": "theo thuyết nhân tài, tin rằng thành công chỉ phụ thuộc vào tài năng và nỗ lực",
+      "pronunciation": "/ˌmerɪtəˈkrætɪk/"
+    },
+    {
+      "phrase": "unpredictable terrain",
+      "meaningVi": "địa hình không thể đoán trước, hoàn cảnh khó lường"
+    },
+    {
+      "phrase": "stagnation",
+      "meaningVi": "sự trì trệ, không phát triển",
+      "pronunciation": "/stæɡˈneɪʃən/"
+    },
+    {
+      "phrase": "detour",
+      "meaningVi": "đường vòng, bước ngoặt không theo kế hoạch",
+      "pronunciation": "/ˈdiːtʊər/"
+    },
+    {
+      "phrase": "narrative coherence",
+      "meaningVi": "sự mạch lạc của câu chuyện, khả năng kể câu chuyện liền mạch về bản thân"
+    },
+    {
+      "phrase": "labour market volatility",
+      "meaningVi": "sự biến động của thị trường lao động, tính không ổn định của cơ hội việc làm"
+    },
+    {
+      "phrase": "cognitive frame",
+      "meaningVi": "khung nhận thức, cách nhìn nhận và hiểu thế giới"
+    },
+    {
+      "phrase": "teleological",
+      "meaningVi": "mang tính cứu cánh, hướng tới mục tiêu cuối cùng",
+      "pronunciation": "/ˌteliəˈlɒdʒɪkəl/"
+    }
   ],
   "sampleText": "So thoroughly has the journey metaphor colonised professional discourse that challenging it feels perverse — like objecting to gravity. Career advisers, LinkedIn profiles, business school commencement speeches, and coaching podcasts from Accra to Auckland share a common cognitive frame: the professional life is a journey, with a traveller who chooses their direction, navigates obstacles, and arrives, through sustained effort, at a destination they set out to reach. The metaphor is so normalised that its distortions have become invisible.\n\nThe first distortion is agentive. The journey metaphor assumes a single traveller with primary control over their route. But careers — particularly in contexts of economic precarity, labour market volatility, and limited institutional infrastructure — are rarely the product of sustained directional intent. The factory worker in northern Mexico whose plant relocates to a cheaper location, the graduate in Nairobi whose sector contract was cancelled three months in, the academic in Southeast Asia who holds four simultaneous part-time appointments because no permanent position exists: none of these is on a journey. They are navigating unpredictable terrain with very limited agency over its configuration, and the metaphor of self-directed travel fits them poorly.\n\nThe second distortion is teleological. Journeys have destinations. The professional development industry is saturated with destination thinking: where do you want to be in five years, what is your end goal, what does success look like for you? This is not merely an impractical framing of how careers unfold; it is an actively misleading one. Most careers develop through lateral moves, career interruptions, opportunistic pivots, and long periods of apparent stagnation. The detours are not anomalies in the journey — for the majority of workers in most of the world, they are the journey. Treating them as deviations from a proper path compounds whatever difficulty they already contain with the additional burden of narrative failure.\n\nOne might well argue that the journey metaphor is not meant to be taken literally, and that it functions simply as motivational scaffolding — a way of encouraging people to think purposefully about their choices rather than drifting passively. But this concedes the rhetorical function of the metaphor without addressing its ideological consequences. The metaphorical scaffolding shapes what questions are asked and what explanations feel natural. When a metaphor portrays professional development as a self-directed journey, it makes structural explanations for career outcomes feel like excuses. The worker who hasn't 'arrived' is understood, through the metaphor's logic, as someone who chose the wrong direction, failed to navigate the obstacles, or stopped walking. The possibility that the terrain itself was inaccessible is not a destination the journey metaphor can reach.\n\nThe individualising effect of this framing is not neutral. In societies with stratified access to education, professional networks, and economic stability, the journey metaphor performs a meritocratic sleight of hand: it represents systemic inequality as individual navigation. The person who reaches a senior leadership position is celebrated as a purposeful traveller. The person who does not reach it is implicitly cast as someone who set off in the wrong direction or lacked the stamina to continue. The metaphor distributes credit and blame along individual lines, in a professional landscape that distributes opportunities along structural ones.\n\nThis is not an argument against metaphor in professional life or against aspiration. It is an argument against a specific metaphor that misdescribes the experience of most workers, concentrates causal explanations for career outcomes at the individual level, and makes structural critique feel inappropriate — as though complaining about the terrain were a form of weakness rather than an accurate description of it.\n\nThe professionalisation of career discourse has made the journey metaphor ubiquitous precisely because it is useful to those who sell direction, advice, and coaching. It is considerably less useful to the people it ostensibly describes. A more honest cognitive frame would begin not with a traveller choosing a destination but with a person making provisional decisions under conditions they did not design and cannot fully control — which is, for most workers in most of the world, what professional life actually is.",
   "sampleAnnotations": [
-    {"phrase": "So thoroughly has the journey metaphor colonised professional discourse that challenging it feels perverse", "meaningVi": "Ẩn dụ về hành trình đã chiếm lĩnh diễn ngôn nghề nghiệp đến mức thách thức nó có vẻ kỳ lạ"},
-    {"phrase": "its distortions have become invisible", "meaningVi": "những bóp méo của nó đã trở nên vô hình"},
-    {"phrase": "a single traveller with primary control over their route", "meaningVi": "một hành khách duy nhất với quyền kiểm soát chính về lộ trình của họ"},
-    {"phrase": "careers — particularly in contexts of economic precarity — are rarely the product of sustained directional intent", "meaningVi": "sự nghiệp — đặc biệt trong bối cảnh bấp bênh kinh tế — hiếm khi là sản phẩm của ý định định hướng bền vững"},
-    {"phrase": "none of these is on a journey", "meaningVi": "không ai trong số này đang trên một hành trình"},
-    {"phrase": "navigating unpredictable terrain with very limited agency over its configuration", "meaningVi": "điều hướng địa hình không thể đoán trước với rất ít quyền chủ động trong việc định hình nó"},
-    {"phrase": "The detours are not anomalies in the journey — they are the journey", "meaningVi": "Những đường vòng không phải là bất thường trong hành trình — chúng là hành trình"},
-    {"phrase": "compounding whatever difficulty they already contain with the additional burden of narrative failure", "meaningVi": "tích lũy thêm bất kỳ khó khăn nào chúng đã chứa đựng với gánh nặng bổ sung của sự thất bại trong câu chuyện"},
-    {"phrase": "One might well argue that the journey metaphor is not meant to be taken literally", "meaningVi": "Có thể lập luận rằng ẩn dụ về hành trình không có nghĩa được hiểu theo nghĩa đen"},
-    {"phrase": "The metaphorical scaffolding shapes what questions are asked", "meaningVi": "Giàn giáo ẩn dụ định hình những câu hỏi nào được đặt ra"},
-    {"phrase": "it makes structural explanations for career outcomes feel like excuses", "meaningVi": "nó khiến những giải thích cấu trúc cho kết quả nghề nghiệp có vẻ như là lý do biện hộ"},
-    {"phrase": "The possibility that the terrain itself was inaccessible is not a destination the journey metaphor can reach", "meaningVi": "Khả năng rằng bản thân địa hình không thể tiếp cận không phải là đích đến mà ẩn dụ hành trình có thể đạt tới"},
-    {"phrase": "The individualising effect of this framing is not neutral", "meaningVi": "Hiệu ứng cá nhân hoá của khung này không trung lập"},
-    {"phrase": "the journey metaphor performs a meritocratic sleight of hand", "meaningVi": "ẩn dụ hành trình thực hiện một trò ảo thuật theo thuyết nhân tài"},
-    {"phrase": "represents systemic inequality as individual navigation", "meaningVi": "đại diện bất bình đẳng hệ thống như điều hướng cá nhân"},
-    {"phrase": "distributes credit and blame along individual lines, in a professional landscape that distributes opportunities along structural ones", "meaningVi": "phân phối tín dụng và đổ lỗi theo đường cá nhân, trong một bối cảnh nghề nghiệp phân phối cơ hội theo đường cấu trúc"},
-    {"phrase": "concentrates causal explanations for career outcomes at the individual level", "meaningVi": "tập trung các giải thích nhân quả cho kết quả nghề nghiệp ở cấp độ cá nhân"},
-    {"phrase": "makes structural critique feel inappropriate", "meaningVi": "khiến phê bình cấu trúc có vẻ không phù hợp"},
-    {"phrase": "A more honest cognitive frame would begin not with a traveller choosing a destination", "meaningVi": "Một khung nhận thức trung thực hơn sẽ không bắt đầu với một hành khách chọn điểm đến"},
-    {"phrase": "making provisional decisions under conditions they did not design and cannot fully control", "meaningVi": "đưa ra các quyết định tạm thời trong các điều kiện mà họ không thiết kế và không thể kiểm soát hoàn toàn"}
+    {
+      "phrase": "So thoroughly has the journey metaphor colonised professional discourse that challenging it feels perverse",
+      "meaningVi": "Ẩn dụ về hành trình đã chiếm lĩnh diễn ngôn nghề nghiệp đến mức thách thức nó có vẻ kỳ lạ"
+    },
+    {
+      "phrase": "its distortions have become invisible",
+      "meaningVi": "những bóp méo của nó đã trở nên vô hình"
+    },
+    {
+      "phrase": "a single traveller with primary control over their route",
+      "meaningVi": "một hành khách duy nhất với quyền kiểm soát chính về lộ trình của họ"
+    },
+    {
+      "phrase": "— are rarely the product of sustained directional intent",
+      "meaningVi": "sự nghiệp — đặc biệt trong bối cảnh bấp bênh kinh tế — hiếm khi là sản phẩm của ý định định hướng bền vững"
+    },
+    {
+      "phrase": "none of these is on a journey",
+      "meaningVi": "không ai trong số này đang trên một hành trình"
+    },
+    {
+      "phrase": "navigating unpredictable terrain with very limited agency over its configuration",
+      "meaningVi": "điều hướng địa hình không thể đoán trước với rất ít quyền chủ động trong việc định hình nó"
+    },
+    {
+      "phrase": "The detours are not anomalies in the journey —",
+      "meaningVi": "Những đường vòng không phải là bất thường trong hành trình — chúng là hành trình"
+    },
+    {
+      "phrase": "whatever difficulty they already contain with the additional burden of narrative failure",
+      "meaningVi": "tích lũy thêm bất kỳ khó khăn nào chúng đã chứa đựng với gánh nặng bổ sung của sự thất bại trong câu chuyện"
+    },
+    {
+      "phrase": "One might well argue that the journey metaphor is not meant to be taken literally",
+      "meaningVi": "Có thể lập luận rằng ẩn dụ về hành trình không có nghĩa được hiểu theo nghĩa đen"
+    },
+    {
+      "phrase": "The metaphorical scaffolding shapes what questions are asked",
+      "meaningVi": "Giàn giáo ẩn dụ định hình những câu hỏi nào được đặt ra"
+    },
+    {
+      "phrase": "it makes structural explanations for career outcomes feel like excuses",
+      "meaningVi": "nó khiến những giải thích cấu trúc cho kết quả nghề nghiệp có vẻ như là lý do biện hộ"
+    },
+    {
+      "phrase": "The possibility that the terrain itself was inaccessible is not a destination the journey metaphor can reach",
+      "meaningVi": "Khả năng rằng bản thân địa hình không thể tiếp cận không phải là đích đến mà ẩn dụ hành trình có thể đạt tới"
+    },
+    {
+      "phrase": "The individualising effect of this framing is not neutral",
+      "meaningVi": "Hiệu ứng cá nhân hoá của khung này không trung lập"
+    },
+    {
+      "phrase": "the journey metaphor performs a meritocratic sleight of hand",
+      "meaningVi": "ẩn dụ hành trình thực hiện một trò ảo thuật theo thuyết nhân tài"
+    },
+    {
+      "phrase": "represents systemic inequality as individual navigation",
+      "meaningVi": "đại diện bất bình đẳng hệ thống như điều hướng cá nhân"
+    },
+    {
+      "phrase": "distributes credit and blame along individual lines, in a professional landscape that distributes opportunities along structural ones",
+      "meaningVi": "phân phối tín dụng và đổ lỗi theo đường cá nhân, trong một bối cảnh nghề nghiệp phân phối cơ hội theo đường cấu trúc"
+    },
+    {
+      "phrase": "concentrates causal explanations for career outcomes at the individual level",
+      "meaningVi": "tập trung các giải thích nhân quả cho kết quả nghề nghiệp ở cấp độ cá nhân"
+    },
+    {
+      "phrase": "makes structural critique feel inappropriate",
+      "meaningVi": "khiến phê bình cấu trúc có vẻ không phù hợp"
+    },
+    {
+      "phrase": "A more honest cognitive frame would begin not with a traveller choosing a destination",
+      "meaningVi": "Một khung nhận thức trung thực hơn sẽ không bắt đầu với một hành khách chọn điểm đến"
+    },
+    {
+      "phrase": "making provisional decisions under conditions they did not design and cannot fully control",
+      "meaningVi": "đưa ra các quyết định tạm thời trong các điều kiện mà họ không thiết kế và không thể kiểm soát hoàn toàn"
+    }
   ],
   "sampleGrammarNotes": [
     {

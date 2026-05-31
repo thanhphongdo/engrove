@@ -3,7 +3,11 @@
   "title": "The voice that outlived the singer",
   "level": "C1",
   "summary": "Critique the comfortable assumption that a recording keeps a person or a place alive — examine the paradox that a recording, by surviving, can quietly replace and falsify what it preserves, so that the copy becomes more real to us than the original ever was.",
-  "tags": ["Critique", "Memory", "Preservation"],
+  "tags": [
+    "Critique",
+    "Memory",
+    "Preservation"
+  ],
   "topic": "A recording can outlive, and quietly falsify, the thing it preserved",
   "prompt": "Write a 600–800-word critical essay challenging the claim that a recording keeps its subject alive. Examine the paradox that the surviving copy can replace and distort the original. Critique one specific case, anticipate the strongest defence of recording, and answer it without overstating. Use hedged claims, concessive linkers (admittedly, to be sure, even so), and at least one cleft sentence (It is X that…).",
   "minWords": 600,
@@ -14,72 +18,276 @@
     "Admittedly, a recording can return to us a voice we thought lost; even so, the question worth pressing is whether what returns is the person or only…"
   ],
   "hintVocab": [
-    {"phrase": "a recording", "meaningVi": "bản thu, bản ghi âm/ghi hình", "pronunciation": "/rɪˈkɔːdɪŋ/"},
-    {"phrase": "to preserve", "meaningVi": "bảo tồn, lưu giữ", "pronunciation": "/prɪˈzɜːv/"},
-    {"phrase": "to outlive", "meaningVi": "sống lâu hơn, tồn tại lâu hơn", "pronunciation": "/ˌaʊtˈlɪv/"},
-    {"phrase": "the original", "meaningVi": "bản gốc, cái nguyên bản"},
-    {"phrase": "a copy", "meaningVi": "bản sao"},
-    {"phrase": "a surrogate", "meaningVi": "vật thay thế, thứ đứng thay", "pronunciation": "/ˈsʌrəɡət/"},
-    {"phrase": "fidelity", "meaningVi": "độ trung thực, độ sát bản gốc", "pronunciation": "/fɪˈdeləti/"},
-    {"phrase": "to falsify", "meaningVi": "làm sai lệch, bóp méo", "pronunciation": "/ˈfɔːlsɪfaɪ/"},
-    {"phrase": "to flatten", "meaningVi": "làm phẳng, làm mất chiều sâu"},
-    {"phrase": "an artefact", "meaningVi": "tạo tác phẩm, vật do con người làm ra", "pronunciation": "/ˈɑːtɪfækt/"},
-    {"phrase": "to canonize", "meaningVi": "phong thành chuẩn mực, biến thành phiên bản chính thức", "pronunciation": "/ˈkænənaɪz/"},
-    {"phrase": "the definitive version", "meaningVi": "phiên bản dứt khoát, được coi là chuẩn"},
-    {"phrase": "to mediate", "meaningVi": "làm trung gian, chen vào giữa", "pronunciation": "/ˈmiːdieɪt/"},
-    {"phrase": "to embalm", "meaningVi": "ướp xác, giữ lại trong trạng thái chết cứng", "pronunciation": "/ɪmˈbɑːm/"},
-    {"phrase": "static", "meaningVi": "tĩnh, bất động, không thay đổi", "pronunciation": "/ˈstætɪk/"},
-    {"phrase": "ephemeral", "meaningVi": "phù du, chóng tàn", "pronunciation": "/ɪˈfemərəl/"},
-    {"phrase": "to supplant", "meaningVi": "thế chỗ, hất cẳng", "pronunciation": "/səˈplɑːnt/"},
-    {"phrase": "the substitution", "meaningVi": "sự thay thế"},
-    {"phrase": "posthumous", "meaningVi": "sau khi qua đời, di cảo", "pronunciation": "/ˈpɒstjʊməs/"},
-    {"phrase": "to reanimate", "meaningVi": "làm sống lại, hồi sinh giả tạo", "pronunciation": "/riˈænɪmeɪt/"},
-    {"phrase": "authenticity", "meaningVi": "tính chân thực, đích thực", "pronunciation": "/ˌɔːθenˈtɪsəti/"},
-    {"phrase": "a simulacrum", "meaningVi": "phiên bản mô phỏng, cái giống mà rỗng", "pronunciation": "/ˌsɪmjʊˈleɪkrəm/"},
-    {"phrase": "to decontextualize", "meaningVi": "tách khỏi bối cảnh gốc"},
-    {"phrase": "nuance", "meaningVi": "sắc thái tinh tế", "pronunciation": "/ˈnjuːɑːns/"},
-    {"phrase": "to fossilize", "meaningVi": "hoá thạch, đông cứng lại", "pronunciation": "/ˈfɒsɪlaɪz/"},
-    {"phrase": "the living thing", "meaningVi": "thực thể sống động, cái còn sống"},
-    {"phrase": "a snapshot", "meaningVi": "một khoảnh khắc chụp nhanh, lát cắt thời gian"},
-    {"phrase": "to crowd out", "meaningVi": "chèn ép, lấn chỗ"},
-    {"phrase": "an illusion of presence", "meaningVi": "ảo giác về sự hiện diện"},
-    {"phrase": "to do justice to", "meaningVi": "làm công bằng cho, thể hiện đúng giá trị của"},
-    {"phrase": "the afterlife of an image", "meaningVi": "đời sống về sau của một hình ảnh"},
-    {"phrase": "to mistake the map for the territory", "meaningVi": "nhầm tấm bản đồ với chính vùng đất"}
+    {
+      "phrase": "a recording",
+      "meaningVi": "bản thu, bản ghi âm/ghi hình",
+      "pronunciation": "/rɪˈkɔːdɪŋ/"
+    },
+    {
+      "phrase": "to preserve",
+      "meaningVi": "bảo tồn, lưu giữ",
+      "pronunciation": "/prɪˈzɜːv/"
+    },
+    {
+      "phrase": "to outlive",
+      "meaningVi": "sống lâu hơn, tồn tại lâu hơn",
+      "pronunciation": "/ˌaʊtˈlɪv/"
+    },
+    {
+      "phrase": "the original",
+      "meaningVi": "bản gốc, cái nguyên bản"
+    },
+    {
+      "phrase": "a copy",
+      "meaningVi": "bản sao"
+    },
+    {
+      "phrase": "a surrogate",
+      "meaningVi": "vật thay thế, thứ đứng thay",
+      "pronunciation": "/ˈsʌrəɡət/"
+    },
+    {
+      "phrase": "fidelity",
+      "meaningVi": "độ trung thực, độ sát bản gốc",
+      "pronunciation": "/fɪˈdeləti/"
+    },
+    {
+      "phrase": "to falsify",
+      "meaningVi": "làm sai lệch, bóp méo",
+      "pronunciation": "/ˈfɔːlsɪfaɪ/"
+    },
+    {
+      "phrase": "to flatten",
+      "meaningVi": "làm phẳng, làm mất chiều sâu"
+    },
+    {
+      "phrase": "an artefact",
+      "meaningVi": "tạo tác phẩm, vật do con người làm ra",
+      "pronunciation": "/ˈɑːtɪfækt/"
+    },
+    {
+      "phrase": "to canonize",
+      "meaningVi": "phong thành chuẩn mực, biến thành phiên bản chính thức",
+      "pronunciation": "/ˈkænənaɪz/"
+    },
+    {
+      "phrase": "the definitive version",
+      "meaningVi": "phiên bản dứt khoát, được coi là chuẩn"
+    },
+    {
+      "phrase": "to mediate",
+      "meaningVi": "làm trung gian, chen vào giữa",
+      "pronunciation": "/ˈmiːdieɪt/"
+    },
+    {
+      "phrase": "to embalm",
+      "meaningVi": "ướp xác, giữ lại trong trạng thái chết cứng",
+      "pronunciation": "/ɪmˈbɑːm/"
+    },
+    {
+      "phrase": "static",
+      "meaningVi": "tĩnh, bất động, không thay đổi",
+      "pronunciation": "/ˈstætɪk/"
+    },
+    {
+      "phrase": "ephemeral",
+      "meaningVi": "phù du, chóng tàn",
+      "pronunciation": "/ɪˈfemərəl/"
+    },
+    {
+      "phrase": "to supplant",
+      "meaningVi": "thế chỗ, hất cẳng",
+      "pronunciation": "/səˈplɑːnt/"
+    },
+    {
+      "phrase": "the substitution",
+      "meaningVi": "sự thay thế"
+    },
+    {
+      "phrase": "posthumous",
+      "meaningVi": "sau khi qua đời, di cảo",
+      "pronunciation": "/ˈpɒstjʊməs/"
+    },
+    {
+      "phrase": "to reanimate",
+      "meaningVi": "làm sống lại, hồi sinh giả tạo",
+      "pronunciation": "/riˈænɪmeɪt/"
+    },
+    {
+      "phrase": "authenticity",
+      "meaningVi": "tính chân thực, đích thực",
+      "pronunciation": "/ˌɔːθenˈtɪsəti/"
+    },
+    {
+      "phrase": "a simulacrum",
+      "meaningVi": "phiên bản mô phỏng, cái giống mà rỗng",
+      "pronunciation": "/ˌsɪmjʊˈleɪkrəm/"
+    },
+    {
+      "phrase": "to decontextualize",
+      "meaningVi": "tách khỏi bối cảnh gốc"
+    },
+    {
+      "phrase": "nuance",
+      "meaningVi": "sắc thái tinh tế",
+      "pronunciation": "/ˈnjuːɑːns/"
+    },
+    {
+      "phrase": "to fossilize",
+      "meaningVi": "hoá thạch, đông cứng lại",
+      "pronunciation": "/ˈfɒsɪlaɪz/"
+    },
+    {
+      "phrase": "the living thing",
+      "meaningVi": "thực thể sống động, cái còn sống"
+    },
+    {
+      "phrase": "a snapshot",
+      "meaningVi": "một khoảnh khắc chụp nhanh, lát cắt thời gian"
+    },
+    {
+      "phrase": "to crowd out",
+      "meaningVi": "chèn ép, lấn chỗ"
+    },
+    {
+      "phrase": "an illusion of presence",
+      "meaningVi": "ảo giác về sự hiện diện"
+    },
+    {
+      "phrase": "to do justice to",
+      "meaningVi": "làm công bằng cho, thể hiện đúng giá trị của"
+    },
+    {
+      "phrase": "the afterlife of an image",
+      "meaningVi": "đời sống về sau của một hình ảnh"
+    },
+    {
+      "phrase": "to mistake the map for the territory",
+      "meaningVi": "nhầm tấm bản đồ với chính vùng đất"
+    }
   ],
-  "sampleText": "We say a recording keeps someone alive, and the phrase passes unexamined. A grandfather's voice on an old tape, a singer's last session, a dialect captured before its last speakers died — surely these are rescues, snatched from time and held safe. Yet the comfort of the idea may be exactly what stops us from noticing what a recording actually does. It does not preserve a living thing so much as produce a second thing, fixed and partial, which then sets about quietly taking the first thing's place.\n\nTake the case of a folk singer recorded once, late in life, by a visiting collector. The session was a single afternoon: she was tired, her range had narrowed, and she sang the version she happened to remember that day. For forty years she had sung that ballad a hundred ways, faster at weddings, slower in grief, changing a line when a line wanted changing. The recording caught none of that variety. It caught one afternoon. And because the tape survived while the woman did not, that one tired afternoon became, for everyone who came after, the song — studied, transcribed, imitated, canonized. The living, shifting thing she had carried for a lifetime was replaced by a snapshot of its weakest hour, and the snapshot now wears the authority of the original. It is the recording, not the singer, that the next generation learns from, and it teaches them a version she might not have recognised as definitive.\n\nThis is the substitution the comforting phrase conceals. A recording does not sit beside the original, supplementing it; over time it tends to supplant it. The photograph becomes the memory; the studio take becomes the song; the embalmed dialect on the linguist's drive becomes the language, frozen at the grammar of whoever happened to be available to record. What survives is not the thing but an artefact of the thing, and the artefact has a fatal advantage: it is always there, identical on every playback, while the living original was never the same twice. We come to trust the copy precisely because it does not change — mistaking, as we so often do, the map for the territory.\n\nThe strongest defence of recording deserves to be stated at full strength, not knocked down as a straw man. Without that one afternoon, the ballad would simply be gone; a flawed record of a song is incomparably better than no record at all, and to sneer at preservation from the comfort of an archive someone else built is cheap. Recordings have saved languages from total silence and given the dead a hearing they would otherwise never have had. To be sure, all of this is true, and any honest critique must hold it firmly in view.\n\nEven so, the defence answers a question the critique did not ask. The objection is not that recording is worse than oblivion — almost nothing is — but that we systematically mistake the recording for the thing, and in doing so let the copy crowd out a fuller understanding of what it replaced. The danger lies not in having the tape but in forgetting that it is a tape: in treating one tired afternoon as the whole singer, one frozen grammar as the living language, one image as the person. Admittedly the recording rescues something; the critique only insists on naming what it quietly costs, which is the original's right to have been more than its most durable fragment.\n\nWhat would it mean to use a recording without being used by it? Perhaps to hold it as evidence rather than as the verdict — to remember that the silence around the tape was once full of the variations it failed to catch, and that the person on it was, on every other afternoon of a long life, someone the machine never met. The recording is not a window onto the dead. It is a door that has been propped open onto a single room, with the rest of the house gone dark behind it. We are right to be grateful the door exists. We are wrong to mistake the one lit room for the whole of who lived there."
-,
+  "sampleText": "We say a recording keeps someone alive, and the phrase passes unexamined. A grandfather's voice on an old tape, a singer's last session, a dialect captured before its last speakers died — surely these are rescues, snatched from time and held safe. Yet the comfort of the idea may be exactly what stops us from noticing what a recording actually does. It does not preserve a living thing so much as produce a second thing, fixed and partial, which then sets about quietly taking the first thing's place.\n\nTake the case of a folk singer recorded once, late in life, by a visiting collector. The session was a single afternoon: she was tired, her range had narrowed, and she sang the version she happened to remember that day. For forty years she had sung that ballad a hundred ways, faster at weddings, slower in grief, changing a line when a line wanted changing. The recording caught none of that variety. It caught one afternoon. And because the tape survived while the woman did not, that one tired afternoon became, for everyone who came after, the song — studied, transcribed, imitated, canonized. The living, shifting thing she had carried for a lifetime was replaced by a snapshot of its weakest hour, and the snapshot now wears the authority of the original. It is the recording, not the singer, that the next generation learns from, and it teaches them a version she might not have recognised as definitive.\n\nThis is the substitution the comforting phrase conceals. A recording does not sit beside the original, supplementing it; over time it tends to supplant it. The photograph becomes the memory; the studio take becomes the song; the embalmed dialect on the linguist's drive becomes the language, frozen at the grammar of whoever happened to be available to record. What survives is not the thing but an artefact of the thing, and the artefact has a fatal advantage: it is always there, identical on every playback, while the living original was never the same twice. We come to trust the copy precisely because it does not change — mistaking, as we so often do, the map for the territory.\n\nThe strongest defence of recording deserves to be stated at full strength, not knocked down as a straw man. Without that one afternoon, the ballad would simply be gone; a flawed record of a song is incomparably better than no record at all, and to sneer at preservation from the comfort of an archive someone else built is cheap. Recordings have saved languages from total silence and given the dead a hearing they would otherwise never have had. To be sure, all of this is true, and any honest critique must hold it firmly in view.\n\nEven so, the defence answers a question the critique did not ask. The objection is not that recording is worse than oblivion — almost nothing is — but that we systematically mistake the recording for the thing, and in doing so let the copy crowd out a fuller understanding of what it replaced. The danger lies not in having the tape but in forgetting that it is a tape: in treating one tired afternoon as the whole singer, one frozen grammar as the living language, one image as the person. Admittedly the recording rescues something; the critique only insists on naming what it quietly costs, which is the original's right to have been more than its most durable fragment.\n\nWhat would it mean to use a recording without being used by it? Perhaps to hold it as evidence rather than as the verdict — to remember that the silence around the tape was once full of the variations it failed to catch, and that the person on it was, on every other afternoon of a long life, someone the machine never met. The recording is not a window onto the dead. It is a door that has been propped open onto a single room, with the rest of the house gone dark behind it. We are right to be grateful the door exists. We are wrong to mistake the one lit room for the whole of who lived there.",
   "sampleAnnotations": [
-    {"phrase": "We say a recording keeps someone alive, and the phrase passes unexamined", "meaningVi": "Ta nói một bản thu giữ ai đó sống mãi, và câu nói ấy trôi qua mà không bị xem xét"},
-    {"phrase": "surely these are rescues, snatched from time and held safe", "meaningVi": "chắc chắn đây là những cuộc giải cứu, giật ra khỏi thời gian và giữ cho an toàn"},
-    {"phrase": "the comfort of the idea may be exactly what stops us from noticing what a recording actually does", "meaningVi": "sự dễ chịu của ý niệm ấy có thể chính là thứ ngăn ta nhận ra một bản thu thật sự làm gì"},
-    {"phrase": "produce a second thing, fixed and partial", "meaningVi": "tạo ra một vật thứ hai, cố định và phiến diện"},
-    {"phrase": "quietly taking the first thing's place", "meaningVi": "lặng lẽ chiếm lấy chỗ của vật thứ nhất"},
-    {"phrase": "she sang the version she happened to remember that day", "meaningVi": "bà hát phiên bản bà tình cờ nhớ được hôm đó"},
-    {"phrase": "changing a line when a line wanted changing", "meaningVi": "đổi một câu hát khi câu ấy đòi được đổi"},
-    {"phrase": "The recording caught none of that variety. It caught one afternoon", "meaningVi": "Bản thu chẳng bắt được chút nào của sự đa dạng đó. Nó bắt được một buổi chiều"},
-    {"phrase": "that one tired afternoon became, for everyone who came after, the song", "meaningVi": "cái buổi chiều mệt mỏi ấy trở thành, với tất cả những ai đến sau, chính bài hát"},
-    {"phrase": "studied, transcribed, imitated, canonized", "meaningVi": "được nghiên cứu, ghi chép lại, bắt chước, phong thành chuẩn mực"},
-    {"phrase": "replaced by a snapshot of its weakest hour", "meaningVi": "bị thay bằng một khoảnh khắc chụp nhanh của giờ phút yếu nhất của nó"},
-    {"phrase": "the snapshot now wears the authority of the original", "meaningVi": "khoảnh khắc chụp nhanh ấy nay khoác lên uy quyền của bản gốc"},
-    {"phrase": "It is the recording, not the singer, that the next generation learns from", "meaningVi": "Chính bản thu, chứ không phải người ca sĩ, là thứ thế hệ sau học theo"},
-    {"phrase": "This is the substitution the comforting phrase conceals", "meaningVi": "Đây là sự thay thế mà câu nói an ủi che giấu"},
-    {"phrase": "over time it tends to supplant it", "meaningVi": "theo thời gian nó có xu hướng hất cẳng bản gốc"},
-    {"phrase": "the embalmed dialect on the linguist's drive becomes the language", "meaningVi": "phương ngữ bị ướp xác trên ổ cứng của nhà ngôn ngữ học trở thành chính ngôn ngữ ấy"},
-    {"phrase": "What survives is not the thing but an artefact of the thing", "meaningVi": "Cái sống sót không phải bản thân vật ấy mà là một tạo tác phẩm của nó"},
-    {"phrase": "the artefact has a fatal advantage: it is always there, identical on every playback", "meaningVi": "tạo tác phẩm ấy có một lợi thế chí mạng: nó luôn ở đó, giống hệt nhau qua mỗi lần phát lại"},
-    {"phrase": "We come to trust the copy precisely because it does not change", "meaningVi": "Ta dần tin vào bản sao chính vì nó không thay đổi"},
-    {"phrase": "mistaking, as we so often do, the map for the territory", "meaningVi": "nhầm lẫn, như ta vẫn thường làm, tấm bản đồ với chính vùng đất"},
-    {"phrase": "The strongest defence of recording deserves to be stated at full strength", "meaningVi": "Lời bênh vực mạnh nhất cho việc ghi âm xứng đáng được trình bày ở mức đầy đủ nhất"},
-    {"phrase": "a flawed record of a song is incomparably better than no record at all", "meaningVi": "một bản ghi khiếm khuyết của bài hát thì tốt hơn không gì sánh nổi so với không có bản ghi nào"},
-    {"phrase": "To be sure, all of this is true", "meaningVi": "Phải thừa nhận, tất cả những điều này đều đúng"},
-    {"phrase": "Even so, the defence answers a question the critique did not ask", "meaningVi": "Dù vậy, lời bênh vực trả lời một câu hỏi mà bài phê phán không hề đặt ra"},
-    {"phrase": "we systematically mistake the recording for the thing", "meaningVi": "ta nhầm bản thu với chính vật ấy một cách có hệ thống"},
-    {"phrase": "The danger lies not in having the tape but in forgetting that it is a tape", "meaningVi": "Hiểm hoạ không nằm ở việc có cuốn băng mà ở việc quên rằng nó chỉ là một cuốn băng"},
-    {"phrase": "the original's right to have been more than its most durable fragment", "meaningVi": "quyền của bản gốc được là thứ lớn hơn cái mảnh vụn bền nhất của nó"},
-    {"phrase": "to hold it as evidence rather than as the verdict", "meaningVi": "giữ nó như bằng chứng chứ không như phán quyết"},
-    {"phrase": "It is a door that has been propped open onto a single room, with the rest of the house gone dark behind it", "meaningVi": "Nó là một cánh cửa được chống mở vào một căn phòng duy nhất, với phần còn lại của ngôi nhà tối sầm phía sau"},
-    {"phrase": "We are wrong to mistake the one lit room for the whole of who lived there", "meaningVi": "Ta sai khi nhầm căn phòng sáng duy nhất với toàn bộ con người đã sống ở đó"}
+    {
+      "phrase": "We say a recording keeps someone alive, and the phrase passes unexamined",
+      "meaningVi": "Ta nói một bản thu giữ ai đó sống mãi, và câu nói ấy trôi qua mà không bị xem xét"
+    },
+    {
+      "phrase": "surely these are rescues, snatched from time and held safe",
+      "meaningVi": "chắc chắn đây là những cuộc giải cứu, giật ra khỏi thời gian và giữ cho an toàn"
+    },
+    {
+      "phrase": "the comfort of the idea may be exactly what stops us from noticing what a recording actually does",
+      "meaningVi": "sự dễ chịu của ý niệm ấy có thể chính là thứ ngăn ta nhận ra một bản thu thật sự làm gì"
+    },
+    {
+      "phrase": "produce a second thing, fixed and partial",
+      "meaningVi": "tạo ra một vật thứ hai, cố định và phiến diện"
+    },
+    {
+      "phrase": "quietly taking the first thing's place",
+      "meaningVi": "lặng lẽ chiếm lấy chỗ của vật thứ nhất"
+    },
+    {
+      "phrase": "she sang the version she happened to remember that day",
+      "meaningVi": "bà hát phiên bản bà tình cờ nhớ được hôm đó"
+    },
+    {
+      "phrase": "changing a line when a line wanted changing",
+      "meaningVi": "đổi một câu hát khi câu ấy đòi được đổi"
+    },
+    {
+      "phrase": "The recording caught none of that variety. It caught one afternoon",
+      "meaningVi": "Bản thu chẳng bắt được chút nào của sự đa dạng đó. Nó bắt được một buổi chiều"
+    },
+    {
+      "phrase": "that one tired afternoon became, for everyone who came after, the song",
+      "meaningVi": "cái buổi chiều mệt mỏi ấy trở thành, với tất cả những ai đến sau, chính bài hát"
+    },
+    {
+      "phrase": "studied, transcribed, imitated, canonized",
+      "meaningVi": "được nghiên cứu, ghi chép lại, bắt chước, phong thành chuẩn mực"
+    },
+    {
+      "phrase": "replaced by a snapshot of its weakest hour",
+      "meaningVi": "bị thay bằng một khoảnh khắc chụp nhanh của giờ phút yếu nhất của nó"
+    },
+    {
+      "phrase": "the snapshot now wears the authority of the original",
+      "meaningVi": "khoảnh khắc chụp nhanh ấy nay khoác lên uy quyền của bản gốc"
+    },
+    {
+      "phrase": "It is the recording, not the singer, that the next generation learns from",
+      "meaningVi": "Chính bản thu, chứ không phải người ca sĩ, là thứ thế hệ sau học theo"
+    },
+    {
+      "phrase": "This is the substitution the comforting phrase conceals",
+      "meaningVi": "Đây là sự thay thế mà câu nói an ủi che giấu"
+    },
+    {
+      "phrase": "over time it tends to supplant it",
+      "meaningVi": "theo thời gian nó có xu hướng hất cẳng bản gốc"
+    },
+    {
+      "phrase": "the embalmed dialect on the linguist's drive becomes the language",
+      "meaningVi": "phương ngữ bị ướp xác trên ổ cứng của nhà ngôn ngữ học trở thành chính ngôn ngữ ấy"
+    },
+    {
+      "phrase": "What survives is not the thing but an artefact of the thing",
+      "meaningVi": "Cái sống sót không phải bản thân vật ấy mà là một tạo tác phẩm của nó"
+    },
+    {
+      "phrase": "the artefact has a fatal advantage: it is always there, identical on every playback",
+      "meaningVi": "tạo tác phẩm ấy có một lợi thế chí mạng: nó luôn ở đó, giống hệt nhau qua mỗi lần phát lại"
+    },
+    {
+      "phrase": "We come to trust the copy precisely because it does not change",
+      "meaningVi": "Ta dần tin vào bản sao chính vì nó không thay đổi"
+    },
+    {
+      "phrase": "mistaking, as we so often do, the map for the territory",
+      "meaningVi": "nhầm lẫn, như ta vẫn thường làm, tấm bản đồ với chính vùng đất"
+    },
+    {
+      "phrase": "The strongest defence of recording deserves to be stated at full strength",
+      "meaningVi": "Lời bênh vực mạnh nhất cho việc ghi âm xứng đáng được trình bày ở mức đầy đủ nhất"
+    },
+    {
+      "phrase": "a flawed record of a song is incomparably better than no record at all",
+      "meaningVi": "một bản ghi khiếm khuyết của bài hát thì tốt hơn không gì sánh nổi so với không có bản ghi nào"
+    },
+    {
+      "phrase": "To be sure, all of this is true",
+      "meaningVi": "Phải thừa nhận, tất cả những điều này đều đúng"
+    },
+    {
+      "phrase": "Even so, the defence answers a question the critique did not ask",
+      "meaningVi": "Dù vậy, lời bênh vực trả lời một câu hỏi mà bài phê phán không hề đặt ra"
+    },
+    {
+      "phrase": "we systematically mistake the recording for the thing",
+      "meaningVi": "ta nhầm bản thu với chính vật ấy một cách có hệ thống"
+    },
+    {
+      "phrase": "The danger lies not in having the tape but in forgetting that it is a tape",
+      "meaningVi": "Hiểm hoạ không nằm ở việc có cuốn băng mà ở việc quên rằng nó chỉ là một cuốn băng"
+    },
+    {
+      "phrase": "the original's right to have been more than its most durable fragment",
+      "meaningVi": "quyền của bản gốc được là thứ lớn hơn cái mảnh vụn bền nhất của nó"
+    },
+    {
+      "phrase": "to hold it as evidence rather than as the verdict",
+      "meaningVi": "giữ nó như bằng chứng chứ không như phán quyết"
+    },
+    {
+      "phrase": "It is a door that has been propped open onto a single room, with the rest of the house gone dark behind it",
+      "meaningVi": "Nó là một cánh cửa được chống mở vào một căn phòng duy nhất, với phần còn lại của ngôi nhà tối sầm phía sau"
+    },
+    {
+      "phrase": "We are wrong to mistake the one lit room for the whole of who lived there",
+      "meaningVi": "Ta sai khi nhầm căn phòng sáng duy nhất với toàn bộ con người đã sống ở đó"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -100,11 +308,11 @@
       "prompt": "Which sentence is a correctly formed cleft sentence for emphasis?",
       "options": [
         "The next generation learns from the recording, not the singer.",
-        "It is the recording, not the singer, that the next generation learns from.",
         "It is the recording, not the singer, what the next generation learns from.",
+        "It is the recording, not the singer, that the next generation learns from.",
         "There is the recording, not the singer, that the next generation learns from."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The 'It is X, not Y, that…' cleft correctly uses 'that'; option C wrongly uses 'what' and D wrongly uses 'There is'.",
       "hint": "A cleft for emphasis starts with 'It is…' and links with 'that', not 'what'."
     },
@@ -113,11 +321,11 @@
       "prompt": "What is the essay's central critique?",
       "options": [
         "Recordings are always of poor technical quality.",
-        "A surviving recording can replace and falsify the original, so we mistake the copy for the thing.",
         "Recording the dead is morally forbidden.",
-        "Only professional archivists should be allowed to record."
+        "Only professional archivists should be allowed to record.",
+        "A surviving recording can replace and falsify the original, so we mistake the copy for the thing."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The thesis is the substitution paradox: the durable copy supplants the living, changing original.",
       "hint": "The title and first paragraph both point at substitution, not technical quality."
     },
@@ -125,12 +333,12 @@
       "id": "q3",
       "prompt": "Why does the singer example matter to the argument?",
       "options": [
-        "It proves folk music is better than studio music.",
         "It shows how one tired afternoon became canonized as 'the song', displacing forty years of variation.",
+        "It proves folk music is better than studio music.",
         "It argues that singers should record themselves more often.",
         "It demonstrates that old tapes degrade over time."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The case dramatizes substitution: the snapshot of her weakest hour acquired the authority of the original.",
       "hint": "Notice what the recording captured versus what she actually carried for a lifetime."
     },
@@ -152,11 +360,11 @@
       "prompt": "How does the essay handle the strongest defence of recording?",
       "options": [
         "It mocks the defence and refuses to engage.",
-        "It states the defence at full strength and grants it, then shows it answers a question the critique never asked.",
         "It pretends the defence does not exist.",
+        "It states the defence at full strength and grants it, then shows it answers a question the critique never asked.",
         "It accepts the defence fully and withdraws its critique."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay concedes that a flawed record beats oblivion, then narrows: the critique targets mistaking the copy for the thing.",
       "hint": "Notice 'To be sure…' followed by the pivot 'Even so…'."
     },
@@ -165,11 +373,11 @@
       "prompt": "Which sentence contains a concessive linker used to grant a point?",
       "options": [
         "The recording caught none of that variety.",
-        "Admittedly the recording rescues something; the critique only insists on naming what it costs.",
         "The photograph becomes the memory.",
-        "We say a recording keeps someone alive."
+        "We say a recording keeps someone alive.",
+        "Admittedly the recording rescues something; the critique only insists on naming what it costs."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'Admittedly' concedes the opposing point before the critique limits it — a concessive linker.",
       "hint": "Look for the word that admits the other side has a point."
     },
@@ -177,12 +385,12 @@
       "id": "q7",
       "prompt": "Which sentence best continues a paragraph critiquing substitution, keeping the same focus and register?",
       "options": [
-        "Anyway, vinyl records have made quite a comeback recently.",
         "The photograph becomes the memory; the studio take becomes the song; the embalmed dialect becomes the language.",
+        "Anyway, vinyl records have made quite a comeback recently.",
         "Tape machines were expensive in those days, of course.",
         "You should always keep a backup copy of important files."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Option B extends the substitution argument with parallel examples; the others drift to formats, cost, or backup advice.",
       "hint": "Which option keeps arguing that the copy replaces the original?"
     },
@@ -203,12 +411,12 @@
       "id": "q9",
       "prompt": "Which option uses the most natural collocation?",
       "options": [
-        "the snapshot wears the authority of the original",
         "the snapshot dresses the authority of the original",
         "the snapshot makes the authority of the original",
+        "the snapshot wears the authority of the original",
         "the snapshot does the authority of the original"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Wears the authority of' is the natural, idiomatic figurative collocation; the alternatives are awkward or non-native.",
       "hint": "Which verb partners figuratively with 'authority' to mean 'carries the appearance of'?"
     },
@@ -217,11 +425,11 @@
       "prompt": "Which sentence is grammatical but wrong in register for this critical essay?",
       "options": [
         "What survives is not the thing but an artefact of the thing.",
-        "Basically the old tape totally hijacked the song and now everyone's vibing to the wrong take, smh.",
         "Recordings have saved languages from total silence.",
-        "The danger lies not in having the tape but in forgetting that it is a tape."
+        "The danger lies not in having the tape but in forgetting that it is a tape.",
+        "Basically the old tape totally hijacked the song and now everyone's vibing to the wrong take, smh."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'Hijacked', 'vibing', and 'smh' are casual slang that clash with the essay's critical register.",
       "hint": "Find the slang and texting abbreviation that breaks the formal tone."
     },
@@ -229,12 +437,12 @@
       "id": "q11",
       "prompt": "What is the rhetorical effect of the closing 'door propped open onto a single room' image?",
       "options": [
-        "It abandons the argument for a description of architecture.",
         "It compresses the critique: the recording opens onto one lit fragment while the rest of the person stays dark.",
+        "It abandons the argument for a description of architecture.",
         "It proves recordings are worthless.",
         "It contradicts everything argued before it."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The image captures both gratitude (the door exists) and the error (mistaking one room for the whole house).",
       "hint": "Connect the lit room and the dark house back to copy versus original."
     },
@@ -243,11 +451,11 @@
       "prompt": "Which sentence contains a grammar error?",
       "options": [
         "The recording caught one afternoon, not the whole life.",
-        "Over time the copy tends to supplant the original.",
         "The artefact have a fatal advantage: it is always there.",
+        "Over time the copy tends to supplant the original.",
         "We come to trust the copy because it does not change."
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "explanation": "'The artefact have' is a subject-verb agreement error; 'artefact' is singular, so it should be 'has'.",
       "hint": "Check agreement between the singular subject and its verb."
     },
@@ -256,11 +464,11 @@
       "prompt": "Which option is closest to the essay's idea of holding a recording 'as evidence rather than as the verdict'?",
       "options": [
         "Trusting the recording as the final, complete truth.",
-        "Treating the recording as one limited piece of a larger picture, not as the whole settled answer.",
         "Using recordings only in courtrooms.",
+        "Treating the recording as one limited piece of a larger picture, not as the whole settled answer.",
         "Refusing to listen to any recording at all."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "Evidence is partial and interpreted; a verdict is final. The essay urges the humbler, partial stance.",
       "hint": "Evidence is one input; a verdict is the closed conclusion."
     },
@@ -269,11 +477,11 @@
       "prompt": "Which sentence uses the best cohesion to grant then pivot, as the essay does?",
       "options": [
         "Recordings rescue languages. They also falsify them.",
-        "To be sure, recordings rescue languages from silence; even so, we err in mistaking the copy for the living thing.",
         "Recordings rescue languages and also falsify them too somehow.",
-        "Because recordings rescue languages, they cannot falsify anything."
+        "Because recordings rescue languages, they cannot falsify anything.",
+        "To be sure, recordings rescue languages from silence; even so, we err in mistaking the copy for the living thing."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "Option B grants the point with 'To be sure', then pivots with 'even so', the concessive structure the essay relies on.",
       "hint": "Look for the grant ('To be sure') paired with a clean pivot ('even so')."
     },
@@ -281,12 +489,12 @@
       "id": "q15",
       "prompt": "What does the essay say the critique is NOT claiming?",
       "options": [
-        "That recordings can distort our understanding.",
         "That recording is worse than oblivion.",
+        "That recordings can distort our understanding.",
         "That the copy can supplant the original.",
         "That we mistake the recording for the thing."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay explicitly disclaims the strawman: 'The objection is not that recording is worse than oblivion.'",
       "hint": "Reread where the essay says what its objection is NOT."
     },

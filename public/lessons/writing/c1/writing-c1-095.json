@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "Whether to put the night-soil men in the museum",
   "summary": "Critique a city museum's plan to honour the men who once carried away its sewage by night — asking whether a display dignifies a despised trade or merely tidies a humiliation into something the powerful can admire at a safe distance.",
-  "tags": ["Critique", "Ethics", "Work"],
+  "tags": [
+    "Critique",
+    "Ethics",
+    "Work"
+  ],
   "topic": "The moral weight of commemorating a forgotten and degrading trade",
   "prompt": "Write a 600–800-word critical essay assessing a museum's plan to commemorate a vanished, low-status trade (e.g. night-soil collection, tanning, gut-cleaning). Ground it in one concrete trade and city. Examine the paradox that recognition can also aestheticise and defuse a real injustice, and resist a clean verdict. Use hedging, nominalization, and at least one complex concession.",
   "minWords": 600,
@@ -14,72 +18,277 @@
     "If commemoration can repair a slight, it can also perform one, and the line between the two runs through…"
   ],
   "hintVocab": [
-    {"phrase": "to commemorate", "meaningVi": "tưởng niệm, vinh danh", "pronunciation": "/kəˈmeməreɪt/"},
-    {"phrase": "menial labour", "meaningVi": "công việc tay chân hèn mọn, bị coi thường"},
-    {"phrase": "the dignity of work", "meaningVi": "phẩm giá của lao động"},
-    {"phrase": "to aestheticise", "meaningVi": "biến thành cái đẹp để ngắm, thẩm mỹ hoá", "pronunciation": "/iːsˈθetɪsaɪz/"},
-    {"phrase": "to sanitise", "meaningVi": "làm cho sạch sẽ êm tai, tẩy trắng", "pronunciation": "/ˈsænɪtaɪz/"},
-    {"phrase": "social stigma", "meaningVi": "định kiến, sự kỳ thị của xã hội"},
-    {"phrase": "caste", "meaningVi": "đẳng cấp (trong hệ thống phân tầng cứng nhắc)", "pronunciation": "/kɑːst/"},
-    {"phrase": "to defuse", "meaningVi": "làm dịu đi, tháo ngòi nổ", "pronunciation": "/diːˈfjuːz/"},
-    {"phrase": "to vindicate", "meaningVi": "minh oan, chứng tỏ là đúng/xứng đáng", "pronunciation": "/ˈvɪndɪkeɪt/"},
-    {"phrase": "to romanticise", "meaningVi": "tô hồng, lãng mạn hoá"},
-    {"phrase": "hardship", "meaningVi": "sự gian khổ, vất vả"},
-    {"phrase": "redress", "meaningVi": "sự sửa chữa, đền bù cho bất công", "pronunciation": "/rɪˈdres/"},
-    {"phrase": "occupational", "meaningVi": "thuộc về nghề nghiệp", "pronunciation": "/ˌɒkjʊˈpeɪʃənl/"},
-    {"phrase": "to be relegated to", "meaningVi": "bị đẩy xuống, bị xếp vào (vị trí thấp)", "pronunciation": "/ˈrelɪɡeɪtɪd/"},
-    {"phrase": "intangible heritage", "meaningVi": "di sản phi vật thể"},
-    {"phrase": "moral discomfort", "meaningVi": "sự khó chịu về mặt đạo đức"},
-    {"phrase": "to pay tribute to", "meaningVi": "tỏ lòng tri ân, vinh danh"},
-    {"phrase": "self-congratulation", "meaningVi": "sự tự tán dương, vỗ ngực khen mình"},
-    {"phrase": "the underclass", "meaningVi": "tầng lớp dưới đáy xã hội"},
-    {"phrase": "to inure someone to", "meaningVi": "làm cho ai chai sạn, quen chịu đựng", "pronunciation": "/ɪˈnjʊə/"},
-    {"phrase": "hereditary", "meaningVi": "mang tính cha truyền con nối", "pronunciation": "/hɪˈredɪtəri/"},
-    {"phrase": "to render invisible", "meaningVi": "làm cho trở nên vô hình, không ai thấy"},
-    {"phrase": "a debt of recognition", "meaningVi": "một món nợ về sự ghi nhận"},
-    {"phrase": "to euphemise", "meaningVi": "nói giảm nói tránh", "pronunciation": "/ˈjuːfəmaɪz/"},
-    {"phrase": "lived degradation", "meaningVi": "sự hạ nhục thực sự mà người ta đã trải qua"},
-    {"phrase": "to atone for", "meaningVi": "chuộc lỗi, đền tội cho", "pronunciation": "/əˈtəʊn/"},
-    {"phrase": "a clear conscience", "meaningVi": "một lương tâm thanh thản"},
-    {"phrase": "to gloss over", "meaningVi": "lướt qua, che đậy điều khó nói"},
-    {"phrase": "complicity", "meaningVi": "sự đồng loã, dính líu", "pronunciation": "/kəmˈplɪsəti/"},
-    {"phrase": "posthumous", "meaningVi": "sau khi đã mất, di cảo", "pronunciation": "/ˈpɒstjʊməs/"},
-    {"phrase": "to keep at arm's length", "meaningVi": "giữ ở khoảng cách an toàn, không động vào"},
-    {"phrase": "ennoble", "meaningVi": "làm cho cao quý lên", "pronunciation": "/ɪˈnəʊbl/"}
+    {
+      "phrase": "to commemorate",
+      "meaningVi": "tưởng niệm, vinh danh",
+      "pronunciation": "/kəˈmeməreɪt/"
+    },
+    {
+      "phrase": "menial labour",
+      "meaningVi": "công việc tay chân hèn mọn, bị coi thường"
+    },
+    {
+      "phrase": "the dignity of work",
+      "meaningVi": "phẩm giá của lao động"
+    },
+    {
+      "phrase": "to aestheticise",
+      "meaningVi": "biến thành cái đẹp để ngắm, thẩm mỹ hoá",
+      "pronunciation": "/iːsˈθetɪsaɪz/"
+    },
+    {
+      "phrase": "to sanitise",
+      "meaningVi": "làm cho sạch sẽ êm tai, tẩy trắng",
+      "pronunciation": "/ˈsænɪtaɪz/"
+    },
+    {
+      "phrase": "social stigma",
+      "meaningVi": "định kiến, sự kỳ thị của xã hội"
+    },
+    {
+      "phrase": "caste",
+      "meaningVi": "đẳng cấp (trong hệ thống phân tầng cứng nhắc)",
+      "pronunciation": "/kɑːst/"
+    },
+    {
+      "phrase": "to defuse",
+      "meaningVi": "làm dịu đi, tháo ngòi nổ",
+      "pronunciation": "/diːˈfjuːz/"
+    },
+    {
+      "phrase": "to vindicate",
+      "meaningVi": "minh oan, chứng tỏ là đúng/xứng đáng",
+      "pronunciation": "/ˈvɪndɪkeɪt/"
+    },
+    {
+      "phrase": "to romanticise",
+      "meaningVi": "tô hồng, lãng mạn hoá"
+    },
+    {
+      "phrase": "hardship",
+      "meaningVi": "sự gian khổ, vất vả"
+    },
+    {
+      "phrase": "redress",
+      "meaningVi": "sự sửa chữa, đền bù cho bất công",
+      "pronunciation": "/rɪˈdres/"
+    },
+    {
+      "phrase": "occupational",
+      "meaningVi": "thuộc về nghề nghiệp",
+      "pronunciation": "/ˌɒkjʊˈpeɪʃənl/"
+    },
+    {
+      "phrase": "to be relegated to",
+      "meaningVi": "bị đẩy xuống, bị xếp vào (vị trí thấp)",
+      "pronunciation": "/ˈrelɪɡeɪtɪd/"
+    },
+    {
+      "phrase": "intangible heritage",
+      "meaningVi": "di sản phi vật thể"
+    },
+    {
+      "phrase": "moral discomfort",
+      "meaningVi": "sự khó chịu về mặt đạo đức"
+    },
+    {
+      "phrase": "to pay tribute to",
+      "meaningVi": "tỏ lòng tri ân, vinh danh"
+    },
+    {
+      "phrase": "self-congratulation",
+      "meaningVi": "sự tự tán dương, vỗ ngực khen mình"
+    },
+    {
+      "phrase": "the underclass",
+      "meaningVi": "tầng lớp dưới đáy xã hội"
+    },
+    {
+      "phrase": "to inure someone to",
+      "meaningVi": "làm cho ai chai sạn, quen chịu đựng",
+      "pronunciation": "/ɪˈnjʊə/"
+    },
+    {
+      "phrase": "hereditary",
+      "meaningVi": "mang tính cha truyền con nối",
+      "pronunciation": "/hɪˈredɪtəri/"
+    },
+    {
+      "phrase": "to render invisible",
+      "meaningVi": "làm cho trở nên vô hình, không ai thấy"
+    },
+    {
+      "phrase": "a debt of recognition",
+      "meaningVi": "một món nợ về sự ghi nhận"
+    },
+    {
+      "phrase": "to euphemise",
+      "meaningVi": "nói giảm nói tránh",
+      "pronunciation": "/ˈjuːfəmaɪz/"
+    },
+    {
+      "phrase": "lived degradation",
+      "meaningVi": "sự hạ nhục thực sự mà người ta đã trải qua"
+    },
+    {
+      "phrase": "to atone for",
+      "meaningVi": "chuộc lỗi, đền tội cho",
+      "pronunciation": "/əˈtəʊn/"
+    },
+    {
+      "phrase": "a clear conscience",
+      "meaningVi": "một lương tâm thanh thản"
+    },
+    {
+      "phrase": "to gloss over",
+      "meaningVi": "lướt qua, che đậy điều khó nói"
+    },
+    {
+      "phrase": "complicity",
+      "meaningVi": "sự đồng loã, dính líu",
+      "pronunciation": "/kəmˈplɪsəti/"
+    },
+    {
+      "phrase": "posthumous",
+      "meaningVi": "sau khi đã mất, di cảo",
+      "pronunciation": "/ˈpɒstjʊməs/"
+    },
+    {
+      "phrase": "to keep at arm's length",
+      "meaningVi": "giữ ở khoảng cách an toàn, không động vào"
+    },
+    {
+      "phrase": "ennoble",
+      "meaningVi": "làm cho cao quý lên",
+      "pronunciation": "/ɪˈnəʊbl/"
+    }
   ],
   "sampleText": "On the wall of the city's new heritage gallery, beside a lacquered wooden bucket and a yoke worn smooth by shoulders long dead, the panel called the work 'essential to the health of old Seoul'. What it did not say, in so many words, was that the men who emptied the city's privies before dawn were paid in scraps, lived apart, and married only among themselves, because no one else would have them. I stood there for a while, genuinely moved, and then less sure of what I was being moved by. It is tempting to read the gallery as overdue recognition. The gesture is harder to trust once you ask who, exactly, is now being thanked, and by whom, and for what. The night-soil carriers are not in the room. Their descendants, where they can be found, were not consulted on the wording. The people doing the thanking are, by and large, the heirs of the people who once crossed the street to avoid the smell. There is something uneasy in watching a class apologise to a class it has outlived, in a building it paid for, on terms it set. None of this makes the commemoration worthless. A trade that held a city together and was repaid with contempt has, if anything is owed to anyone, some claim on the record. The difficulty is that recognition is rarely a single, clean act. It can repair a slight; it can also perform one. To aestheticise the bucket — to light it well, to call the yoke 'beautifully made' — risks turning a humiliation into a craft object, something the comfortable can admire at a safe distance precisely because the discomfort has been drained out of it. The smell is gone. So, almost, is the shame, and with the shame goes the part that ought to implicate the visitor. What survives is a feeling of having paid one's respects, which is not at all the same as having understood what the respect is for. I do not want to argue that the museum should therefore have left the men out, dressing the past in the same silence that disgraced them while they lived. A history that records only the trades it finds tasteful is not more honest; it is merely better-mannered. The men did the work; the work was real; the contempt was real. To leave all of it unspoken in the name of delicacy would simply continue the original injury by quieter means. Yet the case suggests something the heritage industry is reluctant to say aloud: that the act of honouring the lowly is also, almost always, flattering to the one doing the honouring. The visitor leaves ennobled by association, a little more reconciled to a city whose order was built, in part, on someone else's permanent indignity. The discomfort that might have done some moral work has been converted into the warm, harmless glow of having cared. What would a more truthful panel have said? Not, I think, a confession bolted to the wall, which is its own kind of performance. Something plainer. It could have named the wages. It could have said that the men were shunned, and by whom, and that the shunning long outlasted the trade. It could have admitted that the comfort of the modern visitor rests on a sanitation those men carried, in buckets, on their backs, while being treated as if they were the filth they removed. None of this would resolve the unease; nothing resolves it. The dead cannot be paid, and an apology arriving a century late, addressed to no one in particular, is at best a gesture toward a debt that can no longer be settled. But there is a difference between commemoration that helps the living feel they have squared an account and commemoration that admits the account remains open. The first ennobles the trade and quietly excuses the city. The second keeps the discomfort where it belongs. The least a museum can do, having decided to remember the men at last, is to remember them in a way that does not let the rest of us off so lightly.",
   "sampleAnnotations": [
-    {"phrase": "a yoke worn smooth by shoulders long dead", "meaningVi": "một cái đòn gánh mòn nhẵn bởi những bờ vai đã chết từ lâu"},
-    {"phrase": "paid in scraps, lived apart, and married only among themselves", "meaningVi": "được trả bằng đồ thừa, sống tách biệt, và chỉ lấy nhau trong cùng tầng lớp"},
-    {"phrase": "less sure of what I was being moved by", "meaningVi": "bớt chắc chắn về điều gì đang khiến mình xúc động"},
-    {"phrase": "who, exactly, is now being thanked, and by whom", "meaningVi": "rốt cuộc ai đang được cảm ơn, và bởi ai"},
-    {"phrase": "the heirs of the people who once crossed the street to avoid the smell", "meaningVi": "con cháu của những người từng băng qua đường để tránh cái mùi"},
-    {"phrase": "watching a class apologise to a class it has outlived", "meaningVi": "chứng kiến một giai tầng xin lỗi một giai tầng mà nó đã sống lâu hơn"},
-    {"phrase": "recognition is rarely a single, clean act", "meaningVi": "sự ghi nhận hiếm khi là một hành động đơn nhất, sạch sẽ"},
-    {"phrase": "It can repair a slight; it can also perform one", "meaningVi": "Nó có thể sửa chữa một sự coi thường; nó cũng có thể tự gây ra một sự coi thường"},
-    {"phrase": "turning a humiliation into a craft object", "meaningVi": "biến một sự hạ nhục thành một món đồ thủ công"},
-    {"phrase": "something the comfortable can admire at a safe distance", "meaningVi": "thứ mà những kẻ sung túc có thể ngắm nghía từ khoảng cách an toàn"},
-    {"phrase": "the discomfort has been drained out of it", "meaningVi": "sự khó chịu đã bị rút cạn khỏi nó"},
-    {"phrase": "a feeling of having paid one's respects", "meaningVi": "cảm giác đã tỏ lòng kính trọng"},
-    {"phrase": "A history that records only the trades it finds tasteful is not more honest; it is merely better-mannered", "meaningVi": "Một lịch sử chỉ ghi lại những nghề mà nó thấy thanh nhã không hề trung thực hơn; nó chỉ lịch sự hơn mà thôi"},
-    {"phrase": "continue the original injury by quieter means", "meaningVi": "tiếp nối sự tổn thương ban đầu bằng những cách lặng lẽ hơn"},
-    {"phrase": "honouring the lowly is also, almost always, flattering to the one doing the honouring", "meaningVi": "việc vinh danh kẻ thấp hèn cũng gần như luôn là sự tâng bốc chính người đi vinh danh"},
-    {"phrase": "ennobled by association", "meaningVi": "được nâng tầm cao quý nhờ liên đới"},
-    {"phrase": "the warm, harmless glow of having cared", "meaningVi": "thứ ánh sáng ấm áp, vô hại của cảm giác đã từng quan tâm"},
-    {"phrase": "a confession bolted to the wall", "meaningVi": "một lời thú tội đóng đinh lên tường"},
-    {"phrase": "the shunning long outlasted the trade", "meaningVi": "sự xa lánh tồn tại lâu hơn cả cái nghề đó"},
-    {"phrase": "treated as if they were the filth they removed", "meaningVi": "bị đối xử như thể chính họ là thứ dơ bẩn mà họ dọn đi"},
-    {"phrase": "None of this would resolve the unease; nothing resolves it", "meaningVi": "Không điều nào trong số đó xoá được nỗi bất an; chẳng có gì xoá được nó cả"},
-    {"phrase": "an apology arriving a century late, addressed to no one in particular", "meaningVi": "một lời xin lỗi đến muộn cả thế kỷ, gửi cho không một ai cụ thể"},
-    {"phrase": "a debt that can no longer be settled", "meaningVi": "một món nợ không còn có thể trả được nữa"},
-    {"phrase": "feel they have squared an account", "meaningVi": "cảm thấy mình đã trang trải xong một món nợ"},
-    {"phrase": "commemoration that admits the account remains open", "meaningVi": "sự tưởng niệm thừa nhận rằng món nợ vẫn còn bỏ ngỏ"},
-    {"phrase": "quietly excuses the city", "meaningVi": "lặng lẽ bào chữa cho thành phố"},
-    {"phrase": "keeps the discomfort where it belongs", "meaningVi": "giữ sự khó chịu ở đúng chỗ của nó"},
-    {"phrase": "does not let the rest of us off so lightly", "meaningVi": "không tha bổng cho phần còn lại của chúng ta một cách dễ dàng như vậy"},
-    {"phrase": "essential to the health of old Seoul", "meaningVi": "thiết yếu với sức khoẻ của Seoul xưa"},
-    {"phrase": "The dead cannot be paid", "meaningVi": "Người chết thì không thể được trả công"},
-    {"phrase": "the part that ought to implicate the visitor", "meaningVi": "phần lẽ ra phải khiến người xem thấy mình có liên đới"}
+    {
+      "phrase": "a yoke worn smooth by shoulders long dead",
+      "meaningVi": "một cái đòn gánh mòn nhẵn bởi những bờ vai đã chết từ lâu"
+    },
+    {
+      "phrase": "paid in scraps, lived apart, and married only among themselves",
+      "meaningVi": "được trả bằng đồ thừa, sống tách biệt, và chỉ lấy nhau trong cùng tầng lớp"
+    },
+    {
+      "phrase": "less sure of what I was being moved by",
+      "meaningVi": "bớt chắc chắn về điều gì đang khiến mình xúc động"
+    },
+    {
+      "phrase": "who, exactly, is now being thanked, and by whom",
+      "meaningVi": "rốt cuộc ai đang được cảm ơn, và bởi ai"
+    },
+    {
+      "phrase": "the heirs of the people who once crossed the street to avoid the smell",
+      "meaningVi": "con cháu của những người từng băng qua đường để tránh cái mùi"
+    },
+    {
+      "phrase": "watching a class apologise to a class it has outlived",
+      "meaningVi": "chứng kiến một giai tầng xin lỗi một giai tầng mà nó đã sống lâu hơn"
+    },
+    {
+      "phrase": "recognition is rarely a single, clean act",
+      "meaningVi": "sự ghi nhận hiếm khi là một hành động đơn nhất, sạch sẽ"
+    },
+    {
+      "phrase": "It can repair a slight; it can also perform one",
+      "meaningVi": "Nó có thể sửa chữa một sự coi thường; nó cũng có thể tự gây ra một sự coi thường"
+    },
+    {
+      "phrase": "turning a humiliation into a craft object",
+      "meaningVi": "biến một sự hạ nhục thành một món đồ thủ công"
+    },
+    {
+      "phrase": "something the comfortable can admire at a safe distance",
+      "meaningVi": "thứ mà những kẻ sung túc có thể ngắm nghía từ khoảng cách an toàn"
+    },
+    {
+      "phrase": "the discomfort has been drained out of it",
+      "meaningVi": "sự khó chịu đã bị rút cạn khỏi nó"
+    },
+    {
+      "phrase": "a feeling of having paid one's respects",
+      "meaningVi": "cảm giác đã tỏ lòng kính trọng"
+    },
+    {
+      "phrase": "A history that records only the trades it finds tasteful is not more honest; it is merely better-mannered",
+      "meaningVi": "Một lịch sử chỉ ghi lại những nghề mà nó thấy thanh nhã không hề trung thực hơn; nó chỉ lịch sự hơn mà thôi"
+    },
+    {
+      "phrase": "continue the original injury by quieter means",
+      "meaningVi": "tiếp nối sự tổn thương ban đầu bằng những cách lặng lẽ hơn"
+    },
+    {
+      "phrase": "honouring the lowly is also, almost always, flattering to the one doing the honouring",
+      "meaningVi": "việc vinh danh kẻ thấp hèn cũng gần như luôn là sự tâng bốc chính người đi vinh danh"
+    },
+    {
+      "phrase": "ennobled by association",
+      "meaningVi": "được nâng tầm cao quý nhờ liên đới"
+    },
+    {
+      "phrase": "the warm, harmless glow of having cared",
+      "meaningVi": "thứ ánh sáng ấm áp, vô hại của cảm giác đã từng quan tâm"
+    },
+    {
+      "phrase": "a confession bolted to the wall",
+      "meaningVi": "một lời thú tội đóng đinh lên tường"
+    },
+    {
+      "phrase": "the shunning long outlasted the trade",
+      "meaningVi": "sự xa lánh tồn tại lâu hơn cả cái nghề đó"
+    },
+    {
+      "phrase": "treated as if they were the filth they removed",
+      "meaningVi": "bị đối xử như thể chính họ là thứ dơ bẩn mà họ dọn đi"
+    },
+    {
+      "phrase": "None of this would resolve the unease; nothing resolves it",
+      "meaningVi": "Không điều nào trong số đó xoá được nỗi bất an; chẳng có gì xoá được nó cả"
+    },
+    {
+      "phrase": "an apology arriving a century late, addressed to no one in particular",
+      "meaningVi": "một lời xin lỗi đến muộn cả thế kỷ, gửi cho không một ai cụ thể"
+    },
+    {
+      "phrase": "a debt that can no longer be settled",
+      "meaningVi": "một món nợ không còn có thể trả được nữa"
+    },
+    {
+      "phrase": "feel they have squared an account",
+      "meaningVi": "cảm thấy mình đã trang trải xong một món nợ"
+    },
+    {
+      "phrase": "commemoration that admits the account remains open",
+      "meaningVi": "sự tưởng niệm thừa nhận rằng món nợ vẫn còn bỏ ngỏ"
+    },
+    {
+      "phrase": "quietly excuses the city",
+      "meaningVi": "lặng lẽ bào chữa cho thành phố"
+    },
+    {
+      "phrase": "keeps the discomfort where it belongs",
+      "meaningVi": "giữ sự khó chịu ở đúng chỗ của nó"
+    },
+    {
+      "phrase": "does not let the rest of us off so lightly",
+      "meaningVi": "không tha bổng cho phần còn lại của chúng ta một cách dễ dàng như vậy"
+    },
+    {
+      "phrase": "essential to the health of old Seoul",
+      "meaningVi": "thiết yếu với sức khoẻ của Seoul xưa"
+    },
+    {
+      "phrase": "The dead cannot be paid",
+      "meaningVi": "Người chết thì không thể được trả công"
+    },
+    {
+      "phrase": "the part that ought to implicate the visitor",
+      "meaningVi": "phần lẽ ra phải khiến người xem thấy mình có liên đới"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -100,11 +309,11 @@
       "prompt": "Which sentence best captures the essay's central paradox about commemoration?",
       "options": [
         "Commemoration is always good because it remembers forgotten people.",
-        "Recognition is rarely a single, clean act: it can repair a slight, but it can also perform one.",
         "Museums should never display low-status trades.",
+        "Recognition is rarely a single, clean act: it can repair a slight, but it can also perform one.",
         "There are pros and cons to building heritage galleries."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "Option B states the paradox the essay turns on; A and C are one-sided, and D is empty 'fake balance' filler.",
       "hint": "Look for the line that says recognition can both fix AND inflict a slight."
     },
@@ -113,11 +322,11 @@
       "prompt": "What does the essay mean by saying the discomfort 'has been drained out of it'?",
       "options": [
         "The bucket was literally cleaned for display.",
-        "By presenting the trade as a tasteful craft object, the exhibit removes the moral unease that ought to implicate the visitor.",
         "Visitors found the exhibit boring.",
-        "The museum hid the bucket from view."
+        "The museum hid the bucket from view.",
+        "By presenting the trade as a tasteful craft object, the exhibit removes the moral unease that ought to implicate the visitor."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The metaphor describes aestheticising the work so the visitor can admire it without feeling implicated.",
       "hint": "Connect it to 'aestheticise' and 'admire at a safe distance'."
     },
@@ -125,12 +334,12 @@
       "id": "q3",
       "prompt": "Why does the essay reject leaving the men out of the museum?",
       "options": [
-        "Because the museum needs more exhibits to attract visitors.",
         "Because a history that records only tasteful trades is not more honest, merely better-mannered, and silence would continue the original injury.",
+        "Because the museum needs more exhibits to attract visitors.",
         "Because the descendants demanded a gallery.",
         "Because the buckets are valuable antiques."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay's concession: omission would just continue the disgrace 'by quieter means'.",
       "hint": "Find where 'better-mannered' is contrasted with 'more honest'."
     },
@@ -165,11 +374,11 @@
       "prompt": "What does 'ennobled by association' describe?",
       "options": [
         "The night-soil men being given noble titles.",
-        "The modern visitor feeling morally elevated simply by sympathising with the trade.",
         "The museum being awarded a prize.",
-        "The bucket being made of precious material."
+        "The bucket being made of precious material.",
+        "The modern visitor feeling morally elevated simply by sympathising with the trade."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The phrase names the self-flattery the essay critiques: the visitor leaves feeling good for having 'cared'.",
       "hint": "Who gains the noble feeling — the dead, or the visitor?"
     },
@@ -177,12 +386,12 @@
       "id": "q7",
       "prompt": "Which option uses the best cohesion to follow 'The smell is gone.'?",
       "options": [
-        "Also, the gallery has a coffee shop near the entrance.",
         "So, almost, is the shame, and with the shame goes the part that ought to implicate the visitor.",
+        "Also, the gallery has a coffee shop near the entrance.",
         "Smell is detected by receptors in the nose.",
         "In today's museums, smells are carefully controlled."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Option B uses ellipsis and parallel structure ('So, almost, is the shame') to extend the thought; the others are off-topic, definitional, or filler.",
       "hint": "Which option continues the same idea and links 'smell' to 'shame'?"
     },
@@ -204,11 +413,11 @@
       "prompt": "Which sentence is grammatical, on-topic, and matches the essay's reflective register?",
       "options": [
         "The museum totally nailed it by finally giving the toilet guys some love.",
-        "I stood there for a while, genuinely moved, and then less sure of what I was being moved by.",
         "It is an undeniable fact that all museums whitewash history without exception.",
+        "I stood there for a while, genuinely moved, and then less sure of what I was being moved by.",
         "Pursuant to heritage guidelines, the artefact's significance was duly documented."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "Option B is reflective and precise; A is slang, C is a sweeping absolute, D is bureaucratic for a personal essay.",
       "hint": "Match thoughtful first-person prose — not slang, legalese, or absolutism."
     },
@@ -217,11 +426,11 @@
       "prompt": "What is the rhetorical effect of 'treated as if they were the filth they removed'?",
       "options": [
         "It literally claims the men were made of waste.",
-        "It collapses worker and waste into one image to expose how the stigma erased the distinction between the person and the dirty task.",
         "It praises the men's resistance to disease.",
-        "It explains the chemistry of night soil."
+        "It explains the chemistry of night soil.",
+        "It collapses worker and waste into one image to expose how the stigma erased the distinction between the person and the dirty task."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The image fuses the men with what they carried, dramatising the dehumanising stigma.",
       "hint": "Why fuse the worker with the substance they removed?"
     },
@@ -256,11 +465,11 @@
       "prompt": "Which option preserves the hedged tone the prompt requires?",
       "options": [
         "Every museum erases the poor on purpose.",
-        "Honouring the lowly is also, almost always, flattering to the one doing the honouring.",
         "It is obvious the curators wanted to feel good about themselves.",
+        "Honouring the lowly is also, almost always, flattering to the one doing the honouring.",
         "No exhibit has ever told the truth about labour."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'Also, almost always' hedges the generalisation; the other options are absolute or accusatory.",
       "hint": "Hedging softens a claim — look for qualifying adverbs."
     },
@@ -269,11 +478,11 @@
       "prompt": "What does the essay propose a 'more truthful panel' would do?",
       "options": [
         "Bolt a grand public confession to the wall.",
-        "State plainer facts — the wages, the shunning, who shunned them — without dramatising guilt.",
         "Remove the bucket entirely.",
-        "Let visitors vote on whether the trade was honourable."
+        "Let visitors vote on whether the trade was honourable.",
+        "State plainer facts — the wages, the shunning, who shunned them — without dramatising guilt."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay calls for 'something plainer' — naming wages and stigma — not a performed confession.",
       "hint": "The essay contrasts a 'confession bolted to the wall' with 'something plainer'."
     },
@@ -281,12 +490,12 @@
       "id": "q15",
       "prompt": "What is the function of the final sentence, about not letting 'the rest of us off so lightly'?",
       "options": [
-        "It offers a full solution that settles the historical debt.",
         "It accepts that remembering is right while insisting the remembering keep the visitor implicated rather than absolved.",
+        "It offers a full solution that settles the historical debt.",
         "It blames individual curators for the whole stigma.",
         "It recommends the museum stop displaying the trade."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The close holds the paradox open: remember the men, but in a way that resists comfortable absolution.",
       "hint": "The essay said nothing resolves the unease — so what modest demand does it end on?"
     },

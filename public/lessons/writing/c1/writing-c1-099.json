@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "Whose dialect the dictionary will save",
   "summary": "Critique a project to save a dying Sámi dialect by fixing it in a dictionary and a standard spelling — asking whether choosing one elder's pronunciation as 'correct' rescues the language or quietly buries every other way of speaking it under the authority of print.",
-  "tags": ["Critique", "Language", "Ethics"],
+  "tags": [
+    "Critique",
+    "Language",
+    "Ethics"
+  ],
   "topic": "Who decides which version of a dying language survives in print",
   "prompt": "Write a 600–800-word critical essay on a project to preserve an endangered language or dialect by standardising its spelling and fixing it in a dictionary. Ground it in one concrete language and community. Critique the paradox that to save the language you must freeze one version of it as 'correct', silencing the others. Resist a clean verdict. Use hedging, nominalization, and at least one complex concession.",
   "minWords": 600,
@@ -14,71 +18,273 @@
     "Nobody set out to declare one grandmother right and another wrong, yet the moment a spelling becomes the spelling…"
   ],
   "hintVocab": [
-    {"phrase": "endangered language", "meaningVi": "ngôn ngữ đang có nguy cơ biến mất"},
-    {"phrase": "to standardise", "meaningVi": "chuẩn hoá", "pronunciation": "/ˈstændədaɪz/"},
-    {"phrase": "standardisation", "meaningVi": "sự chuẩn hoá"},
-    {"phrase": "orthography", "meaningVi": "chính tả, hệ thống chữ viết", "pronunciation": "/ɔːˈθɒɡrəfi/"},
-    {"phrase": "dialect", "meaningVi": "phương ngữ, tiếng địa phương", "pronunciation": "/ˈdaɪəlekt/"},
-    {"phrase": "variant", "meaningVi": "biến thể, dạng khác nhau", "pronunciation": "/ˈveəriənt/"},
-    {"phrase": "to codify", "meaningVi": "hệ thống hoá, ghi thành chuẩn", "pronunciation": "/ˈkəʊdɪfaɪ/"},
-    {"phrase": "the vernacular", "meaningVi": "tiếng nói dân gian, lời ăn tiếng nói hằng ngày", "pronunciation": "/vəˈnækjʊlə/"},
-    {"phrase": "revitalisation", "meaningVi": "việc làm sống lại (một ngôn ngữ)"},
-    {"phrase": "linguistic diversity", "meaningVi": "sự đa dạng ngôn ngữ"},
-    {"phrase": "to fossilise", "meaningVi": "biến thành hoá thạch, đông cứng lại", "pronunciation": "/ˈfɒsəlaɪz/"},
-    {"phrase": "the prestige form", "meaningVi": "dạng được coi là sang trọng/chuẩn mực"},
-    {"phrase": "to marginalise", "meaningVi": "đẩy ra bên lề", "pronunciation": "/ˈmɑːdʒɪnəlaɪz/"},
-    {"phrase": "authority", "meaningVi": "thẩm quyền, quyền uy", "pronunciation": "/ɔːˈθɒrəti/"},
-    {"phrase": "to enshrine", "meaningVi": "đặt vào vị trí trang trọng, ghi thành thiêng liêng", "pronunciation": "/ɪnˈʃraɪn/"},
-    {"phrase": "living speech", "meaningVi": "lời nói sống động, ngôn ngữ đang được dùng"},
-    {"phrase": "to flatten variation", "meaningVi": "san bằng sự khác biệt"},
-    {"phrase": "intergenerational transmission", "meaningVi": "sự truyền lại giữa các thế hệ"},
-    {"phrase": "obsolescence", "meaningVi": "sự lỗi thời, mai một", "pronunciation": "/ˌɒbsəˈlesəns/"},
-    {"phrase": "to defer to", "meaningVi": "nhường lại cho, tôn trọng quyền của", "pronunciation": "/dɪˈfɜː/"},
-    {"phrase": "speaker community", "meaningVi": "cộng đồng người nói"},
-    {"phrase": "a corpus", "meaningVi": "kho ngữ liệu, tập hợp văn bản", "pronunciation": "/ˈkɔːpəs/"},
-    {"phrase": "to legislate usage", "meaningVi": "ra quy tắc bắt buộc về cách dùng", "pronunciation": "/ˈledʒɪsleɪt/"},
-    {"phrase": "fluidity", "meaningVi": "tính linh hoạt, uyển chuyển", "pronunciation": "/fluːˈɪdəti/"},
-    {"phrase": "to be relegated to", "meaningVi": "bị đẩy xuống, bị xếp vào (vị trí thấp)", "pronunciation": "/ˈrelɪɡeɪtɪd/"},
-    {"phrase": "linguistic erasure", "meaningVi": "sự xoá bỏ ngôn ngữ"},
-    {"phrase": "to preserve", "meaningVi": "gìn giữ, bảo tồn"},
-    {"phrase": "a death sentence", "meaningVi": "một bản án tử"},
-    {"phrase": "well-intentioned", "meaningVi": "có thiện ý"},
-    {"phrase": "to outlive", "meaningVi": "sống lâu hơn, tồn tại quá thời của"},
-    {"phrase": "the politics of the page", "meaningVi": "tính chính trị của trang giấy in"},
-    {"phrase": "a tacit hierarchy", "meaningVi": "một thứ bậc ngầm"}
+    {
+      "phrase": "endangered language",
+      "meaningVi": "ngôn ngữ đang có nguy cơ biến mất"
+    },
+    {
+      "phrase": "to standardise",
+      "meaningVi": "chuẩn hoá",
+      "pronunciation": "/ˈstændədaɪz/"
+    },
+    {
+      "phrase": "standardisation",
+      "meaningVi": "sự chuẩn hoá"
+    },
+    {
+      "phrase": "orthography",
+      "meaningVi": "chính tả, hệ thống chữ viết",
+      "pronunciation": "/ɔːˈθɒɡrəfi/"
+    },
+    {
+      "phrase": "dialect",
+      "meaningVi": "phương ngữ, tiếng địa phương",
+      "pronunciation": "/ˈdaɪəlekt/"
+    },
+    {
+      "phrase": "variant",
+      "meaningVi": "biến thể, dạng khác nhau",
+      "pronunciation": "/ˈveəriənt/"
+    },
+    {
+      "phrase": "to codify",
+      "meaningVi": "hệ thống hoá, ghi thành chuẩn",
+      "pronunciation": "/ˈkəʊdɪfaɪ/"
+    },
+    {
+      "phrase": "the vernacular",
+      "meaningVi": "tiếng nói dân gian, lời ăn tiếng nói hằng ngày",
+      "pronunciation": "/vəˈnækjʊlə/"
+    },
+    {
+      "phrase": "revitalisation",
+      "meaningVi": "việc làm sống lại (một ngôn ngữ)"
+    },
+    {
+      "phrase": "linguistic diversity",
+      "meaningVi": "sự đa dạng ngôn ngữ"
+    },
+    {
+      "phrase": "to fossilise",
+      "meaningVi": "biến thành hoá thạch, đông cứng lại",
+      "pronunciation": "/ˈfɒsəlaɪz/"
+    },
+    {
+      "phrase": "the prestige form",
+      "meaningVi": "dạng được coi là sang trọng/chuẩn mực"
+    },
+    {
+      "phrase": "to marginalise",
+      "meaningVi": "đẩy ra bên lề",
+      "pronunciation": "/ˈmɑːdʒɪnəlaɪz/"
+    },
+    {
+      "phrase": "authority",
+      "meaningVi": "thẩm quyền, quyền uy",
+      "pronunciation": "/ɔːˈθɒrəti/"
+    },
+    {
+      "phrase": "to enshrine",
+      "meaningVi": "đặt vào vị trí trang trọng, ghi thành thiêng liêng",
+      "pronunciation": "/ɪnˈʃraɪn/"
+    },
+    {
+      "phrase": "living speech",
+      "meaningVi": "lời nói sống động, ngôn ngữ đang được dùng"
+    },
+    {
+      "phrase": "to flatten variation",
+      "meaningVi": "san bằng sự khác biệt"
+    },
+    {
+      "phrase": "intergenerational transmission",
+      "meaningVi": "sự truyền lại giữa các thế hệ"
+    },
+    {
+      "phrase": "obsolescence",
+      "meaningVi": "sự lỗi thời, mai một",
+      "pronunciation": "/ˌɒbsəˈlesəns/"
+    },
+    {
+      "phrase": "to defer to",
+      "meaningVi": "nhường lại cho, tôn trọng quyền của",
+      "pronunciation": "/dɪˈfɜː/"
+    },
+    {
+      "phrase": "speaker community",
+      "meaningVi": "cộng đồng người nói"
+    },
+    {
+      "phrase": "a corpus",
+      "meaningVi": "kho ngữ liệu, tập hợp văn bản",
+      "pronunciation": "/ˈkɔːpəs/"
+    },
+    {
+      "phrase": "to legislate usage",
+      "meaningVi": "ra quy tắc bắt buộc về cách dùng",
+      "pronunciation": "/ˈledʒɪsleɪt/"
+    },
+    {
+      "phrase": "fluidity",
+      "meaningVi": "tính linh hoạt, uyển chuyển",
+      "pronunciation": "/fluːˈɪdəti/"
+    },
+    {
+      "phrase": "to be relegated to",
+      "meaningVi": "bị đẩy xuống, bị xếp vào (vị trí thấp)",
+      "pronunciation": "/ˈrelɪɡeɪtɪd/"
+    },
+    {
+      "phrase": "linguistic erasure",
+      "meaningVi": "sự xoá bỏ ngôn ngữ"
+    },
+    {
+      "phrase": "to preserve",
+      "meaningVi": "gìn giữ, bảo tồn"
+    },
+    {
+      "phrase": "a death sentence",
+      "meaningVi": "một bản án tử"
+    },
+    {
+      "phrase": "well-intentioned",
+      "meaningVi": "có thiện ý"
+    },
+    {
+      "phrase": "to outlive",
+      "meaningVi": "sống lâu hơn, tồn tại quá thời của"
+    },
+    {
+      "phrase": "the politics of the page",
+      "meaningVi": "tính chính trị của trang giấy in"
+    },
+    {
+      "phrase": "a tacit hierarchy",
+      "meaningVi": "một thứ bậc ngầm"
+    }
   ],
   "sampleText": "The dictionary will need one word for the kind of snow that has thawed and refrozen into a crust hard enough to walk on. There are at least four. They belong to different valleys, different families, slightly different mouths, and they are all, by any reasonable test, the word; people have hunted, traded and argued in each of them for generations. The committee compiling the first written dictionary of this northern Sámi dialect knows this perfectly well, and it will still have to choose. A dictionary cannot list four headwords as equally correct and remain usable; a child learning to read needs to know how the word is spelled, which is to say, needs to be told that one of the four is the spelling and the others are, at best, regional colour. Nobody on the committee set out to declare one grandmother right and another wrong. The verdict arrives anyway, quietly, in the act of printing. It is easy to see this project as rescue, and on the most important measure it is. The dialect has perhaps three hundred fluent speakers left, almost all of them old. Without a written form there are no schoolbooks, without schoolbooks no classes, without classes no children, and a language that no child learns is a language with a date on it. Set against extinction, the loss of three pronunciations to one is not a tragedy; it is arithmetic. I have no patience for the romantic position that would rather let the whole tongue die intact and various than save it standardised, as though purity of variation were a finer thing than a living speaker. That stance costs its holder nothing and costs the language everything. Yet it would be a thin kind of honesty to celebrate the rescue without naming what the rescue does. Standardisation is not a neutral container that holds a language without changing it. The page has its own politics. The variant that gets chosen tends not to be the most beautiful or the oldest but the one spoken by whoever is in the room — the family with a member on the committee, the valley near the town with the school, the dialect already closest to the national language and therefore easiest to typeset. The choice presents itself as linguistic and is very often social. And once a form is printed, it acquires an authority that living speech never claimed for itself. The grandmother in the far valley did not think her word was wrong until a book existed in which it did not appear. Print does not merely record a hierarchy; it manufactures one, converting difference into error. None of this argues against making the dictionary. The alternative is not four dialects flourishing side by side; the alternative, on current trends, is silence in every valley at once. The critique I want to make is narrower and, I think, harder to dismiss: that the people compiling such a record owe the variants they cannot keep something better than oblivion. A dictionary that prints one word and forgets the rest performs exactly the erasure it was meant to prevent, only tidily, with footnotes. A dictionary that prints one word for school use while recording the other three — naming the valleys, marking none as the mistake — preserves more of the language and tells the truth about how the choice was made. That is more work and less authority, and authority is precisely what a standard is supposed to confer, so the temptation to leave the variants out runs deep. What I am critiquing, then, is not standardisation but the quiet pretence that accompanies it: the way a committee's contingent decision, shaped by who happened to hold the pen, comes to wear the face of the language's own nature. The first dictionary of a dying dialect is one of the most consequential documents a community can produce, and it will be read for a century by people who never met the speakers and will take the headword as simply how the word is. The least the compilers can do is leave a mark on the page admitting that it was a choice, that other mouths said it otherwise, and that the others were not wrong — only unprinted. A language saved that way is smaller than the one that was spoken, and that loss is real and should be grieved rather than tidied over. But a language saved with its choices visible at least declines to pretend that the version which survived was the only one that ever lived.",
   "sampleAnnotations": [
-    {"phrase": "snow that has thawed and refrozen into a crust hard enough to walk on", "meaningVi": "loại tuyết đã tan rồi đông lại thành lớp vỏ cứng đủ để đi lên trên"},
-    {"phrase": "they are all, by any reasonable test, the word", "meaningVi": "tất cả chúng, theo bất kỳ phép thử hợp lý nào, đều là từ đúng"},
-    {"phrase": "it will still have to choose", "meaningVi": "nó vẫn sẽ phải lựa chọn"},
-    {"phrase": "the others are, at best, regional colour", "meaningVi": "những từ còn lại, may lắm, chỉ là màu sắc địa phương"},
-    {"phrase": "Nobody on the committee set out to declare one grandmother right and another wrong", "meaningVi": "Không ai trong hội đồng định tuyên bố một người bà là đúng và một người bà khác là sai"},
-    {"phrase": "The verdict arrives anyway, quietly, in the act of printing", "meaningVi": "Bản án vẫn cứ đến, một cách lặng lẽ, ngay trong hành động in ấn"},
-    {"phrase": "a language that no child learns is a language with a date on it", "meaningVi": "một ngôn ngữ không đứa trẻ nào học là một ngôn ngữ đã có sẵn ngày khai tử"},
-    {"phrase": "the loss of three pronunciations to one is not a tragedy; it is arithmetic", "meaningVi": "mất ba cách phát âm để giữ một không phải bi kịch; đó là phép tính"},
-    {"phrase": "as though purity of variation were a finer thing than a living speaker", "meaningVi": "như thể sự thuần khiết của tính đa dạng lại cao quý hơn một người nói còn sống"},
-    {"phrase": "That stance costs its holder nothing and costs the language everything", "meaningVi": "Lập trường đó chẳng tốn gì cho người giữ nó mà lại tốn tất cả cho ngôn ngữ"},
-    {"phrase": "Standardisation is not a neutral container", "meaningVi": "Sự chuẩn hoá không phải một cái hộp trung lập"},
-    {"phrase": "The page has its own politics", "meaningVi": "Trang giấy có tính chính trị riêng của nó"},
-    {"phrase": "the one spoken by whoever is in the room", "meaningVi": "cái dạng được nói bởi bất kỳ ai có mặt trong phòng"},
-    {"phrase": "The choice presents itself as linguistic and is very often social", "meaningVi": "Lựa chọn ấy tự khoác vẻ ngôn ngữ học nhưng rất thường là mang tính xã hội"},
-    {"phrase": "it acquires an authority that living speech never claimed for itself", "meaningVi": "nó có được một thẩm quyền mà lời nói sống động chưa bao giờ tự nhận"},
-    {"phrase": "did not think her word was wrong until a book existed in which it did not appear", "meaningVi": "không nghĩ từ của mình là sai cho đến khi tồn tại một cuốn sách mà trong đó nó không xuất hiện"},
-    {"phrase": "Print does not merely record a hierarchy; it manufactures one", "meaningVi": "Chữ in không chỉ ghi lại một thứ bậc; nó chế tạo ra một thứ bậc"},
-    {"phrase": "converting difference into error", "meaningVi": "biến sự khác biệt thành lỗi sai"},
-    {"phrase": "the alternative, on current trends, is silence in every valley at once", "meaningVi": "lựa chọn thay thế, theo xu hướng hiện tại, là sự im lặng ở mọi thung lũng cùng một lúc"},
-    {"phrase": "owe the variants they cannot keep something better than oblivion", "meaningVi": "nợ những biến thể họ không thể giữ một thứ gì đó tốt hơn là sự lãng quên"},
-    {"phrase": "performs exactly the erasure it was meant to prevent, only tidily, with footnotes", "meaningVi": "thực hiện đúng sự xoá bỏ mà nó vốn để ngăn chặn, chỉ là gọn gàng hơn, kèm chú thích"},
-    {"phrase": "marking none as the mistake", "meaningVi": "không đánh dấu cái nào là cái sai"},
-    {"phrase": "That is more work and less authority", "meaningVi": "Như thế thì vất vả hơn và ít quyền uy hơn"},
-    {"phrase": "the quiet pretence that accompanies it", "meaningVi": "sự giả vờ lặng lẽ đi kèm với nó"},
-    {"phrase": "comes to wear the face of the language's own nature", "meaningVi": "rốt cuộc khoác lên gương mặt của chính bản chất ngôn ngữ"},
-    {"phrase": "will take the headword as simply how the word is", "meaningVi": "sẽ coi từ đầu mục đơn giản là từ đúng vốn dĩ"},
-    {"phrase": "other mouths said it otherwise, and that the others were not wrong — only unprinted", "meaningVi": "những cái miệng khác đã nói nó theo cách khác, và rằng những cái khác không sai — chỉ là không được in"},
-    {"phrase": "is smaller than the one that was spoken", "meaningVi": "nhỏ hơn cái ngôn ngữ từng được nói"},
-    {"phrase": "should be grieved rather than tidied over", "meaningVi": "nên được tiếc thương thay vì che đậy cho gọn gàng"},
-    {"phrase": "the version which survived was the only one that ever lived", "meaningVi": "phiên bản sống sót là phiên bản duy nhất từng tồn tại"}
+    {
+      "phrase": "snow that has thawed and refrozen into a crust hard enough to walk on",
+      "meaningVi": "loại tuyết đã tan rồi đông lại thành lớp vỏ cứng đủ để đi lên trên"
+    },
+    {
+      "phrase": "they are all, by any reasonable test, the word",
+      "meaningVi": "tất cả chúng, theo bất kỳ phép thử hợp lý nào, đều là từ đúng"
+    },
+    {
+      "phrase": "it will still have to choose",
+      "meaningVi": "nó vẫn sẽ phải lựa chọn"
+    },
+    {
+      "phrase": "the others are, at best, regional colour",
+      "meaningVi": "những từ còn lại, may lắm, chỉ là màu sắc địa phương"
+    },
+    {
+      "phrase": "Nobody on the committee set out to declare one grandmother right and another wrong",
+      "meaningVi": "Không ai trong hội đồng định tuyên bố một người bà là đúng và một người bà khác là sai"
+    },
+    {
+      "phrase": "The verdict arrives anyway, quietly, in the act of printing",
+      "meaningVi": "Bản án vẫn cứ đến, một cách lặng lẽ, ngay trong hành động in ấn"
+    },
+    {
+      "phrase": "a language that no child learns is a language with a date on it",
+      "meaningVi": "một ngôn ngữ không đứa trẻ nào học là một ngôn ngữ đã có sẵn ngày khai tử"
+    },
+    {
+      "phrase": "the loss of three pronunciations to one is not a tragedy; it is arithmetic",
+      "meaningVi": "mất ba cách phát âm để giữ một không phải bi kịch; đó là phép tính"
+    },
+    {
+      "phrase": "as though purity of variation were a finer thing than a living speaker",
+      "meaningVi": "như thể sự thuần khiết của tính đa dạng lại cao quý hơn một người nói còn sống"
+    },
+    {
+      "phrase": "That stance costs its holder nothing and costs the language everything",
+      "meaningVi": "Lập trường đó chẳng tốn gì cho người giữ nó mà lại tốn tất cả cho ngôn ngữ"
+    },
+    {
+      "phrase": "Standardisation is not a neutral container",
+      "meaningVi": "Sự chuẩn hoá không phải một cái hộp trung lập"
+    },
+    {
+      "phrase": "The page has its own politics",
+      "meaningVi": "Trang giấy có tính chính trị riêng của nó"
+    },
+    {
+      "phrase": "the one spoken by whoever is in the room",
+      "meaningVi": "cái dạng được nói bởi bất kỳ ai có mặt trong phòng"
+    },
+    {
+      "phrase": "The choice presents itself as linguistic and is very often social",
+      "meaningVi": "Lựa chọn ấy tự khoác vẻ ngôn ngữ học nhưng rất thường là mang tính xã hội"
+    },
+    {
+      "phrase": "it acquires an authority that living speech never claimed for itself",
+      "meaningVi": "nó có được một thẩm quyền mà lời nói sống động chưa bao giờ tự nhận"
+    },
+    {
+      "phrase": "did not think her word was wrong until a book existed in which it did not appear",
+      "meaningVi": "không nghĩ từ của mình là sai cho đến khi tồn tại một cuốn sách mà trong đó nó không xuất hiện"
+    },
+    {
+      "phrase": "Print does not merely record a hierarchy; it manufactures one",
+      "meaningVi": "Chữ in không chỉ ghi lại một thứ bậc; nó chế tạo ra một thứ bậc"
+    },
+    {
+      "phrase": "converting difference into error",
+      "meaningVi": "biến sự khác biệt thành lỗi sai"
+    },
+    {
+      "phrase": "the alternative, on current trends, is silence in every valley at once",
+      "meaningVi": "lựa chọn thay thế, theo xu hướng hiện tại, là sự im lặng ở mọi thung lũng cùng một lúc"
+    },
+    {
+      "phrase": "owe the variants they cannot keep something better than oblivion",
+      "meaningVi": "nợ những biến thể họ không thể giữ một thứ gì đó tốt hơn là sự lãng quên"
+    },
+    {
+      "phrase": "performs exactly the erasure it was meant to prevent, only tidily, with footnotes",
+      "meaningVi": "thực hiện đúng sự xoá bỏ mà nó vốn để ngăn chặn, chỉ là gọn gàng hơn, kèm chú thích"
+    },
+    {
+      "phrase": "marking none as the mistake",
+      "meaningVi": "không đánh dấu cái nào là cái sai"
+    },
+    {
+      "phrase": "That is more work and less authority",
+      "meaningVi": "Như thế thì vất vả hơn và ít quyền uy hơn"
+    },
+    {
+      "phrase": "the quiet pretence that accompanies it",
+      "meaningVi": "sự giả vờ lặng lẽ đi kèm với nó"
+    },
+    {
+      "phrase": "comes to wear the face of the language's own nature",
+      "meaningVi": "rốt cuộc khoác lên gương mặt của chính bản chất ngôn ngữ"
+    },
+    {
+      "phrase": "will take the headword as simply how the word is",
+      "meaningVi": "sẽ coi từ đầu mục đơn giản là từ đúng vốn dĩ"
+    },
+    {
+      "phrase": "other mouths said it otherwise, and that the others were not wrong — only unprinted",
+      "meaningVi": "những cái miệng khác đã nói nó theo cách khác, và rằng những cái khác không sai — chỉ là không được in"
+    },
+    {
+      "phrase": "is smaller than the one that was spoken",
+      "meaningVi": "nhỏ hơn cái ngôn ngữ từng được nói"
+    },
+    {
+      "phrase": "should be grieved rather than tidied over",
+      "meaningVi": "nên được tiếc thương thay vì che đậy cho gọn gàng"
+    },
+    {
+      "phrase": "the version which survived was the only one that ever lived",
+      "meaningVi": "phiên bản sống sót là phiên bản duy nhất từng tồn tại"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -99,11 +305,11 @@
       "prompt": "What is the central paradox the essay critiques?",
       "options": [
         "Dictionaries are too expensive to print.",
-        "To save the dialect you must fix one version as correct, which silences the other living variants.",
         "There are no fluent speakers left to consult.",
+        "To save the dialect you must fix one version as correct, which silences the other living variants.",
         "Children dislike learning endangered languages."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The paradox is that rescue through standardisation requires choosing one form and demoting the rest.",
       "hint": "Find the line where the committee 'will still have to choose'."
     },
@@ -112,11 +318,11 @@
       "prompt": "Why does the essay say the four words are 'all, by any reasonable test, the word'?",
       "options": [
         "Because they are spelled identically.",
-        "Because each has been used for real life — hunting, trading, arguing — by a genuine community for generations.",
         "Because a committee declared them equal.",
-        "Because they all come from one valley."
+        "Because they all come from one valley.",
+        "Because each has been used for real life — hunting, trading, arguing — by a genuine community for generations."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "Their legitimacy rests on real, generational use, not on official ranking.",
       "hint": "What evidence does the essay give that each variant is genuine?"
     },
@@ -124,12 +330,12 @@
       "id": "q3",
       "prompt": "What does the essay mean by 'Print does not merely record a hierarchy; it manufactures one'?",
       "options": [
-        "Printing presses are made in factories.",
         "Putting one form in a book actively creates the ranking — turning mere difference into 'error' that did not exist before.",
+        "Printing presses are made in factories.",
         "Hierarchies are recorded in official documents.",
         "Print is more accurate than speech."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Print does not passively note a ranking; the act of printing generates it.",
       "hint": "Note the shift from 'record' to 'manufactures'."
     },
@@ -164,11 +370,11 @@
       "prompt": "Why does the essay reject the 'romantic position' of letting the language die 'intact and various'?",
       "options": [
         "Because variation is unimportant.",
-        "Because that stance costs its holder nothing and costs the language everything — a living speaker matters more than purity of variation.",
         "Because committees forbid it.",
-        "Because dialects cannot be written down."
+        "Because dialects cannot be written down.",
+        "Because that stance costs its holder nothing and costs the language everything — a living speaker matters more than purity of variation."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay's concession: preferring pure variation over a living language sacrifices the language itself.",
       "hint": "Find where the essay weighs a living speaker against purity."
     },
@@ -176,12 +382,12 @@
       "id": "q7",
       "prompt": "Which option uses the best cohesion to follow 'The page has its own politics.'?",
       "options": [
-        "Also, paper is made from wood pulp.",
         "The variant that gets chosen tends not to be the oldest but the one spoken by whoever is in the room.",
+        "Also, paper is made from wood pulp.",
         "Politics is the activity of governing a country.",
         "In today's world, everything is political somehow."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Option B specifies how the page's politics works; the others are off-topic, definitional, or filler.",
       "hint": "Which option explains and develops 'its own politics'?"
     },
@@ -203,11 +409,11 @@
       "prompt": "Which sentence is grammatical, on-topic, and matches the essay's critical register?",
       "options": [
         "Honestly, picking one word and ditching the rest is super unfair to those grandmas.",
-        "The grandmother in the far valley did not think her word was wrong until a book existed in which it did not appear.",
         "It is an indisputable fact that every dictionary ever made is pure propaganda.",
+        "The grandmother in the far valley did not think her word was wrong until a book existed in which it did not appear.",
         "The aforementioned lexical variant shall be deemed non-standard henceforth."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "Option B is precise and critical; A is slang, C is a sweeping absolute, D is mock-legalese.",
       "hint": "Match measured critique — not slang, absolutism, or legalese."
     },
@@ -216,11 +422,11 @@
       "prompt": "What positive alternative does the essay propose?",
       "options": [
         "Printing all four words as equally correct headwords.",
-        "Printing one form for school use while recording the others by valley, marking none as the mistake.",
         "Refusing to make any dictionary.",
-        "Letting children choose their own spelling."
+        "Letting children choose their own spelling.",
+        "Printing one form for school use while recording the others by valley, marking none as the mistake."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay's middle path keeps a usable standard while honestly recording the variants.",
       "hint": "What does the essay say preserves more 'and tells the truth about how the choice was made'?"
     },
@@ -255,11 +461,11 @@
       "prompt": "Which option preserves the hedged tone the prompt requires?",
       "options": [
         "Every dictionary deliberately murders dialects.",
-        "It would be a thin kind of honesty to celebrate the rescue without naming what the rescue does.",
         "It is obvious the committee is corrupt.",
+        "It would be a thin kind of honesty to celebrate the rescue without naming what the rescue does.",
         "No standardised language has ever been worth saving."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "Option B qualifies its claim carefully; the other options are absolute or accusatory.",
       "hint": "Hedging softens the claim — which option avoids sweeping accusation?"
     },
@@ -268,11 +474,11 @@
       "prompt": "What does the essay acknowledge about the cost of its preferred solution?",
       "options": [
         "It is cheaper and easier than the alternative.",
-        "It is more work and less authority, since a standard is supposed to confer authority — so the temptation to omit variants runs deep.",
         "It would offend the national government.",
-        "It would confuse the speakers."
+        "It would confuse the speakers.",
+        "It is more work and less authority, since a standard is supposed to confer authority — so the temptation to omit variants runs deep."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay honestly grants that recording variants undercuts the authority a standard is meant to provide.",
       "hint": "Find where the essay weighs 'more work and less authority'."
     },
@@ -280,12 +486,12 @@
       "id": "q15",
       "prompt": "What is the function of the final sentence about not pretending 'the version which survived was the only one that ever lived'?",
       "options": [
-        "It offers a solution that loses nothing.",
         "It accepts the loss as real and to be grieved, while insisting the record be honest that other forms once lived.",
+        "It offers a solution that loses nothing.",
         "It blames the committee for the language's death.",
         "It recommends abandoning the dictionary."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The close holds the paradox open: save the language, mourn what is lost, refuse the comfortable pretence.",
       "hint": "The essay said the loss should be 'grieved rather than tidied over' — what does the ending insist on?"
     },

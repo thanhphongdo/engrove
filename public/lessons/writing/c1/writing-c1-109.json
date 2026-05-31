@@ -1,0 +1,495 @@
+{
+  "id": "writing-c1-109",
+  "level": "C1",
+  "title": "The tower that cools without power",
+  "summary": "Explain how a desert windcatcher cools a building using no electricity, then weigh the harder question of whether reviving such passive design can scale — or whether its genius is exactly what makes it un-scalable.",
+  "tags": [
+    "Explain",
+    "Sustainable technology",
+    "Architecture"
+  ],
+  "topic": "Passive cooling architecture versus the demand for scalable, universal climate solutions",
+  "prompt": "Write a 600–800-word explanatory essay about a passive-cooling structure (e.g. a Persian-Gulf windcatcher / badgir, a stepwell, or a courtyard system) in a concrete arid setting. Explain the physical mechanism clearly to a non-specialist, then argue the genuine tension: a design tuned exactly to one place's climate may be brilliant precisely because it does not generalise. Use hedging, cause-and-effect cohesion, nominalization, and reach a qualified judgement, not a slogan.",
+  "minWords": 600,
+  "maxWords": 800,
+  "hintStarters": [
+    "The windcatcher works on a principle a child can grasp and an engineer can spend a career refining, namely that…",
+    "It is tempting to present the tower as a ready-made answer to air conditioning, until you notice that its brilliance depends on…",
+    "What makes the design so effective in one desert is exactly what makes it stubbornly resistant to being copied into…"
+  ],
+  "hintVocab": [
+    {
+      "phrase": "passive cooling",
+      "meaningVi": "làm mát thụ động (không dùng năng lượng cơ học)"
+    },
+    {
+      "phrase": "windcatcher",
+      "meaningVi": "tháp đón gió (badgir)"
+    },
+    {
+      "phrase": "convection",
+      "meaningVi": "sự đối lưu (dòng nhiệt)",
+      "pronunciation": "/kənˈvekʃn/"
+    },
+    {
+      "phrase": "to draw (air)",
+      "meaningVi": "hút, kéo (không khí)"
+    },
+    {
+      "phrase": "thermal mass",
+      "meaningVi": "khối nhiệt, khả năng tích nhiệt"
+    },
+    {
+      "phrase": "evaporative cooling",
+      "meaningVi": "làm mát bằng bay hơi"
+    },
+    {
+      "phrase": "to dissipate (heat)",
+      "meaningVi": "tản (nhiệt), làm tiêu tán",
+      "pronunciation": "/ˈdɪsɪpeɪt/"
+    },
+    {
+      "phrase": "updraft",
+      "meaningVi": "luồng khí bốc lên"
+    },
+    {
+      "phrase": "downdraft",
+      "meaningVi": "luồng khí đi xuống"
+    },
+    {
+      "phrase": "pressure differential",
+      "meaningVi": "chênh lệch áp suất"
+    },
+    {
+      "phrase": "arid",
+      "meaningVi": "khô cằn, hoang mạc",
+      "pronunciation": "/ˈærɪd/"
+    },
+    {
+      "phrase": "humidity",
+      "meaningVi": "độ ẩm",
+      "pronunciation": "/hjuːˈmɪdəti/"
+    },
+    {
+      "phrase": "diurnal",
+      "meaningVi": "thuộc về ngày-đêm (chu kỳ một ngày)",
+      "pronunciation": "/daɪˈɜːnl/"
+    },
+    {
+      "phrase": "ambient",
+      "meaningVi": "thuộc môi trường xung quanh",
+      "pronunciation": "/ˈæmbiənt/"
+    },
+    {
+      "phrase": "to radiate",
+      "meaningVi": "bức xạ, phát ra (nhiệt)"
+    },
+    {
+      "phrase": "vernacular architecture",
+      "meaningVi": "kiến trúc bản địa, kiến trúc dân gian"
+    },
+    {
+      "phrase": "retrofit",
+      "meaningVi": "cải tạo lắp thêm vào công trình cũ"
+    },
+    {
+      "phrase": "to scale",
+      "meaningVi": "nhân rộng, mở rộng quy mô"
+    },
+    {
+      "phrase": "generalisable",
+      "meaningVi": "có thể khái quát hoá, áp dụng rộng"
+    },
+    {
+      "phrase": "site-specific",
+      "meaningVi": "gắn chặt với địa điểm cụ thể"
+    },
+    {
+      "phrase": "microclimate",
+      "meaningVi": "vi khí hậu"
+    },
+    {
+      "phrase": "energy footprint",
+      "meaningVi": "dấu chân năng lượng (mức tiêu thụ)"
+    },
+    {
+      "phrase": "grid",
+      "meaningVi": "lưới điện"
+    },
+    {
+      "phrase": "off-grid",
+      "meaningVi": "ngoài lưới điện, không nối lưới"
+    },
+    {
+      "phrase": "trade-off",
+      "meaningVi": "sự đánh đổi"
+    },
+    {
+      "phrase": "to harness",
+      "meaningVi": "khai thác, tận dụng (năng lượng)"
+    },
+    {
+      "phrase": "calibration",
+      "meaningVi": "sự hiệu chỉnh, căn chỉnh"
+    },
+    {
+      "phrase": "stack effect",
+      "meaningVi": "hiệu ứng ống khói (khí nóng bốc lên kéo khí mát vào)"
+    },
+    {
+      "phrase": "to outperform",
+      "meaningVi": "làm tốt hơn, vượt trội hơn"
+    },
+    {
+      "phrase": "qualified judgement",
+      "meaningVi": "phán đoán có chừng mực, dè dặt"
+    }
+  ],
+  "sampleText": "In the old quarters of a Gulf city, before electricity reached them, the houses kept themselves cool with towers. A windcatcher — a tall, hollow shaft rising above the roof, open on one or more sides near its top — looks like a chimney and works, in part, like one in reverse. The windcatcher operates on a principle a child can grasp and an engineer can spend a career refining: hot air rises, cool air sinks, and moving air carries heat away from skin. When a breeze blows, the tower's open face catches it and funnels it down the shaft into the rooms below, so that the living space is flushed with outside air without anyone lifting a hand. When there is no breeze, the tower still works, because the sun heats the air at its crown, that hot air rises and escapes, and its leaving pulls cooler air up from the shaded courtyard and through the house behind it. The building, in effect, breathes.\n\nThe mechanism rewards a closer look, because it is cleverer than a single trick. Much of the cooling is not the air's temperature but its movement: a current of even warm air across damp skin draws heat through evaporation, which is why a draught feels cool when still air at the same temperature does not. To this the builders added thermal mass. The thick mud-brick and stone walls absorb the day's heat slowly and release it slowly, so that the interior lags hours behind the outside — coolest in the afternoon, when the desert is fiercest, and giving its stored warmth back at night, when the air has turned cold. Some towers were tuned further still, drawing their incoming air down past a pool or wet matting so that evaporation chilled it before it reached the rooms. None of this consumed a watt. The energy was already there, in the temperature difference between the sunlit crown and the shaded base, and the tower's only task was to put that difference to work.\n\nFrom here the temptation is obvious, and I want to name it carefully rather than indulge it. Faced with the spiralling energy cost of air conditioning, one reaches for the windcatcher as a ready-made answer: build towers, abandon the compressor, cool the world for free. It is tempting to present the tower this way, until you notice that its brilliance depends on conditions that do not travel. The windcatcher works in a hot, dry climate with a large diurnal swing — scorching days, cold nights — and reliable patterns of wind and sun. Its great strength, evaporative and convective cooling, collapses in humid air, where added moisture does not chill but stifles. A design tuned exactly to one desert is, in the same gesture, tuned away from a monsoon coast or a temperate city. What makes it so effective in one place is precisely what makes it resistant to being copied into another.\n\nThis is the tension I think the enthusiasm tends to skip. The windcatcher is not a universal technology that history forgot; it is a profoundly local one, and its locality is not a flaw to be engineered out but the very source of its economy. The reason it needs no power is that it does no general-purpose work — it is not a machine that imposes a target temperature on any climate, but a structure that negotiates with one specific climate's daily rhythm. To make it scalable, you would have to make it adjustable, and to make it adjustable you would, sooner or later, reach for a fan, a pump, a control system — at which point you have rebuilt, in slower and clumsier form, the very air conditioner you set out to escape.\n\nSo where does that leave the tower? Not, I think, as a museum piece, but not as a slogan either. Its honest lesson is narrower and more useful than 'cool buildings for free'. It is that a building designed for its place, rather than against it, can meet most of its own needs before any machine is switched on — and that the savings come not from one clever device but from a hundred decisions about orientation, mass, shade, and airflow that a designer makes by listening to the site. That principle does generalise, even where the windcatcher itself does not. The error is to export the object when what deserves exporting is the discipline behind it: the willingness to study a climate closely enough that the building can do, unpowered, most of what we now ask a compressor to do for us. The tower cannot be shipped to every city. The attention that built it can.",
+  "sampleAnnotations": [
+    {
+      "phrase": "the houses kept themselves cool with towers",
+      "meaningVi": "những ngôi nhà tự giữ mát cho mình bằng những cái tháp"
+    },
+    {
+      "phrase": "a tall, hollow shaft rising above the roof",
+      "meaningVi": "một trục rỗng cao vươn lên trên mái nhà"
+    },
+    {
+      "phrase": "looks like a chimney and works, in part, like one in reverse",
+      "meaningVi": "trông như một ống khói và hoạt động, phần nào, như một ống khói ngược"
+    },
+    {
+      "phrase": "hot air rises, cool air sinks, and moving air carries heat away from skin",
+      "meaningVi": "khí nóng bốc lên, khí mát chìm xuống, và không khí chuyển động cuốn nhiệt đi khỏi da"
+    },
+    {
+      "phrase": "the tower's open face catches it and funnels it down the shaft",
+      "meaningVi": "mặt mở của tháp hứng lấy nó và dẫn nó xuống dọc theo trục"
+    },
+    {
+      "phrase": "its leaving pulls cooler air up from the shaded courtyard",
+      "meaningVi": "việc nó thoát ra kéo không khí mát hơn lên từ cái sân râm mát"
+    },
+    {
+      "phrase": "The building, in effect, breathes",
+      "meaningVi": "Toà nhà, trên thực tế, biết thở"
+    },
+    {
+      "phrase": "Much of the cooling is not the air's temperature but its movement",
+      "meaningVi": "Phần lớn sự làm mát không nằm ở nhiệt độ của không khí mà ở sự chuyển động của nó"
+    },
+    {
+      "phrase": "a draught feels cool when still air at the same temperature does not",
+      "meaningVi": "một luồng gió cảm thấy mát trong khi không khí tĩnh ở cùng nhiệt độ thì không"
+    },
+    {
+      "phrase": "the builders added thermal mass",
+      "meaningVi": "những người thợ xây bổ sung thêm khối nhiệt"
+    },
+    {
+      "phrase": "the interior lags hours behind the outside",
+      "meaningVi": "phần bên trong trễ hàng giờ so với bên ngoài"
+    },
+    {
+      "phrase": "drawing their incoming air down past a pool or wet matting so that evaporation chilled it",
+      "meaningVi": "dẫn luồng khí đi vào của chúng xuống qua một hồ nước hay tấm chiếu ẩm để sự bay hơi làm lạnh nó"
+    },
+    {
+      "phrase": "None of this consumed a watt",
+      "meaningVi": "Không một phần nào trong việc này tiêu tốn một oát điện"
+    },
+    {
+      "phrase": "the tower's only task was to put that difference to work",
+      "meaningVi": "nhiệm vụ duy nhất của cái tháp là đưa sự chênh lệch ấy vào làm việc"
+    },
+    {
+      "phrase": "I want to name it carefully rather than indulge it",
+      "meaningVi": "tôi muốn gọi tên nó một cách thận trọng thay vì buông theo nó"
+    },
+    {
+      "phrase": "build towers, abandon the compressor, cool the world for free",
+      "meaningVi": "xây tháp, bỏ máy nén, làm mát cả thế giới miễn phí"
+    },
+    {
+      "phrase": "its brilliance depends on conditions that do not travel",
+      "meaningVi": "sự xuất sắc của nó phụ thuộc vào những điều kiện không di chuyển theo được"
+    },
+    {
+      "phrase": "a large diurnal swing — scorching days, cold nights",
+      "meaningVi": "một biên độ ngày-đêm lớn — ngày nóng như thiêu, đêm lạnh"
+    },
+    {
+      "phrase": "collapses in humid air, where added moisture does not chill but stifles",
+      "meaningVi": "sụp đổ trong không khí ẩm, nơi độ ẩm tăng thêm không làm mát mà làm ngột ngạt"
+    },
+    {
+      "phrase": "tuned away from a monsoon coast or a temperate city",
+      "meaningVi": "được điều chỉnh lệch khỏi một bờ biển gió mùa hay một thành phố ôn đới"
+    },
+    {
+      "phrase": "What makes it so effective in one place is precisely what makes it resistant to being copied into another",
+      "meaningVi": "Cái làm nó hiệu quả đến vậy ở một nơi lại chính là cái khiến nó kháng cự việc bị sao chép sang một nơi khác"
+    },
+    {
+      "phrase": "it is a profoundly local one",
+      "meaningVi": "nó là một công nghệ mang tính địa phương sâu sắc"
+    },
+    {
+      "phrase": "its locality is not a flaw to be engineered out but the very source of its economy",
+      "meaningVi": "tính địa phương của nó không phải một khiếm khuyết cần loại bỏ bằng kỹ thuật mà là chính nguồn cội của sự tiết kiệm nơi nó"
+    },
+    {
+      "phrase": "a structure that negotiates with one specific climate's daily rhythm",
+      "meaningVi": "một cấu trúc thương lượng với nhịp điệu hằng ngày của một khí hậu cụ thể"
+    },
+    {
+      "phrase": "you have rebuilt, in slower and clumsier form, the very air conditioner you set out to escape",
+      "meaningVi": "bạn đã dựng lại, dưới một dạng chậm hơn và vụng về hơn, chính cái máy điều hoà mà bạn đặt ra để thoát khỏi"
+    },
+    {
+      "phrase": "Not, I think, as a museum piece, but not as a slogan either",
+      "meaningVi": "Không phải, tôi nghĩ vậy, như một hiện vật bảo tàng, nhưng cũng không phải như một khẩu hiệu"
+    },
+    {
+      "phrase": "a building designed for its place, rather than against it",
+      "meaningVi": "một toà nhà được thiết kế thuận theo nơi chốn của nó, chứ không phải chống lại nó"
+    },
+    {
+      "phrase": "a hundred decisions about orientation, mass, shade, and airflow",
+      "meaningVi": "một trăm quyết định về hướng nhà, khối nhiệt, bóng râm và luồng khí"
+    },
+    {
+      "phrase": "what deserves exporting is the discipline behind it",
+      "meaningVi": "cái đáng được xuất khẩu là kỷ luật đứng đằng sau nó"
+    },
+    {
+      "phrase": "The tower cannot be shipped to every city. The attention that built it can",
+      "meaningVi": "Cái tháp không thể được chở đến mọi thành phố. Sự chú tâm đã dựng nên nó thì có thể"
+    }
+  ],
+  "sampleGrammarNotes": [
+    {
+      "title": "Cause-and-effect chains to unfold a mechanism",
+      "bodyVi": "Tác giả nối các bước vật lý bằng 'so that', 'which is why', 'because': ví dụ 'the sun heats the air at its crown, that hot air rises and escapes, and its leaving pulls cooler air up'. Chuỗi nhân-quả này dẫn người đọc không chuyên qua từng mắt xích mà không cần phương trình — kỹ năng giải thích cốt lõi ở C1.",
+      "bodyEn": "The writer chains physical steps with 'so that', 'which is why', and 'because': e.g. 'the sun heats the air at its crown, that hot air rises and escapes, and its leaving pulls cooler air up'. This cause-and-effect chain walks the non-specialist through each link without equations — a core C1 explanatory skill."
+    },
+    {
+      "title": "Antithesis to capture a paradox of locality",
+      "bodyVi": "Câu 'What makes it so effective in one place is precisely what makes it resistant to being copied into another' và câu kết 'The tower cannot be shipped to every city. The attention that built it can' dùng phép đối để nén một nghịch lý vào một nhịp cân đối: chính ưu điểm là giới hạn, chính vật thì bất khả còn nguyên tắc thì khả thi. Phép đối làm lập luận sắc và đáng nhớ.",
+      "bodyEn": "Sentences like 'What makes it so effective in one place is precisely what makes it resistant to being copied into another' and the close 'The tower cannot be shipped to every city. The attention that built it can' use antithesis to compress a paradox into a balanced beat: the very strength is the limit; the object cannot travel but the principle can. The device makes the argument sharp and memorable."
+    }
+  ],
+  "sampleTranslationVi": "Ở những khu phố cổ của một thành phố vùng Vịnh, trước khi điện chạm tới chúng, những ngôi nhà tự giữ mát cho mình bằng những cái tháp. Một tháp đón gió — một trục rỗng cao vươn lên trên mái nhà, mở ở một hoặc nhiều phía gần đỉnh — trông như một ống khói và hoạt động, phần nào, như một ống khói ngược. Tháp đón gió vận hành trên một nguyên lý mà một đứa trẻ có thể nắm bắt và một kỹ sư có thể dành cả sự nghiệp để tinh chỉnh: khí nóng bốc lên, khí mát chìm xuống, và không khí chuyển động cuốn nhiệt đi khỏi da. Khi có một làn gió thổi, mặt mở của tháp hứng lấy nó và dẫn nó xuống dọc theo trục vào các phòng bên dưới, để không gian sống được tràn ngập không khí bên ngoài mà chẳng ai phải nhấc một ngón tay. Khi không có gió, cái tháp vẫn hoạt động, vì mặt trời nung không khí ở đỉnh của nó, không khí nóng ấy bốc lên và thoát ra, và việc nó thoát ra kéo không khí mát hơn lên từ cái sân râm mát và đi xuyên qua ngôi nhà phía sau nó. Toà nhà, trên thực tế, biết thở.\n\nCơ chế này đáng được nhìn kỹ hơn, vì nó tinh khôn hơn một mẹo đơn lẻ. Phần lớn sự làm mát không nằm ở nhiệt độ của không khí mà ở sự chuyển động của nó: một luồng không khí dù ấm đi qua làn da ẩm cũng cuốn nhiệt đi qua sự bay hơi, đó là lý do vì sao một luồng gió cảm thấy mát trong khi không khí tĩnh ở cùng nhiệt độ thì không. Vào đó những người thợ xây bổ sung thêm khối nhiệt. Những bức tường gạch bùn và đá dày hấp thụ cái nóng của ban ngày một cách chậm rãi và nhả nó ra một cách chậm rãi, để phần bên trong trễ hàng giờ so với bên ngoài — mát nhất vào buổi chiều, khi sa mạc dữ dội nhất, và trả lại hơi ấm tích trữ vào ban đêm, khi không khí đã trở lạnh. Một số tháp còn được điều chỉnh xa hơn nữa, dẫn luồng khí đi vào của chúng xuống qua một hồ nước hay tấm chiếu ẩm để sự bay hơi làm lạnh nó trước khi nó tới các phòng. Không một phần nào trong việc này tiêu tốn một oát điện. Năng lượng đã sẵn ở đó, trong sự chênh lệch nhiệt độ giữa cái đỉnh nắng chói và cái đáy râm mát, và nhiệm vụ duy nhất của cái tháp là đưa sự chênh lệch ấy vào làm việc.\n\nTừ đây sự cám dỗ là hiển nhiên, và tôi muốn gọi tên nó một cách thận trọng thay vì buông theo nó. Đối mặt với chi phí năng lượng leo thang của điều hoà không khí, người ta với lấy cái tháp đón gió như một câu trả lời có sẵn: xây tháp, bỏ máy nén, làm mát cả thế giới miễn phí. Thật cám dỗ khi trình bày cái tháp theo cách này, cho đến khi bạn nhận ra rằng sự xuất sắc của nó phụ thuộc vào những điều kiện không di chuyển theo được. Tháp đón gió hoạt động trong một khí hậu nóng, khô với một biên độ ngày-đêm lớn — ngày nóng như thiêu, đêm lạnh — và những kiểu gió và nắng đáng tin cậy. Thế mạnh lớn của nó, làm mát bằng bay hơi và đối lưu, sụp đổ trong không khí ẩm, nơi độ ẩm tăng thêm không làm mát mà làm ngột ngạt. Một thiết kế được điều chỉnh đúng cho một sa mạc thì, trong cùng một động tác ấy, được điều chỉnh lệch khỏi một bờ biển gió mùa hay một thành phố ôn đới. Cái làm nó hiệu quả đến vậy ở một nơi lại chính là cái khiến nó kháng cự việc bị sao chép sang một nơi khác.\n\nĐây là cái căng thẳng mà tôi nghĩ sự hào hứng thường bỏ qua. Tháp đón gió không phải một công nghệ phổ quát mà lịch sử bỏ quên; nó là một công nghệ mang tính địa phương sâu sắc, và tính địa phương của nó không phải một khiếm khuyết cần loại bỏ bằng kỹ thuật mà là chính nguồn cội của sự tiết kiệm nơi nó. Lý do nó không cần điện là vì nó không làm cái việc đa dụng — nó không phải một cỗ máy áp đặt một nhiệt độ mục tiêu lên bất kỳ khí hậu nào, mà là một cấu trúc thương lượng với nhịp điệu hằng ngày của một khí hậu cụ thể. Để làm nó có thể nhân rộng, bạn sẽ phải làm nó có thể điều chỉnh, và để làm nó có thể điều chỉnh thì sớm hay muộn bạn sẽ với lấy một cái quạt, một cái bơm, một hệ thống điều khiển — đến lúc đó bạn đã dựng lại, dưới một dạng chậm hơn và vụng về hơn, chính cái máy điều hoà mà bạn đặt ra để thoát khỏi.\n\nVậy điều đó đặt cái tháp vào đâu? Tôi nghĩ không phải như một hiện vật bảo tàng, nhưng cũng không phải như một khẩu hiệu. Bài học trung thực của nó hẹp hơn và hữu ích hơn câu 'làm mát các toà nhà miễn phí'. Đó là một toà nhà được thiết kế thuận theo nơi chốn của nó, chứ không phải chống lại nó, có thể đáp ứng phần lớn nhu cầu của chính mình trước khi bật bất kỳ cỗ máy nào — và rằng sự tiết kiệm đến không phải từ một thiết bị tinh khôn duy nhất mà từ một trăm quyết định về hướng nhà, khối nhiệt, bóng râm và luồng khí mà người thiết kế đưa ra bằng cách lắng nghe địa điểm. Nguyên tắc ấy thì khái quát hoá được, kể cả ở nơi mà bản thân cái tháp đón gió thì không. Sai lầm là xuất khẩu cái vật thể trong khi cái đáng xuất khẩu là kỷ luật đứng đằng sau nó: sự sẵn lòng nghiên cứu một khí hậu kỹ đến mức toà nhà có thể làm, không cần điện, phần lớn cái việc mà giờ ta nhờ một cái máy nén làm cho ta. Cái tháp không thể được chở đến mọi thành phố. Sự chú tâm đã dựng nên nó thì có thể.",
+  "mcQuestions": [
+    {
+      "id": "q1",
+      "prompt": "How does the windcatcher cool a building when there is no breeze, according to the essay?",
+      "options": [
+        "The sun heats the air at the tower's crown; that hot air rises and escapes, and its leaving pulls cooler air up from the shaded courtyard through the house.",
+        "It uses a hidden electric fan.",
+        "It sprays water onto the roof.",
+        "It simply stops working until wind returns."
+      ],
+      "answerIndex": 0,
+      "explanation": "The first paragraph describes the stack-effect: rising hot air at the crown draws cooler courtyard air through the house.",
+      "hint": "What happens to the air the sun heats at the top of the tower?"
+    },
+    {
+      "id": "q2",
+      "prompt": "Why does the essay say 'much of the cooling is not the air's temperature but its movement'?",
+      "options": [
+        "Because moving air is always colder.",
+        "Because a current of even warm air across damp skin draws heat through evaporation, so a draught feels cool when still air at the same temperature does not.",
+        "Because temperature cannot be measured in deserts.",
+        "Because the air inside is freezing."
+      ],
+      "answerIndex": 1,
+      "explanation": "The second paragraph explains evaporative cooling from moving air, which is why a draught feels cool.",
+      "hint": "What does moving air do to damp skin even when the air is warm?"
+    },
+    {
+      "id": "q3",
+      "prompt": "What role does thermal mass play in the design?",
+      "options": [
+        "It makes the building heavier and more stable.",
+        "It stores electricity for later use.",
+        "Thick walls absorb and release heat slowly, so the interior lags hours behind the outside — coolest in the fierce afternoon, warm at night.",
+        "It reflects sunlight away from the tower."
+      ],
+      "answerIndex": 2,
+      "explanation": "The second paragraph: thermal mass makes 'the interior lag hours behind the outside'.",
+      "hint": "What does the slow absorption and release of heat do to the timing of the interior temperature?"
+    },
+    {
+      "id": "q4",
+      "prompt": "What is the central tension the essay raises about scaling the windcatcher?",
+      "options": [
+        "Towers are too expensive to build today.",
+        "People no longer like the look of towers.",
+        "Windcatchers are dangerous in earthquakes.",
+        "Its brilliance depends on a hot, dry, large-diurnal-swing climate; the very tuning that makes it effective in one desert makes it resistant to being copied into humid or temperate places."
+      ],
+      "answerIndex": 3,
+      "explanation": "The third paragraph: 'What makes it so effective in one place is precisely what makes it resistant to being copied into another.'",
+      "hint": "What conditions does the tower depend on, and do they travel?"
+    },
+    {
+      "id": "q5",
+      "prompt": "What is the essay's qualified final judgement?",
+      "options": [
+        "The object cannot be exported, but the discipline behind it — designing for a place rather than against it — does generalise, and that is the real lesson.",
+        "Every city should build windcatchers immediately.",
+        "Windcatchers belong only in museums.",
+        "Air conditioning is the only viable cooling technology."
+      ],
+      "answerIndex": 0,
+      "explanation": "The conclusion: 'The tower cannot be shipped to every city. The attention that built it can.'",
+      "hint": "What can be exported, if not the tower itself?"
+    },
+    {
+      "id": "q6",
+      "prompt": "Which sentence best matches the essay's hedged explanatory register?",
+      "options": [
+        "Air conditioning is garbage and windcatchers are infinitely superior.",
+        "Its locality is not a flaw to be engineered out but the very source of its economy.",
+        "Towers are just old buildings, who even cares.",
+        "Pursuant to thermal regulations, passive ventilation shall be mandated."
+      ],
+      "answerIndex": 1,
+      "explanation": "Option B makes a measured, reframing claim; A is crude, C is dismissive, D is jargon.",
+      "hint": "Look for the claim that reframes locality as a strength, carefully."
+    },
+    {
+      "id": "q7",
+      "prompt": "Which continuation gives the best cause-and-effect cohesion after 'the sun heats the air at its crown'?",
+      "options": [
+        "and the desert is famous for its beautiful sunsets.",
+        "Also, the walls were painted white to look clean.",
+        "that hot air rises and escapes, and its leaving pulls cooler air up from the shaded courtyard.",
+        "In today's warming world, the sun is stronger than ever."
+      ],
+      "answerIndex": 2,
+      "explanation": "Option B continues the causal chain (heated air rises → escapes → draws cool air up); the others break it.",
+      "hint": "What follows causally from the air at the crown being heated?"
+    },
+    {
+      "id": "q8",
+      "prompt": "Which paraphrase is closest to 'its brilliance depends on conditions that do not travel'?",
+      "options": [
+        "The tower is too heavy to transport.",
+        "Brilliant ideas are rare in architecture.",
+        "Conditions in deserts never change.",
+        "The design only works well where a specific climate exists, so moving it to a different climate strips away what made it work."
+      ],
+      "answerIndex": 3,
+      "explanation": "The line means the tower's success is tied to climate conditions that another site will not have; B captures this.",
+      "hint": "What 'conditions' are meant, and why don't they 'travel'?"
+    },
+    {
+      "id": "q9",
+      "prompt": "Which sentence uses antithesis to capture the paradox of locality, as in the grammar notes?",
+      "options": [
+        "The tower cannot be shipped to every city. The attention that built it can.",
+        "The windcatcher rises high above the flat rooftops.",
+        "Mud-brick walls were common in the old quarter.",
+        "The courtyard stayed shaded for most of the day."
+      ],
+      "answerIndex": 0,
+      "explanation": "Option B sets the un-exportable object against the exportable principle in a balanced antithesis.",
+      "hint": "Look for two balanced sentences with opposed claims about what can travel."
+    },
+    {
+      "id": "q10",
+      "prompt": "What does 'you have rebuilt, in slower and clumsier form, the very air conditioner you set out to escape' mean?",
+      "options": [
+        "Air conditioners are slow and clumsy machines.",
+        "Trying to make the windcatcher adjustable enough to work everywhere forces you to add fans and pumps — recreating the powered cooling you were trying to avoid.",
+        "Old air conditioners were better than new ones.",
+        "Windcatchers should include built-in air conditioners."
+      ],
+      "answerIndex": 1,
+      "explanation": "The fourth paragraph: making the tower scalable means adding machinery, which rebuilds the air conditioner.",
+      "hint": "What happens when you try to make a passive design 'adjustable'?"
+    },
+    {
+      "id": "q11",
+      "prompt": "Why does the essay say the windcatcher's evaporative cooling 'collapses in humid air'?",
+      "options": [
+        "Because humid air corrodes the tower.",
+        "Because humid air is heavier than dry air.",
+        "Because in humid conditions added moisture does not chill the air but stifles it, so evaporative cooling cannot work.",
+        "Because towers leak in the rain."
+      ],
+      "answerIndex": 2,
+      "explanation": "The third paragraph: in humid air 'added moisture does not chill but stifles'.",
+      "hint": "Why does evaporation fail to cool when the air is already moist?"
+    },
+    {
+      "id": "q12",
+      "prompt": "Which option is grammatical, on-topic, and matches the essay's tone?",
+      "options": [
+        "Basically the tower just sucks in air and boom, free AC, easy.",
+        "Henceforth all dwellings shall be retrofitted with convective shafts.",
+        "Everyone knows modern air conditioning is a total scam.",
+        "The thick mud-brick and stone walls absorb the day's heat slowly and release it slowly."
+      ],
+      "answerIndex": 3,
+      "explanation": "Option B is precise and explanatory; A is slangy, C is jargon, D is a sweeping unsupported claim.",
+      "hint": "Match the clear, careful explanatory voice."
+    },
+    {
+      "id": "q13",
+      "prompt": "What does the essay mean by 'a structure that negotiates with one specific climate's daily rhythm'?",
+      "options": [
+        "The tower does not impose a fixed temperature on any climate but works with the particular daily pattern of one place's heat, cool, and wind.",
+        "A building that changes shape each season.",
+        "A structure that bargains with the weather service.",
+        "A building that only works once a day."
+      ],
+      "answerIndex": 0,
+      "explanation": "The fourth paragraph contrasts a machine imposing a target temperature with a structure that negotiates with a local rhythm.",
+      "hint": "What does the tower do with one climate's rhythm, instead of overriding it?"
+    },
+    {
+      "id": "q14",
+      "prompt": "Which sentence preserves the essay's qualified judgement rather than overstating it?",
+      "options": [
+        "Passive cooling can replace all air conditioning everywhere.",
+        "Not, I think, as a museum piece, but not as a slogan either.",
+        "Windcatchers are flawless and need no improvement.",
+        "Designing for climate is impossible in modern cities."
+      ],
+      "answerIndex": 1,
+      "explanation": "Option B rejects both dismissal and hype, holding a measured middle — the hedged stance the prompt requires.",
+      "hint": "Look for the option that refuses both 'museum piece' and 'slogan'."
+    },
+    {
+      "id": "q15",
+      "prompt": "Which option best follows 'None of this consumed a watt' to extend the essay's point?",
+      "options": [
+        "Electricity bills can be very high in summer.",
+        "Watts are a unit of electrical power.",
+        "The energy was already there, in the temperature difference between the sunlit crown and the shaded base.",
+        "Towers were usually built of local materials."
+      ],
+      "answerIndex": 2,
+      "explanation": "Option B explains where the cooling energy comes from, developing the no-power claim; the others drift.",
+      "hint": "If no power was used, where did the energy come from?"
+    },
+    {
+      "id": "q16",
+      "prompt": "Which paraphrase is closest to 'a building designed for its place, rather than against it'?",
+      "options": [
+        "A building that fights the local weather with machines.",
+        "A building placed far from any city.",
+        "A building decorated in a local style.",
+        "A building shaped to cooperate with its local climate instead of forcing a fixed indoor condition by brute mechanical means."
+      ],
+      "answerIndex": 3,
+      "explanation": "The line contrasts cooperating with the climate against overriding it; B captures the generalisable principle.",
+      "hint": "What is the difference between designing 'for' a place and 'against' it?"
+    }
+  ],
+  "criticalThinkingQuestion": "The essay argues that the windcatcher's genius is exactly what makes it un-scalable, and that what should travel is the discipline, not the object. Think of a solution you admire that works beautifully in one specific context. Is its strength general or local? If someone tried to scale it, would they keep its genius or accidentally rebuild the very thing it was meant to replace?"
+}

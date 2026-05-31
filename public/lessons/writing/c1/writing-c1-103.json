@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "Whose name the cathedral keeps",
   "summary": "Critique the convention by which a single architect's name is carved into a building while the masons, carvers, and labourers who made it are reduced to an anonymous mass — and interrogate whether 'crediting everyone' is the just remedy it appears to be.",
-  "tags": ["Critique", "Work", "Recognition"],
+  "tags": [
+    "Critique",
+    "Work",
+    "Recognition"
+  ],
   "topic": "The politics of whose name gets remembered for a collective work",
   "prompt": "Write a 600–800-word critical essay examining why one name attaches to a building that hundreds of hands made, and what work that convention does. Ground it in one concrete structure. Critique the convention without lapsing into a naive demand to 'credit everyone'; show why that remedy is itself complicated. Use hedging, nominalization, and at least one complex concession; reach a qualified judgement.",
   "minWords": 600,
@@ -14,73 +18,279 @@
     "What the single name buys us is legible; what it costs is, by design,…"
   ],
   "hintVocab": [
-    {"phrase": "attribution", "meaningVi": "việc ghi công, quy công cho ai", "pronunciation": "/ˌætrɪˈbjuːʃn/"},
-    {"phrase": "authorship", "meaningVi": "quyền tác giả, việc đứng tên sáng tạo"},
-    {"phrase": "collective labour", "meaningVi": "lao động tập thể"},
-    {"phrase": "anonymity", "meaningVi": "sự khuyết danh, không tên tuổi", "pronunciation": "/ˌænəˈnɪməti/"},
-    {"phrase": "the canon", "meaningVi": "danh sách kinh điển, những tên được công nhận chính thức"},
-    {"phrase": "to credit", "meaningVi": "ghi công cho"},
-    {"phrase": "to efface", "meaningVi": "xoá nhoà, làm mờ đi", "pronunciation": "/ɪˈfeɪs/"},
-    {"phrase": "recognition", "meaningVi": "sự công nhận, ghi nhận", "pronunciation": "/ˌrekəɡˈnɪʃn/"},
-    {"phrase": "to subsume", "meaningVi": "gộp vào, nuốt chửng dưới một cái tên lớn hơn", "pronunciation": "/səbˈsjuːm/"},
-    {"phrase": "labour hierarchy", "meaningVi": "thứ bậc lao động"},
-    {"phrase": "the artisan", "meaningVi": "người thợ thủ công lành nghề", "pronunciation": "/ˌɑːtɪˈzæn/"},
-    {"phrase": "stonemason", "meaningVi": "thợ đẽo đá, thợ xây đá"},
-    {"phrase": "to commemorate", "meaningVi": "tưởng niệm, ghi danh", "pronunciation": "/kəˈmeməreɪt/"},
-    {"phrase": "to apportion", "meaningVi": "phân chia (công lao, trách nhiệm)", "pronunciation": "/əˈpɔːʃn/"},
-    {"phrase": "single point of credit", "meaningVi": "một đầu mối duy nhất để ghi công"},
-    {"phrase": "legibility", "meaningVi": "tính dễ đọc, dễ nắm bắt", "pronunciation": "/ˌledʒəˈbɪləti/"},
-    {"phrase": "the named and the unnamed", "meaningVi": "kẻ có tên và kẻ không tên"},
-    {"phrase": "to flatten", "meaningVi": "san phẳng, làm cho mất sắc thái"},
-    {"phrase": "distributed authorship", "meaningVi": "quyền tác giả phân tán cho nhiều người"},
-    {"phrase": "to inscribe", "meaningVi": "khắc lên, ghi tạc", "pronunciation": "/ɪnˈskraɪb/"},
-    {"phrase": "to mythologise", "meaningVi": "huyền thoại hoá", "pronunciation": "/mɪˈθɒlədʒaɪz/"},
-    {"phrase": "tokenism", "meaningVi": "sự ghi danh chiếu lệ, làm cho có"},
-    {"phrase": "accountability", "meaningVi": "trách nhiệm giải trình"},
-    {"phrase": "vision", "meaningVi": "tầm nhìn, ý tưởng tổng thể"},
-    {"phrase": "execution", "meaningVi": "sự thi công, thực hiện"},
-    {"phrase": "to romanticise", "meaningVi": "lãng mạn hoá", "pronunciation": "/rəʊˈmæntɪsaɪz/"},
-    {"phrase": "patronage", "meaningVi": "sự bảo trợ, người chống lưng tài chính", "pronunciation": "/ˈpætrənɪdʒ/"},
-    {"phrase": "the historical record", "meaningVi": "hồ sơ lịch sử"},
-    {"phrase": "to be erased", "meaningVi": "bị xoá khỏi ký ức/hồ sơ"},
-    {"phrase": "remedy", "meaningVi": "phương cách sửa chữa, đền bù", "pronunciation": "/ˈremədi/"},
-    {"phrase": "double-edged", "meaningVi": "lợi bất cập hại, có hai mặt"},
-    {"phrase": "to do justice to", "meaningVi": "làm cho công bằng với, đối xử xứng đáng với"}
+    {
+      "phrase": "attribution",
+      "meaningVi": "việc ghi công, quy công cho ai",
+      "pronunciation": "/ˌætrɪˈbjuːʃn/"
+    },
+    {
+      "phrase": "authorship",
+      "meaningVi": "quyền tác giả, việc đứng tên sáng tạo"
+    },
+    {
+      "phrase": "collective labour",
+      "meaningVi": "lao động tập thể"
+    },
+    {
+      "phrase": "anonymity",
+      "meaningVi": "sự khuyết danh, không tên tuổi",
+      "pronunciation": "/ˌænəˈnɪməti/"
+    },
+    {
+      "phrase": "the canon",
+      "meaningVi": "danh sách kinh điển, những tên được công nhận chính thức"
+    },
+    {
+      "phrase": "to credit",
+      "meaningVi": "ghi công cho"
+    },
+    {
+      "phrase": "to efface",
+      "meaningVi": "xoá nhoà, làm mờ đi",
+      "pronunciation": "/ɪˈfeɪs/"
+    },
+    {
+      "phrase": "recognition",
+      "meaningVi": "sự công nhận, ghi nhận",
+      "pronunciation": "/ˌrekəɡˈnɪʃn/"
+    },
+    {
+      "phrase": "to subsume",
+      "meaningVi": "gộp vào, nuốt chửng dưới một cái tên lớn hơn",
+      "pronunciation": "/səbˈsjuːm/"
+    },
+    {
+      "phrase": "labour hierarchy",
+      "meaningVi": "thứ bậc lao động"
+    },
+    {
+      "phrase": "the artisan",
+      "meaningVi": "người thợ thủ công lành nghề",
+      "pronunciation": "/ˌɑːtɪˈzæn/"
+    },
+    {
+      "phrase": "stonemason",
+      "meaningVi": "thợ đẽo đá, thợ xây đá"
+    },
+    {
+      "phrase": "to commemorate",
+      "meaningVi": "tưởng niệm, ghi danh",
+      "pronunciation": "/kəˈmeməreɪt/"
+    },
+    {
+      "phrase": "to apportion",
+      "meaningVi": "phân chia (công lao, trách nhiệm)",
+      "pronunciation": "/əˈpɔːʃn/"
+    },
+    {
+      "phrase": "single point of credit",
+      "meaningVi": "một đầu mối duy nhất để ghi công"
+    },
+    {
+      "phrase": "legibility",
+      "meaningVi": "tính dễ đọc, dễ nắm bắt",
+      "pronunciation": "/ˌledʒəˈbɪləti/"
+    },
+    {
+      "phrase": "the named and the unnamed",
+      "meaningVi": "kẻ có tên và kẻ không tên"
+    },
+    {
+      "phrase": "to flatten",
+      "meaningVi": "san phẳng, làm cho mất sắc thái"
+    },
+    {
+      "phrase": "distributed authorship",
+      "meaningVi": "quyền tác giả phân tán cho nhiều người"
+    },
+    {
+      "phrase": "to inscribe",
+      "meaningVi": "khắc lên, ghi tạc",
+      "pronunciation": "/ɪnˈskraɪb/"
+    },
+    {
+      "phrase": "to mythologise",
+      "meaningVi": "huyền thoại hoá",
+      "pronunciation": "/mɪˈθɒlədʒaɪz/"
+    },
+    {
+      "phrase": "tokenism",
+      "meaningVi": "sự ghi danh chiếu lệ, làm cho có"
+    },
+    {
+      "phrase": "accountability",
+      "meaningVi": "trách nhiệm giải trình"
+    },
+    {
+      "phrase": "vision",
+      "meaningVi": "tầm nhìn, ý tưởng tổng thể"
+    },
+    {
+      "phrase": "execution",
+      "meaningVi": "sự thi công, thực hiện"
+    },
+    {
+      "phrase": "to romanticise",
+      "meaningVi": "lãng mạn hoá",
+      "pronunciation": "/rəʊˈmæntɪsaɪz/"
+    },
+    {
+      "phrase": "patronage",
+      "meaningVi": "sự bảo trợ, người chống lưng tài chính",
+      "pronunciation": "/ˈpætrənɪdʒ/"
+    },
+    {
+      "phrase": "the historical record",
+      "meaningVi": "hồ sơ lịch sử"
+    },
+    {
+      "phrase": "to be erased",
+      "meaningVi": "bị xoá khỏi ký ức/hồ sơ"
+    },
+    {
+      "phrase": "remedy",
+      "meaningVi": "phương cách sửa chữa, đền bù",
+      "pronunciation": "/ˈremədi/"
+    },
+    {
+      "phrase": "double-edged",
+      "meaningVi": "lợi bất cập hại, có hai mặt"
+    },
+    {
+      "phrase": "to do justice to",
+      "meaningVi": "làm cho công bằng với, đối xử xứng đáng với"
+    }
   ],
   "sampleText": "On the foundation stone of a cathedral I once spent a winter drawing, a single name is cut deep into the limestone, and beneath it a date. The man it commemorates drew the elevations and died before the nave was vaulted. The two hundred or so people who actually raised the building — the masons who cut each voussoir to a tolerance the eye cannot detect, the carver who gave the north porch its grotesques, the labourers whose names survive, if at all, only in a paymaster's ledger as a wage and a tally of days — left nothing on the stone. The name on the foundation stone is not a lie, exactly; it is a convention, and conventions do work that lies cannot. The question worth asking is what work this one does, and for whom.\n\nThe obvious critique is that the single name effaces the many, and that critique is largely right. Attribution to one designer subsumes the distributed authorship of the actual making, and it does so along a familiar line: the man who drew is remembered, the men who cut are not, and the division tracks, with depressing fidelity, the labour hierarchy that paid the first more and the rest by the day. To inscribe one name is to decide, in advance, that vision outranks execution — that the idea of a vault is the cathedral, and the centuries of skilled hands that made the idea stand up are merely its instrument. There is an ideology in that ordering, and it did not arrive innocently.\n\nAnd yet I want to resist the conclusion that the convention is simply an injustice to be corrected, because the obvious correction turns out to be stranger than it looks. It is easy to demand that every hand be credited, and harder to notice what such crediting would actually do. Suppose we carved all two hundred names. Most would be names and nothing more — a wage, a tally of days, no face, no biography, no recoverable share of the result. We would not have restored these people to memory; we would have produced a list, and a list of names without lives is its own kind of effacement, the appearance of recognition standing in for the thing itself. The single name at least carries a story we can hold. The honest difficulty is that the historical record we would need in order to credit the makers fairly is precisely the record that the same hierarchy declined to keep. You cannot undo an erasure with the materials the erasure left you.\n\nThere is a further complication, and it cuts against my own sympathies. The single point of credit is not only a theft; it is also a piece of useful machinery. It gives the building a legible author — someone to praise, someone to blame, a name around which a coherent account can form. Distributed authorship, whatever its justice, is hard to think with. A cathedral attributed to everyone is, for most practical purposes, attributed to no one, and a work attributed to no one tends to be cared for by no one. Legibility, even unjust legibility, does something for a building's survival that an accurate but unusable ledger of two hundred names would not.\n\nSo where does this leave the critique? Not, I think, abandoned. The convention deserves to be named for what it is — a choice that privileges design over labour and then disguises the choice as a fact about how buildings are authored. To say 'the architect built it' is to perform that disguise every time. But the remedy is not a longer list of names; it is a change in how we hold the single name. We can keep the legibility and refuse the myth — remember the designer while remembering, too, that the word built is doing an enormous amount of quiet lifting, and that under it stand two hundred people whose skill the building still depends on and whose names the building will never carry.\n\nWhat I am left recommending is therefore modest and, I admit, unsatisfying. Not the abolition of the single name, which serves real functions, and not its naive multiplication, which would honour no one. Something closer to an honest caption: this building is signed by one and was made by many, and the gap between signing and making is not an accident of the record but a decision the record was built to hide. I cannot give the masons their names back. I can decline to let the foundation stone tell me that they never had any.",
   "sampleAnnotations": [
-    {"phrase": "a single name is cut deep into the limestone", "meaningVi": "một cái tên duy nhất được khắc sâu vào đá vôi"},
-    {"phrase": "The man it commemorates drew the elevations and died before the nave was vaulted", "meaningVi": "Người được ghi danh đã vẽ các mặt đứng và qua đời trước khi gian giữa được dựng vòm"},
-    {"phrase": "the masons who cut each voussoir to a tolerance the eye cannot detect", "meaningVi": "những người thợ đá đẽo từng viên đá hình nêm với độ sai lệch mà mắt không nhận ra được"},
-    {"phrase": "only in a paymaster's ledger as a wage and a tally of days", "meaningVi": "chỉ trong sổ của người phát lương như một khoản tiền công và một bảng đếm số ngày"},
-    {"phrase": "is not a lie, exactly; it is a convention, and conventions do work that lies cannot", "meaningVi": "không hẳn là một lời dối trá; nó là một quy ước, và các quy ước làm được việc mà lời dối không làm được"},
-    {"phrase": "what work this one does, and for whom", "meaningVi": "quy ước này làm việc gì, và làm cho ai"},
-    {"phrase": "the single name effaces the many", "meaningVi": "cái tên duy nhất xoá nhoà số đông"},
-    {"phrase": "subsumes the distributed authorship of the actual making", "meaningVi": "gộp nuốt quyền tác giả phân tán của việc tạo tác thực sự"},
-    {"phrase": "the division tracks, with depressing fidelity, the labour hierarchy", "meaningVi": "sự phân chia ấy bám sát, với một độ trung thực đáng buồn, theo thứ bậc lao động"},
-    {"phrase": "To inscribe one name is to decide, in advance, that vision outranks execution", "meaningVi": "Khắc lên một cái tên là quyết định, từ trước, rằng tầm nhìn cao hơn sự thi công"},
-    {"phrase": "There is an ideology in that ordering, and it did not arrive innocently", "meaningVi": "Có một hệ tư tưởng trong cái trật tự ấy, và nó không đến một cách vô tội"},
-    {"phrase": "the obvious correction turns out to be stranger than it looks", "meaningVi": "cách sửa hiển nhiên hoá ra lại kỳ lạ hơn vẻ ngoài của nó"},
-    {"phrase": "It is easy to demand that every hand be credited", "meaningVi": "Thật dễ để đòi ghi công cho từng bàn tay"},
-    {"phrase": "a list of names without lives is its own kind of effacement", "meaningVi": "một danh sách những cái tên không có cuộc đời lại là một kiểu xoá nhoà của riêng nó"},
-    {"phrase": "the appearance of recognition standing in for the thing itself", "meaningVi": "cái vẻ ngoài của sự công nhận thay thế cho chính điều thực sự"},
-    {"phrase": "The single name at least carries a story we can hold", "meaningVi": "Cái tên duy nhất ít ra còn mang theo một câu chuyện ta có thể nắm bắt"},
-    {"phrase": "the historical record we would need in order to credit the makers fairly is precisely the record that the same hierarchy declined to keep", "meaningVi": "hồ sơ lịch sử mà ta cần để ghi công cho những người làm ra nó một cách công bằng lại đúng là hồ sơ mà chính thứ bậc đó đã từ chối lưu giữ"},
-    {"phrase": "You cannot undo an erasure with the materials the erasure left you", "meaningVi": "Bạn không thể đảo ngược một sự xoá bỏ bằng chính những vật liệu mà sự xoá bỏ đó để lại cho bạn"},
-    {"phrase": "it cuts against my own sympathies", "meaningVi": "nó đi ngược lại chính những thiện cảm của tôi"},
-    {"phrase": "The single point of credit is not only a theft; it is also a piece of useful machinery", "meaningVi": "Một đầu mối duy nhất để ghi công không chỉ là một sự đánh cắp; nó còn là một cỗ máy hữu dụng"},
-    {"phrase": "It gives the building a legible author", "meaningVi": "Nó cho toà nhà một tác giả dễ nắm bắt"},
-    {"phrase": "Distributed authorship, whatever its justice, is hard to think with", "meaningVi": "Quyền tác giả phân tán, dù có công bằng đến đâu, vẫn khó dùng để suy nghĩ"},
-    {"phrase": "a work attributed to no one tends to be cared for by no one", "meaningVi": "một tác phẩm không quy công cho ai thường chẳng được ai chăm lo"},
-    {"phrase": "Legibility, even unjust legibility, does something for a building's survival", "meaningVi": "Tính dễ nắm bắt, kể cả khi bất công, vẫn làm được điều gì đó cho sự tồn tại của một toà nhà"},
-    {"phrase": "So where does this leave the critique?", "meaningVi": "Vậy điều này đặt sự phê phán vào đâu?"},
-    {"phrase": "a choice that privileges design over labour and then disguises the choice as a fact", "meaningVi": "một lựa chọn ưu ái thiết kế hơn lao động rồi nguỵ trang lựa chọn ấy thành một sự thật"},
-    {"phrase": "the word built is doing an enormous amount of quiet lifting", "meaningVi": "chữ 'xây' đang gánh một khối lượng công việc khổng lồ một cách lặng lẽ"},
-    {"phrase": "What I am left recommending is therefore modest and, I admit, unsatisfying", "meaningVi": "Vậy nên điều tôi rốt cuộc đề xuất là khiêm tốn và, tôi thừa nhận, không thoả mãn"},
-    {"phrase": "not its naive multiplication, which would honour no one", "meaningVi": "cũng không phải sự nhân lên ngây thơ của nó, vốn chẳng tôn vinh được ai"},
-    {"phrase": "the gap between signing and making is not an accident of the record but a decision the record was built to hide", "meaningVi": "khoảng cách giữa việc ký tên và việc làm ra không phải là một sai sót của hồ sơ mà là một quyết định mà hồ sơ được dựng lên để che giấu"},
-    {"phrase": "I cannot give the masons their names back", "meaningVi": "Tôi không thể trả lại tên cho những người thợ đá"},
-    {"phrase": "I can decline to let the foundation stone tell me that they never had any", "meaningVi": "Tôi có thể từ chối để hòn đá nền nói với tôi rằng họ chưa từng có tên"}
+    {
+      "phrase": "a single name is cut deep into the limestone",
+      "meaningVi": "một cái tên duy nhất được khắc sâu vào đá vôi"
+    },
+    {
+      "phrase": "The man it commemorates drew the elevations and died before the nave was vaulted",
+      "meaningVi": "Người được ghi danh đã vẽ các mặt đứng và qua đời trước khi gian giữa được dựng vòm"
+    },
+    {
+      "phrase": "the masons who cut each voussoir to a tolerance the eye cannot detect",
+      "meaningVi": "những người thợ đá đẽo từng viên đá hình nêm với độ sai lệch mà mắt không nhận ra được"
+    },
+    {
+      "phrase": "only in a paymaster's ledger as a wage and a tally of days",
+      "meaningVi": "chỉ trong sổ của người phát lương như một khoản tiền công và một bảng đếm số ngày"
+    },
+    {
+      "phrase": "is not a lie, exactly; it is a convention, and conventions do work that lies cannot",
+      "meaningVi": "không hẳn là một lời dối trá; nó là một quy ước, và các quy ước làm được việc mà lời dối không làm được"
+    },
+    {
+      "phrase": "what work this one does, and for whom",
+      "meaningVi": "quy ước này làm việc gì, và làm cho ai"
+    },
+    {
+      "phrase": "the single name effaces the many",
+      "meaningVi": "cái tên duy nhất xoá nhoà số đông"
+    },
+    {
+      "phrase": "subsumes the distributed authorship of the actual making",
+      "meaningVi": "gộp nuốt quyền tác giả phân tán của việc tạo tác thực sự"
+    },
+    {
+      "phrase": "the division tracks, with depressing fidelity, the labour hierarchy",
+      "meaningVi": "sự phân chia ấy bám sát, với một độ trung thực đáng buồn, theo thứ bậc lao động"
+    },
+    {
+      "phrase": "To inscribe one name is to decide, in advance, that vision outranks execution",
+      "meaningVi": "Khắc lên một cái tên là quyết định, từ trước, rằng tầm nhìn cao hơn sự thi công"
+    },
+    {
+      "phrase": "There is an ideology in that ordering, and it did not arrive innocently",
+      "meaningVi": "Có một hệ tư tưởng trong cái trật tự ấy, và nó không đến một cách vô tội"
+    },
+    {
+      "phrase": "the obvious correction turns out to be stranger than it looks",
+      "meaningVi": "cách sửa hiển nhiên hoá ra lại kỳ lạ hơn vẻ ngoài của nó"
+    },
+    {
+      "phrase": "It is easy to demand that every hand be credited",
+      "meaningVi": "Thật dễ để đòi ghi công cho từng bàn tay"
+    },
+    {
+      "phrase": "a list of names without lives is its own kind of effacement",
+      "meaningVi": "một danh sách những cái tên không có cuộc đời lại là một kiểu xoá nhoà của riêng nó"
+    },
+    {
+      "phrase": "the appearance of recognition standing in for the thing itself",
+      "meaningVi": "cái vẻ ngoài của sự công nhận thay thế cho chính điều thực sự"
+    },
+    {
+      "phrase": "The single name at least carries a story we can hold",
+      "meaningVi": "Cái tên duy nhất ít ra còn mang theo một câu chuyện ta có thể nắm bắt"
+    },
+    {
+      "phrase": "the historical record we would need in order to credit the makers fairly is precisely the record that the same hierarchy declined to keep",
+      "meaningVi": "hồ sơ lịch sử mà ta cần để ghi công cho những người làm ra nó một cách công bằng lại đúng là hồ sơ mà chính thứ bậc đó đã từ chối lưu giữ"
+    },
+    {
+      "phrase": "You cannot undo an erasure with the materials the erasure left you",
+      "meaningVi": "Bạn không thể đảo ngược một sự xoá bỏ bằng chính những vật liệu mà sự xoá bỏ đó để lại cho bạn"
+    },
+    {
+      "phrase": "it cuts against my own sympathies",
+      "meaningVi": "nó đi ngược lại chính những thiện cảm của tôi"
+    },
+    {
+      "phrase": "The single point of credit is not only a theft; it is also a piece of useful machinery",
+      "meaningVi": "Một đầu mối duy nhất để ghi công không chỉ là một sự đánh cắp; nó còn là một cỗ máy hữu dụng"
+    },
+    {
+      "phrase": "It gives the building a legible author",
+      "meaningVi": "Nó cho toà nhà một tác giả dễ nắm bắt"
+    },
+    {
+      "phrase": "Distributed authorship, whatever its justice, is hard to think with",
+      "meaningVi": "Quyền tác giả phân tán, dù có công bằng đến đâu, vẫn khó dùng để suy nghĩ"
+    },
+    {
+      "phrase": "a work attributed to no one tends to be cared for by no one",
+      "meaningVi": "một tác phẩm không quy công cho ai thường chẳng được ai chăm lo"
+    },
+    {
+      "phrase": "Legibility, even unjust legibility, does something for a building's survival",
+      "meaningVi": "Tính dễ nắm bắt, kể cả khi bất công, vẫn làm được điều gì đó cho sự tồn tại của một toà nhà"
+    },
+    {
+      "phrase": "So where does this leave the critique?",
+      "meaningVi": "Vậy điều này đặt sự phê phán vào đâu?"
+    },
+    {
+      "phrase": "a choice that privileges design over labour and then disguises the choice as a fact",
+      "meaningVi": "một lựa chọn ưu ái thiết kế hơn lao động rồi nguỵ trang lựa chọn ấy thành một sự thật"
+    },
+    {
+      "phrase": "the word built is doing an enormous amount of quiet lifting",
+      "meaningVi": "chữ 'xây' đang gánh một khối lượng công việc khổng lồ một cách lặng lẽ"
+    },
+    {
+      "phrase": "What I am left recommending is therefore modest and, I admit, unsatisfying",
+      "meaningVi": "Vậy nên điều tôi rốt cuộc đề xuất là khiêm tốn và, tôi thừa nhận, không thoả mãn"
+    },
+    {
+      "phrase": "not its naive multiplication, which would honour no one",
+      "meaningVi": "cũng không phải sự nhân lên ngây thơ của nó, vốn chẳng tôn vinh được ai"
+    },
+    {
+      "phrase": "the gap between signing and making is not an accident of the record but a decision the record was built to hide",
+      "meaningVi": "khoảng cách giữa việc ký tên và việc làm ra không phải là một sai sót của hồ sơ mà là một quyết định mà hồ sơ được dựng lên để che giấu"
+    },
+    {
+      "phrase": "I cannot give the masons their names back",
+      "meaningVi": "Tôi không thể trả lại tên cho những người thợ đá"
+    },
+    {
+      "phrase": "I can decline to let the foundation stone tell me that they never had any",
+      "meaningVi": "Tôi có thể từ chối để hòn đá nền nói với tôi rằng họ chưa từng có tên"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -101,11 +311,11 @@
       "prompt": "What is the essay's central critique?",
       "options": [
         "That cathedrals are too expensive to build today.",
-        "That attaching one architect's name to a building made by hundreds privileges design over labour and disguises that choice as a fact about authorship.",
         "That medieval masons were unskilled.",
+        "That attaching one architect's name to a building made by hundreds privileges design over labour and disguises that choice as a fact about authorship.",
         "That foundation stones should be made of granite, not limestone."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay critiques the convention as 'a choice that privileges design over labour and then disguises the choice as a fact'.",
       "hint": "Look at what the essay says the convention 'deserves to be named for'."
     },
@@ -114,11 +324,11 @@
       "prompt": "Why does the essay resist the demand to simply 'credit everyone'?",
       "options": [
         "Because there is no space on the stone for more names.",
-        "Because crediting two hundred bare names would produce a list of names without lives — its own kind of effacement — and the record needed to credit them fairly was never kept.",
         "Because the masons did not want recognition.",
-        "Because the architect deserves all the credit anyway."
+        "Because the architect deserves all the credit anyway.",
+        "Because crediting two hundred bare names would produce a list of names without lives — its own kind of effacement — and the record needed to credit them fairly was never kept."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The third paragraph: a list of names without lives is effacement, and 'you cannot undo an erasure with the materials the erasure left you'.",
       "hint": "What would a list of bare names actually amount to?"
     },
@@ -126,12 +336,12 @@
       "id": "q3",
       "prompt": "What does the essay concede in favour of the single name?",
       "options": [
-        "That the architect worked harder than anyone else.",
         "That a single point of credit is useful machinery — it gives a legible author to praise, blame, and care for the building.",
+        "That the architect worked harder than anyone else.",
         "That medieval records are perfectly accurate.",
         "That distributed authorship is impossible to imagine."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The fourth paragraph grants that legibility, even unjust, helps a building's survival: a work attributed to no one is cared for by no one.",
       "hint": "Look at where the writer says the single name is 'useful machinery'."
     },
@@ -140,11 +350,11 @@
       "prompt": "Which option demonstrates the complex concession the prompt requires?",
       "options": [
         "Architects are thieves and should be erased from history.",
-        "There are advantages and disadvantages to naming buildings.",
         "And yet I want to resist the conclusion that the convention is simply an injustice to be corrected, because the obvious correction turns out to be stranger than it looks.",
+        "There are advantages and disadvantages to naming buildings.",
         "Every name should always be carved on every building."
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "explanation": "Option C grants the critique's force, then complicates the obvious remedy — a layered concession rather than a simple stance.",
       "hint": "Look for a turn that complicates the writer's own side of the argument."
     },
@@ -166,11 +376,11 @@
       "prompt": "Which sentence uses antithesis with parallel structure, as in the grammar notes?",
       "options": [
         "The cathedral took many years to complete.",
-        "The man who drew is remembered, the men who cut are not.",
         "Although it was cold, I drew the cathedral all winter.",
-        "The masons worked hard on the porch carvings."
+        "The masons worked hard on the porch carvings.",
+        "The man who drew is remembered, the men who cut are not."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'The man who drew is remembered, the men who cut are not' sets matched clauses in opposition — antithesis compressing the critique.",
       "hint": "Look for two balanced clauses with opposed meanings."
     },
@@ -178,12 +388,12 @@
       "id": "q7",
       "prompt": "Which option uses the best cohesion to follow 'It is easy to demand that every hand be credited'?",
       "options": [
-        "Hands are used for many tasks in construction work.",
         "and harder to notice what such crediting would actually do.",
+        "Hands are used for many tasks in construction work.",
         "Also, the cathedral had a very tall north porch.",
         "In today's world, credit is given far too freely."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Option B completes the 'easy … harder' contrast that drives the paragraph's argument; the others are off-topic or definitional filler.",
       "hint": "The sentence sets up an 'easy / harder' contrast — what completes it?"
     },
@@ -205,11 +415,11 @@
       "prompt": "Which paraphrase is closest to 'You cannot undo an erasure with the materials the erasure left you'?",
       "options": [
         "Old building materials should be recycled.",
-        "You cannot fairly restore people the record ignored, because the very record you would need was destroyed by the same act that ignored them.",
         "Erasers remove pencil marks but not ink.",
+        "You cannot fairly restore people the record ignored, because the very record you would need was destroyed by the same act that ignored them.",
         "History can always be perfectly reconstructed if we try hard."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The line says the documentation required to credit the makers is exactly what the hierarchy refused to keep; B captures this.",
       "hint": "What 'materials' are left, and why are they inadequate?"
     },
@@ -218,11 +428,11 @@
       "prompt": "What is the rhetorical function of the final sentence, 'I can decline to let the foundation stone tell me that they never had any'?",
       "options": [
         "It promises to recover all the masons' names.",
-        "It ends on a modest, qualified act of refusal — accepting the loss is irreversible while refusing the myth that the makers were never named.",
         "It blames the architect personally for the erasure.",
-        "It recommends defacing the foundation stone."
+        "It recommends defacing the foundation stone.",
+        "It ends on a modest, qualified act of refusal — accepting the loss is irreversible while refusing the myth that the makers were never named."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The close holds the paradox open: no names can be restored, but the writer refuses the stone's implied claim that there were none.",
       "hint": "The writer admits they 'cannot give the masons their names back' — what can they still do?"
     },
@@ -230,12 +440,12 @@
       "id": "q11",
       "prompt": "Why does the essay say the single name 'is not a lie, exactly; it is a convention'?",
       "options": [
-        "Because the architect's name was misspelled.",
         "Because a convention is a shared practice that does cultural work, not a false statement — and the essay wants to examine that work rather than just accuse it.",
+        "Because the architect's name was misspelled.",
         "Because conventions are always honest.",
         "Because the date beneath the name is fabricated."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The distinction lets the essay treat the naming as a working practice with effects, not a simple falsehood to debunk.",
       "hint": "What is the difference between a lie and a convention here?"
     },
@@ -257,11 +467,11 @@
       "prompt": "What does 'the word built is doing an enormous amount of quiet lifting' mean?",
       "options": [
         "That building work requires heavy physical lifting.",
-        "That the small word 'built' silently smuggles in a claim that one person made what hundreds actually made.",
         "That the word 'built' is grammatically incorrect.",
+        "That the small word 'built' silently smuggles in a claim that one person made what hundreds actually made.",
         "That cranes were used to lift the cathedral stones."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The phrase exposes how a single verb conceals the gap between one named designer and the many makers.",
       "hint": "What is the word 'built' quietly hiding when we say the architect 'built' it?"
     },
@@ -270,11 +480,11 @@
       "prompt": "Which sentence correctly uses the passive to foreground the result over the agent, in the essay's style?",
       "options": [
         "Many people they made the building over centuries.",
-        "This building is signed by one and was made by many.",
         "The building, builders made it, was very large.",
-        "By many it making was, the cathedral."
+        "By many it making was, the cathedral.",
+        "This building is signed by one and was made by many."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "Option B uses two clean passives to set 'signed by one' against 'made by many', foregrounding the contrast; the others are ungrammatical.",
       "hint": "Look for the grammatical passive that puts the building first and contrasts one with many."
     },
@@ -282,12 +492,12 @@
       "id": "q15",
       "prompt": "Which option preserves the essay's qualified judgement rather than overstating it?",
       "options": [
-        "The convention is pure evil and must be destroyed immediately.",
         "What I am left recommending is therefore modest and, I admit, unsatisfying.",
+        "The convention is pure evil and must be destroyed immediately.",
         "There is absolutely nothing wrong with crediting one person.",
         "All historical attribution is meaningless and should be ignored."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Option B admits the limits of its own recommendation — the qualified, hedged stance the prompt requires.",
       "hint": "Look for the option that concedes its own conclusion is imperfect."
     },

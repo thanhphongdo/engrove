@@ -1,0 +1,509 @@
+{
+  "id": "writing-c1-105",
+  "level": "C1",
+  "title": "The coast that defends itself",
+  "summary": "Explain how a living oyster reef can hold a shoreline better than concrete in a Gulf-coast estuary — and weigh the awkward tradeoff that a defence which grows is also a defence that can die.",
+  "tags": [
+    "Explain",
+    "Sustainable technology",
+    "Coast"
+  ],
+  "topic": "Living shoreline reefs as an alternative to hard sea defences",
+  "prompt": "Write a 600–800-word explanatory essay about a 'living shoreline' — an engineered oyster or shellfish reef built to absorb wave energy and slow erosion — set in a concrete coastal place (e.g. a Gulf or delta estuary). Explain the mechanism clearly to a non-specialist, then confront the genuine tradeoff: a living defence adapts and self-repairs but can also be killed by the very conditions it is meant to outlast. Use hedging, cause-and-effect cohesion, nominalization, and reach a qualified judgement rather than a slogan.",
+  "minWords": 600,
+  "maxWords": 800,
+  "hintStarters": [
+    "A sea wall and a reef solve the same problem in opposite ways: the wall refuses the wave, whereas the reef…",
+    "The appeal of a defence that grows is obvious, and easy to oversell, because what grows can also…",
+    "To understand why the engineers chose oysters over concrete, it helps to picture what a wave actually does when…"
+  ],
+  "hintVocab": [
+    {
+      "phrase": "living shoreline",
+      "meaningVi": "bờ biển sống, bờ được bảo vệ bằng hệ sinh thái"
+    },
+    {
+      "phrase": "oyster reef",
+      "meaningVi": "rạn hàu"
+    },
+    {
+      "phrase": "wave energy",
+      "meaningVi": "năng lượng sóng"
+    },
+    {
+      "phrase": "to dissipate",
+      "meaningVi": "tiêu tán, làm phân tán",
+      "pronunciation": "/ˈdɪsɪpeɪt/"
+    },
+    {
+      "phrase": "to attenuate",
+      "meaningVi": "làm suy giảm, làm dịu bớt",
+      "pronunciation": "/əˈtenjueɪt/"
+    },
+    {
+      "phrase": "erosion",
+      "meaningVi": "sự xói mòn",
+      "pronunciation": "/ɪˈrəʊʒn/"
+    },
+    {
+      "phrase": "sediment",
+      "meaningVi": "trầm tích, phù sa",
+      "pronunciation": "/ˈsedɪmənt/"
+    },
+    {
+      "phrase": "estuary",
+      "meaningVi": "cửa sông, vùng nước lợ",
+      "pronunciation": "/ˈestʃuəri/"
+    },
+    {
+      "phrase": "salt marsh",
+      "meaningVi": "đầm lầy nước mặn"
+    },
+    {
+      "phrase": "intertidal",
+      "meaningVi": "vùng giữa hai mực thuỷ triều"
+    },
+    {
+      "phrase": "to accrete",
+      "meaningVi": "bồi tụ, tích thêm dần",
+      "pronunciation": "/əˈkriːt/"
+    },
+    {
+      "phrase": "substrate",
+      "meaningVi": "lớp nền, giá thể (cho sinh vật bám)"
+    },
+    {
+      "phrase": "larvae",
+      "meaningVi": "ấu trùng",
+      "pronunciation": "/ˈlɑːviː/"
+    },
+    {
+      "phrase": "to settle (of larvae)",
+      "meaningVi": "(ấu trùng) bám định cư"
+    },
+    {
+      "phrase": "sea wall",
+      "meaningVi": "tường chắn biển, kè cứng"
+    },
+    {
+      "phrase": "rip-rap",
+      "meaningVi": "đá hộc xếp chống xói (kè đá)"
+    },
+    {
+      "phrase": "scour",
+      "meaningVi": "sự xói lở do dòng nước cuốn"
+    },
+    {
+      "phrase": "to outpace",
+      "meaningVi": "vượt nhanh hơn, theo kịp tốc độ của"
+    },
+    {
+      "phrase": "sea-level rise",
+      "meaningVi": "mực nước biển dâng"
+    },
+    {
+      "phrase": "storm surge",
+      "meaningVi": "nước dâng do bão"
+    },
+    {
+      "phrase": "resilience",
+      "meaningVi": "khả năng phục hồi, chống chịu",
+      "pronunciation": "/rɪˈzɪliəns/"
+    },
+    {
+      "phrase": "self-repairing",
+      "meaningVi": "tự sửa chữa, tự lành"
+    },
+    {
+      "phrase": "hard infrastructure",
+      "meaningVi": "hạ tầng cứng (bê tông, thép)"
+    },
+    {
+      "phrase": "to outlast",
+      "meaningVi": "tồn tại lâu hơn, trụ được lâu hơn"
+    },
+    {
+      "phrase": "salinity",
+      "meaningVi": "độ mặn",
+      "pronunciation": "/səˈlɪnəti/"
+    },
+    {
+      "phrase": "die-off",
+      "meaningVi": "đợt chết hàng loạt (của sinh vật)"
+    },
+    {
+      "phrase": "to colonise",
+      "meaningVi": "định cư, lan ra chiếm chỗ",
+      "pronunciation": "/ˈkɒlənaɪz/"
+    },
+    {
+      "phrase": "biogenic",
+      "meaningVi": "có nguồn gốc sinh học",
+      "pronunciation": "/ˌbaɪəʊˈdʒenɪk/"
+    },
+    {
+      "phrase": "maintenance",
+      "meaningVi": "sự bảo trì, duy tu"
+    },
+    {
+      "phrase": "threshold",
+      "meaningVi": "ngưỡng (giới hạn)",
+      "pronunciation": "/ˈθreʃhəʊld/"
+    },
+    {
+      "phrase": "tradeoff",
+      "meaningVi": "sự đánh đổi"
+    },
+    {
+      "phrase": "to hedge against",
+      "meaningVi": "phòng ngừa, đề phòng rủi ro"
+    }
+  ],
+  "sampleText": "On a stretch of the Gulf coast where the marsh is unravelling a few metres a year, the local restoration crew did not build a wall. They sank bags of cured oyster shell in a low ridge just offshore, parallel to the eroding bank, and then they waited. Within two seasons the ridge was no longer only shell; it was alive. Oyster larvae, drifting in the brackish water, had settled on the old shell, cemented themselves, and begun to build the very structure that was protecting the land behind them. A sea wall and a reef solve the same problem in opposite ways. The wall refuses the wave, throwing its energy back into the water, where it tends to scour the seabed at the wall's foot. The reef, by contrast, lets the wave climb its rough, broken surface and spends the wave's force in friction and turbulence, so that what reaches the marsh is a tired ripple rather than a blow.\n\nThe mechanism is worth slowing down on, because it explains why the choice was not merely sentimental. A wave carries energy proportional to the square of its height, which is why even a modest reduction in wave height at the shore translates into a large reduction in the force that tears at the bank. By breaking near the surface and forcing the water through a maze of shell, the reef attenuates the wave before it arrives. Behind that quieter water, fine sediment that the open wave would have carried away instead settles out and accretes, and the marsh grass, no longer undercut, can hold the new mud with its roots. The reef does not just resist erosion; it encourages the deposition that rebuilds the very ground it stands to protect. That is the part a wall can never do: a wall holds a line, while a reef can move the line seaward.\n\nThere is a further property that makes the living defence genuinely different, and it is the one most often turned into a slogan. The reef is self-repairing. A storm that cracks a concrete wall leaves a defect that only a contractor can mend; a storm that smashes part of a reef exposes fresh shell on which new larvae will settle, so that the structure, in effect, heals and even thickens in response to the punishment. More usefully still, a reef can grow upward. Where a fixed wall is slowly overtopped as the sea rises, a healthy reef can, in principle, accrete fast enough to keep its crest near the surface — to track sea-level rise rather than be drowned by it. A defence that builds itself, repairs itself, and rises with the water is, understandably, an attractive thing to promise.\n\nAnd that is exactly where I want to be careful, because what grows can also die. The same biology that lets the reef heal makes it conditional on staying alive, and oysters are not indifferent to their surroundings. If a river upstream is dammed and the freshwater pulse weakens, salinity rises and predators and disease that the brackish water once held back move in; if a flood does the reverse and drowns the reef in fresh water for too long, the animals suffocate. A die-off does not merely pause the protection — it removes the engine of repair. A cracked wall is still, structurally, a wall; a dead reef is a heap of loose shell that the next storm will scatter. The defence that adapts is also the defence that has a threshold beyond which it stops being a defence at all, and that threshold is set by water chemistry no engineer fully controls.\n\nSo what should we conclude? Not, I think, that the reef is a gimmick, nor that it is a substitute for every wall. Where waves are large and the shoreline must not move a centimetre — at a port, beneath a road — concrete is still the honest answer. But along soft, retreating coasts where the alternative is to armour the bank, lose the marsh, and pay forever to repair a structure that fights the sea head-on, a living shoreline does something a wall cannot: it enlists the very forces it is meant to withstand. The catch is that this only works if we keep the conditions for life within bounds, which means the reef is not a way to stop managing the coast but a different, and in some ways more demanding, way to manage it. We would be trading a defence that fails predictably for one that mostly maintains itself but can collapse if we are careless upstream. That is a real bargain, not a free one, and it is worth taking only by people willing to admit what it costs.",
+  "sampleAnnotations": [
+    {
+      "phrase": "the local restoration crew did not build a wall",
+      "meaningVi": "đội phục hồi địa phương đã không xây một bức tường"
+    },
+    {
+      "phrase": "They sank bags of cured oyster shell in a low ridge just offshore",
+      "meaningVi": "Họ thả chìm những bao vỏ hàu đã xử lý thành một gờ thấp ngay ngoài khơi"
+    },
+    {
+      "phrase": "Oyster larvae, drifting in the brackish water, had settled on the old shell",
+      "meaningVi": "Ấu trùng hàu, trôi dạt trong làn nước lợ, đã bám định cư trên lớp vỏ cũ"
+    },
+    {
+      "phrase": "A sea wall and a reef solve the same problem in opposite ways",
+      "meaningVi": "Một bức tường chắn biển và một rạn hàu giải cùng một bài toán theo hai cách trái ngược"
+    },
+    {
+      "phrase": "The wall refuses the wave, throwing its energy back into the water",
+      "meaningVi": "Bức tường khước từ con sóng, hắt năng lượng của nó trở lại nước"
+    },
+    {
+      "phrase": "spends the wave's force in friction and turbulence",
+      "meaningVi": "tiêu hao lực của con sóng vào ma sát và sự xoáy động"
+    },
+    {
+      "phrase": "what reaches the marsh is a tired ripple rather than a blow",
+      "meaningVi": "thứ chạm tới đầm lầy chỉ là một gợn sóng mệt mỏi chứ không phải một cú đánh"
+    },
+    {
+      "phrase": "A wave carries energy proportional to the square of its height",
+      "meaningVi": "Một con sóng mang năng lượng tỉ lệ với bình phương chiều cao của nó"
+    },
+    {
+      "phrase": "the reef attenuates the wave before it arrives",
+      "meaningVi": "rạn hàu làm suy giảm con sóng trước khi nó ập tới"
+    },
+    {
+      "phrase": "fine sediment that the open wave would have carried away instead settles out and accretes",
+      "meaningVi": "trầm tích mịn mà con sóng ngoài khơi lẽ ra đã cuốn đi thì lại lắng xuống và bồi tụ"
+    },
+    {
+      "phrase": "the marsh grass, no longer undercut, can hold the new mud with its roots",
+      "meaningVi": "cỏ đầm lầy, không còn bị xói chân, có thể giữ lớp bùn mới bằng rễ của nó"
+    },
+    {
+      "phrase": "it encourages the deposition that rebuilds the very ground it stands to protect",
+      "meaningVi": "nó thúc đẩy sự bồi lắng tái tạo lại chính mảnh đất mà nó đứng ra bảo vệ"
+    },
+    {
+      "phrase": "a wall holds a line, while a reef can move the line seaward",
+      "meaningVi": "một bức tường giữ một ranh giới, còn một rạn hàu có thể đẩy ranh giới ấy ra phía biển"
+    },
+    {
+      "phrase": "The reef is self-repairing",
+      "meaningVi": "Rạn hàu tự sửa chữa"
+    },
+    {
+      "phrase": "exposes fresh shell on which new larvae will settle",
+      "meaningVi": "để lộ lớp vỏ mới mà ấu trùng mới sẽ bám vào"
+    },
+    {
+      "phrase": "the structure, in effect, heals and even thickens in response to the punishment",
+      "meaningVi": "cấu trúc ấy, trên thực tế, tự lành và thậm chí dày lên để đáp lại sự trừng phạt"
+    },
+    {
+      "phrase": "a healthy reef can, in principle, accrete fast enough to keep its crest near the surface",
+      "meaningVi": "một rạn hàu khoẻ mạnh, về nguyên tắc, có thể bồi tụ đủ nhanh để giữ đỉnh của nó gần mặt nước"
+    },
+    {
+      "phrase": "to track sea-level rise rather than be drowned by it",
+      "meaningVi": "đi theo mực nước biển dâng thay vì bị nó nhấn chìm"
+    },
+    {
+      "phrase": "what grows can also die",
+      "meaningVi": "thứ gì mọc lên được thì cũng có thể chết đi"
+    },
+    {
+      "phrase": "makes it conditional on staying alive",
+      "meaningVi": "khiến nó phụ thuộc vào việc còn sống"
+    },
+    {
+      "phrase": "salinity rises and predators and disease that the brackish water once held back move in",
+      "meaningVi": "độ mặn tăng lên và những loài săn mồi cùng bệnh tật mà nước lợ từng kìm giữ thì tràn vào"
+    },
+    {
+      "phrase": "A die-off does not merely pause the protection — it removes the engine of repair",
+      "meaningVi": "Một đợt chết hàng loạt không chỉ tạm dừng sự bảo vệ — nó loại bỏ cỗ máy sửa chữa"
+    },
+    {
+      "phrase": "a dead reef is a heap of loose shell that the next storm will scatter",
+      "meaningVi": "một rạn hàu chết là một đống vỏ rời mà cơn bão tiếp theo sẽ thổi tung"
+    },
+    {
+      "phrase": "a threshold beyond which it stops being a defence at all",
+      "meaningVi": "một ngưỡng mà vượt qua nó thì nó không còn là một hàng phòng vệ nữa"
+    },
+    {
+      "phrase": "concrete is still the honest answer",
+      "meaningVi": "bê tông vẫn là câu trả lời trung thực"
+    },
+    {
+      "phrase": "it enlists the very forces it is meant to withstand",
+      "meaningVi": "nó tranh thủ chính những lực mà nó được dựng lên để chống chịu"
+    },
+    {
+      "phrase": "the reef is not a way to stop managing the coast but a different, and in some ways more demanding, way to manage it",
+      "meaningVi": "rạn hàu không phải là cách để thôi quản lý bờ biển mà là một cách quản lý khác, và theo vài phương diện còn đòi hỏi nhiều hơn"
+    },
+    {
+      "phrase": "trading a defence that fails predictably for one that mostly maintains itself",
+      "meaningVi": "đổi một hàng phòng vệ thất bại một cách có thể đoán trước lấy một hàng phòng vệ phần lớn tự duy trì"
+    },
+    {
+      "phrase": "That is a real bargain, not a free one",
+      "meaningVi": "Đó là một sự mặc cả thật sự, không phải một thứ miễn phí"
+    },
+    {
+      "phrase": "the freshwater pulse weakens",
+      "meaningVi": "dòng nước ngọt đổ về yếu đi"
+    }
+  ],
+  "sampleGrammarNotes": [
+    {
+      "title": "Cause-and-effect cohesion to walk through a mechanism",
+      "bodyVi": "Tác giả nối các bước nhân-quả bằng 'so that', 'which is why', 'instead', và 'in response to': ví dụ 'spends the wave's force in friction and turbulence, so that what reaches the marsh is a tired ripple'. Chuỗi liên kết nhân-quả này dẫn người đọc không chuyên qua từng mắt xích của cơ chế mà không cần thuật ngữ rườm rà — kỹ năng giải thích cốt lõi ở C1.",
+      "bodyEn": "The writer links causal steps with 'so that', 'which is why', 'instead', and 'in response to': e.g. 'spends the wave's force in friction and turbulence, so that what reaches the marsh is a tired ripple'. This chain of cause-and-effect connectors walks the non-specialist through each link of the mechanism without heavy jargon — a core C1 explanatory skill."
+    },
+    {
+      "title": "Antithesis to contrast two designs",
+      "bodyVi": "Câu 'a wall holds a line, while a reef can move the line seaward' và 'A cracked wall is still, structurally, a wall; a dead reef is a heap of loose shell' dùng phép đối với cấu trúc song hành để nén sự tương phản giữa hai giải pháp vào một nhịp. Phép đối này làm rõ sự đánh đổi mà không cần liệt kê dài dòng.",
+      "bodyEn": "Sentences like 'a wall holds a line, while a reef can move the line seaward' and 'A cracked wall is still, structurally, a wall; a dead reef is a heap of loose shell' use antithesis with parallel structure to compress the contrast between the two solutions into one rhythm. The device clarifies the tradeoff without a long list."
+    }
+  ],
+  "sampleTranslationVi": "Trên một đoạn bờ biển vùng Vịnh nơi đầm lầy đang tan rã vài mét mỗi năm, đội phục hồi địa phương đã không xây một bức tường. Họ thả chìm những bao vỏ hàu đã xử lý thành một gờ thấp ngay ngoài khơi, song song với bờ đang xói, rồi họ chờ đợi. Trong vòng hai mùa, cái gờ ấy không còn chỉ là vỏ; nó đã sống. Ấu trùng hàu, trôi dạt trong làn nước lợ, đã bám định cư trên lớp vỏ cũ, tự gắn mình lại, và bắt đầu xây dựng chính cái cấu trúc đang bảo vệ vùng đất phía sau chúng. Một bức tường chắn biển và một rạn hàu giải cùng một bài toán theo hai cách trái ngược. Bức tường khước từ con sóng, hắt năng lượng của nó trở lại nước, nơi nó thường xói mòn đáy biển ngay dưới chân tường. Rạn hàu, ngược lại, để con sóng leo lên bề mặt gồ ghề, vỡ vụn của nó và tiêu hao lực của con sóng vào ma sát và sự xoáy động, để thứ chạm tới đầm lầy chỉ là một gợn sóng mệt mỏi chứ không phải một cú đánh.\n\nCơ chế này đáng để chậm lại mà xem xét, vì nó giải thích vì sao lựa chọn ấy không chỉ là cảm tính. Một con sóng mang năng lượng tỉ lệ với bình phương chiều cao của nó, đó là lý do vì sao chỉ một sự giảm nhỏ về chiều cao sóng ở bờ cũng chuyển thành một sự giảm lớn về lực giằng xé bờ. Bằng cách vỡ gần mặt nước và ép nước chảy qua một mê cung vỏ hàu, rạn hàu làm suy giảm con sóng trước khi nó ập tới. Phía sau làn nước yên hơn ấy, trầm tích mịn mà con sóng ngoài khơi lẽ ra đã cuốn đi thì lại lắng xuống và bồi tụ, và cỏ đầm lầy, không còn bị xói chân, có thể giữ lớp bùn mới bằng rễ của nó. Rạn hàu không chỉ chống lại sự xói mòn; nó thúc đẩy sự bồi lắng tái tạo lại chính mảnh đất mà nó đứng ra bảo vệ. Đó là điều một bức tường không bao giờ làm được: một bức tường giữ một ranh giới, còn một rạn hàu có thể đẩy ranh giới ấy ra phía biển.\n\nCòn một đặc tính nữa khiến hàng phòng vệ sống này thực sự khác biệt, và đó là đặc tính thường bị biến thành một khẩu hiệu. Rạn hàu tự sửa chữa. Một cơn bão làm nứt một bức tường bê tông để lại một khuyết tật mà chỉ một nhà thầu mới vá được; một cơn bão đập vỡ một phần của rạn hàu thì để lộ lớp vỏ mới mà ấu trùng mới sẽ bám vào, để cấu trúc ấy, trên thực tế, tự lành và thậm chí dày lên để đáp lại sự trừng phạt. Hữu ích hơn nữa, một rạn hàu có thể mọc lên cao. Trong khi một bức tường cố định bị nước biển dâng từ từ tràn qua đỉnh, một rạn hàu khoẻ mạnh, về nguyên tắc, có thể bồi tụ đủ nhanh để giữ đỉnh của nó gần mặt nước — để đi theo mực nước biển dâng thay vì bị nó nhấn chìm. Một hàng phòng vệ tự xây, tự sửa, và dâng lên cùng với nước thì, dễ hiểu thôi, là một thứ hấp dẫn để hứa hẹn.\n\nVà đó chính là chỗ tôi muốn thận trọng, vì thứ gì mọc lên được thì cũng có thể chết đi. Chính cái sinh học cho phép rạn hàu tự lành lại khiến nó phụ thuộc vào việc còn sống, và hàu không hề thờ ơ với môi trường xung quanh. Nếu một con sông phía thượng nguồn bị chặn dòng và dòng nước ngọt đổ về yếu đi, độ mặn tăng lên và những loài săn mồi cùng bệnh tật mà nước lợ từng kìm giữ thì tràn vào; nếu một trận lụt làm điều ngược lại và nhấn chìm rạn hàu trong nước ngọt quá lâu, các con vật sẽ ngạt thở. Một đợt chết hàng loạt không chỉ tạm dừng sự bảo vệ — nó loại bỏ cỗ máy sửa chữa. Một bức tường nứt thì, về mặt kết cấu, vẫn là một bức tường; một rạn hàu chết là một đống vỏ rời mà cơn bão tiếp theo sẽ thổi tung. Hàng phòng vệ biết thích nghi cũng là hàng phòng vệ có một ngưỡng mà vượt qua nó thì nó không còn là một hàng phòng vệ nữa, và cái ngưỡng ấy được định bởi hoá học của nước mà không kỹ sư nào kiểm soát trọn vẹn.\n\nVậy ta nên kết luận điều gì? Tôi nghĩ không phải rằng rạn hàu là một mánh khoé, cũng không phải rằng nó là vật thay thế cho mọi bức tường. Ở những nơi sóng lớn và bờ biển không được phép dịch một xăng-ti-mét — tại một cảng, dưới một con đường — bê tông vẫn là câu trả lời trung thực. Nhưng dọc những bờ biển mềm, đang lùi dần, nơi lựa chọn còn lại là bọc thép cái bờ, mất đầm lầy, và trả tiền mãi mãi để sửa một cấu trúc chống lại biển một cách đối đầu, thì một bờ biển sống làm được điều một bức tường không làm được: nó tranh thủ chính những lực mà nó được dựng lên để chống chịu. Điều ràng buộc là cách này chỉ hiệu quả nếu ta giữ các điều kiện cho sự sống trong giới hạn, nghĩa là rạn hàu không phải là cách để thôi quản lý bờ biển mà là một cách quản lý khác, và theo vài phương diện còn đòi hỏi nhiều hơn. Ta sẽ đổi một hàng phòng vệ thất bại một cách có thể đoán trước lấy một hàng phòng vệ phần lớn tự duy trì nhưng có thể sụp đổ nếu ta bất cẩn ở thượng nguồn. Đó là một sự mặc cả thật sự, không phải một thứ miễn phí, và chỉ đáng nhận lấy bởi những người sẵn lòng thừa nhận cái giá của nó.",
+  "mcQuestions": [
+    {
+      "id": "q1",
+      "prompt": "How does the essay say a reef differs from a sea wall in handling a wave?",
+      "options": [
+        "The reef lets the wave climb its rough surface and spends the wave's force in friction and turbulence, while the wall throws the energy back and scours its own foot.",
+        "The reef reflects the wave straight back, like the wall.",
+        "The reef is taller and stronger than any wall.",
+        "The reef stops all water from reaching the shore."
+      ],
+      "answerIndex": 0,
+      "explanation": "The first paragraph contrasts the two: the wall refuses the wave; the reef dissipates its force.",
+      "hint": "What does the reef do with the wave's energy that the wall does not?"
+    },
+    {
+      "id": "q2",
+      "prompt": "Why does reducing wave height at the shore matter so much, according to the essay?",
+      "options": [
+        "Because shorter waves are easier to see.",
+        "Because a wave's energy is proportional to the square of its height, so even a modest height reduction cuts the force on the bank a great deal.",
+        "Because tall waves are colder.",
+        "Because height has no effect on erosion."
+      ],
+      "answerIndex": 1,
+      "explanation": "The second paragraph: energy is 'proportional to the square of its height', so small height reductions yield large force reductions.",
+      "hint": "Look at the relationship between wave height and energy."
+    },
+    {
+      "id": "q3",
+      "prompt": "What can a reef do that the essay says a wall 'can never do'?",
+      "options": [
+        "Be made of concrete.",
+        "Be repaired only by a contractor.",
+        "Encourage sediment to settle and accrete behind it, rebuilding the ground and moving the shoreline seaward.",
+        "Reflect waves back out to sea."
+      ],
+      "answerIndex": 2,
+      "explanation": "The second paragraph: the reef 'encourages the deposition that rebuilds the very ground it stands to protect'; a wall only holds a line.",
+      "hint": "What does the quieter water behind the reef allow?"
+    },
+    {
+      "id": "q4",
+      "prompt": "What is the central tradeoff the essay confronts?",
+      "options": [
+        "Reefs are prettier but more expensive than walls.",
+        "Reefs work only in cold water.",
+        "Walls are illegal in most estuaries.",
+        "The same biology that lets the reef heal and grow also makes it conditional on staying alive — beyond a threshold of water chemistry it can die and stop protecting at all."
+      ],
+      "answerIndex": 3,
+      "explanation": "The fourth paragraph: 'what grows can also die'; a die-off 'removes the engine of repair'.",
+      "hint": "What is the cost of a defence that has to stay alive?"
+    },
+    {
+      "id": "q5",
+      "prompt": "What is the essay's qualified final judgement?",
+      "options": [
+        "A living shoreline is a real but conditional bargain — right for soft, retreating coasts, but only for people willing to keep upstream conditions within bounds.",
+        "Reefs should replace every sea wall everywhere.",
+        "Concrete should always be preferred to reefs.",
+        "Coastal defence is a waste of money."
+      ],
+      "answerIndex": 0,
+      "explanation": "The conclusion: 'a real bargain, not a free one', worth taking only by those who admit its cost and manage conditions.",
+      "hint": "The writer rejects both 'gimmick' and 'replaces every wall' — what is the middle?"
+    },
+    {
+      "id": "q6",
+      "prompt": "Which sentence best matches the essay's hedged explanatory register?",
+      "options": [
+        "Reefs are obviously a million times better than stupid walls.",
+        "A healthy reef can, in principle, accrete fast enough to keep its crest near the surface.",
+        "Walls are total garbage and always fail, end of story.",
+        "Per coastal engineering protocol, biogenic accretion is hereby mandated."
+      ],
+      "answerIndex": 1,
+      "explanation": "Option B hedges with 'can, in principle' — a measured claim; A and C are crude, D is jargon.",
+      "hint": "Look for the claim softened by 'in principle'."
+    },
+    {
+      "id": "q7",
+      "prompt": "Which continuation gives the best cause-and-effect cohesion after 'salinity rises'?",
+      "options": [
+        "and oysters are a popular seafood in the region.",
+        "Also, the marsh grass was a lovely shade of green.",
+        "and predators and disease that the brackish water once held back move in.",
+        "In today's changing climate, everything is uncertain anyway."
+      ],
+      "answerIndex": 2,
+      "explanation": "Option B continues the causal chain (rising salinity → predators and disease arrive); the others break the cause-effect link.",
+      "hint": "What follows causally from a rise in salinity?"
+    },
+    {
+      "id": "q8",
+      "prompt": "Which paraphrase is closest to 'it enlists the very forces it is meant to withstand'?",
+      "options": [
+        "It hires workers to fight the sea.",
+        "It withstands no forces at all.",
+        "It recruits soldiers to guard the coast.",
+        "It puts the same waves and water it is built to resist to work building and feeding itself."
+      ],
+      "answerIndex": 3,
+      "explanation": "The line means the reef turns the forces it resists into the means of its own growth; B captures this.",
+      "hint": "What does the reef do with the forces it resists?"
+    },
+    {
+      "id": "q9",
+      "prompt": "Which sentence uses antithesis to contrast the two designs, as in the grammar notes?",
+      "options": [
+        "A cracked wall is still, structurally, a wall; a dead reef is a heap of loose shell that the next storm will scatter.",
+        "The crew worked on the coast for two seasons.",
+        "Oyster larvae drift in the brackish water near the bank.",
+        "The reef was built parallel to the eroding shoreline."
+      ],
+      "answerIndex": 0,
+      "explanation": "Option B sets two matched clauses in opposition to compress the tradeoff — antithesis with parallel structure.",
+      "hint": "Look for two balanced clauses with opposed meanings."
+    },
+    {
+      "id": "q10",
+      "prompt": "What does 'A die-off does not merely pause the protection — it removes the engine of repair' mean?",
+      "options": [
+        "A die-off temporarily slows the reef's growth.",
+        "When the oysters die, the reef loses not just its strength but its ability to heal itself, so damage becomes permanent.",
+        "Die-offs make the reef grow faster.",
+        "The protection continues unchanged after a die-off."
+      ],
+      "answerIndex": 1,
+      "explanation": "The line says death removes the self-repair mechanism, turning the reef into scatterable loose shell.",
+      "hint": "What does 'the engine of repair' refer to, and what happens when it stops?"
+    },
+    {
+      "id": "q11",
+      "prompt": "Why does the essay concede that 'concrete is still the honest answer' in some places?",
+      "options": [
+        "Because concrete is cheaper everywhere.",
+        "Because reefs are illegal near roads.",
+        "Because where waves are large and the shoreline must not move at all — a port, a road — a fixed hard defence is genuinely more appropriate.",
+        "Because engineers prefer concrete aesthetically."
+      ],
+      "answerIndex": 2,
+      "explanation": "The conclusion grants concrete's place where the line must not move; this is the essay's deliberate concession.",
+      "hint": "Where does the shoreline have to stay exactly fixed?"
+    },
+    {
+      "id": "q12",
+      "prompt": "Which option is grammatical, on-topic, and matches the essay's tone?",
+      "options": [
+        "Basically the oysters just do their thing and boom, coast saved.",
+        "Henceforth wave attenuation shall be effectuated via shellfish substrate.",
+        "Everyone knows walls are a total scam invented by contractors.",
+        "By breaking near the surface and forcing the water through a maze of shell, the reef attenuates the wave before it arrives."
+      ],
+      "answerIndex": 3,
+      "explanation": "Option B is precise and explanatory; A is slangy, C is jargon, D is a sweeping conspiracy claim.",
+      "hint": "Match the clear, careful explanatory voice."
+    },
+    {
+      "id": "q13",
+      "prompt": "What does 'to track sea-level rise rather than be drowned by it' describe?",
+      "options": [
+        "A living reef growing upward fast enough to keep its crest near the surface as the sea rises, instead of being overtopped.",
+        "A wall being measured by sensors.",
+        "A reef sinking deliberately to avoid storms.",
+        "Tracking storms with satellites."
+      ],
+      "answerIndex": 0,
+      "explanation": "The line contrasts a reef that accretes with the rising sea against a fixed wall that gets overtopped.",
+      "hint": "What does a growing reef do as the water gets higher?"
+    },
+    {
+      "id": "q14",
+      "prompt": "Which sentence preserves the essay's qualified judgement rather than overstating it?",
+      "options": [
+        "Living shorelines are the perfect, risk-free coastal defence.",
+        "That is a real bargain, not a free one, and it is worth taking only by people willing to admit what it costs.",
+        "Reefs never fail under any circumstances.",
+        "All coastal engineering is pointless in the long run."
+      ],
+      "answerIndex": 1,
+      "explanation": "Option B names the cost and conditions the recommendation — the hedged stance the prompt requires.",
+      "hint": "Look for the option that admits the approach has a price."
+    },
+    {
+      "id": "q15",
+      "prompt": "Which option best follows 'a wall holds a line' to complete the contrast with the reef?",
+      "options": [
+        "and walls are usually grey in colour.",
+        "and the sea was rough that winter.",
+        "while a reef can move the line seaward.",
+        "because concrete lasts a long time."
+      ],
+      "answerIndex": 2,
+      "explanation": "Option B completes the antithesis between holding a line and moving it seaward; the others break the parallel.",
+      "hint": "What is the opposite of merely 'holding a line'?"
+    },
+    {
+      "id": "q16",
+      "prompt": "Which paraphrase is closest to 'the reef is not a way to stop managing the coast but a different, and in some ways more demanding, way to manage it'?",
+      "options": [
+        "The reef ends the need for any coastal management.",
+        "Reefs require no maintenance at all.",
+        "Coastal management should be abandoned.",
+        "Choosing a reef does not free us from managing the coast; it asks for a different and sometimes harder kind of ongoing care."
+      ],
+      "answerIndex": 3,
+      "explanation": "The line stresses the reef shifts, rather than removes, the management burden; B captures this.",
+      "hint": "Does choosing a reef mean less work, or different work?"
+    }
+  ],
+  "criticalThinkingQuestion": "Living defences trade predictable failure for the chance of self-repair, at the price of staying alive. Where in your own life — a habit, a relationship, an institution — have you relied on something that 'maintains itself' as long as conditions stay within bounds? What were those bounds, and what would it take to notice you had crossed them before the thing you depended on quietly died?"
+}

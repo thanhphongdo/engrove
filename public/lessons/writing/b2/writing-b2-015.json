@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "Whether grief should be visible in public space",
   "summary": "Argue whether public expressions of grief — memorials, rituals, and collective mourning — serve a necessary social function or whether grief belongs in private.",
-  "tags": ["Grief", "Public space", "Culture", "Memory"],
+  "tags": [
+    "Grief",
+    "Public space",
+    "Culture",
+    "Memory"
+  ],
   "topic": "Whether grief should be visible in public space",
   "prompt": "Write an argumentative essay (350–500 words) on whether public expressions of grief — memorials, roadside flowers, collective vigils — serve a necessary social function or whether grief should remain private. Refer to at least one concrete example (e.g. the AIDS Memorial Quilt first displayed on the National Mall in Washington in 1987, or the spontaneous shrines left after the 2011 Tōhoku earthquake). Use a cleft sentence, a concession, and at least one passive construction. Take a clear position.",
   "minWords": 350,
@@ -15,50 +20,177 @@
     "The question is not whether grief is painful but whether it is diminished or deepened by being…"
   ],
   "hintVocab": [
-    { "phrase": "collective mourning", "meaningVi": "sự tang thương tập thể" },
-    { "phrase": "vigil", "meaningVi": "lễ thức trắng đêm / buổi tưởng niệm", "pronunciation": "/ˈvɪdʒ.ɪl/" },
-    { "phrase": "to be witnessed", "meaningVi": "được chứng kiến / được ghi nhận" },
-    { "phrase": "AIDS Memorial Quilt", "meaningVi": "Tấm chăn Tưởng niệm AIDS — tác phẩm nghệ thuật tưởng niệm nạn nhân AIDS" },
-    { "phrase": "spontaneous shrine", "meaningVi": "bàn thờ tự phát" },
-    { "phrase": "to grieve in public", "meaningVi": "đau buồn công khai" },
-    { "phrase": "to be privatised", "meaningVi": "bị tư nhân hóa / bị đẩy vào không gian riêng tư" },
-    { "phrase": "to acknowledge loss", "meaningVi": "thừa nhận / ghi nhận sự mất mát" },
-    { "phrase": "mourning ritual", "meaningVi": "nghi lễ tang thương" },
-    { "phrase": "communal", "meaningVi": "thuộc về cộng đồng / mang tính tập thể", "pronunciation": "/kəˈmjuː.nəl/" },
-    { "phrase": "to be rendered invisible", "meaningVi": "bị làm cho vô hình / không được nhìn thấy" },
-    { "phrase": "solidarity", "meaningVi": "tình đoàn kết", "pronunciation": "/ˌsɒl.ɪˈdær.ɪ.ti/" },
-    { "phrase": "to impose grief on others", "meaningVi": "áp đặt nỗi đau lên người khác" },
-    { "phrase": "cathartic", "meaningVi": "có tác dụng giải tỏa cảm xúc", "pronunciation": "/kəˈθɑː.tɪk/" },
-    { "phrase": "to be denied the right to mourn", "meaningVi": "bị từ chối quyền được thương tiếc" },
-    { "phrase": "memorial", "meaningVi": "đài tưởng niệm / vật kỷ niệm" },
-    { "phrase": "to reclaim space", "meaningVi": "lấy lại không gian / đòi lại không gian" },
-    { "phrase": "disenfranchised grief", "meaningVi": "nỗi đau không được xã hội công nhận" },
-    { "phrase": "to be stitched together", "meaningVi": "được khâu lại với nhau / được ghép lại" },
-    { "phrase": "to be made legible", "meaningVi": "được làm cho có thể đọc được / được hiển thị rõ ràng" },
-    { "phrase": "the scale of a loss", "meaningVi": "quy mô của một sự mất mát" }
+    {
+      "phrase": "collective mourning",
+      "meaningVi": "sự tang thương tập thể"
+    },
+    {
+      "phrase": "vigil",
+      "meaningVi": "lễ thức trắng đêm / buổi tưởng niệm",
+      "pronunciation": "/ˈvɪdʒ.ɪl/"
+    },
+    {
+      "phrase": "to be witnessed",
+      "meaningVi": "được chứng kiến / được ghi nhận"
+    },
+    {
+      "phrase": "AIDS Memorial Quilt",
+      "meaningVi": "Tấm chăn Tưởng niệm AIDS — tác phẩm nghệ thuật tưởng niệm nạn nhân AIDS"
+    },
+    {
+      "phrase": "spontaneous shrine",
+      "meaningVi": "bàn thờ tự phát"
+    },
+    {
+      "phrase": "to grieve in public",
+      "meaningVi": "đau buồn công khai"
+    },
+    {
+      "phrase": "to be privatised",
+      "meaningVi": "bị tư nhân hóa / bị đẩy vào không gian riêng tư"
+    },
+    {
+      "phrase": "to acknowledge loss",
+      "meaningVi": "thừa nhận / ghi nhận sự mất mát"
+    },
+    {
+      "phrase": "mourning ritual",
+      "meaningVi": "nghi lễ tang thương"
+    },
+    {
+      "phrase": "communal",
+      "meaningVi": "thuộc về cộng đồng / mang tính tập thể",
+      "pronunciation": "/kəˈmjuː.nəl/"
+    },
+    {
+      "phrase": "to be rendered invisible",
+      "meaningVi": "bị làm cho vô hình / không được nhìn thấy"
+    },
+    {
+      "phrase": "solidarity",
+      "meaningVi": "tình đoàn kết",
+      "pronunciation": "/ˌsɒl.ɪˈdær.ɪ.ti/"
+    },
+    {
+      "phrase": "to impose grief on others",
+      "meaningVi": "áp đặt nỗi đau lên người khác"
+    },
+    {
+      "phrase": "cathartic",
+      "meaningVi": "có tác dụng giải tỏa cảm xúc",
+      "pronunciation": "/kəˈθɑː.tɪk/"
+    },
+    {
+      "phrase": "to be denied the right to mourn",
+      "meaningVi": "bị từ chối quyền được thương tiếc"
+    },
+    {
+      "phrase": "memorial",
+      "meaningVi": "đài tưởng niệm / vật kỷ niệm"
+    },
+    {
+      "phrase": "to reclaim space",
+      "meaningVi": "lấy lại không gian / đòi lại không gian"
+    },
+    {
+      "phrase": "disenfranchised grief",
+      "meaningVi": "nỗi đau không được xã hội công nhận"
+    },
+    {
+      "phrase": "to be stitched together",
+      "meaningVi": "được khâu lại với nhau / được ghép lại"
+    },
+    {
+      "phrase": "to be made legible",
+      "meaningVi": "được làm cho có thể đọc được / được hiển thị rõ ràng"
+    },
+    {
+      "phrase": "the scale of a loss",
+      "meaningVi": "quy mô của một sự mất mát"
+    }
   ],
   "sampleText": "When the AIDS Memorial Quilt was first unfolded on the National Mall in Washington in October 1987, it covered an area larger than a football field and carried the names of 1,920 people who had died of AIDS. What that display made undeniable was not the abstract scale of an epidemic but the weight of individual lives: each panel had been stitched together by someone who had loved the person it named. The quilt did not ask observers to feel grief — it simply made grief visible in a space where policy decisions about the epidemic were being made and where, until that moment, the dying had been largely invisible.\n\nThe case for keeping grief private has a certain logic. Death is intimate, and there is something understandable about resisting the idea that strangers should be invited into a loss that belongs to specific people. When roadside memorials proliferate at accident sites, or when vigils fill public squares after tragedies, some observers argue that grief is being performed rather than felt — that public mourning has become a kind of emotional spectacle.\n\nGranted, that concern is not entirely without merit. There are cases in which the display of collective mourning can feel appropriated by those with no direct connection to the loss. And it is true that pressure to mourn publicly can make those who process grief quietly feel that their response is somehow insufficient.\n\nEven so, the argument that grief should be privatised underestimates what is at stake when loss is rendered invisible. Psychologists working with the concept of disenfranchised grief — grief that society refuses to acknowledge — have documented the harm that falls on people whose losses are not publicly recognised: the partners of those who died of AIDS before legal recognition, the families of the disappeared in Argentina, the parents of children lost to conflicts that receive no official commemoration. For these people, the right to grieve in public is not sentiment but survival.\n\nWhat the Tōhoku earthquake demonstrated in 2011 was equally instructive. The shrines that appeared along Japan's coastline within days of the disaster were not organised by any authority: they were assembled by individuals using whatever was at hand — photographs, flowers, bottles of water left for the dead. That spontaneous, communal act of mourning served a function no private grief could have replicated: it made the scale of the loss legible to those who had survived it, and it told the living that what they had lost was seen.",
   "sampleAnnotations": [
-    { "phrase": "it covered an area larger than a football field", "meaningVi": "nó che phủ một diện tích lớn hơn một sân bóng đá" },
-    { "phrase": "What that display made undeniable was not the abstract scale of an epidemic but the weight of individual lives", "meaningVi": "điều mà buổi trưng bày đó làm không thể phủ nhận không phải là quy mô trừu tượng của một dịch bệnh mà là sức nặng của những cuộc đời cá nhân" },
-    { "phrase": "each panel had been stitched together by someone who had loved the person it named", "meaningVi": "mỗi tấm vải đã được khâu lại bởi người đã yêu thương người được nêu tên trên đó" },
-    { "phrase": "where the dying had been largely invisible", "meaningVi": "nơi những người đang hấp hối phần lớn là vô hình" },
-    { "phrase": "grief is being performed rather than felt", "meaningVi": "nỗi đau buồn đang được thể hiện hơn là được cảm nhận" },
-    { "phrase": "public mourning has become a kind of emotional spectacle", "meaningVi": "việc tang thương công khai đã trở thành một loại màn trình diễn cảm xúc" },
-    { "phrase": "Granted, that concern is not entirely without merit", "meaningVi": "công nhận, mối lo ngại đó không hoàn toàn là vô lý" },
-    { "phrase": "can feel appropriated by those with no direct connection to the loss", "meaningVi": "có thể cảm thấy bị chiếm dụng bởi những người không có mối liên hệ trực tiếp với sự mất mát" },
-    { "phrase": "pressure to mourn publicly can make those who process grief quietly feel that their response is somehow insufficient", "meaningVi": "áp lực phải tang thương công khai có thể khiến những người xử lý nỗi đau một cách lặng lẽ cảm thấy phản ứng của họ bằng cách nào đó là không đủ" },
-    { "phrase": "the argument that grief should be privatised underestimates what is at stake", "meaningVi": "lập luận rằng nỗi đau nên được đẩy vào không gian riêng tư đánh giá thấp những gì đang bị đe dọa" },
-    { "phrase": "when loss is rendered invisible", "meaningVi": "khi sự mất mát bị làm cho vô hình" },
-    { "phrase": "disenfranchised grief", "meaningVi": "nỗi đau không được xã hội công nhận" },
-    { "phrase": "the families of the disappeared in Argentina", "meaningVi": "gia đình của những người mất tích ở Argentina" },
-    { "phrase": "the right to grieve in public is not sentiment but survival", "meaningVi": "quyền được tang thương công khai không phải là cảm xúc mà là sự sống còn" },
-    { "phrase": "What the Tōhoku earthquake demonstrated in 2011 was equally instructive", "meaningVi": "điều mà trận động đất Tōhoku chứng minh vào năm 2011 cũng rất có tính giáo dục" },
-    { "phrase": "assembled by individuals using whatever was at hand", "meaningVi": "được lắp ráp bởi các cá nhân sử dụng bất cứ thứ gì có sẵn" },
-    { "phrase": "That spontaneous, communal act of mourning served a function no private grief could have replicated", "meaningVi": "hành động tang thương tự phát, mang tính cộng đồng đó phục vụ một chức năng mà không có nỗi đau riêng tư nào có thể sao chép" },
-    { "phrase": "it made the scale of the loss legible to those who had survived it", "meaningVi": "nó làm cho quy mô của sự mất mát có thể đọc được đối với những người đã sống sót qua nó" },
-    { "phrase": "it told the living that what they had lost was seen", "meaningVi": "nó nói với người sống rằng những gì họ đã mất được nhìn thấy" },
-    { "phrase": "no private grief could have replicated", "meaningVi": "không có nỗi đau riêng tư nào có thể sao chép được" }
+    {
+      "phrase": "it covered an area larger than a football field",
+      "meaningVi": "nó che phủ một diện tích lớn hơn một sân bóng đá"
+    },
+    {
+      "phrase": "What that display made undeniable was not the abstract scale of an epidemic but the weight of individual lives",
+      "meaningVi": "điều mà buổi trưng bày đó làm không thể phủ nhận không phải là quy mô trừu tượng của một dịch bệnh mà là sức nặng của những cuộc đời cá nhân"
+    },
+    {
+      "phrase": "each panel had been stitched together by someone who had loved the person it named",
+      "meaningVi": "mỗi tấm vải đã được khâu lại bởi người đã yêu thương người được nêu tên trên đó"
+    },
+    {
+      "phrase": "the dying had been largely invisible",
+      "meaningVi": "nơi những người đang hấp hối phần lớn là vô hình"
+    },
+    {
+      "phrase": "grief is being performed rather than felt",
+      "meaningVi": "nỗi đau buồn đang được thể hiện hơn là được cảm nhận"
+    },
+    {
+      "phrase": "public mourning has become a kind of emotional spectacle",
+      "meaningVi": "việc tang thương công khai đã trở thành một loại màn trình diễn cảm xúc"
+    },
+    {
+      "phrase": "Granted, that concern is not entirely without merit",
+      "meaningVi": "công nhận, mối lo ngại đó không hoàn toàn là vô lý"
+    },
+    {
+      "phrase": "can feel appropriated by those with no direct connection to the loss",
+      "meaningVi": "có thể cảm thấy bị chiếm dụng bởi những người không có mối liên hệ trực tiếp với sự mất mát"
+    },
+    {
+      "phrase": "pressure to mourn publicly can make those who process grief quietly feel that their response is somehow insufficient",
+      "meaningVi": "áp lực phải tang thương công khai có thể khiến những người xử lý nỗi đau một cách lặng lẽ cảm thấy phản ứng của họ bằng cách nào đó là không đủ"
+    },
+    {
+      "phrase": "the argument that grief should be privatised underestimates what is at stake",
+      "meaningVi": "lập luận rằng nỗi đau nên được đẩy vào không gian riêng tư đánh giá thấp những gì đang bị đe dọa"
+    },
+    {
+      "phrase": "when loss is rendered invisible",
+      "meaningVi": "khi sự mất mát bị làm cho vô hình"
+    },
+    {
+      "phrase": "disenfranchised grief",
+      "meaningVi": "nỗi đau không được xã hội công nhận"
+    },
+    {
+      "phrase": "the families of the disappeared in Argentina",
+      "meaningVi": "gia đình của những người mất tích ở Argentina"
+    },
+    {
+      "phrase": "the right to grieve in public is not sentiment but survival",
+      "meaningVi": "quyền được tang thương công khai không phải là cảm xúc mà là sự sống còn"
+    },
+    {
+      "phrase": "What the Tōhoku earthquake demonstrated in 2011 was equally instructive",
+      "meaningVi": "điều mà trận động đất Tōhoku chứng minh vào năm 2011 cũng rất có tính giáo dục"
+    },
+    {
+      "phrase": "assembled by individuals using whatever was at hand",
+      "meaningVi": "được lắp ráp bởi các cá nhân sử dụng bất cứ thứ gì có sẵn"
+    },
+    {
+      "phrase": "That spontaneous, communal act of mourning served a function no private grief could have replicated",
+      "meaningVi": "hành động tang thương tự phát, mang tính cộng đồng đó phục vụ một chức năng mà không có nỗi đau riêng tư nào có thể sao chép"
+    },
+    {
+      "phrase": "it made the scale of the loss legible to those who had survived it",
+      "meaningVi": "nó làm cho quy mô của sự mất mát có thể đọc được đối với những người đã sống sót qua nó"
+    },
+    {
+      "phrase": "it told the living that what they had lost was seen",
+      "meaningVi": "nó nói với người sống rằng những gì họ đã mất được nhìn thấy"
+    },
+    {
+      "phrase": "no private grief could have replicated",
+      "meaningVi": "không có nỗi đau riêng tư nào có thể sao chép được"
+    }
   ],
   "sampleGrammarNotes": [
     {

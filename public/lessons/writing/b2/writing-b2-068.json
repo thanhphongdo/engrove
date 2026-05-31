@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "Whether minor sports leagues should resist televising matches",
   "summary": "Argue whether a small regional sports league should sell television rights and grow its audience, or refuse the cameras to protect the live atmosphere and the small clubs that depend on it.",
-  "tags": ["Sport", "Community", "Media", "Argument"],
+  "tags": [
+    "Sport",
+    "Community",
+    "Media",
+    "Argument"
+  ],
   "topic": "Whether minor sports leagues should resist televising matches",
   "prompt": "Write a 350–500-word argumentative essay about whether a minor regional sports league — Vietnamese V.League 2, Argentine Primera B, a Polish handball division — should sell television rights to grow its audience, or refuse the cameras to protect the live atmosphere, the small clubs that depend on gate revenue, and the local character that disappears once games are watched mostly through a screen. Use a 'what' cleft, a concession ('Granted,'), at least one passive construction, and one participle clause. Take a clear position. Avoid nostalgic broad strokes about 'the spirit of the game'.",
   "minWords": 350,
@@ -14,51 +19,173 @@
     "Granted, the case for refusing television revenue can be made to sound like sentimental small-club romanticism, and the modest budgets of regional clubs make the argument hard to…"
   ],
   "hintVocab": [
-    { "phrase": "television rights", "meaningVi": "bản quyền truyền hình" },
-    { "phrase": "minor league", "meaningVi": "giải đấu hạng dưới" },
-    { "phrase": "gate revenue", "meaningVi": "doanh thu vé vào sân" },
-    { "phrase": "regional club", "meaningVi": "câu lạc bộ vùng" },
-    { "phrase": "live atmosphere", "meaningVi": "không khí trực tiếp" },
-    { "phrase": "broadcast deal", "meaningVi": "thỏa thuận phát sóng" },
-    { "phrase": "attendance figures", "meaningVi": "số lượng người đến sân" },
-    { "phrase": "loyal supporter base", "meaningVi": "cơ sở người hâm mộ trung thành" },
-    { "phrase": "to monetise local sport", "meaningVi": "thương mại hóa thể thao địa phương" },
-    { "phrase": "fixture calendar", "meaningVi": "lịch thi đấu" },
-    { "phrase": "to reschedule for TV", "meaningVi": "đổi lịch vì truyền hình" },
-    { "phrase": "stadium-going habit", "meaningVi": "thói quen đến sân" },
-    { "phrase": "amateur footing", "meaningVi": "nền tảng nghiệp dư" },
-    { "phrase": "production values", "meaningVi": "chất lượng sản xuất truyền hình" },
-    { "phrase": "VAR replays", "meaningVi": "phát lại bằng VAR" },
-    { "phrase": "club community", "meaningVi": "cộng đồng câu lạc bộ" },
-    { "phrase": "kick-off time", "meaningVi": "giờ bóng lăn" },
-    { "phrase": "to chase audience figures", "meaningVi": "chạy theo số lượng khán giả" },
-    { "phrase": "ungovernable terraces", "meaningVi": "khán đài không thể quản lý" },
-    { "phrase": "regional accent of the stands", "meaningVi": "giọng vùng miền trên khán đài" },
-    { "phrase": "screen-mediated fandom", "meaningVi": "fan qua màn hình" },
-    { "phrase": "club identity", "meaningVi": "bản sắc câu lạc bộ" }
+    {
+      "phrase": "television rights",
+      "meaningVi": "bản quyền truyền hình"
+    },
+    {
+      "phrase": "minor league",
+      "meaningVi": "giải đấu hạng dưới"
+    },
+    {
+      "phrase": "gate revenue",
+      "meaningVi": "doanh thu vé vào sân"
+    },
+    {
+      "phrase": "regional club",
+      "meaningVi": "câu lạc bộ vùng"
+    },
+    {
+      "phrase": "live atmosphere",
+      "meaningVi": "không khí trực tiếp"
+    },
+    {
+      "phrase": "broadcast deal",
+      "meaningVi": "thỏa thuận phát sóng"
+    },
+    {
+      "phrase": "attendance figures",
+      "meaningVi": "số lượng người đến sân"
+    },
+    {
+      "phrase": "loyal supporter base",
+      "meaningVi": "cơ sở người hâm mộ trung thành"
+    },
+    {
+      "phrase": "to monetise local sport",
+      "meaningVi": "thương mại hóa thể thao địa phương"
+    },
+    {
+      "phrase": "fixture calendar",
+      "meaningVi": "lịch thi đấu"
+    },
+    {
+      "phrase": "to reschedule for TV",
+      "meaningVi": "đổi lịch vì truyền hình"
+    },
+    {
+      "phrase": "stadium-going habit",
+      "meaningVi": "thói quen đến sân"
+    },
+    {
+      "phrase": "amateur footing",
+      "meaningVi": "nền tảng nghiệp dư"
+    },
+    {
+      "phrase": "production values",
+      "meaningVi": "chất lượng sản xuất truyền hình"
+    },
+    {
+      "phrase": "VAR replays",
+      "meaningVi": "phát lại bằng VAR"
+    },
+    {
+      "phrase": "club community",
+      "meaningVi": "cộng đồng câu lạc bộ"
+    },
+    {
+      "phrase": "kick-off time",
+      "meaningVi": "giờ bóng lăn"
+    },
+    {
+      "phrase": "to chase audience figures",
+      "meaningVi": "chạy theo số lượng khán giả"
+    },
+    {
+      "phrase": "ungovernable terraces",
+      "meaningVi": "khán đài không thể quản lý"
+    },
+    {
+      "phrase": "regional accent of the stands",
+      "meaningVi": "giọng vùng miền trên khán đài"
+    },
+    {
+      "phrase": "screen-mediated fandom",
+      "meaningVi": "fan qua màn hình"
+    },
+    {
+      "phrase": "club identity",
+      "meaningVi": "bản sắc câu lạc bộ"
+    }
   ],
   "sampleText": "Walking into a half-empty handball arena in Lublin on a Friday night, you notice that the locals who do show up know each other by first name, and that the visiting team's coach is having a public argument with a man in row four who, it turns out, is the local pharmacist. The match is loud, badly officiated, and undeniably alive. None of this would survive contact with a national broadcaster, which is why the question of selling the league's television rights, when it finally arrives at the next board meeting, is not the easy yes the bigger clubs assume.\n\nWhat a minor sports league actually sells, when it sells television rights, is something the league's own administrators rarely fully understand until the contracts are signed. They believe they are selling the games. They are also selling the kick-off times — Saturday two o'clock becomes Sunday seven in the evening — and the right to dictate which matches are picked, the camera angles that determine what counts as a moment, and, in the long run, the rhythm of the league's own season. A broadcaster does not simply show what is there. It quietly reshapes what is shown.\n\nGranted, the case for refusing television revenue can be made to sound like sentimental small-club romanticism, and the modest budgets of regional clubs make the argument hard to defend at a board meeting where the alternative is unpaid bills. A broadcast deal can keep three lower-division clubs solvent for a decade. Refusing it on principle in the name of atmosphere can come across as the position of comfortable spectators who do not depend on the league for their wages. Money is not a vulgar consideration when wages are owed.\n\nEven so, the bigger leagues that have already gone through this transition do not offer reassuring evidence. Once matches are rescheduled for broadcast slots, attendance begins a slow drift downward that is rarely arrested. Once production values are introduced, the rough, local character of the commentary, the kit, and the small advertising boards begins to feel embarrassing on television, and is gradually replaced. Within a decade, the league looks like a smaller version of the top one — without the spending power to actually compete, and without the local texture that was its only real distinction.\n\nThe honest verdict is the awkward middle. A minor league can sell a small share of television rights — one televised game a week, no fixture reshuffling, no production override — provided the contract names what cannot be moved. What it must not sell is the right to reshape its own season. The moment that goes, what the league is selling is no longer its games. It is the long, quiet permission to stop being what made it worth broadcasting in the first place.",
   "sampleAnnotations": [
-    { "phrase": "Walking into a half-empty handball arena in Lublin on a Friday night, you notice that the locals who do show up know each other by first name", "meaningVi": "Đi vào một sân vận động bóng ném vắng một nửa ở Lublin vào một tối thứ Sáu, bạn nhận ra rằng những người dân địa phương đến đều biết nhau bằng tên riêng" },
-    { "phrase": "the visiting team's coach is having a public argument with a man in row four who, it turns out, is the local pharmacist", "meaningVi": "huấn luyện viên đội khách đang có một cuộc tranh cãi công khai với một người đàn ông ở hàng bốn mà, hóa ra, là dược sĩ địa phương" },
-    { "phrase": "The match is loud, badly officiated, and undeniably alive", "meaningVi": "Trận đấu thì ồn ào, trọng tài kém, và không thể phủ nhận là sống động" },
-    { "phrase": "None of this would survive contact with a national broadcaster", "meaningVi": "Không điều nào trong số này sẽ sống sót khi tiếp xúc với một đài truyền hình quốc gia" },
-    { "phrase": "What a minor sports league actually sells, when it sells television rights, is something the league's own administrators rarely fully understand until the contracts are signed", "meaningVi": "Điều mà một giải đấu thể thao hạng dưới thực sự bán, khi nó bán bản quyền truyền hình, là điều mà chính các quản trị viên của giải hiếm khi hiểu đầy đủ cho đến khi các hợp đồng đã được ký" },
-    { "phrase": "They believe they are selling the games. They are also selling the kick-off times", "meaningVi": "Họ tin rằng họ đang bán các trận đấu. Họ cũng đang bán giờ bóng lăn" },
-    { "phrase": "the right to dictate which matches are picked, the camera angles that determine what counts as a moment, and, in the long run, the rhythm of the league's own season", "meaningVi": "quyền quyết định trận nào được chọn, các góc máy quyết định cái gì được tính là khoảnh khắc, và về lâu dài, nhịp điệu của chính mùa giải" },
-    { "phrase": "A broadcaster does not simply show what is there. It quietly reshapes what is shown", "meaningVi": "Một đài truyền hình không đơn giản là chiếu cái có sẵn. Nó lặng lẽ định hình lại cái được chiếu" },
-    { "phrase": "the case for refusing television revenue can be made to sound like sentimental small-club romanticism", "meaningVi": "lập luận từ chối doanh thu truyền hình có thể bị làm cho nghe giống như chủ nghĩa lãng mạn câu lạc bộ nhỏ ủy mị" },
-    { "phrase": "A broadcast deal can keep three lower-division clubs solvent for a decade", "meaningVi": "Một thỏa thuận phát sóng có thể giữ ba câu lạc bộ hạng dưới khả năng thanh toán trong một thập kỷ" },
-    { "phrase": "Refusing it on principle in the name of atmosphere can come across as the position of comfortable spectators who do not depend on the league for their wages", "meaningVi": "Từ chối nó trên nguyên tắc nhân danh không khí có thể bị xem như lập trường của những khán giả thoải mái không phụ thuộc vào giải để kiếm lương" },
-    { "phrase": "Money is not a vulgar consideration when wages are owed", "meaningVi": "Tiền không phải là một cân nhắc thô tục khi lương đang nợ" },
-    { "phrase": "Once matches are rescheduled for broadcast slots, attendance begins a slow drift downward that is rarely arrested", "meaningVi": "Một khi các trận đấu được đổi lịch cho các khung phát sóng, lượng khán giả bắt đầu trôi dạt xuống chậm rãi hiếm khi được chặn lại" },
-    { "phrase": "the rough, local character of the commentary, the kit, and the small advertising boards begins to feel embarrassing on television, and is gradually replaced", "meaningVi": "tính cách thô mộc, địa phương của bình luận, trang phục thi đấu, và các bảng quảng cáo nhỏ bắt đầu cảm thấy xấu hổ trên truyền hình, và dần dần bị thay thế" },
-    { "phrase": "Within a decade, the league looks like a smaller version of the top one — without the spending power to actually compete, and without the local texture that was its only real distinction", "meaningVi": "Trong vòng một thập kỷ, giải đấu trông giống như một phiên bản nhỏ hơn của giải hàng đầu — không có sức mua để thực sự cạnh tranh, và không có kết cấu địa phương vốn là sự phân biệt thực sự duy nhất của nó" },
-    { "phrase": "A minor league can sell a small share of television rights — one televised game a week, no fixture reshuffling, no production override — provided the contract names what cannot be moved", "meaningVi": "Một giải đấu hạng dưới có thể bán một phần nhỏ bản quyền truyền hình — một trận được phát mỗi tuần, không sắp xếp lại lịch, không can thiệp sản xuất — miễn là hợp đồng nêu rõ những gì không thể di chuyển" },
-    { "phrase": "What it must not sell is the right to reshape its own season", "meaningVi": "Điều nó không được bán là quyền định hình lại mùa giải của chính nó" },
-    { "phrase": "The moment that goes, what the league is selling is no longer its games", "meaningVi": "Khoảnh khắc đó mất đi, cái mà giải đấu đang bán không còn là các trận đấu của nó nữa" },
-    { "phrase": "It is the long, quiet permission to stop being what made it worth broadcasting in the first place", "meaningVi": "Đó là sự cho phép dài, lặng lẽ để ngừng là cái đã làm cho nó đáng được phát sóng ngay từ đầu" },
-    { "phrase": "regional accent of the stands", "meaningVi": "giọng vùng miền trên khán đài" }
+    {
+      "phrase": "Walking into a half-empty handball arena in Lublin on a Friday night, you notice that the locals who do show up know each other by first name",
+      "meaningVi": "Đi vào một sân vận động bóng ném vắng một nửa ở Lublin vào một tối thứ Sáu, bạn nhận ra rằng những người dân địa phương đến đều biết nhau bằng tên riêng"
+    },
+    {
+      "phrase": "the visiting team's coach is having a public argument with a man in row four who, it turns out, is the local pharmacist",
+      "meaningVi": "huấn luyện viên đội khách đang có một cuộc tranh cãi công khai với một người đàn ông ở hàng bốn mà, hóa ra, là dược sĩ địa phương"
+    },
+    {
+      "phrase": "The match is loud, badly officiated, and undeniably alive",
+      "meaningVi": "Trận đấu thì ồn ào, trọng tài kém, và không thể phủ nhận là sống động"
+    },
+    {
+      "phrase": "None of this would survive contact with a national broadcaster",
+      "meaningVi": "Không điều nào trong số này sẽ sống sót khi tiếp xúc với một đài truyền hình quốc gia"
+    },
+    {
+      "phrase": "What a minor sports league actually sells, when it sells television rights, is something the league's own administrators rarely fully understand until the contracts are signed",
+      "meaningVi": "Điều mà một giải đấu thể thao hạng dưới thực sự bán, khi nó bán bản quyền truyền hình, là điều mà chính các quản trị viên của giải hiếm khi hiểu đầy đủ cho đến khi các hợp đồng đã được ký"
+    },
+    {
+      "phrase": "They believe they are selling the games. They are also selling the kick-off times",
+      "meaningVi": "Họ tin rằng họ đang bán các trận đấu. Họ cũng đang bán giờ bóng lăn"
+    },
+    {
+      "phrase": "the right to dictate which matches are picked, the camera angles that determine what counts as a moment, and, in the long run, the rhythm of the league's own season",
+      "meaningVi": "quyền quyết định trận nào được chọn, các góc máy quyết định cái gì được tính là khoảnh khắc, và về lâu dài, nhịp điệu của chính mùa giải"
+    },
+    {
+      "phrase": "A broadcaster does not simply show what is there. It quietly reshapes what is shown",
+      "meaningVi": "Một đài truyền hình không đơn giản là chiếu cái có sẵn. Nó lặng lẽ định hình lại cái được chiếu"
+    },
+    {
+      "phrase": "the case for refusing television revenue can be made to sound like sentimental small-club romanticism",
+      "meaningVi": "lập luận từ chối doanh thu truyền hình có thể bị làm cho nghe giống như chủ nghĩa lãng mạn câu lạc bộ nhỏ ủy mị"
+    },
+    {
+      "phrase": "A broadcast deal can keep three lower-division clubs solvent for a decade",
+      "meaningVi": "Một thỏa thuận phát sóng có thể giữ ba câu lạc bộ hạng dưới khả năng thanh toán trong một thập kỷ"
+    },
+    {
+      "phrase": "Refusing it on principle in the name of atmosphere can come across as the position of comfortable spectators who do not depend on the league for their wages",
+      "meaningVi": "Từ chối nó trên nguyên tắc nhân danh không khí có thể bị xem như lập trường của những khán giả thoải mái không phụ thuộc vào giải để kiếm lương"
+    },
+    {
+      "phrase": "Money is not a vulgar consideration when wages are owed",
+      "meaningVi": "Tiền không phải là một cân nhắc thô tục khi lương đang nợ"
+    },
+    {
+      "phrase": "Once matches are rescheduled for broadcast slots, attendance begins a slow drift downward that is rarely arrested",
+      "meaningVi": "Một khi các trận đấu được đổi lịch cho các khung phát sóng, lượng khán giả bắt đầu trôi dạt xuống chậm rãi hiếm khi được chặn lại"
+    },
+    {
+      "phrase": "the rough, local character of the commentary, the kit, and the small advertising boards begins to feel embarrassing on television, and is gradually replaced",
+      "meaningVi": "tính cách thô mộc, địa phương của bình luận, trang phục thi đấu, và các bảng quảng cáo nhỏ bắt đầu cảm thấy xấu hổ trên truyền hình, và dần dần bị thay thế"
+    },
+    {
+      "phrase": "Within a decade, the league looks like a smaller version of the top one — without the spending power to actually compete, and without the local texture that was its only real distinction",
+      "meaningVi": "Trong vòng một thập kỷ, giải đấu trông giống như một phiên bản nhỏ hơn của giải hàng đầu — không có sức mua để thực sự cạnh tranh, và không có kết cấu địa phương vốn là sự phân biệt thực sự duy nhất của nó"
+    },
+    {
+      "phrase": "A minor league can sell a small share of television rights — one televised game a week, no fixture reshuffling, no production override — provided the contract names what cannot be moved",
+      "meaningVi": "Một giải đấu hạng dưới có thể bán một phần nhỏ bản quyền truyền hình — một trận được phát mỗi tuần, không sắp xếp lại lịch, không can thiệp sản xuất — miễn là hợp đồng nêu rõ những gì không thể di chuyển"
+    },
+    {
+      "phrase": "What it must not sell is the right to reshape its own season",
+      "meaningVi": "Điều nó không được bán là quyền định hình lại mùa giải của chính nó"
+    },
+    {
+      "phrase": "The moment that goes, what the league is selling is no longer its games",
+      "meaningVi": "Khoảnh khắc đó mất đi, cái mà giải đấu đang bán không còn là các trận đấu của nó nữa"
+    },
+    {
+      "phrase": "It is the long, quiet permission to stop being what made it worth broadcasting in the first place",
+      "meaningVi": "Đó là sự cho phép dài, lặng lẽ để ngừng là cái đã làm cho nó đáng được phát sóng ngay từ đầu"
+    }
   ],
   "sampleGrammarNotes": [
     {

@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "On the moral status of secrets we keep on others' behalf",
   "summary": "Argue that keeping a secret entrusted by another person is a moral act with genuine costs and complexities — not simply an exercise of loyalty, but a form of complicity whose ethical weight depends on the nature of the secret itself.",
-  "tags": ["Argument", "Ethics", "Relationships"],
+  "tags": [
+    "Argument",
+    "Ethics",
+    "Relationships"
+  ],
   "topic": "Whether keeping another person's secret is always a morally neutral act of loyalty or sometimes a form of complicity",
   "prompt": "Write a 600–800-word argumentative essay examining the moral status of secrets kept on others' behalf. Argue that such secrets exist on a spectrum — from the genuinely benign to the actively harmful — and that the cultural equation of secrecy with loyalty prevents us from thinking clearly about when keeping a secret serves the person who shared it and when it serves only the keeper's own comfort. Use examples from family life, professional settings, and public institutions. Use inversion at least once, at least one nominalization, and the concessive pair 'one might well argue… but…'. Avoid bullet lists and clichéd appeals to trust.",
   "minWords": 600,
@@ -14,49 +18,175 @@
     "One might well argue that loyalty requires keeping any confidence regardless of its content. But…"
   ],
   "hintVocab": [
-    {"phrase": "complicity", "meaningVi": "sự đồng lõa, tham gia vào hành động sai trái của người khác", "pronunciation": "/kəmˈplɪsɪti/"},
-    {"phrase": "confidentiality", "meaningVi": "tính bảo mật, nghĩa vụ giữ kín thông tin", "pronunciation": "/ˌkɒnfɪdenʃiˈælɪti/"},
-    {"phrase": "moral burden", "meaningVi": "gánh nặng đạo đức, trách nhiệm về mặt đạo đức"},
-    {"phrase": "entrust", "meaningVi": "giao phó, trao sự tin tưởng", "pronunciation": "/ɪnˈtrʌst/"},
-    {"phrase": "disclosure", "meaningVi": "sự tiết lộ, phơi bày thông tin", "pronunciation": "/dɪˈskləʊʒər/"},
-    {"phrase": "third-party harm", "meaningVi": "gây hại cho bên thứ ba, người không liên quan trực tiếp"},
-    {"phrase": "loyalty norm", "meaningVi": "chuẩn mực lòng trung thành, kỳ vọng về sự trung thành"},
-    {"phrase": "moral asymmetry", "meaningVi": "bất đối xứng đạo đức, sự khác biệt không công bằng về trách nhiệm đạo đức"},
-    {"phrase": "keeper's comfort", "meaningVi": "sự thoải mái của người giữ bí mật, lợi ích của người được tin tưởng"},
-    {"phrase": "delegated silence", "meaningVi": "sự im lặng được uỷ thác, trách nhiệm giữ im lặng được giao cho người khác"},
-    {"phrase": "epistemic access", "meaningVi": "quyền tiếp cận thông tin, khả năng biết được sự thật"},
-    {"phrase": "wilful ignorance", "meaningVi": "sự ngu ngốc có chủ ý, cố tình không biết để tránh trách nhiệm"},
-    {"phrase": "confidant", "meaningVi": "người bạn tâm tình, người được tin tưởng giữ bí mật", "pronunciation": "/ˈkɒnfɪdænt/"},
-    {"phrase": "protective function", "meaningVi": "chức năng bảo vệ, mục đích giữ an toàn"},
-    {"phrase": "moral cost", "meaningVi": "chi phí đạo đức, tổn thất về mặt đạo đức"},
-    {"phrase": "spectrum", "meaningVi": "phổ, dải từ một cực đến cực kia", "pronunciation": "/ˈspektrəm/"},
-    {"phrase": "secondary obligation", "meaningVi": "nghĩa vụ thứ cấp, trách nhiệm phát sinh từ hành động của người khác"},
-    {"phrase": "erosion of trust", "meaningVi": "sự xói mòn lòng tin, mất dần sự tin tưởng theo thời gian"},
-    {"phrase": "institutional cover", "meaningVi": "sự che đậy thể chế, bảo vệ tổ chức bằng cách giữ im lặng"},
-    {"phrase": "ethical weight", "meaningVi": "trọng lượng đạo đức, tầm quan trọng về mặt đạo đức"}
+    {
+      "phrase": "complicity",
+      "meaningVi": "sự đồng lõa, tham gia vào hành động sai trái của người khác",
+      "pronunciation": "/kəmˈplɪsɪti/"
+    },
+    {
+      "phrase": "confidentiality",
+      "meaningVi": "tính bảo mật, nghĩa vụ giữ kín thông tin",
+      "pronunciation": "/ˌkɒnfɪdenʃiˈælɪti/"
+    },
+    {
+      "phrase": "moral burden",
+      "meaningVi": "gánh nặng đạo đức, trách nhiệm về mặt đạo đức"
+    },
+    {
+      "phrase": "entrust",
+      "meaningVi": "giao phó, trao sự tin tưởng",
+      "pronunciation": "/ɪnˈtrʌst/"
+    },
+    {
+      "phrase": "disclosure",
+      "meaningVi": "sự tiết lộ, phơi bày thông tin",
+      "pronunciation": "/dɪˈskləʊʒər/"
+    },
+    {
+      "phrase": "third-party harm",
+      "meaningVi": "gây hại cho bên thứ ba, người không liên quan trực tiếp"
+    },
+    {
+      "phrase": "loyalty norm",
+      "meaningVi": "chuẩn mực lòng trung thành, kỳ vọng về sự trung thành"
+    },
+    {
+      "phrase": "moral asymmetry",
+      "meaningVi": "bất đối xứng đạo đức, sự khác biệt không công bằng về trách nhiệm đạo đức"
+    },
+    {
+      "phrase": "keeper's comfort",
+      "meaningVi": "sự thoải mái của người giữ bí mật, lợi ích của người được tin tưởng"
+    },
+    {
+      "phrase": "delegated silence",
+      "meaningVi": "sự im lặng được uỷ thác, trách nhiệm giữ im lặng được giao cho người khác"
+    },
+    {
+      "phrase": "epistemic access",
+      "meaningVi": "quyền tiếp cận thông tin, khả năng biết được sự thật"
+    },
+    {
+      "phrase": "wilful ignorance",
+      "meaningVi": "sự ngu ngốc có chủ ý, cố tình không biết để tránh trách nhiệm"
+    },
+    {
+      "phrase": "confidant",
+      "meaningVi": "người bạn tâm tình, người được tin tưởng giữ bí mật",
+      "pronunciation": "/ˈkɒnfɪdænt/"
+    },
+    {
+      "phrase": "protective function",
+      "meaningVi": "chức năng bảo vệ, mục đích giữ an toàn"
+    },
+    {
+      "phrase": "moral cost",
+      "meaningVi": "chi phí đạo đức, tổn thất về mặt đạo đức"
+    },
+    {
+      "phrase": "spectrum",
+      "meaningVi": "phổ, dải từ một cực đến cực kia",
+      "pronunciation": "/ˈspektrəm/"
+    },
+    {
+      "phrase": "secondary obligation",
+      "meaningVi": "nghĩa vụ thứ cấp, trách nhiệm phát sinh từ hành động của người khác"
+    },
+    {
+      "phrase": "erosion of trust",
+      "meaningVi": "sự xói mòn lòng tin, mất dần sự tin tưởng theo thời gian"
+    },
+    {
+      "phrase": "institutional cover",
+      "meaningVi": "sự che đậy thể chế, bảo vệ tổ chức bằng cách giữ im lặng"
+    },
+    {
+      "phrase": "ethical weight",
+      "meaningVi": "trọng lượng đạo đức, tầm quan trọng về mặt đạo đức"
+    }
   ],
   "sampleText": "Rarely do we examine what it costs us — or others — to hold a secret that was never ours to begin with. The person who shares a confidence transfers a portion of their moral situation to the listener: the keeper of the secret now inhabits a world partly shaped by knowledge they did not seek and cannot unknow. This is not a trivial transaction. To be the holder of another person's secret is to carry a secondary obligation — one whose ethical weight depends entirely on the content of what has been entrusted, and not at all on the depth of the relationship in which it was shared.\n\nThe cultural equation of secrecy with loyalty obscures this dependency. In families across East Asia, West Africa, and Southern Europe, as well as in professional settings the world over, the act of keeping a confidence is habitually treated as a moral virtue in itself, independent of what the secret concerns. The confidant who keeps the secret of a colleague's minor indiscretion and the confidant who keeps the secret of a colleague's ongoing financial fraud are performing outwardly identical acts. The loyalty norm treats them as morally equivalent. They are not.\n\nWhat the spectrum of kept secrets requires is a distinction between secrets that carry a protective function — the shared vulnerability, the private medical information, the undisclosed relationship — and secrets whose keeping constitutes a form of complicity in harm to others. The former category imposes a genuine moral obligation on the keeper; the latter category creates a moral burden that the keeper cannot discharge by simply remaining silent. When the disclosure of a secret would prevent harm to a third party who has no epistemic access to the relevant information, continued silence is not loyalty but delegated silence: the keeper absorbs the costs of another person's choices so that that person does not have to.\n\nOne might well argue that no-one can be held responsible for another person's actions simply because they were told about them in confidence. But this argument confuses two distinct questions: whether the keeper caused the original situation (they did not) and whether the keeper has a responsibility, on learning of it, to act. The recipient of a secret does not become responsible for its origins; they do become a party to its continuation. The moral asymmetry here is real but often ignored: the person who shares the secret is the author; the person who keeps it is the enabler.\n\nThe institutionalisation of this logic is visible in organisations that rely on informal confidentiality to prevent accountability. The employee who is told in private that a superior has been falsifying records, the doctor who is told by a colleague that another colleague is practising while impaired — these are not cases where loyalty produces a clear moral benefit. They are cases where the loyalty norm creates wilful ignorance, where the keeper can claim not to have acted against the person they were told about while benefiting from institutional cover that their silence maintains.\n\nNone of this means that secrets should be kept carelessly or that confidentiality has no value. The dissolution of all secrecy would be a different kind of catastrophe: privacy, trust, and the willingness to share vulnerability depend on the expectation that a disclosed confidence will be held. The claim here is narrower: that the moral status of keeping a particular secret cannot be determined by the fact of having been told it in confidence. The keeper has a responsibility to ask — at least inwardly — who benefits from the silence, and whether that beneficiary is the person who shared the secret, the keeper themselves, or the continuation of a situation that should not be allowed to continue.\n\nThe equation of secrecy with virtue is most dangerous where it is most naturalised: in families, in professional hierarchies, in institutions with strong cultures of internal loyalty. Secrecy that protects the vulnerable is a moral good. Secrecy that protects the powerful from accountability is not loyalty — it is participation, however passive, in the perpetuation of harm.",
   "sampleAnnotations": [
-    {"phrase": "Rarely do we examine what it costs us — or others — to hold a secret that was never ours to begin with", "meaningVi": "Hiếm khi chúng ta xem xét điều đó tốn kém gì cho chúng ta — hay người khác — khi giữ một bí mật không bao giờ là của chúng ta"},
-    {"phrase": "the keeper of the secret now inhabits a world partly shaped by knowledge they did not seek", "meaningVi": "người giữ bí mật giờ đây sống trong một thế giới được định hình một phần bởi kiến thức họ không tìm kiếm"},
-    {"phrase": "a secondary obligation — one whose ethical weight depends entirely on the content", "meaningVi": "một nghĩa vụ thứ cấp — một nghĩa vụ mà trọng lượng đạo đức phụ thuộc hoàn toàn vào nội dung"},
-    {"phrase": "The cultural equation of secrecy with loyalty", "meaningVi": "Phương trình văn hoá của sự bí mật với lòng trung thành"},
-    {"phrase": "The loyalty norm treats them as morally equivalent. They are not.", "meaningVi": "Chuẩn mực lòng trung thành coi chúng là tương đương về mặt đạo đức. Chúng không phải vậy."},
-    {"phrase": "a distinction between secrets that carry a protective function and secrets whose keeping constitutes complicity", "meaningVi": "sự phân biệt giữa những bí mật có chức năng bảo vệ và những bí mật mà việc giữ chúng cấu thành sự đồng lõa"},
-    {"phrase": "delegated silence: the keeper absorbs the costs of another person's choices", "meaningVi": "sự im lặng được uỷ thác: người giữ bí mật hấp thụ chi phí của các lựa chọn của người khác"},
-    {"phrase": "One might well argue that no-one can be held responsible for another person's actions simply because they were told about them in confidence", "meaningVi": "Có thể lập luận rằng không ai có thể bị quy trách nhiệm về hành động của người khác chỉ vì họ được biết về chúng trong bí mật"},
-    {"phrase": "whether the keeper has a responsibility, on learning of it, to act", "meaningVi": "liệu người giữ bí mật có trách nhiệm, khi biết về nó, phải hành động hay không"},
-    {"phrase": "The person who shares the secret is the author; the person who keeps it is the enabler", "meaningVi": "Người chia sẻ bí mật là tác giả; người giữ nó là người tạo điều kiện"},
-    {"phrase": "The moral asymmetry here is real but often ignored", "meaningVi": "Sự bất đối xứng đạo đức ở đây là có thực nhưng thường bị bỏ qua"},
-    {"phrase": "the loyalty norm creates wilful ignorance", "meaningVi": "chuẩn mực lòng trung thành tạo ra sự ngu ngốc có chủ ý"},
-    {"phrase": "institutional cover that their silence maintains", "meaningVi": "sự che đậy thể chế mà sự im lặng của họ duy trì"},
-    {"phrase": "confidentiality has no value", "meaningVi": "tính bảo mật không có giá trị"},
-    {"phrase": "the willingness to share vulnerability depends on the expectation that a disclosed confidence will be held", "meaningVi": "sự sẵn sàng chia sẻ sự dễ tổn thương phụ thuộc vào kỳ vọng rằng một sự tin tưởng được tiết lộ sẽ được giữ"},
-    {"phrase": "the moral status of keeping a particular secret cannot be determined by the fact of having been told it in confidence", "meaningVi": "tình trạng đạo đức của việc giữ một bí mật cụ thể không thể được xác định bởi thực tế đã được nói với nó trong bí mật"},
-    {"phrase": "who benefits from the silence, and whether that beneficiary is the person who shared the secret", "meaningVi": "ai được hưởng lợi từ sự im lặng, và liệu người thụ hưởng đó có phải là người đã chia sẻ bí mật hay không"},
-    {"phrase": "The equation of secrecy with virtue is most dangerous where it is most naturalised", "meaningVi": "Phương trình của sự bí mật với đức hạnh nguy hiểm nhất là nơi nó được tự nhiên hoá nhất"},
-    {"phrase": "Secrecy that protects the vulnerable is a moral good", "meaningVi": "Bí mật bảo vệ người dễ bị tổn thương là một điều tốt về mặt đạo đức"},
-    {"phrase": "participation, however passive, in the perpetuation of harm", "meaningVi": "sự tham gia, dù thụ động, vào việc duy trì sự gây hại"}
+    {
+      "phrase": "Rarely do we examine what it costs us — or others — to hold a secret that was never ours to begin with",
+      "meaningVi": "Hiếm khi chúng ta xem xét điều đó tốn kém gì cho chúng ta — hay người khác — khi giữ một bí mật không bao giờ là của chúng ta"
+    },
+    {
+      "phrase": "the keeper of the secret now inhabits a world partly shaped by knowledge they did not seek",
+      "meaningVi": "người giữ bí mật giờ đây sống trong một thế giới được định hình một phần bởi kiến thức họ không tìm kiếm"
+    },
+    {
+      "phrase": "a secondary obligation — one whose ethical weight depends entirely on the content",
+      "meaningVi": "một nghĩa vụ thứ cấp — một nghĩa vụ mà trọng lượng đạo đức phụ thuộc hoàn toàn vào nội dung"
+    },
+    {
+      "phrase": "The cultural equation of secrecy with loyalty",
+      "meaningVi": "Phương trình văn hoá của sự bí mật với lòng trung thành"
+    },
+    {
+      "phrase": "The loyalty norm treats them as morally equivalent. They are not.",
+      "meaningVi": "Chuẩn mực lòng trung thành coi chúng là tương đương về mặt đạo đức. Chúng không phải vậy."
+    },
+    {
+      "phrase": "a distinction between secrets that carry a protective function",
+      "meaningVi": "sự phân biệt giữa những bí mật có chức năng bảo vệ và những bí mật mà việc giữ chúng cấu thành sự đồng lõa"
+    },
+    {
+      "phrase": "delegated silence: the keeper absorbs the costs of another person's choices",
+      "meaningVi": "sự im lặng được uỷ thác: người giữ bí mật hấp thụ chi phí của các lựa chọn của người khác"
+    },
+    {
+      "phrase": "One might well argue that no-one can be held responsible for another person's actions simply because they were told about them in confidence",
+      "meaningVi": "Có thể lập luận rằng không ai có thể bị quy trách nhiệm về hành động của người khác chỉ vì họ được biết về chúng trong bí mật"
+    },
+    {
+      "phrase": "whether the keeper has a responsibility, on learning of it, to act",
+      "meaningVi": "liệu người giữ bí mật có trách nhiệm, khi biết về nó, phải hành động hay không"
+    },
+    {
+      "phrase": "The person who shares the secret is the author; the person who keeps it is the enabler",
+      "meaningVi": "Người chia sẻ bí mật là tác giả; người giữ nó là người tạo điều kiện"
+    },
+    {
+      "phrase": "The moral asymmetry here is real but often ignored",
+      "meaningVi": "Sự bất đối xứng đạo đức ở đây là có thực nhưng thường bị bỏ qua"
+    },
+    {
+      "phrase": "the loyalty norm creates wilful ignorance",
+      "meaningVi": "chuẩn mực lòng trung thành tạo ra sự ngu ngốc có chủ ý"
+    },
+    {
+      "phrase": "institutional cover that their silence maintains",
+      "meaningVi": "sự che đậy thể chế mà sự im lặng của họ duy trì"
+    },
+    {
+      "phrase": "confidentiality has no value",
+      "meaningVi": "tính bảo mật không có giá trị"
+    },
+    {
+      "phrase": "on the expectation that a disclosed confidence will be held",
+      "meaningVi": "sự sẵn sàng chia sẻ sự dễ tổn thương phụ thuộc vào kỳ vọng rằng một sự tin tưởng được tiết lộ sẽ được giữ"
+    },
+    {
+      "phrase": "the moral status of keeping a particular secret cannot be determined by the fact of having been told it in confidence",
+      "meaningVi": "tình trạng đạo đức của việc giữ một bí mật cụ thể không thể được xác định bởi thực tế đã được nói với nó trong bí mật"
+    },
+    {
+      "phrase": "who benefits from the silence, and whether that beneficiary is the person who shared the secret",
+      "meaningVi": "ai được hưởng lợi từ sự im lặng, và liệu người thụ hưởng đó có phải là người đã chia sẻ bí mật hay không"
+    },
+    {
+      "phrase": "The equation of secrecy with virtue is most dangerous where it is most naturalised",
+      "meaningVi": "Phương trình của sự bí mật với đức hạnh nguy hiểm nhất là nơi nó được tự nhiên hoá nhất"
+    },
+    {
+      "phrase": "Secrecy that protects the vulnerable is a moral good",
+      "meaningVi": "Bí mật bảo vệ người dễ bị tổn thương là một điều tốt về mặt đạo đức"
+    },
+    {
+      "phrase": "participation, however passive, in the perpetuation of harm",
+      "meaningVi": "sự tham gia, dù thụ động, vào việc duy trì sự gây hại"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -77,11 +207,11 @@
       "prompt": "Which sentence correctly uses inversion after 'Rarely'?",
       "options": [
         "Rarely we examine what it costs us to hold a secret that was never ours.",
-        "Rarely do we examine what it costs us — or others — to hold a secret that was never ours to begin with.",
         "Rarely we do examine what it costs us or others to hold a secret.",
+        "Rarely do we examine what it costs us — or others — to hold a secret that was never ours to begin with.",
         "Rarely, we examine the costs of holding secrets entrusted by others."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "After the negative adverb 'Rarely' at clause-front, subject-auxiliary inversion requires 'do' before 'we'.",
       "hint": "Negative adverb at clause-front → subject-auxiliary inversion."
     },
@@ -91,10 +221,10 @@
       "options": [
         "Keeping secrets is always a morally virtuous act of loyalty.",
         "Secrets should never be kept, as they always harm third parties.",
-        "The moral status of a kept secret depends on its content, not on the loyalty of the relationship in which it was shared.",
-        "Only professionals with confidentiality obligations are morally bound to keep secrets."
+        "Only professionals with confidentiality obligations are morally bound to keep secrets.",
+        "The moral status of a kept secret depends on its content, not on the loyalty of the relationship in which it was shared."
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "explanation": "The essay argues that the content of the secret — particularly whether its keeping harms others — determines its moral status, not the relationship.",
       "hint": "Look for 'ethical weight depends entirely on the content of what has been entrusted'."
     },
@@ -102,12 +232,12 @@
       "id": "q3",
       "prompt": "What does 'complicity' mean as used in the essay?",
       "options": [
-        "A complex arrangement requiring careful management",
         "Participation or partnership in a wrongful act — here, the harmful consequences maintained by the keeper's silence",
+        "A complex arrangement requiring careful management",
         "A legal term for co-authoring a document",
         "The complexity of maintaining multiple confidences simultaneously"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Complicity = participation in wrongdoing; the essay argues that keeping certain secrets makes the keeper a participant in the harm caused.",
       "hint": "Complicit = involved in wrongdoing alongside another person."
     },
@@ -129,11 +259,11 @@
       "prompt": "What is the 'moral asymmetry' the essay identifies?",
       "options": [
         "The fact that some people are naturally more ethical than others",
-        "The imbalance between the author of a harmful secret and the enabler who keeps it — both participate in its perpetuation, but unequally",
         "The difference in moral responsibility between a secret-teller and a secret-listener",
+        "The imbalance between the author of a harmful secret and the enabler who keeps it — both participate in its perpetuation, but unequally",
         "The asymmetry between public and private moral standards"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay says the author created the situation; the keeper enables its continuation. They are not equally responsible, but both are implicated.",
       "hint": "Look for 'The person who shares the secret is the author; the person who keeps it is the enabler'."
     },
@@ -142,11 +272,11 @@
       "prompt": "What concession and counter does the essay provide?",
       "options": [
         "It concedes that privacy is valuable, then argues it should yield to transparency.",
-        "It concedes that no-one caused another's actions by learning of them, then argues the keeper becomes a party to their continuation.",
         "It concedes that loyalty is important, then argues professional obligations override it.",
-        "It concedes that secrets cause harm, then argues they are sometimes necessary for social trust."
+        "It concedes that secrets cause harm, then argues they are sometimes necessary for social trust.",
+        "It concedes that no-one caused another's actions by learning of them, then argues the keeper becomes a party to their continuation."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The 'One might well argue' concession correctly notes the keeper didn't cause the original act; the counter distinguishes causation from responsibility for continuation.",
       "hint": "Look for 'One might well argue that no-one can be held responsible…' and the pivot 'But this confuses two distinct questions'."
     },
@@ -154,12 +284,12 @@
       "id": "q7",
       "prompt": "What does 'wilful ignorance' mean in the essay?",
       "options": [
-        "A deliberate refusal to learn new information",
         "Choosing not to know or act on information in order to avoid moral responsibility — here, what the loyalty norm can produce",
+        "A deliberate refusal to learn new information",
         "Aggressive behaviour caused by a refusal to be educated",
         "A legal defence in criminal proceedings"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Wilful = intentional; ignorance = not knowing or acting. The essay argues the loyalty norm enables people to claim non-action while benefiting from what their silence maintains.",
       "hint": "Wilful = chosen deliberately; ignorance = not knowing or engaging."
     },
@@ -181,11 +311,11 @@
       "prompt": "What does 'institutional cover' mean in the essay?",
       "options": [
         "A protective cover placed over institutional property",
-        "The protection from accountability that organisations gain when members maintain informal confidentiality about internal wrongdoing",
         "Official insurance cover purchased by an institution",
+        "The protection from accountability that organisations gain when members maintain informal confidentiality about internal wrongdoing",
         "The use of institutional authority to cover up legal violations"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "Cover = concealment; institutional = relating to an organisation. The essay argues that informal loyalty maintains a shield that protects institutions from accountability.",
       "hint": "Cover = protection from exposure; institutional = belonging to or serving an organisation."
     },
@@ -194,11 +324,11 @@
       "prompt": "What does 'secondary obligation' mean?",
       "options": [
         "A lesser, less important moral duty",
-        "An obligation that arises not from one's own choices but from having received information from another — a derived moral responsibility",
         "A contractual obligation subordinate to a primary agreement",
-        "The obligation to support a person who has already fulfilled their primary obligation"
+        "The obligation to support a person who has already fulfilled their primary obligation",
+        "An obligation that arises not from one's own choices but from having received information from another — a derived moral responsibility"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "Secondary = derived from or following another; obligation = duty. The keeper's duty arises from the act of being told, not from their own original choice.",
       "hint": "Secondary = deriving from something else; obligation = duty or responsibility."
     },
@@ -206,12 +336,12 @@
       "id": "q11",
       "prompt": "What does the essay say about the dissolution of all secrecy?",
       "options": [
-        "It would be a welcome step toward greater social transparency.",
         "It would be catastrophic, destroying the privacy and trust on which vulnerability-sharing depends.",
+        "It would be a welcome step toward greater social transparency.",
         "It is an ideal state that cannot be achieved in practice.",
         "It is only problematic in professional, not personal, contexts."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay explicitly says 'dissolution of all secrecy would be a different kind of catastrophe' — it defends the value of confidentiality while questioning its unconditional application.",
       "hint": "Look for 'dissolution of all secrecy would be a different kind of catastrophe'."
     },
@@ -220,11 +350,11 @@
       "prompt": "What is the nominalization in the essay?",
       "options": [
         "The person who keeps the secret",
-        "Secrets that harm third parties",
         "The cultural equation of secrecy with loyalty",
+        "Secrets that harm third parties",
         "Keeping a confidence is a virtue"
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "explanation": "Option C converts the verb 'to equate' into the noun 'equation', treating the cultural pattern as an analysable entity — a classic C1 nominalization.",
       "hint": "Nominalizations convert verbs/adjectives into nouns. 'Equation' is the nominalized form of 'to equate'."
     },
@@ -246,11 +376,11 @@
       "prompt": "What does the essay say about secrets that protect the powerful from accountability?",
       "options": [
         "They are sometimes justified when the alternative would cause greater harm.",
-        "They constitute participation in the perpetuation of harm, however passive.",
         "They should be evaluated case-by-case by an ethics committee.",
-        "They are only problematic when kept by public officials."
+        "They are only problematic when kept by public officials.",
+        "They constitute participation in the perpetuation of harm, however passive."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay concludes that protecting the powerful from accountability is 'not loyalty — it is participation, however passive, in the perpetuation of harm'.",
       "hint": "Look for the final two sentences of the essay."
     },
@@ -258,12 +388,12 @@
       "id": "q15",
       "prompt": "What does 'protective function' mean in the context of the essay?",
       "options": [
-        "The role of a security guard in protecting a building",
         "The purpose a secret serves in keeping a vulnerable person safe — such as undisclosed medical information or a private relationship",
+        "The role of a security guard in protecting a building",
         "The legal function of attorney-client privilege",
         "The use of encryption to protect digital information"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Protective function = the purpose of safeguarding; the essay uses this to describe secrets that legitimately shelter someone from harm — as opposed to secrets that maintain harm.",
       "hint": "Protective = offering shelter or safety; function = purpose served."
     },

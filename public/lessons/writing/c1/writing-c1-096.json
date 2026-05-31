@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "Reading an archive for what it refuses to hold",
   "summary": "Analyse how a colonial shipping archive in Zanzibar tells one story flawlessly in its ledgers and another, larger story only in its gaps — and ask whether a catalogue's silences can ever be read without inventing the very voices they erased.",
-  "tags": ["Analysis", "History", "Memory"],
+  "tags": [
+    "Analysis",
+    "History",
+    "Memory"
+  ],
   "topic": "What an archive silently leaves out, and how to read its absences",
   "prompt": "Write a 600–800-word analytical essay on the silences of an archive — the things its records systematically fail to hold. Ground it in one concrete archive (real or plausible). Analyse how the form of the record produces its omissions, and weigh the risk that reading silence becomes a licence to invent. Use hedging, nominalization, and at least one complex concession.",
   "minWords": 600,
@@ -14,72 +18,274 @@
     "What the catalogue counts, it counts well; the difficulty begins with everything it had no column for, because…"
   ],
   "hintVocab": [
-    {"phrase": "archive", "meaningVi": "kho lưu trữ tư liệu", "pronunciation": "/ˈɑːkaɪv/"},
-    {"phrase": "the archival record", "meaningVi": "hồ sơ lưu trữ"},
-    {"phrase": "ledger", "meaningVi": "sổ cái, sổ kế toán", "pronunciation": "/ˈledʒə/"},
-    {"phrase": "to catalogue", "meaningVi": "lập danh mục, phân loại lưu trữ"},
-    {"phrase": "silence", "meaningVi": "sự im lặng, khoảng trống không được ghi lại"},
-    {"phrase": "omission", "meaningVi": "sự bỏ sót", "pronunciation": "/əˈmɪʃən/"},
-    {"phrase": "negative space", "meaningVi": "khoảng trống, phần không được lấp đầy"},
-    {"phrase": "to infer", "meaningVi": "suy luận ra (từ bằng chứng gián tiếp)", "pronunciation": "/ɪnˈfɜː/"},
-    {"phrase": "by inference", "meaningVi": "thông qua suy luận"},
-    {"phrase": "to reconstruct", "meaningVi": "tái dựng lại"},
-    {"phrase": "provenance", "meaningVi": "nguồn gốc xuất xứ", "pronunciation": "/ˈprɒvənəns/"},
-    {"phrase": "documentary trace", "meaningVi": "dấu vết tư liệu để lại"},
-    {"phrase": "to be conspicuous by its absence", "meaningVi": "vắng mặt một cách dễ nhận thấy"},
-    {"phrase": "asymmetry", "meaningVi": "sự bất đối xứng", "pronunciation": "/eɪˈsɪmətri/"},
-    {"phrase": "to extrapolate", "meaningVi": "ngoại suy, suy rộng ra", "pronunciation": "/ɪkˈstræpəleɪt/"},
-    {"phrase": "the historical subject", "meaningVi": "chủ thể của lịch sử, người được/không được ghi vào sử"},
-    {"phrase": "to render legible", "meaningVi": "làm cho dễ đọc, dễ nắm bắt"},
-    {"phrase": "bureaucratic", "meaningVi": "thuộc về hành chính quan liêu", "pronunciation": "/ˌbjʊərəˈkrætɪk/"},
-    {"phrase": "to flatten", "meaningVi": "làm cho phẳng dẹt, tước đi chiều sâu"},
-    {"phrase": "evidentiary", "meaningVi": "thuộc về bằng chứng", "pronunciation": "/ˌevɪˈdenʃəri/"},
-    {"phrase": "to project onto", "meaningVi": "phóng chiếu lên, gán suy nghĩ của mình cho"},
-    {"phrase": "wishful reconstruction", "meaningVi": "sự tái dựng theo ý muốn chủ quan"},
-    {"phrase": "the limits of the record", "meaningVi": "giới hạn của tư liệu"},
-    {"phrase": "to be unaccounted for", "meaningVi": "không được tính đến, không có trong sổ sách"},
-    {"phrase": "speculative", "meaningVi": "mang tính suy đoán", "pronunciation": "/ˈspekjələtɪv/"},
-    {"phrase": "to discipline (a method)", "meaningVi": "kỷ luật, ràng buộc cho chặt chẽ"},
-    {"phrase": "interpretive restraint", "meaningVi": "sự kiềm chế trong diễn giải"},
-    {"phrase": "to ventriloquise", "meaningVi": "nói thay, mượn miệng người khác", "pronunciation": "/venˈtrɪləkwaɪz/"},
-    {"phrase": "the marginalised", "meaningVi": "những người bị gạt ra bên lề"},
-    {"phrase": "epistemic", "meaningVi": "thuộc về tri thức, nhận thức", "pronunciation": "/ˌepɪˈstemɪk/"},
-    {"phrase": "to honour the gap", "meaningVi": "tôn trọng khoảng trống (không vội lấp đầy)"},
-    {"phrase": "warranted", "meaningVi": "có cơ sở, chính đáng", "pronunciation": "/ˈwɒrəntɪd/"}
+    {
+      "phrase": "archive",
+      "meaningVi": "kho lưu trữ tư liệu",
+      "pronunciation": "/ˈɑːkaɪv/"
+    },
+    {
+      "phrase": "the archival record",
+      "meaningVi": "hồ sơ lưu trữ"
+    },
+    {
+      "phrase": "ledger",
+      "meaningVi": "sổ cái, sổ kế toán",
+      "pronunciation": "/ˈledʒə/"
+    },
+    {
+      "phrase": "to catalogue",
+      "meaningVi": "lập danh mục, phân loại lưu trữ"
+    },
+    {
+      "phrase": "silence",
+      "meaningVi": "sự im lặng, khoảng trống không được ghi lại"
+    },
+    {
+      "phrase": "omission",
+      "meaningVi": "sự bỏ sót",
+      "pronunciation": "/əˈmɪʃən/"
+    },
+    {
+      "phrase": "negative space",
+      "meaningVi": "khoảng trống, phần không được lấp đầy"
+    },
+    {
+      "phrase": "to infer",
+      "meaningVi": "suy luận ra (từ bằng chứng gián tiếp)",
+      "pronunciation": "/ɪnˈfɜː/"
+    },
+    {
+      "phrase": "by inference",
+      "meaningVi": "thông qua suy luận"
+    },
+    {
+      "phrase": "to reconstruct",
+      "meaningVi": "tái dựng lại"
+    },
+    {
+      "phrase": "provenance",
+      "meaningVi": "nguồn gốc xuất xứ",
+      "pronunciation": "/ˈprɒvənəns/"
+    },
+    {
+      "phrase": "documentary trace",
+      "meaningVi": "dấu vết tư liệu để lại"
+    },
+    {
+      "phrase": "to be conspicuous by its absence",
+      "meaningVi": "vắng mặt một cách dễ nhận thấy"
+    },
+    {
+      "phrase": "asymmetry",
+      "meaningVi": "sự bất đối xứng",
+      "pronunciation": "/eɪˈsɪmətri/"
+    },
+    {
+      "phrase": "to extrapolate",
+      "meaningVi": "ngoại suy, suy rộng ra",
+      "pronunciation": "/ɪkˈstræpəleɪt/"
+    },
+    {
+      "phrase": "the historical subject",
+      "meaningVi": "chủ thể của lịch sử, người được/không được ghi vào sử"
+    },
+    {
+      "phrase": "to render legible",
+      "meaningVi": "làm cho dễ đọc, dễ nắm bắt"
+    },
+    {
+      "phrase": "bureaucratic",
+      "meaningVi": "thuộc về hành chính quan liêu",
+      "pronunciation": "/ˌbjʊərəˈkrætɪk/"
+    },
+    {
+      "phrase": "to flatten",
+      "meaningVi": "làm cho phẳng dẹt, tước đi chiều sâu"
+    },
+    {
+      "phrase": "evidentiary",
+      "meaningVi": "thuộc về bằng chứng",
+      "pronunciation": "/ˌevɪˈdenʃəri/"
+    },
+    {
+      "phrase": "to project onto",
+      "meaningVi": "phóng chiếu lên, gán suy nghĩ của mình cho"
+    },
+    {
+      "phrase": "wishful reconstruction",
+      "meaningVi": "sự tái dựng theo ý muốn chủ quan"
+    },
+    {
+      "phrase": "the limits of the record",
+      "meaningVi": "giới hạn của tư liệu"
+    },
+    {
+      "phrase": "to be unaccounted for",
+      "meaningVi": "không được tính đến, không có trong sổ sách"
+    },
+    {
+      "phrase": "speculative",
+      "meaningVi": "mang tính suy đoán",
+      "pronunciation": "/ˈspekjələtɪv/"
+    },
+    {
+      "phrase": "to discipline (a method)",
+      "meaningVi": "kỷ luật, ràng buộc cho chặt chẽ"
+    },
+    {
+      "phrase": "interpretive restraint",
+      "meaningVi": "sự kiềm chế trong diễn giải"
+    },
+    {
+      "phrase": "to ventriloquise",
+      "meaningVi": "nói thay, mượn miệng người khác",
+      "pronunciation": "/venˈtrɪləkwaɪz/"
+    },
+    {
+      "phrase": "the marginalised",
+      "meaningVi": "những người bị gạt ra bên lề"
+    },
+    {
+      "phrase": "epistemic",
+      "meaningVi": "thuộc về tri thức, nhận thức",
+      "pronunciation": "/ˌepɪˈstemɪk/"
+    },
+    {
+      "phrase": "to honour the gap",
+      "meaningVi": "tôn trọng khoảng trống (không vội lấp đầy)"
+    },
+    {
+      "phrase": "warranted",
+      "meaningVi": "có cơ sở, chính đáng",
+      "pronunciation": "/ˈwɒrəntɪd/"
+    }
   ],
   "sampleText": "The shipping ledger held at the old customs house in Stone Town is, in its way, a model of diligence. For each dhow that cleared the harbour in the 1860s it records the master's name, the tonnage, the port of departure, the duty paid, and the cargo: cloves by the frasila, ivory by the tusk, gum copal, dried fish. The hand is steady, the columns rule themselves. What the ledger is almost wordless about is the people. Where a vessel carried captives, the entry notes a number and a value and moves on. No name, no age, no place they were taken from. That asymmetry is not an oversight. It is the form working exactly as designed. A customs ledger exists to make trade legible to a state that wishes to tax it; it counts what it taxes, and a person counted as cargo is, for its purposes, fully described once a price is attached. To read such an archive for its silences is a defensible method, and for the recovery of suppressed histories an almost indispensable one. The omissions are patterned, not random, and a pattern can be analysed. We can say with some confidence what the ledger declined to hold, and why, and whose interests the declining served. The trouble begins at the next step, when the reader, having located the gap, feels the pull to fill it. The captives left no documentary trace of their own here; the ledger that erased them is the only thing that remains. To restore their voices, then, is to speak in their place using a source that was built precisely to keep them quiet. The risk is not merely error. It is that the historian's sympathy, however genuine, ends up ventriloquising the dead — putting into the gap exactly the feelings the present finds it comfortable to imagine, and calling the result recovery. I do not want to conclude that the silences are therefore unreadable, that the only honest posture is to transcribe the ledger and stop. That counsel of caution has its own politics. To treat the absence of a name as the absence of a person is to let the archive's violence set the limit of what can now be known, which is simply to obey the customs officer a second time. The number in the column was a human being; refusing to say even that, in the name of evidentiary purity, is not neutrality but a kind of collaboration. Yet the case suggests a discipline the field does not always observe: that there is a difference, easy to blur, between reading what a silence implies and writing what it does not say. The first is inference, constrained by the shape of the gap; the second is invention, constrained by nothing but the writer's needs. The ledger entry that records 'thirty, taken at Kilwa' licenses the claim that thirty people, with histories the document refused, passed through this harbour against their will. It does not license a paragraph about what any one of them thought as the coast fell away. The honest reconstruction stays close to the edge of the gap and lets the gap keep its shape. What does that look like in practice? Less than the storyteller wants and more than the ledger gives. It means naming the omission as an act, not a lack — saying the people were unrecorded because recording them was no part of the document's purpose, which tells us a great deal about the document and its makers. It means distinguishing, in the prose itself, the few things the source can support from the many things it cannot, and resisting the smooth sentence that hides the seam between them. The aim is not to fill the silence but to make it audible, so that a reader feels the weight of what is missing rather than a comfortable substitute for it. An archive will always know more about cloves than about the people who carried them, because it was made by people who felt the same way. To read it well is to register that bias as information, not to overwrite it with our own. The most a careful reader can do is keep the gap open and refuse to mistake the sound of their own voice for the voices the ledger took.",
   "sampleAnnotations": [
-    {"phrase": "the columns rule themselves", "meaningVi": "các cột (số liệu) tự kẻ thẳng tắp, ngăn nắp"},
-    {"phrase": "the ledger is almost wordless about is the people", "meaningVi": "cuốn sổ cái gần như không có lời nào về con người"},
-    {"phrase": "the entry notes a number and a value and moves on", "meaningVi": "mục ghi chép một con số và một giá trị rồi đi tiếp"},
-    {"phrase": "That asymmetry is not an oversight", "meaningVi": "Sự bất đối xứng đó không phải là một sơ suất"},
-    {"phrase": "the form working exactly as designed", "meaningVi": "cái biểu mẫu vận hành đúng như nó được thiết kế"},
-    {"phrase": "to make trade legible to a state that wishes to tax it", "meaningVi": "làm cho việc buôn bán trở nên dễ nắm bắt với một nhà nước muốn đánh thuế nó"},
-    {"phrase": "a person counted as cargo", "meaningVi": "một con người bị tính như hàng hoá"},
-    {"phrase": "The omissions are patterned, not random", "meaningVi": "Những sự bỏ sót có quy luật, không ngẫu nhiên"},
-    {"phrase": "whose interests the declining served", "meaningVi": "sự từ chối ghi chép đó phục vụ lợi ích của ai"},
-    {"phrase": "the reader, having located the gap, feels the pull to fill it", "meaningVi": "người đọc, sau khi định vị được khoảng trống, thấy bị thôi thúc muốn lấp đầy nó"},
-    {"phrase": "to speak in their place using a source that was built precisely to keep them quiet", "meaningVi": "nói thay họ bằng chính một nguồn được dựng nên cốt để bắt họ im lặng"},
-    {"phrase": "ends up ventriloquising the dead", "meaningVi": "rốt cuộc lại nói thay cho người chết như con rối"},
-    {"phrase": "calling the result recovery", "meaningVi": "rồi gọi kết quả đó là sự phục hồi (ký ức)"},
-    {"phrase": "That counsel of caution has its own politics", "meaningVi": "Lời khuyên thận trọng đó cũng có toan tính chính trị riêng của nó"},
-    {"phrase": "to obey the customs officer a second time", "meaningVi": "tuân theo viên quan thuế thêm một lần nữa"},
-    {"phrase": "in the name of evidentiary purity", "meaningVi": "nhân danh sự thuần khiết về bằng chứng"},
-    {"phrase": "not neutrality but a kind of collaboration", "meaningVi": "không phải sự trung lập mà là một kiểu tiếp tay"},
-    {"phrase": "between reading what a silence implies and writing what it does not say", "meaningVi": "giữa việc đọc ra điều một sự im lặng ngụ ý và việc viết ra điều nó không hề nói"},
-    {"phrase": "constrained by nothing but the writer's needs", "meaningVi": "chẳng bị ràng buộc bởi gì ngoài nhu cầu của chính người viết"},
-    {"phrase": "stays close to the edge of the gap and lets the gap keep its shape", "meaningVi": "bám sát mép của khoảng trống và để khoảng trống giữ nguyên hình hài của nó"},
-    {"phrase": "Less than the storyteller wants and more than the ledger gives", "meaningVi": "Ít hơn điều người kể chuyện mong muốn và nhiều hơn điều cuốn sổ cái đưa ra"},
-    {"phrase": "naming the omission as an act, not a lack", "meaningVi": "gọi tên sự bỏ sót như một hành động, không phải một sự thiếu vắng"},
-    {"phrase": "resisting the smooth sentence that hides the seam", "meaningVi": "cưỡng lại câu văn trơn tru che giấu đường nối"},
-    {"phrase": "not to fill the silence but to make it audible", "meaningVi": "không phải để lấp đầy sự im lặng mà để làm cho nó nghe thấy được"},
-    {"phrase": "a comfortable substitute for it", "meaningVi": "một thứ thay thế dễ chịu cho nó"},
-    {"phrase": "will always know more about cloves than about the people who carried them", "meaningVi": "sẽ luôn biết về đinh hương nhiều hơn là về những người gánh chúng"},
-    {"phrase": "to register that bias as information", "meaningVi": "ghi nhận sự thiên lệch đó như một thông tin"},
-    {"phrase": "keep the gap open", "meaningVi": "giữ cho khoảng trống mở ngỏ"},
-    {"phrase": "the voices the ledger took", "meaningVi": "những tiếng nói mà cuốn sổ cái đã tước đi"},
-    {"phrase": "thirty, taken at Kilwa", "meaningVi": "ba mươi người, bị bắt ở Kilwa"},
-    {"phrase": "an almost indispensable one", "meaningVi": "một phương pháp gần như không thể thiếu"}
+    {
+      "phrase": "the columns rule themselves",
+      "meaningVi": "các cột (số liệu) tự kẻ thẳng tắp, ngăn nắp"
+    },
+    {
+      "phrase": "the ledger is almost wordless about is the people",
+      "meaningVi": "cuốn sổ cái gần như không có lời nào về con người"
+    },
+    {
+      "phrase": "the entry notes a number and a value and moves on",
+      "meaningVi": "mục ghi chép một con số và một giá trị rồi đi tiếp"
+    },
+    {
+      "phrase": "That asymmetry is not an oversight",
+      "meaningVi": "Sự bất đối xứng đó không phải là một sơ suất"
+    },
+    {
+      "phrase": "the form working exactly as designed",
+      "meaningVi": "cái biểu mẫu vận hành đúng như nó được thiết kế"
+    },
+    {
+      "phrase": "to make trade legible to a state that wishes to tax it",
+      "meaningVi": "làm cho việc buôn bán trở nên dễ nắm bắt với một nhà nước muốn đánh thuế nó"
+    },
+    {
+      "phrase": "a person counted as cargo",
+      "meaningVi": "một con người bị tính như hàng hoá"
+    },
+    {
+      "phrase": "The omissions are patterned, not random",
+      "meaningVi": "Những sự bỏ sót có quy luật, không ngẫu nhiên"
+    },
+    {
+      "phrase": "whose interests the declining served",
+      "meaningVi": "sự từ chối ghi chép đó phục vụ lợi ích của ai"
+    },
+    {
+      "phrase": "the reader, having located the gap, feels the pull to fill it",
+      "meaningVi": "người đọc, sau khi định vị được khoảng trống, thấy bị thôi thúc muốn lấp đầy nó"
+    },
+    {
+      "phrase": "to speak in their place using a source that was built precisely to keep them quiet",
+      "meaningVi": "nói thay họ bằng chính một nguồn được dựng nên cốt để bắt họ im lặng"
+    },
+    {
+      "phrase": "ends up ventriloquising the dead",
+      "meaningVi": "rốt cuộc lại nói thay cho người chết như con rối"
+    },
+    {
+      "phrase": "calling the result recovery",
+      "meaningVi": "rồi gọi kết quả đó là sự phục hồi (ký ức)"
+    },
+    {
+      "phrase": "That counsel of caution has its own politics",
+      "meaningVi": "Lời khuyên thận trọng đó cũng có toan tính chính trị riêng của nó"
+    },
+    {
+      "phrase": "to obey the customs officer a second time",
+      "meaningVi": "tuân theo viên quan thuế thêm một lần nữa"
+    },
+    {
+      "phrase": "in the name of evidentiary purity",
+      "meaningVi": "nhân danh sự thuần khiết về bằng chứng"
+    },
+    {
+      "phrase": "not neutrality but a kind of collaboration",
+      "meaningVi": "không phải sự trung lập mà là một kiểu tiếp tay"
+    },
+    {
+      "phrase": "between reading what a silence implies and writing what it does not say",
+      "meaningVi": "giữa việc đọc ra điều một sự im lặng ngụ ý và việc viết ra điều nó không hề nói"
+    },
+    {
+      "phrase": "constrained by nothing but the writer's needs",
+      "meaningVi": "chẳng bị ràng buộc bởi gì ngoài nhu cầu của chính người viết"
+    },
+    {
+      "phrase": "stays close to the edge of the gap and lets the gap keep its shape",
+      "meaningVi": "bám sát mép của khoảng trống và để khoảng trống giữ nguyên hình hài của nó"
+    },
+    {
+      "phrase": "Less than the storyteller wants and more than the ledger gives",
+      "meaningVi": "Ít hơn điều người kể chuyện mong muốn và nhiều hơn điều cuốn sổ cái đưa ra"
+    },
+    {
+      "phrase": "naming the omission as an act, not a lack",
+      "meaningVi": "gọi tên sự bỏ sót như một hành động, không phải một sự thiếu vắng"
+    },
+    {
+      "phrase": "resisting the smooth sentence that hides the seam",
+      "meaningVi": "cưỡng lại câu văn trơn tru che giấu đường nối"
+    },
+    {
+      "phrase": "not to fill the silence but to make it audible",
+      "meaningVi": "không phải để lấp đầy sự im lặng mà để làm cho nó nghe thấy được"
+    },
+    {
+      "phrase": "a comfortable substitute for it",
+      "meaningVi": "một thứ thay thế dễ chịu cho nó"
+    },
+    {
+      "phrase": "will always know more about cloves than about the people who carried them",
+      "meaningVi": "sẽ luôn biết về đinh hương nhiều hơn là về những người gánh chúng"
+    },
+    {
+      "phrase": "to register that bias as information",
+      "meaningVi": "ghi nhận sự thiên lệch đó như một thông tin"
+    },
+    {
+      "phrase": "keep the gap open",
+      "meaningVi": "giữ cho khoảng trống mở ngỏ"
+    },
+    {
+      "phrase": "the voices the ledger took",
+      "meaningVi": "những tiếng nói mà cuốn sổ cái đã tước đi"
+    },
+    {
+      "phrase": "thirty, taken at Kilwa",
+      "meaningVi": "ba mươi người, bị bắt ở Kilwa"
+    },
+    {
+      "phrase": "an almost indispensable one",
+      "meaningVi": "một phương pháp gần như không thể thiếu"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -100,11 +306,11 @@
       "prompt": "What is the central distinction the essay draws about reading silences?",
       "options": [
         "Between reading old documents and reading new ones.",
-        "Between reading what a silence implies (inference) and writing what it does not say (invention).",
         "Between archives that are well-organised and those that are not.",
-        "Between cargo records and passenger lists."
+        "Between cargo records and passenger lists.",
+        "Between reading what a silence implies (inference) and writing what it does not say (invention)."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay turns on inference (constrained by the gap) versus invention (constrained only by the writer).",
       "hint": "Find the line contrasting 'implies' with 'does not say'."
     },
@@ -112,12 +318,12 @@
       "id": "q2",
       "prompt": "Why does the essay say 'That asymmetry is not an oversight'?",
       "options": [
-        "Because the clerk forgot to fill in the names.",
         "Because the ledger's form was designed to count taxable trade, so a person priced as cargo was, for its purposes, fully described.",
+        "Because the clerk forgot to fill in the names.",
         "Because the ink had faded over time.",
         "Because passengers were recorded in a separate book."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The omission follows from the document's purpose, not from carelessness.",
       "hint": "Connect it to 'the form working exactly as designed'."
     },
@@ -139,11 +345,11 @@
       "prompt": "Which option is a nominalization, the C1 feature flagged in the grammar notes?",
       "options": [
         "to fill in",
-        "the omission",
         "almost wordless",
+        "the omission",
         "moves on"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'The omission' turns the verb 'omit' into a noun that can be the subject of analysis — a defining C1 nominalization.",
       "hint": "Look for a noun made from a verb that names a process."
     },
@@ -153,10 +359,10 @@
       "options": [
         "Archives are biased, so they are useless.",
         "There are advantages and disadvantages to reading silences.",
-        "I do not want to conclude the silences are unreadable … Yet the case suggests a discipline the field does not always observe: that there is a difference between reading what a silence implies and writing what it does not say.",
-        "Historians should only ever transcribe documents."
+        "Historians should only ever transcribe documents.",
+        "I do not want to conclude the silences are unreadable … Yet the case suggests a discipline the field does not always observe: that there is a difference between reading what a silence implies and writing what it does not say."
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "explanation": "Option C grants the opposing view (don't just transcribe), then uses 'Yet…' to introduce a narrowed, qualified claim.",
       "hint": "Look for a full grant followed by a restricting 'Yet…'."
     },
@@ -164,12 +370,12 @@
       "id": "q6",
       "prompt": "Why is refusing to call the captive a person, 'in the name of evidentiary purity', criticised?",
       "options": [
-        "Because it wastes archival space.",
         "Because it lets the archive's violence set the limit of knowledge — obeying the customs officer a second time.",
+        "Because it wastes archival space.",
         "Because purity is impossible to achieve.",
         "Because the descendants would object."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Over-caution reproduces the original erasure; the essay calls it 'a kind of collaboration'.",
       "hint": "Whose limit does excessive caution accept?"
     },
@@ -191,11 +397,11 @@
       "prompt": "Which paraphrase is closest to 'naming the omission as an act, not a lack'?",
       "options": [
         "Admitting the document simply ran out of space.",
-        "Treating the absence as something the record's makers deliberately produced, which tells us about them.",
         "Apologising on behalf of the clerks.",
+        "Treating the absence as something the record's makers deliberately produced, which tells us about them.",
         "Adding the missing names from another source."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'Act, not lack' reframes the gap as a choice, informative about the makers.",
       "hint": "Is the silence a passive absence or an active doing?"
     },
@@ -204,11 +410,11 @@
       "prompt": "Which sentence is grammatical, on-topic, and matches the essay's analytical register?",
       "options": [
         "The ledger guys totally erased those people, which is super messed up.",
-        "The omissions are patterned, not random, and a pattern can be analysed.",
         "It is beyond doubt that every archive on earth is a lie.",
-        "Heretofore the evidentiary corpus shall be deemed authenticated."
+        "Heretofore the evidentiary corpus shall be deemed authenticated.",
+        "The omissions are patterned, not random, and a pattern can be analysed."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "Option B is precise and analytical; A is slang, C is a sweeping absolute, D is mock-legalese.",
       "hint": "Match measured, analytical prose — not slang, absolutism, or legalese."
     },
@@ -216,12 +422,12 @@
       "id": "q10",
       "prompt": "What does 'make it audible' rather than 'fill the silence' mean?",
       "options": [
-        "Play recordings in the archive.",
         "Convey the weight of what is missing so the reader feels the absence, instead of replacing it with a comfortable invention.",
+        "Play recordings in the archive.",
         "Read the ledger out loud.",
         "Add subtitles to the exhibit."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The aim is to register the gap, not paper over it.",
       "hint": "What is the difference between hearing an absence and covering it?"
     },
@@ -229,12 +435,12 @@
       "id": "q11",
       "prompt": "Which word best fills the gap in C1 register? 'The honest reconstruction stays close to the ___ of the gap and lets it keep its shape.'",
       "options": [
-        "edge",
         "vibe",
+        "edge",
         "bottom",
         "outside"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'The edge of the gap' is the precise, coherent collocation the essay uses; the others are vague or wrong register.",
       "hint": "Which noun keeps the spatial metaphor of a gap with a 'shape'?"
     },
@@ -243,11 +449,11 @@
       "prompt": "What does the entry 'thirty, taken at Kilwa' license, and not license, according to the essay?",
       "options": [
         "It licenses a detailed paragraph about each captive's thoughts.",
-        "It licenses the claim that thirty people passed through against their will, but not a paragraph about what any one of them felt.",
         "It licenses nothing at all.",
+        "It licenses the claim that thirty people passed through against their will, but not a paragraph about what any one of them felt.",
         "It licenses naming each of the thirty."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The source supports the constrained inference but not the imagined interior monologue.",
       "hint": "What can the gap's shape support, and what does it not?"
     },
@@ -256,11 +462,11 @@
       "prompt": "Which option preserves the hedged tone the prompt requires?",
       "options": [
         "Every historian who fills a silence is a liar.",
-        "We can say with some confidence what the ledger declined to hold, and why.",
         "It is obvious that the archive deliberately murdered the truth.",
-        "No record has ever been honest about anyone."
+        "No record has ever been honest about anyone.",
+        "We can say with some confidence what the ledger declined to hold, and why."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'With some confidence' hedges the claim; the other options are absolute or accusatory.",
       "hint": "Hedging softens a claim — look for qualifying phrases."
     },
@@ -268,12 +474,12 @@
       "id": "q14",
       "prompt": "Why does the essay say 'That counsel of caution has its own politics'?",
       "options": [
-        "Because cautious historians are usually conservative voters.",
         "Because total caution lets the archive's exclusions stand as the boundary of knowledge, which is not neutral.",
+        "Because cautious historians are usually conservative voters.",
         "Because caution is always cowardly.",
         "Because archives are run by political appointees."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Refusing to interpret at all is itself a position with consequences — it ratifies the erasure.",
       "hint": "Why is doing nothing not the same as being neutral?"
     },
@@ -295,11 +501,11 @@
       "prompt": "Which option best paraphrases 'to register that bias as information, not to overwrite it with our own'?",
       "options": [
         "Replace the archive's prejudice with the historian's better judgement.",
-        "Treat the record's slant as evidence about its makers, rather than imposing the reader's own assumptions on it.",
         "Delete biased entries from the catalogue.",
+        "Treat the record's slant as evidence about its makers, rather than imposing the reader's own assumptions on it.",
         "Trust the archive completely because it is old."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The line asks the reader to study the bias rather than substitute a new one.",
       "hint": "Is the bias a thing to learn from, or a thing to paint over?"
     }

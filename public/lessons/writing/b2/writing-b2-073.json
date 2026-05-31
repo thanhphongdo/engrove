@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "The ethics of restoring graffiti",
   "summary": "Argue whether a city or museum is right to restore old graffiti — repainting faded political tags, retouching aerosol murals — or whether restoration betrays what graffiti was for.",
-  "tags": ["Art", "Public Space", "Ethics", "Argument"],
+  "tags": [
+    "Art",
+    "Public Space",
+    "Ethics",
+    "Argument"
+  ],
   "topic": "Whether old graffiti and street art should be restored or left to fade",
   "prompt": "Write a 350–500-word argumentative essay about whether cities and museums should restore old graffiti and street art — repainting faded political tags from the 1980s, retouching aerosol murals in places like Belgrade, Bogotá, Berlin, or Saigon — or whether restoration betrays what graffiti was for. Anchor in a specific kind of work or city. Use a 'what' cleft, a concession ('Granted,'), at least one passive construction, and one participle clause. Take a clear position. Avoid romanticising street art or dismissing it.",
   "minWords": 350,
@@ -14,51 +19,175 @@
     "Granted, leaving a politically significant mural to weather away in the name of authenticity can also feel like neglect, and the supporters of restoration are not wrong to argue that…"
   ],
   "hintVocab": [
-    { "phrase": "graffiti", "meaningVi": "graffiti / hình vẽ trên tường" },
-    { "phrase": "aerosol art", "meaningVi": "nghệ thuật bằng bình xịt" },
-    { "phrase": "to restore a tag", "meaningVi": "phục hồi một dấu hiệu graffiti" },
-    { "phrase": "weathering", "meaningVi": "sự bào mòn theo thời gian" },
-    { "phrase": "political mural", "meaningVi": "tranh tường chính trị" },
-    { "phrase": "to fade naturally", "meaningVi": "phai mờ tự nhiên" },
-    { "phrase": "anti-regime slogan", "meaningVi": "khẩu hiệu chống chế độ" },
-    { "phrase": "heritage status", "meaningVi": "trạng thái di sản" },
-    { "phrase": "to museify", "meaningVi": "biến thành bảo tàng", "pronunciation": "/ˈmjuː.zi.faɪ/" },
-    { "phrase": "anonymous author", "meaningVi": "tác giả ẩn danh" },
-    { "phrase": "spray-can lineage", "meaningVi": "dòng dõi bình xịt" },
-    { "phrase": "to commission a touch-up", "meaningVi": "đặt làm việc dặm lại" },
-    { "phrase": "civic preservation", "meaningVi": "bảo tồn dân sự" },
-    { "phrase": "to defang an image", "meaningVi": "khử răng nanh một hình ảnh / làm dịu" },
-    { "phrase": "writer's signature", "meaningVi": "chữ ký của người vẽ" },
-    { "phrase": "buff", "meaningVi": "việc xóa graffiti bằng sơn phủ" },
-    { "phrase": "ephemerality", "meaningVi": "tính phù du", "pronunciation": "/ˌef.əˈmer.əl.ɪ.ti/" },
-    { "phrase": "intended audience", "meaningVi": "đối tượng dự kiến" },
-    { "phrase": "to be encased behind glass", "meaningVi": "bị đặt sau kính" },
-    { "phrase": "the wall as a moment", "meaningVi": "bức tường như một khoảnh khắc" },
-    { "phrase": "vandalism charges", "meaningVi": "tội phá hoại tài sản" },
-    { "phrase": "selective conservation", "meaningVi": "bảo tồn có chọn lọc" }
+    {
+      "phrase": "graffiti",
+      "meaningVi": "graffiti / hình vẽ trên tường"
+    },
+    {
+      "phrase": "aerosol art",
+      "meaningVi": "nghệ thuật bằng bình xịt"
+    },
+    {
+      "phrase": "to restore a tag",
+      "meaningVi": "phục hồi một dấu hiệu graffiti"
+    },
+    {
+      "phrase": "weathering",
+      "meaningVi": "sự bào mòn theo thời gian"
+    },
+    {
+      "phrase": "political mural",
+      "meaningVi": "tranh tường chính trị"
+    },
+    {
+      "phrase": "to fade naturally",
+      "meaningVi": "phai mờ tự nhiên"
+    },
+    {
+      "phrase": "anti-regime slogan",
+      "meaningVi": "khẩu hiệu chống chế độ"
+    },
+    {
+      "phrase": "heritage status",
+      "meaningVi": "trạng thái di sản"
+    },
+    {
+      "phrase": "to museify",
+      "meaningVi": "biến thành bảo tàng",
+      "pronunciation": "/ˈmjuː.zi.faɪ/"
+    },
+    {
+      "phrase": "anonymous author",
+      "meaningVi": "tác giả ẩn danh"
+    },
+    {
+      "phrase": "spray-can lineage",
+      "meaningVi": "dòng dõi bình xịt"
+    },
+    {
+      "phrase": "to commission a touch-up",
+      "meaningVi": "đặt làm việc dặm lại"
+    },
+    {
+      "phrase": "civic preservation",
+      "meaningVi": "bảo tồn dân sự"
+    },
+    {
+      "phrase": "to defang an image",
+      "meaningVi": "khử răng nanh một hình ảnh / làm dịu"
+    },
+    {
+      "phrase": "writer's signature",
+      "meaningVi": "chữ ký của người vẽ"
+    },
+    {
+      "phrase": "buff",
+      "meaningVi": "việc xóa graffiti bằng sơn phủ"
+    },
+    {
+      "phrase": "ephemerality",
+      "meaningVi": "tính phù du",
+      "pronunciation": "/ˌef.əˈmer.əl.ɪ.ti/"
+    },
+    {
+      "phrase": "intended audience",
+      "meaningVi": "đối tượng dự kiến"
+    },
+    {
+      "phrase": "to be encased behind glass",
+      "meaningVi": "bị đặt sau kính"
+    },
+    {
+      "phrase": "the wall as a moment",
+      "meaningVi": "bức tường như một khoảnh khắc"
+    },
+    {
+      "phrase": "vandalism charges",
+      "meaningVi": "tội phá hoại tài sản"
+    },
+    {
+      "phrase": "selective conservation",
+      "meaningVi": "bảo tồn có chọn lọc"
+    }
   ],
   "sampleText": "Standing in front of a freshly retouched 1989 anti-regime tag in central Belgrade that the city has now decided to maintain as a tourist landmark, you notice that the paint is brighter than it was when the original writer first sprayed it, and that the work has been encased in a clear panel meant to protect it from the weather. The plaque below names the restorer, dates the retouching, and gives a brief paragraph about the political context. The plaque does not give the original writer's name, because nobody knows it. The wall is being protected. The work, in any meaningful sense, is being quietly replaced.\n\nWhat an old piece of graffiti actually carries, beyond the obvious image, is something restoration tends to lose at exactly the moment it claims to be saving. The image was, by design, temporary. The writer accepted that the police would buff it, that the weather would dim it, that a competing tag might cross it within months. Its meaning was tied to its risk. A protected, retouched, plaque-bearing version of the same mark is — physically — almost identical. It is also a fundamentally different object: an official artwork dressed in the clothing of an outlaw one.\n\nGranted, leaving a politically significant mural to weather away in the name of authenticity can also feel like neglect, and the supporters of restoration are not wrong to argue that some works carry historical evidence a city should not casually lose. A wartime slogan painted on a Sarajevo wall during the siege has a documentary weight that is genuinely worth preserving for future readers, and to allow it to vanish on the grounds that 'graffiti is supposed to fade' can sound like aesthetic purism dressed up as principle.\n\nEven so, the choice is not between restoration and neglect. There is a middle path that most conservation conversations skip too quickly: photograph the work in high resolution, archive it, write about it, exhibit those photographs in a museum that can do the explanatory work — and let the original wall do what walls do. What dies is the paint, not the record. The original act remains documented; the original conditions, including its temporariness, are honoured. The wall, freed from the obligation to perform indefinitely, can be a wall again.\n\nThe defensible position is that restoration should be the rare exception, justified case by case, and that the default response to a politically meaningful piece of graffiti should be careful documentation followed by respectful weathering. A city that retouches every important tag has produced a permanent gallery of works that were never meant to be permanent. What it shows future visitors is not what street art was. It is what a city wished street art had been: legible, dated, behind glass, with a small plaque crediting the restorer the original writer never asked for.",
   "sampleAnnotations": [
-    { "phrase": "Standing in front of a freshly retouched 1989 anti-regime tag in central Belgrade that the city has now decided to maintain as a tourist landmark, you notice that the paint is brighter than it was when the original writer first sprayed it", "meaningVi": "Đứng trước một dấu chống chế độ năm 1989 vừa được dặm lại ở trung tâm Belgrade mà thành phố giờ đã quyết định duy trì như một danh thắng du lịch, bạn nhận ra rằng sơn sáng hơn so với khi người vẽ ban đầu lần đầu phun nó" },
-    { "phrase": "the work has been encased in a clear panel meant to protect it from the weather", "meaningVi": "tác phẩm đã được đặt trong một tấm trong suốt nhằm bảo vệ nó khỏi thời tiết" },
-    { "phrase": "The plaque below names the restorer, dates the retouching, and gives a brief paragraph about the political context. The plaque does not give the original writer's name, because nobody knows it", "meaningVi": "Bảng phía dưới ghi tên người phục hồi, ghi ngày dặm lại, và đưa ra một đoạn ngắn về bối cảnh chính trị. Bảng không ghi tên người vẽ ban đầu, vì không ai biết nó" },
-    { "phrase": "The wall is being protected. The work, in any meaningful sense, is being quietly replaced", "meaningVi": "Bức tường đang được bảo vệ. Tác phẩm, theo bất kỳ nghĩa có ý nghĩa nào, đang bị lặng lẽ thay thế" },
-    { "phrase": "What an old piece of graffiti actually carries, beyond the obvious image, is something restoration tends to lose at exactly the moment it claims to be saving", "meaningVi": "Điều mà một mảnh graffiti cũ thực sự mang theo, vượt ra ngoài hình ảnh hiển nhiên, là điều mà việc phục hồi có xu hướng mất chính xác vào khoảnh khắc nó tuyên bố đang cứu" },
-    { "phrase": "The image was, by design, temporary. The writer accepted that the police would buff it, that the weather would dim it, that a competing tag might cross it within months", "meaningVi": "Hình ảnh, theo thiết kế, là tạm thời. Người vẽ chấp nhận rằng cảnh sát sẽ xóa nó, thời tiết sẽ làm nó mờ đi, một dấu cạnh tranh có thể phủ lên nó trong vòng vài tháng" },
-    { "phrase": "Its meaning was tied to its risk", "meaningVi": "Ý nghĩa của nó gắn liền với rủi ro của nó" },
-    { "phrase": "A protected, retouched, plaque-bearing version of the same mark is — physically — almost identical. It is also a fundamentally different object: an official artwork dressed in the clothing of an outlaw one", "meaningVi": "Một phiên bản được bảo vệ, được dặm lại, mang bảng của cùng dấu đó — về mặt vật lý — gần như giống hệt. Nó cũng là một đối tượng khác về bản chất: một tác phẩm nghệ thuật chính thức mặc trang phục của một tác phẩm ngoài vòng pháp luật" },
-    { "phrase": "leaving a politically significant mural to weather away in the name of authenticity can also feel like neglect", "meaningVi": "để một bức tranh tường có ý nghĩa chính trị bị bào mòn đi nhân danh tính chân thực cũng có thể cảm thấy như sự bỏ bê" },
-    { "phrase": "the supporters of restoration are not wrong to argue that some works carry historical evidence a city should not casually lose", "meaningVi": "những người ủng hộ phục hồi không sai khi lập luận rằng một số tác phẩm mang bằng chứng lịch sử mà một thành phố không nên đánh mất một cách bình thường" },
-    { "phrase": "A wartime slogan painted on a Sarajevo wall during the siege has a documentary weight that is genuinely worth preserving for future readers", "meaningVi": "Một khẩu hiệu thời chiến được sơn trên một bức tường ở Sarajevo trong thời gian bị bao vây có sức nặng tài liệu thực sự xứng đáng được bảo tồn cho người đọc tương lai" },
-    { "phrase": "to allow it to vanish on the grounds that 'graffiti is supposed to fade' can sound like aesthetic purism dressed up as principle", "meaningVi": "để cho nó biến mất với lý do 'graffiti được cho là phai đi' có thể nghe như chủ nghĩa thuần khiết thẩm mỹ ngụy trang thành nguyên tắc" },
-    { "phrase": "the choice is not between restoration and neglect. There is a middle path that most conservation conversations skip too quickly", "meaningVi": "lựa chọn không phải là giữa phục hồi và bỏ bê. Có một con đường giữa mà hầu hết các cuộc trò chuyện về bảo tồn bỏ qua quá nhanh" },
-    { "phrase": "photograph the work in high resolution, archive it, write about it, exhibit those photographs in a museum that can do the explanatory work — and let the original wall do what walls do", "meaningVi": "chụp tác phẩm ở độ phân giải cao, lưu trữ nó, viết về nó, trưng bày những bức ảnh đó trong một bảo tàng có thể làm công việc giải thích — và để bức tường gốc làm việc mà tường làm" },
-    { "phrase": "What dies is the paint, not the record. The original act remains documented; the original conditions, including its temporariness, are honoured", "meaningVi": "Cái chết là sơn, không phải hồ sơ. Hành động ban đầu vẫn được ghi lại; các điều kiện ban đầu, bao gồm tính tạm thời của nó, được tôn vinh" },
-    { "phrase": "The wall, freed from the obligation to perform indefinitely, can be a wall again", "meaningVi": "Bức tường, được giải phóng khỏi nghĩa vụ trình diễn vô thời hạn, có thể là một bức tường trở lại" },
-    { "phrase": "the default response to a politically meaningful piece of graffiti should be careful documentation followed by respectful weathering", "meaningVi": "phản ứng mặc định đối với một mảnh graffiti có ý nghĩa chính trị nên là tài liệu hóa cẩn thận tiếp theo bởi sự bào mòn tôn trọng" },
-    { "phrase": "A city that retouches every important tag has produced a permanent gallery of works that were never meant to be permanent", "meaningVi": "Một thành phố dặm lại mọi dấu quan trọng đã sản xuất một phòng tranh vĩnh viễn các tác phẩm chưa bao giờ được dự định là vĩnh viễn" },
-    { "phrase": "What it shows future visitors is not what street art was. It is what a city wished street art had been: legible, dated, behind glass, with a small plaque crediting the restorer the original writer never asked for", "meaningVi": "Cái nó cho khách thăm tương lai thấy không phải là cái mà nghệ thuật đường phố đã là. Đó là cái mà một thành phố ước rằng nghệ thuật đường phố đã là: dễ đọc, có ngày tháng, sau kính, với một bảng nhỏ ghi công người phục hồi mà người vẽ ban đầu không bao giờ yêu cầu" },
-    { "phrase": "selective conservation", "meaningVi": "bảo tồn có chọn lọc" }
+    {
+      "phrase": "Standing in front of a freshly retouched 1989 anti-regime tag in central Belgrade that the city has now decided to maintain as a tourist landmark, you notice that the paint is brighter than it was when the original writer first sprayed it",
+      "meaningVi": "Đứng trước một dấu chống chế độ năm 1989 vừa được dặm lại ở trung tâm Belgrade mà thành phố giờ đã quyết định duy trì như một danh thắng du lịch, bạn nhận ra rằng sơn sáng hơn so với khi người vẽ ban đầu lần đầu phun nó"
+    },
+    {
+      "phrase": "the work has been encased in a clear panel meant to protect it from the weather",
+      "meaningVi": "tác phẩm đã được đặt trong một tấm trong suốt nhằm bảo vệ nó khỏi thời tiết"
+    },
+    {
+      "phrase": "The plaque below names the restorer, dates the retouching, and gives a brief paragraph about the political context. The plaque does not give the original writer's name, because nobody knows it",
+      "meaningVi": "Bảng phía dưới ghi tên người phục hồi, ghi ngày dặm lại, và đưa ra một đoạn ngắn về bối cảnh chính trị. Bảng không ghi tên người vẽ ban đầu, vì không ai biết nó"
+    },
+    {
+      "phrase": "The wall is being protected. The work, in any meaningful sense, is being quietly replaced",
+      "meaningVi": "Bức tường đang được bảo vệ. Tác phẩm, theo bất kỳ nghĩa có ý nghĩa nào, đang bị lặng lẽ thay thế"
+    },
+    {
+      "phrase": "What an old piece of graffiti actually carries, beyond the obvious image, is something restoration tends to lose at exactly the moment it claims to be saving",
+      "meaningVi": "Điều mà một mảnh graffiti cũ thực sự mang theo, vượt ra ngoài hình ảnh hiển nhiên, là điều mà việc phục hồi có xu hướng mất chính xác vào khoảnh khắc nó tuyên bố đang cứu"
+    },
+    {
+      "phrase": "The image was, by design, temporary. The writer accepted that the police would buff it, that the weather would dim it, that a competing tag might cross it within months",
+      "meaningVi": "Hình ảnh, theo thiết kế, là tạm thời. Người vẽ chấp nhận rằng cảnh sát sẽ xóa nó, thời tiết sẽ làm nó mờ đi, một dấu cạnh tranh có thể phủ lên nó trong vòng vài tháng"
+    },
+    {
+      "phrase": "Its meaning was tied to its risk",
+      "meaningVi": "Ý nghĩa của nó gắn liền với rủi ro của nó"
+    },
+    {
+      "phrase": "A protected, retouched, plaque-bearing version of the same mark is — physically — almost identical. It is also a fundamentally different object: an official artwork dressed in the clothing of an outlaw one",
+      "meaningVi": "Một phiên bản được bảo vệ, được dặm lại, mang bảng của cùng dấu đó — về mặt vật lý — gần như giống hệt. Nó cũng là một đối tượng khác về bản chất: một tác phẩm nghệ thuật chính thức mặc trang phục của một tác phẩm ngoài vòng pháp luật"
+    },
+    {
+      "phrase": "leaving a politically significant mural to weather away in the name of authenticity can also feel like neglect",
+      "meaningVi": "để một bức tranh tường có ý nghĩa chính trị bị bào mòn đi nhân danh tính chân thực cũng có thể cảm thấy như sự bỏ bê"
+    },
+    {
+      "phrase": "the supporters of restoration are not wrong to argue that some works carry historical evidence a city should not casually lose",
+      "meaningVi": "những người ủng hộ phục hồi không sai khi lập luận rằng một số tác phẩm mang bằng chứng lịch sử mà một thành phố không nên đánh mất một cách bình thường"
+    },
+    {
+      "phrase": "A wartime slogan painted on a Sarajevo wall during the siege has a documentary weight that is genuinely worth preserving for future readers",
+      "meaningVi": "Một khẩu hiệu thời chiến được sơn trên một bức tường ở Sarajevo trong thời gian bị bao vây có sức nặng tài liệu thực sự xứng đáng được bảo tồn cho người đọc tương lai"
+    },
+    {
+      "phrase": "to allow it to vanish on the grounds that 'graffiti is supposed to fade' can sound like aesthetic purism dressed up as principle",
+      "meaningVi": "để cho nó biến mất với lý do 'graffiti được cho là phai đi' có thể nghe như chủ nghĩa thuần khiết thẩm mỹ ngụy trang thành nguyên tắc"
+    },
+    {
+      "phrase": "the choice is not between restoration and neglect. There is a middle path that most conservation conversations skip too quickly",
+      "meaningVi": "lựa chọn không phải là giữa phục hồi và bỏ bê. Có một con đường giữa mà hầu hết các cuộc trò chuyện về bảo tồn bỏ qua quá nhanh"
+    },
+    {
+      "phrase": "photograph the work in high resolution, archive it, write about it, exhibit those photographs in a museum that can do the explanatory work — and let the original wall do what walls do",
+      "meaningVi": "chụp tác phẩm ở độ phân giải cao, lưu trữ nó, viết về nó, trưng bày những bức ảnh đó trong một bảo tàng có thể làm công việc giải thích — và để bức tường gốc làm việc mà tường làm"
+    },
+    {
+      "phrase": "What dies is the paint, not the record. The original act remains documented; the original conditions, including its temporariness, are honoured",
+      "meaningVi": "Cái chết là sơn, không phải hồ sơ. Hành động ban đầu vẫn được ghi lại; các điều kiện ban đầu, bao gồm tính tạm thời của nó, được tôn vinh"
+    },
+    {
+      "phrase": "The wall, freed from the obligation to perform indefinitely, can be a wall again",
+      "meaningVi": "Bức tường, được giải phóng khỏi nghĩa vụ trình diễn vô thời hạn, có thể là một bức tường trở lại"
+    },
+    {
+      "phrase": "the default response to a politically meaningful piece of graffiti should be careful documentation followed by respectful weathering",
+      "meaningVi": "phản ứng mặc định đối với một mảnh graffiti có ý nghĩa chính trị nên là tài liệu hóa cẩn thận tiếp theo bởi sự bào mòn tôn trọng"
+    },
+    {
+      "phrase": "A city that retouches every important tag has produced a permanent gallery of works that were never meant to be permanent",
+      "meaningVi": "Một thành phố dặm lại mọi dấu quan trọng đã sản xuất một phòng tranh vĩnh viễn các tác phẩm chưa bao giờ được dự định là vĩnh viễn"
+    },
+    {
+      "phrase": "What it shows future visitors is not what street art was. It is what a city wished street art had been: legible, dated, behind glass, with a small plaque crediting the restorer the original writer never asked for",
+      "meaningVi": "Cái nó cho khách thăm tương lai thấy không phải là cái mà nghệ thuật đường phố đã là. Đó là cái mà một thành phố ước rằng nghệ thuật đường phố đã là: dễ đọc, có ngày tháng, sau kính, với một bảng nhỏ ghi công người phục hồi mà người vẽ ban đầu không bao giờ yêu cầu"
+    }
   ],
   "sampleGrammarNotes": [
     {

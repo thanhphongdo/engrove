@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "On the moral weight of small permissions we grant ourselves",
   "summary": "Examine the slow, almost imperceptible way that a long sequence of small self-permissions — each defensible on its own — accumulates into a character one would not have chosen if asked all at once.",
-  "tags": ["Ethics", "Self-reflection", "Psychology"],
+  "tags": [
+    "Ethics",
+    "Self-reflection",
+    "Psychology"
+  ],
   "topic": "How small self-permissions accumulate into character",
   "prompt": "Write a 600–800-word essay on the way small permissions we grant ourselves — each individually defensible — quietly accumulate into a person we would not have chosen if asked outright. Avoid moralism toward the reader. Use inversion at least once, a cleft sentence, and a 'Granted… Even so…' concession. Treat the topic philosophically, not as self-help.",
   "minWords": 600,
@@ -14,52 +18,181 @@
     "Granted, refusing to grant oneself any permission is its own form of moral rigidity. Even so,…"
   ],
   "hintVocab": [
-    {"phrase": "self-permission", "meaningVi": "sự tự cho phép"},
-    {"phrase": "the moral drift", "meaningVi": "sự trôi dạt đạo đức"},
-    {"phrase": "small accommodation", "meaningVi": "sự nhượng bộ nhỏ"},
-    {"phrase": "the defensible exception", "meaningVi": "ngoại lệ có thể bảo vệ"},
-    {"phrase": "the slippery slope", "meaningVi": "dốc trơn"},
-    {"phrase": "the cumulative character", "meaningVi": "đặc tính tích lũy"},
-    {"phrase": "the moral aggregate", "meaningVi": "tổng đạo đức"},
-    {"phrase": "the relaxed standard", "meaningVi": "tiêu chuẩn được nới lỏng"},
-    {"phrase": "the unnoticed migration", "meaningVi": "sự di chuyển không được nhận ra"},
-    {"phrase": "habituation", "meaningVi": "sự quen với"},
-    {"phrase": "rationalisation", "meaningVi": "sự hợp lý hoá"},
-    {"phrase": "incrementalism", "meaningVi": "chủ nghĩa từng bước"},
-    {"phrase": "the displaced commitment", "meaningVi": "cam kết bị dịch chuyển"},
-    {"phrase": "the eroded baseline", "meaningVi": "đường cơ sở bị xói mòn"},
-    {"phrase": "the moral inventory", "meaningVi": "bản kiểm kê đạo đức"},
-    {"phrase": "the unkept promise to oneself", "meaningVi": "lời hứa với bản thân không giữ"},
-    {"phrase": "the long view of one's choices", "meaningVi": "cái nhìn dài về các lựa chọn của mình"},
-    {"phrase": "drift versus decision", "meaningVi": "trôi dạt so với quyết định"},
-    {"phrase": "the asked self", "meaningVi": "cái tôi được hỏi"},
-    {"phrase": "the lived self", "meaningVi": "cái tôi đã sống"},
-    {"phrase": "imperceptible threshold", "meaningVi": "ngưỡng không thể nhận ra"},
-    {"phrase": "the silent revision", "meaningVi": "sự sửa đổi âm thầm"}
+    {
+      "phrase": "self-permission",
+      "meaningVi": "sự tự cho phép"
+    },
+    {
+      "phrase": "the moral drift",
+      "meaningVi": "sự trôi dạt đạo đức"
+    },
+    {
+      "phrase": "small accommodation",
+      "meaningVi": "sự nhượng bộ nhỏ"
+    },
+    {
+      "phrase": "the defensible exception",
+      "meaningVi": "ngoại lệ có thể bảo vệ"
+    },
+    {
+      "phrase": "the slippery slope",
+      "meaningVi": "dốc trơn"
+    },
+    {
+      "phrase": "the cumulative character",
+      "meaningVi": "đặc tính tích lũy"
+    },
+    {
+      "phrase": "the moral aggregate",
+      "meaningVi": "tổng đạo đức"
+    },
+    {
+      "phrase": "the relaxed standard",
+      "meaningVi": "tiêu chuẩn được nới lỏng"
+    },
+    {
+      "phrase": "the unnoticed migration",
+      "meaningVi": "sự di chuyển không được nhận ra"
+    },
+    {
+      "phrase": "habituation",
+      "meaningVi": "sự quen với"
+    },
+    {
+      "phrase": "rationalisation",
+      "meaningVi": "sự hợp lý hoá"
+    },
+    {
+      "phrase": "incrementalism",
+      "meaningVi": "chủ nghĩa từng bước"
+    },
+    {
+      "phrase": "the displaced commitment",
+      "meaningVi": "cam kết bị dịch chuyển"
+    },
+    {
+      "phrase": "the eroded baseline",
+      "meaningVi": "đường cơ sở bị xói mòn"
+    },
+    {
+      "phrase": "the moral inventory",
+      "meaningVi": "bản kiểm kê đạo đức"
+    },
+    {
+      "phrase": "the unkept promise to oneself",
+      "meaningVi": "lời hứa với bản thân không giữ"
+    },
+    {
+      "phrase": "the long view of one's choices",
+      "meaningVi": "cái nhìn dài về các lựa chọn của mình"
+    },
+    {
+      "phrase": "drift versus decision",
+      "meaningVi": "trôi dạt so với quyết định"
+    },
+    {
+      "phrase": "the asked self",
+      "meaningVi": "cái tôi được hỏi"
+    },
+    {
+      "phrase": "the lived self",
+      "meaningVi": "cái tôi đã sống"
+    },
+    {
+      "phrase": "imperceptible threshold",
+      "meaningVi": "ngưỡng không thể nhận ra"
+    },
+    {
+      "phrase": "the silent revision",
+      "meaningVi": "sự sửa đổi âm thầm"
+    }
   ],
   "sampleText": "Only rarely does the decision to relax a small standard arrive in the form of a decision we know we are making. The first time a writer skips the morning's hour at the desk to deal with what seems an urgent message, no commitment has been broken; one missed hour is not a pattern. The first time a manager lets a borderline expense pass without the documentation the policy requires, no rule has changed; the case was unusual. The first time a friend cancels on someone they had promised to see, with a real reason, nothing of the friendship has been altered. Each of these is defensible on its own. What is harder to see is that none of them stays on its own. Each becomes, in time, the precedent for the next.\n\nThis is not the well-worn argument from the slippery slope, which depends on the claim that one small concession logically commits one to a larger one. The argument here is empirical, not logical. A person who has made one small allowance does not become committed to making a larger one; they simply find that the second allowance is now slightly easier, because the first was not punished, and because the part of the self that was watching has quietly relaxed. The moral drift does not occur in any single decision. It occurs in the slow recalibration of what one notices as a decision at all.\n\nWhat the defence of any single small permission tends to ignore is the cumulative shape of the permissions a person has actually granted themselves. The writer who, after six months of urgent messages, has skipped sixty mornings is no longer a writer who occasionally answers an urgent message in the working hour; they are a writer whose practice has been reorganised around responding to whichever inbox is currently loudest. The manager who has signed off one hundred borderline expenses on the same reasoning is no longer making case-by-case judgements; they are running an office in which the policy means something different to what the policy says. The drift is not visible at any one point. It is visible only retrospectively, when one asks, of one's current pattern, whether one would have endorsed it had one been shown it in advance.\n\nIt is the asymmetry between the asked self and the lived self, not the wickedness of any single small choice, that gives this phenomenon its quiet moral weight. The asked self — the self that would answer 'no, I would not become that kind of writer', 'no, I would not run that kind of office', 'no, I would not be that kind of friend' — is the self that meets the choice abstractly, all at once, with the relevant comparison in view. The lived self meets the choices one at a time, each on its merits, with no comparison available until the comparison has already been overtaken by the cumulative result. The two selves can disagree without either of them having lied.\n\nGranted, refusing to grant oneself any permission is its own form of moral rigidity, and the person who never relaxes a standard cannot live; they only perform. Real life requires real allowances, and the puritan who treats every small accommodation as the first step toward dissolution has misunderstood what a working morality is for. Even so, the existence of this real point does not abolish the underlying observation. The point of moral life is not to refuse every accommodation; it is to remain the kind of person who can recognise, periodically, when the accommodations have stopped being one-offs and started being the new shape of the self.\n\nThere is also a quieter point about review. The drift is a structural feature of how we live, not a peculiarity of weak character, and the only honest response to a structural feature is a structural practice. The older traditions had names for this — examination of conscience, weekly review, the slow rereading of one's own commitments — that the contemporary vocabulary of self-care has not quite replaced. What the older practices took for granted is that the self does not stay where it was put. To remain a particular kind of person requires, periodically, a deliberate noticing of how far one has moved from where one began, and a choice — not always to return, but to know what one has become. Without that practice, the drift continues unobserved, and the self that emerges at the other end was not chosen; it was merely allowed.\n\nNone of this argues for self-flagellation, or for treating every small permission as a sign of moral failure. The argument is narrower: that small permissions add up, that the addition is not visible in any single permission, and that the only honest test of a long sequence of accommodations is to ask whether the accommodated person is one we would have chosen to become — knowing, in advance, the shape of the trade we were quietly making with ourselves.",
   "sampleAnnotations": [
-    {"phrase": "Only rarely does the decision to relax a small standard arrive in the form of a decision we know we are making", "meaningVi": "Chỉ hiếm khi quyết định nới lỏng một tiêu chuẩn nhỏ đến dưới hình thức một quyết định mà chúng ta biết mình đang đưa ra"},
-    {"phrase": "no commitment has been broken; one missed hour is not a pattern", "meaningVi": "không có cam kết nào bị phá vỡ; một giờ bỏ lỡ không phải là một mô hình"},
-    {"phrase": "Each becomes, in time, the precedent for the next", "meaningVi": "Mỗi cái trở thành, theo thời gian, tiền lệ cho cái tiếp theo"},
-    {"phrase": "This is not the well-worn argument from the slippery slope", "meaningVi": "Đây không phải là lập luận đã mòn từ dốc trơn"},
-    {"phrase": "the part of the self that was watching has quietly relaxed", "meaningVi": "phần của cái tôi đang quan sát đã lặng lẽ thư giãn"},
-    {"phrase": "The moral drift does not occur in any single decision. It occurs in the slow recalibration of what one notices as a decision at all", "meaningVi": "Sự trôi dạt đạo đức không xảy ra trong bất kỳ quyết định đơn lẻ nào. Nó xảy ra trong sự hiệu chỉnh lại chậm chạp của những gì người ta nhận ra là quyết định nói chung"},
-    {"phrase": "What the defence of any single small permission tends to ignore is the cumulative shape of the permissions a person has actually granted themselves", "meaningVi": "Những gì sự bảo vệ cho bất kỳ sự cho phép nhỏ nào có xu hướng bỏ qua là hình dạng tích lũy của các sự cho phép mà một người đã thực sự cấp cho chính mình"},
-    {"phrase": "a writer whose practice has been reorganised around responding to whichever inbox is currently loudest", "meaningVi": "một nhà văn mà thực hành đã được tổ chức lại xung quanh việc phản hồi bất kỳ hộp thư đến nào đang ồn nhất"},
-    {"phrase": "they are running an office in which the policy means something different to what the policy says", "meaningVi": "họ đang điều hành một văn phòng mà chính sách có nghĩa khác với những gì chính sách nói"},
-    {"phrase": "It is visible only retrospectively", "meaningVi": "Nó chỉ hiển thị khi nhìn lại"},
-    {"phrase": "It is the asymmetry between the asked self and the lived self, not the wickedness of any single small choice, that gives this phenomenon its quiet moral weight", "meaningVi": "Chính sự bất đối xứng giữa cái tôi được hỏi và cái tôi đã sống, không phải sự xấu xa của bất kỳ lựa chọn nhỏ đơn lẻ nào, mới mang lại cho hiện tượng này trọng lượng đạo đức trầm lặng của nó"},
-    {"phrase": "The two selves can disagree without either of them having lied", "meaningVi": "Hai cái tôi có thể bất đồng mà không ai trong họ nói dối"},
-    {"phrase": "Granted, refusing to grant oneself any permission is its own form of moral rigidity", "meaningVi": "Cứ cho là từ chối cấp cho bản thân bất kỳ sự cho phép nào là một hình thức của sự cứng nhắc đạo đức"},
-    {"phrase": "the puritan who treats every small accommodation as the first step toward dissolution has misunderstood what a working morality is for", "meaningVi": "người thanh giáo đối xử với mọi sự nhượng bộ nhỏ như bước đầu tiên hướng đến sự tan rã đã hiểu sai một đạo đức vận hành để làm gì"},
-    {"phrase": "remain the kind of person who can recognise, periodically, when the accommodations have stopped being one-offs and started being the new shape of the self", "meaningVi": "vẫn là loại người có thể nhận ra, định kỳ, khi nào các nhượng bộ đã ngừng là những điều một lần và bắt đầu là hình dạng mới của bản thân"},
-    {"phrase": "examination of conscience, weekly review, the slow rereading of one's own commitments", "meaningVi": "xét lương tâm, đánh giá hàng tuần, sự đọc lại chậm rãi các cam kết của chính mình"},
-    {"phrase": "the older practices took for granted is that the self does not stay where it was put", "meaningVi": "các thực hành cũ coi như đương nhiên là cái tôi không ở lại nơi nó được đặt"},
-    {"phrase": "a deliberate noticing of how far one has moved from where one began", "meaningVi": "một sự nhận ra có chủ ý về việc người ta đã di chuyển bao xa từ nơi người ta bắt đầu"},
-    {"phrase": "the self that emerges at the other end was not chosen; it was merely allowed", "meaningVi": "cái tôi xuất hiện ở đầu kia đã không được chọn; nó chỉ được cho phép"},
-    {"phrase": "none of this argues for self-flagellation", "meaningVi": "không có gì ở đây tranh luận cho sự tự đánh roi"},
-    {"phrase": "knowing, in advance, the shape of the trade we were quietly making with ourselves", "meaningVi": "biết, trước, hình dạng của thương lượng mà chúng ta đang âm thầm thực hiện với chính mình"}
+    {
+      "phrase": "Only rarely does the decision to relax a small standard arrive in the form of a decision we know we are making",
+      "meaningVi": "Chỉ hiếm khi quyết định nới lỏng một tiêu chuẩn nhỏ đến dưới hình thức một quyết định mà chúng ta biết mình đang đưa ra"
+    },
+    {
+      "phrase": "no commitment has been broken; one missed hour is not a pattern",
+      "meaningVi": "không có cam kết nào bị phá vỡ; một giờ bỏ lỡ không phải là một mô hình"
+    },
+    {
+      "phrase": "Each becomes, in time, the precedent for the next",
+      "meaningVi": "Mỗi cái trở thành, theo thời gian, tiền lệ cho cái tiếp theo"
+    },
+    {
+      "phrase": "This is not the well-worn argument from the slippery slope",
+      "meaningVi": "Đây không phải là lập luận đã mòn từ dốc trơn"
+    },
+    {
+      "phrase": "the part of the self that was watching has quietly relaxed",
+      "meaningVi": "phần của cái tôi đang quan sát đã lặng lẽ thư giãn"
+    },
+    {
+      "phrase": "The moral drift does not occur in any single decision. It occurs in the slow recalibration of what one notices as a decision at all",
+      "meaningVi": "Sự trôi dạt đạo đức không xảy ra trong bất kỳ quyết định đơn lẻ nào. Nó xảy ra trong sự hiệu chỉnh lại chậm chạp của những gì người ta nhận ra là quyết định nói chung"
+    },
+    {
+      "phrase": "What the defence of any single small permission tends to ignore is the cumulative shape of the permissions a person has actually granted themselves",
+      "meaningVi": "Những gì sự bảo vệ cho bất kỳ sự cho phép nhỏ nào có xu hướng bỏ qua là hình dạng tích lũy của các sự cho phép mà một người đã thực sự cấp cho chính mình"
+    },
+    {
+      "phrase": "a writer whose practice has been reorganised around responding to whichever inbox is currently loudest",
+      "meaningVi": "một nhà văn mà thực hành đã được tổ chức lại xung quanh việc phản hồi bất kỳ hộp thư đến nào đang ồn nhất"
+    },
+    {
+      "phrase": "they are running an office in which the policy means something different to what the policy says",
+      "meaningVi": "họ đang điều hành một văn phòng mà chính sách có nghĩa khác với những gì chính sách nói"
+    },
+    {
+      "phrase": "It is visible only retrospectively",
+      "meaningVi": "Nó chỉ hiển thị khi nhìn lại"
+    },
+    {
+      "phrase": "It is the asymmetry between the asked self and the lived self, not the wickedness of any single small choice, that gives this phenomenon its quiet moral weight",
+      "meaningVi": "Chính sự bất đối xứng giữa cái tôi được hỏi và cái tôi đã sống, không phải sự xấu xa của bất kỳ lựa chọn nhỏ đơn lẻ nào, mới mang lại cho hiện tượng này trọng lượng đạo đức trầm lặng của nó"
+    },
+    {
+      "phrase": "The two selves can disagree without either of them having lied",
+      "meaningVi": "Hai cái tôi có thể bất đồng mà không ai trong họ nói dối"
+    },
+    {
+      "phrase": "Granted, refusing to grant oneself any permission is its own form of moral rigidity",
+      "meaningVi": "Cứ cho là từ chối cấp cho bản thân bất kỳ sự cho phép nào là một hình thức của sự cứng nhắc đạo đức"
+    },
+    {
+      "phrase": "the puritan who treats every small accommodation as the first step toward dissolution has misunderstood what a working morality is for",
+      "meaningVi": "người thanh giáo đối xử với mọi sự nhượng bộ nhỏ như bước đầu tiên hướng đến sự tan rã đã hiểu sai một đạo đức vận hành để làm gì"
+    },
+    {
+      "phrase": "remain the kind of person who can recognise, periodically, when the accommodations have stopped being one-offs and started being the new shape of the self",
+      "meaningVi": "vẫn là loại người có thể nhận ra, định kỳ, khi nào các nhượng bộ đã ngừng là những điều một lần và bắt đầu là hình dạng mới của bản thân"
+    },
+    {
+      "phrase": "examination of conscience, weekly review, the slow rereading of one's own commitments",
+      "meaningVi": "xét lương tâm, đánh giá hàng tuần, sự đọc lại chậm rãi các cam kết của chính mình"
+    },
+    {
+      "phrase": "the older practices took for granted is that the self does not stay where it was put",
+      "meaningVi": "các thực hành cũ coi như đương nhiên là cái tôi không ở lại nơi nó được đặt"
+    },
+    {
+      "phrase": "a deliberate noticing of how far one has moved from where one began",
+      "meaningVi": "một sự nhận ra có chủ ý về việc người ta đã di chuyển bao xa từ nơi người ta bắt đầu"
+    },
+    {
+      "phrase": "the self that emerges at the other end was not chosen; it was merely allowed",
+      "meaningVi": "cái tôi xuất hiện ở đầu kia đã không được chọn; nó chỉ được cho phép"
+    },
+    {
+      "phrase": "none of this argues for self-flagellation",
+      "meaningVi": "không có gì ở đây tranh luận cho sự tự đánh roi"
+    },
+    {
+      "phrase": "knowing, in advance, the shape of the trade we were quietly making with ourselves",
+      "meaningVi": "biết, trước, hình dạng của thương lượng mà chúng ta đang âm thầm thực hiện với chính mình"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -93,11 +226,11 @@
       "prompt": "How does the essay distinguish its argument from the slippery slope?",
       "options": [
         "It is not different",
-        "Its argument is empirical, not logical — one allowance does not commit one to a larger one; the next allowance is simply easier because the part of the self that was watching has relaxed",
         "It is the same argument with new language",
+        "Its argument is empirical, not logical — one allowance does not commit one to a larger one; the next allowance is simply easier because the part of the self that was watching has relaxed",
         "It rejects the slippery slope as fallacy"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay carefully distances itself from the logical slippery slope: it argues drift, not commitment. The mechanism is recalibration of attention, not logical entailment.",
       "hint": "Look at the second paragraph for the slippery-slope distinction."
     },
@@ -106,11 +239,11 @@
       "prompt": "Where does the moral drift actually occur, according to the essay?",
       "options": [
         "In any single decision",
-        "In the slow recalibration of what one notices as a decision at all",
         "In failures of willpower",
-        "Only at moments of crisis"
+        "Only at moments of crisis",
+        "In the slow recalibration of what one notices as a decision at all"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay's key insight: the drift is not in any choice; it is in the gradual shift of what registers as a choice — what becomes background.",
       "hint": "Look at the second paragraph's closing."
     },
@@ -118,12 +251,12 @@
       "id": "q4",
       "prompt": "Which sentence uses a cleft to locate the moral weight of the phenomenon?",
       "options": [
-        "Single small choices have moral weight because they are wicked.",
         "It is the asymmetry between the asked self and the lived self, not the wickedness of any single small choice, that gives this phenomenon its quiet moral weight.",
+        "Single small choices have moral weight because they are wicked.",
         "Both wickedness and asymmetry produce moral weight.",
         "Small choices have no moral weight."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'It is X, not Y, that Z' is a cleft that relocates the moral weight from individual wickedness (often absent) to structural asymmetry between two selves.",
       "hint": "Look for 'It is ... not ... that ...'"
     },
@@ -145,11 +278,11 @@
       "prompt": "What is the difference between the 'asked self' and the 'lived self' in the essay?",
       "options": [
         "They are the same",
-        "The asked self meets the choice abstractly, all at once, with the relevant comparison in view; the lived self meets the choices one at a time, each on its merits, with no comparison available until the cumulative result has overtaken the comparison",
         "The asked self is younger",
+        "The asked self meets the choice abstractly, all at once, with the relevant comparison in view; the lived self meets the choices one at a time, each on its merits, with no comparison available until the cumulative result has overtaken the comparison",
         "The lived self is more honest"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay's key conceptual pair: the asked self has the comparison; the lived self only encounters single decisions. Neither lies; they meet the question under different conditions.",
       "hint": "Look at the fourth paragraph for the two selves."
     },
@@ -159,10 +292,10 @@
       "options": [
         "Self-flagellation",
         "Refusal of every permission",
-        "Periodic deliberate noticing of how far one has moved from where one began — older traditions called this examination of conscience or weekly review",
-        "Avoiding all decisions"
+        "Avoiding all decisions",
+        "Periodic deliberate noticing of how far one has moved from where one began — older traditions called this examination of conscience or weekly review"
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "explanation": "The essay's prescription: a structural practice (regular review) for a structural problem (drift). Not stopping the drift but noticing it — and then choosing.",
       "hint": "Look at the quieter point paragraph."
     },
@@ -170,12 +303,12 @@
       "id": "q8",
       "prompt": "What does the essay say the contemporary vocabulary of 'self-care' has done?",
       "options": [
-        "Replaced the older practices of review entirely",
         "Has not quite replaced the older practices — examination of conscience, weekly review, slow rereading of commitments addressed something self-care addresses incompletely",
+        "Replaced the older practices of review entirely",
         "Improved upon the older practices",
         "Is identical to the older practices"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay's careful observation: self-care addresses some of what older review practices did, but does not fully replace the structural function of noticing one's own drift.",
       "hint": "Look at the quieter point paragraph for the self-care comparison."
     },
@@ -197,11 +330,11 @@
       "prompt": "What does 'rationalisation' mean as the essay uses it?",
       "options": [
         "Improving efficiency",
-        "Constructing post-hoc reasons for permissions one has granted oneself — defending each individual choice while not noticing the cumulative pattern",
         "Mathematical proof",
+        "Constructing post-hoc reasons for permissions one has granted oneself — defending each individual choice while not noticing the cumulative pattern",
         "Industrial production"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "Rationalisation in this context: defending each small permission individually on its merits, while the part of the self that should be noticing the pattern has quietly retired.",
       "hint": "Think of how each defensible exception is defended."
     },
@@ -211,10 +344,10 @@
       "options": [
         "That cumulative drift is real",
         "That review practices are valuable",
-        "For self-flagellation, or for treating every small permission as a sign of moral failure",
-        "That the two selves can disagree"
+        "That the two selves can disagree",
+        "For self-flagellation, or for treating every small permission as a sign of moral failure"
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "explanation": "The essay explicitly disclaims: 'None of this argues for self-flagellation, or for treating every small permission as a sign of moral failure.'",
       "hint": "Look at the final paragraph's opening."
     },
@@ -222,12 +355,12 @@
       "id": "q12",
       "prompt": "What does the essay say about the self that emerges from unobserved drift?",
       "options": [
-        "It was chosen consciously",
         "It was not chosen; it was merely allowed",
+        "It was chosen consciously",
         "It cannot exist",
         "It is identical to the asked self"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay's closing observation of the quieter point: without review, the self at the end of a long drift was not the product of choice but of permission.",
       "hint": "Look at the closing of the quieter point paragraph."
     },
@@ -249,11 +382,11 @@
       "prompt": "What does the essay say is the point of moral life, in its formulation?",
       "options": [
         "To refuse every accommodation",
-        "To remain the kind of person who can recognise, periodically, when accommodations have stopped being one-offs and started being the new shape of the self",
         "To live with no rules",
+        "To remain the kind of person who can recognise, periodically, when accommodations have stopped being one-offs and started being the new shape of the self",
         "To follow all rules exactly"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay's modest definition: not perfection, not rigidity — the capacity for periodic honest recognition of one's own pattern.",
       "hint": "Look at the Granted/Even so paragraph's closing."
     },
@@ -263,10 +396,10 @@
       "options": [
         "All permissions are dangerous",
         "No permissions are dangerous",
-        "Small permissions accumulate into character; the drift is invisible point-by-point; the honest response is a structural practice of periodic review, not constant refusal",
-        "Character is unchangeable"
+        "Character is unchangeable",
+        "Small permissions accumulate into character; the drift is invisible point-by-point; the honest response is a structural practice of periodic review, not constant refusal"
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "explanation": "The essay's middle position: drift is structural, the cure is structural (periodic review), neither perfectionism nor laxity is the answer.",
       "hint": "Look at the overall argument."
     }

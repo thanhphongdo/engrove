@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "On the dignity of leaving things unsaid",
   "summary": "Argue that restraint in speech — the deliberate choice not to say everything one could say — is a form of moral and communicative intelligence, not reticence or dishonesty, and that the contemporary pressure toward total expressivity erodes the conditions for trust.",
-  "tags": ["Ethics", "Communication", "Identity"],
+  "tags": [
+    "Ethics",
+    "Communication",
+    "Identity"
+  ],
   "topic": "The moral and relational value of deliberate silence and restraint in speech",
   "prompt": "Write a 600–800-word argumentative essay defending the ethical importance of leaving some things unsaid — not out of cowardice or deception, but as a form of respect, precision, and moral intelligence. You may draw on personal relationships, professional settings, or public discourse. Deploy inversion at least once, a cleft sentence, and a 'granted… even so…' concession. Avoid conflating deliberate restraint with dishonesty. Avoid mystifying silence as a virtue without examining its conditions.",
   "minWords": 600,
@@ -14,50 +18,176 @@
     "Granted, concealment in the name of tact has historically served to protect the powerful at the expense of the vulnerable. Even so,…"
   ],
   "hintVocab": [
-    {"phrase": "reticence", "meaningVi": "sự kiệm lời, tính ít nói", "pronunciation": "/ˈretɪsəns/"},
-    {"phrase": "radical transparency", "meaningVi": "sự minh bạch triệt để"},
-    {"phrase": "tact", "meaningVi": "sự khéo léo tế nhị, tế nhị trong giao tiếp"},
-    {"phrase": "discretion", "meaningVi": "sự thận trọng, khả năng phán đoán tế nhị", "pronunciation": "/dɪˈskreʃən/"},
-    {"phrase": "expressive imperative", "meaningVi": "mệnh lệnh biểu đạt, áp lực phải bày tỏ"},
-    {"phrase": "relational fabric", "meaningVi": "cấu trúc quan hệ, sợi dây kết nối"},
-    {"phrase": "compulsive disclosure", "meaningVi": "sự tiết lộ bắt buộc, khuynh hướng nói hết"},
-    {"phrase": "moral restraint", "meaningVi": "sự kiềm chế đạo đức"},
-    {"phrase": "trust architecture", "meaningVi": "kiến trúc niềm tin, nền tảng của sự tin tưởng"},
-    {"phrase": "premature articulation", "meaningVi": "sự bày tỏ quá sớm, diễn đạt trước thời điểm chín muồi"},
-    {"phrase": "interpretive charity", "meaningVi": "sự diễn giải nhân từ, giải thích theo hướng tốt"},
-    {"phrase": "withholding", "meaningVi": "sự giữ lại, không nói ra"},
-    {"phrase": "epistemic humility", "meaningVi": "sự khiêm tốn nhận thức"},
-    {"phrase": "over-disclosure", "meaningVi": "sự tiết lộ quá mức"},
-    {"phrase": "contemplative pause", "meaningVi": "khoảng dừng để suy nghĩ, khoảng lặng chiêm nghiệm"},
-    {"phrase": "intelligible to another", "meaningVi": "có thể hiểu được với người khác"},
-    {"phrase": "provisional thought", "meaningVi": "suy nghĩ còn tạm thời, chưa chín chắn"},
-    {"phrase": "commensurate", "meaningVi": "tương xứng, cân xứng", "pronunciation": "/kəˈmenʃərɪt/"},
-    {"phrase": "ambient pressure", "meaningVi": "áp lực xung quanh, áp lực môi trường"},
-    {"phrase": "confessional culture", "meaningVi": "văn hoá thú nhận, văn hoá công khai mọi thứ"},
-    {"phrase": "self-curation", "meaningVi": "sự tự sắp xếp hình ảnh bản thân"}
+    {
+      "phrase": "reticence",
+      "meaningVi": "sự kiệm lời, tính ít nói",
+      "pronunciation": "/ˈretɪsəns/"
+    },
+    {
+      "phrase": "radical transparency",
+      "meaningVi": "sự minh bạch triệt để"
+    },
+    {
+      "phrase": "tact",
+      "meaningVi": "sự khéo léo tế nhị, tế nhị trong giao tiếp"
+    },
+    {
+      "phrase": "discretion",
+      "meaningVi": "sự thận trọng, khả năng phán đoán tế nhị",
+      "pronunciation": "/dɪˈskreʃən/"
+    },
+    {
+      "phrase": "expressive imperative",
+      "meaningVi": "mệnh lệnh biểu đạt, áp lực phải bày tỏ"
+    },
+    {
+      "phrase": "relational fabric",
+      "meaningVi": "cấu trúc quan hệ, sợi dây kết nối"
+    },
+    {
+      "phrase": "compulsive disclosure",
+      "meaningVi": "sự tiết lộ bắt buộc, khuynh hướng nói hết"
+    },
+    {
+      "phrase": "moral restraint",
+      "meaningVi": "sự kiềm chế đạo đức"
+    },
+    {
+      "phrase": "trust architecture",
+      "meaningVi": "kiến trúc niềm tin, nền tảng của sự tin tưởng"
+    },
+    {
+      "phrase": "premature articulation",
+      "meaningVi": "sự bày tỏ quá sớm, diễn đạt trước thời điểm chín muồi"
+    },
+    {
+      "phrase": "interpretive charity",
+      "meaningVi": "sự diễn giải nhân từ, giải thích theo hướng tốt"
+    },
+    {
+      "phrase": "withholding",
+      "meaningVi": "sự giữ lại, không nói ra"
+    },
+    {
+      "phrase": "epistemic humility",
+      "meaningVi": "sự khiêm tốn nhận thức"
+    },
+    {
+      "phrase": "over-disclosure",
+      "meaningVi": "sự tiết lộ quá mức"
+    },
+    {
+      "phrase": "contemplative pause",
+      "meaningVi": "khoảng dừng để suy nghĩ, khoảng lặng chiêm nghiệm"
+    },
+    {
+      "phrase": "intelligible to another",
+      "meaningVi": "có thể hiểu được với người khác"
+    },
+    {
+      "phrase": "provisional thought",
+      "meaningVi": "suy nghĩ còn tạm thời, chưa chín chắn"
+    },
+    {
+      "phrase": "commensurate",
+      "meaningVi": "tương xứng, cân xứng",
+      "pronunciation": "/kəˈmenʃərɪt/"
+    },
+    {
+      "phrase": "ambient pressure",
+      "meaningVi": "áp lực xung quanh, áp lực môi trường"
+    },
+    {
+      "phrase": "confessional culture",
+      "meaningVi": "văn hoá thú nhận, văn hoá công khai mọi thứ"
+    },
+    {
+      "phrase": "self-curation",
+      "meaningVi": "sự tự sắp xếp hình ảnh bản thân"
+    }
   ],
   "sampleText": "Not everything that could be said deserves to be said — a distinction that the current premium on radical transparency struggles to accommodate. We live in an era that has made disclosure a virtue in itself: the person who shares everything is authentic; the person who holds back is suspected of concealment, of managing their image, of not being 'real'. What this flattening of communicative ethics misses is that speech and silence are both active choices, and that the dignity of a person — and of a relationship — may sometimes depend as much on what is withheld as on what is expressed.\n\nConsider the relationship between a physician and a terminally ill patient in the early stages of diagnosis. In many East Asian clinical traditions — including those practised in Japan, South Korea, and significant portions of Chinese clinical culture — the decision about what to disclose, to whom, and at what pace is itself understood as a form of care, not a form of deception. The physician who does not deliver a prognosis in full at the first appointment, choosing instead to gauge the patient's readiness, cultural context, and support network before calibrating what to say, is not lying. They are exercising the kind of discretion that recognises the gap between what is true and what is intelligible to another at a particular moment.\n\nThis is not an argument for paternalism or for the suppression of information that patients have an unambiguous right to receive. It is an argument for the distinction between the truth and the unmediated dumping of everything one knows at the moment one knows it. Premature articulation — saying something before the relationship or the moment can hold it — is a form of communicative carelessness dressed as honesty. The person who tells a friend, 'I have always found you intellectually limited,' because 'I believe in being direct,' has not performed a moral act. They have performed an act that prioritises their own expressivity over their responsibility to the relationship.\n\nGranted, concealment in the name of tact has historically served to protect the powerful at the expense of the vulnerable — to keep exploitation quiet, to silence those whose testimony would be inconvenient. Even so, this fact does not dissolve the distinction between protective silence that serves the person being spared and self-serving silence that serves the person doing the sparing. One may acknowledge the history of strategic concealment without concluding that all restraint is suspect, any more than acknowledging the misuse of charity obliges one to conclude that generosity is always self-interested.\n\nWhat the expressive imperative of contemporary culture overlooks is that many thoughts, at the moment they form, are provisional — not yet accurate enough, not yet commensurate with the complexity of the situation they attempt to describe. To say them aloud before they are formed is not authenticity; it is the exportation of unfinished cognitive labour onto the relationship. The contemplative pause — the decision to hold something until it is ready to be said well — is itself a form of respect: for the subject of the thought, for the listener, and for the conditions that make genuine communication possible.\n\nIt is the trust architecture of a relationship that silence, at its best, protects. Trust depends not only on knowing that a person will speak when something matters, but on knowing that they will not speak when speaking would do harm that outweighs its benefit. A colleague who has the discretion not to repeat every unflattering observation they have made about you to others — not because they are dishonest, but because they have weighed what is useful against what is merely expressive — is more trustworthy, not less. The over-disclosing person, who treats every relationship as a confessional and every observation as a publishable finding, creates a relational fabric so thin that nothing of weight can be held in it.\n\nThe dignity of leaving things unsaid lies not in silence as passivity, but in silence as the active refusal to say less than the truth by saying too much too soon.",
   "sampleAnnotations": [
-    {"phrase": "Not everything that could be said deserves to be said", "meaningVi": "Không phải mọi thứ có thể nói đều xứng đáng được nói"},
-    {"phrase": "the current premium on radical transparency", "meaningVi": "sự đề cao sự minh bạch triệt để hiện nay"},
-    {"phrase": "the person who holds back is suspected of concealment", "meaningVi": "người kiềm chế bị nghi ngờ che giấu"},
-    {"phrase": "the dignity of a person may sometimes depend as much on what is withheld", "meaningVi": "phẩm giá của một người đôi khi có thể phụ thuộc nhiều vào những gì được giữ lại"},
-    {"phrase": "gauge the patient's readiness, cultural context, and support network", "meaningVi": "đánh giá sự sẵn sàng, bối cảnh văn hoá và mạng lưới hỗ trợ của bệnh nhân"},
-    {"phrase": "calibrating what to say", "meaningVi": "hiệu chỉnh những gì cần nói"},
-    {"phrase": "intelligible to another at a particular moment", "meaningVi": "có thể hiểu được với người khác tại một thời điểm cụ thể"},
-    {"phrase": "premature articulation", "meaningVi": "sự bày tỏ quá sớm"},
-    {"phrase": "communicative carelessness dressed as honesty", "meaningVi": "sự bất cẩn trong giao tiếp được nguỵ trang thành sự thành thật"},
-    {"phrase": "prioritises their own expressivity over their responsibility to the relationship", "meaningVi": "ưu tiên khả năng biểu đạt của bản thân hơn trách nhiệm với mối quan hệ"},
-    {"phrase": "Granted, concealment in the name of tact has historically served to protect the powerful", "meaningVi": "Cứ cho là sự che giấu nhân danh sự tế nhị từ trước đến nay đã phục vụ để bảo vệ người có quyền lực"},
-    {"phrase": "Even so, this fact does not dissolve the distinction", "meaningVi": "Dù vậy, sự thật này không xoá bỏ sự phân biệt"},
-    {"phrase": "protective silence that serves the person being spared", "meaningVi": "sự im lặng bảo vệ phục vụ người được miễn"},
-    {"phrase": "self-serving silence that serves the person doing the sparing", "meaningVi": "sự im lặng vụ lợi phục vụ người đang thực hiện việc miễn giảm"},
-    {"phrase": "provisional — not yet accurate enough", "meaningVi": "tạm thời — chưa đủ chính xác"},
-    {"phrase": "the exportation of unfinished cognitive labour onto the relationship", "meaningVi": "việc xuất khẩu lao động nhận thức chưa hoàn thành lên mối quan hệ"},
-    {"phrase": "contemplative pause", "meaningVi": "khoảng dừng để suy nghĩ"},
-    {"phrase": "trust architecture of a relationship", "meaningVi": "kiến trúc niềm tin của một mối quan hệ"},
-    {"phrase": "a relational fabric so thin that nothing of weight can be held in it", "meaningVi": "một cấu trúc quan hệ mỏng đến mức không có gì nặng nề có thể được nắm giữ trong đó"},
-    {"phrase": "the active refusal to say less than the truth by saying too much too soon", "meaningVi": "sự từ chối chủ động nói ít hơn sự thật bằng cách nói quá nhiều quá sớm"}
+    {
+      "phrase": "Not everything that could be said deserves to be said",
+      "meaningVi": "Không phải mọi thứ có thể nói đều xứng đáng được nói"
+    },
+    {
+      "phrase": "the current premium on radical transparency",
+      "meaningVi": "sự đề cao sự minh bạch triệt để hiện nay"
+    },
+    {
+      "phrase": "the person who holds back is suspected of concealment",
+      "meaningVi": "người kiềm chế bị nghi ngờ che giấu"
+    },
+    {
+      "phrase": "may sometimes depend as much on what is withheld",
+      "meaningVi": "phẩm giá của một người đôi khi có thể phụ thuộc nhiều vào những gì được giữ lại"
+    },
+    {
+      "phrase": "gauge the patient's readiness, cultural context, and support network",
+      "meaningVi": "đánh giá sự sẵn sàng, bối cảnh văn hoá và mạng lưới hỗ trợ của bệnh nhân"
+    },
+    {
+      "phrase": "calibrating what to say",
+      "meaningVi": "hiệu chỉnh những gì cần nói"
+    },
+    {
+      "phrase": "intelligible to another at a particular moment",
+      "meaningVi": "có thể hiểu được với người khác tại một thời điểm cụ thể"
+    },
+    {
+      "phrase": "premature articulation",
+      "meaningVi": "sự bày tỏ quá sớm"
+    },
+    {
+      "phrase": "communicative carelessness dressed as honesty",
+      "meaningVi": "sự bất cẩn trong giao tiếp được nguỵ trang thành sự thành thật"
+    },
+    {
+      "phrase": "prioritises their own expressivity over their responsibility to the relationship",
+      "meaningVi": "ưu tiên khả năng biểu đạt của bản thân hơn trách nhiệm với mối quan hệ"
+    },
+    {
+      "phrase": "Granted, concealment in the name of tact has historically served to protect the powerful",
+      "meaningVi": "Cứ cho là sự che giấu nhân danh sự tế nhị từ trước đến nay đã phục vụ để bảo vệ người có quyền lực"
+    },
+    {
+      "phrase": "Even so, this fact does not dissolve the distinction",
+      "meaningVi": "Dù vậy, sự thật này không xoá bỏ sự phân biệt"
+    },
+    {
+      "phrase": "protective silence that serves the person being spared",
+      "meaningVi": "sự im lặng bảo vệ phục vụ người được miễn"
+    },
+    {
+      "phrase": "self-serving silence that serves the person doing the sparing",
+      "meaningVi": "sự im lặng vụ lợi phục vụ người đang thực hiện việc miễn giảm"
+    },
+    {
+      "phrase": "provisional — not yet accurate enough",
+      "meaningVi": "tạm thời — chưa đủ chính xác"
+    },
+    {
+      "phrase": "the exportation of unfinished cognitive labour onto the relationship",
+      "meaningVi": "việc xuất khẩu lao động nhận thức chưa hoàn thành lên mối quan hệ"
+    },
+    {
+      "phrase": "contemplative pause",
+      "meaningVi": "khoảng dừng để suy nghĩ"
+    },
+    {
+      "phrase": "trust architecture of a relationship",
+      "meaningVi": "kiến trúc niềm tin của một mối quan hệ"
+    },
+    {
+      "phrase": "a relational fabric so thin that nothing of weight can be held in it",
+      "meaningVi": "một cấu trúc quan hệ mỏng đến mức không có gì nặng nề có thể được nắm giữ trong đó"
+    },
+    {
+      "phrase": "the active refusal to say less than the truth by saying too much too soon",
+      "meaningVi": "sự từ chối chủ động nói ít hơn sự thật bằng cách nói quá nhiều quá sớm"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -78,11 +208,11 @@
       "prompt": "Which sentence correctly uses a cleft to foreground a specific function?",
       "options": [
         "Silence protects the trust architecture of a relationship at its best.",
-        "It is the trust architecture of a relationship that silence, at its best, protects.",
         "What silence protects best is trust.",
+        "It is the trust architecture of a relationship that silence, at its best, protects.",
         "Trust architecture is what relationships need silence to protect."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'It is X that Y' foregrounds X — the trust architecture — as the specific thing silence protects, with the qualifying parenthetical 'at its best' adding precision.",
       "hint": "Look for the 'It is … that …' structure."
     },
@@ -91,11 +221,11 @@
       "prompt": "What is the essay's central distinction regarding silence?",
       "options": [
         "Between silence that hides the truth and silence that expresses it",
-        "Between silence as passivity and silence as active moral restraint",
         "Between silence in professional contexts and silence in personal relationships",
-        "Between cultural traditions that value silence and those that value transparency"
+        "Between cultural traditions that value silence and those that value transparency",
+        "Between silence as passivity and silence as active moral restraint"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay's final line defines the central distinction: 'the dignity of leaving things unsaid lies not in silence as passivity, but in silence as the active refusal to say less than the truth by saying too much too soon.'",
       "hint": "Look at the essay's final sentence."
     },
@@ -103,12 +233,12 @@
       "id": "q3",
       "prompt": "What does the essay argue about the East Asian clinical practice of gradual disclosure?",
       "options": [
-        "It is a form of deception that violates patients' rights",
         "It is an exercise of discretion that recognises the gap between what is true and what is intelligible at a particular moment",
+        "It is a form of deception that violates patients' rights",
         "It is a cultural practice that should be replaced by Western models of transparency",
         "It is legally problematic in most international healthcare contexts"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay argues the physician is 'exercising the kind of discretion that recognises the gap between what is true and what is intelligible to another at a particular moment' — not deception.",
       "hint": "Look for 'discretion' and 'intelligible' near the discussion of East Asian clinical practice."
     },
@@ -130,11 +260,11 @@
       "prompt": "What is the essay's position on the historical use of silence to protect the powerful?",
       "options": [
         "It accepts this as a sufficient reason to reject all restraint in speech",
-        "It acknowledges the history but argues this does not dissolve the distinction between protective and self-serving silence",
         "It dismisses this history as irrelevant to contemporary communication ethics",
+        "It acknowledges the history but argues this does not dissolve the distinction between protective and self-serving silence",
         "It argues that the powerful should use more silence, not less"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay uses 'Granted… Even so…' to concede the history while preserving the distinction between protective silence and self-serving silence.",
       "hint": "Look for the 'Granted… Even so…' paragraph."
     },
@@ -143,11 +273,11 @@
       "prompt": "What does 'the exportation of unfinished cognitive labour onto the relationship' mean?",
       "options": [
         "Sharing intellectual work with a colleague before it is complete",
-        "Saying provisional or unformed thoughts aloud to someone else before they have been thought through",
         "Using a relationship as a professional networking tool",
-        "Exporting workplace stress into personal relationships"
+        "Exporting workplace stress into personal relationships",
+        "Saying provisional or unformed thoughts aloud to someone else before they have been thought through"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay argues that saying provisional thoughts aloud before they are ready makes the other person bear the cognitive burden of incomplete thinking — this is the 'exportation' the essay describes.",
       "hint": "Think about what 'unfinished' and 'labour' suggest about the state of the thought."
     },
@@ -155,12 +285,12 @@
       "id": "q7",
       "prompt": "What does the essay say about the person who always discloses everything?",
       "options": [
-        "They are described as authentic and morally admirable",
         "They create a relational fabric so thin that nothing of weight can be held in it",
+        "They are described as authentic and morally admirable",
         "They are more trustworthy because others know exactly where they stand",
         "They are described as culturally insensitive but otherwise harmless"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay says 'The over-disclosing person… creates a relational fabric so thin that nothing of weight can be held in it.' — this is presented as a failure of relational intelligence.",
       "hint": "Look for 'over-disclosing person' and what kind of 'fabric' results."
     },
@@ -169,11 +299,11 @@
       "prompt": "What does 'tact' mean in the essay's argument?",
       "options": [
         "A form of dishonesty that avoids difficult conversations",
-        "A physical sense used in medical examinations",
         "The skill of knowing what to say, when to say it, and what to leave unsaid — in ways that serve the relationship rather than the speaker",
+        "A physical sense used in medical examinations",
         "A negotiating technique used in diplomatic contexts"
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "explanation": "Tact in the essay is the capacity for calibrated restraint — it is not simply politeness or avoidance, but knowing when withholding serves the relationship's integrity.",
       "hint": "Look at how 'tact' is used in the 'Granted… Even so…' paragraph."
     },
@@ -182,11 +312,11 @@
       "prompt": "What does 'radical transparency' imply, according to the essay?",
       "options": [
         "A political philosophy that demands open government",
-        "The cultural norm that full disclosure is always more virtuous than restraint",
         "A management technique that requires employees to share all information",
+        "The cultural norm that full disclosure is always more virtuous than restraint",
         "A therapeutic method of confronting uncomfortable truths"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay describes radical transparency as the current cultural norm that makes the person who 'holds back' suspect — it treats disclosure as intrinsically virtuous.",
       "hint": "Look at how the essay describes the person who 'holds back' in the first paragraph."
     },
@@ -195,11 +325,11 @@
       "prompt": "Why is the colleague who exercises discretion described as 'more trustworthy, not less'?",
       "options": [
         "Because they never say anything that could be misinterpreted",
-        "Because they have weighed what is useful against what is merely expressive — demonstrating that they will not say harmful things even when they could",
         "Because they never gossip and so have more information about others",
-        "Because discretion is a sign of professionalism valued in corporate cultures"
+        "Because discretion is a sign of professionalism valued in corporate cultures",
+        "Because they have weighed what is useful against what is merely expressive — demonstrating that they will not say harmful things even when they could"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay argues trustworthiness includes knowing someone will 'not speak when speaking would do harm that outweighs its benefit' — restraint as evidence of responsible judgement.",
       "hint": "Look for what the essay says trustworthiness depends on, beyond just speaking when something matters."
     },
@@ -207,12 +337,12 @@
       "id": "q11",
       "prompt": "What does 'interpretive charity' most likely mean in the context of communication ethics?",
       "options": [
-        "Donating money to communication charities",
         "The disposition to interpret another person's words or silence in the most favourable reasonable light",
+        "Donating money to communication charities",
         "A legal principle requiring charitable organisations to be transparent",
         "The technique of softening criticism before delivering it"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Interpretive charity is the principle of assuming the most favourable reasonable interpretation of someone's communication — relevant here as a condition under which silence can be trusted rather than suspected.",
       "hint": "'Charity' in philosophical contexts typically means assuming the best of another's position."
     },
@@ -234,11 +364,11 @@
       "prompt": "Which transition correctly signals a concession followed by a counter-argument?",
       "options": [
         "Even so, concealment has protected the powerful. Granted, this is distinct from restraint.",
-        "Granted, concealment in the name of tact has historically served to protect the powerful. Even so, this fact does not dissolve the distinction between protective and self-serving silence.",
         "Furthermore, concealment protected the powerful; in addition, restraint is also suspect.",
+        "Granted, concealment in the name of tact has historically served to protect the powerful. Even so, this fact does not dissolve the distinction between protective and self-serving silence.",
         "Although concealment has protected the powerful, granted restraint is different."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'Granted… Even so…' is the canonical concede-and-counter pattern; the concession must acknowledge a real opposing point before the pivot reasserts the essay's position.",
       "hint": "'Granted' concedes; 'Even so' pivots — always in that order."
     },
@@ -247,11 +377,11 @@
       "prompt": "What does 'expressive imperative' mean in the essay?",
       "options": [
         "The legal requirement to express an opinion in a democratic vote",
-        "The cultural pressure or expectation that one ought to express one's thoughts and feelings rather than hold them back",
         "A grammatical construction that gives a command",
-        "The requirement that artists and writers express their authentic experience"
+        "The requirement that artists and writers express their authentic experience",
+        "The cultural pressure or expectation that one ought to express one's thoughts and feelings rather than hold them back"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'Expressive imperative' is the cultural mandate to share and express — the essay argues this pressure overlooks the value and intelligence of deliberate silence.",
       "hint": "An 'imperative' is a command or compulsion — what is being 'commanded' here?"
     },
@@ -259,12 +389,12 @@
       "id": "q15",
       "prompt": "What is the essay's final definition of 'the dignity of leaving things unsaid'?",
       "options": [
-        "A form of self-protection that avoids difficult conversations",
         "The active refusal to say less than the truth by saying too much too soon",
+        "A form of self-protection that avoids difficult conversations",
         "A cultural tradition that values silence over speech in all circumstances",
         "A therapeutic technique for managing difficult emotions"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The final line of the essay defines it precisely: 'The dignity of leaving things unsaid lies not in silence as passivity, but in silence as the active refusal to say less than the truth by saying too much too soon.'",
       "hint": "Look at the essay's very last sentence."
     }

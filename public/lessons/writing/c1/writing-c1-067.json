@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "On the social function of complaint that nobody acts on",
   "summary": "Argue that ritualised, unactioned complaint — about weather, government, transport, prices, neighbours — performs real social work, and that a society that grows impatient with it loses something more delicate than first appears.",
-  "tags": ["Society", "Argument", "Anthropology"],
+  "tags": [
+    "Society",
+    "Argument",
+    "Anthropology"
+  ],
   "topic": "What ritual complaint does that nobody seems to notice",
   "prompt": "Write a 600–800-word essay on the social function of complaint that does not seek redress — the kind exchanged in queues, on benches, over coffee. Avoid the self-help framing of 'venting' and avoid moralising about negativity. Use one inversion, one cleft, and a 'Granted… Even so…' concession. Use specific cities as setting (Cairo, Buenos Aires, Hanoi) without making the essay about any of them.",
   "minWords": 600,
@@ -14,53 +18,185 @@
     "Granted, complaint can certainly harden into a habit of grievance that recognises nothing but its own continuation. Even so,…"
   ],
   "hintVocab": [
-    {"phrase": "ritualised complaint", "meaningVi": "sự than phiền được nghi thức hoá"},
-    {"phrase": "the unactioned grievance", "meaningVi": "lời than không được hành động"},
-    {"phrase": "phatic communication", "meaningVi": "giao tiếp giao xã"},
-    {"phrase": "social maintenance", "meaningVi": "duy trì xã hội"},
-    {"phrase": "the queue-side exchange", "meaningVi": "trao đổi bên hàng đợi"},
-    {"phrase": "mutual recognition", "meaningVi": "sự công nhận lẫn nhau"},
-    {"phrase": "shared frustration", "meaningVi": "sự thất vọng chung"},
-    {"phrase": "the calibration of expectation", "meaningVi": "việc hiệu chỉnh kỳ vọng"},
-    {"phrase": "the small civic ritual", "meaningVi": "nghi thức công dân nhỏ"},
-    {"phrase": "co-presence", "meaningVi": "sự đồng hiện diện"},
-    {"phrase": "the unspoken contract", "meaningVi": "khế ước không nói ra"},
-    {"phrase": "complaint as solidarity", "meaningVi": "than phiền như đoàn kết"},
-    {"phrase": "verbal commiseration", "meaningVi": "lời chia buồn bằng lời"},
-    {"phrase": "Goffman on interaction ritual", "meaningVi": "Goffman về nghi thức tương tác"},
-    {"phrase": "the misread complaint", "meaningVi": "lời than bị đọc sai"},
-    {"phrase": "the literalist response", "meaningVi": "phản hồi quá nguyên văn"},
-    {"phrase": "the productive register", "meaningVi": "đăng ký năng suất"},
-    {"phrase": "the foreign reader of local talk", "meaningVi": "người ngoại đọc lời địa phương"},
-    {"phrase": "expressive infrastructure", "meaningVi": "hạ tầng biểu cảm"},
-    {"phrase": "the small acknowledgement", "meaningVi": "sự công nhận nhỏ"},
-    {"phrase": "structural patience", "meaningVi": "sự kiên nhẫn cấu trúc"},
-    {"phrase": "the deferred actionability", "meaningVi": "khả năng hành động bị trì hoãn"}
+    {
+      "phrase": "ritualised complaint",
+      "meaningVi": "sự than phiền được nghi thức hoá"
+    },
+    {
+      "phrase": "the unactioned grievance",
+      "meaningVi": "lời than không được hành động"
+    },
+    {
+      "phrase": "phatic communication",
+      "meaningVi": "giao tiếp giao xã"
+    },
+    {
+      "phrase": "social maintenance",
+      "meaningVi": "duy trì xã hội"
+    },
+    {
+      "phrase": "the queue-side exchange",
+      "meaningVi": "trao đổi bên hàng đợi"
+    },
+    {
+      "phrase": "mutual recognition",
+      "meaningVi": "sự công nhận lẫn nhau"
+    },
+    {
+      "phrase": "shared frustration",
+      "meaningVi": "sự thất vọng chung"
+    },
+    {
+      "phrase": "the calibration of expectation",
+      "meaningVi": "việc hiệu chỉnh kỳ vọng"
+    },
+    {
+      "phrase": "the small civic ritual",
+      "meaningVi": "nghi thức công dân nhỏ"
+    },
+    {
+      "phrase": "co-presence",
+      "meaningVi": "sự đồng hiện diện"
+    },
+    {
+      "phrase": "the unspoken contract",
+      "meaningVi": "khế ước không nói ra"
+    },
+    {
+      "phrase": "complaint as solidarity",
+      "meaningVi": "than phiền như đoàn kết"
+    },
+    {
+      "phrase": "verbal commiseration",
+      "meaningVi": "lời chia buồn bằng lời"
+    },
+    {
+      "phrase": "Goffman on interaction ritual",
+      "meaningVi": "Goffman về nghi thức tương tác"
+    },
+    {
+      "phrase": "the misread complaint",
+      "meaningVi": "lời than bị đọc sai"
+    },
+    {
+      "phrase": "the literalist response",
+      "meaningVi": "phản hồi quá nguyên văn"
+    },
+    {
+      "phrase": "the productive register",
+      "meaningVi": "đăng ký năng suất"
+    },
+    {
+      "phrase": "the foreign reader of local talk",
+      "meaningVi": "người ngoại đọc lời địa phương"
+    },
+    {
+      "phrase": "expressive infrastructure",
+      "meaningVi": "hạ tầng biểu cảm"
+    },
+    {
+      "phrase": "the small acknowledgement",
+      "meaningVi": "sự công nhận nhỏ"
+    },
+    {
+      "phrase": "structural patience",
+      "meaningVi": "sự kiên nhẫn cấu trúc"
+    },
+    {
+      "phrase": "the deferred actionability",
+      "meaningVi": "khả năng hành động bị trì hoãn"
+    }
   ],
   "sampleText": "Not commonly is unactioned complaint understood as performing any kind of work, social or otherwise. The standard framing treats it as either a problem to be solved — 'why don't you do something about it?' — or as evidence of a national character defect, depending on the country in question. The complaint about the heat, the bus, the price of vegetables, the new building going up on the corner, the latest pronouncement from whichever ministry: none of these are aimed at action, and the speaker would, in most cases, be embarrassed if action were proposed. This embarrassment is the clue. It suggests the exchange was never about the heat or the bus, and that the foreign visitor who arrives with practical advice is misreading a genre.\n\nConsider a bench in a Cairo neighbourhood at the hour when the heat begins to lift, where two women in their seventies are conducting a long, low-voiced complaint about the price of tomatoes. The complaint moves through familiar stations — the wholesalers, the new chain, the disappearance of the cart that used to come Tuesdays — without arriving anywhere. A grandson watching from the window might be tempted to suggest a different market. The suggestion would land badly. What is happening on the bench is not a logistics problem. It is a shared rehearsal of a world the two women recognise together, in which the price of tomatoes is one of the agreed registers in which 'we have been here long enough to remember' is communicated, and in which the other party's small grunt of agreement is the answer the speaker actually wanted.\n\nWhat the term 'venting' tends to flatten is the texture of an exchange that does several things at once, none of which has anything to do with the redress that an outsider would read into it. The exchange confirms mutual recognition: you and I see the world from a comparable angle. It calibrates expectation: the price was not always this; remembering this together protects each of us from going slightly mad in private. It maintains a relationship without requiring the more demanding moves that the relationship would not, at this hour, on this bench, sustain. The Cairo case has equivalents in the Buenos Aires café where two clerks reliably curse the politicians of the day for fifteen minutes after lunch, and in the Hanoi pavement where a vendor explains to a familiar customer that the new traffic plan is impossible. In each, the complaint is doing relational work that no other available speech act could do as economically.\n\nIt is the relational function, not the propositional content, that gives the exchange its meaning. This is why the literalist response — the proposal of a solution, the offer of help, the request that the speaker either act on the complaint or stop voicing it — feels, to the speaker, like a small breach of contract. The reader has read the genre wrong, has confused the score for the libretto. The complainer's irritation in such moments is not, as the literalist often supposes, about being told a hard truth. It is about having a social form misrecognised as a request for service.\n\nGranted, complaint can certainly harden into a habit of grievance that recognises nothing but its own continuation. The category exists; the person who complains as their only available register, regardless of audience or occasion, is wearing on the people around them, and there is no virtue in pretending otherwise. The defensible practices we are interested in are bounded — they have an occasion, a setting, an audience, and an end — and they coexist with other registers in the same speaker, including the registers of action when action is genuinely available. Even so, the existence of the unbounded form does not undermine the bounded one. It simply shows that, as with all expressive practices, there is a version that has come loose from its moorings.\n\nA society that grows impatient with unactioned complaint tends to make a particular mistake. It mistakes a maintenance ritual for an inefficiency, and proposes to optimise it away. The result is not a more practical population but a thinner social fabric, in which complaint, having lost its ritual setting, leaks into the registers that were not designed to absorb it — into intimate relationships, into transactional exchanges, into political life proper, where the consequences of a misplaced grievance are larger and where, perversely, the redress that was never wanted on the bench is now actually demanded. The visitor who asks 'why don't you do something about it?' is, if pressed, asking the speaker to give up a small piece of expressive infrastructure that was holding several relationships in place.\n\nNone of this is an argument for cultivating complaint. The argument is narrower: that some genres of talk do their work precisely by not seeking action, and that the social vocabulary of a place includes such genres for reasons that take a long time to grasp. A society that does not provide the bench is not a more practical society; it is a quieter one, in a way no one will quite name.",
   "sampleAnnotations": [
-    {"phrase": "Not commonly is unactioned complaint understood as performing any kind of work, social or otherwise", "meaningVi": "Không thường xuyên lời than không được hành động được hiểu như thực hiện bất kỳ loại công việc nào, xã hội hay khác"},
-    {"phrase": "none of these are aimed at action, and the speaker would, in most cases, be embarrassed if action were proposed", "meaningVi": "không cái nào trong số này nhắm đến hành động, và người nói, trong hầu hết các trường hợp, sẽ xấu hổ nếu hành động được đề xuất"},
-    {"phrase": "the foreign visitor who arrives with practical advice is misreading a genre", "meaningVi": "vị khách nước ngoài đến với lời khuyên thực tiễn đang đọc sai một thể loại"},
-    {"phrase": "two women in their seventies are conducting a long, low-voiced complaint about the price of tomatoes", "meaningVi": "hai người phụ nữ tuổi bảy mươi đang tiến hành một lời than dài, nhỏ tiếng về giá cà chua"},
-    {"phrase": "The complaint moves through familiar stations — the wholesalers, the new chain, the disappearance of the cart that used to come Tuesdays — without arriving anywhere", "meaningVi": "Lời than đi qua các trạm quen thuộc — các nhà bán buôn, chuỗi mới, sự biến mất của chiếc xe đẩy từng đến vào thứ Ba — mà không đến đâu cả"},
-    {"phrase": "What is happening on the bench is not a logistics problem", "meaningVi": "Điều đang xảy ra trên chiếc ghế băng không phải là một vấn đề hậu cần"},
-    {"phrase": "the other party's small grunt of agreement is the answer the speaker actually wanted", "meaningVi": "tiếng càu nhàu đồng ý nhỏ của bên kia là câu trả lời mà người nói thực sự muốn"},
-    {"phrase": "What the term 'venting' tends to flatten is the texture of an exchange that does several things at once", "meaningVi": "Điều mà thuật ngữ 'xả hơi' thường làm phẳng là kết cấu của một sự trao đổi làm nhiều việc cùng lúc"},
-    {"phrase": "It calibrates expectation: the price was not always this; remembering this together protects each of us from going slightly mad in private", "meaningVi": "Nó hiệu chỉnh kỳ vọng: giá không phải lúc nào cũng vậy; nhớ điều này cùng nhau bảo vệ mỗi chúng ta khỏi việc hơi phát điên trong riêng tư"},
-    {"phrase": "the complaint is doing relational work that no other available speech act could do as economically", "meaningVi": "lời than đang làm công việc quan hệ mà không hành vi ngôn ngữ nào khác có thể làm tiết kiệm bằng"},
-    {"phrase": "It is the relational function, not the propositional content, that gives the exchange its meaning", "meaningVi": "Chính chức năng quan hệ, không phải nội dung mệnh đề, mới mang lại cho sự trao đổi ý nghĩa của nó"},
-    {"phrase": "the literalist response — the proposal of a solution, the offer of help, the request that the speaker either act on the complaint or stop voicing it — feels, to the speaker, like a small breach of contract", "meaningVi": "phản hồi nguyên văn — đề xuất giải pháp, lời mời giúp đỡ, yêu cầu người nói hoặc hành động theo lời than hoặc ngừng nói ra — cảm giác, với người nói, như một sự vi phạm hợp đồng nhỏ"},
-    {"phrase": "has confused the score for the libretto", "meaningVi": "đã nhầm bản nhạc với lời ca"},
-    {"phrase": "It is about having a social form misrecognised as a request for service", "meaningVi": "Đó là về việc có một hình thức xã hội bị nhận lầm như một yêu cầu dịch vụ"},
-    {"phrase": "Granted, complaint can certainly harden into a habit of grievance that recognises nothing but its own continuation", "meaningVi": "Cứ cho là lời than chắc chắn có thể cứng lại thành thói quen oán thán chỉ nhận biết sự tiếp tục của chính nó"},
-    {"phrase": "the existence of the unbounded form does not undermine the bounded one", "meaningVi": "sự tồn tại của hình thức không giới hạn không làm suy yếu hình thức có giới hạn"},
-    {"phrase": "It mistakes a maintenance ritual for an inefficiency, and proposes to optimise it away", "meaningVi": "Nó nhầm một nghi thức bảo trì với sự kém hiệu quả, và đề xuất tối ưu hoá nó đi"},
-    {"phrase": "complaint, having lost its ritual setting, leaks into the registers that were not designed to absorb it", "meaningVi": "lời than, đã mất bối cảnh nghi thức của mình, rò rỉ vào các đăng ký không được thiết kế để hấp thụ nó"},
-    {"phrase": "the redress that was never wanted on the bench is now actually demanded", "meaningVi": "sự bồi thường vốn không bao giờ được muốn trên chiếc ghế băng nay thực sự được đòi hỏi"},
-    {"phrase": "asking the speaker to give up a small piece of expressive infrastructure that was holding several relationships in place", "meaningVi": "yêu cầu người nói từ bỏ một mảnh nhỏ của hạ tầng biểu cảm đang giữ vài mối quan hệ tại chỗ"},
-    {"phrase": "some genres of talk do their work precisely by not seeking action", "meaningVi": "một số thể loại lời nói làm công việc của mình chính bằng cách không tìm kiếm hành động"},
-    {"phrase": "A society that does not provide the bench is not a more practical society; it is a quieter one, in a way no one will quite name", "meaningVi": "Một xã hội không cung cấp chiếc ghế băng không phải là một xã hội thực tiễn hơn; đó là một xã hội yên ắng hơn, theo cách không ai sẽ thực sự gọi tên"}
+    {
+      "phrase": "Not commonly is unactioned complaint understood as performing any kind of work, social or otherwise",
+      "meaningVi": "Không thường xuyên lời than không được hành động được hiểu như thực hiện bất kỳ loại công việc nào, xã hội hay khác"
+    },
+    {
+      "phrase": "none of these are aimed at action, and the speaker would, in most cases, be embarrassed if action were proposed",
+      "meaningVi": "không cái nào trong số này nhắm đến hành động, và người nói, trong hầu hết các trường hợp, sẽ xấu hổ nếu hành động được đề xuất"
+    },
+    {
+      "phrase": "the foreign visitor who arrives with practical advice is misreading a genre",
+      "meaningVi": "vị khách nước ngoài đến với lời khuyên thực tiễn đang đọc sai một thể loại"
+    },
+    {
+      "phrase": "two women in their seventies are conducting a long, low-voiced complaint about the price of tomatoes",
+      "meaningVi": "hai người phụ nữ tuổi bảy mươi đang tiến hành một lời than dài, nhỏ tiếng về giá cà chua"
+    },
+    {
+      "phrase": "The complaint moves through familiar stations — the wholesalers, the new chain, the disappearance of the cart that used to come Tuesdays — without arriving anywhere",
+      "meaningVi": "Lời than đi qua các trạm quen thuộc — các nhà bán buôn, chuỗi mới, sự biến mất của chiếc xe đẩy từng đến vào thứ Ba — mà không đến đâu cả"
+    },
+    {
+      "phrase": "What is happening on the bench is not a logistics problem",
+      "meaningVi": "Điều đang xảy ra trên chiếc ghế băng không phải là một vấn đề hậu cần"
+    },
+    {
+      "phrase": "the other party's small grunt of agreement is the answer the speaker actually wanted",
+      "meaningVi": "tiếng càu nhàu đồng ý nhỏ của bên kia là câu trả lời mà người nói thực sự muốn"
+    },
+    {
+      "phrase": "What the term 'venting' tends to flatten is the texture of an exchange that does several things at once",
+      "meaningVi": "Điều mà thuật ngữ 'xả hơi' thường làm phẳng là kết cấu của một sự trao đổi làm nhiều việc cùng lúc"
+    },
+    {
+      "phrase": "It calibrates expectation: the price was not always this; remembering this together protects each of us from going slightly mad in private",
+      "meaningVi": "Nó hiệu chỉnh kỳ vọng: giá không phải lúc nào cũng vậy; nhớ điều này cùng nhau bảo vệ mỗi chúng ta khỏi việc hơi phát điên trong riêng tư"
+    },
+    {
+      "phrase": "the complaint is doing relational work that no other available speech act could do as economically",
+      "meaningVi": "lời than đang làm công việc quan hệ mà không hành vi ngôn ngữ nào khác có thể làm tiết kiệm bằng"
+    },
+    {
+      "phrase": "It is the relational function, not the propositional content, that gives the exchange its meaning",
+      "meaningVi": "Chính chức năng quan hệ, không phải nội dung mệnh đề, mới mang lại cho sự trao đổi ý nghĩa của nó"
+    },
+    {
+      "phrase": "the literalist response — the proposal of a solution, the offer of help, the request that the speaker either act on the complaint or stop voicing it — feels, to the speaker, like a small breach of contract",
+      "meaningVi": "phản hồi nguyên văn — đề xuất giải pháp, lời mời giúp đỡ, yêu cầu người nói hoặc hành động theo lời than hoặc ngừng nói ra — cảm giác, với người nói, như một sự vi phạm hợp đồng nhỏ"
+    },
+    {
+      "phrase": "has confused the score for the libretto",
+      "meaningVi": "đã nhầm bản nhạc với lời ca"
+    },
+    {
+      "phrase": "It is about having a social form misrecognised as a request for service",
+      "meaningVi": "Đó là về việc có một hình thức xã hội bị nhận lầm như một yêu cầu dịch vụ"
+    },
+    {
+      "phrase": "Granted, complaint can certainly harden into a habit of grievance that recognises nothing but its own continuation",
+      "meaningVi": "Cứ cho là lời than chắc chắn có thể cứng lại thành thói quen oán thán chỉ nhận biết sự tiếp tục của chính nó"
+    },
+    {
+      "phrase": "the existence of the unbounded form does not undermine the bounded one",
+      "meaningVi": "sự tồn tại của hình thức không giới hạn không làm suy yếu hình thức có giới hạn"
+    },
+    {
+      "phrase": "It mistakes a maintenance ritual for an inefficiency, and proposes to optimise it away",
+      "meaningVi": "Nó nhầm một nghi thức bảo trì với sự kém hiệu quả, và đề xuất tối ưu hoá nó đi"
+    },
+    {
+      "phrase": "complaint, having lost its ritual setting, leaks into the registers that were not designed to absorb it",
+      "meaningVi": "lời than, đã mất bối cảnh nghi thức của mình, rò rỉ vào các đăng ký không được thiết kế để hấp thụ nó"
+    },
+    {
+      "phrase": "the redress that was never wanted on the bench is now actually demanded",
+      "meaningVi": "sự bồi thường vốn không bao giờ được muốn trên chiếc ghế băng nay thực sự được đòi hỏi"
+    },
+    {
+      "phrase": "asking the speaker to give up a small piece of expressive infrastructure that was holding several relationships in place",
+      "meaningVi": "yêu cầu người nói từ bỏ một mảnh nhỏ của hạ tầng biểu cảm đang giữ vài mối quan hệ tại chỗ"
+    },
+    {
+      "phrase": "some genres of talk do their work precisely by not seeking action",
+      "meaningVi": "một số thể loại lời nói làm công việc của mình chính bằng cách không tìm kiếm hành động"
+    },
+    {
+      "phrase": "A society that does not provide the bench is not a more practical society; it is a quieter one, in a way no one will quite name",
+      "meaningVi": "Một xã hội không cung cấp chiếc ghế băng không phải là một xã hội thực tiễn hơn; đó là một xã hội yên ắng hơn, theo cách không ai sẽ thực sự gọi tên"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -81,11 +217,11 @@
       "prompt": "Which sentence correctly inverts after 'Not commonly'?",
       "options": [
         "Not commonly unactioned complaint is understood as performing social work.",
-        "Not commonly is unactioned complaint understood as performing any kind of work, social or otherwise.",
         "Unactioned complaint not commonly is performing work.",
-        "Not commonly understood is unactioned complaint as work."
+        "Not commonly understood is unactioned complaint as work.",
+        "Not commonly is unactioned complaint understood as performing any kind of work, social or otherwise."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'Not commonly' fronts a negative adverbial. Inversion places the passive 'is' before the subject 'unactioned complaint', with the participle 'understood' after.",
       "hint": "Negative adverbial + auxiliary + subject + main verb."
     },
@@ -93,12 +229,12 @@
       "id": "q2",
       "prompt": "What does the essay say is the 'clue' that ritual complaint is not aimed at action?",
       "options": [
-        "Complainers always smile when they speak.",
         "Speakers tend to be embarrassed if action is actually proposed in response.",
+        "Complainers always smile when they speak.",
         "Complaints are always about trivial things.",
         "Complaints are exchanged only by the elderly."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay's diagnostic: the speaker's embarrassment when offered a solution is the sign that the exchange belonged to a different genre.",
       "hint": "The speaker's reaction to a literal solution."
     },
@@ -120,11 +256,11 @@
       "prompt": "What is the essay's view of the 'literalist response' to ritual complaint?",
       "options": [
         "It is the only honest response.",
-        "It feels to the speaker like a small breach of contract — a misreading of the genre that confuses a social form for a request for service.",
         "It is what all complainers really want.",
+        "It feels to the speaker like a small breach of contract — a misreading of the genre that confuses a social form for a request for service.",
         "It is rude only when shouted."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay's diagnosis: offering a solution to a ritual complaint registers as a category mistake. The complainer is irritated not at being told a hard truth but at being misclassified.",
       "hint": "The literalist has read the genre wrong."
     },
@@ -133,11 +269,11 @@
       "prompt": "What three things does the essay say the ritual complaint does simultaneously?",
       "options": [
         "Solves problems, vents anger, exchanges information.",
-        "Confirms mutual recognition, calibrates expectation, maintains a relationship without requiring more demanding moves.",
         "Provides entertainment, kills time, builds vocabulary.",
-        "Reduces taxes, builds infrastructure, names parties."
+        "Reduces taxes, builds infrastructure, names parties.",
+        "Confirms mutual recognition, calibrates expectation, maintains a relationship without requiring more demanding moves."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay lists three functions: recognition (same angle of view), calibration (price wasn't always this), and lightweight relational maintenance.",
       "hint": "Three functions named in the paragraph about 'venting'."
     },
@@ -145,12 +281,12 @@
       "id": "q6",
       "prompt": "How does the essay use the 'Granted… Even so…' move?",
       "options": [
-        "To dismiss the worry about habitual grievance.",
         "To grant fully that complaint can harden into pathological grievance, while restricting the conclusion: the existence of the unbounded form does not undermine the bounded ritual form.",
+        "To dismiss the worry about habitual grievance.",
         "To prove all complaint is unhealthy.",
         "To equivocate."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay honestly admits the failure mode (grievance as a person's only register) but limits the conclusion: the bounded ritual is not invalidated by the existence of its degenerate form.",
       "hint": "Full concession; restricted conclusion."
     },
@@ -172,11 +308,11 @@
       "prompt": "What does 'expressive infrastructure' mean in the essay?",
       "options": [
         "Public art installations.",
-        "The set of shared social genres — like ritual complaint — that hold relationships in place by providing low-cost forms in which co-presence and mutual recognition can be performed.",
         "Television and radio networks.",
+        "The set of shared social genres — like ritual complaint — that hold relationships in place by providing low-cost forms in which co-presence and mutual recognition can be performed.",
         "Architecture for outdoor gatherings."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay's coinage: infrastructure is what holds things up. Expressive infrastructure is the set of conventional speech forms whose loss reveals the structural work they were doing.",
       "hint": "Genres that hold relationships in place."
     },
@@ -185,11 +321,11 @@
       "prompt": "What does the essay mean by 'confused the score for the libretto'?",
       "options": [
         "Played the wrong piece of music.",
-        "Mistaken the social form (the score — the pattern of the exchange) for its surface content (the libretto — the words about tomatoes or buses).",
         "Forgotten the lyrics.",
-        "Sang at the wrong moment."
+        "Sang at the wrong moment.",
+        "Mistaken the social form (the score — the pattern of the exchange) for its surface content (the libretto — the words about tomatoes or buses)."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay's musical metaphor: the score is the underlying form; the libretto is the surface content. The literalist treats the words about tomatoes as the point and misses the form.",
       "hint": "Form vs surface content."
     },
@@ -197,12 +333,12 @@
       "id": "q10",
       "prompt": "What does the essay say about the foreign visitor who arrives with practical advice?",
       "options": [
-        "They are always welcome.",
         "They are misreading a genre — and the local embarrassment at their suggestions is the genre asserting itself.",
+        "They are always welcome.",
         "They have the correct response.",
         "They speak the local language fluently."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay's framing of the cross-cultural misunderstanding: the visitor reads as proposition what the local exchanges as ritual, and the local discomfort with the proposal is diagnostic.",
       "hint": "The visitor mistakes a genre."
     },
@@ -224,11 +360,11 @@
       "prompt": "What does the essay refuse to argue for?",
       "options": [
         "The value of ritual complaint.",
-        "Cultivating complaint — making more of it, encouraging it as a virtue, treating it as something to celebrate.",
         "The misreading of genres.",
+        "Cultivating complaint — making more of it, encouraging it as a virtue, treating it as something to celebrate.",
         "The patience required to grasp a place."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay is careful in its final paragraph: it is not a brief for more complaint, only an argument that the existing ritual form does work whose loss is not visible until afterwards.",
       "hint": "The essay refuses to celebrate complaint."
     },
@@ -237,11 +373,11 @@
       "prompt": "What does 'A society that does not provide the bench' mean as a closing image?",
       "options": [
         "Literal lack of public seating.",
-        "A society that has eliminated the small public settings in which ritual complaint and other low-stakes co-present exchanges can happen — quieter only in the sense that something has been removed.",
         "A failure of urban planning.",
-        "A criticism of bench design."
+        "A criticism of bench design.",
+        "A society that has eliminated the small public settings in which ritual complaint and other low-stakes co-present exchanges can happen — quieter only in the sense that something has been removed."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The bench is metaphorical: it stands for the institutional and physical conditions that make ritual exchange possible. Removing them makes the society quieter but not better.",
       "hint": "The bench stands for the conditions of the exchange."
     },
@@ -249,12 +385,12 @@
       "id": "q14",
       "prompt": "What does the essay say about 'phatic' speech (implicit in its argument)?",
       "options": [
-        "It is meaningless.",
         "Some speech genres do their social work precisely by not seeking action — recognition itself is the function, not a side effect.",
+        "It is meaningless.",
         "It should be eliminated for efficiency.",
         "It is found only in casual settings."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay's implicit framing aligns with linguistic anthropology's idea of phatic communication: the function is contact and recognition, not information transfer.",
       "hint": "Contact is the function."
     },
@@ -276,11 +412,11 @@
       "prompt": "What rhetorical purpose does the closing line — 'in a way no one will quite name' — serve?",
       "options": [
         "It admits the essay has no argument.",
-        "It refuses tidy resolution — the loss is real but illegible, which is part of why the loss is hard to argue against in advance.",
         "It signals the essay is unfinished.",
+        "It refuses tidy resolution — the loss is real but illegible, which is part of why the loss is hard to argue against in advance.",
         "It is a stylistic flourish only."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay closes by acknowledging the very feature that makes the loss hard to defend against: its illegibility. The refusal of false resolution is the essay's argument restated in its own form.",
       "hint": "The illegibility is itself part of the loss."
     }

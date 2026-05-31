@@ -3,7 +3,11 @@
   "level": "A1",
   "title": "The old man who feeds the birds",
   "summary": "Describe an old man who comes to the park each morning to feed the birds.",
-  "tags": ["People", "Park", "Habit"],
+  "tags": [
+    "People",
+    "Park",
+    "Habit"
+  ],
   "topic": "The old man who feeds the birds",
   "prompt": "Write 6–8 short sentences about an old man who feeds birds in your local park. Describe what he looks like, when he comes, and how the birds know him. Use present simple.",
   "minWords": 150,
@@ -14,31 +18,99 @@
     "The birds know him because…"
   ],
   "hintVocab": [
-    { "phrase": "old man", "meaningVi": "ông cụ" },
-    { "phrase": "feed the birds", "meaningVi": "cho chim ăn" },
-    { "phrase": "park bench", "meaningVi": "ghế công viên" },
-    { "phrase": "paper bag", "meaningVi": "túi giấy" },
-    { "phrase": "bread crumbs", "meaningVi": "vụn bánh mì" },
-    { "phrase": "pigeon", "meaningVi": "chim bồ câu", "pronunciation": "/ˈpɪdʒən/" },
-    { "phrase": "sparrow", "meaningVi": "chim sẻ", "pronunciation": "/ˈspæroʊ/" },
-    { "phrase": "land on his hand", "meaningVi": "đậu lên tay ông" },
-    { "phrase": "wooden cane", "meaningVi": "cây gậy gỗ" },
-    { "phrase": "quiet smile", "meaningVi": "nụ cười lặng lẽ" },
-    { "phrase": "wait for him", "meaningVi": "chờ ông" }
+    {
+      "phrase": "old man",
+      "meaningVi": "ông cụ"
+    },
+    {
+      "phrase": "feed the birds",
+      "meaningVi": "cho chim ăn"
+    },
+    {
+      "phrase": "park bench",
+      "meaningVi": "ghế công viên"
+    },
+    {
+      "phrase": "paper bag",
+      "meaningVi": "túi giấy"
+    },
+    {
+      "phrase": "bread crumbs",
+      "meaningVi": "vụn bánh mì"
+    },
+    {
+      "phrase": "pigeon",
+      "meaningVi": "chim bồ câu",
+      "pronunciation": "/ˈpɪdʒən/"
+    },
+    {
+      "phrase": "sparrow",
+      "meaningVi": "chim sẻ",
+      "pronunciation": "/ˈspæroʊ/"
+    },
+    {
+      "phrase": "land on his hand",
+      "meaningVi": "đậu lên tay ông"
+    },
+    {
+      "phrase": "wooden cane",
+      "meaningVi": "cây gậy gỗ"
+    },
+    {
+      "phrase": "quiet smile",
+      "meaningVi": "nụ cười lặng lẽ"
+    },
+    {
+      "phrase": "wait for him",
+      "meaningVi": "chờ ông"
+    }
   ],
   "sampleText": "There is an old man in the park near my flat in Krakow. People call him Pan Janek. He is small and thin, and he walks with a wooden cane. Every morning at eight o'clock he comes to the same park bench. He always brings a paper bag of bread crumbs. The birds know him. When he sits down, the pigeons and the sparrows fly to him. Some sparrows even land on his hand. He does not say much. He has a quiet smile. He stays for about one hour, and he gives all the bread to the birds. After that, he stands up slowly and walks home. The children in the park watch him. I think the birds wait for him every day. Sometimes when it rains, he still comes with his umbrella. I see him from my window. He is a small man, but he gives a small gift to the city every morning.",
   "sampleAnnotations": [
-    { "phrase": "old man", "meaningVi": "ông cụ" },
-    { "phrase": "small and thin", "meaningVi": "nhỏ bé và gầy" },
-    { "phrase": "wooden cane", "meaningVi": "cây gậy gỗ" },
-    { "phrase": "park bench", "meaningVi": "ghế công viên" },
-    { "phrase": "paper bag of bread crumbs", "meaningVi": "túi giấy đựng vụn bánh mì" },
-    { "phrase": "land on his hand", "meaningVi": "đậu lên tay ông" },
-    { "phrase": "quiet smile", "meaningVi": "nụ cười lặng lẽ" },
-    { "phrase": "stays for about one hour", "meaningVi": "ở lại khoảng một tiếng" },
-    { "phrase": "stands up slowly", "meaningVi": "đứng dậy từ từ" },
-    { "phrase": "wait for him", "meaningVi": "chờ đợi ông" },
-    { "phrase": "small gift to the city", "meaningVi": "món quà nhỏ cho thành phố" }
+    {
+      "phrase": "old man",
+      "meaningVi": "ông cụ"
+    },
+    {
+      "phrase": "small and thin",
+      "meaningVi": "nhỏ bé và gầy"
+    },
+    {
+      "phrase": "wooden cane",
+      "meaningVi": "cây gậy gỗ"
+    },
+    {
+      "phrase": "park bench",
+      "meaningVi": "ghế công viên"
+    },
+    {
+      "phrase": "paper bag of bread crumbs",
+      "meaningVi": "túi giấy đựng vụn bánh mì"
+    },
+    {
+      "phrase": "land on his hand",
+      "meaningVi": "đậu lên tay ông"
+    },
+    {
+      "phrase": "quiet smile",
+      "meaningVi": "nụ cười lặng lẽ"
+    },
+    {
+      "phrase": "stays for about one hour",
+      "meaningVi": "ở lại khoảng một tiếng"
+    },
+    {
+      "phrase": "stands up slowly",
+      "meaningVi": "đứng dậy từ từ"
+    },
+    {
+      "phrase": "wait for him",
+      "meaningVi": "chờ đợi ông"
+    },
+    {
+      "phrase": "small gift to the city",
+      "meaningVi": "món quà nhỏ cho thành phố"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -58,12 +130,12 @@
       "id": "q1",
       "prompt": "What time does the old man come to the park?",
       "options": [
-        "At seven o'clock",
         "At eight o'clock",
+        "At seven o'clock",
         "At nine o'clock",
         "At ten o'clock"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The text says 'Every morning at eight o'clock he comes to the same park bench'.",
       "hint": "Look for the time in the morning."
     },
@@ -85,11 +157,11 @@
       "prompt": "What is in the paper bag?",
       "options": [
         "Seeds",
-        "Bread crumbs",
         "Fruit",
+        "Bread crumbs",
         "Nuts"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The text says 'He always brings a paper bag of bread crumbs'.",
       "hint": "Look for what he brings for the birds."
     },
@@ -98,11 +170,11 @@
       "prompt": "Which two kinds of birds come to him?",
       "options": [
         "Crows and eagles",
-        "Pigeons and sparrows",
         "Ducks and swans",
-        "Owls and parrots"
+        "Owls and parrots",
+        "Pigeons and sparrows"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The text says 'the pigeons and the sparrows fly to him'.",
       "hint": "Find the two bird names in the same sentence."
     },
@@ -110,12 +182,12 @@
       "id": "q5",
       "prompt": "Where do some sparrows land?",
       "options": [
-        "On his head",
         "On his hand",
+        "On his head",
         "On his shoulder",
         "On his cane"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The text says 'Some sparrows even land on his hand'.",
       "hint": "Look for the part of his body the birds touch."
     },
@@ -124,11 +196,11 @@
       "prompt": "How long does he stay in the park?",
       "options": [
         "About ten minutes",
-        "About thirty minutes",
         "About one hour",
+        "About thirty minutes",
         "About two hours"
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "explanation": "The text says 'He stays for about one hour'.",
       "hint": "Find the length of his visit."
     },
@@ -136,12 +208,12 @@
       "id": "q7",
       "prompt": "Which sentence uses 'when' correctly?",
       "options": [
-        "When he sits down, the birds fly to him.",
         "When sits he down, the birds fly to him.",
         "He sits down when, the birds fly to him.",
+        "When he sits down, the birds fly to him.",
         "When he sits down the birds flies to him."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'When + subject + verb', and the plural 'birds' takes 'fly' not 'flies'.",
       "hint": "Check both the structure after 'when' and the verb form."
     },
@@ -150,11 +222,11 @@
       "prompt": "What does he bring when it rains?",
       "options": [
         "More bread",
-        "His umbrella",
         "A friend",
-        "A hat"
+        "A hat",
+        "His umbrella"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The text says 'Sometimes when it rains, he still comes with his umbrella'.",
       "hint": "Find the rainy day detail."
     },
@@ -162,12 +234,12 @@
       "id": "q9",
       "prompt": "Choose the correct present simple sentence.",
       "options": [
-        "He give all the bread to the birds.",
         "He gives all the bread to the birds.",
+        "He give all the bread to the birds.",
         "He giving all the bread to the birds.",
         "He is give all the bread to the birds."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Third person singular -s: 'He gives'.",
       "hint": "Match the verb ending with 'he'."
     },

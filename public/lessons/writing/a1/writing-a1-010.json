@@ -3,7 +3,10 @@
   "level": "A1",
   "title": "Something I cook well",
   "summary": "Describe one simple dish you cook and how you make it.",
-  "tags": ["Food", "Habits"],
+  "tags": [
+    "Food",
+    "Habits"
+  ],
   "topic": "Something I cook well",
   "prompt": "Write 6–8 short sentences about one simple dish you cook well. Name the ingredients and explain the steps in order using 'first', 'then', 'after that'.",
   "minWords": 150,
@@ -15,31 +18,100 @@
     "Finally, I…"
   ],
   "hintVocab": [
-    { "phrase": "recipe", "meaningVi": "công thức", "pronunciation": "/ˈresəpi/" },
-    { "phrase": "ingredient", "meaningVi": "nguyên liệu", "pronunciation": "/ɪnˈɡriːdiənt/" },
-    { "phrase": "cut", "meaningVi": "cắt" },
-    { "phrase": "fry", "meaningVi": "chiên" },
-    { "phrase": "boil", "meaningVi": "luộc" },
-    { "phrase": "mix", "meaningVi": "trộn" },
-    { "phrase": "salt", "meaningVi": "muối" },
-    { "phrase": "pepper", "meaningVi": "tiêu" },
-    { "phrase": "onion", "meaningVi": "hành" },
-    { "phrase": "egg", "meaningVi": "trứng" },
-    { "phrase": "delicious", "meaningVi": "ngon", "pronunciation": "/dɪˈlɪʃəs/" }
+    {
+      "phrase": "recipe",
+      "meaningVi": "công thức",
+      "pronunciation": "/ˈresəpi/"
+    },
+    {
+      "phrase": "ingredient",
+      "meaningVi": "nguyên liệu",
+      "pronunciation": "/ɪnˈɡriːdiənt/"
+    },
+    {
+      "phrase": "cut",
+      "meaningVi": "cắt"
+    },
+    {
+      "phrase": "fry",
+      "meaningVi": "chiên"
+    },
+    {
+      "phrase": "boil",
+      "meaningVi": "luộc"
+    },
+    {
+      "phrase": "mix",
+      "meaningVi": "trộn"
+    },
+    {
+      "phrase": "salt",
+      "meaningVi": "muối"
+    },
+    {
+      "phrase": "pepper",
+      "meaningVi": "tiêu"
+    },
+    {
+      "phrase": "onion",
+      "meaningVi": "hành"
+    },
+    {
+      "phrase": "egg",
+      "meaningVi": "trứng"
+    },
+    {
+      "phrase": "delicious",
+      "meaningVi": "ngon",
+      "pronunciation": "/dɪˈlɪʃəs/"
+    }
   ],
   "sampleText": "I cook a simple Mexican egg dish very well. It is called huevos rancheros, and my Mexican grandmother taught me. I need eggs, tomatoes, onions, salt, pepper, and one corn tortilla. First, I cut a small onion and one red tomato. Then I heat a pan with a little oil and I fry the onion for two minutes. After that, I add the tomato and a small bit of salt. I cook the sauce for five minutes until it is soft. Then I crack two eggs into the pan and I cook them slowly. I do not break the yellow part because I like it soft. I warm the tortilla on the dry pan for thirty seconds. Finally, I put the tortilla on a plate, I add the eggs and the tomato sauce, and I put black pepper on top. I sometimes add a small piece of cheese. The dish is hot, simple, and delicious. I cook this every Saturday morning, and my flatmates always smile when they smell it.",
   "sampleAnnotations": [
-    { "phrase": "huevos rancheros", "meaningVi": "huevos rancheros (món trứng Mexico)" },
-    { "phrase": "I need eggs", "meaningVi": "Tôi cần trứng" },
-    { "phrase": "cut a small onion", "meaningVi": "cắt một củ hành nhỏ" },
-    { "phrase": "heat a pan", "meaningVi": "làm nóng chảo" },
-    { "phrase": "fry the onion", "meaningVi": "chiên hành" },
-    { "phrase": "small bit of salt", "meaningVi": "một chút muối" },
-    { "phrase": "crack two eggs", "meaningVi": "đập hai quả trứng" },
-    { "phrase": "warm the tortilla", "meaningVi": "hâm nóng bánh tortilla" },
-    { "phrase": "black pepper", "meaningVi": "tiêu đen" },
-    { "phrase": "hot, simple, and delicious", "meaningVi": "nóng, đơn giản và ngon" },
-    { "phrase": "every Saturday morning", "meaningVi": "mỗi sáng thứ Bảy" }
+    {
+      "phrase": "huevos rancheros",
+      "meaningVi": "huevos rancheros (món trứng Mexico)"
+    },
+    {
+      "phrase": "I need eggs",
+      "meaningVi": "Tôi cần trứng"
+    },
+    {
+      "phrase": "cut a small onion",
+      "meaningVi": "cắt một củ hành nhỏ"
+    },
+    {
+      "phrase": "heat a pan",
+      "meaningVi": "làm nóng chảo"
+    },
+    {
+      "phrase": "fry the onion",
+      "meaningVi": "chiên hành"
+    },
+    {
+      "phrase": "small bit of salt",
+      "meaningVi": "một chút muối"
+    },
+    {
+      "phrase": "crack two eggs",
+      "meaningVi": "đập hai quả trứng"
+    },
+    {
+      "phrase": "warm the tortilla",
+      "meaningVi": "hâm nóng bánh tortilla"
+    },
+    {
+      "phrase": "black pepper",
+      "meaningVi": "tiêu đen"
+    },
+    {
+      "phrase": "hot, simple, and delicious",
+      "meaningVi": "nóng, đơn giản và ngon"
+    },
+    {
+      "phrase": "every Saturday morning",
+      "meaningVi": "mỗi sáng thứ Bảy"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -59,12 +131,12 @@
       "id": "q1",
       "prompt": "Which sentence shows the steps clearly?",
       "options": [
-        "First, I cut the onion. Then I fry it.",
         "Onion fry then cut first.",
         "I cutting first the onion.",
-        "After I fry first cut the onion."
+        "After I fry first cut the onion.",
+        "First, I cut the onion. Then I fry it."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'First' and 'Then' show clear order.",
       "hint": "Look for sequence words."
     },
@@ -85,12 +157,12 @@
       "id": "q3",
       "prompt": "Which word means 'nguyên liệu'?",
       "options": [
-        "ingredient",
         "kitchen",
+        "ingredient",
         "recipe",
         "plate"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'ingredient' means a food item used in cooking.",
       "hint": "It's the thing you put in the dish."
     },
@@ -98,12 +170,12 @@
       "id": "q4",
       "prompt": "Which sentence sounds most natural?",
       "options": [
-        "I cook this dish every Saturday morning.",
         "Saturday this every morning dish I cook.",
         "Every cook I morning Saturday.",
+        "I cook this dish every Saturday morning.",
         "Morning dish Saturday I."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "Subject + verb + object + time phrase.",
       "hint": "Time phrase usually goes at the end."
     },
@@ -111,12 +183,12 @@
       "id": "q5",
       "prompt": "Which sentence best fits a cooking topic?",
       "options": [
-        "I fry the onion for two minutes.",
         "I take a long flight to Tokyo.",
         "I study for an exam at school.",
-        "My boss writes long reports."
+        "My boss writes long reports.",
+        "I fry the onion for two minutes."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "Frying is a cooking action.",
       "hint": "Choose the kitchen action."
     },
@@ -150,12 +222,12 @@
       "id": "q8",
       "prompt": "Which word fits: 'The food is hot and ___.'",
       "options": [
-        "delicious",
         "tall",
         "loud",
+        "delicious",
         "expensive only"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'delicious' describes great food.",
       "hint": "Choose the food-tasting word."
     },
@@ -163,12 +235,12 @@
       "id": "q9",
       "prompt": "Which sentence uses 'because' correctly?",
       "options": [
-        "I do not break the yellow part because I like it soft.",
         "I do not break because yellow.",
         "Yellow because soft like.",
-        "I break yellow part because not soft."
+        "I break yellow part because not soft.",
+        "I do not break the yellow part because I like it soft."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'because' gives a clear reason.",
       "hint": "Find the cleanest reason clause."
     },

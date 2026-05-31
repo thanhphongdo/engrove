@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "The case for letting children fail at things adults find easy",
   "summary": "Argue whether adults should resist the temptation to rescue children from small, manageable failures — or whether helping them through is the right instinct.",
-  "tags": ["Family", "Education", "Ethics", "Argument"],
+  "tags": [
+    "Family",
+    "Education",
+    "Ethics",
+    "Argument"
+  ],
   "topic": "Whether adults should resist rescuing children from minor, manageable failures",
   "prompt": "Write a 350–500-word argumentative essay about whether parents, grandparents, and teachers — in cities such as Penang, Manila, or Bucharest — should resist the urge to quickly help children through small, manageable failures (a knot they cannot untie, a sentence they cannot quite write, a coin they cannot quite reach), or whether helping them through is the right instinct. Use a 'what' cleft, a concession ('Granted, …' or 'Admittedly, …'), at least one passive construction, and one participle clause. Anchor the argument in a specific scene or pattern. Take a clear position.",
   "minWords": 350,
@@ -14,50 +19,162 @@
     "Watching a four-year-old in a Penang playground try, for the seventh time, to climb onto a low wall her grandfather could lift her onto in one second, I noticed…"
   ],
   "hintVocab": [
-    { "phrase": "productive failure", "meaningVi": "thất bại có tính xây dựng" },
-    { "phrase": "to step in too quickly", "meaningVi": "can thiệp quá nhanh" },
-    { "phrase": "to rescue a child from frustration", "meaningVi": "cứu một đứa trẻ khỏi sự thất vọng" },
-    { "phrase": "to develop persistence", "meaningVi": "phát triển sự kiên trì" },
-    { "phrase": "appropriate challenge", "meaningVi": "thử thách phù hợp" },
-    { "phrase": "to overprotect", "meaningVi": "bảo vệ quá mức" },
-    { "phrase": "the dignity of struggle", "meaningVi": "phẩm giá của sự đấu tranh" },
-    { "phrase": "manageable frustration", "meaningVi": "sự thất vọng có thể kiểm soát" },
-    { "phrase": "to let a child work it out", "meaningVi": "để đứa trẻ tự giải quyết" },
-    { "phrase": "scaffolded learning", "meaningVi": "học theo giàn giáo (hỗ trợ từng bước)" },
-    { "phrase": "to outsource the difficulty", "meaningVi": "khoán sự khó khăn cho người khác" },
-    { "phrase": "self-efficacy", "meaningVi": "khả năng tự tin vào năng lực của mình", "pronunciation": "/ˌsɛlf ˈɛf.ɪ.kə.si/" },
-    { "phrase": "to celebrate small mastery", "meaningVi": "ăn mừng sự thành thạo nhỏ" },
-    { "phrase": "to be undermined by adult haste", "meaningVi": "bị làm suy yếu bởi sự vội vàng của người lớn" },
-    { "phrase": "developmental milestone", "meaningVi": "cột mốc phát triển" },
-    { "phrase": "to model patience", "meaningVi": "làm mẫu sự kiên nhẫn" },
-    { "phrase": "to underestimate a child", "meaningVi": "đánh giá thấp một đứa trẻ" },
-    { "phrase": "fine motor skill", "meaningVi": "kỹ năng vận động tinh" },
-    { "phrase": "to internalise an outcome", "meaningVi": "nội tâm hóa một kết quả" },
-    { "phrase": "to take the pen out of someone's hand", "meaningVi": "lấy bút khỏi tay ai đó" },
-    { "phrase": "low-stakes failure", "meaningVi": "thất bại có rủi ro thấp" }
+    {
+      "phrase": "productive failure",
+      "meaningVi": "thất bại có tính xây dựng"
+    },
+    {
+      "phrase": "to step in too quickly",
+      "meaningVi": "can thiệp quá nhanh"
+    },
+    {
+      "phrase": "to rescue a child from frustration",
+      "meaningVi": "cứu một đứa trẻ khỏi sự thất vọng"
+    },
+    {
+      "phrase": "to develop persistence",
+      "meaningVi": "phát triển sự kiên trì"
+    },
+    {
+      "phrase": "appropriate challenge",
+      "meaningVi": "thử thách phù hợp"
+    },
+    {
+      "phrase": "to overprotect",
+      "meaningVi": "bảo vệ quá mức"
+    },
+    {
+      "phrase": "the dignity of struggle",
+      "meaningVi": "phẩm giá của sự đấu tranh"
+    },
+    {
+      "phrase": "manageable frustration",
+      "meaningVi": "sự thất vọng có thể kiểm soát"
+    },
+    {
+      "phrase": "to let a child work it out",
+      "meaningVi": "để đứa trẻ tự giải quyết"
+    },
+    {
+      "phrase": "scaffolded learning",
+      "meaningVi": "học theo giàn giáo (hỗ trợ từng bước)"
+    },
+    {
+      "phrase": "to outsource the difficulty",
+      "meaningVi": "khoán sự khó khăn cho người khác"
+    },
+    {
+      "phrase": "self-efficacy",
+      "meaningVi": "khả năng tự tin vào năng lực của mình",
+      "pronunciation": "/ˌsɛlf ˈɛf.ɪ.kə.si/"
+    },
+    {
+      "phrase": "to celebrate small mastery",
+      "meaningVi": "ăn mừng sự thành thạo nhỏ"
+    },
+    {
+      "phrase": "to be undermined by adult haste",
+      "meaningVi": "bị làm suy yếu bởi sự vội vàng của người lớn"
+    },
+    {
+      "phrase": "developmental milestone",
+      "meaningVi": "cột mốc phát triển"
+    },
+    {
+      "phrase": "to model patience",
+      "meaningVi": "làm mẫu sự kiên nhẫn"
+    },
+    {
+      "phrase": "to underestimate a child",
+      "meaningVi": "đánh giá thấp một đứa trẻ"
+    },
+    {
+      "phrase": "fine motor skill",
+      "meaningVi": "kỹ năng vận động tinh"
+    },
+    {
+      "phrase": "to internalise an outcome",
+      "meaningVi": "nội tâm hóa một kết quả"
+    },
+    {
+      "phrase": "to take the pen out of someone's hand",
+      "meaningVi": "lấy bút khỏi tay ai đó"
+    },
+    {
+      "phrase": "low-stakes failure",
+      "meaningVi": "thất bại có rủi ro thấp"
+    }
   ],
   "sampleText": "Watching a four-year-old in a Penang playground try, for the seventh time, to climb onto a low wall her grandfather could lift her onto in one second, I noticed how much steady, deliberate effort sat inside what looked, to him, like an obvious problem. She had a strategy: a forearm here, a knee there, a moment of recalibration. She was not in distress. She was working. The grandfather, standing two metres away, was very nearly the only thing that could ruin what she was doing.\n\nWhat an adult who steps in too quickly quietly removes from a child's afternoon is something neither party usually notices at the time. The child loses the moment in which they would have figured it out themselves. The adult loses the chance to watch them. Both are deprived of the small but consequential event of a child solving a small problem with no help — the kind of event on which a great deal of later confidence is built.\n\nGranted, the line between letting a child work through a small failure and abandoning them to one that is too big is not always easy to draw. A toddler stuck halfway up a structure she cannot safely descend is not having a developmental experience; she is having an emergency. A child who cannot read a sign in a foreign language at a busy junction needs the adult to translate, not to wait. The case for restraint is not the case for indifference.\n\nEven so, the more common failure in everyday parenting and teaching is the opposite one. Adults intervene early because watching effort is uncomfortable, because the morning timetable is tight, because helping looks like good parenting in front of other adults. The instinct to lift the child onto the wall, finish the sentence for them, retrieve the coin that has rolled under the chair — all of these come from genuine warmth. They also remove, repeatedly, the opportunity for the child to find out what their own effort is capable of.\n\nAdmittedly, the discipline of waiting is harder than it sounds. Twenty seconds of a child's frustrated grunting feels much longer than twenty seconds of an adult's. The useful test is whether the child is escalating toward genuine distress or simply continuing to work. The grunt that is followed by another attempt is not a request for rescue. It is the sound of learning happening in real time.\n\nWhat children deserve from the adults around them is not the absence of help. It is the presence of an adult who can tell the difference between a child who needs to be lifted and a child who needs to be watched, patiently, until she lifts herself.",
   "sampleAnnotations": [
-    { "phrase": "Watching a four-year-old in a Penang playground try, for the seventh time, to climb onto a low wall her grandfather could lift her onto in one second", "meaningVi": "Xem một đứa trẻ bốn tuổi trong sân chơi ở Penang cố gắng, lần thứ bảy, leo lên một bức tường thấp mà ông của bé có thể nhấc bé lên trong một giây" },
-    { "phrase": "She had a strategy: a forearm here, a knee there, a moment of recalibration", "meaningVi": "Bé có một chiến lược: một cẳng tay ở đây, một đầu gối ở đó, một khoảnh khắc tái điều chỉnh" },
-    { "phrase": "She was not in distress. She was working", "meaningVi": "Bé không gặp khó khăn nghiêm trọng. Bé đang làm việc" },
-    { "phrase": "The grandfather, standing two metres away, was very nearly the only thing that could ruin what she was doing", "meaningVi": "Người ông, đứng cách hai mét, gần như là điều duy nhất có thể phá hỏng những gì bé đang làm" },
-    { "phrase": "What an adult who steps in too quickly quietly removes from a child's afternoon is something neither party usually notices at the time", "meaningVi": "Điều mà một người lớn can thiệp quá nhanh lặng lẽ loại bỏ khỏi buổi chiều của một đứa trẻ là điều mà cả hai bên thường không nhận ra vào thời điểm đó" },
-    { "phrase": "The child loses the moment in which they would have figured it out themselves", "meaningVi": "Đứa trẻ mất đi khoảnh khắc mà chúng đã có thể tự mình hiểu ra" },
-    { "phrase": "the small but consequential event of a child solving a small problem with no help — the kind of event on which a great deal of later confidence is built", "meaningVi": "sự kiện nhỏ nhưng có hậu quả của việc một đứa trẻ giải quyết một vấn đề nhỏ mà không cần giúp đỡ — loại sự kiện mà phần lớn sự tự tin sau này được xây dựng trên đó" },
-    { "phrase": "the line between letting a child work through a small failure and abandoning them to one that is too big is not always easy to draw", "meaningVi": "ranh giới giữa việc để một đứa trẻ vượt qua một thất bại nhỏ và bỏ rơi chúng với một thất bại quá lớn không phải lúc nào cũng dễ vạch ra" },
-    { "phrase": "A toddler stuck halfway up a structure she cannot safely descend is not having a developmental experience; she is having an emergency", "meaningVi": "Một bé mới biết đi bị kẹt giữa chừng trên một cấu trúc mà bé không thể xuống an toàn không phải đang có một trải nghiệm phát triển; bé đang gặp tình huống khẩn cấp" },
-    { "phrase": "The case for restraint is not the case for indifference", "meaningVi": "Lập luận cho sự kiềm chế không phải là lập luận cho sự thờ ơ" },
-    { "phrase": "Adults intervene early because watching effort is uncomfortable, because the morning timetable is tight, because helping looks like good parenting in front of other adults", "meaningVi": "Người lớn can thiệp sớm vì xem nỗ lực thì khó chịu, vì thời gian biểu buổi sáng eo hẹp, vì giúp đỡ trông giống như nuôi dạy con tốt trước mặt những người lớn khác" },
-    { "phrase": "all of these come from genuine warmth. They also remove, repeatedly, the opportunity for the child to find out what their own effort is capable of", "meaningVi": "tất cả những điều này xuất phát từ sự ấm áp thực sự. Chúng cũng loại bỏ, lặp đi lặp lại, cơ hội cho đứa trẻ tìm ra nỗ lực của chính mình có khả năng gì" },
-    { "phrase": "Twenty seconds of a child's frustrated grunting feels much longer than twenty seconds of an adult's", "meaningVi": "Hai mươi giây tiếng càu nhàu thất vọng của một đứa trẻ cảm thấy dài hơn nhiều so với hai mươi giây của một người lớn" },
-    { "phrase": "whether the child is escalating toward genuine distress or simply continuing to work", "meaningVi": "liệu đứa trẻ đang leo thang về phía sự đau khổ thực sự hay chỉ đơn giản là tiếp tục làm việc" },
-    { "phrase": "The grunt that is followed by another attempt is not a request for rescue. It is the sound of learning happening in real time", "meaningVi": "Tiếng càu nhàu được theo sau bởi một nỗ lực khác không phải là một lời yêu cầu được cứu. Đó là âm thanh của việc học đang diễn ra trong thời gian thực" },
-    { "phrase": "What children deserve from the adults around them is not the absence of help", "meaningVi": "Điều mà trẻ em xứng đáng nhận được từ những người lớn xung quanh chúng không phải là sự thiếu vắng giúp đỡ" },
-    { "phrase": "an adult who can tell the difference between a child who needs to be lifted and a child who needs to be watched, patiently, until she lifts herself", "meaningVi": "một người lớn có thể phân biệt được sự khác biệt giữa một đứa trẻ cần được nhấc lên và một đứa trẻ cần được quan sát, kiên nhẫn, cho đến khi bé tự nhấc mình lên" },
-    { "phrase": "to outsource the difficulty", "meaningVi": "khoán sự khó khăn cho người khác" },
-    { "phrase": "to celebrate small mastery", "meaningVi": "ăn mừng sự thành thạo nhỏ" },
-    { "phrase": "manageable frustration", "meaningVi": "sự thất vọng có thể kiểm soát" }
+    {
+      "phrase": "Watching a four-year-old in a Penang playground try, for the seventh time, to climb onto a low wall her grandfather could lift her onto in one second",
+      "meaningVi": "Xem một đứa trẻ bốn tuổi trong sân chơi ở Penang cố gắng, lần thứ bảy, leo lên một bức tường thấp mà ông của bé có thể nhấc bé lên trong một giây"
+    },
+    {
+      "phrase": "She had a strategy: a forearm here, a knee there, a moment of recalibration",
+      "meaningVi": "Bé có một chiến lược: một cẳng tay ở đây, một đầu gối ở đó, một khoảnh khắc tái điều chỉnh"
+    },
+    {
+      "phrase": "She was not in distress. She was working",
+      "meaningVi": "Bé không gặp khó khăn nghiêm trọng. Bé đang làm việc"
+    },
+    {
+      "phrase": "The grandfather, standing two metres away, was very nearly the only thing that could ruin what she was doing",
+      "meaningVi": "Người ông, đứng cách hai mét, gần như là điều duy nhất có thể phá hỏng những gì bé đang làm"
+    },
+    {
+      "phrase": "What an adult who steps in too quickly quietly removes from a child's afternoon is something neither party usually notices at the time",
+      "meaningVi": "Điều mà một người lớn can thiệp quá nhanh lặng lẽ loại bỏ khỏi buổi chiều của một đứa trẻ là điều mà cả hai bên thường không nhận ra vào thời điểm đó"
+    },
+    {
+      "phrase": "The child loses the moment in which they would have figured it out themselves",
+      "meaningVi": "Đứa trẻ mất đi khoảnh khắc mà chúng đã có thể tự mình hiểu ra"
+    },
+    {
+      "phrase": "the small but consequential event of a child solving a small problem with no help — the kind of event on which a great deal of later confidence is built",
+      "meaningVi": "sự kiện nhỏ nhưng có hậu quả của việc một đứa trẻ giải quyết một vấn đề nhỏ mà không cần giúp đỡ — loại sự kiện mà phần lớn sự tự tin sau này được xây dựng trên đó"
+    },
+    {
+      "phrase": "the line between letting a child work through a small failure and abandoning them to one that is too big is not always easy to draw",
+      "meaningVi": "ranh giới giữa việc để một đứa trẻ vượt qua một thất bại nhỏ và bỏ rơi chúng với một thất bại quá lớn không phải lúc nào cũng dễ vạch ra"
+    },
+    {
+      "phrase": "A toddler stuck halfway up a structure she cannot safely descend is not having a developmental experience; she is having an emergency",
+      "meaningVi": "Một bé mới biết đi bị kẹt giữa chừng trên một cấu trúc mà bé không thể xuống an toàn không phải đang có một trải nghiệm phát triển; bé đang gặp tình huống khẩn cấp"
+    },
+    {
+      "phrase": "The case for restraint is not the case for indifference",
+      "meaningVi": "Lập luận cho sự kiềm chế không phải là lập luận cho sự thờ ơ"
+    },
+    {
+      "phrase": "Adults intervene early because watching effort is uncomfortable, because the morning timetable is tight, because helping looks like good parenting in front of other adults",
+      "meaningVi": "Người lớn can thiệp sớm vì xem nỗ lực thì khó chịu, vì thời gian biểu buổi sáng eo hẹp, vì giúp đỡ trông giống như nuôi dạy con tốt trước mặt những người lớn khác"
+    },
+    {
+      "phrase": "all of these come from genuine warmth. They also remove, repeatedly, the opportunity for the child to find out what their own effort is capable of",
+      "meaningVi": "tất cả những điều này xuất phát từ sự ấm áp thực sự. Chúng cũng loại bỏ, lặp đi lặp lại, cơ hội cho đứa trẻ tìm ra nỗ lực của chính mình có khả năng gì"
+    },
+    {
+      "phrase": "Twenty seconds of a child's frustrated grunting feels much longer than twenty seconds of an adult's",
+      "meaningVi": "Hai mươi giây tiếng càu nhàu thất vọng của một đứa trẻ cảm thấy dài hơn nhiều so với hai mươi giây của một người lớn"
+    },
+    {
+      "phrase": "whether the child is escalating toward genuine distress or simply continuing to work",
+      "meaningVi": "liệu đứa trẻ đang leo thang về phía sự đau khổ thực sự hay chỉ đơn giản là tiếp tục làm việc"
+    },
+    {
+      "phrase": "The grunt that is followed by another attempt is not a request for rescue. It is the sound of learning happening in real time",
+      "meaningVi": "Tiếng càu nhàu được theo sau bởi một nỗ lực khác không phải là một lời yêu cầu được cứu. Đó là âm thanh của việc học đang diễn ra trong thời gian thực"
+    },
+    {
+      "phrase": "What children deserve from the adults around them is not the absence of help",
+      "meaningVi": "Điều mà trẻ em xứng đáng nhận được từ những người lớn xung quanh chúng không phải là sự thiếu vắng giúp đỡ"
+    },
+    {
+      "phrase": "an adult who can tell the difference between a child who needs to be lifted and a child who needs to be watched, patiently, until she lifts herself",
+      "meaningVi": "một người lớn có thể phân biệt được sự khác biệt giữa một đứa trẻ cần được nhấc lên và một đứa trẻ cần được quan sát, kiên nhẫn, cho đến khi bé tự nhấc mình lên"
+    }
   ],
   "sampleGrammarNotes": [
     {

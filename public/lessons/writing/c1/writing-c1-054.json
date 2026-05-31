@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "The case for formality between people who know each other well",
   "summary": "Argue that the steady replacement of formal address and small ceremony with constant casualness, even among intimates, has costs that are easier to dismiss than to defend — and that some formality between known people is a form of respect, not distance.",
-  "tags": ["Society", "Manners", "Ethics"],
+  "tags": [
+    "Society",
+    "Manners",
+    "Ethics"
+  ],
   "topic": "Why even close relationships benefit from a small measure of formality",
   "prompt": "Write a 600–800-word essay defending the role of formality, ceremony, and slightly raised register between people who know each other well. Treat the question as one of attention and respect, not class. Use inversion at least once, a cleft sentence, and a 'Granted… Even so…' concession. Set examples in specific places. Avoid the language of etiquette manuals.",
   "minWords": 600,
@@ -14,52 +18,183 @@
     "Granted, excess formality can become a wall behind which two people stop knowing each other. Even so,…"
   ],
   "hintVocab": [
-    {"phrase": "formal address", "meaningVi": "lối xưng hô trang trọng"},
-    {"phrase": "the second-person plural", "meaningVi": "đại từ ngôi thứ hai số nhiều"},
-    {"phrase": "T-V distinction", "meaningVi": "phân biệt T-V — giữa xưng hô thân và trang trọng"},
-    {"phrase": "honorific", "meaningVi": "kính ngữ", "pronunciation": "/ˌɒnəˈrɪfɪk/"},
-    {"phrase": "register", "meaningVi": "sắc thái — của ngôn ngữ"},
-    {"phrase": "small ceremony", "meaningVi": "nghi lễ nhỏ"},
-    {"phrase": "the rituals of greeting", "meaningVi": "nghi thức chào hỏi"},
-    {"phrase": "the framed encounter", "meaningVi": "cuộc gặp được đặt khung"},
-    {"phrase": "the assumed familiarity", "meaningVi": "sự thân mật được giả định"},
-    {"phrase": "courtesy", "meaningVi": "sự lịch thiệp", "pronunciation": "/ˈkɜːtəsi/"},
-    {"phrase": "deference", "meaningVi": "sự kính nể"},
-    {"phrase": "the unmarked default", "meaningVi": "mặc định không được đánh dấu"},
-    {"phrase": "the small bow", "meaningVi": "cái cúi đầu nhỏ"},
-    {"phrase": "naming the relation", "meaningVi": "đặt tên cho mối quan hệ"},
-    {"phrase": "the older usage", "meaningVi": "cách dùng cũ"},
-    {"phrase": "informality as politics", "meaningVi": "tính không trang trọng như chính trị"},
-    {"phrase": "the flattening of relations", "meaningVi": "sự san phẳng các mối quan hệ"},
-    {"phrase": "deliberate distance", "meaningVi": "khoảng cách có chủ ý"},
-    {"phrase": "the form of respect", "meaningVi": "hình thức của sự kính trọng"},
-    {"phrase": "the marked attention", "meaningVi": "sự chú ý được đánh dấu"},
-    {"phrase": "the visible threshold", "meaningVi": "ngưỡng cửa dễ thấy"},
-    {"phrase": "presumptive intimacy", "meaningVi": "sự thân mật giả định"}
+    {
+      "phrase": "formal address",
+      "meaningVi": "lối xưng hô trang trọng"
+    },
+    {
+      "phrase": "the second-person plural",
+      "meaningVi": "đại từ ngôi thứ hai số nhiều"
+    },
+    {
+      "phrase": "T-V distinction",
+      "meaningVi": "phân biệt T-V — giữa xưng hô thân và trang trọng"
+    },
+    {
+      "phrase": "honorific",
+      "meaningVi": "kính ngữ",
+      "pronunciation": "/ˌɒnəˈrɪfɪk/"
+    },
+    {
+      "phrase": "register",
+      "meaningVi": "sắc thái — của ngôn ngữ"
+    },
+    {
+      "phrase": "small ceremony",
+      "meaningVi": "nghi lễ nhỏ"
+    },
+    {
+      "phrase": "the rituals of greeting",
+      "meaningVi": "nghi thức chào hỏi"
+    },
+    {
+      "phrase": "the framed encounter",
+      "meaningVi": "cuộc gặp được đặt khung"
+    },
+    {
+      "phrase": "the assumed familiarity",
+      "meaningVi": "sự thân mật được giả định"
+    },
+    {
+      "phrase": "courtesy",
+      "meaningVi": "sự lịch thiệp",
+      "pronunciation": "/ˈkɜːtəsi/"
+    },
+    {
+      "phrase": "deference",
+      "meaningVi": "sự kính nể"
+    },
+    {
+      "phrase": "the unmarked default",
+      "meaningVi": "mặc định không được đánh dấu"
+    },
+    {
+      "phrase": "the small bow",
+      "meaningVi": "cái cúi đầu nhỏ"
+    },
+    {
+      "phrase": "naming the relation",
+      "meaningVi": "đặt tên cho mối quan hệ"
+    },
+    {
+      "phrase": "the older usage",
+      "meaningVi": "cách dùng cũ"
+    },
+    {
+      "phrase": "informality as politics",
+      "meaningVi": "tính không trang trọng như chính trị"
+    },
+    {
+      "phrase": "the flattening of relations",
+      "meaningVi": "sự san phẳng các mối quan hệ"
+    },
+    {
+      "phrase": "deliberate distance",
+      "meaningVi": "khoảng cách có chủ ý"
+    },
+    {
+      "phrase": "the form of respect",
+      "meaningVi": "hình thức của sự kính trọng"
+    },
+    {
+      "phrase": "the marked attention",
+      "meaningVi": "sự chú ý được đánh dấu"
+    },
+    {
+      "phrase": "the visible threshold",
+      "meaningVi": "ngưỡng cửa dễ thấy"
+    },
+    {
+      "phrase": "presumptive intimacy",
+      "meaningVi": "sự thân mật giả định"
+    }
   ],
   "sampleText": "Only rarely is the move toward complete informality between intimates argued for; it tends to happen quietly, by default, as though it were not a choice at all. The colleagues who once used surnames now use first names within a week; the cousins who once used the formal pronoun now use the familiar one without anyone having decided; the messages that once opened with a greeting now open with the substance and end with no closing at all. None of this was wrong in any single instance. Each step felt like warmth. The cumulative effect, in many relationships, has been to remove a small layer of attention that ceremony used to carry — a layer that no one mourns until it is gone.\n\nThis is not an argument for stiffness, and certainly not for the social formalities used as instruments of class. The bow that says 'I outrank you and you may not approach' is not the formality being defended here. The defence is for a smaller, more reciprocal kind: the second pronoun chosen because the conversation has weight, the greeting that names the person addressed, the deliberate pause before the difficult subject, the messages that begin and end as messages used to. These are not refusals of intimacy. They are framings that allow intimacy to take place against a background that the participants have agreed to keep visible.\n\nWhat the language of 'authenticity' between friends tends to dismiss is the small work that ceremony does in marking what kind of encounter is occurring. To greet someone formally is to say, briefly: this is a real encounter, you are a real person, and the conversation has a beginning. To dispense with the greeting is to suggest that the conversation has been going on the whole time, that no entry is needed, that the relationship is the unmarked default within which speech can simply continue. For the people whose conversations actually do continue — long marriages, lifelong friendships — that may be accurate. For the many relationships that have slipped into presumptive intimacy without ever earning it, it is a small fiction whose costs are paid in mild, repeated misunderstanding.\n\nIt is the loss of the framed encounter, not the loss of formality as such, that gives the casual revolution its quiet weight. The friend who is greeted by name at the door is being told something about how this evening differs from the meetings that preceded it. The same friend who is greeted with 'you again' and a half-glance is being told something else — perhaps that the relationship is so robust no greeting is required, but perhaps only that no greeting was performed. The two are easy to confuse, and the confusion accumulates. People who would not say of their friends that they hold them in low regard nevertheless find themselves, year by year, treating them with a kind of efficiency that older usage would have reserved for strangers.\n\nGranted, excess formality can become a wall behind which two people stop knowing each other; the cousins who, after decades, still use the second-person plural and have no language for difficult feeling have not been served by the form. The defenders of the older usage sometimes confuse the form with the substance and treat the maintenance of formality as itself the relationship. Even so, the cure for that excess is not the abandonment of form. It is the small, attentive use of form within real intimacy — the formal pronoun in the moment that asks for weight, the first name said with care rather than in passing, the message that closes with the friend's name even after twenty years. The form is not the relationship. But the form is one of the ways the relationship is paid attention to.\n\nThere is also a quieter point about asymmetry. In many languages — Vietnamese, Korean, French, German, Spanish, Indonesian, and others — the choice between formal and informal address is grammatically forced; the speaker must choose and the choice is heard. In English the choice has largely collapsed, and the dropping of register that elsewhere requires a deliberate decision happens here invisibly. To notice the loss is harder in a language whose grammar has already obscured it. Yet the underlying social distinctions have not gone anywhere; they have only become unmarked, and what is unmarked is often the kind of inequality that is hardest to discuss.\n\nNone of this argues for any specific custom. It argues for the small discipline of remembering that the form of address, the moment of greeting, and the visible threshold between one kind of encounter and another are not residues of older hierarchies but ways of paying attention. Their abolition does not always feel like a loss. The loss is distributed across the many encounters in which two people knew one another a little less than they could have, because no one bothered to mark the encounter as one worth attending to.",
   "sampleAnnotations": [
-    {"phrase": "Only rarely is the move toward complete informality between intimates argued for", "meaningVi": "Chỉ hiếm khi việc chuyển sang sự không trang trọng hoàn toàn giữa những người thân được lập luận"},
-    {"phrase": "it tends to happen quietly, by default, as though it were not a choice at all", "meaningVi": "nó có xu hướng xảy ra âm thầm, theo mặc định, như thể nó không phải là một lựa chọn"},
-    {"phrase": "the cousins who once used the formal pronoun now use the familiar one without anyone having decided", "meaningVi": "những người anh chị em họ từng dùng đại từ trang trọng giờ dùng đại từ thân mật mà không ai quyết định"},
-    {"phrase": "to remove a small layer of attention that ceremony used to carry", "meaningVi": "loại bỏ một lớp chú ý nhỏ mà nghi lễ từng mang theo"},
-    {"phrase": "the social formalities used as instruments of class", "meaningVi": "các hình thức xã hội được dùng như công cụ của giai cấp"},
-    {"phrase": "framings that allow intimacy to take place against a background that the participants have agreed to keep visible", "meaningVi": "các khung cho phép sự thân mật diễn ra trên một nền tảng mà những người tham gia đã đồng ý giữ cho dễ thấy"},
-    {"phrase": "What the language of 'authenticity' between friends tends to dismiss is the small work that ceremony does in marking what kind of encounter is occurring", "meaningVi": "Những gì ngôn ngữ 'chân thật' giữa bạn bè có xu hướng bác bỏ là công việc nhỏ mà nghi lễ làm trong việc đánh dấu loại gặp gỡ nào đang diễn ra"},
-    {"phrase": "the relationship is the unmarked default within which speech can simply continue", "meaningVi": "mối quan hệ là mặc định không được đánh dấu trong đó lời nói có thể đơn giản tiếp tục"},
-    {"phrase": "presumptive intimacy", "meaningVi": "sự thân mật giả định"},
-    {"phrase": "a small fiction whose costs are paid in mild, repeated misunderstanding", "meaningVi": "một sự hư cấu nhỏ mà chi phí được trả bằng sự hiểu lầm nhẹ, lặp đi lặp lại"},
-    {"phrase": "It is the loss of the framed encounter, not the loss of formality as such, that gives the casual revolution its quiet weight", "meaningVi": "Chính sự mất đi cuộc gặp được đặt khung, không phải sự mất đi của tính trang trọng tự thân nó, mới mang lại cho cuộc cách mạng tuỳ tiện trọng lượng âm thầm của nó"},
-    {"phrase": "treating them with a kind of efficiency that older usage would have reserved for strangers", "meaningVi": "đối xử với họ với một loại hiệu quả mà cách dùng cũ sẽ dành cho người lạ"},
-    {"phrase": "Granted, excess formality can become a wall behind which two people stop knowing each other", "meaningVi": "Cứ cho là sự trang trọng thái quá có thể trở thành một bức tường mà phía sau đó hai người ngừng biết nhau"},
-    {"phrase": "Even so, the cure for that excess is not the abandonment of form. It is the small, attentive use of form within real intimacy", "meaningVi": "Dù vậy, phương thuốc cho sự thái quá đó không phải là sự từ bỏ hình thức. Đó là việc sử dụng hình thức một cách nhỏ nhặt, chú tâm trong sự thân mật thực sự"},
-    {"phrase": "the formal pronoun in the moment that asks for weight", "meaningVi": "đại từ trang trọng trong khoảnh khắc đòi hỏi trọng lượng"},
-    {"phrase": "the first name said with care rather than in passing", "meaningVi": "tên gọi đầu được nói một cách cẩn thận chứ không phải qua loa"},
-    {"phrase": "the form is one of the ways the relationship is paid attention to", "meaningVi": "hình thức là một trong những cách mà mối quan hệ được chú ý"},
-    {"phrase": "the choice between formal and informal address is grammatically forced", "meaningVi": "lựa chọn giữa xưng hô trang trọng và không trang trọng bị bắt buộc về mặt ngữ pháp"},
-    {"phrase": "the dropping of register that elsewhere requires a deliberate decision happens here invisibly", "meaningVi": "sự hạ sắc thái mà ở nơi khác đòi hỏi một quyết định có chủ ý ở đây xảy ra vô hình"},
-    {"phrase": "what is unmarked is often the kind of inequality that is hardest to discuss", "meaningVi": "những gì không được đánh dấu thường là loại bất bình đẳng khó thảo luận nhất"},
-    {"phrase": "no one bothered to mark the encounter as one worth attending to", "meaningVi": "không ai bận tâm đánh dấu cuộc gặp là một cuộc đáng được chú ý"}
+    {
+      "phrase": "Only rarely is the move toward complete informality between intimates argued for",
+      "meaningVi": "Chỉ hiếm khi việc chuyển sang sự không trang trọng hoàn toàn giữa những người thân được lập luận"
+    },
+    {
+      "phrase": "it tends to happen quietly, by default, as though it were not a choice at all",
+      "meaningVi": "nó có xu hướng xảy ra âm thầm, theo mặc định, như thể nó không phải là một lựa chọn"
+    },
+    {
+      "phrase": "the cousins who once used the formal pronoun now use the familiar one without anyone having decided",
+      "meaningVi": "những người anh chị em họ từng dùng đại từ trang trọng giờ dùng đại từ thân mật mà không ai quyết định"
+    },
+    {
+      "phrase": "to remove a small layer of attention that ceremony used to carry",
+      "meaningVi": "loại bỏ một lớp chú ý nhỏ mà nghi lễ từng mang theo"
+    },
+    {
+      "phrase": "the social formalities used as instruments of class",
+      "meaningVi": "các hình thức xã hội được dùng như công cụ của giai cấp"
+    },
+    {
+      "phrase": "framings that allow intimacy to take place against a background that the participants have agreed to keep visible",
+      "meaningVi": "các khung cho phép sự thân mật diễn ra trên một nền tảng mà những người tham gia đã đồng ý giữ cho dễ thấy"
+    },
+    {
+      "phrase": "What the language of 'authenticity' between friends tends to dismiss is the small work that ceremony does in marking what kind of encounter is occurring",
+      "meaningVi": "Những gì ngôn ngữ 'chân thật' giữa bạn bè có xu hướng bác bỏ là công việc nhỏ mà nghi lễ làm trong việc đánh dấu loại gặp gỡ nào đang diễn ra"
+    },
+    {
+      "phrase": "the relationship is the unmarked default within which speech can simply continue",
+      "meaningVi": "mối quan hệ là mặc định không được đánh dấu trong đó lời nói có thể đơn giản tiếp tục"
+    },
+    {
+      "phrase": "presumptive intimacy",
+      "meaningVi": "sự thân mật giả định"
+    },
+    {
+      "phrase": "a small fiction whose costs are paid in mild, repeated misunderstanding",
+      "meaningVi": "một sự hư cấu nhỏ mà chi phí được trả bằng sự hiểu lầm nhẹ, lặp đi lặp lại"
+    },
+    {
+      "phrase": "It is the loss of the framed encounter, not the loss of formality as such, that gives the casual revolution its quiet weight",
+      "meaningVi": "Chính sự mất đi cuộc gặp được đặt khung, không phải sự mất đi của tính trang trọng tự thân nó, mới mang lại cho cuộc cách mạng tuỳ tiện trọng lượng âm thầm của nó"
+    },
+    {
+      "phrase": "treating them with a kind of efficiency that older usage would have reserved for strangers",
+      "meaningVi": "đối xử với họ với một loại hiệu quả mà cách dùng cũ sẽ dành cho người lạ"
+    },
+    {
+      "phrase": "Granted, excess formality can become a wall behind which two people stop knowing each other",
+      "meaningVi": "Cứ cho là sự trang trọng thái quá có thể trở thành một bức tường mà phía sau đó hai người ngừng biết nhau"
+    },
+    {
+      "phrase": "Even so, the cure for that excess is not the abandonment of form. It is the small, attentive use of form within real intimacy",
+      "meaningVi": "Dù vậy, phương thuốc cho sự thái quá đó không phải là sự từ bỏ hình thức. Đó là việc sử dụng hình thức một cách nhỏ nhặt, chú tâm trong sự thân mật thực sự"
+    },
+    {
+      "phrase": "the formal pronoun in the moment that asks for weight",
+      "meaningVi": "đại từ trang trọng trong khoảnh khắc đòi hỏi trọng lượng"
+    },
+    {
+      "phrase": "the first name said with care rather than in passing",
+      "meaningVi": "tên gọi đầu được nói một cách cẩn thận chứ không phải qua loa"
+    },
+    {
+      "phrase": "the form is one of the ways the relationship is paid attention to",
+      "meaningVi": "hình thức là một trong những cách mà mối quan hệ được chú ý"
+    },
+    {
+      "phrase": "the choice between formal and informal address is grammatically forced",
+      "meaningVi": "lựa chọn giữa xưng hô trang trọng và không trang trọng bị bắt buộc về mặt ngữ pháp"
+    },
+    {
+      "phrase": "the dropping of register that elsewhere requires a deliberate decision happens here invisibly",
+      "meaningVi": "sự hạ sắc thái mà ở nơi khác đòi hỏi một quyết định có chủ ý ở đây xảy ra vô hình"
+    },
+    {
+      "phrase": "what is unmarked is often the kind of inequality that is hardest to discuss",
+      "meaningVi": "những gì không được đánh dấu thường là loại bất bình đẳng khó thảo luận nhất"
+    },
+    {
+      "phrase": "no one bothered to mark the encounter as one worth attending to",
+      "meaningVi": "không ai bận tâm đánh dấu cuộc gặp là một cuộc đáng được chú ý"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -93,11 +228,11 @@
       "prompt": "What is the essay's central observation about the drift to informality?",
       "options": [
         "It is the result of a deliberate ideological campaign",
-        "It happens quietly by default, with no single step felt as wrong, but with a cumulative loss of the small layer of attention that ceremony used to carry",
         "It is universally welcomed and harmless",
+        "It happens quietly by default, with no single step felt as wrong, but with a cumulative loss of the small layer of attention that ceremony used to carry",
         "It only affects formal occasions"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The opening point: each individual move felt like warmth, but the cumulative effect is a removed layer of attention that no one explicitly defended losing.",
       "hint": "Look at the first paragraph for what is lost cumulatively."
     },
@@ -107,10 +242,10 @@
       "options": [
         "Formality as marking the framed encounter",
         "Mutual ceremonial attention between intimates",
-        "Social formalities used as instruments of class — bows that say 'I outrank you'",
-        "The pause before a difficult subject"
+        "The pause before a difficult subject",
+        "Social formalities used as instruments of class — bows that say 'I outrank you'"
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "explanation": "The essay explicitly distances itself from class-instrumental formality: 'The bow that says \"I outrank you and you may not approach\" is not the formality being defended here.'",
       "hint": "Look at the second paragraph for what the essay refuses."
     },
@@ -118,12 +253,12 @@
       "id": "q4",
       "prompt": "Which sentence uses a cleft to redirect attention to the framed encounter?",
       "options": [
-        "Formality itself gives the casual revolution its weight.",
         "It is the loss of the framed encounter, not the loss of formality as such, that gives the casual revolution its quiet weight.",
+        "Formality itself gives the casual revolution its weight.",
         "The casual revolution is weightless.",
         "Both formality and the framed encounter give the revolution weight."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'It is X, not Y, that Z' is a cleft that narrows the defence: the essay does not defend formality per se but the framed encounter that formality marked.",
       "hint": "Look for 'It is ... not ... that ...'"
     },
@@ -145,11 +280,11 @@
       "prompt": "What does the essay say about languages with grammatical T-V distinction?",
       "options": [
         "They are inferior to English",
-        "They force the speaker to choose, making the choice audible — whereas in English, the drop in register often happens invisibly because the grammar no longer requires the decision",
         "They are equivalent to English",
+        "They force the speaker to choose, making the choice audible — whereas in English, the drop in register often happens invisibly because the grammar no longer requires the decision",
         "They are obsolete in modern usage"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay observes that languages with a T-V distinction (Vietnamese, French, Korean etc.) make the register choice grammatically forced; English has lost this, so register-drop happens unmarked.",
       "hint": "Look at the paragraph about asymmetry across languages."
     },
@@ -158,11 +293,11 @@
       "prompt": "What does the essay say about treating intimates with 'a kind of efficiency'?",
       "options": [
         "It is a sign of healthy modern relationships",
-        "It is a kind of efficiency that older usage would have reserved for strangers — and it accumulates without being noticed",
         "It is the optimal use of time",
-        "It is required by modern workplaces"
+        "It is required by modern workplaces",
+        "It is a kind of efficiency that older usage would have reserved for strangers — and it accumulates without being noticed"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay observes that the casualness once reserved for strangers has migrated to intimates, in a slow accumulation people do not notice as a withdrawal of attention.",
       "hint": "Look at the framed-encounter paragraph for the efficiency point."
     },
@@ -197,11 +332,11 @@
       "prompt": "What does 'naming the relation' mean in the essay?",
       "options": [
         "Calling out a relative's name",
-        "Using a greeting that acknowledges who is being addressed — marking the encounter as one between specific known people rather than a continuous conversation",
         "Telling someone their family role",
+        "Using a greeting that acknowledges who is being addressed — marking the encounter as one between specific known people rather than a continuous conversation",
         "Identifying a legal relationship"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay's image: greeting someone by name is naming the relation — marking the moment as an encounter between specific people, not anonymous continuation.",
       "hint": "Think about the greeting at the door image."
     },
@@ -210,11 +345,11 @@
       "prompt": "What does the essay say is the alternative to abandoning form in the face of excess formality?",
       "options": [
         "Stricter enforcement of old etiquette",
-        "Small, attentive use of form within real intimacy — the formal pronoun in moments that ask for weight, the careful first name, the closing of a message",
         "Mandatory training in etiquette",
-        "Translating all messages into a formal register"
+        "Translating all messages into a formal register",
+        "Small, attentive use of form within real intimacy — the formal pronoun in moments that ask for weight, the careful first name, the closing of a message"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The Granted/Even so move: not abandonment of form but its attentive, occasional use within intimacy — form deployed for weight, not from habit.",
       "hint": "Look at the Granted/Even so paragraph."
     },
@@ -222,12 +357,12 @@
       "id": "q12",
       "prompt": "What does the essay say happens when invisible register-drop becomes the norm?",
       "options": [
-        "Social inequalities become more visible",
         "What is unmarked is often the kind of inequality that is hardest to discuss — the underlying distinctions have not gone, only become harder to name",
+        "Social inequalities become more visible",
         "Relationships become more equal",
         "Linguistic difficulty disappears"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay's argument about asymmetry: unmarking the choice does not abolish the underlying distinctions — it just makes them harder to discuss.",
       "hint": "Look at the languages paragraph for the unmarked-inequality point."
     },
@@ -249,11 +384,11 @@
       "prompt": "How does the essay frame the abolition of small ceremony?",
       "options": [
         "As felt acutely by everyone immediately",
-        "As not always felt as a loss — the loss is distributed across many encounters and accumulates invisibly",
         "As universally celebrated",
+        "As not always felt as a loss — the loss is distributed across many encounters and accumulates invisibly",
         "As a triumph of progress"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay's closing image: the loss does not register in any single encounter but accumulates across many — distributed, invisible, real.",
       "hint": "Look at the final sentences for the distribution argument."
     },
@@ -263,10 +398,10 @@
       "options": [
         "A return to all old formalities",
         "Abandonment of all formality",
-        "The defence of small, mutual ceremony as a way of marking attention between intimates — not class-instrumental formality, but the framed encounter",
-        "Indifference to the question"
+        "Indifference to the question",
+        "The defence of small, mutual ceremony as a way of marking attention between intimates — not class-instrumental formality, but the framed encounter"
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "explanation": "The essay defends specifically the reciprocal, attention-marking kind of small formality between intimates, while explicitly disavowing class-instrumental formality.",
       "hint": "Look at the overall position throughout."
     }

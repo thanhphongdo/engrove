@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "The ethics of photographing strangers in religious spaces",
   "summary": "Argue whether visitors should be allowed to photograph worshippers inside mosques, temples, and churches — or whether the camera changes the place too much.",
-  "tags": ["Ethics", "Travel", "Culture", "Argument"],
+  "tags": [
+    "Ethics",
+    "Travel",
+    "Culture",
+    "Argument"
+  ],
   "topic": "Whether tourist photography inside active places of worship is acceptable",
   "prompt": "Write a 350–500-word argumentative essay about whether tourists should be allowed to photograph people who are praying or worshipping inside active religious buildings (mosques, temples, churches, gurdwaras), or whether worshippers deserve the right to pray without becoming background subjects in someone else's holiday album. Use a 'what' cleft, a concession ('Granted, …' or 'Admittedly, …'), at least one passive construction, and one participle clause. Anchor the argument in at least one named city or building. Take a clear position.",
   "minWords": 350,
@@ -14,49 +19,166 @@
     "Standing in the courtyard of the Süleymaniye Mosque in Istanbul on a Friday afternoon, one sees, in the same frame, an elderly man prostrating in prayer and a visitor in shorts photographing him from…"
   ],
   "hintVocab": [
-    { "phrase": "place of worship", "meaningVi": "nơi thờ tự" },
-    { "phrase": "active religious space", "meaningVi": "không gian tôn giáo đang hoạt động" },
-    { "phrase": "worshipper", "meaningVi": "người cầu nguyện / tín đồ" },
-    { "phrase": "ritual prostration", "meaningVi": "động tác phủ phục trong lễ nghi" },
-    { "phrase": "to violate someone's privacy", "meaningVi": "xâm phạm quyền riêng tư của ai đó" },
-    { "phrase": "informed consent", "meaningVi": "sự đồng ý có hiểu biết" },
-    { "phrase": "background subject", "meaningVi": "đối tượng nền (trong ảnh)" },
-    { "phrase": "photogenic interior", "meaningVi": "nội thất ăn ảnh", "pronunciation": "/ˌfəʊ.təˈdʒen.ɪk/" },
-    { "phrase": "a sweeping ban", "meaningVi": "lệnh cấm bao trùm / toàn diện" },
-    { "phrase": "tourist economy", "meaningVi": "nền kinh tế du lịch" },
-    { "phrase": "sacred geometry", "meaningVi": "hình học thiêng liêng" },
-    { "phrase": "to be reduced to an aesthetic", "meaningVi": "bị thu nhỏ thành chỉ một yếu tố thẩm mỹ" },
-    { "phrase": "the gaze of the camera", "meaningVi": "cái nhìn của ống kính" },
-    { "phrase": "to disrupt contemplation", "meaningVi": "làm gián đoạn sự chiêm nghiệm" },
-    { "phrase": "muted shutter sound", "meaningVi": "âm thanh chụp ảnh giảm âm" },
-    { "phrase": "to be on display", "meaningVi": "bị trưng bày" },
-    { "phrase": "designated photography zone", "meaningVi": "khu vực được phép chụp ảnh" },
-    { "phrase": "the architecture itself", "meaningVi": "chính kiến trúc" },
-    { "phrase": "permissive signage", "meaningVi": "biển báo cho phép" },
-    { "phrase": "to ask a worshipper directly", "meaningVi": "hỏi trực tiếp người cầu nguyện" },
-    { "phrase": "spiritual labour", "meaningVi": "lao động tâm linh" }
+    {
+      "phrase": "place of worship",
+      "meaningVi": "nơi thờ tự"
+    },
+    {
+      "phrase": "active religious space",
+      "meaningVi": "không gian tôn giáo đang hoạt động"
+    },
+    {
+      "phrase": "worshipper",
+      "meaningVi": "người cầu nguyện / tín đồ"
+    },
+    {
+      "phrase": "ritual prostration",
+      "meaningVi": "động tác phủ phục trong lễ nghi"
+    },
+    {
+      "phrase": "to violate someone's privacy",
+      "meaningVi": "xâm phạm quyền riêng tư của ai đó"
+    },
+    {
+      "phrase": "informed consent",
+      "meaningVi": "sự đồng ý có hiểu biết"
+    },
+    {
+      "phrase": "background subject",
+      "meaningVi": "đối tượng nền (trong ảnh)"
+    },
+    {
+      "phrase": "photogenic interior",
+      "meaningVi": "nội thất ăn ảnh",
+      "pronunciation": "/ˌfəʊ.təˈdʒen.ɪk/"
+    },
+    {
+      "phrase": "a sweeping ban",
+      "meaningVi": "lệnh cấm bao trùm / toàn diện"
+    },
+    {
+      "phrase": "tourist economy",
+      "meaningVi": "nền kinh tế du lịch"
+    },
+    {
+      "phrase": "sacred geometry",
+      "meaningVi": "hình học thiêng liêng"
+    },
+    {
+      "phrase": "to be reduced to an aesthetic",
+      "meaningVi": "bị thu nhỏ thành chỉ một yếu tố thẩm mỹ"
+    },
+    {
+      "phrase": "the gaze of the camera",
+      "meaningVi": "cái nhìn của ống kính"
+    },
+    {
+      "phrase": "to disrupt contemplation",
+      "meaningVi": "làm gián đoạn sự chiêm nghiệm"
+    },
+    {
+      "phrase": "muted shutter sound",
+      "meaningVi": "âm thanh chụp ảnh giảm âm"
+    },
+    {
+      "phrase": "to be on display",
+      "meaningVi": "bị trưng bày"
+    },
+    {
+      "phrase": "designated photography zone",
+      "meaningVi": "khu vực được phép chụp ảnh"
+    },
+    {
+      "phrase": "the architecture itself",
+      "meaningVi": "chính kiến trúc"
+    },
+    {
+      "phrase": "permissive signage",
+      "meaningVi": "biển báo cho phép"
+    },
+    {
+      "phrase": "to ask a worshipper directly",
+      "meaningVi": "hỏi trực tiếp người cầu nguyện"
+    },
+    {
+      "phrase": "spiritual labour",
+      "meaningVi": "lao động tâm linh"
+    }
   ],
   "sampleText": "Inside an active mosque on a Friday afternoon, the same physical space holds two profoundly different kinds of activity. A man kneeling in prayer is, in that moment, doing something he believes is between himself and God. A visitor standing six metres away, lifting a phone, is doing something quite different: composing a frame. The question is whether the second activity has any business taking place over the first.\n\nWhat a phone camera quietly does to a space designed for stillness is something most visitors never have to confront. Worshippers, photographed without consent in the middle of an act of devotion, are being converted — in real time, in their own holy place — into the visual content of someone else's afternoon. The exchange is not equal. The photographer takes home an image; the photographed person takes home the experience of having been seen, and recorded, while genuinely vulnerable.\n\nAdmittedly, the architectural beauty of major religious buildings is part of why tourists visit at all, and a sweeping ban on photography would impoverish the way these places are remembered and shared. The Hagia Sophia, Angkor Wat, the Blue Mosque, the Golden Temple — none of these would be as widely loved without the millions of images that have circulated of them. The buildings themselves, in some real sense, were made to be looked at.\n\nEven so, the buildings are not the issue. The issue is the people inside them. What a reasonable policy looks like, in practice, is something narrower than either a free-for-all or a ban: free photography of empty spaces, sacred geometry, ornament, and architectural detail; explicit restriction on photographing identifiable individuals at prayer without permission. Several active mosques in Istanbul, including the Süleymaniye, already operate this way through clear signage and gentle enforcement by attendants. The system is not perfect, but it draws the right distinction.\n\nGranted, asking permission of every person in a frame is impractical in busy buildings, and any reasonable rule has to accept some grey area at the edges. Wide architectural shots that incidentally include silhouettes at the back of a hall are not the same as a close-up of an elderly woman's face during her prayer. The right test is not whether the photograph contains a person, but whether the person is recognisable and is the subject.\n\nReligious buildings will continue to draw cameras. The question is whether the worshippers inside them are treated as fellow occupants of the space or as scenic background. Treated well, they remain people. Treated as content, they become a kind of unpaid extra in a holiday no one invited them to.",
   "sampleAnnotations": [
-    { "phrase": "the same physical space holds two profoundly different kinds of activity", "meaningVi": "cùng một không gian vật lý chứa đựng hai loại hoạt động hoàn toàn khác nhau" },
-    { "phrase": "doing something he believes is between himself and God", "meaningVi": "đang làm điều mà ông tin là giữa bản thân và Chúa" },
-    { "phrase": "composing a frame", "meaningVi": "đang sắp xếp một khung hình" },
-    { "phrase": "What a phone camera quietly does to a space designed for stillness is something most visitors never have to confront", "meaningVi": "Điều mà một chiếc máy ảnh điện thoại âm thầm làm với một không gian được thiết kế cho sự tĩnh lặng là điều mà hầu hết khách tham quan không bao giờ phải đối mặt" },
-    { "phrase": "Worshippers, photographed without consent in the middle of an act of devotion, are being converted — in real time, in their own holy place — into the visual content of someone else's afternoon", "meaningVi": "Những người cầu nguyện, bị chụp ảnh không có sự đồng ý giữa một hành động sùng kính, đang bị chuyển hóa — trong thời gian thực, trong chính nơi thiêng liêng của họ — thành nội dung trực quan của buổi chiều của người khác" },
-    { "phrase": "The exchange is not equal", "meaningVi": "Sự trao đổi không bình đẳng" },
-    { "phrase": "the photographed person takes home the experience of having been seen, and recorded, while genuinely vulnerable", "meaningVi": "người bị chụp ảnh mang về nhà trải nghiệm về việc đã bị nhìn thấy, và ghi lại, trong khi đang thực sự dễ tổn thương" },
-    { "phrase": "a sweeping ban on photography would impoverish the way these places are remembered and shared", "meaningVi": "một lệnh cấm chụp ảnh bao trùm sẽ làm nghèo nàn cách những nơi này được ghi nhớ và chia sẻ" },
-    { "phrase": "The buildings themselves, in some real sense, were made to be looked at", "meaningVi": "Bản thân các tòa nhà, theo một nghĩa thực sự nào đó, được tạo ra để được nhìn ngắm" },
-    { "phrase": "the buildings are not the issue. The issue is the people inside them", "meaningVi": "các tòa nhà không phải là vấn đề. Vấn đề là những người bên trong chúng" },
-    { "phrase": "What a reasonable policy looks like, in practice, is something narrower than either a free-for-all or a ban", "meaningVi": "Một chính sách hợp lý trông như thế nào, trong thực tế, là một điều gì đó hẹp hơn cả việc cho phép tự do hoàn toàn lẫn việc cấm hoàn toàn" },
-    { "phrase": "explicit restriction on photographing identifiable individuals at prayer without permission", "meaningVi": "hạn chế rõ ràng đối với việc chụp ảnh các cá nhân có thể nhận dạng được đang cầu nguyện mà không có sự cho phép" },
-    { "phrase": "Several active mosques in Istanbul, including the Süleymaniye, already operate this way through clear signage and gentle enforcement by attendants", "meaningVi": "Một số nhà thờ Hồi giáo đang hoạt động ở Istanbul, bao gồm cả Süleymaniye, đã vận hành theo cách này thông qua biển báo rõ ràng và sự thực thi nhẹ nhàng của các nhân viên" },
-    { "phrase": "any reasonable rule has to accept some grey area at the edges", "meaningVi": "bất kỳ quy tắc hợp lý nào cũng phải chấp nhận một vùng xám ở các rìa" },
-    { "phrase": "Wide architectural shots that incidentally include silhouettes at the back of a hall are not the same as a close-up of an elderly woman's face during her prayer", "meaningVi": "Những bức ảnh kiến trúc rộng tình cờ bao gồm các bóng dáng ở cuối hành lang không giống với một bức cận cảnh khuôn mặt của một bà cụ trong khi cầu nguyện" },
-    { "phrase": "The right test is not whether the photograph contains a person, but whether the person is recognisable and is the subject", "meaningVi": "Bài kiểm tra đúng không phải là liệu bức ảnh có chứa một người hay không, mà là liệu người đó có thể nhận dạng được và có phải là chủ thể hay không" },
-    { "phrase": "whether the worshippers inside them are treated as fellow occupants of the space or as scenic background", "meaningVi": "liệu những người cầu nguyện bên trong chúng có được đối xử như những người cùng sử dụng không gian hay như phông nền cảnh quan" },
-    { "phrase": "Treated well, they remain people. Treated as content, they become a kind of unpaid extra in a holiday no one invited them to", "meaningVi": "Được đối xử tốt, họ vẫn là con người. Được đối xử như nội dung, họ trở thành một kiểu diễn viên phụ không lương trong kỳ nghỉ mà không ai mời họ" },
-    { "phrase": "to disrupt contemplation", "meaningVi": "làm gián đoạn sự chiêm nghiệm" }
+    {
+      "phrase": "the same physical space holds two profoundly different kinds of activity",
+      "meaningVi": "cùng một không gian vật lý chứa đựng hai loại hoạt động hoàn toàn khác nhau"
+    },
+    {
+      "phrase": "doing something he believes is between himself and God",
+      "meaningVi": "đang làm điều mà ông tin là giữa bản thân và Chúa"
+    },
+    {
+      "phrase": "composing a frame",
+      "meaningVi": "đang sắp xếp một khung hình"
+    },
+    {
+      "phrase": "What a phone camera quietly does to a space designed for stillness is something most visitors never have to confront",
+      "meaningVi": "Điều mà một chiếc máy ảnh điện thoại âm thầm làm với một không gian được thiết kế cho sự tĩnh lặng là điều mà hầu hết khách tham quan không bao giờ phải đối mặt"
+    },
+    {
+      "phrase": "Worshippers, photographed without consent in the middle of an act of devotion, are being converted — in real time, in their own holy place — into the visual content of someone else's afternoon",
+      "meaningVi": "Những người cầu nguyện, bị chụp ảnh không có sự đồng ý giữa một hành động sùng kính, đang bị chuyển hóa — trong thời gian thực, trong chính nơi thiêng liêng của họ — thành nội dung trực quan của buổi chiều của người khác"
+    },
+    {
+      "phrase": "The exchange is not equal",
+      "meaningVi": "Sự trao đổi không bình đẳng"
+    },
+    {
+      "phrase": "the photographed person takes home the experience of having been seen, and recorded, while genuinely vulnerable",
+      "meaningVi": "người bị chụp ảnh mang về nhà trải nghiệm về việc đã bị nhìn thấy, và ghi lại, trong khi đang thực sự dễ tổn thương"
+    },
+    {
+      "phrase": "a sweeping ban on photography would impoverish the way these places are remembered and shared",
+      "meaningVi": "một lệnh cấm chụp ảnh bao trùm sẽ làm nghèo nàn cách những nơi này được ghi nhớ và chia sẻ"
+    },
+    {
+      "phrase": "The buildings themselves, in some real sense, were made to be looked at",
+      "meaningVi": "Bản thân các tòa nhà, theo một nghĩa thực sự nào đó, được tạo ra để được nhìn ngắm"
+    },
+    {
+      "phrase": "the buildings are not the issue. The issue is the people inside them",
+      "meaningVi": "các tòa nhà không phải là vấn đề. Vấn đề là những người bên trong chúng"
+    },
+    {
+      "phrase": "What a reasonable policy looks like, in practice, is something narrower than either a free-for-all or a ban",
+      "meaningVi": "Một chính sách hợp lý trông như thế nào, trong thực tế, là một điều gì đó hẹp hơn cả việc cho phép tự do hoàn toàn lẫn việc cấm hoàn toàn"
+    },
+    {
+      "phrase": "explicit restriction on photographing identifiable individuals at prayer without permission",
+      "meaningVi": "hạn chế rõ ràng đối với việc chụp ảnh các cá nhân có thể nhận dạng được đang cầu nguyện mà không có sự cho phép"
+    },
+    {
+      "phrase": "Several active mosques in Istanbul, including the Süleymaniye, already operate this way through clear signage and gentle enforcement by attendants",
+      "meaningVi": "Một số nhà thờ Hồi giáo đang hoạt động ở Istanbul, bao gồm cả Süleymaniye, đã vận hành theo cách này thông qua biển báo rõ ràng và sự thực thi nhẹ nhàng của các nhân viên"
+    },
+    {
+      "phrase": "any reasonable rule has to accept some grey area at the edges",
+      "meaningVi": "bất kỳ quy tắc hợp lý nào cũng phải chấp nhận một vùng xám ở các rìa"
+    },
+    {
+      "phrase": "Wide architectural shots that incidentally include silhouettes at the back of a hall are not the same as a close-up of an elderly woman's face during her prayer",
+      "meaningVi": "Những bức ảnh kiến trúc rộng tình cờ bao gồm các bóng dáng ở cuối hành lang không giống với một bức cận cảnh khuôn mặt của một bà cụ trong khi cầu nguyện"
+    },
+    {
+      "phrase": "The right test is not whether the photograph contains a person, but whether the person is recognisable and is the subject",
+      "meaningVi": "Bài kiểm tra đúng không phải là liệu bức ảnh có chứa một người hay không, mà là liệu người đó có thể nhận dạng được và có phải là chủ thể hay không"
+    },
+    {
+      "phrase": "whether the worshippers inside them are treated as fellow occupants of the space or as scenic background",
+      "meaningVi": "liệu những người cầu nguyện bên trong chúng có được đối xử như những người cùng sử dụng không gian hay như phông nền cảnh quan"
+    },
+    {
+      "phrase": "Treated well, they remain people. Treated as content, they become a kind of unpaid extra in a holiday no one invited them to",
+      "meaningVi": "Được đối xử tốt, họ vẫn là con người. Được đối xử như nội dung, họ trở thành một kiểu diễn viên phụ không lương trong kỳ nghỉ mà không ai mời họ"
+    }
   ],
   "sampleGrammarNotes": [
     {

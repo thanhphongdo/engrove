@@ -1,0 +1,508 @@
+{
+  "id": "speaking-c1-098",
+  "level": "C1",
+  "title": "The Ethics of Nudging Citizens",
+  "summary": "A behavioural-policy adviser and a political philosopher argue over libertarian paternalism — whether default-setting and choice architecture respect autonomy or quietly manipulate the citizens they claim to leave free.",
+  "topic": "ethics of nudging",
+  "tags": [
+    "Ethics",
+    "Policy",
+    "Autonomy"
+  ],
+  "characters": [
+    "Naomi",
+    "Theo"
+  ],
+  "voices": {
+    "Naomi": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-MichelleNeural"
+    },
+    "Theo": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-EricNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Naomi",
+      "text": "Theo, you've written that nudging is a velvet glove over an iron fist, but I think that metaphor does the practice a real disservice. Auto-enrolling someone in a pension while leaving them entirely free to opt out is hardly a fist of any kind."
+    },
+    {
+      "speaker": "Theo",
+      "text": "I'll concede the pension case is your strongest, precisely because exit is so frictionless, but that's exactly why it's unrepresentative. The interesting nudges are the ones that exploit a known bias to steer you somewhere you wouldn't reflectively endorse."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "But every choice is already framed by some architecture — there is no neutral, view-from-nowhere way to present options. If the default will inevitably push somebody one way or another, surely it ought to push them toward what is demonstrably in their own interest."
+    },
+    {
+      "speaker": "Theo",
+      "text": "That inevitability argument is the load-bearing move in the whole programme, and I think it proves too much. From the truism that some frame is unavoidable, it simply doesn't follow that any particular frame, chosen by a planner to redirect behaviour, is therefore legitimate."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "Fair enough — inevitability licenses some choice of frame, not a blank cheque. But the libertarian-paternalist proposal isn't a blank cheque; it's constrained by the publicity condition and by preserving a low-cost opt-out."
+    },
+    {
+      "speaker": "Theo",
+      "text": "The publicity condition is doing heroic work there, and I'm not sure it can bear the weight. Many nudges work only because they bypass conscious deliberation; the moment you fully publicise the mechanism, you risk extinguishing the very effect that justified deploying it."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "That's a genuinely sharp objection, and I won't wave it away. Still, there's a difference between a nudge that depends on individual ignorance and one that merely depends on inertia — the default pension works even if you know exactly how it works."
+    },
+    {
+      "speaker": "Theo",
+      "text": "Granted, and I'd distinguish those two classes as sharply as you do. My residual worry is that even an inertia-based nudge substitutes the planner's judgement of your interest for your own, and over a whole population that's a quiet transfer of authority we should at least notice."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "I accept the transfer-of-authority framing, but I'd ask: transferred from whom, and to what? For most people the realistic alternative to a well-designed default isn't sovereign deliberation; it's an exploitative default designed by whoever profits from their inattention."
+    },
+    {
+      "speaker": "Theo",
+      "text": "Now that's a powerful point, and it's where the autonomy objection gets uncomfortable, because doing nothing isn't a neutral abstention. Where I'd still hold the line is on the asymmetry of accountability — a manipulative marketer can be regulated or sued, whereas a paternalist state nudging in my supposed interest cloaks itself in benevolence and is far harder to contest."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "That asymmetry is real and it's the best reason to insist that nudges be democratically authorised and routinely audited rather than quietly installed by technocrats."
+    },
+    {
+      "speaker": "Theo",
+      "text": "If that's the proposal — defaults that are transparent, contestable, and revisable by the people subject to them — then most of my objection dissolves."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "Then perhaps our disagreement was never about nudging as such, but about the political conditions under which any soft power over citizens can be made answerable."
+    },
+    {
+      "speaker": "Theo",
+      "text": "That's a reconciliation I can sign on to, with one caveat: the burden of proof should always rest on the nudger, never on the nudged."
+    },
+    {
+      "speaker": "Naomi",
+      "text": "On that principle we are in complete agreement, and I'd rather defend a chastened, accountable paternalism than pretend that refusing to choose a default leaves anyone freer."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Naomi",
+      "text": "Theo, you've written that nudging is a velvet glove over an iron fist, but I think that metaphor does the practice a real disservice.",
+      "translationVi": "Theo, anh đã viết rằng nudging là chiếc găng nhung bọc một bàn tay sắt, nhưng tôi nghĩ ẩn dụ đó thực sự gây bất công cho thực tiễn này.",
+      "durationMs": 7728
+    },
+    {
+      "id": "s2",
+      "speaker": "Naomi",
+      "text": "Auto-enrolling someone in a pension while leaving them entirely free to opt out is hardly a fist of any kind.",
+      "translationVi": "Việc tự động ghi danh ai đó vào quỹ hưu trí trong khi vẫn để họ hoàn toàn tự do rút lui thì khó mà là một bàn tay sắt theo bất kỳ nghĩa nào.",
+      "durationMs": 6600
+    },
+    {
+      "id": "s3",
+      "speaker": "Theo",
+      "text": "I'll concede the pension case is your strongest, precisely because exit is so frictionless, but that's exactly why it's unrepresentative.",
+      "translationVi": "Tôi thừa nhận trường hợp hưu trí là mạnh nhất của cô, chính vì việc rút lui quá ít trở ngại, nhưng đó cũng đúng là lý do nó không tiêu biểu.",
+      "durationMs": 8688
+    },
+    {
+      "id": "s4",
+      "speaker": "Theo",
+      "text": "The interesting nudges are the ones that exploit a known bias to steer you somewhere you wouldn't reflectively endorse.",
+      "translationVi": "Những nudge đáng chú ý là những cái khai thác một thiên kiến đã biết để lái anh đến nơi mà anh sẽ không tán thành sau khi suy ngẫm.",
+      "durationMs": 6816
+    },
+    {
+      "id": "s5",
+      "speaker": "Naomi",
+      "text": "But every choice is already framed by some architecture — there is no neutral, view-from-nowhere way to present options.",
+      "translationVi": "Nhưng mọi lựa chọn vốn đã được đóng khung bởi một kiến trúc nào đó — không có cách trung lập, nhìn-từ-hư-không nào để trình bày các phương án.",
+      "durationMs": 7416
+    },
+    {
+      "id": "s6",
+      "speaker": "Naomi",
+      "text": "If the default will inevitably push somebody one way or another, surely it ought to push them toward what is demonstrably in their own interest.",
+      "translationVi": "Nếu mặc định chắc chắn sẽ đẩy ai đó theo cách này hay cách khác, thì chắc chắn nó nên đẩy họ về phía điều rõ ràng có lợi cho chính họ.",
+      "durationMs": 7632
+    },
+    {
+      "id": "s7",
+      "speaker": "Theo",
+      "text": "That inevitability argument is the load-bearing move in the whole programme, and I think it proves too much.",
+      "translationVi": "Lập luận về tính tất yếu đó là bước chịu lực trong toàn bộ chương trình, và tôi nghĩ nó chứng minh quá nhiều.",
+      "durationMs": 6480
+    },
+    {
+      "id": "s8",
+      "speaker": "Theo",
+      "text": "From the truism that some frame is unavoidable, it simply doesn't follow that any particular frame, chosen by a planner to redirect behaviour, is therefore legitimate.",
+      "translationVi": "Từ chân lý hiển nhiên rằng một khung nào đó là không thể tránh, đơn giản là không suy ra được rằng bất kỳ khung cụ thể nào, do một nhà hoạch định chọn để chuyển hướng hành vi, là vì thế chính đáng.",
+      "durationMs": 10248
+    },
+    {
+      "id": "s9",
+      "speaker": "Naomi",
+      "text": "Fair enough — inevitability licenses some choice of frame, not a blank cheque.",
+      "translationVi": "Cũng hợp lý — tính tất yếu cho phép một sự lựa chọn khung nào đó, chứ không phải một tấm séc khống.",
+      "durationMs": 5424
+    },
+    {
+      "id": "s10",
+      "speaker": "Naomi",
+      "text": "But the libertarian-paternalist proposal isn't a blank cheque; it's constrained by the publicity condition and by preserving a low-cost opt-out.",
+      "translationVi": "Nhưng đề xuất gia trưởng tự do không phải là một tấm séc khống; nó bị ràng buộc bởi điều kiện công khai và bởi việc duy trì một lối rút lui ít tốn kém.",
+      "durationMs": 8112
+    },
+    {
+      "id": "s11",
+      "speaker": "Theo",
+      "text": "The publicity condition is doing heroic work there, and I'm not sure it can bear the weight.",
+      "translationVi": "Điều kiện công khai đang gánh một công việc anh hùng ở đó, và tôi không chắc nó chịu nổi sức nặng ấy.",
+      "durationMs": 5616
+    },
+    {
+      "id": "s12",
+      "speaker": "Theo",
+      "text": "Many nudges work only because they bypass conscious deliberation; the moment you fully publicise the mechanism, you risk extinguishing the very effect that justified deploying it.",
+      "translationVi": "Nhiều nudge chỉ hiệu quả vì chúng đi vòng qua sự cân nhắc có ý thức; khoảnh khắc anh công khai đầy đủ cơ chế, anh có nguy cơ dập tắt chính hiệu ứng đã biện minh cho việc triển khai nó.",
+      "durationMs": 10560
+    },
+    {
+      "id": "s13",
+      "speaker": "Naomi",
+      "text": "That's a genuinely sharp objection, and I won't wave it away.",
+      "translationVi": "Đó là một phản bác thực sự sắc bén, và tôi sẽ không gạt bỏ nó.",
+      "durationMs": 4128
+    },
+    {
+      "id": "s14",
+      "speaker": "Naomi",
+      "text": "Still, there's a difference between a nudge that depends on individual ignorance and one that merely depends on inertia — the default pension works even if you know exactly how it works.",
+      "translationVi": "Tuy vậy, có sự khác biệt giữa một nudge phụ thuộc vào sự thiếu hiểu biết của cá nhân và một cái chỉ phụ thuộc vào quán tính — quỹ hưu trí mặc định vẫn hiệu quả ngay cả khi anh biết chính xác nó hoạt động thế nào.",
+      "durationMs": 10056
+    },
+    {
+      "id": "s15",
+      "speaker": "Theo",
+      "text": "Granted, and I'd distinguish those two classes as sharply as you do.",
+      "translationVi": "Được, và tôi cũng sẽ phân biệt hai loại đó rạch ròi như cô.",
+      "durationMs": 4968
+    },
+    {
+      "id": "s16",
+      "speaker": "Theo",
+      "text": "My residual worry is that even an inertia-based nudge substitutes the planner's judgement of your interest for your own, and over a whole population that's a quiet transfer of authority we should at least notice.",
+      "translationVi": "Nỗi lo còn lại của tôi là ngay cả một nudge dựa trên quán tính cũng thay thế phán đoán của nhà hoạch định về lợi ích của anh cho phán đoán của chính anh, và trên cả một dân số đó là một sự chuyển giao quyền lực âm thầm mà ít nhất ta nên để ý.",
+      "durationMs": 11400
+    },
+    {
+      "id": "s17",
+      "speaker": "Naomi",
+      "text": "I accept the transfer-of-authority framing, but I'd ask: transferred from whom, and to what?",
+      "translationVi": "Tôi chấp nhận cách diễn đạt chuyển giao quyền lực, nhưng tôi sẽ hỏi: chuyển từ ai, và sang cái gì?",
+      "durationMs": 6000
+    },
+    {
+      "id": "s18",
+      "speaker": "Naomi",
+      "text": "For most people the realistic alternative to a well-designed default isn't sovereign deliberation; it's an exploitative default designed by whoever profits from their inattention.",
+      "translationVi": "Đối với hầu hết mọi người, lựa chọn thay thế thực tế cho một mặc định được thiết kế tốt không phải là sự cân nhắc tự chủ; mà là một mặc định bóc lột do bất kỳ ai trục lợi từ sự lơ đãng của họ thiết kế.",
+      "durationMs": 9408
+    },
+    {
+      "id": "s19",
+      "speaker": "Theo",
+      "text": "Now that's a powerful point, and it's where the autonomy objection gets uncomfortable, because doing nothing isn't a neutral abstention.",
+      "translationVi": "Bây giờ đó là một điểm mạnh, và đó là chỗ phản bác về quyền tự chủ trở nên khó chịu, vì việc không làm gì không phải là một sự kiêng cữ trung lập.",
+      "durationMs": 7968
+    },
+    {
+      "id": "s20",
+      "speaker": "Theo",
+      "text": "Where I'd still hold the line is on the asymmetry of accountability — a manipulative marketer can be regulated or sued, whereas a paternalist state nudging in my supposed interest cloaks itself in benevolence and is far harder to contest.",
+      "translationVi": "Chỗ tôi vẫn giữ ranh giới là ở sự bất đối xứng về trách nhiệm giải trình — một nhà tiếp thị thao túng có thể bị quản lý hoặc kiện, trong khi một nhà nước gia trưởng nudge vì lợi ích được cho là của tôi lại khoác lên mình lòng từ thiện và khó phản đối hơn nhiều.",
+      "durationMs": 13632
+    },
+    {
+      "id": "s21",
+      "speaker": "Naomi",
+      "text": "That asymmetry is real and it's the best reason to insist that nudges be democratically authorised and routinely audited rather than quietly installed by technocrats.",
+      "translationVi": "Sự bất đối xứng đó là có thật và là lý do tốt nhất để khẳng định rằng các nudge phải được dân chủ cho phép và kiểm toán thường xuyên chứ không phải được kỹ trị âm thầm lắp đặt.",
+      "durationMs": 9432
+    },
+    {
+      "id": "s22",
+      "speaker": "Theo",
+      "text": "If that's the proposal — defaults that are transparent, contestable, and revisable by the people subject to them — then most of my objection dissolves.",
+      "translationVi": "Nếu đó là đề xuất — các mặc định minh bạch, có thể phản đối, và có thể được điều chỉnh bởi chính những người chịu tác động — thì phần lớn phản bác của tôi tan biến.",
+      "durationMs": 9624
+    },
+    {
+      "id": "s23",
+      "speaker": "Naomi",
+      "text": "Then perhaps our disagreement was never about nudging as such, but about the political conditions under which any soft power over citizens can be made answerable.",
+      "translationVi": "Vậy có lẽ bất đồng của chúng ta chưa bao giờ là về nudging như một thứ tự thân, mà là về các điều kiện chính trị để bất kỳ quyền lực mềm nào đối với công dân có thể được buộc phải chịu trách nhiệm.",
+      "durationMs": 8880
+    },
+    {
+      "id": "s24",
+      "speaker": "Theo",
+      "text": "That's a reconciliation I can sign on to, with one caveat: the burden of proof should always rest on the nudger, never on the nudged.",
+      "translationVi": "Đó là một sự hòa giải tôi có thể ký vào, với một lưu ý: gánh nặng chứng minh phải luôn đặt lên người nudge, không bao giờ lên người bị nudge.",
+      "durationMs": 8568
+    },
+    {
+      "id": "s25",
+      "speaker": "Naomi",
+      "text": "On that principle we are in complete agreement, and I'd rather defend a chastened, accountable paternalism than pretend that refusing to choose a default leaves anyone freer.",
+      "translationVi": "Về nguyên tắc đó chúng ta hoàn toàn đồng ý, và tôi thà bảo vệ một chủ nghĩa gia trưởng đã được chỉnh sửa, có trách nhiệm, hơn là giả vờ rằng việc từ chối chọn một mặc định khiến bất kỳ ai tự do hơn.",
+      "durationMs": 9216
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "I'll concede … precisely because …"
+    },
+    {
+      "id": "h2",
+      "text": "That's a genuinely sharp objection, and I won't wave it away."
+    },
+    {
+      "id": "h3",
+      "text": "Where I'd still hold the line is on …"
+    },
+    {
+      "id": "h4",
+      "text": "Then perhaps our disagreement was never about … but about …"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "libertarian paternalism",
+      "meaningVi": "chủ nghĩa gia trưởng tự do (định hướng lựa chọn nhưng vẫn cho phép tự do rút lui)",
+      "pronunciation": "/ˌlɪbərˈtɛəriən pəˈtɜːrnəlɪzəm/"
+    },
+    {
+      "id": "v2",
+      "phrase": "choice architecture",
+      "meaningVi": "kiến trúc lựa chọn (cách bố trí các phương án để định hướng quyết định)",
+      "pronunciation": "/tʃɔɪs ˈɑːrkɪtɛktʃər/"
+    },
+    {
+      "id": "v3",
+      "phrase": "the publicity condition",
+      "meaningVi": "điều kiện công khai (chính sách phải có thể công bố mà vẫn được chấp nhận)",
+      "pronunciation": "/ðə pʌˈblɪsəti kənˈdɪʃən/"
+    },
+    {
+      "id": "v4",
+      "phrase": "opt-out",
+      "meaningVi": "sự rút lui / từ chối tham gia",
+      "pronunciation": "/ˈɒpt aʊt/"
+    },
+    {
+      "id": "v5",
+      "phrase": "the burden of proof",
+      "meaningVi": "gánh nặng chứng minh",
+      "pronunciation": "/ðə ˈbɜːrdən əv pruːf/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "a velvet glove over an iron fist",
+      "meaningVi": "chiếc găng nhung bọc một bàn tay sắt",
+      "pronunciation": "/ə ˈvɛlvɪt ɡlʌv ˈoʊvər ən ˈaɪərn fɪst/"
+    },
+    {
+      "phrase": "does the practice a real disservice",
+      "meaningVi": "gây bất công thực sự cho thực tiễn này",
+      "pronunciation": "/dʌz ðə ˈpræktɪs ə riːl dɪsˈsɜːrvɪs/"
+    },
+    {
+      "phrase": "Auto-enrolling someone in a pension",
+      "meaningVi": "tự động ghi danh ai đó vào quỹ hưu trí",
+      "pronunciation": "/ˈɔːtoʊ ɪnˈroʊlɪŋ ˈsʌmwʌn ɪn ə ˈpɛnʃən/"
+    },
+    {
+      "phrase": "because exit is so frictionless",
+      "meaningVi": "vì việc rút lui quá ít trở ngại",
+      "pronunciation": "/bɪˈkɔːz ˈɛɡzɪt ɪz soʊ ˈfrɪkʃənləs/"
+    },
+    {
+      "phrase": "it's unrepresentative",
+      "meaningVi": "nó không tiêu biểu",
+      "pronunciation": "/ɪts ˌʌnˌrɛprɪˈzɛntətɪv/"
+    },
+    {
+      "phrase": "exploit a known bias",
+      "meaningVi": "khai thác một thiên kiến đã biết",
+      "pronunciation": "/ɪkˈsplɔɪt ə noʊn ˈbaɪəs/"
+    },
+    {
+      "phrase": "you wouldn't reflectively endorse",
+      "meaningVi": "mà anh sẽ không tán thành sau khi suy ngẫm",
+      "pronunciation": "/juː ˈwʊdənt rɪˈflɛktɪvli ɪnˈdɔːrs/"
+    },
+    {
+      "phrase": "framed by some architecture",
+      "meaningVi": "được đóng khung bởi một kiến trúc nào đó",
+      "pronunciation": "/freɪmd baɪ sʌm ˈɑːrkɪtɛktʃər/"
+    },
+    {
+      "phrase": "view-from-nowhere",
+      "meaningVi": "góc nhìn-từ-hư-không (không có quan điểm trung lập tuyệt đối)",
+      "pronunciation": "/vjuː frəm ˈnoʊwɛr/"
+    },
+    {
+      "phrase": "demonstrably in their own interest",
+      "meaningVi": "rõ ràng có lợi cho chính họ",
+      "pronunciation": "/dɪˈmɒnstrəbli ɪn ðɛr oʊn ˈɪntrəst/"
+    },
+    {
+      "phrase": "the load-bearing move",
+      "meaningVi": "bước chịu lực (luận điểm cốt lõi nâng đỡ toàn bộ)",
+      "pronunciation": "/ðə loʊd ˈbɛərɪŋ muːv/"
+    },
+    {
+      "phrase": "it proves too much",
+      "meaningVi": "nó chứng minh quá nhiều (suy ra cả những hệ quả vô lý)",
+      "pronunciation": "/ɪt pruːvz tuː mʌtʃ/"
+    },
+    {
+      "phrase": "the truism that some frame is unavoidable",
+      "meaningVi": "chân lý hiển nhiên rằng một khung nào đó là không thể tránh",
+      "pronunciation": "/ðə ˈtruːɪzəm ðæt sʌm freɪm ɪz ˌʌnəˈvɔɪdəbəl/"
+    },
+    {
+      "phrase": "a blank cheque",
+      "meaningVi": "một tấm séc khống (sự cho phép vô giới hạn)",
+      "pronunciation": "/ə blæŋk tʃɛk/"
+    },
+    {
+      "phrase": "the libertarian-paternalist proposal",
+      "meaningVi": "đề xuất gia trưởng tự do",
+      "pronunciation": "/ðə ˌlɪbərˈtɛəriən pəˈtɜːrnəlɪst prəˈpoʊzəl/"
+    },
+    {
+      "phrase": "the publicity condition",
+      "meaningVi": "điều kiện công khai",
+      "pronunciation": "/ðə pʌˈblɪsəti kənˈdɪʃən/"
+    },
+    {
+      "phrase": "a low-cost opt-out",
+      "meaningVi": "một lối rút lui ít tốn kém",
+      "pronunciation": "/ə loʊ kɒst ˈɒpt aʊt/"
+    },
+    {
+      "phrase": "doing heroic work there",
+      "meaningVi": "đang gánh một công việc anh hùng (gánh quá nhiều trách nhiệm lập luận)",
+      "pronunciation": "/ˈduːɪŋ hɪˈroʊɪk wɜːrk ðɛr/"
+    },
+    {
+      "phrase": "bypass conscious deliberation",
+      "meaningVi": "đi vòng qua sự cân nhắc có ý thức",
+      "pronunciation": "/ˈbaɪpɑːs ˈkɒnʃəs dɪˌlɪbəˈreɪʃən/"
+    },
+    {
+      "phrase": "extinguishing the very effect",
+      "meaningVi": "dập tắt chính hiệu ứng đó",
+      "pronunciation": "/ɪkˈstɪŋɡwɪʃɪŋ ðə ˈvɛri ɪˈfɛkt/"
+    },
+    {
+      "phrase": "I won't wave it away",
+      "meaningVi": "tôi sẽ không gạt bỏ nó",
+      "pronunciation": "/aɪ woʊnt weɪv ɪt əˈweɪ/"
+    },
+    {
+      "phrase": "merely depends on inertia",
+      "meaningVi": "chỉ phụ thuộc vào quán tính",
+      "pronunciation": "/ˈmɪərli dɪˈpɛndz ɒn ɪˈnɜːrʃə/"
+    },
+    {
+      "phrase": "My residual worry",
+      "meaningVi": "Nỗi lo còn sót lại của tôi",
+      "pronunciation": "/maɪ rɪˈzɪdjuəl ˈwʌri/"
+    },
+    {
+      "phrase": "a quiet transfer of authority",
+      "meaningVi": "một sự chuyển giao quyền lực âm thầm",
+      "pronunciation": "/ə ˈkwaɪət ˈtrænsfɜːr əv əˈθɒrəti/"
+    },
+    {
+      "phrase": "sovereign deliberation",
+      "meaningVi": "sự cân nhắc tự chủ (tự mình quyết định hoàn toàn)",
+      "pronunciation": "/ˈsɒvrɪn dɪˌlɪbəˈreɪʃən/"
+    },
+    {
+      "phrase": "an exploitative default",
+      "meaningVi": "một mặc định bóc lột",
+      "pronunciation": "/ən ɪkˈsplɔɪtətɪv dɪˈfɔːlt/"
+    },
+    {
+      "phrase": "a neutral abstention",
+      "meaningVi": "một sự kiêng cữ trung lập",
+      "pronunciation": "/ə ˈnjuːtrəl əbˈstɛnʃən/"
+    },
+    {
+      "phrase": "the asymmetry of accountability",
+      "meaningVi": "sự bất đối xứng về trách nhiệm giải trình",
+      "pronunciation": "/ði eɪˈsɪmətri əv əˌkaʊntəˈbɪləti/"
+    },
+    {
+      "phrase": "cloaks itself in benevolence",
+      "meaningVi": "khoác lên mình lòng từ thiện",
+      "pronunciation": "/kloʊks ɪtˈsɛlf ɪn bɪˈnɛvələns/"
+    },
+    {
+      "phrase": "democratically authorised and routinely audited",
+      "meaningVi": "được dân chủ cho phép và kiểm toán thường xuyên",
+      "pronunciation": "/ˌdɛməˈkrætɪkli ˈɔːθəraɪzd ænd ruːˈtiːnli ˈɔːdɪtɪd/"
+    },
+    {
+      "phrase": "transparent, contestable, and revisable",
+      "meaningVi": "minh bạch, có thể phản đối, và có thể điều chỉnh",
+      "pronunciation": "/trænsˈpɛərənt kənˈtɛstəbəl ænd rɪˈvaɪzəbəl/"
+    },
+    {
+      "phrase": "any soft power over citizens",
+      "meaningVi": "bất kỳ quyền lực mềm nào đối với công dân",
+      "pronunciation": "/ˈɛni sɒft ˈpaʊər ˈoʊvər ˈsɪtɪzənz/"
+    },
+    {
+      "phrase": "a chastened, accountable paternalism",
+      "meaningVi": "một chủ nghĩa gia trưởng đã được chỉnh sửa, có trách nhiệm",
+      "pronunciation": "/ə ˈtʃeɪsənd əˈkaʊntəbəl pəˈtɜːrnəlɪzəm/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "'It proves too much' — a precise charge in argument",
+      "bodyVi": "Cụm 'it proves too much' (nó chứng minh quá nhiều) là một phản bác chuyên môn: một lập luận có khiếm khuyết không phải vì sai mà vì nếu đúng thì nó cũng sẽ biện minh cho những kết luận rõ ràng vô lý. Đây là cách bác bỏ một nguyên tắc bằng cách chỉ ra các hệ quả ngoài ý muốn của nó.",
+      "bodyEn": "The phrase 'it proves too much' is a technical rebuttal: an argument is faulty not because it is false but because, if accepted, it would also justify clearly absurd conclusions. Saying an argument 'proves too much' rejects a principle by exposing its unintended consequences, rather than by denying its premises directly — a hallmark of careful philosophical reasoning."
+    },
+    {
+      "title": "Signalling a strong concession: 'Now that's a powerful point'",
+      "bodyVi": "Để báo hiệu rằng đối phương vừa ghi điểm, người nói C1 dùng các cụm như 'Now that's a powerful point', 'That's a genuinely sharp objection', 'Fair enough'. Việc gọi tên sức mạnh của lập luận đối phương trước khi đáp lại làm cho cuộc tranh luận có tính hợp tác và khiến phản hồi tiếp theo đáng tin hơn.",
+      "bodyEn": "To signal that an opponent has scored a point, C1 speakers use phrases like 'Now that's a powerful point', 'That's a genuinely sharp objection', and 'Fair enough'. Explicitly naming the strength of the other side's argument before responding makes the exchange cooperative rather than combative and lends credibility to whatever qualification or counter follows."
+    }
+  ],
+  "translationVi": "Naomi: Theo, anh đã viết rằng nudging là chiếc găng nhung bọc một bàn tay sắt, nhưng tôi nghĩ ẩn dụ đó gây bất công cho thực tiễn này. Việc tự động ghi danh ai đó vào quỹ hưu trí trong khi vẫn để họ tự do rút lui thì khó mà là một bàn tay sắt. Theo: Tôi thừa nhận trường hợp hưu trí là mạnh nhất của cô, chính vì việc rút lui quá ít trở ngại, nhưng đó cũng là lý do nó không tiêu biểu. Những nudge đáng chú ý là cái khai thác một thiên kiến đã biết để lái anh đến nơi anh sẽ không tán thành sau khi suy ngẫm. Naomi: Nhưng mọi lựa chọn vốn đã được đóng khung bởi một kiến trúc nào đó — không có cách trung lập nào để trình bày các phương án. Nếu mặc định chắc chắn sẽ đẩy ai đó theo cách này hay cách khác, thì nó nên đẩy họ về phía điều có lợi cho chính họ. Theo: Lập luận về tính tất yếu đó là bước chịu lực trong toàn bộ chương trình, và tôi nghĩ nó chứng minh quá nhiều. Từ chân lý rằng một khung nào đó là không thể tránh, không suy ra được rằng bất kỳ khung cụ thể nào do nhà hoạch định chọn là chính đáng. Naomi: Cũng hợp lý — tính tất yếu cho phép một sự lựa chọn khung, chứ không phải một tấm séc khống. Nhưng đề xuất gia trưởng tự do bị ràng buộc bởi điều kiện công khai và bởi một lối rút lui ít tốn kém. Theo: Điều kiện công khai đang gánh một công việc anh hùng, và tôi không chắc nó chịu nổi sức nặng. Nhiều nudge chỉ hiệu quả vì chúng đi vòng qua sự cân nhắc có ý thức. Naomi: Đó là một phản bác sắc bén, và tôi sẽ không gạt bỏ nó. Tuy vậy, có sự khác biệt giữa một nudge phụ thuộc vào sự thiếu hiểu biết và một cái chỉ phụ thuộc vào quán tính. Theo: Được, và tôi cũng phân biệt hai loại đó rạch ròi. Nỗi lo còn lại của tôi là ngay cả một nudge dựa trên quán tính cũng thay thế phán đoán của nhà hoạch định cho phán đoán của chính anh. Naomi: Tôi chấp nhận cách diễn đạt đó, nhưng tôi hỏi: chuyển từ ai, và sang cái gì? Lựa chọn thay thế thực tế không phải sự cân nhắc tự chủ; mà là một mặc định bóc lột do ai đó trục lợi từ sự lơ đãng thiết kế. Theo: Đó là một điểm mạnh, và là chỗ phản bác về quyền tự chủ trở nên khó chịu, vì việc không làm gì không phải là một sự kiêng cữ trung lập. Chỗ tôi vẫn giữ ranh giới là ở sự bất đối xứng về trách nhiệm — một nhà tiếp thị thao túng có thể bị kiện, trong khi một nhà nước gia trưởng khoác lên mình lòng từ thiện và khó phản đối hơn. Naomi: Sự bất đối xứng đó là có thật và là lý do tốt nhất để khẳng định rằng các nudge phải được dân chủ cho phép và kiểm toán thường xuyên. Theo: Nếu đó là đề xuất — các mặc định minh bạch, có thể phản đối, và có thể điều chỉnh — thì phần lớn phản bác của tôi tan biến. Naomi: Vậy có lẽ bất đồng của chúng ta là về các điều kiện chính trị để bất kỳ quyền lực mềm nào có thể được buộc phải chịu trách nhiệm. Theo: Đó là một sự hòa giải tôi có thể ký vào, với một lưu ý: gánh nặng chứng minh phải luôn đặt lên người nudge. Naomi: Về nguyên tắc đó chúng ta hoàn toàn đồng ý, và tôi thà bảo vệ một chủ nghĩa gia trưởng có trách nhiệm hơn là giả vờ rằng việc từ chối chọn một mặc định khiến bất kỳ ai tự do hơn.",
+  "criticalThinkingQuestion": "If there is no neutral way to present a choice, is a transparent, democratically authorised nudge toward a person's own interest more respectful of autonomy than a hands-off stance that leaves the default to whoever profits from inattention — or does any state steering of behaviour cross a line that good intentions cannot redeem?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-c1-098",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 204600
+}

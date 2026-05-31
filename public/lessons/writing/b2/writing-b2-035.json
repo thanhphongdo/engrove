@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "The case against efficient mourning",
   "summary": "Argue whether contemporary pressures to grieve quickly and resume normal functioning damage the psychological process of loss.",
-  "tags": ["Grief", "Psychology", "Society", "Wellbeing"],
+  "tags": [
+    "Grief",
+    "Psychology",
+    "Society",
+    "Wellbeing"
+  ],
   "topic": "The case against efficient mourning",
   "prompt": "Write an argumentative essay (350–500 words) arguing that contemporary social and professional pressures to mourn quickly — short bereavement leave, pressure to 'move on' — damage rather than support people in loss. Refer to at least one concrete example (e.g. Japan's tradition of mourning periods, or the standard three-day bereavement leave common in many US and UK workplaces). Use a what-cleft sentence, a concession, and at least one passive construction. Take a clear position.",
   "minWords": 350,
@@ -14,50 +19,176 @@
     "When grief is treated as a disruption to be managed rather than a process to be…"
   ],
   "hintVocab": [
-    { "phrase": "bereavement leave", "meaningVi": "nghỉ phép tang gia" },
-    { "phrase": "to mourn", "meaningVi": "thương tiếc / để tang", "pronunciation": "/mɔːn/" },
-    { "phrase": "to be rushed through grief", "meaningVi": "bị thúc giục qua nỗi đau" },
-    { "phrase": "prolonged grief disorder", "meaningVi": "rối loạn đau buồn kéo dài" },
-    { "phrase": "to be pathologised", "meaningVi": "bị coi là bệnh lý / bị coi như bệnh tật", "pronunciation": "/pəˈθɒl.ə.dʒaɪzd/" },
-    { "phrase": "productivity culture", "meaningVi": "văn hóa năng suất / văn hóa đề cao hiệu quả" },
-    { "phrase": "to resume normal functioning", "meaningVi": "tiếp tục hoạt động bình thường" },
-    { "phrase": "to be suppressed", "meaningVi": "bị kìm nén / bị đàn áp" },
-    { "phrase": "complicated grief", "meaningVi": "đau buồn phức tạp / tang thương không giải quyết được" },
-    { "phrase": "to be delegitimised", "meaningVi": "bị coi là không hợp lệ / bị tước đoạt tính hợp pháp" },
-    { "phrase": "mourning period", "meaningVi": "thời gian để tang" },
-    { "phrase": "to impose a timeline", "meaningVi": "áp đặt khung thời gian" },
-    { "phrase": "closure", "meaningVi": "sự khép lại / sự chấp nhận và tiếp tục", "pronunciation": "/ˈkləʊ.ʒər/" },
-    { "phrase": "to be expected to function", "meaningVi": "được kỳ vọng phải hoạt động" },
-    { "phrase": "the pace of grief", "meaningVi": "nhịp độ của nỗi đau buồn" },
-    { "phrase": "unresolved loss", "meaningVi": "mất mát chưa được giải quyết" },
-    { "phrase": "to be given permission to grieve", "meaningVi": "được cho phép để tang" },
-    { "phrase": "psychological withdrawal", "meaningVi": "sự thu mình về mặt tâm lý" },
-    { "phrase": "to be deemed excessive", "meaningVi": "bị coi là quá mức" },
-    { "phrase": "to absorb a loss", "meaningVi": "tiêu hóa một sự mất mát / chấp nhận được mất mát" },
-    { "phrase": "grief's own timetable", "meaningVi": "lịch trình của chính nỗi đau buồn" }
+    {
+      "phrase": "bereavement leave",
+      "meaningVi": "nghỉ phép tang gia"
+    },
+    {
+      "phrase": "to mourn",
+      "meaningVi": "thương tiếc / để tang",
+      "pronunciation": "/mɔːn/"
+    },
+    {
+      "phrase": "to be rushed through grief",
+      "meaningVi": "bị thúc giục qua nỗi đau"
+    },
+    {
+      "phrase": "prolonged grief disorder",
+      "meaningVi": "rối loạn đau buồn kéo dài"
+    },
+    {
+      "phrase": "to be pathologised",
+      "meaningVi": "bị coi là bệnh lý / bị coi như bệnh tật",
+      "pronunciation": "/pəˈθɒl.ə.dʒaɪzd/"
+    },
+    {
+      "phrase": "productivity culture",
+      "meaningVi": "văn hóa năng suất / văn hóa đề cao hiệu quả"
+    },
+    {
+      "phrase": "to resume normal functioning",
+      "meaningVi": "tiếp tục hoạt động bình thường"
+    },
+    {
+      "phrase": "to be suppressed",
+      "meaningVi": "bị kìm nén / bị đàn áp"
+    },
+    {
+      "phrase": "complicated grief",
+      "meaningVi": "đau buồn phức tạp / tang thương không giải quyết được"
+    },
+    {
+      "phrase": "to be delegitimised",
+      "meaningVi": "bị coi là không hợp lệ / bị tước đoạt tính hợp pháp"
+    },
+    {
+      "phrase": "mourning period",
+      "meaningVi": "thời gian để tang"
+    },
+    {
+      "phrase": "to impose a timeline",
+      "meaningVi": "áp đặt khung thời gian"
+    },
+    {
+      "phrase": "closure",
+      "meaningVi": "sự khép lại / sự chấp nhận và tiếp tục",
+      "pronunciation": "/ˈkləʊ.ʒər/"
+    },
+    {
+      "phrase": "to be expected to function",
+      "meaningVi": "được kỳ vọng phải hoạt động"
+    },
+    {
+      "phrase": "the pace of grief",
+      "meaningVi": "nhịp độ của nỗi đau buồn"
+    },
+    {
+      "phrase": "unresolved loss",
+      "meaningVi": "mất mát chưa được giải quyết"
+    },
+    {
+      "phrase": "to be given permission to grieve",
+      "meaningVi": "được cho phép để tang"
+    },
+    {
+      "phrase": "psychological withdrawal",
+      "meaningVi": "sự thu mình về mặt tâm lý"
+    },
+    {
+      "phrase": "to be deemed excessive",
+      "meaningVi": "bị coi là quá mức"
+    },
+    {
+      "phrase": "to absorb a loss",
+      "meaningVi": "tiêu hóa một sự mất mát / chấp nhận được mất mát"
+    },
+    {
+      "phrase": "grief's own timetable",
+      "meaningVi": "lịch trình của chính nỗi đau buồn"
+    }
   ],
   "sampleText": "What the standard three-day bereavement leave in many US and UK workplaces signals is not compassion but arithmetic: grief has been assigned a duration, and when that duration expires, the grieving person is expected to function. Three days is the time typically allocated for losing a parent, a partner, a child — after which emails accumulate, meetings resume, and the loss is presumed to have been processed.\n\nThe social pressure to mourn efficiently is not confined to workplaces. It appears in the well-meaning advice to 'stay busy', in the friend who asks after two months whether you are 'feeling better yet', in the cultural assumption that protracted sadness is a symptom of weakness or pathology. Grief that outlasts the officially allotted time is treated as a problem to be solved rather than a process to be endured.\n\nGranted, there is no universal mourning period that would suit everyone. Some people do find rapid re-engagement helpful; staying busy is for some a genuine coping strategy rather than avoidance. There is a real risk in insisting that grief must be long and visible to be legitimate — that too can become a form of pressure.\n\nEven so, the current norm errs sharply in the other direction. Research on complicated grief has consistently found that people who are rushed through mourning — who are given no permission to withdraw, to be unproductive, to be visibly sad — are more likely to develop prolonged or unresolved grief later. The loss that cannot be absorbed at its own pace does not disappear; it accumulates. Japan's traditional mourning periods, which have varied historically but which acknowledge that the adjustment after a significant death takes months, not days, reflect a deeper understanding of what loss requires. By contrast, the three-day model treats grief as a disruption to be contained rather than a process to be respected.\n\nWhat cannot be rushed without cost is the internal work of reorganising one's life around an absence. The person who returns to the office on day four, dry-eyed and apparently functional, has not finished grieving — they have been required to perform its completion. That performance comes at a price, one often paid years later in depression, in somatic illness, or in the sudden collapse that follows when the suppressed work of mourning can no longer be deferred.",
   "sampleAnnotations": [
-    { "phrase": "What the standard three-day bereavement leave in many US and UK workplaces signals is not compassion but arithmetic", "meaningVi": "Điều mà chế độ nghỉ phép tang gia ba ngày tiêu chuẩn ở nhiều nơi làm việc tại Mỹ và Anh phát đi tín hiệu không phải là lòng trắc ẩn mà là phép tính" },
-    { "phrase": "grief has been assigned a duration", "meaningVi": "nỗi đau buồn đã được giao cho một thời gian" },
-    { "phrase": "the loss is presumed to have been processed", "meaningVi": "sự mất mát được suy đoán là đã được xử lý" },
-    { "phrase": "The social pressure to mourn efficiently is not confined to workplaces", "meaningVi": "Áp lực xã hội để tang thương hiệu quả không chỉ giới hạn ở nơi làm việc" },
-    { "phrase": "Grief that outlasts the officially allotted time is treated as a problem to be solved", "meaningVi": "Nỗi đau buồn kéo dài hơn thời gian được phân bổ chính thức bị coi như vấn đề cần giải quyết" },
-    { "phrase": "Granted, there is no universal mourning period that would suit everyone", "meaningVi": "Phải công nhận, không có thời gian để tang phổ quát nào phù hợp với tất cả mọi người" },
-    { "phrase": "staying busy is for some a genuine coping strategy rather than avoidance", "meaningVi": "giữ bận rộn đối với một số người là chiến lược đối phó thực sự chứ không phải né tránh" },
-    { "phrase": "insisting that grief must be long and visible to be legitimate", "meaningVi": "khăng khăng rằng nỗi đau buồn phải dài và có thể nhìn thấy để hợp lệ" },
-    { "phrase": "the current norm errs sharply in the other direction", "meaningVi": "quy chuẩn hiện tại sai lầm rõ rệt theo hướng ngược lại" },
-    { "phrase": "people who are rushed through mourning — who are given no permission to withdraw, to be unproductive, to be visibly sad", "meaningVi": "những người bị thúc giục qua tang thương — những người không được phép rút lui, không được phép kém năng suất, không được phép buồn bã rõ ràng" },
-    { "phrase": "The loss that cannot be absorbed at its own pace does not disappear; it accumulates", "meaningVi": "Sự mất mát không thể tiêu hóa theo nhịp độ của chính nó không biến mất; nó tích lũy" },
-    { "phrase": "Japan's traditional mourning periods, which acknowledge that the adjustment after a significant death takes months, not days", "meaningVi": "Các thời kỳ để tang truyền thống của Nhật Bản, thừa nhận rằng việc điều chỉnh sau một cái chết quan trọng mất nhiều tháng, không phải vài ngày" },
-    { "phrase": "the three-day model treats grief as a disruption to be contained rather than a process to be respected", "meaningVi": "mô hình ba ngày coi nỗi đau buồn như sự gián đoạn cần được kiểm soát chứ không phải là quá trình cần được tôn trọng" },
-    { "phrase": "What cannot be rushed without cost is the internal work of reorganising one's life around an absence", "meaningVi": "Điều không thể vội vã mà không mất chi phí là công việc nội tâm của việc tái cơ cấu cuộc sống quanh một sự vắng mặt" },
-    { "phrase": "they have been required to perform its completion", "meaningVi": "họ đã bị yêu cầu thực hiện sự hoàn thành của nó" },
-    { "phrase": "That performance comes at a price", "meaningVi": "Màn trình diễn đó có cái giá phải trả" },
-    { "phrase": "in depression, in somatic illness", "meaningVi": "trong trầm cảm, trong bệnh thân thể" },
-    { "phrase": "the sudden collapse that follows when the suppressed work of mourning can no longer be deferred", "meaningVi": "sự sụp đổ đột ngột xảy ra khi công việc tang thương bị kìm nén không thể tiếp tục bị trì hoãn" },
-    { "phrase": "dry-eyed and apparently functional", "meaningVi": "khô mắt và có vẻ bình thường về mặt chức năng" },
-    { "phrase": "the well-meaning advice to 'stay busy'", "meaningVi": "lời khuyên thiện chí để 'bận rộn'" }
+    {
+      "phrase": "What the standard three-day bereavement leave in many US and UK workplaces signals is not compassion but arithmetic",
+      "meaningVi": "Điều mà chế độ nghỉ phép tang gia ba ngày tiêu chuẩn ở nhiều nơi làm việc tại Mỹ và Anh phát đi tín hiệu không phải là lòng trắc ẩn mà là phép tính"
+    },
+    {
+      "phrase": "grief has been assigned a duration",
+      "meaningVi": "nỗi đau buồn đã được giao cho một thời gian"
+    },
+    {
+      "phrase": "the loss is presumed to have been processed",
+      "meaningVi": "sự mất mát được suy đoán là đã được xử lý"
+    },
+    {
+      "phrase": "The social pressure to mourn efficiently is not confined to workplaces",
+      "meaningVi": "Áp lực xã hội để tang thương hiệu quả không chỉ giới hạn ở nơi làm việc"
+    },
+    {
+      "phrase": "Grief that outlasts the officially allotted time is treated as a problem to be solved",
+      "meaningVi": "Nỗi đau buồn kéo dài hơn thời gian được phân bổ chính thức bị coi như vấn đề cần giải quyết"
+    },
+    {
+      "phrase": "Granted, there is no universal mourning period that would suit everyone",
+      "meaningVi": "Phải công nhận, không có thời gian để tang phổ quát nào phù hợp với tất cả mọi người"
+    },
+    {
+      "phrase": "staying busy is for some a genuine coping strategy rather than avoidance",
+      "meaningVi": "giữ bận rộn đối với một số người là chiến lược đối phó thực sự chứ không phải né tránh"
+    },
+    {
+      "phrase": "insisting that grief must be long and visible to be legitimate",
+      "meaningVi": "khăng khăng rằng nỗi đau buồn phải dài và có thể nhìn thấy để hợp lệ"
+    },
+    {
+      "phrase": "the current norm errs sharply in the other direction",
+      "meaningVi": "quy chuẩn hiện tại sai lầm rõ rệt theo hướng ngược lại"
+    },
+    {
+      "phrase": "people who are rushed through mourning — who are given no permission to withdraw, to be unproductive, to be visibly sad",
+      "meaningVi": "những người bị thúc giục qua tang thương — những người không được phép rút lui, không được phép kém năng suất, không được phép buồn bã rõ ràng"
+    },
+    {
+      "phrase": "The loss that cannot be absorbed at its own pace does not disappear; it accumulates",
+      "meaningVi": "Sự mất mát không thể tiêu hóa theo nhịp độ của chính nó không biến mất; nó tích lũy"
+    },
+    {
+      "phrase": "which acknowledge that the adjustment after a significant death takes months, not days",
+      "meaningVi": "Các thời kỳ để tang truyền thống của Nhật Bản, thừa nhận rằng việc điều chỉnh sau một cái chết quan trọng mất nhiều tháng, không phải vài ngày"
+    },
+    {
+      "phrase": "the three-day model treats grief as a disruption to be contained rather than a process to be respected",
+      "meaningVi": "mô hình ba ngày coi nỗi đau buồn như sự gián đoạn cần được kiểm soát chứ không phải là quá trình cần được tôn trọng"
+    },
+    {
+      "phrase": "What cannot be rushed without cost is the internal work of reorganising one's life around an absence",
+      "meaningVi": "Điều không thể vội vã mà không mất chi phí là công việc nội tâm của việc tái cơ cấu cuộc sống quanh một sự vắng mặt"
+    },
+    {
+      "phrase": "they have been required to perform its completion",
+      "meaningVi": "họ đã bị yêu cầu thực hiện sự hoàn thành của nó"
+    },
+    {
+      "phrase": "That performance comes at a price",
+      "meaningVi": "Màn trình diễn đó có cái giá phải trả"
+    },
+    {
+      "phrase": "in depression, in somatic illness",
+      "meaningVi": "trong trầm cảm, trong bệnh thân thể"
+    },
+    {
+      "phrase": "the sudden collapse that follows when the suppressed work of mourning can no longer be deferred",
+      "meaningVi": "sự sụp đổ đột ngột xảy ra khi công việc tang thương bị kìm nén không thể tiếp tục bị trì hoãn"
+    },
+    {
+      "phrase": "dry-eyed and apparently functional",
+      "meaningVi": "khô mắt và có vẻ bình thường về mặt chức năng"
+    },
+    {
+      "phrase": "the well-meaning advice to 'stay busy'",
+      "meaningVi": "lời khuyên thiện chí để 'bận rộn'"
+    }
   ],
   "sampleGrammarNotes": [
     {

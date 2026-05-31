@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "The aesthetics of the imperfect: why some craft cultures refuse polish",
   "summary": "Examine the deliberate embrace of imperfection in certain craft and design traditions, and argue that this refusal of polish is not nostalgia but a distinct aesthetic and ethical position.",
-  "tags": ["Argument", "Art", "Culture"],
+  "tags": [
+    "Argument",
+    "Art",
+    "Culture"
+  ],
   "topic": "Why some craft traditions deliberately embrace imperfection",
   "prompt": "Write a 600–800-word argumentative essay examining why certain craft cultures — Japanese wabi-sabi and kintsugi, West African indigo cloth with intentional irregularity, medieval European stonecutting where the mason's mark was left visible — deliberately refuse the polished finish that industrial production offers. Argue that this refusal is not mere nostalgia or primitivism but a coherent aesthetic and ethical stance with something to say about value, time, and labour. Use inversion at least once, a cleft sentence, and a 'granted… even so…' concession. Avoid romanticising non-Western traditions or treating 'imperfection' as a magic word.",
   "minWords": 600,
@@ -15,50 +19,179 @@
     "There is a difference, often overlooked, between the accidental flaw and…"
   ],
   "hintVocab": [
-    {"phrase": "wabi-sabi", "meaningVi": "wabi-sabi — vẻ đẹp của sự không hoàn hảo và phù du (Nhật Bản)"},
-    {"phrase": "kintsugi", "meaningVi": "kintsugi — nghệ thuật hàn gắn bằng vàng (Nhật Bản)", "pronunciation": "/kɪnˈtsuːɡi/"},
-    {"phrase": "patina", "meaningVi": "lớp bóng thời gian, vẻ đẹp do thời gian tạo ra", "pronunciation": "/pəˈtiːnə/"},
-    {"phrase": "artisanal", "meaningVi": "thủ công nghề truyền thống, do nghệ nhân làm", "pronunciation": "/ˌɑːtɪˈzænəl/"},
-    {"phrase": "uniformity", "meaningVi": "sự đồng đều, nhất loạt"},
-    {"phrase": "Bauhaus", "meaningVi": "Bauhaus — phong trào thiết kế Đức nhấn mạnh chức năng và sự tinh gọn"},
-    {"phrase": "mason's mark", "meaningVi": "dấu hiệu của người thợ đá"},
-    {"phrase": "vernacular", "meaningVi": "mang tính địa phương, dân gian", "pronunciation": "/vəˈnækjʊlər/"},
-    {"phrase": "craft ethic", "meaningVi": "đạo đức nghề thủ công"},
-    {"phrase": "finish", "meaningVi": "lớp hoàn thiện, sự hoàn chỉnh bề mặt"},
-    {"phrase": "provenance", "meaningVi": "xuất xứ, nguồn gốc", "pronunciation": "/ˈprɒvənəns/"},
-    {"phrase": "redundancy", "meaningVi": "tính dư thừa, sự lặp lại"},
-    {"phrase": "indigo cloth", "meaningVi": "vải nhuộm chàm"},
-    {"phrase": "intentional irregularity", "meaningVi": "sự không đều có chủ ý"},
-    {"phrase": "commodification", "meaningVi": "sự thương mại hoá, biến thành hàng hoá", "pronunciation": "/kəˌmɒdɪfɪˈkeɪʃən/"},
-    {"phrase": "hand-laid", "meaningVi": "được đặt bằng tay"},
-    {"phrase": "residue of labour", "meaningVi": "dấu vết còn lại của lao động"},
-    {"phrase": "aesthetic programme", "meaningVi": "chương trình thẩm mỹ, quan điểm nghệ thuật có hệ thống"},
-    {"phrase": "repair as composition", "meaningVi": "sửa chữa như một hành động sáng tác"},
-    {"phrase": "industrial perfection", "meaningVi": "sự hoàn hảo công nghiệp"},
-    {"phrase": "temporal record", "meaningVi": "hồ sơ thời gian, dấu tích của thời gian"}
+    {
+      "phrase": "wabi-sabi",
+      "meaningVi": "wabi-sabi — vẻ đẹp của sự không hoàn hảo và phù du (Nhật Bản)"
+    },
+    {
+      "phrase": "kintsugi",
+      "meaningVi": "kintsugi — nghệ thuật hàn gắn bằng vàng (Nhật Bản)",
+      "pronunciation": "/kɪnˈtsuːɡi/"
+    },
+    {
+      "phrase": "patina",
+      "meaningVi": "lớp bóng thời gian, vẻ đẹp do thời gian tạo ra",
+      "pronunciation": "/pəˈtiːnə/"
+    },
+    {
+      "phrase": "artisanal",
+      "meaningVi": "thủ công nghề truyền thống, do nghệ nhân làm",
+      "pronunciation": "/ˌɑːtɪˈzænəl/"
+    },
+    {
+      "phrase": "uniformity",
+      "meaningVi": "sự đồng đều, nhất loạt"
+    },
+    {
+      "phrase": "Bauhaus",
+      "meaningVi": "Bauhaus — phong trào thiết kế Đức nhấn mạnh chức năng và sự tinh gọn"
+    },
+    {
+      "phrase": "mason's mark",
+      "meaningVi": "dấu hiệu của người thợ đá"
+    },
+    {
+      "phrase": "vernacular",
+      "meaningVi": "mang tính địa phương, dân gian",
+      "pronunciation": "/vəˈnækjʊlər/"
+    },
+    {
+      "phrase": "craft ethic",
+      "meaningVi": "đạo đức nghề thủ công"
+    },
+    {
+      "phrase": "finish",
+      "meaningVi": "lớp hoàn thiện, sự hoàn chỉnh bề mặt"
+    },
+    {
+      "phrase": "provenance",
+      "meaningVi": "xuất xứ, nguồn gốc",
+      "pronunciation": "/ˈprɒvənəns/"
+    },
+    {
+      "phrase": "redundancy",
+      "meaningVi": "tính dư thừa, sự lặp lại"
+    },
+    {
+      "phrase": "indigo cloth",
+      "meaningVi": "vải nhuộm chàm"
+    },
+    {
+      "phrase": "intentional irregularity",
+      "meaningVi": "sự không đều có chủ ý"
+    },
+    {
+      "phrase": "commodification",
+      "meaningVi": "sự thương mại hoá, biến thành hàng hoá",
+      "pronunciation": "/kəˌmɒdɪfɪˈkeɪʃən/"
+    },
+    {
+      "phrase": "hand-laid",
+      "meaningVi": "được đặt bằng tay"
+    },
+    {
+      "phrase": "residue of labour",
+      "meaningVi": "dấu vết còn lại của lao động"
+    },
+    {
+      "phrase": "aesthetic programme",
+      "meaningVi": "chương trình thẩm mỹ, quan điểm nghệ thuật có hệ thống"
+    },
+    {
+      "phrase": "repair as composition",
+      "meaningVi": "sửa chữa như một hành động sáng tác"
+    },
+    {
+      "phrase": "industrial perfection",
+      "meaningVi": "sự hoàn hảo công nghiệp"
+    },
+    {
+      "phrase": "temporal record",
+      "meaningVi": "hồ sơ thời gian, dấu tích của thời gian"
+    }
   ],
   "sampleText": "Only in the context of industrial uniformity does the deliberate flaw become a statement rather than a failure. Before mass production made perfection cheap, a crack in a pot was simply evidence of poor firing. After it, a crack — particularly one that has been repaired in gold, in the manner of Japanese kintsugi — is a position: a refusal to pretend that the object has not aged, has not broken, has not been touched by time and by the hands of someone who cared enough to repair it rather than discard it.\n\nWhat kintsugi insists on — and this is not a minor point — is that the history of damage is part of the object's value, not a deduction from it. The gold seam running along the fracture line is not camouflage; it is annotation. It says: this bowl broke in 1987, or whenever; someone thought it worth mending. The Bauhaus school, working from an entirely different tradition, arrived at a superficially similar place — the honest expression of material and process — but for the opposite reasons. For the Bauhaus, polish was permitted, even encouraged, when it was an honest expression of the industrial process. For kintsugi, polish is beside the point; what matters is the temporal record inscribed in the object itself.\n\nThe West African tradition of intentional irregularity in indigo-dyed cloth operates on a different register but makes a related argument. In parts of Mali and Senegal, the weaver or dyer deliberately introduces an asymmetry into the pattern — a single thread of contrasting colour, a slight misalignment of the resist-dyed block — not from carelessness but from a theological and aesthetic conviction that only the divine may produce the perfect. The imperfection is a signature of the human and a mark of respect. To read this as romanticism or as anti-modernism is to miss the argument entirely: it is a coherent aesthetic programme with a precise claim about the relationship between the maker, the object, and the wider order of things.\n\nGranted, any craft tradition can romanticise its own roughness, and the market for artisanal goods has become so thoroughly absorbed into the commodity economy that a deliberately uneven loaf of sourdough now costs three times more than a machine-sliced one. Even so, the commodification of the aesthetic does not dissolve the aesthetic itself. The fact that wabi-sabi has been sold back to its admirers as a lifestyle brand does not mean that Sen no Rikyū, who developed tea ceremony aesthetics in sixteenth-century Japan, was anticipating a marketing strategy. What he was doing — insisting that a slightly lopsided cup served with full attention was superior to a symmetrical one served with none — was making a claim about where value actually lives.\n\nThere is a difference, often overlooked, between the accidental flaw and the deliberate one. The former is simply a failure of execution; the latter is a refusal. Medieval European cathedral stonecutting left the mason's mark visible on the finished surface not because the stonemasons lacked the skill to remove it but because the mark was a record of specific labour performed by a specific person. The building accumulated not just material but provenance — evidence that its stone had been touched by a hand that could be named. This is not nostalgia for pre-industrial labour conditions; it is an argument that the residue of labour is itself a form of content.\n\nIt is this argument — that imperfection, when deliberate, is a record rather than a defect — that gives these traditions their continuing relevance. Industrial production offers objects that appear to have arrived from nowhere, assembled by no one in particular, bearing no marks of time or effort. The deliberate flaw insists on the opposite: that things come from somewhere, were made by someone, and carry the evidence of their own history. Whether that insistence takes the form of gold-veined ceramic or a single off-colour thread, its logic is the same: the honest object does not pretend to be finished.",
   "sampleAnnotations": [
-    {"phrase": "Only in the context of industrial uniformity does the deliberate flaw become a statement", "meaningVi": "Chỉ trong bối cảnh đồng đều công nghiệp, khiếm khuyết có chủ ý mới trở thành một tuyên bố"},
-    {"phrase": "a refusal to pretend that the object has not aged", "meaningVi": "sự từ chối giả vờ rằng vật thể chưa bao giờ già đi"},
-    {"phrase": "What kintsugi insists on", "meaningVi": "Điều mà kintsugi nhấn mạnh"},
-    {"phrase": "not a deduction from it", "meaningVi": "không phải là sự khấu trừ khỏi nó"},
-    {"phrase": "annotation", "meaningVi": "chú thích, ghi chú"},
-    {"phrase": "honest expression of material and process", "meaningVi": "sự biểu đạt trung thực về vật liệu và quy trình"},
-    {"phrase": "temporal record inscribed in the object itself", "meaningVi": "hồ sơ thời gian được khắc trong chính vật thể"},
-    {"phrase": "intentional irregularity", "meaningVi": "sự không đều có chủ ý"},
-    {"phrase": "only the divine may produce the perfect", "meaningVi": "chỉ có thần thánh mới có thể tạo ra sự hoàn hảo"},
-    {"phrase": "a coherent aesthetic programme", "meaningVi": "một chương trình thẩm mỹ mạch lạc"},
-    {"phrase": "Granted, any craft tradition can romanticise its own roughness", "meaningVi": "Cứ cho là bất kỳ truyền thống thủ công nào cũng có thể lãng mạn hoá sự thô ráp của mình"},
-    {"phrase": "the commodification of the aesthetic does not dissolve the aesthetic itself", "meaningVi": "sự thương mại hoá của thẩm mỹ không xoá tan bản thân thẩm mỹ đó"},
-    {"phrase": "where value actually lives", "meaningVi": "nơi giá trị thực sự tồn tại"},
-    {"phrase": "the deliberate flaw and the accidental flaw", "meaningVi": "khiếm khuyết có chủ ý và khiếm khuyết vô tình"},
-    {"phrase": "the mason's mark", "meaningVi": "dấu hiệu của người thợ đá"},
-    {"phrase": "the building accumulated not just material but provenance", "meaningVi": "toà nhà tích luỹ không chỉ vật liệu mà còn cả xuất xứ"},
-    {"phrase": "residue of labour is itself a form of content", "meaningVi": "dấu tích lao động tự nó là một hình thức nội dung"},
-    {"phrase": "appear to have arrived from nowhere", "meaningVi": "có vẻ như đến từ chỗ không đâu"},
-    {"phrase": "bearing no marks of time or effort", "meaningVi": "không mang dấu hiệu của thời gian hay nỗ lực"},
-    {"phrase": "the honest object does not pretend to be finished", "meaningVi": "vật thể trung thực không giả vờ là đã hoàn chỉnh"}
+    {
+      "phrase": "Only in the context of industrial uniformity does the deliberate flaw become a statement",
+      "meaningVi": "Chỉ trong bối cảnh đồng đều công nghiệp, khiếm khuyết có chủ ý mới trở thành một tuyên bố"
+    },
+    {
+      "phrase": "a refusal to pretend that the object has not aged",
+      "meaningVi": "sự từ chối giả vờ rằng vật thể chưa bao giờ già đi"
+    },
+    {
+      "phrase": "What kintsugi insists on",
+      "meaningVi": "Điều mà kintsugi nhấn mạnh"
+    },
+    {
+      "phrase": "not a deduction from it",
+      "meaningVi": "không phải là sự khấu trừ khỏi nó"
+    },
+    {
+      "phrase": "annotation",
+      "meaningVi": "chú thích, ghi chú"
+    },
+    {
+      "phrase": "honest expression of material and process",
+      "meaningVi": "sự biểu đạt trung thực về vật liệu và quy trình"
+    },
+    {
+      "phrase": "temporal record inscribed in the object itself",
+      "meaningVi": "hồ sơ thời gian được khắc trong chính vật thể"
+    },
+    {
+      "phrase": "intentional irregularity",
+      "meaningVi": "sự không đều có chủ ý"
+    },
+    {
+      "phrase": "only the divine may produce the perfect",
+      "meaningVi": "chỉ có thần thánh mới có thể tạo ra sự hoàn hảo"
+    },
+    {
+      "phrase": "a coherent aesthetic programme",
+      "meaningVi": "một chương trình thẩm mỹ mạch lạc"
+    },
+    {
+      "phrase": "Granted, any craft tradition can romanticise its own roughness",
+      "meaningVi": "Cứ cho là bất kỳ truyền thống thủ công nào cũng có thể lãng mạn hoá sự thô ráp của mình"
+    },
+    {
+      "phrase": "the commodification of the aesthetic does not dissolve the aesthetic itself",
+      "meaningVi": "sự thương mại hoá của thẩm mỹ không xoá tan bản thân thẩm mỹ đó"
+    },
+    {
+      "phrase": "where value actually lives",
+      "meaningVi": "nơi giá trị thực sự tồn tại"
+    },
+    {
+      "phrase": "the deliberate flaw",
+      "meaningVi": "khiếm khuyết có chủ ý và khiếm khuyết vô tình"
+    },
+    {
+      "phrase": "the mason's mark",
+      "meaningVi": "dấu hiệu của người thợ đá"
+    },
+    {
+      "phrase": "the building accumulated not just material but provenance",
+      "meaningVi": "toà nhà tích luỹ không chỉ vật liệu mà còn cả xuất xứ"
+    },
+    {
+      "phrase": "residue of labour is itself a form of content",
+      "meaningVi": "dấu tích lao động tự nó là một hình thức nội dung"
+    },
+    {
+      "phrase": "appear to have arrived from nowhere",
+      "meaningVi": "có vẻ như đến từ chỗ không đâu"
+    },
+    {
+      "phrase": "bearing no marks of time or effort",
+      "meaningVi": "không mang dấu hiệu của thời gian hay nỗ lực"
+    },
+    {
+      "phrase": "the honest object does not pretend to be finished",
+      "meaningVi": "vật thể trung thực không giả vờ là đã hoàn chỉnh"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -79,11 +212,11 @@
       "prompt": "Which sentence correctly uses inversion after 'Only in…'?",
       "options": [
         "Only in the context of industrial uniformity the deliberate flaw becomes a statement.",
-        "Only in the context of industrial uniformity does the deliberate flaw become a statement.",
         "The deliberate flaw, only in industrial uniformity, becomes a statement.",
+        "Only in the context of industrial uniformity does the deliberate flaw become a statement.",
         "Only in industrial uniformity, the flaw does become a statement."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "After 'Only in X', the auxiliary 'does' inverts before the subject 'the deliberate flaw'.",
       "hint": "Restrictive 'only' fronted at the start triggers subject-auxiliary inversion."
     },
@@ -92,11 +225,11 @@
       "prompt": "In kintsugi, what does the gold seam represent according to the essay?",
       "options": [
         "An attempt to make the crack invisible",
-        "An annotation — a record that the bowl broke and was repaired",
         "The monetary value of the repaired object",
-        "Japanese metallurgical skill"
+        "Japanese metallurgical skill",
+        "An annotation — a record that the bowl broke and was repaired"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay says 'The gold seam… is not camouflage; it is annotation.'",
       "hint": "Look for the words 'not camouflage; it is annotation'."
     },
@@ -104,12 +237,12 @@
       "id": "q3",
       "prompt": "How does the essay compare kintsugi and Bauhaus aesthetics?",
       "options": [
-        "Both reject industrial production entirely.",
         "Both value honesty of material and process, but kintsugi honours the temporal record while Bauhaus permits industrial polish.",
+        "Both reject industrial production entirely.",
         "Bauhaus and kintsugi both use gold in their designs.",
         "Bauhaus developed from kintsugi principles."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay notes a 'superficially similar place' but different reasons: Bauhaus allows industrial honesty; kintsugi insists on the object's history.",
       "hint": "Look for the paragraph contrasting the two traditions."
     },
@@ -118,11 +251,11 @@
       "prompt": "Why do West African weavers introduce intentional irregularities in indigo cloth?",
       "options": [
         "Because the materials make perfect symmetry impossible",
-        "To lower production costs",
         "From a theological conviction that only the divine may produce the perfect",
+        "To lower production costs",
         "To distinguish their cloth from Chinese imports"
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "explanation": "The essay specifies: 'a theological and aesthetic conviction that only the divine may produce the perfect'.",
       "hint": "Look for the word 'theological' in the relevant paragraph."
     },
@@ -131,11 +264,11 @@
       "prompt": "What does the essay mean by 'the commodification of the aesthetic does not dissolve the aesthetic itself'?",
       "options": [
         "Selling aesthetic objects increases their cultural value.",
-        "The fact that an aesthetic has been commercialised does not invalidate its original meaning or argument.",
         "Commodities always contain an aesthetic dimension.",
+        "The fact that an aesthetic has been commercialised does not invalidate its original meaning or argument.",
         "The aesthetic value of an object declines when it is sold."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay argues that wabi-sabi becoming a lifestyle brand does not retroactively undermine Rikyū's original aesthetic argument.",
       "hint": "Think about what 'dissolve' means here: the commercialisation doesn't erase the original idea."
     },
@@ -144,11 +277,11 @@
       "prompt": "Which sentence uses a pseudo-cleft to foreground the essay's key claim about kintsugi?",
       "options": [
         "Kintsugi insists that damage is part of the object's value.",
-        "What kintsugi insists on — and this is not a minor point — is that the history of damage is part of the object's value.",
         "The history of damage, kintsugi says, is part of value.",
-        "It is kintsugi that insists on the history of damage."
+        "It is kintsugi that insists on the history of damage.",
+        "What kintsugi insists on — and this is not a minor point — is that the history of damage is part of the object's value."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'What X is Y' is a pseudo-cleft that focuses on what kintsugi insists on; the em-dashed aside adds rhetorical weight.",
       "hint": "Look for the 'What X is Y' structure with a parenthetical aside."
     },
@@ -156,12 +289,12 @@
       "id": "q7",
       "prompt": "Why did medieval masons leave their marks visible on finished stonework?",
       "options": [
+        "As a record of specific labour performed by a specific person",
         "Because they were required to do so by law",
         "Because they lacked the skill to remove them",
-        "As a record of specific labour performed by a specific person",
         "To claim ownership of the building"
       ],
-      "answerIndex": 2,
+      "answerIndex": 0,
       "explanation": "The essay says they left the mark 'not because… they lacked the skill to remove it but because the mark was a record of specific labour'.",
       "hint": "Look for the explicit 'not because… but because' contrast."
     },
@@ -183,11 +316,11 @@
       "prompt": "What is the essay's argument about Sen no Rikyū and the asymmetrical cup?",
       "options": [
         "A lopsided cup is objectively superior to a symmetrical one.",
-        "Full attention transforms a flawed object into a valuable one, placing value in the act rather than the form.",
         "Rikyū was primarily interested in reducing production costs.",
+        "Full attention transforms a flawed object into a valuable one, placing value in the act rather than the form.",
         "Japanese tea ceremony is incompatible with modern aesthetics."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay says Rikyū insisted that 'a slightly lopsided cup served with full attention was superior to a symmetrical one served with none' — value lies in attention, not symmetry.",
       "hint": "Look for the phrase 'served with full attention'."
     },
@@ -196,11 +329,11 @@
       "prompt": "The essay uses 'granted… even so…' in which paragraph, and for what purpose?",
       "options": [
         "In the first paragraph, to concede that kintsugi is outdated",
-        "In the middle, to concede that craft traditions can be romanticised or commodified, while maintaining that this doesn't invalidate the underlying aesthetic",
         "In the conclusion, to summarise both sides of the argument",
-        "In the second paragraph, to concede that the Bauhaus was more important than kintsugi"
+        "In the second paragraph, to concede that the Bauhaus was more important than kintsugi",
+        "In the middle, to concede that craft traditions can be romanticised or commodified, while maintaining that this doesn't invalidate the underlying aesthetic"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay concedes: 'Granted, any craft tradition can romanticise its own roughness… Even so, the commodification of the aesthetic does not dissolve the aesthetic itself.'",
       "hint": "Look for the paragraph about sourdough bread and lifestyle branding."
     },
@@ -208,12 +341,12 @@
       "id": "q11",
       "prompt": "What does 'residue of labour' mean?",
       "options": [
-        "The waste material left over after manufacturing",
         "The visible traces left by the maker's work on the finished object",
+        "The waste material left over after manufacturing",
         "The emotional exhaustion that comes from difficult craft work",
         "The monetary value of labour costs in production"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'Residue' means what remains; 'residue of labour' is the mark — the mason's chisel trace, the weaver's asymmetry — that the maker leaves on the object.",
       "hint": "Think of 'residue' as 'what is left behind'."
     },
@@ -235,11 +368,11 @@
       "prompt": "Which phrase from the essay is the best summary of its thesis?",
       "options": [
         "Any craft tradition can romanticise its own roughness.",
-        "The deliberate flaw insists on the opposite: that things come from somewhere, were made by someone, and carry the evidence of their own history.",
         "Industrial production is always inferior to handmade goods.",
+        "The deliberate flaw insists on the opposite: that things come from somewhere, were made by someone, and carry the evidence of their own history.",
         "Wabi-sabi is now mainly a marketing strategy."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "This sentence directly states the essay's argument: deliberate imperfection is a claim about origin, labour, and history.",
       "hint": "Look for the sentence that synthesises the essay's key claims about provenance and labour."
     },
@@ -248,11 +381,11 @@
       "prompt": "What is the difference between an 'accidental flaw' and a 'deliberate flaw' according to the essay?",
       "options": [
         "Accidental flaws are smaller than deliberate ones.",
-        "An accidental flaw is a failure of execution; a deliberate flaw is a refusal — an intentional position.",
         "Deliberate flaws are more expensive to produce.",
-        "Accidental flaws occur in handmade objects; deliberate flaws occur in industrial ones."
+        "Accidental flaws occur in handmade objects; deliberate flaws occur in industrial ones.",
+        "An accidental flaw is a failure of execution; a deliberate flaw is a refusal — an intentional position."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay states explicitly: 'The former is simply a failure of execution; the latter is a refusal.'",
       "hint": "Look for the paragraph beginning 'There is a difference, often overlooked…'"
     },
@@ -260,12 +393,12 @@
       "id": "q15",
       "prompt": "What does 'provenance' mean in the phrase 'the building accumulated not just material but provenance'?",
       "options": [
-        "The physical weight of the building's materials",
         "The record of where something came from and who made it",
+        "The physical weight of the building's materials",
         "The architectural style of the building",
         "The legal ownership of the building"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Provenance is the documented history of an object's origin and ownership — here, the marks that record the specific people who built the cathedral.",
       "hint": "Art historians use 'provenance' to trace an artwork's history of ownership and creation."
     }

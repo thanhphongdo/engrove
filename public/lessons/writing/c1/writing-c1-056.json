@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "On the moral risk of explaining a place to outsiders",
   "summary": "Argue that the person who explains a place to those who do not live there carries a small ethical responsibility — the city they describe will be the city the outsiders believe in, and the description will return, eventually, to change the place itself.",
-  "tags": ["Ethics", "Place", "Writing"],
+  "tags": [
+    "Ethics",
+    "Place",
+    "Writing"
+  ],
   "topic": "The responsibilities of explaining a place to outsiders",
   "prompt": "Write a 600–800-word essay on the ethics of writing or speaking about a place to an audience that does not live there. Argue that explanation is never neutral and carries small but real responsibilities. Use inversion at least once, a cleft sentence, and a 'Granted… Even so…' concession. Use specific cities. Avoid the tone of travel-writing.",
   "minWords": 600,
@@ -14,52 +18,181 @@
     "Granted, refusing to explain a place is its own kind of unhelpfulness. Even so,…"
   ],
   "hintVocab": [
-    {"phrase": "the explanatory voice", "meaningVi": "giọng nói giải thích"},
-    {"phrase": "the outsider's gaze", "meaningVi": "ánh nhìn của người ngoài"},
-    {"phrase": "the curated city", "meaningVi": "thành phố được biên tập"},
-    {"phrase": "the reductive summary", "meaningVi": "tóm tắt giảm thiểu"},
-    {"phrase": "second-order knowledge", "meaningVi": "tri thức bậc hai"},
-    {"phrase": "the returning description", "meaningVi": "mô tả trở về"},
-    {"phrase": "place as character", "meaningVi": "địa điểm như nhân vật"},
-    {"phrase": "thick description", "meaningVi": "mô tả dày"},
-    {"phrase": "thin description", "meaningVi": "mô tả mỏng"},
-    {"phrase": "the local guide", "meaningVi": "người hướng dẫn địa phương"},
-    {"phrase": "the diasporic voice", "meaningVi": "tiếng nói lưu vong"},
-    {"phrase": "the marketable city", "meaningVi": "thành phố có thể tiếp thị"},
-    {"phrase": "the picturesque", "meaningVi": "chất tranh, đẹp như tranh"},
-    {"phrase": "narrative responsibility", "meaningVi": "trách nhiệm tự sự"},
-    {"phrase": "the simplifying anecdote", "meaningVi": "giai thoại đơn giản hoá"},
-    {"phrase": "the representative example", "meaningVi": "ví dụ đại diện"},
-    {"phrase": "the absent inhabitant", "meaningVi": "cư dân vắng mặt"},
-    {"phrase": "fidelity to the place", "meaningVi": "sự trung thành với địa điểm"},
-    {"phrase": "the second-hand city", "meaningVi": "thành phố second-hand"},
-    {"phrase": "the gaze that returns", "meaningVi": "ánh nhìn quay trở lại"},
-    {"phrase": "narrative custodianship", "meaningVi": "sự bảo hộ tự sự"},
-    {"phrase": "the moral asymmetry of address", "meaningVi": "sự bất đối xứng đạo đức của lời ngỏ"}
+    {
+      "phrase": "the explanatory voice",
+      "meaningVi": "giọng nói giải thích"
+    },
+    {
+      "phrase": "the outsider's gaze",
+      "meaningVi": "ánh nhìn của người ngoài"
+    },
+    {
+      "phrase": "the curated city",
+      "meaningVi": "thành phố được biên tập"
+    },
+    {
+      "phrase": "the reductive summary",
+      "meaningVi": "tóm tắt giảm thiểu"
+    },
+    {
+      "phrase": "second-order knowledge",
+      "meaningVi": "tri thức bậc hai"
+    },
+    {
+      "phrase": "the returning description",
+      "meaningVi": "mô tả trở về"
+    },
+    {
+      "phrase": "place as character",
+      "meaningVi": "địa điểm như nhân vật"
+    },
+    {
+      "phrase": "thick description",
+      "meaningVi": "mô tả dày"
+    },
+    {
+      "phrase": "thin description",
+      "meaningVi": "mô tả mỏng"
+    },
+    {
+      "phrase": "the local guide",
+      "meaningVi": "người hướng dẫn địa phương"
+    },
+    {
+      "phrase": "the diasporic voice",
+      "meaningVi": "tiếng nói lưu vong"
+    },
+    {
+      "phrase": "the marketable city",
+      "meaningVi": "thành phố có thể tiếp thị"
+    },
+    {
+      "phrase": "the picturesque",
+      "meaningVi": "chất tranh, đẹp như tranh"
+    },
+    {
+      "phrase": "narrative responsibility",
+      "meaningVi": "trách nhiệm tự sự"
+    },
+    {
+      "phrase": "the simplifying anecdote",
+      "meaningVi": "giai thoại đơn giản hoá"
+    },
+    {
+      "phrase": "the representative example",
+      "meaningVi": "ví dụ đại diện"
+    },
+    {
+      "phrase": "the absent inhabitant",
+      "meaningVi": "cư dân vắng mặt"
+    },
+    {
+      "phrase": "fidelity to the place",
+      "meaningVi": "sự trung thành với địa điểm"
+    },
+    {
+      "phrase": "the second-hand city",
+      "meaningVi": "thành phố second-hand"
+    },
+    {
+      "phrase": "the gaze that returns",
+      "meaningVi": "ánh nhìn quay trở lại"
+    },
+    {
+      "phrase": "narrative custodianship",
+      "meaningVi": "sự bảo hộ tự sự"
+    },
+    {
+      "phrase": "the moral asymmetry of address",
+      "meaningVi": "sự bất đối xứng đạo đức của lời ngỏ"
+    }
   ],
   "sampleText": "Only rarely is the act of explaining one's city to outsiders treated as carrying the obligations of testimony. The question is treated as casual — over dinner, at a conference, in a magazine commission — and the answer, accordingly, is given casually. A few anecdotes are chosen, a few neighbourhoods named, a tone is struck. The asker absorbs the description and moves on. What is rarely noticed in either direction is that the description will not stay where it was delivered. It will be repeated, refined, lent to a third party, used as background by a journalist, quoted in someone else's introduction. The city the outsiders believe in will be, partly, the city the explainer described.\n\nThis is not a peculiarity of professional travel writing, where the responsibility is at least visible. It is the ordinary condition of anyone who, having lived in a place, finds themselves describing it to people who have not. The Lisbon native asked at a London dinner what their city is really like, the Buenos Aires writer answering an interviewer's question about the mood of the country, the Cairo academic invited to explain to a Frankfurt audience what is being missed in the European coverage — each is, in that moment, a small custodian of the place's reputation. The custody is involuntary. The asker did not request it formally. But the description that follows will travel further than the speaker controls.\n\nWhat the question 'what is your city like?' obscures is the labour of choosing which version of the city to hand over. There is no neutral description. There is no view from nowhere. The Lisbon of the tourist board, the Lisbon of the new arrival from rural Portugal, the Lisbon of the foreign retiree, the Lisbon of the night-shift worker on the suburban train, the Lisbon of the elderly resident watching the rent rise — these are all real Lisbons, and the explainer must choose which to put forward. The choice is rarely made consciously. It is made by reflex, by what one assumes the listener wants to hear, by which version is easiest to perform.\n\nIt is the silent influence of the assumed listener, not the conscious shaping of the speaker, that gives the explanation its particular cast. The Mumbai colleague asked what the city is like by a colleague from Paris will, often without noticing, choose anecdotes that fit a frame the Paris colleague already half-holds. The colleague will leave with their existing frame slightly reinforced — not contradicted, not unsettled, just embellished. The Mumbai colleague will have done nothing wrong by any single measure. They will simply have functioned as the source of the confirmation, and the version of Mumbai that travels back to Paris will be the version that Paris was already prepared to receive.\n\nGranted, refusing to explain a place is its own kind of unhelpfulness, and to be the person who responds to every question with 'it is more complicated than that' is to leave the simpler accounts in possession of the field. Silence by the well-placed is not modesty; it is abdication. The Hanoi writer who declines to write for foreign audiences out of suspicion of foreign framing has not protected the city; they have left the foreign description to people with less to lose by getting it wrong. Even so, this argument cuts in both directions. To accept the obligation to explain is to accept the obligation to do it carefully — to resist the simplifying anecdote, to name what one is leaving out, to refuse the version of the place that the listener most easily absorbs in favour of the version that is more truthful and harder to package.\n\nThere is also a quieter point about the returning description. The city the outsider believes in does not stay outside the city. It returns — through journalists, through tourism, through the eventual perception of the place's inhabitants by people who fund, invest in, or decide policy about it. The Naples that European editors have been describing for fifty years has shaped what Italian governments will and will not fund there. The Hanoi that English-language readers have come to picture shapes which businesses raise capital and which do not, which neighbourhoods rents rise in fastest, what kind of tourist demands what kind of street. The description, having travelled, comes home. It is the people who continue to live in the place who pay the cost of the description that was given of them.\n\nNone of this argues against describing one's place to outsiders. It argues for doing it with the awareness that one is being asked to act, briefly, as a witness — and that what a witness owes is not flattery and not refusal, but the harder thing: the version of the place that respects both the city and the absent inhabitants who will have to live with what the listener now believes about them.",
   "sampleAnnotations": [
-    {"phrase": "Only rarely is the act of explaining one's city to outsiders treated as carrying the obligations of testimony", "meaningVi": "Chỉ hiếm khi hành động giải thích thành phố của mình cho người ngoài được đối xử như mang nghĩa vụ của lời chứng"},
-    {"phrase": "the description will not stay where it was delivered", "meaningVi": "mô tả sẽ không ở lại nơi nó được trao"},
-    {"phrase": "the city the outsiders believe in will be, partly, the city the explainer described", "meaningVi": "thành phố mà người ngoài tin vào sẽ là, một phần, thành phố mà người giải thích đã mô tả"},
-    {"phrase": "the ordinary condition of anyone who, having lived in a place, finds themselves describing it to people who have not", "meaningVi": "điều kiện thông thường của bất kỳ ai, sau khi đã sống ở một nơi, thấy mình đang mô tả nó cho những người chưa"},
-    {"phrase": "a small custodian of the place's reputation", "meaningVi": "một người bảo hộ nhỏ của danh tiếng của nơi đó"},
-    {"phrase": "The custody is involuntary", "meaningVi": "Sự bảo hộ là không tự nguyện"},
-    {"phrase": "What the question 'what is your city like?' obscures is the labour of choosing which version of the city to hand over", "meaningVi": "Những gì câu hỏi 'thành phố của bạn như thế nào?' che giấu là lao động chọn phiên bản nào của thành phố để trao đi"},
-    {"phrase": "There is no view from nowhere", "meaningVi": "Không có cái nhìn từ chỗ không có nơi"},
-    {"phrase": "the Lisbon of the night-shift worker on the suburban train", "meaningVi": "Lisbon của người làm ca đêm trên tàu ngoại ô"},
-    {"phrase": "It is made by reflex, by what one assumes the listener wants to hear", "meaningVi": "Nó được thực hiện bằng phản xạ, bằng những gì người ta giả định người nghe muốn nghe"},
-    {"phrase": "It is the silent influence of the assumed listener, not the conscious shaping of the speaker, that gives the explanation its particular cast", "meaningVi": "Chính ảnh hưởng âm thầm của người nghe được giả định, không phải sự định hình có ý thức của người nói, mới mang lại cho lời giải thích sắc thái riêng biệt"},
-    {"phrase": "anecdotes that fit a frame the Paris colleague already half-holds", "meaningVi": "các giai thoại phù hợp với khung mà đồng nghiệp Paris đã nắm một nửa"},
-    {"phrase": "the version of Mumbai that travels back to Paris will be the version that Paris was already prepared to receive", "meaningVi": "phiên bản Mumbai quay trở lại Paris sẽ là phiên bản mà Paris đã sẵn sàng tiếp nhận"},
-    {"phrase": "Granted, refusing to explain a place is its own kind of unhelpfulness", "meaningVi": "Cứ cho là từ chối giải thích một nơi là loại không hữu ích riêng của nó"},
-    {"phrase": "Silence by the well-placed is not modesty; it is abdication", "meaningVi": "Sự im lặng của những người ở vị trí tốt không phải là sự khiêm tốn; đó là sự thoái thác"},
-    {"phrase": "Even so, this argument cuts in both directions", "meaningVi": "Dù vậy, lập luận này cắt theo cả hai hướng"},
-    {"phrase": "to refuse the version of the place that the listener most easily absorbs in favour of the version that is more truthful and harder to package", "meaningVi": "từ chối phiên bản của địa điểm mà người nghe dễ tiếp nhận nhất để ủng hộ phiên bản trung thực hơn và khó đóng gói hơn"},
-    {"phrase": "the returning description", "meaningVi": "mô tả trở về"},
-    {"phrase": "It is the people who continue to live in the place who pay the cost of the description that was given of them", "meaningVi": "Chính những người tiếp tục sống ở nơi đó phải trả chi phí cho mô tả đã được đưa ra về họ"},
-    {"phrase": "one is being asked to act, briefly, as a witness", "meaningVi": "một người đang được yêu cầu hành động, ngắn gọn, như một nhân chứng"},
-    {"phrase": "the version of the place that respects both the city and the absent inhabitants who will have to live with what the listener now believes about them", "meaningVi": "phiên bản của địa điểm tôn trọng cả thành phố và những cư dân vắng mặt phải sống với những gì người nghe giờ tin về họ"}
+    {
+      "phrase": "Only rarely is the act of explaining one's city to outsiders treated as carrying the obligations of testimony",
+      "meaningVi": "Chỉ hiếm khi hành động giải thích thành phố của mình cho người ngoài được đối xử như mang nghĩa vụ của lời chứng"
+    },
+    {
+      "phrase": "the description will not stay where it was delivered",
+      "meaningVi": "mô tả sẽ không ở lại nơi nó được trao"
+    },
+    {
+      "phrase": "the city the outsiders believe in will be, partly, the city the explainer described",
+      "meaningVi": "thành phố mà người ngoài tin vào sẽ là, một phần, thành phố mà người giải thích đã mô tả"
+    },
+    {
+      "phrase": "the ordinary condition of anyone who, having lived in a place, finds themselves describing it to people who have not",
+      "meaningVi": "điều kiện thông thường của bất kỳ ai, sau khi đã sống ở một nơi, thấy mình đang mô tả nó cho những người chưa"
+    },
+    {
+      "phrase": "a small custodian of the place's reputation",
+      "meaningVi": "một người bảo hộ nhỏ của danh tiếng của nơi đó"
+    },
+    {
+      "phrase": "The custody is involuntary",
+      "meaningVi": "Sự bảo hộ là không tự nguyện"
+    },
+    {
+      "phrase": "What the question 'what is your city like?' obscures is the labour of choosing which version of the city to hand over",
+      "meaningVi": "Những gì câu hỏi 'thành phố của bạn như thế nào?' che giấu là lao động chọn phiên bản nào của thành phố để trao đi"
+    },
+    {
+      "phrase": "There is no view from nowhere",
+      "meaningVi": "Không có cái nhìn từ chỗ không có nơi"
+    },
+    {
+      "phrase": "the Lisbon of the night-shift worker on the suburban train",
+      "meaningVi": "Lisbon của người làm ca đêm trên tàu ngoại ô"
+    },
+    {
+      "phrase": "It is made by reflex, by what one assumes the listener wants to hear",
+      "meaningVi": "Nó được thực hiện bằng phản xạ, bằng những gì người ta giả định người nghe muốn nghe"
+    },
+    {
+      "phrase": "It is the silent influence of the assumed listener, not the conscious shaping of the speaker, that gives the explanation its particular cast",
+      "meaningVi": "Chính ảnh hưởng âm thầm của người nghe được giả định, không phải sự định hình có ý thức của người nói, mới mang lại cho lời giải thích sắc thái riêng biệt"
+    },
+    {
+      "phrase": "anecdotes that fit a frame the Paris colleague already half-holds",
+      "meaningVi": "các giai thoại phù hợp với khung mà đồng nghiệp Paris đã nắm một nửa"
+    },
+    {
+      "phrase": "the version of Mumbai that travels back to Paris will be the version that Paris was already prepared to receive",
+      "meaningVi": "phiên bản Mumbai quay trở lại Paris sẽ là phiên bản mà Paris đã sẵn sàng tiếp nhận"
+    },
+    {
+      "phrase": "Granted, refusing to explain a place is its own kind of unhelpfulness",
+      "meaningVi": "Cứ cho là từ chối giải thích một nơi là loại không hữu ích riêng của nó"
+    },
+    {
+      "phrase": "Silence by the well-placed is not modesty; it is abdication",
+      "meaningVi": "Sự im lặng của những người ở vị trí tốt không phải là sự khiêm tốn; đó là sự thoái thác"
+    },
+    {
+      "phrase": "Even so, this argument cuts in both directions",
+      "meaningVi": "Dù vậy, lập luận này cắt theo cả hai hướng"
+    },
+    {
+      "phrase": "to refuse the version of the place that the listener most easily absorbs in favour of the version that is more truthful and harder to package",
+      "meaningVi": "từ chối phiên bản của địa điểm mà người nghe dễ tiếp nhận nhất để ủng hộ phiên bản trung thực hơn và khó đóng gói hơn"
+    },
+    {
+      "phrase": "the returning description",
+      "meaningVi": "mô tả trở về"
+    },
+    {
+      "phrase": "It is the people who continue to live in the place who pay the cost of the description that was given of them",
+      "meaningVi": "Chính những người tiếp tục sống ở nơi đó phải trả chi phí cho mô tả đã được đưa ra về họ"
+    },
+    {
+      "phrase": "one is being asked to act, briefly, as a witness",
+      "meaningVi": "một người đang được yêu cầu hành động, ngắn gọn, như một nhân chứng"
+    },
+    {
+      "phrase": "the version of the place that respects both the city and the absent inhabitants who will have to live with what the listener now believes about them",
+      "meaningVi": "phiên bản của địa điểm tôn trọng cả thành phố và những cư dân vắng mặt phải sống với những gì người nghe giờ tin về họ"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -80,11 +213,11 @@
       "prompt": "Which sentence correctly applies inversion after 'Only rarely' with passive construction?",
       "options": [
         "Only rarely the act of explaining one's city is treated as testimony.",
-        "Only rarely is the act of explaining one's city to outsiders treated as carrying the obligations of testimony.",
         "The act only rarely is treated as testimony to outsiders.",
-        "Only rarely it is the act of explaining that is treated."
+        "Only rarely it is the act of explaining that is treated.",
+        "Only rarely is the act of explaining one's city to outsiders treated as carrying the obligations of testimony."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "After 'Only rarely', the passive 'is' inverts before the long subject 'the act of explaining one's city to outsiders'.",
       "hint": "Negative fronting + passive 'is' before subject."
     },
@@ -92,12 +225,12 @@
       "id": "q2",
       "prompt": "What is the essay's central observation about descriptions of a place?",
       "options": [
-        "They are always biased and therefore worthless",
         "They do not stay where they were delivered — they travel, get repeated, used by journalists, and the city outsiders believe in becomes partly the city the explainer described",
+        "They are always biased and therefore worthless",
         "They are forgotten as soon as the conversation ends",
         "They are identical to objective reality"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The opening point: descriptions travel further than the speaker controls, and what outsiders eventually believe will be coloured by the description offered.",
       "hint": "Look at the opening paragraph for what happens to the description."
     },
@@ -119,11 +252,11 @@
       "prompt": "Which sentence uses a cleft to locate the source of the explanation's character?",
       "options": [
         "The speaker consciously shapes the explanation.",
-        "It is the silent influence of the assumed listener, not the conscious shaping of the speaker, that gives the explanation its particular cast.",
         "Both speaker and listener shape the explanation equally.",
+        "It is the silent influence of the assumed listener, not the conscious shaping of the speaker, that gives the explanation its particular cast.",
         "The explanation has no particular cast."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'It is X, not Y, that Z' is a cleft that relocates the cause: not the speaker's deliberate choice, but the silent presence of the assumed listener.",
       "hint": "Look for 'It is ... not ... that ...'"
     },
@@ -132,11 +265,11 @@
       "prompt": "Which correctly applies 'Granted… Even so…'?",
       "options": [
         "Even so, silence is right. Granted, explanation is wrong.",
-        "Granted, refusing to explain a place is its own kind of unhelpfulness, and silence by the well-placed is not modesty; it is abdication. Even so, this argument cuts in both directions — accepting the obligation to explain means accepting the obligation to do it carefully.",
         "Granted and even so — silence and speech are equivalent.",
-        "Granted that speech is good. Even so, silence is better."
+        "Granted that speech is good. Even so, silence is better.",
+        "Granted, refusing to explain a place is its own kind of unhelpfulness, and silence by the well-placed is not modesty; it is abdication. Even so, this argument cuts in both directions — accepting the obligation to explain means accepting the obligation to do it carefully."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'Granted' concedes that silence is abdication; 'Even so' insists the obligation cuts both ways — explanation incurs the obligation to be careful.",
       "hint": "Concession then pivot."
     },
@@ -144,12 +277,12 @@
       "id": "q6",
       "prompt": "What does the essay say about the Mumbai colleague's anecdotes?",
       "options": [
-        "They are deliberately false",
         "They will, often without noticing, fit a frame the Paris colleague already half-holds — reinforcing the existing perception",
+        "They are deliberately false",
         "They will challenge the colleague's preconceptions",
         "They are irrelevant to perception"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay's example: explanations tend to confirm the listener's existing frame, not because the speaker intends it but because the listener's presence pulls the explanation toward what is already half-believed.",
       "hint": "Look at the Mumbai-Paris paragraph."
     },
@@ -184,11 +317,11 @@
       "prompt": "What does the essay say a witness owes?",
       "options": [
         "Flattery and silence",
-        "The harder thing — the version of the place that respects both the city and the absent inhabitants who will have to live with what the listener now believes about them",
         "Refusal to speak",
-        "Whatever the listener wants to hear"
+        "Whatever the listener wants to hear",
+        "The harder thing — the version of the place that respects both the city and the absent inhabitants who will have to live with what the listener now believes about them"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay's final answer: the obligation is to a version that is truthful and respects the absent inhabitants who will bear the consequences.",
       "hint": "Look at the final sentence."
     },
@@ -196,12 +329,12 @@
       "id": "q10",
       "prompt": "What does 'narrative custodianship' mean as the essay implies it?",
       "options": [
-        "Holding legal title to a story",
         "The involuntary responsibility a person takes on for the reputation of a place when they describe it to outsiders — custody not requested, but real",
+        "Holding legal title to a story",
         "Editing a published narrative",
         "Owning copyright over a tale"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay's image: the explainer is briefly a custodian, not by request but by structural position — the description that follows will travel.",
       "hint": "Look at the second paragraph."
     },
@@ -223,11 +356,11 @@
       "prompt": "What does the essay say a 'careful' explanation involves?",
       "options": [
         "Refusing to give any examples",
-        "Resisting the simplifying anecdote, naming what is being left out, and refusing the version the listener most easily absorbs in favour of the version that is more truthful and harder to package",
         "Reading only from a prepared script",
+        "Resisting the simplifying anecdote, naming what is being left out, and refusing the version the listener most easily absorbs in favour of the version that is more truthful and harder to package",
         "Providing exhaustive statistical data"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay's positive prescription: resist the easy story, name omissions, choose harder truth over packageable charm.",
       "hint": "Look at the Granted/Even so closing for the positive prescription."
     },
@@ -236,11 +369,11 @@
       "prompt": "What does the essay say about the Naples that European editors have described?",
       "options": [
         "It is a perfect description",
-        "It has shaped what Italian governments will and will not fund there — the description, having travelled, returns home as policy consequences",
         "It is irrelevant to Italian governance",
-        "It is identical to actual Naples"
+        "It is identical to actual Naples",
+        "It has shaped what Italian governments will and will not fund there — the description, having travelled, returns home as policy consequences"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The Naples example illustrates the returning description: the city as portrayed abroad becomes the city as treated by funders and policymakers at home.",
       "hint": "Look at the returning-description paragraph."
     },
@@ -248,12 +381,12 @@
       "id": "q14",
       "prompt": "What does the essay say it is NOT arguing?",
       "options": [
+        "Against describing one's place to outsiders at all",
         "For careful description",
         "For awareness of the asymmetry of address",
-        "Against describing one's place to outsiders at all",
         "For attention to who absorbs descriptions and how they return"
       ],
-      "answerIndex": 2,
+      "answerIndex": 0,
       "explanation": "The essay explicitly disclaims: 'None of this argues against describing one's place to outsiders.' The argument is for doing it with awareness, not for silence.",
       "hint": "Look at the final paragraph's opening."
     },
@@ -262,11 +395,11 @@
       "prompt": "Which best summarises the essay's overall position?",
       "options": [
         "Always refuse to explain your place to outsiders",
-        "Always explain enthusiastically",
         "Recognise that explanation carries small obligations of testimony — choose the more truthful, less packageable version, and respect both the city and the absent inhabitants who will bear the consequences",
+        "Always explain enthusiastically",
         "Outsiders have no right to descriptions"
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "explanation": "The essay defends a middle position: not silence, not flattery, but the careful, witness-like version that respects the city and its inhabitants.",
       "hint": "Look at the closing paragraph."
     }

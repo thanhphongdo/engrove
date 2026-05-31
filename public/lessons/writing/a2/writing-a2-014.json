@@ -3,7 +3,11 @@
   "level": "A2",
   "title": "A holiday that didn't go as planned",
   "summary": "Tell a light, short story about a trip that went wrong but ended well.",
-  "tags": ["Travel", "Stories", "Humor"],
+  "tags": [
+    "Travel",
+    "Stories",
+    "Humor"
+  ],
   "topic": "A holiday that didn't go as planned",
   "prompt": "Write 150–250 words about a holiday or short trip that did not go as you planned. Keep the tone light. Use past simple and 'when / while' to connect events.",
   "minWords": 150,
@@ -14,30 +18,93 @@
     "In the end, we laughed because…"
   ],
   "hintVocab": [
-    { "phrase": "weekend trip", "meaningVi": "chuyến đi cuối tuần" },
-    { "phrase": "miss the bus", "meaningVi": "lỡ xe buýt" },
-    { "phrase": "lost luggage", "meaningVi": "thất lạc hành lý" },
-    { "phrase": "thunderstorm", "meaningVi": "bão sấm sét" },
-    { "phrase": "cheap hotel", "meaningVi": "khách sạn rẻ tiền" },
-    { "phrase": "broken air conditioner", "meaningVi": "máy lạnh hỏng" },
-    { "phrase": "laugh about it", "meaningVi": "cười về chuyện đó" },
-    { "phrase": "soaked", "meaningVi": "ướt sũng" },
-    { "phrase": "in the end", "meaningVi": "cuối cùng" },
-    { "phrase": "stuck", "meaningVi": "bị mắc kẹt" },
-    { "phrase": "plan B", "meaningVi": "phương án B" }
+    {
+      "phrase": "weekend trip",
+      "meaningVi": "chuyến đi cuối tuần"
+    },
+    {
+      "phrase": "miss the bus",
+      "meaningVi": "lỡ xe buýt"
+    },
+    {
+      "phrase": "lost luggage",
+      "meaningVi": "thất lạc hành lý"
+    },
+    {
+      "phrase": "thunderstorm",
+      "meaningVi": "bão sấm sét"
+    },
+    {
+      "phrase": "cheap hotel",
+      "meaningVi": "khách sạn rẻ tiền"
+    },
+    {
+      "phrase": "broken air conditioner",
+      "meaningVi": "máy lạnh hỏng"
+    },
+    {
+      "phrase": "laugh about it",
+      "meaningVi": "cười về chuyện đó"
+    },
+    {
+      "phrase": "soaked",
+      "meaningVi": "ướt sũng"
+    },
+    {
+      "phrase": "in the end",
+      "meaningVi": "cuối cùng"
+    },
+    {
+      "phrase": "stuck",
+      "meaningVi": "bị mắc kẹt"
+    },
+    {
+      "phrase": "plan B",
+      "meaningVi": "phương án B"
+    }
   ],
   "sampleText": "Last August, my sister and I planned a quiet weekend trip to a small island near Athens. The plan was simple: take the morning ferry, find our small hotel, swim, eat fish, sleep. Everything went wrong from the first hour. We missed the ferry by two minutes because the taxi driver took the wrong street. While we were waiting for the next ferry, the sky turned grey and a thunderstorm started. By the time we arrived on the island, we were completely soaked. The owner of the hotel forgot our reservation, so we had to take a smaller room near the kitchen. The air conditioner was broken, and we could hear pots and pans all night. The next morning, my sister opened her suitcase and discovered that her clothes were also wet. She did not have anything dry to wear. We walked into the little town, both of us in old t-shirts, and we bought two big white shirts from a small shop. The owner laughed and gave us a small bottle of olive oil for free. We sat on the beach in our giant white shirts and ate fresh bread and tomatoes. The sun came out for one hour. In the end, we laughed about it more than any of our perfect holidays. Sometimes plan B is better.",
   "sampleAnnotations": [
-    { "phrase": "weekend trip", "meaningVi": "chuyến đi cuối tuần" },
-    { "phrase": "missed the ferry", "meaningVi": "lỡ chuyến phà" },
-    { "phrase": "thunderstorm", "meaningVi": "bão sấm sét" },
-    { "phrase": "completely soaked", "meaningVi": "ướt sũng hoàn toàn" },
-    { "phrase": "forgot our reservation", "meaningVi": "quên đặt phòng của chúng tôi" },
-    { "phrase": "broken", "meaningVi": "bị hỏng" },
-    { "phrase": "pots and pans", "meaningVi": "xoong nồi" },
-    { "phrase": "giant white shirts", "meaningVi": "áo trắng rộng thùng thình" },
-    { "phrase": "in the end", "meaningVi": "cuối cùng" },
-    { "phrase": "plan B", "meaningVi": "phương án B" }
+    {
+      "phrase": "weekend trip",
+      "meaningVi": "chuyến đi cuối tuần"
+    },
+    {
+      "phrase": "missed the ferry",
+      "meaningVi": "lỡ chuyến phà"
+    },
+    {
+      "phrase": "thunderstorm",
+      "meaningVi": "bão sấm sét"
+    },
+    {
+      "phrase": "completely soaked",
+      "meaningVi": "ướt sũng hoàn toàn"
+    },
+    {
+      "phrase": "forgot our reservation",
+      "meaningVi": "quên đặt phòng của chúng tôi"
+    },
+    {
+      "phrase": "broken",
+      "meaningVi": "bị hỏng"
+    },
+    {
+      "phrase": "pots and pans",
+      "meaningVi": "xoong nồi"
+    },
+    {
+      "phrase": "giant white shirts",
+      "meaningVi": "áo trắng rộng thùng thình"
+    },
+    {
+      "phrase": "in the end",
+      "meaningVi": "cuối cùng"
+    },
+    {
+      "phrase": "plan B",
+      "meaningVi": "phương án B"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -65,12 +132,12 @@
       "id": "q2",
       "prompt": "Pick the correct 'while + past continuous' sentence.",
       "options": [
-        "While we were waiting for the next ferry, the sky turned grey.",
         "While we waiting for the next ferry, the sky turned grey.",
+        "While we were waiting for the next ferry, the sky turned grey.",
         "While we wait for the next ferry, the sky turns grey.",
         "While we have waited for the next ferry, the sky has turned grey."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'While + past continuous, past simple' is the natural pattern.",
       "hint": "Was/were + -ing after 'while'."
     },
@@ -78,12 +145,12 @@
       "id": "q3",
       "prompt": "Choose the correct adjective.",
       "options": [
-        "The air conditioner was broken.",
         "The air conditioner was breaking.",
         "The air conditioner was break.",
+        "The air conditioner was broken.",
         "The air conditioner was breaked."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Broken' is the past participle used as an adjective.",
       "hint": "Past participle used as adjective: broken."
     },
@@ -91,12 +158,12 @@
       "id": "q4",
       "prompt": "Which option uses 'so' correctly?",
       "options": [
-        "The owner forgot our reservation, so we had to take a smaller room.",
         "The owner forgot our reservation, because we had to take a smaller room.",
         "The owner forgot our reservation, but we had to take a smaller room.",
-        "The owner forgot our reservation, while we had to take a smaller room."
+        "The owner forgot our reservation, while we had to take a smaller room.",
+        "The owner forgot our reservation, so we had to take a smaller room."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'So' introduces a result.",
       "hint": "Which linker shows result?"
     },
@@ -117,12 +184,12 @@
       "id": "q6",
       "prompt": "Which sentence uses comparative correctly?",
       "options": [
-        "Sometimes plan B is better than plan A.",
         "Sometimes plan B is more better than plan A.",
+        "Sometimes plan B is better than plan A.",
         "Sometimes plan B is the best than plan A.",
         "Sometimes plan B is gooder than plan A."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'Good' has an irregular comparative: 'better'.",
       "hint": "Good → better → best."
     },
@@ -130,12 +197,12 @@
       "id": "q7",
       "prompt": "Choose the natural collocation.",
       "options": [
-        "Everything went wrong from the first hour.",
         "Everything went badly from the first hour.",
         "Everything go wrong from the first hour.",
+        "Everything went wrong from the first hour.",
         "Everything gone wrong from the first hour."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Go wrong' is the fixed phrase; past simple = 'went'.",
       "hint": "Go → went."
     },
@@ -143,12 +210,12 @@
       "id": "q8",
       "prompt": "Which option uses past simple of 'find' correctly?",
       "options": [
-        "She discovered that her clothes were also wet.",
         "She is discovering that her clothes were also wet.",
         "She discover that her clothes were also wet.",
-        "She has discovering that her clothes were also wet."
+        "She has discovering that her clothes were also wet.",
+        "She discovered that her clothes were also wet."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "Past simple 'discovered' matches the past timeline.",
       "hint": "Past simple of 'discover' is 'discovered'."
     },
@@ -169,12 +236,12 @@
       "id": "q10",
       "prompt": "Which closing line keeps a light, personal tone?",
       "options": [
-        "Sometimes plan B is better.",
         "In conclusion, travel always has surprises.",
+        "Sometimes plan B is better.",
         "Throughout history, holidays have tested patience.",
         "It is important to note that flexibility is key."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "Short, personal sentence beats generic AI phrasing.",
       "hint": "Avoid AI clichés like 'In conclusion'."
     }

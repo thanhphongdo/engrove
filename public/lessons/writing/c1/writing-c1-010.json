@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "When inheritance becomes coercion: the moral weight of received traditions",
   "summary": "Examine the line between preserving a received cultural tradition and imposing it, and argue that inheritance carries a moral obligation of consent.",
-  "tags": ["Argument", "Culture", "Ethics"],
+  "tags": [
+    "Argument",
+    "Culture",
+    "Ethics"
+  ],
   "topic": "When received cultural traditions become coercive impositions",
   "prompt": "Write a 600–800-word argumentative essay examining when the transmission of a cultural tradition — a language, a religion, a set of rites, a cuisine, a craft — crosses from preservation to coercion. Use at least two specific cross-cultural examples (e.g. the Welsh Language Act and immersion schooling, the practice of Ramadan fasting for children in different national contexts, the transmission of caste identity in South Asia, or others you know well). Deploy inversion at least once, a cleft sentence, and the 'granted… even so…' concession. Avoid abstract pronouncements about 'cultural identity'. Work with concrete specifics.",
   "minWords": 600,
@@ -15,51 +19,186 @@
     "It is precisely the traditions held most sacred that are most likely to…"
   ],
   "hintVocab": [
-    {"phrase": "cultural transmission", "meaningVi": "sự truyền đạt văn hoá"},
-    {"phrase": "coercion", "meaningVi": "sự ép buộc", "pronunciation": "/kəʊˈɜːʃən/"},
-    {"phrase": "enculturation", "meaningVi": "quá trình tiếp thu văn hoá", "pronunciation": "/ˌenkʌltʃəˈreɪʃən/"},
-    {"phrase": "intergenerational", "meaningVi": "giữa các thế hệ", "pronunciation": "/ˌɪntəˌdʒenəˈreɪʃənəl/"},
-    {"phrase": "rite of passage", "meaningVi": "nghi lễ chuyển tiếp, nghi thức trưởng thành"},
-    {"phrase": "dissent", "meaningVi": "sự bất đồng, phản đối", "pronunciation": "/dɪˈsent/"},
-    {"phrase": "custodian", "meaningVi": "người gìn giữ, người trông coi", "pronunciation": "/kʌˈstəʊdiən/"},
-    {"phrase": "minority language", "meaningVi": "ngôn ngữ thiểu số"},
-    {"phrase": "immersion schooling", "meaningVi": "giáo dục theo phương pháp ngâm mình ngôn ngữ"},
-    {"phrase": "revitalisation", "meaningVi": "sự hồi sinh, khôi phục", "pronunciation": "/ˌriːvaɪtəlaɪˈzeɪʃən/"},
-    {"phrase": "caste identity", "meaningVi": "bản sắc đẳng cấp"},
-    {"phrase": "assimilation", "meaningVi": "sự đồng hoá", "pronunciation": "/əˌsɪmɪˈleɪʃən/"},
-    {"phrase": "stigma", "meaningVi": "kỳ thị, vết nhơ xã hội", "pronunciation": "/ˈstɪɡmə/"},
-    {"phrase": "autonomy", "meaningVi": "quyền tự quyết", "pronunciation": "/ɔːˈtɒnəmi/"},
-    {"phrase": "opt out", "meaningVi": "chọn không tham gia"},
-    {"phrase": "genealogical obligation", "meaningVi": "nghĩa vụ dòng tộc"},
-    {"phrase": "inherited stigma", "meaningVi": "kỳ thị được thừa kế"},
-    {"phrase": "language revitalisation", "meaningVi": "sự hồi sinh ngôn ngữ"},
-    {"phrase": "moral weight", "meaningVi": "trọng lượng đạo đức"},
-    {"phrase": "obligation of consent", "meaningVi": "nghĩa vụ về sự đồng ý"},
-    {"phrase": "compulsory observance", "meaningVi": "tuân thủ bắt buộc"}
+    {
+      "phrase": "cultural transmission",
+      "meaningVi": "sự truyền đạt văn hoá"
+    },
+    {
+      "phrase": "coercion",
+      "meaningVi": "sự ép buộc",
+      "pronunciation": "/kəʊˈɜːʃən/"
+    },
+    {
+      "phrase": "enculturation",
+      "meaningVi": "quá trình tiếp thu văn hoá",
+      "pronunciation": "/ˌenkʌltʃəˈreɪʃən/"
+    },
+    {
+      "phrase": "intergenerational",
+      "meaningVi": "giữa các thế hệ",
+      "pronunciation": "/ˌɪntəˌdʒenəˈreɪʃənəl/"
+    },
+    {
+      "phrase": "rite of passage",
+      "meaningVi": "nghi lễ chuyển tiếp, nghi thức trưởng thành"
+    },
+    {
+      "phrase": "dissent",
+      "meaningVi": "sự bất đồng, phản đối",
+      "pronunciation": "/dɪˈsent/"
+    },
+    {
+      "phrase": "custodian",
+      "meaningVi": "người gìn giữ, người trông coi",
+      "pronunciation": "/kʌˈstəʊdiən/"
+    },
+    {
+      "phrase": "minority language",
+      "meaningVi": "ngôn ngữ thiểu số"
+    },
+    {
+      "phrase": "immersion schooling",
+      "meaningVi": "giáo dục theo phương pháp ngâm mình ngôn ngữ"
+    },
+    {
+      "phrase": "revitalisation",
+      "meaningVi": "sự hồi sinh, khôi phục",
+      "pronunciation": "/ˌriːvaɪtəlaɪˈzeɪʃən/"
+    },
+    {
+      "phrase": "caste identity",
+      "meaningVi": "bản sắc đẳng cấp"
+    },
+    {
+      "phrase": "assimilation",
+      "meaningVi": "sự đồng hoá",
+      "pronunciation": "/əˌsɪmɪˈleɪʃən/"
+    },
+    {
+      "phrase": "stigma",
+      "meaningVi": "kỳ thị, vết nhơ xã hội",
+      "pronunciation": "/ˈstɪɡmə/"
+    },
+    {
+      "phrase": "autonomy",
+      "meaningVi": "quyền tự quyết",
+      "pronunciation": "/ɔːˈtɒnəmi/"
+    },
+    {
+      "phrase": "opt out",
+      "meaningVi": "chọn không tham gia"
+    },
+    {
+      "phrase": "genealogical obligation",
+      "meaningVi": "nghĩa vụ dòng tộc"
+    },
+    {
+      "phrase": "inherited stigma",
+      "meaningVi": "kỳ thị được thừa kế"
+    },
+    {
+      "phrase": "language revitalisation",
+      "meaningVi": "sự hồi sinh ngôn ngữ"
+    },
+    {
+      "phrase": "moral weight",
+      "meaningVi": "trọng lượng đạo đức"
+    },
+    {
+      "phrase": "obligation of consent",
+      "meaningVi": "nghĩa vụ về sự đồng ý"
+    },
+    {
+      "phrase": "compulsory observance",
+      "meaningVi": "tuân thủ bắt buộc"
+    }
   ],
   "sampleText": "Not until the child is old enough to refuse does the question of consent in cultural transmission become legible — which is, of course, precisely the design. Traditions sustain themselves by reaching the recipient before the recipient has developed the vocabulary for refusal. A child raised in a Welsh-immersion school in Gwynedd, a child who learns prayers in Arabic before she learns to read in the language of her daily life, a child in a Tamil Brahmin household who internalises a caste identity before she understands what caste means: none of these children chose their inheritance. The question is not whether this is unusual — it is the norm — but whether the tradition has built in any mechanism by which the adult can eventually decline.\n\nWhat separates the preservation of a tradition from its imposition is not the tradition's content but the structure of exit. Welsh-medium education in Wales sits in a legal and social context where the child, on reaching adulthood, can move freely between Welsh and English, can choose whether to transmit the language to their own children, can live in Cardiff speaking no Welsh at all without meaningful social penalty. The tradition has been revitalised through genuine community investment, but the door out remains open. Compare this to the transmission of jati — sub-caste identity — in parts of South Asia, where the identity is not merely taught but inscribed in the social fabric of marriage, employment, and public standing. The child who inherits a lower-caste identity does not simply receive a tradition; they receive, bundled with it, a set of inherited stigmas that they cannot set aside by simply deciding to.\n\nIt is precisely the traditions held most sacred that are most likely to foreclose exit. The intensity of feeling around a practice — whether a dietary law, a circumcision rite, a language, or a naming convention — tends to compress the space available for the inheritor to say: not this, not for me. When the refusal of an inherited practice is treated as an act of cultural betrayal rather than an exercise of personal autonomy, the tradition has crossed from offer to demand. The Ramadan fast, observed by adults as a freely chosen spiritual discipline, becomes something qualitatively different when a six-year-old in a household where non-observance is unthinkable is expected to participate. The practice may be identical in form; its moral status is not.\n\nGranted, no culture can survive without transmission, and much of what we value most about human civilisation has been preserved by intergenerational enculturation that asked no permission. Even so, the question of consent does not vanish simply because it is inconvenient. It is possible to transmit a tradition with the deliberate aim of equipping the recipient to understand it, to love it if they will, and to leave it if they must. This is not cultural dissolution; it is cultural honesty. The Welsh poet who writes in English, the secular Jew who attends the Passover seder without believing a word of the Haggadah, the Tamil woman who publishes her caste name and then its critique — these are not the enemies of tradition but its most serious interlocutors.\n\nThe moral weight of a received tradition, then, lies not in its age or its beauty or even its survival value, but in what it does to the one who receives it. A tradition that comes with a genuine option to refuse is a gift, even if it arrives uninvited. A tradition that comes with genealogical obligation, communal surveillance, and the threat of inherited stigma for those who decline is something closer to coercion dressed in the language of heritage. Inheritance without the possibility of return is not generosity; it is a debt the recipient did not contract.",
   "sampleAnnotations": [
-    {"phrase": "Not until the child is old enough to refuse does the question of consent", "meaningVi": "Chỉ khi đứa trẻ đủ lớn để từ chối, câu hỏi về sự đồng ý mới trở nên rõ ràng"},
-    {"phrase": "precisely the design", "meaningVi": "chính xác là thiết kế đó"},
-    {"phrase": "vocabulary for refusal", "meaningVi": "ngôn từ để từ chối"},
-    {"phrase": "built in any mechanism by which the adult can eventually decline", "meaningVi": "được tích hợp sẵn cơ chế để người lớn có thể từ chối"},
-    {"phrase": "structure of exit", "meaningVi": "cấu trúc của lối thoát"},
-    {"phrase": "meaningful social penalty", "meaningVi": "hình phạt xã hội có ý nghĩa"},
-    {"phrase": "inscribed in the social fabric", "meaningVi": "được khắc vào cấu trúc xã hội"},
-    {"phrase": "inherited stigmas", "meaningVi": "kỳ thị được thừa kế"},
-    {"phrase": "cannot set aside by simply deciding to", "meaningVi": "không thể gạt sang một bên chỉ bằng cách quyết định"},
-    {"phrase": "foreclose exit", "meaningVi": "chặn đứng lối thoát"},
-    {"phrase": "from offer to demand", "meaningVi": "từ lời mời sang yêu cầu bắt buộc"},
-    {"phrase": "qualitatively different", "meaningVi": "khác biệt về chất"},
-    {"phrase": "Its moral status is not", "meaningVi": "Tình trạng đạo đức của nó thì không (như vậy)"},
-    {"phrase": "Granted, no culture can survive without transmission", "meaningVi": "Cứ cho là không có nền văn hoá nào tồn tại mà không có sự truyền đạt"},
-    {"phrase": "Even so, the question of consent does not vanish", "meaningVi": "Dù vậy, câu hỏi về sự đồng ý không biến mất"},
-    {"phrase": "equipping the recipient to understand it, to love it if they will, and to leave it if they must", "meaningVi": "trang bị cho người nhận để hiểu nó, yêu thích nó nếu họ muốn, và rời bỏ nó nếu họ phải"},
-    {"phrase": "cultural honesty", "meaningVi": "sự trung thực văn hoá"},
-    {"phrase": "most serious interlocutors", "meaningVi": "những người đối thoại nghiêm túc nhất"},
-    {"phrase": "genealogical obligation", "meaningVi": "nghĩa vụ dòng tộc"},
-    {"phrase": "communal surveillance", "meaningVi": "sự giám sát của cộng đồng"},
-    {"phrase": "a debt the recipient did not contract", "meaningVi": "một món nợ mà người nhận không ký kết"}
+    {
+      "phrase": "Not until the child is old enough to refuse does the question of consent",
+      "meaningVi": "Chỉ khi đứa trẻ đủ lớn để từ chối, câu hỏi về sự đồng ý mới trở nên rõ ràng"
+    },
+    {
+      "phrase": "precisely the design",
+      "meaningVi": "chính xác là thiết kế đó"
+    },
+    {
+      "phrase": "vocabulary for refusal",
+      "meaningVi": "ngôn từ để từ chối"
+    },
+    {
+      "phrase": "built in any mechanism by which the adult can eventually decline",
+      "meaningVi": "được tích hợp sẵn cơ chế để người lớn có thể từ chối"
+    },
+    {
+      "phrase": "structure of exit",
+      "meaningVi": "cấu trúc của lối thoát"
+    },
+    {
+      "phrase": "meaningful social penalty",
+      "meaningVi": "hình phạt xã hội có ý nghĩa"
+    },
+    {
+      "phrase": "inscribed in the social fabric",
+      "meaningVi": "được khắc vào cấu trúc xã hội"
+    },
+    {
+      "phrase": "inherited stigmas",
+      "meaningVi": "kỳ thị được thừa kế"
+    },
+    {
+      "phrase": "cannot set aside by simply deciding to",
+      "meaningVi": "không thể gạt sang một bên chỉ bằng cách quyết định"
+    },
+    {
+      "phrase": "foreclose exit",
+      "meaningVi": "chặn đứng lối thoát"
+    },
+    {
+      "phrase": "from offer to demand",
+      "meaningVi": "từ lời mời sang yêu cầu bắt buộc"
+    },
+    {
+      "phrase": "qualitatively different",
+      "meaningVi": "khác biệt về chất"
+    },
+    {
+      "phrase": "Its moral status is not",
+      "meaningVi": "Tình trạng đạo đức của nó thì không (như vậy)"
+    },
+    {
+      "phrase": "Granted, no culture can survive without transmission",
+      "meaningVi": "Cứ cho là không có nền văn hoá nào tồn tại mà không có sự truyền đạt"
+    },
+    {
+      "phrase": "Even so, the question of consent does not vanish",
+      "meaningVi": "Dù vậy, câu hỏi về sự đồng ý không biến mất"
+    },
+    {
+      "phrase": "equipping the recipient to understand it, to love it if they will, and to leave it if they must",
+      "meaningVi": "trang bị cho người nhận để hiểu nó, yêu thích nó nếu họ muốn, và rời bỏ nó nếu họ phải"
+    },
+    {
+      "phrase": "cultural honesty",
+      "meaningVi": "sự trung thực văn hoá"
+    },
+    {
+      "phrase": "most serious interlocutors",
+      "meaningVi": "những người đối thoại nghiêm túc nhất"
+    },
+    {
+      "phrase": "genealogical obligation",
+      "meaningVi": "nghĩa vụ dòng tộc"
+    },
+    {
+      "phrase": "communal surveillance",
+      "meaningVi": "sự giám sát của cộng đồng"
+    },
+    {
+      "phrase": "a debt the recipient did not contract",
+      "meaningVi": "một món nợ mà người nhận không ký kết"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -106,11 +245,11 @@
       "prompt": "Why does the essay contrast Welsh-medium education with jati transmission?",
       "options": [
         "To show that European traditions are less harmful than Asian ones",
-        "To contrast a tradition where exit remains possible with one where inherited stigma cannot be declined",
         "To argue that language revitalisation is always more ethical than caste identity",
-        "To show that both traditions are equally coercive"
+        "To show that both traditions are equally coercive",
+        "To contrast a tradition where exit remains possible with one where inherited stigma cannot be declined"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "Welsh education allows free movement in adulthood; jati brings inherited stigma that cannot be refused — the contrast illustrates the 'structure of exit' argument.",
       "hint": "Focus on what each tradition allows the adult recipient to do."
     },
@@ -118,12 +257,12 @@
       "id": "q4",
       "prompt": "What is meant by 'foreclose exit' in the context of the essay?",
       "options": [
-        "Physically preventing someone from leaving a building",
         "Removing the practical or social possibility of declining a tradition",
+        "Physically preventing someone from leaving a building",
         "A legal term for ending a contract",
         "Closing a door before entering"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'Foreclose' means to preclude — the essay uses it to describe traditions that eliminate the option of refusal.",
       "hint": "Think of 'foreclose' as 'eliminate the possibility of'."
     },
@@ -145,11 +284,11 @@
       "prompt": "What does 'enculturation' mean?",
       "options": [
         "The destruction of a culture by an outside force",
-        "The process by which a person acquires cultural values and practices, often from childhood",
         "The deliberate study of a foreign culture",
+        "The process by which a person acquires cultural values and practices, often from childhood",
         "The official recognition of a minority culture by a government"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "Enculturation is the process — often unconscious — by which children absorb the cultural norms of their environment.",
       "hint": "Think of 'culture' + 'internalisation from childhood'."
     },
@@ -158,11 +297,11 @@
       "prompt": "Which sentence uses a cleft to focus on a specific type of tradition?",
       "options": [
         "Sacred traditions are most likely to foreclose exit.",
-        "It is precisely the traditions held most sacred that are most likely to foreclose exit.",
         "The most sacred traditions foreclose exit precisely.",
-        "Exit is foreclosed by the traditions that are sacred."
+        "Exit is foreclosed by the traditions that are sacred.",
+        "It is precisely the traditions held most sacred that are most likely to foreclose exit."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'It is X that Y' is the cleft pattern; 'precisely' adds ironic emphasis.",
       "hint": "Look for the 'It is… that…' structure."
     },
@@ -170,12 +309,12 @@
       "id": "q8",
       "prompt": "What does the essay mean by 'cultural honesty'?",
       "options": [
-        "Always telling the truth about cultural differences",
         "Transmitting a tradition while genuinely equipping the recipient to understand, love, or leave it",
+        "Always telling the truth about cultural differences",
         "Being honest about which culture you belong to",
         "A policy of full cultural transparency in government"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay defines 'cultural honesty' as transmission with the sincere aim of enabling the recipient to make a genuine choice.",
       "hint": "Look for the sentence 'This is not cultural dissolution; it is cultural honesty.'"
     },
@@ -197,11 +336,11 @@
       "prompt": "Which is the best near-paraphrase of 'a debt the recipient did not contract'?",
       "options": [
         "A debt that was agreed to in a legal contract",
-        "An obligation imposed on a person without their consent",
         "A financial debt inherited from parents",
+        "An obligation imposed on a person without their consent",
         "A contract that the recipient later cancelled"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'Did not contract' means the person never agreed to the obligation — it was imposed without consent.",
       "hint": "'Contract' here is a verb meaning 'enter into an agreement'."
     },
@@ -210,11 +349,11 @@
       "prompt": "Which option correctly uses the 'Granted… Even so…' concession pattern?",
       "options": [
         "Even so, no culture can survive without transmission. Granted, the question of consent is important.",
-        "Granted, no culture can survive without transmission. Even so, the question of consent does not vanish.",
         "Granted and even so, no culture can survive without transmission.",
-        "No culture survives. Granted it does not, even so."
+        "No culture survives. Granted it does not, even so.",
+        "Granted, no culture can survive without transmission. Even so, the question of consent does not vanish."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The pattern requires 'Granted' before the conceded point and 'Even so' before the counter-claim.",
       "hint": "Concede first, then counter — in that order."
     },
@@ -222,12 +361,12 @@
       "id": "q12",
       "prompt": "What is 'genealogical obligation' as used in the essay?",
       "options": [
-        "The duty to trace one's family history",
         "An obligation attached to a person by virtue of their ancestry or family lineage",
+        "The duty to trace one's family history",
         "A legal requirement to maintain a family business",
         "The scientific study of genetic inheritance"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'Genealogical' relates to lineage; 'genealogical obligation' is an obligation that comes from who your family is, not from a choice you made.",
       "hint": "Think of 'genealogy' (family tree) + 'obligation'."
     },
@@ -263,10 +402,10 @@
       "options": [
         "Cultural traditions should never be transmitted to children.",
         "All religious traditions are coercive by nature.",
-        "A received tradition becomes coercion when it offers no genuine mechanism for the recipient to eventually decline it.",
-        "Minority languages should be preserved through compulsory education."
+        "Minority languages should be preserved through compulsory education.",
+        "A received tradition becomes coercion when it offers no genuine mechanism for the recipient to eventually decline it."
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "explanation": "The essay consistently locates the line between preservation and coercion in the presence or absence of exit.",
       "hint": "Look for the answer that mentions 'decline' or 'exit'."
     }

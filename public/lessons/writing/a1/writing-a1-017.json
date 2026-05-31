@@ -3,7 +3,10 @@
   "level": "A1",
   "title": "A small shop I visit every week",
   "summary": "Describe a small shop you visit weekly, the owner, and what you buy.",
-  "tags": ["Places", "Routine"],
+  "tags": [
+    "Places",
+    "Routine"
+  ],
   "topic": "A small shop I visit every week",
   "prompt": "Write 6–8 short sentences about a small local shop you visit every week. Use present simple and adverbs of frequency.",
   "minWords": 150,
@@ -15,31 +18,98 @@
     "I like this shop because…"
   ],
   "hintVocab": [
-    { "phrase": "shop", "meaningVi": "cửa hàng" },
-    { "phrase": "owner", "meaningVi": "chủ", "pronunciation": "/ˈəʊnər/" },
-    { "phrase": "shelf", "meaningVi": "kệ" },
-    { "phrase": "bread", "meaningVi": "bánh mì" },
-    { "phrase": "milk", "meaningVi": "sữa" },
-    { "phrase": "vegetables", "meaningVi": "rau" },
-    { "phrase": "fresh", "meaningVi": "tươi" },
-    { "phrase": "cheap", "meaningVi": "rẻ" },
-    { "phrase": "every week", "meaningVi": "mỗi tuần" },
-    { "phrase": "smile", "meaningVi": "mỉm cười" },
-    { "phrase": "regular customer", "meaningVi": "khách quen" }
+    {
+      "phrase": "shop",
+      "meaningVi": "cửa hàng"
+    },
+    {
+      "phrase": "owner",
+      "meaningVi": "chủ",
+      "pronunciation": "/ˈəʊnər/"
+    },
+    {
+      "phrase": "shelf",
+      "meaningVi": "kệ"
+    },
+    {
+      "phrase": "bread",
+      "meaningVi": "bánh mì"
+    },
+    {
+      "phrase": "milk",
+      "meaningVi": "sữa"
+    },
+    {
+      "phrase": "vegetables",
+      "meaningVi": "rau"
+    },
+    {
+      "phrase": "fresh",
+      "meaningVi": "tươi"
+    },
+    {
+      "phrase": "cheap",
+      "meaningVi": "rẻ"
+    },
+    {
+      "phrase": "every week",
+      "meaningVi": "mỗi tuần"
+    },
+    {
+      "phrase": "smile",
+      "meaningVi": "mỉm cười"
+    },
+    {
+      "phrase": "regular customer",
+      "meaningVi": "khách quen"
+    }
   ],
   "sampleText": "There is a small grocery shop on my street in Athens. It is called 'Maria's Corner', and I visit it every Saturday morning. The shop is small, but it has many things. There are wooden shelves on the right side with bread, olive oil, and pasta. There are fresh vegetables in green boxes by the door. The owner is Maria, a kind woman from a small island. Her son George helps her on weekends, and he always smiles at the customers. I usually buy fresh bread, two tomatoes, one lemon, and a small jar of honey. The honey is from Maria's brother in the village, and it is very good. The shop is not very cheap, but the food is fresh. Maria always gives me one free olive when I pay. I sometimes stay for ten minutes and talk about the weather. I am a regular customer now. I like this small shop because it feels like part of my family. A small neighborhood shop makes the week feel warmer.",
   "sampleAnnotations": [
-    { "phrase": "small grocery shop", "meaningVi": "tiệm tạp hóa nhỏ" },
-    { "phrase": "every Saturday morning", "meaningVi": "mỗi sáng thứ Bảy" },
-    { "phrase": "wooden shelves", "meaningVi": "kệ gỗ" },
-    { "phrase": "olive oil", "meaningVi": "dầu ô liu" },
-    { "phrase": "fresh vegetables", "meaningVi": "rau tươi" },
-    { "phrase": "green boxes", "meaningVi": "thùng xanh" },
-    { "phrase": "small island", "meaningVi": "đảo nhỏ" },
-    { "phrase": "small jar of honey", "meaningVi": "hũ mật ong nhỏ" },
-    { "phrase": "one free olive", "meaningVi": "một quả ô liu miễn phí" },
-    { "phrase": "regular customer", "meaningVi": "khách quen" },
-    { "phrase": "neighborhood shop", "meaningVi": "tiệm trong khu phố" }
+    {
+      "phrase": "small grocery shop",
+      "meaningVi": "tiệm tạp hóa nhỏ"
+    },
+    {
+      "phrase": "every Saturday morning",
+      "meaningVi": "mỗi sáng thứ Bảy"
+    },
+    {
+      "phrase": "wooden shelves",
+      "meaningVi": "kệ gỗ"
+    },
+    {
+      "phrase": "olive oil",
+      "meaningVi": "dầu ô liu"
+    },
+    {
+      "phrase": "fresh vegetables",
+      "meaningVi": "rau tươi"
+    },
+    {
+      "phrase": "green boxes",
+      "meaningVi": "thùng xanh"
+    },
+    {
+      "phrase": "small island",
+      "meaningVi": "đảo nhỏ"
+    },
+    {
+      "phrase": "small jar of honey",
+      "meaningVi": "hũ mật ong nhỏ"
+    },
+    {
+      "phrase": "one free olive",
+      "meaningVi": "một quả ô liu miễn phí"
+    },
+    {
+      "phrase": "regular customer",
+      "meaningVi": "khách quen"
+    },
+    {
+      "phrase": "neighborhood shop",
+      "meaningVi": "tiệm trong khu phố"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -59,12 +129,12 @@
       "id": "q1",
       "prompt": "Which sentence uses present simple correctly?",
       "options": [
-        "I visit the shop every Saturday.",
         "I visiting the shop every Saturday.",
         "I to visit shop Saturday.",
+        "I visit the shop every Saturday.",
         "I am visit shop every Saturday."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "Present simple for a weekly habit.",
       "hint": "Weekly habit needs present simple."
     },
@@ -72,12 +142,12 @@
       "id": "q2",
       "prompt": "Which sentence uses 'there are' correctly?",
       "options": [
-        "There are fresh vegetables by the door.",
         "There are a vegetable by the door.",
         "There is vegetables by door.",
-        "There have vegetables door by."
+        "There have vegetables door by.",
+        "There are fresh vegetables by the door."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "Plural noun: 'there are'.",
       "hint": "Plural + 'are'."
     },
@@ -85,12 +155,12 @@
       "id": "q3",
       "prompt": "Which sentence is grammatically correct?",
       "options": [
-        "Maria give me a free olive.",
         "Maria gives me a free olive.",
+        "Maria give me a free olive.",
         "Maria giving me free olive.",
         "Maria is give me olive."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "Third person singular: 'gives'.",
       "hint": "Add -s for 'Maria'."
     },
@@ -98,12 +168,12 @@
       "id": "q4",
       "prompt": "Which sentence sounds most natural?",
       "options": [
-        "I usually buy fresh bread and two tomatoes.",
         "Buy I usually bread fresh.",
+        "I usually buy fresh bread and two tomatoes.",
         "Tomatoes I two bread buy fresh.",
         "Usually I fresh two buy bread tomatoes."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "Subject + adverb + verb + objects.",
       "hint": "Look for clear word order."
     },
@@ -111,12 +181,12 @@
       "id": "q5",
       "prompt": "Which sentence uses 'because' correctly?",
       "options": [
-        "I like this shop because the food is fresh.",
         "Because food fresh I shop.",
         "I because shop fresh food.",
+        "I like this shop because the food is fresh.",
         "Food fresh because shop like."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "Reason clause is complete.",
       "hint": "Look for a full clause after 'because'."
     },
@@ -124,12 +194,12 @@
       "id": "q6",
       "prompt": "Which word fits: 'The shop is small, ___ it has many things.'",
       "options": [
-        "but",
         "because",
         "and so so",
-        "to"
+        "to",
+        "but"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'but' shows contrast.",
       "hint": "Look for contrast linker."
     },
@@ -150,12 +220,12 @@
       "id": "q8",
       "prompt": "Which sentence is grammatically correct?",
       "options": [
-        "There is a wooden shelf on the right side.",
         "There is wooden shelf the on side right.",
+        "There is a wooden shelf on the right side.",
         "There a wooden shelf is.",
         "Wooden shelf there a side right."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'There is' + article + noun + place.",
       "hint": "Look for clean structure."
     },
@@ -163,12 +233,12 @@
       "id": "q9",
       "prompt": "Which adverb of frequency fits: 'I ___ stay for ten minutes and talk.'",
       "options": [
-        "sometimes",
         "loudly",
         "tomorrow",
+        "sometimes",
         "very"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'sometimes' is an adverb of frequency.",
       "hint": "Only one is a frequency word."
     },
@@ -176,12 +246,12 @@
       "id": "q10",
       "prompt": "Which sentence uses 'and' correctly?",
       "options": [
-        "Maria smiles, and her son helps the customers.",
         "Smiles and helps Maria customers son.",
         "Son customers and Maria smiles helps.",
-        "And helps son customers Maria smiles."
+        "And helps son customers Maria smiles.",
+        "Maria smiles, and her son helps the customers."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'and' joins two clear clauses.",
       "hint": "Clause + 'and' + clause."
     }

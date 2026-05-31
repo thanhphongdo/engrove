@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "On the dignity of disagreements that don't resolve",
   "summary": "Argue that unresolved disagreements can be a mark of intellectual health rather than failure — and that the compulsion to reach consensus too quickly often sacrifices truth for comfort.",
-  "tags": ["Ethics", "Dialogue", "Society"],
+  "tags": [
+    "Ethics",
+    "Dialogue",
+    "Society"
+  ],
   "topic": "The value of disagreements that persist without resolution",
   "prompt": "Write a 600–800-word argumentative essay defending the value of disagreements that remain unresolved. Argue that some disagreements reflect genuine differences in values, evidence, or experience that cannot be collapsed without dishonesty, and that the social pressure toward premature consensus is itself a form of intellectual harm. Use inversion at least once, a cleft sentence, and a 'granted… even so…' concession. Avoid the language of conflict resolution and debate coaching. Treat disagreement as a philosophical and ethical question, not a communication problem.",
   "minWords": 600,
@@ -14,51 +18,181 @@
     "Granted, unresolved disagreements are uncomfortable and can harden into mutual incomprehension. Even so,…"
   ],
   "hintVocab": [
-    {"phrase": "irresolvable disagreement", "meaningVi": "bất đồng không thể giải quyết"},
-    {"phrase": "premature consensus", "meaningVi": "sự đồng thuận quá sớm"},
-    {"phrase": "epistemic honesty", "meaningVi": "sự trung thực nhận thức"},
-    {"phrase": "value pluralism", "meaningVi": "chủ nghĩa đa nguyên về giá trị"},
-    {"phrase": "reasonable disagreement", "meaningVi": "bất đồng hợp lý"},
-    {"phrase": "false resolution", "meaningVi": "giải pháp giả tạo"},
-    {"phrase": "intellectual integrity", "meaningVi": "sự chính trực trí tuệ"},
-    {"phrase": "productive tension", "meaningVi": "sức căng có tính xây dựng"},
-    {"phrase": "moral complexity", "meaningVi": "sự phức tạp đạo đức"},
-    {"phrase": "the demand for closure", "meaningVi": "nhu cầu về sự kết thúc, giải quyết"},
-    {"phrase": "incommensurable values", "meaningVi": "những giá trị không thể so sánh", "pronunciation": "/ɪˌkɒmənˈsjuːrəbəl/"},
-    {"phrase": "dialectical", "meaningVi": "có tính biện chứng", "pronunciation": "/ˌdaɪəˈlektɪkəl/"},
-    {"phrase": "standpoint", "meaningVi": "quan điểm, lập trường"},
-    {"phrase": "capitulation", "meaningVi": "sự đầu hàng, nhượng bộ", "pronunciation": "/kəˌpɪtjʊˈleɪʃən/"},
-    {"phrase": "irenic", "meaningVi": "thúc đẩy hoà bình, tránh xung đột", "pronunciation": "/aɪˈrenɪk/"},
-    {"phrase": "to hold the disagreement open", "meaningVi": "giữ bất đồng ở trạng thái mở"},
-    {"phrase": "assented to under pressure", "meaningVi": "đồng ý dưới áp lực"},
-    {"phrase": "genuine convergence", "meaningVi": "sự hội tụ thực sự"},
-    {"phrase": "forced conciliation", "meaningVi": "sự hoà giải cưỡng bức"},
-    {"phrase": "contested terrain", "meaningVi": "lãnh địa tranh chấp"},
-    {"phrase": "honest impasse", "meaningVi": "bế tắc trung thực"}
+    {
+      "phrase": "irresolvable disagreement",
+      "meaningVi": "bất đồng không thể giải quyết"
+    },
+    {
+      "phrase": "premature consensus",
+      "meaningVi": "sự đồng thuận quá sớm"
+    },
+    {
+      "phrase": "epistemic honesty",
+      "meaningVi": "sự trung thực nhận thức"
+    },
+    {
+      "phrase": "value pluralism",
+      "meaningVi": "chủ nghĩa đa nguyên về giá trị"
+    },
+    {
+      "phrase": "reasonable disagreement",
+      "meaningVi": "bất đồng hợp lý"
+    },
+    {
+      "phrase": "false resolution",
+      "meaningVi": "giải pháp giả tạo"
+    },
+    {
+      "phrase": "intellectual integrity",
+      "meaningVi": "sự chính trực trí tuệ"
+    },
+    {
+      "phrase": "productive tension",
+      "meaningVi": "sức căng có tính xây dựng"
+    },
+    {
+      "phrase": "moral complexity",
+      "meaningVi": "sự phức tạp đạo đức"
+    },
+    {
+      "phrase": "the demand for closure",
+      "meaningVi": "nhu cầu về sự kết thúc, giải quyết"
+    },
+    {
+      "phrase": "incommensurable values",
+      "meaningVi": "những giá trị không thể so sánh",
+      "pronunciation": "/ɪˌkɒmənˈsjuːrəbəl/"
+    },
+    {
+      "phrase": "dialectical",
+      "meaningVi": "có tính biện chứng",
+      "pronunciation": "/ˌdaɪəˈlektɪkəl/"
+    },
+    {
+      "phrase": "standpoint",
+      "meaningVi": "quan điểm, lập trường"
+    },
+    {
+      "phrase": "capitulation",
+      "meaningVi": "sự đầu hàng, nhượng bộ",
+      "pronunciation": "/kəˌpɪtjʊˈleɪʃən/"
+    },
+    {
+      "phrase": "irenic",
+      "meaningVi": "thúc đẩy hoà bình, tránh xung đột",
+      "pronunciation": "/aɪˈrenɪk/"
+    },
+    {
+      "phrase": "to hold the disagreement open",
+      "meaningVi": "giữ bất đồng ở trạng thái mở"
+    },
+    {
+      "phrase": "assented to under pressure",
+      "meaningVi": "đồng ý dưới áp lực"
+    },
+    {
+      "phrase": "genuine convergence",
+      "meaningVi": "sự hội tụ thực sự"
+    },
+    {
+      "phrase": "forced conciliation",
+      "meaningVi": "sự hoà giải cưỡng bức"
+    },
+    {
+      "phrase": "contested terrain",
+      "meaningVi": "lãnh địa tranh chấp"
+    },
+    {
+      "phrase": "honest impasse",
+      "meaningVi": "bế tắc trung thực"
+    }
   ],
   "sampleText": "Only rarely does the persistence of a disagreement signal failure; more often it signals that something real is at stake — something that neither party can reasonably abandon without misrepresenting their own understanding. A debate about whether a government should prioritise economic growth or ecological restraint does not end in a handshake because neither position is simply an error; both reflect commitments that draw on real values and real evidence. To resolve that disagreement by formula — to paper over it with a declaration of shared goals — is not a political achievement. It is a form of intellectual evasion.\n\nThe pressure to reach consensus is understandable and not always wrong. In practical decisions — where something must be done, and where delay costs lives or resources — the ability to find workable agreement is a genuine virtue. But the demand for closure has a way of migrating from practical necessity into intellectual culture, where it does not belong. In seminars, in editorial meetings, in diplomatic back-rooms, in long marriages, there operates a tacit norm that disagreement is temporary, a friction on the way to a final agreement where both parties have moved. The person who refuses to move — who holds the disagreement open because they genuinely believe it is not resolvable — is cast as obstinate rather than honest.\n\nWhat the compulsion to resolve disagreement misses is not the value of consensus but the category of reasonable disagreement: the space in which two thoughtful, well-informed people, attending to the same evidence, reach different conclusions because they are weighing different values or working from different but equally legitimate frameworks. Isaiah Berlin called this value pluralism — the philosophical recognition that some goods genuinely compete and that no framework can maximise all of them simultaneously. On such questions, forced conciliation is not synthesis; it is the subordination of one set of values to another under the guise of agreement. The result is not consensus; it is capitulation by the weaker party.\n\nIt is the dishonesty of false resolution, not the discomfort of continued disagreement, that most deserves our concern. When two parties reach a position neither fully endorses — a formula to which both can assent under pressure without either having genuinely moved — they have not resolved their disagreement; they have obscured it. The original contested terrain is still there beneath the diplomatic language, waiting for the next stress. Genuine convergence, where it occurs, is recognisable precisely because it is unsolicited: one party finds themselves changed by the encounter, not merely worn down by it.\n\nGranted, unresolved disagreements are uncomfortable and can harden into mutual incomprehension. Even so, an honest impasse is preferable to a dishonest agreement, for the same reason that a known diagnosis is preferable to a misdiagnosis offered for comfort. The person who tells you that your situation is uncertain and your options are all imperfect is doing you more good than the person who tells you that everything will resolve satisfactorily if you follow a procedure that will not actually work. The same is true of intellectual life. A disagreement held open with care and rigour is more epistemically useful than one collapsed by social pressure into a resolution that satisfies neither party's actual position.\n\nThere is also a relational dignity in the disagreement that persists. When two people continue to disagree — to argue carefully, to revisit the evidence, to acknowledge what remains genuinely contested — they are treating each other as interlocutors rather than problems to be managed. The demand that a disagreement be resolved is, in some cases, a demand that the other person become simpler. To resist that demand, to hold the complexity of a real difference open, is not a failure of communication. It is a form of respect — for the difficulty of the question, for the standpoint of the other person, and for the intellectual integrity that genuine inquiry requires.\n\nNot every disagreement is worth sustaining, and not every impasse reflects genuine incommensurability; some are products of bad faith, poor evidence, or inattention. But the remedy for those is better argument, not premature consensus. The disagreement that ends in honest acknowledgement that it will not resolve is not a conversation that failed. It is one that went as far as the truth allowed.",
   "sampleAnnotations": [
-    {"phrase": "Only rarely does the persistence of a disagreement signal failure", "meaningVi": "Chỉ hiếm khi sự tồn tại dai dẳng của một bất đồng báo hiệu thất bại"},
-    {"phrase": "something real is at stake", "meaningVi": "có điều gì đó thực sự đang bị đe doạ"},
-    {"phrase": "misrepresenting their own understanding", "meaningVi": "xuyên tạc hiểu biết của chính họ"},
-    {"phrase": "paper over it with a declaration of shared goals", "meaningVi": "che đậy nó bằng một tuyên bố về mục tiêu chung"},
-    {"phrase": "a form of intellectual evasion", "meaningVi": "một hình thức né tránh trí tuệ"},
-    {"phrase": "the demand for closure has a way of migrating from practical necessity into intellectual culture", "meaningVi": "nhu cầu về sự kết thúc có xu hướng di chuyển từ sự cần thiết thực tế vào văn hóa trí tuệ"},
-    {"phrase": "holds the disagreement open", "meaningVi": "giữ bất đồng ở trạng thái mở"},
-    {"phrase": "cast as obstinate rather than honest", "meaningVi": "bị nhìn nhận là bướng bỉnh hơn là trung thực"},
-    {"phrase": "What the compulsion to resolve disagreement misses is not the value of consensus but the category of reasonable disagreement", "meaningVi": "Những gì sự thôi thúc giải quyết bất đồng bỏ lỡ không phải là giá trị của sự đồng thuận mà là phạm trù của bất đồng hợp lý"},
-    {"phrase": "value pluralism", "meaningVi": "chủ nghĩa đa nguyên về giá trị"},
-    {"phrase": "forced conciliation is not synthesis; it is the subordination of one set of values to another under the guise of agreement", "meaningVi": "sự hoà giải cưỡng bức không phải là tổng hợp; đó là sự phục tùng của một tập hợp giá trị với tập hợp khác dưới vỏ bọc của sự đồng thuận"},
-    {"phrase": "capitulation by the weaker party", "meaningVi": "sự đầu hàng của bên yếu hơn"},
-    {"phrase": "It is the dishonesty of false resolution, not the discomfort of continued disagreement, that most deserves our concern", "meaningVi": "Chính sự thiếu trung thực của giải pháp giả tạo, không phải sự khó chịu của bất đồng tiếp diễn, mới đáng được quan tâm nhất"},
-    {"phrase": "assent under pressure", "meaningVi": "đồng ý dưới áp lực"},
-    {"phrase": "Genuine convergence, where it occurs, is recognisable precisely because it is unsolicited", "meaningVi": "Sự hội tụ thực sự, khi xảy ra, có thể nhận ra chính xác vì nó không được yêu cầu"},
-    {"phrase": "Granted, unresolved disagreements are uncomfortable and can harden into mutual incomprehension", "meaningVi": "Cứ cho là những bất đồng chưa được giải quyết là khó chịu và có thể trở nên cứng nhắc thành sự không hiểu nhau lẫn nhau"},
-    {"phrase": "Even so, an honest impasse is preferable to a dishonest agreement", "meaningVi": "Dù vậy, một bế tắc trung thực được ưa thích hơn một thỏa thuận không trung thực"},
-    {"phrase": "epistemically useful", "meaningVi": "hữu ích về mặt nhận thức"},
-    {"phrase": "treating each other as interlocutors rather than problems to be managed", "meaningVi": "đối xử với nhau như những người đối thoại hơn là những vấn đề cần được quản lý"},
-    {"phrase": "the intellectual integrity that genuine inquiry requires", "meaningVi": "sự chính trực trí tuệ mà cuộc tìm kiếm thực sự đòi hỏi"},
-    {"phrase": "as far as the truth allowed", "meaningVi": "xa đến mức sự thật cho phép"}
+    {
+      "phrase": "Only rarely does the persistence of a disagreement signal failure",
+      "meaningVi": "Chỉ hiếm khi sự tồn tại dai dẳng của một bất đồng báo hiệu thất bại"
+    },
+    {
+      "phrase": "something real is at stake",
+      "meaningVi": "có điều gì đó thực sự đang bị đe doạ"
+    },
+    {
+      "phrase": "misrepresenting their own understanding",
+      "meaningVi": "xuyên tạc hiểu biết của chính họ"
+    },
+    {
+      "phrase": "paper over it with a declaration of shared goals",
+      "meaningVi": "che đậy nó bằng một tuyên bố về mục tiêu chung"
+    },
+    {
+      "phrase": "a form of intellectual evasion",
+      "meaningVi": "một hình thức né tránh trí tuệ"
+    },
+    {
+      "phrase": "the demand for closure has a way of migrating from practical necessity into intellectual culture",
+      "meaningVi": "nhu cầu về sự kết thúc có xu hướng di chuyển từ sự cần thiết thực tế vào văn hóa trí tuệ"
+    },
+    {
+      "phrase": "holds the disagreement open",
+      "meaningVi": "giữ bất đồng ở trạng thái mở"
+    },
+    {
+      "phrase": "cast as obstinate rather than honest",
+      "meaningVi": "bị nhìn nhận là bướng bỉnh hơn là trung thực"
+    },
+    {
+      "phrase": "What the compulsion to resolve disagreement misses is not the value of consensus but the category of reasonable disagreement",
+      "meaningVi": "Những gì sự thôi thúc giải quyết bất đồng bỏ lỡ không phải là giá trị của sự đồng thuận mà là phạm trù của bất đồng hợp lý"
+    },
+    {
+      "phrase": "value pluralism",
+      "meaningVi": "chủ nghĩa đa nguyên về giá trị"
+    },
+    {
+      "phrase": "forced conciliation is not synthesis; it is the subordination of one set of values to another under the guise of agreement",
+      "meaningVi": "sự hoà giải cưỡng bức không phải là tổng hợp; đó là sự phục tùng của một tập hợp giá trị với tập hợp khác dưới vỏ bọc của sự đồng thuận"
+    },
+    {
+      "phrase": "capitulation by the weaker party",
+      "meaningVi": "sự đầu hàng của bên yếu hơn"
+    },
+    {
+      "phrase": "It is the dishonesty of false resolution, not the discomfort of continued disagreement, that most deserves our concern",
+      "meaningVi": "Chính sự thiếu trung thực của giải pháp giả tạo, không phải sự khó chịu của bất đồng tiếp diễn, mới đáng được quan tâm nhất"
+    },
+    {
+      "phrase": "assent under pressure",
+      "meaningVi": "đồng ý dưới áp lực"
+    },
+    {
+      "phrase": "Genuine convergence, where it occurs, is recognisable precisely because it is unsolicited",
+      "meaningVi": "Sự hội tụ thực sự, khi xảy ra, có thể nhận ra chính xác vì nó không được yêu cầu"
+    },
+    {
+      "phrase": "Granted, unresolved disagreements are uncomfortable and can harden into mutual incomprehension",
+      "meaningVi": "Cứ cho là những bất đồng chưa được giải quyết là khó chịu và có thể trở nên cứng nhắc thành sự không hiểu nhau lẫn nhau"
+    },
+    {
+      "phrase": "Even so, an honest impasse is preferable to a dishonest agreement",
+      "meaningVi": "Dù vậy, một bế tắc trung thực được ưa thích hơn một thỏa thuận không trung thực"
+    },
+    {
+      "phrase": "epistemically useful",
+      "meaningVi": "hữu ích về mặt nhận thức"
+    },
+    {
+      "phrase": "treating each other as interlocutors rather than problems to be managed",
+      "meaningVi": "đối xử với nhau như những người đối thoại hơn là những vấn đề cần được quản lý"
+    },
+    {
+      "phrase": "the intellectual integrity that genuine inquiry requires",
+      "meaningVi": "sự chính trực trí tuệ mà cuộc tìm kiếm thực sự đòi hỏi"
+    },
+    {
+      "phrase": "as far as the truth allowed",
+      "meaningVi": "xa đến mức sự thật cho phép"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -92,11 +226,11 @@
       "prompt": "What does the essay say about the persistence of a disagreement?",
       "options": [
         "It always signals that one party is being obstinate",
-        "It rarely signals failure; more often it signals that something genuinely real and important is at stake",
         "It signals that both parties need better communication training",
+        "It rarely signals failure; more often it signals that something genuinely real and important is at stake",
         "It is a sign that the disagreement should be referred to a mediator"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The opening line states: 'Only rarely does the persistence of a disagreement signal failure; more often it signals that something real is at stake.'",
       "hint": "Look at the essay's first sentence."
     },
@@ -105,11 +239,11 @@
       "prompt": "What is 'value pluralism' as described by the essay?",
       "options": [
         "The belief that all cultural values are equally valid",
-        "The philosophical recognition that some genuine goods compete and that no framework can maximise all of them simultaneously",
         "A political system that accommodates multiple parties",
-        "The practice of teaching children several value systems"
+        "The practice of teaching children several value systems",
+        "The philosophical recognition that some genuine goods compete and that no framework can maximise all of them simultaneously"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay attributes to Isaiah Berlin the concept of 'value pluralism — the philosophical recognition that some goods genuinely compete and that no framework can maximise all of them simultaneously.'",
       "hint": "Look for the Berlin reference and its definition."
     },
@@ -117,12 +251,12 @@
       "id": "q4",
       "prompt": "What does 'forced conciliation' produce, according to the essay?",
       "options": [
-        "A durable peace that both parties can build on",
         "The subordination of one party's values to another's, disguised as agreement",
+        "A durable peace that both parties can build on",
         "A creative synthesis that transcends both original positions",
         "Reduced hostility between parties"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay states: 'forced conciliation is not synthesis; it is the subordination of one set of values to another under the guise of agreement.'",
       "hint": "Look for 'forced conciliation is not synthesis'."
     },
@@ -144,11 +278,11 @@
       "prompt": "How does the essay describe genuine convergence?",
       "options": [
         "As the result of skilled mediation and formal negotiation",
-        "As recognisable precisely because it is unsolicited — one party is changed by the encounter, not worn down by it",
         "As the moment when both parties agree on a compromise formula",
+        "As recognisable precisely because it is unsolicited — one party is changed by the encounter, not worn down by it",
         "As an outcome that can be manufactured through patient dialogue"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay says: 'Genuine convergence, where it occurs, is recognisable precisely because it is unsolicited: one party finds themselves changed by the encounter, not merely worn down by it.'",
       "hint": "Look for 'unsolicited' in the paragraph about false resolution."
     },
@@ -157,11 +291,11 @@
       "prompt": "Which correctly applies 'Granted… Even so…'?",
       "options": [
         "Even so, unresolved disagreements are uncomfortable. Granted, an honest impasse is preferable.",
-        "Granted, unresolved disagreements are uncomfortable and can harden into mutual incomprehension. Even so, an honest impasse is preferable to a dishonest agreement.",
         "Even so and granted — disagreements are both useful and uncomfortable.",
-        "Granted, mutual incomprehension is bad. Even so, dishonest agreement is worse — this order is optional."
+        "Granted, mutual incomprehension is bad. Even so, dishonest agreement is worse — this order is optional.",
+        "Granted, unresolved disagreements are uncomfortable and can harden into mutual incomprehension. Even so, an honest impasse is preferable to a dishonest agreement."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'Granted' concedes that unresolved disagreements are uncomfortable; 'Even so' pivots to the preference for honest impasse over dishonest agreement.",
       "hint": "The concession always comes before the counter-argument."
     },
@@ -169,12 +303,12 @@
       "id": "q8",
       "prompt": "What analogy does the essay use to explain why honest impasse is preferable to dishonest agreement?",
       "options": [
-        "A broken machine versus a working one",
         "A known diagnosis versus a false reassurance offered for comfort",
+        "A broken machine versus a working one",
         "A map versus a photograph",
         "An unfinished building versus a condemned one"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay says an honest impasse is preferable to a dishonest agreement 'for the same reason that a known diagnosis is preferable to a misdiagnosis offered for comfort.'",
       "hint": "Look for the medical analogy in paragraph five."
     },
@@ -196,11 +330,11 @@
       "prompt": "What does 'capitulation by the weaker party' describe?",
       "options": [
         "A military surrender following defeat in battle",
-        "The forced agreement of the party with less social or institutional power when genuine disagreement is not permitted to stand",
         "The natural tendency of less experienced debaters to concede",
+        "The forced agreement of the party with less social or institutional power when genuine disagreement is not permitted to stand",
         "The legal obligation to accept a court's judgement"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay uses 'capitulation' to describe what happens when forced conciliation produces an outcome that is not genuine synthesis but the submission of the weaker party.",
       "hint": "Look at the sentence that ends '…it is the subordination of one set of values to another.'"
     },
@@ -209,11 +343,11 @@
       "prompt": "What does 'the demand for closure has a way of migrating from practical necessity into intellectual culture' mean?",
       "options": [
         "Debates in intellectual settings are more likely to be unresolved than practical ones",
-        "A norm appropriate for urgent practical decisions wrongly spreads into intellectual contexts where truth matters more than speed",
         "Intellectual culture is more resistant to closure than practical fields",
-        "Closure is a concept that originated in therapy and spread to other fields"
+        "Closure is a concept that originated in therapy and spread to other fields",
+        "A norm appropriate for urgent practical decisions wrongly spreads into intellectual contexts where truth matters more than speed"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay argues closure is appropriate in practical decisions (where something must be done) but harmful when imported into intellectual culture, where premature resolution distorts truth.",
       "hint": "Look for the contrast between 'practical decisions' and 'intellectual culture'."
     },
@@ -221,12 +355,12 @@
       "id": "q12",
       "prompt": "What does 'epistemically useful' mean in the context of the essay?",
       "options": [
-        "Useful for improving memory",
         "Useful for generating or preserving genuine knowledge and honest understanding",
+        "Useful for improving memory",
         "Useful for passing academic examinations",
         "Useful for improving classroom performance"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay describes a disagreement held open with care as 'more epistemically useful than one collapsed by social pressure into a resolution that satisfies neither party's actual position.' Epistemic = relating to knowledge.",
       "hint": "Think about what 'epistemic' relates to — knowledge and how it is justified."
     },
@@ -248,11 +382,11 @@
       "prompt": "How does the essay frame the relational value of sustained disagreement?",
       "options": [
         "As a sign of healthy competition between intellectually equal parties",
-        "As a form of respect — treating the other person as an interlocutor whose complexity deserves acknowledgement",
         "As evidence of good debating skills",
+        "As a form of respect — treating the other person as an interlocutor whose complexity deserves acknowledgement",
         "As a way of testing the strength of a relationship"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay says continuing to disagree carefully means 'treating each other as interlocutors rather than problems to be managed' — a form of respect for complexity.",
       "hint": "Look for the paragraph beginning 'There is also a relational dignity…'"
     },
@@ -261,11 +395,11 @@
       "prompt": "What does the essay's final sentence mean?",
       "options": [
         "The best conversations always end in agreement",
-        "A conversation that ends in honest acknowledged impasse is not a failure — it reached the limit of what the truth permitted",
         "Truth is the most important goal in any conversation",
-        "Conversations that do not resolve are incomplete and should be continued"
+        "Conversations that do not resolve are incomplete and should be continued",
+        "A conversation that ends in honest acknowledged impasse is not a failure — it reached the limit of what the truth permitted"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The final line — 'It is one that went as far as the truth allowed' — frames honest impasse as a form of success: having followed the inquiry as far as it could honestly go.",
       "hint": "Look at how the essay defines success for a disagreement."
     }

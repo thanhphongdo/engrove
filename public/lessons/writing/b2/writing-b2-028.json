@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "Whether childhood homes should be preserved",
   "summary": "Argue whether the childhood homes of significant individuals — writers, musicians, scientists, leaders — should be preserved as heritage sites or allowed to be demolished or repurposed.",
-  "tags": ["Heritage", "Memory", "Architecture", "Culture"],
+  "tags": [
+    "Heritage",
+    "Memory",
+    "Architecture",
+    "Culture"
+  ],
   "topic": "Whether childhood homes should be preserved",
   "prompt": "Write an argumentative essay (350–500 words) on whether childhood homes of historically significant individuals should be preserved as heritage sites. Consider what is actually gained by preserving a building versus what it costs in terms of resources, urban development, and the risk of misrepresenting a life. You may refer to real examples such as the preservation of Shakespeare's birthplace in Stratford-upon-Avon, Nelson Mandela's house in Soweto, or the debate over Emily Dickinson's Amherst home. Use a cleft sentence, a concession, and at least one passive construction. Take a clear position.",
   "minWords": 350,
@@ -15,50 +20,177 @@
     "The question is whether it is the building that matters or the idea the building has come to…"
   ],
   "hintVocab": [
-    { "phrase": "heritage site", "meaningVi": "di sản / địa điểm di sản" },
-    { "phrase": "to be designated", "meaningVi": "được chỉ định / được công nhận" },
-    { "phrase": "to preserve", "meaningVi": "bảo tồn" },
-    { "phrase": "to demolish", "meaningVi": "phá hủy / dỡ bỏ", "pronunciation": "/dɪˈmɒl.ɪʃ/" },
-    { "phrase": "to repurpose", "meaningVi": "tái sử dụng cho mục đích khác" },
-    { "phrase": "listed building", "meaningVi": "công trình được bảo hộ / công trình trong danh sách bảo tồn" },
-    { "phrase": "authenticity", "meaningVi": "tính xác thực", "pronunciation": "/ˌɔː.θenˈtɪs.ɪ.ti/" },
-    { "phrase": "to sanitise history", "meaningVi": "làm sạch / tẩy trắng lịch sử" },
-    { "phrase": "commemorative plaque", "meaningVi": "biển tưởng niệm" },
-    { "phrase": "urban development", "meaningVi": "phát triển đô thị" },
-    { "phrase": "to mythologise", "meaningVi": "huyền thoại hóa", "pronunciation": "/mɪˈθɒl.ə.dʒaɪz/" },
-    { "phrase": "material culture", "meaningVi": "văn hóa vật chất" },
-    { "phrase": "to be frozen in time", "meaningVi": "bị đóng băng trong thời gian" },
-    { "phrase": "to contextualise", "meaningVi": "đặt vào bối cảnh", "pronunciation": "/kənˈteks.tʃu.ə.laɪz/" },
-    { "phrase": "tangible connection", "meaningVi": "kết nối hữu hình" },
-    { "phrase": "to be reduced to a symbol", "meaningVi": "bị thu gọn thành biểu tượng" },
-    { "phrase": "curatorial choice", "meaningVi": "lựa chọn của người quản lý bảo tàng" },
-    { "phrase": "to obscure complexity", "meaningVi": "che khuất sự phức tạp" },
-    { "phrase": "collective memory", "meaningVi": "ký ức tập thể" },
-    { "phrase": "to distort a legacy", "meaningVi": "bóp méo di sản" },
-    { "phrase": "to fall into disrepair", "meaningVi": "xuống cấp / bị hư hỏng" }
+    {
+      "phrase": "heritage site",
+      "meaningVi": "di sản / địa điểm di sản"
+    },
+    {
+      "phrase": "to be designated",
+      "meaningVi": "được chỉ định / được công nhận"
+    },
+    {
+      "phrase": "to preserve",
+      "meaningVi": "bảo tồn"
+    },
+    {
+      "phrase": "to demolish",
+      "meaningVi": "phá hủy / dỡ bỏ",
+      "pronunciation": "/dɪˈmɒl.ɪʃ/"
+    },
+    {
+      "phrase": "to repurpose",
+      "meaningVi": "tái sử dụng cho mục đích khác"
+    },
+    {
+      "phrase": "listed building",
+      "meaningVi": "công trình được bảo hộ / công trình trong danh sách bảo tồn"
+    },
+    {
+      "phrase": "authenticity",
+      "meaningVi": "tính xác thực",
+      "pronunciation": "/ˌɔː.θenˈtɪs.ɪ.ti/"
+    },
+    {
+      "phrase": "to sanitise history",
+      "meaningVi": "làm sạch / tẩy trắng lịch sử"
+    },
+    {
+      "phrase": "commemorative plaque",
+      "meaningVi": "biển tưởng niệm"
+    },
+    {
+      "phrase": "urban development",
+      "meaningVi": "phát triển đô thị"
+    },
+    {
+      "phrase": "to mythologise",
+      "meaningVi": "huyền thoại hóa",
+      "pronunciation": "/mɪˈθɒl.ə.dʒaɪz/"
+    },
+    {
+      "phrase": "material culture",
+      "meaningVi": "văn hóa vật chất"
+    },
+    {
+      "phrase": "to be frozen in time",
+      "meaningVi": "bị đóng băng trong thời gian"
+    },
+    {
+      "phrase": "to contextualise",
+      "meaningVi": "đặt vào bối cảnh",
+      "pronunciation": "/kənˈteks.tʃu.ə.laɪz/"
+    },
+    {
+      "phrase": "tangible connection",
+      "meaningVi": "kết nối hữu hình"
+    },
+    {
+      "phrase": "to be reduced to a symbol",
+      "meaningVi": "bị thu gọn thành biểu tượng"
+    },
+    {
+      "phrase": "curatorial choice",
+      "meaningVi": "lựa chọn của người quản lý bảo tàng"
+    },
+    {
+      "phrase": "to obscure complexity",
+      "meaningVi": "che khuất sự phức tạp"
+    },
+    {
+      "phrase": "collective memory",
+      "meaningVi": "ký ức tập thể"
+    },
+    {
+      "phrase": "to distort a legacy",
+      "meaningVi": "bóp méo di sản"
+    },
+    {
+      "phrase": "to fall into disrepair",
+      "meaningVi": "xuống cấp / bị hư hỏng"
+    }
   ],
   "sampleText": "Shakespeare's birthplace on Henley Street in Stratford-upon-Avon attracts nearly a million visitors a year. They walk through the low-ceilinged rooms, inspect the furniture attributed to the Shakespeare family, and stand in the garden where, it is implied, something essential about the playwright was formed. Whether any of this is actually true is a matter scholars have disputed for centuries. The birthplace has been restored, rebuilt in parts, and extensively redecorated since the sixteenth century. What visitors encounter is not Shakespeare's childhood but a carefully managed version of it.\n\nThis is the central problem with preserving childhood homes as heritage sites. What is being offered is rarely the past itself but an interpretation of the past, constructed with the benefit of knowing how the story ends. The house in which Nelson Mandela grew up in Soweto was preserved precisely because Mandela became who he became — the same house, had he lived an ordinary life, would have been demolished long ago. The decision about which homes are worth preserving is always made retrospectively, which means it is always shaped by our knowledge of the person's later significance rather than by the actual conditions of the childhood itself.\n\nGranted, some buildings do illuminate history in ways that written accounts cannot. Mandela's Soweto home — a small, modest township house — communicates something immediately and powerfully about the conditions in which apartheid South Africa was lived. The house is not merely a symbol; it is evidence. Similarly, visiting Emily Dickinson's Amherst home allows readers to understand the physical constraints — the small bedroom, the view from the window, the distance from the street — that shaped the geography of her imagination. These are genuine insights that a photograph or a biography would not convey with the same force.\n\nEven so, preservation is not neutral. A house that is maintained, staffed, and curated is a house that is being argued about, and the argument is never fully disclosed. Rooms are staged; objects are selected; narratives are chosen and others are excluded. The result is often a figure reduced to a symbol — inspirational, uncomplicated, and stripped of the contradictions that made them interesting. What is preserved, in many cases, is not a life but a version of a life that serves a particular purpose.\n\nA commemorative plaque on an ordinary wall can acknowledge a connection without freezing it. The building beneath the plaque can go on being used, changed, and inhabited — which is, after all, what buildings are for. Selective preservation of the most genuinely significant and well-evidenced sites, combined with honest interpretation, is preferable to heritage-as-myth.",
   "sampleAnnotations": [
-    { "phrase": "attracts nearly a million visitors a year", "meaningVi": "thu hút gần một triệu du khách mỗi năm" },
-    { "phrase": "Whether any of this is actually true is a matter scholars have disputed for centuries", "meaningVi": "liệu điều nào trong số này có thực sự đúng hay không là vấn đề mà các học giả đã tranh luận trong nhiều thế kỷ" },
-    { "phrase": "has been restored, rebuilt in parts, and extensively redecorated since the sixteenth century", "meaningVi": "đã được phục hồi, xây dựng lại từng phần và trang trí lại rộng rãi kể từ thế kỷ thứ mười sáu" },
-    { "phrase": "What visitors encounter is not Shakespeare's childhood but a carefully managed version of it", "meaningVi": "điều du khách gặp gỡ không phải là tuổi thơ của Shakespeare mà là một phiên bản được quản lý cẩn thận" },
-    { "phrase": "What is being offered is rarely the past itself but an interpretation of the past", "meaningVi": "điều đang được cung cấp hiếm khi là quá khứ thực sự mà là một cách diễn giải về quá khứ" },
-    { "phrase": "constructed with the benefit of knowing how the story ends", "meaningVi": "được xây dựng với lợi thế của việc biết câu chuyện kết thúc như thế nào" },
-    { "phrase": "the same house, had he lived an ordinary life, would have been demolished long ago", "meaningVi": "cùng ngôi nhà đó, nếu ông sống một cuộc đời bình thường, đã bị phá hủy từ lâu" },
-    { "phrase": "always made retrospectively", "meaningVi": "luôn được đưa ra một cách hồi tố" },
-    { "phrase": "shaped by our knowledge of the person's later significance", "meaningVi": "được định hình bởi kiến thức của chúng ta về tầm quan trọng sau này của người đó" },
-    { "phrase": "Granted, some buildings do illuminate history in ways that written accounts cannot", "meaningVi": "công nhận, một số tòa nhà thực sự chiếu sáng lịch sử theo những cách mà các tài khoản bằng văn bản không thể" },
-    { "phrase": "communicates something immediately and powerfully about the conditions in which apartheid South Africa was lived", "meaningVi": "truyền đạt điều gì đó ngay lập tức và mạnh mẽ về những điều kiện sống ở Nam Phi thời apartheid" },
-    { "phrase": "The house is not merely a symbol; it is evidence", "meaningVi": "Ngôi nhà không chỉ là biểu tượng; đó là bằng chứng" },
-    { "phrase": "the physical constraints — the small bedroom, the view from the window, the distance from the street", "meaningVi": "những hạn chế vật lý — phòng ngủ nhỏ, tầm nhìn từ cửa sổ, khoảng cách với con phố" },
-    { "phrase": "shaped the geography of her imagination", "meaningVi": "định hình địa lý của trí tưởng tượng của cô ấy" },
-    { "phrase": "preservation is not neutral", "meaningVi": "bảo tồn không trung lập" },
-    { "phrase": "A house that is maintained, staffed, and curated is a house that is being argued about", "meaningVi": "Một ngôi nhà được bảo trì, có nhân viên và được quản lý là một ngôi nhà đang được tranh luận" },
-    { "phrase": "the argument is never fully disclosed", "meaningVi": "cuộc tranh luận không bao giờ được tiết lộ đầy đủ" },
-    { "phrase": "a figure reduced to a symbol — inspirational, uncomplicated, and stripped of the contradictions", "meaningVi": "một nhân vật bị thu gọn thành biểu tượng — truyền cảm hứng, đơn giản và bị tước bỏ những mâu thuẫn" },
-    { "phrase": "What is preserved, in many cases, is not a life but a version of a life that serves a particular purpose", "meaningVi": "điều được bảo tồn, trong nhiều trường hợp, không phải là một cuộc đời mà là một phiên bản của một cuộc đời phục vụ một mục đích cụ thể" },
-    { "phrase": "A commemorative plaque on an ordinary wall can acknowledge a connection without freezing it", "meaningVi": "Một biển tưởng niệm trên một bức tường thông thường có thể thừa nhận sự kết nối mà không cần đóng băng nó" }
+    {
+      "phrase": "attracts nearly a million visitors a year",
+      "meaningVi": "thu hút gần một triệu du khách mỗi năm"
+    },
+    {
+      "phrase": "Whether any of this is actually true is a matter scholars have disputed for centuries",
+      "meaningVi": "liệu điều nào trong số này có thực sự đúng hay không là vấn đề mà các học giả đã tranh luận trong nhiều thế kỷ"
+    },
+    {
+      "phrase": "has been restored, rebuilt in parts, and extensively redecorated since the sixteenth century",
+      "meaningVi": "đã được phục hồi, xây dựng lại từng phần và trang trí lại rộng rãi kể từ thế kỷ thứ mười sáu"
+    },
+    {
+      "phrase": "What visitors encounter is not Shakespeare's childhood but a carefully managed version of it",
+      "meaningVi": "điều du khách gặp gỡ không phải là tuổi thơ của Shakespeare mà là một phiên bản được quản lý cẩn thận"
+    },
+    {
+      "phrase": "What is being offered is rarely the past itself but an interpretation of the past",
+      "meaningVi": "điều đang được cung cấp hiếm khi là quá khứ thực sự mà là một cách diễn giải về quá khứ"
+    },
+    {
+      "phrase": "constructed with the benefit of knowing how the story ends",
+      "meaningVi": "được xây dựng với lợi thế của việc biết câu chuyện kết thúc như thế nào"
+    },
+    {
+      "phrase": "the same house, had he lived an ordinary life, would have been demolished long ago",
+      "meaningVi": "cùng ngôi nhà đó, nếu ông sống một cuộc đời bình thường, đã bị phá hủy từ lâu"
+    },
+    {
+      "phrase": "always made retrospectively",
+      "meaningVi": "luôn được đưa ra một cách hồi tố"
+    },
+    {
+      "phrase": "shaped by our knowledge of the person's later significance",
+      "meaningVi": "được định hình bởi kiến thức của chúng ta về tầm quan trọng sau này của người đó"
+    },
+    {
+      "phrase": "Granted, some buildings do illuminate history in ways that written accounts cannot",
+      "meaningVi": "công nhận, một số tòa nhà thực sự chiếu sáng lịch sử theo những cách mà các tài khoản bằng văn bản không thể"
+    },
+    {
+      "phrase": "communicates something immediately and powerfully about the conditions in which apartheid South Africa was lived",
+      "meaningVi": "truyền đạt điều gì đó ngay lập tức và mạnh mẽ về những điều kiện sống ở Nam Phi thời apartheid"
+    },
+    {
+      "phrase": "The house is not merely a symbol; it is evidence",
+      "meaningVi": "Ngôi nhà không chỉ là biểu tượng; đó là bằng chứng"
+    },
+    {
+      "phrase": "the physical constraints — the small bedroom, the view from the window, the distance from the street",
+      "meaningVi": "những hạn chế vật lý — phòng ngủ nhỏ, tầm nhìn từ cửa sổ, khoảng cách với con phố"
+    },
+    {
+      "phrase": "shaped the geography of her imagination",
+      "meaningVi": "định hình địa lý của trí tưởng tượng của cô ấy"
+    },
+    {
+      "phrase": "preservation is not neutral",
+      "meaningVi": "bảo tồn không trung lập"
+    },
+    {
+      "phrase": "A house that is maintained, staffed, and curated is a house that is being argued about",
+      "meaningVi": "Một ngôi nhà được bảo trì, có nhân viên và được quản lý là một ngôi nhà đang được tranh luận"
+    },
+    {
+      "phrase": "the argument is never fully disclosed",
+      "meaningVi": "cuộc tranh luận không bao giờ được tiết lộ đầy đủ"
+    },
+    {
+      "phrase": "a figure reduced to a symbol — inspirational, uncomplicated, and stripped of the contradictions",
+      "meaningVi": "một nhân vật bị thu gọn thành biểu tượng — truyền cảm hứng, đơn giản và bị tước bỏ những mâu thuẫn"
+    },
+    {
+      "phrase": "What is preserved, in many cases, is not a life but a version of a life that serves a particular purpose",
+      "meaningVi": "điều được bảo tồn, trong nhiều trường hợp, không phải là một cuộc đời mà là một phiên bản của một cuộc đời phục vụ một mục đích cụ thể"
+    },
+    {
+      "phrase": "A commemorative plaque on an ordinary wall can acknowledge a connection without freezing it",
+      "meaningVi": "Một biển tưởng niệm trên một bức tường thông thường có thể thừa nhận sự kết nối mà không cần đóng băng nó"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -79,11 +211,11 @@
       "prompt": "Which sentence uses a 'what' cleft to expose the gap between expectation and reality at heritage sites?",
       "options": [
         "Visitors to Shakespeare's birthplace do not find the real past.",
-        "What visitors encounter is not Shakespeare's childhood but a carefully managed version of it.",
         "It is the visitors who encounter what Shakespeare's childhood was like in his birthplace.",
+        "What visitors encounter is not Shakespeare's childhood but a carefully managed version of it.",
         "Shakespeare's childhood is not what visitors find when they go to Stratford."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'What visitors encounter is not A but B' uses a cleft to pivot from expected content (the real past) to actual content (a managed version), setting up the essay's central argument.",
       "hint": "Look for 'What X encounters is not A but B'."
     },
@@ -92,11 +224,11 @@
       "prompt": "Which passive perfect series implies accumulated, undisclosed change?",
       "options": [
         "Restorers restored, rebuilt, and redecorated the house over the centuries.",
-        "The house has been restored, rebuilt in parts, and extensively redecorated since the sixteenth century.",
         "The house was being restored, rebuilt, and redecorated since the sixteenth century.",
-        "The sixteenth century house is restored, rebuilt, and redecorated by various people."
+        "The sixteenth century house is restored, rebuilt, and redecorated by various people.",
+        "The house has been restored, rebuilt in parts, and extensively redecorated since the sixteenth century."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'has been restored, rebuilt in parts, and extensively redecorated' is a present perfect passive series that implies multiple changes over centuries without naming those responsible.",
       "hint": "Which option uses the present perfect passive with three past participles?"
     },
@@ -104,12 +236,12 @@
       "id": "q3",
       "prompt": "What does 'authenticity' mean in the context of heritage sites?",
       "options": [
-        "The legal status of a building as protected by heritage law",
         "The genuine, original character of a place — whether it truly represents the historical period claimed",
+        "The legal status of a building as protected by heritage law",
         "The number of visitors a site attracts each year",
         "The accuracy of the guidebooks and information provided to tourists"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'Authenticity' at heritage sites refers to whether a place genuinely preserves or represents the original — the essay argues this is often compromised by reconstruction and curation.",
       "hint": "Think of 'authentic' as 'genuinely original' rather than 'restored to look original'."
     },
@@ -131,11 +263,11 @@
       "prompt": "What concession does the essay make about childhood home preservation?",
       "options": [
         "All childhood homes of significant figures deserve equal preservation funding.",
-        "Some buildings genuinely illuminate history in ways written accounts cannot, providing tangible, evidential insight.",
         "Preservation is always preferable to demolition because buildings cannot be rebuilt once lost.",
+        "Some buildings genuinely illuminate history in ways written accounts cannot, providing tangible, evidential insight.",
         "The problem of preservation is unsolvable because historians always disagree."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay concedes that some buildings — like Mandela's Soweto house and Dickinson's Amherst home — do offer genuine historical insight that written sources cannot convey.",
       "hint": "Find the paragraph beginning with 'Granted' for the conceded points."
     },
@@ -144,11 +276,11 @@
       "prompt": "Why does the essay cite Mandela's Soweto house as a positive example?",
       "options": [
         "Because it is the only childhood home in South Africa to have been preserved",
-        "Because it communicates immediately and powerfully the conditions of life under apartheid",
         "Because Mandela himself requested that it be preserved",
-        "Because it is the most architecturally significant building in Soweto"
+        "Because it is the most architecturally significant building in Soweto",
+        "Because it communicates immediately and powerfully the conditions of life under apartheid"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The Mandela house is cited as a case where the building itself is evidence — its scale and modesty communicate social reality in a way no photograph or text can fully replicate.",
       "hint": "The essay says the house is 'not merely a symbol; it is evidence' — what kind of evidence?"
     },
@@ -156,12 +288,12 @@
       "id": "q7",
       "prompt": "What does 'to sanitise history' mean?",
       "options": [
-        "To make historical buildings physically clean and safe for visitors",
         "To present a simplified, uncritical version of history that removes difficult truths",
+        "To make historical buildings physically clean and safe for visitors",
         "To use modern methods to date and verify historical artefacts",
         "To translate historical documents into contemporary language"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'To sanitise history' means to clean up or simplify the historical record by removing contradictions, failures, or uncomfortable truths — leaving only an idealised version.",
       "hint": "Think of sanitising as making something 'safe' — but safe from what, in this context?"
     },
@@ -183,11 +315,11 @@
       "prompt": "What alternative to full preservation does the essay suggest?",
       "options": [
         "Demolishing all childhood homes and replacing them with modern museums",
-        "A commemorative plaque on a building that is otherwise allowed to remain in use",
         "Converting childhood homes into public libraries",
+        "A commemorative plaque on a building that is otherwise allowed to remain in use",
         "Creating virtual reality reconstructions instead of preserving physical buildings"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay suggests that a commemorative plaque on a living building acknowledges the connection without 'freezing' the building — allowing it to continue being used and changed.",
       "hint": "The final paragraph proposes a middle way — what does it involve?"
     },
@@ -196,11 +328,11 @@
       "prompt": "Which phrase means 'to make something simpler and more heroic than it actually was'?",
       "options": [
         "to contextualise",
-        "to mythologise",
         "to designate",
-        "to repurpose"
+        "to repurpose",
+        "to mythologise"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'To mythologise' means to turn something into a myth — to simplify and romanticise it beyond its actual complexity.",
       "hint": "A myth is a simplified, elevated story — to mythologise is to create that kind of story."
     },
@@ -208,12 +340,12 @@
       "id": "q11",
       "prompt": "What does 'made retrospectively' mean in the context of preservation decisions?",
       "options": [
-        "Made immediately after a person's birth to preserve their childhood environment",
         "Made after the person has died and their significance is already established",
+        "Made immediately after a person's birth to preserve their childhood environment",
         "Made by a committee that reviews historical evidence before deciding",
         "Made by the person themselves during their lifetime"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'Retrospectively' means looking back — preservation decisions are always made after the fact, once the person's importance is known, which distorts what the building is said to represent.",
       "hint": "The prefix 'retro-' means 'backward' or 'in the past'."
     },
@@ -222,11 +354,11 @@
       "prompt": "Which transition signals a pivot back to the main argument after the concession?",
       "options": [
         "Granted,",
-        "In conclusion,",
         "Even so, preservation is not neutral.",
+        "In conclusion,",
         "Similarly,"
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "explanation": "'Even so, preservation is not neutral' acknowledges the conceded value of some preservation and pivots back to the essay's critical argument about what preservation costs.",
       "hint": "Look for the transition that follows the concession paragraph and introduces a counter-argument."
     },
@@ -235,11 +367,11 @@
       "prompt": "Which sentence maintains a consistent B2 formal register?",
       "options": [
         "Shakespeare's house is basically a fake tourist trap tbh, not worth visiting.",
-        "Selective preservation of the most genuinely significant and well-evidenced sites, combined with honest interpretation, is preferable to heritage-as-myth.",
         "Old houses of famous people should be kept or not, it depends on the situation.",
+        "Selective preservation of the most genuinely significant and well-evidenced sites, combined with honest interpretation, is preferable to heritage-as-myth.",
         "Preserving childhood homes is ok sometimes but also not really necessary in all cases."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "Option B uses precise vocabulary ('genuinely significant', 'well-evidenced', 'honest interpretation'), a nominative contrast ('heritage-as-myth'), and a measured, analytical tone.",
       "hint": "Avoid hedging, colloquialisms, and vague qualifiers like 'basically' or 'kind of'."
     },
@@ -248,11 +380,11 @@
       "prompt": "What is a 'tangible connection' in the context of heritage sites?",
       "options": [
         "A financial link between a museum and its government funders",
-        "A physical, concrete sense of contact with a historical person through the actual place",
         "A documented relationship between two historical figures",
-        "A legal agreement between a heritage organisation and a property owner"
+        "A legal agreement between a heritage organisation and a property owner",
+        "A physical, concrete sense of contact with a historical person through the actual place"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'Tangible' means physically real, able to be touched or experienced directly. A 'tangible connection' to the past means feeling a real, physical link rather than an abstract one.",
       "hint": "Tangible = touchable, physical, concrete."
     },
@@ -260,12 +392,12 @@
       "id": "q15",
       "prompt": "Which word correctly completes: 'The house has been _____ by the local authority as a protected building'?",
       "options": [
+        "designated",
         "demolished",
         "mythologised",
-        "designated",
         "repurposed"
       ],
-      "answerIndex": 2,
+      "answerIndex": 0,
       "explanation": "'Designated' is the correct word for the formal act of giving something official status (as a heritage site, a national park, etc.).",
       "hint": "Think of 'designate' as 'officially name or classify'."
     },
@@ -273,12 +405,12 @@
       "id": "q16",
       "prompt": "Which sentence correctly uses a conditional to speculate about an alternative history?",
       "options": [
-        "The same house, had he lived an ordinary life, would have been demolished long ago.",
         "The same house, if he would have lived an ordinary life, would demolish long ago.",
+        "The same house, had he lived an ordinary life, would have been demolished long ago.",
         "The same house, had he lived an ordinary life, will be demolished long ago.",
         "The same house, if he had lived an ordinary life, demolishes long ago."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "An inverted past conditional ('had he lived …') signals a hypothetical that did not happen. The main clause uses 'would have been' + past participle for the counterfactual result.",
       "hint": "Inverted conditional: 'Had + subject + past participle, … would have + past participle.'"
     }

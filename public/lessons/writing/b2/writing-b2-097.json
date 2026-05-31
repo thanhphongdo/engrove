@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "Can a long-distance relationship stay equal?",
   "summary": "Argue whether two people separated by distance and time zones can keep their relationship balanced, or whether distance always tilts it.",
-  "tags": ["Relationships", "Distance", "Argument", "Society"],
+  "tags": [
+    "Relationships",
+    "Distance",
+    "Argument",
+    "Society"
+  ],
   "topic": "Whether a long-distance relationship can remain equal",
   "prompt": "Write a 450–600-word essay arguing whether a relationship conducted across distance and time zones can stay genuinely equal. Give two concrete examples and concede one objection. Use cleft sentences, passive voice, and hedging.",
   "minWords": 450,
@@ -15,60 +20,221 @@
     "Equality in a relationship is less about feelings than about…"
   ],
   "hintVocab": [
-    { "phrase": "long-distance relationship", "meaningVi": "mối quan hệ yêu xa" },
-    { "phrase": "time zone", "meaningVi": "múi giờ" },
-    { "phrase": "to bridge the gap", "meaningVi": "thu hẹp khoảng cách" },
-    { "phrase": "asymmetry", "meaningVi": "sự bất đối xứng", "pronunciation": "/eɪˈsɪmətri/" },
-    { "phrase": "to take turns", "meaningVi": "thay phiên nhau" },
-    { "phrase": "emotional labour", "meaningVi": "lao động cảm xúc", "pronunciation": "/ɪˈməʊʃənl ˈleɪbə/" },
-    { "phrase": "to stay in touch", "meaningVi": "giữ liên lạc" },
-    { "phrase": "commitment", "meaningVi": "sự cam kết", "pronunciation": "/kəˈmɪtmənt/" },
-    { "phrase": "to drift apart", "meaningVi": "dần xa cách" },
-    { "phrase": "reunion", "meaningVi": "cuộc đoàn tụ", "pronunciation": "/ˌriːˈjuːniən/" },
-    { "phrase": "sacrifice", "meaningVi": "sự hy sinh", "pronunciation": "/ˈsækrɪfaɪs/" },
-    { "phrase": "to put in the effort", "meaningVi": "bỏ công sức" },
-    { "phrase": "burden of contact", "meaningVi": "gánh nặng của việc liên lạc" },
-    { "phrase": "reciprocity", "meaningVi": "sự có qua có lại", "pronunciation": "/ˌresɪˈprɒsəti/" },
-    { "phrase": "to feel taken for granted", "meaningVi": "cảm thấy bị coi là điều hiển nhiên" },
-    { "phrase": "to compromise", "meaningVi": "thỏa hiệp", "pronunciation": "/ˈkɒmprəmaɪz/" },
-    { "phrase": "out of sync", "meaningVi": "lệch nhịp" },
-    { "phrase": "to carry the weight", "meaningVi": "gánh vác phần nặng" },
-    { "phrase": "trust", "meaningVi": "sự tin tưởng" },
-    { "phrase": "to keep score", "meaningVi": "tính toán hơn thua / ghi nhớ ai làm gì" },
-    { "phrase": "intimacy", "meaningVi": "sự thân mật", "pronunciation": "/ˈɪntɪməsi/" },
-    { "phrase": "to bear the cost", "meaningVi": "chịu chi phí / gánh chịu" },
-    { "phrase": "uneven", "meaningVi": "không đồng đều" },
-    { "phrase": "to make the trip", "meaningVi": "thực hiện chuyến đi (thăm nhau)" },
-    { "phrase": "to grow resentful", "meaningVi": "trở nên oán giận" }
+    {
+      "phrase": "long-distance relationship",
+      "meaningVi": "mối quan hệ yêu xa"
+    },
+    {
+      "phrase": "time zone",
+      "meaningVi": "múi giờ"
+    },
+    {
+      "phrase": "to bridge the gap",
+      "meaningVi": "thu hẹp khoảng cách"
+    },
+    {
+      "phrase": "asymmetry",
+      "meaningVi": "sự bất đối xứng",
+      "pronunciation": "/eɪˈsɪmətri/"
+    },
+    {
+      "phrase": "to take turns",
+      "meaningVi": "thay phiên nhau"
+    },
+    {
+      "phrase": "emotional labour",
+      "meaningVi": "lao động cảm xúc",
+      "pronunciation": "/ɪˈməʊʃənl ˈleɪbə/"
+    },
+    {
+      "phrase": "to stay in touch",
+      "meaningVi": "giữ liên lạc"
+    },
+    {
+      "phrase": "commitment",
+      "meaningVi": "sự cam kết",
+      "pronunciation": "/kəˈmɪtmənt/"
+    },
+    {
+      "phrase": "to drift apart",
+      "meaningVi": "dần xa cách"
+    },
+    {
+      "phrase": "reunion",
+      "meaningVi": "cuộc đoàn tụ",
+      "pronunciation": "/ˌriːˈjuːniən/"
+    },
+    {
+      "phrase": "sacrifice",
+      "meaningVi": "sự hy sinh",
+      "pronunciation": "/ˈsækrɪfaɪs/"
+    },
+    {
+      "phrase": "to put in the effort",
+      "meaningVi": "bỏ công sức"
+    },
+    {
+      "phrase": "burden of contact",
+      "meaningVi": "gánh nặng của việc liên lạc"
+    },
+    {
+      "phrase": "reciprocity",
+      "meaningVi": "sự có qua có lại",
+      "pronunciation": "/ˌresɪˈprɒsəti/"
+    },
+    {
+      "phrase": "to feel taken for granted",
+      "meaningVi": "cảm thấy bị coi là điều hiển nhiên"
+    },
+    {
+      "phrase": "to compromise",
+      "meaningVi": "thỏa hiệp",
+      "pronunciation": "/ˈkɒmprəmaɪz/"
+    },
+    {
+      "phrase": "out of sync",
+      "meaningVi": "lệch nhịp"
+    },
+    {
+      "phrase": "to carry the weight",
+      "meaningVi": "gánh vác phần nặng"
+    },
+    {
+      "phrase": "trust",
+      "meaningVi": "sự tin tưởng"
+    },
+    {
+      "phrase": "to keep score",
+      "meaningVi": "tính toán hơn thua / ghi nhớ ai làm gì"
+    },
+    {
+      "phrase": "intimacy",
+      "meaningVi": "sự thân mật",
+      "pronunciation": "/ˈɪntɪməsi/"
+    },
+    {
+      "phrase": "to bear the cost",
+      "meaningVi": "chịu chi phí / gánh chịu"
+    },
+    {
+      "phrase": "uneven",
+      "meaningVi": "không đồng đều"
+    },
+    {
+      "phrase": "to make the trip",
+      "meaningVi": "thực hiện chuyến đi (thăm nhau)"
+    },
+    {
+      "phrase": "to grow resentful",
+      "meaningVi": "trở nên oán giận"
+    }
   ],
   "sampleText": "Whenever people talk about the difficulty of loving someone far away, they describe missing them — the empty side of the bed, the meals eaten alone. That is real, but it is not the hardest part. What distance quietly redistributes is not affection but labour: the daily, unglamorous work of keeping a relationship alive falls unevenly, and the question of whether love can remain equal turns on who carries that weight.\n\nConsider two people separated by eight time zones, one in Lagos and one in Toronto. For them to speak at all, someone must sacrifice sleep. If it is always the same person who stays up until two in the morning, an imbalance is being created that no amount of affection erases. It is the one who waits up to call, not the one who merely answers, who is paying the higher price — and prices that are paid silently tend to be the ones that accumulate. A second asymmetry is financial: visits cost money and leave, and when one partner earns far more, or holds a passport that crosses borders easily, the burden of making the trip is rarely shared down the middle.\n\nThe deeper point is that equality in a relationship is less about feelings than about reciprocity — about whether the effort flows both ways over time. Distance does not change this principle; it simply makes the accounting harder to ignore. When you live in the same city, an uneven week is absorbed by a hundred small exchanges. When you live apart, every call must be scheduled, every visit planned, and the imbalance is laid bare in a way that proximity would have softened.\n\nGranted, there are couples whose bond seems to deepen rather than fray when stretched across a map, and it would be dishonest to pretend otherwise. Some people communicate more honestly in writing than in person; some find that scarcity sharpens attention rather than dulling it. For these couples, distance is not a deficit to be endured but a discipline that strips a relationship down to its essentials. The objection is well taken: distance is not automatically corrosive.\n\nEven so, what these flourishing couples share is not the absence of imbalance but a deliberate effort to correct it. They take turns being the one to call. They name the cost of the late nights out loud rather than letting resentment build. In other words, their equality is not a happy accident of distance but something that is actively maintained against it. Where that maintenance is neglected, the same patterns reassert themselves: one person carries the relationship, and the other, often without noticing, is carried.\n\nSo can a long-distance relationship stay equal? It can — but not on its own, and not for free. Equality at a distance has to be built, audited, and rebuilt, because the natural tendency of separation is to push the weight onto whoever is willing to bear it. The couples who manage it are not the ones who love hardest; they are the ones who refuse to let love disguise an unequal ledger as devotion.",
   "sampleAnnotations": [
-    { "phrase": "the empty side of the bed, the meals eaten alone", "meaningVi": "nửa giường trống trải, những bữa ăn một mình" },
-    { "phrase": "What distance quietly redistributes is not affection but labour", "meaningVi": "Cái mà khoảng cách lặng lẽ phân phối lại không phải là tình cảm mà là lao động" },
-    { "phrase": "the daily, unglamorous work of keeping a relationship alive falls unevenly", "meaningVi": "công việc thường nhật, chẳng hào nhoáng của việc giữ một mối quan hệ sống động rơi xuống không đồng đều" },
-    { "phrase": "the question of whether love can remain equal turns on who carries that weight", "meaningVi": "câu hỏi liệu tình yêu có thể vẫn ngang bằng hay không xoay quanh việc ai gánh vác sức nặng đó" },
-    { "phrase": "an imbalance is being created that no amount of affection erases", "meaningVi": "một sự mất cân bằng đang được tạo ra mà không lượng tình cảm nào xóa được" },
-    { "phrase": "It is the one who waits up to call, not the one who merely answers, who is paying the higher price", "meaningVi": "Chính người thức để gọi, chứ không phải người chỉ bắt máy, mới là người đang trả cái giá cao hơn" },
-    { "phrase": "prices that are paid silently tend to be the ones that accumulate", "meaningVi": "những cái giá được trả trong im lặng có xu hướng là những cái tích tụ dần" },
-    { "phrase": "the burden of making the trip is rarely shared down the middle", "meaningVi": "gánh nặng của việc thực hiện chuyến đi hiếm khi được chia đôi" },
-    { "phrase": "equality in a relationship is less about feelings than about reciprocity", "meaningVi": "sự bình đẳng trong một mối quan hệ ít liên quan đến cảm xúc mà liên quan đến sự có qua có lại nhiều hơn" },
-    { "phrase": "whether the effort flows both ways over time", "meaningVi": "liệu công sức có chảy theo cả hai chiều qua thời gian hay không" },
-    { "phrase": "an uneven week is absorbed by a hundred small exchanges", "meaningVi": "một tuần lệch lạc được hấp thụ bởi cả trăm trao đổi nhỏ" },
-    { "phrase": "the imbalance is laid bare in a way that proximity would have softened", "meaningVi": "sự mất cân bằng bị phơi bày theo cách mà sự gần gũi lẽ ra đã làm dịu đi" },
-    { "phrase": "Granted, there are couples whose bond seems to deepen rather than fray when stretched across a map", "meaningVi": "Công nhận, có những cặp đôi mà mối dây liên kết dường như sâu sắc hơn thay vì rạn nứt khi bị kéo căng qua bản đồ" },
-    { "phrase": "some find that scarcity sharpens attention rather than dulling it", "meaningVi": "một số người thấy rằng sự khan hiếm làm sắc bén sự chú ý thay vì làm nó cùn đi" },
-    { "phrase": "distance is not a deficit to be endured but a discipline that strips a relationship down to its essentials", "meaningVi": "khoảng cách không phải một sự thiếu hụt phải chịu đựng mà là một kỷ luật lột bỏ một mối quan hệ xuống còn những điều cốt yếu" },
-    { "phrase": "what these flourishing couples share is not the absence of imbalance but a deliberate effort to correct it", "meaningVi": "điều mà những cặp đôi đang nở rộ này chia sẻ không phải là sự vắng mặt của bất cân bằng mà là một nỗ lực có chủ ý để sửa chữa nó" },
-    { "phrase": "They name the cost of the late nights out loud rather than letting resentment build", "meaningVi": "Họ gọi tên cái giá của những đêm thức khuya thành lời thay vì để sự oán giận tích tụ" },
-    { "phrase": "their equality is not a happy accident of distance but something that is actively maintained against it", "meaningVi": "sự bình đẳng của họ không phải một tình cờ may mắn của khoảng cách mà là điều được duy trì một cách chủ động chống lại nó" },
-    { "phrase": "the other, often without noticing, is carried", "meaningVi": "người kia, thường không nhận ra, đang được gánh đỡ" },
-    { "phrase": "Equality at a distance has to be built, audited, and rebuilt", "meaningVi": "Sự bình đẳng từ xa phải được xây dựng, rà soát và xây dựng lại" },
-    { "phrase": "they are the ones who refuse to let love disguise an unequal ledger as devotion", "meaningVi": "họ là những người từ chối để tình yêu ngụy trang một bảng cân đối bất bình đẳng thành sự tận tụy" },
-    { "phrase": "someone must sacrifice sleep", "meaningVi": "ai đó phải hy sinh giấc ngủ" },
-    { "phrase": "visits cost money and leave", "meaningVi": "các chuyến thăm tốn tiền và tốn ngày phép" },
-    { "phrase": "Distance does not change this principle; it simply makes the accounting harder to ignore", "meaningVi": "Khoảng cách không thay đổi nguyên tắc này; nó chỉ làm cho việc tính toán khó mà phớt lờ hơn" },
-    { "phrase": "They take turns being the one to call", "meaningVi": "Họ thay phiên nhau là người gọi điện" },
-    { "phrase": "the natural tendency of separation is to push the weight onto whoever is willing to bear it", "meaningVi": "xu hướng tự nhiên của sự chia cách là đẩy sức nặng lên bất cứ ai sẵn lòng gánh nó" }
+    {
+      "phrase": "the empty side of the bed, the meals eaten alone",
+      "meaningVi": "nửa giường trống trải, những bữa ăn một mình"
+    },
+    {
+      "phrase": "What distance quietly redistributes is not affection but labour",
+      "meaningVi": "Cái mà khoảng cách lặng lẽ phân phối lại không phải là tình cảm mà là lao động"
+    },
+    {
+      "phrase": "the daily, unglamorous work of keeping a relationship alive falls unevenly",
+      "meaningVi": "công việc thường nhật, chẳng hào nhoáng của việc giữ một mối quan hệ sống động rơi xuống không đồng đều"
+    },
+    {
+      "phrase": "the question of whether love can remain equal turns on who carries that weight",
+      "meaningVi": "câu hỏi liệu tình yêu có thể vẫn ngang bằng hay không xoay quanh việc ai gánh vác sức nặng đó"
+    },
+    {
+      "phrase": "an imbalance is being created that no amount of affection erases",
+      "meaningVi": "một sự mất cân bằng đang được tạo ra mà không lượng tình cảm nào xóa được"
+    },
+    {
+      "phrase": "It is the one who waits up to call, not the one who merely answers, who is paying the higher price",
+      "meaningVi": "Chính người thức để gọi, chứ không phải người chỉ bắt máy, mới là người đang trả cái giá cao hơn"
+    },
+    {
+      "phrase": "prices that are paid silently tend to be the ones that accumulate",
+      "meaningVi": "những cái giá được trả trong im lặng có xu hướng là những cái tích tụ dần"
+    },
+    {
+      "phrase": "the burden of making the trip is rarely shared down the middle",
+      "meaningVi": "gánh nặng của việc thực hiện chuyến đi hiếm khi được chia đôi"
+    },
+    {
+      "phrase": "equality in a relationship is less about feelings than about reciprocity",
+      "meaningVi": "sự bình đẳng trong một mối quan hệ ít liên quan đến cảm xúc mà liên quan đến sự có qua có lại nhiều hơn"
+    },
+    {
+      "phrase": "whether the effort flows both ways over time",
+      "meaningVi": "liệu công sức có chảy theo cả hai chiều qua thời gian hay không"
+    },
+    {
+      "phrase": "an uneven week is absorbed by a hundred small exchanges",
+      "meaningVi": "một tuần lệch lạc được hấp thụ bởi cả trăm trao đổi nhỏ"
+    },
+    {
+      "phrase": "the imbalance is laid bare in a way that proximity would have softened",
+      "meaningVi": "sự mất cân bằng bị phơi bày theo cách mà sự gần gũi lẽ ra đã làm dịu đi"
+    },
+    {
+      "phrase": "Granted, there are couples whose bond seems to deepen rather than fray when stretched across a map",
+      "meaningVi": "Công nhận, có những cặp đôi mà mối dây liên kết dường như sâu sắc hơn thay vì rạn nứt khi bị kéo căng qua bản đồ"
+    },
+    {
+      "phrase": "some find that scarcity sharpens attention rather than dulling it",
+      "meaningVi": "một số người thấy rằng sự khan hiếm làm sắc bén sự chú ý thay vì làm nó cùn đi"
+    },
+    {
+      "phrase": "distance is not a deficit to be endured but a discipline that strips a relationship down to its essentials",
+      "meaningVi": "khoảng cách không phải một sự thiếu hụt phải chịu đựng mà là một kỷ luật lột bỏ một mối quan hệ xuống còn những điều cốt yếu"
+    },
+    {
+      "phrase": "what these flourishing couples share is not the absence of imbalance but a deliberate effort to correct it",
+      "meaningVi": "điều mà những cặp đôi đang nở rộ này chia sẻ không phải là sự vắng mặt của bất cân bằng mà là một nỗ lực có chủ ý để sửa chữa nó"
+    },
+    {
+      "phrase": "They name the cost of the late nights out loud rather than letting resentment build",
+      "meaningVi": "Họ gọi tên cái giá của những đêm thức khuya thành lời thay vì để sự oán giận tích tụ"
+    },
+    {
+      "phrase": "their equality is not a happy accident of distance but something that is actively maintained against it",
+      "meaningVi": "sự bình đẳng của họ không phải một tình cờ may mắn của khoảng cách mà là điều được duy trì một cách chủ động chống lại nó"
+    },
+    {
+      "phrase": "the other, often without noticing, is carried",
+      "meaningVi": "người kia, thường không nhận ra, đang được gánh đỡ"
+    },
+    {
+      "phrase": "Equality at a distance has to be built, audited, and rebuilt",
+      "meaningVi": "Sự bình đẳng từ xa phải được xây dựng, rà soát và xây dựng lại"
+    },
+    {
+      "phrase": "they are the ones who refuse to let love disguise an unequal ledger as devotion",
+      "meaningVi": "họ là những người từ chối để tình yêu ngụy trang một bảng cân đối bất bình đẳng thành sự tận tụy"
+    },
+    {
+      "phrase": "someone must sacrifice sleep",
+      "meaningVi": "ai đó phải hy sinh giấc ngủ"
+    },
+    {
+      "phrase": "visits cost money and leave",
+      "meaningVi": "các chuyến thăm tốn tiền và tốn ngày phép"
+    },
+    {
+      "phrase": "Distance does not change this principle; it simply makes the accounting harder to ignore",
+      "meaningVi": "Khoảng cách không thay đổi nguyên tắc này; nó chỉ làm cho việc tính toán khó mà phớt lờ hơn"
+    },
+    {
+      "phrase": "They take turns being the one to call",
+      "meaningVi": "Họ thay phiên nhau là người gọi điện"
+    },
+    {
+      "phrase": "the natural tendency of separation is to push the weight onto whoever is willing to bear it",
+      "meaningVi": "xu hướng tự nhiên của sự chia cách là đẩy sức nặng lên bất cứ ai sẵn lòng gánh nó"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -88,12 +254,12 @@
       "id": "q1",
       "prompt": "Which sentence uses a what-cleft to redirect attention from affection to labour?",
       "options": [
-        "What distance quietly redistributes is not affection but labour.",
         "Distance redistributes what is not affection quietly but the labour.",
         "Affection is what distance redistributes quietly but not the labour.",
+        "What distance quietly redistributes is not affection but labour.",
         "Redistributing affection is what distance does quietly but labour not."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'What … redistributes is not X but Y' is a what-cleft delaying the key term for emphasis.",
       "hint": "Look for 'What … is not X but Y'."
     },
@@ -102,11 +268,11 @@
       "prompt": "Which sentence uses an it-cleft to single out who pays more?",
       "options": [
         "The one who waits up to call pays the higher price, which is the answerer not.",
-        "It is the one who waits up to call, not the one who merely answers, who is paying the higher price.",
         "Paying the higher price is the one who answers merely not waits up to call.",
-        "Who pays the higher price is the answerer it is not the one waits up to call."
+        "Who pays the higher price is the answerer it is not the one waits up to call.",
+        "It is the one who waits up to call, not the one who merely answers, who is paying the higher price."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'It is X, not Y, who …' is an it-cleft that contrasts the caller with the answerer.",
       "hint": "Look for 'It is X, not Y, who …'."
     },
@@ -114,12 +280,12 @@
       "id": "q3",
       "prompt": "Which option uses the passive to foreground the imbalance?",
       "options": [
-        "Someone is creating an imbalance that affection cannot erase by them.",
         "An imbalance is being created that no amount of affection erases.",
+        "Someone is creating an imbalance that affection cannot erase by them.",
         "Creating an imbalance is what affection cannot being erased does.",
         "The imbalance creating no affection erases that being done."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'An imbalance is being created' uses the present continuous passive to keep focus on the imbalance.",
       "hint": "Which option puts 'an imbalance' first with 'is being + past participle'?"
     },
@@ -141,11 +307,11 @@
       "prompt": "Which option introduces the counter-argument most naturally?",
       "options": [
         "Some couples are just better people than others, obviously.",
-        "Granted, there are couples whose bond seems to deepen rather than fray when stretched across a map.",
         "Of course long-distance always works out perfectly fine for everyone.",
+        "Granted, there are couples whose bond seems to deepen rather than fray when stretched across a map.",
         "Naturally distance never causes a single problem ever."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'Granted, …' fairly concedes that some couples thrive at a distance.",
       "hint": "Which option admits the opposing case without exaggeration?"
     },
@@ -154,11 +320,11 @@
       "prompt": "Which option hedges its claim appropriately?",
       "options": [
         "Prices that are paid silently are always the ones that accumulate, without exception.",
-        "Prices that are paid silently tend to be the ones that accumulate.",
         "Prices paid silently will never accumulate in any relationship at all.",
-        "Prices paid silently the ones tend accumulate to be that."
+        "Prices paid silently the ones tend accumulate to be that.",
+        "Prices that are paid silently tend to be the ones that accumulate."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'Tend to be' states a general pattern, hedging the claim.",
       "hint": "Which option avoids 'always' and 'never'?"
     },
@@ -166,12 +332,12 @@
       "id": "q7",
       "prompt": "What does 'emotional labour' refer to here?",
       "options": [
-        "The cost of plane tickets and visas",
         "The effort of managing feelings and sustaining the relationship",
+        "The cost of plane tickets and visas",
         "A salary earned from a caring profession",
         "The physical work of moving house"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'Emotional labour' is the unpaid effort of maintaining relationships and managing feelings.",
       "hint": "Think of 'labour' as work, applied to feelings."
     },
@@ -193,11 +359,11 @@
       "prompt": "Which transition best pivots from concession back to the thesis?",
       "options": [
         "In conclusion, distance is always fine.",
-        "Even so, what these flourishing couples share is not the absence of imbalance but a deliberate effort to correct it.",
         "On the contrary, no couple ever survives distance.",
+        "Even so, what these flourishing couples share is not the absence of imbalance but a deliberate effort to correct it.",
         "Anyway, that point is not worth discussing."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'Even so, …' accepts the concession then advances a refined claim about deliberate effort.",
       "hint": "Which phrase accepts the prior point and reasserts the argument?"
     },
@@ -206,11 +372,11 @@
       "prompt": "What does 'to take for granted' mean?",
       "options": [
         "To pay someone generously",
-        "To assume someone or their effort will always be there, without appreciation",
         "To travel a long distance to visit",
-        "To break up by message"
+        "To break up by message",
+        "To assume someone or their effort will always be there, without appreciation"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'Take for granted' means to fail to value something you assume will always be there.",
       "hint": "Think of stopping noticing something because it's always available."
     },
@@ -245,11 +411,11 @@
       "prompt": "What does 'to drift apart' mean?",
       "options": [
         "To move closer together over time",
-        "To gradually become less connected without a sudden break",
         "To argue loudly and split up",
+        "To gradually become less connected without a sudden break",
         "To travel to different countries for work"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'Drift apart' means to slowly lose closeness.",
       "hint": "Picture two boats slowly floating away from each other."
     },
@@ -258,11 +424,11 @@
       "prompt": "Which option best captures the essay's nuanced conclusion?",
       "options": [
         "A long-distance relationship can never be equal.",
-        "It can stay equal, but only through effort that is built, audited, and rebuilt.",
         "Distance has no effect on equality at all.",
-        "Only rich couples can manage long distance."
+        "Only rich couples can manage long distance.",
+        "It can stay equal, but only through effort that is built, audited, and rebuilt."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The conclusion grants the possibility but attaches a strong condition ('not on its own, and not for free').",
       "hint": "Look for the option that says 'yes, but only if'."
     },
@@ -270,12 +436,12 @@
       "id": "q15",
       "prompt": "What does 'an unequal ledger' suggest figuratively?",
       "options": [
-        "A broken accounting computer",
         "A record in which one person has given far more than the other",
+        "A broken accounting computer",
         "A shared bank account",
         "A list of phone numbers"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "A 'ledger' is an account book; 'unequal' means the give-and-take does not balance.",
       "hint": "Think of a balance sheet where the two sides don't match."
     },
@@ -283,12 +449,12 @@
       "id": "q16",
       "prompt": "Which sentence uses an appositive (dash insertion) correctly?",
       "options": [
-        "It is the one who waits up to call, not the one who merely answers, who pays the higher price.",
         "It is the one — who waits up not the one merely answers — to call who pays the price.",
+        "It is the one who waits up to call, not the one who merely answers, who pays the higher price.",
         "It is the one who pays — waits up to call not who answers — the higher price merely.",
         "Pays the higher price — it is the one who waits — not who answers merely to call up."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "The contrast 'not the one who merely answers' is set off by commas; the main clause stays grammatical.",
       "hint": "Which option keeps a complete sentence if the inserted contrast is removed?"
     }

@@ -1,0 +1,544 @@
+{
+  "id": "speaking-c1-097",
+  "level": "C1",
+  "title": "The Replication Crisis and What Counts as Evidence",
+  "summary": "Two researchers argue about the replication crisis in psychology — whether failed replications indict the original findings, what statistical reform can fix, and how science should treat a result that won't reproduce.",
+  "topic": "replication crisis in science",
+  "tags": [
+    "Science",
+    "Epistemics",
+    "Methodology"
+  ],
+  "characters": [
+    "Helena",
+    "Marcus"
+  ],
+  "voices": {
+    "Helena": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-EmmaNeural"
+    },
+    "Marcus": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-BrianNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Marcus",
+      "text": "Helena, after a decade of the so-called replication crisis, I'm genuinely unsure what a single published study now entitles us to believe."
+    },
+    {
+      "speaker": "Helena",
+      "text": "I'd put it more cautiously: a single study was never meant to settle anything, and the crisis is partly a crisis of having forgotten that."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "That's a generous framing, but the large-scale replication projects found that barely half of landmark effects reproduced. That's not the system working as designed; that's a field discovering that much of its canon may be artefactual."
+    },
+    {
+      "speaker": "Helena",
+      "text": "I won't dispute the numbers; what I'd contest is the inference you draw from them. A failed replication is itself a single study, with its own sampling error, its own hidden moderators, its own possibility of being the fluke."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "You're surely not suggesting we privilege the original over the replication merely because it came first?"
+    },
+    {
+      "speaker": "Helena",
+      "text": "Not at all — quite the reverse, in fact. My point is that the asymmetry runs the other way: we've been far too quick to treat a non-significant replication as a definitive refutation, when absence of evidence is being mistaken for evidence of absence."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "That's a fair logical point, yet it cuts against your own side too, because it implies the original positive result was equally inconclusive."
+    },
+    {
+      "speaker": "Helena",
+      "text": "Precisely, and that's the conclusion I actually want — neither study alone is decisive, and the proper unit of evidence is the cumulative meta-analytic estimate, not the headline finding of any one paper."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "The difficulty with leaning on meta-analysis is that it inherits the publication bias of the literature it aggregates. If null results were never published, the pooled estimate is contaminated at the source, however elegant the synthesis."
+    },
+    {
+      "speaker": "Helena",
+      "text": "That objection is decisive against naive meta-analysis, I'll concede, but it's precisely why the reforms matter. Pre-registration severs the link between a study's result and its likelihood of publication, and once the file drawer is forced open, the bias you describe becomes estimable rather than invisible."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "Pre-registration is genuine progress, I'll grant, but it mainly disciplines the analysis; it does nothing about a theory so vague that almost any pattern can be read as confirming it."
+    },
+    {
+      "speaker": "Helena",
+      "text": "Now that's the deeper point, and it's the one I think the crisis has underemphasised. The statistical machinery was only ever as good as the theoretical risk a hypothesis took on, and a theory that forbids nothing predicts nothing."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "So you'd locate the crisis less in p-hacking and more in the absence of severe, risky predictions that could actually fail."
+    },
+    {
+      "speaker": "Helena",
+      "text": "That's exactly the shift in emphasis I'd urge, though I don't want to be heard as exonerating the bad statistics. Lax methods and lax theory are mutually reinforcing; tighten one and you expose the weakness of the other."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "Where I still part company with you is on the practical upshot — when an effect won't replicate, the responsible default surely ought to be disbelief, not suspended judgement."
+    },
+    {
+      "speaker": "Helena",
+      "text": "I'd resist making disbelief the default, because a default of disbelief is no more epistemically neutral than a default of belief. What I'd defend instead is proportioning credence to the total weight of evidence, which sometimes warrants disbelief and sometimes warrants an honest 'we don't yet know'."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "The honest 'we don't yet know' is intellectually admirable but institutionally fragile, because careers and grants demand a verdict."
+    },
+    {
+      "speaker": "Helena",
+      "text": "And there, I'm afraid, we agree entirely — the real obstacle to good epistemics isn't ignorance of the right inference but an incentive structure that punishes calibrated uncertainty."
+    },
+    {
+      "speaker": "Marcus",
+      "text": "Then perhaps the crisis is misnamed; it's less a crisis of replication than a crisis of how we reward the people who do the replicating."
+    },
+    {
+      "speaker": "Helena",
+      "text": "That reframing I'll happily adopt, because it points to a reform that's actually within our gift: change what counts as a contribution, and the evidence will start to behave."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Marcus",
+      "text": "Helena, after a decade of the so-called replication crisis, I'm genuinely unsure what a single published study now entitles us to believe.",
+      "translationVi": "Helena, sau một thập kỷ của cái gọi là khủng hoảng tái lặp, tôi thực sự không chắc một nghiên cứu được xuất bản đơn lẻ giờ đây cho phép ta tin vào điều gì.",
+      "durationMs": 8904
+    },
+    {
+      "id": "s2",
+      "speaker": "Helena",
+      "text": "I'd put it more cautiously: a single study was never meant to settle anything, and the crisis is partly a crisis of having forgotten that.",
+      "translationVi": "Tôi sẽ diễn đạt thận trọng hơn: một nghiên cứu đơn lẻ chưa bao giờ nhằm giải quyết dứt điểm điều gì, và khủng hoảng phần nào là khủng hoảng vì đã quên mất điều đó.",
+      "durationMs": 8616
+    },
+    {
+      "id": "s3",
+      "speaker": "Marcus",
+      "text": "That's a generous framing, but the large-scale replication projects found that barely half of landmark effects reproduced.",
+      "translationVi": "Đó là một cách diễn đạt độ lượng, nhưng các dự án tái lặp quy mô lớn phát hiện rằng chỉ vừa quá nửa các hiệu ứng mang tính dấu mốc tái lặp được.",
+      "durationMs": 7248
+    },
+    {
+      "id": "s4",
+      "speaker": "Marcus",
+      "text": "That's not the system working as designed; that's a field discovering that much of its canon may be artefactual.",
+      "translationVi": "Đó không phải là hệ thống vận hành như thiết kế; đó là một lĩnh vực phát hiện rằng phần lớn kinh điển của nó có thể là sản phẩm nhân tạo.",
+      "durationMs": 6912
+    },
+    {
+      "id": "s5",
+      "speaker": "Helena",
+      "text": "I won't dispute the numbers; what I'd contest is the inference you draw from them.",
+      "translationVi": "Tôi sẽ không tranh cãi về các con số; điều tôi muốn phản bác là suy luận anh rút ra từ chúng.",
+      "durationMs": 5064
+    },
+    {
+      "id": "s6",
+      "speaker": "Helena",
+      "text": "A failed replication is itself a single study, with its own sampling error, its own hidden moderators, its own possibility of being the fluke.",
+      "translationVi": "Một lần tái lặp thất bại tự nó là một nghiên cứu đơn lẻ, với sai số chọn mẫu riêng, các biến điều tiết ẩn riêng, khả năng riêng là cái bất thường.",
+      "durationMs": 8856
+    },
+    {
+      "id": "s7",
+      "speaker": "Marcus",
+      "text": "You're surely not suggesting we privilege the original over the replication merely because it came first?",
+      "translationVi": "Chắc hẳn cô không gợi ý rằng ta ưu tiên bản gốc hơn bản tái lặp chỉ vì nó có trước chứ?",
+      "durationMs": 6000
+    },
+    {
+      "id": "s8",
+      "speaker": "Helena",
+      "text": "Not at all — quite the reverse, in fact.",
+      "translationVi": "Hoàn toàn không — thực ra là ngược lại.",
+      "durationMs": 2544
+    },
+    {
+      "id": "s9",
+      "speaker": "Helena",
+      "text": "My point is that the asymmetry runs the other way: we've been far too quick to treat a non-significant replication as a definitive refutation, when absence of evidence is being mistaken for evidence of absence.",
+      "translationVi": "Ý tôi là sự bất đối xứng chạy theo chiều ngược lại: ta đã quá vội coi một lần tái lặp không có ý nghĩa thống kê là một sự bác bỏ dứt khoát, trong khi sự vắng mặt của bằng chứng đang bị nhầm thành bằng chứng của sự vắng mặt.",
+      "durationMs": 12264
+    },
+    {
+      "id": "s10",
+      "speaker": "Marcus",
+      "text": "That's a fair logical point, yet it cuts against your own side too, because it implies the original positive result was equally inconclusive.",
+      "translationVi": "Đó là một điểm logic công bằng, nhưng nó cũng phản lại chính phe của cô, vì nó hàm ý rằng kết quả dương tính ban đầu cũng không có tính kết luận như vậy.",
+      "durationMs": 8064
+    },
+    {
+      "id": "s11",
+      "speaker": "Helena",
+      "text": "Precisely, and that's the conclusion I actually want — neither study alone is decisive, and the proper unit of evidence is the cumulative meta-analytic estimate, not the headline finding of any one paper.",
+      "translationVi": "Chính xác, và đó là kết luận tôi thực sự muốn — không nghiên cứu nào đơn lẻ là quyết định, và đơn vị bằng chứng đúng đắn là ước lượng phân tích tổng hợp tích lũy, chứ không phải phát hiện giật tít của bất kỳ bài báo nào.",
+      "durationMs": 12360
+    },
+    {
+      "id": "s12",
+      "speaker": "Marcus",
+      "text": "The difficulty with leaning on meta-analysis is that it inherits the publication bias of the literature it aggregates.",
+      "translationVi": "Khó khăn khi dựa vào phân tích tổng hợp là nó thừa hưởng thiên kiến xuất bản của tài liệu mà nó tổng hợp.",
+      "durationMs": 7128
+    },
+    {
+      "id": "s13",
+      "speaker": "Marcus",
+      "text": "If null results were never published, the pooled estimate is contaminated at the source, however elegant the synthesis.",
+      "translationVi": "Nếu các kết quả vô hiệu chưa bao giờ được xuất bản, thì ước lượng gộp bị nhiễm ngay từ nguồn, dù việc tổng hợp có thanh lịch đến đâu.",
+      "durationMs": 7104
+    },
+    {
+      "id": "s14",
+      "speaker": "Helena",
+      "text": "That objection is decisive against naive meta-analysis, I'll concede, but it's precisely why the reforms matter.",
+      "translationVi": "Phản bác đó là quyết định chống lại phân tích tổng hợp ngây thơ, tôi xin thừa nhận, nhưng đó chính là lý do các cải cách có ý nghĩa.",
+      "durationMs": 7608
+    },
+    {
+      "id": "s15",
+      "speaker": "Helena",
+      "text": "Pre-registration severs the link between a study's result and its likelihood of publication, and once the file drawer is forced open, the bias you describe becomes estimable rather than invisible.",
+      "translationVi": "Việc đăng ký trước cắt đứt mối liên hệ giữa kết quả của một nghiên cứu và khả năng được xuất bản của nó, và một khi ngăn kéo hồ sơ bị buộc mở ra, thiên kiến anh mô tả trở nên có thể ước lượng được chứ không còn vô hình.",
+      "durationMs": 11712
+    },
+    {
+      "id": "s16",
+      "speaker": "Marcus",
+      "text": "Pre-registration is genuine progress, I'll grant, but it mainly disciplines the analysis; it does nothing about a theory so vague that almost any pattern can be read as confirming it.",
+      "translationVi": "Đăng ký trước là tiến bộ thực sự, tôi thừa nhận, nhưng nó chủ yếu kỷ luật hóa khâu phân tích; nó chẳng làm gì với một lý thuyết mơ hồ đến mức gần như mọi mẫu hình đều có thể được đọc là xác nhận nó.",
+      "durationMs": 10800
+    },
+    {
+      "id": "s17",
+      "speaker": "Helena",
+      "text": "Now that's the deeper point, and it's the one I think the crisis has underemphasised.",
+      "translationVi": "Bây giờ đó mới là điểm sâu sắc hơn, và nó là điểm mà tôi nghĩ cuộc khủng hoảng đã nhấn mạnh chưa đủ.",
+      "durationMs": 5160
+    },
+    {
+      "id": "s18",
+      "speaker": "Helena",
+      "text": "The statistical machinery was only ever as good as the theoretical risk a hypothesis took on, and a theory that forbids nothing predicts nothing.",
+      "translationVi": "Bộ máy thống kê chỉ tốt ngang với mức rủi ro lý thuyết mà một giả thuyết gánh chịu, và một lý thuyết không cấm điều gì thì cũng chẳng dự đoán điều gì.",
+      "durationMs": 8328
+    },
+    {
+      "id": "s19",
+      "speaker": "Marcus",
+      "text": "So you'd locate the crisis less in p-hacking and more in the absence of severe, risky predictions that could actually fail.",
+      "translationVi": "Vậy cô sẽ định vị cuộc khủng hoảng ít ở việc xào nấu p-value mà nhiều hơn ở sự vắng mặt của những dự đoán nghiêm ngặt, mạo hiểm, thực sự có thể thất bại.",
+      "durationMs": 7488
+    },
+    {
+      "id": "s20",
+      "speaker": "Helena",
+      "text": "That's exactly the shift in emphasis I'd urge, though I don't want to be heard as exonerating the bad statistics.",
+      "translationVi": "Đó chính xác là sự chuyển trọng tâm mà tôi muốn thúc đẩy, dù tôi không muốn bị hiểu là đang bào chữa cho thống kê tồi.",
+      "durationMs": 6840
+    },
+    {
+      "id": "s21",
+      "speaker": "Helena",
+      "text": "Lax methods and lax theory are mutually reinforcing; tighten one and you expose the weakness of the other.",
+      "translationVi": "Phương pháp lỏng lẻo và lý thuyết lỏng lẻo củng cố lẫn nhau; siết chặt cái này thì anh sẽ phơi bày điểm yếu của cái kia.",
+      "durationMs": 6624
+    },
+    {
+      "id": "s22",
+      "speaker": "Marcus",
+      "text": "Where I still part company with you is on the practical upshot — when an effect won't replicate, the responsible default surely ought to be disbelief, not suspended judgement.",
+      "translationVi": "Chỗ tôi vẫn bất đồng với cô là về hệ quả thực tiễn — khi một hiệu ứng không tái lặp được, mặc định có trách nhiệm chắc chắn phải là không tin, chứ không phải hoãn phán xét.",
+      "durationMs": 9528
+    },
+    {
+      "id": "s23",
+      "speaker": "Helena",
+      "text": "I'd resist making disbelief the default, because a default of disbelief is no more epistemically neutral than a default of belief.",
+      "translationVi": "Tôi sẽ phản đối việc lấy sự không tin làm mặc định, vì một mặc định không tin cũng chẳng trung lập về mặt nhận thức hơn một mặc định tin tưởng.",
+      "durationMs": 7584
+    },
+    {
+      "id": "s24",
+      "speaker": "Helena",
+      "text": "What I'd defend instead is proportioning credence to the total weight of evidence, which sometimes warrants disbelief and sometimes warrants an honest 'we don't yet know'.",
+      "translationVi": "Điều tôi sẽ bảo vệ thay vào đó là điều chỉnh mức độ tin tưởng theo tổng trọng lượng bằng chứng, đôi khi biện minh cho sự không tin và đôi khi biện minh cho một câu thành thật 'chúng ta chưa biết'.",
+      "durationMs": 9408
+    },
+    {
+      "id": "s25",
+      "speaker": "Marcus",
+      "text": "The honest 'we don't yet know' is intellectually admirable but institutionally fragile, because careers and grants demand a verdict.",
+      "translationVi": "Câu thành thật 'chúng ta chưa biết' đáng khâm phục về mặt trí tuệ nhưng mong manh về mặt thể chế, vì sự nghiệp và tài trợ đòi hỏi một phán quyết.",
+      "durationMs": 8424
+    },
+    {
+      "id": "s26",
+      "speaker": "Helena",
+      "text": "And there, I'm afraid, we agree entirely — the real obstacle to good epistemics isn't ignorance of the right inference but an incentive structure that punishes calibrated uncertainty.",
+      "translationVi": "Và ở đó, tôi e rằng, chúng ta hoàn toàn đồng ý — trở ngại thực sự đối với nhận thức tốt không phải là sự thiếu hiểu biết về suy luận đúng mà là một cấu trúc khuyến khích trừng phạt sự bất định được hiệu chỉnh.",
+      "durationMs": 10848
+    },
+    {
+      "id": "s27",
+      "speaker": "Marcus",
+      "text": "Then perhaps the crisis is misnamed; it's less a crisis of replication than a crisis of how we reward the people who do the replicating.",
+      "translationVi": "Vậy có lẽ cuộc khủng hoảng bị gọi sai tên; nó ít là khủng hoảng tái lặp mà nhiều hơn là khủng hoảng về cách ta tưởng thưởng những người làm việc tái lặp.",
+      "durationMs": 8352
+    },
+    {
+      "id": "s28",
+      "speaker": "Helena",
+      "text": "That reframing I'll happily adopt, because it points to a reform that's actually within our gift: change what counts as a contribution, and the evidence will start to behave.",
+      "translationVi": "Cách diễn đạt lại đó tôi sẽ vui vẻ chấp nhận, vì nó chỉ ra một cải cách thực sự nằm trong khả năng của ta: thay đổi cái được tính là đóng góp, và bằng chứng sẽ bắt đầu cư xử đúng đắn.",
+      "durationMs": 9816
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "I won't dispute … ; what I'd contest is …"
+    },
+    {
+      "id": "h2",
+      "text": "What I'd defend instead is …"
+    },
+    {
+      "id": "h3",
+      "text": "Where I still part company with you is …"
+    },
+    {
+      "id": "h4",
+      "text": "That reframing I'll happily adopt, because …"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "replication crisis",
+      "meaningVi": "khủng hoảng tái lặp (nhiều nghiên cứu không thể lặp lại kết quả)",
+      "pronunciation": "/ˌrɛplɪˈkeɪʃən ˈkraɪsɪs/"
+    },
+    {
+      "id": "v2",
+      "phrase": "publication bias",
+      "meaningVi": "thiên kiến xuất bản (chỉ kết quả dương tính được công bố)",
+      "pronunciation": "/ˌpʌblɪˈkeɪʃən ˈbaɪəs/"
+    },
+    {
+      "id": "v3",
+      "phrase": "pre-registration",
+      "meaningVi": "đăng ký trước (công bố kế hoạch nghiên cứu trước khi thu dữ liệu)",
+      "pronunciation": "/ˌpriː ˌrɛdʒɪˈstreɪʃən/"
+    },
+    {
+      "id": "v4",
+      "phrase": "meta-analysis",
+      "meaningVi": "phân tích tổng hợp (gộp nhiều nghiên cứu)",
+      "pronunciation": "/ˌmɛtə əˈnæləsɪs/"
+    },
+    {
+      "id": "v5",
+      "phrase": "calibrated uncertainty",
+      "meaningVi": "sự bất định được hiệu chỉnh (tin tưởng đúng mức bằng chứng)",
+      "pronunciation": "/ˈkælɪbreɪtɪd ʌnˈsɜːrtənti/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "the so-called replication crisis",
+      "meaningVi": "cái gọi là khủng hoảng tái lặp",
+      "pronunciation": "/ðə ˈsoʊ kɔːld ˌrɛplɪˈkeɪʃən ˈkraɪsɪs/"
+    },
+    {
+      "phrase": "a single published study",
+      "meaningVi": "một nghiên cứu được xuất bản đơn lẻ",
+      "pronunciation": "/ə ˈsɪŋɡəl ˈpʌblɪʃt ˈstʌdi/"
+    },
+    {
+      "phrase": "I'd put it more cautiously",
+      "meaningVi": "tôi sẽ diễn đạt thận trọng hơn",
+      "pronunciation": "/aɪd pʊt ɪt mɔːr ˈkɔːʃəsli/"
+    },
+    {
+      "phrase": "landmark effects",
+      "meaningVi": "các hiệu ứng mang tính dấu mốc",
+      "pronunciation": "/ˈlændmɑːrk ɪˈfɛkts/"
+    },
+    {
+      "phrase": "may be artefactual",
+      "meaningVi": "có thể là sản phẩm nhân tạo (do lỗi phương pháp)",
+      "pronunciation": "/meɪ biː ˌɑːrtɪˈfæktʃuəl/"
+    },
+    {
+      "phrase": "the inference you draw from them",
+      "meaningVi": "suy luận anh rút ra từ chúng",
+      "pronunciation": "/ði ˈɪnfərəns juː drɔː frəm ðɛm/"
+    },
+    {
+      "phrase": "its own sampling error",
+      "meaningVi": "sai số chọn mẫu riêng của nó",
+      "pronunciation": "/ɪts oʊn ˈsæmplɪŋ ˈɛrər/"
+    },
+    {
+      "phrase": "hidden moderators",
+      "meaningVi": "các biến điều tiết ẩn",
+      "pronunciation": "/ˈhɪdən ˈmɒdəreɪtərz/"
+    },
+    {
+      "phrase": "the asymmetry runs the other way",
+      "meaningVi": "sự bất đối xứng chạy theo chiều ngược lại",
+      "pronunciation": "/ði eɪˈsɪmətri rʌnz ði ˈʌðər weɪ/"
+    },
+    {
+      "phrase": "a non-significant replication",
+      "meaningVi": "một lần tái lặp không có ý nghĩa thống kê",
+      "pronunciation": "/ə nɒn sɪɡˈnɪfɪkənt ˌrɛplɪˈkeɪʃən/"
+    },
+    {
+      "phrase": "a definitive refutation",
+      "meaningVi": "một sự bác bỏ dứt khoát",
+      "pronunciation": "/ə dɪˈfɪnɪtɪv ˌrɛfjʊˈteɪʃən/"
+    },
+    {
+      "phrase": "absence of evidence",
+      "meaningVi": "sự vắng mặt của bằng chứng",
+      "pronunciation": "/ˈæbsəns əv ˈɛvɪdəns/"
+    },
+    {
+      "phrase": "evidence of absence",
+      "meaningVi": "bằng chứng của sự vắng mặt",
+      "pronunciation": "/ˈɛvɪdəns əv ˈæbsəns/"
+    },
+    {
+      "phrase": "equally inconclusive",
+      "meaningVi": "không có tính kết luận như nhau",
+      "pronunciation": "/ˈiːkwəli ˌɪnkənˈkluːsɪv/"
+    },
+    {
+      "phrase": "the cumulative meta-analytic estimate",
+      "meaningVi": "ước lượng phân tích tổng hợp tích lũy",
+      "pronunciation": "/ðə ˈkjuːmjʊlətɪv ˌmɛtə ˌænəˈlɪtɪk ˈɛstɪmət/"
+    },
+    {
+      "phrase": "the headline finding",
+      "meaningVi": "phát hiện giật tít",
+      "pronunciation": "/ðə ˈhɛdlaɪn ˈfaɪndɪŋ/"
+    },
+    {
+      "phrase": "publication bias",
+      "meaningVi": "thiên kiến xuất bản",
+      "pronunciation": "/ˌpʌblɪˈkeɪʃən ˈbaɪəs/"
+    },
+    {
+      "phrase": "the pooled estimate is contaminated at the source",
+      "meaningVi": "ước lượng gộp bị nhiễm ngay từ nguồn",
+      "pronunciation": "/ðə puːld ˈɛstɪmət ɪz kənˈtæmɪneɪtɪd æt ðə sɔːrs/"
+    },
+    {
+      "phrase": "naive meta-analysis",
+      "meaningVi": "phân tích tổng hợp ngây thơ",
+      "pronunciation": "/naɪˈiːv ˌmɛtə əˈnæləsɪs/"
+    },
+    {
+      "phrase": "Pre-registration",
+      "meaningVi": "Đăng ký trước",
+      "pronunciation": "/ˌpriː ˌrɛdʒɪˈstreɪʃən/"
+    },
+    {
+      "phrase": "the file drawer",
+      "meaningVi": "ngăn kéo hồ sơ (nơi cất các kết quả không công bố)",
+      "pronunciation": "/ðə faɪl ˈdrɔːr/"
+    },
+    {
+      "phrase": "estimable rather than invisible",
+      "meaningVi": "có thể ước lượng được chứ không vô hình",
+      "pronunciation": "/ˈɛstɪməbəl ˈrɑːðər ðæn ɪnˈvɪzəbəl/"
+    },
+    {
+      "phrase": "it mainly disciplines the analysis",
+      "meaningVi": "nó chủ yếu kỷ luật hóa khâu phân tích",
+      "pronunciation": "/ɪt ˈmeɪnli ˈdɪsɪplɪnz ði əˈnæləsɪs/"
+    },
+    {
+      "phrase": "a theory that forbids nothing predicts nothing",
+      "meaningVi": "một lý thuyết không cấm gì thì cũng chẳng dự đoán gì",
+      "pronunciation": "/ə ˈθɪəri ðæt fərˈbɪdz ˈnʌθɪŋ prɪˈdɪkts ˈnʌθɪŋ/"
+    },
+    {
+      "phrase": "severe, risky predictions",
+      "meaningVi": "những dự đoán nghiêm ngặt, mạo hiểm",
+      "pronunciation": "/sɪˈvɪər ˈrɪski prɪˈdɪkʃənz/"
+    },
+    {
+      "phrase": "exonerating the bad statistics",
+      "meaningVi": "bào chữa cho thống kê tồi",
+      "pronunciation": "/ɪɡˈzɒnəreɪtɪŋ ðə bæd stəˈtɪstɪks/"
+    },
+    {
+      "phrase": "mutually reinforcing",
+      "meaningVi": "củng cố lẫn nhau",
+      "pronunciation": "/ˈmjuːtʃuəli ˌriːɪnˈfɔːrsɪŋ/"
+    },
+    {
+      "phrase": "part company with you",
+      "meaningVi": "bất đồng / tách khỏi quan điểm của anh",
+      "pronunciation": "/pɑːrt ˈkʌmpəni wɪð juː/"
+    },
+    {
+      "phrase": "suspended judgement",
+      "meaningVi": "hoãn phán xét",
+      "pronunciation": "/səˈspɛndɪd ˈdʒʌdʒmənt/"
+    },
+    {
+      "phrase": "proportioning credence to the total weight of evidence",
+      "meaningVi": "điều chỉnh mức tin tưởng theo tổng trọng lượng bằng chứng",
+      "pronunciation": "/prəˈpɔːrʃənɪŋ ˈkriːdəns tə ðə ˈtoʊtəl weɪt əv ˈɛvɪdəns/"
+    },
+    {
+      "phrase": "institutionally fragile",
+      "meaningVi": "mong manh về mặt thể chế",
+      "pronunciation": "/ˌɪnstɪˈtuːʃənəli ˈfrædʒəl/"
+    },
+    {
+      "phrase": "an incentive structure",
+      "meaningVi": "một cấu trúc khuyến khích",
+      "pronunciation": "/ən ɪnˈsɛntɪv ˈstrʌktʃər/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Distinguishing data from inference: 'I won't dispute … ; what I'd contest is …'",
+      "bodyVi": "Một động thái tranh luận tinh tế là tách dữ liệu khỏi suy luận: 'I won't dispute the numbers; what I'd contest is the inference you draw from them.' Bạn chấp nhận sự kiện nhưng từ chối kết luận. Điều này buộc đối phương phải bảo vệ bước suy luận chứ không chỉ trích dẫn lại bằng chứng.",
+      "bodyEn": "A sophisticated debate move is to separate the data from the inference: 'I won't dispute the numbers; what I'd contest is the inference you draw from them.' You accept the facts but reject the conclusion, which forces your interlocutor to defend the reasoning step rather than simply re-citing the evidence. It is far more precise than a blanket denial."
+    },
+    {
+      "title": "The absence-of-evidence distinction",
+      "bodyVi": "Cụm 'absence of evidence is not evidence of absence' (sự vắng mặt của bằng chứng không phải bằng chứng của sự vắng mặt) là một công cụ nhận thức then chốt: việc không tìm thấy một hiệu ứng không tự động chứng minh rằng hiệu ứng đó không tồn tại. Trong tiếng Anh học thuật, phân biệt này thường được dùng để chống lại các kết luận vội vàng từ kết quả vô hiệu.",
+      "bodyEn": "The phrase 'absence of evidence is not evidence of absence' marks a key epistemic distinction: failing to find an effect does not by itself prove the effect does not exist. In academic English this distinction is deployed to resist hasty conclusions drawn from null results, and noting it signals careful reasoning about what a non-finding can and cannot license."
+    }
+  ],
+  "translationVi": "Marcus: Helena, sau một thập kỷ của cái gọi là khủng hoảng tái lặp, tôi thực sự không chắc một nghiên cứu được xuất bản đơn lẻ giờ đây cho phép ta tin vào điều gì. Helena: Tôi sẽ diễn đạt thận trọng hơn: một nghiên cứu đơn lẻ chưa bao giờ nhằm giải quyết dứt điểm điều gì. Marcus: Đó là cách diễn đạt độ lượng, nhưng các dự án tái lặp quy mô lớn phát hiện rằng chỉ vừa quá nửa các hiệu ứng dấu mốc tái lặp được. Đó là một lĩnh vực phát hiện rằng phần lớn kinh điển của nó có thể là sản phẩm nhân tạo. Helena: Tôi sẽ không tranh cãi về các con số; điều tôi phản bác là suy luận anh rút ra từ chúng. Một lần tái lặp thất bại tự nó là một nghiên cứu đơn lẻ, với sai số chọn mẫu riêng. Marcus: Chắc hẳn cô không gợi ý rằng ta ưu tiên bản gốc chỉ vì nó có trước chứ? Helena: Hoàn toàn không. Ý tôi là sự bất đối xứng chạy theo chiều ngược lại: sự vắng mặt của bằng chứng đang bị nhầm thành bằng chứng của sự vắng mặt. Marcus: Đó là điểm logic công bằng, nhưng nó cũng phản lại phe cô, vì kết quả dương tính ban đầu cũng không có tính kết luận. Helena: Chính xác, đơn vị bằng chứng đúng đắn là ước lượng phân tích tổng hợp tích lũy, không phải phát hiện giật tít. Marcus: Khó khăn là phân tích tổng hợp thừa hưởng thiên kiến xuất bản. Nếu kết quả vô hiệu không được xuất bản, ước lượng gộp bị nhiễm từ nguồn. Helena: Phản bác đó là quyết định chống lại phân tích tổng hợp ngây thơ, nhưng đó là lý do các cải cách có ý nghĩa. Đăng ký trước cắt đứt mối liên hệ giữa kết quả và khả năng được xuất bản. Marcus: Đăng ký trước là tiến bộ, nhưng nó chẳng làm gì với một lý thuyết mơ hồ đến mức mọi mẫu hình đều được đọc là xác nhận nó. Helena: Đó mới là điểm sâu sắc hơn. Một lý thuyết không cấm gì thì cũng chẳng dự đoán gì. Marcus: Vậy cô định vị khủng hoảng nhiều hơn ở sự vắng mặt của những dự đoán nghiêm ngặt, mạo hiểm, thực sự có thể thất bại. Helena: Đó chính xác là sự chuyển trọng tâm tôi muốn thúc đẩy, dù tôi không muốn bị hiểu là bào chữa cho thống kê tồi. Phương pháp lỏng lẻo và lý thuyết lỏng lẻo củng cố lẫn nhau. Marcus: Chỗ tôi vẫn bất đồng là khi một hiệu ứng không tái lặp được, mặc định có trách nhiệm phải là không tin, chứ không phải hoãn phán xét. Helena: Tôi phản đối việc lấy sự không tin làm mặc định, vì nó cũng chẳng trung lập hơn một mặc định tin tưởng. Điều tôi bảo vệ là điều chỉnh mức tin tưởng theo tổng trọng lượng bằng chứng. Marcus: Câu thành thật 'chúng ta chưa biết' đáng khâm phục nhưng mong manh về mặt thể chế, vì sự nghiệp và tài trợ đòi hỏi một phán quyết. Helena: Và ở đó chúng ta hoàn toàn đồng ý — trở ngại thực sự là một cấu trúc khuyến khích trừng phạt sự bất định được hiệu chỉnh. Marcus: Vậy có lẽ khủng hoảng bị gọi sai tên; nó là khủng hoảng về cách ta tưởng thưởng những người làm việc tái lặp. Helena: Cách diễn đạt lại đó tôi vui vẻ chấp nhận: thay đổi cái được tính là đóng góp, và bằng chứng sẽ bắt đầu cư xử đúng đắn.",
+  "criticalThinkingQuestion": "When a celebrated finding fails to replicate, what should the scientific community conclude — that the effect is false, that the replication is flawed, or that we simply lack enough evidence to decide — and how should journals and funders be redesigned so that an honest 'we don't yet know' is a publishable, career-safe conclusion?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-c1-097",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 229584
+}

@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "The moral grammar of being on the inside of a decision",
   "summary": "Examine what changes morally when a person is on the inside of a consequential decision — not its object but one of its authors — and argue that proximity to power creates obligations that are not resolved by good intentions alone.",
-  "tags": ["Argument", "Ethics", "Power"],
+  "tags": [
+    "Argument",
+    "Ethics",
+    "Power"
+  ],
   "topic": "The moral obligations that arise from participating in consequential institutional decisions",
   "prompt": "Write a 600–800-word argumentative essay exploring what it means, morally, to be on the inside of a significant decision: a policy, a redundancy, a legal judgment, an institutional restructuring. You are not its object; you are one of its authors. What does that position entail? Use at least two specific examples from different national or institutional contexts (e.g. civil servants implementing policies they disagree with, doctors in rationing committees, corporate managers in restructuring decisions). Deploy inversion at least once, a cleft sentence, and a 'granted… even so…' concession. Avoid abstract moralising; work with the friction of real positions.",
   "minWords": 600,
@@ -14,51 +18,173 @@
     "Granted, most institutional decisions require people to act under constraint. Even so,…"
   ],
   "hintVocab": [
-    {"phrase": "moral exposure", "meaningVi": "sự phơi bày đạo đức"},
-    {"phrase": "authorship of a decision", "meaningVi": "quyền tác giả của một quyết định"},
-    {"phrase": "institutional complicity", "meaningVi": "sự đồng lõa của tổ chức"},
-    {"phrase": "diffused responsibility", "meaningVi": "trách nhiệm bị phân tán"},
-    {"phrase": "rationing committee", "meaningVi": "ủy ban phân bổ nguồn lực"},
-    {"phrase": "procedural insulation", "meaningVi": "sự cách ly thủ tục"},
-    {"phrase": "consequential decision", "meaningVi": "quyết định có hậu quả quan trọng"},
-    {"phrase": "acting under orders", "meaningVi": "hành động theo lệnh"},
-    {"phrase": "ethical residue", "meaningVi": "dư lượng đạo đức"},
-    {"phrase": "bureaucratic distance", "meaningVi": "khoảng cách quan liêu"},
-    {"phrase": "proximity to harm", "meaningVi": "sự gần gũi với tác hại"},
-    {"phrase": "moral remainder", "meaningVi": "phần dư đạo đức"},
-    {"phrase": "clean hands", "meaningVi": "bàn tay sạch, không vướng bẩn đạo đức"},
-    {"phrase": "the banality of administrative evil", "meaningVi": "sự bình thường hóa của cái ác hành chính"},
-    {"phrase": "rationale for compliance", "meaningVi": "lý do biện hộ cho sự tuân thủ"},
-    {"phrase": "institutional role morality", "meaningVi": "đạo đức vai trò thể chế"},
-    {"phrase": "complicit silence", "meaningVi": "im lặng đồng lõa"},
-    {"phrase": "moral agency", "meaningVi": "năng lực đạo đức"},
-    {"phrase": "systemic cowardice", "meaningVi": "sự hèn nhát có tính hệ thống"},
-    {"phrase": "the obligation to dissent", "meaningVi": "nghĩa vụ phản đối"},
-    {"phrase": "the grammar of culpability", "meaningVi": "ngữ pháp của tội lỗi"}
+    {
+      "phrase": "moral exposure",
+      "meaningVi": "sự phơi bày đạo đức"
+    },
+    {
+      "phrase": "authorship of a decision",
+      "meaningVi": "quyền tác giả của một quyết định"
+    },
+    {
+      "phrase": "institutional complicity",
+      "meaningVi": "sự đồng lõa của tổ chức"
+    },
+    {
+      "phrase": "diffused responsibility",
+      "meaningVi": "trách nhiệm bị phân tán"
+    },
+    {
+      "phrase": "rationing committee",
+      "meaningVi": "ủy ban phân bổ nguồn lực"
+    },
+    {
+      "phrase": "procedural insulation",
+      "meaningVi": "sự cách ly thủ tục"
+    },
+    {
+      "phrase": "consequential decision",
+      "meaningVi": "quyết định có hậu quả quan trọng"
+    },
+    {
+      "phrase": "acting under orders",
+      "meaningVi": "hành động theo lệnh"
+    },
+    {
+      "phrase": "ethical residue",
+      "meaningVi": "dư lượng đạo đức"
+    },
+    {
+      "phrase": "bureaucratic distance",
+      "meaningVi": "khoảng cách quan liêu"
+    },
+    {
+      "phrase": "proximity to harm",
+      "meaningVi": "sự gần gũi với tác hại"
+    },
+    {
+      "phrase": "moral remainder",
+      "meaningVi": "phần dư đạo đức"
+    },
+    {
+      "phrase": "clean hands",
+      "meaningVi": "bàn tay sạch, không vướng bẩn đạo đức"
+    },
+    {
+      "phrase": "the banality of administrative evil",
+      "meaningVi": "sự bình thường hóa của cái ác hành chính"
+    },
+    {
+      "phrase": "rationale for compliance",
+      "meaningVi": "lý do biện hộ cho sự tuân thủ"
+    },
+    {
+      "phrase": "institutional role morality",
+      "meaningVi": "đạo đức vai trò thể chế"
+    },
+    {
+      "phrase": "complicit silence",
+      "meaningVi": "im lặng đồng lõa"
+    },
+    {
+      "phrase": "moral agency",
+      "meaningVi": "năng lực đạo đức"
+    },
+    {
+      "phrase": "systemic cowardice",
+      "meaningVi": "sự hèn nhát có tính hệ thống"
+    },
+    {
+      "phrase": "the obligation to dissent",
+      "meaningVi": "nghĩa vụ phản đối"
+    },
+    {
+      "phrase": "the grammar of culpability",
+      "meaningVi": "ngữ pháp của tội lỗi"
+    }
   ],
   "sampleText": "Seldom do those who author a consequential decision feel its weight in the way those who receive it do. This is not simply a failure of empathy — though it is that, too. It is a structural feature of being on the inside: the decision arrives for its authors as a problem to be managed, a set of considerations to be weighed, a procedure to be completed. It arrives for its objects as a fact about their lives that they did not choose and cannot easily contest. The asymmetry is built into the geometry of the thing.\n\nConsider what happens when a government ministry decides to cut disability benefit eligibility, as occurred under successive UK administrations between 2010 and 2020. The civil servants who drafted the criteria, the ministers who approved them, the assessors who applied them: each occupied a position inside the decision from which the people affected were visible only as a category — applicants, claimants, cases. The moral grammar of their position was not 'I am doing this to you' but rather 'I am implementing a policy' — a formulation that distributes responsibility so widely across the institutional apparatus that it becomes, for each individual participant, nearly invisible. Yet the effects were not distributed; they fell on particular people, many of whom could not survive without the benefits that were removed.\n\nIt is precisely the mechanism of diffused responsibility — the way large institutions divide consequential decisions into small procedural tasks, each performed by someone who can truthfully say they did not make the decision alone — that constitutes the deepest moral problem of institutional life. Hannah Arendt's phrase 'the banality of evil' was coined to describe a similar structure in an extreme context, but the same logic operates at much lower levels of harm: the HR professional who processes redundancies without meeting the people being made redundant, the procurement officer whose budget decisions determine the quality of school meals without ever entering a school, the hospital committee that sets treatment thresholds without seeing the individual patients who fall on the wrong side of those thresholds.\n\nGranted, most institutional decisions require people to act under constraint, and the individual civil servant who objects to a policy does not, by objecting, have the power to change it. The realistic alternative to compliance is usually not heroic refusal but a form of marginalisation that removes the objector from any position to do good. Even so, acting under constraint is not the same as acting without moral agency. The person on the inside of a consequential decision retains — even when they cannot change the outcome — the capacity to make their objection visible, to document their dissent, to ensure that the people most affected are represented somewhere in the deliberative process, and to refuse the comfort of telling themselves that their procedural compliance has left their hands clean.\n\nTwo further cases illustrate the range of the problem. In Japan, the culture of nemawashi — building consensus through careful, pre-meeting consultation — can distribute authorship of a decision so thoroughly across an organisation that no individual ever feels themselves to be its author. The decision is, in a sense, nobody's, yet its effects belong to someone. In Brazil, the practice of jeitinho — the flexible workaround — operates differently: individual participants find ways to soften or redirect institutional decisions without directly challenging them, preserving a degree of moral agency within the institutional structure. Both are responses to the same underlying problem: the tension between the need to function inside a structure one cannot fully control and the obligation not to mistake functioning for innocence.\n\nBeing on the inside of a decision is not, then, a morally neutral position that one can inhabit without remainder. It confers a specific form of authorship — partial, constrained, distributed, but authorship nonetheless. What that authorship demands is not, in most cases, the heroism of refusal. It demands, instead, a kind of grammatical honesty: knowing which sentences in the decision you helped to write, and what those sentences did to the people who had to live inside them.",
   "sampleAnnotations": [
-    {"phrase": "Seldom do those who author a consequential decision feel its weight in the way those who receive it do", "meaningVi": "Hiếm khi những người tác giả của một quyết định quan trọng cảm nhận sức nặng của nó theo cách những người nhận nó"},
-    {"phrase": "the decision arrives for its authors as a problem to be managed", "meaningVi": "quyết định đến với những tác giả của nó như một vấn đề cần được quản lý"},
-    {"phrase": "a fact about their lives that they did not choose", "meaningVi": "một thực tế về cuộc sống của họ mà họ không lựa chọn"},
-    {"phrase": "The asymmetry is built into the geometry of the thing", "meaningVi": "Sự bất đối xứng được tích hợp vào hình học của vấn đề"},
-    {"phrase": "visible only as a category", "meaningVi": "chỉ hiện hữu như một danh mục"},
-    {"phrase": "distributes responsibility so widely across the institutional apparatus", "meaningVi": "phân phối trách nhiệm rộng rãi đến mức qua toàn bộ bộ máy tổ chức"},
-    {"phrase": "nearly invisible", "meaningVi": "gần như vô hình"},
-    {"phrase": "the effects were not distributed; they fell on particular people", "meaningVi": "các tác động không được phân phối; chúng giáng xuống những người cụ thể"},
-    {"phrase": "It is precisely the mechanism of diffused responsibility", "meaningVi": "Chính xác là cơ chế của trách nhiệm bị phân tán"},
-    {"phrase": "each performed by someone who can truthfully say they did not make the decision alone", "meaningVi": "mỗi người được thực hiện bởi ai đó có thể nói thật rằng họ không tự mình đưa ra quyết định"},
-    {"phrase": "the banality of evil", "meaningVi": "sự bình thường tầm thường của cái ác"},
-    {"phrase": "the grammar of culpability", "meaningVi": "ngữ pháp của tội lỗi"},
-    {"phrase": "Granted, most institutional decisions require people to act under constraint", "meaningVi": "Cứ cho là hầu hết các quyết định tổ chức đòi hỏi người ta hành động trong điều kiện bị ràng buộc"},
-    {"phrase": "acting under constraint is not the same as acting without moral agency", "meaningVi": "hành động trong điều kiện bị ràng buộc không giống với hành động không có năng lực đạo đức"},
-    {"phrase": "Even so, acting under constraint is not the same as acting without moral agency", "meaningVi": "Dù vậy, hành động trong điều kiện bị ràng buộc không đồng nghĩa với hành động không có năng lực đạo đức"},
-    {"phrase": "to refuse the comfort of telling themselves that their procedural compliance has left their hands clean", "meaningVi": "từ chối sự an ủi khi tự nhủ rằng sự tuân thủ thủ tục đã giữ tay họ sạch"},
-    {"phrase": "distributes authorship of a decision so thoroughly across an organisation", "meaningVi": "phân phối quyền tác giả của một quyết định một cách triệt để khác qua tổ chức"},
-    {"phrase": "the obligation not to mistake functioning for innocence", "meaningVi": "nghĩa vụ không nhầm lẫn việc vận hành với sự vô tội"},
-    {"phrase": "a specific form of authorship — partial, constrained, distributed, but authorship nonetheless", "meaningVi": "một dạng quyền tác giả cụ thể — một phần, bị ràng buộc, phân tán, nhưng vẫn là quyền tác giả"},
-    {"phrase": "a kind of grammatical honesty", "meaningVi": "một loại sự trung thực theo nghĩa ngữ pháp"},
-    {"phrase": "knowing which sentences in the decision you helped to write", "meaningVi": "biết câu nào trong quyết định bạn đã giúp viết"}
+    {
+      "phrase": "Seldom do those who author a consequential decision feel its weight in the way those who receive it do",
+      "meaningVi": "Hiếm khi những người tác giả của một quyết định quan trọng cảm nhận sức nặng của nó theo cách những người nhận nó"
+    },
+    {
+      "phrase": "the decision arrives for its authors as a problem to be managed",
+      "meaningVi": "quyết định đến với những tác giả của nó như một vấn đề cần được quản lý"
+    },
+    {
+      "phrase": "a fact about their lives that they did not choose",
+      "meaningVi": "một thực tế về cuộc sống của họ mà họ không lựa chọn"
+    },
+    {
+      "phrase": "The asymmetry is built into the geometry of the thing",
+      "meaningVi": "Sự bất đối xứng được tích hợp vào hình học của vấn đề"
+    },
+    {
+      "phrase": "visible only as a category",
+      "meaningVi": "chỉ hiện hữu như một danh mục"
+    },
+    {
+      "phrase": "distributes responsibility so widely across the institutional apparatus",
+      "meaningVi": "phân phối trách nhiệm rộng rãi đến mức qua toàn bộ bộ máy tổ chức"
+    },
+    {
+      "phrase": "nearly invisible",
+      "meaningVi": "gần như vô hình"
+    },
+    {
+      "phrase": "the effects were not distributed; they fell on particular people",
+      "meaningVi": "các tác động không được phân phối; chúng giáng xuống những người cụ thể"
+    },
+    {
+      "phrase": "It is precisely the mechanism of diffused responsibility",
+      "meaningVi": "Chính xác là cơ chế của trách nhiệm bị phân tán"
+    },
+    {
+      "phrase": "each performed by someone who can truthfully say they did not make the decision alone",
+      "meaningVi": "mỗi người được thực hiện bởi ai đó có thể nói thật rằng họ không tự mình đưa ra quyết định"
+    },
+    {
+      "phrase": "the banality of evil",
+      "meaningVi": "sự bình thường tầm thường của cái ác"
+    },
+    {
+      "phrase": "Granted, most institutional decisions require people to act under constraint",
+      "meaningVi": "Cứ cho là hầu hết các quyết định tổ chức đòi hỏi người ta hành động trong điều kiện bị ràng buộc"
+    },
+    {
+      "phrase": "acting under constraint is not the same as acting without moral agency",
+      "meaningVi": "hành động trong điều kiện bị ràng buộc không giống với hành động không có năng lực đạo đức"
+    },
+    {
+      "phrase": "Even so, acting under constraint is not the same as acting without moral agency",
+      "meaningVi": "Dù vậy, hành động trong điều kiện bị ràng buộc không đồng nghĩa với hành động không có năng lực đạo đức"
+    },
+    {
+      "phrase": "to refuse the comfort of telling themselves that their procedural compliance has left their hands clean",
+      "meaningVi": "từ chối sự an ủi khi tự nhủ rằng sự tuân thủ thủ tục đã giữ tay họ sạch"
+    },
+    {
+      "phrase": "authorship of a decision so thoroughly across an organisation",
+      "meaningVi": "phân phối quyền tác giả của một quyết định một cách triệt để khác qua tổ chức"
+    },
+    {
+      "phrase": "the obligation not to mistake functioning for innocence",
+      "meaningVi": "nghĩa vụ không nhầm lẫn việc vận hành với sự vô tội"
+    },
+    {
+      "phrase": "a specific form of authorship — partial, constrained, distributed, but authorship nonetheless",
+      "meaningVi": "một dạng quyền tác giả cụ thể — một phần, bị ràng buộc, phân tán, nhưng vẫn là quyền tác giả"
+    },
+    {
+      "phrase": "a kind of grammatical honesty",
+      "meaningVi": "một loại sự trung thực theo nghĩa ngữ pháp"
+    },
+    {
+      "phrase": "knowing which sentences in the decision you helped to write",
+      "meaningVi": "biết câu nào trong quyết định bạn đã giúp viết"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -78,12 +204,12 @@
       "id": "q1",
       "prompt": "According to the essay, why do those who author a decision not feel its weight as those who receive it do?",
       "options": [
-        "Because decision-makers are callous and indifferent",
         "Because the decision arrives for its authors as a problem to be managed, while for its objects it is a fact about their lives they did not choose",
+        "Because decision-makers are callous and indifferent",
         "Because decision-makers are too busy to reflect",
         "Because institutional training removes empathy"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay describes a 'structural feature of being on the inside': the decision is a procedural task for its authors but an unchosen life fact for those subject to it.",
       "hint": "Look for the contrast between 'problem to be managed' and 'fact about their lives'."
     },
@@ -92,11 +218,11 @@
       "prompt": "Which sentence correctly uses negative inversion with 'seldom'?",
       "options": [
         "Seldom those who author a decision feel its weight in the way those who receive it do.",
-        "Those who author decisions seldom do feel the weight.",
         "Seldom do those who author a consequential decision feel its weight in the way those who receive it do.",
+        "Those who author decisions seldom do feel the weight.",
         "Seldom did feel those who author a decision its weight."
       ],
-      "answerIndex": 2,
+      "answerIndex": 1,
       "explanation": "'Seldom' triggers inversion: 'Seldom do those…' not 'Seldom those do…'.",
       "hint": "The auxiliary 'do' must immediately follow 'seldom'."
     },
@@ -105,11 +231,11 @@
       "prompt": "What is 'diffused responsibility' as described in the essay?",
       "options": [
         "The legal principle that corporations share liability equally",
-        "The way large institutions divide consequential decisions into small procedural tasks so no individual feels they made the decision alone",
         "The practice of sharing responsibility between governments and citizens",
+        "The way large institutions divide consequential decisions into small procedural tasks so no individual feels they made the decision alone",
         "A management technique for delegating tasks"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay defines diffused responsibility as 'the way large institutions divide consequential decisions into small procedural tasks, each performed by someone who can truthfully say they did not make the decision alone.'",
       "hint": "Look for the cleft sentence in the third paragraph."
     },
@@ -118,11 +244,11 @@
       "prompt": "The essay references Hannah Arendt's 'banality of evil'. What point does this reference support?",
       "options": [
         "That most people are naturally evil",
-        "That the same logic of diffused responsibility that enabled extreme institutional harm also operates at lower levels — in HR, procurement, and policy implementation",
         "That only extreme situations produce moral problems",
-        "That civil servants are morally inferior to politicians"
+        "That civil servants are morally inferior to politicians",
+        "That the same logic of diffused responsibility that enabled extreme institutional harm also operates at lower levels — in HR, procurement, and policy implementation"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay uses Arendt's concept to argue that 'the same logic operates at much lower levels of harm' — the mechanism is not unique to extreme contexts.",
       "hint": "Look for the sentence beginning 'the same logic operates at much lower levels'."
     },
@@ -130,12 +256,12 @@
       "id": "q5",
       "prompt": "What is the essay's concession, and what counter-claim follows it?",
       "options": [
-        "Concession: institutions are necessary. Counter-claim: they should be abolished.",
         "Concession: people must act under constraint. Counter-claim: but acting under constraint is not the same as acting without moral agency.",
+        "Concession: institutions are necessary. Counter-claim: they should be abolished.",
         "Concession: objecting to policy is admirable. Counter-claim: but it rarely works.",
         "Concession: civil servants are not responsible. Counter-claim: but they should be blamed anyway."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay grants that 'most institutional decisions require people to act under constraint', then counters with 'acting under constraint is not the same as acting without moral agency.'",
       "hint": "Look for the 'Granted… Even so…' paragraph."
     },
@@ -157,11 +283,11 @@
       "prompt": "Which correctly uses a cleft sentence to isolate the mechanism of diffused responsibility?",
       "options": [
         "Diffused responsibility is precisely the deepest moral problem of institutional life.",
-        "It is precisely the mechanism of diffused responsibility that constitutes the deepest moral problem of institutional life.",
         "What constitutes the deepest problem is precisely how diffused the responsibility is.",
+        "It is precisely the mechanism of diffused responsibility that constitutes the deepest moral problem of institutional life.",
         "The deepest problem, precisely, is that responsibility is diffused."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "Only option B uses the 'It is X that Y' cleft structure with 'precisely' to isolate the mechanism.",
       "hint": "Look for the 'It is… that…' pattern."
     },
@@ -171,10 +297,10 @@
       "options": [
         "Nemawashi eliminates individual responsibility; jeitinho creates more of it",
         "Both distribute authorship so thoroughly that no individual is responsible",
-        "Nemawashi distributes authorship so no one feels its author; jeitinho allows individuals to preserve moral agency by softening decisions within the structure",
-        "Jeitinho is more ethical than nemawashi in all cases"
+        "Jeitinho is more ethical than nemawashi in all cases",
+        "Nemawashi distributes authorship so no one feels its author; jeitinho allows individuals to preserve moral agency by softening decisions within the structure"
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "explanation": "Nemawashi distributes authorship 'so thoroughly across an organisation that no individual ever feels themselves to be its author', while jeitinho allows participants to 'soften or redirect institutional decisions… preserving a degree of moral agency.'",
       "hint": "Look for what each practice does to individual moral agency."
     },
@@ -182,12 +308,12 @@
       "id": "q9",
       "prompt": "What does the essay mean by 'moral remainder'?",
       "options": [
-        "The part of a moral argument that has not been addressed",
         "What is left over morally even after one has done everything procedurally correct — the residue of responsibility that cannot be dissolved by compliance",
+        "The part of a moral argument that has not been addressed",
         "The remainder of a moral debt after partial payment",
         "A mathematical concept applied to ethics"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "A 'moral remainder' is the ethical residue that persists after procedural compliance — the essay's ending 'without remainder' implies that one cannot occupy the inside of a decision without any moral accountability remaining.",
       "hint": "Think of 'remainder' as what is left over after you have accounted for everything else."
     },
@@ -209,11 +335,11 @@
       "prompt": "What does 'procedural insulation' mean?",
       "options": [
         "The use of insulation materials in building construction",
-        "The way institutional procedures protect their participants from feeling personally responsible for the decisions those procedures produce",
         "A legal technique for protecting decision-makers from prosecution",
+        "The way institutional procedures protect their participants from feeling personally responsible for the decisions those procedures produce",
         "The isolation of procedures from public scrutiny"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "Procedural insulation is the protection afforded by being 'just following procedure' — it insulates participants from the moral weight of their collective decisions.",
       "hint": "Think of 'insulation' as protection from something — here, from moral accountability."
     },
@@ -222,11 +348,11 @@
       "prompt": "What is the essay's metaphor of 'grammatical honesty'?",
       "options": [
         "Using grammatically correct sentences in official documents",
-        "Knowing which parts of a consequential decision you authored, and therefore which sentences in that decision you must take responsibility for",
         "Being honest about one's level of English",
-        "A form of linguistic self-correction"
+        "A form of linguistic self-correction",
+        "Knowing which parts of a consequential decision you authored, and therefore which sentences in that decision you must take responsibility for"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay ends with the demand for 'grammatical honesty: knowing which sentences in the decision you helped to write, and what those sentences did to the people who had to live inside them.'",
       "hint": "Think of 'grammar' as structure — the structures of a decision you participated in writing."
     },
@@ -234,12 +360,12 @@
       "id": "q13",
       "prompt": "The UK disability benefit example illustrates what specific point?",
       "options": [
-        "That UK welfare policy is the world's most harmful",
         "That the diffusion of decision-authorship across a bureaucratic apparatus does not diffuse the effects, which fall on specific individuals",
+        "That UK welfare policy is the world's most harmful",
         "That civil servants should resign when they disagree with policy",
         "That disability benefits are too expensive to sustain"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay says responsibility was 'nearly invisible' to each participant, 'yet the effects were not distributed; they fell on particular people.'",
       "hint": "Look for the contrast between distributed responsibility and concentrated effects."
     },

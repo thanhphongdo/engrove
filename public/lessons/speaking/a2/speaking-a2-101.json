@@ -1,0 +1,376 @@
+{
+  "id": "speaking-a2-101",
+  "level": "A2",
+  "title": "Reporting Lost Luggage",
+  "summary": "A traveler reports a missing suitcase to a staff member at the airport lost luggage desk.",
+  "topic": "Lost luggage at the airport",
+  "tags": [
+    "Travel",
+    "Airport",
+    "Problems"
+  ],
+  "characters": [
+    "Traveler",
+    "Agent"
+  ],
+  "voices": {
+    "Traveler": {
+      "sex": "female",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-EmmaNeural"
+    },
+    "Agent": {
+      "sex": "male",
+      "age": "adult",
+      "accent": "en-US",
+      "edgeVoice": "en-US-BrianNeural"
+    }
+  },
+  "body": [
+    {
+      "speaker": "Traveler",
+      "text": "Excuse me, I think my suitcase is lost."
+    },
+    {
+      "speaker": "Agent",
+      "text": "I'm sorry to hear that. Please come to the lost luggage desk."
+    },
+    {
+      "speaker": "Traveler",
+      "text": "I waited at the baggage carousel for thirty minutes, but my bag never came."
+    },
+    {
+      "speaker": "Agent",
+      "text": "Can I see your boarding pass and baggage claim tag, please?"
+    },
+    {
+      "speaker": "Traveler",
+      "text": "Yes, here they are. I flew in from Singapore this morning."
+    },
+    {
+      "speaker": "Agent",
+      "text": "Thank you. Can you describe your suitcase for me?"
+    },
+    {
+      "speaker": "Traveler",
+      "text": "It is a large, dark blue suitcase with a yellow ribbon on the handle."
+    },
+    {
+      "speaker": "Agent",
+      "text": "I see. Let me check our system for any unloaded bags on your flight. It looks like your bag may still be in Singapore. It was not loaded onto your flight."
+    },
+    {
+      "speaker": "Traveler",
+      "text": "Oh no! I need my bag today. What can you do?"
+    },
+    {
+      "speaker": "Agent",
+      "text": "We can send your bag on the next flight. It will arrive tonight at nine o'clock."
+    },
+    {
+      "speaker": "Traveler",
+      "text": "Can you deliver it to my hotel? I am staying at the Grand Hotel on Park Street."
+    },
+    {
+      "speaker": "Agent",
+      "text": "Yes, we offer a free delivery service to your hotel. Please fill in this form with your contact details."
+    },
+    {
+      "speaker": "Traveler",
+      "text": "Thank you. Do I get any compensation for the inconvenience?"
+    },
+    {
+      "speaker": "Agent",
+      "text": "Yes, you can claim up to fifty dollars for emergency items like toiletries and a change of clothes."
+    },
+    {
+      "speaker": "Traveler",
+      "text": "That is helpful. I will keep my receipts."
+    },
+    {
+      "speaker": "Agent",
+      "text": "Perfect. We will call you as soon as your bag arrives at the airport."
+    }
+  ],
+  "sentences": [
+    {
+      "id": "s1",
+      "speaker": "Traveler",
+      "text": "Excuse me, I think my suitcase is lost.",
+      "translationVi": "Xin lỗi, tôi nghĩ vali của tôi đã bị thất lạc.",
+      "durationMs": 2856
+    },
+    {
+      "id": "s2",
+      "speaker": "Agent",
+      "text": "I'm sorry to hear that. Please come to the lost luggage desk.",
+      "translationVi": "Tôi rất tiếc khi nghe điều đó. Vui lòng đến quầy hành lý thất lạc.",
+      "durationMs": 4152
+    },
+    {
+      "id": "s3",
+      "speaker": "Traveler",
+      "text": "I waited at the baggage carousel for thirty minutes, but my bag never came.",
+      "translationVi": "Tôi đã đợi tại băng chuyền hành lý ba mươi phút, nhưng túi của tôi không xuất hiện.",
+      "durationMs": 4656
+    },
+    {
+      "id": "s4",
+      "speaker": "Agent",
+      "text": "Can I see your boarding pass and baggage claim tag, please?",
+      "translationVi": "Cho tôi xem thẻ lên máy bay và thẻ nhận hành lý của bạn được không?",
+      "durationMs": 4008
+    },
+    {
+      "id": "s5",
+      "speaker": "Traveler",
+      "text": "Yes, here they are. I flew in from Singapore this morning.",
+      "translationVi": "Vâng, đây rồi. Tôi vừa bay đến từ Singapore sáng nay.",
+      "durationMs": 3864
+    },
+    {
+      "id": "s6",
+      "speaker": "Agent",
+      "text": "Thank you. Can you describe your suitcase for me?",
+      "translationVi": "Cảm ơn. Bạn có thể mô tả chiếc vali của mình không?",
+      "durationMs": 3312
+    },
+    {
+      "id": "s7",
+      "speaker": "Traveler",
+      "text": "It is a large, dark blue suitcase with a yellow ribbon on the handle.",
+      "translationVi": "Đó là một chiếc vali lớn màu xanh đậm với một dải ruy băng vàng trên tay cầm.",
+      "durationMs": 4056
+    },
+    {
+      "id": "s8",
+      "speaker": "Agent",
+      "text": "I see. Let me check our system for any unloaded bags on your flight.",
+      "translationVi": "Tôi hiểu. Để tôi kiểm tra hệ thống xem có hành lý nào chưa được dỡ xuống từ chuyến bay của bạn không.",
+      "durationMs": 4776
+    },
+    {
+      "id": "s9",
+      "speaker": "Agent",
+      "text": "It looks like your bag may still be in Singapore. It was not loaded onto your flight.",
+      "translationVi": "Có vẻ như hành lý của bạn vẫn còn ở Singapore. Nó đã không được đưa lên chuyến bay của bạn.",
+      "durationMs": 5064
+    },
+    {
+      "id": "s10",
+      "speaker": "Traveler",
+      "text": "Oh no! I need my bag today. What can you do?",
+      "translationVi": "Ôi không! Tôi cần vali của tôi ngay hôm nay. Các bạn có thể làm gì không?",
+      "durationMs": 3816
+    },
+    {
+      "id": "s11",
+      "speaker": "Agent",
+      "text": "We can send your bag on the next flight. It will arrive tonight at nine o'clock.",
+      "translationVi": "Chúng tôi có thể gửi vali của bạn trên chuyến bay tiếp theo. Nó sẽ đến vào tối nay lúc chín giờ.",
+      "durationMs": 5232
+    },
+    {
+      "id": "s12",
+      "speaker": "Traveler",
+      "text": "Can you deliver it to my hotel? I am staying at the Grand Hotel on Park Street.",
+      "translationVi": "Các bạn có thể giao đến khách sạn của tôi không? Tôi đang ở khách sạn Grand trên phố Park.",
+      "durationMs": 5088
+    },
+    {
+      "id": "s13",
+      "speaker": "Agent",
+      "text": "Yes, we offer a free delivery service to your hotel. Please fill in this form with your contact details.",
+      "translationVi": "Vâng, chúng tôi cung cấp dịch vụ giao hàng miễn phí đến khách sạn của bạn. Vui lòng điền vào mẫu này với thông tin liên lạc của bạn.",
+      "durationMs": 6408
+    },
+    {
+      "id": "s14",
+      "speaker": "Traveler",
+      "text": "Thank you. Do I get any compensation for the inconvenience?",
+      "translationVi": "Cảm ơn. Tôi có được bồi thường gì vì sự bất tiện này không?",
+      "durationMs": 4104
+    },
+    {
+      "id": "s15",
+      "speaker": "Agent",
+      "text": "Yes, you can claim up to fifty dollars for emergency items like toiletries and a change of clothes.",
+      "translationVi": "Vâng, bạn có thể yêu cầu bồi thường lên đến năm mươi đô la cho các vật dụng khẩn cấp như đồ vệ sinh cá nhân và quần áo thay.",
+      "durationMs": 5736
+    },
+    {
+      "id": "s16",
+      "speaker": "Traveler",
+      "text": "That is helpful. I will keep my receipts.",
+      "translationVi": "Điều đó thật hữu ích. Tôi sẽ giữ lại các hóa đơn của mình.",
+      "durationMs": 3168
+    },
+    {
+      "id": "s17",
+      "speaker": "Agent",
+      "text": "Perfect. We will call you as soon as your bag arrives at the airport.",
+      "translationVi": "Hoàn hảo. Chúng tôi sẽ gọi cho bạn ngay khi hành lý của bạn đến sân bay.",
+      "durationMs": 4320
+    }
+  ],
+  "hintStarters": [
+    {
+      "id": "h1",
+      "text": "I think my … is lost …"
+    },
+    {
+      "id": "h2",
+      "text": "Could you help me find …?"
+    },
+    {
+      "id": "h3",
+      "text": "I waited for … but …"
+    },
+    {
+      "id": "h4",
+      "text": "Is it possible to … tonight?"
+    }
+  ],
+  "hintVocab": [
+    {
+      "id": "v1",
+      "phrase": "baggage carousel",
+      "meaningVi": "băng chuyền hành lý",
+      "pronunciation": "/ˈbæɡɪdʒ ˌkærəˈsɛl/"
+    },
+    {
+      "id": "v2",
+      "phrase": "baggage claim tag",
+      "meaningVi": "thẻ nhận hành lý",
+      "pronunciation": "/ˈbæɡɪdʒ kleɪm tæɡ/"
+    },
+    {
+      "id": "v3",
+      "phrase": "compensation",
+      "meaningVi": "bồi thường",
+      "pronunciation": "/ˌkɒmpənˈseɪʃən/"
+    },
+    {
+      "id": "v4",
+      "phrase": "toiletries",
+      "meaningVi": "đồ vệ sinh cá nhân",
+      "pronunciation": "/ˈtɔɪlətriz/"
+    },
+    {
+      "id": "v5",
+      "phrase": "delivery service",
+      "meaningVi": "dịch vụ giao hàng",
+      "pronunciation": "/dɪˈlɪvəri ˈsɜːrvɪs/"
+    }
+  ],
+  "annotations": [
+    {
+      "phrase": "my suitcase is lost",
+      "meaningVi": "vali của tôi bị thất lạc",
+      "pronunciation": "/maɪ ˈsuːtkeɪs ɪz lɒst/"
+    },
+    {
+      "phrase": "lost luggage desk",
+      "meaningVi": "quầy hành lý thất lạc",
+      "pronunciation": "/lɒst ˈlʌɡɪdʒ dɛsk/"
+    },
+    {
+      "phrase": "baggage carousel",
+      "meaningVi": "băng chuyền hành lý",
+      "pronunciation": "/ˈbæɡɪdʒ ˌkærəˈsɛl/"
+    },
+    {
+      "phrase": "boarding pass",
+      "meaningVi": "thẻ lên máy bay",
+      "pronunciation": "/ˈbɔːrdɪŋ pæs/"
+    },
+    {
+      "phrase": "baggage claim tag",
+      "meaningVi": "thẻ nhận hành lý",
+      "pronunciation": "/ˈbæɡɪdʒ kleɪm tæɡ/"
+    },
+    {
+      "phrase": "Can you describe your suitcase",
+      "meaningVi": "Bạn có thể mô tả chiếc vali của mình không",
+      "pronunciation": "/kæn juː dɪˈskraɪb jər ˈsuːtkeɪs/"
+    },
+    {
+      "phrase": "dark blue suitcase",
+      "meaningVi": "vali màu xanh đậm",
+      "pronunciation": "/dɑːrk bluː ˈsuːtkeɪs/"
+    },
+    {
+      "phrase": "yellow ribbon on the handle",
+      "meaningVi": "dải ruy băng vàng trên tay cầm",
+      "pronunciation": "/ˈjɛloʊ ˈrɪbən ɒn ðə ˈhændl/"
+    },
+    {
+      "phrase": "was not loaded onto your flight",
+      "meaningVi": "đã không được đưa lên chuyến bay của bạn",
+      "pronunciation": "/wɒz nɒt ˈloʊdɪd ˈɒntə jər flaɪt/"
+    },
+    {
+      "phrase": "the next flight",
+      "meaningVi": "chuyến bay tiếp theo",
+      "pronunciation": "/ðə nɛkst flaɪt/"
+    },
+    {
+      "phrase": "deliver it to my hotel",
+      "meaningVi": "giao đến khách sạn của tôi",
+      "pronunciation": "/dɪˈlɪvər ɪt tə maɪ hoʊˈtɛl/"
+    },
+    {
+      "phrase": "free delivery service",
+      "meaningVi": "dịch vụ giao hàng miễn phí",
+      "pronunciation": "/friː dɪˈlɪvəri ˈsɜːrvɪs/"
+    },
+    {
+      "phrase": "contact details",
+      "meaningVi": "thông tin liên lạc",
+      "pronunciation": "/ˈkɒntækt ˈdiːteɪlz/"
+    },
+    {
+      "phrase": "compensation for the inconvenience",
+      "meaningVi": "bồi thường vì sự bất tiện",
+      "pronunciation": "/ˌkɒmpənˈseɪʃən fər ðə ˌɪnkənˈviːniəns/"
+    },
+    {
+      "phrase": "claim up to fifty dollars",
+      "meaningVi": "yêu cầu bồi thường lên đến năm mươi đô la",
+      "pronunciation": "/kleɪm ʌp tə ˈfɪfti ˈdɒlərz/"
+    },
+    {
+      "phrase": "emergency items",
+      "meaningVi": "vật dụng khẩn cấp",
+      "pronunciation": "/ɪˈmɜːrdʒənsi ˈaɪtəmz/"
+    },
+    {
+      "phrase": "I will keep my receipts",
+      "meaningVi": "Tôi sẽ giữ lại các hóa đơn của mình",
+      "pronunciation": "/aɪ wɪl kiːp maɪ rɪˈsiːts/"
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "Simple Past for completed actions",
+      "bodyVi": "Dùng thì quá khứ đơn để nói về hành động đã hoàn thành. Ví dụ: 'It was not loaded onto your flight.' (Nó đã không được đưa lên chuyến bay của bạn.) Cấu trúc: was/were + not + past participle.",
+      "bodyEn": "Use the simple past to talk about completed actions. Example: 'It was not loaded onto your flight.' Structure: was/were + not + past participle (passive)."
+    },
+    {
+      "title": "Can for requests and offers",
+      "bodyVi": "'Can' được dùng để xin phép hoặc đề nghị giúp đỡ. Ví dụ: 'Can I see your boarding pass?' (Cho tôi xem thẻ lên máy bay không?) và 'Can you deliver it to my hotel?' (Bạn có thể giao đến khách sạn không?)",
+      "bodyEn": "'Can' is used for polite requests and offers. Example: 'Can I see your boarding pass?' and 'Can you deliver it to my hotel?'"
+    }
+  ],
+  "translationVi": "Hành khách: Xin lỗi, tôi nghĩ vali của tôi đã bị thất lạc. / Nhân viên: Tôi rất tiếc khi nghe điều đó. Vui lòng đến quầy hành lý thất lạc. / Hành khách: Tôi đã đợi tại băng chuyền hành lý ba mươi phút, nhưng túi của tôi không xuất hiện. / Nhân viên: Cho tôi xem thẻ lên máy bay và thẻ nhận hành lý của bạn được không? / Hành khách: Vâng, đây rồi. Tôi vừa bay đến từ Singapore sáng nay. / Nhân viên: Cảm ơn. Bạn có thể mô tả chiếc vali của mình không? / Hành khách: Đó là một chiếc vali lớn màu xanh đậm với một dải ruy băng vàng trên tay cầm. / Nhân viên: Tôi hiểu. Để tôi kiểm tra hệ thống xem có hành lý nào chưa được dỡ xuống từ chuyến bay của bạn không. Có vẻ như hành lý của bạn vẫn còn ở Singapore. Nó đã không được đưa lên chuyến bay của bạn. / Hành khách: Ôi không! Tôi cần vali của tôi ngay hôm nay. Các bạn có thể làm gì không? / Nhân viên: Chúng tôi có thể gửi vali của bạn trên chuyến bay tiếp theo. Nó sẽ đến vào tối nay lúc chín giờ. / Hành khách: Các bạn có thể giao đến khách sạn của tôi không? Tôi đang ở khách sạn Grand trên phố Park. / Nhân viên: Vâng, chúng tôi cung cấp dịch vụ giao hàng miễn phí đến khách sạn của bạn. Vui lòng điền vào mẫu này với thông tin liên lạc của bạn. / Hành khách: Cảm ơn. Tôi có được bồi thường gì vì sự bất tiện này không? / Nhân viên: Vâng, bạn có thể yêu cầu bồi thường lên đến năm mươi đô la cho các vật dụng khẩn cấp như đồ vệ sinh cá nhân và quần áo thay. / Hành khách: Điều đó thật hữu ích. Tôi sẽ giữ lại các hóa đơn của mình. / Nhân viên: Hoàn hảo. Chúng tôi sẽ gọi cho bạn ngay khi hành lý của bạn đến sân bay.",
+  "criticalThinkingQuestion": "What information should you always keep with you when traveling to make it easier to report a lost bag?",
+  "audio": {
+    "cdnBase": "https://cdn.jsdelivr.net/gh/thanhphongdo/english-learning-audio@main/speaking-a2-101",
+    "manifestVersion": 1
+  },
+  "accents": [
+    "en-US"
+  ],
+  "totalDurationMs": 74616
+}

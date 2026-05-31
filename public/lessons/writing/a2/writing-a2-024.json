@@ -3,7 +3,11 @@
   "level": "A2",
   "title": "A bus ride that surprised me",
   "summary": "Narrate one bus ride that was different from what you expected.",
-  "tags": ["Narrative", "Past simple", "Transport"],
+  "tags": [
+    "Narrative",
+    "Past simple",
+    "Transport"
+  ],
   "topic": "A bus ride that surprised me",
   "prompt": "Write 8–10 sentences (150–250 words) about a bus ride that surprised you. Say where you were going and what you expected. Use past simple and past continuous to describe what happened on the ride. Explain what surprised you and how you felt at the end.",
   "minWords": 150,
@@ -14,31 +18,99 @@
     "The bus was moving through … when I noticed…"
   ],
   "hintVocab": [
-    { "phrase": "crowded", "meaningVi": "đông đúc", "pronunciation": "/ˈkraʊdɪd/" },
-    { "phrase": "stranger", "meaningVi": "người lạ", "pronunciation": "/ˈstreɪndʒər/" },
-    { "phrase": "missed my stop", "meaningVi": "bỏ lỡ trạm dừng" },
-    { "phrase": "squeezed in", "meaningVi": "chen vào" },
-    { "phrase": "out of nowhere", "meaningVi": "bỗng dưng, đột ngột" },
-    { "phrase": "gave up his seat", "meaningVi": "nhường chỗ ngồi" },
-    { "phrase": "window seat", "meaningVi": "chỗ ngồi cạnh cửa sổ" },
-    { "phrase": "turned around", "meaningVi": "quay lại, đổi hướng" },
-    { "phrase": "lost", "meaningVi": "bị lạc đường" },
-    { "phrase": "kindness", "meaningVi": "sự tốt bụng" },
-    { "phrase": "unexpected", "meaningVi": "bất ngờ, không mong đợi" }
+    {
+      "phrase": "crowded",
+      "meaningVi": "đông đúc",
+      "pronunciation": "/ˈkraʊdɪd/"
+    },
+    {
+      "phrase": "stranger",
+      "meaningVi": "người lạ",
+      "pronunciation": "/ˈstreɪndʒər/"
+    },
+    {
+      "phrase": "missed my stop",
+      "meaningVi": "bỏ lỡ trạm dừng"
+    },
+    {
+      "phrase": "squeezed in",
+      "meaningVi": "chen vào"
+    },
+    {
+      "phrase": "out of nowhere",
+      "meaningVi": "bỗng dưng, đột ngột"
+    },
+    {
+      "phrase": "gave up his seat",
+      "meaningVi": "nhường chỗ ngồi"
+    },
+    {
+      "phrase": "window seat",
+      "meaningVi": "chỗ ngồi cạnh cửa sổ"
+    },
+    {
+      "phrase": "turned around",
+      "meaningVi": "quay lại, đổi hướng"
+    },
+    {
+      "phrase": "lost",
+      "meaningVi": "bị lạc đường"
+    },
+    {
+      "phrase": "kindness",
+      "meaningVi": "sự tốt bụng"
+    },
+    {
+      "phrase": "unexpected",
+      "meaningVi": "bất ngờ, không mong đợi"
+    }
   ],
   "sampleText": "Last March, I took a bus across the city of Lisbon to visit a friend who lived near the river. The bus was very crowded and I had to stand near the door. I was listening to music and watching the streets when an old man suddenly stood up and offered me his seat. I did not expect that because I was not carrying anything heavy. I sat down and smiled at him, but he just nodded and looked out of the window. After a few minutes, the bus turned down a road I did not recognise. I thought I was on the wrong bus, so I started to feel a little worried. I checked my phone and realised I had taken the number 28 instead of the number 25. I got off at the next stop and walked for about ten minutes to find the correct bus. By the time I arrived at my friend's house, I was thirty minutes late. She laughed when I told her what happened. But I still think about the old man on the bus. Out of nowhere, he showed me a small act of kindness that I still remember today.",
   "sampleAnnotations": [
-    { "phrase": "had to stand near the door", "meaningVi": "phải đứng gần cửa" },
-    { "phrase": "was listening to music", "meaningVi": "đang nghe nhạc" },
-    { "phrase": "offered me his seat", "meaningVi": "nhường chỗ ngồi cho tôi" },
-    { "phrase": "I did not expect that", "meaningVi": "Tôi không mong đợi điều đó" },
-    { "phrase": "turned down a road I did not recognise", "meaningVi": "rẽ vào một con đường tôi không nhận ra" },
-    { "phrase": "I thought I was on the wrong bus", "meaningVi": "Tôi nghĩ mình đã lên nhầm xe" },
-    { "phrase": "I had taken the number 28 instead of the number 25", "meaningVi": "Tôi đã lên xe số 28 thay vì xe số 25" },
-    { "phrase": "got off at the next stop", "meaningVi": "xuống ở trạm tiếp theo" },
-    { "phrase": "By the time I arrived", "meaningVi": "Vào lúc tôi đến nơi" },
-    { "phrase": "Out of nowhere", "meaningVi": "Bỗng dưng" },
-    { "phrase": "a small act of kindness", "meaningVi": "một hành động tốt bụng nhỏ" }
+    {
+      "phrase": "had to stand near the door",
+      "meaningVi": "phải đứng gần cửa"
+    },
+    {
+      "phrase": "was listening to music",
+      "meaningVi": "đang nghe nhạc"
+    },
+    {
+      "phrase": "offered me his seat",
+      "meaningVi": "nhường chỗ ngồi cho tôi"
+    },
+    {
+      "phrase": "I did not expect that",
+      "meaningVi": "Tôi không mong đợi điều đó"
+    },
+    {
+      "phrase": "turned down a road I did not recognise",
+      "meaningVi": "rẽ vào một con đường tôi không nhận ra"
+    },
+    {
+      "phrase": "I thought I was on the wrong bus",
+      "meaningVi": "Tôi nghĩ mình đã lên nhầm xe"
+    },
+    {
+      "phrase": "I had taken the number 28 instead of the number 25",
+      "meaningVi": "Tôi đã lên xe số 28 thay vì xe số 25"
+    },
+    {
+      "phrase": "got off at the next stop",
+      "meaningVi": "xuống ở trạm tiếp theo"
+    },
+    {
+      "phrase": "By the time I arrived",
+      "meaningVi": "Vào lúc tôi đến nơi"
+    },
+    {
+      "phrase": "Out of nowhere",
+      "meaningVi": "Bỗng dưng"
+    },
+    {
+      "phrase": "a small act of kindness",
+      "meaningVi": "một hành động tốt bụng nhỏ"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -53,12 +125,12 @@
       "id": "q1",
       "prompt": "Where was the writer going on the bus?",
       "options": [
-        "To visit a friend near the river",
         "To the city centre for work",
         "To the airport",
-        "To a shop across the city"
+        "To a shop across the city",
+        "To visit a friend near the river"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "The text says the writer was going to visit a friend who lived near the river.",
       "hint": "Re-read the first sentence."
     },
@@ -79,12 +151,12 @@
       "id": "q3",
       "prompt": "Which sentence uses past continuous correctly?",
       "options": [
-        "I was listening to music and watching the streets.",
         "I listened to music and was watch the streets.",
+        "I was listening to music and watching the streets.",
         "I was listen to music and watching the streets.",
         "I listened to music and watched the streets when was a man standing."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "Both verbs in the background scene use past continuous correctly.",
       "hint": "Both background actions should use 'was/were + -ing'."
     },
@@ -92,12 +164,12 @@
       "id": "q4",
       "prompt": "What mistake did the writer make?",
       "options": [
-        "Taking the wrong bus number",
         "Forgetting to pay the fare",
         "Getting off at the right stop too early",
+        "Taking the wrong bus number",
         "Missing the bus completely"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "The writer took bus number 28 instead of number 25.",
       "hint": "What does the writer say about bus numbers?"
     },
@@ -105,12 +177,12 @@
       "id": "q5",
       "prompt": "Choose the correct phrase: 'I got ___ at the next stop.'",
       "options": [
-        "off",
         "out",
         "down",
-        "away"
+        "away",
+        "off"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'Get off' is the correct phrasal verb for leaving a bus or train.",
       "hint": "Which phrasal verb means to leave a bus?"
     },
@@ -131,12 +203,12 @@
       "id": "q7",
       "prompt": "What does 'out of nowhere' mean in the text?",
       "options": [
-        "Suddenly, without any warning",
         "From a place far away",
+        "Suddenly, without any warning",
         "Without a reason",
         "From outside the bus"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'Out of nowhere' means something happened suddenly and unexpectedly.",
       "hint": "Think about how suddenly the man stood up."
     },
@@ -144,12 +216,12 @@
       "id": "q8",
       "prompt": "Which sentence correctly uses 'instead of'?",
       "options": [
-        "I had taken the number 28 instead of the number 25.",
         "I had taken the number 28 instead the number 25.",
         "I had taken the number 28 instead of taking number 25.",
+        "I had taken the number 28 instead of the number 25.",
         "I had taken the number 28, instead of I took the number 25."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Instead of' is followed by a noun phrase here.",
       "hint": "'Instead of' is followed by a noun or gerund."
     },
@@ -157,12 +229,12 @@
       "id": "q9",
       "prompt": "How did the writer feel when the bus turned onto an unfamiliar road?",
       "options": [
-        "A little worried",
         "Excited",
         "Happy",
-        "Angry"
+        "Angry",
+        "A little worried"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "The text says 'I started to feel a little worried.'",
       "hint": "Find the sentence where the writer describes their feeling."
     },
@@ -183,12 +255,12 @@
       "id": "q11",
       "prompt": "Pick the correct past simple form: 'The bus ___ down a road I did not recognise.'",
       "options": [
-        "turned",
         "was turning",
+        "turned",
         "turns",
         "has turned"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "Past simple is used for a single completed action in a narrative.",
       "hint": "A single past action in a story uses past simple."
     }

@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "On the moral economy of the corner shop in a city of chains",
   "summary": "Argue that the disappearance of the independent corner shop is not merely a commercial event but the loss of a small civic infrastructure whose moral functions chains do not replicate.",
-  "tags": ["Urban life", "Ethics", "Economy"],
+  "tags": [
+    "Urban life",
+    "Ethics",
+    "Economy"
+  ],
   "topic": "What is lost when chain stores replace the independent neighbourhood shop",
   "prompt": "Write a 600–800-word essay arguing that the independent corner shop performs moral and civic functions that are invisible to commercial accounting and therefore vanish when it is replaced by a chain. Avoid nostalgia for its own sake; treat the shop as a specific kind of urban institution. Use inversion at least once, a cleft sentence, and a 'Granted… Even so…' concession. Set examples in real cities (Lisbon, Istanbul, Hanoi, etc.). Avoid the rhetoric of 'shop local' campaigns.",
   "minWords": 600,
@@ -14,52 +18,181 @@
     "Granted, chains offer lower prices, longer hours, and a wider range. Even so,…"
   ],
   "hintVocab": [
-    {"phrase": "moral economy", "meaningVi": "nền kinh tế đạo đức"},
-    {"phrase": "third place", "meaningVi": "không gian thứ ba — không phải nhà, không phải nơi làm việc"},
-    {"phrase": "civic infrastructure", "meaningVi": "hạ tầng dân sinh"},
-    {"phrase": "transactional anonymity", "meaningVi": "tính ẩn danh giao dịch"},
-    {"phrase": "the proprietor", "meaningVi": "người chủ"},
-    {"phrase": "tab", "meaningVi": "sổ ghi nợ"},
-    {"phrase": "informal credit", "meaningVi": "tín dụng không chính thức"},
-    {"phrase": "weak ties", "meaningVi": "mối quan hệ yếu, không thân thiết"},
-    {"phrase": "neighbourhood texture", "meaningVi": "kết cấu khu phố"},
-    {"phrase": "commercial rent pressure", "meaningVi": "áp lực tiền thuê thương mại"},
-    {"phrase": "supply-chain efficiency", "meaningVi": "hiệu quả chuỗi cung ứng"},
-    {"phrase": "asymmetric loss", "meaningVi": "tổn thất bất đối xứng"},
-    {"phrase": "ambient surveillance", "meaningVi": "sự quan sát thường nhật"},
-    {"phrase": "everyday recognition", "meaningVi": "sự công nhận thường ngày"},
-    {"phrase": "the named customer", "meaningVi": "khách hàng được gọi tên"},
-    {"phrase": "the unbanked", "meaningVi": "người không có tài khoản ngân hàng"},
-    {"phrase": "neighbourly accommodation", "meaningVi": "sự thông cảm hàng xóm"},
-    {"phrase": "social fabric", "meaningVi": "tấm vải xã hội, kết cấu xã hội"},
-    {"phrase": "footfall", "meaningVi": "lượng người qua lại"},
-    {"phrase": "the local witness", "meaningVi": "nhân chứng địa phương"},
-    {"phrase": "small acts of trust", "meaningVi": "những hành động tin cậy nhỏ"},
-    {"phrase": "displacement effect", "meaningVi": "hiệu ứng dịch chuyển"}
+    {
+      "phrase": "moral economy",
+      "meaningVi": "nền kinh tế đạo đức"
+    },
+    {
+      "phrase": "third place",
+      "meaningVi": "không gian thứ ba — không phải nhà, không phải nơi làm việc"
+    },
+    {
+      "phrase": "civic infrastructure",
+      "meaningVi": "hạ tầng dân sinh"
+    },
+    {
+      "phrase": "transactional anonymity",
+      "meaningVi": "tính ẩn danh giao dịch"
+    },
+    {
+      "phrase": "the proprietor",
+      "meaningVi": "người chủ"
+    },
+    {
+      "phrase": "tab",
+      "meaningVi": "sổ ghi nợ"
+    },
+    {
+      "phrase": "informal credit",
+      "meaningVi": "tín dụng không chính thức"
+    },
+    {
+      "phrase": "weak ties",
+      "meaningVi": "mối quan hệ yếu, không thân thiết"
+    },
+    {
+      "phrase": "neighbourhood texture",
+      "meaningVi": "kết cấu khu phố"
+    },
+    {
+      "phrase": "commercial rent pressure",
+      "meaningVi": "áp lực tiền thuê thương mại"
+    },
+    {
+      "phrase": "supply-chain efficiency",
+      "meaningVi": "hiệu quả chuỗi cung ứng"
+    },
+    {
+      "phrase": "asymmetric loss",
+      "meaningVi": "tổn thất bất đối xứng"
+    },
+    {
+      "phrase": "ambient surveillance",
+      "meaningVi": "sự quan sát thường nhật"
+    },
+    {
+      "phrase": "everyday recognition",
+      "meaningVi": "sự công nhận thường ngày"
+    },
+    {
+      "phrase": "the named customer",
+      "meaningVi": "khách hàng được gọi tên"
+    },
+    {
+      "phrase": "the unbanked",
+      "meaningVi": "người không có tài khoản ngân hàng"
+    },
+    {
+      "phrase": "neighbourly accommodation",
+      "meaningVi": "sự thông cảm hàng xóm"
+    },
+    {
+      "phrase": "social fabric",
+      "meaningVi": "tấm vải xã hội, kết cấu xã hội"
+    },
+    {
+      "phrase": "footfall",
+      "meaningVi": "lượng người qua lại"
+    },
+    {
+      "phrase": "the local witness",
+      "meaningVi": "nhân chứng địa phương"
+    },
+    {
+      "phrase": "small acts of trust",
+      "meaningVi": "những hành động tin cậy nhỏ"
+    },
+    {
+      "phrase": "displacement effect",
+      "meaningVi": "hiệu ứng dịch chuyển"
+    }
   ],
   "sampleText": "Only rarely is the closure of a small shop registered as anything more than a commercial event. A sign comes down, a chain replaces it, the prices fall, the hours extend, and the street appears, by every measure the council records, to have been improved. What disappears is not in the accounts. It is the proprietor who knew which of the elderly residents had not been seen for two days, the tab that kept a household in milk during the last week of a difficult month, the corner from which a slow conversation was conducted, every morning, by people who otherwise had no occasion to address one another. None of this appears on the rent roll. It does not need to. Its absence will appear later, distributed across other ledgers — clinic visits not made in time, isolations not noticed — and by then the connection will be hard to trace.\n\nIt is easy to overstate what the corner shop was. The literature of local commerce can curdle quickly into sentimentalism, and most of us have known proprietors who were rude, prices that were inflated, and shops whose dust deserved their closure. The argument is not that every small shop was a moral institution. It is that some were, and that the conditions which allowed them to be — long tenure, a real proprietor on the floor, a customer base small enough to be remembered — are precisely the conditions that chain commerce, by design, abolishes. The chain does not refuse to recognise its customers; it is structurally incapable of doing so.\n\nWhat the language of efficiency cannot account for is the function of a place that has no formal function at all. A neighbourhood needs surfaces on which weak ties can form — the brief encounter, the half-conversation, the mutual recognition between people who would never invite each other to dinner. Sociologists since Granovetter have known that these weak ties carry disproportionate informational and emotional weight; they are how news of a job reaches a stranger, how a recently widowed neighbour is checked on by someone who is not family, how a child who has wandered too far is returned. Such ties do not require a corner shop. But they require some surface on which they can settle, and in many cities — Lisbon, Istanbul, Hanoi, Naples — that surface was, for a long time, the local trader.\n\nIt is the asymmetry of what is lost, not the absence of compensating goods, that gives the displacement its particular moral character. Granted, chains offer lower prices, longer hours, and a wider range. Even so, the costs and the benefits do not fall on the same people. The shopper who can drive to a supermarket on the edge of the city benefits from its prices; the elderly woman on the fourth floor without a lift, who used to send a child down to the corner with a note, does not. The young office worker who shops late benefits from the extended hours; the unbanked tenant who relied on an informal tab loses a small credit line that no commercial product replaces. The benefit is broadly distributed and visible. The loss is concentrated, unmeasured, and tends to fall on those least able to publicise it.\n\nThere is also something more difficult to name. A neighbourhood in which one is recognised — addressed by name, asked after, missed when absent — is not the same neighbourhood as one in which one is anonymous. The recognition that the corner shop provided was not deep; it was, at most, a small civic warmth. But it is the kind of warmth on which a city's tolerance for its own strangers quietly depends. A neighbourhood that no longer recognises anyone has fewer reasons not to suspect everyone. The slide from a city of named customers to a city of ambient surveillance is shorter than it appears.\n\nNone of this is an argument against chains, exactly. It is an argument for noticing, before the next closure, what we are about to subtract. The corner shop was rarely magnificent and often not worth preserving on its own terms. The functions it carried were. Whether we choose to rebuild those functions in some other form, or to let them quietly disappear and discover the cost later, is a decision the rent market will not make for us. It will only present the bill.",
   "sampleAnnotations": [
-    {"phrase": "Only rarely is the closure of a small shop registered as anything more than a commercial event", "meaningVi": "Chỉ hiếm khi việc đóng cửa của một cửa hàng nhỏ được ghi nhận như bất cứ điều gì khác ngoài một sự kiện thương mại"},
-    {"phrase": "the proprietor who knew which of the elderly residents had not been seen for two days", "meaningVi": "người chủ biết cư dân lớn tuổi nào đã không xuất hiện trong hai ngày"},
-    {"phrase": "the tab that kept a household in milk during the last week of a difficult month", "meaningVi": "sổ ghi nợ giúp một hộ gia đình có sữa trong tuần cuối của một tháng khó khăn"},
-    {"phrase": "distributed across other ledgers — clinic visits not made in time, isolations not noticed", "meaningVi": "phân tán trên các sổ cái khác — những lần khám bệnh không kịp, những sự cô lập không được nhận ra"},
-    {"phrase": "the literature of local commerce can curdle quickly into sentimentalism", "meaningVi": "tài liệu về thương mại địa phương có thể nhanh chóng đông lại thành chủ nghĩa tình cảm"},
-    {"phrase": "structurally incapable of doing so", "meaningVi": "không có khả năng làm điều đó về mặt cấu trúc"},
-    {"phrase": "What the language of efficiency cannot account for is the function of a place that has no formal function at all", "meaningVi": "Những gì ngôn ngữ hiệu quả không thể tính đến là chức năng của một nơi không có chức năng chính thức nào cả"},
-    {"phrase": "surfaces on which weak ties can form", "meaningVi": "những bề mặt mà các mối quan hệ yếu có thể hình thành"},
-    {"phrase": "the half-conversation, the mutual recognition between people who would never invite each other to dinner", "meaningVi": "cuộc trò chuyện nửa chừng, sự công nhận lẫn nhau giữa những người sẽ không bao giờ mời nhau ăn tối"},
-    {"phrase": "weak ties carry disproportionate informational and emotional weight", "meaningVi": "các mối quan hệ yếu mang trọng lượng thông tin và cảm xúc lớn không tương xứng"},
-    {"phrase": "It is the asymmetry of what is lost, not the absence of compensating goods, that gives the displacement its particular moral character", "meaningVi": "Chính sự bất đối xứng của những gì bị mất, không phải sự vắng mặt của các lợi ích bù đắp, mới mang lại cho sự dịch chuyển đặc tính đạo đức riêng biệt"},
-    {"phrase": "Granted, chains offer lower prices, longer hours, and a wider range", "meaningVi": "Cứ cho là chuỗi cung cấp giá thấp hơn, giờ mở dài hơn, và phạm vi rộng hơn"},
-    {"phrase": "Even so, the costs and the benefits do not fall on the same people", "meaningVi": "Dù vậy, chi phí và lợi ích không rơi vào cùng những người"},
-    {"phrase": "the unbanked tenant who relied on an informal tab", "meaningVi": "người thuê nhà không có tài khoản ngân hàng từng dựa vào sổ ghi nợ không chính thức"},
-    {"phrase": "the benefit is broadly distributed and visible. The loss is concentrated, unmeasured, and tends to fall on those least able to publicise it", "meaningVi": "lợi ích được phân phối rộng và dễ thấy. Tổn thất tập trung, không được đo lường, và có xu hướng rơi vào những người ít có khả năng công bố nhất"},
-    {"phrase": "a small civic warmth", "meaningVi": "một sự ấm áp dân sinh nhỏ"},
-    {"phrase": "a city's tolerance for its own strangers quietly depends", "meaningVi": "sự khoan dung của một thành phố đối với những người lạ của chính nó âm thầm phụ thuộc vào"},
-    {"phrase": "A neighbourhood that no longer recognises anyone has fewer reasons not to suspect everyone", "meaningVi": "Một khu phố không còn công nhận bất kỳ ai có ít lý do hơn để không nghi ngờ mọi người"},
-    {"phrase": "ambient surveillance", "meaningVi": "sự quan sát thường nhật, có mặt khắp nơi"},
-    {"phrase": "what we are about to subtract", "meaningVi": "những gì chúng ta sắp trừ bớt"},
-    {"phrase": "the rent market will not make for us. It will only present the bill", "meaningVi": "thị trường tiền thuê sẽ không quyết định thay chúng ta. Nó chỉ trình hoá đơn"}
+    {
+      "phrase": "Only rarely is the closure of a small shop registered as anything more than a commercial event",
+      "meaningVi": "Chỉ hiếm khi việc đóng cửa của một cửa hàng nhỏ được ghi nhận như bất cứ điều gì khác ngoài một sự kiện thương mại"
+    },
+    {
+      "phrase": "the proprietor who knew which of the elderly residents had not been seen for two days",
+      "meaningVi": "người chủ biết cư dân lớn tuổi nào đã không xuất hiện trong hai ngày"
+    },
+    {
+      "phrase": "the tab that kept a household in milk during the last week of a difficult month",
+      "meaningVi": "sổ ghi nợ giúp một hộ gia đình có sữa trong tuần cuối của một tháng khó khăn"
+    },
+    {
+      "phrase": "distributed across other ledgers — clinic visits not made in time, isolations not noticed",
+      "meaningVi": "phân tán trên các sổ cái khác — những lần khám bệnh không kịp, những sự cô lập không được nhận ra"
+    },
+    {
+      "phrase": "the literature of local commerce can curdle quickly into sentimentalism",
+      "meaningVi": "tài liệu về thương mại địa phương có thể nhanh chóng đông lại thành chủ nghĩa tình cảm"
+    },
+    {
+      "phrase": "structurally incapable of doing so",
+      "meaningVi": "không có khả năng làm điều đó về mặt cấu trúc"
+    },
+    {
+      "phrase": "What the language of efficiency cannot account for is the function of a place that has no formal function at all",
+      "meaningVi": "Những gì ngôn ngữ hiệu quả không thể tính đến là chức năng của một nơi không có chức năng chính thức nào cả"
+    },
+    {
+      "phrase": "surfaces on which weak ties can form",
+      "meaningVi": "những bề mặt mà các mối quan hệ yếu có thể hình thành"
+    },
+    {
+      "phrase": "the half-conversation, the mutual recognition between people who would never invite each other to dinner",
+      "meaningVi": "cuộc trò chuyện nửa chừng, sự công nhận lẫn nhau giữa những người sẽ không bao giờ mời nhau ăn tối"
+    },
+    {
+      "phrase": "weak ties carry disproportionate informational and emotional weight",
+      "meaningVi": "các mối quan hệ yếu mang trọng lượng thông tin và cảm xúc lớn không tương xứng"
+    },
+    {
+      "phrase": "It is the asymmetry of what is lost, not the absence of compensating goods, that gives the displacement its particular moral character",
+      "meaningVi": "Chính sự bất đối xứng của những gì bị mất, không phải sự vắng mặt của các lợi ích bù đắp, mới mang lại cho sự dịch chuyển đặc tính đạo đức riêng biệt"
+    },
+    {
+      "phrase": "Granted, chains offer lower prices, longer hours, and a wider range",
+      "meaningVi": "Cứ cho là chuỗi cung cấp giá thấp hơn, giờ mở dài hơn, và phạm vi rộng hơn"
+    },
+    {
+      "phrase": "Even so, the costs and the benefits do not fall on the same people",
+      "meaningVi": "Dù vậy, chi phí và lợi ích không rơi vào cùng những người"
+    },
+    {
+      "phrase": "the unbanked tenant who relied on an informal tab",
+      "meaningVi": "người thuê nhà không có tài khoản ngân hàng từng dựa vào sổ ghi nợ không chính thức"
+    },
+    {
+      "phrase": "the benefit is broadly distributed and visible. The loss is concentrated, unmeasured, and tends to fall on those least able to publicise it",
+      "meaningVi": "lợi ích được phân phối rộng và dễ thấy. Tổn thất tập trung, không được đo lường, và có xu hướng rơi vào những người ít có khả năng công bố nhất"
+    },
+    {
+      "phrase": "a small civic warmth",
+      "meaningVi": "một sự ấm áp dân sinh nhỏ"
+    },
+    {
+      "phrase": "a city's tolerance for its own strangers quietly depends",
+      "meaningVi": "sự khoan dung của một thành phố đối với những người lạ của chính nó âm thầm phụ thuộc vào"
+    },
+    {
+      "phrase": "A neighbourhood that no longer recognises anyone has fewer reasons not to suspect everyone",
+      "meaningVi": "Một khu phố không còn công nhận bất kỳ ai có ít lý do hơn để không nghi ngờ mọi người"
+    },
+    {
+      "phrase": "ambient surveillance",
+      "meaningVi": "sự quan sát thường nhật, có mặt khắp nơi"
+    },
+    {
+      "phrase": "what we are about to subtract",
+      "meaningVi": "những gì chúng ta sắp trừ bớt"
+    },
+    {
+      "phrase": "the rent market will not make for us. It will only present the bill",
+      "meaningVi": "thị trường tiền thuê sẽ không quyết định thay chúng ta. Nó chỉ trình hoá đơn"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -80,11 +213,11 @@
       "prompt": "Which sentence correctly applies passive inversion after 'Only rarely'?",
       "options": [
         "Only rarely the closure of a small shop is registered as a commercial event.",
-        "Only rarely is the closure of a small shop registered as anything more than a commercial event.",
         "Only rarely registered as a commercial event is the closure of a small shop.",
-        "The closure of a small shop only rarely registers as a commercial event."
+        "The closure of a small shop only rarely registers as a commercial event.",
+        "Only rarely is the closure of a small shop registered as anything more than a commercial event."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "After 'Only rarely', the passive auxiliary 'is' must precede the subject 'the closure of a small shop'. Without inversion, the negative fronting is ungrammatical at C1 register.",
       "hint": "Negative fronting + passive: auxiliary 'is' precedes subject."
     },
@@ -92,12 +225,12 @@
       "id": "q2",
       "prompt": "What is the essay's central claim about what disappears when a corner shop closes?",
       "options": [
-        "Cheap goods that the chain cannot match in price",
         "Civic and moral functions that do not appear in commercial accounting, but whose absence shows up later in other ledgers",
+        "Cheap goods that the chain cannot match in price",
         "Aesthetic charm valued mainly by tourists",
         "Local employment for shop assistants"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay argues that the loss is invisible to commercial accounting and reappears later as clinic visits missed, isolations unnoticed — a moral and civic loss disguised as a commercial event.",
       "hint": "Look at the first paragraph's image of the absent ledger."
     },
@@ -119,11 +252,11 @@
       "prompt": "What is the role of 'weak ties' in the essay's argument?",
       "options": [
         "They are the strong intimate bonds of family and close friendship",
-        "They are brief, non-intimate connections that carry disproportionate informational and emotional weight for cities and neighbourhoods",
         "They are the legal ties between landlords and tenants",
+        "They are brief, non-intimate connections that carry disproportionate informational and emotional weight for cities and neighbourhoods",
         "They are temporary employment contracts in informal markets"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay cites the sociologist Granovetter: weak ties are non-intimate connections that nonetheless do disproportionate work in cities — spreading information, providing checks on isolation, returning lost children.",
       "hint": "Look for the Granovetter reference."
     },
@@ -132,11 +265,11 @@
       "prompt": "Which sentence uses a cleft to name the real moral character of the displacement?",
       "options": [
         "The absence of compensating goods gives the displacement its moral character.",
-        "It is the asymmetry of what is lost, not the absence of compensating goods, that gives the displacement its particular moral character.",
         "Asymmetry, not compensation, gives the displacement its moral force.",
-        "What gives the displacement moral character is the lack of compensation."
+        "What gives the displacement moral character is the lack of compensation.",
+        "It is the asymmetry of what is lost, not the absence of compensating goods, that gives the displacement its particular moral character."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "'It is X, not Y, that Z' is a cleft that does not deny compensating goods — it relocates the moral problem to who gains and who loses. C1 essays use clefts to reframe.",
       "hint": "Look for the 'It is X, not Y, that Z' structure."
     },
@@ -144,12 +277,12 @@
       "id": "q6",
       "prompt": "What is the essay's response to the chain's advantages of lower prices and longer hours?",
       "options": [
-        "It denies that chains offer such advantages",
         "It concedes the advantages but observes that the benefits and the costs fall on different populations — the asymmetry is the moral issue",
+        "It denies that chains offer such advantages",
         "It argues that the longer hours are illusory",
         "It claims that all shoppers prefer corner shops if asked"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The Granted/Even so move concedes the advantages of chains but argues that the beneficiaries and the losers are not the same people — the elderly resident on the fourth floor, the unbanked tenant, do not benefit.",
       "hint": "Look at the Granted/Even so paragraph."
     },
@@ -171,11 +304,11 @@
       "prompt": "What is the essay's view of 'sentimentalism' about local commerce?",
       "options": [
         "It is the only honest way to remember corner shops",
-        "It is a risk the essay explicitly disavows — not every corner shop was a moral institution, and the argument depends on the specific functions, not on nostalgia",
         "It is necessary for political mobilisation",
+        "It is a risk the essay explicitly disavows — not every corner shop was a moral institution, and the argument depends on the specific functions, not on nostalgia",
         "It is identical to the argument the essay makes"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay concedes 'most of us have known proprietors who were rude, prices that were inflated, and shops whose dust deserved their closure' — the argument turns on specific functions, not romanticism.",
       "hint": "Look at the paragraph beginning 'It is easy to overstate…'"
     },
@@ -184,11 +317,11 @@
       "prompt": "Which group does the essay name as a likely loser when chains replace corner shops?",
       "options": [
         "Young office workers who shop late",
-        "The unbanked tenant who relied on an informal tab — and the elderly resident without a lift who used to send a child to the corner",
         "Tourists visiting historical districts",
-        "Suppliers of imported goods"
+        "Suppliers of imported goods",
+        "The unbanked tenant who relied on an informal tab — and the elderly resident without a lift who used to send a child to the corner"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay names two specific losers: the unbanked tenant (loses informal credit) and the elderly resident without a lift (loses local accessibility). The young office worker is named as a beneficiary, not a loser.",
       "hint": "Look at the asymmetry paragraph."
     },
@@ -196,12 +329,12 @@
       "id": "q10",
       "prompt": "What does the essay mean by 'the slide from a city of named customers to a city of ambient surveillance'?",
       "options": [
-        "Cities will become safer through CCTV in shops",
         "When neighbours no longer recognise each other, the recognition that holds a city together is replaced by undifferentiated suspicion of strangers and ambient monitoring",
+        "Cities will become safer through CCTV in shops",
         "Customers prefer to remain anonymous in modern cities",
         "Surveillance technology is the inevitable future of all retail"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay argues that a neighbourhood that no longer recognises anyone has 'fewer reasons not to suspect everyone' — the loss of small recognition slides into systemic suspicion.",
       "hint": "Look at 'fewer reasons not to suspect everyone'."
     },
@@ -223,11 +356,11 @@
       "prompt": "What does 'informal credit' refer to in the essay?",
       "options": [
         "A bank loan with low interest",
-        "A small line of credit extended by a known shopkeeper — the 'tab' — to a customer in difficulty, on the strength of personal knowledge",
         "Credit cards issued informally without paperwork",
+        "A small line of credit extended by a known shopkeeper — the 'tab' — to a customer in difficulty, on the strength of personal knowledge",
         "Government welfare paid in cash"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay describes 'the tab that kept a household in milk during the last week of a difficult month' — an unwritten credit line backed by personal recognition, which no chain replicates.",
       "hint": "Look for 'tab' in the first paragraph."
     },
@@ -236,11 +369,11 @@
       "prompt": "What does the essay say about who is least able to publicise their loss?",
       "options": [
         "Wealthy investors who funded the corner shop",
-        "Those most affected — elderly, isolated, unbanked — tend to be those least able to make their loss visible in public debate",
         "Journalists who report on commercial change",
-        "Council officials responsible for licensing"
+        "Council officials responsible for licensing",
+        "Those most affected — elderly, isolated, unbanked — tend to be those least able to make their loss visible in public debate"
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay observes that the loss is 'concentrated, unmeasured, and tends to fall on those least able to publicise it' — a political asymmetry that makes the harm hard to register.",
       "hint": "Look at the end of the asymmetry paragraph."
     },
@@ -248,12 +381,12 @@
       "id": "q14",
       "prompt": "What does the essay's closing image — 'the rent market will not make for us. It will only present the bill' — mean?",
       "options": [
-        "Rent will continue to rise indefinitely",
         "Markets will not decide which civic functions to preserve; they only present the consequences after the decision has been made by default",
+        "Rent will continue to rise indefinitely",
         "Council tax should be lowered for small shops",
         "The bill for civic loss is paid by chains"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The closing image distinguishes the market from a decision-making body: it does not choose civic outcomes, it merely registers, after the fact, what we have allowed to be lost.",
       "hint": "Look at the final two sentences."
     },

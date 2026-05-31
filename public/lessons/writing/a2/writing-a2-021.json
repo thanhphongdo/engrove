@@ -3,7 +3,12 @@
   "level": "A2",
   "title": "A taxi driver who told me a story",
   "summary": "Narrate a conversation you had with a taxi driver who told you a story.",
-  "tags": ["Narrative", "Conversation", "Past simple", "Past continuous"],
+  "tags": [
+    "Narrative",
+    "Conversation",
+    "Past simple",
+    "Past continuous"
+  ],
   "topic": "A taxi driver who told me a story",
   "prompt": "Write 8–10 sentences (150–250 words) about a taxi ride where the driver told you a story. Use past simple for the main events and past continuous for actions in progress. Describe what you saw outside and what the driver said. Say how the story made you feel.",
   "minWords": 150,
@@ -14,31 +19,98 @@
     "By the time we arrived, I felt like I had heard something…"
   ],
   "hintVocab": [
-    { "phrase": "strike up a conversation", "meaningVi": "bắt chuyện", "pronunciation": "/straɪk ʌp/" },
-    { "phrase": "glance in the mirror", "meaningVi": "liếc qua gương chiếu hậu" },
-    { "phrase": "city lights", "meaningVi": "ánh đèn thành phố" },
-    { "phrase": "heavy traffic", "meaningVi": "kẹt xe, giao thông đông đúc" },
-    { "phrase": "for a while", "meaningVi": "trong một lúc" },
-    { "phrase": "fall silent", "meaningVi": "im lặng đột ngột" },
-    { "phrase": "in a quiet voice", "meaningVi": "bằng giọng nhỏ nhẹ" },
-    { "phrase": "lean forward", "meaningVi": "ngả người về phía trước" },
-    { "phrase": "turn off the radio", "meaningVi": "tắt đài" },
-    { "phrase": "made me think about", "meaningVi": "khiến tôi nghĩ về" },
-    { "phrase": "wave goodbye", "meaningVi": "vẫy tay tạm biệt" }
+    {
+      "phrase": "strike up a conversation",
+      "meaningVi": "bắt chuyện",
+      "pronunciation": "/straɪk ʌp/"
+    },
+    {
+      "phrase": "glance in the mirror",
+      "meaningVi": "liếc qua gương chiếu hậu"
+    },
+    {
+      "phrase": "city lights",
+      "meaningVi": "ánh đèn thành phố"
+    },
+    {
+      "phrase": "heavy traffic",
+      "meaningVi": "kẹt xe, giao thông đông đúc"
+    },
+    {
+      "phrase": "for a while",
+      "meaningVi": "trong một lúc"
+    },
+    {
+      "phrase": "fall silent",
+      "meaningVi": "im lặng đột ngột"
+    },
+    {
+      "phrase": "in a quiet voice",
+      "meaningVi": "bằng giọng nhỏ nhẹ"
+    },
+    {
+      "phrase": "lean forward",
+      "meaningVi": "ngả người về phía trước"
+    },
+    {
+      "phrase": "turn off the radio",
+      "meaningVi": "tắt đài"
+    },
+    {
+      "phrase": "made me think about",
+      "meaningVi": "khiến tôi nghĩ về"
+    },
+    {
+      "phrase": "wave goodbye",
+      "meaningVi": "vẫy tay tạm biệt"
+    }
   ],
   "sampleText": "Last October, I took a taxi from the bus station in Tbilisi to my hotel. The driver was an older man with grey hair and a quiet smile. At first, we did not talk. The city lights were shining outside the window and the streets were busy with evening traffic. After about ten minutes, he turned off the radio and started to speak. He told me that he used to be a teacher in a small mountain village. When the school closed, he moved to the city and became a driver. While he was talking, he kept his eyes on the road but glanced at me in the mirror a few times. He said he missed the mountains because the air was clean and the children were always happy. He showed me a photo on his phone of his old classroom — there were only eight desks inside. I did not say much because I was listening carefully. When we arrived at my hotel, I paid him and he waved goodbye with a big smile. I walked inside thinking about his story for a long time. It made me think about how many people carry a whole different life behind their eyes.",
   "sampleAnnotations": [
-    { "phrase": "The city lights were shining outside the window", "meaningVi": "Ánh đèn thành phố đang chiếu sáng bên ngoài cửa sổ" },
-    { "phrase": "he turned off the radio and started to speak", "meaningVi": "ông tắt đài và bắt đầu nói chuyện" },
-    { "phrase": "he used to be a teacher in a small mountain village", "meaningVi": "ông từng là giáo viên ở một ngôi làng nhỏ trên núi" },
-    { "phrase": "While he was talking", "meaningVi": "Trong khi ông đang nói chuyện" },
-    { "phrase": "kept his eyes on the road", "meaningVi": "giữ mắt nhìn đường" },
-    { "phrase": "glanced at me in the mirror", "meaningVi": "liếc nhìn tôi qua gương" },
-    { "phrase": "He said he missed the mountains", "meaningVi": "Ông nói ông nhớ những ngọn núi" },
-    { "phrase": "He showed me a photo on his phone", "meaningVi": "Ông cho tôi xem một bức ảnh trên điện thoại" },
-    { "phrase": "I was listening carefully", "meaningVi": "Tôi đang lắng nghe chăm chú" },
-    { "phrase": "he waved goodbye with a big smile", "meaningVi": "ông vẫy tay tạm biệt với nụ cười rộng" },
-    { "phrase": "made me think about how many people carry a whole different life", "meaningVi": "khiến tôi nghĩ về việc bao nhiêu người mang theo một cuộc sống hoàn toàn khác" }
+    {
+      "phrase": "The city lights were shining outside the window",
+      "meaningVi": "Ánh đèn thành phố đang chiếu sáng bên ngoài cửa sổ"
+    },
+    {
+      "phrase": "he turned off the radio and started to speak",
+      "meaningVi": "ông tắt đài và bắt đầu nói chuyện"
+    },
+    {
+      "phrase": "he used to be a teacher in a small mountain village",
+      "meaningVi": "ông từng là giáo viên ở một ngôi làng nhỏ trên núi"
+    },
+    {
+      "phrase": "While he was talking",
+      "meaningVi": "Trong khi ông đang nói chuyện"
+    },
+    {
+      "phrase": "kept his eyes on the road",
+      "meaningVi": "giữ mắt nhìn đường"
+    },
+    {
+      "phrase": "glanced at me in the mirror",
+      "meaningVi": "liếc nhìn tôi qua gương"
+    },
+    {
+      "phrase": "He said he missed the mountains",
+      "meaningVi": "Ông nói ông nhớ những ngọn núi"
+    },
+    {
+      "phrase": "He showed me a photo on his phone",
+      "meaningVi": "Ông cho tôi xem một bức ảnh trên điện thoại"
+    },
+    {
+      "phrase": "I was listening carefully",
+      "meaningVi": "Tôi đang lắng nghe chăm chú"
+    },
+    {
+      "phrase": "he waved goodbye with a big smile",
+      "meaningVi": "ông vẫy tay tạm biệt với nụ cười rộng"
+    },
+    {
+      "phrase": "made me think about how many people carry a whole different life",
+      "meaningVi": "khiến tôi nghĩ về việc bao nhiêu người mang theo một cuộc sống hoàn toàn khác"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -66,12 +138,12 @@
       "id": "q2",
       "prompt": "Which sentence correctly uses 'used to' for a past habit or state?",
       "options": [
-        "He used to be a teacher in a small mountain village.",
         "He use to be a teacher in a small mountain village.",
+        "He used to be a teacher in a small mountain village.",
         "He used to being a teacher in a small mountain village.",
         "He was use to be a teacher in a small mountain village."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'Used to + base verb' expresses a past state that is no longer true.",
       "hint": "The structure is 'used to + base verb'."
     },
@@ -79,12 +151,12 @@
       "id": "q3",
       "prompt": "Which sentence correctly combines past continuous and past simple?",
       "options": [
-        "While he was talking, he kept his eyes on the road.",
         "While he talked, he was keeping his eyes on the road.",
         "While he was talking, he was keeping his eyes on the road.",
+        "While he was talking, he kept his eyes on the road.",
         "While he talked, he kept his eyes on the road."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "Past continuous ('was talking') sets the ongoing action; past simple ('kept') is the main habit during that time.",
       "hint": "'While' introduces the background action in past continuous."
     },
@@ -92,12 +164,12 @@
       "id": "q4",
       "prompt": "Choose the correct reported speech form: 'He said he ___ the mountains.'",
       "options": [
-        "missed",
         "misses",
         "was miss",
-        "miss"
+        "miss",
+        "missed"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "In reported speech, present simple 'misses' shifts to past simple 'missed'.",
       "hint": "Reported speech shifts the tense back one step."
     },
@@ -118,12 +190,12 @@
       "id": "q6",
       "prompt": "Pick the natural phrase for looking quickly at a mirror while driving.",
       "options": [
-        "glanced at me in the mirror",
         "looked at me in the mirror quickly",
+        "glanced at me in the mirror",
         "peeked me in the mirror",
         "glanced to me in the mirror"
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'Glanced at' means to look quickly. The preposition is 'at', not 'to'.",
       "hint": "The correct preposition after 'glanced' is 'at'."
     },
@@ -131,12 +203,12 @@
       "id": "q7",
       "prompt": "Which phrase means to stop the sound from a radio?",
       "options": [
-        "turned off the radio",
         "turned down the radio",
         "turned out the radio",
+        "turned off the radio",
         "turned away the radio"
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Turn off' means to stop a device completely. 'Turn down' means to reduce volume.",
       "hint": "Which phrasal verb means to completely stop a device?"
     },
@@ -144,12 +216,12 @@
       "id": "q8",
       "prompt": "Choose the correct form: 'I paid him and he ___ goodbye with a big smile.'",
       "options": [
-        "waved",
         "wave",
         "was wave",
-        "waving"
+        "waving",
+        "waved"
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'Waved' is past simple, used in sequence with 'paid'.",
       "hint": "Two past simple verbs in sequence."
     },
@@ -170,12 +242,12 @@
       "id": "q10",
       "prompt": "Which linker introduces a reason or cause?",
       "options": [
-        "I did not say much because I was listening carefully.",
         "I did not say much although I was listening carefully.",
+        "I did not say much because I was listening carefully.",
         "I did not say much but I was listening carefully.",
         "I did not say much so I was listening carefully."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'Because' introduces the reason. 'Although' shows contrast, 'so' shows result.",
       "hint": "Which linker introduces a reason?"
     },
@@ -183,12 +255,12 @@
       "id": "q11",
       "prompt": "Which option correctly describes a past scene with 'at first'?",
       "options": [
-        "At first, we did not talk.",
         "At first, we didn't talked.",
         "At first, we was not talking.",
+        "At first, we did not talk.",
         "At first, we are not talking."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'At first' is used with past simple to describe the initial situation.",
       "hint": "'At first' describes the starting situation — past simple is needed."
     }

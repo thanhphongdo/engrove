@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "The dignity of jobs that involve waiting",
   "summary": "Argue that work whose principal substance is waiting — security guards, receptionists, on-call clinicians, ferry operators in slow seasons, the long second shift of the night porter — has a kind of dignity that the productivity vocabulary cannot register, and that the cost of not registering it is real.",
-  "tags": ["Work", "Ethics", "Argument"],
+  "tags": [
+    "Work",
+    "Ethics",
+    "Argument"
+  ],
   "topic": "The dignity of jobs whose substance is being available",
   "prompt": "Write a 600–800-word essay on the dignity of work that consists primarily in waiting. Avoid the productivity vocabulary and avoid sentimentality about workers. Use one inversion, one cleft, and a 'Granted… Even so…' concession. Use one or two concrete cases (a night porter in Tbilisi, an on-call obstetrician, a ferry operator out of season).",
   "minWords": 600,
@@ -14,53 +18,185 @@
     "Granted, paid availability is open to abuse, and there are versions of waiting-work that mask genuine idleness. Even so,…"
   ],
   "hintVocab": [
-    {"phrase": "waiting-work", "meaningVi": "công việc chờ đợi"},
-    {"phrase": "paid availability", "meaningVi": "sự sẵn sàng có lương"},
-    {"phrase": "on-call labour", "meaningVi": "lao động trực"},
-    {"phrase": "stand-by capacity", "meaningVi": "năng lực dự phòng"},
-    {"phrase": "the productivity vocabulary", "meaningVi": "vốn từ vựng năng suất"},
-    {"phrase": "the absence of incident", "meaningVi": "sự vắng mặt của sự cố"},
-    {"phrase": "the empty foyer", "meaningVi": "tiền sảnh trống"},
-    {"phrase": "the dignity of presence", "meaningVi": "phẩm giá của sự hiện diện"},
-    {"phrase": "the watchful idle", "meaningVi": "sự nhàn rỗi cảnh giác"},
-    {"phrase": "the latent contribution", "meaningVi": "đóng góp tiềm ẩn"},
-    {"phrase": "the negative output", "meaningVi": "đầu ra phủ định"},
-    {"phrase": "the precautionary worker", "meaningVi": "người lao động phòng ngừa"},
-    {"phrase": "Hannah Arendt on labour, work, action", "meaningVi": "Hannah Arendt về lao động, công việc, hành động"},
-    {"phrase": "the metricisation of work", "meaningVi": "việc đo lường hoá công việc"},
-    {"phrase": "the invisible shift", "meaningVi": "ca không nhìn thấy"},
-    {"phrase": "the held perimeter", "meaningVi": "vành đai được giữ"},
-    {"phrase": "the unseen prevention", "meaningVi": "sự phòng ngừa không nhìn thấy"},
-    {"phrase": "the witnessed seat", "meaningVi": "chỗ ngồi được chứng kiến"},
-    {"phrase": "Goodhart's law in labour form", "meaningVi": "định luật Goodhart ở dạng lao động"},
-    {"phrase": "the optimisation pressure", "meaningVi": "áp lực tối ưu hoá"},
-    {"phrase": "the depleted reserve", "meaningVi": "nguồn dự trữ cạn"},
-    {"phrase": "structural patience", "meaningVi": "sự kiên nhẫn cấu trúc"}
+    {
+      "phrase": "waiting-work",
+      "meaningVi": "công việc chờ đợi"
+    },
+    {
+      "phrase": "paid availability",
+      "meaningVi": "sự sẵn sàng có lương"
+    },
+    {
+      "phrase": "on-call labour",
+      "meaningVi": "lao động trực"
+    },
+    {
+      "phrase": "stand-by capacity",
+      "meaningVi": "năng lực dự phòng"
+    },
+    {
+      "phrase": "the productivity vocabulary",
+      "meaningVi": "vốn từ vựng năng suất"
+    },
+    {
+      "phrase": "the absence of incident",
+      "meaningVi": "sự vắng mặt của sự cố"
+    },
+    {
+      "phrase": "the empty foyer",
+      "meaningVi": "tiền sảnh trống"
+    },
+    {
+      "phrase": "the dignity of presence",
+      "meaningVi": "phẩm giá của sự hiện diện"
+    },
+    {
+      "phrase": "the watchful idle",
+      "meaningVi": "sự nhàn rỗi cảnh giác"
+    },
+    {
+      "phrase": "the latent contribution",
+      "meaningVi": "đóng góp tiềm ẩn"
+    },
+    {
+      "phrase": "the negative output",
+      "meaningVi": "đầu ra phủ định"
+    },
+    {
+      "phrase": "the precautionary worker",
+      "meaningVi": "người lao động phòng ngừa"
+    },
+    {
+      "phrase": "Hannah Arendt on labour, work, action",
+      "meaningVi": "Hannah Arendt về lao động, công việc, hành động"
+    },
+    {
+      "phrase": "the metricisation of work",
+      "meaningVi": "việc đo lường hoá công việc"
+    },
+    {
+      "phrase": "the invisible shift",
+      "meaningVi": "ca không nhìn thấy"
+    },
+    {
+      "phrase": "the held perimeter",
+      "meaningVi": "vành đai được giữ"
+    },
+    {
+      "phrase": "the unseen prevention",
+      "meaningVi": "sự phòng ngừa không nhìn thấy"
+    },
+    {
+      "phrase": "the witnessed seat",
+      "meaningVi": "chỗ ngồi được chứng kiến"
+    },
+    {
+      "phrase": "Goodhart's law in labour form",
+      "meaningVi": "định luật Goodhart ở dạng lao động"
+    },
+    {
+      "phrase": "the optimisation pressure",
+      "meaningVi": "áp lực tối ưu hoá"
+    },
+    {
+      "phrase": "the depleted reserve",
+      "meaningVi": "nguồn dự trữ cạn"
+    },
+    {
+      "phrase": "structural patience",
+      "meaningVi": "sự kiên nhẫn cấu trúc"
+    }
   ],
   "sampleText": "Hardly is the work that consists of waiting recognised as work at all in the vocabularies that have come to organise contemporary labour. The productivity frame asks what was produced, what was delivered, what was completed; the work it can see is the work that leaves a trace. The night porter in a Tbilisi hotel whose ten-hour shift may include thirty minutes of actual movement — letting in a late arrival, answering a fax, calling a taxi at three in the morning, and being present, awake, and uniformed for the rest of the time — has no trace to show. The shift ends; the foyer is as he found it. By the productivity frame's accounting, almost nothing has occurred. By any honest accounting of what the hotel is paying him for, almost everything has.\n\nConsider the obstetrician on overnight call in a tertiary hospital. For most of the shift she is in a quiet room with a phone, reading or sleeping fitfully against the possibility of a bleed on the labour ward. The presentation may or may not come. If it does, ten years of trained judgment will be deployed inside three minutes. If it does not, she will go home in the morning having, by the productivity frame's accounting, done almost nothing — a category that includes both the night she sat with her phone untouched and the night she did not. The two nights are very different from her position, and from the hospital's, and from the position of the woman whose bleed did not happen because there was someone on the other end of the line who could have come. Only one of those nights leaves a trace in the productivity log. Both nights leave a trace in the hospital's safety capacity.\n\nWhat the productivity frame is structurally unable to register is the form of value contributed by a worker whose substantive contribution is the absence of incident. The night porter prevents the small thefts that would have happened in a foyer no one was watching; the obstetrician's availability prevents the bad outcomes that would have happened in a labour ward without a senior on the line; the ferry operator's continued staffing of an off-season route preserves the option of the route's existence for the islander who needs to leave on the Tuesday after the season has ended. None of these contributions appears in the form the dashboard recognises. They take the form of counterfactuals — things that did not happen — and the productivity frame, which counts only events, has no way of counting non-events.\n\nIt is the structural invisibility of these contributions, not the laziness of any particular worker, that produces the relentless pressure to optimise them away. A finance director who is honest about the night porter knows that most of the cost is the cost of presence; if 'real activity' is so rare, perhaps a night phone line and an off-site monitor could do the same job. The proposal sometimes survives a year. By the second year, when the small thefts have become routine, when the late arrival who could not get in has booked elsewhere, when the elderly resident who fell at four in the morning was found by his daughter at nine, the proposal is quietly reversed. The contribution was real all along; the frame was only able to see it after the contribution had been withdrawn.\n\nGranted, paid availability is open to abuse, and there are versions of waiting-work that mask genuine idleness — the inspector who is paid to walk a perimeter and does not, the on-call clinician who is uncontactable when contacted. The category of waiting-work is not innocent, and the workers who treat their stand-by hours as private leisure deserve the criticism they receive. Even so, the existence of these failure modes does not justify the broader move of treating all waiting-work as suspect. The honest version of the work — the night porter who is awake, the obstetrician who answers the phone, the ferry operator who is at the dock at five in winter when no one is going to come — is doing the kind of work that the productivity frame is, by construction, unable to name.\n\nThere is a particular form of indignity that workers in these roles endure, which is the requirement to perform activity in order to look like they are working. The cleaning crew who must wipe down already-clean surfaces while the foyer is empty, the receptionist asked to invent administrative tasks during quiet periods, the security guard told to do a fifth round of an already-secure perimeter — these are not interventions that produce value. They are interventions that produce the appearance of value, demanded by managers who cannot account for the labour they are buying when no one is producing visible motion. The cost of this performance is borne by the worker in fatigue and small humiliation, and by the institution in the slow erosion of the worker's reliable readiness.\n\nNone of this is an argument that work should be invisible. The argument is narrower: that some forms of work do their job by waiting, that the waiting is the work, and that a vocabulary that cannot name this form of contribution will, over time, dismantle the conditions on which a great deal of safety and small civic continuity quietly depends.",
   "sampleAnnotations": [
-    {"phrase": "Hardly is the work that consists of waiting recognised as work at all in the vocabularies that have come to organise contemporary labour", "meaningVi": "Khó khi công việc bao gồm việc chờ đợi được công nhận là công việc trong các vốn từ vựng đã tổ chức lao động đương đại"},
-    {"phrase": "the work it can see is the work that leaves a trace", "meaningVi": "công việc nó có thể thấy là công việc để lại dấu vết"},
-    {"phrase": "being present, awake, and uniformed for the rest of the time", "meaningVi": "hiện diện, tỉnh táo và mặc đồng phục trong thời gian còn lại"},
-    {"phrase": "By the productivity frame's accounting, almost nothing has occurred. By any honest accounting of what the hotel is paying him for, almost everything has", "meaningVi": "Theo cách kế toán của khung năng suất, hầu như không có gì xảy ra. Theo bất kỳ cách kế toán trung thực nào về điều khách sạn trả cho anh, hầu như mọi thứ đã xảy ra"},
-    {"phrase": "ten years of trained judgment will be deployed inside three minutes", "meaningVi": "mười năm phán đoán được đào tạo sẽ được triển khai trong ba phút"},
-    {"phrase": "the woman whose bleed did not happen because there was someone on the other end of the line who could have come", "meaningVi": "người phụ nữ mà cơn xuất huyết không xảy ra vì có ai đó ở đầu dây bên kia có thể đến"},
-    {"phrase": "Only one of those nights leaves a trace in the productivity log. Both nights leave a trace in the hospital's safety capacity", "meaningVi": "Chỉ một trong những đêm đó để lại dấu vết trong nhật ký năng suất. Cả hai đêm đều để lại dấu vết trong năng lực an toàn của bệnh viện"},
-    {"phrase": "What the productivity frame is structurally unable to register is the form of value contributed by a worker whose substantive contribution is the absence of incident", "meaningVi": "Điều mà khung năng suất, về mặt cấu trúc, không thể ghi nhận là hình thức giá trị được đóng góp bởi một người lao động mà sự đóng góp thực chất là sự vắng mặt của sự cố"},
-    {"phrase": "They take the form of counterfactuals — things that did not happen — and the productivity frame, which counts only events, has no way of counting non-events", "meaningVi": "Chúng có dạng các giả định ngược — những điều không xảy ra — và khung năng suất, vốn chỉ đếm sự kiện, không có cách nào đếm các phi sự kiện"},
-    {"phrase": "It is the structural invisibility of these contributions, not the laziness of any particular worker, that produces the relentless pressure to optimise them away", "meaningVi": "Chính sự vô hình mang tính cấu trúc của các đóng góp này, không phải sự lười biếng của bất kỳ người lao động cụ thể nào, mới tạo ra áp lực không ngừng để tối ưu hoá chúng đi"},
-    {"phrase": "if 'real activity' is so rare, perhaps a night phone line and an off-site monitor could do the same job", "meaningVi": "nếu 'hoạt động thực sự' hiếm vậy, có lẽ một đường dây điện thoại ban đêm và một màn hình ngoài hiện trường có thể làm cùng công việc"},
-    {"phrase": "when the elderly resident who fell at four in the morning was found by his daughter at nine, the proposal is quietly reversed", "meaningVi": "khi người cư dân cao tuổi ngã lúc bốn giờ sáng được con gái ông tìm thấy lúc chín giờ, đề xuất bị lặng lẽ đảo ngược"},
-    {"phrase": "The contribution was real all along; the frame was only able to see it after the contribution had been withdrawn", "meaningVi": "Sự đóng góp là thật suốt; khung chỉ có thể nhìn thấy nó sau khi đóng góp đã bị rút đi"},
-    {"phrase": "Granted, paid availability is open to abuse, and there are versions of waiting-work that mask genuine idleness", "meaningVi": "Cứ cho là sự sẵn sàng có lương dễ bị lạm dụng, và có những phiên bản công việc chờ đợi che giấu sự nhàn rỗi thật"},
-    {"phrase": "Even so, the existence of these failure modes does not justify the broader move of treating all waiting-work as suspect", "meaningVi": "Dù vậy, sự tồn tại của các kiểu thất bại này không biện minh cho động thái rộng hơn là coi tất cả công việc chờ đợi là đáng ngờ"},
-    {"phrase": "the ferry operator who is at the dock at five in winter when no one is going to come", "meaningVi": "người vận hành phà có mặt ở bến lúc năm giờ vào mùa đông khi không ai sẽ đến"},
-    {"phrase": "the requirement to perform activity in order to look like they are working", "meaningVi": "yêu cầu phải thực hiện hoạt động để trông như đang làm việc"},
-    {"phrase": "the cleaning crew who must wipe down already-clean surfaces while the foyer is empty", "meaningVi": "đội vệ sinh phải lau các bề mặt đã sạch trong khi tiền sảnh trống"},
-    {"phrase": "interventions that produce the appearance of value, demanded by managers who cannot account for the labour they are buying when no one is producing visible motion", "meaningVi": "các can thiệp tạo ra vẻ ngoài của giá trị, được các quản lý yêu cầu khi họ không thể giải thích lao động họ đang mua khi không ai đang tạo ra chuyển động hữu hình"},
-    {"phrase": "the slow erosion of the worker's reliable readiness", "meaningVi": "sự xói mòn chậm của sự sẵn sàng đáng tin cậy của người lao động"},
-    {"phrase": "that some forms of work do their job by waiting, that the waiting is the work", "meaningVi": "rằng một số hình thức công việc làm việc của mình bằng cách chờ đợi, rằng chờ đợi là công việc"},
-    {"phrase": "a vocabulary that cannot name this form of contribution will, over time, dismantle the conditions on which a great deal of safety and small civic continuity quietly depends", "meaningVi": "một vốn từ vựng không thể gọi tên hình thức đóng góp này sẽ, theo thời gian, tháo dỡ các điều kiện mà rất nhiều sự an toàn và tính liên tục công dân nhỏ lặng lẽ phụ thuộc vào"}
+    {
+      "phrase": "Hardly is the work that consists of waiting recognised as work at all in the vocabularies that have come to organise contemporary labour",
+      "meaningVi": "Khó khi công việc bao gồm việc chờ đợi được công nhận là công việc trong các vốn từ vựng đã tổ chức lao động đương đại"
+    },
+    {
+      "phrase": "the work it can see is the work that leaves a trace",
+      "meaningVi": "công việc nó có thể thấy là công việc để lại dấu vết"
+    },
+    {
+      "phrase": "being present, awake, and uniformed for the rest of the time",
+      "meaningVi": "hiện diện, tỉnh táo và mặc đồng phục trong thời gian còn lại"
+    },
+    {
+      "phrase": "By the productivity frame's accounting, almost nothing has occurred. By any honest accounting of what the hotel is paying him for, almost everything has",
+      "meaningVi": "Theo cách kế toán của khung năng suất, hầu như không có gì xảy ra. Theo bất kỳ cách kế toán trung thực nào về điều khách sạn trả cho anh, hầu như mọi thứ đã xảy ra"
+    },
+    {
+      "phrase": "ten years of trained judgment will be deployed inside three minutes",
+      "meaningVi": "mười năm phán đoán được đào tạo sẽ được triển khai trong ba phút"
+    },
+    {
+      "phrase": "the woman whose bleed did not happen because there was someone on the other end of the line who could have come",
+      "meaningVi": "người phụ nữ mà cơn xuất huyết không xảy ra vì có ai đó ở đầu dây bên kia có thể đến"
+    },
+    {
+      "phrase": "Only one of those nights leaves a trace in the productivity log. Both nights leave a trace in the hospital's safety capacity",
+      "meaningVi": "Chỉ một trong những đêm đó để lại dấu vết trong nhật ký năng suất. Cả hai đêm đều để lại dấu vết trong năng lực an toàn của bệnh viện"
+    },
+    {
+      "phrase": "What the productivity frame is structurally unable to register is the form of value contributed by a worker whose substantive contribution is the absence of incident",
+      "meaningVi": "Điều mà khung năng suất, về mặt cấu trúc, không thể ghi nhận là hình thức giá trị được đóng góp bởi một người lao động mà sự đóng góp thực chất là sự vắng mặt của sự cố"
+    },
+    {
+      "phrase": "They take the form of counterfactuals — things that did not happen — and the productivity frame, which counts only events, has no way of counting non-events",
+      "meaningVi": "Chúng có dạng các giả định ngược — những điều không xảy ra — và khung năng suất, vốn chỉ đếm sự kiện, không có cách nào đếm các phi sự kiện"
+    },
+    {
+      "phrase": "It is the structural invisibility of these contributions, not the laziness of any particular worker, that produces the relentless pressure to optimise them away",
+      "meaningVi": "Chính sự vô hình mang tính cấu trúc của các đóng góp này, không phải sự lười biếng của bất kỳ người lao động cụ thể nào, mới tạo ra áp lực không ngừng để tối ưu hoá chúng đi"
+    },
+    {
+      "phrase": "if 'real activity' is so rare, perhaps a night phone line and an off-site monitor could do the same job",
+      "meaningVi": "nếu 'hoạt động thực sự' hiếm vậy, có lẽ một đường dây điện thoại ban đêm và một màn hình ngoài hiện trường có thể làm cùng công việc"
+    },
+    {
+      "phrase": "when the elderly resident who fell at four in the morning was found by his daughter at nine, the proposal is quietly reversed",
+      "meaningVi": "khi người cư dân cao tuổi ngã lúc bốn giờ sáng được con gái ông tìm thấy lúc chín giờ, đề xuất bị lặng lẽ đảo ngược"
+    },
+    {
+      "phrase": "The contribution was real all along; the frame was only able to see it after the contribution had been withdrawn",
+      "meaningVi": "Sự đóng góp là thật suốt; khung chỉ có thể nhìn thấy nó sau khi đóng góp đã bị rút đi"
+    },
+    {
+      "phrase": "Granted, paid availability is open to abuse, and there are versions of waiting-work that mask genuine idleness",
+      "meaningVi": "Cứ cho là sự sẵn sàng có lương dễ bị lạm dụng, và có những phiên bản công việc chờ đợi che giấu sự nhàn rỗi thật"
+    },
+    {
+      "phrase": "Even so, the existence of these failure modes does not justify the broader move of treating all waiting-work as suspect",
+      "meaningVi": "Dù vậy, sự tồn tại của các kiểu thất bại này không biện minh cho động thái rộng hơn là coi tất cả công việc chờ đợi là đáng ngờ"
+    },
+    {
+      "phrase": "the ferry operator who is at the dock at five in winter when no one is going to come",
+      "meaningVi": "người vận hành phà có mặt ở bến lúc năm giờ vào mùa đông khi không ai sẽ đến"
+    },
+    {
+      "phrase": "the requirement to perform activity in order to look like they are working",
+      "meaningVi": "yêu cầu phải thực hiện hoạt động để trông như đang làm việc"
+    },
+    {
+      "phrase": "the cleaning crew who must wipe down already-clean surfaces while the foyer is empty",
+      "meaningVi": "đội vệ sinh phải lau các bề mặt đã sạch trong khi tiền sảnh trống"
+    },
+    {
+      "phrase": "interventions that produce the appearance of value, demanded by managers who cannot account for the labour they are buying when no one is producing visible motion",
+      "meaningVi": "các can thiệp tạo ra vẻ ngoài của giá trị, được các quản lý yêu cầu khi họ không thể giải thích lao động họ đang mua khi không ai đang tạo ra chuyển động hữu hình"
+    },
+    {
+      "phrase": "the slow erosion of the worker's reliable readiness",
+      "meaningVi": "sự xói mòn chậm của sự sẵn sàng đáng tin cậy của người lao động"
+    },
+    {
+      "phrase": "that some forms of work do their job by waiting, that the waiting is the work",
+      "meaningVi": "rằng một số hình thức công việc làm việc của mình bằng cách chờ đợi, rằng chờ đợi là công việc"
+    },
+    {
+      "phrase": "a vocabulary that cannot name this form of contribution will, over time, dismantle the conditions on which a great deal of safety and small civic continuity quietly depends",
+      "meaningVi": "một vốn từ vựng không thể gọi tên hình thức đóng góp này sẽ, theo thời gian, tháo dỡ các điều kiện mà rất nhiều sự an toàn và tính liên tục công dân nhỏ lặng lẽ phụ thuộc vào"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -81,11 +217,11 @@
       "prompt": "Which sentence correctly inverts after 'Hardly'?",
       "options": [
         "Hardly the work that consists of waiting is recognised as work.",
-        "Hardly is the work that consists of waiting recognised as work at all in the vocabularies that have come to organise contemporary labour.",
         "The work hardly is recognised that consists of waiting.",
+        "Hardly is the work that consists of waiting recognised as work at all in the vocabularies that have come to organise contemporary labour.",
         "Hardly recognised is the work that consists of waiting."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'Hardly' fronts a negative adverbial. The passive 'is' inverts before the long subject; the participle 'recognised' follows.",
       "hint": "Negative adverbial + auxiliary + subject + participle."
     },
@@ -94,11 +230,11 @@
       "prompt": "What does the essay say the productivity frame is structurally unable to register?",
       "options": [
         "Hours worked.",
-        "The form of value contributed by a worker whose substantive contribution is the absence of incident — counterfactuals are not events, and the frame counts only events.",
         "Wages paid.",
-        "Worker satisfaction."
+        "Worker satisfaction.",
+        "The form of value contributed by a worker whose substantive contribution is the absence of incident — counterfactuals are not events, and the frame counts only events."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay's epistemic point: the frame can count what happened. It cannot count what was prevented.",
       "hint": "Non-events; counterfactuals."
     },
@@ -106,12 +242,12 @@
       "id": "q3",
       "prompt": "Which sentence in the essay is a cleft?",
       "options": [
-        "The shift ends; the foyer is as he found it.",
         "It is the structural invisibility of these contributions, not the laziness of any particular worker, that produces the relentless pressure to optimise them away.",
+        "The shift ends; the foyer is as he found it.",
         "Ten years of trained judgment will be deployed inside three minutes.",
         "There are versions of waiting-work that mask genuine idleness."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'It is X, not Y, that Z' is the cleft pattern. The essay uses it to relocate the cause of optimisation pressure from worker laziness to frame invisibility.",
       "hint": "Look for 'It is ... not ... that ...'"
     },
@@ -133,11 +269,11 @@
       "prompt": "How does the essay use 'Granted… Even so…'?",
       "options": [
         "To dismiss the existence of slacking workers.",
-        "To grant fully that paid availability can be abused and some waiting-work masks genuine idleness, while restricting the conclusion: failure modes do not justify treating all waiting-work as suspect.",
         "To attack workers.",
+        "To grant fully that paid availability can be abused and some waiting-work masks genuine idleness, while restricting the conclusion: failure modes do not justify treating all waiting-work as suspect.",
         "To equivocate."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay openly admits abuse exists, then limits the conclusion: the category is not invalidated by its degenerate form.",
       "hint": "Full concession to abuse; category survives."
     },
@@ -146,11 +282,11 @@
       "prompt": "What does the essay say happens to the cost-cutting proposal in the second year?",
       "options": [
         "It is praised.",
-        "It is quietly reversed, once the small thefts have become routine, the late arrival has booked elsewhere, the fall has gone unnoticed for hours — the contribution becomes visible only after its withdrawal.",
         "It is expanded.",
-        "It is forgotten."
+        "It is forgotten.",
+        "It is quietly reversed, once the small thefts have become routine, the late arrival has booked elsewhere, the fall has gone unnoticed for hours — the contribution becomes visible only after its withdrawal."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay's pointed observation: the productivity frame can only see the contribution after the contribution is gone. The reversal is the silent confirmation.",
       "hint": "Visibility comes only after withdrawal."
     },
@@ -158,12 +294,12 @@
       "id": "q7",
       "prompt": "What does the essay say is the 'particular form of indignity' in these jobs?",
       "options": [
-        "Low pay.",
         "The requirement to perform activity — wiping clean surfaces, inventing tasks, doing redundant rounds — in order to look like working, demanded by managers who cannot account for stand-by labour.",
+        "Low pay.",
         "Night shifts.",
         "Uniforms."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay's worker-side critique: the indignity is the forced theatre of activity, demanded precisely because the manager's frame cannot register the real work.",
       "hint": "The theatre of activity, demanded by frame blindness."
     },
@@ -185,11 +321,11 @@
       "prompt": "What does the essay say about the ferry operator out of season?",
       "options": [
         "The operator should be removed.",
-        "The operator's continued staffing of an off-season route preserves the option of the route's existence for the islander who needs to leave on the Tuesday after the season has ended.",
         "The operator works too much.",
+        "The operator's continued staffing of an off-season route preserves the option of the route's existence for the islander who needs to leave on the Tuesday after the season has ended.",
         "The route is unimportant."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay's third case: the operator's job in winter is to preserve the option of the route. Optionality is itself the deliverable, not a side effect.",
       "hint": "Optionality as deliverable."
     },
@@ -198,11 +334,11 @@
       "prompt": "What is the essay's narrower claim?",
       "options": [
         "Workers should refuse all measurement.",
-        "Some forms of work do their job by waiting; the waiting is the work; and a vocabulary that cannot name this contribution will dismantle the conditions on which much safety and small civic continuity quietly depends.",
         "All work is waiting.",
-        "Productivity should be abolished."
+        "Productivity should be abolished.",
+        "Some forms of work do their job by waiting; the waiting is the work; and a vocabulary that cannot name this contribution will dismantle the conditions on which much safety and small civic continuity quietly depends."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay's final restatement: waiting is work, frame cannot see it, downstream consequences are predictable.",
       "hint": "Waiting is work; frame blind; downstream cost."
     },
@@ -210,12 +346,12 @@
       "id": "q11",
       "prompt": "What does 'Goodhart's law in labour form' (implicit in the essay) suggest?",
       "options": [
-        "A theory of pay scales.",
         "When activity-traces become the measure of labour, workers and institutions begin to produce traces — wiping clean surfaces, inventing tasks — at the cost of the readiness the measure was supposed to track.",
+        "A theory of pay scales.",
         "A theory of union law.",
         "A rule about overtime."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay invokes Goodhart's logic implicitly: the proxy (visible activity) becomes the target, and the actual capacity (readiness) degrades.",
       "hint": "Proxy becomes target; readiness degrades."
     },
@@ -237,11 +373,11 @@
       "prompt": "What does the essay say about 'paid availability'?",
       "options": [
         "It is always virtuous.",
-        "It is a real form of value that is also open to abuse — both facts can be true, and conceding the abuse does not invalidate the category.",
         "It should be eliminated.",
+        "It is a real form of value that is also open to abuse — both facts can be true, and conceding the abuse does not invalidate the category.",
         "It is morally identical to idleness."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay holds both: paid availability is genuine work and is also susceptible to abuse. Honest treatment requires holding both at once.",
       "hint": "Real value; real abuse risk; both true."
     },
@@ -250,11 +386,11 @@
       "prompt": "What is the essay's view of the worker who treats stand-by hours as private leisure?",
       "options": [
         "They are blameless.",
-        "They deserve the criticism they receive — the essay names this as a real failure mode and refuses to defend it.",
         "They are heroes of resistance.",
-        "They are the central concern of the essay."
+        "They are the central concern of the essay.",
+        "They deserve the criticism they receive — the essay names this as a real failure mode and refuses to defend it."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay deliberately concedes that some workers misuse the role, to keep the argument honest. The category is defended; the abuse is not.",
       "hint": "Abuse is real; criticism deserved."
     },
@@ -262,12 +398,12 @@
       "id": "q15",
       "prompt": "What is the essay's overall stance?",
       "options": [
-        "Waiting-work should be eliminated.",
         "Waiting-work is real work whose value the productivity frame is structurally unable to see; this blindness produces predictable optimisation pressure that, when acted on, dismantles the readiness it was supposed to manage; the deeper cost is borne in safety and continuity that only become visible in their absence.",
+        "Waiting-work should be eliminated.",
         "Waiting-work has no value.",
         "Workers are always overpaid."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay's qualified position: not a defence of slack, but a defence of a category of contribution whose form does not register in the dominant vocabulary.",
       "hint": "Category defended; abuse rejected; vocabulary indicted."
     },

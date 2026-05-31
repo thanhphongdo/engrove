@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "The case against optimising childhood",
   "summary": "Argue that the contemporary impulse to optimise a child's hours, friendships, exposures, and rest is doing a particular kind of damage that the optimisers themselves will not be able to see for some years.",
-  "tags": ["Argument", "Ethics", "Family"],
+  "tags": [
+    "Argument",
+    "Ethics",
+    "Family"
+  ],
   "topic": "Why childhood resists optimisation",
   "prompt": "Write a 600–800-word essay against the optimisation of childhood — scheduled play, curated friendships, performance-tracked development. Avoid parenting-blog cliches and the rhetoric of 'free-range' nostalgia. Use one inversion, one cleft, and a 'Granted… Even so…' concession. Treat the question philosophically. Use specific settings (Seoul, Mumbai, an after-school programme in Antwerp).",
   "minWords": 600,
@@ -14,53 +18,185 @@
     "Granted, the alternative to scheduled care is not benign neglect, and the parents most committed to optimisation are usually responding to real institutional pressures. Even so,…"
   ],
   "hintVocab": [
-    {"phrase": "optimised childhood", "meaningVi": "tuổi thơ được tối ưu hoá"},
-    {"phrase": "scheduled play", "meaningVi": "vui chơi theo lịch"},
-    {"phrase": "curated friendship", "meaningVi": "tình bạn được biên tập"},
-    {"phrase": "developmental tracking", "meaningVi": "theo dõi phát triển"},
-    {"phrase": "enrichment programme", "meaningVi": "chương trình bồi dưỡng"},
-    {"phrase": "the second-order activity", "meaningVi": "hoạt động cấp hai"},
-    {"phrase": "unstructured time", "meaningVi": "thời gian không cấu trúc"},
-    {"phrase": "the audited self", "meaningVi": "cái tôi bị kiểm toán"},
-    {"phrase": "interior life", "meaningVi": "đời sống nội tâm"},
-    {"phrase": "boredom as substrate", "meaningVi": "buồn chán như nền chất"},
-    {"phrase": "the parental gaze", "meaningVi": "ánh nhìn của cha mẹ"},
-    {"phrase": "performance metrics", "meaningVi": "thước đo hiệu năng"},
-    {"phrase": "the credential anxiety", "meaningVi": "lo âu bằng cấp"},
-    {"phrase": "Winnicott on the capacity to be alone", "meaningVi": "Winnicott về khả năng ở một mình"},
-    {"phrase": "the unattended hour", "meaningVi": "giờ không được giám sát"},
-    {"phrase": "self-direction", "meaningVi": "tự định hướng"},
-    {"phrase": "the rehearsal effect", "meaningVi": "hiệu ứng diễn tập"},
-    {"phrase": "Goodhart's law in domestic form", "meaningVi": "định luật Goodhart ở dạng gia đình"},
-    {"phrase": "extraction logic", "meaningVi": "logic chiết xuất"},
-    {"phrase": "the deferred self", "meaningVi": "cái tôi bị trì hoãn"},
-    {"phrase": "the parental anxiety economy", "meaningVi": "kinh tế lo âu của cha mẹ"},
-    {"phrase": "structural over-care", "meaningVi": "chăm sóc thái quá mang tính cấu trúc"}
+    {
+      "phrase": "optimised childhood",
+      "meaningVi": "tuổi thơ được tối ưu hoá"
+    },
+    {
+      "phrase": "scheduled play",
+      "meaningVi": "vui chơi theo lịch"
+    },
+    {
+      "phrase": "curated friendship",
+      "meaningVi": "tình bạn được biên tập"
+    },
+    {
+      "phrase": "developmental tracking",
+      "meaningVi": "theo dõi phát triển"
+    },
+    {
+      "phrase": "enrichment programme",
+      "meaningVi": "chương trình bồi dưỡng"
+    },
+    {
+      "phrase": "the second-order activity",
+      "meaningVi": "hoạt động cấp hai"
+    },
+    {
+      "phrase": "unstructured time",
+      "meaningVi": "thời gian không cấu trúc"
+    },
+    {
+      "phrase": "the audited self",
+      "meaningVi": "cái tôi bị kiểm toán"
+    },
+    {
+      "phrase": "interior life",
+      "meaningVi": "đời sống nội tâm"
+    },
+    {
+      "phrase": "boredom as substrate",
+      "meaningVi": "buồn chán như nền chất"
+    },
+    {
+      "phrase": "the parental gaze",
+      "meaningVi": "ánh nhìn của cha mẹ"
+    },
+    {
+      "phrase": "performance metrics",
+      "meaningVi": "thước đo hiệu năng"
+    },
+    {
+      "phrase": "the credential anxiety",
+      "meaningVi": "lo âu bằng cấp"
+    },
+    {
+      "phrase": "Winnicott on the capacity to be alone",
+      "meaningVi": "Winnicott về khả năng ở một mình"
+    },
+    {
+      "phrase": "the unattended hour",
+      "meaningVi": "giờ không được giám sát"
+    },
+    {
+      "phrase": "self-direction",
+      "meaningVi": "tự định hướng"
+    },
+    {
+      "phrase": "the rehearsal effect",
+      "meaningVi": "hiệu ứng diễn tập"
+    },
+    {
+      "phrase": "Goodhart's law in domestic form",
+      "meaningVi": "định luật Goodhart ở dạng gia đình"
+    },
+    {
+      "phrase": "extraction logic",
+      "meaningVi": "logic chiết xuất"
+    },
+    {
+      "phrase": "the deferred self",
+      "meaningVi": "cái tôi bị trì hoãn"
+    },
+    {
+      "phrase": "the parental anxiety economy",
+      "meaningVi": "kinh tế lo âu của cha mẹ"
+    },
+    {
+      "phrase": "structural over-care",
+      "meaningVi": "chăm sóc thái quá mang tính cấu trúc"
+    }
   ],
   "sampleText": "Rarely is the question asked whether childhood is the kind of thing that can be optimised at all, given what its constitutive activity actually is. The standard contemporary picture treats it as a development pipeline with stages, milestones, and yields: exposure x in year one produces capacity y by year four, and so on through to the school admissions that the pipeline ostensibly serves. The picture is coherent. It is also taxonomically wrong. A child's life is not a set of measurable inputs and outputs but a long and unevenly attended period of becoming the person who will later look back at the life. The picture assumes the child is the object of the period. The child is the period.\n\nConsider an after-school programme in Antwerp that promises 'developmentally appropriate enrichment' from four until seven on weekday afternoons, three structured activities per evening, with a progress dashboard the parents can consult by phone. The programme is well run. The staff are kind. The activities are, in the narrow sense, beneficial: the children learn to spell, to count, to draw recognisable cats. The cost, which the programme does not measure because there is no protocol for measuring it, is the disappearance of the kind of hour in which a seven-year-old has nothing to do and nothing prepared, and is forced to encounter the slow problem of being herself. The encounter looks, from the parental dashboard, like wasted time. It is, in fact, much of what childhood is for.\n\nWhat the language of 'developmentally appropriate enrichment' tends to disguise is the fact that the activity being enriched is being transformed by the act of being so described. An afternoon of unsupervised play is not the same thing as the same afternoon scheduled, named, and dashboarded, even when the visible activity looks identical. The named version produces visible outputs that the parents can audit. The unnamed version produces invisible interior — a slow accumulation of self-direction, of the capacity to bear an unfilled hour, of the small private acts of imagination that nobody is later going to ask about. The two are not interchangeable, and the dashboard is silent about everything the unnamed version was for.\n\nIt is the systemic logic of measurement, not the individual decision of any particular parent, that gives this transformation its weight. A single parent who books one enrichment class for one evening has done nothing of consequence. A whole cohort that books seven evenings has, between them, eliminated the conditions under which the unmeasured forms of childhood could occur. The friend who could have come round on Tuesday is in violin class; the cousin who could have come on Wednesday is in chess. The unscheduled afternoon depends on a critical mass of unscheduled afternoons. When the cohort defects, the form disappears for everyone, including for the families who never wanted it to.\n\nGranted, the alternative to scheduled care is not benign neglect, and the parents most committed to optimisation are usually responding to real institutional pressures. The admissions race in Seoul, the entrance exams in Mumbai, the credentialing gauntlet that any path through the Antwerp education system eventually becomes — none of this is the parents' invention. To recommend a less optimised childhood without changing the institutions whose pressures the optimisation is meant to address is to recommend a worse outcome for one's own child, and there is no honest way to dismiss that consideration. Even so, the institutional explanation does not dissolve the developmental cost. It means that the cost has been displaced from the family to the institution that designed the gauntlet, not that the cost has ceased to be borne.\n\nThere is a particular form of loss that the optimised childhood produces, and the loss is hard to argue against in advance because it consists in the absence of something the child would otherwise have come to know how to do. A capacity that develops through unsupervised, undirected, unimpressive hours cannot be replaced by a course in the same nominal subject, because what was being learned was not the subject. It was the slower thing: the use of one's own attention without an adult sitting alongside, the toleration of a half-hour in which nothing in particular is happening, the small ability to be alone with oneself that the psychoanalytic literature has, for nearly a century, called the precondition of an adult interior life. The course in the same subject teaches the surface of the activity. The unwatched hour was teaching the substrate.\n\nNone of this resolves into a programme. There is no curriculum for the unscheduled afternoon, which is in fact the difficulty: any curriculum cancels the form it is trying to deliver. The narrower claim is that childhood is not the kind of object that responds well to optimisation, that the conditions under which it does its real work are precisely the conditions that the optimiser's dashboard cannot register, and that a generation raised against the dashboard will reveal what was missing only when the dashboard is no longer watching.",
   "sampleAnnotations": [
-    {"phrase": "Rarely is the question asked whether childhood is the kind of thing that can be optimised at all, given what its constitutive activity actually is", "meaningVi": "Hiếm khi câu hỏi được đặt ra liệu tuổi thơ có phải là loại thứ có thể được tối ưu hoá hay không, xét đến hoạt động cấu thành thực sự của nó"},
-    {"phrase": "a development pipeline with stages, milestones, and yields", "meaningVi": "một đường ống phát triển với các giai đoạn, mốc và sản lượng"},
-    {"phrase": "The picture assumes the child is the object of the period. The child is the period", "meaningVi": "Bức tranh giả định đứa trẻ là đối tượng của giai đoạn. Đứa trẻ chính là giai đoạn"},
-    {"phrase": "a progress dashboard the parents can consult by phone", "meaningVi": "một bảng điều khiển tiến độ mà cha mẹ có thể tham khảo qua điện thoại"},
-    {"phrase": "the disappearance of the kind of hour in which a seven-year-old has nothing to do and nothing prepared, and is forced to encounter the slow problem of being herself", "meaningVi": "sự biến mất của loại giờ trong đó một đứa trẻ bảy tuổi không có gì để làm và không có gì được chuẩn bị, và bị buộc gặp phải vấn đề chậm chạp của việc là chính mình"},
-    {"phrase": "The encounter looks, from the parental dashboard, like wasted time. It is, in fact, much of what childhood is for", "meaningVi": "Cuộc gặp gỡ này trông, từ bảng điều khiển của cha mẹ, như thời gian lãng phí. Thực ra, đó là phần lớn lý do tồn tại của tuổi thơ"},
-    {"phrase": "What the language of 'developmentally appropriate enrichment' tends to disguise is the fact that the activity being enriched is being transformed by the act of being so described", "meaningVi": "Điều mà ngôn ngữ 'bồi dưỡng phù hợp phát triển' thường nguỵ trang là sự thật rằng hoạt động đang được bồi dưỡng đang bị chuyển hoá bởi chính hành vi được mô tả như vậy"},
-    {"phrase": "An afternoon of unsupervised play is not the same thing as the same afternoon scheduled, named, and dashboarded, even when the visible activity looks identical", "meaningVi": "Một buổi chiều chơi không giám sát không phải là cùng một thứ với cùng buổi chiều đó được lên lịch, đặt tên và đưa lên bảng, ngay cả khi hoạt động hữu hình trông giống nhau"},
-    {"phrase": "the small private acts of imagination that nobody is later going to ask about", "meaningVi": "những hành vi tưởng tượng riêng tư nhỏ mà sau này không ai sẽ hỏi về"},
-    {"phrase": "the dashboard is silent about everything the unnamed version was for", "meaningVi": "bảng điều khiển im lặng về tất cả những gì mà phiên bản không được đặt tên dùng để làm"},
-    {"phrase": "It is the systemic logic of measurement, not the individual decision of any particular parent, that gives this transformation its weight", "meaningVi": "Chính logic hệ thống của việc đo đếm, không phải quyết định cá nhân của bất kỳ phụ huynh cụ thể nào, mới mang lại cho sự chuyển hoá này trọng lượng"},
-    {"phrase": "The unscheduled afternoon depends on a critical mass of unscheduled afternoons", "meaningVi": "Buổi chiều không lên lịch phụ thuộc vào khối lượng tới hạn của những buổi chiều không lên lịch"},
-    {"phrase": "When the cohort defects, the form disappears for everyone, including for the families who never wanted it to", "meaningVi": "Khi nhóm đào ngũ, hình thức biến mất cho mọi người, kể cả các gia đình không bao giờ muốn vậy"},
-    {"phrase": "Granted, the alternative to scheduled care is not benign neglect, and the parents most committed to optimisation are usually responding to real institutional pressures", "meaningVi": "Cứ cho là phương án thay thế cho chăm sóc theo lịch không phải là sự bỏ bê hiền lành, và các phụ huynh cam kết nhất với tối ưu hoá thường đang phản ứng với áp lực thể chế thực sự"},
-    {"phrase": "the credentialing gauntlet that any path through the Antwerp education system eventually becomes", "meaningVi": "cuộc chạy đua cấp bằng mà bất kỳ con đường nào qua hệ thống giáo dục Antwerp cuối cùng đều trở thành"},
-    {"phrase": "Even so, the institutional explanation does not dissolve the developmental cost. It means that the cost has been displaced from the family to the institution that designed the gauntlet, not that the cost has ceased to be borne", "meaningVi": "Dù vậy, sự giải thích thể chế không xoá đi chi phí phát triển. Nó có nghĩa là chi phí đã được dịch chuyển từ gia đình sang thể chế thiết kế cuộc chạy đua, không phải chi phí đã ngừng được gánh"},
-    {"phrase": "the loss is hard to argue against in advance because it consists in the absence of something the child would otherwise have come to know how to do", "meaningVi": "tổn thất khó tranh luận trước vì nó bao gồm sự vắng mặt của điều mà đứa trẻ lẽ ra đã đến biết cách làm"},
-    {"phrase": "what was being learned was not the subject. It was the slower thing", "meaningVi": "điều đang được học không phải là môn học. Đó là điều chậm hơn"},
-    {"phrase": "the use of one's own attention without an adult sitting alongside", "meaningVi": "việc sử dụng sự chú ý của chính mình mà không có người lớn ngồi bên cạnh"},
-    {"phrase": "the small ability to be alone with oneself that the psychoanalytic literature has, for nearly a century, called the precondition of an adult interior life", "meaningVi": "khả năng nhỏ ở một mình với chính mình mà văn liệu phân tâm học, suốt gần một thế kỷ, đã gọi là tiền đề của đời sống nội tâm trưởng thành"},
-    {"phrase": "The course in the same subject teaches the surface of the activity. The unwatched hour was teaching the substrate", "meaningVi": "Khoá học trong cùng môn dạy bề mặt của hoạt động. Giờ không được nhìn đang dạy nền chất"},
-    {"phrase": "any curriculum cancels the form it is trying to deliver", "meaningVi": "bất kỳ chương trình giảng dạy nào cũng huỷ bỏ hình thức nó đang cố cung cấp"}
+    {
+      "phrase": "Rarely is the question asked whether childhood is the kind of thing that can be optimised at all, given what its constitutive activity actually is",
+      "meaningVi": "Hiếm khi câu hỏi được đặt ra liệu tuổi thơ có phải là loại thứ có thể được tối ưu hoá hay không, xét đến hoạt động cấu thành thực sự của nó"
+    },
+    {
+      "phrase": "a development pipeline with stages, milestones, and yields",
+      "meaningVi": "một đường ống phát triển với các giai đoạn, mốc và sản lượng"
+    },
+    {
+      "phrase": "The picture assumes the child is the object of the period. The child is the period",
+      "meaningVi": "Bức tranh giả định đứa trẻ là đối tượng của giai đoạn. Đứa trẻ chính là giai đoạn"
+    },
+    {
+      "phrase": "a progress dashboard the parents can consult by phone",
+      "meaningVi": "một bảng điều khiển tiến độ mà cha mẹ có thể tham khảo qua điện thoại"
+    },
+    {
+      "phrase": "the disappearance of the kind of hour in which a seven-year-old has nothing to do and nothing prepared, and is forced to encounter the slow problem of being herself",
+      "meaningVi": "sự biến mất của loại giờ trong đó một đứa trẻ bảy tuổi không có gì để làm và không có gì được chuẩn bị, và bị buộc gặp phải vấn đề chậm chạp của việc là chính mình"
+    },
+    {
+      "phrase": "The encounter looks, from the parental dashboard, like wasted time. It is, in fact, much of what childhood is for",
+      "meaningVi": "Cuộc gặp gỡ này trông, từ bảng điều khiển của cha mẹ, như thời gian lãng phí. Thực ra, đó là phần lớn lý do tồn tại của tuổi thơ"
+    },
+    {
+      "phrase": "What the language of 'developmentally appropriate enrichment' tends to disguise is the fact that the activity being enriched is being transformed by the act of being so described",
+      "meaningVi": "Điều mà ngôn ngữ 'bồi dưỡng phù hợp phát triển' thường nguỵ trang là sự thật rằng hoạt động đang được bồi dưỡng đang bị chuyển hoá bởi chính hành vi được mô tả như vậy"
+    },
+    {
+      "phrase": "An afternoon of unsupervised play is not the same thing as the same afternoon scheduled, named, and dashboarded, even when the visible activity looks identical",
+      "meaningVi": "Một buổi chiều chơi không giám sát không phải là cùng một thứ với cùng buổi chiều đó được lên lịch, đặt tên và đưa lên bảng, ngay cả khi hoạt động hữu hình trông giống nhau"
+    },
+    {
+      "phrase": "the small private acts of imagination that nobody is later going to ask about",
+      "meaningVi": "những hành vi tưởng tượng riêng tư nhỏ mà sau này không ai sẽ hỏi về"
+    },
+    {
+      "phrase": "the dashboard is silent about everything the unnamed version was for",
+      "meaningVi": "bảng điều khiển im lặng về tất cả những gì mà phiên bản không được đặt tên dùng để làm"
+    },
+    {
+      "phrase": "It is the systemic logic of measurement, not the individual decision of any particular parent, that gives this transformation its weight",
+      "meaningVi": "Chính logic hệ thống của việc đo đếm, không phải quyết định cá nhân của bất kỳ phụ huynh cụ thể nào, mới mang lại cho sự chuyển hoá này trọng lượng"
+    },
+    {
+      "phrase": "The unscheduled afternoon depends on a critical mass of unscheduled afternoons",
+      "meaningVi": "Buổi chiều không lên lịch phụ thuộc vào khối lượng tới hạn của những buổi chiều không lên lịch"
+    },
+    {
+      "phrase": "When the cohort defects, the form disappears for everyone, including for the families who never wanted it to",
+      "meaningVi": "Khi nhóm đào ngũ, hình thức biến mất cho mọi người, kể cả các gia đình không bao giờ muốn vậy"
+    },
+    {
+      "phrase": "Granted, the alternative to scheduled care is not benign neglect, and the parents most committed to optimisation are usually responding to real institutional pressures",
+      "meaningVi": "Cứ cho là phương án thay thế cho chăm sóc theo lịch không phải là sự bỏ bê hiền lành, và các phụ huynh cam kết nhất với tối ưu hoá thường đang phản ứng với áp lực thể chế thực sự"
+    },
+    {
+      "phrase": "the credentialing gauntlet that any path through the Antwerp education system eventually becomes",
+      "meaningVi": "cuộc chạy đua cấp bằng mà bất kỳ con đường nào qua hệ thống giáo dục Antwerp cuối cùng đều trở thành"
+    },
+    {
+      "phrase": "Even so, the institutional explanation does not dissolve the developmental cost. It means that the cost has been displaced from the family to the institution that designed the gauntlet, not that the cost has ceased to be borne",
+      "meaningVi": "Dù vậy, sự giải thích thể chế không xoá đi chi phí phát triển. Nó có nghĩa là chi phí đã được dịch chuyển từ gia đình sang thể chế thiết kế cuộc chạy đua, không phải chi phí đã ngừng được gánh"
+    },
+    {
+      "phrase": "the loss is hard to argue against in advance because it consists in the absence of something the child would otherwise have come to know how to do",
+      "meaningVi": "tổn thất khó tranh luận trước vì nó bao gồm sự vắng mặt của điều mà đứa trẻ lẽ ra đã đến biết cách làm"
+    },
+    {
+      "phrase": "what was being learned was not the subject. It was the slower thing",
+      "meaningVi": "điều đang được học không phải là môn học. Đó là điều chậm hơn"
+    },
+    {
+      "phrase": "the use of one's own attention without an adult sitting alongside",
+      "meaningVi": "việc sử dụng sự chú ý của chính mình mà không có người lớn ngồi bên cạnh"
+    },
+    {
+      "phrase": "the small ability to be alone with oneself that the psychoanalytic literature has, for nearly a century, called the precondition of an adult interior life",
+      "meaningVi": "khả năng nhỏ ở một mình với chính mình mà văn liệu phân tâm học, suốt gần một thế kỷ, đã gọi là tiền đề của đời sống nội tâm trưởng thành"
+    },
+    {
+      "phrase": "The course in the same subject teaches the surface of the activity. The unwatched hour was teaching the substrate",
+      "meaningVi": "Khoá học trong cùng môn dạy bề mặt của hoạt động. Giờ không được nhìn đang dạy nền chất"
+    },
+    {
+      "phrase": "any curriculum cancels the form it is trying to deliver",
+      "meaningVi": "bất kỳ chương trình giảng dạy nào cũng huỷ bỏ hình thức nó đang cố cung cấp"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -80,12 +216,12 @@
       "id": "q1",
       "prompt": "Which sentence correctly inverts after 'Rarely'?",
       "options": [
-        "Rarely the question is asked whether childhood can be optimised.",
         "Rarely is the question asked whether childhood is the kind of thing that can be optimised at all, given what its constitutive activity actually is.",
+        "Rarely the question is asked whether childhood can be optimised.",
         "The question rarely is asked whether childhood is optimisable.",
         "Rarely asks anyone the question of childhood."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'Rarely' fronts a negative adverbial. The passive 'is' inverts before the subject 'the question', with 'asked' after.",
       "hint": "Negative adverbial + auxiliary + subject + participle."
     },
@@ -107,11 +243,11 @@
       "prompt": "Which sentence in the essay is a cleft?",
       "options": [
         "The staff are kind.",
-        "It is the systemic logic of measurement, not the individual decision of any particular parent, that gives this transformation its weight.",
         "The friend who could have come round on Tuesday is in violin class.",
+        "It is the systemic logic of measurement, not the individual decision of any particular parent, that gives this transformation its weight.",
         "There is no curriculum for the unscheduled afternoon."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "'It is X, not Y, that Z' is the cleft. The essay uses it to shift the locus of the developmental cost from individual choice to systemic logic.",
       "hint": "Look for 'It is ... not ... that ...'"
     },
@@ -120,11 +256,11 @@
       "prompt": "What does the essay say the dashboard cannot register?",
       "options": [
         "The number of scheduled activities.",
-        "The invisible interior — self-direction, capacity to bear an unfilled hour, small private acts of imagination — that the unscheduled version was producing.",
         "Spelling and counting skills.",
-        "Parent satisfaction."
+        "Parent satisfaction.",
+        "The invisible interior — self-direction, capacity to bear an unfilled hour, small private acts of imagination — that the unscheduled version was producing."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay's epistemic point: the dashboard measures the named outputs but is silent about the unnamed substrate that the unwatched hour produces.",
       "hint": "Invisible interior; substrate."
     },
@@ -132,12 +268,12 @@
       "id": "q5",
       "prompt": "How does the essay use 'Granted… Even so…'?",
       "options": [
-        "To dismiss the case for optimisation entirely.",
         "To grant fully that parents are responding to real institutional pressures (Seoul admissions, Mumbai exams, Antwerp credentialing), while restricting the conclusion: the institutional explanation does not dissolve the developmental cost.",
+        "To dismiss the case for optimisation entirely.",
         "To blame parents.",
         "To equivocate."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay concedes the institutional pressure honestly — the parents are not the villains — and limits the conclusion to where the cost has gone, not whether it has vanished.",
       "hint": "Full concession; cost displaced, not eliminated."
     },
@@ -159,11 +295,11 @@
       "prompt": "What does the essay say the loss consists in?",
       "options": [
         "Lower test scores.",
-        "The absence of something the child would otherwise have come to know how to do — a capacity that develops through unsupervised, undirected, unimpressive hours.",
         "Slower academic progress.",
+        "The absence of something the child would otherwise have come to know how to do — a capacity that develops through unsupervised, undirected, unimpressive hours.",
         "Reduced parental income."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay's most specific claim: the loss is invisible because it consists in an absence, and the absence is of capacities that can only develop in the conditions that are being eliminated.",
       "hint": "Absence of a capacity."
     },
@@ -172,11 +308,11 @@
       "prompt": "What does 'The course in the same subject teaches the surface of the activity. The unwatched hour was teaching the substrate' mean?",
       "options": [
         "The course is unimportant.",
-        "Taking a course in (say) drawing teaches drawing, but the unwatched hour was teaching the underlying capacity — self-direction, attention, tolerance of empty time — which is not transferable through curriculum.",
         "Substrates are biological.",
-        "Surface and substrate are the same."
+        "Surface and substrate are the same.",
+        "Taking a course in (say) drawing teaches drawing, but the unwatched hour was teaching the underlying capacity — self-direction, attention, tolerance of empty time — which is not transferable through curriculum."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay's clearest articulation of the substitution argument: the named course teaches the named subject; the unnamed hour teaches the unnamed precondition for everything else.",
       "hint": "Surface skill vs underlying capacity."
     },
@@ -184,12 +320,12 @@
       "id": "q9",
       "prompt": "What does 'any curriculum cancels the form it is trying to deliver' mean?",
       "options": [
-        "Curricula are inherently bad.",
         "The unscheduled afternoon is constituted by being unscheduled; the moment a curriculum tries to deliver it on a schedule, the unscheduled-ness — which was the point — disappears.",
+        "Curricula are inherently bad.",
         "Curricula should be longer.",
         "Curricula are too expensive."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay's self-referential difficulty: you cannot timetable the form. The very act of timetabling destroys what was being delivered.",
       "hint": "Timetabling destroys the form."
     },
@@ -211,11 +347,11 @@
       "prompt": "What does the essay refuse to provide?",
       "options": [
         "An argument.",
-        "A programme — a curriculum for the unscheduled afternoon, which would cancel the form it tried to deliver.",
         "Examples.",
+        "A programme — a curriculum for the unscheduled afternoon, which would cancel the form it tried to deliver.",
         "Historical context."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay is explicit: 'There is no curriculum for the unscheduled afternoon, which is in fact the difficulty.' The proposal cannot be made into a programme.",
       "hint": "No curriculum, by structural necessity."
     },
@@ -224,11 +360,11 @@
       "prompt": "What is the essay's narrower claim?",
       "options": [
         "Optimisation is always wrong.",
-        "Childhood is not the kind of object that responds well to optimisation; its real work happens in conditions that the dashboard cannot register, and a generation raised against the dashboard will only reveal what was missing later.",
         "All scheduling is harmful.",
-        "All courses should be banned."
+        "All courses should be banned.",
+        "Childhood is not the kind of object that responds well to optimisation; its real work happens in conditions that the dashboard cannot register, and a generation raised against the dashboard will only reveal what was missing later."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The essay's final restatement: the object resists the operation, the operation cannot see what it costs, and the verdict will arrive late.",
       "hint": "Object resists; cost is invisible; verdict comes late."
     },
@@ -236,12 +372,12 @@
       "id": "q13",
       "prompt": "What does 'Goodhart's law in domestic form' (implicit in the essay) suggest?",
       "options": [
-        "A law about household budgets.",
         "When a parental measure (enrichment hours, milestones) becomes the target, it stops being a good measure of what it was originally a proxy for — because the activity transforms under the act of being measured.",
+        "A law about household budgets.",
         "A theory of public finance.",
         "A rule about chores."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay invokes Goodhart's logic without naming it: the measured proxy degrades when it becomes the target, because the activity changes shape under measurement.",
       "hint": "Measure becomes target; activity transforms."
     },
@@ -263,11 +399,11 @@
       "prompt": "What is the essay's overall stance?",
       "options": [
         "Parents should refuse all enrichment.",
-        "Childhood resists optimisation by its very nature, and the institutional pressures that drive optimisation displace the developmental cost rather than eliminating it; the verdict on the optimised childhood will arrive only when the dashboard is no longer watching.",
         "Optimisation is always good.",
+        "Childhood resists optimisation by its very nature, and the institutional pressures that drive optimisation displace the developmental cost rather than eliminating it; the verdict on the optimised childhood will arrive only when the dashboard is no longer watching.",
         "There is no developmental cost."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay's qualified stance: not blame, not nostalgia — but a structural argument that the object resists the operation, and that the cost has been displaced rather than removed.",
       "hint": "Object resists; cost displaced; verdict late."
     },
@@ -276,11 +412,11 @@
       "prompt": "What rhetorical purpose does the closing — 'will reveal what was missing only when the dashboard is no longer watching' — serve?",
       "options": [
         "It is a stylistic flourish.",
-        "It refuses tidy resolution by acknowledging that the argument can only be confirmed retroactively, which is itself part of why the loss is so hard to argue against in advance.",
         "It is irrelevant to the argument.",
-        "It admits the essay has failed."
+        "It admits the essay has failed.",
+        "It refuses tidy resolution by acknowledging that the argument can only be confirmed retroactively, which is itself part of why the loss is so hard to argue against in advance."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The closing acknowledges the epistemic difficulty: the verdict is unavailable while the optimisation continues. The refusal of false resolution is the essay's argument restated in its own form.",
       "hint": "Verdict only available later."
     }

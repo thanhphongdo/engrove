@@ -3,7 +3,11 @@
   "level": "A2",
   "title": "The kindest stranger I ever met",
   "summary": "Tell the story of one specific encounter with a stranger who was kind.",
-  "tags": ["Stories", "People", "Memory"],
+  "tags": [
+    "Stories",
+    "People",
+    "Memory"
+  ],
   "topic": "The kindest stranger I ever met",
   "prompt": "Write 150–250 words about one stranger who was kind to you. Set the scene, describe what they did, and explain how it changed your day. Use past simple and the superlative 'the kindest'.",
   "minWords": 150,
@@ -14,30 +18,94 @@
     "She turned around and…"
   ],
   "hintVocab": [
-    { "phrase": "stranger", "meaningVi": "người lạ" },
-    { "phrase": "train station", "meaningVi": "ga tàu" },
-    { "phrase": "platform", "meaningVi": "sân ga" },
-    { "phrase": "scarf", "meaningVi": "khăn quàng cổ", "pronunciation": "/skɑːrf/" },
-    { "phrase": "umbrella", "meaningVi": "ô / dù" },
-    { "phrase": "freezing cold", "meaningVi": "lạnh buốt" },
-    { "phrase": "ticket gate", "meaningVi": "cổng soát vé" },
-    { "phrase": "the kindest", "meaningVi": "tử tế nhất" },
-    { "phrase": "smile", "meaningVi": "nụ cười" },
-    { "phrase": "rush hour", "meaningVi": "giờ cao điểm" },
-    { "phrase": "without saying anything", "meaningVi": "mà không nói gì" }
+    {
+      "phrase": "stranger",
+      "meaningVi": "người lạ"
+    },
+    {
+      "phrase": "train station",
+      "meaningVi": "ga tàu"
+    },
+    {
+      "phrase": "platform",
+      "meaningVi": "sân ga"
+    },
+    {
+      "phrase": "scarf",
+      "meaningVi": "khăn quàng cổ",
+      "pronunciation": "/skɑːrf/"
+    },
+    {
+      "phrase": "umbrella",
+      "meaningVi": "ô / dù"
+    },
+    {
+      "phrase": "freezing cold",
+      "meaningVi": "lạnh buốt"
+    },
+    {
+      "phrase": "ticket gate",
+      "meaningVi": "cổng soát vé"
+    },
+    {
+      "phrase": "the kindest",
+      "meaningVi": "tử tế nhất"
+    },
+    {
+      "phrase": "smile",
+      "meaningVi": "nụ cười"
+    },
+    {
+      "phrase": "rush hour",
+      "meaningVi": "giờ cao điểm"
+    },
+    {
+      "phrase": "without saying anything",
+      "meaningVi": "mà không nói gì"
+    }
   ],
   "sampleText": "The kindest stranger I ever met was a woman in Tokyo. It was a cold Tuesday evening in February, and I had just arrived at Shinjuku station. The platform was full of tired people in dark coats. It was rush hour. I was carrying a heavy suitcase and a small paper bag, and I did not know which exit to take. My Japanese was very basic. I stopped near the ticket gate and looked at the signs. The signs had too many lines and too many colours. I felt close to tears. A small woman with a grey scarf walked past me. Then she stopped, turned around, and came back. She did not speak much English, and I did not speak much Japanese. She pointed at my paper bag, where the name of my hotel was printed. She nodded and said, \"Come.\" Without saying anything else, she walked with me through the station, up two sets of stairs, and outside into the freezing cold. She stood under the rain with me and pointed at a small street on the other side of the road. She bowed once and walked back into the station. I did not even know her name. But on that night, she was the kindest person in a city of thirteen million.",
   "sampleAnnotations": [
-    { "phrase": "the kindest stranger", "meaningVi": "người lạ tử tế nhất" },
-    { "phrase": "platform", "meaningVi": "sân ga" },
-    { "phrase": "rush hour", "meaningVi": "giờ cao điểm" },
-    { "phrase": "heavy suitcase", "meaningVi": "vali nặng" },
-    { "phrase": "ticket gate", "meaningVi": "cổng soát vé" },
-    { "phrase": "close to tears", "meaningVi": "gần như muốn khóc" },
-    { "phrase": "grey scarf", "meaningVi": "khăn quàng xám" },
-    { "phrase": "freezing cold", "meaningVi": "lạnh buốt" },
-    { "phrase": "bowed once", "meaningVi": "cúi chào một cái" },
-    { "phrase": "thirteen million", "meaningVi": "mười ba triệu (người)" }
+    {
+      "phrase": "the kindest stranger",
+      "meaningVi": "người lạ tử tế nhất"
+    },
+    {
+      "phrase": "platform",
+      "meaningVi": "sân ga"
+    },
+    {
+      "phrase": "rush hour",
+      "meaningVi": "giờ cao điểm"
+    },
+    {
+      "phrase": "heavy suitcase",
+      "meaningVi": "vali nặng"
+    },
+    {
+      "phrase": "ticket gate",
+      "meaningVi": "cổng soát vé"
+    },
+    {
+      "phrase": "close to tears",
+      "meaningVi": "gần như muốn khóc"
+    },
+    {
+      "phrase": "grey scarf",
+      "meaningVi": "khăn quàng xám"
+    },
+    {
+      "phrase": "freezing cold",
+      "meaningVi": "lạnh buốt"
+    },
+    {
+      "phrase": "bowed once",
+      "meaningVi": "cúi chào một cái"
+    },
+    {
+      "phrase": "thirteen million",
+      "meaningVi": "mười ba triệu (người)"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -57,12 +125,12 @@
       "id": "q1",
       "prompt": "Which sentence uses the superlative correctly?",
       "options": [
-        "The kindest stranger I ever met was a woman in Tokyo.",
         "The most kindest stranger I ever met was a woman in Tokyo.",
         "The more kind stranger I ever met was a woman in Tokyo.",
-        "Kindest the stranger I ever met was a woman in Tokyo."
+        "Kindest the stranger I ever met was a woman in Tokyo.",
+        "The kindest stranger I ever met was a woman in Tokyo."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "Short adjective + -est: 'kindest'.",
       "hint": "Don't double up superlative markers."
     },
@@ -83,12 +151,12 @@
       "id": "q3",
       "prompt": "Which sentence is correct?",
       "options": [
-        "She did not speak much English.",
         "She not speak much English.",
+        "She did not speak much English.",
         "She did not spoke much English.",
         "She no speak much English."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "Negative past simple: did not + base verb.",
       "hint": "Did + not + base verb."
     },
@@ -96,12 +164,12 @@
       "id": "q4",
       "prompt": "Pick the most natural sequence of past actions.",
       "options": [
-        "She stopped, turned around, and came back.",
         "She stopped, turn around, and come back.",
         "She is stopping, turning around, and coming back.",
+        "She stopped, turned around, and came back.",
         "She has stopped, has turned around, and has came back."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "Three past simple verbs in a row for a clean action sequence.",
       "hint": "Use past simple for finished actions."
     },
@@ -109,12 +177,12 @@
       "id": "q5",
       "prompt": "Choose the correct preposition.",
       "options": [
-        "She pointed at my paper bag.",
         "She pointed in my paper bag.",
         "She pointed on my paper bag.",
-        "She pointed for my paper bag."
+        "She pointed for my paper bag.",
+        "She pointed at my paper bag."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'Point at + object' is the standard collocation.",
       "hint": "Which preposition follows 'point'?"
     },
@@ -135,12 +203,12 @@
       "id": "q7",
       "prompt": "Choose the correct past simple of 'bow'.",
       "options": [
-        "She bowed once and walked back into the station.",
         "She bow once and walk back into the station.",
+        "She bowed once and walked back into the station.",
         "She has bowed once and has walk back into the station.",
         "She is bowing once and walking back into the station."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "Past simple 'bowed' + 'walked' keeps the sequence consistent.",
       "hint": "Regular -ed."
     },
@@ -148,12 +216,12 @@
       "id": "q8",
       "prompt": "Which sentence shows clear contrast?",
       "options": [
-        "I did not even know her name, but she was the kindest person.",
         "I did not even know her name, so she was the kindest person.",
         "I did not even know her name, because she was the kindest person.",
+        "I did not even know her name, but she was the kindest person.",
         "I did not even know her name, while she was the kindest person."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'But' signals contrast between not knowing her and rating her highly.",
       "hint": "Which linker signals contrast?"
     },
@@ -161,12 +229,12 @@
       "id": "q9",
       "prompt": "Pick the correct sentence using past continuous for setting.",
       "options": [
-        "The platform was full of tired people in dark coats.",
         "The platform is full of tired people in dark coats.",
         "The platform has been full of tired people in dark coats.",
-        "The platform full of tired people in dark coats."
+        "The platform full of tired people in dark coats.",
+        "The platform was full of tired people in dark coats."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "Past simple 'was' fits the rest of the story.",
       "hint": "Keep tense consistent with the story."
     },

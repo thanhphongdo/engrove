@@ -3,7 +3,12 @@
   "level": "B2",
   "title": "Why some languages survive in households long after they disappear from the streets",
   "summary": "Explore why minority languages persist inside homes even when they vanish from public life.",
-  "tags": ["Language", "Identity", "Society", "Minority cultures"],
+  "tags": [
+    "Language",
+    "Identity",
+    "Society",
+    "Minority cultures"
+  ],
   "topic": "Why some languages survive in households long after they disappear from the streets",
   "prompt": "Write an argumentative essay (350–500 words) exploring why certain minority languages persist inside homes even after they have disappeared from shops, schools, and public signage. Use at least one international example (e.g. Quechua in Lima households, Welsh in Welsh valley homes, or Yiddish in Brooklyn kitchens). Include a cleft sentence ('What keeps…'), a concession ('Granted, …'), and a passive construction. Take a clear position on whether household survival is enough to call a language 'alive'.",
   "minWords": 350,
@@ -15,53 +20,192 @@
     "The question worth asking is whether survival at home counts as survival at all…"
   ],
   "hintVocab": [
-    { "phrase": "minority language", "meaningVi": "ngôn ngữ thiểu số" },
-    { "phrase": "linguistic heritage", "meaningVi": "di sản ngôn ngữ", "pronunciation": "/lɪŋˈɡwɪs.tɪk ˈher.ɪ.tɪdʒ/" },
-    { "phrase": "to be displaced by", "meaningVi": "bị thay thế bởi" },
-    { "phrase": "dominant language", "meaningVi": "ngôn ngữ thống trị" },
-    { "phrase": "code-switching", "meaningVi": "chuyển đổi ngôn ngữ trong hội thoại" },
-    { "phrase": "intergenerational transmission", "meaningVi": "truyền lại qua các thế hệ" },
-    { "phrase": "to recede", "meaningVi": "lùi dần / thu hẹp lại", "pronunciation": "/rɪˈsiːd/" },
-    { "phrase": "intimate register", "meaningVi": "ngôn ngữ thân mật / phong cách thân mật" },
-    { "phrase": "to endure", "meaningVi": "tồn tại / tiếp tục sống sót" },
-    { "phrase": "dialect", "meaningVi": "phương ngữ / thổ ngữ", "pronunciation": "/ˈdaɪ.ə.lekt/" },
-    { "phrase": "assimilation", "meaningVi": "sự đồng hóa (ngôn ngữ/văn hóa)", "pronunciation": "/əˌsɪm.ɪˈleɪ.ʃən/" },
-    { "phrase": "to be passed down", "meaningVi": "được truyền lại" },
-    { "phrase": "emotional resonance", "meaningVi": "sức vang vọng cảm xúc" },
-    { "phrase": "oral tradition", "meaningVi": "truyền thống truyền miệng" },
-    { "phrase": "language death", "meaningVi": "cái chết của ngôn ngữ" },
-    { "phrase": "to revitalise", "meaningVi": "hồi sinh / làm sống lại", "pronunciation": "/ˌriːˈvaɪ.tə.laɪz/" },
-    { "phrase": "prestige language", "meaningVi": "ngôn ngữ có uy thế" },
-    { "phrase": "to carve out a space", "meaningVi": "tạo ra một không gian riêng" },
-    { "phrase": "dormant", "meaningVi": "ngủ yên / tiềm ẩn", "pronunciation": "/ˈdɔː.mənt/" },
-    { "phrase": "to hold on to", "meaningVi": "bám vào / giữ lấy" },
-    { "phrase": "vernacular", "meaningVi": "tiếng địa phương / ngôn ngữ bản địa", "pronunciation": "/vəˈnæk.jʊ.lər/" },
-    { "phrase": "to fade from", "meaningVi": "mờ dần / biến mất khỏi" }
+    {
+      "phrase": "minority language",
+      "meaningVi": "ngôn ngữ thiểu số"
+    },
+    {
+      "phrase": "linguistic heritage",
+      "meaningVi": "di sản ngôn ngữ",
+      "pronunciation": "/lɪŋˈɡwɪs.tɪk ˈher.ɪ.tɪdʒ/"
+    },
+    {
+      "phrase": "to be displaced by",
+      "meaningVi": "bị thay thế bởi"
+    },
+    {
+      "phrase": "dominant language",
+      "meaningVi": "ngôn ngữ thống trị"
+    },
+    {
+      "phrase": "code-switching",
+      "meaningVi": "chuyển đổi ngôn ngữ trong hội thoại"
+    },
+    {
+      "phrase": "intergenerational transmission",
+      "meaningVi": "truyền lại qua các thế hệ"
+    },
+    {
+      "phrase": "to recede",
+      "meaningVi": "lùi dần / thu hẹp lại",
+      "pronunciation": "/rɪˈsiːd/"
+    },
+    {
+      "phrase": "intimate register",
+      "meaningVi": "ngôn ngữ thân mật / phong cách thân mật"
+    },
+    {
+      "phrase": "to endure",
+      "meaningVi": "tồn tại / tiếp tục sống sót"
+    },
+    {
+      "phrase": "dialect",
+      "meaningVi": "phương ngữ / thổ ngữ",
+      "pronunciation": "/ˈdaɪ.ə.lekt/"
+    },
+    {
+      "phrase": "assimilation",
+      "meaningVi": "sự đồng hóa (ngôn ngữ/văn hóa)",
+      "pronunciation": "/əˌsɪm.ɪˈleɪ.ʃən/"
+    },
+    {
+      "phrase": "to be passed down",
+      "meaningVi": "được truyền lại"
+    },
+    {
+      "phrase": "emotional resonance",
+      "meaningVi": "sức vang vọng cảm xúc"
+    },
+    {
+      "phrase": "oral tradition",
+      "meaningVi": "truyền thống truyền miệng"
+    },
+    {
+      "phrase": "language death",
+      "meaningVi": "cái chết của ngôn ngữ"
+    },
+    {
+      "phrase": "to revitalise",
+      "meaningVi": "hồi sinh / làm sống lại",
+      "pronunciation": "/ˌriːˈvaɪ.tə.laɪz/"
+    },
+    {
+      "phrase": "prestige language",
+      "meaningVi": "ngôn ngữ có uy thế"
+    },
+    {
+      "phrase": "to carve out a space",
+      "meaningVi": "tạo ra một không gian riêng"
+    },
+    {
+      "phrase": "dormant",
+      "meaningVi": "ngủ yên / tiềm ẩn",
+      "pronunciation": "/ˈdɔː.mənt/"
+    },
+    {
+      "phrase": "to hold on to",
+      "meaningVi": "bám vào / giữ lấy"
+    },
+    {
+      "phrase": "vernacular",
+      "meaningVi": "tiếng địa phương / ngôn ngữ bản địa",
+      "pronunciation": "/vəˈnæk.jʊ.lər/"
+    },
+    {
+      "phrase": "to fade from",
+      "meaningVi": "mờ dần / biến mất khỏi"
+    }
   ],
   "sampleText": "In the Lima suburb of San Juan de Miraflores, Quechua is not spoken in the market, not used on government forms, and not heard on the radio. Yet in certain kitchens, grandmothers still address their grandchildren in it — and those grandchildren, even without replying in kind, grow up knowing its rhythms. The language has receded from every public surface and survived, somehow, behind a door.\n\nWhat keeps a language breathing inside four walls is not grammar but intimacy. Quechua, Welsh in the households of the Rhondda Valley, Yiddish in Brooklyn apartments — each of these has been displaced from public life by a dominant language better suited to commerce and bureaucracy. Yet they endure in bedrooms and kitchens because they carry something the prestige language cannot replicate: the exact emotional register of a parent scolding, a grandmother comforting, a joke that only works in the original. Language, at its most stubborn, is a set of feelings before it is a set of rules.\n\nGranted, a language heard only at the dinner table is a fragile thing. Intergenerational transmission requires not merely exposure but use: a child who understands Quechua but answers in Spanish is already one step from the edge. Linguists describe this as passive competence, and it is no guarantee of survival — within a generation or two, the passive knowledge tends to fade unless something gives the language a reason to be spoken aloud. Welsh reversed this drift partly because road signs and school curricula gave it a public function again; Quechua in urban Peru has no such institutional scaffold.\n\nEven so, household survival is not nothing. It is, in fact, the seed from which revivals have been grown. Hebrew was kept alive largely in liturgical and domestic contexts for centuries before it was revitalised as a spoken language in the late nineteenth century. What was preserved in those domestic rituals — vocabulary, syntax, the cadence of prayer — gave revivalists something concrete to build on. A language that has been entirely replaced, by contrast, can only be reconstructed, and reconstruction is always poorer than the original.\n\nThe honest answer, then, is that a language spoken only at home is neither alive nor dead — it is dormant. Whether it remains dormant or wakes depends less on the language itself than on whether the community decides, collectively, to carve out a space for it beyond the kitchen. The households that hold on to minority languages are not preserving museum exhibits; they are holding a door open. Whether anyone chooses to walk through it is a different question entirely.",
   "sampleAnnotations": [
-    { "phrase": "has receded from every public surface", "meaningVi": "đã lùi dần khỏi mọi bề mặt công cộng" },
-    { "phrase": "grown up knowing its rhythms", "meaningVi": "lớn lên quen với nhịp điệu của nó" },
-    { "phrase": "What keeps a language breathing inside four walls is not grammar but intimacy", "meaningVi": "điều giữ cho một ngôn ngữ còn sống trong bốn bức tường không phải là ngữ pháp mà là sự thân mật" },
-    { "phrase": "displaced from public life", "meaningVi": "bị thay thế khỏi đời sống công cộng" },
-    { "phrase": "dominant language", "meaningVi": "ngôn ngữ thống trị" },
-    { "phrase": "they endure in bedrooms and kitchens", "meaningVi": "chúng tồn tại trong phòng ngủ và nhà bếp" },
-    { "phrase": "the exact emotional register", "meaningVi": "chính xác phong cách cảm xúc" },
-    { "phrase": "Language, at its most stubborn, is a set of feelings before it is a set of rules", "meaningVi": "ngôn ngữ, ở mức cứng đầu nhất, là tập hợp cảm xúc trước khi là tập hợp quy tắc" },
-    { "phrase": "Granted, a language heard only at the dinner table is a fragile thing", "meaningVi": "công nhận, một ngôn ngữ chỉ được nghe tại bàn ăn là điều mong manh" },
-    { "phrase": "Intergenerational transmission", "meaningVi": "sự truyền lại qua các thế hệ" },
-    { "phrase": "passive competence", "meaningVi": "năng lực thụ động" },
-    { "phrase": "tends to fade", "meaningVi": "có xu hướng mờ dần" },
-    { "phrase": "institutional scaffold", "meaningVi": "giàn giáo thể chế / hỗ trợ thể chế" },
-    { "phrase": "household survival is not nothing", "meaningVi": "sự tồn tại trong gia đình không phải là không có gì" },
-    { "phrase": "the seed from which revivals have been grown", "meaningVi": "hạt giống từ đó những cuộc hồi sinh đã nảy mầm" },
-    { "phrase": "revitalised as a spoken language", "meaningVi": "được hồi sinh như một ngôn ngữ nói" },
-    { "phrase": "the cadence of prayer", "meaningVi": "nhịp điệu của lời cầu nguyện" },
-    { "phrase": "reconstruction is always poorer than the original", "meaningVi": "tái dựng luôn kém hơn bản gốc" },
-    { "phrase": "neither alive nor dead — it is dormant", "meaningVi": "không sống cũng không chết — nó đang ngủ yên" },
-    { "phrase": "carve out a space for it beyond the kitchen", "meaningVi": "tạo ra một không gian cho nó vượt ra ngoài căn bếp" },
-    { "phrase": "holding a door open", "meaningVi": "giữ một cánh cửa mở" },
-    { "phrase": "Whether anyone chooses to walk through it is a different question entirely", "meaningVi": "liệu có ai chọn bước qua đó hay không là một câu hỏi hoàn toàn khác" }
+    {
+      "phrase": "has receded from every public surface",
+      "meaningVi": "đã lùi dần khỏi mọi bề mặt công cộng"
+    },
+    {
+      "phrase": "up knowing its rhythms",
+      "meaningVi": "lớn lên quen với nhịp điệu của nó"
+    },
+    {
+      "phrase": "What keeps a language breathing inside four walls is not grammar but intimacy",
+      "meaningVi": "điều giữ cho một ngôn ngữ còn sống trong bốn bức tường không phải là ngữ pháp mà là sự thân mật"
+    },
+    {
+      "phrase": "displaced from public life",
+      "meaningVi": "bị thay thế khỏi đời sống công cộng"
+    },
+    {
+      "phrase": "dominant language",
+      "meaningVi": "ngôn ngữ thống trị"
+    },
+    {
+      "phrase": "they endure in bedrooms and kitchens",
+      "meaningVi": "chúng tồn tại trong phòng ngủ và nhà bếp"
+    },
+    {
+      "phrase": "the exact emotional register",
+      "meaningVi": "chính xác phong cách cảm xúc"
+    },
+    {
+      "phrase": "Language, at its most stubborn, is a set of feelings before it is a set of rules",
+      "meaningVi": "ngôn ngữ, ở mức cứng đầu nhất, là tập hợp cảm xúc trước khi là tập hợp quy tắc"
+    },
+    {
+      "phrase": "Granted, a language heard only at the dinner table is a fragile thing",
+      "meaningVi": "công nhận, một ngôn ngữ chỉ được nghe tại bàn ăn là điều mong manh"
+    },
+    {
+      "phrase": "Intergenerational transmission",
+      "meaningVi": "sự truyền lại qua các thế hệ"
+    },
+    {
+      "phrase": "passive competence",
+      "meaningVi": "năng lực thụ động"
+    },
+    {
+      "phrase": "tends to fade",
+      "meaningVi": "có xu hướng mờ dần"
+    },
+    {
+      "phrase": "institutional scaffold",
+      "meaningVi": "giàn giáo thể chế / hỗ trợ thể chế"
+    },
+    {
+      "phrase": "household survival is not nothing",
+      "meaningVi": "sự tồn tại trong gia đình không phải là không có gì"
+    },
+    {
+      "phrase": "the seed from which revivals have been grown",
+      "meaningVi": "hạt giống từ đó những cuộc hồi sinh đã nảy mầm"
+    },
+    {
+      "phrase": "revitalised as a spoken language",
+      "meaningVi": "được hồi sinh như một ngôn ngữ nói"
+    },
+    {
+      "phrase": "the cadence of prayer",
+      "meaningVi": "nhịp điệu của lời cầu nguyện"
+    },
+    {
+      "phrase": "reconstruction is always poorer than the original",
+      "meaningVi": "tái dựng luôn kém hơn bản gốc"
+    },
+    {
+      "phrase": "neither alive nor dead — it is dormant",
+      "meaningVi": "không sống cũng không chết — nó đang ngủ yên"
+    },
+    {
+      "phrase": "carve out a space for it beyond the kitchen",
+      "meaningVi": "tạo ra một không gian cho nó vượt ra ngoài căn bếp"
+    },
+    {
+      "phrase": "holding a door open",
+      "meaningVi": "giữ một cánh cửa mở"
+    },
+    {
+      "phrase": "Whether anyone chooses to walk through it is a different question entirely",
+      "meaningVi": "liệu có ai chọn bước qua đó hay không là một câu hỏi hoàn toàn khác"
+    }
   ],
   "sampleGrammarNotes": [
     {

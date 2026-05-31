@@ -1,0 +1,519 @@
+{
+  "id": "writing-c1-117",
+  "level": "C1",
+  "title": "The shrine that is rebuilt so it will never be old",
+  "summary": "Every twenty years the Ise shrine in Japan is taken down and built again from fresh timber, identical and brand-new — a practice that affronts the European instinct to conserve the original stone, and forces the question of where the 'real' thing actually lives.",
+  "tags": [
+    "Argument",
+    "Preservation",
+    "Identity"
+  ],
+  "topic": "Whether the continuity of a thing lives in its material or in the act of remaking it",
+  "prompt": "Write a 600–800-word argumentative essay contrasting two genuine attitudes to preserving a thing across time, grounded in concrete cases. Argue toward a qualified position on whether the identity and continuity of a thing reside in its original material or in the practice of remaking it. Engage the strongest opposing view, hedge your claims, use deliberate cohesion across paragraphs, and reach a judgement that does not simply split the difference.",
+  "minWords": 600,
+  "maxWords": 800,
+  "hintStarters": [
+    "The European instinct is to guard the original matter at almost any cost, and it took me a while to see that this instinct rests on an assumption that…",
+    "It would be too neat to say that the shrine and the cathedral simply value different things; what they disagree about is really…",
+    "If continuity can live in an act of remaking rather than in surviving stone, then the question of what counts as the 'same' building turns out to depend on…"
+  ],
+  "hintVocab": [
+    {
+      "phrase": "to conserve",
+      "meaningVi": "bảo tồn (giữ nguyên trạng)",
+      "pronunciation": "/kənˈsɜːv/"
+    },
+    {
+      "phrase": "conservation",
+      "meaningVi": "công tác bảo tồn",
+      "pronunciation": "/ˌkɒnsəˈveɪʃn/"
+    },
+    {
+      "phrase": "to restore",
+      "meaningVi": "phục dựng, trùng tu",
+      "pronunciation": "/rɪˈstɔː/"
+    },
+    {
+      "phrase": "to rebuild",
+      "meaningVi": "xây dựng lại"
+    },
+    {
+      "phrase": "the original fabric",
+      "meaningVi": "phần vật liệu nguyên gốc (của công trình)"
+    },
+    {
+      "phrase": "the relic",
+      "meaningVi": "di vật, thánh tích",
+      "pronunciation": "/ˈrelɪk/"
+    },
+    {
+      "phrase": "authenticity",
+      "meaningVi": "tính nguyên bản, chân thực",
+      "pronunciation": "/ˌɔːθenˈtɪsəti/"
+    },
+    {
+      "phrase": "patina",
+      "meaningVi": "lớp gỉ/rêu phong của thời gian",
+      "pronunciation": "/ˈpætɪnə/"
+    },
+    {
+      "phrase": "the material",
+      "meaningVi": "vật liệu, chất liệu",
+      "pronunciation": "/məˈtɪəriəl/"
+    },
+    {
+      "phrase": "continuity",
+      "meaningVi": "tính liên tục, sự nối tiếp",
+      "pronunciation": "/ˌkɒntɪˈnjuːəti/"
+    },
+    {
+      "phrase": "identity",
+      "meaningVi": "căn tính, sự đồng nhất bản thể",
+      "pronunciation": "/aɪˈdentəti/"
+    },
+    {
+      "phrase": "the artefact",
+      "meaningVi": "hiện vật, đồ tạo tác",
+      "pronunciation": "/ˈɑːtɪfækt/"
+    },
+    {
+      "phrase": "to decay",
+      "meaningVi": "mục nát, suy tàn",
+      "pronunciation": "/dɪˈkeɪ/"
+    },
+    {
+      "phrase": "to weather",
+      "meaningVi": "phong hoá, dãi dầu mưa nắng",
+      "pronunciation": "/ˈweðə/"
+    },
+    {
+      "phrase": "the replica",
+      "meaningVi": "bản sao y hệt",
+      "pronunciation": "/ˈreplɪkə/"
+    },
+    {
+      "phrase": "the timber",
+      "meaningVi": "gỗ xây dựng",
+      "pronunciation": "/ˈtɪmbə/"
+    },
+    {
+      "phrase": "to enshrine",
+      "meaningVi": "thờ phụng, lưu giữ trang trọng"
+    },
+    {
+      "phrase": "ritual renewal",
+      "meaningVi": "sự đổi mới mang tính nghi lễ"
+    },
+    {
+      "phrase": "transmission",
+      "meaningVi": "sự truyền lại (kỹ năng, truyền thống)",
+      "pronunciation": "/trænzˈmɪʃn/"
+    },
+    {
+      "phrase": "craftsmanship",
+      "meaningVi": "tay nghề thủ công"
+    },
+    {
+      "phrase": "the carpenter",
+      "meaningVi": "người thợ mộc"
+    },
+    {
+      "phrase": "to embody",
+      "meaningVi": "hiện thân, chứa đựng",
+      "pronunciation": "/ɪmˈbɒdi/"
+    },
+    {
+      "phrase": "the substrate",
+      "meaningVi": "phần nền vật chất, cái nền tảng",
+      "pronunciation": "/ˈsʌbstreɪt/"
+    },
+    {
+      "phrase": "to persist",
+      "meaningVi": "tồn tại dai dẳng, kéo dài",
+      "pronunciation": "/pəˈsɪst/"
+    },
+    {
+      "phrase": "to venerate",
+      "meaningVi": "tôn kính, sùng kính",
+      "pronunciation": "/ˈvenəreɪt/"
+    },
+    {
+      "phrase": "the ruin",
+      "meaningVi": "phế tích, di tích đổ nát",
+      "pronunciation": "/ˈruːɪn/"
+    },
+    {
+      "phrase": "to fetishise",
+      "meaningVi": "tôn sùng thái quá, biến thành vật thờ",
+      "pronunciation": "/ˈfetɪʃaɪz/"
+    },
+    {
+      "phrase": "the metaphysics of objects",
+      "meaningVi": "siêu hình học về sự vật"
+    },
+    {
+      "phrase": "to be one and the same",
+      "meaningVi": "là cùng một và duy nhất"
+    },
+    {
+      "phrase": "a category mistake",
+      "meaningVi": "một sự nhầm lẫn phạm trù"
+    },
+    {
+      "phrase": "to outlast",
+      "meaningVi": "tồn tại lâu hơn"
+    },
+    {
+      "phrase": "the locus",
+      "meaningVi": "vị trí, nơi chốn (của cái gì đó)",
+      "pronunciation": "/ˈləʊkəs/"
+    }
+  ],
+  "sampleText": "Every twenty years, at Ise in Japan, the inner shrine is pulled down. Beside it, on an empty adjoining plot, an exact copy has been raised from new cypress by carpenters using joints their predecessors used, and the deity is moved across into the fresh building while the old one is dismantled and gone. The shrine that stands today is, in one sense, a few years old. In another, it is the same shrine that has stood for thirteen centuries. Both descriptions are true, and the discomfort an outsider feels in holding them together is, I think, the most useful thing the place has to teach.\n\nThe European instinct runs the other way, and runs deep. We guard the original fabric at almost any cost. A Gothic cathedral is venerated partly because the stone you touch is the stone medieval hands cut; we preserve the weathering, the patina, the very wear, because the matter itself is taken to be the bearer of the building's age and therefore of its truth. Replace too much of it and the conservators grow uneasy: at some threshold, they feel, it stops being the cathedral and becomes a replica of one. It took me a while to see that this unease rests on an assumption rather than a fact — the assumption that the identity of the thing lives in its material substrate, so that when the matter goes, the thing goes with it.\n\nIse denies exactly that assumption, and denies it on purpose. There, the building's identity is not lodged in any particular timber, all of which is sworn to perish, but in the unbroken practice of rebuilding — in the carpenters' skill passed hand to hand across forty generations, in the act of renewal performed on time, every time. The matter is deliberately impermanent so that the transmission can be permanent. What persists is not the wood but the knowing-how, and the shrine is 'old' in the only sense its tradition cares about: the chain of remaking has never once been broken. By that standard the cathedral, for all its ancient stone, is arguably the more fragile thing, because the craft that raised it died centuries ago and could not now be reproduced. The stone survives; the making did not.\n\nIt would be too neat, though, to declare Ise simply right and the European conservator simply confused. The strongest version of the conservator's case is not a crude fetish for old matter. It is the claim that some things genuinely are their material — that a relic, a battlefield, a particular tree are valuable precisely as this stuff in this place, witnesses that were physically present to what they commemorate, and that a perfect copy, however reverent, severs the one thread that mattered: contact. A replica of the cross is not the cross. Move the argument to objects whose whole point is to have been there, and the European instinct stops looking provincial and starts looking exactly right. So the disagreement is not really about preservation technique. It is about which kind of thing a given object is — whether its value lies in continuity of matter or in continuity of practice — and that is a question you cannot answer in general.\n\nSo I will not split the difference, because splitting it hides the real finding. The finding is that 'the same building' is not one question but two that we have carelessly fused. There is sameness of matter and there is sameness of practice, and an object can score high on one and low on the other. The mistake — and it is a category mistake, not a mere preference — is to assume every object must locate its identity in the same place. Ise teaches that for some things the locus of continuity is an act, faithfully repeated, and that to demand original matter of such a thing is to misunderstand what kind of thing it is. The cathedral teaches the converse for relics and witnesses, where the matter is the meaning and a copy, however exact, quietly lies.\n\nWhere this leaves me is less tidy than either tradition alone, and more honest. Before asking how to preserve a thing, I now think we are obliged to ask the prior question Ise forces and the cathedral lets us dodge: in which does this thing's identity actually reside — its substance or its remaking? Get that wrong, and our most careful conservation preserves the wrong thing. We can embalm the timber of a shrine whose soul was the rebuilding, or chase a perfect replica of a relic whose soul was the contact, and in either case stand guard, with great devotion, over a corpse — having mistaken the body for the life that was the point of keeping it.",
+  "sampleAnnotations": [
+    {
+      "phrase": "an exact copy has been raised from new cypress by carpenters using joints their predecessors used",
+      "meaningVi": "một bản sao y hệt được dựng lên từ gỗ bách mới bởi những người thợ mộc dùng đúng các mối ghép mà tiền nhân của họ từng dùng"
+    },
+    {
+      "phrase": "the deity is moved across into the fresh building while the old one is dismantled and gone",
+      "meaningVi": "vị thần được rước sang toà nhà mới tinh trong khi toà nhà cũ bị tháo dỡ và biến mất"
+    },
+    {
+      "phrase": "The shrine that stands today is, in one sense, a few years old",
+      "meaningVi": "Ngôi đền đang đứng đó hôm nay, theo một nghĩa, chỉ mới vài năm tuổi"
+    },
+    {
+      "phrase": "it is the same shrine that has stood for thirteen centuries",
+      "meaningVi": "nó là cùng một ngôi đền đã đứng đó suốt mười ba thế kỷ"
+    },
+    {
+      "phrase": "the discomfort an outsider feels in holding them together",
+      "meaningVi": "sự khó chịu mà một người ngoài cuộc cảm thấy khi phải giữ cả hai điều ấy cùng nhau"
+    },
+    {
+      "phrase": "We guard the original fabric at almost any cost",
+      "meaningVi": "Ta canh giữ phần vật liệu nguyên gốc bằng gần như mọi giá"
+    },
+    {
+      "phrase": "the stone you touch is the stone medieval hands cut",
+      "meaningVi": "viên đá bạn chạm vào chính là viên đá những bàn tay thời trung cổ đã đẽo"
+    },
+    {
+      "phrase": "the matter itself is taken to be the bearer of the building's age and therefore of its truth",
+      "meaningVi": "bản thân vật chất được coi là cái mang trong nó tuổi tác của toà nhà và do đó là sự thật của nó"
+    },
+    {
+      "phrase": "it stops being the cathedral and becomes a replica of one",
+      "meaningVi": "nó thôi không còn là nhà thờ chính toà nữa mà trở thành một bản sao của một nhà thờ"
+    },
+    {
+      "phrase": "the assumption that the identity of the thing lives in its material substrate",
+      "meaningVi": "cái giả định rằng căn tính của sự vật nằm trong cái nền vật chất của nó"
+    },
+    {
+      "phrase": "Ise denies exactly that assumption, and denies it on purpose",
+      "meaningVi": "Ise phủ nhận chính cái giả định ấy, và phủ nhận một cách có chủ ý"
+    },
+    {
+      "phrase": "in the unbroken practice of rebuilding",
+      "meaningVi": "trong cái thực hành xây dựng lại không hề đứt đoạn"
+    },
+    {
+      "phrase": "The matter is deliberately impermanent so that the transmission can be permanent",
+      "meaningVi": "Vật chất được cố ý làm cho vô thường để cho sự truyền lại có thể trường tồn"
+    },
+    {
+      "phrase": "What persists is not the wood but the knowing-how",
+      "meaningVi": "Cái tồn tại dai dẳng không phải là gỗ mà là cái biết-làm-thế-nào"
+    },
+    {
+      "phrase": "the chain of remaking has never once been broken",
+      "meaningVi": "cái chuỗi tái tạo chưa từng một lần bị đứt"
+    },
+    {
+      "phrase": "the cathedral, for all its ancient stone, is arguably the more fragile thing",
+      "meaningVi": "nhà thờ chính toà, bất chấp tất cả lớp đá cổ kính của nó, lại có thể coi là thứ mong manh hơn"
+    },
+    {
+      "phrase": "The stone survives; the making did not",
+      "meaningVi": "Đá thì còn sống sót; còn việc làm ra nó thì không"
+    },
+    {
+      "phrase": "It would be too neat, though, to declare Ise simply right and the European conservator simply confused",
+      "meaningVi": "Tuy nhiên sẽ quá gọn gàng nếu tuyên bố Ise đơn giản là đúng còn nhà bảo tồn châu Âu đơn giản là lú lẫn"
+    },
+    {
+      "phrase": "It is the claim that some things genuinely are their material",
+      "meaningVi": "Đó là khẳng định rằng có những thứ thực sự chính là vật chất của chúng"
+    },
+    {
+      "phrase": "witnesses that were physically present to what they commemorate",
+      "meaningVi": "những chứng nhân từng hiện diện về mặt vật lý với cái mà chúng tưởng niệm"
+    },
+    {
+      "phrase": "a perfect copy, however reverent, severs the one thread that mattered: contact",
+      "meaningVi": "một bản sao hoàn hảo, dù có thành kính đến đâu, cũng cắt đứt cái sợi chỉ duy nhất quan trọng: sự tiếp xúc"
+    },
+    {
+      "phrase": "the European instinct stops looking provincial and starts looking exactly right",
+      "meaningVi": "cái bản năng châu Âu thôi không còn vẻ tỉnh lẻ nữa mà bắt đầu có vẻ hoàn toàn đúng"
+    },
+    {
+      "phrase": "It is about which kind of thing a given object is",
+      "meaningVi": "Nó là về việc một vật cho trước thuộc loại thứ gì"
+    },
+    {
+      "phrase": "'the same building' is not one question but two that we have carelessly fused",
+      "meaningVi": "'cùng một toà nhà' không phải một câu hỏi mà là hai câu hỏi mà ta đã cẩu thả gộp làm một"
+    },
+    {
+      "phrase": "an object can score high on one and low on the other",
+      "meaningVi": "một vật có thể đạt điểm cao ở mặt này và thấp ở mặt kia"
+    },
+    {
+      "phrase": "it is a category mistake, not a mere preference",
+      "meaningVi": "đó là một sự nhầm lẫn phạm trù, chứ không phải chỉ là một sở thích"
+    },
+    {
+      "phrase": "the locus of continuity is an act, faithfully repeated",
+      "meaningVi": "nơi chốn của tính liên tục là một hành động, được lặp lại một cách trung thành"
+    },
+    {
+      "phrase": "in which does this thing's identity actually reside — its substance or its remaking?",
+      "meaningVi": "căn tính của thứ này thực ra trú ngụ ở đâu — ở vật chất của nó hay ở việc tái tạo nó?"
+    },
+    {
+      "phrase": "our most careful conservation preserves the wrong thing",
+      "meaningVi": "công tác bảo tồn cẩn thận nhất của ta lại gìn giữ nhầm thứ"
+    },
+    {
+      "phrase": "having mistaken the body for the life that was the point of keeping it",
+      "meaningVi": "vì đã nhầm cái thân xác với cái sự sống vốn mới là lý do để gìn giữ nó"
+    }
+  ],
+  "sampleGrammarNotes": [
+    {
+      "title": "Splitting one question into two to dissolve a false dispute",
+      "bodyVi": "Câu \"'the same building' is not one question but two that we have carelessly fused\" thực hiện một bước lập luận C1 điển hình: thay vì chọn phe trong một cuộc tranh cãi, tác giả chỉ ra rằng câu hỏi gốc thực ra là hai câu hỏi bị trộn lẫn (sameness of matter và sameness of practice). Tách một khái niệm thành các phạm trù riêng biệt cho phép 'hoà giải' bằng cách phân biệt, chứ không phải bằng cách thoả hiệp nửa vời.",
+      "bodyEn": "The sentence \"'the same building' is not one question but two that we have carelessly fused\" performs a characteristic C1 move: rather than picking a side in a dispute, the writer shows that the original question is really two questions conflated (sameness of matter versus sameness of practice). Splitting one concept into distinct categories lets the essay 'resolve' by distinguishing, not by a limp compromise."
+    },
+    {
+      "title": "Extended metaphor as the closing argument",
+      "bodyVi": "Đoạn kết dùng phép ẩn dụ kéo dài 'corpse / body / the life that was the point' để chốt lập luận: bảo tồn nhầm chỗ giống như đứng canh một cái xác mà tưởng đó là sự sống. Ở C1, một ẩn dụ được nuôi dưỡng và bung ra đúng lúc kết bài có thể cô đọng cả luận điểm trừu tượng thành một hình ảnh nhớ được, mạnh hơn một câu kết luận trực tiếp.",
+      "bodyEn": "The closing paragraph uses an extended metaphor — 'corpse / body / the life that was the point' — to clinch the argument: misplaced preservation is like guarding a body while mistaking it for the life. At C1, a metaphor nurtured and released at the close can compress an abstract thesis into one memorable image, hitting harder than a flat concluding statement."
+    }
+  ],
+  "sampleTranslationVi": "Cứ hai mươi năm một lần, tại Ise ở Nhật Bản, ngôi đền bên trong lại bị tháo dỡ. Ngay bên cạnh nó, trên một mảnh đất kề liền bỏ trống, một bản sao y hệt được dựng lên từ gỗ bách mới bởi những người thợ mộc dùng đúng các mối ghép mà tiền nhân của họ từng dùng, và vị thần được rước sang toà nhà mới tinh trong khi toà nhà cũ bị tháo dỡ và biến mất. Ngôi đền đang đứng đó hôm nay, theo một nghĩa, chỉ mới vài năm tuổi. Theo một nghĩa khác, nó là cùng một ngôi đền đã đứng đó suốt mười ba thế kỷ. Cả hai cách mô tả đều đúng, và sự khó chịu mà một người ngoài cuộc cảm thấy khi phải giữ cả hai điều ấy cùng nhau, tôi nghĩ, là điều hữu ích nhất mà nơi này có thể dạy ta.\n\nCái bản năng châu Âu chạy theo hướng ngược lại, và chạy rất sâu. Ta canh giữ phần vật liệu nguyên gốc bằng gần như mọi giá. Một nhà thờ chính toà kiểu Gothic được tôn kính một phần bởi viên đá bạn chạm vào chính là viên đá những bàn tay thời trung cổ đã đẽo; ta gìn giữ sự phong hoá, lớp rêu phong thời gian, chính cái sự mòn vẹt ấy, bởi bản thân vật chất được coi là cái mang trong nó tuổi tác của toà nhà và do đó là sự thật của nó. Thay thế quá nhiều phần vật liệu đó đi thì các nhà bảo tồn đâm ra bồn chồn: đến một ngưỡng nào đó, họ cảm thấy, nó thôi không còn là nhà thờ chính toà nữa mà trở thành một bản sao của một nhà thờ. Tôi phải mất một lúc mới thấy ra rằng nỗi bồn chồn này dựa trên một giả định chứ không phải một sự thật — cái giả định rằng căn tính của sự vật nằm trong cái nền vật chất của nó, đến mức khi vật chất mất đi thì sự vật cũng mất theo.\n\nIse phủ nhận chính cái giả định ấy, và phủ nhận một cách có chủ ý. Ở đó, căn tính của toà nhà không trú ngụ trong bất kỳ thanh gỗ cụ thể nào, vốn tất thảy đều được tuyên thệ là sẽ mục nát, mà nằm trong cái thực hành xây dựng lại không hề đứt đoạn — trong tay nghề của những người thợ mộc được truyền tay nhau qua bốn mươi thế hệ, trong cái hành động đổi mới được thực hiện đúng kỳ hạn, mỗi kỳ. Vật chất được cố ý làm cho vô thường để cho sự truyền lại có thể trường tồn. Cái tồn tại dai dẳng không phải là gỗ mà là cái biết-làm-thế-nào, và ngôi đền 'cổ' theo cái nghĩa duy nhất mà truyền thống của nó để tâm tới: cái chuỗi tái tạo chưa từng một lần bị đứt. Theo chuẩn ấy thì nhà thờ chính toà, bất chấp tất cả lớp đá cổ kính của nó, lại có thể coi là thứ mong manh hơn, bởi cái nghề đã dựng nên nó đã chết từ bao thế kỷ trước và giờ đây không thể nào tái tạo lại được. Đá thì còn sống sót; còn việc làm ra nó thì không.\n\nTuy nhiên sẽ quá gọn gàng nếu tuyên bố Ise đơn giản là đúng còn nhà bảo tồn châu Âu đơn giản là lú lẫn. Phiên bản mạnh nhất của lý lẽ nhà bảo tồn không phải là một sự tôn sùng thô thiển dành cho vật chất cũ. Đó là khẳng định rằng có những thứ thực sự chính là vật chất của chúng — rằng một thánh tích, một chiến trường, một cái cây cụ thể có giá trị chính vì là cái vật chất này tại nơi chốn này, những chứng nhân từng hiện diện về mặt vật lý với cái mà chúng tưởng niệm, và rằng một bản sao hoàn hảo, dù có thành kính đến đâu, cũng cắt đứt cái sợi chỉ duy nhất quan trọng: sự tiếp xúc. Một bản sao của cây thánh giá không phải là cây thánh giá. Đưa lập luận sang những vật mà toàn bộ ý nghĩa của chúng là đã-từng-ở-đó, thì cái bản năng châu Âu thôi không còn vẻ tỉnh lẻ nữa mà bắt đầu có vẻ hoàn toàn đúng. Vậy nên sự bất đồng này thực ra không phải về kỹ thuật bảo tồn. Nó là về việc một vật cho trước thuộc loại thứ gì — liệu giá trị của nó nằm ở tính liên tục của vật chất hay ở tính liên tục của thực hành — và đó là câu hỏi không thể trả lời một cách chung chung.\n\nVậy nên tôi sẽ không hoà giải bằng cách chia đôi, bởi chia đôi sẽ che giấu mất cái phát hiện thật sự. Phát hiện ấy là 'cùng một toà nhà' không phải một câu hỏi mà là hai câu hỏi mà ta đã cẩu thả gộp làm một. Có sự đồng nhất về vật chất và có sự đồng nhất về thực hành, và một vật có thể đạt điểm cao ở mặt này và thấp ở mặt kia. Sai lầm — và đó là một sự nhầm lẫn phạm trù, chứ không phải chỉ là một sở thích — là giả định rằng mọi vật đều phải định vị căn tính của mình ở cùng một chỗ. Ise dạy rằng với một số thứ, nơi chốn của tính liên tục là một hành động, được lặp lại một cách trung thành, và rằng đòi hỏi vật chất nguyên gốc ở một thứ như thế là hiểu sai nó thuộc loại nào. Nhà thờ chính toà dạy điều ngược lại đối với các thánh tích và chứng nhân, nơi vật chất chính là ý nghĩa và một bản sao, dù có chính xác đến đâu, cũng lặng lẽ nói dối.\n\nĐiều này đặt tôi vào một chỗ kém gọn gàng hơn so với mỗi truyền thống đứng riêng, và trung thực hơn. Trước khi hỏi làm thế nào để gìn giữ một thứ, giờ tôi nghĩ ta có bổn phận phải hỏi cái câu hỏi đến trước mà Ise buộc ta phải hỏi còn nhà thờ chính toà thì cho phép ta né tránh: căn tính của thứ này thực ra trú ngụ ở đâu — ở vật chất của nó hay ở việc tái tạo nó? Trả lời sai điều đó, thì công tác bảo tồn cẩn thận nhất của ta lại gìn giữ nhầm thứ. Ta có thể ướp xác phần gỗ của một ngôi đền mà linh hồn của nó vốn là việc xây dựng lại, hoặc đuổi theo một bản sao hoàn hảo của một thánh tích mà linh hồn của nó vốn là sự tiếp xúc, và trong cả hai trường hợp đều đứng canh, với một lòng sùng kính lớn lao, một cái xác — vì đã nhầm cái thân xác với cái sự sống vốn mới là lý do để gìn giữ nó.",
+  "mcQuestions": [
+    {
+      "id": "q1",
+      "prompt": "What is the essay's qualified central claim?",
+      "options": [
+        "Ise is right and European conservation is simply confused.",
+        "'The same building' is two conflated questions — sameness of matter and sameness of practice — and which one an object's identity rests on depends on what kind of thing it is.",
+        "All buildings should be rebuilt every twenty years.",
+        "Original material is always what matters most."
+      ],
+      "answerIndex": 1,
+      "explanation": "The fifth paragraph splits the question into sameness of matter and of practice, refusing to locate identity in the same place for every object.",
+      "hint": "The writer refuses to 'split the difference' — what does he find instead?"
+    },
+    {
+      "id": "q2",
+      "prompt": "What assumption does the essay say the European conservation instinct rests on?",
+      "options": [
+        "That new buildings are always better.",
+        "That stone lasts longer than wood.",
+        "That the identity of a thing lives in its material substrate, so that when the matter goes, the thing goes too.",
+        "That copies are cheaper than originals."
+      ],
+      "answerIndex": 2,
+      "explanation": "The second paragraph names the assumption that 'the identity of the thing lives in its material substrate.'",
+      "hint": "Where does the conservator assume the thing's identity is lodged?"
+    },
+    {
+      "id": "q3",
+      "prompt": "According to the essay, where does Ise locate the shrine's continuity?",
+      "options": [
+        "In the oldest surviving timber.",
+        "In the deity rather than the building.",
+        "In the empty adjoining plot.",
+        "In the unbroken practice of rebuilding — the carpenters' skill passed across forty generations — not in any particular wood."
+      ],
+      "answerIndex": 3,
+      "explanation": "The third paragraph: identity lies 'in the unbroken practice of rebuilding,' so 'the transmission can be permanent.'",
+      "hint": "What persists at Ise — the wood, or the knowing-how?"
+    },
+    {
+      "id": "q4",
+      "prompt": "Why does the essay call the cathedral 'arguably the more fragile thing'?",
+      "options": [
+        "Because the craft that raised it died centuries ago and could not now be reproduced — the stone survives but the making did not.",
+        "Because stone cracks more easily than wood.",
+        "Because cathedrals are taller than shrines.",
+        "Because no one visits cathedrals anymore."
+      ],
+      "answerIndex": 0,
+      "explanation": "The third paragraph: 'the craft that raised it died … The stone survives; the making did not.'",
+      "hint": "What was lost in the cathedral that endures at Ise?"
+    },
+    {
+      "id": "q5",
+      "prompt": "Which option best matches the essay's hedged, argumentative register?",
+      "options": [
+        "Westerners are obsessed with old rocks and totally miss the point.",
+        "It took me a while to see that this unease rests on an assumption rather than a fact.",
+        "Old buildings, new buildings, who really cares anyway.",
+        "Pursuant to heritage doctrine, original fabric shall be retained in perpetuity."
+      ],
+      "answerIndex": 1,
+      "explanation": "Option B observes carefully and hedges; A is a sneer, C dismisses, D is jargon.",
+      "hint": "Look for the measured, self-correcting observation."
+    },
+    {
+      "id": "q6",
+      "prompt": "Which sentence splits one question into two to dissolve a false dispute, as in the grammar notes?",
+      "options": [
+        "The shrine is rebuilt every twenty years from new cypress.",
+        "Because the wood perishes, the practice persists.",
+        "'The same building' is not one question but two that we have carelessly fused.",
+        "The cathedral is made of ancient stone."
+      ],
+      "answerIndex": 2,
+      "explanation": "Option B reveals that one question is really two conflated ones — the distinguishing move described in the notes.",
+      "hint": "Which option shows a single question is really two?"
+    },
+    {
+      "id": "q7",
+      "prompt": "Which option uses the best cohesion to continue 'It would be too neat to say that the shrine and the cathedral simply value different things;'?",
+      "options": [
+        "shrines and cathedrals are both religious buildings.",
+        "also, Ise is located in Mie Prefecture, Japan.",
+        "in today's globalised world, cultures often clash.",
+        "what they disagree about is really which kind of thing a given object is."
+      ],
+      "answerIndex": 3,
+      "explanation": "Option B completes the 'too neat … really' turn that drives the essay's deeper diagnosis; the others are definitional or cliché.",
+      "hint": "The clause rejects an easy reading — what is the real disagreement?"
+    },
+    {
+      "id": "q8",
+      "prompt": "What is the strongest version of the conservator's case, as the essay presents it?",
+      "options": [
+        "That some objects genuinely are their material — relics and witnesses whose value is contact, which a perfect copy severs.",
+        "That old things look more beautiful than new ones.",
+        "That copies are always cheaper and easier.",
+        "That Japanese carpentry is inferior to European masonry."
+      ],
+      "answerIndex": 0,
+      "explanation": "The fourth paragraph grants that for relics and witnesses, 'the matter is the meaning,' and contact is the thread a copy cuts.",
+      "hint": "For what kind of object does the European instinct look 'exactly right'?"
+    },
+    {
+      "id": "q9",
+      "prompt": "Which paraphrase is closest to 'The matter is deliberately impermanent so that the transmission can be permanent'?",
+      "options": [
+        "The wood is made to last as long as possible.",
+        "The materials are intentionally allowed to perish precisely so that the skill of remaking is what endures.",
+        "Nothing at Ise is meant to survive at all.",
+        "Permanence and impermanence are the same thing."
+      ],
+      "answerIndex": 1,
+      "explanation": "The line states the paradox: perishable matter enables a permanent transmission of craft; B captures it.",
+      "hint": "What is sacrificed so that the skill can endure?"
+    },
+    {
+      "id": "q10",
+      "prompt": "Which sentence best matches the essay's concrete opening method?",
+      "options": [
+        "Preservation raises deep philosophical questions about identity.",
+        "There are two ways to preserve a building over time.",
+        "Every twenty years, at Ise in Japan, the inner shrine is pulled down and built again from new cypress.",
+        "Throughout history, cultures have honoured their sacred sites."
+      ],
+      "answerIndex": 2,
+      "explanation": "Option B opens with the specific, concrete practice at Ise; the others announce the theme abstractly.",
+      "hint": "Which option shows the actual rebuilding rather than naming the topic?"
+    },
+    {
+      "id": "q11",
+      "prompt": "Why does the essay refuse to 'split the difference' between the two traditions?",
+      "options": [
+        "Because compromise is always cowardly.",
+        "Because Ise is obviously correct.",
+        "Because the cathedral is obviously correct.",
+        "Because splitting it would hide the real finding — that identity can reside in matter for some things and in practice for others."
+      ],
+      "answerIndex": 3,
+      "explanation": "The fifth paragraph: 'I will not split the difference, because splitting it hides the real finding.'",
+      "hint": "What would a compromise conceal about the two kinds of sameness?"
+    },
+    {
+      "id": "q12",
+      "prompt": "Which option is grammatical, on-topic, and matches the essay's tone?",
+      "options": [
+        "What persists is not the wood but the knowing-how, and the chain of remaking has never once been broken.",
+        "Basically the Japanese just keep rebuilding the thing forever, kinda wild.",
+        "Henceforth shrine reconstruction shall proceed per vicennial protocol.",
+        "Everyone knows old buildings are pointless once they're rebuilt."
+      ],
+      "answerIndex": 0,
+      "explanation": "Option B is precise and concrete; A is slang, C is jargon, D is a sweeping unsupported claim.",
+      "hint": "Match the careful, concrete, argumentative voice."
+    },
+    {
+      "id": "q13",
+      "prompt": "What does the essay's closing metaphor of guarding 'a corpse' warn against?",
+      "options": [
+        "Neglecting buildings until they collapse.",
+        "Preserving the wrong thing — the mere body — after mistaking it for the life (the practice or the contact) that was the real point.",
+        "Burying sacred objects underground.",
+        "Spending too much money on conservation."
+      ],
+      "answerIndex": 1,
+      "explanation": "The final paragraph: misplaced devotion guards 'a corpse,' having 'mistaken the body for the life that was the point.'",
+      "hint": "What is preserved if we keep the body but lose the life?"
+    },
+    {
+      "id": "q14",
+      "prompt": "Which sentence uses an extended metaphor to clinch the argument, as in the grammar notes?",
+      "options": [
+        "The shrine is made of cypress and the cathedral of stone.",
+        "Conservation is an important and difficult discipline.",
+        "We can embalm the timber of a shrine whose soul was the rebuilding, and stand guard over a corpse, having mistaken the body for the life.",
+        "Ise is rebuilt; the cathedral is restored."
+      ],
+      "answerIndex": 2,
+      "explanation": "Option A develops the embalm/corpse/body/life metaphor to land the thesis — the device described in the notes.",
+      "hint": "Which option carries one sustained image through to the point?"
+    },
+    {
+      "id": "q15",
+      "prompt": "Which option preserves the essay's refusal to merely compromise?",
+      "options": [
+        "Both traditions are equally right, so the answer is somewhere in the middle.",
+        "Neither tradition has anything to teach us.",
+        "We should always preserve original material when possible.",
+        "Before asking how to preserve a thing, we must ask the prior question: in which does its identity reside — its substance or its remaking?"
+      ],
+      "answerIndex": 3,
+      "explanation": "Option B states the essay's actual finding — a prior diagnostic question — rather than a limp midpoint.",
+      "hint": "Look for the option that reframes the question rather than averaging the two views."
+    },
+    {
+      "id": "q16",
+      "prompt": "Which paraphrase is closest to 'a perfect copy, however reverent, severs the one thread that mattered: contact'?",
+      "options": [
+        "Even a faithful copy cuts the single crucial link — having physically been present — that gave the original its meaning.",
+        "An exact replica is better because it is undamaged.",
+        "Copies and originals are interchangeable.",
+        "Contact between objects is irrelevant to value."
+      ],
+      "answerIndex": 0,
+      "explanation": "The line argues that for witnesses, physical contact is the meaning a copy cannot carry; B captures this.",
+      "hint": "What 'thread' does a copy of a relic break?"
+    }
+  ],
+  "criticalThinkingQuestion": "Think of something you would want preserved after you are gone — a recipe, a house, a song, a way of doing something. Does its real identity live in the original physical thing or in the act of someone remaking it faithfully? If you had to choose between an embalmed original that no one knows how to use and a living practice with no original matter left, which would you call the 'real' one — and what does your answer reveal about what you were trying to keep?"
+}

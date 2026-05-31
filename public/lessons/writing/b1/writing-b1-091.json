@@ -3,7 +3,11 @@
   "level": "B1",
   "title": "A rooftop garden that solved two problems at once",
   "summary": "Explain how a rooftop garden project in a city solved both a practical environmental problem and an unexpected social one, and argue whether cities should invest more in this kind of infrastructure.",
-  "tags": ["Sustainability", "Urban life", "Technology"],
+  "tags": [
+    "Sustainability",
+    "Urban life",
+    "Technology"
+  ],
   "topic": "How a rooftop garden solved a practical and a social problem",
   "prompt": "Write 3 paragraphs (400–500 words) explaining how a rooftop garden or green roof project solved more than one problem — for example, reducing heat in the building below while also creating a space for people to meet. You can describe a real example or invent a plausible one. Use the present perfect to describe what the project has achieved, modals to talk about what other cities could do, and a conditional to speculate about outcomes.",
   "minWords": 400,
@@ -14,49 +18,171 @@
     "If more landlords were required to install green roofs, urban areas would…"
   ],
   "hintVocab": [
-    { "phrase": "a rooftop garden", "meaningVi": "vườn trên sân thượng" },
-    { "phrase": "a green roof", "meaningVi": "mái nhà xanh (có cây trồng)" },
-    { "phrase": "urban heat island", "meaningVi": "đảo nhiệt đô thị" },
-    { "phrase": "to insulate a building", "meaningVi": "cách nhiệt cho tòa nhà" },
-    { "phrase": "to reduce energy consumption", "meaningVi": "giảm tiêu thụ năng lượng" },
-    { "phrase": "rainwater retention", "meaningVi": "giữ lại nước mưa" },
-    { "phrase": "to absorb heat", "meaningVi": "hấp thụ nhiệt" },
-    { "phrase": "a shared outdoor space", "meaningVi": "không gian ngoài trời chung" },
-    { "phrase": "to foster community", "meaningVi": "nuôi dưỡng tinh thần cộng đồng" },
-    { "phrase": "to grow vegetables", "meaningVi": "trồng rau củ" },
-    { "phrase": "to lower the ambient temperature", "meaningVi": "hạ nhiệt độ môi trường xung quanh" },
-    { "phrase": "biodiversity", "meaningVi": "đa dạng sinh học", "pronunciation": "/ˌbaɪəʊdaɪˈvɜːrsɪti/" },
-    { "phrase": "to pollinate", "meaningVi": "thụ phấn" },
-    { "phrase": "a pilot project", "meaningVi": "một dự án thí điểm" },
-    { "phrase": "to scale up", "meaningVi": "mở rộng quy mô" },
-    { "phrase": "structural load", "meaningVi": "tải trọng kết cấu" },
-    { "phrase": "to require maintenance", "meaningVi": "đòi hỏi bảo trì" },
-    { "phrase": "to run-off", "meaningVi": "nước chảy tràn bề mặt" },
-    { "phrase": "to convert unused space", "meaningVi": "chuyển đổi không gian bỏ không" },
-    { "phrase": "a mixed-use building", "meaningVi": "tòa nhà đa năng" }
+    {
+      "phrase": "a rooftop garden",
+      "meaningVi": "vườn trên sân thượng"
+    },
+    {
+      "phrase": "a green roof",
+      "meaningVi": "mái nhà xanh (có cây trồng)"
+    },
+    {
+      "phrase": "urban heat island",
+      "meaningVi": "đảo nhiệt đô thị"
+    },
+    {
+      "phrase": "to insulate a building",
+      "meaningVi": "cách nhiệt cho tòa nhà"
+    },
+    {
+      "phrase": "to reduce energy consumption",
+      "meaningVi": "giảm tiêu thụ năng lượng"
+    },
+    {
+      "phrase": "rainwater retention",
+      "meaningVi": "giữ lại nước mưa"
+    },
+    {
+      "phrase": "to absorb heat",
+      "meaningVi": "hấp thụ nhiệt"
+    },
+    {
+      "phrase": "a shared outdoor space",
+      "meaningVi": "không gian ngoài trời chung"
+    },
+    {
+      "phrase": "to foster community",
+      "meaningVi": "nuôi dưỡng tinh thần cộng đồng"
+    },
+    {
+      "phrase": "to grow vegetables",
+      "meaningVi": "trồng rau củ"
+    },
+    {
+      "phrase": "to lower the ambient temperature",
+      "meaningVi": "hạ nhiệt độ môi trường xung quanh"
+    },
+    {
+      "phrase": "biodiversity",
+      "meaningVi": "đa dạng sinh học",
+      "pronunciation": "/ˌbaɪəʊdaɪˈvɜːrsɪti/"
+    },
+    {
+      "phrase": "to pollinate",
+      "meaningVi": "thụ phấn"
+    },
+    {
+      "phrase": "a pilot project",
+      "meaningVi": "một dự án thí điểm"
+    },
+    {
+      "phrase": "to scale up",
+      "meaningVi": "mở rộng quy mô"
+    },
+    {
+      "phrase": "structural load",
+      "meaningVi": "tải trọng kết cấu"
+    },
+    {
+      "phrase": "to require maintenance",
+      "meaningVi": "đòi hỏi bảo trì"
+    },
+    {
+      "phrase": "to run-off",
+      "meaningVi": "nước chảy tràn bề mặt"
+    },
+    {
+      "phrase": "to convert unused space",
+      "meaningVi": "chuyển đổi không gian bỏ không"
+    },
+    {
+      "phrase": "a mixed-use building",
+      "meaningVi": "tòa nhà đa năng"
+    }
   ],
   "sampleText": "In the summer of 2019, a block of residential flats in Singapore installed a rooftop garden on its unused top floor. The building was old — a twelve-storey concrete block built in the 1970s, the kind that cities often demolish rather than improve. The flat roof had absorbed heat for decades, pushing up air conditioning costs for every resident below. The garden — a combination of raised vegetable beds, a small grassed area, and a pergola with climbing plants — was primarily funded as an energy-saving measure. The city had offered a subsidy to buildings that reduced their cooling load, and the landlord applied.\n\nWhat the garden has done over the past five years goes beyond the original energy goal. The landlord kept records through the first year and found that the changes were measurable within months. Temperatures in the top-floor flats have dropped by a measured three degrees in summer, which has reduced air conditioning use significantly. But what nobody predicted was the social effect. The garden has become a place where residents from different floors meet two or three times a week to water the vegetables, share seeds, and sit in the shade. The building had previously had almost no interaction between neighbours — people arrived home, went inside, and locked their doors. Now there is a waiting list for the weekly gardening slots. The landlord has reported that tenant turnover has fallen since the garden opened, which has more than paid back the installation cost.\n\nThis outcome suggests something worth noting: the most useful urban sustainability projects are not always the ones that solve only a technical problem. Green roofs and rooftop gardens could be installed on a far larger proportion of city buildings than they currently are, and if this were made easier through planning permission reform, the benefits would compound quickly. A city with a significant percentage of green roofs would be cooler, would absorb more rainwater during heavy rain events, would produce some of its own food, and — if the Singapore example is anything to go by — would likely be a less lonely place to live. The barrier is not technology, which has been available and reliable for years. It is not even cost, which in most cases tends to be recovered within five to ten years through energy savings alone. The barrier is the assumption that a roof is only a roof.",
   "sampleAnnotations": [
-    { "phrase": "unused top floor", "meaningVi": "tầng trên cùng bỏ không" },
-    { "phrase": "had absorbed heat for decades", "meaningVi": "đã hấp thụ nhiệt trong nhiều thập kỷ" },
-    { "phrase": "pushing up air conditioning costs", "meaningVi": "đẩy chi phí điều hòa lên cao" },
-    { "phrase": "raised vegetable beds", "meaningVi": "những luống rau trồng cao" },
-    { "phrase": "a pergola with climbing plants", "meaningVi": "giàn leo với cây leo", "pronunciation": "/ˈpɜːrɡələ/" },
-    { "phrase": "an energy-saving measure", "meaningVi": "một biện pháp tiết kiệm năng lượng" },
-    { "phrase": "their cooling load", "meaningVi": "tải lạnh của họ, nhu cầu làm mát của họ" },
-    { "phrase": "what nobody predicted", "meaningVi": "điều mà không ai dự đoán" },
-    { "phrase": "a waiting list for the weekly gardening slots", "meaningVi": "danh sách chờ cho các suất làm vườn hàng tuần" },
-    { "phrase": "tenant turnover", "meaningVi": "tỷ lệ người thuê thay thế" },
-    { "phrase": "has more than paid back the installation cost", "meaningVi": "đã hoàn trả hơn chi phí lắp đặt" },
-    { "phrase": "a technical problem", "meaningVi": "một vấn đề kỹ thuật" },
-    { "phrase": "a far larger proportion of city buildings", "meaningVi": "một tỷ lệ lớn hơn nhiều của các tòa nhà thành phố" },
-    { "phrase": "planning permission reform", "meaningVi": "cải cách cấp phép quy hoạch" },
-    { "phrase": "the benefits would compound quickly", "meaningVi": "lợi ích sẽ nhân lên nhanh chóng" },
-    { "phrase": "absorb more rainwater", "meaningVi": "hấp thụ nhiều nước mưa hơn" },
-    { "phrase": "if the Singapore example is anything to go by", "meaningVi": "nếu lấy ví dụ Singapore làm thước đo" },
-    { "phrase": "a less lonely place to live", "meaningVi": "một nơi ít cô đơn hơn để sống" },
-    { "phrase": "available and reliable", "meaningVi": "sẵn có và đáng tin cậy" },
-    { "phrase": "a roof is only a roof", "meaningVi": "một mái nhà chỉ là một mái nhà" }
+    {
+      "phrase": "unused top floor",
+      "meaningVi": "tầng trên cùng bỏ không"
+    },
+    {
+      "phrase": "had absorbed heat for decades",
+      "meaningVi": "đã hấp thụ nhiệt trong nhiều thập kỷ"
+    },
+    {
+      "phrase": "pushing up air conditioning costs",
+      "meaningVi": "đẩy chi phí điều hòa lên cao"
+    },
+    {
+      "phrase": "raised vegetable beds",
+      "meaningVi": "những luống rau trồng cao"
+    },
+    {
+      "phrase": "a pergola with climbing plants",
+      "meaningVi": "giàn leo với cây leo",
+      "pronunciation": "/ˈpɜːrɡələ/"
+    },
+    {
+      "phrase": "an energy-saving measure",
+      "meaningVi": "một biện pháp tiết kiệm năng lượng"
+    },
+    {
+      "phrase": "their cooling load",
+      "meaningVi": "tải lạnh của họ, nhu cầu làm mát của họ"
+    },
+    {
+      "phrase": "what nobody predicted",
+      "meaningVi": "điều mà không ai dự đoán"
+    },
+    {
+      "phrase": "a waiting list for the weekly gardening slots",
+      "meaningVi": "danh sách chờ cho các suất làm vườn hàng tuần"
+    },
+    {
+      "phrase": "tenant turnover",
+      "meaningVi": "tỷ lệ người thuê thay thế"
+    },
+    {
+      "phrase": "has more than paid back the installation cost",
+      "meaningVi": "đã hoàn trả hơn chi phí lắp đặt"
+    },
+    {
+      "phrase": "a technical problem",
+      "meaningVi": "một vấn đề kỹ thuật"
+    },
+    {
+      "phrase": "a far larger proportion of city buildings",
+      "meaningVi": "một tỷ lệ lớn hơn nhiều của các tòa nhà thành phố"
+    },
+    {
+      "phrase": "planning permission reform",
+      "meaningVi": "cải cách cấp phép quy hoạch"
+    },
+    {
+      "phrase": "the benefits would compound quickly",
+      "meaningVi": "lợi ích sẽ nhân lên nhanh chóng"
+    },
+    {
+      "phrase": "absorb more rainwater",
+      "meaningVi": "hấp thụ nhiều nước mưa hơn"
+    },
+    {
+      "phrase": "if the Singapore example is anything to go by",
+      "meaningVi": "nếu lấy ví dụ Singapore làm thước đo"
+    },
+    {
+      "phrase": "a less lonely place to live",
+      "meaningVi": "một nơi ít cô đơn hơn để sống"
+    },
+    {
+      "phrase": "available and reliable",
+      "meaningVi": "sẵn có và đáng tin cậy"
+    },
+    {
+      "phrase": "a roof is only a roof",
+      "meaningVi": "một mái nhà chỉ là một mái nhà"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -76,12 +202,12 @@
       "id": "q1",
       "prompt": "Which sentence correctly uses the present perfect to describe accumulated results over a time period?",
       "options": [
-        "What the garden has done over the past five years goes beyond the original goal.",
         "What the garden did over the past five years goes beyond the original goal.",
         "What the garden have done over the past five years goes beyond the original goal.",
-        "What the garden has been done over the past five years goes beyond the original goal."
+        "What the garden has been done over the past five years goes beyond the original goal.",
+        "What the garden has done over the past five years goes beyond the original goal."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'The garden' is singular so 'has done' is correct. 'Did' (simple past) suggests it is no longer relevant. 'Have done' is plural. 'Has been done' makes it passive — the garden did not have things done to it, it did things.",
       "hint": "The subject 'the garden' is singular and active — choose 'has done', not the passive 'has been done'."
     },
@@ -102,12 +228,12 @@
       "id": "q3",
       "prompt": "Which sentence uses a second conditional passive correctly in the 'if' clause?",
       "options": [
-        "If this were made easier through policy reform, the benefits would compound.",
         "If this was made easier through policy reform, the benefits would compound.",
+        "If this were made easier through policy reform, the benefits would compound.",
         "If this would be made easier through policy reform, the benefits would compound.",
         "If this is made easier through policy reform, the benefits would compound."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "Formal second conditional passive uses 'were' (subjunctive) not 'was'. 'Would be made' in the 'if' clause is incorrect — modals don't appear in the 'if' clause. Using present simple 'is made' with 'would' mixes first and second conditional.",
       "hint": "In formal second conditionals, use 'were' (not 'was') in the passive 'if' clause."
     },
@@ -115,12 +241,12 @@
       "id": "q4",
       "prompt": "Which sentence correctly uses 'could' to describe potential action that is not happening now?",
       "options": [
-        "Green roofs could be installed on a far larger proportion of city buildings.",
         "Green roofs can be installed on a far larger proportion of city buildings.",
         "Green roofs could install on a far larger proportion of city buildings.",
+        "Green roofs could be installed on a far larger proportion of city buildings.",
         "Green roofs should installed on a far larger proportion of city buildings."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Could be installed' (modal passive) expresses a potential that is not currently happening. 'Can be installed' is also grammatically correct but less hypothetical — it suggests it's actually possible to do, not that it's an underused possibility. 'Could install' drops the passive. 'Should installed' is missing 'be'.",
       "hint": "'Could be installed' implies a currently unrealised potential; 'can be installed' implies a present capability."
     },
@@ -128,12 +254,12 @@
       "id": "q5",
       "prompt": "Which sentence correctly uses 'has reported' as a verb of attribution?",
       "options": [
-        "The landlord has reported that tenant turnover has fallen.",
         "The landlord reported that tenant turnover has fallen.",
         "The landlord has reported that tenant turnover fallen.",
-        "The landlord has reported that tenant turnover have fallen."
+        "The landlord has reported that tenant turnover have fallen.",
+        "The landlord has reported that tenant turnover has fallen."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'Has reported' (present perfect) with a present perfect in the reported clause ('has fallen') is natural when the relevance extends to the present. Simple past 'reported' is also possible but slightly more distant. 'Turnover fallen' omits the auxiliary. 'Turnover have fallen' has wrong agreement ('turnover' is singular).",
       "hint": "'Tenant turnover' is a singular concept — use 'has fallen', not 'have fallen'."
     },
@@ -154,12 +280,12 @@
       "id": "q7",
       "prompt": "Which sentence correctly uses 'has more than paid back' as a phrasal verb?",
       "options": [
-        "The reduced turnover has more than paid back the installation cost.",
         "The reduced turnover has more than payed back the installation cost.",
+        "The reduced turnover has more than paid back the installation cost.",
         "The reduced turnover has more than paid the installation cost back.",
         "The reduced turnover more than has paid back the installation cost."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'Pay back' has the past participle 'paid' — 'payed' is non-standard for this meaning. 'Paid the installation cost back' (split phrasal verb) is possible but less natural with a long noun phrase. 'More than has paid back' inverts the normal auxiliary-adverb order.",
       "hint": "The past participle of 'pay' is 'paid', not 'payed', in financial contexts."
     },
@@ -167,12 +293,12 @@
       "id": "q8",
       "prompt": "Which sentence uses 'beyond' correctly as a preposition after a verb?",
       "options": [
-        "The outcome goes beyond what was originally planned.",
         "The outcome goes over what was originally planned.",
         "The outcome goes past what was originally planned.",
+        "The outcome goes beyond what was originally planned.",
         "The outcome goes through what was originally planned."
       ],
-      "answerIndex": 0,
+      "answerIndex": 2,
       "explanation": "'Goes beyond' means exceeds or surpasses in scope. 'Goes over' can mean review or exceed a limit numerically but is less natural for abstract scope. 'Goes past' is more physical. 'Goes through' means to examine or experience, not to exceed.",
       "hint": "For the meaning of 'exceeds in scope or ambition', the correct preposition is 'beyond'."
     },
@@ -180,12 +306,12 @@
       "id": "q9",
       "prompt": "Which sentence correctly uses 'primarily' as an adverb?",
       "options": [
-        "The garden was primarily funded as an energy-saving measure.",
         "The garden was primary funded as an energy-saving measure.",
         "The garden primarily was funded as an energy-saving measure.",
-        "The garden was funded primarily for an energy-saving measure."
+        "The garden was funded primarily for an energy-saving measure.",
+        "The garden was primarily funded as an energy-saving measure."
       ],
-      "answerIndex": 0,
+      "answerIndex": 3,
       "explanation": "'Primarily' (adverb) modifies 'funded' and sits naturally between the auxiliary and the main verb in the passive. 'Primary' is an adjective and cannot modify a verb. Placing 'primarily' before 'was' is awkward. 'Primarily for' changes the meaning to 'for the purpose of', whereas 'as' describes the role.",
       "hint": "Use the adverb form 'primarily' (not 'primary') to modify a past participle."
     },
@@ -206,12 +332,12 @@
       "id": "q11",
       "prompt": "Which sentence correctly uses 'assumption' with a 'that' clause?",
       "options": [
-        "The barrier is the assumption that a roof is only a roof.",
         "The barrier is the assumption of that a roof is only a roof.",
+        "The barrier is the assumption that a roof is only a roof.",
         "The barrier is the assumption which a roof is only a roof.",
         "The barrier is the assumption about that a roof is only a roof."
       ],
-      "answerIndex": 0,
+      "answerIndex": 1,
       "explanation": "'The assumption that + clause' is the standard noun-complement construction. 'Assumption of that' adds an incorrect preposition before 'that'. 'Assumption which' uses a relative pronoun instead of the complementiser 'that'. 'Assumption about that' is also incorrect.",
       "hint": "Abstract nouns like 'assumption', 'idea', 'belief' take a 'that' clause without a preceding preposition."
     }

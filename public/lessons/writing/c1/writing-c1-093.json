@@ -3,7 +3,11 @@
   "level": "C1",
   "title": "What the shortcut took",
   "summary": "Reflect on what quietly disappears when we make a ritual efficient — the grandmother's two-hour coffee reduced to a single button — and ask whether the wasted steps we keep cutting were the part that did the work all along.",
-  "tags": ["Reflection", "Time", "Ritual"],
+  "tags": [
+    "Reflection",
+    "Time",
+    "Ritual"
+  ],
   "topic": "What is lost when a ritual is made more efficient",
   "prompt": "Write a 600–800-word reflective essay on what is quietly lost when a ritual is optimised for speed, distinguishing a real loss from mere sentimentality. Ground the reflection in two concrete situations and address one serious objection before limiting it. Use inversion, nominalization, and hedged claims (it may be that…, what tends to happen…).",
   "minWords": 600,
@@ -14,73 +18,284 @@
     "It would be easy to confuse this with mere sentimentality, a fondness for old inconvenience. Yet something more specific is being lost, and naming it requires us to look past the…"
   ],
   "hintVocab": [
-    {"phrase": "a ritual", "meaningVi": "một nghi thức, một lề thói trang trọng", "pronunciation": "/ˈrɪtʃuəl/"},
-    {"phrase": "to optimise", "meaningVi": "tối ưu hoá", "pronunciation": "/ˈɒptɪmaɪz/"},
-    {"phrase": "ceremony", "meaningVi": "nghi lễ, sự long trọng", "pronunciation": "/ˈserəməni/"},
-    {"phrase": "the friction", "meaningVi": "ma sát, trở ngại, sự vướng víu"},
-    {"phrase": "deliberate", "meaningVi": "có chủ ý, thong thả cân nhắc", "pronunciation": "/dɪˈlɪbərət/"},
-    {"phrase": "redundant", "meaningVi": "dư thừa, không cần thiết", "pronunciation": "/rɪˈdʌndənt/"},
-    {"phrase": "to streamline", "meaningVi": "tinh giản, làm cho gọn nhẹ và nhanh"},
-    {"phrase": "the overhead", "meaningVi": "chi phí phụ trội, phần công sức dôi ra"},
-    {"phrase": "to consecrate", "meaningVi": "làm cho thiêng liêng, dâng hiến", "pronunciation": "/ˈkɒnsɪkreɪt/"},
-    {"phrase": "anticipation", "meaningVi": "sự mong chờ, háo hức trước", "pronunciation": "/ænˌtɪsɪˈpeɪʃən/"},
-    {"phrase": "to mark a threshold", "meaningVi": "đánh dấu một ngưỡng chuyển (sang trạng thái khác)"},
-    {"phrase": "a transition", "meaningVi": "một sự chuyển tiếp", "pronunciation": "/trænˈzɪʃən/"},
-    {"phrase": "sacred", "meaningVi": "thiêng liêng", "pronunciation": "/ˈseɪkrɪd/"},
-    {"phrase": "the mundane", "meaningVi": "cái tầm thường, cái thường nhật", "pronunciation": "/mʌnˈdeɪn/"},
-    {"phrase": "to imbue", "meaningVi": "thấm đẫm, truyền vào (ý nghĩa)", "pronunciation": "/ɪmˈbjuː/"},
-    {"phrase": "sentimentality", "meaningVi": "tính uỷ mị, đa cảm thái quá", "pronunciation": "/ˌsentɪmenˈtæləti/"},
-    {"phrase": "to romanticise", "meaningVi": "lãng mạn hoá, tô hồng", "pronunciation": "/rəʊˈmæntɪsaɪz/"},
-    {"phrase": "drudgery", "meaningVi": "việc lao dịch nhàm chán, cực nhọc", "pronunciation": "/ˈdrʌdʒəri/"},
-    {"phrase": "instrumental", "meaningVi": "mang tính công cụ, chỉ là phương tiện", "pronunciation": "/ˌɪnstrəˈmentl/"},
-    {"phrase": "an end in itself", "meaningVi": "một mục đích tự thân, có giá trị riêng nó"},
-    {"phrase": "to hollow out", "meaningVi": "moi rỗng, làm trống ruột"},
-    {"phrase": "a by-product", "meaningVi": "sản phẩm phụ, cái sinh ra kèm theo"},
-    {"phrase": "attentiveness", "meaningVi": "sự chú tâm, lòng để ý", "pronunciation": "/əˈtentɪvnəs/"},
-    {"phrase": "to dignify", "meaningVi": "làm cho có phẩm giá, nâng tầm", "pronunciation": "/ˈdɪɡnɪfaɪ/"},
-    {"phrase": "perfunctory", "meaningVi": "qua loa, làm cho có lệ", "pronunciation": "/pəˈfʌŋktəri/"},
-    {"phrase": "a steeping", "meaningVi": "sự ngâm ủ, quá trình ngấm dần"},
-    {"phrase": "to elapse", "meaningVi": "trôi qua (thời gian)", "pronunciation": "/ɪˈlæps/"},
-    {"phrase": "communal", "meaningVi": "thuộc về cộng đồng, chung", "pronunciation": "/kəˈmjuːnl/"},
-    {"phrase": "to reinstate", "meaningVi": "khôi phục lại, lập lại như cũ", "pronunciation": "/ˌriːɪnˈsteɪt/"},
-    {"phrase": "a vestige", "meaningVi": "vết tích, dấu còn sót lại", "pronunciation": "/ˈvestɪdʒ/"},
-    {"phrase": "to discern", "meaningVi": "nhận ra, phân biệt rõ", "pronunciation": "/dɪˈsɜːn/"},
-    {"phrase": "frictionless", "meaningVi": "không có ma sát, trơn tru không trở ngại"}
+    {
+      "phrase": "a ritual",
+      "meaningVi": "một nghi thức, một lề thói trang trọng",
+      "pronunciation": "/ˈrɪtʃuəl/"
+    },
+    {
+      "phrase": "to optimise",
+      "meaningVi": "tối ưu hoá",
+      "pronunciation": "/ˈɒptɪmaɪz/"
+    },
+    {
+      "phrase": "ceremony",
+      "meaningVi": "nghi lễ, sự long trọng",
+      "pronunciation": "/ˈserəməni/"
+    },
+    {
+      "phrase": "the friction",
+      "meaningVi": "ma sát, trở ngại, sự vướng víu"
+    },
+    {
+      "phrase": "deliberate",
+      "meaningVi": "có chủ ý, thong thả cân nhắc",
+      "pronunciation": "/dɪˈlɪbərət/"
+    },
+    {
+      "phrase": "redundant",
+      "meaningVi": "dư thừa, không cần thiết",
+      "pronunciation": "/rɪˈdʌndənt/"
+    },
+    {
+      "phrase": "to streamline",
+      "meaningVi": "tinh giản, làm cho gọn nhẹ và nhanh"
+    },
+    {
+      "phrase": "the overhead",
+      "meaningVi": "chi phí phụ trội, phần công sức dôi ra"
+    },
+    {
+      "phrase": "to consecrate",
+      "meaningVi": "làm cho thiêng liêng, dâng hiến",
+      "pronunciation": "/ˈkɒnsɪkreɪt/"
+    },
+    {
+      "phrase": "anticipation",
+      "meaningVi": "sự mong chờ, háo hức trước",
+      "pronunciation": "/ænˌtɪsɪˈpeɪʃən/"
+    },
+    {
+      "phrase": "to mark a threshold",
+      "meaningVi": "đánh dấu một ngưỡng chuyển (sang trạng thái khác)"
+    },
+    {
+      "phrase": "a transition",
+      "meaningVi": "một sự chuyển tiếp",
+      "pronunciation": "/trænˈzɪʃən/"
+    },
+    {
+      "phrase": "sacred",
+      "meaningVi": "thiêng liêng",
+      "pronunciation": "/ˈseɪkrɪd/"
+    },
+    {
+      "phrase": "the mundane",
+      "meaningVi": "cái tầm thường, cái thường nhật",
+      "pronunciation": "/mʌnˈdeɪn/"
+    },
+    {
+      "phrase": "to imbue",
+      "meaningVi": "thấm đẫm, truyền vào (ý nghĩa)",
+      "pronunciation": "/ɪmˈbjuː/"
+    },
+    {
+      "phrase": "sentimentality",
+      "meaningVi": "tính uỷ mị, đa cảm thái quá",
+      "pronunciation": "/ˌsentɪmenˈtæləti/"
+    },
+    {
+      "phrase": "to romanticise",
+      "meaningVi": "lãng mạn hoá, tô hồng",
+      "pronunciation": "/rəʊˈmæntɪsaɪz/"
+    },
+    {
+      "phrase": "drudgery",
+      "meaningVi": "việc lao dịch nhàm chán, cực nhọc",
+      "pronunciation": "/ˈdrʌdʒəri/"
+    },
+    {
+      "phrase": "instrumental",
+      "meaningVi": "mang tính công cụ, chỉ là phương tiện",
+      "pronunciation": "/ˌɪnstrəˈmentl/"
+    },
+    {
+      "phrase": "an end in itself",
+      "meaningVi": "một mục đích tự thân, có giá trị riêng nó"
+    },
+    {
+      "phrase": "to hollow out",
+      "meaningVi": "moi rỗng, làm trống ruột"
+    },
+    {
+      "phrase": "a by-product",
+      "meaningVi": "sản phẩm phụ, cái sinh ra kèm theo"
+    },
+    {
+      "phrase": "attentiveness",
+      "meaningVi": "sự chú tâm, lòng để ý",
+      "pronunciation": "/əˈtentɪvnəs/"
+    },
+    {
+      "phrase": "to dignify",
+      "meaningVi": "làm cho có phẩm giá, nâng tầm",
+      "pronunciation": "/ˈdɪɡnɪfaɪ/"
+    },
+    {
+      "phrase": "perfunctory",
+      "meaningVi": "qua loa, làm cho có lệ",
+      "pronunciation": "/pəˈfʌŋktəri/"
+    },
+    {
+      "phrase": "a steeping",
+      "meaningVi": "sự ngâm ủ, quá trình ngấm dần"
+    },
+    {
+      "phrase": "to elapse",
+      "meaningVi": "trôi qua (thời gian)",
+      "pronunciation": "/ɪˈlæps/"
+    },
+    {
+      "phrase": "communal",
+      "meaningVi": "thuộc về cộng đồng, chung",
+      "pronunciation": "/kəˈmjuːnl/"
+    },
+    {
+      "phrase": "to reinstate",
+      "meaningVi": "khôi phục lại, lập lại như cũ",
+      "pronunciation": "/ˌriːɪnˈsteɪt/"
+    },
+    {
+      "phrase": "a vestige",
+      "meaningVi": "vết tích, dấu còn sót lại",
+      "pronunciation": "/ˈvestɪdʒ/"
+    },
+    {
+      "phrase": "to discern",
+      "meaningVi": "nhận ra, phân biệt rõ",
+      "pronunciation": "/dɪˈsɜːn/"
+    },
+    {
+      "phrase": "frictionless",
+      "meaningVi": "không có ma sát, trơn tru không trở ngại"
+    }
   ],
-  "sampleText": "Only when the last unnecessary step was gone did I notice that the unnecessary step had been the point, and by then there was nothing left to put back. My grandmother in Addis Ababa made coffee the long way: green beans roasted on a pan over coals, the smoke carried around the room so each person could breathe it, the grounds brewed three times in a clay jebena while the talk went nowhere in particular. It took two hours. When the single-serve machine arrived, the same coffee — better coffee, by any measure of the cup — appeared at the press of a button, and the two hours were returned to us as a gift. We did not notice, for a while, that the gift was the loss.\n\nThe efficiency was real, and that is exactly the difficulty. Nothing in the cup was worse; what vanished was everything around the cup. The roasting had been an excuse to sit; the waiting had been the conversation's container; the small inconveniences had quietly organised an afternoon into a shape, and when they were removed the afternoon lost its shape and dispersed into errands. What tends to happen when a ritual is optimised is that the part you measure improves and the part you cannot measure disappears — and because it disappears silently, you blame its absence on something else.\n\nThis is the strange logic of ritual: its inefficiency is not a flaw to be tolerated but the mechanism by which it works. The steps a stopwatch would call waste are the steps that mark the threshold, that turn a drink into an occasion and a Tuesday into something. To make the ritual efficient is to remove precisely the friction that was doing the work, on the reasonable-sounding theory that the friction was in the way. It was not in the way. It was the way.\n\nThe second case is smaller and more common. A friend told me her family had stopped saying anything before meals — no grace, no toast, not even a pause — because it slowed everyone down and the food got cold. The objection is unanswerable on its own terms: the pause is, strictly, inefficient. But the pause had been the only moment in the day when seven people looked at the same thing at the same time. Cut it, and the meal becomes refuelling. Keep it, and the meal stays a meeting. Nothing in the calories changed; the entire difference lived in the wasted ten seconds.\n\nHere the serious objection deserves its hearing, because not every cut is a loss and pretending otherwise is just nostalgia wearing a serious face. Plenty of rituals are dead weight — observances continued out of habit long after their meaning has drained away, kept going by guilt rather than by anything they still do. To optimise those is not vandalism but honesty; clearing them out can make room for the living ones. A ritual that no longer marks anything is not protected by being slow, and to defend every inconvenience as sacred would be to mistake mere age for meaning. Some friction really is just friction.\n\nYet this concession, fair as it is, sharpens rather than blunts the point. The danger is not that we will keep dead rituals but that we will kill living ones with a tool that cannot tell the two apart. Efficiency is blind to meaning by design; it can see the minutes a step costs but never the work the step is quietly doing, and so it cuts the living and the dead with the same clean confidence. The discipline, then, is not to refuse all optimisation but to insist on asking, before each cut, a question the stopwatch cannot answer: is this step in the way, or is this step the way?\n\nMy grandmother's machine still works, and the coffee is still better. We use it most mornings, and that is the right call for a morning. But on the afternoons that are supposed to be afternoons, we have started roasting the beans again — slowly, wastefully, on purpose — not because the slow coffee tastes better but because the slowness was never about the coffee. Rarely is the shortcut as free as it looks; more often it quietly bills us for the very thing we were trying to save."
-,
+  "sampleText": "Only when the last unnecessary step was gone did I notice that the unnecessary step had been the point, and by then there was nothing left to put back. My grandmother in Addis Ababa made coffee the long way: green beans roasted on a pan over coals, the smoke carried around the room so each person could breathe it, the grounds brewed three times in a clay jebena while the talk went nowhere in particular. It took two hours. When the single-serve machine arrived, the same coffee — better coffee, by any measure of the cup — appeared at the press of a button, and the two hours were returned to us as a gift. We did not notice, for a while, that the gift was the loss.\n\nThe efficiency was real, and that is exactly the difficulty. Nothing in the cup was worse; what vanished was everything around the cup. The roasting had been an excuse to sit; the waiting had been the conversation's container; the small inconveniences had quietly organised an afternoon into a shape, and when they were removed the afternoon lost its shape and dispersed into errands. What tends to happen when a ritual is optimised is that the part you measure improves and the part you cannot measure disappears — and because it disappears silently, you blame its absence on something else.\n\nThis is the strange logic of ritual: its inefficiency is not a flaw to be tolerated but the mechanism by which it works. The steps a stopwatch would call waste are the steps that mark the threshold, that turn a drink into an occasion and a Tuesday into something. To make the ritual efficient is to remove precisely the friction that was doing the work, on the reasonable-sounding theory that the friction was in the way. It was not in the way. It was the way.\n\nThe second case is smaller and more common. A friend told me her family had stopped saying anything before meals — no grace, no toast, not even a pause — because it slowed everyone down and the food got cold. The objection is unanswerable on its own terms: the pause is, strictly, inefficient. But the pause had been the only moment in the day when seven people looked at the same thing at the same time. Cut it, and the meal becomes refuelling. Keep it, and the meal stays a meeting. Nothing in the calories changed; the entire difference lived in the wasted ten seconds.\n\nHere the serious objection deserves its hearing, because not every cut is a loss and pretending otherwise is just nostalgia wearing a serious face. Plenty of rituals are dead weight — observances continued out of habit long after their meaning has drained away, kept going by guilt rather than by anything they still do. To optimise those is not vandalism but honesty; clearing them out can make room for the living ones. A ritual that no longer marks anything is not protected by being slow, and to defend every inconvenience as sacred would be to mistake mere age for meaning. Some friction really is just friction.\n\nYet this concession, fair as it is, sharpens rather than blunts the point. The danger is not that we will keep dead rituals but that we will kill living ones with a tool that cannot tell the two apart. Efficiency is blind to meaning by design; it can see the minutes a step costs but never the work the step is quietly doing, and so it cuts the living and the dead with the same clean confidence. The discipline, then, is not to refuse all optimisation but to insist on asking, before each cut, a question the stopwatch cannot answer: is this step in the way, or is this step the way?\n\nMy grandmother's machine still works, and the coffee is still better. We use it most mornings, and that is the right call for a morning. But on the afternoons that are supposed to be afternoons, we have started roasting the beans again — slowly, wastefully, on purpose — not because the slow coffee tastes better but because the slowness was never about the coffee. Rarely is the shortcut as free as it looks; more often it quietly bills us for the very thing we were trying to save.",
   "sampleAnnotations": [
-    {"phrase": "Only when the last unnecessary step was gone did I notice that the unnecessary step had been the point", "meaningVi": "Chỉ khi bước thừa cuối cùng biến mất thì tôi mới nhận ra cái bước thừa ấy mới chính là điều cốt yếu"},
-    {"phrase": "by then there was nothing left to put back", "meaningVi": "lúc đó thì chẳng còn gì để đặt lại vào chỗ cũ nữa"},
-    {"phrase": "the talk went nowhere in particular", "meaningVi": "câu chuyện cứ trôi chẳng đến đâu cụ thể"},
-    {"phrase": "the two hours were returned to us as a gift", "meaningVi": "hai tiếng đồng hồ được trả lại cho chúng tôi như một món quà"},
-    {"phrase": "the gift was the loss", "meaningVi": "món quà ấy chính là sự mất mát"},
-    {"phrase": "what vanished was everything around the cup", "meaningVi": "cái biến mất là tất cả những gì bao quanh tách cà phê"},
-    {"phrase": "the waiting had been the conversation's container", "meaningVi": "sự chờ đợi vốn là cái khuôn chứa cho câu chuyện"},
-    {"phrase": "the afternoon lost its shape and dispersed into errands", "meaningVi": "buổi chiều mất đi hình hài và tan ra thành những việc vặt"},
-    {"phrase": "the part you measure improves and the part you cannot measure disappears", "meaningVi": "phần bạn đo được thì tốt lên còn phần bạn không đo được thì biến mất"},
-    {"phrase": "its inefficiency is not a flaw to be tolerated but the mechanism by which it works", "meaningVi": "sự kém hiệu quả của nó không phải khuyết điểm phải chịu đựng mà là cơ chế giúp nó vận hành"},
-    {"phrase": "turn a drink into an occasion and a Tuesday into something", "meaningVi": "biến một thức uống thành một dịp và một ngày thứ Ba thành một điều gì đó"},
-    {"phrase": "remove precisely the friction that was doing the work", "meaningVi": "loại bỏ đúng cái ma sát vốn đang làm nên công việc ấy"},
-    {"phrase": "It was not in the way. It was the way", "meaningVi": "Nó không phải thứ cản đường. Nó chính là con đường"},
-    {"phrase": "The objection is unanswerable on its own terms", "meaningVi": "Lời phản bác đó là không thể bắt bẻ nếu xét theo lý lẽ riêng của nó"},
-    {"phrase": "the meal becomes refuelling", "meaningVi": "bữa ăn trở thành việc tiếp nhiên liệu"},
-    {"phrase": "Keep it, and the meal stays a meeting", "meaningVi": "Giữ nó lại, thì bữa ăn vẫn là một cuộc gặp gỡ"},
-    {"phrase": "the entire difference lived in the wasted ten seconds", "meaningVi": "toàn bộ sự khác biệt nằm trong mười giây bị phí phạm ấy"},
-    {"phrase": "not every cut is a loss and pretending otherwise is just nostalgia wearing a serious face", "meaningVi": "không phải mọi sự cắt bỏ đều là mất mát, và giả vờ ngược lại chỉ là nỗi hoài niệm đeo lên một gương mặt nghiêm túc"},
-    {"phrase": "observances continued out of habit long after their meaning has drained away", "meaningVi": "những nghi thức được duy trì theo thói quen từ lâu sau khi ý nghĩa của chúng đã cạn kiệt"},
-    {"phrase": "To optimise those is not vandalism but honesty", "meaningVi": "Tối ưu hoá những thứ đó không phải sự phá hoại mà là sự trung thực"},
-    {"phrase": "to mistake mere age for meaning", "meaningVi": "nhầm lẫn tuổi tác đơn thuần với ý nghĩa"},
-    {"phrase": "Some friction really is just friction", "meaningVi": "Có những ma sát đúng là chỉ là ma sát mà thôi"},
-    {"phrase": "this concession, fair as it is, sharpens rather than blunts the point", "meaningVi": "sự nhượng bộ này, dẫu công bằng, lại làm sắc bén thêm chứ không làm cùn đi luận điểm"},
-    {"phrase": "we will kill living ones with a tool that cannot tell the two apart", "meaningVi": "ta sẽ giết chết những nghi thức còn sống bằng một công cụ không phân biệt nổi hai loại"},
-    {"phrase": "Efficiency is blind to meaning by design", "meaningVi": "Hiệu suất, theo bản chất thiết kế, mù trước ý nghĩa"},
-    {"phrase": "it cuts the living and the dead with the same clean confidence", "meaningVi": "nó cắt cả cái sống lẫn cái chết với cùng một sự tự tin gọn ghẽ"},
-    {"phrase": "is this step in the way, or is this step the way", "meaningVi": "bước này là thứ cản đường, hay bước này chính là con đường"},
-    {"phrase": "slowly, wastefully, on purpose", "meaningVi": "chậm rãi, phí phạm, một cách có chủ ý"},
-    {"phrase": "the slowness was never about the coffee", "meaningVi": "sự chậm rãi chưa bao giờ là vì cà phê cả"},
-    {"phrase": "Rarely is the shortcut as free as it looks", "meaningVi": "Hiếm khi lối tắt lại miễn phí như vẻ ngoài của nó"},
-    {"phrase": "it quietly bills us for the very thing we were trying to save", "meaningVi": "nó lặng lẽ tính phí ta đúng cái thứ mà ta đang cố giữ lại"}
+    {
+      "phrase": "Only when the last unnecessary step was gone did I notice that the unnecessary step had been the point",
+      "meaningVi": "Chỉ khi bước thừa cuối cùng biến mất thì tôi mới nhận ra cái bước thừa ấy mới chính là điều cốt yếu"
+    },
+    {
+      "phrase": "by then there was nothing left to put back",
+      "meaningVi": "lúc đó thì chẳng còn gì để đặt lại vào chỗ cũ nữa"
+    },
+    {
+      "phrase": "the talk went nowhere in particular",
+      "meaningVi": "câu chuyện cứ trôi chẳng đến đâu cụ thể"
+    },
+    {
+      "phrase": "the two hours were returned to us as a gift",
+      "meaningVi": "hai tiếng đồng hồ được trả lại cho chúng tôi như một món quà"
+    },
+    {
+      "phrase": "the gift was the loss",
+      "meaningVi": "món quà ấy chính là sự mất mát"
+    },
+    {
+      "phrase": "what vanished was everything around the cup",
+      "meaningVi": "cái biến mất là tất cả những gì bao quanh tách cà phê"
+    },
+    {
+      "phrase": "the waiting had been the conversation's container",
+      "meaningVi": "sự chờ đợi vốn là cái khuôn chứa cho câu chuyện"
+    },
+    {
+      "phrase": "the afternoon lost its shape and dispersed into errands",
+      "meaningVi": "buổi chiều mất đi hình hài và tan ra thành những việc vặt"
+    },
+    {
+      "phrase": "the part you measure improves and the part you cannot measure disappears",
+      "meaningVi": "phần bạn đo được thì tốt lên còn phần bạn không đo được thì biến mất"
+    },
+    {
+      "phrase": "its inefficiency is not a flaw to be tolerated but the mechanism by which it works",
+      "meaningVi": "sự kém hiệu quả của nó không phải khuyết điểm phải chịu đựng mà là cơ chế giúp nó vận hành"
+    },
+    {
+      "phrase": "turn a drink into an occasion and a Tuesday into something",
+      "meaningVi": "biến một thức uống thành một dịp và một ngày thứ Ba thành một điều gì đó"
+    },
+    {
+      "phrase": "remove precisely the friction that was doing the work",
+      "meaningVi": "loại bỏ đúng cái ma sát vốn đang làm nên công việc ấy"
+    },
+    {
+      "phrase": "It was not in the way. It was the way",
+      "meaningVi": "Nó không phải thứ cản đường. Nó chính là con đường"
+    },
+    {
+      "phrase": "The objection is unanswerable on its own terms",
+      "meaningVi": "Lời phản bác đó là không thể bắt bẻ nếu xét theo lý lẽ riêng của nó"
+    },
+    {
+      "phrase": "the meal becomes refuelling",
+      "meaningVi": "bữa ăn trở thành việc tiếp nhiên liệu"
+    },
+    {
+      "phrase": "Keep it, and the meal stays a meeting",
+      "meaningVi": "Giữ nó lại, thì bữa ăn vẫn là một cuộc gặp gỡ"
+    },
+    {
+      "phrase": "the entire difference lived in the wasted ten seconds",
+      "meaningVi": "toàn bộ sự khác biệt nằm trong mười giây bị phí phạm ấy"
+    },
+    {
+      "phrase": "not every cut is a loss and pretending otherwise is just nostalgia wearing a serious face",
+      "meaningVi": "không phải mọi sự cắt bỏ đều là mất mát, và giả vờ ngược lại chỉ là nỗi hoài niệm đeo lên một gương mặt nghiêm túc"
+    },
+    {
+      "phrase": "observances continued out of habit long after their meaning has drained away",
+      "meaningVi": "những nghi thức được duy trì theo thói quen từ lâu sau khi ý nghĩa của chúng đã cạn kiệt"
+    },
+    {
+      "phrase": "To optimise those is not vandalism but honesty",
+      "meaningVi": "Tối ưu hoá những thứ đó không phải sự phá hoại mà là sự trung thực"
+    },
+    {
+      "phrase": "to mistake mere age for meaning",
+      "meaningVi": "nhầm lẫn tuổi tác đơn thuần với ý nghĩa"
+    },
+    {
+      "phrase": "Some friction really is just friction",
+      "meaningVi": "Có những ma sát đúng là chỉ là ma sát mà thôi"
+    },
+    {
+      "phrase": "this concession, fair as it is, sharpens rather than blunts the point",
+      "meaningVi": "sự nhượng bộ này, dẫu công bằng, lại làm sắc bén thêm chứ không làm cùn đi luận điểm"
+    },
+    {
+      "phrase": "we will kill living ones with a tool that cannot tell the two apart",
+      "meaningVi": "ta sẽ giết chết những nghi thức còn sống bằng một công cụ không phân biệt nổi hai loại"
+    },
+    {
+      "phrase": "Efficiency is blind to meaning by design",
+      "meaningVi": "Hiệu suất, theo bản chất thiết kế, mù trước ý nghĩa"
+    },
+    {
+      "phrase": "it cuts the living and the dead with the same clean confidence",
+      "meaningVi": "nó cắt cả cái sống lẫn cái chết với cùng một sự tự tin gọn ghẽ"
+    },
+    {
+      "phrase": "is this step in the way, or is this step the way",
+      "meaningVi": "bước này là thứ cản đường, hay bước này chính là con đường"
+    },
+    {
+      "phrase": "slowly, wastefully, on purpose",
+      "meaningVi": "chậm rãi, phí phạm, một cách có chủ ý"
+    },
+    {
+      "phrase": "the slowness was never about the coffee",
+      "meaningVi": "sự chậm rãi chưa bao giờ là vì cà phê cả"
+    },
+    {
+      "phrase": "Rarely is the shortcut as free as it looks",
+      "meaningVi": "Hiếm khi lối tắt lại miễn phí như vẻ ngoài của nó"
+    },
+    {
+      "phrase": "it quietly bills us for the very thing we were trying to save",
+      "meaningVi": "nó lặng lẽ tính phí ta đúng cái thứ mà ta đang cố giữ lại"
+    }
   ],
   "sampleGrammarNotes": [
     {
@@ -100,12 +315,12 @@
       "id": "q1",
       "prompt": "Which sentence demonstrates correct inversion after 'Only when'?",
       "options": [
-        "Only when the last step was gone I noticed it had been the point.",
         "Only when the last step was gone did I notice it had been the point.",
+        "Only when the last step was gone I noticed it had been the point.",
         "Only when the last step was gone I did notice it had been the point.",
         "Only when gone the last step was did notice I it had been the point."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'Only when…' fronts the clause and triggers subject-auxiliary inversion in the main clause: 'did I notice', not 'I noticed'.",
       "hint": "After the 'Only when' clause, the main clause flips subject and auxiliary."
     },
@@ -127,11 +342,11 @@
       "prompt": "In the coffee example, what does the essay say actually vanished?",
       "options": [
         "The flavour of the coffee.",
-        "Everything around the cup — the sitting, the waiting, the shape the afternoon had.",
         "The clay jebena itself.",
+        "Everything around the cup — the sitting, the waiting, the shape the afternoon had.",
         "The grandmother's recipe."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay is explicit: 'Nothing in the cup was worse; what vanished was everything around the cup.'",
       "hint": "Reread the contrast between the cup and what surrounded it."
     },
@@ -140,11 +355,11 @@
       "prompt": "Which option expresses the essay's claim with appropriate C1 hedging?",
       "options": [
         "Optimising any ritual always destroys it forever.",
-        "What tends to happen when a ritual is optimised is that the part you measure improves and the part you cannot measure disappears.",
         "People who use coffee machines have no soul.",
-        "Family rituals have been scientifically proven to prevent loneliness."
+        "Family rituals have been scientifically proven to prevent loneliness.",
+        "What tends to happen when a ritual is optimised is that the part you measure improves and the part you cannot measure disappears."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "Option B uses 'What tends to happen', describing a tendency rather than an absolute law, matching the essay's hedged claim; the others overstate or moralise.",
       "hint": "Look for the tentative phrasing that describes a tendency, not a certainty."
     },
@@ -152,12 +367,12 @@
       "id": "q5",
       "prompt": "How does the essay treat the objection that some rituals are dead weight?",
       "options": [
-        "It denies that any ritual is ever pointless.",
         "It fully grants that dead rituals exist and should be cut, then argues this sharpens the point: the danger is killing living ones with a tool that cannot tell them apart.",
+        "It denies that any ritual is ever pointless.",
         "It says all rituals are equally meaningful.",
         "It abandons its thesis after the objection."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay concedes that some friction is just friction, then narrows: efficiency cuts living and dead rituals with the same blind confidence.",
       "hint": "Notice the full grant that 'sharpens rather than blunts the point'."
     },
@@ -179,11 +394,11 @@
       "prompt": "Which sentence best continues a paragraph that has just argued a ritual's inefficiency is its mechanism, keeping the same focus and tone?",
       "options": [
         "By the way, Ethiopia is the birthplace of the coffee plant.",
-        "The steps a stopwatch would call waste are the steps that mark the threshold, turning a drink into an occasion.",
         "Modern machines now use recyclable coffee pods.",
+        "The steps a stopwatch would call waste are the steps that mark the threshold, turning a drink into an occasion.",
         "You should always offer guests a hot drink when they visit."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "Option B sustains the argument's focus (waste as the working mechanism) and register; the others drift onto trivia, product facts, or etiquette advice.",
       "hint": "Which option keeps arguing that the 'waste' is what does the work?"
     },
@@ -192,11 +407,11 @@
       "prompt": "What does 'the meal becomes refuelling' mean in context?",
       "options": [
         "The family started eating at petrol stations.",
-        "Without the pause, the meal is reduced to mere intake of food rather than a shared moment of attention.",
         "The food was reheated to keep it warm.",
-        "The family ate larger portions than before."
+        "The family ate larger portions than before.",
+        "Without the pause, the meal is reduced to mere intake of food rather than a shared moment of attention."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "Cutting the pause strips the meal of its function as a 'meeting', leaving only the mechanical intake of calories.",
       "hint": "Contrast 'refuelling' with the essay's word 'meeting'."
     },
@@ -204,12 +419,12 @@
       "id": "q9",
       "prompt": "Which option uses the most natural collocation for 'fill something with meaning'?",
       "options": [
-        "to fill up meaning into the ritual",
         "to imbue the ritual with meaning",
+        "to fill up meaning into the ritual",
         "to put meaning onto the ritual",
         "to load the ritual by meaning"
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "'Imbue X with Y' is the natural collocation; the others are non-native pairings.",
       "hint": "Recall the verb that pairs with 'with meaning'."
     },
@@ -231,11 +446,11 @@
       "prompt": "What is the rhetorical effect of using inversion ('Rarely is…') in the closing sentence?",
       "options": [
         "It introduces a new, unrelated argument.",
-        "It echoes the formal inversion of the opening, framing the essay and giving a sense of closure.",
         "It admits the reflection has failed.",
+        "It echoes the formal inversion of the opening, framing the essay and giving a sense of closure.",
         "It shows the essay is unfinished."
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "Returning to a fronted-adverb inversion mirrors the 'Only when…' opening, lending the essay deliberate closure and formality.",
       "hint": "Think about what mirroring the opening structure at the end achieves."
     },
@@ -245,10 +460,10 @@
       "options": [
         "The roasting had been an excuse to sit and talk.",
         "Cut the pause, and the meal becomes refuelling.",
-        "The machine produce better coffee at the press of a button.",
-        "Some rituals are dead weight, kept going by guilt alone."
+        "Some rituals are dead weight, kept going by guilt alone.",
+        "The machine produce better coffee at the press of a button."
       ],
-      "answerIndex": 2,
+      "answerIndex": 3,
       "explanation": "'The machine produce' is a subject-verb agreement error; it should be 'the machine produces'.",
       "hint": "Check the subject and its verb in each option."
     },
@@ -256,12 +471,12 @@
       "id": "q13",
       "prompt": "Which option is closest to the essay's idea that 'efficiency is blind to meaning by design'?",
       "options": [
-        "Efficient tools are poorly built and break easily.",
         "A tool that measures only time can see what a step costs but never the unmeasurable work the step quietly does.",
+        "Efficient tools are poorly built and break easily.",
         "Designers deliberately make rituals meaningless.",
         "Meaning and efficiency are exactly the same thing."
       ],
-      "answerIndex": 1,
+      "answerIndex": 0,
       "explanation": "The essay's point is structural: efficiency sees minutes, not meaning, so it cannot distinguish a living step from a dead one.",
       "hint": "Connect 'blind to meaning' to what a stopwatch can and cannot measure."
     },
@@ -283,11 +498,11 @@
       "prompt": "What single question does the essay propose asking before cutting a step?",
       "options": [
         "How many minutes will this save per week?",
-        "Is this step in the way, or is this step the way?",
         "Will the food still be warm afterwards?",
+        "Is this step in the way, or is this step the way?",
         "Does anyone still enjoy this part?"
       ],
-      "answerIndex": 1,
+      "answerIndex": 2,
       "explanation": "The essay frames the discipline around exactly this question — distinguishing an obstacle from the mechanism itself.",
       "hint": "The question turns on a pun the essay sets up earlier ('It was the way')."
     },
@@ -296,11 +511,11 @@
       "prompt": "Which option best paraphrases 'it quietly bills us for the very thing we were trying to save'?",
       "options": [
         "Shortcuts charge a hidden fee in extra money.",
-        "The time-saving shortcut ends up costing us the meaning or connection the time was for in the first place.",
         "Coffee machines are more expensive than they appear.",
-        "We should always read the price before buying."
+        "We should always read the price before buying.",
+        "The time-saving shortcut ends up costing us the meaning or connection the time was for in the first place."
       ],
-      "answerIndex": 1,
+      "answerIndex": 3,
       "explanation": "The 'bill' is metaphorical: the shortcut's hidden cost is the very thing (the afternoon, the meaning) we hoped to keep by saving time.",
       "hint": "Decode the finance metaphor: what is being billed, and was it money?"
     }
